@@ -33,6 +33,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: בדיקות החוזה של פינת המלחמות
+        run: python tools/test_war_contract.py
+
+      - name: קליטת ניתוחי מלחמות (תיבה → בדיקה → טיוטה; פרסום רק מאושרים)
+        run: python tools/ingest_war.py
+
       - name: הרצת המשימה
         run: python tools/update_data.py
 
@@ -40,7 +46,7 @@ jobs:
         run: |
           git config user.name  "news-site-bot"
           git config user.email "news-site-bot@users.noreply.github.com"
-          git add data/generated
+          git add data/generated data/war
           if git diff --cached --quiet; then
             echo "אין שינוי"
           else
