@@ -184,6 +184,169 @@ def job_globes():
     return {"top": main[:2], "market": market[:25]}
 
 
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
+
+
+def fetch_html(url):
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Accept-Language": "he-IL,he;q=0.9"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def strip_tags(s):
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = s.replace("&quot;", '"').replace("&#39;", "'").replace("&amp;", "&").replace("&nbsp;", " ")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def job_ifa():
+    """ליגת העל — לוח המשחקים הרשמי של ההתאחדות לכדורגל (עובדות: תאריך, קבוצות, שעה, תוצאה + קישור).
+    זמנים בשעון ישראל, כפי שמופיעים באתר."""
+    html = fetch_html("https://www.football.org.il/leagues/games/?league_id=40")
+    rows = re.findall(r'<a class="table_row link_url"[^>]*href="(/leagues/games/game/\?game_id=\d+)"[^>]*>(.*?)</a>', html, re.S)
+    today = datetime.now(timezone.utc) + timedelta(hours=3)          # קירוב לשעון ישראל — רק לחלון התאריכים
+    lo, hi = (today - timedelta(days=21)).date(), (today + timedelta(days=12)).date()   # 3 שבועות — לזיהוי כל 14 הקבוצות
+    games = []
+    for href, body in rows:
+        cols = [strip_tags(re.sub(r'<span class="sr-only">.*?</span>', "", c))
+                for c in re.findall(r'<div class="table_col[^"]*">(.*?)</div>', body, re.S)]
+        if len(cols) < 4:
+            continue
+        date_s, match_s = cols[0], cols[1]
+        stadium = cols[2] if len(cols) >= 5 else ""
+        time_s = cols[3] if len(cols) >= 5 else cols[2]
+        result_s = cols[4] if len(cols) >= 5 else (cols[3] if len(cols) >= 4 else "")
+        try:
+            d = datetime.strptime(date_s, "%d/%m/%Y").date()
+        except ValueError:
+            continue
+        if not (lo <= d <= hi) or " - " not in match_s:
+            continue
+        home, away = [t.strip() for t in match_s.split(" - ", 1)]
+        if not re.fullmatch(r"\d{1,2}:\d{2}", time_s or ""):
+            time_s = ""
+        score = result_s if re.fullmatch(r"\d+\s*-\s*\d+", result_s or "") else ""
+        games.append({"date": d.isoformat(), "time": time_s, "home": home, "away": away,
+                      "stadium": stadium[:60], "score": score,
+                      "link": "https://www.football.org.il" + href})
+    if not rows:
+        raise ValueError("מבנה הדף השתנה — לא נמצאו משחקים")
+    games.sort(key=lambda g: (g["date"], g["time"]))
+    return games
+
+
+# הערה: עמוד המשחקים של ההתאחדות מציג רק משחקים ששוחקו. משחקים עתידיים — מלוח השידורים.
+
+
+def job_tv():
+    """לוח שידורי ספורט (LiveGames): ערוץ + שעה + משחק. רק כדורגל וכדורסל. עובדות בלבד + קישור ללוח המלא."""
+    html = fetch_html("https://www.livegames.co.il/broadcastspage.aspx")
+    out = []
+    for m in re.finditer(r'<table class="broadcastTable[^"]*"[^>]*data-date="(\d{2}/\d{2}/\d{2})"[^>]*>(.*?)</table>', html, re.S):
+        try:
+            day = datetime.strptime(m.group(1), "%d/%m/%y").date().isoformat()
+        except ValueError:
+            continue
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(2), re.S):
+            ch = re.search(r'td2">(.*?)</td>', tr, re.S)
+            tm = re.search(r'td3">(.*?)</td>', tr, re.S)
+            ds = re.search(r'td4">(.*?)</td>', tr, re.S)
+            if not (ch and tm and ds):
+                continue
+            desc = strip_tags(ds.group(1))
+            if not re.match(r"^(כדורגל|כדורסל)\s*:", desc):
+                continue
+            sport, _, title = desc.partition(":")
+            t = strip_tags(tm.group(1))
+            if not re.fullmatch(r"\d{1,2}:\d{2}", t):
+                continue
+            out.append({"date": day, "time": t, "channel": strip_tags(ch.group(1))[:30],
+                        "sport": sport.strip(), "title": title.strip()[:120]})
+    if not out:
+        raise ValueError("מבנה הדף השתנה — לא נמצאו שידורים")
+    return out
+
+
+# ---- ליגת העל: חיבור בין לוח ההתאחדות ללוח השידורים ----
+# ההתאחדות כותבת "מכבי פ"ת", לוח השידורים כותב "מכבי פתח תקווה". מנרמלים לשני הכיוונים.
+
+ABBR = [("י-ם", "ירושלים"), ('ב"ש', "באר שבע"), ('פ"ת', "פתח תקווה"), ('ק"ש', "קרית שמונה"),
+        ('ר"ג', "רמת גן"), ('ת"א', "תל אביב"), ("תקוה", "תקווה"), ("קריית", "קרית")]
+PREFIXES = ["מכבי", "הפועל", "ביתר", "בני", "עירוני"]
+
+
+def team_parts(name):
+    n = name.replace("״", '"').replace("בית\"ר", "ביתר")
+    for a, b in ABBR:
+        n = n.replace(a, b)
+    n = re.sub(r'["\'׳.]', " ", n)
+    n = re.sub(r"\s+", " ", n).strip()
+    words = n.split(" ")
+    prefix = words[0] if words and words[0] in PREFIXES else ""
+    city = " ".join(w for w in words if w not in PREFIXES and w != "דורות")
+    return prefix, city
+
+
+def league_keys(ifa_teams):
+    """מפתח זיהוי לכל קבוצה: העיר לבד אם היא ייחודית בליגה, אחרת קידומת+עיר."""
+    parts = [team_parts(t) for t in ifa_teams]
+    cities = [c for _, c in parts]
+    return {t: (c if cities.count(c) == 1 else p + " " + c) for t, (p, c) in zip(ifa_teams, parts)}
+
+
+def match_team(tv_name, keys):
+    p, c = team_parts(tv_name)
+    for team, key in keys.items():
+        if key == c or key == (p + " " + c) or (" " not in key and key and key in c):
+            return team
+    return None
+
+
+def build_ligat_haal(ifa_games, tv_rows):
+    teams = sorted({g["home"] for g in ifa_games} | {g["away"] for g in ifa_games})
+    keys = league_keys(teams)
+    upcoming = {}
+    for r in tv_rows or []:
+        if r.get("sport") != "כדורגל" or " - " not in r["title"]:
+            continue
+        h, a = [x.strip() for x in r["title"].split(" - ", 1)]
+        th, ta = match_team(h, keys), match_team(a, keys)
+        if not (th and ta) or th == ta:
+            continue                                 # שתי הקבוצות חייבות להיות מליגת העל
+        k = (r["date"], th, ta)
+        u = upcoming.setdefault(k, {"date": r["date"], "time": r["time"], "home": th, "away": ta, "channels": []})
+        if r["channel"] not in u["channels"]:
+            u["channels"].append(r["channel"])
+    # לוח השידורים כולל גם משחקי נוער/נשים של אותם מועדונים (בלי סימון).
+    # כלל: במחזור אחד כל קבוצה משחקת פעם אחת. מחזור = משחקים בטווח של עד 3 ימים.
+    # עדיפות: משחקי ערב/צהריים לפני משחקי בוקר (נוער משחק בדרך כלל בשבת בבוקר).
+    cands = sorted(upcoming.values(), key=lambda u: (u["date"], u["time"]))
+    kept, window, used, window_start = [], [], set(), None
+
+    def flush():
+        for u in sorted(window, key=lambda u: (u["time"] < "13:00", u["date"], u["time"])):
+            if u["home"] in used or u["away"] in used:
+                continue
+            used.update([u["home"], u["away"]])
+            kept.append(u)
+
+    for u in cands:
+        d = datetime.strptime(u["date"], "%Y-%m-%d").date()
+        if window_start is None or (d - window_start).days > 3:
+            flush()
+            window, used, window_start = [], set(), d
+        window.append(u)
+    flush()
+    upcoming = {(u["date"], u["home"], u["away"]): u for u in kept}
+
+    # תוצאות: המחזור האחרון ששוחק (לפי ההתאחדות)
+    played = [g for g in ifa_games if g.get("score")]
+    last_dates = sorted({g["date"] for g in played})[-3:]
+    results = [g for g in played if g["date"] in last_dates]
+    return {"teams": teams, "upcoming": sorted(upcoming.values(), key=lambda u: (u["date"], u["time"])),
+            "results": results}
+
+
 def job_boi():
     start = (datetime.now(timezone.utc) - timedelta(days=500)).strftime("%Y-%m-%d")
     url = ("https://edge.boi.gov.il/FusionEdgeServer/sdmx/v2/data/dataflow/BOI.STATISTICS/BR/1.0/"
@@ -245,6 +408,11 @@ def main():
 
     run_section(state, "boi", job_boi)
     run_section(state, "globes", job_globes)
+    run_section(state, "ifa", job_ifa)
+    run_section(state, "tv", job_tv)
+    # ליגת העל = לוח ההתאחדות + לוח השידורים. גם אם אחד נכשל עכשיו — משתמשים בנתון הקודם שלו.
+    run_section(state, "ligat_haal", lambda: build_ligat_haal(
+        (state.get("ifa") or {}).get("data") or [], (state.get("tv") or {}).get("data") or []))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
     state["generated_at"] = now_iso()
@@ -263,7 +431,7 @@ def main():
         json.dump(state, f, ensure_ascii=False, indent=1)
         f.write(";\n")
 
-    failed = [k for k in ("boi", "globes", "animals", "av_en") if not state[k]["ok"]]
+    failed = [k for k in ("boi", "globes", "ifa", "tv", "animals", "av_en") if not state[k]["ok"]]
     print("done" + (f" — failed: {failed}" if failed else ""))
 
 

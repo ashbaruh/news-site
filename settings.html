@@ -70,20 +70,23 @@
       '<h3 class="sub">פורקס / סחורות</h3>' + chips(C.watchlist.fx_commodities));
 
     var A = window.DB.athletes || { players: [], to_check: [] };
+    var ICON = { abroad: '✅', manual: '⚠️', returned: '🏠', inactive: '⏸️' };
     function playerRow(a) {
-      return '<li>' + (a.status === 'confirmed' ? '✅ ' : '⚠️ ') + '<b>' + esc(a.name) + '</b> · ' + esc(a.club) +
-             ' <span class="locked">· ' + esc(a.country) + (a.league ? ' · ' + esc(a.league) : '') +
-             (a.club_verified === false ? ' · הקבוצה לא אומתה' : '') + '</span></li>';
+      return '<li>' + (ICON[a.status] || '') + ' <b>' + esc(a.name) + '</b> · ' + esc(a.club) +
+             ' <span class="locked">' + (a.country ? '· ' + esc(a.country) : '') + (a.note ? ' · ' + esc(a.note) : '') + '</span></li>';
     }
-    var nba = A.players.filter(function (p) { return p.sport === 'כדורסל'; });
-    var fbOk = A.players.filter(function (p) { return p.sport === 'כדורגל' && p.status === 'confirmed'; });
-    var fbCheck = A.players.filter(function (p) { return p.sport === 'כדורגל' && p.status !== 'confirmed'; });
-    html += block('מאגר ישויות — ספורטאים ישראלים (' + A.players.length + ')',
-      'רשימה ידנית בכוונה, לא זיהוי אוטומטי. כדורגל: נולדו בישראל, כל ליגה בעולם. כדורסל: ישראלים ב-NBA. ' +
-      '✅ = אומת בחדשות ' + A.checked_at + ' · ⚠️ = מרשימת ספטמבר 2025, לבדוק. עריכה: data/athletes.js',
-      '<h3 class="sub">NBA (' + nba.length + ')</h3><ul class="rows">' + nba.map(playerRow).join('') + '</ul>' +
-      '<h3 class="sub">כדורגל — אומת (' + fbOk.length + ')</h3><ul class="rows">' + fbOk.map(playerRow).join('') + '</ul>' +
-      '<h3 class="sub">כדורגל — לבדיקה (' + fbCheck.length + ')</h3><ul class="rows">' + fbCheck.map(playerRow).join('') + '</ul>' +
+    function group(title, arr) {
+      return arr.length ? '<h3 class="sub">' + title + ' (' + arr.length + ')</h3><ul class="rows">' + arr.map(playerRow).join('') + '</ul>' : '';
+    }
+    var P = A.players;
+    html += block('מאגר ישויות — ספורטאים ישראלים (' + P.length + ')',
+      'רשימה ידנית, מאומתת מול ' + (A.checked_with || '') + ' ב-' + A.checked_at + '. ' +
+      '✅ בחו"ל, אומת — מקבל תוצאות באתר · ⚠️ לא נמצא ב-ESPN, לא אומת · 🏠 חזר לארץ · ⏸️ לא פעיל. עריכה: data/athletes.js',
+      group('NBA', P.filter(function (p) { return p.sport === 'nba'; })) +
+      group('כדורגל — בחו"ל, אומת', P.filter(function (p) { return p.sport === 'soccer' && p.status === 'abroad'; })) +
+      group('כדורגל — לא אומת (ליגות נמוכות)', P.filter(function (p) { return p.status === 'manual'; })) +
+      group('חזרו לארץ — לא במעקב', P.filter(function (p) { return p.status === 'returned'; })) +
+      group('לא פעילים', P.filter(function (p) { return p.status === 'inactive'; })) +
       (A.to_check.length ? '<h3 class="sub">שמות לבירור</h3><ul class="rows">' +
         A.to_check.map(function (t) { return '<li class="locked">' + esc(t) + '</li>'; }).join('') + '</ul>' : ''));
 

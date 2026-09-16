@@ -15,7 +15,7 @@
     if (!g || typeof g !== 'object' || typeof g.generated_at !== 'string') return false;
     if (isNaN(new Date(g.generated_at).getTime())) return false;
     // כל מקטע חייב להיות אובייקט עם ok בוליאני — אחרת לא סומכים על הקובץ
-    return ['boi', 'globes', 'animals', 'av_en'].every(function (k) {
+    return ['boi', 'globes', 'ifa', 'tv', 'ligat_haal', 'animals', 'av_en'].every(function (k) {
       return !g[k] || (typeof g[k] === 'object' && typeof g[k].ok === 'boolean');
     });
   }

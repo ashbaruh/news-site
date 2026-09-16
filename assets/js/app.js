@@ -125,6 +125,29 @@
         : 'אין היום תנועה חריגה ב-S&P 100.'));
     }
 
+    // 3ב. ספורט — ישראלים שכבשו/בישלו (או 20+ נקודות ב-NBA) ב-36 השעות האחרונות
+    var sp = live.sports && live.sports.data;
+    if (sp) {
+      var stars = [];
+      sp.forEach(function (row) {
+        var ov = row.ov && row.ov.data;
+        if (!ov) return;
+        (ov.games || []).forEach(function (g) {
+          var age = Date.now() - new Date(g.date).getTime();
+          if (age < 0 || age > 36 * 3600000) return;
+          var s = g.stats || {}, bits = [];
+          if (row.player.sport === 'nba') { if (+s.PTS >= 20) bits.push(F.ltr(s.PTS + ' נק\'')); }
+          else {
+            if (+s.G) bits.push(+s.G === 1 ? 'כבש' : 'כבש ' + F.ltr(String(s.G)));
+            if (+s.A) bits.push(+s.A === 1 ? 'בישל' : 'בישל ' + F.ltr(String(s.A)));
+          }
+          if (bits.length) stars.push(esc(row.player.name) + ' ' + bits.join(' ו') + ' (' + esc(row.player.club) + ' ' +
+            F.ltr((g.team_score !== null ? g.team_score : '?') + '–' + (g.opp_score !== null ? g.opp_score : '?')) + ')');
+        });
+      });
+      if (stars.length) lines.push('<b>ספורט</b>: ' + stars.slice(0, 3).join(' · ') + '.');
+    }
+
     // 4. ריבית
     var gb = window.DB.generated && window.DB.generated.boi && window.DB.generated.boi.data;
     var fed = live.fed && live.fed.data;
@@ -685,24 +708,182 @@
      4. ספורט
      ============================================================ */
   function renderSports() {
-    var s = window.DB.sports;
-    var html =
-      '<h3 class="sub">תוצאות ישראלים</h3>' +
-      '<ul class="rows">' + s.results.map(function (r) {
-        return '<li><b>' + esc(r.who) + '</b> — ' + esc(r.text) + '</li>';
-      }).join('') + '</ul>' +
-      '<h3 class="sub">ליגת העל בכדורגל — היום</h3>' +
-      '<ul class="rows">' + s.fixtures_il.map(function (f) {
-        return '<li>' + esc(f.time) + ' · ' + esc(f.match) + ' <span class="locked">(' + esc(f.tv) + ')</span></li>';
-      }).join('') + '</ul>' +
-      '<h3 class="sub">ישראלים בחו"ל — היום</h3>' +
-      '<ul class="rows">' + s.fixtures_abroad.map(function (f) {
-        return '<li>' + esc(f.time) + ' · ' + esc(f.match) + ' <span class="locked">(' + esc(f.tv) + ')</span></li>';
-      }).join('') + '</ul>';
+    var src = R.sourceById('src_espn');
+    var A = window.DB.athletes || { players: [] };
+    var sp = (window.DB.live || {}).sports;
 
-    html = '<p class="locked"><span class="tag-demo">דמה</span> כל הפינה עדיין נתוני דמה — ממתין לאישור רשימת השחקנים (שלב 3).</p>' + html;
-    $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', html);
+    if (!R.isDisplayable(src)) {
+      // ESPN חסום (מצב ציבורי) — ליגת העל עדיין מוצגת, כי מקורותיה מורשים
+      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports',
+        ligatHaalHtml() + '<p class="locked">תוצאות ומשחקים של ישראלים בחו"ל — אין מקור מורשה במצב הפרסום הנוכחי.</p>');
+      return;
+    }
+
+    var st = F.evaluate('sports', sp && sp.data_time, sp ? sp.ok : undefined, true);
+    var DAY = 86400000;
+
+    function relDay(iso) {
+      var d = new Date(iso), now = new Date();
+      var a = new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+      var b = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+      var diff = Math.round((a - b) / DAY);
+      return diff === 0 ? 'היום' : diff === 1 ? 'מחר' : diff === -1 ? 'אתמול' : F.dateText(iso);
+    }
+
+    function plural(n, one, many) { return n === 1 ? one : F.ltr(String(n)) + ' ' + many; }
+
+    function soccerLine(s) {
+      var parts = [], app = String(s.APP || '');
+      if (/start/i.test(app)) parts.push('פתח');
+      else if (/sub/i.test(app)) parts.push('נכנס כמחליף');
+      var g = +s.G || 0, a = +s.A || 0, yc = +s.YC || 0, rc = +s.RC || 0;
+      if (g) parts.push(plural(g, 'שער', 'שערים'));
+      if (a) parts.push(plural(a, 'בישול', 'בישולים'));
+      if (yc) parts.push('צהוב');
+      if (rc) parts.push('🟥 אדום');
+      return parts.join(', ');
+    }
+
+    function nbaLine(s) {
+      if (!s.MIN || s.MIN === '0') return 'לא שיחק';
+      return F.ltr((s.PTS || 0) + ' נק\'') + ', ' + F.ltr((s.REB || 0) + ' ריב\'') + ', ' + F.ltr((s.AST || 0) + ' אס\'') +
+             ' <span class="locked">(' + F.ltr(s.MIN + ' דק\'') + ')</span>';
+    }
+
+    var RESULT = { W: 'ניצחון', L: 'הפסד', D: 'תיקו' };
+
+    var results = {}, fixtures = {}, moved = [];
+    var now = Date.now();
+
+    ((sp && sp.data) || []).forEach(function (row) {
+      var p = row.player;
+      var ov = row.ov && row.ov.data;
+      var tm = row.tm && row.tm.data;
+      var was = (A.espn_team_at_check || {})[p.espn_id];
+      if (tm && tm.team && was && tm.team !== was) moved.push({ p: p, from: was, to: tm.team });
+      if (!ov) return;
+
+      (ov.games || []).forEach(function (g) {
+        var t = new Date(g.date).getTime();
+        if (t > now || now - t > 7 * DAY) return;
+        var key = g.id + ':' + g.team_abbr;
+        var r = results[key] || (results[key] = { g: g, club: p.club, players: [] });
+        r.players.push({ p: p, line: p.sport === 'nba' ? nbaLine(g.stats) : soccerLine(g.stats) });
+      });
+
+      var nx = ov.next;
+      if (nx) {
+        var t2 = new Date(nx.date).getTime();
+        if (t2 >= now - 3 * 3600000 && t2 - now <= 7 * DAY) {
+          var f = fixtures[nx.id] || (fixtures[nx.id] = { n: nx, players: [] });
+          // בדיקת עקביות: המשחק הבא אמור לכלול את הקבוצה של השחקן. לא כולל? לא מציגים כוודאי.
+          var team = (tm && tm.team) || was || '';
+          var core = team.toLowerCase().replace(/\b(fc|cf|sc|ac|afc|fk|sk|united|city)\b/g, '').replace(/[^a-zÀ-ɏ]+/g, ' ').trim().split(' ')[0] || '';
+          var inMatch = !core || (nx.home + ' ' + nx.away).toLowerCase().indexOf(core) > -1;
+          f.players.push({ p: p, mismatch: !inMatch, team: team });
+        }
+      }
+    });
+
+    var resList = Object.keys(results).map(function (k) { return results[k]; })
+      .sort(function (a, b) { return a.g.date < b.g.date ? 1 : -1; }).slice(0, 8);
+    var fixList = Object.keys(fixtures).map(function (k) { return fixtures[k]; })
+      .sort(function (a, b) { return a.n.date < b.n.date ? -1 : 1; }).slice(0, 8);
+
+    var resultsHtml;
+    if (!sp) resultsHtml = '<p class="locked">טוען נתונים של ' + A.players.filter(function (p) { return p.status === 'abroad'; }).length + ' שחקנים…</p>';
+    else if (!sp.data) resultsHtml = '<p class="locked"><span class="down">המקור לא זמין כרגע.</span></p>';
+    else if (!resList.length) resultsHtml = '<p class="locked">אין משחקים של ישראלים ב-7 הימים האחרונים.</p>';
+    else resultsHtml = '<ul class="rows sport">' + resList.map(function (r) {
+      var g = r.g;
+      var score = (g.team_score !== null && g.opp_score !== null) ? F.ltr(g.team_score + '–' + g.opp_score) : '';
+      var cls = g.result === 'W' ? 'up' : g.result === 'L' ? 'down' : '';
+      return '<li><span class="locked">' + esc(relDay(g.date)) + ' · ' + esc(g.league || '') + '</span><br>' +
+        '<b>' + esc(r.club) + '</b> ' + score + ' ' + esc(g.opponent || '') +
+        (RESULT[g.result] ? ' <span class="' + cls + '">(' + RESULT[g.result] + ')</span>' : '') +
+        (g.note ? ' <span class="locked">· ' + esc(g.note) + '</span>' : '') +
+        r.players.map(function (x) {
+          return '<div class="sp-player">' + esc(x.p.name) + (x.line ? ': ' + x.line : '') + '</div>';
+        }).join('') + '</li>';
+    }).join('') + '</ul>';
+
+    var fixHtml;
+    if (!sp || !sp.data) fixHtml = '';
+    else if (!fixList.length) fixHtml = '<p class="locked">אין משחקים של ישראלים ב-7 הימים הקרובים.</p>';
+    else fixHtml = '<ul class="rows sport">' + fixList.map(function (f) {
+      var n = f.n;
+      return '<li><b>' + esc(relDay(n.date)) + ' ' + F.ltr(F.hhmm(n.date)) + '</b> · ' +
+        esc(n.home) + ' – ' + esc(n.away) + ' <span class="locked">· ' + esc(n.league || '') + '</span>' +
+        '<div class="sp-player">' + f.players.map(function (x) {
+          return esc(x.p.name) + (x.mismatch
+            ? ' <span class="tag-demo" title="' + esc('ב-ESPN רשום ב-' + x.team + ', אבל המשחק הבא שלו לא של הקבוצה הזו') + '">⚠️ לא תואם לקבוצה שלו — ייתכן שעבר</span>'
+            : '');
+        }).join(', ') + '</div></li>';
+    }).join('') + '</ul>';
+
+    /* --- ליגת העל: משחקי היום (או המחזור הבא) + ערוץ, ותוצאות המחזור האחרון --- */
+    function ligatHaalHtml() {
+      var g = generated('ligat_haal');
+      var okIfa = R.isDisplayable(R.sourceById('src_ifa')), okTv = R.isDisplayable(R.sourceById('src_livegames'));
+      if (!g.entry || !g.entry.data) {
+        return '<h3 class="sub">ליגת העל בכדורגל</h3><p class="locked">המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
+      }
+      var d = g.entry.data;
+      function localIso() { var n = new Date(); return new Date(n.getTime() - n.getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
+      function dm(iso) { var p = iso.split('-'); return F.ltr(p[2] + '/' + p[1]); }
+      var today = localIso();
+      var up = okTv ? (d.upcoming || []).filter(function (u) { return u.date >= today; }) : [];
+      var todays = up.filter(function (u) { return u.date === today; });
+      var show = todays.length ? todays : up.filter(function (u) {
+        // המחזור הבא: כל המשחקים עד 3 ימים מהמשחק הקרוב
+        return up.length && (new Date(u.date) - new Date(up[0].date)) <= 3 * 86400000;
+      });
+      var title = todays.length ? 'ליגת העל בכדורגל — היום' : 'ליגת העל בכדורגל — המחזור הבא';
+
+      var upHtml = !okTv ? '<p class="locked">אין מקור מורשה ללוח השידורים במצב הפרסום הנוכחי.</p>'
+        : !show.length ? '<p class="locked">לא נמצאו משחקים בלוח השידורים לימים הקרובים.</p>'
+        : '<ul class="rows sport">' + show.map(function (u) {
+            var day = u.date === today ? 'היום' : dm(u.date);
+            return '<li><b>' + esc(day === 'היום' ? '' : day + ' ') + F.ltr(esc(u.time)) + '</b> · ' + esc(u.home) + ' – ' + esc(u.away) +
+                   '<div class="sp-player">📺 ' + esc(u.channels.join(' / ')) + '</div></li>';
+          }).join('') + '</ul>';
+
+      var res = okIfa ? (d.results || []) : [];
+      var resHtml = res.length
+        ? '<h3 class="sub">ליגת העל — תוצאות המחזור האחרון</h3><ul class="rows sport">' + res.map(function (r) {
+            var sc = r.score.split('-');
+            return '<li><span class="locked">' + dm(r.date) + '</span> · ' +
+                   '<a href="' + esc(r.link) + '" target="_blank" rel="noopener noreferrer">' +
+                   esc(r.home) + ' ' + F.ltr(esc(sc[0].trim()) + '–' + esc((sc[1] || '').trim())) + ' ' + esc(r.away) + '</a></li>';
+          }).join('') + '</ul>'
+        : '';
+
+      return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
+        '<p class="locked filter-note">משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' +
+        'תוצאות: ההתאחדות לכדורגל · נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
+    }
+
+    var movedHtml = moved.length
+      ? '<p class="locked filter-note">⚠️ ייתכן שעברו קבוצה (לפי ESPN): ' + moved.map(function (m) {
+          return esc(m.p.name) + ' — ' + esc(m.from) + ' ← ' + esc(m.to);
+        }).join(' · ') + '</p>'
+      : '';
+
+    var html =
+      '<h3 class="sub">תוצאות ישראלים — 7 הימים האחרונים</h3>' + resultsHtml +
+      '<h3 class="sub">ישראלים בחו"ל — משחקים קרובים</h3>' + fixHtml + movedHtml +
+      ligatHaalHtml() +
+      (sp ? '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
+        (sp.data_time ? 'נבדק ' + F.dateTimeText(sp.data_time) : '') +
+        (sp.partial_failures ? ' · <span class="down">' + sp.partial_failures + ' מתוך ' + sp.total + ' שחקנים לא נטענו</span>' : '') +
+        ' · ' + esc(src.attribution) + ' · <span class="tag-demo">שימוש אישי בלבד</span></div>' : '');
+
+    $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', html, false, st);
   }
+
+  document.addEventListener('live:update', function (ev) {
+    if (ev.detail && (ev.detail.key === 'sports' || ev.detail.key === 'generated')) renderSports();
+  });
 
   /* ============================================================
      5. תוכן חיובי

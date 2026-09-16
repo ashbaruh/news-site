@@ -306,6 +306,8 @@ h3.sub:first-child { margin-top: 0; }
 .rows.news a:hover { color: var(--accent); }
 .filter-note { font-size: 11.5px; margin: 4px 0 0; }
 .mk-tags { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
+.rows.sport li { line-height: 1.5; }
+.sp-player { font-size: 12.5px; color: var(--text-dim); padding-inline-start: 10px; border-inline-start: 2px solid var(--line); margin-top: 3px; }
 .mk-tags .tag-demo { color: var(--accent); border-color: #1d3b5c; }
 .badge.lic.med-approved { color: var(--ok); border-color: #1c4a26; }
 .badge.lic.med-research { color: var(--accent); border-color: #1d3b5c; }

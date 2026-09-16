@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T13:52:22+00:00",
-  "fetched_at": "2026-09-16T13:52:22+00:00"
+  "checked_at": "2026-09-16T16:25:49+00:00",
+  "fetched_at": "2026-09-16T16:25:49+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T13:52:23+00:00",
-  "fetched_at": "2026-09-16T13:52:23+00:00"
+  "checked_at": "2026-09-16T16:25:52+00:00",
+  "fetched_at": "2026-09-16T16:25:52+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Marshall Kilburn III",
+    "title_he": "מרשל קילבורן השלישי",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/marshall-kilburn-iii",
+    "date": "2026-09-16T14:45:26+00:00"
+   },
+   {
+    "title_en": "“We have to have an edge, otherwise we’re not going to survive” – this huge home-appliance brand is adding TVs to its portfolio, and a major British hi-fi brand is on board",
+    "title_he": "\"חייבים להיות לנו יתרון, אחרת לא נשרוד\" - מותג מכשירי החשמל הביתי הענק הזה מוסיף טלוויזיות לפורטפוליו שלו, ומותג Hi-Fi בריטי גדול נמצא על הסיפון",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/we-have-to-have-an-edge-otherwise-were-not-going-to-survive-this-huge-home-appliance-brand-is-adding-tvs-to-its-portfolio-and-a-major-british-hi-fi-brand-is-on-board",
+    "date": "2026-09-16T14:30:09+00:00"
+   },
    {
     "title_en": "iFi has squeezed a DAC and headphone amplifier into its latest USB-C in-ear monitor cable",
     "title_he": "ה-iFi לחץ מגבר DAC ואוזניות לתוך כבל ה-USB-C האחרון שלו בתוך האוזן",
@@ -62,61 +76,62 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/i-spent-a-week-with-the-vodafone-tv-here-are-three-things-i-like-and-two-i-dont",
     "date": "2026-09-16T10:15:01+00:00"
-   },
-   {
-    "title_en": "I just ran the What Hi-Fi? Awards 2026 big UST projector shootout – and I have two words of warning",
-    "title_he": "בדיוק הרצתי את ה-What Hi-Fi? פרסים 2026 קרב יריות גדול של מקרן UST – ויש לי שתי מילות אזהרה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/i-just-ran-the-what-hi-fi-awards-2026-big-ust-projector-shootout-and-i-have-two-words-of-warning",
-    "date": "2026-09-16T09:51:30+00:00"
-   },
-   {
-    "title_en": "This hi-res streaming service dedicated to jazz and classical music is now available on WiiM products",
-    "title_he": "שירות הזרמת היי-רזולוציה זה המוקדש לג'אז ולמוזיקה קלאסית זמין כעת במוצרי WiiM",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/this-hi-res-streaming-service-dedicated-to-jazz-and-classical-music-is-now-available-on-wiim-products",
-    "date": "2026-09-16T09:45:48+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T13:52:24+00:00",
-  "fetched_at": "2026-09-16T13:52:24+00:00"
+  "checked_at": "2026-09-16T16:25:52+00:00",
+  "fetched_at": "2026-09-16T16:25:52+00:00"
  },
- "generated_at": "2026-09-16T13:52:24+00:00",
+ "generated_at": "2026-09-16T16:25:52+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עליות בבורסה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קופצות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555531",
-     "date": "2026-09-16T13:41:00+00:00"
+     "title": "בכיר באוצר: למרות פריצת תקציב הביטחון, יעד הגירעון יישמר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556674",
+     "date": "2026-09-16T16:11:00+00:00"
     },
     {
      "title": "סערה באיראן: \"ארה\"ב טרפדה את המפגש הקריטי על הורמוז\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555598",
-     "date": "2026-09-16T08:55:00+00:00"
+     "date": "2026-09-16T15:24:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות בבורסה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קופצות",
+     "title": "מנכ\"ל אנבידיה מסמן: זה התחום הלוהט הבא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555600",
+     "date": "2026-09-16T16:17:00+00:00"
+    },
+    {
+     "title": "נעילה ירוקה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קפצו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555531",
-     "date": "2026-09-16T13:41:00+00:00"
+     "date": "2026-09-16T14:29:00+00:00"
     },
     {
-     "title": "SK Hynix ואינטל במגעים לייצור שבבי זיכרון בארה\"ב",
+     "title": "דריכות בוול סטריט לקראת החלטת הפד: עליות בהובלת הנאסד\"ק; אינטל מזנקת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
+     "date": "2026-09-16T14:27:00+00:00"
+    },
+    {
+     "title": "האמריקאים מרוויחים יותר, אבל מרגישים עניים יותר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556639",
+     "date": "2026-09-16T14:12:00+00:00"
+    },
+    {
+     "title": "ב-11 מיליון שקל: טרמינל איקס בדרך לרכוש את השליטה בסוהו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556638",
+     "date": "2026-09-16T13:58:00+00:00"
+    },
+    {
+     "title": "שיתוף פעולה עם SK Hynix: הדיווח שמקפיץ את מניית אינטל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555626",
-     "date": "2026-09-16T10:06:00+00:00"
+     "date": "2026-09-16T13:44:00+00:00"
     },
     {
-     "title": "בפקיסטן מייצרים הרבה יותר טויוטות. וזה סימן רע למזרח התיכון",
+     "title": "הטנדרים שמתרבים בפקיסטן - ומדליקים נורה אדומה במזרח התיכון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555616",
      "date": "2026-09-16T09:42:00+00:00"
-    },
-    {
-     "title": "לקראת החלטת הריבית בארה\"ב: עליות באירופה וירידה במחיר הנפט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
-     "date": "2026-09-16T09:29:00+00:00"
     },
     {
      "title": "\"שוק המניות מתקשה לתפקד כך\": מאחורי החודש שהפתיע והדרמה באג\"ח",
@@ -207,26 +222,1078 @@ window.DB.generated = {
      "title": "שלוש החלטות ב־36 שעות: הכלכלות הגדולות מאותתות על שינוי כיוון הריבית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555407",
      "date": "2026-09-15T11:30:00+00:00"
-    },
-    {
-     "title": "בעקבות סערת הבטיחות בתחום ה-AI: ענק ההשקעות שמוריד חשיפה לוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555453",
-     "date": "2026-09-15T10:37:00+00:00"
-    },
-    {
-     "title": "החודש שהכה את התחזיות: אלטשולר שחם כובש את צמרת התשואות באקורד סיום פנטסטי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555463",
-     "date": "2026-09-15T09:30:00+00:00"
-    },
-    {
-     "title": "אפסייד של קרוב ל-100%: נקסט ויז'ן עלתה על הרדאר של גופים בינלאומיים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555455",
-     "date": "2026-09-15T07:45:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T13:52:22+00:00",
-  "fetched_at": "2026-09-16T13:52:22+00:00"
+  "checked_at": "2026-09-16T16:25:49+00:00",
+  "fetched_at": "2026-09-16T16:25:49+00:00"
+ },
+ "ifa": {
+  "data": [
+   {
+    "date": "2026-08-29",
+    "time": "20:00",
+    "home": "בני סכנין",
+    "away": "מכבי פ\"ת",
+    "stadium": "סכנין אצטדיון דוחא",
+    "score": "2-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120568"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "20:00",
+    "home": "הפועל פ\"ת",
+    "away": "הפועל י-ם",
+    "stadium": "פתח תקוה אצטדיון שלמה ביטוח",
+    "score": "0-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120573"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "20:00",
+    "home": "הפועל ק\"ש",
+    "away": "עירוני דורות טבריה",
+    "stadium": "נתניה אצטדיון מרים",
+    "score": "0-2",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120574"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "20:04",
+    "home": "הפועל ר\"ג",
+    "away": "הפועל ב\"ש",
+    "stadium": "רחובות אצטדיון עירוני",
+    "score": "2-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120571"
+   },
+   {
+    "date": "2026-08-29",
+    "time": "20:30",
+    "home": "בית\"ר י-ם",
+    "away": "מכבי נתניה",
+    "stadium": "בלומפילד",
+    "score": "4-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120569"
+   },
+   {
+    "date": "2026-08-30",
+    "time": "20:17",
+    "home": "הפועל חיפה",
+    "away": "הפועל ת\"א",
+    "stadium": "חיפה אצטדיון סמי עופר",
+    "score": "0-0",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120570"
+   },
+   {
+    "date": "2026-08-31",
+    "time": "20:30",
+    "home": "מכבי ת\"א",
+    "away": "מכבי חיפה",
+    "stadium": "בלומפילד",
+    "score": "1-3",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120572"
+   },
+   {
+    "date": "2026-09-02",
+    "time": "20:01",
+    "home": "הפועל ב\"ש",
+    "away": "הפועל חיפה",
+    "stadium": "באר שבע אצטדיון טוטו ע\"ש טרנר",
+    "score": "2-2",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120565"
+   },
+   {
+    "date": "2026-09-03",
+    "time": "20:36",
+    "home": "הפועל ת\"א",
+    "away": "בית\"ר י-ם",
+    "stadium": "בלומפילד",
+    "score": "0-3",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120566"
+   },
+   {
+    "date": "2026-09-05",
+    "time": "19:45",
+    "home": "מכבי פ\"ת",
+    "away": "עירוני דורות טבריה",
+    "stadium": "פתח תקוה אצטדיון שלמה ביטוח",
+    "score": "2-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120575"
+   },
+   {
+    "date": "2026-09-05",
+    "time": "19:45",
+    "home": "הפועל י-ם",
+    "away": "הפועל ק\"ש",
+    "stadium": "רחובות אצטדיון עירוני",
+    "score": "2-4",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120576"
+   },
+   {
+    "date": "2026-09-05",
+    "time": "20:33",
+    "home": "מכבי חיפה",
+    "away": "הפועל פ\"ת",
+    "stadium": "חיפה אצטדיון סמי עופר",
+    "score": "1-2",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120577"
+   },
+   {
+    "date": "2026-09-07",
+    "time": "19:45",
+    "home": "מכבי נתניה",
+    "away": "הפועל חיפה",
+    "stadium": "נתניה אצטדיון מרים",
+    "score": "1-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120580"
+   },
+   {
+    "date": "2026-09-07",
+    "time": "20:01",
+    "home": "הפועל ת\"א",
+    "away": "הפועל ר\"ג",
+    "stadium": "בלומפילד",
+    "score": "0-4",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120579"
+   },
+   {
+    "date": "2026-09-07",
+    "time": "20:15",
+    "home": "בני סכנין",
+    "away": "בית\"ר י-ם",
+    "stadium": "סכנין אצטדיון דוחא",
+    "score": "1-0",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120581"
+   },
+   {
+    "date": "2026-09-07",
+    "time": "20:30",
+    "home": "הפועל ב\"ש",
+    "away": "מכבי ת\"א",
+    "stadium": "באר שבע אצטדיון טוטו ע\"ש טרנר",
+    "score": "4-1",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120578"
+   },
+   {
+    "date": "2026-09-13",
+    "time": "20:30",
+    "home": "הפועל פ\"ת",
+    "away": "הפועל ב\"ש",
+    "stadium": "פתח תקוה אצטדיון שלמה ביטוח",
+    "score": "2-0",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120586"
+   },
+   {
+    "date": "2026-09-14",
+    "time": "19:30",
+    "home": "הפועל חיפה",
+    "away": "בני סכנין",
+    "stadium": "חיפה אצטדיון סמי עופר",
+    "score": "1-3",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120583"
+   },
+   {
+    "date": "2026-09-14",
+    "time": "19:30",
+    "home": "הפועל ר\"ג",
+    "away": "מכבי נתניה",
+    "stadium": "רחובות אצטדיון עירוני",
+    "score": "0-2",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120584"
+   },
+   {
+    "date": "2026-09-14",
+    "time": "20:00",
+    "home": "הפועל ק\"ש",
+    "away": "מכבי חיפה",
+    "stadium": "נתניה אצטדיון מרים",
+    "score": "4-0",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120587"
+   },
+   {
+    "date": "2026-09-14",
+    "time": "20:30",
+    "home": "מכבי ת\"א",
+    "away": "הפועל ת\"א",
+    "stadium": "בלומפילד",
+    "score": "1-4",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120585"
+   },
+   {
+    "date": "2026-09-15",
+    "time": "19:30",
+    "home": "עירוני דורות טבריה",
+    "away": "הפועל י-ם",
+    "stadium": "נוף הגליל אצטדיון בראל",
+    "score": "2-2",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120588"
+   },
+   {
+    "date": "2026-09-15",
+    "time": "20:00",
+    "home": "בית\"ר י-ם",
+    "away": "מכבי פ\"ת",
+    "stadium": "בלומפילד",
+    "score": "1-3",
+    "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
+   }
+  ],
+  "ok": true,
+  "checked_at": "2026-09-16T16:25:49+00:00",
+  "fetched_at": "2026-09-16T16:25:49+00:00"
+ },
+ "tv": {
+  "data": [
+   {
+    "date": "2026-09-16",
+    "time": "01:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קלוב אתלטיקו פלאטנסה - פלומיננזה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "01:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ואסקו דה גמא - סנטה פה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "03:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "סאו פאולו - בוקה ג'וניורס"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - הפועל קטמון ירושלים"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית גת - בנות נתניה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי אס\"א תל אביב - מכבי כשרונות חדרה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי חולון - הפועל תל אביב"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "19:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אומוניה ניקוסיה - סלטה ויגו"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "20:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אתלטיקו מדריד - אוסאסונה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "20:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "מכבי רמת גן - הפועל גליל עליון"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "22:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר יונייטד - ברייטון"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "22:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מילאן - בנפיקה"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "22:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "הפועל באר שבע - דינמו זאגרב"
+   },
+   {
+    "date": "2026-09-16",
+    "time": "22:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "ברצלונה - ראסינג סנטאנדר"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "01:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "ליגה דפורטיבו דה קיטו - פלמייראס"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "01:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אתלטיקו מיניירו - סאנטוס"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "03:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קורינתיאנס - אסטודיאנטס לה פלטה"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "13:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מצ'ידה זלביה - סוואי ריאנג"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "18:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "בני הרצליה - מכבי ראשון לציון"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי אחי נצרת - הפועל עכו"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - מכבי קריית גת"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מכבי הרצליה"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית ים - עירוני מודיעין"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "אתר ספורט 5",
+    "sport": "כדורגל",
+    "title": "מ.ס. כפר קאסם - הפועל כפר סבא"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "הפועל עפולה - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי יפו - מכבי בני ריינה"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מ.ס אשדוד - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "אופי כרתים - הופנהיים"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "20:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "בטיס - חטאפה"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - הפועל תל אביב"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "21:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר סיטי - נוריץ'"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "22:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "יובנטוס - ניימיכן"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "22:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קריסטל פאלאס - לך פוזנן"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "22:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "מלאגה - ויאריאל"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "03:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "פלמנגו - אינדפנדיינטה דל ואלה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "03:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מונטבידאו סיטי טורק - סיאנסיאנו"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "14:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "הפועל ירושלים - הפועל ב\"ש/דימונה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "15:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "הפועל תל אביב - הפועל פתח תקווה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "17:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אולימפיאקוס - פנרבחצ'ה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "19:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "וולפסבורג - דרמשטאדט"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "20:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "לינגבי - סילקבורג"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "20:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - ריאל מדריד"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "21:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "ריימס - מונפלייה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "21:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר סיטי נשים - ליברפול נשים"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "21:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "באיירן מינכן - אוניון ברלין"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "21:45",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "מונזה - ססואולו"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "21:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מונאקו - לאנס"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "22:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ברנטפורד - צ'לסי"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "22:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "בריסטול סיטי - ווטפורד"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אספניול - אלצ'ה"
+   },
+   {
+    "date": "2026-09-18",
+    "time": "22:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "פאריס סן ז'רמן נשים - נאנט"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "11:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "בית\"ר ירושלים - מכבי תל אביב"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "11:50",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל תל אביב - הפועל רעננה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "11:55",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי הרצליה - מכבי נתניה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "12:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "מלבורן יונייטד - אדלייד 36"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "14:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קרלסרוהה - נירנברג"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "14:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "טוטנהאם - אסטון וילה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "14:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מילוול - ווסטהאם"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "15:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אוסאסונה - ראיו ואייקאנו"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "16:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "אודינזה - קליארי"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "16:00",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "בולוניה - טורינו"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "16:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "פאלרמו - קאלציו פאדובה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "16:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "איינטרכט פרנקפורט - פרייבורג"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "17:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ניוקאסל - האל"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "17:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ברייטון - ארסנל"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "17:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "רקסהאם - סאות'המפטון"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "17:15",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אתלטיק בילבאו - אלאבס"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "18:15",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "פאריס - שטרסבורג"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "18:15",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "סמפדוריה - קטנזארו"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "אודנסה - מידטיילנד"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "רומא - אינטר"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "בני סכנין - הפועל רמת גן"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:30",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "מכבי פתח תקווה - הפועל ירושלים"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "סלטה ויגו - ראסינג סנטאנדר"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "19:30",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "שטוטגרט - בורוסיה דורטמונד"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "מכבי נתניה - מכבי תל אביב"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "מכבי חיפה - עירוני טבריה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "הפועל באר שבע - הפועל קרית שמונה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:15",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "הפועל גליל עליון - הפועל העמק"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:30",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "בית\"ר ירושלים - הפועל חיפה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "אייאקס - אקסלסיור"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "ונציה - לאציו"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "טולוז - לה האבר"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "לה מאן - לוריין"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "אנז'ה - טרואה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "ליון - ראן"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "סביליה - ברצלונה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "22:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "קאדיס - ג'ירונה"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "22:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "מונפלייה - מארסיי"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "22:00",
+    "channel": "ספורט 2",
+    "sport": "כדורסל",
+    "title": "ולנסיה - ברצלונה"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "00:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "רמו - סאנטוס"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "01:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "ריבר פלייט - הורקאן"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "13:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "פיינורד - אוטרכט"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "15:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "חטאפה - מלאגה"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "15:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "טוונטה - פ.ס.וו. איינדהובן"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "פרוסינונה - קומו"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "לידס - קריסטל פאלאס"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "בורנמות' - ליברפול"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר סיטי - סנדרלנד"
+   }
+  ],
+  "ok": true,
+  "checked_at": "2026-09-16T16:25:50+00:00",
+  "fetched_at": "2026-09-16T16:25:50+00:00"
+ },
+ "ligat_haal": {
+  "data": {
+   "teams": [
+    "בית\"ר י-ם",
+    "בני סכנין",
+    "הפועל ב\"ש",
+    "הפועל חיפה",
+    "הפועל י-ם",
+    "הפועל פ\"ת",
+    "הפועל ק\"ש",
+    "הפועל ר\"ג",
+    "הפועל ת\"א",
+    "מכבי חיפה",
+    "מכבי נתניה",
+    "מכבי פ\"ת",
+    "מכבי ת\"א",
+    "עירוני דורות טבריה"
+   ],
+   "upcoming": [
+    {
+     "date": "2026-09-18",
+     "time": "15:45",
+     "home": "הפועל ת\"א",
+     "away": "הפועל פ\"ת",
+     "channels": [
+      "ספורט 1"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "19:30",
+     "home": "בני סכנין",
+     "away": "הפועל ר\"ג",
+     "channels": [
+      "ספורט 5+ לייב"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "19:30",
+     "home": "מכבי פ\"ת",
+     "away": "הפועל י-ם",
+     "channels": [
+      "5 סטארס"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:00",
+     "home": "מכבי נתניה",
+     "away": "מכבי ת\"א",
+     "channels": [
+      "ספורט 1"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:00",
+     "home": "מכבי חיפה",
+     "away": "עירוני דורות טבריה",
+     "channels": [
+      "ספורט 2"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:15",
+     "home": "הפועל ב\"ש",
+     "away": "הפועל ק\"ש",
+     "channels": [
+      "ספורט 4"
+     ]
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:30",
+     "home": "בית\"ר י-ם",
+     "away": "הפועל חיפה",
+     "channels": [
+      "ספורט 5"
+     ]
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-09-13",
+     "time": "20:30",
+     "home": "הפועל פ\"ת",
+     "away": "הפועל ב\"ש",
+     "stadium": "פתח תקוה אצטדיון שלמה ביטוח",
+     "score": "2-0",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120586"
+    },
+    {
+     "date": "2026-09-14",
+     "time": "19:30",
+     "home": "הפועל חיפה",
+     "away": "בני סכנין",
+     "stadium": "חיפה אצטדיון סמי עופר",
+     "score": "1-3",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120583"
+    },
+    {
+     "date": "2026-09-14",
+     "time": "19:30",
+     "home": "הפועל ר\"ג",
+     "away": "מכבי נתניה",
+     "stadium": "רחובות אצטדיון עירוני",
+     "score": "0-2",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120584"
+    },
+    {
+     "date": "2026-09-14",
+     "time": "20:00",
+     "home": "הפועל ק\"ש",
+     "away": "מכבי חיפה",
+     "stadium": "נתניה אצטדיון מרים",
+     "score": "4-0",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120587"
+    },
+    {
+     "date": "2026-09-14",
+     "time": "20:30",
+     "home": "מכבי ת\"א",
+     "away": "הפועל ת\"א",
+     "stadium": "בלומפילד",
+     "score": "1-4",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120585"
+    },
+    {
+     "date": "2026-09-15",
+     "time": "19:30",
+     "home": "עירוני דורות טבריה",
+     "away": "הפועל י-ם",
+     "stadium": "נוף הגליל אצטדיון בראל",
+     "score": "2-2",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120588"
+    },
+    {
+     "date": "2026-09-15",
+     "time": "20:00",
+     "home": "בית\"ר י-ם",
+     "away": "מכבי פ\"ת",
+     "stadium": "בלומפילד",
+     "score": "1-3",
+     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
+    }
+   ]
+  },
+  "ok": true,
+  "checked_at": "2026-09-16T16:25:50+00:00",
+  "fetched_at": "2026-09-16T16:25:50+00:00"
  }
 };
