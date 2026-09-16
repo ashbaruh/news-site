@@ -39,6 +39,7 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px 80px; }
+main.wrap { padding-bottom: 340px; }   /* שהתוכן האחרון לא יוסתר מאחורי נגן המוזיקה */
 
 /* ---------- באנר דמו ---------- */
 .demo-banner {
@@ -322,11 +323,31 @@ h3.sub:first-child { margin-top: 0; }
   padding: 8px 12px; border-bottom: 1px solid var(--line);
   font-size: 13px; display: flex; align-items: center; gap: 8px;
 }
-.player .stage { height: 96px; display: grid; place-items: center; color: var(--text-faint); font-size: 12px; text-align: center; padding: 8px; }
+/* כללי YouTube: הנגן חייב להיות גלוי, לפחות 200×200 — לכן רוחב 280 וגובה 200 */
+.player { width: 280px; }
+.player .stage { height: 200px; background: #000; }
+.player .stage iframe { display: block; width: 100%; height: 200px; border: 0; }
+.player .now {
+  padding: 6px 12px 0; font-size: 12px; color: var(--text-dim);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.player .now.hint { color: var(--warn); white-space: normal; }
+.player .now.err  { color: var(--bad);  white-space: normal; }
 .player select { width: 100%; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 5px; font-family: inherit; font-size: 12.5px; }
-.player .foot { padding: 8px 12px; }
+.player .foot { padding: 8px 12px; display: flex; gap: 8px; align-items: center; }
+.player .pl-controls { display: flex; gap: 4px; flex-shrink: 0; }
+.player .pl-controls button, .player .pl-mini button {
+  background: var(--bg-3); color: var(--text); border: 1px solid var(--line);
+  border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px; padding: 3px 8px;
+}
+.player .pl-controls button:hover, .player .pl-mini button:hover { border-color: var(--accent); }
 .player .toggle { background: none; border: 0; color: var(--text-dim); cursor: pointer; font-size: 16px; margin-inline-start: auto; font-family: inherit; }
-.player.collapsed .stage, .player.collapsed .foot { display: none; }
+.player .pl-mini { display: none; padding: 8px 12px; }
+.player .pl-mini button { width: 100%; text-align: start; }
+
+/* ממוזער: הנגן מוסתר ולכן גם עוצר (כללי YouTube). נשאר כפתור "המשך". */
+.player.minimized .stage, .player.minimized .now, .player.minimized .foot { display: none; }
+.player.minimized .pl-mini { display: block; }
 
 /* ---------- פוטר ---------- */
 footer.site { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--text-faint); font-size: 12.5px; }

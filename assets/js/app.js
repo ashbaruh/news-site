@@ -853,21 +853,7 @@
   /* ============================================================
      7. נגן מוזיקה (ווידג'ט קבוע)
      ============================================================ */
-  function renderPlayer() {
-    var opts = C.playlists.map(function (p) {
-      return '<option' + (p.is_default ? ' selected' : '') + '>' + esc(p.name) + '</option>';
-    }).join('');
-
-    $('#player').innerHTML =
-      '<header>🎵 <span>נגן מוזיקה</span><button class="toggle" id="pl-toggle" title="צמצם/הרחב">▾</button></header>' +
-      '<div class="stage">מקום שמור ל-YouTube IFrame API<br><small>נבנה בשלב 5</small></div>' +
-      '<div class="foot"><select>' + opts + '</select></div>';
-
-    $('#pl-toggle').addEventListener('click', function () {
-      $('#player').classList.toggle('collapsed');
-      this.textContent = $('#player').classList.contains('collapsed') ? '▴' : '▾';
-    });
-  }
+  /* נגן המוזיקה — assets/js/player.js */
 
   function renderFooter() {
     $('#social').innerHTML = C.social.map(function (s) {
@@ -884,6 +870,5 @@
   renderSports();
   renderPositive();
   renderLifestyle();
-  renderPlayer();
   renderFooter();
 })();

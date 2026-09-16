@@ -150,10 +150,15 @@ window.DB.config = {
     // { title: 'שם המוצר', desc: 'תיאור קצר', url: 'https://...', category: 'קולנוע ביתי' }
   ],
 
-  /* ---- פלייליסטים YouTube ---- */
+  /* ---- פלייליסטים YouTube (מהערוץ ASH Vinyl & Hi-Fi) ----
+     נבדקו 16/09/2026: כולם ציבוריים וניתנים להטמעה.
+     is_default — מתנגן בכניסה. הבחירה האחרונה של הגולש נזכרת בדפדפן שלו. */
   playlists: [
-    { id: 'pl1', name: 'פלייליסט ברירת מחדל', youtube_id: 'PLACEHOLDER', is_default: true },
-    { id: 'pl2', name: 'פלייליסט שני',        youtube_id: 'PLACEHOLDER', is_default: false }
+    { id: 'pink-floyd', name: 'PINK FLOYD',        youtube_id: 'PLpcJDzLtcPAWFBqQBNxqBm0imWEoNMkz0', is_default: true },
+    { id: 'meditation', name: 'MEDITATION',        youtube_id: 'PLpcJDzLtcPAWJl_-m_cZAbvB_kj5M2KUV' },
+    { id: 'julio',      name: 'JULIO IGLESIAS',    youtube_id: 'PLpcJDzLtcPAV-Ror4M60_h4bTwy3YpfJR' },
+    { id: 'streisand',  name: 'BARBARA STREISAND', youtube_id: 'PLpcJDzLtcPAXMhLmjf_iK1EdsOTEPFspI' },
+    { id: 'country',    name: 'ASH COUNTRY SONGS', youtube_id: 'PLpcJDzLtcPAWrBi-Kf6wp79PjgmXIV_IT' }
   ],
 
   /* ---- קישורי רשתות חברתיות (placeholder עד שתיתן אמיתיים) ---- */
