@@ -36,12 +36,19 @@ window.Reliability = (function () {
   }
 
   /* כל הדיווחים של אירוע */
-  function reportsFor(eventId) {
-    return (window.DB.reports || []).filter(function (r) { return r.event_id === eventId; });
+  /* מקבל אירוע או מזהה. ניתוח מהבינה הפרטית מגיע עם הדיווחים וההיסטוריה בתוך האירוע;
+     נתוני הדמה — בטבלאות נפרדות (DB.reports / DB.revisions). */
+  function reportsFor(ev) {
+    if (ev && typeof ev === 'object' && Array.isArray(ev.reports)) return ev.reports;
+    var id = (ev && typeof ev === 'object') ? ev.id : ev;
+    return (window.DB.reports || []).filter(function (r) { return r.event_id === id; });
   }
 
-  function revisionsFor(eventId) {
-    return (window.DB.revisions || []).filter(function (r) { return r.event_id === eventId; });
+  function revisionsFor(ev) {
+    if (ev && typeof ev === 'object' && Array.isArray(ev.revisions)) return ev.revisions;
+    if (ev && typeof ev === 'object' && Array.isArray(ev.reports)) return [];
+    var id = (ev && typeof ev === 'object') ? ev.id : ev;
+    return (window.DB.revisions || []).filter(function (r) { return r.event_id === id; });
   }
 
   /* ----------------------------------------------------------
@@ -49,7 +56,7 @@ window.Reliability = (function () {
      מחזיר אובייקט עם: level, label, reason, ומידע נלווה.
      ---------------------------------------------------------- */
   function assess(event) {
-    var reports = reportsFor(event.id);
+    var reports = reportsFor(event);
 
     // רק דיווחים ממקורות שמותר להציג נספרים לתצוגה,
     // אבל הספירה לאימות מתבצעת על כל הדיווחים —
@@ -69,7 +76,7 @@ window.Reliability = (function () {
 
     var base = {
       reports: reports,
-      revisions: revisionsFor(event.id),
+      revisions: revisionsFor(event),
       root_count: rootCount,
       group_count: groupCount,
       report_count: reports.length,
@@ -140,7 +147,7 @@ window.Reliability = (function () {
      באירוע מתמשך זה חסר משמעות — הוא עדיין קורה. */
   function isLateVerification(event) {
     if (event.is_ongoing) return false;
-    var reports = reportsFor(event.id);
+    var reports = reportsFor(event);
     if (reports.length < 2) return false;
     var last = reports.map(function (r) { return new Date(r.published_at).getTime(); })
                       .sort(function (a, b) { return b - a; })[0];
@@ -156,7 +163,7 @@ window.Reliability = (function () {
      חובה להראות את זה לקורא — לא לשנות בשקט.
      ---------------------------------------------------------- */
   function downgrade(event) {
-    var d = revisionsFor(event.id).filter(function (r) { return r.kind === 'downgrade'; });
+    var d = revisionsFor(event).filter(function (r) { return r.kind === 'downgrade'; });
     return d.length ? d[d.length - 1] : null;
   }
 
@@ -164,7 +171,7 @@ window.Reliability = (function () {
   function downgradeDurationHours(event) {
     var d = downgrade(event);
     if (!d) return 0;
-    var ups = revisionsFor(event.id).filter(function (r) {
+    var ups = revisionsFor(event).filter(function (r) {
       return r.to_level === d.from_level && new Date(r.at) < new Date(d.at);
     });
     if (!ups.length) return 0;

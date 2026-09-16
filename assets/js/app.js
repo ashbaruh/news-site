@@ -255,67 +255,156 @@
   document.addEventListener('live:update', renderDaily);
 
   /* ============================================================
-     1. פינת המלחמות
+     1. מלחמות / גיאופוליטיקה
+     ------------------------------------------------------------
+     לכל זירה: ניתוח מאושר מהבינה הפרטית (data/war/published.js) אם יש.
+     אין? באיראן — נתוני הדמה של שלב 1 (מסומנים). בשאר — "ממתין לניתוח ראשון".
      ============================================================ */
   var activeFilter = 'all';
+  var activeArena = null;
+
+  function publishedFor(arenaId) {
+    var p = window.DB.war_published || {};
+    return p[arenaId] && p[arenaId].analysis ? p[arenaId] : null;
+  }
+
+  var CONF_WORD = { high: 'מקורות מיפוי חזקים', medium: 'מקורות חלקיים', low: 'הערכה בלבד, מקורות מוגבלים' };
 
   function renderWars() {
-    var arena = C.arenas[0]; // בשלב 1 רק זירה אחת מלאה
+    if (!activeArena) {
+      var firstPublished = C.arenas.filter(function (a) { return publishedFor(a.id); })[0];
+      activeArena = firstPublished ? firstPublished.id : 'iran';
+    }
+    var arena = C.arenas.filter(function (a) { return a.id === activeArena; })[0] || C.arenas[0];
+    var pub = publishedFor(arena.id);
+    var isDemo = !pub && arena.id === 'iran';
 
-    var tabs = C.arenas.map(function (a, i) {
-      var on = (i === 0);
-      return '<button class="' + (on ? 'active' : '') + '"' + (on ? '' : ' disabled title="נבנית בשלב 6"') + '>' +
-             esc(a.name) + (on ? '' : ' · בקרוב') + '</button>';
+    var tabs = C.arenas.map(function (a) {
+      var has = !!publishedFor(a.id);
+      var label = esc(a.name) + (has ? '' : (a.id === 'iran' ? ' · דמה' : ' · ממתין'));
+      return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (a.id === arena.id ? 'active' : '') + '">' + label + '</button>';
     }).join('');
 
-    var confWord = { high: 'מקורות מיפוי חזקים', medium: 'מקורות חלקיים', low: 'הערכה בלבד, מקורות מוגבלים' };
+    var html = '<div class="arena-tabs">' + tabs + '</div>';
 
-    var mapHtml = '' +
-      '<div class="map-box">' +
-        '<div class="map-head">' +
-          '<span>🗺️ מפת הערכה — <b>אינה קו שליטה מאומת בשטח בזמן אמת</b></span>' +
-          '<span>· מופקת פעם ביום</span>' +
-          '<span>· רמת ביטחון המיפוי: <span class="conf ' + arena.map_confidence + '">' +
-            esc(confWord[arena.map_confidence]) + '</span></span>' +
-          freshTag('map') +
-        '</div>' +
-        '<div class="map-canvas">מקום שמור למפה (Mapbox/MapTiler) — שלב 6<br>' +
-          '<small>ההערכה האנליטית תוצג כאן עם שכבות מסומנות ברמת ביטחון</small></div>' +
-      '</div>';
+    if (pub) {
+      html += publishedHead(arena, pub);
+    } else if (isDemo) {
+      html += '<div class="window-note"><span class="tag-demo">דמה</span> ' +
+        '<b>חלון זמן:</b> 48 השעות האחרונות · <b>זירה:</b> ' + esc(arena.name) +
+        ' · נתוני דמה משלב 1, עד שיאושר ניתוח ראשון מהבינה הפרטית.</div>' +
+        mapBox(arena.map_confidence, '', []);
+    } else {
+      html += '<div class="window-note">אין עדיין ניתוח מאושר לזירה הזו. ' +
+        'ניתוח יופיע כאן אחרי שהמחשב הפרטי ישלח אותו, הוא יעבור את הבדיקה, ואתה תאשר אותו.</div>';
+      $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
+      bindWarTabs();
+      return;
+    }
 
-    var filters = '' +
+    html +=
       '<div class="filters">' +
         '<span class="lbl">סינון לפי סטטוס:</span>' +
-        '<button data-f="all" class="active">הכל</button>' +
-        '<button data-f="verified">מאומת בלבד</button>' +
-        '<button data-f="notverified">לא מאומת</button>' +
-        '<button data-f="changed">שונה/תוקן</button>' +
-      '</div>';
-
-    var html = '' +
-      '<div class="arena-tabs">' + tabs + '</div>' +
-      '<div class="window-note">' +
-        '<b>חלון זמן:</b> 48 השעות האחרונות · <b>זירה:</b> ' + esc(arena.name) +
-        ' · מסומן בנפרד מה חדש ומה <b>אימות מאוחר</b> של אירוע ישן.' +
+        '<button type="button" data-f="all" class="' + (activeFilter === 'all' ? 'active' : '') + '">הכל</button>' +
+        '<button type="button" data-f="verified" class="' + (activeFilter === 'verified' ? 'active' : '') + '">מאומת בלבד</button>' +
+        '<button type="button" data-f="notverified" class="' + (activeFilter === 'notverified' ? 'active' : '') + '">לא מאומת</button>' +
+        '<button type="button" data-f="changed" class="' + (activeFilter === 'changed' ? 'active' : '') + '">שונה/תוקן</button>' +
       '</div>' +
-      mapHtml + filters +
       '<div id="events"></div>' +
-      '<div id="not-verified-section"></div>';
+      '<div id="not-verified-section"></div>' +
+      (pub ? publishedTail(pub) : '');
 
     $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
-
     renderEvents();
+    bindWarTabs();
 
-    // כפתורי סינון
-    Array.prototype.forEach.call(document.querySelectorAll('.filters button'), function (b) {
+    Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .filters button'), function (b) {
       b.addEventListener('click', function () {
         activeFilter = b.dataset.f;
-        Array.prototype.forEach.call(document.querySelectorAll('.filters button'), function (x) {
+        Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .filters button'), function (x) {
           x.classList.toggle('active', x === b);
         });
         renderEvents();
       });
     });
+  }
+
+  function bindWarTabs() {
+    Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .arena-tabs button'), function (b) {
+      b.addEventListener('click', function () { activeArena = b.dataset.arena; renderWars(); });
+    });
+  }
+
+  function mapBox(confidence, note, layers) {
+    return '<div class="map-box">' +
+      '<div class="map-head">' +
+        '<span>🗺️ מפת הערכה — <b>אינה קו שליטה מאומת בשטח בזמן אמת</b></span>' +
+        '<span>· מופקת פעם ביום</span>' +
+        '<span>· רמת ביטחון המיפוי: <span class="conf ' + esc(confidence) + '">' + esc(CONF_WORD[confidence] || confidence) + '</span></span>' +
+      '</div>' +
+      (note ? '<div class="map-note">' + esc(note) + '</div>' : '') +
+      ((layers || []).length ? '<ul class="rows map-layers">' + layers.map(function (l) {
+          return '<li><span class="conf ' + esc(l.confidence) + '">●</span> <b>' + esc(l.name) + '</b> — ' + esc(l.description) +
+                 ' <span class="locked">(' + esc(CONF_WORD[l.confidence] || l.confidence) + ')</span></li>';
+        }).join('') + '</ul>' : '') +
+      '<div class="map-canvas">מקום שמור למפה (Mapbox/MapTiler)<br><small>השכבות מסומנות ברמת ביטחון</small></div>' +
+    '</div>';
+  }
+
+  /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */
+  function publishedHead(arena, pub) {
+    var a = pub.analysis;
+    return '<div class="window-note">' +
+        '<b>חלון זמן:</b> ' + F.dateTimeText(a.window.from) + ' ← ' + F.dateTimeText(a.window.to) +
+        ' · <b>זירה:</b> ' + esc(arena.name) +
+        ' · נוצר ' + F.dateTimeText(a.generated_at) + ' ע"י ' + esc(a.model.name) +
+        ' · <span class="tag-demo">אושר לפרסום</span>' +
+      '</div>' +
+      '<p class="war-summary">' + esc(a.summary) + '</p>' +
+      '<h3 class="sub">חזיתות וצירים</h3><ul class="rows">' + a.fronts.map(function (f) {
+        return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
+      }).join('') + '</ul>' +
+      mapBox(a.map.confidence, a.map.note, a.map.layers);
+  }
+
+  /* סוף הניתוח: כלכלה, מטרות (מוצהרת/מוסקת/תחזית), מקורות */
+  function publishedTail(pub) {
+    var a = pub.analysis;
+    var eco = (a.economy || []).length
+      ? '<h3 class="sub">מגמות כלכליות נלוות</h3><ul class="rows">' + a.economy.map(function (x) {
+          var ch = (x.change_pct === null || x.change_pct === undefined) ? '' :
+            ' <span class="' + (x.change_pct >= 0 ? 'up' : 'down') + '">' + F.ltr((x.change_pct >= 0 ? '+' : '') + x.change_pct + '%') + '</span>';
+          var src = R.sourceById(x.source_id);
+          return '<li><b>' + esc(x.indicator) + '</b>: ' + F.ltr(esc(String(x.value)) + ' ' + esc(x.unit)) + ch +
+                 ' <span class="locked">· ' + esc(src ? src.name : x.source_id) + ' · ' + F.dateTimeText(x.as_of) + '</span></li>';
+        }).join('') + '</ul>'
+      : '';
+
+    function col(title, items, cls) {
+      return '<div class="goal-col ' + cls + '"><div class="goal-h">' + title + '</div>' +
+        (items.length ? '<ul>' + items.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>'
+                      : '<div class="locked">—</div>') + '</div>';
+    }
+    var goals = (a.strategic_goals || []).length
+      ? '<h3 class="sub">מטרות אסטרטגיות — מופרדות, לא כעובדה אחת</h3>' + a.strategic_goals.map(function (g) {
+          return '<div class="goal-actor"><b>' + esc(g.actor) + '</b><div class="goal-grid">' +
+            col('מטרה מוצהרת', g.declared, 'declared') +
+            col('מטרה מוסקת (הערכה)', g.inferred, 'inferred') +
+            col('תחזית', g.forecast, 'forecast') + '</div></div>';
+        }).join('')
+      : '';
+
+    var cited = '<h3 class="sub">מקורות</h3><ul class="rows cited">' + a.sources_cited.map(function (c) {
+        var src = R.sourceById(c.source_id);
+        var ok = R.isDisplayable(src) && /^https:\/\//.test(c.url || '');
+        return '<li>' + esc(src ? src.name : c.source_id) +
+          (ok ? ' · <a href="' + esc(c.url) + '" target="_blank" rel="noopener noreferrer">קישור</a>' : ' · <span class="locked">לא מוצג במצב הפרסום הנוכחי</span>') +
+          ' <span class="locked">· נבדק ' + F.dateTimeText(c.accessed_at) + '</span></li>';
+      }).join('') + '</ul>' +
+      '<p class="locked filter-note">רמות האימות מחושבות באתר מתוך המקורות — הבינה לא קובעת מה מאומת. ' +
+      'טיוטה: ' + esc(pub.draft) + '</p>';
+
+    return eco + goals + cited;
   }
 
   function passesFilter(a, ev) {
@@ -327,9 +416,9 @@
   }
 
   function renderEvents() {
-    var list = window.DB.events
-      .filter(function (e) { return e.arena === 'iran'; })
-      .sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
+    var pub = publishedFor(activeArena);
+    var source = pub ? pub.analysis.events : window.DB.events.filter(function (e) { return e.arena === activeArena; });
+    var list = source.slice().sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
 
     var shown = [];
     var html = list.map(function (ev) {
@@ -341,15 +430,17 @@
 
     $('#events').innerHTML = html || '<p class="locked">אין אירועים בסינון הזה.</p>';
 
-    // סעיף נפרד ומפורש "מה לא מאומת"
+    // סעיף נפרד ומפורש "מה לא מאומת": מה שהאתר חישב + מה שהניתוח עצמו ציין
     var nv = shown.filter(function (o) {
       return ['initial', 'shared_root', 'unverified', 'disputed'].indexOf(o.a.level) > -1;
     });
-    $('#not-verified-section').innerHTML = !nv.length ? '' :
-      '<h3 class="sub">⚠️ מה לא מאומת (' + nv.length + ' פריטים)</h3>' +
-      '<ul class="rows">' + nv.map(function (o) {
-        return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>';
-      }).join('') + '</ul>';
+    var extra = pub ? (pub.analysis.not_verified || []) : [];
+    $('#not-verified-section').innerHTML = (!nv.length && !extra.length) ? '' :
+      '<h3 class="sub">⚠️ מה לא מאומת (' + (nv.length + extra.length) + ' פריטים)</h3>' +
+      '<ul class="rows">' +
+        nv.map(function (o) { return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>'; }).join('') +
+        extra.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') +
+      '</ul>';
   }
 
   function eventCard(ev, a) {
@@ -381,6 +472,9 @@
       }).join('') + '</ul>';
 
     var late = R.isLateVerification(ev) ? ' <span class="badge late">אימות מאוחר</span>' : '';
+    // מהמפרט: מה חדש בחלון הזמן, ומה עדכון/אימות מאוחר של אירוע ישן
+    if (ev.is_new_in_window === true)  late += ' <span class="badge ongoing">חדש בחלון</span>';
+    if (ev.is_new_in_window === false) late += ' <span class="badge lic">עדכון לאירוע קודם</span>';
     var reasonClass = a.level === 'verified' ? 'ok' : (a.level === 'shared_root' ? 'bad' : '');
 
     var span = R.timeSpan(ev);

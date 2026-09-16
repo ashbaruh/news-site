@@ -373,3 +373,18 @@ footer.site a { margin-inline-end: 12px; }
   .grid { grid-template-columns: 1fr; }
   .player { width: auto; inset-inline: 10px; inset-block-end: 10px; }
 }
+
+/* ---------- פינת המלחמות — ניתוח מאושר ---------- */
+.war-summary { margin: 0 0 12px; line-height: 1.7; }
+.map-note { padding: 8px 12px; font-size: 13px; color: var(--text-dim); border-bottom: 1px solid var(--line); }
+.map-layers { padding: 6px 12px; font-size: 12.5px; }
+.goal-actor { margin-bottom: 12px; }
+.goal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 6px; }
+.goal-col { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--bg); font-size: 13px; }
+.goal-col ul { margin: 0; padding-inline-start: 18px; }
+.goal-h { font-size: 11.5px; font-weight: 700; margin-bottom: 4px; }
+.goal-col.declared .goal-h { color: var(--ok); }
+.goal-col.inferred .goal-h { color: var(--warn); }
+.goal-col.forecast .goal-h { color: var(--purple); }
+.arena-tabs button { cursor: pointer; }
+@media (max-width: 700px) { .goal-grid { grid-template-columns: 1fr; } }
