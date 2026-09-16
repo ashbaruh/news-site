@@ -1,0 +1,889 @@
+/* ============================================================
+   app.js — מרכיב את דף הבית מהנתונים
+   ============================================================ */
+
+(function () {
+  var C = window.DB.config;
+  var R = window.Reliability;
+  var F = window.Freshness;
+
+  var $ = function (sel) { return document.querySelector(sel); };
+  var esc = function (s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
+    });
+  };
+
+  /* שם קריא לרמת אימות — לשימוש בהיסטוריית השינויים */
+  var LEVEL_NAMES = {
+    verified: 'מאומת', initial: 'דיווח ראשוני', shared_root: 'מקור-שורש משותף',
+    disputed: 'שנוי במחלוקת', retracted: 'בוטל', assessment: 'הערכה', unverified: 'ללא מקור'
+  };
+  function levelName(l) { return LEVEL_NAMES[l] || l || '—'; }
+
+  /* ---------- נתונים מהמשימה האוטומטית בענן (data/generated/feeds.js) ---------- */
+  function generated(name) {
+    var g = window.DB.generated;
+    var e = g && g[name];
+    if (!e) return { entry: null, state: F.evaluate('generated', null, undefined, true) };
+    // הגיל נמדד מהבדיקה האחרונה של המשימה. נכשלה → "מקור לא זמין" עם הנתון הקודם.
+    var st = F.evaluate('generated', e.ok ? e.checked_at : (e.fetched_at || null), e.ok, true);
+    return { entry: e, state: st };
+  }
+
+  /* כותרת (בעברית, או מתורגמת אוטומטית) + תאריך + קישור.
+     במעבר עכבר על כותרת מתורגמת — הכותרת המקורית באנגלית. */
+  function headlineItem(i) {
+    if (!/^https:\/\//.test(i.link || '')) return '';   // רק קישורים מאובטחים — הגנה מקישור זדוני
+    var translated = !!i.title_en;
+    var text = translated ? (i.title_he || i.title_en) : i.title;
+    var tip = translated ? ('מקור: ' + i.title_en) : '';
+    return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer"' +
+             (translated ? ' lang="he" title="' + esc(tip) + '"' : '') + '>' + esc(text) + '</a>' +
+           ' <span class="locked">· ' + F.dateText(i.date) + '</span>' +
+           (translated
+             ? (i.title_he ? ' <span class="tag-demo" title="' + esc(tip) + '">תורגם אוטומטית</span>'
+                           : ' <span class="tag-demo">באנגלית — התרגום נכשל</span>')
+             : '') +
+           '</li>';
+  }
+
+  /* ---------- תג טריות לכל פינה ---------- */
+  function freshTag(key, stateOverride) {
+    var s = stateOverride || F.state(key);
+    var txt = (s.level === 'down' || s.level === 'loading') ? s.label : ('עודכן ב-' + s.time + ' · ' + s.label);
+    return '<span class="fresh-tag ' + s.level + '" title="' + esc(s.age_text) + '">' + esc(txt) + '</span>';
+  }
+
+  /* ---------- שלד פינה ---------- */
+  function corner(num, title, key, innerHTML, wide, stateOverride) {
+    return '' +
+      '<section class="corner' + (wide ? ' wide' : '') + '">' +
+        '<header>' +
+          '<span class="num">' + num + '</span>' +
+          '<h2>' + esc(title) + '</h2>' +
+          freshTag(key, stateOverride) +
+        '</header>' +
+        '<div class="body">' + innerHTML + '</div>' +
+      '</section>';
+  }
+
+  /* ============================================================
+     ראש הדף
+     ============================================================ */
+  function renderHeader() {
+    $('#brand').innerHTML = esc(C.brand.site_name.slice(0, -1)) + '<span>' + esc(C.brand.site_name.slice(-1)) + '</span>';
+    $('#tagline').textContent = C.brand.tagline;
+    $('#clock').textContent = 'שעון האתר: ' + F.dateTimeText(F.now().toISOString()) +
+                              ' · מצב פרסום: ' + (C.publish_mode === 'public' ? 'ציבורי' : 'אישי');
+    if (!C.demo_mode) $('#demo-banner').style.display = 'none';
+  }
+
+  /* ------------------------------------------------------------
+     "היום בקצרה" — נבנה מהנתונים האמיתיים בכללים פשוטים, בלי בינה.
+     כל שורה נכתבת רק אם יש לה נתון אמיתי מאחוריה. אין נתון → אין שורה.
+     ------------------------------------------------------------ */
+  function renderDaily() {
+    var live = window.DB.live || {};
+    var lines = [];
+    function pc(v) { return F.ltr((v > 0 ? '+' : '') + v.toFixed(2) + '%'); }
+
+    // 1. מלחמות — עדיין נתוני דמה, ולכן מסומן
+    var evs = (window.DB.events || []).filter(function (e) { return e.arena === 'iran'; });
+    var verifiedToday = evs.filter(function (e) {
+      return R.assess(e).level === 'verified' && e.last_update_at.slice(0, 10) === '2026-09-16';
+    }).length;
+    if (evs.length) {
+      lines.push('<b>מלחמות</b> <span class="tag-demo">דמה</span>: ' + verifiedToday + ' אירועים אומתו היום בזירת איראן. ' +
+                 'שאר הזירות — בשלב 6.');
+    }
+
+    // 2. שווקים — המכשיר שזז הכי הרבה ברשימה + נפט + דולר
+    var syms = (window.DB.markets.watchlist || []).map(function (w) { return w.symbol; });
+    var moves = [];
+    syms.forEach(function (s) {
+      var r = resolveQuote(s);
+      if (r && !r.down && r.q.change !== null && r.q.change !== undefined) moves.push({ s: s, c: r.q.change, q: r.q });
+    });
+    if (moves.length) {
+      var big = moves.slice().sort(function (a, b) { return Math.abs(b.c) - Math.abs(a.c); })[0];
+      var parts = ['הכי זז ברשימה: ' + F.ltr(big.s) + ' ' + pc(big.c)];
+      var oil = moves.filter(function (m) { return m.s === 'USOIL'; })[0];
+      var usd = moves.filter(function (m) { return m.s === 'USD/ILS'; })[0];
+      if (oil && oil !== big) parts.push('נפט ' + pc(oil.c));
+      if (usd && usd !== big) parts.push('דולר/שקל ' + F.ltr(usd.q.price.toFixed(3)) + ' (' + pc(usd.c) + ')');
+      lines.push('<b>שווקים</b>: ' + parts.join(' · ') + '.');
+    }
+
+    // 3. מניות חריגות
+    var mv = live.movers && live.movers.data;
+    if (mv) {
+      var hits = [].concat(mv.crashed || [], mv.flew || []);
+      lines.push('<b>מניות חריגות</b>: ' + (hits.length
+        ? hits.map(function (a) { return F.ltr(a.sym + ' ' + (a.change > 0 ? '+' : '') + a.change.toFixed(1) + '%'); }).join(', ') +
+          ' — תנועה חריגה ביחס לרגיל.'
+        : 'אין היום תנועה חריגה ב-S&P 100.'));
+    }
+
+    // 4. ריבית
+    var gb = window.DB.generated && window.DB.generated.boi && window.DB.generated.boi.data;
+    var fed = live.fed && live.fed.data;
+    if (gb || fed) {
+      var rp = [];
+      if (gb) rp.push('בנק ישראל ' + F.ltr(gb.rate.toFixed(2) + '%'));
+      if (fed) rp.push('הפד ' + F.ltr(fed.target[0].toFixed(2) + '%–' + fed.target[1].toFixed(2) + '%'));
+      lines.push('<b>ריבית</b>: ' + rp.join(' · ') + '.');
+    }
+
+    // 5. הכותרת הכלכלית הראשונה שנוגעת לרשימה
+    var gg = window.DB.generated && window.DB.generated.globes && window.DB.generated.globes.data;
+    var top = gg && gg.market && gg.market.filter(function (i) {
+      return Object.keys(C.market_keywords || {}).some(function (k) { return C.market_keywords[k].test(i.title); });
+    })[0];
+    if (top) {
+      lines.push('<b>בכותרות</b>: <a href="' + esc(top.link) + '" target="_blank" rel="noopener noreferrer">' + esc(top.title) + '</a> ' +
+                 '<span class="locked">(גלובס)</span>');
+    }
+
+    $('#daily-list').innerHTML = lines.length
+      ? lines.map(function (t) { return '<li>' + t + '</li>'; }).join('')
+      : '<li class="locked">טוען נתונים…</li>';
+  }
+
+  document.addEventListener('live:update', renderDaily);
+
+  /* ============================================================
+     1. פינת המלחמות
+     ============================================================ */
+  var activeFilter = 'all';
+
+  function renderWars() {
+    var arena = C.arenas[0]; // בשלב 1 רק זירה אחת מלאה
+
+    var tabs = C.arenas.map(function (a, i) {
+      var on = (i === 0);
+      return '<button class="' + (on ? 'active' : '') + '"' + (on ? '' : ' disabled title="נבנית בשלב 6"') + '>' +
+             esc(a.name) + (on ? '' : ' · בקרוב') + '</button>';
+    }).join('');
+
+    var confWord = { high: 'מקורות מיפוי חזקים', medium: 'מקורות חלקיים', low: 'הערכה בלבד, מקורות מוגבלים' };
+
+    var mapHtml = '' +
+      '<div class="map-box">' +
+        '<div class="map-head">' +
+          '<span>🗺️ מפת הערכה — <b>אינה קו שליטה מאומת בשטח בזמן אמת</b></span>' +
+          '<span>· מופקת פעם ביום</span>' +
+          '<span>· רמת ביטחון המיפוי: <span class="conf ' + arena.map_confidence + '">' +
+            esc(confWord[arena.map_confidence]) + '</span></span>' +
+          freshTag('map') +
+        '</div>' +
+        '<div class="map-canvas">מקום שמור למפה (Mapbox/MapTiler) — שלב 6<br>' +
+          '<small>ההערכה האנליטית תוצג כאן עם שכבות מסומנות ברמת ביטחון</small></div>' +
+      '</div>';
+
+    var filters = '' +
+      '<div class="filters">' +
+        '<span class="lbl">סינון לפי סטטוס:</span>' +
+        '<button data-f="all" class="active">הכל</button>' +
+        '<button data-f="verified">מאומת בלבד</button>' +
+        '<button data-f="notverified">לא מאומת</button>' +
+        '<button data-f="changed">שונה/תוקן</button>' +
+      '</div>';
+
+    var html = '' +
+      '<div class="arena-tabs">' + tabs + '</div>' +
+      '<div class="window-note">' +
+        '<b>חלון זמן:</b> 48 השעות האחרונות · <b>זירה:</b> ' + esc(arena.name) +
+        ' · מסומן בנפרד מה חדש ומה <b>אימות מאוחר</b> של אירוע ישן.' +
+      '</div>' +
+      mapHtml + filters +
+      '<div id="events"></div>' +
+      '<div id="not-verified-section"></div>';
+
+    $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
+
+    renderEvents();
+
+    // כפתורי סינון
+    Array.prototype.forEach.call(document.querySelectorAll('.filters button'), function (b) {
+      b.addEventListener('click', function () {
+        activeFilter = b.dataset.f;
+        Array.prototype.forEach.call(document.querySelectorAll('.filters button'), function (x) {
+          x.classList.toggle('active', x === b);
+        });
+        renderEvents();
+      });
+    });
+  }
+
+  function passesFilter(a, ev) {
+    if (activeFilter === 'all') return true;
+    if (activeFilter === 'verified')    return a.level === 'verified';
+    if (activeFilter === 'notverified') return ['initial', 'shared_root', 'unverified', 'disputed', 'retracted'].indexOf(a.level) > -1;
+    if (activeFilter === 'changed')     return a.revisions.length > 0;
+    return true;
+  }
+
+  function renderEvents() {
+    var list = window.DB.events
+      .filter(function (e) { return e.arena === 'iran'; })
+      .sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
+
+    var shown = [];
+    var html = list.map(function (ev) {
+      var a = R.assess(ev);
+      if (!passesFilter(a, ev)) return '';
+      shown.push({ ev: ev, a: a });
+      return eventCard(ev, a);
+    }).join('');
+
+    $('#events').innerHTML = html || '<p class="locked">אין אירועים בסינון הזה.</p>';
+
+    // סעיף נפרד ומפורש "מה לא מאומת"
+    var nv = shown.filter(function (o) {
+      return ['initial', 'shared_root', 'unverified', 'disputed'].indexOf(o.a.level) > -1;
+    });
+    $('#not-verified-section').innerHTML = !nv.length ? '' :
+      '<h3 class="sub">⚠️ מה לא מאומת (' + nv.length + ' פריטים)</h3>' +
+      '<ul class="rows">' + nv.map(function (o) {
+        return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>';
+      }).join('') + '</ul>';
+  }
+
+  function eventCard(ev, a) {
+    var rootCounts = {};
+    a.reports.forEach(function (r) { rootCounts[r.source_root_id] = (rootCounts[r.source_root_id] || 0) + 1; });
+
+    var rows = a.reports.map(function (r) {
+      var s = R.sourceById(r.source_id);
+      var dup = rootCounts[r.source_root_id] > 1;
+      var ok  = R.isDisplayable(s);
+      return '<tr class="' + (dup ? 'same-root ' : '') + (ok ? '' : 'blocked') + '">' +
+        '<td>' + esc(s ? s.name : r.source_id) + '</td>' +
+        '<td>' + esc(s ? s.kind : '—') + '</td>' +
+        '<td class="root">' + esc(r.source_root_id) + (dup ? ' ⟵ משותף' : '') + '</td>' +
+        '<td>' + F.dateTimeText(r.published_at) + '</td>' +
+        '<td><span class="badge lic">' + esc(s ? R.licenseLabel(s) : '—') + '</span>' +
+            (ok ? '' : ' <span class="badge lic">לא מוצג</span>') + '</td>' +
+      '</tr>';
+    }).join('');
+
+    var timeline = !a.revisions.length ? '' :
+      '<h4>היסטוריית שינויים</h4><ul class="timeline">' +
+      a.revisions.map(function (v) {
+        var move = (v.from_level || v.to_level)
+          ? ' <span class="move">' + esc(levelName(v.from_level)) + ' ← ' + esc(levelName(v.to_level)) + '</span>'
+          : '';
+        return '<li class="' + v.kind + '"><span class="t">' + F.dateTimeText(v.at) + '</span>' + move +
+               '<br>' + esc(v.text) + '</li>';
+      }).join('') + '</ul>';
+
+    var late = R.isLateVerification(ev) ? ' <span class="badge late">אימות מאוחר</span>' : '';
+    var reasonClass = a.level === 'verified' ? 'ok' : (a.level === 'shared_root' ? 'bad' : '');
+
+    var span = R.timeSpan(ev);
+    var ongoing = (span.kind === 'ongoing') ? ' <span class="badge ongoing">נמשך כעת</span>' : '';
+
+    /* הורדת סטטוס — מוצגת בגלוי, גם בשורה הסגורה וגם בפירוט.
+       זה מכוון: שינוי בשקט הוא מה שהורס אמון. */
+    var dg = R.downgrade(ev);
+    var dgBadge = dg ? ' <span class="badge downgraded">האימות בוטל</span>' : '';
+    var dgNote  = !dg ? '' :
+      '<div class="downgrade-note">' +
+        '<b>⚠️ שינוי סטטוס לאחור.</b> אירוע זה הוצג באתר כ<b>' + esc(levelName(dg.from_level)) + '</b> ' +
+        'במשך כ-' + R.downgradeDurationHours(ev) + ' שעות, עד ' + F.dateTimeText(dg.at) + '.<br>' +
+        esc(dg.text) +
+      '</div>';
+
+    return '' +
+    '<details class="event' + (ev.lifecycle === 'retracted' ? ' is-retracted' : '') + '">' +
+      '<summary>' +
+        '<span class="badge ' + a.level + '">' + esc(a.label) + '</span>' +
+        '<span class="ttl">' + esc(ev.title) + '</span>' + late + ongoing + dgBadge +
+        '<span class="meta">' + esc(ev.id) + ' · ' + esc(ev.axis) +
+          ' · ' + esc(span.text) +
+          ' · עודכן: ' + F.dateTimeText(ev.last_update_at) +
+          ' · ' + a.report_count + ' פרסומים / ' + a.root_count + ' מקורות-שורש' +
+        '</span>' +
+      '</summary>' +
+      '<div class="detail">' +
+        dgNote +
+        '<h4>תמצית</h4><p>' + esc(ev.summary) + '</p>' +
+        '<div class="reason ' + reasonClass + '"><b>למה הסטטוס הזה:</b> ' + esc(a.reason) + '</div>' +
+        '<div class="not-verified"><b>מה לא מאומת:</b> ' + esc(ev.what_is_not_verified) + '</div>' +
+        '<h4>מקורות</h4>' +
+        '<table class="src"><thead><tr>' +
+          '<th>מקור</th><th>סוג</th><th>מקור-שורש</th><th>פורסם</th><th>רישוי</th>' +
+        '</tr></thead><tbody>' + rows + '</tbody></table>' +
+        (a.blocked_count ? '<p class="locked">' + a.blocked_count + ' מקור/ות לא מוצג/ים במצב הפרסום הנוכחי.</p>' : '') +
+        timeline +
+      '</div>' +
+    '</details>';
+  }
+
+  /* ============================================================
+     2. כלכלה + שווקים
+     ============================================================ */
+  /* המקורות החיים של פינת השווקים */
+  var LIVE_SOURCES = {
+    crypto: 'src_coingecko',
+    cnbc:   'src_cnbc',
+    fx_ecb: 'src_ecb',
+    fed:    'src_nyfed'
+  };
+
+  /* לכל סימול: רשימת מקורות לפי סדר עדיפות. הראשון שעובד — מוצג.
+     USD/ILS: קודם שער חי מ-CNBC, ואם הוא לא זמין — שער הייחוס של ECB. */
+  var SYMBOL_SOURCES = {
+    'BTC': ['crypto'], 'ETH': ['crypto'], 'DOGE': ['crypto'],
+    'ZIM': ['cnbc'], 'NCLH': ['cnbc'], 'PFE': ['cnbc'],
+    'SPX 500': ['cnbc'], 'NDX 100': ['cnbc'], 'USOIL': ['cnbc'],
+    'USD/ILS': ['cnbc', 'fx_ecb'], 'EUR/ILS': ['cnbc', 'fx_ecb'], 'EUR/USD': ['cnbc', 'fx_ecb'],
+    'ILS/RON': ['fx_ecb']
+  };
+
+  /* המקורות שמותר להציג במצב הפרסום הנוכחי, עבור סימול */
+  function allowedKeys(symbol) {
+    return (SYMBOL_SOURCES[symbol] || []).filter(function (k) {
+      return R.isDisplayable(R.sourceById(LIVE_SOURCES[k]));
+    });
+  }
+
+  /* מחזיר { key, q, down, fallback } או null */
+  function resolveQuote(symbol) {
+    var live = window.DB.live || {};
+    var keys = allowedKeys(symbol);
+    var i, e;
+    // 1. מקור תקין לפי סדר העדיפות
+    for (i = 0; i < keys.length; i++) {
+      e = live[keys[i]];
+      if (e && e.ok && e.data && e.data[symbol]) return { key: keys[i], q: e.data[symbol], down: false, fallback: i > 0 };
+    }
+    // 2. אין מקור תקין — הנתון האמיתי האחרון שנשמר, מסומן "ישן"
+    for (i = 0; i < keys.length; i++) {
+      e = live[keys[i]];
+      if (e && e.data && e.data[symbol]) return { key: keys[i], q: e.data[symbol], down: true, fallback: i > 0 };
+    }
+    return null;
+  }
+
+  function fmtPrice(sym, v) {
+    var d = /\//.test(sym) ? 4 : (v >= 1000 ? 0 : (v >= 1 ? 2 : 5));
+    return v.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+  }
+
+  function fmtChange(c) {
+    if (c === null || c === undefined) return '<span class="locked">—</span>';
+    var cls = c >= 0 ? 'up' : 'down';
+    return '<span class="' + cls + '">' + F.ltr((c >= 0 ? '+' : '') + c.toFixed(2) + '%') + '</span>';
+  }
+
+  function renderMarkets() {
+    var m = window.DB.markets;
+    var live = window.DB.live || {};
+
+    var quotes = '<div class="quotes">' + m.watchlist.map(function (q) {
+      var keys = allowedKeys(q.symbol);
+
+      /* --- סימול שאין לו מקור חי מותר: דמה, מסומן --- */
+      if (!keys.length) {
+        var cls = q.change >= 0 ? 'up' : 'down';
+        return '<div class="quote demo" title="נתון דמה — אין עדיין מקור מחובר">' +
+               '<b>' + esc(q.symbol) + ' <span class="tag-demo">דמה</span></b>' +
+               '<span class="p">' + F.ltr(esc(q.price)) + '</span> ' +
+               '<span class="' + cls + '">' + F.ltr((q.change >= 0 ? '+' : '') + q.change + '%') + '</span></div>';
+      }
+
+      /* --- סימול עם מקור חי --- */
+      var r = resolveQuote(q.symbol);
+
+      // אין שום נתון אמיתי: "—". לעולם לא נופלים חזרה למספר דמה.
+      if (!r) {
+        var anyTried = keys.some(function (k) { return live[k]; });
+        return '<div class="quote' + (anyTried ? ' is-down' : '') + '">' +
+               '<b>' + esc(q.symbol) + ' <span class="tag-live' + (anyTried ? ' off' : '') + '">' + (anyTried ? 'לא זמין' : 'טוען') + '</span></b>' +
+               '<span class="p">—</span></div>';
+      }
+
+      var lq = r.q;
+      var stale = r.down || lq.old_close;
+      var tag = stale ? 'ישן' : (lq.closed ? 'סגירה' : 'חי');
+      var tagCls = stale ? ' off' : (lq.closed ? ' closed' : '');
+
+      var tips = [];
+      if (lq.closed)        tips.push('הבורסה סגורה — מחיר הסגירה מ-' + F.dateText(lq.as_of));
+      else if (lq.as_of)    tips.push('נתון מ-' + F.dateTimeText(lq.as_of));
+      if (lq.delayed)       tips.push('בהשהיה');
+      if (lq.change_basis)  tips.push('שינוי: ' + lq.change_basis);
+      if (r.fallback)       tips.push('מקור גיבוי: שער ייחוס יומי של ECB');
+
+      return '<div class="quote live' + (stale ? ' is-down' : '') + '" title="' + esc(tips.join(' · ')) + '">' +
+             '<b>' + esc(q.symbol) + ' <span class="tag-live' + tagCls + '">' + tag + '</span>' +
+               (lq.delayed ? ' <span class="tag-demo">השהיה</span>' : '') +
+               (r.fallback ? ' <span class="tag-demo">ECB</span>' : '') + '</b>' +
+             '<span class="p">' + F.ltr(esc(fmtPrice(q.symbol, lq.price))) + '</span> ' +
+             fmtChange(lq.change) + '</div>';
+    }).join('') + '</div>';
+
+    /* --- שורת סטטוס לכל מקור חי: מאיפה, מתי, כמה טרי, קרדיט --- */
+    var liveStates = [];
+    var srcLines = Object.keys(LIVE_SOURCES).map(function (key) {
+      if (key === 'fed') return '';                   // ריבית מוצגת בסעיף הכלכלה
+      var src = R.sourceById(LIVE_SOURCES[key]);
+      if (!src || !R.isDisplayable(src)) return '';   // מקור חסום — לא מוצג ולא נספר
+
+      var entry = live[key];
+      var st = F.evaluate(key, entry && entry.data_time, entry ? entry.ok : undefined, true);
+      liveStates.push(st);
+
+      var syms = Object.keys(SYMBOL_SOURCES).filter(function (s) {
+        return allowedKeys(s).indexOf(key) > -1 && m.watchlist.some(function (w) { return w.symbol === s; });
+      });
+
+      var when = '';
+      if (entry && entry.data_time) {
+        if (key === 'fx_ecb') when = 'שער ייחוס יומי מ-' + F.dateText(entry.data_time);
+        else if (key === 'cnbc') {
+          var anyOpen = Object.keys(entry.data || {}).some(function (s) { return !entry.data[s].closed; });
+          when = anyOpen ? 'נתון חי מ-' + F.hhmm(entry.data_time) : 'כל השווקים סגורים — מחירי סגירה';
+        }
+        else when = 'נתון מ-' + F.hhmm(entry.data_time);
+      }
+
+      var extra = (entry && entry.ok === false)
+        ? ' · <span class="down">הפנייה האחרונה נכשלה' + (entry.data ? ', מוצג הנתון האחרון שנשמר' : '') + '</span>'
+        : '';
+
+      var personal = src.license_mode === 'personal_only'
+        ? ' · <span class="tag-demo">שימוש אישי בלבד</span>' : '';
+
+      return '<li class="src-line">' +
+        '<span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
+        '<b>' + esc(src.name) + '</b>' + personal + ' — ' + esc(syms.join(', ')) +
+        (when ? ' · ' + esc(when) : '') + extra +
+        (key === 'fx_ecb' ? '<div class="locked">משמש גם גיבוי לדולר, אירו ואירו/דולר אם השער החי לא זמין.</div>' : '') +
+        '<div class="locked">' + esc(src.attribution || '') + '</div>' +
+      '</li>';
+    }).join('');
+
+    var demoSyms = m.watchlist.filter(function (q) { return !allowedKeys(q.symbol).length; })
+                              .map(function (q) { return q.symbol; });
+
+    var statusBlock =
+      '<ul class="rows src-status">' + srcLines +
+        (demoSyms.length
+          ? '<li class="src-line"><span class="tag-demo">דמה</span> ' + esc(demoSyms.join(', ')) +
+            ' <span class="locked">— אין מקור מורשה במצב הפרסום הנוכחי.</span></li>'
+          : '') +
+      '</ul>';
+
+    // תג הפינה = המצב הגרוע ביותר מבין המקורות החיים
+    var headerState = liveStates.length ? F.worst(liveStates) : null;
+
+    /* --- 2 שהתרסקו · 2 שטסו --- */
+    function moversBlock() {
+      var S = C.movers;
+      var src = R.sourceById('src_cnbc');
+      if (!R.isDisplayable(src)) {
+        return '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
+      }
+
+      var e = live.movers;
+      var st = F.evaluate('movers', e && e.data_time, e ? e.ok : undefined, true);
+      liveStates.push(st);
+
+      if (!e) return '<p class="locked"><span class="fresh-tag loading">טוען…</span> סורק ' +
+                     window.DB.universe_sp100.symbols.length + ' מניות…</p>';
+      if (!e.data) return '<p><span class="fresh-tag down">מקור לא זמין</span> <span class="locked">אין נתון שמור.</span></p>';
+
+      var d = e.data;
+
+      function card(a) {
+        var dirCls = a.change < 0 ? 'down' : 'up';
+        return '<div class="mover">' +
+          '<b>' + esc(a.sym) + '</b> <span class="locked">' + esc(a.name) + '</span> · ' +
+          '<span class="' + dirCls + '">' + F.ltr((a.change > 0 ? '+' : '') + a.change.toFixed(2) + '%') + '</span> ' +
+          '<span class="ratio-badge ' + dirCls + '">פי ' + a.ratio.toFixed(1) + ' מהרגיל</span>' +
+          '<div class="why">' + esc(a.why) + '</div></div>';
+      }
+
+      function side(list, nearest, word) {
+        if (list.length) return list.map(card).join('');
+        var msg = 'אין ' + word + ' חריגה.';
+        if (nearest) {
+          msg += ' הקרובה ביותר: ' + F.ltr(nearest.sym + ' ' + (nearest.change > 0 ? '+' : '') + nearest.change.toFixed(2) + '%') +
+                 ', פי ' + nearest.ratio.toFixed(1) + ' מהרגיל — מתחת לסף.';
+        }
+        return '<div class="mover none">' + esc(msg) + '</div>';
+      }
+
+      var session = d.all_closed
+        ? 'יום המסחר האחרון: ' + d.session_date.split('-').reverse().join('/') + ' (הבורסה סגורה)'
+        : 'מסחר חי · נתון מ-' + F.hhmm(e.data_time);
+
+      var status = '<div class="src-line locked">' +
+        '<span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' + esc(session) +
+        (e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+        '<div>נסרקו ' + d.scanned + ' מניות S&P 100 · נבדקו לעומק ' + d.analyzed +
+        (d.missing.length ? ' (חסרה היסטוריה: ' + esc(d.missing.join(', ')) + ')' : '') +
+        ' · הסף: תזוזה של ' + S.min_move + '% לפחות, וגם פי ' + S.min_ratio + ' לפחות מהתזוזה הרגילה של המניה.</div>' +
+        '<div>' + esc(src.attribution) + ' · <span class="tag-demo">שימוש אישי בלבד</span></div></div>';
+
+      return '<h4 class="mv-h down">▼ התרסקו</h4>' + side(d.crashed, d.nearest_down, 'היום ירידה') +
+             '<h4 class="mv-h up">▲ טסו</h4>'      + side(d.flew, d.nearest_up, 'היום עלייה') +
+             status;
+    }
+    var moversHtml = moversBlock();
+    headerState = liveStates.length ? F.worst(liveStates) : null;
+
+    var demoTag = ' <span class="tag-demo">דמה</span>';
+
+    /* --- ריביות --- */
+    function pct(v) { return F.ltr((Math.round(v * 100) / 100).toFixed(2) + '%'); }
+    function range(a, b) { return F.ltr((Math.round(a * 100) / 100).toFixed(2) + '%–' + (Math.round(b * 100) / 100).toFixed(2) + '%'); }
+    function dmy(isoDate) { var p = isoDate.split('-'); return F.ltr(p[2] + '/' + p[1] + '/' + p[0]); }
+
+    var rateItems = [];
+
+    // בנק ישראל — מהמשימה האוטומטית בענן. אם אין ממנה נתון בכלל — תמונת המצב הידנית כגיבוי.
+    var gb = generated('boi');
+    var snap = window.DB.rates_snapshot && window.DB.rates_snapshot.boi;
+    var boiSrc = R.sourceById('src_boi');
+    var fromJob = gb.entry && gb.entry.data;
+    var boi = fromJob ? gb.entry.data : snap;
+    if (boi && R.isDisplayable(boiSrc)) {
+      var bst = fromJob ? gb.state : F.evaluate('boi', snap.checked_at, true, true);
+      if (fromJob) liveStates.push(bst);
+      var dir = boi.previous_rate === null || boi.previous_rate === undefined ? ''
+              : boi.rate < boi.previous_rate ? 'הורדה' : (boi.rate > boi.previous_rate ? 'העלאה' : 'ללא שינוי');
+      var how = fromJob
+        ? 'עודכן אוטומטית' + (gb.entry.checked_at ? ' · נבדק ' + F.dateTimeText(gb.entry.checked_at) : '') +
+          (gb.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '')
+        : 'תמונת מצב ידנית מ-' + F.dateText(snap.checked_at) + ' — המשימה האוטומטית עדיין לא רצה';
+      rateItems.push(
+        '<li><span class="fresh-tag ' + bst.level + '">' + esc(bst.label) + '</span> ' +
+        '<b>בנק ישראל: ' + pct(boi.rate) + '</b>' +
+        (boi.effective_from ? ' · בתוקף מ-' + dmy(boi.effective_from) : '') +
+        (dir ? ' (' + dir + ' מ-' + pct(boi.previous_rate) + ')' : '') +
+        '<div class="locked">' + how + ' · ' + esc(boiSrc.attribution) + '</div></li>');
+    }
+
+    // הפד — חי
+    var fedSrc = R.sourceById('src_nyfed');
+    if (R.isDisplayable(fedSrc)) {
+      var fe = live.fed;
+      var fst = F.evaluate('fed', fe && fe.data_time, fe ? fe.ok : undefined, true);
+      liveStates.push(fst);
+      var fedTxt;
+      if (fe && fe.data) {
+        var d = fe.data;
+        fedTxt = '<b>הפד: ' + range(d.target[0], d.target[1]) + '</b>' +
+                 ' <span class="locked">(טווח יעד)</span> · אפקטיבית ' + pct(d.effr) + ' ב-' + dmy(d.date);
+        if (d.last_change) {
+          var up = d.last_change.to[1] > d.last_change.from[1];
+          fedTxt += '<div>שינוי אחרון: ' + dmy(d.last_change.date) + ' — ' + (up ? 'העלאה' : 'הורדה') +
+                    ' מ-' + range(d.last_change.from[0], d.last_change.from[1]) + '</div>';
+        } else {
+          fedTxt += '<div>ללא שינוי מאז ' + dmy(d.window_start) + '</div>';
+        }
+        if (fe.ok === false) fedTxt += ' <span class="down">· הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>';
+      } else {
+        fedTxt = '<b>הפד:</b> ' + (fe ? '<span class="down">לא זמין</span>' : 'טוען…');
+      }
+      rateItems.push('<li><span class="fresh-tag ' + fst.level + '">' + esc(fst.label) + '</span> ' + fedTxt +
+                     '<div class="locked">' + esc(fedSrc.attribution) + '</div></li>');
+    }
+    headerState = liveStates.length ? F.worst(liveStates) : null;
+
+    /* --- חדשות שמזיזות שוק: גלובס (מהמשימה בענן) + וואלה כסף (חי), מסונן לרשימה --- */
+    function marketTags(title) {
+      if (C.market_noise && C.market_noise.test(title)) return [];
+      return Object.keys(C.market_keywords || {}).filter(function (k) { return C.market_keywords[k].test(title); });
+    }
+
+    var gg = generated('globes');
+    var globesOk = R.isDisplayable(R.sourceById('src_globes')) && gg.entry && gg.entry.data;
+    var wallaEco = live.economy;
+    var wallaOk = R.isDisplayable(R.sourceById('src_walla')) && wallaEco && wallaEco.data;
+
+    var pool = [].concat(
+      globesOk ? gg.entry.data.market.map(function (i) { i.src = 'גלובס'; return i; }) : [],
+      wallaOk ? wallaEco.data.items.map(function (i) { i.src = 'וואלה'; return i; }) : []
+    );
+    var cutoff = new Date(Date.now() - 48 * 3600 * 1000).toISOString();
+    var seenTitles = {};
+    var marketNews = pool
+      .filter(function (i) { return i.date >= cutoff; })
+      .map(function (i) { return { i: i, tags: marketTags(i.title) }; })
+      .filter(function (x) {
+        var key = x.i.title.replace(/[^א-תA-Za-z0-9]/g, '').slice(0, 40);
+        if (!x.tags.length || seenTitles[key]) return false;
+        seenTitles[key] = true;
+        return true;
+      })
+      .sort(function (a, b) { return a.i.date < b.i.date ? 1 : -1; })
+      .slice(0, 6);
+
+    var marketNewsHtml;
+    if (!globesOk && !wallaOk) {
+      marketNewsHtml = '<p class="locked">' + (wallaEco || gg.entry ? '<span class="down">המקורות לא זמינים כרגע.</span>' : 'טוען…') + '</p>';
+    } else if (!marketNews.length) {
+      marketNewsHtml = '<p class="locked">אין ב-48 השעות האחרונות כותרות שנוגעות למכשירים ברשימה.</p>';
+    } else {
+      marketNewsHtml = '<ul class="rows news">' + marketNews.map(function (x) {
+        return '<li><a href="' + esc(x.i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(x.i.title) + '</a>' +
+               ' <span class="locked">· ' + esc(x.i.src) + ' · ' + F.dateTimeText(x.i.date) + '</span>' +
+               '<div class="mk-tags">נוגע ל: ' + x.tags.map(function (t) { return '<span class="tag-demo">' + esc(t) + '</span>'; }).join(' ') + '</div></li>';
+      }).join('') + '</ul>';
+    }
+    marketNewsHtml += '<p class="locked filter-note">גלובס' + (globesOk ? ' (נבדק ' + F.dateTimeText(gg.entry.checked_at) + ' · <span class="fresh-tag ' + gg.state.level + '">' + esc(gg.state.label) + '</span>)' : ' (לא זמין)') +
+                      ' + וואלה כסף. סינון לפי מילות מפתח של המכשירים ברשימה — ללא בינה.</p>';
+
+    var globesTopHtml = globesOk && gg.entry.data.top.length
+      ? '<ul class="rows news">' + gg.entry.data.top.map(function (i) {
+          return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a>' +
+                 ' <span class="locked">· ' + F.dateTimeText(i.date) + '</span></li>';
+        }).join('') + '</ul>' +
+        '<p class="locked filter-note">כותרות וקישורים: גלובס. כלכליסט נבדק וחוסם גישה.</p>'
+      : '<p class="locked">' + (gg.entry ? '<span class="down">גלובס לא זמין כרגע.</span>' : 'המשימה האוטומטית עדיין לא הביאה נתונים.') + '</p>';
+
+    var html =
+      '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
+      '<h3 class="sub">2 שהתרסקו · 2 שטסו <span class="locked">(רק תנועה חריגה ביחס להתנהגות הרגילה של המניה, לא סקאנר גולמי)</span></h3>' +
+      moversHtml +
+      '<h3 class="sub">חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span></h3>' + marketNewsHtml +
+      '<h3 class="sub">ריבית</h3>' +
+      '<ul class="rows src-status">' + rateItems.join('') + '</ul>' +
+      '<h3 class="sub">כלכלה — כתבות ראשיות מגלובס</h3>' + globesTopHtml;
+
+    $('#markets-slot').innerHTML = corner(2, 'כלכלה + שווקים פיננסיים', 'markets', html, true, headerState);
+  }
+
+  // כשמגיע נתון חי — מציירים מחדש רק את פינת השווקים
+  document.addEventListener('live:update', renderMarkets);
+
+  /* ============================================================
+     3. AI
+     ============================================================ */
+  function renderAI() {
+    var d = window.DB.ai;
+    var html =
+      '<h3 class="sub">חדשות — מקסימום 2 ביום</h3>' +
+      '<ul class="rows">' + d.news.map(function (n) {
+        return '<li><span class="badge lic">' + esc(n.kind) + '</span> ' + esc(n.title) + '</li>';
+      }).join('') + '</ul>' +
+      '<h3 class="sub">כלים · דמואים · סקילים (ללא הגבלה)</h3>' +
+      '<ul class="rows">' + d.tools.map(function (t) {
+        return '<li><b>' + esc(t.name) + '</b> — ' + esc(t.desc) + '</li>';
+      }).join('') + '</ul>';
+
+    html = '<p class="locked"><span class="tag-demo">דמה</span> כל הפינה עדיין נתוני דמה — נבנית בשלב 4.</p>' + html;
+    $('#ai-slot').innerHTML = corner(3, 'AI', 'ai', html);
+  }
+
+  /* ============================================================
+     4. ספורט
+     ============================================================ */
+  function renderSports() {
+    var s = window.DB.sports;
+    var html =
+      '<h3 class="sub">תוצאות ישראלים</h3>' +
+      '<ul class="rows">' + s.results.map(function (r) {
+        return '<li><b>' + esc(r.who) + '</b> — ' + esc(r.text) + '</li>';
+      }).join('') + '</ul>' +
+      '<h3 class="sub">ליגת העל בכדורגל — היום</h3>' +
+      '<ul class="rows">' + s.fixtures_il.map(function (f) {
+        return '<li>' + esc(f.time) + ' · ' + esc(f.match) + ' <span class="locked">(' + esc(f.tv) + ')</span></li>';
+      }).join('') + '</ul>' +
+      '<h3 class="sub">ישראלים בחו"ל — היום</h3>' +
+      '<ul class="rows">' + s.fixtures_abroad.map(function (f) {
+        return '<li>' + esc(f.time) + ' · ' + esc(f.match) + ' <span class="locked">(' + esc(f.tv) + ')</span></li>';
+      }).join('') + '</ul>';
+
+    html = '<p class="locked"><span class="tag-demo">דמה</span> כל הפינה עדיין נתוני דמה — ממתין לאישור רשימת השחקנים (שלב 3).</p>' + html;
+    $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', html);
+  }
+
+  /* ============================================================
+     5. תוכן חיובי
+     ============================================================ */
+  function renderPositive() {
+    var demoTag = ' <span class="tag-demo">דמה</span>';
+    var src = R.sourceById('src_walla');
+    var liveOk = R.isDisplayable(src);
+    var e = (window.DB.live || {}).positive;
+    var st = F.evaluate('feeds', e && e.data_time, e ? e.ok : undefined, true);
+
+    var TAGS = { approved: '✅ אושר', research: '🔬 בבדיקה' };
+    var TAG_TIPS = {
+      approved: 'הכותרת מציינת במפורש שהטיפול אושר או כבר קיים',
+      research: 'מחקר, טיפול בדרך, או שלא ברור מהכותרת שכבר אושר — לא ליצור ציפיות'
+    };
+
+    var medical;
+    if (!liveOk) {
+      medical = '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
+    } else if (!e) {
+      medical = '<p class="locked">טוען…</p>';
+    } else if (!e.data) {
+      medical = '<p class="locked"><span class="down">הפיד לא זמין כרגע.</span></p>';
+    } else if (!e.data.medical.length) {
+      medical = '<p class="locked">אין כתבות חיוביות חדשות ב-45 הימים האחרונים.</p>';
+    } else {
+      medical = '<ul class="rows news">' + e.data.medical.map(function (i) {
+        return '<li><span class="badge lic med-' + i.tag + '" title="' + esc(TAG_TIPS[i.tag]) + '">' + TAGS[i.tag] + '</span> ' +
+               '<a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a>' +
+               ' <span class="locked">· ' + F.dateText(i.date) + '</span></li>';
+      }).join('') + '</ul>';
+    }
+
+    /* חיות — Good News Network, כותרות מתורגמות, מהמשימה בענן */
+    function animalsBlock() {
+      var gsrc = R.sourceById('src_gnn');
+      if (!R.isDisplayable(gsrc)) return '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
+      var g = generated('animals');
+      if (!g.entry || !g.entry.data) {
+        return '<p class="locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
+               'המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
+      }
+      return '<ul class="rows news">' + g.entry.data.map(headlineItem).join('') + '</ul>' +
+        '<div class="src-line locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
+          'נבדק ' + F.dateTimeText(g.entry.checked_at) +
+          (g.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+          ' · ' + esc(gsrc.attribution) + '</div>';
+    }
+
+    var dr = e && e.data && e.data.dropped;
+    var html =
+      '<h3 class="sub">התקדמות רפואית</h3>' + medical +
+      (liveOk && e && e.data
+        ? '<p class="locked filter-note">נסרקו ' + e.data.scanned + ' כותרות · סוננו ' + dr.negative + ' שליליות' +
+          (dr.sponsored ? ' ו-' + dr.sponsored + ' ממומנות' : '') +
+          ' · ✅ ניתן רק כשכתוב במפורש שאושר. סינון לפי מילות מפתח, ללא בינה.</p>'
+        : '') +
+      '<h3 class="sub">חתולים וחיות</h3>' + animalsBlock() +
+      (liveOk
+        ? '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
+          (e && e.data_time ? 'נבדק ב-' + F.hhmm(e.data_time) : '') +
+          (e && e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+          ' · ' + esc(src.attribution) + '</div>'
+        : '');
+
+    $('#positive-slot').innerHTML = corner(5, 'תוכן חיובי', 'positive', html, false, liveOk ? st : undefined);
+  }
+
+  document.addEventListener('live:update', function (ev) {
+    if (ev.detail && (ev.detail.key === 'positive' || ev.detail.key === 'generated')) renderPositive();
+  });
+
+  /* ============================================================
+     6. רכב + תיירות + קולנוע ביתי
+     ============================================================ */
+  function renderLifestyle() {
+    var d = window.DB.lifestyle;
+    var demoTag = ' <span class="tag-demo">דמה</span>';
+    var li = function (x) { return '<li>' + esc(x.title) + '</li>'; };
+
+    var src = R.sourceById('src_walla');
+    var e = (window.DB.live || {}).lifestyle;
+    var st = F.evaluate('feeds', e && e.data_time, e ? e.ok : undefined, true);
+    var liveOk = R.isDisplayable(src);
+
+    /* כותרת מקורית + תאריך + קישור. בלי תקציר ובלי תמונה (רישוי: קישור בלבד). */
+    function newsList(items, emptyMsg) {
+      if (!e) return '<p class="locked">טוען…</p>';
+      if (items === null || items === undefined) return '<p class="locked"><span class="down">הפיד לא זמין כרגע.</span></p>';
+      if (!items.length) return '<p class="locked">' + esc(emptyMsg) + '</p>';
+      return '<ul class="rows news">' + items.map(function (i) {
+        return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a>' +
+               ' <span class="locked">· ' + F.dateText(i.date) + '</span></li>';
+      }).join('') + '</ul>';
+    }
+
+    var ld = (e && e.data) || {};
+    var liveHtml = !liveOk
+      ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
+      : '<h3 class="sub">רכב — מבחנים וסקירות</h3>' + newsList(ld.cars, 'אין מבחנים חדשים.') +
+        '<h3 class="sub">תיירות — יעדים</h3>' + newsList(ld.destinations, 'אין כתבות יעדים חדשות.') +
+        '<h3 class="sub">תיירות — חדשות תעופה שנוגעות לטיסות מ/אל ישראל</h3>' +
+          newsList(ld.aviation, 'אין חדשות תעופה רלוונטיות ב-3 השבועות האחרונים.') +
+          '<p class="locked filter-note">סינון אוטומטי לפי מילות מפתח (תעופה + קשר לישראל), ללא בינה — ייתכנו פספוסים.</p>' +
+        '<h3 class="sub">תיירות — מבצעים חריגים מישראל</h3>' +
+          '<p class="locked">עדיין אין מקור מתאים. לא נמצא פיד פתוח של מבצעי טיסות וחופשות.</p>' +
+        '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
+          (e && e.data_time ? 'נבדק ב-' + F.hhmm(e.data_time) : '') +
+          (e && e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+          ' · ' + esc(src.attribution) + '</div>';
+
+    /* קולנוע ביתי: עברית (וואלה, חי מהדפדפן) + אנגלית (What Hi-Fi, מתורגם, מהמשימה בענן).
+       ממוזגים לפי תאריך, 5 האחרונים. */
+    var gav = generated('av_en');
+    var avEnOk = R.isDisplayable(R.sourceById('src_whathifi')) && gav.entry && gav.entry.data;
+    var avAll = [].concat(liveOk && ld.av ? ld.av : [], avEnOk ? gav.entry.data : [])
+      .sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 5);
+    var avHtml = (liveOk || avEnOk)
+      ? '<h3 class="sub">קולנוע ביתי / סטריאו — סקירות ומוצרים</h3>' +
+          (avAll.length ? '<ul class="rows news">' + avAll.map(headlineItem).join('') + '</ul>'
+                        : '<p class="locked">אין סקירות אודיו/וידאו חדשות.</p>') +
+          '<p class="locked filter-note">וואלה (עברית) + What Hi-Fi? (אנגלית, כותרות מתורגמות אוטומטית). כתבות מבצעים מסוננות.' +
+          (avEnOk ? ' · אנגלית נבדקה ' + F.dateTimeText(gav.entry.checked_at) + ' · ' +
+                    '<span class="fresh-tag ' + gav.state.level + '">' + esc(gav.state.label) + '</span>' : '') + '</p>'
+      : '<h3 class="sub">קולנוע ביתי / סטריאו' + demoTag + '</h3><ul class="rows">' + d.av.map(li).join('') + '</ul>';
+
+    var html = liveHtml + avHtml +
+      '<h3 class="sub">&nbsp;</h3>' +
+      '<div class="sponsored-box">' +
+        '<div class="hdr">🏷️ תוכן מקודם — מוצרים שאני מקדם. לא ביקורת אובייקטיבית.</div>' +
+        ((C.promoted_products || []).length
+          ? '<ul class="rows">' + C.promoted_products.map(function (p) {
+              return '<li>' + (p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>' : esc(p.title)) +
+                     (p.desc ? ' <span class="locked">— ' + esc(p.desc) + '</span>' : '') + '</li>';
+            }).join('') + '</ul>'
+          : '<p class="locked">מקום שמור למוצרים שלי — יתווספו בהמשך.</p>') +
+      '</div>';
+
+    $('#lifestyle-slot').innerHTML = corner(6, 'רכב + תיירות + קולנוע ביתי', 'lifestyle', html, false,
+                                            liveOk ? st : undefined);
+  }
+
+  document.addEventListener('live:update', function (ev) {
+    if (ev.detail && (ev.detail.key === 'lifestyle' || ev.detail.key === 'generated')) renderLifestyle();
+  });
+
+  /* ============================================================
+     7. נגן מוזיקה (ווידג'ט קבוע)
+     ============================================================ */
+  function renderPlayer() {
+    var opts = C.playlists.map(function (p) {
+      return '<option' + (p.is_default ? ' selected' : '') + '>' + esc(p.name) + '</option>';
+    }).join('');
+
+    $('#player').innerHTML =
+      '<header>🎵 <span>נגן מוזיקה</span><button class="toggle" id="pl-toggle" title="צמצם/הרחב">▾</button></header>' +
+      '<div class="stage">מקום שמור ל-YouTube IFrame API<br><small>נבנה בשלב 5</small></div>' +
+      '<div class="foot"><select>' + opts + '</select></div>';
+
+    $('#pl-toggle').addEventListener('click', function () {
+      $('#player').classList.toggle('collapsed');
+      this.textContent = $('#player').classList.contains('collapsed') ? '▴' : '▾';
+    });
+  }
+
+  function renderFooter() {
+    $('#social').innerHTML = C.social.map(function (s) {
+      return '<a href="' + esc(s.url) + '">' + esc(s.name) + '</a>';
+    }).join('');
+  }
+
+  /* ---------- הרצה ---------- */
+  renderHeader();
+  renderDaily();
+  renderWars();
+  renderMarkets();
+  renderAI();
+  renderSports();
+  renderPositive();
+  renderLifestyle();
+  renderPlayer();
+  renderFooter();
+})();

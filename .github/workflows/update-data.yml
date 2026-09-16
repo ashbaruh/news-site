@@ -1,0 +1,49 @@
+# ============================================================
+# המשימה האוטומטית של האתר — רצה בענן של GitHub, בחינם, פעם בשעה.
+# לא צריך את המחשב הפרטי, לא צריך מפתחות, לא צריך סודות.
+#
+# מה היא עושה: מריצה את tools/update_data.py ושומרת את התוצאה
+# (data/generated/) בחזרה לפרויקט. האתר קורא משם.
+#
+# הפעלה ידנית: בלשונית Actions ב-GitHub → "עדכון נתונים" → Run workflow
+# ============================================================
+
+name: עדכון נתונים
+
+on:
+  schedule:
+    - cron: "17 * * * *"     # כל שעה, בדקה 17 (לא בדקה 0 — אז כולם רצים ו-GitHub עמוס)
+  workflow_dispatch: {}      # כפתור הפעלה ידנית
+
+permissions:
+  contents: write            # מותר לה רק לשמור קבצים בפרויקט. שום הרשאה אחרת.
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false  # לא להריץ שתיים במקביל
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: הרצת המשימה
+        run: python tools/update_data.py
+
+      - name: שמירה (רק אם משהו השתנה)
+        run: |
+          git config user.name  "news-site-bot"
+          git config user.email "news-site-bot@users.noreply.github.com"
+          git add data/generated
+          if git diff --cached --quiet; then
+            echo "אין שינוי"
+          else
+            git commit -m "עדכון נתונים אוטומטי"
+            git push
+          fi

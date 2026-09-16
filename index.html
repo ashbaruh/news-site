@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>חדר מצב — דף הבית האישי</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- באנר דמו: מוסתר אוטומטית כש-demo_mode=false בקובץ data/config.js -->
+  <div class="demo-banner" id="demo-banner">
+    ⚠️ רוב התוכן בעמוד הזה הוא נתוני דמה ואינו חדשות אמיתיות. נתונים אמיתיים מסומנים בתג ●חי.
+  </div>
+
+  <div class="topbar">
+    <div class="wrap">
+      <div class="logo" id="brand"></div>
+      <div class="tagline" id="tagline"></div>
+      <nav>
+        <a href="settings.html">הגדרות</a>
+        <a href="docs/README.md">תיעוד</a>
+      </nav>
+      <div class="clock" id="clock" style="flex-basis:100%"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+
+    <!-- בלוק סיכום יומי — ראש הדף, מעל הכל -->
+    <section class="daily">
+      <h2>📌 היום בקצרה</h2>
+      <ul id="daily-list"></ul>
+    </section>
+
+    <div class="grid">
+      <div id="wars-slot"      style="grid-column:1/-1"></div>
+      <div id="markets-slot"   style="grid-column:1/-1"></div>
+      <div id="ai-slot"></div>
+      <div id="sports-slot"></div>
+      <div id="positive-slot"></div>
+      <div id="lifestyle-slot"></div>
+    </div>
+
+    <footer class="site">
+      <div id="social"></div>
+      <p>
+        אתר אישי. תוכן שמקורו באנגלית מסוכם בניסוח עובדתי מקורי ומקושר למקור — לא מתורגם ולא מועתק.
+        מפות הן הערכה אנליטית, לא קו שליטה מאומת בשטח.
+      </p>
+    </footer>
+  </main>
+
+  <!-- נגן מוזיקה — ווידג'ט קבוע -->
+  <aside class="player" id="player"></aside>
+
+  <script src="data/config.js"></script>
+  <script src="data/sources.js"></script>
+  <script src="data/events-iran.js"></script>
+  <script src="data/corners.js"></script>
+  <script src="data/rates-snapshot.js"></script>
+  <script src="data/universe-sp100.js"></script>
+  <!-- נוצר אוטומטית ע"י המשימה בענן (tools/update_data.py). אם חסר — האתר ממשיך לעבוד בלעדיו. -->
+  <script src="data/generated/feeds.js"></script>
+  <script src="assets/js/reliability.js"></script>
+  <script src="assets/js/freshness.js"></script>
+  <script src="assets/js/live/cache.js"></script>
+  <script src="assets/js/live/net.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/live/markets-live.js"></script>
+  <script src="assets/js/live/movers-live.js"></script>
+  <script src="assets/js/live/lifestyle-live.js"></script>
+  <script src="assets/js/live/positive-live.js"></script>
+  <script src="assets/js/live/economy-live.js"></script>
+  <script src="assets/js/live/generated-remote.js"></script>
+</body>
+</html>

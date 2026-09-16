@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>הגדרות — חדר מצב</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="demo-banner">
+    ⚠️ שלד בלבד — השדות מוצגים לתצוגה. השמירה בפועל נבנית בשלב מאוחר יותר.
+  </div>
+
+  <div class="topbar">
+    <div class="wrap">
+      <div class="logo">הגדרות</div>
+      <nav><a href="index.html">← חזרה לדף הבית</a></nav>
+    </div>
+  </div>
+
+  <main class="wrap" id="app">
+    <p class="locked" style="margin-top:20px">
+      זהו "חוזה ההגדרות" — הרשימה הסגורה של מה שניתן לערוך מהאתר.
+      כל מה שלא מופיע כאן, לא ניתן לשינוי מהדף (החלטה מכוונת, כדי שהמבנה לא יזלוג).
+    </p>
+  </main>
+
+  <script src="data/config.js"></script>
+  <script src="data/sources.js"></script>
+  <script src="data/athletes.js"></script>
+  <script src="assets/js/reliability.js"></script>
+  <script>
+  (function () {
+    var C = window.DB.config, R = window.Reliability;
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); };
+
+    function block(title, hint, inner) {
+      return '<section class="set-block"><h2>' + esc(title) + '</h2>' +
+             '<p class="hint">' + esc(hint) + '</p>' + inner + '</section>';
+    }
+    function chips(arr) {
+      return '<div class="chips">' + arr.map(function (x) {
+        return '<span class="chip">' + esc(x) + '</span>'; }).join('') + '</div>';
+    }
+
+    var html = '';
+
+    html += block('מיתוג ודומיין',
+      'שלב 0 במפרט. עדיין placeholder — כשתחליט על שם, משנים כאן ובקובץ data/config.js.',
+      '<label>שם האתר <input type="text" value="' + esc(C.brand.site_name) + '" disabled></label> ' +
+      '<label>דומיין <input type="text" value="' + esc(C.brand.domain) + '" disabled></label>');
+
+    html += block('מצב פרסום',
+      'משפיע ישירות על מה שמוצג: במצב ציבורי, מקורות המסומנים "שימוש אישי בלבד" נעלמים מהדף.',
+      '<select disabled><option>' + (C.publish_mode === 'public' ? 'ציבורי' : 'אישי') + '</option></select>');
+
+    html += block('זירות מלחמה',
+      'בשלב 1 רק הזירה הראשונה פעילה. השאר נבנות בשלב 6.',
+      '<ul class="rows">' + C.arenas.map(function (a, i) {
+        return '<li>' + esc(a.name) + ' <span class="locked">— רמת ביטחון מיפוי: ' + esc(a.map_confidence) +
+               (i === 0 ? ' · פעילה' : ' · בקרוב') + '</span></li>';
+      }).join('') + '</ul>');
+
+    html += block('Watchlist שווקים',
+      'ניתן לעריכה מלאה מתוך הדף (המנגנון עצמו נבנה בשלב 2).',
+      '<h3 class="sub">קריפטו</h3>' + chips(C.watchlist.crypto) +
+      '<h3 class="sub">מניות</h3>' + chips(C.watchlist.stocks) +
+      '<h3 class="sub">פורקס / סחורות</h3>' + chips(C.watchlist.fx_commodities));
+
+    var A = window.DB.athletes || { players: [], to_check: [] };
+    function playerRow(a) {
+      return '<li>' + (a.status === 'confirmed' ? '✅ ' : '⚠️ ') + '<b>' + esc(a.name) + '</b> · ' + esc(a.club) +
+             ' <span class="locked">· ' + esc(a.country) + (a.league ? ' · ' + esc(a.league) : '') +
+             (a.club_verified === false ? ' · הקבוצה לא אומתה' : '') + '</span></li>';
+    }
+    var nba = A.players.filter(function (p) { return p.sport === 'כדורסל'; });
+    var fbOk = A.players.filter(function (p) { return p.sport === 'כדורגל' && p.status === 'confirmed'; });
+    var fbCheck = A.players.filter(function (p) { return p.sport === 'כדורגל' && p.status !== 'confirmed'; });
+    html += block('מאגר ישויות — ספורטאים ישראלים (' + A.players.length + ')',
+      'רשימה ידנית בכוונה, לא זיהוי אוטומטי. כדורגל: נולדו בישראל, כל ליגה בעולם. כדורסל: ישראלים ב-NBA. ' +
+      '✅ = אומת בחדשות ' + A.checked_at + ' · ⚠️ = מרשימת ספטמבר 2025, לבדוק. עריכה: data/athletes.js',
+      '<h3 class="sub">NBA (' + nba.length + ')</h3><ul class="rows">' + nba.map(playerRow).join('') + '</ul>' +
+      '<h3 class="sub">כדורגל — אומת (' + fbOk.length + ')</h3><ul class="rows">' + fbOk.map(playerRow).join('') + '</ul>' +
+      '<h3 class="sub">כדורגל — לבדיקה (' + fbCheck.length + ')</h3><ul class="rows">' + fbCheck.map(playerRow).join('') + '</ul>' +
+      (A.to_check.length ? '<h3 class="sub">שמות לבירור</h3><ul class="rows">' +
+        A.to_check.map(function (t) { return '<li class="locked">' + esc(t) + '</li>'; }).join('') + '</ul>' : ''));
+
+    html += block('פלייליסטים YouTube',
+      'תיקייה אחת מסומנת כברירת מחדל ומתחילה לנגן בכניסה.',
+      '<ul class="rows">' + C.playlists.map(function (p) {
+        return '<li>' + esc(p.name) + ' <span class="locked">' + (p.is_default ? '· ברירת מחדל' : '') + '</span></li>';
+      }).join('') + '</ul>');
+
+    html += block('קצב רענון לפי פינה',
+      'המטמון המתגלגל. "מתעכב" = עבר max_age. "מיושן" = עבר stale_at.',
+      '<table class="src"><thead><tr><th>פינה</th><th>עדכני עד</th><th>מיושן אחרי</th></tr></thead><tbody>' +
+      Object.keys(C.cadence).map(function (k) {
+        var c = C.cadence[k];
+        var fmt = function (s) { return s < 3600 ? Math.round(s/60) + ' דק\'' : Math.round(s/3600) + ' שעות'; };
+        return '<tr><td>' + esc(c.label) + '</td><td>' + fmt(c.max_age) + '</td><td>' + fmt(c.stale_at) + '</td></tr>';
+      }).join('') + '</tbody></table>');
+
+    html += block('מקורות ורישוי',
+      'license_mode נקבע ברגע חיבור המקור, לא בדיעבד. independence_group מונע ספירת שני מקורות מאותה משפחה כשני אימותים.',
+      '<table class="src"><thead><tr><th>מקור</th><th>סוג</th><th>רישוי</th><th>משפחת מקורות</th><th>מוצג ציבורית</th></tr></thead><tbody>' +
+      window.DB.sources.map(function (s) {
+        return '<tr class="' + (R.isDisplayable(s) ? '' : 'blocked') + '">' +
+          '<td>' + esc(s.name) + '</td><td>' + esc(s.kind) + '</td>' +
+          '<td>' + esc(R.licenseLabel(s)) + '</td>' +
+          '<td class="root">' + esc(s.independence_group) + '</td>' +
+          '<td>' + (R.isDisplayable(s) ? '✔️' : '✖️') + '</td></tr>';
+      }).join('') + '</tbody></table>');
+
+    html += block('קישורי רשתות חברתיות',
+      'placeholder — נחליף בקישורים האמיתיים שלך.',
+      '<ul class="rows">' + C.social.map(function (s) {
+        return '<li>' + esc(s.name) + ' <span class="locked">' + esc(s.url) + '</span></li>';
+      }).join('') + '</ul>');
+
+    document.getElementById('app').insertAdjacentHTML('beforeend', html);
+  })();
+  </script>
+</body>
+</html>
