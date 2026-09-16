@@ -48,6 +48,57 @@
            '</li>';
   }
 
+  /* ---------- קבוצות ישראליות באירופה (משותף לפינת הספורט ול"היום בקצרה") ---------- */
+  var EN_HE_CLUBS = [
+    [/hapoel be'?er|hapoel beer/i, 'הפועל ב"ש'], [/maccabi tel.?aviv/i, 'מכבי ת"א'], [/hapoel tel.?aviv/i, 'הפועל ת"א'],
+    [/maccabi haifa/i, 'מכבי חיפה'], [/hapoel haifa/i, 'הפועל חיפה'], [/beitar jerusalem/i, 'בית"ר י-ם'],
+    [/hapoel jerusalem/i, 'הפועל י-ם'], [/maccabi netanya/i, 'מכבי נתניה'], [/bnei sakhnin/i, 'בני סכנין'],
+    [/maccabi petah|maccabi petach/i, 'מכבי פ"ת'], [/hapoel petah|hapoel petach/i, 'הפועל פ"ת'],
+    [/kiryat shmona/i, 'הפועל ק"ש'], [/hapoel ramat gan/i, 'הפועל ר"ג'], [/tiberias/i, 'עירוני דורות טבריה']
+  ];
+  var ISRAELI_EN = /\b(maccabi|hapoel|beitar|ironi|bnei sakhnin|bnei yehuda)\b/i;
+  var UEFA_HE = {
+    'uefa.champions': 'ליגת האלופות', 'uefa.champions_qual': 'מוקדמות ליגת האלופות',
+    'uefa.europa': 'הליגה האירופית', 'uefa.europa_qual': 'מוקדמות הליגה האירופית',
+    'uefa.europa.conf': 'ליגת הקונפרנס', 'uefa.europa.conf_qual': 'מוקדמות ליגת הקונפרנס'
+  };
+
+  function clubHe(en) {
+    for (var i = 0; i < EN_HE_CLUBS.length; i++) if (EN_HE_CLUBS[i][0].test(en)) return EN_HE_CLUBS[i][1];
+    return en;
+  }
+  function localDate(iso) {
+    var d = new Date(iso);
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  /* משחק אירופי → { israeliHe, opponent, israeliHome, result: W/L/D, extra, channel } */
+  function europeView(g) {
+    var ilHome = ISRAELI_EN.test(g.home);
+    var il = ilHome ? g.home : g.away, opp = ilHome ? g.away : g.home;
+    var he = clubHe(il);
+    var res = '';
+    if (g.completed) {
+      var ils = ilHome ? g.home_score : g.away_score, ops = ilHome ? g.away_score : g.home_score;
+      var ilWin = ilHome ? g.home_winner : g.away_winner, opWin = ilHome ? g.away_winner : g.home_winner;
+      res = ils > ops ? 'W' : ils < ops ? 'L' : 'D';
+    }
+    var extra = /pen/i.test(g.detail) ? 'בפנדלים' : /aet/i.test(g.detail) ? 'אחרי הארכה' : '';
+    // תיקו במשחק, אבל יש מנצח — הוכרע בפנדלים, או בסיכום שני משחקים (שלב מוקדמות)
+    if (g.completed && res === 'D' && (ilWin || opWin)) {
+      if (extra === 'בפנדלים') { res = ilWin ? 'W' : 'L'; }
+      else { extra = ilWin ? '· עלתה בסיכום שני המשחקים' : '· הודחה בסיכום שני המשחקים'; }
+    }
+    var tv = null;
+    var lh = window.DB.generated && window.DB.generated.ligat_haal && window.DB.generated.ligat_haal.data;
+    if (lh && R.isDisplayable(R.sourceById('src_livegames'))) {
+      tv = (lh.one_sided_tv || []).filter(function (t) { return t.israeli_team === he && t.date === localDate(g.date); })[0] || null;
+    }
+    return { he: he, opp: opp, ilHome: ilHome, result: res, extra: extra, tv: tv,
+             comp: UEFA_HE[g.comp] || g.comp,
+             score: g.completed ? F.ltr((ilHome ? g.home_score : g.away_score) + '–' + (ilHome ? g.away_score : g.home_score)) : '' };
+  }
+
   /* ---------- תג טריות לכל פינה ---------- */
   function freshTag(key, stateOverride) {
     var s = stateOverride || F.state(key);
@@ -146,6 +197,26 @@
         });
       });
       if (stars.length) lines.push('<b>ספורט</b>: ' + stars.slice(0, 3).join(' · ') + '.');
+    }
+
+    // 3ג. קבוצה ישראלית באירופה — היום, או תוצאה מאתמול
+    var eu = live.europe && live.europe.data;
+    if (eu) {
+      var todayL = localDate(new Date().toISOString());
+      var yest = localDate(new Date(Date.now() - 86400000).toISOString());
+      var euLines = (eu.games || []).filter(function (g) {
+        var d = localDate(g.date);
+        return d === todayL || (d === yest && g.completed);
+      }).map(function (g) {
+        var v = europeView(g);
+        if (!g.completed) {
+          return esc(localDate(g.date) === todayL ? 'היום' : '') + ' ' + F.ltr(F.hhmm(g.date)) + ' ' + esc(v.he) + ' נגד ' + esc(v.opp) +
+                 ' (' + esc(v.comp) + (v.tv ? ', ' + esc(v.tv.channel) : '') + ')';
+        }
+        var word = { W: 'ניצחה', L: 'הפסידה', D: 'סיימה בתיקו' }[v.result] || '';
+        return esc(v.he) + ' ' + word + ' ' + v.score + ' את ' + esc(v.opp) + ' (' + esc(v.comp) + ')';
+      });
+      if (euLines.length) lines.push('<b>באירופה</b>: ' + euLines.join(' · ') + '.');
     }
 
     // 4. ריבית
@@ -863,6 +934,42 @@
         'תוצאות: ההתאחדות לכדורגל · נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
     }
 
+    /* --- קבוצות ישראליות באירופה --- */
+    function europeHtml() {
+      var eu = (window.DB.live || {}).europe;
+      var h = '<h3 class="sub">קבוצות ישראליות באירופה</h3>';
+      if (!eu) return h + '<p class="locked">טוען…</p>';
+      if (!eu.data) return h + '<p class="locked"><span class="down">המקור לא זמין כרגע.</span></p>';
+      var games = eu.data.games || [];
+      var nowT = Date.now();
+      var up = games.filter(function (g) { return !g.completed && new Date(g.date).getTime() > nowT - 3 * 3600000; }).slice(0, 5);
+      var done = games.filter(function (g) { return g.completed && nowT - new Date(g.date).getTime() < 45 * DAY; })
+                      .sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 5);
+      if (!up.length && !done.length) return h + '<p class="locked">אין קבוצות ישראליות במפעלים האירופיים בחודשים האחרונים.</p>';
+
+      var RES = { W: ['ניצחון', 'up'], L: ['הפסד', 'down'], D: ['תיקו', ''] };
+      var html = '';
+      if (up.length) {
+        html += '<ul class="rows sport">' + up.map(function (g) {
+          var v = europeView(g);
+          var teams = v.ilHome ? '<b>' + esc(v.he) + '</b> – ' + esc(v.opp) : esc(v.opp) + ' – <b>' + esc(v.he) + '</b>';
+          return '<li><b>' + esc(relDay(g.date)) + ' ' + F.ltr(F.hhmm(g.date)) + '</b> · ' + teams +
+                 '<div class="sp-player">' + esc(v.comp) + (v.tv ? ' · 📺 ' + esc(v.tv.channel) : '') + '</div></li>';
+        }).join('') + '</ul>';
+      }
+      if (done.length) {
+        html += '<div class="locked" style="margin-top:6px">תוצאות אחרונות:</div><ul class="rows sport">' + done.map(function (g) {
+          var v = europeView(g);
+          var r = RES[v.result] || ['', ''];
+          return '<li><span class="locked">' + esc(relDay(g.date)) + '</span> · <b>' + esc(v.he) + '</b> ' + v.score + ' ' + esc(v.opp) +
+                 (r[0] ? ' <span class="' + r[1] + '">(' + r[0] + (v.extra ? ' ' + v.extra : '') + ')</span>' : '') +
+                 ' <span class="locked">· ' + esc(v.comp) + '</span></li>';
+        }).join('') + '</ul>';
+      }
+      return h + html + '<p class="locked filter-note">כל המפעלים האירופיים, כולל מוקדמות · קבוצה ישראלית מזוהה לבד · ' +
+             'התוצאה מוצגת מנקודת המבט של הקבוצה הישראלית · ESPN' + (up.some(function (g) { return europeView(g).tv; }) ? ' · ערוצים: LiveGames' : '') + '</p>';
+    }
+
     var movedHtml = moved.length
       ? '<p class="locked filter-note">⚠️ ייתכן שעברו קבוצה (לפי ESPN): ' + moved.map(function (m) {
           return esc(m.p.name) + ' — ' + esc(m.from) + ' ← ' + esc(m.to);
@@ -872,7 +979,7 @@
     var html =
       '<h3 class="sub">תוצאות ישראלים — 7 הימים האחרונים</h3>' + resultsHtml +
       '<h3 class="sub">ישראלים בחו"ל — משחקים קרובים</h3>' + fixHtml + movedHtml +
-      ligatHaalHtml() +
+      ligatHaalHtml() + europeHtml() +
       (sp ? '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
         (sp.data_time ? 'נבדק ' + F.dateTimeText(sp.data_time) : '') +
         (sp.partial_failures ? ' · <span class="down">' + sp.partial_failures + ' מתוך ' + sp.total + ' שחקנים לא נטענו</span>' : '') +

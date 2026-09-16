@@ -306,11 +306,16 @@ def build_ligat_haal(ifa_games, tv_rows):
     teams = sorted({g["home"] for g in ifa_games} | {g["away"] for g in ifa_games})
     keys = league_keys(teams)
     upcoming = {}
+    one_sided = []   # קבוצת ליגת העל מול קבוצה שאינה מהליגה — אולי משחק אירופי (או נוער/גביע).
+                     # האתר מצמיד ערוץ רק אם ESPN מאשר משחק אירופי באותו תאריך לאותה קבוצה.
     for r in tv_rows or []:
         if r.get("sport") != "כדורגל" or " - " not in r["title"]:
             continue
         h, a = [x.strip() for x in r["title"].split(" - ", 1)]
         th, ta = match_team(h, keys), match_team(a, keys)
+        if bool(th) != bool(ta):
+            one_sided.append({"date": r["date"], "time": r["time"], "channel": r["channel"],
+                              "israeli_team": th or ta, "title": r["title"]})
         if not (th and ta) or th == ta:
             continue                                 # שתי הקבוצות חייבות להיות מליגת העל
         k = (r["date"], th, ta)
@@ -344,7 +349,7 @@ def build_ligat_haal(ifa_games, tv_rows):
     last_dates = sorted({g["date"] for g in played})[-3:]
     results = [g for g in played if g["date"] in last_dates]
     return {"teams": teams, "upcoming": sorted(upcoming.values(), key=lambda u: (u["date"], u["time"])),
-            "results": results}
+            "results": results, "one_sided_tv": one_sided}
 
 
 def job_boi():

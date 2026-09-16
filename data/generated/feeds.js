@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:25:49+00:00",
-  "fetched_at": "2026-09-16T16:25:49+00:00"
+  "checked_at": "2026-09-16T16:31:14+00:00",
+  "fetched_at": "2026-09-16T16:31:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:25:52+00:00",
-  "fetched_at": "2026-09-16T16:25:52+00:00"
+  "checked_at": "2026-09-16T16:31:16+00:00",
+  "fetched_at": "2026-09-16T16:31:16+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:25:52+00:00",
-  "fetched_at": "2026-09-16T16:25:52+00:00"
+  "checked_at": "2026-09-16T16:31:17+00:00",
+  "fetched_at": "2026-09-16T16:31:17+00:00"
  },
- "generated_at": "2026-09-16T16:25:52+00:00",
+ "generated_at": "2026-09-16T16:31:17+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:25:49+00:00",
-  "fetched_at": "2026-09-16T16:25:49+00:00"
+  "checked_at": "2026-09-16T16:31:14+00:00",
+  "fetched_at": "2026-09-16T16:31:14+00:00"
  },
  "ifa": {
   "data": [
@@ -440,8 +440,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:25:49+00:00",
-  "fetched_at": "2026-09-16T16:25:49+00:00"
+  "checked_at": "2026-09-16T16:31:15+00:00",
+  "fetched_at": "2026-09-16T16:31:15+00:00"
  },
  "tv": {
   "data": [
@@ -1140,8 +1140,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:25:50+00:00",
-  "fetched_at": "2026-09-16T16:25:50+00:00"
+  "checked_at": "2026-09-16T16:31:15+00:00",
+  "fetched_at": "2026-09-16T16:31:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1290,10 +1290,47 @@ window.DB.generated = {
      "score": "1-3",
      "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
     }
+   ],
+   "one_sided_tv": [
+    {
+     "date": "2026-09-16",
+     "time": "19:40",
+     "channel": "ספורט 5",
+     "israeli_team": "מכבי נתניה",
+     "title": "מ.ס קרית גת - בנות נתניה"
+    },
+    {
+     "date": "2026-09-16",
+     "time": "19:40",
+     "channel": "ספורט 5",
+     "israeli_team": "הפועל ת\"א",
+     "title": "מכבי חולון - הפועל תל אביב"
+    },
+    {
+     "date": "2026-09-16",
+     "time": "22:00",
+     "channel": "ספורט 1",
+     "israeli_team": "הפועל ב\"ש",
+     "title": "הפועל באר שבע - דינמו זאגרב"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "11:50",
+     "channel": "ספורט 5",
+     "israeli_team": "הפועל ת\"א",
+     "title": "הפועל תל אביב - הפועל רעננה"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "11:55",
+     "channel": "ספורט 5",
+     "israeli_team": "מכבי נתניה",
+     "title": "מכבי הרצליה - מכבי נתניה"
+    }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:25:50+00:00",
-  "fetched_at": "2026-09-16T16:25:50+00:00"
+  "checked_at": "2026-09-16T16:31:15+00:00",
+  "fetched_at": "2026-09-16T16:31:15+00:00"
  }
 };

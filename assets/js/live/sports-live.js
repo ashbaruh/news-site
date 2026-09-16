@@ -90,6 +90,69 @@
     ]).then(function (res) { return { player: p, ov: res[0], tm: res[1] }; });
   }
 
+  /* ---------- קבוצות ישראליות באירופה ----------
+     סורקים את כל המפעלים האירופיים (כולל מוקדמות), 3 חודשים: קודם, נוכחי, הבא.
+     לא קשור לקבוצות מסוימות — כל קבוצה ישראלית שתעלה לאירופה בעתיד תזוהה לבד. */
+
+  var UEFA = {
+    'uefa.champions': 'ליגת האלופות', 'uefa.champions_qual': 'מוקדמות ליגת האלופות',
+    'uefa.europa': 'הליגה האירופית', 'uefa.europa_qual': 'מוקדמות הליגה האירופית',
+    'uefa.europa.conf': 'ליגת הקונפרנס', 'uefa.europa.conf_qual': 'מוקדמות ליגת הקונפרנס'
+  };
+  // "מכבי", "הפועל", "בית"ר", "עירוני", "בני סכנין" — שמות שקיימים רק בכדורגל הישראלי
+  var ISRAELI = /\b(maccabi|hapoel|beitar|ironi|bnei sakhnin|bnei yehuda)\b/i;
+
+  function ym(offset) {
+    var d = new Date(); d.setDate(1); d.setMonth(d.getMonth() + offset);
+    return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0');
+  }
+
+  function fetchEurope() {
+    var jobs = [];
+    Object.keys(UEFA).forEach(function (comp) {
+      [-1, 0, 1].forEach(function (off) { jobs.push({ comp: comp, month: ym(off) }); });
+    });
+    return N.pool(jobs, 4, function (jb) {
+      return N.getJSON('https://site.api.espn.com/apis/site/v2/sports/soccer/' + jb.comp + '/scoreboard?limit=200&dates=' + jb.month)
+        .then(function (s) { return { comp: jb.comp, events: (s && s.events) || [] }; });
+    }).then(function (res) {
+      var seen = {}, games = [], failed = 0;
+      res.forEach(function (r) {
+        if (!r || r.error) { failed++; return; }
+        r.events.forEach(function (e) {
+          if (!e || !e.id || seen[e.id] || !ISRAELI.test(e.name || '')) return;
+          var c = (e.competitions || [])[0] || {};
+          var comps = c.competitors || [];
+          var home = comps.filter(function (x) { return x.homeAway === 'home'; })[0];
+          var away = comps.filter(function (x) { return x.homeAway === 'away'; })[0];
+          if (!home || !away || !home.team || !away.team) return;
+          seen[e.id] = true;
+          var st = (e.status && e.status.type) || {};
+          games.push({
+            id: String(e.id),
+            date: e.date,
+            comp: r.comp,
+            home: home.team.displayName, away: away.team.displayName,
+            home_score: N.parseNum(home.score), away_score: N.parseNum(away.score),
+            home_winner: home.winner === true, away_winner: away.winner === true,
+            completed: st.completed === true,
+            detail: st.shortDetail || ''
+          });
+        });
+      });
+      if (failed === res.length) throw new Error('כל הבקשות נכשלו');
+      games.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+      return { data: { games: games }, data_time: new Date().toISOString() };
+    });
+  }
+
+  function loadEurope() {
+    window.LiveCache.get('sp_europe', fetchEurope, C.cadence.sports.refresh_every, N.SIM_DOWN).then(function (entry) {
+      window.DB.live.europe = entry;
+      document.dispatchEvent(new CustomEvent('live:update', { detail: { key: 'sports' } }));
+    });
+  }
+
   /* ---------- הרכבה ---------- */
 
   function load() {
@@ -113,5 +176,6 @@
 
   window.DB.live = window.DB.live || {};
   load();
-  setInterval(load, 5 * 60 * 1000);
+  loadEurope();
+  setInterval(function () { load(); loadEurope(); }, 5 * 60 * 1000);
 })();
