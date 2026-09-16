@@ -927,7 +927,9 @@
                    '<a href="' + esc(r.link) + '" target="_blank" rel="noopener noreferrer">' +
                    esc(r.home) + ' ' + F.ltr(esc(sc[0].trim()) + '–' + esc((sc[1] || '').trim())) + ' ' + esc(r.away) + '</a></li>';
           }).join('') + '</ul>'
-        : '';
+        : (okIfa && d.results_available === false
+            ? '<p class="locked filter-note">תוצאות ליגת העל לא זמינות כרגע — אתר ההתאחדות חוסם את המשימה בענן.</p>'
+            : '');
 
       return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
         '<p class="locked filter-note">משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' +

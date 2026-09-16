@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:34:51+00:00",
-  "fetched_at": "2026-09-16T19:34:51+00:00"
+  "checked_at": "2026-09-16T19:49:32+00:00",
+  "fetched_at": "2026-09-16T19:49:32+00:00"
  },
  "animals": {
   "data": [
@@ -44,15 +44,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:34:56+00:00",
-  "fetched_at": "2026-09-16T19:34:56+00:00"
+  "checked_at": "2026-09-16T19:49:36+00:00",
+  "fetched_at": "2026-09-16T19:49:36+00:00"
  },
  "av_en": {
   "data": [
    {
     "title_en": "DJ Shadow’s landmark debut album turns 30 this week – here’s what makes Endtroducing a unique test for your hi-fi",
-    "title_he": "אלבום הבכורה של DJ Shadow חוגג 30 השבוע - הנה מה שהופך את Endtroducing למבחן ייחודי עבור ה-hi-fi שלך",
-    "translated_by": "google",
+    "title_he": "אלבום הבכורה של DJ Shadow חוגג 30 השבוע – הנה מה שהופך את Endtroducing למבחן ייחודי עבור ה-Hi-Fi שלכם",
+    "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/dj-shadows-landmark-debut-album-turns-30-this-week-heres-what-makes-endtroducing-a-unique-test-for-your-hi-fi",
     "date": "2026-09-16T17:10:54+00:00"
    },
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:34:58+00:00",
-  "fetched_at": "2026-09-16T19:34:58+00:00"
+  "checked_at": "2026-09-16T19:49:38+00:00",
+  "fetched_at": "2026-09-16T19:49:38+00:00"
  },
- "generated_at": "2026-09-16T19:34:58+00:00",
+ "generated_at": "2026-09-16T19:49:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:34:53+00:00",
-  "fetched_at": "2026-09-16T19:34:53+00:00"
+  "checked_at": "2026-09-16T19:49:33+00:00",
+  "fetched_at": "2026-09-16T19:49:33+00:00"
  },
  "ifa": {
   "data": [
@@ -439,10 +439,9 @@ window.DB.generated = {
     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-16T19:34:53+00:00",
-  "fetched_at": "2026-09-16T16:31:15+00:00"
+  "ok": true,
+  "checked_at": "2026-09-16T19:49:33+00:00",
+  "fetched_at": "2026-09-16T19:49:33+00:00"
  },
  "tv": {
   "data": [
@@ -1141,8 +1140,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:34:54+00:00",
-  "fetched_at": "2026-09-16T19:34:54+00:00"
+  "checked_at": "2026-09-16T19:49:34+00:00",
+  "fetched_at": "2026-09-16T19:49:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1292,6 +1291,7 @@ window.DB.generated = {
      "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
     }
    ],
+   "results_available": true,
    "one_sided_tv": [
     {
      "date": "2026-09-16",
@@ -1331,7 +1331,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:34:54+00:00",
-  "fetched_at": "2026-09-16T19:34:54+00:00"
+  "checked_at": "2026-09-16T19:49:34+00:00",
+  "fetched_at": "2026-09-16T19:49:34+00:00"
  }
 };

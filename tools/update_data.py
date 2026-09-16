@@ -302,8 +302,18 @@ def match_team(tv_name, keys):
     return None
 
 
-def build_ligat_haal(ifa_games, tv_rows):
+# 14 קבוצות ליגת העל 2026/27 (מתפריט הקבוצות באתר ההתאחדות, 16/09/2026).
+# גיבוי: אתר ההתאחדות חוסם את השרתים של GitHub (נבדק: 403), ולוח השידורים צריך את הרשימה.
+# לעדכן בתחילת כל עונה (עולות/יורדות).
+LEAGUE_TEAMS_FALLBACK = ['בית"ר י-ם', 'בני סכנין', 'הפועל ב"ש', 'הפועל חיפה', 'הפועל י-ם', 'הפועל פ"ת',
+                         'הפועל ק"ש', 'הפועל ר"ג', 'הפועל ת"א', 'מכבי חיפה', 'מכבי נתניה', 'מכבי פ"ת',
+                         'מכבי ת"א', 'עירוני דורות טבריה']
+
+
+def build_ligat_haal(ifa_games, tv_rows, ifa_fresh=True):
     teams = sorted({g["home"] for g in ifa_games} | {g["away"] for g in ifa_games})
+    if len(teams) < 14:
+        teams = sorted(set(teams) | set(LEAGUE_TEAMS_FALLBACK))
     keys = league_keys(teams)
     upcoming = {}
     one_sided = []   # קבוצת ליגת העל מול קבוצה שאינה מהליגה — אולי משחק אירופי (או נוער/גביע).
@@ -347,9 +357,10 @@ def build_ligat_haal(ifa_games, tv_rows):
     # תוצאות: המחזור האחרון ששוחק (לפי ההתאחדות)
     played = [g for g in ifa_games if g.get("score")]
     last_dates = sorted({g["date"] for g in played})[-3:]
-    results = [g for g in played if g["date"] in last_dates]
+    # לא מציגים תוצאות ישנות כאילו הן עדכניות: אם ההתאחדות לא נקראה ב-4 הימים האחרונים — בלי תוצאות
+    results = [g for g in played if g["date"] in last_dates] if ifa_fresh else []
     return {"teams": teams, "upcoming": sorted(upcoming.values(), key=lambda u: (u["date"], u["time"])),
-            "results": results, "one_sided_tv": one_sided}
+            "results": results, "results_available": ifa_fresh, "one_sided_tv": one_sided}
 
 
 def job_boi():
@@ -416,8 +427,15 @@ def main():
     run_section(state, "ifa", job_ifa)
     run_section(state, "tv", job_tv)
     # ליגת העל = לוח ההתאחדות + לוח השידורים. גם אם אחד נכשל עכשיו — משתמשים בנתון הקודם שלו.
+    ifa_state = state.get("ifa") or {}
+    ifa_fresh = False
+    if ifa_state.get("fetched_at"):
+        try:
+            ifa_fresh = datetime.now(timezone.utc) - datetime.fromisoformat(ifa_state["fetched_at"]) < timedelta(days=4)
+        except ValueError:
+            pass
     run_section(state, "ligat_haal", lambda: build_ligat_haal(
-        (state.get("ifa") or {}).get("data") or [], (state.get("tv") or {}).get("data") or []))
+        ifa_state.get("data") or [], (state.get("tv") or {}).get("data") or [], ifa_fresh))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
     state["generated_at"] = now_iso()
