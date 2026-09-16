@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T20:34:28+00:00",
-  "fetched_at": "2026-09-16T20:34:28+00:00"
+  "checked_at": "2026-09-16T22:58:13+00:00",
+  "fetched_at": "2026-09-16T22:58:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T20:34:34+00:00",
-  "fetched_at": "2026-09-16T20:34:34+00:00"
+  "checked_at": "2026-09-16T22:58:18+00:00",
+  "fetched_at": "2026-09-16T22:58:18+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T20:34:35+00:00",
-  "fetched_at": "2026-09-16T20:34:35+00:00"
+  "checked_at": "2026-09-16T22:58:18+00:00",
+  "fetched_at": "2026-09-16T22:58:18+00:00"
  },
- "generated_at": "2026-09-16T20:34:35+00:00",
+ "generated_at": "2026-09-16T22:58:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T20:34:28+00:00",
-  "fetched_at": "2026-09-16T20:34:28+00:00"
+  "checked_at": "2026-09-16T22:58:14+00:00",
+  "fetched_at": "2026-09-16T22:58:14+00:00"
  },
  "ifa": {
   "data": [
@@ -439,110 +439,13 @@ window.DB.generated = {
     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-16T20:34:29+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-16T22:58:14+00:00",
   "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-16",
-    "time": "01:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "קלוב אתלטיקו פלאטנסה - פלומיננזה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "01:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "ואסקו דה גמא - סנטה פה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "03:30",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "סאו פאולו - בוקה ג'וניורס"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "19:40",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "הפועל רעננה - הפועל קטמון ירושלים"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "19:40",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית גת - בנות נתניה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "19:40",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי אס\"א תל אביב - מכבי כשרונות חדרה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "19:40",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי חולון - הפועל תל אביב"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "19:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "אומוניה ניקוסיה - סלטה ויגו"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "20:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "אתלטיקו מדריד - אוסאסונה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "20:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "מכבי רמת גן - הפועל גליל עליון"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "22:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "מנצ'סטר יונייטד - ברייטון"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "22:00",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "מילאן - בנפיקה"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "22:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "הפועל באר שבע - דינמו זאגרב"
-   },
-   {
-    "date": "2026-09-16",
-    "time": "22:30",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "ברצלונה - ראסינג סנטאנדר"
-   },
    {
     "date": "2026-09-17",
     "time": "01:00",
@@ -577,20 +480,6 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "בני הרצליה - מכבי ראשון לציון"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי אחי נצרת - הפועל עכו"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל רעננה - מכבי קריית גת"
    },
    {
     "date": "2026-09-17",
@@ -633,6 +522,20 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מ.ס אשדוד - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי אחי נצרת - הפועל עכו"
+   },
+   {
+    "date": "2026-09-17",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - מכבי קריית גת"
    },
    {
     "date": "2026-09-17",
@@ -1140,8 +1043,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T20:34:29+00:00",
-  "fetched_at": "2026-09-16T20:34:29+00:00"
+  "checked_at": "2026-09-16T22:58:15+00:00",
+  "fetched_at": "2026-09-16T22:58:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1294,27 +1197,6 @@ window.DB.generated = {
    "results_available": true,
    "one_sided_tv": [
     {
-     "date": "2026-09-16",
-     "time": "19:40",
-     "channel": "ספורט 5",
-     "israeli_team": "מכבי נתניה",
-     "title": "מ.ס קרית גת - בנות נתניה"
-    },
-    {
-     "date": "2026-09-16",
-     "time": "19:40",
-     "channel": "ספורט 5",
-     "israeli_team": "הפועל ת\"א",
-     "title": "מכבי חולון - הפועל תל אביב"
-    },
-    {
-     "date": "2026-09-16",
-     "time": "22:00",
-     "channel": "ספורט 1",
-     "israeli_team": "הפועל ב\"ש",
-     "title": "הפועל באר שבע - דינמו זאגרב"
-    },
-    {
      "date": "2026-09-19",
      "time": "11:50",
      "channel": "ספורט 5",
@@ -1331,8 +1213,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T20:34:29+00:00",
-  "fetched_at": "2026-09-16T20:34:29+00:00"
+  "checked_at": "2026-09-16T22:58:15+00:00",
+  "fetched_at": "2026-09-16T22:58:15+00:00"
  },
  "ai": {
   "data": {
@@ -1354,7 +1236,7 @@ window.DB.generated = {
      "title": "האם ChatGPT עומד להציג פרסומות גם בישראל?"
     }
    ],
-   "candidates": 13,
+   "candidates": 14,
    "failed_sources": [],
    "tools": [
     {
@@ -1375,28 +1257,28 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 78,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "HF Viewer · Model Architecture Explorer",
      "desc_en": "Interactive architecture graph for any HF model",
      "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 79,
+     "likes": 80,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 118,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
@@ -1424,13 +1306,13 @@ window.DB.generated = {
      "title": "H3 Acceleration Arena",
      "desc_en": "Blind A/B ranking of MiniMax-H3 acceleration variants",
      "desc_he": "דירוג A/B עיוור של גרסאות האצה MiniMax-H3",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/multimodalart/h3-acceleration-arena"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T20:34:32+00:00",
-  "fetched_at": "2026-09-16T20:34:32+00:00"
+  "checked_at": "2026-09-16T22:58:17+00:00",
+  "fetched_at": "2026-09-16T22:58:17+00:00"
  }
 };
