@@ -117,6 +117,25 @@ window.DB.sources = [
     note: 'עובדות בלבד (ערוץ, שעה, משחק) + קישור ללוח המלא. כולל גם משחקי נוער/נשים בלי סימון — ' +
           'המשימה בענן מסננת לפי הכלל "כל קבוצה משחקת פעם אחת במחזור" (נבדק 16/09/2026: 7 משחקים, 14 קבוצות, בלי כפילויות).'
   },
+  /* ---------- פינת AI (דרך המשימה בענן) ---------- */
+  {
+    id: 'src_ai_labs', name: 'Anthropic · Google DeepMind · OpenAI · Google', kind: 'בלוגים רשמיים של חברות AI',
+    license_mode: 'link_only', independence_group: 'official_ai_labs',
+    attribution: 'כותרות: הבלוגים הרשמיים של החברות (תורגמו אוטומטית)',
+    note: 'כותרת מתורגמת + קישור בלבד. ל-Anthropic אין RSS — נקרא עמוד החדשות. מ-OpenAI מתקבלים רק פוסטים מסוג Product/Research/Company/Safety (סיפורי לקוחות מסוננים).'
+  },
+  {
+    id: 'src_geektime', name: 'גיקטיים', kind: 'RSS — חדשות טכנולוגיה',
+    license_mode: 'link_only', independence_group: 'media_geektime',
+    attribution: 'כותרות: גיקטיים',
+    note: 'כותרת מקורית + קישור בלבד. רק כתבות שעוסקות ב-AI. נמשך דרך המשימה בענן (המקור חוסם קריאה ישירה).'
+  },
+  {
+    id: 'src_hf', name: 'Hugging Face', kind: 'API ציבורי — דמואים במגמה',
+    license_mode: 'licensed_data', independence_group: 'data_hf',
+    attribution: 'דמואים: Hugging Face Spaces',
+    note: 'API ציבורי מתועד. מסוננים: תוכן לא הולם, כלים להסרת סימני מים, דמואים שלא עובדים כרגע, עותקים כפולים, ודמואים עם פחות מ-40 סימוני אהבתי.'
+  },
   {
     id: 'src_espn', name: 'ESPN', kind: 'נתוני ספורט (לא רשמי)',
     license_mode: 'personal_only', independence_group: 'data_espn',

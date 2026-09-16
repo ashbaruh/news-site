@@ -219,6 +219,14 @@
       if (euLines.length) lines.push('<b>באירופה</b>: ' + euLines.join(' · ') + '.');
     }
 
+    // 3ד. AI — ההכרזה הראשונה, אם יש
+    var gai = window.DB.generated && window.DB.generated.ai && window.DB.generated.ai.data;
+    var launch = gai && (gai.news || []).filter(function (n) { return n.launch; })[0];
+    if (launch && /^https:\/\//.test(launch.link)) {
+      lines.push('<b>AI</b>: <a href="' + esc(launch.link) + '" target="_blank" rel="noopener noreferrer">' +
+                 esc(launch.title_he || launch.title || launch.title_en) + '</a> <span class="locked">(' + esc(launch.source) + ')</span>');
+    }
+
     // 4. ריבית
     var gb = window.DB.generated && window.DB.generated.boi && window.DB.generated.boi.data;
     var fed = live.fed && live.fed.data;
@@ -760,20 +768,56 @@
      3. AI
      ============================================================ */
   function renderAI() {
-    var d = window.DB.ai;
-    var html =
-      '<h3 class="sub">חדשות — מקסימום 2 ביום</h3>' +
-      '<ul class="rows">' + d.news.map(function (n) {
-        return '<li><span class="badge lic">' + esc(n.kind) + '</span> ' + esc(n.title) + '</li>';
-      }).join('') + '</ul>' +
-      '<h3 class="sub">כלים · דמואים · סקילים (ללא הגבלה)</h3>' +
-      '<ul class="rows">' + d.tools.map(function (t) {
-        return '<li><b>' + esc(t.name) + '</b> — ' + esc(t.desc) + '</li>';
-      }).join('') + '</ul>';
+    var g = generated('ai');
+    var newsOk = R.isDisplayable(R.sourceById('src_ai_labs')) || R.isDisplayable(R.sourceById('src_geektime'));
+    var toolsOk = R.isDisplayable(R.sourceById('src_hf'));
 
-    html = '<p class="locked"><span class="tag-demo">דמה</span> כל הפינה עדיין נתוני דמה — נבנית בשלב 4.</p>' + html;
-    $('#ai-slot').innerHTML = corner(3, 'AI', 'ai', html);
+    if (!g.entry || !g.entry.data) {
+      $('#ai-slot').innerHTML = corner(3, 'AI', 'ai',
+        '<p class="locked">המשימה האוטומטית עדיין לא הביאה נתונים.</p>', false, g.state);
+      return;
+    }
+    var d = g.entry.data;
+
+    /* חדשות — לכל היותר 2 ביום (לפי המפרט) */
+    var newsHtml = !newsOk ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
+      : !(d.news || []).length ? '<p class="locked">אין ב-3 הימים האחרונים הכרזה או חדשה משמעותית.</p>'
+      : '<ul class="rows news">' + d.news.map(function (n) {
+          var item = headlineItem(n);
+          var tags = '<span class="badge lic">' + esc(n.source) + '</span> ' +
+                     (n.launch ? '<span class="badge lic ai-launch">🚀 הכרזה</span> ' : '');
+          return item.replace('<li>', '<li>' + tags);
+        }).join('') + '</ul>';
+
+    /* כלים ודמואים חינמיים — Hugging Face במגמה */
+    var toolsHtml = !toolsOk ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
+      : !(d.tools || []).length ? '<p class="locked">אין כרגע דמואים חדשים שעברו את הסינון.</p>'
+      : '<ul class="rows news">' + d.tools.map(function (t) {
+          if (!/^https:\/\//.test(t.link || '')) return '';
+          return '<li><a href="' + esc(t.link) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(t.title) + '</b></a>' +
+                 ' <span class="locked">· ❤ ' + F.ltr(String(t.likes || 0)) + '</span>' +
+                 '<div class="sp-player" title="' + esc(t.desc_en || '') + '">' + esc(t.desc_he || t.desc_en || '') +
+                 (t.desc_he ? ' <span class="tag-demo">תורגם</span>' : '') + '</div></li>';
+        }).join('') + '</ul>';
+
+    var html =
+      '<h3 class="sub">חדשות — מקסימום 2 ביום</h3>' + newsHtml +
+      '<p class="locked filter-note">נבחרות לפי כללים קבועים, בלי בינה: הכרזה על מודל/מוצר קודמת לכל, ' +
+        'אחריה חדשות תעשייה בעברית, ואחריה פוסטים כלליים. ממקורות שונים. נבדקו ' + (d.candidates || 0) + ' כתבות מ-3 הימים האחרונים.' +
+        ((d.failed_sources || []).length ? ' <span class="down">לא נטענו: ' + esc(d.failed_sources.join(', ')) + '</span>' : '') + '</p>' +
+      '<h3 class="sub">כלים · דמואים חינמיים (במגמה)</h3>' + toolsHtml +
+      '<p class="locked filter-note">Hugging Face Spaces · מסוננים: תוכן לא הולם, הסרת סימני מים, דמואים שלא עובדים, עותקים.</p>' +
+      '<div class="src-line locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
+        'נבדק ' + F.dateTimeText(g.entry.checked_at) +
+        (g.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+        ' · Anthropic, Google DeepMind, OpenAI, Google, גיקטיים, Hugging Face</div>';
+
+    $('#ai-slot').innerHTML = corner(3, 'AI', 'ai', html, false, g.state);
   }
+
+  document.addEventListener('live:update', function (ev) {
+    if (ev.detail && ev.detail.key === 'generated') renderAI();
+  });
 
   /* ============================================================
      4. ספורט

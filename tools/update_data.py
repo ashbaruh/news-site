@@ -267,6 +267,148 @@ def job_tv():
     return out
 
 
+# ---- AI: 2 חדשות ביום + כלים/דמואים חינמיים ----
+# בלי בינה פרטית (החלטת בעל האתר). בחירה לפי כללים קבועים ושקופים.
+
+AI_MODEL_LAUNCH = re.compile(r"\b(introducing|launch(es|ing)?|releas(e|es|ing)|now available|new model|"
+                             r"GPT-?\d|Gemini \d|Claude|Opus|Sonnet|Haiku|Sora|Veo \d|Imagen \d|Llama \d|o\d\b)", re.I)
+AI_FLUFF = re.compile(r"\b(customer stor|case stud|webinar|how to|guide|tips|helping|business value|advertising|"
+                      r"grant|fellowship|event|podcast|hiring|careers)", re.I)
+AI_HE = re.compile(r"בינה מלאכותית|\bAI\b|OpenAI|אנת'?רופיק|Anthropic|Gemini|ג'מיני|ChatGPT|צ'אטGPT|Claude|קלוד|"
+                   r"מודל שפה|DeepMind|דיפמיינד|LLM", re.I)
+
+
+def read_openai_news():
+    """OpenAI מסמנים כל פוסט בקטגוריה. סיפורי לקוחות מגיעים בלי קטגוריה או תחת Startup/Applied AI —
+    לכן מקבלים רק Product / Research / Company / Safety (נבדק 16/09/2026 על 25 פוסטים)."""
+    root = ET.fromstring(fetch("https://openai.com/news/rss.xml"))
+    allowed = {"Product", "Research", "Company", "Safety"}
+    out = []
+    for item in root.iter("item"):
+        cats = {(c.text or "").strip() for c in item.findall("category")}
+        if not (cats & allowed):
+            continue
+        link = (item.findtext("link") or "").strip()
+        title = re.sub(r"\s+", " ", (item.findtext("title") or "").strip())
+        try:
+            host = urllib.parse.urlparse(link).hostname or ""
+            date = parsedate_to_datetime((item.findtext("pubDate") or "").strip()).astimezone(timezone.utc)
+        except Exception:
+            continue
+        if not link.startswith("https://") or not host.endswith("openai.com") or not title:
+            continue
+        out.append({"title": title, "link": link, "date": date.isoformat(timespec="seconds")})
+    return out
+
+
+def read_anthropic_news():
+    """לאנתרופיק אין RSS. קוראים את עמוד החדשות: קישור, תאריך, קטגוריה, כותרת."""
+    html = fetch_html("https://www.anthropic.com/news")
+    out, seen = [], set()
+    for m in re.finditer(r'href="(/news/[a-z0-9\-]+)"[^>]*>(.*?)</a>', html, re.S):
+        link = "https://www.anthropic.com" + m.group(1)
+        if link in seen:
+            continue
+        parts = [p for p in (strip_tags(x) for x in re.split(r"<[^>]+>", m.group(2))) if p]
+        date = next((p for p in parts if re.fullmatch(r"[A-Z][a-z]{2} \d{1,2}, \d{4}", p)), None)
+        cats = {"Announcements", "Product", "Policy", "Research", "Societal Impacts", "Economic Research", "Case Study"}
+        title = next((p for p in parts if p != date and p not in cats and len(p) > 12), None)
+        if not (date and title):
+            continue
+        seen.add(link)
+        d = datetime.strptime(date, "%b %d, %Y").replace(hour=12, tzinfo=timezone.utc)
+        out.append({"title": title, "link": link, "date": d.isoformat(timespec="seconds")})
+    if not out:
+        raise ValueError("מבנה עמוד החדשות של Anthropic השתנה")
+    return out
+
+
+def job_ai(cache):
+    sources = [
+        ("Anthropic", "en", read_anthropic_news, True),
+        ("Google DeepMind", "en", lambda: read_rss("https://deepmind.google/blog/rss.xml", "deepmind.google"), True),
+        ("OpenAI", "en", read_openai_news, True),
+        ("Google", "en", lambda: read_rss("https://blog.google/technology/ai/rss/", "blog.google"), True),
+        ("גיקטיים", "he", lambda: read_rss("https://www.geektime.co.il/feed/", "geektime.co.il"), False),
+    ]
+    now = datetime.now(timezone.utc)
+    cands, failed = [], []
+    for name, lang, fn, is_lab in sources:
+        try:
+            items = fn()
+        except Exception as e:
+            failed.append(name)
+            print(f"  ai source {name} failed: {e}", file=sys.stderr)
+            continue
+        for i in items[:40]:
+            age_h = (now - datetime.fromisoformat(i["date"])).total_seconds() / 3600
+            if age_h < -2 or age_h > 72:
+                continue
+            t = i["title"]
+            if lang == "he" and not AI_HE.search(t):
+                continue                                   # גיקטיים — רק כתבות AI
+            if AI_FLUFF.search(t):
+                continue
+            # הכרזה על מודל/מוצר — הכי חשוב. אחריה: חדשות תעשייה בעברית (נוגעות לישראל).
+            # פוסט כללי של חברה ("AI for Societal Impact") — הכי נמוך.
+            launch = bool(AI_MODEL_LAUNCH.search(t))
+            score = (4 if launch else 0) + (1.5 if lang == "he" else 1.0) - age_h / 72
+            cands.append({"score": round(score, 2), "source": name, "lang": lang, **i})
+    if len(failed) == len(sources):
+        raise ValueError("כל מקורות ה-AI נכשלו")
+
+    # מקסימום 2 ביום (לפי המפרט), ממקורות שונים
+    cands.sort(key=lambda c: c["score"], reverse=True)
+    picked, used = [], set()
+    for c in cands:
+        if c["source"] in used:
+            continue
+        picked.append(c); used.add(c["source"])
+        if len(picked) == 2:
+            break
+    news = []
+    for c in picked:
+        item = {"source": c["source"], "link": c["link"], "date": c["date"], "launch": bool(AI_MODEL_LAUNCH.search(c["title"]))}
+        if c["lang"] == "en":
+            he, by = translate(c["title"], cache)
+            item.update({"title_en": c["title"], "title_he": he, "translated_by": by})
+        else:
+            item["title"] = c["title"]
+        news.append(item)
+
+    # כלים/דמואים חינמיים — Hugging Face Spaces במגמה
+    tools = []
+    try:
+        data = json.loads(fetch("https://huggingface.co/api/spaces?sort=trendingScore&direction=-1&limit=60"
+                                "&expand[]=cardData&expand[]=likes&expand[]=runtime"))
+        bad = re.compile(r"nsfw|uncensored|porn|nude|naked|lewd|hentai|erotic|18\+|sexy|undress|deepnude|"
+                         r"jailbreak|abliterat|deepfake|face.?swap|watermark", re.I)   # הסרת סימני מים = עקיפת זכויות יוצרים
+        seen_titles = set()
+        for s in data:
+            cd = s.get("cardData") or {}
+            title = str(cd.get("title") or s["id"].split("/")[-1])[:80]
+            desc = str(cd.get("short_description") or "")[:140]
+            text = " ".join([s["id"], title, desc, " ".join(s.get("tags") or [])])
+            if bad.search(text) or (s.get("runtime") or {}).get("stage") != "RUNNING":
+                continue                                   # לא מתאים / לא עובד כרגע
+            if not desc or (s.get("likes") or 0) < 40:
+                continue                                   # בלי תיאור או בלי אמון מינימלי
+            key = re.sub(r"[^a-z0-9]", "", title.lower())[:24]
+            dkey = re.sub(r"[^a-z0-9]", "", desc.lower())[:40]
+            if key in seen_titles or dkey in seen_titles:
+                continue                                   # עותקים של אותו דמו (שם או תיאור זהים)
+            seen_titles.update([key, dkey])
+            he, by = translate(desc, cache)
+            tools.append({"title": title, "desc_en": desc, "desc_he": he, "likes": s.get("likes"),
+                          "link": "https://huggingface.co/spaces/" + s["id"]})
+            if len(tools) >= 10:
+                break
+    except Exception as e:
+        print(f"  HF spaces failed: {e}", file=sys.stderr)
+
+    return {"news": news, "candidates": len(cands), "failed_sources": failed, "tools": tools}
+
+
 # ---- ליגת העל: חיבור בין לוח ההתאחדות ללוח השידורים ----
 # ההתאחדות כותבת "מכבי פ"ת", לוח השידורים כותב "מכבי פתח תקווה". מנרמלים לשני הכיוונים.
 
@@ -436,6 +578,7 @@ def main():
             pass
     run_section(state, "ligat_haal", lambda: build_ligat_haal(
         ifa_state.get("data") or [], (state.get("tv") or {}).get("data") or [], ifa_fresh))
+    run_section(state, "ai", lambda: job_ai(cache))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
     state["generated_at"] = now_iso()
@@ -454,7 +597,7 @@ def main():
         json.dump(state, f, ensure_ascii=False, indent=1)
         f.write(";\n")
 
-    failed = [k for k in ("boi", "globes", "ifa", "tv", "animals", "av_en") if not state[k]["ok"]]
+    failed = [k for k in ("boi", "globes", "ifa", "tv", "ai", "animals", "av_en") if not state[k]["ok"]]
     print("done" + (f" — failed: {failed}" if failed else ""))
 
 

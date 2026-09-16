@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:49:32+00:00",
-  "fetched_at": "2026-09-16T19:49:32+00:00"
+  "checked_at": "2026-09-16T20:34:28+00:00",
+  "fetched_at": "2026-09-16T20:34:28+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:49:36+00:00",
-  "fetched_at": "2026-09-16T19:49:36+00:00"
+  "checked_at": "2026-09-16T20:34:34+00:00",
+  "fetched_at": "2026-09-16T20:34:34+00:00"
  },
  "av_en": {
   "data": [
@@ -77,22 +77,22 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:49:38+00:00",
-  "fetched_at": "2026-09-16T19:49:38+00:00"
+  "checked_at": "2026-09-16T20:34:35+00:00",
+  "fetched_at": "2026-09-16T20:34:35+00:00"
  },
- "generated_at": "2026-09-16T19:49:38+00:00",
+ "generated_at": "2026-09-16T20:34:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפד מעלה את הריבית ב-0.25% - לראשונה מזה שלוש שנים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555412",
-     "date": "2026-09-16T19:02:00+00:00"
+     "title": "שינוי כיוון בארה\"ב: למה הפד חזר להעלות את הריבית ואיך ההחלטה עשויה להשפיע על ישראל?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556736",
+     "date": "2026-09-16T19:16:00+00:00"
     },
     {
-     "title": "\"המחבלים לא הבינו\": הפרטים מהשמדת \"הקריה של חיזבאללה\"",
+     "title": "המשבר בין סעודיה לחות'ים - וההזדמנות לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555598",
-     "date": "2026-09-16T18:35:00+00:00"
+     "date": "2026-09-16T19:58:00+00:00"
     }
    ],
    "market": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:49:33+00:00",
-  "fetched_at": "2026-09-16T19:49:33+00:00"
+  "checked_at": "2026-09-16T20:34:28+00:00",
+  "fetched_at": "2026-09-16T20:34:28+00:00"
  },
  "ifa": {
   "data": [
@@ -438,8 +438,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:49:33+00:00",
-  "fetched_at": "2026-09-16T19:49:33+00:00"
+  "checked_at": "2026-09-16T20:34:29+00:00",
+  "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "tv": {
   "data": [
@@ -1138,8 +1138,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T19:49:34+00:00",
-  "fetched_at": "2026-09-16T19:49:34+00:00"
+  "checked_at": "2026-09-16T20:34:29+00:00",
+  "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1329,7 +1329,106 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T19:49:34+00:00",
-  "fetched_at": "2026-09-16T19:49:34+00:00"
+  "checked_at": "2026-09-16T20:34:29+00:00",
+  "fetched_at": "2026-09-16T20:34:29+00:00"
+ },
+ "ai": {
+  "data": {
+   "news": [
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+     "date": "2026-09-15T17:05:57+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+     "title_he": "הכירו את Gemini 3.8 Live ו -3.8 Live Extended Thinking",
+     "translated_by": "mymemory"
+    },
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/openai-privacy-policy-update-ads/",
+     "date": "2026-09-16T16:19:31+00:00",
+     "launch": false,
+     "title": "האם ChatGPT עומד להציג פרסומות גם בישראל?"
+    }
+   ],
+   "candidates": 13,
+   "failed_sources": [],
+   "tools": [
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 362,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+    },
+    {
+     "title": "AI Notes",
+     "desc_en": "Source-grounded AI notes with citations (open source).",
+     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
+     "likes": 114,
+     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
+    },
+    {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 78,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "HF Viewer · Model Architecture Explorer",
+     "desc_en": "Interactive architecture graph for any HF model",
+     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
+     "likes": 68,
+     "link": "https://huggingface.co/spaces/embedl/hfviewer"
+    },
+    {
+     "title": "AuK",
+     "desc_en": "Unified speech generation and editing with AuK",
+     "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
+     "likes": 79,
+     "link": "https://huggingface.co/spaces/tencent/AuK"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 118,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
+    },
+    {
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+    },
+    {
+     "title": "MiniCPM5-2B WebGPU Pi",
+     "desc_en": "A coding agent running entirely in your browser",
+     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
+     "likes": 53,
+     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+    },
+    {
+     "title": "A Hitchhiker's Guide to the 3D Ecosystem",
+     "desc_en": "An interactive guide to 3D representations.",
+     "desc_he": "מדריך אינטראקטיבי לייצוגים תלת - ממדיים.",
+     "likes": 57,
+     "link": "https://huggingface.co/spaces/suvadityamuk/3d-representations-guide"
+    },
+    {
+     "title": "H3 Acceleration Arena",
+     "desc_en": "Blind A/B ranking of MiniMax-H3 acceleration variants",
+     "desc_he": "דירוג A/B עיוור של גרסאות האצה MiniMax-H3",
+     "likes": 129,
+     "link": "https://huggingface.co/spaces/multimodalart/h3-acceleration-arena"
+    }
+   ]
+  },
+  "ok": true,
+  "checked_at": "2026-09-16T20:34:32+00:00",
+  "fetched_at": "2026-09-16T20:34:32+00:00"
  }
 }
