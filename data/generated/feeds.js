@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:31:14+00:00",
-  "fetched_at": "2026-09-16T16:31:14+00:00"
+  "checked_at": "2026-09-16T19:34:51+00:00",
+  "fetched_at": "2026-09-16T19:34:51+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:31:16+00:00",
-  "fetched_at": "2026-09-16T16:31:16+00:00"
+  "checked_at": "2026-09-16T19:34:56+00:00",
+  "fetched_at": "2026-09-16T19:34:56+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "DJ Shadow’s landmark debut album turns 30 this week – here’s what makes Endtroducing a unique test for your hi-fi",
+    "title_he": "אלבום הבכורה של DJ Shadow חוגג 30 השבוע - הנה מה שהופך את Endtroducing למבחן ייחודי עבור ה-hi-fi שלך",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/dj-shadows-landmark-debut-album-turns-30-this-week-heres-what-makes-endtroducing-a-unique-test-for-your-hi-fi",
+    "date": "2026-09-16T17:10:54+00:00"
+   },
    {
     "title_en": "Marshall Kilburn III",
     "title_he": "מרשל קילבורן השלישי",
@@ -69,49 +76,57 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/hi-fi/dacs/ifi-has-squeezed-a-dac-and-headphone-amplifier-into-its-latest-usb-c-in-ear-monitor-cable",
     "date": "2026-09-16T12:24:10+00:00"
-   },
-   {
-    "title_en": "I spent a week with the Vodafone TV – here are three things I like and two I don't",
-    "title_he": "ביליתי שבוע עם הטלוויזיה של וודאפון – הנה שלושה דברים שאני אוהב ושניים שאני לא אוהב",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/i-spent-a-week-with-the-vodafone-tv-here-are-three-things-i-like-and-two-i-dont",
-    "date": "2026-09-16T10:15:01+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:31:17+00:00",
-  "fetched_at": "2026-09-16T16:31:17+00:00"
+  "checked_at": "2026-09-16T19:34:58+00:00",
+  "fetched_at": "2026-09-16T19:34:58+00:00"
  },
- "generated_at": "2026-09-16T16:31:17+00:00",
+ "generated_at": "2026-09-16T19:34:58+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בכיר באוצר: למרות פריצת תקציב הביטחון, יעד הגירעון יישמר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556674",
-     "date": "2026-09-16T16:11:00+00:00"
+     "title": "הפד מעלה את הריבית ב-0.25% - לראשונה מזה שלוש שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555412",
+     "date": "2026-09-16T19:02:00+00:00"
     },
     {
-     "title": "סערה באיראן: \"ארה\"ב טרפדה את המפגש הקריטי על הורמוז\"",
+     "title": "\"המחבלים לא הבינו\": הפרטים מהשמדת \"הקריה של חיזבאללה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555598",
-     "date": "2026-09-16T15:24:00+00:00"
+     "date": "2026-09-16T18:35:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "הפד מעלה את הריבית ב-0.25% - לראשונה מזה שלוש שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555412",
+     "date": "2026-09-16T19:02:00+00:00"
+    },
+    {
+     "title": "לאחר העלאת הריבית: וול סטריט במגמה מעורבת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
+     "date": "2026-09-16T18:55:00+00:00"
+    },
     {
      "title": "מנכ\"ל אנבידיה מסמן: זה התחום הלוהט הבא",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555600",
      "date": "2026-09-16T16:17:00+00:00"
     },
     {
+     "title": "גילעד אלטשולר לסוכני הביטוח: \"טעות להוציא את הכסף, קחו אוויר וסבלנות\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556704",
+     "date": "2026-09-16T14:47:00+00:00"
+    },
+    {
+     "title": "ייפגשו עם 100 מיליון שקל: השותפים השקטים לאקזיט של אלטשולר ושחם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556702",
+     "date": "2026-09-16T14:42:00+00:00"
+    },
+    {
      "title": "נעילה ירוקה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קפצו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555531",
      "date": "2026-09-16T14:29:00+00:00"
-    },
-    {
-     "title": "דריכות בוול סטריט לקראת החלטת הפד: עליות בהובלת הנאסד\"ק; אינטל מזנקת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
-     "date": "2026-09-16T14:27:00+00:00"
     },
     {
      "title": "האמריקאים מרוויחים יותר, אבל מרגישים עניים יותר",
@@ -207,27 +222,12 @@ window.DB.generated = {
      "title": "עם יחס חוב–תוצר של 117%, צרפת הפכה לפנים של המשבר באירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555511",
      "date": "2026-09-15T15:51:00+00:00"
-    },
-    {
-     "title": "האינפלציה מפתיעה לטובה באוגוסט, אבל מחירי הדירות ממשיכים לעלות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555557",
-     "date": "2026-09-15T15:49:00+00:00"
-    },
-    {
-     "title": "נעילה אדומה בתל אביב בהובלת סקטור האנרגיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555435",
-     "date": "2026-09-15T14:35:00+00:00"
-    },
-    {
-     "title": "שלוש החלטות ב־36 שעות: הכלכלות הגדולות מאותתות על שינוי כיוון הריבית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555407",
-     "date": "2026-09-15T11:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:31:14+00:00",
-  "fetched_at": "2026-09-16T16:31:14+00:00"
+  "checked_at": "2026-09-16T19:34:53+00:00",
+  "fetched_at": "2026-09-16T19:34:53+00:00"
  },
  "ifa": {
   "data": [
@@ -439,8 +439,9 @@ window.DB.generated = {
     "link": "https://www.football.org.il/leagues/games/game/?game_id=1120582"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-16T16:31:15+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-16T19:34:53+00:00",
   "fetched_at": "2026-09-16T16:31:15+00:00"
  },
  "tv": {
@@ -1140,8 +1141,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T16:31:15+00:00",
-  "fetched_at": "2026-09-16T16:31:15+00:00"
+  "checked_at": "2026-09-16T19:34:54+00:00",
+  "fetched_at": "2026-09-16T19:34:54+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1330,7 +1331,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T16:31:15+00:00",
-  "fetched_at": "2026-09-16T16:31:15+00:00"
+  "checked_at": "2026-09-16T19:34:54+00:00",
+  "fetched_at": "2026-09-16T19:34:54+00:00"
  }
 };
