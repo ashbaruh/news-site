@@ -134,10 +134,12 @@ window.DB.config = {
 
   /* ---- זירות מלחמה (4 לפי המפרט) ---- */
   arenas: [
-    { id: 'iran',   name: 'איראן – ישראל – ארה"ב',      enabled: true,  map_confidence: 'medium' },
-    { id: 'ukraine',name: 'רוסיה – אוקראינה',            enabled: true,  map_confidence: 'high'   },
-    { id: 'yemen',  name: 'תימן (חות\'ים)',              enabled: true,  map_confidence: 'low'    },
-    { id: 'north',  name: 'הגזרה הצפונית (סוריה/לבנון/טורקיה)', enabled: true, map_confidence: 'medium' }
+    /* map_box = [דרום, מערב, צפון, מזרח] — אזור המפה של הזירה. מקום מחוץ לאזור (למשל פגישה בבייג'ינג)
+       לא מוצג על המפה, רק ברשימה — אחרת המפה מתרחקת לכל העולם. */
+    { id: 'iran',   name: 'איראן – ישראל – ארה"ב',      enabled: true,  map_confidence: 'medium', map_box: [10, 25, 42, 66] },
+    { id: 'ukraine',name: 'רוסיה – אוקראינה',            enabled: true,  map_confidence: 'high',   map_box: [42, 20, 58, 50] },
+    { id: 'yemen',  name: 'תימן (חות\'ים)',              enabled: true,  map_confidence: 'low',    map_box: [8, 32, 32, 62] },
+    { id: 'north',  name: 'הגזרה הצפונית (סוריה/לבנון/טורקיה)', enabled: true, map_confidence: 'medium', map_box: [29, 25, 43, 49] }
   ],
 
   /* ---- Watchlist שווקים (ברירת מחדל מהמפרט) ---- */

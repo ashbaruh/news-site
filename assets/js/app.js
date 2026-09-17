@@ -391,11 +391,18 @@
     return leafletLoading;
   }
 
-  function mapPoints(events) {
+  function inArena(p) {
+    var a = C.arenas.filter(function (x) { return x.id === activeArena; })[0];
+    var b = a && a.map_box;
+    return !b || (p.lat >= b[0] && p.lon >= b[1] && p.lat <= b[2] && p.lon <= b[3]);
+  }
+
+  /* outside=true → מקומות מחוץ לאזור הזירה (מוצגים כטקסט מתחת למפה, לא כנקודה) */
+  function mapPoints(events, outside) {
     var pts = [];
     (events || []).forEach(function (ev) {
       (ev.places || []).forEach(function (p) {
-        if (typeof p.lat === 'number' && typeof p.lon === 'number') pts.push({ ev: ev, p: p });
+        if (typeof p.lat === 'number' && typeof p.lon === 'number' && inArena(p) === !outside) pts.push({ ev: ev, p: p });
       });
     });
     return pts;
@@ -452,7 +459,12 @@
       '<h3 class="sub">חזיתות וצירים</h3><ul class="rows">' + a.fronts.map(function (f) {
         return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
       }).join('') + '</ul>' +
-      mapBox(a.map.confidence, a.map.note, a.map.layers, mapPoints(a.events).length);
+      mapBox(a.map.confidence, a.map.note, a.map.layers, mapPoints(a.events).length) +
+      (function () {
+        var far = mapPoints(a.events, true);
+        return far.length ? '<p class="locked filter-note">מחוץ לאזור המפה: ' + far.map(function (o) {
+          return esc(o.p.name) + ' (' + esc(o.ev.title) + ')'; }).join(' · ') + '</p>' : '';
+      })();
   }
 
   /* סוף הניתוח: כלכלה, מטרות (מוצהרת/מוסקת/תחזית), מקורות */
