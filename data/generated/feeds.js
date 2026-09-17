@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-16T22:58:13+00:00",
-  "fetched_at": "2026-09-16T22:58:13+00:00"
+  "checked_at": "2026-09-17T01:28:05+00:00",
+  "fetched_at": "2026-09-17T01:28:05+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T22:58:18+00:00",
-  "fetched_at": "2026-09-16T22:58:18+00:00"
+  "checked_at": "2026-09-17T01:28:12+00:00",
+  "fetched_at": "2026-09-17T01:28:12+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T22:58:18+00:00",
-  "fetched_at": "2026-09-16T22:58:18+00:00"
+  "checked_at": "2026-09-17T01:28:12+00:00",
+  "fetched_at": "2026-09-17T01:28:12+00:00"
  },
- "generated_at": "2026-09-16T22:58:18+00:00",
+ "generated_at": "2026-09-17T01:28:12+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T22:58:14+00:00",
-  "fetched_at": "2026-09-16T22:58:14+00:00"
+  "checked_at": "2026-09-17T01:28:06+00:00",
+  "fetched_at": "2026-09-17T01:28:06+00:00"
  },
  "ifa": {
   "data": [
@@ -441,7 +441,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-16T22:58:14+00:00",
+  "checked_at": "2026-09-17T01:28:07+00:00",
   "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "tv": {
@@ -1043,8 +1043,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-16T22:58:15+00:00",
-  "fetched_at": "2026-09-16T22:58:15+00:00"
+  "checked_at": "2026-09-17T01:28:08+00:00",
+  "fetched_at": "2026-09-17T01:28:08+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1213,8 +1213,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T22:58:15+00:00",
-  "fetched_at": "2026-09-16T22:58:15+00:00"
+  "checked_at": "2026-09-17T01:28:08+00:00",
+  "fetched_at": "2026-09-17T01:28:08+00:00"
  },
  "ai": {
   "data": {
@@ -1243,7 +1243,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 362,
+     "likes": 363,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -1257,7 +1257,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -1271,7 +1271,7 @@ window.DB.generated = {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 80,
+     "likes": 81,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
@@ -1285,7 +1285,7 @@ window.DB.generated = {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
@@ -1312,7 +1312,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-16T22:58:17+00:00",
-  "fetched_at": "2026-09-16T22:58:17+00:00"
+  "checked_at": "2026-09-17T01:28:12+00:00",
+  "fetched_at": "2026-09-17T01:28:12+00:00"
  }
 };
