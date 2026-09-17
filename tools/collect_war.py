@@ -117,10 +117,16 @@ def read_feed(source_id, url, words, since):
     for item in root.iter("item"):
         title = plain(item.findtext("title"))
         link = (item.findtext("link") or "").strip()
+        if link.startswith("http://"):
+            link = "https://" + link[len("http://"):]      # סבא (עדן) מפרסם http — אותו אתר עובד ב-https (נבדק)
+        pub = (item.findtext("pubDate") or "").strip()
         try:
-            date = parsedate_to_datetime((item.findtext("pubDate") or "").strip()).astimezone(timezone.utc)
+            date = parsedate_to_datetime(pub).astimezone(timezone.utc)
         except Exception:
-            continue
+            try:                                           # Al-Monitor: 2026-09-17T07:30:40-0400
+                date = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%S%z").astimezone(timezone.utc)
+            except ValueError:
+                continue
         if date < since or date > datetime.now(timezone.utc) + timedelta(minutes=10):
             continue
         if not title or not host_ok(link, source_id, url):

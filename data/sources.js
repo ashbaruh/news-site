@@ -166,6 +166,56 @@ window.DB.sources = [
     license_mode: 'summary_ok', independence_group: 'official_un',
     note: 'UN News — הודעות ודיווחים של האו"ם.'
   },
+  {
+    id: 'src_ynet', name: 'ynet', kind: 'מדיה ישראלית',
+    license_mode: 'link_only', independence_group: 'media_ynet',
+    note: 'פיד חדשות. ניסוח עצמאי + קישור בלבד. לרוב מצטט את דובר צה"ל / גורמים רשמיים — לא לבד כאימות עצמאי.'
+  },
+  {
+    id: 'src_maariv', name: 'מעריב', kind: 'מדיה ישראלית',
+    license_mode: 'link_only', independence_group: 'media_maariv',
+    note: 'פיד מבזקים. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_israelhayom', name: 'ישראל היום', kind: 'מדיה ישראלית',
+    license_mode: 'link_only', independence_group: 'media_israelhayom',
+    note: 'ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_aljazeera', name: "אל-ג'זירה", kind: 'מדיה (קטאר)',
+    license_mode: 'link_only', independence_group: 'media_aljazeera',
+    note: 'בבעלות ממשלת קטאר — זווית ברורה. חסום מישראל, נקרא מהענן של GitHub. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_saba_aden', name: 'סבא (ממשלת תימן, עדן)', kind: 'סוכנות מדינתית',
+    license_mode: 'link_only', independence_group: 'official_ye_gov',
+    note: 'סוכנות הידיעות של הממשלה המוכרת (נגד החות\'ים) — צד מעוניין. בערבית. קול החות\'ים עצמם לא נגיש (האתרים חוסמים).'
+  },
+  {
+    id: 'src_almonitor', name: 'Al-Monitor', kind: 'מדיה — המזרח התיכון',
+    license_mode: 'link_only', independence_group: 'media_almonitor',
+    note: 'ניתוחים ודיווחים על המזרח התיכון. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_crisisgroup', name: 'International Crisis Group', kind: 'מכון מחקר',
+    license_mode: 'link_only', independence_group: 'think_tank_icg',
+    note: 'הערכות ודוחות — לא דיווח שטח.'
+  },
+  {
+    id: 'src_france24', name: 'France 24', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_france24',
+    note: 'ערוץ ציבורי צרפתי. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_anadolu', name: 'אנדולו', kind: 'סוכנות מדינתית (טורקיה)',
+    license_mode: 'link_only', independence_group: 'official_tr',
+    note: 'סוכנות הידיעות של מדינת טורקיה — צד מעוניין.'
+  },
+  {
+    id: 'src_skynews', name: 'Sky News', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_sky',
+    note: 'ניסוח עצמאי + קישור בלבד.'
+  },
   /* ---------- ערוצי טלגרם ציבוריים (נקראים דרך t.me/s — בלי חשבון) ----------
      כל ערוץ = משפחת מקורות נפרדת. טלגרם לבד לא יהפוך אירוע ל"מאומת" — צריך מקור עצמאי נוסף.
      personal_only: לא מוצגים בגרסה הציבורית עד בדיקת זכויות. */
