@@ -1,0 +1,351 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0d807b748e85",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 2,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-17T15:07:21+00:00",
+  "window": {
+   "from": "2026-09-16T15:07:21+00:00",
+   "to": "2026-09-17T15:07:21+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609171507"
+  },
+  "summary": "הסלמה חריפה בלחימה בתימן בעקבות מתקפה פתאומית של החות'ים שהשתלטו על אזורים אסטרטגיים סביב מצר באב אל-מנדב ונמל מוחא, תוך עקירת עשרות אלפי תושבים והטלת מגבלות על ספנות סעודית. המהלך גרם למצוקה בסעודיה, אשר פנתה לסין ולבעלות ברית מערביות ואזוריות לסיוע בהגנה אווירית ובלחץ דיפלומטי על איראן, בעוד שארצות הברית קיימה מגעים ישירים עם נציגים חות'ים בעומאן.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "הסלמה נרחבת, התקדמות קרקעית חות'ית ולחימה אווירית"
+   },
+   {
+    "name": "חזית הים הים-סוף ובאב אל-מנדב",
+    "status": "שליטה חות'ית גוברת ואיום על נתיבי השיט והאנרגיה"
+   },
+   {
+    "name": "החזית הדיפלומטית-אזורית (סין-איראן-סעודיה)",
+    "status": "מאמצי תיווך ולחץ של בייג'ינג מול טهران לבלימת ההסלמה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09171507-01",
+    "title": "התקדמות החות'ים באזור מצר באב אל-מנדב وحفر תעלות",
+    "summary": "החות'ים הידקו את אחיזתם סביב מצר באב אל-מנדב, חפרו עשרות קילומטרים של תעלות וביצורים וביצעו מתקפה מהירה לאורך החוף.",
+    "axis": "ציר תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T21:35:42+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-16T21:35:42+00:00",
+    "last_update_at": "2026-09-17T14:53:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאמצעים הצבאיים המדויקים שנפלו בידי החות'ים לא מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_104465d86b144a6d",
+      "url": "https://www.france24.com/en/houthis-claim-saudi-f-15-kill-as-yemen-fighting-escalates",
+      "published_at": "2026-09-17T14:53:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_104465d86b144a6d",
+      "url": "https://t.me/abualiexpress/130397",
+      "published_at": "2026-09-17T14:26:38+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_0684495badc7d586",
+      "url": "https://www.newarab.com/news/yemen-was-already-suffering-ngos-tell-tna-crisis-deepens",
+      "published_at": "2026-09-17T11:36:21+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_104465d86b144a6d",
+      "url": "https://www.newarab.com/news/houthis-bab-al-mandeb-gains-expose-saudi-failures-yemen",
+      "published_at": "2026-09-16T21:35:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוחא, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09171507-02",
+    "title": "טענת החות'ים על הפלת מטוס קרב סעודי",
+    "summary": "החות'ים דיווחו כי הפילו מטוס קרב סעודי מסוג F-15 במחוז מארב ופרסמו תיעוד של השרידים.",
+    "axis": "ציר תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T14:23:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-16T14:23:05+00:00",
+    "last_update_at": "2026-09-17T14:53:00+00:00",
+    "what_is_not_verified": "האם אכן מדובר בהפלת מטוס קרב סעודי ראשון מסוג זה טרם אושר באופן רשמי גורם בלתי תלוי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_91e8a64ebf71e4f4",
+      "url": "https://www.france24.com/en/houthis-claim-saudi-f-15-kill-as-yemen-fighting-escalates",
+      "published_at": "2026-09-17T14:53:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_91e8a64ebf71e4f4",
+      "url": "https://t.me/abualiexpress/130345",
+      "published_at": "2026-09-16T16:26:22+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_b5485ab94f39169b",
+      "url": "https://t.me/abualiexpress/130334",
+      "published_at": "2026-09-16T14:23:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09171507-03",
+    "title": "פניית סעודיה לסין ולבעלות ברית בבקשת סיוע והתערבות",
+    "summary": "על רקע התקדמות החות'ים ודילול אמצעי ההגנה האווירית, סעודיה פנתה לסין בבקשה שתפעיל לחץ על איראן, וכן ביקשה סיוע צבאי מבעלות ברית כמו פקיסטן, מצרים, בריטניה וצרפת.",
+    "axis": "ציר דיפלומטי-אזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T06:48:13+00:00",
+    "last_update_at": "2026-09-17T13:22:18+00:00",
+    "what_is_not_verified": "היענות בפועל של בעלות הברית לבקשות הסיוע הצבאי אינה מאומتת במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
+      "published_at": "2026-09-17T13:22:18+00:00"
+     },
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://gcaptain.com/china-presses-iran-to-help-rein-in-houthis-after-saudi-appeal-sources-say/",
+      "published_at": "2026-09-17T12:56:52+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
+      "published_at": "2026-09-17T12:46:29+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130367",
+      "published_at": "2026-09-17T06:48:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בייג'ינג, סין",
+      "lat": 39.9057,
+      "lon": 116.3913
+     },
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09171507-04",
+    "title": "פגישת ארה\"ב והחות'ים בעומאן",
+    "summary": "נציגי ממשל ארה\"ב נפגשו עם מנהיגים חות'ים בשגרירות ארה\"ב במסקט, שם ניתן ביטחון כי החות'ים לא יתקפו ספנות אמריקאית.",
+    "axis": "ציר ארה\"ב-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-16T14:56:40+00:00",
+    "last_update_at": "2026-09-16T18:44:34+00:00",
+    "what_is_not_verified": "פרטי ההבנות המדויקים בין הצדדים אינם מאומתים במלואם מלבד הדיווחים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_d1227348aa154cea",
+      "url": "https://www.newarab.com/news/yemen-war-ramps-further-hormuz-stalemate-persists",
+      "published_at": "2026-09-16T18:44:34+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_d1227348aa154cea",
+      "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+      "published_at": "2026-09-16T14:56:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מסקט, עומאן",
+      "lat": 23.6124,
+      "lon": 58.5938
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09171507-05",
+    "title": "האשמות סעודיות כלפי החות'ים בגין ירי לעבר מכה",
+    "summary": "ערב הסעודית האשימה את החות'ים בניסיון לתקוף את העיר הקדושה מכה באמצעות כטב\"ם, טענה שהוכחשה לחלוטין על ידי החות'ים.",
+    "axis": "ציר תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-16T19:13:38+00:00",
+    "last_update_at": "2026-09-16T20:08:24+00:00",
+    "what_is_not_verified": "זהות الجורם ששיגר את הכטב\"ם והיעד המדויק שלו אינם מאומתים באופן אובייקטיבי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20260916-saudi-arabia-accuses-houthis-of-targeting-mecca-calling-it-a-red-line",
+      "published_at": "2026-09-16T20:08:24+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
+      "published_at": "2026-09-16T19:13:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, ערב הסעודית",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הדיווח על הפלת מטוס F-15 סעודי ראשון אינו מאומת ממקור עצמאי.",
+   "הטענה הסעודית כי החות'ים שיגרו כטב\"ם לעבר העיר מכה אינה מאומתת באופן אובייקטיבי.",
+   "הדיווחים על פריסת צוותים זרים או כיפת ברזל להגנה על מכה אינם מאומתים.",
+   "הטענה לפיה סעודיה ביקשה הפסקת אש בת שבועיים דרך עומאן אינה מאומתת רשמית."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0333,
+    "unit": "ILS",
+    "change_pct": 0.07,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להסיר את ההגמוניה הסעודית מעל תימן",
+     "להפסיק לחלוטין את ההתערבות הסעודית ולהשיג פתרון סופי לסכסוך",
+     "לשמור על חופש השיט הכללי אך להמשיך באכיפת הסגר על סניות סעודיות"
+    ],
+    "inferred": [
+     "להרחיב את השליטה הטריטוריאלית לאורך נתיבי הסחר הימיים כדי להפעיל לחץ כלכלי ומדיני",
+     "לנצל את חולשת הכוחות הנתמכים בידי סעודיה ואת המחסור בציוד שלהם להישגים צבאיים משמעותיים"
+    ],
+    "forecast": [
+     "ימשיכו לבצר עמדות סביב באב אל-מנדב ולהתכונן למתקפת נגד",
+     "ימנעו מפגיעה בספנות שאינה קשורה לסעודיה כדי למנוע התערבות מערבית ישירה"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "להגן על מתקניה הלאומיים, בסיסיה וערכיה מפני תקיפות",
+     "לבלום את ההתקדמות החות'ית ולהחזיר את השליטה באזורים שנפלו"
+    ],
+    "inferred": [
+     "לגייס גיבוי בינלאומי ודחיפה דיפלומטית דרך מעצמות כמו סין כדי לרסן את התמיכה האיראנית בחות'ים",
+     "למצוא פתרונות חלופיים לייצוא נפט נוכח איומים על תשתיות הצינורות והספנות"
+    ],
+    "forecast": [
+     "תמשיך לנסות להשיג חימושים ומיירטים מבעלות ברית",
+     "תשקול מהלכים צבאיים או מדיניים לבלימת המצור הימי"
+    ]
+   },
+   {
+    "actor": "סין",
+    "declared": [
+     "לקרוא לכל הצדדים לגלות איפוק ולהבטיח את חופש השיט",
+     "לפעT פתיחה מחדש של נתיבי אנרגיה ומסחר עולמיים"
+    ],
+    "inferred": [
+     "למנוע פגיעה אנושה באספקת האנרגיה הכלכלית שלה באמצעות הפעלת מנופי לחץ כלכליים ומדיניים על איראן"
+    ],
+    "forecast": [
+     "תמשיך במאמצי תיווך חשאיים וגלויים מול טهران כדי לרסן את בעלי בריתה באזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/china-presses-iran-to-help-rein-in-houthis-after-saudi-appeal-sources-say/",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-war-ramps-further-hormuz-stalemate-persists",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130367",
+    "accessed_at": "2026-09-17T15:07:21+00:00"
+   }
+  ]
+ }
+}
