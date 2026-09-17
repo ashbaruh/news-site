@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T07:43:48+00:00",
-  "fetched_at": "2026-09-17T07:43:48+00:00"
+  "checked_at": "2026-09-17T09:31:22+00:00",
+  "fetched_at": "2026-09-17T09:31:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T07:43:56+00:00",
-  "fetched_at": "2026-09-17T07:43:56+00:00"
+  "checked_at": "2026-09-17T09:31:31+00:00",
+  "fetched_at": "2026-09-17T09:31:31+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Rotel Michi Prestige X430",
+    "title_he": "רוטל מיכי פרסטיג' X430",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/rotel-michi-prestige-x430",
+    "date": "2026-09-17T08:00:00+00:00"
+   },
    {
     "title_en": "Audio-Technica ATH-WP900SE",
     "title_he": null,
@@ -69,49 +76,57 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/marshall-kilburn-iii",
     "date": "2026-09-16T14:45:26+00:00"
-   },
-   {
-    "title_en": "“We have to have an edge, otherwise we’re not going to survive” – this huge home-appliance brand is adding TVs to its portfolio, and a major British hi-fi brand is on board",
-    "title_he": "\"חייבים להיות לנו יתרון, אחרת לא נשרוד\" - מותג מכשירי החשמל הביתי הענק הזה מוסיף טלוויזיות לפורטפוליו שלו, ומותג Hi-Fi בריטי גדול נמצא על הסיפון",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/we-have-to-have-an-edge-otherwise-were-not-going-to-survive-this-huge-home-appliance-brand-is-adding-tvs-to-its-portfolio-and-a-major-british-hi-fi-brand-is-on-board",
-    "date": "2026-09-16T14:30:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T07:43:58+00:00",
-  "fetched_at": "2026-09-17T07:43:58+00:00"
+  "checked_at": "2026-09-17T09:31:35+00:00",
+  "fetched_at": "2026-09-17T09:31:35+00:00"
  },
- "generated_at": "2026-09-17T07:43:58+00:00",
+ "generated_at": "2026-09-17T09:31:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מגמה חיובית בתל אביב בהובלת מניית הבורסה מזנקת לאחר פרסום יעד הכנסות שאפתני",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
-     "date": "2026-09-17T07:38:00+00:00"
+     "title": "בפתח תקווה, בנתיבות, ובראשל\"צ: באילו שכונות מחירי השכירות דווקא יורדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555584",
+     "date": "2026-09-17T07:58:00+00:00"
     },
     {
-     "title": "חמאס קיבל החלטה מפתיעה למרות החיסולים: \"אין רוח גבית\"",
+     "title": "אלפים תקועים בגבול: המאמץ הנואש של איראן נכשל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
-     "date": "2026-09-17T06:59:00+00:00"
+     "date": "2026-09-17T09:15:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "פתיחה חיובית למסחר בתל אביב; מניית הבורסה מזנקת ב-10% אחרי פרסום יעד הכנסות שאפתני",
+     "title": "החוזים בוול סטריט מאותתים על התאוששות לאחר החלטת הריבית; אירופה נצבעת בירוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T09:10:00+00:00"
+    },
+    {
+     "title": "המדינה שמאיימת: שלוש שנות מאסר למי שיקנה מוצרי התנחלויות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556761",
+     "date": "2026-09-17T09:04:00+00:00"
+    },
+    {
+     "title": "עסקה עם נאט\"ו: ספקטרל איקס תספק מערכות הסוואה בכ-35 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556749",
+     "date": "2026-09-17T08:47:00+00:00"
+    },
+    {
+     "title": "מגמה חיובית בתל אביב; מניית הבורסה מזנקת במעל 10%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
-     "date": "2026-09-17T07:12:00+00:00"
+     "date": "2026-09-17T08:23:00+00:00"
+    },
+    {
+     "title": "משבר אמון בטורקיה: הבורסה באיסטנבול צללה והמסחר הושהה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556744",
+     "date": "2026-09-17T08:08:00+00:00"
     },
     {
      "title": "יום לאחר מייל הפיטורים האכזרי: המסר המפתיע שקיבלו העובדים שנותרו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556739",
      "date": "2026-09-17T04:25:00+00:00"
-    },
-    {
-     "title": "כך מגיב השוק להעלאת הריבית, וגם: הדיבידנד של מיקרוסופט מסדר לה אפסייד של 22%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T04:03:00+00:00"
     },
     {
      "title": "טוב למניות התוכנה והסייבר, רע לשבבים: המרוויחות והמפסידות מהאטה במרוץ ה-AI",
@@ -139,11 +154,6 @@ window.DB.generated = {
      "date": "2026-09-17T02:33:00+00:00"
     },
     {
-     "title": "שיתוף פעולה עם SK Hynix: הדיווח שמקפיץ את מניית אינטל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555626",
-     "date": "2026-09-16T20:23:00+00:00"
-    },
-    {
      "title": "נעילה אדומה בוול סטריט: הפד מחק את העליות, הדאו ג'ונס צלל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
      "date": "2026-09-16T20:00:00+00:00"
@@ -157,11 +167,6 @@ window.DB.generated = {
      "title": "שינוי כיוון בארה\"ב: למה הפד חזר להעלות את הריבית ואיך ההחלטה עשויה להשפיע על ישראל?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556736",
      "date": "2026-09-16T19:16:00+00:00"
-    },
-    {
-     "title": "מנכ\"ל אנבידיה מסמן: זה התחום הלוהט הבא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555600",
-     "date": "2026-09-16T16:17:00+00:00"
     },
     {
      "title": "גילעד אלטשולר לסוכני הביטוח: \"טעות להוציא את הכסף, קחו אוויר וסבלנות\"",
@@ -202,17 +207,12 @@ window.DB.generated = {
      "title": "לראשונה מאז 2007: כל מה שכדאי לדעת על הדרמה בשוק האג\"ח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555594",
      "date": "2026-09-16T06:00:00+00:00"
-    },
-    {
-     "title": "מפעל בגרמניה ופסי ייצור בקפריסין: התעשיות הביטחוניות הישראליות מרחיבות את פעילותן באירופה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555489",
-     "date": "2026-09-16T02:49:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T07:43:49+00:00",
-  "fetched_at": "2026-09-17T07:43:49+00:00"
+  "checked_at": "2026-09-17T09:31:23+00:00",
+  "fetched_at": "2026-09-17T09:31:23+00:00"
  },
  "ifa": {
   "data": [
@@ -426,7 +426,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-17T07:43:50+00:00",
+  "checked_at": "2026-09-17T09:31:23+00:00",
   "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "tv": {
@@ -1042,8 +1042,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T07:43:51+00:00",
-  "fetched_at": "2026-09-17T07:43:51+00:00"
+  "checked_at": "2026-09-17T09:31:25+00:00",
+  "fetched_at": "2026-09-17T09:31:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1212,8 +1212,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T07:43:51+00:00",
-  "fetched_at": "2026-09-17T07:43:51+00:00"
+  "checked_at": "2026-09-17T09:31:25+00:00",
+  "fetched_at": "2026-09-17T09:31:25+00:00"
  },
  "ai": {
   "data": {
@@ -1229,34 +1229,34 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-privacy-policy-update-ads/",
-     "date": "2026-09-16T16:19:31+00:00",
+     "link": "https://www.geektime.co.il/openai-confirms-ads-appear-in-chatgpt-in-israel/",
+     "date": "2026-09-17T08:41:29+00:00",
      "launch": false,
-     "title": "האם ChatGPT עומד להציג פרסומות גם בישראל?"
+     "title": "ב-OpenAI מאשרים לגיקטיים: הפרסומות הגיעו ל-ChatGPT בישראל"
     }
    ],
-   "candidates": 14,
+   "candidates": 16,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 368,
+     "likes": 369,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 87,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -1270,7 +1270,7 @@ window.DB.generated = {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
@@ -1305,13 +1305,364 @@ window.DB.generated = {
      "title": "Wan2.2 14B Fast",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3523,
+     "likes": 3524,
      "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T07:43:55+00:00",
-  "fetched_at": "2026-09-17T07:43:55+00:00"
+  "checked_at": "2026-09-17T09:31:31+00:00",
+  "fetched_at": "2026-09-17T09:31:31+00:00"
+ },
+ "abroad": {
+  "data": {
+   "items": [
+    {
+     "title": "שועה, שטייפמן ואבו פרחי בפנים, סבע וטוריאל בחוץ",
+     "link": "https://sports.walla.co.il/item/3868487",
+     "date": "2026-09-17T11:00:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "בכר: \"גאנדלמן? לא תמיד הכל מסתדר. בלי הקהל - לא שווים כלום\"",
+     "link": "https://sports.walla.co.il/item/3868473",
+     "date": "2026-09-17T10:00:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "גלוך, חלאילי, שועה, דסה ושטייפמן בסגל הנבחרת",
+     "link": "https://www.one.co.il/Article/533664.html?ref=rss",
+     "date": "2026-09-17T08:03:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "דסה, גאנדלמן ומי הכי חסר לכם בסגל? הצביעו",
+     "link": "https://www.one.co.il/Article/533677.html?ref=rss",
+     "date": "2026-09-17T07:19:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "\"לא הסתדר עם גאנדלמן, תמיד נשאף להכי טוב\"",
+     "link": "https://www.one.co.il/Article/533665.html?ref=rss",
+     "date": "2026-09-17T07:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "שחקן העבר שינה כיוון בנוגע לאוסקר גלוך: \"עושה את ההבדל\"",
+     "link": "https://sports.walla.co.il/item/3868383",
+     "date": "2026-09-16T22:49:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
+     "link": "https://sports.walla.co.il/item/3868373",
+     "date": "2026-09-16T22:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "דניאל פרץ: \"המטרה שלי בחיים היא לשחק. אני יכול לשמח אנשים\"",
+     "link": "https://sports.walla.co.il/item/3868336",
+     "date": "2026-09-16T19:50:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "באנגליה סימנו את הבעיה של ענאן חלאילי: \"זה חוזר על עצמו\"",
+     "link": "https://sports.walla.co.il/item/3868323",
+     "date": "2026-09-16T19:35:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "דור תורג'מן ועיליי פיינגולד זומנו לסגל הנבחרת",
+     "link": "https://www.one.co.il/Article/533645.html?ref=rss",
+     "date": "2026-09-16T19:26:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עילי פיינגולד"
+     ]
+    },
+    {
+     "title": "ענאן חלאילי ימשיך במומנטום? קריסטל פאלאס פותחת עונה אירופית",
+     "link": "https://sports.walla.co.il/item/3868307",
+     "date": "2026-09-16T18:41:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "גלוך זכה לשבחים מכוכב אייאקס: \"ההבנה בינינו מושלמת\"",
+     "link": "https://sports.walla.co.il/item/3868172",
+     "date": "2026-09-16T11:04:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "ביקורת לצד מחמאות: \"כמה בקלות רביבו נכנס להגנה של ריאל מדריד\"",
+     "link": "https://sports.walla.co.il/item/3868117",
+     "date": "2026-09-16T07:41:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "סולומון נעצר מול האקסית, דאומן גנב את ההצגה בגביע הליגה",
+     "link": "https://sports.walla.co.il/item/3868033",
+     "date": "2026-09-15T23:53:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
+     "link": "https://sports.walla.co.il/item/3867493",
+     "date": "2026-09-13T19:54:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    }
+   ],
+   "players": [
+    {
+     "name": "דני אבדיה",
+     "sport": "nba",
+     "club": "פורטלנד טרייל בלייזרס"
+    },
+    {
+     "name": "בן שרף",
+     "sport": "nba",
+     "club": "ברוקלין נטס"
+    },
+    {
+     "name": "דני וולף",
+     "sport": "nba",
+     "club": "ברוקלין נטס"
+    },
+    {
+     "name": "אוסקר גלוך",
+     "sport": "soccer",
+     "club": "אייאקס"
+    },
+    {
+     "name": "סתיו למקין",
+     "sport": "soccer",
+     "club": "טווענטה"
+    },
+    {
+     "name": "מנור סולומון",
+     "sport": "soccer",
+     "club": "ווסטהאם"
+    },
+    {
+     "name": "ענאן חלאילי",
+     "sport": "soccer",
+     "club": "קריסטל פאלאס"
+    },
+    {
+     "name": "דניאל פרץ",
+     "sport": "soccer",
+     "club": ""
+    },
+    {
+     "name": "רועי רביבו",
+     "sport": "soccer",
+     "club": ""
+    },
+    {
+     "name": "תאי עבד",
+     "sport": "soccer",
+     "club": "ריאל ויאדוליד"
+    },
+    {
+     "name": "אוריין גורן",
+     "sport": "soccer",
+     "club": "ברצלונה B"
+    },
+    {
+     "name": "עומרי גאנדלמן",
+     "sport": "soccer",
+     "club": ""
+    },
+    {
+     "name": "עומר חנין",
+     "sport": "soccer",
+     "club": "דואיסבורג"
+    },
+    {
+     "name": "כארם זועבי",
+     "sport": "soccer",
+     "club": "ריו אבה"
+    },
+    {
+     "name": "ליאם חרמש",
+     "sport": "soccer",
+     "club": "גראצר AK"
+    },
+    {
+     "name": "מוחמד אבו פאני",
+     "sport": "soccer",
+     "club": "הכוכב האדום בלגרד"
+    },
+    {
+     "name": "ביברס נאתכו",
+     "sport": "soccer",
+     "club": "פרטיזן בלגרד"
+    },
+    {
+     "name": "עופרי ארד",
+     "sport": "soccer",
+     "club": "FCSB"
+    },
+    {
+     "name": "בר לין",
+     "sport": "soccer",
+     "club": "קריבבאס"
+    },
+    {
+     "name": "גיא דהן",
+     "sport": "soccer",
+     "club": "זימברו קישינב"
+    },
+    {
+     "name": "דיא סבע",
+     "sport": "soccer",
+     "club": "אמד"
+    },
+    {
+     "name": "רמזי ספורי",
+     "sport": "soccer",
+     "club": "אנטליאספור"
+    },
+    {
+     "name": "יהב גורפינקל",
+     "sport": "soccer",
+     "club": "אא\"ק לרנקה"
+    },
+    {
+     "name": "יגאל בקר",
+     "sport": "soccer",
+     "club": "אקריטאס כלורקאס"
+    },
+    {
+     "name": "רועי קהת",
+     "sport": "soccer",
+     "club": "סומגאיט"
+    },
+    {
+     "name": "מונס דאבור",
+     "sport": "soccer",
+     "club": "שבאב אל אהלי"
+    },
+    {
+     "name": "עדן קארצב",
+     "sport": "soccer",
+     "club": "שנזן שינפנגצ'נג"
+    },
+    {
+     "name": "נטע לביא",
+     "sport": "soccer",
+     "club": ""
+    },
+    {
+     "name": "דין דוד",
+     "sport": "soccer",
+     "club": "יוקוהמה מריני"
+    },
+    {
+     "name": "תאי בריבו",
+     "sport": "soccer",
+     "club": "די.סי. יונייטד"
+    },
+    {
+     "name": "ליאל עבדה",
+     "sport": "soccer",
+     "club": "שארלוט"
+    },
+    {
+     "name": "עידן טוקלומטי",
+     "sport": "soccer",
+     "club": "שארלוט"
+    },
+    {
+     "name": "עילי פיינגולד",
+     "sport": "soccer",
+     "club": "ניו אינגלנד רבולושן"
+    },
+    {
+     "name": "ברק בראונשטיין",
+     "sport": "soccer",
+     "club": "לי מאן"
+    },
+    {
+     "name": "קייס גאנם",
+     "sport": "soccer",
+     "club": "שריף טירספול"
+    },
+    {
+     "name": "ניקיטה סטוינוב",
+     "sport": "soccer",
+     "club": "דינמו בוקרשט"
+    },
+    {
+     "name": "עבדאללה חליחל",
+     "sport": "soccer",
+     "club": "דינמו טביליסי"
+    },
+    {
+     "name": "רועי בן שמעון",
+     "sport": "soccer",
+     "club": "קבוצה בליגה האלבנית"
+    },
+    {
+     "name": "יניב אדרי",
+     "sport": "soccer",
+     "club": "אשטרלה אמדורה (משנה)"
+    }
+   ],
+   "europe": [
+    {
+     "title": "רן קוז'וך: \"לא זוכר דומיננטיות כזאת של ישראלית בליגה האירופית\"",
+     "link": "https://sports.walla.co.il/item/3868396",
+     "date": "2026-09-17T00:13:00+00:00",
+     "source": "וואלה",
+     "clubs": []
+    }
+   ]
+  },
+  "ok": true,
+  "checked_at": "2026-09-17T09:31:28+00:00",
+  "fetched_at": "2026-09-17T09:31:28+00:00"
  }
 };
