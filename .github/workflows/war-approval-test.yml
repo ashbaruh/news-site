@@ -1,0 +1,28 @@
+# ============================================================
+# בדיקת מנגנון האישור — הפעלה ידנית בלבד. בלי בינה, בלי פרסום.
+# יוצרת טיוטת דמה בתוך הריצה (לא נשמרת בפרויקט), פותחת "בקשת אישור" לדוגמה עם כותרת 🧪, וסוגרת אותה.
+# בודקת: הרשאה לפתוח/לסגור בקשות, ואיך התצוגה המקדימה נראית.
+# ============================================================
+
+name: בדיקת מנגנון האישור
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: טיוטת דמה + פתיחת בקשה + סגירה
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/war_approval_selftest.py
