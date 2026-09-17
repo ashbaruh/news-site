@@ -10,7 +10,11 @@ name: ניתוח מלחמות יומי
 on:
   schedule:
     - cron: "40 3 * * *"     # 03:40 UTC ≈ 06:40 בישראל (GitHub לפעמים מאחר בחצי שעה)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      arenas:
+        description: "זירות (מופרדות בפסיק)"
+        default: "iran,ukraine,yemen,north"
 
 permissions:
   contents: write            # לשמור טיוטות
@@ -40,7 +44,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: gemini
-        run: python tools/war_daily.py --new-drafts "$RUNNER_TEMP/new-drafts.json"
+        run: python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json"
 
       - name: שמירת הטיוטות
         run: |

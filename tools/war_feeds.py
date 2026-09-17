@@ -6,7 +6,7 @@ war_feeds.py — אילו פידים נאספים לכל זירה בניתוח �
   [מילים]    → רק כתבות שהכותרת/התקציר מכילים אחת מהמילים (פיד כללי)
 כל source_id חייב להיות רשום ב-data/sources.js עם רישיון ומשפחת מקורות.
 
-נבדק שהפידים עונים (17/09/2026). הפיד של Jerusalem Post הוצא — תקוע על כתבות מ-2025. פיד שנכשל ביום מסוים — פשוט מדולג, הניתוח ממשיך עם השאר.
+נבדק שהפידים עונים (17/09/2026). הוצאו: Jerusalem Post (פיד תקוע מ-2025), Times of Israel (חוסם את שרתי GitHub — 403), Tasnim (לא נגיש מהענן). פיד שנכשל ביום מסוים — פשוט מדולג, הניתוח ממשיך עם השאר.
 """
 
 IRAN = ["iran", "tehran", "irgc", "khamenei", "hormuz", "natanz", "fordow", "isfahan", "pezeshkian", "araghchi"]
@@ -19,12 +19,10 @@ NORTH = ["hezbollah", "lebanon", "lebanese", "beirut", "litani", "unifil", "syri
 FEEDS = {
     "iran": [
         ("src_iranintl", "https://www.iranintl.com/en/feed", IRAN),
-        ("src_toi", "https://www.timesofisrael.com/israel-and-the-region/feed/", IRAN),
         ("src_guardian", "https://www.theguardian.com/world/middleeast/rss", IRAN),
         ("src_bbc", "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml", IRAN),
         ("src_lwj", "https://www.longwarjournal.org/feed", IRAN),
         ("src_fdd", "https://www.fdd.org/feed/", IRAN),
-        ("src_tasnim", "https://www.tasnimnews.com/en/rss/feed/0/7/0/", None),
         ("src_un_news", "https://news.un.org/feed/subscribe/en/news/all/rss.xml", IRAN),
     ],
     "ukraine": [
@@ -41,14 +39,12 @@ FEEDS = {
         ("src_lwj", "https://www.longwarjournal.org/feed", YEMEN),
         ("src_gcaptain", "https://gcaptain.com/feed/", YEMEN),
         ("src_newarab", "https://www.newarab.com/rss", YEMEN),
-        ("src_toi", "https://www.timesofisrael.com/israel-and-the-region/feed/", YEMEN),
         ("src_guardian", "https://www.theguardian.com/world/middleeast/rss", YEMEN),
         ("src_bbc", "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml", YEMEN),
         ("src_un_news", "https://news.un.org/feed/subscribe/en/news/all/rss.xml", YEMEN),
     ],
     "north": [
         ("src_alma", "https://israel-alma.org/feed/", None),
-        ("src_toi", "https://www.timesofisrael.com/israel-and-the-region/feed/", NORTH),
         ("src_lbci", "https://www.lbcgroup.tv/Rss/News/en", NORTH),
         ("src_almanar", "https://english.almanar.com.lb/rss", NORTH),
         ("src_enabbaladi", "https://english.enabbaladi.net/feed/", None),

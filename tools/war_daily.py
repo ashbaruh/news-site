@@ -65,6 +65,10 @@ def main():
             time.sleep(15)                       # מרווח קטן בין זירות — מכסת בקשות לדקה
         try:
             doc, errors = an.analyze_arena(arena, items, WINDOW_HOURS, map_confidence(arena), known, log=print)
+        except an.QuotaExhausted:
+            print("⛔ המכסה היומית של Gemini נגמרה — עוצר (הזירות שנותרו יחכו למחר)")
+            failed.append(f"{arena} והלאה: המכסה היומית נגמרה")
+            break
         except Exception as e:
             print(f"❌ הבינה נכשלה: {str(e)[:400]}")
             failed.append(f"{arena}: הבינה נכשלה")

@@ -98,12 +98,21 @@ def _strip_for_gemini(schema):
     return schema
 
 
+class QuotaExhausted(RuntimeError):
+    """המכסה היומית של Gemini נגמרה — אין טעם לנסות שוב היום."""
+
+
 def _http_error_text(e):
     try:
-        msg = json.loads(e.read().decode("utf-8")).get("error", {}).get("message", "")
+        err = json.loads(e.read().decode("utf-8")).get("error", {})
+        msg = err.get("message", "")
+        # פרטי המכסה (למשל ...PerDay...) יושבים ב-details, לא בהודעה
+        ids = re.findall(r'"quotaId":\s*"([^"]+)"', json.dumps(err.get("details", [])))
+        if ids:
+            msg += " [" + ", ".join(sorted(set(ids))) + "]"
     except Exception:
         msg = ""
-    return f"HTTP {e.code}: {msg[:300]}"
+    return f"HTTP {e.code}: {msg[:400]}"
 
 
 def gemini_json(system, user, schema, temperature=0.2):
@@ -124,16 +133,21 @@ def gemini_json(system, user, schema, temperature=0.2):
     resp = None
     for model in _gemini_model:                     # עומס (503) ממשיך למודל הבא
         path = f"/models/{model}:generateContent"
-        for body in attempts:                       # 400 (סכמה לא נתמכת) ממשיך לניסיון הבא
+        for variant, body in enumerate(attempts, 1):   # 400 (צורת בקשה לא נתמכת) ממשיך לצורה הבאה
             code = None
-            for wait in (0, 20, 45):                # עומס זמני / מכסה לדקה → המתנה וניסיון חוזר
+            for wait in (0, 20, 60):                # עומס זמני / מכסה לדקה → המתנה וניסיון חוזר
                 time.sleep(wait)
                 try:
                     resp = _gemini_request(path, body)
+                    print(f"      Gemini: {model} · צורת בקשה {variant}/3 · ניסיון אחרי {wait} שנ'")
                     break
                 except urllib.error.HTTPError as e:
                     code = e.code
-                    errors.append(f"{model}: {_http_error_text(e)}")
+                    msg = _http_error_text(e)
+                    errors.append(f"{model} צורה {variant}: {msg}")
+                    print(f"      Gemini: {model} · צורה {variant} · {msg[:160]}")
+                    if code == 429 and re.search(r"per ?day|PerDay|daily", msg, re.I):
+                        raise QuotaExhausted(msg)   # המכסה היומית נגמרה — לא מבזבזים עוד בקשות
                     if code not in (429, 500, 503):
                         break
             if resp is not None or code != 400:
