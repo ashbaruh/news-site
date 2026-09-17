@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T16:50:25+00:00",
-  "fetched_at": "2026-09-17T16:50:25+00:00"
+  "checked_at": "2026-09-17T18:17:02+00:00",
+  "fetched_at": "2026-09-17T18:17:02+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T16:50:38+00:00",
-  "fetched_at": "2026-09-17T16:50:38+00:00"
+  "checked_at": "2026-09-17T18:17:20+00:00",
+  "fetched_at": "2026-09-17T18:17:20+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T16:50:40+00:00",
-  "fetched_at": "2026-09-17T16:50:40+00:00"
+  "checked_at": "2026-09-17T18:17:20+00:00",
+  "fetched_at": "2026-09-17T18:17:20+00:00"
  },
- "generated_at": "2026-09-17T16:50:40+00:00",
+ "generated_at": "2026-09-17T18:17:20+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%, טאואר ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T16:35:00+00:00"
+     "title": "מקום 29: \"לקוחות בחו\"ל מודאגים מהמלחמה, אבל חותמים איתנו 15 שנה קדימה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555189",
+     "date": "2026-09-17T18:00:00+00:00"
     },
     {
-     "title": "קמ\"ן אוגדת עזה ב-7 באוקטובר הודח סופית",
+     "title": "משרד החוץ האמריקאי: נאשר מכירת מטוסי F-35 לסעודיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
-     "date": "2026-09-17T16:34:00+00:00"
+     "date": "2026-09-17T18:11:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%",
+     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%, טאואר ב-8%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T15:26:00+00:00"
+     "date": "2026-09-17T17:36:00+00:00"
+    },
+    {
+     "title": "איזו עיר שואפת לבנות את מתחם ההופעות הסגור הגדול ביותר בישראל?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
+     "date": "2026-09-17T15:40:00+00:00"
+    },
+    {
+     "title": "בפחות ממחיר דירה: עיירה שלמה בארה”ב מחפשת קונה ב־1.1 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556783",
+     "date": "2026-09-17T15:30:00+00:00"
     },
     {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
@@ -199,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-16T20:00:00+00:00"
     },
     {
-     "title": "שינוי כיוון בארה\"ב: למה הפד חזר להעלות את הריבית ואיך ההחלטה עשויה להשפיע על ישראל?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556736",
-     "date": "2026-09-16T19:16:00+00:00"
-    },
-    {
      "title": "נעילה ירוקה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קפצו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555531",
      "date": "2026-09-16T14:29:00+00:00"
@@ -211,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T16:50:27+00:00",
-  "fetched_at": "2026-09-17T16:50:27+00:00"
+  "checked_at": "2026-09-17T18:17:03+00:00",
+  "fetched_at": "2026-09-17T18:17:03+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T16:50:28+00:00",
-  "fetched_at": "2026-09-17T16:50:28+00:00"
+  "checked_at": "2026-09-17T18:17:04+00:00",
+  "fetched_at": "2026-09-17T18:17:04+00:00"
  },
  "tv": {
   "data": [
@@ -2471,8 +2476,9 @@ window.DB.generated = {
     "title": "מנצ'סטר סיטי - סנדרלנד"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-17T16:50:29+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-17T18:17:10+00:00",
   "fetched_at": "2026-09-17T16:50:29+00:00"
  },
  "ligat_haal": {
@@ -2642,12 +2648,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T16:50:29+00:00",
-  "fetched_at": "2026-09-17T16:50:29+00:00"
+  "checked_at": "2026-09-17T18:17:10+00:00",
+  "fetched_at": "2026-09-17T18:17:10+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/life-sciences-verification-program",
+     "date": "2026-09-17T12:00:00+00:00",
+     "launch": true,
+     "title_en": "Introducing the Life Sciences Verification Program",
+     "title_he": "היכרות עם תוכנית האימות למדעי החיים",
+     "translated_by": "google"
+    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
@@ -2656,16 +2671,9 @@ window.DB.generated = {
      "title_en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
      "title_he": "הכירו את Gemini 3.8 Live ו -3.8 Live Extended Thinking",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-confirms-ads-appear-in-chatgpt-in-israel/",
-     "date": "2026-09-17T08:41:29+00:00",
-     "launch": false,
-     "title": "ב-OpenAI מאשרים לגיקטיים: הפרסומות הגיעו ל-ChatGPT בישראל"
     }
    ],
-   "candidates": 14,
+   "candidates": 15,
    "failed_sources": [],
    "tools": [
     {
@@ -2686,8 +2694,15 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 99,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 124,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
@@ -2697,17 +2712,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 123,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
-    },
-    {
      "title": "HF Viewer · Model Architecture Explorer",
      "desc_en": "Interactive architecture graph for any HF model",
      "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
@@ -2725,28 +2733,37 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
+     "title": "Wan2.2 14B Fast",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 3532,
+     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
      "likes": 59,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "Wan2.2 14B Fast",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3531,
-     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T16:50:37+00:00",
-  "fetched_at": "2026-09-17T16:50:37+00:00"
+  "checked_at": "2026-09-17T18:17:19+00:00",
+  "fetched_at": "2026-09-17T18:17:19+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ענאן חלאילי בהרכב: קריסטל פאלאס פותחת עונה אירופית",
+     "link": "https://sports.walla.co.il/item/3868307",
+     "date": "2026-09-17T20:41:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "רביבו צפוי להמשיך בהרכב אלצ'ה, ברצלונה תמשיך לכתוש בסביליה?",
      "link": "https://sports.walla.co.il/item/3868621",
@@ -2754,15 +2771,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "התקיימה פגישה בין שמעון מזרחי וריצ'ארד דיץ",
-     "link": "https://www.one.co.il/Article/533707.html?ref=rss",
-     "date": "2026-09-17T13:32:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
      ]
     },
     {
@@ -2779,25 +2787,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868473",
      "date": "2026-09-17T10:00:00+00:00",
      "source": "וואלה",
-     "players": [
-      "עומרי גאנדלמן"
-     ]
-    },
-    {
-     "title": "גלוך, חלאילי, שועה, דסה ושטייפמן בסגל הנבחרת",
-     "link": "https://www.one.co.il/Article/533664.html?ref=rss",
-     "date": "2026-09-17T08:03:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך",
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"לא הסתדר עם גאנדלמן, תמיד נשאף להכי טוב\"",
-     "link": "https://www.one.co.il/Article/533665.html?ref=rss",
-     "date": "2026-09-17T07:00:00+00:00",
-     "source": "ONE",
      "players": [
       "עומרי גאנדלמן"
      ]
@@ -2839,15 +2828,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "ענאן חלאילי ימשיך במומנטום? קריסטל פאלאס פותחת עונה אירופית",
-     "link": "https://sports.walla.co.il/item/3868307",
-     "date": "2026-09-16T18:41:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
      "link": "https://sports.walla.co.il/item/3867493",
      "date": "2026-09-13T19:54:00+00:00",
@@ -2878,6 +2858,34 @@ window.DB.generated = {
      "title": "ואיפה דני אבדיה? דירוג הסמול פורוורדים הטובים ב-NBA",
      "link": "https://sports.walla.co.il/item/3867246",
      "date": "2026-09-11T20:36:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "האלמנטים שבן שרף ודני וולף חייבים לשפר לקראת העונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3867231",
+     "date": "2026-09-11T16:57:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "בן שרף",
+      "דני וולף"
+     ]
+    },
+    {
+     "title": "\"לא יהיה מפתיע אם דני אבדיה לא יקבל הארכת חוזה בפורטלנד\"",
+     "link": "https://sports.walla.co.il/item/3867131",
+     "date": "2026-09-11T07:09:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"יעד חלומי וריאלי\": האימפריה שהוזכרה בהקשרו של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3867113",
+     "date": "2026-09-10T21:09:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3092,7 +3100,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T16:50:33+00:00",
-  "fetched_at": "2026-09-17T16:50:33+00:00"
+  "checked_at": "2026-09-17T18:17:14+00:00",
+  "fetched_at": "2026-09-17T18:17:14+00:00"
  }
 };
