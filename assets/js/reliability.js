@@ -132,7 +132,7 @@ window.Reliability = (function () {
     var reason = rootCount + ' מקורות-שורש עצמאיים מ-' + groupCount + ' משפחות מקורות שונות.';
 
     if (event.claim_type === 'statement') {
-      label  = 'הצהרה מאומתת';
+      label  = 'אומת שנאמר — התוכן לא אומת';
       reason += ' שים לב: מאומת שההצהרה נמסרה — לא תוכנה.';
     }
     if (event.lifecycle === 'corrected') {

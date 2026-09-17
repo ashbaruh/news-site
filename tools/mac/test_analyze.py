@@ -122,6 +122,12 @@ class Analyze(unittest.TestCase):
         self.assertEqual(an.clean("אינה מאומتת", 100), "אינה מאומתת")
         self.assertEqual(an.clean("رئيس مجلس القيادة", 100), "رئيس مجلس القيادة")   # ערבית שלמה — לא נוגעים
 
+    def test_claim_titles_become_statements(self):
+        for title in ("טענה להפלת מטוס קרב", "החות'ים טוענים כי", "האשמות סעודיות כלפי", "צה\"ל הודיע על"):
+            self.assertEqual(an.claim_type_for({"title": title, "claim_type": "incident"}), "statement", title)
+        self.assertEqual(an.claim_type_for({"title": "פיצוץ בנמל חודיידה", "claim_type": "incident"}), "incident")
+        self.assertEqual(an.clean("התאמת ערוצים לע랑 עקיפה", 100), "התאמת ערוצים לע עקיפה")
+
     def test_no_verification_field_in_output(self):
         for e in self.doc["events"]:
             self.assertFalse(set(e) & wc.FORBIDDEN_KEYS)

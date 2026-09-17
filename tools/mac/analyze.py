@@ -301,6 +301,8 @@ def fix_mixed_script(s):
         s = re.sub(r"[כמנפצ](?![א-ת])", lambda m: "ךםןףץ"["כמנפצ".index(m.group(0))], s)
     if re.search(r"[א-ת]", s):
         s = re.sub(r"(?<=[א-ת])[A-Z](?=[א-ת\s])", "", s)       # אות לטינית בודדת בתוך מילה ("לפעT")
+        # אותיות קוריאניות/סיניות/יפניות שנתקעו בטקסט עברי ("לע랑") — מוסרות
+        s = re.sub(r"[\u1100-\u11FF\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]+", "", s)
     return s
 
 
@@ -339,6 +341,18 @@ def event_roots(items, support):
         o = slug(support[0].get("origin") or "")
         shared = "or_" + (o if len(o) >= 3 else "unknown_origin")
     return [own(s) if s.get("first_hand") else shared for s in support]
+
+
+# אירוע שהוא טענה/הודעה/האשמה של צד → "הצהרה": אימות = שהדברים נאמרו, לא שהם נכונים.
+# נאכף בקוד (נבדק 17/09/2026: "טענה להפלת F-15" סומנה "מאומת" כי שני כלי תקשורת דיווחו על ההודעה).
+STATEMENT_RX = re.compile(r"(?<![א-ת])[ולה]?(טענ|לטענת|האשמ|האשי|הכחש|מכחיש|הודיע|הודעת|הצהר|איים|איומ|לדברי|טוענ|מאשימ)")
+
+
+def claim_type_for(ev):
+    ct = ev.get("claim_type") if ev.get("claim_type") in wc.CLAIM_TYPES else "incident"
+    if ct == "incident" and STATEMENT_RX.search(str(ev.get("title") or "")):
+        return "statement"
+    return ct
 
 
 def event_places(raw, geocode):
@@ -389,7 +403,7 @@ def build(arena, items, events_out, overview, window_hours, map_confidence, run_
             "title": clean(ev.get("title"), 200) or "ללא כותרת",
             "summary": clean(ev.get("summary"), 1200) or "—",
             "axis": clean(ev.get("axis"), 80) or "לא צוין",
-            "claim_type": ev.get("claim_type") if ev.get("claim_type") in wc.CLAIM_TYPES else "incident",
+            "claim_type": claim_type_for(ev),
             "lifecycle": "active",
             "occurred_at": occurred.isoformat(timespec="seconds"),
             "is_ongoing": bool(ev.get("is_ongoing")),
