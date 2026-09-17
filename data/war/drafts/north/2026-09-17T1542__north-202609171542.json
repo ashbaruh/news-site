@@ -1,0 +1,354 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c7ab96c960d8",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-17T15:42:37+00:00",
+  "window": {
+   "from": "2026-09-16T15:42:37+00:00",
+   "to": "2026-09-17T15:42:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609171542"
+  },
+  "summary": "הדיווחים עוסקים בשיחות בפריז על עתיד לבנון ויוניפי\"ל, תקיפות בדרום לבנון, הבנות לכאורה בין ארה\"ב לחות'ים בעומאן, יוזמה של טורקיה לגבי הים השחור, ופגישות דיפלומטיות אזוריות הכוללות את טורקיה, סוריה וירדן.",
+  "fronts": [
+   {
+    "name": "לבנון-ישראל",
+    "status": "פעיל, כולל תקיפות בדרום לבנון ודיפלומטיה בינלאומית"
+   },
+   {
+    "name": "תימן והים האדום",
+    "status": "מתיחות, השתלטות חות'ית ומגעים עקיפים עם ארה\"ב"
+   },
+   {
+    "name": "סוריה",
+    "status": "תהליכי ייצוב מחדש, משפטים ופעילות דיפלומטית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09171542-01",
+    "title": "תקיפות והפצצות בדרום לבנון",
+    "summary": "התקפות ופיצוצים יזומים באל מנצורי בדרום לבנון",
+    "axis": "לבנון-ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T13:52:01+00:00",
+    "last_update_at": "2026-09-17T14:37:30+00:00",
+    "what_is_not_verified": "לא מאומת מי עומד מאחורי כל פיצוץ ספציפי מלבד דיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128167/",
+      "published_at": "2026-09-17T14:37:30+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128157/",
+      "published_at": "2026-09-17T14:06:00+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94373",
+      "published_at": "2026-09-17T13:54:15+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130393",
+      "published_at": "2026-09-17T13:52:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09171542-02",
+    "title": "שיחות בפריז על עתיד לבנון ויוניפי\"ל",
+    "summary": "מנהיגי צרפת, לבנון וירדן נפגשו בפריז לדון בתמיכה בצבא לבנון ובהערכות לקראת סיום משימת יוניפי\"ל",
+    "axis": "לבנון-בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T09:05:35+00:00",
+    "last_update_at": "2026-09-17T14:46:07+00:00",
+    "what_is_not_verified": "האם יוקם כוח רב-לאומי חדש בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/lebanon-on-paris-talks-the-general-sentiment-here-is-very-little-hope",
+      "published_at": "2026-09-17T14:46:07+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/macron-hosts-lebanon-security-talks-un-mission-nears-end",
+      "published_at": "2026-09-17T13:30:28+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/lebanon-unifil-withdrawal-at-the-heart-of-paris-talks",
+      "published_at": "2026-09-17T13:23:41+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958327/macron-a-sovereign-stable-lebanon-is-key-to-regional-peace/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958327",
+      "published_at": "2026-09-17T11:58:18+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958324/jordan-france-reaffirm-support-for-lebanons-sovereignty-state-institut/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958324",
+      "published_at": "2026-09-17T11:42:00+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/macron-pushes-israeli-withdrawal-paris-meeting-lebanon",
+      "published_at": "2026-09-17T11:12:30+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958286/aoun-in-paris-lebanon-has-chosen-the-state-now-it-needs-international/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958286",
+      "published_at": "2026-09-17T09:05:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פריז, צרפת",
+      "lat": 48.8535,
+      "lon": 2.3484
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09171542-03",
+    "title": "הסכם הבנות בין ארה\"ב לחות'ים בעומאן",
+    "summary": "מקורות דיווחו שארצות הברית הגיעה להבנות עם החות'ים בעומאן לפיהן ארה\"ב תימנע מהתערבות בתימן בתמורה לאי-פגיעה בספינות אמריקאיות",
+    "axis": "תימן-ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T15:33:21+00:00",
+    "last_update_at": "2026-09-17T15:33:21+00:00",
+    "what_is_not_verified": "האם ארה\"ב אכן התחייבה רשמית שלא להתערב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/us-intervention-table-yemen-despite-saudi-pressure",
+      "published_at": "2026-09-17T15:33:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מסקט, עומאן",
+      "lat": 23.6124,
+      "lon": 58.5938
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09171542-04",
+    "title": "משפט על האלימות בסוריה",
+    "summary": "בית משפט בסוריה גזר עונשי מאסר ומוות על מעורבים באלימות באזור החוף",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T12:31:14+00:00",
+    "last_update_at": "2026-09-17T13:42:13+00:00",
+    "what_is_not_verified": "פרטי הביצוע המלאים של גזרי הדין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syrian-court-issues-death-prison-sentences-for-2025-coastal-violence/4060210",
+      "published_at": "2026-09-17T13:42:13+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/17/syrian-court-sentences-three-linked-to-coastal-violence?traffic_source=rss",
+      "published_at": "2026-09-17T12:31:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09171542-05",
+    "title": "הצעה טורקית להפסקת תקיפות בים השחור",
+    "summary": "טורקיה העבירה הצעה לרוסיה ואוקראינה לעצירת פגיעה בספינות אזרחיות בים השחור",
+    "axis": "רוסיה-אוקראינה-טורקיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T08:02:56+00:00",
+    "last_update_at": "2026-09-17T12:55:00+00:00",
+    "what_is_not_verified": "האם הצדדים יסכימו להצעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.dailysabah.com/politics/turkiye-proposes-deal-to-end-black-sea-attacks/news",
+      "published_at": "2026-09-17T12:55:00+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/world-news/958251/turkey-proposes-russia-ukraine-deal-to-end-black-sea-shipping-attacks/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958251",
+      "published_at": "2026-09-17T08:02:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנקרה, טורקיה",
+      "lat": 39.9208,
+      "lon": 32.854
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומו המדויק של הסכם מחייב בין ארה\"ב לחות'ים בעומאן",
+   "ההצלחה בפועל של היוזמה הטורקית בים השחור",
+   "פרטי ההסכם המסגרת המלאים בין לבנון לישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0333,
+    "unit": "ILS",
+    "change_pct": 0.07,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "לבנון",
+    "declared": [
+     "חיזוק סמכות המדינה והצבא בכל השטח",
+     "גיוס תמיכה בינלאומית ארוכת טווח"
+    ],
+    "inferred": [
+     "רצון למנוע וואקום ביטחוני לאחר סיום משימת יוניפי\"ל"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים להבטחת סיוע צבאי וכלכלי"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הצעת פתרונות להפסקת תקיפות ספינות בים השחור",
+     "הרחבת שיתופי פעולה אזוריים (כגון באפגניסטן וסוריה)"
+    ],
+    "inferred": [
+     "ניסיון לבסס מעמד של מתווך אזורי מרכזי"
+    ],
+    "forecast": [
+     "המשך ניסיונות תיווך בסכסוכים ימיים ואזוריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/17/syrian-court-sentences-three-linked-to-coastal-violence?traffic_source=rss",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/128157/",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/macron-hosts-lebanon-security-talks-un-mission-nears-end",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syrian-court-issues-death-prison-sentences-for-2025-coastal-violence/4060210",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/turkiye-proposes-deal-to-end-black-sea-attacks/news",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/lebanon-unifil-withdrawal-at-the-heart-of-paris-talks",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/world-news/958251/turkey-proposes-russia-ukraine-deal-to-end-black-sea-shipping-attacks/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958251",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/us-intervention-table-yemen-despite-saudi-pressure",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130393",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94373",
+    "accessed_at": "2026-09-17T15:42:37+00:00"
+   }
+  ]
+ }
+}

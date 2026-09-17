@@ -1,0 +1,400 @@
+{
+ "status": "draft",
+ "received_sha256_12": "34a127cbae3a",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 3,
+   "assessment": 1,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-17T15:39:00+00:00",
+  "window": {
+   "from": "2026-09-16T15:39:00+00:00",
+   "to": "2026-09-17T15:39:00+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609171539"
+  },
+  "summary": "הדיווחים עוסקים במתיחות מול איראן במישורים שונים: חקירות האו\"ם לגבי תקיפות אמריקאיות, האשמות בינלאומיות נגד איראן בפשעים נגד האנושות, מאמצים דיפלומטיים של סין מול איראן בעקבות לחץ סעודי והתקדמות החות'ים בתימן, וכן התפתחויות פנים-איראניות, הצהרות על סיום או המשך עימות, ופעילות אכיפה וריגול.",
+  "fronts": [
+   {
+    "name": "החזית האמריקאית-איראנית",
+    "status": "פעיל / דיפלומטי"
+   },
+   {
+    "name": "חזית תימן והים ה (אדום)",
+    "status": "הסלמה והתקדמות חות'ית"
+   },
+   {
+    "name": "חזית המפרץ וסעודיה",
+    "status": "תקיפות אנרגיה ויירוטים"
+   },
+   {
+    "name": "הזירה הפנים-איראנית",
+    "status": "מחאות, משבר כלכלי ודיכוי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09171539-01",
+    "title": "דחיית מינוי ארה\"ב לסוכנות לאנרגיה אטומית",
+    "summary": "איראן דחתה את מינוי ארה\"ב למועצת הנגידים של הסוכנות לאנרגיה אטומית.",
+    "axis": "דיפלומטי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T15:18:17+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T15:18:17+00:00",
+    "last_update_at": "2026-09-17T15:18:17+00:00",
+    "what_is_not_verified": "לא מאומת מעבר להצהרה הרשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_4d4805c8064e0e9f",
+      "url": "https://en.irna.ir/news/86266841/Iran-strongly-rejects-membership-of-US-to-IAEA-BoG",
+      "published_at": "2026-09-17T15:18:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09171539-02",
+    "title": "דו\"ח האו\"ם על תקיפות במינאב ולאמרד",
+    "summary": "משלחת חקירת עובדות של האו\"ם קבעה שיש בסיס סביר להאמין שארה\"ב ביצעה תקיפות צבאיות על בית ספר ומתקן ספורט שהרגו אזרחים בפברואר.",
+    "axis": "בין-לאומי",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-02-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T13:22:35+00:00",
+    "last_update_at": "2026-09-17T15:07:47+00:00",
+    "what_is_not_verified": "האחריות האמריקאית נדחתה או לא אושרה על ידי ארה\"ב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_un_experts",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-17T15:07:47+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_un_experts",
+      "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
+      "published_at": "2026-09-17T13:22:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מינאב, איראן",
+      "lat": 27.1506,
+      "lon": 57.0753
+     },
+     {
+      "name": "לאמרד, איראן",
+      "lat": 27.3334,
+      "lon": 53.1816
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09171539-03",
+    "title": "האשמת איראן בפשעים נגד האנושות",
+    "summary": "אמנסטי אינטרנשיונל האשימה את הרשויות באיראן בביצוע פשעים נגד האנושות במהלך דיכוי המחאות.",
+    "axis": "זכויות אדם",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T20:09:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-16T20:09:08+00:00",
+    "last_update_at": "2026-09-17T14:55:34+00:00",
+    "what_is_not_verified": "טענות ארגון זכויות האדם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_f3ae84b5f538c817",
+      "url": "https://www.france24.com/en/amnesty-accuses-iran-of-crimes-against-humanity",
+      "published_at": "2026-09-17T14:55:34+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_1e170c6e17634220",
+      "url": "https://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
+      "published_at": "2026-09-16T20:09:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09171539-04",
+    "title": "פניית סין לאיראן לבלימת החות'ים",
+    "summary": "סין פנתה בחשאי לאיראן בבקשה שתפעיל את השפעתה על החות'ים בתימן כדי לבלום את התקדמותם בעקבות פנייה סעודית.",
+    "axis": "דיפלומטי-אזורי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T12:44:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T12:44:25+00:00",
+    "last_update_at": "2026-09-17T13:22:18+00:00",
+    "what_is_not_verified": "המגעים החשאיים מבוססים על מקורות אנונימיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
+      "published_at": "2026-09-17T13:22:18+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47777",
+      "published_at": "2026-09-17T12:50:54+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
+      "published_at": "2026-09-17T12:46:29+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
+      "published_at": "2026-09-17T12:44:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09171539-05",
+    "title": "העברת חוק הסנקציות על איראן ורוסיה בארה\"ב",
+    "summary": "בית הנבחרים של ארה\"ב העביר את חוק הסנקציות לקראת חתימת הנשיא.",
+    "axis": "אמריקאי-איראני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T12:11:45+00:00",
+    "last_update_at": "2026-09-17T12:11:45+00:00",
+    "what_is_not_verified": "לא מאומת האם נחתם סופית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_3959f0afeb9f592d",
+      "url": "https://www.iranintl.com/en/202609175386",
+      "published_at": "2026-09-17T12:11:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09171539-06",
+    "title": "תקיפת צינור הנפט בסעודיה ויירוט כטב\"מים",
+    "summary": "צינור הנפט המזרחי-מערבי בסעודיה נפגע בתקיפת כטב\"מים שמקורה בעיראק, והיו אירועי יירוט כטב\"מים בממלכה.",
+    "axis": "המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-16T17:36:16+00:00",
+    "last_update_at": "2026-09-17T12:44:25+00:00",
+    "what_is_not_verified": "זהות המפעילים המדויקת של המיליציות בעיראק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
+      "published_at": "2026-09-17T12:44:25+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/09/iraq-continues-investigating-attack-on-saudi-arabia-from-iraqi-territory.php",
+      "published_at": "2026-09-16T19:58:59+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/16/the-guardian-view-on-the-houthi-advance-in-yemen-another-vital-middle-east-artery-becomes-a-battlefield",
+      "published_at": "2026-09-16T17:36:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09171539-07",
+    "title": "הרשעת ישראלי בריגול עבור איראן",
+    "summary": "בית משפט גזר 13.5 שנות מאסר על אלכסנדר גרנובסקי שהורשע בביצוע משימות עבור מפעיל איראני.",
+    "axis": "פנים-ישראלי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-16T15:50:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-16T15:50:45+00:00",
+    "last_update_at": "2026-09-16T15:50:45+00:00",
+    "what_is_not_verified": "לא מאומת מעבר לפרטי כתב האישום וגזר הדין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47755",
+      "published_at": "2026-09-16T15:50:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פתח תקווה, ישראל",
+      "lat": 32.0878,
+      "lon": 34.886
+     },
+     {
+      "name": "חדרה, ישראל",
+      "lat": 32.4407,
+      "lon": 34.9401
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על מגעים ישירים והסכמים קרבים בין איראן לארה\"ב",
+   "פרטי הפנייה החשאית של סין לאיראן לפי מקורות אנונימיים",
+   "ההערכות המדויקות על היקף הנזק לאתרי צבא בארה\"ב"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0333,
+    "unit": "ILS",
+    "change_pct": 0.07,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "דחיית ההתערבות האמריקאית במוסדות בינלאומיים",
+     "המשך פיתוח טכנולוגיות הגנה והרתעה"
+    ],
+    "inferred": [
+     "שמירה על שליטה באזורי מעבר ימיים אסטרטגיים כמו מצר הורמוז",
+     "ניסיון להתמודד עם משבר כלכלי פנימי ובידוד בינלאומי"
+    ],
+    "forecast": [
+     "המשך שימוש בבעלי ברית אזוריים כמנופי לחץ",
+     "שמירה על קו נוקשה מול סנקציות מערביות"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "העברת סנקציות נוספות על איראן",
+     "רצון להגיע לסיום העימות או לפתרון דיפלומטי לפי הצהרות נשיא ארה\"ב"
+    ],
+    "inferred": [
+     "החלשת היכולות הצבאיות והגרעיניות של איראן",
+     "התמודדות עם שחיקה של משאבים צבאיים באסיה והמפרץ"
+    ],
+    "forecast": [
+     "שילוב של לחץ כלכלי, סנקציות ואיומים צבאיים מתמשכים"
+    ]
+   },
+   {
+    "actor": "סין",
+    "declared": [
+     "קריאה פומבית לאיפוק ושמירה על חופש השיט"
+    ],
+    "inferred": [
+     "רצון למנוע פגיעה באספקת האנרגיה ובאינטרסים הכלכליים שלה במפרץ ובתימן"
+    ],
+    "forecast": [
+     "המשך תיווך חשאי ודיפלומטי מול טהרן למניעת הסלמה רחבה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/16/the-guardian-view-on-the-houthi-advance-in-yemen-another-vital-middle-east-artery-becomes-a-battlefield",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609175386",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86266841/Iran-strongly-rejects-membership-of-US-to-IAEA-BoG",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/09/iraq-continues-investigating-attack-on-saudi-arabia-from-iraqi-territory.php",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47755",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
+    "accessed_at": "2026-09-17T15:39:00+00:00"
+   }
+  ]
+ }
+}

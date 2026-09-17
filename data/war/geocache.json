@@ -1,9 +1,33 @@
 {
+"al-mansouri, lebanon": [
+33.1737,
+35.2111
+],
+"ankara, turkey": [
+39.9208,
+32.854
+],
 "bab al-mandab strait, yemen": null,
 "bab el-mandeb, yemen": null,
 "beijing, china": [
 39.9057,
 116.3913
+],
+"damascus, syria": [
+33.5131,
+36.3096
+],
+"hadera, israel": [
+32.4407,
+34.9401
+],
+"lamerd, iran": [
+27.3334,
+53.1816
+],
+"london, united kingdom": [
+51.5074,
+-0.1278
 ],
 "marib governorate, yemen": null,
 "marib, yemen": [
@@ -14,6 +38,10 @@
 21.4208,
 39.8269
 ],
+"minab, iran": [
+27.1506,
+57.0753
+],
 "mokha, yemen": [
 13.3179,
 43.2501
@@ -22,12 +50,36 @@
 23.6124,
 58.5938
 ],
+"paris, france": [
+48.8535,
+2.3484
+],
+"petah tikva, israel": [
+32.0878,
+34.886
+],
 "riyadh, saudi arabia": [
 24.6389,
 46.716
 ],
+"rostov-on-don, russia": [
+47.261,
+39.7249
+],
 "taif, saudi arabia": [
 21.2703,
 40.4158
+],
+"washington, usa": [
+38.8951,
+-77.0364
+],
+"yaroslavl, russia": [
+57.6264,
+39.8934
+],
+"zaporizhzhia, ukraine": [
+47.8508,
+35.1183
 ]
 }

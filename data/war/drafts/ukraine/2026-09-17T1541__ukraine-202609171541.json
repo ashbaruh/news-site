@@ -1,0 +1,240 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ccda06a18ede",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-17T15:41:49+00:00",
+  "window": {
+   "from": "2026-09-16T15:41:49+00:00",
+   "to": "2026-09-17T15:41:49+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609171541"
+  },
+  "summary": "הדיווחים מתמקדים בהסלמה בתקיפות אוויריות הדדיות: אוקראינה מדווחת על פגיעות במטרות אנרגיה וצבא בעומק רוסיה (ירוסלבל ורוסטוב) ויירוט כטב\"מים, בעוד רוסיה ממשיכה בתקיפות שגרמו לנזקים באזורים שונים באוקראינה (זפורוז'יה וקייב). במקביל, ארה\"ב מקדמת סנקציות חדשות, ופולין מעלה את דריכות חיל האוויר שלה עקב פרובוקציות ופעילות גבול.",
+  "fronts": [
+   {
+    "name": "חזית האוויר ועומק רוסיה",
+    "status": "פעיל מאוד עם תקיפות הדדיות באמצעות כטב\"מים וטילים"
+   },
+   {
+    "name": "חזית הדרום והמזרח באוקראינה",
+    "status": "לחימה קרקעית, תקיפות על תשתיות ואזרחים (זפורוז'יה)"
+   },
+   {
+    "name": "הזירה הדיפלומטית והכלכלית",
+    "status": "החמרת סנקציות מצד המערב וגינויים הדדיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09171541-01",
+    "title": "תקיפת כטב\"ם על אוטובוס בזפורוז'יה",
+    "summary": "חמישה בני אדם נפצעו כתוצאה מתקיפת רחפן פצוע על אוטובוס ברובע קוסמיצני בזפורוז'יה.",
+    "axis": "חזית הדרום והמזרח באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T14:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T14:55:00+00:00",
+    "last_update_at": "2026-09-17T14:55:00+00:00",
+    "what_is_not_verified": "חומרת הפציעות המלאה מעבר לדיווחים הראשוניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e08242be673c5ae9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/17/8053949/",
+      "published_at": "2026-09-17T14:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפורוז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09171541-02",
+    "title": "תקיפות כטב\"ם ומפעלים ברוסיה (ירוסלבל ורוסטוב)",
+    "summary": "אוקראינה ביצעה תקיפות כטב\"מים שהובילו לנזק בבית זיקוק בירוסלבל ובשדה תעופה צבאי ברוסטוב על הדון, וכן ניתוקי חשמל באזורים שונים.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T07:28:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T07:28:46+00:00",
+    "last_update_at": "2026-09-17T07:28:46+00:00",
+    "what_is_not_verified": "מספר הכלים המדויק שנפגע לעומת מספר הכלים שנטען שייורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/09/17/ukrainian-drone-attack-sets-russian-oil-refinery-on-fire-cuts-power-to-part-of-russian-city",
+      "published_at": "2026-09-17T07:28:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירוסלבל, רוסיה",
+      "lat": 57.6264,
+      "lon": 39.8934
+     },
+     {
+      "name": "רוסטוב על הדון, רוסיה",
+      "lat": 47.261,
+      "lon": 39.7249
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09171541-03",
+    "title": "אישור סנקציות חדשות על רוסיה בבית הנבחרים האמריקאי",
+    "summary": "בית הנבחרים של ארצות הברית הצביע על חבילת סנקציות מקיפה נגד הכלכלה הרוסית, מגזר האנרגיה ותעשיית הביטחון.",
+    "axis": "הזירה הבינלאומית והכלכלית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T10:46:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T10:46:29+00:00",
+    "last_update_at": "2026-09-17T14:51:51+00:00",
+    "what_is_not_verified": "השפעת הסנקציות בפועל על עצירת המכונה הצבאית הרוסית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_86a5b83ea3baaddd",
+      "url": "https://kyivindependent.com/sanctions-from-hell-can-west-finally-choke-off-kremlins-war-machine/",
+      "published_at": "2026-09-17T14:51:51+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_86a5b83ea3baaddd",
+      "url": "https://meduza.io/en/news/2026/09/17/sanctions-from-hell-from-us-will-complicate-peace-talks-kremlin-says",
+      "published_at": "2026-09-17T10:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09171541-04",
+    "title": "פגיעה במפעל הפלדה זפורוז'סטאל",
+    "summary": "רוסיה תקפה באמצעות שני טילים בליסטיים את מפעל הפלדה זפורוז'סטאל, מה שהביא לפציעת עובד אחד.",
+    "axis": "חזית הדרום והמזרח באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T14:27:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T14:27:29+00:00",
+    "last_update_at": "2026-09-17T14:27:29+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לתשתיות הייצור במפעל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_metinvest",
+      "url": "https://kyivindependent.com/russian-forces-strike-major-ukrainian-steel-plant-for-4th-time-in-a-month-injuring-1-worker/",
+      "published_at": "2026-09-17T14:27:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפורוז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות רוסיה כי אירועי בוצ'ה בוימו על ידי קייב וכי הקורבנות לא היו אזרחים תושבי המקום",
+   "טענות גרינפיס ומדביסקי אינטליגנציה כי אין ראיות לפגיעות אוקראיניות בתשתיות תחנת הכוח הגרעינית בזפורוז'יה",
+   "ההערכות והדיווחים המודיעיניים על כך שרוסיה מבצעת מתקפות היברידיות מתוכננות ברחבי אירופה להטלת פחד או שיבוש",
+   "מספר הכלים המדויק שהושמדו או יורטו בשמי רוסיה ואוקראינה לפי הודעות המשרדים הצבאיים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1481,
+    "unit": "USD",
+    "change_pct": -0.49,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "פגיעה במטרות צבאיות, בתי זיקוק ושדות תעופה צבאיים בעומק רוסיה",
+     "הרחבת ייצור אמצעי יירוט מקומיים כנגד רחפנים מתקדמים"
+    ],
+    "inferred": [
+     "שיבוש הלוגיסטיקה ותעשיית האנרגיה הרוסית כדי להקשות על מימון המלחמה",
+     "גיוס תמיכה מערבית נוספת ואמצעי הגנה אווירית"
+    ],
+    "forecast": [
+     "המשך ניסיונות פגיעה במטרות תשתית בתוך שטחי רוסיה",
+     "התבססות על אמצעי יירוט מתוצרת מקומית מול איומי כטב\"מים מהירים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "סיום הסכסוך בתנאים של רוסיה ומאבק נגד תשתיות צבאיות ואנרגיה באוקראינה",
+     "חשיפת פעילות שלטענתה מוכיחה זיופים באירועים כמו בוצ'ה"
+    ],
+    "inferred": [
+     "הפעלת לחץ מתמשך על תשתיות קריטיות באוקראינה ובדיקת חולשות במערך ההגנה של נאט\"ו",
+     "תגובה למכה הכלכלית מאירופה ומארה\"ב דרך הגברת פעולות היברידיות"
+    ],
+    "forecast": [
+     "הגברת התקיפות על מתקני אנרגיה ותעשייה באוקראינה",
+     "המשך מאמצים דיפלומטיים ותקשורתיים לערעור הלגיטימציה של ההנהגה בקייב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-forces-strike-major-ukrainian-steel-plant-for-4th-time-in-a-month-injuring-1-worker/",
+    "accessed_at": "2026-09-17T15:41:49+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/17/sanctions-from-hell-from-us-will-complicate-peace-talks-kremlin-says",
+    "accessed_at": "2026-09-17T15:41:49+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/17/8053949/",
+    "accessed_at": "2026-09-17T15:41:49+00:00"
+   }
+  ]
+ }
+}
