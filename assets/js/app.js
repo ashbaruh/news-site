@@ -139,12 +139,22 @@
     var lines = [];
     function pc(v) { return F.ltr((v > 0 ? '+' : '') + v.toFixed(2) + '%'); }
 
-    // 1. מלחמות — עדיין נתוני דמה, ולכן מסומן
+    // 1. מלחמות — ניתוח מאושר (אם יש), אחרת נתוני הדמה עם סימון
+    var pubArenas = C.arenas.map(function (a) { return { a: a, p: publishedFor(a.id) }; })
+      .filter(function (o) { return o.p && Date.now() - new Date(o.p.analysis.generated_at).getTime() < 72 * 3600000; });
     var evs = (window.DB.events || []).filter(function (e) { return e.arena === 'iran'; });
     var verifiedToday = evs.filter(function (e) {
       return R.assess(e).level === 'verified' && e.last_update_at.slice(0, 10) === '2026-09-16';
     }).length;
-    if (evs.length) {
+    if (pubArenas.length) {
+      lines.push('<b>מלחמות</b>: ' + pubArenas.map(function (o) {
+        var an = o.p.analysis;
+        var ver = an.events.filter(function (e) { return R.assess(e).level === 'verified'; }).length;
+        var sum = an.summary.length > 140 ? an.summary.slice(0, 140).replace(/\s+\S*$/, '') + '…' : an.summary;
+        return esc(o.a.name) + ' — ' + esc(sum) + ' <span class="locked">(' + F.ltr(String(an.events.length)) + ' אירועים, ' +
+               F.ltr(String(ver)) + ' מאומתים · ' + F.dateTimeText(an.generated_at) + ')</span>';
+      }).join('<br>'));
+    } else if (evs.length) {
       lines.push('<b>מלחמות</b> <span class="tag-demo">דמה</span>: ' + verifiedToday + ' אירועים אומתו היום בזירת איראן. ' +
                  'שאר הזירות — בשלב 6.');
     }
