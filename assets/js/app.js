@@ -1484,8 +1484,9 @@
   /* נגן המוזיקה — assets/js/player.js */
 
   function renderFooter() {
-    $('#social').innerHTML = C.social.map(function (s) {
-      return '<a href="' + esc(s.url) + '">' + esc(s.name) + '</a>';
+    // רק קישורים אמיתיים — placeholder ("#") לא מוצג, כדי שלא יהיו קישורים שלא מובילים לשום מקום
+    $('#social').innerHTML = C.social.filter(function (s) { return /^https:\/\//.test(s.url || ''); }).map(function (s) {
+      return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a>';
     }).join('');
   }
 
