@@ -621,6 +621,61 @@
     });
   }
 
+  /* ---- TradingView (גרסה ציבורית בלבד) ---- */
+  function tvEnabled() {
+    return C.publish_mode === 'public' && !!C.tradingview && R.isDisplayable(R.sourceById('src_tradingview'));
+  }
+  function tvSymbol(symbol) {
+    return tvEnabled() && !allowedKeys(symbol).length ? (C.tradingview.symbols[symbol] || null) : null;
+  }
+
+  var tvRendered = false;
+  /* הווידג'טים נטענים פעם אחת בכרטיס נפרד — כרטיס השווקים מתרענן כל דקה, ו-iframe שנבנה מחדש נטען מאפס */
+  function renderMarketsTV() {
+    var slot = $('#markets-tv-slot');
+    if (!slot || tvRendered) return;
+    if (!tvEnabled()) { slot.innerHTML = ''; return; }
+    tvRendered = true;
+    var syms = window.DB.markets.watchlist.map(function (w) {
+      return { name: tvSymbol(w.symbol), displayName: w.symbol };
+    }).filter(function (x) { return x.name; });
+
+    slot.innerHTML = corner('2ב', 'מחירים ומפת חום של S&P 500 — TradingView', 'markets',
+      '<div class="tv-grid">' +
+        (syms.length ? '<div class="tv-box" id="tv-quotes"></div>' : '') +
+        '<div class="tv-box" id="tv-hot"></div>' +
+      '</div>' +
+      '<p class="locked">בגרסה הציבורית המחירים מגיעים מווידג\'טים רשמיים של TradingView (בהשהיה לפי הבורסה). ' +
+      'חישוב "פי כמה מהרגיל" זמין רק בגרסה האישית.</p>', true,
+      { level: 'loading', label: 'חי — מתעדכן בתוך TradingView', age_text: 'הרענון נעשה בתוך הווידג\'ט עצמו' });
+
+    function mount(id, file, cfg) {
+      var box = document.getElementById(id);
+      if (!box) return;
+      box.innerHTML = '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>' +
+        '<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">' +
+        'נתונים: TradingView</a></div></div>';
+      var sc = document.createElement('script');
+      sc.src = 'https://s3.tradingview.com/external-embedding/' + file;
+      sc.async = true;
+      sc.textContent = JSON.stringify(cfg);        // כך TradingView קורא את ההגדרות
+      box.firstChild.appendChild(sc);
+    }
+    var common = { colorTheme: 'dark', isTransparent: true, locale: 'he_IL', width: '100%' };
+    if (syms.length) {
+      mount('tv-quotes', 'embed-widget-market-quotes.js', Object.assign({
+        height: 420, showSymbolLogo: true,
+        symbolsGroups: [{ name: 'רשימת המעקב', symbols: syms }]
+      }, common));
+    }
+    mount('tv-hot', 'embed-widget-stock-heatmap.js', {
+      dataSource: C.tradingview.heatmap_source || 'SPX500', exchanges: [], grouping: 'sector',
+      blockSize: 'market_cap_basic', blockColor: 'change', hasTopBar: false, isDataSetEnabled: false,
+      isZoomEnabled: true, hasSymbolTooltip: true, isMonoSize: false,
+      colorTheme: 'dark', locale: 'he_IL', width: '100%', height: 420
+    });
+  }
+
   /* מחזיר { key, q, down, fallback } או null */
   function resolveQuote(symbol) {
     var live = window.DB.live || {};
@@ -656,6 +711,9 @@
 
     var quotes = '<div class="quotes">' + m.watchlist.map(function (q) {
       var keys = allowedKeys(q.symbol);
+
+      /* --- גרסה ציבורית: סימול בלי מקור מותר מוצג בווידג'ט TradingView שמתחת --- */
+      if (!keys.length && tvSymbol(q.symbol)) return '';
 
       /* --- סימול שאין לו מקור חי מותר: דמה, מסומן --- */
       if (!keys.length) {
@@ -738,7 +796,7 @@
       '</li>';
     }).join('');
 
-    var demoSyms = m.watchlist.filter(function (q) { return !allowedKeys(q.symbol).length; })
+    var demoSyms = m.watchlist.filter(function (q) { return !allowedKeys(q.symbol).length && !tvSymbol(q.symbol); })
                               .map(function (q) { return q.symbol; });
 
     var statusBlock =
@@ -757,7 +815,9 @@
       var S = C.movers;
       var src = R.sourceById('src_cnbc');
       if (!R.isDisplayable(src)) {
-        return '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
+        return tvEnabled()
+          ? '<p class="locked">בגרסה הציבורית: מפת חום של S&amp;P 500 מ-TradingView — בכרטיס שמתחת.</p>'
+          : '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
       }
 
       var e = live.movers;
@@ -1370,6 +1430,7 @@
   renderDaily();
   renderWars();
   renderMarkets();
+  renderMarketsTV();
   renderAI();
   renderSports();
   renderPositive();

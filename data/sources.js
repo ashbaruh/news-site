@@ -214,6 +214,13 @@ window.DB.sources = [
     note: 'כתובת פנימית של אתר CNBC, לא שירות ציבורי מתועד, ואין תנאי שימוש מפורסמים. לכן "שימוש אישי בלבד": נחסם אוטומטית בגרסה הציבורית. לפני העלאה לאוויר צריך מקור מורשה במקומו.'
   },
   {
+    id: 'src_tradingview', name: 'TradingView', kind: "ווידג'טים רשמיים — מחירים ומניות",
+    license_mode: 'licensed_data', independence_group: 'data_tradingview',
+    attribution: 'נתוני שוק: TradingView',
+    note: "משמש רק בגרסה הציבורית, במקום CNBC. תנאי TradingView: הקרדיט בתוך הווידג'ט חייב להישאר, ואסור שימוש מסחרי בלי הסכם. " +
+          '⚠️ אם בעתיד יהיו באתר מוצרים בתשלום/קישורי שותפים — לבדוק מחדש.'
+  },
+  {
     id: 'src_walla', name: 'וואלה', kind: 'פידי RSS',
     license_mode: 'link_only', independence_group: 'media_walla',
     attribution: 'כותרות וקישורים: וואלה',

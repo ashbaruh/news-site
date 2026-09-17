@@ -398,3 +398,9 @@ footer.site a { margin-inline-end: 12px; }
 .goal-col.forecast .goal-h { color: var(--purple); }
 .arena-tabs button { cursor: pointer; }
 @media (max-width: 700px) { .goal-grid { grid-template-columns: 1fr; } }
+
+/* TradingView — גרסה ציבורית */
+.tv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 8px; }
+.tv-box { min-height: 420px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.tradingview-widget-copyright { font-size: 13px; padding: 4px 8px; }
+.tradingview-widget-copyright a { color: var(--text-dim); }

@@ -173,3 +173,24 @@ window.DB.config = {
     { name: 'YouTube',  url: '#' }
   ]
 };
+
+/* ---- תצוגה מקדימה של הגרסה הציבורית, בלי לשנות את הקובץ ----
+   index.html?mode=public  → האתר מתנהג כאילו publish_mode='public' (רק בדפדפן הזה, רק בכתובת הזו). */
+(function () {
+  try {
+    var m = /[?&]mode=(public|personal)(?![a-z])/.exec(window.location.search);
+    if (m) window.DB.config.publish_mode = m[1];
+  } catch (e) { /* אין location — לא משנה כלום */ }
+})();
+
+/* ---- TradingView: מחירים בגרסה הציבורית ----
+   ווידג'טים רשמיים וחינמיים, מותרים באתר לא מסחרי בתנאי שהקרדיט נשאר כפי שהוא.
+   במצב אישי לא נטענים (שם CNBC נותן נתונים מפורטים יותר). */
+window.DB.config.tradingview = {
+  symbols: {
+    'ZIM': 'NYSE:ZIM', 'NCLH': 'NYSE:NCLH', 'PFE': 'NYSE:PFE',
+    'SPX 500': 'FOREXCOM:SPXUSD', 'NDX 100': 'FOREXCOM:NSXUSD', 'USOIL': 'TVC:USOIL',   // SP:SPX / NASDAQ:NDX חסומים בווידג'טים (נבדק)
+    'USD/ILS': 'FX_IDC:USDILS', 'EUR/ILS': 'FX_IDC:EURILS', 'EUR/USD': 'FX:EURUSD', 'ILS/RON': 'FX_IDC:ILSRON'
+  },
+  heatmap_source: 'SPX500'     // מפת חום: כל מניות S&P 500 צבועות לפי השינוי היומי (Hotlists מציג גם מניות זבל)
+};
