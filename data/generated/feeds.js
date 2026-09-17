@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-16",
+   "as_of": "2026-09-17",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T01:28:05+00:00",
-  "fetched_at": "2026-09-17T01:28:05+00:00"
+  "checked_at": "2026-09-17T07:43:48+00:00",
+  "fetched_at": "2026-09-17T07:43:48+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T01:28:12+00:00",
-  "fetched_at": "2026-09-17T01:28:12+00:00"
+  "checked_at": "2026-09-17T07:43:56+00:00",
+  "fetched_at": "2026-09-17T07:43:56+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Audio-Technica ATH-WP900SE",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/headphones/wired-headphones/audio-technica-ath-wp900se",
+    "date": "2026-09-17T07:18:24+00:00"
+   },
    {
     "title_en": "DJ Shadow’s landmark debut album turns 30 this week – here’s what makes Endtroducing a unique test for your hi-fi",
     "title_he": "אלבום הבכורה של DJ Shadow חוגג 30 השבוע – הנה מה שהופך את Endtroducing למבחן ייחודי עבור ה-Hi-Fi שלכם",
@@ -69,44 +76,87 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/we-have-to-have-an-edge-otherwise-were-not-going-to-survive-this-huge-home-appliance-brand-is-adding-tvs-to-its-portfolio-and-a-major-british-hi-fi-brand-is-on-board",
     "date": "2026-09-16T14:30:09+00:00"
-   },
-   {
-    "title_en": "iFi has squeezed a DAC and headphone amplifier into its latest USB-C in-ear monitor cable",
-    "title_he": "ה-iFi לחץ מגבר DAC ואוזניות לתוך כבל ה-USB-C האחרון שלו בתוך האוזן",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/dacs/ifi-has-squeezed-a-dac-and-headphone-amplifier-into-its-latest-usb-c-in-ear-monitor-cable",
-    "date": "2026-09-16T12:24:10+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T01:28:12+00:00",
-  "fetched_at": "2026-09-17T01:28:12+00:00"
+  "checked_at": "2026-09-17T07:43:58+00:00",
+  "fetched_at": "2026-09-17T07:43:58+00:00"
  },
- "generated_at": "2026-09-17T01:28:12+00:00",
+ "generated_at": "2026-09-17T07:43:58+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שינוי כיוון בארה\"ב: למה הפד חזר להעלות את הריבית ואיך ההחלטה עשויה להשפיע על ישראל?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556736",
-     "date": "2026-09-16T19:16:00+00:00"
+     "title": "מגמה חיובית בתל אביב בהובלת מניית הבורסה מזנקת לאחר פרסום יעד הכנסות שאפתני",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
+     "date": "2026-09-17T07:38:00+00:00"
     },
     {
-     "title": "המשבר בין סעודיה לחות'ים - וההזדמנות לישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555598",
-     "date": "2026-09-16T19:58:00+00:00"
+     "title": "חמאס קיבל החלטה מפתיעה למרות החיסולים: \"אין רוח גבית\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
+     "date": "2026-09-17T06:59:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "הפד מעלה את הריבית ב-0.25% - לראשונה מזה שלוש שנים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555412",
-     "date": "2026-09-16T19:02:00+00:00"
+     "title": "פתיחה חיובית למסחר בתל אביב; מניית הבורסה מזנקת ב-10% אחרי פרסום יעד הכנסות שאפתני",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
+     "date": "2026-09-17T07:12:00+00:00"
     },
     {
-     "title": "לאחר העלאת הריבית: וול סטריט במגמה מעורבת",
+     "title": "יום לאחר מייל הפיטורים האכזרי: המסר המפתיע שקיבלו העובדים שנותרו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556739",
+     "date": "2026-09-17T04:25:00+00:00"
+    },
+    {
+     "title": "כך מגיב השוק להעלאת הריבית, וגם: הדיבידנד של מיקרוסופט מסדר לה אפסייד של 22%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T04:03:00+00:00"
+    },
+    {
+     "title": "טוב למניות התוכנה והסייבר, רע לשבבים: המרוויחות והמפסידות מהאטה במרוץ ה-AI",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555525",
+     "date": "2026-09-17T02:43:00+00:00"
+    },
+    {
+     "title": "איפה הכסף: המתכת היקרה שזינקה - ומשמשת אינדיקטור למצב הכלכלה העולמית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556682",
+     "date": "2026-09-17T02:40:00+00:00"
+    },
+    {
+     "title": "גילה את שוק ההון בגיל 26: \"אם הייתי משקיע רק במדדים הייתי משתעמם\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556700",
+     "date": "2026-09-17T02:38:00+00:00"
+    },
+    {
+     "title": "איראן השתלטה על טכנולוגיה ביטחונית אמריקאית. עכשיו היא תעתיק אותה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555457",
+     "date": "2026-09-17T02:38:00+00:00"
+    },
+    {
+     "title": "מה עומד מאחורי בליץ ההצעות לקצץ לנו בפנסיה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556670",
+     "date": "2026-09-17T02:33:00+00:00"
+    },
+    {
+     "title": "שיתוף פעולה עם SK Hynix: הדיווח שמקפיץ את מניית אינטל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555626",
+     "date": "2026-09-16T20:23:00+00:00"
+    },
+    {
+     "title": "נעילה אדומה בוול סטריט: הפד מחק את העליות, הדאו ג'ונס צלל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
-     "date": "2026-09-16T18:55:00+00:00"
+     "date": "2026-09-16T20:00:00+00:00"
+    },
+    {
+     "title": "הפד מעלה את הריבית ב-0.25% - לראשונה מזה שלוש שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555412",
+     "date": "2026-09-16T19:42:00+00:00"
+    },
+    {
+     "title": "שינוי כיוון בארה\"ב: למה הפד חזר להעלות את הריבית ואיך ההחלטה עשויה להשפיע על ישראל?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556736",
+     "date": "2026-09-16T19:16:00+00:00"
     },
     {
      "title": "מנכ\"ל אנבידיה מסמן: זה התחום הלוהט הבא",
@@ -134,39 +184,14 @@ window.DB.generated = {
      "date": "2026-09-16T14:12:00+00:00"
     },
     {
-     "title": "ב-11 מיליון שקל: טרמינל איקס בדרך לרכוש את השליטה בסוהו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556638",
-     "date": "2026-09-16T13:58:00+00:00"
-    },
-    {
-     "title": "שיתוף פעולה עם SK Hynix: הדיווח שמקפיץ את מניית אינטל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555626",
-     "date": "2026-09-16T13:44:00+00:00"
-    },
-    {
      "title": "הטנדרים שמתרבים בפקיסטן - ומדליקים נורה אדומה במזרח התיכון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555616",
      "date": "2026-09-16T09:42:00+00:00"
     },
     {
-     "title": "\"שוק המניות מתקשה לתפקד כך\": מאחורי החודש שהפתיע והדרמה באג\"ח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555541",
-     "date": "2026-09-16T09:00:00+00:00"
-    },
-    {
      "title": "שינוי היסטורי: האיחוד האירופי מציע לקנדה להצטרף כ\"חברה מיוחדת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555612",
      "date": "2026-09-16T08:46:00+00:00"
-    },
-    {
-     "title": "ג'פריס משדרג את מניית הפועלים וממליץ בחום על הבנקים בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555617",
-     "date": "2026-09-16T08:40:00+00:00"
-    },
-    {
-     "title": "העובדים גילו בשש בבוקר: המייל נחסם, אתם מפוטרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555610",
-     "date": "2026-09-16T08:13:00+00:00"
     },
     {
      "title": "עזב את לאומי לטובת נאוי וירוויח יותר ממנכ\"ל הבנק",
@@ -179,55 +204,15 @@ window.DB.generated = {
      "date": "2026-09-16T06:00:00+00:00"
     },
     {
-     "title": "ארה\"ב מודה לראשונה: יש לנו נשק בחלל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555597",
-     "date": "2026-09-16T03:03:00+00:00"
-    },
-    {
-     "title": "בחשאיות, בבתי קפה צדדיים: כך רקמו השכנים מהשרון את עסקת הענק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555539",
-     "date": "2026-09-16T02:53:00+00:00"
-    },
-    {
-     "title": "האם רוכשי הגמל של אלטשולר שחם יחזירו מיליארדים לבורסה בת\"א",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555537",
-     "date": "2026-09-16T02:52:00+00:00"
-    },
-    {
-     "title": "אחרי זינוק של 150%: ג'רמי בלנק מכר נתח ממניות בזן תמורת 100 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555529",
-     "date": "2026-09-16T02:51:00+00:00"
-    },
-    {
      "title": "מפעל בגרמניה ופסי ייצור בקפריסין: התעשיות הביטחוניות הישראליות מרחיבות את פעילותן באירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555489",
      "date": "2026-09-16T02:49:00+00:00"
-    },
-    {
-     "title": "וול סטריט ננעלה בירידות; תשואת האג\"ח ל־10 שנים בארה\"ב חצתה את רף ה־5% לראשונה מאז 2007",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555448",
-     "date": "2026-09-15T20:01:00+00:00"
-    },
-    {
-     "title": "ב-2.8 מיליארד דולר: טראמפ מתכנן למכור לישראל חבילת חימושים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555595",
-     "date": "2026-09-15T19:56:00+00:00"
-    },
-    {
-     "title": "המלחמה במזרח התיכון ייבשה את הכנסות הנפט ועיראק יצאה למאבק נגד האליטות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555509",
-     "date": "2026-09-15T16:52:00+00:00"
-    },
-    {
-     "title": "עם יחס חוב–תוצר של 117%, צרפת הפכה לפנים של המשבר באירופה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555511",
-     "date": "2026-09-15T15:51:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T01:28:06+00:00",
-  "fetched_at": "2026-09-17T01:28:06+00:00"
+  "checked_at": "2026-09-17T07:43:49+00:00",
+  "fetched_at": "2026-09-17T07:43:49+00:00"
  },
  "ifa": {
   "data": [
@@ -441,7 +426,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-17T01:28:07+00:00",
+  "checked_at": "2026-09-17T07:43:50+00:00",
   "fetched_at": "2026-09-16T20:34:29+00:00"
  },
  "tv": {
@@ -603,7 +588,7 @@ window.DB.generated = {
    {
     "date": "2026-09-18",
     "time": "14:30",
-    "channel": "ספורט 5+",
+    "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "הפועל ירושלים - הפועל ב\"ש/דימונה"
    },
@@ -1001,6 +986,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-20",
+    "time": "13:30",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "פיורנטינה - נאפולי"
+   },
+   {
+    "date": "2026-09-20",
     "time": "15:00",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -1019,6 +1011,13 @@ window.DB.generated = {
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "פרוסינונה - קומו"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "פארמה - גנואה"
    },
    {
     "date": "2026-09-20",
@@ -1043,8 +1042,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T01:28:08+00:00",
-  "fetched_at": "2026-09-17T01:28:08+00:00"
+  "checked_at": "2026-09-17T07:43:51+00:00",
+  "fetched_at": "2026-09-17T07:43:51+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -1213,8 +1212,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T01:28:08+00:00",
-  "fetched_at": "2026-09-17T01:28:08+00:00"
+  "checked_at": "2026-09-17T07:43:51+00:00",
+  "fetched_at": "2026-09-17T07:43:51+00:00"
  },
  "ai": {
   "data": {
@@ -1243,35 +1242,35 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 363,
+     "likes": 368,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 114,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 83,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "HF Viewer · Model Architecture Explorer",
      "desc_en": "Interactive architecture graph for any HF model",
      "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 69,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 81,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
@@ -1285,34 +1284,34 @@ window.DB.generated = {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 70,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 53,
+     "likes": 54,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "A Hitchhiker's Guide to the 3D Ecosystem",
      "desc_en": "An interactive guide to 3D representations.",
      "desc_he": "מדריך אינטראקטיבי לייצוגים תלת - ממדיים.",
-     "likes": 57,
+     "likes": 59,
      "link": "https://huggingface.co/spaces/suvadityamuk/3d-representations-guide"
     },
     {
-     "title": "H3 Acceleration Arena",
-     "desc_en": "Blind A/B ranking of MiniMax-H3 acceleration variants",
-     "desc_he": "דירוג A/B עיוור של גרסאות האצה MiniMax-H3",
-     "likes": 130,
-     "link": "https://huggingface.co/spaces/multimodalart/h3-acceleration-arena"
+     "title": "Wan2.2 14B Fast",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 3523,
+     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T01:28:12+00:00",
-  "fetched_at": "2026-09-17T01:28:12+00:00"
+  "checked_at": "2026-09-17T07:43:55+00:00",
+  "fetched_at": "2026-09-17T07:43:55+00:00"
  }
 };
