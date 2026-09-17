@@ -427,3 +427,11 @@ footer.site a { margin-inline-end: 12px; }
 .file-note { background: var(--bg-3); color: var(--text-dim); font-size: 13px; text-align: center; padding: 6px 12px; border-bottom: 1px solid var(--line); }
 
 .player .yt-open { width: 100%; height: 200px; font-size: 18px; font-weight: 700; cursor: pointer; background: #1b0f10; color: #fff; border: 1px solid #ff4e45; border-radius: 6px; }
+
+/* עמוד תנאי שימוש */
+.legal { max-width: 860px; padding-bottom: 40px; }
+.legal .set-block p, .legal .set-block li { font-size: 14.5px; line-height: 1.8; }
+.legal .set-block ul { padding-inline-start: 20px; margin: 6px 0; }
+.legal-updated { color: var(--text-faint); font-size: 13px; margin-top: 18px; }
+.legal-note { margin-top: 18px; font-size: 13px; }
+footer.site a { color: var(--accent); }

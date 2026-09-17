@@ -187,8 +187,13 @@ window.DB.config = {
    index.html?mode=public  → האתר מתנהג כאילו publish_mode='public' (רק בדפדפן הזה, רק בכתובת הזו). */
 (function () {
   try {
+    /* הפרדה אוטומטית: באתר באינטרנט → תמיד ציבורי (גם אם כאן כתוב 'personal').
+       במחשב שלך (קובץ / localhost / 127.0.0.1) → הערך שכתוב למעלה. */
+    var local = window.location.protocol === 'file:' ||
+                /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+    if (!local) window.DB.config.publish_mode = 'public';
     var m = /[?&]mode=(public|personal)(?![a-z])/.exec(window.location.search);
-    if (m) window.DB.config.publish_mode = m[1];
+    if (m && (local || m[1] === 'public')) window.DB.config.publish_mode = m[1];   // באינטרנט אי אפשר לעקוף ל"אישי"
   } catch (e) { /* אין location — לא משנה כלום */ }
 })();
 

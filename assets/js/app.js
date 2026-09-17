@@ -483,6 +483,8 @@
         ' · <b>זירה:</b> ' + esc(arena.name) +
         ' · נוצר ' + F.dateTimeText(a.generated_at) + ' ע"י ' + esc(a.model.name) +
         ' · <span class="tag-demo">אושר לפרסום</span>' +
+        ' · <span class="locked">נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות — ' +
+        '<a href="legal.html">הבהרות</a></span>' +
         (pub.previous_generated_at ? ' · <b>השוואה</b> לניתוח מ-' + F.dateTimeText(pub.previous_generated_at) + ': ' +
           changeSummary(pub.changes) : '') +
       '</div>' +
@@ -1293,7 +1295,7 @@
       });
       var title = todays.length ? 'ליגת העל בכדורגל — היום' : 'ליגת העל בכדורגל — המחזור הבא';
 
-      var upHtml = !okTv ? '<p class="locked">אין מקור מורשה ללוח השידורים במצב הפרסום הנוכחי.</p>'
+      var upHtml = !okTv ? '<p class="locked">לוח המשחקים הקרובים: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ב-ONE</a></p>'
         : !show.length ? '<p class="locked">לא נמצאו משחקים בלוח השידורים לימים הקרובים.</p>'
         : '<ul class="rows sport">' + show.map(function (u) {
             var day = u.date === today ? 'היום' : dm(u.date);
@@ -1316,7 +1318,7 @@
               : '');
 
       return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
-        '<p class="locked filter-note">משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' +
+        '<p class="locked filter-note">' + (okTv ? 'משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' : '') +
         (okIfa ? 'תוצאות: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ONE</a> · ' : '') + 'נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
     }
 
