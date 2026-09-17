@@ -400,9 +400,11 @@
     leafletLoading = new Promise(function (resolve, reject) {
       var css = document.createElement('link');
       css.rel = 'stylesheet'; css.href = LEAFLET + 'leaflet.min.css';
+      css.integrity = 'sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb'; css.crossOrigin = 'anonymous';
       document.head.appendChild(css);
       var js = document.createElement('script');
       js.src = LEAFLET + 'leaflet.min.js';
+      js.integrity = 'sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO'; js.crossOrigin = 'anonymous';
       js.onload = function () { resolve(window.L); };
       js.onerror = function () { leafletLoading = null; reject(new Error('leaflet')); };
       document.head.appendChild(js);
@@ -435,28 +437,21 @@
     loadLeaflet().then(function (L) {
       if (!document.body.contains(el)) return;          // המשתמש עבר זירה בינתיים
       warMap = L.map(el, { scrollWheelZoom: false, attributionControl: true });
-      // שכבת המפה. נבדק 17/09/2026: OpenStreetMap חוסם דף שנפתח כקובץ (בלי כתובת אתר — "Access blocked"),
-      // ו-CARTO דורש מפתח. Esri (אפור כהה) עובד בחינם גם מקובץ וגם מאתר, בלי מפתח; קרדיט חובה.
-      // אם Esri נכשל — מעבר אוטומטי למפות Wikimedia (גם הן בלי מפתח ובלי תלות בכתובת).
-      var TILES = [
-        { url: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
-          labels: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',
-          opts: { maxZoom: 12, attribution: 'מפה: &copy; Esri' } },
-        { url: 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=he',
-          opts: { maxZoom: 12, className: 'osm-dark', attribution: 'מפה: Wikimedia &middot; &copy; OpenStreetMap' } }
-      ];
-      var layerIdx = 0, errors = 0, layers = [];
-      function useTiles(i) {
-        layers.forEach(function (l) { warMap.removeLayer(l); });
-        var t = TILES[i];
-        layers = [L.tileLayer(t.url, t.opts)];
-        if (t.labels) layers.push(L.tileLayer(t.labels, { maxZoom: 12, pane: 'overlayPane' }));
-        layers[0].on('tileerror', function () {
-          if (++errors >= 4 && layerIdx + 1 < TILES.length) { errors = 0; useTiles(++layerIdx); }
-        });
-        layers.forEach(function (l) { l.addTo(warMap); });
+      // שכבת המפה — לפי כללי השימוש של כל שירות (נבדק 17/09/2026):
+      //   אתר (http/https) → OpenStreetMap: חינם לשימוש קל, עם קרדיט וכתובת אתר (הדפדפן שולח אותה).
+      //   נפתח כקובץ → Esri אפור-כהה: OSM חוסם דף בלי כתובת אתר ("Access blocked"). שימוש אישי במחשב בלבד.
+      //   (Wikimedia הוסר — השירות מיועד לאתרי ויקימדיה. CARTO דורש מפתח.)
+      if (location.protocol === 'file:') {
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+          { maxZoom: 12, attribution: 'מפה: &copy; Esri' }).addTo(warMap);
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',
+          { maxZoom: 12, pane: 'overlayPane' }).addTo(warMap);
+      } else {
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 12, className: 'osm-dark',
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
+        }).addTo(warMap);
       }
-      useTiles(0);
       var bounds = [];
       pts.forEach(function (o) {
         var a = R.assess(o.ev);
@@ -594,7 +589,7 @@
       return '<tr class="' + (dup ? 'same-root ' : '') + (ok ? '' : 'blocked') + '">' +
         '<td>' + esc(s ? s.name : r.source_id) + '</td>' +
         '<td>' + esc(s ? s.kind : '—') + '</td>' +
-        '<td class="root">' + esc(r.source_root_id) + (dup ? ' ⟵ משותף' : '') + '</td>' +
+        '<td class="root">' + (dup ? 'משותף לכמה פרסומים' : 'עצמאי') + '</td>' +
         '<td>' + F.dateTimeText(r.published_at) + '</td>' +
         '<td><span class="badge lic">' + esc(s ? R.licenseLabel(s) : '—') + '</span>' +
             (ok ? '' : ' <span class="badge lic">לא מוצג</span>') + '</td>' +

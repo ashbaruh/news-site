@@ -128,6 +128,16 @@ class Analyze(unittest.TestCase):
         self.assertEqual(an.claim_type_for({"title": "פיצוץ בנמל חודיידה", "claim_type": "incident"}), "incident")
         self.assertEqual(an.clean("התאמת ערוצים לע랑 עקיפה", 100), "התאמת ערוצים לע עקיפה")
 
+    def test_copied_sentences_removed(self):
+        src = "The Houthis dug twenty kilometers of trenches in the mountains around the strait this week"
+        items = [dict(ITEMS[0], text=src)]
+        ev_copy = ev("T", [{"item": 0, "first_hand": True, "origin": ""}],
+                     summary="לפי הדיווח The Houthis dug twenty kilometers of trenches in the mountains around the strait this week.")
+        doc = an.build("yemen", items, {"events": [ev_copy]}, FAKE_OVERVIEW, 24, "low", "t", NOW)
+        self.assertNotIn("dug twenty kilometers of trenches in the mountains", doc["events"][0]["summary"])
+        self.assertIn("…", doc["events"][0]["summary"])
+        self.assertEqual(an.strip_copied("ניסוח עצמאי לגמרי", set()), "ניסוח עצמאי לגמרי")
+
     def test_no_verification_field_in_output(self):
         for e in self.doc["events"]:
             self.assertFalse(set(e) & wc.FORBIDDEN_KEYS)

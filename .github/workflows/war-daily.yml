@@ -52,7 +52,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: gemini
-        run: PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json" ${{ inputs.force && '--force' || '' }}
+          # קלט ההרצה הידנית עובר דרך משתנה סביבה ונבדק — לא נכנס כטקסט לפקודה (מונע הזרקת פקודות)
+          ARENAS_INPUT: ${{ inputs.arenas }}
+          FORCE_INPUT: ${{ inputs.force }}
+        run: |
+          ARENAS="${ARENAS_INPUT:-iran,ukraine,yemen,north}"
+          if ! [[ "$ARENAS" =~ ^[a-z,]+$ ]]; then echo "רשימת זירות לא תקינה"; exit 1; fi
+          FORCE=""; if [ "$FORCE_INPUT" = "true" ]; then FORCE="--force"; fi
+          PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "$ARENAS" --new-drafts "$RUNNER_TEMP/new-drafts.json" $FORCE
 
       - name: שמירת הטיוטות
         run: |

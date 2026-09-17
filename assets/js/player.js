@@ -134,6 +134,7 @@
     if (/^https?:$/.test(location.protocol)) vars.origin = location.origin;
 
     player = new YT.Player(elId, {
+      host: 'https://www.youtube-nocookie.com',          // פרטיות: בלי עוגיות מעקב עד שמנגנים
       width: '100%', height: '200',
       playerVars: vars,
       events: {

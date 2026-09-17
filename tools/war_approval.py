@@ -69,7 +69,8 @@ def arena_md(rel, groups, names):
     out += [f"- **{md(f['name'])}** — {md(f['status'])}" for f in doc["fronts"]]
     out += ["", f"**אירועים ({len(doc['events'])}):**"]
     for e in doc["events"]:
-        links = " · ".join(f"[{md(names.get(r['source_id'], r['source_id']))}]({r['url']})" for r in e["reports"])
+        links = " · ".join(f"[{md(names.get(r['source_id'], r['source_id']))}]"
+                           f"({r['url'].replace('(', '%28').replace(')', '%29').replace(' ', '%20')})" for r in e["reports"])
         lvl = wc.assess(e, groups)
         label = "✅ אומת שנאמר — התוכן לא אומת" if lvl == "verified" and e.get("claim_type") == "statement" \
             else LEVEL_HE.get(lvl, "")

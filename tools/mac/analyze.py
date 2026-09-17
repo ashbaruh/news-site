@@ -375,8 +375,47 @@ def parse_time(s, fallback):
         return fallback
 
 
+COPY_WORDS = 10   # 10 מילים רצופות זהות לכתבה = העתקה, לא ניסוח עצמאי
+
+
+def _words(t):
+    return re.findall(r"[\w'\"]+", str(t or "").lower())
+
+
+def strip_copied(text, source_grams):
+    """מסיר מהטקסט רצף של COPY_WORDS מילים ומעלה שמופיע כלשונו באחת הכתבות (מחליף ב-"…").
+    ההנחיה לבינה אוסרת להעתיק; זו בדיקה בקוד שזה באמת לא קרה."""
+    tokens = re.findall(r"\S+", str(text or ""))
+    norm = [(_words(t) or [""])[0] for t in tokens]
+    cut = [False] * len(tokens)
+    for i in range(len(tokens) - COPY_WORDS + 1):
+        if tuple(norm[i:i + COPY_WORDS]) in source_grams:
+            for j in range(i, i + COPY_WORDS):
+                cut[j] = True
+    if not any(cut):
+        return text
+    out, prev = [], False
+    for tok, c in zip(tokens, cut):
+        if c and not prev:
+            out.append("…")
+        elif not c:
+            out.append(tok)
+        prev = c
+    return " ".join(out)
+
+
 def build(arena, items, events_out, overview, window_hours, map_confidence, run_id, now, geocode=None):
     wfrom = now - timedelta(hours=window_hours)
+    grams = set()
+    for it in items:
+        w = _words(str(it.get("title", "")) + " " + str(it.get("text", "")))
+        grams.update(tuple(w[i:i + COPY_WORDS]) for i in range(len(w) - COPY_WORDS + 1))
+    events_out = {"events": [dict(ev, title=strip_copied(ev.get("title"), grams),
+                                  summary=strip_copied(ev.get("summary"), grams))
+                             for ev in (events_out.get("events") or []) if isinstance(ev, dict)]}
+    overview = dict(overview, summary=strip_copied(overview.get("summary"), grams),
+                    fronts=[dict(f, status=strip_copied(f.get("status"), grams))
+                            for f in (overview.get("fronts") or []) if isinstance(f, dict)])
     events, used = [], {}
     for i, ev in enumerate(events_out.get("events", [])):
         support = [s for s in ev.get("support", []) if isinstance(s.get("item"), int) and 0 <= s["item"] < len(items)]
