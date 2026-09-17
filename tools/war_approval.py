@@ -94,7 +94,10 @@ def open_issue(new_drafts_file):
     names = source_names()
     date = re.search(r"/(\d{4})-(\d\d)-(\d\d)", "/" + os.path.basename(drafts[0]))
     day = f"{date.group(3)}/{date.group(2)}/{date.group(1)}" if date else ""
-    parts = ["**הניתוח היומי מוכן — ממתין לאישור שלך.** עד שתאשר, באתר נשאר הניתוח הקודם.", "",
+    # תיוג בעל הפרויקט — כך GitHub שולח התראה/מייל גם על בקשה שהבוט פתח (בלי תיוג: לא בטוח שתגיע התראה)
+    owner = os.environ.get("GITHUB_REPOSITORY_OWNER", "")
+    mention = f"@{owner} " if re.fullmatch(r"[A-Za-z0-9-]{1,39}", owner) else ""
+    parts = [mention + "**הניתוח היומי מוכן — ממתין לאישור שלך.** עד שתאשר, באתר נשאר הניתוח הקודם.", "",
              "איך מאשרים — כותבים תגובה למטה:",
              "- `מאשר` — הכל מתפרסם",
              "- `מאשר איראן תימן` — רק הזירות שכתבת (איראן / אוקראינה / תימן / צפון)",
