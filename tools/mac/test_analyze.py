@@ -143,5 +143,44 @@ class Plumbing(unittest.TestCase):
             srv.shutdown()
 
 
+class GeminiFallback(unittest.TestCase):
+    """מכסה יומית נגמרה / עומס → עוברים למודל הבא (כולל Flash-Lite). כולם נגמרו → QuotaExhausted."""
+
+    def setUp(self):
+        import io
+        import urllib.error
+        self.io, self.urlerr = io, urllib.error
+        self.saved = (an._gemini_request, an._gemini_model, an.time.sleep)
+        an.time.sleep = lambda s: None
+        an._exhausted.clear()
+
+    def tearDown(self):
+        an._gemini_request, an._gemini_model, an.time.sleep = self.saved
+        an._exhausted.clear()
+
+    def err(self, code, quota=""):
+        body = json.dumps({"error": {"message": "x", "details": [{"quotaId": quota}] if quota else []}}).encode()
+        return self.urlerr.HTTPError("u", code, "x", {}, self.io.BytesIO(body))
+
+    def test_daily_quota_then_overload_then_lite(self):
+        def fake(path, body=None):
+            m = path.split("/")[2].split(":")[0]
+            if m == "flash-a":
+                raise self.err(429, "GenerateRequestsPerDayPerProjectPerModel-FreeTier")
+            if m == "flash-b":
+                raise self.err(503)
+            return {"candidates": [{"content": {"parts": [{"text": '{"ok": 1}'}]}}]}
+        an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-b", "flash-lite"]
+        self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 1})
+        self.assertEqual(an.gemini_json.used_model, "flash-lite")
+
+    def test_all_exhausted_raises(self):
+        def fake(path, body=None):
+            raise self.err(429, "PerDay")
+        an._gemini_request, an._gemini_model = fake, ["a", "b"]
+        with self.assertRaises(an.QuotaExhausted):
+            an.gemini_json("s", "u", {})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

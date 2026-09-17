@@ -67,24 +67,26 @@ def _gemini_request(path, body=None):
 
 
 def gemini_model():
-    """בוחר את מודל ה-Flash העדכני ביותר שזמין לחשבון (לא Lite, לא תמונה/קול, יציב לפני preview)."""
+    """בוחר את מודל ה-Flash העדכני ביותר שזמין לחשבון (לא תמונה/קול, יציב לפני preview).
+    סדר: 2 מודלי Flash, ואחריהם Flash-Lite כגיבוי אחרון — חינמי, מכסה גבוהה יותר, פחות עמוס, איכות מעט נמוכה."""
     global _gemini_model
     if _gemini_model:
         return _gemini_model[0]
     models = _gemini_request("/models?pageSize=200").get("models", [])
-    cands = []
+    cands, lites = [], []
     for m in models:
         name = m.get("name", "").split("/")[-1]
         if "generateContent" not in (m.get("supportedGenerationMethods") or []):
             continue
-        if "flash" not in name or re.search(r"lite|image|tts|audio|live|embed|thinking-exp|native", name):
+        if "flash" not in name or re.search(r"image|tts|audio|live|embed|thinking-exp|native", name):
             continue
         ver = tuple(int(x) for x in re.findall(r"\d+", name.split("flash")[0])) or (0,)
         stable = not re.search(r"preview|exp", name)
-        cands.append((stable, ver, len(name) * -1, name))
-    if not cands:
+        (lites if "lite" in name else cands).append((stable, ver, len(name) * -1, name))
+    if not cands and not lites:
         raise RuntimeError("לא נמצא מודל Flash זמין בחשבון")
-    _gemini_model = [c[3] for c in sorted(cands, reverse=True)][:3]   # הראשון = העדכני; השאר = גיבוי בעומס
+    _gemini_model = ([c[3] for c in sorted(cands, reverse=True)][:2] +
+                     [c[3] for c in sorted(lites, reverse=True)][:1])
     return _gemini_model[0]
 
 
@@ -96,6 +98,9 @@ def _strip_for_gemini(schema):
     if isinstance(schema, list):
         return [_strip_for_gemini(x) for x in schema]
     return schema
+
+
+_exhausted = set()   # מודלים שהמכסה היומית שלהם נגמרה בריצה הנוכחית
 
 
 class QuotaExhausted(RuntimeError):
@@ -130,14 +135,18 @@ def gemini_json(system, user, schema, temperature=0.2):
     ]
     errors = []
     resp = None
-    for model in _gemini_model:                     # עומס (503) ממשיך למודל הבא
+    for model in _gemini_model:
+        if model in _exhausted:
+            continue                                # המכסה היומית של המודל הזה כבר נגמרה בריצה הזו
         path = f"/models/{model}:generateContent"
+        next_model = False
         for variant, body in enumerate(attempts, 1):   # 400 (צורת בקשה לא נתמכת) ממשיך לצורה הבאה
             code = None
             for wait in (0, 30, 90, 180):          # עומס זמני (503) / מכסה לדקה → המתנה ארוכה; הניתוח לא דחוף
                 time.sleep(wait)
                 try:
                     resp = _gemini_request(path, body)
+                    gemini_json.used_model = model
                     print(f"      Gemini: {model} · צורת בקשה {variant} · ניסיון אחרי {wait} שנ'")
                     break
                 except urllib.error.HTTPError as e:
@@ -146,13 +155,20 @@ def gemini_json(system, user, schema, temperature=0.2):
                     errors.append(f"{model} צורה {variant}: {msg}")
                     print(f"      Gemini: {model} · צורה {variant} · {msg[:160]}")
                     if code == 429 and re.search(r"per ?day|PerDay|daily", msg, re.I):
-                        raise QuotaExhausted(msg)   # המכסה היומית נגמרה — לא מבזבזים עוד בקשות
+                        # המכסה היומית נספרת לכל מודל בנפרד — עוברים למודל הבא, לא מבזבזים עוד בקשות על זה
+                        _exhausted.add(model)
+                        next_model = True
+                        break
                     if code not in (429, 500, 503):
                         break
-            if resp is not None or code != 400:
+            if resp is not None or next_model or code != 400:
                 break
-        if resp is not None or code not in (500, 503):
+        if resp is not None:
             break
+        if not next_model and code not in (500, 503):
+            break                                   # שגיאה שאינה עומס/מכסה — מודל אחר לא יעזור
+    if resp is None and all(m in _exhausted for m in _gemini_model):
+        raise QuotaExhausted(" | ".join(errors[-3:]))
     if resp is None:
         raise RuntimeError(" | ".join(errors))
     u = resp.get("usageMetadata") or {}
@@ -173,7 +189,10 @@ def llm_json(system, user, schema, temperature=0.1):
 
 
 def active_model_name():
-    return gemini_model() if PROVIDER == "gemini" else LM_MODEL
+    """המודל שבאמת ענה (אם Gemini עבר לגיבוי — שם הגיבוי מופיע בניתוח), אחרת המודל הראשי."""
+    if PROVIDER != "gemini":
+        return LM_MODEL
+    return getattr(gemini_json, "used_model", None) or gemini_model()
 
 
 def lmstudio_json(system, user, schema, temperature=0.1):
