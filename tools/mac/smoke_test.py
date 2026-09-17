@@ -6,7 +6,7 @@ smoke_test.py — בדיקה קצרה במק: האם הבינה המקומית �
 הרצה (LM Studio פתוח, השרת במצב Running):
     python3 tools/mac/smoke_test.py
 
-זמן צפוי: 3-6 דקות.
+זמן צפוי: במק 3-6 דקות; בענן (Gemini) פחות מדקה.
 """
 
 import os
@@ -41,7 +41,12 @@ ITEMS = [
 
 
 def main():
-    print(f"מודל: {an.LM_MODEL} · שרת: {an.LM_URL}\n")
+    try:
+        model = an.active_model_name()
+    except Exception as e:
+        print("❌ לא הצלחתי לקבל את רשימת המודלים:", e)
+        sys.exit(1)
+    print(f"ספק: {an.PROVIDER} · מודל: {model}\n")
     material = an.numbered(ITEMS)
     try:
         t0 = time.time()
@@ -55,7 +60,10 @@ def main():
         u2 = an.llm_json.last_usage
     except Exception as e:
         print("❌ הקריאה לבינה נכשלה:", e)
-        print("   לבדוק: LM Studio פתוח? Developer → Status: Running? המודל טעון?")
+        if an.PROVIDER == "gemini":
+            print("   לבדוק: המפתח GEMINI_API_KEY תקין? המכסה היומית לא נגמרה?")
+        else:
+            print("   לבדוק: LM Studio פתוח? Developer → Status: Running? המודל טעון?")
         sys.exit(1)
 
     def rate(u, secs):

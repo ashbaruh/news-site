@@ -25,6 +25,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -44,7 +45,95 @@ MAX_TEXT_PER_ITEM = 1800  # תווים מכל כתבה
 
 # ------------------------------------------------------------------ בינה מקומית
 
+# ---- ספק הבינה ----
+# gemini   — בענן (GitHub Actions), מפתח ב-GEMINI_API_KEY (secret ב-GitHub, אף פעם לא בקוד)
+# lmstudio — מקומי במק (גיבוי)
+# ברירת מחדל: gemini אם יש מפתח בסביבה, אחרת lmstudio.
+PROVIDER = os.environ.get("LLM_PROVIDER") or ("gemini" if os.environ.get("GEMINI_API_KEY") else "lmstudio")
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
+_gemini_model = os.environ.get("GEMINI_MODEL")  # אם לא הוגדר — נבחר אוטומטית מרשימת המודלים
+
+
+def _gemini_request(path, body=None):
+    key = os.environ.get("GEMINI_API_KEY", "")
+    if not key:
+        raise RuntimeError("חסר GEMINI_API_KEY")
+    req = urllib.request.Request(GEMINI_BASE + path,
+                                 data=json.dumps(body).encode("utf-8") if body is not None else None,
+                                 headers={"Content-Type": "application/json", "x-goog-api-key": key})  # בכותרת, לא בכתובת
+    with urllib.request.urlopen(req, timeout=LM_TIMEOUT) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def gemini_model():
+    """בוחר את מודל ה-Flash העדכני ביותר שזמין לחשבון (לא Lite, לא תמונה/קול, יציב לפני preview)."""
+    global _gemini_model
+    if _gemini_model:
+        return _gemini_model
+    models = _gemini_request("/models?pageSize=200").get("models", [])
+    cands = []
+    for m in models:
+        name = m.get("name", "").split("/")[-1]
+        if "generateContent" not in (m.get("supportedGenerationMethods") or []):
+            continue
+        if "flash" not in name or re.search(r"lite|image|tts|audio|live|embed|thinking-exp|native", name):
+            continue
+        ver = tuple(int(x) for x in re.findall(r"\d+", name.split("flash")[0])) or (0,)
+        stable = not re.search(r"preview|exp", name)
+        cands.append((stable, ver, len(name) * -1, name))
+    if not cands:
+        raise RuntimeError("לא נמצא מודל Flash זמין בחשבון")
+    _gemini_model = sorted(cands, reverse=True)[0][3]
+    return _gemini_model
+
+
+def _strip_for_gemini(schema):
+    """responseSchema של Gemini לא מכיר חלק מהמילים של JSON Schema — מסירים אותן."""
+    if isinstance(schema, dict):
+        return {k: _strip_for_gemini(v) for k, v in schema.items()
+                if k not in ("additionalProperties", "strict", "$schema")}
+    if isinstance(schema, list):
+        return [_strip_for_gemini(x) for x in schema]
+    return schema
+
+
+def gemini_json(system, user, schema, temperature=0.2):
+    base = {"systemInstruction": {"parts": [{"text": system}]},
+            "contents": [{"role": "user", "parts": [{"text": user}]}]}
+    path = f"/models/{gemini_model()}:generateContent"
+    try:
+        body = dict(base, generationConfig={"temperature": temperature, "responseMimeType": "application/json",
+                                            "responseJsonSchema": schema})
+        resp = _gemini_request(path, body)
+    except urllib.error.HTTPError as e:
+        if e.code != 400:
+            raise
+        # גרסה ישנה של ה-API — ננסה את הפורמט הישן של הסכמה
+        body = dict(base, generationConfig={"temperature": temperature, "responseMimeType": "application/json",
+                                            "responseSchema": _strip_for_gemini(schema)})
+        resp = _gemini_request(path, body)
+    u = resp.get("usageMetadata") or {}
+    llm_json.last_usage = {"prompt_tokens": u.get("promptTokenCount"), "completion_tokens": u.get("candidatesTokenCount")}
+    cand = (resp.get("candidates") or [{}])[0]
+    text = "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts", []))
+    if not text:
+        raise RuntimeError(f"Gemini החזיר תשובה ריקה (finishReason={cand.get('finishReason')})")
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
+    return json.loads(text)
+
+
 def llm_json(system, user, schema, temperature=0.1):
+    """קריאה לבינה עם פלט JSON במבנה קבוע. הספק נקבע ב-PROVIDER."""
+    if PROVIDER == "gemini":
+        return gemini_json(system, user, schema)
+    return lmstudio_json(system, user, schema, temperature)
+
+
+def active_model_name():
+    return gemini_model() if PROVIDER == "gemini" else LM_MODEL
+
+
+def lmstudio_json(system, user, schema, temperature=0.1):
     """קריאה לשרת המקומי של LM Studio עם פלט JSON במבנה קבוע (structured output)."""
     body = {
         "model": LM_MODEL,
@@ -209,7 +298,7 @@ def build(arena, items, events_out, overview, window_hours, map_confidence, run_
         "arena": arena,
         "generated_at": now.isoformat(timespec="seconds"),
         "window": {"from": wfrom.isoformat(timespec="seconds"), "to": now.isoformat(timespec="seconds")},
-        "model": {"name": clean(LM_MODEL, 80), "run_id": run_id},
+        "model": {"name": clean(active_model_name(), 80), "run_id": run_id},
         "summary": clean(overview.get("summary"), 1500) or "—",
         "fronts": fronts,
         "events": events[:wc.MAX_EVENTS],

@@ -1,0 +1,30 @@
+# ============================================================
+# בדיקת חיבור ל-Gemini — הפעלה ידנית בלבד (לשונית Actions → "בדיקת Gemini" → Run workflow).
+# שולחת 3 כתבות דמה בלבד, ובודקת: המפתח עובד? איזה מודל זמין? הפלט עומד בחוזה?
+# המפתח מגיע מ-secret ולא מודפס (GitHub מסתיר אותו אוטומטית בלוג).
+# ============================================================
+
+name: בדיקת Gemini
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read           # קריאה בלבד — הבדיקה לא שומרת כלום
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: בדיקות ללא רשת
+        run: python tools/mac/test_analyze.py
+      - name: בדיקת עשן מול Gemini (3 כתבות דמה)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: gemini
+        run: python tools/mac/smoke_test.py
