@@ -84,6 +84,10 @@ def economy_for(arena, fetch=None):
     return out
 
 
+def md_cell(t):
+    return str(t).replace("|", "/").replace("\n", " ")[:300]
+
+
 def done_today(arena):
     """יש כבר טיוטה מהיום לזירה הזו? (הריצות בצהריים ובערב משלימות רק זירות שנכשלו בבוקר)"""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -102,6 +106,7 @@ def main():
     before = all_drafts()
     os.makedirs(iw.INBOX, exist_ok=True)
     failed = []
+    report = []          # סיכום קצר לכל זירה — נכתב לדף הריצה ב-GitHub (Summary)
     geocode = Geocoder()
     calls = 0
 
@@ -109,11 +114,13 @@ def main():
         print(f"\n=== {arena} ===")
         if not args.force and done_today(arena):
             print("כבר נותחה היום — מדלג")
+            report.append(f"| {arena} | ⏭️ כבר נותחה היום | |")
             continue
         items = [it for it in cw.collect(arena) if it["source_id"] in known]
         if len(items) < MIN_ITEMS:
             print(f"רק {len(items)} כתבות — מדלג (נשאר הניתוח הקודם)")
             failed.append(f"{arena}: מעט מדי כתבות ({len(items)})")
+            report.append(f"| {arena} | ⚠️ מעט מדי כתבות ({len(items)}) | |")
             continue
         if calls:
             time.sleep(20)                       # מרווח בין זירות — מכסת בקשות לדקה
@@ -124,10 +131,12 @@ def main():
         except an.QuotaExhausted:
             print("⛔ המכסה היומית של Gemini נגמרה — עוצר (הזירות שנותרו יחכו לריצה הבאה היום או מחר)")
             failed.append(f"{arena} והלאה: המכסה היומית נגמרה")
+            report.append(f"| {arena} | ⛔ המכסה היומית של כל מודלי Gemini נגמרה | {len(items)} כתבות |")
             break
         except Exception as e:
             print(f"❌ הבינה נכשלה: {str(e)[:400]}")
             failed.append(f"{arena}: הבינה נכשלה")
+            report.append(f"| {arena} | ❌ הבינה נכשלה | {len(items)} כתבות · {md_cell(str(e)[-300:])} |")
             continue
         if not errors:
             doc["economy"] = economy_for(arena)
@@ -135,11 +144,15 @@ def main():
         if errors:
             print(f"❌ {len(errors)} שגיאות חוזה: " + " | ".join(errors[:5]))
             failed.append(f"{arena}: לא עבר את בדיקת החוזה")
+            report.append(f"| {arena} | ❌ לא עבר את בדיקת החוזה | {md_cell(' / '.join(errors[:3]))} |")
             continue
         path = os.path.join(iw.INBOX, doc["model"]["run_id"] + ".json")
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             json.dump(doc, f, ensure_ascii=False, indent=1)
         print(f"✓ {len(doc['events'])} אירועים → תיבה")
+        places = sum(len(e.get("places", [])) for e in doc["events"])
+        report.append(f"| {arena} | ✅ {len(doc['events'])} אירועים · {places} מקומות במפה | "
+                      f"{len(items)} כתבות · {len({i['source_id'] for i in items})} מקורות · {md_cell(doc['model']['name'])} |")
 
     geocode.save()
     print("\n=== קליטה ===")
@@ -149,6 +162,11 @@ def main():
     with open(args.new_drafts, "w", encoding="utf-8") as f:
         json.dump({"drafts": new, "failed": failed}, f, ensure_ascii=False)
     print(f"\nטיוטות חדשות: {len(new)} · נכשלו: {len(failed)}")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as f:
+            f.write("## ניתוח מלחמות יומי\n\n| זירה | תוצאה | פרטים |\n|---|---|---|\n" + "\n".join(report) +
+                    f"\n\nטיוטות חדשות: {len(new)}\n")
 
 
 if __name__ == "__main__":
