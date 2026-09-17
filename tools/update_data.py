@@ -505,6 +505,77 @@ def build_ligat_haal(ifa_games, tv_rows, ifa_fresh=True):
             "results": results, "results_available": ifa_fresh, "one_sided_tv": one_sided}
 
 
+# ------------------------------------------------------------------ ישראלים בחו"ל — כותרות (לגרסה הציבורית)
+
+# שמות משפחה נפוצים מדי — אצלם דורשים שם מלא, אחרת "כהן" יתפוס כל כתבה
+COMMON_SURNAMES = {"כהן", "לוי", "מזרחי", "פרץ", "ביטון", "אברהם", "דהן", "אזולאי", "אוחיון", "חדד", "גבאי",
+                   "עמר", "בן", "אלון", "דוד", "שמעון", "יוסף", "חיים", "משה", "אדרי", "סעדה"}
+HE = "א-ת"
+
+
+def load_athletes():
+    """קורא את data/athletes.js (בלי להריץ JavaScript): שם, ענף, קבוצה, סטטוס."""
+    t = open(os.path.join(ROOT, "data", "athletes.js"), encoding="utf-8").read()
+    out = []
+    for row in re.findall(r"\{[^{}]*?name:\s*'[^']*'[^{}]*?\}", t):
+        def f(key):
+            m = re.search(key + r":\s*'((?:[^'\\]|\\.)*)'", row)
+            return m.group(1).replace("\\'", "'") if m else ""
+        if f("status") in ("abroad", "manual"):
+            out.append({"name": f("name"), "sport": f("sport"), "club": f("club")})
+    return out
+
+
+def name_patterns(players):
+    last_count = {}
+    for p in players:
+        last = p["name"].split()[-1]
+        last_count[last] = last_count.get(last, 0) + 1
+    pats = []
+    for p in players:
+        parts = p["name"].split()
+        alts = [re.escape(p["name"])]
+        last = parts[-1]
+        if len(parts) > 1 and len(last) >= 3 and last_count[last] == 1 and last not in COMMON_SURNAMES:
+            alts.append(re.escape(last))
+        # מותרות אותיות שימוש לפני השם ("וגלוך", "לאבדיה"), אבל לא אות עברית נוספת אחריו
+        pats.append((p, re.compile(rf"(?<![{HE}])[והבלמשכ]?(?:{'|'.join(alts)})(?![{HE}])")))
+    return pats
+
+
+def job_israelis_abroad():
+    """כותרות על השחקנים שבמעקב — מוואלה (ישראלים ב-NBA, כדורגל עולמי, כדורגל ישראלי) ו-ONE.
+    כותרת + קישור בלבד. רק שחקנים בסטטוס abroad/manual (לא מי שחזר לארץ)."""
+    players = load_athletes()
+    pats = name_patterns(players)
+    feeds = [("וואלה", "https://rss.walla.co.il/feed/13444", "walla.co.il"),
+             ("וואלה", "https://rss.walla.co.il/feed/316", "walla.co.il"),
+             ("וואלה", "https://rss.walla.co.il/feed/156", "walla.co.il"),
+             ("ONE", "https://www.one.co.il/rss", "one.co.il")]
+    since = datetime.now(timezone.utc) - timedelta(days=7)
+    items, seen, ok = [], set(), 0
+    for source, url, host in feeds:
+        try:
+            rows = read_rss(url, host)
+            ok += 1
+        except Exception as e:
+            print(f"  abroad {url} failed: {e}", file=sys.stderr)
+            continue
+        for r in rows:
+            key = re.sub(r"\W+", "", r["title"])
+            if r["link"] in seen or key in seen or datetime.fromisoformat(r["date"]) < since:
+                continue
+            who = [p["name"] for p, rx in pats if rx.search(r["title"])]
+            if not who:
+                continue
+            seen.update({r["link"], key})
+            items.append(dict(r, source=source, players=who[:4]))
+    if not ok:
+        raise ValueError("כל הפידים נכשלו")
+    items.sort(key=lambda i: i["date"], reverse=True)
+    return {"items": items[:15], "players": players}
+
+
 def job_boi():
     start = (datetime.now(timezone.utc) - timedelta(days=500)).strftime("%Y-%m-%d")
     url = ("https://edge.boi.gov.il/FusionEdgeServer/sdmx/v2/data/dataflow/BOI.STATISTICS/BR/1.0/"
@@ -578,6 +649,7 @@ def main():
             pass
     run_section(state, "ligat_haal", lambda: build_ligat_haal(
         ifa_state.get("data") or [], (state.get("tv") or {}).get("data") or [], ifa_fresh))
+    run_section(state, "abroad", job_israelis_abroad)
     run_section(state, "ai", lambda: job_ai(cache))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
@@ -597,7 +669,7 @@ def main():
         json.dump(state, f, ensure_ascii=False, indent=1)
         f.write(";\n")
 
-    failed = [k for k in ("boi", "globes", "ifa", "tv", "ai", "animals", "av_en") if not state[k]["ok"]]
+    failed = [k for k in ("boi", "globes", "ifa", "tv", "abroad", "ai", "animals", "av_en") if not state[k]["ok"]]
     print("done" + (f" — failed: {failed}" if failed else ""))
 
 

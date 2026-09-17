@@ -221,6 +221,12 @@ window.DB.sources = [
           '⚠️ אם בעתיד יהיו באתר מוצרים בתשלום/קישורי שותפים — לבדוק מחדש.'
   },
   {
+    id: 'src_one', name: 'ONE', kind: 'פיד RSS — ספורט',
+    license_mode: 'link_only', independence_group: 'media_one',
+    attribution: 'כותרות: ONE',
+    note: 'פיד RSS ציבורי. כותרת מקורית + קישור בלבד, בלי תקציר ובלי תמונות. משמש לכותרות על ישראלים בחו"ל.'
+  },
+  {
     id: 'src_walla', name: 'וואלה', kind: 'פידי RSS',
     license_mode: 'link_only', independence_group: 'media_walla',
     attribution: 'כותרות וקישורים: וואלה',

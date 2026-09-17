@@ -404,3 +404,8 @@ footer.site a { margin-inline-end: 12px; }
 .tv-box { min-height: 420px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .tradingview-widget-copyright { font-size: 13px; padding: 4px 8px; }
 .tradingview-widget-copyright a { color: var(--text-dim); }
+
+/* ישראלים בחו"ל — גרסה ציבורית */
+.abroad-list summary { cursor: pointer; color: var(--text-dim); font-size: 13px; margin: 6px 0; }
+.chips { margin: 6px 0; line-height: 2; }
+.chip { display: inline-block; border: 1px solid var(--line); border-radius: 12px; padding: 0 8px; margin: 0 0 4px 4px; font-size: 12.5px; }

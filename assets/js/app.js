@@ -1052,6 +1052,41 @@
   /* ============================================================
      4. ספורט
      ============================================================ */
+  /* ישראלים בחו"ל בגרסה הציבורית: כותרות מוואלה ו-ONE (כותרת + קישור) + רשימת השחקנים.
+     סטטיסטיקה מלאה (שערים/בישולים/נקודות) — רק בגרסה האישית, כי אין מקור חינמי שמותר להציג לציבור. */
+  function abroadHeadlinesHtml() {
+    var g = generated('abroad');
+    var walla = R.isDisplayable(R.sourceById('src_walla')), one = R.isDisplayable(R.sourceById('src_one'));
+    var d = g.entry && g.entry.data;
+    if (!d || (!walla && !one)) {
+      return '<h3 class="sub">ישראלים בחו"ל</h3><p class="locked">אין עדיין נתונים מהמשימה בענן.</p>';
+    }
+    var items = (d.items || []).filter(function (i) {
+      return (i.source === 'ONE' ? one : walla) && /^https:\/\//.test(i.link || '');
+    });
+    var news = items.length
+      ? '<ul class="rows">' + items.slice(0, 10).map(function (i) {
+          return headlineItem(i).replace('</li>', ' <span class="locked">· ' + esc(i.source) + '</span>' +
+            (i.players || []).map(function (n) { return ' <span class="badge lic">' + esc(n) + '</span>'; }).join('') + '</li>');
+        }).join('') + '</ul>'
+      : '<p class="locked">אין השבוע כותרות על השחקנים שבמעקב.</p>';
+
+    var players = d.players || [];
+    function list(sport) {
+      return players.filter(function (p) { return p.sport === sport; }).map(function (p) {
+        return '<span class="chip"><b>' + esc(p.name) + '</b> <span class="locked">' + esc(p.club) + '</span></span>';
+      }).join(' ');
+    }
+    return '<h3 class="sub">ישראלים בחו"ל — בחדשות השבוע ' + freshTag('generated', g.state) + '</h3>' + news +
+      '<details class="abroad-list"><summary>השחקנים במעקב (' + F.ltr(String(players.length)) + ')</summary>' +
+        '<div class="chips"><div class="locked">NBA</div>' + list('nba') + '</div>' +
+        '<div class="chips"><div class="locked">כדורגל</div>' + list('soccer') + '</div>' +
+        '<p class="locked">הקבוצות לפי בדיקה מ-' + esc((window.DB.athletes || {}).checked_at || '') + '. ' +
+        'תוצאות וסטטיסטיקה לכל שחקן מוצגות רק בגרסה האישית.</p>' +
+      '</details>' +
+      '<p class="locked">כותרות וקישורים: וואלה, ONE · נבדק ' + F.dateTimeText(g.entry.checked_at) + '</p>';
+  }
+
   function renderSports() {
     var src = R.sourceById('src_espn');
     var A = window.DB.athletes || { players: [] };
@@ -1059,8 +1094,7 @@
 
     if (!R.isDisplayable(src)) {
       // ESPN חסום (מצב ציבורי) — ליגת העל עדיין מוצגת, כי מקורותיה מורשים
-      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports',
-        ligatHaalHtml() + '<p class="locked">תוצאות ומשחקים של ישראלים בחו"ל — אין מקור מורשה במצב הפרסום הנוכחי.</p>');
+      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', ligatHaalHtml() + abroadHeadlinesHtml());
       return;
     }
 
