@@ -15,6 +15,9 @@ window.DB.config = {
     domain: 'example.com'            // placeholder
   },
 
+  /* ---- הפרויקט ב-GitHub (לכפתורי העריכה בדף ההגדרות) ---- */
+  repo: 'ashbaruh/news-site',
+
   /* ---- מצב פרסום ----
      'public'   = הגרסה שכולם רואים (מקורות personal_only מוסתרים)
      'personal' = מצב אישי (הכל מוצג)

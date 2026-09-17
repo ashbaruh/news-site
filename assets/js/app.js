@@ -127,7 +127,11 @@
     $('#tagline').textContent = C.brand.tagline;
     $('#clock').textContent = 'שעון האתר: ' + F.dateTimeText(F.now().toISOString()) +
                               ' · מצב פרסום: ' + (C.publish_mode === 'public' ? 'ציבורי' : 'אישי');
-    if (!C.demo_mode) $('#demo-banner').style.display = 'none';
+    // הבאנר מופיע רק כל עוד פינת המלחמות מציגה נתוני דמה (אין אף ניתוח מאושר). שאר האתר — נתונים אמיתיים.
+    var anyPublished = C.arenas.some(function (a) { return !!publishedFor(a.id); });
+    if (!C.demo_mode || anyPublished) $('#demo-banner').style.display = 'none';
+    else $('#demo-banner').textContent = '⚠️ פינת המלחמות מציגה כרגע נתוני דמה, עד שתאשר את הניתוח היומי הראשון. ' +
+                                         'שאר האתר — נתונים אמיתיים (מסומנים בתג ●חי / עדכני).';
   }
 
   /* ------------------------------------------------------------
@@ -156,7 +160,7 @@
       }).join('<br>'));
     } else if (evs.length) {
       lines.push('<b>מלחמות</b> <span class="tag-demo">דמה</span>: ' + verifiedToday + ' אירועים אומתו היום בזירת איראן. ' +
-                 'שאר הזירות — בשלב 6.');
+                 'הניתוח האמיתי יופיע כאן אחרי שתאשר את הניתוח היומי הראשון.');
     }
 
     // 2. שווקים — המכשיר שזז הכי הרבה ברשימה + נפט + דולר
