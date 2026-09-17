@@ -1,0 +1,57 @@
+# ============================================================
+# ניתוח המלחמות היומי — פעם ביום, בענן, עם Gemini (חינם).
+# איסוף מפידים → ניתוח → בדיקת חוזה → טיוטות → "בקשת אישור" (Issue) עם תצוגה מקדימה.
+# שום דבר לא מתפרסם בלי שתכתוב "מאשר" בבקשה (ראה war-approve.yml).
+# הפעלה ידנית: Actions → "ניתוח מלחמות יומי" → Run workflow
+# ============================================================
+
+name: ניתוח מלחמות יומי
+
+on:
+  schedule:
+    - cron: "40 3 * * *"     # 03:40 UTC ≈ 06:40 בישראל (GitHub לפעמים מאחר בחצי שעה)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write            # לשמור טיוטות
+  issues: write              # לפתוח בקשת אישור
+
+concurrency:
+  group: war-daily
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: בדיקות (חוזה + סקריפט הניתוח + אישור)
+        run: |
+          python tools/test_war_contract.py
+          python tools/mac/test_analyze.py
+          python tools/test_war_approval.py
+
+      - name: איסוף וניתוח לכל הזירות
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: gemini
+        run: python tools/war_daily.py --new-drafts "$RUNNER_TEMP/new-drafts.json"
+
+      - name: שמירת הטיוטות
+        run: |
+          git config user.name  "news-site-bot"
+          git config user.email "news-site-bot@users.noreply.github.com"
+          git add data/war
+          if git diff --cached --quiet; then echo "אין שינוי"; exit 0; fi
+          git commit -m "ניתוח מלחמות יומי — טיוטות לאישור"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
+
+      - name: פתיחת בקשת אישור
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/war_approval.py open "$RUNNER_TEMP/new-drafts.json"

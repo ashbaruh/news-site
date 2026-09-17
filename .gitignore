@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# קבצי עבודה זמניים של הניתוח היומי
+new-drafts.json
+approval-result.json

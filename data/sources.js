@@ -78,6 +78,99 @@ window.DB.sources = [
     license_mode: 'licensed_data', independence_group: 'sat_planet',
     note: 'שימוש לפי תנאי הרישיון בלבד'
   },
+  /* ---------- פינת המלחמות — פידים אמיתיים (הניתוח היומי בענן, tools/war_feeds.py) ----------
+     מהמקור נלקחים רק כותרת + תקציר ה-RSS כחומר גלם לבינה. באתר: ניסוח עצמאי שלנו + קישור בלבד.
+     "צד מעוניין" = מקור שמייצג צד בסכסוך — מתאים ל"מה הצהירו", לא לאימות עובדות. */
+  {
+    id: 'src_toi', name: 'Times of Israel', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_toi',
+    note: 'פיד "ישראל והאזור". ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_iranintl', name: 'Iran International', kind: 'מדיה (אופוזיציה איראנית)',
+    license_mode: 'link_only', independence_group: 'media_iranintl',
+    note: 'ערוץ אופוזיציה שיושב בחו"ל — עמדה ברורה נגד המשטר. לא לבד כאימות.'
+  },
+  {
+    id: 'src_lwj', name: 'Long War Journal', kind: 'מכון מחקר (FDD)',
+    license_mode: 'link_only', independence_group: 'think_tank_fdd',
+    note: 'פרויקט של FDD — אותה משפחת מקורות. הערכות וסיכומים, לרוב לא דיווח שטח.'
+  },
+  {
+    id: 'src_fdd', name: 'FDD', kind: 'מכון מחקר',
+    license_mode: 'link_only', independence_group: 'think_tank_fdd',
+    note: 'אותה משפחה כמו Long War Journal — לא אימות עצמאי ביניהם.'
+  },
+  {
+    id: 'src_guardian', name: 'The Guardian', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_guardian',
+    note: 'פידי "המזרח התיכון" ו"אוקראינה". ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_bbc', name: 'BBC', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_bbc',
+    note: 'פידי "המזרח התיכון" ו"אירופה". ה-BBC מתיר RSS לשימוש אישי — לבדוק מחדש לפני פרסום ציבורי.'
+  },
+  {
+    id: 'src_kyivind', name: 'Kyiv Independent', kind: 'מדיה אוקראינית',
+    license_mode: 'link_only', independence_group: 'media_ua_kyivind',
+    note: 'עיתון אוקראיני עצמאי. צד בסכסוך — לא לבד כאימות לטענות צבאיות.'
+  },
+  {
+    id: 'src_ukrinform', name: 'Ukrinform', kind: 'סוכנות מדינתית',
+    license_mode: 'link_only', independence_group: 'official_ua',
+    note: 'סוכנות הידיעות של המדינה האוקראינית — צד מעוניין.'
+  },
+  {
+    id: 'src_pravda_ua', name: 'Ukrainska Pravda', kind: 'מדיה אוקראינית',
+    license_mode: 'link_only', independence_group: 'media_ua_up',
+    note: 'צד בסכסוך — לא לבד כאימות לטענות צבאיות.'
+  },
+  {
+    id: 'src_meduza', name: 'Meduza', kind: 'מדיה רוסית עצמאית (בגולה)',
+    license_mode: 'link_only', independence_group: 'media_ru_meduza',
+    note: 'עיתון רוסי עצמאי, פועל מחוץ לרוסיה ונגד השלטון.'
+  },
+  {
+    id: 'src_tass', name: 'TASS', kind: 'סוכנות מדינתית',
+    license_mode: 'link_only', independence_group: 'official_ru',
+    note: 'סוכנות הידיעות של המדינה הרוסית — צד מעוניין. מתאים ל"מה רוסיה הצהירה", לא לאימות.'
+  },
+  {
+    id: 'src_newarab', name: 'The New Arab', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_newarab',
+    note: 'בבעלות קטארית — לשים לב לזווית. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
+    id: 'src_gcaptain', name: 'gCaptain', kind: 'מדיה ימית',
+    license_mode: 'link_only', independence_group: 'media_gcaptain',
+    note: 'חדשות ספנות — תקיפות בים האדום ובמצר באב אל-מנדב.'
+  },
+  {
+    id: 'src_lbci', name: 'LBCI', kind: 'מדיה לבנונית',
+    license_mode: 'link_only', independence_group: 'media_lb_lbci',
+    note: 'ערוץ לבנוני פרטי.'
+  },
+  {
+    id: 'src_almanar', name: 'אל-מנאר', kind: 'ערוץ של חיזבאללה',
+    license_mode: 'personal_only', independence_group: 'official_hezbollah',
+    note: 'השופר של חיזבאללה — צד מעוניין. רק ל"מה חיזבאללה הצהיר". חסום בגרסה הציבורית.'
+  },
+  {
+    id: 'src_enabbaladi', name: 'Enab Baladi', kind: 'מדיה סורית עצמאית',
+    license_mode: 'link_only', independence_group: 'media_sy_enab',
+    note: 'עיתון סורי עצמאי.'
+  },
+  {
+    id: 'src_dailysabah', name: 'Daily Sabah', kind: 'מדיה טורקית (קרובה לממשלה)',
+    license_mode: 'link_only', independence_group: 'media_tr_sabah',
+    note: 'קרוב לממשלת טורקיה — מתאים ל"מה טורקיה אומרת".'
+  },
+  {
+    id: 'src_un_news', name: 'חדשות האו"ם', kind: 'ארגון בינלאומי',
+    license_mode: 'summary_ok', independence_group: 'official_un',
+    note: 'UN News — הודעות ודיווחים של האו"ם.'
+  },
   /* ---------- מקורות נתונים אמיתיים (שלב 2) ---------- */
   {
     id: 'src_coingecko', name: 'CoinGecko', kind: 'API נתוני קריפטו',

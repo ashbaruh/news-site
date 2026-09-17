@@ -353,6 +353,22 @@ def numbered(items):
                        for i, it in enumerate(items))
 
 
+def analyze_arena(arena, items, window_hours, map_confidence, known, log=lambda *_: None):
+    """ניתוח זירה אחת: שתי קריאות לבינה → קובץ לפי החוזה. מחזיר (doc, errors). משמש גם את המק וגם את הענן."""
+    now = datetime.now(timezone.utc).replace(microsecond=0)
+    run_id = f"{arena}-{now:%Y%m%d%H%M}"
+    material = numbered(items)
+    log(f"[1/3] חילוץ אירועים מ-{len(items)} כתבות…")
+    events_out = llm_json(SYSTEM, "חלץ אירועים מהכתבות הבאות. לכל אירוע ציין אילו כתבות תומכות בו (לפי המספר), "
+                                  "והאם כל כתבה היא מקור ראשוני או מצטטת אחרים.\n\n" + material, EVENTS_SCHEMA)
+    log("[2/3] תמונת מצב, חזיתות ומטרות…")
+    overview = llm_json(SYSTEM, "על סמך הכתבות בלבד: כתוב סיכום קצר, חזיתות/צירים בשם, רשימת פרטים לא מאומתים, "
+                                "ומטרות הצדדים — בנפרד: מה הצהירו (declared), מה אפשר להסיק (inferred), ותחזית זהירה (forecast).\n\n"
+                                + material, OVERVIEW_SCHEMA)
+    doc = build(arena, items, events_out, overview, window_hours, map_confidence, run_id, now)
+    return doc, wc.validate(doc, known)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--arena", required=True, choices=sorted(wc.ARENAS))
@@ -371,22 +387,10 @@ def main():
     items = sorted(items, key=lambda it: it.get("published_at", ""), reverse=True)[:MAX_ITEMS]
     if not items:
         sys.exit("אין כתבות תקינות (מקור רשום + קישור https)")
+    print(f"דולגו {skipped} כתבות ממקורות לא רשומים")
 
-    now = datetime.now(timezone.utc).replace(microsecond=0)
-    run_id = f"{args.arena}-{now:%Y%m%d%H%M}"
-    material = numbered(items)
-
-    print(f"[1/3] חילוץ אירועים מ-{len(items)} כתבות (דולגו {skipped} לא רשומות)…")
-    events_out = llm_json(SYSTEM, "חלץ אירועים מהכתבות הבאות. לכל אירוע ציין אילו כתבות תומכות בו (לפי המספר), "
-                                  "והאם כל כתבה היא מקור ראשוני או מצטטת אחרים.\n\n" + material, EVENTS_SCHEMA)
-    print(f"[2/3] תמונת מצב, חזיתות ומטרות…")
-    overview = llm_json(SYSTEM, "על סמך הכתבות בלבד: כתוב סיכום קצר, חזיתות/צירים בשם, רשימת פרטים לא מאומתים, "
-                                "ומטרות הצדדים — בנפרד: מה הצהירו (declared), מה אפשר להסיק (inferred), ותחזית זהירה (forecast).\n\n"
-                                + material, OVERVIEW_SCHEMA)
-
-    doc = build(args.arena, items, events_out, overview, args.window_hours, args.map_confidence, run_id, now)
-    errors = wc.validate(doc, known)
-
+    doc, errors = analyze_arena(args.arena, items, args.window_hours, args.map_confidence, known, log=print)
+    run_id = doc["model"]["run_id"]
     os.makedirs(args.outbox, exist_ok=True)
     if errors:
         os.makedirs(os.path.join(args.outbox, "failed"), exist_ok=True)

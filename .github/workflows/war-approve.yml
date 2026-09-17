@@ -1,0 +1,50 @@
+# ============================================================
+# אישור ניתוח המלחמות — רץ כשכותבים תגובה ב"בקשת אישור".
+# נחשבת רק תגובה של בעל הפרויקט, ורק בבקשה שהבוט פתח.
+# ============================================================
+
+name: אישור ניתוח מלחמות
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: war-approve
+  cancel-in-progress: false
+
+jobs:
+  approve:
+    if: github.event.issue.user.login == 'github-actions[bot]' && github.event.comment.user.login == github.repository_owner && !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: קריאת התגובה
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/war_approval.py approve "$GITHUB_EVENT_PATH"
+
+      - name: פרסום ושמירה
+        if: hashFiles('approval-result.json') != ''
+        run: |
+          python tools/ingest_war.py
+          git config user.name  "news-site-bot"
+          git config user.email "news-site-bot@users.noreply.github.com"
+          git add data/war
+          git commit -m "פרסום ניתוח מלחמות שאושר"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
+
+      - name: עדכון בבקשה
+        if: hashFiles('approval-result.json') != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/war_approval.py report approval-result.json
