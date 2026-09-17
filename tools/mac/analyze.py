@@ -25,6 +25,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -51,7 +52,7 @@ MAX_TEXT_PER_ITEM = 1800  # תווים מכל כתבה
 # ברירת מחדל: gemini אם יש מפתח בסביבה, אחרת lmstudio.
 PROVIDER = os.environ.get("LLM_PROVIDER") or ("gemini" if os.environ.get("GEMINI_API_KEY") else "lmstudio")
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
-_gemini_model = os.environ.get("GEMINI_MODEL")  # אם לא הוגדר — נבחר אוטומטית מרשימת המודלים
+_gemini_model = [m for m in os.environ.get("GEMINI_MODEL", "").split(",") if m]  # ריק → נבחר אוטומטית
 
 
 def _gemini_request(path, body=None):
@@ -69,7 +70,7 @@ def gemini_model():
     """בוחר את מודל ה-Flash העדכני ביותר שזמין לחשבון (לא Lite, לא תמונה/קול, יציב לפני preview)."""
     global _gemini_model
     if _gemini_model:
-        return _gemini_model
+        return _gemini_model[0]
     models = _gemini_request("/models?pageSize=200").get("models", [])
     cands = []
     for m in models:
@@ -83,8 +84,8 @@ def gemini_model():
         cands.append((stable, ver, len(name) * -1, name))
     if not cands:
         raise RuntimeError("לא נמצא מודל Flash זמין בחשבון")
-    _gemini_model = sorted(cands, reverse=True)[0][3]
-    return _gemini_model
+    _gemini_model = [c[3] for c in sorted(cands, reverse=True)][:3]   # הראשון = העדכני; השאר = גיבוי בעומס
+    return _gemini_model[0]
 
 
 def _strip_for_gemini(schema):
@@ -108,7 +109,7 @@ def _http_error_text(e):
 def gemini_json(system, user, schema, temperature=0.2):
     base = {"systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}]}
-    path = f"/models/{gemini_model()}:generateContent"
+    gemini_model()
     cfg = {"temperature": temperature, "responseMimeType": "application/json"}
     # שלושה ניסיונות, מהמדויק לפשוט: סכמה חדשה → סכמה ישנה → בלי סכמה (המבנה מתואר בהנחיה, והחוזה בודק אחר כך)
     attempts = [
@@ -121,14 +122,24 @@ def gemini_json(system, user, schema, temperature=0.2):
     ]
     errors = []
     resp = None
-    for body in attempts:
-        try:
-            resp = _gemini_request(path, body)
-            break
-        except urllib.error.HTTPError as e:
-            errors.append(_http_error_text(e))
-            if e.code != 400:
+    for model in _gemini_model:                     # עומס (503) ממשיך למודל הבא
+        path = f"/models/{model}:generateContent"
+        for body in attempts:                       # 400 (סכמה לא נתמכת) ממשיך לניסיון הבא
+            code = None
+            for wait in (0, 20, 45):                # עומס זמני / מכסה לדקה → המתנה וניסיון חוזר
+                time.sleep(wait)
+                try:
+                    resp = _gemini_request(path, body)
+                    break
+                except urllib.error.HTTPError as e:
+                    code = e.code
+                    errors.append(f"{model}: {_http_error_text(e)}")
+                    if code not in (429, 500, 503):
+                        break
+            if resp is not None or code != 400:
                 break
+        if resp is not None or code not in (500, 503):
+            break
     if resp is None:
         raise RuntimeError(" | ".join(errors))
     u = resp.get("usageMetadata") or {}
