@@ -1,0 +1,42 @@
+# ============================================================
+# בדיקת פידים מהענן — הפעלה ידנית. חלק מהאתרים חסומים מישראל או חוסמים שרתים — כאן רואים מה נגיש מ-GitHub.
+# לא משנה שום קובץ.
+# ============================================================
+
+name: בדיקת פידים מהענן
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: בדיקה
+        run: |
+          UA="Mozilla/5.0 news-site-bot"
+          for u in \
+            "https://www.ynet.co.il/Integration/StoryRss2.xml" \
+            "https://www.maariv.co.il/Rss/RssFeedsMivzakiChadashot" \
+            "https://www.israelhayom.co.il/rss.xml" \
+            "https://www.inn.co.il/Rss.aspx" \
+            "https://www.aljazeera.com/xml/rss/all.xml" \
+            "https://www.presstv.ir/rss.xml" \
+            "https://www.tasnimnews.com/en/rss/feed/0/7/0/" \
+            "https://en.irna.ir/rss" \
+            "https://www.sabanew.net/rss.php" \
+            "https://www.al-monitor.com/rss" \
+            "https://www.crisisgroup.org/rss.xml" \
+            "https://www.france24.com/en/middle-east/rss" \
+            "https://www.aa.com.tr/en/rss/default?cat=middle-east" \
+            "https://feeds.skynews.com/feeds/rss/world.xml" \
+            "https://t.me/s/abualiexpress" \
+            "https://www.one.co.il/api/league/1/all-rounds" ; do
+            code=$(curl -sL -m 25 -A "$UA" -o /tmp/f -w "%{http_code}" "$u" || echo 000)
+            n=$(grep -o "<item\|data-post=\|homeTeam" /tmp/f | wc -l)
+            echo "$code  items=$n  $u"
+          done
