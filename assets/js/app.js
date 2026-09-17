@@ -127,6 +127,14 @@
     $('#tagline').textContent = C.brand.tagline;
     $('#clock').textContent = 'שעון האתר: ' + F.dateTimeText(F.now().toISOString()) +
                               ' · מצב פרסום: ' + (C.publish_mode === 'public' ? 'ציבורי' : 'אישי');
+    // נפתח כקובץ (C:/…/index.html)? הכל עובד חוץ מהמוזיקה — YouTube לא מנגן בדף שנפתח כקובץ.
+    if (location.protocol === 'file:') {
+      var note = document.createElement('div');
+      note.className = 'file-note';
+      note.textContent = '🎵 האתר נפתח כקובץ — כך המוזיקה לא עובדת (מגבלה של YouTube). ' +
+                         'לפתיחה עם מוזיקה: לחיצה כפולה על open-site.bat שבתיקיית האתר.';
+      document.body.insertBefore(note, document.body.firstChild);
+    }
     // הבאנר מופיע רק כל עוד פינת המלחמות מציגה נתוני דמה (אין אף ניתוח מאושר). שאר האתר — נתונים אמיתיים.
     var anyPublished = C.arenas.some(function (a) { return !!publishedFor(a.id); });
     if (!C.demo_mode || anyPublished) $('#demo-banner').style.display = 'none';
@@ -416,11 +424,28 @@
     loadLeaflet().then(function (L) {
       if (!document.body.contains(el)) return;          // המשתמש עבר זירה בינתיים
       warMap = L.map(el, { scrollWheelZoom: false, attributionControl: true });
-      // מפות OpenStreetMap — חינם, בלי מפתח (כללי שימוש: קרדיט גלוי, עומס נמוך). CARTO כהה דורש מפתח מ-2026.
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 12, className: 'osm-dark',
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
-      }).addTo(warMap);
+      // שכבת המפה. נבדק 17/09/2026: OpenStreetMap חוסם דף שנפתח כקובץ (בלי כתובת אתר — "Access blocked"),
+      // ו-CARTO דורש מפתח. Esri (אפור כהה) עובד בחינם גם מקובץ וגם מאתר, בלי מפתח; קרדיט חובה.
+      // אם Esri נכשל — מעבר אוטומטי למפות Wikimedia (גם הן בלי מפתח ובלי תלות בכתובת).
+      var TILES = [
+        { url: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+          labels: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',
+          opts: { maxZoom: 12, attribution: 'מפה: &copy; Esri' } },
+        { url: 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=he',
+          opts: { maxZoom: 12, className: 'osm-dark', attribution: 'מפה: Wikimedia &middot; &copy; OpenStreetMap' } }
+      ];
+      var layerIdx = 0, errors = 0, layers = [];
+      function useTiles(i) {
+        layers.forEach(function (l) { warMap.removeLayer(l); });
+        var t = TILES[i];
+        layers = [L.tileLayer(t.url, t.opts)];
+        if (t.labels) layers.push(L.tileLayer(t.labels, { maxZoom: 12, pane: 'overlayPane' }));
+        layers[0].on('tileerror', function () {
+          if (++errors >= 4 && layerIdx + 1 < TILES.length) { errors = 0; useTiles(++layerIdx); }
+        });
+        layers.forEach(function (l) { l.addTo(warMap); });
+      }
+      useTiles(0);
       var bounds = [];
       pts.forEach(function (o) {
         var a = R.assess(o.ev);

@@ -423,3 +423,5 @@ footer.site a { margin-inline-end: 12px; }
 .badge.change-new  { color: var(--accent); border-color: #1d3b5c; background: #0d1c2e; }
 .badge.change-up   { color: var(--ok);   border-color: #1c4a26; background: #0d2313; }
 .badge.change-down { color: #ff9c94;     border-color: var(--bad); background: #2a1112; font-weight: 700; }
+
+.file-note { background: var(--bg-3); color: var(--text-dim); font-size: 13px; text-align: center; padding: 6px 12px; border-bottom: 1px solid var(--line); }
