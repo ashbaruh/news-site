@@ -543,17 +543,34 @@ def name_patterns(players):
     return pats
 
 
+# קבוצות ישראליות באירופה (גרסה ציבורית): כותרת שמזכירה מפעל אירופי + קבוצה מליגת העל
+EUROPE_RX = re.compile(r"ליגה האירופית|ליגת האלופות|קונפרנס|יורופ|צ'מפיונס|אירופה|אירופי")
+
+
+def club_patterns(teams):
+    """לכל קבוצה: השם המקוצר ("מכבי ת\"א") והשם המלא ("מכבי תל אביב")."""
+    out = []
+    for t in teams:
+        full = t.replace('בית"ר', "ביתר")
+        for a, b in ABBR:
+            full = full.replace(a, b)
+        alts = {re.escape(t), re.escape(full), re.escape(t.replace('"', "״"))}
+        out.append((t, re.compile(rf"(?<![{HE}])[והבלמש]?(?:{'|'.join(sorted(alts))})(?![{HE}])")))
+    return out
+
+
 def job_israelis_abroad():
     """כותרות על השחקנים שבמעקב — מוואלה (ישראלים ב-NBA, כדורגל עולמי, כדורגל ישראלי) ו-ONE.
     כותרת + קישור בלבד. רק שחקנים בסטטוס abroad/manual (לא מי שחזר לארץ)."""
     players = load_athletes()
     pats = name_patterns(players)
+    club_pats = club_patterns(LEAGUE_TEAMS_FALLBACK)
     feeds = [("וואלה", "https://rss.walla.co.il/feed/13444", "walla.co.il"),
              ("וואלה", "https://rss.walla.co.il/feed/316", "walla.co.il"),
              ("וואלה", "https://rss.walla.co.il/feed/156", "walla.co.il"),
              ("ONE", "https://www.one.co.il/rss", "one.co.il")]
     since = datetime.now(timezone.utc) - timedelta(days=7)
-    items, seen, ok = [], set(), 0
+    items, europe, seen, ok = [], [], set(), 0
     for source, url, host in feeds:
         try:
             rows = read_rss(url, host)
@@ -565,6 +582,9 @@ def job_israelis_abroad():
             key = re.sub(r"\W+", "", r["title"])
             if r["link"] in seen or key in seen or datetime.fromisoformat(r["date"]) < since:
                 continue
+            clubs = [c for c, rx in club_pats if rx.search(r["title"])] if EUROPE_RX.search(r["title"]) else []
+            if clubs or (EUROPE_RX.search(r["title"]) and re.search(r"(?<![א-ת])[הו]?ישראליו?ת(?![א-ת])", r["title"])):
+                europe.append(dict(r, source=source, clubs=clubs[:2]))
             who = [p["name"] for p, rx in pats if rx.search(r["title"])]
             if not who:
                 continue
@@ -573,7 +593,8 @@ def job_israelis_abroad():
     if not ok:
         raise ValueError("כל הפידים נכשלו")
     items.sort(key=lambda i: i["date"], reverse=True)
-    return {"items": items[:15], "players": players}
+    europe.sort(key=lambda i: i["date"], reverse=True)
+    return {"items": items[:15], "players": players, "europe": europe[:8]}
 
 
 def job_boi():

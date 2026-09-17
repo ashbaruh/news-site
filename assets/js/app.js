@@ -1077,7 +1077,17 @@
         return '<span class="chip"><b>' + esc(p.name) + '</b> <span class="locked">' + esc(p.club) + '</span></span>';
       }).join(' ');
     }
-    return '<h3 class="sub">ישראלים בחו"ל — בחדשות השבוע ' + freshTag('generated', g.state) + '</h3>' + news +
+    var eu = (d.europe || []).filter(function (i) {
+      return (i.source === 'ONE' ? one : walla) && /^https:\/\//.test(i.link || '');
+    });
+    var europe = '<h3 class="sub">קבוצות ישראליות באירופה — בחדשות השבוע</h3>' + (eu.length
+      ? '<ul class="rows">' + eu.slice(0, 6).map(function (i) {
+          return headlineItem(i).replace('</li>', ' <span class="locked">· ' + esc(i.source) + '</span></li>');
+        }).join('') + '</ul>'
+      : '<p class="locked">אין השבוע כותרות על משחקים אירופיים של קבוצות ישראליות.</p>');
+
+    return europe +
+      '<h3 class="sub">ישראלים בחו"ל — בחדשות השבוע ' + freshTag('generated', g.state) + '</h3>' + news +
       '<details class="abroad-list"><summary>השחקנים במעקב (' + F.ltr(String(players.length)) + ')</summary>' +
         '<div class="chips"><div class="locked">NBA</div>' + list('nba') + '</div>' +
         '<div class="chips"><div class="locked">כדורגל</div>' + list('soccer') + '</div>' +
