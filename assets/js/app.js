@@ -138,7 +138,7 @@
     }
     // הבאנר מופיע רק כל עוד פינת המלחמות מציגה נתוני דמה (אין אף ניתוח מאושר). שאר האתר — נתונים אמיתיים.
     var anyPublished = C.arenas.some(function (a) { return !!publishedFor(a.id); });
-    if (!C.demo_mode || anyPublished) $('#demo-banner').style.display = 'none';
+    if (!C.demo_mode || anyPublished || !(window.DB.events || []).length) $('#demo-banner').style.display = 'none';
     else $('#demo-banner').textContent = '⚠️ פינת המלחמות מציגה כרגע נתוני דמה, עד שתאשר את הניתוח היומי הראשון. ' +
                                          'שאר האתר — נתונים אמיתיים (מסומנים בתג ●חי / עדכני).';
   }
@@ -293,6 +293,16 @@
 
   var CONF_WORD = { high: 'מקורות מיפוי חזקים', medium: 'מקורות חלקיים', low: 'הערכה בלבד, מקורות מוגבלים' };
 
+  /* מצב העדכון של הפינה = הניתוח המאושר האחרון (מכל הזירות) */
+  function warsState() {
+    var p = window.DB.war_published || {}, latest = null;
+    Object.keys(p).forEach(function (k) {
+      var g = p[k] && p[k].analysis && p[k].analysis.generated_at;
+      if (g && (!latest || g > latest)) latest = g;
+    });
+    return F.evaluate('wars', latest, latest ? true : undefined, true);
+  }
+
   function renderWars() {
     if (!activeArena) {
       var firstPublished = C.arenas.filter(function (a) { return publishedFor(a.id); })[0];
@@ -300,11 +310,11 @@
     }
     var arena = C.arenas.filter(function (a) { return a.id === activeArena; })[0] || C.arenas[0];
     var pub = publishedFor(arena.id);
-    var isDemo = !pub && arena.id === 'iran';
+    var isDemo = !pub && arena.id === 'iran' && (window.DB.events || []).length > 0;
 
     var tabs = C.arenas.map(function (a) {
       var has = !!publishedFor(a.id);
-      var label = esc(a.name) + (has ? '' : (a.id === 'iran' ? ' · דמה' : ' · ממתין'));
+      var label = esc(a.name) + (has ? '' : ' · ממתין');
       return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (a.id === arena.id ? 'active' : '') + '">' + label + '</button>';
     }).join('');
 
@@ -320,7 +330,7 @@
     } else {
       html += '<div class="window-note">אין עדיין ניתוח מאושר לזירה הזו. ' +
         'ניתוח יופיע כאן אחרי שהמחשב הפרטי ישלח אותו, הוא יעבור את הבדיקה, ואתה תאשר אותו.</div>';
-      $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
+      $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
       bindWarTabs();
       return;
     }
@@ -337,7 +347,7 @@
       '<div id="not-verified-section"></div>' +
       (pub ? publishedTail(pub) : '');
 
-    $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
+    $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
     renderEvents();
     bindWarTabs();
     if (pub) drawWarMap(pub.analysis.events);
@@ -547,7 +557,7 @@
 
   function renderEvents() {
     var pub = publishedFor(activeArena);
-    var source = pub ? pub.analysis.events : window.DB.events.filter(function (e) { return e.arena === activeArena; });
+    var source = pub ? pub.analysis.events : (window.DB.events || []).filter(function (e) { return e.arena === activeArena; });
     var list = source.slice().sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
 
     var shown = [];
@@ -1162,7 +1172,8 @@
 
     if (!R.isDisplayable(src)) {
       // ESPN חסום (מצב ציבורי) — ליגת העל עדיין מוצגת, כי מקורותיה מורשים
-      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', ligatHaalHtml() + abroadHeadlinesHtml());
+      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', ligatHaalHtml() + abroadHeadlinesHtml(), false,
+                                            generated('ligat_haal').state);
       return;
     }
 

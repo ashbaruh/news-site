@@ -47,18 +47,21 @@ window.Freshness = (function () {
     }
 
     var ageText = ago(dataIso, live);
+    // נתון יומי: נחשב "טרי" מרגע הפרסום בפועל, לא מחצות של תאריך הנתון (אחרת הפד תמיד "מתעכב")
+    var ageFrom = (cfg && cfg.lag_hours) ? new Date(new Date(dataIso).getTime() + cfg.lag_hours * 3600000).toISOString() : dataIso;
+    var shown = (cfg && cfg.daily) ? dayMonth(dataIso) : hhmm(dataIso);
     if (ok === false) {
       return { level: 'down', label: 'מקור לא זמין', time: hhmm(dataIso),
                age_text: 'הנתון האחרון שנשמר: ' + ageText };
     }
     if (!cfg) return { level: 'unknown', label: 'לא ידוע', time: hhmm(dataIso), age_text: ageText };
 
-    var ageSec = cfg.business_days ? businessSeconds(dataIso, ref) : (ref - new Date(dataIso)) / 1000;
+    var ageSec = Math.max(0, cfg.business_days ? businessSeconds(ageFrom, ref) : (ref - new Date(ageFrom)) / 1000);
     var level = 'fresh', label = 'עדכני';
     if (ageSec > cfg.stale_at)     { level = 'stale';   label = 'מידע מיושן'; }
     else if (ageSec > cfg.max_age) { level = 'delayed'; label = 'מתעכב'; }
 
-    return { level: level, label: label, time: hhmm(dataIso), age_text: ageText };
+    return { level: level, label: label, time: shown, age_text: ageText };
   }
 
   /* תג לפינה לפי רשומה ב-DB.freshness (נתוני הדמה) */
@@ -72,6 +75,11 @@ window.Freshness = (function () {
   var RANK = { fresh: 0, loading: 1, unknown: 1, delayed: 2, stale: 3, down: 4 };
   function worst(states) {
     return states.reduce(function (w, s) { return (RANK[s.level] > RANK[w.level]) ? s : w; });
+  }
+
+  function dayMonth(iso) {
+    var d = new Date(iso);
+    return String(d.getDate()).padStart(2, '0') + '/' + String(d.getMonth() + 1).padStart(2, '0');
   }
 
   function hhmm(iso) {
