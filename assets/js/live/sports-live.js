@@ -113,7 +113,7 @@
       [-1, 0, 1].forEach(function (off) { jobs.push({ comp: comp, month: ym(off) }); });
     });
     return N.pool(jobs, 4, function (jb) {
-      return N.getJSON('https://site.api.espn.com/apis/site/v2/sports/soccer/' + jb.comp + '/scoreboard?limit=200&dates=' + jb.month)
+      return N.getJSON('https://site.web.api.espn.com/apis/site/v2/sports/soccer/' + jb.comp + '/scoreboard?limit=200&dates=' + jb.month)
         .then(function (s) { return { comp: jb.comp, events: (s && s.events) || [] }; });
     }).then(function (res) {
       var seen = {}, games = [], failed = 0;

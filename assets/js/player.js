@@ -89,6 +89,10 @@
   /* מצב לבדיקה ולעיצוב: data-state / data-list / data-first / data-error על הווידג'ט */
   function mark(k, v) { root.setAttribute('data-' + k, String(v)); }
 
+  function startPlayback() {
+    if (ready && !fatal) player.playVideo();
+  }
+
   /* ---------- אינטראקציה ראשונה עם הדף ---------- */
 
   function onFirstInteraction(ev) {
@@ -99,23 +103,23 @@
     gestureArmed = false;
     // לחיצה על פקדי הנגן מטופלת בפקד עצמו
     if (ev && ev.target && root.contains(ev.target)) return;
-    if (ready && !minimized && !fatal) player.playVideo();
+    if (ready && !minimized && !fatal) startPlayback();
   }
   document.addEventListener('pointerdown', onFirstInteraction, true);
   document.addEventListener('keydown', onFirstInteraction, true);
 
   function armGesture() {
     if (minimized || fatal) return;
-    if (interacted) { if (ready) player.playVideo(); return; }   // כבר הייתה אינטראקציה — פשוט מנגנים
+    if (interacted) { startPlayback(); return; }   // כבר הייתה אינטראקציה — פשוט מנגנים
     gestureArmed = true;
     setNow('▶ לחיצה בכל מקום בדף תפעיל את המוזיקה', 'hint');
   }
 
   /* ---------- בניית הנגן ---------- */
 
-  function build() {
+  function build(startIndex) {
     var my = ++gen;
-    ready = false; skipped = 0; skipping = false;
+    ready = false; skipped = startIndex || 0; skipping = false;
     mark('list', current.id); mark('state', 'loading');
     root.removeAttribute('data-first'); root.removeAttribute('data-error');
 
@@ -126,6 +130,7 @@
     root.querySelector('.stage').innerHTML = '<div id="' + elId + '"></div>';
 
     var vars = { listType: 'playlist', list: current.youtube_id, rel: 0, playsinline: 1 };
+    if (startIndex) vars.index = startIndex;
     if (/^https?:$/.test(location.protocol)) vars.origin = location.origin;
 
     player = new YT.Player(elId, {
@@ -182,9 +187,19 @@
               }
               player.playVideoAt(idx + 1);
             } else {
-              // רשימת השירים עוד לא נטענה (השיר הראשון נחסם מיד) — טוענים מחדש מהשיר הבא
-              player.loadPlaylist({ list: current.youtube_id, listType: 'playlist', index: skipped });
+              // רשימת השירים לא נטענה (השיר הראשון נחסם מיד). "טען פלייליסט" לא עובד כאן (נבדק 17/09/2026) —
+              // בונים את הנגן מחדש, מתחיל מהשיר הבא. onReady ינסה לנגן, ואם הדפדפן מחכה ללחיצה — יבקש אותה.
+              build(skipped);
+              return;
             }
+            // הדפדפן לא מתחיל לנגן לבד לפני לחיצה בדף. אם השיר הבא לא התחיל — לא להישאר תקוע על "דילוג…",
+            // אלא לבקש לחיצה (נבדק 17/09/2026: בלי זה הנגן נתקע אחרי שיר חסום ראשון)
+            var mySkip = skipped;
+            setTimeout(function () {
+              if (my !== gen || fatal || minimized || !skipping || skipped !== mySkip) return;
+              var st = player.getPlayerState ? player.getPlayerState() : -1;
+              if (st !== 1 && st !== 3) { skipping = false; armGesture(); }
+            }, 3500);
             return;
           }
           fatal = true;
@@ -204,13 +219,13 @@
 
   $('pl-resume').addEventListener('click', function () {
     setMinimized(false);
-    if (ready && !fatal) player.playVideo();
+    startPlayback();
   });
 
   $('pl-play').addEventListener('click', function () {
     if (!ready || fatal) return;
     var s = player.getPlayerState();
-    if (s === 1 || s === 3) player.pauseVideo(); else player.playVideo();
+    if (s === 1 || s === 3) player.pauseVideo(); else startPlayback();
   });
   $('pl-next').addEventListener('click', function () { if (ready && !fatal) player.nextVideo(); });
   $('pl-prev').addEventListener('click', function () { if (ready && !fatal) player.previousVideo(); });
