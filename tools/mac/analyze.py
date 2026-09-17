@@ -34,7 +34,10 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 import war_contract as wc  # noqa: E402
 
 LM_URL = os.environ.get("LM_STUDIO_URL", "http://localhost:1234/v1/chat/completions")
-LM_MODEL = os.environ.get("LM_STUDIO_MODEL", "qwen3.5-9b")
+LM_MODEL = os.environ.get("LM_STUDIO_MODEL", "qwen3.5-9b")   # נבדק במק של בעל האתר (17/09/2026): זה המזהה
+# מהירות שנמדדה במק (MacBook Air M5, 16GB, Q4_K_M): ~8.7 טוקנים לשנייה.
+# ניתוח זירה אחת צפוי לקחת 10-15 דקות — לכן זמן המתנה ארוך לכל קריאה.
+LM_TIMEOUT = int(os.environ.get("LM_STUDIO_TIMEOUT", "1800"))
 MAX_ITEMS = 40            # מודל קטן + 16GB זיכרון: לא להעמיס הקשר ארוך מדי
 MAX_TEXT_PER_ITEM = 1800  # תווים מכל כתבה
 
@@ -51,11 +54,17 @@ def llm_json(system, user, schema, temperature=0.1):
     }
     req = urllib.request.Request(LM_URL, data=json.dumps(body).encode("utf-8"),
                                  headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=600) as r:
+    with urllib.request.urlopen(req, timeout=LM_TIMEOUT) as r:
         resp = json.loads(r.read().decode("utf-8"))
+    llm_json.last_usage = resp.get("usage") or {}
     content = resp["choices"][0]["message"]["content"]
+    # מודלים "חושבים" לפעמים כותבים <think>...</think> לפני התשובה — מסירים
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.S)
     content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip())
     return json.loads(content)
+
+
+llm_json.last_usage = {}
 
 
 SYSTEM = (
