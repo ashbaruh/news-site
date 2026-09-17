@@ -45,6 +45,45 @@ def all_drafts():
     return out
 
 
+# "מגמות כלכליות עם מספרים" (מהמפרט) — מקוד, לא מהבינה. שערי ייחוס של ECB דרך Frankfurter: חינם, רשמי, בלי מפתח.
+ECONOMY = {"iran": [("USD", "ILS", "דולר/שקל")], "north": [("USD", "ILS", "דולר/שקל")],
+           "yemen": [("USD", "ILS", "דולר/שקל")], "ukraine": [("EUR", "USD", "אירו/דולר")]}
+
+
+def economy_for(arena, fetch=None):
+    """שער אחרון + שינוי ביחס ליום המסחר הקודם. תקלה → רשימה ריקה (הניתוח ממשיך בלי)."""
+    import urllib.request
+    from datetime import timedelta
+    out = []
+    for base, sym, label in ECONOMY.get(arena, []):
+        try:
+            start = (datetime.now(timezone.utc) - timedelta(days=10)).strftime("%Y-%m-%d")
+            url = f"https://api.frankfurter.dev/v1/{start}..?base={base}&symbols={sym}"
+            if fetch:
+                data = fetch(url)
+            else:
+                req = urllib.request.Request(url, headers={"User-Agent": "news-site-bot"})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    data = json.loads(r.read().decode("utf-8"))
+            days = sorted(data.get("rates", {}).items())
+            if not days:
+                continue
+            (d1, r1) = days[-1]
+            value = float(r1[sym])
+            change = None
+            if len(days) > 1:
+                prev = float(days[-2][1][sym])
+                change = round((value - prev) / prev * 100, 2) if prev else None
+            out.append({"indicator": label, "value": round(value, 4), "unit": sym, "change_pct": change,
+                        "source_id": "src_ecb",
+                        # ECB מפרסם בסביבות 16:00 CET; לא יותר מאוחר מעכשיו (החוזה דוחה תאריך עתידי)
+                        "as_of": min(datetime.fromisoformat(d1 + "T15:00:00+00:00"),
+                                     datetime.now(timezone.utc).replace(microsecond=0)).isoformat()})
+        except Exception as e:
+            print(f"  economy {base}/{sym} failed: {e}")
+    return out
+
+
 def done_today(arena):
     """יש כבר טיוטה מהיום לזירה הזו? (הריצות בצהריים ובערב משלימות רק זירות שנכשלו בבוקר)"""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -90,6 +129,9 @@ def main():
             print(f"❌ הבינה נכשלה: {str(e)[:400]}")
             failed.append(f"{arena}: הבינה נכשלה")
             continue
+        if not errors:
+            doc["economy"] = economy_for(arena)
+            errors = wc.validate(doc, known)
         if errors:
             print(f"❌ {len(errors)} שגיאות חוזה: " + " | ".join(errors[:5]))
             failed.append(f"{arena}: לא עבר את בדיקת החוזה")
