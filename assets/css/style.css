@@ -177,6 +177,16 @@ main.wrap { padding-bottom: 340px; }   /* שהתוכן האחרון לא יוס�
     var(--bg);
   color: var(--text-faint); font-size: 13px; text-align: center;
 }
+.map-canvas.live { display: block; height: 320px; background: var(--bg); }
+.map-legend { padding: 7px 12px; font-size: 12px; color: var(--text-dim); border-top: 1px solid var(--line); }
+.map-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 8px 0 3px; vertical-align: middle; }
+.dot.verified, .war-pt.verified       { background: var(--ok);   stroke: var(--ok);   fill: var(--ok); }
+.dot.initial, .war-pt.initial         { background: var(--warn); stroke: var(--warn); fill: var(--warn); }
+.dot.shared_root, .war-pt.shared_root { background: var(--bad);  stroke: var(--bad);  fill: var(--bad); }
+.dot.other, .war-pt.other             { background: #8b949e;     stroke: #8b949e;     fill: #8b949e; }
+.war-pt { fill-opacity: .55; }
+.osm-dark { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }   /* מפה בהירה → כהה, כמו האתר */
+.leaflet-popup-content { font-family: inherit; font-size: 13px; }
 .conf { font-weight: 700; }
 .conf.high   { color: var(--ok); }
 .conf.medium { color: var(--warn); }

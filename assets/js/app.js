@@ -317,6 +317,7 @@
     $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true);
     renderEvents();
     bindWarTabs();
+    if (pub) drawWarMap(pub.analysis.events);
 
     Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .filters button'), function (b) {
       b.addEventListener('click', function () {
@@ -335,7 +336,7 @@
     });
   }
 
-  function mapBox(confidence, note, layers) {
+  function mapBox(confidence, note, layers, points) {
     return '<div class="map-box">' +
       '<div class="map-head">' +
         '<span>🗺️ מפת הערכה — <b>אינה קו שליטה מאומת בשטח בזמן אמת</b></span>' +
@@ -347,8 +348,73 @@
           return '<li><span class="conf ' + esc(l.confidence) + '">●</span> <b>' + esc(l.name) + '</b> — ' + esc(l.description) +
                  ' <span class="locked">(' + esc(CONF_WORD[l.confidence] || l.confidence) + ')</span></li>';
         }).join('') + '</ul>' : '') +
-      '<div class="map-canvas">מקום שמור למפה (Mapbox/MapTiler)<br><small>השכבות מסומנות ברמת ביטחון</small></div>' +
+      (points
+        ? '<div class="map-canvas live" id="war-map" aria-label="מפת אירועים"></div>' +
+          '<div class="map-legend"><span class="dot verified"></span>מאומת <span class="dot initial"></span>דיווח ראשוני ' +
+          '<span class="dot shared_root"></span>מקור משותף <span class="dot other"></span>הערכה/אחר · ' +
+          '<span class="locked">נקודה = מקום שהוזכר בדיווח, לא מיקום מדויק ולא קו שליטה</span></div>'
+        : '<div class="map-canvas">אין בניתוח הזה אירועים עם מקום מוגדר — המפה תוצג כשיהיו</div>') +
     '</div>';
+  }
+
+  /* ---- מפת אירועים: נקודה לכל מקום שהוזכר. המיקום חושב בקוד (OpenStreetMap), לא ע"י הבינה ---- */
+  var LEAFLET = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
+  var leafletLoading = null, warMap = null;
+
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve(window.L);
+    if (leafletLoading) return leafletLoading;
+    leafletLoading = new Promise(function (resolve, reject) {
+      var css = document.createElement('link');
+      css.rel = 'stylesheet'; css.href = LEAFLET + 'leaflet.min.css';
+      document.head.appendChild(css);
+      var js = document.createElement('script');
+      js.src = LEAFLET + 'leaflet.min.js';
+      js.onload = function () { resolve(window.L); };
+      js.onerror = function () { leafletLoading = null; reject(new Error('leaflet')); };
+      document.head.appendChild(js);
+    });
+    return leafletLoading;
+  }
+
+  function mapPoints(events) {
+    var pts = [];
+    (events || []).forEach(function (ev) {
+      (ev.places || []).forEach(function (p) {
+        if (typeof p.lat === 'number' && typeof p.lon === 'number') pts.push({ ev: ev, p: p });
+      });
+    });
+    return pts;
+  }
+
+  function drawWarMap(events) {
+    var el = document.getElementById('war-map');
+    if (!el) return;
+    if (warMap) { warMap.remove(); warMap = null; }
+    var pts = mapPoints(events);
+    loadLeaflet().then(function (L) {
+      if (!document.body.contains(el)) return;          // המשתמש עבר זירה בינתיים
+      warMap = L.map(el, { scrollWheelZoom: false, attributionControl: true });
+      // מפות OpenStreetMap — חינם, בלי מפתח (כללי שימוש: קרדיט גלוי, עומס נמוך). CARTO כהה דורש מפתח מ-2026.
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 12, className: 'osm-dark',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
+      }).addTo(warMap);
+      var bounds = [];
+      pts.forEach(function (o) {
+        var a = R.assess(o.ev);
+        var cls = ['verified', 'initial', 'shared_root'].indexOf(a.level) > -1 ? a.level : 'other';
+        var m = L.circleMarker([o.p.lat, o.p.lon], { radius: 8, weight: 2, className: 'war-pt ' + cls });
+        m.bindPopup('<div dir="rtl"><b>' + esc(o.ev.title) + '</b><br>📍 ' + esc(o.p.name) +
+                    '<br><span class="badge ' + esc(a.level) + '">' + esc(levelName(a.level)) + '</span></div>');
+        m.addTo(warMap);
+        bounds.push([o.p.lat, o.p.lon]);
+      });
+      if (bounds.length === 1) warMap.setView(bounds[0], 7);
+      else warMap.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
+    }).catch(function () {
+      el.textContent = 'המפה לא נטענה (אין חיבור לשרת המפות). האירועים מופיעים ברשימה למטה.';
+    });
   }
 
   /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */
@@ -364,7 +430,7 @@
       '<h3 class="sub">חזיתות וצירים</h3><ul class="rows">' + a.fronts.map(function (f) {
         return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
       }).join('') + '</ul>' +
-      mapBox(a.map.confidence, a.map.note, a.map.layers);
+      mapBox(a.map.confidence, a.map.note, a.map.layers, mapPoints(a.events).length);
   }
 
   /* סוף הניתוח: כלכלה, מטרות (מוצהרת/מוסקת/תחזית), מקורות */
