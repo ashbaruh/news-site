@@ -38,5 +38,5 @@ jobs:
             "https://www.one.co.il/api/league/1/all-rounds" ; do
             code=$(curl -sL -m 25 -A "$UA" -o /tmp/f -w "%{http_code}" "$u" || echo 000)
             n=$(grep -o "<item\|data-post=\|homeTeam" /tmp/f | wc -l)
-            echo "$code  items=$n  $u"
+            echo "$code  items=$n  $u"; echo "$code items=$n $u" >> "$GITHUB_STEP_SUMMARY"
           done
