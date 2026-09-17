@@ -115,10 +115,7 @@ def gemini_json(system, user, schema, temperature=0.2):
         dict(base, generationConfig=dict(cfg, responseJsonSchema=schema)),
         dict(base, generationConfig=dict(cfg, responseSchema=_strip_for_gemini(schema))),
         {"systemInstruction": base["systemInstruction"],
-         "contents": [{"role": "user", "parts": [{"text": user + "
-
-החזר JSON בלבד, בדיוק לפי הסכמה הזו:
-"
+         "contents": [{"role": "user", "parts": [{"text": user + "\n\nהחזר JSON בלבד, בדיוק לפי הסכמה הזו:\n"
                                                   + json.dumps(schema, ensure_ascii=False)}]}],
          "generationConfig": cfg},
     ]
