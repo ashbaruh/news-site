@@ -61,10 +61,51 @@ def plain(s):
 
 
 def keyword_re(words):
-    return re.compile(r"\b(?:" + "|".join(re.escape(w) for w in words) + ")", re.I) if words else None
+    # מילה באנגלית — מתחילת מילה. מילה בעברית — בכל מקום (כדי לתפוס "בלבנון", "והחות'ים")
+    parts = [(re.escape(w) if re.search("[א-ת]", w) else r"\b" + re.escape(w)) for w in words or []]
+    return re.compile("(?:" + "|".join(parts) + ")", re.I) if parts else None
+
+
+def read_telegram(source_id, url, words, since):
+    """ערוץ טלגרם ציבורי — דרך דף התצוגה הציבורי t.me/s/<ערוץ> (בלי חשבון ובלי מפתח)."""
+    channel = url.rstrip("/").split("/")[-1]
+    kw = keyword_re(words)
+    out, before = [], None
+    for _ in range(8):                                   # הדף מציג ~20 הודעות; גוללים אחורה עד 24 שעות (עד 8 דפים)
+        page_url = url + (f"?before={before}" if before else "")
+        req = urllib.request.Request(page_url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            page = r.read().decode("utf-8", "replace")
+        ids, oldest = [], None
+        for chunk in page.split('data-post="')[1:]:
+            post = chunk.split('"', 1)[0]
+            if not re.fullmatch(re.escape(channel) + r"/\d+", post, re.I):
+                continue
+            ids.append(int(post.split("/")[1]))
+            when = re.search(r'<time[^>]*datetime="([^"]+)"', chunk)
+            try:
+                date = datetime.fromisoformat(when.group(1)).astimezone(timezone.utc)
+            except (AttributeError, ValueError):
+                continue
+            oldest = date if oldest is None or date < oldest else oldest
+            body = re.search(r'class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', chunk, re.S)
+            if not body:
+                continue                                 # תמונה/סרטון בלי טקסט — אין מה לנתח
+            text = plain(re.sub(r"<br\s*/?>", "\n", body.group(1)))
+            if date < since or len(text) < 25 or (kw and not kw.search(text)):
+                continue
+            out.append({"source_id": source_id, "url": f"https://t.me/{post}",
+                        "published_at": date.isoformat(timespec="seconds"),
+                        "title": text[:120], "text": text[:MAX_TEXT]})
+        if not ids or (oldest and oldest < since) or (before and min(ids) >= before):
+            break
+        before = min(ids)
+    return out
 
 
 def read_feed(source_id, url, words, since):
+    if url.startswith("https://t.me/s/"):
+        return read_telegram(source_id, url, words, since)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = r.read()

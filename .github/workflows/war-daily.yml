@@ -44,7 +44,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: gemini
-        run: python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json"
+        run: PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json"
 
       - name: שמירת הטיוטות
         run: |

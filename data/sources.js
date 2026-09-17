@@ -171,6 +171,29 @@ window.DB.sources = [
     license_mode: 'summary_ok', independence_group: 'official_un',
     note: 'UN News — הודעות ודיווחים של האו"ם.'
   },
+  /* ---------- ערוצי טלגרם ציבוריים (נקראים דרך t.me/s — בלי חשבון) ----------
+     כל ערוץ = משפחת מקורות נפרדת. טלגרם לבד לא יהפוך אירוע ל"מאומת" — צריך מקור עצמאי נוסף.
+     personal_only: לא מוצגים בגרסה הציבורית עד בדיקת זכויות. */
+  {
+    id: 'src_tg_abualiexpress', name: 'אבו עלי אקספרס (טלגרם)', kind: 'טלגרם ציבורי',
+    license_mode: 'personal_only', independence_group: 'tg_abualiexpress',
+    note: 'ערוץ ישראלי — סיקור ותרגום מהעולם הערבי. לרוב מצטט מקורות ערביים; לא כתב שטח.'
+  },
+  {
+    id: 'src_tg_geostrategy', name: 'אסטרטגיה וגיאופוליטיקה (טלגרם)', kind: 'טלגרם ציבורי',
+    license_mode: 'personal_only', independence_group: 'tg_geostrategy',
+    note: 'ערוץ ניתוח — הערכות, לא דיווחי שטח.'
+  },
+  {
+    id: 'src_tg_carmel', name: 'Carmel News (טלגרם)', kind: 'טלגרם ציבורי',
+    license_mode: 'personal_only', independence_group: 'tg_carmel',
+    note: 'ערוץ חדשות מהיר — לרוב מצטט אחרים.'
+  },
+  {
+    id: 'src_tg_lelotsenzura', name: 'חדשות ביטחון ללא צנזורה (טלגרם)', kind: 'טלגרם ציבורי',
+    license_mode: 'personal_only', independence_group: 'tg_lelotsenzura',
+    note: 'ערוץ דיווחים מהירים — לא מאומת; דיווח ממנו נשאר "ראשוני" עד שמקור עצמאי מאשר.'
+  },
   /* ---------- מקורות נתונים אמיתיים (שלב 2) ---------- */
   {
     id: 'src_coingecko', name: 'CoinGecko', kind: 'API נתוני קריפטו',

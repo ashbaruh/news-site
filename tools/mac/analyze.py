@@ -120,10 +120,9 @@ def gemini_json(system, user, schema, temperature=0.2):
             "contents": [{"role": "user", "parts": [{"text": user}]}]}
     gemini_model()
     cfg = {"temperature": temperature, "responseMimeType": "application/json"}
-    # שלושה ניסיונות, מהמדויק לפשוט: סכמה חדשה → סכמה ישנה → בלי סכמה (המבנה מתואר בהנחיה, והחוזה בודק אחר כך)
+    # הסכמה נשלחת בתוך ההנחיה, לא כפרמטר: נבדק 17/09/2026 — responseJsonSchema ו-responseSchema
+    # נדחו ב-400 ("invalid argument") על חומר אמיתי. הפלט נבדק ממילא מול החוזה אחר כך.
     attempts = [
-        dict(base, generationConfig=dict(cfg, responseJsonSchema=schema)),
-        dict(base, generationConfig=dict(cfg, responseSchema=_strip_for_gemini(schema))),
         {"systemInstruction": base["systemInstruction"],
          "contents": [{"role": "user", "parts": [{"text": user + "\n\nהחזר JSON בלבד, בדיוק לפי הסכמה הזו:\n"
                                                   + json.dumps(schema, ensure_ascii=False)}]}],
@@ -135,11 +134,11 @@ def gemini_json(system, user, schema, temperature=0.2):
         path = f"/models/{model}:generateContent"
         for variant, body in enumerate(attempts, 1):   # 400 (צורת בקשה לא נתמכת) ממשיך לצורה הבאה
             code = None
-            for wait in (0, 20, 60):                # עומס זמני / מכסה לדקה → המתנה וניסיון חוזר
+            for wait in (0, 30, 90, 180):          # עומס זמני (503) / מכסה לדקה → המתנה ארוכה; הניתוח לא דחוף
                 time.sleep(wait)
                 try:
                     resp = _gemini_request(path, body)
-                    print(f"      Gemini: {model} · צורת בקשה {variant}/3 · ניסיון אחרי {wait} שנ'")
+                    print(f"      Gemini: {model} · צורת בקשה {variant} · ניסיון אחרי {wait} שנ'")
                     break
                 except urllib.error.HTTPError as e:
                     code = e.code
