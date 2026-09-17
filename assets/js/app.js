@@ -1233,7 +1233,7 @@
     /* --- ליגת העל: משחקי היום (או המחזור הבא) + ערוץ, ותוצאות המחזור האחרון --- */
     function ligatHaalHtml() {
       var g = generated('ligat_haal');
-      var okIfa = R.isDisplayable(R.sourceById('src_ifa')), okTv = R.isDisplayable(R.sourceById('src_livegames'));
+      var okIfa = R.isDisplayable(R.sourceById('src_one')), okTv = R.isDisplayable(R.sourceById('src_livegames'));
       if (!g.entry || !g.entry.data) {
         return '<h3 class="sub">ליגת העל בכדורגל</h3><p class="locked">המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
       }
@@ -1266,12 +1266,12 @@
                    esc(r.home) + ' ' + F.ltr(esc(sc[0].trim()) + '–' + esc((sc[1] || '').trim())) + ' ' + esc(r.away) + '</a></li>';
           }).join('') + '</ul>'
         : (okIfa && d.results_available === false
-            ? '<p class="locked filter-note">תוצאות ליגת העל לא זמינות כרגע — אתר ההתאחדות חוסם את המשימה בענן.</p>'
+            ? '<p class="locked filter-note">תוצאות ליגת העל לא זמינות כרגע — המקור לא נקרא בימים האחרונים.</p>'
             : '');
 
       return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
         '<p class="locked filter-note">משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' +
-        'תוצאות: ההתאחדות לכדורגל · נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
+        'תוצאות: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ONE</a> · נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
     }
 
     /* --- קבוצות ישראליות באירופה --- */

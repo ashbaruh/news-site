@@ -236,6 +236,40 @@ def job_ifa():
 
 
 # הערה: עמוד המשחקים של ההתאחדות מציג רק משחקים ששוחקו. משחקים עתידיים — מלוח השידורים.
+# ⚠️ 17/09/2026: ההתאחדות חוסמת את שרתי GitHub (403), והתוצאה בעמוד שלה נקראה בסדר הפוך
+#    ("1-4" = אורחת-מארחת). הוחלף ב-ONE (למטה). הפונקציה נשארת לתיעוד בלבד.
+
+ONE_LEAGUE = "https://www.one.co.il/Soccer/League/1"
+
+
+def job_one_league():
+    """ליגת העל מ-ONE: כל המחזורים, תאריך, שעה, קבוצות ותוצאה — מממשק הנתונים שהאתר שלהם עצמו משתמש בו.
+    נבדק 17/09/2026 מול טבלת הליגה: מכבי ת"א 4 ניצחונות — תואם ל-4:1 בדרבי (ההתאחדות נקראה הפוך).
+    מחזירה אותו מבנה כמו job_ifa: date, time, home, away, score ("בית-חוץ"), link."""
+    req = urllib.request.Request("https://www.one.co.il/api/league/1/all-rounds",
+                                 headers={"User-Agent": BROWSER_UA, "Referer": ONE_LEAGUE})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    games = []
+    for rnd, rows in (data.get("rounds") or {}).items():
+        for g in rows:
+            try:
+                home = str(g["homeTeam"]["name"]).strip()
+                away = str(g["awayTeam"]["name"]).strip()
+                dt = datetime.fromisoformat(str(g["date"])[:19])
+            except (KeyError, TypeError, ValueError):
+                continue
+            hs, as_ = g["homeTeam"].get("score"), g["awayTeam"].get("score")
+            done = bool(g.get("isStarted")) and not g.get("isLive") and isinstance(hs, int) and isinstance(as_, int) \
+                and hs >= 0 and as_ >= 0
+            if not home or not away or len(home) > 40 or len(away) > 40:
+                continue
+            games.append({"date": dt.date().isoformat(), "time": dt.strftime("%H:%M"), "home": home, "away": away,
+                          "round": str(rnd)[:20], "score": f"{hs}-{as_}" if done else "", "link": ONE_LEAGUE})
+    if len(games) < 20:
+        raise ValueError("ONE: מעט מדי משחקים — ייתכן שמבנה הנתונים השתנה")
+    games.sort(key=lambda g: (g["date"], g["time"]))
+    return games
 
 
 def job_tv():
@@ -496,11 +530,16 @@ def build_ligat_haal(ifa_games, tv_rows, ifa_fresh=True):
     flush()
     upcoming = {(u["date"], u["home"], u["away"]): u for u in kept}
 
-    # תוצאות: המחזור האחרון ששוחק (לפי ההתאחדות)
+    # תוצאות: המחזור האחרון ששוחק. עם ONE — לפי שם המחזור; בלי שם — 3 התאריכים האחרונים.
     played = [g for g in ifa_games if g.get("score")]
-    last_dates = sorted({g["date"] for g in played})[-3:]
-    # לא מציגים תוצאות ישנות כאילו הן עדכניות: אם ההתאחדות לא נקראה ב-4 הימים האחרונים — בלי תוצאות
-    results = [g for g in played if g["date"] in last_dates] if ifa_fresh else []
+    if played and played[-1].get("round"):
+        last_round = max(played, key=lambda g: (g["date"], g["time"]))["round"]
+        results = [g for g in played if g.get("round") == last_round]
+    else:
+        last_dates = sorted({g["date"] for g in played})[-3:]
+        results = [g for g in played if g["date"] in last_dates]
+    # לא מציגים תוצאות ישנות כאילו הן עדכניות: אם המקור לא נקרא ב-4 הימים האחרונים — בלי תוצאות
+    results = results if ifa_fresh else []
     return {"teams": teams, "upcoming": sorted(upcoming.values(), key=lambda u: (u["date"], u["time"])),
             "results": results, "results_available": ifa_fresh, "one_sided_tv": one_sided}
 
@@ -658,7 +697,7 @@ def main():
 
     run_section(state, "boi", job_boi)
     run_section(state, "globes", job_globes)
-    run_section(state, "ifa", job_ifa)
+    run_section(state, "ifa", job_one_league)   # השם "ifa" נשמר לתאימות; המקור עכשיו ONE
     run_section(state, "tv", job_tv)
     # ליגת העל = לוח ההתאחדות + לוח השידורים. גם אם אחד נכשל עכשיו — משתמשים בנתון הקודם שלו.
     ifa_state = state.get("ifa") or {}
