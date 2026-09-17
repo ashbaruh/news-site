@@ -1,10 +1,15 @@
 {
 "bab al-mandab strait, yemen": null,
+"bab el-mandeb, yemen": null,
 "beijing, china": [
 39.9057,
 116.3913
 ],
 "marib governorate, yemen": null,
+"marib, yemen": [
+15.4579,
+45.323
+],
 "mecca, saudi arabia": [
 21.4208,
 39.8269
@@ -20,5 +25,9 @@
 "riyadh, saudi arabia": [
 24.6389,
 46.716
+],
+"taif, saudi arabia": [
+21.2703,
+40.4158
 ]
 }
