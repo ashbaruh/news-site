@@ -111,6 +111,16 @@ def open_issue(new_drafts_file):
     body = "\n".join(parts)[:64000]
     issue = gh("POST", "/issues", {"title": f"🛰️ ניתוח מלחמות יומי {day} — ממתין לאישור", "body": body})
     print("נפתחה בקשת אישור:", issue.get("html_url"))
+    # בקשות אישור ישנות שעוד פתוחות — נסגרות, כדי שלא תאשר בטעות ניתוח ישן
+    try:
+        for old in gh("GET", "/issues?state=open&per_page=50") or []:
+            if (old.get("user") or {}).get("login") == BOT and old.get("number") != issue.get("number") \
+                    and MARK.search(old.get("body") or ""):
+                gh("POST", f"/issues/{old['number']}/comments",
+                   {"body": f"הוחלף בבקשה חדשה (#{issue.get('number')}). הבקשה הזו נסגרת — לא פורסם ממנה כלום."})
+                gh("PATCH", f"/issues/{old['number']}", {"state": "closed", "state_reason": "not_planned"})
+    except Exception as e:
+        print("סגירת בקשות ישנות נכשלה:", e)
 
 
 # ------------------------------------------------------------------ אישור

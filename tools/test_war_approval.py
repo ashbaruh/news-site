@@ -39,7 +39,7 @@ class Approval(unittest.TestCase):
         nd = os.path.join(self.tmp, "new.json")
         json.dump({"drafts": self.drafts, "failed": ["ukraine: מעט מדי כתבות (1)"]}, open(nd, "w", encoding="utf-8"))
         wa.open_issue(nd)
-        self.body = self.calls[-1][2]["body"]
+        self.body = next(c[2]["body"] for c in self.calls if c[0] == "POST" and c[1] == "/issues")
 
     def tearDown(self):
         iw.WAR, iw.INBOX, iw.DRAFTS, iw.REJECTED, iw.APPROVED, iw.PUBLISHED, wa.ROOT = self.orig

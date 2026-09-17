@@ -108,6 +108,20 @@ class Analyze(unittest.TestCase):
         self.assertEqual(self.by_title["H"]["places"], [{"name": "חודיידה", "lat": 14.8, "lon": 42.95}])
         self.assertEqual(self.by_title["A"]["places"], [])
 
+    def test_telegram_never_first_hand(self):
+        # שני "ראשוניים": אתר + טלגרם שהבינה סימנה כראשוני → עדיין לא מאומת
+        items = ITEMS + [{"source_id": "src_tg_abualiexpress", "url": "https://t.me/x/1", "published_at": T(4),
+                          "title": "טלגרם", "text": "..."}]
+        doc = an.build("yemen", items, {"events": [ev("T", [{"item": 0, "first_hand": True, "origin": ""},
+                                                           {"item": 6, "first_hand": True, "origin": ""}])]},
+                       FAKE_OVERVIEW, 24, "low", "t", NOW)
+        self.assertEqual(wc.assess(doc["events"][0], GROUPS), "shared_root")
+
+    def test_arabic_letters_inside_hebrew_fixed(self):
+        self.assertEqual(an.clean("לחץ על טهران", 100), "לחץ על טהראן")
+        self.assertEqual(an.clean("אינה מאומتת", 100), "אינה מאומתת")
+        self.assertEqual(an.clean("رئيس مجلس القيادة", 100), "رئيس مجلس القيادة")   # ערבית שלמה — לא נוגעים
+
     def test_no_verification_field_in_output(self):
         for e in self.doc["events"]:
             self.assertFalse(set(e) & wc.FORBIDDEN_KEYS)

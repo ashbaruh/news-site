@@ -19,6 +19,10 @@ on:
       arenas:
         description: "זירות (מופרדות בפסיק)"
         default: "iran,ukraine,yemen,north"
+      force:
+        description: "לנתח שוב גם זירה שכבר נותחה היום"
+        type: boolean
+        default: false
 
 permissions:
   contents: write            # לשמור טיוטות
@@ -48,7 +52,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: gemini
-        run: PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json"
+        run: PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "${{ inputs.arenas || 'iran,ukraine,yemen,north' }}" --new-drafts "$RUNNER_TEMP/new-drafts.json" ${{ inputs.force && '--force' || '' }}
 
       - name: שמירת הטיוטות
         run: |
