@@ -67,7 +67,8 @@
         }).join('') +
       '</select>' +
     '</div>' +
-    '<div class="pl-mini"><button type="button" id="pl-resume"></button></div>';
+    '<div class="pl-mini"><button type="button" id="pl-mini-play" title="נגן / השהה">⏯</button>' +
+      '<button type="button" id="pl-resume"></button></div>';
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -76,14 +77,15 @@
     $('pl-now').className = 'now' + (cls ? ' ' + cls : '');
   }
 
+  /* מזעור = הנגן מתכווץ לגודל המינימלי ש-YouTube מחייב (200x200) ונשאר גלוי — והמוזיקה ממשיכה.
+     (כללי YouTube: אסור להסתיר את הנגן לגמרי ולהשמיע רק קול.) */
   function setMinimized(on) {
     minimized = on;
     root.classList.toggle('minimized', on);
     $('pl-toggle').textContent = on ? '▴' : '▾';
-    $('pl-toggle').title = on ? 'הרחב' : 'מזער (עוצר את המוזיקה)';
+    $('pl-toggle').title = on ? 'הגדל' : 'הקטן (המוזיקה ממשיכה)';
     $('pl-resume').textContent = '▶ ' + current.name;
     store(KEY_MIN, on ? '1' : '0');
-    if (on && ready) player.pauseVideo();     // כללי YouTube: לא מנגנים כשהנגן מוסתר
   }
 
   /* מצב לבדיקה ולעיצוב: data-state / data-list / data-first / data-error על הווידג'ט */
@@ -101,7 +103,7 @@
     interacted = true;
     // המוזיקה כבר מתנגנת מושתקת — מדליקים קול ומעדכנים את הכותרת
     try {
-      if (ready && !minimized && !fatal && player.isMuted && player.isMuted()) {
+      if (ready && !fatal && player.isMuted && player.isMuted()) {
         player.unMute();
         var d = player.getVideoData ? player.getVideoData() : null;
         if (player.getPlayerState() === 1) setNow(d && d.title ? d.title : current.name);
@@ -113,13 +115,13 @@
     gestureArmed = false;
     // לחיצה על פקדי הנגן מטופלת בפקד עצמו
     if (ev && ev.target && root.contains(ev.target)) return;
-    if (ready && !minimized && !fatal) startPlayback();
+    if (ready && !fatal) startPlayback();
   }
   document.addEventListener('pointerdown', onFirstInteraction, true);
   document.addEventListener('keydown', onFirstInteraction, true);
 
   function armGesture() {
-    if (minimized || fatal) return;
+    if (fatal) return;
     if (interacted) { startPlayback(); return; }   // כבר הייתה אינטראקציה — פשוט מנגנים
     gestureArmed = true;
     setNow('▶ לחיצה בכל מקום בדף תפעיל את המוזיקה', 'hint');
@@ -153,12 +155,11 @@
           ready = true;
           mark('ready', 1);
           if (fatal) return;
-          if (minimized) { setNow('ממוזער'); return; }
           // הדפדפן מרשה השמעה אוטומטית רק בלי קול — מנגנים מושתק, והקול נדלק בלחיצה הראשונה בדף
           if (!interacted) { try { player.mute(); } catch (e) {} }
           player.playVideo();
           setTimeout(function () {
-            if (my !== gen || fatal || minimized || skipping) return;   // בזמן דילוג — לא להציג "לחץ להפעלה"
+            if (my !== gen || fatal || skipping) return;   // בזמן דילוג — לא להציג "לחץ להפעלה"
             var s = player.getPlayerState();
             if (s !== 1 && s !== 3) armGesture();
           }, 2500);
@@ -213,7 +214,7 @@
             // אלא לבקש לחיצה (נבדק 17/09/2026: בלי זה הנגן נתקע אחרי שיר חסום ראשון)
             var mySkip = skipped;
             setTimeout(function () {
-              if (my !== gen || fatal || minimized || !skipping || skipped !== mySkip) return;
+              if (my !== gen || fatal || !skipping || skipped !== mySkip) return;
               var st = player.getPlayerState ? player.getPlayerState() : -1;
               if (st !== 1 && st !== 3) { skipping = false; armGesture(); }
             }, 3500);
@@ -237,6 +238,11 @@
   $('pl-resume').addEventListener('click', function () {
     setMinimized(false);
     startPlayback();
+  });
+  $('pl-mini-play').addEventListener('click', function () {      // הפעלה/עצירה במצב מוקטן
+    if (!ready || fatal) return;
+    var st = player.getPlayerState();
+    if (st === 1 || st === 3) player.pauseVideo(); else startPlayback();
   });
 
   $('pl-play').addEventListener('click', function () {

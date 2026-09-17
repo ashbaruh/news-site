@@ -359,8 +359,12 @@ h3.sub:first-child { margin-top: 0; }
 .player .pl-mini button { width: 100%; text-align: start; }
 
 /* ממוזער: הנגן מוסתר ולכן גם עוצר (כללי YouTube). נשאר כפתור "המשך". */
-.player.minimized .stage, .player.minimized .now, .player.minimized .foot { display: none; }
-.player.minimized .pl-mini { display: block; }
+.player.minimized { width: 200px; }                       /* מוקטן: הגודל המינימלי ש-YouTube מחייב */
+.player.minimized .now, .player.minimized .foot { display: none; }
+.player.minimized .stage, .player.minimized .stage iframe { height: 200px; }
+.player.minimized .pl-mini { display: flex; gap: 6px; align-items: center; padding: 6px 8px; }
+.player.minimized .pl-mini button { font-size: 12px; }
+.player.minimized .pl-mini #pl-resume { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* ---------- פוטר ---------- */
 footer.site { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--text-faint); font-size: 12.5px; }
