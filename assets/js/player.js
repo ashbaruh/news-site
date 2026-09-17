@@ -250,6 +250,21 @@
     apiLoaded = true;
     build();
   };
+  if (location.protocol === 'file:') {
+    // YouTube לא מנגן בדף שנפתח כקובץ (נבדק). במקום נגן שבור — כפתור שפותח את הפלייליסט ב-YouTube עצמו.
+    fatal = true;
+    root.querySelector('.stage').innerHTML =
+      '<button type="button" class="yt-open" id="pl-yt">▶ נגן ב-YouTube</button>';
+    setNow('האתר נפתח כקובץ — הנגן בתוך הדף לא זמין. הכפתור מנגן את הפלייליסט בחלון YouTube.', 'hint');
+    $('pl-yt').addEventListener('click', function () {
+      window.open('https://www.youtube.com/watch?list=' + encodeURIComponent(current.youtube_id), 'yt-player');
+    });
+    $('pl-resume').addEventListener('click', function () {
+      window.open('https://www.youtube.com/watch?list=' + encodeURIComponent(current.youtube_id), 'yt-player');
+    });
+    return;
+  }
+
   var s = document.createElement('script');
   s.src = 'https://www.youtube.com/iframe_api';
   s.onerror = function () { setNow('YouTube לא זמין כרגע', 'err'); };

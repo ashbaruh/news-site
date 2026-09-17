@@ -131,8 +131,9 @@
     if (location.protocol === 'file:') {
       var note = document.createElement('div');
       note.className = 'file-note';
-      note.textContent = '🎵 האתר נפתח כקובץ — כך המוזיקה לא עובדת (מגבלה של YouTube). ' +
-                         'לפתיחה עם מוזיקה: לחיצה כפולה על open-site.bat שבתיקיית האתר.';
+      note.textContent = '🎵 האתר נפתח כקובץ, ולכן הנגן לא עובד בתוך הדף (מגבלה של YouTube). ' +
+                         'לפתיחה עם נגן: לחיצה כפולה על "open-site.vbs" בתיקיית האתר (אחר כך גם index.html יעבור לבד). ' +
+                         'או: כפתור "נגן ב-YouTube" בנגן למטה.';
       document.body.insertBefore(note, document.body.firstChild);
     }
     // הבאנר מופיע רק כל עוד פינת המלחמות מציגה נתוני דמה (אין אף ניתוח מאושר). שאר האתר — נתונים אמיתיים.

@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>חדר מצב — דף הבית האישי</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* נפתח כקובץ (C:/…/index.html) והשרת של open-site.vbs כבר רץ? עוברים אליו — שם גם המוזיקה עובדת. */
+    if (location.protocol === 'file:') {
+      (function () {
+        var img = new Image();
+        img.onload = function () { location.replace('http://localhost:8777/index.html' + location.search + location.hash); };
+        img.src = 'http://localhost:8777/assets/img/ping.gif?t=' + Date.now();
+      })();
+    }
+  </script>
 </head>
 <body>
 
