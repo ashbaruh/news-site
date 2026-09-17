@@ -113,11 +113,12 @@ def _http_error_text(e):
         msg = err.get("message", "")
         # פרטי המכסה (למשל ...PerDay...) יושבים ב-details, לא בהודעה
         ids = re.findall(r'"quotaId":\s*"([^"]+)"', json.dumps(err.get("details", [])))
+        # מזהה המכסה בהתחלה — כדי שלא ייחתך (באג 17/09/2026: "PerDay" נחתך, והגיבוי לא הופעל)
         if ids:
-            msg += " [" + ", ".join(sorted(set(ids))) + "]"
+            msg = "[" + ", ".join(sorted(set(ids))) + "] " + msg
     except Exception:
         msg = ""
-    return f"HTTP {e.code}: {msg[:400]}"
+    return f"HTTP {e.code}: {msg[:600]}"
 
 
 def gemini_json(system, user, schema, temperature=0.2):
@@ -154,7 +155,7 @@ def gemini_json(system, user, schema, temperature=0.2):
                     msg = _http_error_text(e)
                     errors.append(f"{model} צורה {variant}: {msg}")
                     print(f"      Gemini: {model} · צורה {variant} · {msg[:160]}")
-                    if code == 429 and re.search(r"per ?day|PerDay|daily", msg, re.I):
+                    if code == 429 and re.search(r"per ?day|PerDay|daily|free_tier_requests", msg, re.I):
                         # המכסה היומית נספרת לכל מודל בנפרד — עוברים למודל הבא, לא מבזבזים עוד בקשות על זה
                         _exhausted.add(model)
                         next_model = True
@@ -165,7 +166,7 @@ def gemini_json(system, user, schema, temperature=0.2):
                 break
         if resp is not None:
             break
-        if not next_model and code not in (500, 503):
+        if not next_model and code not in (429, 500, 503):
             break                                   # שגיאה שאינה עומס/מכסה — מודל אחר לא יעזור
     if resp is None and all(m in _exhausted for m in _gemini_model):
         raise QuotaExhausted(" | ".join(errors[-3:]))

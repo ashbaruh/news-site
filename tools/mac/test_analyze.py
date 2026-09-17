@@ -159,7 +159,9 @@ class GeminiFallback(unittest.TestCase):
         an._exhausted.clear()
 
     def err(self, code, quota=""):
-        body = json.dumps({"error": {"message": "x", "details": [{"quotaId": quota}] if quota else []}}).encode()
+        # הודעה ארוכה כמו של Google — בודק שמזהה המכסה לא נחתך (באג 17/09/2026)
+        body = json.dumps({"error": {"message": "You exceeded your current quota. " + "x" * 700,
+                                     "details": [{"quotaId": quota}] if quota else []}}).encode()
         return self.urlerr.HTTPError("u", code, "x", {}, self.io.BytesIO(body))
 
     def test_daily_quota_then_overload_then_lite(self):
@@ -173,6 +175,14 @@ class GeminiFallback(unittest.TestCase):
         an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-b", "flash-lite"]
         self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 1})
         self.assertEqual(an.gemini_json.used_model, "flash-lite")
+
+    def test_rate_limit_moves_to_next_model(self):
+        def fake(path, body=None):
+            if "flash-a" in path:
+                raise self.err(429)                      # מכסה לא מזוהה — אחרי הניסיונות עוברים למודל הבא
+            return {"candidates": [{"content": {"parts": [{"text": '{"ok": 2}'}]}}]}
+        an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-lite"]
+        self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 2})
 
     def test_all_exhausted_raises(self):
         def fake(path, body=None):
