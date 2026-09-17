@@ -34,6 +34,7 @@ CONFIDENCE = {"high", "medium", "low"}
 FORBIDDEN_KEYS = {"level", "verification", "verified", "is_verified", "confidence_score"}
 
 MAX_EVENTS = 60
+MAX_PLACES = 5
 MAX_WINDOW_HOURS = 72
 EVENT_ID = re.compile(r"^[A-Z0-9][A-Z0-9\-]{2,39}$")
 ROOT_ID = re.compile(r"^[a-z0-9_\-]{3,80}$")
@@ -127,6 +128,16 @@ class _V:
         self.time(r.get("published_at"), path + ".published_at")
         self.text(r.get("note"), path + ".note", 200, required=False)
 
+    def place(self, pl, path):
+        # מיקום על המפה — הקואורדינטות מחושבות בקוד (OpenStreetMap), לא ע"י הבינה
+        if not self.keys(pl, path, ["name", "lat", "lon"]):
+            return
+        self.text(pl.get("name"), path + ".name", 80)
+        for k, lim in (("lat", 90), ("lon", 180)):
+            v = pl.get(k)
+            if not isinstance(v, (int, float)) or isinstance(v, bool) or not -lim <= v <= lim:
+                self.err(f"{path}.{k}", f"מספר בין {-lim} ל-{lim}")
+
     def revision(self, rv, path):
         if not self.keys(rv, path, ["at", "kind", "text"], ["from_level", "to_level"]):
             return
@@ -142,7 +153,7 @@ class _V:
     def event(self, e, path, window):
         req = ["id", "title", "summary", "axis", "claim_type", "lifecycle", "occurred_at", "is_ongoing",
                "first_reported_at", "last_update_at", "what_is_not_verified", "is_new_in_window", "reports"]
-        if not self.keys(e, path, req, ["occurred_to", "revisions"]):
+        if not self.keys(e, path, req, ["occurred_to", "revisions", "places"]):
             return
         if not isinstance(e.get("id"), str) or not EVENT_ID.match(e["id"]):
             self.err(path + ".id", "מזהה באותיות גדולות/ספרות/מקף, 3-40 תווים")
@@ -172,6 +183,12 @@ class _V:
         else:
             for i, r in enumerate(reps[:30]):
                 self.report(r, f"{path}.reports[{i}]")
+        places = e.get("places", [])
+        if not isinstance(places, list) or len(places) > MAX_PLACES:
+            self.err(path + ".places", f"רשימה של עד {MAX_PLACES} מקומות")
+        else:
+            for i, pl in enumerate(places):
+                self.place(pl, f"{path}.places[{i}]")
         revs = e.get("revisions", [])
         if not isinstance(revs, list):
             self.err(path + ".revisions", "חייב להיות רשימה")

@@ -209,7 +209,7 @@ EVENTS_SCHEMA = {
     "properties": {"events": {"type": "array", "maxItems": 25, "items": {
         "type": "object", "additionalProperties": False,
         "required": ["title", "summary", "axis", "claim_type", "occurred_hint", "is_ongoing",
-                     "what_is_not_verified", "support"],
+                     "what_is_not_verified", "support", "places"],
         "properties": {
             "title": {"type": "string"}, "summary": {"type": "string"}, "axis": {"type": "string"},
             "claim_type": {"type": "string", "enum": ["incident", "statement", "assessment", "data"]},
@@ -224,6 +224,10 @@ EVENTS_SCHEMA = {
                     "first_hand": {"type": "boolean", "description": "true רק אם הכתבה עצמה מדווחת ממקור ראשון (כתב בשטח, תמונת לוויין שלה, הודעה רשמית של הגוף עצמו). אם היא מצטטת אחרים — false"},
                     "origin": {"type": "string", "description": "מאיפה המידע הגיע במקור, בקצרה (למשל: 'הודעת דובר צה\"ל', 'פוסט בטלגרם של ערוץ X'). ריק אם לא ידוע"},
                 }}},
+            "places": {"type": "array", "maxItems": 3, "description": "מקומות ספציפיים שבהם האירוע קרה (עיר/נמל/בסיס). רק אם מופיעים בטקסט. לא מדינה שלמה",
+                       "items": {"type": "object", "additionalProperties": False, "required": ["name_en", "name_he"],
+                                 "properties": {"name_en": {"type": "string", "description": "שם המקום באנגלית + מדינה, למשל 'Hodeidah, Yemen'"},
+                                                "name_he": {"type": "string", "description": "שם המקום בעברית"}}}},
         }}}},
 }
 
@@ -244,6 +248,14 @@ OVERVIEW_SCHEMA = {
                            "inferred": {"type": "array", "maxItems": 4, "items": {"type": "string"}},
                            "forecast": {"type": "array", "maxItems": 3, "items": {"type": "string"}}}}},
     },
+}
+
+
+# קריאה אחת לזירה (חוסך חצי מהמכסה היומית): אירועים + תמונת מצב באותה תשובה
+ARENA_SCHEMA = {
+    "type": "object", "additionalProperties": False,
+    "required": ["events"] + OVERVIEW_SCHEMA["required"],
+    "properties": dict(EVENTS_SCHEMA["properties"], **OVERVIEW_SCHEMA["properties"]),
 }
 
 
@@ -282,6 +294,18 @@ def event_roots(items, support):
     return [own(s) if s.get("first_hand") else shared for s in support]
 
 
+def event_places(raw, geocode):
+    """הבינה נותנת רק שם מקום. הקואורדינטות — מקוד (OpenStreetMap). שם שלא נמצא — לא מוצג על המפה."""
+    out = []
+    for p in (raw or [])[:3]:
+        if not isinstance(p, dict) or not geocode:
+            continue
+        hit = geocode(clean(p.get("name_en"), 120))
+        if hit:
+            out.append({"name": clean(p.get("name_he"), 80) or clean(p.get("name_en"), 80), "lat": hit[0], "lon": hit[1]})
+    return out
+
+
 def parse_time(s, fallback):
     try:
         d = datetime.fromisoformat(str(s).replace("Z", "+00:00"))
@@ -290,7 +314,7 @@ def parse_time(s, fallback):
         return fallback
 
 
-def build(arena, items, events_out, overview, window_hours, map_confidence, run_id, now):
+def build(arena, items, events_out, overview, window_hours, map_confidence, run_id, now, geocode=None):
     wfrom = now - timedelta(hours=window_hours)
     events, used = [], {}
     for i, ev in enumerate(events_out.get("events", [])):
@@ -327,6 +351,7 @@ def build(arena, items, events_out, overview, window_hours, map_confidence, run_
             "what_is_not_verified": clean(ev.get("what_is_not_verified"), 600) or "לא צוין — יש להתייחס כלא מאומת.",
             "is_new_in_window": times[0] >= wfrom,
             "reports": reports,
+            "places": event_places(ev.get("places"), geocode),
         })
 
     fronts = [{"name": clean(f.get("name"), 80), "status": clean(f.get("status"), 800)}
@@ -366,19 +391,20 @@ def numbered(items):
                        for i, it in enumerate(items))
 
 
-def analyze_arena(arena, items, window_hours, map_confidence, known, log=lambda *_: None):
-    """ניתוח זירה אחת: שתי קריאות לבינה → קובץ לפי החוזה. מחזיר (doc, errors). משמש גם את המק וגם את הענן."""
+def analyze_arena(arena, items, window_hours, map_confidence, known, log=lambda *_: None, geocode=None):
+    """ניתוח זירה אחת: קריאה אחת לבינה → קובץ לפי החוזה. מחזיר (doc, errors). משמש גם את המק וגם את הענן."""
     now = datetime.now(timezone.utc).replace(microsecond=0)
     run_id = f"{arena}-{now:%Y%m%d%H%M}"
-    material = numbered(items)
-    log(f"[1/3] חילוץ אירועים מ-{len(items)} כתבות…")
-    events_out = llm_json(SYSTEM, "חלץ אירועים מהכתבות הבאות. לכל אירוע ציין אילו כתבות תומכות בו (לפי המספר), "
-                                  "והאם כל כתבה היא מקור ראשוני או מצטטת אחרים.\n\n" + material, EVENTS_SCHEMA)
-    log("[2/3] תמונת מצב, חזיתות ומטרות…")
-    overview = llm_json(SYSTEM, "על סמך הכתבות בלבד: כתוב סיכום קצר, חזיתות/צירים בשם, רשימת פרטים לא מאומתים, "
-                                "ומטרות הצדדים — בנפרד: מה הצהירו (declared), מה אפשר להסיק (inferred), ותחזית זהירה (forecast).\n\n"
-                                + material, OVERVIEW_SCHEMA)
-    doc = build(arena, items, events_out, overview, window_hours, map_confidence, run_id, now)
+    log(f"[1/2] ניתוח {len(items)} כתבות (אירועים + תמונת מצב, בקריאה אחת)…")
+    out = llm_json(SYSTEM,
+                   "משימה על הכתבות הבאות:\n"
+                   "1. events — חלץ אירועים. לכל אירוע: אילו כתבות תומכות בו (לפי המספר), האם כל כתבה מקור ראשוני "
+                   "או מצטטת אחרים, ומקומות ספציפיים שבהם קרה (אם מופיעים).\n"
+                   "2. summary, fronts, not_verified — סיכום קצר, חזיתות/צירים בשם, פרטים לא מאומתים.\n"
+                   "3. strategic_goals — מטרות הצדדים בנפרד: מה הצהירו (declared), מה אפשר להסיק (inferred), "
+                   "ותחזית זהירה (forecast).\n\n" + numbered(items), ARENA_SCHEMA)
+    log("[2/2] הרכבה ובדיקת חוזה…")
+    doc = build(arena, items, out, out, window_hours, map_confidence, run_id, now, geocode=geocode)
     return doc, wc.validate(doc, known)
 
 

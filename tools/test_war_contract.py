@@ -189,6 +189,23 @@ class Contract(unittest.TestCase):
         d = sample(); d["events"][1]["id"] = d["events"][0]["id"]
         self.rejects(d, "כפול")
 
+    # ---- מקומות על המפה ----
+    def test_valid_places_pass(self):
+        d = sample(); d["events"][0]["places"] = [{"name": "בנדר עבאס", "lat": 27.18, "lon": 56.27}]
+        self.assertEqual(wc.validate(d, KNOWN), [])
+
+    def test_place_out_of_range_rejected(self):
+        d = sample(); d["events"][0]["places"] = [{"name": "x", "lat": 127.1, "lon": 56.2}]
+        self.rejects(d, "lat")
+
+    def test_place_as_text_rejected(self):
+        d = sample(); d["events"][0]["places"] = [{"name": "x", "lat": "27", "lon": 56.2}]
+        self.rejects(d, "lat")
+
+    def test_too_many_places_rejected(self):
+        d = sample(); d["events"][0]["places"] = [{"name": "x", "lat": 1, "lon": 1}] * 6
+        self.rejects(d, "עד 5")
+
     def test_economy_value_must_be_number(self):
         d = sample(); d["economy"][0]["value"] = "הרבה"
         self.rejects(d, "מספר")

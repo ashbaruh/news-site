@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -23,6 +24,7 @@ import analyze as an        # noqa: E402
 import collect_war as cw    # noqa: E402
 import ingest_war as iw     # noqa: E402
 import war_contract as wc   # noqa: E402
+from geocode import Geocoder  # noqa: E402
 
 MIN_ITEMS = 3          # פחות מזה — אין על מה לנתח, לא מבזבזים קריאות
 WINDOW_HOURS = 24
@@ -43,30 +45,45 @@ def all_drafts():
     return out
 
 
+def done_today(arena):
+    """יש כבר טיוטה מהיום לזירה הזו? (הריצות בצהריים ובערב משלימות רק זירות שנכשלו בבוקר)"""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    folder = os.path.join(iw.DRAFTS, arena)
+    return os.path.isdir(folder) and any(f.startswith(today) for f in os.listdir(folder))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--arenas", default="iran,ukraine,yemen,north")
     ap.add_argument("--new-drafts", default=os.path.join(ROOT, "new-drafts.json"))
+    ap.add_argument("--force", action="store_true", help="לנתח גם זירה שכבר נותחה היום")
     args = ap.parse_args()
 
     known, groups = iw.load_sources()
     before = all_drafts()
     os.makedirs(iw.INBOX, exist_ok=True)
     failed = []
+    geocode = Geocoder()
+    calls = 0
 
-    for n, arena in enumerate(a for a in args.arenas.split(",") if a in wc.ARENAS):
+    for arena in (a for a in args.arenas.split(",") if a in wc.ARENAS):
         print(f"\n=== {arena} ===")
+        if not args.force and done_today(arena):
+            print("כבר נותחה היום — מדלג")
+            continue
         items = [it for it in cw.collect(arena) if it["source_id"] in known]
         if len(items) < MIN_ITEMS:
             print(f"רק {len(items)} כתבות — מדלג (נשאר הניתוח הקודם)")
             failed.append(f"{arena}: מעט מדי כתבות ({len(items)})")
             continue
-        if n:
-            time.sleep(15)                       # מרווח קטן בין זירות — מכסת בקשות לדקה
+        if calls:
+            time.sleep(20)                       # מרווח בין זירות — מכסת בקשות לדקה
+        calls += 1
         try:
-            doc, errors = an.analyze_arena(arena, items, WINDOW_HOURS, map_confidence(arena), known, log=print)
+            doc, errors = an.analyze_arena(arena, items, WINDOW_HOURS, map_confidence(arena), known,
+                                           log=print, geocode=geocode)
         except an.QuotaExhausted:
-            print("⛔ המכסה היומית של Gemini נגמרה — עוצר (הזירות שנותרו יחכו למחר)")
+            print("⛔ המכסה היומית של Gemini נגמרה — עוצר (הזירות שנותרו יחכו לריצה הבאה היום או מחר)")
             failed.append(f"{arena} והלאה: המכסה היומית נגמרה")
             break
         except Exception as e:
@@ -82,6 +99,7 @@ def main():
             json.dump(doc, f, ensure_ascii=False, indent=1)
         print(f"✓ {len(doc['events'])} אירועים → תיבה")
 
+    geocode.save()
     print("\n=== קליטה ===")
     for line in iw.ingest(known, groups):
         print(line)

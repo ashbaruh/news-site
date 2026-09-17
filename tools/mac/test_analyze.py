@@ -47,14 +47,20 @@ FAKE_EVENTS = {"events": [
     ev("E: שני מצטטים בלי מקור ראשוני", [{"item": 3, "first_hand": False, "origin": "גורם אנונימי"}, {"item": 2, "first_hand": False, "origin": "גורם אחר"}]),
     ev("F: מפנה לכתבה שלא קיימת", [{"item": 99, "first_hand": True, "origin": ""}]),
     ev('G: <img src=x onerror=alert(1)>כותרת', [{"item": 1, "first_hand": True, "origin": ""}], occurred_hint="2099-01-01T00:00:00+00:00"),
+    ev("H: עם מקומות", [{"item": 0, "first_hand": True, "origin": ""}],
+       places=[{"name_en": "Hodeidah, Yemen", "name_he": "חודיידה"}, {"name_en": "Nowhere Land", "name_he": "אין"},
+               {"name_en": "Iran", "name_he": "איראן"}]),
 ]}
 FAKE_OVERVIEW = {"summary": "סיכום <script>x</script> דמה.", "fronts": [{"name": "ציר דרום", "status": "פעילות."}],
                  "not_verified": ["פרט לא מאומת."],
                  "strategic_goals": [{"actor": "צד א'", "declared": ["מוצהרת"], "inferred": ["מוסקת"], "forecast": ["תחזית"]}]}
 
 
+FAKE_GEO = {"Hodeidah, Yemen": (14.8, 42.95)}      # "Iran" (מדינה שלמה) ו-"Nowhere Land" — לא נמצאו
+
+
 def build():
-    return an.build("iran", ITEMS, FAKE_EVENTS, FAKE_OVERVIEW, 24, "low", "test-run", NOW)
+    return an.build("iran", ITEMS, FAKE_EVENTS, FAKE_OVERVIEW, 24, "low", "test-run", NOW, geocode=FAKE_GEO.get)
 
 
 class Analyze(unittest.TestCase):
@@ -97,6 +103,10 @@ class Analyze(unittest.TestCase):
     def test_map_confidence_from_human_not_model(self):
         self.assertEqual(self.doc["map"]["confidence"], "low")
         self.assertTrue(self.doc["map"]["is_assessment"])
+
+    def test_places_only_from_geocoder(self):
+        self.assertEqual(self.by_title["H"]["places"], [{"name": "חודיידה", "lat": 14.8, "lon": 42.95}])
+        self.assertEqual(self.by_title["A"]["places"], [])
 
     def test_no_verification_field_in_output(self):
         for e in self.doc["events"]:
