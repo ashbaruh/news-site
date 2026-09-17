@@ -109,5 +109,26 @@ class Approval(unittest.TestCase):
         self.assertEqual(self.approved(), [])
 
 
+class Changes(unittest.TestCase):
+    """"מה השתנה מאתמול": אותו אירוע מזוהה לפי קישור משותף; רמת אימות עלתה/ירדה/חדש."""
+
+    def doc(self, events):
+        return ta.an.build("iran", ta.ITEMS, {"events": events}, ta.FAKE_OVERVIEW, 24, "low", "r", ta.NOW)
+
+    def test_new_up_down_same(self):
+        ev = ta.ev
+        fh = lambda i: {"item": i, "first_hand": True, "origin": ""}  # noqa: E731
+        prev = self.doc([ev("עלה", [fh(0)]), ev("ירד", [fh(4), fh(1)]), ev("זהה", [fh(2)])])
+        cur = self.doc([ev("עלה", [fh(0), fh(1)]), ev("ירד", [fh(4)]), ev("זהה", [fh(2)]), ev("חדש", [fh(5)])])
+        ch = iw.compare(prev, cur, ta.GROUPS)
+        kinds = {e["title"]: ch[e["id"]]["kind"] for e in cur["events"]}
+        self.assertEqual(kinds, {"עלה": "up", "ירד": "down", "זהה": "same", "חדש": "new"})
+        down = next(ch[e["id"]] for e in cur["events"] if e["title"] == "ירד")
+        self.assertEqual((down["from"], down["to"]), ("verified", "initial"))
+
+    def test_first_analysis_has_no_changes(self):
+        self.assertEqual(iw.compare(None, self.doc([ta.ev("א", [{"item": 0, "first_hand": True, "origin": ""}])]), ta.GROUPS), {})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

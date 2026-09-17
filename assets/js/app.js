@@ -431,6 +431,12 @@
     });
   }
 
+  function changeSummary(changes) {
+    var n = { new: 0, up: 0, down: 0 };
+    Object.keys(changes || {}).forEach(function (k) { if (n[changes[k].kind] !== undefined) n[changes[k].kind]++; });
+    return F.ltr(String(n.new)) + ' חדשים · ' + F.ltr(String(n.up)) + ' עלו ברמת האימות · ' + F.ltr(String(n.down)) + ' ירדו';
+  }
+
   /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */
   function publishedHead(arena, pub) {
     var a = pub.analysis;
@@ -439,6 +445,8 @@
         ' · <b>זירה:</b> ' + esc(arena.name) +
         ' · נוצר ' + F.dateTimeText(a.generated_at) + ' ע"י ' + esc(a.model.name) +
         ' · <span class="tag-demo">אושר לפרסום</span>' +
+        (pub.previous_generated_at ? ' · <b>השוואה</b> לניתוח מ-' + F.dateTimeText(pub.previous_generated_at) + ': ' +
+          changeSummary(pub.changes) : '') +
       '</div>' +
       '<p class="war-summary">' + esc(a.summary) + '</p>' +
       '<h3 class="sub">חזיתות וצירים</h3><ul class="rows">' + a.fronts.map(function (f) {
@@ -491,7 +499,11 @@
     if (activeFilter === 'all') return true;
     if (activeFilter === 'verified')    return a.level === 'verified';
     if (activeFilter === 'notverified') return ['initial', 'shared_root', 'unverified', 'disputed', 'retracted'].indexOf(a.level) > -1;
-    if (activeFilter === 'changed')     return a.revisions.length > 0;
+    if (activeFilter === 'changed') {
+      var pub = publishedFor(activeArena);
+      var ch = pub && pub.changes ? pub.changes[ev.id] : null;
+      return a.revisions.length > 0 || !!(ch && (ch.kind === 'up' || ch.kind === 'down'));
+    }
     return true;
   }
 
@@ -505,7 +517,7 @@
       var a = R.assess(ev);
       if (!passesFilter(a, ev)) return '';
       shown.push({ ev: ev, a: a });
-      return eventCard(ev, a);
+      return eventCard(ev, a, pub && pub.changes ? pub.changes[ev.id] : null);
     }).join('');
 
     $('#events').innerHTML = html || '<p class="locked">אין אירועים בסינון הזה.</p>';
@@ -523,7 +535,7 @@
       '</ul>';
   }
 
-  function eventCard(ev, a) {
+  function eventCard(ev, a, change) {
     var rootCounts = {};
     a.reports.forEach(function (r) { rootCounts[r.source_root_id] = (rootCounts[r.source_root_id] || 0) + 1; });
 
@@ -555,6 +567,10 @@
     // מהמפרט: מה חדש בחלון הזמן, ומה עדכון/אימות מאוחר של אירוע ישן
     if (ev.is_new_in_window === true)  late += ' <span class="badge ongoing">חדש בחלון</span>';
     if (ev.is_new_in_window === false) late += ' <span class="badge lic">עדכון לאירוע קודם</span>';
+    // מה השתנה מול הניתוח המאושר הקודם (חושב בקוד, לפי קישורים משותפים)
+    if (change && change.kind === 'new')  late += ' <span class="badge change-new">🆕 חדש מהניתוח הקודם</span>';
+    if (change && change.kind === 'up')   late += ' <span class="badge change-up">⬆️ עלה: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
+    if (change && change.kind === 'down') late += ' <span class="badge change-down">⬇️ ירד: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
     var reasonClass = a.level === 'verified' ? 'ok' : (a.level === 'shared_root' ? 'bad' : '');
 
     var span = R.timeSpan(ev);

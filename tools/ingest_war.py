@@ -96,14 +96,42 @@ def ingest(known, groups):
     return log
 
 
-def publish(known):
-    """הטיוטה המאושרת האחרונה לכל זירה → data/war/published.js"""
+# סדר רמות האימות — להשוואה "עלה/ירד" בין ניתוחים. הערכה/נתון לא משווים (הם לא סולם אימות).
+LEVEL_RANK = {"retracted": 0, "disputed": 1, "unverified": 2, "initial": 3, "shared_root": 3, "verified": 4}
+
+
+def compare(prev_doc, doc, groups):
+    """מה השתנה מהניתוח המאושר הקודם באותה זירה. אירועים מזוהים לפי קישור משותף לכתבה — קוד, לא בינה."""
+    if not prev_doc:
+        return {}
+    prev_by_url = {}
+    for e in prev_doc.get("events", []):
+        for r in e.get("reports", []):
+            prev_by_url.setdefault(r.get("url"), e)
+    changes = {}
+    for e in doc.get("events", []):
+        match = next((prev_by_url[r.get("url")] for r in e.get("reports", []) if r.get("url") in prev_by_url), None)
+        if match is None:
+            changes[e["id"]] = {"kind": "new"}
+            continue
+        a, b = wc.assess(match, groups), wc.assess(e, groups)
+        kind = "same"
+        if a in LEVEL_RANK and b in LEVEL_RANK and LEVEL_RANK[a] != LEVEL_RANK[b]:
+            kind = "up" if LEVEL_RANK[b] > LEVEL_RANK[a] else "down"
+        changes[e["id"]] = {"kind": kind, "from": a, "to": b}
+    return changes
+
+
+def publish(known, groups=None):
+    """הטיוטה המאושרת האחרונה לכל זירה → data/war/published.js, כולל "מה השתנה" מול המאושרת הקודמת."""
+    if groups is None:
+        groups = load_sources()[1]
     try:
         with open(APPROVED, encoding="utf-8") as f:
             approved = json.load(f).get("approved", [])
     except FileNotFoundError:
         approved = []
-    latest, log = {}, []
+    per_arena, log = {}, []
     for rel in approved:
         if not isinstance(rel, str) or not re.fullmatch(r"drafts/(iran|ukraine|yemen|north)/[A-Za-z0-9_\-]+\.json", rel):
             log.append(f"SKIP     שם לא תקין ב-approved.json: {rel!r}")
@@ -118,9 +146,15 @@ def publish(known):
         if errs:
             log.append(f"SKIP     {rel} כבר לא עומד בחוזה: {errs[0]}")
             continue
-        cur = latest.get(doc["arena"])
-        if cur is None or doc["generated_at"] > cur["analysis"]["generated_at"]:
-            latest[doc["arena"]] = {"draft": rel, "analysis": doc}
+        per_arena.setdefault(doc["arena"], []).append((doc["generated_at"], rel, doc))
+    latest = {}
+    for arena, rows in per_arena.items():
+        rows.sort(key=lambda x: x[0])
+        _, rel, doc = rows[-1]
+        prev = rows[-2][2] if len(rows) > 1 else None
+        latest[arena] = {"draft": rel, "analysis": doc,
+                         "previous_generated_at": prev["generated_at"] if prev else None,
+                         "changes": compare(prev, doc, groups)}
     os.makedirs(WAR, exist_ok=True)
     with open(PUBLISHED, "w", encoding="utf-8", newline="\n") as f:
         f.write("/* נוצר אוטומטית ע\"י tools/ingest_war.py — רק ניתוחים שאושרו. לא לערוך ידנית. */\n")
@@ -134,7 +168,7 @@ def publish(known):
 
 def main():
     known, groups = load_sources()
-    for line in ingest(known, groups) + publish(known):
+    for line in ingest(known, groups) + publish(known, groups):
         print(line)
 
 
