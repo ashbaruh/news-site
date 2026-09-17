@@ -97,25 +97,47 @@ def _strip_for_gemini(schema):
     return schema
 
 
+def _http_error_text(e):
+    try:
+        msg = json.loads(e.read().decode("utf-8")).get("error", {}).get("message", "")
+    except Exception:
+        msg = ""
+    return f"HTTP {e.code}: {msg[:300]}"
+
+
 def gemini_json(system, user, schema, temperature=0.2):
     base = {"systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}]}
     path = f"/models/{gemini_model()}:generateContent"
-    try:
-        body = dict(base, generationConfig={"temperature": temperature, "responseMimeType": "application/json",
-                                            "responseJsonSchema": schema})
-        resp = _gemini_request(path, body)
-    except urllib.error.HTTPError as e:
-        if e.code != 400:
-            raise
-        # גרסה ישנה של ה-API — ננסה את הפורמט הישן של הסכמה
-        body = dict(base, generationConfig={"temperature": temperature, "responseMimeType": "application/json",
-                                            "responseSchema": _strip_for_gemini(schema)})
-        resp = _gemini_request(path, body)
+    cfg = {"temperature": temperature, "responseMimeType": "application/json"}
+    # שלושה ניסיונות, מהמדויק לפשוט: סכמה חדשה → סכמה ישנה → בלי סכמה (המבנה מתואר בהנחיה, והחוזה בודק אחר כך)
+    attempts = [
+        dict(base, generationConfig=dict(cfg, responseJsonSchema=schema)),
+        dict(base, generationConfig=dict(cfg, responseSchema=_strip_for_gemini(schema))),
+        {"systemInstruction": base["systemInstruction"],
+         "contents": [{"role": "user", "parts": [{"text": user + "
+
+החזר JSON בלבד, בדיוק לפי הסכמה הזו:
+"
+                                                  + json.dumps(schema, ensure_ascii=False)}]}],
+         "generationConfig": cfg},
+    ]
+    errors = []
+    resp = None
+    for body in attempts:
+        try:
+            resp = _gemini_request(path, body)
+            break
+        except urllib.error.HTTPError as e:
+            errors.append(_http_error_text(e))
+            if e.code != 400:
+                break
+    if resp is None:
+        raise RuntimeError(" | ".join(errors))
     u = resp.get("usageMetadata") or {}
     llm_json.last_usage = {"prompt_tokens": u.get("promptTokenCount"), "completion_tokens": u.get("candidatesTokenCount")}
     cand = (resp.get("candidates") or [{}])[0]
-    text = "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts", []))
+    text = "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts", []) if not p.get("thought"))
     if not text:
         raise RuntimeError(f"Gemini החזיר תשובה ריקה (finishReason={cand.get('finishReason')})")
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
