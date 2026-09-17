@@ -527,7 +527,8 @@
         }).join('')
       : '';
 
-    var cited = '<h3 class="sub">מקורות</h3><ul class="rows cited">' + a.sources_cited.map(function (c) {
+    var cited = '<details class="cited-box"><summary>מקורות (' + F.ltr(String(a.sources_cited.length)) + ')</summary>' +
+      '<ul class="rows cited">' + a.sources_cited.map(function (c) {
         var src = R.sourceById(c.source_id);
         var ok = R.isDisplayable(src) && /^https:\/\//.test(c.url || '');
         return '<li>' + esc(src ? src.name : c.source_id) +
@@ -535,7 +536,7 @@
           ' <span class="locked">· נבדק ' + F.dateTimeText(c.accessed_at) + '</span></li>';
       }).join('') + '</ul>' +
       '<p class="locked filter-note">רמות האימות מחושבות באתר מתוך המקורות — הבינה לא קובעת מה מאומת. ' +
-      'טיוטה: ' + esc(pub.draft) + '</p>';
+      'טיוטה: ' + esc(pub.draft) + '</p></details>';
 
     return eco + goals + cited;
   }

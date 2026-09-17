@@ -90,13 +90,23 @@
   function mark(k, v) { root.setAttribute('data-' + k, String(v)); }
 
   function startPlayback() {
-    if (ready && !fatal) player.playVideo();
+    if (!ready || fatal) return;
+    try { player.unMute(); } catch (e) {}
+    player.playVideo();
   }
 
   /* ---------- אינטראקציה ראשונה עם הדף ---------- */
 
   function onFirstInteraction(ev) {
     interacted = true;
+    // המוזיקה כבר מתנגנת מושתקת — מדליקים קול ומעדכנים את הכותרת
+    try {
+      if (ready && !minimized && !fatal && player.isMuted && player.isMuted()) {
+        player.unMute();
+        var d = player.getVideoData ? player.getVideoData() : null;
+        if (player.getPlayerState() === 1) setNow(d && d.title ? d.title : current.name);
+      }
+    } catch (e) { /* הנגן עוד לא מוכן */ }
     document.removeEventListener('pointerdown', onFirstInteraction, true);
     document.removeEventListener('keydown', onFirstInteraction, true);
     if (!gestureArmed) return;
@@ -129,7 +139,7 @@
     var elId = 'yt-player-' + my;
     root.querySelector('.stage').innerHTML = '<div id="' + elId + '"></div>';
 
-    var vars = { listType: 'playlist', list: current.youtube_id, rel: 0, playsinline: 1 };
+    var vars = { listType: 'playlist', list: current.youtube_id, rel: 0, playsinline: 1, mute: 1, autoplay: 1 };
     if (startIndex) vars.index = startIndex;
     if (/^https?:$/.test(location.protocol)) vars.origin = location.origin;
 
@@ -144,6 +154,8 @@
           mark('ready', 1);
           if (fatal) return;
           if (minimized) { setNow('ממוזער'); return; }
+          // הדפדפן מרשה השמעה אוטומטית רק בלי קול — מנגנים מושתק, והקול נדלק בלחיצה הראשונה בדף
+          if (!interacted) { try { player.mute(); } catch (e) {} }
           player.playVideo();
           setTimeout(function () {
             if (my !== gen || fatal || minimized || skipping) return;   // בזמן דילוג — לא להציג "לחץ להפעלה"
@@ -162,7 +174,11 @@
             skipping = false;
             gestureArmed = false;
             var d = player.getVideoData ? player.getVideoData() : null;
-            setNow(d && d.title ? d.title : current.name);
+            var name = d && d.title ? d.title : current.name;
+            var muted = false;
+            try { muted = player.isMuted && player.isMuted() && !interacted; } catch (e2) {}
+            if (muted) setNow('🔇 ' + name + ' — לחיצה בכל מקום בדף תדליק את הקול', 'hint');
+            else setNow(name);
           }
         },
         onError: function (e) {
@@ -252,17 +268,11 @@
     build();
   };
   if (location.protocol === 'file:') {
-    // YouTube לא מנגן בדף שנפתח כקובץ (נבדק). במקום נגן שבור — כפתור שפותח את הפלייליסט ב-YouTube עצמו.
+    // YouTube לא מנגן בדף שנפתח כקובץ (נבדק). לא פותחים חלון YouTube — רק מסבירים איך לפתוח נכון.
     fatal = true;
-    root.querySelector('.stage').innerHTML =
-      '<button type="button" class="yt-open" id="pl-yt">▶ נגן ב-YouTube</button>';
-    setNow('האתר נפתח כקובץ — הנגן בתוך הדף לא זמין. הכפתור מנגן את הפלייליסט בחלון YouTube.', 'hint');
-    $('pl-yt').addEventListener('click', function () {
-      window.open('https://www.youtube.com/watch?list=' + encodeURIComponent(current.youtube_id), 'yt-player');
-    });
-    $('pl-resume').addEventListener('click', function () {
-      window.open('https://www.youtube.com/watch?list=' + encodeURIComponent(current.youtube_id), 'yt-player');
-    });
+    root.querySelector('.stage').innerHTML = '';
+    setNow('האתר נפתח כקובץ, ולכן אין מוזיקה. לפתיחה עם נגן: קיצור הדרך "חדר מצב", ' +
+           'או האתר באינטרנט: ashbaruh.github.io/news-site', 'hint');
     return;
   }
 
