@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T13:31:06+00:00",
-  "fetched_at": "2026-09-17T13:31:06+00:00"
+  "checked_at": "2026-09-17T16:50:25+00:00",
+  "fetched_at": "2026-09-17T16:50:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T13:31:15+00:00",
-  "fetched_at": "2026-09-17T13:31:15+00:00"
+  "checked_at": "2026-09-17T16:50:38+00:00",
+  "fetched_at": "2026-09-17T16:50:38+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Thought CD was dead? Our audio experts pick out the best CD players and some of our favourite test discs that you can own for ever",
+    "title_he": "חשבתם שהתקליטור מת? מומחי האודיו שלנו בוחרים את נגני התקליטורים הטובים ביותר וכמה מתקליטורי הבדיקה האהובים עלינו שתוכל להחזיק לנצח",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/cd-players/thought-cd-was-dead-our-audio-experts-pick-out-the-best-cd-players-and-some-of-our-favourite-test-discs-that-you-can-own-for-ever",
+    "date": "2026-09-17T15:13:40+00:00"
+   },
    {
     "title_en": "I needed a quick, cheap Bluetooth earbuds replacement – and this Award-winning £28 pair was a lifesaver",
     "title_he": "הייתי זקוק להחלפה מהירה וזולה של אוזניות בלוטות' - והזוג עטור הפרסים הזה של 28 פאונד היה מציל חיים",
@@ -69,37 +76,45 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/phono-preamps/clearaudios-new-phono-stage-is-designed-to-tuck-discreetly-alongside-any-turntable",
     "date": "2026-09-17T11:09:17+00:00"
-   },
-   {
-    "title_en": "Hisense brings the boom with its robust, party-ready line of portable Bluetooth speakers",
-    "title_he": "Hisense מביאה את הבום עם הקו החזק והמוכן למסיבה של רמקולי Bluetooth ניידים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/hisense-brings-the-boom-with-its-robust-party-ready-line-of-portable-bluetooth-speakers",
-    "date": "2026-09-17T09:38:53+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T13:31:18+00:00",
-  "fetched_at": "2026-09-17T13:31:18+00:00"
+  "checked_at": "2026-09-17T16:50:40+00:00",
+  "fetched_at": "2026-09-17T16:50:40+00:00"
  },
- "generated_at": "2026-09-17T13:31:18+00:00",
+ "generated_at": "2026-09-17T16:50:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רגע התפנית, והיחסים עם טראמפ: מה מלמדת החלטת הריבית על קווין וורש?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556755",
-     "date": "2026-09-17T12:47:00+00:00"
+     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%, טאואר ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T16:35:00+00:00"
     },
     {
-     "title": "שרשרת הבקשות הגיעה עד איראן: לחץ אדיר לרסן את החות'ים",
+     "title": "קמ\"ן אוגדת עזה ב-7 באוקטובר הודח סופית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
-     "date": "2026-09-17T12:26:00+00:00"
+     "date": "2026-09-17T16:34:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "בכירים בריטים הזהירו: הסנקציות על ישראל עלולות לסייע לנתניהו בבחירות",
+     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T15:26:00+00:00"
+    },
+    {
+     "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
+     "date": "2026-09-17T14:39:00+00:00"
+    },
+    {
+     "title": "נעילה חיובית בתל אביב; מניית הבורסה זינקה ב-15%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
+     "date": "2026-09-17T14:33:00+00:00"
+    },
+    {
+     "title": "בכירי המודיעין בבריטניה הזהירו, אך הממשלה התקדמה עם הסנקציות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556792",
      "date": "2026-09-17T13:14:00+00:00"
     },
@@ -109,19 +124,9 @@ window.DB.generated = {
      "date": "2026-09-17T13:10:00+00:00"
     },
     {
-     "title": "מגמה חיובית בתל אביב; מניית הבורסה מזנקת בקרוב ל-15%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
-     "date": "2026-09-17T13:01:00+00:00"
-    },
-    {
      "title": "ב־81.4 מיליון שקל: מ. אביב רוכשת את תרחיש ונכנסת לשותפות עם קן התור",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556789",
      "date": "2026-09-17T13:01:00+00:00"
-    },
-    {
-     "title": "החוזים בוול סטריט ואירופה בירוק; טאואר עולה בטרום ברקע פריצת דרך בתשתיות AI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T13:00:00+00:00"
     },
     {
      "title": "רגע התפנית, והיחסים עם טראמפ: מה מלמדת החלטת הריבית על קווין וורש?",
@@ -206,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T13:31:06+00:00",
-  "fetched_at": "2026-09-17T13:31:06+00:00"
+  "checked_at": "2026-09-17T16:50:27+00:00",
+  "fetched_at": "2026-09-17T16:50:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1851,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T13:31:07+00:00",
-  "fetched_at": "2026-09-17T13:31:07+00:00"
+  "checked_at": "2026-09-17T16:50:28+00:00",
+  "fetched_at": "2026-09-17T16:50:28+00:00"
  },
  "tv": {
   "data": [
@@ -2467,8 +2472,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T13:31:08+00:00",
-  "fetched_at": "2026-09-17T13:31:08+00:00"
+  "checked_at": "2026-09-17T16:50:29+00:00",
+  "fetched_at": "2026-09-17T16:50:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2637,8 +2642,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T13:31:08+00:00",
-  "fetched_at": "2026-09-17T13:31:08+00:00"
+  "checked_at": "2026-09-17T16:50:29+00:00",
+  "fetched_at": "2026-09-17T16:50:29+00:00"
  },
  "ai": {
   "data": {
@@ -2660,36 +2665,29 @@ window.DB.generated = {
      "title": "ב-OpenAI מאשרים לגיקטיים: הפרסומות הגיעו ל-ChatGPT בישראל"
     }
    ],
-   "candidates": 16,
+   "candidates": 14,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 371,
+     "likes": 374,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 93,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "HF Viewer · Model Architecture Explorer",
-     "desc_en": "Interactive architecture graph for any HF model",
-     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 73,
-     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "AuK",
@@ -2702,46 +2700,71 @@ window.DB.generated = {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 121,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
+    },
+    {
+     "title": "HF Viewer · Model Architecture Explorer",
+     "desc_en": "Interactive architecture graph for any HF model",
+     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
+     "likes": 75,
+     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 74,
+     "likes": 75,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 56,
+     "likes": 58,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "A Hitchhiker's Guide to the 3D Ecosystem",
-     "desc_en": "An interactive guide to 3D representations.",
-     "desc_he": "מדריך אינטראקטיבי לייצוגים תלת - ממדיים.",
-     "likes": 60,
-     "link": "https://huggingface.co/spaces/suvadityamuk/3d-representations-guide"
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 59,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Wan2.2 14B Fast",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3528,
+     "likes": 3531,
      "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T13:31:14+00:00",
-  "fetched_at": "2026-09-17T13:31:14+00:00"
+  "checked_at": "2026-09-17T16:50:37+00:00",
+  "fetched_at": "2026-09-17T16:50:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רביבו צפוי להמשיך בהרכב אלצ'ה, ברצלונה תמשיך לכתוש בסביליה?",
+     "link": "https://sports.walla.co.il/item/3868621",
+     "date": "2026-09-17T18:39:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "התקיימה פגישה בין שמעון מזרחי וריצ'ארד דיץ",
+     "link": "https://www.one.co.il/Article/533707.html?ref=rss",
+     "date": "2026-09-17T13:32:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "שועה, שטייפמן ואבו פרחי בפנים, סבע וטוריאל בחוץ",
      "link": "https://sports.walla.co.il/item/3868487",
@@ -2768,15 +2791,6 @@ window.DB.generated = {
      "players": [
       "אוסקר גלוך",
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "דסה, גאנדלמן ומי הכי חסר לכם בסגל? הצביעו",
-     "link": "https://www.one.co.il/Article/533677.html?ref=rss",
-     "date": "2026-09-17T07:19:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עומרי גאנדלמן"
      ]
     },
     {
@@ -2831,15 +2845,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "גלוך זכה לשבחים מכוכב אייאקס: \"ההבנה בינינו מושלמת\"",
-     "link": "https://sports.walla.co.il/item/3868172",
-     "date": "2026-09-16T11:04:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -3087,7 +3092,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T13:31:11+00:00",
-  "fetched_at": "2026-09-17T13:31:11+00:00"
+  "checked_at": "2026-09-17T16:50:33+00:00",
+  "fetched_at": "2026-09-17T16:50:33+00:00"
  }
 };
