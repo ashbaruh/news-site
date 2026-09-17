@@ -412,3 +412,9 @@ footer.site a { margin-inline-end: 12px; }
 
 /* דף ההגדרות — כפתורי עריכה */
 .edit-link { font-size: 12.5px; font-weight: 400; border: 1px solid var(--line); border-radius: 12px; padding: 1px 9px; margin-inline-start: 8px; text-decoration: none; white-space: nowrap; }
+
+/* טלפון: טבלאות המקורות גוללות לרוחב בתוך הכרטיס, במקום לחרוג מהמסך */
+@media (max-width: 700px) {
+  table.src { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .arena-tabs { flex-wrap: wrap; }
+}
