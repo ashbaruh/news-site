@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T18:17:02+00:00",
-  "fetched_at": "2026-09-17T18:17:02+00:00"
+  "checked_at": "2026-09-17T21:30:20+00:00",
+  "fetched_at": "2026-09-17T21:30:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T18:17:20+00:00",
-  "fetched_at": "2026-09-17T18:17:20+00:00"
+  "checked_at": "2026-09-17T21:30:38+00:00",
+  "fetched_at": "2026-09-17T21:30:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T18:17:20+00:00",
-  "fetched_at": "2026-09-17T18:17:20+00:00"
+  "checked_at": "2026-09-17T21:30:38+00:00",
+  "fetched_at": "2026-09-17T21:30:38+00:00"
  },
- "generated_at": "2026-09-17T18:17:20+00:00",
+ "generated_at": "2026-09-17T21:30:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-17T18:00:00+00:00"
     },
     {
-     "title": "משרד החוץ האמריקאי: נאשר מכירת מטוסי F-35 לסעודיה",
+     "title": "העסקה שתשנה את המזרח התיכון: מטוסי החמקן בדרך לסעודיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
-     "date": "2026-09-17T18:11:00+00:00"
+     "date": "2026-09-17T20:09:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T18:17:03+00:00",
-  "fetched_at": "2026-09-17T18:17:03+00:00"
+  "checked_at": "2026-09-17T21:30:22+00:00",
+  "fetched_at": "2026-09-17T21:30:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,151 +1861,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T18:17:04+00:00",
-  "fetched_at": "2026-09-17T18:17:04+00:00"
+  "checked_at": "2026-09-17T21:30:23+00:00",
+  "fetched_at": "2026-09-17T21:30:23+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-17",
-    "time": "01:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "ליגה דפורטיבו דה קיטו - פלמייראס"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "01:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "אתלטיקו מיניירו - סאנטוס"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "03:30",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "קורינתיאנס - אסטודיאנטס לה פלטה"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "13:00",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "מצ'ידה זלביה - סוואי ריאנג"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "18:00",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "בני הרצליה - מכבי ראשון לציון"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "בני יהודה - מכבי הרצליה"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - עירוני מודיעין"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "אתר ספורט 5",
-    "sport": "כדורגל",
-    "title": "מ.ס. כפר קאסם - הפועל כפר סבא"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל עפולה - הפועל כפר שלם"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי יפו - מכבי בני ריינה"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "מ.ס אשדוד - הפועל ראשון לציון"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי אחי נצרת - הפועל עכו"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל רעננה - מכבי קריית גת"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "19:45",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "אופי כרתים - הופנהיים"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "20:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "בטיס - חטאפה"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "20:55",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "מכבי תל אביב - הפועל תל אביב"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "21:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "מנצ'סטר סיטי - נוריץ'"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "22:00",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "יובנטוס - ניימיכן"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "22:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "קריסטל פאלאס - לך פוזנן"
-   },
-   {
-    "date": "2026-09-17",
-    "time": "22:30",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "מלאגה - ויאריאל"
-   },
    {
     "date": "2026-09-18",
     "time": "03:30",
@@ -2065,16 +1925,16 @@ window.DB.generated = {
    {
     "date": "2026-09-18",
     "time": "21:00",
-    "channel": "ספורט 5 מקס",
+    "channel": "ספורט 3",
     "sport": "כדורגל",
-    "title": "ריימס - מונפלייה"
+    "title": "מנצ'סטר סיטי נשים - ליברפול נשים"
    },
    {
     "date": "2026-09-18",
     "time": "21:00",
-    "channel": "ספורט 3",
+    "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
-    "title": "מנצ'סטר סיטי נשים - ליברפול נשים"
+    "title": "ריימס - מונפלייה"
    },
    {
     "date": "2026-09-18",
@@ -2428,6 +2288,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-20",
+    "time": "14:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "סלטיק - ריינג'רס"
+   },
+   {
+    "date": "2026-09-20",
     "time": "15:00",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -2474,12 +2341,88 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "מנצ'סטר סיטי - סנדרלנד"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "אוקזר - ברסט"
+   },
+   {
+    "date": "2026-09-20",
+    "time": "16:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "ורונה - ויצ'נזה וירטוס"
+   },
+   {
+    "date": "2026-09-23",
+    "time": "20:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "פרותיאס וולאס - אליצור רמלה"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - ריאל מדריד"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "20:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - באיירן מינכן"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "הכוכב האדום בלגרד - ז'לגיריס קובנה"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:15",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "פנאתינאיקוס - פאריס באסקטבול"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:30",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "ברצלונה - אנאדולו אפס"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:30",
+    "channel": "5 גולד",
+    "sport": "כדורסל",
+    "title": "באסקוניה - אולימפיאקוס"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "ליון-וילרבאן - מכבי תל אביב"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "אוסטריה - ישראל"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-17T18:17:10+00:00",
-  "fetched_at": "2026-09-17T16:50:29+00:00"
+  "ok": true,
+  "checked_at": "2026-09-17T21:30:25+00:00",
+  "fetched_at": "2026-09-17T21:30:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2648,8 +2591,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T18:17:10+00:00",
-  "fetched_at": "2026-09-17T18:17:10+00:00"
+  "checked_at": "2026-09-17T21:30:25+00:00",
+  "fetched_at": "2026-09-17T21:30:25+00:00"
  },
  "ai": {
   "data": {
@@ -2664,23 +2607,23 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-     "date": "2026-09-15T17:05:57+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/astra-for-law",
+     "date": "2026-09-17T00:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-     "title_he": "הכירו את Gemini 3.8 Live ו -3.8 Live Extended Thinking",
-     "translated_by": "mymemory"
+     "title_en": "Introducing Astra for Law",
+     "title_he": "היכרות עם אסטרה למשפטים",
+     "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 374,
+     "likes": 375,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2694,36 +2637,29 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 102,
+     "likes": 104,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 124,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 85,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
      "title": "HF Viewer · Model Architecture Explorer",
      "desc_en": "Interactive architecture graph for any HF model",
      "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 76,
+     "likes": 78,
      "link": "https://huggingface.co/spaces/embedl/hfviewer"
-    },
-    {
-     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
-     "desc_en": "Depth, surface normals, and albedo from a single image",
-     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 75,
-     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2733,33 +2669,58 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "Wan2.2 14B Fast",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3532,
-     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 75,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 59,
+     "likes": 62,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
+     "title": "Wan2.2 14B Fast",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 3533,
+     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T18:17:19+00:00",
-  "fetched_at": "2026-09-17T18:17:19+00:00"
+  "checked_at": "2026-09-17T21:30:36+00:00",
+  "fetched_at": "2026-09-17T21:30:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "ענאן חלאילי בהרכב: קריסטל פאלאס פותחת עונה אירופית",
+     "title": "קריסטל פאלאס מחצה את לך פוזנן, 61 דקות לענאן חלאילי",
      "link": "https://sports.walla.co.il/item/3868307",
-     "date": "2026-09-17T20:41:00+00:00",
+     "date": "2026-09-17T23:50:00+00:00",
      "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "גם אבדיה היה בהלם: זו התגובה שלו לסל של מדר",
+     "link": "https://www.one.co.il/Article/533729.html?ref=rss",
+     "date": "2026-09-17T19:24:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "62 דקות לחלאילי, פאלאס ניצחה 0:4 את לך פוזנן",
+     "link": "https://www.one.co.il/Article/533667.html?ref=rss",
+     "date": "2026-09-17T19:00:00+00:00",
+     "source": "ONE",
      "players": [
       "ענאן חלאילי"
      ]
@@ -2771,6 +2732,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "אחרי הפגישה עם מזרחי, ריצ'ארד דיץ הגיע להיכל",
+     "link": "https://www.one.co.il/Article/533707.html?ref=rss",
+     "date": "2026-09-17T13:32:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
      ]
     },
     {
@@ -2787,6 +2757,25 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868473",
      "date": "2026-09-17T10:00:00+00:00",
      "source": "וואלה",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "גלוך, חלאילי, שועה, דסה ושטייפמן בסגל הנבחרת",
+     "link": "https://www.one.co.il/Article/533664.html?ref=rss",
+     "date": "2026-09-17T08:03:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "\"לא הסתדר עם גאנדלמן, תמיד נשאף להכי טוב\"",
+     "link": "https://www.one.co.il/Article/533665.html?ref=rss",
+     "date": "2026-09-17T07:00:00+00:00",
+     "source": "ONE",
      "players": [
       "עומרי גאנדלמן"
      ]
@@ -2840,52 +2829,6 @@ window.DB.generated = {
      "title": "העסקה הזאת \"מסבכת את האפשרות להשאיר את דני אבדיה\"",
      "link": "https://sports.walla.co.il/item/3867431",
      "date": "2026-09-13T11:29:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דני אבדיה ייקח צעד לאחור? התחזיות בארה\"ב לגבי פורטלנד",
-     "link": "https://sports.walla.co.il/item/3867256",
-     "date": "2026-09-12T07:36:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ואיפה דני אבדיה? דירוג הסמול פורוורדים הטובים ב-NBA",
-     "link": "https://sports.walla.co.il/item/3867246",
-     "date": "2026-09-11T20:36:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "האלמנטים שבן שרף ודני וולף חייבים לשפר לקראת העונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3867231",
-     "date": "2026-09-11T16:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "בן שרף",
-      "דני וולף"
-     ]
-    },
-    {
-     "title": "\"לא יהיה מפתיע אם דני אבדיה לא יקבל הארכת חוזה בפורטלנד\"",
-     "link": "https://sports.walla.co.il/item/3867131",
-     "date": "2026-09-11T07:09:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"יעד חלומי וריאלי\": האימפריה שהוזכרה בהקשרו של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3867113",
-     "date": "2026-09-10T21:09:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3100,7 +3043,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T18:17:14+00:00",
-  "fetched_at": "2026-09-17T18:17:14+00:00"
+  "checked_at": "2026-09-17T21:30:28+00:00",
+  "fetched_at": "2026-09-17T21:30:28+00:00"
  }
 };
