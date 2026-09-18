@@ -1,0 +1,394 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aea0cca77b83",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 6,
+   "assessment": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-18T11:15:09+00:00",
+  "window": {
+   "from": "2026-09-17T11:15:09+00:00",
+   "to": "2026-09-18T11:15:09+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609181115"
+  },
+  "summary": "העימות בין איראן וארה\"ב נמשך בשטח, בים ובים סוף, תוך כדי דיווחים על תקיפות מנוגדות, לחץ כלכלי בדמות סנקציות אמריקאיות, ופעילות צבאית של שלוחות איראן באזור. במקביל, מתקיימים מגעים דיפלומטיים חשאיים וגלויים באו\"ם ובעומאן, לצד עבודות שיקום באתרי גרעין באיראן והחרפת מצבה הכלכלי-אנרגטי.",
+  "fronts": [
+   {
+    "name": "הזירה הימית (הורמוז ומפרץ)",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית הדיפלומטית (או\"ם)",
+    "status": "פעיל"
+   },
+   {
+    "name": "חזית הגרעין האיראני",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09181115-01",
+    "title": "פגישת גורמי ארה\"ב וחברי חות'ים בעומאן",
+    "summary": "גורמים אמריקניים נפגשו עם נציגי החות'ים בעומאן",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T18:47:26+00:00",
+    "last_update_at": "2026-09-17T18:47:26+00:00",
+    "what_is_not_verified": "פרטי הפגישה המלאים והתוצאות אינם מאומתים במלואם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/trump-declines-to-back-saudi-arabia-as-us-officials-reportedly-meet-iran-backed-houthis-in-oman",
+      "published_at": "2026-09-17T18:47:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09181115-02",
+    "title": "הטלת סנקציות אמריקאיות על חברות תעופה איראניות",
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על עשרות חברות תעופה איראניות וקושרה אליהן",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T16:14:43+00:00",
+    "last_update_at": "2026-09-17T16:14:43+00:00",
+    "what_is_not_verified": "ההשפעה המלאה של הסנקציות אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130404",
+      "published_at": "2026-09-17T16:14:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09181115-03",
+    "title": "ממצאי האו\"ם לגבי תקיפות באיראן",
+    "summary": "משלחת בדיקת עובדות של האו\"ם קבעה כי ישנם יסודות סבירים לכך שארה\"ב ביצעה פשעי מלחמה בתקיפות באיראן בפברואר",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T12:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T12:00:00+00:00",
+    "last_update_at": "2026-09-18T10:43:18+00:00",
+    "what_is_not_verified": "טענות האו\"ם אינן מאומתות רשמית על ידי ארה\"ב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_7f1ca498256eda7e",
+      "url": "https://www.aljazeera.com/news/2026/9/18/united-nations-says-us-may-have-committed-war-crimes-in-iran-what-it-means?traffic_source=rss",
+      "published_at": "2026-09-18T10:43:18+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_7f1ca498256eda7e",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-17T20:34:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_7f1ca498256eda7e",
+      "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
+      "published_at": "2026-09-17T13:22:35+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_9ff9aeb37e80c7d6",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
+      "published_at": "2026-09-17T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מינאב, איראן",
+      "lat": 27.1506,
+      "lon": 57.0753
+     },
+     {
+      "name": "לאמזרד, איראן",
+      "lat": 27.3334,
+      "lon": 53.1816
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09181115-04",
+    "title": "שיקום מתקן הגרעין טלקאן 2 בפרצ'ין",
+    "summary": "תצלומי לווין חשפו כי איראן מאיצה את הבנייה והשיקום במתקן טלקאן 2 בפרצ'ין",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-18T06:22:29+00:00",
+    "last_update_at": "2026-09-18T06:22:29+00:00",
+    "what_is_not_verified": "הפעילות המדויקת המתקיימת כיום בתוך המתקן אינה מאומתת לחלוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130419",
+      "published_at": "2026-09-18T06:22:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פרצ'ין, איראן",
+      "lat": 35.5121,
+      "lon": 51.7774
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09181115-05",
+    "title": "קריאת מדינות לאי-פגיעה במתקני גרעין",
+    "summary": "15 מדינות קראו לאסוף כל מתקפה או איום נגד מתקני גרעין שלווים",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T10:39:59+00:00",
+    "last_update_at": "2026-09-18T10:39:59+00:00",
+    "what_is_not_verified": "היענות הצדדים להצהרה אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_0d76985dbe713c57",
+      "url": "https://en.irna.ir/news/86267234/Fifteen-countries-call-for-prohibition-of-any-attack-or-threat",
+      "published_at": "2026-09-18T10:39:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09181115-06",
+    "title": "אי-פריסת כוחות של דרום קוריאה למזרח התיכון",
+    "summary": "נשיא דרום קוריאה הבהיר כי ארצו לא תציב כוחות צבא במזרח התיכון למען עימות עם איראן",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T02:46:30+00:00",
+    "last_update_at": "2026-09-18T05:54:29+00:00",
+    "what_is_not_verified": "החלטה סופית לגבי אבטחת ניווט אינה מאומתת לחלוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_c8c836d383f56866",
+      "url": "https://www.theguardian.com/world/2026/sep/18/south-korea-will-not-send-military-to-support-us-war-on-iran-defying-trump-pressure",
+      "published_at": "2026-09-18T05:54:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_5dd3bdffd29176ac",
+      "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-rules-out-military-involvement-middle-east-conflict",
+      "published_at": "2026-09-18T04:46:33+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_1ed00c499a320ae4",
+      "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict",
+      "published_at": "2026-09-18T02:46:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09181115-07",
+    "title": "אישור ויזות לבכירי איראן לעצרת האו\"ם",
+    "summary": "ארה\"ב אישרה ויזות לכניסת בכירי משטר איראנים לעצרת האו\"ם בניו יורק",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T00:06:26+00:00",
+    "last_update_at": "2026-09-18T00:06:26+00:00",
+    "what_is_not_verified": "רשימת הנוכחים המלאה אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hysrtryymx",
+      "published_at": "2026-09-18T00:06:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09181115-08",
+    "title": "טענה על תקיפת מיכלית במצרי הורמוז",
+    "summary": "משמרות המהפכה טענו שתקפו מיכלית הנושאת דגל טוגו במצרי הורמוז",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T21:35:09+00:00",
+    "last_update_at": "2026-09-17T21:35:09+00:00",
+    "what_is_not_verified": "נכונות הטענה בדבר התקיפה אינה מאומתת ממקור בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47793",
+      "published_at": "2026-09-17T21:35:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצרי הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות האו\"ם על פשעי מלחמה מצד ארה\"ב באיראן",
+   "טענת משמרות המהפכה על תקיפת מיכלית דגל טוגו במצרי הורמוז",
+   "היקף הנזק המדויק בתשתיות הגז של איראן",
+   "פרטי הפגישה החשאית בין ארה\"ב לחות'ים בעומאן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0333,
+    "unit": "ILS",
+    "change_pct": 0.07,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על מתקני גרעין והתנגדות לתקיפות עליהם"
+    ],
+    "inferred": [
+     "שיקום תשתיות גרעין וגז נפגעות",
+     "הפעלת לחץ ימי דרך שלוחות ופגיעה בנתיבי שיט"
+    ],
+    "forecast": [
+     "המשך מאמצי שיקום מתקנים והגברת הלחץ האזורי לקראת חודשי החורף"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "בלימת שאיפות גרעיניות וצמצום ההשפעה האיראנית באזור"
+    ],
+    "inferred": [
+     "הפעלת סנקציות כלכליות נרחבות על תעופה וגורמים איראניים",
+     "בחינת אפשרויות לתקיפות נוספות או הרחבת העימות"
+    ],
+    "forecast": [
+     "המשך התמודדות עם ביקורת בינלאומית בכינוסי האו\"ם בנוגע למדיניותה במזרח התיכון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/18/united-nations-says-us-may-have-committed-war-crimes-in-iran-what-it-means?traffic_source=rss",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/trump-declines-to-back-saudi-arabia-as-us-officials-reportedly-meet-iran-backed-houthis-in-oman",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/18/south-korea-will-not-send-military-to-support-us-war-on-iran-defying-trump-pressure",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86267234/Fifteen-countries-call-for-prohibition-of-any-attack-or-threat",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130419",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47793",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hysrtryymx",
+    "accessed_at": "2026-09-18T11:15:09+00:00"
+   }
+  ]
+ }
+}
