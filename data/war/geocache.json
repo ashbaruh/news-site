@@ -3,6 +3,10 @@
 33.1737,
 35.2111
 ],
+"al-sanamayn, syria": [
+33.0732,
+36.1834
+],
 "ankara, turkey": [
 39.9208,
 32.854
@@ -13,13 +17,33 @@
 39.9057,
 116.3913
 ],
+"chisinau, moldova": [
+47.0245,
+28.8323
+],
 "damascus, syria": [
 33.5131,
 36.3096
 ],
+"deir mimas, lebanon": [
+33.3021,
+35.5467
+],
+"donetsk, ukraine": [
+48.0159,
+37.8013
+],
 "hadera, israel": [
 32.4407,
 34.9401
+],
+"kfar tibnit, lebanon": [
+33.3519,
+35.5186
+],
+"kharkiv region, ukraine": [
+50.0323,
+36.2188
 ],
 "lamerd, iran": [
 27.3334,
@@ -46,6 +70,10 @@
 13.3179,
 43.2501
 ],
+"moscow, russia": [
+55.7505,
+37.6175
+],
 "muscat, oman": [
 23.6124,
 58.5938
@@ -53,6 +81,10 @@
 "new york, united states": [
 40.7127,
 -74.006
+],
+"novofedorivka, ukraine": [
+45.0943,
+33.5752
 ],
 "oman": null,
 "parchin, iran": [
@@ -71,9 +103,18 @@
 24.6389,
 46.716
 ],
+"rostov region, russia": [
+44.4977,
+42.5301
+],
 "rostov-on-don, russia": [
 47.261,
 39.7249
+],
+"shaqra, lebanon": null,
+"sloviansk, ukraine": [
+48.8523,
+37.6058
 ],
 "strait of hormuz": [
 26.4494,
@@ -82,6 +123,10 @@
 "taif, saudi arabia": [
 21.2703,
 40.4158
+],
+"wadi al-raqqad, syria": [
+32.8011,
+35.8268
 ],
 "washington, usa": [
 38.8951,

@@ -1,0 +1,270 @@
+{
+ "status": "draft",
+ "received_sha256_12": "96256e08444e",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "verified": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-18T12:12:43+00:00",
+  "window": {
+   "from": "2026-09-17T12:12:43+00:00",
+   "to": "2026-09-18T12:12:43+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609181212"
+  },
+  "summary": "הגזרה הצפונית כוללת מתח צבאי מתמשך בין ישראל לבין לבנון וחיזבאללה, הכולל תקיפות ארטילריות, חיכוך ישיר מול צבא לבנון באזור דיר מימאס, וכן פעילות צבאית מתמשכת בדרום סוריה. במקביל, מתקיימים דיפלומטיה ומגעים בינלאומיים בנוגע לעתיד הביטחוני בדרום לבנון ומניעת וואקום ביטחוני לקראת פרישת כוחות.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם חיכוך צבאי ותקיפות הדדיות"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילה עם כניסות כוחות ופעולות ביטחון פנים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09181212-01",
+    "title": "כניסת כלי רכב צבאיים לסוריה",
+    "summary": "כוחות צבא ישראל נכנסו עם תשעה כלי רכב צבאיים לאזור דרום סוריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T11:26:22+00:00",
+    "last_update_at": "2026-09-18T11:59:13+00:00",
+    "what_is_not_verified": "לא מאומת מלוא היקף הפעילות או מטרת ההתקדמות המדויקת מעבר לדיווחי המדיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_syrian_reports",
+      "url": "https://english.almanar.com.lb/article/128512/",
+      "published_at": "2026-09-18T11:59:13+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_syrian_reports",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-incursion-into-southern-syria-with-9-military-vehicles/4061098",
+      "published_at": "2026-09-18T11:26:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ואדי אל-רקד, סוריה",
+      "lat": 32.8011,
+      "lon": 35.8268
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09181212-02",
+    "title": "התקדמות כוחות ישראל באזור דיר מימאס ונסיגת צבא לבנון",
+    "summary": "כוחות צבא ישראל התקדמו באזור דיר מימאס בדרום לבנון, דבר שהוביל לנסיגת צבא לבנון ממוצב חדש שהוקם בפתחו ולחיכוך בשטח שכלל זריקת רימוני הלם.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-18T05:59:50+00:00",
+    "last_update_at": "2026-09-18T10:17:46+00:00",
+    "what_is_not_verified": "פרטי האולטימטום הנטען וטענות על הקו הצהוב אינם מאומתים מגורם רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3374d7c6b3563f7e",
+      "url": "https://english.almanar.com.lb/article/128457/",
+      "published_at": "2026-09-18T10:17:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_3374d7c6b3563f7e",
+      "url": "https://t.me/abualiexpress/130438",
+      "published_at": "2026-09-18T09:59:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_3374d7c6b3563f7e",
+      "url": "https://t.me/abualiexpress/130436",
+      "published_at": "2026-09-18T09:41:20+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_03903f1ffde56534",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958443/israeli-patrol-approaches-lebanese-army-position-in-deir-mimas/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958443",
+      "published_at": "2026-09-18T05:59:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09181212-03",
+    "title": "ירי ארטילרי ותקיפות בדרום לבנון",
+    "summary": "כוחות צבא ישראל ביצעו ירי ארטילרי ותקיפות לעבר מרחבים שונים בדרום לבנון, שגרמו לפצועים באזור שקרא.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T23:15:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T23:15:55+00:00",
+    "last_update_at": "2026-09-18T10:07:59+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים מעבר לדיווחים המקומיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_740912d0f1e16aac",
+      "url": "https://english.almanar.com.lb/article/128447/",
+      "published_at": "2026-09-18T10:07:59+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_79019ff703144d2c",
+      "url": "https://english.almanar.com.lb/article/128437/",
+      "published_at": "2026-09-18T10:06:58+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_740912d0f1e16aac",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-fresh-attacks-in-southern-lebanon-despite-framework-deal/4060882",
+      "published_at": "2026-09-18T08:20:16+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_740912d0f1e16aac",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-continues-attacks-on-southern-lebanon-as-aoun-says-assaults-obstruct-framework-formula-/4060665",
+      "published_at": "2026-09-17T23:15:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר טיבניית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09181212-04",
+    "title": "עימותים מזוינים באל-סאנאמן בדרום סוריה",
+    "summary": "עימותים פרצו בין כוחות הביטחון הפנים בסוריה לבין חברי חמושים במסגרת מבצע מעצר בדרום סוריה, מה שהוביל להרוגים ועוצר זמני.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T10:41:57+00:00",
+    "last_update_at": "2026-09-17T12:12:43+00:00",
+    "what_is_not_verified": "זהות כלל המעורבים המדויקת והקשר המלא של הקבוצות החמושות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_8e70d253567054c5",
+      "url": "https://english.enabbaladi.net/archives/2026/09/al-sanamayn-clashes-kill-three-internal-security-members/",
+      "published_at": "2026-09-17T10:41:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-סאנאמן, סוריה",
+      "lat": 33.0732,
+      "lon": 36.1834
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על אולטימטום שהציב צה\"ל לצבא לבנון בדיר מימאס",
+   "מספר הנפגעים המדויק בכלל האירועים בדרום לבנון ובסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0333,
+    "unit": "ILS",
+    "change_pct": 0.07,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על מוכשרות מבצעית והגנה בגבול הצפון"
+    ],
+    "inferred": [
+     "מניעת התבססות עוינת והרחקת איומים בגבולות לבנון וסוריה"
+    ],
+    "forecast": [
+     "המשך פעילות נקודתית ואכיפת אזורי חיץ בגבולות הצפון"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "שאיפה ליישוב הסכמות מסגרת מדיניות והשגת גיבוי בינלאומי לצבא לבנון"
+    ],
+    "inferred": [
+     "ניסיון למנוע עימות רחב תוך שמירה מוגבלת על נוכחות צבאית בדרום"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים בבמות הבינלאומיות למניעת הסлаמה נוספת"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/128437/",
+    "accessed_at": "2026-09-18T12:12:43+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-continues-attacks-on-southern-lebanon-as-aoun-says-assaults-obstruct-framework-formula-/4060665",
+    "accessed_at": "2026-09-18T12:12:43+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/al-sanamayn-clashes-kill-three-internal-security-members/",
+    "accessed_at": "2026-09-18T12:12:43+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/958443/israeli-patrol-approaches-lebanese-army-position-in-deir-mimas/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958443",
+    "accessed_at": "2026-09-18T12:12:43+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130436",
+    "accessed_at": "2026-09-18T12:12:43+00:00"
+   }
+  ]
+ }
+}

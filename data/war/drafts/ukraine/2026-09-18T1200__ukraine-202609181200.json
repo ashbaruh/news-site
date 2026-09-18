@@ -1,0 +1,504 @@
+{
+ "status": "draft",
+ "received_sha256_12": "160590eca128",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "initial": 6,
+   "verified": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-18T12:00:57+00:00",
+  "window": {
+   "from": "2026-09-17T12:00:57+00:00",
+   "to": "2026-09-18T12:00:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609181200"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת כאשר כוחות רוסיים תוקפים תשתיות ואזרחים בחזיתות שונות, לרבות אזור חרקוב ודונייצק, בעוד אוקראינה משיבה בתקיפות עומק באמצעות כטב\"מים על יעדים ברוסיה ובחצי האי קרים. במקביל, רוסיה מקיימת את הבחירות לפרלמנט תוך הידוק שליטה פנימית והחרמת נכסים מערביים, ואוקראינה מהדקת שיתופי פעולה אזוריים ואירופיים.",
+  "fronts": [
+   {
+    "name": "החזית המזרחית (דונייצק)",
+    "status": "פעיל - תקיפות נורות על עיירות כמו סלאביאנסק"
+   },
+   {
+    "name": "החזית הצפון-מזרחית (חרקוב)",
+    "status": "פעיל - תקיפות על תשתיות תחבורה ורכבות"
+   },
+   {
+    "name": "מרחב קרים והים השחור",
+    "status": "פעיל - תקיפות ממוקדמות של כוחות אוקראיניים על נכסים רוסיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09181200-01",
+    "title": "הארכת הסכם שיתוף פעולה בבטיחות גרעינית בין אוקראינה לשבדיה",
+    "summary": "הפיקוח הרגולטורי הגרעיני של אוקראינה ורשות הבטיחות בקרינה של שבדיה האריכו בחמש שנים את הסכם שיתוף הפעולה ביניהם.",
+    "axis": "סיוע ותיאום בין-לאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T11:40:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T11:40:00+00:00",
+    "last_update_at": "2026-09-18T11:40:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_105c0f8e8eb6dd80",
+      "url": "https://www.ukrinform.net/rubric-economy/4165446-ukraine-sweden-extend-cooperation-in-nuclear-safety.html",
+      "published_at": "2026-09-18T11:40:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-02",
+    "title": "נורבגיה הקצתה למעלה מ-100 מיליון דולר לתמיכה בתקציב אוקראינה",
+    "summary": "נורבגיה העבירה מעל 100 מיליון דולר לתמיכה בתקציב המדינה של אוקראינה.",
+    "axis": "סיוע כלכלי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T11:34:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T11:34:00+00:00",
+    "last_update_at": "2026-09-18T11:34:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_c0cd6c2af886e946",
+      "url": "https://www.ukrinform.net/rubric-economy/4165458-norway-allocates-over-100m-to-ukraine-for-budget-support-zelensky.html",
+      "published_at": "2026-09-18T11:34:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-03",
+    "title": "הונגריה חוסמת מחדש את סגירת אשכולות הצטרפות אוקראינה לאיחוד האירופי",
+    "summary": "הונגריה החלה שוב לחסם את תהליך ההצטרפות של אוקראינה לאיחוד האירופי בדרישה ליישם את זכויות המיעוט ההונגרי.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T11:22:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-18T11:22:13+00:00",
+    "last_update_at": "2026-09-18T11:22:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_7e9fe5261ca7173e",
+      "url": "https://kyivindependent.com/zelensky-downplays-rift-as-hungary-renews-eu-accession-blockade-over-minority-rights/",
+      "published_at": "2026-09-18T11:22:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-04",
+    "title": "כוחות רוסיים תקפו את סלאביאנסק ופצעו אזרחים",
+    "summary": "כוחות רוסיה ביצעו שתי תקיפות באותו רובע בעיר סלאביאנסק, שהביאו לפציעתם של חמישה אזרחים ולנזק למבנים.",
+    "axis": "החזית המזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T10:29:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T10:29:00+00:00",
+    "last_update_at": "2026-09-18T11:19:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_3043b1b0361b6a64",
+      "url": "https://www.ukrinform.net/rubric-ato/4165447-russian-forces-strike-sloviansk-five-civilians-injured.html",
+      "published_at": "2026-09-18T11:19:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_7d462d7c2610f5f9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054062/",
+      "published_at": "2026-09-18T10:29:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלאביאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09181200-05",
+    "title": "תקיפה אוקראינית על תחנת בקרה לכטב\"מים רוסיים בחצי האי קרים",
+    "summary": "כוחות ההגנה של אוקראינה תקפו תחנת בקרה קרקעית לכטב\"מים מסוג אוריון בשדה התעופה סאקי בקרים, ופגעו במטרות נוספות.",
+    "axis": "תקיפות עומק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T10:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T10:00:00+00:00",
+    "last_update_at": "2026-09-18T11:01:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_444226cfb2e9c853",
+      "url": "https://www.ukrinform.net/rubric-ato/4165441-ukrainian-forces-strike-russian-orion-drone-control-station-in-crimea.html",
+      "published_at": "2026-09-18T11:01:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_1b5ed68928bee7e5",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054057/",
+      "published_at": "2026-09-18T10:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובופדוריווקה, אוקראינה",
+      "lat": 45.0943,
+      "lon": 33.5752
+     },
+     {
+      "name": "דונייצק, אוקראינה",
+      "lat": 48.0159,
+      "lon": 37.8013
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09181200-06",
+    "title": "שברי כטב\"ם נמצאו בסמוך לקישינב שבמולדובה",
+    "summary": "משטרת מולדובה איתרה שברי כטב\"ם בכפר קולוניצה הסמוך לקישינב, בעקבות דיווחים על פיצוץ בלילה.",
+    "axis": "גבולות ומרחב אווירי סמוך",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T10:44:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T10:44:00+00:00",
+    "last_update_at": "2026-09-18T10:44:00+00:00",
+    "what_is_not_verified": "משרד ההגנה של מולדובה טען כי לא תועדו הפרות מרחב אווירי באותו לילה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054066/",
+      "published_at": "2026-09-18T10:44:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קישינב, מולדובה",
+      "lat": 47.0245,
+      "lon": 28.8323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09181200-07",
+    "title": "פסגה להשקת יוזמת שיתוף הפעולה האזורי 'הקרפטים השמונה'",
+    "summary": "נשיא אוקראינה הכריז על השקת יוזמת שיתוף הפעולה האזורי 'הקרפטים השמונה' (C8) המפגישה שכנות אירופיות ואת האיחוד האירופי.",
+    "axis": "דיפלומטיה וסיתואציות אזוריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T09:12:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T09:12:12+00:00",
+    "last_update_at": "2026-09-18T10:40:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_0b48ed88c89389df",
+      "url": "https://www.ukrinform.net/rubric-polytics/4165431-zelensky-announces-eur-1b-in-deals-at-carpathian-eight-summit.html",
+      "published_at": "2026-09-18T10:40:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_f19a5345beb90778",
+      "url": "https://www.ukrinform.net/rubric-polytics/4165406-zelensky-announces-launch-of-new-carpathian-eight-initiative.html",
+      "published_at": "2026-09-18T09:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_970f3ab36aad98a3",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054056/",
+      "published_at": "2026-09-18T09:49:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_8491a3d23cf490ad",
+      "url": "https://kyivindependent.com/zelensky-hosts-european-leaders-at-inaugural-carpathian-8-summit/",
+      "published_at": "2026-09-18T09:12:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-08",
+    "title": "איגוד הביאתלון הבין-לאומי סירב לחדש את חברות רוסיה ובלארוס",
+    "summary": "קונגרס איגוד הביאתלון הבין-לאומי החליט שלא לחדש את חברותן של רוסיה ובלארוס בארגון עקב אי-עמידה בתנאים.",
+    "axis": "סנקציות ובידוד בינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T10:03:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T10:03:00+00:00",
+    "last_update_at": "2026-09-18T10:03:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_dd5d3bcd191967d0",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054058/",
+      "published_at": "2026-09-18T10:03:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-09",
+    "title": "תקיפה רוסית על רכבת נוסעים באזור חרקוב",
+    "summary": "כוחות רוסיה תקפו רכבת נוסעים באזור חרקוב, בתקיפה שגרמה להרג אדם אחד ולפציעתם של שמונה בני אדם.",
+    "axis": "החזית הצפון-מזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T09:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T09:55:00+00:00",
+    "last_update_at": "2026-09-18T10:18:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8d2c542a4197f5b7",
+      "url": "https://www.ukrinform.net/rubric-ato/4165423-russian-strike-hits-commuter-train-in-kharkiv-region-killing-one-and-injuring-seven.html",
+      "published_at": "2026-09-18T10:18:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_fd9a33013c20ebba",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054036/",
+      "published_at": "2026-09-18T09:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז חרקוב, אוקראינה",
+      "lat": 50.0323,
+      "lon": 36.2188
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09181200-10",
+    "title": "פתיחת הבחירות לפרלמנט ברוסיה",
+    "summary": "במוסקבה ובאזורים שונים ברוסיה החלו הבחירות לדומה הממלכתית המתקיימות במשך שלושה ימים לראשונה מאז הפלישה לאוקראינה.",
+    "axis": "עורף רוסי ופוליטיקה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T22:33:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-17T22:33:34+00:00",
+    "last_update_at": "2026-09-18T09:28:19+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_215ce3038a888605",
+      "url": "https://kyivindependent.com/inside-russias-2026-parliamentary-election-banned-opposition-rigging-and-war/",
+      "published_at": "2026-09-18T09:28:19+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_fb2c986b82d1b735",
+      "url": "https://kyivindependent.com/russia-begins-3-day-legislative-elections-as-kremlin-seeks-to-project-support-for-war/",
+      "published_at": "2026-09-18T07:47:51+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_294a9248d9fca50b",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21449301",
+      "published_at": "2026-09-18T06:28:14+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_b963aa23db82cee9",
+      "url": "https://meduza.io/en/news/2026/09/18/russia-begins-three-days-of-voting-for-its-450-seat-parliament-with-the-first-polling-stations-opening-in-the-far-eastern-regions-of-kamchatka-and-chukotka",
+      "published_at": "2026-09-17T22:33:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09181200-11",
+    "title": "החרמת נכסי חברות זרות ברוסיה בהוראת פוטין",
+    "summary": "נשיא רוסיה ולדימיר פוטין חתם על צו המעביר את נכסי החברות נסטלה ואושאן ברוסיה תחת ניהול זמני.",
+    "axis": "כלכלה וסנקציות נגדיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-17T18:13:39+00:00",
+    "last_update_at": "2026-09-18T04:53:26+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_3b65c8eeea1ae851",
+      "url": "https://kyivindependent.com/putin-confiscates-nestle-auchan-assets-in-russia/",
+      "published_at": "2026-09-18T04:53:26+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_757d9577986cb668",
+      "url": "https://meduza.io/en/news/2026/09/17/putin-put-russian-assets-of-french-supermarket-chain-auchan-and-swiss-food-giant-nestle-under-temporary-management-neither-company-had-left-russia-after-the-full-scale-invasion",
+      "published_at": "2026-09-17T18:13:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09181200-12",
+    "title": "מתקפת רחפנים אוקראינית נרחבת על מחוז רוסטוב ומרחב מוסקבה",
+    "summary": "עשרות רחפנים אוקראיניים יורטו מעל מחוז רוסטוב וגרמו לנזקים לבתים, ומאות רחפנים שווגו בדרכם למוסקבה.",
+    "axis": "מתקפות עומק בשטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T07:07:52+00:00",
+    "last_update_at": "2026-09-18T07:07:52+00:00",
+    "what_is_not_verified": "טענות ערוצי טלגרם על פגיעה בבסיס אווירי ועל נזק למטוסי תובלה ומסוקים ברוסטוב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_bae56bcbdcc3dbad",
+      "url": "https://meduza.io/en/news/2026/09/18/ukrainian-drones-damage-homes-in-russia-s-rostov-region-moscow-mayor-says-350-drones-were-headed-for-the-capital",
+      "published_at": "2026-09-18T07:07:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז רוסטוב, רוסיה",
+      "lat": 44.4977,
+      "lon": 42.5301
+     },
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על תוכניות רוסיות לגייס עד 300,000 איש בסתיו",
+   "טענות על כוונת רוסיה לבצע תקיפות היברידיות או 'מקריות' במדינות נאט\"ו",
+   "דיווחים על פגיעה במטוסי תובלה ומסוקים בבסיס ברוסטוב"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1481,
+    "unit": "USD",
+    "change_pct": -0.49,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת תמיכה כלכלית ודיפלומטית רחבה מהאיחוד האירופי ומהשכנות",
+     "פגיעה ביכולות הצבאיות של רוסיה באמצעות תקיפות כטב\"מים בעומק השטח"
+    ],
+    "inferred": [
+     "שמירה על רציפות תפקודית של משק האנרגיה והתחבורה חרף התקיפות",
+     "חיזוק הבריתות האזוריות כדי למנוע עייפות ממלחמה באירופה"
+    ],
+    "forecast": [
+     "המשך מאמצי גיוס משאבים פיננסיים ממדינות המערב לקראת חודשי החורף",
+     "הגברת הפעילות הדיפלומטית מול גושים אזוריים דוגמת יוזמת הקרפטים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "ביסוס הלגיטימציה לשלטונו של פוטין באמצעות קיום בחירות לפרלמנט",
+     "המשך פגיעה בתשתיות ובקווי האספקה של אוקראינה"
+    ],
+    "inferred": [
+     "צמצום ההשפעה והנוכחות של חברות מערביות המשיכות לפעול בשטחה באמצעות השתלטות עליהן",
+     "ניסיון לערער את החוסן האזרחי האוקראיני על ידי תקיפת רכבות ותשתיות אזרחיות"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי בחזיתות המזרחיות והצפון-מזרחיות",
+     "הידוק הפיקוח הכלכלי והפנימי בתוך רוסיה על רקע הבחירות והמלחמה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21449301",
+    "accessed_at": "2026-09-18T12:00:57+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/putin-confiscates-nestle-auchan-assets-in-russia/",
+    "accessed_at": "2026-09-18T12:00:57+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/18/ukrainian-drones-damage-homes-in-russia-s-rostov-region-moscow-mayor-says-350-drones-were-headed-for-the-capital",
+    "accessed_at": "2026-09-18T12:00:57+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054036/",
+    "accessed_at": "2026-09-18T12:00:57+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4165423-russian-strike-hits-commuter-train-in-kharkiv-region-killing-one-and-injuring-seven.html",
+    "accessed_at": "2026-09-18T12:00:57+00:00"
+   }
+  ]
+ }
+}
