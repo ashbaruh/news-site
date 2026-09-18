@@ -508,3 +508,26 @@ footer.site a { color: var(--accent); }
 .brief-h { font-weight: 700; color: var(--warn); font-size: 13.5px; margin-bottom: 4px; }
 .brief-box .rows li { padding: 5px 0; }
 .brief-sum { color: var(--text-dim); font-size: 13px; margin-top: 2px; }
+
+/* ============================================================
+   נייד — קריאוּת (בקשה מקורא, 18/09/2026: "קשה לקרוא בגלל גודל הפונטים")
+   במחשב לא משתנה כלום. כאן: טקסט בסיס גדול יותר, רצפה של 14px לטקסט המשני,
+   בלי אותיות נטויות (עברית נטויה קשה לקריאה), וצבע משני בהיר יותר (ניגודיות).
+   ============================================================ */
+@media (max-width: 700px) {
+  :root { --text-faint: #8795a8; --text-dim: #a4b1c2; }
+  body { font-size: 17px; line-height: 1.7; }
+  .locked { font-style: normal; font-size: 14px; }
+  .daily li, .daily-sum, .brief-sum, .ev .s { font-size: 15.5px; }
+  h3.sub { font-size: 15px; }
+  .event .meta, .map-legend, .map-layers, .map-note, .filter-note, .src-status, .src-status .locked,
+  .timeline li, .timeline .t, .sp-player, .mk-tags, .goal-col, .goal-h, table.src, table.src td.root,
+  footer.site, .clock, .tagline, .cited-box > summary, .abroad-list summary, .chip, .arena-chip,
+  .quote b, .quote .p, .mover .why, .set-block .hint, .legal-note { font-size: 14px; }
+  .badge, .badge.lic, .fresh-tag, .tag-demo, .tag-live { font-size: 13px; }
+  .corner > header h2 { font-size: 19px; }
+  .event .ttl { font-size: 16px; min-width: 0; }
+  .player select { font-size: 15px; }
+  .event .detail h4, .window-note, .arena-tabs button, .filters button, .filters .lbl { font-size: 14px; }
+  .reason, .not-verified, .downgrade-note, .event .detail p { font-size: 15px; }
+}
