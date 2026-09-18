@@ -444,6 +444,7 @@ footer.site a { margin-inline-end: 12px; }
 
 /* מה השתנה מהניתוח הקודם */
 .badge.change-new  { color: var(--accent); border-color: #1d3b5c; background: #0d1c2e; }
+.badge.change-possible { color: var(--text-dim); border-color: var(--line); border-style: dashed; }
 .badge.change-up   { color: var(--ok);   border-color: #1c4a26; background: #0d2313; }
 .badge.change-down { color: #ff9c94;     border-color: var(--bad); background: #2a1112; font-weight: 700; }
 

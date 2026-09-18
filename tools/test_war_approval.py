@@ -416,6 +416,52 @@ class Changes(unittest.TestCase):
         down = next(ch[e["id"]] for e in cur["events"] if e["title"] == "ירד")
         self.assertEqual((down["from"], down["to"]), ("verified", "initial"))
 
+    # ---- זיהוי אירוע מתמשך בלי קישור משותף (סעיף 13) — מקרים אמיתיים מ-17-18/09/2026 ----
+
+    @staticmethod
+    def e(title, places=(), url=None, t="2026-09-18T10:00:00+00:00"):
+        return {"id": title, "title": title, "places": [{"name": p} for p in places], "first_reported_at": t,
+                "reports": [{"url": url or "https://x/" + str(abs(hash(title)))}]}
+
+    def kinds(self, prev, cur):
+        orig = iw.wc.assess
+        iw.wc.assess = lambda e, g: "initial"
+        try:
+            return {k: v["kind"] for k, v in iw.compare({"events": prev}, {"events": cur}, {}).items()}
+        finally:
+            iw.wc.assess = orig
+
+    def test_same_story_different_words_and_spelling(self):
+        prev = [self.e('דו"ח האו"ם על תקיפות במינאב ולאמרד', ["מינאב, איראן", "לאמרד, איראן"])]
+        cur = [self.e('ממצאי האו"ם לגבי תקיפות באיראן', ["מינאב, איראן", "לאמזרד, איראן"])]
+        self.assertEqual(self.kinds(prev, cur), {cur[0]["id"]: "same"})
+
+    def test_hebrew_prefixes_matched(self):
+        prev = [self.e("תקיפות והפצצות בדרום לבנון", ["אל מנצורי, לבנון"])]
+        cur = [self.e("ירי ארטילרי ותקיפות בדרום לבנון", ["כפר טיבניית, לבנון"])]
+        self.assertEqual(self.kinds(prev, cur), {cur[0]["id"]: "same"})
+
+    def test_same_place_only_is_not_continuation(self):
+        prev = [self.e('דחיית מינוי ארה"ב לסוכנות לאנרגיה אטומית', ["לונדון, בריטניה"])]
+        cur = [self.e("קריאת מדינות לאי-פגיעה במתקני גרעין", ["לונדון, בריטניה"])]
+        self.assertEqual(self.kinds(prev, cur), {cur[0]["id"]: "new"})
+
+    def test_shared_article_without_shared_words_is_only_possible(self):
+        prev = [self.e("חפירת תעלות במצר באב אלמנדב", url="https://same/1")]
+        cur = [self.e("התקדמות החות'ים וכיבוש רצועת החוף בים האדום", url="https://same/1")]
+        self.assertEqual(self.kinds(prev, cur), {cur[0]["id"]: "possible"})
+
+    def test_one_word_and_place_is_possible(self):
+        prev = [self.e('תקיפות כטב"ם ומפעלים ברוסיה (ירוסלבל ורוסטוב)', ["רוסטוב על הדון, רוסיה"])]
+        cur = [self.e("מתקפת רחפנים אוקראינית נרחבת על מחוז רוסטוב ומרחב מוסקבה", ["מחוז רוסטוב, רוסיה"])]
+        self.assertEqual(self.kinds(prev, cur), {cur[0]["id"]: "possible"})
+
+    def test_each_previous_event_matched_once(self):
+        prev = [self.e("תקיפות והפצצות בדרום לבנון", ["צור, לבנון"])]
+        cur = [self.e("תקיפות בדרום לבנון", ["צור, לבנון"]), self.e("תקיפות והפצצות בדרום לבנון נמשכות", ["צור, לבנון"])]
+        k = self.kinds(prev, cur)
+        self.assertEqual(sorted(k.values()), ["new", "same"])
+
     def test_first_analysis_has_no_changes(self):
         self.assertEqual(iw.compare(None, self.doc([ta.ev("א", [{"item": 0, "first_hand": True, "origin": ""}])]), ta.GROUPS), {})
 

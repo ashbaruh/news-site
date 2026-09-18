@@ -349,12 +349,13 @@ window.DB.war_published = {
     }
    ]
   },
+  "auto": false,
   "previous_generated_at": "2026-09-17T15:25:17+00:00",
   "changes": {
    "YEMEN-09181224-01": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root"
+    "kind": "possible",
+    "prev": "חפירת תעלות במצר באב אלמנדב",
+    "score": 0.4
    },
    "YEMEN-09181224-02": {
     "kind": "new"
@@ -365,7 +366,9 @@ window.DB.war_published = {
    "YEMEN-09181224-04": {
     "kind": "same",
     "from": "shared_root",
-    "to": "shared_root"
+    "to": "shared_root",
+    "prev": "הפלת מטוס F-15 סעודי בתימן",
+    "score": 1.0
    },
    "YEMEN-09181224-05": {
     "kind": "new"
@@ -755,6 +758,7 @@ window.DB.war_published = {
     }
    ]
   },
+  "auto": false,
   "previous_generated_at": "2026-09-17T15:39:00+00:00",
   "changes": {
    "IRAN-09181115-01": {
@@ -766,7 +770,9 @@ window.DB.war_published = {
    "IRAN-09181115-03": {
     "kind": "same",
     "from": "assessment",
-    "to": "assessment"
+    "to": "assessment",
+    "prev": "דו\"ח האו\"ם על תקיפות במינאב ולאמרד",
+    "score": 1.0
    },
    "IRAN-09181115-04": {
     "kind": "new"
@@ -1279,6 +1285,7 @@ window.DB.war_published = {
     }
    ]
   },
+  "auto": false,
   "previous_generated_at": "2026-09-17T15:41:49+00:00",
   "changes": {
    "UKRAINE-09181200-01": {
@@ -1315,7 +1322,9 @@ window.DB.war_published = {
     "kind": "new"
    },
    "UKRAINE-09181200-12": {
-    "kind": "new"
+    "kind": "possible",
+    "prev": "תקיפות כטב\"ם ומפעלים ברוסיה (ירוסלבל ורוסטוב)",
+    "score": 0.633
    }
   }
  },
@@ -1578,6 +1587,7 @@ window.DB.war_published = {
     }
    ]
   },
+  "auto": false,
   "previous_generated_at": "2026-09-17T15:42:37+00:00",
   "changes": {
    "NORTH-09181212-01": {
@@ -1587,7 +1597,11 @@ window.DB.war_published = {
     "kind": "new"
    },
    "NORTH-09181212-03": {
-    "kind": "new"
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "תקיפות והפצצות בדרום לבנון",
+    "score": 0.65
    },
    "NORTH-09181212-04": {
     "kind": "new"

@@ -100,25 +100,123 @@ def ingest(known, groups):
 LEVEL_RANK = {"retracted": 0, "disputed": 1, "unverified": 2, "initial": 3, "shared_root": 3, "verified": 4}
 
 
+# ------------------------------------------------------------------ זיהוי אירוע מתמשך (סעיף 13 בביקורת)
+# עד 18/09/2026 אירוע זוהה כ"המשך" רק לפי קישור משותף — וכמעט הכל יצא "חדש" (7 מתוך 8 באיראן).
+# עכשיו: ציון בקוד, בלי בינה, משלושה רכיבים — מילים משותפות בכותרת, מקום משותף, קרבה בזמן.
+# נבדק על הטיוטות האמיתיות של 17-18/09: "דו"ח האו"ם על תקיפות במינאב" ← "ממצאי האו"ם לגבי תקיפות באיראן" = המשך;
+# שני אירועים שונים בלונדון = לא (מקום משותף לבד לא מספיק — חייבת גם מילה משותפת בכותרת).
+
+PREFIXES = "והבלמשכ"
+STOPWORDS = {"על", "עם", "של", "את", "אל", "מול", "בין", "לגבי", "נגד", "אחרי", "לפני", "כי", "או", "גם", "לא",
+             "כן", "זה", "זו", "הוא", "היא", "הם", "כל", "עוד", "יותר", "חדש", "חדשה", "חדשות", "דיווח", "דיווחים"}
+CERTAIN, POSSIBLE = 0.65, 0.40
+
+
+def _norm_word(w):
+    """מילה עברית בלי אותיות שימוש בתחילתה (עד 2), בלי גרשיים: "להפלת" → "פלת", "הפלת" → "פלת", 'ארה"ב' → "ארהב"."""
+    w = re.sub(r"[\"'״׳`]", "", w.lower())
+    for _ in range(2):
+        if len(w) > 3 and w[0] in PREFIXES:
+            w = w[1:]
+    return w
+
+
+def _title_words(title):
+    words = re.findall(r"[\w\"'״׳-]+", title or "")
+    out = set()
+    for w in words:
+        for part in w.split("-"):
+            n = _norm_word(part)
+            if len(n) >= 3 and n not in STOPWORDS and _norm_word(n) not in STOPWORDS:
+                out.add(n)
+    return out
+
+
+PLACE_STOP = {"דרום", "צפון", "מזרח", "מערב", "מחוז", "אזור", "העיר", "עיר", "רצועת", "חוף", "מרחב", "על", "הדון"}
+
+
+def _place_keys(ev):
+    """מילים משם המקום (בלי המדינה אחרי הפסיק): "רוסטוב על הדון" ו"מחוז רוסטוב" → "רוסטוב" בשניהם."""
+    keys = set()
+    for p in ev.get("places") or []:
+        main = re.split(r"[,،]", str(p.get("name") or ""))[0]
+        for w in re.findall(r"[\w\"'״׳-]+", main):
+            w = re.sub(r"^(אל|א)-", "", w)
+            if w in PLACE_STOP:
+                continue
+            n = _norm_word(w)
+            if len(n) >= 3 and n not in PLACE_STOP:
+                keys.add(n)
+    return keys
+
+
+def _similar(a, b):
+    """שמות מקום בתעתיק שונה מעט ("לאמרד" / "לאמזרד") — אותו מקום."""
+    if a == b:
+        return True
+    import difflib
+    return min(len(a), len(b)) >= 4 and difflib.SequenceMatcher(None, a, b).ratio() >= 0.8
+
+
+def _hours_apart(a, b):
+    from datetime import datetime
+    try:
+        ta = datetime.fromisoformat(a.get("first_reported_at") or a.get("last_update_at"))
+        tb = datetime.fromisoformat(b.get("first_reported_at") or b.get("last_update_at"))
+        return abs((ta - tb).total_seconds()) / 3600
+    except Exception:
+        return 999
+
+
+def event_match_score(prev_ev, ev):
+    """→ (ציון 0-1, מספר מילים משותפות).
+    קישור משותף + מילה משותפת בכותרת = ודאי. קישור משותף בלבד = "אולי" — כתבה אחת מסקרת לפעמים כמה אירועים
+    (18/09: "כיבוש רצועת החוף" ו"חפירת תעלות בבאב אל-מנדב" חלקו כתבה, והם לא אותו אירוע)."""
+    urls = {r.get("url") for r in prev_ev.get("reports", [])}
+    shared = len(_title_words(prev_ev.get("title")) & _title_words(ev.get("title")))
+    if any(r.get("url") in urls for r in ev.get("reports", [])):
+        return (1.0, shared) if shared else (POSSIBLE, 0)
+    if shared == 0:
+        return 0.0, 0                                   # מקום משותף לבד לא מספיק
+    pa, pb = _place_keys(prev_ev), _place_keys(ev)
+    place = any(_similar(a, b) for a in pa for b in pb)
+    close = _hours_apart(prev_ev, ev) <= 72
+    return round(0.55 * min(shared, 3) / 3 + 0.35 * place + 0.10 * close, 3), shared
+
+
 def compare(prev_doc, doc, groups):
-    """מה השתנה מהניתוח המאושר הקודם באותה זירה. אירועים מזוהים לפי קישור משותף לכתבה — קוד, לא בינה."""
+    """מה השתנה מהניתוח המאושר הקודם באותה זירה — קוד, לא בינה.
+    לכל אירוע: new / same / up / down (המשך ודאי), או possible (אולי המשך — בלי לטעון עלה/ירד)."""
     if not prev_doc:
         return {}
-    prev_by_url = {}
-    for e in prev_doc.get("events", []):
-        for r in e.get("reports", []):
-            prev_by_url.setdefault(r.get("url"), e)
+    prev_events, cur_events = prev_doc.get("events", []), doc.get("events", [])
+    pairs = []
+    for i, p in enumerate(prev_events):
+        for j, e in enumerate(cur_events):
+            score, _ = event_match_score(p, e)
+            if score >= POSSIBLE:
+                pairs.append((score, i, j))
+    pairs.sort(reverse=True)                             # ההתאמות החזקות קודם; כל אירוע מותאם פעם אחת לכל היותר
+    used_prev, match = set(), {}
+    for score, i, j in pairs:
+        if i in used_prev or j in match:
+            continue
+        used_prev.add(i)
+        match[j] = (prev_events[i], score)
     changes = {}
-    for e in doc.get("events", []):
-        match = next((prev_by_url[r.get("url")] for r in e.get("reports", []) if r.get("url") in prev_by_url), None)
-        if match is None:
+    for j, e in enumerate(cur_events):
+        if j not in match:
             changes[e["id"]] = {"kind": "new"}
             continue
-        a, b = wc.assess(match, groups), wc.assess(e, groups)
+        prev, score = match[j]
+        if score < CERTAIN:
+            changes[e["id"]] = {"kind": "possible", "prev": prev.get("title", ""), "score": score}
+            continue
+        a, b = wc.assess(prev, groups), wc.assess(e, groups)
         kind = "same"
         if a in LEVEL_RANK and b in LEVEL_RANK and LEVEL_RANK[a] != LEVEL_RANK[b]:
             kind = "up" if LEVEL_RANK[b] > LEVEL_RANK[a] else "down"
-        changes[e["id"]] = {"kind": kind, "from": a, "to": b}
+        changes[e["id"]] = {"kind": kind, "from": a, "to": b, "prev": prev.get("title", ""), "score": score}
     return changes
 
 

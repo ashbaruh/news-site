@@ -517,10 +517,17 @@
     });
   }
 
+  /* "מה השתנה": רק מה שיש (בלי "0 עלו · 0 ירדו"). המשך = אותו אירוע מאתמול (ודאי); אולי המשך = דומה, לא בטוח */
   function changeSummary(changes) {
-    var n = { new: 0, up: 0, down: 0 };
+    var n = { new: 0, same: 0, up: 0, down: 0, possible: 0 };
     Object.keys(changes || {}).forEach(function (k) { if (n[changes[k].kind] !== undefined) n[changes[k].kind]++; });
-    return F.ltr(String(n.new)) + ' חדשים · ' + F.ltr(String(n.up)) + ' עלו ברמת האימות · ' + F.ltr(String(n.down)) + ' ירדו';
+    var parts = [];
+    if (n.new) parts.push(F.ltr(String(n.new)) + ' חדשים');
+    if (n.same + n.up + n.down) parts.push(F.ltr(String(n.same + n.up + n.down)) + ' המשך מהניתוח הקודם');
+    if (n.possible) parts.push(F.ltr(String(n.possible)) + ' אולי המשך');
+    if (n.up) parts.push(F.ltr(String(n.up)) + ' עלו ברמת האימות');
+    if (n.down) parts.push(F.ltr(String(n.down)) + ' ירדו');
+    return parts.join(' · ');
   }
 
   /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */
@@ -661,6 +668,8 @@
     if (ev.is_new_in_window === false) late += ' <span class="badge lic">עדכון לאירוע קודם</span>';
     // מה השתנה מול הניתוח המאושר הקודם (חושב בקוד, לפי קישורים משותפים)
     if (change && change.kind === 'new')  late += ' <span class="badge change-new">🆕 חדש מהניתוח הקודם</span>';
+    if (change && change.kind === 'possible')
+      late += ' <span class="badge change-possible" title="' + esc('דומה ל: ' + (change.prev || '')) + '">↔️ אולי המשך</span>';
     if (change && change.kind === 'up')   late += ' <span class="badge change-up">⬆️ עלה: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
     if (change && change.kind === 'down') late += ' <span class="badge change-down">⬇️ ירד: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
     var reasonClass = a.level === 'verified' ? 'ok' : (a.level === 'shared_root' ? 'bad' : '');
