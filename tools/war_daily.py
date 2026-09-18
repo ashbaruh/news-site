@@ -158,7 +158,7 @@ def main():
             break
         except Exception as e:
             print(f"❌ הבינה נכשלה: {str(e)[:400]}")
-            failed.append(f"{arena}: הבינה נכשלה")
+            failed.append(f"{arena}: הבינה נכשלה ({str(e)[-160:]})")
             report.append(f"| {arena} | ❌ הבינה נכשלה | {len(items)} כתבות · {md_cell(str(e)[-300:])} |")
             continue
         if not errors:
@@ -166,7 +166,8 @@ def main():
             errors = wc.validate(doc, known)
         if errors:
             print(f"❌ {len(errors)} שגיאות חוזה: " + " | ".join(errors[:5]))
-            failed.append(f"{arena}: לא עבר את בדיקת החוזה")
+            # השגיאה עצמה נכנסת לבקשת האישור — הלוג של GitHub לא נגיש בלי התחברות
+            failed.append(f"{arena}: לא עבר את בדיקת החוזה ({errors[0][:160]})")
             report.append(f"| {arena} | ❌ לא עבר את בדיקת החוזה | {md_cell(' / '.join(errors[:3]))} |")
             continue
         path = os.path.join(iw.INBOX, doc["model"]["run_id"] + ".json")
