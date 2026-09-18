@@ -7,11 +7,18 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T10:02:23+00:00",
-  "fetched_at": "2026-09-18T10:02:23+00:00"
+  "checked_at": "2026-09-18T14:32:25+00:00",
+  "fetched_at": "2026-09-18T14:32:25+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Cataract Surgery Restores Sight for 54-Year-Old Chimpanzee–the First Such Procedure at Chimp Haven",
+    "title_he": "ניתוח קטרקט מחזיר את הראייה לשימפנזה בן 54 - ההליך הראשון שכזה בשימפנזה הייבן",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/cataract-surgery-restores-sight-for-54-year-old-chimpanzee-the-first-such-procedure-at-chimp-haven/",
+    "date": "2026-09-18T12:30:44+00:00"
+   },
    {
     "title_en": "New Cat Species Identified for the First Time in Over 100 Years–Meet the Tilcayo",
     "title_he": "מינים חדשים של חתולים שזוהו לראשונה מזה למעלה מ-100 שנה - הכירו את הטילקאיו",
@@ -32,79 +39,92 @@
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/",
     "date": "2026-09-13T11:00:25+00:00"
-   },
-   {
-    "title_en": "S. Carolina Aquarium Celebrates ‘Baby Boom’ of Critically-Endangered Penguin Chicks",
-    "title_he": "S. Carolina Aquarium חוגגת ‘בייבי בום’ של אפרוחי פינגווין בסכנת הכחדה חמורה",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/",
-    "date": "2026-09-08T11:30:38+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T10:02:37+00:00",
-  "fetched_at": "2026-09-18T10:02:37+00:00"
+  "checked_at": "2026-09-18T14:32:37+00:00",
+  "fetched_at": "2026-09-18T14:32:37+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "I test headphones for a living – and this obscure classical album is my new secret weapon",
-    "title_he": "אני בודק אוזניות למחייתי - והאלבום הקלאסי הלא ברור הזה הוא הנשק הסודי החדש שלי",
+    "title_en": "3D TV, Sonos and Spotify – former What Hi-Fi? editor recalls a time of huge transition, including the launch of the website and the \"pivot to video\"",
+    "title_he": "טלוויזיית תלת מימד, Sonos ו-Spotify - לשעבר What Hi-Fi? העורך נזכר בתקופה של מעבר ענק, כולל השקת האתר ו\"ציר לווידאו\"",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/i-test-headphones-for-a-living-and-this-obscure-classical-album-is-my-new-secret-weapon",
-    "date": "2026-09-18T09:56:24+00:00"
+    "link": "https://www.whathifi.com/hi-fi/3d-tv-sonos-and-spotify-former-what-hi-fi-editor-recalls-a-time-of-huge-transition-including-the-launch-of-the-website-and-the-pivot-to-video",
+    "date": "2026-09-18T14:18:16+00:00"
    },
    {
-    "title_en": "FiiO's flagship planar headphones use diamond coated drivers to create an \"open, spacious soundstage\"",
-    "title_he": "אוזניות הדגל המישוריות של FiiO משתמשות בדרייברים מצופים יהלום כדי ליצור \"במת קול פתוחה ומרווחת\"",
+    "title_en": "I'm not surprised this is Amazon's best-selling soundbar – this Award-winning model offers Dolby Atmos at an incredible price",
+    "title_he": "אני לא מופתע שזהו בר הקול הנמכר ביותר של אמזון - הדגם עטור הפרסים הזה מציע Dolby Atmos במחיר מדהים",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wired-headphones/fiios-flagship-planar-headphones-use-diamond-coated-drivers-to-create-an-open-spacious-soundstage",
-    "date": "2026-09-18T09:11:54+00:00"
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/im-not-surprised-this-is-amazons-best-selling-soundbar-this-award-winning-model-offers-dolby-atmos-at-an-incredible-price",
+    "date": "2026-09-18T13:07:51+00:00"
    },
    {
-    "title_en": "Quiz! We’ve created a beginner-friendly hi-fi wordsearch for audio fans",
-    "title_he": "חִידוֹן! יצרנו חיפוש מילים Hi-Fi ידידותי למתחילים עבור חובבי אודיו",
+    "title_en": "Forget the QuietComfort Ultra – these are the new Bose earbuds I can't wait to try",
+    "title_he": "תשכחו מה-QuietComfort Ultra - אלו האוזניות החדשות של Bose שאני לא יכול לחכות לנסות",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/quiz-weve-created-a-beginner-friendly-hi-fi-wordsearch-for-audio-fans",
-    "date": "2026-09-18T08:37:06+00:00"
+    "link": "https://www.whathifi.com/headphones/wireless-earbuds/forget-the-quietcomfort-ultra-these-are-the-new-bose-earbuds-i-cant-wait-to-try",
+    "date": "2026-09-18T13:00:10+00:00"
    },
    {
-    "title_en": "Thought CD was dead? Our audio experts pick out the best CD players and some of our favourite test discs that you can own for ever",
-    "title_he": "חשבתם שהתקליטור מת? מומחי האודיו שלנו בוחרים את נגני התקליטורים הטובים ביותר וכמה מתקליטורי הבדיקה האהובים עלינו שתוכל להחזיק לנצח",
+    "title_en": "Why the Emmy-winning Widow's Bay is a brilliant test for your TV and sound system (and your nerves)",
+    "title_he": "למה מפרץ האלמנה זוכה האמי הוא מבחן מבריק לטלוויזיה ולמערכת הקול שלך (והעצבים שלך)",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/cd-players/thought-cd-was-dead-our-audio-experts-pick-out-the-best-cd-players-and-some-of-our-favourite-test-discs-that-you-can-own-for-ever",
-    "date": "2026-09-17T15:13:40+00:00"
+    "link": "https://www.whathifi.com/streaming-entertainment/why-the-emmy-winning-widows-bay-is-a-brilliant-test-for-your-tv-and-sound-system-and-your-nerves",
+    "date": "2026-09-18T12:15:05+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T10:02:41+00:00",
-  "fetched_at": "2026-09-18T10:02:41+00:00"
+  "checked_at": "2026-09-18T14:32:40+00:00",
+  "fetched_at": "2026-09-18T14:32:40+00:00"
  },
- "generated_at": "2026-09-18T10:02:41+00:00",
+ "generated_at": "2026-09-18T14:32:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מקום 10: המנהל שהחזיר את טבע לצמיחה - \"כשיש נתונים ברורים, צריך לפעול מהר\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555191",
-     "date": "2026-09-18T07:03:00+00:00"
+     "title": "בכיר הממשל שהתפכח, יצא לטיול לטורקיה ונעלם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555549",
+     "date": "2026-09-18T13:04:00+00:00"
     },
     {
-     "title": "לא רק חמקנות משופרת: היכולות שעשויות להיות לסעודיה",
+     "title": "המקור נחשף: אני העברתי מסר מסינוואר לישראל לפני 7.10",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556922",
-     "date": "2026-09-18T08:56:00+00:00"
+     "date": "2026-09-18T11:48:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "וול סטריט עברה לירידות; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
+     "date": "2026-09-18T14:10:00+00:00"
+    },
+    {
+     "title": "בכיר הממשל שהתפכח, יצא לטיול לטורקיה ונעלם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555549",
+     "date": "2026-09-18T13:04:00+00:00"
+    },
+    {
+     "title": "רגע לפני העסקה: הסטות הכספים הגדולות מאלטשולר שחם נמשכו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556933",
+     "date": "2026-09-18T12:35:00+00:00"
+    },
+    {
+     "title": "המחליף של באפט: חקלאי, צלם ופילנתרופ",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556930",
+     "date": "2026-09-18T11:52:00+00:00"
+    },
+    {
+     "title": "וורן באפט בהודעה דרמטית: פורש מתפקיד יו\"ר ברקשייר - \"הזמן תמיד מנצח\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556929",
+     "date": "2026-09-18T10:10:00+00:00"
+    },
+    {
      "title": "על סף חתימה: עסקת הענק של רפאל בצ'כיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556924",
      "date": "2026-09-18T08:30:00+00:00"
-    },
-    {
-     "title": "הריבית ביפן עלתה לשיא של 31 שנה, והאזהרה של ג'יימי דיימון: \"זה לא נגמר\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T06:39:00+00:00"
     },
     {
      "title": "קרני בירך את הצעת האיחוד האירופי ורמז לטראמפ: \"המכסים הפכו לנשק\"",
@@ -182,34 +202,14 @@
      "date": "2026-09-17T10:40:00+00:00"
     },
     {
-     "title": "שיחת הטלפון בת 40 הדקות שכמעט הביאה לביטול סיבוב ההופעות של אד שירן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556768",
-     "date": "2026-09-17T10:11:00+00:00"
-    },
-    {
      "title": "בברלין קוראים לציבור לענוד מגן דוד - וזו הסיבה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556761",
      "date": "2026-09-17T09:04:00+00:00"
     },
     {
-     "title": "עסקה עם נאט\"ו: ספקטרל איקס תספק מערכות הסוואה בכ-35 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556749",
-     "date": "2026-09-17T08:47:00+00:00"
-    },
-    {
      "title": "משבר אמון בטורקיה: הבורסה באיסטנבול צללה והמסחר הושהה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556744",
      "date": "2026-09-17T08:08:00+00:00"
-    },
-    {
-     "title": "גם מאנדיי ו-WIX בפנים: אלה המרוויחות הגדולות מבלימת ה-AI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555525",
-     "date": "2026-09-17T02:43:00+00:00"
-    },
-    {
-     "title": "איפה הכסף: המתכת היקרה שזינקה - ומשמשת אינדיקטור למצב הכלכלה העולמית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556682",
-     "date": "2026-09-17T02:40:00+00:00"
     },
     {
      "title": "גילה את שוק ההון בגיל 26: \"אם הייתי משקיע רק במדדים הייתי משתעמם\"",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T10:02:25+00:00",
-  "fetched_at": "2026-09-18T10:02:25+00:00"
+  "checked_at": "2026-09-18T14:32:26+00:00",
+  "fetched_at": "2026-09-18T14:32:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T10:02:26+00:00",
-  "fetched_at": "2026-09-18T10:02:26+00:00"
+  "checked_at": "2026-09-18T14:32:27+00:00",
+  "fetched_at": "2026-09-18T14:32:27+00:00"
  },
  "tv": {
   "data": [
@@ -2429,8 +2429,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T10:02:29+00:00",
-  "fetched_at": "2026-09-18T10:02:29+00:00"
+  "checked_at": "2026-09-18T14:32:28+00:00",
+  "fetched_at": "2026-09-18T14:32:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2599,8 +2599,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T10:02:29+00:00",
-  "fetched_at": "2026-09-18T10:02:29+00:00"
+  "checked_at": "2026-09-18T14:32:28+00:00",
+  "fetched_at": "2026-09-18T14:32:28+00:00"
  },
  "ai": {
   "data": {
@@ -2624,14 +2624,14 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 391,
+     "likes": 396,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2645,8 +2645,15 @@
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 109,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "MiniCPM5-2B WebGPU Pi",
+     "desc_en": "A coding agent running entirely in your browser",
+     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
+     "likes": 63,
+     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "AuK",
@@ -2656,38 +2663,31 @@
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 130,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
-    },
-    {
-     "title": "MiniCPM5-2B WebGPU Pi",
-     "desc_en": "A coding agent running entirely in your browser",
-     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 61,
-     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 66,
+     "likes": 68,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3123,
-     "link": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview"
+     "likes": 78,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 131,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 80,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
@@ -2700,8 +2700,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T10:02:35+00:00",
-  "fetched_at": "2026-09-18T10:02:35+00:00"
+  "checked_at": "2026-09-18T14:32:36+00:00",
+  "fetched_at": "2026-09-18T14:32:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2743,24 +2743,6 @@
      ]
     },
     {
-     "title": "גם אבדיה היה בהלם: זו התגובה שלו לסל של מדר",
-     "link": "https://www.one.co.il/Article/533729.html?ref=rss",
-     "date": "2026-09-17T19:24:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "62 דקות לחלאילי, פאלאס ניצחה 0:4 את לך פוזנן",
-     "link": "https://www.one.co.il/Article/533667.html?ref=rss",
-     "date": "2026-09-17T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "רביבו צפוי להמשיך בהרכב אלצ'ה, ברצלונה תמשיך לכתוש בסביליה?",
      "link": "https://sports.walla.co.il/item/3868621",
      "date": "2026-09-17T18:39:00+00:00",
@@ -2797,15 +2779,6 @@
      ]
     },
     {
-     "title": "שחקן העבר שינה כיוון בנוגע לאוסקר גלוך: \"עושה את ההבדל\"",
-     "link": "https://sports.walla.co.il/item/3868383",
-     "date": "2026-09-16T22:49:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
      "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
      "link": "https://sports.walla.co.il/item/3868373",
      "date": "2026-09-16T22:19:00+00:00",
@@ -2839,6 +2812,25 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "ואיפה דני אבדיה? דירוג הסמול פורוורדים הטובים ב-NBA",
+     "link": "https://sports.walla.co.il/item/3867246",
+     "date": "2026-09-11T20:36:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "האלמנטים שבן שרף ודני וולף חייבים לשפר לקראת העונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3867231",
+     "date": "2026-09-11T16:57:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "בן שרף",
+      "דני וולף"
      ]
     }
    ],
@@ -3042,7 +3034,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-18T10:02:31+00:00",
-  "fetched_at": "2026-09-18T10:02:31+00:00"
+  "checked_at": "2026-09-18T14:32:32+00:00",
+  "fetched_at": "2026-09-18T14:32:32+00:00"
  }
 }
