@@ -52,67 +52,6 @@
     });
   }
 
-  /* ---------- CNBC ---------- */
-
-  /* הסימול אצלנו ← הסימול אצל CNBC */
-  var CNBC_SYMBOLS = {
-    'ZIM': 'ZIM', 'NCLH': 'NCLH', 'PFE': 'PFE',
-    'SPX 500': '.SPX', 'NDX 100': '.NDX',
-    'USOIL': '@CL.1',                          // חוזה WTI הקרוב — הקירוב הסטנדרטי ל"נפט"
-    'USD/ILS': 'ILS=', 'EUR/ILS': 'EURILS=', 'EUR/USD': 'EUR='
-  };
-
-  function fetchCnbc() {
-    var ours = Object.keys(CNBC_SYMBOLS);
-    var theirs = ours.map(function (k) { return CNBC_SYMBOLS[k]; });
-    var url = 'https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=' +
-              encodeURIComponent(theirs.join('|')) + '&requestMethod=itv&noform=1&output=json';
-
-    return getJSON(url).then(function (j) {
-      var list = (j && j.FormattedQuoteResult && j.FormattedQuoteResult.FormattedQuote) || [];
-      if (!Array.isArray(list)) list = [list];
-
-      var bySymbol = {};
-      list.forEach(function (q) { if (q && q.symbol) bySymbol[q.symbol] = q; });
-
-      var quotes = {}, oldestIntraday = Infinity;
-      var tooOldClose = Date.now() - 4 * 86400000;
-
-      ours.forEach(function (sym) {
-        var q = bySymbol[CNBC_SYMBOLS[sym]];
-        if (!q || String(q.code) !== '0') return;
-        var price = parseNum(q.last);
-        if (price === null || price <= 0) return;
-
-        var lt = String(q.last_time || '');
-        // תאריך בלי שעה = מחיר סגירה (הבורסה עוד לא נפתחה / כבר נסגרה)
-        var isClose = /^\d{4}-\d{2}-\d{2}$/.test(lt);
-        var t = isClose
-          ? new Date(lt + 'T16:00:00-04:00')
-          : new Date(lt.replace(/([+-]\d\d)(\d\d)$/, '$1:$2'));
-        if (isNaN(t.getTime())) return;
-
-        quotes[sym] = {
-          price: price,
-          change: parseNum(q.change_pct),
-          change_basis: 'מול הסגירה הקודמת',
-          as_of: t.toISOString(),
-          closed: isClose,
-          delayed: q.realTime === false || q.realTime === 'false',
-          // מחיר סגירה ישן מ-4 ימים = משהו לא בסדר, גם אם הבורסה "סגורה"
-          old_close: isClose && t.getTime() < tooOldClose
-        };
-        if (!isClose) oldestIntraday = Math.min(oldestIntraday, t.getTime());
-      });
-
-      if (!Object.keys(quotes).length) throw new Error('המקור החזיר תשובה ריקה');
-
-      // גיל המקור נמדד רק לפי מה שנסחר עכשיו. אם הכל סגור — הנתון עדכני כפי שהוא.
-      var dataTime = isFinite(oldestIntraday) ? new Date(oldestIntraday) : new Date();
-      return { data: quotes, data_time: dataTime.toISOString() };
-    });
-  }
-
   /* ---------- ECB (דרך Frankfurter) ---------- */
 
   function fetchFx() {
@@ -189,7 +128,6 @@
 
   var SOURCES = [
     { key: 'crypto', source_id: 'src_coingecko', fetcher: fetchCrypto },
-    { key: 'cnbc',   source_id: 'src_cnbc',      fetcher: fetchCnbc },
     { key: 'fx_ecb', source_id: 'src_ecb',       fetcher: fetchFx },
     { key: 'fed',    source_id: 'src_nyfed',     fetcher: fetchFed }
   ];

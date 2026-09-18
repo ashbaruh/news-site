@@ -450,3 +450,12 @@ footer.site a { color: var(--accent); }
   .player.bar .pl-mini { padding: 4px 8px; }
   .daily li { font-size: 14px; }
 }
+
+/* שכבת ההערכה במפה — מקווקו ודהוי, כדי שלא תיראה כמו עובדה מאומתת */
+.assess-area { fill: #8b949e; }
+.map-legend .dash {
+  display: inline-block; width: 18px; height: 0; vertical-align: middle;
+  border-top: 2px dashed #8b949e; margin-inline-end: 4px;
+}
+.leaflet-control-layers { background: var(--bg-2); color: var(--text); border: 1px solid var(--line); font-size: 12px; }
+.leaflet-control-layers label { display: flex; align-items: center; gap: 5px; }

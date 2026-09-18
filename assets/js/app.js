@@ -190,16 +190,6 @@
       lines.push('<b>שווקים</b>: ' + parts.join(' · ') + '.');
     }
 
-    // 3. מניות חריגות
-    var mv = live.movers && live.movers.data;
-    if (mv) {
-      var hits = [].concat(mv.crashed || [], mv.flew || []);
-      lines.push('<b>מניות חריגות</b>: ' + (hits.length
-        ? hits.map(function (a) { return F.ltr(a.sym + ' ' + (a.change > 0 ? '+' : '') + a.change.toFixed(1) + '%'); }).join(', ') +
-          ' — תנועה חריגה ביחס לרגיל.'
-        : 'אין היום תנועה חריגה ב-S&P 100.'));
-    }
-
     // 3ב. ספורט — ישראלים שכבשו/בישלו (או 20+ נקודות ב-NBA) ב-36 השעות האחרונות
     var sp = live.sports && live.sports.data;
     if (sp) {
@@ -397,6 +387,7 @@
         ? '<div class="map-canvas live" id="war-map" aria-label="מפת אירועים"></div>' +
           '<div class="map-legend"><span class="dot verified"></span>מאומת <span class="dot initial"></span>דיווח ראשוני ' +
           '<span class="dot shared_root"></span>מקור משותף <span class="dot other"></span>הערכה/אחר · ' +
+          '<span class="dash"></span>מקווקו = שכבת הערכה (אזור פעילות / זיקה בין מקומות) · ' +
           '<span class="locked">נקודה = מקום שהוזכר בדיווח, לא מיקום מדויק ולא קו שליטה</span></div>'
         : '<div class="map-canvas">אין בניתוח הזה אירועים עם מקום מוגדר — המפה תוצג כשיהיו</div>') +
     '</div>';
@@ -441,6 +432,58 @@
     return pts;
   }
 
+  /* ---- שכבת הערכה על המפה ----
+     מחושבת בקוד מתוך המקומות שהוזכרו בדיווחים (לא הבינה קובעת):
+       • עיגול מקווקו = אזור שבו התקבצו כמה דיווחים ("אזור פעילות").
+       • קו מקווקו = שני מקומות שנזכרו באותו דיווח.
+     שני אלה הם הערכה בלבד — לא קו שליטה ולא תנועת כוחות מאומתת. */
+  function degDist(a, b) {
+    var dy = a.lat - b.lat;
+    var dx = (a.lon - b.lon) * Math.cos((a.lat + b.lat) / 2 * Math.PI / 180);
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  function assessLayer(L, pts, events) {
+    var group = L.layerGroup(), used = [], drew = false;
+
+    pts.forEach(function (o, i) {                      // אשכול מקומות קרובים (עד ~130 ק"מ)
+      if (used[i]) return;
+      var cl = [o]; used[i] = 1;
+      pts.forEach(function (o2, j) {
+        if (!used[j] && degDist(o.p, o2.p) <= 1.2) { cl.push(o2); used[j] = 1; }
+      });
+      if (cl.length < 2) return;
+      var lat = 0, lon = 0;
+      cl.forEach(function (x) { lat += x.p.lat; lon += x.p.lon; });
+      lat /= cl.length; lon /= cl.length;
+      var far = 0;
+      cl.forEach(function (x) { far = Math.max(far, degDist({ lat: lat, lon: lon }, x.p)); });
+      L.circle([lat, lon], {
+        radius: far * 111000 + 18000, className: 'assess-area',
+        color: '#8b949e', weight: 1.5, dashArray: '6 6', fillOpacity: 0.07, interactive: true
+      }).bindPopup('<div dir="rtl"><b>אזור פעילות — הערכה</b><br>' +
+        F.ltr(String(cl.length)) + ' מקומות שהוזכרו בדיווחים באזור הזה.<br>' +
+        '<span class="locked">הערכה אוטומטית, לא קו שליטה מאומת.</span></div>').addTo(group);
+      drew = true;
+    });
+
+    (events || []).forEach(function (ev) {             // קו בין מקומות של אותו דיווח
+      var ps = (ev.places || []).filter(function (p) {
+        return typeof p.lat === 'number' && typeof p.lon === 'number' && inArena(p);
+      });
+      for (var k = 1; k < ps.length; k++) {
+        L.polyline([[ps[k - 1].lat, ps[k - 1].lon], [ps[k].lat, ps[k].lon]], {
+          className: 'assess-link', color: '#8b949e', weight: 2, dashArray: '4 7', opacity: 0.75
+        }).bindPopup('<div dir="rtl"><b>' + esc(ev.title) + '</b><br>' +
+          esc(ps[k - 1].name) + ' ← ' + esc(ps[k].name) + '<br>' +
+          '<span class="locked">נזכרו יחד באותו דיווח — הערכה, לא תנועת כוחות מאומתת.</span></div>').addTo(group);
+        drew = true;
+      }
+    });
+
+    return drew ? group : null;
+  }
+
   function drawWarMap(events) {
     var el = document.getElementById('war-map');
     if (!el) return;
@@ -474,6 +517,13 @@
         m.addTo(warMap);
         bounds.push([o.p.lat, o.p.lon]);
       });
+      if (pts.length >= 2) {                            // שכבת הערכה — רק כשיש לפחות שני מקומות ממופים
+        var assess = assessLayer(L, pts, events);
+        if (assess) {
+          assess.addTo(warMap);
+          L.control.layers(null, { 'שכבת הערכה (מקווקו)': assess }, { collapsed: false, position: 'bottomleft' }).addTo(warMap);
+        }
+      }
       if (bounds.length === 1) warMap.setView(bounds[0], 7);
       else warMap.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
     }).catch(function () {
@@ -677,18 +727,15 @@
   /* המקורות החיים של פינת השווקים */
   var LIVE_SOURCES = {
     crypto: 'src_coingecko',
-    cnbc:   'src_cnbc',
     fx_ecb: 'src_ecb',
     fed:    'src_nyfed'
   };
 
   /* לכל סימול: רשימת מקורות לפי סדר עדיפות. הראשון שעובד — מוצג.
-     USD/ILS: קודם שער חי מ-CNBC, ואם הוא לא זמין — שער הייחוס של ECB. */
+     מניות, מדדים ונפט מוצגים בווידג'טים של TradingView (CNBC חסם גישה — 403 ו-CORS). */
   var SYMBOL_SOURCES = {
     'BTC': ['crypto'], 'ETH': ['crypto'], 'DOGE': ['crypto'],
-    'ZIM': ['cnbc'], 'NCLH': ['cnbc'], 'PFE': ['cnbc'],
-    'SPX 500': ['cnbc'], 'NDX 100': ['cnbc'], 'USOIL': ['cnbc'],
-    'USD/ILS': ['cnbc', 'fx_ecb'], 'EUR/ILS': ['cnbc', 'fx_ecb'], 'EUR/USD': ['cnbc', 'fx_ecb'],
+    'USD/ILS': ['fx_ecb'], 'EUR/ILS': ['fx_ecb'], 'EUR/USD': ['fx_ecb'],
     'ILS/RON': ['fx_ecb']
   };
 
@@ -701,7 +748,7 @@
 
   /* ---- TradingView (גרסה ציבורית בלבד) ---- */
   function tvEnabled() {
-    return C.publish_mode === 'public' && !!C.tradingview && R.isDisplayable(R.sourceById('src_tradingview'));
+    return !!C.tradingview && R.isDisplayable(R.sourceById('src_tradingview'));
   }
   function tvSymbol(symbol) {
     return tvEnabled() && !allowedKeys(symbol).length ? (C.tradingview.symbols[symbol] || null) : null;
@@ -723,8 +770,7 @@
         (syms.length ? '<div class="tv-box" id="tv-quotes"></div>' : '') +
         '<div class="tv-box" id="tv-hot"></div>' +
       '</div>' +
-      '<p class="locked">בגרסה הציבורית המחירים מגיעים מווידג\'טים רשמיים של TradingView (בהשהיה לפי הבורסה). ' +
-      'חישוב "פי כמה מהרגיל" זמין רק בגרסה האישית.</p>', true,
+      '<p class="locked">מחירי מניות, מדדים ונפט — ווידג\'טים רשמיים של TradingView (בהשהיה לפי הבורסה).</p>', true,
       { level: 'loading', label: 'חי — מתעדכן בתוך TradingView', age_text: 'הרענון נעשה בתוך הווידג\'ט עצמו' });
 
     function mount(id, file, cfg) {
@@ -851,10 +897,6 @@
       var when = '';
       if (entry && entry.data_time) {
         if (key === 'fx_ecb') when = 'שער ייחוס יומי מ-' + F.dateText(entry.data_time);
-        else if (key === 'cnbc') {
-          var anyOpen = Object.keys(entry.data || {}).some(function (s) { return !entry.data[s].closed; });
-          when = anyOpen ? 'נתון חי מ-' + F.hhmm(entry.data_time) : 'כל השווקים סגורים — מחירי סגירה';
-        }
         else when = 'נתון מ-' + F.hhmm(entry.data_time);
       }
 
@@ -887,62 +929,6 @@
     // תג הפינה = המצב הגרוע ביותר מבין המקורות החיים
     var headerState = liveStates.length ? F.worst(liveStates) : null;
 
-    /* --- 2 שהתרסקו · 2 שטסו --- */
-    function moversBlock() {
-      var S = C.movers;
-      var src = R.sourceById('src_cnbc');
-      if (!R.isDisplayable(src)) {
-        return tvEnabled()
-          ? '<p class="locked">מפת חום של S&amp;P 500 — בכרטיס הבא.</p>'
-          : '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
-      }
-
-      var e = live.movers;
-      var st = F.evaluate('movers', e && e.data_time, e ? e.ok : undefined, true);
-      liveStates.push(st);
-
-      if (!e) return '<p class="locked"><span class="fresh-tag loading">טוען…</span> סורק ' +
-                     window.DB.universe_sp100.symbols.length + ' מניות…</p>';
-      if (!e.data) return '<p><span class="fresh-tag down">מקור לא זמין</span> <span class="locked">אין נתון שמור.</span></p>';
-
-      var d = e.data;
-
-      function card(a) {
-        var dirCls = a.change < 0 ? 'down' : 'up';
-        return '<div class="mover">' +
-          '<b>' + esc(a.sym) + '</b> <span class="locked">' + esc(a.name) + '</span> · ' +
-          '<span class="' + dirCls + '">' + F.ltr((a.change > 0 ? '+' : '') + a.change.toFixed(2) + '%') + '</span> ' +
-          '<span class="ratio-badge ' + dirCls + '">פי ' + a.ratio.toFixed(1) + ' מהרגיל</span>' +
-          '<div class="why">' + esc(a.why) + '</div></div>';
-      }
-
-      function side(list, nearest, word) {
-        if (list.length) return list.map(card).join('');
-        var msg = 'אין ' + word + ' חריגה.';
-        if (nearest) {
-          msg += ' הקרובה ביותר: ' + F.ltr(nearest.sym + ' ' + (nearest.change > 0 ? '+' : '') + nearest.change.toFixed(2) + '%') +
-                 ', פי ' + nearest.ratio.toFixed(1) + ' מהרגיל — מתחת לסף.';
-        }
-        return '<div class="mover none">' + esc(msg) + '</div>';
-      }
-
-      var session = d.all_closed
-        ? 'יום המסחר האחרון: ' + d.session_date.split('-').reverse().join('/') + ' (הבורסה סגורה)'
-        : 'מסחר חי · נתון מ-' + F.hhmm(e.data_time);
-
-      var status = '<div class="src-line locked">' +
-        '<span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' + esc(session) +
-        (e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
-        '<div>נסרקו ' + d.scanned + ' מניות S&P 100 · נבדקו לעומק ' + d.analyzed +
-        (d.missing.length ? ' (חסרה היסטוריה: ' + esc(d.missing.join(', ')) + ')' : '') +
-        ' · הסף: תזוזה של ' + S.min_move + '% לפחות, וגם פי ' + S.min_ratio + ' לפחות מהתזוזה הרגילה של המניה.</div>' +
-        '<div>' + esc(src.attribution) + ' · <span class="tag-demo">שימוש אישי בלבד</span></div></div>';
-
-      return '<h4 class="mv-h down">▼ התרסקו</h4>' + side(d.crashed, d.nearest_down, 'היום ירידה') +
-             '<h4 class="mv-h up">▲ טסו</h4>'      + side(d.flew, d.nearest_up, 'היום עלייה') +
-             status;
-    }
-    var moversHtml = moversBlock();
     headerState = liveStates.length ? F.worst(liveStates) : null;
 
     var demoTag = ' <span class="tag-demo">דמה</span>';
@@ -1058,8 +1044,6 @@
 
     var html =
       '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
-      '<h3 class="sub" title="רק תנועה חריגה ביחס להתנהגות הרגילה של המניה">2 שהתרסקו · 2 שטסו</h3>' +
-      moversHtml +
       '<h3 class="sub">חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span></h3>' + marketNewsHtml +
       '<h3 class="sub">ריבית</h3>' +
       '<ul class="rows src-status">' + rateItems.join('') + '</ul>' +
