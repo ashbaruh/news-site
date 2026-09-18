@@ -26,6 +26,7 @@
   var root = document.getElementById('player');
   var KEY_LIST = 'newssite:player:list';
   var KEY_MIN = 'newssite:player:minimized';
+  var KEY_SMALL = 'newssite:player:small';
   var FILE_MSG = 'YouTube לא מנגן כשהאתר נפתח כקובץ. לפתוח דרך open-site.bat שבתיקיית האתר (או מהאתר באינטרנט).';
 
   function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
@@ -43,6 +44,7 @@
   /* ברירת מחדל: במחשב הנגן פתוח ומתחיל לנגן לבד; בטלפון סגור (כפתור עגול) כדי לא לתפוס מסך.
      בכל מקרה הבחירה האחרונה של הגולש נשמרת. */
   var minimized = load(KEY_MIN) !== null ? load(KEY_MIN) === '1' : isPhone();
+  var small = load(KEY_SMALL) === '1';
 
   var player = null;        // הנגן הנוכחי
   var gen = 0;              // מספר הבנייה — אירועים מנגן ישן מתעלמים מהם
@@ -55,7 +57,8 @@
 
   root.innerHTML =
     '<header>🎵 <span>מוזיקה בזמן גלישה</span>' +
-      '<button class="toggle" id="pl-toggle" type="button" aria-label="סגירת הנגן">✕</button></header>' +
+      '<button class="toggle" id="pl-small" type="button" title="הקטנה — המוזיקה ממשיכה" aria-label="הקטנת הנגן">–</button>' +
+      '<button class="toggle" id="pl-toggle" type="button" title="סגירה — המוזיקה נעצרת" aria-label="סגירת הנגן">✕</button></header>' +
     '<div class="stage"></div>' +
     '<div class="now" id="pl-now">טוען…</div>' +
     '<div class="foot">' +
@@ -71,6 +74,7 @@
         }).join('') +
       '</select>' +
     '</div>' +
+    '<button type="button" class="pl-grow" id="pl-grow" title="הגדלה" aria-label="הגדלת הנגן">⤢</button>' +
     '<button type="button" class="pl-fab" id="pl-fab" title="מוזיקה" aria-label="פתיחת נגן המוזיקה">🎵</button>';
 
   var $ = function (id) { return document.getElementById(id); };
@@ -84,10 +88,19 @@
      כללי YouTube אוסרים להשמיע כשהנגן מוסתר — לכן סגירה משהה, ופתיחה ממשיכה מאותו מקום. */
   function setMinimized(on) {
     minimized = on;
+    if (on) setSmall(false);
     root.classList.toggle('minimized', on);
     $('pl-fab').title = on ? 'מוזיקה — ' + current.name : 'סגירת הנגן';
     store(KEY_MIN, on ? '1' : '0');
     if (on && ready && !fatal) { try { player.pauseVideo(); } catch (e) {} }
+  }
+
+  /* קטן = רק ריבוע הנגן (200x200, המינימום ש-YouTube מחייב) בלי כותרת ובלי פקדים.
+     המוזיקה ממשיכה לנגן — לכן הנגן נשאר גלוי. */
+  function setSmall(on) {
+    small = on;
+    root.classList.toggle('small', on);
+    store(KEY_SMALL, on ? '1' : '0');
   }
 
   /* מצב לבדיקה ולעיצוב: data-state / data-list / data-first / data-error על הווידג'ט */
@@ -237,6 +250,8 @@
   /* ---------- פקדים ---------- */
 
   $('pl-toggle').addEventListener('click', function () { setMinimized(true); });
+  $('pl-small').addEventListener('click', function () { setSmall(!small); });
+  $('pl-grow').addEventListener('click', function () { setSmall(false); });
 
   $('pl-fab').addEventListener('click', function () {           // כפתור המוזיקה הצף
     setMinimized(false);
@@ -260,6 +275,7 @@
     if (apiLoaded && !fatal) build();
   });
 
+  setSmall(small);
   setMinimized(minimized);
 
   /* ---------- טעינת ה-API של YouTube ---------- */

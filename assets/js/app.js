@@ -721,6 +721,9 @@
     '</details>';
   }
 
+  /* קטע עם כותרת — מוצג רק אם יש בו תוכן. אין מידע → לא כותבים כלום */
+  function section(title, html) { return html ? '<h3 class="sub">' + title + '</h3>' + html : ''; }
+
   /* שורת מקור קצרה: תג טריות (זמן הבדיקה בטולטיפ) + הקרדיט שחייב להופיע לפי רישוי המקור */
   function srcLine(state, checkedAt, attribution, failed) {
     var tip = checkedAt ? 'נבדק ' + F.dateTimeText(checkedAt) : '';
@@ -990,10 +993,12 @@
         }
         if (fe.ok === false) fedTxt += ' <span class="down">· הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>';
       } else {
-        fedTxt = '<b>הפד:</b> ' + (fe ? '<span class="down">לא זמין</span>' : 'טוען…');
+        fedTxt = '';                                  // אין נתון — לא כותבים שורה
       }
-      rateItems.push('<li><span class="fresh-tag ' + fst.level + '">' + esc(fst.label) + '</span> ' + fedTxt +
-                     '<div class="locked">' + esc(fedSrc.attribution) + '</div></li>');
+      if (fedTxt) {
+        rateItems.push('<li><span class="fresh-tag ' + fst.level + '">' + esc(fst.label) + '</span> ' + fedTxt +
+                       '<div class="locked">' + esc(fedSrc.attribution) + '</div></li>');
+      }
     }
     headerState = liveStates.length ? F.worst(liveStates) : null;
 
@@ -1027,10 +1032,8 @@
       .slice(0, 6);
 
     var marketNewsHtml;
-    if (!globesOk && !wallaOk) {
-      marketNewsHtml = '<p class="locked">' + (wallaEco || gg.entry ? '<span class="down">המקורות לא זמינים כרגע.</span>' : 'טוען…') + '</p>';
-    } else if (!marketNews.length) {
-      marketNewsHtml = '<p class="locked">אין ב-48 השעות האחרונות כותרות שנוגעות למכשירים ברשימה.</p>';
+    if ((!globesOk && !wallaOk) || !marketNews.length) {
+      marketNewsHtml = '';
     } else {
       marketNewsHtml = '<ul class="rows news">' + marketNews.map(function (x) {
         return '<li><a href="' + esc(x.i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(x.i.title) + '</a>' +
@@ -1038,9 +1041,10 @@
                '<div class="mk-tags">נוגע ל: ' + x.tags.map(function (t) { return '<span class="tag-demo">' + esc(t) + '</span>'; }).join(' ') + '</div></li>';
       }).join('') + '</ul>';
     }
-    marketNewsHtml += '<p class="locked filter-note" title="סינון לפי מילות מפתח של המכשירים ברשימה, ללא בינה' +
-      (globesOk ? ' · נבדק ' + esc(F.dateTimeText(gg.entry.checked_at)) : '') + '">כותרות: גלובס' +
-      (globesOk ? '' : ' (לא זמין)') + ' · וואלה כסף</p>';
+    if (marketNewsHtml) {
+      marketNewsHtml += '<p class="locked filter-note" title="סינון לפי מילות מפתח של המכשירים ברשימה, ללא בינה' +
+        (globesOk ? ' · נבדק ' + esc(F.dateTimeText(gg.entry.checked_at)) : '') + '">כותרות: גלובס · וואלה כסף</p>';
+    }
 
     var globesTopHtml = globesOk && gg.entry.data.top.length
       ? '<ul class="rows news">' + gg.entry.data.top.map(function (i) {
@@ -1048,14 +1052,13 @@
                  ' <span class="locked">· ' + F.dateTimeText(i.date) + '</span></li>';
         }).join('') + '</ul>' +
         '<p class="locked filter-note">כותרות וקישורים: גלובס</p>'
-      : '<p class="locked">' + (gg.entry ? '<span class="down">גלובס לא זמין כרגע.</span>' : 'המשימה האוטומטית עדיין לא הביאה נתונים.') + '</p>';
+      : '';
 
     var html =
       '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
-      '<h3 class="sub">חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span></h3>' + marketNewsHtml +
-      '<h3 class="sub">ריבית</h3>' +
-      '<ul class="rows src-status">' + rateItems.join('') + '</ul>' +
-      '<h3 class="sub">כלכלה — כתבות ראשיות מגלובס</h3>' + globesTopHtml;
+      section('חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span>', marketNewsHtml) +
+      section('ריבית', rateItems.length ? '<ul class="rows src-status">' + rateItems.join('') + '</ul>' : '') +
+      section('כלכלה — כתבות ראשיות מגלובס', globesTopHtml);
 
     $('#markets-slot').innerHTML = corner(2, 'כלכלה + שווקים פיננסיים', 'markets', html, true, headerState);
   }
@@ -1071,16 +1074,11 @@
     var newsOk = R.isDisplayable(R.sourceById('src_ai_labs')) || R.isDisplayable(R.sourceById('src_geektime'));
     var toolsOk = R.isDisplayable(R.sourceById('src_hf'));
 
-    if (!g.entry || !g.entry.data) {
-      $('#ai-slot').innerHTML = corner(3, 'AI', 'ai',
-        '<p class="locked">המשימה האוטומטית עדיין לא הביאה נתונים.</p>', false, g.state);
-      return;
-    }
+    if (!g.entry || !g.entry.data) { $('#ai-slot').innerHTML = ''; return; }
     var d = g.entry.data;
 
     /* חדשות — לכל היותר 2 ביום (לפי המפרט) */
-    var newsHtml = !newsOk ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
-      : !(d.news || []).length ? '<p class="locked">אין ב-3 הימים האחרונים הכרזה או חדשה משמעותית.</p>'
+    var newsHtml = !newsOk || !(d.news || []).length ? ''
       : '<ul class="rows news">' + d.news.map(function (n) {
           var item = headlineItem(n);
           var tags = '<span class="badge lic">' + esc(n.source) + '</span> ' +
@@ -1089,8 +1087,7 @@
         }).join('') + '</ul>';
 
     /* כלים ודמואים חינמיים — Hugging Face במגמה */
-    var toolsHtml = !toolsOk ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
-      : !(d.tools || []).length ? '<p class="locked">אין כרגע דמואים חדשים שעברו את הסינון.</p>'
+    var toolsHtml = !toolsOk || !(d.tools || []).length ? ''
       : '<ul class="rows news">' + d.tools.map(function (t) {
           if (!/^https:\/\//.test(t.link || '')) return '';
           return '<li><a href="' + esc(t.link) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(t.title) + '</b></a>' +
@@ -1100,10 +1097,8 @@
         }).join('') + '</ul>';
 
     var html =
-      '<h3 class="sub">חדשות — מקסימום 2 ביום</h3>' + newsHtml +
-      ((d.failed_sources || []).length
-        ? '<p class="locked filter-note"><span class="down">לא נטענו: ' + esc(d.failed_sources.join(', ')) + '</span></p>' : '') +
-      '<h3 class="sub">כלים · דמואים חינמיים (במגמה)</h3>' + toolsHtml +
+      section('חדשות — מקסימום 2 ביום', newsHtml) +
+      section('כלים · דמואים חינמיים (במגמה)', toolsHtml) +
       srcLine(g.state, g.entry.checked_at, 'Anthropic, Google DeepMind, OpenAI, Google, גיקטיים, Hugging Face', g.entry.ok === false);
 
     $('#ai-slot').innerHTML = corner(3, 'AI', 'ai', html, false, g.state);
@@ -1245,9 +1240,7 @@
       .sort(function (a, b) { return a.n.date < b.n.date ? -1 : 1; }).slice(0, 8);
 
     var resultsHtml;
-    if (!sp) resultsHtml = '<p class="locked">טוען נתונים של ' + A.players.filter(function (p) { return p.status === 'abroad'; }).length + ' שחקנים…</p>';
-    else if (!sp.data) resultsHtml = '<p class="locked"><span class="down">המקור לא זמין כרגע.</span></p>';
-    else if (!resList.length) resultsHtml = '<p class="locked">אין משחקים של ישראלים ב-7 הימים האחרונים.</p>';
+    if (!sp || !sp.data || !resList.length) resultsHtml = '';
     else resultsHtml = '<ul class="rows sport">' + resList.map(function (r) {
       var g = r.g;
       var score = (g.team_score !== null && g.opp_score !== null) ? F.ltr(g.team_score + '–' + g.opp_score) : '';
@@ -1262,8 +1255,7 @@
     }).join('') + '</ul>';
 
     var fixHtml;
-    if (!sp || !sp.data) fixHtml = '';
-    else if (!fixList.length) fixHtml = '<p class="locked">אין משחקים של ישראלים ב-7 הימים הקרובים.</p>';
+    if (!sp || !sp.data || !fixList.length) fixHtml = '';
     else fixHtml = '<ul class="rows sport">' + fixList.map(function (f) {
       var n = f.n;
       return '<li><b>' + esc(relDay(n.date)) + ' ' + F.ltr(F.hhmm(n.date)) + '</b> · ' +
@@ -1279,9 +1271,7 @@
     function ligatHaalHtml() {
       var g = generated('ligat_haal');
       var okIfa = R.isDisplayable(R.sourceById('src_one_data')), okTv = R.isDisplayable(R.sourceById('src_livegames'));
-      if (!g.entry || !g.entry.data) {
-        return '<h3 class="sub">ליגת העל בכדורגל</h3><p class="locked">המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
-      }
+      if (!g.entry || !g.entry.data) return '';
       var d = g.entry.data;
       function localIso() { var n = new Date(); return new Date(n.getTime() - n.getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
       function dm(iso) { var p = iso.split('-'); return F.ltr(p[2] + '/' + p[1]); }
@@ -1294,8 +1284,7 @@
       });
       var title = todays.length ? 'ליגת העל בכדורגל — היום' : 'ליגת העל בכדורגל — המחזור הבא';
 
-      var upHtml = !okTv ? '<p class="locked">לוח המשחקים הקרובים: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ב-ONE</a></p>'
-        : !show.length ? '<p class="locked">לא נמצאו משחקים בלוח השידורים לימים הקרובים.</p>'
+      var upHtml = !okTv || !show.length ? ''
         : '<ul class="rows sport">' + show.map(function (u) {
             var day = u.date === today ? 'היום' : dm(u.date);
             return '<li><b>' + esc(day === 'היום' ? '' : day + ' ') + F.ltr(esc(u.time)) + '</b> · ' + esc(u.home) + ' – ' + esc(u.away) +
@@ -1310,12 +1299,9 @@
                    '<a href="' + esc(r.link) + '" target="_blank" rel="noopener noreferrer">' +
                    esc(r.home) + ' ' + F.ltr(esc(sc[0].trim()) + '–' + esc((sc[1] || '').trim())) + ' ' + esc(r.away) + '</a></li>';
           }).join('') + '</ul>'
-        : (!okIfa
-            ? '<p class="locked filter-note">תוצאות וטבלת ליגת העל: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ב-ONE</a></p>'
-            : d.results_available === false
-              ? '<p class="locked filter-note">תוצאות ליגת העל לא זמינות כרגע — המקור לא נקרא בימים האחרונים.</p>'
-              : '');
+        : '';
 
+      if (!upHtml && !resHtml) return '';
       return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
         '<p class="locked filter-note">' + (okTv ? '<a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' : '') +
         (okIfa ? '<a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ONE</a> · ' : '') +
@@ -1326,14 +1312,13 @@
     function europeHtml() {
       var eu = (window.DB.live || {}).europe;
       var h = '<h3 class="sub">קבוצות ישראליות באירופה</h3>';
-      if (!eu) return h + '<p class="locked">טוען…</p>';
-      if (!eu.data) return h + '<p class="locked"><span class="down">המקור לא זמין כרגע.</span></p>';
+      if (!eu || !eu.data) return '';
       var games = eu.data.games || [];
       var nowT = Date.now();
       var up = games.filter(function (g) { return !g.completed && new Date(g.date).getTime() > nowT - 3 * 3600000; }).slice(0, 5);
       var done = games.filter(function (g) { return g.completed && nowT - new Date(g.date).getTime() < 45 * DAY; })
                       .sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 5);
-      if (!up.length && !done.length) return h + '<p class="locked">אין קבוצות ישראליות במפעלים האירופיים בחודשים האחרונים.</p>';
+      if (!up.length && !done.length) return '';
 
       var RES = { W: ['ניצחון', 'up'], L: ['הפסד', 'down'], D: ['תיקו', ''] };
       var html = '';
@@ -1365,10 +1350,10 @@
       : '';
 
     var html =
-      '<h3 class="sub">תוצאות ישראלים — 7 הימים האחרונים</h3>' + resultsHtml +
-      '<h3 class="sub">ישראלים בחו"ל — משחקים קרובים</h3>' + fixHtml + movedHtml +
+      section('תוצאות ישראלים — 7 הימים האחרונים', resultsHtml) +
+      section('ישראלים בחו"ל — משחקים קרובים', fixHtml ? fixHtml + movedHtml : '') +
       ligatHaalHtml() + europeHtml() +
-      (sp ? srcLine(st, sp.data_time, src.attribution, false) : '');
+      (sp && sp.data ? srcLine(st, sp.data_time, src.attribution, false) : '');
 
     $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', html, false, st);
   }
@@ -1394,14 +1379,8 @@
     };
 
     var medical;
-    if (!liveOk) {
-      medical = '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
-    } else if (!e) {
-      medical = '<p class="locked">טוען…</p>';
-    } else if (!e.data) {
-      medical = '<p class="locked"><span class="down">הפיד לא זמין כרגע.</span></p>';
-    } else if (!e.data.medical.length) {
-      medical = '<p class="locked">אין כתבות חיוביות חדשות ב-45 הימים האחרונים.</p>';
+    if (!liveOk || !e || !e.data || !e.data.medical.length) {
+      medical = '';                                  // אין כתבות — הקטע לא מוצג
     } else {
       medical = '<ul class="rows news">' + e.data.medical.map(function (i) {
         return '<li><span class="badge lic med-' + i.tag + '" title="' + esc(TAG_TIPS[i.tag]) + '">' + TAGS[i.tag] + '</span> ' +
@@ -1413,21 +1392,16 @@
     /* חיות — Good News Network, כותרות מתורגמות, מהמשימה בענן */
     function animalsBlock() {
       var gsrc = R.sourceById('src_gnn');
-      if (!R.isDisplayable(gsrc)) return '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
       var g = generated('animals');
-      if (!g.entry || !g.entry.data) {
-        return '<p class="locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
-               'המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
-      }
+      if (!R.isDisplayable(gsrc) || !g.entry || !g.entry.data || !g.entry.data.length) return '';
       return '<ul class="rows news">' + g.entry.data.map(headlineItem).join('') + '</ul>' +
         srcLine(g.state, g.entry.checked_at, gsrc.attribution, g.entry.ok === false);
     }
 
-    var dr = e && e.data && e.data.dropped;
     var html =
-      '<h3 class="sub">התקדמות רפואית</h3>' + medical +
-      '<h3 class="sub">חתולים וחיות</h3>' + animalsBlock() +
-      (liveOk ? srcLine(st, e && e.data_time, src.attribution, e && e.ok === false) : '');
+      section('התקדמות רפואית', medical) +
+      section('חתולים וחיות', animalsBlock()) +
+      (liveOk && medical ? srcLine(st, e && e.data_time, src.attribution, e && e.ok === false) : '');
 
     $('#positive-slot').innerHTML = corner(5, 'תוכן חיובי', 'positive', html, false, liveOk ? st : undefined);
   }
@@ -1450,10 +1424,8 @@
     var liveOk = R.isDisplayable(src);
 
     /* כותרת מקורית + תאריך + קישור. בלי תקציר ובלי תמונה (רישוי: קישור בלבד). */
-    function newsList(items, emptyMsg) {
-      if (!e) return '<p class="locked">טוען…</p>';
-      if (items === null || items === undefined) return '<p class="locked"><span class="down">הפיד לא זמין כרגע.</span></p>';
-      if (!items.length) return '<p class="locked">' + esc(emptyMsg) + '</p>';
+    function newsList(items) {
+      if (!items || !items.length) return '';      // אין כתבות — הקטע לא מוצג בכלל
       return '<ul class="rows news">' + items.map(function (i) {
         return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a>' +
                ' <span class="locked">· ' + F.dateText(i.date) + '</span></li>';
@@ -1461,15 +1433,11 @@
     }
 
     var ld = (e && e.data) || {};
-    var liveHtml = !liveOk
-      ? '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>'
-      : '<h3 class="sub">רכב — מבחנים וסקירות</h3>' + newsList(ld.cars, 'אין מבחנים חדשים.') +
-        '<h3 class="sub">תיירות — יעדים</h3>' + newsList(ld.destinations, 'אין כתבות יעדים חדשות.') +
-        '<h3 class="sub">תיירות — חדשות תעופה שנוגעות לטיסות מ/אל ישראל</h3>' +
-          newsList(ld.aviation, 'אין חדשות תעופה רלוונטיות ב-3 השבועות האחרונים.') +
-        '<h3 class="sub">תיירות — מבצעים חריגים מישראל</h3>' +
-          '<p class="locked">עדיין אין מקור מתאים. לא נמצא פיד פתוח של מבצעי טיסות וחופשות.</p>' +
-        srcLine(st, e && e.data_time, src.attribution, e && e.ok === false);
+    var liveBody = !liveOk ? '' :
+      section('רכב — מבחנים וסקירות', newsList(ld.cars)) +
+      section('תיירות — יעדים', newsList(ld.destinations)) +
+      section('תיירות — חדשות תעופה מ/אל ישראל', newsList(ld.aviation));
+    var liveHtml = liveBody ? liveBody + srcLine(st, e && e.data_time, src.attribution, e && e.ok === false) : '';
 
     /* קולנוע ביתי: עברית (וואלה, חי מהדפדפן) + אנגלית (What Hi-Fi, מתורגם, מהמשימה בענן).
        ממוזגים לפי תאריך, 5 האחרונים. */
@@ -1477,25 +1445,25 @@
     var avEnOk = R.isDisplayable(R.sourceById('src_whathifi')) && gav.entry && gav.entry.data;
     var avAll = [].concat(liveOk && ld.av ? ld.av : [], avEnOk ? gav.entry.data : [])
       .sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 5);
-    var avHtml = (liveOk || avEnOk)
-      ? '<h3 class="sub">קולנוע ביתי / סטריאו — סקירות ומוצרים</h3>' +
-          (avAll.length ? '<ul class="rows news">' + avAll.map(headlineItem).join('') + '</ul>'
-                        : '<p class="locked">אין סקירות אודיו/וידאו חדשות.</p>') +
-          '<p class="locked filter-note" title="וואלה (עברית) + What Hi-Fi? (אנגלית, כותרות מתורגמות אוטומטית). כתבות מבצעים מסוננות.">' +
-          'סקירות: וואלה · What Hi-Fi?</p>'
-      : '<h3 class="sub">קולנוע ביתי / סטריאו' + demoTag + '</h3><ul class="rows">' + d.av.map(li).join('') + '</ul>';
+    var avHtml = avAll.length
+      ? section('קולנוע ביתי / סטריאו — סקירות ומוצרים',
+          '<ul class="rows news">' + avAll.map(headlineItem).join('') + '</ul>' +
+          '<p class="locked filter-note" title="וואלה (עברית) + What Hi-Fi? (אנגלית, כותרות מתורגמות אוטומטית)">' +
+          'סקירות: וואלה · What Hi-Fi?</p>')
+      : '';
 
-    var html = liveHtml + avHtml +
-      '<h3 class="sub">&nbsp;</h3>' +
-      '<div class="sponsored-box">' +
-        '<div class="hdr">🏷️ תוכן מקודם — מוצרים שאני מקדם. לא ביקורת אובייקטיבית.</div>' +
-        ((C.promoted_products || []).length
-          ? '<ul class="rows">' + C.promoted_products.map(function (p) {
-              return '<li>' + (p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>' : esc(p.title)) +
-                     (p.desc ? ' <span class="locked">— ' + esc(p.desc) + '</span>' : '') + '</li>';
-            }).join('') + '</ul>'
-          : '<p class="locked">מקום שמור למוצרים שלי — יתווספו בהמשך.</p>') +
-      '</div>';
+    /* תוכן מקודם: הכרטיס מופיע רק כשבאמת יש מוצרים ברשימה */
+    var promoted = (C.promoted_products || []).length
+      ? '<div class="sponsored-box">' +
+          '<div class="hdr">🏷️ תוכן מקודם — מוצרים שאני מקדם. לא ביקורת אובייקטיבית.</div>' +
+          '<ul class="rows">' + C.promoted_products.map(function (p) {
+            return '<li>' + (p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>' : esc(p.title)) +
+                   (p.desc ? ' <span class="locked">— ' + esc(p.desc) + '</span>' : '') + '</li>';
+          }).join('') + '</ul>' +
+        '</div>'
+      : '';
+
+    var html = liveHtml + avHtml + promoted;
 
     $('#lifestyle-slot').innerHTML = corner(6, 'רכב + תיירות + קולנוע ביתי', 'lifestyle', html, false,
                                             liveOk ? st : undefined);
