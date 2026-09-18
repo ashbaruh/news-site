@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T17:54:19+00:00",
-  "fetched_at": "2026-09-18T17:54:19+00:00"
+  "checked_at": "2026-09-18T20:56:32+00:00",
+  "fetched_at": "2026-09-18T20:56:32+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T17:54:26+00:00",
-  "fetched_at": "2026-09-18T17:54:26+00:00"
+  "checked_at": "2026-09-18T20:56:44+00:00",
+  "fetched_at": "2026-09-18T20:56:44+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T17:54:28+00:00",
-  "fetched_at": "2026-09-18T17:54:28+00:00"
+  "checked_at": "2026-09-18T20:56:44+00:00",
+  "fetched_at": "2026-09-18T20:56:44+00:00"
  },
- "generated_at": "2026-09-18T17:54:28+00:00",
+ "generated_at": "2026-09-18T20:56:44+00:00",
  "globes": {
   "data": {
    "top": [
@@ -97,14 +97,14 @@
    ],
    "market": [
     {
+     "title": "מגמה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
+     "date": "2026-09-18T18:56:00+00:00"
+    },
+    {
      "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555554",
      "date": "2026-09-18T16:55:00+00:00"
-    },
-    {
-     "title": "וול סטריט עברה לירידות; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T15:16:00+00:00"
     },
     {
      "title": "השעות הגורליות בלב ים וההיעלמות המסתורית של מתנגד המשטר",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T17:54:20+00:00",
-  "fetched_at": "2026-09-18T17:54:20+00:00"
+  "checked_at": "2026-09-18T20:56:33+00:00",
+  "fetched_at": "2026-09-18T20:56:33+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T17:54:21+00:00",
-  "fetched_at": "2026-09-18T17:54:21+00:00"
+  "checked_at": "2026-09-18T20:56:34+00:00",
+  "fetched_at": "2026-09-18T20:56:34+00:00"
  },
  "tv": {
   "data": [
@@ -2100,6 +2100,13 @@
    },
    {
     "date": "2026-09-19",
+    "time": "17:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - פנרבחצ'ה"
+   },
+   {
+    "date": "2026-09-19",
     "time": "17:15",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -2177,10 +2184,10 @@
    },
    {
     "date": "2026-09-19",
-    "time": "20:15",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "הפועל באר שבע - הפועל קרית שמונה"
+    "time": "20:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "ריאל מדריד - אולימפיאקוס"
    },
    {
     "date": "2026-09-19",
@@ -2188,6 +2195,13 @@
     "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "הפועל גליל עליון - הפועל העמק"
+   },
+   {
+    "date": "2026-09-19",
+    "time": "20:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "הפועל באר שבע - הפועל קרית שמונה"
    },
    {
     "date": "2026-09-19",
@@ -2365,6 +2379,20 @@
     "title": "ורונה - ויצ'נזה וירטוס"
    },
    {
+    "date": "2026-09-22",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי ראשון לציון - הפועל ב\"ש/דימונה"
+   },
+   {
+    "date": "2026-09-23",
+    "time": "18:40",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל חולון - מכבי רמת גן"
+   },
+   {
     "date": "2026-09-23",
     "time": "20:30",
     "channel": "ספורט 5+ לייב",
@@ -2428,10 +2456,9 @@
     "title": "אוסטריה - ישראל"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-18T17:54:21+00:00",
-  "fetched_at": "2026-09-18T14:32:28+00:00"
+  "ok": true,
+  "checked_at": "2026-09-18T20:56:36+00:00",
+  "fetched_at": "2026-09-18T20:56:36+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2546,8 +2573,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T17:54:21+00:00",
-  "fetched_at": "2026-09-18T17:54:21+00:00"
+  "checked_at": "2026-09-18T20:56:36+00:00",
+  "fetched_at": "2026-09-18T20:56:36+00:00"
  },
  "ai": {
   "data": {
@@ -2571,16 +2598,14 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 13,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 399,
+     "likes": 402,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2594,43 +2619,50 @@
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 66,
+     "likes": 68,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 81,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 69,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
+    },
+    {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 59,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
@@ -2638,28 +2670,30 @@
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
      "likes": 82,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
-    },
-    {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 57,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T17:54:25+00:00",
-  "fetched_at": "2026-09-18T17:54:25+00:00"
+  "checked_at": "2026-09-18T20:56:43+00:00",
+  "fetched_at": "2026-09-18T20:56:43+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "רוי רביבו שמר על מקומו בהרכב אלצ'ה מול אספניול",
-     "link": "https://sports.walla.co.il/item/3868781",
-     "date": "2026-09-18T20:46:00+00:00",
+     "title": "בספרד המומים מרוי רביבו: \"עצום, הוא הוא החדשות הגדולות של המשחק\"",
+     "link": "https://sports.walla.co.il/item/3868813",
+     "date": "2026-09-18T22:47:00+00:00",
      "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "הישג נדיר: המספרים מאחורי הערב הגדול של רביבו",
+     "link": "https://www.one.co.il/Article/533803.html?ref=rss",
+     "date": "2026-09-18T20:26:00+00:00",
+     "source": "ONE",
      "players": [
       "רועי רביבו"
      ]
@@ -2674,9 +2708,9 @@
      ]
     },
     {
-     "title": "המשכיות: רביבו פותח באלצ'ה ב-22:00 נגד אספניול",
-     "link": "https://www.one.co.il/Article/533791.html?ref=rss",
-     "date": "2026-09-18T17:45:00+00:00",
+     "title": "\"איזו החתמה, רוי רביבו הכוכב השקט של המשחק\"",
+     "link": "https://www.one.co.il/Article/533800.html?ref=rss",
+     "date": "2026-09-18T19:31:00+00:00",
      "source": "ONE",
      "players": [
       "רועי רביבו"
@@ -2776,15 +2810,6 @@
      "title": "דני אבדיה ייקח צעד לאחור? התחזיות בארה\"ב לגבי פורטלנד",
      "link": "https://sports.walla.co.il/item/3867256",
      "date": "2026-09-12T07:36:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ואיפה דני אבדיה? דירוג הסמול פורוורדים הטובים ב-NBA",
-     "link": "https://sports.walla.co.il/item/3867246",
-     "date": "2026-09-11T20:36:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2991,7 +3016,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-18T17:54:24+00:00",
-  "fetched_at": "2026-09-18T17:54:24+00:00"
+  "checked_at": "2026-09-18T20:56:39+00:00",
+  "fetched_at": "2026-09-18T20:56:39+00:00"
  }
 }
