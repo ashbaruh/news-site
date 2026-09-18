@@ -292,7 +292,7 @@ window.DB.sources = [
   {
     id: 'src_ai_labs', name: 'Anthropic · Google DeepMind · OpenAI · Google', kind: 'בלוגים רשמיים של חברות AI',
     license_mode: 'link_only', independence_group: 'official_ai_labs',
-    attribution: 'כותרות: הבלוגים הרשמיים של החברות (תורגמו אוטומטית)',
+    attribution: 'כותרות: הבלוגים הרשמיים של החברות (תורגם)',
     note: 'כותרת מתורגמת + קישור בלבד. ל-Anthropic אין RSS — נקרא עמוד החדשות. מ-OpenAI מתקבלים רק פוסטים מסוג Product/Research/Company/Safety (סיפורי לקוחות מסוננים).'
   },
   {
@@ -336,13 +336,13 @@ window.DB.sources = [
   {
     id: 'src_gnn', name: 'Good News Network', kind: 'RSS באנגלית — חדשות טובות',
     license_mode: 'link_only', independence_group: 'media_gnn',
-    attribution: 'כותרות: Good News Network (תורגמו אוטומטית)',
+    attribution: 'כותרות: Good News Network (תורגם)',
     note: 'מוצגת כותרת מתורגמת אוטומטית + קישור. בלי תקציר ובלי תמונות. נמשך ע"י המשימה בענן כי המקור חוסם קריאה ישירה.'
   },
   {
     id: 'src_whathifi', name: 'What Hi-Fi?', kind: 'RSS באנגלית — ביקורות אודיו/וידאו',
     license_mode: 'link_only', independence_group: 'media_whathifi',
-    attribution: 'כותרות: What Hi-Fi? (תורגמו אוטומטית)',
+    attribution: 'כותרות: What Hi-Fi? (תורגם)',
     note: 'מוצגת כותרת מתורגמת אוטומטית + קישור. כתבות מבצעים מסוננות. נמשך ע"י המשימה בענן.'
   },
 

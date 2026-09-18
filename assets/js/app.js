@@ -721,6 +721,16 @@
     '</details>';
   }
 
+  /* שורת מקור קצרה: תג טריות (זמן הבדיקה בטולטיפ) + הקרדיט שחייב להופיע לפי רישוי המקור */
+  function srcLine(state, checkedAt, attribution, failed) {
+    var tip = checkedAt ? 'נבדק ' + F.dateTimeText(checkedAt) : '';
+    return '<div class="src-line locked">' +
+      '<span class="fresh-tag ' + state.level + '" title="' + esc(tip) + '">' + esc(state.label) + '</span> ' +
+      esc(attribution || '') +
+      (failed ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
+      '</div>';
+  }
+
   /* ============================================================
      2. כלכלה + שווקים
      ============================================================ */
@@ -908,10 +918,8 @@
         ? ' · <span class="tag-demo">שימוש אישי בלבד</span>' : '';
 
       return '<li class="src-line">' +
-        '<span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
-        '<b>' + esc(src.name) + '</b>' + personal + ' — ' + esc(syms.join(', ')) +
-        (when ? ' · ' + esc(when) : '') + extra +
-        '<div class="locked">' + esc(src.attribution || '') + '</div>' +
+        '<span class="fresh-tag ' + st.level + '" title="' + esc(syms.join(', ') + (when ? ' · ' + when : '')) + '">' +
+        esc(st.label) + '</span> ' + esc(src.attribution || src.name) + personal + extra +
       '</li>';
     }).join('');
 
@@ -952,9 +960,8 @@
       var dir = boi.previous_rate === null || boi.previous_rate === undefined ? ''
               : boi.rate < boi.previous_rate ? 'הורדה' : (boi.rate > boi.previous_rate ? 'העלאה' : 'ללא שינוי');
       var how = fromJob
-        ? 'עודכן אוטומטית' + (gb.entry.checked_at ? ' · נבדק ' + F.dateTimeText(gb.entry.checked_at) : '') +
-          (gb.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '')
-        : 'תמונת מצב ידנית מ-' + F.dateText(snap.checked_at) + ' — המשימה האוטומטית עדיין לא רצה';
+        ? (gb.entry.ok === false ? '<span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '')
+        : 'תמונת מצב ידנית מ-' + F.dateText(snap.checked_at);
       rateItems.push(
         '<li><span class="fresh-tag ' + bst.level + '">' + esc(bst.label) + '</span> ' +
         '<b>בנק ישראל: ' + pct(boi.rate) + '</b>' +
@@ -1031,15 +1038,16 @@
                '<div class="mk-tags">נוגע ל: ' + x.tags.map(function (t) { return '<span class="tag-demo">' + esc(t) + '</span>'; }).join(' ') + '</div></li>';
       }).join('') + '</ul>';
     }
-    marketNewsHtml += '<p class="locked filter-note">גלובס' + (globesOk ? ' (נבדק ' + F.dateTimeText(gg.entry.checked_at) + ' · <span class="fresh-tag ' + gg.state.level + '">' + esc(gg.state.label) + '</span>)' : ' (לא זמין)') +
-                      ' + וואלה כסף. סינון לפי מילות מפתח של המכשירים ברשימה — ללא בינה.</p>';
+    marketNewsHtml += '<p class="locked filter-note" title="סינון לפי מילות מפתח של המכשירים ברשימה, ללא בינה' +
+      (globesOk ? ' · נבדק ' + esc(F.dateTimeText(gg.entry.checked_at)) : '') + '">כותרות: גלובס' +
+      (globesOk ? '' : ' (לא זמין)') + ' · וואלה כסף</p>';
 
     var globesTopHtml = globesOk && gg.entry.data.top.length
       ? '<ul class="rows news">' + gg.entry.data.top.map(function (i) {
           return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a>' +
                  ' <span class="locked">· ' + F.dateTimeText(i.date) + '</span></li>';
         }).join('') + '</ul>' +
-        '<p class="locked filter-note">כותרות וקישורים: גלובס. כלכליסט נבדק וחוסם גישה.</p>'
+        '<p class="locked filter-note">כותרות וקישורים: גלובס</p>'
       : '<p class="locked">' + (gg.entry ? '<span class="down">גלובס לא זמין כרגע.</span>' : 'המשימה האוטומטית עדיין לא הביאה נתונים.') + '</p>';
 
     var html =
@@ -1093,15 +1101,10 @@
 
     var html =
       '<h3 class="sub">חדשות — מקסימום 2 ביום</h3>' + newsHtml +
-      '<p class="locked filter-note">נבחרות לפי כללים קבועים, בלי בינה: הכרזה על מודל/מוצר קודמת לכל, ' +
-        'אחריה חדשות תעשייה בעברית, ואחריה פוסטים כלליים. ממקורות שונים. נבדקו ' + (d.candidates || 0) + ' כתבות מ-3 הימים האחרונים.' +
-        ((d.failed_sources || []).length ? ' <span class="down">לא נטענו: ' + esc(d.failed_sources.join(', ')) + '</span>' : '') + '</p>' +
+      ((d.failed_sources || []).length
+        ? '<p class="locked filter-note"><span class="down">לא נטענו: ' + esc(d.failed_sources.join(', ')) + '</span></p>' : '') +
       '<h3 class="sub">כלים · דמואים חינמיים (במגמה)</h3>' + toolsHtml +
-      '<p class="locked filter-note">Hugging Face Spaces · מסוננים: תוכן לא הולם, הסרת סימני מים, דמואים שלא עובדים, עותקים.</p>' +
-      '<div class="src-line locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
-        'נבדק ' + F.dateTimeText(g.entry.checked_at) +
-        (g.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
-        ' · Anthropic, Google DeepMind, OpenAI, Google, גיקטיים, Hugging Face</div>';
+      srcLine(g.state, g.entry.checked_at, 'Anthropic, Google DeepMind, OpenAI, Google, גיקטיים, Hugging Face', g.entry.ok === false);
 
     $('#ai-slot').innerHTML = corner(3, 'AI', 'ai', html, false, g.state);
   }
@@ -1314,8 +1317,9 @@
               : '');
 
       return '<h3 class="sub">' + title + '</h3>' + upHtml + resHtml +
-        '<p class="locked filter-note">' + (okTv ? 'משחקים וערוצים: <a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' : '') +
-        (okIfa ? 'תוצאות: <a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ONE</a> · ' : '') + 'נבדק ' + F.dateTimeText(g.entry.checked_at) + ' · <span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span></p>';
+        '<p class="locked filter-note">' + (okTv ? '<a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">LiveGames</a> · ' : '') +
+        (okIfa ? '<a href="https://www.one.co.il/Soccer/League/1" target="_blank" rel="noopener noreferrer">ONE</a> · ' : '') +
+        '<span class="fresh-tag ' + g.state.level + '" title="נבדק ' + esc(F.dateTimeText(g.entry.checked_at)) + '">' + esc(g.state.label) + '</span></p>';
     }
 
     /* --- קבוצות ישראליות באירופה --- */
@@ -1350,8 +1354,8 @@
                  ' <span class="locked">· ' + esc(v.comp) + '</span></li>';
         }).join('') + '</ul>';
       }
-      return h + html + '<p class="locked filter-note">כל המפעלים האירופיים, כולל מוקדמות · קבוצה ישראלית מזוהה לבד · ' +
-             'התוצאה מוצגת מנקודת המבט של הקבוצה הישראלית · ESPN' + (up.some(function (g) { return europeView(g).tv; }) ? ' · ערוצים: LiveGames' : '') + '</p>';
+      return h + html + '<p class="locked filter-note" title="כל המפעלים האירופיים כולל מוקדמות · התוצאה מנקודת המבט של הקבוצה הישראלית">ESPN' +
+             (up.some(function (g) { return europeView(g).tv; }) ? ' · LiveGames' : '') + '</p>';
     }
 
     var movedHtml = moved.length
@@ -1364,10 +1368,7 @@
       '<h3 class="sub">תוצאות ישראלים — 7 הימים האחרונים</h3>' + resultsHtml +
       '<h3 class="sub">ישראלים בחו"ל — משחקים קרובים</h3>' + fixHtml + movedHtml +
       ligatHaalHtml() + europeHtml() +
-      (sp ? '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
-        (sp.data_time ? 'נבדק ' + F.dateTimeText(sp.data_time) : '') +
-        (sp.partial_failures ? ' · <span class="down">' + sp.partial_failures + ' מתוך ' + sp.total + ' שחקנים לא נטענו</span>' : '') +
-        ' · ' + esc(src.attribution) + ' · <span class="tag-demo">שימוש אישי בלבד</span></div>' : '');
+      (sp ? srcLine(st, sp.data_time, src.attribution, false) : '');
 
     $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', html, false, st);
   }
@@ -1419,27 +1420,14 @@
                'המשימה האוטומטית עדיין לא הביאה נתונים.</p>';
       }
       return '<ul class="rows news">' + g.entry.data.map(headlineItem).join('') + '</ul>' +
-        '<div class="src-line locked"><span class="fresh-tag ' + g.state.level + '">' + esc(g.state.label) + '</span> ' +
-          'נבדק ' + F.dateTimeText(g.entry.checked_at) +
-          (g.entry.ok === false ? ' · <span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
-          ' · ' + esc(gsrc.attribution) + '</div>';
+        srcLine(g.state, g.entry.checked_at, gsrc.attribution, g.entry.ok === false);
     }
 
     var dr = e && e.data && e.data.dropped;
     var html =
       '<h3 class="sub">התקדמות רפואית</h3>' + medical +
-      (liveOk && e && e.data
-        ? '<p class="locked filter-note">נסרקו ' + e.data.scanned + ' כותרות · סוננו ' + dr.negative + ' שליליות' +
-          (dr.sponsored ? ' ו-' + dr.sponsored + ' ממומנות' : '') +
-          ' · ✅ ניתן רק כשכתוב במפורש שאושר. סינון לפי מילות מפתח, ללא בינה.</p>'
-        : '') +
       '<h3 class="sub">חתולים וחיות</h3>' + animalsBlock() +
-      (liveOk
-        ? '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
-          (e && e.data_time ? 'נבדק ב-' + F.hhmm(e.data_time) : '') +
-          (e && e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
-          ' · ' + esc(src.attribution) + '</div>'
-        : '');
+      (liveOk ? srcLine(st, e && e.data_time, src.attribution, e && e.ok === false) : '');
 
     $('#positive-slot').innerHTML = corner(5, 'תוכן חיובי', 'positive', html, false, liveOk ? st : undefined);
   }
@@ -1479,13 +1467,9 @@
         '<h3 class="sub">תיירות — יעדים</h3>' + newsList(ld.destinations, 'אין כתבות יעדים חדשות.') +
         '<h3 class="sub">תיירות — חדשות תעופה שנוגעות לטיסות מ/אל ישראל</h3>' +
           newsList(ld.aviation, 'אין חדשות תעופה רלוונטיות ב-3 השבועות האחרונים.') +
-          '<p class="locked filter-note">סינון אוטומטי לפי מילות מפתח (תעופה + קשר לישראל), ללא בינה — ייתכנו פספוסים.</p>' +
         '<h3 class="sub">תיירות — מבצעים חריגים מישראל</h3>' +
           '<p class="locked">עדיין אין מקור מתאים. לא נמצא פיד פתוח של מבצעי טיסות וחופשות.</p>' +
-        '<div class="src-line locked"><span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
-          (e && e.data_time ? 'נבדק ב-' + F.hhmm(e.data_time) : '') +
-          (e && e.ok === false ? ' · <span class="down">הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '') +
-          ' · ' + esc(src.attribution) + '</div>';
+        srcLine(st, e && e.data_time, src.attribution, e && e.ok === false);
 
     /* קולנוע ביתי: עברית (וואלה, חי מהדפדפן) + אנגלית (What Hi-Fi, מתורגם, מהמשימה בענן).
        ממוזגים לפי תאריך, 5 האחרונים. */
@@ -1497,9 +1481,8 @@
       ? '<h3 class="sub">קולנוע ביתי / סטריאו — סקירות ומוצרים</h3>' +
           (avAll.length ? '<ul class="rows news">' + avAll.map(headlineItem).join('') + '</ul>'
                         : '<p class="locked">אין סקירות אודיו/וידאו חדשות.</p>') +
-          '<p class="locked filter-note">וואלה (עברית) + What Hi-Fi? (אנגלית, כותרות מתורגמות אוטומטית). כתבות מבצעים מסוננות.' +
-          (avEnOk ? ' · אנגלית נבדקה ' + F.dateTimeText(gav.entry.checked_at) + ' · ' +
-                    '<span class="fresh-tag ' + gav.state.level + '">' + esc(gav.state.label) + '</span>' : '') + '</p>'
+          '<p class="locked filter-note" title="וואלה (עברית) + What Hi-Fi? (אנגלית, כותרות מתורגמות אוטומטית). כתבות מבצעים מסוננות.">' +
+          'סקירות: וואלה · What Hi-Fi?</p>'
       : '<h3 class="sub">קולנוע ביתי / סטריאו' + demoTag + '</h3><ul class="rows">' + d.av.map(li).join('') + '</ul>';
 
     var html = liveHtml + avHtml +

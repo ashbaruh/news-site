@@ -37,8 +37,12 @@
   var current = lists.filter(function (l) { return l.id === load(KEY_LIST); })[0] ||
                 lists.filter(function (l) { return l.is_default; })[0] || lists[0];
 
-  // בטלפון (מסך צר) מתחילים ממוזער — נגן של 200 פיקסלים יכסה חצי מסך
-  var minimized = load(KEY_MIN) === '1' || (load(KEY_MIN) === null && window.innerWidth < 600);
+  var PHONE = window.matchMedia ? window.matchMedia('(max-width: 700px)') : { matches: window.innerWidth < 700 };
+  function isPhone() { return PHONE.matches; }
+
+  /* ברירת מחדל: במחשב הנגן פתוח ומתחיל לנגן לבד; בטלפון סגור (כפתור עגול) כדי לא לתפוס מסך.
+     בכל מקרה הבחירה האחרונה של הגולש נשמרת. */
+  var minimized = load(KEY_MIN) !== null ? load(KEY_MIN) === '1' : isPhone();
 
   var player = null;        // הנגן הנוכחי
   var gen = 0;              // מספר הבנייה — אירועים מנגן ישן מתעלמים מהם
@@ -50,8 +54,8 @@
   /* ---------- מבנה ---------- */
 
   root.innerHTML =
-    '<header>🎵 <span>נגן מוזיקה</span>' +
-      '<button class="toggle" id="pl-toggle" type="button"></button></header>' +
+    '<header>🎵 <span>מוזיקה בזמן גלישה</span>' +
+      '<button class="toggle" id="pl-toggle" type="button" aria-label="סגירת הנגן">✕</button></header>' +
     '<div class="stage"></div>' +
     '<div class="now" id="pl-now">טוען…</div>' +
     '<div class="foot">' +
@@ -67,8 +71,7 @@
         }).join('') +
       '</select>' +
     '</div>' +
-    '<div class="pl-mini"><button type="button" id="pl-mini-play" title="נגן / השהה">⏯</button>' +
-      '<button type="button" id="pl-resume"></button></div>';
+    '<button type="button" class="pl-fab" id="pl-fab" title="מוזיקה" aria-label="פתיחת נגן המוזיקה">🎵</button>';
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -77,23 +80,14 @@
     $('pl-now').className = 'now' + (cls ? ' ' + cls : '');
   }
 
-  /* מזעור = הנגן מתכווץ לגודל המינימלי ש-YouTube מחייב (200x200) ונשאר גלוי — והמוזיקה ממשיכה.
-     (כללי YouTube: אסור להסתיר את הנגן לגמרי ולהשמיע רק קול.) */
-  var PHONE = window.matchMedia ? window.matchMedia('(max-width: 700px)') : { matches: window.innerWidth < 700 };
-
-  function isPhone() { return PHONE.matches; }
-
-  /* בטלפון מצב "מוקטן" = סרגל דק בלי סרטון, והמוזיקה עוצרת (כללי YouTube: לא מנגנים כשהנגן מוסתר).
-     במחשב מצב "מוקטן" = ריבוע 200x200 גלוי, והמוזיקה ממשיכה. */
+  /* סגור = כפתור עגול קטן בפינה, בלי נגן על המסך.
+     כללי YouTube אוסרים להשמיע כשהנגן מוסתר — לכן סגירה משהה, ופתיחה ממשיכה מאותו מקום. */
   function setMinimized(on) {
     minimized = on;
     root.classList.toggle('minimized', on);
-    $('pl-toggle').textContent = on ? '▴' : '▾';
-    $('pl-toggle').title = on ? 'הגדל' : 'הקטן (המוזיקה ממשיכה)';
-    $('pl-resume').textContent = '▶ ' + current.name;
-    root.classList.toggle('bar', on && isPhone());
+    $('pl-fab').title = on ? 'מוזיקה — ' + current.name : 'סגירת הנגן';
     store(KEY_MIN, on ? '1' : '0');
-    if (on && isPhone() && ready) { try { player.pauseVideo(); } catch (e) {} }
+    if (on && ready && !fatal) { try { player.pauseVideo(); } catch (e) {} }
   }
 
   /* מצב לבדיקה ולעיצוב: data-state / data-list / data-first / data-error על הווידג'ט */
@@ -163,7 +157,7 @@
           ready = true;
           mark('ready', 1);
           if (fatal) return;
-          if (minimized && isPhone()) { setNow('▶ לחיצה על הכפתור תפעיל את המוזיקה', 'hint'); return; }
+          if (minimized) { setNow('▶ לחיצה על כפתור המוזיקה תפעיל', 'hint'); return; }
           // הדפדפן מרשה השמעה אוטומטית רק בלי קול — מנגנים מושתק, והקול נדלק בלחיצה הראשונה בדף
           if (!interacted) { try { player.mute(); } catch (e) {} }
           player.playVideo();
@@ -242,17 +236,10 @@
 
   /* ---------- פקדים ---------- */
 
-  $('pl-toggle').addEventListener('click', function () { setMinimized(!minimized); });
+  $('pl-toggle').addEventListener('click', function () { setMinimized(true); });
 
-  $('pl-resume').addEventListener('click', function () {
+  $('pl-fab').addEventListener('click', function () {           // כפתור המוזיקה הצף
     setMinimized(false);
-    startPlayback();
-  });
-  $('pl-mini-play').addEventListener('click', function () {      // הפעלה/עצירה במצב מוקטן
-    if (!ready || fatal) return;
-    var st = player.getPlayerState();
-    if (st === 1 || st === 3) { player.pauseVideo(); return; }
-    if (isPhone()) setMinimized(false);        // בטלפון: פתיחה לגודל המותר לפני שמנגנים
     startPlayback();
   });
 
@@ -269,7 +256,6 @@
     if (!chosen || chosen === current) return;
     current = chosen;
     store(KEY_LIST, current.id);
-    $('pl-resume').textContent = '▶ ' + current.name;
     setNow('טוען ' + current.name + '…');
     if (apiLoaded && !fatal) build();
   });
