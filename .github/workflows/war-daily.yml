@@ -56,6 +56,7 @@ jobs:
           python tools/test_war_contract.py
           python tools/mac/test_analyze.py
           python tools/test_war_approval.py
+          python tools/test_site_static.py
 
       - name: איסוף וניתוח לכל הזירות
         env:

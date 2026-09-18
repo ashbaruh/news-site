@@ -222,5 +222,44 @@ class GeminiFallback(unittest.TestCase):
             an.gemini_json("s", "u", {})
 
 
+class SameHeadline(unittest.TestCase):
+    """סעיף 2 בביקורת: כותרת זהה משני מקורות שונים נשמרת — אבל לא נספרת כשני אימותים."""
+
+    HEADLINE = "פיצוץ בנמל חודיידה, דיווח ראשוני על נפגעים"
+
+    def test_collect_keeps_same_title_from_other_source(self):
+        sys.path.insert(0, os.path.join(an.ROOT, "tools"))
+        import collect_war as cw
+        feeds = {"x": [("src_reuters", "u1", []), ("src_planet", "u2", [])]}
+        rows = {
+            "src_reuters": [{"source_id": "src_reuters", "url": "https://a/1", "published_at": T(2), "title": self.HEADLINE, "text": ""},
+                            {"source_id": "src_reuters", "url": "https://a/2", "published_at": T(3), "title": self.HEADLINE + "!", "text": ""}],
+            "src_planet":  [{"source_id": "src_planet", "url": "https://b/1", "published_at": T(2), "title": self.HEADLINE, "text": ""}],
+        }
+        orig = cw.FEEDS, cw.read_feed
+        cw.FEEDS, cw.read_feed = feeds, (lambda sid, url, words, since: rows[sid])
+        try:
+            got = cw.collect("x", log=lambda *_: None)
+        finally:
+            cw.FEEDS, cw.read_feed = orig
+        # אותו מקור + כותרת זהה (אחרי נרמול) → אחת. מקור אחר עם אותה כותרת → נשמרת.
+        self.assertEqual(sorted((i["source_id"], i["url"]) for i in got),
+                         [("src_planet", "https://b/1"), ("src_reuters", "https://a/1")])
+
+    def test_same_title_two_sources_is_not_verified(self):
+        items = [dict(ITEMS[0], title=self.HEADLINE), dict(ITEMS[1], title=self.HEADLINE)]
+        doc = an.build("iran", items, {"events": [ev("כפול", [{"item": 0, "first_hand": True, "origin": ""},
+                                                             {"item": 1, "first_hand": True, "origin": ""}])]},
+                       FAKE_OVERVIEW, 24, "low", "r", NOW)
+        e = doc["events"][0]
+        self.assertEqual(len(e["reports"]), 2)                                  # שני הדיווחים נשמרים
+        self.assertEqual(len({r["source_root_id"] for r in e["reports"]}), 1)   # אבל שורש אחד
+        self.assertNotEqual(wc.assess(e, GROUPS), "verified")
+
+    def test_different_titles_still_verified(self):
+        # אותם שני מקורות עם כותרות שונות — כמו אירוע A — נשארים שני אימותים עצמאיים
+        self.assertEqual(wc.assess(next(e for e in build()["events"] if e["title"].startswith("A")), GROUPS), "verified")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

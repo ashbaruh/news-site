@@ -39,7 +39,9 @@ jobs:
           python-version: "3.12"
 
       - name: בדיקות החוזה של פינת המלחמות
-        run: python tools/test_war_contract.py
+        run: |
+          python tools/test_war_contract.py
+          python tools/test_site_static.py
 
       - name: קליטת ניתוחי מלחמות (תיבה → בדיקה → טיוטה; פרסום רק מאושרים)
         run: python tools/ingest_war.py

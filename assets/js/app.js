@@ -67,10 +67,9 @@
     for (var i = 0; i < EN_HE_CLUBS.length; i++) if (EN_HE_CLUBS[i][0].test(en)) return EN_HE_CLUBS[i][1];
     return en;
   }
-  function localDate(iso) {
-    var d = new Date(iso);
-    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-  }
+  /* תאריך (YYYY-MM-DD) לפי שעון ישראל — "היום" באתר הוא היום בישראל, גם לגולש בחו"ל */
+  var IL_DATE = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jerusalem', year: 'numeric', month: '2-digit', day: '2-digit' });
+  function localDate(iso) { return IL_DATE.format(iso ? new Date(iso) : new Date()); }
 
   /* משחק אירופי → { israeliHe, opponent, israeliHome, result: W/L/D, extra, channel } */
   function europeView(g) {
@@ -101,7 +100,8 @@
 
   /* ---------- תג טריות לכל פינה ---------- */
   function freshTag(key, stateOverride) {
-    var s = stateOverride || F.state(key);
+    var s = stateOverride;
+    if (!s) return '';                                   // אין מצב אמיתי — אין תג (לא נופלים לחותמות דמה)
     var tip = (s.time && s.time !== '—' ? 'עודכן ב-' + s.time : '') + (s.age_text ? (s.time && s.time !== '—' ? ' · ' : '') + s.age_text : '');
     return '<span class="fresh-tag ' + s.level + '" title="' + esc(tip) + '">' + esc(s.label) + '</span>';
   }
@@ -147,13 +147,9 @@
     var lines = [];
     function pc(v) { return F.ltr((v > 0 ? '+' : '') + v.toFixed(2) + '%'); }
 
-    // 1. מלחמות — ניתוח מאושר (אם יש), אחרת נתוני הדמה עם סימון
+    // 1. מלחמות — ניתוח מאושר מ-72 השעות האחרונות. אין? השורה לא מוצגת.
     var pubArenas = C.arenas.map(function (a) { return { a: a, p: publishedFor(a.id) }; })
       .filter(function (o) { return o.p && Date.now() - new Date(o.p.analysis.generated_at).getTime() < 72 * 3600000; });
-    var evs = (window.DB.events || []).filter(function (e) { return e.arena === 'iran'; });
-    var verifiedToday = evs.filter(function (e) {
-      return R.assess(e).level === 'verified' && e.last_update_at.slice(0, 10) === '2026-09-16';
-    }).length;
     if (pubArenas.length) {
       // שורה אחת: כל זירה + מספר אירועים (לחיצה עוברת לזירה). מתחת — תמונת מצב קצרה של הזירה שעודכנה אחרונה.
       var newest = pubArenas.slice().sort(function (x, y) {
@@ -168,9 +164,6 @@
       }).join('');
       lines.push('<b>מלחמות</b> <span class="chips-row">' + chips + '</span>' +
                  '<div class="daily-sum clamp2">' + esc(newest.a.name) + ' — ' + esc(newest.p.analysis.summary) + '</div>');
-    } else if (evs.length) {
-      lines.push('<b>מלחמות</b> <span class="tag-demo">דמה</span>: ' + verifiedToday + ' אירועים אומתו היום בזירת איראן. ' +
-                 'הניתוח האמיתי יופיע כאן אחרי שתאשר את הניתוח היומי הראשון.');
     }
 
     // 2. שווקים — המכשיר שזז הכי הרבה ברשימה + נפט + דולר
@@ -273,7 +266,7 @@
      1. מלחמות / גיאופוליטיקה
      ------------------------------------------------------------
      לכל זירה: ניתוח מאושר מהבינה הפרטית (data/war/published.js) אם יש.
-     אין? באיראן — נתוני הדמה של שלב 1 (מסומנים). בשאר — "ממתין לניתוח ראשון".
+     אין? "ממתין לניתוח ראשון" (אין נתוני דמה).
      ============================================================ */
   var activeFilter = 'all';
   var activeArena = null;
@@ -302,7 +295,6 @@
     }
     var arena = C.arenas.filter(function (a) { return a.id === activeArena; })[0] || C.arenas[0];
     var pub = publishedFor(arena.id);
-    var isDemo = !pub && arena.id === 'iran' && (window.DB.events || []).length > 0;
 
     var tabs = C.arenas.map(function (a) {
       var has = !!publishedFor(a.id);
@@ -314,14 +306,8 @@
 
     if (pub) {
       html += publishedHead(arena, pub);
-    } else if (isDemo) {
-      html += '<div class="window-note"><span class="tag-demo">דמה</span> ' +
-        '<b>חלון זמן:</b> 48 השעות האחרונות · <b>זירה:</b> ' + esc(arena.name) +
-        ' · נתוני דמה משלב 1, עד שיאושר ניתוח ראשון מהבינה הפרטית.</div>' +
-        mapBox(arena.map_confidence, '', []);
     } else {
-      html += '<div class="window-note">אין עדיין ניתוח מאושר לזירה הזו. ' +
-        'ניתוח יופיע כאן אחרי שהמחשב הפרטי ישלח אותו, הוא יעבור את הבדיקה, ואתה תאשר אותו.</div>';
+      html += '<div class="window-note">אין עדיין ניתוח מאושר לזירה הזו.</div>';
       $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
       bindWarTabs();
       return;
@@ -613,7 +599,7 @@
 
   function renderEvents() {
     var pub = publishedFor(activeArena);
-    var source = pub ? pub.analysis.events : (window.DB.events || []).filter(function (e) { return e.arena === activeArena; });
+    var source = pub ? pub.analysis.events : [];
     var list = source.slice().sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
 
     var shown = [];
@@ -845,17 +831,8 @@
     var quotes = '<div class="quotes">' + m.watchlist.map(function (q) {
       var keys = allowedKeys(q.symbol);
 
-      /* --- גרסה ציבורית: סימול בלי מקור מותר מוצג בווידג'ט TradingView שמתחת --- */
-      if (!keys.length && tvSymbol(q.symbol)) return '';
-
-      /* --- סימול שאין לו מקור חי מותר: דמה, מסומן --- */
-      if (!keys.length) {
-        var cls = q.change >= 0 ? 'up' : 'down';
-        return '<div class="quote demo" title="נתון דמה — אין עדיין מקור מחובר">' +
-               '<b>' + esc(q.symbol) + ' <span class="tag-demo">דמה</span></b>' +
-               '<span class="p">' + F.ltr(esc(q.price)) + '</span> ' +
-               '<span class="' + cls + '">' + F.ltr((q.change >= 0 ? '+' : '') + q.change + '%') + '</span></div>';
-      }
+      /* סימול בלי מקור חי מותר: מוצג בווידג'ט TradingView שמתחת, או לא מוצג בכלל — לעולם לא מספר דמה */
+      if (!keys.length) return '';
 
       /* --- סימול עם מקור חי --- */
       var r = resolveQuote(q.symbol);
@@ -922,23 +899,13 @@
       '</li>';
     }).join('');
 
-    var demoSyms = m.watchlist.filter(function (q) { return !allowedKeys(q.symbol).length && !tvSymbol(q.symbol); })
-                              .map(function (q) { return q.symbol; });
-
-    var statusBlock =
-      '<ul class="rows src-status">' + srcLines +
-        (demoSyms.length
-          ? '<li class="src-line"><span class="tag-demo">דמה</span> ' + esc(demoSyms.join(', ')) +
-            ' <span class="locked">— אין מקור מורשה במצב הפרסום הנוכחי.</span></li>'
-          : '') +
-      '</ul>';
+    var statusBlock = '<ul class="rows src-status">' + srcLines + '</ul>';
 
     // תג הפינה = המצב הגרוע ביותר מבין המקורות החיים
     var headerState = liveStates.length ? F.worst(liveStates) : null;
 
     headerState = liveStates.length ? F.worst(liveStates) : null;
 
-    var demoTag = ' <span class="tag-demo">דמה</span>';
 
     /* --- ריביות --- */
     function pct(v) { return F.ltr((Math.round(v * 100) / 100).toFixed(2) + '%'); }
@@ -1253,7 +1220,7 @@
       var okIfa = R.isDisplayable(R.sourceById('src_one_data')), okTv = R.isDisplayable(R.sourceById('src_livegames'));
       if (!g.entry || !g.entry.data) return '';
       var d = g.entry.data;
-      function localIso() { var n = new Date(); return new Date(n.getTime() - n.getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
+      function localIso() { return localDate(); }
       function dm(iso) { var p = iso.split('-'); return F.ltr(p[2] + '/' + p[1]); }
       var today = localIso();
       var up = okTv ? (d.upcoming || []).filter(function (u) { return u.date >= today; }) : [];
@@ -1346,7 +1313,6 @@
      5. תוכן חיובי
      ============================================================ */
   function renderPositive() {
-    var demoTag = ' <span class="tag-demo">דמה</span>';
     var src = R.sourceById('src_walla');
     var liveOk = R.isDisplayable(src);
     var e = (window.DB.live || {}).positive;
@@ -1394,9 +1360,6 @@
      6. רכב + תיירות + קולנוע ביתי
      ============================================================ */
   function renderLifestyle() {
-    var d = window.DB.lifestyle;
-    var demoTag = ' <span class="tag-demo">דמה</span>';
-    var li = function (x) { return '<li>' + esc(x.title) + '</li>'; };
 
     var src = R.sourceById('src_walla');
     var e = (window.DB.live || {}).lifestyle;

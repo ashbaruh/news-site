@@ -140,18 +140,26 @@ def read_feed(source_id, url, words, since):
     return out
 
 
+def title_key(title):
+    """כותרת מנורמלת להשוואה: בלי רווחים, סימנים והבדלי אותיות גדולות/קטנות."""
+    return re.sub(r"\W+", "", (title or "").lower())
+
+
 def collect(arena, hours=26, log=print):
     since = datetime.now(timezone.utc) - timedelta(hours=hours)
-    per_source, seen_urls, seen_titles = {}, set(), set()
+    # כפילויות: כתובת זהה → כפילות בכל מקרה. כותרת זהה → כפילות רק באותו מקור.
+    # כותרת זהה ממקור אחר נשמרת (זו עוד עדות), והניתוח מצמיד לשתיהן מקור-שורש משותף
+    # (כותרת זהה בשני אתרים = כמעט תמיד אותה ידיעה מועתקת) — כך היא לא נספרת כאימות נוסף.
+    per_source, seen_urls = {}, set()
     for source_id, url, words in FEEDS[arena]:
         try:
             got = read_feed(source_id, url, words, since)
         except Exception as e:
             log(f"  ✗ {source_id:<16} נכשל: {str(e)[:120]}")
             continue
-        kept = []
+        kept, seen_titles = [], set()
         for it in sorted(got, key=lambda x: x["published_at"], reverse=True):
-            tkey = re.sub(r"\W+", "", it["title"].lower())
+            tkey = title_key(it["title"])
             if it["url"] in seen_urls or tkey in seen_titles:
                 continue
             seen_urls.add(it["url"])

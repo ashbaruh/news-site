@@ -327,8 +327,23 @@ def event_roots(items, support):
     תוצאה: אירוע נחשב מאומת רק אם יש לו לפחות שני דיווחים שהבינה הצהירה עליהם כראשוניים,
     ממשפחות מקורות שונות. מודל קטן יכול לטעות רק לכיוון "פחות מאומת".
     """
+    def tkey(s):
+        return re.sub(r"\W+", "", (items[s["item"]].get("title") or "").lower())
+
+    # כותרת זהה אצל כמה מקורות "ראשוניים" באותו אירוע = כמעט תמיד אותה ידיעה מועתקת (סוכנות/הודעה).
+    # מצמידים להם שורש משותף — שומרים את כל הדיווחים, אבל הם לא נספרים כאימותים נפרדים.
+    fh_titles = {}
+    for s in support:
+        if s.get("first_hand"):
+            k = tkey(s)
+            if len(k) >= 10:
+                fh_titles[k] = fh_titles.get(k, 0) + 1
+
     def own(s):
         it = items[s["item"]]
+        k = tkey(s)
+        if fh_titles.get(k, 0) > 1:
+            return "tk_" + hashlib.sha1(k.encode()).hexdigest()[:16]
         return "fh_" + hashlib.sha1((it["source_id"] + it["url"]).encode()).hexdigest()[:16]
 
     # טלגרם לעולם לא מקור ראשוני (החלטת בעל האתר: טלגרם לבד לא הופך אירוע למאומת) — נאכף בקוד, לא בבינה

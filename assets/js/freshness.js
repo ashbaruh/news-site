@@ -60,13 +60,6 @@ window.Freshness = (function () {
     return { level: level, label: label, time: shown, age_text: ageText };
   }
 
-  /* תג לפינה לפי רשומה ב-DB.freshness (נתוני הדמה) */
-  function state(key) {
-    var d = (window.DB.freshness || {})[key];
-    if (!d) return { level: 'unknown', label: 'לא ידוע', time: '—', age_text: '' };
-    return evaluate(key, d.updated_at, d.ok, false);
-  }
-
   /* מבין כמה מצבים — הגרוע ביותר. כך תג הפינה לא "מייפה" מקור שנפל. */
   var RANK = { fresh: 0, loading: 1, unknown: 1, delayed: 2, stale: 3, down: 4 };
   function worst(states) {
@@ -108,7 +101,7 @@ window.Freshness = (function () {
   }
 
   return {
-    state: state, evaluate: evaluate, worst: worst,
+    evaluate: evaluate, worst: worst,
     hhmm: hhmm, ago: ago, dateTimeText: dateTimeText, dateText: dateText, ltr: ltr,
     now: function () { return new Date(); }
   };

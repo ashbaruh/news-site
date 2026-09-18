@@ -28,7 +28,16 @@ class Approval(unittest.TestCase):
         iw.APPROVED, iw.PUBLISHED = os.path.join(iw.WAR, "approved.json"), os.path.join(iw.WAR, "published.js")
         wa.ROOT = self.tmp
         self.calls = []
-        wa.gh = lambda method, path, body=None: self.calls.append((method, path, body)) or {"html_url": "x"}
+        self.open_issues = []            # מה ש-GitHub מחזיר ל-GET /issues — רשימה, כמו ב-API האמיתי
+
+        def fake_gh(method, path, body=None):
+            self.calls.append((method, path, body))
+            if method == "GET" and path.startswith("/issues"):
+                return list(self.open_issues)
+            if method == "POST" and path == "/issues":
+                return {"number": 7, "html_url": "x"}
+            return {}
+        wa.gh = fake_gh
         os.makedirs(iw.INBOX)
         for arena in ("iran", "yemen"):
             doc = ta.an.build(arena, ta.ITEMS, ta.FAKE_EVENTS, ta.FAKE_OVERVIEW, 24, "low", arena + "-run", ta.NOW)
@@ -75,13 +84,47 @@ class Approval(unittest.TestCase):
         self.assertIn('"iran"', open(iw.PUBLISHED, encoding="utf-8").read())
 
     def test_approve_some_arenas(self):
-        wa.approve(self.event("מאשר רק את תימן"))
+        wa.approve(self.event("מאשר תימן"))
         self.assertEqual([d.split("/")[1] for d in self.approved()], ["yemen"])
 
-    def test_not_approve_is_rejection(self):
-        wa.approve(self.event("לא מאשר, יש טעויות"))
+    def test_approve_two_arenas(self):
+        wa.approve(self.event("מאשר איראן תימן"))
+        self.assertEqual(sorted(d.split("/")[1] for d in self.approved()), ["iran", "yemen"])
+
+    def test_approve_two_arenas_with_vav_and_spaces(self):
+        wa.approve(self.event("  מאשר   איראן ותימן  "))
+        self.assertEqual(sorted(d.split("/")[1] for d in self.approved()), ["iran", "yemen"])
+
+    def test_approve_one_arena(self):
+        wa.approve(self.event("מאשר איראן"))
+        self.assertEqual([d.split("/")[1] for d in self.approved()], ["iran"])
+
+    def last_comment(self):
+        return next(c[2]["body"] for c in reversed(self.calls) if c[0] == "POST" and c[1].endswith("/comments"))
+
+    def test_ambiguous_phrases_publish_nothing(self):
+        # סעיף 1 בביקורת: חלק מאלה אושרו בעבר ע"י חיפוש מילים חופשי ("אפשר אישור?" → הכל, "מאשר חוץ מאיראן" → איראן)
+        for text in ["אני לא בטוח אם לאשר", "אפשר אישור?", "לאשר?", "אני לא בטוח שאני מאשר",
+                     "מאשר חוץ מאיראן", "מאושר? תבדוק קודם את לבנון", "לא מאשר, יש טעויות", "מאשר!", "מאשר איראן איראן"]:
+            with self.subTest(text=text):
+                self.calls.clear()
+                wa.approve(self.event(text))
+                self.assertEqual(self.approved(), [])
+                self.assertIn("פקודה לא מוכרת", self.last_comment())
+                self.assertFalse(any(c[0] == "PATCH" for c in self.calls))   # לא נסגר — אפשר לכתוב שוב
+                self.assertFalse(os.path.exists(os.path.join(self.tmp, "approval-result.json")))
+
+    def test_arena_without_draft_publishes_nothing(self):
+        wa.approve(self.event("מאשר איראן צפון"))       # יש טיוטות רק לאיראן ולתימן
         self.assertEqual(self.approved(), [])
-        self.assertEqual(self.calls[-1][2]["state"], "closed")
+        self.assertIn("אין בבקשה הזו טיוטה", self.last_comment())
+
+    def test_parse_command(self):
+        self.assertEqual(wa.parse_command("מאשר"), ("approve", []))
+        self.assertEqual(wa.parse_command("מאשר צפון, אוקראינה"), ("approve", ["north", "ukraine"]))
+        self.assertEqual(wa.parse_command("‏דוחה‎"), ("reject", None))
+        self.assertEqual(wa.parse_command("דוחה הכל"), ("unknown", None))
+        self.assertEqual(wa.parse_command(""), ("unknown", None))
 
     def test_reject(self):
         wa.approve(self.event("דוחה"))
@@ -107,6 +150,53 @@ class Approval(unittest.TestCase):
     def test_random_comment_does_nothing(self):
         wa.approve(self.event("שאלה: למה אין את לבנון?"))
         self.assertEqual(self.approved(), [])
+
+    # ---- סעיף 4: בקשות ישנות ----
+
+    def test_open_issue_closes_older_request(self):
+        old = {"number": 3, "user": {"login": wa.BOT}, "body": "x <!-- war-drafts: [] -->"}
+        other = {"number": 4, "user": {"login": "someone"}, "body": "לא בקשת אישור"}
+        self.open_issues = [old, other, {"number": 7, "user": {"login": wa.BOT}, "body": self.body}]
+        self.calls.clear()
+        nd = os.path.join(self.tmp, "new.json")
+        wa.open_issue(nd)
+        patched = [c[1] for c in self.calls if c[0] == "PATCH"]
+        self.assertEqual(patched, ["/issues/3"])        # רק הישנה של הבוט, לא החדשה ולא של אדם אחר
+
+    def test_same_drafts_cannot_be_approved_twice(self):
+        wa.approve(self.event("מאשר"))
+        os.remove(os.path.join(self.tmp, "approval-result.json"))
+        self.calls.clear()
+        wa.approve(self.event("מאשר"))                  # אותה בקשה/טיוטות שוב (כמו #6 ב-18/09)
+        self.assertIn("כבר פורסמו", self.last_comment())
+        self.assertFalse(os.path.exists(os.path.join(self.tmp, "approval-result.json")))
+
+    def test_older_draft_than_published_is_refused(self):
+        # טיוטה חדשה יותר של איראן כבר מאושרת → הטיוטה מהבקשה הזו ישנה
+        newer = self.drafts[0].replace(".json", "_newer.json")
+        with open(os.path.join(iw.WAR, self.drafts[0]), encoding="utf-8") as f:
+            d = json.load(f)
+        d["analysis"]["generated_at"] = "2099-01-01T00:00:00+00:00"
+        with open(os.path.join(iw.WAR, newer), "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False)
+        with open(iw.APPROVED, "w", encoding="utf-8") as f:
+            json.dump({"approved": [newer]}, f)
+        wa.approve(self.event("מאשר " + ("איראן" if "/iran/" in self.drafts[0] else "תימן")))
+        self.assertEqual(self.approved(), [newer])
+        self.assertIn("ישנות מהמפורסם", self.last_comment())
+
+    def test_newer_request_exists(self):
+        self.open_issues = [{"number": 9, "user": {"login": wa.BOT}, "body": "<!-- war-drafts: [] -->"}]
+        wa.approve(self.event("מאשר"))
+        self.assertEqual(self.approved(), [])
+        self.assertIn("#9", self.last_comment())
+        self.assertTrue(any(c[0] == "PATCH" for c in self.calls))
+
+    def test_approved_file_written_atomically(self):
+        wa.approve(self.event("מאשר"))
+        self.assertFalse(os.path.exists(iw.APPROVED + ".tmp"))
+        with open(iw.APPROVED, encoding="utf-8") as f:
+            json.load(f)                                 # JSON תקין
 
 
 class Changes(unittest.TestCase):
