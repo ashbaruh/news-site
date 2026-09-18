@@ -1,7 +1,9 @@
 """
 war_approval.py — אישור הניתוח היומי דרך GitHub, בלי לערוך קבצים.
 ==================================================================
-open     : אחרי הניתוח היומי — פותח "בקשת אישור" (Issue) עם תצוגה מקדימה בעברית.
+auto     : אחרי הניתוח — טיוטה שעוברת את תנאי האיכות מתפרסמת לבד; חשודה נעצרת לאישור.
+notify   : פותח הודעה אחת: מה פורסם אוטומטית (אפשר "בטל") ומה ממתין לאישור ולמה.
+open     : (ישן) פותח "בקשת אישור" (Issue) עם תצוגה מקדימה בעברית.
            GitHub שולח לך מייל. קוראים, ומגיבים:
              מאשר               → כל הזירות מתפרסמות
              מאשר איראן תימן    → רק הזירות שנכתבו
@@ -32,10 +34,17 @@ ARENA_HE = {"iran": 'איראן – ישראל – ארה"ב', "ukraine": "רו�
 # פקודות מדויקות בלבד (סעיף 1 בביקורת 18/09/2026): חיפוש מילים חופשי אישר בטעות משפטים כמו
 # "אפשר אישור?" או "מאשר חוץ מאיראן" (שאישר דווקא את איראן). כל ניסוח אחר → "פקודה לא מוכרת".
 ARENA_CMD = {"איראן": "iran", "אוקראינה": "ukraine", "תימן": "yemen", "צפון": "north"}
-HELP = ("הפקודות האפשריות (תגובה שמכילה רק אותן):\n"
-        "- `מאשר` — כל הזירות\n"
-        "- `מאשר איראן` / `מאשר אוקראינה` / `מאשר תימן` / `מאשר צפון` — ואפשר כמה יחד: `מאשר איראן תימן`\n"
-        "- `דוחה` — כלום לא מתפרסם")
+def _cmd(c):
+    """פקודה בבלוק קוד — ב-GitHub (גם באפליקציה בנייד) יש לבלוק כפתור העתקה."""
+    return f"```\n{c}\n```"
+
+
+HELP = ("הפקודות האפשריות (תגובה שמכילה רק אותן). **מאשר** — כל הזירות שממתינות:\n" + _cmd("מאשר") +
+        "\nרק חלק מהזירות (אפשר כמה יחד, למשל `מאשר איראן תימן`): `מאשר איראן` / `מאשר אוקראינה` / "
+        "`מאשר תימן` / `מאשר צפון`\n\n**דוחה** — כלום לא מתפרסם:\n" + _cmd("דוחה"))
+HELP_AUTO = ("**בטל** — מחזיר את הניתוח הקודם במקום מה שפורסם אוטומטית:\n" + _cmd("בטל") +
+             "\n**עצור אוטומטי** — מעכשיו כל ניתוח מחכה לאישור ידני (להחזרה: `הפעל אוטומטי`):\n" +
+             _cmd("עצור אוטומטי"))
 INVISIBLE = re.compile("[​-‏‪-‮⁦-⁩]")   # סימני כיווניות נסתרים שמקלדת מוסיפה
 
 
@@ -45,6 +54,12 @@ def parse_command(text):
     tokens = t.replace(",", " ").split()
     if tokens == ["דוחה"]:
         return "reject", None
+    if tokens == ["בטל"]:
+        return "revoke", None
+    if tokens == ["עצור", "אוטומטי"]:
+        return "auto_off", None
+    if tokens == ["הפעל", "אוטומטי"]:
+        return "auto_on", None
     if not tokens or tokens[0] != "מאשר":
         return "unknown", None
     arenas = []
@@ -113,16 +128,147 @@ def arena_md(rel, groups, names):
     return text if len(text) < 14000 else text[:14000] + "\n\n…(קוצר — המלא בקובץ הטיוטה)"
 
 
-def open_issue(new_drafts_file):
+# ------------------------------------------------------------------ פרסום אוטומטי (אפשרות ב', 18/09/2026)
+# טיוטה שעוברת את כל תנאי האיכות מתפרסמת לבד. טיוטה חשודה נעצרת ומחכה לאישור ידני, עם הסיבה.
+# אחרי פרסום אוטומטי נפתחת הודעה, ובה אפשר לכתוב "בטל" (חזרה לניתוח הקודם) או "עצור אוטומטי".
+
+AUTO_MARK = re.compile(r"<!-- war-auto: (\[.*?\]) -->")
+# כתבים שאסור שיופיעו בטקסט העברי: ערבית, קירילית, יפנית/סינית, קוריאנית
+FOREIGN = re.compile("[؀-ۿݐ-ݿЀ-ӿ぀-ヿ一-鿿가-힯]")
+MIN_SOURCES, MIN_FAMILIES, MAX_EVENTS = 4, 3, 20
+
+
+def auto_file():
+    return os.path.join(iw.WAR, "auto.json")
+
+
+def auto_enabled():
+    try:
+        with open(auto_file(), encoding="utf-8") as f:
+            return json.load(f).get("enabled") is True
+    except (FileNotFoundError, json.JSONDecodeError):
+        return False
+
+
+def _load(rel):
+    with open(os.path.join(iw.WAR, rel), encoding="utf-8") as f:
+        return json.load(f)["analysis"]
+
+
+def _hebrew_texts(doc):
+    yield doc.get("summary", "")
+    for f in doc.get("fronts", []):
+        yield f.get("name", "")
+        yield f.get("status", "")
+    for e in doc.get("events", []):
+        yield e.get("title", "")
+        yield e.get("summary", "")
+        yield e.get("what_is_not_verified", "")
+    yield from doc.get("not_verified", [])
+    for g in doc.get("strategic_goals", []):
+        yield g.get("actor", "")
+        for k in ("declared", "inferred", "forecast"):
+            yield from g.get(k, [])
+
+
+def _approved_list():
+    try:
+        with open(iw.APPROVED, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"approved": []}
+
+
+def _latest_approved(arena, exclude=()):
+    best = None
+    for rel in _approved_list().get("approved", []):
+        if isinstance(rel, str) and DRAFT_RE.fullmatch(rel) and rel.split("/")[1] == arena and rel not in exclude:
+            if best is None or _generated_at(rel) > _generated_at(best):
+                best = rel
+    return best
+
+
+def quality_gate(rel, groups):
+    """→ רשימת סיבות לעצירה. ריקה = מותר לפרסם אוטומטית. (החוזה כבר נבדק כשהטיוטה נוצרה.)"""
+    doc = _load(rel)
+    reasons = []
+    ev = doc.get("events", [])
+    if not 1 <= len(ev) <= MAX_EVENTS:
+        reasons.append(f"מספר אירועים חריג ({len(ev)})")
+    srcs = {r["source_id"] for e in ev for r in e.get("reports", [])}
+    fams = {groups.get(s, s) for s in srcs}
+    if len(srcs) < MIN_SOURCES:
+        reasons.append(f"מעט מקורות ({len(srcs)})")
+    if len(fams) < MIN_FAMILIES:
+        reasons.append(f"מעט משפחות מקורות עצמאיות ({len(fams)})")
+    bad = sum(1 for t in _hebrew_texts(doc) if isinstance(t, str) and FOREIGN.search(t))
+    if bad:
+        reasons.append(f"אותיות בשפה זרה בתוך הטקסט העברי ({bad} שדות)")
+    ver = sum(1 for e in ev if wc.assess(e, groups) == "verified")
+    prev_rel = _latest_approved(doc["arena"], exclude=(rel,))
+    prev_ver = sum(1 for e in _load(prev_rel).get("events", []) if wc.assess(e, groups) == "verified") if prev_rel else 0
+    if ver > max(3, prev_ver + 3):
+        reasons.append(f"קפיצה חריגה באירועים המסומנים מאומתים ({prev_ver} → {ver})")
+    return reasons
+
+
+def auto(new_drafts_file):
+    """אחרי הניתוח: מה שעבר את תנאי האיכות — מאושר ומתפרסם; השאר — ימתין לאישור (notify פותחת את הבקשה)."""
     try:
         with open(new_drafts_file, encoding="utf-8") as f:
             data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        print("אין רשימת טיוטות חדשות (הניתוח לא הגיע לשמירה) — לא נפתחת בקשה")
-        return
+        return print("אין רשימת טיוטות חדשות — אין מה לפרסם")
+    drafts = [d for d in data.get("drafts", []) if DRAFT_RE.fullmatch(d) and os.path.isfile(os.path.join(iw.WAR, d))]
+    known, groups = iw.load_sources()
+    published, held, reasons = [], [], {}
+    for d in drafts:
+        r = quality_gate(d, groups) if auto_enabled() else ["הפרסום האוטומטי כבוי"]
+        if r:
+            held.append(d)
+            reasons[d] = r
+        else:
+            published.append(d)
+    if published:
+        approved = _approved_list()
+        lst = approved.setdefault("approved", [])
+        auto_lst = approved.setdefault("auto", [])
+        lst += [d for d in published if d not in lst]
+        auto_lst += [d for d in published if d not in auto_lst]
+        _write_json_atomic(iw.APPROVED, approved)
+        for line in iw.publish(known, groups):
+            print(line)
+    decision = {"published": published, "held": held, "reasons": reasons, "failed": data.get("failed", [])}
+    _write_json_atomic(new_drafts_file + ".decision.json", decision)
+    print("פורסם אוטומטית:", published, "· ממתין לאישור:", held)
+
+
+def notify(decision_file):
+    """פותח הודעה אחת: מה פורסם אוטומטית (אפשר "בטל") + מה ממתין לאישור ולמה."""
+    try:
+        with open(decision_file, encoding="utf-8") as f:
+            dec = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return print("אין החלטת פרסום — לא נפתחת הודעה")
+    open_issue(None, dec)
+
+
+def open_issue(new_drafts_file, decision=None):
+    published, reasons = [], {}
+    if decision is not None:
+        data = {"drafts": decision.get("held", []), "failed": decision.get("failed", [])}
+        published = [d for d in decision.get("published", []) if DRAFT_RE.fullmatch(d)]
+        reasons = decision.get("reasons", {})
+    else:
+        try:
+            with open(new_drafts_file, encoding="utf-8") as f:
+                data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("אין רשימת טיוטות חדשות (הניתוח לא הגיע לשמירה) — לא נפתחת בקשה")
+            return
     drafts = [d for d in data.get("drafts", []) if DRAFT_RE.fullmatch(d)]
     failed = data.get("failed", [])
-    if not drafts:
+    if not drafts and not published:
         print("אין טיוטות חדשות — לא נפתחת בקשה")
         return
     # הבקשה החדשה סוגרת את הישנות — לכן היא לוקחת איתה טיוטות שעוד מחכות לאישור בבקשות הישנות
@@ -154,26 +300,45 @@ def open_issue(new_drafts_file):
             newest[a] = d
     drafts = [newest[a] for a in ("iran", "ukraine", "yemen", "north") if a in newest]
     failed = [f for f in failed if f.split(":")[0].split(" ")[0] not in newest]
-    if not drafts:
+    if not drafts and not published:
         print("כל הטיוטות כבר אושרו — לא נפתחת בקשה")
         return
     _, groups = iw.load_sources()
     names = source_names()
-    date = re.search(r"/(\d{4})-(\d\d)-(\d\d)", "/" + os.path.basename(drafts[0]))
+    date = re.search(r"/(\d{4})-(\d\d)-(\d\d)", "/" + os.path.basename((drafts or published)[0]))
     day = f"{date.group(3)}/{date.group(2)}/{date.group(1)}" if date else ""
     # תיוג בעל הפרויקט — כך GitHub שולח התראה/מייל גם על בקשה שהבוט פתח (בלי תיוג: לא בטוח שתגיע התראה)
     owner = os.environ.get("GITHUB_REPOSITORY_OWNER", "")
     mention = f"@{owner} " if re.fullmatch(r"[A-Za-z0-9-]{1,39}", owner) else ""
-    parts = [mention + "**הניתוח היומי מוכן — ממתין לאישור שלך.** עד שתאשר, באתר נשאר הניתוח הקודם.", "",
-             "איך מאשרים — כותבים תגובה למטה. " + HELP, "",
-             "> הבינה כתבה את הטקסט. **רמות האימות** (✅/🟡/🟠) חושבו בקוד לפי מספר המקורות העצמאיים — לא הבינה קבעה אותן.", ""]
+    note = "> הבינה כתבה את הטקסט. **רמות האימות** (✅/🟡/🟠) חושבו בקוד לפי מספר המקורות העצמאיים — לא הבינה קבעה אותן."
+    parts = []
+    if published:
+        lite = any("lite" in str(_load(d).get("model", {}).get("name", "")) for d in published)
+        parts += [mention + "**✅ פורסם אוטומטית באתר:** " + ", ".join(ARENA_HE[d.split("/")[1]] for d in published) +
+                  ". עבר את כל בדיקות האיכות — אין צורך לעשות כלום.", ""]
+        if lite:
+            parts += ["⚠️ נכתב במודל הגיבוי (Flash-Lite) — איכות הניסוח עשויה להיות נמוכה יותר.", ""]
+        parts += ["אם משהו לא בסדר: " + HELP_AUTO, ""]
+        mention = ""
+    if drafts:
+        parts += [mention + "**⏸️ ממתין לאישור שלך:** " + ", ".join(ARENA_HE[d.split("/")[1]] for d in drafts) +
+                  ". עד שתאשר, באתר נשאר הניתוח הקודם של הזירות האלה.", ""]
+        for d in drafts:
+            if reasons.get(d):
+                parts.append(f"- **{ARENA_HE[d.split('/')[1]]}** נעצר: " + "; ".join(md(x) for x in reasons[d]))
+        parts += ["", "איך מאשרים — כותבים תגובה למטה. " + HELP, ""]
+    parts += [note, ""]
     if failed:
         parts += ["**לא נותחו היום:** " + " · ".join(md(x) for x in failed), ""]
-    for rel in drafts:
+    for rel in published + drafts:
         parts += ["---", arena_md(rel, groups, names), ""]
     parts.append(f"<!-- war-drafts: {json.dumps(drafts)} -->")
+    parts.append(f"<!-- war-auto: {json.dumps(published)} -->")
     body = "\n".join(parts)[:64000]
-    issue = gh("POST", "/issues", {"title": f"🛰️ ניתוח מלחמות יומי {day} — ממתין לאישור", "body": body})
+    title = (f"🛰️ ניתוח מלחמות {day} — " +
+             ("ממתין לאישור" if drafts and not published else
+              "פורסם אוטומטית" if not drafts else "פורסם חלקית, חלק ממתין לאישור"))
+    issue = gh("POST", "/issues", {"title": title, "body": body})
     print("נפתחה בקשת אישור:", issue.get("html_url"))
     # בקשות אישור ישנות שעוד פתוחות — נסגרות (הטיוטות שלהן שעוד לא אושרו עברו לבקשה החדשה)
     try:
@@ -247,6 +412,32 @@ def approve(event_file):
         say("👍 נדחה. באתר נשאר הניתוח הקודם.", close="not_planned")
         return print("נדחה")
 
+    def result(drafts_done, action):
+        """הקובץ שמפעיל בשלב הבא של ה-workflow: פרסום מחדש + שמירה + הודעת סיכום (report)."""
+        with open(os.path.join(ROOT, "approval-result.json"), "w", encoding="utf-8") as f:
+            json.dump({"issue": n, "drafts": drafts_done, "action": action}, f)
+
+    if kind in ("auto_off", "auto_on"):
+        _write_json_atomic(auto_file(), {"enabled": kind == "auto_on"})
+        result([], kind)
+        return print("פרסום אוטומטי:", kind)
+
+    if kind == "revoke":
+        am = AUTO_MARK.search(issue.get("body") or "")
+        auto_d = [d for d in (json.loads(am.group(1)) if am else []) if isinstance(d, str) and DRAFT_RE.fullmatch(d)]
+        approved = _approved_list()
+        lst = approved.get("approved", [])
+        gone = [d for d in auto_d if d in lst]
+        if not gone:
+            say("אין כאן ניתוח שפורסם אוטומטית ועדיין מופיע באתר — לא שונה דבר.")
+            return print("אין מה לבטל")
+        approved["approved"] = [d for d in lst if d not in gone]
+        approved["auto"] = [d for d in approved.get("auto", []) if d not in gone]
+        approved["revoked"] = approved.get("revoked", []) + gone
+        _write_json_atomic(iw.APPROVED, approved)
+        result(gone, "revoke")
+        return print("בוטל:", gone)
+
     # בקשה ישנה: אם יש בקשה חדשה יותר — מאשרים רק שם
     newer = _newer_request(n)
     if newer:
@@ -286,20 +477,28 @@ def approve(event_file):
 
     lst += drafts
     _write_json_atomic(iw.APPROVED, approved)
-    with open(os.path.join(ROOT, "approval-result.json"), "w", encoding="utf-8") as f:
-        json.dump({"issue": n, "drafts": drafts}, f)
+    result(drafts, "approve")
     print("אושרו:", drafts)
 
 
 def report(result_file):
-    """אחרי שהפרסום נשמר — תגובה בבקשה וסגירה."""
-    res = json.load(open(result_file, encoding="utf-8"))
+    """אחרי שהשינוי נשמר — תגובה בבקשה (וסגירה, כשזה סוף הטיפול בה)."""
+    with open(result_file, encoding="utf-8") as f:
+        res = json.load(f)
+    n, action = res["issue"], res.get("action", "approve")
     names = ", ".join(ARENA_HE[d.split("/")[1]] for d in res["drafts"])
-    gh("POST", f"/issues/{res['issue']}/comments",
-       {"body": f"✅ פורסם באתר: {names}.\nהאתר יתעדכן תוך כמה דקות."})
-    gh("PATCH", f"/issues/{res['issue']}", {"state": "closed", "state_reason": "completed"})
+    if action == "auto_off":
+        return gh("POST", f"/issues/{n}/comments",
+                  {"body": "⏸️ הפרסום האוטומטי כבוי. מעכשיו כל ניתוח ימתין לאישור שלך. להחזרה: `הפעל אוטומטי`"})
+    if action == "auto_on":
+        return gh("POST", f"/issues/{n}/comments",
+                  {"body": "▶️ הפרסום האוטומטי פועל. ניתוח שעובר את כל בדיקות האיכות יתפרסם לבד."})
+    text = (f"↩️ בוטל: {names}. באתר חזר הניתוח הקודם של הזירות האלה." if action == "revoke"
+            else f"✅ פורסם באתר: {names}.")
+    gh("POST", f"/issues/{n}/comments", {"body": text + "\nהאתר יתעדכן תוך כמה דקות."})
+    gh("PATCH", f"/issues/{n}", {"state": "closed", "state_reason": "completed"})
 
 
 if __name__ == "__main__":
     cmd, arg = sys.argv[1], sys.argv[2]
-    {"open": open_issue, "approve": approve, "report": report}[cmd](arg)
+    {"open": open_issue, "auto": auto, "notify": notify, "approve": approve, "report": report}[cmd](arg)

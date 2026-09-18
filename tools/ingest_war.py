@@ -128,9 +128,11 @@ def publish(known, groups=None):
         groups = load_sources()[1]
     try:
         with open(APPROVED, encoding="utf-8") as f:
-            approved = json.load(f).get("approved", [])
+            meta = json.load(f)
     except FileNotFoundError:
-        approved = []
+        meta = {}
+    approved = meta.get("approved", [])
+    auto_set = set(meta.get("auto", []))       # פורסמו אוטומטית (עברו את בדיקות האיכות, לא נבדקו ידנית)
     per_arena, log = {}, []
     for rel in approved:
         if not isinstance(rel, str) or not re.fullmatch(r"drafts/(iran|ukraine|yemen|north)/[A-Za-z0-9_\-]+\.json", rel):
@@ -152,7 +154,7 @@ def publish(known, groups=None):
         rows.sort(key=lambda x: x[0])
         _, rel, doc = rows[-1]
         prev = rows[-2][2] if len(rows) > 1 else None
-        latest[arena] = {"draft": rel, "analysis": doc,
+        latest[arena] = {"draft": rel, "analysis": doc, "auto": rel in auto_set,
                          "previous_generated_at": prev["generated_at"] if prev else None,
                          "changes": compare(prev, doc, groups)}
     os.makedirs(WAR, exist_ok=True)

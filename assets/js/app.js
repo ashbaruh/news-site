@@ -530,7 +530,9 @@
         '<b>חלון זמן:</b> ' + F.dateTimeText(a.window.from) + ' ← ' + F.dateTimeText(a.window.to) +
         ' · <b>זירה:</b> ' + esc(arena.name) +
         ' · נוצר ' + F.dateTimeText(a.generated_at) + ' ע"י ' + esc(a.model.name) +
-        ' · <span class="tag-demo">אושר לפרסום</span>' +
+        (pub.auto
+          ? ' · <span class="tag-demo" title="עבר בדיקות איכות אוטומטיות בקוד. לא נבדק ידנית.">פורסם אוטומטית</span>'
+          : ' · <span class="tag-demo" title="בעל האתר אישר את הפרסום. זה לא בדיקה עובדתית של התוכן.">אושר לפרסום</span>') +
         ' · <span class="locked">נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות — ' +
         '<a href="legal.html">הבהרות</a></span>' +
         (pub.previous_generated_at ? ' · <b>השוואה</b> לניתוח מ-' + F.dateTimeText(pub.previous_generated_at) + ': ' +

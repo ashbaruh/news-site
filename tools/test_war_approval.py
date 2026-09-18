@@ -286,6 +286,119 @@ class DailyRun(unittest.TestCase):
         wa.open_issue(os.path.join(self.tmp, "missing.json"))   # לא זורק שגיאה, לא פותח בקשה
 
 
+class AutoPublish(Approval):
+    """פרסום אוטומטי (אפשרות ב'): נקי → מתפרסם לבד; חשוד → נעצר לאישור; "בטל" / "עצור אוטומטי"."""
+
+    def set_auto(self, on):
+        with open(wa.auto_file(), "w", encoding="utf-8") as f:
+            json.dump({"enabled": on}, f)
+
+    def run_auto(self):
+        nd = os.path.join(self.tmp, "run.json")
+        with open(nd, "w", encoding="utf-8") as f:
+            json.dump({"drafts": self.drafts, "failed": []}, f)
+        wa.auto(nd)
+        with open(nd + ".decision.json", encoding="utf-8") as f:
+            return nd, json.load(f)
+
+    def edit_draft(self, rel, fn):
+        p = os.path.join(iw.WAR, rel)
+        with open(p, encoding="utf-8") as f:
+            d = json.load(f)
+        fn(d["analysis"])
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False)
+
+    def test_clean_fixture_passes_gate(self):
+        for d in self.drafts:
+            self.assertEqual(wa.quality_gate(d, ta.GROUPS), [], d)
+
+    def test_gate_blocks_foreign_letters(self):
+        self.edit_draft(self.drafts[0], lambda a: a.update(summary=a["summary"] + " اليمن"))
+        self.assertTrue(any("שפה זרה" in r for r in wa.quality_gate(self.drafts[0], ta.GROUPS)))
+
+    def test_gate_blocks_few_sources(self):
+        orig = wa.MIN_SOURCES
+        wa.MIN_SOURCES = 99
+        try:
+            self.assertTrue(any("מעט מקורות" in r for r in wa.quality_gate(self.drafts[0], ta.GROUPS)))
+        finally:
+            wa.MIN_SOURCES = orig
+
+    def test_gate_blocks_verified_jump(self):
+        orig = wa.wc.assess
+        wa.wc.assess = lambda e, g: "verified"
+        try:
+            self.assertTrue(any("קפיצה חריגה" in r for r in wa.quality_gate(self.drafts[0], ta.GROUPS)))
+        finally:
+            wa.wc.assess = orig
+
+    def test_switch_off_holds_everything(self):
+        self.set_auto(False)
+        _, dec = self.run_auto()
+        self.assertEqual(dec["published"], [])
+        self.assertEqual(sorted(dec["held"]), self.drafts)
+        self.assertEqual(self.approved(), [])
+
+    def test_missing_switch_file_means_off(self):
+        _, dec = self.run_auto()                         # אין auto.json → כבוי (בטוח כברירת מחדל)
+        self.assertEqual(dec["published"], [])
+
+    def test_clean_drafts_published_automatically(self):
+        self.set_auto(True)
+        _, dec = self.run_auto()
+        self.assertEqual(sorted(dec["published"]), self.drafts)
+        self.assertEqual(sorted(self.approved()), self.drafts)
+        with open(iw.PUBLISHED, encoding="utf-8") as f:
+            self.assertIn('"auto": true', f.read())
+
+    def test_suspicious_draft_held_with_reason(self):
+        self.set_auto(True)
+        bad = self.drafts[0]
+        self.edit_draft(bad, lambda a: a.update(summary=a["summary"] + " 한국"))
+        nd, dec = self.run_auto()
+        self.assertEqual(dec["held"], [bad])
+        self.assertNotIn(bad, self.approved())
+        self.calls.clear()
+        wa.notify(nd + ".decision.json")
+        body = next(c[2]["body"] for c in self.calls if c[0] == "POST" and c[1] == "/issues")
+        self.assertIn("פורסם אוטומטית", body)
+        self.assertIn("ממתין לאישור", body)
+        self.assertIn("שפה זרה", body)
+        self.assertEqual(json.loads(wa.MARK.search(body).group(1)), [bad])
+
+    def test_revoke_returns_previous(self):
+        self.set_auto(True)
+        nd, dec = self.run_auto()
+        self.calls.clear()
+        wa.notify(nd + ".decision.json")
+        notice = next(c[2]["body"] for c in self.calls if c[0] == "POST" and c[1] == "/issues")
+        self.assertIn("בטל", notice)
+        wa.approve(self.event("בטל", body=notice))
+        self.assertEqual(self.approved(), [])
+        with open(os.path.join(self.tmp, "approval-result.json"), encoding="utf-8") as f:
+            self.assertEqual(json.load(f)["action"], "revoke")
+
+    def test_stop_and_start_commands(self):
+        self.set_auto(True)
+        wa.approve(self.event("עצור אוטומטי"))
+        self.assertFalse(wa.auto_enabled())
+        wa.approve(self.event("הפעל אוטומטי"))
+        self.assertTrue(wa.auto_enabled())
+        self.assertEqual(self.approved(), [])            # מתג בלבד — לא פורסם כלום
+
+    def test_report_messages(self):
+        for action, text, closes in [("revoke", "בוטל", True), ("auto_off", "כבוי", False), ("approve", "פורסם", True)]:
+            with self.subTest(action=action):
+                p = os.path.join(self.tmp, "r.json")
+                with open(p, "w", encoding="utf-8") as f:
+                    json.dump({"issue": 7, "drafts": [] if action == "auto_off" else self.drafts[:1], "action": action}, f)
+                self.calls.clear()
+                wa.report(p)
+                self.assertIn(text, self.last_comment())
+                self.assertEqual(any(c[0] == "PATCH" for c in self.calls), closes)
+
+
 class Changes(unittest.TestCase):
     """"מה השתנה מאתמול": אותו אירוע מזוהה לפי קישור משותף; רמת אימות עלתה/ירדה/חדש."""
 

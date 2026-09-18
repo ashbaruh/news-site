@@ -72,7 +72,11 @@ jobs:
           FORCE=""; if [ "$FORCE_INPUT" = "true" ]; then FORCE="--force"; fi
           PYTHONUNBUFFERED=1 python tools/war_daily.py --arenas "$ARENAS" --new-drafts "$RUNNER_TEMP/new-drafts.json" $FORCE
 
-      - name: שמירת הטיוטות
+      - name: פרסום אוטומטי (רק מה שעובר את כל בדיקות האיכות)
+        if: always()
+        run: python tools/war_approval.py auto "$RUNNER_TEMP/new-drafts.json"
+
+      - name: שמירת הטיוטות והפרסום
         if: always()               # גם אם הניתוח נחתך — מה שכבר הסתיים נשמר
         run: |
           python tools/ingest_war.py
@@ -80,11 +84,11 @@ jobs:
           git config user.email "news-site-bot@users.noreply.github.com"
           git add data/war
           if git diff --cached --quiet; then echo "אין שינוי"; exit 0; fi
-          git commit -m "ניתוח מלחמות יומי — טיוטות לאישור"
+          git commit -m "ניתוח מלחמות יומי — טיוטות ופרסום אוטומטי"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
 
-      - name: פתיחת בקשת אישור
-        if: always()               # נפתחת רק אם יש טיוטות חדשות (נבדק בסקריפט)
+      - name: הודעה (מה פורסם, מה ממתין לאישור)
+        if: always()               # נפתחת רק אם יש משהו חדש (נבדק בסקריפט)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python tools/war_approval.py open "$RUNNER_TEMP/new-drafts.json"
+        run: python tools/war_approval.py notify "$RUNNER_TEMP/new-drafts.json.decision.json"
