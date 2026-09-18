@@ -2,217 +2,262 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-09-17T1525__yemen-202609171525.json",
+  "draft": "drafts/yemen/2026-09-18T1224__yemen-202609181224.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-09-17T15:25:17+00:00",
+   "generated_at": "2026-09-18T12:24:02+00:00",
    "window": {
-    "from": "2026-09-16T15:25:17+00:00",
-    "to": "2026-09-17T15:25:17+00:00"
+    "from": "2026-09-17T12:24:02+00:00",
+    "to": "2026-09-18T12:24:02+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "yemen-202609171525"
+    "run_id": "yemen-202609181224"
    },
-   "summary": "הלחימה בתימן מחמירה סביב מצר באב אלמנדב וקו החוף, כאשר החות'ים מתקדמים, חופרים תעלות ומדווחים על הפלת מטוס F-15 סעודי. ההסלמה מעוררת דאגה בינלאומית, מובילה לפניות סעודיות לסין ולבעלות ברית בבקשה לסיוע או להפסקת אש, וגורמת לעקירת עשרות אלפי תושבים.",
+   "summary": "הלחימה בתימן התחדשה בעוצמה לאחר מתקפה רחבת היקף של המורדים החות'ים שהשתלטו על רצועת החוף בים האדום ועל מצר באב אל-מנדב, ומנהלים חילופי אש וירי תלע/כטב\"מים מול סעודיה וכוחות צבא תימן. העימות החמור הביא לעקירת עשרות אזרחים ולמשבר הומניטרי מתרחב, לצד ניסיונות תיווך ומאמצים דיפלומטיים אזוריים להרגעת הרוחות סביב נתיבי השיט האסטרטגיים.",
    "fronts": [
     {
-     "name": "חזית תימן ומצר באב אלמנדב",
-     "status": "הסלמה משמעותית והתקדמות של החות'ים"
+     "name": "חזית חוף הים האדום ומצר באב אל-מנדב",
+     "status": "פעיל ומתקדם"
     },
     {
-     "name": "חזית סעודיה",
-     "status": "מתקפות כטב\"מים וטילים ומצוקה בהגנה האווירית"
+     "name": "החזית הפנימית בתימן (מאריב ותעז)",
+     "status": "פעיל"
+    },
+    {
+     "name": "חזית תימן-סעודיה",
+     "status": "פעיל עם תקיפות אוויריות וטילים"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-09171525-01",
-     "title": "חפירת תעלות במצר באב אלמנדב",
-     "summary": "החות'ים חפרו כעשרים קילומטרים של תעלות בהרים סביב מצר באב אלמנדב.",
-     "axis": "ציר החות'ים",
+     "id": "YEMEN-09181224-01",
+     "title": "התקדמות החות'ים וכיבוש רצועת החוף בים האדום",
+     "summary": "המורדים החות'ים פתחו במתלפה וכבשו את כל רצועת החוף של תימן בים האדום ואת מצר באב אל-מנדב, תוך גרימת עקירת עשרות אלפי תושבים.",
+     "axis": "זירת תימן והים האדום",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-08T00:00:00+00:00",
+     "occurred_at": "2026-09-17T11:36:21+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-17T14:26:38+00:00",
-     "last_update_at": "2026-09-17T14:26:38+00:00",
-     "what_is_not_verified": "לא מאומת מידע נוסף מעבר לתצלומי הלוויין",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-09-17T11:36:21+00:00",
+     "last_update_at": "2026-09-18T10:36:52+00:00",
+     "what_is_not_verified": "היקף האבדות המדויק בכל צד.",
+     "is_new_in_window": false,
      "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/podcast/houthis-advance-hormuz-limbo-and-ed-sheeran-backlash",
+       "published_at": "2026-09-18T10:36:52+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/yemen-conflict-displaces-112000-people-inside-country-thousands-flee-djibouti-un",
+       "published_at": "2026-09-18T09:46:32+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/bje0xwqyme",
+       "published_at": "2026-09-18T08:43:08+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/scores-killed-houthis-yemen-govt-saudi-arabia-trade-attacks",
+       "published_at": "2026-09-17T22:55:48+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/trump-declines-to-back-saudi-arabia-as-us-officials-reportedly-meet-iran-backed-houthis-in-oman",
+       "published_at": "2026-09-17T18:47:26+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/130397",
        "published_at": "2026-09-17T14:26:38+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/yemen-was-already-suffering-ngos-tell-tna-crisis-deepens",
+       "published_at": "2026-09-17T11:36:21+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוחא, תימן",
+       "lat": 13.3179,
+       "lon": 43.2501
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09181224-02",
+     "title": "פגיעת רסיסי כטב\"מ במחוז א-טאיף בסעודיה",
+     "summary": "סוכנות ההגנה האזרחית בסעודיה דיווחה על הרוג תימני ושני פצועים כתוצאה מנפילת רסיסי כטב\"מ שיורט במחוז א-טאיף.",
+     "axis": "חזית תימן-סעודיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-17T22:18:28+00:00",
+     "last_update_at": "2026-09-18T08:33:45+00:00",
+     "what_is_not_verified": "האם כטב\"מ זה נועד לפגוע בעיר מכה כפי שטענו גורמים סעודיים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_7cf3010b7389e8c6",
+       "url": "https://www.sabanew.net/viewstory/152571",
+       "published_at": "2026-09-18T08:33:45+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_14c21883baca06b5",
+       "url": "https://www.newarab.com/news/scores-killed-houthis-yemen-govt-saudi-arabia-trade-attacks",
+       "published_at": "2026-09-17T22:55:48+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_7cf3010b7389e8c6",
+       "url": "https://www.sabanew.net/viewstory/152560",
+       "published_at": "2026-09-17T22:18:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "א-טאיף, סעודיה",
+       "lat": 21.2703,
+       "lon": 40.4158
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09181224-03",
+     "title": "תקיפות רחפנים ועימותים במחוז מאריב ובעז",
+     "summary": "התנהלו חילופי אש ותקיפות באמצעות רחפנים מתאבדים ורחפני הטלה בין צבא תימן לכוחות החות'ים במחוזות מאריב ובעז.",
+     "axis": "זירת הפנים בתימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T15:41:51+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-17T15:41:51+00:00",
+     "last_update_at": "2026-09-18T08:39:15+00:00",
+     "what_is_not_verified": "תוצאות מדויקות של הפגיעות בכל צד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_aeb1511654cbd02c",
+       "url": "https://www.sabanew.net/viewstory/152572",
+       "published_at": "2026-09-18T08:39:15+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_aeb1511654cbd02c",
+       "url": "https://t.me/alexmehacarmel/47796",
+       "published_at": "2026-09-18T01:26:48+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_aeb1511654cbd02c",
+       "url": "https://t.me/alexmehacarmel/47795",
+       "published_at": "2026-09-18T01:17:30+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_5ed5ee692157d0de",
+       "url": "https://www.sabanew.net/viewstory/152545",
+       "published_at": "2026-09-17T15:41:51+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מאריב, תימן",
+       "lat": 15.4579,
+       "lon": 45.323
+      },
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09181224-04",
+     "title": "טענת החות'ים להפלת מטוס קרב סעודי",
+     "summary": "המורדים החות'ים פרסמו תיעוד של מה שלטענתם הוא שרידי מטוס קרב סעודי מדגם אף-15 שהופל בשמי תימן.",
+     "axis": "חזית תימן-סעודיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-17T13:47:36+00:00",
+     "last_update_at": "2026-09-17T14:53:00+00:00",
+     "what_is_not_verified": "אימות רשמי מצד סעודיה לגבי אובדן המטוס.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/houthis-claim-saudi-f-15-kill-as-yemen-fighting-escalates",
+       "published_at": "2026-09-17T14:53:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/47779",
+       "published_at": "2026-09-17T14:03:55+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-09-17T13:47:36+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-09171525-02",
-     "title": "הפלת מטוס F-15 סעודי בתימן",
-     "summary": "החות'ים הודיעו והציגו שרידים של מטוס קרב סעודי מסוג F-15 שהופל בשמי תימן (במחוז מארב).",
-     "axis": "ציר החות'ים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-16T14:23:05+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-16T14:23:05+00:00",
-     "last_update_at": "2026-09-17T14:53:00+00:00",
-     "what_is_not_verified": "האם אכן מדובר בהפלה ראשונה של מטוס קרב סעודי על ידי החות'ים",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "fh_24084629f525e1ec",
-       "url": "https://www.france24.com/en/houthis-claim-saudi-f-15-kill-as-yemen-fighting-escalates",
-       "published_at": "2026-09-17T14:53:00+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "fh_24084629f525e1ec",
-       "url": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-09-17T13:47:36+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_24084629f525e1ec",
-       "url": "https://t.me/abualiexpress/130345",
-       "published_at": "2026-09-16T16:26:22+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_24084629f525e1ec",
-       "url": "https://t.me/abualiexpress/130334",
-       "published_at": "2026-09-16T14:23:05+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מארב, תימן",
-       "lat": 15.4579,
-       "lon": 45.323
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09171525-03",
-     "title": "פניית סעודיה לסין בבקשה לעזרה",
-     "summary": "בעקבות ההסלמה והתקדמות החות'ים, סעודיה פנתה לסין בבקשה לסיוע בריסון החות'ים.",
-     "axis": "הציר הסעודי-מערבי",
+     "id": "YEMEN-09181224-05",
+     "title": "פגיעה בתשתיות אנרגיה בדרום סעודיה",
+     "summary": "דווח על פגיעה בבתי זיקוק בדרום ערב הסעודית כתוצאה מתקיפות חות'יות.",
+     "axis": "חזית תימן-סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T12:46:29+00:00",
-     "last_update_at": "2026-09-17T12:56:52+00:00",
-     "what_is_not_verified": "פרטים מדויקים על כל תוכן השיחות החסאיות",
+     "first_reported_at": "2026-09-17T23:29:11+00:00",
+     "last_update_at": "2026-09-17T23:29:11+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לבתי הזיקוק.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_gcaptain",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://gcaptain.com/china-presses-iran-to-help-rein-in-houthis-after-saudi-appeal-sources-say/",
-       "published_at": "2026-09-17T12:56:52+00:00"
-      },
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47777",
-       "published_at": "2026-09-17T12:50:54+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
-       "published_at": "2026-09-17T12:46:29+00:00"
+       "url": "https://t.me/alexmehacarmel/47794",
+       "published_at": "2026-09-17T23:29:11+00:00"
       }
      ],
      "places": [
       {
-       "name": "בייג'ינג, סין",
-       "lat": 39.9057,
-       "lon": 116.3913
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09171525-04",
-     "title": "פגישת ארה\"ב עם מנהיגי החות'ים בעומאן",
-     "summary": "נציגי ממשל ארצות הברית נפגשו עם מנהיגי החות'ים בשגרירות במסקט שבעומאן.",
-     "axis": "ציר ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-16T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-16T14:56:40+00:00",
-     "last_update_at": "2026-09-16T18:44:34+00:00",
-     "what_is_not_verified": "מלוא ההבנות שהושגו בפגישה זו",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_d1227348aa154cea",
-       "url": "https://www.newarab.com/news/yemen-war-ramps-further-hormuz-stalemate-persists",
-       "published_at": "2026-09-16T18:44:34+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_d1227348aa154cea",
-       "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
-       "published_at": "2026-09-16T14:56:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מסקט, עומאן",
-       "lat": 23.6124,
-       "lon": 58.5938
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09171525-05",
-     "title": "האשמת סעודיה את החות'ים בירי כטב\"ם לעבר מכה",
-     "summary": "ערב הסעודית האשימה את החות'ים בשיגור כטב\"ם לעבר העיר הקדושה מכה, טענה שהוכחשה על ידי החות'ים.",
-     "axis": "הציר הסעודי-מערבי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-16T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-16T19:13:38+00:00",
-     "last_update_at": "2026-09-16T20:08:24+00:00",
-     "what_is_not_verified": "האחריות המדויקת לשיגור הכטב\"ם ומסלולו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20260916-saudi-arabia-accuses-houthis-of-targeting-mecca-calling-it-a-red-line",
-       "published_at": "2026-09-16T20:08:24+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
-       "published_at": "2026-09-16T19:13:38+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מכה, ערב הסעודית",
-       "lat": 21.4208,
-       "lon": 39.8269
+       "name": "דרום סעודיה",
+       "lat": 28.3667,
+       "lon": 36.544
       }
      ]
     }
    ],
    "not_verified": [
-    "טענת החות'ים כי זו הפלת מטוס הקרב הראשונה מסוגו",
-    "טענות על הידלדלות מוחלטת של מלאי טילי היירוט בסעודיה",
-    "בקשות רשמיות לפריסת הגנה אווירית זרה בסעודיה שלא זכו לאישור רשמי מצד המדינות המבוקשות"
+    "האם אכן הופל מטוס קרב סעודי מדגם אף-15 כפי שטענו החות'ים",
+    "טענות על תקיפת כטב\"מ חות'י שכוון לעיר מכה",
+    "הפרטים המדויקים על הבנות שהושגו לכאורה בין ארצות הברית לחות'ים בעומאן"
    ],
    "map": {
     "confidence": "low",
@@ -234,94 +279,98 @@ window.DB.war_published = {
     {
      "actor": "החות'ים",
      "declared": [
-      "הסרת ההגמוניה הסעודית מעל תימן",
-      "הפסקת התערבות סעודיה בתימן ותשלום פיצויים",
-      "שמירה על חופש השיט חוץ מאשר על ספינות סעודיות"
+      "סיום ההגמוניה הסעודית בתימן והפסקת ההתערבות",
+      "הפסקת עוינות חיצונית ותשלום פיצויים"
      ],
      "inferred": [
-      "השתלטות על כל אזור החוף המערבי של תימן ומצר באב אלמנדב",
-      "הרחבת ההשפעה האזורית כגורם בעל יכולת צבאית קריטית"
+      "השתלטות מלאה על נתיבי השיט בים האדום ובבאב אל-מנדב כמנוף לחץ אזורי",
+      "ביסוס שליטה קרקעית באזורים האסטרטגיים בתימן"
      ],
      "forecast": [
-      "המשך הביצורים והחפירות באזור מצר באב אלמנדב",
-      "המשך פגיעה בנכסים סעודיים עד להשגת הפסקת אש בתנאים שלהם"
+      "המשך התקיפות לעבר יעדים בסעודיה ובאזור השיט",
+      "ביצור הקווים שנכבשו לאורך חוף הים האדום"
      ]
     },
     {
-     "actor": "ערב הסעודית",
+     "actor": "סעודיה",
      "declared": [
-      "הגנה על העיר מכה ועל מתקנים חיוניים",
-      "מניעת השתלטות עוינת על נתיבי השיט בים הסוף"
+      "הגנה על ביטחון המדינה ותשתיות האנרגיה שלה",
+      "בלימת התוקפנות החות'ית"
      ],
      "inferred": [
-      "ניסיון לבלום את ההתקדמות החות'ית באמצעות לחץ דיפלומטי על סין ובעלות ברית",
-      "חיפוש דרכים להפוגה או הפסקת אש זמנית"
+      "ניסיון לגרור מעורבות צבאית אמריקנית או אזורית נגד החות'ים",
+      "השגת הפסקת אש זמנית או פתרון דיפלומטי דרך מתווכים כמו עומאן וסין"
      ],
      "forecast": [
-      "הידוק שיתוף הפעולה עם שחקנים בינלאומיים להפעלת לחץ על איראן והחות'ים",
-      "ניסיונות התארגנות מחדש מול קריסת כוחות בעלי ברית בתימן"
-     ]
-    },
-    {
-     "actor": "סין",
-     "declared": [
-      "קריאה לפומבי לאיפוק של כל הצדדים",
-      "שמירה על חופש השיט בנתיבים הימיים"
-     ],
-     "inferred": [
-      "דאגה עמוקה ליצוא הנפט והאנרגיה המגיעים מהמזרח התיכון",
-      "ניצול מנופי השפעה מול איראן לשמירת היציבות הכלכלית"
-     ],
-     "forecast": [
-      "המשך מגעים דיפלומטיים חשאיים מול טהראן לריסון המיליציות"
+      "המשך תקיפות נגד ומאמצים לגייס תמיכה בינלאומית ומוסלמית נגד החות'ים"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/yemen-conflict-displaces-112000-people-inside-country-thousands-flee-djibouti-un",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     },
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     },
     {
      "source_id": "src_france24",
-     "url": "https://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
-    },
-    {
-     "source_id": "src_gcaptain",
-     "url": "https://gcaptain.com/china-presses-iran-to-help-rein-in-houthis-after-saudi-appeal-sources-say/",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
-    },
-    {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "url": "https://www.france24.com/en/houthis-claim-saudi-f-15-kill-as-yemen-fighting-escalates",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/yemen-war-ramps-further-hormuz-stalemate-persists",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "url": "https://www.newarab.com/news/scores-killed-houthis-yemen-govt-saudi-arabia-trade-attacks",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
+    },
+    {
+     "source_id": "src_saba_aden",
+     "url": "https://www.sabanew.net/viewstory/152545",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130334",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "url": "https://t.me/abualiexpress/130397",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47777",
-     "accessed_at": "2026-09-17T15:25:17+00:00"
+     "url": "https://t.me/alexmehacarmel/47794",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/bje0xwqyme",
+     "accessed_at": "2026-09-18T12:24:02+00:00"
     }
    ]
   },
-  "previous_generated_at": null,
-  "changes": {}
+  "previous_generated_at": "2026-09-17T15:25:17+00:00",
+  "changes": {
+   "YEMEN-09181224-01": {
+    "kind": "same",
+    "from": "initial",
+    "to": "shared_root"
+   },
+   "YEMEN-09181224-02": {
+    "kind": "new"
+   },
+   "YEMEN-09181224-03": {
+    "kind": "new"
+   },
+   "YEMEN-09181224-04": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root"
+   },
+   "YEMEN-09181224-05": {
+    "kind": "new"
+   }
+  }
  },
  "iran": {
   "draft": "drafts/iran/2026-09-18T1115__iran-202609181115.json",
