@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T05:57:35+00:00",
-  "fetched_at": "2026-09-18T05:57:35+00:00"
+  "checked_at": "2026-09-18T10:02:23+00:00",
+  "fetched_at": "2026-09-18T10:02:23+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "New Cat Species Identified for the First Time in Over 100 Years–Meet the Tilcayo",
+    "title_he": "מינים חדשים של חתולים שזוהו לראשונה מזה למעלה מ-100 שנה - הכירו את הטילקאיו",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/",
+    "date": "2026-09-18T08:45:29+00:00"
+   },
    {
     "title_en": "Mexico Reintroduced Bison into Precious Desert Ecosystem After Century-Long Absence",
     "title_he": "מקסיקו החזירה את ביזון למערכת האקולוגית היקרה של המדבר לאחר היעדרות של מאה שנים",
@@ -34,79 +41,77 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/s-carolina-aquarium-celebrates-baby-boom-of-critically-endangered-penguin-chicks/",
     "date": "2026-09-08T11:30:38+00:00"
-   },
-   {
-    "title_en": "12 Golden Puppies in One Litter Reunite With Mom On First Birthday: ‘It turned into a real extended family’",
-    "title_he": "12 גורי זהב בהמלטה אחת מתאחדים עם אמא ביום ההולדת הראשון: ‘זה הפך למשפחה מורחבת אמיתית’",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/",
-    "date": "2026-09-05T18:13:19+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T05:57:44+00:00",
-  "fetched_at": "2026-09-18T05:57:44+00:00"
+  "checked_at": "2026-09-18T10:02:37+00:00",
+  "fetched_at": "2026-09-18T10:02:37+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I test headphones for a living – and this obscure classical album is my new secret weapon",
+    "title_he": "אני בודק אוזניות למחייתי - והאלבום הקלאסי הלא ברור הזה הוא הנשק הסודי החדש שלי",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/i-test-headphones-for-a-living-and-this-obscure-classical-album-is-my-new-secret-weapon",
+    "date": "2026-09-18T09:56:24+00:00"
+   },
+   {
+    "title_en": "FiiO's flagship planar headphones use diamond coated drivers to create an \"open, spacious soundstage\"",
+    "title_he": "אוזניות הדגל המישוריות של FiiO משתמשות בדרייברים מצופים יהלום כדי ליצור \"במת קול פתוחה ומרווחת\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wired-headphones/fiios-flagship-planar-headphones-use-diamond-coated-drivers-to-create-an-open-spacious-soundstage",
+    "date": "2026-09-18T09:11:54+00:00"
+   },
+   {
+    "title_en": "Quiz! We’ve created a beginner-friendly hi-fi wordsearch for audio fans",
+    "title_he": "חִידוֹן! יצרנו חיפוש מילים Hi-Fi ידידותי למתחילים עבור חובבי אודיו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/quiz-weve-created-a-beginner-friendly-hi-fi-wordsearch-for-audio-fans",
+    "date": "2026-09-18T08:37:06+00:00"
+   },
    {
     "title_en": "Thought CD was dead? Our audio experts pick out the best CD players and some of our favourite test discs that you can own for ever",
     "title_he": "חשבתם שהתקליטור מת? מומחי האודיו שלנו בוחרים את נגני התקליטורים הטובים ביותר וכמה מתקליטורי הבדיקה האהובים עלינו שתוכל להחזיק לנצח",
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/cd-players/thought-cd-was-dead-our-audio-experts-pick-out-the-best-cd-players-and-some-of-our-favourite-test-discs-that-you-can-own-for-ever",
     "date": "2026-09-17T15:13:40+00:00"
-   },
-   {
-    "title_en": "I needed a quick, cheap Bluetooth earbuds replacement – and this Award-winning £28 pair was a lifesaver",
-    "title_he": "הייתי זקוק להחלפה מהירה וזולה של אוזניות בלוטות' - והזוג עטור הפרסים הזה של 28 פאונד היה מציל חיים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/i-needed-a-quick-cheap-bluetooth-earbuds-replacement-and-this-award-winning-gbp28-pair-was-a-lifesaver",
-    "date": "2026-09-17T13:03:46+00:00"
-   },
-   {
-    "title_en": "Bose's latest duo of open-ear wireless buds are “designed to feel as good as they sound”",
-    "title_he": "הצמד האחרון של Bose של ניצנים אלחוטיים עם אוזניים פתוחות \"נועדו להרגיש טוב כמו שהם נשמעים\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/boses-latest-duo-of-open-ear-wireless-buds-are-designed-to-feel-as-good-as-they-sound",
-    "date": "2026-09-17T13:00:00+00:00"
-   },
-   {
-    "title_en": "Clearaudio’s new phono stage is designed to “tuck discreetly alongside any turntable”",
-    "title_he": "במת הפונו החדשה של Clearaudio נועדה \"לתחוב בדיסקרטיות לצד כל פטיפון\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/phono-preamps/clearaudios-new-phono-stage-is-designed-to-tuck-discreetly-alongside-any-turntable",
-    "date": "2026-09-17T11:09:17+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T05:57:44+00:00",
-  "fetched_at": "2026-09-18T05:57:44+00:00"
+  "checked_at": "2026-09-18T10:02:41+00:00",
+  "fetched_at": "2026-09-18T10:02:41+00:00"
  },
- "generated_at": "2026-09-18T05:57:44+00:00",
+ "generated_at": "2026-09-18T10:02:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
-     "date": "2026-09-18T03:58:00+00:00"
+     "title": "מקום 10: המנהל שהחזיר את טבע לצמיחה - \"כשיש נתונים ברורים, צריך לפעול מהר\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555191",
+     "date": "2026-09-18T07:03:00+00:00"
     },
     {
      "title": "לא רק חמקנות משופרת: היכולות שעשויות להיות לסעודיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556922",
-     "date": "2026-09-18T03:17:00+00:00"
+     "date": "2026-09-18T08:56:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "על סף חתימה: עסקת הענק של רפאל בצ'כיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556924",
+     "date": "2026-09-18T08:30:00+00:00"
+    },
+    {
+     "title": "הריבית ביפן עלתה לשיא של 31 שנה, והאזהרה של ג'יימי דיימון: \"זה לא נגמר\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
+     "date": "2026-09-18T06:39:00+00:00"
+    },
+    {
      "title": "קרני בירך את הצעת האיחוד האירופי ורמז לטראמפ: \"המכסים הפכו לנשק\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556923",
      "date": "2026-09-18T05:41:00+00:00"
-    },
-    {
-     "title": "הבנק המרכזי של יפן מעלה את הריבית לשיא של 31 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T04:33:00+00:00"
     },
     {
      "title": "המחירים עולים, התשואות מתמתנות: האם התשואה בפורטוגל, ביוון ובקפריסין מצדיקה את הסיכון?",
@@ -114,7 +119,7 @@ window.DB.generated = {
      "date": "2026-09-18T04:06:00+00:00"
     },
     {
-     "title": "איזו עיר שואפת לבנות את מתחם ההופעות הסגור הגדול ביותר בישראל?",
+     "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
      "date": "2026-09-18T04:01:00+00:00"
     },
@@ -124,7 +129,7 @@ window.DB.generated = {
      "date": "2026-09-18T03:59:00+00:00"
     },
     {
-     "title": "מאחורי רכישת הגמל של אלטשולר שחם יש מיליארדר שרק מעטים בשוק ההון מכירים",
+     "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
      "date": "2026-09-18T03:58:00+00:00"
     },
@@ -199,11 +204,6 @@ window.DB.generated = {
      "date": "2026-09-17T08:08:00+00:00"
     },
     {
-     "title": "יום לאחר מייל הפיטורים האכזרי: המסר המפתיע שקיבלו העובדים שנותרו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556739",
-     "date": "2026-09-17T04:25:00+00:00"
-    },
-    {
      "title": "גם מאנדיי ו-WIX בפנים: אלה המרוויחות הגדולות מבלימת ה-AI",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555525",
      "date": "2026-09-17T02:43:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T05:57:36+00:00",
-  "fetched_at": "2026-09-18T05:57:36+00:00"
+  "checked_at": "2026-09-18T10:02:25+00:00",
+  "fetched_at": "2026-09-18T10:02:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T05:57:36+00:00",
-  "fetched_at": "2026-09-18T05:57:36+00:00"
+  "checked_at": "2026-09-18T10:02:26+00:00",
+  "fetched_at": "2026-09-18T10:02:26+00:00"
  },
  "tv": {
   "data": [
@@ -1998,21 +1998,21 @@ window.DB.generated = {
    {
     "date": "2026-09-19",
     "time": "11:45",
-    "channel": "ספורט 5",
+    "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "בית\"ר ירושלים - מכבי תל אביב"
    },
    {
     "date": "2026-09-19",
     "time": "11:50",
-    "channel": "ספורט 5",
+    "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "הפועל תל אביב - הפועל רעננה"
    },
    {
     "date": "2026-09-19",
     "time": "11:55",
-    "channel": "ספורט 5",
+    "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי הרצליה - מכבי נתניה"
    },
@@ -2431,8 +2431,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T05:57:38+00:00",
-  "fetched_at": "2026-09-18T05:57:38+00:00"
+  "checked_at": "2026-09-18T10:02:29+00:00",
+  "fetched_at": "2026-09-18T10:02:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2587,22 +2587,22 @@ window.DB.generated = {
     {
      "date": "2026-09-19",
      "time": "11:50",
-     "channel": "ספורט 5",
+     "channel": "ספורט 5+",
      "israeli_team": "הפועל ת\"א",
      "title": "הפועל תל אביב - הפועל רעננה"
     },
     {
      "date": "2026-09-19",
      "time": "11:55",
-     "channel": "ספורט 5",
+     "channel": "ספורט 5+",
      "israeli_team": "מכבי נתניה",
      "title": "מכבי הרצליה - מכבי נתניה"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T05:57:38+00:00",
-  "fetched_at": "2026-09-18T05:57:38+00:00"
+  "checked_at": "2026-09-18T10:02:29+00:00",
+  "fetched_at": "2026-09-18T10:02:29+00:00"
  },
  "ai": {
   "data": {
@@ -2626,43 +2626,43 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
+   "candidates": 15,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 386,
+     "likes": 391,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 121,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 107,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 128,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 87,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/tencent/AuK"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 130,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2672,42 +2672,60 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
-     "desc_en": "Depth, surface normals, and albedo from a single image",
-     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 79,
-     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 64,
+     "likes": 66,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "HF Viewer · Model Architecture Explorer",
-     "desc_en": "Interactive architecture graph for any HF model",
-     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 80,
-     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3121,
+     "likes": 3123,
      "link": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview"
+    },
+    {
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+    },
+    {
+     "title": "HF Viewer · Model Architecture Explorer",
+     "desc_en": "Interactive architecture graph for any HF model",
+     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
+     "likes": 81,
+     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T05:57:43+00:00",
-  "fetched_at": "2026-09-18T05:57:43+00:00"
+  "checked_at": "2026-09-18T10:02:35+00:00",
+  "fetched_at": "2026-09-18T10:02:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סולומון, אתה מוכן? אחד המשחקים הטעונים באנגליה חוזר",
+     "link": "https://sports.walla.co.il/item/3868724",
+     "date": "2026-09-18T11:17:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "שם את איפסוויץ' מאחור: מחמאות על \"הופעה אנרגטית\" של חלאילי",
+     "link": "https://sports.walla.co.il/item/3868712",
+     "date": "2026-09-18T09:42:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "\"גלוך עשה פעולה אחרי פעולה\": המחמאות בהולנד נמשכות",
      "link": "https://sports.walla.co.il/item/3868640",
@@ -2754,15 +2772,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אחרי הפגישה עם מזרחי, ריצ'ארד דיץ הגיע להיכל",
-     "link": "https://www.one.co.il/Article/533707.html?ref=rss",
-     "date": "2026-09-17T13:32:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
      "title": "שועה, שטייפמן ואבו פרחי בפנים, סבע וטוריאל בחוץ",
      "link": "https://sports.walla.co.il/item/3868487",
      "date": "2026-09-17T11:00:00+00:00",
@@ -2805,15 +2814,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דניאל פרץ: \"המטרה שלי בחיים היא לשחק. אני יכול לשמח אנשים\"",
-     "link": "https://sports.walla.co.il/item/3868336",
-     "date": "2026-09-16T19:50:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -3041,18 +3041,10 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": [
-    {
-     "title": "רן קוז'וך: \"לא זוכר דומיננטיות כזאת של ישראלית בליגה האירופית\"",
-     "link": "https://sports.walla.co.il/item/3868396",
-     "date": "2026-09-17T00:13:00+00:00",
-     "source": "וואלה",
-     "clubs": []
-    }
-   ]
+   "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-18T05:57:40+00:00",
-  "fetched_at": "2026-09-18T05:57:40+00:00"
+  "checked_at": "2026-09-18T10:02:31+00:00",
+  "fetched_at": "2026-09-18T10:02:31+00:00"
  }
 };
