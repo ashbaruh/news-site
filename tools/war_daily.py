@@ -28,6 +28,9 @@ from geocode import Geocoder  # noqa: E402
 
 MIN_ITEMS = 3          # פחות מזה — אין על מה לנתח, לא מבזבזים קריאות
 WINDOW_HOURS = 24
+# תקציב זמן לריצה (שלב הניתוח ב-GitHub נחתך ב-55 דקות) ומקסימום לזירה אחת כשהבינה עמוסה
+BUDGET_SEC = int(os.environ.get("WAR_BUDGET_MIN", "50")) * 60
+PER_ARENA_SEC = 16 * 60
 
 
 def map_confidence(arena):
@@ -104,6 +107,19 @@ def main():
 
     known, groups = iw.load_sources()
     before = all_drafts()
+    start = time.monotonic()
+
+    def flush():
+        """קליטה + רשימת הטיוטות החדשות — אחרי כל זירה, לא רק בסוף.
+        (18/09/2026: הריצה נחתכה אחרי 60 דקות, והזירות שכבר הסתיימו אבדו כי נשמרו רק בסוף.)"""
+        for line in iw.ingest(known, groups):
+            print(line)
+        new = sorted(all_drafts() - before)
+        tmp = args.new_drafts + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump({"drafts": new, "failed": failed}, f, ensure_ascii=False)
+        os.replace(tmp, args.new_drafts)
+        return new
     os.makedirs(iw.INBOX, exist_ok=True)
     failed = []
     report = []          # סיכום קצר לכל זירה — נכתב לדף הריצה ב-GitHub (Summary)
@@ -115,6 +131,13 @@ def main():
         if not args.force and done_today(arena):
             print("כבר נותחה היום — מדלג")
             report.append(f"| {arena} | ⏭️ כבר נותחה היום | |")
+            continue
+        # תקציב זמן: זירה אחת עם Gemini עמוס יכולה לקחת עד ~16 דקות (המתנות וניסיונות חוזרים).
+        # אין מספיק זמן לזירה שלמה → לא מתחילים; הריצה הבאה היום תשלים (היא מדלגת על מה שכבר נותח).
+        if time.monotonic() - start + PER_ARENA_SEC > BUDGET_SEC:
+            print("⏱️ לא נשאר זמן לזירה נוספת בריצה הזו — תושלם בריצה הבאה")
+            failed.append(f"{arena}: לא הספיק בזמן הריצה — יושלם בריצה הבאה")
+            report.append(f"| {arena} | ⏱️ לא הספיק — יושלם בריצה הבאה | |")
             continue
         items = [it for it in cw.collect(arena) if it["source_id"] in known]
         if len(items) < MIN_ITEMS:
@@ -150,17 +173,14 @@ def main():
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             json.dump(doc, f, ensure_ascii=False, indent=1)
         print(f"✓ {len(doc['events'])} אירועים → תיבה")
+        flush()                                  # נשמר מיד — גם אם הריצה תיחתך בהמשך
         places = sum(len(e.get("places", [])) for e in doc["events"])
         report.append(f"| {arena} | ✅ {len(doc['events'])} אירועים · {places} מקומות במפה | "
                       f"{len(items)} כתבות · {len({i['source_id'] for i in items})} מקורות · {md_cell(doc['model']['name'])} |")
 
     geocode.save()
     print("\n=== קליטה ===")
-    for line in iw.ingest(known, groups):
-        print(line)
-    new = sorted(all_drafts() - before)
-    with open(args.new_drafts, "w", encoding="utf-8") as f:
-        json.dump({"drafts": new, "failed": failed}, f, ensure_ascii=False)
+    new = flush()
     print(f"\nטיוטות חדשות: {len(new)} · נכשלו: {len(failed)}")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:

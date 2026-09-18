@@ -114,7 +114,12 @@ def arena_md(rel, groups, names):
 
 
 def open_issue(new_drafts_file):
-    data = json.load(open(new_drafts_file, encoding="utf-8"))
+    try:
+        with open(new_drafts_file, encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("אין רשימת טיוטות חדשות (הניתוח לא הגיע לשמירה) — לא נפתחת בקשה")
+        return
     drafts = [d for d in data.get("drafts", []) if DRAFT_RE.fullmatch(d)]
     failed = data.get("failed", [])
     if not drafts:

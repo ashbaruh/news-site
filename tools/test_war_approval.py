@@ -199,6 +199,66 @@ class Approval(unittest.TestCase):
             json.load(f)                                 # JSON תקין
 
 
+class DailyRun(unittest.TestCase):
+    """18/09/2026: הריצה נחתכה אחרי 60 דקות וכל הזירות אבדו. עכשיו: שמירה אחרי כל זירה + תקציב זמן."""
+
+    def setUp(self):
+        import war_daily as wd
+        self.wd = wd
+        self.tmp = tempfile.mkdtemp()
+        self.orig_paths = (iw.WAR, iw.INBOX, iw.DRAFTS, iw.REJECTED, iw.APPROVED, iw.PUBLISHED)
+        iw.WAR = os.path.join(self.tmp, "war")
+        iw.INBOX, iw.DRAFTS, iw.REJECTED = (os.path.join(iw.WAR, d) for d in ("inbox", "drafts", "rejected"))
+        iw.APPROVED, iw.PUBLISHED = os.path.join(iw.WAR, "approved.json"), os.path.join(iw.WAR, "published.js")
+        self.orig_fns = (wd.cw.collect, wd.done_today, wd.economy_for, wd.Geocoder, wd.an.analyze_arena,
+                         wd.time.sleep, wd.BUDGET_SEC, sys.argv)
+        wd.cw.collect = lambda arena: list(ta.ITEMS)
+        wd.done_today = lambda arena: False
+        wd.economy_for = lambda arena: []
+        wd.Geocoder = lambda: type("G", (), {"save": lambda self: None, "__call__": lambda self, n: None})()
+        wd.time.sleep = lambda s: None
+        self.nd = os.path.join(self.tmp, "new.json")
+
+    def tearDown(self):
+        wd = self.wd
+        (wd.cw.collect, wd.done_today, wd.economy_for, wd.Geocoder, wd.an.analyze_arena,
+         wd.time.sleep, wd.BUDGET_SEC, sys.argv) = self.orig_fns
+        iw.WAR, iw.INBOX, iw.DRAFTS, iw.REJECTED, iw.APPROVED, iw.PUBLISHED = self.orig_paths
+        shutil.rmtree(self.tmp)
+
+    def run_main(self, arenas):
+        sys.argv = ["war_daily.py", "--arenas", arenas, "--new-drafts", self.nd]
+        self.wd.main()
+        with open(self.nd, encoding="utf-8") as f:
+            return json.load(f)
+
+    def test_first_arena_saved_before_second_starts(self):
+        seen = []
+
+        def analyze(arena, items, *a, **k):
+            if seen:                                         # הזירה הראשונה כבר שמורה כשהשנייה מתחילה
+                with open(self.nd, encoding="utf-8") as f:
+                    self.assertEqual(len(json.load(f)["drafts"]), 1)
+                raise RuntimeError("הבינה עמוסה")            # השנייה נכשלת — הראשונה לא אובדת
+            seen.append(arena)
+            doc = ta.an.build(arena, ta.ITEMS, ta.FAKE_EVENTS, ta.FAKE_OVERVIEW, 24, "low", arena + "-run", ta.NOW)
+            return doc, []
+        self.wd.an.analyze_arena = analyze
+        res = self.run_main("iran,yemen")
+        self.assertEqual([d.split("/")[1] for d in res["drafts"]], ["iran"])
+        self.assertTrue(any(f.startswith("yemen") for f in res["failed"]))
+
+    def test_no_time_left_skips_instead_of_being_cut(self):
+        self.wd.BUDGET_SEC = 0
+        self.wd.an.analyze_arena = lambda *a, **k: self.fail("לא אמור להתחיל ניתוח בלי זמן")
+        res = self.run_main("iran,north")
+        self.assertEqual(res["drafts"], [])
+        self.assertEqual(len([f for f in res["failed"] if "לא הספיק" in f]), 2)
+
+    def test_open_issue_without_list_file(self):
+        wa.open_issue(os.path.join(self.tmp, "missing.json"))   # לא זורק שגיאה, לא פותח בקשה
+
+
 class Changes(unittest.TestCase):
     """"מה השתנה מאתמול": אותו אירוע מזוהה לפי קישור משותף; רמת אימות עלתה/ירדה/חדש."""
 
