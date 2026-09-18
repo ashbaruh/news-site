@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-17",
+   "as_of": "2026-09-18",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T00:23:02+00:00",
-  "fetched_at": "2026-09-18T00:23:02+00:00"
+  "checked_at": "2026-09-18T05:57:35+00:00",
+  "fetched_at": "2026-09-18T05:57:35+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T00:23:09+00:00",
-  "fetched_at": "2026-09-18T00:23:09+00:00"
+  "checked_at": "2026-09-18T05:57:44+00:00",
+  "fetched_at": "2026-09-18T05:57:44+00:00"
  },
  "av_en": {
   "data": [
@@ -79,37 +79,62 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T00:23:09+00:00",
-  "fetched_at": "2026-09-18T00:23:09+00:00"
+  "checked_at": "2026-09-18T05:57:44+00:00",
+  "fetched_at": "2026-09-18T05:57:44+00:00"
  },
- "generated_at": "2026-09-18T00:23:09+00:00",
+ "generated_at": "2026-09-18T05:57:44+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מקום 29: \"לקוחות בחו\"ל מודאגים מהמלחמה, אבל חותמים איתנו 15 שנה קדימה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555189",
-     "date": "2026-09-17T18:00:00+00:00"
+     "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
+     "date": "2026-09-18T03:58:00+00:00"
     },
     {
-     "title": "העסקה שתשנה את המזרח התיכון: מטוסי החמקן בדרך לסעודיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556737",
-     "date": "2026-09-17T20:09:00+00:00"
+     "title": "לא רק חמקנות משופרת: היכולות שעשויות להיות לסעודיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556922",
+     "date": "2026-09-18T03:17:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "וול סטריט מתאוששת אחרי העלאת הריבית; אינטל מזנקת ב-10%, טאואר ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T17:36:00+00:00"
+     "title": "קרני בירך את הצעת האיחוד האירופי ורמז לטראמפ: \"המכסים הפכו לנשק\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556923",
+     "date": "2026-09-18T05:41:00+00:00"
+    },
+    {
+     "title": "הבנק המרכזי של יפן מעלה את הריבית לשיא של 31 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
+     "date": "2026-09-18T04:33:00+00:00"
+    },
+    {
+     "title": "המחירים עולים, התשואות מתמתנות: האם התשואה בפורטוגל, ביוון ובקפריסין מצדיקה את הסיכון?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001554029",
+     "date": "2026-09-18T04:06:00+00:00"
     },
     {
      "title": "איזו עיר שואפת לבנות את מתחם ההופעות הסגור הגדול ביותר בישראל?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
-     "date": "2026-09-17T15:40:00+00:00"
+     "date": "2026-09-18T04:01:00+00:00"
     },
     {
-     "title": "בפחות ממחיר דירה: עיירה שלמה בארה”ב מחפשת קונה ב־1.1 מיליון דולר",
+     "title": "איראן השתלטה על טכנולוגיה ביטחונית אמריקאית. עכשיו היא תעתיק אותה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555457",
+     "date": "2026-09-18T03:59:00+00:00"
+    },
+    {
+     "title": "מאחורי רכישת הגמל של אלטשולר שחם יש מיליארדר שרק מעטים בשוק ההון מכירים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
+     "date": "2026-09-18T03:58:00+00:00"
+    },
+    {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
+     "title": "המדינה ששברה שיא במספר האנשים שהגיעו לגיל מאה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556783",
      "date": "2026-09-17T15:30:00+00:00"
     },
@@ -194,30 +219,15 @@ window.DB.generated = {
      "date": "2026-09-17T02:38:00+00:00"
     },
     {
-     "title": "איראן השתלטה על טכנולוגיה ביטחונית אמריקאית. עכשיו היא תעתיק אותה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555457",
-     "date": "2026-09-17T02:38:00+00:00"
-    },
-    {
      "title": "מה עומד מאחורי בליץ ההצעות לקצץ לנו בפנסיה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556670",
      "date": "2026-09-17T02:33:00+00:00"
-    },
-    {
-     "title": "נעילה אדומה בוול סטריט: הפד מחק את העליות, הדאו ג'ונס צלל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555589",
-     "date": "2026-09-16T20:00:00+00:00"
-    },
-    {
-     "title": "נעילה ירוקה בתל אביב בעקבות נתוני האינפלציה; דוראל וטאואר קפצו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555531",
-     "date": "2026-09-16T14:29:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T00:23:03+00:00",
-  "fetched_at": "2026-09-18T00:23:03+00:00"
+  "checked_at": "2026-09-18T05:57:36+00:00",
+  "fetched_at": "2026-09-18T05:57:36+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T00:23:03+00:00",
-  "fetched_at": "2026-09-18T00:23:03+00:00"
+  "checked_at": "2026-09-18T05:57:36+00:00",
+  "fetched_at": "2026-09-18T05:57:36+00:00"
  },
  "tv": {
   "data": [
@@ -2421,8 +2431,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T00:23:05+00:00",
-  "fetched_at": "2026-09-18T00:23:05+00:00"
+  "checked_at": "2026-09-18T05:57:38+00:00",
+  "fetched_at": "2026-09-18T05:57:38+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2591,8 +2601,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T00:23:05+00:00",
-  "fetched_at": "2026-09-18T00:23:05+00:00"
+  "checked_at": "2026-09-18T05:57:38+00:00",
+  "fetched_at": "2026-09-18T05:57:38+00:00"
  },
  "ai": {
   "data": {
@@ -2616,90 +2626,97 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 380,
+     "likes": 386,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 118,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 105,
+     "likes": 107,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 126,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 58,
+     "likes": 61,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
-    },
-    {
-     "title": "HF Viewer · Model Architecture Explorer",
-     "desc_en": "Interactive architecture graph for any HF model",
-     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 78,
-     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 75,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 62,
+     "likes": 64,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Wan2.2 14B Fast",
+     "title": "HF Viewer · Model Architecture Explorer",
+     "desc_en": "Interactive architecture graph for any HF model",
+     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/embedl/hfviewer"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 3533,
-     "link": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
+     "likes": 3121,
+     "link": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T00:23:09+00:00",
-  "fetched_at": "2026-09-18T00:23:09+00:00"
+  "checked_at": "2026-09-18T05:57:43+00:00",
+  "fetched_at": "2026-09-18T05:57:43+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"גלוך עשה פעולה אחרי פעולה\": המחמאות בהולנד נמשכות",
+     "link": "https://sports.walla.co.il/item/3868640",
+     "date": "2026-09-18T08:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
     {
      "title": "קריסטל פאלאס מחצה את לך פוזנן, 61 דקות לענאן חלאילי",
      "link": "https://sports.walla.co.il/item/3868307",
@@ -2764,22 +2781,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "גלוך, חלאילי, שועה, דסה ושטייפמן בסגל הנבחרת",
-     "link": "https://www.one.co.il/Article/533664.html?ref=rss",
-     "date": "2026-09-17T08:03:00+00:00",
-     "source": "ONE",
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T08:17:00+00:00",
+     "source": "וואלה",
      "players": [
-      "אוסקר גלוך",
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"לא הסתדר עם גאנדלמן, תמיד נשאף להכי טוב\"",
-     "link": "https://www.one.co.il/Article/533665.html?ref=rss",
-     "date": "2026-09-17T07:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עומרי גאנדלמן"
+      "דני אבדיה"
      ]
     },
     {
@@ -2810,15 +2817,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "באנגליה סימנו את הבעיה של ענאן חלאילי: \"זה חוזר על עצמו\"",
-     "link": "https://sports.walla.co.il/item/3868323",
-     "date": "2026-09-16T19:35:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
      "link": "https://sports.walla.co.il/item/3867493",
      "date": "2026-09-13T19:54:00+00:00",
@@ -2831,6 +2829,15 @@ window.DB.generated = {
      "title": "העסקה הזאת \"מסבכת את האפשרות להשאיר את דני אבדיה\"",
      "link": "https://sports.walla.co.il/item/3867431",
      "date": "2026-09-13T11:29:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "דני אבדיה ייקח צעד לאחור? התחזיות בארה\"ב לגבי פורטלנד",
+     "link": "https://sports.walla.co.il/item/3867256",
+     "date": "2026-09-12T07:36:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3045,7 +3052,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T00:23:08+00:00",
-  "fetched_at": "2026-09-18T00:23:08+00:00"
+  "checked_at": "2026-09-18T05:57:40+00:00",
+  "fetched_at": "2026-09-18T05:57:40+00:00"
  }
 };
