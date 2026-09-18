@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-17T21:30:20+00:00",
-  "fetched_at": "2026-09-17T21:30:20+00:00"
+  "checked_at": "2026-09-18T00:23:02+00:00",
+  "fetched_at": "2026-09-18T00:23:02+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T21:30:38+00:00",
-  "fetched_at": "2026-09-17T21:30:38+00:00"
+  "checked_at": "2026-09-18T00:23:09+00:00",
+  "fetched_at": "2026-09-18T00:23:09+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T21:30:38+00:00",
-  "fetched_at": "2026-09-17T21:30:38+00:00"
+  "checked_at": "2026-09-18T00:23:09+00:00",
+  "fetched_at": "2026-09-18T00:23:09+00:00"
  },
- "generated_at": "2026-09-17T21:30:38+00:00",
+ "generated_at": "2026-09-18T00:23:09+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T21:30:22+00:00",
-  "fetched_at": "2026-09-17T21:30:22+00:00"
+  "checked_at": "2026-09-18T00:23:03+00:00",
+  "fetched_at": "2026-09-18T00:23:03+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T21:30:23+00:00",
-  "fetched_at": "2026-09-17T21:30:23+00:00"
+  "checked_at": "2026-09-18T00:23:03+00:00",
+  "fetched_at": "2026-09-18T00:23:03+00:00"
  },
  "tv": {
   "data": [
@@ -2421,8 +2421,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-17T21:30:25+00:00",
-  "fetched_at": "2026-09-17T21:30:25+00:00"
+  "checked_at": "2026-09-18T00:23:05+00:00",
+  "fetched_at": "2026-09-18T00:23:05+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2591,8 +2591,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T21:30:25+00:00",
-  "fetched_at": "2026-09-17T21:30:25+00:00"
+  "checked_at": "2026-09-18T00:23:05+00:00",
+  "fetched_at": "2026-09-18T00:23:05+00:00"
  },
  "ai": {
   "data": {
@@ -2616,28 +2616,30 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 9,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 375,
+     "likes": 380,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 117,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 104,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2655,18 +2657,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "HF Viewer · Model Architecture Explorer",
-     "desc_en": "Interactive architecture graph for any HF model",
-     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 78,
-     "link": "https://huggingface.co/spaces/embedl/hfviewer"
-    },
-    {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
      "likes": 58,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+    },
+    {
+     "title": "HF Viewer · Model Architecture Explorer",
+     "desc_en": "Interactive architecture graph for any HF model",
+     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
+     "likes": 78,
+     "link": "https://huggingface.co/spaces/embedl/hfviewer"
     },
     {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
@@ -2692,8 +2694,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T21:30:36+00:00",
-  "fetched_at": "2026-09-17T21:30:36+00:00"
+  "checked_at": "2026-09-18T00:23:09+00:00",
+  "fetched_at": "2026-09-18T00:23:09+00:00"
  },
  "abroad": {
   "data": {
@@ -3043,7 +3045,7 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-17T21:30:28+00:00",
-  "fetched_at": "2026-09-17T21:30:28+00:00"
+  "checked_at": "2026-09-18T00:23:08+00:00",
+  "fetched_at": "2026-09-18T00:23:08+00:00"
  }
 };
