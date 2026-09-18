@@ -128,9 +128,12 @@
   @media (max-width: 860px) {
     #globe { width: 100vw; height: 52vh; opacity: .55; }
     header.top nav { display: none; }
+    header.top { gap: 12px; padding-inline: 16px; }
+    .back { white-space: nowrap; font-size: 12px; padding: 5px 10px; flex: none; }
     .col { width: 100%; }
     .hero { padding-top: 38vh; min-height: auto; }
     .chapter { min-height: auto; padding-block: 64px; background: linear-gradient(rgba(10, 12, 15, .82), rgba(10, 12, 15, .96)); }
+    .grid { grid-template-columns: 1fr; gap: 24px; }   /* 12 עמודות עם רווחים דחפו את הדף לרוחב 460 (נבדק) */
     .figure, .list { grid-column: 1 / -1; }
     .list li { grid-template-columns: 56px 1fr; }
   }
