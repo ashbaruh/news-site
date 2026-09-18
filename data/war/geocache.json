@@ -12,6 +12,7 @@
 32.854
 ],
 "bab al-mandab strait, yemen": null,
+"bab el-mandab, yemen": null,
 "bab el-mandeb, yemen": null,
 "beijing, china": [
 39.9057,
@@ -116,6 +117,10 @@
 48.8523,
 37.6058
 ],
+"southern saudi arabia": [
+28.3667,
+36.544
+],
 "strait of hormuz": [
 26.4494,
 56.2028
@@ -123,6 +128,10 @@
 "taif, saudi arabia": [
 21.2703,
 40.4158
+],
+"taiz, yemen": [
+13.5752,
+44.0215
 ],
 "wadi al-raqqad, syria": [
 32.8011,
@@ -136,6 +145,7 @@
 57.6264,
 39.8934
 ],
+"yemen": null,
 "zaporizhzhia, ukraine": [
 47.8508,
 35.1183
