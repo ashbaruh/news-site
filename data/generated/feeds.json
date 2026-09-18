@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T14:32:25+00:00",
-  "fetched_at": "2026-09-18T14:32:25+00:00"
+  "checked_at": "2026-09-18T17:54:19+00:00",
+  "fetched_at": "2026-09-18T17:54:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T14:32:37+00:00",
-  "fetched_at": "2026-09-18T14:32:37+00:00"
+  "checked_at": "2026-09-18T17:54:26+00:00",
+  "fetched_at": "2026-09-18T17:54:26+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I got up close and personal with two competing 4K UST projectors – and I'm more excited than ever for the future of the category",
+    "title_he": "הגעתי מקרוב עם שני מקרני 4K UST מתחרים - ואני נרגש מתמיד לעתיד הקטגוריה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/projectors/i-got-up-close-and-personal-with-two-competing-4k-ust-projectors-and-im-more-excited-than-ever-for-the-future-of-the-category",
+    "date": "2026-09-18T15:31:22+00:00"
+   },
+   {
+    "title_en": "\"What was a Panasonic TV is still a Panasonic TV\" – I spoke to the CEO of Panasonic's new TV division about what to expect from this legendary Japanese AV brand moving forward",
+    "title_he": "\"מה שהיה טלוויזיית פנסוניק היא עדיין טלוויזיית פנסוניק\" - דיברתי עם המנכ\"ל של חטיבת הטלוויזיה החדשה של פנסוניק לגבי מה לצפות ממותג AV יפני אגדי שמתקדם קדימה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/what-was-a-panasonic-tv-is-still-a-panasonic-tv-i-spoke-to-the-ceo-of-panasonics-new-tv-division-about-what-to-expect-from-this-legendary-japanese-av-brand-moving-forward",
+    "date": "2026-09-18T14:59:20+00:00"
+   },
    {
     "title_en": "3D TV, Sonos and Spotify – former What Hi-Fi? editor recalls a time of huge transition, including the launch of the website and the \"pivot to video\"",
     "title_he": "טלוויזיית תלת מימד, Sonos ו-Spotify - לשעבר What Hi-Fi? העורך נזכר בתקופה של מעבר ענק, כולל השקת האתר ו\"ציר לווידאו\"",
@@ -60,34 +74,20 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/im-not-surprised-this-is-amazons-best-selling-soundbar-this-award-winning-model-offers-dolby-atmos-at-an-incredible-price",
     "date": "2026-09-18T13:07:51+00:00"
-   },
-   {
-    "title_en": "Forget the QuietComfort Ultra – these are the new Bose earbuds I can't wait to try",
-    "title_he": "תשכחו מה-QuietComfort Ultra - אלו האוזניות החדשות של Bose שאני לא יכול לחכות לנסות",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/forget-the-quietcomfort-ultra-these-are-the-new-bose-earbuds-i-cant-wait-to-try",
-    "date": "2026-09-18T13:00:10+00:00"
-   },
-   {
-    "title_en": "Why the Emmy-winning Widow's Bay is a brilliant test for your TV and sound system (and your nerves)",
-    "title_he": "למה מפרץ האלמנה זוכה האמי הוא מבחן מבריק לטלוויזיה ולמערכת הקול שלך (והעצבים שלך)",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/why-the-emmy-winning-widows-bay-is-a-brilliant-test-for-your-tv-and-sound-system-and-your-nerves",
-    "date": "2026-09-18T12:15:05+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T14:32:40+00:00",
-  "fetched_at": "2026-09-18T14:32:40+00:00"
+  "checked_at": "2026-09-18T17:54:28+00:00",
+  "fetched_at": "2026-09-18T17:54:28+00:00"
  },
- "generated_at": "2026-09-18T14:32:40+00:00",
+ "generated_at": "2026-09-18T17:54:28+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בכיר הממשל שהתפכח, יצא לטיול לטורקיה ונעלם",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555549",
-     "date": "2026-09-18T13:04:00+00:00"
+     "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555554",
+     "date": "2026-09-18T16:55:00+00:00"
     },
     {
      "title": "המקור נחשף: אני העברתי מסר מסינוואר לישראל לפני 7.10",
@@ -97,12 +97,17 @@
    ],
    "market": [
     {
-     "title": "וול סטריט עברה לירידות; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T14:10:00+00:00"
+     "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555554",
+     "date": "2026-09-18T16:55:00+00:00"
     },
     {
-     "title": "בכיר הממשל שהתפכח, יצא לטיול לטורקיה ונעלם",
+     "title": "וול סטריט עברה לירידות; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
+     "date": "2026-09-18T15:16:00+00:00"
+    },
+    {
+     "title": "השעות הגורליות בלב ים וההיעלמות המסתורית של מתנגד המשטר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555549",
      "date": "2026-09-18T13:04:00+00:00"
     },
@@ -140,11 +145,6 @@
      "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
      "date": "2026-09-18T04:01:00+00:00"
-    },
-    {
-     "title": "איראן השתלטה על טכנולוגיה ביטחונית אמריקאית. עכשיו היא תעתיק אותה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555457",
-     "date": "2026-09-18T03:59:00+00:00"
     },
     {
      "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T14:32:26+00:00",
-  "fetched_at": "2026-09-18T14:32:26+00:00"
+  "checked_at": "2026-09-18T17:54:20+00:00",
+  "fetched_at": "2026-09-18T17:54:20+00:00"
  },
  "ifa": {
   "data": [
@@ -487,7 +487,7 @@
     "home": "הפועל ת\"א",
     "away": "הפועל פ\"ת",
     "round": "מחזור 5",
-    "score": "",
+    "score": "3-0",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T14:32:27+00:00",
-  "fetched_at": "2026-09-18T14:32:27+00:00"
+  "checked_at": "2026-09-18T17:54:21+00:00",
+  "fetched_at": "2026-09-18T17:54:21+00:00"
  },
  "tv": {
   "data": [
@@ -2428,8 +2428,9 @@
     "title": "אוסטריה - ישראל"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-18T14:32:28+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-18T17:54:21+00:00",
   "fetched_at": "2026-09-18T14:32:28+00:00"
  },
  "ligat_haal": {
@@ -2517,66 +2518,12 @@
    ],
    "results": [
     {
-     "date": "2026-09-13",
-     "time": "20:30",
-     "home": "הפועל פ\"ת",
-     "away": "הפועל ב\"ש",
-     "round": "מחזור 4",
-     "score": "0-2",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-14",
-     "time": "19:30",
-     "home": "הפועל חיפה",
-     "away": "בני סכנין",
-     "round": "מחזור 4",
-     "score": "3-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-14",
-     "time": "19:30",
-     "home": "הפועל ר\"ג",
-     "away": "מכבי נתניה",
-     "round": "מחזור 4",
-     "score": "2-0",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-14",
-     "time": "20:00",
-     "home": "עירוני ק\"ש",
-     "away": "מכבי חיפה",
-     "round": "מחזור 4",
-     "score": "0-4",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-14",
-     "time": "20:30",
-     "home": "מכבי ת\"א",
-     "away": "הפועל ת\"א",
-     "round": "מחזור 4",
-     "score": "4-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-15",
-     "time": "19:30",
-     "home": "עירוני טבריה",
-     "away": "הפועל ירושלים",
-     "round": "מחזור 4",
-     "score": "2-2",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-15",
-     "time": "20:00",
-     "home": "בית\"ר ירושלים",
-     "away": "מכבי פ\"ת",
-     "round": "מחזור 4",
-     "score": "3-1",
+     "date": "2026-09-18",
+     "time": "15:45",
+     "home": "הפועל ת\"א",
+     "away": "הפועל פ\"ת",
+     "round": "מחזור 5",
+     "score": "3-0",
      "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
@@ -2599,8 +2546,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T14:32:28+00:00",
-  "fetched_at": "2026-09-18T14:32:28+00:00"
+  "checked_at": "2026-09-18T17:54:21+00:00",
+  "fetched_at": "2026-09-18T17:54:21+00:00"
  },
  "ai": {
   "data": {
@@ -2624,14 +2571,16 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 6,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 396,
+     "likes": 399,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2645,15 +2594,29 @@
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 113,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 63,
+     "likes": 66,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 81,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "AuK",
@@ -2663,24 +2626,10 @@
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 68,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 78,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
@@ -2691,21 +2640,48 @@
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
-     "title": "HF Viewer · Model Architecture Explorer",
-     "desc_en": "Interactive architecture graph for any HF model",
-     "desc_he": "גרף ארכיטקטורה אינטראקטיבית לכל דגם HF",
-     "likes": 81,
-     "link": "https://huggingface.co/spaces/embedl/hfviewer"
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 57,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T14:32:36+00:00",
-  "fetched_at": "2026-09-18T14:32:36+00:00"
+  "checked_at": "2026-09-18T17:54:25+00:00",
+  "fetched_at": "2026-09-18T17:54:25+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רוי רביבו שמר על מקומו בהרכב אלצ'ה מול אספניול",
+     "link": "https://sports.walla.co.il/item/3868781",
+     "date": "2026-09-18T20:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T19:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "המשכיות: רביבו פותח באלצ'ה ב-22:00 נגד אספניול",
+     "link": "https://www.one.co.il/Article/533791.html?ref=rss",
+     "date": "2026-09-18T17:45:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "סולומון, אתה מוכן? אחד המשחקים הטעונים באנגליה חוזר",
      "link": "https://sports.walla.co.il/item/3868724",
@@ -2761,15 +2737,6 @@
      ]
     },
     {
-     "title": "בכר: \"גאנדלמן? לא תמיד הכל מסתדר. בלי הקהל - לא שווים כלום\"",
-     "link": "https://sports.walla.co.il/item/3868473",
-     "date": "2026-09-17T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עומרי גאנדלמן"
-     ]
-    },
-    {
      "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3868647",
      "date": "2026-09-17T08:17:00+00:00",
@@ -2821,16 +2788,6 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "האלמנטים שבן שרף ודני וולף חייבים לשפר לקראת העונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3867231",
-     "date": "2026-09-11T16:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "בן שרף",
-      "דני וולף"
      ]
     }
    ],
@@ -3034,7 +2991,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-18T14:32:32+00:00",
-  "fetched_at": "2026-09-18T14:32:32+00:00"
+  "checked_at": "2026-09-18T17:54:24+00:00",
+  "fetched_at": "2026-09-18T17:54:24+00:00"
  }
 }
