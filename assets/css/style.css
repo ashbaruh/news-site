@@ -347,14 +347,16 @@ h3.sub:first-child { margin-top: 0; }
 /* קטן = רק ריבוע הנגן 200x200 (המינימום ש-YouTube מחייב) — המוזיקה ממשיכה */
 .player.small { width: 200px; }
 .player.small header, .player.small .now, .player.small .foot { display: none; }
-.player .pl-grow { display: none; }
-.player.small .pl-grow {
-  display: block; position: absolute; inset-block-start: 4px; inset-inline-start: 4px;
+.player .pl-smallbar { display: none; }
+.player.small .pl-smallbar {
+  display: flex; gap: 4px; position: absolute; inset-block-start: 4px; inset-inline-start: 4px;
+}
+.player.small .pl-smallbar button {
   background: rgba(0,0,0,.65); color: #fff; border: 1px solid var(--line); border-radius: 6px;
   cursor: pointer; font-size: 13px; line-height: 1; padding: 4px 7px; font-family: inherit;
 }
-.player.small .pl-grow:hover { border-color: var(--accent); }
-.player.minimized .pl-grow { display: none; }
+.player.small .pl-smallbar button:hover { border-color: var(--accent); }
+.player.minimized .pl-smallbar { display: none; }
 
 /* סגור = כפתור עגול בפינה בלבד (המוזיקה מושהית, לפי כללי YouTube) */
 .player.minimized {
@@ -391,7 +393,8 @@ footer.site a { margin-inline-end: 12px; }
 /* ---------- מובייל ---------- */
 @media (max-width: 860px) {
   .grid { grid-template-columns: 1fr; }
-  .player { width: auto; inset-inline: 10px; inset-block-end: 10px; }
+  .player { width: min(280px, calc(100vw - 20px)); inset-inline-end: 10px; inset-block-end: 10px; }
+  .player.minimized, .player.small { width: auto; }
 }
 
 /* ---------- פינת המלחמות — ניתוח מאושר ---------- */
@@ -463,7 +466,6 @@ footer.site a { color: var(--accent); }
 
 /* טלפון: החלונית הפתוחה לא רחבה מהמסך */
 @media (max-width: 700px) {
-  .player { width: min(280px, calc(100vw - 24px)); }
   .daily li { font-size: 14px; }
 }
 

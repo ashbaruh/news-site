@@ -42,8 +42,8 @@
              (translated ? ' lang="he" title="' + esc(tip) + '"' : '') + '>' + esc(text) + '</a>' +
            ' <span class="locked">· ' + F.dateText(i.date) + '</span>' +
            (translated
-             ? (i.title_he ? ' <span class="tag-demo" title="' + esc(tip) + '">תורגם אוטומטית</span>'
-                           : ' <span class="tag-demo">באנגלית — התרגום נכשל</span>')
+             ? (i.title_he ? ' <span class="tag-demo" title="' + esc(tip) + '">תורגם</span>'
+                           : ' <span class="tag-demo">באנגלית</span>')
              : '') +
            '</li>';
   }
@@ -102,8 +102,8 @@
   /* ---------- תג טריות לכל פינה ---------- */
   function freshTag(key, stateOverride) {
     var s = stateOverride || F.state(key);
-    var txt = (s.level === 'down' || s.level === 'loading') ? s.label : ('עודכן ב-' + s.time + ' · ' + s.label);
-    return '<span class="fresh-tag ' + s.level + '" title="' + esc(s.age_text) + '">' + esc(txt) + '</span>';
+    var tip = (s.time && s.time !== '—' ? 'עודכן ב-' + s.time : '') + (s.age_text ? (s.time && s.time !== '—' ? ' · ' : '') + s.age_text : '');
+    return '<span class="fresh-tag ' + s.level + '" title="' + esc(tip) + '">' + esc(s.label) + '</span>';
   }
 
   /* ---------- שלד פינה ---------- */
@@ -555,11 +555,7 @@
         return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
       }).join('') + '</ul>' +
       mapBox(a.map.confidence, a.map.note, a.map.layers, mapPoints(a.events).length) +
-      (function () {
-        var far = mapPoints(a.events, true);
-        return far.length ? '<p class="locked filter-note">מחוץ לאזור המפה: ' + far.map(function (o) {
-          return esc(o.p.name) + ' (' + esc(o.ev.title) + ')'; }).join(' · ') + '</p>' : '';
-      })();
+      '';
   }
 
   /* סוף הניתוח: כלכלה, מטרות (מוצהרת/מוסקת/תחזית), מקורות */
@@ -635,12 +631,12 @@
       return ['initial', 'shared_root', 'unverified', 'disputed'].indexOf(o.a.level) > -1;
     });
     var extra = pub ? (pub.analysis.not_verified || []) : [];
-    $('#not-verified-section').innerHTML = (!nv.length && !extra.length) ? '' :
-      '<h3 class="sub">⚠️ מה לא מאומת (' + (nv.length + extra.length) + ' פריטים)</h3>' +
-      '<ul class="rows">' +
-        nv.map(function (o) { return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>'; }).join('') +
-        extra.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') +
-      '</ul>';
+    // מציגים לכל היותר 4 פריטים — רשימה ארוכה רק מעמיסה
+    var nvItems = nv.map(function (o) { return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>'; })
+      .concat(extra.map(function (t) { return '<li>' + esc(t) + '</li>'; }))
+      .slice(0, 4);
+    $('#not-verified-section').innerHTML = !nvItems.length ? '' :
+      '<h3 class="sub">⚠️ מה לא מאומת</h3><ul class="rows">' + nvItems.join('') + '</ul>';
   }
 
   function eventCard(ev, a, change) {
@@ -1041,10 +1037,6 @@
                '<div class="mk-tags">נוגע ל: ' + x.tags.map(function (t) { return '<span class="tag-demo">' + esc(t) + '</span>'; }).join(' ') + '</div></li>';
       }).join('') + '</ul>';
     }
-    if (marketNewsHtml) {
-      marketNewsHtml += '<p class="locked filter-note" title="סינון לפי מילות מפתח של המכשירים ברשימה, ללא בינה' +
-        (globesOk ? ' · נבדק ' + esc(F.dateTimeText(gg.entry.checked_at)) : '') + '">כותרות: גלובס · וואלה כסף</p>';
-    }
 
     var globesTopHtml = globesOk && gg.entry.data.top.length
       ? '<ul class="rows news">' + gg.entry.data.top.map(function (i) {
@@ -1056,7 +1048,7 @@
 
     var html =
       '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
-      section('חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span>', marketNewsHtml) +
+      section('חדשות שמזיזות שוק', marketNewsHtml) +
       section('ריבית', rateItems.length ? '<ul class="rows src-status">' + rateItems.join('') + '</ul>' : '') +
       section('כלכלה — כתבות ראשיות מגלובס', globesTopHtml);
 

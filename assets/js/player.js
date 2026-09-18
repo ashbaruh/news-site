@@ -74,7 +74,10 @@
         }).join('') +
       '</select>' +
     '</div>' +
-    '<button type="button" class="pl-grow" id="pl-grow" title="הגדלה" aria-label="הגדלת הנגן">⤢</button>' +
+    '<div class="pl-smallbar">' +
+      '<button type="button" id="pl-grow" title="הגדלה" aria-label="הגדלת הנגן">⤢</button>' +
+      '<button type="button" id="pl-close-small" title="סגירה — המוזיקה נעצרת" aria-label="סגירת הנגן">✕</button>' +
+    '</div>' +
     '<button type="button" class="pl-fab" id="pl-fab" title="מוזיקה" aria-label="פתיחת נגן המוזיקה">🎵</button>';
 
   var $ = function (id) { return document.getElementById(id); };
@@ -252,6 +255,7 @@
   $('pl-toggle').addEventListener('click', function () { setMinimized(true); });
   $('pl-small').addEventListener('click', function () { setSmall(!small); });
   $('pl-grow').addEventListener('click', function () { setSmall(false); });
+  $('pl-close-small').addEventListener('click', function () { setMinimized(true); });
 
   $('pl-fab').addEventListener('click', function () {           // כפתור המוזיקה הצף
     setMinimized(false);
