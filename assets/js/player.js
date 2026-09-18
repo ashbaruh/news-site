@@ -46,12 +46,14 @@
   var minimized = load(KEY_MIN) !== null ? load(KEY_MIN) === '1' : isPhone();
   var small = load(KEY_SMALL) === '1';
 
-  var player = null;        // הנגן הנוכחי
+  var player = null;        // נגן YouTube
+  var audio = null;         // נגן רדיו (זרם אודיו ישיר)
+  function isRadio() { return !!current.stream; }
   var gen = 0;              // מספר הבנייה — אירועים מנגן ישן מתעלמים מהם
   var ready = false, skipped = 0, fatal = false, skipping = false;
   var interacted = false;   // האם הגולש כבר לחץ/הקליד בדף (מאפשר השמעה)
   var gestureArmed = false;
-  var apiLoaded = false;
+  var apiLoaded = false, ytScriptAdded = false;
 
   /* ---------- מבנה ---------- */
 
@@ -95,7 +97,8 @@
     root.classList.toggle('minimized', on);
     $('pl-fab').title = on ? 'מוזיקה — ' + current.name : 'סגירת הנגן';
     store(KEY_MIN, on ? '1' : '0');
-    if (on && ready && !fatal) { try { player.pauseVideo(); } catch (e) {} }
+    // ב-YouTube חובה לעצור כשהנגן מוסתר; ברדיו (אודיו בלבד) המוזיקה ממשיכה
+    if (on && !isRadio()) pausePlayback();
   }
 
   /* קטן = רק ריבוע הנגן (200x200, המינימום ש-YouTube מחייב) בלי כותרת ובלי פקדים.
@@ -110,9 +113,49 @@
   function mark(k, v) { root.setAttribute('data-' + k, String(v)); }
 
   function startPlayback() {
+    if (isRadio()) {
+      if (!audio) return;
+      audio.muted = false;
+      audio.play().then(function () { setNow(current.name); })
+                  .catch(function () { armGesture(); });
+      return;
+    }
     if (!ready || fatal) return;
     try { player.unMute(); } catch (e) {}
     player.playVideo();
+  }
+
+  function pausePlayback() {
+    if (isRadio()) { if (audio) audio.pause(); return; }
+    if (ready && !fatal) { try { player.pauseVideo(); } catch (e) {} }
+  }
+
+  function isPlaying() {
+    if (isRadio()) return !!(audio && !audio.paused);
+    if (!ready || fatal) return false;
+    var st = player.getPlayerState ? player.getPlayerState() : -1;
+    return st === 1 || st === 3;
+  }
+
+  /* רדיו: זרם אודיו בלבד — מותר להמשיך לנגן גם כשהנגן מכווץ לכפתור */
+  function buildRadio() {
+    gen++;
+    if (player) { try { player.destroy(); } catch (e) {} player = null; }
+    ready = true; fatal = false; skipping = false;
+    mark('list', current.id); mark('state', 'radio');
+    root.querySelector('.stage').innerHTML =
+      '<div class="radio-face"><div class="radio-ico">📻</div><div class="radio-name"></div></div>';
+    root.querySelector('.radio-face .radio-name').textContent = current.name;
+    if (audio) { try { audio.pause(); } catch (e) {} }
+    audio = new Audio();
+    audio.preload = 'none';
+    audio.crossOrigin = null;
+    audio.src = current.stream;
+    audio.addEventListener('playing', function () { mark('state', 1); $('pl-play').textContent = '⏸'; setNow(current.name); });
+    audio.addEventListener('pause',   function () { mark('state', 2); $('pl-play').textContent = '▶'; });
+    audio.addEventListener('error',   function () { setNow('התחנה לא זמינה כרגע', 'err'); });
+    setNow('טוען ' + current.name + '…');
+    startPlayback();
   }
 
   /* ---------- אינטראקציה ראשונה עם הדף ---------- */
@@ -263,12 +306,10 @@
   });
 
   $('pl-play').addEventListener('click', function () {
-    if (!ready || fatal) return;
-    var s = player.getPlayerState();
-    if (s === 1 || s === 3) player.pauseVideo(); else startPlayback();
+    if (isPlaying()) pausePlayback(); else startPlayback();
   });
-  $('pl-next').addEventListener('click', function () { if (ready && !fatal) player.nextVideo(); });
-  $('pl-prev').addEventListener('click', function () { if (ready && !fatal) player.previousVideo(); });
+  $('pl-next').addEventListener('click', function () { if (!isRadio() && ready && !fatal) player.nextVideo(); });
+  $('pl-prev').addEventListener('click', function () { if (!isRadio() && ready && !fatal) player.previousVideo(); });
 
   $('pl-select').addEventListener('change', function () {
     var chosen = lists.filter(function (l) { return l.id === $('pl-select').value; })[0];
@@ -276,31 +317,40 @@
     current = chosen;
     store(KEY_LIST, current.id);
     setNow('טוען ' + current.name + '…');
-    if (apiLoaded && !fatal) build();
+    if (audio) { try { audio.pause(); } catch (e) {} }
+    if (isRadio()) { buildRadio(); return; }
+    fatal = false;
+    if (apiLoaded) build(); else loadYouTubeApi();
   });
 
   setSmall(small);
   setMinimized(minimized);
 
-  /* ---------- טעינת ה-API של YouTube ---------- */
+  /* ---------- טעינה ---------- */
 
   var prevReady = window.onYouTubeIframeAPIReady;
   window.onYouTubeIframeAPIReady = function () {
     if (prevReady) prevReady();
     apiLoaded = true;
-    build();
+    if (!isRadio()) build();
   };
-  if (location.protocol === 'file:') {
-    // YouTube לא מנגן בדף שנפתח כקובץ (נבדק). לא פותחים חלון YouTube — רק מסבירים איך לפתוח נכון.
-    fatal = true;
-    root.querySelector('.stage').innerHTML = '';
-    setNow('האתר נפתח כקובץ, ולכן אין מוזיקה. לפתיחה עם נגן: קיצור הדרך "חדר מצב", ' +
-           'או האתר באינטרנט: ashbaruh.github.io/news-site', 'hint');
-    return;
+
+  function loadYouTubeApi() {
+    if (apiLoaded || ytScriptAdded) { if (apiLoaded) build(); return; }
+    if (location.protocol === 'file:') {
+      // YouTube לא מנגן בדף שנפתח כקובץ (נבדק). הרדיו כן עובד — מציעים אותו.
+      fatal = true;
+      root.querySelector('.stage').innerHTML = '';
+      setNow('פלייליסטים של YouTube לא מתנגנים כשהאתר נפתח כקובץ — אפשר לבחור תחנת רדיו ברשימה.', 'hint');
+      return;
+    }
+    ytScriptAdded = true;
+    var sc = document.createElement('script');
+    sc.src = 'https://www.youtube.com/iframe_api';
+    sc.onerror = function () { setNow('YouTube לא זמין כרגע', 'err'); };
+    document.head.appendChild(sc);
   }
 
-  var s = document.createElement('script');
-  s.src = 'https://www.youtube.com/iframe_api';
-  s.onerror = function () { setNow('YouTube לא זמין כרגע', 'err'); };
-  document.head.appendChild(s);
+  if (isRadio()) buildRadio();
+  else loadYouTubeApi();
 })();

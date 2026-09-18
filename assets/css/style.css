@@ -344,6 +344,15 @@ h3.sub:first-child { margin-top: 0; }
 .player .pl-controls button:hover { border-color: var(--accent); }
 .player .toggle { background: none; border: 0; color: var(--text-dim); cursor: pointer; font-size: 16px; margin-inline-start: auto; font-family: inherit; }
 
+/* מצב רדיו: אין וידאו — רק לוח קטן עם שם התחנה */
+.player .radio-face {
+  height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 8px; background: linear-gradient(160deg, #10161d, #0b0f14); color: var(--text);
+}
+.player .radio-ico { font-size: 34px; }
+.player .radio-name { font-size: 13px; color: var(--text-dim); text-align: center; padding: 0 10px; }
+.player.small .radio-face { height: 120px; }
+
 /* קטן = רק ריבוע הנגן 200x200 (המינימום ש-YouTube מחייב) — המוזיקה ממשיכה */
 .player.small { width: 200px; }
 .player.small header, .player.small .now, .player.small .foot { display: none; }

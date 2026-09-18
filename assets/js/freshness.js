@@ -10,12 +10,8 @@
 
 window.Freshness = (function () {
 
-  /* שני שעונים:
-     - נתוני דמה: "עכשיו" מקובע, כדי שהתגים שלהם יישארו יציבים.
-     - נתונים חיים: השעון האמיתי. */
-  var DEMO_NOW = new Date('2026-09-16T10:05:00+03:00');
-
-  function now(live) { return live ? new Date() : DEMO_NOW; }
+  /* שעון אחד — הזמן האמיתי. (בעבר היה שעון מקובע לנתוני הדמה, שכבר לא קיימים.) */
+  function now() { return new Date(); }
 
   /* גיל בשניות, בלי שבת-ראשון (לפי UTC) */
   function businessSeconds(fromIso, ref) {
@@ -114,6 +110,6 @@ window.Freshness = (function () {
   return {
     state: state, evaluate: evaluate, worst: worst,
     hhmm: hhmm, ago: ago, dateTimeText: dateTimeText, dateText: dateText, ltr: ltr,
-    now: function () { return DEMO_NOW; }
+    now: function () { return new Date(); }
   };
 })();

@@ -954,27 +954,18 @@
     var fromJob = gb.entry && gb.entry.data;
     var boi = fromJob ? gb.entry.data : snap;
     if (boi && R.isDisplayable(boiSrc)) {
-      var bst = fromJob ? gb.state : F.evaluate('boi', snap.checked_at, true, true);
-      if (fromJob) liveStates.push(bst);
       var dir = boi.previous_rate === null || boi.previous_rate === undefined ? ''
               : boi.rate < boi.previous_rate ? 'הורדה' : (boi.rate > boi.previous_rate ? 'העלאה' : 'ללא שינוי');
-      var how = fromJob
-        ? (gb.entry.ok === false ? '<span class="down">הבדיקה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>' : '')
-        : 'תמונת מצב ידנית מ-' + F.dateText(snap.checked_at);
       rateItems.push(
-        '<li><span class="fresh-tag ' + bst.level + '">' + esc(bst.label) + '</span> ' +
-        '<b>בנק ישראל: ' + pct(boi.rate) + '</b>' +
+        '<li><b>בנק ישראל: ' + pct(boi.rate) + '</b>' +
         (boi.effective_from ? ' · בתוקף מ-' + dmy(boi.effective_from) : '') +
-        (dir ? ' (' + dir + ' מ-' + pct(boi.previous_rate) + ')' : '') +
-        '<div class="locked">' + how + ' · ' + esc(boiSrc.attribution) + '</div></li>');
+        (dir ? ' (' + dir + ' מ-' + pct(boi.previous_rate) + ')' : '') + '</li>');
     }
 
     // הפד — חי
     var fedSrc = R.sourceById('src_nyfed');
     if (R.isDisplayable(fedSrc)) {
       var fe = live.fed;
-      var fst = F.evaluate('fed', fe && fe.data_time, fe ? fe.ok : undefined, true);
-      liveStates.push(fst);
       var fedTxt;
       if (fe && fe.data) {
         var d = fe.data;
@@ -987,14 +978,11 @@
         } else {
           fedTxt += '<div>ללא שינוי מאז ' + dmy(d.window_start) + '</div>';
         }
-        if (fe.ok === false) fedTxt += ' <span class="down">· הפנייה האחרונה נכשלה, מוצג הנתון האחרון שנשמר</span>';
+
       } else {
         fedTxt = '';                                  // אין נתון — לא כותבים שורה
       }
-      if (fedTxt) {
-        rateItems.push('<li><span class="fresh-tag ' + fst.level + '">' + esc(fst.label) + '</span> ' + fedTxt +
-                       '<div class="locked">' + esc(fedSrc.attribution) + '</div></li>');
-      }
+      if (fedTxt) rateItems.push('<li>' + fedTxt + '</li>');
     }
     headerState = liveStates.length ? F.worst(liveStates) : null;
 

@@ -151,7 +151,16 @@ window.DB.config = {
     { id: 'meditation', name: 'MEDITATION',        youtube_id: 'PLpcJDzLtcPAWJl_-m_cZAbvB_kj5M2KUV' },
     { id: 'julio',      name: 'JULIO IGLESIAS',    youtube_id: 'PLpcJDzLtcPAV-Ror4M60_h4bTwy3YpfJR' },
     { id: 'streisand',  name: 'BARBARA STREISAND', youtube_id: 'PLpcJDzLtcPAXMhLmjf_iK1EdsOTEPFspI' },
-    { id: 'country',    name: 'ASH COUNTRY SONGS', youtube_id: 'PLpcJDzLtcPAWrBi-Kf6wp79PjgmXIV_IT' }
+    { id: 'country',    name: 'ASH COUNTRY SONGS', youtube_id: 'PLpcJDzLtcPAWrBi-Kf6wp79PjgmXIV_IT' },
+
+    /* ---- תחנות רדיו חינמיות (זרם אודיו ישיר) ----
+       שידור אודיו בלבד, בלי נגן וידאו — ולכן אפשר להמשיך לנגן גם כשהנגן מכווץ לכפתור.
+       (בפלייליסטים של YouTube אסור לנגן כשהנגן מוסתר, לכן שם ההקטנה משהה.) */
+    { id: 'glglz',      name: 'רדיו · גלגלצ',        stream: 'https://glzwizzlv.bynetcdn.com/glglz_mp3' },
+    { id: 'galeytzahal', name: 'רדיו · גלי צה"ל',    stream: 'https://glzwizzlv.bynetcdn.com/glz_mp3' },
+    { id: 'soma-groove', name: 'רדיו · Groove Salad', stream: 'https://ice1.somafm.com/groovesalad-128-mp3' },
+    { id: 'soma-agent', name: 'רדיו · Secret Agent',  stream: 'https://ice1.somafm.com/secretagent-128-mp3' },
+    { id: 'paradise',   name: 'רדיו · Radio Paradise', stream: 'https://stream.radioparadise.com/mp3-192' }
   ],
 
   /* ---- קישורי רשתות חברתיות (placeholder עד שתיתן אמיתיים) ---- */
