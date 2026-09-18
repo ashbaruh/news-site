@@ -324,58 +324,181 @@ window.DB.war_published = {
   "changes": {}
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-17T1539__iran-202609171539.json",
+  "draft": "drafts/iran/2026-09-18T1115__iran-202609181115.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-17T15:39:00+00:00",
+   "generated_at": "2026-09-18T11:15:09+00:00",
    "window": {
-    "from": "2026-09-16T15:39:00+00:00",
-    "to": "2026-09-17T15:39:00+00:00"
+    "from": "2026-09-17T11:15:09+00:00",
+    "to": "2026-09-18T11:15:09+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609171539"
+    "run_id": "iran-202609181115"
    },
-   "summary": "הדיווחים עוסקים במתיחות מול איראן במישורים שונים: חקירות האו\"ם לגבי תקיפות אמריקאיות, האשמות בינלאומיות נגד איראן בפשעים נגד האנושות, מאמצים דיפלומטיים של סין מול איראן בעקבות לחץ סעודי והתקדמות החות'ים בתימן, וכן התפתחויות פנים-איראניות, הצהרות על סיום או המשך עימות, ופעילות אכיפה וריגול.",
+   "summary": "העימות בין איראן וארה\"ב נמשך בשטח, בים ובים סוף, תוך כדי דיווחים על תקיפות מנוגדות, לחץ כלכלי בדמות סנקציות אמריקאיות, ופעילות צבאית של שלוחות איראן באזור. במקביל, מתקיימים מגעים דיפלומטיים חשאיים וגלויים באו\"ם ובעומאן, לצד עבודות שיקום באתרי גרעין באיראן והחרפת מצבה הכלכלי-אנרגטי.",
    "fronts": [
     {
-     "name": "החזית האמריקאית-איראנית",
-     "status": "פעיל / דיפלומטי"
+     "name": "הזירה הימית (הורמוז ומפרץ)",
+     "status": "פעיל"
     },
     {
-     "name": "חזית תימן והים ה (אדום)",
-     "status": "הסלמה והתקדמות חות'ית"
+     "name": "החזית הדיפלומטית (או\"ם)",
+     "status": "פעיל"
     },
     {
-     "name": "חזית המפרץ וסעודיה",
-     "status": "תקיפות אנרגיה ויירוטים"
-    },
-    {
-     "name": "הזירה הפנים-איראנית",
-     "status": "מחאות, משבר כלכלי ודיכוי"
+     "name": "חזית הגרעין האיראני",
+     "status": "פעיל"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09171539-01",
-     "title": "דחיית מינוי ארה\"ב לסוכנות לאנרגיה אטומית",
-     "summary": "איראן דחתה את מינוי ארה\"ב למועצת הנגידים של הסוכנות לאנרגיה אטומית.",
-     "axis": "דיפלומטי",
+     "id": "IRAN-09181115-01",
+     "title": "פגישת גורמי ארה\"ב וחברי חות'ים בעומאן",
+     "summary": "גורמים אמריקניים נפגשו עם נציגי החות'ים בעומאן",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-17T18:47:26+00:00",
+     "last_update_at": "2026-09-17T18:47:26+00:00",
+     "what_is_not_verified": "פרטי הפגישה המלאים והתוצאות אינם מאומתים במלואם",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/trump-declines-to-back-saudi-arabia-as-us-officials-reportedly-meet-iran-backed-houthis-in-oman",
+       "published_at": "2026-09-17T18:47:26+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09181115-02",
+     "title": "הטלת סנקציות אמריקאיות על חברות תעופה איראניות",
+     "summary": "משרד האוצר האמריקאי הטיל סנקציות על עשרות חברות תעופה איראניות וקושרה אליהן",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-17T16:14:43+00:00",
+     "last_update_at": "2026-09-17T16:14:43+00:00",
+     "what_is_not_verified": "ההשפעה המלאה של הסנקציות אינה מאומתת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130404",
+       "published_at": "2026-09-17T16:14:43+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09181115-03",
+     "title": "ממצאי האו\"ם לגבי תקיפות באיראן",
+     "summary": "משלחת בדיקת עובדות של האו\"ם קבעה כי ישנם יסודות סבירים לכך שארה\"ב ביצעה פשעי מלחמה בתקיפות באיראן בפברואר",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T12:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-17T12:00:00+00:00",
+     "last_update_at": "2026-09-18T10:43:18+00:00",
+     "what_is_not_verified": "טענות האו\"ם אינן מאומתות רשמית על ידי ארה\"ב",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_7f1ca498256eda7e",
+       "url": "https://www.aljazeera.com/news/2026/9/18/united-nations-says-us-may-have-committed-war-crimes-in-iran-what-it-means?traffic_source=rss",
+       "published_at": "2026-09-18T10:43:18+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_7f1ca498256eda7e",
+       "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-09-17T20:34:30+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_7f1ca498256eda7e",
+       "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
+       "published_at": "2026-09-17T13:22:35+00:00"
+      },
+      {
+       "source_id": "src_un_news",
+       "source_root_id": "fh_9ff9aeb37e80c7d6",
+       "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
+       "published_at": "2026-09-17T12:00:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מינאב, איראן",
+       "lat": 27.1506,
+       "lon": 57.0753
+      },
+      {
+       "name": "לאמזרד, איראן",
+       "lat": 27.3334,
+       "lon": 53.1816
+      }
+     ]
+    },
+    {
+     "id": "IRAN-09181115-04",
+     "title": "שיקום מתקן הגרעין טלקאן 2 בפרצ'ין",
+     "summary": "תצלומי לווין חשפו כי איראן מאיצה את הבנייה והשיקום במתקן טלקאן 2 בפרצ'ין",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-18T06:22:29+00:00",
+     "last_update_at": "2026-09-18T06:22:29+00:00",
+     "what_is_not_verified": "הפעילות המדויקת המתקיימת כיום בתוך המתקן אינה מאומתת לחלוטין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130419",
+       "published_at": "2026-09-18T06:22:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פרצ'ין, איראן",
+       "lat": 35.5121,
+       "lon": 51.7774
+      }
+     ]
+    },
+    {
+     "id": "IRAN-09181115-05",
+     "title": "קריאת מדינות לאי-פגיעה במתקני גרעין",
+     "summary": "15 מדינות קראו לאסוף כל מתקפה או איום נגד מתקני גרעין שלווים",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T15:18:17+00:00",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T15:18:17+00:00",
-     "last_update_at": "2026-09-17T15:18:17+00:00",
-     "what_is_not_verified": "לא מאומת מעבר להצהרה הרשמית",
+     "first_reported_at": "2026-09-18T10:39:59+00:00",
+     "last_update_at": "2026-09-18T10:39:59+00:00",
+     "what_is_not_verified": "היענות הצדדים להצהרה אינה מאומתת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_4d4805c8064e0e9f",
-       "url": "https://en.irna.ir/news/86266841/Iran-strongly-rejects-membership-of-US-to-IAEA-BoG",
-       "published_at": "2026-09-17T15:18:17+00:00"
+       "source_root_id": "fh_0d76985dbe713c57",
+       "url": "https://en.irna.ir/news/86267234/Fifteen-countries-call-for-prohibition-of-any-attack-or-threat",
+       "published_at": "2026-09-18T10:39:59+00:00"
       }
      ],
      "places": [
@@ -387,218 +510,104 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09171539-02",
-     "title": "דו\"ח האו\"ם על תקיפות במינאב ולאמרד",
-     "summary": "משלחת חקירת עובדות של האו\"ם קבעה שיש בסיס סביר להאמין שארה\"ב ביצעה תקיפות צבאיות על בית ספר ומתקן ספורט שהרגו אזרחים בפברואר.",
-     "axis": "בין-לאומי",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-02-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-17T13:22:35+00:00",
-     "last_update_at": "2026-09-17T15:07:47+00:00",
-     "what_is_not_verified": "האחריות האמריקאית נדחתה או לא אושרה על ידי ארה\"ב",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_un_experts",
-       "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-09-17T15:07:47+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_un_experts",
-       "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
-       "published_at": "2026-09-17T13:22:35+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מינאב, איראן",
-       "lat": 27.1506,
-       "lon": 57.0753
-      },
-      {
-       "name": "לאמרד, איראן",
-       "lat": 27.3334,
-       "lon": 53.1816
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09171539-03",
-     "title": "האשמת איראן בפשעים נגד האנושות",
-     "summary": "אמנסטי אינטרנשיונל האשימה את הרשויות באיראן בביצוע פשעים נגד האנושות במהלך דיכוי המחאות.",
-     "axis": "זכויות אדם",
+     "id": "IRAN-09181115-06",
+     "title": "אי-פריסת כוחות של דרום קוריאה למזרח התיכון",
+     "summary": "נשיא דרום קוריאה הבהיר כי ארצו לא תציב כוחות צבא במזרח התיכון למען עימות עם איראן",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-16T20:09:08+00:00",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-16T20:09:08+00:00",
-     "last_update_at": "2026-09-17T14:55:34+00:00",
-     "what_is_not_verified": "טענות ארגון זכויות האדם",
+     "first_reported_at": "2026-09-18T02:46:30+00:00",
+     "last_update_at": "2026-09-18T05:54:29+00:00",
+     "what_is_not_verified": "החלטה סופית לגבי אבטחת ניווט אינה מאומתת לחלוטין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_f3ae84b5f538c817",
-       "url": "https://www.france24.com/en/amnesty-accuses-iran-of-crimes-against-humanity",
-       "published_at": "2026-09-17T14:55:34+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "fh_1e170c6e17634220",
-       "url": "https://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
-       "published_at": "2026-09-16T20:09:08+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09171539-04",
-     "title": "פניית סין לאיראן לבלימת החות'ים",
-     "summary": "סין פנתה בחשאי לאיראן בבקשה שתפעיל את השפעתה על החות'ים בתימן כדי לבלום את התקדמותם בעקבות פנייה סעודית.",
-     "axis": "דיפלומטי-אזורי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-17T12:44:25+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-17T12:44:25+00:00",
-     "last_update_at": "2026-09-17T13:22:18+00:00",
-     "what_is_not_verified": "המגעים החשאיים מבוססים על מקורות אנונימיים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
-       "published_at": "2026-09-17T13:22:18+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47777",
-       "published_at": "2026-09-17T12:50:54+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "fh_c8c836d383f56866",
+       "url": "https://www.theguardian.com/world/2026/sep/18/south-korea-will-not-send-military-to-support-us-war-on-iran-defying-trump-pressure",
+       "published_at": "2026-09-18T05:54:29+00:00"
       },
       {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
-       "published_at": "2026-09-17T12:46:29+00:00"
+       "source_root_id": "fh_5dd3bdffd29176ac",
+       "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-rules-out-military-involvement-middle-east-conflict",
+       "published_at": "2026-09-18T04:46:33+00:00"
       },
       {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
-       "published_at": "2026-09-17T12:44:25+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_1ed00c499a320ae4",
+       "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict",
+       "published_at": "2026-09-18T02:46:30+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-09171539-05",
-     "title": "העברת חוק הסנקציות על איראן ורוסיה בארה\"ב",
-     "summary": "בית הנבחרים של ארה\"ב העביר את חוק הסנקציות לקראת חתימת הנשיא.",
-     "axis": "אמריקאי-איראני",
+     "id": "IRAN-09181115-07",
+     "title": "אישור ויזות לבכירי איראן לעצרת האו\"ם",
+     "summary": "ארה\"ב אישרה ויזות לכניסת בכירי משטר איראנים לעצרת האו\"ם בניו יורק",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T12:11:45+00:00",
-     "last_update_at": "2026-09-17T12:11:45+00:00",
-     "what_is_not_verified": "לא מאומת האם נחתם סופית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "fh_3959f0afeb9f592d",
-       "url": "https://www.iranintl.com/en/202609175386",
-       "published_at": "2026-09-17T12:11:45+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09171539-06",
-     "title": "תקיפת צינור הנפט בסעודיה ויירוט כטב\"מים",
-     "summary": "צינור הנפט המזרחי-מערבי בסעודיה נפגע בתקיפת כטב\"מים שמקורה בעיראק, והיו אירועי יירוט כטב\"מים בממלכה.",
-     "axis": "המפרץ",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-16T17:36:16+00:00",
-     "last_update_at": "2026-09-17T12:44:25+00:00",
-     "what_is_not_verified": "זהות המפעילים המדויקת של המיליציות בעיראק",
+     "first_reported_at": "2026-09-18T00:06:26+00:00",
+     "last_update_at": "2026-09-18T00:06:26+00:00",
+     "what_is_not_verified": "רשימת הנוכחים המלאה אינה מאומתת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
-       "published_at": "2026-09-17T12:44:25+00:00"
-      },
-      {
-       "source_id": "src_lwj",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.longwarjournal.org/archives/2026/09/iraq-continues-investigating-attack-on-saudi-arabia-from-iraqi-territory.php",
-       "published_at": "2026-09-16T19:58:59+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/commentisfree/2026/sep/16/the-guardian-view-on-the-houthi-advance-in-yemen-another-vital-middle-east-artery-becomes-a-battlefield",
-       "published_at": "2026-09-16T17:36:16+00:00"
+       "url": "https://www.ynet.co.il/news/article/hysrtryymx",
+       "published_at": "2026-09-18T00:06:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "מכה, סעודיה",
-       "lat": 21.4208,
-       "lon": 39.8269
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
     },
     {
-     "id": "IRAN-09171539-07",
-     "title": "הרשעת ישראלי בריגול עבור איראן",
-     "summary": "בית משפט גזר 13.5 שנות מאסר על אלכסנדר גרנובסקי שהורשע בביצוע משימות עבור מפעיל איראני.",
-     "axis": "פנים-ישראלי",
-     "claim_type": "incident",
+     "id": "IRAN-09181115-08",
+     "title": "טענה על תקיפת מיכלית במצרי הורמוז",
+     "summary": "משמרות המהפכה טענו שתקפו מיכלית הנושאת דגל טוגו במצרי הורמוז",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-16T15:50:45+00:00",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-16T15:50:45+00:00",
-     "last_update_at": "2026-09-16T15:50:45+00:00",
-     "what_is_not_verified": "לא מאומת מעבר לפרטי כתב האישום וגזר הדין",
+     "first_reported_at": "2026-09-17T21:35:09+00:00",
+     "last_update_at": "2026-09-17T21:35:09+00:00",
+     "what_is_not_verified": "נכונות הטענה בדבר התקיפה אינה מאומתת ממקור בלתי תלוי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47755",
-       "published_at": "2026-09-16T15:50:45+00:00"
+       "url": "https://t.me/alexmehacarmel/47793",
+       "published_at": "2026-09-17T21:35:09+00:00"
       }
      ],
      "places": [
       {
-       "name": "פתח תקווה, ישראל",
-       "lat": 32.0878,
-       "lon": 34.886
-      },
-      {
-       "name": "חדרה, ישראל",
-       "lat": 32.4407,
-       "lon": 34.9401
+       "name": "מצרי הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
     }
    ],
    "not_verified": [
-    "טענות על מגעים ישירים והסכמים קרבים בין איראן לארה\"ב",
-    "פרטי הפנייה החשאית של סין לאיראן לפי מקורות אנונימיים",
-    "ההערכות המדויקות על היקף הנזק לאתרי צבא בארה\"ב"
+    "טענות האו\"ם על פשעי מלחמה מצד ארה\"ב באיראן",
+    "טענת משמרות המהפכה על תקיפת מיכלית דגל טוגו במצרי הורמוז",
+    "היקף הנזק המדויק בתשתיות הגז של איראן",
+    "פרטי הפגישה החשאית בין ארה\"ב לחות'ים בעומאן"
    ],
    "map": {
     "confidence": "medium",
@@ -620,264 +629,530 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "דחיית ההתערבות האמריקאית במוסדות בינלאומיים",
-      "המשך פיתוח טכנולוגיות הגנה והרתעה"
+      "הגנה על מתקני גרעין והתנגדות לתקיפות עליהם"
      ],
      "inferred": [
-      "שמירה על שליטה באזורי מעבר ימיים אסטרטגיים כמו מצר הורמוז",
-      "ניסיון להתמודד עם משבר כלכלי פנימי ובידוד בינלאומי"
+      "שיקום תשתיות גרעין וגז נפגעות",
+      "הפעלת לחץ ימי דרך שלוחות ופגיעה בנתיבי שיט"
      ],
      "forecast": [
-      "המשך שימוש בבעלי ברית אזוריים כמנופי לחץ",
-      "שמירה על קו נוקשה מול סנקציות מערביות"
+      "המשך מאמצי שיקום מתקנים והגברת הלחץ האזורי לקראת חודשי החורף"
      ]
     },
     {
      "actor": "ארצות הברית",
      "declared": [
-      "העברת סנקציות נוספות על איראן",
-      "רצון להגיע לסיום העימות או לפתרון דיפלומטי לפי הצהרות נשיא ארה\"ב"
+      "בלימת שאיפות גרעיניות וצמצום ההשפעה האיראנית באזור"
      ],
      "inferred": [
-      "החלשת היכולות הצבאיות והגרעיניות של איראן",
-      "התמודדות עם שחיקה של משאבים צבאיים באסיה והמפרץ"
+      "הפעלת סנקציות כלכליות נרחבות על תעופה וגורמים איראניים",
+      "בחינת אפשרויות לתקיפות נוספות או הרחבת העימות"
      ],
      "forecast": [
-      "שילוב של לחץ כלכלי, סנקציות ואיומים צבאיים מתמשכים"
-     ]
-    },
-    {
-     "actor": "סין",
-     "declared": [
-      "קריאה פומבית לאיפוק ושמירה על חופש השיט"
-     ],
-     "inferred": [
-      "רצון למנוע פגיעה באספקת האנרגיה ובאינטרסים הכלכליים שלה במפרץ ובתימן"
-     ],
-     "forecast": [
-      "המשך תיווך חשאי ודיפלומטי מול טהרן למניעת הסלמה רחבה"
+      "המשך התמודדות עם ביקורת בינלאומית בכינוסי האו\"ם בנוגע למדיניותה במזרח התיכון"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/news/2026/9/18/united-nations-says-us-may-have-committed-war-crimes-in-iran-what-it-means?traffic_source=rss",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
+    },
+    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_france24",
-     "url": "https://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://www.france24.com/en/trump-declines-to-back-saudi-arabia-as-us-officials-reportedly-meet-iran-backed-houthis-in-oman",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/commentisfree/2026/sep/16/the-guardian-view-on-the-houthi-advance-in-yemen-another-vital-middle-east-artery-becomes-a-battlefield",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
-    },
-    {
-     "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202609175386",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/18/south-korea-will-not-send-military-to-support-us-war-on-iran-defying-trump-pressure",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86266841/Iran-strongly-rejects-membership-of-US-to-IAEA-BoG",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://en.irna.ir/news/86267234/Fifteen-countries-call-for-prohibition-of-any-attack-or-threat",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21444786",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
-    },
-    {
-     "source_id": "src_lwj",
-     "url": "https://www.longwarjournal.org/archives/2026/09/iraq-continues-investigating-attack-on-saudi-arabia-from-iraqi-territory.php",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/130419",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47755",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://t.me/alexmehacarmel/47793",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
+    },
+    {
+     "source_id": "src_un_news",
+     "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/s1rmtuyyfe",
-     "accessed_at": "2026-09-17T15:39:00+00:00"
+     "url": "https://www.ynet.co.il/news/article/hysrtryymx",
+     "accessed_at": "2026-09-18T11:15:09+00:00"
     }
    ]
   },
-  "previous_generated_at": null,
-  "changes": {}
+  "previous_generated_at": "2026-09-17T15:39:00+00:00",
+  "changes": {
+   "IRAN-09181115-01": {
+    "kind": "new"
+   },
+   "IRAN-09181115-02": {
+    "kind": "new"
+   },
+   "IRAN-09181115-03": {
+    "kind": "same",
+    "from": "assessment",
+    "to": "assessment"
+   },
+   "IRAN-09181115-04": {
+    "kind": "new"
+   },
+   "IRAN-09181115-05": {
+    "kind": "new"
+   },
+   "IRAN-09181115-06": {
+    "kind": "new"
+   },
+   "IRAN-09181115-07": {
+    "kind": "new"
+   },
+   "IRAN-09181115-08": {
+    "kind": "new"
+   }
+  }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-17T1541__ukraine-202609171541.json",
+  "draft": "drafts/ukraine/2026-09-18T1200__ukraine-202609181200.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-17T15:41:49+00:00",
+   "generated_at": "2026-09-18T12:00:57+00:00",
    "window": {
-    "from": "2026-09-16T15:41:49+00:00",
-    "to": "2026-09-17T15:41:49+00:00"
+    "from": "2026-09-17T12:00:57+00:00",
+    "to": "2026-09-18T12:00:57+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609171541"
+    "run_id": "ukraine-202609181200"
    },
-   "summary": "הדיווחים מתמקדים בהסלמה בתקיפות אוויריות הדדיות: אוקראינה מדווחת על פגיעות במטרות אנרגיה וצבא בעומק רוסיה (ירוסלבל ורוסטוב) ויירוט כטב\"מים, בעוד רוסיה ממשיכה בתקיפות שגרמו לנזקים באזורים שונים באוקראינה (זפורוז'יה וקייב). במקביל, ארה\"ב מקדמת סנקציות חדשות, ופולין מעלה את דריכות חיל האוויר שלה עקב פרובוקציות ופעילות גבול.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת כאשר כוחות רוסיים תוקפים תשתיות ואזרחים בחזיתות שונות, לרבות אזור חרקוב ודונייצק, בעוד אוקראינה משיבה בתקיפות עומק באמצעות כטב\"מים על יעדים ברוסיה ובחצי האי קרים. במקביל, רוסיה מקיימת את הבחירות לפרלמנט תוך הידוק שליטה פנימית והחרמת נכסים מערביים, ואוקראינה מהדקת שיתופי פעולה אזוריים ואירופיים.",
    "fronts": [
     {
-     "name": "חזית האוויר ועומק רוסיה",
-     "status": "פעיל מאוד עם תקיפות הדדיות באמצעות כטב\"מים וטילים"
+     "name": "החזית המזרחית (דונייצק)",
+     "status": "פעיל - תקיפות נורות על עיירות כמו סלאביאנסק"
     },
     {
-     "name": "חזית הדרום והמזרח באוקראינה",
-     "status": "לחימה קרקעית, תקיפות על תשתיות ואזרחים (זפורוז'יה)"
+     "name": "החזית הצפון-מזרחית (חרקוב)",
+     "status": "פעיל - תקיפות על תשתיות תחבורה ורכבות"
     },
     {
-     "name": "הזירה הדיפלומטית והכלכלית",
-     "status": "החמרת סנקציות מצד המערב וגינויים הדדיים"
+     "name": "מרחב קרים והים השחור",
+     "status": "פעיל - תקיפות ממוקדמות של כוחות אוקראיניים על נכסים רוסיים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09171541-01",
-     "title": "תקיפת כטב\"ם על אוטובוס בזפורוז'יה",
-     "summary": "חמישה בני אדם נפצעו כתוצאה מתקיפת רחפן פצוע על אוטובוס ברובע קוסמיצני בזפורוז'יה.",
-     "axis": "חזית הדרום והמזרח באוקראינה",
+     "id": "UKRAINE-09181200-01",
+     "title": "הארכת הסכם שיתוף פעולה בבטיחות גרעינית בין אוקראינה לשבדיה",
+     "summary": "הפיקוח הרגולטורי הגרעיני של אוקראינה ורשות הבטיחות בקרינה של שבדיה האריכו בחמש שנים את הסכם שיתוף הפעולה ביניהם.",
+     "axis": "סיוע ותיאום בין-לאומי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T14:55:00+00:00",
+     "occurred_at": "2026-09-18T11:40:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T14:55:00+00:00",
-     "last_update_at": "2026-09-17T14:55:00+00:00",
-     "what_is_not_verified": "חומרת הפציעות המלאה מעבר לדיווחים הראשוניים",
+     "first_reported_at": "2026-09-18T11:40:00+00:00",
+     "last_update_at": "2026-09-18T11:40:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_105c0f8e8eb6dd80",
+       "url": "https://www.ukrinform.net/rubric-economy/4165446-ukraine-sweden-extend-cooperation-in-nuclear-safety.html",
+       "published_at": "2026-09-18T11:40:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-02",
+     "title": "נורבגיה הקצתה למעלה מ-100 מיליון דולר לתמיכה בתקציב אוקראינה",
+     "summary": "נורבגיה העבירה מעל 100 מיליון דולר לתמיכה בתקציב המדינה של אוקראינה.",
+     "axis": "סיוע כלכלי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T11:34:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T11:34:00+00:00",
+     "last_update_at": "2026-09-18T11:34:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_c0cd6c2af886e946",
+       "url": "https://www.ukrinform.net/rubric-economy/4165458-norway-allocates-over-100m-to-ukraine-for-budget-support-zelensky.html",
+       "published_at": "2026-09-18T11:34:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-03",
+     "title": "הונגריה חוסמת מחדש את סגירת אשכולות הצטרפות אוקראינה לאיחוד האירופי",
+     "summary": "הונגריה החלה שוב לחסם את תהליך ההצטרפות של אוקראינה לאיחוד האירופי בדרישה ליישם את זכויות המיעוט ההונגרי.",
+     "axis": "דיפלומטיה וסנקציות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T11:22:13+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-18T11:22:13+00:00",
+     "last_update_at": "2026-09-18T11:22:13+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_7e9fe5261ca7173e",
+       "url": "https://kyivindependent.com/zelensky-downplays-rift-as-hungary-renews-eu-accession-blockade-over-minority-rights/",
+       "published_at": "2026-09-18T11:22:13+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-04",
+     "title": "כוחות רוסיים תקפו את סלאביאנסק ופצעו אזרחים",
+     "summary": "כוחות רוסיה ביצעו שתי תקיפות באותו רובע בעיר סלאביאנסק, שהביאו לפציעתם של חמישה אזרחים ולנזק למבנים.",
+     "axis": "החזית המזרחית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T10:29:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T10:29:00+00:00",
+     "last_update_at": "2026-09-18T11:19:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_3043b1b0361b6a64",
+       "url": "https://www.ukrinform.net/rubric-ato/4165447-russian-forces-strike-sloviansk-five-civilians-injured.html",
+       "published_at": "2026-09-18T11:19:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_7d462d7c2610f5f9",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054062/",
+       "published_at": "2026-09-18T10:29:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סלאביאנסק, אוקראינה",
+       "lat": 48.8523,
+       "lon": 37.6058
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09181200-05",
+     "title": "תקיפה אוקראינית על תחנת בקרה לכטב\"מים רוסיים בחצי האי קרים",
+     "summary": "כוחות ההגנה של אוקראינה תקפו תחנת בקרה קרקעית לכטב\"מים מסוג אוריון בשדה התעופה סאקי בקרים, ופגעו במטרות נוספות.",
+     "axis": "תקיפות עומק",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T10:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T10:00:00+00:00",
+     "last_update_at": "2026-09-18T11:01:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_444226cfb2e9c853",
+       "url": "https://www.ukrinform.net/rubric-ato/4165441-ukrainian-forces-strike-russian-orion-drone-control-station-in-crimea.html",
+       "published_at": "2026-09-18T11:01:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_1b5ed68928bee7e5",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054057/",
+       "published_at": "2026-09-18T10:00:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נובופדוריווקה, אוקראינה",
+       "lat": 45.0943,
+       "lon": 33.5752
+      },
+      {
+       "name": "דונייצק, אוקראינה",
+       "lat": 48.0159,
+       "lon": 37.8013
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09181200-06",
+     "title": "שברי כטב\"ם נמצאו בסמוך לקישינב שבמולדובה",
+     "summary": "משטרת מולדובה איתרה שברי כטב\"ם בכפר קולוניצה הסמוך לקישינב, בעקבות דיווחים על פיצוץ בלילה.",
+     "axis": "גבולות ומרחב אווירי סמוך",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T10:44:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T10:44:00+00:00",
+     "last_update_at": "2026-09-18T10:44:00+00:00",
+     "what_is_not_verified": "משרד ההגנה של מולדובה טען כי לא תועדו הפרות מרחב אווירי באותו לילה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_e08242be673c5ae9",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/17/8053949/",
-       "published_at": "2026-09-17T14:55:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "זפורוז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09171541-02",
-     "title": "תקיפות כטב\"ם ומפעלים ברוסיה (ירוסלבל ורוסטוב)",
-     "summary": "אוקראינה ביצעה תקיפות כטב\"מים שהובילו לנזק בבית זיקוק בירוסלבל ובשדה תעופה צבאי ברוסטוב על הדון, וכן ניתוקי חשמל באזורים שונים.",
-     "axis": "עומק רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-17T07:28:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-17T07:28:46+00:00",
-     "last_update_at": "2026-09-17T07:28:46+00:00",
-     "what_is_not_verified": "מספר הכלים המדויק שנפגע לעומת מספר הכלים שנטען שייורטו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/09/17/ukrainian-drone-attack-sets-russian-oil-refinery-on-fire-cuts-power-to-part-of-russian-city",
-       "published_at": "2026-09-17T07:28:46+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054066/",
+       "published_at": "2026-09-18T10:44:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ירוסלבל, רוסיה",
-       "lat": 57.6264,
-       "lon": 39.8934
-      },
-      {
-       "name": "רוסטוב על הדון, רוסיה",
-       "lat": 47.261,
-       "lon": 39.7249
+       "name": "קישינב, מולדובה",
+       "lat": 47.0245,
+       "lon": 28.8323
       }
      ]
     },
     {
-     "id": "UKRAINE-09171541-03",
-     "title": "אישור סנקציות חדשות על רוסיה בבית הנבחרים האמריקאי",
-     "summary": "בית הנבחרים של ארצות הברית הצביע על חבילת סנקציות מקיפה נגד הכלכלה הרוסית, מגזר האנרגיה ותעשיית הביטחון.",
-     "axis": "הזירה הבינלאומית והכלכלית",
+     "id": "UKRAINE-09181200-07",
+     "title": "פסגה להשקת יוזמת שיתוף הפעולה האזורי 'הקרפטים השמונה'",
+     "summary": "נשיא אוקראינה הכריז על השקת יוזמת שיתוף הפעולה האזורי 'הקרפטים השמונה' (C8) המפגישה שכנות אירופיות ואת האיחוד האירופי.",
+     "axis": "דיפלומטיה וסיתואציות אזוריות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T10:46:29+00:00",
+     "occurred_at": "2026-09-18T09:12:12+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T10:46:29+00:00",
-     "last_update_at": "2026-09-17T14:51:51+00:00",
-     "what_is_not_verified": "השפעת הסנקציות בפועל על עצירת המכונה הצבאית הרוסית",
+     "first_reported_at": "2026-09-18T09:12:12+00:00",
+     "last_update_at": "2026-09-18T10:40:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_0b48ed88c89389df",
+       "url": "https://www.ukrinform.net/rubric-polytics/4165431-zelensky-announces-eur-1b-in-deals-at-carpathian-eight-summit.html",
+       "published_at": "2026-09-18T10:40:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_f19a5345beb90778",
+       "url": "https://www.ukrinform.net/rubric-polytics/4165406-zelensky-announces-launch-of-new-carpathian-eight-initiative.html",
+       "published_at": "2026-09-18T09:58:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_970f3ab36aad98a3",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054056/",
+       "published_at": "2026-09-18T09:49:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_8491a3d23cf490ad",
+       "url": "https://kyivindependent.com/zelensky-hosts-european-leaders-at-inaugural-carpathian-8-summit/",
+       "published_at": "2026-09-18T09:12:12+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-08",
+     "title": "איגוד הביאתלון הבין-לאומי סירב לחדש את חברות רוסיה ובלארוס",
+     "summary": "קונגרס איגוד הביאתלון הבין-לאומי החליט שלא לחדש את חברותן של רוסיה ובלארוס בארגון עקב אי-עמידה בתנאים.",
+     "axis": "סנקציות ובידוד בינלאומי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T10:03:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T10:03:00+00:00",
+     "last_update_at": "2026-09-18T10:03:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_dd5d3bcd191967d0",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054058/",
+       "published_at": "2026-09-18T10:03:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-09",
+     "title": "תקיפה רוסית על רכבת נוסעים באזור חרקוב",
+     "summary": "כוחות רוסיה תקפו רכבת נוסעים באזור חרקוב, בתקיפה שגרמה להרג אדם אחד ולפציעתם של שמונה בני אדם.",
+     "axis": "החזית הצפון-מזרחית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T09:55:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T09:55:00+00:00",
+     "last_update_at": "2026-09-18T10:18:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_8d2c542a4197f5b7",
+       "url": "https://www.ukrinform.net/rubric-ato/4165423-russian-strike-hits-commuter-train-in-kharkiv-region-killing-one-and-injuring-seven.html",
+       "published_at": "2026-09-18T10:18:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_fd9a33013c20ebba",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054036/",
+       "published_at": "2026-09-18T09:55:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מחוז חרקוב, אוקראינה",
+       "lat": 50.0323,
+       "lon": 36.2188
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09181200-10",
+     "title": "פתיחת הבחירות לפרלמנט ברוסיה",
+     "summary": "במוסקבה ובאזורים שונים ברוסיה החלו הבחירות לדומה הממלכתית המתקיימות במשך שלושה ימים לראשונה מאז הפלישה לאוקראינה.",
+     "axis": "עורף רוסי ופוליטיקה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-17T22:33:34+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-17T22:33:34+00:00",
+     "last_update_at": "2026-09-18T09:28:19+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "fh_86a5b83ea3baaddd",
-       "url": "https://kyivindependent.com/sanctions-from-hell-can-west-finally-choke-off-kremlins-war-machine/",
-       "published_at": "2026-09-17T14:51:51+00:00"
+       "source_root_id": "fh_215ce3038a888605",
+       "url": "https://kyivindependent.com/inside-russias-2026-parliamentary-election-banned-opposition-rigging-and-war/",
+       "published_at": "2026-09-18T09:28:19+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_fb2c986b82d1b735",
+       "url": "https://kyivindependent.com/russia-begins-3-day-legislative-elections-as-kremlin-seeks-to-project-support-for-war/",
+       "published_at": "2026-09-18T07:47:51+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_294a9248d9fca50b",
+       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21449301",
+       "published_at": "2026-09-18T06:28:14+00:00"
       },
       {
        "source_id": "src_meduza",
-       "source_root_id": "fh_86a5b83ea3baaddd",
-       "url": "https://meduza.io/en/news/2026/09/17/sanctions-from-hell-from-us-will-complicate-peace-talks-kremlin-says",
-       "published_at": "2026-09-17T10:46:29+00:00"
+       "source_root_id": "fh_b963aa23db82cee9",
+       "url": "https://meduza.io/en/news/2026/09/18/russia-begins-three-days-of-voting-for-its-450-seat-parliament-with-the-first-polling-stations-opening-in-the-far-eastern-regions-of-kamchatka-and-chukotka",
+       "published_at": "2026-09-17T22:33:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון, ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     },
     {
-     "id": "UKRAINE-09171541-04",
-     "title": "פגיעה במפעל הפלדה זפורוז'סטאל",
-     "summary": "רוסיה תקפה באמצעות שני טילים בליסטיים את מפעל הפלדה זפורוז'סטאל, מה שהביא לפציעת עובד אחד.",
-     "axis": "חזית הדרום והמזרח באוקראינה",
+     "id": "UKRAINE-09181200-11",
+     "title": "החרמת נכסי חברות זרות ברוסיה בהוראת פוטין",
+     "summary": "נשיא רוסיה ולדימיר פוטין חתם על צו המעביר את נכסי החברות נסטלה ואושאן ברוסיה תחת ניהול זמני.",
+     "axis": "כלכלה וסנקציות נגדיות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T14:27:29+00:00",
+     "occurred_at": "2026-09-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T14:27:29+00:00",
-     "last_update_at": "2026-09-17T14:27:29+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לתשתיות הייצור במפעל",
+     "first_reported_at": "2026-09-17T18:13:39+00:00",
+     "last_update_at": "2026-09-18T04:53:26+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_metinvest",
-       "url": "https://kyivindependent.com/russian-forces-strike-major-ukrainian-steel-plant-for-4th-time-in-a-month-injuring-1-worker/",
-       "published_at": "2026-09-17T14:27:29+00:00"
+       "source_root_id": "fh_3b65c8eeea1ae851",
+       "url": "https://kyivindependent.com/putin-confiscates-nestle-auchan-assets-in-russia/",
+       "published_at": "2026-09-18T04:53:26+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_757d9577986cb668",
+       "url": "https://meduza.io/en/news/2026/09/17/putin-put-russian-assets-of-french-supermarket-chain-auchan-and-swiss-food-giant-nestle-under-temporary-management-neither-company-had-left-russia-after-the-full-scale-invasion",
+       "published_at": "2026-09-17T18:13:39+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09181200-12",
+     "title": "מתקפת רחפנים אוקראינית נרחבת על מחוז רוסטוב ומרחב מוסקבה",
+     "summary": "עשרות רחפנים אוקראיניים יורטו מעל מחוז רוסטוב וגרמו לנזקים לבתים, ומאות רחפנים שווגו בדרכם למוסקבה.",
+     "axis": "מתקפות עומק בשטח רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T07:07:52+00:00",
+     "last_update_at": "2026-09-18T07:07:52+00:00",
+     "what_is_not_verified": "טענות ערוצי טלגרם על פגיעה בבסיס אווירי ועל נזק למטוסי תובלה ומסוקים ברוסטוב",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_bae56bcbdcc3dbad",
+       "url": "https://meduza.io/en/news/2026/09/18/ukrainian-drones-damage-homes-in-russia-s-rostov-region-moscow-mayor-says-350-drones-were-headed-for-the-capital",
+       "published_at": "2026-09-18T07:07:52+00:00"
       }
      ],
      "places": [
       {
-       "name": "זפורוז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
+       "name": "מחוז רוסטוב, רוסיה",
+       "lat": 44.4977,
+       "lon": 42.5301
+      },
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
    ],
    "not_verified": [
-    "טענות רוסיה כי אירועי בוצ'ה בוימו על ידי קייב וכי הקורבנות לא היו אזרחים תושבי המקום",
-    "טענות גרינפיס ומדביסקי אינטליגנציה כי אין ראיות לפגיעות אוקראיניות בתשתיות תחנת הכוח הגרעינית בזפורוז'יה",
-    "ההערכות והדיווחים המודיעיניים על כך שרוסיה מבצעת מתקפות היברידיות מתוכננות ברחבי אירופה להטלת פחד או שיבוש",
-    "מספר הכלים המדויק שהושמדו או יורטו בשמי רוסיה ואוקראינה לפי הודעות המשרדים הצבאיים"
+    "טענות על תוכניות רוסיות לגייס עד 300,000 איש בסתיו",
+    "טענות על כוונת רוסיה לבצע תקיפות היברידיות או 'מקריות' במדינות נאט\"ו",
+    "דיווחים על פגיעה במטוסי תובלה ומסוקים בבסיס ברוסטוב"
    ],
    "map": {
     "confidence": "high",
@@ -899,301 +1174,290 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "פגיעה במטרות צבאיות, בתי זיקוק ושדות תעופה צבאיים בעומק רוסיה",
-      "הרחבת ייצור אמצעי יירוט מקומיים כנגד רחפנים מתקדמים"
+      "השגת תמיכה כלכלית ודיפלומטית רחבה מהאיחוד האירופי ומהשכנות",
+      "פגיעה ביכולות הצבאיות של רוסיה באמצעות תקיפות כטב\"מים בעומק השטח"
      ],
      "inferred": [
-      "שיבוש הלוגיסטיקה ותעשיית האנרגיה הרוסית כדי להקשות על מימון המלחמה",
-      "גיוס תמיכה מערבית נוספת ואמצעי הגנה אווירית"
+      "שמירה על רציפות תפקודית של משק האנרגיה והתחבורה חרף התקיפות",
+      "חיזוק הבריתות האזוריות כדי למנוע עייפות ממלחמה באירופה"
      ],
      "forecast": [
-      "המשך ניסיונות פגיעה במטרות תשתית בתוך שטחי רוסיה",
-      "התבססות על אמצעי יירוט מתוצרת מקומית מול איומי כטב\"מים מהירים"
+      "המשך מאמצי גיוס משאבים פיננסיים ממדינות המערב לקראת חודשי החורף",
+      "הגברת הפעילות הדיפלומטית מול גושים אזוריים דוגמת יוזמת הקרפטים"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "סיום הסכסוך בתנאים של רוסיה ומאבק נגד תשתיות צבאיות ואנרגיה באוקראינה",
-      "חשיפת פעילות שלטענתה מוכיחה זיופים באירועים כמו בוצ'ה"
+      "ביסוס הלגיטימציה לשלטונו של פוטין באמצעות קיום בחירות לפרלמנט",
+      "המשך פגיעה בתשתיות ובקווי האספקה של אוקראינה"
      ],
      "inferred": [
-      "הפעלת לחץ מתמשך על תשתיות קריטיות באוקראינה ובדיקת חולשות במערך ההגנה של נאט\"ו",
-      "תגובה למכה הכלכלית מאירופה ומארה\"ב דרך הגברת פעולות היברידיות"
+      "צמצום ההשפעה והנוכחות של חברות מערביות המשיכות לפעול בשטחה באמצעות השתלטות עליהן",
+      "ניסיון לערער את החוסן האזרחי האוקראיני על ידי תקיפת רכבות ותשתיות אזרחיות"
      ],
      "forecast": [
-      "הגברת התקיפות על מתקני אנרגיה ותעשייה באוקראינה",
-      "המשך מאמצים דיפלומטיים ותקשורתיים לערעור הלגיטימציה של ההנהגה בקייב"
+      "המשך לחץ צבאי בחזיתות המזרחיות והצפון-מזרחיות",
+      "הידוק הפיקוח הכלכלי והפנימי בתוך רוסיה על רקע הבחירות והמלחמה"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21449301",
+     "accessed_at": "2026-09-18T12:00:57+00:00"
+    },
+    {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/russian-forces-strike-major-ukrainian-steel-plant-for-4th-time-in-a-month-injuring-1-worker/",
-     "accessed_at": "2026-09-17T15:41:49+00:00"
+     "url": "https://kyivindependent.com/putin-confiscates-nestle-auchan-assets-in-russia/",
+     "accessed_at": "2026-09-18T12:00:57+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/09/17/sanctions-from-hell-from-us-will-complicate-peace-talks-kremlin-says",
-     "accessed_at": "2026-09-17T15:41:49+00:00"
+     "url": "https://meduza.io/en/news/2026/09/18/ukrainian-drones-damage-homes-in-russia-s-rostov-region-moscow-mayor-says-350-drones-were-headed-for-the-capital",
+     "accessed_at": "2026-09-18T12:00:57+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/17/8053949/",
-     "accessed_at": "2026-09-17T15:41:49+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054036/",
+     "accessed_at": "2026-09-18T12:00:57+00:00"
+    },
+    {
+     "source_id": "src_ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4165423-russian-strike-hits-commuter-train-in-kharkiv-region-killing-one-and-injuring-seven.html",
+     "accessed_at": "2026-09-18T12:00:57+00:00"
     }
    ]
   },
-  "previous_generated_at": null,
-  "changes": {}
+  "previous_generated_at": "2026-09-17T15:41:49+00:00",
+  "changes": {
+   "UKRAINE-09181200-01": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-02": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-03": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-04": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-05": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-06": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-07": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-08": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-09": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-10": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-11": {
+    "kind": "new"
+   },
+   "UKRAINE-09181200-12": {
+    "kind": "new"
+   }
+  }
  },
  "north": {
-  "draft": "drafts/north/2026-09-17T1542__north-202609171542.json",
+  "draft": "drafts/north/2026-09-18T1212__north-202609181212.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-17T15:42:37+00:00",
+   "generated_at": "2026-09-18T12:12:43+00:00",
    "window": {
-    "from": "2026-09-16T15:42:37+00:00",
-    "to": "2026-09-17T15:42:37+00:00"
+    "from": "2026-09-17T12:12:43+00:00",
+    "to": "2026-09-18T12:12:43+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202609171542"
+    "run_id": "north-202609181212"
    },
-   "summary": "הדיווחים עוסקים בשיחות בפריז על עתיד לבנון ויוניפי\"ל, תקיפות בדרום לבנון, הבנות לכאורה בין ארה\"ב לחות'ים בעומאן, יוזמה של טורקיה לגבי הים השחור, ופגישות דיפלומטיות אזוריות הכוללות את טורקיה, סוריה וירדן.",
+   "summary": "הגזרה הצפונית כוללת מתח צבאי מתמשך בין ישראל לבין לבנון וחיזבאללה, הכולל תקיפות ארטילריות, חיכוך ישיר מול צבא לבנון באזור דיר מימאס, וכן פעילות צבאית מתמשכת בדרום סוריה. במקביל, מתקיימים דיפלומטיה ומגעים בינלאומיים בנוגע לעתיד הביטחוני בדרום לבנון ומניעת וואקום ביטחוני לקראת פרישת כוחות.",
    "fronts": [
     {
-     "name": "לבנון-ישראל",
-     "status": "פעיל, כולל תקיפות בדרום לבנון ודיפלומטיה בינלאומית"
+     "name": "החזית הלבנונית",
+     "status": "פעילה עם חיכוך צבאי ותקיפות הדדיות"
     },
     {
-     "name": "תימן והים האדום",
-     "status": "מתיחות, השתלטות חות'ית ומגעים עקיפים עם ארה\"ב"
-    },
-    {
-     "name": "סוריה",
-     "status": "תהליכי ייצוב מחדש, משפטים ופעילות דיפלומטית"
+     "name": "החזית הסורית",
+     "status": "פעילה עם כניסות כוחות ופעולות ביטחון פנים"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09171542-01",
-     "title": "תקיפות והפצצות בדרום לבנון",
-     "summary": "התקפות ופיצוצים יזומים באל מנצורי בדרום לבנון",
-     "axis": "לבנון-ישראל",
+     "id": "NORTH-09181212-01",
+     "title": "כניסת כלי רכב צבאיים לסוריה",
+     "summary": "כוחות צבא ישראל נכנסו עם תשעה כלי רכב צבאיים לאזור דרום סוריה.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-17T13:52:01+00:00",
-     "last_update_at": "2026-09-17T14:37:30+00:00",
-     "what_is_not_verified": "לא מאומת מי עומד מאחורי כל פיצוץ ספציפי מלבד דיווחים",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T11:26:22+00:00",
+     "last_update_at": "2026-09-18T11:59:13+00:00",
+     "what_is_not_verified": "לא מאומת מלוא היקף הפעילות או מטרת ההתקדמות המדויקת מעבר לדיווחי המדיה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128167/",
-       "published_at": "2026-09-17T14:37:30+00:00"
+       "source_root_id": "or_syrian_reports",
+       "url": "https://english.almanar.com.lb/article/128512/",
+       "published_at": "2026-09-18T11:59:13+00:00"
       },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_syrian_reports",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-incursion-into-southern-syria-with-9-military-vehicles/4061098",
+       "published_at": "2026-09-18T11:26:22+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ואדי אל-רקד, סוריה",
+       "lat": 32.8011,
+       "lon": 35.8268
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09181212-02",
+     "title": "התקדמות כוחות ישראל באזור דיר מימאס ונסיגת צבא לבנון",
+     "summary": "כוחות צבא ישראל התקדמו באזור דיר מימאס בדרום לבנון, דבר שהוביל לנסיגת צבא לבנון ממוצב חדש שהוקם בפתחו ולחיכוך בשטח שכלל זריקת רימוני הלם.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-18T05:59:50+00:00",
+     "last_update_at": "2026-09-18T10:17:46+00:00",
+     "what_is_not_verified": "פרטי האולטימטום הנטען וטענות על הקו הצהוב אינם מאומתים מגורם רשמי ישראלי.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128157/",
-       "published_at": "2026-09-17T14:06:00+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94373",
-       "published_at": "2026-09-17T13:54:15+00:00"
+       "source_root_id": "fh_3374d7c6b3563f7e",
+       "url": "https://english.almanar.com.lb/article/128457/",
+       "published_at": "2026-09-18T10:17:46+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130393",
-       "published_at": "2026-09-17T13:52:01+00:00"
+       "source_root_id": "fh_3374d7c6b3563f7e",
+       "url": "https://t.me/abualiexpress/130438",
+       "published_at": "2026-09-18T09:59:53+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_3374d7c6b3563f7e",
+       "url": "https://t.me/abualiexpress/130436",
+       "published_at": "2026-09-18T09:41:20+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "fh_03903f1ffde56534",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/958443/israeli-patrol-approaches-lebanese-army-position-in-deir-mimas/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958443",
+       "published_at": "2026-09-18T05:59:50+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "דיר מימאס, לבנון",
+       "lat": 33.3021,
+       "lon": 35.5467
       }
      ]
     },
     {
-     "id": "NORTH-09171542-02",
-     "title": "שיחות בפריז על עתיד לבנון ויוניפי\"ל",
-     "summary": "מנהיגי צרפת, לבנון וירדן נפגשו בפריז לדון בתמיכה בצבא לבנון ובהערכות לקראת סיום משימת יוניפי\"ל",
-     "axis": "לבנון-בינלאומי",
-     "claim_type": "statement",
+     "id": "NORTH-09181212-03",
+     "title": "ירי ארטילרי ותקיפות בדרום לבנון",
+     "summary": "כוחות צבא ישראל ביצעו ירי ארטילרי ותקיפות לעבר מרחבים שונים בדרום לבנון, שגרמו לפצועים באזור שקרא.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-17T00:00:00+00:00",
+     "occurred_at": "2026-09-17T23:15:55+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-17T09:05:35+00:00",
-     "last_update_at": "2026-09-17T14:46:07+00:00",
-     "what_is_not_verified": "האם יוקם כוח רב-לאומי חדש בפועל",
+     "first_reported_at": "2026-09-17T23:15:55+00:00",
+     "last_update_at": "2026-09-18T10:07:59+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים מעבר לדיווחים המקומיים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/lebanon-on-paris-talks-the-general-sentiment-here-is-very-little-hope",
-       "published_at": "2026-09-17T14:46:07+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_740912d0f1e16aac",
+       "url": "https://english.almanar.com.lb/article/128447/",
+       "published_at": "2026-09-18T10:07:59+00:00"
       },
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/macron-hosts-lebanon-security-talks-un-mission-nears-end",
-       "published_at": "2026-09-17T13:30:28+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_79019ff703144d2c",
+       "url": "https://english.almanar.com.lb/article/128437/",
+       "published_at": "2026-09-18T10:06:58+00:00"
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/lebanon-unifil-withdrawal-at-the-heart-of-paris-talks",
-       "published_at": "2026-09-17T13:23:41+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_740912d0f1e16aac",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-fresh-attacks-in-southern-lebanon-despite-framework-deal/4060882",
+       "published_at": "2026-09-18T08:20:16+00:00"
       },
       {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/958327/macron-a-sovereign-stable-lebanon-is-key-to-regional-peace/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958327",
-       "published_at": "2026-09-17T11:58:18+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/958324/jordan-france-reaffirm-support-for-lebanons-sovereignty-state-institut/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958324",
-       "published_at": "2026-09-17T11:42:00+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/macron-pushes-israeli-withdrawal-paris-meeting-lebanon",
-       "published_at": "2026-09-17T11:12:30+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/958286/aoun-in-paris-lebanon-has-chosen-the-state-now-it-needs-international/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958286",
-       "published_at": "2026-09-17T09:05:35+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_740912d0f1e16aac",
+       "url": "https://www.aa.com.tr/en/middle-east/israel-continues-attacks-on-southern-lebanon-as-aoun-says-assaults-obstruct-framework-formula-/4060665",
+       "published_at": "2026-09-17T23:15:55+00:00"
       }
      ],
      "places": [
       {
-       "name": "פריז, צרפת",
-       "lat": 48.8535,
-       "lon": 2.3484
+       "name": "כפר טיבניית, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
       }
      ]
     },
     {
-     "id": "NORTH-09171542-03",
-     "title": "הסכם הבנות בין ארה\"ב לחות'ים בעומאן",
-     "summary": "מקורות דיווחו שארצות הברית הגיעה להבנות עם החות'ים בעומאן לפיהן ארה\"ב תימנע מהתערבות בתימן בתמורה לאי-פגיעה בספינות אמריקאיות",
-     "axis": "תימן-ארה\"ב",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-17T15:33:21+00:00",
-     "last_update_at": "2026-09-17T15:33:21+00:00",
-     "what_is_not_verified": "האם ארה\"ב אכן התחייבה רשמית שלא להתערב",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/us-intervention-table-yemen-despite-saudi-pressure",
-       "published_at": "2026-09-17T15:33:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מסקט, עומאן",
-       "lat": 23.6124,
-       "lon": 58.5938
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09171542-04",
-     "title": "משפט על האלימות בסוריה",
-     "summary": "בית משפט בסוריה גזר עונשי מאסר ומוות על מעורבים באלימות באזור החוף",
-     "axis": "סוריה",
+     "id": "NORTH-09181212-04",
+     "title": "עימותים מזוינים באל-סאנאמן בדרום סוריה",
+     "summary": "עימותים פרצו בין כוחות הביטחון הפנים בסוריה לבין חברי חמושים במסגרת מבצע מעצר בדרום סוריה, מה שהוביל להרוגים ועוצר זמני.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-17T12:31:14+00:00",
-     "last_update_at": "2026-09-17T13:42:13+00:00",
-     "what_is_not_verified": "פרטי הביצוע המלאים של גזרי הדין",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-09-17T10:41:57+00:00",
+     "last_update_at": "2026-09-17T12:12:43+00:00",
+     "what_is_not_verified": "זהות כלל המעורבים המדויקת והקשר המלא של הקבוצות החמושות.",
+     "is_new_in_window": false,
      "reports": [
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syrian-court-issues-death-prison-sentences-for-2025-coastal-violence/4060210",
-       "published_at": "2026-09-17T13:42:13+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/17/syrian-court-sentences-three-linked-to-coastal-violence?traffic_source=rss",
-       "published_at": "2026-09-17T12:31:14+00:00"
+       "source_id": "src_enabbaladi",
+       "source_root_id": "fh_8e70d253567054c5",
+       "url": "https://english.enabbaladi.net/archives/2026/09/al-sanamayn-clashes-kill-three-internal-security-members/",
+       "published_at": "2026-09-17T10:41:57+00:00"
       }
      ],
      "places": [
       {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09171542-05",
-     "title": "הצעה טורקית להפסקת תקיפות בים השחור",
-     "summary": "טורקיה העבירה הצעה לרוסיה ואוקראינה לעצירת פגיעה בספינות אזרחיות בים השחור",
-     "axis": "רוסיה-אוקראינה-טורקיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-17T08:02:56+00:00",
-     "last_update_at": "2026-09-17T12:55:00+00:00",
-     "what_is_not_verified": "האם הצדדים יסכימו להצעה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_dailysabah",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.dailysabah.com/politics/turkiye-proposes-deal-to-end-black-sea-attacks/news",
-       "published_at": "2026-09-17T12:55:00+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/world-news/958251/turkey-proposes-russia-ukraine-deal-to-end-black-sea-shipping-attacks/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958251",
-       "published_at": "2026-09-17T08:02:56+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אנקרה, טורקיה",
-       "lat": 39.9208,
-       "lon": 32.854
+       "name": "אל-סאנאמן, סוריה",
+       "lat": 33.0732,
+       "lon": 36.1834
       }
      ]
     }
    ],
    "not_verified": [
-    "קיומו המדויק של הסכם מחייב בין ארה\"ב לחות'ים בעומאן",
-    "ההצלחה בפועל של היוזמה הטורקית בים השחור",
-    "פרטי ההסכם המסגרת המלאים בין לבנון לישראל"
+    "טענות על אולטימטום שהציב צה\"ל לצבא לבנון בדיר מימאס",
+    "מספר הנפגעים המדויק בכלל האירועים בדרום לבנון ובסוריה"
    ],
    "map": {
     "confidence": "medium",
@@ -1213,86 +1477,72 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "לבנון",
+     "actor": "ישראל",
      "declared": [
-      "חיזוק סמכות המדינה והצבא בכל השטח",
-      "גיוס תמיכה בינלאומית ארוכת טווח"
+      "שמירה על מוכשרות מבצעית והגנה בגבול הצפון"
      ],
      "inferred": [
-      "רצון למנוע וואקום ביטחוני לאחר סיום משימת יוניפי\"ל"
+      "מניעת התבססות עוינת והרחקת איומים בגבולות לבנון וסוריה"
      ],
      "forecast": [
-      "המשך מאמצים דיפלומטיים להבטחת סיוע צבאי וכלכלי"
+      "המשך פעילות נקודתית ואכיפת אזורי חיץ בגבולות הצפון"
      ]
     },
     {
-     "actor": "טורקיה",
+     "actor": "לבנון",
      "declared": [
-      "הצעת פתרונות להפסקת תקיפות ספינות בים השחור",
-      "הרחבת שיתופי פעולה אזוריים (כגון באפגניסטן וסוריה)"
+      "שאיפה ליישוב הסכמות מסגרת מדיניות והשגת גיבוי בינלאומי לצבא לבנון"
      ],
      "inferred": [
-      "ניסיון לבסס מעמד של מתווך אזורי מרכזי"
+      "ניסיון למנוע עימות רחב תוך שמירה מוגבלת על נוכחות צבאית בדרום"
      ],
      "forecast": [
-      "המשך ניסיונות תיווך בסכסוכים ימיים ואזוריים"
+      "המשך מאמצים דיפלומטיים בבמות הבינלאומיות למניעת הסлаמה נוספת"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/17/syrian-court-sentences-three-linked-to-coastal-violence?traffic_source=rss",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
-    },
-    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/128157/",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
-    },
-    {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/macron-hosts-lebanon-security-talks-un-mission-nears-end",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
+     "url": "https://english.almanar.com.lb/article/128437/",
+     "accessed_at": "2026-09-18T12:12:43+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/syrian-court-issues-death-prison-sentences-for-2025-coastal-violence/4060210",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/israel-continues-attacks-on-southern-lebanon-as-aoun-says-assaults-obstruct-framework-formula-/4060665",
+     "accessed_at": "2026-09-18T12:12:43+00:00"
     },
     {
-     "source_id": "src_dailysabah",
-     "url": "https://www.dailysabah.com/politics/turkiye-proposes-deal-to-end-black-sea-attacks/news",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
-    },
-    {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/lebanon-unifil-withdrawal-at-the-heart-of-paris-talks",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
+     "source_id": "src_enabbaladi",
+     "url": "https://english.enabbaladi.net/archives/2026/09/al-sanamayn-clashes-kill-three-internal-security-members/",
+     "accessed_at": "2026-09-18T12:12:43+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/world-news/958251/turkey-proposes-russia-ukraine-deal-to-end-black-sea-shipping-attacks/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958251",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
-    },
-    {
-     "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/us-intervention-table-yemen-despite-saudi-pressure",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/958443/israeli-patrol-approaches-lebanese-army-position-in-deir-mimas/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958443",
+     "accessed_at": "2026-09-18T12:12:43+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130393",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
-    },
-    {
-     "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/94373",
-     "accessed_at": "2026-09-17T15:42:37+00:00"
+     "url": "https://t.me/abualiexpress/130436",
+     "accessed_at": "2026-09-18T12:12:43+00:00"
     }
    ]
   },
-  "previous_generated_at": null,
-  "changes": {}
+  "previous_generated_at": "2026-09-17T15:42:37+00:00",
+  "changes": {
+   "NORTH-09181212-01": {
+    "kind": "new"
+   },
+   "NORTH-09181212-02": {
+    "kind": "new"
+   },
+   "NORTH-09181212-03": {
+    "kind": "new"
+   },
+   "NORTH-09181212-04": {
+    "kind": "new"
+   }
+  }
  }
 };
