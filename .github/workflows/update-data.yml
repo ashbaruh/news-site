@@ -14,6 +14,10 @@ on:
   schedule:
     # פעמיים בשעה: GitHub מדלג על הרבה ריצות מתוזמנות (נצפה פער של 4 שעות), כך שבפועל יוצא בערך פעם בשעה
     - cron: "17,47 * * * *"
+  # "הרץ עכשיו" בלי מפתחות: שינוי בקובץ הזה מפעיל עדכון מיד
+  push:
+    branches: [main]
+    paths: [".github/run-data-now.txt"]
   workflow_dispatch: {}      # כפתור הפעלה ידנית
 
 permissions:
