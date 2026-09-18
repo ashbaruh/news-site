@@ -13,6 +13,10 @@
 ],
 "bab al-mandab strait, yemen": null,
 "bab el-mandab, yemen": null,
+"bab el-mandeb": [
+12.5744,
+43.3128
+],
 "bab el-mandeb, yemen": null,
 "beijing, china": [
 39.9057,
@@ -143,6 +147,10 @@
 26.4494,
 56.2028
 ],
+"sweida, syria": [
+32.7094,
+36.5687
+],
 "taganrog, russia": [
 47.2155,
 38.9284
@@ -155,6 +163,10 @@
 13.5752,
 44.0215
 ],
+"tehran, iran": [
+35.6893,
+51.3896
+],
 "wadi al-raqqad, syria": [
 32.8011,
 35.8268
@@ -163,11 +175,19 @@
 38.8951,
 -77.0364
 ],
+"yanbu, saudi arabia": [
+24.089,
+38.0687
+],
 "yaroslavl, russia": [
 57.6264,
 39.8934
 ],
 "yemen": null,
+"zaporizhzhia oblast, ukraine": [
+46.4609,
+34.8643
+],
 "zaporizhzhia, ukraine": [
 47.8508,
 35.1183
