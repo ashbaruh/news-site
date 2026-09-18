@@ -136,11 +136,6 @@
                          'או: כפתור "נגן ב-YouTube" בנגן למטה.';
       document.body.insertBefore(note, document.body.firstChild);
     }
-    // הבאנר מופיע רק כל עוד פינת המלחמות מציגה נתוני דמה (אין אף ניתוח מאושר). שאר האתר — נתונים אמיתיים.
-    var anyPublished = C.arenas.some(function (a) { return !!publishedFor(a.id); });
-    if (!C.demo_mode || anyPublished || !(window.DB.events || []).length) $('#demo-banner').style.display = 'none';
-    else $('#demo-banner').textContent = '⚠️ פינת המלחמות מציגה כרגע נתוני דמה, עד שתאשר את הניתוח היומי הראשון. ' +
-                                         'שאר האתר — נתונים אמיתיים (מסומנים בתג ●חי / עדכני).';
   }
 
   /* ------------------------------------------------------------
@@ -874,7 +869,6 @@
         '<span class="fresh-tag ' + st.level + '">' + esc(st.label) + '</span> ' +
         '<b>' + esc(src.name) + '</b>' + personal + ' — ' + esc(syms.join(', ')) +
         (when ? ' · ' + esc(when) : '') + extra +
-        (key === 'fx_ecb' ? '<div class="locked">משמש גם גיבוי לדולר, אירו ואירו/דולר אם השער החי לא זמין.</div>' : '') +
         '<div class="locked">' + esc(src.attribution || '') + '</div>' +
       '</li>';
     }).join('');
@@ -899,7 +893,7 @@
       var src = R.sourceById('src_cnbc');
       if (!R.isDisplayable(src)) {
         return tvEnabled()
-          ? '<p class="locked">בגרסה הציבורית: מפת חום של S&amp;P 500 מ-TradingView — בכרטיס שמתחת.</p>'
+          ? '<p class="locked">מפת חום של S&amp;P 500 — בכרטיס הבא.</p>'
           : '<p class="locked">אין מקור מורשה במצב הפרסום הנוכחי.</p>';
       }
 
@@ -1064,7 +1058,7 @@
 
     var html =
       '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
-      '<h3 class="sub">2 שהתרסקו · 2 שטסו <span class="locked">(רק תנועה חריגה ביחס להתנהגות הרגילה של המניה, לא סקאנר גולמי)</span></h3>' +
+      '<h3 class="sub" title="רק תנועה חריגה ביחס להתנהגות הרגילה של המניה">2 שהתרסקו · 2 שטסו</h3>' +
       moversHtml +
       '<h3 class="sub">חדשות שמזיזות שוק <span class="locked">(רק מה שנוגע לרשימה שלך)</span></h3>' + marketNewsHtml +
       '<h3 class="sub">ריבית</h3>' +

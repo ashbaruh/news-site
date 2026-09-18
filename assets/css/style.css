@@ -40,18 +40,6 @@ a:hover { text-decoration: underline; }
 
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px 80px; }
 main.wrap { padding-bottom: 340px; }   /* שהתוכן האחרון לא יוסתר מאחורי נגן המוזיקה */
-
-/* ---------- באנר דמו ---------- */
-.demo-banner {
-  background: repeating-linear-gradient(45deg, #3a2a00, #3a2a00 12px, #2e2200 12px, #2e2200 24px);
-  color: #ffd964;
-  text-align: center;
-  padding: 9px 14px;
-  font-size: 13.5px;
-  font-weight: 600;
-  border-bottom: 1px solid #5a4400;
-}
-
 /* ---------- כותרת עליונה ---------- */
 .topbar {
   background: var(--bg-2);

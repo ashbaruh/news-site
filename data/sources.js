@@ -249,7 +249,7 @@ window.DB.sources = [
   {
     id: 'src_ecb', name: 'ECB (דרך Frankfurter)', kind: 'API שערי מטבע',
     license_mode: 'licensed_data', independence_group: 'data_ecb',
-    attribution: 'שערי ייחוס: הבנק המרכזי האירופי (ECB), דרך Frankfurter',
+    attribution: 'שערי ייחוס: ECB',
     note: 'שער ייחוס יומי, לא מחיר מסחר בזמן אמת. מתפרסם בימי עסקים בלבד, בסביבות 16:00 שעון מרכז אירופה. משמש גם גיבוי לשערים החיים, ומקור יחיד לשקל/לאו.'
   },
   {
