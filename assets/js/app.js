@@ -304,6 +304,7 @@
 
     var html = '<div class="arena-tabs">' + tabs + '</div>';
 
+    html += briefStrip(arena.id, pub);
     if (pub) {
       html += publishedHead(arena, pub);
     } else {
@@ -528,6 +529,30 @@
     if (n.up) parts.push(F.ltr(String(n.up)) + ' עלו ברמת האימות');
     if (n.down) parts.push(F.ltr(String(n.down)) + ' ירדו');
     return parts.join(' · ');
+  }
+
+  /* עדכון ביניים (04:00 / 12:00 / 18:00): עד 3 ידיעות מהשעות האחרונות, מעל הניתוח היומי.
+     מוצג רק אם הוא חדש מהניתוח היומי ובן פחות מ-14 שעות. */
+  function briefStrip(arenaId, pub) {
+    var b = window.DB.war_brief || {};
+    var a = b.arenas && b.arenas[arenaId];
+    if (!a || !a.events || !a.events.length || !b.generated_at) return '';
+    var gen = new Date(b.generated_at).getTime();
+    if (!(gen > 0) || Date.now() - gen > 14 * 3600000) return '';
+    if (pub && new Date(pub.analysis.generated_at).getTime() >= gen) return '';
+    var items = a.events.slice(0, 3).map(function (ev) {
+      var as = R.assess(ev);
+      var links = (ev.reports || []).map(function (r) {
+        var s = R.sourceById(r.source_id);
+        if (!R.isDisplayable(s) || !/^https:\/\//.test(r.url || '')) return '';
+        return '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s ? s.name : r.source_id) + '</a>';
+      }).filter(Boolean).join(' · ');
+      return '<li><span class="badge ' + esc(as.level) + '">' + esc(as.label) + '</span> <b>' + esc(ev.title) + '</b>' +
+        '<div class="brief-sum">' + esc(ev.summary) + (links ? ' <span class="locked">· ' + links + '</span>' : '') + '</div></li>';
+    }).join('');
+    return '<div class="brief-box"><div class="brief-h">⚡ עדכון ביניים · ' + F.ltr(F.hhmm(b.slot || b.generated_at)) +
+      ' <span class="locked" title="ידיעות מהשעות האחרונות, לפני הניתוח היומי. נכתב בעזרת בינה מלאכותית; רמת האימות חושבה בקוד.">(?)</span></div>' +
+      '<ul class="rows">' + items + '</ul></div>';
   }
 
   /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */

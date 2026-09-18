@@ -1,0 +1,60 @@
+# ============================================================
+# עדכון ביניים לפינת המלחמות — 04:00, 12:00, 18:00 שעון ישראל, עד 3 ידיעות לזירה.
+# הניתוח העמוק נשאר פעם ביום (war-daily.yml).
+#
+# GitHub מדלג לפעמים על ריצות מתוזמנות, ושעון ישראל משתנה בין קיץ לחורף —
+# לכן כמה ריצות סביב כל מועד. הסקריפט בודק אם המועד כבר בוצע, וריצה מיותרת נגמרת בלי לקרוא לבינה.
+# ============================================================
+
+name: עדכון ביניים — מלחמות
+
+on:
+  schedule:
+    - cron: "40 0,1,8,9,14,15 * * *"   # 03:40 / 11:40 / 17:40 בקיץ (ובחורף — גיבוי)
+    - cron: "10 1,2,9,10,15,16 * * *"  # גיבוי: GitHub מדלג לפעמים; בחורף — המועד הראשי
+  # "הרץ עכשיו" בלי מפתחות: שינוי בקובץ הזה מפעיל עדכון ביניים מיד
+  push:
+    branches: [main]
+    paths: [".github/run-brief-now.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write            # לשמור את data/war/brief.js
+
+concurrency:
+  group: war-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: בדיקות
+        run: |
+          python tools/test_war_contract.py
+          python tools/test_war_brief.py
+
+      - name: עדכון ביניים
+        timeout-minutes: 25
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: gemini
+        run: |
+          FORCE=""; if [ "${{ github.event_name }}" != "schedule" ]; then FORCE="--force"; fi
+          PYTHONUNBUFFERED=1 python tools/war_brief.py $FORCE
+
+      - name: שמירה
+        if: always()
+        run: |
+          git config user.name  "news-site-bot"
+          git config user.email "news-site-bot@users.noreply.github.com"
+          git add data/war/brief.js data/war/geocache.json
+          if git diff --cached --quiet; then echo "אין שינוי"; exit 0; fi
+          git commit -m "עדכון ביניים — מלחמות"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done

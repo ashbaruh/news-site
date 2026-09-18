@@ -48,6 +48,7 @@ def telegram(words):
 
 FEEDS = {
     "iran": [
+        ("src_mee", "https://www.middleeasteye.net/rss", IRAN),
         ("src_iranintl", "https://www.iranintl.com/en/feed", IRAN),
         ("src_guardian", "https://www.theguardian.com/world/middleeast/rss", IRAN),
         ("src_bbc", "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml", IRAN),
@@ -73,6 +74,7 @@ FEEDS = {
         ("src_skynews", "https://feeds.skynews.com/feeds/rss/world.xml", UKRAINE),
     ] + israeli(UKRAINE_HE) + telegram(UKRAINE + UKRAINE_HE),
     "yemen": [
+        ("src_mee", "https://www.middleeasteye.net/rss", YEMEN),
         ("src_lwj", "https://www.longwarjournal.org/feed", YEMEN),
         ("src_gcaptain", "https://gcaptain.com/feed/", YEMEN),
         ("src_newarab", "https://www.newarab.com/rss", YEMEN),
@@ -86,6 +88,7 @@ FEEDS = {
         ("src_france24", "https://www.france24.com/en/middle-east/rss", YEMEN),
     ] + israeli(YEMEN_HE) + telegram(YEMEN + YEMEN_HE),
     "north": [
+        ("src_mee", "https://www.middleeasteye.net/rss", NORTH),
         ("src_alma", "https://israel-alma.org/feed/", None),
         ("src_lbci", "https://www.lbcgroup.tv/Rss/News/en", NORTH),
         ("src_almanar", "https://english.almanar.com.lb/rss", NORTH),

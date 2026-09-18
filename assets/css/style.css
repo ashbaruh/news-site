@@ -502,3 +502,9 @@ footer.site a { color: var(--accent); }
   .grid > *, .corner, .corner .body, #mk-rest { min-width: 0; }
   .quotes { max-width: 100%; }
 }
+
+/* עדכון ביניים — מעל הניתוח היומי */
+.brief-box { border: 1px solid #3a3413; background: #1a1706; border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; }
+.brief-h { font-weight: 700; color: var(--warn); font-size: 13.5px; margin-bottom: 4px; }
+.brief-box .rows li { padding: 5px 0; }
+.brief-sum { color: var(--text-dim); font-size: 13px; margin-top: 2px; }

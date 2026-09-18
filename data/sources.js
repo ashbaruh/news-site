@@ -132,6 +132,11 @@ window.DB.sources = [
     note: 'סוכנות הידיעות של המדינה הרוסית — צד מעוניין. מתאים ל"מה רוסיה הצהירה", לא לאימות.'
   },
   {
+    id: 'src_mee', name: 'Middle East Eye', kind: 'מדיה',
+    license_mode: 'link_only', independence_group: 'media_mee',
+    note: 'מהיר מאוד בלבנון, סוריה, איראן ותימן (נבדק 18/09/2026: 13 ידיעות ב-6 שעות). קרוב לקטאר — לשים לב לזווית. ניסוח עצמאי + קישור בלבד.'
+  },
+  {
     id: 'src_newarab', name: 'The New Arab', kind: 'מדיה',
     license_mode: 'link_only', independence_group: 'media_newarab',
     note: 'בבעלות קטארית — לשים לב לזווית. ניסוח עצמאי + קישור בלבד.'
@@ -221,22 +226,22 @@ window.DB.sources = [
      personal_only: לא מוצגים בגרסה הציבורית עד בדיקת זכויות. */
   {
     id: 'src_tg_abualiexpress', name: 'אבו עלי אקספרס (טלגרם)', kind: 'טלגרם ציבורי',
-    license_mode: 'personal_only', independence_group: 'tg_abualiexpress',
+    license_mode: 'link_only', independence_group: 'tg_abualiexpress',
     note: 'ערוץ ישראלי — סיקור ותרגום מהעולם הערבי. לרוב מצטט מקורות ערביים; לא כתב שטח.'
   },
   {
     id: 'src_tg_geostrategy', name: 'אסטרטגיה וגיאופוליטיקה (טלגרם)', kind: 'טלגרם ציבורי',
-    license_mode: 'personal_only', independence_group: 'tg_geostrategy',
+    license_mode: 'link_only', independence_group: 'tg_geostrategy',
     note: 'ערוץ ניתוח — הערכות, לא דיווחי שטח.'
   },
   {
     id: 'src_tg_carmel', name: 'Carmel News (טלגרם)', kind: 'טלגרם ציבורי',
-    license_mode: 'personal_only', independence_group: 'tg_carmel',
+    license_mode: 'link_only', independence_group: 'tg_carmel',
     note: 'ערוץ חדשות מהיר — לרוב מצטט אחרים.'
   },
   {
     id: 'src_tg_lelotsenzura', name: 'חדשות ביטחון ללא צנזורה (טלגרם)', kind: 'טלגרם ציבורי',
-    license_mode: 'personal_only', independence_group: 'tg_lelotsenzura',
+    license_mode: 'link_only', independence_group: 'tg_lelotsenzura',
     note: 'ערוץ דיווחים מהירים — לא מאומת; דיווח ממנו נשאר "ראשוני" עד שמקור עצמאי מאשר.'
   },
   /* ---------- מקורות נתונים אמיתיים (שלב 2) ---------- */
