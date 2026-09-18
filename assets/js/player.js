@@ -79,13 +79,21 @@
 
   /* מזעור = הנגן מתכווץ לגודל המינימלי ש-YouTube מחייב (200x200) ונשאר גלוי — והמוזיקה ממשיכה.
      (כללי YouTube: אסור להסתיר את הנגן לגמרי ולהשמיע רק קול.) */
+  var PHONE = window.matchMedia ? window.matchMedia('(max-width: 700px)') : { matches: window.innerWidth < 700 };
+
+  function isPhone() { return PHONE.matches; }
+
+  /* בטלפון מצב "מוקטן" = סרגל דק בלי סרטון, והמוזיקה עוצרת (כללי YouTube: לא מנגנים כשהנגן מוסתר).
+     במחשב מצב "מוקטן" = ריבוע 200x200 גלוי, והמוזיקה ממשיכה. */
   function setMinimized(on) {
     minimized = on;
     root.classList.toggle('minimized', on);
     $('pl-toggle').textContent = on ? '▴' : '▾';
     $('pl-toggle').title = on ? 'הגדל' : 'הקטן (המוזיקה ממשיכה)';
     $('pl-resume').textContent = '▶ ' + current.name;
+    root.classList.toggle('bar', on && isPhone());
     store(KEY_MIN, on ? '1' : '0');
+    if (on && isPhone() && ready) { try { player.pauseVideo(); } catch (e) {} }
   }
 
   /* מצב לבדיקה ולעיצוב: data-state / data-list / data-first / data-error על הווידג'ט */
@@ -155,6 +163,7 @@
           ready = true;
           mark('ready', 1);
           if (fatal) return;
+          if (minimized && isPhone()) { setNow('▶ לחיצה על הכפתור תפעיל את המוזיקה', 'hint'); return; }
           // הדפדפן מרשה השמעה אוטומטית רק בלי קול — מנגנים מושתק, והקול נדלק בלחיצה הראשונה בדף
           if (!interacted) { try { player.mute(); } catch (e) {} }
           player.playVideo();
@@ -242,7 +251,9 @@
   $('pl-mini-play').addEventListener('click', function () {      // הפעלה/עצירה במצב מוקטן
     if (!ready || fatal) return;
     var st = player.getPlayerState();
-    if (st === 1 || st === 3) player.pauseVideo(); else startPlayback();
+    if (st === 1 || st === 3) { player.pauseVideo(); return; }
+    if (isPhone()) setMinimized(false);        // בטלפון: פתיחה לגודל המותר לפני שמנגנים
+    startPlayback();
   });
 
   $('pl-play').addEventListener('click', function () {

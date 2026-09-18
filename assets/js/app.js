@@ -160,13 +160,19 @@
       return R.assess(e).level === 'verified' && e.last_update_at.slice(0, 10) === '2026-09-16';
     }).length;
     if (pubArenas.length) {
-      lines.push('<b>מלחמות</b>: ' + pubArenas.map(function (o) {
+      // שורה אחת: כל זירה + מספר אירועים (לחיצה עוברת לזירה). מתחת — תמונת מצב קצרה של הזירה שעודכנה אחרונה.
+      var newest = pubArenas.slice().sort(function (x, y) {
+        return x.p.analysis.generated_at < y.p.analysis.generated_at ? 1 : -1;
+      })[0];
+      var chips = pubArenas.map(function (o) {
         var an = o.p.analysis;
         var ver = an.events.filter(function (e) { return R.assess(e).level === 'verified'; }).length;
-        var sum = an.summary.length > 140 ? an.summary.slice(0, 140).replace(/\s+\S*$/, '') + '…' : an.summary;
-        return esc(o.a.name) + ' — ' + esc(sum) + ' <span class="locked">(' + F.ltr(String(an.events.length)) + ' אירועים, ' +
-               F.ltr(String(ver)) + ' מאומתים · ' + F.dateTimeText(an.generated_at) + ')</span>';
-      }).join('<br>'));
+        return '<button type="button" class="arena-chip" data-goto="' + esc(o.a.id) + '" title="' +
+               esc(F.dateTimeText(an.generated_at)) + (ver ? ' · ' + ver + ' מאומתים' : '') + '">' +
+               esc(o.a.name) + ' <span class="n">' + F.ltr(String(an.events.length)) + '</span></button>';
+      }).join('');
+      lines.push('<b>מלחמות</b> <span class="chips-row">' + chips + '</span>' +
+                 '<div class="daily-sum clamp2">' + esc(newest.a.name) + ' — ' + esc(newest.p.analysis.summary) + '</div>');
     } else if (evs.length) {
       lines.push('<b>מלחמות</b> <span class="tag-demo">דמה</span>: ' + verifiedToday + ' אירועים אומתו היום בזירת איראן. ' +
                  'הניתוח האמיתי יופיע כאן אחרי שתאשר את הניתוח היומי הראשון.');
@@ -273,6 +279,7 @@
     $('#daily-list').innerHTML = lines.length
       ? lines.map(function (t) { return '<li>' + t + '</li>'; }).join('')
       : '<li class="locked">טוען נתונים…</li>';
+    bindDailyChips();
   }
 
   document.addEventListener('live:update', renderDaily);
@@ -359,6 +366,16 @@
           x.classList.toggle('active', x === b);
         });
         renderEvents();
+      });
+    });
+  }
+
+  function bindDailyChips() {
+    Array.prototype.forEach.call(document.querySelectorAll('#daily-list .arena-chip'), function (b) {
+      b.addEventListener('click', function () {
+        activeArena = b.dataset.goto;
+        renderWars();
+        document.getElementById('wars-slot').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
   }
