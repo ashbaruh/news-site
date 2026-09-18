@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>חדר מצב — תצוגת עיצוב</title>
+<meta name="description" content="תצוגה מקדימה של עיצוב חדש לחדר מצב. האתר הרגיל לא השתנה.">
+<link rel="icon" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!--
+  תצוגת עיצוב בלבד (18/09/2026). האתר הרגיל (index.html) לא השתנה.
+  הרעיון המרכזי: "חדר מצב" — כדור הארץ הוא נקודת המבט. בגלילה הוא מסתובב אל כל זירה,
+  ולידו מה שידוע עליה עכשיו. אחרי המלחמות — כלכלה, ספורט ו-AI כעמודים של עיתון, בלי תלת-ממד.
+  הכל מהנתונים האמיתיים של האתר. בלי סמן מיוחד ובלי אנימציות לקישוט.
+-->
+<style>
+  :root {
+    --ink: #0a0c0f; --ink-2: #111519; --ink-3: #181d22;
+    --paper: #ecebe6; --dim: #a3abb4; --faint: #66707a;
+    --line: rgba(236, 235, 230, .12);
+    --signal: #f0a23b;                 /* צבע אחד שמסמן "עכשיו" — שעות, זירה פעילה */
+    --ok: #7ccf9a; --warn: #e3c261; --bad: #e07a61;
+    --serif: 'Frank Ruhl Libre', 'David', serif;
+    --sans: 'Heebo', 'Arial Hebrew', Arial, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
+    --ease: cubic-bezier(.2, .7, .2, 1);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--ink); color: var(--paper); font: 400 17px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration-color: rgba(240, 162, 59, .5); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--signal); }
+  .ltr { unicode-bidi: isolate; direction: ltr; }
+
+  /* ---------- כדור הארץ: קבוע בצד שמאל, התוכן זורם בצד ימין ---------- */
+  #globe { position: fixed; inset-block-start: 0; inset-inline-end: 0; width: 50vw; height: 100vh; z-index: 0;
+           transition: opacity .6s var(--ease); pointer-events: none; }
+  body.globe-off #globe { opacity: 0; }
+  .no-globe #globe { display: none; }
+
+  header.top { position: fixed; inset-inline: 0; inset-block-start: 0; z-index: 20; display: flex; align-items: center;
+               gap: 28px; padding: 18px clamp(20px, 4vw, 56px); background: linear-gradient(var(--ink), rgba(10, 12, 15, 0)); }
+  .brand { font: 900 22px/1 var(--serif); letter-spacing: -.01em; text-decoration: none; }
+  .brand span { color: var(--signal); }
+  header.top nav { display: flex; gap: 22px; font-size: 14px; color: var(--dim); }
+  header.top nav a { text-decoration: none; }
+  header.top nav a:hover { color: var(--paper); }
+  .back { margin-inline-start: auto; font-size: 13px; color: var(--dim); border: 1px solid var(--line); padding: 6px 12px; border-radius: 999px; text-decoration: none; }
+
+  main { position: relative; z-index: 1; }
+  .col { width: 50vw; padding-inline: clamp(20px, 4vw, 64px); }
+
+  /* ---------- פתיחה ---------- */
+  .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding-block: 120px 60px; }
+  .kicker { font: 500 13px/1 var(--mono); color: var(--signal); letter-spacing: .06em; }
+  .kicker .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--signal); margin-inline-end: 8px;
+                 box-shadow: 0 0 0 0 rgba(240, 162, 59, .6); animation: beat 2.4s infinite; vertical-align: 1px; }
+  @keyframes beat { 70% { box-shadow: 0 0 0 9px rgba(240, 162, 59, 0); } 100% { box-shadow: 0 0 0 0 rgba(240, 162, 59, 0); } }
+  h1 { font: 900 clamp(46px, 6.4vw, 104px)/.98 var(--serif); letter-spacing: -.02em; margin: 22px 0 26px; }
+  h1 em { font-style: normal; color: var(--signal); }
+  .lede { font-size: clamp(17px, 1.35vw, 20px); color: var(--dim); max-width: 34em; margin: 0 0 36px;
+          display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .arena-index { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .arena-index li { border-bottom: 1px solid var(--line); }
+  .arena-index button { all: unset; cursor: pointer; display: grid; grid-template-columns: 44px 1fr auto; gap: 14px; align-items: baseline;
+                        width: 100%; padding: 14px 0; transition: color .2s; }
+  .arena-index button:hover, .arena-index button:focus-visible { color: var(--signal); }
+  .arena-index button:focus-visible { outline: 2px solid var(--signal); outline-offset: 4px; }
+  .arena-index .n { font: 400 13px var(--mono); color: var(--faint); }
+  .arena-index .t { font: 700 20px var(--serif); }
+  .arena-index .c { font: 400 13px var(--mono); color: var(--dim); }
+  .meta { margin-top: 28px; font: 400 12.5px/1.8 var(--mono); color: var(--faint); }
+
+  /* ---------- פרק לכל זירה ---------- */
+  .chapter { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding-block: 110px; }
+  .chapter .n { font: 400 13px var(--mono); color: var(--signal); }
+  .chapter h2 { font: 700 clamp(34px, 3.8vw, 58px)/1.05 var(--serif); letter-spacing: -.015em; margin: 10px 0 18px; }
+  .chapter .sum { color: var(--dim); font-size: 17px; margin: 0 0 30px; max-width: 36em; }
+  .when { font: 400 12.5px var(--mono); color: var(--faint); margin-bottom: 10px; }
+  .when b { color: var(--signal); font-weight: 500; }
+  .items { list-style: none; margin: 0; padding: 0; counter-reset: it; }
+  .items li { padding: 18px 0; border-top: 1px solid var(--line); }
+  .items h3 { font: 700 20px/1.35 var(--serif); margin: 6px 0 6px; }
+  .items p { margin: 0; color: var(--dim); font-size: 15.5px; }
+  .src { font-size: 13px; color: var(--faint); margin-top: 6px; }
+  .src a { color: var(--dim); }
+  .lvl { font: 500 11.5px var(--mono); letter-spacing: .04em; display: inline-flex; align-items: center; gap: 7px; color: var(--dim); }
+  .lvl::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--faint); }
+  .lvl.verified::before { background: var(--ok); }
+  .lvl.initial::before { background: var(--warn); }
+  .lvl.shared_root::before { background: var(--bad); }
+  .more { display: inline-block; margin-top: 24px; font-size: 14px; }
+
+  /* ---------- עמודי עיתון: כלכלה, ספורט, AI — רקע מלא, בלי כדור ---------- */
+  .band { position: relative; z-index: 2; background: var(--ink); border-top: 1px solid var(--line);
+          padding: clamp(64px, 9vw, 120px) clamp(20px, 4vw, 64px); }
+  .band-head { display: flex; align-items: baseline; gap: 18px; margin-bottom: 40px; }
+  .band-head .n { font: 400 13px var(--mono); color: var(--signal); }
+  .band h2 { font: 700 clamp(30px, 3.2vw, 48px)/1 var(--serif); margin: 0; }
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px 40px; }
+  .figure { grid-column: span 4; border-top: 2px solid var(--paper); padding-top: 14px; }
+  .figure .big { font: 500 clamp(40px, 4.4vw, 68px)/1 var(--mono); letter-spacing: -.03em; }
+  .figure .cap { color: var(--dim); font-size: 14px; margin-top: 8px; }
+  .list { grid-column: span 8; list-style: none; margin: 0; padding: 0; }
+  .list li { display: grid; grid-template-columns: 70px 1fr; gap: 18px; padding: 14px 0; border-top: 1px solid var(--line); }
+  .list li:first-child { border-top: 2px solid var(--paper); }
+  .list .t { font: 500 13px var(--mono); color: var(--faint); padding-top: 3px; }
+  .list .h { font: 500 18px/1.45 var(--sans); }
+  .list .s { font-size: 13px; color: var(--dim); }
+  .empty { color: var(--faint); font-size: 15px; }
+
+  footer.end { position: relative; z-index: 2; background: var(--ink-2); padding: 56px clamp(20px, 4vw, 64px); color: var(--dim); font-size: 14px; }
+  footer.end b { color: var(--paper); font-family: var(--serif); font-size: 20px; }
+
+  /* ---------- כניסה עדינה של תוכן — רק פעם אחת, רק למי שלא ביקש פחות תנועה ---------- */
+  .rv { opacity: 0; transform: translateY(14px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+  .rv.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .rv { opacity: 1; transform: none; transition: none; }
+    .kicker .dot { animation: none; }
+  }
+
+  /* ---------- נייד: הכדור קטן מאחור, התוכן מעליו על רקע ---------- */
+  @media (max-width: 860px) {
+    #globe { width: 100vw; height: 52vh; opacity: .55; }
+    header.top nav { display: none; }
+    .col { width: 100%; }
+    .hero { padding-top: 38vh; min-height: auto; }
+    .chapter { min-height: auto; padding-block: 64px; background: linear-gradient(rgba(10, 12, 15, .82), rgba(10, 12, 15, .96)); }
+    .figure, .list { grid-column: 1 / -1; }
+    .list li { grid-template-columns: 56px 1fr; }
+  }
+</style>
+</head>
+<body>
+<canvas id="globe" aria-hidden="true"></canvas>
+
+<header class="top">
+  <a class="brand" href="#hero">חדר <span>מצב</span></a>
+  <nav aria-label="ניווט">
+    <a href="#arenas">זירות</a><a href="#econ">כלכלה</a><a href="#sport">ספורט</a><a href="#ai">AI</a>
+  </nav>
+  <a class="back" href="index.html">לאתר הרגיל ←</a>
+</header>
+
+<main>
+  <section class="hero col" id="hero">
+    <div class="kicker rv"><span class="dot"></span><span id="k-time"></span></div>
+    <h1 class="rv">מה קורה עכשיו.<br>ומה <em>באמת</em> אומת.</h1>
+    <p class="lede rv" id="lede"></p>
+    <ul class="arena-index rv" id="arena-index"></ul>
+    <div class="meta rv" id="meta"></div>
+  </section>
+
+  <div id="arenas"></div>
+
+  <section class="band" id="econ">
+    <div class="band-head rv"><span class="n">05</span><h2>כלכלה</h2></div>
+    <div class="grid" id="econ-grid"></div>
+  </section>
+
+  <section class="band" id="sport">
+    <div class="band-head rv"><span class="n">06</span><h2>היום בטלוויזיה</h2></div>
+    <div class="grid" id="sport-grid"></div>
+  </section>
+
+  <section class="band" id="ai">
+    <div class="band-head rv"><span class="n">07</span><h2>בינה מלאכותית</h2></div>
+    <div class="grid" id="ai-grid"></div>
+  </section>
+
+  <footer class="end">
+    <b>זו תצוגת עיצוב בלבד.</b><br>
+    הנתונים אמיתיים ומגיעים מאותם מקורות של האתר. הניתוחים נכתבים בעזרת בינה מלאכותית ועלולים לכלול טעויות;
+    רמת האימות מחושבת בקוד לפי מספר המקורות העצמאיים. <a href="index.html">לאתר הרגיל</a> · <a href="legal.html">תנאים והבהרות</a>
+  </footer>
+</main>
+
+<script src="data/config.js"></script>
+<script src="data/sources.js"></script>
+<script src="data/athletes.js"></script>
+<script src="data/generated/feeds.js"></script>
+<script src="data/war/published.js"></script>
+<script src="data/war/brief.js"></script>
+<script src="assets/js/reliability.js"></script>
+<script src="assets/js/freshness.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+        integrity="sha384-CI3ELBVUz9XQO+97x6nwMDPosPR5XvsxW2ua7N1Xeygeh1IxtgqtCkGfQY9WWdHu" crossorigin="anonymous"></script>
+<script>
+(function () {
+  'use strict';
+  var DB = window.DB || {}, C = DB.config || {}, R = window.Reliability, F = window.Freshness;
+  var pub = DB.war_published || {}, brief = DB.war_brief || {}, gen = DB.generated || {};
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function https(u) { return /^https:\/\//.test(u || ''); }
+  var hhmm = function (iso) { return F.ltr(F.hhmm(iso)); };
+
+  /* ---------- זירות: שם, מיקום על הכדור ---------- */
+  var GEO = { iran: [32.4, 53.7], ukraine: [48.4, 31.2], yemen: [15.5, 47.5], north: [33.9, 35.9] };
+  var arenas = (C.arenas || []).filter(function (a) { return GEO[a.id]; });
+
+  function briefFor(id) {
+    var a = brief.arenas && brief.arenas[id], p = pub[id];
+    if (!a || !a.events || !a.events.length || !brief.generated_at) return null;
+    if (Date.now() - new Date(brief.generated_at) > 14 * 3600000) return null;
+    if (p && new Date(p.analysis.generated_at) >= new Date(brief.generated_at)) return null;
+    return a.events.slice(0, 3);
+  }
+  function itemsFor(id) {
+    var b = briefFor(id);
+    if (b) return { items: b, when: 'עדכון ביניים · ' + hhmm(brief.slot || brief.generated_at), fresh: true };
+    var p = pub[id];
+    if (!p) return { items: [], when: '' };
+    var evs = p.analysis.events.slice().sort(function (x, y) { return x.last_update_at < y.last_update_at ? 1 : -1; });
+    return { items: evs.slice(0, 3), when: 'ניתוח יומי · ' + F.dateTimeText(p.analysis.generated_at), fresh: false };
+  }
+  function sourceLinks(ev) {
+    return (ev.reports || []).map(function (r) {
+      var s = R.sourceById(r.source_id);
+      if (!R.isDisplayable(s) || !https(r.url)) return '';
+      return '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s ? s.name : r.source_id) + '</a>';
+    }).filter(Boolean).join(' · ');
+  }
+
+  /* ---------- פתיחה ---------- */
+  var newest = null;
+  arenas.forEach(function (a) {
+    var p = pub[a.id];
+    if (p && (!newest || p.analysis.generated_at > newest.p.analysis.generated_at)) newest = { a: a, p: p };
+  });
+  var now = new Date();
+  $('k-time').innerHTML = 'חדר מצב · ' + F.ltr(F.dateText(now.toISOString())) + ' · ' + hhmm(now.toISOString());
+  var b0 = null;
+  arenas.some(function (a) { var b = briefFor(a.id); if (b) { b0 = { a: a, e: b[0] }; return true; } return false; });
+  $('lede').textContent = b0 ? (b0.a.name + ': ' + b0.e.title + '. ' + b0.e.summary)
+                             : (newest ? newest.a.name + ' — ' + newest.p.analysis.summary : '');
+  $('arena-index').innerHTML = arenas.map(function (a, i) {
+    var it = itemsFor(a.id);
+    return '<li><button type="button" data-go="' + esc(a.id) + '"><span class="n">' + F.ltr('0' + (i + 1)) + '</span>' +
+      '<span class="t">' + esc(a.name) + '</span><span class="c">' + F.ltr(String(it.items.length)) + ' ידיעות</span></button></li>';
+  }).join('');
+  var metaBits = [];
+  if (brief.generated_at) metaBits.push('עדכון ביניים אחרון: ' + hhmm(brief.slot || brief.generated_at));
+  if (newest) metaBits.push('ניתוח יומי: ' + F.dateTimeText(newest.p.analysis.generated_at));
+  metaBits.push('הניתוחים נכתבים בעזרת בינה מלאכותית · האימות מחושב בקוד');
+  $('meta').innerHTML = metaBits.join('<br>');
+
+  /* ---------- פרק לכל זירה ---------- */
+  $('arenas').innerHTML = arenas.map(function (a, i) {
+    var it = itemsFor(a.id), p = pub[a.id];
+    var items = it.items.map(function (ev) {
+      var as = R.assess(ev), links = sourceLinks(ev);
+      return '<li class="rv"><span class="lvl ' + esc(as.level) + '">' + esc(as.label) + '</span>' +
+        '<h3>' + esc(ev.title) + '</h3><p>' + esc(ev.summary) + '</p>' + (links ? '<div class="src">' + links + '</div>' : '') + '</li>';
+    }).join('');
+    return '<section class="chapter col" id="ar-' + esc(a.id) + '" data-arena="' + esc(a.id) + '">' +
+      '<div class="n rv">' + F.ltr('0' + (i + 1)) + ' / ' + F.ltr('0' + arenas.length) + '</div>' +
+      '<h2 class="rv">' + esc(a.name) + '</h2>' +
+      (p ? '<p class="sum rv">' + esc(p.analysis.summary) + '</p>' : '') +
+      (it.when ? '<div class="when rv">' + (it.fresh ? '<b>⚡ </b>' : '') + it.when + '</div>' : '') +
+      (items ? '<ul class="items">' + items + '</ul>' : '<p class="empty">אין עדיין ידיעות לזירה הזו.</p>') +
+      '<a class="more rv" href="index.html">לניתוח המלא, המפה והמקורות ←</a></section>';
+  }).join('');
+
+  document.querySelectorAll('[data-go]').forEach(function (b) {
+    b.addEventListener('click', function () { $('ar-' + b.dataset.go).scrollIntoView({ block: 'start' }); });
+  });
+
+  /* ---------- כלכלה ---------- */
+  var econ = [];
+  var boi = gen.boi && gen.boi.data;
+  if (boi) econ.push('<div class="figure rv"><div class="big ltr">' + boi.rate.toFixed(2) + '%</div>' +
+    '<div class="cap">ריבית בנק ישראל' + (boi.effective_from ? ' · בתוקף מ-' + F.ltr(boi.effective_from.split('-').reverse().join('/')) : '') +
+    (boi.previous_rate != null ? ' · קודם ' + F.ltr(boi.previous_rate.toFixed(2) + '%') : '') + '</div></div>');
+  var top = (gen.globes && gen.globes.data && gen.globes.data.top || []).filter(function (i) { return https(i.link); }).slice(0, 5);
+  if (top.length) econ.push('<ul class="list rv">' + top.map(function (i) {
+    return '<li><span class="t">' + hhmm(i.date) + '</span><div><a class="h" href="' + esc(i.link) +
+      '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + '</a><div class="s">גלובס</div></div></li>';
+  }).join('') + '</ul>');
+  $('econ-grid').innerHTML = econ.join('') || '<p class="empty">אין כרגע נתונים.</p>';
+
+  /* ---------- ספורט: משחקי ישראלים וליגת העל של היום, עם ערוץ ---------- */
+  var IL = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jerusalem', year: 'numeric', month: '2-digit', day: '2-digit' });
+  var today = IL.format(new Date());
+  var tv = (gen.tv && gen.tv.data) || [];
+  var players = ((DB.athletes || {}).players || []).filter(function (p) { return p.status === 'abroad' || p.status === 'manual'; });
+  function squash(s) { return String(s || '').replace(/[\s'"׳״`-]/g, ''); }
+  var games = [];
+  if (R.isDisplayable(R.sourceById('src_livegames'))) {
+    tv.forEach(function (r) {
+      if (r.date !== today || /נשים|נוער/.test(r.title || '')) return;
+      var t = squash(r.title);
+      var who = players.filter(function (p) {
+        if ((p.sport === 'nba') !== (r.sport === 'כדורסל')) return false;
+        var club = String(p.club || '').replace(/\s*\(.*\)\s*$/, '');
+        var keys = [club].concat(p.sport === 'nba' ? [club.split(' ')[0]] : []);
+        return keys.some(function (k) { return k.length >= 3 && t.indexOf(squash(k)) > -1; });
+      }).map(function (p) { return p.name; });
+      if (who.length) games.push({ time: r.time, title: r.title, sub: who.join(', ') + ' · ' + r.channel });
+    });
+    var lh = gen.ligat_haal && gen.ligat_haal.data;
+    ((lh && lh.upcoming) || []).forEach(function (u) {
+      if (u.date === today) games.push({ time: u.time, title: u.home + ' – ' + u.away, sub: 'ליגת העל · ' + (u.channels || []).join(' / ') });
+    });
+  }
+  games.sort(function (a, b) { return a.time < b.time ? -1 : 1; });
+  $('sport-grid').innerHTML = games.length
+    ? '<div class="figure rv"><div class="big ltr">' + games.length + '</div><div class="cap">משחקים היום עם ישראלים או מליגת העל</div></div>' +
+      '<ul class="list rv">' + games.map(function (g) {
+        return '<li><span class="t ltr">' + esc(g.time) + '</span><div><div class="h">' + esc(g.title) + '</div><div class="s">📺 ' + esc(g.sub) + '</div></div></li>';
+      }).join('') + '</ul>'
+    : '<p class="empty rv">אין היום משחקים של ישראלים או של ליגת העל.</p>';
+
+  /* ---------- AI ---------- */
+  var news = (gen.ai && gen.ai.data && gen.ai.data.news || []).filter(function (n) { return https(n.link); }).slice(0, 4);
+  $('ai-grid').innerHTML = news.length
+    ? '<ul class="list rv" style="grid-column:1/-1">' + news.map(function (n) {
+        return '<li><span class="t">' + F.ltr(F.dateText(n.date)) + '</span><div><a class="h" href="' + esc(n.link) +
+          '" target="_blank" rel="noopener noreferrer">' + esc(n.title_he || n.title_en || n.title) + '</a><div class="s">' +
+          esc(n.source) + (n.title_he ? ' · תורגם' : '') + '</div></div></li>';
+      }).join('') + '</ul>'
+    : '<p class="empty">אין חדשות AI מהימים האחרונים.</p>';
+
+  /* ---------- כניסה עדינה של תוכן ---------- */
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if ('IntersectionObserver' in window && !reduce) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.rv').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  /* ============================================================
+     כדור הארץ — Three.js. נקודות במקום מפה (קל, בלי תמונות), 4 זירות מסומנות.
+     בגלילה: הכדור מסתובב אל הזירה שבמסך. אין WebGL / מכשיר חלש → בלי כדור, התוכן זהה.
+     ============================================================ */
+  var canvas = $('globe');
+  var THREE = window.THREE;
+  var gl = null;
+  try { gl = THREE && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')); } catch (e) { gl = null; }
+  if (!THREE || !gl) { document.documentElement.classList.add('no-globe'); return; }
+
+  var renderer = new THREE.WebGLRenderer({ canvas: canvas, context: gl, antialias: true, alpha: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(36, 1, .1, 50);
+  camera.position.set(0, 0, 4.4);
+  var globe = new THREE.Group();
+  scene.add(globe);
+
+  function latLon(lat, lon, r) {
+    var phi = (90 - lat) * Math.PI / 180, th = (lon + 180) * Math.PI / 180;
+    return new THREE.Vector3(-r * Math.sin(phi) * Math.cos(th), r * Math.cos(phi), r * Math.sin(phi) * Math.sin(th));
+  }
+
+  // נקודות על פני הכדור (פיבונאצ'י — פיזור אחיד)
+  var N = window.innerWidth < 860 ? 1400 : 2600, pos = new Float32Array(N * 3);
+  for (var i = 0; i < N; i++) {
+    var y = 1 - (i / (N - 1)) * 2, rr = Math.sqrt(1 - y * y), th = Math.PI * (3 - Math.sqrt(5)) * i;
+    pos[i * 3] = Math.cos(th) * rr; pos[i * 3 + 1] = y; pos[i * 3 + 2] = Math.sin(th) * rr;
+  }
+  var dotsGeo = new THREE.BufferGeometry();
+  dotsGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  globe.add(new THREE.Points(dotsGeo, new THREE.PointsMaterial({ color: 0xecebe6, size: .012, transparent: true, opacity: .42 })));
+
+  // קווי רוחב ואורך עדינים
+  var lines = [];
+  for (var lat = -60; lat <= 60; lat += 30) for (var lo = 0; lo < 360; lo += 4) {
+    lines.push(latLon(lat, lo, 1.001), latLon(lat, lo + 4, 1.001));
+  }
+  for (var lo2 = 0; lo2 < 360; lo2 += 30) for (var la = -84; la < 84; la += 4) {
+    lines.push(latLon(la, lo2, 1.001), latLon(la + 4, lo2, 1.001));
+  }
+  globe.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(lines),
+    new THREE.LineBasicMaterial({ color: 0xecebe6, transparent: true, opacity: .07 })));
+
+  // הזירות: נקודה + טבעת שפועמת (רק בזירה הפעילה)
+  var markers = {};
+  arenas.forEach(function (a) {
+    var g = GEO[a.id], p = latLon(g[0], g[1], 1.004);
+    var dot = new THREE.Mesh(new THREE.SphereGeometry(.018, 12, 12), new THREE.MeshBasicMaterial({ color: 0xf0a23b }));
+    dot.position.copy(p);
+    var ring = new THREE.Mesh(new THREE.RingGeometry(.03, .036, 40),
+      new THREE.MeshBasicMaterial({ color: 0xf0a23b, transparent: true, opacity: 0, side: THREE.DoubleSide }));
+    ring.position.copy(p); ring.lookAt(p.clone().multiplyScalar(2));
+    globe.add(dot); globe.add(ring);
+    markers[a.id] = { dot: dot, ring: ring, v: p.clone().normalize() };
+  });
+
+  // יעד סיבוב: להביא את הזירה אל מול המצלמה, צפון למעלה
+  var target = { x: .35, y: -1.1, z: 4.4 }, cur = { x: .35, y: -1.1, z: 4.4 }, active = null, spin = true;
+  function aim(id) {
+    active = id;
+    if (!id) { spin = true; target.z = 4.4; target.x = .35; return; }
+    var v = markers[id].v;
+    target.y = Math.atan2(-v.x, v.z);
+    target.x = Math.atan2(v.y, Math.sqrt(v.x * v.x + v.z * v.z));
+    // הדרך הקצרה סביב הכדור
+    while (target.y - cur.y > Math.PI) target.y -= 2 * Math.PI;
+    while (cur.y - target.y > Math.PI) target.y += 2 * Math.PI;
+    target.z = 3.1; spin = false;
+  }
+
+  function resize() {
+    var w = canvas.clientWidth, h = canvas.clientHeight;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', resize); resize();
+
+  // מה במסך: פתיחה → הכדור מסתובב לאט; פרק → הכדור פונה לזירה; עמוד עיתון → הכדור נעלם
+  var sio = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      var el = e.target;
+      if (el.classList.contains('band')) document.body.classList.add('globe-off');
+      else { document.body.classList.remove('globe-off'); aim(el.dataset.arena || null); }
+    });
+  }, { rootMargin: '-45% 0px -45% 0px' });
+  document.querySelectorAll('.hero, .chapter, .band').forEach(function (el) { sio.observe(el); });
+
+  var t0 = performance.now(), running = true;
+  document.addEventListener('visibilitychange', function () { running = !document.hidden; if (running) loop(); });
+  function loop() {
+    if (!running) return;
+    var t = (performance.now() - t0) / 1000, k = reduce ? 1 : .06;
+    if (spin && !reduce) target.y += .0018;
+    cur.x += (target.x - cur.x) * k; cur.y += (target.y - cur.y) * k; cur.z += (target.z - cur.z) * k;
+    globe.rotation.set(cur.x, cur.y, 0, 'XYZ');
+    camera.position.z = cur.z;
+    Object.keys(markers).forEach(function (id) {
+      var m = markers[id], on = id === active;
+      m.dot.scale.setScalar(on ? 1.6 : 1);
+      var ph = reduce ? .5 : (t * .8) % 1;
+      m.ring.material.opacity = on ? (1 - ph) * .9 : 0;
+      m.ring.scale.setScalar(on ? 1 + ph * 2.2 : 1);
+    });
+    renderer.render(scene, camera);
+    if (!reduce || Math.abs(target.y - cur.y) > .001) requestAnimationFrame(loop);
+    else setTimeout(function () { requestAnimationFrame(loop); }, 250);
+  }
+  loop();
+})();
+</script>
+</body>
+</html>
