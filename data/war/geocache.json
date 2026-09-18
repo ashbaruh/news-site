@@ -46,6 +46,7 @@
 33.3519,
 35.5186
 ],
+"kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
 50.0323,
 36.2188
@@ -95,6 +96,10 @@
 45.0943,
 33.5752
 ],
+"odesa, ukraine": [
+46.4843,
+30.7323
+],
 "oman": null,
 "parchin, iran": [
 35.5121,
@@ -120,6 +125,7 @@
 47.261,
 39.7249
 ],
+"saudi arabia": null,
 "shaqra, lebanon": null,
 "slatyne, ukraine": [
 50.2091,
@@ -137,9 +143,9 @@
 26.4494,
 56.2028
 ],
-"sweida, syria": [
-32.7094,
-36.5687
+"taganrog, russia": [
+47.2155,
+38.9284
 ],
 "taif, saudi arabia": [
 21.2703,

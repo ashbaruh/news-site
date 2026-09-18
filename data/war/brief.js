@@ -2,23 +2,23 @@
 window.DB = window.DB || {};
 window.DB.war_brief = {
  "slot": "2026-09-18T12:00:00+03:00",
- "generated_at": "2026-09-18T13:57:50+00:00",
+ "generated_at": "2026-09-18T14:06:37+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09181357-01",
-     "title": "האצת שיקום במתקן פרצ'ין",
-     "summary": "תצלומי לוויין מעידים על כך שאיראן מאיצה את עבודות הבנייה והשיקום במתקן טלקאן 2 שבמתחם הצבאי פרצ'ין.",
+     "id": "IRAN-09181406-01",
+     "title": "שיקום מתקן הגרעין בפרצ'ין",
+     "summary": "תצלומי לוויין מראים כי איראן מאיצה את עבודות השיקום והבנייה במתקן הגרעיני טלקאן 2 שבמתחם פרצ'ין.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-13T00:00:00+00:00",
+     "occurred_at": "2026-09-18T06:22:29+00:00",
      "is_ongoing": true,
      "first_reported_at": "2026-09-18T06:22:29+00:00",
      "last_update_at": "2026-09-18T06:22:29+00:00",
-     "what_is_not_verified": "לא מאומת היקף הנזק המדויק שנותר מתחת לכיסוי שהותקן באתר.",
+     "what_is_not_verified": "היקף הנזק המלא והחומרים המדויקים המאוחסנים במתקן אינם מאומתים מעבר לדווח.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -37,47 +37,24 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "IRAN-09181357-02",
-     "title": "הפסקת טיסות מאהאן אייר לטורקיה",
-     "summary": "הרשויות בטורקיה הודיעו על השעיית טיסות חברת התעופה האיראנית מאהאן אייר בשל חשש מסנקציות אמריקאיות.",
+     "id": "IRAN-09181406-02",
+     "title": "הפסקת טיסות חברת מהאן אייר לטורקיה",
+     "summary": "רשויות טורקיה הודיעו על עצירת טיסות חברת התעופה האיראנית מהאן אייר עקב חשש מסנקציות אמריקאיות.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "occurred_at": "2026-09-18T11:03:23+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-18T11:03:23+00:00",
      "last_update_at": "2026-09-18T11:03:23+00:00",
-     "what_is_not_verified": "לא מאומת האם יוטלו איסורים דומים על חברות תעופה איראניות נוספות שעדיין נבחנות.",
+     "what_is_not_verified": "ההשפעה המלאה של ההחלטה על חברות תעופה איראניות אחרות אינה מאומתת לחלוטין.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_a73a8751d2638863",
+       "source_root_id": "or_unknown_origin",
        "url": "https://www.middleeasteye.net/news/turkey-halts-iran-mahan-air-flights-over-us-sanctions-risk",
        "published_at": "2026-09-18T11:03:23+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09181357-03",
-     "title": "מותו של מפגין איראני לאחר פציעה קשה",
-     "summary": "צעדן איראני בן 21 שנפצע מירי כוחות הביטחון במהלך עימותים קודמים מת בבית חולים לאחר שעבר סדרה ארוכה של ניתוחים.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-18T10:33:58+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-18T10:33:58+00:00",
-     "last_update_at": "2026-09-18T10:33:58+00:00",
-     "what_is_not_verified": "הפרטים מבוססים על מידע שהתקבל לגבי נסיבות הטיפול והפטירה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609183508",
-       "published_at": "2026-09-18T10:33:58+00:00"
       }
      ],
      "places": []
@@ -87,17 +64,17 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-09181357-01",
-     "title": "עימות וכוח צבאי בדיר מימאס",
-     "summary": "דווח על מתיחות וחיכוך בדרום לבנון סביב עמדה שהקים צבא לבנון באזור הכפר דיר מימאס, שאליה התקדם כוח צה\"ל.",
+     "id": "NORTH-09181406-01",
+     "title": "חיכוך בין כוח צה\"ל לצבא לבנון בדיר מימאס",
+     "summary": "דווח על מתיחות וחיכוך באזור הכפר דיר מימאס בדרום לבנון לאחר שכוחות צה\"ל התקדמו לעבר מוצב שהוקם לאחרונה על ידי צבא לבנון.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T00:00:00+00:00",
-     "is_ongoing": false,
+     "occurred_at": "2026-09-18T09:41:20+00:00",
+     "is_ongoing": true,
      "first_reported_at": "2026-09-18T09:41:20+00:00",
      "last_update_at": "2026-09-18T13:16:36+00:00",
-     "what_is_not_verified": "קיים שוני בתיאורים בין הדיווחים הלבנוניים לבין מהלך האירועים המדויק בשטח.",
+     "what_is_not_verified": "פרטי הנסיגה המלאים של הצדדים מהאזור אינם מאומתים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -122,24 +99,24 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "NORTH-09181357-02",
-     "title": "פעילות צבאית סורית-ישראלית בדרום סוריה",
-     "summary": "כלי תקשורת בסוריה דיווחו על התקדמות של כלי רכב צבאיים לעבר אזור ואדי א-רוקאד במרחב דרעא.",
+     "id": "NORTH-09181406-02",
+     "title": "כניסת כלי רכב צבאיים ישראליים לאזור וואדי אל-ראקאד",
+     "summary": "כלי תקשורת סוריים דיווחו כי מספר כלי רכב צבאיים ישראליים התקדמו לתוך אזור וואדי אל-ראקאד שבמרחב הכפרי המערבי של דרעא.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "occurred_at": "2026-09-18T11:26:22+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-18T11:59:13+00:00",
-     "last_update_at": "2026-09-18T11:59:13+00:00",
-     "what_is_not_verified": "המידע מבוסס על דיווחים מקומיים בלבד.",
+     "first_reported_at": "2026-09-18T11:26:22+00:00",
+     "last_update_at": "2026-09-18T11:26:22+00:00",
+     "what_is_not_verified": "מטרות המבצע המדויקות וההתפתחויות הנוספות בשטח אינן מאומתות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128512/",
-       "published_at": "2026-09-18T11:59:13+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-incursion-into-southern-syria-with-9-military-vehicles/4061098",
+       "published_at": "2026-09-18T11:26:22+00:00"
       }
      ],
      "places": [
@@ -151,31 +128,31 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "NORTH-09181357-03",
-     "title": "מחסור באספקה בסווידא",
-     "summary": "תושבי העיר סווידא שבסוריה מדווחים על מצוקה ומחסור חמור בקמח ובדלק בעקבות ניתוק דרכי גישה.",
+     "id": "NORTH-09181406-03",
+     "title": "הופעה של הזמרת אסאלה נאסרי בדמשק",
+     "summary": "הזמרת אסאלה נאסרי קיימה הופעה בפני קהל רב בדמשק לאחר שנות גלות ממושכות.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T13:30:29+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-18T13:30:29+00:00",
-     "last_update_at": "2026-09-18T13:30:29+00:00",
-     "what_is_not_verified": "טענות התושבים באשר להיקף האחריות הישירה של השלטון במרכז.",
+     "occurred_at": "2026-09-18T12:30:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T12:30:30+00:00",
+     "last_update_at": "2026-09-18T12:30:30+00:00",
+     "what_is_not_verified": "מספר המשתתפים המדויק אינו מאומת ממקור עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
-       "source_root_id": "fh_496cd30e5b32de48",
-       "url": "https://www.al-monitor.com/originals/2026/09/isolated-syrian-druze-city-blames-damascus-shortages",
-       "published_at": "2026-09-18T13:30:29+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/anti-assad-music-star-makes-triumphant-return-syria",
+       "published_at": "2026-09-18T12:30:30+00:00"
       }
      ],
      "places": [
       {
-       "name": "סווידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
       }
      ]
     }
@@ -184,76 +161,82 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09181357-01",
-     "title": "פגיעה במערכת הגנה רוסית מוסבת",
-     "summary": "כוחות אוקראיניים פגעו במערכת טילים מסוג אס-400 שרוסיה הסבה לירי קרקע-קרקע.",
+     "id": "UKRAINE-09181406-01",
+     "title": "תקיפת מבנה משרדים באודסה",
+     "summary": "כטב\"ם רוסי פגע במבנה משרדים באזור מרכזי והומה אדם בעיר אודסה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T13:17:45+00:00",
+     "occurred_at": "2026-09-18T13:34:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-18T13:17:45+00:00",
-     "last_update_at": "2026-09-18T13:17:45+00:00",
-     "what_is_not_verified": "מיקום מדויק של הפגיעה ותוצאותיה המלאות אינם מפורטים מעבר לעצם הפגיעה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47807",
-       "published_at": "2026-09-18T13:17:45+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09181357-02",
-     "title": "תקיפת רל\"ש בחארקוב",
-     "summary": "אדם בן 67 נפצע באורח בינוני כתוצאה מפגיעת רחפן מתאבד ברכב שנסע באזור סלאטינה.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-18T13:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-18T13:01:00+00:00",
-     "last_update_at": "2026-09-18T13:01:00+00:00",
-     "what_is_not_verified": "מצבו הרפואי המדויק של הפצוע מעבר לדיווח על אשפוזו.",
+     "first_reported_at": "2026-09-18T13:34:00+00:00",
+     "last_update_at": "2026-09-18T13:34:00+00:00",
+     "what_is_not_verified": "מלוא היקף הנפגעים והנזק אינם מפורטים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_93ffa22a5a94ac49",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054093/",
-       "published_at": "2026-09-18T13:01:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054100/",
+       "published_at": "2026-09-18T13:34:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "סלאטינה, אוקראינה",
-       "lat": 50.2091,
-       "lon": 36.1572
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
       }
      ]
     },
     {
-     "id": "UKRAINE-09181357-03",
-     "title": "הערכת אבדות רוסיות",
-     "summary": "גורמי מודיעין באסטוניה ציינו כי האבדות השבועיות של הצבא הרוסי בלחימה עומדות על למעלה מעשרת אלפים נפגעים שונים שבוע שלישי ברציפות.",
+     "id": "UKRAINE-09181406-02",
+     "title": "פגיעה במפעל לייצור רחפנים ברוסיה",
+     "summary": "טילים אוקראיניים השמידו שלושה מבני ייצור במפעל אטלנט ארו בטאגאנרוג שברוסיה, המתמחה בייצור כטב\"ם ורכיבים.",
      "axis": "ukraine",
-     "claim_type": "assessment",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T12:17:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-18T12:17:00+00:00",
-     "last_update_at": "2026-09-18T12:17:00+00:00",
-     "what_is_not_verified": "מספרים מדויקים של הרוגים לעומת פצועים אינם ניתנים לאימות עצמאי מוחלט.",
+     "occurred_at": "2026-09-18T12:41:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T12:41:00+00:00",
+     "last_update_at": "2026-09-18T12:41:00+00:00",
+     "what_is_not_verified": "הערכת הנזק המדויקת מתבססת על נתוני מקורות פתוחים בלבד.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_11f68cccf6300040",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054087/",
-       "published_at": "2026-09-18T12:17:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054090/",
+       "published_at": "2026-09-18T12:41:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טאגאנרוג, רוסיה",
+       "lat": 47.2155,
+       "lon": 38.9284
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09181406-03",
+     "title": "תקיפת רכב אזרחי במחוז חרקוב",
+     "summary": "אדם בן 67 נפצע באורח בינוני כתוצאה מפגיעת רחפן מתאבד ברכב אזרחי בדרך בין סלאטינה לדרהאצ'י.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T13:01:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T13:01:00+00:00",
+     "last_update_at": "2026-09-18T13:01:00+00:00",
+     "what_is_not_verified": "מצבו הרפואי המדויק מעבר לדיווח על פציעה בינונית אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/18/8054093/",
+       "published_at": "2026-09-18T13:01:00+00:00"
       }
      ],
      "places": []
@@ -263,38 +246,55 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09181357-01",
-     "title": "תנועת עקורים עקב הלחימה בחוף המערבי",
-     "summary": "ארגוני ההגירה והאו\"ם דיווחו על עקירתם של למעלה ממאה אלף בני אדם בתוך תימן בשבועיים האחרונים עקב התחדשות העימותים בחלקו המערבי של המחוז.",
+     "id": "YEMEN-09181406-01",
+     "title": "עקירת עשרות אלפים בתימן עקב הלחימה",
+     "summary": "ארגון ההגירה הבין-לאומי דיווח כי לפחות 112,000 בני אדם עקורים בעקבות התחדשות העימותים בחופים המערביים של תימן.",
      "axis": "yemen",
      "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "occurred_at": "2026-09-18T12:24:10+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-18T12:00:00+00:00",
+     "first_reported_at": "2026-09-18T12:24:10+00:00",
      "last_update_at": "2026-09-18T12:24:10+00:00",
-     "what_is_not_verified": "נתוני האוכלוסייה המדויקים עדיין מתעדכנים בשל תנועת עקורים מתמשכת.",
+     "what_is_not_verified": "הנתונים המלאים על מצבם ההומניטרי של כלל העקורים עדיין מתעדכנים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_0b594f760d3ee40d",
+       "source_root_id": "or_unknown_origin",
        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-conflict-displaces-112000-people-two-weeks-un-says",
        "published_at": "2026-09-18T12:24:10+00:00"
-      },
-      {
-       "source_id": "src_un_news",
-       "source_root_id": "fh_29dded758729d162",
-       "url": "https://news.un.org/feed/view/en/story/2026/09/1168364",
-       "published_at": "2026-09-18T12:00:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-09181357-02",
-     "title": "השעיית אספקת נפט גולמי מאירופה",
-     "summary": "חברת הנפט הסעודית ארמקו הודיעה לחלק מן הלקוחות באירופה על הפסקת אספקת הנפט לחודש אוקטובר בעקבות השבתת צינור המפט המזרחי-מערבי.",
+     "id": "YEMEN-09181406-02",
+     "title": "התחייבות פקיסטנית להגנת סעודיה",
+     "summary": "דובר צבא פקיסטן הצהיר כי כוחות פקיסטניים נמצאים פיזית בסעודיה ומוכנים לפעול להבטחת ביטחונה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-18T08:15:42+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-18T08:15:42+00:00",
+     "last_update_at": "2026-09-18T08:15:42+00:00",
+     "what_is_not_verified": "היקף הפעילות המעשית בפועל אינו מאומת מלבד הצהרות הדובר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130433",
+       "published_at": "2026-09-18T08:15:42+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09181406-03",
+     "title": "עצירת אספקת נפט גולמי מבעיות בצינור סעודי",
+     "summary": "חברת ארמקו הסעודית הודיעה לחלק מהמפעלים באירופה על עצירת אספקת הנפט בעקבות השבתת צינור הנפט המזרחי-מערבי.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
@@ -302,7 +302,7 @@ window.DB.war_brief = {
      "is_ongoing": true,
      "first_reported_at": "2026-09-18T13:41:14+00:00",
      "last_update_at": "2026-09-18T13:41:14+00:00",
-     "what_is_not_verified": "היקף הנזק המלא לכלל תחנות השאיבה לאורך הצינור.",
+     "what_is_not_verified": "משך זמן התיקון והשבתת הצינור המדויקים אינם ידועים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -313,41 +313,6 @@ window.DB.war_brief = {
       }
      ],
      "places": []
-    },
-    {
-     "id": "YEMEN-09181357-03",
-     "title": "השתלטות וביזה במתקנים בחוף המערבי",
-     "summary": "רשויות מקומיות בתימן והמשרד לעניינים חברתיים האשימו את כוחות המיליציה החות'ית בביזה ופריצה למחסני ארגוני סיוע ומתקנים רפואיים באזור אל-חוחה.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-18T12:49:27+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-18T12:49:27+00:00",
-     "last_update_at": "2026-09-18T13:40:07+00:00",
-     "what_is_not_verified": "אומדן הציוד והתרופות המדויק שנבזז מן המחסנים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_42856c8fb0655ec8",
-       "url": "https://www.sabanew.net/viewstory/152583",
-       "published_at": "2026-09-18T13:40:07+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_6399a483d339cd78",
-       "url": "https://www.sabanew.net/viewstory/152578",
-       "published_at": "2026-09-18T12:49:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אל-חוחה, תימן",
-       "lat": 13.8062,
-       "lon": 43.2494
-      }
-     ]
     }
    ]
   }
