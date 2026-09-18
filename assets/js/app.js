@@ -743,53 +743,37 @@
     });
   }
 
-  /* ---- TradingView (גרסה ציבורית בלבד) ---- */
+  /* ---- TradingView ----
+     כל סימול שיש לו מקבילה ב-TradingView מוצג כריבוע חי של TradingView (מתעדכן בתוך הווידג'ט).
+     סימול שאין לו (שקל/לאו) — ריבוע שלנו מ-ECB, באותה רשת. */
   function tvEnabled() {
     return !!C.tradingview && R.isDisplayable(R.sourceById('src_tradingview'));
   }
   function tvSymbol(symbol) {
-    return tvEnabled() && !allowedKeys(symbol).length ? (C.tradingview.symbols[symbol] || null) : null;
+    return tvEnabled() ? (C.tradingview.symbols[symbol] || null) : null;
+  }
+
+  /* ווידג'ט של TradingView בתוך תיבה. נבנה פעם אחת: iframe שנבנה מחדש נטען מאפס */
+  function tvMount(box, file, cfg) {
+    box.innerHTML = '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div></div>';
+    var sc = document.createElement('script');
+    sc.src = 'https://s3.tradingview.com/external-embedding/' + file;
+    sc.async = true;
+    sc.textContent = JSON.stringify(cfg);        // כך TradingView קורא את ההגדרות
+    box.firstChild.appendChild(sc);
   }
 
   var tvRendered = false;
-  /* הווידג'טים נטענים פעם אחת בכרטיס נפרד — כרטיס השווקים מתרענן כל דקה, ו-iframe שנבנה מחדש נטען מאפס */
   function renderMarketsTV() {
     var slot = $('#markets-tv-slot');
     if (!slot || tvRendered) return;
     if (!tvEnabled()) { slot.innerHTML = ''; return; }
     tvRendered = true;
-    var syms = window.DB.markets.watchlist.map(function (w) {
-      return { name: tvSymbol(w.symbol), displayName: w.symbol };
-    }).filter(function (x) { return x.name; });
-
-    slot.innerHTML = corner('2ב', 'מחירים ומפת חום של S&P 500 — TradingView', 'markets',
-      '<div class="tv-grid">' +
-        (syms.length ? '<div class="tv-box" id="tv-quotes"></div>' : '') +
-        '<div class="tv-box" id="tv-hot"></div>' +
-      '</div>' +
-      '<p class="locked">מחירי מניות, מדדים ונפט — ווידג\'טים רשמיים של TradingView (בהשהיה לפי הבורסה).</p>', true,
+    slot.innerHTML = corner('2ב', 'מפת חום של S&P 500 — TradingView', 'markets',
+      '<div class="tv-box" id="tv-hot"></div>' +
+      '<p class="locked"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">נתונים: TradingView</a></p>', true,
       { level: 'loading', label: 'חי — מתעדכן בתוך TradingView', age_text: 'הרענון נעשה בתוך הווידג\'ט עצמו' });
-
-    function mount(id, file, cfg) {
-      var box = document.getElementById(id);
-      if (!box) return;
-      box.innerHTML = '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>' +
-        '<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">' +
-        'נתונים: TradingView</a></div></div>';
-      var sc = document.createElement('script');
-      sc.src = 'https://s3.tradingview.com/external-embedding/' + file;
-      sc.async = true;
-      sc.textContent = JSON.stringify(cfg);        // כך TradingView קורא את ההגדרות
-      box.firstChild.appendChild(sc);
-    }
-    var common = { colorTheme: 'dark', isTransparent: true, locale: 'he_IL', width: '100%' };
-    if (syms.length) {
-      mount('tv-quotes', 'embed-widget-market-quotes.js', Object.assign({
-        height: 420, showSymbolLogo: true,
-        symbolsGroups: [{ name: 'רשימת המעקב', symbols: syms }]
-      }, common));
-    }
-    mount('tv-hot', 'embed-widget-stock-heatmap.js', {
+    tvMount(document.getElementById('tv-hot'), 'embed-widget-stock-heatmap.js', {
       dataSource: C.tradingview.heatmap_source || 'SPX500', exchanges: [], grouping: 'sector',
       blockSize: 'market_cap_basic', blockColor: 'change', hasTopBar: false, isDataSetEnabled: false,
       isZoomEnabled: true, hasSymbolTooltip: true, isMonoSize: false,
@@ -830,11 +814,12 @@
     var m = window.DB.markets;
     var live = window.DB.live || {};
 
-    var quotes = '<div class="quotes">' + m.watchlist.map(function (q) {
+    /* הריבועים שלנו — רק לסימולים שאין להם ריבוע TradingView (היום: שקל/לאו) */
+    var quotes = m.watchlist.map(function (q) {
       var keys = allowedKeys(q.symbol);
 
-      /* סימול בלי מקור חי מותר: מוצג בווידג'ט TradingView שמתחת, או לא מוצג בכלל — לעולם לא מספר דמה */
-      if (!keys.length) return '';
+      /* יש ריבוע TradingView, או אין מקור חי מותר — לא מציירים כאן. לעולם לא מספר דמה */
+      if (tvSymbol(q.symbol) || !keys.length) return '';
 
       /* --- סימול עם מקור חי --- */
       var r = resolveQuote(q.symbol);
@@ -865,7 +850,7 @@
                (r.fallback ? ' <span class="tag-demo">ECB</span>' : '') + '</b>' +
              '<span class="p">' + F.ltr(esc(fmtPrice(q.symbol, lq.price))) + '</span> ' +
              fmtChange(lq.change) + '</div>';
-    }).join('') + '</div>';
+    }).join('');
 
     /* --- שורת סטטוס לכל מקור חי: מאיפה, מתי, כמה טרי, קרדיט --- */
     var liveStates = [];
@@ -1003,13 +988,40 @@
         '<p class="locked filter-note">כותרות וקישורים: גלובס</p>'
       : '';
 
-    var html =
-      '<h3 class="sub">Watchlist</h3>' + quotes + statusBlock +
+    var rest = statusBlock +
       section('חדשות שמזיזות שוק', marketNewsHtml) +
       section('ריבית', rateItems.length ? '<ul class="rows src-status">' + rateItems.join('') + '</ul>' : '') +
       section('כלכלה — כתבות ראשיות מגלובס', globesTopHtml);
 
-    $('#markets-slot').innerHTML = corner(2, 'כלכלה + שווקים פיננסיים', 'markets', html, true, headerState);
+    /* השלד (כולל ריבועי TradingView) נבנה פעם אחת. בכל עדכון חי מתחלפים רק הריבועים שלנו, השאר והתג —
+       אחרת כל רענון (כל דקה) היה טוען מחדש את כל הריבועים של TradingView. */
+    var grid = document.getElementById('wl-grid');
+    if (!grid) {
+      $('#markets-slot').innerHTML = corner(2, 'כלכלה + שווקים פיננסיים', 'markets',
+        '<h3 class="sub">Watchlist</h3><div class="quotes" id="wl-grid"></div><div id="mk-rest"></div>', true, headerState);
+      grid = document.getElementById('wl-grid');
+      m.watchlist.forEach(function (q) {
+        var tv = tvSymbol(q.symbol);
+        if (!tv) return;
+        var box = document.createElement('div');
+        box.className = 'quote tv-tile';
+        box.title = q.symbol + ' — TradingView (בהשהיה לפי הבורסה)';
+        grid.appendChild(box);
+        tvMount(box, 'embed-widget-single-quote.js',
+          { symbol: tv, width: '100%', isTransparent: true, colorTheme: 'dark', locale: 'he_IL' });
+      });
+      var own = document.createElement('div');
+      own.id = 'wl-own';
+      own.style.display = 'contents';                 // הריבועים שלנו הם חלק מאותה רשת
+      grid.appendChild(own);
+    } else {
+      var hdr = document.querySelector('#markets-slot .corner > header');
+      var old = hdr && hdr.querySelector('.fresh-tag');
+      if (old) old.remove();
+      if (hdr) hdr.insertAdjacentHTML('beforeend', freshTag('markets', headerState));
+    }
+    document.getElementById('wl-own').innerHTML = quotes;
+    document.getElementById('mk-rest').innerHTML = rest;
   }
 
   // כשמגיע נתון חי — מציירים מחדש רק את פינת השווקים
