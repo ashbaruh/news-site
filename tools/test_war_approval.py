@@ -163,6 +163,33 @@ class Approval(unittest.TestCase):
         patched = [c[1] for c in self.calls if c[0] == "PATCH"]
         self.assertEqual(patched, ["/issues/3"])        # רק הישנה של הבוט, לא החדשה ולא של אדם אחר
 
+    def test_new_request_carries_unapproved_drafts_from_old_one(self):
+        iran = [d for d in self.drafts if "/iran/" in d]
+        yemen = [d for d in self.drafts if "/yemen/" in d]
+        # בקשה ישנה פתוחה עם טיוטת איראן שלא אושרה; הריצה החדשה הביאה רק את תימן
+        self.open_issues = [{"number": 3, "user": {"login": wa.BOT}, "body": f"<!-- war-drafts: {json.dumps(iran)} -->"}]
+        nd = os.path.join(self.tmp, "only-yemen.json")
+        with open(nd, "w", encoding="utf-8") as f:
+            json.dump({"drafts": yemen, "failed": ["iran: לא הספיק"]}, f)
+        self.calls.clear()
+        wa.open_issue(nd)
+        body = next(c[2]["body"] for c in self.calls if c[0] == "POST" and c[1] == "/issues")
+        listed = json.loads(wa.MARK.search(body).group(1))
+        self.assertEqual(sorted(listed), sorted(iran + yemen))          # איראן לא נעלמה מהאישור
+        self.assertNotIn("לא נותחו היום", body)                         # איראן כן זמינה — לא "נכשלה"
+        self.assertIn(("PATCH", "/issues/3"), [(c[0], c[1]) for c in self.calls])
+
+    def test_new_request_skips_already_approved(self):
+        wa.approve(self.event("מאשר איראן"))
+        self.calls.clear()
+        self.open_issues = [{"number": 3, "user": {"login": wa.BOT}, "body": self.body}]
+        nd = os.path.join(self.tmp, "again.json")
+        with open(nd, "w", encoding="utf-8") as f:
+            json.dump({"drafts": self.drafts, "failed": []}, f)
+        wa.open_issue(nd)
+        body = next(c[2]["body"] for c in self.calls if c[0] == "POST" and c[1] == "/issues")
+        self.assertEqual([d.split("/")[1] for d in json.loads(wa.MARK.search(body).group(1))], ["yemen"])
+
     def test_same_drafts_cannot_be_approved_twice(self):
         wa.approve(self.event("מאשר"))
         os.remove(os.path.join(self.tmp, "approval-result.json"))

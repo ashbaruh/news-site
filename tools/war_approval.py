@@ -125,6 +125,38 @@ def open_issue(new_drafts_file):
     if not drafts:
         print("אין טיוטות חדשות — לא נפתחת בקשה")
         return
+    # הבקשה החדשה סוגרת את הישנות — לכן היא לוקחת איתה טיוטות שעוד מחכות לאישור בבקשות הישנות
+    # (18/09/2026: איראן נותחה בריצה אחת ושאר הזירות בריצה הבאה — בלי זה איראן הייתה נעלמת מהאישור).
+    # לכל זירה נשארת הטיוטה החדשה ביותר, ורק כזו שעוד לא אושרה.
+    try:
+        old_issues = [o for o in (gh("GET", "/issues?state=open&per_page=50") or [])
+                      if isinstance(o, dict) and (o.get("user") or {}).get("login") == BOT]
+    except Exception as e:
+        print("קריאת בקשות פתוחות נכשלה:", e)
+        old_issues = []
+    try:
+        with open(iw.APPROVED, encoding="utf-8") as f:
+            approved = set(json.load(f).get("approved", []))
+    except (FileNotFoundError, json.JSONDecodeError):
+        approved = set()
+    pool = list(drafts)
+    for o in old_issues:
+        m = MARK.search(o.get("body") or "")
+        for d in (json.loads(m.group(1)) if m else []):
+            if isinstance(d, str) and DRAFT_RE.fullmatch(d) and os.path.isfile(os.path.join(iw.WAR, d)):
+                pool.append(d)
+    newest = {}
+    for d in pool:
+        if d in approved:
+            continue
+        a = d.split("/")[1]
+        if a not in newest or _generated_at(d) > _generated_at(newest[a]):
+            newest[a] = d
+    drafts = [newest[a] for a in ("iran", "ukraine", "yemen", "north") if a in newest]
+    failed = [f for f in failed if f.split(":")[0].split(" ")[0] not in newest]
+    if not drafts:
+        print("כל הטיוטות כבר אושרו — לא נפתחת בקשה")
+        return
     _, groups = iw.load_sources()
     names = source_names()
     date = re.search(r"/(\d{4})-(\d\d)-(\d\d)", "/" + os.path.basename(drafts[0]))
@@ -143,13 +175,13 @@ def open_issue(new_drafts_file):
     body = "\n".join(parts)[:64000]
     issue = gh("POST", "/issues", {"title": f"🛰️ ניתוח מלחמות יומי {day} — ממתין לאישור", "body": body})
     print("נפתחה בקשת אישור:", issue.get("html_url"))
-    # בקשות אישור ישנות שעוד פתוחות — נסגרות, כדי שלא תאשר בטעות ניתוח ישן
+    # בקשות אישור ישנות שעוד פתוחות — נסגרות (הטיוטות שלהן שעוד לא אושרו עברו לבקשה החדשה)
     try:
-        for old in gh("GET", "/issues?state=open&per_page=50") or []:
-            if isinstance(old, dict) and (old.get("user") or {}).get("login") == BOT and old.get("number") != issue.get("number") \
-                    and MARK.search(old.get("body") or ""):
+        for old in old_issues:
+            if old.get("number") != issue.get("number") and MARK.search(old.get("body") or ""):
                 gh("POST", f"/issues/{old['number']}/comments",
-                   {"body": f"הוחלף בבקשה חדשה (#{issue.get('number')}). הבקשה הזו נסגרת — לא פורסם ממנה כלום."})
+                   {"body": f"הוחלף בבקשה חדשה (#{issue.get('number')}), שכוללת גם את הטיוטות מכאן שעוד לא אושרו. "
+                            "הבקשה הזו נסגרת."})
                 gh("PATCH", f"/issues/{old['number']}", {"state": "closed", "state_reason": "not_planned"})
     except Exception as e:
         print("סגירת בקשות ישנות נכשלה:", e)
