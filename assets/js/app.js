@@ -1151,6 +1151,47 @@
       '<p class="locked">כותרות וקישורים: וואלה, ONE · נבדק ' + F.dateTimeText(g.entry.checked_at) + '</p>';
   }
 
+  /* ---------- 📺 היום בטלוויזיה: משחקי ישראלים בחו"ל (כדורגל + NBA) וליגת העל — שעה וערוץ ----------
+     מקור: לוח השידורים של LiveGames (נאסף כל שעה). משחק של ישראלי מזוהה לפי שם הקבוצה שלו ב-athletes.js.
+     אין היום משחק רלוונטי — הקטע לא מוצג. */
+  function todayTvHtml() {
+    if (!R.isDisplayable(R.sourceById('src_livegames'))) return '';
+    var rows = (generated('tv').entry || {}).data || [];
+    var today = localDate();
+    var players = ((window.DB.athletes || {}).players || []).filter(function (p) {
+      return p.status === 'abroad' || p.status === 'manual';
+    });
+    function squash(s) { return String(s || '').replace(/[\s'"׳״`-]/g, ''); }
+    function clubKeys(p) {
+      var c = String(p.club || '').replace(/\s*\(.*\)\s*$/, '').trim();
+      var keys = [c];
+      if (p.sport === 'nba') keys.push(c.split(' ')[0]);   // "פורטלנד טרייל בלייזרס" → בלוח: "פורטלנד"
+      return keys.filter(function (k) { return k.length >= 3 && k !== '—'; }).map(squash);
+    }
+    var items = [];
+    rows.forEach(function (r) {
+      if (r.date !== today || /נשים|נוער|U-?\d/.test(r.title || '')) return;
+      var t = squash(r.title);
+      var who = players.filter(function (p) {
+        if ((p.sport === 'nba') !== (r.sport === 'כדורסל')) return false;
+        return clubKeys(p).some(function (k) { return t.indexOf(k) > -1; });
+      }).map(function (p) { return p.name; });
+      if (who.length) items.push({ time: r.time, channel: r.channel, title: r.title, who: who });
+    });
+    var lh = generated('ligat_haal').entry;
+    ((lh && lh.data && lh.data.upcoming) || []).forEach(function (u) {
+      if (u.date === today) items.push({ time: u.time, channel: (u.channels || []).join(' / '), title: u.home + ' – ' + u.away, league: true });
+    });
+    if (!items.length) return '';
+    items.sort(function (a, b) { return a.time < b.time ? -1 : 1; });
+    return '<h3 class="sub">📺 היום בטלוויזיה</h3><ul class="rows sport">' + items.map(function (it) {
+      return '<li><b>' + F.ltr(esc(it.time)) + '</b> · ' + esc(it.title) +
+        (it.league ? ' <span class="tag-demo">ליגת העל</span>' : ' <span class="locked">— ' + esc(it.who.join(', ')) + '</span>') +
+        '<div class="sp-player">📺 ' + esc(it.channel || '—') + '</div></li>';
+    }).join('') + '</ul>' +
+    '<p class="locked filter-note"><a href="https://www.livegames.co.il/broadcastspage.aspx" target="_blank" rel="noopener noreferrer">שידורים: LiveGames</a></p>';
+  }
+
   function renderSports() {
     var src = R.sourceById('src_espn');
     var A = window.DB.athletes || { players: [] };
@@ -1158,7 +1199,7 @@
 
     if (!R.isDisplayable(src)) {
       // ESPN חסום (מצב ציבורי) — ליגת העל עדיין מוצגת, כי מקורותיה מורשים
-      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', ligatHaalHtml() + abroadHeadlinesHtml(), false,
+      $('#sports-slot').innerHTML = corner(4, 'ספורט', 'sports', todayTvHtml() + ligatHaalHtml() + abroadHeadlinesHtml(), false,
                                             generated('ligat_haal').state);
       return;
     }
@@ -1272,12 +1313,13 @@
       function dm(iso) { var p = iso.split('-'); return F.ltr(p[2] + '/' + p[1]); }
       var today = localIso();
       var up = okTv ? (d.upcoming || []).filter(function (u) { return u.date >= today; }) : [];
-      var todays = up.filter(function (u) { return u.date === today; });
-      var show = todays.length ? todays : up.filter(function (u) {
+      // משחקי היום מוצגים ב"היום בטלוויזיה" — כאן רק מה שאחריהם (בלי כפילות)
+      up = up.filter(function (u) { return u.date > today; });
+      var show = up.filter(function (u) {
         // המחזור הבא: כל המשחקים עד 3 ימים מהמשחק הקרוב
         return up.length && (new Date(u.date) - new Date(up[0].date)) <= 3 * 86400000;
       });
-      var title = todays.length ? 'ליגת העל בכדורגל — היום' : 'ליגת העל בכדורגל — המחזור הבא';
+      var title = 'ליגת העל בכדורגל — המחזור הבא';
 
       var upHtml = !okTv || !show.length ? ''
         : '<ul class="rows sport">' + show.map(function (u) {
@@ -1345,6 +1387,7 @@
       : '';
 
     var html =
+      todayTvHtml() +
       section('תוצאות ישראלים — 7 הימים האחרונים', resultsHtml) +
       section('ישראלים בחו"ל — משחקים קרובים', fixHtml ? fixHtml + movedHtml : '') +
       ligatHaalHtml() + europeHtml() +
