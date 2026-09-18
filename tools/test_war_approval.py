@@ -71,7 +71,7 @@ class Approval(unittest.TestCase):
     def test_issue_has_preview_and_hidden_list(self):
         self.assertEqual(len(self.drafts), 2)
         self.assertIn("תמונת מצב", self.body)
-        self.assertIn("✅ מאומת", self.body)
+        self.assertIn("✅ אומת ב-2+ מקורות", self.body)
         self.assertIn("לא נותחו היום", self.body)
         self.assertIn("<!-- war-drafts:", self.body)
         self.assertNotIn("<script", self.body)

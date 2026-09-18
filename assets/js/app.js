@@ -16,7 +16,7 @@
 
   /* שם קריא לרמת אימות — לשימוש בהיסטוריית השינויים */
   var LEVEL_NAMES = {
-    verified: 'מאומת', initial: 'דיווח ראשוני', shared_root: 'מקור-שורש משותף',
+    verified: 'אומת ב-2+ מקורות', initial: 'דיווח ראשוני', shared_root: 'מקור-שורש משותף',
     disputed: 'שנוי במחלוקת', retracted: 'בוטל', assessment: 'הערכה', unverified: 'ללא מקור'
   };
   function levelName(l) { return LEVEL_NAMES[l] || l || '—'; }
@@ -159,7 +159,7 @@
         var an = o.p.analysis;
         var ver = an.events.filter(function (e) { return R.assess(e).level === 'verified'; }).length;
         return '<button type="button" class="arena-chip" data-goto="' + esc(o.a.id) + '" title="' +
-               esc(F.dateTimeText(an.generated_at)) + (ver ? ' · ' + ver + ' מאומתים' : '') + '">' +
+               esc(F.dateTimeText(an.generated_at)) + (ver ? ' · ' + ver + ' אומתו ב-2+ מקורות' : '') + '">' +
                esc(o.a.name) + ' <span class="n">' + F.ltr(String(an.events.length)) + '</span></button>';
       }).join('');
       lines.push('<b>מלחמות</b> <span class="chips-row">' + chips + '</span>' +
@@ -317,7 +317,7 @@
       '<div class="filters">' +
         '<span class="lbl">סינון לפי סטטוס:</span>' +
         '<button type="button" data-f="all" class="' + (activeFilter === 'all' ? 'active' : '') + '">הכל</button>' +
-        '<button type="button" data-f="verified" class="' + (activeFilter === 'verified' ? 'active' : '') + '">מאומת בלבד</button>' +
+        '<button type="button" data-f="verified" class="' + (activeFilter === 'verified' ? 'active' : '') + '">אומתו ב-2+ מקורות</button>' +
         '<button type="button" data-f="notverified" class="' + (activeFilter === 'notverified' ? 'active' : '') + '">לא מאומת</button>' +
         '<button type="button" data-f="changed" class="' + (activeFilter === 'changed' ? 'active' : '') + '">שונה/תוקן</button>' +
       '</div>' +
@@ -371,7 +371,7 @@
         }).join('') + '</ul>' : '') +
       (points
         ? '<div class="map-canvas live" id="war-map" aria-label="מפת אירועים"></div>' +
-          '<div class="map-legend"><span class="dot verified"></span>מאומת <span class="dot initial"></span>דיווח ראשוני ' +
+          '<div class="map-legend"><span class="dot verified"></span>אומת ב-2+ מקורות <span class="dot initial"></span>דיווח ראשוני ' +
           '<span class="dot shared_root"></span>מקור משותף <span class="dot other"></span>הערכה/אחר · ' +
           '<span class="dash"></span>מקווקו = שכבת הערכה (אזור פעילות / זיקה בין מקומות) · ' +
           '<span class="locked">נקודה = מקום שהוזכר בדיווח, לא מיקום מדויק ולא קו שליטה</span></div>'

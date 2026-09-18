@@ -190,6 +190,7 @@ window.DB.config = {
    במצב אישי לא נטענים (שם CNBC נותן נתונים מפורטים יותר). */
 window.DB.config.tradingview = {
   symbols: {
+    'TA 125': 'TASE:TA125',
     'ZIM': 'NYSE:ZIM', 'NCLH': 'NYSE:NCLH', 'PFE': 'NYSE:PFE',
     'SPX 500': 'FOREXCOM:SPXUSD', 'NDX 100': 'FOREXCOM:NSXUSD', 'USOIL': 'TVC:USOIL',   // SP:SPX / NASDAQ:NDX חסומים בווידג'טים (נבדק)
     'USD/ILS': 'FX_IDC:USDILS', 'EUR/ILS': 'FX_IDC:EURILS', 'EUR/USD': 'FX:EURUSD', 'ILS/RON': 'FX_IDC:ILSRON'

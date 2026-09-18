@@ -72,7 +72,7 @@ def parse_command(text):
     return "approve", arenas
 
 
-LEVEL_HE = {"verified": "✅ מאומת", "initial": "🟡 דיווח ראשוני (מקור אחד)", "shared_root": "🟠 מקור-שורש משותף",
+LEVEL_HE = {"verified": "✅ אומת ב-2+ מקורות", "initial": "🟡 דיווח ראשוני (מקור אחד)", "shared_root": "🟠 מקור-שורש משותף",
             "assessment": "🔵 הערכה", "disputed": "⚠️ שנוי במחלוקת", "retracted": "❌ הוכחש",
             "unverified": "⚪ לא מאומת"}
 

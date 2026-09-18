@@ -127,8 +127,10 @@ window.Reliability = (function () {
         reason: 'המקורות שייכים לאותה משפחה (למשל שתי סוכנויות מדינתיות של אותה מדינה). לא אימות עצמאי.' });
     }
 
-    /* --- מאומת --- */
-    var label  = 'מאומת';
+    /* --- מאומת ---
+       הניסוח אומר בדיוק מה נבדק: כמה מקורות עצמאיים דיווחו. לא "זה קרה" (סעיף 9 בביקורת, 18/09/2026). */
+    var n      = Math.min(rootCount, groupCount);
+    var label  = 'אומת ב-' + n + ' מקורות';
     var reason = rootCount + ' מקורות-שורש עצמאיים מ-' + groupCount + ' משפחות מקורות שונות.';
 
     if (event.claim_type === 'statement') {
@@ -136,7 +138,7 @@ window.Reliability = (function () {
       reason += ' שים לב: מאומת שההצהרה נמסרה — לא תוכנה.';
     }
     if (event.lifecycle === 'corrected') {
-      label  = 'מאומת (תוקן)';
+      label  = 'אומת ב-' + n + ' מקורות (תוקן)';
       reason += ' הגרסה הקודמת נשמרה בהיסטוריה.';
     }
 

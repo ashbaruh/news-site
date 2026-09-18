@@ -8,6 +8,6 @@ window.DB = window.DB || {};
 
 /* רשימת המעקב — רק הסימולים. המחירים: CoinGecko (קריפטו), ECB (מטבעות), TradingView (מניות, מדדים, נפט). */
 window.DB.markets = {
-  watchlist: ['BTC', 'ETH', 'DOGE', 'ZIM', 'NDX 100', 'NCLH', 'SPX 500', 'PFE',
+  watchlist: ['BTC', 'ETH', 'DOGE', 'TA 125', 'ZIM', 'NDX 100', 'NCLH', 'SPX 500', 'PFE',
               'USD/ILS', 'EUR/ILS', 'EUR/USD', 'USOIL', 'ILS/RON'].map(function (s) { return { symbol: s }; })
 };
