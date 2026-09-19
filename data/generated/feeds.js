@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T16:17:21+00:00",
-  "fetched_at": "2026-09-19T16:17:21+00:00"
+  "checked_at": "2026-09-19T17:17:25+00:00",
+  "fetched_at": "2026-09-19T17:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T16:17:35+00:00",
-  "fetched_at": "2026-09-19T16:17:35+00:00"
+  "checked_at": "2026-09-19T17:17:41+00:00",
+  "fetched_at": "2026-09-19T17:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T16:17:35+00:00",
-  "fetched_at": "2026-09-19T16:17:35+00:00"
+  "checked_at": "2026-09-19T17:17:41+00:00",
+  "fetched_at": "2026-09-19T17:17:41+00:00"
  },
- "generated_at": "2026-09-19T16:17:35+00:00",
+ "generated_at": "2026-09-19T17:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T16:17:22+00:00",
-  "fetched_at": "2026-09-19T16:17:22+00:00"
+  "checked_at": "2026-09-19T17:17:26+00:00",
+  "fetched_at": "2026-09-19T17:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T16:17:22+00:00",
-  "fetched_at": "2026-09-19T16:17:22+00:00"
+  "checked_at": "2026-09-19T17:17:27+00:00",
+  "fetched_at": "2026-09-19T17:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2376,7 +2376,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-19T16:17:28+00:00",
+  "checked_at": "2026-09-19T17:17:33+00:00",
   "fetched_at": "2026-09-19T15:17:26+00:00"
  },
  "ligat_haal": {
@@ -2483,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T16:17:28+00:00",
-  "fetched_at": "2026-09-19T16:17:28+00:00"
+  "checked_at": "2026-09-19T17:17:33+00:00",
+  "fetched_at": "2026-09-19T17:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2508,14 +2508,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 11,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 418,
+     "likes": 420,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2529,7 +2529,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 131,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2561,13 +2561,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "AuK",
-     "desc_en": "Unified speech generation and editing with AuK",
-     "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 93,
-     "link": "https://huggingface.co/spaces/tencent/AuK"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
@@ -2575,21 +2568,37 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
-     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "title": "AuK",
+     "desc_en": "Unified speech generation and editing with AuK",
+     "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
+     "likes": 93,
+     "link": "https://huggingface.co/spaces/tencent/AuK"
+    },
+    {
+     "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 87,
-     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+     "likes": 82,
+     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T16:17:34+00:00",
-  "fetched_at": "2026-09-19T16:17:34+00:00"
+  "checked_at": "2026-09-19T17:17:39+00:00",
+  "fetched_at": "2026-09-19T17:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "21:00 בספורט3: אוסקר גלוך בהרכב אייאקס מול אקסלסיור",
+     "link": "https://sports.walla.co.il/item/3868890",
+     "date": "2026-09-19T19:55:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
     {
      "title": "צפו: דניאל פרץ פספס, הפסד מתסכל לסאות'המפטון בדקה ה-89",
      "link": "https://sports.walla.co.il/item/3868889",
@@ -2714,15 +2723,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בעקבות היכולת: החוזה של סולומון בווסטהאם נבחן",
-     "link": "https://www.one.co.il/Article/533823.html?ref=rss",
-     "date": "2026-09-19T05:35:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     }
    ],
@@ -2926,7 +2926,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T16:17:31+00:00",
-  "fetched_at": "2026-09-19T16:17:31+00:00"
+  "checked_at": "2026-09-19T17:17:36+00:00",
+  "fetched_at": "2026-09-19T17:17:36+00:00"
  }
 };
