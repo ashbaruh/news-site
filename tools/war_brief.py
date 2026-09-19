@@ -92,18 +92,26 @@ def pick_items(items):
     return (tg + other + il)[:ITEMS_PER_ARENA]
 
 
-BRIEF_SCHEMA = {
-    "type": "object", "additionalProperties": False, "required": list(wc.ARENAS),
-    "properties": {a: {"type": "object", "additionalProperties": False, "required": ["events"],
-                       "properties": {"events": dict(an.EVENTS_SCHEMA["properties"]["events"], maxItems=MAX_PER_ARENA)}}
-                   for a in sorted(wc.ARENAS)},
-}
+def schema_for(arena_ids):
+    return {"type": "object", "additionalProperties": False, "required": sorted(arena_ids),
+            "properties": {a: {"type": "object", "additionalProperties": False, "required": ["events"],
+                               "properties": {"events": dict(an.EVENTS_SCHEMA["properties"]["events"], maxItems=MAX_PER_ARENA)}}
+                           for a in sorted(arena_ids)}}
 
 
-def prompt(per_arena):
+BRIEF_SCHEMA = schema_for(wc.ARENAS)
+
+# ניסיון חוזר לזירה שנדחתה (19/09/2026: תימן נדחתה בגלל אות ערבית אחת, ונשארה בלי עדכון בוקר).
+# קריאה אחת נוספת בלבד, רק לזירות שנדחו מסיבה שאפשר לתקן — לא "אין ידיעות".
+RETRY_NOTE = ("חשוב: בניסיון הקודם הופיעו אותיות בשפה אחרת בתוך הטקסט העברי. כתוב שמות מקומות, אנשים וארגונים "
+              "בתעתיק עברי בלבד — בלי אף אות ערבית, קירילית, סינית או קוריאנית.")
+
+
+def prompt(per_arena, note=""):
     parts = ["עדכון ביניים: לכל זירה בחר עד 3 הידיעות החשובות והחדשות ביותר מהכתבות שלה בלבד "
              "(מספרי הכתבות הם לפי הרשימה של אותה זירה). ידיעה = אירוע או הודעה ממשית, לא פרשנות. "
-             "כותרת קצרה ותקציר של משפט אחד, בניסוח שלך. אם אין בזירה משהו חדש וממשי — רשימה ריקה."]
+             "כותרת קצרה ותקציר של משפט אחד, בניסוח שלך. אם אין בזירה משהו חדש וממשי — רשימה ריקה." +
+             (" " + note if note else "")]
     for arena in sorted(per_arena):
         items = [dict(i, text=(i.get("text") or "")[:TEXT_PER_ITEM]) for i in per_arena[arena]]
         parts.append(f"\n\n===== זירה: {arena} — {an.ARENA_SCOPE[arena]} =====\n" + (an.numbered(items) if items else "(אין כתבות)"))
@@ -178,6 +186,21 @@ def main(argv=None):
             arenas[arena] = {"events": evs}
         else:
             skipped[arena] = why
+
+    retry = [a for a, why in skipped.items() if why != "אין ידיעות" and per_arena.get(a)]
+    if retry:
+        print("ניסיון חוזר ל:", ", ".join(retry))
+        try:
+            out2 = an.llm_json(an.SYSTEM, prompt({a: per_arena[a] for a in retry}, RETRY_NOTE), schema_for(retry))
+            for a in retry:
+                evs, why = build_arena(a, per_arena[a], (out2.get(a) or {}).get("events"), window_hours, now, known, geocode)
+                if evs:
+                    arenas[a] = {"events": evs}
+                    skipped.pop(a, None)
+                else:
+                    skipped[a] = why + " (גם בניסיון חוזר)"
+        except Exception as e:
+            print(f"הניסיון החוזר נכשל: {str(e)[:200]}")
     geocode.save()
 
     brief = {"slot": slot.isoformat(), "generated_at": now.isoformat(), "model": an.active_model_name(),

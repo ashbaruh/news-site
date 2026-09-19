@@ -46,7 +46,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: gemini
         run: |
-          FORCE=""; if [ "${{ github.event_name }}" != "schedule" ]; then FORCE="--force"; fi
+          # "--force" רק בהפעלה ידנית דרך קובץ הטריגר. מתזמן חיצוני (cron-job.org → workflow_dispatch) ו-GitHub
+          # יכולים להפעיל את אותו מועד פעמיים — בלי force, הפעם השנייה רואה שהמועד בוצע ולא קוראת לבינה שוב.
+          FORCE=""; if [ "${{ github.event_name }}" = "push" ]; then FORCE="--force"; fi
           PYTHONUNBUFFERED=1 python tools/war_brief.py $FORCE
 
       - name: שמירה

@@ -97,6 +97,32 @@ class Run(unittest.TestCase):
         self.assertIn("iran", b["skipped"])
         self.assertIn("ukraine", b["arenas"])
 
+    def test_rejected_arena_retried_once(self):
+        calls = []
+
+        def llm(system, user, schema):
+            calls.append(sorted(schema["required"]))
+            ok = ta.FAKE_EVENTS["events"][:1]
+            if len(calls) == 1:                                          # פעם ראשונה: אות ערבית בתימן
+                bad = dict(ok[0], title="פיצוץ בנמל اليمن")
+                return {"iran": {"events": ok}, "ukraine": {"events": ok}, "yemen": {"events": [bad]}, "north": {"events": ok}}
+            return {"yemen": {"events": ok}}                             # ניסיון חוזר — רק תימן, נקי
+        wb.an.llm_json = llm
+        wb.main(["--force"])
+        b = self.read()
+        self.assertEqual(calls, [["iran", "north", "ukraine", "yemen"], ["yemen"]])   # קריאה אחת נוספת, רק לזירה שנדחתה
+        self.assertIn("yemen", b["arenas"])
+        self.assertEqual(b["skipped"], {})
+
+    def test_retry_that_fails_again_is_reported(self):
+        def llm(system, user, schema):
+            bad = dict(ta.FAKE_EVENTS["events"][0], title="פיצוץ בנמל اليمن")
+            return {a: {"events": [bad]} for a in schema["required"]}
+        wb.an.llm_json = llm
+        wb.main(["--force"])
+        b = self.read()
+        self.assertTrue(all("גם בניסיון חוזר" in w for w in b["skipped"].values()))
+
     def test_ai_failure_keeps_previous_brief(self):
         wb.main(["--force"])
         before = self.read()
