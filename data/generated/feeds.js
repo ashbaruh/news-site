@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-18T23:20:05+00:00",
-  "fetched_at": "2026-09-18T23:20:05+00:00"
+  "checked_at": "2026-09-19T01:39:01+00:00",
+  "fetched_at": "2026-09-19T01:39:01+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T23:20:16+00:00",
-  "fetched_at": "2026-09-18T23:20:16+00:00"
+  "checked_at": "2026-09-19T01:39:11+00:00",
+  "fetched_at": "2026-09-19T01:39:11+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T23:20:16+00:00",
-  "fetched_at": "2026-09-18T23:20:16+00:00"
+  "checked_at": "2026-09-19T01:39:11+00:00",
+  "fetched_at": "2026-09-19T01:39:11+00:00"
  },
- "generated_at": "2026-09-18T23:20:16+00:00",
+ "generated_at": "2026-09-19T01:39:11+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T23:20:06+00:00",
-  "fetched_at": "2026-09-18T23:20:06+00:00"
+  "checked_at": "2026-09-19T01:39:02+00:00",
+  "fetched_at": "2026-09-19T01:39:02+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-18T23:20:07+00:00",
-  "fetched_at": "2026-09-18T23:20:07+00:00"
+  "checked_at": "2026-09-19T01:39:04+00:00",
+  "fetched_at": "2026-09-19T01:39:04+00:00"
  },
  "tv": {
   "data": [
@@ -2374,8 +2374,9 @@ window.DB.generated = {
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-18T23:20:08+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-19T01:39:04+00:00",
   "fetched_at": "2026-09-18T23:20:08+00:00"
  },
  "ligat_haal": {
@@ -2482,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T23:20:08+00:00",
-  "fetched_at": "2026-09-18T23:20:08+00:00"
+  "checked_at": "2026-09-19T01:39:04+00:00",
+  "fetched_at": "2026-09-19T01:39:04+00:00"
  },
  "ai": {
   "data": {
@@ -2507,8 +2508,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
-   "failed_sources": [],
+   "candidates": 7,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2528,8 +2531,15 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 116,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 86,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2539,24 +2549,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 84,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 73,
+     "likes": 74,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 61,
+     "likes": 62,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2567,24 +2570,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 134,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
-    },
-    {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 83,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 135,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-18T23:20:15+00:00",
-  "fetched_at": "2026-09-18T23:20:15+00:00"
+  "checked_at": "2026-09-19T01:39:10+00:00",
+  "fetched_at": "2026-09-19T01:39:10+00:00"
  },
  "abroad": {
   "data": {
@@ -2925,7 +2928,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-18T23:20:12+00:00",
-  "fetched_at": "2026-09-18T23:20:12+00:00"
+  "checked_at": "2026-09-19T01:39:08+00:00",
+  "fetched_at": "2026-09-19T01:39:08+00:00"
  }
 };
