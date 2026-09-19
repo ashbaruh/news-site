@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T08:31:10+00:00",
-  "fetched_at": "2026-09-19T08:31:10+00:00"
+  "checked_at": "2026-09-19T09:17:12+00:00",
+  "fetched_at": "2026-09-19T09:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T08:31:23+00:00",
-  "fetched_at": "2026-09-19T08:31:23+00:00"
+  "checked_at": "2026-09-19T09:17:26+00:00",
+  "fetched_at": "2026-09-19T09:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T08:31:26+00:00",
-  "fetched_at": "2026-09-19T08:31:26+00:00"
+  "checked_at": "2026-09-19T09:17:27+00:00",
+  "fetched_at": "2026-09-19T09:17:27+00:00"
  },
- "generated_at": "2026-09-19T08:31:26+00:00",
+ "generated_at": "2026-09-19T09:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ההרגל התחלף בדיל: כך המותגים הסיניים שינו את שוק הרכב הישראלי",
+     "title": "גל של רכבי פרימיום סיניים בדרך לישראל. איך הם יתקבלו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556915",
      "date": "2026-09-19T07:30:00+00:00"
     },
     {
      "title": "דיווחים בסעודיה: אזעקות הופעלו בריאד במהלך הלילה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T07:47:00+00:00"
+     "date": "2026-09-19T08:56:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T08:31:11+00:00",
-  "fetched_at": "2026-09-19T08:31:11+00:00"
+  "checked_at": "2026-09-19T09:17:13+00:00",
+  "fetched_at": "2026-09-19T09:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T08:31:12+00:00",
-  "fetched_at": "2026-09-19T08:31:12+00:00"
+  "checked_at": "2026-09-19T09:17:14+00:00",
+  "fetched_at": "2026-09-19T09:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2375,8 +2375,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T08:31:14+00:00",
-  "fetched_at": "2026-09-19T08:31:14+00:00"
+  "checked_at": "2026-09-19T09:17:19+00:00",
+  "fetched_at": "2026-09-19T09:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2482,8 +2482,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T08:31:14+00:00",
-  "fetched_at": "2026-09-19T08:31:14+00:00"
+  "checked_at": "2026-09-19T09:17:19+00:00",
+  "fetched_at": "2026-09-19T09:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2514,14 +2514,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 413,
+     "likes": 415,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2542,14 +2542,14 @@ window.DB.generated = {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2577,14 +2577,14 @@ window.DB.generated = {
      "title": "Fruit Fly Simulation",
      "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T08:31:21+00:00",
-  "fetched_at": "2026-09-19T08:31:21+00:00"
+  "checked_at": "2026-09-19T09:17:25+00:00",
+  "fetched_at": "2026-09-19T09:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2925,7 +2925,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T08:31:17+00:00",
-  "fetched_at": "2026-09-19T08:31:17+00:00"
+  "checked_at": "2026-09-19T09:17:22+00:00",
+  "fetched_at": "2026-09-19T09:17:22+00:00"
  }
 };
