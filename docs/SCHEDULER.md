@@ -1,46 +1,30 @@
-# מתזמן חיצוני — cron-job.org (חינם)
+# השעון הפנימי — איך העדכונים מגיעים בזמן
 
 התזמון של GitHub לא אמין: ב-19/09/2026 העדכון של 04:00 רץ ב-07:58.
-cron-job.org "מעיר" את GitHub בדיוק בשעה. התזמונים של GitHub נשארים כגיבוי.
-ריצה כפולה לא מזיקה, כי כל משימה בודקת אם כבר רצה.
+לכן יש **שעון פנימי** (`.github/workflows/clock.yml` + `tools/clock.py`):
+- משימה אחת שרצה ב-GitHub כל הזמן ובודקת את השעה כל 20 שניות.
+- בזמן הנכון היא מפעילה את המשימה המתאימה (workflow_dispatch).
+- כל ריצה נמשכת כ-5.5 שעות, ולפני הסוף היא מפעילה את הבאה.
+- אם השעון נפל, התזמון השעתי שלו מקים אותו מחדש.
+- בלי הרשמה ובלי מפתח חיצוני: המפתח הפנימי של GitHub מורשה להפעיל משימות. חינם, כי המאגר ציבורי.
 
-**הדרך הקלה:** לפתוח את `docs/cron-setup.html` בלחיצה כפולה. יש שם כפתור "העתק" ליד כל ערך.
+| משימה | שעות (ישראל) |
+|---|---|
+| ניתוח יומי (`war-daily.yml`) | 02:40 · 05:40 · 13:40 |
+| עדכון ביניים (`war-brief.yml`) | 03:40 · 11:40 · 17:40 |
+| עדכון נתונים (`update-data.yml`) | כל שעה בדקה 17 |
 
-## 3 משימות — כולן בדקה 40 (חוץ מהנתונים)
-| # | שם | URL | שעות (ישראל) | דקה |
-|---|---|---|---|---|
-| 1 | עדכון ביניים | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/war-brief.yml/dispatches` | 3, 11, 17 | 40 |
-| 2 | ניתוח יומי | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/war-daily.yml/dispatches` | 2, 5, 13 | 40 |
-| 3 | עדכון נתונים | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/update-data.yml/dispatches` | כל השעות | 17 |
-
-## שלב א — מפתח ב-GitHub (פעם אחת)
-1. GitHub → תמונת הפרופיל → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new token**
-2. **Token name:** `cron-job news-site` · **Expiration:** 366 days
-3. **Repository access:** Only select repositories → `ashbaruh/news-site`
-4. **Repository permissions → Actions:** `Read and write` (שום הרשאה אחרת)
-5. **Generate token** → להעתיק (מתחיל ב-`github_pat_`).
-   **לא לשלוח אותו לאף אחד** (גם לא ל-Claude) — מדביקים רק ב-cron-job.org.
-
-המפתח יכול רק להפעיל את המשימות של האתר הזה. אם הוא דלף — מוחקים אותו באותו מסך ויוצרים חדש.
-
-## שלב ב — cron-job.org
-1. הרשמה חינמית ב-https://cron-job.org
-2. **Settings** (של החשבון) → **Time zone** = `Asia/Jerusalem` → Save
-3. לכל אחת מ-3 המשימות: **Create cronjob**
-   - **Title:** השם מהטבלה
-   - **URL:** מהטבלה
-   - **Execution schedule → Custom:** Days of month = כל הימים · Days of week = כל הימים · Months = כל החודשים · **Hours** = לפי הטבלה · **Minutes** = לפי הטבלה
-   - לשונית **Advanced**:
-     - **Request method:** `POST`
-     - **Headers** — ארבע שורות (Key / Value):
-       - `Authorization` / `Bearer ` ואחריו המפתח (עם רווח אחרי Bearer)
-       - `Accept` / `application/vnd.github+json`
-       - `X-GitHub-Api-Version` / `2022-11-28`
-       - `Content-Type` / `application/json`
-     - **Request body:** `{"ref":"main"}`
-   - **Test run** → אמור לחזור **204** → **Save**
+- מועד שהוחמץ, למשל בזמן החלפת שעון, מופעל עד 20 דקות אחריו.
+- לפני הפעלה השעון בודק אם כבר הייתה ריצה מאז המועד, ואם כן — מדלג.
+- ריצה כפולה בכל מקרה לא מזיקה.
+- התזמונים הרגילים של GitHub בכל משימה נשארים כגיבוי.
 
 ## איך יודעים שזה עובד
-- ב-cron-job.org: ליד כל משימה — היסטוריה עם 204 בירוק.
-- ב-GitHub → **Actions**: ריצות עם הסימון `workflow_dispatch` בשעות שבטבלה.
-- 401 או 403 = המפתח שגוי או חסרה הרשאת Actions. 404 = טעות ב-URL. 422 = טעות ב-Request body.
+GitHub → **Actions** → **שעון**: ריצה אחת פעילה, והיומן שלה מראה "מועד 03:40 — war-brief.yml · הופעל".
+ריצות של "שעון" שמסומנות "בוטלה" הן תקינות: זו ריצה ממתינה שהוחלפה בחדשה.
+
+## לשנות שעות
+ב-`tools/clock.py` ברשימה `JOBS`, ולעדכן את הבדיקה `tools/test_clock.py` ואת `CLAUDE.md`.
+
+## אם GitHub יגביל את השעון
+גיבוי חינמי: cron-job.org עם מפתח מוגבל (Actions בלבד) — ראו היסטוריית הקובץ הזה ב-git (הגרסה מלפני שנוסף השעון).

@@ -24,7 +24,7 @@
 | כל הזמן | מחירים, מטבעות וקריפטו — חי בדפדפן |
 
 - עדכון ביניים: עד 3 ידיעות לכל זירה (טלגרם ציבורי + מקורות זרים מהירים).
-- את השעות מפעיל **cron-job.org** (חינם) — ראו `docs/SCHEDULER.md`. התזמון של GitHub הוא רק גיבוי.
+- את השעות מפעיל **השעון הפנימי** (`clock.yml`) — רץ ב-GitHub כל הזמן ומפעיל כל משימה בדקה המדויקת. ראו `docs/SCHEDULER.md`. התזמון הרגיל של GitHub הוא רק גיבוי.
 - ריצה כפולה לא מזיקה: כל משימה בודקת אם כבר רצה.
 
 ## פרסום
@@ -46,6 +46,7 @@ python tools/test_war_approval.py
 python tools/mac/test_analyze.py
 python tools/test_site_static.py
 python tools/test_war_brief.py
+python tools/test_clock.py
 ```
 אחרי שינוי ב-JS/CSS: `python tools/stamp_assets.py`
 
@@ -53,6 +54,6 @@ python tools/test_war_brief.py
 - "אומת ב-N מקורות" מחושב בקוד, לא ע"י הבינה. טלגרם לבד ≠ מאומת.
 - לא מעתיקים טקסט ממקורות — רק כותרת, קישור וניסוח מקורי.
 - אין נתוני דמה. אין נתון — הקטע לא מוצג.
-- מפתחות (Gemini, GitHub) רק ב-GitHub Secrets / cron-job.org — אף פעם לא בקוד.
+- מפתחות (Gemini, GitHub) רק ב-GitHub Secrets — אף פעם לא בקוד.
 
 פירוט נוסף: `docs/`.

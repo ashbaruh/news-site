@@ -1,0 +1,42 @@
+# ============================================================
+# שעון פנימי — מפעיל את העדכונים בדקה המדויקת (tools/clock.py).
+# התזמון של GitHub לא אמין, אבל ריצה ארוכה אחת שבודקת את השעה — כן.
+# רץ ברציפות: כל ריצה ~5.5 שעות ומפעילה את הבאה. התזמון השעתי כאן רק מקים אותו אם נפל
+# (ריצה שממתינה מאחורי ריצה פעילה מחליפה ממתינה קודמת — "בוטלה" ברשימה זה תקין).
+# חינם: מאגר ציבורי. בלי מפתח חיצוני.
+# ============================================================
+
+name: שעון
+
+on:
+  schedule:
+    - cron: "3 * * * *"
+  push:                      # מתניע מיד כשהשעון עצמו משתנה
+    branches: [main]
+    paths: [".github/workflows/clock.yml", "tools/clock.py"]
+  workflow_dispatch:
+
+permissions:
+  actions: write             # להפעיל את משימות העדכון
+  contents: read
+
+concurrency:
+  group: clock
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: בדיקות
+        run: python tools/test_clock.py
+      - name: שעון
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: PYTHONUNBUFFERED=1 python tools/clock.py
