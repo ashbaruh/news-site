@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T06:40:50+00:00",
-  "fetched_at": "2026-09-19T06:40:50+00:00"
+  "checked_at": "2026-09-19T08:31:10+00:00",
+  "fetched_at": "2026-09-19T08:31:10+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T06:41:00+00:00",
-  "fetched_at": "2026-09-19T06:41:00+00:00"
+  "checked_at": "2026-09-19T08:31:23+00:00",
+  "fetched_at": "2026-09-19T08:31:23+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "“Good sound is good sound, regardless of whether it's hi-fi or home cinema” – how a surprise product reminded me of this simple truth",
+    "title_he": "\"סאונד טוב הוא סאונד טוב, לא משנה אם זה Hi-Fi או קולנוע ביתי\" - איך מוצר הפתעה הזכיר לי את האמת הפשוטה הזו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/good-sound-is-good-sound-regardless-of-whether-its-hi-fi-or-home-cinema-how-a-surprise-product-reminded-me-of-this-simple-truth",
+    "date": "2026-09-19T07:00:00+00:00"
+   },
+   {
+    "title_en": "The four star-studded movies (and one TV show) we have been using to test our home cinema kit this month",
+    "title_he": "ארבעת הסרטים עטורי הכוכבים (ותוכנית טלוויזיה אחת) שבהם השתמשנו כדי לבדוק את ערכת הקולנוע הביתי שלנו החודש",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/av/the-four-star-studded-movies-we-have-been-using-to-test-our-home-cinema-kit-this-month",
+    "date": "2026-09-19T07:00:00+00:00"
+   },
    {
     "title_en": "I got up close and personal with two competing 4K UST projectors – and I'm more excited than ever for the future of the category",
     "title_he": "הגעתי מקרוב עם שני מקרני 4K UST מתחרים - ואני נרגש מתמיד לעתיד הקטגוריה",
@@ -60,39 +74,25 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/what-was-a-panasonic-tv-is-still-a-panasonic-tv-i-spoke-to-the-ceo-of-panasonics-new-tv-division-about-what-to-expect-from-this-legendary-japanese-av-brand-moving-forward",
     "date": "2026-09-18T14:59:20+00:00"
-   },
-   {
-    "title_en": "3D TV, Sonos and Spotify – former What Hi-Fi? editor recalls a time of huge transition, including the launch of the website and the \"pivot to video\"",
-    "title_he": "טלוויזיית תלת מימד, Sonos ו-Spotify - לשעבר What Hi-Fi? העורך נזכר בתקופה של מעבר ענק, כולל השקת האתר ו\"ציר לווידאו\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/3d-tv-sonos-and-spotify-former-what-hi-fi-editor-recalls-a-time-of-huge-transition-including-the-launch-of-the-website-and-the-pivot-to-video",
-    "date": "2026-09-18T14:18:16+00:00"
-   },
-   {
-    "title_en": "I'm not surprised this is Amazon's best-selling soundbar – this Award-winning model offers Dolby Atmos at an incredible price",
-    "title_he": "אני לא מופתע שזהו בר הקול הנמכר ביותר של אמזון - הדגם עטור הפרסים הזה מציע Dolby Atmos במחיר מדהים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/im-not-surprised-this-is-amazons-best-selling-soundbar-this-award-winning-model-offers-dolby-atmos-at-an-incredible-price",
-    "date": "2026-09-18T13:07:51+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T06:41:01+00:00",
-  "fetched_at": "2026-09-19T06:41:01+00:00"
+  "checked_at": "2026-09-19T08:31:26+00:00",
+  "fetched_at": "2026-09-19T08:31:26+00:00"
  },
- "generated_at": "2026-09-19T06:41:01+00:00",
+ "generated_at": "2026-09-19T08:31:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "היזם שמציע איים למכירה. המחיר: החל מ-50 אלף דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555547",
-     "date": "2026-09-19T05:00:00+00:00"
+     "title": "ההרגל התחלף בדיל: כך המותגים הסיניים שינו את שוק הרכב הישראלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556915",
+     "date": "2026-09-19T07:30:00+00:00"
     },
     {
      "title": "דיווחים בסעודיה: אזעקות הופעלו בריאד במהלך הלילה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T05:58:00+00:00"
+     "date": "2026-09-19T07:47:00+00:00"
     }
    ],
    "market": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T06:40:51+00:00",
-  "fetched_at": "2026-09-19T06:40:51+00:00"
+  "checked_at": "2026-09-19T08:31:11+00:00",
+  "fetched_at": "2026-09-19T08:31:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T06:40:52+00:00",
-  "fetched_at": "2026-09-19T06:40:52+00:00"
+  "checked_at": "2026-09-19T08:31:12+00:00",
+  "fetched_at": "2026-09-19T08:31:12+00:00"
  },
  "tv": {
   "data": [
@@ -2373,8 +2373,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T06:40:53+00:00",
-  "fetched_at": "2026-09-19T06:40:53+00:00"
+  "checked_at": "2026-09-19T08:31:14+00:00",
+  "fetched_at": "2026-09-19T08:31:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2480,8 +2480,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T06:40:53+00:00",
-  "fetched_at": "2026-09-19T06:40:53+00:00"
+  "checked_at": "2026-09-19T08:31:14+00:00",
+  "fetched_at": "2026-09-19T08:31:14+00:00"
  },
  "ai": {
   "data": {
@@ -2505,7 +2505,7 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
+   "candidates": 13,
    "failed_sources": [],
    "tools": [
     {
@@ -2554,15 +2554,15 @@
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 65,
+     "likes": 66,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 136,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 86,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     },
     {
      "title": "AuK",
@@ -2572,21 +2572,39 @@
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
-     "desc_en": "Depth, surface normals, and albedo from a single image",
-     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 85,
-     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 137,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T06:41:00+00:00",
-  "fetched_at": "2026-09-19T06:41:00+00:00"
+  "checked_at": "2026-09-19T08:31:21+00:00",
+  "fetched_at": "2026-09-19T08:31:21+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "עוד סעיף נחשף: טוטנהאם יכולה להרוויח יותר על מנור סולומון",
+     "link": "https://sports.walla.co.il/item/3868867",
+     "date": "2026-09-19T11:18:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "חלאילי צפוי לפתוח נגד לידס, ליברפול ומנצ'סטר יונייטד בלחץ",
+     "link": "https://sports.walla.co.il/item/3868863",
+     "date": "2026-09-19T10:27:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "חיים רביבו אחרי ההצגה של רוי: \"אני גאה בו. זאת התחלה מהנה\"",
      "link": "https://sports.walla.co.il/item/3868852",
@@ -2612,6 +2630,15 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "אחוות \"הבנים של\": השותף החדש המצוין של רביבו",
+     "link": "https://www.one.co.il/Article/533811.html?ref=rss",
+     "date": "2026-09-19T07:40:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -2693,33 +2720,6 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"איזו החתמה, רוי רביבו הכוכב השקט של המשחק\"",
-     "link": "https://www.one.co.il/Article/533800.html?ref=rss",
-     "date": "2026-09-18T19:31:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "ערב חלומי לרביבו: 2 בישולים ב-1:3 של אלצ'ה",
-     "link": "https://www.one.co.il/Article/533780.html?ref=rss",
-     "date": "2026-09-18T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "סולומון, אתה מוכן? אחד המשחקים הטעונים באנגליה חוזר",
-     "link": "https://sports.walla.co.il/item/3868724",
-     "date": "2026-09-18T11:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     }
    ],
@@ -2923,7 +2923,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T06:40:55+00:00",
-  "fetched_at": "2026-09-19T06:40:55+00:00"
+  "checked_at": "2026-09-19T08:31:17+00:00",
+  "fetched_at": "2026-09-19T08:31:17+00:00"
  }
 }
