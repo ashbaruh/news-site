@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T11:36:23+00:00",
-  "fetched_at": "2026-09-19T11:36:23+00:00"
+  "checked_at": "2026-09-19T12:17:23+00:00",
+  "fetched_at": "2026-09-19T12:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T11:36:38+00:00",
-  "fetched_at": "2026-09-19T11:36:38+00:00"
+  "checked_at": "2026-09-19T12:17:38+00:00",
+  "fetched_at": "2026-09-19T12:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T11:36:38+00:00",
-  "fetched_at": "2026-09-19T11:36:38+00:00"
+  "checked_at": "2026-09-19T12:17:39+00:00",
+  "fetched_at": "2026-09-19T12:17:39+00:00"
  },
- "generated_at": "2026-09-19T11:36:38+00:00",
+ "generated_at": "2026-09-19T12:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T11:36:25+00:00",
-  "fetched_at": "2026-09-19T11:36:25+00:00"
+  "checked_at": "2026-09-19T12:17:24+00:00",
+  "fetched_at": "2026-09-19T12:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T11:36:26+00:00",
-  "fetched_at": "2026-09-19T11:36:26+00:00"
+  "checked_at": "2026-09-19T12:17:25+00:00",
+  "fetched_at": "2026-09-19T12:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2375,8 +2375,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T11:36:30+00:00",
-  "fetched_at": "2026-09-19T11:36:30+00:00"
+  "checked_at": "2026-09-19T12:17:31+00:00",
+  "fetched_at": "2026-09-19T12:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2482,8 +2482,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T11:36:30+00:00",
-  "fetched_at": "2026-09-19T11:36:30+00:00"
+  "checked_at": "2026-09-19T12:17:31+00:00",
+  "fetched_at": "2026-09-19T12:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2507,7 +2507,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 12,
    "failed_sources": [],
    "tools": [
     {
@@ -2521,21 +2521,21 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 126,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 88,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2560,6 +2560,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
+     "title": "AuK",
+     "desc_en": "Unified speech generation and editing with AuK",
+     "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
+     "likes": 92,
+     "link": "https://huggingface.co/spaces/tencent/AuK"
+    },
+    {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
@@ -2572,25 +2579,18 @@ window.DB.generated = {
      "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
      "likes": 139,
      "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
-    },
-    {
-     "title": "AuK",
-     "desc_en": "Unified speech generation and editing with AuK",
-     "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 91,
-     "link": "https://huggingface.co/spaces/tencent/AuK"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T11:36:37+00:00",
-  "fetched_at": "2026-09-19T11:36:37+00:00"
+  "checked_at": "2026-09-19T12:17:37+00:00",
+  "fetched_at": "2026-09-19T12:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "מנור סולומון בהרכב: מילוול - ווסטהאם 0:0 (מחצית 1)",
+     "title": "מנור סולומון בהרכב: מילוול - ווסטהאם 0:1 (מחצית 1)",
      "link": "https://sports.walla.co.il/item/3868857",
      "date": "2026-09-19T14:30:00+00:00",
      "source": "וואלה",
@@ -2925,7 +2925,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T11:36:33+00:00",
-  "fetched_at": "2026-09-19T11:36:33+00:00"
+  "checked_at": "2026-09-19T12:17:34+00:00",
+  "fetched_at": "2026-09-19T12:17:34+00:00"
  }
 };
