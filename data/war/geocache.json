@@ -52,6 +52,10 @@
 32.6228,
 36.1068
 ],
+"deir ez-zor, syria": [
+35.3333,
+40.15
+],
 "deir mimas, lebanon": [
 33.3021,
 35.5467
@@ -59,6 +63,10 @@
 "donetsk, ukraine": [
 48.0159,
 37.8013
+],
+"fastiv, ukraine": [
+50.0799,
+29.9163
 ],
 "hadera, israel": [
 32.4407,
@@ -159,6 +167,10 @@
 23.6124,
 58.5938
 ],
+"nabatieh al-fawqa, lebanon": [
+33.3619,
+35.4987
+],
 "nabatieh al-fawqah, lebanon": null,
 "new york, united states": [
 40.7127,
@@ -171,6 +183,10 @@
 "novotroitske, ukraine": [
 47.7167,
 37.5817
+],
+"obukhiv, ukraine": [
+50.1102,
+30.627
 ],
 "odesa, ukraine": [
 46.4843,
@@ -271,5 +287,9 @@
 "zaporizhzhia, ukraine": [
 47.8508,
 35.1183
+],
+"אספהאן, איראן": [
+32.6708,
+51.665
 ]
 }
