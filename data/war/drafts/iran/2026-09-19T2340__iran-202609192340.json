@@ -1,0 +1,264 @@
+{
+ "status": "draft",
+ "received_sha256_12": "10dbd6be1922",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-19T23:40:28+00:00",
+  "window": {
+   "from": "2026-09-18T23:40:28+00:00",
+   "to": "2026-09-19T23:40:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609192340"
+  },
+  "summary": "בזירת העימות מתנהלת מתיחות צבאית ודיפלומטית רב-ממדית, שבה איראן מציבה שבעה תנאי כניעה לחידוש השיחות ובינתיים שומרת על כוננות עליונה ודוחה את טענות ארה\"ב לגבי השליטה במצר הורמוז. במקביל, שלוחת החות'ים בתימן ממשיכה במתקפות טילים וכטב\"מים לעבר ערב הסעודית למרות יירוטים מצד הקואליציה, בעוד ארה\"ב מטילה סנקציות חדשות ומזהירה מפני הסלמה אזורית פתאומית.",
+  "fronts": [
+   {
+    "name": "איראן מול ארה\"ב וישראל",
+    "status": "פעיל, כולל עימותים עקיפים, איומי סנקציות, שיחות מתווכות ותנאים להפסקת אש"
+   },
+   {
+    "name": "ציר איראן והשלוחות מול סעודיה ומדינות המפרץ",
+    "status": "פעיל מאד, כולל שיגורי טילים בליסטיים מצד החות'ים לעבר סעודיה ומצור ימי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09192340-01",
+    "title": "יירוט טיל בליסטי מעל ריאד",
+    "summary": "הקואליציה הסעודית הודיעה על יירוט והשמדה של טיל בליסטי ששוגר לעבר ריאד, וכן סיכול ניסיונות תקיפה נוספים בערים נוספות בנמל ויעדים אזרחיים.",
+    "axis": "ציר איראן והשלוחות מול סעודיה ומדינות המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T11:30:18+00:00",
+    "last_update_at": "2026-09-19T22:23:27+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינו מפורט במלואו מעבר לדיווחים על שריפה במתקן דחוס ליד נמל התעופה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_17d0d96de904fa2c",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21457074",
+      "published_at": "2026-09-19T22:23:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_17d0d96de904fa2c",
+      "url": "https://www.middleeasteye.net/news/houthis-claim-strikes-riyadh-yanbu-while-saudi-coalition-says-attacks-thwarted",
+      "published_at": "2026-09-19T20:28:26+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_17d0d96de904fa2c",
+      "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
+      "published_at": "2026-09-19T15:16:03+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_17d0d96de904fa2c",
+      "url": "https://www.al-monitor.com/originals/2026/09/saudi-led-coalition-says-houthis-fired-ballistic-missile-riyadh",
+      "published_at": "2026-09-19T11:30:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, ערב הסעודית",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09192340-02",
+    "title": "העלאת כוננות באיראן לקוד 100",
+    "summary": "הונפק מצב התראה גבוה המכונה קוד 100 לכל הכוחות המזוינים של איראן, כולל משמרות המהפכה, הארטש ופרג'ה.",
+    "axis": "ציר איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T23:07:49+00:00",
+    "last_update_at": "2026-09-19T23:20:43+00:00",
+    "what_is_not_verified": "מקור הדיווח מבוסס על ערוצים זרים ואינו מאומת בהודעה רשמית של משמרות המהפכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47849",
+      "published_at": "2026-09-19T23:20:43+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47845",
+      "published_at": "2026-09-19T23:07:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09192340-03",
+    "title": "חתימת ארה\"ב על חוק סנקציות חדש נגד איראן ורוסיה",
+    "summary": "נשיא ארה\"ב חתם על חוק המטיל סנקציות חדשות על איראן ורוסיה, וכן מאריך את הסנקציות על מגזרי האנרגיה והנשק של איראן בחמש שנים.",
+    "axis": "ציר איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T10:28:57+00:00",
+    "last_update_at": "2026-09-19T10:28:57+00:00",
+    "what_is_not_verified": "האם הנשיא ישתמש בסמכותו לדחות או לבטל את יישום הצעדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130479",
+      "published_at": "2026-09-19T10:28:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09192340-04",
+    "title": "הוצאה להורג באיראן של נאשם בריגול לישראל",
+    "summary": "איראן הוציאה להורג אדם שהואשם בהעברת מידע על אתרי טילים באספהאן למוסד הישראלי.",
+    "axis": "ציר איראן מול ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T06:31:42+00:00",
+    "last_update_at": "2026-09-19T06:31:42+00:00",
+    "what_is_not_verified": "ארגוני זכויות אדם טוענים שההודאות נסחטו תחת עינויים במעצר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609191625",
+      "published_at": "2026-09-19T06:31:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "אמינות הדיווחים הזרים על הנפקת 'קוד 100' לכוחות המזוינים של איראן",
+   "האופן המדויק שבו איראן מצליחה לעקוף את המצור הימי האמריקני ולהגדיל את הכנסותיה מהנפט",
+   "האם פתוות המנהיג העליון נגד נשק גרעיני תשתנה בפועל בעתיד"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הצבת שבעה תנאים מוקדמים לחידוש כל משא ומתן עם ארה\"ב",
+     "דרישה להפסקת המלחמה בכל החזיתות והסרת המצור הימי והסנקציות",
+     "דחיית הטענות האמריקניות על שליטה במצר הורמוז ואישור כללים חדשים לכבלי תקשורת"
+    ],
+    "inferred": [
+     "ניסיון להפעיל לחץ באמצעות שלוחיה (החות'ים) כדי לפגוע בכלכלה הסעודית וביציבות האזורית",
+     "הסתייעות בערוצים דיפלומטיים (כמו קטר, טורקיה וסין) כמתווכים מול ארה\"ב",
+     "שמירת אופציה להמשך תוכנית הגרעין או פרישה מהאמנה למניעת הפצת נשק גרעיני כתגובה ללחץ"
+    ],
+    "forecast": [
+     "המשך הלוחמה הפסיכולוגית וההתנגדות ללחץ הכלכלי באמצעות עקיפת סנקציות",
+     "היערכות צבאית מוגברת לתגובה אפשרית מצד ארה\"ב או ישראל"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "הטלת סנקציות כלכליות נוקשות וחדשות על איראן ורוסיה",
+     "שמירה על חופש השייט והאבטחה במצר הורמוז באמצעות פיקוח צבאי",
+     "בלימת ההשפעה האיראנית ונטרול יכולותיה הצבאיות"
+    ],
+    "inferred": [
+     "החלשת המשטר האיראני מבחינה כלכלית ופוליטית באמצעות מצור ימי וסנקציות",
+     "הבעת אי-יציבות וחוסר אמון במגעים מול טהרן לצד השארת פתח למו\"מ מותנה"
+    ],
+    "forecast": [
+     "החמרת האכיפה נגד גורמים מממנים ו\"צי הצללים\" של מכליות נפט",
+     "היערכות לאפשרות של הסלמה פתאומית מצד איראן או שלוחיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/saudi-led-coalition-says-houthis-fired-ballistic-missile-riyadh",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609191625",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21457074",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/houthis-claim-strikes-riyadh-yanbu-while-saudi-coalition-says-attacks-thwarted",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130479",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47845",
+    "accessed_at": "2026-09-19T23:40:28+00:00"
+   }
+  ]
+ }
+}

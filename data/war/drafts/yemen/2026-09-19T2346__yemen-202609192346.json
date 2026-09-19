@@ -1,0 +1,289 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bf76719808ab",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-19T23:46:36+00:00",
+  "window": {
+   "from": "2026-09-18T23:46:36+00:00",
+   "to": "2026-09-19T23:46:36+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609192346"
+  },
+  "summary": "הלחימה בזירת תימן והחות'ים מחריפה סביב מתקפות טילים וכטב\"מים של המורדים החות'ים לעבר מטרות ותשתיות אזרחיות ונפט בסעודיה, כולל בריאד ובינבוע, לצד התנגשות צבאית קרקעית מתמשכת בדרום תימן. סעודיה מגיבה באמצעות מערכות הגנה אווירית ופונה לבעלות ברית אזוריות ובינלאומיות לסיוע, בעוד איראן ממשיכה להשפיע על המערכה באמצעות תמיכה בחות'ים ושמירה על לחץ ימי.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - תימן",
+    "status": "פעיל עם תקיפות אוויריות ושיגורי טילים לעבר עומק סעודיה"
+   },
+   {
+    "name": "חזית דרום תימן",
+    "status": "פעיל עם עימותים קרקעיים בין כוחות הממשלה לחות'ים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09192346-01",
+    "title": "יירוט טיל בליסטי מעל ריאד ותקיפות לעבר ערים נוספות",
+    "summary": "כוחות הקואליציה בראשות סעודיה הודיו שיירו טיל בליסטי ששוגר לעבר ריאד, וסיכלו ניסיונות תקיפה באזורים נוספים כולל ינבוע, טאא'ף, ביש ופרסאן.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T19:37:52+00:00",
+    "last_update_at": "2026-09-19T22:23:27+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאשמת החות'ים בפגיעה במכה ובאתרים נוספים שנויים במחלוקת או ללא אישור מלא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21457074",
+      "published_at": "2026-09-19T22:23:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-confirms-yemens-houthi-rebels-tried-attack-its-capital-ballistic-missile",
+      "published_at": "2026-09-19T22:04:36+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+      "published_at": "2026-09-19T22:03:05+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-missiles-riyadh-and-other-cities-intercepted-saudi-coalition-says",
+      "published_at": "2026-09-19T20:52:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/houthis-claim-strikes-riyadh-yanbu-while-saudi-coalition-says-attacks-thwarted",
+      "published_at": "2026-09-19T20:28:26+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/152621",
+      "published_at": "2026-09-19T19:45:18+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369062",
+      "published_at": "2026-09-19T19:37:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09192346-02",
+    "title": "טענת החות'ים לתקיפת אתרים בריאד ובינבוע",
+    "summary": "החות'ים לקחו אחריות על שיגור טילים וכטב\"מים לעבר יעדים בריאד ומתקני עראמקו בינבוע בתגובה לתקיפות בסנעא.",
+    "axis": "החות'ים מול סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T17:23:00+00:00",
+    "last_update_at": "2026-09-19T22:04:36+00:00",
+    "what_is_not_verified": "טענות החות'ים על גרימת שריפות ענק ונזק משמעותי במטרות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-confirms-yemens-houthi-rebels-tried-attack-its-capital-ballistic-missile",
+      "published_at": "2026-09-19T22:04:36+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369045",
+      "published_at": "2026-09-19T19:05:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-riyadh-aramco-facilities-yanbu",
+      "published_at": "2026-09-19T17:23:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09192346-03",
+    "title": "קרבות עזים בדרום תימן והרוגים",
+    "summary": "דווח על עשרות הרוגים בקרבות בין כוחות הממשלה לחות'ים בדרום תימן ועל עקירת תושבים.",
+    "axis": "כוחות ממשלת תימן מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T08:57:59+00:00",
+    "last_update_at": "2026-09-19T16:16:40+00:00",
+    "what_is_not_verified": "מספר נפגעים מדויק בכל אזורי העימות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/desk-news/article/21455157",
+      "published_at": "2026-09-19T16:16:40+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
+      "published_at": "2026-09-19T15:16:03+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/more-than-112-000-displaced-in-yemen-as-houthis-seize-more-ground",
+      "published_at": "2026-09-19T08:57:59+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק במאגרי הדלק ובמתקני עראמקו בריאד ובינבוע",
+   "הטענה שאיראן מונעת באופן בלעדי מהחות'ים הגעה להפסקת אש",
+   "פרטים מלאים על ההצעה הסורית לסייע או לדחות סיוע לסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת אתרים רגישים ומתקני נפט בסעודיה בתגובה לתקיפות",
+     "אכיפת מצור ימי"
+    ],
+    "inferred": [
+     "הפעלת לחץ על סעודיה ועל הכלכלה העולמית",
+     "הרחבת שליטה שטחית בתימן"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר עומק סעודיה כל עוד העימות נמשך"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על שטחה, ריבונותה ותשתיותיה האזרחיות והאנרגטיות",
+     "בלימת התקיפות החות'יות"
+    ],
+    "inferred": [
+     "חיפוש תמיכה צבאית וטכנית מבעלות ברית כמו טורקיה ופקיסטן",
+     "חשש מהיגררות מלאה למלחמה אזורית רחבה"
+    ],
+    "forecast": [
+     "הידוק שיתופי פעולה הגנתיים ופנייה לכלים דיפלומטיים או צבאיים נוספים"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "דרישה לתנאים להחזרה להסכמים קודמים"
+    ],
+    "inferred": [
+     "שימוש בחות'ים כזרוע לחץ אזורית להשגת יעדים מול ארה\"ב וסעודיה",
+     "תמיכה במצור הימי"
+    ],
+    "forecast": [
+     "שמירה על רף מתח גבוה בזירה באמצעות בעלות בריתה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/more-than-112-000-displaced-in-yemen-as-houthis-seize-more-ground",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/desk-news/article/21455157",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369045",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-riyadh-aramco-facilities-yanbu",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-confirms-yemens-houthi-rebels-tried-attack-its-capital-ballistic-missile",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152621",
+    "accessed_at": "2026-09-19T23:46:36+00:00"
+   }
+  ]
+ }
+}

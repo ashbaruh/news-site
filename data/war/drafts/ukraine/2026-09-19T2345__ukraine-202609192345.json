@@ -1,0 +1,693 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b930ebb228c7",
+ "preview": {
+  "events": 20,
+  "levels": {
+   "initial": 14,
+   "verified": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-19T23:45:38+00:00",
+  "window": {
+   "from": "2026-09-18T23:45:38+00:00",
+   "to": "2026-09-19T23:45:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609192345"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בלחימה עצימה לאורך קו החזית, בדגש על גזרת קוסטנטיניבקה, לצד חילופי תקיפות אוויריות נרחבות הכוללות שימוש בכטב\"מים וטילים על תשתיות ואזרחים משני הצדדים. אוקראינה מרחיבה את מבצעי העומק שלה ומפתחת אמצעי הגנה חדשים נגד כטב\"מים סילוניים, בעוד ארצות הברית מטילה חבילת סנקציות חדשה ומשמעותית (\"חוק סנקציות מהגיהנום\") ומאשרת עסקת הגנה אווירית חדשה בתמיכה אירופית.",
+  "fronts": [
+   {
+    "name": "קו החזית המזרחי (גזרת קוסטנטיניבקה)",
+    "status": "פעיל מאוד עם עימותים קרביים רבים"
+   },
+   {
+    "name": "חזית התקיפות האוויריות ועומק שטח רוסיה-אוקראינה",
+    "status": "פעיל עם תקיפות הדדיות על תשתיות אנרגיה ומתקנים צבאיים"
+   },
+   {
+    "name": "חזית המרחב האווירי של אירופה ומזרח אוקראינה",
+    "status": "מתיחות גוברת סביב הפרות מרחב אווירי ואיומי כטב\"מים היברידיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09192345-01",
+    "title": "אוקראינה קוראת לסגירת 'הבתים הרוסיים'",
+    "summary": "אוקראינה קראה רשמית לממשלות בעולם להכיר באיום הביטחוני הנובע מרשת הבתים הרוסיים.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T23:39:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T23:39:00+00:00",
+    "last_update_at": "2026-09-19T23:39:00+00:00",
+    "what_is_not_verified": "האם ממשלות נוספות יפעלו לסגירת המבנים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_ae28f5a4fe0a4ac1",
+      "url": "https://www.ukrinform.net/rubric-polytics/4165787-ukraine-calls-for-russian-houses-to-be-closed-in-all-countries.html",
+      "published_at": "2026-09-19T23:39:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-02",
+    "title": "זלנסקי הודיע על אישור מבצעי טווח ארוך חדשים",
+    "summary": "נשיא אוקראינה אישר מבצעי טווח ארוך חדשים בתגובה לתקיפות רוסיות.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T23:23:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T23:23:06+00:00",
+    "last_update_at": "2026-09-19T23:23:06+00:00",
+    "what_is_not_verified": "הפרטים המדויקים על היעדים והיקף הפעולות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_c624b2039f94cb12",
+      "url": "https://meduza.io/en/news/2026/09/20/zelensky-announced-new-ukrainian-long-range-operations-in-response-to-russian-strikes",
+      "published_at": "2026-09-19T23:23:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-03",
+    "title": "אישור עסקת מכירת הגנה אווירית מארה\"ב לאוקראינה",
+    "summary": "מחלקת המדינה של ארה\"ב אישרה מכירת ציוד הגנה אווירית בשווי של כמעט 2.7 מיליארד דולר לאוקראינה.",
+    "axis": "סיוע צבאי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T23:08:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T23:08:09+00:00",
+    "last_update_at": "2026-09-19T23:08:09+00:00",
+    "what_is_not_verified": "האם העסקה תושלם בפועל ומתי יסופק הציוד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_adb806cf47382a75",
+      "url": "https://meduza.io/en/news/2026/09/20/u-s-approves-potential-2-7-billion-air-defense-sale-to-ukraine-funded-by-european-contributions-and-biden-era-military-aid",
+      "published_at": "2026-09-19T23:08:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-04",
+    "title": "הצגת רכיבי טילים צפון-קוראניים לדלגרציה יפנית",
+    "summary": "מומחי מודיעין הצבא באוקראינה הציגו רכיבי טיל בליסטי תוצרת צפון קוריאה לחבר פרלמנט מיפן שביקר בקייב.",
+    "axis": "מודיעין ושיתוף פעולה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T22:58:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T22:58:00+00:00",
+    "last_update_at": "2026-09-19T22:58:00+00:00",
+    "what_is_not_verified": "לא מאומתים פרטים נוספים על שרשרת אספקת הרכיבים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_fba9b662a60e6d96",
+      "url": "https://www.ukrinform.net/rubric-polytics/4165737-diu-shows-japanese-parliamentary-delegation-north-korean-missile-components.html",
+      "published_at": "2026-09-19T22:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-05",
+    "title": "תקיפות ארטילריה במחוז DPR",
+    "summary": "כוחות קייב הפגיזו את מחוז DPR עשרות פעמים ביממה האחרונה, וכתוצאה מכך נפצעו מספר בני אדם בהם ילדים.",
+    "axis": "חזית הלחימה הקרקעית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T22:45:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T22:45:25+00:00",
+    "last_update_at": "2026-09-19T22:45:25+00:00",
+    "what_is_not_verified": "המספר המדויק של הנפגעים והנזק אינו מאומת ממקור ניטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_2b76a8800c3af3a8",
+      "url": "https://tass.com/defense/2190157",
+      "published_at": "2026-09-19T22:45:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-06",
+    "title": "הריגת אם ושני ילדים בתקיפת כטב\"מ רוסי במחוז קייב",
+    "summary": "מתקפת כטב\"מ רוסי במחוז קייב גרמה למותם של אם ושני ילדים קטנים.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T19:37:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T19:37:00+00:00",
+    "last_update_at": "2026-09-19T20:59:51+00:00",
+    "what_is_not_verified": "פרטים מלאים על סוג הכטב\"מ המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_6f2c7152649dccd7",
+      "url": "https://kyivindependent.com/irreparable-tragedy-mother-2-children-killed-in-russian-strike-on-kyiv-oblast/",
+      "published_at": "2026-09-19T20:59:51+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_04bdcd109e8eee58",
+      "url": "https://www.ukrinform.net/rubric-ato/4165846-russian-drone-strike-kills-mother-and-two-children-in-kyiv-region.html",
+      "published_at": "2026-09-19T19:37:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נפת פאסטיב, אוקראינה",
+      "lat": 50.0734,
+      "lon": 29.9164
+     },
+     {
+      "name": "מחוז קייב, אוקראינה",
+      "lat": 50.4731,
+      "lon": 30.4674
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-07",
+    "title": "התנגשויות עצימות לאורך קו החזית",
+    "summary": "תועדו מאות עימותים קרביים לאורך קו החזית כאשר הלחימה הקשה ביותר התרחשה בגזרת קוסטנטיניבקה.",
+    "axis": "חזית הלחימה הקרקעית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T20:37:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T20:37:00+00:00",
+    "last_update_at": "2026-09-19T20:37:00+00:00",
+    "what_is_not_verified": "היקף האבדות המדויק של הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_52621cb80f15d50d",
+      "url": "https://www.ukrinform.net/rubric-ato/4165854-war-update-188-clashes-on-front-line-kostiantynivka-sector-sees-heaviest-fighting.html",
+      "published_at": "2026-09-19T20:37:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קוסטנטיניבקה, אוקראינה",
+      "lat": 48.5349,
+      "lon": 37.6924
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-08",
+    "title": "פציעת אישה וילד במחוז קייב כתוצאה מתקיפת כטב\"מ",
+    "summary": "אישה וילד נפצעו במחוז קייב כתוצאה מתקיפת כטב\"מ ומבנה חינוכי ניזוק.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T19:05:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T19:05:00+00:00",
+    "last_update_at": "2026-09-19T19:10:00+00:00",
+    "what_is_not_verified": "מצבם הבריאותי המלא של הפצועים לאחר הפינוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_b8f20f809356bb46",
+      "url": "https://www.ukrinform.net/rubric-ato/4165842-woman-and-child-injured-in-russian-drone-attack-on-kyiv-region.html",
+      "published_at": "2026-09-19T19:10:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_6449f2f1ec1ba7ef",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/19/8054259/",
+      "published_at": "2026-09-19T19:05:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-09",
+    "title": "ירוט מוצלח של כטב\"מ סילוני רוסי באמצעות רחפן מיירט",
+    "summary": "שירות הביטחון של אוקראינה דיווח על ירוט מוצלח שני באותו היום של כטב\"מ סילוני רוסי מסוג גראן באמצעות כטב\"מ מיירט ייעודי.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T17:13:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T17:13:00+00:00",
+    "last_update_at": "2026-09-19T17:13:00+00:00",
+    "what_is_not_verified": "היעילות המבצעית רחבת ההיקף של המיירט החדש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_30b04a47a4e4c963",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/19/8054255/",
+      "published_at": "2026-09-19T17:13:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-10",
+    "title": "הריגת ארבעה אזרחים ברכב אזרחי במחוז סומי",
+    "summary": "תקיפת כטב\"מ FPV רוסי פגעה ברכב אזרחי במחוז סומי והרגה ארבעה בני אדם.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T16:15:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T16:15:54+00:00",
+    "last_update_at": "2026-09-19T16:15:54+00:00",
+    "what_is_not_verified": "המניע המדויק מאחורי תקיפת הרכב הספציפי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_64eec7080a153366",
+      "url": "https://kyivindependent.com/russian-fpv-drone-strikes-civilian-car-in-sumy-oblast-killing-4/",
+      "published_at": "2026-09-19T16:15:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-11",
+    "title": "חדירת כטב\"מים למרחב האווירי של מולדובה",
+    "summary": "שירות הגבולות של מולדובה דיווח על חדירת מספר כטב\"מים למרחב האווירי של המדינה והתרסקות כטב\"מ בסמוך לגבול אוקראינה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T16:04:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T16:04:03+00:00",
+    "last_update_at": "2026-09-19T16:04:03+00:00",
+    "what_is_not_verified": "שייכותם המדויקת של כלל הכטב\"מים שחצו את הגבול.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47833",
+      "published_at": "2026-09-19T16:04:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טרויצקה, אוקראינה",
+      "lat": 49.9074,
+      "lon": 38.2868
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-12",
+    "title": "תקיפת מחסן תחמושת וחומרים דליקים במחוז זפורוז'יה",
+    "summary": "כוחות אוקראיניים תקפו מחסן תחמושת וחומרים דליקים במחוז זפורוז'יה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T15:38:13+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T15:38:13+00:00",
+    "last_update_at": "2026-09-19T15:38:13+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק שנגרם למחסן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47832",
+      "published_at": "2026-09-19T15:38:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז זפורוז'יה, אוקראינה",
+      "lat": 46.4609,
+      "lon": 34.8643
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-13",
+    "title": "השבת אזרחים אוקראיניים משטחים בכיבוש רוסי",
+    "summary": "נציב זכויות האדם של אוקראינה דיווח על השבתם של 15 אזרחים משטחים שנכבשו על ידי רוסיה, בהם אישה בת 96.",
+    "axis": "הומניטרי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T14:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T14:55:00+00:00",
+    "last_update_at": "2026-09-19T15:22:44+00:00",
+    "what_is_not_verified": "מצבם המלא של כלל האזרחים המפונים לפני קבלת טיפול.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_65cb9dec36621a75",
+      "url": "https://kyivindependent.com/ukraine-returns-15-civilians-from-russian-occupied-territories-ombudsman-says/",
+      "published_at": "2026-09-19T15:22:44+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_329e5d768cc9db59",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/19/8054244/",
+      "published_at": "2026-09-19T14:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זאליזני פורט, אוקראינה",
+      "lat": 46.1235,
+      "lon": 32.2955
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-14",
+    "title": "הרוגות ופצועות מתקיפות רוסיות במחוז חרסון",
+    "summary": "נשים נפגעו ונהרגו כתוצאה מתקיפות ארטילריה וכטב\"מים במחוז חרסון.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T14:49:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T14:49:00+00:00",
+    "last_update_at": "2026-09-19T14:49:00+00:00",
+    "what_is_not_verified": "זהותה המלאה של אחת הנשים ההרוגות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_34a96c87816743e1",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/19/8054246/",
+      "published_at": "2026-09-19T14:49:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובווורונצובקה, אוקראינה",
+      "lat": 47.4958,
+      "lon": 33.9198
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-15",
+    "title": "תקיפות רוסיות על מרכזי לוגיסטיקה ואנרגיה באוקראינה",
+    "summary": "כוחות רוסיים ביצעו תקיפות באמצעות כטב\"מים, טילים וארטילריה על מחסני נשק, מרכזי לוגיסטיקה ותשתיות אנרגיה ואם באוקראינה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T12:14:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T12:14:55+00:00",
+    "last_update_at": "2026-09-19T12:14:55+00:00",
+    "what_is_not_verified": "היקף הפגיעה המדויק בכלל המתקנים שהותקפו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f31883e042487941",
+      "url": "https://tass.com/defense/2190067",
+      "published_at": "2026-09-19T12:14:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-16",
+    "title": "חתימה על חוק סנקציות חדשות נגד רוסיה ואיראן בארה\"ב",
+    "summary": "נשיא ארה\"ב דונלד טראמפ חתם על חוק הסנקציות החדש המטיל הגבלות קשות על רוסיה ואיראן, לרבות מכסים ועיצומים על בנקים ואנרגיה.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T22:10:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T22:10:44+00:00",
+    "last_update_at": "2026-09-19T10:28:57+00:00",
+    "what_is_not_verified": "אופן יישום המכסים בפועל והשפעתם המדויקת על כלכלות צד שלישי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_3a9a4a361cdf40c7",
+      "url": "https://t.me/abualiexpress/130479",
+      "published_at": "2026-09-19T10:28:57+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_3a9a4a361cdf40c7",
+      "url": "https://meduza.io/en/news/2026/09/19/trump-signs-late-senator-lindsey-graham-s-sanctions-from-hell-law-against-russia",
+      "published_at": "2026-09-18T22:33:39+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_e416147d02234951",
+      "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-signs-russia-sanctions-bill",
+      "published_at": "2026-09-18T22:10:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-17",
+    "title": "יירוטי כטב\"מים והצהרות על אבדות אוקראיניות מצד רוסיה",
+    "summary": "מערכות ההגנה האווירית של רוסיה ירטו מאות כטב\"מים אוקראיניים וצבא רוסיה דיווח על אבדות כבדות לכוחות אוקראינה.",
+    "axis": "חזית הלחימה הקרקעית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T10:25:02+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T10:25:02+00:00",
+    "last_update_at": "2026-09-19T10:27:15+00:00",
+    "what_is_not_verified": "המספרים המדויקים של היירוטים והאבדות אינם מאומתים מגורם חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_b94f5bf5691607bf",
+      "url": "https://tass.com/defense/2190059",
+      "published_at": "2026-09-19T10:27:15+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f8e6813d22639daa",
+      "url": "https://tass.com/defense/2190057",
+      "published_at": "2026-09-19T10:25:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-18",
+    "title": "הפסקות חשמל במחוזות סמוכים בעקבות מתקפה",
+    "summary": "הפסקות חשמל ונפילות מתח דווחו באזורים שונים בעקבות מתקפה לילה של הכוחות המזוינים של אוקראינה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T07:35:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T07:35:40+00:00",
+    "last_update_at": "2026-09-19T07:35:40+00:00",
+    "what_is_not_verified": "היקף הנזק המלא למערכת החשמל המקומית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f1e11674b2ee0b48",
+      "url": "https://tass.com/society/2190033",
+      "published_at": "2026-09-19T07:35:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09192345-19",
+    "title": "תקיפות אוקראיניות לדגסטן",
+    "summary": "דווח על תקיפות אוקראיניות המכוונות לאזור מחצ'קלה שעל הים הכספי בדגסטן.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T03:46:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T03:46:01+00:00",
+    "last_update_at": "2026-09-19T03:46:01+00:00",
+    "what_is_not_verified": "התוצאות המדויקות של התקיפות בדגסטן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47825",
+      "published_at": "2026-09-19T03:46:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחצ'קלה, רוסיה",
+      "lat": 42.983,
+      "lon": 47.5049
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09192345-20",
+    "title": "פגיעת פצצות ממוחות בבניין מגורים בסומי",
+    "summary": "כוחות רוסיים פגעו בבניין מגורים רב-קומות בסומי באמצעות פצצות אוויריות מונחות, מה שהביא למותם של שני עובדי עיריית סומי ולפציעת אזרחים נוספים.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T22:19:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T22:19:00+00:00",
+    "last_update_at": "2026-09-18T23:45:38+00:00",
+    "what_is_not_verified": "מצבם המדויק של כלל הפצועים הקשים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_5dcfd702dfe4a192",
+      "url": "https://meduza.io/en/news/2026/09/19/zelensky-urges-u-s-lawmakers-to-pass-graham-s-sanctions-bill-after-russian-guided-bomb-hit-apartment-building-in-northeastern-ukraine-killing-two-city-council-employees",
+      "published_at": "2026-09-18T22:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי, אוקראינה",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "פרטים מדוייקים ומלאים על כלל האבדות בקרבות הקרקעיים מטעם שני הצדדים",
+   "השפעתן המלאה והמעשית של הסנקציות החדשות של ארה\"ב על כלכלות סין והודו",
+   "תוצאות מלאות של מבצעי הטווח הארוך החדשים שעליהם הכריז נשיא אוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.146,
+    "unit": "USD",
+    "change_pct": -0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הרחבת יכולות התקיפה לטווח ארוך",
+     "עצירת הלחץ הרוסי וקבלת אמצעי הגנה אווירית מתקדמים נוספים כמו טילי פטריוט",
+     "השבת שטחים ואזרחים המוחזקים תחת כיבוש"
+    ],
+    "inferred": [
+     "פגיעה קשה בתשתיות האנרגיה, הדלק והתעשייה הצבאית של רוסיה כדי לשחוק את יכולת הלחימה שלה",
+     "גיוס תמיכה דיפלומטית וכלכלית רחבה ממדינות אירופה וארה\"ב למען חיזוק ההגנה האווירית"
+    ],
+    "forecast": [
+     "אוקראינה תמשיך להשתמש בכטב\"מים ובאמצעי יירוט חדשים כדי להתמודד עם האיומים האוויריים של רוסיה לקראת עונת החורף",
+     "הגברת המאמצים לעגן שיתופי פעולה אזוריים נוספים (כגון פורום קרפטים) לחיזוק הביטחון והכלכלה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך פגיעה במטרות לוגיסטיות, מרכזי אנרגיה וחימוש של הצבא האוקראיני",
+     "בלימת הכוחות האוקראיניים והשגת שליטה מלאה באזורים המושפּעים"
+    ],
+    "inferred": [
+     "הגברת הלחץ על תשתיות האנרגיה והאזרחיות של אוקראינה לקראת חודשי החורף כדי לשפר עמדות מיקוח ולשחוק את המוראל",
+     "המשך תקיפות ממוקדות בעומק אוקראינה באמצעות כטב\"מים ופצצות מונחות"
+    ],
+    "forecast": [
+     "החמרת התקיפות על מתקני האנרגיה והתחבורה של אוקראינה עם ירידת הטמפרטורות",
+     "המשך פעילות צבאית אינטנסיבית לאורך צירי החזית הקרקעיים המרכזיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-signs-russia-sanctions-bill",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-returns-15-civilians-from-russian-occupied-territories-ombudsman-says/",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/19/zelensky-urges-u-s-lawmakers-to-pass-graham-s-sanctions-bill-after-russian-guided-bomb-hit-apartment-building-in-northeastern-ukraine-killing-two-city-council-employees",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/19/8054246/",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/society/2190033",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130479",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47825",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4165842-woman-and-child-injured-in-russian-drone-attack-on-kyiv-region.html",
+    "accessed_at": "2026-09-19T23:45:38+00:00"
+   }
+  ]
+ }
+}

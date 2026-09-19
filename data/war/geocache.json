@@ -64,6 +64,10 @@
 48.0159,
 37.8013
 ],
+"fastiv district, ukraine": [
+50.0734,
+29.9164
+],
 "fastiv, ukraine": [
 50.0799,
 29.9163
@@ -109,6 +113,7 @@
 49.9923,
 36.231
 ],
+"kherson oblast, ukraine": null,
 "kherson, ukraine": [
 46.6401,
 32.6144
@@ -116,6 +121,14 @@
 "khokha, yemen": [
 13.8062,
 43.2494
+],
+"kostiantynivka, ukraine": [
+48.5349,
+37.6924
+],
+"kyiv region, ukraine": [
+50.4731,
+30.4674
 ],
 "kyiv, ukraine": [
 50.45,
@@ -184,6 +197,10 @@
 47.7167,
 37.5817
 ],
+"novovorontsovka, ukraine": [
+47.4958,
+33.9198
+],
 "obukhiv, ukraine": [
 50.1102,
 30.627
@@ -235,6 +252,7 @@
 26.4494,
 56.2028
 ],
+"sumy oblast, ukraine": null,
 "sumy, ukraine": [
 50.912,
 34.8028
@@ -263,6 +281,11 @@
 34.4374,
 35.8349
 ],
+"troitske, ukraine": [
+49.9074,
+38.2868
+],
+"vyshhorod district, ukraine": null,
 "wadi al-raqqad, syria": [
 32.8011,
 35.8268
@@ -280,6 +303,10 @@
 39.8934
 ],
 "yemen": null,
+"zaliznyi port, ukraine": [
+46.1235,
+32.2955
+],
 "zaporizhzhia oblast, ukraine": [
 46.4609,
 34.8643
