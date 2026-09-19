@@ -33,17 +33,21 @@ class Clock(unittest.TestCase):
         self.assertEqual(names("2026-09-20T11:40"), ["war-brief.yml"])
         self.assertEqual(names("2026-09-20T17:59"), ["war-brief.yml"])
 
+    def test_brief_retry_after_slot(self):
+        self.assertEqual(names("2026-09-20T12:10"), ["war-brief.yml"])
+
     def test_data_every_hour(self):
-        for h in (0, 4, 9, 23):
+        for h in (0, 5, 9, 23):
             self.assertEqual(names(f"2026-09-20T{h:02d}:17"), ["update-data.yml"])
 
     def test_not_before_slot(self):
         self.assertEqual(names("2026-09-20T03:39:59"), [])
-        self.assertEqual(names("2026-09-20T04:16"), [])
+        self.assertEqual(names("2026-09-20T04:09"), [])
+        self.assertEqual(names("2026-09-20T04:40"), [])
 
     def test_missed_slot_caught_within_window(self):
         self.assertEqual(names("2026-09-20T03:59"), ["war-brief.yml"])
-        self.assertEqual(names("2026-09-20T04:00"), [])   # 20 דק' אחרי — כבר לא
+        self.assertEqual(names("2026-09-20T04:00"), [])   # 20 דק' אחרי — כבר לא (עד הניסיון של 04:10)
 
     def test_window_across_midnight(self):
         self.assertEqual(names("2026-09-20T00:30"), ["update-data.yml"])  # 00:17 עדיין בחלון

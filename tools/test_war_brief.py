@@ -50,8 +50,9 @@ class Picking(unittest.TestCase):
 class Run(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.mkdtemp()
-        self.orig = (wb.BRIEF, wb.cw.collect, wb.an.llm_json, wb.an.active_model_name)
+        self.orig = (wb.BRIEF, wb.STATUS, wb.cw.collect, wb.an.llm_json, wb.an.active_model_name)
         wb.BRIEF = os.path.join(self.tmp, "brief.js")
+        wb.STATUS = os.path.join(self.tmp, "brief_status.json")
         wb.cw.collect = lambda arena, hours=26, log=print: list(ta.ITEMS)
         self.calls = 0
 
@@ -63,7 +64,7 @@ class Run(unittest.TestCase):
         wb.an.active_model_name = lambda: "fake"
 
     def tearDown(self):
-        wb.BRIEF, wb.cw.collect, wb.an.llm_json, wb.an.active_model_name = self.orig
+        wb.BRIEF, wb.STATUS, wb.cw.collect, wb.an.llm_json, wb.an.active_model_name = self.orig
         shutil.rmtree(self.tmp)
 
     def read(self):

@@ -146,6 +146,20 @@ def build_arena(arena, items, events, window_hours, now, known, geocode=None):
     return doc["events"], ""
 
 
+STATUS = os.path.join(ROOT, "data", "war", "brief_status.json")
+
+
+def report(msg, ok=False):
+    """מה קרה בריצה האחרונה — נשמר ל-git, כדי שאפשר לדעת למה לא התעדכן בלי להיכנס ליומני GitHub."""
+    print(msg)
+    try:
+        with open(STATUS, "w", encoding="utf-8", newline="\n") as f:
+            json.dump({"at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "ok": ok, "msg": msg},
+                      f, ensure_ascii=False, indent=1)
+    except OSError:
+        pass
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="להריץ גם אם המועד הנוכחי כבר בוצע")
@@ -155,7 +169,7 @@ def main(argv=None):
     slot = current_slot(now)
     old = load_brief()
     if not args.force and old.get("slot") == slot.isoformat():
-        return print(f"עדכון הביניים של {slot:%H:%M} כבר בוצע — אין מה לעשות")
+        return print(f"עדכון הביניים של {slot:%H:%M} כבר בוצע — אין מה לעשות")   # לא דורס את הסטטוס
 
     since = min(previous_slot(slot).astimezone(timezone.utc), now - timedelta(hours=4)) - timedelta(hours=1)
     window_hours = min(max((now - since).total_seconds() / 3600, 4), 24)
@@ -171,11 +185,11 @@ def main(argv=None):
         print(f"{arena}: {len(per_arena[arena])} כתבות (טלגרם: {sum(i['source_id'].startswith('src_tg_') for i in per_arena[arena])})")
 
     if not any(per_arena.values()):
-        return print("אין כתבות חדשות באף זירה — העדכון הקודם נשאר")
+        return report("אין כתבות חדשות באף זירה — העדכון הקודם נשאר")
     try:
         out = an.llm_json(an.SYSTEM, prompt(per_arena), BRIEF_SCHEMA)
     except Exception as e:
-        return print(f"הבינה נכשלה — העדכון הקודם נשאר: {str(e)[:300]}")
+        return report(f"הבינה נכשלה — העדכון הקודם נשאר: {str(e)[:300]}")
 
     from geocode import Geocoder
     geocode = Geocoder()
@@ -212,8 +226,8 @@ def main(argv=None):
         json.dump(brief, f, ensure_ascii=False, indent=1)
         f.write(";\n")
     os.replace(tmp, BRIEF)                               # קובץ חצי-כתוב לעולם לא נשאר במקום
-    print(f"עדכון ביניים {slot:%H:%M}: " + ", ".join(f"{a} {len(v['events'])}" for a, v in arenas.items()) +
-          (" · דולגו: " + "; ".join(f"{a}: {w}" for a, w in skipped.items()) if skipped else ""))
+    report(f"עדכון ביניים {slot:%H:%M}: " + ", ".join(f"{a} {len(v['events'])}" for a, v in arenas.items()) +
+           (" · דולגו: " + "; ".join(f"{a}: {w}" for a, w in skipped.items()) if skipped else ""), ok=True)
 
 
 if __name__ == "__main__":
