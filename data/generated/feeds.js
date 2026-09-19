@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T19:17:26+00:00",
-  "fetched_at": "2026-09-19T19:17:26+00:00"
+  "checked_at": "2026-09-19T20:18:03+00:00",
+  "fetched_at": "2026-09-19T20:18:03+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Fox Left For Dead After Being Run Over is Now Recovering Thanks to Swimming Lessons",
+    "title_he": "Fox Left For Dead לאחר שנדרס מתאושש כעת הודות לשיעורי שחייה",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/fox-left-for-dead-on-road-is-recovering-thanks-to-swim-lessons/",
+    "date": "2026-09-19T20:13:56+00:00"
+   },
    {
     "title_en": "Cataract Surgery Restores Sight for 54-Year-Old Chimpanzee–the First Such Procedure at Chimp Haven",
     "title_he": "ניתוח קטרקט מחזיר את הראייה לשימפנזה בן 54 - ההליך הראשון שכזה בשימפנזה הייבן",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/mexico-reintroduced-bison-into-precious-desert-ecosystem-after-century-long-absence/",
     "date": "2026-09-16T13:00:13+00:00"
-   },
-   {
-    "title_en": "Elephants Can Think Before They Act and Resist Impulsive Behavior, Shows Study",
-    "title_he": "פילים יכולים לחשוב לפני שהם פועלים ולהתנגד להתנהגות אימפולסיבית, מראה מחקר",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/",
-    "date": "2026-09-13T11:00:25+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T19:17:40+00:00",
-  "fetched_at": "2026-09-19T19:17:40+00:00"
+  "checked_at": "2026-09-19T20:18:19+00:00",
+  "fetched_at": "2026-09-19T20:18:19+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T19:17:40+00:00",
-  "fetched_at": "2026-09-19T19:17:40+00:00"
+  "checked_at": "2026-09-19T20:18:19+00:00",
+  "fetched_at": "2026-09-19T20:18:19+00:00"
  },
- "generated_at": "2026-09-19T19:17:40+00:00",
+ "generated_at": "2026-09-19T20:18:19+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T19:17:27+00:00",
-  "fetched_at": "2026-09-19T19:17:27+00:00"
+  "checked_at": "2026-09-19T20:18:04+00:00",
+  "fetched_at": "2026-09-19T20:18:04+00:00"
  },
  "ifa": {
   "data": [
@@ -516,7 +516,7 @@ window.DB.generated = {
     "home": "מכבי חיפה",
     "away": "עירוני טבריה",
     "round": "מחזור 5",
-    "score": "",
+    "score": "3-2",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -525,7 +525,7 @@ window.DB.generated = {
     "home": "מכבי נתניה",
     "away": "מכבי ת\"א",
     "round": "מחזור 5",
-    "score": "",
+    "score": "1-2",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -534,7 +534,7 @@ window.DB.generated = {
     "home": "הפועל ב\"ש",
     "away": "עירוני ק\"ש",
     "round": "מחזור 5",
-    "score": "",
+    "score": "1-0",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -543,7 +543,7 @@ window.DB.generated = {
     "home": "בית\"ר ירושלים",
     "away": "הפועל חיפה",
     "round": "מחזור 5",
-    "score": "",
+    "score": "2-1",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T19:17:28+00:00",
-  "fetched_at": "2026-09-19T19:17:28+00:00"
+  "checked_at": "2026-09-19T20:18:05+00:00",
+  "fetched_at": "2026-09-19T20:18:05+00:00"
  },
  "tv": {
   "data": [
@@ -2283,6 +2283,13 @@ window.DB.generated = {
     "title": "פרותיאס וולאס - אליצור רמלה"
    },
    {
+    "date": "2026-09-23",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל העמק - עירוני קריית אתא"
+   },
+   {
     "date": "2026-09-24",
     "time": "19:00",
     "channel": "ספורט 5+ לייב",
@@ -2375,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T19:17:33+00:00",
-  "fetched_at": "2026-09-19T19:17:33+00:00"
+  "checked_at": "2026-09-19T20:18:11+00:00",
+  "fetched_at": "2026-09-19T20:18:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2479,6 +2486,42 @@ window.DB.generated = {
      "round": "מחזור 5",
      "score": "1-0",
      "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:00",
+     "home": "מכבי חיפה",
+     "away": "עירוני טבריה",
+     "round": "מחזור 5",
+     "score": "3-2",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:00",
+     "home": "מכבי נתניה",
+     "away": "מכבי ת\"א",
+     "round": "מחזור 5",
+     "score": "1-2",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:15",
+     "home": "הפועל ב\"ש",
+     "away": "עירוני ק\"ש",
+     "round": "מחזור 5",
+     "score": "1-0",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "20:30",
+     "home": "בית\"ר ירושלים",
+     "away": "הפועל חיפה",
+     "round": "מחזור 5",
+     "score": "2-1",
+     "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
    "results_available": true,
@@ -2500,8 +2543,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T19:17:33+00:00",
-  "fetched_at": "2026-09-19T19:17:33+00:00"
+  "checked_at": "2026-09-19T20:18:11+00:00",
+  "fetched_at": "2026-09-19T20:18:11+00:00"
  },
  "ai": {
   "data": {
@@ -2532,7 +2575,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 422,
+     "likes": 423,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2564,6 +2607,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 73,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
@@ -2571,17 +2621,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 72,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2592,25 +2635,25 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+     "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 87,
-     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+     "likes": 82,
+     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T19:17:39+00:00",
-  "fetched_at": "2026-09-19T19:17:39+00:00"
+  "checked_at": "2026-09-19T20:18:16+00:00",
+  "fetched_at": "2026-09-19T20:18:16+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "21:00 בספורט3: אוסקר גלוך בהרכב אייאקס מול אקסלסיור",
+     "title": "צפו: אוסקר גלוך בישל, אבל אייאקס שוב פישלה מול אקסלסיור",
      "link": "https://sports.walla.co.il/item/3868890",
-     "date": "2026-09-19T19:55:00+00:00",
+     "date": "2026-09-19T22:54:00+00:00",
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
@@ -2639,33 +2682,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868857",
      "date": "2026-09-19T16:24:00+00:00",
      "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "מעל כולם: הציון שקיבל מנור סולומון באנגליה",
-     "link": "https://www.one.co.il/Article/533849.html?ref=rss",
-     "date": "2026-09-19T14:05:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
-     "link": "https://www.one.co.il/Article/533845.html?ref=rss",
-     "date": "2026-09-19T13:11:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
-     "title": "בישול לסולומון, ווסטהאם ומילוול נפרדו ב-2:2",
-     "link": "https://www.one.co.il/Article/533814.html?ref=rss",
-     "date": "2026-09-19T11:30:00+00:00",
-     "source": "ONE",
      "players": [
       "מנור סולומון"
      ]
@@ -2740,6 +2756,33 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T19:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T08:17:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
+     "link": "https://sports.walla.co.il/item/3868373",
+     "date": "2026-09-16T22:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -2943,7 +2986,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T19:17:36+00:00",
-  "fetched_at": "2026-09-19T19:17:36+00:00"
+  "checked_at": "2026-09-19T20:18:13+00:00",
+  "fetched_at": "2026-09-19T20:18:13+00:00"
  }
 };
