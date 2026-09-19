@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T14:17:15+00:00",
-  "fetched_at": "2026-09-19T14:17:15+00:00"
+  "checked_at": "2026-09-19T14:49:21+00:00",
+  "fetched_at": "2026-09-19T14:49:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T14:17:27+00:00",
-  "fetched_at": "2026-09-19T14:17:27+00:00"
+  "checked_at": "2026-09-19T14:49:37+00:00",
+  "fetched_at": "2026-09-19T14:49:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T14:17:28+00:00",
-  "fetched_at": "2026-09-19T14:17:28+00:00"
+  "checked_at": "2026-09-19T14:49:37+00:00",
+  "fetched_at": "2026-09-19T14:49:37+00:00"
  },
- "generated_at": "2026-09-19T14:17:28+00:00",
+ "generated_at": "2026-09-19T14:49:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T14:17:16+00:00",
-  "fetched_at": "2026-09-19T14:17:16+00:00"
+  "checked_at": "2026-09-19T14:49:22+00:00",
+  "fetched_at": "2026-09-19T14:49:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T14:17:17+00:00",
-  "fetched_at": "2026-09-19T14:17:17+00:00"
+  "checked_at": "2026-09-19T14:49:23+00:00",
+  "fetched_at": "2026-09-19T14:49:23+00:00"
  },
  "tv": {
   "data": [
@@ -2374,8 +2374,9 @@ window.DB.generated = {
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-19T14:17:20+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-19T14:49:29+00:00",
   "fetched_at": "2026-09-19T14:17:20+00:00"
  },
  "ligat_haal": {
@@ -2482,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T14:17:20+00:00",
-  "fetched_at": "2026-09-19T14:17:20+00:00"
+  "checked_at": "2026-09-19T14:49:29+00:00",
+  "fetched_at": "2026-09-19T14:49:29+00:00"
  },
  "ai": {
   "data": {
@@ -2528,8 +2529,15 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 129,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "MiniCPM5-2B WebGPU Pi",
+     "desc_en": "A coding agent running entirely in your browser",
+     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
+     "likes": 75,
+     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2537,13 +2545,6 @@ window.DB.generated = {
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 91,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "MiniCPM5-2B WebGPU Pi",
-     "desc_en": "A coding agent running entirely in your browser",
-     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 74,
-     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2583,44 +2584,26 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T14:17:27+00:00",
-  "fetched_at": "2026-09-19T14:17:27+00:00"
+  "checked_at": "2026-09-19T14:49:36+00:00",
+  "fetched_at": "2026-09-19T14:49:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "צפו: מנור סולומון בישל, ווסטהאם חזרה מ-2:0 ל-2:2 בדרבי הסוער",
-     "link": "https://sports.walla.co.il/item/3868857",
-     "date": "2026-09-19T16:24:00+00:00",
+     "title": "מנור סולומון: \"מאוכזבים מאוד. התחלנו רע, לא עשינו כלום\"",
+     "link": "https://sports.walla.co.il/item/3868919",
+     "date": "2026-09-19T17:31:00+00:00",
      "source": "וואלה",
      "players": [
       "מנור סולומון"
      ]
     },
     {
-     "title": "מעל כולם: הציון שקיבל מנור סולומון באנגליה",
-     "link": "https://www.one.co.il/Article/533849.html?ref=rss",
-     "date": "2026-09-19T14:05:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
-     "link": "https://www.one.co.il/Article/533845.html?ref=rss",
-     "date": "2026-09-19T13:11:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
-     "title": "בישול לסולומון, ווסטהאם ומילוול נפרדו ב-2:2",
-     "link": "https://www.one.co.il/Article/533814.html?ref=rss",
-     "date": "2026-09-19T11:30:00+00:00",
-     "source": "ONE",
+     "title": "צפו: מנור סולומון בישל, ווסטהאם חזרה מ-2:0 ל-2:2 בדרבי הסוער",
+     "link": "https://sports.walla.co.il/item/3868857",
+     "date": "2026-09-19T16:24:00+00:00",
+     "source": "וואלה",
      "players": [
       "מנור סולומון"
      ]
@@ -2671,15 +2654,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אחוות \"הבנים של\": השותף החדש המצוין של רביבו",
-     "link": "https://www.one.co.il/Article/533811.html?ref=rss",
-     "date": "2026-09-19T07:40:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
      "title": "\"שם המשפחה רביבו שוב בכותרות בספרד\": הערב הגדול של רוי",
      "link": "https://sports.walla.co.il/item/3868842",
      "date": "2026-09-19T07:28:00+00:00",
@@ -2689,39 +2663,66 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "חיים רביבו: התחלה מהנה, הדרך עוד ארוכה וקשה",
-     "link": "https://www.one.co.il/Article/533817.html?ref=rss",
-     "date": "2026-09-19T06:04:00+00:00",
-     "source": "ONE",
+     "title": "כוכב: שני בישולים לרוי רביבו, ניצחון בכורה לאלצ'ה",
+     "link": "https://sports.walla.co.il/item/3868781",
+     "date": "2026-09-18T23:59:00+00:00",
+     "source": "וואלה",
      "players": [
       "רועי רביבו"
      ]
     },
     {
-     "title": "בעקבות היכולת: החוזה של סולומון בווסטהאם נבחן",
-     "link": "https://www.one.co.il/Article/533823.html?ref=rss",
-     "date": "2026-09-19T05:35:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"רביבו היה מכריע בהתקפה, הגבהה שתיכנס לספרים\"",
-     "link": "https://www.one.co.il/Article/533809.html?ref=rss",
-     "date": "2026-09-19T03:05:00+00:00",
-     "source": "ONE",
+     "title": "בספרד המומים מרוי רביבו: \"עצום, הוא הוא החדשות הגדולות של המשחק\"",
+     "link": "https://sports.walla.co.il/item/3868813",
+     "date": "2026-09-18T22:47:00+00:00",
+     "source": "וואלה",
      "players": [
       "רועי רביבו"
      ]
     },
     {
-     "title": "בטורקיה התלהבו: השם רביבו שוב באור הזרקורים",
-     "link": "https://www.one.co.il/Article/533808.html?ref=rss",
-     "date": "2026-09-19T03:00:00+00:00",
-     "source": "ONE",
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T19:56:00+00:00",
+     "source": "וואלה",
      "players": [
-      "רועי רביבו"
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T08:17:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
+     "link": "https://sports.walla.co.il/item/3868373",
+     "date": "2026-09-16T22:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
+     "link": "https://sports.walla.co.il/item/3867493",
+     "date": "2026-09-13T19:54:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "העסקה הזאת \"מסבכת את האפשרות להשאיר את דני אבדיה\"",
+     "link": "https://sports.walla.co.il/item/3867431",
+     "date": "2026-09-13T11:29:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -2925,7 +2926,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T14:17:24+00:00",
-  "fetched_at": "2026-09-19T14:17:24+00:00"
+  "checked_at": "2026-09-19T14:49:33+00:00",
+  "fetched_at": "2026-09-19T14:49:33+00:00"
  }
 };
