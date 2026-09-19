@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T10:17:14+00:00",
-  "fetched_at": "2026-09-19T10:17:14+00:00"
+  "checked_at": "2026-09-19T11:17:18+00:00",
+  "fetched_at": "2026-09-19T11:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T10:17:23+00:00",
-  "fetched_at": "2026-09-19T10:17:23+00:00"
+  "checked_at": "2026-09-19T11:17:30+00:00",
+  "fetched_at": "2026-09-19T11:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T10:17:23+00:00",
-  "fetched_at": "2026-09-19T10:17:23+00:00"
+  "checked_at": "2026-09-19T11:17:30+00:00",
+  "fetched_at": "2026-09-19T11:17:30+00:00"
  },
- "generated_at": "2026-09-19T10:17:23+00:00",
+ "generated_at": "2026-09-19T11:17:30+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "גל של רכבי פרימיום סיניים בדרך לישראל. איך הם יתקבלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556915",
-     "date": "2026-09-19T07:30:00+00:00"
+     "title": "\"בצ'כיה אין מס רכישה גם על דירה עשירית\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001554910",
+     "date": "2026-09-19T10:30:00+00:00"
     },
     {
      "title": "דיווחים בסעודיה: אזעקות הופעלו בריאד במהלך הלילה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T08:56:00+00:00"
+     "date": "2026-09-19T11:00:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T10:17:14+00:00",
-  "fetched_at": "2026-09-19T10:17:14+00:00"
+  "checked_at": "2026-09-19T11:17:19+00:00",
+  "fetched_at": "2026-09-19T11:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T10:17:15+00:00",
-  "fetched_at": "2026-09-19T10:17:15+00:00"
+  "checked_at": "2026-09-19T11:17:20+00:00",
+  "fetched_at": "2026-09-19T11:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2375,8 +2375,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T10:17:16+00:00",
-  "fetched_at": "2026-09-19T10:17:16+00:00"
+  "checked_at": "2026-09-19T11:17:22+00:00",
+  "fetched_at": "2026-09-19T11:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2482,8 +2482,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T10:17:16+00:00",
-  "fetched_at": "2026-09-19T10:17:16+00:00"
+  "checked_at": "2026-09-19T11:17:22+00:00",
+  "fetched_at": "2026-09-19T11:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2528,7 +2528,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2546,6 +2546,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
@@ -2553,18 +2560,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 66,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 139,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
@@ -2572,23 +2579,25 @@ window.DB.generated = {
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
      "likes": 91,
      "link": "https://huggingface.co/spaces/tencent/AuK"
-    },
-    {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 138,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T10:17:21+00:00",
-  "fetched_at": "2026-09-19T10:17:21+00:00"
+  "checked_at": "2026-09-19T11:17:28+00:00",
+  "fetched_at": "2026-09-19T11:17:28+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מנור סולומון בהרכב בדרבי הלונדוני הטעון שחזר אחרי 14 שנה",
+     "link": "https://sports.walla.co.il/item/3868857",
+     "date": "2026-09-19T13:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "עוד סעיף נחשף: טוטנהאם יכולה להרוויח יותר על מנור סולומון",
      "link": "https://sports.walla.co.il/item/3868867",
@@ -2713,15 +2722,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T19:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -2925,7 +2925,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T10:17:19+00:00",
-  "fetched_at": "2026-09-19T10:17:19+00:00"
+  "checked_at": "2026-09-19T11:17:25+00:00",
+  "fetched_at": "2026-09-19T11:17:25+00:00"
  }
 };
