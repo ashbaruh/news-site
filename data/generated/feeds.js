@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:17:28+00:00",
-  "fetched_at": "2026-09-19T18:17:28+00:00"
+  "checked_at": "2026-09-19T19:17:26+00:00",
+  "fetched_at": "2026-09-19T19:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:17:40+00:00",
-  "fetched_at": "2026-09-19T18:17:40+00:00"
+  "checked_at": "2026-09-19T19:17:40+00:00",
+  "fetched_at": "2026-09-19T19:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:17:40+00:00",
-  "fetched_at": "2026-09-19T18:17:40+00:00"
+  "checked_at": "2026-09-19T19:17:40+00:00",
+  "fetched_at": "2026-09-19T19:17:40+00:00"
  },
- "generated_at": "2026-09-19T18:17:40+00:00",
+ "generated_at": "2026-09-19T19:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "מתקפה של החות'ים על סעודיה: שרפת ענק בנמל התעופה הראשי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T17:36:00+00:00"
+     "date": "2026-09-19T19:01:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:17:29+00:00",
-  "fetched_at": "2026-09-19T18:17:29+00:00"
+  "checked_at": "2026-09-19T19:17:27+00:00",
+  "fetched_at": "2026-09-19T19:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -498,7 +498,7 @@ window.DB.generated = {
     "home": "מכבי פ\"ת",
     "away": "הפועל ירושלים",
     "round": "מחזור 5",
-    "score": "",
+    "score": "2-4",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -507,7 +507,7 @@ window.DB.generated = {
     "home": "בני סכנין",
     "away": "הפועל ר\"ג",
     "round": "מחזור 5",
-    "score": "",
+    "score": "1-0",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:17:30+00:00",
-  "fetched_at": "2026-09-19T18:17:30+00:00"
+  "checked_at": "2026-09-19T19:17:28+00:00",
+  "fetched_at": "2026-09-19T19:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2375,8 +2375,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:17:31+00:00",
-  "fetched_at": "2026-09-19T18:17:31+00:00"
+  "checked_at": "2026-09-19T19:17:33+00:00",
+  "fetched_at": "2026-09-19T19:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2461,6 +2461,24 @@ window.DB.generated = {
      "round": "מחזור 5",
      "score": "3-0",
      "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "19:30",
+     "home": "מכבי פ\"ת",
+     "away": "הפועל ירושלים",
+     "round": "מחזור 5",
+     "score": "2-4",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-09-19",
+     "time": "19:30",
+     "home": "בני סכנין",
+     "away": "הפועל ר\"ג",
+     "round": "מחזור 5",
+     "score": "1-0",
+     "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
    "results_available": true,
@@ -2482,8 +2500,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:17:31+00:00",
-  "fetched_at": "2026-09-19T18:17:31+00:00"
+  "checked_at": "2026-09-19T19:17:33+00:00",
+  "fetched_at": "2026-09-19T19:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2514,28 +2532,28 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 421,
+     "likes": 422,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 135,
+     "likes": 136,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 93,
+     "likes": 94,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2556,7 +2574,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 70,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2574,17 +2592,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Marigold V2",
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 82,
-     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
+     "likes": 87,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:17:39+00:00",
-  "fetched_at": "2026-09-19T18:17:39+00:00"
+  "checked_at": "2026-09-19T19:17:39+00:00",
+  "fetched_at": "2026-09-19T19:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2698,15 +2716,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אחוות \"הבנים של\": השותף החדש המצוין של רביבו",
-     "link": "https://www.one.co.il/Article/533811.html?ref=rss",
-     "date": "2026-09-19T07:40:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
      "title": "\"שם המשפחה רביבו שוב בכותרות בספרד\": הערב הגדול של רוי",
      "link": "https://sports.walla.co.il/item/3868842",
      "date": "2026-09-19T07:28:00+00:00",
@@ -2719,6 +2728,15 @@ window.DB.generated = {
      "title": "כוכב: שני בישולים לרוי רביבו, ניצחון בכורה לאלצ'ה",
      "link": "https://sports.walla.co.il/item/3868781",
      "date": "2026-09-18T23:59:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בספרד המומים מרוי רביבו: \"עצום, הוא הוא החדשות הגדולות של המשחק\"",
+     "link": "https://sports.walla.co.il/item/3868813",
+     "date": "2026-09-18T22:47:00+00:00",
      "source": "וואלה",
      "players": [
       "רועי רביבו"
@@ -2925,7 +2943,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:17:35+00:00",
-  "fetched_at": "2026-09-19T18:17:35+00:00"
+  "checked_at": "2026-09-19T19:17:36+00:00",
+  "fetched_at": "2026-09-19T19:17:36+00:00"
  }
 };
