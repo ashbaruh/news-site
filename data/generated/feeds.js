@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:03:53+00:00",
-  "fetched_at": "2026-09-19T18:03:53+00:00"
+  "checked_at": "2026-09-19T18:17:28+00:00",
+  "fetched_at": "2026-09-19T18:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:04:03+00:00",
-  "fetched_at": "2026-09-19T18:04:03+00:00"
+  "checked_at": "2026-09-19T18:17:40+00:00",
+  "fetched_at": "2026-09-19T18:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:04:04+00:00",
-  "fetched_at": "2026-09-19T18:04:04+00:00"
+  "checked_at": "2026-09-19T18:17:40+00:00",
+  "fetched_at": "2026-09-19T18:17:40+00:00"
  },
- "generated_at": "2026-09-19T18:04:04+00:00",
+ "generated_at": "2026-09-19T18:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
+     "date": "2026-09-19T18:00:00+00:00"
+    },
+    {
+     "title": "תשעה ישראלים נעצרו בטורקיה בחשד למעורבות ברשת ההונאה שנחשפה במדינה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556946",
+     "date": "2026-09-19T17:24:00+00:00"
+    },
+    {
+     "title": "רפאל מאשרת את חשיפת גלובס: בדרך לעסקת ענק בצ׳כיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556945",
+     "date": "2026-09-19T17:02:00+00:00"
+    },
     {
      "title": "7 מיליון מבקשי מקלט נהרו לאירופה והולידו מפץ פוליטי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556831",
@@ -159,24 +174,9 @@ window.DB.generated = {
      "date": "2026-09-18T12:35:00+00:00"
     },
     {
-     "title": "המחליף של באפט: חקלאי, צלם ופילנתרופ",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556930",
-     "date": "2026-09-18T11:52:00+00:00"
-    },
-    {
      "title": "וורן באפט בהודעה דרמטית: פורש מתפקיד יו\"ר ברקשייר - \"הזמן תמיד מנצח\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556929",
      "date": "2026-09-18T10:10:00+00:00"
-    },
-    {
-     "title": "על סף חתימה: עסקת הענק של רפאל בצ'כיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556924",
-     "date": "2026-09-18T08:30:00+00:00"
-    },
-    {
-     "title": "קרני בירך את הצעת האיחוד האירופי ורמז לטראמפ: \"המכסים הפכו לנשק\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556923",
-     "date": "2026-09-18T05:41:00+00:00"
     },
     {
      "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:03:54+00:00",
-  "fetched_at": "2026-09-19T18:03:54+00:00"
+  "checked_at": "2026-09-19T18:17:29+00:00",
+  "fetched_at": "2026-09-19T18:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:03:54+00:00",
-  "fetched_at": "2026-09-19T18:03:54+00:00"
+  "checked_at": "2026-09-19T18:17:30+00:00",
+  "fetched_at": "2026-09-19T18:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2375,8 +2375,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T18:03:57+00:00",
-  "fetched_at": "2026-09-19T18:03:57+00:00"
+  "checked_at": "2026-09-19T18:17:31+00:00",
+  "fetched_at": "2026-09-19T18:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2482,8 +2482,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:03:57+00:00",
-  "fetched_at": "2026-09-19T18:03:57+00:00"
+  "checked_at": "2026-09-19T18:17:31+00:00",
+  "fetched_at": "2026-09-19T18:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2514,7 +2514,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 420,
+     "likes": 421,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2535,14 +2535,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 92,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
@@ -2583,8 +2583,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:04:02+00:00",
-  "fetched_at": "2026-09-19T18:04:02+00:00"
+  "checked_at": "2026-09-19T18:17:39+00:00",
+  "fetched_at": "2026-09-19T18:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2925,7 +2925,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T18:04:00+00:00",
-  "fetched_at": "2026-09-19T18:04:00+00:00"
+  "checked_at": "2026-09-19T18:17:35+00:00",
+  "fetched_at": "2026-09-19T18:17:35+00:00"
  }
 };
