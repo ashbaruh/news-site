@@ -494,13 +494,16 @@ footer.site a { color: var(--accent); }
 .quote.tv-tile .tradingview-widget-container, .quote.tv-tile iframe { width: 100% !important; height: 100% !important; }
 .quotes { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
 .quotes .quote { min-height: 88px; box-sizing: border-box; }
-/* בנייד: שורה אחת שגוללים הצידה — ריבוע ברוחב מלא (בשתי עמודות המחירים נחתכים, בעמודה אחת הרשימה ארוכה מדי) */
+/* בנייד: כל הסימולים גלויים בשתי עמודות (19/09/2026: בשורה שגוללים הצידה לא היה ברור שיש עוד מניות).
+   כדי שמחיר של 5 ספרות לא ייחתך בריבוע של TradingView — שוליים צרים סביב הרשימה, והריבוע רחב ככל האפשר. */
 @media (max-width: 700px) {
-  .quotes { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 8px; padding-bottom: 6px; }
-  .quotes .quote { flex: 0 0 180px; scroll-snap-align: start; }
-  /* בלי זה הגלילה הפנימית מרחיבה את כל הדף הצידה (פריט ב-grid מתרחב לפי התוכן) */
+  .wrap { padding-inline: 10px; }
+  #markets-slot .corner .body { padding-inline: 8px; }
+  .quotes { grid-template-columns: 1fr 1fr; gap: 6px; grid-auto-flow: dense; }
+  .quote.tv-tile[data-sym="TA 125"] { grid-column: span 2; }   /* 4,164.350 — הארוך ביותר, נחתך בחצי רוחב */
+  .quote.tv-tile, .quotes .quote { height: 80px; min-height: 80px; }
   .grid > *, .corner, .corner .body, #mk-rest { min-width: 0; }
-  .quotes { max-width: 100%; }
+}
 }
 
 /* עדכון ביניים — מעל הניתוח היומי */

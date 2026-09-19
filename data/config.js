@@ -185,9 +185,8 @@ window.DB.config = {
   } catch (e) { /* אין location — לא משנה כלום */ }
 })();
 
-/* ---- TradingView: מחירים בגרסה הציבורית ----
-   ווידג'טים רשמיים וחינמיים, מותרים באתר לא מסחרי בתנאי שהקרדיט נשאר כפי שהוא.
-   במצב אישי לא נטענים (שם CNBC נותן נתונים מפורטים יותר). */
+/* ---- TradingView: ריבוע מחיר חי לכל סימול ברשימת המעקב ----
+   ווידג'טים רשמיים וחינמיים, מותרים באתר לא מסחרי בתנאי שהקרדיט נשאר כפי שהוא. */
 window.DB.config.tradingview = {
   symbols: {
     'BTC': 'BITSTAMP:BTCUSD', 'ETH': 'BITSTAMP:ETHUSD', 'DOGE': 'BINANCE:DOGEUSDT',
@@ -195,6 +194,5 @@ window.DB.config.tradingview = {
     'ZIM': 'NYSE:ZIM', 'NCLH': 'NYSE:NCLH', 'PFE': 'NYSE:PFE',
     'SPX 500': 'FOREXCOM:SPXUSD', 'NDX 100': 'FOREXCOM:NSXUSD', 'USOIL': 'TVC:USOIL',   // SP:SPX / NASDAQ:NDX חסומים בווידג'טים (נבדק)
     'USD/ILS': 'FX_IDC:USDILS', 'EUR/ILS': 'FX_IDC:EURILS', 'EUR/USD': 'FX:EURUSD'
-  },
-  heatmap_source: 'SPX500'     // מפת חום: כל מניות S&P 500 צבועות לפי השינוי היומי (Hotlists מציג גם מניות זבל)
+  }
 };

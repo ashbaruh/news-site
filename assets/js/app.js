@@ -797,23 +797,7 @@
     box.firstChild.appendChild(sc);
   }
 
-  var tvRendered = false;
-  function renderMarketsTV() {
-    var slot = $('#markets-tv-slot');
-    if (!slot || tvRendered) return;
-    if (!tvEnabled()) { slot.innerHTML = ''; return; }
-    tvRendered = true;
-    slot.innerHTML = corner('2ב', 'מפת חום של S&P 500 — TradingView', 'markets',
-      '<div class="tv-box" id="tv-hot"></div>' +
-      '<p class="locked"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">נתונים: TradingView</a></p>', true,
-      { level: 'loading', label: 'חי — מתעדכן בתוך TradingView', age_text: 'הרענון נעשה בתוך הווידג\'ט עצמו' });
-    tvMount(document.getElementById('tv-hot'), 'embed-widget-stock-heatmap.js', {
-      dataSource: C.tradingview.heatmap_source || 'SPX500', exchanges: [], grouping: 'sector',
-      blockSize: 'market_cap_basic', blockColor: 'change', hasTopBar: false, isDataSetEnabled: false,
-      isZoomEnabled: true, hasSymbolTooltip: true, isMonoSize: false,
-      colorTheme: 'dark', locale: 'he_IL', width: '100%', height: 420
-    });
-  }
+  /* מפת החום של S&P 500 הוסרה (19/09/2026, בקשת בעל האתר: תופסת מקום ולא עוזרת). */
 
   /* מחזיר { key, q, down, fallback } או null */
   function resolveQuote(symbol) {
@@ -1039,6 +1023,7 @@
         if (!tv) return;
         var box = document.createElement('div');
         box.className = 'quote tv-tile';
+        box.dataset.sym = q.symbol;
         box.title = q.symbol + ' — TradingView (בהשהיה לפי הבורסה)';
         grid.appendChild(box);
         tvMount(box, 'embed-widget-single-quote.js',
@@ -1524,7 +1509,6 @@
   renderDaily();
   renderWars();
   renderMarkets();
-  renderMarketsTV();
   renderAI();
   renderSports();
   renderPositive();
