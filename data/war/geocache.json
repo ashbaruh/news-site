@@ -1,4 +1,8 @@
 {
+"al-khawkhah, yemen": [
+13.8056,
+43.3474
+],
 "al-mansouri, lebanon": [
 33.1737,
 35.2111
@@ -16,6 +20,7 @@
 48.1505
 ],
 "bab al-mandab strait, yemen": null,
+"bab al-mandeb, yemen": null,
 "bab el-mandab, yemen": null,
 "bab el-mandeb": [
 12.5744,
@@ -30,6 +35,11 @@
 39.9057,
 116.3913
 ],
+"beirut, lebanon": [
+33.8892,
+35.5026
+],
+"bekaa, lebanon": null,
 "chisinau, moldova": [
 47.0245,
 28.8323
@@ -54,6 +64,14 @@
 32.4407,
 34.9401
 ],
+"henichesk, ukraine": [
+46.1662,
+34.8089
+],
+"isfahan province, iran": [
+33.1881,
+52.4982
+],
 "isfahan, iran": [
 32.6708,
 51.665
@@ -61,6 +79,14 @@
 "istanbul, turkey": [
 41.0064,
 28.9759
+],
+"jeddah, saudi arabia": [
+21.5504,
+39.1742
+],
+"kalanchak, ukraine": [
+46.2572,
+33.2844
 ],
 "kfar tibnit, lebanon": [
 33.3519,
@@ -83,6 +109,10 @@
 13.8062,
 43.2494
 ],
+"kyiv, ukraine": [
+50.45,
+30.5241
+],
 "lamerd, iran": [
 27.3334,
 53.1816
@@ -91,6 +121,10 @@
 "london, united kingdom": [
 51.5074,
 -0.1278
+],
+"lyman, ukraine": [
+48.9801,
+37.8168
 ],
 "makhachkala, russia": [
 42.983,
@@ -133,6 +167,10 @@
 "novofedorivka, ukraine": [
 45.0943,
 33.5752
+],
+"novotroitske, ukraine": [
+47.7167,
+37.5817
 ],
 "odesa, ukraine": [
 46.4843,
@@ -181,6 +219,10 @@
 26.4494,
 56.2028
 ],
+"sumy, ukraine": [
+50.912,
+34.8028
+],
 "sweida, syria": [
 32.7094,
 36.5687
@@ -200,6 +242,10 @@
 "tehran, iran": [
 35.6893,
 51.3896
+],
+"tripoli, lebanon": [
+34.4374,
+35.8349
 ],
 "wadi al-raqqad, syria": [
 32.8011,

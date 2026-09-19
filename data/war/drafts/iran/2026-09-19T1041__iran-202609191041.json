@@ -1,0 +1,340 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1723f2f9cefa",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-19T10:41:33+00:00",
+  "window": {
+   "from": "2026-09-18T10:41:33+00:00",
+   "to": "2026-09-19T10:41:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609191041"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל נמשך בשטח, באוויר ובמרחב הקיברנטי והכלכלי, תוך הרחבת סנקציות מצד וושינגטון, תקיפות הדדיות ופעילות דיפלומטית עקיפה דרך תיווך סיני ואזורי. במקביל, נמשכים חיכוכים באזור המפרץ ובים האדום בהשתתפות שלוחים אזוריים, לצד לחצים בינלאומיים גוברים על נתיבי השיט והאנרגיה.",
+  "fronts": [
+   {
+    "name": "ארה\"ב וישראל מול איראן ושלוחותיה",
+    "status": "פעיל"
+   },
+   {
+    "name": "זירת המפרץ ומיצר הורמוז",
+    "status": "פעיל"
+   },
+   {
+    "name": "לוחמת סנקציות וכלכלה בינלאומית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09191041-01",
+    "title": "חתימת חוק סנקציות בארה\"ב",
+    "summary": "נשיא ארצות הברית חתם על חוק המרחיב ומאריך סנקציות על מגזרי האנרגיה והנשק של איראן וכן על רוסיה.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T06:37:21+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T06:37:21+00:00",
+    "last_update_at": "2026-09-19T10:28:57+00:00",
+    "what_is_not_verified": "לא מאומתים פרטי היישום המעשי של החוק בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130479",
+      "published_at": "2026-09-19T10:28:57+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+      "published_at": "2026-09-19T06:37:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09191041-02",
+    "title": "הוצאה להורג באיראן בגין ריגול",
+    "summary": "הרשות השופטת באיראן הודיעה על הוצאתו להורג של אדם שהורשע במסירת מידע על אתרי טילים למוסד.",
+    "axis": "ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T06:28:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T06:28:40+00:00",
+    "last_update_at": "2026-09-19T06:47:32+00:00",
+    "what_is_not_verified": "טענות ארגוני זכויות אדם כי ההודאות הושגו בעינויים במעצר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_afp",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-executes-man-accused-spying-israel-0",
+      "published_at": "2026-09-19T06:47:32+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_afp",
+      "url": "https://www.iranintl.com/en/202609191625",
+      "published_at": "2026-09-19T06:31:42+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_afp",
+      "url": "https://www.maariv.co.il/breaking-news/article-1368860",
+      "published_at": "2026-09-19T06:28:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז אפהאן, איראן",
+      "lat": 33.1881,
+      "lon": 52.4982
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09191041-03",
+    "title": "תקיפה איראנית על בסיס אמריקאי בכוויית",
+    "summary": "תמונות ופרסומים חשפו נזק והרס בבסיס אמריקאי בכוויית בעקבות תקיפות איראניות.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T21:09:20+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T21:09:20+00:00",
+    "last_update_at": "2026-09-19T01:58:19+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_meidasnews",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-news-outlet-releases-images-destruction-us-base-kuwait",
+      "published_at": "2026-09-19T01:58:19+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_meidasnews",
+      "url": "https://t.me/alexmehacarmel/47816",
+      "published_at": "2026-09-18T21:09:20+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09191041-04",
+    "title": "ביטול רישיון הפעולה של בנק מלח באיראן בטורקיה",
+    "summary": "טורקיה ביטלה את רישיון הפעולה של בנק מלח האיראני באיסטנבול במסגרת הלחץ הכלכלי של וושינגטון.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T06:37:21+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T06:37:21+00:00",
+    "last_update_at": "2026-09-19T08:18:08+00:00",
+    "what_is_not_verified": "לא מאומתות השלכות רוחב נוספות על המערכת הפיננסית של בנקים אחרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_5fafc26f2a635928",
+      "url": "https://www.aljazeera.com/economy/2026/9/19/turkiye-revokes-operating-licence-of-irans-bank-mellat?traffic_source=rss",
+      "published_at": "2026-09-19T08:18:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5fafc26f2a635928",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+      "published_at": "2026-09-19T06:37:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09191041-05",
+    "title": "מחויבות בינלאומית לאבטחת מיצרי הורמוז",
+    "summary": "מדינות בהן יפן, בריטניה, צרפת, גרמניה, איטליה והולנד התחייבות לתמוך באבטחת מיצרי הורמוז תחת לחץ אמריקאי.",
+    "axis": "ארה\"ב ומפרץ מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T17:53:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-18T17:53:00+00:00",
+    "last_update_at": "2026-09-18T17:53:00+00:00",
+    "what_is_not_verified": "היקף הפעילות המעשית בפועל של הכוחות בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47813",
+      "published_at": "2026-09-18T17:53:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09191041-06",
+    "title": "דוח האו\"ם על תקיפות אמריקאיות באיראן",
+    "summary": "האו\"ם פרסם דוח שבו נטען כי חלק מתקיפות ארצות הברית באיראן, בהן פגיעה בבית ספר יסודי במינאב, עשויות להוות פשעי מלחמה.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T13:53:42+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T13:53:42+00:00",
+    "last_update_at": "2026-09-18T13:53:42+00:00",
+    "what_is_not_verified": "קביעה משפטית רשמית ומחייבת של בית דין בינלאומי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21451520",
+      "published_at": "2026-09-18T13:53:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מינאב, איראן",
+      "lat": 27.1506,
+      "lon": 57.0753
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים המדויק בתקיפות ובחילופי האש העולה על נתוני הפנטגון הרשמיים.",
+   "האם המגעים הדיפלומטיים של איראן מול סין או ארה\"ב יביאו להסכם ממשי.",
+   "היקף הנזק המלא בבסיסים האמריקאיים ובמתקני האנרגיה בעקבות תקיפות השלוחים."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשך עמידה איתנה מול הלחץ האמריקאי והישראלי",
+     "חיזוק קשרים דיפלומטיים אזוריים ובינלאומיים (כגון סין ורוסיה)"
+    ],
+    "inferred": [
+     "הפעלת שלוחים אזוריים להפעלה לחץ על תשתיות אנרגיה וספנות",
+     "דיכוי מחאות ופעילות אופוזיציה מבית ומחוץ באמצעות אמצעי מודיעין ודיגיטל"
+    ],
+    "forecast": [
+     "המשך מאמצי עקיפה של הסנקציות באמצעות גורמי צד שלישי",
+     "הגברת הפעילות הדיפלומטית מול מעצמות אסייתיות להפחתת לחץ"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "בלימת הפרויקט הגרעיני והשפעתה האזורית של איראן",
+     "אבטחת נתיבי השיט והמסחר הימי הבינלאומי"
+    ],
+    "inferred": [
+     "הדגשת לחץ כלכלי מקסימלי באמצעות חקיקת סנקציות נוספות",
+     "תמיכה בשותפות אזוריות לאבטחת מתקני אנרגיה ומצרי ים"
+    ],
+    "forecast": [
+     "הידוק נוסף של הפיקוח על מכליות נפט וגורמים המסייעים לכלכלה האיראנית",
+     "המשך התמודדות עם אתגרי עלויות המלחמה והשפעותיה על שוק האנרגיה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול יכולות צבאיות ופרויקטים אסטרטגיים של איראן ושלוחותיה",
+     "הגנה על מרחבי האוויר, היבשה והים של המדינה"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות טילים וברשתות ריגול המופעלות על ידי איראן בשטחה ובאזור",
+     "תיאום הדוק עם ארצות הברית מול האיום האיראני"
+    ],
+    "forecast": [
+     "המשך סיכול פעילות עוינת ורשתות ריגול איראניות",
+     "התמודדות עם איומים מרחוק באמצעות עליונות אווירית ומודיעינית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/economy/2026/9/19/turkiye-revokes-operating-licence-of-irans-bank-mellat?traffic_source=rss",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609191625",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21451520",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1368860",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130479",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47813",
+    "accessed_at": "2026-09-19T10:41:33+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0dcae9bd2329",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-19T10:54:26+00:00",
+  "window": {
+   "from": "2026-09-18T10:54:26+00:00",
+   "to": "2026-09-19T10:54:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609191054"
+  },
+  "summary": "הזירה בתימן וסביבתה רוויית הסלמה, כאשר כוחות החות'ים מרחיבים את השתלטותם בחוף הים האדום ובמצר באב אל-מנדב, גורמים לעקירת עשרות אלפי תושבים, ומבצעים שיגורים לעבר שטח סעודיה כולל הבירה ריאד. מנגד, סעודיה מגיבה בתקיפות אווירית, ומדינות שונות פועלות לחיזוק ההגנה על נתיבי השייט הבינלאומיים מפני האיומים החות'יים.",
+  "fronts": [
+   {
+    "name": "חזית תימן פנים (החות'ים מול ממשלת תימן)",
+    "status": "התקדמות משמעותית של החות'ים בחוף המערבי וקריסת קו ההגנה הממשלתי"
+   },
+   {
+    "name": "חזית סעודיה-החות'ים",
+    "status": "הסלמה הכוללת שיגורי טילים לעבר מחוזות סעודיה ותקיפות אוויריות הדדיות"
+   },
+   {
+    "name": "חזית הים האדום ובאב אל-מנדב",
+    "status": "איום גובר על נתיבי השייט והיערכות בינלאומית וסעודית לאבטחתם"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09191054-01",
+    "title": "תקיפות והתרעות אוויריות בסעודיה",
+    "summary": "התקפות טילים ורחפנים יוחסו לחות'ים לעבר מחוזות בסעודיה, כולל הבירה ריאד ומקומות נוספים, והופעלו התרעות חירום",
+    "axis": "החות'ים מול סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T01:22:35+00:00",
+    "last_update_at": "2026-09-19T10:03:49+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ופגיעות ספציפיות בנפגעים אינם מבוססים לחלוטין בכל הדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/if-youre-just-tuning",
+      "published_at": "2026-09-19T10:03:49+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/mediators-push-return-mou-sirens-sound-over-saudi-arabia",
+      "published_at": "2026-09-19T08:33:31+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130459",
+      "published_at": "2026-09-19T07:44:56+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+      "published_at": "2026-09-19T06:37:21+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bkdziqsfze",
+      "published_at": "2026-09-19T06:19:02+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47823",
+      "published_at": "2026-09-19T01:22:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09191054-02",
+    "title": "התקדמות החות'ים בתימן ועקירת תושבים",
+    "summary": "כוחות החות'ים השתלטו על שטחים נרחבים בחוף הים האדום ובמצר באב אל-מנדב, דבר שהביא לעקירת מעל 112,000 תושבים",
+    "axis": "החות'ים מול ממשלת תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-18T12:46:35+00:00",
+    "last_update_at": "2026-09-19T08:57:59+00:00",
+    "what_is_not_verified": "מספר העוקרים המדויק והשלכותיהם ארוכות הטווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/more-than-112-000-displaced-in-yemen-as-houthis-seize-more-ground",
+      "published_at": "2026-09-19T08:57:59+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/fighting-uproots-112000-yemen-thousands-flee-djibouti",
+      "published_at": "2026-09-18T17:20:22+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/barefoot-and-terrified-yemenis-flee-houthi-advance",
+      "published_at": "2026-09-18T12:46:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09191054-03",
+    "title": "תקיפות אוויריות נגד החות'ים בתימן",
+    "summary": "מטוסי קרב סעודיים תקפו אזורים בשליטת החות'ים בתימן",
+    "axis": "סעודיה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T06:19:02+00:00",
+    "last_update_at": "2026-09-19T10:03:49+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק באזורים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/if-youre-just-tuning",
+      "published_at": "2026-09-19T10:03:49+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+      "published_at": "2026-09-19T06:37:21+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bkdziqsfze",
+      "published_at": "2026-09-19T06:19:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09191054-04",
+    "title": "השתלטות וביזה של מתקנים הומניטריים בחוף המערבי",
+    "summary": "האשמות מצד ממשלת תימן כי החות'ים תקפו ובזזו מתקנים רפואיים והומניטריים באל-חו'חה ובאזורים נוספים בחוף המערבי",
+    "axis": "החות'ים מול ממשלת תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T12:49:27+00:00",
+    "last_update_at": "2026-09-19T06:37:21+00:00",
+    "what_is_not_verified": "פרטי הציוד שנבזז במדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a4a8288dc4cda12e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-164",
+      "published_at": "2026-09-19T06:37:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_40b92d65e53b10a0",
+      "url": "https://www.sabanew.net/viewstory/152593",
+      "published_at": "2026-09-18T18:24:36+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_42856c8fb0655ec8",
+      "url": "https://www.sabanew.net/viewstory/152583",
+      "published_at": "2026-09-18T13:40:07+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6399a483d339cd78",
+      "url": "https://www.sabanew.net/viewstory/152578",
+      "published_at": "2026-09-18T12:49:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חו'חה, תימן",
+      "lat": 13.8056,
+      "lon": 43.3474
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09191054-05",
+    "title": "כינוס קואליציית ההגנה הימית בג'דה",
+    "summary": "התקיימה פגישת תכנון של הקואליציה הימית הרב-לאומית בג'דה לדיון באבטחת נתיבי השייט הבינלאומיים בים האדום ומצר באב אל-מנדב",
+    "axis": "קואליציה בינלאומית מול איומי החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T05:54:17+00:00",
+    "last_update_at": "2026-09-19T05:54:17+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק לפריסת כוחות נוספים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_05176f3148404e59",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-commander-says-security-international-waterways-collective",
+      "published_at": "2026-09-19T05:54:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים על מספר התקיפות המדויק שביצעה סעודיה השבוע",
+   "היקף הנזק והנפגעים המדויק כתוצאה מהטילים שפגעו בריאד",
+   "דיווחים על עסקאות ענק שנועדו לכאורה לשחד כוחות בתימן כדי שינטשו את עמדותיהם"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה ממושכת באינטרסים של סעודיה ובנתיבי השייט",
+     "המשך המערכה נגד ממשלת תימן"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית לאורך חופי הים האדום",
+     "יצירת לחץ אזורי באמצעות איומים על תשתיות וממלכת סעודיה"
+    ],
+    "forecast": [
+     "המשך ניסיונות ביסוס השליטה בבאב אל-מנדב",
+     "הגברת החיכוך עם סעודיה והקואליציה הימית"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "הגנה על ביטחון המדינה והמרחב האווירי",
+     "שמירה על נתיבי השייט הבינלאומיים פתוחים"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית בחוף הים האדום",
+     "ארגון מחדש של הכוחות הנאמנים לממשלה לאחר הקריסה הצבאית"
+    ],
+    "forecast": [
+     "המשך תקיפות נגד יעדי חות'ים",
+     "חיזוק שיתוף הפעולה הבינלאומי להגנה ימית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/barefoot-and-terrified-yemenis-flee-houthi-advance",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/more-than-112-000-displaced-in-yemen-as-houthis-seize-more-ground",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-commander-says-security-international-waterways-collective",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/fighting-uproots-112000-yemen-thousands-flee-djibouti",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152578",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130459",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47823",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bkdziqsfze",
+    "accessed_at": "2026-09-19T10:54:26+00:00"
+   }
+  ]
+ }
+}

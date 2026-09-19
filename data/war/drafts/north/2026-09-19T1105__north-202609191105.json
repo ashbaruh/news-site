@@ -1,0 +1,383 @@
+{
+ "status": "draft",
+ "received_sha256_12": "26c1fe83ffc0",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-19T11:05:55+00:00",
+  "window": {
+   "from": "2026-09-18T11:05:55+00:00",
+   "to": "2026-09-19T11:05:55+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202609191105"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית ישראלית מתמשכת בדרום לבנון הכוללת תקיפות אוויריות, ירי ארטילרי, חיכוך מול צבא לבנון והריסות מבנים. במקביל, בסוריה מתגבשים הסדרי ביטחון חדשים מול רוסיה בלטקיה וגוברים המתחים הפנימיים על רקע רשתות חבלה חוצות-גבולות. כמו כן, נרשמים גילויי עוינות מצד התעשייה הביטחונית הטורקית כלפי מערכות לחימה ישראליות.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות מבצעית ישראלית עצימה הכוללת הפגזות, תקיפות אוויר, פעולות הריסה ומתיחות מול צבא לבנון"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "חשיפת רשתות גיוס והברחה לאימון פעילים והפעלת רחפנים בין המדינות"
+   },
+   {
+    "name": "צפון-מערב סוריה (לטקיה)",
+    "status": "הסדרת מעמד המתקנים הרוסיים והפיכתם למרכזי הדרכה משותפים עם הממשל הסורי"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09191105-01",
+    "title": "תקיפות והפגזות ישראליות ברחבי דרום לבנון",
+    "summary": "כוחות ישראליים ביצעו סדרת תקיפות אוויריות והפגזות ארטילריות על מספר יעדים בדרום לבנון, כולל פעולות הריסה והצתות מבנים.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T08:44:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T08:44:55+00:00",
+    "last_update_at": "2026-09-19T10:09:13+00:00",
+    "what_is_not_verified": "אין אימות ישראלי רשמי לגבי כלל המוקדים שנפגעו וההריסות שבוצעו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128932/",
+      "published_at": "2026-09-19T10:09:13+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128897/",
+      "published_at": "2026-09-19T09:48:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130475",
+      "published_at": "2026-09-19T09:32:23+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128877/",
+      "published_at": "2026-09-19T09:18:30+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/128867/",
+      "published_at": "2026-09-19T08:44:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09191105-02",
+    "title": "עימות והשלכת רימוני הלם בין כוחות צה\"ל לצבא לבנון בדיר מימאס",
+    "summary": "טנקים של צה\"ל התקדמו לעבר עמדת תצפית של צבא לבנון, השליכו רימוני הלם בקרבתה ויצרו דריכות צבאית בטרם עזבו.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T19:51:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T19:51:55+00:00",
+    "last_update_at": "2026-09-19T04:19:15+00:00",
+    "what_is_not_verified": "לא נמסרה תגובה ישראלית רשמית על השלכת רימוני ההלם ונסיבות האירוע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_b68ee99bc71adbcf",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanese-army-israeli-forces-on-alert-after-incident-in-southern-lebanon/4061685",
+      "published_at": "2026-09-19T04:19:15+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_b68ee99bc71adbcf",
+      "url": "https://www.newarab.com/news/israeli-lebanese-armies-face-south-lebanon-village",
+      "published_at": "2026-09-18T19:51:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09191105-03",
+    "title": "טענות לבנוניות על הצתת בית החולים הממשלתי במיס אל-ג'בל בידי ישראל",
+    "summary": "משרד הבריאות הלבנוני וכלי תקשורת טענו כי כוחות ישראליים הציתו והחריבו כליל את בית החולים הממשלתי במיס אל-ג'בל.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T15:15:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T15:15:06+00:00",
+    "last_update_at": "2026-09-19T04:37:45+00:00",
+    "what_is_not_verified": "אין אימות או תגובה מצד צה\"ל לגבי השימוש במבנה והצתתו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d6643617bbb041ca",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-demolitions-lebanon-set-fire-hospital",
+      "published_at": "2026-09-19T04:37:45+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_d6643617bbb041ca",
+      "url": "https://t.me/abualiexpress/130451",
+      "published_at": "2026-09-18T16:15:16+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_d6643617bbb041ca",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958513/health-ministry-condemns-israeli-army-over-burning-of-meiss-el-jabal-g/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958513",
+      "published_at": "2026-09-18T15:15:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיס אל-ג'בל, לבנון",
+      "lat": 33.17,
+      "lon": 35.5242
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09191105-04",
+    "title": "הגשת כתבי אישום בלבנון נגד רשת להכשרת נאמני משטר אסד",
+    "summary": "בית דין צבאי בלבנון הגיש כתבי אישום נגד חמישה בני אדם, בהם פעילי חיזבאללה וקצין סורי, בחשד להפעלת רשת ביטחונית ואימון שימוש ברחפנים לקראת פעולות חבלה בסוריה.",
+    "axis": "לבנון - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T14:10:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T14:10:00+00:00",
+    "last_update_at": "2026-09-18T14:20:57+00:00",
+    "what_is_not_verified": "היקף הפעילות המעשי והמעורבות הישירה של חיזבאללה כארגון מתבססים על חשדות והליכי חקירה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/lebanon-charges-5-alleged-hezbollah-operation-train-assad-loyalists",
+      "published_at": "2026-09-18T14:20:57+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/958477/from-assad-era-kidnappings-to-alleged-terror-plot-lebanon-uncovers-cro/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958477",
+      "published_at": "2026-09-18T14:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "טריפולי, לבנון",
+      "lat": 34.4374,
+      "lon": 35.8349
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09191105-05",
+    "title": "ביקורת סורית-רוסית על יישום ההסכם להפיכת מתקנים בלטקיה למרכזי אימונים",
+    "summary": "שר החוץ הסורי סקר בנמל התעופה הבינלאומי בלטקיה את יישום המזכר מול רוסיה בנוגע להפיכת מתקנים רוסיים במדינה למרכזי אימונים משותפים.",
+    "axis": "סוריה - רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T17:52:22+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-18T17:52:22+00:00",
+    "last_update_at": "2026-09-19T01:10:33+00:00",
+    "what_is_not_verified": "לוחות הזמנים המדויקים והיקף האימונים המשותפים לא פורטו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-russia-review-implementation-of-memorandum-on-russian-presence-in-latakia/4061664",
+      "published_at": "2026-09-19T01:10:33+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/syrias-shibani-visits-latakia-airport-review-russia-deal-progress-what-know",
+      "published_at": "2026-09-18T17:52:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09191105-06",
+    "title": "חברת רחפנים טורקית הציגה טנק מרכבה ישראלי כמטרה לתקיפה",
+    "summary": "חברה טורקית העוסקת בפיתוח רחפנים פרסמה סרטון תדמית המציג רחפן חמוש תוקף טנק ישראלי מסוג מרכבה, על רקע שיתופי פעולה עסקיים עם חברה ביטחונית אמריקאית.",
+    "axis": "ישראל - טורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T07:59:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T07:59:43+00:00",
+    "last_update_at": "2026-09-19T10:05:27+00:00",
+    "what_is_not_verified": "לא ידוע האם כוונות החברה מייצגות מדיניות רשמית של ממשלת טורקיה או היערכות מבצעית להצבת האמל\"ח בסוריה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hy8hwasymx",
+      "published_at": "2026-09-19T10:05:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130460",
+      "published_at": "2026-09-19T07:59:43+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות משרד הבריאות הלבנוני על הצתה מכוונת והחרבת בית החולים במיס אל-ג'בל בידי צה\"ל",
+   "מספר התקיפות המדויק והפגיעות בתשתיות בנבטיה אל-פוקא ובכפרים נוספים בדרום לבנון",
+   "האפשרות שרחפני החברה הטורקית יוצבו בפועל בזירה הסורית מול כוחות ישראליים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איומים ביטחוניים מצד חיזבאללה ושמירה על חופש פעולה באזורי החיץ",
+     "אי-נסיגה מאזורי החיץ בדרום לבנון ובסוריה כל עוד נשקפת סכנה"
+    ],
+    "inferred": [
+     "הפעלת לחץ פיזי מתמיד על קו הגבול הלבנוני למניעת התבססות מחדש של תשתיות צבאיות",
+     "הרתעת צבא לבנון מניסיונות הגבלת התנועה של צה\"ל בשטח"
+    ],
+    "forecast": [
+     "המשך פעולות הסיכול, התקיפות הממוקדות וההריסות בדרום לבנון",
+     "שימור המתיחות המבצעית מול עמדות צבא לבנון בקו המגע"
+    ]
+   },
+   {
+    "actor": "לבנון (צבא וממשל)",
+    "declared": [
+     "פריסת כוחות צבא לבנון בדרום המדינה במסגרת הסכם המסגרת",
+     "הוקעת הפרות הריבונות והפגיעה בתשתיות רפואיות ואזרחיות על ידי ישראל"
+    ],
+    "inferred": [
+     "שאיפה למנוע הסלמה ישירה וחיכוך פנימי על רקע פירוק מנגנוני חיזבאללה",
+     "בלימת התבססות רשתות עוינות הפועלות במרחב הסורי מתוך שטח המדינה"
+    ],
+    "forecast": [
+     "המשך ביסוס עמדות תצפית בדרום לבנון תוך הימנעות מעימות יזום עם ישראל",
+     "הגברת פעולות האכיפה נגד חוליות טרור והברחות בגבול סוריה"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "יישום ההסכמים עם רוסיה להפעלת מרכזי אימונים משותפים בלטקיה",
+     "ביטול מנגנוני שיפוט חריגים מתקופת שלטון אסד"
+    ],
+    "inferred": [
+     "שיקום השליטה המרכזית והלגיטימציה השלטונית במחוזות השונים",
+     "שמירה על משענת ביטחונית רוסית למניעת ערעור היציבות"
+    ],
+    "forecast": [
+     "המשך הידוק שיתוף הפעולה הצבאי-אימוני עם כוחות רוסיים במערב המדינה",
+     "התמודדות מתמשכת עם כיסי התנגדות, קשיי משילות ואיומי תאי טרור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/128867/",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/syrias-shibani-visits-latakia-airport-review-russia-deal-progress-what-know",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-russia-review-implementation-of-memorandum-on-russian-presence-in-latakia/4061664",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/958477/from-assad-era-kidnappings-to-alleged-terror-plot-lebanon-uncovers-cro/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958477",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-demolitions-lebanon-set-fire-hospital",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-lebanese-armies-face-south-lebanon-village",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130460",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hy8hwasymx",
+    "accessed_at": "2026-09-19T11:05:55+00:00"
+   }
+  ]
+ }
+}
