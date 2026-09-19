@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T15:17:21+00:00",
-  "fetched_at": "2026-09-19T15:17:21+00:00"
+  "checked_at": "2026-09-19T16:17:21+00:00",
+  "fetched_at": "2026-09-19T16:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T15:17:34+00:00",
-  "fetched_at": "2026-09-19T15:17:34+00:00"
+  "checked_at": "2026-09-19T16:17:35+00:00",
+  "fetched_at": "2026-09-19T16:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -77,25 +77,35 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T15:17:35+00:00",
-  "fetched_at": "2026-09-19T15:17:35+00:00"
+  "checked_at": "2026-09-19T16:17:35+00:00",
+  "fetched_at": "2026-09-19T16:17:35+00:00"
  },
- "generated_at": "2026-09-19T15:17:35+00:00",
+ "generated_at": "2026-09-19T16:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
-     "date": "2026-09-19T13:00:00+00:00"
+     "title": "סוף עידן מפלגות העם: המפה הפוליטית של אירופה נכתבת מחדש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556831",
+     "date": "2026-09-19T16:00:00+00:00"
     },
     {
-     "title": "2 לוחמים נפצעו קל מפיצוץ בדרום לבנון, צה\"ל תקף בתגובה",
+     "title": "מתקפה של החות'ים על סעודיה: שרפת ענק בנמל התעופה הראשי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T13:59:00+00:00"
+     "date": "2026-09-19T16:07:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "\"בעיית אנטישמיות\" ונגד ישראל: האם השמאל עומד להשתלט מחר על בירת גרמניה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556944",
+     "date": "2026-09-19T15:27:00+00:00"
+    },
+    {
+     "title": "אירופה בכוננות: המסדרון הצר שעלול להפוך לזירת עימות עם רוסיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556942",
+     "date": "2026-09-19T13:20:00+00:00"
+    },
     {
      "title": "טראמפ הודיע כי ישלוט ביטחונית באי הגדול בעולם. כל ההשלכות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556940",
@@ -182,11 +192,6 @@
      "date": "2026-09-17T20:00:00+00:00"
     },
     {
-     "title": "המדינה ששברה שיא במספר האנשים שהגיעו לגיל מאה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556783",
-     "date": "2026-09-17T15:30:00+00:00"
-    },
-    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -195,11 +200,6 @@
      "title": "נעילה חיובית בתל אביב; מניית הבורסה זינקה ב-15%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
      "date": "2026-09-17T14:33:00+00:00"
-    },
-    {
-     "title": "במקום הראשון במזרח התיכון: העיר הישראלית שמטפסת בדירוג העולמי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556791",
-     "date": "2026-09-17T13:10:00+00:00"
     },
     {
      "title": "ב־81.4 מיליון שקל: מ. אביב רוכשת את תרחיש ונכנסת לשותפות עם קן התור",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T15:17:23+00:00",
-  "fetched_at": "2026-09-19T15:17:23+00:00"
+  "checked_at": "2026-09-19T16:17:22+00:00",
+  "fetched_at": "2026-09-19T16:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T15:17:24+00:00",
-  "fetched_at": "2026-09-19T15:17:24+00:00"
+  "checked_at": "2026-09-19T16:17:22+00:00",
+  "fetched_at": "2026-09-19T16:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2372,8 +2372,9 @@
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-19T15:17:26+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-19T16:17:28+00:00",
   "fetched_at": "2026-09-19T15:17:26+00:00"
  },
  "ligat_haal": {
@@ -2480,8 +2481,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T15:17:26+00:00",
-  "fetched_at": "2026-09-19T15:17:26+00:00"
+  "checked_at": "2026-09-19T16:17:28+00:00",
+  "fetched_at": "2026-09-19T16:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2547,14 +2548,14 @@
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 80,
+     "likes": 81,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2565,28 +2566,37 @@
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
      "likes": 87,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
-    },
-    {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 139,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T15:17:33+00:00",
-  "fetched_at": "2026-09-19T15:17:33+00:00"
+  "checked_at": "2026-09-19T16:17:34+00:00",
+  "fetched_at": "2026-09-19T16:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "צפו: דניאל פרץ פספס, הפסד מתסכל לסאות'המפטון בדקה ה-89",
+     "link": "https://sports.walla.co.il/item/3868889",
+     "date": "2026-09-19T18:55:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "מנור סולומון: \"מאוכזבים מאוד. התחלנו רע, לא עשינו כלום\"",
      "link": "https://sports.walla.co.il/item/3868919",
@@ -2711,15 +2721,6 @@
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"רביבו היה מכריע בהתקפה, הגבהה שתיכנס לספרים\"",
-     "link": "https://www.one.co.il/Article/533809.html?ref=rss",
-     "date": "2026-09-19T03:05:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     }
    ],
@@ -2923,7 +2924,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T15:17:30+00:00",
-  "fetched_at": "2026-09-19T15:17:30+00:00"
+  "checked_at": "2026-09-19T16:17:31+00:00",
+  "fetched_at": "2026-09-19T16:17:31+00:00"
  }
 }
