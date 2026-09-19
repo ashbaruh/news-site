@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T20:18:03+00:00",
-  "fetched_at": "2026-09-19T20:18:03+00:00"
+  "checked_at": "2026-09-19T20:44:28+00:00",
+  "fetched_at": "2026-09-19T20:44:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T20:18:19+00:00",
-  "fetched_at": "2026-09-19T20:18:19+00:00"
+  "checked_at": "2026-09-19T20:44:42+00:00",
+  "fetched_at": "2026-09-19T20:44:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T20:18:19+00:00",
-  "fetched_at": "2026-09-19T20:18:19+00:00"
+  "checked_at": "2026-09-19T20:44:42+00:00",
+  "fetched_at": "2026-09-19T20:44:42+00:00"
  },
- "generated_at": "2026-09-19T20:18:19+00:00",
+ "generated_at": "2026-09-19T20:44:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T20:18:04+00:00",
-  "fetched_at": "2026-09-19T20:18:04+00:00"
+  "checked_at": "2026-09-19T20:44:30+00:00",
+  "fetched_at": "2026-09-19T20:44:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T20:18:05+00:00",
-  "fetched_at": "2026-09-19T20:18:05+00:00"
+  "checked_at": "2026-09-19T20:44:31+00:00",
+  "fetched_at": "2026-09-19T20:44:31+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T20:18:11+00:00",
-  "fetched_at": "2026-09-19T20:18:11+00:00"
+  "checked_at": "2026-09-19T20:44:34+00:00",
+  "fetched_at": "2026-09-19T20:44:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2543,8 +2543,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T20:18:11+00:00",
-  "fetched_at": "2026-09-19T20:18:11+00:00"
+  "checked_at": "2026-09-19T20:44:34+00:00",
+  "fetched_at": "2026-09-19T20:44:34+00:00"
  },
  "ai": {
   "data": {
@@ -2607,18 +2607,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 82,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
      "likes": 73,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 81,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2644,8 +2644,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T20:18:16+00:00",
-  "fetched_at": "2026-09-19T20:18:16+00:00"
+  "checked_at": "2026-09-19T20:44:41+00:00",
+  "fetched_at": "2026-09-19T20:44:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2655,6 +2655,15 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868890",
      "date": "2026-09-19T22:54:00+00:00",
      "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "90 דקות ובישול לאוסקר גלוך ב-2:2 של אייאקס",
+     "link": "https://www.one.co.il/Article/533861.html?ref=rss",
+     "date": "2026-09-19T19:54:00+00:00",
+     "source": "ONE",
      "players": [
       "אוסקר גלוך"
      ]
@@ -2682,6 +2691,33 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868857",
      "date": "2026-09-19T16:24:00+00:00",
      "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "מעל כולם: הציון שקיבל מנור סולומון באנגליה",
+     "link": "https://www.one.co.il/Article/533849.html?ref=rss",
+     "date": "2026-09-19T14:05:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
+     "link": "https://www.one.co.il/Article/533845.html?ref=rss",
+     "date": "2026-09-19T13:11:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
+    {
+     "title": "בישול לסולומון, ווסטהאם ומילוול נפרדו ב-2:2",
+     "link": "https://www.one.co.il/Article/533814.html?ref=rss",
+     "date": "2026-09-19T11:30:00+00:00",
+     "source": "ONE",
      "players": [
       "מנור סולומון"
      ]
@@ -2747,42 +2783,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בספרד המומים מרוי רביבו: \"עצום, הוא הוא החדשות הגדולות של המשחק\"",
-     "link": "https://sports.walla.co.il/item/3868813",
-     "date": "2026-09-18T22:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T19:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3868647",
-     "date": "2026-09-17T08:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
-     "link": "https://sports.walla.co.il/item/3868373",
-     "date": "2026-09-16T22:19:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -2986,7 +2986,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T20:18:13+00:00",
-  "fetched_at": "2026-09-19T20:18:13+00:00"
+  "checked_at": "2026-09-19T20:44:38+00:00",
+  "fetched_at": "2026-09-19T20:44:38+00:00"
  }
 };
