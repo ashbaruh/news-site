@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-18",
+   "as_of": "2026-09-19",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T01:39:01+00:00",
-  "fetched_at": "2026-09-19T01:39:01+00:00"
+  "checked_at": "2026-09-19T06:40:50+00:00",
+  "fetched_at": "2026-09-19T06:40:50+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T01:39:11+00:00",
-  "fetched_at": "2026-09-19T01:39:11+00:00"
+  "checked_at": "2026-09-19T06:41:00+00:00",
+  "fetched_at": "2026-09-19T06:41:00+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,54 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T01:39:11+00:00",
-  "fetched_at": "2026-09-19T01:39:11+00:00"
+  "checked_at": "2026-09-19T06:41:01+00:00",
+  "fetched_at": "2026-09-19T06:41:01+00:00"
  },
- "generated_at": "2026-09-19T01:39:11+00:00",
+ "generated_at": "2026-09-19T06:41:01+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555554",
-     "date": "2026-09-18T16:55:00+00:00"
+     "title": "היזם שמציע איים למכירה. המחיר: החל מ-50 אלף דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555547",
+     "date": "2026-09-19T05:00:00+00:00"
     },
     {
-     "title": "המקור נחשף: אני העברתי מסר מסינוואר לישראל לפני 7.10",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556922",
-     "date": "2026-09-18T11:48:00+00:00"
+     "title": "דיווחים בסעודיה: אזעקות הופעלו בריאד במהלך הלילה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
+     "date": "2026-09-19T05:58:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חוצה את רף ה-5%",
+     "title": "טראמפ הודיע כי ישלוט ביטחונית באי הגדול בעולם. כל ההשלכות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556940",
+     "date": "2026-09-19T06:24:00+00:00"
+    },
+    {
+     "title": "\"חופשות המסתורין\" בהן אין לכם מושג לאן אתם טסים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556798",
+     "date": "2026-09-19T05:53:00+00:00"
+    },
+    {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
+     "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
+     "date": "2026-09-19T05:33:00+00:00"
+    },
+    {
+     "title": "היזם שמציע איים למכירה. המחיר: החל מ-50 אלף דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555547",
+     "date": "2026-09-19T05:00:00+00:00"
+    },
+    {
+     "title": "נעילה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חצתה את רף ה-5%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T18:56:00+00:00"
+     "date": "2026-09-18T20:10:00+00:00"
     },
     {
      "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
@@ -172,11 +197,6 @@
      "date": "2026-09-17T14:33:00+00:00"
     },
     {
-     "title": "בכירי המודיעין בבריטניה הזהירו, אך הממשלה התקדמה עם הסנקציות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556792",
-     "date": "2026-09-17T13:14:00+00:00"
-    },
-    {
      "title": "במקום הראשון במזרח התיכון: העיר הישראלית שמטפסת בדירוג העולמי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556791",
      "date": "2026-09-17T13:10:00+00:00"
@@ -200,32 +220,12 @@
      "title": "חילוקי דעות בוול סטריט: מדוע \"השור\" הגדול אד ירדני חותך את תחזית ה-S&P 500?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556756",
      "date": "2026-09-17T10:40:00+00:00"
-    },
-    {
-     "title": "בברלין קוראים לציבור לענוד מגן דוד - וזו הסיבה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556761",
-     "date": "2026-09-17T09:04:00+00:00"
-    },
-    {
-     "title": "משבר אמון בטורקיה: הבורסה באיסטנבול צללה והמסחר הושהה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556744",
-     "date": "2026-09-17T08:08:00+00:00"
-    },
-    {
-     "title": "גילה את שוק ההון בגיל 26: \"אם הייתי משקיע רק במדדים הייתי משתעמם\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556700",
-     "date": "2026-09-17T02:38:00+00:00"
-    },
-    {
-     "title": "מה עומד מאחורי בליץ ההצעות לקצץ לנו בפנסיה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556670",
-     "date": "2026-09-17T02:33:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T01:39:02+00:00",
-  "fetched_at": "2026-09-19T01:39:02+00:00"
+  "checked_at": "2026-09-19T06:40:51+00:00",
+  "fetched_at": "2026-09-19T06:40:51+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T01:39:04+00:00",
-  "fetched_at": "2026-09-19T01:39:04+00:00"
+  "checked_at": "2026-09-19T06:40:52+00:00",
+  "fetched_at": "2026-09-19T06:40:52+00:00"
  },
  "tv": {
   "data": [
@@ -2372,10 +2372,9 @@
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-19T01:39:04+00:00",
-  "fetched_at": "2026-09-18T23:20:08+00:00"
+  "ok": true,
+  "checked_at": "2026-09-19T06:40:53+00:00",
+  "fetched_at": "2026-09-19T06:40:53+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2481,12 +2480,21 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T01:39:04+00:00",
-  "fetched_at": "2026-09-19T01:39:04+00:00"
+  "checked_at": "2026-09-19T06:40:53+00:00",
+  "fetched_at": "2026-09-19T06:40:53+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/australian-youth-safety-blueprint",
+     "date": "2026-09-18T12:00:00+00:00",
+     "launch": true,
+     "title_en": "Introducing the Australian Youth Safety Blueprint",
+     "title_he": "אנחנו שמחים להציג את שרטוט הבטיחות לנוער האוסטרלי",
+     "translated_by": "mymemory"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/life-sciences-verification-program",
@@ -2495,70 +2503,66 @@
      "title_en": "Introducing the Life Sciences Verification Program",
      "title_he": "היכרות עם תוכנית האימות למדעי החיים",
      "translated_by": "google"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/astra-for-law",
-     "date": "2026-09-17T00:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing Astra for Law",
-     "title_he": "היכרות עם אסטרה למשפטים",
-     "translated_by": "google"
     }
    ],
-   "candidates": 7,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 409,
+     "likes": 413,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 118,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 86,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 74,
+     "likes": 75,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 62,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "Fruit Fly Simulation",
+     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
+     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
+     "likes": 136,
+     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     },
     {
      "title": "AuK",
@@ -2573,23 +2577,88 @@
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
      "likes": 85,
      "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
-    },
-    {
-     "title": "Fruit Fly Simulation",
-     "desc_en": "Simulate a fruit fly in your browser using WebGPU kernels",
-     "desc_he": "הדמיית זבוב פירות בדפדפן באמצעות ליבות WebGPU",
-     "likes": 135,
-     "link": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T01:39:10+00:00",
-  "fetched_at": "2026-09-19T01:39:10+00:00"
+  "checked_at": "2026-09-19T06:41:00+00:00",
+  "fetched_at": "2026-09-19T06:41:00+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חיים רביבו אחרי ההצגה של רוי: \"אני גאה בו. זאת התחלה מהנה\"",
+     "link": "https://sports.walla.co.il/item/3868852",
+     "date": "2026-09-19T09:30:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "14 שנה אחרי: מנור סולומון מגיע לדרבי הלוהט של לונדון",
+     "link": "https://sports.walla.co.il/item/3868635",
+     "date": "2026-09-19T08:00:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
+     "link": "https://sports.walla.co.il/item/3868820",
+     "date": "2026-09-19T07:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"שם המשפחה רביבו שוב בכותרות בספרד\": הערב הגדול של רוי",
+     "link": "https://sports.walla.co.il/item/3868842",
+     "date": "2026-09-19T07:28:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "חיים רביבו: התחלה מהנה, הדרך עוד ארוכה וקשה",
+     "link": "https://www.one.co.il/Article/533817.html?ref=rss",
+     "date": "2026-09-19T06:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בעקבות היכולת: החוזה של סולומון בווסטהאם נבחן",
+     "link": "https://www.one.co.il/Article/533823.html?ref=rss",
+     "date": "2026-09-19T05:35:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "\"רביבו היה מכריע בהתקפה, הגבהה שתיכנס לספרים\"",
+     "link": "https://www.one.co.il/Article/533809.html?ref=rss",
+     "date": "2026-09-19T03:05:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בטורקיה התלהבו: השם רביבו שוב באור הזרקורים",
+     "link": "https://www.one.co.il/Article/533808.html?ref=rss",
+     "date": "2026-09-19T03:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "כוכב: שני בישולים לרוי רביבו, ניצחון בכורה לאלצ'ה",
      "link": "https://sports.walla.co.il/item/3868781",
@@ -2651,78 +2720,6 @@
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "שם את איפסוויץ' מאחור: מחמאות על \"הופעה אנרגטית\" של חלאילי",
-     "link": "https://sports.walla.co.il/item/3868712",
-     "date": "2026-09-18T09:42:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"גלוך עשה פעולה אחרי פעולה\": המחמאות בהולנד נמשכות",
-     "link": "https://sports.walla.co.il/item/3868640",
-     "date": "2026-09-18T08:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "קריסטל פאלאס מחצה את לך פוזנן, 61 דקות לענאן חלאילי",
-     "link": "https://sports.walla.co.il/item/3868307",
-     "date": "2026-09-17T23:50:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "רביבו צפוי להמשיך בהרכב אלצ'ה, ברצלונה תמשיך לכתוש בסביליה?",
-     "link": "https://sports.walla.co.il/item/3868621",
-     "date": "2026-09-17T18:39:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "שועה, שטייפמן ואבו פרחי בפנים, סבע וטוריאל בחוץ",
-     "link": "https://sports.walla.co.il/item/3868487",
-     "date": "2026-09-17T11:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דיא סבע"
-     ]
-    },
-    {
-     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3868647",
-     "date": "2026-09-17T08:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
-     "link": "https://sports.walla.co.il/item/3868373",
-     "date": "2026-09-16T22:19:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
-     "link": "https://sports.walla.co.il/item/3867493",
-     "date": "2026-09-13T19:54:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -2926,7 +2923,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T01:39:08+00:00",
-  "fetched_at": "2026-09-19T01:39:08+00:00"
+  "checked_at": "2026-09-19T06:40:55+00:00",
+  "fetched_at": "2026-09-19T06:40:55+00:00"
  }
 }
