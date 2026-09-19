@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T17:17:25+00:00",
-  "fetched_at": "2026-09-19T17:17:25+00:00"
+  "checked_at": "2026-09-19T18:03:53+00:00",
+  "fetched_at": "2026-09-19T18:03:53+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T17:17:41+00:00",
-  "fetched_at": "2026-09-19T17:17:41+00:00"
+  "checked_at": "2026-09-19T18:04:03+00:00",
+  "fetched_at": "2026-09-19T18:04:03+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T17:17:41+00:00",
-  "fetched_at": "2026-09-19T17:17:41+00:00"
+  "checked_at": "2026-09-19T18:04:04+00:00",
+  "fetched_at": "2026-09-19T18:04:04+00:00"
  },
- "generated_at": "2026-09-19T17:17:41+00:00",
+ "generated_at": "2026-09-19T18:04:04+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "סוף עידן מפלגות העם: המפה הפוליטית של אירופה נכתבת מחדש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556831",
-     "date": "2026-09-19T16:00:00+00:00"
+     "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
+     "date": "2026-09-19T18:00:00+00:00"
     },
     {
      "title": "מתקפה של החות'ים על סעודיה: שרפת ענק בנמל התעופה הראשי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T16:07:00+00:00"
+     "date": "2026-09-19T17:36:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "7 מיליון מבקשי מקלט נהרו לאירופה והולידו מפץ פוליטי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556831",
+     "date": "2026-09-19T16:00:00+00:00"
+    },
     {
      "title": "\"בעיית אנטישמיות\" ונגד ישראל: האם השמאל עומד להשתלט מחר על בירת גרמניה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556944",
@@ -109,7 +114,7 @@ window.DB.generated = {
      "date": "2026-09-19T13:20:00+00:00"
     },
     {
-     "title": "טראמפ הודיע כי ישלוט ביטחונית באי הגדול בעולם. כל ההשלכות",
+     "title": "טראמפ ישתלט ביטחונית על האי הגדול בעולם. ניצחון או התקפלות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556940",
      "date": "2026-09-19T06:24:00+00:00"
     },
@@ -174,11 +179,6 @@ window.DB.generated = {
      "date": "2026-09-18T05:41:00+00:00"
     },
     {
-     "title": "המחירים עולים, התשואות מתמתנות: האם התשואה בפורטוגל, ביוון ובקפריסין מצדיקה את הסיכון?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001554029",
-     "date": "2026-09-18T04:06:00+00:00"
-    },
-    {
      "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
      "date": "2026-09-18T04:01:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T17:17:26+00:00",
-  "fetched_at": "2026-09-19T17:17:26+00:00"
+  "checked_at": "2026-09-19T18:03:54+00:00",
+  "fetched_at": "2026-09-19T18:03:54+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T17:17:27+00:00",
-  "fetched_at": "2026-09-19T17:17:27+00:00"
+  "checked_at": "2026-09-19T18:03:54+00:00",
+  "fetched_at": "2026-09-19T18:03:54+00:00"
  },
  "tv": {
   "data": [
@@ -2374,10 +2374,9 @@ window.DB.generated = {
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-19T17:17:33+00:00",
-  "fetched_at": "2026-09-19T15:17:26+00:00"
+  "ok": true,
+  "checked_at": "2026-09-19T18:03:57+00:00",
+  "fetched_at": "2026-09-19T18:03:57+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2483,8 +2482,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T17:17:33+00:00",
-  "fetched_at": "2026-09-19T17:17:33+00:00"
+  "checked_at": "2026-09-19T18:03:57+00:00",
+  "fetched_at": "2026-09-19T18:03:57+00:00"
  },
  "ai": {
   "data": {
@@ -2522,15 +2521,22 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 133,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 92,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2538,13 +2544,6 @@ window.DB.generated = {
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
      "likes": 75,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 91,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2584,8 +2583,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T17:17:39+00:00",
-  "fetched_at": "2026-09-19T17:17:39+00:00"
+  "checked_at": "2026-09-19T18:04:02+00:00",
+  "fetched_at": "2026-09-19T18:04:02+00:00"
  },
  "abroad": {
   "data": {
@@ -2717,10 +2716,10 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "חיים רביבו: התחלה מהנה, הדרך עוד ארוכה וקשה",
-     "link": "https://www.one.co.il/Article/533817.html?ref=rss",
-     "date": "2026-09-19T06:04:00+00:00",
-     "source": "ONE",
+     "title": "כוכב: שני בישולים לרוי רביבו, ניצחון בכורה לאלצ'ה",
+     "link": "https://sports.walla.co.il/item/3868781",
+     "date": "2026-09-18T23:59:00+00:00",
+     "source": "וואלה",
      "players": [
       "רועי רביבו"
      ]
@@ -2926,7 +2925,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T17:17:36+00:00",
-  "fetched_at": "2026-09-19T17:17:36+00:00"
+  "checked_at": "2026-09-19T18:04:00+00:00",
+  "fetched_at": "2026-09-19T18:04:00+00:00"
  }
 };
