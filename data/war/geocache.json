@@ -54,6 +54,10 @@
 32.4407,
 34.9401
 ],
+"isfahan, iran": [
+32.6708,
+51.665
+],
 "istanbul, turkey": [
 41.0064,
 28.9759
@@ -66,6 +70,14 @@
 "kharkiv region, ukraine": [
 50.0323,
 36.2188
+],
+"kharkiv, ukraine": [
+49.9923,
+36.231
+],
+"kherson, ukraine": [
+46.6401,
+32.6144
 ],
 "khokha, yemen": [
 13.8062,
@@ -93,6 +105,10 @@
 21.4208,
 39.8269
 ],
+"meiss el-jabal, lebanon": [
+33.17,
+35.5242
+],
 "minab, iran": [
 27.1506,
 57.0753
@@ -109,6 +125,7 @@
 23.6124,
 58.5938
 ],
+"nabatieh al-fawqah, lebanon": null,
 "new york, united states": [
 40.7127,
 -74.006
