@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-19T12:17:23+00:00",
-  "fetched_at": "2026-09-19T12:17:23+00:00"
+  "checked_at": "2026-09-19T13:17:24+00:00",
+  "fetched_at": "2026-09-19T13:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T12:17:38+00:00",
-  "fetched_at": "2026-09-19T12:17:38+00:00"
+  "checked_at": "2026-09-19T13:17:39+00:00",
+  "fetched_at": "2026-09-19T13:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T12:17:39+00:00",
-  "fetched_at": "2026-09-19T12:17:39+00:00"
+  "checked_at": "2026-09-19T13:17:39+00:00",
+  "fetched_at": "2026-09-19T13:17:39+00:00"
  },
- "generated_at": "2026-09-19T12:17:39+00:00",
+ "generated_at": "2026-09-19T13:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"בצ'כיה אין מס רכישה גם על דירה עשירית\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001554910",
-     "date": "2026-09-19T10:30:00+00:00"
+     "title": "מה עומד מאחורי בליץ ההצעות לקצץ לנו בפנסיה - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
+     "date": "2026-09-19T13:00:00+00:00"
     },
     {
      "title": "דיווחים בסעודיה: אזעקות הופעלו בריאד במהלך הלילה",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T12:17:24+00:00",
-  "fetched_at": "2026-09-19T12:17:24+00:00"
+  "checked_at": "2026-09-19T13:17:25+00:00",
+  "fetched_at": "2026-09-19T13:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-19T12:17:25+00:00",
-  "fetched_at": "2026-09-19T12:17:25+00:00"
+  "checked_at": "2026-09-19T13:17:26+00:00",
+  "fetched_at": "2026-09-19T13:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2374,8 +2374,9 @@ window.DB.generated = {
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-19T12:17:31+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-19T13:17:32+00:00",
   "fetched_at": "2026-09-19T12:17:31+00:00"
  },
  "ligat_haal": {
@@ -2482,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T12:17:31+00:00",
-  "fetched_at": "2026-09-19T12:17:31+00:00"
+  "checked_at": "2026-09-19T13:17:32+00:00",
+  "fetched_at": "2026-09-19T13:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2507,7 +2508,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
+   "candidates": 13,
    "failed_sources": [],
    "tools": [
     {
@@ -2528,7 +2529,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2542,8 +2543,15 @@ window.DB.generated = {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 71,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 79,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2553,17 +2561,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 76,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "AuK",
      "desc_en": "Unified speech generation and editing with AuK",
      "desc_he": "יצירה ועריכה מאוחדת של דיבור עם AuK",
-     "likes": 92,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
@@ -2583,19 +2584,37 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-19T12:17:37+00:00",
-  "fetched_at": "2026-09-19T12:17:37+00:00"
+  "checked_at": "2026-09-19T13:17:38+00:00",
+  "fetched_at": "2026-09-19T13:17:38+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "מנור סולומון בהרכב: מילוול - ווסטהאם 0:1 (מחצית 1)",
+     "title": "מנור סולומון בישל: מילוול - ווסטהאם 2:2 (מחצית 2)",
      "link": "https://sports.walla.co.il/item/3868857",
-     "date": "2026-09-19T14:30:00+00:00",
+     "date": "2026-09-19T16:04:00+00:00",
      "source": "וואלה",
      "players": [
       "מנור סולומון"
+     ]
+    },
+    {
+     "title": "17:00 בספורט4: דניאל פרץ בשערה של סאות'המפטון מול רקסהאם",
+     "link": "https://sports.walla.co.il/item/3868889",
+     "date": "2026-09-19T15:45:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
+     "link": "https://www.one.co.il/Article/533845.html?ref=rss",
+     "date": "2026-09-19T13:11:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
      ]
     },
     {
@@ -2702,24 +2721,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3868781",
      "date": "2026-09-18T23:59:00+00:00",
      "source": "וואלה",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בספרד המומים מרוי רביבו: \"עצום, הוא הוא החדשות הגדולות של המשחק\"",
-     "link": "https://sports.walla.co.il/item/3868813",
-     "date": "2026-09-18T22:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "הישג נדיר: המספרים מאחורי הערב הגדול של רביבו",
-     "link": "https://www.one.co.il/Article/533803.html?ref=rss",
-     "date": "2026-09-18T20:26:00+00:00",
-     "source": "ONE",
      "players": [
       "רועי רביבו"
      ]
@@ -2925,7 +2926,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-19T12:17:34+00:00",
-  "fetched_at": "2026-09-19T12:17:34+00:00"
+  "checked_at": "2026-09-19T13:17:34+00:00",
+  "fetched_at": "2026-09-19T13:17:34+00:00"
  }
 };
