@@ -282,6 +282,18 @@ class DailyRun(unittest.TestCase):
         self.assertEqual(res["drafts"], [])
         self.assertEqual(len([f for f in res["failed"] if "לא הספיק" in f]), 2)
 
+    def test_done_recently_by_time_not_by_date(self):
+        from datetime import datetime, timezone
+        folder = os.path.join(iw.DRAFTS, "iran")
+        os.makedirs(folder, exist_ok=True)
+        open(os.path.join(folder, "2026-09-18T2340__iran-x.json"), "w").close()      # 02:40 בישראל = 23:40 UTC "אתמול"
+        at = lambda s: datetime.fromisoformat(s).replace(tzinfo=timezone.utc)      # noqa: E731
+        done = self.orig_fns[1]                                                    # הפונקציה האמיתית (setUp מחליף אותה)
+        self.assertTrue(done("iran", at("2026-09-19T01:10")))       # ריצת גיבוי 04:10 → מדלגת
+        self.assertTrue(done("iran", at("2026-09-19T10:00")))       # 13:00 → עדיין מדלגת
+        self.assertFalse(done("iran", at("2026-09-19T23:40")))      # למחרת 02:40 → מנתחת שוב
+        self.assertFalse(done("yemen", at("2026-09-19T01:10")))     # זירה בלי טיוטה
+
     def test_open_issue_without_list_file(self):
         wa.open_issue(os.path.join(self.tmp, "missing.json"))   # לא זורק שגיאה, לא פותח בקשה
 

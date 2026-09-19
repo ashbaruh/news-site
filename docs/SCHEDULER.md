@@ -4,6 +4,8 @@
 cron-job.org (חינם) "מעיר" את GitHub בדיוק בשעה. התזמונים של GitHub נשארים כגיבוי —
 ריצה כפולה לא עולה כלום: כל משימה בודקת אם כבר בוצעה.
 
+**ב-04:00 הכל מעודכן:** ניתוח עמוק ב-02:40 (השלמות ב-05:10 ו-13:00), עדכון ביניים ב-03:40, ועדכון נתונים כל שעה.
+
 ## חלק 1 — מפתח מוגבל ב-GitHub (פעם אחת)
 1. GitHub → תמונת הפרופיל → **Settings** → **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new token**
 2. **Token name:** `cron-job news-site` · **Expiration:** שנה
@@ -32,7 +34,7 @@ cron-job.org (חינם) "מעיר" את GitHub בדיוק בשעה. התזמונ
 | משימה | URL | מתי (שעון ישראל) |
 |---|---|---|
 | עדכון ביניים | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/war-brief.yml/dispatches` | 03:40 · 11:40 · 17:40 |
-| ניתוח יומי | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/war-daily.yml/dispatches` | 10:25 · 13:00 |
+| ניתוח יומי | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/war-daily.yml/dispatches` | 02:40 · 05:10 · 13:00 |
 | עדכון נתונים | `https://api.github.com/repos/ashbaruh/news-site/actions/workflows/update-data.yml/dispatches` | כל שעה, בדקה 17 |
 
 ## איך יודעים שזה עובד

@@ -14,7 +14,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -91,11 +91,25 @@ def md_cell(t):
     return str(t).replace("|", "/").replace("\n", " ")[:300]
 
 
-def done_today(arena):
-    """יש כבר טיוטה מהיום לזירה הזו? (הריצות בצהריים ובערב משלימות רק זירות שנכשלו בבוקר)"""
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+RECENT_HOURS = 12
+
+
+def done_today(arena, now=None):
+    """יש כבר טיוטה מ-12 השעות האחרונות לזירה הזו? (ריצות הגיבוי משלימות רק זירות שנכשלו)
+    לפי זמן ולא לפי תאריך: הריצה הראשית ב-02:40 בישראל היא עדיין "אתמול" לפי UTC — בדיקת תאריך הייתה
+    מריצה את אותה זירה פעמיים באותו בוקר (19/09/2026, כשהניתוח הוקדם כדי שיהיה מוכן ב-04:00)."""
+    now = now or datetime.now(timezone.utc)
     folder = os.path.join(iw.DRAFTS, arena)
-    return os.path.isdir(folder) and any(f.startswith(today) for f in os.listdir(folder))
+    if not os.path.isdir(folder):
+        return False
+    for f in os.listdir(folder):
+        try:                                            # שם טיוטה: 2026-09-18T1115__iran-....json (UTC)
+            t = datetime.strptime(f[:15], "%Y-%m-%dT%H%M").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if timedelta(0) <= now - t < timedelta(hours=RECENT_HOURS):
+            return True
+    return False
 
 
 def main():
