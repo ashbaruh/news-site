@@ -1,0 +1,386 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fa09c976239d",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "assessment": 1,
+   "initial": 3,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-20T23:40:40+00:00",
+  "window": {
+   "from": "2026-09-19T23:40:40+00:00",
+   "to": "2026-09-20T23:40:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609202340"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במתכונת של תקיפות אוויר נרחבות, כאשר אוקראינה ביצעה מתקפת כטב\"מים וטילים רחבת היקף על מוסקבה ומתקני אנרגיה, ובתגובה רוסיה ממשיכה להפציץ את אזור קייב. במקביל, נמשכים קרבות בחזית דונייצק ומהלכים דיפלומטיים הכוללים הטלת סנקציות חדשות על ידי ארצות הברית.",
+  "fronts": [
+   {
+    "name": "חזית קייב ומחוז קייב",
+    "status": "פעילה עם תקיפות כטב\"מים ופגיעות בתשתיות"
+   },
+   {
+    "name": "חזית מוסקבה ורוסיה",
+    "status": "תחת מתקפות אוויריות אוקראיניות רחבות היקף"
+   },
+   {
+    "name": "חזית דונייצק",
+    "status": "פעילה עם התקדמות ומבצעים הנדסיים של הכוחות האוקראיניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09202340-01",
+    "title": "Russian parliamentary election results",
+    "summary": "Putin's ruling party is set to claim victory in parliamentary elections deemed predetermined by independent election monitors.",
+    "axis": "domestic politics",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T23:04:03+00:00",
+    "last_update_at": "2026-09-20T23:04:03+00:00",
+    "what_is_not_verified": "האם התוצאות משקפות בחירות הוגנות אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_independent_election_monitors",
+      "url": "https://kyivindependent.com/putins-ruling-party-set-to-claim-victory-in-russian-parliamentary-election-in-results-deemed-predetermined/",
+      "published_at": "2026-09-20T23:04:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09202340-02",
+    "title": "Ukrainian attacks on DPR",
+    "summary": "The Ukrainian army attacked the DPR multiple times in the past day, resulting in civilian casualties and property damage.",
+    "axis": "frontline",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T21:51:04+00:00",
+    "last_update_at": "2026-09-20T21:51:04+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_russian_official_reports",
+      "url": "https://tass.com/defense/2190351",
+      "published_at": "2026-09-20T21:51:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09202340-03",
+    "title": "Fires in Kyiv region from drone strikes",
+    "summary": "Russian drone strikes caused fires and damage in multiple districts of the Kyiv region.",
+    "axis": "aerial attacks",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T15:23:00+00:00",
+    "last_update_at": "2026-09-20T20:38:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_regional_authorities",
+      "url": "https://www.ukrinform.net/rubric-ato/4166116-fires-break-out-in-three-districts-of-kyiv-region.html",
+      "published_at": "2026-09-20T20:38:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_regional_authorities",
+      "url": "https://kyivindependent.com/russian-drone-attack-damages-warehouses-businesses-across-kyiv-oblast/",
+      "published_at": "2026-09-20T17:43:43+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_regional_authorities",
+      "url": "https://www.ukrinform.net/rubric-ato/4166080-fires-extinguished-in-kyiv-regions-fastiv-district-following-russian-shelling.html",
+      "published_at": "2026-09-20T17:39:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_regional_authorities",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054348/",
+      "published_at": "2026-09-20T15:23:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09202340-04",
+    "title": "Ukrainian strikes on Moscow and surrounding regions",
+    "summary": "Ukraine launched a massive drone and missile attack targeting Moscow and its oil refinery, causing fires and casualties.",
+    "axis": "strategic strikes",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T02:43:23+00:00",
+    "last_update_at": "2026-09-20T19:12:37+00:00",
+    "what_is_not_verified": "מספר כלי הטיס המדויק שיורטו שנוי במחלוקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-approves-new-long-range-operations-in-response-to-russian-strikes/",
+      "published_at": "2026-09-20T19:12:37+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://tass.com/defense/2190331",
+      "published_at": "2026-09-20T17:59:25+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054358/",
+      "published_at": "2026-09-20T17:11:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://www.theguardian.com/world/2026/sep/20/hundreds-of-drones-target-moscow-on-last-day-of-voting-in-russias-parliamentary-election",
+      "published_at": "2026-09-20T14:44:17+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://www.theguardian.com/world/video/2026/sep/20/drone-attacks-damage-major-moscow-refinery-video",
+      "published_at": "2026-09-20T14:30:53+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://t.me/alexmehacarmel/47877",
+      "published_at": "2026-09-20T13:11:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://t.me/alexmehacarmel/47873",
+      "published_at": "2026-09-20T11:48:01+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-20T10:45:39+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://meduza.io/en/feature/2026/09/20/on-the-third-day-of-russia-s-parliamentary-elections-moscow-came-under-what-its-mayor-called-the-largest-ukrainian-drone-attack-on-the-capital-officials-reported-two-deaths",
+      "published_at": "2026-09-20T08:12:19+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://t.me/abualiexpress/130525",
+      "published_at": "2026-09-20T07:59:01+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21457832",
+      "published_at": "2026-09-20T07:38:44+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://t.me/alexmehacarmel/47863",
+      "published_at": "2026-09-20T02:46:38+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ukrainian_sources",
+      "url": "https://t.me/alexmehacarmel/47856",
+      "published_at": "2026-09-20T02:43:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09202340-05",
+    "title": "Ukrainian offensive in Donetsk Oblast",
+    "summary": "Ukraine's 3rd Army Corps deployed air-dropped kamikaze UGVs during the Vivaldi offensive operation, liberating villages.",
+    "axis": "frontline",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T13:55:00+00:00",
+    "last_update_at": "2026-09-20T13:55:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_3rd_army_corps",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/",
+      "published_at": "2026-09-20T13:55:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09202340-06",
+    "title": "US sanctions on Russia",
+    "summary": "US President Donald Trump signed the new 'sanctions from hell' law against Russia, authorizing expanded tariffs and prohibitions.",
+    "axis": "sanctions",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T00:56:46+00:00",
+    "last_update_at": "2026-09-20T00:56:46+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_white_house_statement",
+      "url": "https://meduza.io/en/feature/2026/09/20/trump-signs-washington-s-long-awaited-sanctions-from-hell-law-against-russia-it-gives-him-30-days-to-act-and-broad-authority-to-suspend-the-restrictions",
+      "published_at": "2026-09-20T00:56:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר כלי הטיס המדויק ששוגרו ויורטו בתקיפה על מוסקבה",
+   "היקף הנזק המדויק בבתי הזיקוק במוסקבה",
+   "מספר הנפגעים המדויק בכל זירות התקיפה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.146,
+    "unit": "USD",
+    "change_pct": -0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "ביצוע פעולות ארוכות טווח בתגובה לתקיפות רוסיות",
+     "הגנה על שטחי המדינה ושחרור שטחים במסגרת מבצעים כמו ויוואלדי"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות אסטרטגיות וכלכליות בתוך רוסיה כדי לשבש את עורף האויב ולהשפיע על הלחימה"
+    ],
+    "forecast": [
+     "המשך שימוש ברחפנים ובאמצעים מתקדמים לתקיפת עומק ברוסיה",
+     "חיפוש תמיכה בינלאומית וחיזוק הסיוע הכלכלי והצבאי"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הפעילות הצבאית המיוחדת",
+     "קיום בחירות פרלמנטריות והשתלטות על שטחים אוקראיניים"
+    ],
+    "inferred": [
+     "הגברת התקיפות על מטרות צבאיות ואזרחיות בקייב בתגובה למתקפות על מוסקבה"
+    ],
+    "forecast": [
+     "החרפת התקיפות האוויריות על תשתיות באוקראינה לקראת חודשי החורף",
+     "המשך ניסיונות לחץ צבאי לאורך החזיתות היבשתיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/sep/20/drone-attacks-damage-major-moscow-refinery-video",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21457832",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-approves-new-long-range-operations-in-response-to-russian-strikes/",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/09/20/trump-signs-washington-s-long-awaited-sanctions-from-hell-law-against-russia-it-gives-him-30-days-to-act-and-broad-authority-to-suspend-the-restrictions",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2190331",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130525",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47856",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4166080-fires-extinguished-in-kyiv-regions-fastiv-district-following-russian-shelling.html",
+    "accessed_at": "2026-09-20T23:40:40+00:00"
+   }
+  ]
+ }
+}
