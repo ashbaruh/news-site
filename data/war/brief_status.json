@@ -1,5 +1,5 @@
 {
- "at": "2026-09-20T08:47:21+00:00",
- "ok": true,
- "msg": "עדכון ביניים 12:00: iran 3, north 3, ukraine 3, yemen 3"
+ "at": "2026-09-20T14:43:17+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: <urlopen error [Errno 104] Connection reset by peer>"
 }
