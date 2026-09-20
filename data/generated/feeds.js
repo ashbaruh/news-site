@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:07:48+00:00",
-  "fetched_at": "2026-09-20T10:07:48+00:00"
+  "checked_at": "2026-09-20T10:17:24+00:00",
+  "fetched_at": "2026-09-20T10:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-16T13:00:13+00:00"
    }
   ],
-  "ok": false,
-  "error": "<urlopen error [Errno 104] Connection reset by peer>",
-  "checked_at": "2026-09-20T10:07:58+00:00",
-  "fetched_at": "2026-09-20T09:17:37+00:00"
+  "ok": true,
+  "checked_at": "2026-09-20T10:17:33+00:00",
+  "fetched_at": "2026-09-20T10:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:07:59+00:00",
-  "fetched_at": "2026-09-20T10:07:59+00:00"
+  "checked_at": "2026-09-20T10:17:34+00:00",
+  "fetched_at": "2026-09-20T10:17:34+00:00"
  },
- "generated_at": "2026-09-20T10:07:59+00:00",
+ "generated_at": "2026-09-20T10:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:07:49+00:00",
-  "fetched_at": "2026-09-20T10:07:49+00:00"
+  "checked_at": "2026-09-20T10:17:25+00:00",
+  "fetched_at": "2026-09-20T10:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:07:50+00:00",
-  "fetched_at": "2026-09-20T10:07:50+00:00"
+  "checked_at": "2026-09-20T10:17:27+00:00",
+  "fetched_at": "2026-09-20T10:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2117,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:07:52+00:00",
-  "fetched_at": "2026-09-20T10:07:52+00:00"
+  "checked_at": "2026-09-20T10:17:28+00:00",
+  "fetched_at": "2026-09-20T10:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:07:52+00:00",
-  "fetched_at": "2026-09-20T10:07:52+00:00"
+  "checked_at": "2026-09-20T10:17:28+00:00",
+  "fetched_at": "2026-09-20T10:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2233,11 +2232,8 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "Google DeepMind",
-    "Google"
-   ],
+   "candidates": 9,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2299,7 +2295,7 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 63,
+     "likes": 64,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
@@ -2312,8 +2308,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:07:58+00:00",
-  "fetched_at": "2026-09-20T10:07:58+00:00"
+  "checked_at": "2026-09-20T10:17:33+00:00",
+  "fetched_at": "2026-09-20T10:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2656,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:07:55+00:00",
-  "fetched_at": "2026-09-20T10:07:55+00:00"
+  "checked_at": "2026-09-20T10:17:30+00:00",
+  "fetched_at": "2026-09-20T10:17:30+00:00"
  }
 };
