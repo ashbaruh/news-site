@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T09:17:24+00:00",
-  "fetched_at": "2026-09-20T09:17:24+00:00"
+  "checked_at": "2026-09-20T10:07:48+00:00",
+  "fetched_at": "2026-09-20T10:07:48+00:00"
  },
  "animals": {
   "data": [
@@ -43,8 +43,9 @@ window.DB.generated = {
     "date": "2026-09-16T13:00:13+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-20T09:17:37+00:00",
+  "ok": false,
+  "error": "<urlopen error [Errno 104] Connection reset by peer>",
+  "checked_at": "2026-09-20T10:07:58+00:00",
   "fetched_at": "2026-09-20T09:17:37+00:00"
  },
  "av_en": {
@@ -79,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T09:17:38+00:00",
-  "fetched_at": "2026-09-20T09:17:38+00:00"
+  "checked_at": "2026-09-20T10:07:59+00:00",
+  "fetched_at": "2026-09-20T10:07:59+00:00"
  },
- "generated_at": "2026-09-20T09:17:38+00:00",
+ "generated_at": "2026-09-20T10:07:59+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +93,9 @@ window.DB.generated = {
      "date": "2026-09-20T07:00:00+00:00"
     },
     {
-     "title": "הכחשה באמירויות: בן זאיד לא העביר התרעה לנתניהו לפני 7 באוקטובר; טראמפ קטע במפתיע את חופשתו",
+     "title": "פיגוע בבנימין: בן 30 נפצע אנוש מירי על רוחצים במעיין; כוחות הביטחון פתחו במצוד נרחב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
-     "date": "2026-09-20T07:02:00+00:00"
+     "date": "2026-09-20T09:21:00+00:00"
     }
    ],
    "market": [
@@ -102,11 +103,6 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -174,6 +170,11 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T09:17:26+00:00",
-  "fetched_at": "2026-09-20T09:17:26+00:00"
+  "checked_at": "2026-09-20T10:07:49+00:00",
+  "fetched_at": "2026-09-20T10:07:49+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T09:17:26+00:00",
-  "fetched_at": "2026-09-20T09:17:26+00:00"
+  "checked_at": "2026-09-20T10:07:50+00:00",
+  "fetched_at": "2026-09-20T10:07:50+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2117,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T09:17:29+00:00",
-  "fetched_at": "2026-09-20T09:17:29+00:00"
+  "checked_at": "2026-09-20T10:07:52+00:00",
+  "fetched_at": "2026-09-20T10:07:52+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2208,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T09:17:29+00:00",
-  "fetched_at": "2026-09-20T09:17:29+00:00"
+  "checked_at": "2026-09-20T10:07:52+00:00",
+  "fetched_at": "2026-09-20T10:07:52+00:00"
  },
  "ai": {
   "data": {
@@ -2232,14 +2233,17 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [],
+   "candidates": 6,
+   "failed_sources": [
+    "Google DeepMind",
+    "Google"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 432,
+     "likes": 433,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2253,7 +2257,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 139,
+     "likes": 140,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2295,21 +2299,21 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 60,
+     "likes": 63,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 57,
+     "likes": 58,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T09:17:36+00:00",
-  "fetched_at": "2026-09-20T09:17:36+00:00"
+  "checked_at": "2026-09-20T10:07:58+00:00",
+  "fetched_at": "2026-09-20T10:07:58+00:00"
  },
  "abroad": {
   "data": {
@@ -2652,7 +2656,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T09:17:32+00:00",
-  "fetched_at": "2026-09-20T09:17:32+00:00"
+  "checked_at": "2026-09-20T10:07:55+00:00",
+  "fetched_at": "2026-09-20T10:07:55+00:00"
  }
 };
