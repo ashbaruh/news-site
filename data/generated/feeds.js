@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T19:47:34+00:00",
-  "fetched_at": "2026-09-20T19:47:34+00:00"
+  "checked_at": "2026-09-20T20:17:13+00:00",
+  "fetched_at": "2026-09-20T20:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T19:47:42+00:00",
-  "fetched_at": "2026-09-20T19:47:42+00:00"
+  "checked_at": "2026-09-20T20:17:22+00:00",
+  "fetched_at": "2026-09-20T20:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T19:47:42+00:00",
-  "fetched_at": "2026-09-20T19:47:42+00:00"
+  "checked_at": "2026-09-20T20:17:23+00:00",
+  "fetched_at": "2026-09-20T20:17:23+00:00"
  },
- "generated_at": "2026-09-20T19:47:42+00:00",
+ "generated_at": "2026-09-20T20:17:23+00:00",
  "globes": {
   "data": {
    "top": [
@@ -102,6 +102,11 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
+    },
+    {
+     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
+     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -169,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
-     "date": "2026-09-19T05:49:00+00:00"
-    },
-    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T19:47:35+00:00",
-  "fetched_at": "2026-09-20T19:47:35+00:00"
+  "checked_at": "2026-09-20T20:17:14+00:00",
+  "fetched_at": "2026-09-20T20:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T19:47:36+00:00",
-  "fetched_at": "2026-09-20T19:47:36+00:00"
+  "checked_at": "2026-09-20T20:17:14+00:00",
+  "fetched_at": "2026-09-20T20:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T19:47:36+00:00",
-  "fetched_at": "2026-09-20T19:47:36+00:00"
+  "checked_at": "2026-09-20T20:17:16+00:00",
+  "fetched_at": "2026-09-20T20:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T19:47:36+00:00",
-  "fetched_at": "2026-09-20T19:47:36+00:00"
+  "checked_at": "2026-09-20T20:17:16+00:00",
+  "fetched_at": "2026-09-20T20:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2230,7 +2230,7 @@ window.DB.generated = {
      "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
     }
    ],
-   "candidates": 8,
+   "candidates": 7,
    "failed_sources": [],
    "tools": [
     {
@@ -2293,7 +2293,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 71,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2306,8 +2306,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T19:47:41+00:00",
-  "fetched_at": "2026-09-20T19:47:41+00:00"
+  "checked_at": "2026-09-20T20:17:22+00:00",
+  "fetched_at": "2026-09-20T20:17:22+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T19:47:39+00:00",
-  "fetched_at": "2026-09-20T19:47:39+00:00"
+  "checked_at": "2026-09-20T20:17:19+00:00",
+  "fetched_at": "2026-09-20T20:17:19+00:00"
  }
 };
