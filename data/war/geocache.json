@@ -40,11 +40,19 @@
 39.9057,
 116.3913
 ],
+"beirut port, lebanon": [
+33.9008,
+35.5022
+],
 "beirut, lebanon": [
 33.8892,
 35.5026
 ],
 "bekaa, lebanon": null,
+"camp david, united states": [
+39.6487,
+-77.4651
+],
 "chisinau, moldova": [
 47.0245,
 28.8323
@@ -114,6 +122,10 @@
 46.2572,
 33.2844
 ],
+"kapotnya, russia": [
+55.6367,
+37.7985
+],
 "kfar tibnit, lebanon": [
 33.3519,
 35.5186
@@ -128,6 +140,10 @@
 36.231
 ],
 "kherson oblast, ukraine": null,
+"kherson region, ukraine": [
+46.6375,
+32.6144
+],
 "kherson, ukraine": [
 46.6401,
 32.6144
@@ -277,6 +293,7 @@
 26.4494,
 56.2028
 ],
+"strait of hormuz, iran": null,
 "sumy oblast, ukraine": null,
 "sumy, ukraine": [
 50.912,
@@ -298,6 +315,10 @@
 13.5752,
 44.0215
 ],
+"tayr harfa, lebanon": [
+33.1337,
+35.2236
+],
 "tehran, iran": [
 35.6893,
 51.3896
@@ -314,6 +335,10 @@
 "wadi al-raqqad, syria": [
 32.8011,
 35.8268
+],
+"washington, d.c., united states": [
+38.8951,
+-77.0364
 ],
 "washington, usa": [
 38.8951,

@@ -1,126 +1,143 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-20T04:00:00+03:00",
- "generated_at": "2026-09-20T00:40:18+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-09-20T12:00:00+03:00",
+ "generated_at": "2026-09-20T08:40:19+00:00",
+ "model": "gemini-3.7-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09200040-01",
-     "title": "התקבלה התרעה על העלאת כוננות",
-     "summary": "הופצו דיווחים בערוצים זרים על הנפקת קוד התרעה גבוה לכלל הכוחות המזוינים של איראן.",
-     "axis": "iran",
+     "id": "IRAN-09200840-01",
+     "title": "איראן: מצר הורמוז יישאר סגור עד שארה\"ב תמלא את התחייבויותיה",
+     "summary": "יו\"ר הפרלמנט האיראני מוחמד באקר קאליבאף הודיע כי מצר הורמוז יישאר חסום עד שארצות הברית תעמוד בתנאי טהראן ובהסכם מחודש יוני.",
+     "axis": "iran_us",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T23:20:43+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T23:20:43+00:00",
-     "last_update_at": "2026-09-19T23:20:43+00:00",
-     "what_is_not_verified": "אמינות הדיווח על קוד ההתראה אינה מאומתת ממקור רשמי איראני.",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-20T08:15:06+00:00",
+     "last_update_at": "2026-09-20T08:15:06+00:00",
+     "what_is_not_verified": "פרטי התנאים שהועברו באמצעות מתווכים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47849",
-       "published_at": "2026-09-19T23:20:43+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-will-not-reopen-until-us-honours-june-agreement",
+       "published_at": "2026-09-20T08:15:06+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-09200040-02",
-     "title": "נתוני סחר וסין",
-     "summary": "לפי מקור רוסי, נרשמה צמצום משמעותי בהיקף הסחר שאינו קשור לנפט בין סין לאיראן בשמונת החודשים הראשונים של השנה.",
-     "axis": "iran",
-     "claim_type": "data",
+     "id": "IRAN-09200840-02",
+     "title": "ארה\"ב פרסמה אזהרות ביטחון ב-11 מדינות במזרח התיכון",
+     "summary": "שגרירויות ארצות הברית פרסמו התראות ביטחון לאזרחיהן ב-11 מדינות באזור, כולל ישראל, איראן, סעודיה ולבנון.",
+     "axis": "us_mideast",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T20:50:01+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T20:50:01+00:00",
-     "last_update_at": "2026-09-19T20:50:01+00:00",
-     "what_is_not_verified": "הנתונים מבוססים על מקור רוסי בלבד ואינם מאומתים באופן רשמי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47842",
-       "published_at": "2026-09-19T20:50:01+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09200040-03",
-     "title": "עמדת איראן לגבי אמנת NPT",
-     "summary": "מזכיר המועצה העליונה לביטחון לאומי של איראן הצהיר כי צעדי ארה\"ב וישראל מאפשרים פרישה מהאמנה למניעת הפצת נשק גרעיני.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T18:10:38+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T18:10:38+00:00",
-     "last_update_at": "2026-09-19T18:10:38+00:00",
-     "what_is_not_verified": "האם אכן תתבצע פרישה בפועל.",
+     "first_reported_at": "2026-09-20T05:23:41+00:00",
+     "last_update_at": "2026-09-20T05:23:41+00:00",
+     "what_is_not_verified": "הסיבה המדויקת לפרסום ההתרעות בכל מדינה ומדינה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130504",
-       "published_at": "2026-09-19T18:10:38+00:00"
+       "url": "https://t.me/abualiexpress/130512",
+       "published_at": "2026-09-20T05:23:41+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "IRAN-09200840-03",
+     "title": "טראמפ קיצר את שהותו בקמפ דיוויד וחזר במפתיע לבית הלבן",
+     "summary": "נשיא ארצות הברית דונלד טראמפ שב לבית הלבן מוקדם מהמתוכנן על רקע המתיחות וההסלמה במזרח התיכון.",
+     "axis": "us_iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-20T05:22:39+00:00",
+     "last_update_at": "2026-09-20T07:35:17+00:00",
+     "what_is_not_verified": "הסיבה הרשמית לקיצור השהות שלא נמסרה על ידי הממשל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130524",
+       "published_at": "2026-09-20T07:35:17+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-cuts-short-weekend-camp-david-returns-white-house",
+       "published_at": "2026-09-20T05:22:39+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קמפ דיוויד",
+       "lat": 39.6487,
+       "lon": -77.4651
+      },
+      {
+       "name": "וושינגטון",
+       "lat": 38.8951,
+       "lon": -77.0364
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-09200040-01",
-     "title": "הפעלת מערכות הגנה בסוריה",
-     "summary": "דווח על הפעלת אמצעי נגד מטוסים בבסיס הממוקם בסמוך לעיר חסקה שבצפון-מזרח סוריה.",
-     "axis": "north",
-     "claim_type": "incident",
+     "id": "NORTH-09200840-01",
+     "title": "צבא לבנון קיבל משלוח של 70 מכולות תחמושת מארה\"ב",
+     "summary": "צבא לבנון הודיע כי קלט בנמל ביירות 70 מכולות של תחמושת מסוגים שונים במסגרת תכניות הסיוע הצבאי האמריקאי.",
+     "axis": "lebanon_us",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T23:55:40+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T23:55:40+00:00",
-     "last_update_at": "2026-09-19T23:55:40+00:00",
-     "what_is_not_verified": "זהות אלגורם שתקף או הפעיל את המערכות אינה מפורטת.",
+     "first_reported_at": "2026-09-20T04:48:53+00:00",
+     "last_update_at": "2026-09-20T04:48:53+00:00",
+     "what_is_not_verified": "פירוט סוגי התחמושת המדויקים שנמסרו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/47852",
-       "published_at": "2026-09-19T23:55:40+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_fb73e82a943450c5",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/958692/lebanese-army-receives-70-containers-of-ammunition-under-us-aid-progra/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958692",
+       "published_at": "2026-09-20T04:48:53+00:00"
       }
      ],
      "places": [
       {
-       "name": "חסקה, סוריה",
-       "lat": 36.5014,
-       "lon": 40.747
+       "name": "נמל ביירות",
+       "lat": 33.9008,
+       "lon": 35.5022
       }
      ]
     },
     {
-     "id": "NORTH-09200040-02",
-     "title": "מעצר גנרל סורי לשעבר",
-     "summary": "רשויות הביטחון בסוריה עצרו את מייג'ור גנרל בדימוס אחמד מוחמד אסמאעיל שהיה מפקד בכיר במשמר הרפובליקה.",
-     "axis": "north",
-     "claim_type": "incident",
+     "id": "NORTH-09200840-02",
+     "title": "כוחות הביטחון בסוריה עצרו גנרל לשעבר ממשמר הרפובליקה של אסד",
+     "summary": "רשויות הביטחון בסוריה הודיעו על מעצרו של מפקד בכיר לשעבר שפיקד על פעולות צבאיות נגד אזורי מורדים במהלך מלחמת האזרחים.",
+     "axis": "syria_internal",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:09:39+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-20T00:09:39+00:00",
      "last_update_at": "2026-09-20T00:09:39+00:00",
-     "what_is_not_verified": "פרטים מלאים על ההליכים המשפטיים נגדו אינם ידועים.",
+     "what_is_not_verified": "מיקום המעצר ונסיבותיו המדויקות",
      "is_new_in_window": true,
      "reports": [
       {
@@ -133,110 +150,150 @@ window.DB.war_brief = {
      "places": []
     },
     {
-     "id": "NORTH-09200040-03",
-     "title": "פגיעה בלוחמי צה\"ל בדרום לבנון",
-     "summary": "שני חיילי צה\"ל נפגעו באורח קל עד בינוני כתוצאה מפיצוץ מטען סמוך לנחל סלוקי שבדרום לבנון.",
-     "axis": "north",
+     "id": "NORTH-09200840-03",
+     "title": "תקיפות ישראליות בדרום לבנון ופגיעה באזור נבטיה",
+     "summary": "כלי טיס וארטילריה ישראליים ביצעו תקיפות בדרום לבנון, לרבות בעיר נבטיה ובכפרים נוספים, ופגעו בצוות רפואי שהוזעק למקום.",
+     "axis": "israel_lebanon",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T14:15:26+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T14:15:26+00:00",
-     "last_update_at": "2026-09-19T14:15:26+00:00",
-     "what_is_not_verified": "אין פירוט נוסף על נסיבות הנחת המטען מעבר לדיווחים.",
+     "first_reported_at": "2026-09-20T04:29:24+00:00",
+     "last_update_at": "2026-09-20T08:33:11+00:00",
+     "what_is_not_verified": "היקף הנפגעים והנזק המדויק בתקיפות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94376",
-       "published_at": "2026-09-19T14:15:26+00:00"
+       "url": "https://english.almanar.com.lb/article/129152/",
+       "published_at": "2026-09-20T08:33:11+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-target-lebanons-nabatieh-ambulance-team",
+       "published_at": "2026-09-20T04:29:24+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "נבטיה",
+       "lat": 33.3812,
+       "lon": 35.4825
+      },
+      {
+       "name": "טיר חרפא",
+       "lat": 33.1337,
+       "lon": 35.2236
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09200040-01",
-     "title": "חדירת כטב\"מים למרחב מולדובה",
-     "summary": "שירות הגבולות של מולדובה דיווח כי לפחות שלושה כטב\"מים פרצו את המרחב האווירי של המדינה במהלך הלילה.",
-     "axis": "ukraine",
+     "id": "UKRAINE-09200840-01",
+     "title": "מתקפת כטב\"מים אוקראינית נרחבת פגעה בבית זיקוק במחוז מוסקבה",
+     "summary": "כוחות אוקראינה שיגרו מתקפת כטב\"מים גדולה על מחוז מוסקבה ופגעו בבית זיקוק לנפט בקפוטניה ובאתר לוגיסטי.",
+     "axis": "ukraine_russia",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T16:04:03+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T16:04:03+00:00",
-     "last_update_at": "2026-09-19T16:04:03+00:00",
-     "what_is_not_verified": "מוצאם המדויק של כל הכטב\"מים אינו מצוין במלואו.",
+     "first_reported_at": "2026-09-20T07:59:01+00:00",
+     "last_update_at": "2026-09-20T08:38:00+00:00",
+     "what_is_not_verified": "מספר הכטב\"מים המדויק שפגע ביעדים לעומת אלה שיורטו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47833",
-       "published_at": "2026-09-19T16:04:03+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_34851f8dac0ed0c5",
+       "url": "https://www.ukrinform.net/rubric-ato/4165935-zelensky-confirms-strikes-on-key-oil-industry-facility-in-moscow-region.html",
+       "published_at": "2026-09-20T08:38:00+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_34851f8dac0ed0c5",
+       "url": "https://t.me/abualiexpress/130525",
+       "published_at": "2026-09-20T07:59:01+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_34851f8dac0ed0c5",
+       "url": "https://meduza.io/en/feature/2026/09/20/on-the-third-day-of-russia-s-parliamentary-elections-moscow-came-under-what-its-mayor-called-the-largest-ukrainian-drone-attack-on-the-capital-officials-reported-two-deaths",
+       "published_at": "2026-09-20T08:12:19+00:00"
       }
      ],
      "places": [
       {
-       "name": "טרויצקה, אוקראינה",
-       "lat": 49.9074,
-       "lon": 38.2868
+       "name": "מוסקבה",
+       "lat": 55.7505,
+       "lon": 37.6175
+      },
+      {
+       "name": "קפוטניה",
+       "lat": 55.6367,
+       "lon": 37.7985
       }
      ]
     },
     {
-     "id": "UKRAINE-09200040-02",
-     "title": "אישור מכירת ציוד הגנה אווירית לאוקראינה",
-     "summary": "מחלקת המדינה של ארה\"ב אישרה עסקת מכירת ציוד הגנה אווירית לאוקראינה במימון אירופי ואמריקאי.",
-     "axis": "ukraine",
+     "id": "UKRAINE-09200840-02",
+     "title": "ארבעה הרוגים, בהם שלושה ילדים, בתקיפות רוסיות במחוז קייב",
+     "summary": "תקיפות רוסיות ממושכות שנמשכו מעל 24 שעות במחוז קייב גרמו למותם של ארבעה בני אדם ולנזק בעשרות אתרים בחמישה מחוזות משנה.",
+     "axis": "russia_ukraine",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T23:08:09+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T23:08:09+00:00",
-     "last_update_at": "2026-09-19T23:08:09+00:00",
-     "what_is_not_verified": "מועד אספקת הציוד בפועל טרם נקבע.",
+     "first_reported_at": "2026-09-20T08:22:31+00:00",
+     "last_update_at": "2026-09-20T08:22:31+00:00",
+     "what_is_not_verified": "המיקום המדויק שבו נהרגו האזרחים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
-       "source_root_id": "fh_adb806cf47382a75",
-       "url": "https://meduza.io/en/news/2026/09/20/u-s-approves-potential-2-7-billion-air-defense-sale-to-ukraine-funded-by-european-contributions-and-biden-era-military-aid",
-       "published_at": "2026-09-19T23:08:09+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09200040-03",
-     "title": "הרוגים בתקיפה באזור קייב",
-     "summary": "רשויות אזוריות באוקראינה דיווחו כי אם ושני ילדיה נהרגו כתוצאה מפגיעת כטב\"ם במחוז קייב.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T20:59:51+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T20:59:51+00:00",
-     "last_update_at": "2026-09-19T20:59:51+00:00",
-     "what_is_not_verified": "פרטים נוספים על היקף הנזק באתר הפגיעה אינם מלאים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/irreparable-tragedy-mother-2-children-killed-in-russian-strike-on-kyiv-oblast/",
-       "published_at": "2026-09-19T20:59:51+00:00"
+       "source_root_id": "fh_401f14bdf644a10f",
+       "url": "https://meduza.io/en/news/2026/09/20/three-children-are-among-the-four-reportedly-killed-in-russia-s-latest-strikes-on-the-kyiv-region",
+       "published_at": "2026-09-20T08:22:31+00:00"
       }
      ],
      "places": [
       {
-       "name": "נפה פასטיב, אוקראינה",
-       "lat": 50.0734,
-       "lon": 29.9164
+       "name": "מחוז קייב",
+       "lat": 50.4731,
+       "lon": 30.4674
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09200840-03",
+     "title": "שני הרוגים בתקיפת כטב\"ם על אוטובוס במחוז חרסון",
+     "summary": "יו\"ר ועדת הבחירות המרכזית ברוסיה דיווחה כי שני בני אדם, בהם חברת ועדת בחירות, נהרגו מפגיעת כטב\"ם באוטובוס במחוז חרסון.",
+     "axis": "russia_ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-20T08:37:19+00:00",
+     "last_update_at": "2026-09-20T08:37:19+00:00",
+     "what_is_not_verified": "זהות המשגרים והמיקום המדויק של האוטובוס במחוז",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_11a24eed9220b467",
+       "url": "https://tass.com/politics/2190267",
+       "published_at": "2026-09-20T08:37:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מחוז חרסון",
+       "lat": 46.6375,
+       "lon": 32.6144
       }
      ]
     }
@@ -245,46 +302,17 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09200040-01",
-     "title": "תקיפה בלליסטית לעבר ריאד",
-     "summary": "הקואליציה בהובלת סעודיה אישרה כי יורט בהצלחה טיל בליסטי ששוגר על ידי החות'ים לעבר הבירה ריאד.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T20:52:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T20:52:46+00:00",
-     "last_update_at": "2026-09-19T20:52:46+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק מנפילת שברי היירוט טרם פורט במלואו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_c99463bf19f3e74f",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-missiles-riyadh-and-other-cities-intercepted-saudi-coalition-says",
-       "published_at": "2026-09-19T20:52:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09200040-02",
-     "title": "הצהרת החות'ים על תקיפת יעדים בריאד",
-     "summary": "נציגי החות'ים הצהירו כי תקפו אתרים רגישים בבירה הסעודית באמצעות טילים וכטב\"מים.",
-     "axis": "yemen",
+     "id": "YEMEN-09200840-01",
+     "title": "החות'ים טענו שתקפו יעדים בריאד באמצעות טילים וכטב\"מים",
+     "summary": "החות'ים בתימן קיבלו אחריות לתקיפת אתרים רגישים בריאד לאחר שעשן היתמר ליד נמל התעופה וסעודיה הפעילה התרעות ראשונות מסוגן.",
+     "axis": "houthis_saudi",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:21:04+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-20T00:21:04+00:00",
      "last_update_at": "2026-09-20T00:21:04+00:00",
-     "what_is_not_verified": "מידת הפגיעה המדויקת ביעדים אינה מאומתת ממקור בלתי תלוי.",
+     "what_is_not_verified": "מידת הפגיעה המדויקת באתרים בריאד",
      "is_new_in_window": true,
      "reports": [
       {
@@ -296,34 +324,75 @@ window.DB.war_brief = {
      ],
      "places": [
       {
-       "name": "ריאד, ערב הסעודית",
+       "name": "ריאד",
        "lat": 24.6389,
        "lon": 46.716
       }
      ]
     },
     {
-     "id": "YEMEN-09200040-03",
-     "title": "הצעת סיוע צבאי מטורקיה לערב הסעודית",
-     "summary": "שר החוץ הטורקי הכריז כי ארצו מוכנה לסייע לערב הסעודית בצרכיה הצבאיים לאור התקיפות של החות'ים.",
-     "axis": "yemen",
-     "claim_type": "statement",
+     "id": "YEMEN-09200840-02",
+     "title": "ארה\"ב פרסמה אזהרות ביטחון עקב המתיחות בין סעודיה לחות'ים",
+     "summary": "ארצות הברית פרסמה התראות ביטחון ב-11 מדינות במזרח התיכון על רקע החשש מהסלמה בעימות בין סעודיה לבין החות'ים.",
+     "axis": "us_houthis_saudi",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T19:46:32+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T19:46:32+00:00",
-     "last_update_at": "2026-09-19T19:46:32+00:00",
-     "what_is_not_verified": "אילו אמצעים ספציפיים יועברו ומתי טרם סוכם.",
+     "first_reported_at": "2026-09-20T05:12:44+00:00",
+     "last_update_at": "2026-09-20T06:46:29+00:00",
+     "what_is_not_verified": "הערכת הסיכון המדויקת של גורמי המודיעין האמריקאיים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
-       "published_at": "2026-09-19T19:46:32+00:00"
+       "url": "https://t.me/abualiexpress/130511",
+       "published_at": "2026-09-20T05:12:44+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/hjq46gpygg",
+       "published_at": "2026-09-20T06:46:29+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "YEMEN-09200840-03",
+     "title": "טראמפ קיצר את שהותו בקמפ דיוויד על רקע המתיחות מול החות'ים",
+     "summary": "נשיא ארצות הברית עזב מוקדם מהצפוי את קמפ דיוויד ושב לבית הלבן בעקבות החמרת המתיחות מול החות'ים וההסלמה האזורית.",
+     "axis": "us_houthis",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-20T05:22:39+00:00",
+     "last_update_at": "2026-09-20T07:35:17+00:00",
+     "what_is_not_verified": "אישור רשמי מהבית הלבן הקושר בין החזרה לבין הזירה החות'ית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130524",
+       "published_at": "2026-09-20T07:35:17+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-cuts-short-weekend-camp-david-returns-white-house",
+       "published_at": "2026-09-20T05:22:39+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קמפ דיוויד",
+       "lat": 39.6487,
+       "lon": -77.4651
+      }
+     ]
     }
    ]
   }
