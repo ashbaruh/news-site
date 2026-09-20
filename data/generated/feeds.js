@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T21:17:17+00:00",
-  "fetched_at": "2026-09-20T21:17:17+00:00"
+  "checked_at": "2026-09-20T22:17:20+00:00",
+  "fetched_at": "2026-09-20T22:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T21:17:29+00:00",
-  "fetched_at": "2026-09-20T21:17:29+00:00"
+  "checked_at": "2026-09-20T22:17:33+00:00",
+  "fetched_at": "2026-09-20T22:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T21:17:30+00:00",
-  "fetched_at": "2026-09-20T21:17:30+00:00"
+  "checked_at": "2026-09-20T22:17:33+00:00",
+  "fetched_at": "2026-09-20T22:17:33+00:00"
  },
- "generated_at": "2026-09-20T21:17:30+00:00",
+ "generated_at": "2026-09-20T22:17:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,16 +98,6 @@ window.DB.generated = {
     }
    ],
    "market": [
-    {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
-    },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555562",
@@ -174,6 +164,11 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -209,6 +204,11 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T21:17:19+00:00",
-  "fetched_at": "2026-09-20T21:17:19+00:00"
+  "checked_at": "2026-09-20T22:17:21+00:00",
+  "fetched_at": "2026-09-20T22:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T21:17:20+00:00",
-  "fetched_at": "2026-09-20T21:17:20+00:00"
+  "checked_at": "2026-09-20T22:17:22+00:00",
+  "fetched_at": "2026-09-20T22:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2018,8 +2018,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T21:17:21+00:00",
-  "fetched_at": "2026-09-20T21:17:21+00:00"
+  "checked_at": "2026-09-20T22:17:24+00:00",
+  "fetched_at": "2026-09-20T22:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2109,8 +2109,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T21:17:21+00:00",
-  "fetched_at": "2026-09-20T21:17:21+00:00"
+  "checked_at": "2026-09-20T22:17:24+00:00",
+  "fetched_at": "2026-09-20T22:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2139,7 +2139,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 446,
+     "likes": 449,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2157,18 +2157,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 87,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 102,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 86,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2199,17 +2199,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 82,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+     "title": "Marigold V2",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 92,
+     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T21:17:28+00:00",
-  "fetched_at": "2026-09-20T21:17:28+00:00"
+  "checked_at": "2026-09-20T22:17:32+00:00",
+  "fetched_at": "2026-09-20T22:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2552,7 +2552,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T21:17:24+00:00",
-  "fetched_at": "2026-09-20T21:17:24+00:00"
+  "checked_at": "2026-09-20T22:17:28+00:00",
+  "fetched_at": "2026-09-20T22:17:28+00:00"
  }
 };
