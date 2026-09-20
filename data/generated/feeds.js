@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T11:17:45+00:00",
-  "fetched_at": "2026-09-20T11:17:45+00:00"
+  "checked_at": "2026-09-20T12:17:21+00:00",
+  "fetched_at": "2026-09-20T12:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T11:17:55+00:00",
-  "fetched_at": "2026-09-20T11:17:55+00:00"
+  "checked_at": "2026-09-20T12:17:35+00:00",
+  "fetched_at": "2026-09-20T12:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T11:17:55+00:00",
-  "fetched_at": "2026-09-20T11:17:55+00:00"
+  "checked_at": "2026-09-20T12:17:35+00:00",
+  "fetched_at": "2026-09-20T12:17:35+00:00"
  },
- "generated_at": "2026-09-20T11:17:55+00:00",
+ "generated_at": "2026-09-20T12:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-20T10:29:00+00:00"
     },
     {
-     "title": "בן 30 נרצח בפיגוע ירי על רוחצים במעיין בבנימין; כוחות הביטחון פתחו במצוד נרחב",
+     "title": "גם כוחות מיוחדים: תגבור משמעותי של צה\"ל ברצועה ביום הכיפורים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
-     "date": "2026-09-20T10:49:00+00:00"
+     "date": "2026-09-20T12:14:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T11:17:46+00:00",
-  "fetched_at": "2026-09-20T11:17:46+00:00"
+  "checked_at": "2026-09-20T12:17:22+00:00",
+  "fetched_at": "2026-09-20T12:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T11:17:47+00:00",
-  "fetched_at": "2026-09-20T11:17:47+00:00"
+  "checked_at": "2026-09-20T12:17:23+00:00",
+  "fetched_at": "2026-09-20T12:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2115,8 +2115,9 @@ window.DB.generated = {
     "title": "נאנטר - פו אורטז"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-20T11:17:47+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-20T12:17:28+00:00",
   "fetched_at": "2026-09-20T11:17:47+00:00"
  },
  "ligat_haal": {
@@ -2207,8 +2208,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T11:17:47+00:00",
-  "fetched_at": "2026-09-20T11:17:47+00:00"
+  "checked_at": "2026-09-20T12:17:28+00:00",
+  "fetched_at": "2026-09-20T12:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2223,16 +2224,14 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/life-sciences-verification-program",
-     "date": "2026-09-17T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing the Life Sciences Verification Program",
-     "title_he": "היכרות עם תוכנית האימות למדעי החיים",
-     "translated_by": "google"
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
+     "date": "2026-09-20T06:51:39+00:00",
+     "launch": false,
+     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
     }
    ],
-   "candidates": 9,
+   "candidates": 8,
    "failed_sources": [],
    "tools": [
     {
@@ -2274,7 +2273,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2302,14 +2301,14 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 61,
+     "likes": 63,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T11:17:54+00:00",
-  "fetched_at": "2026-09-20T11:17:54+00:00"
+  "checked_at": "2026-09-20T12:17:34+00:00",
+  "fetched_at": "2026-09-20T12:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2652,7 +2651,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T11:17:50+00:00",
-  "fetched_at": "2026-09-20T11:17:50+00:00"
+  "checked_at": "2026-09-20T12:17:31+00:00",
+  "fetched_at": "2026-09-20T12:17:31+00:00"
  }
 };
