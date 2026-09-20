@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:17:27+00:00",
-  "fetched_at": "2026-09-20T14:17:27+00:00"
+  "checked_at": "2026-09-20T15:17:15+00:00",
+  "fetched_at": "2026-09-20T15:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:17:41+00:00",
-  "fetched_at": "2026-09-20T14:17:41+00:00"
+  "checked_at": "2026-09-20T15:17:25+00:00",
+  "fetched_at": "2026-09-20T15:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:17:41+00:00",
-  "fetched_at": "2026-09-20T14:17:41+00:00"
+  "checked_at": "2026-09-20T15:17:26+00:00",
+  "fetched_at": "2026-09-20T15:17:26+00:00"
  },
- "generated_at": "2026-09-20T14:17:41+00:00",
+ "generated_at": "2026-09-20T15:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
+     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
+     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -169,11 +169,6 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
-     "date": "2026-09-19T05:49:00+00:00"
-    },
-    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -209,6 +204,11 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:17:29+00:00",
-  "fetched_at": "2026-09-20T14:17:29+00:00"
+  "checked_at": "2026-09-20T15:17:16+00:00",
+  "fetched_at": "2026-09-20T15:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:17:30+00:00",
-  "fetched_at": "2026-09-20T14:17:30+00:00"
+  "checked_at": "2026-09-20T15:17:17+00:00",
+  "fetched_at": "2026-09-20T15:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:17:32+00:00",
-  "fetched_at": "2026-09-20T14:17:32+00:00"
+  "checked_at": "2026-09-20T15:17:18+00:00",
+  "fetched_at": "2026-09-20T15:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:17:32+00:00",
-  "fetched_at": "2026-09-20T14:17:32+00:00"
+  "checked_at": "2026-09-20T15:17:18+00:00",
+  "fetched_at": "2026-09-20T15:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2237,14 +2237,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 434,
+     "likes": 437,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2279,7 +2279,7 @@ window.DB.generated = {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 77,
+     "likes": 78,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
@@ -2293,25 +2293,43 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 66,
+     "likes": 67,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:17:39+00:00",
-  "fetched_at": "2026-09-20T14:17:39+00:00"
+  "checked_at": "2026-09-20T15:17:25+00:00",
+  "fetched_at": "2026-09-20T15:17:25+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "0:0 לחלאילי ופאלאס עם לידס, 3:5 מלהיב למנצ'סטר סיטי",
+     "link": "https://sports.walla.co.il/item/3868863",
+     "date": "2026-09-20T17:58:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "חלאילי היה מעורב בשער שנפסל ב-0:0 של פאלאס",
+     "link": "https://www.one.co.il/Article/533933.html?ref=rss",
+     "date": "2026-09-20T14:51:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "חיים רביבו הופתע מבנו: \"לא צפיתי את ההתקדמות הזו של רוי\"",
      "link": "https://sports.walla.co.il/item/3869076",
@@ -2426,24 +2444,6 @@ window.DB.generated = {
      "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
      "link": "https://sports.walla.co.il/item/3868785",
      "date": "2026-09-18T19:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3868647",
-     "date": "2026-09-17T08:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
-     "link": "https://sports.walla.co.il/item/3868373",
-     "date": "2026-09-16T22:19:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:17:36+00:00",
-  "fetched_at": "2026-09-20T14:17:36+00:00"
+  "checked_at": "2026-09-20T15:17:21+00:00",
+  "fetched_at": "2026-09-20T15:17:21+00:00"
  }
 };
