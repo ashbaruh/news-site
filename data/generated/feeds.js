@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T06:17:23+00:00",
-  "fetched_at": "2026-09-20T06:17:23+00:00"
+  "checked_at": "2026-09-20T07:17:14+00:00",
+  "fetched_at": "2026-09-20T07:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T06:17:32+00:00",
-  "fetched_at": "2026-09-20T06:17:32+00:00"
+  "checked_at": "2026-09-20T07:17:23+00:00",
+  "fetched_at": "2026-09-20T07:17:23+00:00"
  },
  "av_en": {
   "data": [
@@ -79,27 +79,27 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T06:17:32+00:00",
-  "fetched_at": "2026-09-20T06:17:32+00:00"
+  "checked_at": "2026-09-20T07:17:23+00:00",
+  "fetched_at": "2026-09-20T07:17:23+00:00"
  },
- "generated_at": "2026-09-20T06:17:32+00:00",
+ "generated_at": "2026-09-20T07:17:23+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לא הבנתי עד כמה הייתי מכור לטלפון שלי, עד שנכנסתי לכלא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556827",
-     "date": "2026-09-20T05:01:00+00:00"
+     "title": "הגלובליזציה התחלפה בעידן של מלחמה כלכלית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555562",
+     "date": "2026-09-20T07:00:00+00:00"
     },
     {
      "title": "הכחשה באמירויות: בן זאיד לא העביר התרעה לנתניהו לפני 7 באוקטובר; טראמפ קטע במפתיע את חופשתו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
-     "date": "2026-09-20T05:30:00+00:00"
+     "date": "2026-09-20T07:02:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "המשקיעים בוול סטריט רגועים. וזו סיבה לדאגה",
+     "title": "כל הנורות האדומות נדלקות - אבל וול סטריט עדיין לא נבהלת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556949",
      "date": "2026-09-20T05:34:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T06:17:24+00:00",
-  "fetched_at": "2026-09-20T06:17:24+00:00"
+  "checked_at": "2026-09-20T07:17:15+00:00",
+  "fetched_at": "2026-09-20T07:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T06:17:25+00:00",
-  "fetched_at": "2026-09-20T06:17:25+00:00"
+  "checked_at": "2026-09-20T07:17:16+00:00",
+  "fetched_at": "2026-09-20T07:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T06:17:26+00:00",
-  "fetched_at": "2026-09-20T06:17:26+00:00"
+  "checked_at": "2026-09-20T07:17:17+00:00",
+  "fetched_at": "2026-09-20T07:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T06:17:26+00:00",
-  "fetched_at": "2026-09-20T06:17:26+00:00"
+  "checked_at": "2026-09-20T07:17:17+00:00",
+  "fetched_at": "2026-09-20T07:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2232,28 +2232,28 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 11,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 429,
+     "likes": 431,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2267,7 +2267,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 77,
+     "likes": 78,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2281,7 +2281,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2308,12 +2308,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T06:17:31+00:00",
-  "fetched_at": "2026-09-20T06:17:31+00:00"
+  "checked_at": "2026-09-20T07:17:22+00:00",
+  "fetched_at": "2026-09-20T07:17:22+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "תאי בריבו: \"מסי ייקח את מלכות השערים. זה לא מעניין אותי\"",
+     "link": "https://sports.walla.co.il/item/3869024",
+     "date": "2026-09-20T09:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "תאי בריבו"
+     ]
+    },
     {
      "title": "תורג'מן כיכב עם שני בישולים, עבדה וטוקלומטי גברו על בריבו",
      "link": "https://sports.walla.co.il/item/3869017",
@@ -2386,15 +2395,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "חיים רביבו אחרי ההצגה של רוי: \"אני גאה בו. זאת התחלה מהנה\"",
-     "link": "https://sports.walla.co.il/item/3868852",
-     "date": "2026-09-19T09:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2652,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T06:17:29+00:00",
-  "fetched_at": "2026-09-20T06:17:29+00:00"
+  "checked_at": "2026-09-20T07:17:19+00:00",
+  "fetched_at": "2026-09-20T07:17:19+00:00"
  }
 };
