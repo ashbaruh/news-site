@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T16:17:15+00:00",
-  "fetched_at": "2026-09-20T16:17:15+00:00"
+  "checked_at": "2026-09-20T17:17:18+00:00",
+  "fetched_at": "2026-09-20T17:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T16:17:27+00:00",
-  "fetched_at": "2026-09-20T16:17:27+00:00"
+  "checked_at": "2026-09-20T17:17:31+00:00",
+  "fetched_at": "2026-09-20T17:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T16:17:27+00:00",
-  "fetched_at": "2026-09-20T16:17:27+00:00"
+  "checked_at": "2026-09-20T17:17:31+00:00",
+  "fetched_at": "2026-09-20T17:17:31+00:00"
  },
- "generated_at": "2026-09-20T16:17:27+00:00",
+ "generated_at": "2026-09-20T17:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T16:17:17+00:00",
-  "fetched_at": "2026-09-20T16:17:17+00:00"
+  "checked_at": "2026-09-20T17:17:20+00:00",
+  "fetched_at": "2026-09-20T17:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T16:17:18+00:00",
-  "fetched_at": "2026-09-20T16:17:18+00:00"
+  "checked_at": "2026-09-20T17:17:21+00:00",
+  "fetched_at": "2026-09-20T17:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T16:17:19+00:00",
-  "fetched_at": "2026-09-20T16:17:19+00:00"
+  "checked_at": "2026-09-20T17:17:22+00:00",
+  "fetched_at": "2026-09-20T17:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T16:17:19+00:00",
-  "fetched_at": "2026-09-20T16:17:19+00:00"
+  "checked_at": "2026-09-20T17:17:22+00:00",
+  "fetched_at": "2026-09-20T17:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2237,7 +2237,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 440,
+     "likes": 441,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2251,7 +2251,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 141,
+     "likes": 142,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2262,18 +2262,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 90,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
      "likes": 82,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 89,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2286,14 +2286,14 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 69,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2306,8 +2306,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T16:17:26+00:00",
-  "fetched_at": "2026-09-20T16:17:26+00:00"
+  "checked_at": "2026-09-20T17:17:30+00:00",
+  "fetched_at": "2026-09-20T17:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T16:17:23+00:00",
-  "fetched_at": "2026-09-20T16:17:23+00:00"
+  "checked_at": "2026-09-20T17:17:25+00:00",
+  "fetched_at": "2026-09-20T17:17:25+00:00"
  }
 };
