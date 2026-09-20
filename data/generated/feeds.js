@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-19",
+   "as_of": "2026-09-20",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T02:17:15+00:00",
-  "fetched_at": "2026-09-20T02:17:15+00:00"
+  "checked_at": "2026-09-20T03:17:18+00:00",
+  "fetched_at": "2026-09-20T03:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T02:17:26+00:00",
-  "fetched_at": "2026-09-20T02:17:26+00:00"
+  "checked_at": "2026-09-20T03:17:28+00:00",
+  "fetched_at": "2026-09-20T03:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T02:17:26+00:00",
-  "fetched_at": "2026-09-20T02:17:26+00:00"
+  "checked_at": "2026-09-20T03:17:29+00:00",
+  "fetched_at": "2026-09-20T03:17:29+00:00"
  },
- "generated_at": "2026-09-20T02:17:26+00:00",
+ "generated_at": "2026-09-20T03:17:29+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T02:17:16+00:00",
-  "fetched_at": "2026-09-20T02:17:16+00:00"
+  "checked_at": "2026-09-20T03:17:20+00:00",
+  "fetched_at": "2026-09-20T03:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T02:17:17+00:00",
-  "fetched_at": "2026-09-20T02:17:17+00:00"
+  "checked_at": "2026-09-20T03:17:20+00:00",
+  "fetched_at": "2026-09-20T03:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T02:17:18+00:00",
-  "fetched_at": "2026-09-20T02:17:18+00:00"
+  "checked_at": "2026-09-20T03:17:21+00:00",
+  "fetched_at": "2026-09-20T03:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T02:17:18+00:00",
-  "fetched_at": "2026-09-20T02:17:18+00:00"
+  "checked_at": "2026-09-20T03:17:21+00:00",
+  "fetched_at": "2026-09-20T03:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -2246,7 +2246,7 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2260,7 +2260,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2281,14 +2281,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 71,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2308,8 +2308,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T02:17:25+00:00",
-  "fetched_at": "2026-09-20T02:17:25+00:00"
+  "checked_at": "2026-09-20T03:17:27+00:00",
+  "fetched_at": "2026-09-20T03:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T02:17:20+00:00",
-  "fetched_at": "2026-09-20T02:17:20+00:00"
+  "checked_at": "2026-09-20T03:17:24+00:00",
+  "fetched_at": "2026-09-20T03:17:24+00:00"
  }
 };
