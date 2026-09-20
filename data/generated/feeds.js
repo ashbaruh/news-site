@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T03:17:18+00:00",
-  "fetched_at": "2026-09-20T03:17:18+00:00"
+  "checked_at": "2026-09-20T04:17:22+00:00",
+  "fetched_at": "2026-09-20T04:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T03:17:28+00:00",
-  "fetched_at": "2026-09-20T03:17:28+00:00"
+  "checked_at": "2026-09-20T04:17:34+00:00",
+  "fetched_at": "2026-09-20T04:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T03:17:29+00:00",
-  "fetched_at": "2026-09-20T03:17:29+00:00"
+  "checked_at": "2026-09-20T04:17:35+00:00",
+  "fetched_at": "2026-09-20T04:17:35+00:00"
  },
- "generated_at": "2026-09-20T03:17:29+00:00",
+ "generated_at": "2026-09-20T04:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T03:17:20+00:00",
-  "fetched_at": "2026-09-20T03:17:20+00:00"
+  "checked_at": "2026-09-20T04:17:23+00:00",
+  "fetched_at": "2026-09-20T04:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T03:17:20+00:00",
-  "fetched_at": "2026-09-20T03:17:20+00:00"
+  "checked_at": "2026-09-20T04:17:24+00:00",
+  "fetched_at": "2026-09-20T04:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T03:17:21+00:00",
-  "fetched_at": "2026-09-20T03:17:21+00:00"
+  "checked_at": "2026-09-20T04:17:26+00:00",
+  "fetched_at": "2026-09-20T04:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T03:17:21+00:00",
-  "fetched_at": "2026-09-20T03:17:21+00:00"
+  "checked_at": "2026-09-20T04:17:26+00:00",
+  "fetched_at": "2026-09-20T04:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2253,7 +2253,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 136,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2288,7 +2288,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 73,
+     "likes": 75,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2308,8 +2308,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T03:17:27+00:00",
-  "fetched_at": "2026-09-20T03:17:27+00:00"
+  "checked_at": "2026-09-20T04:17:33+00:00",
+  "fetched_at": "2026-09-20T04:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T03:17:24+00:00",
-  "fetched_at": "2026-09-20T03:17:24+00:00"
+  "checked_at": "2026-09-20T04:17:30+00:00",
+  "fetched_at": "2026-09-20T04:17:30+00:00"
  }
 };
