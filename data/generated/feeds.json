@@ -7,11 +7,18 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T22:28:57+00:00",
-  "fetched_at": "2026-09-20T22:28:57+00:00"
+  "checked_at": "2026-09-20T23:17:24+00:00",
+  "fetched_at": "2026-09-20T23:17:24+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Couple Fosters 59 Dogs in Retirement: ‘We love to get them out of the kennels’",
+    "title_he": "זוג מטפח 59 כלבים בפנסיה: \"אנחנו אוהבים להוציא אותם מהכלביות\"",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
+    "date": "2026-09-20T22:48:46+00:00"
+   },
    {
     "title_en": "Fox Left For Dead After Being Run Over is Now Recovering Thanks to Swimming Lessons",
     "title_he": "Fox Left For Dead לאחר שנדרס מתאושש כעת הודות לשיעורי שחייה",
@@ -32,18 +39,11 @@
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/",
     "date": "2026-09-18T08:45:29+00:00"
-   },
-   {
-    "title_en": "Mexico Reintroduced Bison into Precious Desert Ecosystem After Century-Long Absence",
-    "title_he": "מקסיקו החזירה את ביזון למערכת האקולוגית היקרה של המדבר לאחר היעדרות של מאה שנים",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/mexico-reintroduced-bison-into-precious-desert-ecosystem-after-century-long-absence/",
-    "date": "2026-09-16T13:00:13+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T22:29:07+00:00",
-  "fetched_at": "2026-09-20T22:29:07+00:00"
+  "checked_at": "2026-09-20T23:17:33+00:00",
+  "fetched_at": "2026-09-20T23:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T22:29:07+00:00",
-  "fetched_at": "2026-09-20T22:29:07+00:00"
+  "checked_at": "2026-09-20T23:17:33+00:00",
+  "fetched_at": "2026-09-20T23:17:33+00:00"
  },
- "generated_at": "2026-09-20T22:29:07+00:00",
+ "generated_at": "2026-09-20T23:17:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T22:28:59+00:00",
-  "fetched_at": "2026-09-20T22:28:59+00:00"
+  "checked_at": "2026-09-20T23:17:25+00:00",
+  "fetched_at": "2026-09-20T23:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T22:28:59+00:00",
-  "fetched_at": "2026-09-20T22:28:59+00:00"
+  "checked_at": "2026-09-20T23:17:26+00:00",
+  "fetched_at": "2026-09-20T23:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2016,8 +2016,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T22:29:00+00:00",
-  "fetched_at": "2026-09-20T22:29:00+00:00"
+  "checked_at": "2026-09-20T23:17:26+00:00",
+  "fetched_at": "2026-09-20T23:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2107,8 +2107,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T22:29:00+00:00",
-  "fetched_at": "2026-09-20T22:29:00+00:00"
+  "checked_at": "2026-09-20T23:17:26+00:00",
+  "fetched_at": "2026-09-20T23:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2137,7 +2137,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 449,
+     "likes": 450,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2158,7 +2158,7 @@
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2193,21 +2193,21 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 74,
+     "likes": 75,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 83,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+     "title": "Marigold V2",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 93,
+     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T22:29:07+00:00",
-  "fetched_at": "2026-09-20T22:29:07+00:00"
+  "checked_at": "2026-09-20T23:17:32+00:00",
+  "fetched_at": "2026-09-20T23:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2550,7 +2550,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T22:29:03+00:00",
-  "fetched_at": "2026-09-20T22:29:03+00:00"
+  "checked_at": "2026-09-20T23:17:29+00:00",
+  "fetched_at": "2026-09-20T23:17:29+00:00"
  }
 }
