@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:17:18+00:00",
-  "fetched_at": "2026-09-20T17:17:18+00:00"
+  "checked_at": "2026-09-20T17:30:49+00:00",
+  "fetched_at": "2026-09-20T17:30:49+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:17:31+00:00",
-  "fetched_at": "2026-09-20T17:17:31+00:00"
+  "checked_at": "2026-09-20T17:30:58+00:00",
+  "fetched_at": "2026-09-20T17:30:58+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:17:31+00:00",
-  "fetched_at": "2026-09-20T17:17:31+00:00"
+  "checked_at": "2026-09-20T17:30:58+00:00",
+  "fetched_at": "2026-09-20T17:30:58+00:00"
  },
- "generated_at": "2026-09-20T17:17:31+00:00",
+ "generated_at": "2026-09-20T17:30:58+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:17:20+00:00",
-  "fetched_at": "2026-09-20T17:17:20+00:00"
+  "checked_at": "2026-09-20T17:30:50+00:00",
+  "fetched_at": "2026-09-20T17:30:50+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:17:21+00:00",
-  "fetched_at": "2026-09-20T17:17:21+00:00"
+  "checked_at": "2026-09-20T17:30:51+00:00",
+  "fetched_at": "2026-09-20T17:30:51+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:17:22+00:00",
-  "fetched_at": "2026-09-20T17:17:22+00:00"
+  "checked_at": "2026-09-20T17:30:52+00:00",
+  "fetched_at": "2026-09-20T17:30:52+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:17:22+00:00",
-  "fetched_at": "2026-09-20T17:17:22+00:00"
+  "checked_at": "2026-09-20T17:30:52+00:00",
+  "fetched_at": "2026-09-20T17:30:52+00:00"
  },
  "ai": {
   "data": {
@@ -2223,15 +2223,19 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
-     "date": "2026-09-20T06:51:39+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+     "date": "2026-09-18T14:00:00+00:00",
      "launch": false,
-     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+     "title_en": "New experts join Google’s AI & Economy team",
+     "title_he": "מומחים חדשים מצטרפים לצוות הבינה המלאכותית והכלכלה של גוגל",
+     "translated_by": "google"
     }
    ],
-   "candidates": 8,
-   "failed_sources": [],
+   "candidates": 5,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2265,7 +2269,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2306,8 +2310,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:17:30+00:00",
-  "fetched_at": "2026-09-20T17:17:30+00:00"
+  "checked_at": "2026-09-20T17:30:57+00:00",
+  "fetched_at": "2026-09-20T17:30:57+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2654,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:17:25+00:00",
-  "fetched_at": "2026-09-20T17:17:25+00:00"
+  "checked_at": "2026-09-20T17:30:55+00:00",
+  "fetched_at": "2026-09-20T17:30:55+00:00"
  }
 };
