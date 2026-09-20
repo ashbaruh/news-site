@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:30:49+00:00",
-  "fetched_at": "2026-09-20T17:30:49+00:00"
+  "checked_at": "2026-09-20T18:17:10+00:00",
+  "fetched_at": "2026-09-20T18:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:30:58+00:00",
-  "fetched_at": "2026-09-20T17:30:58+00:00"
+  "checked_at": "2026-09-20T18:17:22+00:00",
+  "fetched_at": "2026-09-20T18:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:30:58+00:00",
-  "fetched_at": "2026-09-20T17:30:58+00:00"
+  "checked_at": "2026-09-20T18:17:23+00:00",
+  "fetched_at": "2026-09-20T18:17:23+00:00"
  },
- "generated_at": "2026-09-20T17:30:58+00:00",
+ "generated_at": "2026-09-20T18:17:23+00:00",
  "globes": {
   "data": {
    "top": [
@@ -102,11 +102,6 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -174,6 +169,11 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:30:50+00:00",
-  "fetched_at": "2026-09-20T17:30:50+00:00"
+  "checked_at": "2026-09-20T18:17:11+00:00",
+  "fetched_at": "2026-09-20T18:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:30:51+00:00",
-  "fetched_at": "2026-09-20T17:30:51+00:00"
+  "checked_at": "2026-09-20T18:17:13+00:00",
+  "fetched_at": "2026-09-20T18:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T17:30:52+00:00",
-  "fetched_at": "2026-09-20T17:30:52+00:00"
+  "checked_at": "2026-09-20T18:17:15+00:00",
+  "fetched_at": "2026-09-20T18:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:30:52+00:00",
-  "fetched_at": "2026-09-20T17:30:52+00:00"
+  "checked_at": "2026-09-20T18:17:15+00:00",
+  "fetched_at": "2026-09-20T18:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2223,25 +2223,21 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-     "date": "2026-09-18T14:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
+     "date": "2026-09-20T06:51:39+00:00",
      "launch": false,
-     "title_en": "New experts join Google’s AI & Economy team",
-     "title_he": "מומחים חדשים מצטרפים לצוות הבינה המלאכותית והכלכלה של גוגל",
-     "translated_by": "google"
+     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
     }
    ],
-   "candidates": 5,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 8,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 441,
+     "likes": 442,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2255,29 +2251,29 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 99,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 91,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 82,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 92,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2290,28 +2286,28 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 73,
+     "likes": 74,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 79,
+     "likes": 80,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:30:57+00:00",
-  "fetched_at": "2026-09-20T17:30:57+00:00"
+  "checked_at": "2026-09-20T18:17:21+00:00",
+  "fetched_at": "2026-09-20T18:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2654,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T17:30:55+00:00",
-  "fetched_at": "2026-09-20T17:30:55+00:00"
+  "checked_at": "2026-09-20T18:17:18+00:00",
+  "fetched_at": "2026-09-20T18:17:18+00:00"
  }
 };
