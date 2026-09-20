@@ -1086,272 +1086,356 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-19T1105__north-202609191105.json",
+  "draft": "drafts/north/2026-09-20T0139__north-202609200139.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-19T11:05:55+00:00",
+   "generated_at": "2026-09-20T01:39:10+00:00",
    "window": {
-    "from": "2026-09-18T11:05:55+00:00",
-    "to": "2026-09-19T11:05:55+00:00"
+    "from": "2026-09-19T01:39:10+00:00",
+    "to": "2026-09-20T01:39:10+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "north-202609191105"
+    "run_id": "north-202609200139"
    },
-   "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית ישראלית מתמשכת בדרום לבנון הכוללת תקיפות אוויריות, ירי ארטילרי, חיכוך מול צבא לבנון והריסות מבנים. במקביל, בסוריה מתגבשים הסדרי ביטחון חדשים מול רוסיה בלטקיה וגוברים המתחים הפנימיים על רקע רשתות חבלה חוצות-גבולות. כמו כן, נרשמים גילויי עוינות מצד התעשייה הביטחונית הטורקית כלפי מערכות לחימה ישראליות.",
+   "summary": "בגזרה הצפונית נמשכת הלחימה בדרום לבנון, הכוללת פיצוץ מטענים נגד חיילי צה\"ל, תקיפות אוויריות בנבטיה והריסת מבנים בכפרי הגבול לצד אי-ודאות סביב נסיגת כוח יוניפי\"ל. בסוריה נרשמת דריכות ביטחונית בעקבות פיצוץ קטלני בבסיס צבאי בדיר א-זור, הפעלת נ\"מ במזרח המדינה ורדיפה משפטית וביטחונית של בכירי המשטר הקודם ופעילי טרור. טורקיה מצידה מגבירה את מעורבותה המדינית באזור תוך מתיחת ביקורת חריפה על הפעולות הישראליות בסוריה ובלבנון.",
    "fronts": [
     {
      "name": "דרום לבנון",
-     "status": "פעילות מבצעית ישראלית עצימה הכוללת הפגזות, תקיפות אוויר, פעולות הריסה ומתיחות מול צבא לבנון"
+     "status": "חילופי אש ותקיפות תגובה של צה\"ל באזור נבטיה וכפרי הגבול בעקבות פגיעת מטען בכוחות"
     },
     {
-     "name": "גבול לבנון-סוריה",
-     "status": "חשיפת רשתות גיוס והברחה לאימון פעילים והפעלת רחפנים בין המדינות"
+     "name": "סוריה",
+     "status": "אירועים ביטחוניים ממוקדים, פיצוצים במתקנים צבאיים ומעצרים של אנשי המשטר הקודם"
     },
     {
-     "name": "צפון-מערב סוריה (לטקיה)",
-     "status": "הסדרת מעמד המתקנים הרוסיים והפיכתם למרכזי הדרכה משותפים עם הממשל הסורי"
+     "name": "הזירה המדינית הטורקית לגבי הצפון",
+     "status": "ביקורת והצהרות עוינות של בכירים טורקים נגד הפעילות הצבאית של ישראל"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09191105-01",
-     "title": "תקיפות והפגזות ישראליות ברחבי דרום לבנון",
-     "summary": "כוחות ישראליים ביצעו סדרת תקיפות אוויריות והפגזות ארטילריות על מספר יעדים בדרום לבנון, כולל פעולות הריסה והצתות מבנים.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-09200139-01",
+     "title": "פציעת חיילי צה\"ל בפיצוץ מטען בדרום לבנון ותקיפת תגובה בנבטיה",
+     "summary": "שני חיילי צה\"ל נפצעו קל עד בינוני מפיצוץ מטען סמוך לנחל סלוקי או בדרום לבנון, ובתגובה ביצעו מטוסי קרב תקיפה בנבטיה אלפוקא שכללה פגיעה בצוות אמבולנס.",
+     "axis": "לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T08:44:55+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-19T08:44:55+00:00",
-     "last_update_at": "2026-09-19T10:09:13+00:00",
-     "what_is_not_verified": "אין אימות ישראלי רשמי לגבי כלל המוקדים שנפגעו וההריסות שבוצעו.",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-19T11:54:48+00:00",
+     "last_update_at": "2026-09-19T18:06:52+00:00",
+     "what_is_not_verified": "מידת הפציעה המדויקת של החיילים והנסיבות סביב הפעלת המטען בידי חזבאללה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128932/",
-       "published_at": "2026-09-19T10:09:13+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128897/",
-       "published_at": "2026-09-19T09:48:50+00:00"
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/israel-targets-paramedics-in-southern-lebanon?traffic_source=rss",
+       "published_at": "2026-09-19T18:06:52+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130475",
-       "published_at": "2026-09-19T09:32:23+00:00"
+       "url": "https://t.me/abualiexpress/130500",
+       "published_at": "2026-09-19T17:09:01+00:00"
       },
       {
-       "source_id": "src_almanar",
+       "source_id": "src_tg_lelotsenzura",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128877/",
-       "published_at": "2026-09-19T09:18:30+00:00"
+       "url": "https://t.me/lelotsenzura/94376",
+       "published_at": "2026-09-19T14:15:26+00:00"
       },
       {
-       "source_id": "src_almanar",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/128867/",
-       "published_at": "2026-09-19T08:44:55+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/new-israeli-airstrikes-hit-southern-lebanon-despite-us-deal/4061923",
+       "published_at": "2026-09-19T11:54:48+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "כפר תבנית, לבנון",
-       "lat": 33.3519,
-       "lon": 35.5186
+       "name": "נבטיה, לבנון",
+       "lat": 33.3812,
+       "lon": 35.4825
       }
      ]
     },
     {
-     "id": "NORTH-09191105-02",
-     "title": "עימות והשלכת רימוני הלם בין כוחות צה\"ל לצבא לבנון בדיר מימאס",
-     "summary": "טנקים של צה\"ל התקדמו לעבר עמדת תצפית של צבא לבנון, השליכו רימוני הלם בקרבתה ויצרו דריכות צבאית בטרם עזבו.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-09200139-02",
+     "title": "תקיפות אוויריות והפגזות צה\"ל במספר כפרים בדרום לבנון",
+     "summary": "צה\"ל ביצע תקיפות מהאוויר והפגזות ארטילריות לעבר בני חיאן, חאריס, חדאת'א, זוטר א-שרקיה וואדי זיבקין, לצד הריסת בתים במאיס אל-ג'בל, תלוסה ואל-מנצורי.",
+     "axis": "לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T19:51:55+00:00",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-18T19:51:55+00:00",
-     "last_update_at": "2026-09-19T04:19:15+00:00",
-     "what_is_not_verified": "לא נמסרה תגובה ישראלית רשמית על השלכת רימוני ההלם ונסיבות האירוע.",
+     "first_reported_at": "2026-09-19T14:01:35+00:00",
+     "last_update_at": "2026-09-19T16:13:24+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים בהריסות המבנים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "fh_b68ee99bc71adbcf",
-       "url": "https://www.aa.com.tr/en/middle-east/lebanese-army-israeli-forces-on-alert-after-incident-in-southern-lebanon/4061685",
-       "published_at": "2026-09-19T04:19:15+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_3529aa91772819fa",
+       "url": "https://english.almanar.com.lb/article/129077/",
+       "published_at": "2026-09-19T16:13:24+00:00"
       },
       {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_b68ee99bc71adbcf",
-       "url": "https://www.newarab.com/news/israeli-lebanese-armies-face-south-lebanon-village",
-       "published_at": "2026-09-18T19:51:55+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_3529aa91772819fa",
+       "url": "https://t.me/abualiexpress/130497",
+       "published_at": "2026-09-19T15:39:05+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_70df1f78f2fde7bc",
+       "url": "https://english.almanar.com.lb/article/129067/",
+       "published_at": "2026-09-19T15:12:29+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_da2d1f19538d1550",
+       "url": "https://english.almanar.com.lb/article/129052/",
+       "published_at": "2026-09-19T15:06:45+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_ec2e9f118a0f5bf1",
+       "url": "https://english.almanar.com.lb/article/129042/",
+       "published_at": "2026-09-19T14:01:35+00:00"
       }
      ],
      "places": [
       {
-       "name": "דיר מימאס, לבנון",
-       "lat": 33.3021,
-       "lon": 35.5467
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
       }
      ]
     },
     {
-     "id": "NORTH-09191105-03",
-     "title": "טענות לבנוניות על הצתת בית החולים הממשלתי במיס אל-ג'בל בידי ישראל",
-     "summary": "משרד הבריאות הלבנוני וכלי תקשורת טענו כי כוחות ישראליים הציתו והחריבו כליל את בית החולים הממשלתי במיס אל-ג'בל.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "statement",
+     "id": "NORTH-09200139-03",
+     "title": "הפעלת מערכות נ\"מ בבסיס צבאי ליד אל-חסכה בסוריה",
+     "summary": "הופעלו מערכות הגנה אווירית בבסיס צבאי הממוקם בסמוך לעיר אל-חסכה שבצפון-מזרח סוריה.",
+     "axis": "סוריה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T15:15:06+00:00",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-18T15:15:06+00:00",
-     "last_update_at": "2026-09-19T04:37:45+00:00",
-     "what_is_not_verified": "אין אימות או תגובה מצד צה\"ל לגבי השימוש במבנה והצתתו.",
+     "first_reported_at": "2026-09-19T23:55:40+00:00",
+     "last_update_at": "2026-09-19T23:55:40+00:00",
+     "what_is_not_verified": "סיבת הירי, זהות הכוחות המפעילים וזהות המטרות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/47852",
+       "published_at": "2026-09-19T23:55:40+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-09200139-04",
+     "title": "מעצר גנרל ממשטר אסד לשעבר על ידי כוחות הביטחון הסוריים",
+     "summary": "כוחות הביטחון בסוריה עצרו את אחמד מוחמד איסמעיל, מפקד בכיר לשעבר במשמר הרפובליקה, בעקבות חלקו במתקפות צבאיות על חלב, דרעא וע'וטה המזרחית במהלך מלחמת האזרחים.",
+     "axis": "סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-19T22:26:50+00:00",
+     "last_update_at": "2026-09-20T00:09:39+00:00",
+     "what_is_not_verified": "פרטי המעצר המדויקים ומיקומו הנוכחי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_d6643617bbb041ca",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-demolitions-lebanon-set-fire-hospital",
-       "published_at": "2026-09-19T04:37:45+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/former-syrian-general-who-led-attacks-rebels-during-civil-war-arrested",
+       "published_at": "2026-09-20T00:09:39+00:00"
       },
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_d6643617bbb041ca",
-       "url": "https://t.me/abualiexpress/130451",
-       "published_at": "2026-09-18T16:15:16+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_d6643617bbb041ca",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/958513/health-ministry-condemns-israeli-army-over-burning-of-meiss-el-jabal-g/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958513",
-       "published_at": "2026-09-18T15:15:06+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/syria-says-arrested-assad-era-general-who-led-attacks-rebels",
+       "published_at": "2026-09-19T22:26:50+00:00"
       }
      ],
      "places": [
       {
-       "name": "מיס אל-ג'בל, לבנון",
-       "lat": 33.17,
-       "lon": 35.5242
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      },
+      {
+       "name": "ע'וטה המזרחית, סוריה",
+       "lat": 33.4878,
+       "lon": 36.3496
       }
      ]
     },
     {
-     "id": "NORTH-09191105-04",
-     "title": "הגשת כתבי אישום בלבנון נגד רשת להכשרת נאמני משטר אסד",
-     "summary": "בית דין צבאי בלבנון הגיש כתבי אישום נגד חמישה בני אדם, בהם פעילי חיזבאללה וקצין סורי, בחשד להפעלת רשת ביטחונית ואימון שימוש ברחפנים לקראת פעולות חבלה בסוריה.",
-     "axis": "לבנון - סוריה",
+     "id": "NORTH-09200139-05",
+     "title": "פיצוץ באתר צבאי בדיר א-זור בסוריה וגרימת נפגעים",
+     "summary": "פיצוץ שאירע באתר צבאי בעיירה עיאש שבמחוז דיר א-זור במזרח סוריה גרם למותם של אחד עשר חיילים.",
+     "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T14:10:00+00:00",
+     "occurred_at": "2026-09-18T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-18T14:10:00+00:00",
-     "last_update_at": "2026-09-18T14:20:57+00:00",
-     "what_is_not_verified": "היקף הפעילות המעשי והמעורבות הישירה של חיזבאללה כארגון מתבססים על חשדות והליכי חקירה בלבד.",
+     "first_reported_at": "2026-09-19T08:36:10+00:00",
+     "last_update_at": "2026-09-19T14:55:18+00:00",
+     "what_is_not_verified": "הסיבה לפיצוץ ונסיבות התרחשותו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/lebanon-charges-5-alleged-hezbollah-operation-train-assad-loyalists",
-       "published_at": "2026-09-18T14:20:57+00:00"
+       "url": "https://www.aljazeera.com/news/2026/9/19/syria-says-blast-at-military-site-in-deir-az-zor-killed-11?traffic_source=rss",
+       "published_at": "2026-09-19T14:55:18+00:00"
+      },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/syria-says-11-soldiers-killed-in-friday-s-blast-at-army-site-in-deir-ez-zor/4062063",
+       "published_at": "2026-09-19T14:30:13+00:00"
       },
       {
        "source_id": "src_lbci",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/958477/from-assad-era-kidnappings-to-alleged-terror-plot-lebanon-uncovers-cro/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958477",
-       "published_at": "2026-09-18T14:10:00+00:00"
+       "url": "https://www.lbcgroup.tv/news/middleeastnews/958614/blast-at-syrian-military-site-kills-11-defence-ministry/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958614",
+       "published_at": "2026-09-19T08:36:10+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "דיר א-זור, סוריה",
+       "lat": 35.3333,
+       "lon": 40.15
       },
       {
-       "name": "טריפולי, לבנון",
-       "lat": 34.4374,
-       "lon": 35.8349
+       "name": "עיאש, סוריה",
+       "lat": 35.6738,
+       "lon": 36.0252
       }
      ]
     },
     {
-     "id": "NORTH-09191105-05",
-     "title": "ביקורת סורית-רוסית על יישום ההסכם להפיכת מתקנים בלטקיה למרכזי אימונים",
-     "summary": "שר החוץ הסורי סקר בנמל התעופה הבינלאומי בלטקיה את יישום המזכר מול רוסיה בנוגע להפיכת מתקנים רוסיים במדינה למרכזי אימונים משותפים.",
-     "axis": "סוריה - רוסיה",
+     "id": "NORTH-09200139-06",
+     "title": "מעצר מפקד חוליית דאעש במחוז דרעא",
+     "summary": "כוחות ביטחון הפנים של סוריה עצרו את וליד אל-פלאח, ראש חוליה של ארגון דאעש, בחשד למעורבות בהריגת שלושה אנשי ביטחון.",
+     "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T17:52:22+00:00",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-18T17:52:22+00:00",
-     "last_update_at": "2026-09-19T01:10:33+00:00",
-     "what_is_not_verified": "לוחות הזמנים המדויקים והיקף האימונים המשותפים לא פורטו במלואם.",
+     "first_reported_at": "2026-09-19T06:29:36+00:00",
+     "last_update_at": "2026-09-19T06:29:36+00:00",
+     "what_is_not_verified": "מועד ומיקום המעצר המדויק",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-russia-review-implementation-of-memorandum-on-russian-presence-in-latakia/4061664",
-       "published_at": "2026-09-19T01:10:33+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-ringleader-of-isis-terrorist-cell-involved-in-killing-3-security-personnel/4061706",
+       "published_at": "2026-09-19T06:29:36+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09200139-07",
+     "title": "היערכות יוניפי\"ל לנסיגה ומחלוקת על המנגנון החלופי בדרום לבנון",
+     "summary": "מפקד כוח יוניפי\"ל הדגיש את חשיבות העברת הסמכויות לצבא לבנון לקראת הנסיגה בסוף השנה, בעוד ישראל מסתייגת מכוח בינלאומי חדש ולבנון פועלת למנוע חלל ביטחוני.",
+     "axis": "לבנון",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-19T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-19T12:20:57+00:00",
+     "last_update_at": "2026-09-19T17:34:53+00:00",
+     "what_is_not_verified": "זהות המדינות שישתתפו במנגנון הפיקוח העתידי בדרום לבנון",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+       "published_at": "2026-09-19T17:34:53+00:00"
       },
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/syrias-shibani-visits-latakia-airport-review-russia-deal-progress-what-know",
-       "published_at": "2026-09-18T17:52:22+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/09/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+       "published_at": "2026-09-19T14:46:32+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/958610/who-will-fill-the-gap-after-unifil-lebanon-and-israel-remain-divided/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958610",
+       "published_at": "2026-09-19T14:00:00+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/958631/un-peacekeeping-chief-in-lebanon-says-smooth-transition-is-critical-be/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958631",
+       "published_at": "2026-09-19T12:20:57+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      }
+     ]
     },
     {
-     "id": "NORTH-09191105-06",
-     "title": "חברת רחפנים טורקית הציגה טנק מרכבה ישראלי כמטרה לתקיפה",
-     "summary": "חברה טורקית העוסקת בפיתוח רחפנים פרסמה סרטון תדמית המציג רחפן חמוש תוקף טנק ישראלי מסוג מרכבה, על רקע שיתופי פעולה עסקיים עם חברה ביטחונית אמריקאית.",
-     "axis": "ישראל - טורקיה",
-     "claim_type": "incident",
+     "id": "NORTH-09200139-08",
+     "title": "האשמות נשיא הפרלמנט הטורקי כלפי ישראל לגבי סוריה ולבנון",
+     "summary": "יושב ראש הפרלמנט הטורקי האשים את ישראל בניסיונות לפלג את האזור ולבצע תקיפות בין היתר בסוריה ובלבנון, והצהיר כי טורקיה פועלת לאחד את האזור.",
+     "axis": "טורקיה ומעורבות אזורית",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T07:59:43+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T07:59:43+00:00",
-     "last_update_at": "2026-09-19T10:05:27+00:00",
-     "what_is_not_verified": "לא ידוע האם כוונות החברה מייצגות מדיניות רשמית של ממשלת טורקיה או היערכות מבצעית להצבת האמל\"ח בסוריה.",
+     "first_reported_at": "2026-09-20T01:21:44+00:00",
+     "last_update_at": "2026-09-20T01:21:44+00:00",
+     "what_is_not_verified": "אין אימות עצמאי לטענות הפוליטיות שהועלו בדברים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hy8hwasymx",
-       "published_at": "2026-09-19T10:05:27+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130460",
-       "published_at": "2026-09-19T07:59:43+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkish-foreign-minister-says-israel-should-not-chase-empty-dreams",
+       "published_at": "2026-09-20T01:21:44+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "קרשהיר, טורקיה",
+       "lat": 39.3303,
+       "lon": 34.1266
+      }
+     ]
     }
    ],
    "not_verified": [
-    "טענות משרד הבריאות הלבנוני על הצתה מכוונת והחרבת בית החולים במיס אל-ג'בל בידי צה\"ל",
-    "מספר התקיפות המדויק והפגיעות בתשתיות בנבטיה אל-פוקא ובכפרים נוספים בדרום לבנון",
-    "האפשרות שרחפני החברה הטורקית יוצבו בפועל בזירה הסורית מול כוחות ישראליים"
+    "סיבת הפיצוץ המדויקת באתר הצבאי בדיר א-זור",
+    "הגורמים המעורבים בירי הנ\"מ ליד חסכה",
+    "מידת האחריות הישירה של חזבאללה להפעלת המטען בנחל סלוקי",
+    "המנגנון הבינלאומי שיחליף את יוניפי\"ל בסיום שנת 2026",
+    "דיווח על סירוב נשיא סוריה לבקשת הגנה סעודית"
    ],
    "map": {
     "confidence": "medium",
@@ -1373,119 +1457,140 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת איומים ביטחוניים מצד חיזבאללה ושמירה על חופש פעולה באזורי החיץ",
-      "אי-נסיגה מאזורי החיץ בדרום לבנון ובסוריה כל עוד נשקפת סכנה"
+      "תגובה לפגיעה בחיילי צה\"ל באמצעות תקיפת יעדים בדרום לבנון"
      ],
      "inferred": [
-      "הפעלת לחץ פיזי מתמיד על קו הגבול הלבנוני למניעת התבססות מחדש של תשתיות צבאיות",
-      "הרתעת צבא לבנון מניסיונות הגבלת התנועה של צה\"ל בשטח"
+      "התנגדות לנוכחות כוח בינלאומי חדש בדרום לבנון והעדפת מגע ישיר מול צבא לבנון",
+      "שימור היתרון הצבאי והאיכותי ופגיעה בתשתיות עוינות סמוך לגבול"
      ],
      "forecast": [
-      "המשך פעולות הסיכול, התקיפות הממוקדות וההריסות בדרום לבנון",
-      "שימור המתיחות המבצעית מול עמדות צבא לבנון בקו המגע"
+      "המשך תקיפות ממוקדות ופעולות חישוף והריסה בדרום לבנון כמענה לכל פעילות חבלנית"
      ]
     },
     {
-     "actor": "לבנון (צבא וממשל)",
+     "actor": "לבנון (ממשל וצבא)",
      "declared": [
-      "פריסת כוחות צבא לבנון בדרום המדינה במסגרת הסכם המסגרת",
-      "הוקעת הפרות הריבונות והפגיעה בתשתיות רפואיות ואזרחיות על ידי ישראל"
+      "מניעת חלל ביטחוני בדרום לבנון ודרישה לפיקוח אמריקאי ובינלאומי"
      ],
      "inferred": [
-      "שאיפה למנוע הסלמה ישירה וחיכוך פנימי על רקע פירוק מנגנוני חיזבאללה",
-      "בלימת התבססות רשתות עוינות הפועלות במרחב הסורי מתוך שטח המדינה"
+      "חשש מהפיכת דרום המדינה למוקד עימות ישיר ללא הגנה ופיקוח בינלאומיים"
      ],
      "forecast": [
-      "המשך ביסוס עמדות תצפית בדרום לבנון תוך הימנעות מעימות יזום עם ישראל",
-      "הגברת פעולות האכיפה נגד חוליות טרור והברחות בגבול סוריה"
+      "המשך מגעים דיפלומטיים עם וושינגטון בניסיון לגבש מנגנון בינלאומי לפני עזיבת יוניפי\"ל"
      ]
     },
     {
-     "actor": "סוריה",
+     "actor": "סוריה (השלטון הנוכחי)",
      "declared": [
-      "יישום ההסכמים עם רוסיה להפעלת מרכזי אימונים משותפים בלטקיה",
-      "ביטול מנגנוני שיפוט חריגים מתקופת שלטון אסד"
+      "העמדה לדין של פעילי ובכירי המשטר הקודם שנחשדו בפשעים בזמן מלחמת האזרחים",
+      "לחימה בשרידי תאי הטרור של דאעש"
      ],
      "inferred": [
-      "שיקום השליטה המרכזית והלגיטימציה השלטונית במחוזות השונים",
-      "שמירה על משענת ביטחונית רוסית למניעת ערעור היציבות"
+      "ביסוס משילות פנימית והרחקת גורמים המזוהים עם שלטונו של בשאר אל-אסד"
      ],
      "forecast": [
-      "המשך הידוק שיתוף הפעולה הצבאי-אימוני עם כוחות רוסיים במערב המדינה",
-      "התמודדות מתמשכת עם כיסי התנגדות, קשיי משילות ואיומי תאי טרור"
+      "המשך מעצרים של קצינים לשעבר לצד ניסיונות להשתלט על תקריות ביטחוניות בבסיסים מרוחקים"
+     ]
+    },
+    {
+     "actor": "טורקיה",
+     "declared": [
+      "איחוד עמי האזור ומניעת פילוגו בידי ישראל"
+     ],
+     "inferred": [
+      "הגברת ההשפעה המדינית והגיאו-פוליטית בסוריה ובלבנון על חשבון פעילות ישראלית"
+     ],
+     "forecast": [
+      "המשך ביקורת פומבית חריפה נגד צעדי ישראל במדינות הגובלות בה מצפון"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/news/2026/9/19/syria-says-blast-at-military-site-in-deir-az-zor-killed-11?traffic_source=rss",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
+    },
+    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/128867/",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://english.almanar.com.lb/article/129042/",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/syrias-shibani-visits-latakia-airport-review-russia-deal-progress-what-know",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/syria-russia-review-implementation-of-memorandum-on-russian-presence-in-latakia/4061664",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-ringleader-of-isis-terrorist-cell-involved-in-killing-3-security-personnel/4061706",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/958477/from-assad-era-kidnappings-to-alleged-terror-plot-lebanon-uncovers-cro/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958477",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/958631/un-peacekeeping-chief-in-lebanon-says-smooth-transition-is-critical-be/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958631",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-demolitions-lebanon-set-fire-hospital",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkish-foreign-minister-says-israel-should-not-chase-empty-dreams",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/israeli-lebanese-armies-face-south-lebanon-village",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://www.newarab.com/news/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130460",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "url": "https://t.me/abualiexpress/130497",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hy8hwasymx",
-     "accessed_at": "2026-09-19T11:05:55+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/47852",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94376",
+     "accessed_at": "2026-09-20T01:39:10+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-18T12:12:43+00:00",
+  "previous_generated_at": "2026-09-19T11:05:55+00:00",
   "changes": {
-   "NORTH-09191105-01": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "ירי ארטילרי ותקיפות בדרום לבנון",
+   "NORTH-09200139-01": {
+    "kind": "new"
+   },
+   "NORTH-09200139-02": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "תקיפות והפגזות ישראליות ברחבי דרום לבנון",
     "score": 1.0
    },
-   "NORTH-09191105-02": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "התקדמות כוחות ישראל באזור דיר מימאס ונסיגת צבא לבנון",
-    "score": 1.0
-   },
-   "NORTH-09191105-03": {
+   "NORTH-09200139-03": {
     "kind": "new"
    },
-   "NORTH-09191105-04": {
+   "NORTH-09200139-04": {
+    "kind": "possible",
+    "prev": "הגשת כתבי אישום בלבנון נגד רשת להכשרת נאמני משטר אסד",
+    "score": 0.467
+   },
+   "NORTH-09200139-05": {
+    "kind": "possible",
+    "prev": "עימות והשלכת רימוני הלם בין כוחות צה\"ל לצבא לבנון בדיר מימאס",
+    "score": 0.633
+   },
+   "NORTH-09200139-06": {
     "kind": "new"
    },
-   "NORTH-09191105-05": {
+   "NORTH-09200139-07": {
     "kind": "new"
    },
-   "NORTH-09191105-06": {
+   "NORTH-09200139-08": {
     "kind": "new"
    }
   }
