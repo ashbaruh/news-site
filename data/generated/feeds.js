@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:15:04+00:00",
-  "fetched_at": "2026-09-20T14:15:04+00:00"
+  "checked_at": "2026-09-20T14:17:27+00:00",
+  "fetched_at": "2026-09-20T14:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:15:15+00:00",
-  "fetched_at": "2026-09-20T14:15:15+00:00"
+  "checked_at": "2026-09-20T14:17:41+00:00",
+  "fetched_at": "2026-09-20T14:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:15:16+00:00",
-  "fetched_at": "2026-09-20T14:15:16+00:00"
+  "checked_at": "2026-09-20T14:17:41+00:00",
+  "fetched_at": "2026-09-20T14:17:41+00:00"
  },
- "generated_at": "2026-09-20T14:15:16+00:00",
+ "generated_at": "2026-09-20T14:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -102,11 +102,6 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -174,6 +169,11 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:15:05+00:00",
-  "fetched_at": "2026-09-20T14:15:05+00:00"
+  "checked_at": "2026-09-20T14:17:29+00:00",
+  "fetched_at": "2026-09-20T14:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:15:06+00:00",
-  "fetched_at": "2026-09-20T14:15:06+00:00"
+  "checked_at": "2026-09-20T14:17:30+00:00",
+  "fetched_at": "2026-09-20T14:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T14:15:08+00:00",
-  "fetched_at": "2026-09-20T14:15:08+00:00"
+  "checked_at": "2026-09-20T14:17:32+00:00",
+  "fetched_at": "2026-09-20T14:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:15:08+00:00",
-  "fetched_at": "2026-09-20T14:15:08+00:00"
+  "checked_at": "2026-09-20T14:17:32+00:00",
+  "fetched_at": "2026-09-20T14:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2306,8 +2306,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:15:15+00:00",
-  "fetched_at": "2026-09-20T14:15:15+00:00"
+  "checked_at": "2026-09-20T14:17:39+00:00",
+  "fetched_at": "2026-09-20T14:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,7 +2650,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T14:15:11+00:00",
-  "fetched_at": "2026-09-20T14:15:11+00:00"
+  "checked_at": "2026-09-20T14:17:36+00:00",
+  "fetched_at": "2026-09-20T14:17:36+00:00"
  }
 };
