@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:17:23+00:00",
-  "fetched_at": "2026-09-20T05:17:23+00:00"
+  "checked_at": "2026-09-20T05:27:08+00:00",
+  "fetched_at": "2026-09-20T05:27:08+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:17:32+00:00",
-  "fetched_at": "2026-09-20T05:17:32+00:00"
+  "checked_at": "2026-09-20T05:27:18+00:00",
+  "fetched_at": "2026-09-20T05:27:18+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:17:34+00:00",
-  "fetched_at": "2026-09-20T05:17:34+00:00"
+  "checked_at": "2026-09-20T05:27:18+00:00",
+  "fetched_at": "2026-09-20T05:27:18+00:00"
  },
- "generated_at": "2026-09-20T05:17:34+00:00",
+ "generated_at": "2026-09-20T05:27:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-20T05:01:00+00:00"
     },
     {
-     "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
-     "date": "2026-09-19T18:00:00+00:00"
+     "title": "מי באמת אשם במקרי הפריצה לאתרים בחסות מעבדת הסייבר הישראלית?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556947",
+     "date": "2026-09-20T05:08:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:17:25+00:00",
-  "fetched_at": "2026-09-20T05:17:25+00:00"
+  "checked_at": "2026-09-20T05:27:09+00:00",
+  "fetched_at": "2026-09-20T05:27:09+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:17:26+00:00",
-  "fetched_at": "2026-09-20T05:17:26+00:00"
+  "checked_at": "2026-09-20T05:27:10+00:00",
+  "fetched_at": "2026-09-20T05:27:10+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:17:27+00:00",
-  "fetched_at": "2026-09-20T05:17:27+00:00"
+  "checked_at": "2026-09-20T05:27:11+00:00",
+  "fetched_at": "2026-09-20T05:27:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:17:27+00:00",
-  "fetched_at": "2026-09-20T05:17:27+00:00"
+  "checked_at": "2026-09-20T05:27:11+00:00",
+  "fetched_at": "2026-09-20T05:27:11+00:00"
  },
  "ai": {
   "data": {
@@ -2301,17 +2301,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tencent/AuK"
     },
     {
-     "title": "Marigold V2",
+     "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 84,
-     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
+     "likes": 91,
+     "link": "https://huggingface.co/spaces/huawei-bayerlab/marigold-v2-web"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:17:31+00:00",
-  "fetched_at": "2026-09-20T05:17:31+00:00"
+  "checked_at": "2026-09-20T05:27:16+00:00",
+  "fetched_at": "2026-09-20T05:27:16+00:00"
  },
  "abroad": {
   "data": {
@@ -2652,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:17:30+00:00",
-  "fetched_at": "2026-09-20T05:17:30+00:00"
+  "checked_at": "2026-09-20T05:27:15+00:00",
+  "fetched_at": "2026-09-20T05:27:15+00:00"
  }
 };
