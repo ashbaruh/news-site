@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:17:24+00:00",
-  "fetched_at": "2026-09-20T10:17:24+00:00"
+  "checked_at": "2026-09-20T11:17:45+00:00",
+  "fetched_at": "2026-09-20T11:17:45+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:17:33+00:00",
-  "fetched_at": "2026-09-20T10:17:33+00:00"
+  "checked_at": "2026-09-20T11:17:55+00:00",
+  "fetched_at": "2026-09-20T11:17:55+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:17:34+00:00",
-  "fetched_at": "2026-09-20T10:17:34+00:00"
+  "checked_at": "2026-09-20T11:17:55+00:00",
+  "fetched_at": "2026-09-20T11:17:55+00:00"
  },
- "generated_at": "2026-09-20T10:17:34+00:00",
+ "generated_at": "2026-09-20T11:17:55+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555562",
-     "date": "2026-09-20T07:00:00+00:00"
+     "title": "הנשיא ההודי של נמל חיפה: \"יכולות לעבור בישראל פי מיליון סחורות\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556794",
+     "date": "2026-09-20T10:29:00+00:00"
     },
     {
-     "title": "פיגוע בבנימין: בן 30 נפצע אנוש מירי על רוחצים במעיין; כוחות הביטחון פתחו במצוד נרחב",
+     "title": "בן 30 נרצח בפיגוע ירי על רוחצים במעיין בבנימין; כוחות הביטחון פתחו במצוד נרחב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
-     "date": "2026-09-20T09:21:00+00:00"
+     "date": "2026-09-20T10:49:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:17:25+00:00",
-  "fetched_at": "2026-09-20T10:17:25+00:00"
+  "checked_at": "2026-09-20T11:17:46+00:00",
+  "fetched_at": "2026-09-20T11:17:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:17:27+00:00",
-  "fetched_at": "2026-09-20T10:17:27+00:00"
+  "checked_at": "2026-09-20T11:17:47+00:00",
+  "fetched_at": "2026-09-20T11:17:47+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T10:17:28+00:00",
-  "fetched_at": "2026-09-20T10:17:28+00:00"
+  "checked_at": "2026-09-20T11:17:47+00:00",
+  "fetched_at": "2026-09-20T11:17:47+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:17:28+00:00",
-  "fetched_at": "2026-09-20T10:17:28+00:00"
+  "checked_at": "2026-09-20T11:17:47+00:00",
+  "fetched_at": "2026-09-20T11:17:47+00:00"
  },
  "ai": {
   "data": {
@@ -2239,7 +2239,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 433,
+     "likes": 434,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2271,6 +2271,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 86,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
@@ -2278,17 +2285,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 85,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 77,
+     "likes": 78,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2302,18 +2302,27 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 58,
+     "likes": 61,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:17:33+00:00",
-  "fetched_at": "2026-09-20T10:17:33+00:00"
+  "checked_at": "2026-09-20T11:17:54+00:00",
+  "fetched_at": "2026-09-20T11:17:54+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חיים רביבו הופתע מבנו: \"לא צפיתי את ההתקדמות הזו של רוי\"",
+     "link": "https://sports.walla.co.il/item/3869076",
+     "date": "2026-09-20T14:04:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "מנור סולומון עבר לאמצע ושינה את המשחק: \"היה טירוף\"",
      "link": "https://sports.walla.co.il/item/3869040",
@@ -2321,6 +2330,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
+     ]
+    },
+    {
+     "title": "\"אולי פורטלנד צריכה לתת עדיפות לדני אבדיה\"",
+     "link": "https://www.one.co.il/Article/533925.html?ref=rss",
+     "date": "2026-09-20T10:21:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
      ]
     },
     {
@@ -2428,24 +2446,6 @@ window.DB.generated = {
      "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3868647",
      "date": "2026-09-17T08:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
-     "link": "https://sports.walla.co.il/item/3868373",
-     "date": "2026-09-16T22:19:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"רצפה של 25 נקודות למשחק\": התחזית הנוצצת לדני אבדיה",
-     "link": "https://sports.walla.co.il/item/3867493",
-     "date": "2026-09-13T19:54:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2652,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T10:17:30+00:00",
-  "fetched_at": "2026-09-20T10:17:30+00:00"
+  "checked_at": "2026-09-20T11:17:50+00:00",
+  "fetched_at": "2026-09-20T11:17:50+00:00"
  }
 };
