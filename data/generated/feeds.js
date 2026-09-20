@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:27:08+00:00",
-  "fetched_at": "2026-09-20T05:27:08+00:00"
+  "checked_at": "2026-09-20T06:17:23+00:00",
+  "fetched_at": "2026-09-20T06:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:27:18+00:00",
-  "fetched_at": "2026-09-20T05:27:18+00:00"
+  "checked_at": "2026-09-20T06:17:32+00:00",
+  "fetched_at": "2026-09-20T06:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:27:18+00:00",
-  "fetched_at": "2026-09-20T05:27:18+00:00"
+  "checked_at": "2026-09-20T06:17:32+00:00",
+  "fetched_at": "2026-09-20T06:17:32+00:00"
  },
- "generated_at": "2026-09-20T05:27:18+00:00",
+ "generated_at": "2026-09-20T06:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,22 @@ window.DB.generated = {
      "date": "2026-09-20T05:01:00+00:00"
     },
     {
-     "title": "מי באמת אשם במקרי הפריצה לאתרים בחסות מעבדת הסייבר הישראלית?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556947",
-     "date": "2026-09-20T05:08:00+00:00"
+     "title": "הכחשה באמירויות: בן זאיד לא העביר התרעה לנתניהו לפני 7 באוקטובר; טראמפ קטע במפתיע את חופשתו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
+     "date": "2026-09-20T05:30:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "המשקיעים בוול סטריט רגועים. וזו סיבה לדאגה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556949",
+     "date": "2026-09-20T05:34:00+00:00"
+    },
+    {
+     "title": "ה-Ai ברח מהמעבדה של חברה ישראלית. מי אשם?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556947",
+     "date": "2026-09-20T05:08:00+00:00"
+    },
     {
      "title": "לא הבנתי עד כמה הייתי מכור לטלפון שלי, עד שנכנסתי לכלא",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556827",
@@ -134,6 +144,11 @@ window.DB.generated = {
      "date": "2026-09-19T13:20:00+00:00"
     },
     {
+     "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
+     "date": "2026-09-19T13:00:00+00:00"
+    },
+    {
      "title": "טראמפ ישתלט ביטחונית על האי הגדול בעולם. ניצחון או התקפלות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556940",
      "date": "2026-09-19T06:24:00+00:00"
@@ -162,16 +177,6 @@ window.DB.generated = {
      "title": "נעילה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חצתה את רף ה-5%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
      "date": "2026-09-18T20:10:00+00:00"
-    },
-    {
-     "title": "בתוך העולם הדיסטופי המזוהם של מרכזי הנתונים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555554",
-     "date": "2026-09-18T16:55:00+00:00"
-    },
-    {
-     "title": "השעות הגורליות בלב ים וההיעלמות המסתורית של מתנגד המשטר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555549",
-     "date": "2026-09-18T13:04:00+00:00"
     },
     {
      "title": "רגע לפני העסקה: הסטות הכספים הגדולות מאלטשולר שחם נמשכו",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "רגע התפנית, והיחסים עם טראמפ: מה מלמדת החלטת הריבית על קווין וורש?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556755",
      "date": "2026-09-17T12:47:00+00:00"
-    },
-    {
-     "title": "לקראת מאבק שליטה? המטרה של הנפקת קרפור והדמיון למקרה אל על",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555527",
-     "date": "2026-09-17T12:39:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:27:09+00:00",
-  "fetched_at": "2026-09-20T05:27:09+00:00"
+  "checked_at": "2026-09-20T06:17:24+00:00",
+  "fetched_at": "2026-09-20T06:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:27:10+00:00",
-  "fetched_at": "2026-09-20T05:27:10+00:00"
+  "checked_at": "2026-09-20T06:17:25+00:00",
+  "fetched_at": "2026-09-20T06:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T05:27:11+00:00",
-  "fetched_at": "2026-09-20T05:27:11+00:00"
+  "checked_at": "2026-09-20T06:17:26+00:00",
+  "fetched_at": "2026-09-20T06:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:27:11+00:00",
-  "fetched_at": "2026-09-20T05:27:11+00:00"
+  "checked_at": "2026-09-20T06:17:26+00:00",
+  "fetched_at": "2026-09-20T06:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2232,16 +2232,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 10,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 428,
+     "likes": 429,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2255,7 +2253,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2266,18 +2264,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 77,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
      "likes": 77,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
-    },
-    {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 76,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2310,26 +2308,28 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:27:16+00:00",
-  "fetched_at": "2026-09-20T05:27:16+00:00"
+  "checked_at": "2026-09-20T06:17:31+00:00",
+  "fetched_at": "2026-09-20T06:17:31+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
+     "title": "תורג'מן כיכב עם שני בישולים, עבדה וטוקלומטי גברו על בריבו",
+     "link": "https://sports.walla.co.il/item/3869017",
+     "date": "2026-09-20T08:34:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "תאי בריבו",
+      "ליאל עבדה",
+      "עידן טוקלומטי"
+     ]
+    },
+    {
      "title": "צפו: אוסקר גלוך בישל, אבל אייאקס שוב פישלה מול אקסלסיור",
      "link": "https://sports.walla.co.il/item/3868890",
      "date": "2026-09-19T22:54:00+00:00",
      "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "90 דקות ובישול לאוסקר גלוך ב-2:2 של אייאקס",
-     "link": "https://www.one.co.il/Article/533861.html?ref=rss",
-     "date": "2026-09-19T19:54:00+00:00",
-     "source": "ONE",
      "players": [
       "אוסקר גלוך"
      ]
@@ -2425,15 +2425,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "כוכב: שני בישולים לרוי רביבו, ניצחון בכורה לאלצ'ה",
-     "link": "https://sports.walla.co.il/item/3868781",
-     "date": "2026-09-18T23:59:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
      "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
      "link": "https://sports.walla.co.il/item/3868785",
      "date": "2026-09-18T19:56:00+00:00",
@@ -2446,6 +2437,15 @@ window.DB.generated = {
      "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3868647",
      "date": "2026-09-17T08:17:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
+     "link": "https://sports.walla.co.il/item/3868373",
+     "date": "2026-09-16T22:19:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2652,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T05:27:15+00:00",
-  "fetched_at": "2026-09-20T05:27:15+00:00"
+  "checked_at": "2026-09-20T06:17:29+00:00",
+  "fetched_at": "2026-09-20T06:17:29+00:00"
  }
 };
