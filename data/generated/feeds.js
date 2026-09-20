@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-20T04:17:22+00:00",
-  "fetched_at": "2026-09-20T04:17:22+00:00"
+  "checked_at": "2026-09-20T05:17:23+00:00",
+  "fetched_at": "2026-09-20T05:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T04:17:34+00:00",
-  "fetched_at": "2026-09-20T04:17:34+00:00"
+  "checked_at": "2026-09-20T05:17:32+00:00",
+  "fetched_at": "2026-09-20T05:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch UCI Road World Championships 2026: live stream cycling for FREE from anywhere",
+    "title_he": "איך לצפות באליפות העולם בכביש UCI 2026: זרם חי רכיבה על אופניים בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/uci-road-world-championships-2026-live-stream",
+    "date": "2026-09-20T05:00:00+00:00"
+   },
    {
     "title_en": "“Good sound is good sound, regardless of whether it's hi-fi or home cinema” – how a surprise product reminded me of this simple truth",
     "title_he": "\"סאונד טוב הוא סאונד טוב, לא משנה אם זה Hi-Fi או קולנוע ביתי\" - איך מוצר הפתעה הזכיר לי את האמת הפשוטה הזו",
@@ -69,35 +76,33 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/projectors/i-got-up-close-and-personal-with-two-competing-4k-ust-projectors-and-im-more-excited-than-ever-for-the-future-of-the-category",
     "date": "2026-09-18T15:31:22+00:00"
-   },
-   {
-    "title_en": "\"What was a Panasonic TV is still a Panasonic TV\" – I spoke to the CEO of Panasonic's new TV division about what to expect from this legendary Japanese AV brand moving forward",
-    "title_he": "\"מה שהיה טלוויזיית פנסוניק היא עדיין טלוויזיית פנסוניק\" - דיברתי עם המנכ\"ל של חטיבת הטלוויזיה החדשה של פנסוניק לגבי מה לצפות ממותג AV יפני אגדי שמתקדם קדימה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/what-was-a-panasonic-tv-is-still-a-panasonic-tv-i-spoke-to-the-ceo-of-panasonics-new-tv-division-about-what-to-expect-from-this-legendary-japanese-av-brand-moving-forward",
-    "date": "2026-09-18T14:59:20+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T04:17:35+00:00",
-  "fetched_at": "2026-09-20T04:17:35+00:00"
+  "checked_at": "2026-09-20T05:17:34+00:00",
+  "fetched_at": "2026-09-20T05:17:34+00:00"
  },
- "generated_at": "2026-09-20T04:17:35+00:00",
+ "generated_at": "2026-09-20T05:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
+     "title": "לא הבנתי עד כמה הייתי מכור לטלפון שלי, עד שנכנסתי לכלא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556827",
+     "date": "2026-09-20T05:01:00+00:00"
+    },
+    {
      "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
      "date": "2026-09-19T18:00:00+00:00"
-    },
-    {
-     "title": "מתקפה של החות'ים על סעודיה: שרפת ענק בנמל התעופה הראשי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556937",
-     "date": "2026-09-19T19:01:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "לא הבנתי עד כמה הייתי מכור לטלפון שלי, עד שנכנסתי לכלא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556827",
+     "date": "2026-09-20T05:01:00+00:00"
+    },
     {
      "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "לקראת מאבק שליטה? המטרה של הנפקת קרפור והדמיון למקרה אל על",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555527",
      "date": "2026-09-17T12:39:00+00:00"
-    },
-    {
-     "title": "חילוקי דעות בוול סטריט: מדוע \"השור\" הגדול אד ירדני חותך את תחזית ה-S&P 500?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556756",
-     "date": "2026-09-17T10:40:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T04:17:23+00:00",
-  "fetched_at": "2026-09-20T04:17:23+00:00"
+  "checked_at": "2026-09-20T05:17:25+00:00",
+  "fetched_at": "2026-09-20T05:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T04:17:24+00:00",
-  "fetched_at": "2026-09-20T04:17:24+00:00"
+  "checked_at": "2026-09-20T05:17:26+00:00",
+  "fetched_at": "2026-09-20T05:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2116,8 +2116,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-20T04:17:26+00:00",
-  "fetched_at": "2026-09-20T04:17:26+00:00"
+  "checked_at": "2026-09-20T05:17:27+00:00",
+  "fetched_at": "2026-09-20T05:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2207,8 +2207,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T04:17:26+00:00",
-  "fetched_at": "2026-09-20T04:17:26+00:00"
+  "checked_at": "2026-09-20T05:17:27+00:00",
+  "fetched_at": "2026-09-20T05:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2232,8 +2232,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
-   "failed_sources": [],
+   "candidates": 6,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2246,7 +2248,7 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2281,14 +2283,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2302,14 +2304,14 @@ window.DB.generated = {
      "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-20T04:17:33+00:00",
-  "fetched_at": "2026-09-20T04:17:33+00:00"
+  "checked_at": "2026-09-20T05:17:31+00:00",
+  "fetched_at": "2026-09-20T05:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2366,15 +2368,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "עופרי ארד"
-     ]
-    },
-    {
-     "title": "בישול לסולומון, ווסטהאם ומילוול נפרדו ב-2:2",
-     "link": "https://www.one.co.il/Article/533814.html?ref=rss",
-     "date": "2026-09-19T11:30:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2444,6 +2437,15 @@ window.DB.generated = {
      "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
      "link": "https://sports.walla.co.il/item/3868785",
      "date": "2026-09-18T19:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T08:17:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2650,7 +2652,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-20T04:17:30+00:00",
-  "fetched_at": "2026-09-20T04:17:30+00:00"
+  "checked_at": "2026-09-20T05:17:30+00:00",
+  "fetched_at": "2026-09-20T05:17:30+00:00"
  }
 };
