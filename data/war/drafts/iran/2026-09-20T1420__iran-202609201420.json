@@ -1,0 +1,401 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a525929d27f4",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-20T14:20:56+00:00",
+  "window": {
+   "from": "2026-09-19T14:20:56+00:00",
+   "to": "2026-09-20T14:20:56+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202609201420"
+  },
+  "summary": "העימות הישיר והעקיף בין ארצות הברית ובעלות בריתה לבין איראן ושלוחותיה מתאפיין ברמת דריכות גבוהה במיוחד, באיומים צבאיים הדדיים ובחסימה נמשכת של מצר הורמוז. בתוך כך, השלוחה החותית בתימן העמיקה את תקיפותיה לעבר עומק שטח ערב הסעודית בפגיעה בבירה ריאד, בזמן שבוושינגטון נמנעים ממעורבות צבאית ישירה להגנת הממלכה. במקביל, טהרן מציבה תנאים מדיניים נוקשים הכוללים הסרת עיצומים ומצור ימי תמורת פתיחת נתיבי השיט, תוך אזהרה מפגיעה בבסיסים אזוריים אם תחודש האש נגדה.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "סגירת המצר נמשכת מצד טהרן לצד הגבלות שיט ופגיעה בייצוא נפט"
+   },
+   {
+    "name": "חזית תימן - ערב הסעודית",
+    "status": "הסלמה חריפה עקב שיגור טילים וכטבמים לעבר ריאד ללא התערבות אמריקנית ישירה"
+   },
+   {
+    "name": "הזירה הישירה בין איראן לארצות הברית וישראל",
+    "status": "רמת כוננות מוגברת, איומים בהנחתת מכות הרסניות והפעלת לחץ כלכלי וסיכולי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09201420-01",
+    "title": "איומים חריפים והצגת חלופות לפעולה מצד נשיא ארצות הברית כלפי איראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי הוא שוקל את צעדיו וכי עשויים להתרחש מהלכים משמעותיים בקרוב, כאשר בין האפשרויות שהציג נכללות פגיעה הרסנית במדינה, המשך קריסה כלכלית תחת לחץ או הגעה להסדר.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T14:00:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T14:00:17+00:00",
+    "last_update_at": "2026-09-20T14:13:13+00:00",
+    "what_is_not_verified": "ההחלטה המעשית שתיבחר ולוח הזמנים למימושה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369231",
+      "published_at": "2026-09-20T14:13:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130559",
+      "published_at": "2026-09-20T14:00:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09201420-02",
+    "title": "אזהרות איראניות מפני תקיפה ופגיעה בבסיסים אמריקניים ובמדינות האזור",
+    "summary": "מפקדת חאתם אל אנביאא וגורמי פיקוד צבאיים באיראן התרו כנגד כל יוזמה התקפית של ארצות הברית ובעלות בריתה, והזהירו כי תגובתם תכלול פגיעות ישירות וממושכות בבסיסים ובאינטרסים אמריקניים, לצד שלילת איפוק מול מדינות שישתפו פעולה.",
+    "axis": "איראן - ארצות הברית ומדינות האזור",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T11:10:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T11:10:26+00:00",
+    "last_update_at": "2026-09-20T14:10:41+00:00",
+    "what_is_not_verified": "אמיתות המידע המודיעיני האיראני לגבי מתקפה אמריקנית מתואמת שהוחלטה באירופה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_d95a72cdc1effb25",
+      "url": "https://en.irna.ir/news/86269254/Iran-warns-US-regional-states-of-painful-attacks-if-they-act",
+      "published_at": "2026-09-20T14:10:41+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_d95a72cdc1effb25",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-warns-against-new-escalation-us-and-allies",
+      "published_at": "2026-09-20T13:46:29+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_d95a72cdc1effb25",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21458869",
+      "published_at": "2026-09-20T11:51:30+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_d95a72cdc1effb25",
+      "url": "https://t.me/abualiexpress/130544",
+      "published_at": "2026-09-20T11:10:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09201420-03",
+    "title": "התניית פתיחת מצר הורמוז וחידוש המשא ומתן בקבלת שבעה תנאים",
+    "summary": "יושב ראש הפרלמנט האיראני ובכירים במדינה הבהירו כי מצר הורמוז יישאר סגור וכי שיחות מול וושינגטון מותנות במילוי שבעה תנאים שהועברו באמצעות מתווכים, ובראשם הסרת המצור הימי על הנמלים וביטול עיצומי הנפט.",
+    "axis": "מצר הורמוז ומשא ומתן מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T18:30:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T18:30:00+00:00",
+    "last_update_at": "2026-09-20T11:21:06+00:00",
+    "what_is_not_verified": "כלל פרטי שבעת התנאים המלאים והנכונות האמריקנית לדון בהם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us?traffic_source=rss",
+      "published_at": "2026-09-20T11:21:06+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ghalibaf-iran-must-fight-and-negotiate-war-us-drags",
+      "published_at": "2026-09-20T08:49:34+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-will-not-reopen-until-us-honours-june-agreement",
+      "published_at": "2026-09-20T08:15:06+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkxvjvnyzg",
+      "published_at": "2026-09-19T21:29:00+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609192233",
+      "published_at": "2026-09-19T18:30:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09201420-04",
+    "title": "מתקפת טילים וכטבמים חותית לעבר ריאד",
+    "summary": "כוחות החותים מתימן שיגרו טילים בליסטיים וכלי טיס בלתי מאוישים אל עבר אתרים בבירת ערב הסעודית, תקיפה שהביאה לפריצת שריפה בסמוך לנמל התעופה ולהפעלת התרעות ראשונות מסוגן בעיר.",
+    "axis": "החותים - ערב הסעודית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T06:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T00:21:04+00:00",
+    "last_update_at": "2026-09-20T12:30:25+00:00",
+    "what_is_not_verified": "היקף הפגיעה המדויק באתרים שהוגדרו רגישים והנזק המלא בנמל התעופה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-mideast-war",
+      "published_at": "2026-09-20T12:30:25+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
+      "published_at": "2026-09-20T12:09:31+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
+      "published_at": "2026-09-20T09:38:42+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+      "published_at": "2026-09-20T00:21:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09201420-05",
+    "title": "סיכול תאי חבלה הפועלים בחסות זרה באיראן",
+    "summary": "הרשויות באיראן דיווחו על חיסול ומעצר של חברי שלוש חוליות חבלה שפעלו בשלושה מחוזות שונים במדינה במטרה להתנקש באישים ולפגוע בתשתיות קריטיות.",
+    "axis": "פנים איראן - ביטחון וסיכול",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T12:22:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T12:22:56+00:00",
+    "last_update_at": "2026-09-20T12:22:56+00:00",
+    "what_is_not_verified": "מידת השיוך הישיר של החוליות לגורמי מודיעין אמריקניים או ישראליים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_6bebab0c30d2fb4b",
+      "url": "https://en.irna.ir/news/86269194/Iran-dismantles-three-terrorist-operational-cells",
+      "published_at": "2026-09-20T12:22:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09201420-06",
+    "title": "העלאת רמת הדריכות וצעדי גיוס המוניים באיראן",
+    "summary": "הכוחות המזוינים באיראן העלו את רמת הכוננות לרמה עליונה במקביל להרחבת מסע גיוס עממי והגנה אזרחית לנוכח החשש מעימות רחב היקף מול ארצות הברית.",
+    "axis": "איראן - מוכנות צבאית",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T23:07:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T23:07:49+00:00",
+    "last_update_at": "2026-09-20T13:47:26+00:00",
+    "what_is_not_verified": "הדיווחים על הוצאת קוד מאה לכוחות הביטחון המבוססים על ערוצים לא רשמיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/economy/2026/9/20/whats-behind-iranian-authorities-push-for-a-mass-mobilisation-campaign?traffic_source=rss",
+      "published_at": "2026-09-20T13:47:26+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609206316",
+      "published_at": "2026-09-20T01:56:20+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47849",
+      "published_at": "2026-09-19T23:20:43+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47845",
+      "published_at": "2026-09-19T23:07:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת איראן בדבר החלטה אמריקנית מאומתת לתקוף שנרקמה בפגישה באירופה עם מדינות האזור",
+   "מידת הנזק המדויק שנגרם מסביב לנמל התעופה בריאד כתוצאה ממתקפת החותים",
+   "דיווחים על מתן פקודת כוננות צבאית פנימית בשם קוד מאה באיראן",
+   "הערכות פרשניות לגבי תקיפה אפשרית באתר הר המכוש באיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שמירה על סגירת מצר הורמוז עד לביטול המצור על הנמלים והסרת עיצומי הנפט",
+     "תקיפה חסרת ריסון של מטרות ובסיסים אמריקניים ושותפיהם באזור במקרה של תקיפה",
+     "הצבת שבעה תנאים ברורים לפתיחת משא ומתן להסדרת העימות"
+    ],
+    "inferred": [
+     "מינוף הלחץ הכלכלי העולמי ועליית מחירי האנרגיה כדי לכפות ויתורים על וושינגטון",
+     "הפעלת לחץ עקיף על המפרץ באמצעות תקיפות השלוחה החותית בסעודיה כדי לערער את הקואליציה האזורית"
+    ],
+    "forecast": [
+     "המשך החזקת מצר הורמוז כקלף מיקוח מרכזי תוך שמירה על רמת כוננות מרבית",
+     "הימנעות ממתקפה יזומה כוללת אלא אם כן תותקף ישירות בידי כוחות ארצות הברית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "בחינת אפשרויות הכוללות השמדה צבאית נרחבת, לחץ כלכלי מתמשך או חתירה להסכם",
+     "אזהרה מפני התלקחות רחבה ומהירה במזרח התיכון"
+    ],
+    "inferred": [
+     "שאיפה לכפות הסדר בתנאים נוחים בלי להיגרר לפעולה קרקעית או למחויבות הגנתית רחבה לסעודיה",
+     "שימוש בהרתעה מילולית לצד מצור ימי ועיצומים להחלשת השלטון בטהרן"
+    ],
+    "forecast": [
+     "המשך הימנעות מהתערבות צבאית ישירה בתימן לטובת ריאד בטווח הזמן המיידי",
+     "הגברת הלחץ הכלכלי והמשך הצבת איום צבאי מפורש לשיבוש כוונותיה של איראן"
+    ]
+   },
+   {
+    "actor": "השלוחה החותית בתימן",
+    "declared": [
+     "תקיפת אתרים רגישים בעומק ערב הסעודית ובעיר הבירה באמצעות טילים וכטבמים"
+    ],
+    "inferred": [
+     "הפגנת עליונות צבאית ואילוץ ערב הסעודית לוותר במערכה המקומית",
+     "סיוע לאינטרס האיראני בהפעלת לחץ רב-זירתי על בעלות בריתה של ארצות הברית"
+    ],
+    "forecast": [
+     "המשך תקיפות ארוכות טווח לעבר תשתיות במפרץ כדי להמחיש את פגיעות הממלכה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/economy/2026/9/20/whats-behind-iranian-authorities-push-for-a-mass-mobilisation-campaign?traffic_source=rss",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-mideast-war",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609206316",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86269194/Iran-dismantles-three-terrorist-operational-cells",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21458869",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369231",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130544",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47845",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkxvjvnyzg",
+    "accessed_at": "2026-09-20T14:20:56+00:00"
+   }
+  ]
+ }
+}

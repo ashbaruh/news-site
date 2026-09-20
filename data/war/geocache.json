@@ -1,4 +1,8 @@
 {
+"aden, yemen": [
+12.7896,
+45.0285
+],
 "al-khawkhah, yemen": [
 13.8056,
 43.3474
@@ -24,6 +28,10 @@
 36.0252
 ],
 "bab al-mandab strait, yemen": null,
+"bab al-mandab, yemen": [
+12.714,
+43.5008
+],
 "bab al-mandeb, yemen": null,
 "bab el-mandab, yemen": null,
 "bab el-mandeb": [
@@ -72,6 +80,10 @@
 "deir mimas, lebanon": [
 33.3021,
 35.5467
+],
+"doha, qatar": [
+25.2856,
+51.5264
 ],
 "donetsk, ukraine": [
 48.0159,
@@ -125,6 +137,10 @@
 "kapotnya, russia": [
 55.6367,
 37.7985
+],
+"kfar tebnit, lebanon": [
+33.3519,
+35.5186
 ],
 "kfar tibnit, lebanon": [
 33.3519,
@@ -186,6 +202,10 @@
 42.983,
 47.5049
 ],
+"mansouri, lebanon": [
+33.1737,
+35.2111
+],
 "marib governorate, yemen": null,
 "marib, yemen": [
 15.4579,
@@ -210,6 +230,10 @@
 "moscow, russia": [
 55.7505,
 37.6175
+],
+"mount hermon, syria": [
+33.4169,
+35.8564
 ],
 "muscat, oman": [
 23.6124,
@@ -262,6 +286,10 @@
 32.0878,
 34.886
 ],
+"red sea, yemen": [
+12.783,
+45.0315
+],
 "riyadh, saudi arabia": [
 24.6389,
 46.716
@@ -275,6 +303,10 @@
 39.7249
 ],
 "saluki, lebanon": null,
+"sanaa, yemen": [
+15.3539,
+44.2059
+],
 "saudi arabia": null,
 "shaqra, lebanon": null,
 "slatyne, ukraine": [
@@ -336,7 +368,12 @@
 32.8011,
 35.8268
 ],
+"wadi al-salouqi, lebanon": null,
 "washington, d.c., united states": [
+38.8951,
+-77.0364
+],
+"washington, united states": [
 38.8951,
 -77.0364
 ],
@@ -353,6 +390,10 @@
 39.8934
 ],
 "yemen": null,
+"yohmor al-shaqif, lebanon": [
+33.3124,
+35.5177
+],
 "zaliznyi port, ukraine": [
 46.1235,
 32.2955

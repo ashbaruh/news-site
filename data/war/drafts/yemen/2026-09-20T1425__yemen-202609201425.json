@@ -1,0 +1,487 @@
+{
+ "status": "draft",
+ "received_sha256_12": "91b38a56879d",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-20T14:25:13+00:00",
+  "window": {
+   "from": "2026-09-19T14:25:13+00:00",
+   "to": "2026-09-20T14:25:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202609201425"
+  },
+  "summary": "העימות בין החות'ים לסעודיה הוחרף משמעותית עם שיגור טילי שיוט, טילים בליסטיים וכטב\"מים לעבר ריאד וערי מפתח נוספות בממלכה. במקביל, כוחות החות'ים מנהלים מתקפה קרקעית וימית בתימן, במסגרתה השתלטו על שטחים במזרח המדינה, על רצועת החוף ועל אי אסטרטגי בים האדום מול כוחות הממשלה הנתמכים בידי ריאד. מנגד, ארצות הברית נמנעת מהתערבות צבאית ישירה חרף בקשות סעודיות, בעוד טורקיה מאותתת על נכונות להעניק סיוע הגנתי לריאד.",
+  "fronts": [
+   {
+    "name": "חזית תימן - ערב הסעודית",
+    "status": "הסלמה חריפה הכוללת ירי טילים וכטב\"מים לעבר ריאד, ינבוע וערים נוספות"
+   },
+   {
+    "name": "חזית פנים-תימן",
+    "status": "מתקפת בזק קרקעית של החות'ים מזרחה והשתלטות על שטחים מידי כוחות הממשלה"
+   },
+   {
+    "name": "חזית הים האדום ובאב אל-מנדב",
+    "status": "אחיזה חות'ית ברצועת החוף ובאי אסטרטגי, תוך איום על נתיבי שיט ומצור ימי שהוכרז ביולי"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09201425-01",
+    "title": "מתקפת טילים וכטב\"מים חות'ית לעבר ריאד ואתרים בסעודיה",
+    "summary": "החות'ים שיגרו טילים בליסטיים, טילי שיוט וכטב\"מים לעבר ריאד, ינבוע, ביש, טאיף ופראסאן. הקואליציה הסעודית הודיעה על יירוט טיל בליסטי מעל ריאד וסיכול תקיפות נוספות, בעוד עשן ואש נצפו באזור נמל התעופה בבירה.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T12:52:05+00:00",
+    "last_update_at": "2026-09-20T14:07:42+00:00",
+    "what_is_not_verified": "האם מאגר דלק ספציפי או שדה התעופה בריאד נפגעו ישירות, או שמדובר בנפילת שברי יירוט ועשן בסמוך.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
+      "published_at": "2026-09-20T14:07:42+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
+      "published_at": "2026-09-20T12:09:31+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
+      "published_at": "2026-09-20T09:38:42+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+      "published_at": "2026-09-20T00:21:04+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-19T23:49:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.newarab.com/news/saudi-arabia-confirms-yemens-houthi-rebels-tried-attack-its-capital-ballistic-missile",
+      "published_at": "2026-09-19T22:04:36+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.sabanew.net/viewstory/152621",
+      "published_at": "2026-09-19T19:45:18+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
+      "published_at": "2026-09-19T12:53:19+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_eecc6721a186025c",
+      "url": "https://t.me/alexmehacarmel/47829",
+      "published_at": "2026-09-19T12:52:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     },
+     {
+      "name": "טאיף, סעודיה",
+      "lat": 21.2703,
+      "lon": 40.4158
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09201425-02",
+    "title": "התקדמות קרקעית של החות'ים במזרח תימן והשתלטות על שטחים ואי בים האדום",
+    "summary": "החות'ים פתחו במתקפת בזק שבה השתלטו על שטחים נרחבים בתימן, התקדמו מזרחה מול כוחות הממשלה הנתמכים בידי סעודיה, והשתלטו על אי בעל חשיבות אסטרטגית בים האדום ועל אזורי חוף.",
+    "axis": "פנים תימן / הים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T15:16:03+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T15:16:03+00:00",
+    "last_update_at": "2026-09-20T12:24:19+00:00",
+    "what_is_not_verified": "שמו המדויק של האי שנתפס בים האדום ומספר הנפגעים המדויק בכלל הקרבות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/houthi-attacks-and-no-western-support-what-are-saudi-arabia-s-options",
+      "published_at": "2026-09-20T12:24:19+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/why-doesn-t-the-us-intervene-to-defend-saudi-arabia-against-the-houthis",
+      "published_at": "2026-09-20T12:20:38+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
+      "published_at": "2026-09-20T12:09:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/cia-chief-meets-egypts-sisi-cairo-amid-ongoing-regional-wars",
+      "published_at": "2026-09-20T11:44:11+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
+      "published_at": "2026-09-20T09:38:42+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
+      "published_at": "2026-09-19T15:16:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים האדום, תימן",
+      "lat": 12.783,
+      "lon": 45.0315
+     },
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09201425-03",
+    "title": "ארצות הברית מפרסמת התרעות ביטחוניות נרחבות במזרח התיכון",
+    "summary": "מחלקת המדינה ושגרירויות ארה\"ב פרסמו שורת אזהרות מסע והתרעות ביטחוניות לאזרחים במספר מדינות באזור מחשש להסלמה מהירה בעקבות חידוש הלחימה והמתקפות בין החות'ים לסעודיה.",
+    "axis": "הזירה האזורית / ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T05:12:44+00:00",
+    "last_update_at": "2026-09-20T12:30:25+00:00",
+    "what_is_not_verified": "האם קיצור שהותו של הנשיא טראמפ בקמפ דיוויד נבע ישירות מההסלמה הזו או מתנאי מזג אוויר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-mideast-war",
+      "published_at": "2026-09-20T12:30:25+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/cia-chief-meets-egypts-sisi-cairo-amid-ongoing-regional-wars",
+      "published_at": "2026-09-20T11:44:11+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hjq46gpygg",
+      "published_at": "2026-09-20T06:46:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-cuts-short-weekend-camp-david-returns-white-house",
+      "published_at": "2026-09-20T05:22:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130511",
+      "published_at": "2026-09-20T05:12:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09201425-04",
+    "title": "טורקיה מביעה נכונות לספק מענה לצרכים צבאיים של סעודיה",
+    "summary": "שר החוץ הטורקי הקאן פידאן הצהיר כי ארצו מוכנה לסייע בריסון האיומים ולהיענות לצרכים ביטחוניים וטכניים של ריאד על רקע מתקפות החות'ים, במסגרת הסכם הגנה משותף שכולל גם את פקיסטן.",
+    "axis": "סעודיה - טורקיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T19:46:32+00:00",
+    "last_update_at": "2026-09-20T10:23:33+00:00",
+    "what_is_not_verified": "האם הועברו בקשות רשמיות ספציפיות מצד סעודיה לאספקת נשק או התערבות צבאית טורקית בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
+      "published_at": "2026-09-20T10:23:33+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
+      "published_at": "2026-09-19T20:46:58+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
+      "published_at": "2026-09-19T19:46:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנקרה, טורקיה",
+      "lat": 39.9208,
+      "lon": 32.854
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09201425-05",
+    "title": "קטר וממשלת תימן מגנות את תקיפות החות'ים על סעודיה",
+    "summary": "משרד החוץ של קטר וממשלת תימן פרסמו גינויים תקיפים לשיגורי הטילים לעבר ריאד וערים נוספות בסעודיה, והגדירו אותם כהפרה בוטה של הריבונות הסעודית ושל המשפט הבינלאומי תוך הבעת תמיכה בריאד.",
+    "axis": "דיפלומטי / תימן - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T22:57:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T22:57:29+00:00",
+    "last_update_at": "2026-09-20T14:07:42+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_8a52cb8737eb3268",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
+      "published_at": "2026-09-20T14:07:42+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7a42df684671d3a3",
+      "url": "https://www.sabanew.net/viewstory/152622",
+      "published_at": "2026-09-19T22:57:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוחה, קטר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09201425-06",
+    "title": "הצהרת איום של חבר הלשכה הפוליטית של החות'ים",
+    "summary": "בכיר החות'ים חאזם אל-אסד התייחס לתקיפה בריאד, טען כי סעודיה מחמירה את מעשיה נגד העם התימני, ואיים כי הבאות יהיו גדולות יותר.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T14:21:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T14:21:41+00:00",
+    "last_update_at": "2026-09-19T14:25:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47831",
+      "published_at": "2026-09-19T14:21:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מידת הנזק המדויקת בשדה התעופה הבינלאומי בריאד והאם מאגר דלק ספציפי הושמד.",
+   "הסיבה המדויקת והרשמית לחזרתו המוקדמת של הנשיא טראמפ מקמפ דיוויד לבית הלבן.",
+   "טענת החות'ים בדבר שריפות ענק במתקני חברת ארמקו בעיר ינבוע.",
+   "שמו ומיקומו המדויק של האי האסטרטגי בים האדום שעליו השתלטו החות'ים לפי דיווחי סי-אן-אן."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת החות'ים (אנצאר אללה)",
+    "declared": [
+     "פגיעה באתרים רגישים ובמתקני אנרגיה בסעודיה בתגובה למצור ולתוקפנות נגד העם התימני.",
+     "אכיפת מצור ימי נגד סעודיה שהוכרז בחודש יולי."
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי על סעודיה כדי לכפות עליה ויתורים ולהרתיעה מהתערבות בתימן.",
+     "ביסוס שליטה מוחלטת בנתיבי השיט בבאב אל-מנדב ובים האדום כקלף מיקוח אזורי."
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור של טילים וכטב\"מים לעומק שטח סעודיה.",
+     "הגברת האיומים על תנועת כלי שיט בים האדום וניסיונות להרחיב את השליטה בחופי תימן."
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על ריבונות הממלכה, ביטחונה ונכסיה האזרחיים והכלכליים.",
+     "סיכול מתקפות טילים וכטב\"מים ויירוטם."
+    ],
+    "inferred": [
+     "בלימת ההתקדמות של החות'ים בתימן ומניעת קריסת כוחות הממשלה הנתמכים על ידה.",
+     "גיוס תמיכה צבאית וטכנולוגית מבעלות ברית דוגמת ארה\"ב וטורקיה ללא היגררות למערכה יבשתית רחבה."
+    ],
+    "forecast": [
+     "הוצאה לפועל של תקיפות תגובה משמעותיות נגד מטרות חות'יות בתימן.",
+     "הידוק שיתוף הפעולה הביטחוני עם טורקיה במסגרת ההסכם המשולש עקב היעדר מעורבות אמריקאית ישירה."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "אזהרה מפני הסלמה מהירה באזור והגנה על אזרחים אמריקאים באמצעות התרעות מסע.",
+     "חיזוק יכולות ההרתעה הסעודיות באמצעות עסקאות נשק ואספקת מודיעין."
+    ],
+    "inferred": [
+     "הימנעות ממעורבות צבאית ישירה מחודשת ומתקיפות בתימן חרף הפצרות מצד ריאד.",
+     "שמירה על נתיבי השיט הבינלאומיים ומחירי הנפט ללא כניסה לעימות כולל."
+    ],
+    "forecast": [
+     "המשך אספקת מודיעין וסיוע באמצעי הגנה לסעודיה לצד הימנעות מפעולה התקפית יזומה בתימן."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152622",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130511",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47831",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hjq46gpygg",
+    "accessed_at": "2026-09-20T14:25:13+00:00"
+   }
+  ]
+ }
+}

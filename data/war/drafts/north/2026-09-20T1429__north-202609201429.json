@@ -1,0 +1,319 @@
+{
+ "status": "draft",
+ "received_sha256_12": "98939076ca9e",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-20T14:29:09+00:00",
+  "window": {
+   "from": "2026-09-19T14:29:09+00:00",
+   "to": "2026-09-20T14:29:09+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609201429"
+  },
+  "summary": "הגזרה הצפונית רוויה בעימותים צבאיים הכוללים תקיפות ארטילריות ואוויריות ישראליות בדרום לבנון ובאזור הגבול בסוריה, לצד פעילות של חיזבאללה והיערכות בינלאומית לקראת נסיגת כוח יוניפי\"ל. ישראל פועלת צבאית נגד תשתיות צבאיות בדרום לבנון ובסוריה, בעוד שגורמים לבנוניים רשמיים ודתיים מביעים התנגדות להפיכת דרום המדינה לזירת מיקוח ודורשים פתרונות דיפלומטיים שיבטיחו את ריבונותה.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה - תקיפות ארטילריות, אוויריות ופעילות הנדסית של צה\"ל לצד עימותים עם חיזבאללה"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה - תקיפות נקודתיות של צה\"ל על תשתיות צבאיות בגבול"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09201429-01",
+    "title": "ירי ארטילרי ישראלי ופעולות הנדסיות בדרום לבנון",
+    "summary": "התקפות ארטילריות, פיצוצים וירי מכונות ירייה בוצעו במספר מוקדים בדרום לבנון על ידי צבא ישראל.",
+    "axis": "ישראל-לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T08:33:11+00:00",
+    "last_update_at": "2026-09-20T13:06:57+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק והנפגעים בכל מוקד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129247/",
+      "published_at": "2026-09-20T13:06:57+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129152/",
+      "published_at": "2026-09-20T08:33:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יוחמור א-שקיף, לבנון",
+      "lat": 33.3124,
+      "lon": 35.5177
+     },
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "כפר תבניתי, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09201429-02",
+    "title": "תקיפות אוויריות בנבטיה",
+    "summary": "שני מטוסי קרב ישראליים תקפו את העיר נבטיה, ותקיפה נוספת מכוונת לעבר צוות אמבולנס שהגיע לטפל באירוע.",
+    "axis": "ישראל-לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T04:29:24+00:00",
+    "last_update_at": "2026-09-20T04:29:24+00:00",
+    "what_is_not_verified": "זהות הנפגעים המלאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-target-lebanons-nabatieh-ambulance-team",
+      "published_at": "2026-09-20T04:29:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה, לבנון",
+      "lat": 33.3812,
+      "lon": 35.4825
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09201429-03",
+    "title": "פיצוץ מוצב של צבא אסד בהר החרמון",
+    "summary": "צה\"ל פוצץ …",
+    "axis": "ישראל-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T11:53:17+00:00",
+    "last_update_at": "2026-09-20T11:53:17+00:00",
+    "what_is_not_verified": "פרטים מלאים על מצב המוצב קודם לפיצוץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130550",
+      "published_at": "2026-09-20T11:53:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הר החרמון, סוריה",
+      "lat": 33.4169,
+      "lon": 35.8564
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09201429-04",
+    "title": "פציעת שני לוחמים ממוקש בנחל סלוקי",
+    "summary": "שני לוחמים נפצעו באורח קל עד בינוני מפגיעת מטען סמוך לנחל סלוקי בנבטיה.",
+    "axis": "ישראל-לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-19T14:15:26+00:00",
+    "last_update_at": "2026-09-19T14:29:09+00:00",
+    "what_is_not_verified": "לא מאומתים פרטים נוספים על נסיבות הנחת המטען",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94376",
+      "published_at": "2026-09-19T14:15:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09201429-05",
+    "title": "קבלת משלוח תחמושת אמריקאי בצבא לבנון",
+    "summary": "הצבא הלבนוני הודיע על קבלת 70 מכולות של תחמושת מסוגים שונים בנמל ביירות במסגרת תוכנית הסיוע הצבאי של ארצות הברית.",
+    "axis": "ישראל-לבנון וחיזבאללה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T04:48:53+00:00",
+    "last_update_at": "2026-09-20T04:48:53+00:00",
+    "what_is_not_verified": "לוחות הזמנים המלאים של הפצת התחמושת ליחידות השונות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb73e82a943450c5",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/958692/lebanese-army-receives-70-containers-of-ammunition-under-us-aid-progra/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958692",
+      "published_at": "2026-09-20T04:48:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל ביירות, לבנון",
+      "lat": 33.9008,
+      "lon": 35.5022
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09201429-06",
+    "title": "הצהרת יוניפי\"ל על נסיגה מתוכננת",
+    "summary": "מפקד כוח היוניפי\"ל בדרום לבנון הצהיר על חשיבות המעבר החלק של המשימה לכוחות צבא לבנון ולסוכנויות האו\"ם לקראת סיום המנדט ונסיגת הכוח בסוף השנה.",
+    "axis": "ישראל-לבנון וחיזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-19T14:46:32+00:00",
+    "last_update_at": "2026-09-19T17:34:53+00:00",
+    "what_is_not_verified": "היכולת המעשית של צבא לבנון לקחת לידיו את כל המוצבים הנמצאים כיום בשליטה ישראלית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "tk_7a817cbec364e8fb",
+      "url": "https://www.newarab.com/news/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+      "published_at": "2026-09-19T17:34:53+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "tk_7a817cbec364e8fb",
+      "url": "https://www.al-monitor.com/originals/2026/09/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+      "published_at": "2026-09-19T14:46:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "המטרות המדויקות של ישראל בבקשת ציוד צבאי נוסף מארצות הברית כפיצוי",
+   "היכולת המלאה של צבא לבנון למלא את ריק הביטחון לאחר נסיגת יוניפי\"ל בסוף השנה",
+   "פרטים מלאים על מצב העצורים הזרים בסוריה במסגרת חילופי השלטון והמשפטים המתנהלים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת בגבול הצפון",
+     "הגנה על יישובי הצפון ורמת הגולן"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה",
+     "מניעת כוח חלופי עוין שימלא את מקומו של יוניפי\"ל בצורה שתסכן את ביטחון ישראל"
+    ],
+    "forecast": [
+     "המשך התקיפות הנקודתיות והפעילות ההנדסית בגבולות סוריה ולבנון",
+     "דרישה להסדרים ביטחוניים קשיחים שימנעו התעצמות חיזבאללה בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה וגורמים רשמיים בלבנון",
+    "declared": [
+     "התנגדות לשימוש בדרום לבנון כקלף מיקוח",
+     "דרישה להגנה על ריבונות לבנון ואדמתה"
+    ],
+    "inferred": [
+     "הישענות על צבא לבנון ועל סיוע חוץ כדי לשמור על מעמדם מול הפעילות הישראלית",
+     "ניסיון למנוע וואקום שלטוני מוחלט בדרום עם נסיגת כוחות האו\"ם"
+    ],
+    "forecast": [
+     "המשך הלחימה וההתנגדות לנוכחות הישראלית בדרום לבנון",
+     "מאבק דיפלומטי ומדיני למציאת מנגנון שיחליף את יוניפי\"ל מבלי לפגוע בריבונות לבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/129152/",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/958692/lebanese-army-receives-70-containers-of-ammunition-under-us-aid-progra/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958692",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-target-lebanons-nabatieh-ambulance-team",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/un-peacekeeping-chief-lebanon-says-smooth-transition-critical-pull-out",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130550",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94376",
+    "accessed_at": "2026-09-20T14:29:09+00:00"
+   }
+  ]
+ }
+}
