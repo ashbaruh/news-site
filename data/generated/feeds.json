@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T12:17:29+00:00",
-  "fetched_at": "2026-09-21T12:17:29+00:00"
+  "checked_at": "2026-09-21T13:17:09+00:00",
+  "fetched_at": "2026-09-21T13:17:09+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T12:17:39+00:00",
-  "fetched_at": "2026-09-21T12:17:39+00:00"
+  "checked_at": "2026-09-21T13:17:18+00:00",
+  "fetched_at": "2026-09-21T13:17:18+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T12:17:40+00:00",
-  "fetched_at": "2026-09-21T12:17:40+00:00"
+  "checked_at": "2026-09-21T13:17:18+00:00",
+  "fetched_at": "2026-09-21T13:17:18+00:00"
  },
- "generated_at": "2026-09-21T12:17:40+00:00",
+ "generated_at": "2026-09-21T13:17:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -100,11 +100,6 @@
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -172,6 +167,11 @@
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T12:17:30+00:00",
-  "fetched_at": "2026-09-21T12:17:30+00:00"
+  "checked_at": "2026-09-21T13:17:10+00:00",
+  "fetched_at": "2026-09-21T13:17:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T12:17:31+00:00",
-  "fetched_at": "2026-09-21T12:17:31+00:00"
+  "checked_at": "2026-09-21T13:17:11+00:00",
+  "fetched_at": "2026-09-21T13:17:11+00:00"
  },
  "tv": {
   "data": [
@@ -2100,8 +2100,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T12:17:32+00:00",
-  "fetched_at": "2026-09-21T12:17:32+00:00"
+  "checked_at": "2026-09-21T13:17:12+00:00",
+  "fetched_at": "2026-09-21T13:17:12+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2206,8 +2206,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T12:17:32+00:00",
-  "fetched_at": "2026-09-21T12:17:32+00:00"
+  "checked_at": "2026-09-21T13:17:12+00:00",
+  "fetched_at": "2026-09-21T13:17:12+00:00"
  },
  "ai": {
   "data": {
@@ -2229,7 +2229,7 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 4,
+   "candidates": 3,
    "failed_sources": [],
    "tools": [
     {
@@ -2250,15 +2250,22 @@
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 106,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Laya Demo",
@@ -2268,17 +2275,10 @@
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 105,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 107,
+     "likes": 108,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2305,8 +2305,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T12:17:38+00:00",
-  "fetched_at": "2026-09-21T12:17:38+00:00"
+  "checked_at": "2026-09-21T13:17:18+00:00",
+  "fetched_at": "2026-09-21T13:17:18+00:00"
  },
  "abroad": {
   "data": {
@@ -2649,7 +2649,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T12:17:35+00:00",
-  "fetched_at": "2026-09-21T12:17:35+00:00"
+  "checked_at": "2026-09-21T13:17:14+00:00",
+  "fetched_at": "2026-09-21T13:17:14+00:00"
  }
 }
