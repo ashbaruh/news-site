@@ -1,5 +1,5 @@
 {
- "at": "2026-09-21T09:24:15+00:00",
- "ok": true,
- "msg": "עדכון ביניים 12:00: iran 2, north 2, ukraine 3, yemen 3"
+ "at": "2026-09-21T14:51:26+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: Expecting ',' delimiter: line 195 column 27 (char 5749)"
 }
