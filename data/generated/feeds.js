@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:05:11+00:00",
-  "fetched_at": "2026-09-21T17:05:11+00:00"
+  "checked_at": "2026-09-21T17:17:16+00:00",
+  "fetched_at": "2026-09-21T17:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:05:19+00:00",
-  "fetched_at": "2026-09-21T17:05:19+00:00"
+  "checked_at": "2026-09-21T17:17:24+00:00",
+  "fetched_at": "2026-09-21T17:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:05:19+00:00",
-  "fetched_at": "2026-09-21T17:05:19+00:00"
+  "checked_at": "2026-09-21T17:17:24+00:00",
+  "fetched_at": "2026-09-21T17:17:24+00:00"
  },
- "generated_at": "2026-09-21T17:05:19+00:00",
+ "generated_at": "2026-09-21T17:17:24+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
+     "date": "2026-09-21T16:36:00+00:00"
+    },
     {
      "title": "סכסוך ענק במגדל היוקרה בתל אביב: תביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
@@ -174,11 +179,6 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
-     "date": "2026-09-19T05:33:00+00:00"
-    },
-    {
      "title": "היזם שמציע איים למכירה. המחיר: החל מ-50 אלף דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555547",
      "date": "2026-09-19T05:00:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:05:12+00:00",
-  "fetched_at": "2026-09-21T17:05:12+00:00"
+  "checked_at": "2026-09-21T17:17:17+00:00",
+  "fetched_at": "2026-09-21T17:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:05:13+00:00",
-  "fetched_at": "2026-09-21T17:05:13+00:00"
+  "checked_at": "2026-09-21T17:17:18+00:00",
+  "fetched_at": "2026-09-21T17:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:05:14+00:00",
-  "fetched_at": "2026-09-21T17:05:14+00:00"
+  "checked_at": "2026-09-21T17:17:19+00:00",
+  "fetched_at": "2026-09-21T17:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,16 +2208,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:05:14+00:00",
-  "fetched_at": "2026-09-21T17:05:14+00:00"
+  "checked_at": "2026-09-21T17:17:19+00:00",
+  "fetched_at": "2026-09-21T17:17:19+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
-   "failed_sources": [
-    "גיקטיים"
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
+     "date": "2026-09-20T06:51:39+00:00",
+     "launch": false,
+     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+    }
    ],
+   "candidates": 2,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2244,7 +2250,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2292,8 +2298,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:05:17+00:00",
-  "fetched_at": "2026-09-21T17:05:17+00:00"
+  "checked_at": "2026-09-21T17:17:24+00:00",
+  "fetched_at": "2026-09-21T17:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2634,7 +2640,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:05:16+00:00",
-  "fetched_at": "2026-09-21T17:05:16+00:00"
+  "checked_at": "2026-09-21T17:17:21+00:00",
+  "fetched_at": "2026-09-21T17:17:21+00:00"
  }
 };
