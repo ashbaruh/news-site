@@ -337,6 +337,9 @@ def source_groups(sources_js_text):
     return groups
 
 
+IDF_GROUP = "official_il"
+
+
 def assess(event, groups):
     reports = event.get("reports") or []
     roots = {r.get("source_root_id") for r in reports}
@@ -351,8 +354,10 @@ def assess(event, groups):
         return "verified"
     if not reports:
         return "unverified"
+    if len(roots) >= 2 and len(fams) >= 2:
+        return "verified"
+    if IDF_GROUP in fams:            # הודעה רשמית של צה"ל = מאושר (החלטת בעל האתר, 21/09/2026)
+        return "verified"
     if len(reports) == 1:
         return "initial"
-    if len(roots) < 2 or len(fams) < 2:
-        return "shared_root"
-    return "verified"
+    return "shared_root"

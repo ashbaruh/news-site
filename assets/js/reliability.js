@@ -10,6 +10,8 @@
 
 window.Reliability = (function () {
 
+  var IDF_GROUP = 'official_il';
+
   function sourceById(id) {
     return (window.DB.sources || []).find(function (s) { return s.id === id; });
   }
@@ -72,6 +74,10 @@ window.Reliability = (function () {
     var rootCount  = Object.keys(roots).length;
     var groupCount = Object.keys(groups).length;
 
+    // הודעה רשמית של צה"ל (דובר צה"ל / הערוץ הרשמי בטלגרם) = מאושר (החלטת בעל האתר, 21/09/2026).
+    // מסומן "אושר ע"י צה"ל" — לא "אומת ב-N מקורות", כדי שיהיה ברור על מה האישור מבוסס.
+    var idf = reports.some(function (r) { var s = sourceById(r.source_id); return s && s.independence_group === IDF_GROUP; });
+
     var blocked = reports.filter(function (r) { return !isDisplayable(sourceById(r.source_id)); });
 
     var base = {
@@ -107,6 +113,12 @@ window.Reliability = (function () {
     if (reports.length === 0) {
       return merge(base, { level: 'unverified', label: 'ללא מקור',
         reason: 'אין דיווח מקושר.' });
+    }
+
+    /* --- פחות משני מקורות עצמאיים, אבל צה"ל הודיע --- */
+    if (idf && (rootCount < 2 || groupCount < 2)) {
+      return merge(base, { level: 'verified', label: 'אושר ע"י צה"ל',
+        reason: 'הודעה רשמית של צה"ל.' });
     }
 
     /* --- מקור אחד בלבד --- */

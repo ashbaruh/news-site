@@ -83,6 +83,15 @@ class Contract(unittest.TestCase):
         self.assertEqual(wc.assess(d["events"][0], GROUPS), "verified")
         self.assertEqual(wc.assess(d["events"][1], GROUPS), "shared_root")   # כשל מקור משותף
 
+    def test_idf_official_counts_as_verified(self):
+        # החלטת בעל האתר (21/09/2026): הודעה רשמית של צה"ל = מאושר, גם לבד. ערוץ טלגרם אחר לבד — לא.
+        def ev(sid):
+            return {"claim_type": "incident", "lifecycle": "active",
+                    "reports": [{"source_id": sid, "source_root_id": "r1", "url": "https://t.me/x/1"}]}
+        self.assertEqual(wc.assess(ev("src_tg_idf"), GROUPS), "verified")
+        self.assertEqual(wc.assess(ev("src_idf_spox"), GROUPS), "verified")
+        self.assertEqual(wc.assess(ev("src_tg_carmel"), GROUPS), "initial")
+
     # ---- הבינה לא קובעת "מאומת" ----
     def test_ai_cannot_declare_verified(self):
         d = sample(); d["events"][1]["level"] = "verified"
