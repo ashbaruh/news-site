@@ -530,6 +530,7 @@ footer.site a { color: var(--accent); }
 .msg > summary::-webkit-details-marker { display: none; }
 .msg > summary:hover { background: #222a3a; }
 .msg-ttl { font-weight: 600; margin-inline-start: 6px; }
+.msg-arena { font-size: 11.5px; color: var(--accent); border: 1px solid #1d3b5c; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .msg-time { display: block; text-align: left; font-size: 11.5px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
 .msg[open] > summary { border-bottom: 1px solid var(--line); }
 .msg-body { padding: 8px 13px 11px; }
@@ -553,5 +554,6 @@ footer.site a { color: var(--accent); }
   .msg-ttl { font-size: 17px; }
   .msg-time, .feed-day { font-size: 13px; }
   .msg-why, .msg-src { font-size: 15px; }
+  .msg-arena { font-size: 13px; }
   .deep-box > summary { font-size: 17px; }
 }

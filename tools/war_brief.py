@@ -34,7 +34,7 @@ LEAD_MIN = 20                 # מתחילים 20 דקות לפני המועד �
 MAX_PER_ARENA = 3
 ITEMS_PER_ARENA = 15
 TEXT_PER_ITEM = 450
-ISRAELI_MAINSTREAM = {"src_ynet", "src_maariv", "src_israelhayom"}
+ISRAELI_MAINSTREAM = {"src_ynet", "src_maariv", "src_israelhayom", "src_walla"}
 MAX_ISRAELI = 2
 BRIEF = os.path.join(ROOT, "data", "war", "brief.js")
 

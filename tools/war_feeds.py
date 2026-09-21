@@ -23,7 +23,9 @@ IRAN_HE = ["איראן", "איראני", "טהרן", "משמרות המהפכה"
 UKRAINE_HE = ["אוקראינ", "קייב", "זלנסקי", "פוטין", "הקרמלין", "דונבאס", "חרקוב"]
 YEMEN_HE = ["תימן", "חות'י", "חותי", "צנעא", "חודיידה", "ים סוף", "באב אל-מנדב"]
 NORTH_HE = ["חיזבאללה", "לבנון", "ביירות", "ליטני", "סוריה", "סורי", "דמשק", "טורקיה", "ארדואן",
-            "רמת הגולן", "יוניפי\"ל", "א-שרע", "כורדי"]
+            "רמת הגולן", "יוניפי\"ל", "א-שרע", "כורדי",
+            # יישובי גבול — ערוץ צה"ל כותב "התרעות במלכיה" בלי המילה "לבנון" (21/09/2026)
+            "גבול הצפון", "קו העימות", "הגליל העליון", "קריית שמונה", "מטולה", "מלכיה", "שלומי"]
 
 # ערבית — לסוכנות סבא (תימן), שמפרסמת גם חדשות פנים שלא קשורות למלחמה
 YEMEN_AR = ["الحوثي", "حوثي", "صنعاء", "الحديدة", "البحر الأحمر", "باب المندب", "الميليشيا", "مليشيا", "إيران"]
@@ -32,14 +34,19 @@ YEMEN_AR = ["الحوثي", "حوثي", "صنعاء", "الحديدة", "الب�
 TELEGRAM = [("src_tg_abualiexpress", "https://t.me/s/abualiexpress"),
             ("src_tg_geostrategy", "https://t.me/s/GeoStrategyIL"),
             ("src_tg_carmel", "https://t.me/s/alexmehacarmel"),
-            ("src_tg_lelotsenzura", "https://t.me/s/lelotsenzura")]
+            ("src_tg_lelotsenzura", "https://t.me/s/lelotsenzura"),
+            # צה"ל — הערוץ הרשמי בעברית (נוסף 21/09/2026, בקשת בעל האתר: "מה הצבא מבצע").
+            # דובר רשמי = צד מעוניין: לבד לא יהפוך אירוע ל"מאומת" (אותה משפחה כמו src_idf_spox).
+            ("src_tg_idf", "https://t.me/s/idf_telegram")]
 
 
 # תקשורת ישראלית בעברית — כל הזירות, לפי מילים בעברית
 def israeli(words):
     return [("src_ynet", "https://www.ynet.co.il/Integration/StoryRss2.xml", words),
             ("src_maariv", "https://www.maariv.co.il/Rss/RssFeedsMivzakiChadashot", words),
-            ("src_israelhayom", "https://www.israelhayom.co.il/rss.xml", words)]
+            ("src_israelhayom", "https://www.israelhayom.co.il/rss.xml", words),
+            # וואלה "צבא וביטחון" — פעולות צה"ל (נוסף 21/09/2026)
+            ("src_walla", "https://rss.walla.co.il/feed/2689", words)]
 
 
 def telegram(words):

@@ -141,8 +141,10 @@
      לכל זירה: ניתוח מאושר מהבינה הפרטית (data/war/published.js) אם יש.
      תצוגה בסגנון ערוץ טלגרם (בקשת בעל האתר, 21/09/2026): כל אירוע = הודעה קצרה,
      לחיצה פותחת פירוט. הניתוח המעמיק והמפה — בלשונית סגורה אחת, נפתחים רק לפי בקשה.
+     לשונית "הכל" (ברירת המחדל): 3 ההודעות האחרונות מכל זירה, עם תג הזירה.
      ============================================================ */
-  var activeArena = null;
+  var activeArena = 'all';
+  var ALL_PER_ARENA = 3;
 
   function publishedFor(arenaId) {
     var p = window.DB.war_published || {};
@@ -160,17 +162,24 @@
   }
 
   function renderWars() {
-    if (!activeArena) {
-      var firstPublished = C.arenas.filter(function (a) { return publishedFor(a.id); })[0];
-      activeArena = firstPublished ? firstPublished.id : 'iran';
-    }
-    var arena = C.arenas.filter(function (a) { return a.id === activeArena; })[0] || C.arenas[0];
-    var pub = publishedFor(arena.id);
+    var arena = activeArena === 'all' ? null : (C.arenas.filter(function (a) { return a.id === activeArena; })[0] || null);
+    if (!arena) activeArena = 'all';
 
-    var tabs = C.arenas.map(function (a) {
-      return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (a.id === arena.id ? 'active' : '') +
-             (publishedFor(a.id) ? '' : ' empty') + '">' + esc(a.name) + '</button>';
-    }).join('');
+    var tabs = '<button type="button" data-arena="all" class="' + (arena ? '' : 'active') + '">הכל</button>' +
+      C.arenas.map(function (a) {
+        return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (arena && a.id === arena.id ? 'active' : '') +
+               (publishedFor(a.id) ? '' : ' empty') + '">' + esc(a.name) + '</button>';
+      }).join('');
+
+    if (!arena) {
+      var all = allFeed();
+      $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars',
+        '<div class="arena-tabs">' + tabs + '</div><div class="feed">' +
+        (all || '<p class="locked">אין עדיין ידיעות.</p>') + '</div>', true, warsState());
+      bindWarTabs();
+      return;
+    }
+    var pub = publishedFor(arena.id);
 
     var html = '<div class="arena-tabs">' + tabs + '</div><div class="feed">' + briefStrip(arena.id, pub);
     if (pub) {
@@ -351,15 +360,35 @@
 
   /* עדכון ביניים (04:00 / 12:00 / 18:00): עד 3 ידיעות מהשעות האחרונות, מעל הניתוח היומי.
      מוצג רק אם הוא חדש מהניתוח היומי ובן פחות מ-14 שעות. */
-  function briefStrip(arenaId, pub) {
+  function freshBrief(arenaId, pub) {
     var b = window.DB.war_brief || {};
     var a = b.arenas && b.arenas[arenaId];
-    if (!a || !a.events || !a.events.length || !b.generated_at) return '';
+    if (!a || !a.events || !a.events.length || !b.generated_at) return null;
     var gen = new Date(b.generated_at).getTime();
-    if (!(gen > 0) || Date.now() - gen > 14 * 3600000) return '';
-    if (pub && new Date(pub.analysis.generated_at).getTime() >= gen) return '';
-    return '<div class="feed-day brief">⚡ עדכון ' + F.ltr(F.hhmm(b.slot || b.generated_at)) + '</div>' +
-      a.events.slice(0, 3).map(function (ev) { return msg(ev, R.assess(ev)); }).join('');
+    if (!(gen > 0) || Date.now() - gen > 14 * 3600000) return null;
+    if (pub && new Date(pub.analysis.generated_at).getTime() >= gen) return null;
+    return { slot: b.slot || b.generated_at, events: a.events.slice(0, 3) };
+  }
+
+  function briefStrip(arenaId, pub) {
+    var fb = freshBrief(arenaId, pub);
+    return !fb ? '' : '<div class="feed-day brief">⚡ עדכון ' + F.ltr(F.hhmm(fb.slot)) + '</div>' +
+      fb.events.map(function (ev) { return msg(ev, R.assess(ev)); }).join('');
+  }
+
+  /* לשונית "הכל": מכל זירה 3 ההודעות האחרונות (עדכון ביניים + ניתוח יומי), ממוינות יחד — החדשה למעלה */
+  function allFeed() {
+    var rows = [];
+    C.arenas.forEach(function (ar) {
+      var pub = publishedFor(ar.id), fb = freshBrief(ar.id, pub), seen = {};
+      ((fb ? fb.events : []).concat(pub ? pub.analysis.events : []))
+        .filter(function (ev) { if (seen[ev.id]) return false; seen[ev.id] = 1; return true; })
+        .sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); })
+        .slice(0, ALL_PER_ARENA)
+        .forEach(function (ev) { rows.push({ ev: ev, ar: ar }); });
+    });
+    return rows.sort(function (x, y) { return new Date(y.ev.last_update_at) - new Date(x.ev.last_update_at); })
+      .map(function (o) { return msg(o.ev, R.assess(o.ev), o.ar.short || o.ar.name); }).join('');
   }
 
   /* הודעות הניתוח — החדשה למעלה */
@@ -370,7 +399,7 @@
   }
 
   /* הודעה אחת: סגורה = תג אימות + כותרת + שעה. פתוחה = תמצית, למה הסטטוס, מקורות. */
-  function msg(ev, a) {
+  function msg(ev, a, arenaTag) {
     var seen = {};
     var links = a.reports.map(function (r) {
       var s = R.sourceById(r.source_id);
@@ -396,6 +425,7 @@
       '<summary>' +
         '<span class="badge ' + esc(a.level) + '">' + esc(a.label) + '</span>' +
         (dg ? ' <span class="badge downgraded">האימות בוטל</span>' : '') +
+        (arenaTag ? ' <span class="msg-arena">' + esc(arenaTag) + '</span>' : '') +
         '<span class="msg-ttl">' + esc(ev.title) + '</span>' +
         (ev.last_update_at ? '<span class="msg-time">' + F.dateTimeText(ev.last_update_at) + '</span>' : '') +
       '</summary>' +

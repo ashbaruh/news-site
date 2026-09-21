@@ -244,6 +244,11 @@ window.DB.sources = [
     license_mode: 'link_only', independence_group: 'tg_lelotsenzura',
     note: 'ערוץ דיווחים מהירים — לא מאומת; דיווח ממנו נשאר "ראשוני" עד שמקור עצמאי מאשר.'
   },
+  {
+    id: 'src_tg_idf', name: 'צה"ל (טלגרם)', kind: 'דובר רשמי',
+    license_mode: 'link_only', independence_group: 'official_il',
+    note: 'הערוץ הרשמי של צה"ל. צד מעוניין — מתאים ל"מה צה"ל הודיע", לא לבד כאימות (אותה משפחה כמו דובר צה"ל).'
+  },
   /* ---------- מקורות נתונים אמיתיים (שלב 2) ---------- */
   {
     id: 'src_coingecko', name: 'CoinGecko', kind: 'API נתוני קריפטו',
