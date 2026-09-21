@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T16:17:15+00:00",
-  "fetched_at": "2026-09-21T16:17:15+00:00"
+  "checked_at": "2026-09-21T17:05:11+00:00",
+  "fetched_at": "2026-09-21T17:05:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T16:17:26+00:00",
-  "fetched_at": "2026-09-21T16:17:26+00:00"
+  "checked_at": "2026-09-21T17:05:19+00:00",
+  "fetched_at": "2026-09-21T17:05:19+00:00"
  },
  "av_en": {
   "data": [
@@ -79,27 +79,27 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T16:17:27+00:00",
-  "fetched_at": "2026-09-21T16:17:27+00:00"
+  "checked_at": "2026-09-21T17:05:19+00:00",
+  "fetched_at": "2026-09-21T17:05:19+00:00"
  },
- "generated_at": "2026-09-21T16:17:27+00:00",
+ "generated_at": "2026-09-21T17:05:19+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "החוקר שבדק 850 בני מאה בחיפוש אחר הסוד לאריכות ימים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556850",
-     "date": "2026-09-20T12:30:00+00:00"
+     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
+     "date": "2026-09-21T16:36:00+00:00"
     },
     {
-     "title": "גם כוחות מיוחדים: תגבור משמעותי של צה\"ל ברצועה ביום הכיפורים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556948",
-     "date": "2026-09-20T13:45:00+00:00"
+     "title": "למרות בקשת יורש העצר: טראמפ עצר מתקפה נגד החות'ים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556955",
+     "date": "2026-09-21T16:59:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
+     "title": "סכסוך ענק במגדל היוקרה בתל אביב: תביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T16:17:17+00:00",
-  "fetched_at": "2026-09-21T16:17:17+00:00"
+  "checked_at": "2026-09-21T17:05:12+00:00",
+  "fetched_at": "2026-09-21T17:05:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T16:17:18+00:00",
-  "fetched_at": "2026-09-21T16:17:18+00:00"
+  "checked_at": "2026-09-21T17:05:13+00:00",
+  "fetched_at": "2026-09-21T17:05:13+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T16:17:19+00:00",
-  "fetched_at": "2026-09-21T16:17:19+00:00"
+  "checked_at": "2026-09-21T17:05:14+00:00",
+  "fetched_at": "2026-09-21T17:05:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,22 +2208,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T16:17:19+00:00",
-  "fetched_at": "2026-09-21T16:17:19+00:00"
+  "checked_at": "2026-09-21T17:05:14+00:00",
+  "fetched_at": "2026-09-21T17:05:14+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
-     "date": "2026-09-20T06:51:39+00:00",
-     "launch": false,
-     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
-    }
+   "news": [],
+   "candidates": 0,
+   "failed_sources": [
+    "גיקטיים"
    ],
-   "candidates": 2,
-   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2257,7 +2251,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 98,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2278,7 +2272,7 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
@@ -2292,14 +2286,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 94,
+     "likes": 95,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T16:17:26+00:00",
-  "fetched_at": "2026-09-21T16:17:26+00:00"
+  "checked_at": "2026-09-21T17:05:17+00:00",
+  "fetched_at": "2026-09-21T17:05:17+00:00"
  },
  "abroad": {
   "data": {
@@ -2332,19 +2326,82 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "0:0 לחלאילי ופאלאס עם לידס, 3:5 מלהיב למנצ'סטר סיטי",
-     "link": "https://sports.walla.co.il/item/3868863",
-     "date": "2026-09-20T17:58:00+00:00",
-     "source": "וואלה",
+     "title": "דיא סבע אחרי בשיקטאש: אנחנו במקום שמגיע לנו",
+     "link": "https://www.one.co.il/Article/533952.html?ref=rss",
+     "date": "2026-09-21T16:31:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "לצד לברון ודוראנט: הדירוג שאליו נכנס דני אבדיה",
+     "link": "https://www.one.co.il/Article/533963.html?ref=rss",
+     "date": "2026-09-21T16:23:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "ההסבר של הפרמייר ליג לפסילת השער שיצר חלאילי",
+     "link": "https://www.one.co.il/Article/533939.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
      "players": [
       "ענאן חלאילי"
      ]
     },
     {
-     "title": "חלאילי היה מעורב בשער שנפסל ב-0:0 של פאלאס",
-     "link": "https://www.one.co.il/Article/533933.html?ref=rss",
-     "date": "2026-09-20T14:51:00+00:00",
+     "title": "ענאן חלאילי: חשוב שלא ספגנו, נעשה דברים גדולים",
+     "link": "https://www.one.co.il/Article/533964.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
      "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "סבע כבש שער ענק ב-2:3 של אמדספור על בשיקטאש",
+     "link": "https://www.one.co.il/Article/533949.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "\"מעורב תמיד וחכם מאוד\": גורן וברצלונה ב' ניצחו",
+     "link": "https://www.one.co.il/Article/533947.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "אבו פאני הצטיין וכבש, הכוכב האדום ניצחה 0:3",
+     "link": "https://www.one.co.il/Article/533951.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מוחמד אבו פאני"
+     ]
+    },
+    {
+     "title": "\"אבדיה מלך החדירות לסל, הדיח את שיי מהכתר\"",
+     "link": "https://www.one.co.il/Article/533974.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "0:0 לחלאילי ופאלאס עם לידס, 3:5 מלהיב למנצ'סטר סיטי",
+     "link": "https://sports.walla.co.il/item/3868863",
+     "date": "2026-09-20T17:58:00+00:00",
+     "source": "וואלה",
      "players": [
       "ענאן חלאילי"
      ]
@@ -2368,77 +2425,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "\"אולי פורטלנד צריכה לתת עדיפות לדני אבדיה\"",
-     "link": "https://www.one.co.il/Article/533925.html?ref=rss",
-     "date": "2026-09-20T10:21:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
      "title": "תאי בריבו: \"מסי ייקח את מלכות השערים. זה לא מעניין אותי\"",
      "link": "https://sports.walla.co.il/item/3869024",
      "date": "2026-09-20T09:15:00+00:00",
      "source": "וואלה",
      "players": [
       "תאי בריבו"
-     ]
-    },
-    {
-     "title": "תורג'מן כיכב עם שני בישולים, עבדה וטוקלומטי גברו על בריבו",
-     "link": "https://sports.walla.co.il/item/3869017",
-     "date": "2026-09-20T08:34:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "תאי בריבו",
-      "ליאל עבדה",
-      "עידן טוקלומטי"
-     ]
-    },
-    {
-     "title": "צפו: אוסקר גלוך בישל, אבל אייאקס שוב פישלה מול אקסלסיור",
-     "link": "https://sports.walla.co.il/item/3868890",
-     "date": "2026-09-19T22:54:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "צפו: דניאל פרץ פספס, הפסד מתסכל לסאות'המפטון בדקה ה-89",
-     "link": "https://sports.walla.co.il/item/3868889",
-     "date": "2026-09-19T18:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
-     "link": "https://www.one.co.il/Article/533845.html?ref=rss",
-     "date": "2026-09-19T13:11:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
-     "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
-     "link": "https://sports.walla.co.il/item/3868820",
-     "date": "2026-09-19T07:46:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T19:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -2642,7 +2634,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T16:17:22+00:00",
-  "fetched_at": "2026-09-21T16:17:22+00:00"
+  "checked_at": "2026-09-21T17:05:16+00:00",
+  "fetched_at": "2026-09-21T17:05:16+00:00"
  }
 };
