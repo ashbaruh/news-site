@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:31:51+00:00",
-  "fetched_at": "2026-09-21T00:31:51+00:00"
+  "checked_at": "2026-09-21T01:17:17+00:00",
+  "fetched_at": "2026-09-21T01:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:32:03+00:00",
-  "fetched_at": "2026-09-21T00:32:03+00:00"
+  "checked_at": "2026-09-21T01:17:30+00:00",
+  "fetched_at": "2026-09-21T01:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:32:03+00:00",
-  "fetched_at": "2026-09-21T00:32:03+00:00"
+  "checked_at": "2026-09-21T01:17:30+00:00",
+  "fetched_at": "2026-09-21T01:17:30+00:00"
  },
- "generated_at": "2026-09-21T00:32:03+00:00",
+ "generated_at": "2026-09-21T01:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,11 +98,6 @@ window.DB.generated = {
     }
    ],
    "market": [
-    {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
-    },
     {
      "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
@@ -209,6 +204,11 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:31:52+00:00",
-  "fetched_at": "2026-09-21T00:31:52+00:00"
+  "checked_at": "2026-09-21T01:17:18+00:00",
+  "fetched_at": "2026-09-21T01:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:31:53+00:00",
-  "fetched_at": "2026-09-21T00:31:53+00:00"
+  "checked_at": "2026-09-21T01:17:19+00:00",
+  "fetched_at": "2026-09-21T01:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2018,8 +2018,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:31:54+00:00",
-  "fetched_at": "2026-09-21T00:31:54+00:00"
+  "checked_at": "2026-09-21T01:17:21+00:00",
+  "fetched_at": "2026-09-21T01:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2109,8 +2109,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:31:54+00:00",
-  "fetched_at": "2026-09-21T00:31:54+00:00"
+  "checked_at": "2026-09-21T01:17:21+00:00",
+  "fetched_at": "2026-09-21T01:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -2202,14 +2202,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:32:01+00:00",
-  "fetched_at": "2026-09-21T00:32:01+00:00"
+  "checked_at": "2026-09-21T01:17:29+00:00",
+  "fetched_at": "2026-09-21T01:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2552,7 +2552,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:31:58+00:00",
-  "fetched_at": "2026-09-21T00:31:58+00:00"
+  "checked_at": "2026-09-21T01:17:25+00:00",
+  "fetched_at": "2026-09-21T01:17:25+00:00"
  }
 };
