@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T07:17:23+00:00",
-  "fetched_at": "2026-09-21T07:17:23+00:00"
+  "checked_at": "2026-09-21T08:17:24+00:00",
+  "fetched_at": "2026-09-21T08:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T07:17:34+00:00",
-  "fetched_at": "2026-09-21T07:17:34+00:00"
+  "checked_at": "2026-09-21T08:17:39+00:00",
+  "fetched_at": "2026-09-21T08:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T07:17:35+00:00",
-  "fetched_at": "2026-09-21T07:17:35+00:00"
+  "checked_at": "2026-09-21T08:17:39+00:00",
+  "fetched_at": "2026-09-21T08:17:39+00:00"
  },
- "generated_at": "2026-09-21T07:17:35+00:00",
+ "generated_at": "2026-09-21T08:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -102,6 +102,11 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
+    },
+    {
+     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
+     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -169,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
-     "date": "2026-09-19T05:49:00+00:00"
-    },
-    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T07:17:24+00:00",
-  "fetched_at": "2026-09-21T07:17:24+00:00"
+  "checked_at": "2026-09-21T08:17:25+00:00",
+  "fetched_at": "2026-09-21T08:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1870,8 +1870,9 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-21T07:17:25+00:00",
+  "ok": false,
+  "error": "IncompleteRead(0 bytes read, 90890 more expected)",
+  "checked_at": "2026-09-21T08:17:26+00:00",
   "fetched_at": "2026-09-21T07:17:25+00:00"
  },
  "tv": {
@@ -2101,8 +2102,9 @@ window.DB.generated = {
     "title": "נאנטר - פו אורטז"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-21T07:17:26+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-21T08:17:32+00:00",
   "fetched_at": "2026-09-21T07:17:26+00:00"
  },
  "ligat_haal": {
@@ -2208,8 +2210,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T07:17:26+00:00",
-  "fetched_at": "2026-09-21T07:17:26+00:00"
+  "checked_at": "2026-09-21T08:17:32+00:00",
+  "fetched_at": "2026-09-21T08:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2238,7 +2240,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 452,
+     "likes": 455,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2252,7 +2254,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 146,
+     "likes": 147,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2263,6 +2265,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 101,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
@@ -2270,17 +2279,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 98,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2294,21 +2296,21 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T07:17:32+00:00",
-  "fetched_at": "2026-09-21T07:17:32+00:00"
+  "checked_at": "2026-09-21T08:17:38+00:00",
+  "fetched_at": "2026-09-21T08:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,7 +2653,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T07:17:29+00:00",
-  "fetched_at": "2026-09-21T07:17:29+00:00"
+  "checked_at": "2026-09-21T08:17:34+00:00",
+  "fetched_at": "2026-09-21T08:17:34+00:00"
  }
 };
