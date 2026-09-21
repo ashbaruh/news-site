@@ -1,37 +1,31 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-21T04:00:00+03:00",
- "generated_at": "2026-09-21T01:10:12+00:00",
- "model": "gemini-3.7-flash",
+ "slot": "2026-09-21T12:00:00+03:00",
+ "generated_at": "2026-09-21T09:10:28+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09210110-01",
-     "title": "איראן מזהירה מפני תקיפות אמריקאיות ומאיימת בתגובה ללא הגבלות",
-     "summary": "טהראן הודיעה כי קיבלה מידע על כוונה אמריקאית לבצע תקיפות חדשות והזהירה מתגובה נרחבת נגד בסיסים ואינטרסים.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "statement",
+     "id": "IRAN-09210910-01",
+     "title": "סגירת מרכז תרבות צרפתי בטהראן",
+     "summary": "צרפת הודיעה כי תזמן את שגריר איראן ותנקוט צעדים לאחר שהרשויות באיראן סגרו מרכז לשפה הצרפתית המזוהה עם השגרירות.",
+     "axis": "דיפלומטיה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T06:46:27+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T18:56:45+00:00",
-     "last_update_at": "2026-09-21T00:00:47+00:00",
-     "what_is_not_verified": "המידע המודיעיני האיראני על תקיפה אמריקאית מתוכננת אינו מאומת",
+     "first_reported_at": "2026-09-21T06:46:27+00:00",
+     "last_update_at": "2026-09-21T06:46:27+00:00",
+     "what_is_not_verified": "לא ידוע אילו צעדים מעשיים בדיוק תנקוט צרפת מלבד זימון השגריר",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen?traffic_source=rss",
-       "published_at": "2026-09-21T00:00:47+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
-       "published_at": "2026-09-20T18:56:45+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/09/france-vows-response-after-iran-closes-language-centre-tehran",
+       "published_at": "2026-09-21T06:46:27+00:00"
       }
      ],
      "places": [
@@ -43,65 +37,24 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "IRAN-09210110-02",
-     "title": "צרפת תזמן את שגריר איראן בעקבות סגירת מרכז תרבות בטהראן",
-     "summary": "משרד החוץ הצרפתי הודיע על נקיטת צעדים וזימון השגריר לאחר שהרשויות באיראן סגרו מרכז ללימוד צרפתית.",
-     "axis": "דיפלומטיה ויחסי חוץ",
+     "id": "IRAN-09210910-02",
+     "title": "איומי משמרות המהפכה כלפי ארצות הברית",
+     "summary": "דובר משמרות המהפכה האיראניות הזהיר מפני שינויים משמעותיים בגיאוגרפיה ובאמצעי הלחימה אם ארצות הברית תפתח במתקפות חדשות.",
+     "axis": "צבאי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T20:23:13+00:00",
-     "last_update_at": "2026-09-20T22:06:22+00:00",
-     "what_is_not_verified": "אופי הפעילות הלא חוקית הנטענת על ידי איראן אינו מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/20/france-to-summon-iran-envoy-after-language-centre-closure-in-tehran?traffic_source=rss",
-       "published_at": "2026-09-20T22:06:22+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-take-measures-after-iran-closes-its-cultural-centre-tehran",
-       "published_at": "2026-09-20T20:23:13+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09210110-03",
-     "title": "קטר פועלת לחידוש המשא ומתן בין ארה\"ב לאיראן",
-     "summary": "משרד החוץ הקטרי מסר כי מתווכים פועלים בדילוגים בין הבירות במטרה להביא לחידוש השיחות בין וושינגטון לטהראן.",
-     "axis": "דיפלומטיה ומגעים בינלאומיים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T06:58:39+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-20T19:36:12+00:00",
-     "last_update_at": "2026-09-20T20:18:08+00:00",
-     "what_is_not_verified": "מידת ההתקדמות הממשית במגעים אינה מאומתת",
+     "first_reported_at": "2026-09-21T06:58:39+00:00",
+     "last_update_at": "2026-09-21T06:58:39+00:00",
+     "what_is_not_verified": "האמת על היכולות המבצעיות האמיתיות וטיב האיומים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-pushes-revival-us-iran-talks-warns-against-cycles-escalation",
-       "published_at": "2026-09-20T20:18:08+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
-       "published_at": "2026-09-20T19:36:12+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-warns-significant-changes-if-us-launches-fresh-attacks",
+       "published_at": "2026-09-21T06:58:39+00:00"
       }
      ],
      "places": []
@@ -111,36 +64,24 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-09210110-01",
-     "title": "סדרת פיצוצים באזור הכפרי של חלב בסוריה",
-     "summary": "פיצוצים עזים נרשמו בעיירה אל-עיס שבדרום מחוז חלב, וההגנה האזרחית דיווחה על פצועים וקשיים בהגעת צוותי חילוץ.",
-     "axis": "סוריה - פעילות צבאית וביטחונית",
+     "id": "NORTH-09210910-01",
+     "title": "סדרה של פיצוצים במחסן תחמושת באזור חלב",
+     "summary": "לפחות ארבעה בני אדם נפצעו כתוצאה מסדרת פיצוצים שאירעה במתקן צבאי או מחסן תחמושת בסמוך לעיירה אל-עיס בצפון סוריה.",
+     "axis": "צבאי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-20T22:54:45+00:00",
-     "last_update_at": "2026-09-21T00:19:57+00:00",
-     "what_is_not_verified": "סיבת הפיצוצים המדויקת אינה מאומתת",
+     "occurred_at": "2026-09-21T07:05:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T07:05:01+00:00",
+     "last_update_at": "2026-09-21T07:05:01+00:00",
+     "what_is_not_verified": "הגורם המדויק לפיצוצים טרם התברר",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-syrias-aleppo-result-injuries-civil-defence-says",
-       "published_at": "2026-09-21T00:19:57+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blasts-rock-town-syrias-aleppo",
-       "published_at": "2026-09-20T23:32:01+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/powerful-explosions-reported-in-syrias-aleppo-countryside-state-media/4062834",
-       "published_at": "2026-09-20T22:54:45+00:00"
+       "url": "https://www.newarab.com/news/explosions-aleppo-munitions-depot-northern-syria",
+       "published_at": "2026-09-21T07:05:01+00:00"
       }
      ],
      "places": [
@@ -152,151 +93,121 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "NORTH-09210110-02",
-     "title": "דיווח על ירי ארטילרי ותנועת טנקים בדרום לבנון",
-     "summary": "כלי תקשורת ממלכתיים בלבנון דיווחו כי כוח טנקים התקדם לעבר דיר מימאס וכי ירי ארטילרי גרם לשריפות בשטחים פתוחים.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-09210910-02",
+     "title": "ירי ארטילרי ישראלי באזור דראע",
+     "summary": "ישראל ביצעה ירי ארטילרי ואש מקלעים לעבר עמקים ופאתי כפר במערב מחוז דראע שבסוריה, ללא דיווחים על נפגעים.",
+     "axis": "צבאי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T08:36:20+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T21:16:37+00:00",
-     "last_update_at": "2026-09-20T21:16:37+00:00",
-     "what_is_not_verified": "השימוש בתחמושת זרחן אינו מאומת",
+     "first_reported_at": "2026-09-21T08:36:20+00:00",
+     "last_update_at": "2026-09-21T08:36:20+00:00",
+     "what_is_not_verified": "נסיבות התקיפה המלאות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-southern-lebanon-setting-fields-ablaze-with-phosphorus-munitions/4062820",
-       "published_at": "2026-09-20T21:16:37+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
+       "published_at": "2026-09-21T08:36:20+00:00"
       }
      ],
      "places": [
       {
-       "name": "דיר מימאס, לבנון",
-       "lat": 33.3021,
-       "lon": 35.5467
+       "name": "דראע, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
       }
      ]
-    },
-    {
-     "id": "NORTH-09210110-03",
-     "title": "פיצוץ אתרים צבאיים של המשטר לשעבר בדרום-מערב סוריה",
-     "summary": "הטלוויזיה הסורית דיווחה על פיצוץ מוצבים צבאיים וירי ארטילרי באזור קוניטרה על ידי כוחות ישראליים.",
-     "axis": "ישראל - סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T15:01:29+00:00",
-     "last_update_at": "2026-09-20T15:01:29+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים אינו מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-blow-up-former-regime-military-sites-in-southwestern-syria-shell-quneitra-countryside/4062645",
-       "published_at": "2026-09-20T15:01:29+00:00"
-      }
-     ],
-     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09210110-01",
-     "title": "פגיעות כטב\"מים ושרפות בשלושה מחוזות משנה באזור קייב",
-     "summary": "גל תקיפות כטב\"מים רוסי גרם לשריפות במספר מוקדים באזור קייב.",
-     "axis": "החזית באוקראינה - תקיפות עורף",
+     "id": "UKRAINE-09210910-01",
+     "title": "מתקפות אוליסטיות ורחפנים בלילה שבין ראשון לשני",
+     "summary": "הכוחות הרוסיים שיגרו מאות רחפנים ותקיפות לילה שפגעו במספר אזורים באוקראינה, והותירו הרוגים ופצועים כולל פגיעה במרכז קניות בזפוריז'יה.",
+     "axis": "צבאי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T08:30:06+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T20:38:00+00:00",
-     "last_update_at": "2026-09-20T20:38:00+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים אינם מאומתים",
+     "first_reported_at": "2026-09-21T08:30:06+00:00",
+     "last_update_at": "2026-09-21T08:30:06+00:00",
+     "what_is_not_verified": "מספר הנפגעים הסופי המדויק בכלל האזורים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4166116-fires-break-out-in-three-districts-of-kyiv-region.html",
-       "published_at": "2026-09-20T20:38:00+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-wound-38-across-ukraine-as-overnight-strike-hit-shopping-mall-in-zaporizhzhia/",
+       "published_at": "2026-09-21T08:30:06+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09210910-02",
+     "title": "חתימת הסכמי אנרגיה בין אוקראינה לפולין",
+     "summary": "חברת האנרגיה האוקראינית קבוצת נפטוגז וחברת אורלן הפולנית חתמו על מזכרים לאספקת משאבי אנרגיה וגז טבעי מצומצם לאוקראינה.",
+     "axis": "כלכלה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T08:20:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T08:20:00+00:00",
+     "last_update_at": "2026-09-21T08:20:00+00:00",
+     "what_is_not_verified": "עמידה מלאה בלוחות הזמנים של האספקה בעתיד",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054409/",
+       "published_at": "2026-09-21T08:20:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09210110-02",
-     "title": "זלנסקי וטראמפ סיכמו להיפגש בניו יורק",
-     "summary": "נשיא אוקראינה ונשיא ארה\"ב קיימו שיחת טלפון והסכימו לקיים פגישה רשמית בניו יורק.",
-     "axis": "דיפלומטיה וסיוע בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-09210910-03",
+     "title": "פגיעה במפעלי פלדה אוקראיניים מתקיפות רוסיות",
+     "summary": "תקיפות טילים בליסטיים מצד רוסיה השביתו שלושה ממפעלי הפלדה הגדולים באוקראינה הממוקמים באזורי זפוריז'יה ודניפרופטרובסק.",
+     "axis": "כלכלה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T07:44:46+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T19:28:00+00:00",
-     "last_update_at": "2026-09-20T19:42:47+00:00",
-     "what_is_not_verified": "מועד הפגישה המדויק ופרטי השיחה המלאים אינם מאומתים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/zelensky-trump-to-meet-in-new-york-in-talks-that-could-change-a-lot/",
-       "published_at": "2026-09-20T19:42:47+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4166102-zelensky-and-trump-agree-to-meet-in-new-york.html",
-       "published_at": "2026-09-20T19:28:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ניו יורק, ארצות הברית",
-       "lat": 40.7127,
-       "lon": -74.006
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09210110-03",
-     "title": "סיום ההצבעה בבחירות לפרלמנט הרוסי",
-     "summary": "הסתיימה ההצבעה לבחירות לדומה הממלכתית ברוסיה, כאשר מפלגת השלטון מובילה בספירת הקולות הראשונית.",
-     "axis": "זירה פנים-רוסית",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T23:04:03+00:00",
-     "last_update_at": "2026-09-21T00:50:05+00:00",
-     "what_is_not_verified": "טוהר הליך הבחירות ואמינות התוצאות אינם מאומתים לפי גורמי ביקורת עצמאיים",
+     "first_reported_at": "2026-09-21T07:44:46+00:00",
+     "last_update_at": "2026-09-21T07:44:46+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לטווח הארוך לתעשיית הפלדה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/feature/2026/09/21/russia-held-its-first-state-duma-election-since-the-full-scale-invasion-of-ukraine-officials-say-the-same-five-parties-are-set-to-return-with-the-ruling-party-on-track-to-retain-its-majority",
-       "published_at": "2026-09-21T00:50:05+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/putins-ruling-party-set-to-claim-victory-in-russian-parliamentary-election-in-results-deemed-predetermined/",
-       "published_at": "2026-09-20T23:04:03+00:00"
+       "url": "https://meduza.io/en/news/2026/09/21/russian-strikes-knock-out-three-of-ukraine-s-largest-steel-plants",
+       "published_at": "2026-09-21T07:44:46+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      },
+      {
+       "name": "דניפרופטרובסק, אוקראינה",
+       "lat": 48.468,
+       "lon": 35.0418
       }
      ]
     }
@@ -305,101 +216,73 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09210110-01",
-     "title": "החות'ים הכריזו על משוואת סגר מול סעודיה והבטיחו ביטחון לספינות ארה\"ב",
-     "summary": "הנהגת החות'ים הצהירה על הטלת סגר בתגובה לצעדי ריאד, במקביל למסרים לפיהם כלי שיט אמריקאיים בים האדום לא יותקפו.",
-     "axis": "תימן - סעודיה וארה\"ב",
+     "id": "YEMEN-09210910-01",
+     "title": "איום החות'ים על תשתיות האנרגיה של סעודיה",
+     "summary": "מפקדים בכירים בחות'ים בתימן הזהירו בהצהרה משותפת כי המשך המצור והתקיפות עלולים להוביל לתקיפת תשתיות אנרגיה עמוק בתוך סעודיה ולהרוס את כלכלתה.",
+     "axis": "צבאי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T18:29:18+00:00",
-     "last_update_at": "2026-09-20T21:35:57+00:00",
-     "what_is_not_verified": "קיומן של הבנות ישירות בין ארה\"ב לחות'ים אינו מאומת",
+     "occurred_at": "2026-09-21T08:59:54+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-21T08:59:54+00:00",
+     "last_update_at": "2026-09-21T08:59:54+00:00",
+     "what_is_not_verified": "יכולתם המעשית לממש את האיומים הללו לעומק שטח סעודיה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-declare-blockade-blockade-saudi-assure-us-ships-are-safe",
-       "published_at": "2026-09-20T21:35:57+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-warn-against-joining-saudi-arabia-yemens-civil-war",
-       "published_at": "2026-09-20T18:29:18+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/we-will-destroy-your-economy-houthi-leaders-warn-saudi-arabia-joint",
+       "published_at": "2026-09-21T08:59:54+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-09210110-02",
-     "title": "החות'ים מדווחים על עשרות תקיפות אוויריות סעודיות בתימן",
-     "summary": "הזרוע הצבאית של החות'ים טענה כי חיל האוויר הסעודי ביצע עשרים ושמונה תקיפות במחוזות תעז, אל-ג'וף ומאריב.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T19:29:30+00:00",
-     "last_update_at": "2026-09-20T19:29:30+00:00",
-     "what_is_not_verified": "מספר התקיפות המדויק וסוג המטוסים שפעלו אינם מאומתים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-28-strikes-yemen-over-24-hours",
-       "published_at": "2026-09-20T19:29:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      },
-      {
-       "name": "מאריב, תימן",
-       "lat": 15.4579,
-       "lon": 45.323
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09210110-03",
-     "title": "ארה\"ב הגבילה תנועת עובדי ממשל לשתי ערים בסעודיה",
-     "summary": "מחלקת המדינה של ארה\"ב חייבה אישור מיוחד לנסיעות עובדי ממשל לטאיף וינבוע בשל איומים ביטחוניים מתימן.",
-     "axis": "ארה\"ב - סעודיה",
+     "id": "YEMEN-09210910-02",
+     "title": "חטיבות הענקים בתימן טוענות לפגיעה בכלי רכב חות'יים",
+     "summary": "כוחות חטיבות הענקים המזוהים עם ממשלת תימן דיווחו על השמדת חמישה כלי רכב צבאיים של החות'ים באזור מצר באב אל-מנדב.",
+     "axis": "צבאי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-20T19:26:39+00:00",
-     "last_update_at": "2026-09-20T19:26:39+00:00",
-     "what_is_not_verified": "האיום הספציפי שהוביל להנחיה אינו מפורט ומאומת",
+     "occurred_at": "2026-09-21T03:58:52+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T03:58:52+00:00",
+     "last_update_at": "2026-09-21T03:58:52+00:00",
+     "what_is_not_verified": "המספר המדויק של הנפגעים והאבידות בצד החות'י",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-restricts-state-employee-travel-two-saudi-cities",
-       "published_at": "2026-09-20T19:26:39+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-giants-brigades-claim-attacks-houthi-military-vehicles-say-all",
+       "published_at": "2026-09-21T03:58:52+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "YEMEN-09210910-03",
+     "title": "הריגת אזרחים בתקיפות אוויריות במחוז אל-ג'וף",
+     "summary": "ארבעה אזרחים אזרחיים נהרגו ושלושה נוספים נפצעו בתקיפות אוויריות שכוונו לעבר מגדלי תקשורת במחוז אל-ג'וף בתימן.",
+     "axis": "צבאי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T03:17:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T03:17:00+00:00",
+     "last_update_at": "2026-09-21T03:17:00+00:00",
+     "what_is_not_verified": "זהות אלגורם האחראי המדויק לתקיפה האווירית",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "טאיף, ערב הסעודית",
-       "lat": 21.2703,
-       "lon": 40.4158
-      },
-      {
-       "name": "ינבוע, ערב הסעודית",
-       "lat": 24.089,
-       "lon": 38.0687
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/four-civilians-killed-yemens-al-jawf",
+       "published_at": "2026-09-21T03:17:00+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   }
