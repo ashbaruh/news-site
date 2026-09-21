@@ -1,0 +1,315 @@
+{
+ "status": "draft",
+ "received_sha256_12": "70ff96566b14",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-21T16:41:55+00:00",
+  "window": {
+   "from": "2026-09-20T16:41:55+00:00",
+   "to": "2026-09-21T16:41:55+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609211641"
+  },
+  "summary": "בגזרה הצפונית, ישראל ממשיכה בפעילות צבאית הכוללת תקיפות והפגזות בדרום לבנון ובדרום סוריה (במחוזות דרעא וקוניטרה). במקביל, מתרחשים פיצוצים במתקנים צבאיים בסוריה, ולבנון מקיימת מגעים דיפלומטיים עם קטאר וארצות הברית לחיזוק צבא לבנון ויציבות האזור.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעיל - תקיפות ישראליות ופעילות צבאית לצד מגעים מדיניים"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעיל - תקיפות ישראליות בדרום המדינה ופיצוצים במחסני תחמושת צבאיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09211641-01",
+    "title": "תקיפות באל-עייס בדרום אטרף",
+    "summary": "סדרה של פיצוצים ארעה במחסן תחמושת של צבא סוריה באזור אל-עייס. ארבעה בני אדם נפצעו והכוחות סגרו את הדרכים המובילות לאתר.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T07:00:28+00:00",
+    "last_update_at": "2026-09-21T15:16:03+00:00",
+    "what_is_not_verified": "סיבת הפיצוצים אינה מאומתת והרשויות לא סיפקו הסבר מיידי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/21/poor-storage-or-sabotage-series-of-explosions-in-syria-raises-fears?traffic_source=rss",
+      "published_at": "2026-09-21T15:16:03+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-it-prepared-prolonged-war",
+      "published_at": "2026-09-21T14:00:05+00:00"
+     },
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/09/explosions-rock-aleppo-no-fatalities-reported/",
+      "published_at": "2026-09-21T10:50:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/syrian-ammunition-depot-explodes-fourth-such-blast-month",
+      "published_at": "2026-09-21T10:46:31+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-shake-military-site-aleppo-least-four-injured",
+      "published_at": "2026-09-21T10:42:15+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syrian-ammunition-depot-explodes-fourth-such-blast-month",
+      "published_at": "2026-09-21T07:05:01+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/958845/syrian-ammunition-depot-explodes-in-fourth-such-blast-this-month/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958845",
+      "published_at": "2026-09-21T07:00:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09211641-02",
+    "title": "תקיפות ופעילות צבאית ישראלית בדרום לבנון",
+    "summary": "הפצצות ותקיפות ארטילריה של צבא ישראל בוצעו במספר מוקדים בדרום לבנון ובכלל זה במרכבה, נבטיה אל-פוקא, זוכטאר א-שרקיה ואזורים נוספים.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T10:09:48+00:00",
+    "last_update_at": "2026-09-21T14:23:54+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל אתר ואתר לא פורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129447/",
+      "published_at": "2026-09-21T14:23:54+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/scorched-earth-how-israel-remaking-south-lebanon",
+      "published_at": "2026-09-21T13:49:22+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-fire-hit-several-areas-in-southern-lebanon/4063210",
+      "published_at": "2026-09-21T10:26:57+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-launch-overnight-air-raids-across-southern-lebanon",
+      "published_at": "2026-09-21T10:09:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מרכבה, לבנון",
+      "lat": 33.2314,
+      "lon": 35.5177
+     },
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09211641-03",
+    "title": "תקיפות ופלישות צבא ישראל בדרום סוריה",
+    "summary": "כוחות צבא ישראל ביצעו הפגזות ארטילריה וירי מקלעים לעבר שטחים בדרום סוריה, כולל באזור דרעא וקוניטרה, וכן פשיטה לאזור רסם אל-חלבי.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T08:36:20+00:00",
+    "last_update_at": "2026-09-21T14:00:22+00:00",
+    "what_is_not_verified": "האם היו נפגעים נוספים מעבר לפגיעה בעזים ובאדמות חקלאיות לא דווח באופן מלא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
+      "published_at": "2026-09-21T14:00:22+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129432/",
+      "published_at": "2026-09-21T13:37:57+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
+      "published_at": "2026-09-21T08:36:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09211641-04",
+    "title": "הסכם שיתוף פעולה בין סוריה לאוקראינה בתחום פינוי מוקשים",
+    "summary": "סוריה ואוקראינה חתמו על הסכם שיתוף פעולה בנושא פינוי מוקשים הומניטרי והתמודדות עם שרידי מלחמה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T12:23:19+00:00",
+    "last_update_at": "2026-09-21T12:23:19+00:00",
+    "what_is_not_verified": "לוחות הזמנים המדויקים לביצוע המבצעי של ההסכם טרם פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_dd03e2a59413dcdc",
+      "url": "https://english.enabbaladi.net/archives/2026/09/syria-ukraine-cooperate-on-humanitarian-demining/",
+      "published_at": "2026-09-21T12:23:19+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הסיבה המדויקת לסדרת הפיצוצים במחסני התחמושת בסוריה",
+   "כוונותיה העתידיות של ישראל בנוגע להרחבת הפעילות הקרקעית או השליטה ברכסים בדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0115,
+    "unit": "ILS",
+    "change_pct": -0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות ופעילות של חיזבאללה בדרום לבנון",
+     "אכיפת ריבונות והגנה על גבולות המדינה"
+    ],
+    "inferred": [
+     "המשך אסטרטגיית 'אדמה חרוכה' והשמדת תשתיות צבאיות בדרום לבנון ובדרום סוריה"
+    ],
+    "forecast": [
+     "המשך התקיפות עד להשגת הסדר או שינוי מציאות ביטחונית בשטח"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "חיזוק סמכות המדינה והבטחת שחבר כלי הנשק יישארו בלעדית בידי המדינה",
+     "תמיכה בהמשך הסיוע לצבא לבנון ובנוכחות בינלאומית בדרום המדינה"
+    ],
+    "inferred": [
+     "ניסיון לבלום את ההשלכות ההרסניות של הלחימה באמצעות דיפלומטיה אזורית ובינלאומית"
+    ],
+    "forecast": [
+     "המשך פנייה לגורמים בינלאומיים וערביים לסיוע בשיקום ובמניעת וואקום ביטחוני"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "שיקום הצבא והתמודדות עם שרידי מלחמה ומוקשים באמצעות שיתופי פעולה בינלאומיים"
+    ],
+    "inferred": [
+     "ניסיון להתמודד עם אובדן שליטה או תקלות במחסני אמל\"ח על רקע הפיצוצים החוזרים ונשנים"
+    ],
+    "forecast": [
+     "המשך מאמצי פינוי מוקשים ושיקום תשתיות אזרחיות וצבאיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/21/poor-storage-or-sabotage-series-of-explosions-in-syria-raises-fears?traffic_source=rss",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/129432/",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/syrian-ammunition-depot-explodes-fourth-such-blast-month",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/syria-ukraine-cooperate-on-humanitarian-demining/",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/958845/syrian-ammunition-depot-explodes-in-fourth-such-blast-this-month/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958845",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-launch-overnight-air-raids-across-southern-lebanon",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/scorched-earth-how-israel-remaking-south-lebanon",
+    "accessed_at": "2026-09-21T16:41:55+00:00"
+   }
+  ]
+ }
+}

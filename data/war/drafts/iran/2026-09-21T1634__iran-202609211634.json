@@ -1,0 +1,302 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4c5fe8ab3f45",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 3,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-21T16:34:17+00:00",
+  "window": {
+   "from": "2026-09-20T16:34:17+00:00",
+   "to": "2026-09-21T16:34:17+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609211634"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך כאשר ארה\"ב מפעילה לחץ כלכלי וסנקציות חדשות, ומאיימת לנקוט צעדים נוספים, בעוד איראן ושלוחותיה מאיימות להרחיב את המערכה וממשיכות לשלוט בצמתים אסטרטגיים ימיים. מדינות האזור כמו קטאר ואיחוד האמירויות קוראות למסגרת ביטחונית אזורית חדשה הכוללת את איראן כדי למנוע הידרדרות נוספת.",
+  "fronts": [
+   {
+    "name": "החזית הימית (הורמוז)",
+    "status": "פעילה ומתוחה עם פגיעה בכלי שיט וירידה משמעותית בתנועה"
+   },
+   {
+    "name": "החזית הדיפלומטית והכלכלית",
+    "status": "החרפת סנקציות מצד ארה\"ב וניסיונות גישור אזוריים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09211634-01",
+    "title": "ביטול תקיפה אמריקנית בתימן ברגע האחרון",
+    "summary": "הנשיא האמריקני הורה לפנטגון להצטרף למערכה נגד החות'ים וביטל את התקיפה ברגע האחרון בשל חשש מהסלמה מול איראן.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:13:06+00:00",
+    "last_update_at": "2026-09-21T16:13:06+00:00",
+    "what_is_not_verified": "הפרטים מבוססים על דברי בכירים אמריקנים ולא על הודעה רשמית של הפנטגון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
+      "published_at": "2026-09-21T16:13:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09211634-02",
+    "title": "פגיעה במכלית נפט במצר הורמוז",
+    "summary": "מכלית גפ\"ס נפגעה משברים של קלע לא מוכר במצר הורמוז, והמשיכה בדרכה כשכל אנשי הצוות בטוחים.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T14:03:15+00:00",
+    "last_update_at": "2026-09-21T15:38:46+00:00",
+    "what_is_not_verified": "זהות הקלע הלא מוכר ודפוס הפגיעה המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_47258434404b4fc2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lpg-tanker-hit-debris-unknown-projectile-hormuz",
+      "published_at": "2026-09-21T15:38:46+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_47258434404b4fc2",
+      "url": "https://www.france24.com/en/middle-east/20260921-projectile-hits-tanker-as-it-enters-the-strait-of-hormuz",
+      "published_at": "2026-09-21T14:03:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09211634-03",
+    "title": "ארה\"ב מאיימת לנתק חברות תעופה איראניות ממערכת הדולר",
+    "summary": "מזכיר האוצר האמריקני הזהיר מפני ניתוק משדות תעופה וחברות המספקות שירותים לחברות תעופה איראניות ברחבי העולם.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T11:44:58+00:00",
+    "last_update_at": "2026-09-21T15:18:12+00:00",
+    "what_is_not_verified": "היactual implementation והיקף האכיפה בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_d23e9ec365e0dcb5",
+      "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday?traffic_source=rss",
+      "published_at": "2026-09-21T15:18:12+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_d23e9ec365e0dcb5",
+      "url": "https://www.iranintl.com/en/202609218925",
+      "published_at": "2026-09-21T11:44:58+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09211634-04",
+    "title": "שיחת טלפון בין טראמפ לנשיא תימן",
+    "summary": "נשיא ארה\"ב שוחח עם נשיא תימן שביקש תמיכה צבאית נגד החות'ים, אך מקורות ציינו כי טראמפ לא נתן התחייבות צבאית ישירה.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T14:46:29+00:00",
+    "last_update_at": "2026-09-21T14:46:29+00:00",
+    "what_is_not_verified": "תכנו המלא של השיחה והתחייבויות עתידיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_four_sources_familiar_with_the_matter",
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-call-yemen-president-did-not-pledge-military-support-against-houthis-say",
+      "published_at": "2026-09-21T14:46:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09211634-05",
+    "title": "סגירת מרכז שפה צרפתי בטהראן",
+    "summary": "שלטונות איראן סגרו מרכז תרבות צרפתי המקושר לשגרירות, מה שהוביל להחלטת צרפת לזמן את שגריר איראן.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T06:46:27+00:00",
+    "last_update_at": "2026-09-21T06:46:27+00:00",
+    "what_is_not_verified": "הסיבות הרשמיות והמלאות לסגירה מצד איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_2c187cec5274fa22",
+      "url": "https://www.al-monitor.com/originals/2026/09/france-vows-response-after-iran-closes-language-centre-tehran",
+      "published_at": "2026-09-21T06:46:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09211634-06",
+    "title": "פגישתשרי הפנים של איראן ופקיסטן בטהראן",
+    "summary": "שר הפנים של פקיסטן נפגש בטהראן עם שר הפנים של איראן לקידום קשרים דו-צדדיים והסכמים קודמים.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T12:15:36+00:00",
+    "last_update_at": "2026-09-21T14:33:04+00:00",
+    "what_is_not_verified": "אינו מפורט מעבר לקיומה של הפגישה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_2d3e85e9652f03cd",
+      "url": "https://en.irna.ir/news/86270373/Iran-Pakistan-interior-ministers-meet-in-Tehran-to-advance-bilateral",
+      "published_at": "2026-09-21T14:33:04+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_fd213899a4726183",
+      "url": "https://en.irna.ir/news/86270274/Pakistani-interior-minister-in-Tehran-for-talks-with-Iranian",
+      "published_at": "2026-09-21T12:15:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם ארה\"ב אכן תפתח מחדש בקרוב במערכת הפצצות נגד איראן",
+   "תוכניותיו המדויקות של הנשיא טראמפ לגבי הפעולה הצבאית האפשרית",
+   "זהות הגורם ששיגר את הקלע לעבר המכלית במצר הורמוז"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0115,
+    "unit": "ILS",
+    "change_pct": -0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "עצירת הפעילות האיראנית המזיקה והפעלת לחץ כלכלי (מבצע 'אאוטקאסט כלכלי')",
+     "מניעת שימוש בחברות תעופה איראניות בינלאומיות"
+    ],
+    "inferred": [
+     "שאיפה ללחוץ על הכלכלה האיראנית עד קצה כדי להביא לשינוי התנהגות או קריסה",
+     "הימנעות זמנית מפתיחת חזיתות נוספות מחשש להסלמה רחבה מדי"
+    ],
+    "forecast": [
+     "החמרת הסנקציות והגבלות התעופה נגד גופים איראניים",
+     "שמירה על כוננות צבאית גבוהה במפרץ ובבסיסים האזוריים"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "מוכנות למלחמה ממושכת מול ארה\"ב",
+     "תגובה נחרצת לכל תוקפנות ואזהרה כלפי מדינות המארחות נכסים אמריקניים"
+    ],
+    "inferred": [
+     "ניצול מנופים אזוריים (כגון מצר הורמוז ושלוחות) כדי לגבות מחיר מיריביה",
+     "הסתגלות למצוקה כלכלית קשה בעקבות הפגיעה במגזר האנרגיה והתמ\"ג"
+    ],
+    "forecast": [
+     "המשך איום ושיבוש של נתיבי השיט במפרץ",
+     "חיזוק קשרים דיפלומטיים חלופיים עם שכנות כמו פקיסטן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday?traffic_source=rss",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/france-vows-response-after-iran-closes-language-centre-tehran",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260921-projectile-hits-tanker-as-it-enters-the-strait-of-hormuz",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609218925",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86270274/Pakistani-interior-minister-in-Tehran-for-talks-with-Iranian",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lpg-tanker-hit-debris-unknown-projectile-hormuz",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
+    "accessed_at": "2026-09-21T16:34:17+00:00"
+   }
+  ]
+ }
+}
