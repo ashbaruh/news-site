@@ -1,0 +1,335 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c7c33f50a189",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 7,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-21T17:18:52+00:00",
+  "window": {
+   "from": "2026-09-20T17:18:52+00:00",
+   "to": "2026-09-21T17:18:52+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609211718"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך תקיפות אוויריות והפצצות של כוחות רוסיים על מרכזים עירוניים ותשתיות באוקראינה (כגון סלוביאנסק, חרסון וזפוריז'יה), לצד פעילות צבאית אוקראינית הכוללת תקיפות נגד מתקני אנרגיה וצבא ברוסיה. במקביל, מתקיימים דיפלומטיה ומגעים בינלאומיים סביב יוזמות הפסקת אאש אש ודרישות אמריקאיות ואחרות להגבלת תקיפות על מתקני זיקוק ברוסיה.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (דונצק)",
+    "status": "פעיל עם תקיפות אוויריות ופגיעות במבנים"
+   },
+   {
+    "name": "חזית הדרום (חרסון וזפוריז'יה)",
+    "status": "פעיל עם הפצצות על תשתיות אזרחיות"
+   },
+   {
+    "name": "חזית האוויר והאנרגיה (עומק רוסיה ואוקראינה)",
+    "status": "פעיל עם תקיפות הדדיות על בסיסי רחפנים ובתי זיקוק"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09211718-01",
+    "title": "תקיפה אווירית בסלוביאנסק",
+    "summary": "כוחות רוסיים תקפו מתקן רפואי שאינו פעיל באמצעות פצצת אוויר מתפוצצת, מה שהביא להרס חלקי של מבנה היסטורי.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T17:17:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T17:17:00+00:00",
+    "last_update_at": "2026-09-21T17:17:00+00:00",
+    "what_is_not_verified": "היקף הנזקים המלא אינו מאומת מעבר לדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_a3e3029943a92f5f",
+      "url": "https://www.ukrinform.net/rubric-ato/4166409-russians-dropped-aerial-bomb-on-historic-building-in-sloviansk.html",
+      "published_at": "2026-09-21T17:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלוביאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-02",
+    "title": "פגיעה במבנה מגורים בסלוביאנסק",
+    "summary": "פגיעת רחפן רוסי בבניין מגורים בן חמש קומות גרמה למותו של אדם שנלכד תחת ההריסות.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T16:10:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:10:00+00:00",
+    "last_update_at": "2026-09-21T16:10:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b537fdbef6b37df0",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054491/",
+      "published_at": "2026-09-21T16:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלוביאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-03",
+    "title": "תקיפה באזור בוריספיל",
+    "summary": "שרפה במתקן מחסן באזור בוריספיל כובתה לאחר מתקפה רוסית.",
+    "axis": "חזית קייב / מרכז אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T16:19:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:19:00+00:00",
+    "last_update_at": "2026-09-21T16:19:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_a7aa585405b329b8",
+      "url": "https://www.ukrinform.net/rubric-ato/4166389-fire-at-warehouse-in-boryspil-district-extinguished-after-russian-attack.html",
+      "published_at": "2026-09-21T16:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בוריספיל, אוקראינה",
+      "lat": 50.3512,
+      "lon": 30.9508
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-04",
+    "title": "תקיפת מתקן בצורת' אובלאסט",
+    "summary": "צילומי לוויין תיעדו נזק לבונקרים, מחסנים ואזור שיגור רחפנים בבסיס הרחפנים צימבולובו.",
+    "axis": "העורק הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T16:13:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:13:00+00:00",
+    "last_update_at": "2026-09-21T16:13:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_ukrainian_telegram_channel_absolutely_re",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
+      "published_at": "2026-09-21T16:13:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09211718-05",
+    "title": "תקיפות באזור חרסון",
+    "summary": "כוחות רוסיים תקפו מבני מגורים, כנסייה, בית חולים ומבנים נוספים באזור חרסון, וכתוצאה מכך נפצעו שלושה אזרחים.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T15:59:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T15:59:00+00:00",
+    "last_update_at": "2026-09-21T15:59:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_11a4363cc92b286e",
+      "url": "https://www.ukrinform.net/rubric-ato/4166380-russians-attack-church-hospital-and-homes-in-kherson-region-injuring-three-people.html",
+      "published_at": "2026-09-21T15:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז חרסון, אוקראינה",
+      "lat": 46.6375,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-06",
+    "title": "נזק למתקנים אזרחיים בזפוריז'יה",
+    "summary": "למעלה מ-50 מתקנים אזרחיים, בהם בנייני מגורים ובתים פרטיים, נגרם נזק כתוצאה מתקיפה בלילה.",
+    "axis": "חזית זפוריז'יה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T15:39:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T15:39:00+00:00",
+    "last_update_at": "2026-09-21T15:39:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6fc34b936668e0c3",
+      "url": "https://www.ukrinform.net/rubric-ato/4166377-more-than-50-civilian-facilities-damaged-in-zaporizhzhia-as-result-of-russian-attack.html",
+      "published_at": "2026-09-21T15:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-07",
+    "title": "תקיפה במחוז בוצ'ה",
+    "summary": "שרפה פרצה במתקן במחוז בוצ'ה בעקבות מתקפה רוסית.",
+    "axis": "חזית קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T14:57:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T14:57:00+00:00",
+    "last_update_at": "2026-09-21T14:57:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_17d9258a9e0a41ed",
+      "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
+      "published_at": "2026-09-21T14:57:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז בוצ'ה, אוקראינה",
+      "lat": 50.5449,
+      "lon": 29.8987
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09211718-08",
+    "title": "תוצאות הבחירות ברוסיה",
+    "summary": "מפלגת רוסיה המאוחדת זכתה ברוב בבחירות לפרלמנט הרוסי, כאשר עשרות מוותיקי המלחמה נבחרו לפרלמנט.",
+    "axis": "העורף הרוסי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T13:11:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T13:40:39+00:00",
+    "last_update_at": "2026-09-21T13:40:39+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+      "published_at": "2026-09-21T13:40:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההערכות המודיעיניות האירופיות על מועד אפשרי למתח רוסית נגד נאט\"ו (תוך חודשים)",
+   "האם עסקאות הדשן והפוטש בין ארה\"ב לבלארוס ימומשו במלואן ובאילו תנאים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.149,
+    "unit": "USD",
+    "change_pct": 0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "נכונות להסדר שלום ודה-אסקלציה בתנאים הדדיים",
+     "המשך הגנה על שטחי המדינה"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות האנרגיה והתעשייה של רוסיה כדי לשבש את המאמץ המלחמתי"
+    ],
+    "forecast": [
+     "המשך ניסיונות להשיג סיוע כספי וצבאי מערבי",
+     "המשך תקיפות ממוקדות בעומק רוסיה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך המבצע הצבאי המיוחד והשגת יעדי השלטון"
+    ],
+    "inferred": [
+     "ביסוס השליטה הפוליטית הפנימית באמצעות תוצאות הבחירות ושילוב וותיקי מלחמה",
+     "הרחבת התשתיות לייצור אמצעי לחימה ורחפנים"
+    ],
+    "forecast": [
+     "הגברת הלחץ הצבאי בחזיתות השונות באוקראינה",
+     "התאמת חקיקת המס לכיסוי הוצאות הגנה ותיקון מתקנים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+    "accessed_at": "2026-09-21T17:18:52+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
+    "accessed_at": "2026-09-21T17:18:52+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
+    "accessed_at": "2026-09-21T17:18:52+00:00"
+   }
+  ]
+ }
+}
