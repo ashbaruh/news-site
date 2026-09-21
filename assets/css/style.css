@@ -54,18 +54,6 @@ main.wrap { padding-bottom: 340px; }   /* שהתוכן האחרון לא יוס�
 .topbar nav { margin-inline-start: auto; display: flex; gap: 12px; font-size: 13.5px; }
 .clock { color: var(--text-dim); font-size: 13px; font-variant-numeric: tabular-nums; }
 
-/* ---------- סיכום יומי ---------- */
-.daily {
-  background: linear-gradient(180deg, var(--bg-3), var(--bg-2));
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 18px 20px;
-  margin-top: 22px;
-}
-.daily h2 { margin: 0 0 10px; font-size: 17px; }
-.daily ul { margin: 0; padding-inline-start: 20px; }
-.daily li { margin-bottom: 5px; color: var(--text); }
-
 /* ---------- רשת הפינות ---------- */
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin-top: var(--gap); }
 .corner.wide { grid-column: 1 / -1; }
@@ -464,22 +452,6 @@ footer.site a { color: var(--accent); }
 .cited-box > summary { cursor: pointer; color: var(--text-dim); font-size: 13.5px; }
 .cited-box[open] > summary { margin-bottom: 6px; }
 
-/* "היום בקצרה" — שורת זירות קומפקטית */
-.chips-row { display: inline-flex; flex-wrap: wrap; gap: 6px; margin-inline-start: 6px; }
-.arena-chip {
-  background: var(--bg-3); color: var(--text); border: 1px solid var(--line); border-radius: 14px;
-  padding: 1px 10px; font-size: 12.5px; font-family: inherit; cursor: pointer;
-}
-.arena-chip:hover { border-color: var(--accent); }
-.arena-chip .n { color: var(--accent); font-weight: 700; }
-.daily-sum { color: var(--text-dim); font-size: 13.5px; margin-top: 4px; }
-.clamp2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-
-/* טלפון: החלונית הפתוחה לא רחבה מהמסך */
-@media (max-width: 700px) {
-  .daily li { font-size: 14px; }
-}
-
 /* שכבת ההערכה במפה — מקווקו ודהוי, כדי שלא תיראה כמו עובדה מאומתת */
 .assess-area { fill: #8b949e; }
 .map-legend .dash {
@@ -503,7 +475,6 @@ footer.site a { color: var(--accent); }
   .quote.tv-tile[data-sym="TA 125"] { grid-column: span 2; }   /* 4,164.350 — הארוך ביותר, נחתך בחצי רוחב */
   .quote.tv-tile, .quotes .quote { height: 80px; min-height: 80px; }
   .grid > *, .corner, .corner .body, #mk-rest { min-width: 0; }
-}
 }
 
 /* עדכון ביניים — מעל הניתוח היומי */
@@ -535,4 +506,52 @@ footer.site a { color: var(--accent); }
   .reason, .not-verified, .downgrade-note, .event .detail p { font-size: 16px; }
   /* טבלת המקורות (5 עמודות) רחבה מהמסך בגופן הגדול — גלילה פנימית הצידה, בלי למתוח את הדף */
   table.src { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* ============================================================
+   פינת המלחמות בסגנון ערוץ טלגרם (21/09/2026)
+   כל אירוע = הודעה. סגורה: תג + כותרת + שעה. לחיצה פותחת פירוט.
+   ============================================================ */
+.arena-tabs button.empty { opacity: .55; }
+.feed { display: flex; flex-direction: column; gap: 8px; }
+.feed-day {
+  align-self: center; margin: 6px 0 2px;
+  font-size: 12px; color: var(--text-dim); font-variant-numeric: tabular-nums;
+  background: var(--bg-3); border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px;
+}
+.feed-day.brief { color: var(--warn); border-color: #4a3a0e; }
+.msg {
+  background: var(--bg-3); border: 1px solid var(--line);
+  border-radius: 14px 14px 14px 4px;           /* "זנב" בפינה כמו בועת הודעה */
+  max-width: 760px; overflow: hidden;
+}
+.msg.is-retracted { opacity: .62; }
+.msg > summary { list-style: none; cursor: pointer; padding: 9px 13px 7px; }
+.msg > summary::-webkit-details-marker { display: none; }
+.msg > summary:hover { background: #222a3a; }
+.msg-ttl { font-weight: 600; margin-inline-start: 6px; }
+.msg-time { display: block; text-align: left; font-size: 11.5px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.msg[open] > summary { border-bottom: 1px solid var(--line); }
+.msg-body { padding: 8px 13px 11px; }
+.msg-body p { margin: 0 0 8px; }
+.msg-why { font-size: 13px; color: var(--text-dim); margin-bottom: 4px; }
+.msg-src { font-size: 13px; margin-top: 6px; }
+
+.deep-box { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); }
+.deep-box > summary { cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--accent); }
+.deep-box[open] > summary { border-bottom: 1px solid var(--line); }
+.deep-body { padding: 12px 14px; }
+.deep-body .map-box { margin-bottom: 8px; }
+
+@media (max-width: 700px) {
+  /* לשוניות הזירות — שורה אחת שגוללים הצידה, כמו רשימת ערוצים */
+  .arena-tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin-inline: -8px; padding: 0 8px 4px; }
+  .arena-tabs::-webkit-scrollbar { display: none; }
+  .arena-tabs button { white-space: nowrap; flex: 0 0 auto; }
+  #wars-slot .corner .body { padding: 10px 8px; background: #0b0f14; }
+  .msg { max-width: 100%; }
+  .msg-ttl { font-size: 17px; }
+  .msg-time, .feed-day { font-size: 13px; }
+  .msg-why, .msg-src { font-size: 15px; }
+  .deep-box > summary { font-size: 17px; }
 }

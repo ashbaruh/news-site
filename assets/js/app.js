@@ -125,158 +125,29 @@
   function renderHeader() {
     $('#brand').innerHTML = esc(C.brand.site_name.slice(0, -1)) + '<span>' + esc(C.brand.site_name.slice(-1)) + '</span>';
     $('#tagline').textContent = C.brand.tagline;
-    $('#clock').textContent = 'שעון האתר: ' + F.dateTimeText(F.now().toISOString()) +
-                              ' · מצב פרסום: ' + (C.publish_mode === 'public' ? 'ציבורי' : 'אישי');
+    $('#clock').textContent = F.dateTimeText(F.now().toISOString());
     // נפתח כקובץ (C:/…/index.html)? הכל עובד חוץ מהמוזיקה — YouTube לא מנגן בדף שנפתח כקובץ.
     if (location.protocol === 'file:') {
       var note = document.createElement('div');
       note.className = 'file-note';
-      note.textContent = '🎵 האתר נפתח כקובץ, ולכן הנגן לא עובד בתוך הדף (מגבלה של YouTube). ' +
-                         'לפתיחה עם נגן: לחיצה כפולה על "open-site.vbs" בתיקיית האתר (אחר כך גם index.html יעבור לבד). ' +
-                         'או: כפתור "נגן ב-YouTube" בנגן למטה.';
+      note.textContent = '🎵 למוזיקה: לפתוח דרך open-site.vbs';
       document.body.insertBefore(note, document.body.firstChild);
     }
   }
-
-  /* ------------------------------------------------------------
-     "היום בקצרה" — נבנה מהנתונים האמיתיים בכללים פשוטים, בלי בינה.
-     כל שורה נכתבת רק אם יש לה נתון אמיתי מאחוריה. אין נתון → אין שורה.
-     ------------------------------------------------------------ */
-  function renderDaily() {
-    var live = window.DB.live || {};
-    var lines = [];
-    function pc(v) { return F.ltr((v > 0 ? '+' : '') + v.toFixed(2) + '%'); }
-
-    // 1. מלחמות — ניתוח מאושר מ-72 השעות האחרונות. אין? השורה לא מוצגת.
-    var pubArenas = C.arenas.map(function (a) { return { a: a, p: publishedFor(a.id) }; })
-      .filter(function (o) { return o.p && Date.now() - new Date(o.p.analysis.generated_at).getTime() < 72 * 3600000; });
-    if (pubArenas.length) {
-      // שורה אחת: כל זירה + מספר אירועים (לחיצה עוברת לזירה). מתחת — תמונת מצב קצרה של הזירה שעודכנה אחרונה.
-      var newest = pubArenas.slice().sort(function (x, y) {
-        return x.p.analysis.generated_at < y.p.analysis.generated_at ? 1 : -1;
-      })[0];
-      var chips = pubArenas.map(function (o) {
-        var an = o.p.analysis;
-        var ver = an.events.filter(function (e) { return R.assess(e).level === 'verified'; }).length;
-        return '<button type="button" class="arena-chip" data-goto="' + esc(o.a.id) + '" title="' +
-               esc(F.dateTimeText(an.generated_at)) + (ver ? ' · ' + ver + ' אומתו ב-2+ מקורות' : '') + '">' +
-               esc(o.a.name) + ' <span class="n">' + F.ltr(String(an.events.length)) + '</span></button>';
-      }).join('');
-      lines.push('<b>מלחמות</b> <span class="chips-row">' + chips + '</span>' +
-                 '<div class="daily-sum clamp2">' + esc(newest.a.name) + ' — ' + esc(newest.p.analysis.summary) + '</div>');
-    }
-
-    // 2. שווקים — המכשיר שזז הכי הרבה ברשימה + נפט + דולר
-    var syms = (window.DB.markets.watchlist || []).map(function (w) { return w.symbol; });
-    var moves = [];
-    syms.forEach(function (s) {
-      var r = resolveQuote(s);
-      if (r && !r.down && r.q.change !== null && r.q.change !== undefined) moves.push({ s: s, c: r.q.change, q: r.q });
-    });
-    if (moves.length) {
-      var big = moves.slice().sort(function (a, b) { return Math.abs(b.c) - Math.abs(a.c); })[0];
-      var parts = ['הכי זז ברשימה: ' + F.ltr(big.s) + ' ' + pc(big.c)];
-      var oil = moves.filter(function (m) { return m.s === 'USOIL'; })[0];
-      var usd = moves.filter(function (m) { return m.s === 'USD/ILS'; })[0];
-      if (oil && oil !== big) parts.push('נפט ' + pc(oil.c));
-      if (usd && usd !== big) parts.push('דולר/שקל ' + F.ltr(usd.q.price.toFixed(3)) + ' (' + pc(usd.c) + ')');
-      lines.push('<b>שווקים</b>: ' + parts.join(' · ') + '.');
-    }
-
-    // 3ב. ספורט — ישראלים שכבשו/בישלו (או 20+ נקודות ב-NBA) ב-36 השעות האחרונות
-    var sp = live.sports && live.sports.data;
-    if (sp) {
-      var stars = [];
-      sp.forEach(function (row) {
-        var ov = row.ov && row.ov.data;
-        if (!ov) return;
-        (ov.games || []).forEach(function (g) {
-          var age = Date.now() - new Date(g.date).getTime();
-          if (age < 0 || age > 36 * 3600000) return;
-          var s = g.stats || {}, bits = [];
-          if (row.player.sport === 'nba') { if (+s.PTS >= 20) bits.push(F.ltr(s.PTS + ' נק\'')); }
-          else {
-            if (+s.G) bits.push(+s.G === 1 ? 'כבש' : 'כבש ' + F.ltr(String(s.G)));
-            if (+s.A) bits.push(+s.A === 1 ? 'בישל' : 'בישל ' + F.ltr(String(s.A)));
-          }
-          if (bits.length) stars.push(esc(row.player.name) + ' ' + bits.join(' ו') + ' (' + esc(row.player.club) + ' ' +
-            F.ltr((g.team_score !== null ? g.team_score : '?') + '–' + (g.opp_score !== null ? g.opp_score : '?')) + ')');
-        });
-      });
-      if (stars.length) lines.push('<b>ספורט</b>: ' + stars.slice(0, 3).join(' · ') + '.');
-    }
-
-    // 3ג. קבוצה ישראלית באירופה — היום, או תוצאה מאתמול
-    var eu = live.europe && live.europe.data;
-    if (eu) {
-      var todayL = localDate(new Date().toISOString());
-      var yest = localDate(new Date(Date.now() - 86400000).toISOString());
-      var euLines = (eu.games || []).filter(function (g) {
-        var d = localDate(g.date);
-        return d === todayL || (d === yest && g.completed);
-      }).map(function (g) {
-        var v = europeView(g);
-        if (!g.completed) {
-          return esc(localDate(g.date) === todayL ? 'היום' : '') + ' ' + F.ltr(F.hhmm(g.date)) + ' ' + esc(v.he) + ' נגד ' + esc(v.opp) +
-                 ' (' + esc(v.comp) + (v.tv ? ', ' + esc(v.tv.channel) : '') + ')';
-        }
-        var word = { W: 'ניצחה', L: 'הפסידה', D: 'סיימה בתיקו' }[v.result] || '';
-        return esc(v.he) + ' ' + word + ' ' + v.score + ' את ' + esc(v.opp) + ' (' + esc(v.comp) + ')';
-      });
-      if (euLines.length) lines.push('<b>באירופה</b>: ' + euLines.join(' · ') + '.');
-    }
-
-    // 3ד. AI — ההכרזה הראשונה, אם יש
-    var gai = window.DB.generated && window.DB.generated.ai && window.DB.generated.ai.data;
-    var launch = gai && (gai.news || []).filter(function (n) { return n.launch; })[0];
-    if (launch && /^https:\/\//.test(launch.link)) {
-      lines.push('<b>AI</b>: <a href="' + esc(launch.link) + '" target="_blank" rel="noopener noreferrer">' +
-                 esc(launch.title_he || launch.title || launch.title_en) + '</a> <span class="locked">(' + esc(launch.source) + ')</span>');
-    }
-
-    // 4. ריבית
-    var gb = window.DB.generated && window.DB.generated.boi && window.DB.generated.boi.data;
-    var fed = live.fed && live.fed.data;
-    if (gb || fed) {
-      var rp = [];
-      if (gb) rp.push('בנק ישראל ' + F.ltr(gb.rate.toFixed(2) + '%'));
-      if (fed) rp.push('הפד ' + F.ltr(fed.target[0].toFixed(2) + '%–' + fed.target[1].toFixed(2) + '%'));
-      lines.push('<b>ריבית</b>: ' + rp.join(' · ') + '.');
-    }
-
-    // 5. הכותרת הכלכלית הראשונה שנוגעת לרשימה
-    var gg = window.DB.generated && window.DB.generated.globes && window.DB.generated.globes.data;
-    var top = gg && gg.market && gg.market.filter(function (i) {
-      return Object.keys(C.market_keywords || {}).some(function (k) { return C.market_keywords[k].test(i.title); });
-    })[0];
-    if (top) {
-      lines.push('<b>בכותרות</b>: <a href="' + esc(top.link) + '" target="_blank" rel="noopener noreferrer">' + esc(top.title) + '</a> ' +
-                 '<span class="locked">(גלובס)</span>');
-    }
-
-    $('#daily-list').innerHTML = lines.length
-      ? lines.map(function (t) { return '<li>' + t + '</li>'; }).join('')
-      : '<li class="locked">טוען נתונים…</li>';
-    bindDailyChips();
-  }
-
-  document.addEventListener('live:update', renderDaily);
 
   /* ============================================================
      1. מלחמות / גיאופוליטיקה
      ------------------------------------------------------------
      לכל זירה: ניתוח מאושר מהבינה הפרטית (data/war/published.js) אם יש.
-     אין? "ממתין לניתוח ראשון" (אין נתוני דמה).
+     תצוגה בסגנון ערוץ טלגרם (בקשת בעל האתר, 21/09/2026): כל אירוע = הודעה קצרה,
+     לחיצה פותחת פירוט. הניתוח המעמיק והמפה — בלשונית סגורה אחת, נפתחים רק לפי בקשה.
      ============================================================ */
-  var activeFilter = 'all';
   var activeArena = null;
 
   function publishedFor(arenaId) {
     var p = window.DB.war_published || {};
     return p[arenaId] && p[arenaId].analysis ? p[arenaId] : null;
   }
-
-  var CONF_WORD = { high: 'מקורות מיפוי חזקים', medium: 'מקורות חלקיים', low: 'הערכה בלבד, מקורות מוגבלים' };
 
   /* מצב העדכון של הפינה = הניתוח המאושר האחרון (מכל הזירות) */
   function warsState() {
@@ -297,59 +168,28 @@
     var pub = publishedFor(arena.id);
 
     var tabs = C.arenas.map(function (a) {
-      var has = !!publishedFor(a.id);
-      var label = esc(a.name) + (has ? '' : ' · ממתין');
-      return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (a.id === arena.id ? 'active' : '') + '">' + label + '</button>';
+      return '<button type="button" data-arena="' + esc(a.id) + '" class="' + (a.id === arena.id ? 'active' : '') +
+             (publishedFor(a.id) ? '' : ' empty') + '">' + esc(a.name) + '</button>';
     }).join('');
 
-    var html = '<div class="arena-tabs">' + tabs + '</div>';
-
-    html += briefStrip(arena.id, pub);
+    var html = '<div class="arena-tabs">' + tabs + '</div><div class="feed">' + briefStrip(arena.id, pub);
     if (pub) {
-      html += publishedHead(arena, pub);
-    } else {
-      html += '<div class="window-note">אין עדיין ניתוח מאושר לזירה הזו.</div>';
-      $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
-      bindWarTabs();
-      return;
+      html += '<div class="feed-day">' + F.dateTimeText(pub.analysis.generated_at) + '</div>' + eventsFeed(pub);
+    } else if (html.indexOf('class="msg') < 0) {
+      html += '<p class="locked">אין עדיין ידיעות לזירה הזו.</p>';
     }
-
-    html +=
-      '<div class="filters">' +
-        '<span class="lbl">סינון לפי סטטוס:</span>' +
-        '<button type="button" data-f="all" class="' + (activeFilter === 'all' ? 'active' : '') + '">הכל</button>' +
-        '<button type="button" data-f="verified" class="' + (activeFilter === 'verified' ? 'active' : '') + '">אומתו ב-2+ מקורות</button>' +
-        '<button type="button" data-f="notverified" class="' + (activeFilter === 'notverified' ? 'active' : '') + '">לא מאומת</button>' +
-        '<button type="button" data-f="changed" class="' + (activeFilter === 'changed' ? 'active' : '') + '">שונה/תוקן</button>' +
-      '</div>' +
-      '<div id="events"></div>' +
-      '<div id="not-verified-section"></div>' +
-      (pub ? publishedTail(pub) : '');
+    html += '</div>' + (pub ? deepBox(pub) : '');
 
     $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
-    renderEvents();
     bindWarTabs();
-    if (pub) drawWarMap(pub.analysis.events);
 
-    Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .filters button'), function (b) {
-      b.addEventListener('click', function () {
-        activeFilter = b.dataset.f;
-        Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .filters button'), function (x) {
-          x.classList.toggle('active', x === b);
-        });
-        renderEvents();
+    // המפה נבנית רק כשפותחים את הלשונית (במצב סגור אין לה גודל)
+    var deep = document.querySelector('#wars-slot .deep-box');
+    if (deep && pub) {
+      deep.addEventListener('toggle', function () {
+        if (deep.open && !deep.dataset.drawn) { deep.dataset.drawn = '1'; drawWarMap(pub.analysis.events); }
       });
-    });
-  }
-
-  function bindDailyChips() {
-    Array.prototype.forEach.call(document.querySelectorAll('#daily-list .arena-chip'), function (b) {
-      b.addEventListener('click', function () {
-        activeArena = b.dataset.goto;
-        renderWars();
-        document.getElementById('wars-slot').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
+    }
   }
 
   function bindWarTabs() {
@@ -358,25 +198,16 @@
     });
   }
 
-  function mapBox(confidence, note, layers, points) {
+  function mapBox(layers, points) {
     return '<div class="map-box">' +
-      '<div class="map-head">' +
-        '<span>🗺️ מפת הערכה — <b>אינה קו שליטה מאומת בשטח בזמן אמת</b></span>' +
-        '<span>· מופקת פעם ביום</span>' +
-        '<span>· רמת ביטחון המיפוי: <span class="conf ' + esc(confidence) + '">' + esc(CONF_WORD[confidence] || confidence) + '</span></span>' +
-      '</div>' +
-      (note ? '<div class="map-note">' + esc(note) + '</div>' : '') +
       ((layers || []).length ? '<ul class="rows map-layers">' + layers.map(function (l) {
-          return '<li><span class="conf ' + esc(l.confidence) + '">●</span> <b>' + esc(l.name) + '</b> — ' + esc(l.description) +
-                 ' <span class="locked">(' + esc(CONF_WORD[l.confidence] || l.confidence) + ')</span></li>';
+          return '<li><span class="conf ' + esc(l.confidence) + '">●</span> <b>' + esc(l.name) + '</b> — ' + esc(l.description) + '</li>';
         }).join('') + '</ul>' : '') +
       (points
         ? '<div class="map-canvas live" id="war-map" aria-label="מפת אירועים"></div>' +
-          '<div class="map-legend"><span class="dot verified"></span>אומת ב-2+ מקורות <span class="dot initial"></span>דיווח ראשוני ' +
-          '<span class="dot shared_root"></span>מקור משותף <span class="dot other"></span>הערכה/אחר · ' +
-          '<span class="dash"></span>מקווקו = שכבת הערכה (אזור פעילות / זיקה בין מקומות) · ' +
-          '<span class="locked">נקודה = מקום שהוזכר בדיווח, לא מיקום מדויק ולא קו שליטה</span></div>'
-        : '<div class="map-canvas">אין בניתוח הזה אירועים עם מקום מוגדר — המפה תוצג כשיהיו</div>') +
+          '<div class="map-legend"><span class="dot verified"></span>אומת <span class="dot initial"></span>ראשוני ' +
+          '<span class="dot shared_root"></span>מקור משותף <span class="dot other"></span>אחר</div>'
+        : '') +
     '</div>';
   }
 
@@ -518,19 +349,6 @@
     });
   }
 
-  /* "מה השתנה": רק מה שיש (בלי "0 עלו · 0 ירדו"). המשך = אותו אירוע מאתמול (ודאי); אולי המשך = דומה, לא בטוח */
-  function changeSummary(changes) {
-    var n = { new: 0, same: 0, up: 0, down: 0, possible: 0 };
-    Object.keys(changes || {}).forEach(function (k) { if (n[changes[k].kind] !== undefined) n[changes[k].kind]++; });
-    var parts = [];
-    if (n.new) parts.push(F.ltr(String(n.new)) + ' חדשים');
-    if (n.same + n.up + n.down) parts.push(F.ltr(String(n.same + n.up + n.down)) + ' המשך מהניתוח הקודם');
-    if (n.possible) parts.push(F.ltr(String(n.possible)) + ' אולי המשך');
-    if (n.up) parts.push(F.ltr(String(n.up)) + ' עלו ברמת האימות');
-    if (n.down) parts.push(F.ltr(String(n.down)) + ' ירדו');
-    return parts.join(' · ');
-  }
-
   /* עדכון ביניים (04:00 / 12:00 / 18:00): עד 3 ידיעות מהשעות האחרונות, מעל הניתוח היומי.
      מוצג רק אם הוא חדש מהניתוח היומי ובן פחות מ-14 שעות. */
   function briefStrip(arenaId, pub) {
@@ -540,54 +358,81 @@
     var gen = new Date(b.generated_at).getTime();
     if (!(gen > 0) || Date.now() - gen > 14 * 3600000) return '';
     if (pub && new Date(pub.analysis.generated_at).getTime() >= gen) return '';
-    var items = a.events.slice(0, 3).map(function (ev) {
-      var as = R.assess(ev);
-      var links = (ev.reports || []).map(function (r) {
-        var s = R.sourceById(r.source_id);
-        if (!R.isDisplayable(s) || !/^https:\/\//.test(r.url || '')) return '';
-        return '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s ? s.name : r.source_id) + '</a>';
-      }).filter(Boolean).join(' · ');
-      return '<li><span class="badge ' + esc(as.level) + '">' + esc(as.label) + '</span> <b>' + esc(ev.title) + '</b>' +
-        '<div class="brief-sum">' + esc(ev.summary) + (links ? ' <span class="locked">· ' + links + '</span>' : '') + '</div></li>';
-    }).join('');
-    return '<div class="brief-box"><div class="brief-h">⚡ עדכון ביניים · ' + F.ltr(F.hhmm(b.slot || b.generated_at)) +
-      ' <span class="locked" title="ידיעות מהשעות האחרונות, לפני הניתוח היומי. נכתב בעזרת בינה מלאכותית; רמת האימות חושבה בקוד.">(?)</span></div>' +
-      '<ul class="rows">' + items + '</ul></div>';
+    return '<div class="feed-day brief">⚡ עדכון ' + F.ltr(F.hhmm(b.slot || b.generated_at)) + '</div>' +
+      a.events.slice(0, 3).map(function (ev) { return msg(ev, R.assess(ev)); }).join('');
   }
 
-  /* ראש הניתוח: חלון זמן, מקור הניתוח, סיכום, חזיתות, מפה */
-  function publishedHead(arena, pub) {
-    var a = pub.analysis;
-    return '<div class="window-note">' +
-        '<b>חלון זמן:</b> ' + F.dateTimeText(a.window.from) + ' ← ' + F.dateTimeText(a.window.to) +
-        ' · <b>זירה:</b> ' + esc(arena.name) +
-        ' · נוצר ' + F.dateTimeText(a.generated_at) + ' ע"י ' + esc(a.model.name) +
-        (pub.auto
-          ? ' · <span class="tag-demo" title="עבר בדיקות איכות אוטומטיות בקוד. לא נבדק ידנית.">פורסם אוטומטית</span>'
-          : ' · <span class="tag-demo" title="בעל האתר אישר את הפרסום. זה לא בדיקה עובדתית של התוכן.">אושר לפרסום</span>') +
-        ' · <span class="locked">נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות — ' +
-        '<a href="legal.html">הבהרות</a></span>' +
-        (pub.previous_generated_at ? ' · <b>השוואה</b> לניתוח מ-' + F.dateTimeText(pub.previous_generated_at) + ': ' +
-          changeSummary(pub.changes) : '') +
+  /* הודעות הניתוח — החדשה למעלה */
+  function eventsFeed(pub) {
+    return pub.analysis.events.slice()
+      .sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); })
+      .map(function (ev) { return msg(ev, R.assess(ev)); }).join('');
+  }
+
+  /* הודעה אחת: סגורה = תג אימות + כותרת + שעה. פתוחה = תמצית, למה הסטטוס, מקורות. */
+  function msg(ev, a) {
+    var seen = {};
+    var links = a.reports.map(function (r) {
+      var s = R.sourceById(r.source_id);
+      if (!R.isDisplayable(s) || !/^https:\/\//.test(r.url || '') || seen[r.url]) return '';
+      seen[r.url] = 1;
+      return '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s ? s.name : r.source_id) + '</a>';
+    }).filter(Boolean).join(' · ');
+
+    var timeline = !a.revisions.length ? '' :
+      '<ul class="timeline">' + a.revisions.map(function (v) {
+        var move = (v.from_level || v.to_level)
+          ? ' <span class="move">' + esc(levelName(v.from_level)) + ' ← ' + esc(levelName(v.to_level)) + '</span>' : '';
+        return '<li class="' + esc(v.kind) + '"><span class="t">' + F.dateTimeText(v.at) + '</span>' + move + '<br>' + esc(v.text) + '</li>';
+      }).join('') + '</ul>';
+
+    /* הורדת סטטוס — מוצגת בגלוי, גם בהודעה הסגורה. שינוי בשקט הוא מה שהורס אמון. */
+    var dg = R.downgrade(ev);
+    var dgNote = !dg ? '' :
+      '<div class="downgrade-note"><b>⚠️ האימות בוטל.</b> הוצג כ<b>' + esc(levelName(dg.from_level)) + '</b> עד ' +
+      F.dateTimeText(dg.at) + '. ' + esc(dg.text) + '</div>';
+
+    return '<details class="msg' + (ev.lifecycle === 'retracted' ? ' is-retracted' : '') + '">' +
+      '<summary>' +
+        '<span class="badge ' + esc(a.level) + '">' + esc(a.label) + '</span>' +
+        (dg ? ' <span class="badge downgraded">האימות בוטל</span>' : '') +
+        '<span class="msg-ttl">' + esc(ev.title) + '</span>' +
+        (ev.last_update_at ? '<span class="msg-time">' + F.dateTimeText(ev.last_update_at) + '</span>' : '') +
+      '</summary>' +
+      '<div class="msg-body">' +
+        dgNote +
+        '<p>' + esc(ev.summary) + '</p>' +
+        '<div class="msg-why">' + esc(a.reason) + '</div>' +
+        (ev.what_is_not_verified ? '<div class="msg-why">לא מאומת: ' + esc(ev.what_is_not_verified) + '</div>' : '') +
+        (links ? '<div class="msg-src">' + links + '</div>' : '') +
+        timeline +
       '</div>' +
-      '<p class="war-summary">' + esc(a.summary) + '</p>' +
-      '<h3 class="sub">חזיתות וצירים</h3><ul class="rows">' + a.fronts.map(function (f) {
-        return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
-      }).join('') + '</ul>' +
-      mapBox(a.map.confidence, a.map.note, a.map.layers, mapPoints(a.events).length) +
-      '';
+    '</details>';
   }
 
-  /* סוף הניתוח: כלכלה, מטרות (מוצהרת/מוסקת/תחזית), מקורות */
-  function publishedTail(pub) {
+  /* הלשונית המעמיקה — סגורה כברירת מחדל: תמונת מצב, חזיתות, מפה, כלכלה, מטרות, מקורות */
+  function deepBox(pub) {
     var a = pub.analysis;
+    var fronts = (a.fronts || []).length
+      ? '<h3 class="sub">חזיתות</h3><ul class="rows">' + a.fronts.map(function (f) {
+          return '<li><b>' + esc(f.name) + '</b> — ' + esc(f.status) + '</li>';
+        }).join('') + '</ul>'
+      : '';
+
+    var pts = mapPoints(a.events).length;
+    var map = pts ? '<h3 class="sub">מפה</h3>' + mapBox(a.map && a.map.layers, pts) : '';
+
+    var nv = (a.not_verified || []).length
+      ? '<h3 class="sub">מה לא מאומת</h3><ul class="rows">' + a.not_verified.map(function (t) {
+          return '<li>' + esc(t) + '</li>';
+        }).join('') + '</ul>'
+      : '';
+
     var eco = (a.economy || []).length
-      ? '<h3 class="sub">מגמות כלכליות נלוות</h3><ul class="rows">' + a.economy.map(function (x) {
+      ? '<h3 class="sub">כלכלה</h3><ul class="rows">' + a.economy.map(function (x) {
           var ch = (x.change_pct === null || x.change_pct === undefined) ? '' :
             ' <span class="' + (x.change_pct >= 0 ? 'up' : 'down') + '">' + F.ltr((x.change_pct >= 0 ? '+' : '') + x.change_pct + '%') + '</span>';
-          var src = R.sourceById(x.source_id);
-          return '<li><b>' + esc(x.indicator) + '</b>: ' + F.ltr(esc(String(x.value)) + ' ' + esc(x.unit)) + ch +
-                 ' <span class="locked">· ' + esc(src ? src.name : x.source_id) + ' · ' + F.dateTimeText(x.as_of) + '</span></li>';
+          return '<li><b>' + esc(x.indicator) + '</b>: ' + F.ltr(esc(String(x.value)) + ' ' + esc(x.unit)) + ch + '</li>';
         }).join('') + '</ul>'
       : '';
 
@@ -597,146 +442,27 @@
                       : '<div class="locked">—</div>') + '</div>';
     }
     var goals = (a.strategic_goals || []).length
-      ? '<h3 class="sub">מטרות אסטרטגיות — מופרדות, לא כעובדה אחת</h3>' + a.strategic_goals.map(function (g) {
+      ? '<h3 class="sub">מטרות</h3>' + a.strategic_goals.map(function (g) {
           return '<div class="goal-actor"><b>' + esc(g.actor) + '</b><div class="goal-grid">' +
-            col('מטרה מוצהרת', g.declared, 'declared') +
-            col('מטרה מוסקת (הערכה)', g.inferred, 'inferred') +
+            col('מוצהרת', g.declared, 'declared') +
+            col('מוסקת (הערכה)', g.inferred, 'inferred') +
             col('תחזית', g.forecast, 'forecast') + '</div></div>';
         }).join('')
       : '';
 
-    var cited = '<details class="cited-box"><summary>מקורות (' + F.ltr(String(a.sources_cited.length)) + ')</summary>' +
-      '<ul class="rows cited">' + a.sources_cited.map(function (c) {
-        var src = R.sourceById(c.source_id);
-        var ok = R.isDisplayable(src) && /^https:\/\//.test(c.url || '');
-        return '<li>' + esc(src ? src.name : c.source_id) +
-          (ok ? ' · <a href="' + esc(c.url) + '" target="_blank" rel="noopener noreferrer">קישור</a>' : ' · <span class="locked">לא מוצג במצב הפרסום הנוכחי</span>') +
-          ' <span class="locked">· נבדק ' + F.dateTimeText(c.accessed_at) + '</span></li>';
-      }).join('') + '</ul>' +
-      '<p class="locked filter-note">רמות האימות מחושבות באתר מתוך המקורות — הבינה לא קובעת מה מאומת. ' +
-      'טיוטה: ' + esc(pub.draft) + '</p></details>';
-
-    return eco + goals + cited;
-  }
-
-  function passesFilter(a, ev) {
-    if (activeFilter === 'all') return true;
-    if (activeFilter === 'verified')    return a.level === 'verified';
-    if (activeFilter === 'notverified') return ['initial', 'shared_root', 'unverified', 'disputed', 'retracted'].indexOf(a.level) > -1;
-    if (activeFilter === 'changed') {
-      var pub = publishedFor(activeArena);
-      var ch = pub && pub.changes ? pub.changes[ev.id] : null;
-      return a.revisions.length > 0 || !!(ch && (ch.kind === 'up' || ch.kind === 'down'));
-    }
-    return true;
-  }
-
-  function renderEvents() {
-    var pub = publishedFor(activeArena);
-    var source = pub ? pub.analysis.events : [];
-    var list = source.slice().sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); });
-
-    var shown = [];
-    var html = list.map(function (ev) {
-      var a = R.assess(ev);
-      if (!passesFilter(a, ev)) return '';
-      shown.push({ ev: ev, a: a });
-      return eventCard(ev, a, pub && pub.changes ? pub.changes[ev.id] : null);
-    }).join('');
-
-    $('#events').innerHTML = html || '<p class="locked">אין אירועים בסינון הזה.</p>';
-
-    // סעיף נפרד ומפורש "מה לא מאומת": מה שהאתר חישב + מה שהניתוח עצמו ציין
-    var nv = shown.filter(function (o) {
-      return ['initial', 'shared_root', 'unverified', 'disputed'].indexOf(o.a.level) > -1;
+    var cited = (a.sources_cited || []).filter(function (c) {
+      return R.isDisplayable(R.sourceById(c.source_id)) && /^https:\/\//.test(c.url || '');
     });
-    var extra = pub ? (pub.analysis.not_verified || []) : [];
-    // מציגים לכל היותר 4 פריטים — רשימה ארוכה רק מעמיסה
-    var nvItems = nv.map(function (o) { return '<li><b>' + esc(o.ev.title) + '</b> — ' + esc(o.a.reason) + '</li>'; })
-      .concat(extra.map(function (t) { return '<li>' + esc(t) + '</li>'; }))
-      .slice(0, 4);
-    $('#not-verified-section').innerHTML = !nvItems.length ? '' :
-      '<h3 class="sub">⚠️ מה לא מאומת</h3><ul class="rows">' + nvItems.join('') + '</ul>';
-  }
+    var src = cited.length
+      ? '<h3 class="sub">מקורות</h3><div class="msg-src">' + cited.map(function (c) {
+          var s = R.sourceById(c.source_id);
+          return '<a href="' + esc(c.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s ? s.name : c.source_id) + '</a>';
+        }).join(' · ') + '</div>'
+      : '';
 
-  function eventCard(ev, a, change) {
-    var rootCounts = {};
-    a.reports.forEach(function (r) { rootCounts[r.source_root_id] = (rootCounts[r.source_root_id] || 0) + 1; });
-
-    var rows = a.reports.map(function (r) {
-      var s = R.sourceById(r.source_id);
-      var dup = rootCounts[r.source_root_id] > 1;
-      var ok  = R.isDisplayable(s);
-      return '<tr class="' + (dup ? 'same-root ' : '') + (ok ? '' : 'blocked') + '">' +
-        '<td>' + esc(s ? s.name : r.source_id) + '</td>' +
-        '<td>' + esc(s ? s.kind : '—') + '</td>' +
-        '<td class="root">' + (dup ? 'משותף לכמה פרסומים' : 'עצמאי') + '</td>' +
-        '<td>' + F.dateTimeText(r.published_at) + '</td>' +
-        '<td><span class="badge lic">' + esc(s ? R.licenseLabel(s) : '—') + '</span>' +
-            (ok ? '' : ' <span class="badge lic">לא מוצג</span>') + '</td>' +
-      '</tr>';
-    }).join('');
-
-    var timeline = !a.revisions.length ? '' :
-      '<h4>היסטוריית שינויים</h4><ul class="timeline">' +
-      a.revisions.map(function (v) {
-        var move = (v.from_level || v.to_level)
-          ? ' <span class="move">' + esc(levelName(v.from_level)) + ' ← ' + esc(levelName(v.to_level)) + '</span>'
-          : '';
-        return '<li class="' + v.kind + '"><span class="t">' + F.dateTimeText(v.at) + '</span>' + move +
-               '<br>' + esc(v.text) + '</li>';
-      }).join('') + '</ul>';
-
-    var late = R.isLateVerification(ev) ? ' <span class="badge late">אימות מאוחר</span>' : '';
-    // מהמפרט: מה חדש בחלון הזמן, ומה עדכון/אימות מאוחר של אירוע ישן
-    if (ev.is_new_in_window === true)  late += ' <span class="badge ongoing">חדש בחלון</span>';
-    if (ev.is_new_in_window === false) late += ' <span class="badge lic">עדכון לאירוע קודם</span>';
-    // מה השתנה מול הניתוח המאושר הקודם (חושב בקוד, לפי קישורים משותפים)
-    if (change && change.kind === 'new')  late += ' <span class="badge change-new">🆕 חדש מהניתוח הקודם</span>';
-    if (change && change.kind === 'possible')
-      late += ' <span class="badge change-possible" title="' + esc('דומה ל: ' + (change.prev || '')) + '">↔️ אולי המשך</span>';
-    if (change && change.kind === 'up')   late += ' <span class="badge change-up">⬆️ עלה: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
-    if (change && change.kind === 'down') late += ' <span class="badge change-down">⬇️ ירד: ' + esc(levelName(change.from)) + ' ← ' + esc(levelName(change.to)) + '</span>';
-    var reasonClass = a.level === 'verified' ? 'ok' : (a.level === 'shared_root' ? 'bad' : '');
-
-    var span = R.timeSpan(ev);
-    var ongoing = (span.kind === 'ongoing') ? ' <span class="badge ongoing">נמשך כעת</span>' : '';
-
-    /* הורדת סטטוס — מוצגת בגלוי, גם בשורה הסגורה וגם בפירוט.
-       זה מכוון: שינוי בשקט הוא מה שהורס אמון. */
-    var dg = R.downgrade(ev);
-    var dgBadge = dg ? ' <span class="badge downgraded">האימות בוטל</span>' : '';
-    var dgNote  = !dg ? '' :
-      '<div class="downgrade-note">' +
-        '<b>⚠️ שינוי סטטוס לאחור.</b> אירוע זה הוצג באתר כ<b>' + esc(levelName(dg.from_level)) + '</b> ' +
-        'במשך כ-' + R.downgradeDurationHours(ev) + ' שעות, עד ' + F.dateTimeText(dg.at) + '.<br>' +
-        esc(dg.text) +
-      '</div>';
-
-    return '' +
-    '<details class="event' + (ev.lifecycle === 'retracted' ? ' is-retracted' : '') + '">' +
-      '<summary>' +
-        '<span class="badge ' + a.level + '">' + esc(a.label) + '</span>' +
-        '<span class="ttl">' + esc(ev.title) + '</span>' + late + ongoing + dgBadge +
-        '<span class="meta">' + esc(ev.id) + ' · ' + esc(ev.axis) +
-          ' · ' + esc(span.text) +
-          ' · עודכן: ' + F.dateTimeText(ev.last_update_at) +
-          ' · ' + a.report_count + ' פרסומים / ' + a.root_count + ' מקורות-שורש' +
-        '</span>' +
-      '</summary>' +
-      '<div class="detail">' +
-        dgNote +
-        '<h4>תמצית</h4><p>' + esc(ev.summary) + '</p>' +
-        '<div class="reason ' + reasonClass + '"><b>למה הסטטוס הזה:</b> ' + esc(a.reason) + '</div>' +
-        '<div class="not-verified"><b>מה לא מאומת:</b> ' + esc(ev.what_is_not_verified) + '</div>' +
-        '<h4>מקורות</h4>' +
-        '<table class="src"><thead><tr>' +
-          '<th>מקור</th><th>סוג</th><th>מקור-שורש</th><th>פורסם</th><th>רישוי</th>' +
-        '</tr></thead><tbody>' + rows + '</tbody></table>' +
-        (a.blocked_count ? '<p class="locked">' + a.blocked_count + ' מקור/ות לא מוצג/ים במצב הפרסום הנוכחי.</p>' : '') +
-        timeline +
-      '</div>' +
-    '</details>';
+    return '<details class="deep-box"><summary>🔎 ניתוח מעמיק ומפה</summary><div class="deep-body">' +
+      '<p class="war-summary">' + esc(a.summary) + '</p>' + fronts + map + nv + eco + goals + src +
+    '</div></details>';
   }
 
   /* קטע עם כותרת — מוצג רק אם יש בו תוכן. אין מידע → לא כותבים כלום */
@@ -1506,7 +1232,6 @@
 
   /* ---------- הרצה ---------- */
   renderHeader();
-  renderDaily();
   renderWars();
   renderMarkets();
   renderAI();
