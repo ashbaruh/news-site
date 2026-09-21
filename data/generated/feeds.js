@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T10:17:21+00:00",
-  "fetched_at": "2026-09-21T10:17:21+00:00"
+  "checked_at": "2026-09-21T11:08:15+00:00",
+  "fetched_at": "2026-09-21T11:08:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T10:17:29+00:00",
-  "fetched_at": "2026-09-21T10:17:29+00:00"
+  "checked_at": "2026-09-21T11:08:26+00:00",
+  "fetched_at": "2026-09-21T11:08:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T10:17:30+00:00",
-  "fetched_at": "2026-09-21T10:17:30+00:00"
+  "checked_at": "2026-09-21T11:08:26+00:00",
+  "fetched_at": "2026-09-21T11:08:26+00:00"
  },
- "generated_at": "2026-09-21T10:17:30+00:00",
+ "generated_at": "2026-09-21T11:08:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,11 +98,6 @@ window.DB.generated = {
     }
    ],
    "market": [
-    {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
-    },
     {
      "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
@@ -209,6 +204,11 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T10:17:22+00:00",
-  "fetched_at": "2026-09-21T10:17:22+00:00"
+  "checked_at": "2026-09-21T11:08:16+00:00",
+  "fetched_at": "2026-09-21T11:08:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T10:17:23+00:00",
-  "fetched_at": "2026-09-21T10:17:23+00:00"
+  "checked_at": "2026-09-21T11:08:17+00:00",
+  "fetched_at": "2026-09-21T11:08:17+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T10:17:24+00:00",
-  "fetched_at": "2026-09-21T10:17:24+00:00"
+  "checked_at": "2026-09-21T11:08:18+00:00",
+  "fetched_at": "2026-09-21T11:08:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T10:17:24+00:00",
-  "fetched_at": "2026-09-21T10:17:24+00:00"
+  "checked_at": "2026-09-21T11:08:18+00:00",
+  "fetched_at": "2026-09-21T11:08:18+00:00"
  },
  "ai": {
   "data": {
@@ -2252,7 +2252,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 147,
+     "likes": 149,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2263,6 +2263,20 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 88,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 104,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
@@ -2270,18 +2284,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 86,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+     "title": "Jev Reproductions Tracker",
+     "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
+     "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
+     "likes": 82,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2291,24 +2298,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
-     "title": "Jev Reproductions Tracker",
-     "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
-     "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 81,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T10:17:29+00:00",
-  "fetched_at": "2026-09-21T10:17:29+00:00"
+  "checked_at": "2026-09-21T11:08:26+00:00",
+  "fetched_at": "2026-09-21T11:08:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,7 +2651,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T10:17:26+00:00",
-  "fetched_at": "2026-09-21T10:17:26+00:00"
+  "checked_at": "2026-09-21T11:08:21+00:00",
+  "fetched_at": "2026-09-21T11:08:21+00:00"
  }
 };
