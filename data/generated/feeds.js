@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T18:17:19+00:00",
-  "fetched_at": "2026-09-21T18:17:19+00:00"
+  "checked_at": "2026-09-21T19:17:21+00:00",
+  "fetched_at": "2026-09-21T19:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T18:17:30+00:00",
-  "fetched_at": "2026-09-21T18:17:30+00:00"
+  "checked_at": "2026-09-21T19:17:31+00:00",
+  "fetched_at": "2026-09-21T19:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,35 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T18:17:30+00:00",
-  "fetched_at": "2026-09-21T18:17:30+00:00"
+  "checked_at": "2026-09-21T19:17:32+00:00",
+  "fetched_at": "2026-09-21T19:17:32+00:00"
  },
- "generated_at": "2026-09-21T18:17:30+00:00",
+ "generated_at": "2026-09-21T19:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
-     "date": "2026-09-21T16:36:00+00:00"
+     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
+     "date": "2026-09-21T18:21:00+00:00"
     },
     {
      "title": "למרות בקשת יורש העצר: טראמפ עצר מתקפה נגד החות'ים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556955",
-     "date": "2026-09-21T17:33:00+00:00"
+     "date": "2026-09-21T18:49:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
+     "date": "2026-09-21T18:35:00+00:00"
+    },
+    {
+     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
+     "date": "2026-09-21T18:21:00+00:00"
+    },
     {
      "title": "טראמפ תקף את התקשורת האמריקאית. כעת היא משיבה מלחמה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556956",
@@ -112,11 +122,6 @@ window.DB.generated = {
      "title": "משפחות פשע ותומכי טרור פלסטיני בחגיגות הניצחון של מפלגת השמאל בברלין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556953",
      "date": "2026-09-21T16:49:00+00:00"
-    },
-    {
-     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
-     "date": "2026-09-21T16:36:00+00:00"
     },
     {
      "title": "סכסוך ענק במגדל היוקרה בתל אביב: תביעות הדדיות של מעל מיליארד שקל",
@@ -152,11 +157,6 @@ window.DB.generated = {
      "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
      "date": "2026-09-19T18:00:00+00:00"
-    },
-    {
-     "title": "תשעה ישראלים נעצרו בטורקיה בחשד למעורבות ברשת ההונאה שנחשפה במדינה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556946",
-     "date": "2026-09-19T17:24:00+00:00"
     },
     {
      "title": "רפאל מאשרת את חשיפת גלובס: בדרך לעסקת ענק בצ׳כיה",
@@ -214,20 +214,20 @@ window.DB.generated = {
      "date": "2026-09-17T14:39:00+00:00"
     },
     {
-     "title": "נעילה חיובית בתל אביב; מניית הבורסה זינקה ב-15%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556693",
-     "date": "2026-09-17T14:33:00+00:00"
-    },
-    {
      "title": "ב־81.4 מיליון שקל: מ. אביב רוכשת את תרחיש ונכנסת לשותפות עם קן התור",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556789",
      "date": "2026-09-17T13:01:00+00:00"
+    },
+    {
+     "title": "רגע התפנית, והיחסים עם טראמפ: מה מלמדת החלטת הריבית על קווין וורש?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556755",
+     "date": "2026-09-17T12:47:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T18:17:20+00:00",
-  "fetched_at": "2026-09-21T18:17:20+00:00"
+  "checked_at": "2026-09-21T19:17:22+00:00",
+  "fetched_at": "2026-09-21T19:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T18:17:21+00:00",
-  "fetched_at": "2026-09-21T18:17:21+00:00"
+  "checked_at": "2026-09-21T19:17:23+00:00",
+  "fetched_at": "2026-09-21T19:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T18:17:22+00:00",
-  "fetched_at": "2026-09-21T18:17:22+00:00"
+  "checked_at": "2026-09-21T19:17:24+00:00",
+  "fetched_at": "2026-09-21T19:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T18:17:22+00:00",
-  "fetched_at": "2026-09-21T18:17:22+00:00"
+  "checked_at": "2026-09-21T19:17:24+00:00",
+  "fetched_at": "2026-09-21T19:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2238,7 +2238,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 462,
+     "likes": 463,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2252,15 +2252,8 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 152,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2268,6 +2261,13 @@ window.DB.generated = {
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
      "likes": 102,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 152,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2287,28 +2287,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 97,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T18:17:29+00:00",
-  "fetched_at": "2026-09-21T18:17:29+00:00"
+  "checked_at": "2026-09-21T19:17:30+00:00",
+  "fetched_at": "2026-09-21T19:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,8 +2651,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T18:17:25+00:00",
-  "fetched_at": "2026-09-21T18:17:25+00:00"
+  "checked_at": "2026-09-21T19:17:27+00:00",
+  "fetched_at": "2026-09-21T19:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -2683,7 +2683,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T18:17:26+00:00",
-  "fetched_at": "2026-09-21T18:17:26+00:00"
+  "checked_at": "2026-09-21T19:17:27+00:00",
+  "fetched_at": "2026-09-21T19:17:27+00:00"
  }
 };
