@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T08:17:24+00:00",
-  "fetched_at": "2026-09-21T08:17:24+00:00"
+  "checked_at": "2026-09-21T09:18:03+00:00",
+  "fetched_at": "2026-09-21T09:18:03+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T08:17:39+00:00",
-  "fetched_at": "2026-09-21T08:17:39+00:00"
+  "checked_at": "2026-09-21T09:18:12+00:00",
+  "fetched_at": "2026-09-21T09:18:12+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T08:17:39+00:00",
-  "fetched_at": "2026-09-21T08:17:39+00:00"
+  "checked_at": "2026-09-21T09:18:12+00:00",
+  "fetched_at": "2026-09-21T09:18:12+00:00"
  },
- "generated_at": "2026-09-21T08:17:39+00:00",
+ "generated_at": "2026-09-21T09:18:12+00:00",
  "globes": {
   "data": {
    "top": [
@@ -96,16 +96,6 @@
     }
    ],
    "market": [
-    {
-     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
-    },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001555562",
@@ -172,6 +162,11 @@
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -207,6 +202,11 @@
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
+     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
+     "date": "2026-09-17T20:00:00+00:00"
+    },
+    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T08:17:25+00:00",
-  "fetched_at": "2026-09-21T08:17:25+00:00"
+  "checked_at": "2026-09-21T09:18:05+00:00",
+  "fetched_at": "2026-09-21T09:18:05+00:00"
  },
  "ifa": {
   "data": [
@@ -1868,10 +1868,9 @@
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": false,
-  "error": "IncompleteRead(0 bytes read, 90890 more expected)",
-  "checked_at": "2026-09-21T08:17:26+00:00",
-  "fetched_at": "2026-09-21T07:17:25+00:00"
+  "ok": true,
+  "checked_at": "2026-09-21T09:18:05+00:00",
+  "fetched_at": "2026-09-21T09:18:05+00:00"
  },
  "tv": {
   "data": [
@@ -2100,10 +2099,9 @@
     "title": "נאנטר - פו אורטז"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-21T08:17:32+00:00",
-  "fetched_at": "2026-09-21T07:17:26+00:00"
+  "ok": true,
+  "checked_at": "2026-09-21T09:18:07+00:00",
+  "fetched_at": "2026-09-21T09:18:07+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2206,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T08:17:32+00:00",
-  "fetched_at": "2026-09-21T08:17:32+00:00"
+  "checked_at": "2026-09-21T09:18:07+00:00",
+  "fetched_at": "2026-09-21T09:18:07+00:00"
  },
  "ai": {
   "data": {
@@ -2238,14 +2236,14 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 455,
+     "likes": 457,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 141,
+     "likes": 142,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2263,6 +2261,13 @@
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 107,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
@@ -2270,17 +2275,10 @@
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 105,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2307,8 +2305,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T08:17:38+00:00",
-  "fetched_at": "2026-09-21T08:17:38+00:00"
+  "checked_at": "2026-09-21T09:18:12+00:00",
+  "fetched_at": "2026-09-21T09:18:12+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,7 +2649,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T08:17:34+00:00",
-  "fetched_at": "2026-09-21T08:17:34+00:00"
+  "checked_at": "2026-09-21T09:18:10+00:00",
+  "fetched_at": "2026-09-21T09:18:10+00:00"
  }
 }
