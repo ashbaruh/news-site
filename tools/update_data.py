@@ -666,6 +666,18 @@ def job_boi():
 
 # ------------------------------------------------------------------ הרכבה
 
+# צה"ל — מה הצבא מבצע (בקשת בעל האתר, 21/09/2026). בלי זירה נפרדת: 3 כותרות בלשונית "הכל" במלחמות.
+# וואלה "צבא וביטחון" — רק כותרת + קישור (כמו שאר פידי וואלה). נשארות רק כותרות על פעולה של צה"ל.
+IDF_RX = re.compile(r'צה"ל|צה״ל|חייל|לוחמ|כוחות|חיסל|חוסל|תקף|תקיפ|יירט|יירוט|מחבל|פשיט|מבצע|אוגד|חטיב|'
+                    r'פיקוד|שייטת|חיל האוויר|הנדסה קרבית|מעצר|נעצר|עצרו')
+
+
+def job_idf():
+    items = [i for i in read_rss("https://rss.walla.co.il/feed/2689", "walla.co.il") if IDF_RX.search(i["title"])]
+    items.sort(key=lambda i: i["date"], reverse=True)
+    return items[:5]
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -710,6 +722,7 @@ def main():
     run_section(state, "ligat_haal", lambda: build_ligat_haal(
         ifa_state.get("data") or [], (state.get("tv") or {}).get("data") or [], ifa_fresh))
     run_section(state, "abroad", job_israelis_abroad)
+    run_section(state, "idf", job_idf)
     run_section(state, "ai", lambda: job_ai(cache))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
@@ -729,7 +742,7 @@ def main():
         json.dump(state, f, ensure_ascii=False, indent=1)
         f.write(";\n")
 
-    failed = [k for k in ("boi", "globes", "ifa", "tv", "abroad", "ai", "animals", "av_en") if not state[k]["ok"]]
+    failed = [k for k in ("boi", "globes", "ifa", "tv", "abroad", "idf", "ai", "animals", "av_en") if not state[k]["ok"]]
     print("done" + (f" — failed: {failed}" if failed else ""))
 
 

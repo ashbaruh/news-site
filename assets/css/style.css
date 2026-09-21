@@ -526,6 +526,8 @@ footer.site a { color: var(--accent); }
   max-width: 760px; overflow: hidden;
 }
 .msg.is-retracted { opacity: .62; }
+a.msg-link { display: block; padding: 9px 13px 7px; color: var(--text); text-decoration: none; }
+a.msg-link:hover { background: #222a3a; text-decoration: none; }
 .msg > summary { list-style: none; cursor: pointer; padding: 9px 13px 7px; }
 .msg > summary::-webkit-details-marker { display: none; }
 .msg > summary:hover { background: #222a3a; }

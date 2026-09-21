@@ -376,7 +376,19 @@
       fb.events.map(function (ev) { return msg(ev, R.assess(ev)); }).join('');
   }
 
-  /* לשונית "הכל": מכל זירה 3 ההודעות האחרונות (עדכון ביניים + ניתוח יומי), ממוינות יחד — החדשה למעלה */
+  /* לשונית "הכל": מכל זירה 3 ההודעות האחרונות (עדכון ביניים + ניתוח יומי), ועוד 3 כותרות על פעולות צה"ל
+     (וואלה "צבא וביטחון", מתעדכן כל שעה — tools/update_data.py). הכול ממוין יחד — החדשה למעלה. */
+  function idfRows() {
+    var g = window.DB.generated && window.DB.generated.idf;
+    var src = R.sourceById('src_walla');
+    if (!g || !Array.isArray(g.data) || !R.isDisplayable(src)) return [];
+    return g.data.filter(function (i) { return /^https:\/\//.test(i.link || ''); }).slice(0, ALL_PER_ARENA)
+      .map(function (i) { return { t: i.date, html:
+        '<a class="msg msg-link" href="' + esc(i.link) + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="msg-arena">צה"ל</span><span class="msg-ttl">' + esc(i.title) + '</span>' +
+          '<span class="msg-time">וואלה · ' + F.dateTimeText(i.date) + '</span></a>' }; });
+  }
+
   function allFeed() {
     var rows = [];
     C.arenas.forEach(function (ar) {
@@ -385,11 +397,18 @@
         .filter(function (ev) { if (seen[ev.id]) return false; seen[ev.id] = 1; return true; })
         .sort(function (x, y) { return new Date(y.last_update_at) - new Date(x.last_update_at); })
         .slice(0, ALL_PER_ARENA)
-        .forEach(function (ev) { rows.push({ ev: ev, ar: ar }); });
+        .forEach(function (ev) { rows.push({ t: ev.last_update_at, html: msg(ev, R.assess(ev), ar.short || ar.name) }); });
     });
-    return rows.sort(function (x, y) { return new Date(y.ev.last_update_at) - new Date(x.ev.last_update_at); })
-      .map(function (o) { return msg(o.ev, R.assess(o.ev), o.ar.short || o.ar.name); }).join('');
+    return rows.concat(idfRows())
+      .sort(function (x, y) { return new Date(y.t) - new Date(x.t); })
+      .map(function (o) { return o.html; }).join('');
   }
+
+  // כותרות צה"ל מתעדכנות בדף בלי רענון — רק אם אין הודעה פתוחה (שלא תיסגר מתחת לידיים)
+  document.addEventListener('live:update', function (e) {
+    if (e.detail && e.detail.key === 'generated' && activeArena === 'all' &&
+        !document.querySelector('#wars-slot .msg[open]')) renderWars();
+  });
 
   /* הודעות הניתוח — החדשה למעלה */
   function eventsFeed(pub) {
