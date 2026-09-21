@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:08:15+00:00",
-  "fetched_at": "2026-09-21T11:08:15+00:00"
+  "checked_at": "2026-09-21T11:17:27+00:00",
+  "fetched_at": "2026-09-21T11:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:08:26+00:00",
-  "fetched_at": "2026-09-21T11:08:26+00:00"
+  "checked_at": "2026-09-21T11:17:40+00:00",
+  "fetched_at": "2026-09-21T11:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:08:26+00:00",
-  "fetched_at": "2026-09-21T11:08:26+00:00"
+  "checked_at": "2026-09-21T11:17:40+00:00",
+  "fetched_at": "2026-09-21T11:17:40+00:00"
  },
- "generated_at": "2026-09-21T11:08:26+00:00",
+ "generated_at": "2026-09-21T11:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
+     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
+     "date": "2026-09-20T08:15:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -169,6 +169,11 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
+     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
+     "date": "2026-09-19T05:49:00+00:00"
+    },
+    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
-     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T20:00:00+00:00"
-    },
-    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:08:16+00:00",
-  "fetched_at": "2026-09-21T11:08:16+00:00"
+  "checked_at": "2026-09-21T11:17:28+00:00",
+  "fetched_at": "2026-09-21T11:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:08:17+00:00",
-  "fetched_at": "2026-09-21T11:08:17+00:00"
+  "checked_at": "2026-09-21T11:17:29+00:00",
+  "fetched_at": "2026-09-21T11:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:08:18+00:00",
-  "fetched_at": "2026-09-21T11:08:18+00:00"
+  "checked_at": "2026-09-21T11:17:30+00:00",
+  "fetched_at": "2026-09-21T11:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:08:18+00:00",
-  "fetched_at": "2026-09-21T11:08:18+00:00"
+  "checked_at": "2026-09-21T11:17:30+00:00",
+  "fetched_at": "2026-09-21T11:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2259,7 +2259,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 93,
+     "likes": 95,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2307,8 +2307,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:08:26+00:00",
-  "fetched_at": "2026-09-21T11:08:26+00:00"
+  "checked_at": "2026-09-21T11:17:38+00:00",
+  "fetched_at": "2026-09-21T11:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,7 +2651,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:08:21+00:00",
-  "fetched_at": "2026-09-21T11:08:21+00:00"
+  "checked_at": "2026-09-21T11:17:34+00:00",
+  "fetched_at": "2026-09-21T11:17:34+00:00"
  }
 };
