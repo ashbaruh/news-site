@@ -2,102 +2,157 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-09-20T1425__yemen-202609201425.json",
+  "draft": "drafts/yemen/2026-09-21T0523__yemen-202609210523.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-09-20T14:25:13+00:00",
+   "generated_at": "2026-09-21T05:23:04+00:00",
    "window": {
-    "from": "2026-09-19T14:25:13+00:00",
-    "to": "2026-09-20T14:25:13+00:00"
+    "from": "2026-09-20T05:23:04+00:00",
+    "to": "2026-09-21T05:23:04+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "yemen-202609201425"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "yemen-202609210523"
    },
-   "summary": "העימות בין החות'ים לסעודיה הוחרף משמעותית עם שיגור טילי שיוט, טילים בליסטיים וכטב\"מים לעבר ריאד וערי מפתח נוספות בממלכה. במקביל, כוחות החות'ים מנהלים מתקפה קרקעית וימית בתימן, במסגרתה השתלטו על שטחים במזרח המדינה, על רצועת החוף ועל אי אסטרטגי בים האדום מול כוחות הממשלה הנתמכים בידי ריאד. מנגד, ארצות הברית נמנעת מהתערבות צבאית ישירה חרף בקשות סעודיות, בעוד טורקיה מאותתת על נכונות להעניק סיוע הגנתי לריאד.",
+   "summary": "עימותים מחודשים מתנהלים בתימן בין החות'ים לבין הכוחות הממשלתיים והקואלציה הסעודית, לצד תקיפות חות'יות חריגות לעבר עומק סעודיה הכוללות את ריאד וינבוע. החות'ים השתלטו לאחרונה על רצועת החוף המערבית ומצר באב אל-מנדב, ומנהלים מגעים עקיפים עם ארצות הברית במטרה למנוע עימות ישיר מולה.",
    "fronts": [
     {
-     "name": "חזית תימן - ערב הסעודית",
-     "status": "הסלמה חריפה הכוללת ירי טילים וכטב\"מים לעבר ריאד, ינבוע וערים נוספות"
+     "name": "חזית החוף המערבי ומצר באב אל-מנדב",
+     "status": "פעיל, בשליטה חות'ית עם עימותים מקומיים"
     },
     {
-     "name": "חזית פנים-תימן",
-     "status": "מתקפת בזק קרקעית של החות'ים מזרחה והשתלטות על שטחים מידי כוחות הממשלה"
+     "name": "החזית הפנימית בתימן (תעז, מארב ואל-ג'או)",
+     "status": "פעיל, כולל תקיפות אוויריות וקרבות קרקע"
     },
     {
-     "name": "חזית הים האדום ובאב אל-מנדב",
-     "status": "אחיזה חות'ית ברצועת החוף ובאי אסטרטגי, תוך איום על נתיבי שיט ומצור ימי שהוכרז ביולי"
+     "name": "הזירה מול סעודיה",
+     "status": "פעיל, כולל יט טילים וכטב\"מים ותקיפות אוויריות נגדיות"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-09201425-01",
-     "title": "מתקפת טילים וכטב\"מים חות'ית לעבר ריאד ואתרים בסעודיה",
-     "summary": "החות'ים שיגרו טילים בליסטיים, טילי שיוט וכטב\"מים לעבר ריאד, ינבוע, ביש, טאיף ופראסאן. הקואליציה הסעודית הודיעה על יירוט טיל בליסטי מעל ריאד וסיכול תקיפות נוספות, בעוד עשן ואש נצפו באזור נמל התעופה בבירה.",
-     "axis": "תימן - סעודיה",
+     "id": "YEMEN-09210523-01",
+     "title": "תקיפת רכבים צבאיים של החות'ים",
+     "summary": "חטיבות הענקיות של תימן טענו כי תקפו חמישה רכבים צבאיים של החות'ים וכי כל מי שהיה עליהם נהרג.",
+     "axis": "זירת תימן והחות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-19T00:00:00+00:00",
+     "occurred_at": "2026-09-21T03:58:52+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-19T12:52:05+00:00",
-     "last_update_at": "2026-09-20T14:07:42+00:00",
-     "what_is_not_verified": "האם מאגר דלק ספציפי או שדה התעופה בריאד נפגעו ישירות, או שמדובר בנפילת שברי יירוט ועשן בסמוך.",
-     "is_new_in_window": false,
+     "first_reported_at": "2026-09-21T03:58:52+00:00",
+     "last_update_at": "2026-09-21T03:58:52+00:00",
+     "what_is_not_verified": "הטענה לאומתה רק בידי הצד המדווח.",
+     "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
-       "published_at": "2026-09-20T14:07:42+00:00"
-      },
+       "source_root_id": "fh_9b17dbf810f13db5",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-giants-brigades-claim-attacks-houthi-military-vehicles-say-all",
+       "published_at": "2026-09-21T03:58:52+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09210523-02",
+     "title": "תקיפות אוויריות באל-ג'או",
+     "summary": "תקיפות אוויריות פגעו במגדלי תקשורת במחוז אל-ג'או, הרגו ארבעה אזרחים עובדים ופצעו שלושה נוספים.",
+     "axis": "זירת תימן והחות'ים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T03:17:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T03:17:00+00:00",
+     "last_update_at": "2026-09-21T03:17:00+00:00",
+     "what_is_not_verified": "הפרטים מבוסס על דיווח של סוכנות הנתונה לשליטת החות'ים.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
-       "published_at": "2026-09-20T12:09:31+00:00"
+       "source_root_id": "or_yemen_news_agency_saba",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/four-civilians-killed-yemens-al-jawf",
+       "published_at": "2026-09-21T03:17:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09210523-03",
+     "title": "הכרזת משוואת סגר מול סגר והבטחות לשיט",
+     "summary": "החות'ים הכריזו על משוואת 'סגר מול סגר' נגד סעודיה והבטיחו שספינות אמריקאיות ובינלאומיות בים האדום ובבאב אל-מנדב בטוחות.",
+     "axis": "זירת תימן והחות'ים",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T21:35:57+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-20T21:35:57+00:00",
+     "last_update_at": "2026-09-20T21:35:57+00:00",
+     "what_is_not_verified": "לא מאומת האם הבטחות אלו יישמרו בפועל לאורך זמן.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-declare-blockade-blockade-saudi-assure-us-ships-are-safe",
+       "published_at": "2026-09-20T21:35:57+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09210523-04",
+     "title": "מתקפות אוויריות סעודיות בתימן",
+     "summary": "החות'ים דיווחו שסעודיה פתחה ב-28 תקיפות אוויריות במספר אזורים בתימן במהלך 24 שעות.",
+     "axis": "זירת תימן והחות'ים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T19:29:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-20T19:29:30+00:00",
+     "last_update_at": "2026-09-20T19:29:30+00:00",
+     "what_is_not_verified": "הנתונים מבוססים על הצהרת דובר צבאי חות'י בלבד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-28-strikes-yemen-over-24-hours",
+       "published_at": "2026-09-20T19:29:30+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
-       "published_at": "2026-09-20T09:38:42+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
-       "published_at": "2026-09-20T00:21:04+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-09-19T23:49:26+00:00"
-      },
+       "name": "מארב, תימן",
+       "lat": 15.4579,
+       "lon": 45.323
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09210523-05",
+     "title": "שיגור טילים וכטב\"מים לעבר ריאד וינבוע",
+     "summary": "החות'ים דיווחו שביצעו תקיפות טילים וכטב\"מים לעבר הבירה הסעודית ריאד ומתקן נפט מרכזי בנמל ינבוע.",
+     "axis": "זירת תימן והחות'ים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-20T14:47:05+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-20T14:47:05+00:00",
+     "last_update_at": "2026-09-20T14:47:05+00:00",
+     "what_is_not_verified": "סעודיה לא הגיבה רשמית על האירוע או על טענות החות'ים.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.newarab.com/news/saudi-arabia-confirms-yemens-houthi-rebels-tried-attack-its-capital-ballistic-missile",
-       "published_at": "2026-09-19T22:04:36+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.sabanew.net/viewstory/152621",
-       "published_at": "2026-09-19T19:45:18+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
-       "published_at": "2026-09-19T12:53:19+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_eecc6721a186025c",
-       "url": "https://t.me/alexmehacarmel/47829",
-       "published_at": "2026-09-19T12:52:05+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/iran-warns-against-new-escalation-us-and-allies",
+       "published_at": "2026-09-20T14:47:05+00:00"
       }
      ],
      "places": [
@@ -110,252 +165,14 @@ window.DB.war_published = {
        "name": "ינבוע, סעודיה",
        "lat": 24.089,
        "lon": 38.0687
-      },
-      {
-       "name": "טאיף, סעודיה",
-       "lat": 21.2703,
-       "lon": 40.4158
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09201425-02",
-     "title": "התקדמות קרקעית של החות'ים במזרח תימן והשתלטות על שטחים ואי בים האדום",
-     "summary": "החות'ים פתחו במתקפת בזק שבה השתלטו על שטחים נרחבים בתימן, התקדמו מזרחה מול כוחות הממשלה הנתמכים בידי סעודיה, והשתלטו על אי בעל חשיבות אסטרטגית בים האדום ועל אזורי חוף.",
-     "axis": "פנים תימן / הים האדום",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T15:16:03+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-19T15:16:03+00:00",
-     "last_update_at": "2026-09-20T12:24:19+00:00",
-     "what_is_not_verified": "שמו המדויק של האי שנתפס בים האדום ומספר הנפגעים המדויק בכלל הקרבות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/houthi-attacks-and-no-western-support-what-are-saudi-arabia-s-options",
-       "published_at": "2026-09-20T12:24:19+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/why-doesn-t-the-us-intervene-to-defend-saudi-arabia-against-the-houthis",
-       "published_at": "2026-09-20T12:20:38+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/us-and-saudi-arabia-lack-plan-houthi-strikes-expose-riyadhs-vulnerability",
-       "published_at": "2026-09-20T12:09:31+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/cia-chief-meets-egypts-sisi-cairo-amid-ongoing-regional-wars",
-       "published_at": "2026-09-20T11:44:11+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
-       "published_at": "2026-09-20T09:38:42+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
-       "published_at": "2026-09-19T15:16:03+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "הים האדום, תימן",
-       "lat": 12.783,
-       "lon": 45.0315
-      },
-      {
-       "name": "באב אל-מנדב, תימן",
-       "lat": 12.714,
-       "lon": 43.5008
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09201425-03",
-     "title": "ארצות הברית מפרסמת התרעות ביטחוניות נרחבות במזרח התיכון",
-     "summary": "מחלקת המדינה ושגרירויות ארה\"ב פרסמו שורת אזהרות מסע והתרעות ביטחוניות לאזרחים במספר מדינות באזור מחשש להסלמה מהירה בעקבות חידוש הלחימה והמתקפות בין החות'ים לסעודיה.",
-     "axis": "הזירה האזורית / ארה\"ב",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T05:12:44+00:00",
-     "last_update_at": "2026-09-20T12:30:25+00:00",
-     "what_is_not_verified": "האם קיצור שהותו של הנשיא טראמפ בקמפ דיוויד נבע ישירות מההסלמה הזו או מתנאי מזג אוויר.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-mideast-war",
-       "published_at": "2026-09-20T12:30:25+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/cia-chief-meets-egypts-sisi-cairo-amid-ongoing-regional-wars",
-       "published_at": "2026-09-20T11:44:11+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hjq46gpygg",
-       "published_at": "2026-09-20T06:46:29+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-cuts-short-weekend-camp-david-returns-white-house",
-       "published_at": "2026-09-20T05:22:39+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130511",
-       "published_at": "2026-09-20T05:12:44+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון, ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09201425-04",
-     "title": "טורקיה מביעה נכונות לספק מענה לצרכים צבאיים של סעודיה",
-     "summary": "שר החוץ הטורקי הקאן פידאן הצהיר כי ארצו מוכנה לסייע בריסון האיומים ולהיענות לצרכים ביטחוניים וטכניים של ריאד על רקע מתקפות החות'ים, במסגרת הסכם הגנה משותף שכולל גם את פקיסטן.",
-     "axis": "סעודיה - טורקיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T19:46:32+00:00",
-     "last_update_at": "2026-09-20T10:23:33+00:00",
-     "what_is_not_verified": "האם הועברו בקשות רשמיות ספציפיות מצד סעודיה לאספקת נשק או התערבות צבאית טורקית בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
-       "published_at": "2026-09-20T10:23:33+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
-       "published_at": "2026-09-19T20:46:58+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
-       "published_at": "2026-09-19T19:46:32+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אנקרה, טורקיה",
-       "lat": 39.9208,
-       "lon": 32.854
-      },
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09201425-05",
-     "title": "קטר וממשלת תימן מגנות את תקיפות החות'ים על סעודיה",
-     "summary": "משרד החוץ של קטר וממשלת תימן פרסמו גינויים תקיפים לשיגורי הטילים לעבר ריאד וערים נוספות בסעודיה, והגדירו אותם כהפרה בוטה של הריבונות הסעודית ושל המשפט הבינלאומי תוך הבעת תמיכה בריאד.",
-     "axis": "דיפלומטי / תימן - סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T22:57:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T22:57:29+00:00",
-     "last_update_at": "2026-09-20T14:07:42+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_8a52cb8737eb3268",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
-       "published_at": "2026-09-20T14:07:42+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_7a42df684671d3a3",
-       "url": "https://www.sabanew.net/viewstory/152622",
-       "published_at": "2026-09-19T22:57:29+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דוחה, קטר",
-       "lat": 25.2856,
-       "lon": 51.5264
-      },
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09201425-06",
-     "title": "הצהרת איום של חבר הלשכה הפוליטית של החות'ים",
-     "summary": "בכיר החות'ים חאזם אל-אסד התייחס לתקיפה בריאד, טען כי סעודיה מחמירה את מעשיה נגד העם התימני, ואיים כי הבאות יהיו גדולות יותר.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-19T14:21:41+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-19T14:21:41+00:00",
-     "last_update_at": "2026-09-19T14:25:13+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47831",
-       "published_at": "2026-09-19T14:21:41+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
       }
      ]
     }
    ],
    "not_verified": [
-    "מידת הנזק המדויקת בשדה התעופה הבינלאומי בריאד והאם מאגר דלק ספציפי הושמד.",
-    "הסיבה המדויקת והרשמית לחזרתו המוקדמת של הנשיא טראמפ מקמפ דיוויד לבית הלבן.",
-    "טענת החות'ים בדבר שריפות ענק במתקני חברת ארמקו בעיר ינבוע.",
-    "שמו ומיקומו המדויק של האי האסטרטגי בים האדום שעליו השתלטו החות'ים לפי דיווחי סי-אן-אן."
+    "הטענה הסעודית או הקואליציונית על בלימת התקיפות במלואן",
+    "מספר הנפגעים המדויק בתקיפות האוויריות והקרקעיות",
+    "טיב המגעים וההבנות המדויקות בין ארה\"ב לחות'ים דרך עומאן"
    ],
    "map": {
     "confidence": "low",
@@ -375,136 +192,84 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "תנועת החות'ים (אנצאר אללה)",
+     "actor": "החות'ים",
      "declared": [
-      "פגיעה באתרים רגישים ובמתקני אנרגיה בסעודיה בתגובה למצור ולתוקפנות נגד העם התימני.",
-      "אכיפת מצור ימי נגד סעודיה שהוכרז בחודש יולי."
+      "סיום הקמפיין הסעודי והסרת הסגר מעל תימן",
+      "פתיחת שדות התעופה והנמלים בתימן",
+      "הבטחת חופש שיט בים האדום ובבאב אל-מנדב לכולם מלבד סעודיה",
+      "הימנעות מעימות ישיר עם ארצות הברית"
      ],
      "inferred": [
-      "הפעלת לחץ כלכלי וצבאי על סעודיה כדי לכפות עליה ויתורים ולהרתיעה מהתערבות בתימן.",
-      "ביסוס שליטה מוחלטת בנתיבי השיט בבאב אל-מנדב ובים האדום כקלף מיקוח אזורי."
+      "הרחבת השליטה הטריטוריאלית בכל רחבי תימן",
+      "הפעלת לחץ כלכלי וביטחוני על סעודיה באמצעות פגיעה בתשתיותיה"
      ],
      "forecast": [
-      "המשך ניסיונות שיגור של טילים וכטב\"מים לעומק שטח סעודיה.",
-      "הגברת האיומים על תנועת כלי שיט בים האדום וניסיונות להרחיב את השליטה בחופי תימן."
+      "המשך מתקפות נגד סעודיה כל עוד נמשך הסגר והלחימה",
+      "ניסיון לשמר את ההבנות מול ארצות הברית כדי למנוע התערבות אמריקאית ישירה"
      ]
     },
     {
-     "actor": "ערב הסעודית והקואליציה",
-     "declared": [
-      "הגנה על ריבונות הממלכה, ביטחונה ונכסיה האזרחיים והכלכליים.",
-      "סיכול מתקפות טילים וכטב\"מים ויירוטם."
-     ],
+     "actor": "סעודיה",
+     "declared": [],
      "inferred": [
-      "בלימת ההתקדמות של החות'ים בתימן ומניעת קריסת כוחות הממשלה הנתמכים על ידה.",
-      "גיוס תמיכה צבאית וטכנולוגית מבעלות ברית דוגמת ארה\"ב וטורקיה ללא היגררות למערכה יבשתית רחבה."
+      "הגנה על תשתיות קריטיות ובירתה מפני יט טילים וכטב\"מים",
+      "בלימת ההתקדמות החות'ית בתימן ובאזור החוף"
      ],
      "forecast": [
-      "הוצאה לפועל של תקיפות תגובה משמעותיות נגד מטרות חות'יות בתימן.",
-      "הידוק שיתוף הפעולה הביטחוני עם טורקיה במסגרת ההסכם המשולש עקב היעדר מעורבות אמריקאית ישירה."
+      "המשך תקיפות אוויריות בתימן בתגובה לירי לעבר שטחה",
+      "חיפוש תמיכה מדינית וצבאית אזורית ובינלאומית מול איומי החות'ים"
      ]
     },
     {
      "actor": "ארצות הברית",
      "declared": [
-      "אזהרה מפני הסלמה מהירה באזור והגנה על אזרחים אמריקאים באמצעות התרעות מסע.",
-      "חיזוק יכולות ההרתעה הסעודיות באמצעות עסקאות נשק ואספקת מודיעין."
+      "הזהרת אזרחים מפני הסלמה אפשרית באזור",
+      "שמירה על האינטרסים שלה ושל בנות בריתה במפרץ"
      ],
      "inferred": [
-      "הימנעות ממעורבות צבאית ישירה מחודשת ומתקיפות בתימן חרף הפצרות מצד ריאד.",
-      "שמירה על נתיבי השיט הבינלאומיים ומחירי הנפט ללא כניסה לעימות כולל."
+      "רצון להימנע מחזרה למערכה צבאית ישירה ויקרה מול החות'ים בתימן כל עוד השיט האמריקאי אינו נפגע",
+      "תיווך עקיף או מתן גיבוי חלקי (כגון עסקאות אמצעי לחימה) לסעודיה במקום התערבות ישירה"
      ],
      "forecast": [
-      "המשך אספקת מודיעין וסיוע באמצעי הגנה לסעודיה לצד הימנעות מפעולה התקפית יזומה בתימן."
+      "המשך ניטור מודיעיני ומתן התראות ביטחוניות",
+      "התערבות צבאית ישירה רק אם יפגעו נכסים או כוחות אמריקאיים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-houthi-attacks-riyadh-and-civilian-infrastructure-yemen",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-28-strikes-yemen-over-24-hours",
+     "accessed_at": "2026-09-21T05:23:04+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/152622",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130511",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47831",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hjq46gpygg",
-     "accessed_at": "2026-09-20T14:25:13+00:00"
+     "url": "https://www.newarab.com/news/iran-warns-against-new-escalation-us-and-allies",
+     "accessed_at": "2026-09-21T05:23:04+00:00"
     }
    ]
   },
-  "auto": true,
-  "previous_generated_at": "2026-09-19T23:46:36+00:00",
+  "auto": false,
+  "previous_generated_at": "2026-09-20T14:25:13+00:00",
   "changes": {
-   "YEMEN-09201425-01": {
+   "YEMEN-09210523-01": {
+    "kind": "new"
+   },
+   "YEMEN-09210523-02": {
+    "kind": "new"
+   },
+   "YEMEN-09210523-03": {
+    "kind": "new"
+   },
+   "YEMEN-09210523-04": {
+    "kind": "new"
+   },
+   "YEMEN-09210523-05": {
     "kind": "same",
     "from": "shared_root",
-    "to": "shared_root",
-    "prev": "טענת החות'ים לתקיפת אתרים בריאד ובינבוע",
+    "to": "initial",
+    "prev": "מתקפת טילים וכטב\"מים חות'ית לעבר ריאד ואתרים בסעודיה",
     "score": 1.0
-   },
-   "YEMEN-09201425-02": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "קרבות עזים בדרום תימן והרוגים",
-    "score": 1.0
-   },
-   "YEMEN-09201425-03": {
-    "kind": "new"
-   },
-   "YEMEN-09201425-04": {
-    "kind": "new"
-   },
-   "YEMEN-09201425-05": {
-    "kind": "new"
-   },
-   "YEMEN-09201425-06": {
-    "kind": "new"
    }
   }
  },
@@ -832,280 +597,265 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-20T2340__ukraine-202609202340.json",
+  "draft": "drafts/ukraine/2026-09-21T1718__ukraine-202609211718.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-20T23:40:40+00:00",
+   "generated_at": "2026-09-21T17:18:52+00:00",
    "window": {
-    "from": "2026-09-19T23:40:40+00:00",
-    "to": "2026-09-20T23:40:40+00:00"
+    "from": "2026-09-20T17:18:52+00:00",
+    "to": "2026-09-21T17:18:52+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609202340"
+    "run_id": "ukraine-202609211718"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במתכונת של תקיפות אוויר נרחבות, כאשר אוקראינה ביצעה מתקפת כטב\"מים וטילים רחבת היקף על מוסקבה ומתקני אנרגיה, ובתגובה רוסיה ממשיכה להפציץ את אזור קייב. במקביל, נמשכים קרבות בחזית דונייצק ומהלכים דיפלומטיים הכוללים הטלת סנקציות חדשות על ידי ארצות הברית.",
+   "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך תקיפות אוויריות והפצצות של כוחות רוסיים על מרכזים עירוניים ותשתיות באוקראינה (כגון סלוביאנסק, חרסון וזפוריז'יה), לצד פעילות צבאית אוקראינית הכוללת תקיפות נגד מתקני אנרגיה וצבא ברוסיה. במקביל, מתקיימים דיפלומטיה ומגעים בינלאומיים סביב יוזמות הפסקת אאש אש ודרישות אמריקאיות ואחרות להגבלת תקיפות על מתקני זיקוק ברוסיה.",
    "fronts": [
     {
-     "name": "חזית קייב ומחוז קייב",
-     "status": "פעילה עם תקיפות כטב\"מים ופגיעות בתשתיות"
+     "name": "חזית המזרח (דונצק)",
+     "status": "פעיל עם תקיפות אוויריות ופגיעות במבנים"
     },
     {
-     "name": "חזית מוסקבה ורוסיה",
-     "status": "תחת מתקפות אוויריות אוקראיניות רחבות היקף"
+     "name": "חזית הדרום (חרסון וזפוריז'יה)",
+     "status": "פעיל עם הפצצות על תשתיות אזרחיות"
     },
     {
-     "name": "חזית דונייצק",
-     "status": "פעילה עם התקדמות ומבצעים הנדסיים של הכוחות האוקראיניים"
+     "name": "חזית האוויר והאנרגיה (עומק רוסיה ואוקראינה)",
+     "status": "פעיל עם תקיפות הדדיות על בסיסי רחפנים ובתי זיקוק"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09202340-01",
-     "title": "Russian parliamentary election results",
-     "summary": "Putin's ruling party is set to claim victory in parliamentary elections deemed predetermined by independent election monitors.",
-     "axis": "domestic politics",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T23:04:03+00:00",
-     "last_update_at": "2026-09-20T23:04:03+00:00",
-     "what_is_not_verified": "האם התוצאות משקפות בחירות הוגנות אינו מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_independent_election_monitors",
-       "url": "https://kyivindependent.com/putins-ruling-party-set-to-claim-victory-in-russian-parliamentary-election-in-results-deemed-predetermined/",
-       "published_at": "2026-09-20T23:04:03+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09202340-02",
-     "title": "Ukrainian attacks on DPR",
-     "summary": "The Ukrainian army attacked the DPR multiple times in the past day, resulting in civilian casualties and property damage.",
-     "axis": "frontline",
+     "id": "UKRAINE-09211718-01",
+     "title": "תקיפה אווירית בסלוביאנסק",
+     "summary": "כוחות רוסיים תקפו מתקן רפואי שאינו פעיל באמצעות פצצת אוויר מתפוצצת, מה שהביא להרס חלקי של מבנה היסטורי.",
+     "axis": "חזית המזרח",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T17:17:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T21:51:04+00:00",
-     "last_update_at": "2026-09-20T21:51:04+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_russian_official_reports",
-       "url": "https://tass.com/defense/2190351",
-       "published_at": "2026-09-20T21:51:04+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09202340-03",
-     "title": "Fires in Kyiv region from drone strikes",
-     "summary": "Russian drone strikes caused fires and damage in multiple districts of the Kyiv region.",
-     "axis": "aerial attacks",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-20T15:23:00+00:00",
-     "last_update_at": "2026-09-20T20:38:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-21T17:17:00+00:00",
+     "last_update_at": "2026-09-21T17:17:00+00:00",
+     "what_is_not_verified": "היקף הנזקים המלא אינו מאומת מעבר לדיווחים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "or_regional_authorities",
-       "url": "https://www.ukrinform.net/rubric-ato/4166116-fires-break-out-in-three-districts-of-kyiv-region.html",
-       "published_at": "2026-09-20T20:38:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_regional_authorities",
-       "url": "https://kyivindependent.com/russian-drone-attack-damages-warehouses-businesses-across-kyiv-oblast/",
-       "published_at": "2026-09-20T17:43:43+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_regional_authorities",
-       "url": "https://www.ukrinform.net/rubric-ato/4166080-fires-extinguished-in-kyiv-regions-fastiv-district-following-russian-shelling.html",
-       "published_at": "2026-09-20T17:39:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_regional_authorities",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054348/",
-       "published_at": "2026-09-20T15:23:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09202340-04",
-     "title": "Ukrainian strikes on Moscow and surrounding regions",
-     "summary": "Ukraine launched a massive drone and missile attack targeting Moscow and its oil refinery, causing fires and casualties.",
-     "axis": "strategic strikes",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-20T02:43:23+00:00",
-     "last_update_at": "2026-09-20T19:12:37+00:00",
-     "what_is_not_verified": "מספר כלי הטיס המדויק שיורטו שנוי במחלוקת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-approves-new-long-range-operations-in-response-to-russian-strikes/",
-       "published_at": "2026-09-20T19:12:37+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://tass.com/defense/2190331",
-       "published_at": "2026-09-20T17:59:25+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054358/",
-       "published_at": "2026-09-20T17:11:00+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://www.theguardian.com/world/2026/sep/20/hundreds-of-drones-target-moscow-on-last-day-of-voting-in-russias-parliamentary-election",
-       "published_at": "2026-09-20T14:44:17+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://www.theguardian.com/world/video/2026/sep/20/drone-attacks-damage-major-moscow-refinery-video",
-       "published_at": "2026-09-20T14:30:53+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://t.me/alexmehacarmel/47877",
-       "published_at": "2026-09-20T13:11:11+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://t.me/alexmehacarmel/47873",
-       "published_at": "2026-09-20T11:48:01+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-09-20T10:45:39+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://meduza.io/en/feature/2026/09/20/on-the-third-day-of-russia-s-parliamentary-elections-moscow-came-under-what-its-mayor-called-the-largest-ukrainian-drone-attack-on-the-capital-officials-reported-two-deaths",
-       "published_at": "2026-09-20T08:12:19+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://t.me/abualiexpress/130525",
-       "published_at": "2026-09-20T07:59:01+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21457832",
-       "published_at": "2026-09-20T07:38:44+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://t.me/alexmehacarmel/47863",
-       "published_at": "2026-09-20T02:46:38+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_ukrainian_sources",
-       "url": "https://t.me/alexmehacarmel/47856",
-       "published_at": "2026-09-20T02:43:23+00:00"
+       "source_root_id": "fh_a3e3029943a92f5f",
+       "url": "https://www.ukrinform.net/rubric-ato/4166409-russians-dropped-aerial-bomb-on-historic-building-in-sloviansk.html",
+       "published_at": "2026-09-21T17:17:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "סלוביאנסק, אוקראינה",
+       "lat": 48.8523,
+       "lon": 37.6058
       }
      ]
     },
     {
-     "id": "UKRAINE-09202340-05",
-     "title": "Ukrainian offensive in Donetsk Oblast",
-     "summary": "Ukraine's 3rd Army Corps deployed air-dropped kamikaze UGVs during the Vivaldi offensive operation, liberating villages.",
-     "axis": "frontline",
+     "id": "UKRAINE-09211718-02",
+     "title": "פגיעה במבנה מגורים בסלוביאנסק",
+     "summary": "פגיעת רחפן רוסי בבניין מגורים בן חמש קומות גרמה למותו של אדם שנלכד תחת ההריסות.",
+     "axis": "חזית המזרח",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-20T13:55:00+00:00",
-     "last_update_at": "2026-09-20T13:55:00+00:00",
+     "occurred_at": "2026-09-21T16:10:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T16:10:00+00:00",
+     "last_update_at": "2026-09-21T16:10:00+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_3rd_army_corps",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/",
-       "published_at": "2026-09-20T13:55:00+00:00"
+       "source_root_id": "fh_b537fdbef6b37df0",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054491/",
+       "published_at": "2026-09-21T16:10:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סלוביאנסק, אוקראינה",
+       "lat": 48.8523,
+       "lon": 37.6058
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09211718-03",
+     "title": "תקיפה באזור בוריספיל",
+     "summary": "שרפה במתקן מחסן באזור בוריספיל כובתה לאחר מתקפה רוסית.",
+     "axis": "חזית קייב / מרכז אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T16:19:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T16:19:00+00:00",
+     "last_update_at": "2026-09-21T16:19:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_a7aa585405b329b8",
+       "url": "https://www.ukrinform.net/rubric-ato/4166389-fire-at-warehouse-in-boryspil-district-extinguished-after-russian-attack.html",
+       "published_at": "2026-09-21T16:19:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בוריספיל, אוקראינה",
+       "lat": 50.3512,
+       "lon": 30.9508
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09211718-04",
+     "title": "תקיפת מתקן בצורת' אובלאסט",
+     "summary": "צילומי לוויין תיעדו נזק לבונקרים, מחסנים ואזור שיגור רחפנים בבסיס הרחפנים צימבולובו.",
+     "axis": "העורק הרוסי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T16:13:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T16:13:00+00:00",
+     "last_update_at": "2026-09-21T16:13:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_ukrainian_telegram_channel_absolutely_re",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
+       "published_at": "2026-09-21T16:13:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09202340-06",
-     "title": "US sanctions on Russia",
-     "summary": "US President Donald Trump signed the new 'sanctions from hell' law against Russia, authorizing expanded tariffs and prohibitions.",
-     "axis": "sanctions",
+     "id": "UKRAINE-09211718-05",
+     "title": "תקיפות באזור חרסון",
+     "summary": "כוחות רוסיים תקפו מבני מגורים, כנסייה, בית חולים ומבנים נוספים באזור חרסון, וכתוצאה מכך נפצעו שלושה אזרחים.",
+     "axis": "חזית הדרום",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T15:59:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-20T00:56:46+00:00",
-     "last_update_at": "2026-09-20T00:56:46+00:00",
+     "first_reported_at": "2026-09-21T15:59:00+00:00",
+     "last_update_at": "2026-09-21T15:59:00+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_white_house_statement",
-       "url": "https://meduza.io/en/feature/2026/09/20/trump-signs-washington-s-long-awaited-sanctions-from-hell-law-against-russia-it-gives-him-30-days-to-act-and-broad-authority-to-suspend-the-restrictions",
-       "published_at": "2026-09-20T00:56:46+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_11a4363cc92b286e",
+       "url": "https://www.ukrinform.net/rubric-ato/4166380-russians-attack-church-hospital-and-homes-in-kherson-region-injuring-three-people.html",
+       "published_at": "2026-09-21T15:59:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון",
-       "lat": 38.8951,
-       "lon": -77.0364
+       "name": "מחוז חרסון, אוקראינה",
+       "lat": 46.6375,
+       "lon": 32.6144
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09211718-06",
+     "title": "נזק למתקנים אזרחיים בזפוריז'יה",
+     "summary": "למעלה מ-50 מתקנים אזרחיים, בהם בנייני מגורים ובתים פרטיים, נגרם נזק כתוצאה מתקיפה בלילה.",
+     "axis": "חזית זפוריז'יה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T15:39:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T15:39:00+00:00",
+     "last_update_at": "2026-09-21T15:39:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_6fc34b936668e0c3",
+       "url": "https://www.ukrinform.net/rubric-ato/4166377-more-than-50-civilian-facilities-damaged-in-zaporizhzhia-as-result-of-russian-attack.html",
+       "published_at": "2026-09-21T15:39:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09211718-07",
+     "title": "תקיפה במחוז בוצ'ה",
+     "summary": "שרפה פרצה במתקן במחוז בוצ'ה בעקבות מתקפה רוסית.",
+     "axis": "חזית קייב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T14:57:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T14:57:00+00:00",
+     "last_update_at": "2026-09-21T14:57:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_17d9258a9e0a41ed",
+       "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
+       "published_at": "2026-09-21T14:57:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מחוז בוצ'ה, אוקראינה",
+       "lat": 50.5449,
+       "lon": 29.8987
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09211718-08",
+     "title": "תוצאות הבחירות ברוסיה",
+     "summary": "מפלגת רוסיה המאוחדת זכתה ברוב בבחירות לפרלמנט הרוסי, כאשר עשרות מוותיקי המלחמה נבחרו לפרלמנט.",
+     "axis": "העורף הרוסי",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T13:11:57+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T13:40:39+00:00",
+     "last_update_at": "2026-09-21T13:40:39+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+       "published_at": "2026-09-21T13:40:39+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
    ],
    "not_verified": [
-    "מספר כלי הטיס המדויק ששוגרו ויורטו בתקיפה על מוסקבה",
-    "היקף הנזק המדויק בבתי הזיקוק במוסקבה",
-    "מספר הנפגעים המדויק בכל זירות התקיפה"
+    "ההערכות המודיעיניות האירופיות על מועד אפשרי למתח רוסית נגד נאט\"ו (תוך חודשים)",
+    "האם עסקאות הדשן והפוטש בין ארה\"ב לבלארוס ימומשו במלואן ובאילו תנאים"
    ],
    "map": {
     "confidence": "high",
@@ -1116,115 +866,86 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.146,
+     "value": 1.149,
      "unit": "USD",
-     "change_pct": -0.18,
+     "change_pct": 0.26,
      "source_id": "src_ecb",
-     "as_of": "2026-09-18T15:00:00+00:00"
+     "as_of": "2026-09-21T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "ביצוע פעולות ארוכות טווח בתגובה לתקיפות רוסיות",
-      "הגנה על שטחי המדינה ושחרור שטחים במסגרת מבצעים כמו ויוואלדי"
+      "נכונות להסדר שלום ודה-אסקלציה בתנאים הדדיים",
+      "המשך הגנה על שטחי המדינה"
      ],
      "inferred": [
-      "פגיעה בתשתיות אסטרטגיות וכלכליות בתוך רוסיה כדי לשבש את עורף האויב ולהשפיע על הלחימה"
+      "פגיעה בתשתיות האנרגיה והתעשייה של רוסיה כדי לשבש את המאמץ המלחמתי"
      ],
      "forecast": [
-      "המשך שימוש ברחפנים ובאמצעים מתקדמים לתקיפת עומק ברוסיה",
-      "חיפוש תמיכה בינלאומית וחיזוק הסיוע הכלכלי והצבאי"
+      "המשך ניסיונות להשיג סיוע כספי וצבאי מערבי",
+      "המשך תקיפות ממוקדות בעומק רוסיה"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "המשך הפעילות הצבאית המיוחדת",
-      "קיום בחירות פרלמנטריות והשתלטות על שטחים אוקראיניים"
+      "המשך המבצע הצבאי המיוחד והשגת יעדי השלטון"
      ],
      "inferred": [
-      "הגברת התקיפות על מטרות צבאיות ואזרחיות בקייב בתגובה למתקפות על מוסקבה"
+      "ביסוס השליטה הפוליטית הפנימית באמצעות תוצאות הבחירות ושילוב וותיקי מלחמה",
+      "הרחבת התשתיות לייצור אמצעי לחימה ורחפנים"
      ],
      "forecast": [
-      "החרפת התקיפות האוויריות על תשתיות באוקראינה לקראת חודשי החורף",
-      "המשך ניסיונות לחץ צבאי לאורך החזיתות היבשתיות"
+      "הגברת הלחץ הצבאי בחזיתות השונות באוקראינה",
+      "התאמת חקיקת המס לכיסוי הוצאות הגנה ותיקון מתקנים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/video/2026/sep/20/drone-attacks-damage-major-moscow-refinery-video",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21457832",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-approves-new-long-range-operations-in-response-to-russian-strikes/",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_meduza",
-     "url": "https://meduza.io/en/feature/2026/09/20/trump-signs-washington-s-long-awaited-sanctions-from-hell-law-against-russia-it-gives-him-30-days-to-act-and-broad-authority-to-suspend-the-restrictions",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+     "accessed_at": "2026-09-21T17:18:52+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_tass",
-     "url": "https://tass.com/defense/2190331",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130525",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47856",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
+     "accessed_at": "2026-09-21T17:18:52+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4166080-fires-extinguished-in-kyiv-regions-fastiv-district-following-russian-shelling.html",
-     "accessed_at": "2026-09-20T23:40:40+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
+     "accessed_at": "2026-09-21T17:18:52+00:00"
     }
    ]
   },
-  "auto": true,
-  "previous_generated_at": "2026-09-19T10:52:54+00:00",
+  "auto": false,
+  "previous_generated_at": "2026-09-20T23:40:40+00:00",
   "changes": {
-   "UKRAINE-09202340-01": {
+   "UKRAINE-09211718-01": {
     "kind": "new"
    },
-   "UKRAINE-09202340-02": {
+   "UKRAINE-09211718-02": {
     "kind": "new"
    },
-   "UKRAINE-09202340-03": {
+   "UKRAINE-09211718-03": {
     "kind": "new"
    },
-   "UKRAINE-09202340-04": {
+   "UKRAINE-09211718-04": {
     "kind": "new"
    },
-   "UKRAINE-09202340-05": {
+   "UKRAINE-09211718-05": {
     "kind": "new"
    },
-   "UKRAINE-09202340-06": {
+   "UKRAINE-09211718-06": {
+    "kind": "new"
+   },
+   "UKRAINE-09211718-07": {
+    "kind": "new"
+   },
+   "UKRAINE-09211718-08": {
     "kind": "new"
    }
   }
