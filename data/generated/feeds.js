@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:17:08+00:00",
-  "fetched_at": "2026-09-21T00:17:08+00:00"
+  "checked_at": "2026-09-21T00:31:51+00:00",
+  "fetched_at": "2026-09-21T00:31:51+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:17:19+00:00",
-  "fetched_at": "2026-09-21T00:17:19+00:00"
+  "checked_at": "2026-09-21T00:32:03+00:00",
+  "fetched_at": "2026-09-21T00:32:03+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:17:19+00:00",
-  "fetched_at": "2026-09-21T00:17:19+00:00"
+  "checked_at": "2026-09-21T00:32:03+00:00",
+  "fetched_at": "2026-09-21T00:32:03+00:00"
  },
- "generated_at": "2026-09-21T00:17:19+00:00",
+ "generated_at": "2026-09-21T00:32:03+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:17:09+00:00",
-  "fetched_at": "2026-09-21T00:17:09+00:00"
+  "checked_at": "2026-09-21T00:31:52+00:00",
+  "fetched_at": "2026-09-21T00:31:52+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:17:10+00:00",
-  "fetched_at": "2026-09-21T00:17:10+00:00"
+  "checked_at": "2026-09-21T00:31:53+00:00",
+  "fetched_at": "2026-09-21T00:31:53+00:00"
  },
  "tv": {
   "data": [
@@ -2018,8 +2018,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T00:17:10+00:00",
-  "fetched_at": "2026-09-21T00:17:10+00:00"
+  "checked_at": "2026-09-21T00:31:54+00:00",
+  "fetched_at": "2026-09-21T00:31:54+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2109,8 +2109,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:17:10+00:00",
-  "fetched_at": "2026-09-21T00:17:10+00:00"
+  "checked_at": "2026-09-21T00:31:54+00:00",
+  "fetched_at": "2026-09-21T00:31:54+00:00"
  },
  "ai": {
   "data": {
@@ -2139,7 +2139,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 451,
+     "likes": 452,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2174,7 +2174,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 94,
+     "likes": 95,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:17:18+00:00",
-  "fetched_at": "2026-09-21T00:17:18+00:00"
+  "checked_at": "2026-09-21T00:32:01+00:00",
+  "fetched_at": "2026-09-21T00:32:01+00:00"
  },
  "abroad": {
   "data": {
@@ -2552,7 +2552,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T00:17:15+00:00",
-  "fetched_at": "2026-09-21T00:17:15+00:00"
+  "checked_at": "2026-09-21T00:31:58+00:00",
+  "fetched_at": "2026-09-21T00:31:58+00:00"
  }
 };
