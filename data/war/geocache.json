@@ -3,6 +3,8 @@
 12.7896,
 45.0285
 ],
+"al-eis, syria": null,
+"al-jawf, yemen": null,
 "al-khawkhah, yemen": [
 13.8056,
 43.3474
@@ -14,6 +16,10 @@
 "al-sanamayn, syria": [
 33.0732,
 36.1834
+],
+"aleppo, syria": [
+36.1992,
+37.1637
 ],
 "ankara, turkey": [
 39.9208,
@@ -292,6 +298,7 @@
 32.0878,
 34.886
 ],
+"quneitra, syria": null,
 "red sea, yemen": [
 12.783,
 45.0315
