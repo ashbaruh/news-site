@@ -1,0 +1,257 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8c0b08636c99",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-21T05:23:04+00:00",
+  "window": {
+   "from": "2026-09-20T05:23:04+00:00",
+   "to": "2026-09-21T05:23:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609210523"
+  },
+  "summary": "עימותים מחודשים מתנהלים בתימן בין החות'ים לבין הכוחות הממשלתיים והקואלציה הסעודית, לצד תקיפות חות'יות חריגות לעבר עומק סעודיה הכוללות את ריאד וינבוע. החות'ים השתלטו לאחרונה על רצועת החוף המערבית ומצר באב אל-מנדב, ומנהלים מגעים עקיפים עם ארצות הברית במטרה למנוע עימות ישיר מולה.",
+  "fronts": [
+   {
+    "name": "חזית החוף המערבי ומצר באב אל-מנדב",
+    "status": "פעיל, בשליטה חות'ית עם עימותים מקומיים"
+   },
+   {
+    "name": "החזית הפנימית בתימן (תעז, מארב ואל-ג'או)",
+    "status": "פעיל, כולל תקיפות אוויריות וקרבות קרקע"
+   },
+   {
+    "name": "הזירה מול סעודיה",
+    "status": "פעיל, כולל יט טילים וכטב\"מים ותקיפות אוויריות נגדיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09210523-01",
+    "title": "תקיפת רכבים צבאיים של החות'ים",
+    "summary": "חטיבות הענקיות של תימן טענו כי תקפו חמישה רכבים צבאיים של החות'ים וכי כל מי שהיה עליהם נהרג.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T03:58:52+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T03:58:52+00:00",
+    "last_update_at": "2026-09-21T03:58:52+00:00",
+    "what_is_not_verified": "הטענה לאומתה רק בידי הצד המדווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9b17dbf810f13db5",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-giants-brigades-claim-attacks-houthi-military-vehicles-say-all",
+      "published_at": "2026-09-21T03:58:52+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09210523-02",
+    "title": "תקיפות אוויריות באל-ג'או",
+    "summary": "תקיפות אוויריות פגעו במגדלי תקשורת במחוז אל-ג'או, הרגו ארבעה אזרחים עובדים ופצעו שלושה נוספים.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T03:17:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T03:17:00+00:00",
+    "last_update_at": "2026-09-21T03:17:00+00:00",
+    "what_is_not_verified": "הפרטים מבוסס על דיווח של סוכנות הנתונה לשליטת החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_yemen_news_agency_saba",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/four-civilians-killed-yemens-al-jawf",
+      "published_at": "2026-09-21T03:17:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09210523-03",
+    "title": "הכרזת משוואת סגר מול סגר והבטחות לשיט",
+    "summary": "החות'ים הכריזו על משוואת 'סגר מול סגר' נגד סעודיה והבטיחו שספינות אמריקאיות ובינלאומיות בים האדום ובבאב אל-מנדב בטוחות.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T21:35:57+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T21:35:57+00:00",
+    "last_update_at": "2026-09-20T21:35:57+00:00",
+    "what_is_not_verified": "לא מאומת האם הבטחות אלו יישמרו בפועל לאורך זמן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-declare-blockade-blockade-saudi-assure-us-ships-are-safe",
+      "published_at": "2026-09-20T21:35:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09210523-04",
+    "title": "מתקפות אוויריות סעודיות בתימן",
+    "summary": "החות'ים דיווחו שסעודיה פתחה ב-28 תקיפות אוויריות במספר אזורים בתימן במהלך 24 שעות.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T19:29:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T19:29:30+00:00",
+    "last_update_at": "2026-09-20T19:29:30+00:00",
+    "what_is_not_verified": "הנתונים מבוססים על הצהרת דובר צבאי חות'י בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-28-strikes-yemen-over-24-hours",
+      "published_at": "2026-09-20T19:29:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "מארב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09210523-05",
+    "title": "שיגור טילים וכטב\"מים לעבר ריאד וינבוע",
+    "summary": "החות'ים דיווחו שביצעו תקיפות טילים וכטב\"מים לעבר הבירה הסעודית ריאד ומתקן נפט מרכזי בנמל ינבוע.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T14:47:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T14:47:05+00:00",
+    "last_update_at": "2026-09-20T14:47:05+00:00",
+    "what_is_not_verified": "סעודיה לא הגיבה רשמית על האירוע או על טענות החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-warns-against-new-escalation-us-and-allies",
+      "published_at": "2026-09-20T14:47:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה הסעודית או הקואליציונית על בלימת התקיפות במלואן",
+   "מספר הנפגעים המדויק בתקיפות האוויריות והקרקעיות",
+   "טיב המגעים וההבנות המדויקות בין ארה\"ב לחות'ים דרך עומאן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "סיום הקמפיין הסעודי והסרת הסגר מעל תימן",
+     "פתיחת שדות התעופה והנמלים בתימן",
+     "הבטחת חופש שיט בים האדום ובבאב אל-מנדב לכולם מלבד סעודיה",
+     "הימנעות מעימות ישיר עם ארצות הברית"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית בכל רחבי תימן",
+     "הפעלת לחץ כלכלי וביטחוני על סעודיה באמצעות פגיעה בתשתיותיה"
+    ],
+    "forecast": [
+     "המשך מתקפות נגד סעודיה כל עוד נמשך הסגר והלחימה",
+     "ניסיון לשמר את ההבנות מול ארצות הברית כדי למנוע התערבות אמריקאית ישירה"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [],
+    "inferred": [
+     "הגנה על תשתיות קריטיות ובירתה מפני יט טילים וכטב\"מים",
+     "בלימת ההתקדמות החות'ית בתימן ובאזור החוף"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות בתימן בתגובה לירי לעבר שטחה",
+     "חיפוש תמיכה מדינית וצבאית אזורית ובינלאומית מול איומי החות'ים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הזהרת אזרחים מפני הסלמה אפשרית באזור",
+     "שמירה על האינטרסים שלה ושל בנות בריתה במפרץ"
+    ],
+    "inferred": [
+     "רצון להימנע מחזרה למערכה צבאית ישירה ויקרה מול החות'ים בתימן כל עוד השיט האמריקאי אינו נפגע",
+     "תיווך עקיף או מתן גיבוי חלקי (כגון עסקאות אמצעי לחימה) לסעודיה במקום התערבות ישירה"
+    ],
+    "forecast": [
+     "המשך ניטור מודיעיני ומתן התראות ביטחוניות",
+     "התערבות צבאית ישירה רק אם יפגעו נכסים או כוחות אמריקאיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-28-strikes-yemen-over-24-hours",
+    "accessed_at": "2026-09-21T05:23:04+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iran-warns-against-new-escalation-us-and-allies",
+    "accessed_at": "2026-09-21T05:23:04+00:00"
+   }
+  ]
+ }
+}
