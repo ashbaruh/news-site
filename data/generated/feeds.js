@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T20:17:26+00:00",
-  "fetched_at": "2026-09-21T20:17:26+00:00"
+  "checked_at": "2026-09-21T21:06:08+00:00",
+  "fetched_at": "2026-09-21T21:06:08+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T20:17:41+00:00",
-  "fetched_at": "2026-09-21T20:17:41+00:00"
+  "checked_at": "2026-09-21T21:06:21+00:00",
+  "fetched_at": "2026-09-21T21:06:21+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T20:17:41+00:00",
-  "fetched_at": "2026-09-21T20:17:41+00:00"
+  "checked_at": "2026-09-21T21:06:21+00:00",
+  "fetched_at": "2026-09-21T21:06:21+00:00"
  },
- "generated_at": "2026-09-21T20:17:41+00:00",
+ "generated_at": "2026-09-21T21:06:21+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-21T18:21:00+00:00"
+     "date": "2026-09-21T20:30:00+00:00"
     },
     {
      "title": "למרות בקשת יורש העצר: טראמפ עצר מתקפה נגד החות'ים",
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ביטקוין בשיא של 8 חודשים, עליות בוול סטריט; והאזהרה: מימוש חזק ומהיר בדרך",
+     "title": "הנאסד\"ק זינק במעל 2% לשיא חדש; מניות השבבים קפצו בהובלת מטא ואינטל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
-     "date": "2026-09-21T18:35:00+00:00"
+     "date": "2026-09-21T20:00:00+00:00"
     },
     {
      "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T20:17:30+00:00",
-  "fetched_at": "2026-09-21T20:17:30+00:00"
+  "checked_at": "2026-09-21T21:06:09+00:00",
+  "fetched_at": "2026-09-21T21:06:09+00:00"
  },
  "ifa": {
   "data": [
@@ -1870,8 +1870,9 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-21T20:17:31+00:00",
+  "ok": false,
+  "error": "ONE: מעט מדי משחקים — ייתכן שמבנה הנתונים השתנה",
+  "checked_at": "2026-09-21T21:06:10+00:00",
   "fetched_at": "2026-09-21T20:17:31+00:00"
  },
  "tv": {
@@ -2102,8 +2103,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T20:17:32+00:00",
-  "fetched_at": "2026-09-21T20:17:32+00:00"
+  "checked_at": "2026-09-21T21:06:11+00:00",
+  "fetched_at": "2026-09-21T21:06:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,12 +2209,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T20:17:32+00:00",
-  "fetched_at": "2026-09-21T20:17:32+00:00"
+  "checked_at": "2026-09-21T21:06:11+00:00",
+  "fetched_at": "2026-09-21T21:06:11+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
+     "date": "2026-09-20T06:51:39+00:00",
+     "launch": false,
+     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2224,16 +2232,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 4,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 463,
+     "likes": 464,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2247,7 +2253,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 103,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2302,8 +2308,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T20:17:40+00:00",
-  "fetched_at": "2026-09-21T20:17:40+00:00"
+  "checked_at": "2026-09-21T21:06:19+00:00",
+  "fetched_at": "2026-09-21T21:06:19+00:00"
  },
  "abroad": {
   "data": {
@@ -2646,8 +2652,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T20:17:36+00:00",
-  "fetched_at": "2026-09-21T20:17:36+00:00"
+  "checked_at": "2026-09-21T21:06:15+00:00",
+  "fetched_at": "2026-09-21T21:06:15+00:00"
  },
  "idf": {
   "data": [
@@ -2678,7 +2684,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T20:17:37+00:00",
-  "fetched_at": "2026-09-21T20:17:37+00:00"
+  "checked_at": "2026-09-21T21:06:15+00:00",
+  "fetched_at": "2026-09-21T21:06:15+00:00"
  }
 };
