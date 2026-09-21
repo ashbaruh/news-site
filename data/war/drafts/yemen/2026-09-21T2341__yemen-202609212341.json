@@ -1,0 +1,345 @@
+{
+ "status": "draft",
+ "received_sha256_12": "67c7c0de3a9f",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 4,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-21T23:41:12+00:00",
+  "window": {
+   "from": "2026-09-20T23:41:12+00:00",
+   "to": "2026-09-21T23:41:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609212341"
+  },
+  "summary": "הלחימה בתימן מחריפה בעקבות מתקפה קרקעית רחבה של החות'ים שבה השתלטו על שטחים אסטרטגיים לאורך חוף הים האדום ומצר באב אל-מנדב, לצד שיגור תקיפות לעבר ערב הסעודית. סעודיה פנתה לסיוע צבאי חיצוני וקיבלה תמיכה הגנתית מבריטניה, בעוד שארה\"ב שקלה התערבות צבאית אך נסוגה מכך ברגע האחרון מחשש להסלמה רחבה יותר מול איראן. במקביל, המשבר יוצר גלי עקורים המוניים ופוגע בתנועת הסחר הימית בים האדום.",
+  "fronts": [
+   {
+    "name": "חזית חוף הים האדום ומצר באב אל-מנדב",
+    "status": "פעילה ומתקדמת בהשתלטות החות'ים"
+   },
+   {
+    "name": "החזית החות'ית מול סעודיה",
+    "status": "פעילה עם שיגור טילים ורחפנים לעבר ערב הסעודית"
+   },
+   {
+    "name": "החזית הפנימית בתימן (טאיז ואזורים נוספים)",
+    "status": "פעילה עם עימותים קרקעיים ופעילות רחפנים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09212341-01",
+    "title": "תקיפה אווירית סעודית בשוק מקומי",
+    "summary": "החות'ים פרסמו תיעוד שלטענתם מציג תקיפה אווירית סעודית בשוק מקומי בכפר סמוך לבאב אל-מנדב.",
+    "axis": "הזירה בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T23:40:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T23:40:36+00:00",
+    "last_update_at": "2026-09-21T23:40:36+00:00",
+    "what_is_not_verified": "נכונות הטענה שמדובר בתקיפה סעודית והאם נגרם נזק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-air-strike-targets-local-market-village-near-bab-al-mandeb-yemen",
+      "published_at": "2026-09-21T23:40:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09212341-02",
+    "title": "הסכמת בריטניה לספק תדלוק אווירי הגנתי לסעודיה",
+    "summary": "ראש ממשלת בריטניה הודיע על הסכמה לבקשת סעודיה לספק תדלוק אווירי הגנתי זמני כדי לסייע בבלימת התקפות רחפנים וטילים של החות'ים.",
+    "axis": "סעודיה-בריטניה-החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T21:03:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T21:03:49+00:00",
+    "last_update_at": "2026-09-21T23:30:21+00:00",
+    "what_is_not_verified": "היקף הביצוע בפועל של המשימות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/uk-agrees-support-saudi-struggle-houthis-reports",
+      "published_at": "2026-09-21T23:30:21+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uks-burnham-agrees-saudi-request-refuelling-support",
+      "published_at": "2026-09-21T22:24:10+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/uks-burnham-agrees-saudi-request-refuelling-support",
+      "published_at": "2026-09-21T21:46:32+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+      "published_at": "2026-09-21T21:33:09+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369352",
+      "published_at": "2026-09-21T21:03:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09212341-03",
+    "title": "דרישה אירופית להגדלת כוח המשימה הימי בים האדום",
+    "summary": "ראש המדיניות החוץ של האיחוד האירופי ציינה כי המשימה הימית בים האדום זקוקה ליותר מעשרה כלי שיט מלחמתיים בשל החמרה במצב.",
+    "axis": "הים האדום",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T22:46:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T22:46:28+00:00",
+    "last_update_at": "2026-09-21T22:46:28+00:00",
+    "what_is_not_verified": "האם יוקצו כלי שיט נוספים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/eus-kallas-says-red-sea-naval-mission-needs-more-10-ships",
+      "published_at": "2026-09-21T22:46:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09212341-04",
+    "title": "יירוט רחפון חות'י בטאיז",
+    "summary": "כוחות ממשלת תימן הודיעו כי הפילו כלי טיס בלתי מאויש של החות'ים במרחב אל-כדחה שבמחוז טאיז.",
+    "axis": "הזירה בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T16:13:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:13:24+00:00",
+    "last_update_at": "2026-09-21T16:13:24+00:00",
+    "what_is_not_verified": "פרטים נוספים על תוצאות היירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-say-houthi-drone-shot-down",
+      "published_at": "2026-09-21T16:13:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09212341-05",
+    "title": "ביטול תקיפה אמריקאית מתוכננת בתימן ברגע האחרון",
+    "summary": "נשיא ארה\"ב דונלד טראמפ הורה לפנטגון להיערך לתקיפה בתימן לבקשת סעודיה, אך חזר בו וביטל את הפעולה ברגע האחרון עקב חשש מהסלמה מול איראן.",
+    "axis": "ארה\"ב-תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T16:08:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T16:08:03+00:00",
+    "last_update_at": "2026-09-21T16:13:06+00:00",
+    "what_is_not_verified": "האם התוכניות הצבאיות יוחזרו לשולחן בהמשך",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r16yyhrkze",
+      "published_at": "2026-09-21T16:13:06+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
+      "published_at": "2026-09-21T16:13:06+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21459391",
+      "published_at": "2026-09-21T16:08:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09212341-06",
+    "title": "גינוי האו\"ם להתקפה חות'ית על ריאד וגל עקורים בתימן",
+    "summary": "האו\"ם גינה את התקפת החות'ים נגד סעודיה לרבות ניסיון פגיעה בריאד, ודיווח על זינוק במספר העקורים בתוך תימן למעל 130,000.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T12:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T12:00:00+00:00",
+    "last_update_at": "2026-09-21T12:00:00+00:00",
+    "what_is_not_verified": "מספר נפגעים מדויק כתוצאה מהתקיפה על ריאד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168387",
+      "published_at": "2026-09-21T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק ממתקפות החות'ים בריאד ובמתקני הדלק הסעודיים",
+   "מספר הנפגעים המדויק בלחימה האחרונה בתימן",
+   "האם ארה\"ב תחדש את תוכניות התקיפה בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0115,
+    "unit": "ILS",
+    "change_pct": -0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "מצור תמורת מצור ודרישה לפתיחת נמלים ושדות תעופה"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית לאורך חוף הים האדום ומצר באב אל-מנדב",
+     "הפעלת לחץ כלכלי וצבאי על סעודיה ועל נתיבי השיח הבינלאומיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות ביסוס השליטה בנתיבי הימאות בדרום ים האדום",
+     "שימור לחץ צבאי באמצעות כטב\"מים וטילים"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "בקשת סיוע צבאי והגנתי מבעלות ברית לבלימת התקפות החות'ים"
+    ],
+    "inferred": [
+     "חשש מפגיעה אקוטית בתשתיות אנרגיה וכלכלה",
+     "ניסיון לבלום את ההתקדמות החות'ית בתימן באמצעים מדיניים וצבאיים"
+    ],
+    "forecast": [
+     "הסתמכות מוגברת על מערכות הגנה וגיבוי זרות כמו בריטניה",
+     "בחינת פתרונות מדיניים מול האיום החות'י"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [],
+    "inferred": [
+     "זהירות מפני הסלמה רחבה שתגרור עימות ישיר ומורחב מול איראן",
+     "התלבטות באשר להיקף המעורבות הישירה בלחימה בתימן לצד סעודיה"
+    ],
+    "forecast": [
+     "הימנעות מתקיפות ישירות בתימן בטווח הקצר כל עוד אין שינוי בהערכת הסיכון מול איראן"
+    ]
+   },
+   {
+    "actor": "בריטניה",
+    "declared": [
+     "מתן תמיכה הגנתית ותדלוק אווירי לזכות בייצוב האזור ובלימת התקפות על סעודיה"
+    ],
+    "inferred": [
+     "רצון לשמור על זרימת האנרגיה מהמפרץ ולמנוע זעזועים כלכליים נוספים"
+    ],
+    "forecast": [
+     "הפעלת משימות תדלוק אווירי הגנתי בלבד בהתאם לבקשה הסעודית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/eus-kallas-says-red-sea-naval-mission-needs-more-10-ships",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21459391",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369352",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-say-houthi-drone-shot-down",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/09/1168387",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
+    "accessed_at": "2026-09-21T23:41:12+00:00"
+   }
+  ]
+ }
+}
