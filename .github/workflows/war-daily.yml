@@ -46,6 +46,10 @@ jobs:
     timeout-minutes: 70         # הניתוח נחתך ב-55; נשאר זמן לשמירה ולבקשת האישור
     steps:
       - uses: actions/checkout@v5
+        with:
+          # הגרסה העדכנית — לא זו מרגע ההפעלה. ריצה שחיכתה בתור (concurrency) צריכה לראות
+          # שהמועד כבר בוצע ע"י הריצה שלפניה, אחרת היא קוראת לבינה שוב ודורסת את הסטטוס (21/09/2026, 18:32).
+          ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"

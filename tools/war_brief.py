@@ -130,7 +130,7 @@ def build_arena(arena, items, events, window_hours, now, known, geocode=None):
     # אותיות זרות נבדקות בפלט הגולמי, לפני הניקוי: הניקוי ממיר ערבית לעברית בשקט ("اليمن" → "אלימן"),
     # ומשפט פגום היה נראה תקין. פלט כזה נדחה ולא מתוקן (הצעה מהביקורת החיצונית, 18/09/2026).
     raw_bad = sum(1 for e in (events or [])[:MAX_PER_ARENA] if isinstance(e, dict)
-                  for t in (e.get("title"), e.get("summary")) if wa.FOREIGN.search(str(t or "")))
+                  for t in (e.get("title"), e.get("summary")) if wa.bad_text(t))
     if raw_bad:
         return None, f"אותיות בשפה זרה בתוך הטקסט העברי ({raw_bad})"
     doc = an.build(arena, items, {"events": (events or [])[:MAX_PER_ARENA]}, STUB, window_hours, "low",
@@ -140,7 +140,7 @@ def build_arena(arena, items, events, window_hours, now, known, geocode=None):
     errs = wc.validate(doc, known)
     if errs:
         return None, "לא עבר את בדיקת החוזה: " + errs[0][:120]
-    bad = sum(1 for e in doc["events"] for t in (e["title"], e["summary"]) if wa.FOREIGN.search(t or ""))
+    bad = sum(1 for e in doc["events"] for t in (e["title"], e["summary"]) if wa.bad_text(t))
     if bad:
         return None, f"אותיות בשפה זרה בתוך הטקסט העברי ({bad})"
     return doc["events"], ""

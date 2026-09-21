@@ -135,6 +135,20 @@ def arena_md(rel, groups, names):
 AUTO_MARK = re.compile(r"<!-- war-auto: (\[.*?\]) -->")
 # כתבים שאסור שיופיעו בטקסט העברי: ערבית, קירילית, יפנית/סינית, קוריאנית
 FOREIGN = re.compile("[؀-ۿݐ-ݿЀ-ӿ぀-ヿ一-鿿가-힯]")
+HEB, LAT = re.compile("[א-ת]"), re.compile("[A-Za-z]")
+
+
+def not_hebrew(t):
+    """שדה שנכתב באנגלית במקום בעברית (21/09/2026: ניתוח אוקראינה פורסם כולו באנגלית ועבר את הבדיקה).
+    שמות לועזיים בתוך משפט עברי ("F-35", "DPR") — מותרים: נכשל רק כשיש יותר אותיות לטיניות מעבריות."""
+    t = str(t or "")
+    lat = len(LAT.findall(t))
+    return lat >= 8 and lat > len(HEB.findall(t))
+
+
+def bad_text(t):
+    """אותיות בשפה זרה (ערבית/קירילית/...) או טקסט שכולו אנגלית."""
+    return bool(FOREIGN.search(str(t or ""))) or not_hebrew(t)
 MIN_SOURCES, MIN_FAMILIES, MAX_EVENTS = 4, 3, 20
 
 
@@ -201,7 +215,7 @@ def quality_gate(rel, groups):
         reasons.append(f"מעט מקורות ({len(srcs)})")
     if len(fams) < MIN_FAMILIES:
         reasons.append(f"מעט משפחות מקורות עצמאיות ({len(fams)})")
-    bad = sum(1 for t in _hebrew_texts(doc) if isinstance(t, str) and FOREIGN.search(t))
+    bad = sum(1 for t in _hebrew_texts(doc) if isinstance(t, str) and bad_text(t))
     if bad:
         reasons.append(f"אותיות בשפה זרה בתוך הטקסט העברי ({bad} שדות)")
     ver = sum(1 for e in ev if wc.assess(e, groups) == "verified")

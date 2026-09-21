@@ -329,6 +329,15 @@ class AutoPublish(Approval):
         self.edit_draft(self.drafts[0], lambda a: a.update(summary=a["summary"] + " اليمن"))
         self.assertTrue(any("שפה זרה" in r for r in wa.quality_gate(self.drafts[0], ta.GROUPS)))
 
+    def test_gate_blocks_english_instead_of_hebrew(self):
+        # 21/09/2026: ניתוח אוקראינה פורסם כולו באנגלית
+        self.edit_draft(self.drafts[0], lambda a: a["events"][0].update(title="Ukrainian strikes on Moscow and surrounding regions"))
+        self.assertTrue(any("שפה זרה" in r for r in wa.quality_gate(self.drafts[0], ta.GROUPS)))
+
+    def test_latin_names_inside_hebrew_are_fine(self):
+        self.assertFalse(wa.not_hebrew('תקיפת מטוסי F-35 באזור DPR ליד מחסן של חברת Rosneft בדרום'))
+        self.assertTrue(wa.not_hebrew('היactual implementation'))
+
     def test_gate_blocks_few_sources(self):
         orig = wa.MIN_SOURCES
         wa.MIN_SOURCES = 99
