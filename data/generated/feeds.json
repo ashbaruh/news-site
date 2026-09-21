@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T15:17:21+00:00",
-  "fetched_at": "2026-09-21T15:17:21+00:00"
+  "checked_at": "2026-09-21T16:17:15+00:00",
+  "fetched_at": "2026-09-21T16:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T15:17:32+00:00",
-  "fetched_at": "2026-09-21T15:17:32+00:00"
+  "checked_at": "2026-09-21T16:17:26+00:00",
+  "fetched_at": "2026-09-21T16:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T15:17:32+00:00",
-  "fetched_at": "2026-09-21T15:17:32+00:00"
+  "checked_at": "2026-09-21T16:17:27+00:00",
+  "fetched_at": "2026-09-21T16:17:27+00:00"
  },
- "generated_at": "2026-09-21T15:17:32+00:00",
+ "generated_at": "2026-09-21T16:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -100,6 +100,11 @@
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
+    },
+    {
+     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
+     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -167,11 +172,6 @@
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
-     "date": "2026-09-19T05:49:00+00:00"
-    },
-    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T15:17:22+00:00",
-  "fetched_at": "2026-09-21T15:17:22+00:00"
+  "checked_at": "2026-09-21T16:17:17+00:00",
+  "fetched_at": "2026-09-21T16:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T15:17:23+00:00",
-  "fetched_at": "2026-09-21T15:17:23+00:00"
+  "checked_at": "2026-09-21T16:17:18+00:00",
+  "fetched_at": "2026-09-21T16:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2100,8 +2100,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T15:17:24+00:00",
-  "fetched_at": "2026-09-21T15:17:24+00:00"
+  "checked_at": "2026-09-21T16:17:19+00:00",
+  "fetched_at": "2026-09-21T16:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2206,8 +2206,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T15:17:24+00:00",
-  "fetched_at": "2026-09-21T15:17:24+00:00"
+  "checked_at": "2026-09-21T16:17:19+00:00",
+  "fetched_at": "2026-09-21T16:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2248,21 +2248,21 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 107,
+     "likes": 108,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2276,7 +2276,7 @@
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 86,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
@@ -2296,12 +2296,39 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T15:17:31+00:00",
-  "fetched_at": "2026-09-21T15:17:31+00:00"
+  "checked_at": "2026-09-21T16:17:26+00:00",
+  "fetched_at": "2026-09-21T16:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "כבוד: ענאן חלאילי בנבחרת העונה של אתר הסטטיסטיקה הפופולרי",
+     "link": "https://sports.walla.co.il/item/3869105",
+     "date": "2026-09-21T19:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "מוחמד אבו פאני כבש, לויזו בישל ב-0:3 של הכוכב האדום",
+     "link": "https://sports.walla.co.il/item/3869104",
+     "date": "2026-09-21T19:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מוחמד אבו פאני"
+     ]
+    },
+    {
+     "title": "קיבל פרס - ושוב כבש שער נהדר: דיא סבע ממשיך לככב בטורקיה",
+     "link": "https://sports.walla.co.il/item/3869095",
+     "date": "2026-09-21T19:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "0:0 לחלאילי ופאלאס עם לידס, 3:5 מלהיב למנצ'סטר סיטי",
      "link": "https://sports.walla.co.il/item/3868863",
@@ -2386,39 +2413,12 @@
      ]
     },
     {
-     "title": "מנור סולומון: \"מאוכזבים מאוד. התחלנו רע, לא עשינו כלום\"",
-     "link": "https://sports.walla.co.il/item/3868919",
-     "date": "2026-09-19T17:31:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "צפו: מנור סולומון בישל, ווסטהאם חזרה מ-2:0 ל-2:2 בדרבי הסוער",
-     "link": "https://sports.walla.co.il/item/3868857",
-     "date": "2026-09-19T16:24:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "ארד באליפות העולם לנבחרת הטניס בכיסאות גלגלים",
      "link": "https://www.one.co.il/Article/533845.html?ref=rss",
      "date": "2026-09-19T13:11:00+00:00",
      "source": "ONE",
      "players": [
       "עופרי ארד"
-     ]
-    },
-    {
-     "title": "עוד סעיף נחשף: טוטנהאם יכולה להרוויח יותר על מנור סולומון",
-     "link": "https://sports.walla.co.il/item/3868867",
-     "date": "2026-09-19T11:18:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2640,7 +2640,7 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T15:17:28+00:00",
-  "fetched_at": "2026-09-21T15:17:28+00:00"
+  "checked_at": "2026-09-21T16:17:22+00:00",
+  "fetched_at": "2026-09-21T16:17:22+00:00"
  }
 }
