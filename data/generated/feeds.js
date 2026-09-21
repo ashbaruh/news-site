@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T01:17:17+00:00",
-  "fetched_at": "2026-09-21T01:17:17+00:00"
+  "checked_at": "2026-09-21T02:17:18+00:00",
+  "fetched_at": "2026-09-21T02:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T01:17:30+00:00",
-  "fetched_at": "2026-09-21T01:17:30+00:00"
+  "checked_at": "2026-09-21T02:17:27+00:00",
+  "fetched_at": "2026-09-21T02:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T01:17:30+00:00",
-  "fetched_at": "2026-09-21T01:17:30+00:00"
+  "checked_at": "2026-09-21T02:17:27+00:00",
+  "fetched_at": "2026-09-21T02:17:27+00:00"
  },
- "generated_at": "2026-09-21T01:17:30+00:00",
+ "generated_at": "2026-09-21T02:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
+     "date": "2026-09-20T08:15:00+00:00"
+    },
     {
      "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-18T03:58:00+00:00"
     },
     {
-     "title": "וול סטריט ננעלה בעליות בהובלת מניות השבבים; אינטל זינקה ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556735",
-     "date": "2026-09-17T20:00:00+00:00"
-    },
-    {
      "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
      "date": "2026-09-17T14:39:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T01:17:18+00:00",
-  "fetched_at": "2026-09-21T01:17:18+00:00"
+  "checked_at": "2026-09-21T02:17:18+00:00",
+  "fetched_at": "2026-09-21T02:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T01:17:19+00:00",
-  "fetched_at": "2026-09-21T01:17:19+00:00"
+  "checked_at": "2026-09-21T02:17:19+00:00",
+  "fetched_at": "2026-09-21T02:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2018,8 +2018,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T01:17:21+00:00",
-  "fetched_at": "2026-09-21T01:17:21+00:00"
+  "checked_at": "2026-09-21T02:17:20+00:00",
+  "fetched_at": "2026-09-21T02:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2109,8 +2109,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T01:17:21+00:00",
-  "fetched_at": "2026-09-21T01:17:21+00:00"
+  "checked_at": "2026-09-21T02:17:20+00:00",
+  "fetched_at": "2026-09-21T02:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2146,7 +2146,7 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 136,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2164,18 +2164,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 96,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 102,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 95,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2188,14 +2188,14 @@ window.DB.generated = {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 76,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 76,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T01:17:29+00:00",
-  "fetched_at": "2026-09-21T01:17:29+00:00"
+  "checked_at": "2026-09-21T02:17:26+00:00",
+  "fetched_at": "2026-09-21T02:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2552,7 +2552,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T01:17:25+00:00",
-  "fetched_at": "2026-09-21T01:17:25+00:00"
+  "checked_at": "2026-09-21T02:17:22+00:00",
+  "fetched_at": "2026-09-21T02:17:22+00:00"
  }
 };
