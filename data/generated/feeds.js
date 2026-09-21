@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T05:32:27+00:00",
-  "fetched_at": "2026-09-21T05:32:27+00:00"
+  "checked_at": "2026-09-21T06:17:19+00:00",
+  "fetched_at": "2026-09-21T06:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T05:32:38+00:00",
-  "fetched_at": "2026-09-21T05:32:38+00:00"
+  "checked_at": "2026-09-21T06:17:30+00:00",
+  "fetched_at": "2026-09-21T06:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T05:32:38+00:00",
-  "fetched_at": "2026-09-21T05:32:38+00:00"
+  "checked_at": "2026-09-21T06:17:31+00:00",
+  "fetched_at": "2026-09-21T06:17:31+00:00"
  },
- "generated_at": "2026-09-21T05:32:38+00:00",
+ "generated_at": "2026-09-21T06:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T05:32:28+00:00",
-  "fetched_at": "2026-09-21T05:32:28+00:00"
+  "checked_at": "2026-09-21T06:17:20+00:00",
+  "fetched_at": "2026-09-21T06:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T05:32:29+00:00",
-  "fetched_at": "2026-09-21T05:32:29+00:00"
+  "checked_at": "2026-09-21T06:17:21+00:00",
+  "fetched_at": "2026-09-21T06:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2018,8 +2018,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T05:32:30+00:00",
-  "fetched_at": "2026-09-21T05:32:30+00:00"
+  "checked_at": "2026-09-21T06:17:22+00:00",
+  "fetched_at": "2026-09-21T06:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2109,8 +2109,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T05:32:30+00:00",
-  "fetched_at": "2026-09-21T05:32:30+00:00"
+  "checked_at": "2026-09-21T06:17:22+00:00",
+  "fetched_at": "2026-09-21T06:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2146,7 +2146,7 @@ window.DB.generated = {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 140,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2164,6 +2164,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 104,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
@@ -2171,11 +2178,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2183,13 +2190,6 @@ window.DB.generated = {
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
      "likes": 83,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
-    },
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 79,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Reproductions Tracker",
@@ -2202,14 +2202,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 86,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T05:32:37+00:00",
-  "fetched_at": "2026-09-21T05:32:37+00:00"
+  "checked_at": "2026-09-21T06:17:29+00:00",
+  "fetched_at": "2026-09-21T06:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2552,7 +2552,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T05:32:33+00:00",
-  "fetched_at": "2026-09-21T05:32:33+00:00"
+  "checked_at": "2026-09-21T06:17:25+00:00",
+  "fetched_at": "2026-09-21T06:17:25+00:00"
  }
 };
