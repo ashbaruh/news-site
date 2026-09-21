@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T21:17:20+00:00",
-  "fetched_at": "2026-09-21T21:17:20+00:00"
+  "checked_at": "2026-09-21T22:17:28+00:00",
+  "fetched_at": "2026-09-21T22:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T21:17:31+00:00",
-  "fetched_at": "2026-09-21T21:17:31+00:00"
+  "checked_at": "2026-09-21T22:17:41+00:00",
+  "fetched_at": "2026-09-21T22:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T21:17:32+00:00",
-  "fetched_at": "2026-09-21T21:17:32+00:00"
+  "checked_at": "2026-09-21T22:17:41+00:00",
+  "fetched_at": "2026-09-21T22:17:41+00:00"
  },
- "generated_at": "2026-09-21T21:17:32+00:00",
+ "generated_at": "2026-09-21T22:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T21:17:21+00:00",
-  "fetched_at": "2026-09-21T21:17:21+00:00"
+  "checked_at": "2026-09-21T22:17:29+00:00",
+  "fetched_at": "2026-09-21T22:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T21:17:21+00:00",
-  "fetched_at": "2026-09-21T21:17:21+00:00"
+  "checked_at": "2026-09-21T22:17:30+00:00",
+  "fetched_at": "2026-09-21T22:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T21:17:22+00:00",
-  "fetched_at": "2026-09-21T21:17:22+00:00"
+  "checked_at": "2026-09-21T22:17:31+00:00",
+  "fetched_at": "2026-09-21T22:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2208,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T21:17:22+00:00",
-  "fetched_at": "2026-09-21T21:17:22+00:00"
+  "checked_at": "2026-09-21T22:17:31+00:00",
+  "fetched_at": "2026-09-21T22:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2238,7 +2238,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 464,
+     "likes": 465,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2252,7 +2252,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 105,
+     "likes": 106,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2261,13 +2261,6 @@ window.DB.generated = {
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
      "likes": 106,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 152,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2284,6 +2277,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 153,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
@@ -2294,7 +2294,7 @@ window.DB.generated = {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 87,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
@@ -2307,8 +2307,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T21:17:30+00:00",
-  "fetched_at": "2026-09-21T21:17:30+00:00"
+  "checked_at": "2026-09-21T22:17:40+00:00",
+  "fetched_at": "2026-09-21T22:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,8 +2651,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T21:17:25+00:00",
-  "fetched_at": "2026-09-21T21:17:25+00:00"
+  "checked_at": "2026-09-21T22:17:35+00:00",
+  "fetched_at": "2026-09-21T22:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2683,7 +2683,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T21:17:26+00:00",
-  "fetched_at": "2026-09-21T21:17:26+00:00"
+  "checked_at": "2026-09-21T22:17:36+00:00",
+  "fetched_at": "2026-09-21T22:17:36+00:00"
  }
 };
