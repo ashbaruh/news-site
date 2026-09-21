@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T22:17:28+00:00",
-  "fetched_at": "2026-09-21T22:17:28+00:00"
+  "checked_at": "2026-09-21T23:17:26+00:00",
+  "fetched_at": "2026-09-21T23:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T22:17:41+00:00",
-  "fetched_at": "2026-09-21T22:17:41+00:00"
+  "checked_at": "2026-09-21T23:17:39+00:00",
+  "fetched_at": "2026-09-21T23:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T22:17:41+00:00",
-  "fetched_at": "2026-09-21T22:17:41+00:00"
+  "checked_at": "2026-09-21T23:17:40+00:00",
+  "fetched_at": "2026-09-21T23:17:40+00:00"
  },
- "generated_at": "2026-09-21T22:17:41+00:00",
+ "generated_at": "2026-09-21T23:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T22:17:29+00:00",
-  "fetched_at": "2026-09-21T22:17:29+00:00"
+  "checked_at": "2026-09-21T23:17:27+00:00",
+  "fetched_at": "2026-09-21T23:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T22:17:30+00:00",
-  "fetched_at": "2026-09-21T22:17:30+00:00"
+  "checked_at": "2026-09-21T23:17:28+00:00",
+  "fetched_at": "2026-09-21T23:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -1949,6 +1949,13 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - ריאל מדריד"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "19:00",
     "channel": "אתר ספורט 5",
     "sport": "כדורגל",
     "title": "הפועל ראשון לציון - מכבי אחי נצרת"
@@ -1966,13 +1973,6 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי הרצליה - מ.ס קרית ים"
-   },
-   {
-    "date": "2026-09-24",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בי.סי דובאי - ריאל מדריד"
    },
    {
     "date": "2026-09-24",
@@ -2033,6 +2033,13 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "21:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "סרביה - יוון"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "הולנד - גרמניה"
@@ -2040,9 +2047,23 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "21:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "נורבגיה - דנמרק"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "פורטוגל - ווילס"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ליכטנשטיין - ליטא"
    },
    {
     "date": "2026-09-25",
@@ -2057,6 +2078,20 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורסל",
     "title": "הפועל ירושלים - בני הרצליה"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "19:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "גיאורגיה - צפון אירלנד"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ארמניה - לטביה"
    },
    {
     "date": "2026-09-25",
@@ -2080,11 +2115,60 @@ window.DB.generated = {
     "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    },
    {
+    "date": "2026-09-25",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "טורקיה - צרפת"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "איטליה - בלגיה"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "פולין - בוסניה-הרצגובינה"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "15:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "צ'רלטון נשים - מנצ'סטר סיטי נשים"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "16:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "סלובניה - סקוטלנד"
+   },
+   {
     "date": "2026-09-26",
     "time": "19:00",
     "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "בולזאק - שוראל רואן"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "19:00",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "סן מרינו - פינלנד"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "איסלנד - אסטוניה"
    },
    {
     "date": "2026-09-26",
@@ -2099,11 +2183,109 @@ window.DB.generated = {
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "נאנטר - פו אורטז"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "21:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "צפון מקדוניה - שוויץ"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "צ'כיה - קרואטיה"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "אנגליה - ספרד"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "13:30",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "בורגוס - באסקוניה"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "15:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר יונייטד נשים - ווסטהאם נשים"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "16:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ליטא - אזרבייג'אן"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "17:00",
+    "channel": "ספורט 4",
+    "sport": "כדורסל",
+    "title": "אולימפיה מילאנו - טרייסטה"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "18:30",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "צ'לסי נשים - ארסנל נשים"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "סרביה - הולנד"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "דנמרק - ווילס"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "20:00",
+    "channel": "ספורט 4",
+    "sport": "כדורסל",
+    "title": "ריאל מדריד - אוניקאחה מלאגה"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ישראל - אירלנד"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "גרמניה - יוון"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "נורבגיה - פורטוגל"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T22:17:31+00:00",
-  "fetched_at": "2026-09-21T22:17:31+00:00"
+  "checked_at": "2026-09-21T23:17:29+00:00",
+  "fetched_at": "2026-09-21T23:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,8 +2390,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T22:17:31+00:00",
-  "fetched_at": "2026-09-21T22:17:31+00:00"
+  "checked_at": "2026-09-21T23:17:29+00:00",
+  "fetched_at": "2026-09-21T23:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2238,14 +2420,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 465,
+     "likes": 467,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2259,7 +2441,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 106,
+     "likes": 107,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2277,18 +2459,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 153,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 111,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 153,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2307,8 +2489,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T22:17:40+00:00",
-  "fetched_at": "2026-09-21T22:17:40+00:00"
+  "checked_at": "2026-09-21T23:17:38+00:00",
+  "fetched_at": "2026-09-21T23:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,8 +2833,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T22:17:35+00:00",
-  "fetched_at": "2026-09-21T22:17:35+00:00"
+  "checked_at": "2026-09-21T23:17:33+00:00",
+  "fetched_at": "2026-09-21T23:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2683,7 +2865,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T22:17:36+00:00",
-  "fetched_at": "2026-09-21T22:17:36+00:00"
+  "checked_at": "2026-09-21T23:17:33+00:00",
+  "fetched_at": "2026-09-21T23:17:33+00:00"
  }
 };
