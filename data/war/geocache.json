@@ -117,6 +117,10 @@
 50.0799,
 29.9163
 ],
+"geneva, switzerland": [
+46.2018,
+6.1466
+],
 "hadera, israel": [
 32.4407,
 34.9401
@@ -141,6 +145,10 @@
 "istanbul, turkey": [
 41.0064,
 28.9759
+],
+"jamlah, syria": [
+35.1005,
+36.3496
 ],
 "jeddah, saudi arabia": [
 21.5504,
@@ -228,6 +236,10 @@
 "marib, yemen": [
 15.4579,
 45.323
+],
+"markaba, lebanon": [
+33.2314,
+35.5177
 ],
 "mecca, saudi arabia": [
 21.4208,
@@ -382,6 +394,7 @@
 49.9074,
 38.2868
 ],
+"ukraine": null,
 "vyshhorod district, ukraine": null,
 "wadi al-raqqad, syria": [
 32.8011,
