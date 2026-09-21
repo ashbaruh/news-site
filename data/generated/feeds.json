@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:17:16+00:00",
-  "fetched_at": "2026-09-21T17:17:16+00:00"
+  "checked_at": "2026-09-21T17:21:24+00:00",
+  "fetched_at": "2026-09-21T17:21:24+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:17:24+00:00",
-  "fetched_at": "2026-09-21T17:17:24+00:00"
+  "checked_at": "2026-09-21T17:21:37+00:00",
+  "fetched_at": "2026-09-21T17:21:37+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:17:24+00:00",
-  "fetched_at": "2026-09-21T17:17:24+00:00"
+  "checked_at": "2026-09-21T17:21:38+00:00",
+  "fetched_at": "2026-09-21T17:21:38+00:00"
  },
- "generated_at": "2026-09-21T17:17:24+00:00",
+ "generated_at": "2026-09-21T17:21:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:17:17+00:00",
-  "fetched_at": "2026-09-21T17:17:17+00:00"
+  "checked_at": "2026-09-21T17:21:25+00:00",
+  "fetched_at": "2026-09-21T17:21:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:17:18+00:00",
-  "fetched_at": "2026-09-21T17:17:18+00:00"
+  "checked_at": "2026-09-21T17:21:26+00:00",
+  "fetched_at": "2026-09-21T17:21:26+00:00"
  },
  "tv": {
   "data": [
@@ -2100,8 +2100,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T17:17:19+00:00",
-  "fetched_at": "2026-09-21T17:17:19+00:00"
+  "checked_at": "2026-09-21T17:21:27+00:00",
+  "fetched_at": "2026-09-21T17:21:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2206,8 +2206,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:17:19+00:00",
-  "fetched_at": "2026-09-21T17:17:19+00:00"
+  "checked_at": "2026-09-21T17:21:27+00:00",
+  "fetched_at": "2026-09-21T17:21:27+00:00"
  },
  "ai": {
   "data": {
@@ -2218,9 +2218,18 @@
      "date": "2026-09-20T06:51:39+00:00",
      "launch": false,
      "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+     "date": "2026-09-21T07:00:00+00:00",
+     "launch": false,
+     "title_en": "Expanding OpenAI Academy with new learning paths",
+     "title_he": "הרחבת OpenAI Academy עם מסלולי למידה חדשים",
+     "translated_by": "google"
     }
    ],
-   "candidates": 2,
+   "candidates": 3,
    "failed_sources": [],
    "tools": [
     {
@@ -2234,7 +2243,7 @@
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2283,21 +2292,21 @@
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 85,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:17:24+00:00",
-  "fetched_at": "2026-09-21T17:17:24+00:00"
+  "checked_at": "2026-09-21T17:21:36+00:00",
+  "fetched_at": "2026-09-21T17:21:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2638,7 +2647,39 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T17:17:21+00:00",
-  "fetched_at": "2026-09-21T17:17:21+00:00"
+  "checked_at": "2026-09-21T17:21:31+00:00",
+  "fetched_at": "2026-09-21T17:21:31+00:00"
+ },
+ "idf": {
+  "data": [
+   {
+    "title": "במהלך יום כיפור: לוחמי דובדבן עצרו שני מחבלים שתכננו לבצע פיגוע בטווח הזמן המיידי",
+    "link": "https://news.walla.co.il/item/3869130",
+    "date": "2026-09-21T19:52:00+00:00"
+   },
+   {
+    "title": "צפצוף המוות: מאחורי המבצע ששבר את נסראללה | שנתיים למבצע הביפרים",
+    "link": "https://news.walla.co.il/item/3868965",
+    "date": "2026-09-20T15:15:00+00:00"
+   },
+   {
+    "title": "פיגוע ירי סמוך לנווה צוף: ישראלי נרצח - המחבל נתפס פצוע בבית חולים",
+    "link": "https://news.walla.co.il/item/3869053",
+    "date": "2026-09-20T13:08:00+00:00"
+   },
+   {
+    "title": "בצה\"ל ממליצים: ליישם את מודל עלי טאהר בלב עזה ולפרק את מעוז חמאס",
+    "link": "https://news.walla.co.il/item/3868939",
+    "date": "2026-09-20T12:45:00+00:00"
+   },
+   {
+    "title": "היישובים מתרחבים, הנשק מצטמצם: המתיחות החדשה בין צה\"ל למתיישבים",
+    "link": "https://news.walla.co.il/item/3868933",
+    "date": "2026-09-20T06:00:00+00:00"
+   }
+  ],
+  "ok": true,
+  "checked_at": "2026-09-21T17:21:32+00:00",
+  "fetched_at": "2026-09-21T17:21:32+00:00"
  }
 }
