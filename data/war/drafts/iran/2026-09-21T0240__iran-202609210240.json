@@ -1,0 +1,461 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3730c2fc12eb",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 1,
+   "initial": 3,
+   "shared_root": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-21T02:40:30+00:00",
+  "window": {
+   "from": "2026-09-20T02:40:30+00:00",
+   "to": "2026-09-21T02:40:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202609210240"
+  },
+  "summary": "המתיחות הצבאית בין ארצות הברית וישראל לבין איראן מחריפה ומלווה באיומים הדדיים על הרחבת התקיפות ופגיעה באינטרסים אזוריים. במקביל לתקריות ביטחוניות כגון יירוט כטב\"ם ביון וצמצום תנועת הספנות במצר הורמוז, קטר מנסה לקדם מאמצי תיווך לחידוש המשא ומתן. בזירה הדיפלומטית נרשמת היערכות לקראת עצרת האו\"ם בניו יורק לצד חיכוך דיפלומטי בין איראן לצרפת.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "מתיחות ביטחונית גבוהה, צמצום תנועת שיט ויירוט כטב\"ם ביון אמריקאי"
+   },
+   {
+    "name": "הזירה המדינית והבין-לאומית",
+    "status": "מאמצי תיווך קטריים מול איומים אמריקאיים ופעילות בעצרת האו\"ם"
+   },
+   {
+    "name": "החזית הכלכלית והפנימית באיראן",
+    "status": "לחץ סנקציות כבד, מחסור בחומרי גלם ופגיעה בתוכניות הזנה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09210240-01",
+    "title": "ירידה חדה בתנועת כלי שיט במצר הורמוז",
+    "summary": "במהלך סוף השבוע חצו תריסר כלי שיט בלבד את מצר הורמוז, לעומת שלושים וחמישה כלי שיט בסוף השבוע שקדם לו.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T02:19:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T02:19:06+00:00",
+    "last_update_at": "2026-09-21T02:19:06+00:00",
+    "what_is_not_verified": "הסיבה המדויקת לירידה בתנועת כלי השיט אינה מפורטת בטקסט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dozen-vessels-transit-hormuz-strait-over-weekend",
+      "published_at": "2026-09-21T02:19:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09210240-02",
+    "title": "צבא איראן יירט כטב\"ם ביון אמריקאי במצר הורמוז",
+    "summary": "צבא איראן יירט כלי טיס בלתי מאויש מסוג אורביטר מעל מצר הורמוז, לפי הודעה רשמית של טהרן.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T18:16:20+00:00",
+    "last_update_at": "2026-09-20T18:16:20+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או תגובה אמריקאית להפלת כלי הטיס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_92530b1b583c8d27",
+      "url": "https://en.irna.ir/news/86269431/Iranian-Army-downs-advanced-US-spy-drone-over-Strait-of-Hormuz",
+      "published_at": "2026-09-20T18:16:20+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09210240-03",
+    "title": "אזהרות הדדיות בין ארצות הברית לאיראן על תקיפות",
+    "summary": "הנשיא טראמפ הצהיר כי הוא שוקל תקיפה, השמדה או סנקציות כלכליות נגד איראן, בעוד מפקדת ח'אתם אל-אנביאא וגורמי ביטחון איראניים הזהירו מתקיפה ללא מגבלות על בסיסים ואינטרסים אמריקאיים.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T11:08:51+00:00",
+    "last_update_at": "2026-09-21T00:00:47+00:00",
+    "what_is_not_verified": "האם אכן קיימת תוכנית תקיפה אמריקאית מאושרת כפי שטוענת איראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen?traffic_source=rss",
+      "published_at": "2026-09-21T00:00:47+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609207151",
+      "published_at": "2026-09-20T19:11:17+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
+      "published_at": "2026-09-20T18:56:45+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94383",
+      "published_at": "2026-09-20T15:26:02+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369231",
+      "published_at": "2026-09-20T14:13:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130559",
+      "published_at": "2026-09-20T14:00:17+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
+      "published_at": "2026-09-20T13:46:29+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21458869",
+      "published_at": "2026-09-20T11:51:30+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609201491",
+      "published_at": "2026-09-20T11:12:51+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130544",
+      "published_at": "2026-09-20T11:10:26+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369209",
+      "published_at": "2026-09-20T11:08:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09210240-04",
+    "title": "התראות ביטחון של ארה\"ב וקיצור שהות טראמפ בקמפ דייוויד",
+    "summary": "ארצות הברית פרסמה התראות ביטחון באחת עשרה מדינות במזרח התיכון, והנשיא טראמפ חזר במפתיע מקמפ דייוויד לבית הלבן.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T05:23:41+00:00",
+    "last_update_at": "2026-09-20T18:56:45+00:00",
+    "what_is_not_verified": "הסיבה הרשמית לקיצור השהות של טראמפ בקמפ דייוויד לא פורסמה רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
+      "published_at": "2026-09-20T18:56:45+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-middle-east-war",
+      "published_at": "2026-09-20T12:30:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130524",
+      "published_at": "2026-09-20T07:35:17+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130512",
+      "published_at": "2026-09-20T05:23:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09210240-05",
+    "title": "קטר פועלת לחידוש המשא ומתן בין ארה\"ב לאיראן",
+    "summary": "משרד החוץ וראש ממשלת קטר מנהלים מגעים ומסעות דילוגים במטרה לחדש את שיחות המשא ומתן בין וושינגטון לטהרן ולהגיע למסגרת ביטחון אזורית.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-20T19:36:12+00:00",
+    "last_update_at": "2026-09-20T21:00:15+00:00",
+    "what_is_not_verified": "הסכמת הצדדים להיכנס למשא ומתן ישיר אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_785936cb6fb8976c",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-pm-urges-gulf-security-framework-with-iran?traffic_source=rss",
+      "published_at": "2026-09-20T21:00:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_785936cb6fb8976c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-pushes-revival-us-iran-talks-warns-against-cycles-escalation",
+      "published_at": "2026-09-20T20:18:08+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_785936cb6fb8976c",
+      "url": "https://www.aljazeera.com/news/2026/9/20/qatari-pm-warns-against-cycles-of-escalation-in-the-middle-east?traffic_source=rss",
+      "published_at": "2026-09-20T20:13:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_785936cb6fb8976c",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
+      "published_at": "2026-09-20T19:36:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09210240-06",
+    "title": "סגירת המרכז הצרפתי ללימוד שפות בטהרן וזימון השגריר",
+    "summary": "הרשויות באיראן סגרו מרכז תרבות ושפות צרפתי בטענה לעבירות דיפלומטיות, ובתגובה צרפת הודיעה כי תזמן את שגריר איראן ותנקוט צעדים.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T13:46:00+00:00",
+    "last_update_at": "2026-09-20T22:06:22+00:00",
+    "what_is_not_verified": "מהות ההפרות הדיפלומטיות המדויקות שיוחסו למרכז אינה מפורטת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_2cff6203d372e3d5",
+      "url": "https://www.aljazeera.com/news/2026/9/20/france-to-summon-iran-envoy-after-language-centre-closure-in-tehran?traffic_source=rss",
+      "published_at": "2026-09-20T22:06:22+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2cff6203d372e3d5",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-take-measures-after-iran-closes-its-cultural-centre-tehran",
+      "published_at": "2026-09-20T20:23:13+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_2cff6203d372e3d5",
+      "url": "https://www.france24.com/en/middle-east/20260920-iran-closes-french-language-centre-in-tehran-for-illegal-acts",
+      "published_at": "2026-09-20T13:46:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09210240-07",
+    "title": "נסיעת שר החוץ של איראן לכינוס האו\"ם בניו יורק",
+    "summary": "שר החוץ האיראני עבאס עראקצ'י יצא מטהרן לניו יורק על מנת להשתתף במושב ה-81 של העצרת הכללית של האו\"ם.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-20T18:47:28+00:00",
+    "last_update_at": "2026-09-20T18:47:28+00:00",
+    "what_is_not_verified": "לא צוין האם מתוכננות פגישות ישירות עם גורמים אמריקאיים באו\"ם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_607376934cc5544a",
+      "url": "https://en.irna.ir/news/86269449/FM-Araghchi-departs-Tehran-for-New-York",
+      "published_at": "2026-09-20T18:47:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09210240-08",
+    "title": "שר המלחמה האמריקאי פתח במסע לגיוס תמיכה ציבורית במלחמה באיראן",
+    "summary": "שר המלחמה של ארצות הברית פיט הגסת' השיק סבב ביקורים בבסיסי הדרכה צבאיים כדי להגביר את התמיכה במלחמה באיראן, על רקע שפל בתמיכה הציבורית בו.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T01:45:43+00:00",
+    "last_update_at": "2026-09-21T01:45:43+00:00",
+    "what_is_not_verified": "מידת ההשפעה של המסע על עמדות הציבור אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-kicks-send-me-tour-attempt-gaining-support-war-iran",
+      "published_at": "2026-09-21T01:45:43+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענה האיראנית לפיה ארה\"ב גיבשה החלטה לתקוף בפגישה באירופה וקיבלה אור ירוק ממדינות באזור",
+   "הסיבה המדויקת לקיצור שהותו של נשיא ארה\"ב בקמפ דייוויד",
+   "הדיווח האיראני על יירוט כטב\"ם הביון האמריקאי במצר הורמוז",
+   "האשמות איראן בנוגע לפעילות בלתי חוקית של מרכז התרבות הצרפתי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0377,
+    "unit": "ILS",
+    "change_pct": 0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הצבת ברירה לאיראן בין קריסה כלכלית או פגיעה בהנהגתה לבין הגעה להסכם",
+     "שמירה על הדלת פתוחה למשא ומתן והרחבת הסכמי אברהם"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי ופסיכולוגי מרבי להרתעת טהרן ופגיעה ביכולותיה",
+     "בלימת תקיפות מצד כוחות הנתמכים על ידי איראן באזור"
+    ],
+    "forecast": [
+     "המשך אזהרות ביטחוניות לצד הכנות לאפשרות של מהלומה צבאית מוגבלת אם ייכשלו המגעים"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "תגובה קשה וללא מגבלות כנגד כל מוקדי הכוח והאינטרסים האמריקאיים במקרה של תקיפה",
+     "שילוב בין לחימה לבין נכונות לניהול משא ומתן מדיני"
+    ],
+    "inferred": [
+     "שימוש במנופי לחץ במצר הורמוז ובבסיסי ארה\"ב במזרח התיכון כדי למנוע מתקפה",
+     "הפחתת הלחץ הכלכלי הפנימי באמצעות השגת הסדר או הקלות"
+    ],
+    "forecast": [
+     "המשך הצהרות לוחמניות לצד ניצול עצרת האו\"ם והתיווך הקטרי לגישוש מדיני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/20/france-to-summon-iran-envoy-after-language-centre-closure-in-tehran?traffic_source=rss",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/us-warns-rapid-escalation-middle-east-war",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260920-iran-closes-french-language-centre-in-tehran-for-illegal-acts",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609201491",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86269449/FM-Araghchi-departs-Tehran-for-New-York",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21458869",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369209",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-kicks-send-me-tour-attempt-gaining-support-war-iran",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130512",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94383",
+    "accessed_at": "2026-09-21T02:40:30+00:00"
+   }
+  ]
+ }
+}
