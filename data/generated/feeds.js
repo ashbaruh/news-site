@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:17:27+00:00",
-  "fetched_at": "2026-09-21T11:17:27+00:00"
+  "checked_at": "2026-09-21T12:17:29+00:00",
+  "fetched_at": "2026-09-21T12:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:17:40+00:00",
-  "fetched_at": "2026-09-21T11:17:40+00:00"
+  "checked_at": "2026-09-21T12:17:39+00:00",
+  "fetched_at": "2026-09-21T12:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "This classic 1969 album by The Velvet Underground is getting a “vinylphyle” upgrade",
+    "title_he": "האלבום הקלאסי הזה משנת 1969 של The Velvet Underground מקבל שדרוג \"וינילפיל\".",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/vinyl/this-classic-1969-album-by-the-velvet-underground-is-getting-a-vinylphyle-upgrade",
+    "date": "2026-09-21T12:09:10+00:00"
+   },
    {
     "title_en": "A five-star integrated amplifier tested, confirmed fix for Sony OLED TVs and dinky treat for vinyl fans – all the latest news explained by our experts",
     "title_he": "מגבר משולב ברמת חמישה כוכבים נבדק, תיקון מאושר עבור טלוויזיות OLED של סוני ופינוק לאוהדי ויניל - כל החדשות האחרונות מוסברות על ידי המומחים שלנו",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/good-sound-is-good-sound-regardless-of-whether-its-hi-fi-or-home-cinema-how-a-surprise-product-reminded-me-of-this-simple-truth",
     "date": "2026-09-19T07:00:00+00:00"
-   },
-   {
-    "title_en": "The four star-studded movies (and one TV show) we have been using to test our home cinema kit this month",
-    "title_he": "ארבעת הסרטים עטורי הכוכבים (ותוכנית טלוויזיה אחת) שבהם השתמשנו כדי לבדוק את ערכת הקולנוע הביתי שלנו החודש",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/the-four-star-studded-movies-we-have-been-using-to-test-our-home-cinema-kit-this-month",
-    "date": "2026-09-19T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:17:40+00:00",
-  "fetched_at": "2026-09-21T11:17:40+00:00"
+  "checked_at": "2026-09-21T12:17:40+00:00",
+  "fetched_at": "2026-09-21T12:17:40+00:00"
  },
- "generated_at": "2026-09-21T11:17:40+00:00",
+ "generated_at": "2026-09-21T12:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -102,6 +102,11 @@ window.DB.generated = {
      "title": "סכסוך ענק סביב מגדל היוקרה בתל אביב: אלקטרה והיזמים בתביעות הדדיות של מעל מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
      "date": "2026-09-20T08:15:00+00:00"
+    },
+    {
+     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
+     "date": "2026-09-20T07:53:00+00:00"
     },
     {
      "title": "איך מנהלים מלחמה כלכלית: המדריך לעולם מפולג",
@@ -169,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-19T05:53:00+00:00"
     },
     {
-     "title": "טראמפ: ארה\"ב השיגה שליטה קבועה בענייני הביטחון בגרינלנד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556938",
-     "date": "2026-09-19T05:49:00+00:00"
-    },
-    {
      "title": "מודל בינה מלאכותית נוסף פרץ לחברות במהלך תרגיל סייבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556939",
      "date": "2026-09-19T05:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:17:28+00:00",
-  "fetched_at": "2026-09-21T11:17:28+00:00"
+  "checked_at": "2026-09-21T12:17:30+00:00",
+  "fetched_at": "2026-09-21T12:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:17:29+00:00",
-  "fetched_at": "2026-09-21T11:17:29+00:00"
+  "checked_at": "2026-09-21T12:17:31+00:00",
+  "fetched_at": "2026-09-21T12:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2102,8 +2102,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-21T11:17:30+00:00",
-  "fetched_at": "2026-09-21T11:17:30+00:00"
+  "checked_at": "2026-09-21T12:17:32+00:00",
+  "fetched_at": "2026-09-21T12:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2208,37 +2208,37 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:17:30+00:00",
-  "fetched_at": "2026-09-21T11:17:30+00:00"
+  "checked_at": "2026-09-21T12:17:32+00:00",
+  "fetched_at": "2026-09-21T12:17:32+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/australian-youth-safety-blueprint",
-     "date": "2026-09-18T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing the Australian Youth Safety Blueprint",
-     "title_he": "אנחנו שמחים להציג את שרטוט הבטיחות לנוער האוסטרלי",
-     "translated_by": "mymemory"
-    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
      "date": "2026-09-20T06:51:39+00:00",
      "launch": false,
      "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+    },
+    {
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+     "date": "2026-09-18T14:00:00+00:00",
+     "launch": false,
+     "title_en": "New experts join Google’s AI & Economy team",
+     "title_he": "מומחים חדשים מצטרפים לצוות הבינה המלאכותית והכלכלה של גוגל",
+     "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 4,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 459,
+     "likes": 460,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2259,21 +2259,21 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 104,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2301,14 +2301,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 91,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:17:38+00:00",
-  "fetched_at": "2026-09-21T11:17:38+00:00"
+  "checked_at": "2026-09-21T12:17:38+00:00",
+  "fetched_at": "2026-09-21T12:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2651,7 +2651,7 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-21T11:17:34+00:00",
-  "fetched_at": "2026-09-21T11:17:34+00:00"
+  "checked_at": "2026-09-21T12:17:35+00:00",
+  "fetched_at": "2026-09-21T12:17:35+00:00"
  }
 };
