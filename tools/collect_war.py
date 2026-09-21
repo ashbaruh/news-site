@@ -54,6 +54,18 @@ def host_ok(link, source_id, feed_url):
     return any(h == a or h.endswith("." + a) for a in allowed)
 
 
+def walla_time(date):
+    """וואלה כותבת שעון ישראל עם התווית GMT ("19:52 GMT" = 19:52 בישראל). נבדק 21/09/2026: ידיעה "מלפני שעה"
+    הופיעה 3 שעות קדימה, ובאיסוף המלחמות נזרקה כ"עתידית". → אותה שעה על השעון, באזור הזמן של ישראל."""
+    naive = date.replace(tzinfo=None)
+    try:
+        from zoneinfo import ZoneInfo
+        return naive.replace(tzinfo=ZoneInfo("Asia/Jerusalem")).astimezone(timezone.utc)
+    except Exception:
+        # בלי מסד אזורי זמן (Windows בלי tzdata): קירוב — שעון קיץ אפריל-אוקטובר
+        return (naive - timedelta(hours=3 if 4 <= naive.month <= 10 else 2)).replace(tzinfo=timezone.utc)
+
+
 def plain(s):
     s = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", s or "", flags=re.S | re.I)
     s = html.unescape(re.sub(r"<[^>]+>", " ", s))
@@ -127,6 +139,8 @@ def read_feed(source_id, url, words, since):
                 date = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%S%z").astimezone(timezone.utc)
             except ValueError:
                 continue
+        if source_id == "src_walla":
+            date = walla_time(date)
         if date < since or date > datetime.now(timezone.utc) + timedelta(minutes=10):
             continue
         if not title or not host_ok(link, source_id, url):

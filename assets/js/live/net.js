@@ -39,6 +39,19 @@ window.LiveNet = (function () {
      (זכויות יוצרים: "קישור בלבד" = כותרת מקורית מינימלית + קישור).
      allowedHost — קישור שלא מוביל לאתר המקור נזרק (הגנה מקישורים זדוניים).
      ---------------------------------------------------------- */
+  /* וואלה כותבת שעון ישראל עם התווית GMT ("19:52 GMT" = 19:52 בישראל) — מתקנים לשעה האמיתית (21/09/2026) */
+  function wallaTime(d) {
+    if (isNaN(d.getTime())) return d;
+    try {
+      var p = {};
+      new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hourCycle: 'h23', year: 'numeric', month: '2-digit',
+        day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' })
+        .formatToParts(d).forEach(function (x) { p[x.type] = +x.value; });
+      var offset = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second) - d.getTime();   // +2/+3 שעות
+      return new Date(d.getTime() - offset);
+    } catch (e) { return d; }
+  }
+
   function getRss(url, allowedHost) {
     return getText(url).then(function (xml) {
       var doc = new DOMParser().parseFromString(xml, 'application/xml');
@@ -50,6 +63,7 @@ window.LiveNet = (function () {
         var title = tag('title').replace(/\s+/g, ' ');
         var link = tag('link');
         var date = new Date(tag('pubDate'));
+        if (allowedHost === 'walla.co.il') date = wallaTime(date);
         var host;
         try { host = new URL(link).hostname; } catch (e) { return; }
         if (!/^https:$/.test(new URL(link).protocol)) return;

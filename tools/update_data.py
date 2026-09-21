@@ -59,6 +59,18 @@ def now_iso():
 
 # ------------------------------------------------------------------ RSS
 
+def walla_time(date):
+    """וואלה כותבת שעון ישראל עם התווית GMT ("19:52 GMT" = 19:52 בישראל). נבדק 21/09/2026: ידיעה "מלפני שעה"
+    הופיעה 3 שעות קדימה, ובאיסוף המלחמות נזרקה כ"עתידית". → אותה שעה על השעון, באזור הזמן של ישראל."""
+    naive = date.replace(tzinfo=None)
+    try:
+        from zoneinfo import ZoneInfo
+        return naive.replace(tzinfo=ZoneInfo("Asia/Jerusalem")).astimezone(timezone.utc)
+    except Exception:
+        # בלי מסד אזורי זמן (Windows בלי tzdata): קירוב — שעון קיץ אפריל-אוקטובר
+        return (naive - timedelta(hours=3 if 4 <= naive.month <= 10 else 2)).replace(tzinfo=timezone.utc)
+
+
 def read_rss(url, allowed_host):
     root = ET.fromstring(fetch(url))
     out = []
@@ -70,6 +82,8 @@ def read_rss(url, allowed_host):
             host = urllib.parse.urlparse(link).hostname or ""
             scheme = urllib.parse.urlparse(link).scheme
             date = parsedate_to_datetime(pub).astimezone(timezone.utc)
+            if allowed_host == "walla.co.il":
+                date = walla_time(date)
         except Exception:
             continue
         if scheme != "https" or not (host == allowed_host or host.endswith("." + allowed_host)):
