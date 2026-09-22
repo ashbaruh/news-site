@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T08:17:25+00:00",
-  "fetched_at": "2026-09-22T08:17:25+00:00"
+  "checked_at": "2026-09-22T09:17:25+00:00",
+  "fetched_at": "2026-09-22T09:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T08:17:35+00:00",
-  "fetched_at": "2026-09-22T08:17:35+00:00"
+  "checked_at": "2026-09-22T09:17:33+00:00",
+  "fetched_at": "2026-09-22T09:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T08:17:36+00:00",
-  "fetched_at": "2026-09-22T08:17:36+00:00"
+  "checked_at": "2026-09-22T09:17:34+00:00",
+  "fetched_at": "2026-09-22T09:17:34+00:00"
  },
- "generated_at": "2026-09-22T08:17:36+00:00",
+ "generated_at": "2026-09-22T09:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
-     "date": "2026-09-22T02:53:00+00:00"
+     "title": "לא רוצים להוריד מחיר: היזמים שמשכירים דירות במקום למכור",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555582",
+     "date": "2026-09-22T09:00:00+00:00"
     },
     {
      "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T06:05:00+00:00"
+     "date": "2026-09-22T09:05:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "עליות בת\"א בהובלת מניות הביטוח והטכנולוגיה; טאואר מזנקת ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T09:15:00+00:00"
+    },
+    {
+     "title": "\"לא קוריוז תמים\": המהפכה השקטה שאיראן מובילה ברשת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556979",
+     "date": "2026-09-22T08:35:00+00:00"
+    },
+    {
      "title": "ירידות קלות באירופה; אסיה ננעלה בעליות קטנות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T08:07:00+00:00"
+     "date": "2026-09-22T08:32:00+00:00"
     },
     {
      "title": "אקזיט ענק: השליטה בחברת העגורנים נמכרת לפי 340 מיליון שקל",
@@ -109,12 +119,7 @@ window.DB.generated = {
      "date": "2026-09-22T07:43:00+00:00"
     },
     {
-     "title": "עליות בת\"א בהובלת מניות הטכנולוגיה: טאואר מזנקת ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T07:36:00+00:00"
-    },
-    {
-     "title": "מרחיבה את הפעילות: הרכישה החדשה של מימון ישיר",
+     "title": "תמורת 38 מיליון שקל: האקזיט הפיננסי של נבחרת כוכבי השוק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556962",
      "date": "2026-09-22T05:48:00+00:00"
     },
@@ -189,11 +194,6 @@ window.DB.generated = {
      "date": "2026-09-20T05:08:00+00:00"
     },
     {
-     "title": "לא הבנתי עד כמה הייתי מכור לטלפון שלי, עד שנכנסתי לכלא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556827",
-     "date": "2026-09-20T05:01:00+00:00"
-    },
-    {
      "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
      "date": "2026-09-19T13:00:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T08:17:26+00:00",
-  "fetched_at": "2026-09-22T08:17:26+00:00"
+  "checked_at": "2026-09-22T09:17:25+00:00",
+  "fetched_at": "2026-09-22T09:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T08:17:27+00:00",
-  "fetched_at": "2026-09-22T08:17:27+00:00"
+  "checked_at": "2026-09-22T09:17:26+00:00",
+  "fetched_at": "2026-09-22T09:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T08:17:28+00:00",
-  "fetched_at": "2026-09-22T08:17:28+00:00"
+  "checked_at": "2026-09-22T09:17:27+00:00",
+  "fetched_at": "2026-09-22T09:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,18 +2385,18 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T08:17:28+00:00",
-  "fetched_at": "2026-09-22T08:17:28+00:00"
+  "checked_at": "2026-09-22T09:17:27+00:00",
+  "fetched_at": "2026-09-22T09:17:27+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
-     "date": "2026-09-20T06:51:39+00:00",
+     "link": "https://www.geektime.co.il/building-ai-agents-as-team-members/",
+     "date": "2026-09-22T08:36:37+00:00",
      "launch": false,
-     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+     "title": "2,000 אייג'נטים בפרודקשן: כך הפכנו את ה-AI לחלק אמיתי מהצוות בלי לאבד שליטה"
     },
     {
      "source": "OpenAI",
@@ -2408,7 +2408,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 4,
+   "candidates": 5,
    "failed_sources": [],
    "tools": [
     {
@@ -2422,15 +2422,15 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 120,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "AI Notes",
-     "desc_en": "Source-grounded AI notes with citations (open source).",
-     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 150,
-     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 109,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2440,18 +2440,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Jev Decision Index",
-     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
-     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
-    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 118,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "AI Notes",
+     "desc_en": "Source-grounded AI notes with citations (open source).",
+     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
+     "likes": 150,
+     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2461,18 +2461,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 114,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 100,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 113,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2484,12 +2484,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T08:17:34+00:00",
-  "fetched_at": "2026-09-22T08:17:34+00:00"
+  "checked_at": "2026-09-22T09:17:32+00:00",
+  "fetched_at": "2026-09-22T09:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"למנור סולומון יש מה להוכיח בפגרת הנבחרות הזו\"",
+     "link": "https://www.one.co.il/Article/534011.html?ref=rss",
+     "date": "2026-09-22T08:15:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "מעל מסי: בריבו משחקני הקלאץ' הטובים בארה\"ב",
      "link": "https://www.one.co.il/Article/534001.html?ref=rss",
@@ -2527,15 +2536,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "ההסבר של הפרמייר ליג לפסילת השער שיצר חלאילי",
-     "link": "https://www.one.co.il/Article/533939.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "סבע כבש שער ענק ב-2:3 של אמדספור על בשיקטאש",
      "link": "https://www.one.co.il/Article/533949.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
@@ -2551,15 +2551,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"מעורב תמיד וחכם מאוד\": גורן וברצלונה ב' ניצחו",
-     "link": "https://www.one.co.il/Article/533947.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
      ]
     },
     {
@@ -2623,6 +2614,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
+     ]
+    },
+    {
+     "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
+     "link": "https://sports.walla.co.il/item/3868820",
+     "date": "2026-09-19T04:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -2826,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T08:17:31+00:00",
-  "fetched_at": "2026-09-22T08:17:31+00:00"
+  "checked_at": "2026-09-22T09:17:29+00:00",
+  "fetched_at": "2026-09-22T09:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T08:17:31+00:00",
-  "fetched_at": "2026-09-22T08:17:31+00:00"
+  "checked_at": "2026-09-22T09:17:30+00:00",
+  "fetched_at": "2026-09-22T09:17:30+00:00"
  }
 };
