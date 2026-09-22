@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T01:17:17+00:00",
-  "fetched_at": "2026-09-22T01:17:17+00:00"
+  "checked_at": "2026-09-22T02:17:20+00:00",
+  "fetched_at": "2026-09-22T02:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T01:17:27+00:00",
-  "fetched_at": "2026-09-22T01:17:27+00:00"
+  "checked_at": "2026-09-22T02:17:34+00:00",
+  "fetched_at": "2026-09-22T02:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T01:17:27+00:00",
-  "fetched_at": "2026-09-22T01:17:27+00:00"
+  "checked_at": "2026-09-22T02:17:34+00:00",
+  "fetched_at": "2026-09-22T02:17:34+00:00"
  },
- "generated_at": "2026-09-22T01:17:27+00:00",
+ "generated_at": "2026-09-22T02:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T01:17:19+00:00",
-  "fetched_at": "2026-09-22T01:17:19+00:00"
+  "checked_at": "2026-09-22T02:17:22+00:00",
+  "fetched_at": "2026-09-22T02:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T01:17:19+00:00",
-  "fetched_at": "2026-09-22T01:17:19+00:00"
+  "checked_at": "2026-09-22T02:17:23+00:00",
+  "fetched_at": "2026-09-22T02:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2282,8 +2282,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T01:17:20+00:00",
-  "fetched_at": "2026-09-22T01:17:20+00:00"
+  "checked_at": "2026-09-22T02:17:24+00:00",
+  "fetched_at": "2026-09-22T02:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2388,8 +2388,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T01:17:20+00:00",
-  "fetched_at": "2026-09-22T01:17:20+00:00"
+  "checked_at": "2026-09-22T02:17:24+00:00",
+  "fetched_at": "2026-09-22T02:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2418,7 +2418,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 468,
+     "likes": 469,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2446,7 +2446,7 @@
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2460,14 +2460,14 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 111,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 154,
+     "likes": 156,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2487,8 +2487,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T01:17:26+00:00",
-  "fetched_at": "2026-09-22T01:17:26+00:00"
+  "checked_at": "2026-09-22T02:17:32+00:00",
+  "fetched_at": "2026-09-22T02:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2831,8 +2831,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T01:17:23+00:00",
-  "fetched_at": "2026-09-22T01:17:23+00:00"
+  "checked_at": "2026-09-22T02:17:28+00:00",
+  "fetched_at": "2026-09-22T02:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2863,7 +2863,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T01:17:23+00:00",
-  "fetched_at": "2026-09-22T01:17:23+00:00"
+  "checked_at": "2026-09-22T02:17:29+00:00",
+  "fetched_at": "2026-09-22T02:17:29+00:00"
  }
 }
