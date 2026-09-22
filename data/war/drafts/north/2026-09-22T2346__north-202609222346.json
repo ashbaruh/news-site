@@ -1,0 +1,306 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3369a929655c",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-22T23:46:03+00:00",
+  "window": {
+   "from": "2026-09-21T23:46:03+00:00",
+   "to": "2026-09-22T23:46:03+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609222346"
+  },
+  "summary": "הזירה הצפונית מתאפיינת במתיחות ביטחונית גבוהה ובמוקדי חיכוך נמשכים בין ישראל לבין לבנון וסוריה. ישראל ממשיכה בפעילות מבצעית הכוללת תקיפות ארטילריות ואוויריות בדרום לבנון ובדרום סוריה, לצד היערכות והארכת מצב החירום עקב חשש מהסלמה רחבה. במקביל, ממשלת לבנון שומרת על יציבות פוליטית זמנית, ורוסיה ממשיכה בתהליך של צמצום נוכחותה הצבאית בבסיס חמימים בסוריה.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה ומתוחה עם חילופי אש ותקיפות צה\"ל"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה עם פשיטות, ירי ארטילרי ושינויים בהיערכות כוחות זרים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09222346-01",
+    "title": "ירי ארטילרי ותקיפות ישראליות בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו ירי ארטילרי ותקיפות מהאוויר לעבר מרחבים שונים בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T16:42:29+00:00",
+    "last_update_at": "2026-09-22T19:16:18+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129877/",
+      "published_at": "2026-09-22T19:16:18+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129867/",
+      "published_at": "2026-09-22T19:00:31+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/129817/",
+      "published_at": "2026-09-22T16:42:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09222346-02",
+    "title": "הארכת מצב החירום המלחמתי בישראל",
+    "summary": "ישראל האריכה באופן בלתי צפוי את מצב החירום המלחמתי עד לתאריך 6 באוקטובר בשל דיווחים מודיעיניים על הסלמה אפשרית בחזיתות איראן ולבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T14:06:00+00:00",
+    "last_update_at": "2026-09-22T14:06:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959165/multiple-fronts-rising-tensions-israel-extends-wartime-emergency/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959165",
+      "published_at": "2026-09-22T14:06:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09222346-03",
+    "title": "חציית גבול של אזרחים ישראלים לסוריה והשבתם",
+    "summary": "14 אזרחים ישראלים חצו את הגבול לאזור סוריה מאזור אלוני הבשן, וכוח צה\"ל החזיר אותם לשטח ישראל והעבירם למשטרה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T16:43:07+00:00",
+    "last_update_at": "2026-09-22T16:44:30+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_6b67326bd3635ea2",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369680",
+      "published_at": "2026-09-22T16:44:30+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_6b67326bd3635ea2",
+      "url": "https://t.me/idf_telegram/25174",
+      "published_at": "2026-09-22T16:43:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09222346-04",
+    "title": "תקיפות ארטילריות וחדירת כוחות ישראליים לדרום סוריה",
+    "summary": "הצבא הישראלי ירה פגזי ארטילריה ונרות תאורה באזור דרעא, וביצע כניסה וחיפוש בבתים באזור קוניטרה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T07:18:01+00:00",
+    "last_update_at": "2026-09-22T16:10:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/09/israel-shells-daraa-countryside-enters-quneitra/",
+      "published_at": "2026-09-22T16:10:55+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-village-near-un-post-in-southern-syria/4064046",
+      "published_at": "2026-09-22T07:18:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עבדין, סוריה",
+      "lat": 32.7805,
+      "lon": 35.8247
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09222346-05",
+    "title": "תקרית בין צה\"ל לצבא לבנון בדיר מימאס",
+    "summary": "התפתחו מתחים בין כוחות צה\"ל לחיילי חטיבה 7 של צבא לבנון שהקימו עמדת תצפית זמנית בדיר מימאס, מה שהוביל להשלכת רימוני הלם ולנסיגת הכוח הלבנוני.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T11:33:31+00:00",
+    "last_update_at": "2026-09-22T11:33:31+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/could-the-september-18-incident-in-the-village-of-deir-mimas-in-southern-lebanon-between-the-idf-and-the-laf-have-been-avoided-had-the-lebanese-force-not-been-commanded-by-a-shiite-officer/",
+      "published_at": "2026-09-22T11:33:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09222346-06",
+    "title": "צמצום נוכחות ונכסים רוסיים בבסיס חמימים בסוריה",
+    "summary": "תיעוד רשמי הראה כי רוסיה צמצמה משמעותית את נכסיה האוויריים בבסיס חמימים בסוריה מאז נפילת משטר אסד, והמתקנים צפויים להפוך למרכזי אימון משותפים.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T08:03:08+00:00",
+    "last_update_at": "2026-09-22T08:03:08+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/russia-is-scaling-back-not-leaving-syria/",
+      "published_at": "2026-09-22T08:03:08+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על כך שנוכחותו של קצין שיעי ספציפי בצבא לבנון נוצלה במכוון על ידי חיזבאללה למטרות השפעה פוליטית אינן מאומתות ממקור רשמי נייטרלי",
+   "ההערכות המודיעיניות המדויקות שהביאו להארכת מצב החירום בישראל אינן חשופות במלואן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0178,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת סיכונים ביטחוניים בגבולות הצפון",
+     "מניעת הפרעות לפעילות המבצעית בשטחי המרחב"
+    ],
+    "inferred": [
+     "שימור חופש פעולה מבצעי בדרום לבנון ובדרום סוריה",
+     "היערכות למנוע התבססות עוינת בגבולות הצפוניים"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת במרחבי הגבול",
+     "כוננות גבוהה והיערכות לאפשרות של הסלמה רחבה"
+    ]
+   },
+   {
+    "actor": "צבא לבנון",
+    "declared": [
+     "אבטחת חקלאים ואזרחים מקומיים בדרום לבנון",
+     "תיאום פעולות דרך מנגנוני התיאום הבינלאומיים"
+    ],
+    "inferred": [
+     "ניסיון לשמור על נוכחות בשטח למרות לחצים מצד ישראל וגורמים פנים-לבנוניים"
+    ],
+    "forecast": [
+     "המשך חיכוך פוטנציאלי מול פעילות צה\"ל בדרום לבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/russia-is-scaling-back-not-leaving-syria/",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/129817/",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-village-near-un-post-in-southern-syria/4064046",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/israel-shells-daraa-countryside-enters-quneitra/",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959165/multiple-fronts-rising-tensions-israel-extends-wartime-emergency/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959165",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369680",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25174",
+    "accessed_at": "2026-09-22T23:46:03+00:00"
+   }
+  ]
+ }
+}

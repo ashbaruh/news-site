@@ -1,4 +1,8 @@
 {
+"abdin, syria": [
+32.7805,
+35.8247
+],
 "abidin, syria": [
 32.7841,
 35.8706
@@ -59,6 +63,10 @@
 43.3128
 ],
 "bab el-mandeb, yemen": null,
+"baghdad, iraq": [
+33.3062,
+44.3872
+],
 "balakliia, ukraine": [
 49.4521,
 36.8398
@@ -102,6 +110,7 @@
 33.5131,
 36.3096
 ],
+"daraa countryside, syria": null,
 "daraa, syria": [
 32.6228,
 36.1068
@@ -164,6 +173,7 @@
 46.1662,
 34.8089
 ],
+"hmeimim airbase, syria": null,
 "isfahan province, iran": [
 33.1881,
 52.4982
@@ -193,6 +203,10 @@
 55.6367,
 37.7985
 ],
+"kerch, crimea": [
+45.3563,
+36.4671
+],
 "kfar tebnit, lebanon": [
 33.3519,
 35.5186
@@ -205,6 +219,7 @@
 33.3277,
 35.6927
 ],
+"kfartebnit, lebanon": null,
 "kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
 50.0323,
@@ -270,6 +285,10 @@
 33.0992,
 35.5117
 ],
+"manhattan, usa": [
+40.758,
+-73.9855
+],
 "mansouri, lebanon": [
 33.1737,
 35.2111
@@ -295,10 +314,15 @@
 27.1506,
 57.0753
 ],
+"mocha, yemen": [
+13.3179,
+43.2501
+],
 "mokha, yemen": [
 13.3179,
 43.2501
 ],
+"montenegro": null,
 "moscow, russia": [
 55.7505,
 37.6175
@@ -321,6 +345,10 @@
 35.4825
 ],
 "nahal saluki, lebanon": null,
+"new york city, usa": [
+40.7127,
+-74.006
+],
 "new york, united states": [
 40.7127,
 -74.006
@@ -367,6 +395,11 @@
 32.0878,
 34.886
 ],
+"qeshm island, iran": [
+26.7687,
+55.8477
+],
+"quneitra countryside, syria": null,
 "quneitra, syria": null,
 "red sea": [
 20.2966,

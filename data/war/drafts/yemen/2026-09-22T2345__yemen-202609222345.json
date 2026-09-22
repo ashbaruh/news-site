@@ -1,0 +1,330 @@
+{
+ "status": "draft",
+ "received_sha256_12": "859a0538e529",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "verified": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-22T23:45:13+00:00",
+  "window": {
+   "from": "2026-09-21T23:45:13+00:00",
+   "to": "2026-09-22T23:45:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609222345"
+  },
+  "summary": "הלחימה בתימן מחריפה בעקבות התקדמות צבאית של החות'ים לעבר חוף הים האדום ומצר באב אל-מנדב, לצד המשך תקיפות מצידם לעבר שטחי סעודיה. במקביל, סעודיה מקבלת סיוע צבאי הגנתי מבריטניה להתמודדות עם האיומים, והזירה משתלבת במתיחות רחבה יותר מול איראן והמעצמות.",
+  "fronts": [
+   {
+    "name": "חזית חוף הים האדום ובאב אל-מנדב",
+    "status": "פעיל ומתקדם"
+   },
+   {
+    "name": "חזית תימן פנים הארץ והרמות",
+    "status": "לחימה עצימה"
+   },
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "התקפות חות'יות ומעורבות הגנתית בריטית-סעודית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09222345-01",
+    "title": "התקדמות החות'ים והלחימה בתימן",
+    "summary": "החות'ים ביצעו התקדמות מהירה לאורך חוף הים האדום בתימן, השתלטו על נמל מוקה ועל אזורים סביב מצר באב אל-מנדב, ומנהלים קרבות מול כוחות הממשלה התימנית הנתמכים בידי סעודיה באזורים הרריים וברחבי מחוזות שונים.",
+    "axis": "ציר החות'ים ומולם ממשלת תימן וסעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T13:49:22+00:00",
+    "last_update_at": "2026-09-22T19:19:02+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומדדי ההשתלטות המלאים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian",
+      "url": "https://www.theguardian.com/world/video/2026/sep/22/how-the-civil-war-in-yemen-could-affect-global-shipping-routes-explainer",
+      "published_at": "2026-09-22T19:19:02+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_guardian",
+      "url": "https://www.longwarjournal.org/archives/2026/09/houthis-fight-for-key-yemeni-highlands-continue-striking-saudi-arabia.php",
+      "published_at": "2026-09-22T14:09:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/22/yemen-houthis-battle-strategic-red-sea-heights",
+      "published_at": "2026-09-22T13:57:36+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_guardian",
+      "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+      "published_at": "2026-09-22T13:49:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוקה, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09222345-02",
+    "title": "תקיפות החות'ים נגד סעודיה",
+    "summary": "החות'ים ממשיכים לבצע מתקפות של כטב\"מים וטילים לעבר שטחי סעודיה.",
+    "axis": "ציר החות'ים מול סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T13:49:22+00:00",
+    "last_update_at": "2026-09-22T14:09:00+00:00",
+    "what_is_not_verified": "נזק מדויק לכל אתר בסעודיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_fdd_s_long_war_journal",
+      "url": "https://www.longwarjournal.org/archives/2026/09/houthis-fight-for-key-yemeni-highlands-continue-striking-saudi-arabia.php",
+      "published_at": "2026-09-22T14:09:00+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_fdd_s_long_war_journal",
+      "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+      "published_at": "2026-09-22T13:49:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09222345-03",
+    "title": "אישור בריטי לסיוע צבאי הגנתי לסעודיה ותדלוק אווירי",
+    "summary": "בריטניה אישרה בקשה סעודית לספק סיוע הגנתי הכולל מטוסי תדלוק אווירי ממטוס ריפואל לבריטניה בקפריסין, במטרה לסייע למטוסי קרב סעודיים להתגונן מפני מתקפות החות'ים.",
+    "axis": "בריטניה וסעודיה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T05:27:30+00:00",
+    "last_update_at": "2026-09-22T13:49:22+00:00",
+    "what_is_not_verified": "מועד הפעילות המדויק של המטוס בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_21df67c7626312b2",
+      "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+      "published_at": "2026-09-22T13:49:22+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_5981542cd8470f06",
+      "url": "https://www.bbc.co.uk/news/articles/cqlykpe4dk0yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T08:53:03+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_21df67c7626312b2",
+      "url": "https://t.me/abualiexpress/130590",
+      "published_at": "2026-09-22T05:27:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אקרוטירי, קפריסין",
+      "lat": 34.6008,
+      "lon": 32.9562
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09222345-04",
+    "title": "פגישה ודיונים בין ארה\"ב לאיראן באו\"ם סביב חסימת החות'ים",
+    "summary": "נציגים מאיראן ומארצות הברית קיימו פגישות ישירות במסגרת עצרת האו\"ם בניו יורק, כאשר איראן דורשת הפסקת אש הקשורה להסרת המצור על החלקים שבשליטת החות'ים בתימן.",
+    "axis": "איראן וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T20:58:37+00:00",
+    "last_update_at": "2026-09-22T20:58:37+00:00",
+    "what_is_not_verified": "התוצאות הסופיות של המשא ומתן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/news/iran-and-us-held-direct-un-talks-islamic-republic-terms-reopen-hormuz-hardening",
+      "published_at": "2026-09-22T20:58:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09222345-05",
+    "title": "קריאות בינלאומיות של האיחוד האירופי ומדינות ה-G7 להפסקת חימוש החות'ים",
+    "summary": "מדינות ה-G7 ומנהלת החוץ של האיחוד האירופי קראו לעצור את חימוש החות'ים ואת ההתקפות שלהם המאיימות על הביטחון הימי והאנרגיה העולמית במצר באב אל-מנדב ובים האדום.",
+    "axis": "קהילה בינלאומית מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T08:20:33+00:00",
+    "last_update_at": "2026-09-22T20:26:55+00:00",
+    "what_is_not_verified": "תגובת החות'ים המלאה לדרישות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_8abcd057ac1de899",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-top-diplomat-meets-irans-araghchi-discuss-strait-hormuz",
+      "published_at": "2026-09-22T20:26:55+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_c40c3388e6adf35e",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T13:39:09+00:00"
+     },
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "fh_8abcd057ac1de899",
+      "url": "https://gcaptain.com/kallas-urges-eu-to-bolster-red-sea-mission-against-houthi-threat/",
+      "published_at": "2026-09-22T08:20:33+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בקרבות האחרונים בתימן",
+   "פרטי ההסכמות המדויקים בפגישות ארה\"ב-איראן בניו יורק בנוגע לתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0178,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "סיום הנוכחות הזרה בתימן",
+     "תמיכה במערכה האזורית"
+    ],
+    "inferred": [
+     "השתלטות על נתיבי סחר אסטרטגיים בים האדום ובבאב אל-מנדב",
+     "הרחבת השליטה הטריטוריאלית בתימן מול כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך ניסיונות כיבוש של אזורים נוספים בתימן",
+     "המשך איום על הספנות הבינלאומית ותקיפות נגד סעודיה"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על ביטחון הממלכה מפני תקיפות כטב\"מים וטילים"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית בגבולותיה ובאזור הים האדום",
+     "גיוס תמיכה צבאית ודיפלומטית בינלאומית מול האיומים מבתימן"
+    ],
+    "forecast": [
+     "המשך שיתוף פעולה צבאי ואווירי עם בעלות ברית כמו בריטניה",
+     "המשך תמיכה בכוחות המקומיים בתימן הלחמים בחות'ים"
+    ]
+   },
+   {
+    "actor": "בריטניה",
+    "declared": [
+     "סיוע צבאי הגנתי לסעודיה להגנה מפני מתקפות החות'ים",
+     "הגנה על אינטרסים כלכליים ונתיבי אנרגיה"
+    ],
+    "inferred": [
+     "מניעת ערעור יציבות אזורי באב אל-מנדב והים האדום מבלי להיגרר למעורבות התקפית בתוך תימן"
+    ],
+    "forecast": [
+     "הפעלת מטוסי התדלוק מאקרוטירי לתקופה מוגבלת הנתונה לבחינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/kallas-urges-eu-to-bolster-red-sea-mission-against-houthi-threat/",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/22/yemen-houthis-battle-strategic-red-sea-heights",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/09/houthis-fight-for-key-yemeni-highlands-continue-striking-saudi-arabia.php",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-top-diplomat-meets-irans-araghchi-discuss-strait-hormuz",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130590",
+    "accessed_at": "2026-09-22T23:45:13+00:00"
+   }
+  ]
+ }
+}

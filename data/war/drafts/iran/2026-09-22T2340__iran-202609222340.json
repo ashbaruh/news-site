@@ -1,0 +1,415 @@
+{
+ "status": "draft",
+ "received_sha256_12": "575781705aef",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 6,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-22T23:40:34+00:00",
+  "window": {
+   "from": "2026-09-21T23:40:34+00:00",
+   "to": "2026-09-22T23:40:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609222340"
+  },
+  "summary": "ארצות הברית ואיראן מקיימות מגעים מדיניים לצד איומים צבאיים הדדיים סביב עתיד תוכנית הגרעין והסנקציות הכלכליות. במקביל, נשמרת מתיחות גבוהה סביב חופש השיט במצר הורמוז, כאשר איראן מתנה את פתיחתו בהסרת המצור והפסקת פעילות צבאית אזורית.",
+  "fronts": [
+   {
+    "name": "ארה\"ב - איראן",
+    "status": "מגעים דיפלומטיים לצד איומי הסלמה"
+   },
+   {
+    "name": "ישראל - איראן",
+    "status": "מתיחות צבאית ואזהרות הדדיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09222340-01",
+    "title": "חקירת תובעים בארה\"ב נגד בייננס",
+    "summary": "תובעים פדרליים בארה\"ב מנהלים חקירה נגד בייננס בחשד להפרת סנקציות על איראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T23:11:18+00:00",
+    "last_update_at": "2026-09-22T23:11:18+00:00",
+    "what_is_not_verified": "האם בייננס אפשרה ביודעין מסחר שהפר את הסנקציות אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-prosecutors-probing-binance-possible-iran-sanctions-violations",
+      "published_at": "2026-09-22T23:11:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנהטן, ארה\"ב",
+      "lat": 40.758,
+      "lon": -73.9855
+     },
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09222340-02",
+    "title": "איומי שגריר ישראל באו\"ם נגד מנהיגי איראן",
+    "summary": "שגריר ישראל באו\"ם דני דנון הצהיר שישראל יודעת היכן מנהיגי איראן מסתתרים ושיתפסתם היא עניין של ימים אם יתקפו.",
+    "axis": "ישראל - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T23:05:49+00:00",
+    "last_update_at": "2026-09-22T23:05:49+00:00",
+    "what_is_not_verified": "היכולת המעשית לתפוס את המנהיגים אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47925",
+      "published_at": "2026-09-22T23:05:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09222340-03",
+    "title": "פיצוץ ליד האי קשם באיראן",
+    "summary": "דווח על קול פיצוץ בסמוך לאי קשם במצר הורמוז.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T21:47:59+00:00",
+    "last_update_at": "2026-09-22T22:10:34+00:00",
+    "what_is_not_verified": "סיבת הפיצוץ והשפעתו אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
+      "published_at": "2026-09-22T22:10:34+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369739",
+      "published_at": "2026-09-22T21:47:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09222340-04",
+    "title": "פגישה בין נציגי איראן וארה\"ב בניו יורק",
+    "summary": "עראקצ'י נפגש עם וויטקוף וקושנר בשולי עצרת האו\"ם, ובהמשך הוצגו תנאי איראן לפתיחת מצר הורמוז.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T17:35:49+00:00",
+    "last_update_at": "2026-09-22T21:51:29+00:00",
+    "what_is_not_verified": "פרטי ההסכמות המלאים אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21468159",
+      "published_at": "2026-09-22T21:51:29+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
+      "published_at": "2026-09-22T21:21:59+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says",
+      "published_at": "2026-09-22T20:46:34+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130637",
+      "published_at": "2026-09-22T19:55:42+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47923",
+      "published_at": "2026-09-22T19:34:47+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sylxyex5fx",
+      "published_at": "2026-09-22T17:35:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09222340-05",
+    "title": "אישור ועדה בפרלמנט האיראני לגבי מצר הורמוז",
+    "summary": "הוועדה לביטחון לאומי בפרלמנט האיראני אישרה עונשים למפר תקנות המעבר במצר הורמוז.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T21:22:45+00:00",
+    "last_update_at": "2026-09-22T21:22:45+00:00",
+    "what_is_not_verified": "אכיפת החוק בפועל אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86271781/Iran-parliament-commission-approves-penalties-for-violators-of",
+      "published_at": "2026-09-22T21:22:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09222340-06",
+    "title": "פגישת שר החוץ האיראני עם מקביליו מאזרבייג'ן ואוסטריה",
+    "summary": "עראקצ'י קים פגישות עם שרי החוץ של אזרבייג'ן ואוסטריה בשולי עצרת האו\"ם בניו יורק.",
+    "axis": "איראן - מדינות שונות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T21:05:49+00:00",
+    "last_update_at": "2026-09-22T21:05:49+00:00",
+    "what_is_not_verified": "תוכן השיחות המלא אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86271767/Araghchi-meets-Azeri-and-Austrian-counterparts-in-New-York",
+      "published_at": "2026-09-22T21:05:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09222340-07",
+    "title": "ביטול טיסות מאיראן לבגדאד ומסקט",
+    "summary": "איראן ביטלה טיסות מטהרן לבגדאד ומסקט בעקבות לחץ אמריקאי והגבלות אזוריות.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T19:40:00+00:00",
+    "last_update_at": "2026-09-22T19:40:00+00:00",
+    "what_is_not_verified": "היקף ההשפעה המלא על חברות תעופה אחרות אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609228176",
+      "published_at": "2026-09-22T19:40:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     },
+     {
+      "name": "מסקט, עומאן",
+      "lat": 23.6124,
+      "lon": 58.5938
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09222340-08",
+    "title": "הסגרה צפויה של האקר איראני־טורקי לארה\"ב",
+    "summary": "מונטנגרו תסגיר לארה\"ב את האקר אמיר באראטי הקשור למשמרות המהפכה.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T18:56:02+00:00",
+    "last_update_at": "2026-09-22T18:56:02+00:00",
+    "what_is_not_verified": "מועד ההסגרה המדויק אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609227447",
+      "published_at": "2026-09-22T18:56:02+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "האם בייננס אפשרה ביודעין מסחר שהפר סנקציות",
+   "סיבת הפיצוץ ליד האי קשם",
+   "ההיתכנות והמועד של תקיפה אמריקאית אפשרית באתר הגרעין"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0178,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "להפעיל לחץ כלכלי מסיבי על איראן",
+     "למנוע מאיראן להחזיק בנשק גרעיני"
+    ],
+    "inferred": [
+     "לנסות לכפות הסדר אזורי דרך איומי כוח ומגעים דיפלומטיים"
+    ],
+    "forecast": [
+     "המשך סנקציות ולחץ כלכלי עד להשגת הסכם או הסלמה נוספת"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "דרישה להסרת המצור הימי, שחרור נכסים מוקפאים וסיום המלחמה בחזיתות כתנאי לפתיחת מצר הורמוז"
+    ],
+    "inferred": [
+     "ניסיון למנף את השליטה בנתיבי שיט כדי להקל על הלחץ הכלכלי הבינלאומי"
+    ],
+    "forecast": [
+     "המשך מאבק דיפלומטי ושימוש בשלוחים אזוריים להפעלת לחץ"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התנגדות להתבססות איראנית ומניעת איומים מצד שלוחיה"
+    ],
+    "inferred": [
+     "היערכות לכל תרחיש עימות מול איראן והזירות השונות"
+    ],
+    "forecast": [
+     "המשך כוננות גבוהה ופעילות מודיעינית ומבצעית מול ציר איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609227447",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86271767/Araghchi-meets-Azeri-and-Austrian-counterparts-in-New-York",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21468159",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369739",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130637",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47923",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sylxyex5fx",
+    "accessed_at": "2026-09-22T23:40:34+00:00"
+   }
+  ]
+ }
+}
