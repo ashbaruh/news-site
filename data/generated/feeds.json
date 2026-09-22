@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T19:17:12+00:00",
-  "fetched_at": "2026-09-22T19:17:12+00:00"
+  "checked_at": "2026-09-22T20:17:30+00:00",
+  "fetched_at": "2026-09-22T20:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T19:17:25+00:00",
-  "fetched_at": "2026-09-22T19:17:25+00:00"
+  "checked_at": "2026-09-22T20:17:45+00:00",
+  "fetched_at": "2026-09-22T20:17:45+00:00"
  },
  "av_en": {
   "data": [
@@ -62,25 +62,25 @@
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Ace Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Beam Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Ace Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T19:17:27+00:00",
-  "fetched_at": "2026-09-22T19:17:27+00:00"
+  "checked_at": "2026-09-22T20:17:49+00:00",
+  "fetched_at": "2026-09-22T20:17:49+00:00"
  },
- "generated_at": "2026-09-22T19:17:27+00:00",
+ "generated_at": "2026-09-22T20:17:49+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,9 +90,9 @@
      "date": "2026-09-22T18:00:00+00:00"
     },
     {
-     "title": "שעות בניו יורק, בלי אף פגישה: ביקור הבזק של נתניהו",
+     "title": "טראמפ: \"יש תנופה משמעותית לקראת הסכם עם איראן\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T19:10:00+00:00"
+     "date": "2026-09-22T20:08:00+00:00"
     }
    ],
    "market": [
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T19:17:13+00:00",
-  "fetched_at": "2026-09-22T19:17:13+00:00"
+  "checked_at": "2026-09-22T20:17:33+00:00",
+  "fetched_at": "2026-09-22T20:17:33+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T19:17:14+00:00",
-  "fetched_at": "2026-09-22T19:17:14+00:00"
+  "checked_at": "2026-09-22T20:17:34+00:00",
+  "fetched_at": "2026-09-22T20:17:34+00:00"
  },
  "tv": {
   "data": [
@@ -1949,6 +1949,13 @@
    {
     "date": "2026-09-24",
     "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - באיירן מינכן"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "19:00",
     "channel": "אתר ספורט 5",
     "sport": "כדורגל",
     "title": "הפועל ראשון לציון - מכבי אחי נצרת"
@@ -1966,13 +1973,6 @@
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי הרצליה - מ.ס קרית ים"
-   },
-   {
-    "date": "2026-09-24",
-    "time": "20:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל תל אביב - באיירן מינכן"
    },
    {
     "date": "2026-09-24",
@@ -2277,8 +2277,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T19:17:15+00:00",
-  "fetched_at": "2026-09-22T19:17:15+00:00"
+  "checked_at": "2026-09-22T20:17:36+00:00",
+  "fetched_at": "2026-09-22T20:17:36+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2383,19 +2383,19 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T19:17:15+00:00",
-  "fetched_at": "2026-09-22T19:17:15+00:00"
+  "checked_at": "2026-09-22T20:17:36+00:00",
+  "fetched_at": "2026-09-22T20:17:36+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-     "date": "2026-09-22T18:00:00+00:00",
+     "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+     "date": "2026-09-22T21:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing GPT-6 Sol and Luna",
-     "title_he": "הכירו את GPT-6 Sol ולונה",
+     "title_en": "Better prompt caching for GPT-6",
+     "title_he": "מטמון הודעות טוב יותר עבור GPT-6",
      "translated_by": "google"
     },
     {
@@ -2406,22 +2406,22 @@
      "title": "המנכ\"ל דחף לשימוש ב-AI, ועכשיו הוא חושף את הבלאגן שזה יצר"
     }
    ],
-   "candidates": 8,
+   "candidates": 9,
    "failed_sources": [],
    "tools": [
-    {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 490,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 145,
+     "likes": 146,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 491,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Jev Decision Index",
@@ -2434,8 +2434,15 @@
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 117,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 122,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2443,13 +2450,6 @@
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 109,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 121,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2482,8 +2482,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T19:17:24+00:00",
-  "fetched_at": "2026-09-22T19:17:24+00:00"
+  "checked_at": "2026-09-22T20:17:43+00:00",
+  "fetched_at": "2026-09-22T20:17:43+00:00"
  },
  "abroad": {
   "data": {
@@ -2797,8 +2797,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T19:17:19+00:00",
-  "fetched_at": "2026-09-22T19:17:19+00:00"
+  "checked_at": "2026-09-22T20:17:39+00:00",
+  "fetched_at": "2026-09-22T20:17:39+00:00"
  },
  "idf": {
   "data": [
@@ -2829,7 +2829,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T19:17:20+00:00",
-  "fetched_at": "2026-09-22T19:17:20+00:00"
+  "checked_at": "2026-09-22T20:17:40+00:00",
+  "fetched_at": "2026-09-22T20:17:40+00:00"
  }
 }
