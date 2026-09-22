@@ -125,7 +125,10 @@ def gemini_json(system, user, schema, temperature=0.2):
     base = {"systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}]}
     gemini_model()
-    cfg = {"temperature": temperature, "responseMimeType": "application/json"}
+    # תקרת פלט מפורשת: בלעדיה Gemini חתך את התשובה באמצע ה-JSON (22/09/2026, עדכון 18:00 —
+    # "Expecting ',' delimiter"), והעדכון נפל אף שהמודל ענה.
+    cfg = {"temperature": temperature, "responseMimeType": "application/json",
+           "maxOutputTokens": int(os.environ.get("GEMINI_MAX_OUTPUT", "32768"))}
     # הסכמה נשלחת בתוך ההנחיה, לא כפרמטר: נבדק 17/09/2026 — responseJsonSchema ו-responseSchema
     # נדחו ב-400 ("invalid argument") על חומר אמיתי. הפלט נבדק ממילא מול החוזה אחר כך.
     attempts = [
@@ -135,7 +138,7 @@ def gemini_json(system, user, schema, temperature=0.2):
          "generationConfig": cfg},
     ]
     errors = []
-    resp = None
+    out = None
     for model in _gemini_model:
         if model in _exhausted:
             continue                                # המכסה היומית של המודל הזה כבר נגמרה בריצה הזו
@@ -146,10 +149,15 @@ def gemini_json(system, user, schema, temperature=0.2):
             for wait in (0, 30, 90, 180):          # עומס זמני (503) / מכסה לדקה → המתנה ארוכה; הניתוח לא דחוף
                 time.sleep(wait)
                 try:
-                    resp = _gemini_request(path, body)
+                    out = _read_answer(_gemini_request(path, body))
                     gemini_json.used_model = model
                     print(f"      Gemini: {model} · צורת בקשה {variant} · ניסיון אחרי {wait} שנ'")
                     break
+                except ValueError as e:
+                    # תשובה חתוכה / לא-JSON / ריקה — כמו עומס: מנסים שוב, ואז מודל אחר (22/09/2026)
+                    code = 503
+                    errors.append(f"{model} צורה {variant}: {e}")
+                    print(f"      Gemini: {model} · צורה {variant} · {str(e)[:160]}")
                 except urllib.error.HTTPError as e:
                     code = e.code
                     msg = _http_error_text(e)
@@ -162,24 +170,32 @@ def gemini_json(system, user, schema, temperature=0.2):
                         break
                     if code not in (429, 500, 503):
                         break
-            if resp is not None or next_model or code != 400:
+            if out is not None or next_model or code != 400:
                 break
-        if resp is not None:
+        if out is not None:
             break
         if not next_model and code not in (429, 500, 503):
             break                                   # שגיאה שאינה עומס/מכסה — מודל אחר לא יעזור
-    if resp is None and all(m in _exhausted for m in _gemini_model):
+    if out is None and all(m in _exhausted for m in _gemini_model):
         raise QuotaExhausted(" | ".join(errors[-3:]))
-    if resp is None:
+    if out is None:
         raise RuntimeError(" | ".join(errors))
+    return out
+
+
+def _read_answer(resp):
+    """הטקסט של Gemini → JSON. תשובה ריקה או חתוכה מרימה ValueError, כדי שהיא תיחשב לניסיון כושל."""
     u = resp.get("usageMetadata") or {}
     llm_json.last_usage = {"prompt_tokens": u.get("promptTokenCount"), "completion_tokens": u.get("candidatesTokenCount")}
     cand = (resp.get("candidates") or [{}])[0]
     text = "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts", []) if not p.get("thought"))
     if not text:
-        raise RuntimeError(f"Gemini החזיר תשובה ריקה (finishReason={cand.get('finishReason')})")
+        raise ValueError(f"Gemini החזיר תשובה ריקה (finishReason={cand.get('finishReason')})")
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
-    return json.loads(text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"תשובה לא תקינה (finishReason={cand.get('finishReason')}, {len(text)} תווים): {e}")
 
 
 def llm_json(system, user, schema, temperature=0.1):

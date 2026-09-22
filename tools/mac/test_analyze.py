@@ -214,6 +214,38 @@ class GeminiFallback(unittest.TestCase):
         an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-lite"]
         self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 2})
 
+    def test_truncated_answer_is_retried(self):
+        # 22/09/2026: Gemini ענה JSON חתוך באמצע, והעדכון נפל בלי אף ניסיון נוסף
+        self.n = 0
+
+        def fake(path, body=None):
+            self.n += 1
+            text = '{"ok": 3}' if self.n > 2 else '{"events": [{"title": "חת'
+            return {"candidates": [{"content": {"parts": [{"text": text}]}, "finishReason": "MAX_TOKENS"}]}
+        an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-lite"]
+        self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 3})
+
+    def test_empty_answer_is_retried(self):
+        self.n = 0
+
+        def fake(path, body=None):
+            self.n += 1
+            if self.n == 1:
+                return {"candidates": [{"content": {"parts": []}, "finishReason": "SAFETY"}]}
+            return {"candidates": [{"content": {"parts": [{"text": '{"ok": 4}'}]}}]}
+        an._gemini_request, an._gemini_model = fake, ["flash-a"]
+        self.assertEqual(an.gemini_json("s", "u", {}), {"ok": 4})
+
+    def test_max_output_tokens_is_sent(self):
+        seen = {}
+
+        def fake(path, body=None):
+            seen.update(body["generationConfig"])
+            return {"candidates": [{"content": {"parts": [{"text": "{}"}]}}]}
+        an._gemini_request, an._gemini_model = fake, ["flash-a"]
+        an.gemini_json("s", "u", {})
+        self.assertGreaterEqual(seen.get("maxOutputTokens", 0), 8192)
+
     def test_all_exhausted_raises(self):
         def fake(path, body=None):
             raise self.err(429, "PerDay")
