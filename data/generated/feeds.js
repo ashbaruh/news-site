@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:17:15+00:00",
-  "fetched_at": "2026-09-22T14:17:15+00:00"
+  "checked_at": "2026-09-22T14:57:52+00:00",
+  "fetched_at": "2026-09-22T14:57:52+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:17:28+00:00",
-  "fetched_at": "2026-09-22T14:17:28+00:00"
+  "checked_at": "2026-09-22T14:58:06+00:00",
+  "fetched_at": "2026-09-22T14:58:06+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:17:33+00:00",
-  "fetched_at": "2026-09-22T14:17:33+00:00"
+  "checked_at": "2026-09-22T14:58:08+00:00",
+  "fetched_at": "2026-09-22T14:58:08+00:00"
  },
- "generated_at": "2026-09-22T14:17:33+00:00",
+ "generated_at": "2026-09-22T14:58:08+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רשות התחרות דורשת מיוניון: תמכרו את מניותיכם בסופר-פארם כדי לקנות את כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
-     "date": "2026-09-22T13:46:00+00:00"
+     "title": "עם הגב לקיר: אחרי פיצוץ העסקה - מה יעשה בנק דיסקונט?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557020",
+     "date": "2026-09-22T14:08:00+00:00"
     },
     {
      "title": "האיתות של איראן: \"מוכנים לפתוח את מצר הורמוז\"",
@@ -99,19 +99,19 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "רשות התחרות דורשת מיוניון: תמכרו את מניותיכם בסופר-פארם כדי לקנות את כאל",
+     "title": "נעילה מעורבת בתל אביב; טאואר זינקה, מדד ת\"א־נפט וגז נפל ביותר מ-2%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T14:31:00+00:00"
+    },
+    {
+     "title": "שיא חדש לנאסד\"ק בוול סטריט; מניית ויקינג מזנקת בעקבות תוצאות בניסוי לתרופת הרזיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T14:03:00+00:00"
+    },
+    {
+     "title": "רשות התחרות מטרפדת את עסקת כאל: דורשת מיוניון למכור מניותיה בסופר-פארם נגד רצונה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
      "date": "2026-09-22T13:46:00+00:00"
-    },
-    {
-     "title": "פתיחה חיובית בוול סטריט; מחירי הנפט ממשיכים לרדת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T13:33:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל ביותר מ-2%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T12:55:00+00:00"
     },
     {
      "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:17:16+00:00",
-  "fetched_at": "2026-09-22T14:17:16+00:00"
+  "checked_at": "2026-09-22T14:57:53+00:00",
+  "fetched_at": "2026-09-22T14:57:53+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:17:17+00:00",
-  "fetched_at": "2026-09-22T14:17:17+00:00"
+  "checked_at": "2026-09-22T14:57:54+00:00",
+  "fetched_at": "2026-09-22T14:57:54+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:17:18+00:00",
-  "fetched_at": "2026-09-22T14:17:18+00:00"
+  "checked_at": "2026-09-22T14:57:56+00:00",
+  "fetched_at": "2026-09-22T14:57:56+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:17:18+00:00",
-  "fetched_at": "2026-09-22T14:17:18+00:00"
+  "checked_at": "2026-09-22T14:57:56+00:00",
+  "fetched_at": "2026-09-22T14:57:56+00:00"
  },
  "ai": {
   "data": {
@@ -2422,21 +2422,21 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 131,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 121,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2478,14 +2478,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 71,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:17:27+00:00",
-  "fetched_at": "2026-09-22T14:17:27+00:00"
+  "checked_at": "2026-09-22T14:58:05+00:00",
+  "fetched_at": "2026-09-22T14:58:05+00:00"
  },
  "abroad": {
   "data": {
@@ -2545,15 +2545,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "לצד אודגור והולאנד: חלאילי נכלל ברשימה מכובדת",
-     "link": "https://www.one.co.il/Article/533992.html?ref=rss",
-     "date": "2026-09-22T03:55:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "\"אבדיה מלך החדירות לסל, הדיח את שיי מהכתר\"",
      "link": "https://www.one.co.il/Article/533974.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
@@ -2590,15 +2581,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "0:0 לחלאילי ופאלאס עם לידס, 3:5 מלהיב למנצ'סטר סיטי",
-     "link": "https://sports.walla.co.il/item/3868863",
-     "date": "2026-09-20T14:58:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
@@ -2620,6 +2602,15 @@ window.DB.generated = {
      "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3868647",
      "date": "2026-09-17T05:17:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
+     "link": "https://sports.walla.co.il/item/3868373",
+     "date": "2026-09-16T19:19:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2826,8 +2817,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:17:22+00:00",
-  "fetched_at": "2026-09-22T14:17:22+00:00"
+  "checked_at": "2026-09-22T14:58:00+00:00",
+  "fetched_at": "2026-09-22T14:58:00+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2849,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:17:23+00:00",
-  "fetched_at": "2026-09-22T14:17:23+00:00"
+  "checked_at": "2026-09-22T14:58:01+00:00",
+  "fetched_at": "2026-09-22T14:58:01+00:00"
  }
 };
