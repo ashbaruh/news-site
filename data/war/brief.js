@@ -1,83 +1,116 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-22T04:00:00+03:00",
- "generated_at": "2026-09-22T00:40:11+00:00",
+ "slot": "2026-09-22T18:00:00+03:00",
+ "generated_at": "2026-09-22T18:16:51+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09220040-01",
-     "title": "השבתת חברות התעופה האיראניות",
-     "summary": "שר האוצר האמריקאי הכריז כי החל מה-23 בספטמבר יושבתו כל חברות התעופה האיראניות באמצעות ניתוק מנמלי תעופה ומערכות דולריות.",
-     "axis": "אכיפת סנקציות",
-     "claim_type": "statement",
+     "id": "IRAN-09221816-01",
+     "title": "שיחה בין בכירים אמריקאים לאיראנים",
+     "summary": "התקיימה שיחה בת שלוש שעות בין נציגי ארצות הברית לבין משלחת איראן בניו יורק.",
+     "axis": "דיפלומטיה ומגעים",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T18:10:33+00:00",
+     "occurred_at": "2026-09-22T18:10:29+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T18:10:33+00:00",
-     "last_update_at": "2026-09-21T18:10:33+00:00",
-     "what_is_not_verified": "לא מאומת האם המהלך יבוצע במלואו בפועל כמתוכנן.",
+     "first_reported_at": "2026-09-22T18:10:29+00:00",
+     "last_update_at": "2026-09-22T18:10:29+00:00",
+     "what_is_not_verified": "התוכן המלא של השיחה אינו מאומת מעבר להצהרות הצדדים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130577",
-       "published_at": "2026-09-21T18:10:33+00:00"
+       "url": "https://t.me/abualiexpress/130628",
+       "published_at": "2026-09-22T18:10:29+00:00"
       }
      ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09220040-02",
-     "title": "דוח האו\"ם על פשעים באיראן",
-     "summary": "משלחת מציאת עובדות של האו\"ם הודיעה כי רשויות איראן ביצעו פשעים נגד האנושות בדיכוי ההפגנות, וכי ארה\"ב ביצעו פשעי מלחמה בתקיפות באתרי אזרחים.",
-     "axis": "משפט בינלאומי וזכויות אדם",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T23:41:12+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T23:41:12+00:00",
-     "last_update_at": "2026-09-21T23:41:12+00:00",
-     "what_is_not_verified": "לא מאומתות השלכות מעשיות של ממצאי משלחת האו\"ם.",
-     "is_new_in_window": true,
-     "reports": [
+     "places": [
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609211866",
-       "published_at": "2026-09-21T23:41:12+00:00"
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
       }
-     ],
-     "places": []
+     ]
     },
     {
-     "id": "IRAN-09220040-03",
-     "title": "ביטול טיסות לאיראן בעקבות סנקציות",
-     "summary": "חברות תעופה זרות, בהן טורקיש איירליינס וחברות נוספות, ביטלו את טיסותיהן לאיראן לנוכח איומי הסנקציות האמריקאיות.",
-     "axis": "תעופה וסנקציות",
+     "id": "IRAN-09221816-02",
+     "title": "פגישת שרת החוץ של האיחוד האירופי עם שר החוץ האיראני",
+     "summary": "שרת האיחוד האירופי לענייני חוץ נפגשה עם שר החוץ של איראן בניו יורק.",
+     "axis": "דיפלומטיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T20:46:18+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-21T20:46:18+00:00",
-     "last_update_at": "2026-09-21T21:24:00+00:00",
-     "what_is_not_verified": "היקף ההפסדים המדויק לטווח הארוך אינו מאומת.",
+     "occurred_at": "2026-09-22T17:07:55+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T17:07:55+00:00",
+     "last_update_at": "2026-09-22T17:07:55+00:00",
+     "what_is_not_verified": "פרטי השיחה המלאים אינם ידועים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609214536",
-       "published_at": "2026-09-21T21:24:00+00:00"
-      },
+       "source_id": "src_irna",
+       "source_root_id": "fh_12c3eb78ea5f005c",
+       "url": "https://en.irna.ir/news/86271652/EU-foreign-policy-chief-meets-with-Iran-FM-in-New-York",
+       "published_at": "2026-09-22T17:07:55+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_mee",
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
+      }
+     ]
+    }
+   ]
+  },
+  "north": {
+   "events": [
+    {
+     "id": "NORTH-09221816-01",
+     "title": "אזרחים ישראלים חצו את הגבול לסוריה",
+     "summary": "ארבעה עשר אזרחים ישראלים חצו את הגבול לשטח סוריה והוחזרו על ידי כוח צה\"ל.",
+     "axis": "גבול ישראל-סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T16:43:07+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T16:43:07+00:00",
+     "last_update_at": "2026-09-22T16:43:07+00:00",
+     "what_is_not_verified": "נסיבות ההגעה המדויקות של האזרחים למקום אינן מפורטות מלבד דיווח הצבא.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/turkish-airlines-pegasus-and-ajet-cancel-iran-flights-us-sanctions-bite",
-       "published_at": "2026-09-21T20:46:18+00:00"
+       "url": "https://t.me/idf_telegram/25174",
+       "published_at": "2026-09-22T16:43:07+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-09221816-02",
+     "title": "הגעת בתים טרומיים לדרום לבנון",
+     "summary": "המשלוח הראשון של בתים טרומיים הגיע לכפר בדרום לבנון עבור משפחות שבתיהן נהרסו.",
+     "axis": "דרום לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T18:04:21+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-22T18:04:21+00:00",
+     "last_update_at": "2026-09-22T18:04:21+00:00",
+     "what_is_not_verified": "מצב התשתיות המלא באזור טרם אומתן מעבר לדיווח על הבתים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/families-move-prefab-homes-devastated-southern-lebanon",
+       "published_at": "2026-09-22T18:04:21+00:00"
       }
      ],
      "places": []
@@ -87,77 +120,83 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09220040-01",
-     "title": "הסכם שיתוף פעולה בין אוקראינה לרומניה",
-     "summary": "אוקראינה ורומניה חתמו על מזכר להדק את שיתוף הפעולה בפיתוח גבול המדינה המשותף לצורך תמיכה במעבר סחורות אוקראיניות.",
-     "axis": "כלכלה ותחבורה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T23:38:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T23:38:00+00:00",
-     "last_update_at": "2026-09-21T23:38:00+00:00",
-     "what_is_not_verified": "לוחות הזמנים המדויקים לביצוע המזכר אינם מפורטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_151ba899e5b79f26",
-       "url": "https://www.ukrinform.net/rubric-economy/4166267-ukraine-romania-to-strengthen-cooperation-to-ensure-reliable-transit-of-ukrainian-goods.html",
-       "published_at": "2026-09-21T23:38:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09220040-02",
-     "title": "הסכמי אנרגיה בין נפטוגז ל-ORLEN",
-     "summary": "קבוצת נפטוגז האוקראינית וחברת ORLEN הפולנית חתמו על שני מזכרים לחיזוק ביטחון האנרגיה וגיוון מקורות האספקה של אוקראינה.",
-     "axis": "אנרגיה וכלכלה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T21:35:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T21:35:00+00:00",
-     "last_update_at": "2026-09-21T21:35:00+00:00",
-     "what_is_not_verified": "כמויות האספקה המדויקות שיועברו בפועל אינן מפורטות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_e476c255c0e2d9f4",
-       "url": "https://www.ukrinform.net/rubric-economy/4166216-naftogaz-orlen-agree-on-new-supplies-of-lng-oil-products.html",
-       "published_at": "2026-09-21T21:35:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09220040-03",
-     "title": "תקיפת כטב\"ם רוסי באזור זפוריז'יה",
-     "summary": "כוחות רוסיים תקפו באמצעות כטב\"ם מיניבוס ביישוב קומישובחה שבמחוז זפוריז'יה, תקרית שבה נהרג אדם אחד ונפצעו שלושה נוספים.",
-     "axis": "לחימה קרקעית ואווירית",
+     "id": "UKRAINE-09221816-01",
+     "title": "הארכת סנקציות של האיחוד האירופי והסרת אישים",
+     "summary": "האיחוד האירופי האריך את הסנקציות הקשורות לאוקראינה בשלוש שנים והסיר שני מיליארדרים מהרשימה.",
+     "axis": "סנקציות ומדיניות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T19:50:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T19:50:00+00:00",
-     "last_update_at": "2026-09-21T19:50:00+00:00",
-     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים בטווח הארוך אינו מאומת.",
+     "occurred_at": "2026-09-22T17:15:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-22T17:15:00+00:00",
+     "last_update_at": "2026-09-22T17:15:00+00:00",
+     "what_is_not_verified": "ההשפעה המעשית המדויקת של הסרת האנשים מהרשימה אינה ניתנת לאומדן מיידי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_f858ac52ebdd3b7e",
-       "url": "https://www.ukrinform.net/rubric-ato/4166455-russian-drone-attack-on-minibus-in-zaporizhzhia-region-kills-one-injures-three.html",
-       "published_at": "2026-09-21T19:50:00+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_18eea524ebac863c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054639/",
+       "published_at": "2026-09-22T17:15:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09221816-02",
+     "title": "פגיעה במטרות זיקוק רוסיות",
+     "summary": "בוצעו תקיפות על בתי זיקוק נפט בשטח רוסיה.",
+     "axis": "תקיפות אוויריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T17:52:32+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T17:52:32+00:00",
+     "last_update_at": "2026-09-22T17:52:32+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק בכל אתר ואתר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-russia-imposes-restrictions-near-estonian-border-amid-mobilization-concerns/",
+       "published_at": "2026-09-22T17:52:32+00:00"
       }
      ],
      "places": [
       {
-       "name": "זפוריז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
+       "name": "סמרה, רוסיה",
+       "lat": 53.1956,
+       "lon": 50.1015
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09221816-03",
+     "title": "פגיעה של כטב\"מים בקייב",
+     "summary": "כטב\"מים מונעי-סילון רוסיים פגעו בבירת אוקראינה וגרמו לפצועים.",
+     "axis": "תקיפות באוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T17:21:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T17:21:50+00:00",
+     "last_update_at": "2026-09-22T17:21:50+00:00",
+     "what_is_not_verified": "זהות כלל הנפגעים מעבר לנתוני הפינוי הרשמיים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/russian-jet-powered-drones-strike-kyiv-injuring-8/",
+       "published_at": "2026-09-22T17:21:50+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     }
@@ -166,182 +205,56 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09220040-01",
-     "title": "סיוע אווירי בריטי לסעודיה נגד החות'ים",
-     "summary": "ראש ממשלת בריטניה הודיע על הסכמתו לספק לסעודיה תמיכה אווירית הגנתית מוגבלת הכוללת תדלוק באוויר כדי להתמודד עם התקפות החות'ים.",
-     "axis": "מעורבות בינלאומית ותקיפות החות'ים",
-     "claim_type": "statement",
+     "id": "YEMEN-09221816-01",
+     "title": "פריסת מכלית תדלוק בריטית לתמיכה בסעודיה",
+     "summary": "בריטניה הודיעה על פריסת מטוס תדלוק מבסיס בקפריסין כדי לתמוך במטוסי סעודיה בעקבות התקפות החות'ים.",
+     "axis": "ים סוף ותימן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T21:46:32+00:00",
+     "occurred_at": "2026-09-22T13:49:22+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-21T22:24:10+00:00",
-     "last_update_at": "2026-09-22T00:29:28+00:00",
-     "what_is_not_verified": "משך הזמן המדויק שבו תוענק התמיכה בפועל אינו ידוע במלואו.",
+     "first_reported_at": "2026-09-22T13:49:22+00:00",
+     "last_update_at": "2026-09-22T13:49:22+00:00",
+     "what_is_not_verified": "מועד תחילת הפעילות המבצעית המדויק טרם מומש בשטח.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/22/uk-to-refuel-saudi-jets-to-help-counter-houthi-attacks?traffic_source=rss",
-       "published_at": "2026-09-22T00:29:28+00:00"
-      },
+       "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+       "published_at": "2026-09-22T13:49:22+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/uk-agrees-support-saudi-struggle-houthis-reports",
-       "published_at": "2026-09-21T23:30:21+00:00"
-      },
+       "name": "אקרוטירי, קפריסין",
+       "lat": 34.6008,
+       "lon": 32.9562
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09221816-02",
+     "title": "שיחת מנהיגים בנושא נתיבי שיט",
+     "summary": "נשיא רוסיה ויורש העצר הסעודי שוחחו על חשיבות המעבר הבטוח במצרי הים סוף והמפרץ.",
+     "axis": "דיפלומטיה ימית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T12:28:15+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T17:49:00+00:00",
+     "last_update_at": "2026-09-22T17:49:00+00:00",
+     "what_is_not_verified": "תוכניות מעשיות שסוכמו מעבר לקריאה להבטחת נתיבי השיט.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uks-burnham-agrees-saudi-request-refuelling-support",
-       "published_at": "2026-09-21T22:24:10+00:00"
+       "url": "https://www.sabanew.net/viewstory/152802",
+       "published_at": "2026-09-22T17:49:00+00:00"
       }
      ],
      "places": []
-    },
-    {
-     "id": "YEMEN-09220040-02",
-     "title": "דרישה לתגבור המשימה הימית בים האדום",
-     "summary": "ראש המדיניות החוץ של האיחוד האירופי הצהירה כי המשימה הימית של האיחוד בים האדום זקוקה ליותר מעשרה כלי שיט לנוכח החמרה במצב הביטחוני.",
-     "axis": "אבטחת נתיבי שיט",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T22:46:28+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-21T22:46:28+00:00",
-     "last_update_at": "2026-09-21T22:46:28+00:00",
-     "what_is_not_verified": "לא מאומת האם יוקצו בפועל כלי שיט נוספים על ידי המדינות החברות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/eus-kallas-says-red-sea-naval-mission-needs-more-10-ships",
-       "published_at": "2026-09-21T22:46:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "הים האדום",
-       "lat": 20.2966,
-       "lon": 38.5343
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09220040-03",
-     "title": "הרחבת סיוע מזון בתימן",
-     "summary": "תוכנית המזון העולמית הודיעה על הרחבת פעילות החירום שלה לנוכח משבר ההומניטרי המחמיר בתימן ועקירת עשרות אלפי בני אדם בעקבות השתלטות החות'ים על חוף הים האדום.",
-     "axis": "משבר הומניטרי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T19:46:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-21T19:46:31+00:00",
-     "last_update_at": "2026-09-21T19:46:31+00:00",
-     "what_is_not_verified": "היקף הגישה האפקטיבית לאזורים הנשלטים בידי החות'ים אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/world-food-programme-ramps-response-yemen-hunger-fears-escalate-official-says",
-       "published_at": "2026-09-21T19:46:31+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
-  },
-  "north": {
-   "events": [
-    {
-     "id": "NORTH-09220040-01",
-     "title": "פיצוץ במחסן נשק בחאלב",
-     "summary": "התרחש פיצוץ במחסן נשק של צבא סוריה באזור אלעיס בחאלב, שהוביל לשיגור טילים לעבר אזורים שונים בעיר.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T18:01:01+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T18:01:01+00:00",
-     "last_update_at": "2026-09-21T18:01:01+00:00",
-     "what_is_not_verified": "הסיבות לפיצוץ והטענות הלא רשמיות כי ישראל עומדת מאחוריו אינן מאומתות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130572",
-       "published_at": "2026-09-21T18:01:01+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חאלב",
-       "lat": 36.1992,
-       "lon": 37.1637
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09220040-02",
-     "title": "תקיפות צה\"ל בדרום לבנון",
-     "summary": "מטוסי קרב של צה\"ל תקפו במספר כפרים ומרחבים בדרום לבנון במהלך ערב כיפור ולאורכו.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T17:41:39+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T17:41:39+00:00",
-     "last_update_at": "2026-09-21T17:41:39+00:00",
-     "what_is_not_verified": "היקף הנזק המלא אינו מפורט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130567",
-       "published_at": "2026-09-21T17:41:39+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרום לבנון",
-       "lat": 39.371,
-       "lon": -84.2128
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09220040-03",
-     "title": "הסלמה בתקיפות בדרום סוריה",
-     "summary": "הצבא הישראלי הגביר את הירי וההפגזות באזורי דרעא וקוניטרה, כולל פגיעה בבעלי חיים ובשכונות מגורים.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T14:00:22+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T14:00:22+00:00",
-     "last_update_at": "2026-09-21T14:00:22+00:00",
-     "what_is_not_verified": "הנזקים המדויקים בכלל האזורים אינם מאומתים במלואם.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
-       "published_at": "2026-09-21T14:00:22+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרעא",
-       "lat": 32.6228,
-       "lon": 36.1068
-      }
-     ]
     }
    ]
   }
