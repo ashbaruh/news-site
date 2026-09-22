@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T11:17:14+00:00",
-  "fetched_at": "2026-09-22T11:17:14+00:00"
+  "checked_at": "2026-09-22T12:17:16+00:00",
+  "fetched_at": "2026-09-22T12:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T11:17:27+00:00",
-  "fetched_at": "2026-09-22T11:17:27+00:00"
+  "checked_at": "2026-09-22T12:17:27+00:00",
+  "fetched_at": "2026-09-22T12:17:27+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Got a noisy commute? These smart, effective noise-cancelling headphones let you finally escape the outside world",
+    "title_he": "יש לך נסיעה רועשת? אוזניות ביטול רעשים חכמות ויעילות אלו מאפשרות לך לברוח סוף סוף מהעולם שבחוץ",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/got-a-noisy-commute-these-smart-effective-noise-cancelling-headphones-let-you-finally-escape-the-outside-world",
+    "date": "2026-09-22T12:02:03+00:00"
+   },
    {
     "title_en": "This classic 1969 album by The Velvet Underground is getting a “vinylphyle” upgrade",
     "title_he": "האלבום הקלאסי הזה משנת 1969 של The Velvet Underground מקבל שדרוג \"וינילפיל\".",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/uci-road-world-championships-2026-live-stream",
     "date": "2026-09-20T05:00:00+00:00"
-   },
-   {
-    "title_en": "“Good sound is good sound, regardless of whether it's hi-fi or home cinema” – how a surprise product reminded me of this simple truth",
-    "title_he": "\"סאונד טוב הוא סאונד טוב, לא משנה אם זה Hi-Fi או קולנוע ביתי\" - איך מוצר הפתעה הזכיר לי את האמת הפשוטה הזו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/good-sound-is-good-sound-regardless-of-whether-its-hi-fi-or-home-cinema-how-a-surprise-product-reminded-me-of-this-simple-truth",
-    "date": "2026-09-19T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T11:17:27+00:00",
-  "fetched_at": "2026-09-22T11:17:27+00:00"
+  "checked_at": "2026-09-22T12:17:29+00:00",
+  "fetched_at": "2026-09-22T12:17:29+00:00"
  },
- "generated_at": "2026-09-22T11:17:27+00:00",
+ "generated_at": "2026-09-22T12:17:29+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,19 +94,19 @@ window.DB.generated = {
     {
      "title": "האיתות של איראן: \"מוכנים לפתוח את מצר הורמוז\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T10:48:00+00:00"
+     "date": "2026-09-22T11:57:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "ירידות קלות באירופה; החוזים בניו יורק יציבים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T11:20:00+00:00"
+    },
+    {
      "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל במעל 2%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
      "date": "2026-09-22T10:26:00+00:00"
-    },
-    {
-     "title": "ירידות קלות באירופה; החוזים בניו יורק יציבים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T09:53:00+00:00"
     },
     {
      "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T11:17:16+00:00",
-  "fetched_at": "2026-09-22T11:17:16+00:00"
+  "checked_at": "2026-09-22T12:17:17+00:00",
+  "fetched_at": "2026-09-22T12:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T11:17:16+00:00",
-  "fetched_at": "2026-09-22T11:17:16+00:00"
+  "checked_at": "2026-09-22T12:17:18+00:00",
+  "fetched_at": "2026-09-22T12:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T11:17:18+00:00",
-  "fetched_at": "2026-09-22T11:17:18+00:00"
+  "checked_at": "2026-09-22T12:17:19+00:00",
+  "fetched_at": "2026-09-22T12:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T11:17:18+00:00",
-  "fetched_at": "2026-09-22T11:17:18+00:00"
+  "checked_at": "2026-09-22T12:17:19+00:00",
+  "fetched_at": "2026-09-22T12:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2415,7 +2415,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 478,
+     "likes": 479,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2429,7 +2429,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 113,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2450,7 +2450,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 157,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2484,8 +2484,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T11:17:26+00:00",
-  "fetched_at": "2026-09-22T11:17:26+00:00"
+  "checked_at": "2026-09-22T12:17:26+00:00",
+  "fetched_at": "2026-09-22T12:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2554,15 +2554,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "סבע כבש שער ענק ב-2:3 של אמדספור על בשיקטאש",
-     "link": "https://www.one.co.il/Article/533949.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דיא סבע"
-     ]
-    },
-    {
      "title": "\"אבדיה מלך החדירות לסל, הדיח את שיי מהכתר\"",
      "link": "https://www.one.co.il/Article/533974.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
@@ -2620,6 +2611,15 @@ window.DB.generated = {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T16:56:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2826,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T11:17:21+00:00",
-  "fetched_at": "2026-09-22T11:17:21+00:00"
+  "checked_at": "2026-09-22T12:17:22+00:00",
+  "fetched_at": "2026-09-22T12:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T11:17:22+00:00",
-  "fetched_at": "2026-09-22T11:17:22+00:00"
+  "checked_at": "2026-09-22T12:17:23+00:00",
+  "fetched_at": "2026-09-22T12:17:23+00:00"
  }
 };
