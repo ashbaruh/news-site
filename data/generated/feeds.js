@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T03:17:19+00:00",
-  "fetched_at": "2026-09-22T03:17:19+00:00"
+  "checked_at": "2026-09-22T04:17:20+00:00",
+  "fetched_at": "2026-09-22T04:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T03:17:29+00:00",
-  "fetched_at": "2026-09-22T03:17:29+00:00"
+  "checked_at": "2026-09-22T04:17:33+00:00",
+  "fetched_at": "2026-09-22T04:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T03:17:29+00:00",
-  "fetched_at": "2026-09-22T03:17:29+00:00"
+  "checked_at": "2026-09-22T04:17:33+00:00",
+  "fetched_at": "2026-09-22T04:17:33+00:00"
  },
- "generated_at": "2026-09-22T03:17:29+00:00",
+ "generated_at": "2026-09-22T04:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "פחות מניות, יותר זהב: ראיון סוער עם מנהל ההשקעות הוותיק יעקב ויינשטיין",
+     "title": "בגיל 76 הסוחר הוותיק עדיין נהנה מכל רגע ומזהיר ממה שעומד לקרות בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
      "date": "2026-09-22T02:51:00+00:00"
     },
     {
-     "title": "למרות בקשת יורש העצר: טראמפ עצר מתקפה נגד החות'ים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556955",
-     "date": "2026-09-21T18:49:00+00:00"
+     "title": "\"דברים יכולים לצאת משליטה\": המתיחות בין ארה\"ב לאיראן - והחשש בישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
+     "date": "2026-09-22T03:30:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T03:17:21+00:00",
-  "fetched_at": "2026-09-22T03:17:21+00:00"
+  "checked_at": "2026-09-22T04:17:21+00:00",
+  "fetched_at": "2026-09-22T04:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T03:17:21+00:00",
-  "fetched_at": "2026-09-22T03:17:21+00:00"
+  "checked_at": "2026-09-22T04:17:22+00:00",
+  "fetched_at": "2026-09-22T04:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2284,8 +2284,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T03:17:23+00:00",
-  "fetched_at": "2026-09-22T03:17:23+00:00"
+  "checked_at": "2026-09-22T04:17:23+00:00",
+  "fetched_at": "2026-09-22T04:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2390,12 +2390,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T03:17:23+00:00",
-  "fetched_at": "2026-09-22T03:17:23+00:00"
+  "checked_at": "2026-09-22T04:17:23+00:00",
+  "fetched_at": "2026-09-22T04:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
+     "date": "2026-09-20T06:51:39+00:00",
+     "launch": false,
+     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2406,52 +2413,50 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 4,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 468,
+     "likes": 472,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 144,
+     "likes": 146,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 109,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 107,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 114,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Jev Reproductions Tracker",
      "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
      "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 93,
+     "likes": 94,
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 115,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2484,12 +2489,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T03:17:28+00:00",
-  "fetched_at": "2026-09-22T03:17:28+00:00"
+  "checked_at": "2026-09-22T04:17:32+00:00",
+  "fetched_at": "2026-09-22T04:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "לצד אודגור והולאנד: חלאילי נכלל ברשימה מכובדת",
+     "link": "https://www.one.co.il/Article/533992.html?ref=rss",
+     "date": "2026-09-22T03:55:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "לצד לברון ודוראנט: הדירוג שאליו נכנס דני אבדיה",
      "link": "https://www.one.co.il/Article/533963.html?ref=rss",
@@ -2509,21 +2523,21 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "ענאן חלאילי: חשוב שלא ספגנו, נעשה דברים גדולים",
-     "link": "https://www.one.co.il/Article/533964.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "סבע כבש שער ענק ב-2:3 של אמדספור על בשיקטאש",
      "link": "https://www.one.co.il/Article/533949.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
      "source": "ONE",
      "players": [
       "דיא סבע"
+     ]
+    },
+    {
+     "title": "ענאן חלאילי: חשוב שלא ספגנו, נעשה דברים גדולים",
+     "link": "https://www.one.co.il/Article/533964.html?ref=rss",
+     "date": "2026-09-21T16:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
      ]
     },
     {
@@ -2614,17 +2628,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "תאי בריבו"
-     ]
-    },
-    {
-     "title": "תורג'מן כיכב עם שני בישולים, עבדה וטוקלומטי גברו על בריבו",
-     "link": "https://sports.walla.co.il/item/3869017",
-     "date": "2026-09-20T05:34:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "תאי בריבו",
-      "ליאל עבדה",
-      "עידן טוקלומטי"
      ]
     }
    ],
@@ -2828,8 +2831,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T03:17:25+00:00",
-  "fetched_at": "2026-09-22T03:17:25+00:00"
+  "checked_at": "2026-09-22T04:17:27+00:00",
+  "fetched_at": "2026-09-22T04:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -2860,7 +2863,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T03:17:26+00:00",
-  "fetched_at": "2026-09-22T03:17:26+00:00"
+  "checked_at": "2026-09-22T04:17:28+00:00",
+  "fetched_at": "2026-09-22T04:17:28+00:00"
  }
 };
