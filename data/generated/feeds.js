@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:01:16+00:00",
-  "fetched_at": "2026-09-22T10:01:16+00:00"
+  "checked_at": "2026-09-22T10:17:32+00:00",
+  "fetched_at": "2026-09-22T10:17:32+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:01:30+00:00",
-  "fetched_at": "2026-09-22T10:01:30+00:00"
+  "checked_at": "2026-09-22T10:17:43+00:00",
+  "fetched_at": "2026-09-22T10:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:01:30+00:00",
-  "fetched_at": "2026-09-22T10:01:30+00:00"
+  "checked_at": "2026-09-22T10:17:43+00:00",
+  "fetched_at": "2026-09-22T10:17:43+00:00"
  },
- "generated_at": "2026-09-22T10:01:30+00:00",
+ "generated_at": "2026-09-22T10:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,19 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "ירידות קלות באירופה; החוזים בניו יורק יציבים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T09:53:00+00:00"
+    },
+    {
+     "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556980",
+     "date": "2026-09-22T09:40:00+00:00"
+    },
+    {
      "title": "עליות בת\"א בהובלת מניות הביטוח והטכנולוגיה; טאואר מזנקת ב-8%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
      "date": "2026-09-22T09:15:00+00:00"
     },
     {
-     "title": "\"לא קוריוז תמים\": המהפכה השקטה שאיראן מובילה ברשת",
+     "title": "60 אלף פצצות בדרך לישראל. למה דווקא עכשיו?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556979",
      "date": "2026-09-22T08:35:00+00:00"
-    },
-    {
-     "title": "ירידות קלות באירופה; אסיה ננעלה בעליות קטנות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T08:32:00+00:00"
     },
     {
      "title": "אקזיט ענק: השליטה בחברת העגורנים נמכרת לפי 340 מיליון שקל",
@@ -189,11 +194,6 @@ window.DB.generated = {
      "date": "2026-09-20T05:34:00+00:00"
     },
     {
-     "title": "ה-Ai ברח מהמעבדה של חברה ישראלית. מי אשם?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556947",
-     "date": "2026-09-20T05:08:00+00:00"
-    },
-    {
      "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
      "date": "2026-09-19T13:00:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:01:17+00:00",
-  "fetched_at": "2026-09-22T10:01:17+00:00"
+  "checked_at": "2026-09-22T10:17:34+00:00",
+  "fetched_at": "2026-09-22T10:17:34+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:01:18+00:00",
-  "fetched_at": "2026-09-22T10:01:18+00:00"
+  "checked_at": "2026-09-22T10:17:34+00:00",
+  "fetched_at": "2026-09-22T10:17:34+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:01:19+00:00",
-  "fetched_at": "2026-09-22T10:01:19+00:00"
+  "checked_at": "2026-09-22T10:17:36+00:00",
+  "fetched_at": "2026-09-22T10:17:36+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,19 +2385,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:01:19+00:00",
-  "fetched_at": "2026-09-22T10:01:19+00:00"
+  "checked_at": "2026-09-22T10:17:36+00:00",
+  "fetched_at": "2026-09-22T10:17:36+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/building-ai-agents-as-team-members/",
-     "date": "2026-09-22T08:36:37+00:00",
-     "launch": false,
-     "title": "2,000 אייג'נטים בפרודקשן: כך הפכנו את ה-AI לחלק אמיתי מהצוות בלי לאבד שליטה"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2408,8 +2401,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2484,12 +2479,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:01:29+00:00",
-  "fetched_at": "2026-09-22T10:01:29+00:00"
+  "checked_at": "2026-09-22T10:17:42+00:00",
+  "fetched_at": "2026-09-22T10:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בפסגת הליגה ההולנדית: הנתון המרשים של אוסקר גלוך",
+     "link": "https://sports.walla.co.il/item/3869311",
+     "date": "2026-09-22T10:04:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
     {
      "title": "\"למנור סולומון יש מה להוכיח בפגרת הנבחרות הזו\"",
      "link": "https://www.one.co.il/Article/534011.html?ref=rss",
@@ -2587,15 +2591,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "מנור סולומון עבר לאמצע ושינה את המשחק: \"היה טירוף\"",
-     "link": "https://sports.walla.co.il/item/3869040",
-     "date": "2026-09-20T07:21:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2826,8 +2821,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:01:23+00:00",
-  "fetched_at": "2026-09-22T10:01:23+00:00"
+  "checked_at": "2026-09-22T10:17:40+00:00",
+  "fetched_at": "2026-09-22T10:17:40+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2853,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:01:24+00:00",
-  "fetched_at": "2026-09-22T10:01:24+00:00"
+  "checked_at": "2026-09-22T10:17:41+00:00",
+  "fetched_at": "2026-09-22T10:17:41+00:00"
  }
 };
