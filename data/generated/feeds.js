@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:57:14+00:00",
-  "fetched_at": "2026-09-22T18:57:14+00:00"
+  "checked_at": "2026-09-22T19:17:12+00:00",
+  "fetched_at": "2026-09-22T19:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:57:24+00:00",
-  "fetched_at": "2026-09-22T18:57:24+00:00"
+  "checked_at": "2026-09-22T19:17:25+00:00",
+  "fetched_at": "2026-09-22T19:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:57:27+00:00",
-  "fetched_at": "2026-09-22T18:57:27+00:00"
+  "checked_at": "2026-09-22T19:17:27+00:00",
+  "fetched_at": "2026-09-22T19:17:27+00:00"
  },
- "generated_at": "2026-09-22T18:57:27+00:00",
+ "generated_at": "2026-09-22T19:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-22T18:00:00+00:00"
     },
     {
-     "title": "טראמפ חשף: \"בכיר אמריקאי נפגש עם המשלחת האיראנית\"",
+     "title": "שעות בניו יורק, בלי אף פגישה: ביקור הבזק של נתניהו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T18:05:00+00:00"
+     "date": "2026-09-22T19:10:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:57:14+00:00",
-  "fetched_at": "2026-09-22T18:57:14+00:00"
+  "checked_at": "2026-09-22T19:17:13+00:00",
+  "fetched_at": "2026-09-22T19:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:57:15+00:00",
-  "fetched_at": "2026-09-22T18:57:15+00:00"
+  "checked_at": "2026-09-22T19:17:14+00:00",
+  "fetched_at": "2026-09-22T19:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:57:16+00:00",
-  "fetched_at": "2026-09-22T18:57:16+00:00"
+  "checked_at": "2026-09-22T19:17:15+00:00",
+  "fetched_at": "2026-09-22T19:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,37 +2385,37 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:57:16+00:00",
-  "fetched_at": "2026-09-22T18:57:16+00:00"
+  "checked_at": "2026-09-22T19:17:15+00:00",
+  "fetched_at": "2026-09-22T19:17:15+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+     "date": "2026-09-22T18:00:00+00:00",
+     "launch": true,
+     "title_en": "Introducing GPT-6 Sol and Luna",
+     "title_he": "הכירו את GPT-6 Sol ולונה",
+     "translated_by": "google"
+    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/shopify-ceo-has-an-ai-slop-problem/",
      "date": "2026-09-22T16:24:58+00:00",
      "launch": false,
      "title": "המנכ\"ל דחף לשימוש ב-AI, ועכשיו הוא חושף את הבלאגן שזה יצר"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/priorities-principles-third-party-assessments",
-     "date": "2026-09-22T00:00:00+00:00",
-     "launch": false,
-     "title_en": "Priorities and principles for effective third party assessments",
-     "title_he": "סדרי עדיפויות ועקרונות להערכות אפקטיביות של צד שלישי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 8,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 488,
+     "likes": 490,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2450,7 +2450,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 120,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2484,12 +2484,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:57:23+00:00",
-  "fetched_at": "2026-09-22T18:57:23+00:00"
+  "checked_at": "2026-09-22T19:17:24+00:00",
+  "fetched_at": "2026-09-22T19:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "כאב הראש מארה\"ב, הבורות האירית והדיון סביב סבע",
+     "link": "https://www.one.co.il/Article/534019.html?ref=rss",
+     "date": "2026-09-22T19:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "חיים רביבו על עסקת רוי רביבו לאלצ'ה: \"כולם הפסידו בה\"",
      "link": "https://sports.walla.co.il/item/3869368",
@@ -2790,8 +2799,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:57:19+00:00",
-  "fetched_at": "2026-09-22T18:57:19+00:00"
+  "checked_at": "2026-09-22T19:17:19+00:00",
+  "fetched_at": "2026-09-22T19:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2822,7 +2831,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:57:19+00:00",
-  "fetched_at": "2026-09-22T18:57:19+00:00"
+  "checked_at": "2026-09-22T19:17:20+00:00",
+  "fetched_at": "2026-09-22T19:17:20+00:00"
  }
 };
