@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T16:17:26+00:00",
-  "fetched_at": "2026-09-22T16:17:26+00:00"
+  "checked_at": "2026-09-22T17:17:28+00:00",
+  "fetched_at": "2026-09-22T17:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T16:17:39+00:00",
-  "fetched_at": "2026-09-22T16:17:39+00:00"
+  "checked_at": "2026-09-22T17:17:42+00:00",
+  "fetched_at": "2026-09-22T17:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Ace Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T16:17:41+00:00",
-  "fetched_at": "2026-09-22T16:17:41+00:00"
+  "checked_at": "2026-09-22T17:17:44+00:00",
+  "fetched_at": "2026-09-22T17:17:44+00:00"
  },
- "generated_at": "2026-09-22T16:17:41+00:00",
+ "generated_at": "2026-09-22T17:17:44+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "טראמפ באיום חריף על איראן: \"עסקה או השמדה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T15:13:00+00:00"
+     "date": "2026-09-22T17:14:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מגמה מעורבת בוול סטריט: מניות הפיננסים צוללות; מחירי הנפט שינו כיוון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T16:52:00+00:00"
+    },
     {
      "title": "החשבון שלו הראה יתרה של 20 מיליון דולר, אבל הוא לא הצליח למשוך אותם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556963",
@@ -112,11 +117,6 @@ window.DB.generated = {
      "title": "כסף גדול בעגורנים: המייסד בן ה-87 שנפגש עם יותר מרבע מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556975",
      "date": "2026-09-22T15:45:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בוול סטריט: מניות הפיננסים צוללות; הנפט יורד לאחר נאום טראמפ",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T15:43:00+00:00"
     },
     {
      "title": "בת המהגרים שסחפה את ברלין בצל סקנדלים אנטישמיים במפלגתה",
@@ -217,17 +217,12 @@ window.DB.generated = {
      "title": "נעילה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חצתה את רף ה-5%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
      "date": "2026-09-18T20:10:00+00:00"
-    },
-    {
-     "title": "רגע לפני העסקה: הסטות הכספים הגדולות מאלטשולר שחם נמשכו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556933",
-     "date": "2026-09-18T12:35:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T16:17:27+00:00",
-  "fetched_at": "2026-09-22T16:17:27+00:00"
+  "checked_at": "2026-09-22T17:17:29+00:00",
+  "fetched_at": "2026-09-22T17:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T16:17:28+00:00",
-  "fetched_at": "2026-09-22T16:17:28+00:00"
+  "checked_at": "2026-09-22T17:17:30+00:00",
+  "fetched_at": "2026-09-22T17:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2284,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T16:17:28+00:00",
-  "fetched_at": "2026-09-22T16:17:28+00:00"
+  "checked_at": "2026-09-22T17:17:32+00:00",
+  "fetched_at": "2026-09-22T17:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2390,18 +2385,18 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T16:17:28+00:00",
-  "fetched_at": "2026-09-22T16:17:28+00:00"
+  "checked_at": "2026-09-22T17:17:32+00:00",
+  "fetched_at": "2026-09-22T17:17:32+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/muse-surpasses-chatgpt-and-gets-banned-by-amazon/",
-     "date": "2026-09-22T12:51:28+00:00",
+     "link": "https://www.geektime.co.il/shopify-ceo-has-an-ai-slop-problem/",
+     "date": "2026-09-22T16:24:58+00:00",
      "launch": false,
-     "title": "הסוכן Muse עוקף את ChatGPT, ונחסם על ידי אמזון"
+     "title": "המנכ\"ל דחף לשימוש ב-AI, ועכשיו הוא חושף את הבלאגן שזה יצר"
     },
     {
      "source": "OpenAI",
@@ -2413,28 +2408,28 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
+   "candidates": 6,
    "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 485,
+     "likes": 487,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2452,18 +2447,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 106,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
      "likes": 161,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 105,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2476,7 +2471,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 74,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2489,8 +2484,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T16:17:37+00:00",
-  "fetched_at": "2026-09-22T16:17:37+00:00"
+  "checked_at": "2026-09-22T17:17:41+00:00",
+  "fetched_at": "2026-09-22T17:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2804,8 +2799,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T16:17:31+00:00",
-  "fetched_at": "2026-09-22T16:17:31+00:00"
+  "checked_at": "2026-09-22T17:17:36+00:00",
+  "fetched_at": "2026-09-22T17:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -2836,7 +2831,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T16:17:32+00:00",
-  "fetched_at": "2026-09-22T16:17:32+00:00"
+  "checked_at": "2026-09-22T17:17:37+00:00",
+  "fetched_at": "2026-09-22T17:17:37+00:00"
  }
 };
