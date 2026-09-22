@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T07:17:27+00:00",
-  "fetched_at": "2026-09-22T07:17:27+00:00"
+  "checked_at": "2026-09-22T08:17:25+00:00",
+  "fetched_at": "2026-09-22T08:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T07:17:42+00:00",
-  "fetched_at": "2026-09-22T07:17:42+00:00"
+  "checked_at": "2026-09-22T08:17:35+00:00",
+  "fetched_at": "2026-09-22T08:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T07:17:42+00:00",
-  "fetched_at": "2026-09-22T07:17:42+00:00"
+  "checked_at": "2026-09-22T08:17:36+00:00",
+  "fetched_at": "2026-09-22T08:17:36+00:00"
  },
- "generated_at": "2026-09-22T07:17:42+00:00",
+ "generated_at": "2026-09-22T08:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עליות בפתיחת המסחר בת\"א; טאואר מזנקת ב-8%, נייס ב-5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T07:16:00+00:00"
+     "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
+     "date": "2026-09-22T02:53:00+00:00"
     },
     {
      "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
@@ -99,12 +99,22 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T06:18:00+00:00"
+     "title": "ירידות קלות באירופה; אסיה ננעלה בעליות קטנות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T08:07:00+00:00"
     },
     {
-     "title": "מימון ישיר נכנסת לאשראי ליזמי נדל\"ן: תרכוש 85% מסיגמא סיטי תמורת כ-34 מיליון שקל",
+     "title": "אקזיט ענק: השליטה בחברת העגורנים נמכרת לפי 340 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556975",
+     "date": "2026-09-22T07:43:00+00:00"
+    },
+    {
+     "title": "עליות בת\"א בהובלת מניות הטכנולוגיה: טאואר מזנקת ב-8%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T07:36:00+00:00"
+    },
+    {
+     "title": "מרחיבה את הפעילות: הרכישה החדשה של מימון ישיר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556962",
      "date": "2026-09-22T05:48:00+00:00"
     },
@@ -112,11 +122,6 @@ window.DB.generated = {
      "title": "החשבון שלו הראה יתרה של 20 מיליון דולר, אבל הוא לא הצליח למשוך אותם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556963",
      "date": "2026-09-22T05:38:00+00:00"
-    },
-    {
-     "title": "עליות באסיה בהובלת מניות השבבים, אבל בוול סטריט מתעוררת שאלה מטרידה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T05:23:00+00:00"
     },
     {
      "title": "מישראל לצפון קוריאה: קים ג'ונג און בוחן העתקת מל\"טים",
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-18T10:10:00+00:00"
     },
     {
-     "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
-     "date": "2026-09-18T04:01:00+00:00"
-    },
-    {
      "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
      "date": "2026-09-18T03:58:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T07:17:29+00:00",
-  "fetched_at": "2026-09-22T07:17:29+00:00"
+  "checked_at": "2026-09-22T08:17:26+00:00",
+  "fetched_at": "2026-09-22T08:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T07:17:30+00:00",
-  "fetched_at": "2026-09-22T07:17:30+00:00"
+  "checked_at": "2026-09-22T08:17:27+00:00",
+  "fetched_at": "2026-09-22T08:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T07:17:32+00:00",
-  "fetched_at": "2026-09-22T07:17:32+00:00"
+  "checked_at": "2026-09-22T08:17:28+00:00",
+  "fetched_at": "2026-09-22T08:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T07:17:32+00:00",
-  "fetched_at": "2026-09-22T07:17:32+00:00"
+  "checked_at": "2026-09-22T08:17:28+00:00",
+  "fetched_at": "2026-09-22T08:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2419,18 +2419,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
-     "title": "AI Notes",
-     "desc_en": "Source-grounded AI notes with citations (open source).",
-     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 149,
-     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
-    },
-    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 116,
+     "likes": 120,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "AI Notes",
+     "desc_en": "Source-grounded AI notes with citations (open source).",
+     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
+     "likes": 150,
+     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2443,7 +2443,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 97,
+     "likes": 103,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2471,7 +2471,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 112,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2484,8 +2484,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T07:17:41+00:00",
-  "fetched_at": "2026-09-22T07:17:41+00:00"
+  "checked_at": "2026-09-22T08:17:34+00:00",
+  "fetched_at": "2026-09-22T08:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2826,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T07:17:35+00:00",
-  "fetched_at": "2026-09-22T07:17:35+00:00"
+  "checked_at": "2026-09-22T08:17:31+00:00",
+  "fetched_at": "2026-09-22T08:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T07:17:36+00:00",
-  "fetched_at": "2026-09-22T07:17:36+00:00"
+  "checked_at": "2026-09-22T08:17:31+00:00",
+  "fetched_at": "2026-09-22T08:17:31+00:00"
  }
 };
