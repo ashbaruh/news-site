@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T20:17:30+00:00",
-  "fetched_at": "2026-09-22T20:17:30+00:00"
+  "checked_at": "2026-09-22T21:17:10+00:00",
+  "fetched_at": "2026-09-22T21:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T20:17:45+00:00",
-  "fetched_at": "2026-09-22T20:17:45+00:00"
+  "checked_at": "2026-09-22T21:17:21+00:00",
+  "fetched_at": "2026-09-22T21:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Ace Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T20:17:49+00:00",
-  "fetched_at": "2026-09-22T20:17:49+00:00"
+  "checked_at": "2026-09-22T21:17:23+00:00",
+  "fetched_at": "2026-09-22T21:17:23+00:00"
  },
- "generated_at": "2026-09-22T20:17:49+00:00",
+ "generated_at": "2026-09-22T21:17:23+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T20:17:33+00:00",
-  "fetched_at": "2026-09-22T20:17:33+00:00"
+  "checked_at": "2026-09-22T21:17:11+00:00",
+  "fetched_at": "2026-09-22T21:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,18 +1866,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T20:17:34+00:00",
-  "fetched_at": "2026-09-22T20:17:34+00:00"
+  "checked_at": "2026-09-22T21:17:12+00:00",
+  "fetched_at": "2026-09-22T21:17:12+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-22",
-    "time": "20:55",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "מכבי ראשון לציון - הפועל ב\"ש/דימונה"
-   },
    {
     "date": "2026-09-23",
     "time": "18:40",
@@ -2279,8 +2272,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T20:17:36+00:00",
-  "fetched_at": "2026-09-22T20:17:36+00:00"
+  "checked_at": "2026-09-22T21:17:13+00:00",
+  "fetched_at": "2026-09-22T21:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2378,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T20:17:36+00:00",
-  "fetched_at": "2026-09-22T20:17:36+00:00"
+  "checked_at": "2026-09-22T21:17:13+00:00",
+  "fetched_at": "2026-09-22T21:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2415,21 +2408,21 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 146,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 491,
+     "likes": 494,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 133,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2447,18 +2440,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 109,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
      "likes": 162,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 110,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2478,14 +2471,14 @@ window.DB.generated = {
      "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 106,
+     "likes": 107,
      "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T20:17:43+00:00",
-  "fetched_at": "2026-09-22T20:17:43+00:00"
+  "checked_at": "2026-09-22T21:17:20+00:00",
+  "fetched_at": "2026-09-22T21:17:20+00:00"
  },
  "abroad": {
   "data": {
@@ -2533,15 +2526,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "יהב גורפינקל"
-     ]
-    },
-    {
-     "title": "\"אבדיה מלך החדירות לסל, הדיח את שיי מהכתר\"",
-     "link": "https://www.one.co.il/Article/533974.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
      ]
     },
     {
@@ -2799,8 +2783,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T20:17:39+00:00",
-  "fetched_at": "2026-09-22T20:17:39+00:00"
+  "checked_at": "2026-09-22T21:17:16+00:00",
+  "fetched_at": "2026-09-22T21:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -2831,7 +2815,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T20:17:40+00:00",
-  "fetched_at": "2026-09-22T20:17:40+00:00"
+  "checked_at": "2026-09-22T21:17:16+00:00",
+  "fetched_at": "2026-09-22T21:17:16+00:00"
  }
 };
