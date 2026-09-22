@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:17:14+00:00",
-  "fetched_at": "2026-09-22T22:17:14+00:00"
+  "checked_at": "2026-09-22T23:17:18+00:00",
+  "fetched_at": "2026-09-22T23:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:17:28+00:00",
-  "fetched_at": "2026-09-22T22:17:28+00:00"
+  "checked_at": "2026-09-22T23:17:29+00:00",
+  "fetched_at": "2026-09-22T23:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -71,18 +71,18 @@ window.DB.generated = {
     "date": "2026-09-22T13:00:00+00:00"
    },
    {
-    "title_en": "Sonos Ace Ultra",
+    "title_en": "Sonos Beam Ultra",
     "title_he": null,
     "translated_by": null,
-    "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
     "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:17:29+00:00",
-  "fetched_at": "2026-09-22T22:17:29+00:00"
+  "checked_at": "2026-09-22T23:17:30+00:00",
+  "fetched_at": "2026-09-22T23:17:30+00:00"
  },
- "generated_at": "2026-09-22T22:17:29+00:00",
+ "generated_at": "2026-09-22T23:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:17:16+00:00",
-  "fetched_at": "2026-09-22T22:17:16+00:00"
+  "checked_at": "2026-09-22T23:17:19+00:00",
+  "fetched_at": "2026-09-22T23:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:17:17+00:00",
-  "fetched_at": "2026-09-22T22:17:17+00:00"
+  "checked_at": "2026-09-22T23:17:20+00:00",
+  "fetched_at": "2026-09-22T23:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2272,8 +2272,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:17:19+00:00",
-  "fetched_at": "2026-09-22T22:17:19+00:00"
+  "checked_at": "2026-09-22T23:17:21+00:00",
+  "fetched_at": "2026-09-22T23:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2378,8 +2378,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:17:19+00:00",
-  "fetched_at": "2026-09-22T22:17:19+00:00"
+  "checked_at": "2026-09-22T23:17:21+00:00",
+  "fetched_at": "2026-09-22T23:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -2408,28 +2408,28 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 494,
+     "likes": 498,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 136,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 118,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2450,35 +2450,35 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 111,
+     "likes": 112,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 121,
+     "likes": 122,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
-     "title": "Marigold V2",
-     "desc_en": "Depth, surface normals, and albedo from a single image",
-     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 109,
-     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:17:27+00:00",
-  "fetched_at": "2026-09-22T22:17:27+00:00"
+  "checked_at": "2026-09-22T23:17:28+00:00",
+  "fetched_at": "2026-09-22T23:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -2783,8 +2783,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:17:22+00:00",
-  "fetched_at": "2026-09-22T22:17:22+00:00"
+  "checked_at": "2026-09-22T23:17:24+00:00",
+  "fetched_at": "2026-09-22T23:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -2815,7 +2815,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:17:23+00:00",
-  "fetched_at": "2026-09-22T22:17:23+00:00"
+  "checked_at": "2026-09-22T23:17:24+00:00",
+  "fetched_at": "2026-09-22T23:17:24+00:00"
  }
 };
