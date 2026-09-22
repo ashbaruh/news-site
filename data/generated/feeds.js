@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T13:17:20+00:00",
-  "fetched_at": "2026-09-22T13:17:20+00:00"
+  "checked_at": "2026-09-22T14:17:15+00:00",
+  "fetched_at": "2026-09-22T14:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,17 +44,24 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T13:17:31+00:00",
-  "fetched_at": "2026-09-22T13:17:31+00:00"
+  "checked_at": "2026-09-22T14:17:28+00:00",
+  "fetched_at": "2026-09-22T14:17:28+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
-    "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
+    "title_en": "It's official: Beats’ new flagship wireless headphones are here, and they are pitched as the brand’s best-sounding cans ever",
+    "title_he": "זה רשמי: אוזניות הדגל האלחוטיות החדשות של Beats כבר כאן, והן מוצגות בתור הפחיות שנשמעו הכי טוב של המותג אי פעם",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
-    "date": "2026-09-22T13:00:00+00:00"
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/its-official-beats-new-flagship-wireless-headphones-are-here-and-theyre-pitched-as-the-brands-best-sounding-cans-ever",
+    "date": "2026-09-22T14:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra vs Arc Ultra: which five-star soundbar should you buy?",
+    "title_he": "Sonos Beam Ultra vs Arc Ultra: איזה סאונד בר חמישה כוכבים כדאי לקנות?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-vs-arc-ultra-which-five-star-soundbar-should-you-buy",
+    "date": "2026-09-22T13:28:31+00:00"
    },
    {
     "title_en": "Sonos Beam Ultra",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": null,
     "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
     "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
-    "title_en": "Got a noisy commute? These smart, effective noise-cancelling headphones let you finally escape the outside world",
-    "title_he": "יש לך נסיעה רועשת? אוזניות ביטול רעשים חכמות ויעילות אלו מאפשרות לך לברוח סוף סוף מהעולם שבחוץ",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/got-a-noisy-commute-these-smart-effective-noise-cancelling-headphones-let-you-finally-escape-the-outside-world",
-    "date": "2026-09-22T12:02:03+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T13:17:36+00:00",
-  "fetched_at": "2026-09-22T13:17:36+00:00"
+  "checked_at": "2026-09-22T14:17:33+00:00",
+  "fetched_at": "2026-09-22T14:17:33+00:00"
  },
- "generated_at": "2026-09-22T13:17:36+00:00",
+ "generated_at": "2026-09-22T14:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "העובדים הצילו את החברה וקנו אותה ב-50 מיליון דולר. כעת היא נמכרת ב-600 מיליון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556958",
-     "date": "2026-09-22T11:00:00+00:00"
+     "title": "רשות התחרות דורשת מיוניון: תמכרו את מניותיכם בסופר-פארם כדי לקנות את כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
+     "date": "2026-09-22T13:46:00+00:00"
     },
     {
      "title": "האיתות של איראן: \"מוכנים לפתוח את מצר הורמוז\"",
@@ -99,9 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "החוזים בוול סטריט מטפסים בחסות ירידת הנפט; סנדיסק מזנקת",
+     "title": "רשות התחרות דורשת מיוניון: תמכרו את מניותיכם בסופר-פארם כדי לקנות את כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
+     "date": "2026-09-22T13:46:00+00:00"
+    },
+    {
+     "title": "פתיחה חיובית בוול סטריט; מחירי הנפט ממשיכים לרדת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T12:57:00+00:00"
+     "date": "2026-09-22T13:33:00+00:00"
     },
     {
      "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל ביותר מ-2%",
@@ -212,17 +217,12 @@ window.DB.generated = {
      "title": "וורן באפט בהודעה דרמטית: פורש מתפקיד יו\"ר ברקשייר - \"הזמן תמיד מנצח\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556929",
      "date": "2026-09-18T10:10:00+00:00"
-    },
-    {
-     "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
-     "date": "2026-09-18T03:58:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T13:17:21+00:00",
-  "fetched_at": "2026-09-22T13:17:21+00:00"
+  "checked_at": "2026-09-22T14:17:16+00:00",
+  "fetched_at": "2026-09-22T14:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T13:17:21+00:00",
-  "fetched_at": "2026-09-22T13:17:21+00:00"
+  "checked_at": "2026-09-22T14:17:17+00:00",
+  "fetched_at": "2026-09-22T14:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T13:17:23+00:00",
-  "fetched_at": "2026-09-22T13:17:23+00:00"
+  "checked_at": "2026-09-22T14:17:18+00:00",
+  "fetched_at": "2026-09-22T14:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,12 +2385,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T13:17:23+00:00",
-  "fetched_at": "2026-09-22T13:17:23+00:00"
+  "checked_at": "2026-09-22T14:17:18+00:00",
+  "fetched_at": "2026-09-22T14:17:18+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/muse-surpasses-chatgpt-and-gets-banned-by-amazon/",
+     "date": "2026-09-22T12:51:28+00:00",
+     "launch": false,
+     "title": "הסוכן Muse עוקף את ChatGPT, ונחסם על ידי אמזון"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2401,45 +2408,50 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 5,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 483,
+     "likes": 485,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 129,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 119,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 114,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 118,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 105,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2449,17 +2461,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 118,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2470,21 +2475,30 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
-     "title": "Marigold V2",
-     "desc_en": "Depth, surface normals, and albedo from a single image",
-     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 71,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T13:17:29+00:00",
-  "fetched_at": "2026-09-22T13:17:29+00:00"
+  "checked_at": "2026-09-22T14:17:27+00:00",
+  "fetched_at": "2026-09-22T14:17:27+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חיים רביבו על עסקת רוי רביבו לאלצ'ה: \"כולם הפסידו בה\"",
+     "link": "https://sports.walla.co.il/item/3869368",
+     "date": "2026-09-22T13:22:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "בהולנד קטלו את גלוך בעיתוי מוזר: \"עסוק בהצלחה האישית שלו\"",
      "link": "https://sports.walla.co.il/item/3869315",
@@ -2582,15 +2596,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "חיים רביבו הופתע מבנו: \"לא צפיתי את ההתקדמות הזו של רוי\"",
-     "link": "https://sports.walla.co.il/item/3869076",
-     "date": "2026-09-20T11:04:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2821,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T13:17:26+00:00",
-  "fetched_at": "2026-09-22T13:17:26+00:00"
+  "checked_at": "2026-09-22T14:17:22+00:00",
+  "fetched_at": "2026-09-22T14:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2853,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T13:17:27+00:00",
-  "fetched_at": "2026-09-22T13:17:27+00:00"
+  "checked_at": "2026-09-22T14:17:23+00:00",
+  "fetched_at": "2026-09-22T14:17:23+00:00"
  }
 };
