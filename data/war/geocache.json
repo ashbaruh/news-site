@@ -1,4 +1,8 @@
 {
+"abidin, syria": [
+32.7841,
+35.8706
+],
 "aden, yemen": [
 12.7896,
 45.0285
@@ -100,6 +104,10 @@
 33.3021,
 35.5467
 ],
+"dnipro, ukraine": [
+51.5567,
+30.6122
+],
 "dnipropetrovsk, ukraine": [
 48.468,
 35.0418
@@ -179,6 +187,10 @@
 33.3519,
 35.5186
 ],
+"kfarchouba, lebanon": [
+33.3277,
+35.6927
+],
 "kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
 50.0323,
@@ -209,6 +221,10 @@
 48.5349,
 37.6924
 ],
+"kryvyi rih, ukraine": [
+47.9103,
+33.3918
+],
 "kyiv oblast, ukraine": null,
 "kyiv region, ukraine": [
 50.4731,
@@ -235,6 +251,10 @@
 "makhachkala, russia": [
 42.983,
 47.5049
+],
+"malkia, israel": [
+33.0992,
+35.5117
 ],
 "mansouri, lebanon": [
 33.1737,
@@ -291,6 +311,10 @@
 40.7127,
 -74.006
 ],
+"new york, usa": [
+40.7127,
+-74.006
+],
 "novofedorivka, ukraine": [
 45.0943,
 33.5752
@@ -321,6 +345,10 @@
 48.8535,
 2.3484
 ],
+"pavlohrad, ukraine": [
+48.5317,
+35.8704
+],
 "petah tikva, israel": [
 32.0878,
 34.886
@@ -347,11 +375,19 @@
 39.7249
 ],
 "saluki, lebanon": null,
+"samara, russia": [
+53.1956,
+50.1015
+],
 "sanaa, yemen": [
 15.3539,
 44.2059
 ],
 "saudi arabia": null,
+"shannon airport, ireland": [
+52.6987,
+-8.9216
+],
 "shaqra, lebanon": null,
 "slatyne, ukraine": [
 50.2091,

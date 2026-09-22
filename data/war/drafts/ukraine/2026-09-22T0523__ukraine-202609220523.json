@@ -1,0 +1,372 @@
+{
+ "status": "draft",
+ "received_sha256_12": "389996cbe5aa",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 1,
+   "shared_root": 4,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-22T05:23:27+00:00",
+  "window": {
+   "from": "2026-09-21T05:23:27+00:00",
+   "to": "2026-09-22T05:23:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609220523"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת תוך התמקדות בתשתיות אנרגיה, כאשר אוקראינה מבצעת תקיפות כטב\"מים נרחבות על בתי זיקוק בתוך רוסיה ורוסיה מגיבה במתקפות טילים על ערים באוקראינה. במקביל, מתקיימים מאמצים דיפלומטיים בינלאומיים בניו יורק ובאירופה סביב סוגיות סנקציות על רוסיה והסיוע הצבאי לאוקראינה.",
+  "fronts": [
+   {
+    "name": "חזית המזרח והדרום (קו המגע באוקראינה)",
+    "status": "פעיל"
+   },
+   {
+    "name": "חזית התשתיות האנרגטיות (תקיפות עומק)",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09220523-01",
+    "title": "פגישת זלנסקי ומקרון",
+    "summary": "נשיא אוקראינה פגש את נשיא צרפת בניו יורק.",
+    "axis": "דיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T05:21:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T05:21:00+00:00",
+    "last_update_at": "2026-09-22T05:21:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_611ee87e1f41a285",
+      "url": "https://www.ukrinform.net/rubric-polytics/4166511-zelensky-met-with-macron-in-new-york.html",
+      "published_at": "2026-09-22T05:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09220523-02",
+    "title": "תקיפת כטב\"ם על בית זיקוק בסמרה",
+    "summary": "כוחות אוקראיניים תקפו בלילה את בית הזיקוק לנפט בסמרה באמצעות כלי טיס בלתי מאויש.",
+    "axis": "תקיפות אוויריות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T01:58:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T01:58:36+00:00",
+    "last_update_at": "2026-09-22T04:10:56+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyivind",
+      "url": "https://kyivindependent.com/ukrainian-forces-strike-russian-oil-refinery-in-samara-oblast-in-overnight-drone-attack/",
+      "published_at": "2026-09-22T04:10:56+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_kyivind",
+      "url": "https://t.me/alexmehacarmel/47898",
+      "published_at": "2026-09-22T01:58:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סמרה, רוסיה",
+      "lat": 53.1956,
+      "lon": 50.1015
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09220523-03",
+    "title": "פגיעת טילים בליסטיים בדניפרו",
+    "summary": "מתקפת טילים בליסטיים רוסית בלילה פגעה בעיר דניפרו וגרמה להרוגים, פצועים ונזק למבנים.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T23:36:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T23:36:00+00:00",
+    "last_update_at": "2026-09-22T04:04:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e35a989014929f8f",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054526/",
+      "published_at": "2026-09-22T04:04:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_931d1e7368e89317",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054525/",
+      "published_at": "2026-09-21T23:36:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     },
+     {
+      "name": "קריווי ריה, אוקראינה",
+      "lat": 47.9103,
+      "lon": 33.3918
+     },
+     {
+      "name": "פבלוגרד, אוקראינה",
+      "lat": 48.5317,
+      "lon": 35.8704
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09220523-04",
+    "title": "הפעלת חיל האוויר הפולני",
+    "summary": "פולין הציבה כלי טיס צבאיים במרחב האווירי שלה בתגובה לתקיפות רוסיות באוקראינה.",
+    "axis": "הגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T20:18:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T20:18:47+00:00",
+    "last_update_at": "2026-09-22T03:36:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_7ec6cdf7957c0f2d",
+      "url": "https://www.ukrinform.net/rubric-ato/4166482-poland-scrambles-air-force-over-threat-of-russian-drones.html",
+      "published_at": "2026-09-22T03:36:00+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_0886f1f8194f0838",
+      "url": "https://www.maariv.co.il/breaking-news/article-1369345",
+      "published_at": "2026-09-21T20:18:47+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09220523-05",
+    "title": "פגישת מקרון וטראמפ",
+    "summary": "נשיא צרפת דן עם נשיא ארצות הברית בנושא אספקת מערכות הגנה אווירית ואמצעי יירוט לאוקראינה.",
+    "axis": "דיפלומטיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T02:47:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-22T02:47:18+00:00",
+    "last_update_at": "2026-09-22T03:10:01+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_8cbf0e5379560ae0",
+      "url": "https://tass.com/world/2190833",
+      "published_at": "2026-09-22T03:10:01+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_e8ab62d55752e473",
+      "url": "https://kyivindependent.com/macron-trump-discuss-securing-air-defense-systems-for-ukraine-ahead-of-un-general-assembly/",
+      "published_at": "2026-09-22T02:47:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09220523-06",
+    "title": "פגישת זלנסקי וראש ה-CIA באירלנד",
+    "summary": "נשיא אוקראינה נפגש באופן בלתי רשמי עם מנהל סוכנות הביון המרכזית באירלנד בזמן תדלוק מטוסים.",
+    "axis": "דיפלומטיה ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T20:24:00+00:00",
+    "last_update_at": "2026-09-21T21:29:50+00:00",
+    "what_is_not_verified": "תוכן השיחה המדויק לא נחשף באופן רשמי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_reuters",
+      "url": "https://meduza.io/en/news/2026/09/22/reuters-zelensky-meets-cia-director-john-ratcliffe-at-ireland-s-shannon-airport-less-than-a-month-after-ratcliffe-s-first-trip-to-moscow-for-talks",
+      "published_at": "2026-09-21T21:29:50+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_reuters",
+      "url": "https://tass.com/world/2190809",
+      "published_at": "2026-09-21T20:45:06+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_reuters",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054519/",
+      "published_at": "2026-09-21T20:24:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה שאנון, אירלנד",
+      "lat": 52.6987,
+      "lon": -8.9216
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09220523-07",
+    "title": "תקיפת בית הזיקוק במוסקבה",
+    "summary": "כוחות אוקראיניים תקפו באמצעות כטב\"מים את בית הזיקוק במוסקבה, מה שהוביל לעצירת עיבוד הנפט במקום למשך שבועות.",
+    "axis": "תקיפות אוויריות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-21T17:25:43+00:00",
+    "last_update_at": "2026-09-21T18:04:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_reuters",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054511/",
+      "published_at": "2026-09-21T18:04:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_reuters",
+      "url": "https://meduza.io/en/news/2026/09/21/reuters-ukrainian-drone-attack-halts-oil-processing-at-moscow-refinery-on-final-day-of-russia-s-state-duma-election-repairs-could-take-weeks",
+      "published_at": "2026-09-21T17:25:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "תוכן השיחה המדויק בין זלנסקי לראש ה-CIA באירלנד",
+   "ההערכות המדויקות לגבי משך הזמן הנדרש לתיקון בתי הזיקוק ברוסיה",
+   "פרטים מלאים על הסכמים חדשים בתחום הכטב\"מים המוזכרים לקראת חתימה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.149,
+    "unit": "USD",
+    "change_pct": 0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "עצירת תקיפות רוסיות וקבלת תמיכה בינלאומית",
+     "הרחבת שיתופי הפעולה בתחום הביטחוני ותעשיית המזל\"טים"
+    ],
+    "inferred": [
+     "פגיעה בכלכלה ובמשק האנרגיה של רוסיה באמצעות תקיפות עומק על בתי זיקוק",
+     "הגברת הלחץ הבינלאומי באמצעות גיוס סנקציות וסיוע הגנתי"
+    ],
+    "forecast": [
+     "המשך ניסיונות להשיג מערכות הגנה אווירית נוספות",
+     "העמקת הפגיעה בתשתיות הכלכליות בתוך שטח רוסיה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך המערכה הצבאית וביסוס השלטון והפרלמנט",
+     "פיתוח פרויקטים אסטרטגיים בתחום האנרגיה כגון פרויקט ווסטוק נפט"
+    ],
+    "inferred": [
+     "שחיקת התשתיות והיכולות הכלכליות של אוקראינה באמצעות מתקפות טילים בליסטיים",
+     "התמודדות עם ההשלכות הכלכליות של תקיפות אוקראיניות על מתקני הזיקוק שלה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדמות על תשתיות ואזורים עירוניים באוקראינה לקראת חודשי החורף",
+     "מאמצים לעקוף או לבלום את השפעת הסנקציות הבינלאומיות בעזרת שווקים חלופיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/macron-trump-discuss-securing-air-defense-systems-for-ukraine-ahead-of-un-general-assembly/",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1369345",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/21/reuters-ukrainian-drone-attack-halts-oil-processing-at-moscow-refinery-on-final-day-of-russia-s-state-duma-election-repairs-could-take-weeks",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054511/",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2190809",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47898",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4166482-poland-scrambles-air-force-over-threat-of-russian-drones.html",
+    "accessed_at": "2026-09-22T05:23:27+00:00"
+   }
+  ]
+ }
+}

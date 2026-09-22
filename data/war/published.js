@@ -685,251 +685,264 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-21T1718__ukraine-202609211718.json",
+  "draft": "drafts/ukraine/2026-09-22T0523__ukraine-202609220523.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-21T17:18:52+00:00",
+   "generated_at": "2026-09-22T05:23:27+00:00",
    "window": {
-    "from": "2026-09-20T17:18:52+00:00",
-    "to": "2026-09-21T17:18:52+00:00"
+    "from": "2026-09-21T05:23:27+00:00",
+    "to": "2026-09-22T05:23:27+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609211718"
+    "run_id": "ukraine-202609220523"
    },
-   "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך תקיפות אוויריות והפצצות של כוחות רוסיים על מרכזים עירוניים ותשתיות באוקראינה (כגון סלוביאנסק, חרסון וזפוריז'יה), לצד פעילות צבאית אוקראינית הכוללת תקיפות נגד מתקני אנרגיה וצבא ברוסיה. במקביל, מתקיימים דיפלומטיה ומגעים בינלאומיים סביב יוזמות הפסקת אאש אש ודרישות אמריקאיות ואחרות להגבלת תקיפות על מתקני זיקוק ברוסיה.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת תוך התמקדות בתשתיות אנרגיה, כאשר אוקראינה מבצעת תקיפות כטב\"מים נרחבות על בתי זיקוק בתוך רוסיה ורוסיה מגיבה במתקפות טילים על ערים באוקראינה. במקביל, מתקיימים מאמצים דיפלומטיים בינלאומיים בניו יורק ובאירופה סביב סוגיות סנקציות על רוסיה והסיוע הצבאי לאוקראינה.",
    "fronts": [
     {
-     "name": "חזית המזרח (דונצק)",
-     "status": "פעיל עם תקיפות אוויריות ופגיעות במבנים"
+     "name": "חזית המזרח והדרום (קו המגע באוקראינה)",
+     "status": "פעיל"
     },
     {
-     "name": "חזית הדרום (חרסון וזפוריז'יה)",
-     "status": "פעיל עם הפצצות על תשתיות אזרחיות"
-    },
-    {
-     "name": "חזית האוויר והאנרגיה (עומק רוסיה ואוקראינה)",
-     "status": "פעיל עם תקיפות הדדיות על בסיסי רחפנים ובתי זיקוק"
+     "name": "חזית התשתיות האנרגטיות (תקיפות עומק)",
+     "status": "פעיל"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09211718-01",
-     "title": "תקיפה אווירית בסלוביאנסק",
-     "summary": "כוחות רוסיים תקפו מתקן רפואי שאינו פעיל באמצעות פצצת אוויר מתפוצצת, מה שהביא להרס חלקי של מבנה היסטורי.",
-     "axis": "חזית המזרח",
+     "id": "UKRAINE-09220523-01",
+     "title": "פגישת זלנסקי ומקרון",
+     "summary": "נשיא אוקראינה פגש את נשיא צרפת בניו יורק.",
+     "axis": "דיפלומטיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T17:17:00+00:00",
+     "occurred_at": "2026-09-22T05:21:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T17:17:00+00:00",
-     "last_update_at": "2026-09-21T17:17:00+00:00",
-     "what_is_not_verified": "היקף הנזקים המלא אינו מאומת מעבר לדיווחים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_a3e3029943a92f5f",
-       "url": "https://www.ukrinform.net/rubric-ato/4166409-russians-dropped-aerial-bomb-on-historic-building-in-sloviansk.html",
-       "published_at": "2026-09-21T17:17:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סלוביאנסק, אוקראינה",
-       "lat": 48.8523,
-       "lon": 37.6058
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09211718-02",
-     "title": "פגיעה במבנה מגורים בסלוביאנסק",
-     "summary": "פגיעת רחפן רוסי בבניין מגורים בן חמש קומות גרמה למותו של אדם שנלכד תחת ההריסות.",
-     "axis": "חזית המזרח",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T16:10:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T16:10:00+00:00",
-     "last_update_at": "2026-09-21T16:10:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_b537fdbef6b37df0",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054491/",
-       "published_at": "2026-09-21T16:10:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סלוביאנסק, אוקראינה",
-       "lat": 48.8523,
-       "lon": 37.6058
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09211718-03",
-     "title": "תקיפה באזור בוריספיל",
-     "summary": "שרפה במתקן מחסן באזור בוריספיל כובתה לאחר מתקפה רוסית.",
-     "axis": "חזית קייב / מרכז אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T16:19:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T16:19:00+00:00",
-     "last_update_at": "2026-09-21T16:19:00+00:00",
+     "first_reported_at": "2026-09-22T05:21:00+00:00",
+     "last_update_at": "2026-09-22T05:21:00+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_a7aa585405b329b8",
-       "url": "https://www.ukrinform.net/rubric-ato/4166389-fire-at-warehouse-in-boryspil-district-extinguished-after-russian-attack.html",
-       "published_at": "2026-09-21T16:19:00+00:00"
+       "source_root_id": "fh_611ee87e1f41a285",
+       "url": "https://www.ukrinform.net/rubric-polytics/4166511-zelensky-met-with-macron-in-new-york.html",
+       "published_at": "2026-09-22T05:21:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "בוריספיל, אוקראינה",
-       "lat": 50.3512,
-       "lon": 30.9508
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
     },
     {
-     "id": "UKRAINE-09211718-04",
-     "title": "תקיפת מתקן בצורת' אובלאסט",
-     "summary": "צילומי לוויין תיעדו נזק לבונקרים, מחסנים ואזור שיגור רחפנים בבסיס הרחפנים צימבולובו.",
-     "axis": "העורק הרוסי",
+     "id": "UKRAINE-09220523-02",
+     "title": "תקיפת כטב\"ם על בית זיקוק בסמרה",
+     "summary": "כוחות אוקראיניים תקפו בלילה את בית הזיקוק לנפט בסמרה באמצעות כלי טיס בלתי מאויש.",
+     "axis": "תקיפות אוויריות ואנרגיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T16:13:00+00:00",
+     "occurred_at": "2026-09-22T01:58:36+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T16:13:00+00:00",
-     "last_update_at": "2026-09-21T16:13:00+00:00",
+     "first_reported_at": "2026-09-22T01:58:36+00:00",
+     "last_update_at": "2026-09-22T04:10:56+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_kyivind",
+       "url": "https://kyivindependent.com/ukrainian-forces-strike-russian-oil-refinery-in-samara-oblast-in-overnight-drone-attack/",
+       "published_at": "2026-09-22T04:10:56+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_kyivind",
+       "url": "https://t.me/alexmehacarmel/47898",
+       "published_at": "2026-09-22T01:58:36+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סמרה, רוסיה",
+       "lat": 53.1956,
+       "lon": 50.1015
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09220523-03",
+     "title": "פגיעת טילים בליסטיים בדניפרו",
+     "summary": "מתקפת טילים בליסטיים רוסית בלילה פגעה בעיר דניפרו וגרמה להרוגים, פצועים ונזק למבנים.",
+     "axis": "תקיפות אוויריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T23:36:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-21T23:36:00+00:00",
+     "last_update_at": "2026-09-22T04:04:00+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_ukrainian_telegram_channel_absolutely_re",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
-       "published_at": "2026-09-21T16:13:00+00:00"
+       "source_root_id": "fh_e35a989014929f8f",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054526/",
+       "published_at": "2026-09-22T04:04:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_931d1e7368e89317",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054525/",
+       "published_at": "2026-09-21T23:36:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דניפרו, אוקראינה",
+       "lat": 51.5567,
+       "lon": 30.6122
+      },
+      {
+       "name": "קריווי ריה, אוקראינה",
+       "lat": 47.9103,
+       "lon": 33.3918
+      },
+      {
+       "name": "פבלוגרד, אוקראינה",
+       "lat": 48.5317,
+       "lon": 35.8704
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09220523-04",
+     "title": "הפעלת חיל האוויר הפולני",
+     "summary": "פולין הציבה כלי טיס צבאיים במרחב האווירי שלה בתגובה לתקיפות רוסיות באוקראינה.",
+     "axis": "הגנה אווירית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T20:18:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T20:18:47+00:00",
+     "last_update_at": "2026-09-22T03:36:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_7ec6cdf7957c0f2d",
+       "url": "https://www.ukrinform.net/rubric-ato/4166482-poland-scrambles-air-force-over-threat-of-russian-drones.html",
+       "published_at": "2026-09-22T03:36:00+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_0886f1f8194f0838",
+       "url": "https://www.maariv.co.il/breaking-news/article-1369345",
+       "published_at": "2026-09-21T20:18:47+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09211718-05",
-     "title": "תקיפות באזור חרסון",
-     "summary": "כוחות רוסיים תקפו מבני מגורים, כנסייה, בית חולים ומבנים נוספים באזור חרסון, וכתוצאה מכך נפצעו שלושה אזרחים.",
-     "axis": "חזית הדרום",
-     "claim_type": "incident",
+     "id": "UKRAINE-09220523-05",
+     "title": "פגישת מקרון וטראמפ",
+     "summary": "נשיא צרפת דן עם נשיא ארצות הברית בנושא אספקת מערכות הגנה אווירית ואמצעי יירוט לאוקראינה.",
+     "axis": "דיפלומטיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T15:59:00+00:00",
+     "occurred_at": "2026-09-22T02:47:18+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T15:59:00+00:00",
-     "last_update_at": "2026-09-21T15:59:00+00:00",
+     "first_reported_at": "2026-09-22T02:47:18+00:00",
+     "last_update_at": "2026-09-22T03:10:01+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_11a4363cc92b286e",
-       "url": "https://www.ukrinform.net/rubric-ato/4166380-russians-attack-church-hospital-and-homes-in-kherson-region-injuring-three-people.html",
-       "published_at": "2026-09-21T15:59:00+00:00"
+       "source_id": "src_tass",
+       "source_root_id": "fh_8cbf0e5379560ae0",
+       "url": "https://tass.com/world/2190833",
+       "published_at": "2026-09-22T03:10:01+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_e8ab62d55752e473",
+       "url": "https://kyivindependent.com/macron-trump-discuss-securing-air-defense-systems-for-ukraine-ahead-of-un-general-assembly/",
+       "published_at": "2026-09-22T02:47:18+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09220523-06",
+     "title": "פגישת זלנסקי וראש ה-CIA באירלנד",
+     "summary": "נשיא אוקראינה נפגש באופן בלתי רשמי עם מנהל סוכנות הביון המרכזית באירלנד בזמן תדלוק מטוסים.",
+     "axis": "דיפלומטיה ומודיעין",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T20:24:00+00:00",
+     "last_update_at": "2026-09-21T21:29:50+00:00",
+     "what_is_not_verified": "תוכן השיחה המדויק לא נחשף באופן רשמי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_reuters",
+       "url": "https://meduza.io/en/news/2026/09/22/reuters-zelensky-meets-cia-director-john-ratcliffe-at-ireland-s-shannon-airport-less-than-a-month-after-ratcliffe-s-first-trip-to-moscow-for-talks",
+       "published_at": "2026-09-21T21:29:50+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_reuters",
+       "url": "https://tass.com/world/2190809",
+       "published_at": "2026-09-21T20:45:06+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_reuters",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054519/",
+       "published_at": "2026-09-21T20:24:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מחוז חרסון, אוקראינה",
-       "lat": 46.6375,
-       "lon": 32.6144
+       "name": "נמל התעופה שאנון, אירלנד",
+       "lat": 52.6987,
+       "lon": -8.9216
       }
      ]
     },
     {
-     "id": "UKRAINE-09211718-06",
-     "title": "נזק למתקנים אזרחיים בזפוריז'יה",
-     "summary": "למעלה מ-50 מתקנים אזרחיים, בהם בנייני מגורים ובתים פרטיים, נגרם נזק כתוצאה מתקיפה בלילה.",
-     "axis": "חזית זפוריז'יה",
+     "id": "UKRAINE-09220523-07",
+     "title": "תקיפת בית הזיקוק במוסקבה",
+     "summary": "כוחות אוקראיניים תקפו באמצעות כטב\"מים את בית הזיקוק במוסקבה, מה שהוביל לעצירת עיבוד הנפט במקום למשך שבועות.",
+     "axis": "תקיפות אוויריות ואנרגיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T15:39:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T15:39:00+00:00",
-     "last_update_at": "2026-09-21T15:39:00+00:00",
+     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-21T17:25:43+00:00",
+     "last_update_at": "2026-09-21T18:04:00+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_6fc34b936668e0c3",
-       "url": "https://www.ukrinform.net/rubric-ato/4166377-more-than-50-civilian-facilities-damaged-in-zaporizhzhia-as-result-of-russian-attack.html",
-       "published_at": "2026-09-21T15:39:00+00:00"
-      }
-     ],
-     "places": [
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_reuters",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054511/",
+       "published_at": "2026-09-21T18:04:00+00:00"
+      },
       {
-       "name": "זפוריז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09211718-07",
-     "title": "תקיפה במחוז בוצ'ה",
-     "summary": "שרפה פרצה במתקן במחוז בוצ'ה בעקבות מתקפה רוסית.",
-     "axis": "חזית קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T14:57:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T14:57:00+00:00",
-     "last_update_at": "2026-09-21T14:57:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_17d9258a9e0a41ed",
-       "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
-       "published_at": "2026-09-21T14:57:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מחוז בוצ'ה, אוקראינה",
-       "lat": 50.5449,
-       "lon": 29.8987
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09211718-08",
-     "title": "תוצאות הבחירות ברוסיה",
-     "summary": "מפלגת רוסיה המאוחדת זכתה ברוב בבחירות לפרלמנט הרוסי, כאשר עשרות מוותיקי המלחמה נבחרו לפרלמנט.",
-     "axis": "העורף הרוסי",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T13:11:57+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T13:40:39+00:00",
-     "last_update_at": "2026-09-21T13:40:39+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
-       "published_at": "2026-09-21T13:40:39+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "or_reuters",
+       "url": "https://meduza.io/en/news/2026/09/21/reuters-ukrainian-drone-attack-halts-oil-processing-at-moscow-refinery-on-final-day-of-russia-s-state-duma-election-repairs-could-take-weeks",
+       "published_at": "2026-09-21T17:25:43+00:00"
       }
      ],
      "places": [
@@ -942,8 +955,9 @@ window.DB.war_published = {
     }
    ],
    "not_verified": [
-    "ההערכות המודיעיניות האירופיות על מועד אפשרי למתח רוסית נגד נאט\"ו (תוך חודשים)",
-    "האם עסקאות הדשן והפוטש בין ארה\"ב לבלארוס ימומשו במלואן ובאילו תנאים"
+    "תוכן השיחה המדויק בין זלנסקי לראש ה-CIA באירלנד",
+    "ההערכות המדויקות לגבי משך הזמן הנדרש לתיקון בתי הזיקוק ברוסיה",
+    "פרטים מלאים על הסכמים חדשים בתחום הכטב\"מים המוזכרים לקראת חתימה"
    ],
    "map": {
     "confidence": "high",
@@ -965,284 +979,313 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "נכונות להסדר שלום ודה-אסקלציה בתנאים הדדיים",
-      "המשך הגנה על שטחי המדינה"
+      "עצירת תקיפות רוסיות וקבלת תמיכה בינלאומית",
+      "הרחבת שיתופי הפעולה בתחום הביטחוני ותעשיית המזל\"טים"
      ],
      "inferred": [
-      "פגיעה בתשתיות האנרגיה והתעשייה של רוסיה כדי לשבש את המאמץ המלחמתי"
+      "פגיעה בכלכלה ובמשק האנרגיה של רוסיה באמצעות תקיפות עומק על בתי זיקוק",
+      "הגברת הלחץ הבינלאומי באמצעות גיוס סנקציות וסיוע הגנתי"
      ],
      "forecast": [
-      "המשך ניסיונות להשיג סיוע כספי וצבאי מערבי",
-      "המשך תקיפות ממוקדות בעומק רוסיה"
+      "המשך ניסיונות להשיג מערכות הגנה אווירית נוספות",
+      "העמקת הפגיעה בתשתיות הכלכליות בתוך שטח רוסיה"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "המשך המבצע הצבאי המיוחד והשגת יעדי השלטון"
+      "המשך המערכה הצבאית וביסוס השלטון והפרלמנט",
+      "פיתוח פרויקטים אסטרטגיים בתחום האנרגיה כגון פרויקט ווסטוק נפט"
      ],
      "inferred": [
-      "ביסוס השליטה הפוליטית הפנימית באמצעות תוצאות הבחירות ושילוב וותיקי מלחמה",
-      "הרחבת התשתיות לייצור אמצעי לחימה ורחפנים"
+      "שחיקת התשתיות והיכולות הכלכליות של אוקראינה באמצעות מתקפות טילים בליסטיים",
+      "התמודדות עם ההשלכות הכלכליות של תקיפות אוקראיניות על מתקני הזיקוק שלה"
      ],
      "forecast": [
-      "הגברת הלחץ הצבאי בחזיתות השונות באוקראינה",
-      "התאמת חקיקת המס לכיסוי הוצאות הגנה ותיקון מתקנים"
+      "המשך תקיפות ממוקדמות על תשתיות ואזורים עירוניים באוקראינה לקראת חודשי החורף",
+      "מאמצים לעקוף או לבלום את השפעת הסנקציות הבינלאומיות בעזרת שווקים חלופיים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
-     "accessed_at": "2026-09-21T17:18:52+00:00"
+     "source_id": "src_kyivind",
+     "url": "https://kyivindependent.com/macron-trump-discuss-securing-air-defense-systems-for-ukraine-ahead-of-un-general-assembly/",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1369345",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
+    },
+    {
+     "source_id": "src_meduza",
+     "url": "https://meduza.io/en/news/2026/09/21/reuters-ukrainian-drone-attack-halts-oil-processing-at-moscow-refinery-on-final-day-of-russia-s-state-duma-election-repairs-could-take-weeks",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054488/",
-     "accessed_at": "2026-09-21T17:18:52+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/09/21/8054511/",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
+    },
+    {
+     "source_id": "src_tass",
+     "url": "https://tass.com/world/2190809",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/47898",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4166365-russian-attack-sparks-fire-at-factory-in-bucha-district.html",
-     "accessed_at": "2026-09-21T17:18:52+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4166482-poland-scrambles-air-force-over-threat-of-russian-drones.html",
+     "accessed_at": "2026-09-22T05:23:27+00:00"
     }
    ]
   },
-  "auto": false,
-  "previous_generated_at": "2026-09-20T23:40:40+00:00",
+  "auto": true,
+  "previous_generated_at": "2026-09-21T17:18:52+00:00",
   "changes": {
-   "UKRAINE-09211718-01": {
+   "UKRAINE-09220523-01": {
     "kind": "new"
    },
-   "UKRAINE-09211718-02": {
+   "UKRAINE-09220523-02": {
     "kind": "new"
    },
-   "UKRAINE-09211718-03": {
+   "UKRAINE-09220523-03": {
     "kind": "new"
    },
-   "UKRAINE-09211718-04": {
+   "UKRAINE-09220523-04": {
     "kind": "new"
    },
-   "UKRAINE-09211718-05": {
+   "UKRAINE-09220523-05": {
     "kind": "new"
    },
-   "UKRAINE-09211718-06": {
+   "UKRAINE-09220523-06": {
     "kind": "new"
    },
-   "UKRAINE-09211718-07": {
-    "kind": "new"
-   },
-   "UKRAINE-09211718-08": {
+   "UKRAINE-09220523-07": {
     "kind": "new"
    }
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-21T1641__north-202609211641.json",
+  "draft": "drafts/north/2026-09-22T0524__north-202609220524.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-21T16:41:55+00:00",
+   "generated_at": "2026-09-22T05:24:19+00:00",
    "window": {
-    "from": "2026-09-20T16:41:55+00:00",
-    "to": "2026-09-21T16:41:55+00:00"
+    "from": "2026-09-21T05:24:19+00:00",
+    "to": "2026-09-22T05:24:19+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202609211641"
+    "run_id": "north-202609220524"
    },
-   "summary": "בגזרה הצפונית, ישראל ממשיכה בפעילות צבאית הכוללת תקיפות והפגזות בדרום לבנון ובדרום סוריה (במחוזות דרעא וקוניטרה). במקביל, מתרחשים פיצוצים במתקנים צבאיים בסוריה, ולבנון מקיימת מגעים דיפלומטיים עם קטאר וארצות הברית לחיזוק צבא לבנון ויציבות האזור.",
+   "summary": "הגזרה הצפונית כוללת פעילות צבאיה מתמשכת של ישראל בדרום לבנון הכוללת תקיפות אוויריות וארטילריות, לצד תקריות וירי ארטילרי של צה\"ל בדרום סוריה במרחבי דרעא וקוניטרה. במקביל, נרשמו פיצוצים באתר צבאי באזור חלב שבסוריה ללא נפגעים, בעוד שגורמים מדיניים בלבנון מקיימים פגישות בינלאומיות לחיזוק צבא לבנון והיציבות.",
    "fronts": [
     {
-     "name": "חזית לבנון",
-     "status": "פעיל - תקיפות ישראליות ופעילות צבאית לצד מגעים מדיניים"
+     "name": "החזית הלבנונית",
+     "status": "פעילה (תקיפות צה\"ל והפגזות בדרום לבנון)"
     },
     {
-     "name": "חזית סוריה",
-     "status": "פעיל - תקיפות ישראליות בדרום המדינה ופיצוצים במחסני תחמושת צבאיים"
+     "name": "החזית הסורית",
+     "status": "פעילה (תקיפות צה\"ל בדרעא וקוניטרה, ופיצוץ מחסן אמל\"ח בחלב)"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09211641-01",
-     "title": "תקיפות באל-עייס בדרום אטרף",
-     "summary": "סדרה של פיצוצים ארעה במחסן תחמושת של צבא סוריה באזור אל-עייס. ארבעה בני אדם נפצעו והכוחות סגרו את הדרכים המובילות לאתר.",
-     "axis": "סוריה",
+     "id": "NORTH-09220524-01",
+     "title": "תקיפות והפגזות ישראליות בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו תקיפות, הפגזות ארטילריה וירי מקלעים לעבר מספר כפרים ואזורים בדרום לבנון.",
+     "axis": "הזירה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T07:00:28+00:00",
-     "last_update_at": "2026-09-21T15:16:03+00:00",
-     "what_is_not_verified": "סיבת הפיצוצים אינה מאומתת והרשויות לא סיפקו הסבר מיידי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/21/poor-storage-or-sabotage-series-of-explosions-in-syria-raises-fears?traffic_source=rss",
-       "published_at": "2026-09-21T15:16:03+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-it-prepared-prolonged-war",
-       "published_at": "2026-09-21T14:00:05+00:00"
-      },
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/09/explosions-rock-aleppo-no-fatalities-reported/",
-       "published_at": "2026-09-21T10:50:19+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/syrian-ammunition-depot-explodes-fourth-such-blast-month",
-       "published_at": "2026-09-21T10:46:31+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-shake-military-site-aleppo-least-four-injured",
-       "published_at": "2026-09-21T10:42:15+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/syrian-ammunition-depot-explodes-fourth-such-blast-month",
-       "published_at": "2026-09-21T07:05:01+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/middleeastnews/958845/syrian-ammunition-depot-explodes-in-fourth-such-blast-this-month/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958845",
-       "published_at": "2026-09-21T07:00:28+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09211641-02",
-     "title": "תקיפות ופעילות צבאית ישראלית בדרום לבנון",
-     "summary": "הפצצות ותקיפות ארטילריה של צבא ישראל בוצעו במספר מוקדים בדרום לבנון ובכלל זה במרכבה, נבטיה אל-פוקא, זוכטאר א-שרקיה ואזורים נוספים.",
-     "axis": "לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-21T10:09:48+00:00",
-     "last_update_at": "2026-09-21T14:23:54+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק בכל אתר ואתר לא פורט במלואו.",
+     "first_reported_at": "2026-09-21T10:26:57+00:00",
+     "last_update_at": "2026-09-21T18:15:52+00:00",
+     "what_is_not_verified": "פרטים מלאים על היקף הנזק המדויק בכל אתר ואתר",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_866ce14b552cb596",
+       "url": "https://english.almanar.com.lb/article/129492/",
+       "published_at": "2026-09-21T18:15:52+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_866ce14b552cb596",
+       "url": "https://t.me/abualiexpress/130567",
+       "published_at": "2026-09-21T17:41:39+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_2be77b523935da06",
        "url": "https://english.almanar.com.lb/article/129447/",
        "published_at": "2026-09-21T14:23:54+00:00"
       },
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/analysis/scorched-earth-how-israel-remaking-south-lebanon",
-       "published_at": "2026-09-21T13:49:22+00:00"
-      },
-      {
        "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_866ce14b552cb596",
        "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-fire-hit-several-areas-in-southern-lebanon/4063210",
        "published_at": "2026-09-21T10:26:57+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-launch-overnight-air-raids-across-southern-lebanon",
-       "published_at": "2026-09-21T10:09:48+00:00"
       }
      ],
      "places": [
       {
-       "name": "מרכבה, לבנון",
+       "name": "נבטיה",
+       "lat": 33.3812,
+       "lon": 35.4825
+      },
+      {
+       "name": "מרכבא",
        "lat": 33.2314,
        "lon": 35.5177
       },
       {
-       "name": "נבטיה אל-פוקא, לבנון",
-       "lat": 33.3619,
-       "lon": 35.4987
+       "name": "כפר שובא",
+       "lat": 33.3277,
+       "lon": 35.6927
       }
      ]
     },
     {
-     "id": "NORTH-09211641-03",
-     "title": "תקיפות ופלישות צבא ישראל בדרום סוריה",
-     "summary": "כוחות צבא ישראל ביצעו הפגזות ארטילריה וירי מקלעים לעבר שטחים בדרום סוריה, כולל באזור דרעא וקוניטרה, וכן פשיטה לאזור רסם אל-חלבי.",
-     "axis": "סוריה",
+     "id": "NORTH-09220524-02",
+     "title": "פיצוץ במחסן תחמושת באזור אל-עיס בחלב",
+     "summary": "אירעה שורת פיצוצים במחסן תחמושת סמוך לעיירה אל-עיס במרחב חלב שבסוריה, ללא נפגעים בנפש אך עם נזק חומרי.",
+     "axis": "הזירה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": true,
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-21T10:50:19+00:00",
+     "last_update_at": "2026-09-21T20:11:14+00:00",
+     "what_is_not_verified": "הסיבה המדויקת לפיצוץ והאם ישראל מעורבת בו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "fh_f830df4956d81be5",
+       "url": "https://t.me/lelotsenzura/94386",
+       "published_at": "2026-09-21T20:11:14+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_f830df4956d81be5",
+       "url": "https://t.me/abualiexpress/130572",
+       "published_at": "2026-09-21T18:01:01+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_f830df4956d81be5",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21460050",
+       "published_at": "2026-09-21T17:37:16+00:00"
+      },
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "fh_64bb516ab64e6174",
+       "url": "https://english.enabbaladi.net/archives/2026/09/explosions-rock-aleppo-no-fatalities-reported/",
+       "published_at": "2026-09-21T10:50:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חלב",
+       "lat": 36.1992,
+       "lon": 37.1637
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09220524-03",
+     "title": "תקיפות והפגזות של צבא ההגנה לישראל בדרום סוריה",
+     "summary": "כוחות צה\"ל ביצעו ירי ארטילרי, אש מקלעים וחדירת סיור במרחבי דרעא וקוניטרה בדרום סוריה.",
+     "axis": "הזירה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-21T00:00:00+00:00",
+     "is_ongoing": false,
      "first_reported_at": "2026-09-21T08:36:20+00:00",
      "last_update_at": "2026-09-21T14:00:22+00:00",
-     "what_is_not_verified": "האם היו נפגעים נוספים מעבר לפגיעה בעזים ובאדמות חקלאיות לא דווח באופן מלא.",
+     "what_is_not_verified": "לא מאומתים פרטים מלאים מעבר לדיווחים המקומיים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_f4f9c02ab281fd3f",
        "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
        "published_at": "2026-09-21T14:00:22+00:00"
       },
       {
        "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_f4f9c02ab281fd3f",
        "url": "https://english.almanar.com.lb/article/129432/",
        "published_at": "2026-09-21T13:37:57+00:00"
       },
       {
        "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_f4f9c02ab281fd3f",
        "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
        "published_at": "2026-09-21T08:36:20+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרעא, סוריה",
+       "name": "דרעא",
        "lat": 32.6228,
        "lon": 36.1068
+      },
+      {
+       "name": "עבידין",
+       "lat": 32.7841,
+       "lon": 35.8706
       }
      ]
     },
     {
-     "id": "NORTH-09211641-04",
-     "title": "הסכם שיתוף פעולה בין סוריה לאוקראינה בתחום פינוי מוקשים",
-     "summary": "סוריה ואוקראינה חתמו על הסכם שיתוף פעולה בנושא פינוי מוקשים הומניטרי והתמודדות עם שרידי מלחמה.",
-     "axis": "סוריה",
+     "id": "NORTH-09220524-04",
+     "title": "זיהוי שווא והתרעות במרחב מלכיה",
+     "summary": "דובר צה\"ל עדכן כי ההתרעות שהופעלו במרחב מלכיה התבררו כזיהוי שווא.",
+     "axis": "הזירה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-20T00:00:00+00:00",
+     "occurred_at": "2026-09-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-21T12:23:19+00:00",
-     "last_update_at": "2026-09-21T12:23:19+00:00",
-     "what_is_not_verified": "לוחות הזמנים המדויקים לביצוע המבצעי של ההסכם טרם פורטו.",
+     "first_reported_at": "2026-09-21T12:29:07+00:00",
+     "last_update_at": "2026-09-21T12:35:28+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_dd03e2a59413dcdc",
-       "url": "https://english.enabbaladi.net/archives/2026/09/syria-ukraine-cooperate-on-humanitarian-demining/",
-       "published_at": "2026-09-21T12:23:19+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25169",
+       "published_at": "2026-09-21T12:35:28+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25168",
+       "published_at": "2026-09-21T12:29:07+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "מלכיה",
+       "lat": 33.0992,
+       "lon": 35.5117
+      }
+     ]
     }
    ],
    "not_verified": [
-    "הסיבה המדויקת לסדרת הפיצוצים במחסני התחמושת בסוריה",
-    "כוונותיה העתידיות של ישראל בנוגע להרחבת הפעילות הקרקעית או השליטה ברכסים בדרום לבנון"
+    "טענות לא רשמיות לפיהן ישראל עומדת מאחורי פיצוץ מחסן הנשק באזור אל-עיס בחלב",
+    "ההערכות והדיווחים על אספקה צבאית מטורקיה לבסיסים סעודיים"
    ],
    "map": {
     "confidence": "medium",
@@ -1264,104 +1307,92 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת התבססות ופעילות של חיזבאללה בדרום לבנון",
-      "אכיפת ריבונות והגנה על גבולות המדינה"
+      "מניעת התבססות עוינת",
+      "אכיפת ביטחון בצפון"
      ],
      "inferred": [
-      "המשך אסטרטגיית 'אדמה חרוכה' והשמדת תשתיות צבאיות בדרום לבנון ובדרום סוריה"
+      "פגיעה בתשתיות צבאיות ואמצעי לחימה בסוריה ובלבנון",
+      "הרחקת איומים בגבולות הצפון"
      ],
      "forecast": [
-      "המשך התקיפות עד להשגת הסדר או שינוי מציאות ביטחונית בשטח"
+      "המשך פעילות צבאית ממוקדת בהתאם להפרות או צרכים מבצעיים בגבולות לבנון וסוריה"
      ]
     },
     {
      "actor": "לבנון",
      "declared": [
-      "חיזוק סמכות המדינה והבטחת שחבר כלי הנשק יישארו בלעדית בידי המדינה",
-      "תמיכה בהמשך הסיוע לצבא לבנון ובנוכחות בינלאומית בדרום המדינה"
+      "חיזוק צבא לבנון והרחבת הסמכות של המדינה",
+      "שמירה על יציבות ושיקום"
      ],
      "inferred": [
-      "ניסיון לבלום את ההשלכות ההרסניות של הלחימה באמצעות דיפלומטיה אזורית ובינלאומית"
+      "ניסיון לרתום סיוע בינלאומי וערבי למניעת וואקום ביטחוני וכלכלי"
      ],
      "forecast": [
-      "המשך פנייה לגורמים בינלאומיים וערביים לסיוע בשיקום ובמניעת וואקום ביטחוני"
-     ]
-    },
-    {
-     "actor": "סוריה",
-     "declared": [
-      "שיקום הצבא והתמודדות עם שרידי מלחמה ומוקשים באמצעות שיתופי פעולה בינלאומיים"
-     ],
-     "inferred": [
-      "ניסיון להתמודד עם אובדן שליטה או תקלות במחסני אמל\"ח על רקע הפיצוצים החוזרים ונשנים"
-     ],
-     "forecast": [
-      "המשך מאמצי פינוי מוקשים ושיקום תשתיות אזרחיות וצבאיות"
+      "המשך מאמצים דיפלומטיים לגיוס משאבים ותמיכה בצבא לבנון"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/21/poor-storage-or-sabotage-series-of-explosions-in-syria-raises-fears?traffic_source=rss",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
-    },
-    {
      "source_id": "src_almanar",
      "url": "https://english.almanar.com.lb/article/129432/",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
-    },
-    {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/syrian-ammunition-depot-explodes-fourth-such-blast-month",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     },
     {
      "source_id": "src_anadolu",
      "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     },
     {
      "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/09/syria-ukraine-cooperate-on-humanitarian-demining/",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     },
     {
-     "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/middleeastnews/958845/syrian-ammunition-depot-explodes-in-fourth-such-blast-this-month/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-958845",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21460050",
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     },
     {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-launch-overnight-air-raids-across-southern-lebanon",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/130572",
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     },
     {
-     "source_id": "src_newarab",
-     "url": "https://www.newarab.com/analysis/scorched-earth-how-israel-remaking-south-lebanon",
-     "accessed_at": "2026-09-21T16:41:55+00:00"
+     "source_id": "src_tg_idf",
+     "url": "https://t.me/idf_telegram/25168",
+     "accessed_at": "2026-09-22T05:24:19+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94386",
+     "accessed_at": "2026-09-22T05:24:19+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-21T02:49:06+00:00",
+  "previous_generated_at": "2026-09-21T16:41:55+00:00",
   "changes": {
-   "NORTH-09211641-01": {
-    "kind": "new"
+   "NORTH-09220524-01": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "תקיפות ופעילות צבאית ישראלית בדרום לבנון",
+    "score": 1.0
    },
-   "NORTH-09211641-02": {
+   "NORTH-09220524-02": {
+    "kind": "possible",
+    "prev": "תקיפות באל-עייס בדרום אטרף",
+    "score": 0.4
+   },
+   "NORTH-09220524-03": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "ירי ארטילרי ופעילות צבאית דרום לבנון",
-    "score": 0.65
+    "prev": "תקיפות ופלישות צבא ישראל בדרום סוריה",
+    "score": 1.0
    },
-   "NORTH-09211641-03": {
-    "kind": "possible",
-    "prev": "פיצוץ מוצב צבאי בדרום סוריה ובחרמון",
-    "score": 0.467
-   },
-   "NORTH-09211641-04": {
+   "NORTH-09220524-04": {
     "kind": "new"
    }
   }

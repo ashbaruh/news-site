@@ -1,0 +1,309 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b134f86a4589",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-22T05:24:19+00:00",
+  "window": {
+   "from": "2026-09-21T05:24:19+00:00",
+   "to": "2026-09-22T05:24:19+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609220524"
+  },
+  "summary": "הגזרה הצפונית כוללת פעילות צבאיה מתמשכת של ישראל בדרום לבנון הכוללת תקיפות אוויריות וארטילריות, לצד תקריות וירי ארטילרי של צה\"ל בדרום סוריה במרחבי דרעא וקוניטרה. במקביל, נרשמו פיצוצים באתר צבאי באזור חלב שבסוריה ללא נפגעים, בעוד שגורמים מדיניים בלבנון מקיימים פגישות בינלאומיות לחיזוק צבא לבנון והיציבות.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה (תקיפות צה\"ל והפגזות בדרום לבנון)"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילה (תקיפות צה\"ל בדרעא וקוניטרה, ופיצוץ מחסן אמל\"ח בחלב)"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09220524-01",
+    "title": "תקיפות והפגזות ישראליות בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות, הפגזות ארטילריה וירי מקלעים לעבר מספר כפרים ואזורים בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T10:26:57+00:00",
+    "last_update_at": "2026-09-21T18:15:52+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף הנזק המדויק בכל אתר ואתר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_866ce14b552cb596",
+      "url": "https://english.almanar.com.lb/article/129492/",
+      "published_at": "2026-09-21T18:15:52+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_866ce14b552cb596",
+      "url": "https://t.me/abualiexpress/130567",
+      "published_at": "2026-09-21T17:41:39+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_2be77b523935da06",
+      "url": "https://english.almanar.com.lb/article/129447/",
+      "published_at": "2026-09-21T14:23:54+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_866ce14b552cb596",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-fire-hit-several-areas-in-southern-lebanon/4063210",
+      "published_at": "2026-09-21T10:26:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה",
+      "lat": 33.3812,
+      "lon": 35.4825
+     },
+     {
+      "name": "מרכבא",
+      "lat": 33.2314,
+      "lon": 35.5177
+     },
+     {
+      "name": "כפר שובא",
+      "lat": 33.3277,
+      "lon": 35.6927
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09220524-02",
+    "title": "פיצוץ במחסן תחמושת באזור אל-עיס בחלב",
+    "summary": "אירעה שורת פיצוצים במחסן תחמושת סמוך לעיירה אל-עיס במרחב חלב שבסוריה, ללא נפגעים בנפש אך עם נזק חומרי.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T10:50:19+00:00",
+    "last_update_at": "2026-09-21T20:11:14+00:00",
+    "what_is_not_verified": "הסיבה המדויקת לפיצוץ והאם ישראל מעורבת בו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_f830df4956d81be5",
+      "url": "https://t.me/lelotsenzura/94386",
+      "published_at": "2026-09-21T20:11:14+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_f830df4956d81be5",
+      "url": "https://t.me/abualiexpress/130572",
+      "published_at": "2026-09-21T18:01:01+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_f830df4956d81be5",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21460050",
+      "published_at": "2026-09-21T17:37:16+00:00"
+     },
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_64bb516ab64e6174",
+      "url": "https://english.enabbaladi.net/archives/2026/09/explosions-rock-aleppo-no-fatalities-reported/",
+      "published_at": "2026-09-21T10:50:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חלב",
+      "lat": 36.1992,
+      "lon": 37.1637
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09220524-03",
+    "title": "תקיפות והפגזות של צבא ההגנה לישראל בדרום סוריה",
+    "summary": "כוחות צה\"ל ביצעו ירי ארטילרי, אש מקלעים וחדירת סיור במרחבי דרעא וקוניטרה בדרום סוריה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T08:36:20+00:00",
+    "last_update_at": "2026-09-21T14:00:22+00:00",
+    "what_is_not_verified": "לא מאומתים פרטים מלאים מעבר לדיווחים המקומיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_f4f9c02ab281fd3f",
+      "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
+      "published_at": "2026-09-21T14:00:22+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f4f9c02ab281fd3f",
+      "url": "https://english.almanar.com.lb/article/129432/",
+      "published_at": "2026-09-21T13:37:57+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_f4f9c02ab281fd3f",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
+      "published_at": "2026-09-21T08:36:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא",
+      "lat": 32.6228,
+      "lon": 36.1068
+     },
+     {
+      "name": "עבידין",
+      "lat": 32.7841,
+      "lon": 35.8706
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09220524-04",
+    "title": "זיהוי שווא והתרעות במרחב מלכיה",
+    "summary": "דובר צה\"ל עדכן כי ההתרעות שהופעלו במרחב מלכיה התבררו כזיהוי שווא.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-21T12:29:07+00:00",
+    "last_update_at": "2026-09-21T12:35:28+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25169",
+      "published_at": "2026-09-21T12:35:28+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25168",
+      "published_at": "2026-09-21T12:29:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מלכיה",
+      "lat": 33.0992,
+      "lon": 35.5117
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות לא רשמיות לפיהן ישראל עומדת מאחורי פיצוץ מחסן הנשק באזור אל-עיס בחלב",
+   "ההערכות והדיווחים על אספקה צבאית מטורקיה לבסיסים סעודיים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0115,
+    "unit": "ILS",
+    "change_pct": -0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת",
+     "אכיפת ביטחון בצפון"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות צבאיות ואמצעי לחימה בסוריה ובלבנון",
+     "הרחקת איומים בגבולות הצפון"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת בהתאם להפרות או צרכים מבצעיים בגבולות לבנון וסוריה"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "חיזוק צבא לבנון והרחבת הסמכות של המדינה",
+     "שמירה על יציבות ושיקום"
+    ],
+    "inferred": [
+     "ניסיון לרתום סיוע בינלאומי וערבי למניעת וואקום ביטחוני וכלכלי"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים לגיוס משאבים ותמיכה בצבא לבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/129432/",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-shells-areas-in-syria-s-daraa-countryside-with-artillery-machine-gun-fire/4063066",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/israel-escalates-attacks-in-daraa-and-quneitra/",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21460050",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130572",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25168",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94386",
+    "accessed_at": "2026-09-22T05:24:19+00:00"
+   }
+  ]
+ }
+}
