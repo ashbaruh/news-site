@@ -1,5 +1,5 @@
 {
- "at": "2026-09-22T14:59:19+00:00",
+ "at": "2026-09-22T15:20:32+00:00",
  "ok": false,
- "msg": "הבינה נכשלה — העדכון הקודם נשאר: Remote end closed connection without response"
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. "
 }
