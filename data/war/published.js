@@ -362,77 +362,52 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-21T1634__iran-202609211634.json",
+  "draft": "drafts/iran/2026-09-22T1040__iran-202609221040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-21T16:34:17+00:00",
+   "generated_at": "2026-09-22T10:40:28+00:00",
    "window": {
-    "from": "2026-09-20T16:34:17+00:00",
-    "to": "2026-09-21T16:34:17+00:00"
+    "from": "2026-09-21T10:40:28+00:00",
+    "to": "2026-09-22T10:40:28+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609211634"
+    "run_id": "iran-202609221040"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך כאשר ארה\"ב מפעילה לחץ כלכלי וסנקציות חדשות, ומאיימת לנקוט צעדים נוספים, בעוד איראן ושלוחותיה מאיימות להרחיב את המערכה וממשיכות לשלוט בצמתים אסטרטגיים ימיים. מדינות האזור כמו קטאר ואיחוד האמירויות קוראות למסגרת ביטחונית אזורית חדשה הכוללת את איראן כדי למנוע הידרדרות נוספת.",
+   "summary": "הזירה המזרח-תיכונית מתאפיינת בהמשך העימות הרב-ממדי הכולל לחץ כלכלי וסנקציות מצד ארה\"ב על תעופה וגורמים איראניים, לצד הסלמה ימית במצר הורמוז ובבאב אל-מנדב על ידי שליחי איראן. במקביל, ישראל מתריעה מפני ניסיונות חטיפה ופועלת בזירה המודיעינית והמדינית, בעוד מעצמות המערב ובריטניה מספקות סיוע צבאי להגנת תשתיות אנרגיה באזור.",
    "fronts": [
     {
-     "name": "החזית הימית (הורמוז)",
-     "status": "פעילה ומתוחה עם פגיעה בכלי שיט וירידה משמעותית בתנועה"
+     "name": "החזית הימית (הורמוז ובאב אל-מנדב)",
+     "status": "פעילה ומתוחה"
     },
     {
-     "name": "החזית הדיפלומטית והכלכלית",
-     "status": "החרפת סנקציות מצד ארה\"ב וניסיונות גישור אזוריים"
+     "name": "החזית המדינית והכלכלית (סנקציות ותעופה)",
+     "status": "בהסלמה"
+    },
+    {
+     "name": "החזית הישראלית-איראנית (כולל שליחים וריגול)",
+     "status": "פעילה"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09211634-01",
-     "title": "ביטול תקיפה אמריקנית בתימן ברגע האחרון",
-     "summary": "הנשיא האמריקני הורה לפנטגון להצטרף למערכה נגד החות'ים וביטל את התקיפה ברגע האחרון בשל חשש מהסלמה מול איראן.",
-     "axis": "ארה\"ב-ישראל מול איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T16:13:06+00:00",
-     "last_update_at": "2026-09-21T16:13:06+00:00",
-     "what_is_not_verified": "הפרטים מבוססים על דברי בכירים אמריקנים ולא על הודעה רשמית של הפנטגון",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
-       "published_at": "2026-09-21T16:13:06+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09211634-02",
-     "title": "פגיעה במכלית נפט במצר הורמוז",
-     "summary": "מכלית גפ\"ס נפגעה משברים של קלע לא מוכר במצר הורמוז, והמשיכה בדרכה כשכל אנשי הצוות בטוחים.",
-     "axis": "ארה\"ב-ישראל מול איראן",
+     "id": "IRAN-09221040-01",
+     "title": "תקיפת מכליות במצר הורמוז",
+     "summary": "שתי מכליות נפגעו במצר הורמוז מפגיעת עצם בלתי מזוהה או רסיסים, ודווח על שני אנשי צוות שנפצעו.",
+     "axis": "איראן מול המערב",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-21T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-21T14:03:15+00:00",
-     "last_update_at": "2026-09-21T15:38:46+00:00",
-     "what_is_not_verified": "זהות הקלע הלא מוכר ודפוס הפגיעה המלא",
+     "last_update_at": "2026-09-21T14:03:15+00:00",
+     "what_is_not_verified": "הזהות המדויקת של הגורם או העצם שפגע במכליות לא אומתה באופן מוחלט מעבר להגדרתם כקליע או רסיס בלתי מזוהים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_47258434404b4fc2",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lpg-tanker-hit-debris-unknown-projectile-hormuz",
-       "published_at": "2026-09-21T15:38:46+00:00"
-      },
-      {
        "source_id": "src_france24",
-       "source_root_id": "fh_47258434404b4fc2",
+       "source_root_id": "or_united_kingdom_maritime_trade_operations",
        "url": "https://www.france24.com/en/middle-east/20260921-projectile-hits-tanker-as-it-enters-the-strait-of-hormuz",
        "published_at": "2026-09-21T14:03:15+00:00"
       }
@@ -446,126 +421,131 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09211634-03",
-     "title": "ארה\"ב מאיימת לנתק חברות תעופה איראניות ממערכת הדולר",
-     "summary": "מזכיר האוצר האמריקני הזהיר מפני ניתוק משדות תעופה וחברות המספקות שירותים לחברות תעופה איראניות ברחבי העולם.",
-     "axis": "ארה\"ב-ישראל מול איראן",
+     "id": "IRAN-09221040-02",
+     "title": "מתן תמיכה אווירית בריטית לסעודיה",
+     "summary": "בריטניה הסכימה לספק תמיכה אווירית הכוללת מטוסי תדלוק לטובת פעילות הגנה סעודית נגד איומי החות'ים.",
+     "axis": "סעודיה מול שלוחחות איראן",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-21T00:00:00+00:00",
+     "occurred_at": "2026-09-21T21:33:09+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-21T11:44:58+00:00",
-     "last_update_at": "2026-09-21T15:18:12+00:00",
-     "what_is_not_verified": "היactual implementation והיקף האכיפה בפועל",
+     "first_reported_at": "2026-09-21T21:33:09+00:00",
+     "last_update_at": "2026-09-22T10:27:53+00:00",
+     "what_is_not_verified": "פרטים מדויקים על היקף הפעילות המבצעית בפועל טרם פורטו מלבד הצהרות השרים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_d23e9ec365e0dcb5",
-       "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday?traffic_source=rss",
-       "published_at": "2026-09-21T15:18:12+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_6fd0a82d6c96deed",
+       "url": "https://www.middleeasteye.net/news/uk-provide-saudi-arabia-defensive-support-against-houthis",
+       "published_at": "2026-09-22T10:27:53+00:00"
       },
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "fh_d23e9ec365e0dcb5",
-       "url": "https://www.iranintl.com/en/202609218925",
-       "published_at": "2026-09-21T11:44:58+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09211634-04",
-     "title": "שיחת טלפון בין טראמפ לנשיא תימן",
-     "summary": "נשיא ארה\"ב שוחח עם נשיא תימן שביקש תמיכה צבאית נגד החות'ים, אך מקורות ציינו כי טראמפ לא נתן התחייבות צבאית ישירה.",
-     "axis": "ארה\"ב-ישראל מול איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T14:46:29+00:00",
-     "last_update_at": "2026-09-21T14:46:29+00:00",
-     "what_is_not_verified": "תכנו המלא של השיחה והתחייבויות עתידיות",
-     "is_new_in_window": true,
-     "reports": [
-      {
        "source_id": "src_almonitor",
-       "source_root_id": "or_four_sources_familiar_with_the_matter",
-       "url": "https://www.al-monitor.com/originals/2026/09/trump-call-yemen-president-did-not-pledge-military-support-against-houthis-say",
-       "published_at": "2026-09-21T14:46:29+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09211634-05",
-     "title": "סגירת מרכז שפה צרפתי בטהראן",
-     "summary": "שלטונות איראן סגרו מרכז תרבות צרפתי המקושר לשגרירות, מה שהוביל להחלטת צרפת לזמן את שגריר איראן.",
-     "axis": "ארה\"ב-ישראל מול איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T06:46:27+00:00",
-     "last_update_at": "2026-09-21T06:46:27+00:00",
-     "what_is_not_verified": "הסיבות הרשמיות והמלאות לסגירה מצד איראן",
-     "is_new_in_window": true,
-     "reports": [
+       "source_root_id": "fh_eb2fb38aed8781a9",
+       "url": "https://www.al-monitor.com/originals/2026/09/uk-provide-saudi-military-air-air-refuelling-support",
+       "published_at": "2026-09-21T23:30:21+00:00"
+      },
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_2c187cec5274fa22",
-       "url": "https://www.al-monitor.com/originals/2026/09/france-vows-response-after-iran-closes-language-centre-tehran",
-       "published_at": "2026-09-21T06:46:27+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "fh_f1571dd1b36ca05d",
+       "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+       "published_at": "2026-09-21T21:33:09+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     },
     {
-     "id": "IRAN-09211634-06",
-     "title": "פגישתשרי הפנים של איראן ופקיסטן בטהראן",
-     "summary": "שר הפנים של פקיסטן נפגש בטהראן עם שר הפנים של איראן לקידום קשרים דו-צדדיים והסכמים קודמים.",
-     "axis": "ארה\"ב-ישראל מול איראן",
-     "claim_type": "incident",
+     "id": "IRAN-09221040-03",
+     "title": "איומי סנקציות אמריקאיות על תעופה איראנית",
+     "summary": "ארצות הברית איימה בסנקציות משניות שיגרמו לסגירת חברות תעופה איראניות בפני טיסות בינלאומיות, מה שעורר גינוי סיני והחלטות ביטול מצד גורמים אזוריים.",
+     "axis": "איראן מול ארה\"ב",
+     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-09-21T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-21T12:15:36+00:00",
-     "last_update_at": "2026-09-21T14:33:04+00:00",
-     "what_is_not_verified": "אינו מפורט מעבר לקיומה של הפגישה",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-21T21:24:00+00:00",
+     "last_update_at": "2026-09-22T10:32:18+00:00",
+     "what_is_not_verified": "היקף היישום המלא של השבתת כל חברות התעופה בכל העולם לא אומת באופן עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_2d3e85e9652f03cd",
-       "url": "https://en.irna.ir/news/86270373/Iran-Pakistan-interior-ministers-meet-in-Tehran-to-advance-bilateral",
-       "published_at": "2026-09-21T14:33:04+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_ecadc587304da81a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-no-foreign-flights-cancelled-despite-us-sanctions-threat",
+       "published_at": "2026-09-22T10:32:18+00:00"
       },
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_fd213899a4726183",
-       "url": "https://en.irna.ir/news/86270274/Pakistani-interior-minister-in-Tehran-for-talks-with-Iranian",
-       "published_at": "2026-09-21T12:15:36+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_ecadc587304da81a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/china-hits-back-us-threat-sanctions-iranian-airlines",
+       "published_at": "2026-09-22T08:58:58+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_50e6dfacc1799390",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21462810",
+       "published_at": "2026-09-22T08:38:48+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_1a93913d0506439b",
+       "url": "https://www.iranintl.com/en/202609214536",
+       "published_at": "2026-09-21T21:24:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09221040-04",
+     "title": "הרשעת אזרח ישראלי במגע עם סוכן איראני",
+     "summary": "בית המשפט המחוזי בחיפה גזר מאסר בפועל על פארס אבו אל-היג'א לאחר שהורשע בביצוע משימות ביון עבור גורם איראני, כולל צילום סביבת ביתו של שר ביטחון לשעבר.",
+     "axis": "ישראל מול איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T07:09:26+00:00",
+     "last_update_at": "2026-09-22T07:24:05+00:00",
+     "what_is_not_verified": "לא צוינו פרטים לא מאומתים מעבר לפסק הדין הרשמי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_8daa03530fc4790b",
+       "url": "https://www.ynet.co.il/news/article/h1jmqjy5ze",
+       "published_at": "2026-09-22T07:24:05+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_1ddc6003378d61f1",
+       "url": "https://www.israelhayom.co.il/news/law/article/21462145",
+       "published_at": "2026-09-22T07:09:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "חיפה, ישראל",
+       "lat": 32.8191,
+       "lon": 34.9984
+      },
+      {
+       "name": "עמיקם, ישראל",
+       "lat": 32.5639,
+       "lon": 35.0205
       }
      ]
     }
    ],
    "not_verified": [
-    "האם ארה\"ב אכן תפתח מחדש בקרוב במערכת הפצצות נגד איראן",
-    "תוכניותיו המדויקות של הנשיא טראמפ לגבי הפעולה הצבאית האפשרית",
-    "זהות הגורם ששיגר את הקלע לעבר המכלית במצר הורמוז"
+    "טענות על כוונות מדויקות של חמאס לבצע חטיפות המבוססות על מידע מודיעיני חסוי",
+    "דיווחים בלבנון על צמצום סמכויותיו של מזכ\"ל חיזבאללה לטובת קצין במשמרות המהפכה"
    ],
    "map": {
     "confidence": "medium",
@@ -585,102 +565,107 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "ארה\"ב",
+     "actor": "איראן",
      "declared": [
-      "עצירת הפעילות האיראנית המזיקה והפעלת לחץ כלכלי (מבצע 'אאוטקאסט כלכלי')",
-      "מניעת שימוש בחברות תעופה איראניות בינלאומיות"
+      "להמשיך להגיב בעוצמה על לחץ היברידי",
+      "לטעון כי טילים יכולים להגיע לכל מטרה"
      ],
      "inferred": [
-      "שאיפה ללחוץ על הכלכלה האיראנית עד קצה כדי להביא לשינוי התנהגות או קריסה",
-      "הימנעות זמנית מפתיחת חזיתות נוספות מחשש להסלמה רחבה מדי"
+      "שימוש בשליחים באזור להפעלת לחץ על נתיבי אנרגיה ומדינות במפרץ",
+      "עקיפת סנקציות באמצעות מתווכים ונתיבי סחר שונים"
      ],
      "forecast": [
-      "החמרת הסנקציות והגבלות התעופה נגד גופים איראניים",
-      "שמירה על כוננות צבאית גבוהה במפרץ ובבסיסים האזוריים"
+      "המשך מאבק כלכלי מול סנקציות מערביות",
+      "שמירת יכולת שיבוש נתיבי שייט"
      ]
     },
     {
-     "actor": "איראן",
+     "actor": "ארצות הברית",
      "declared": [
-      "מוכנות למלחמה ממושכת מול ארה\"ב",
-      "תגובה נחרצת לכל תוקפנות ואזהרה כלפי מדינות המארחות נכסים אמריקניים"
+      "הפעלת לחץ כלכלי מקסימלי וסנקציות על חברות תעופה איראניות",
+      "קריאה להתקוממות אזרחית נאחדת באיראן"
      ],
      "inferred": [
-      "ניצול מנופים אזוריים (כגון מצר הורמוז ושלוחות) כדי לגבות מחיר מיריביה",
-      "הסתגלות למצוקה כלכלית קשה בעקבות הפגיעה במגזר האנרגיה והתמ\"ג"
+      "בלימת היכולות הכלכליות של משטר איראן ותעופתו",
+      "ייצוב נתיבי המסחר והאנרגיה הבינלאומיים"
      ],
      "forecast": [
-      "המשך איום ושיבוש של נתיבי השיט במפרץ",
-      "חיזוק קשרים דיפלומטיים חלופיים עם שכנות כמו פקיסטן"
+      "החמרת הפיקוח על חברות זרות המספקות שירותים לאיראן",
+      "המשך תיאום דיפלומטי בעצרת האו\"ם"
+     ]
+    },
+    {
+     "actor": "ישראל",
+     "declared": [
+      "מניעת התבססות ואיומי טרור ופירוז עזה",
+      "היערכות למכה שלישית על איראן במידת הצורך"
+     ],
+     "inferred": [
+      "סיכול תשתיות ריגול וטרור איראניות בשטח ישראל",
+      "שמירה על מודיעין מבצעי גבוה למניעת חטיפות"
+     ],
+     "forecast": [
+      "שמירת מוכנות גבוהה להסלמה רב-זירתית",
+      "המשך סיכול רשתות ריגול מקומיות"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday?traffic_source=rss",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
-    },
-    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/france-vows-response-after-iran-closes-language-centre-tehran",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/uk-provide-saudi-military-air-air-refuelling-support",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     },
     {
      "source_id": "src_france24",
      "url": "https://www.france24.com/en/middle-east/20260921-projectile-hits-tanker-as-it-enters-the-strait-of-hormuz",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "accessed_at": "2026-09-22T10:40:28+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202609218925",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "url": "https://www.iranintl.com/en/202609214536",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     },
     {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86270274/Pakistani-interior-minister-in-Tehran-for-talks-with-Iranian",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/law/article/21462145",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lpg-tanker-hit-debris-unknown-projectile-hormuz",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/china-hits-back-us-threat-sanctions-iranian-airlines",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/r1zkvhckmx",
-     "accessed_at": "2026-09-21T16:34:17+00:00"
+     "url": "https://www.ynet.co.il/news/article/h1jmqjy5ze",
+     "accessed_at": "2026-09-22T10:40:28+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-21T02:40:30+00:00",
+  "previous_generated_at": "2026-09-21T16:34:17+00:00",
   "changes": {
-   "IRAN-09211634-01": {
-    "kind": "new"
-   },
-   "IRAN-09211634-02": {
-    "kind": "possible",
-    "prev": "צבא איראן יירט כטב\"ם ביון אמריקאי במצר הורמוז",
-    "score": 0.467
-   },
-   "IRAN-09211634-03": {
-    "kind": "new"
-   },
-   "IRAN-09211634-04": {
-    "kind": "new"
-   },
-   "IRAN-09211634-05": {
+   "IRAN-09221040-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "initial",
-    "prev": "סגירת המרכז הצרפתי ללימוד שפות בטהרן וזימון השגריר",
+    "prev": "פגיעה במכלית נפט במצר הורמוז",
     "score": 1.0
    },
-   "IRAN-09211634-06": {
-    "kind": "possible",
-    "prev": "נסיעת שר החוץ של איראן לכינוס האו\"ם בניו יורק",
-    "score": 0.633
+   "IRAN-09221040-02": {
+    "kind": "new"
+   },
+   "IRAN-09221040-03": {
+    "kind": "new"
+   },
+   "IRAN-09221040-04": {
+    "kind": "new"
    }
   }
  },
