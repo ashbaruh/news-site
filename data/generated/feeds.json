@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T05:17:21+00:00",
-  "fetched_at": "2026-09-22T05:17:21+00:00"
+  "checked_at": "2026-09-22T06:17:21+00:00",
+  "fetched_at": "2026-09-22T06:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T05:17:34+00:00",
-  "fetched_at": "2026-09-22T05:17:34+00:00"
+  "checked_at": "2026-09-22T06:17:30+00:00",
+  "fetched_at": "2026-09-22T06:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T05:17:34+00:00",
-  "fetched_at": "2026-09-22T05:17:34+00:00"
+  "checked_at": "2026-09-22T06:17:30+00:00",
+  "fetched_at": "2026-09-22T06:17:30+00:00"
  },
- "generated_at": "2026-09-22T05:17:34+00:00",
+ "generated_at": "2026-09-22T06:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,16 +90,51 @@
      "date": "2026-09-22T02:51:00+00:00"
     },
     {
-     "title": "\"דברים יכולים לצאת משליטה\": המתיחות בין ארה\"ב לאיראן - והחשש בישראל",
+     "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T04:56:00+00:00"
+     "date": "2026-09-22T06:05:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מימון ישיר נכנסת לאשראי ליזמי נדל\"ן: תרכוש 85% מסיגמא סיטי תמורת כ-34 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556962",
+     "date": "2026-09-22T05:48:00+00:00"
+    },
+    {
+     "title": "החשבון שלו הראה יתרה של 20 מיליון דולר אבל הוא לא הצליח למשוך אותם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556963",
+     "date": "2026-09-22T05:38:00+00:00"
+    },
+    {
+     "title": "עליות באסיה בהובלת מניות השבבים, אבל בוול סטריט מתעוררת שאלה מטרידה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T05:23:00+00:00"
+    },
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T05:17:00+00:00"
+    },
+    {
+     "title": "מישראל לצפון קוריאה: קים ג'ונג און בוחן העתקת מל\"טים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556961",
+     "date": "2026-09-22T04:19:00+00:00"
+    },
+    {
      "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-21T20:30:00+00:00"
+     "date": "2026-09-22T03:12:00+00:00"
+    },
+    {
+     "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
+     "date": "2026-09-22T02:53:00+00:00"
+    },
+    {
+     "title": "בגיל 76 הסוחר הוותיק עדיין נהנה מכל רגע ומזהיר ממה שעומד לקרות בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
+     "date": "2026-09-22T02:51:00+00:00"
     },
     {
      "title": "הנאסד\"ק זינק במעל 2% לשיא חדש; מניות השבבים קפצו בהובלת מטא ואינטל",
@@ -162,24 +197,9 @@
      "date": "2026-09-19T17:02:00+00:00"
     },
     {
-     "title": "7 מיליון מבקשי מקלט נהרו לאירופה והולידו מפץ פוליטי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556831",
-     "date": "2026-09-19T16:00:00+00:00"
-    },
-    {
-     "title": "אירופה בכוננות: המסדרון הצר שעלול להפוך לזירת עימות עם רוסיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556942",
-     "date": "2026-09-19T13:20:00+00:00"
-    },
-    {
      "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
      "date": "2026-09-19T13:00:00+00:00"
-    },
-    {
-     "title": "טראמפ ישתלט ביטחונית על האי הגדול בעולם. ניצחון או התקפלות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556940",
-     "date": "2026-09-19T06:24:00+00:00"
     },
     {
      "title": "נעילה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חצתה את רף ה-5%",
@@ -197,35 +217,15 @@
      "date": "2026-09-18T10:10:00+00:00"
     },
     {
-     "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
-     "date": "2026-09-18T04:01:00+00:00"
-    },
-    {
      "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
      "date": "2026-09-18T03:58:00+00:00"
-    },
-    {
-     "title": "עם קפיצה של 15%: המניה ששברה שיא והצו'פר למנכ\"ל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556839",
-     "date": "2026-09-17T14:39:00+00:00"
-    },
-    {
-     "title": "ב־81.4 מיליון שקל: מ. אביב רוכשת את תרחיש ונכנסת לשותפות עם קן התור",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556789",
-     "date": "2026-09-17T13:01:00+00:00"
-    },
-    {
-     "title": "רגע התפנית, והיחסים עם טראמפ: מה מלמדת החלטת הריבית על קווין וורש?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556755",
-     "date": "2026-09-17T12:47:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T05:17:23+00:00",
-  "fetched_at": "2026-09-22T05:17:23+00:00"
+  "checked_at": "2026-09-22T06:17:22+00:00",
+  "fetched_at": "2026-09-22T06:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T05:17:23+00:00",
-  "fetched_at": "2026-09-22T05:17:23+00:00"
+  "checked_at": "2026-09-22T06:17:23+00:00",
+  "fetched_at": "2026-09-22T06:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2282,8 +2282,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T05:17:25+00:00",
-  "fetched_at": "2026-09-22T05:17:25+00:00"
+  "checked_at": "2026-09-22T06:17:24+00:00",
+  "fetched_at": "2026-09-22T06:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2388,8 +2388,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T05:17:25+00:00",
-  "fetched_at": "2026-09-22T05:17:25+00:00"
+  "checked_at": "2026-09-22T06:17:24+00:00",
+  "fetched_at": "2026-09-22T06:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2418,14 +2418,14 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 474,
+     "likes": 476,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 146,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2439,22 +2439,22 @@
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "Jev Reproductions Tracker",
-     "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
-     "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 95,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 116,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "Jev Reproductions Tracker",
+     "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
+     "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
+     "likes": 96,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2474,25 +2474,43 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T05:17:33+00:00",
-  "fetched_at": "2026-09-22T05:17:33+00:00"
+  "checked_at": "2026-09-22T06:17:29+00:00",
+  "fetched_at": "2026-09-22T06:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מעל מסי: בריבו משחקני הקלאץ' הטובים בארה\"ב",
+     "link": "https://www.one.co.il/Article/534001.html?ref=rss",
+     "date": "2026-09-22T06:12:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי בריבו"
+     ]
+    },
+    {
+     "title": "יהב ימצא יעד? הקיץ המורכב של יהב גורפינקל",
+     "link": "https://sports.walla.co.il/item/3869207",
+     "date": "2026-09-22T05:27:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "יהב גורפינקל"
+     ]
+    },
     {
      "title": "לצד אודגור והולאנד: חלאילי נכלל ברשימה מכובדת",
      "link": "https://www.one.co.il/Article/533992.html?ref=rss",
@@ -2608,24 +2626,6 @@
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "מנור סולומון עבר לאמצע ושינה את המשחק: \"היה טירוף\"",
-     "link": "https://sports.walla.co.il/item/3869040",
-     "date": "2026-09-20T07:21:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "תאי בריבו: \"מסי ייקח את מלכות השערים. זה לא מעניין אותי\"",
-     "link": "https://sports.walla.co.il/item/3869024",
-     "date": "2026-09-20T06:15:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "תאי בריבו"
      ]
     }
    ],
@@ -2829,8 +2829,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T05:17:28+00:00",
-  "fetched_at": "2026-09-22T05:17:28+00:00"
+  "checked_at": "2026-09-22T06:17:26+00:00",
+  "fetched_at": "2026-09-22T06:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2861,7 +2861,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T05:17:29+00:00",
-  "fetched_at": "2026-09-22T05:17:29+00:00"
+  "checked_at": "2026-09-22T06:17:26+00:00",
+  "fetched_at": "2026-09-22T06:17:26+00:00"
  }
 }
