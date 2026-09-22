@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:17:35+00:00",
-  "fetched_at": "2026-09-22T18:17:35+00:00"
+  "checked_at": "2026-09-22T18:57:14+00:00",
+  "fetched_at": "2026-09-22T18:57:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:17:49+00:00",
-  "fetched_at": "2026-09-22T18:17:49+00:00"
+  "checked_at": "2026-09-22T18:57:24+00:00",
+  "fetched_at": "2026-09-22T18:57:24+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Ace Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:17:51+00:00",
-  "fetched_at": "2026-09-22T18:17:51+00:00"
+  "checked_at": "2026-09-22T18:57:27+00:00",
+  "fetched_at": "2026-09-22T18:57:27+00:00"
  },
- "generated_at": "2026-09-22T18:17:51+00:00",
+ "generated_at": "2026-09-22T18:57:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,6 +99,16 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "מגמה מעורבת בוול סטריט: הנאסד\"ק ממשיך לטפס, הפיננסים מכבידים על הדאו ג'ונס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
+     "date": "2026-09-22T18:42:00+00:00"
+    },
+    {
+     "title": "באפט פורש סופית: המספרים שכדאי להכיר והתקווה למשקיעים מעל גיל 50",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557061",
+     "date": "2026-09-22T18:00:00+00:00"
+    },
+    {
      "title": "עם הגב לקיר: אחרי פיצוץ העסקה - מה יעשה בנק דיסקונט?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557020",
      "date": "2026-09-22T17:06:00+00:00"
@@ -107,11 +117,6 @@ window.DB.generated = {
      "title": "רשות התחרות מטרפדת את עסקת כאל: דורשת מיוניון למכור מניותיה בסופר-פארם נגד רצונה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
      "date": "2026-09-22T17:05:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בוול סטריט: מניות הפיננסים צוללות; מחירי הנפט שינו כיוון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T16:52:00+00:00"
     },
     {
      "title": "החשבון שלו הראה יתרה של 20 מיליון דולר, אבל הוא לא הצליח למשוך אותם",
@@ -212,17 +217,12 @@ window.DB.generated = {
      "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
      "date": "2026-09-19T13:00:00+00:00"
-    },
-    {
-     "title": "נעילה מעורבת בוול סטריט; תשואת האג\"ח לעשור שוב חצתה את רף ה-5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556874",
-     "date": "2026-09-18T20:10:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:17:36+00:00",
-  "fetched_at": "2026-09-22T18:17:36+00:00"
+  "checked_at": "2026-09-22T18:57:14+00:00",
+  "fetched_at": "2026-09-22T18:57:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:17:37+00:00",
-  "fetched_at": "2026-09-22T18:17:37+00:00"
+  "checked_at": "2026-09-22T18:57:15+00:00",
+  "fetched_at": "2026-09-22T18:57:15+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:17:38+00:00",
-  "fetched_at": "2026-09-22T18:17:38+00:00"
+  "checked_at": "2026-09-22T18:57:16+00:00",
+  "fetched_at": "2026-09-22T18:57:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:17:38+00:00",
-  "fetched_at": "2026-09-22T18:17:38+00:00"
+  "checked_at": "2026-09-22T18:57:16+00:00",
+  "fetched_at": "2026-09-22T18:57:16+00:00"
  },
  "ai": {
   "data": {
@@ -2422,14 +2422,14 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 143,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 130,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2438,6 +2438,13 @@ window.DB.generated = {
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
      "likes": 117,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 109,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2452,13 +2459,6 @@ window.DB.generated = {
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
      "likes": 162,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 106,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2478,14 +2478,14 @@ window.DB.generated = {
      "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 105,
+     "likes": 106,
      "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:17:47+00:00",
-  "fetched_at": "2026-09-22T18:17:47+00:00"
+  "checked_at": "2026-09-22T18:57:23+00:00",
+  "fetched_at": "2026-09-22T18:57:23+00:00"
  },
  "abroad": {
   "data": {
@@ -2790,8 +2790,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T18:17:41+00:00",
-  "fetched_at": "2026-09-22T18:17:41+00:00"
+  "checked_at": "2026-09-22T18:57:19+00:00",
+  "fetched_at": "2026-09-22T18:57:19+00:00"
  },
  "idf": {
   "data": [
@@ -2822,7 +2822,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T18:17:42+00:00",
-  "fetched_at": "2026-09-22T18:17:42+00:00"
+  "checked_at": "2026-09-22T18:57:19+00:00",
+  "fetched_at": "2026-09-22T18:57:19+00:00"
  }
 };
