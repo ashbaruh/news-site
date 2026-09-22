@@ -115,14 +115,47 @@ class Run(unittest.TestCase):
         self.assertIn("yemen", b["arenas"])
         self.assertEqual(b["skipped"], {})
 
-    def test_retry_that_fails_again_is_reported(self):
+    def test_retry_that_fails_again_keeps_previous(self):
+        wb.main(["--force"])                                         # עדכון תקין ראשון
+        before = self.read()
+
         def llm(system, user, schema):
             bad = dict(ta.FAKE_EVENTS["events"][0], title="פיצוץ בנמל اليمن")
             return {a: {"events": [bad]} for a in schema["required"]}
         wb.an.llm_json = llm
         wb.main(["--force"])
-        b = self.read()
-        self.assertTrue(all("גם בניסיון חוזר" in w for w in b["skipped"].values()))
+        self.assertEqual(self.read(), before)                        # כל הזירות נדחו — הקובץ לא נדרס
+        with open(wb.STATUS, encoding="utf-8") as f:
+            st = json.load(f)
+        self.assertFalse(st["ok"])
+        self.assertIn("גם בניסיון חוזר", st["msg"])
+
+    def test_empty_answer_for_all_arenas_keeps_previous_file(self):
+        """הבינה החזירה ריק לכל הזירות — הקובץ הקודם נשאר, והמועד פתוח לניסיון הבא (22/09/2026)."""
+        wb.main(["--force"])
+        before = self.read()
+        wb.an.llm_json = lambda system, user, schema: {a: {"events": []} for a in schema["required"]}
+        wb.main(["--force"])
+        self.assertEqual(self.read(), before)
+
+    def test_arena_without_news_keeps_its_previous_items(self):
+        wb.main(["--force"])
+        before = self.read()
+        ok = ta.FAKE_EVENTS["events"][:1]
+        wb.an.llm_json = lambda system, user, schema: {a: {"events": ok if a == "iran" else []}
+                                                      for a in schema["required"]}
+        wb.main(["--force"])
+        after = self.read()
+        self.assertNotIn("from_slot", after["arenas"]["iran"])                 # זירה שהתעדכנה
+        for a in ("ukraine", "yemen", "north"):
+            self.assertEqual(len(after["arenas"][a]["events"]), len(before["arenas"][a]["events"]), a)
+            self.assertEqual(after["arenas"][a]["from_slot"], before["slot"])
+
+    def test_old_items_are_not_carried_forever(self):
+        now = utc("2026-09-22T18:00")
+        self.assertTrue(wb.within_hours("2026-09-22T09:00:00+00:00", now, 14))     # מהבוקר — נשמר
+        self.assertFalse(wb.within_hours("2026-09-21T09:00:00+00:00", now, 14))    # מאתמול — לא
+        self.assertFalse(wb.within_hours("מחר", now, 14))
 
     def test_ai_failure_keeps_previous_brief(self):
         wb.main(["--force"])

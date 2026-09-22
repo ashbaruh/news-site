@@ -71,6 +71,19 @@ def previous_slot(slot):
     return (slot - timedelta(days=1)).replace(hour=hours[-1])
 
 
+CARRY_HOURS = 14          # ידיעה שנשמרת מהעדכון הקודם — עד גיל כזה (מעדכון בוקר עד ערב)
+
+
+def within_hours(when, now, hours):
+    try:
+        t = datetime.fromisoformat(str(when))
+    except ValueError:
+        return False
+    if t.tzinfo is None:
+        t = t.replace(tzinfo=timezone.utc)
+    return timedelta(0) <= now - t <= timedelta(hours=hours)
+
+
 def load_brief():
     try:
         with open(BRIEF, encoding="utf-8") as f:
@@ -103,6 +116,14 @@ BRIEF_SCHEMA = schema_for(wc.ARENAS)
 
 # ניסיון חוזר לזירה שנדחתה (19/09/2026: תימן נדחתה בגלל אות ערבית אחת, ונשארה בלי עדכון בוקר).
 # קריאה אחת נוספת בלבד, רק לזירות שנדחו מסיבה שאפשר לתקן — לא "אין ידיעות".
+EMPTY = "הבינה החזירה רשימה ריקה"
+
+# 22/09/2026: העדכונים של 12:00 ו-18:00 חזרו ריקים לכל ארבע הזירות אף שהיו 15 כתבות בכל זירה,
+# והאתר נשאר בלי ידיעות ביניים כל היום. הניסיון החוזר אומר למודל במפורש שיש חומר.
+EMPTY_NOTE = ("חשוב: בניסיון הקודם החזרת רשימה ריקה לכל הזירות. יש לפניך כתבות אמיתיות מהשעות האחרונות. "
+              "לכל זירה בחר עד 3 ידיעות — אירועים או הודעות ממשיות מתוך הכתבות שלה. "
+              "רשימה ריקה מותרת רק אם באמת אין בזירה שום אירוע, ולא כברירת מחדל.")
+
 RETRY_NOTE = ("חשוב: בניסיון הקודם הופיעו אותיות בשפה אחרת בתוך הטקסט העברי. כתוב שמות מקומות, אנשים וארגונים "
               "בתעתיק עברי בלבד — בלי אף אות ערבית, קירילית, סינית או קוריאנית.")
 
@@ -203,11 +224,16 @@ def main(argv=None):
         else:
             skipped[arena] = why
 
+    # מודל חלש מחזיר לפעמים רשימה ריקה לכל הזירות אף שיש כתבות (22/09/2026: flash-lite ענה ריק,
+    # והעדכון של 18:00 מחק את הידיעות של 12:00). זה ניסיון כושל — מנסים שוב.
+    if not arenas and any(per_arena.values()):
+        skipped = {a: EMPTY for a in skipped}
     retry = [a for a, why in skipped.items() if why != "אין ידיעות" and per_arena.get(a)]
     if retry:
         print("ניסיון חוזר ל:", ", ".join(retry))
         try:
-            out2 = an.llm_json(an.SYSTEM, prompt({a: per_arena[a] for a in retry}, RETRY_NOTE), schema_for(retry))
+            note = EMPTY_NOTE if all(skipped[a] == EMPTY for a in retry) else RETRY_NOTE
+            out2 = an.llm_json(an.SYSTEM, prompt({a: per_arena[a] for a in retry}, note), schema_for(retry))
             for a in retry:
                 evs, why = build_arena(a, per_arena[a], (out2.get(a) or {}).get("events"), window_hours, now, known, geocode)
                 if evs:
@@ -219,6 +245,21 @@ def main(argv=None):
             print(f"הניסיון החוזר נכשל: {str(e)[:200]}")
     geocode.save()
 
+    # זירה בלי ידיעות חדשות שומרת את מה שהוצג קודם, כל עוד הוא לא ישן מדי — עדכון חדש לא מוחק
+    # ידיעות שעדיין רלוונטיות (22/09/2026: עדכון 18:00 שחזר ריק השאיר את האתר בלי ידיעות בכלל).
+    if not arenas:
+        # אין אף זירה חדשה — הקובץ הקודם נשאר כמו שהוא, והמועד נשאר פתוח לניסיון הבא
+        return report("אין ידיעות חדשות באף זירה — העדכון הקודם נשאר: " +
+                      "; ".join(f"{a}: {w}" for a, w in skipped.items()))
+    kept = []
+    for arena, old_arena in (old.get("arenas") or {}).items():
+        if arena in arenas or not old_arena.get("events"):
+            continue
+        still = [e for e in old_arena["events"] if within_hours(e.get("occurred_at"), now, CARRY_HOURS)]
+        if still:
+            arenas[arena] = {"events": still, "from_slot": old.get("from_slot") or old.get("slot")}
+            kept.append(f"{arena} {len(still)}")
+
     brief = {"slot": slot.isoformat(), "generated_at": now.isoformat(), "model": an.active_model_name(),
              "arenas": arenas, "skipped": skipped}
     tmp = BRIEF + ".tmp"
@@ -229,6 +270,7 @@ def main(argv=None):
         f.write(";\n")
     os.replace(tmp, BRIEF)                               # קובץ חצי-כתוב לעולם לא נשאר במקום
     report(f"עדכון ביניים {slot:%H:%M}: " + ", ".join(f"{a} {len(v['events'])}" for a, v in arenas.items()) +
+           (" · נשמרו מקודם: " + ", ".join(kept) if kept else "") +
            (" · דולגו: " + "; ".join(f"{a}: {w}" for a, w in skipped.items()) if skipped else ""), ok=True)
 
 
