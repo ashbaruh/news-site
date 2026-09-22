@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:17:32+00:00",
-  "fetched_at": "2026-09-22T10:17:32+00:00"
+  "checked_at": "2026-09-22T11:17:14+00:00",
+  "fetched_at": "2026-09-22T11:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:17:43+00:00",
-  "fetched_at": "2026-09-22T10:17:43+00:00"
+  "checked_at": "2026-09-22T11:17:27+00:00",
+  "fetched_at": "2026-09-22T11:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -77,25 +77,30 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:17:43+00:00",
-  "fetched_at": "2026-09-22T10:17:43+00:00"
+  "checked_at": "2026-09-22T11:17:27+00:00",
+  "fetched_at": "2026-09-22T11:17:27+00:00"
  },
- "generated_at": "2026-09-22T10:17:43+00:00",
+ "generated_at": "2026-09-22T11:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לא רוצים להוריד מחיר: היזמים שמשכירים דירות במקום למכור",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555582",
-     "date": "2026-09-22T09:00:00+00:00"
+     "title": "העובדים הצילו את החברה וקנו אותה ב-50 מיליון דולר. כעת היא נמכרת ב-600 מיליון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556958",
+     "date": "2026-09-22T11:00:00+00:00"
     },
     {
-     "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
+     "title": "האיתות של איראן: \"מוכנים לפתוח את מצר הורמוז\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T09:44:00+00:00"
+     "date": "2026-09-22T10:48:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל במעל 2%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T10:26:00+00:00"
+    },
     {
      "title": "ירידות קלות באירופה; החוזים בניו יורק יציבים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
@@ -105,11 +110,6 @@
      "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556980",
      "date": "2026-09-22T09:40:00+00:00"
-    },
-    {
-     "title": "עליות בת\"א בהובלת מניות הביטוח והטכנולוגיה; טאואר מזנקת ב-8%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T09:15:00+00:00"
     },
     {
      "title": "60 אלף פצצות בדרך לישראל. למה דווקא עכשיו?",
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:17:34+00:00",
-  "fetched_at": "2026-09-22T10:17:34+00:00"
+  "checked_at": "2026-09-22T11:17:16+00:00",
+  "fetched_at": "2026-09-22T11:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:17:34+00:00",
-  "fetched_at": "2026-09-22T10:17:34+00:00"
+  "checked_at": "2026-09-22T11:17:16+00:00",
+  "fetched_at": "2026-09-22T11:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2277,8 +2277,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:17:36+00:00",
-  "fetched_at": "2026-09-22T10:17:36+00:00"
+  "checked_at": "2026-09-22T11:17:18+00:00",
+  "fetched_at": "2026-09-22T11:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2383,12 +2383,19 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:17:36+00:00",
-  "fetched_at": "2026-09-22T10:17:36+00:00"
+  "checked_at": "2026-09-22T11:17:18+00:00",
+  "fetched_at": "2026-09-22T11:17:18+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/building-ai-agents-as-team-members/",
+     "date": "2026-09-22T08:36:37+00:00",
+     "launch": false,
+     "title": "2,000 אייג'נטים בפרודקשן: כך הפכנו את ה-AI לחלק אמיתי מהצוות בלי לאבד שליטה"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2399,10 +2406,8 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 5,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2415,21 +2420,21 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 124,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 110,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 113,
+     "likes": 114,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2447,6 +2452,13 @@
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 102,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
@@ -2454,17 +2466,10 @@
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 101,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 150,
+     "likes": 151,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
@@ -2477,12 +2482,30 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:17:42+00:00",
-  "fetched_at": "2026-09-22T10:17:42+00:00"
+  "checked_at": "2026-09-22T11:17:26+00:00",
+  "fetched_at": "2026-09-22T11:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בהולנד קטלו את גלוך בעיתוי מוזר: \"עסוק בהצלחה האישית שלו\"",
+     "link": "https://sports.walla.co.il/item/3869315",
+     "date": "2026-09-22T10:25:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "רביבו, אירלנד והתבוסה של הפועל: כעת בערוץ ONE",
+     "link": "https://www.one.co.il/Article/534031.html?ref=rss",
+     "date": "2026-09-22T10:16:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "בפסגת הליגה ההולנדית: הנתון המרשים של אוסקר גלוך",
      "link": "https://sports.walla.co.il/item/3869311",
@@ -2595,24 +2618,6 @@
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T16:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3868647",
-     "date": "2026-09-17T05:17:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2819,8 +2824,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T10:17:40+00:00",
-  "fetched_at": "2026-09-22T10:17:40+00:00"
+  "checked_at": "2026-09-22T11:17:21+00:00",
+  "fetched_at": "2026-09-22T11:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2851,7 +2856,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T10:17:41+00:00",
-  "fetched_at": "2026-09-22T10:17:41+00:00"
+  "checked_at": "2026-09-22T11:17:22+00:00",
+  "fetched_at": "2026-09-22T11:17:22+00:00"
  }
 }
