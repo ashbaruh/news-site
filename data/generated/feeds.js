@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T06:17:21+00:00",
-  "fetched_at": "2026-09-22T06:17:21+00:00"
+  "checked_at": "2026-09-22T07:17:27+00:00",
+  "fetched_at": "2026-09-22T07:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T06:17:30+00:00",
-  "fetched_at": "2026-09-22T06:17:30+00:00"
+  "checked_at": "2026-09-22T07:17:42+00:00",
+  "fetched_at": "2026-09-22T07:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T06:17:30+00:00",
-  "fetched_at": "2026-09-22T06:17:30+00:00"
+  "checked_at": "2026-09-22T07:17:42+00:00",
+  "fetched_at": "2026-09-22T07:17:42+00:00"
  },
- "generated_at": "2026-09-22T06:17:30+00:00",
+ "generated_at": "2026-09-22T07:17:42+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בגיל 76 הסוחר הוותיק עדיין נהנה מכל רגע ומזהיר ממה שעומד לקרות בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
-     "date": "2026-09-22T02:51:00+00:00"
+     "title": "עליות בפתיחת המסחר בת\"א; טאואר מזנקת ב-8%, נייס ב-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T07:16:00+00:00"
     },
     {
      "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
@@ -99,12 +99,17 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
+     "date": "2026-09-22T06:18:00+00:00"
+    },
+    {
      "title": "מימון ישיר נכנסת לאשראי ליזמי נדל\"ן: תרכוש 85% מסיגמא סיטי תמורת כ-34 מיליון שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556962",
      "date": "2026-09-22T05:48:00+00:00"
     },
     {
-     "title": "החשבון שלו הראה יתרה של 20 מיליון דולר אבל הוא לא הצליח למשוך אותם",
+     "title": "החשבון שלו הראה יתרה של 20 מיליון דולר, אבל הוא לא הצליח למשוך אותם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556963",
      "date": "2026-09-22T05:38:00+00:00"
     },
@@ -112,11 +117,6 @@ window.DB.generated = {
      "title": "עליות באסיה בהובלת מניות השבבים, אבל בוול סטריט מתעוררת שאלה מטרידה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
      "date": "2026-09-22T05:23:00+00:00"
-    },
-    {
-     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T05:17:00+00:00"
     },
     {
      "title": "מישראל לצפון קוריאה: קים ג'ונג און בוחן העתקת מל\"טים",
@@ -189,16 +189,6 @@ window.DB.generated = {
      "date": "2026-09-20T05:01:00+00:00"
     },
     {
-     "title": "הרבה משקל לריבית, חשיבות עצומה לאשראי: הרגליים שעליהן עומד שוק הנדל\"ן האמריקאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556846",
-     "date": "2026-09-19T18:00:00+00:00"
-    },
-    {
-     "title": "רפאל מאשרת את חשיפת גלובס: בדרך לעסקת ענק בצ׳כיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556945",
-     "date": "2026-09-19T17:02:00+00:00"
-    },
-    {
      "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
      "date": "2026-09-19T13:00:00+00:00"
@@ -219,6 +209,11 @@ window.DB.generated = {
      "date": "2026-09-18T10:10:00+00:00"
     },
     {
+     "title": "איזו מניה ישראלית החלה לקבל סיקור של גופים בינלאומיים?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001555622",
+     "date": "2026-09-18T04:01:00+00:00"
+    },
+    {
      "title": "מאקזיט ענק לעסקת השבוע: המיליארדר שמעטים בשוק ההון מכירים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556890",
      "date": "2026-09-18T03:58:00+00:00"
@@ -226,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T06:17:22+00:00",
-  "fetched_at": "2026-09-22T06:17:22+00:00"
+  "checked_at": "2026-09-22T07:17:29+00:00",
+  "fetched_at": "2026-09-22T07:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T06:17:23+00:00",
-  "fetched_at": "2026-09-22T06:17:23+00:00"
+  "checked_at": "2026-09-22T07:17:30+00:00",
+  "fetched_at": "2026-09-22T07:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -1906,28 +1901,28 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-24",
-    "time": "16:35",
+    "time": "16:30",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "הפועל קטמון ירושלים - מ.ס קרית גת"
    },
    {
     "date": "2026-09-24",
-    "time": "16:35",
+    "time": "16:30",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "הפועל תל אביב - הפועל רעננה"
    },
    {
     "date": "2026-09-24",
-    "time": "16:35",
+    "time": "16:30",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי כשרונות חדרה - מכבי חולון"
    },
    {
     "date": "2026-09-24",
-    "time": "16:35",
+    "time": "16:30",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "בנות נתניה - מכבי אס\"א תל אביב"
@@ -2284,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T06:17:24+00:00",
-  "fetched_at": "2026-09-22T06:17:24+00:00"
+  "checked_at": "2026-09-22T07:17:32+00:00",
+  "fetched_at": "2026-09-22T07:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2375,14 +2370,14 @@ window.DB.generated = {
    "one_sided_tv": [
     {
      "date": "2026-09-24",
-     "time": "16:35",
+     "time": "16:30",
      "channel": "ספורט 5+",
      "israeli_team": "הפועל ת\"א",
      "title": "הפועל תל אביב - הפועל רעננה"
     },
     {
      "date": "2026-09-24",
-     "time": "16:35",
+     "time": "16:30",
      "channel": "ספורט 5+",
      "israeli_team": "מכבי נתניה",
      "title": "בנות נתניה - מכבי אס\"א תל אביב"
@@ -2390,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T06:17:24+00:00",
-  "fetched_at": "2026-09-22T06:17:24+00:00"
+  "checked_at": "2026-09-22T07:17:32+00:00",
+  "fetched_at": "2026-09-22T07:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2420,21 +2415,21 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 476,
+     "likes": 477,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 148,
+     "likes": 149,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 113,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2445,18 +2440,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 97,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 118,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "Jev Reproductions Tracker",
-     "desc_en": "Open reproductions of TypeSafe's Jev, all in one place",
-     "desc_he": "רפרודוקציות פתוחות של ה-Jev של TypeSafe, הכל במקום אחד",
-     "likes": 96,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2466,13 +2461,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 112,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
@@ -2480,17 +2468,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 112,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "MiniCPM5-2B WebGPU Pi",
      "desc_en": "A coding agent running entirely in your browser",
      "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T06:17:29+00:00",
-  "fetched_at": "2026-09-22T06:17:29+00:00"
+  "checked_at": "2026-09-22T07:17:41+00:00",
+  "fetched_at": "2026-09-22T07:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2568,15 +2563,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אבו פאני הצטיין וכבש, הכוכב האדום ניצחה 0:3",
-     "link": "https://www.one.co.il/Article/533951.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מוחמד אבו פאני"
-     ]
-    },
-    {
      "title": "\"אבדיה מלך החדירות לסל, הדיח את שיי מהכתר\"",
      "link": "https://www.one.co.il/Article/533974.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
@@ -2628,6 +2614,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "מנור סולומון עבר לאמצע ושינה את המשחק: \"היה טירוף\"",
+     "link": "https://sports.walla.co.il/item/3869040",
+     "date": "2026-09-20T07:21:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
      ]
     }
    ],
@@ -2831,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T06:17:26+00:00",
-  "fetched_at": "2026-09-22T06:17:26+00:00"
+  "checked_at": "2026-09-22T07:17:35+00:00",
+  "fetched_at": "2026-09-22T07:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2863,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T06:17:26+00:00",
-  "fetched_at": "2026-09-22T06:17:26+00:00"
+  "checked_at": "2026-09-22T07:17:36+00:00",
+  "fetched_at": "2026-09-22T07:17:36+00:00"
  }
 };
