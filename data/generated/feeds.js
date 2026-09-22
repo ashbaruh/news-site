@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T09:17:25+00:00",
-  "fetched_at": "2026-09-22T09:17:25+00:00"
+  "checked_at": "2026-09-22T10:01:16+00:00",
+  "fetched_at": "2026-09-22T10:01:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T09:17:33+00:00",
-  "fetched_at": "2026-09-22T09:17:33+00:00"
+  "checked_at": "2026-09-22T10:01:30+00:00",
+  "fetched_at": "2026-09-22T10:01:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T09:17:34+00:00",
-  "fetched_at": "2026-09-22T09:17:34+00:00"
+  "checked_at": "2026-09-22T10:01:30+00:00",
+  "fetched_at": "2026-09-22T10:01:30+00:00"
  },
- "generated_at": "2026-09-22T09:17:34+00:00",
+ "generated_at": "2026-09-22T10:01:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "האיום החדש של טהרן: \"נשנה את גאוגרפיית המלחמה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T09:05:00+00:00"
+     "date": "2026-09-22T09:44:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T09:17:25+00:00",
-  "fetched_at": "2026-09-22T09:17:25+00:00"
+  "checked_at": "2026-09-22T10:01:17+00:00",
+  "fetched_at": "2026-09-22T10:01:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T09:17:26+00:00",
-  "fetched_at": "2026-09-22T09:17:26+00:00"
+  "checked_at": "2026-09-22T10:01:18+00:00",
+  "fetched_at": "2026-09-22T10:01:18+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T09:17:27+00:00",
-  "fetched_at": "2026-09-22T09:17:27+00:00"
+  "checked_at": "2026-09-22T10:01:19+00:00",
+  "fetched_at": "2026-09-22T10:01:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T09:17:27+00:00",
-  "fetched_at": "2026-09-22T09:17:27+00:00"
+  "checked_at": "2026-09-22T10:01:19+00:00",
+  "fetched_at": "2026-09-22T10:01:19+00:00"
  },
  "ai": {
   "data": {
@@ -2415,28 +2415,28 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 477,
+     "likes": 478,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 111,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2447,32 +2447,32 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "AI Notes",
-     "desc_en": "Source-grounded AI notes with citations (open source).",
-     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 150,
-     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
-    },
-    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 156,
+     "likes": 157,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 114,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 100,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "AI Notes",
+     "desc_en": "Source-grounded AI notes with citations (open source).",
+     "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
+     "likes": 150,
+     "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
      "title": "MiniCPM5-2B WebGPU Pi",
@@ -2484,8 +2484,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T09:17:32+00:00",
-  "fetched_at": "2026-09-22T09:17:32+00:00"
+  "checked_at": "2026-09-22T10:01:29+00:00",
+  "fetched_at": "2026-09-22T10:01:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2527,30 +2527,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "לצד לברון ודוראנט: הדירוג שאליו נכנס דני אבדיה",
-     "link": "https://www.one.co.il/Article/533963.html?ref=rss",
-     "date": "2026-09-21T16:23:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
      "title": "סבע כבש שער ענק ב-2:3 של אמדספור על בשיקטאש",
      "link": "https://www.one.co.il/Article/533949.html?ref=rss",
      "date": "2026-09-21T16:17:00+00:00",
      "source": "ONE",
      "players": [
       "דיא סבע"
-     ]
-    },
-    {
-     "title": "ענאן חלאילי: חשוב שלא ספגנו, נעשה דברים גדולים",
-     "link": "https://www.one.co.il/Article/533964.html?ref=rss",
-     "date": "2026-09-21T16:17:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
      ]
     },
     {
@@ -2620,6 +2602,24 @@ window.DB.generated = {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T16:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T05:17:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2826,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T09:17:29+00:00",
-  "fetched_at": "2026-09-22T09:17:29+00:00"
+  "checked_at": "2026-09-22T10:01:23+00:00",
+  "fetched_at": "2026-09-22T10:01:23+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T09:17:30+00:00",
-  "fetched_at": "2026-09-22T09:17:30+00:00"
+  "checked_at": "2026-09-22T10:01:24+00:00",
+  "fetched_at": "2026-09-22T10:01:24+00:00"
  }
 };
