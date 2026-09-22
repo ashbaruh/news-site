@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T12:17:16+00:00",
-  "fetched_at": "2026-09-22T12:17:16+00:00"
+  "checked_at": "2026-09-22T13:17:20+00:00",
+  "fetched_at": "2026-09-22T13:17:20+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "135,000 Shelter Pets Found Forever Homes in August Thanks to NBC’s Annual Adopt-a-thon",
+    "title_he": "135,000 חיות מחמד נמצאו בתים לנצח באוגוסט הודות לאימוץ-א-תון השנתי של NBC",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/135000-shelter-pets-found-forever-homes-in-august-thanks-to-nbcs-annual-adopt-a-thon/",
+    "date": "2026-09-22T13:00:22+00:00"
+   },
    {
     "title_en": "Couple Fosters 59 Dogs in Retirement: ‘We love to get them out of the kennels’",
     "title_he": "זוג מטפח 59 כלבים בפנסיה: \"אנחנו אוהבים להוציא אותם מהכלביות\"",
@@ -34,55 +41,48 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/cataract-surgery-restores-sight-for-54-year-old-chimpanzee-the-first-such-procedure-at-chimp-haven/",
     "date": "2026-09-18T12:30:44+00:00"
-   },
-   {
-    "title_en": "New Cat Species Identified for the First Time in Over 100 Years–Meet the Tilcayo",
-    "title_he": "מינים חדשים של חתולים שזוהו לראשונה מזה למעלה מ-100 שנה - הכירו את הטילקאיו",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/new-cat-species-identified-for-the-first-time-in-over-100-years-meet-the-tilcayo/",
-    "date": "2026-09-18T08:45:29+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T12:17:27+00:00",
-  "fetched_at": "2026-09-22T12:17:27+00:00"
+  "checked_at": "2026-09-22T13:17:31+00:00",
+  "fetched_at": "2026-09-22T13:17:31+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
+    "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
+    "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Ace Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
+    "date": "2026-09-22T13:00:00+00:00"
+   },
    {
     "title_en": "Got a noisy commute? These smart, effective noise-cancelling headphones let you finally escape the outside world",
     "title_he": "יש לך נסיעה רועשת? אוזניות ביטול רעשים חכמות ויעילות אלו מאפשרות לך לברוח סוף סוף מהעולם שבחוץ",
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/got-a-noisy-commute-these-smart-effective-noise-cancelling-headphones-let-you-finally-escape-the-outside-world",
     "date": "2026-09-22T12:02:03+00:00"
-   },
-   {
-    "title_en": "This classic 1969 album by The Velvet Underground is getting a “vinylphyle” upgrade",
-    "title_he": "האלבום הקלאסי הזה משנת 1969 של The Velvet Underground מקבל שדרוג \"וינילפיל\".",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/vinyl/this-classic-1969-album-by-the-velvet-underground-is-getting-a-vinylphyle-upgrade",
-    "date": "2026-09-21T12:09:10+00:00"
-   },
-   {
-    "title_en": "A five-star integrated amplifier tested, confirmed fix for Sony OLED TVs and dinky treat for vinyl fans – all the latest news explained by our experts",
-    "title_he": "מגבר משולב ברמת חמישה כוכבים נבדק, תיקון מאושר עבור טלוויזיות OLED של סוני ופינוק לאוהדי ויניל - כל החדשות האחרונות מוסברות על ידי המומחים שלנו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/a-five-star-integrated-amplifier-tested-confirmed-fix-for-sony-oled-tvs-and-dinky-treat-for-vinyl-fans-all-the-latest-news-explained-by-our-experts",
-    "date": "2026-09-21T07:00:00+00:00"
-   },
-   {
-    "title_en": "How to watch UCI Road World Championships 2026: live stream cycling for FREE from anywhere",
-    "title_he": "איך לצפות באליפות העולם בכביש UCI 2026: זרם חי רכיבה על אופניים בחינם מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/uci-road-world-championships-2026-live-stream",
-    "date": "2026-09-20T05:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T12:17:29+00:00",
-  "fetched_at": "2026-09-22T12:17:29+00:00"
+  "checked_at": "2026-09-22T13:17:36+00:00",
+  "fetched_at": "2026-09-22T13:17:36+00:00"
  },
- "generated_at": "2026-09-22T12:17:29+00:00",
+ "generated_at": "2026-09-22T13:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,14 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ירידות קלות באירופה; החוזים בניו יורק יציבים",
+     "title": "החוזים בוול סטריט מטפסים בחסות ירידת הנפט; סנדיסק מזנקת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T11:20:00+00:00"
+     "date": "2026-09-22T12:57:00+00:00"
     },
     {
-     "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל במעל 2%",
+     "title": "מגמה מעורבת בתל אביב; טאואר מזנקת, מדד ת\"א־נפט וגז נופל ביותר מ-2%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T10:26:00+00:00"
+     "date": "2026-09-22T12:55:00+00:00"
     },
     {
      "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T12:17:17+00:00",
-  "fetched_at": "2026-09-22T12:17:17+00:00"
+  "checked_at": "2026-09-22T13:17:21+00:00",
+  "fetched_at": "2026-09-22T13:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T12:17:18+00:00",
-  "fetched_at": "2026-09-22T12:17:18+00:00"
+  "checked_at": "2026-09-22T13:17:21+00:00",
+  "fetched_at": "2026-09-22T13:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T12:17:19+00:00",
-  "fetched_at": "2026-09-22T12:17:19+00:00"
+  "checked_at": "2026-09-22T13:17:23+00:00",
+  "fetched_at": "2026-09-22T13:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,19 +2385,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T12:17:19+00:00",
-  "fetched_at": "2026-09-22T12:17:19+00:00"
+  "checked_at": "2026-09-22T13:17:23+00:00",
+  "fetched_at": "2026-09-22T13:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/building-ai-agents-as-team-members/",
-     "date": "2026-09-22T08:36:37+00:00",
-     "launch": false,
-     "title": "2,000 אייג'נטים בפרודקשן: כך הפכנו את ה-AI לחלק אמיתי מהצוות בלי לאבד שליטה"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2408,28 +2401,30 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 479,
+     "likes": 483,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 127,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 115,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2450,42 +2445,42 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 158,
+     "likes": 159,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 102,
+     "likes": 103,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 117,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "AI Notes",
      "desc_en": "Source-grounded AI notes with citations (open source).",
      "desc_he": "הערות בינה מלאכותית מקוריות עם ציטוטים (קוד פתוח).",
-     "likes": 151,
+     "likes": 152,
      "link": "https://huggingface.co/spaces/Lynote/ai-notes"
     },
     {
-     "title": "MiniCPM5-2B WebGPU Pi",
-     "desc_en": "A coding agent running entirely in your browser",
-     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 90,
-     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+     "title": "Marigold V2",
+     "desc_en": "Depth, surface normals, and albedo from a single image",
+     "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
+     "likes": 103,
+     "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T12:17:26+00:00",
-  "fetched_at": "2026-09-22T12:17:26+00:00"
+  "checked_at": "2026-09-22T13:17:29+00:00",
+  "fetched_at": "2026-09-22T13:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2497,15 +2492,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "רביבו, אירלנד והתבוסה של הפועל: כעת בערוץ ONE",
-     "link": "https://www.one.co.il/Article/534031.html?ref=rss",
-     "date": "2026-09-22T10:16:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2620,6 +2606,15 @@ window.DB.generated = {
      "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
      "link": "https://sports.walla.co.il/item/3868785",
      "date": "2026-09-18T16:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
+     "link": "https://sports.walla.co.il/item/3868647",
+     "date": "2026-09-17T05:17:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2826,8 +2821,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T12:17:22+00:00",
-  "fetched_at": "2026-09-22T12:17:22+00:00"
+  "checked_at": "2026-09-22T13:17:26+00:00",
+  "fetched_at": "2026-09-22T13:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2853,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T12:17:23+00:00",
-  "fetched_at": "2026-09-22T12:17:23+00:00"
+  "checked_at": "2026-09-22T13:17:27+00:00",
+  "fetched_at": "2026-09-22T13:17:27+00:00"
  }
 };
