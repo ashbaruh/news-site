@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:13:07+00:00",
-  "fetched_at": "2026-09-22T22:13:07+00:00"
+  "checked_at": "2026-09-22T22:17:14+00:00",
+  "fetched_at": "2026-09-22T22:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:13:16+00:00",
-  "fetched_at": "2026-09-22T22:13:16+00:00"
+  "checked_at": "2026-09-22T22:17:28+00:00",
+  "fetched_at": "2026-09-22T22:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:13:17+00:00",
-  "fetched_at": "2026-09-22T22:13:17+00:00"
+  "checked_at": "2026-09-22T22:17:29+00:00",
+  "fetched_at": "2026-09-22T22:17:29+00:00"
  },
- "generated_at": "2026-09-22T22:13:17+00:00",
+ "generated_at": "2026-09-22T22:17:29+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:13:08+00:00",
-  "fetched_at": "2026-09-22T22:13:08+00:00"
+  "checked_at": "2026-09-22T22:17:16+00:00",
+  "fetched_at": "2026-09-22T22:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:13:08+00:00",
-  "fetched_at": "2026-09-22T22:13:08+00:00"
+  "checked_at": "2026-09-22T22:17:17+00:00",
+  "fetched_at": "2026-09-22T22:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2272,8 +2272,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:13:09+00:00",
-  "fetched_at": "2026-09-22T22:13:09+00:00"
+  "checked_at": "2026-09-22T22:17:19+00:00",
+  "fetched_at": "2026-09-22T22:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2378,8 +2378,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:13:09+00:00",
-  "fetched_at": "2026-09-22T22:13:09+00:00"
+  "checked_at": "2026-09-22T22:17:19+00:00",
+  "fetched_at": "2026-09-22T22:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2471,14 +2471,14 @@ window.DB.generated = {
      "title": "Marigold V2",
      "desc_en": "Depth, surface normals, and albedo from a single image",
      "desc_he": "עומק, פני שטח נורמליים ואלבדו מתמונה אחת",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/toshas/Marigold-V2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:13:15+00:00",
-  "fetched_at": "2026-09-22T22:13:15+00:00"
+  "checked_at": "2026-09-22T22:17:27+00:00",
+  "fetched_at": "2026-09-22T22:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2783,8 +2783,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T22:13:12+00:00",
-  "fetched_at": "2026-09-22T22:13:12+00:00"
+  "checked_at": "2026-09-22T22:17:22+00:00",
+  "fetched_at": "2026-09-22T22:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2815,7 +2815,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T22:13:12+00:00",
-  "fetched_at": "2026-09-22T22:13:12+00:00"
+  "checked_at": "2026-09-22T22:17:23+00:00",
+  "fetched_at": "2026-09-22T22:17:23+00:00"
  }
 };
