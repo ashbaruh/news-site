@@ -26,24 +26,34 @@ class Clock(unittest.TestCase):
         self.assertEqual(names("2026-09-20T02:40:00"), ["war-daily.yml"])
 
     def test_backups(self):
-        self.assertEqual(names("2026-09-20T05:41"), ["war-daily.yml"])
-        self.assertEqual(names("2026-09-20T13:45"), ["war-daily.yml"])
+        # ב-05:40 וב-13:40 רצים גם ההשלמה של הניתוח וגם ניסיון חוזר של הביניים — זה בסדר,
+        # ניסיון חוזר למועד שכבר בוצע נגמר תוך פחות מדקה בלי לקרוא לבינה.
+        self.assertIn("war-daily.yml", names("2026-09-20T05:41"))
+        self.assertIn("war-daily.yml", names("2026-09-20T13:45"))
 
     def test_brief_noon_and_evening(self):
         self.assertEqual(names("2026-09-20T11:40"), ["war-brief.yml"])
         self.assertEqual(names("2026-09-20T17:59"), ["war-brief.yml"])
 
-    def test_brief_retry_after_slot(self):
-        self.assertEqual(names("2026-09-20T12:10"), ["war-brief.yml"])
+    def test_brief_retries_every_half_hour(self):
+        for t in ("12:10", "12:40", "13:10", "14:40", "15:10"):
+            self.assertIn("war-brief.yml", names(f"2026-09-20T{t}"), t)
+
+    def test_brief_retries_stop_after_three_and_a_half_hours(self):
+        self.assertNotIn("war-brief.yml", names("2026-09-20T15:40"))
+
+    def test_night_retries_cross_midnight(self):
+        self.assertIn("war-brief.yml", names("2026-09-20T21:10"))   # המועד של 17:40
+        self.assertNotIn("war-brief.yml", names("2026-09-20T22:10"))
 
     def test_data_every_hour(self):
-        for h in (0, 5, 9, 23):
+        for h in (0, 9, 23):
             self.assertEqual(names(f"2026-09-20T{h:02d}:17"), ["update-data.yml"])
 
     def test_not_before_slot(self):
         self.assertEqual(names("2026-09-20T03:39:59"), [])
         self.assertEqual(names("2026-09-20T04:09"), [])
-        self.assertEqual(names("2026-09-20T04:40"), [])
+        self.assertEqual(names("2026-09-20T09:40"), [])   # אחרי סוף הניסיונות של 03:40
 
     def test_missed_slot_caught_within_window(self):
         self.assertEqual(names("2026-09-20T03:59"), ["war-brief.yml"])

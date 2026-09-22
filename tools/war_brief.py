@@ -189,7 +189,9 @@ def main(argv=None):
     try:
         out = an.llm_json(an.SYSTEM, prompt(per_arena), BRIEF_SCHEMA)
     except Exception as e:
-        return report(f"הבינה נכשלה — העדכון הקודם נשאר: {str(e)[:300]}")
+        # ההודעה מרכזת את כל המודלים שנוסו — לחתוך רק את ההתחלה הסתיר את הגיבוי (22/09/2026)
+        err = " | ".join(dict.fromkeys(str(e).split(" | ")))[:400]
+        return report(f"הבינה נכשלה — העדכון הקודם נשאר: {err}")
 
     from geocode import Geocoder
     geocode = Geocoder()
