@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:57:52+00:00",
-  "fetched_at": "2026-09-22T14:57:52+00:00"
+  "checked_at": "2026-09-22T15:17:20+00:00",
+  "fetched_at": "2026-09-22T15:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:58:06+00:00",
-  "fetched_at": "2026-09-22T14:58:06+00:00"
+  "checked_at": "2026-09-22T15:17:32+00:00",
+  "fetched_at": "2026-09-22T15:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Ace Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/headphones/sonos-ace-ultra",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:58:08+00:00",
-  "fetched_at": "2026-09-22T14:58:08+00:00"
+  "checked_at": "2026-09-22T15:17:35+00:00",
+  "fetched_at": "2026-09-22T15:17:35+00:00"
  },
- "generated_at": "2026-09-22T14:58:08+00:00",
+ "generated_at": "2026-09-22T15:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-22T14:08:00+00:00"
     },
     {
-     "title": "האיתות של איראן: \"מוכנים לפתוח את מצר הורמוז\"",
+     "title": "טראמפ באיום חריף על איראן: \"עסקה או השמדה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T11:57:00+00:00"
+     "date": "2026-09-22T15:13:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:57:53+00:00",
-  "fetched_at": "2026-09-22T14:57:53+00:00"
+  "checked_at": "2026-09-22T15:17:22+00:00",
+  "fetched_at": "2026-09-22T15:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:57:54+00:00",
-  "fetched_at": "2026-09-22T14:57:54+00:00"
+  "checked_at": "2026-09-22T15:17:22+00:00",
+  "fetched_at": "2026-09-22T15:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2279,8 +2279,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:57:56+00:00",
-  "fetched_at": "2026-09-22T14:57:56+00:00"
+  "checked_at": "2026-09-22T15:17:24+00:00",
+  "fetched_at": "2026-09-22T15:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2385,8 +2385,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:57:56+00:00",
-  "fetched_at": "2026-09-22T14:57:56+00:00"
+  "checked_at": "2026-09-22T15:17:24+00:00",
+  "fetched_at": "2026-09-22T15:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2422,28 +2422,28 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 135,
+     "likes": 136,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 119,
+     "likes": 120,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2464,7 +2464,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 119,
+     "likes": 120,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2478,14 +2478,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 72,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:58:05+00:00",
-  "fetched_at": "2026-09-22T14:58:05+00:00"
+  "checked_at": "2026-09-22T15:17:31+00:00",
+  "fetched_at": "2026-09-22T15:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2817,8 +2817,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T14:58:00+00:00",
-  "fetched_at": "2026-09-22T14:58:00+00:00"
+  "checked_at": "2026-09-22T15:17:26+00:00",
+  "fetched_at": "2026-09-22T15:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2849,7 +2849,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T14:58:01+00:00",
-  "fetched_at": "2026-09-22T14:58:01+00:00"
+  "checked_at": "2026-09-22T15:17:27+00:00",
+  "fetched_at": "2026-09-22T15:17:27+00:00"
  }
 };
