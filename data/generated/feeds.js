@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-21",
+   "as_of": "2026-09-22",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-22T02:17:20+00:00",
-  "fetched_at": "2026-09-22T02:17:20+00:00"
+  "checked_at": "2026-09-22T03:17:19+00:00",
+  "fetched_at": "2026-09-22T03:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T02:17:34+00:00",
-  "fetched_at": "2026-09-22T02:17:34+00:00"
+  "checked_at": "2026-09-22T03:17:29+00:00",
+  "fetched_at": "2026-09-22T03:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T02:17:34+00:00",
-  "fetched_at": "2026-09-22T02:17:34+00:00"
+  "checked_at": "2026-09-22T03:17:29+00:00",
+  "fetched_at": "2026-09-22T03:17:29+00:00"
  },
- "generated_at": "2026-09-22T02:17:34+00:00",
+ "generated_at": "2026-09-22T03:17:29+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-21T20:30:00+00:00"
+     "title": "פחות מניות, יותר זהב: ראיון סוער עם מנהל ההשקעות הוותיק יעקב ויינשטיין",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
+     "date": "2026-09-22T02:51:00+00:00"
     },
     {
      "title": "למרות בקשת יורש העצר: טראמפ עצר מתקפה נגד החות'ים",
@@ -99,14 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
+     "date": "2026-09-21T20:30:00+00:00"
+    },
+    {
      "title": "הנאסד\"ק זינק במעל 2% לשיא חדש; מניות השבבים קפצו בהובלת מטא ואינטל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
      "date": "2026-09-21T20:00:00+00:00"
-    },
-    {
-     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-21T18:21:00+00:00"
     },
     {
      "title": "טראמפ תקף את התקשורת האמריקאית. כעת היא משיבה מלחמה",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T02:17:22+00:00",
-  "fetched_at": "2026-09-22T02:17:22+00:00"
+  "checked_at": "2026-09-22T03:17:21+00:00",
+  "fetched_at": "2026-09-22T03:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T02:17:23+00:00",
-  "fetched_at": "2026-09-22T02:17:23+00:00"
+  "checked_at": "2026-09-22T03:17:21+00:00",
+  "fetched_at": "2026-09-22T03:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2284,8 +2284,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T02:17:24+00:00",
-  "fetched_at": "2026-09-22T02:17:24+00:00"
+  "checked_at": "2026-09-22T03:17:23+00:00",
+  "fetched_at": "2026-09-22T03:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2390,19 +2390,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T02:17:24+00:00",
-  "fetched_at": "2026-09-22T02:17:24+00:00"
+  "checked_at": "2026-09-22T03:17:23+00:00",
+  "fetched_at": "2026-09-22T03:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-did-not-disclose-gemini-incident-involving-irregular/",
-     "date": "2026-09-20T06:51:39+00:00",
-     "launch": false,
-     "title": "ג'מיני פרץ ל-3 חברות בבדיקה של חברה ישראלית, וגוגל ניסתה להסתיר את זה"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -2413,14 +2406,16 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 4,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 469,
+     "likes": 468,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2434,7 +2429,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2445,11 +2440,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 111,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 114,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Jev Reproductions Tracker",
@@ -2459,13 +2454,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 113,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
@@ -2473,24 +2461,31 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
-     "title": "MiniCPM5-2B WebGPU Pi",
-     "desc_en": "A coding agent running entirely in your browser",
-     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
-     "likes": 88,
-     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 111,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "MiniCPM5-2B WebGPU Pi",
+     "desc_en": "A coding agent running entirely in your browser",
+     "desc_he": "סוכן קידוד שפועל כולו בדפדפן שלכם",
+     "likes": 88,
+     "link": "https://huggingface.co/spaces/victor/MiniCPM5-2B-WebGPU-Pi"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-22T02:17:32+00:00",
-  "fetched_at": "2026-09-22T02:17:32+00:00"
+  "checked_at": "2026-09-22T03:17:28+00:00",
+  "fetched_at": "2026-09-22T03:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -2833,8 +2828,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-22T02:17:28+00:00",
-  "fetched_at": "2026-09-22T02:17:28+00:00"
+  "checked_at": "2026-09-22T03:17:25+00:00",
+  "fetched_at": "2026-09-22T03:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -2865,7 +2860,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-22T02:17:29+00:00",
-  "fetched_at": "2026-09-22T02:17:29+00:00"
+  "checked_at": "2026-09-22T03:17:26+00:00",
+  "fetched_at": "2026-09-22T03:17:26+00:00"
  }
 };
