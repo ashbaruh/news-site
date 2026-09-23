@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:17:22+00:00",
-  "fetched_at": "2026-09-23T15:17:22+00:00"
+  "checked_at": "2026-09-23T16:17:12+00:00",
+  "fetched_at": "2026-09-23T16:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:17:43+00:00",
-  "fetched_at": "2026-09-23T15:17:43+00:00"
+  "checked_at": "2026-09-23T16:17:25+00:00",
+  "fetched_at": "2026-09-23T16:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:17:45+00:00",
-  "fetched_at": "2026-09-23T15:17:45+00:00"
+  "checked_at": "2026-09-23T16:17:26+00:00",
+  "fetched_at": "2026-09-23T16:17:26+00:00"
  },
- "generated_at": "2026-09-23T15:17:45+00:00",
+ "generated_at": "2026-09-23T16:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
-     "date": "2026-09-23T14:03:00+00:00"
+     "title": "הדרישה של רשות התחרות שעשויה לטרפד את עסקאות המיזוג הבאות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557390",
+     "date": "2026-09-23T16:00:00+00:00"
     },
     {
      "title": "האמירה השקרית של נשיא איראן באו\"ם: \"לא תקפנו אזרחים\"",
@@ -99,19 +99,44 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "מטא מציגה עוזר אישי שיזמין לכם כרטיסי טיסה. האם הוא שווה את הזינוק במניה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557367",
+     "date": "2026-09-23T16:03:00+00:00"
+    },
+    {
+     "title": "הדרישה של רשות התחרות שעשויה לטרפד את עסקאות המיזוג הבאות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557390",
+     "date": "2026-09-23T16:00:00+00:00"
+    },
+    {
+     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T15:44:00+00:00"
+    },
+    {
+     "title": "חברות הנדל\"ן מסד עוז ואמריקה ישראל מתמזגות - ומכוונות לבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557420",
+     "date": "2026-09-23T15:18:00+00:00"
+    },
+    {
+     "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557355",
+     "date": "2026-09-23T14:53:00+00:00"
+    },
+    {
+     "title": "נעילה שלילית בת\"א: מדדי הנדל\"ן והביטוח בלטו לרעה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T14:38:00+00:00"
+    },
+    {
+     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
+     "date": "2026-09-23T14:03:00+00:00"
+    },
+    {
      "title": "המיליארדים שזרמו והשיא של הביטקוין מאותתים: שוק הקריפטו מנסה להוכיח שהתבגר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557038",
      "date": "2026-09-23T13:25:00+00:00"
-    },
-    {
-     "title": "הירידות בתל אביב מתמתנות: מניב חו\"ל מכביד, האנרגיה קופצת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T12:58:00+00:00"
-    },
-    {
-     "title": "ירידות קלות בחוזים בוול סטריט; עליות בתשואות האג\"ח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T12:39:00+00:00"
     },
     {
      "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
@@ -142,11 +167,6 @@ window.DB.generated = {
      "title": "עוד 120 ליש\"ט לחופשה? המס החדש שמסעיר את בריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557151",
      "date": "2026-09-23T09:51:00+00:00"
-    },
-    {
-     "title": "אושר ניהול ייצוגית נגד הבנקים: לא שילמו ריבית על יתרות זכות בעו\"ש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557126",
-     "date": "2026-09-23T09:41:00+00:00"
     },
     {
      "title": "בדרך לחלוקת דיבידנד של חצי מיליארד שקל: פרטנר קונה את כל המתנגדים",
@@ -184,11 +204,6 @@ window.DB.generated = {
      "date": "2026-09-23T03:04:00+00:00"
     },
     {
-     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
-     "date": "2026-09-23T03:00:00+00:00"
-    },
-    {
      "title": "וול סטריט נכנסת לרבעון החזק בשנה, הפד עלול לקלקל אותו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556981",
      "date": "2026-09-23T02:59:00+00:00"
@@ -202,22 +217,12 @@ window.DB.generated = {
      "title": "נעילה מעורבת בוול סטריט: הנאסד\"ק קבע שיא תוך-יומי חדש; מחירי הנפט בשפל של שבועיים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
      "date": "2026-09-22T20:13:00+00:00"
-    },
-    {
-     "title": "באפט פורש סופית: המספרים שכדאי להכיר והתקווה למשקיעים מעל גיל 50",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557061",
-     "date": "2026-09-22T18:00:00+00:00"
-    },
-    {
-     "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
-     "date": "2026-09-22T02:53:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:17:24+00:00",
-  "fetched_at": "2026-09-23T15:17:24+00:00"
+  "checked_at": "2026-09-23T16:17:14+00:00",
+  "fetched_at": "2026-09-23T16:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:17:25+00:00",
-  "fetched_at": "2026-09-23T15:17:25+00:00"
+  "checked_at": "2026-09-23T16:17:15+00:00",
+  "fetched_at": "2026-09-23T16:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:17:26+00:00",
-  "fetched_at": "2026-09-23T15:17:26+00:00"
+  "checked_at": "2026-09-23T16:17:16+00:00",
+  "fetched_at": "2026-09-23T16:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:17:26+00:00",
-  "fetched_at": "2026-09-23T15:17:26+00:00"
+  "checked_at": "2026-09-23T16:17:16+00:00",
+  "fetched_at": "2026-09-23T16:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2443,16 +2448,16 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-     "date": "2026-09-22T21:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+     "date": "2026-09-23T15:25:14+00:00",
      "launch": true,
-     "title_en": "Better prompt caching for GPT-6",
-     "title_he": "מטמון הודעות טוב יותר עבור GPT-6",
+     "title_en": "Gemini 3.8 text-to-speech says hello",
+     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
+   "candidates": 13,
    "failed_sources": [],
    "tools": [
     {
@@ -2466,7 +2471,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 152,
+     "likes": 153,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2480,15 +2485,8 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 123,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 130,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2496,6 +2494,13 @@ window.DB.generated = {
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 117,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 130,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2528,12 +2533,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:17:35+00:00",
-  "fetched_at": "2026-09-23T15:17:35+00:00"
+  "checked_at": "2026-09-23T16:17:24+00:00",
+  "fetched_at": "2026-09-23T16:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מנור סולומון הותקל באמירת נשיא אוסטריה, כך הוא השיב",
+     "link": "https://sports.walla.co.il/item/3869560",
+     "date": "2026-09-23T16:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "יעל ארד לנבחרת: \"שמרו על ספורטיביות, אל תיגררו לפרובוקציות\"",
      "link": "https://sports.walla.co.il/item/3869494",
@@ -2602,15 +2616,6 @@ window.DB.generated = {
      "title": "בהולנד קטלו את גלוך בעיתוי מוזר: \"עסוק בהצלחה האישית שלו\"",
      "link": "https://sports.walla.co.il/item/3869315",
      "date": "2026-09-22T10:25:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "בפסגת הליגה ההולנדית: הנתון המרשים של אוסקר גלוך",
-     "link": "https://sports.walla.co.il/item/3869311",
-     "date": "2026-09-22T10:04:00+00:00",
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
@@ -2853,8 +2858,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:17:30+00:00",
-  "fetched_at": "2026-09-23T15:17:30+00:00"
+  "checked_at": "2026-09-23T16:17:19+00:00",
+  "fetched_at": "2026-09-23T16:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2885,7 +2890,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:17:31+00:00",
-  "fetched_at": "2026-09-23T15:17:31+00:00"
+  "checked_at": "2026-09-23T16:17:19+00:00",
+  "fetched_at": "2026-09-23T16:17:19+00:00"
  }
 };
