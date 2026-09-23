@@ -51,6 +51,10 @@
 28.899,
 48.1505
 ],
+"ayta al-jabal, lebanon": [
+33.1745,
+35.4094
+],
 "ayyash, syria": [
 35.6738,
 36.0252
@@ -76,6 +80,7 @@
 36.8398
 ],
 "bani hayyan, lebanon": null,
+"bar'ashit, lebanon": null,
 "beijing, china": [
 39.9057,
 116.3913
@@ -89,6 +94,10 @@
 35.5026
 ],
 "bekaa, lebanon": null,
+"black sea": [
+43.8728,
+33.9938
+],
 "boryspil, ukraine": [
 50.3512,
 30.9508
@@ -331,6 +340,7 @@
 55.7505,
 37.6175
 ],
+"mount dov, israel": null,
 "mount hermon, syria": [
 33.4169,
 35.8564
