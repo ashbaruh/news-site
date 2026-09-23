@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T21:17:16+00:00",
-  "fetched_at": "2026-09-23T21:17:16+00:00"
+  "checked_at": "2026-09-23T22:17:21+00:00",
+  "fetched_at": "2026-09-23T22:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T21:17:27+00:00",
-  "fetched_at": "2026-09-23T21:17:27+00:00"
+  "checked_at": "2026-09-23T22:17:37+00:00",
+  "fetched_at": "2026-09-23T22:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T21:17:27+00:00",
-  "fetched_at": "2026-09-23T21:17:27+00:00"
+  "checked_at": "2026-09-23T22:17:37+00:00",
+  "fetched_at": "2026-09-23T22:17:37+00:00"
  },
- "generated_at": "2026-09-23T21:17:27+00:00",
+ "generated_at": "2026-09-23T22:17:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T21:17:17+00:00",
-  "fetched_at": "2026-09-23T21:17:17+00:00"
+  "checked_at": "2026-09-23T22:17:22+00:00",
+  "fetched_at": "2026-09-23T22:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T21:17:17+00:00",
-  "fetched_at": "2026-09-23T21:17:17+00:00"
+  "checked_at": "2026-09-23T22:17:24+00:00",
+  "fetched_at": "2026-09-23T22:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2314,8 +2314,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T21:17:19+00:00",
-  "fetched_at": "2026-09-23T21:17:19+00:00"
+  "checked_at": "2026-09-23T22:17:25+00:00",
+  "fetched_at": "2026-09-23T22:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2420,8 +2420,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T21:17:19+00:00",
-  "fetched_at": "2026-09-23T21:17:19+00:00"
+  "checked_at": "2026-09-23T22:17:25+00:00",
+  "fetched_at": "2026-09-23T22:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2434,17 +2434,19 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-     "date": "2026-09-23T15:25:14+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 3.8 text-to-speech says hello",
-     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 14,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Laya Demo",
@@ -2506,7 +2508,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 87,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2519,8 +2521,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T21:17:25+00:00",
-  "fetched_at": "2026-09-23T21:17:25+00:00"
+  "checked_at": "2026-09-23T22:17:36+00:00",
+  "fetched_at": "2026-09-23T22:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2844,8 +2846,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T21:17:21+00:00",
-  "fetched_at": "2026-09-23T21:17:21+00:00"
+  "checked_at": "2026-09-23T22:17:30+00:00",
+  "fetched_at": "2026-09-23T22:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2876,7 +2878,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T21:17:22+00:00",
-  "fetched_at": "2026-09-23T21:17:22+00:00"
+  "checked_at": "2026-09-23T22:17:31+00:00",
+  "fetched_at": "2026-09-23T22:17:31+00:00"
  }
 };
