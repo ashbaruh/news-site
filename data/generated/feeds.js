@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:17:28+00:00",
-  "fetched_at": "2026-09-23T19:17:28+00:00"
+  "checked_at": "2026-09-23T20:17:12+00:00",
+  "fetched_at": "2026-09-23T20:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:17:39+00:00",
-  "fetched_at": "2026-09-23T19:17:39+00:00"
+  "checked_at": "2026-09-23T20:17:21+00:00",
+  "fetched_at": "2026-09-23T20:17:21+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Wireless headphones are about to get even more advanced with Qualcomm’s latest Snapdragon Sound tech",
+    "title_he": "אוזניות אלחוטיות עומדות להתקדם עוד יותר עם הטכנולוגיה העדכנית ביותר של Snapdragon Sound של קוואלקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/wireless-headphones-are-about-to-get-even-more-advanced-with-qualcomms-latest-snapdragon-sound-tech",
+    "date": "2026-09-23T19:30:00+00:00"
+   },
    {
     "title_en": "New issue of What Hi-Fi? out now: it's a bumper 50th Anniversary special!",
     "title_he": "גיליון חדש של What Hi-Fi? יצא עכשיו: זה מבצע מיוחד ליום השנה ה-50!",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/cd-players/fiios-new-cd-player-wants-to-do-it-all-with-a-dac-pre-amplifier-and-more",
     "date": "2026-09-23T12:03:04+00:00"
-   },
-   {
-    "title_en": "Tired of charging your speaker every weekend? This half-price, Award-winning JBL with a 24-hour battery will outlast even your longest party",
-    "title_he": "נמאס לכם להטעין את הרמקול שלכם בכל סוף שבוע? JBL עטור הפרסים בחצי מחיר זה עם סוללה של 24 שעות יחזיק מעמד אפילו את המסיבה הארוכה ביותר שלך",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/tired-of-charging-your-speaker-every-weekend-this-half-price-award-winning-jbl-with-a-24-hour-battery-will-outlast-even-your-longest-party",
-    "date": "2026-09-23T11:39:04+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:17:39+00:00",
-  "fetched_at": "2026-09-23T19:17:39+00:00"
+  "checked_at": "2026-09-23T20:17:22+00:00",
+  "fetched_at": "2026-09-23T20:17:22+00:00"
  },
- "generated_at": "2026-09-23T19:17:39+00:00",
+ "generated_at": "2026-09-23T20:17:22+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "נריה לייטר, בנו של שגריר ישראל בארה\"ב, נפצע קשה בפיגוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T19:06:00+00:00"
+     "date": "2026-09-23T20:03:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:17:29+00:00",
-  "fetched_at": "2026-09-23T19:17:29+00:00"
+  "checked_at": "2026-09-23T20:17:13+00:00",
+  "fetched_at": "2026-09-23T20:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:17:30+00:00",
-  "fetched_at": "2026-09-23T19:17:30+00:00"
+  "checked_at": "2026-09-23T20:17:14+00:00",
+  "fetched_at": "2026-09-23T20:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:17:31+00:00",
-  "fetched_at": "2026-09-23T19:17:31+00:00"
+  "checked_at": "2026-09-23T20:17:14+00:00",
+  "fetched_at": "2026-09-23T20:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:17:31+00:00",
-  "fetched_at": "2026-09-23T19:17:31+00:00"
+  "checked_at": "2026-09-23T20:17:14+00:00",
+  "fetched_at": "2026-09-23T20:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2464,7 +2464,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 168,
+     "likes": 169,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2485,14 +2485,14 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 122,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2513,7 +2513,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 168,
+     "likes": 169,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2533,8 +2533,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:17:38+00:00",
-  "fetched_at": "2026-09-23T19:17:38+00:00"
+  "checked_at": "2026-09-23T20:17:20+00:00",
+  "fetched_at": "2026-09-23T20:17:20+00:00"
  },
  "abroad": {
   "data": {
@@ -2652,15 +2652,6 @@ window.DB.generated = {
      "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3868647",
      "date": "2026-09-17T05:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "כך דני אבדיה ימקסם רווחים בדרך לחוזה עתק ב-NBA",
-     "link": "https://sports.walla.co.il/item/3868373",
-     "date": "2026-09-16T19:19:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2867,8 +2858,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:17:34+00:00",
-  "fetched_at": "2026-09-23T19:17:34+00:00"
+  "checked_at": "2026-09-23T20:17:17+00:00",
+  "fetched_at": "2026-09-23T20:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -2899,7 +2890,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:17:35+00:00",
-  "fetched_at": "2026-09-23T19:17:35+00:00"
+  "checked_at": "2026-09-23T20:17:17+00:00",
+  "fetched_at": "2026-09-23T20:17:17+00:00"
  }
 };
