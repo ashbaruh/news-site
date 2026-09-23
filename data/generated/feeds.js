@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T17:17:23+00:00",
-  "fetched_at": "2026-09-23T17:17:23+00:00"
+  "checked_at": "2026-09-23T18:17:24+00:00",
+  "fetched_at": "2026-09-23T18:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T17:17:34+00:00",
-  "fetched_at": "2026-09-23T17:17:34+00:00"
+  "checked_at": "2026-09-23T18:17:39+00:00",
+  "fetched_at": "2026-09-23T18:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,34 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T17:17:36+00:00",
-  "fetched_at": "2026-09-23T17:17:36+00:00"
+  "checked_at": "2026-09-23T18:17:39+00:00",
+  "fetched_at": "2026-09-23T18:17:39+00:00"
  },
- "generated_at": "2026-09-23T17:17:36+00:00",
+ "generated_at": "2026-09-23T18:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T16:32:00+00:00"
+     "title": "איש השב\"כ שלקח חברה מדשדשת והביא אותה לשווי של יותר מ־2 מיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557361",
+     "date": "2026-09-23T18:00:00+00:00"
     },
     {
      "title": "האמירה השקרית של נשיא איראן באו\"ם: \"לא תקפנו אזרחים\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T16:51:00+00:00"
+     "date": "2026-09-23T17:57:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T17:25:00+00:00"
+    },
+    {
      "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
      "date": "2026-09-23T16:36:00+00:00"
-    },
-    {
-     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T16:32:00+00:00"
     },
     {
      "title": "מטא מציגה עוזר אישי שיזמין לכם כרטיסי טיסה. האם הוא שווה את הזינוק במניה?",
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T17:17:24+00:00",
-  "fetched_at": "2026-09-23T17:17:24+00:00"
+  "checked_at": "2026-09-23T18:17:25+00:00",
+  "fetched_at": "2026-09-23T18:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T17:17:24+00:00",
-  "fetched_at": "2026-09-23T17:17:24+00:00"
+  "checked_at": "2026-09-23T18:17:25+00:00",
+  "fetched_at": "2026-09-23T18:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2323,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T17:17:26+00:00",
-  "fetched_at": "2026-09-23T17:17:26+00:00"
+  "checked_at": "2026-09-23T18:17:27+00:00",
+  "fetched_at": "2026-09-23T18:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2429,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T17:17:26+00:00",
-  "fetched_at": "2026-09-23T17:17:26+00:00"
+  "checked_at": "2026-09-23T18:17:27+00:00",
+  "fetched_at": "2026-09-23T18:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2452,28 +2452,28 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 15,
    "failed_sources": [],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 167,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 154,
+     "likes": 157,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 511,
+     "likes": 512,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2494,7 +2494,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 117,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2528,12 +2528,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T17:17:34+00:00",
-  "fetched_at": "2026-09-23T17:17:34+00:00"
+  "checked_at": "2026-09-23T18:17:34+00:00",
+  "fetched_at": "2026-09-23T18:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סובוסלאי לא שכח את דאבור: \"הוא היה שם בשבילי בכל יום\"",
+     "link": "https://sports.walla.co.il/item/3869580",
+     "date": "2026-09-23T17:47:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מונס דאבור"
+     ]
+    },
     {
      "title": "סולומון: פשעי מלחמה? אני כאן כדי לשחק כדורגל",
      "link": "https://www.one.co.il/Article/534138.html?ref=rss",
@@ -2595,15 +2604,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "חיים רביבו על עסקת רוי רביבו לאלצ'ה: \"כולם הפסידו בה\"",
-     "link": "https://sports.walla.co.il/item/3869368",
-     "date": "2026-09-22T13:22:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2843,8 +2843,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T17:17:29+00:00",
-  "fetched_at": "2026-09-23T17:17:29+00:00"
+  "checked_at": "2026-09-23T18:17:30+00:00",
+  "fetched_at": "2026-09-23T18:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2875,7 +2875,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T17:17:30+00:00",
-  "fetched_at": "2026-09-23T17:17:30+00:00"
+  "checked_at": "2026-09-23T18:17:30+00:00",
+  "fetched_at": "2026-09-23T18:17:30+00:00"
  }
 };
