@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T09:17:17+00:00",
-  "fetched_at": "2026-09-23T09:17:17+00:00"
+  "checked_at": "2026-09-23T10:04:33+00:00",
+  "fetched_at": "2026-09-23T10:04:33+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T09:17:29+00:00",
-  "fetched_at": "2026-09-23T09:17:29+00:00"
+  "checked_at": "2026-09-23T10:04:46+00:00",
+  "fetched_at": "2026-09-23T10:04:46+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T09:17:30+00:00",
-  "fetched_at": "2026-09-23T09:17:30+00:00"
+  "checked_at": "2026-09-23T10:04:46+00:00",
+  "fetched_at": "2026-09-23T10:04:46+00:00"
  },
- "generated_at": "2026-09-23T09:17:30+00:00",
+ "generated_at": "2026-09-23T10:04:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,31 +92,56 @@ window.DB.generated = {
      "date": "2026-09-23T07:02:00+00:00"
     },
     {
-     "title": "מכה אנושה לאיראן: אחרי הים - סוגרים את השמיים שלה",
+     "title": "עלות של 2.5 מיליארד: תוכנית הענק של טראמפ לעזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T09:02:00+00:00"
+     "date": "2026-09-23T09:37:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "הירידות בתל אביב מעמיקות בהובלת מניות הבנקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T09:58:00+00:00"
+    },
+    {
+     "title": "מס תיירים: ממשלת בריטניה תאפשר לראשי ערים למסות לינה בבתי מלון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557151",
+     "date": "2026-09-23T09:51:00+00:00"
+    },
+    {
+     "title": "אושר ניהול ייצוגית נגד הבנקים: לא שילמו ריבית על יתרות זכות בעו\"ש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557126",
+     "date": "2026-09-23T09:41:00+00:00"
+    },
+    {
+     "title": "בדרך לחלוקת דיבידנד של חצי מיליארד שקל פרטנר קונה את כל המתנגדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557152",
+     "date": "2026-09-23T09:39:00+00:00"
+    },
+    {
+     "title": "רגע לפני ההנפקה קרפור ממנה יו\"ר אחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557122",
+     "date": "2026-09-23T09:24:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת באירופה; מחיר נפט מסוג ברנט חזר לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T09:17:00+00:00"
+    },
     {
      "title": "דוראל ואמפא בתחזית אופטימית לגבי חוות השרתים בהר טוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557121",
      "date": "2026-09-23T09:06:00+00:00"
     },
     {
-     "title": "ירידות בתל אביב בהובלת מניות הבנקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T08:34:00+00:00"
+     "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
+     "date": "2026-09-23T08:33:00+00:00"
     },
     {
      "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
      "date": "2026-09-23T07:51:00+00:00"
-    },
-    {
-     "title": "עליות קלות באירופה ובחוזים בניו יורק; מחירי הנפט יורדים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T07:31:00+00:00"
     },
     {
      "title": "בעיצומו של המשבר: מיטרוניקס מבצעת ריקול למוצר מחשש לשריפה",
@@ -169,21 +194,6 @@ window.DB.generated = {
      "date": "2026-09-22T18:00:00+00:00"
     },
     {
-     "title": "עם הגב לקיר: אחרי פיצוץ העסקה - מה יעשה בנק דיסקונט?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557020",
-     "date": "2026-09-22T17:06:00+00:00"
-    },
-    {
-     "title": "רשות התחרות מטרפדת את עסקת כאל: דורשת מיוניון למכור מניותיה בסופר-פארם נגד רצונה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557003",
-     "date": "2026-09-22T17:05:00+00:00"
-    },
-    {
-     "title": "החשבון שלו הראה יתרה של 20 מיליון דולר, אבל הוא לא הצליח למשוך אותם",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556963",
-     "date": "2026-09-22T16:13:00+00:00"
-    },
-    {
      "title": "בת המהגרים שסחפה את ברלין בצל סקנדלים אנטישמיים במפלגתה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557042",
      "date": "2026-09-22T15:20:00+00:00"
@@ -209,25 +219,15 @@ window.DB.generated = {
      "date": "2026-09-22T04:19:00+00:00"
     },
     {
-     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-22T03:12:00+00:00"
-    },
-    {
      "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
      "date": "2026-09-22T02:53:00+00:00"
-    },
-    {
-     "title": "בגיל 76 הסוחר הוותיק עדיין נהנה מכל רגע ומזהיר ממה שעומד לקרות בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
-     "date": "2026-09-22T02:51:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T09:17:18+00:00",
-  "fetched_at": "2026-09-23T09:17:18+00:00"
+  "checked_at": "2026-09-23T10:04:34+00:00",
+  "fetched_at": "2026-09-23T10:04:34+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T09:17:19+00:00",
-  "fetched_at": "2026-09-23T09:17:19+00:00"
+  "checked_at": "2026-09-23T10:04:35+00:00",
+  "fetched_at": "2026-09-23T10:04:35+00:00"
  },
  "tv": {
   "data": [
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T09:17:21+00:00",
-  "fetched_at": "2026-09-23T09:17:21+00:00"
+  "checked_at": "2026-09-23T10:04:37+00:00",
+  "fetched_at": "2026-09-23T10:04:37+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2439,8 +2439,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T09:17:21+00:00",
-  "fetched_at": "2026-09-23T09:17:21+00:00"
+  "checked_at": "2026-09-23T10:04:37+00:00",
+  "fetched_at": "2026-09-23T10:04:37+00:00"
  },
  "ai": {
   "data": {
@@ -2476,7 +2476,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 143,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2511,7 +2511,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 116,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2538,8 +2538,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T09:17:28+00:00",
-  "fetched_at": "2026-09-23T09:17:28+00:00"
+  "checked_at": "2026-09-23T10:04:45+00:00",
+  "fetched_at": "2026-09-23T10:04:45+00:00"
  },
  "abroad": {
   "data": {
@@ -2872,8 +2872,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T09:17:24+00:00",
-  "fetched_at": "2026-09-23T09:17:24+00:00"
+  "checked_at": "2026-09-23T10:04:41+00:00",
+  "fetched_at": "2026-09-23T10:04:41+00:00"
  },
  "idf": {
   "data": [
@@ -2904,7 +2904,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T09:17:24+00:00",
-  "fetched_at": "2026-09-23T09:17:24+00:00"
+  "checked_at": "2026-09-23T10:04:42+00:00",
+  "fetched_at": "2026-09-23T10:04:42+00:00"
  }
 };
