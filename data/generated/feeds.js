@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-22",
+   "as_of": "2026-09-23",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T02:17:12+00:00",
-  "fetched_at": "2026-09-23T02:17:12+00:00"
+  "checked_at": "2026-09-23T03:17:23+00:00",
+  "fetched_at": "2026-09-23T03:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T02:17:24+00:00",
-  "fetched_at": "2026-09-23T02:17:24+00:00"
+  "checked_at": "2026-09-23T03:17:34+00:00",
+  "fetched_at": "2026-09-23T03:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T02:17:25+00:00",
-  "fetched_at": "2026-09-23T02:17:25+00:00"
+  "checked_at": "2026-09-23T03:17:36+00:00",
+  "fetched_at": "2026-09-23T03:17:36+00:00"
  },
- "generated_at": "2026-09-23T02:17:25+00:00",
+ "generated_at": "2026-09-23T03:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "באפט פורש סופית: המספרים שכדאי להכיר והתקווה למשקיעים מעל גיל 50",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557061",
-     "date": "2026-09-22T18:00:00+00:00"
+     "title": "יותר מבוקשת מכיפת ברזל: מערכת ההגנה האנונימית שהפכה ללהיט באירופה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
+     "date": "2026-09-23T02:57:00+00:00"
     },
     {
      "title": "טראמפ: \"יש תנופה משמעותית לקראת הסכם עם איראן\"",
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בוול סטריט: הנאסד\"ק ממשיך לטפס, הפיננסים מכבידים על הדאו ג'ונס",
+     "title": "נעילה מעורבת בוול סטריט: הנאסד\"ק קבע שיא תוך-יומי חדש; מחירי הנפט בשפל של שבועיים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T18:42:00+00:00"
+     "date": "2026-09-22T20:13:00+00:00"
     },
     {
      "title": "באפט פורש סופית: המספרים שכדאי להכיר והתקווה למשקיעים מעל גיל 50",
@@ -212,17 +212,12 @@ window.DB.generated = {
      "title": "כל הנורות האדומות נדלקות - אבל וול סטריט עדיין לא נבהלת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556949",
      "date": "2026-09-20T05:34:00+00:00"
-    },
-    {
-     "title": "המומחה שמזהיר: \"תשואות הענק בבורסה מאחורינו\" - ועוד 4 כתבות על המצב בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556745",
-     "date": "2026-09-19T13:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T02:17:13+00:00",
-  "fetched_at": "2026-09-23T02:17:13+00:00"
+  "checked_at": "2026-09-23T03:17:24+00:00",
+  "fetched_at": "2026-09-23T03:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T02:17:14+00:00",
-  "fetched_at": "2026-09-23T02:17:14+00:00"
+  "checked_at": "2026-09-23T03:17:25+00:00",
+  "fetched_at": "2026-09-23T03:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2272,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T02:17:16+00:00",
-  "fetched_at": "2026-09-23T02:17:16+00:00"
+  "checked_at": "2026-09-23T03:17:26+00:00",
+  "fetched_at": "2026-09-23T03:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2378,8 +2373,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T02:17:16+00:00",
-  "fetched_at": "2026-09-23T02:17:16+00:00"
+  "checked_at": "2026-09-23T03:17:26+00:00",
+  "fetched_at": "2026-09-23T03:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2422,7 +2417,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 137,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2436,49 +2431,49 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 165,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 113,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 114,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 80,
+     "likes": 81,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 72,
+     "likes": 74,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T02:17:23+00:00",
-  "fetched_at": "2026-09-23T02:17:23+00:00"
+  "checked_at": "2026-09-23T03:17:34+00:00",
+  "fetched_at": "2026-09-23T03:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2783,8 +2778,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T02:17:19+00:00",
-  "fetched_at": "2026-09-23T02:17:19+00:00"
+  "checked_at": "2026-09-23T03:17:29+00:00",
+  "fetched_at": "2026-09-23T03:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2815,7 +2810,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T02:17:20+00:00",
-  "fetched_at": "2026-09-23T02:17:20+00:00"
+  "checked_at": "2026-09-23T03:17:30+00:00",
+  "fetched_at": "2026-09-23T03:17:30+00:00"
  }
 };
