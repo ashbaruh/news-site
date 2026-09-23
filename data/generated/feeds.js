@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:04:56+00:00",
-  "fetched_at": "2026-09-23T19:04:56+00:00"
+  "checked_at": "2026-09-23T19:17:28+00:00",
+  "fetched_at": "2026-09-23T19:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:05:08+00:00",
-  "fetched_at": "2026-09-23T19:05:08+00:00"
+  "checked_at": "2026-09-23T19:17:39+00:00",
+  "fetched_at": "2026-09-23T19:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:05:08+00:00",
-  "fetched_at": "2026-09-23T19:05:08+00:00"
+  "checked_at": "2026-09-23T19:17:39+00:00",
+  "fetched_at": "2026-09-23T19:17:39+00:00"
  },
- "generated_at": "2026-09-23T19:05:08+00:00",
+ "generated_at": "2026-09-23T19:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-23T18:00:00+00:00"
     },
     {
-     "title": "האמירה השקרית של נשיא איראן באו\"ם: \"לא תקפנו אזרחים\"",
+     "title": "נריה לייטר, בנו של שגריר ישראל בארה\"ב, נפצע קשה בפיגוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T17:57:00+00:00"
+     "date": "2026-09-23T19:06:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:04:57+00:00",
-  "fetched_at": "2026-09-23T19:04:57+00:00"
+  "checked_at": "2026-09-23T19:17:29+00:00",
+  "fetched_at": "2026-09-23T19:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:04:58+00:00",
-  "fetched_at": "2026-09-23T19:04:58+00:00"
+  "checked_at": "2026-09-23T19:17:30+00:00",
+  "fetched_at": "2026-09-23T19:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:04:59+00:00",
-  "fetched_at": "2026-09-23T19:04:59+00:00"
+  "checked_at": "2026-09-23T19:17:31+00:00",
+  "fetched_at": "2026-09-23T19:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:04:59+00:00",
-  "fetched_at": "2026-09-23T19:04:59+00:00"
+  "checked_at": "2026-09-23T19:17:31+00:00",
+  "fetched_at": "2026-09-23T19:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2492,14 +2492,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 121,
+     "likes": 122,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 134,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2533,8 +2533,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:05:07+00:00",
-  "fetched_at": "2026-09-23T19:05:07+00:00"
+  "checked_at": "2026-09-23T19:17:38+00:00",
+  "fetched_at": "2026-09-23T19:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2867,8 +2867,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T19:05:02+00:00",
-  "fetched_at": "2026-09-23T19:05:02+00:00"
+  "checked_at": "2026-09-23T19:17:34+00:00",
+  "fetched_at": "2026-09-23T19:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -2899,7 +2899,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T19:05:03+00:00",
-  "fetched_at": "2026-09-23T19:05:03+00:00"
+  "checked_at": "2026-09-23T19:17:35+00:00",
+  "fetched_at": "2026-09-23T19:17:35+00:00"
  }
 };
