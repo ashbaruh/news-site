@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:03:13+00:00",
-  "fetched_at": "2026-09-23T15:03:13+00:00"
+  "checked_at": "2026-09-23T15:17:22+00:00",
+  "fetched_at": "2026-09-23T15:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:03:32+00:00",
-  "fetched_at": "2026-09-23T15:03:32+00:00"
+  "checked_at": "2026-09-23T15:17:43+00:00",
+  "fetched_at": "2026-09-23T15:17:43+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "The Sonos Beam Ultra is great, but where are all the good new cheap Dolby Atmos soundbars hiding?",
+    "title_he": "Sonos Beam Ultra הוא מעולה, אבל איפה מסתתרים כל סרגלי הקול הזולים החדשים והטובים של Dolby Atmos?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-great-but-where-are-all-the-good-new-cheap-dolby-atmos-soundbars-hiding",
+    "date": "2026-09-23T15:01:42+00:00"
+   },
    {
     "title_en": "FiiO’s new CD player wants to do it all – with a DAC, pre-amplifier and more",
     "title_he": "נגן התקליטורים החדש של FiiO רוצה לעשות הכל - עם DAC, מגבר קדם ועוד",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/are-good-hi-fi-and-home-cinema-sound-the-same-thing",
     "date": "2026-09-23T08:25:12+00:00"
-   },
-   {
-    "title_en": "It's official: Beats’ new flagship wireless headphones are here, and they are pitched as the brand’s best-sounding cans ever",
-    "title_he": "זה רשמי: אוזניות הדגל האלחוטיות החדשות של Beats כבר כאן, והן מוצגות בתור הפחיות שנשמעו הכי טוב של המותג אי פעם",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/its-official-beats-new-flagship-wireless-headphones-are-here-and-theyre-pitched-as-the-brands-best-sounding-cans-ever",
-    "date": "2026-09-22T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:03:33+00:00",
-  "fetched_at": "2026-09-23T15:03:33+00:00"
+  "checked_at": "2026-09-23T15:17:45+00:00",
+  "fetched_at": "2026-09-23T15:17:45+00:00"
  },
- "generated_at": "2026-09-23T15:03:33+00:00",
+ "generated_at": "2026-09-23T15:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:03:14+00:00",
-  "fetched_at": "2026-09-23T15:03:14+00:00"
+  "checked_at": "2026-09-23T15:17:24+00:00",
+  "fetched_at": "2026-09-23T15:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:03:15+00:00",
-  "fetched_at": "2026-09-23T15:03:15+00:00"
+  "checked_at": "2026-09-23T15:17:25+00:00",
+  "fetched_at": "2026-09-23T15:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2323,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:03:16+00:00",
-  "fetched_at": "2026-09-23T15:03:16+00:00"
+  "checked_at": "2026-09-23T15:17:26+00:00",
+  "fetched_at": "2026-09-23T15:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2429,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:03:16+00:00",
-  "fetched_at": "2026-09-23T15:03:16+00:00"
+  "checked_at": "2026-09-23T15:17:26+00:00",
+  "fetched_at": "2026-09-23T15:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2528,8 +2528,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:03:31+00:00",
-  "fetched_at": "2026-09-23T15:03:31+00:00"
+  "checked_at": "2026-09-23T15:17:35+00:00",
+  "fetched_at": "2026-09-23T15:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -2853,8 +2853,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T15:03:18+00:00",
-  "fetched_at": "2026-09-23T15:03:18+00:00"
+  "checked_at": "2026-09-23T15:17:30+00:00",
+  "fetched_at": "2026-09-23T15:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2885,7 +2885,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T15:03:19+00:00",
-  "fetched_at": "2026-09-23T15:03:19+00:00"
+  "checked_at": "2026-09-23T15:17:31+00:00",
+  "fetched_at": "2026-09-23T15:17:31+00:00"
  }
 };
