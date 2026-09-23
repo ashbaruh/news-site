@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T08:17:26+00:00",
-  "fetched_at": "2026-09-23T08:17:26+00:00"
+  "checked_at": "2026-09-23T09:17:17+00:00",
+  "fetched_at": "2026-09-23T09:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T08:17:38+00:00",
-  "fetched_at": "2026-09-23T08:17:38+00:00"
+  "checked_at": "2026-09-23T09:17:29+00:00",
+  "fetched_at": "2026-09-23T09:17:29+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Are good hi-fi and home cinema sound the same thing?",
+    "title_he": "האם Hi-Fi טוב וקולנוע ביתי נשמעים אותו הדבר?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/are-good-hi-fi-and-home-cinema-sound-the-same-thing",
+    "date": "2026-09-23T08:25:12+00:00"
+   },
    {
     "title_en": "It's official: Beats’ new flagship wireless headphones are here, and they are pitched as the brand’s best-sounding cans ever",
     "title_he": "זה רשמי: אוזניות הדגל האלחוטיות החדשות של Beats כבר כאן, והן מוצגות בתור הפחיות שנשמעו הכי טוב של המותג אי פעם",
@@ -64,13 +71,6 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
     "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
     "translated_by": "google",
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T08:17:40+00:00",
-  "fetched_at": "2026-09-23T08:17:40+00:00"
+  "checked_at": "2026-09-23T09:17:30+00:00",
+  "fetched_at": "2026-09-23T09:17:30+00:00"
  },
- "generated_at": "2026-09-23T08:17:40+00:00",
+ "generated_at": "2026-09-23T09:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,19 +94,24 @@ window.DB.generated = {
     {
      "title": "מכה אנושה לאיראן: אחרי הים - סוגרים את השמיים שלה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T08:12:00+00:00"
+     "date": "2026-09-23T09:02:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "דוראל ואמפא בתחזית אופטימית לגבי חוות השרתים בהר טוב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557121",
+     "date": "2026-09-23T09:06:00+00:00"
+    },
+    {
+     "title": "ירידות בתל אביב בהובלת מניות הבנקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T08:34:00+00:00"
+    },
+    {
      "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
      "date": "2026-09-23T07:51:00+00:00"
-    },
-    {
-     "title": "יציבות בתל אביב; מניות השבבים מטפסות, מניות הבנקים יורדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T07:35:00+00:00"
     },
     {
      "title": "עליות קלות באירופה ובחוזים בניו יורק; מחירי הנפט יורדים",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T08:17:28+00:00",
-  "fetched_at": "2026-09-23T08:17:28+00:00"
+  "checked_at": "2026-09-23T09:17:18+00:00",
+  "fetched_at": "2026-09-23T09:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T08:17:29+00:00",
-  "fetched_at": "2026-09-23T08:17:29+00:00"
+  "checked_at": "2026-09-23T09:17:19+00:00",
+  "fetched_at": "2026-09-23T09:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2333,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T08:17:30+00:00",
-  "fetched_at": "2026-09-23T08:17:30+00:00"
+  "checked_at": "2026-09-23T09:17:21+00:00",
+  "fetched_at": "2026-09-23T09:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2439,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T08:17:30+00:00",
-  "fetched_at": "2026-09-23T08:17:30+00:00"
+  "checked_at": "2026-09-23T09:17:21+00:00",
+  "fetched_at": "2026-09-23T09:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -2457,21 +2462,21 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 10,
    "failed_sources": [],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 160,
+     "likes": 161,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 141,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2485,15 +2490,8 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 121,
+     "likes": 122,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 166,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2501,6 +2499,13 @@ window.DB.generated = {
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 127,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 166,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2513,7 +2518,7 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
@@ -2533,12 +2538,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T08:17:37+00:00",
-  "fetched_at": "2026-09-23T08:17:37+00:00"
+  "checked_at": "2026-09-23T09:17:28+00:00",
+  "fetched_at": "2026-09-23T09:17:28+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "יעל ארד לנבחרת: \"שמרו על ספורטיביות, אל תיגררו לפרובוקציות\"",
+     "link": "https://sports.walla.co.il/item/3869494",
+     "date": "2026-09-23T08:55:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "\"פתיחת עונה סנסציונית\". אוהדי ווסטהאם מאוהבים בסולומון",
      "link": "https://sports.walla.co.il/item/3869454",
@@ -2576,6 +2590,25 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "\"גלוך, סולומון ודור פרץ שחקנים ממש טובים\"",
+     "link": "https://www.one.co.il/Article/534077.html?ref=rss",
+     "date": "2026-09-23T04:25:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "כאב הראש מארה\"ב, הבורות האירית והדיון סביב סבע",
+     "link": "https://www.one.co.il/Article/534019.html?ref=rss",
+     "date": "2026-09-22T19:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
      "title": "חיים רביבו על עסקת רוי רביבו לאלצ'ה: \"כולם הפסידו בה\"",
      "link": "https://sports.walla.co.il/item/3869368",
      "date": "2026-09-22T13:22:00+00:00",
@@ -2600,15 +2633,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "יהב ימצא יעד? הקיץ המורכב של יהב גורפינקל",
-     "link": "https://sports.walla.co.il/item/3869207",
-     "date": "2026-09-22T05:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "יהב גורפינקל"
      ]
     },
     {
@@ -2848,8 +2872,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T08:17:33+00:00",
-  "fetched_at": "2026-09-23T08:17:33+00:00"
+  "checked_at": "2026-09-23T09:17:24+00:00",
+  "fetched_at": "2026-09-23T09:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -2880,7 +2904,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T08:17:34+00:00",
-  "fetched_at": "2026-09-23T08:17:34+00:00"
+  "checked_at": "2026-09-23T09:17:24+00:00",
+  "fetched_at": "2026-09-23T09:17:24+00:00"
  }
 };
