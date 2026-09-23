@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T07:17:19+00:00",
-  "fetched_at": "2026-09-23T07:17:19+00:00"
+  "checked_at": "2026-09-23T08:17:26+00:00",
+  "fetched_at": "2026-09-23T08:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T07:17:28+00:00",
-  "fetched_at": "2026-09-23T07:17:28+00:00"
+  "checked_at": "2026-09-23T08:17:38+00:00",
+  "fetched_at": "2026-09-23T08:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T07:17:29+00:00",
-  "fetched_at": "2026-09-23T07:17:29+00:00"
+  "checked_at": "2026-09-23T08:17:40+00:00",
+  "fetched_at": "2026-09-23T08:17:40+00:00"
  },
- "generated_at": "2026-09-23T07:17:29+00:00",
+ "generated_at": "2026-09-23T08:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,26 +92,36 @@ window.DB.generated = {
      "date": "2026-09-23T07:02:00+00:00"
     },
     {
-     "title": "א-שרע בשולי עצרת האו\"ם: \"הגענו עם ישראל ל-90% הסכמה\"",
+     "title": "מכה אנושה לאיראן: אחרי הים - סוגרים את השמיים שלה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T06:56:00+00:00"
+     "date": "2026-09-23T08:12:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות קלות בפתיחה בתל אביב; מניות השבבים מטפסות",
+     "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
+     "date": "2026-09-23T07:51:00+00:00"
+    },
+    {
+     "title": "יציבות בתל אביב; מניות השבבים מטפסות, מניות הבנקים יורדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T07:05:00+00:00"
+     "date": "2026-09-23T07:35:00+00:00"
+    },
+    {
+     "title": "עליות קלות באירופה ובחוזים בניו יורק; מחירי הנפט יורדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T07:31:00+00:00"
+    },
+    {
+     "title": "בעיצומו של המשבר: מיטרוניקס מבצעת ריקול למוצר מחשש לשריפה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557096",
+     "date": "2026-09-23T07:21:00+00:00"
     },
     {
      "title": "כלל ביטוח בדרך להשקעה באחד מבנקי ההשקעות הוותיקים בישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557093",
      "date": "2026-09-23T05:54:00+00:00"
-    },
-    {
-     "title": "מצב השווקים: מחירי הנפט ממשיכים לרדת וענקית הטכנולוגיה שבדרך לחודש הכי חזק מאז 2013",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T04:02:00+00:00"
     },
     {
      "title": "מועדון המניות שעשה 32% בשנה מציג 15 בחירות חדשות",
@@ -169,11 +179,6 @@ window.DB.generated = {
      "date": "2026-09-22T16:13:00+00:00"
     },
     {
-     "title": "כסף גדול בעגורנים: המייסד בן ה-87 שנפגש עם יותר מרבע מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556975",
-     "date": "2026-09-22T15:45:00+00:00"
-    },
-    {
      "title": "בת המהגרים שסחפה את ברלין בצל סקנדלים אנטישמיים במפלגתה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557042",
      "date": "2026-09-22T15:20:00+00:00"
@@ -216,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T07:17:20+00:00",
-  "fetched_at": "2026-09-23T07:17:20+00:00"
+  "checked_at": "2026-09-23T08:17:28+00:00",
+  "fetched_at": "2026-09-23T08:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T07:17:20+00:00",
-  "fetched_at": "2026-09-23T07:17:20+00:00"
+  "checked_at": "2026-09-23T08:17:29+00:00",
+  "fetched_at": "2026-09-23T08:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T07:17:21+00:00",
-  "fetched_at": "2026-09-23T07:17:21+00:00"
+  "checked_at": "2026-09-23T08:17:30+00:00",
+  "fetched_at": "2026-09-23T08:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T07:17:21+00:00",
-  "fetched_at": "2026-09-23T07:17:21+00:00"
+  "checked_at": "2026-09-23T08:17:30+00:00",
+  "fetched_at": "2026-09-23T08:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2459,15 +2464,8 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 158,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 504,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Jev Decision Index",
@@ -2475,6 +2473,13 @@ window.DB.generated = {
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
      "likes": 141,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 505,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2515,21 +2520,21 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T07:17:27+00:00",
-  "fetched_at": "2026-09-23T07:17:27+00:00"
+  "checked_at": "2026-09-23T08:17:37+00:00",
+  "fetched_at": "2026-09-23T08:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2568,25 +2573,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"גלוך, סולומון ודור פרץ שחקנים ממש טובים\"",
-     "link": "https://www.one.co.il/Article/534077.html?ref=rss",
-     "date": "2026-09-23T04:25:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך",
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "כאב הראש מארה\"ב, הבורות האירית והדיון סביב סבע",
-     "link": "https://www.one.co.il/Article/534019.html?ref=rss",
-     "date": "2026-09-22T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דיא סבע"
      ]
     },
     {
@@ -2862,8 +2848,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T07:17:24+00:00",
-  "fetched_at": "2026-09-23T07:17:24+00:00"
+  "checked_at": "2026-09-23T08:17:33+00:00",
+  "fetched_at": "2026-09-23T08:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2894,7 +2880,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T07:17:24+00:00",
-  "fetched_at": "2026-09-23T07:17:24+00:00"
+  "checked_at": "2026-09-23T08:17:34+00:00",
+  "fetched_at": "2026-09-23T08:17:34+00:00"
  }
 };
