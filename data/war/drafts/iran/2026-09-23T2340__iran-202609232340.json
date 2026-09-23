@@ -1,0 +1,254 @@
+{
+ "status": "draft",
+ "received_sha256_12": "015200bac8bb",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-23T23:40:31+00:00",
+  "window": {
+   "from": "2026-09-22T23:40:31+00:00",
+   "to": "2026-09-23T23:40:31+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609232340"
+  },
+  "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במקביל למגעים דיפלומטיים וחילופי איומים באו\"ם. בעוד ארה\"ב וישראל שומרות על לחץ צבאי וכלכלי ומפעילות סנקציות, איראן מאיימת על חופש השיוט במצר הורמוז ומסרבת להיכנע לדרישות המערב, תוך כדי מחלוקות פנימיות בטהרן על עצם קיום המגעים.",
+  "fronts": [
+   {
+    "name": "הזירה הישראלית-איראנית",
+    "status": "פעיל"
+   },
+   {
+    "name": "הזירה האמריקנית-איראנית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09232340-01",
+    "title": "נאום נשיא איראן בעצרת האו\"ם",
+    "summary": "נשיא איראן מסעוד פזשכיאן נאם בעצרת הכללית של האו\"ם, תקף את ארצות הברית וישראל והציג תמונות של אזרחים שנהרגו בתקיפות, בעוד הדיפלומטים האמריקנים עזבו את האולם.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T14:24:39+00:00",
+    "last_update_at": "2026-09-23T20:40:51+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_afp",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-general-assembly-2026-arab-and-muslim-leaders-denounce-militarism",
+      "published_at": "2026-09-23T20:40:51+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_afp",
+      "url": "https://www.france24.com/en/iran-s-pezeshkian-tells-un-his-country-is-victim-of-us-terrorism",
+      "published_at": "2026-09-23T14:57:47+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_afp",
+      "url": "https://t.me/abualiexpress/130677",
+      "published_at": "2026-09-23T14:24:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09232340-02",
+    "title": "מגעים דיפלומטיים עקיפים בין איראן לארה\"ב בניו יורק",
+    "summary": "נציגים אמריקנים ושר החוץ האיראני קיימו פגישה בת שלושה שעות בניו יורק בתיווך קטאר.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T10:41:41+00:00",
+    "last_update_at": "2026-09-23T10:41:41+00:00",
+    "what_is_not_verified": "האם איראן חזרה בה מתנאים מוקדמים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_united_nations",
+      "url": "https://www.theguardian.com/world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+      "published_at": "2026-09-23T10:41:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09232340-03",
+    "title": "הטלת סנקציות חדשות מצד קנדה",
+    "summary": "קנדה הודיעה על הטלת סנקציות נגד עשרה אישים וגופים איראניים המעורבים בדיכוי דיגיטלי ובהפרת זכויות אדם.",
+    "axis": "איראן מול המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T22:36:46+00:00",
+    "last_update_at": "2026-09-23T22:36:46+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f332493177c3d172",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/canada-sanctions-ten-iranian-individuals-and-entities",
+      "published_at": "2026-09-23T22:36:46+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09232340-04",
+    "title": "פגישת שרי החוץ של איראן ודרום קוריאה",
+    "summary": "שר החוץ של איראן עבאס עראקצ'י נפגש עם מקבילו מדרום קוריאה בניו יורק.",
+    "axis": "איראן מול המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T20:49:48+00:00",
+    "last_update_at": "2026-09-23T20:49:48+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_9d19be97a5a03c1d",
+      "url": "https://en.irna.ir/news/86272995/Iranian-and-South-Korean-foreign-ministers-meet-in-New-York",
+      "published_at": "2026-09-23T20:49:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "{'item': 0, 'text': 'דיווחים לפיהם גופים סיניים סיפקו לאיראן צילומי לווין ברזולוציה גבוהה של בסיס בירדן לפני מתקפת טילים.'}",
+   "{'item': 4, 'text': \"טענת מזכיר המדינה האמריקני שמיליציות שיעיות בעיראק תקפו את סעודיה לצד החות'ים.\"}"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0161,
+    "unit": "ILS",
+    "change_pct": -0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "אי כניעה ללחץ אמריקני",
+     "דרישה לפתיחת מצר הורמוז בהתאם לתנאים איראניים"
+    ],
+    "inferred": [
+     "שמירת היכולת האזורית באמצעות שלוחותיה",
+     "ניסיון לפצל את החזית הדיפלומטית נגדה"
+    ],
+    "forecast": [
+     "המשך המתיחות סביב נתיבי השיט",
+     "המשך העימות המילולי והדיפלומטי באו\"ם"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת נשק גרעיני מאיראן",
+     "תמיכה בבני בריתה במפרץ מול תקיפות"
+    ],
+    "inferred": [
+     "הפעלת לחץ מקסימלי הכולל סנקציות ובידוד כלכלי",
+     "דרישה לפירוק המיליציות האיראניות בעיראק"
+    ],
+    "forecast": [
+     "הגברת הלחץ הדיפלומטי והכלכלי על גופים המסייעים לאיראן",
+     "שמירת האופציה הצבאית פתוחה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פגיה ביכולות הזרועות האיראניות באזור",
+     "בלימת איום הגרעין האיראני"
+    ],
+    "inferred": [
+     "הכנה למערכה רב-זירתית רחבה מול איראן ושלוחותיה",
+     "הידוק שיתוף הפעולה האסטרטגי עם ארה\"ב"
+    ],
+    "forecast": [
+     "המשך הפעילות המודיעינית והמבצעית נגד ציר הפרוקסי",
+     "התראה בינלאומית מפני התבססות איראנית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/iran-s-pezeshkian-tells-un-his-country-is-victim-of-us-terrorism",
+    "accessed_at": "2026-09-23T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+    "accessed_at": "2026-09-23T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86272995/Iranian-and-South-Korean-foreign-ministers-meet-in-New-York",
+    "accessed_at": "2026-09-23T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/canada-sanctions-ten-iranian-individuals-and-entities",
+    "accessed_at": "2026-09-23T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130677",
+    "accessed_at": "2026-09-23T23:40:31+00:00"
+   }
+  ]
+ }
+}

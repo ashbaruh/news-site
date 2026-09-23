@@ -1,0 +1,242 @@
+{
+ "status": "draft",
+ "received_sha256_12": "482847211501",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-23T23:42:30+00:00",
+  "window": {
+   "from": "2026-09-22T23:42:30+00:00",
+   "to": "2026-09-23T23:42:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609232342"
+  },
+  "summary": "בזירה הצפונית מתנהלות חילופי הלם ואש בין ישראל לבין חיזבאללה בדרום לבנון לצד הפרות הפסקת אש, כאשר במקביל מתנהלת לוחמה מדינית והצהרתית מול סוריה סביב מעמד רמת הגולן והנוכחות הזרה במדינה. ישראל נערכת למספר תרחישי הסלמה אזוריים רחבים הכוללים את הגזרה הצפונית והלבנונית, בעוד סוריה פועלת לשיקום דיפלומטי בינלאומי ולחיזוק הריבונות.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם תקיפות והפרות הפסקת אש"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "מתיחות מדינית והצהרתית סביב רמת הגולן"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09232342-01",
+    "title": "תקיפות אוויריות וארטילריות בדרום לבנון",
+    "summary": "כוחות צבא ישראל ביצעו תקיפות אוויריות וירי ארטילרי במספר מרחבים בדרום לבנון.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-23T14:54:35+00:00",
+    "last_update_at": "2026-09-23T21:26:53+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanon-3",
+      "published_at": "2026-09-23T21:26:53+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/130267/",
+      "published_at": "2026-09-23T19:18:57+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/130217/",
+      "published_at": "2026-09-23T16:16:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130679",
+      "published_at": "2026-09-23T14:54:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אלקנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     },
+     {
+      "name": "אל-ח'יאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09232342-02",
+    "title": "נאום נשיא סוריה באו\"ם והתייחסות לרמת הגולן ולבסיסים זרים",
+    "summary": "נשיא סוריה הצהיר בעצרת הכללית של האו\"ם כי רמת הגולן תישאר סורית, גינה את התקיפות הישראליות, וציין כי בסיסים זרים במדינה צומצמו לשניים והוסבו למרכזי אימונים.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T13:07:56+00:00",
+    "last_update_at": "2026-09-23T20:26:04+00:00",
+    "what_is_not_verified": "התכנים והמספרים שנמסרו לגבי הבסיסים לא אומתו ממקור חיצוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_24c5373d741272fa",
+      "url": "https://english.enabbaladi.net/archives/2026/09/al-sharaa-highlights-recovery-golan-in-un-address/",
+      "published_at": "2026-09-23T20:26:04+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_24c5373d741272fa",
+      "url": "https://www.france24.com/en/middle-east/20260923-golan-heights-will-remain-syrian-president-al-sharaa-vows-to-un",
+      "published_at": "2026-09-23T13:31:32+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_24c5373d741272fa",
+      "url": "https://t.me/alexmehacarmel/47936",
+      "published_at": "2026-09-23T13:07:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09232342-03",
+    "title": "תגובת שר הביטחון הישראלי על רמת הגולן",
+    "summary": "שר הביטחון של ישראל הצהיר שרמת הגולן תישאר תחת ריבונות ישראלית לנצח בתגובה לדברי נשיא סוריה.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T14:49:22+00:00",
+    "last_update_at": "2026-09-23T14:49:22+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_5d90df03873a9690",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/959403/golan-part-of-israel-forever-says-israeli-defence-minister/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959403",
+      "published_at": "2026-09-23T14:49:22+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות סוריה על צמצום הבסיסים הזרים לשניים והסבתם למרכזי אימונים בלבד",
+   "היקף התשתיות שהושמדו במרחבי האבטחה בסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0161,
+    "unit": "ILS",
+    "change_pct": -0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירת ריבונות ישראל ברמת הגולן לנצח",
+     "הכנה למספר תרחישי הסלמה רחבים בגזרה הצפונית ומולה"
+    ],
+    "inferred": [
+     "בלימת התבססות עוינת בגבול הצפון ולבנון",
+     "שמירת חופש פעולה מבצעי בסוריה ובלבנון"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות בדרום לבנון",
+     "עלייה ברמת הכוננות לקראת עימות אזורי רחב"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "השבת הריבונות המלאה והבטחת אי הימצאות בסיסים זרים עוינים",
+     "עמידה על כך שרמת הגולן היא שטח סורי"
+    ],
+    "inferred": [
+     "יציאה מבידוד מדיני באמצעות פנייה לגורמים בינלאומיים",
+     "שיקום פנימי של המדינה ותשתיותיה"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים לחיזוק הלגיטימציה הבינלאומית של השלטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/130217/",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/al-sharaa-highlights-recovery-golan-in-un-address/",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260923-golan-heights-will-remain-syrian-president-al-sharaa-vows-to-un",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/959403/golan-part-of-israel-forever-says-israeli-defence-minister/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959403",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanon-3",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130679",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47936",
+    "accessed_at": "2026-09-23T23:42:30+00:00"
+   }
+  ]
+ }
+}

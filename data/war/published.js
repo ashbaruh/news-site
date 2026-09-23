@@ -345,172 +345,62 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-22T2340__iran-202609222340.json",
+  "draft": "drafts/iran/2026-09-23T2340__iran-202609232340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-22T23:40:34+00:00",
+   "generated_at": "2026-09-23T23:40:31+00:00",
    "window": {
-    "from": "2026-09-21T23:40:34+00:00",
-    "to": "2026-09-22T23:40:34+00:00"
+    "from": "2026-09-22T23:40:31+00:00",
+    "to": "2026-09-23T23:40:31+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609222340"
+    "run_id": "iran-202609232340"
    },
-   "summary": "ארצות הברית ואיראן מקיימות מגעים מדיניים לצד איומים צבאיים הדדיים סביב עתיד תוכנית הגרעין והסנקציות הכלכליות. במקביל, נשמרת מתיחות גבוהה סביב חופש השיט במצר הורמוז, כאשר איראן מתנה את פתיחתו בהסרת המצור והפסקת פעילות צבאית אזורית.",
+   "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במקביל למגעים דיפלומטיים וחילופי איומים באו\"ם. בעוד ארה\"ב וישראל שומרות על לחץ צבאי וכלכלי ומפעילות סנקציות, איראן מאיימת על חופש השיוט במצר הורמוז ומסרבת להיכנע לדרישות המערב, תוך כדי מחלוקות פנימיות בטהרן על עצם קיום המגעים.",
    "fronts": [
     {
-     "name": "ארה\"ב - איראן",
-     "status": "מגעים דיפלומטיים לצד איומי הסלמה"
+     "name": "הזירה הישראלית-איראנית",
+     "status": "פעיל"
     },
     {
-     "name": "ישראל - איראן",
-     "status": "מתיחות צבאית ואזהרות הדדיות"
+     "name": "הזירה האמריקנית-איראנית",
+     "status": "פעיל"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09222340-01",
-     "title": "חקירת תובעים בארה\"ב נגד בייננס",
-     "summary": "תובעים פדרליים בארה\"ב מנהלים חקירה נגד בייננס בחשד להפרת סנקציות על איראן.",
-     "axis": "ארה\"ב - איראן",
+     "id": "IRAN-09232340-01",
+     "title": "נאום נשיא איראן בעצרת האו\"ם",
+     "summary": "נשיא איראן מסעוד פזשכיאן נאם בעצרת הכללית של האו\"ם, תקף את ארצות הברית וישראל והציג תמונות של אזרחים שנהרגו בתקיפות, בעוד הדיפלומטים האמריקנים עזבו את האולם.",
+     "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T23:11:18+00:00",
-     "last_update_at": "2026-09-22T23:11:18+00:00",
-     "what_is_not_verified": "האם בייננס אפשרה ביודעין מסחר שהפר את הסנקציות אינו מאומת.",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-23T14:24:39+00:00",
+     "last_update_at": "2026-09-23T20:40:51+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-prosecutors-probing-binance-possible-iran-sanctions-violations",
-       "published_at": "2026-09-22T23:11:18+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מנהטן, ארה\"ב",
-       "lat": 40.758,
-       "lon": -73.9855
+       "source_root_id": "or_afp",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-general-assembly-2026-arab-and-muslim-leaders-denounce-militarism",
+       "published_at": "2026-09-23T20:40:51+00:00"
       },
       {
-       "name": "וושינגטון, ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09222340-02",
-     "title": "איומי שגריר ישראל באו\"ם נגד מנהיגי איראן",
-     "summary": "שגריר ישראל באו\"ם דני דנון הצהיר שישראל יודעת היכן מנהיגי איראן מסתתרים ושיתפסתם היא עניין של ימים אם יתקפו.",
-     "axis": "ישראל - איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T23:05:49+00:00",
-     "last_update_at": "2026-09-22T23:05:49+00:00",
-     "what_is_not_verified": "היכולת המעשית לתפוס את המנהיגים אינה מאומתת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47925",
-       "published_at": "2026-09-22T23:05:49+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09222340-03",
-     "title": "פיצוץ ליד האי קשם באיראן",
-     "summary": "דווח על קול פיצוץ בסמוך לאי קשם במצר הורמוז.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T21:47:59+00:00",
-     "last_update_at": "2026-09-22T22:10:34+00:00",
-     "what_is_not_verified": "סיבת הפיצוץ והשפעתו אינן מאומתות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
-       "published_at": "2026-09-22T22:10:34+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1369739",
-       "published_at": "2026-09-22T21:47:59+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "האי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09222340-04",
-     "title": "פגישה בין נציגי איראן וארה\"ב בניו יורק",
-     "summary": "עראקצ'י נפגש עם וויטקוף וקושנר בשולי עצרת האו\"ם, ובהמשך הוצגו תנאי איראן לפתיחת מצר הורמוז.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T17:35:49+00:00",
-     "last_update_at": "2026-09-22T21:51:29+00:00",
-     "what_is_not_verified": "פרטי ההסכמות המלאים אינם מאומתים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21468159",
-       "published_at": "2026-09-22T21:51:29+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
-       "published_at": "2026-09-22T21:21:59+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says",
-       "published_at": "2026-09-22T20:46:34+00:00"
+       "source_id": "src_france24",
+       "source_root_id": "or_afp",
+       "url": "https://www.france24.com/en/iran-s-pezeshkian-tells-un-his-country-is-victim-of-us-terrorism",
+       "published_at": "2026-09-23T14:57:47+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130637",
-       "published_at": "2026-09-22T19:55:42+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47923",
-       "published_at": "2026-09-22T19:34:47+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/sylxyex5fx",
-       "published_at": "2026-09-22T17:35:49+00:00"
+       "source_root_id": "or_afp",
+       "url": "https://t.me/abualiexpress/130677",
+       "published_at": "2026-09-23T14:24:39+00:00"
       }
      ],
      "places": [
@@ -522,47 +412,24 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09222340-05",
-     "title": "אישור ועדה בפרלמנט האיראני לגבי מצר הורמוז",
-     "summary": "הוועדה לביטחון לאומי בפרלמנט האיראני אישרה עונשים למפר תקנות המעבר במצר הורמוז.",
-     "axis": "ארה\"ב - איראן",
+     "id": "IRAN-09232340-02",
+     "title": "מגעים דיפלומטיים עקיפים בין איראן לארה\"ב בניו יורק",
+     "summary": "נציגים אמריקנים ושר החוץ האיראני קיימו פגישה בת שלושה שעות בניו יורק בתיווך קטאר.",
+     "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T21:22:45+00:00",
-     "last_update_at": "2026-09-22T21:22:45+00:00",
-     "what_is_not_verified": "אכיפת החוק בפועל אינה מאומתת.",
+     "first_reported_at": "2026-09-23T10:41:41+00:00",
+     "last_update_at": "2026-09-23T10:41:41+00:00",
+     "what_is_not_verified": "האם איראן חזרה בה מתנאים מוקדמים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86271781/Iran-parliament-commission-approves-penalties-for-violators-of",
-       "published_at": "2026-09-22T21:22:45+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09222340-06",
-     "title": "פגישת שר החוץ האיראני עם מקביליו מאזרבייג'ן ואוסטריה",
-     "summary": "עראקצ'י קים פגישות עם שרי החוץ של אזרבייג'ן ואוסטריה בשולי עצרת האו\"ם בניו יורק.",
-     "axis": "איראן - מדינות שונות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T21:05:49+00:00",
-     "last_update_at": "2026-09-22T21:05:49+00:00",
-     "what_is_not_verified": "תוכן השיחות המלא אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86271767/Araghchi-meets-Azeri-and-Austrian-counterparts-in-New-York",
-       "published_at": "2026-09-22T21:05:49+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "or_united_nations",
+       "url": "https://www.theguardian.com/world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+       "published_at": "2026-09-23T10:41:41+00:00"
       }
      ],
      "places": [
@@ -574,72 +441,61 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09222340-07",
-     "title": "ביטול טיסות מאיראן לבגדאד ומסקט",
-     "summary": "איראן ביטלה טיסות מטהרן לבגדאד ומסקט בעקבות לחץ אמריקאי והגבלות אזוריות.",
-     "axis": "ארה\"ב - איראן",
+     "id": "IRAN-09232340-03",
+     "title": "הטלת סנקציות חדשות מצד קנדה",
+     "summary": "קנדה הודיעה על הטלת סנקציות נגד עשרה אישים וגופים איראניים המעורבים בדיכוי דיגיטלי ובהפרת זכויות אדם.",
+     "axis": "איראן מול המערב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T19:40:00+00:00",
-     "last_update_at": "2026-09-22T19:40:00+00:00",
-     "what_is_not_verified": "היקף ההשפעה המלא על חברות תעופה אחרות אינו מאומת.",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-23T22:36:46+00:00",
+     "last_update_at": "2026-09-23T22:36:46+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609228176",
-       "published_at": "2026-09-22T19:40:00+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_f332493177c3d172",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/canada-sanctions-ten-iranian-individuals-and-entities",
+       "published_at": "2026-09-23T22:36:46+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09232340-04",
+     "title": "פגישת שרי החוץ של איראן ודרום קוריאה",
+     "summary": "שר החוץ של איראן עבאס עראקצ'י נפגש עם מקבילו מדרום קוריאה בניו יורק.",
+     "axis": "איראן מול המערב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-23T20:49:48+00:00",
+     "last_update_at": "2026-09-23T20:49:48+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_9d19be97a5a03c1d",
+       "url": "https://en.irna.ir/news/86272995/Iranian-and-South-Korean-foreign-ministers-meet-in-New-York",
+       "published_at": "2026-09-23T20:49:48+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      },
-      {
-       "name": "בגדאד, עיראק",
-       "lat": 33.3062,
-       "lon": 44.3872
-      },
-      {
-       "name": "מסקט, עומאן",
-       "lat": 23.6124,
-       "lon": 58.5938
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
-    },
-    {
-     "id": "IRAN-09222340-08",
-     "title": "הסגרה צפויה של האקר איראני־טורקי לארה\"ב",
-     "summary": "מונטנגרו תסגיר לארה\"ב את האקר אמיר באראטי הקשור למשמרות המהפכה.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T18:56:02+00:00",
-     "last_update_at": "2026-09-22T18:56:02+00:00",
-     "what_is_not_verified": "מועד ההסגרה המדויק אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609227447",
-       "published_at": "2026-09-22T18:56:02+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "האם בייננס אפשרה ביודעין מסחר שהפר סנקציות",
-    "סיבת הפיצוץ ליד האי קשם",
-    "ההיתכנות והמועד של תקיפה אמריקאית אפשרית באתר הגרעין"
+    "{'item': 0, 'text': 'דיווחים לפיהם גופים סיניים סיפקו לאיראן צילומי לווין ברזולוציה גבוהה של בסיס בירדן לפני מתקפת טילים.'}",
+    "{'item': 4, 'text': \"טענת מזכיר המדינה האמריקני שמיליציות שיעיות בעיראק תקפו את סעודיה לצד החות'ים.\"}"
    ],
    "map": {
     "confidence": "medium",
@@ -650,133 +506,112 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0178,
+     "value": 3.0161,
      "unit": "ILS",
-     "change_pct": 0.21,
+     "change_pct": -0.06,
      "source_id": "src_ecb",
-     "as_of": "2026-09-22T15:00:00+00:00"
+     "as_of": "2026-09-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "ארה\"ב",
+     "actor": "איראן",
      "declared": [
-      "להפעיל לחץ כלכלי מסיבי על איראן",
-      "למנוע מאיראן להחזיק בנשק גרעיני"
+      "אי כניעה ללחץ אמריקני",
+      "דרישה לפתיחת מצר הורמוז בהתאם לתנאים איראניים"
      ],
      "inferred": [
-      "לנסות לכפות הסדר אזורי דרך איומי כוח ומגעים דיפלומטיים"
+      "שמירת היכולת האזורית באמצעות שלוחותיה",
+      "ניסיון לפצל את החזית הדיפלומטית נגדה"
      ],
      "forecast": [
-      "המשך סנקציות ולחץ כלכלי עד להשגת הסכם או הסלמה נוספת"
+      "המשך המתיחות סביב נתיבי השיט",
+      "המשך העימות המילולי והדיפלומטי באו\"ם"
      ]
     },
     {
-     "actor": "איראן",
+     "actor": "ארה\"ב",
      "declared": [
-      "דרישה להסרת המצור הימי, שחרור נכסים מוקפאים וסיום המלחמה בחזיתות כתנאי לפתיחת מצר הורמוז"
+      "מניעת נשק גרעיני מאיראן",
+      "תמיכה בבני בריתה במפרץ מול תקיפות"
      ],
      "inferred": [
-      "ניסיון למנף את השליטה בנתיבי שיט כדי להקל על הלחץ הכלכלי הבינלאומי"
+      "הפעלת לחץ מקסימלי הכולל סנקציות ובידוד כלכלי",
+      "דרישה לפירוק המיליציות האיראניות בעיראק"
      ],
      "forecast": [
-      "המשך מאבק דיפלומטי ושימוש בשלוחים אזוריים להפעלת לחץ"
+      "הגברת הלחץ הדיפלומטי והכלכלי על גופים המסייעים לאיראן",
+      "שמירת האופציה הצבאית פתוחה"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "התנגדות להתבססות איראנית ומניעת איומים מצד שלוחיה"
+      "פגיה ביכולות הזרועות האיראניות באזור",
+      "בלימת איום הגרעין האיראני"
      ],
      "inferred": [
-      "היערכות לכל תרחיש עימות מול איראן והזירות השונות"
+      "הכנה למערכה רב-זירתית רחבה מול איראן ושלוחותיה",
+      "הידוק שיתוף הפעולה האסטרטגי עם ארה\"ב"
      ],
      "forecast": [
-      "המשך כוננות גבוהה ופעילות מודיעינית ומבצעית מול ציר איראן"
+      "המשך הפעילות המודיעינית והמבצעית נגד ציר הפרוקסי",
+      "התראה בינלאומית מפני התבססות איראנית"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/iran-s-pezeshkian-tells-un-his-country-is-victim-of-us-terrorism",
+     "accessed_at": "2026-09-23T23:40:31+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
-    },
-    {
-     "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202609227447",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+     "accessed_at": "2026-09-23T23:40:31+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86271767/Araghchi-meets-Azeri-and-Austrian-counterparts-in-New-York",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21468159",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1369739",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
+     "url": "https://en.irna.ir/news/86272995/Iranian-and-South-Korean-foreign-ministers-meet-in-New-York",
+     "accessed_at": "2026-09-23T23:40:31+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/canada-sanctions-ten-iranian-individuals-and-entities",
+     "accessed_at": "2026-09-23T23:40:31+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130637",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47923",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/sylxyex5fx",
-     "accessed_at": "2026-09-22T23:40:34+00:00"
+     "url": "https://t.me/abualiexpress/130677",
+     "accessed_at": "2026-09-23T23:40:31+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-22T10:40:28+00:00",
+  "previous_generated_at": "2026-09-22T23:40:34+00:00",
   "changes": {
-   "IRAN-09222340-01": {
-    "kind": "new"
-   },
-   "IRAN-09222340-02": {
-    "kind": "new"
-   },
-   "IRAN-09222340-03": {
-    "kind": "new"
-   },
-   "IRAN-09222340-04": {
-    "kind": "new"
-   },
-   "IRAN-09222340-05": {
+   "IRAN-09232340-01": {
     "kind": "possible",
-    "prev": "תקיפת מכליות במצר הורמוז",
+    "prev": "איומי שגריר ישראל באו\"ם נגד מנהיגי איראן",
     "score": 0.467
    },
-   "IRAN-09222340-06": {
+   "IRAN-09232340-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "פגישה בין נציגי איראן וארה\"ב בניו יורק",
+    "score": 1.0
+   },
+   "IRAN-09232340-03": {
     "kind": "new"
    },
-   "IRAN-09222340-07": {
-    "kind": "new"
-   },
-   "IRAN-09222340-08": {
-    "kind": "new"
+   "IRAN-09232340-04": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "פגישת שר החוץ האיראני עם מקביליו מאזרבייג'ן ואוסטריה",
+    "score": 0.817
    }
   }
  },
@@ -1241,215 +1076,151 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-22T2346__north-202609222346.json",
+  "draft": "drafts/north/2026-09-23T2342__north-202609232342.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-22T23:46:03+00:00",
+   "generated_at": "2026-09-23T23:42:30+00:00",
    "window": {
-    "from": "2026-09-21T23:46:03+00:00",
-    "to": "2026-09-22T23:46:03+00:00"
+    "from": "2026-09-22T23:42:30+00:00",
+    "to": "2026-09-23T23:42:30+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202609222346"
+    "run_id": "north-202609232342"
    },
-   "summary": "הזירה הצפונית מתאפיינת במתיחות ביטחונית גבוהה ובמוקדי חיכוך נמשכים בין ישראל לבין לבנון וסוריה. ישראל ממשיכה בפעילות מבצעית הכוללת תקיפות ארטילריות ואוויריות בדרום לבנון ובדרום סוריה, לצד היערכות והארכת מצב החירום עקב חשש מהסלמה רחבה. במקביל, ממשלת לבנון שומרת על יציבות פוליטית זמנית, ורוסיה ממשיכה בתהליך של צמצום נוכחותה הצבאית בבסיס חמימים בסוריה.",
+   "summary": "בזירה הצפונית מתנהלות חילופי הלם ואש בין ישראל לבין חיזבאללה בדרום לבנון לצד הפרות הפסקת אש, כאשר במקביל מתנהלת לוחמה מדינית והצהרתית מול סוריה סביב מעמד רמת הגולן והנוכחות הזרה במדינה. ישראל נערכת למספר תרחישי הסלמה אזוריים רחבים הכוללים את הגזרה הצפונית והלבנונית, בעוד סוריה פועלת לשיקום דיפלומטי בינלאומי ולחיזוק הריבונות.",
    "fronts": [
     {
-     "name": "חזית לבנון",
-     "status": "פעילה ומתוחה עם חילופי אש ותקיפות צה\"ל"
+     "name": "החזית הלבנונית",
+     "status": "פעילה עם תקיפות והפרות הפסקת אש"
     },
     {
-     "name": "חזית סוריה",
-     "status": "פעילה עם פשיטות, ירי ארטילרי ושינויים בהיערכות כוחות זרים"
+     "name": "החזית הסורית",
+     "status": "מתיחות מדינית והצהרתית סביב רמת הגולן"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09222346-01",
-     "title": "ירי ארטילרי ותקיפות ישראליות בדרום לבנון",
-     "summary": "כוחות צה\"ל ביצעו ירי ארטילרי ותקיפות מהאוויר לעבר מרחבים שונים בדרום לבנון.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-09232342-01",
+     "title": "תקיפות אוויריות וארטילריות בדרום לבנון",
+     "summary": "כוחות צבא ישראל ביצעו תקיפות אוויריות וירי ארטילרי במספר מרחבים בדרום לבנון.",
+     "axis": "הגזרה הצפונית של ישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T16:42:29+00:00",
-     "last_update_at": "2026-09-22T19:16:18+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-23T14:54:35+00:00",
+     "last_update_at": "2026-09-23T21:26:53+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/129877/",
-       "published_at": "2026-09-22T19:16:18+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanon-3",
+       "published_at": "2026-09-23T21:26:53+00:00"
       },
       {
        "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/129867/",
-       "published_at": "2026-09-22T19:00:31+00:00"
+       "url": "https://english.almanar.com.lb/article/130267/",
+       "published_at": "2026-09-23T19:18:57+00:00"
       },
       {
        "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/129817/",
-       "published_at": "2026-09-22T16:42:29+00:00"
+       "url": "https://english.almanar.com.lb/article/130217/",
+       "published_at": "2026-09-23T16:16:38+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130679",
+       "published_at": "2026-09-23T14:54:35+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "אלקנטרה, לבנון",
+       "lat": 33.2735,
+       "lon": 35.4591
+      },
+      {
+       "name": "אל-ח'יאם, לבנון",
+       "lat": 33.3272,
+       "lon": 35.609
       }
      ]
     },
     {
-     "id": "NORTH-09222346-02",
-     "title": "הארכת מצב החירום המלחמתי בישראל",
-     "summary": "ישראל האריכה באופן בלתי צפוי את מצב החירום המלחמתי עד לתאריך 6 באוקטובר בשל דיווחים מודיעיניים על הסלמה אפשרית בחזיתות איראן ולבנון.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
+     "id": "NORTH-09232342-02",
+     "title": "נאום נשיא סוריה באו\"ם והתייחסות לרמת הגולן ולבסיסים זרים",
+     "summary": "נשיא סוריה הצהיר בעצרת הכללית של האו\"ם כי רמת הגולן תישאר סורית, גינה את התקיפות הישראליות, וציין כי בסיסים זרים במדינה צומצמו לשניים והוסבו למרכזי אימונים.",
+     "axis": "הגזרה הצפונית של ישראל",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T14:06:00+00:00",
-     "last_update_at": "2026-09-22T14:06:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959165/multiple-fronts-rising-tensions-israel-extends-wartime-emergency/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959165",
-       "published_at": "2026-09-22T14:06:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09222346-03",
-     "title": "חציית גבול של אזרחים ישראלים לסוריה והשבתם",
-     "summary": "14 אזרחים ישראלים חצו את הגבול לאזור סוריה מאזור אלוני הבשן, וכוח צה\"ל החזיר אותם לשטח ישראל והעבירם למשטרה.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T16:43:07+00:00",
-     "last_update_at": "2026-09-22T16:44:30+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "fh_6b67326bd3635ea2",
-       "url": "https://www.maariv.co.il/breaking-news/article-1369680",
-       "published_at": "2026-09-22T16:44:30+00:00"
-      },
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "fh_6b67326bd3635ea2",
-       "url": "https://t.me/idf_telegram/25174",
-       "published_at": "2026-09-22T16:43:07+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09222346-04",
-     "title": "תקיפות ארטילריות וחדירת כוחות ישראליים לדרום סוריה",
-     "summary": "הצבא הישראלי ירה פגזי ארטילריה ונרות תאורה באזור דרעא, וביצע כניסה וחיפוש בבתים באזור קוניטרה.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T07:18:01+00:00",
-     "last_update_at": "2026-09-22T16:10:55+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-23T13:07:56+00:00",
+     "last_update_at": "2026-09-23T20:26:04+00:00",
+     "what_is_not_verified": "התכנים והמספרים שנמסרו לגבי הבסיסים לא אומתו ממקור חיצוני",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/09/israel-shells-daraa-countryside-enters-quneitra/",
-       "published_at": "2026-09-22T16:10:55+00:00"
+       "source_root_id": "fh_24c5373d741272fa",
+       "url": "https://english.enabbaladi.net/archives/2026/09/al-sharaa-highlights-recovery-golan-in-un-address/",
+       "published_at": "2026-09-23T20:26:04+00:00"
       },
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-village-near-un-post-in-southern-syria/4064046",
-       "published_at": "2026-09-22T07:18:01+00:00"
+       "source_id": "src_france24",
+       "source_root_id": "fh_24c5373d741272fa",
+       "url": "https://www.france24.com/en/middle-east/20260923-golan-heights-will-remain-syrian-president-al-sharaa-vows-to-un",
+       "published_at": "2026-09-23T13:31:32+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_24c5373d741272fa",
+       "url": "https://t.me/alexmehacarmel/47936",
+       "published_at": "2026-09-23T13:07:56+00:00"
       }
      ],
      "places": [
       {
-       "name": "עבדין, סוריה",
-       "lat": 32.7805,
-       "lon": 35.8247
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
     },
     {
-     "id": "NORTH-09222346-05",
-     "title": "תקרית בין צה\"ל לצבא לבנון בדיר מימאס",
-     "summary": "התפתחו מתחים בין כוחות צה\"ל לחיילי חטיבה 7 של צבא לבנון שהקימו עמדת תצפית זמנית בדיר מימאס, מה שהוביל להשלכת רימוני הלם ולנסיגת הכוח הלבנוני.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
+     "id": "NORTH-09232342-03",
+     "title": "תגובת שר הביטחון הישראלי על רמת הגולן",
+     "summary": "שר הביטחון של ישראל הצהיר שרמת הגולן תישאר תחת ריבונות ישראלית לנצח בתגובה לדברי נשיא סוריה.",
+     "axis": "הגזרה הצפונית של ישראל",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-18T00:00:00+00:00",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T11:33:31+00:00",
-     "last_update_at": "2026-09-22T11:33:31+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-23T14:49:22+00:00",
+     "last_update_at": "2026-09-23T14:49:22+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_alma",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/could-the-september-18-incident-in-the-village-of-deir-mimas-in-southern-lebanon-between-the-idf-and-the-laf-have-been-avoided-had-the-lebanese-force-not-been-commanded-by-a-shiite-officer/",
-       "published_at": "2026-09-22T11:33:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דיר מימאס, לבנון",
-       "lat": 33.3021,
-       "lon": 35.5467
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09222346-06",
-     "title": "צמצום נוכחות ונכסים רוסיים בבסיס חמימים בסוריה",
-     "summary": "תיעוד רשמי הראה כי רוסיה צמצמה משמעותית את נכסיה האוויריים בבסיס חמימים בסוריה מאז נפילת משטר אסד, והמתקנים צפויים להפוך למרכזי אימון משותפים.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-15T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T08:03:08+00:00",
-     "last_update_at": "2026-09-22T08:03:08+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_alma",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/russia-is-scaling-back-not-leaving-syria/",
-       "published_at": "2026-09-22T08:03:08+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_5d90df03873a9690",
+       "url": "https://www.lbcgroup.tv/news/middleeastnews/959403/golan-part-of-israel-forever-says-israeli-defence-minister/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959403",
+       "published_at": "2026-09-23T14:49:22+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "טענות על כך שנוכחותו של קצין שיעי ספציפי בצבא לבנון נוצלה במכוון על ידי חיזבאללה למטרות השפעה פוליטית אינן מאומתות ממקור רשמי נייטרלי",
-    "ההערכות המודיעיניות המדויקות שהביאו להארכת מצב החירום בישראל אינן חשופות במלואן"
+    "טענות סוריה על צמצום הבסיסים הזרים לשניים והסבתם למרכזי אימונים בלבד",
+    "היקף התשתיות שהושמדו במרחבי האבטחה בסוריה"
    ],
    "map": {
     "confidence": "medium",
@@ -1460,108 +1231,96 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0178,
+     "value": 3.0161,
      "unit": "ILS",
-     "change_pct": 0.21,
+     "change_pct": -0.06,
      "source_id": "src_ecb",
-     "as_of": "2026-09-22T15:00:00+00:00"
+     "as_of": "2026-09-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת סיכונים ביטחוניים בגבולות הצפון",
-      "מניעת הפרעות לפעילות המבצעית בשטחי המרחב"
+      "שמירת ריבונות ישראל ברמת הגולן לנצח",
+      "הכנה למספר תרחישי הסלמה רחבים בגזרה הצפונית ומולה"
      ],
      "inferred": [
-      "שימור חופש פעולה מבצעי בדרום לבנון ובדרום סוריה",
-      "היערכות למנוע התבססות עוינת בגבולות הצפוניים"
+      "בלימת התבססות עוינת בגבול הצפון ולבנון",
+      "שמירת חופש פעולה מבצעי בסוריה ובלבנון"
      ],
      "forecast": [
-      "המשך פעילות צבאית ממוקדת במרחבי הגבול",
-      "כוננות גבוהה והיערכות לאפשרות של הסלמה רחבה"
+      "המשך תקיפות נקודתיות בדרום לבנון",
+      "עלייה ברמת הכוננות לקראת עימות אזורי רחב"
      ]
     },
     {
-     "actor": "צבא לבנון",
+     "actor": "סוריה",
      "declared": [
-      "אבטחת חקלאים ואזרחים מקומיים בדרום לבנון",
-      "תיאום פעולות דרך מנגנוני התיאום הבינלאומיים"
+      "השבת הריבונות המלאה והבטחת אי הימצאות בסיסים זרים עוינים",
+      "עמידה על כך שרמת הגולן היא שטח סורי"
      ],
      "inferred": [
-      "ניסיון לשמור על נוכחות בשטח למרות לחצים מצד ישראל וגורמים פנים-לבנוניים"
+      "יציאה מבידוד מדיני באמצעות פנייה לגורמים בינלאומיים",
+      "שיקום פנימי של המדינה ותשתיותיה"
      ],
      "forecast": [
-      "המשך חיכוך פוטנציאלי מול פעילות צה\"ל בדרום לבנון"
+      "המשך מאמצים דיפלומטיים לחיזוק הלגיטימציה הבינלאומית של השלטון"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_alma",
-     "url": "https://israel-alma.org/russia-is-scaling-back-not-leaving-syria/",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
-    },
-    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/129817/",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
-    },
-    {
-     "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-village-near-un-post-in-southern-syria/4064046",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
+     "url": "https://english.almanar.com.lb/article/130217/",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
     },
     {
      "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/09/israel-shells-daraa-countryside-enters-quneitra/",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
+     "url": "https://english.enabbaladi.net/archives/2026/09/al-sharaa-highlights-recovery-golan-in-un-address/",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
+    },
+    {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20260923-golan-heights-will-remain-syrian-president-al-sharaa-vows-to-un",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959165/multiple-fronts-rising-tensions-israel-extends-wartime-emergency/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959165",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
+     "url": "https://www.lbcgroup.tv/news/middleeastnews/959403/golan-part-of-israel-forever-says-israeli-defence-minister/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959403",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
     },
     {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1369680",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
+     "source_id": "src_mee",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanon-3",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
     },
     {
-     "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25174",
-     "accessed_at": "2026-09-22T23:46:03+00:00"
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/130679",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/47936",
+     "accessed_at": "2026-09-23T23:42:30+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-22T05:24:19+00:00",
+  "previous_generated_at": "2026-09-22T23:46:03+00:00",
   "changes": {
-   "NORTH-09222346-01": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "תקיפות והפגזות ישראליות בדרום לבנון",
-    "score": 0.65
-   },
-   "NORTH-09222346-02": {
-    "kind": "new"
-   },
-   "NORTH-09222346-03": {
-    "kind": "new"
-   },
-   "NORTH-09222346-04": {
+   "NORTH-09232342-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "תקיפות והפגזות של צבא ההגנה לישראל בדרום סוריה",
-    "score": 1.0
+    "prev": "תקיפות ארטילריות וחדירת כוחות ישראליים לדרום סוריה",
+    "score": 0.65
    },
-   "NORTH-09222346-05": {
+   "NORTH-09232342-02": {
     "kind": "new"
    },
-   "NORTH-09222346-06": {
+   "NORTH-09232342-03": {
     "kind": "new"
    }
   }
