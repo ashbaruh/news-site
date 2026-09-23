@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T10:17:25+00:00",
-  "fetched_at": "2026-09-23T10:17:25+00:00"
+  "checked_at": "2026-09-23T11:17:17+00:00",
+  "fetched_at": "2026-09-23T11:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T10:17:35+00:00",
-  "fetched_at": "2026-09-23T10:17:35+00:00"
+  "checked_at": "2026-09-23T11:17:26+00:00",
+  "fetched_at": "2026-09-23T11:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T10:17:35+00:00",
-  "fetched_at": "2026-09-23T10:17:35+00:00"
+  "checked_at": "2026-09-23T11:17:27+00:00",
+  "fetched_at": "2026-09-23T11:17:27+00:00"
  },
- "generated_at": "2026-09-23T10:17:35+00:00",
+ "generated_at": "2026-09-23T11:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "הירידות בתל אביב מעמיקות בהובלת מניות הבנקים",
+     "title": "בבנק ההשקעות קנטור מזהים הזדמנות במניות ציוד השבבים - אך מחריגים את נובה וקמטק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557155",
+     "date": "2026-09-23T10:55:00+00:00"
+    },
+    {
+     "title": "הירידות בתל אביב מתמתנות: הבנקים מכבידים, הטכנולוגיה עולה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T10:03:00+00:00"
+     "date": "2026-09-23T10:37:00+00:00"
+    },
+    {
+     "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557156",
+     "date": "2026-09-23T10:35:00+00:00"
+    },
+    {
+     "title": "\"נקודת אל־חזור\": האזהרה החדשה לגבי המלחמה באיראן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557153",
+     "date": "2026-09-23T10:15:00+00:00"
     },
     {
      "title": "מס תיירים: ממשלת בריטניה תאפשר לראשי ערים למסות לינה בבתי מלון",
@@ -114,7 +129,7 @@ window.DB.generated = {
      "date": "2026-09-23T09:41:00+00:00"
     },
     {
-     "title": "בדרך לחלוקת דיבידנד של חצי מיליארד שקל פרטנר קונה את כל המתנגדים",
+     "title": "בדרך לחלוקת דיבידנד של חצי מיליארד שקל: פרטנר קונה את כל המתנגדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557152",
      "date": "2026-09-23T09:39:00+00:00"
     },
@@ -159,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-23T03:25:00+00:00"
     },
     {
-     "title": "הוזלה של 1,000 שקל: מאחורי הצניחה החדה במחיר ביטוחי הרכב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557056",
-     "date": "2026-09-23T03:06:00+00:00"
-    },
-    {
      "title": "קללה או הכללה: מה מלמדת ההיסטוריה של חודשי ספטמבר ואוקטובר בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557063",
      "date": "2026-09-23T03:04:00+00:00"
@@ -199,24 +209,9 @@ window.DB.generated = {
      "date": "2026-09-22T15:20:00+00:00"
     },
     {
-     "title": "נעילה מעורבת בתל אביב; טאואר זינקה, מדד ת\"א־נפט וגז נפל ביותר מ-2%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556870",
-     "date": "2026-09-22T14:31:00+00:00"
-    },
-    {
-     "title": "הנאומים יהיו רק חלק מהסיפור: העצרת הכללית השנתית של האו\"ם נפתחת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556980",
-     "date": "2026-09-22T09:40:00+00:00"
-    },
-    {
      "title": "60 אלף פצצות בדרך לישראל. למה דווקא עכשיו?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556979",
      "date": "2026-09-22T08:35:00+00:00"
-    },
-    {
-     "title": "מישראל לצפון קוריאה: קים ג'ונג און בוחן העתקת מל\"טים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556961",
-     "date": "2026-09-22T04:19:00+00:00"
     },
     {
      "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
@@ -226,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T10:17:26+00:00",
-  "fetched_at": "2026-09-23T10:17:26+00:00"
+  "checked_at": "2026-09-23T11:17:18+00:00",
+  "fetched_at": "2026-09-23T11:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T10:17:26+00:00",
-  "fetched_at": "2026-09-23T10:17:26+00:00"
+  "checked_at": "2026-09-23T11:17:19+00:00",
+  "fetched_at": "2026-09-23T11:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2333,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T10:17:27+00:00",
-  "fetched_at": "2026-09-23T10:17:27+00:00"
+  "checked_at": "2026-09-23T11:17:20+00:00",
+  "fetched_at": "2026-09-23T11:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2439,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T10:17:27+00:00",
-  "fetched_at": "2026-09-23T10:17:27+00:00"
+  "checked_at": "2026-09-23T11:17:20+00:00",
+  "fetched_at": "2026-09-23T11:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2469,28 +2464,28 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 161,
+     "likes": 162,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 145,
+     "likes": 146,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 505,
+     "likes": 506,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 122,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2501,18 +2496,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 166,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 115,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "YuE2-3B Music Generator",
+     "desc_en": "Generate songs and covers from style prompts and lyrics.",
+     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
+     "likes": 166,
+     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2525,21 +2520,21 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 85,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 79,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T10:17:34+00:00",
-  "fetched_at": "2026-09-23T10:17:34+00:00"
+  "checked_at": "2026-09-23T11:17:25+00:00",
+  "fetched_at": "2026-09-23T11:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2872,8 +2867,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T10:17:30+00:00",
-  "fetched_at": "2026-09-23T10:17:30+00:00"
+  "checked_at": "2026-09-23T11:17:22+00:00",
+  "fetched_at": "2026-09-23T11:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2904,7 +2899,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T10:17:30+00:00",
-  "fetched_at": "2026-09-23T10:17:30+00:00"
+  "checked_at": "2026-09-23T11:17:23+00:00",
+  "fetched_at": "2026-09-23T11:17:23+00:00"
  }
 };
