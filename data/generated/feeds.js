@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T12:17:21+00:00",
-  "fetched_at": "2026-09-23T12:17:21+00:00"
+  "checked_at": "2026-09-23T13:17:28+00:00",
+  "fetched_at": "2026-09-23T13:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T12:17:30+00:00",
-  "fetched_at": "2026-09-23T12:17:30+00:00"
+  "checked_at": "2026-09-23T13:17:43+00:00",
+  "fetched_at": "2026-09-23T13:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,40 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T12:17:33+00:00",
-  "fetched_at": "2026-09-23T12:17:33+00:00"
+  "checked_at": "2026-09-23T13:17:43+00:00",
+  "fetched_at": "2026-09-23T13:17:43+00:00"
  },
- "generated_at": "2026-09-23T12:17:33+00:00",
+ "generated_at": "2026-09-23T13:17:43+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עשרות פרויקטים יתעכבו? עיריית ת\"א מחזירה את הקלות הבנייה בדלת האחורית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557065",
-     "date": "2026-09-23T10:04:00+00:00"
+     "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
+     "date": "2026-09-23T12:22:00+00:00"
     },
     {
      "title": "עלות של 2.5 מיליארד: תוכנית הענק של טראמפ לעזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T09:37:00+00:00"
+     "date": "2026-09-23T12:25:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
+     "date": "2026-09-23T12:22:00+00:00"
+    },
+    {
+     "title": "מחיר הנפט חוצה את רף ה-100 דולר; החוזים בוול סטריט אדומים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T12:15:00+00:00"
+    },
+    {
+     "title": "הירידות בתל אביב מתמתנות: הבנקים מכבידים, הקלינטק עולה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T11:50:00+00:00"
+    },
     {
      "title": "35 מיליארד שקל וענקיות מכל העולם: מאחורי הקלעים של הצגת המטרו בברלין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557173",
@@ -107,11 +122,6 @@ window.DB.generated = {
      "title": "בבנק ההשקעות קנטור מזהים הזדמנות במניות ציוד השבבים - אך מחריגים את נובה וקמטק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557155",
      "date": "2026-09-23T10:55:00+00:00"
-    },
-    {
-     "title": "הירידות בתל אביב מתמתנות: הבנקים מכבידים, הטכנולוגיה עולה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T10:37:00+00:00"
     },
     {
      "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
@@ -144,11 +154,6 @@ window.DB.generated = {
      "date": "2026-09-23T09:24:00+00:00"
     },
     {
-     "title": "ירידות באירופה; מחיר נפט מסוג ברנט חזר לטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T09:17:00+00:00"
-    },
-    {
      "title": "דוראל ואמפא בתחזית אופטימית לגבי חוות השרתים בהר טוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557121",
      "date": "2026-09-23T09:06:00+00:00"
@@ -162,11 +167,6 @@ window.DB.generated = {
      "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
      "date": "2026-09-23T07:51:00+00:00"
-    },
-    {
-     "title": "בעיצומו של המשבר: מיטרוניקס מבצעת ריקול למוצר מחשש לשריפה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557096",
-     "date": "2026-09-23T07:21:00+00:00"
     },
     {
      "title": "כלל ביטוח בדרך להשקעה באחד מבנקי ההשקעות הוותיקים בישראל",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T12:17:22+00:00",
-  "fetched_at": "2026-09-23T12:17:22+00:00"
+  "checked_at": "2026-09-23T13:17:30+00:00",
+  "fetched_at": "2026-09-23T13:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T12:17:23+00:00",
-  "fetched_at": "2026-09-23T12:17:23+00:00"
+  "checked_at": "2026-09-23T13:17:31+00:00",
+  "fetched_at": "2026-09-23T13:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T12:17:24+00:00",
-  "fetched_at": "2026-09-23T12:17:24+00:00"
+  "checked_at": "2026-09-23T13:17:33+00:00",
+  "fetched_at": "2026-09-23T13:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T12:17:24+00:00",
-  "fetched_at": "2026-09-23T12:17:24+00:00"
+  "checked_at": "2026-09-23T13:17:33+00:00",
+  "fetched_at": "2026-09-23T13:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2466,21 +2466,21 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 146,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 508,
+     "likes": 510,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2494,7 +2494,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 128,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2508,14 +2508,14 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 167,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2529,14 +2529,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T12:17:30+00:00",
-  "fetched_at": "2026-09-23T12:17:30+00:00"
+  "checked_at": "2026-09-23T13:17:42+00:00",
+  "fetched_at": "2026-09-23T13:17:42+00:00"
  },
  "abroad": {
   "data": {
@@ -2594,15 +2594,6 @@ window.DB.generated = {
      "players": [
       "אוסקר גלוך",
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "כאב הראש מארה\"ב, הבורות האירית והדיון סביב סבע",
-     "link": "https://www.one.co.il/Article/534019.html?ref=rss",
-     "date": "2026-09-22T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דיא סבע"
      ]
     },
     {
@@ -2869,8 +2860,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T12:17:27+00:00",
-  "fetched_at": "2026-09-23T12:17:27+00:00"
+  "checked_at": "2026-09-23T13:17:37+00:00",
+  "fetched_at": "2026-09-23T13:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -2901,7 +2892,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T12:17:27+00:00",
-  "fetched_at": "2026-09-23T12:17:27+00:00"
+  "checked_at": "2026-09-23T13:17:37+00:00",
+  "fetched_at": "2026-09-23T13:17:37+00:00"
  }
 };
