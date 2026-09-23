@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T11:17:17+00:00",
-  "fetched_at": "2026-09-23T11:17:17+00:00"
+  "checked_at": "2026-09-23T12:17:21+00:00",
+  "fetched_at": "2026-09-23T12:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T11:17:26+00:00",
-  "fetched_at": "2026-09-23T11:17:26+00:00"
+  "checked_at": "2026-09-23T12:17:30+00:00",
+  "fetched_at": "2026-09-23T12:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "FiiO’s new CD player wants to do it all – with a DAC, pre-amplifier and more",
+    "title_he": "נגן התקליטורים החדש של FiiO רוצה לעשות הכל - עם DAC, מגבר קדם ועוד",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/cd-players/fiios-new-cd-player-wants-to-do-it-all-with-a-dac-pre-amplifier-and-more",
+    "date": "2026-09-23T12:03:04+00:00"
+   },
+   {
+    "title_en": "Tired of charging your speaker every weekend? This half-price, Award-winning JBL with a 24-hour battery will outlast even your longest party",
+    "title_he": "נמאס לכם להטעין את הרמקול שלכם בכל סוף שבוע? JBL עטור הפרסים בחצי מחיר זה עם סוללה של 24 שעות יחזיק מעמד אפילו את המסיבה הארוכה ביותר שלך",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/tired-of-charging-your-speaker-every-weekend-this-half-price-award-winning-jbl-with-a-24-hour-battery-will-outlast-even-your-longest-party",
+    "date": "2026-09-23T11:39:04+00:00"
+   },
    {
     "title_en": "Are good hi-fi and home cinema sound the same thing?",
     "title_he": "האם Hi-Fi טוב וקולנוע ביתי נשמעים אותו הדבר?",
@@ -60,27 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/its-official-beats-new-flagship-wireless-headphones-are-here-and-theyre-pitched-as-the-brands-best-sounding-cans-ever",
     "date": "2026-09-22T14:00:00+00:00"
-   },
-   {
-    "title_en": "Sonos Beam Ultra vs Arc Ultra: which five-star soundbar should you buy?",
-    "title_he": "Sonos Beam Ultra vs Arc Ultra: איזה סאונד בר חמישה כוכבים כדאי לקנות?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-vs-arc-ultra-which-five-star-soundbar-should-you-buy",
-    "date": "2026-09-22T13:28:31+00:00"
-   },
-   {
-    "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
-    "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
-    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T11:17:27+00:00",
-  "fetched_at": "2026-09-23T11:17:27+00:00"
+  "checked_at": "2026-09-23T12:17:33+00:00",
+  "fetched_at": "2026-09-23T12:17:33+00:00"
  },
- "generated_at": "2026-09-23T11:17:27+00:00",
+ "generated_at": "2026-09-23T12:17:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -96,6 +96,11 @@
     }
    ],
    "market": [
+    {
+     "title": "35 מיליארד שקל וענקיות מכל העולם: מאחורי הקלעים של הצגת המטרו בברלין",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557173",
+     "date": "2026-09-23T11:29:00+00:00"
+    },
     {
      "title": "בבנק ההשקעות קנטור מזהים הזדמנות במניות ציוד השבבים - אך מחריגים את נובה וקמטק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557155",
@@ -137,7 +142,7 @@
      "date": "2026-09-23T09:24:00+00:00"
     },
     {
-     "title": "מגמה מעורבת באירופה; מחיר נפט מסוג ברנט חזר לטפס",
+     "title": "ירידות באירופה; מחיר נפט מסוג ברנט חזר לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
      "date": "2026-09-23T09:17:00+00:00"
     },
@@ -202,11 +207,6 @@
      "date": "2026-09-22T18:00:00+00:00"
     },
     {
-     "title": "בת המהגרים שסחפה את ברלין בצל סקנדלים אנטישמיים במפלגתה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557042",
-     "date": "2026-09-22T15:20:00+00:00"
-    },
-    {
      "title": "60 אלף פצצות בדרך לישראל. למה דווקא עכשיו?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556979",
      "date": "2026-09-22T08:35:00+00:00"
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T11:17:18+00:00",
-  "fetched_at": "2026-09-23T11:17:18+00:00"
+  "checked_at": "2026-09-23T12:17:22+00:00",
+  "fetched_at": "2026-09-23T12:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T11:17:19+00:00",
-  "fetched_at": "2026-09-23T11:17:19+00:00"
+  "checked_at": "2026-09-23T12:17:23+00:00",
+  "fetched_at": "2026-09-23T12:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2326,8 +2326,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T11:17:20+00:00",
-  "fetched_at": "2026-09-23T11:17:20+00:00"
+  "checked_at": "2026-09-23T12:17:24+00:00",
+  "fetched_at": "2026-09-23T12:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2432,8 +2432,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T11:17:20+00:00",
-  "fetched_at": "2026-09-23T11:17:20+00:00"
+  "checked_at": "2026-09-23T12:17:24+00:00",
+  "fetched_at": "2026-09-23T12:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2456,13 +2456,15 @@
     }
    ],
    "candidates": 10,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 162,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2476,7 +2478,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 506,
+     "likes": 508,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2490,29 +2492,22 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 127,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 166,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 126,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2522,17 +2517,24 @@
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 126,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T11:17:25+00:00",
-  "fetched_at": "2026-09-23T11:17:25+00:00"
+  "checked_at": "2026-09-23T12:17:30+00:00",
+  "fetched_at": "2026-09-23T12:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2865,8 +2867,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T11:17:22+00:00",
-  "fetched_at": "2026-09-23T11:17:22+00:00"
+  "checked_at": "2026-09-23T12:17:27+00:00",
+  "fetched_at": "2026-09-23T12:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -2897,7 +2899,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T11:17:23+00:00",
-  "fetched_at": "2026-09-23T11:17:23+00:00"
+  "checked_at": "2026-09-23T12:17:27+00:00",
+  "fetched_at": "2026-09-23T12:17:27+00:00"
  }
 }
