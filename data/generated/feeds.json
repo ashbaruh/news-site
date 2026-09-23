@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T04:17:13+00:00",
-  "fetched_at": "2026-09-23T04:17:13+00:00"
+  "checked_at": "2026-09-23T05:14:29+00:00",
+  "fetched_at": "2026-09-23T05:14:29+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T04:17:27+00:00",
-  "fetched_at": "2026-09-23T04:17:27+00:00"
+  "checked_at": "2026-09-23T05:14:40+00:00",
+  "fetched_at": "2026-09-23T05:14:40+00:00"
  },
  "av_en": {
   "data": [
@@ -62,40 +62,75 @@
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
-    "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "Sonos Beam Ultra",
     "title_he": null,
     "translated_by": null,
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
+    "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T04:17:28+00:00",
-  "fetched_at": "2026-09-23T04:17:28+00:00"
+  "checked_at": "2026-09-23T05:14:41+00:00",
+  "fetched_at": "2026-09-23T05:14:41+00:00"
  },
- "generated_at": "2026-09-23T04:17:28+00:00",
+ "generated_at": "2026-09-23T05:14:41+00:00",
  "globes": {
   "data": {
    "top": [
+    {
+     "title": "פופולרית יותר מכיפת ברזל: מערכת ההגנה הישראלית שהפכה ללהיט גלובלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
+     "date": "2026-09-23T02:57:00+00:00"
+    },
+    {
+     "title": "א-שרע בשולי עצרת האו\"ם: \"הגענו עם ישראל ל-90% הסכמה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
+     "date": "2026-09-23T04:51:00+00:00"
+    }
+   ],
+   "market": [
+    {
+     "title": "מצב השווקים: מחירי הנפט יורדים, והמניה שבדרך לחודש החזק מזה 13 שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T04:02:00+00:00"
+    },
+    {
+     "title": "מועדון המניות שעשה 32% בשנה מציג 15 בחירות חדשות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557090",
+     "date": "2026-09-23T03:25:00+00:00"
+    },
+    {
+     "title": "מחיר ביטוח הרכב צנח בשיעור החד מזה 42 שנה. אלה הסיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557056",
+     "date": "2026-09-23T03:06:00+00:00"
+    },
+    {
+     "title": "קללה או הכללה: מה מלמדת ההיסטוריה של חודשי ספטמבר ואוקטובר בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557063",
+     "date": "2026-09-23T03:04:00+00:00"
+    },
+    {
+     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
+     "date": "2026-09-23T03:00:00+00:00"
+    },
+    {
+     "title": "וול סטריט נכנסת לרבעון החזק בשנה, הפד עלול לקלקל אותו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556981",
+     "date": "2026-09-23T02:59:00+00:00"
+    },
     {
      "title": "יותר מבוקשת מכיפת ברזל: מערכת ההגנה האנונימית שהפכה ללהיט באירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
      "date": "2026-09-23T02:57:00+00:00"
     },
-    {
-     "title": "האמירויות התריעו לישראל לפני 7.10: \"חמאס יפעל\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T03:30:00+00:00"
-    }
-   ],
-   "market": [
     {
      "title": "נעילה מעורבת בוול סטריט: הנאסד\"ק קבע שיא תוך-יומי חדש; מחירי הנפט בשפל של שבועיים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
@@ -162,11 +197,6 @@
      "date": "2026-09-22T04:19:00+00:00"
     },
     {
-     "title": "ראלי ה-AI בשווקים מגיע דווקא כשהחששות מפני בועה מרימים ראש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556935",
-     "date": "2026-09-22T03:12:00+00:00"
-    },
-    {
      "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
      "date": "2026-09-22T02:53:00+00:00"
@@ -175,42 +205,12 @@
      "title": "בגיל 76 הסוחר הוותיק עדיין נהנה מכל רגע ומזהיר ממה שעומד לקרות בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556881",
      "date": "2026-09-22T02:51:00+00:00"
-    },
-    {
-     "title": "הנאסד\"ק זינק במעל 2% לשיא חדש; מניות השבבים קפצו בהובלת מטא ואינטל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556952",
-     "date": "2026-09-21T20:00:00+00:00"
-    },
-    {
-     "title": "טראמפ תקף את התקשורת האמריקאית. כעת היא משיבה מלחמה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556956",
-     "date": "2026-09-21T17:11:00+00:00"
-    },
-    {
-     "title": "\"אנחנו יודעים שאת גרה כאן\": אין סודות ברשת המעקב החדשה של ארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001555551",
-     "date": "2026-09-21T17:00:00+00:00"
-    },
-    {
-     "title": "משפחות פשע ותומכי טרור פלסטיני בחגיגות הניצחון של מפלגת השמאל בברלין",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556953",
-     "date": "2026-09-21T16:49:00+00:00"
-    },
-    {
-     "title": "סכסוך ענק במגדל היוקרה בתל אביב: תביעות הדדיות של מעל מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556951",
-     "date": "2026-09-20T08:15:00+00:00"
-    },
-    {
-     "title": "כל הנורות האדומות נדלקות - אבל וול סטריט עדיין לא נבהלת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556949",
-     "date": "2026-09-20T05:34:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T04:17:14+00:00",
-  "fetched_at": "2026-09-23T04:17:14+00:00"
+  "checked_at": "2026-09-23T05:14:30+00:00",
+  "fetched_at": "2026-09-23T05:14:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1854,8 +1854,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T04:17:15+00:00",
-  "fetched_at": "2026-09-23T04:17:15+00:00"
+  "checked_at": "2026-09-23T05:14:31+00:00",
+  "fetched_at": "2026-09-23T05:14:31+00:00"
  },
  "tv": {
   "data": [
@@ -2260,8 +2260,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T04:17:17+00:00",
-  "fetched_at": "2026-09-23T04:17:17+00:00"
+  "checked_at": "2026-09-23T05:14:32+00:00",
+  "fetched_at": "2026-09-23T05:14:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2366,8 +2366,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T04:17:17+00:00",
-  "fetched_at": "2026-09-23T04:17:17+00:00"
+  "checked_at": "2026-09-23T05:14:32+00:00",
+  "fetched_at": "2026-09-23T05:14:32+00:00"
  },
  "ai": {
   "data": {
@@ -2396,35 +2396,35 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 152,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 503,
+     "likes": 504,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 139,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 120,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 125,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2435,18 +2435,18 @@
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 125,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 114,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 125,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2459,18 +2459,37 @@
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 76,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T04:17:26+00:00",
-  "fetched_at": "2026-09-23T04:17:26+00:00"
+  "checked_at": "2026-09-23T05:14:39+00:00",
+  "fetched_at": "2026-09-23T05:14:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3869427",
+     "date": "2026-09-23T05:10:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"גלוך, סולומון ודור פרץ שחקנים ממש טובים\"",
+     "link": "https://www.one.co.il/Article/534077.html?ref=rss",
+     "date": "2026-09-23T04:25:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "כאב הראש מארה\"ב, הבורות האירית והדיון סביב סבע",
      "link": "https://www.one.co.il/Article/534019.html?ref=rss",
@@ -2514,24 +2533,6 @@
      "source": "וואלה",
      "players": [
       "יהב גורפינקל"
-     ]
-    },
-    {
-     "title": "כבוד: ענאן חלאילי בנבחרת העונה של אתר הסטטיסטיקה הפופולרי",
-     "link": "https://sports.walla.co.il/item/3869105",
-     "date": "2026-09-21T16:14:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "מוחמד אבו פאני כבש, לויזו בישל ב-0:3 של הכוכב האדום",
-     "link": "https://sports.walla.co.il/item/3869104",
-     "date": "2026-09-21T16:14:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מוחמד אבו פאני"
      ]
     },
     {
@@ -2771,8 +2772,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T04:17:21+00:00",
-  "fetched_at": "2026-09-23T04:17:21+00:00"
+  "checked_at": "2026-09-23T05:14:35+00:00",
+  "fetched_at": "2026-09-23T05:14:35+00:00"
  },
  "idf": {
   "data": [
@@ -2803,7 +2804,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T04:17:21+00:00",
-  "fetched_at": "2026-09-23T04:17:21+00:00"
+  "checked_at": "2026-09-23T05:14:35+00:00",
+  "fetched_at": "2026-09-23T05:14:35+00:00"
  }
 }
