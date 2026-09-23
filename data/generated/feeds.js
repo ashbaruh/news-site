@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T03:17:23+00:00",
-  "fetched_at": "2026-09-23T03:17:23+00:00"
+  "checked_at": "2026-09-23T04:17:13+00:00",
+  "fetched_at": "2026-09-23T04:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T03:17:34+00:00",
-  "fetched_at": "2026-09-23T03:17:34+00:00"
+  "checked_at": "2026-09-23T04:17:27+00:00",
+  "fetched_at": "2026-09-23T04:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
     "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T03:17:36+00:00",
-  "fetched_at": "2026-09-23T03:17:36+00:00"
+  "checked_at": "2026-09-23T04:17:28+00:00",
+  "fetched_at": "2026-09-23T04:17:28+00:00"
  },
- "generated_at": "2026-09-23T03:17:36+00:00",
+ "generated_at": "2026-09-23T04:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-23T02:57:00+00:00"
     },
     {
-     "title": "טראמפ: \"יש תנופה משמעותית לקראת הסכם עם איראן\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556960",
-     "date": "2026-09-22T20:08:00+00:00"
+     "title": "האמירויות התריעו לישראל לפני 7.10: \"חמאס יפעל\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
+     "date": "2026-09-23T03:30:00+00:00"
     }
    ],
    "market": [
@@ -204,11 +204,6 @@ window.DB.generated = {
      "date": "2026-09-20T08:15:00+00:00"
     },
     {
-     "title": "פרשת ההונאה בטורקיה היא בדיוק מה שארדואן חיכה לו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556950",
-     "date": "2026-09-20T07:53:00+00:00"
-    },
-    {
      "title": "כל הנורות האדומות נדלקות - אבל וול סטריט עדיין לא נבהלת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556949",
      "date": "2026-09-20T05:34:00+00:00"
@@ -216,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T03:17:24+00:00",
-  "fetched_at": "2026-09-23T03:17:24+00:00"
+  "checked_at": "2026-09-23T04:17:14+00:00",
+  "fetched_at": "2026-09-23T04:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T03:17:25+00:00",
-  "fetched_at": "2026-09-23T03:17:25+00:00"
+  "checked_at": "2026-09-23T04:17:15+00:00",
+  "fetched_at": "2026-09-23T04:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2262,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T03:17:26+00:00",
-  "fetched_at": "2026-09-23T03:17:26+00:00"
+  "checked_at": "2026-09-23T04:17:17+00:00",
+  "fetched_at": "2026-09-23T04:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2373,8 +2368,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T03:17:26+00:00",
-  "fetched_at": "2026-09-23T03:17:26+00:00"
+  "checked_at": "2026-09-23T04:17:17+00:00",
+  "fetched_at": "2026-09-23T04:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2403,14 +2398,14 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 151,
+     "likes": 152,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 499,
+     "likes": 503,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2431,7 +2426,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2466,14 +2461,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 74,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T03:17:34+00:00",
-  "fetched_at": "2026-09-23T03:17:34+00:00"
+  "checked_at": "2026-09-23T04:17:26+00:00",
+  "fetched_at": "2026-09-23T04:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2778,8 +2773,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T03:17:29+00:00",
-  "fetched_at": "2026-09-23T03:17:29+00:00"
+  "checked_at": "2026-09-23T04:17:21+00:00",
+  "fetched_at": "2026-09-23T04:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2810,7 +2805,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T03:17:30+00:00",
-  "fetched_at": "2026-09-23T03:17:30+00:00"
+  "checked_at": "2026-09-23T04:17:21+00:00",
+  "fetched_at": "2026-09-23T04:17:21+00:00"
  }
 };
