@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T05:17:18+00:00",
-  "fetched_at": "2026-09-23T05:17:18+00:00"
+  "checked_at": "2026-09-23T06:17:23+00:00",
+  "fetched_at": "2026-09-23T06:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T05:17:30+00:00",
-  "fetched_at": "2026-09-23T05:17:30+00:00"
+  "checked_at": "2026-09-23T06:17:35+00:00",
+  "fetched_at": "2026-09-23T06:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-22T13:28:31+00:00"
    },
    {
-    "title_en": "Sonos Beam Ultra",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
-    "date": "2026-09-22T13:00:00+00:00"
-   },
-   {
     "title_en": "The Sonos Beam Ultra is finally here – these are three things we liked and two we would change",
     "title_he": "ה- Sonos Beam Ultra סוף סוף כאן - אלו שלושה דברים שאהבנו ושניים שהיינו משנים",
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-finally-here-these-are-three-things-we-liked-and-two-we-would-change",
     "date": "2026-09-22T13:00:00+00:00"
+   },
+   {
+    "title_en": "Sonos Beam Ultra",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-beam-ultra-soundbar",
+    "date": "2026-09-22T13:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T05:17:31+00:00",
-  "fetched_at": "2026-09-23T05:17:31+00:00"
+  "checked_at": "2026-09-23T06:17:37+00:00",
+  "fetched_at": "2026-09-23T06:17:37+00:00"
  },
- "generated_at": "2026-09-23T05:17:31+00:00",
+ "generated_at": "2026-09-23T06:17:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,7 +99,12 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "מצב השווקים: מחירי הנפט יורדים, והמניה שבדרך לחודש החזק מזה 13 שנים",
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T05:21:00+00:00"
+    },
+    {
+     "title": "מצב השווקים: מחירי הנפט ממשיכים לרדת וענקית הטכנולוגיה שבדרך לחודש הכי חזק מאז 2013",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
      "date": "2026-09-23T04:02:00+00:00"
     },
@@ -109,7 +114,7 @@ window.DB.generated = {
      "date": "2026-09-23T03:25:00+00:00"
     },
     {
-     "title": "מחיר ביטוח הרכב צנח בשיעור החד מזה 42 שנה. אלה הסיבות",
+     "title": "הוזלה של 1,000 שקל: מאחורי הצניחה החדה במחיר ביטוחי הרכב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557056",
      "date": "2026-09-23T03:06:00+00:00"
     },
@@ -189,11 +194,6 @@ window.DB.generated = {
      "date": "2026-09-22T08:35:00+00:00"
     },
     {
-     "title": "תמורת 38 מיליון שקל: האקזיט הפיננסי של נבחרת כוכבי השוק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556962",
-     "date": "2026-09-22T05:48:00+00:00"
-    },
-    {
      "title": "מישראל לצפון קוריאה: קים ג'ונג און בוחן העתקת מל\"טים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556961",
      "date": "2026-09-22T04:19:00+00:00"
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T05:17:19+00:00",
-  "fetched_at": "2026-09-23T05:17:19+00:00"
+  "checked_at": "2026-09-23T06:17:24+00:00",
+  "fetched_at": "2026-09-23T06:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T05:17:20+00:00",
-  "fetched_at": "2026-09-23T05:17:20+00:00"
+  "checked_at": "2026-09-23T06:17:25+00:00",
+  "fetched_at": "2026-09-23T06:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2262,8 +2262,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T05:17:21+00:00",
-  "fetched_at": "2026-09-23T05:17:21+00:00"
+  "checked_at": "2026-09-23T06:17:27+00:00",
+  "fetched_at": "2026-09-23T06:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2368,8 +2368,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T05:17:21+00:00",
-  "fetched_at": "2026-09-23T05:17:21+00:00"
+  "checked_at": "2026-09-23T06:17:27+00:00",
+  "fetched_at": "2026-09-23T06:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2398,7 +2398,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 154,
+     "likes": 156,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2423,13 +2423,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 127,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
@@ -2437,10 +2430,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 127,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 114,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2454,7 +2454,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 81,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2467,12 +2467,39 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T05:17:29+00:00",
-  "fetched_at": "2026-09-23T05:17:29+00:00"
+  "checked_at": "2026-09-23T06:17:34+00:00",
+  "fetched_at": "2026-09-23T06:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"פתיחת עונה סנסציונית\". אוהדי ווסטהאם מאוהבים בסולומון",
+     "link": "https://sports.walla.co.il/item/3869454",
+     "date": "2026-09-23T06:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "חיים רביבו: \"רוי מגן שמאלי בגללי, לא רציתי שישוו בינינו\"",
+     "link": "https://sports.walla.co.il/item/3869450",
+     "date": "2026-09-23T05:40:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "\"חדשות רעות מאוד לדני אבדיה\". המהלך שפגע באולסטאר הישראלי",
+     "link": "https://sports.walla.co.il/item/3869446",
+     "date": "2026-09-23T05:23:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
      "link": "https://sports.walla.co.il/item/3869427",
@@ -2774,8 +2801,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T05:17:25+00:00",
-  "fetched_at": "2026-09-23T05:17:25+00:00"
+  "checked_at": "2026-09-23T06:17:30+00:00",
+  "fetched_at": "2026-09-23T06:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2806,7 +2833,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T05:17:25+00:00",
-  "fetched_at": "2026-09-23T05:17:25+00:00"
+  "checked_at": "2026-09-23T06:17:30+00:00",
+  "fetched_at": "2026-09-23T06:17:30+00:00"
  }
 };
