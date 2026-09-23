@@ -64,6 +64,7 @@
 12.714,
 43.5008
 ],
+"bab al-mandeb strait, yemen": null,
 "bab al-mandeb, yemen": null,
 "bab el-mandab, yemen": null,
 "bab el-mandeb": [
@@ -94,6 +95,10 @@
 35.5026
 ],
 "bekaa, lebanon": null,
+"bezruky, ukraine": [
+50.0077,
+34.6354
+],
 "black sea": [
 43.8728,
 33.9938
@@ -267,6 +272,10 @@
 48.5349,
 37.6924
 ],
+"kramatorsk, ukraine": [
+48.7389,
+37.5844
+],
 "kryvyi rih, ukraine": [
 47.9103,
 33.3918
@@ -391,9 +400,14 @@
 50.1102,
 30.627
 ],
+"odesa region, ukraine": null,
 "odesa, ukraine": [
 46.4843,
 30.7323
+],
+"oleksandrivka, ukraine": [
+48.7074,
+36.9208
 ],
 "oman": null,
 "oryol oblast, russia": null,
@@ -413,12 +427,14 @@
 32.0878,
 34.886
 ],
+"poland": null,
 "qeshm island, iran": [
 26.7687,
 55.8477
 ],
 "quneitra countryside, syria": null,
 "quneitra, syria": null,
+"raf akrotiri, cyprus": null,
 "red sea": [
 20.2966,
 38.5343

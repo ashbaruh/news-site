@@ -1,0 +1,255 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3346dc400a6a",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-23T15:39:40+00:00",
+  "window": {
+   "from": "2026-09-22T15:39:40+00:00",
+   "to": "2026-09-23T15:39:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609231539"
+  },
+  "summary": "הזירה בתימן מאופיינת בהסלמה מחודשת לאחר קריסת הפפואזה, כאשר החות'ים מקדמים התקדמות קרקעית משמעותית בחוף הים האדום ובבאב אל-מנדב מול כוחות הממשלה וסעודיה. סעודיה נשענת על תקיפות ועל סיוע חיצוני כמו תדלוק מצד בריטניה, בעוד החות'ים משגרים טילים וכטב\"מים לעבר סעודיה ומאיימים בפגיעה באינטרסים אמריקאיים.",
+  "fronts": [
+   {
+    "name": "חזית חוף הים האדום ומצר באב אל-מנדב",
+    "status": "פעיל ומתאפיין בקרבות קשים והתקדמות של החות'ים"
+   },
+   {
+    "name": "החזית הפנימית בתימן (תעז, אל-ג'וף ומאריב)",
+    "status": "פעיל עם תקיפות אוויריות וקרבות קרקעיים"
+   },
+   {
+    "name": "חזית שיגורים לעבר סעודיה",
+    "status": "פעיל עם שיגורי טילים וכטב\"מים מצד החות'ים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09231539-01",
+    "title": "תקיפות אוויריות בתימן והרוגים",
+    "summary": "כלי תקשורת המשויכים לחות'ים דיווחו על הרוגים ופצועים כתוצאה מתקיפות אוויריות סעודיות במחוזות תעז ואל-ג'וף.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T13:57:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T13:57:36+00:00",
+    "last_update_at": "2026-09-23T12:53:13+00:00",
+    "what_is_not_verified": "מספרי הנפגעים והאחריות המדויקת לתקיפות לא אומתו ממקור ראשון בלתי תלוי",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-affiliated-media-says-saudi-airstrikes-kill-10-yemen-wound-14",
+      "published_at": "2026-09-23T12:53:13+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.theguardian.com/world/2026/sep/22/yemen-houthis-battle-strategic-red-sea-heights",
+      "published_at": "2026-09-22T13:57:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09231539-02",
+    "title": "איום החות'ים על האינטרסים של ארצות הברית",
+    "summary": "יועץ צבאי של החות'ים הזהיר מפני פגיעה באינטרסים אמריקאיים באזור ובסגירת מצר באב אל-מנדב אם ארצות הברית תתערב צבאית.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T11:31:50+00:00",
+    "last_update_at": "2026-09-23T11:58:35+00:00",
+    "what_is_not_verified": "מימוש האיומים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_afp",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-adviser-warns-attacks-us-interests-if-washington-intervenes-yemen",
+      "published_at": "2026-09-23T11:58:35+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_afp",
+      "url": "https://www.newarab.com/news/yemens-houthis-target-us-interests-if-supports-saudi-strikes",
+      "published_at": "2026-09-23T11:31:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09231539-03",
+    "title": "בריטניה תספק תדלוק אווירי למטוסים סעודיים",
+    "summary": "בריטניה אישרה בקשה סעודית לספק תדלוק אווירי הגנתי למטוסי קרב סעודיים המתמודדים עם התקפות החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T13:49:22+00:00",
+    "last_update_at": "2026-09-22T15:39:40+00:00",
+    "what_is_not_verified": "היקף הביצוע בפועל של משימות התדלוק",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_21df67c7626312b2",
+      "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+      "published_at": "2026-09-22T13:49:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09231539-04",
+    "title": "מתקפת נגד והשתלטות חות'ית באזור חוף הים האדום",
+    "summary": "החות'ים ביצעו התקדמות בחוף הים האדום והשתלטו על שטחים ועל נמל מוקא, תוך עימותים עם כוחות הממשלה התימנית הנתמכת בידי סעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-22T13:49:22+00:00",
+    "last_update_at": "2026-09-23T12:53:13+00:00",
+    "what_is_not_verified": "השליטה המלאה בכלל הנקודות בשטח",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-affiliated-media-says-saudi-airstrikes-kill-10-yemen-wound-14",
+      "published_at": "2026-09-23T12:53:13+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.theguardian.com/world/video/2026/sep/22/how-the-civil-war-in-yemen-could-affect-global-shipping-routes-explainer",
+      "published_at": "2026-09-22T19:19:02+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+      "published_at": "2026-09-22T13:49:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוקא, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "בקשת סעודיה הרשמית מארצות הברית לתקיפות אוויריות והתשובה המדויקת של ממשל טראמפ",
+   "מספרי הנפגעים המדויקים מן התקיפות בסעודיה ובתימן",
+   "היקף שיתוף הפעולה המדויק בין איראן לחות'ים בלחימה הנוכחית"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0161,
+    "unit": "ILS",
+    "change_pct": -0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנסאר אללה)",
+    "declared": [
+     "מניעת התערבות זרה בבאב אל-מנדב",
+     "תקיפת יעדים בסעודיה ובאינטרסים אמריקאיים במקרה של התערבות"
+    ],
+    "inferred": [
+     "השתלטות על נתיבי סחר ימיים אסטרטגיים בים האדום",
+     "הרחבת השליטה הטריטוריאלית בתימן על חשבון כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך שיבוש התנועה הימית בבאב אל-מנדב",
+     "הגברת העימותים מול כוחות הנתמכים בידי סעודיה"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "הגנה על שטחי הממלכה מפני תקיפות טילים וכטב\"מים",
+     "בלימת התקדמות החות'ים בתימן"
+    ],
+    "inferred": [
+     "גיוס תמיכה צבאית בינלאומית, כולל מארצות הברית ומבריטניה, לנוכח לחץ החות'ים",
+     "שמירה על תשתיות האנרגיה והיציבות הכלכלית"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות ופעילות צבאית בתימן",
+     "הסתייעות בבעלות ברית מערביות לתדלוק ולגאנה אווירית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית ובריטניה",
+    "declared": [
+     "הגנה על חופש השיט ואבטחת נתיבי אנרגיה אזוריים",
+     "מתן סיוע הגנתי לבעלות ברית אזוריות"
+    ],
+    "inferred": [
+     "זהירות מפני מעורבות צבאית ישירה ויקרה בקרקע בתימן",
+     "מתן מענה מדוד (כמו תדלוק אווירי) במטרה לאזן בין צרכי הביטחון לרצון להימנע ממלחמה רחבה"
+    ],
+    "forecast": [
+     "המשך תמיכה לוגיסטית והגנתית בסעודיה",
+     "אפשרות להסלמה נוספת אם החות'ים יפגעו בנכסים או באוניות מערביות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/sep/22/how-the-civil-war-in-yemen-could-affect-global-shipping-routes-explainer",
+    "accessed_at": "2026-09-23T15:39:40+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-affiliated-media-says-saudi-airstrikes-kill-10-yemen-wound-14",
+    "accessed_at": "2026-09-23T15:39:40+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
+    "accessed_at": "2026-09-23T15:39:40+00:00"
+   }
+  ]
+ }
+}
