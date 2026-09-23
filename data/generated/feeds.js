@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T14:17:13+00:00",
-  "fetched_at": "2026-09-23T14:17:13+00:00"
+  "checked_at": "2026-09-23T15:03:13+00:00",
+  "fetched_at": "2026-09-23T15:03:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T14:17:25+00:00",
-  "fetched_at": "2026-09-23T14:17:25+00:00"
+  "checked_at": "2026-09-23T15:03:32+00:00",
+  "fetched_at": "2026-09-23T15:03:32+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T14:17:26+00:00",
-  "fetched_at": "2026-09-23T14:17:26+00:00"
+  "checked_at": "2026-09-23T15:03:33+00:00",
+  "fetched_at": "2026-09-23T15:03:33+00:00"
  },
- "generated_at": "2026-09-23T14:17:26+00:00",
+ "generated_at": "2026-09-23T15:03:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-23T14:03:00+00:00"
     },
     {
-     "title": "נשיא סוריה בעצרת הכללית של האו\"ם: \"הגולן יישאר אדמה סורית\"",
+     "title": "האמירה השקרית של נשיא איראן באו\"ם: \"לא תקפנו אזרחים\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T14:06:00+00:00"
+     "date": "2026-09-23T14:51:00+00:00"
     }
    ],
    "market": [
@@ -139,7 +139,7 @@ window.DB.generated = {
      "date": "2026-09-23T10:15:00+00:00"
     },
     {
-     "title": "מס תיירים: ממשלת בריטניה תאפשר לראשי ערים למסות לינה בבתי מלון",
+     "title": "עוד 120 ליש\"ט לחופשה? המס החדש שמסעיר את בריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557151",
      "date": "2026-09-23T09:51:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T14:17:14+00:00",
-  "fetched_at": "2026-09-23T14:17:14+00:00"
+  "checked_at": "2026-09-23T15:03:14+00:00",
+  "fetched_at": "2026-09-23T15:03:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T14:17:15+00:00",
-  "fetched_at": "2026-09-23T14:17:15+00:00"
+  "checked_at": "2026-09-23T15:03:15+00:00",
+  "fetched_at": "2026-09-23T15:03:15+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2323,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T14:17:16+00:00",
-  "fetched_at": "2026-09-23T14:17:16+00:00"
+  "checked_at": "2026-09-23T15:03:16+00:00",
+  "fetched_at": "2026-09-23T15:03:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2429,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T14:17:16+00:00",
-  "fetched_at": "2026-09-23T14:17:16+00:00"
+  "checked_at": "2026-09-23T15:03:16+00:00",
+  "fetched_at": "2026-09-23T15:03:16+00:00"
  },
  "ai": {
   "data": {
@@ -2452,14 +2452,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 11,
    "failed_sources": [],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 166,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2473,7 +2473,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 510,
+     "likes": 511,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2487,7 +2487,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2515,7 +2515,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 85,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2528,8 +2528,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T14:17:24+00:00",
-  "fetched_at": "2026-09-23T14:17:24+00:00"
+  "checked_at": "2026-09-23T15:03:31+00:00",
+  "fetched_at": "2026-09-23T15:03:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2853,8 +2853,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T14:17:20+00:00",
-  "fetched_at": "2026-09-23T14:17:20+00:00"
+  "checked_at": "2026-09-23T15:03:18+00:00",
+  "fetched_at": "2026-09-23T15:03:18+00:00"
  },
  "idf": {
   "data": [
@@ -2885,7 +2885,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T14:17:20+00:00",
-  "fetched_at": "2026-09-23T14:17:20+00:00"
+  "checked_at": "2026-09-23T15:03:19+00:00",
+  "fetched_at": "2026-09-23T15:03:19+00:00"
  }
 };
