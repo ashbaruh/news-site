@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T18:17:24+00:00",
-  "fetched_at": "2026-09-23T18:17:24+00:00"
+  "checked_at": "2026-09-23T19:04:56+00:00",
+  "fetched_at": "2026-09-23T19:04:56+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T18:17:39+00:00",
-  "fetched_at": "2026-09-23T18:17:39+00:00"
+  "checked_at": "2026-09-23T19:05:08+00:00",
+  "fetched_at": "2026-09-23T19:05:08+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T18:17:39+00:00",
-  "fetched_at": "2026-09-23T18:17:39+00:00"
+  "checked_at": "2026-09-23T19:05:08+00:00",
+  "fetched_at": "2026-09-23T19:05:08+00:00"
  },
- "generated_at": "2026-09-23T18:17:39+00:00",
+ "generated_at": "2026-09-23T19:05:08+00:00",
  "globes": {
   "data": {
    "top": [
@@ -101,7 +101,17 @@ window.DB.generated = {
     {
      "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T17:25:00+00:00"
+     "date": "2026-09-23T18:37:00+00:00"
+    },
+    {
+     "title": "הארווי ויינשטיין נידון ל-15 שנות מאסר במשפט החוזר בניו יורק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557433",
+     "date": "2026-09-23T18:35:00+00:00"
+    },
+    {
+     "title": "איש השב\"כ שלקח חברה מדשדשת והביא אותה לשווי של יותר מ־2 מיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557361",
+     "date": "2026-09-23T18:00:00+00:00"
     },
     {
      "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
@@ -207,17 +217,12 @@ window.DB.generated = {
      "title": "וול סטריט נכנסת לרבעון החזק בשנה, הפד עלול לקלקל אותו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556981",
      "date": "2026-09-23T02:59:00+00:00"
-    },
-    {
-     "title": "פופולרית יותר מכיפת ברזל: מערכת ההגנה הישראלית שהפכה ללהיט גלובלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
-     "date": "2026-09-23T02:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T18:17:25+00:00",
-  "fetched_at": "2026-09-23T18:17:25+00:00"
+  "checked_at": "2026-09-23T19:04:57+00:00",
+  "fetched_at": "2026-09-23T19:04:57+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T18:17:25+00:00",
-  "fetched_at": "2026-09-23T18:17:25+00:00"
+  "checked_at": "2026-09-23T19:04:58+00:00",
+  "fetched_at": "2026-09-23T19:04:58+00:00"
  },
  "tv": {
   "data": [
@@ -2323,8 +2328,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T18:17:27+00:00",
-  "fetched_at": "2026-09-23T18:17:27+00:00"
+  "checked_at": "2026-09-23T19:04:59+00:00",
+  "fetched_at": "2026-09-23T19:04:59+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2429,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T18:17:27+00:00",
-  "fetched_at": "2026-09-23T18:17:27+00:00"
+  "checked_at": "2026-09-23T19:04:59+00:00",
+  "fetched_at": "2026-09-23T19:04:59+00:00"
  },
  "ai": {
   "data": {
@@ -2466,7 +2471,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 157,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2484,18 +2489,25 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 133,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 118,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 134,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 91,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2505,17 +2517,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 90,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 86,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2528,12 +2533,31 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T18:17:34+00:00",
-  "fetched_at": "2026-09-23T18:17:34+00:00"
+  "checked_at": "2026-09-23T19:05:07+00:00",
+  "fetched_at": "2026-09-23T19:05:07+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "צרות בקישור: אבו פאני בספק גדול, גאנדלמן יחזור רק לקוסובו?",
+     "link": "https://sports.walla.co.il/item/3869582",
+     "date": "2026-09-23T18:25:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עומרי גאנדלמן",
+      "מוחמד אבו פאני"
+     ]
+    },
+    {
+     "title": "רגע לפני אוסטריה: היכן מדורג סולומון בווסטהאם?",
+     "link": "https://www.one.co.il/Article/534144.html?ref=rss",
+     "date": "2026-09-23T18:21:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "סובוסלאי לא שכח את דאבור: \"הוא היה שם בשבילי בכל יום\"",
      "link": "https://sports.walla.co.il/item/3869580",
@@ -2843,8 +2867,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T18:17:30+00:00",
-  "fetched_at": "2026-09-23T18:17:30+00:00"
+  "checked_at": "2026-09-23T19:05:02+00:00",
+  "fetched_at": "2026-09-23T19:05:02+00:00"
  },
  "idf": {
   "data": [
@@ -2875,7 +2899,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T18:17:30+00:00",
-  "fetched_at": "2026-09-23T18:17:30+00:00"
+  "checked_at": "2026-09-23T19:05:03+00:00",
+  "fetched_at": "2026-09-23T19:05:03+00:00"
  }
 };
