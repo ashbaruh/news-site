@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T16:17:12+00:00",
-  "fetched_at": "2026-09-23T16:17:12+00:00"
+  "checked_at": "2026-09-23T17:17:23+00:00",
+  "fetched_at": "2026-09-23T17:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T16:17:25+00:00",
-  "fetched_at": "2026-09-23T16:17:25+00:00"
+  "checked_at": "2026-09-23T17:17:34+00:00",
+  "fetched_at": "2026-09-23T17:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "New issue of What Hi-Fi? out now: it's a bumper 50th Anniversary special!",
+    "title_he": "גיליון חדש של What Hi-Fi? יצא עכשיו: זה מבצע מיוחד ליום השנה ה-50!",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/new-issue-of-what-hi-fi-out-now-its-a-bumper-50th-anniversary-special",
+    "date": "2026-09-23T17:11:14+00:00"
+   },
    {
     "title_en": "The Sonos Beam Ultra is great, but where are all the good new cheap Dolby Atmos soundbars hiding?",
     "title_he": "Sonos Beam Ultra הוא מעולה, אבל איפה מסתתרים כל סרגלי הקול הזולים החדשים והטובים של Dolby Atmos?",
@@ -69,35 +76,38 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/tired-of-charging-your-speaker-every-weekend-this-half-price-award-winning-jbl-with-a-24-hour-battery-will-outlast-even-your-longest-party",
     "date": "2026-09-23T11:39:04+00:00"
-   },
-   {
-    "title_en": "Are good hi-fi and home cinema sound the same thing?",
-    "title_he": "האם Hi-Fi טוב וקולנוע ביתי נשמעים אותו הדבר?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/are-good-hi-fi-and-home-cinema-sound-the-same-thing",
-    "date": "2026-09-23T08:25:12+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T16:17:26+00:00",
-  "fetched_at": "2026-09-23T16:17:26+00:00"
+  "checked_at": "2026-09-23T17:17:36+00:00",
+  "fetched_at": "2026-09-23T17:17:36+00:00"
  },
- "generated_at": "2026-09-23T16:17:26+00:00",
+ "generated_at": "2026-09-23T17:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הדרישה של רשות התחרות שעשויה לטרפד את עסקאות המיזוג הבאות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557390",
-     "date": "2026-09-23T16:00:00+00:00"
+     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T16:32:00+00:00"
     },
     {
      "title": "האמירה השקרית של נשיא איראן באו\"ם: \"לא תקפנו אזרחים\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T14:51:00+00:00"
+     "date": "2026-09-23T16:51:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
+     "date": "2026-09-23T16:36:00+00:00"
+    },
+    {
+     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T16:32:00+00:00"
+    },
     {
      "title": "מטא מציגה עוזר אישי שיזמין לכם כרטיסי טיסה. האם הוא שווה את הזינוק במניה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557367",
@@ -107,11 +117,6 @@ window.DB.generated = {
      "title": "הדרישה של רשות התחרות שעשויה לטרפד את עסקאות המיזוג הבאות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557390",
      "date": "2026-09-23T16:00:00+00:00"
-    },
-    {
-     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T15:44:00+00:00"
     },
     {
      "title": "חברות הנדל\"ן מסד עוז ואמריקה ישראל מתמזגות - ומכוונות לבורסה",
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-09-23T05:54:00+00:00"
     },
     {
-     "title": "מועדון המניות שעשה 32% בשנה מציג 15 בחירות חדשות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557090",
-     "date": "2026-09-23T03:25:00+00:00"
-    },
-    {
      "title": "קללה או הכללה: מה מלמדת ההיסטוריה של חודשי ספטמבר ואוקטובר בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557063",
      "date": "2026-09-23T03:04:00+00:00"
@@ -212,17 +212,12 @@ window.DB.generated = {
      "title": "פופולרית יותר מכיפת ברזל: מערכת ההגנה הישראלית שהפכה ללהיט גלובלי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
      "date": "2026-09-23T02:57:00+00:00"
-    },
-    {
-     "title": "נעילה מעורבת בוול סטריט: הנאסד\"ק קבע שיא תוך-יומי חדש; מחירי הנפט בשפל של שבועיים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556954",
-     "date": "2026-09-22T20:13:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T16:17:14+00:00",
-  "fetched_at": "2026-09-23T16:17:14+00:00"
+  "checked_at": "2026-09-23T17:17:24+00:00",
+  "fetched_at": "2026-09-23T17:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T16:17:15+00:00",
-  "fetched_at": "2026-09-23T16:17:15+00:00"
+  "checked_at": "2026-09-23T17:17:24+00:00",
+  "fetched_at": "2026-09-23T17:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2323,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T16:17:16+00:00",
-  "fetched_at": "2026-09-23T16:17:16+00:00"
+  "checked_at": "2026-09-23T17:17:26+00:00",
+  "fetched_at": "2026-09-23T17:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2429,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T16:17:16+00:00",
-  "fetched_at": "2026-09-23T16:17:16+00:00"
+  "checked_at": "2026-09-23T17:17:26+00:00",
+  "fetched_at": "2026-09-23T17:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2471,7 +2466,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 153,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2489,18 +2484,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 133,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 117,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 130,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2513,7 +2508,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 88,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2533,12 +2528,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T16:17:24+00:00",
-  "fetched_at": "2026-09-23T16:17:24+00:00"
+  "checked_at": "2026-09-23T17:17:34+00:00",
+  "fetched_at": "2026-09-23T17:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סולומון: פשעי מלחמה? אני כאן כדי לשחק כדורגל",
+     "link": "https://www.one.co.il/Article/534138.html?ref=rss",
+     "date": "2026-09-23T16:52:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "מנור סולומון הותקל באמירת נשיא אוסטריה, כך הוא השיב",
      "link": "https://sports.walla.co.il/item/3869560",
@@ -2594,31 +2598,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "\"גלוך, סולומון ודור פרץ שחקנים ממש טובים\"",
-     "link": "https://www.one.co.il/Article/534077.html?ref=rss",
-     "date": "2026-09-23T04:25:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך",
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "חיים רביבו על עסקת רוי רביבו לאלצ'ה: \"כולם הפסידו בה\"",
      "link": "https://sports.walla.co.il/item/3869368",
      "date": "2026-09-22T13:22:00+00:00",
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בהולנד קטלו את גלוך בעיתוי מוזר: \"עסוק בהצלחה האישית שלו\"",
-     "link": "https://sports.walla.co.il/item/3869315",
-     "date": "2026-09-22T10:25:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -2858,8 +2843,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T16:17:19+00:00",
-  "fetched_at": "2026-09-23T16:17:19+00:00"
+  "checked_at": "2026-09-23T17:17:29+00:00",
+  "fetched_at": "2026-09-23T17:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2890,7 +2875,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T16:17:19+00:00",
-  "fetched_at": "2026-09-23T16:17:19+00:00"
+  "checked_at": "2026-09-23T17:17:30+00:00",
+  "fetched_at": "2026-09-23T17:17:30+00:00"
  }
 };
