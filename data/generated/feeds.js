@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T20:17:12+00:00",
-  "fetched_at": "2026-09-23T20:17:12+00:00"
+  "checked_at": "2026-09-23T21:17:16+00:00",
+  "fetched_at": "2026-09-23T21:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T20:17:21+00:00",
-  "fetched_at": "2026-09-23T20:17:21+00:00"
+  "checked_at": "2026-09-23T21:17:27+00:00",
+  "fetched_at": "2026-09-23T21:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T20:17:22+00:00",
-  "fetched_at": "2026-09-23T20:17:22+00:00"
+  "checked_at": "2026-09-23T21:17:27+00:00",
+  "fetched_at": "2026-09-23T21:17:27+00:00"
  },
- "generated_at": "2026-09-23T20:17:22+00:00",
+ "generated_at": "2026-09-23T21:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T20:17:13+00:00",
-  "fetched_at": "2026-09-23T20:17:13+00:00"
+  "checked_at": "2026-09-23T21:17:17+00:00",
+  "fetched_at": "2026-09-23T21:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,25 +1866,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T20:17:14+00:00",
-  "fetched_at": "2026-09-23T20:17:14+00:00"
+  "checked_at": "2026-09-23T21:17:17+00:00",
+  "fetched_at": "2026-09-23T21:17:17+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-23",
-    "time": "18:40",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל חולון - מכבי רמת גן"
-   },
-   {
-    "date": "2026-09-23",
-    "time": "20:55",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל העמק - עירוני קריית אתא"
-   },
    {
     "date": "2026-09-24",
     "time": "16:30",
@@ -2140,6 +2126,13 @@ window.DB.generated = {
    {
     "date": "2026-09-25",
     "time": "21:45",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "פרטיזן בלגרד - אולימפיה מילאנו"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "טורקיה - צרפת"
@@ -2157,13 +2150,6 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "הונגריה - אוקראינה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    },
    {
     "date": "2026-09-25",
@@ -2328,8 +2314,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T20:17:14+00:00",
-  "fetched_at": "2026-09-23T20:17:14+00:00"
+  "checked_at": "2026-09-23T21:17:19+00:00",
+  "fetched_at": "2026-09-23T21:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2420,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T20:17:14+00:00",
-  "fetched_at": "2026-09-23T20:17:14+00:00"
+  "checked_at": "2026-09-23T21:17:19+00:00",
+  "fetched_at": "2026-09-23T21:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2457,21 +2443,21 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 169,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 158,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2499,14 +2485,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 91,
+     "likes": 92,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2533,8 +2519,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T20:17:20+00:00",
-  "fetched_at": "2026-09-23T20:17:20+00:00"
+  "checked_at": "2026-09-23T21:17:25+00:00",
+  "fetched_at": "2026-09-23T21:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2858,8 +2844,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T20:17:17+00:00",
-  "fetched_at": "2026-09-23T20:17:17+00:00"
+  "checked_at": "2026-09-23T21:17:21+00:00",
+  "fetched_at": "2026-09-23T21:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2890,7 +2876,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T20:17:17+00:00",
-  "fetched_at": "2026-09-23T20:17:17+00:00"
+  "checked_at": "2026-09-23T21:17:22+00:00",
+  "fetched_at": "2026-09-23T21:17:22+00:00"
  }
 };
