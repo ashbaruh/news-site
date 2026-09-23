@@ -1,31 +1,43 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-22T18:00:00+03:00",
- "generated_at": "2026-09-22T18:16:51+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-09-23T04:00:00+03:00",
+ "generated_at": "2026-09-23T00:40:24+00:00",
+ "model": "gemini-3.7-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09221816-01",
-     "title": "שיחה בין בכירים אמריקאים לאיראנים",
-     "summary": "התקיימה שיחה בת שלוש שעות בין נציגי ארצות הברית לבין משלחת איראן בניו יורק.",
-     "axis": "דיפלומטיה ומגעים",
-     "claim_type": "incident",
+     "id": "IRAN-09230040-01",
+     "title": "שיחות ישירות בין ארה\"ב לאיראן באו\"ם ותנאי טהראן לפתיחת הורמוז",
+     "summary": "נציגים אמריקאים ואיראנים קיימו פגישה בשולי עצרת האו\"ם, שבה הציגה איראן דרישות להסרת המצור הימי, הפשרת כספים וסיום המלחמה בתמורה לפתיחת מצר הורמוז.",
+     "axis": "ארה\"ב-איראן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T18:10:29+00:00",
-     "is_ongoing": false,
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": true,
      "first_reported_at": "2026-09-22T18:10:29+00:00",
-     "last_update_at": "2026-09-22T18:10:29+00:00",
-     "what_is_not_verified": "התוכן המלא של השיחה אינו מאומת מעבר להצהרות הצדדים.",
+     "last_update_at": "2026-09-23T00:00:00+00:00",
+     "what_is_not_verified": "לא אומת אם הושגה התקדמות ממשית לקראת הסכם בין הצדדים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130637",
+       "published_at": "2026-09-22T19:55:42+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/130628",
        "published_at": "2026-09-22T18:10:29+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
+       "published_at": "2026-09-23T00:00:00+00:00"
       }
      ],
      "places": [
@@ -37,31 +49,60 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "IRAN-09221816-02",
-     "title": "פגישת שרת החוץ של האיחוד האירופי עם שר החוץ האיראני",
-     "summary": "שרת האיחוד האירופי לענייני חוץ נפגשה עם שר החוץ של איראן בניו יורק.",
-     "axis": "דיפלומטיה",
+     "id": "IRAN-09230040-02",
+     "title": "דיווח על פיצוץ בסמוך לאי קשם במצר הורמוז",
+     "summary": "כלי תקשורת באיראן דיווחו על קול פיצוץ שנשמע בסמוך לאי קשם שבמצר הורמוז, כאשר הנסיבות והתוצאות טרם הובהרו.",
+     "axis": "איראן ומצר הורמוז",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T17:07:55+00:00",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T17:07:55+00:00",
-     "last_update_at": "2026-09-22T17:07:55+00:00",
-     "what_is_not_verified": "פרטי השיחה המלאים אינם ידועים.",
+     "first_reported_at": "2026-09-22T22:10:34+00:00",
+     "last_update_at": "2026-09-22T22:10:34+00:00",
+     "what_is_not_verified": "סיבת הפיצוץ והיקף הנזק או הנפגעים אינם ידועים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_12c3eb78ea5f005c",
-       "url": "https://en.irna.ir/news/86271652/EU-foreign-policy-chief-meets-with-Iran-FM-in-New-York",
-       "published_at": "2026-09-22T17:07:55+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
+       "published_at": "2026-09-22T22:10:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
+       "name": "האי קשם, איראן",
+       "lat": 26.7687,
+       "lon": 55.8477
+      }
+     ]
+    },
+    {
+     "id": "IRAN-09230040-03",
+     "title": "אישור ענישה בפרלמנט האיראני למפרי חוקי השיט בהורמוז",
+     "summary": "ועדת הביטחון הלאומי ומדיניות החוץ בפרלמנט של איראן אישרה עונשים חדשים על כלי שיט שיפרו את תקנות המעבר במצר הורמוז.",
+     "axis": "איראן ומצר הורמוז",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T21:22:45+00:00",
+     "last_update_at": "2026-09-22T21:22:45+00:00",
+     "what_is_not_verified": "לא נמסרו פרטי החקיקה המלאים ומועד יישומם המעשי בים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_05daabe123e93695",
+       "url": "https://en.irna.ir/news/86271781/Iran-parliament-commission-approves-penalties-for-violators-of",
+       "published_at": "2026-09-22T21:22:45+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
@@ -70,17 +111,17 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-09221816-01",
-     "title": "אזרחים ישראלים חצו את הגבול לסוריה",
-     "summary": "ארבעה עשר אזרחים ישראלים חצו את הגבול לשטח סוריה והוחזרו על ידי כוח צה\"ל.",
+     "id": "NORTH-09230040-01",
+     "title": "חציית אזרחים ישראלים לסוריה והחזרתם על ידי צה\"ל",
+     "summary": "כוח צה\"ל איתר והחזיר לשטח ישראל 14 אזרחים ישראלים שחצו את הגבול לסוריה באזור אלוני הבשן, והעבירם להמשך טיפול המשטרה.",
      "axis": "גבול ישראל-סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T16:43:07+00:00",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-22T16:43:07+00:00",
      "last_update_at": "2026-09-22T16:43:07+00:00",
-     "what_is_not_verified": "נסיבות ההגעה המדויקות של האזרחים למקום אינן מפורטות מלבד דיווח הצבא.",
+     "what_is_not_verified": "מניע החצייה ופרטי הפעולות המשפטיות שננקטו נגד האזרחים",
      "is_new_in_window": true,
      "reports": [
       {
@@ -90,113 +131,137 @@ window.DB.war_brief = {
        "published_at": "2026-09-22T16:43:07+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "אלוני הבשן, ישראל",
+       "lat": 33.0441,
+       "lon": 35.8392
+      }
+     ]
     },
     {
-     "id": "NORTH-09221816-02",
-     "title": "הגעת בתים טרומיים לדרום לבנון",
-     "summary": "המשלוח הראשון של בתים טרומיים הגיע לכפר בדרום לבנון עבור משפחות שבתיהן נהרסו.",
-     "axis": "דרום לבנון",
-     "claim_type": "incident",
+     "id": "NORTH-09230040-02",
+     "title": "הבטחת סיוע ספרדי ללבנון בעקבות נסיגת כוחות יוניפי\"ל",
+     "summary": "ראש ממשלת ספרד נפגש עם מקבילו הלבנוני בניו יורק והצהיר על המשך התמיכה בלבנון וחיזוק צבאה יחד עם שותפים באירופה.",
+     "axis": "לבנון ואירופה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T18:04:21+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T18:04:21+00:00",
-     "last_update_at": "2026-09-22T18:04:21+00:00",
-     "what_is_not_verified": "מצב התשתיות המלא באזור טרם אומתן מעבר לדיווח על הבתים.",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T20:43:42+00:00",
+     "last_update_at": "2026-09-22T20:43:42+00:00",
+     "what_is_not_verified": "היקף הסיוע המעשי ולוחות הזמנים ליישומו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/families-move-prefab-homes-devastated-southern-lebanon",
-       "published_at": "2026-09-22T18:04:21+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_0d6daf2d25693222",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/spain-pm-pledges-continued-support-lebanon-after-unifil-withdrawal",
+       "published_at": "2026-09-22T20:43:42+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09221816-01",
-     "title": "הארכת סנקציות של האיחוד האירופי והסרת אישים",
-     "summary": "האיחוד האירופי האריך את הסנקציות הקשורות לאוקראינה בשלוש שנים והסיר שני מיליארדרים מהרשימה.",
-     "axis": "סנקציות ומדיניות",
-     "claim_type": "incident",
+     "id": "UKRAINE-09230040-01",
+     "title": "פגישת זלנסקי וטראמפ ודיון ברישיונות לייצור מיירטים",
+     "summary": "נשיא אוקראינה נפגש בניו יורק עם נשיא ארה\"ב ודן עמו בהסדרת המלחמה ובמתן רישיונות לייצור מקומי של טילי יירוט למערכות פטריוט.",
+     "axis": "אוקראינה-ארה\"ב",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T17:15:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-22T17:15:00+00:00",
-     "last_update_at": "2026-09-22T17:15:00+00:00",
-     "what_is_not_verified": "ההשפעה המעשית המדויקת של הסרת האנשים מהרשימה אינה ניתנת לאומדן מיידי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_18eea524ebac863c",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/22/8054639/",
-       "published_at": "2026-09-22T17:15:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09221816-02",
-     "title": "פגיעה במטרות זיקוק רוסיות",
-     "summary": "בוצעו תקיפות על בתי זיקוק נפט בשטח רוסיה.",
-     "axis": "תקיפות אוויריות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T17:52:32+00:00",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T17:52:32+00:00",
-     "last_update_at": "2026-09-22T17:52:32+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק בכל אתר ואתר.",
+     "first_reported_at": "2026-09-22T19:43:00+00:00",
+     "last_update_at": "2026-09-22T20:55:00+00:00",
+     "what_is_not_verified": "האם ניתנה הסכמה רשמית מצד ארה\"ב לאספקת הרישיונות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russia-imposes-restrictions-near-estonian-border-amid-mobilization-concerns/",
-       "published_at": "2026-09-22T17:52:32+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_da387f987b509817",
+       "url": "https://www.ukrinform.net/rubric-polytics/4166934-there-were-no-requests-for-ukraine-to-unilaterally-cease-fire-zelensky-after-meeting-with-trump.html",
+       "published_at": "2026-09-22T20:55:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_6a1b9e55d17725bc",
+       "url": "https://www.ukrinform.net/rubric-polytics/4166912-zelensky-on-licenses-to-produce-ballistic-missile-interceptors-i-did-not-hear-no.html",
+       "published_at": "2026-09-22T19:43:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "סמרה, רוסיה",
-       "lat": 53.1956,
-       "lon": 50.1015
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
     },
     {
-     "id": "UKRAINE-09221816-03",
-     "title": "פגיעה של כטב\"מים בקייב",
-     "summary": "כטב\"מים מונעי-סילון רוסיים פגעו בבירת אוקראינה וגרמו לפצועים.",
-     "axis": "תקיפות באוקראינה",
+     "id": "UKRAINE-09230040-02",
+     "title": "פגיעה רוסית במרכז קניות בעיר זפוריז'יה",
+     "summary": "כוחות רוסיים תקפו מרכז קניות בעיר זפוריז'יה וגרמו לפרוץ שריפה במקום.",
+     "axis": "חזית דרום-מזרח אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T17:21:50+00:00",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-22T17:21:50+00:00",
-     "last_update_at": "2026-09-22T17:21:50+00:00",
-     "what_is_not_verified": "זהות כלל הנפגעים מעבר לנתוני הפינוי הרשמיים.",
+     "first_reported_at": "2026-09-22T19:35:00+00:00",
+     "last_update_at": "2026-09-22T19:35:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים והיקף הנזק המדויק במבנה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-jet-powered-drones-strike-kyiv-injuring-8/",
-       "published_at": "2026-09-22T17:21:50+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4166909-russian-strikes-shopping-center-in-zaporizhzhia-fire-breaks-out.html",
+       "published_at": "2026-09-22T19:35:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09230040-03",
+     "title": "מעצר מכוון תקיפות רוסי בחזית סלוביאנסק",
+     "summary": "שירות הביטחון של אוקראינה עצר במחוז דונצק סוכן מודיעין צבאי רוסי שסייע בהכוונת פצצות ורחפנים לעבר קו החזית.",
+     "axis": "חזית מזרח אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-22T21:40:00+00:00",
+     "last_update_at": "2026-09-22T21:40:00+00:00",
+     "what_is_not_verified": "זהות הסוכן ופרטי התקיפות המדויקות שכוונו על ידו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-crime/4166552-ssu-detains-russian-strike-spotter-on-sloviansk-front.html",
+       "published_at": "2026-09-22T21:40:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סלוביאנסק, אוקראינה",
+       "lat": 48.8523,
+       "lon": 37.6058
       }
      ]
     }
@@ -205,53 +270,65 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09221816-01",
-     "title": "פריסת מכלית תדלוק בריטית לתמיכה בסעודיה",
-     "summary": "בריטניה הודיעה על פריסת מטוס תדלוק מבסיס בקפריסין כדי לתמוך במטוסי סעודיה בעקבות התקפות החות'ים.",
-     "axis": "ים סוף ותימן",
-     "claim_type": "incident",
+     "id": "YEMEN-09230040-01",
+     "title": "גינוי סעודי חריג לתקיפות החות'ים לעבר מכה",
+     "summary": "מלך סעודיה פרסם גינוי חריף לירי החות'ים לעבר מכה על רקע הסלמת התקיפות משטח תימן לעבר הממלכה.",
+     "axis": "תימן-סעודיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T13:49:22+00:00",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-22T13:49:22+00:00",
-     "last_update_at": "2026-09-22T13:49:22+00:00",
-     "what_is_not_verified": "מועד תחילת הפעילות המבצעית המדויק טרם מומש בשטח.",
+     "first_reported_at": "2026-09-22T14:09:00+00:00",
+     "last_update_at": "2026-09-22T20:27:45+00:00",
+     "what_is_not_verified": "פרטי הפגיעות המדויקות והנזק שנגרם בשטח סעודיה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/uk-deploys-raf-tanker-refuel-saudi-jets-amid-houthi-attacks",
-       "published_at": "2026-09-22T13:49:22+00:00"
+       "url": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
+       "published_at": "2026-09-22T20:27:45+00:00"
+      },
+      {
+       "source_id": "src_lwj",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.longwarjournal.org/archives/2026/09/houthis-fight-for-key-yemeni-highlands-continue-striking-saudi-arabia.php",
+       "published_at": "2026-09-22T14:09:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אקרוטירי, קפריסין",
-       "lat": 34.6008,
-       "lon": 32.9562
+       "name": "מכה, סעודיה",
+       "lat": 21.4208,
+       "lon": 39.8269
       }
      ]
     },
     {
-     "id": "YEMEN-09221816-02",
-     "title": "שיחת מנהיגים בנושא נתיבי שיט",
-     "summary": "נשיא רוסיה ויורש העצר הסעודי שוחחו על חשיבות המעבר הבטוח במצרי הים סוף והמפרץ.",
-     "axis": "דיפלומטיה ימית",
+     "id": "YEMEN-09230040-02",
+     "title": "קרבות עזים בחוף ים סוף ובאזורים ההרריים בתימן",
+     "summary": "החות'ים ממשיכים בלחימה במספר חזיתות ברחבי המדינה ומנסים להשתלט על אזורים הרריים לאחר התקדמותם לאורך רצועת החוף.",
+     "axis": "פנים תימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-22T12:28:15+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T17:49:00+00:00",
-     "last_update_at": "2026-09-22T17:49:00+00:00",
-     "what_is_not_verified": "תוכניות מעשיות שסוכמו מעבר לקריאה להבטחת נתיבי השיט.",
+     "occurred_at": "2026-09-22T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-22T14:09:00+00:00",
+     "last_update_at": "2026-09-22T19:19:02+00:00",
+     "what_is_not_verified": "היקף האבדות המדויק ושינויי השליטה הסופיים בקרקע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/152802",
-       "published_at": "2026-09-22T17:49:00+00:00"
+       "url": "https://www.theguardian.com/world/video/2026/sep/22/how-the-civil-war-in-yemen-could-affect-global-shipping-routes-explainer",
+       "published_at": "2026-09-22T19:19:02+00:00"
+      },
+      {
+       "source_id": "src_lwj",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.longwarjournal.org/archives/2026/09/houthis-fight-for-key-yemeni-highlands-continue-striking-saudi-arabia.php",
+       "published_at": "2026-09-22T14:09:00+00:00"
       }
      ],
      "places": []
