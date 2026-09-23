@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-23T13:17:28+00:00",
-  "fetched_at": "2026-09-23T13:17:28+00:00"
+  "checked_at": "2026-09-23T14:17:13+00:00",
+  "fetched_at": "2026-09-23T14:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T13:17:43+00:00",
-  "fetched_at": "2026-09-23T13:17:43+00:00"
+  "checked_at": "2026-09-23T14:17:25+00:00",
+  "fetched_at": "2026-09-23T14:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,39 +79,44 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T13:17:43+00:00",
-  "fetched_at": "2026-09-23T13:17:43+00:00"
+  "checked_at": "2026-09-23T14:17:26+00:00",
+  "fetched_at": "2026-09-23T14:17:26+00:00"
  },
- "generated_at": "2026-09-23T13:17:43+00:00",
+ "generated_at": "2026-09-23T14:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
-     "date": "2026-09-23T12:22:00+00:00"
+     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
+     "date": "2026-09-23T14:03:00+00:00"
     },
     {
-     "title": "עלות של 2.5 מיליארד: תוכנית הענק של טראמפ לעזה",
+     "title": "נשיא סוריה בעצרת הכללית של האו\"ם: \"הגולן יישאר אדמה סורית\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T12:25:00+00:00"
+     "date": "2026-09-23T14:06:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "המיליארדים שזרמו והשיא של הביטקוין מאותתים: שוק הקריפטו מנסה להוכיח שהתבגר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557038",
+     "date": "2026-09-23T13:25:00+00:00"
+    },
+    {
+     "title": "הירידות בתל אביב מתמתנות: מניב חו\"ל מכביד, האנרגיה קופצת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
+     "date": "2026-09-23T12:58:00+00:00"
+    },
+    {
+     "title": "ירידות קלות בחוזים בוול סטריט; עליות בתשואות האג\"ח",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
+     "date": "2026-09-23T12:39:00+00:00"
+    },
+    {
      "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
      "date": "2026-09-23T12:22:00+00:00"
-    },
-    {
-     "title": "מחיר הנפט חוצה את רף ה-100 דולר; החוזים בוול סטריט אדומים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T12:15:00+00:00"
-    },
-    {
-     "title": "הירידות בתל אביב מתמתנות: הבנקים מכבידים, הקלינטק עולה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T11:50:00+00:00"
     },
     {
      "title": "35 מיליארד שקל וענקיות מכל העולם: מאחורי הקלעים של הצגת המטרו בברלין",
@@ -152,11 +157,6 @@ window.DB.generated = {
      "title": "רגע לפני ההנפקה, קרפור ממנה יו\"ר אחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557122",
      "date": "2026-09-23T09:24:00+00:00"
-    },
-    {
-     "title": "דוראל ואמפא בתחזית אופטימית לגבי חוות השרתים בהר טוב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557121",
-     "date": "2026-09-23T09:06:00+00:00"
     },
     {
      "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
@@ -209,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-22T18:00:00+00:00"
     },
     {
-     "title": "60 אלף פצצות בדרך לישראל. למה דווקא עכשיו?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556979",
-     "date": "2026-09-22T08:35:00+00:00"
-    },
-    {
      "title": "אמש נדלקה בשווקים נורת אזהרה שלא נראתה כבר 27 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556959",
      "date": "2026-09-22T02:53:00+00:00"
@@ -221,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T13:17:30+00:00",
-  "fetched_at": "2026-09-23T13:17:30+00:00"
+  "checked_at": "2026-09-23T14:17:14+00:00",
+  "fetched_at": "2026-09-23T14:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T13:17:31+00:00",
-  "fetched_at": "2026-09-23T13:17:31+00:00"
+  "checked_at": "2026-09-23T14:17:15+00:00",
+  "fetched_at": "2026-09-23T14:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2328,8 +2323,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T13:17:33+00:00",
-  "fetched_at": "2026-09-23T13:17:33+00:00"
+  "checked_at": "2026-09-23T14:17:16+00:00",
+  "fetched_at": "2026-09-23T14:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2434,8 +2429,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T13:17:33+00:00",
-  "fetched_at": "2026-09-23T13:17:33+00:00"
+  "checked_at": "2026-09-23T14:17:16+00:00",
+  "fetched_at": "2026-09-23T14:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2458,22 +2453,20 @@ window.DB.generated = {
     }
    ],
    "candidates": 10,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 164,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 150,
+     "likes": 152,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2501,7 +2494,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2515,8 +2508,15 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 87,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 85,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2524,19 +2524,12 @@ window.DB.generated = {
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
      "likes": 126,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 84,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-23T13:17:42+00:00",
-  "fetched_at": "2026-09-23T13:17:42+00:00"
+  "checked_at": "2026-09-23T14:17:24+00:00",
+  "fetched_at": "2026-09-23T14:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2860,8 +2853,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-23T13:17:37+00:00",
-  "fetched_at": "2026-09-23T13:17:37+00:00"
+  "checked_at": "2026-09-23T14:17:20+00:00",
+  "fetched_at": "2026-09-23T14:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2892,7 +2885,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-23T13:17:37+00:00",
-  "fetched_at": "2026-09-23T13:17:37+00:00"
+  "checked_at": "2026-09-23T14:17:20+00:00",
+  "fetched_at": "2026-09-23T14:17:20+00:00"
  }
 };
