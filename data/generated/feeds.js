@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T12:17:19+00:00",
-  "fetched_at": "2026-09-24T12:17:19+00:00"
+  "checked_at": "2026-09-24T13:17:23+00:00",
+  "fetched_at": "2026-09-24T13:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T12:17:30+00:00",
-  "fetched_at": "2026-09-24T12:17:30+00:00"
+  "checked_at": "2026-09-24T13:17:32+00:00",
+  "fetched_at": "2026-09-24T13:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Sennheiser Momentum True Wireless 5",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/headphones/wireless-earbuds/sennheiser-momentum-true-wireless-5",
+    "date": "2026-09-24T12:45:43+00:00"
+   },
    {
     "title_en": "Apple Music now has its own concert venue at its London Battersea HQ",
     "title_he": "לאפל מיוזיק יש כעת מקום קונצרטים משלה במטה בטרסי בלונדון",
@@ -69,54 +76,52 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/azerbaijan-grand-prix-2026-f1",
     "date": "2026-09-24T05:00:00+00:00"
-   },
-   {
-    "title_en": "Wireless headphones are about to get even more advanced with Qualcomm’s latest Snapdragon Sound tech",
-    "title_he": "אוזניות אלחוטיות עומדות להתקדם עוד יותר עם הטכנולוגיה העדכנית ביותר של Snapdragon Sound של קוואלקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/wireless-headphones-are-about-to-get-even-more-advanced-with-qualcomms-latest-snapdragon-sound-tech",
-    "date": "2026-09-23T19:30:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T12:17:30+00:00",
-  "fetched_at": "2026-09-24T12:17:30+00:00"
+  "checked_at": "2026-09-24T13:17:34+00:00",
+  "fetched_at": "2026-09-24T13:17:34+00:00"
  },
- "generated_at": "2026-09-24T12:17:30+00:00",
+ "generated_at": "2026-09-24T13:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T12:05:00+00:00"
+     "date": "2026-09-24T13:00:00+00:00"
     },
     {
      "title": "במרחק קילומטרים ספורים מכפר סבא: מנהרה ואמל\"ח כבד נחשפו בבטן האדמה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T10:04:00+00:00"
+     "date": "2026-09-24T11:50:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
+     "date": "2026-09-24T12:56:00+00:00"
+    },
+    {
+     "title": "להוסיף הון בפיקדון: איך לקבל יותר מהבנק שלכם או אפילו מבנק אחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
+     "date": "2026-09-24T12:47:00+00:00"
+    },
+    {
+     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T12:05:00+00:00"
+    },
     {
      "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחוסר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557454",
      "date": "2026-09-24T11:56:00+00:00"
     },
     {
-     "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T11:29:00+00:00"
-    },
-    {
-     "title": "כלל מעניקה שווי שיא לבנק השקעות בישראל: כך קפץ המחיר של ווליו בייס",
+     "title": "600 מיליון שקל: מה הוביל לקפיצה בשווי בנק ההשקעות של ויקטור שמריך ועידו נויברגר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557383",
      "date": "2026-09-24T11:08:00+00:00"
-    },
-    {
-     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T10:43:00+00:00"
     },
     {
      "title": "פיצוי מצטבר של מאות מיליוני שקלים: הסכם פשרה ענק הושג נגד חמש חברות ביטוח",
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-23T14:38:00+00:00"
     },
     {
-     "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
-     "date": "2026-09-23T12:22:00+00:00"
-    },
-    {
      "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557156",
      "date": "2026-09-23T10:35:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T12:17:20+00:00",
-  "fetched_at": "2026-09-24T12:17:20+00:00"
+  "checked_at": "2026-09-24T13:17:24+00:00",
+  "fetched_at": "2026-09-24T13:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T12:17:21+00:00",
-  "fetched_at": "2026-09-24T12:17:21+00:00"
+  "checked_at": "2026-09-24T13:17:24+00:00",
+  "fetched_at": "2026-09-24T13:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T12:17:23+00:00",
-  "fetched_at": "2026-09-24T12:17:23+00:00"
+  "checked_at": "2026-09-24T13:17:25+00:00",
+  "fetched_at": "2026-09-24T13:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T12:17:23+00:00",
-  "fetched_at": "2026-09-24T12:17:23+00:00"
+  "checked_at": "2026-09-24T13:17:25+00:00",
+  "fetched_at": "2026-09-24T13:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2525,42 +2525,42 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 190,
+     "likes": 192,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 181,
+     "likes": 182,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 529,
+     "likes": 530,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 102,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2574,7 +2574,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2594,8 +2594,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T12:17:29+00:00",
-  "fetched_at": "2026-09-24T12:17:29+00:00"
+  "checked_at": "2026-09-24T13:17:30+00:00",
+  "fetched_at": "2026-09-24T13:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2635,16 +2635,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "מה וולף ושרף צריכים לשפר לקראת העונה הקרובה?",
-     "link": "https://www.one.co.il/Article/534171.html?ref=rss",
-     "date": "2026-09-24T05:35:00+00:00",
-     "source": "ONE",
-     "players": [
-      "בן שרף",
-      "דני וולף"
      ]
     },
     {
@@ -2939,8 +2929,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T12:17:26+00:00",
-  "fetched_at": "2026-09-24T12:17:26+00:00"
+  "checked_at": "2026-09-24T13:17:27+00:00",
+  "fetched_at": "2026-09-24T13:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -2971,7 +2961,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T12:17:26+00:00",
-  "fetched_at": "2026-09-24T12:17:26+00:00"
+  "checked_at": "2026-09-24T13:17:28+00:00",
+  "fetched_at": "2026-09-24T13:17:28+00:00"
  }
 };
