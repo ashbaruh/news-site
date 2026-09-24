@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T04:17:17+00:00",
-  "fetched_at": "2026-09-24T04:17:17+00:00"
+  "checked_at": "2026-09-24T05:17:16+00:00",
+  "fetched_at": "2026-09-24T05:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T04:17:25+00:00",
-  "fetched_at": "2026-09-24T04:17:25+00:00"
+  "checked_at": "2026-09-24T05:17:28+00:00",
+  "fetched_at": "2026-09-24T05:17:28+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Azerbaijan Grand Prix 2026: live stream F1 race from anywhere",
+    "title_he": "איך לצפות בגראנד פרי של אזרבייג'ן 2026: שידור חי של מירוץ F1 מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/azerbaijan-grand-prix-2026-f1",
+    "date": "2026-09-24T05:00:00+00:00"
+   },
    {
     "title_en": "Wireless headphones are about to get even more advanced with Qualcomm’s latest Snapdragon Sound tech",
     "title_he": "אוזניות אלחוטיות עומדות להתקדם עוד יותר עם הטכנולוגיה העדכנית ביותר של Snapdragon Sound של קוואלקום",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-great-but-where-are-all-the-good-new-cheap-dolby-atmos-soundbars-hiding",
     "date": "2026-09-23T15:01:42+00:00"
-   },
-   {
-    "title_en": "FiiO’s new CD player wants to do it all – with a DAC, pre-amplifier and more",
-    "title_he": "נגן התקליטורים החדש של FiiO רוצה לעשות הכל - עם DAC, מגבר קדם ועוד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/cd-players/fiios-new-cd-player-wants-to-do-it-all-with-a-dac-pre-amplifier-and-more",
-    "date": "2026-09-23T12:03:04+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T04:17:25+00:00",
-  "fetched_at": "2026-09-24T04:17:25+00:00"
+  "checked_at": "2026-09-24T05:17:30+00:00",
+  "fetched_at": "2026-09-24T05:17:30+00:00"
  },
- "generated_at": "2026-09-24T04:17:25+00:00",
+ "generated_at": "2026-09-24T05:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -97,7 +97,7 @@
    ],
    "market": [
     {
-     "title": "מגמה מעורבת באסיה; החוזים בוול סטריט באדום",
+     "title": "הדולר מזנק לשיא של חודשיים, והבכיר שמסמן הזדמנויות ביפן ובאירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
      "date": "2026-09-24T04:01:00+00:00"
     },
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T04:17:18+00:00",
-  "fetched_at": "2026-09-24T04:17:18+00:00"
+  "checked_at": "2026-09-24T05:17:17+00:00",
+  "fetched_at": "2026-09-24T05:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T04:17:18+00:00",
-  "fetched_at": "2026-09-24T04:17:18+00:00"
+  "checked_at": "2026-09-24T05:17:18+00:00",
+  "fetched_at": "2026-09-24T05:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2312,8 +2312,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T04:17:19+00:00",
-  "fetched_at": "2026-09-24T04:17:19+00:00"
+  "checked_at": "2026-09-24T05:17:20+00:00",
+  "fetched_at": "2026-09-24T05:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2418,8 +2418,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T04:17:19+00:00",
-  "fetched_at": "2026-09-24T04:17:19+00:00"
+  "checked_at": "2026-09-24T05:17:20+00:00",
+  "fetched_at": "2026-09-24T05:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2485,7 +2485,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 136,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2499,14 +2499,14 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 174,
+     "likes": 175,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2519,8 +2519,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T04:17:24+00:00",
-  "fetched_at": "2026-09-24T04:17:24+00:00"
+  "checked_at": "2026-09-24T05:17:27+00:00",
+  "fetched_at": "2026-09-24T05:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2629,15 +2629,6 @@
      "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
      "link": "https://sports.walla.co.il/item/3868785",
      "date": "2026-09-18T16:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "השאלה הגדולה בפורטלנד: איך ישתנה התפקיד של דני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3868647",
-     "date": "2026-09-17T05:17:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2844,8 +2835,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T04:17:22+00:00",
-  "fetched_at": "2026-09-24T04:17:22+00:00"
+  "checked_at": "2026-09-24T05:17:23+00:00",
+  "fetched_at": "2026-09-24T05:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -2876,7 +2867,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T04:17:22+00:00",
-  "fetched_at": "2026-09-24T04:17:22+00:00"
+  "checked_at": "2026-09-24T05:17:24+00:00",
+  "fetched_at": "2026-09-24T05:17:24+00:00"
  }
 }
