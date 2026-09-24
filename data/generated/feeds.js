@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:51:37+00:00",
-  "fetched_at": "2026-09-24T11:51:37+00:00"
+  "checked_at": "2026-09-24T12:17:19+00:00",
+  "fetched_at": "2026-09-24T12:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:51:55+00:00",
-  "fetched_at": "2026-09-24T11:51:55+00:00"
+  "checked_at": "2026-09-24T12:17:30+00:00",
+  "fetched_at": "2026-09-24T12:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:51:56+00:00",
-  "fetched_at": "2026-09-24T11:51:56+00:00"
+  "checked_at": "2026-09-24T12:17:30+00:00",
+  "fetched_at": "2026-09-24T12:17:30+00:00"
  },
- "generated_at": "2026-09-24T11:51:56+00:00",
+ "generated_at": "2026-09-24T12:17:30+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T10:43:00+00:00"
+     "date": "2026-09-24T12:05:00+00:00"
     },
     {
      "title": "במרחק קילומטרים ספורים מכפר סבא: מנהרה ואמל\"ח כבד נחשפו בבטן האדמה",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחוסר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557454",
+     "date": "2026-09-24T11:56:00+00:00"
+    },
     {
      "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
@@ -204,30 +209,25 @@ window.DB.generated = {
      "date": "2026-09-23T12:22:00+00:00"
     },
     {
-     "title": "בבנק ההשקעות קנטור מזהים הזדמנות במניות ציוד השבבים - אך מחריגים את נובה וקמטק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557155",
-     "date": "2026-09-23T10:55:00+00:00"
-    },
-    {
      "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557156",
      "date": "2026-09-23T10:35:00+00:00"
     },
     {
-     "title": "\"נקודת אל־חזור\": האזהרה החדשה לגבי המלחמה באיראן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557153",
-     "date": "2026-09-23T10:15:00+00:00"
-    },
-    {
      "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
      "date": "2026-09-23T08:33:00+00:00"
+    },
+    {
+     "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
+     "date": "2026-09-23T07:51:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:51:38+00:00",
-  "fetched_at": "2026-09-24T11:51:38+00:00"
+  "checked_at": "2026-09-24T12:17:20+00:00",
+  "fetched_at": "2026-09-24T12:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:51:38+00:00",
-  "fetched_at": "2026-09-24T11:51:38+00:00"
+  "checked_at": "2026-09-24T12:17:21+00:00",
+  "fetched_at": "2026-09-24T12:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:51:49+00:00",
-  "fetched_at": "2026-09-24T11:51:49+00:00"
+  "checked_at": "2026-09-24T12:17:23+00:00",
+  "fetched_at": "2026-09-24T12:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,12 +2495,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:51:49+00:00",
-  "fetched_at": "2026-09-24T11:51:49+00:00"
+  "checked_at": "2026-09-24T12:17:23+00:00",
+  "fetched_at": "2026-09-24T12:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
+     "date": "2026-09-23T07:08:18+00:00",
+     "launch": true,
+     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
+    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
@@ -2509,27 +2516,16 @@ window.DB.generated = {
      "title_en": "Gemini 3.8 text-to-speech says hello",
      "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
      "translated_by": "google"
-    },
-    {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
-     "translated_by": "google"
     }
    ],
-   "candidates": 11,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 15,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 186,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2564,7 +2560,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 100,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2598,8 +2594,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:51:54+00:00",
-  "fetched_at": "2026-09-24T11:51:54+00:00"
+  "checked_at": "2026-09-24T12:17:29+00:00",
+  "fetched_at": "2026-09-24T12:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2624,7 +2620,7 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אבו פאני לא בסגל לאוסטריה ויעבור MRI, ומתי יצטרף קניקובסקי?",
+     "title": "אבו פאני שוחרר מסגל נבחרת ישראל, ומתי יצטרף קניקובסקי?",
      "link": "https://sports.walla.co.il/item/3869641",
      "date": "2026-09-24T08:50:00+00:00",
      "source": "וואלה",
@@ -2943,8 +2939,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:51:53+00:00",
-  "fetched_at": "2026-09-24T11:51:53+00:00"
+  "checked_at": "2026-09-24T12:17:26+00:00",
+  "fetched_at": "2026-09-24T12:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2975,7 +2971,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:51:53+00:00",
-  "fetched_at": "2026-09-24T11:51:53+00:00"
+  "checked_at": "2026-09-24T12:17:26+00:00",
+  "fetched_at": "2026-09-24T12:17:26+00:00"
  }
 };
