@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T03:17:31+00:00",
-  "fetched_at": "2026-09-24T03:17:31+00:00"
+  "checked_at": "2026-09-24T04:17:17+00:00",
+  "fetched_at": "2026-09-24T04:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T03:17:47+00:00",
-  "fetched_at": "2026-09-24T03:17:47+00:00"
+  "checked_at": "2026-09-24T04:17:25+00:00",
+  "fetched_at": "2026-09-24T04:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,54 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T03:17:49+00:00",
-  "fetched_at": "2026-09-24T03:17:49+00:00"
+  "checked_at": "2026-09-24T04:17:25+00:00",
+  "fetched_at": "2026-09-24T04:17:25+00:00"
  },
- "generated_at": "2026-09-24T03:17:49+00:00",
+ "generated_at": "2026-09-24T04:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "איש השב\"כ שלקח חברה מדשדשת והביא אותה לשווי של יותר מ־2 מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557361",
-     "date": "2026-09-23T18:00:00+00:00"
+     "title": "רשות המסים דורשת יותר מ־200 מיליון שקל בחזרה מעסקים בצפון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557388",
+     "date": "2026-09-24T02:54:00+00:00"
     },
     {
-     "title": "נריה לייטר, בנו של שגריר ישראל בארה\"ב, נפצע קשה בפיגוע",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557091",
-     "date": "2026-09-23T20:03:00+00:00"
+     "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
+     "date": "2026-09-24T02:30:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-10 שנים בשיא של 19 שנה",
+     "title": "מגמה מעורבת באסיה; החוזים בוול סטריט באדום",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
+     "date": "2026-09-24T04:01:00+00:00"
+    },
+    {
+     "title": "התרחיש שמלך האג”ח מזהיר ממנו ומתי שוק המניות יגיע לנקודת שבירה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557437",
+     "date": "2026-09-24T03:27:00+00:00"
+    },
+    {
+     "title": "משקיע מיליונים בנדל\"ן ורק עשרות אלפי דולרים בשוק ההון: \"אני עדיין לומד אותו\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557377",
+     "date": "2026-09-24T03:06:00+00:00"
+    },
+    {
+     "title": "המגעים על כספי הסיוע האמריקאים תקועים, בצל בחירות האמצע בארה\"ב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557363",
+     "date": "2026-09-24T03:05:00+00:00"
+    },
+    {
+     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
+     "date": "2026-09-24T02:56:00+00:00"
+    },
+    {
+     "title": "התשואות זינקו והפאניקה חזרה לוול סטריט: נאסד\"ק ירד ב-1.2%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
-     "date": "2026-09-23T18:37:00+00:00"
+     "date": "2026-09-23T20:00:00+00:00"
     },
     {
      "title": "הארווי ויינשטיין נידון ל-15 שנות מאסר במשפט החוזר בניו יורק",
@@ -142,9 +167,9 @@
      "date": "2026-09-23T14:38:00+00:00"
     },
     {
-     "title": "לקנות ולמכור מניות מסביב לשעון: בבורסות העולם נערכים להארכת המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556859",
-     "date": "2026-09-23T14:03:00+00:00"
+     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
+     "date": "2026-09-23T14:19:00+00:00"
     },
     {
      "title": "המיליארדים שזרמו והשיא של הביטקוין מאותתים: שוק הקריפטו מנסה להוכיח שהתבגר",
@@ -177,16 +202,6 @@
      "date": "2026-09-23T10:15:00+00:00"
     },
     {
-     "title": "עוד 120 ליש\"ט לחופשה? המס החדש שמסעיר את בריטניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557151",
-     "date": "2026-09-23T09:51:00+00:00"
-    },
-    {
-     "title": "בדרך לחלוקת דיבידנד של חצי מיליארד שקל: פרטנר קונה את כל המתנגדים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557152",
-     "date": "2026-09-23T09:39:00+00:00"
-    },
-    {
      "title": "רגע לפני ההנפקה, קרפור ממנה יו\"ר אחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557122",
      "date": "2026-09-23T09:24:00+00:00"
@@ -200,28 +215,12 @@
      "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
      "date": "2026-09-23T07:51:00+00:00"
-    },
-    {
-     "title": "כלל ביטוח בדרך להשקעה באחד מבנקי ההשקעות הוותיקים בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557093",
-     "date": "2026-09-23T05:54:00+00:00"
-    },
-    {
-     "title": "קללה או הכללה: מה מלמדת ההיסטוריה של חודשי ספטמבר ואוקטובר בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557063",
-     "date": "2026-09-23T03:04:00+00:00"
-    },
-    {
-     "title": "וול סטריט נכנסת לרבעון החזק בשנה, הפד עלול לקלקל אותו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556981",
-     "date": "2026-09-23T02:59:00+00:00"
     }
    ]
   },
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-24T03:17:33+00:00",
-  "fetched_at": "2026-09-24T02:17:20+00:00"
+  "ok": true,
+  "checked_at": "2026-09-24T04:17:18+00:00",
+  "fetched_at": "2026-09-24T04:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1865,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T03:17:35+00:00",
-  "fetched_at": "2026-09-24T03:17:35+00:00"
+  "checked_at": "2026-09-24T04:17:18+00:00",
+  "fetched_at": "2026-09-24T04:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2312,10 +2311,9 @@
     "title": "נורבגיה - פורטוגל"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-24T03:17:35+00:00",
-  "fetched_at": "2026-09-24T02:17:29+00:00"
+  "ok": true,
+  "checked_at": "2026-09-24T04:17:19+00:00",
+  "fetched_at": "2026-09-24T04:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2420,12 +2418,19 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T03:17:35+00:00",
-  "fetched_at": "2026-09-24T03:17:35+00:00"
+  "checked_at": "2026-09-24T04:17:19+00:00",
+  "fetched_at": "2026-09-24T04:17:19+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
+     "date": "2026-09-23T07:08:18+00:00",
+     "launch": true,
+     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -2434,42 +2439,32 @@
      "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
      "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/airbnb-gpt-6-astra",
-     "date": "2026-09-23T01:00:00+00:00",
-     "launch": true,
-     "title_en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-     "title_he": "Airbnb מרחיבה את הגישה לדגמי GPT-6 Astra ו-OpenAI",
-     "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 15,
    "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 171,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 167,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 172,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 517,
+     "likes": 519,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2497,35 +2492,35 @@
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 93,
+     "likes": 95,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 172,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 126,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T03:17:45+00:00",
-  "fetched_at": "2026-09-24T03:17:45+00:00"
+  "checked_at": "2026-09-24T04:17:24+00:00",
+  "fetched_at": "2026-09-24T04:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2849,8 +2844,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T03:17:40+00:00",
-  "fetched_at": "2026-09-24T03:17:40+00:00"
+  "checked_at": "2026-09-24T04:17:22+00:00",
+  "fetched_at": "2026-09-24T04:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2881,7 +2876,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T03:17:41+00:00",
-  "fetched_at": "2026-09-24T03:17:41+00:00"
+  "checked_at": "2026-09-24T04:17:22+00:00",
+  "fetched_at": "2026-09-24T04:17:22+00:00"
  }
 }
