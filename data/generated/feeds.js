@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T08:17:12+00:00",
-  "fetched_at": "2026-09-24T08:17:12+00:00"
+  "checked_at": "2026-09-24T09:17:22+00:00",
+  "fetched_at": "2026-09-24T09:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T08:17:23+00:00",
-  "fetched_at": "2026-09-24T08:17:23+00:00"
+  "checked_at": "2026-09-24T09:17:40+00:00",
+  "fetched_at": "2026-09-24T09:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,39 +79,49 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T08:17:24+00:00",
-  "fetched_at": "2026-09-24T08:17:24+00:00"
+  "checked_at": "2026-09-24T09:17:41+00:00",
+  "fetched_at": "2026-09-24T09:17:41+00:00"
  },
- "generated_at": "2026-09-24T08:17:24+00:00",
+ "generated_at": "2026-09-24T09:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מגמה שלילית בתל אביב; הדולר מתחזק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T07:42:00+00:00"
+     "title": "מגדל היוקרה נתקע: רק מחצית מהדירות נמכרו אחרי 10 שנות שיווק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557348",
+     "date": "2026-09-24T08:20:00+00:00"
     },
     {
      "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T07:09:00+00:00"
+     "date": "2026-09-24T09:13:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים במעל 1%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T08:55:00+00:00"
+    },
+    {
+     "title": "אירופה והחוזים בניו יורק באדום; תשואות האג\"ח בארה\"ב קופצות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
+     "date": "2026-09-24T08:50:00+00:00"
+    },
+    {
+     "title": "אפי קפיטל מוכרת קרקע ברעננה שבה זכתה לפני כשנה – ותישאר עם רווח של כ־4 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557455",
+     "date": "2026-09-24T08:25:00+00:00"
+    },
+    {
+     "title": "לאחר 25 שנה: מנכ\"ל הרשות לניירות ערך יסיים את תפקידו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557453",
+     "date": "2026-09-24T08:11:00+00:00"
+    },
+    {
      "title": "נוסעים להולנד? תבדקו שאין לכם מוצרים מרמת הגולן ואיו\"ש במזוודה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557450",
      "date": "2026-09-24T08:09:00+00:00"
-    },
-    {
-     "title": "הנפט מטפס ל-103 דולר לחבית; החוזים בניו יורק אדומים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T08:05:00+00:00"
-    },
-    {
-     "title": "מגמה שלילית בתל אביב; הדולר מתחזק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T07:42:00+00:00"
     },
     {
      "title": "פימי רוכשת את השליטה בחברת שירותי תקשורת תמורת 55 מיליון דולר",
@@ -179,11 +189,6 @@ window.DB.generated = {
      "date": "2026-09-23T16:00:00+00:00"
     },
     {
-     "title": "חברות הנדל\"ן מסד עוז ואמריקה ישראל מתמזגות - ומכוונות לבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557420",
-     "date": "2026-09-23T15:18:00+00:00"
-    },
-    {
      "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557355",
      "date": "2026-09-23T14:53:00+00:00"
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
      "date": "2026-09-23T08:33:00+00:00"
-    },
-    {
-     "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
-     "date": "2026-09-23T07:51:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T08:17:13+00:00",
-  "fetched_at": "2026-09-24T08:17:13+00:00"
+  "checked_at": "2026-09-24T09:17:23+00:00",
+  "fetched_at": "2026-09-24T09:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T08:17:14+00:00",
-  "fetched_at": "2026-09-24T08:17:14+00:00"
+  "checked_at": "2026-09-24T09:17:24+00:00",
+  "fetched_at": "2026-09-24T09:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T08:17:15+00:00",
-  "fetched_at": "2026-09-24T08:17:15+00:00"
+  "checked_at": "2026-09-24T09:17:25+00:00",
+  "fetched_at": "2026-09-24T09:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T08:17:15+00:00",
-  "fetched_at": "2026-09-24T08:17:15+00:00"
+  "checked_at": "2026-09-24T09:17:25+00:00",
+  "fetched_at": "2026-09-24T09:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2509,44 +2509,46 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-     "date": "2026-09-23T15:25:14+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 3.8 text-to-speech says hello",
-     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 14,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 178,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 176,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 179,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 519,
+     "likes": 520,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 128,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2560,7 +2562,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 98,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2588,18 +2590,27 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T08:17:23+00:00",
-  "fetched_at": "2026-09-24T08:17:23+00:00"
+  "checked_at": "2026-09-24T09:17:33+00:00",
+  "fetched_at": "2026-09-24T09:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "אבו פאני לא בסגל לאוסטריה ויעבור MRI, ומתי יצטרף קניקובסקי?",
+     "link": "https://sports.walla.co.il/item/3869641",
+     "date": "2026-09-24T08:50:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מוחמד אבו פאני"
+     ]
+    },
     {
      "title": "המנהיג השקט: סולומון ינסה לקחת את ישראל ליורו",
      "link": "https://www.one.co.il/Article/534183.html?ref=rss",
@@ -2929,8 +2940,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T08:17:19+00:00",
-  "fetched_at": "2026-09-24T08:17:19+00:00"
+  "checked_at": "2026-09-24T09:17:29+00:00",
+  "fetched_at": "2026-09-24T09:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2961,7 +2972,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T08:17:20+00:00",
-  "fetched_at": "2026-09-24T08:17:20+00:00"
+  "checked_at": "2026-09-24T09:17:30+00:00",
+  "fetched_at": "2026-09-24T09:17:30+00:00"
  }
 };
