@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T16:17:22+00:00",
-  "fetched_at": "2026-09-24T16:17:22+00:00"
+  "checked_at": "2026-09-24T17:15:02+00:00",
+  "fetched_at": "2026-09-24T17:15:02+00:00"
  },
  "animals": {
   "data": [
@@ -43,12 +43,20 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-24T16:17:30+00:00",
+  "ok": false,
+  "error": "The read operation timed out",
+  "checked_at": "2026-09-24T17:15:39+00:00",
   "fetched_at": "2026-09-24T16:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "We’ve just reviewed this five-star Hisense projector – and there’s already £100 cashback and a free Xbox controller available",
+    "title_he": "זה עתה סקרנו את מקרן Hisense בעל חמישה כוכבים זה - וכבר יש 100 פאונד קאשבק ובקר Xbox בחינם.",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/projectors/weve-just-reviewed-this-five-star-hisense-projector-and-theres-already-gbp100-cashback-and-a-free-xbox-controller-available",
+    "date": "2026-09-24T16:29:13+00:00"
+   },
    {
     "title_en": "I lived with the Sonos Ace Ultra – here are 4 key ways the new headphones are better than the original Ace",
     "title_he": "חייתי עם Sonos Ace Ultra - הנה 4 דרכים מרכזיות שבהן האוזניות החדשות טובות יותר מהאייס המקורית",
@@ -69,20 +77,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/celebrating-international-podcast-day-our-experts-pick-8-of-the-best-speakers-and-headphones-for-vocal-clarity-as-well-as-music",
     "date": "2026-09-24T14:13:13+00:00"
-   },
-   {
-    "title_en": "“We wanted to have a product to compete with the likes of Apple TV and Sky Stream” Vodafone reveals its plans to conquer streaming",
-    "title_he": "\"רצינו שיהיה לנו מוצר שיתחרה עם כמו Apple TV ו-Sky Stream\" וודאפון חושפת את תוכניותיה לכבוש את הסטרימינג",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/we-wanted-to-have-a-product-to-compete-with-the-likes-of-apple-tv-and-sky-stream-vodafone-reveals-its-plans-to-conquer-streaming",
-    "date": "2026-09-24T13:23:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T16:17:33+00:00",
-  "fetched_at": "2026-09-24T16:17:33+00:00"
+  "checked_at": "2026-09-24T17:15:41+00:00",
+  "fetched_at": "2026-09-24T17:15:41+00:00"
  },
- "generated_at": "2026-09-24T16:17:33+00:00",
+ "generated_at": "2026-09-24T17:15:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +95,7 @@ window.DB.generated = {
     {
      "title": "שעות לפני נאום נתניהו: אבו מאזן תוקף את ישראל באו\"ם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T15:55:00+00:00"
+     "date": "2026-09-24T17:06:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T16:17:23+00:00",
-  "fetched_at": "2026-09-24T16:17:23+00:00"
+  "checked_at": "2026-09-24T17:15:02+00:00",
+  "fetched_at": "2026-09-24T17:15:02+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T16:17:24+00:00",
-  "fetched_at": "2026-09-24T16:17:24+00:00"
+  "checked_at": "2026-09-24T17:15:05+00:00",
+  "fetched_at": "2026-09-24T17:15:05+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2390,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T16:17:24+00:00",
-  "fetched_at": "2026-09-24T16:17:24+00:00"
+  "checked_at": "2026-09-24T17:15:07+00:00",
+  "fetched_at": "2026-09-24T17:15:07+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2496,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T16:17:24+00:00",
-  "fetched_at": "2026-09-24T16:17:24+00:00"
+  "checked_at": "2026-09-24T17:15:07+00:00",
+  "fetched_at": "2026-09-24T17:15:07+00:00"
  },
  "ai": {
   "data": {
@@ -2510,29 +2511,29 @@ window.DB.generated = {
     },
     {
      "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-     "date": "2026-09-23T15:25:14+00:00",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Gemini 3.8 text-to-speech says hello",
-     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 198,
+     "likes": 200,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 186,
+     "likes": 187,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2553,14 +2554,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 136,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2594,8 +2595,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T16:17:30+00:00",
-  "fetched_at": "2026-09-24T16:17:30+00:00"
+  "checked_at": "2026-09-24T17:15:14+00:00",
+  "fetched_at": "2026-09-24T17:15:14+00:00"
  },
  "abroad": {
   "data": {
@@ -2930,8 +2931,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T16:17:27+00:00",
-  "fetched_at": "2026-09-24T16:17:27+00:00"
+  "checked_at": "2026-09-24T17:15:10+00:00",
+  "fetched_at": "2026-09-24T17:15:10+00:00"
  },
  "idf": {
   "data": [
@@ -2962,7 +2963,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T16:17:27+00:00",
-  "fetched_at": "2026-09-24T16:17:27+00:00"
+  "checked_at": "2026-09-24T17:15:11+00:00",
+  "fetched_at": "2026-09-24T17:15:11+00:00"
  }
 };
