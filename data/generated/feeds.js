@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T00:54:26+00:00",
-  "fetched_at": "2026-09-24T00:54:26+00:00"
+  "checked_at": "2026-09-24T01:17:09+00:00",
+  "fetched_at": "2026-09-24T01:17:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T00:54:36+00:00",
-  "fetched_at": "2026-09-24T00:54:36+00:00"
+  "checked_at": "2026-09-24T01:17:19+00:00",
+  "fetched_at": "2026-09-24T01:17:19+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T00:54:36+00:00",
-  "fetched_at": "2026-09-24T00:54:36+00:00"
+  "checked_at": "2026-09-24T01:17:19+00:00",
+  "fetched_at": "2026-09-24T01:17:19+00:00"
  },
- "generated_at": "2026-09-24T00:54:36+00:00",
+ "generated_at": "2026-09-24T01:17:19+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T00:54:27+00:00",
-  "fetched_at": "2026-09-24T00:54:27+00:00"
+  "checked_at": "2026-09-24T01:17:10+00:00",
+  "fetched_at": "2026-09-24T01:17:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T00:54:29+00:00",
-  "fetched_at": "2026-09-24T00:54:29+00:00"
+  "checked_at": "2026-09-24T01:17:11+00:00",
+  "fetched_at": "2026-09-24T01:17:11+00:00"
  },
  "tv": {
   "data": [
@@ -2314,8 +2314,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T00:54:30+00:00",
-  "fetched_at": "2026-09-24T00:54:30+00:00"
+  "checked_at": "2026-09-24T01:17:12+00:00",
+  "fetched_at": "2026-09-24T01:17:12+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2420,20 +2420,18 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T00:54:30+00:00",
-  "fetched_at": "2026-09-24T00:54:30+00:00"
+  "checked_at": "2026-09-24T01:17:12+00:00",
+  "fetched_at": "2026-09-24T01:17:12+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-     "date": "2026-09-23T15:25:14+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
+     "date": "2026-09-23T07:08:18+00:00",
      "launch": true,
-     "title_en": "Gemini 3.8 text-to-speech says hello",
-     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
-     "translated_by": "google"
+     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
      "source": "Anthropic",
@@ -2445,9 +2443,9 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
+   "candidates": 14,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2468,21 +2466,21 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 515,
+     "likes": 517,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2523,8 +2521,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T00:54:35+00:00",
-  "fetched_at": "2026-09-24T00:54:35+00:00"
+  "checked_at": "2026-09-24T01:17:17+00:00",
+  "fetched_at": "2026-09-24T01:17:17+00:00"
  },
  "abroad": {
   "data": {
@@ -2848,8 +2846,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T00:54:33+00:00",
-  "fetched_at": "2026-09-24T00:54:33+00:00"
+  "checked_at": "2026-09-24T01:17:15+00:00",
+  "fetched_at": "2026-09-24T01:17:15+00:00"
  },
  "idf": {
   "data": [
@@ -2880,7 +2878,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T00:54:33+00:00",
-  "fetched_at": "2026-09-24T00:54:33+00:00"
+  "checked_at": "2026-09-24T01:17:15+00:00",
+  "fetched_at": "2026-09-24T01:17:15+00:00"
  }
 };
