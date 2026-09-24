@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T10:17:23+00:00",
-  "fetched_at": "2026-09-24T10:17:23+00:00"
+  "checked_at": "2026-09-24T11:17:11+00:00",
+  "fetched_at": "2026-09-24T11:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T10:17:35+00:00",
-  "fetched_at": "2026-09-24T10:17:35+00:00"
+  "checked_at": "2026-09-24T11:17:24+00:00",
+  "fetched_at": "2026-09-24T11:17:24+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Apple Music now has its own concert venue at its London Battersea HQ",
+    "title_he": "לאפל מיוזיק יש כעת מקום קונצרטים משלה במטה בטרסי בלונדון",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/apple-music-now-has-its-own-concert-venue-at-its-london-battersea-hq",
+    "date": "2026-09-24T11:06:43+00:00"
+   },
    {
     "title_en": "Roberts’ new collection of all-in-one stereo systems brings together the “ritual of physical listening and the convenience of modern technology”",
     "title_he": "האוסף החדש של רוברטס של מערכות סטריאו הכל-ב-אחד מפגיש את \"טקס ההאזנה הפיזית והנוחות של הטכנולוגיה המודרנית\"",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/wireless-headphones-are-about-to-get-even-more-advanced-with-qualcomms-latest-snapdragon-sound-tech",
     "date": "2026-09-23T19:30:00+00:00"
-   },
-   {
-    "title_en": "New issue of What Hi-Fi? out now: it's a bumper 50th Anniversary special!",
-    "title_he": "גיליון חדש של What Hi-Fi? יצא עכשיו: זה מבצע מיוחד ליום השנה ה-50!",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/new-issue-of-what-hi-fi-out-now-its-a-bumper-50th-anniversary-special",
-    "date": "2026-09-23T17:11:14+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T10:17:35+00:00",
-  "fetched_at": "2026-09-24T10:17:35+00:00"
+  "checked_at": "2026-09-24T11:17:26+00:00",
+  "fetched_at": "2026-09-24T11:17:26+00:00"
  },
- "generated_at": "2026-09-24T10:17:35+00:00",
+ "generated_at": "2026-09-24T11:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T09:48:00+00:00"
+     "date": "2026-09-24T10:43:00+00:00"
     },
     {
      "title": "במרחק קילומטרים ספורים מכפר סבא: מנהרה ואמל\"ח כבד נחשפו בבטן האדמה",
@@ -99,14 +99,19 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T09:48:00+00:00"
+     "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
+     "date": "2026-09-24T10:53:00+00:00"
     },
     {
-     "title": "אירופה והחוזים בניו יורק באדום; תשואות האג\"ח בארה\"ב קופצות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T09:46:00+00:00"
+     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T10:43:00+00:00"
+    },
+    {
+     "title": "פיצוי מצטבר של מאות מיליוני שקלים: הסכם פשרה ענק הושג נגד חמש חברות ביטוח",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557464",
+     "date": "2026-09-24T09:56:00+00:00"
     },
     {
      "title": "אפי קפיטל מוכרת קרקע ברעננה שבה זכתה לפני כשנה – ותישאר עם רווח של כ־4 מיליון שקל",
@@ -139,7 +144,7 @@ window.DB.generated = {
      "date": "2026-09-24T06:00:00+00:00"
     },
     {
-     "title": "התרחיש שמלך האג”ח מזהיר ממנו ומתי שוק המניות יגיע לנקודת שבירה",
+     "title": "האם תשואה של 6% נראית באופק? התרחיש שמתחיל להפחיד את השווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557437",
      "date": "2026-09-24T03:27:00+00:00"
     },
@@ -169,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-23T18:35:00+00:00"
     },
     {
-     "title": "איש השב\"כ שלקח חברה מדשדשת והביא אותה לשווי של יותר מ־2 מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557361",
-     "date": "2026-09-23T18:00:00+00:00"
-    },
-    {
      "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
      "date": "2026-09-23T16:36:00+00:00"
@@ -184,9 +184,9 @@ window.DB.generated = {
      "date": "2026-09-23T16:03:00+00:00"
     },
     {
-     "title": "הדרישה של רשות התחרות שעשויה לטרפד את עסקאות המיזוג הבאות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557390",
-     "date": "2026-09-23T16:00:00+00:00"
+     "title": "מחליפה הנהלה ונפרדת מהסל של ברקת: השינויים של קרפור בדרך אל הבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557400",
+     "date": "2026-09-23T15:44:00+00:00"
     },
     {
      "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T10:17:24+00:00",
-  "fetched_at": "2026-09-24T10:17:24+00:00"
+  "checked_at": "2026-09-24T11:17:13+00:00",
+  "fetched_at": "2026-09-24T11:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T10:17:25+00:00",
-  "fetched_at": "2026-09-24T10:17:25+00:00"
+  "checked_at": "2026-09-24T11:17:13+00:00",
+  "fetched_at": "2026-09-24T11:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T10:17:26+00:00",
-  "fetched_at": "2026-09-24T10:17:26+00:00"
+  "checked_at": "2026-09-24T11:17:15+00:00",
+  "fetched_at": "2026-09-24T11:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T10:17:26+00:00",
-  "fetched_at": "2026-09-24T10:17:26+00:00"
+  "checked_at": "2026-09-24T11:17:15+00:00",
+  "fetched_at": "2026-09-24T11:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2509,25 +2509,23 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+     "date": "2026-09-23T15:25:14+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Gemini 3.8 text-to-speech says hello",
+     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 184,
+     "likes": 185,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2541,7 +2539,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 523,
+     "likes": 528,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2562,7 +2560,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2596,8 +2594,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T10:17:34+00:00",
-  "fetched_at": "2026-09-24T10:17:34+00:00"
+  "checked_at": "2026-09-24T11:17:23+00:00",
+  "fetched_at": "2026-09-24T11:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -2650,30 +2648,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "רגע לפני אוסטריה: היכן מדורג סולומון בווסטהאם?",
-     "link": "https://www.one.co.il/Article/534144.html?ref=rss",
-     "date": "2026-09-23T18:21:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "סובוסלאי לא שכח את דאבור: \"הוא היה שם בשבילי בכל יום\"",
      "link": "https://sports.walla.co.il/item/3869580",
      "date": "2026-09-23T17:47:00+00:00",
      "source": "וואלה",
      "players": [
       "מונס דאבור"
-     ]
-    },
-    {
-     "title": "סולומון: פשעי מלחמה? אני כאן כדי לשחק כדורגל",
-     "link": "https://www.one.co.il/Article/534138.html?ref=rss",
-     "date": "2026-09-23T16:52:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2734,6 +2714,15 @@ window.DB.generated = {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
+     "link": "https://sports.walla.co.il/item/3868785",
+     "date": "2026-09-18T16:56:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2940,8 +2929,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T10:17:29+00:00",
-  "fetched_at": "2026-09-24T10:17:29+00:00"
+  "checked_at": "2026-09-24T11:17:19+00:00",
+  "fetched_at": "2026-09-24T11:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2972,7 +2961,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T10:17:30+00:00",
-  "fetched_at": "2026-09-24T10:17:30+00:00"
+  "checked_at": "2026-09-24T11:17:20+00:00",
+  "fetched_at": "2026-09-24T11:17:20+00:00"
  }
 };
