@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T07:17:25+00:00",
-  "fetched_at": "2026-09-24T07:17:25+00:00"
+  "checked_at": "2026-09-24T08:17:12+00:00",
+  "fetched_at": "2026-09-24T08:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T07:17:39+00:00",
-  "fetched_at": "2026-09-24T07:17:39+00:00"
+  "checked_at": "2026-09-24T08:17:23+00:00",
+  "fetched_at": "2026-09-24T08:17:23+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T07:17:40+00:00",
-  "fetched_at": "2026-09-24T07:17:40+00:00"
+  "checked_at": "2026-09-24T08:17:24+00:00",
+  "fetched_at": "2026-09-24T08:17:24+00:00"
  },
- "generated_at": "2026-09-24T07:17:40+00:00",
+ "generated_at": "2026-09-24T08:17:24+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
-     "date": "2026-09-24T06:00:00+00:00"
+     "title": "מגמה שלילית בתל אביב; הדולר מתחזק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T07:42:00+00:00"
     },
     {
      "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
@@ -99,19 +99,34 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "הדולר מזנק לשיא של חודשיים, והבכיר שמסמן הזדמנויות ביפן ובאירופה",
+     "title": "נוסעים להולנד? תבדקו שאין לכם מוצרים מרמת הגולן ואיו\"ש במזוודה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557450",
+     "date": "2026-09-24T08:09:00+00:00"
+    },
+    {
+     "title": "הנפט מטפס ל-103 דולר לחבית; החוזים בניו יורק אדומים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T06:36:00+00:00"
+     "date": "2026-09-24T08:05:00+00:00"
+    },
+    {
+     "title": "מגמה שלילית בתל אביב; הדולר מתחזק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T07:42:00+00:00"
+    },
+    {
+     "title": "פימי רוכשת את השליטה בחברת שירותי תקשורת תמורת 55 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557444",
+     "date": "2026-09-24T06:49:00+00:00"
+    },
+    {
+     "title": "בית המשפט הפדרלי הורה לממשל טראמפ לבטל את החרם שהטיל על כמה כלי תקשורת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557443",
+     "date": "2026-09-24T06:43:00+00:00"
     },
     {
      "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
      "date": "2026-09-24T06:00:00+00:00"
-    },
-    {
-     "title": "מה צפוי בתל אביב בעקבות הסערה בוול סטריט: חמישה דברים לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T05:20:00+00:00"
     },
     {
      "title": "התרחיש שמלך האג”ח מזהיר ממנו ומתי שוק המניות יגיע לנקודת שבירה",
@@ -179,19 +194,9 @@ window.DB.generated = {
      "date": "2026-09-23T14:38:00+00:00"
     },
     {
-     "title": "המיליארדים שזרמו והשיא של הביטקוין מאותתים: שוק הקריפטו מנסה להוכיח שהתבגר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557038",
-     "date": "2026-09-23T13:25:00+00:00"
-    },
-    {
      "title": "בממשלה נוטים לאשר דחייה במכירת כאל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557343",
      "date": "2026-09-23T12:22:00+00:00"
-    },
-    {
-     "title": "35 מיליארד שקל וענקיות מכל העולם: מאחורי הקלעים של הצגת המטרו בברלין",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557173",
-     "date": "2026-09-23T11:29:00+00:00"
     },
     {
      "title": "בבנק ההשקעות קנטור מזהים הזדמנות במניות ציוד השבבים - אך מחריגים את נובה וקמטק",
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-23T10:15:00+00:00"
     },
     {
-     "title": "רגע לפני ההנפקה, קרפור ממנה יו\"ר אחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557122",
-     "date": "2026-09-23T09:24:00+00:00"
-    },
-    {
      "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
      "date": "2026-09-23T08:33:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T07:17:27+00:00",
-  "fetched_at": "2026-09-24T07:17:27+00:00"
+  "checked_at": "2026-09-24T08:17:13+00:00",
+  "fetched_at": "2026-09-24T08:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T07:17:28+00:00",
-  "fetched_at": "2026-09-24T07:17:28+00:00"
+  "checked_at": "2026-09-24T08:17:14+00:00",
+  "fetched_at": "2026-09-24T08:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -1907,20 +1907,6 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בי.סי דובאי - ריאל מדריד"
-   },
-   {
-    "date": "2026-09-24",
-    "time": "19:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל תל אביב - באיירן מינכן"
-   },
-   {
-    "date": "2026-09-24",
-    "time": "19:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "אנדורה - מלטה"
@@ -1931,6 +1917,20 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "הפועל עכו - הפועל עפולה"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - ריאל מדריד"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - באיירן מינכן"
    },
    {
     "date": "2026-09-24",
@@ -1991,13 +1991,6 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "21:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "ליון-וילרבאן - מכבי תל אביב"
-   },
-   {
-    "date": "2026-09-24",
-    "time": "21:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "אוסטריה - ישראל"
@@ -2008,6 +2001,13 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "קוסובו - אירלנד"
+   },
+   {
+    "date": "2026-09-24",
+    "time": "21:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "ליון-וילרבאן - מכבי תל אביב"
    },
    {
     "date": "2026-09-24",
@@ -2138,13 +2138,6 @@ window.DB.generated = {
    {
     "date": "2026-09-25",
     "time": "21:45",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "פרטיזן בלגרד - אולימפיה מילאנו"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "טורקיה - צרפת"
@@ -2162,6 +2155,13 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "הונגריה - אוקראינה"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "21:45",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "פרטיזן בלגרד - אולימפיה מילאנו"
    },
    {
     "date": "2026-09-25",
@@ -2193,8 +2193,15 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-26",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "קניה - אריתראה"
+   },
+   {
+    "date": "2026-09-26",
     "time": "19:00",
-    "channel": "ספורט 5+",
+    "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "בולזאק - שוראל רואן"
    },
@@ -2214,10 +2221,24 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-26",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "דרום אפריקה - גינאה"
+   },
+   {
+    "date": "2026-09-26",
     "time": "19:30",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "טנריפה - קאדיס"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - הפועל ב\"ש/דימונה"
    },
    {
     "date": "2026-09-26",
@@ -2229,7 +2250,7 @@ window.DB.generated = {
    {
     "date": "2026-09-26",
     "time": "21:30",
-    "channel": "ספורט 5+ לייב",
+    "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "נאנטר - פו אורטז"
    },
@@ -2264,6 +2285,13 @@ window.DB.generated = {
    {
     "date": "2026-09-27",
     "time": "15:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "ויאדוליד - קורדובה"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "15:00",
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "מנצ'סטר יונייטד נשים - ווסטהאם נשים"
@@ -2284,10 +2312,24 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-27",
+    "time": "17:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "נאנסי - פאריס באסקטבול"
+   },
+   {
+    "date": "2026-09-27",
     "time": "18:30",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "צ'לסי נשים - ארסנל נשים"
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "עירוני אילת - מכבי אשדוד"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - עירוני קריית אתא"
    },
    {
     "date": "2026-09-27",
@@ -2302,6 +2344,13 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "דנמרק - ווילס"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "19:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אליצור חולון - מכבי אשדוד"
    },
    {
     "date": "2026-09-27",
@@ -2330,11 +2379,18 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "נורבגיה - פורטוגל"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אוביידו - ספורטינג גיחון"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T07:17:29+00:00",
-  "fetched_at": "2026-09-24T07:17:29+00:00"
+  "checked_at": "2026-09-24T08:17:15+00:00",
+  "fetched_at": "2026-09-24T08:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2439,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T07:17:29+00:00",
-  "fetched_at": "2026-09-24T07:17:29+00:00"
+  "checked_at": "2026-09-24T08:17:15+00:00",
+  "fetched_at": "2026-09-24T08:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2453,33 +2509,31 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+     "date": "2026-09-23T15:25:14+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Gemini 3.8 text-to-speech says hello",
+     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
-    {
-     "title": "Jev Decision Index",
-     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
-     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 174,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 174,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 176,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2492,7 +2546,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 127,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2510,6 +2564,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 140,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
@@ -2517,17 +2578,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 138,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 177,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2540,12 +2594,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T07:17:37+00:00",
-  "fetched_at": "2026-09-24T07:17:37+00:00"
+  "checked_at": "2026-09-24T08:17:23+00:00",
+  "fetched_at": "2026-09-24T08:17:23+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "המנהיג השקט: סולומון ינסה לקחת את ישראל ליורו",
+     "link": "https://www.one.co.il/Article/534183.html?ref=rss",
+     "date": "2026-09-24T07:44:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "מה וולף ושרף צריכים לשפר לקראת העונה הקרובה?",
      "link": "https://www.one.co.il/Article/534171.html?ref=rss",
@@ -2866,8 +2929,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T07:17:33+00:00",
-  "fetched_at": "2026-09-24T07:17:33+00:00"
+  "checked_at": "2026-09-24T08:17:19+00:00",
+  "fetched_at": "2026-09-24T08:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2898,7 +2961,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T07:17:33+00:00",
-  "fetched_at": "2026-09-24T07:17:33+00:00"
+  "checked_at": "2026-09-24T08:17:20+00:00",
+  "fetched_at": "2026-09-24T08:17:20+00:00"
  }
 };
