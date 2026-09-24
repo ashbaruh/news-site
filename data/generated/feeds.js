@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T09:17:22+00:00",
-  "fetched_at": "2026-09-24T09:17:22+00:00"
+  "checked_at": "2026-09-24T10:17:23+00:00",
+  "fetched_at": "2026-09-24T10:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T09:17:40+00:00",
-  "fetched_at": "2026-09-24T09:17:40+00:00"
+  "checked_at": "2026-09-24T10:17:35+00:00",
+  "fetched_at": "2026-09-24T10:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,34 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T09:17:41+00:00",
-  "fetched_at": "2026-09-24T09:17:41+00:00"
+  "checked_at": "2026-09-24T10:17:35+00:00",
+  "fetched_at": "2026-09-24T10:17:35+00:00"
  },
- "generated_at": "2026-09-24T09:17:41+00:00",
+ "generated_at": "2026-09-24T10:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מגדל היוקרה נתקע: רק מחצית מהדירות נמכרו אחרי 10 שנות שיווק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557348",
-     "date": "2026-09-24T08:20:00+00:00"
+     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T09:48:00+00:00"
     },
     {
-     "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
+     "title": "במרחק קילומטרים ספורים מכפר סבא: מנהרה ואמל\"ח כבד נחשפו בבטן האדמה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T09:13:00+00:00"
+     "date": "2026-09-24T10:04:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים במעל 1%",
+     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T08:55:00+00:00"
+     "date": "2026-09-24T09:48:00+00:00"
     },
     {
      "title": "אירופה והחוזים בניו יורק באדום; תשואות האג\"ח בארה\"ב קופצות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T08:50:00+00:00"
+     "date": "2026-09-24T09:46:00+00:00"
     },
     {
      "title": "אפי קפיטל מוכרת קרקע ברעננה שבה זכתה לפני כשנה – ותישאר עם רווח של כ־4 מיליון שקל",
@@ -119,7 +119,7 @@ window.DB.generated = {
      "date": "2026-09-24T08:11:00+00:00"
     },
     {
-     "title": "נוסעים להולנד? תבדקו שאין לכם מוצרים מרמת הגולן ואיו\"ש במזוודה",
+     "title": "נוסעים להולנד? תבדקו מה יש לכם במזוודה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557450",
      "date": "2026-09-24T08:09:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T09:17:23+00:00",
-  "fetched_at": "2026-09-24T09:17:23+00:00"
+  "checked_at": "2026-09-24T10:17:24+00:00",
+  "fetched_at": "2026-09-24T10:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T09:17:24+00:00",
-  "fetched_at": "2026-09-24T09:17:24+00:00"
+  "checked_at": "2026-09-24T10:17:25+00:00",
+  "fetched_at": "2026-09-24T10:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2081,6 +2081,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-25",
+    "time": "18:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "ניז'ר - לסוטו"
+   },
+   {
+    "date": "2026-09-25",
     "time": "19:00",
     "channel": "ספורט 1",
     "sport": "כדורגל",
@@ -2092,13 +2099,6 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "ארמניה - לטביה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "ניז'ר - לסוטו"
    },
    {
     "date": "2026-09-25",
@@ -2200,6 +2200,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-26",
+    "time": "16:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "דרום אפריקה - גינאה"
+   },
+   {
+    "date": "2026-09-26",
     "time": "19:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
@@ -2218,13 +2225,6 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "איסלנד - אסטוניה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "דרום אפריקה - גינאה"
    },
    {
     "date": "2026-09-26",
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T09:17:25+00:00",
-  "fetched_at": "2026-09-24T09:17:25+00:00"
+  "checked_at": "2026-09-24T10:17:26+00:00",
+  "fetched_at": "2026-09-24T10:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T09:17:25+00:00",
-  "fetched_at": "2026-09-24T09:17:25+00:00"
+  "checked_at": "2026-09-24T10:17:26+00:00",
+  "fetched_at": "2026-09-24T10:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2527,21 +2527,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 178,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 179,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 520,
+     "likes": 523,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2569,7 +2569,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 140,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2583,7 +2583,7 @@ window.DB.generated = {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 178,
+     "likes": 179,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2596,12 +2596,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T09:17:33+00:00",
-  "fetched_at": "2026-09-24T09:17:33+00:00"
+  "checked_at": "2026-09-24T10:17:34+00:00",
+  "fetched_at": "2026-09-24T10:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "המיוחד: כך הפך דיא סבע לאחד הכוכבים הגדולים בטורקיה",
+     "link": "https://sports.walla.co.il/item/3869600",
+     "date": "2026-09-24T10:00:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "אבו פאני לא בסגל לאוסטריה ויעבור MRI, ומתי יצטרף קניקובסקי?",
      "link": "https://sports.walla.co.il/item/3869641",
@@ -2725,15 +2734,6 @@ window.DB.generated = {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T16:56:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2940,8 +2940,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T09:17:29+00:00",
-  "fetched_at": "2026-09-24T09:17:29+00:00"
+  "checked_at": "2026-09-24T10:17:29+00:00",
+  "fetched_at": "2026-09-24T10:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2972,7 +2972,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T09:17:30+00:00",
-  "fetched_at": "2026-09-24T09:17:30+00:00"
+  "checked_at": "2026-09-24T10:17:30+00:00",
+  "fetched_at": "2026-09-24T10:17:30+00:00"
  }
 };
