@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T05:17:16+00:00",
-  "fetched_at": "2026-09-24T05:17:16+00:00"
+  "checked_at": "2026-09-24T06:12:17+00:00",
+  "fetched_at": "2026-09-24T06:12:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T05:17:28+00:00",
-  "fetched_at": "2026-09-24T05:17:28+00:00"
+  "checked_at": "2026-09-24T06:12:29+00:00",
+  "fetched_at": "2026-09-24T06:12:29+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T05:17:30+00:00",
-  "fetched_at": "2026-09-24T05:17:30+00:00"
+  "checked_at": "2026-09-24T06:12:29+00:00",
+  "fetched_at": "2026-09-24T06:12:29+00:00"
  },
- "generated_at": "2026-09-24T05:17:30+00:00",
+ "generated_at": "2026-09-24T06:12:29+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רשות המסים דורשת יותר מ־200 מיליון שקל בחזרה מעסקים בצפון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557388",
-     "date": "2026-09-24T02:54:00+00:00"
+     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
+     "date": "2026-09-24T06:00:00+00:00"
     },
     {
      "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T02:30:00+00:00"
+     "date": "2026-09-24T05:21:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T05:20:00+00:00"
+    },
     {
      "title": "הדולר מזנק לשיא של חודשיים, והבכיר שמסמן הזדמנויות ביפן ובאירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T05:17:17+00:00",
-  "fetched_at": "2026-09-24T05:17:17+00:00"
+  "checked_at": "2026-09-24T06:12:18+00:00",
+  "fetched_at": "2026-09-24T06:12:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T05:17:18+00:00",
-  "fetched_at": "2026-09-24T05:17:18+00:00"
+  "checked_at": "2026-09-24T06:12:19+00:00",
+  "fetched_at": "2026-09-24T06:12:19+00:00"
  },
  "tv": {
   "data": [
@@ -2314,8 +2319,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T05:17:20+00:00",
-  "fetched_at": "2026-09-24T05:17:20+00:00"
+  "checked_at": "2026-09-24T06:12:20+00:00",
+  "fetched_at": "2026-09-24T06:12:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2420,8 +2425,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T05:17:20+00:00",
-  "fetched_at": "2026-09-24T05:17:20+00:00"
+  "checked_at": "2026-09-24T06:12:20+00:00",
+  "fetched_at": "2026-09-24T06:12:20+00:00"
  },
  "ai": {
   "data": {
@@ -2452,7 +2457,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 171,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2480,8 +2485,15 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 96,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2491,24 +2503,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 95,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 175,
+     "likes": 177,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2521,12 +2526,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T05:17:27+00:00",
-  "fetched_at": "2026-09-24T05:17:27+00:00"
+  "checked_at": "2026-09-24T06:12:28+00:00",
+  "fetched_at": "2026-09-24T06:12:28+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מה וולף ושרף צריכים לשפר לקראת העונה הקרובה?",
+     "link": "https://www.one.co.il/Article/534171.html?ref=rss",
+     "date": "2026-09-24T05:35:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בן שרף",
+      "דני וולף"
+     ]
+    },
     {
      "title": "צרות בקישור: אבו פאני בספק גדול, גאנדלמן יחזור רק לקוסובו?",
      "link": "https://sports.walla.co.il/item/3869582",
@@ -2837,8 +2852,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T05:17:23+00:00",
-  "fetched_at": "2026-09-24T05:17:23+00:00"
+  "checked_at": "2026-09-24T06:12:24+00:00",
+  "fetched_at": "2026-09-24T06:12:24+00:00"
  },
  "idf": {
   "data": [
@@ -2869,7 +2884,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T05:17:24+00:00",
-  "fetched_at": "2026-09-24T05:17:24+00:00"
+  "checked_at": "2026-09-24T06:12:25+00:00",
+  "fetched_at": "2026-09-24T06:12:25+00:00"
  }
 };
