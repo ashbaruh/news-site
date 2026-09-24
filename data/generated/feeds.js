@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-23",
+   "as_of": "2026-09-24",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T02:17:18+00:00",
-  "fetched_at": "2026-09-24T02:17:18+00:00"
+  "checked_at": "2026-09-24T03:17:31+00:00",
+  "fetched_at": "2026-09-24T03:17:31+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T02:17:37+00:00",
-  "fetched_at": "2026-09-24T02:17:37+00:00"
+  "checked_at": "2026-09-24T03:17:47+00:00",
+  "fetched_at": "2026-09-24T03:17:47+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T02:17:38+00:00",
-  "fetched_at": "2026-09-24T02:17:38+00:00"
+  "checked_at": "2026-09-24T03:17:49+00:00",
+  "fetched_at": "2026-09-24T03:17:49+00:00"
  },
- "generated_at": "2026-09-24T02:17:38+00:00",
+ "generated_at": "2026-09-24T03:17:49+00:00",
  "globes": {
   "data": {
    "top": [
@@ -220,8 +220,9 @@ window.DB.generated = {
     }
    ]
   },
-  "ok": true,
-  "checked_at": "2026-09-24T02:17:20+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-24T03:17:33+00:00",
   "fetched_at": "2026-09-24T02:17:20+00:00"
  },
  "ifa": {
@@ -1866,8 +1867,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T02:17:27+00:00",
-  "fetched_at": "2026-09-24T02:17:27+00:00"
+  "checked_at": "2026-09-24T03:17:35+00:00",
+  "fetched_at": "2026-09-24T03:17:35+00:00"
  },
  "tv": {
   "data": [
@@ -2313,8 +2314,9 @@ window.DB.generated = {
     "title": "נורבגיה - פורטוגל"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-24T02:17:29+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-24T03:17:35+00:00",
   "fetched_at": "2026-09-24T02:17:29+00:00"
  },
  "ligat_haal": {
@@ -2420,31 +2422,36 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T02:17:29+00:00",
-  "fetched_at": "2026-09-24T02:17:29+00:00"
+  "checked_at": "2026-09-24T03:17:35+00:00",
+  "fetched_at": "2026-09-24T03:17:35+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
-     "date": "2026-09-23T07:08:18+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "translated_by": "google"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-     "date": "2026-09-23T15:25:14+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/airbnb-gpt-6-astra",
+     "date": "2026-09-23T01:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 3.8 text-to-speech says hello",
-     "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
+     "title_en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+     "title_he": "Airbnb מרחיבה את הגישה לדגמי GPT-6 Astra ו-OpenAI",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 10,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Laya Demo",
@@ -2457,7 +2464,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 164,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2485,28 +2492,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 135,
+     "likes": 136,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 91,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 93,
+     "likes": 95,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 170,
+     "likes": 172,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2519,8 +2526,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T02:17:36+00:00",
-  "fetched_at": "2026-09-24T02:17:36+00:00"
+  "checked_at": "2026-09-24T03:17:45+00:00",
+  "fetched_at": "2026-09-24T03:17:45+00:00"
  },
  "abroad": {
   "data": {
@@ -2844,8 +2851,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T02:17:32+00:00",
-  "fetched_at": "2026-09-24T02:17:32+00:00"
+  "checked_at": "2026-09-24T03:17:40+00:00",
+  "fetched_at": "2026-09-24T03:17:40+00:00"
  },
  "idf": {
   "data": [
@@ -2876,7 +2883,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T02:17:33+00:00",
-  "fetched_at": "2026-09-24T02:17:33+00:00"
+  "checked_at": "2026-09-24T03:17:41+00:00",
+  "fetched_at": "2026-09-24T03:17:41+00:00"
  }
 };
