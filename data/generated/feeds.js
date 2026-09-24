@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:17:21+00:00",
-  "fetched_at": "2026-09-24T06:17:21+00:00"
+  "checked_at": "2026-09-24T07:17:25+00:00",
+  "fetched_at": "2026-09-24T07:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:17:33+00:00",
-  "fetched_at": "2026-09-24T06:17:33+00:00"
+  "checked_at": "2026-09-24T07:17:39+00:00",
+  "fetched_at": "2026-09-24T07:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Roberts’ new collection of all-in-one stereo systems brings together the “ritual of physical listening and the convenience of modern technology”",
+    "title_he": "האוסף החדש של רוברטס של מערכות סטריאו הכל-ב-אחד מפגיש את \"טקס ההאזנה הפיזית והנוחות של הטכנולוגיה המודרנית\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/radio/roberts-new-collection-of-all-in-one-stereo-systems-brings-together-the-ritual-of-physical-listening-and-the-convenience-of-modern-technology",
+    "date": "2026-09-24T07:00:00+00:00"
+   },
    {
     "title_en": "How to watch Azerbaijan Grand Prix 2026: live stream F1 race from anywhere",
     "title_he": "איך לצפות בגראנד פרי של אזרבייג'ן 2026: שידור חי של מירוץ F1 מכל מקום",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/new-issue-of-what-hi-fi-out-now-its-a-bumper-50th-anniversary-special",
     "date": "2026-09-23T17:11:14+00:00"
-   },
-   {
-    "title_en": "The Sonos Beam Ultra is great, but where are all the good new cheap Dolby Atmos soundbars hiding?",
-    "title_he": "Sonos Beam Ultra הוא מעולה, אבל איפה מסתתרים כל סרגלי הקול הזולים החדשים והטובים של Dolby Atmos?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/the-sonos-beam-ultra-is-great-but-where-are-all-the-good-new-cheap-dolby-atmos-soundbars-hiding",
-    "date": "2026-09-23T15:01:42+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:17:34+00:00",
-  "fetched_at": "2026-09-24T06:17:34+00:00"
+  "checked_at": "2026-09-24T07:17:40+00:00",
+  "fetched_at": "2026-09-24T07:17:40+00:00"
  },
- "generated_at": "2026-09-24T06:17:34+00:00",
+ "generated_at": "2026-09-24T07:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,19 +94,24 @@ window.DB.generated = {
     {
      "title": "נערכים גם להסלמה מהירה: צה\"ל בכוננות שיא לשבוע הקרוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T05:21:00+00:00"
+     "date": "2026-09-24T07:09:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T05:20:00+00:00"
-    },
-    {
      "title": "הדולר מזנק לשיא של חודשיים, והבכיר שמסמן הזדמנויות ביפן ובאירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T04:01:00+00:00"
+     "date": "2026-09-24T06:36:00+00:00"
+    },
+    {
+     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
+     "date": "2026-09-24T06:00:00+00:00"
+    },
+    {
+     "title": "מה צפוי בתל אביב בעקבות הסערה בוול סטריט: חמישה דברים לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T05:20:00+00:00"
     },
     {
      "title": "התרחיש שמלך האג”ח מזהיר ממנו ומתי שוק המניות יגיע לנקודת שבירה",
@@ -174,11 +179,6 @@ window.DB.generated = {
      "date": "2026-09-23T14:38:00+00:00"
     },
     {
-     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
-     "date": "2026-09-23T14:19:00+00:00"
-    },
-    {
      "title": "המיליארדים שזרמו והשיא של הביטקוין מאותתים: שוק הקריפטו מנסה להוכיח שהתבגר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557038",
      "date": "2026-09-23T13:25:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:17:22+00:00",
-  "fetched_at": "2026-09-24T06:17:22+00:00"
+  "checked_at": "2026-09-24T07:17:27+00:00",
+  "fetched_at": "2026-09-24T07:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:17:23+00:00",
-  "fetched_at": "2026-09-24T06:17:23+00:00"
+  "checked_at": "2026-09-24T07:17:28+00:00",
+  "fetched_at": "2026-09-24T07:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -1984,7 +1984,7 @@ window.DB.generated = {
    {
     "date": "2026-09-24",
     "time": "21:30",
-    "channel": "5 גולד",
+    "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "באסקוניה - אולימפיאקוס"
    },
@@ -2071,6 +2071,13 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "טנזניה - גינאה ביסאו"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "17:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הודו - פנמה"
    },
    {
     "date": "2026-09-25",
@@ -2207,6 +2214,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-26",
+    "time": "19:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "טנריפה - קאדיס"
+   },
+   {
+    "date": "2026-09-26",
     "time": "21:00",
     "channel": "ספורט 5+",
     "sport": "כדורסל",
@@ -2319,8 +2333,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:17:25+00:00",
-  "fetched_at": "2026-09-24T06:17:25+00:00"
+  "checked_at": "2026-09-24T07:17:29+00:00",
+  "fetched_at": "2026-09-24T07:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2425,8 +2439,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:17:25+00:00",
-  "fetched_at": "2026-09-24T06:17:25+00:00"
+  "checked_at": "2026-09-24T07:17:29+00:00",
+  "fetched_at": "2026-09-24T07:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2448,7 +2462,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 14,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2457,14 +2471,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 173,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 173,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2485,22 +2499,15 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 96,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 138,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2508,6 +2515,13 @@ window.DB.generated = {
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 98,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 138,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2526,8 +2540,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:17:32+00:00",
-  "fetched_at": "2026-09-24T06:17:32+00:00"
+  "checked_at": "2026-09-24T07:17:37+00:00",
+  "fetched_at": "2026-09-24T07:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2852,8 +2866,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:17:28+00:00",
-  "fetched_at": "2026-09-24T06:17:28+00:00"
+  "checked_at": "2026-09-24T07:17:33+00:00",
+  "fetched_at": "2026-09-24T07:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2884,7 +2898,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:17:29+00:00",
-  "fetched_at": "2026-09-24T06:17:29+00:00"
+  "checked_at": "2026-09-24T07:17:33+00:00",
+  "fetched_at": "2026-09-24T07:17:33+00:00"
  }
 };
