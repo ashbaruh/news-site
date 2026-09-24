@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T14:17:28+00:00",
-  "fetched_at": "2026-09-24T14:17:28+00:00"
+  "checked_at": "2026-09-24T16:17:22+00:00",
+  "fetched_at": "2026-09-24T16:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,64 +44,79 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T14:17:43+00:00",
-  "fetched_at": "2026-09-24T14:17:43+00:00"
+  "checked_at": "2026-09-24T16:17:30+00:00",
+  "fetched_at": "2026-09-24T16:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I lived with the Sonos Ace Ultra – here are 4 key ways the new headphones are better than the original Ace",
+    "title_he": "חייתי עם Sonos Ace Ultra - הנה 4 דרכים מרכזיות שבהן האוזניות החדשות טובות יותר מהאייס המקורית",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/i-lived-with-the-sonos-ace-ultra-here-are-4-key-ways-the-new-headphones-are-better-than-the-original-ace",
+    "date": "2026-09-24T15:20:31+00:00"
+   },
+   {
+    "title_en": "Trouble hearing movie dialogue? These are our three top tips to make voices clearer",
+    "title_he": "מתקשים לשמוע דיאלוג בסרט? אלו הם שלושת הטיפים המובילים שלנו להבהיר את הקולות",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/trouble-hearing-movie-dialogue-these-are-our-three-top-tips-to-make-voices-clearer",
+    "date": "2026-09-24T14:13:13+00:00"
+   },
+   {
+    "title_en": "Celebrating International Podcast Day? Our experts pick 8 of the best speakers and headphones for vocal clarity as well as music",
+    "title_he": "חוגגים את יום הפודקאסט הבינלאומי? המומחים שלנו בוחרים 8 מהרמקולים והאוזניות הטובים ביותר לבהירות ווקאלית וגם למוזיקה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/av/celebrating-international-podcast-day-our-experts-pick-8-of-the-best-speakers-and-headphones-for-vocal-clarity-as-well-as-music",
+    "date": "2026-09-24T14:13:13+00:00"
+   },
    {
     "title_en": "“We wanted to have a product to compete with the likes of Apple TV and Sky Stream” Vodafone reveals its plans to conquer streaming",
     "title_he": "\"רצינו שיהיה לנו מוצר שיתחרה עם כמו Apple TV ו-Sky Stream\" וודאפון חושפת את תוכניותיה לכבוש את הסטרימינג",
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/we-wanted-to-have-a-product-to-compete-with-the-likes-of-apple-tv-and-sky-stream-vodafone-reveals-its-plans-to-conquer-streaming",
     "date": "2026-09-24T13:23:52+00:00"
-   },
-   {
-    "title_en": "Sennheiser Momentum True Wireless 5",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/sennheiser-momentum-true-wireless-5",
-    "date": "2026-09-24T12:45:43+00:00"
-   },
-   {
-    "title_en": "Apple Music now has its own concert venue at its London Battersea HQ",
-    "title_he": "לאפל מיוזיק יש כעת מקום קונצרטים משלה במטה בטרסי בלונדון",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/apple-music-now-has-its-own-concert-venue-at-its-london-battersea-hq",
-    "date": "2026-09-24T11:06:43+00:00"
-   },
-   {
-    "title_en": "Roberts’ new collection of all-in-one stereo systems brings together the “ritual of physical listening and the convenience of modern technology”",
-    "title_he": "האוסף החדש של רוברטס של מערכות סטריאו הכל-ב-אחד מפגיש את \"טקס ההאזנה הפיזית והנוחות של הטכנולוגיה המודרנית\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/radio/roberts-new-collection-of-all-in-one-stereo-systems-brings-together-the-ritual-of-physical-listening-and-the-convenience-of-modern-technology",
-    "date": "2026-09-24T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T14:17:46+00:00",
-  "fetched_at": "2026-09-24T14:17:46+00:00"
+  "checked_at": "2026-09-24T16:17:33+00:00",
+  "fetched_at": "2026-09-24T16:17:33+00:00"
  },
- "generated_at": "2026-09-24T14:17:46+00:00",
+ "generated_at": "2026-09-24T16:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T13:00:00+00:00"
+     "title": "רשות התחרות בוחנת מגבלות חדשות על יבואני הרכב בישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557515",
+     "date": "2026-09-24T15:00:00+00:00"
     },
     {
-     "title": "במרחק קילומטרים ספורים מכפר סבא: מנהרה ואמל\"ח כבד נחשפו בבטן האדמה",
+     "title": "שעות לפני נאום נתניהו: אבו מאזן תוקף את ישראל באו\"ם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T11:50:00+00:00"
+     "date": "2026-09-24T15:55:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ירידות בוול סטריט; \"כוח עליון\" מפיל את מניית אורקל",
+     "title": "ירידות בוול סטריט; בכירי הפד: \"ייתכן שיהיה צורך בהעלאות ריבית נוספות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T13:31:00+00:00"
+     "date": "2026-09-24T15:29:00+00:00"
+    },
+    {
+     "title": "מליסרון הודיעה שהמנכ\"ל אופיר שריד יסיים את תפקידו בשל מחלה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557595",
+     "date": "2026-09-24T15:15:00+00:00"
+    },
+    {
+     "title": "איזו עיר במזה\"ת הגיעה למקום הכי גבוה במדד הערים העולמי?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557123",
+     "date": "2026-09-24T14:44:00+00:00"
+    },
+    {
+     "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
+     "date": "2026-09-24T14:30:00+00:00"
     },
     {
      "title": "הפג-לויד וקרן פימי הגישו הצעה משופרת לרכישת צים. מה היא כוללת?",
@@ -109,17 +124,12 @@ window.DB.generated = {
      "date": "2026-09-24T13:17:00+00:00"
     },
     {
-     "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T13:00:00+00:00"
-    },
-    {
      "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
      "date": "2026-09-24T12:47:00+00:00"
     },
     {
-     "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחוסר",
+     "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחסר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557454",
      "date": "2026-09-24T11:56:00+00:00"
     },
@@ -204,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-23T14:53:00+00:00"
     },
     {
-     "title": "נעילה שלילית בת\"א: מדדי הנדל\"ן והביטוח בלטו לרעה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557046",
-     "date": "2026-09-23T14:38:00+00:00"
-    },
-    {
      "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557156",
      "date": "2026-09-23T10:35:00+00:00"
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
      "date": "2026-09-23T08:33:00+00:00"
-    },
-    {
-     "title": "פופולרית יותר מכיפת ברזל: מערכת ההגנה הישראלית שהפכה ללהיט גלובלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
-     "date": "2026-09-23T02:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T14:17:29+00:00",
-  "fetched_at": "2026-09-24T14:17:29+00:00"
+  "checked_at": "2026-09-24T16:17:23+00:00",
+  "fetched_at": "2026-09-24T16:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T14:17:30+00:00",
-  "fetched_at": "2026-09-24T14:17:30+00:00"
+  "checked_at": "2026-09-24T16:17:24+00:00",
+  "fetched_at": "2026-09-24T16:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T14:17:32+00:00",
-  "fetched_at": "2026-09-24T14:17:32+00:00"
+  "checked_at": "2026-09-24T16:17:24+00:00",
+  "fetched_at": "2026-09-24T16:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T14:17:32+00:00",
-  "fetched_at": "2026-09-24T14:17:32+00:00"
+  "checked_at": "2026-09-24T16:17:24+00:00",
+  "fetched_at": "2026-09-24T16:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2525,50 +2525,43 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 195,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 184,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 531,
+     "likes": 532,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 135,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 107,
+     "likes": 108,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 101,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 136,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2578,10 +2571,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 101,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 179,
+     "likes": 180,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
@@ -2594,12 +2594,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T14:17:41+00:00",
-  "fetched_at": "2026-09-24T14:17:41+00:00"
+  "checked_at": "2026-09-24T16:17:30+00:00",
+  "fetched_at": "2026-09-24T16:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רביבו בישל פעמיים, ראפיניה שוב כיכב: טאפאסים",
+     "link": "https://www.one.co.il/Article/534218.html?ref=rss",
+     "date": "2026-09-24T15:18:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "סולומון וגלוך ב-11: בן שמעון הודיע על ההרכב",
      "link": "https://www.one.co.il/Article/534208.html?ref=rss",
@@ -2672,24 +2681,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "עופרי ארד"
-     ]
-    },
-    {
-     "title": "\"פתיחת עונה סנסציונית\". אוהדי ווסטהאם מאוהבים בסולומון",
-     "link": "https://sports.walla.co.il/item/3869454",
-     "date": "2026-09-23T06:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "חיים רביבו: \"רוי מגן שמאלי בגללי, לא רציתי שישוו בינינו\"",
-     "link": "https://sports.walla.co.il/item/3869450",
-     "date": "2026-09-23T05:40:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2926,11 +2917,21 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": []
+   "europe": [
+    {
+     "title": "מושלמים ברומניה: מכבי חיפה בדרך לתואר אירופי",
+     "link": "https://www.one.co.il/Article/534232.html?ref=rss",
+     "date": "2026-09-24T16:06:00+00:00",
+     "source": "ONE",
+     "clubs": [
+      "מכבי חיפה"
+     ]
+    }
+   ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T14:17:35+00:00",
-  "fetched_at": "2026-09-24T14:17:35+00:00"
+  "checked_at": "2026-09-24T16:17:27+00:00",
+  "fetched_at": "2026-09-24T16:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -2961,7 +2962,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T14:17:36+00:00",
-  "fetched_at": "2026-09-24T14:17:36+00:00"
+  "checked_at": "2026-09-24T16:17:27+00:00",
+  "fetched_at": "2026-09-24T16:17:27+00:00"
  }
 };
