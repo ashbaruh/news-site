@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:17:11+00:00",
-  "fetched_at": "2026-09-24T11:17:11+00:00"
+  "checked_at": "2026-09-24T11:51:37+00:00",
+  "fetched_at": "2026-09-24T11:51:37+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:17:24+00:00",
-  "fetched_at": "2026-09-24T11:17:24+00:00"
+  "checked_at": "2026-09-24T11:51:55+00:00",
+  "fetched_at": "2026-09-24T11:51:55+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:17:26+00:00",
-  "fetched_at": "2026-09-24T11:17:26+00:00"
+  "checked_at": "2026-09-24T11:51:56+00:00",
+  "fetched_at": "2026-09-24T11:51:56+00:00"
  },
- "generated_at": "2026-09-24T11:17:26+00:00",
+ "generated_at": "2026-09-24T11:51:56+00:00",
  "globes": {
   "data": {
    "top": [
@@ -101,7 +101,12 @@ window.DB.generated = {
     {
      "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T10:53:00+00:00"
+     "date": "2026-09-24T11:29:00+00:00"
+    },
+    {
+     "title": "כלל מעניקה שווי שיא לבנק השקעות בישראל: כך קפץ המחיר של ווליו בייס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557383",
+     "date": "2026-09-24T11:08:00+00:00"
     },
     {
      "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
@@ -184,11 +189,6 @@ window.DB.generated = {
      "date": "2026-09-23T16:03:00+00:00"
     },
     {
-     "title": "מחליפה הנהלה ונפרדת מהסל של ברקת: השינויים של קרפור בדרך אל הבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557400",
-     "date": "2026-09-23T15:44:00+00:00"
-    },
-    {
      "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557355",
      "date": "2026-09-23T14:53:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:17:13+00:00",
-  "fetched_at": "2026-09-24T11:17:13+00:00"
+  "checked_at": "2026-09-24T11:51:38+00:00",
+  "fetched_at": "2026-09-24T11:51:38+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:17:13+00:00",
-  "fetched_at": "2026-09-24T11:17:13+00:00"
+  "checked_at": "2026-09-24T11:51:38+00:00",
+  "fetched_at": "2026-09-24T11:51:38+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:17:15+00:00",
-  "fetched_at": "2026-09-24T11:17:15+00:00"
+  "checked_at": "2026-09-24T11:51:49+00:00",
+  "fetched_at": "2026-09-24T11:51:49+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,19 +2495,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:17:15+00:00",
-  "fetched_at": "2026-09-24T11:17:15+00:00"
+  "checked_at": "2026-09-24T11:51:49+00:00",
+  "fetched_at": "2026-09-24T11:51:49+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
-     "date": "2026-09-23T07:08:18+00:00",
-     "launch": true,
-     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
-    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
@@ -2516,16 +2509,27 @@ window.DB.generated = {
      "title_en": "Gemini 3.8 text-to-speech says hello",
      "title_he": "Gemini 3.8 טקסט לדיבור אומר שלום",
      "translated_by": "google"
+    },
+    {
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
+     "launch": true,
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 11,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 185,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2539,21 +2543,21 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 528,
+     "likes": 529,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2574,7 +2578,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 98,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2594,12 +2598,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:17:23+00:00",
-  "fetched_at": "2026-09-24T11:17:23+00:00"
+  "checked_at": "2026-09-24T11:51:54+00:00",
+  "fetched_at": "2026-09-24T11:51:54+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סולומון וגלוך ב-11: בן שמעון הודיע על ההרכב",
+     "link": "https://www.one.co.il/Article/534208.html?ref=rss",
+     "date": "2026-09-24T11:28:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "המיוחד: כך הפך דיא סבע לאחד הכוכבים הגדולים בטורקיה",
      "link": "https://sports.walla.co.il/item/3869600",
@@ -2929,8 +2943,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T11:17:19+00:00",
-  "fetched_at": "2026-09-24T11:17:19+00:00"
+  "checked_at": "2026-09-24T11:51:53+00:00",
+  "fetched_at": "2026-09-24T11:51:53+00:00"
  },
  "idf": {
   "data": [
@@ -2961,7 +2975,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T11:17:20+00:00",
-  "fetched_at": "2026-09-24T11:17:20+00:00"
+  "checked_at": "2026-09-24T11:51:53+00:00",
+  "fetched_at": "2026-09-24T11:51:53+00:00"
  }
 };
