@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:15:02+00:00",
-  "fetched_at": "2026-09-24T17:15:02+00:00"
+  "checked_at": "2026-09-24T17:17:33+00:00",
+  "fetched_at": "2026-09-24T17:17:33+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "The read operation timed out",
-  "checked_at": "2026-09-24T17:15:39+00:00",
-  "fetched_at": "2026-09-24T16:17:30+00:00"
+  "ok": true,
+  "checked_at": "2026-09-24T17:17:59+00:00",
+  "fetched_at": "2026-09-24T17:17:59+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:15:41+00:00",
-  "fetched_at": "2026-09-24T17:15:41+00:00"
+  "checked_at": "2026-09-24T17:17:59+00:00",
+  "fetched_at": "2026-09-24T17:17:59+00:00"
  },
- "generated_at": "2026-09-24T17:15:41+00:00",
+ "generated_at": "2026-09-24T17:17:59+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:15:02+00:00",
-  "fetched_at": "2026-09-24T17:15:02+00:00"
+  "checked_at": "2026-09-24T17:17:34+00:00",
+  "fetched_at": "2026-09-24T17:17:34+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:15:05+00:00",
-  "fetched_at": "2026-09-24T17:15:05+00:00"
+  "checked_at": "2026-09-24T17:17:35+00:00",
+  "fetched_at": "2026-09-24T17:17:35+00:00"
  },
  "tv": {
   "data": [
@@ -2390,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:15:07+00:00",
-  "fetched_at": "2026-09-24T17:15:07+00:00"
+  "checked_at": "2026-09-24T17:17:36+00:00",
+  "fetched_at": "2026-09-24T17:17:36+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2496,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:15:07+00:00",
-  "fetched_at": "2026-09-24T17:15:07+00:00"
+  "checked_at": "2026-09-24T17:17:36+00:00",
+  "fetched_at": "2026-09-24T17:17:36+00:00"
  },
  "ai": {
   "data": {
@@ -2510,17 +2509,19 @@ window.DB.generated = {
      "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 13,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2540,7 +2541,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 532,
+     "likes": 533,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2595,8 +2596,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:15:14+00:00",
-  "fetched_at": "2026-09-24T17:15:14+00:00"
+  "checked_at": "2026-09-24T17:17:44+00:00",
+  "fetched_at": "2026-09-24T17:17:44+00:00"
  },
  "abroad": {
   "data": {
@@ -2931,8 +2932,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:15:10+00:00",
-  "fetched_at": "2026-09-24T17:15:10+00:00"
+  "checked_at": "2026-09-24T17:17:40+00:00",
+  "fetched_at": "2026-09-24T17:17:40+00:00"
  },
  "idf": {
   "data": [
@@ -2963,7 +2964,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:15:11+00:00",
-  "fetched_at": "2026-09-24T17:15:11+00:00"
+  "checked_at": "2026-09-24T17:17:40+00:00",
+  "fetched_at": "2026-09-24T17:17:40+00:00"
  }
 };
