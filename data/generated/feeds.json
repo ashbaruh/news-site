@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T18:17:21+00:00",
-  "fetched_at": "2026-09-24T18:17:21+00:00"
+  "checked_at": "2026-09-24T19:17:25+00:00",
+  "fetched_at": "2026-09-24T19:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -41,8 +41,9 @@
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-24T18:17:33+00:00",
+  "ok": false,
+  "error": "The read operation timed out",
+  "checked_at": "2026-09-24T19:18:05+00:00",
   "fetched_at": "2026-09-24T18:17:33+00:00"
  },
  "av_en": {
@@ -77,10 +78,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T18:17:34+00:00",
-  "fetched_at": "2026-09-24T18:17:34+00:00"
+  "checked_at": "2026-09-24T19:18:05+00:00",
+  "fetched_at": "2026-09-24T19:18:05+00:00"
  },
- "generated_at": "2026-09-24T18:17:34+00:00",
+ "generated_at": "2026-09-24T19:18:05+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,9 +91,9 @@
      "date": "2026-09-24T18:00:00+00:00"
     },
     {
-     "title": "רה\"מ נתניהו עלה לנאום בעצרת האו\"ם, עשרות נציגים עזבו את האולם",
+     "title": "רה\"מ מגיב להאשמות נגד ישראל: \"רצח עם? זה שקר המאה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T18:11:00+00:00"
+     "date": "2026-09-24T18:44:00+00:00"
     }
    ],
    "market": [
@@ -224,8 +225,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T18:17:22+00:00",
-  "fetched_at": "2026-09-24T18:17:22+00:00"
+  "checked_at": "2026-09-24T19:17:27+00:00",
+  "fetched_at": "2026-09-24T19:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1870,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T18:17:23+00:00",
-  "fetched_at": "2026-09-24T18:17:23+00:00"
+  "checked_at": "2026-09-24T19:17:28+00:00",
+  "fetched_at": "2026-09-24T19:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2387,8 +2388,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T18:17:24+00:00",
-  "fetched_at": "2026-09-24T18:17:24+00:00"
+  "checked_at": "2026-09-24T19:17:29+00:00",
+  "fetched_at": "2026-09-24T19:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2493,8 +2494,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T18:17:24+00:00",
-  "fetched_at": "2026-09-24T18:17:24+00:00"
+  "checked_at": "2026-09-24T19:17:29+00:00",
+  "fetched_at": "2026-09-24T19:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2530,14 +2531,14 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 187,
+     "likes": 188,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 535,
+     "likes": 536,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2562,18 +2563,18 @@
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 142,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 101,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 142,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2586,14 +2587,14 @@
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T18:17:32+00:00",
-  "fetched_at": "2026-09-24T18:17:32+00:00"
+  "checked_at": "2026-09-24T19:17:40+00:00",
+  "fetched_at": "2026-09-24T19:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2605,16 +2606,6 @@
      "source": "ONE",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "סולומון וגלוך ב-11: בן שמעון הודיע על ההרכב",
-     "link": "https://www.one.co.il/Article/534208.html?ref=rss",
-     "date": "2026-09-24T11:28:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך",
-      "מנור סולומון"
      ]
     },
     {
@@ -2919,8 +2910,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T18:17:28+00:00",
-  "fetched_at": "2026-09-24T18:17:28+00:00"
+  "checked_at": "2026-09-24T19:17:34+00:00",
+  "fetched_at": "2026-09-24T19:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -2951,7 +2942,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T18:17:29+00:00",
-  "fetched_at": "2026-09-24T18:17:29+00:00"
+  "checked_at": "2026-09-24T19:17:35+00:00",
+  "fetched_at": "2026-09-24T19:17:35+00:00"
  }
 }
