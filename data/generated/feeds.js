@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:12:17+00:00",
-  "fetched_at": "2026-09-24T06:12:17+00:00"
+  "checked_at": "2026-09-24T06:17:21+00:00",
+  "fetched_at": "2026-09-24T06:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:12:29+00:00",
-  "fetched_at": "2026-09-24T06:12:29+00:00"
+  "checked_at": "2026-09-24T06:17:33+00:00",
+  "fetched_at": "2026-09-24T06:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:12:29+00:00",
-  "fetched_at": "2026-09-24T06:12:29+00:00"
+  "checked_at": "2026-09-24T06:17:34+00:00",
+  "fetched_at": "2026-09-24T06:17:34+00:00"
  },
- "generated_at": "2026-09-24T06:12:29+00:00",
+ "generated_at": "2026-09-24T06:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:12:18+00:00",
-  "fetched_at": "2026-09-24T06:12:18+00:00"
+  "checked_at": "2026-09-24T06:17:22+00:00",
+  "fetched_at": "2026-09-24T06:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:12:19+00:00",
-  "fetched_at": "2026-09-24T06:12:19+00:00"
+  "checked_at": "2026-09-24T06:17:23+00:00",
+  "fetched_at": "2026-09-24T06:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2319,8 +2319,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:12:20+00:00",
-  "fetched_at": "2026-09-24T06:12:20+00:00"
+  "checked_at": "2026-09-24T06:17:25+00:00",
+  "fetched_at": "2026-09-24T06:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2425,8 +2425,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:12:20+00:00",
-  "fetched_at": "2026-09-24T06:12:20+00:00"
+  "checked_at": "2026-09-24T06:17:25+00:00",
+  "fetched_at": "2026-09-24T06:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2464,7 +2464,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 172,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2485,7 +2485,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2520,14 +2520,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:12:28+00:00",
-  "fetched_at": "2026-09-24T06:12:28+00:00"
+  "checked_at": "2026-09-24T06:17:32+00:00",
+  "fetched_at": "2026-09-24T06:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2852,8 +2852,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T06:12:24+00:00",
-  "fetched_at": "2026-09-24T06:12:24+00:00"
+  "checked_at": "2026-09-24T06:17:28+00:00",
+  "fetched_at": "2026-09-24T06:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2884,7 +2884,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T06:12:25+00:00",
-  "fetched_at": "2026-09-24T06:12:25+00:00"
+  "checked_at": "2026-09-24T06:17:29+00:00",
+  "fetched_at": "2026-09-24T06:17:29+00:00"
  }
 };
