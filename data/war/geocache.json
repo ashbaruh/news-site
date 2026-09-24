@@ -82,6 +82,10 @@
 ],
 "bani hayyan, lebanon": null,
 "bar'ashit, lebanon": null,
+"bashiqa, iraq": [
+36.4505,
+43.3498
+],
 "beijing, china": [
 39.9057,
 116.3913
@@ -193,6 +197,10 @@
 34.8089
 ],
 "hmeimim airbase, syria": null,
+"huliaipole, ukraine": [
+47.6655,
+36.2657
+],
 "isfahan province, iran": [
 33.1881,
 52.4982
@@ -473,6 +481,10 @@
 "sanaa, yemen": [
 15.3539,
 44.2059
+],
+"saravan, iran": [
+27.3652,
+62.3391
 ],
 "saudi arabia": null,
 "shannon airport, ireland": [
