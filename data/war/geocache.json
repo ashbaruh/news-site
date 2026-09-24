@@ -107,6 +107,10 @@
 43.8728,
 33.9938
 ],
+"bogota, colombia": [
+4.6534,
+-74.0836
+],
 "boryspil, ukraine": [
 50.3512,
 30.9508
@@ -311,6 +315,10 @@
 51.5074,
 -0.1278
 ],
+"luhansk, ukraine": [
+48.5717,
+39.2973
+],
 "lyman, ukraine": [
 48.9801,
 37.8168
@@ -441,6 +449,10 @@
 32.0878,
 34.886
 ],
+"pokrovsk, ukraine": [
+48.2771,
+37.1772
+],
 "poland": null,
 "qantara, lebanon": [
 33.2735,
@@ -555,6 +567,10 @@
 "troitske, ukraine": [
 49.9074,
 38.2868
+],
+"tyre, lebanon": [
+33.2721,
+35.1964
 ],
 "ukraine": null,
 "vyshhorod district, ukraine": null,

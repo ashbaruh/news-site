@@ -1,0 +1,487 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e70f00a85c26",
+ "preview": {
+  "events": 14,
+  "levels": {
+   "initial": 12,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-24T23:50:56+00:00",
+  "window": {
+   "from": "2026-09-23T23:50:56+00:00",
+   "to": "2026-09-24T23:50:56+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609242350"
+  },
+  "summary": "המלחמה בין רוסיה לבין אוקראינה נמשכת בלחימה אינטנסיבית לאורך קו החזית, בדגש על תקיפות אוויריות ושימוש גובר ברחפנים וטכנולוגיות בלתי מאוישות מצד שתי המדינות. במקביל, נמשכים מאמצים דיפלומטיים בינלאומיים להענקת סיוע צבאי וכלכלי רחב למערך ההגנה והתשתיות של אוקראינה.",
+  "fronts": [
+   {
+    "name": "גזרת פוקרובסק",
+    "status": "פעיל עם עימותים מרובים"
+   },
+   {
+    "name": "גזרת מוקרי יאלי",
+    "status": "פעיל עם תנועות כוחות"
+   },
+   {
+    "name": "דונבאס",
+    "status": "לחימה מתמשכת"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09242350-01",
+    "title": "שימוש ברחפנים ורובוטים קרקעיים",
+    "summary": "הקורפוס השלישי של צבא אוקראינה הפך ליחידה הראשונה המשתמשת בכלי רכב קרקעיים בלתי מאוישים לפינוי מוקשים ותמיכה במבצעי התקפה.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T23:30:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T23:30:00+00:00",
+    "last_update_at": "2026-09-24T23:30:00+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6c5a6b9e4ea8de0b",
+      "url": "https://www.ukrinform.net/rubric-ato/4167492-third-army-corps-uses-ground-robots-for-mine-clearance-and-assault-support-in-operation-vivaldi.html",
+      "published_at": "2026-09-24T23:30:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-02",
+    "title": "סיוע כלכלי משוויץ",
+    "summary": "שוויץ תספק מימון לאחסון תבואה זמני ולפיתוח המגזר האורגני.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T22:25:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T22:25:00+00:00",
+    "last_update_at": "2026-09-24T22:25:00+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_c64b5e5dffa843df",
+      "url": "https://www.ukrinform.net/rubric-economy/4167479-switzerland-to-provide-funding-for-ukrainian-grain-storage-support-organic-sector.html",
+      "published_at": "2026-09-24T22:25:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-03",
+    "title": "הקצאת כספים מארצות הברית להשבת ילדים",
+    "summary": "ארצות הברית הקצתה 27 מיליון דולר למען השבת ושיקום ילדים אוקראינים.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T22:19:23+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T22:19:23+00:00",
+    "last_update_at": "2026-09-24T22:19:23+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/us-allocates-27-million-for-the-return-of-ukrainian-children-kidnapped-by-russia/",
+      "published_at": "2026-09-24T22:19:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-04",
+    "title": "הצהרת צרפת על גיוס אפשרי ברוסיה",
+    "summary": "נשיא צרפת עמנואל מקרון הצהיר כי ישנם סימנים לכך שרוסיה מתכוננת לגייס 300,000 חיילים נוספים.",
+    "axis": "רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T21:24:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T21:24:44+00:00",
+    "last_update_at": "2026-09-24T21:24:44+00:00",
+    "what_is_not_verified": "האם רוסיה אכן תבצע גיוס בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_meduza",
+      "url": "https://meduza.io/en/news/2026/09/25/macron-says-france-sees-signs-russia-is-preparing-to-mobilize-300-000-more-men",
+      "published_at": "2026-09-24T21:24:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-05",
+    "title": "סיוע כספי מנורווגיה",
+    "summary": "נורווגיה מתכננת להקצות 9 מיליארד דולר לתמיכה באוקראינה בשנה הבאה.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T20:58:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T20:58:00+00:00",
+    "last_update_at": "2026-09-24T20:58:00+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6451e69c08f72583",
+      "url": "https://www.ukrinform.net/rubric-economy/4167753-norway-to-allocate-9b-to-support-ukraine-in-2027.html",
+      "published_at": "2026-09-24T20:58:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-06",
+    "title": "תקיפת מרכז מסחרי בלוגנסק",
+    "summary": "דווח כי כוחות אוקראיניים תקפו מרכז מסחרי בלוגנסק.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T20:48:22+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T20:48:22+00:00",
+    "last_update_at": "2026-09-24T20:48:22+00:00",
+    "what_is_not_verified": "פרטי התקיפה המלאים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/47978",
+      "published_at": "2026-09-24T20:48:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוגנסק, אוקראינה",
+      "lat": 48.5717,
+      "lon": 39.2973
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09242350-07",
+    "title": "עימותים בחזית",
+    "summary": "נרשמו מאות עימותים חמושים לאורך קו החזית, כולל עשרות תקיפות בגזרת פוקרובסק.",
+    "axis": "שני הצדדים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T20:20:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T20:20:00+00:00",
+    "last_update_at": "2026-09-24T20:20:00+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_eb7ea1c50db104e3",
+      "url": "https://www.ukrinform.net/rubric-ato/4167760-war-update-185-clashes-on-front-line-27-attacks-repelled-in-pokrovsk-sector.html",
+      "published_at": "2026-09-24T20:20:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09242350-08",
+    "title": "עסקת טילי פטריוט",
+    "summary": "נשיא אוקראינה הודיע על השגת הסכם לקבלת חבילת טילי מיירט עבור מערכות הגנה אווירית מסוג פטריוט.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T17:29:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T17:29:00+00:00",
+    "last_update_at": "2026-09-24T18:56:22+00:00",
+    "what_is_not_verified": "זהות המדינה המספקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/ukraine-strikes-very-important-deal-on-new-batch-of-patriot-missiles-zelensky-says/",
+      "published_at": "2026-09-24T18:56:22+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054938/",
+      "published_at": "2026-09-24T17:29:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-09",
+    "title": "שריפה בתחנת סטאלינק בפולין",
+    "summary": "פרצה שריפה בתחנת סטארלינק בווולה קרובובסקה בפולין, ויש חשד כי מדובר בחבלה רוסית.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T18:13:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T18:13:43+00:00",
+    "last_update_at": "2026-09-24T18:13:43+00:00",
+    "what_is_not_verified": "האם מדובר בחבלה רוסית מכוונת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_kyivind",
+      "url": "https://kyivindependent.com/polish-deputy-pm-says-starlink-station-fire-possibly-russian-sabotage/",
+      "published_at": "2026-09-24T18:13:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ווולה קרובובסקה, פולין",
+      "lat": 51.8627,
+      "lon": 20.9187
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09242350-10",
+    "title": "יירוט רחפנים מעל אזורים ברוסיה",
+    "summary": "כוחות ההגנה האווירית של רוסיה יירטו עשרות כטב\"מים אוקראיניים מעל אזורים רוסיים.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T17:54:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T17:54:43+00:00",
+    "last_update_at": "2026-09-24T17:54:43+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_a46966531c30fd73",
+      "url": "https://tass.com/politics/2192427",
+      "published_at": "2026-09-24T17:54:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-11",
+    "title": "תקיפות רוסיות על מרכזי נתונים בקייב",
+    "summary": "תקיפה רוסית פגעה במרכזי נתונים וציוד מיתוג של ספקי אינטרנט בקייב, מה שגרם לשיבושים.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T16:47:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T16:47:00+00:00",
+    "last_update_at": "2026-09-24T16:47:00+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_domonet_kievnet_faust",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054936/",
+      "published_at": "2026-09-24T16:47:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09242350-12",
+    "title": "נחיתת טיל קינז'ל בקייב",
+    "summary": "טיל קינז'ל רוסי נחת במגרש חניה בקייב ולא התפוצץ.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T16:42:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T16:42:27+00:00",
+    "last_update_at": "2026-09-24T16:42:27+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/47967",
+      "published_at": "2026-09-24T16:42:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09242350-13",
+    "title": "פגיעה במסופי לוגיסטיקה ואחסון",
+    "summary": "הכוחות המזוינים של רוסיה פגעו במסופי לוגיסטיקה ואחסון המשמשים לתמיכה בצבא אוקראינה.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T15:48:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T15:48:03+00:00",
+    "last_update_at": "2026-09-24T15:48:03+00:00",
+    "what_is_not_verified": "לא מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_c660a8629db8ea2c",
+      "url": "https://tass.com/defense/2192363",
+      "published_at": "2026-09-24T15:48:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09242350-14",
+    "title": "התקדמות אוקראינית בגזרת מוקרי יאלי",
+    "summary": "דווח כי כוחות אוקראיניים התקדמו בגזרת מוקרי יאלי במחוז דונייצק והשתלטו על שטחים.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T02:36:12+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T02:36:12+00:00",
+    "last_update_at": "2026-09-24T02:36:12+00:00",
+    "what_is_not_verified": "היקף השליטה המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_osint",
+      "url": "https://t.me/alexmehacarmel/47953",
+      "published_at": "2026-09-24T02:36:12+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על תוכניות רוסיות לשיגור רחפנים מאוניות אזרחיות בדרום אירופה",
+   "דיווחים על התקדמות מוקחשת או חלקית בגזרת מוקרי יאלי",
+   "טענות על גיוס עתידי של 300,000 חיילים ברוסיה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1367,
+    "unit": "USD",
+    "change_pct": -0.39,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "החזרת ילדים חטופים",
+     "חיזוק ההגנה האווירית באמצעות טילי פטריוט",
+     "דחיית דרישות הוויתורים הטריטוריאליים של רוסיה"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות ובמאגרי אנרגיה רוסיים כדי לשבש את הלוגיסטיקה שלה",
+     "שימור ותמיכה בכלכלה ובתשתיות המקומיות בסיוע בינלאומי"
+    ],
+    "forecast": [
+     "המשך קבלת סיוע צבאי וכלכלי ממדינות המערב",
+     "ניסיון לייצב את קווי החזית מול הלחץ הרוסי"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השלמת ההשתלטות על אזור דונבאס",
+     "פגיעה בתשתיות התקשורת והלוגיסטיקה של אוקראינה"
+    ],
+    "inferred": [
+     "הגברת הלחץ ההיברידי והצבאי על מדינות אירופה התומכות באוקראינה",
+     "הכנה אפשרית להרחבת כוח האדם הצבאי"
+    ],
+    "forecast": [
+     "המשך התקיפות על תשתיות קריטיות באוקראינה",
+     "הגברת פעילות החיכוך סביב גבולות נאטו"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/polish-deputy-pm-says-starlink-station-fire-possibly-russian-sabotage/",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/25/macron-says-france-sees-signs-russia-is-preparing-to-mobilize-300-000-more-men",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054936/",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2192363",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47953",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4167760-war-update-185-clashes-on-front-line-27-attacks-repelled-in-pokrovsk-sector.html",
+    "accessed_at": "2026-09-24T23:50:56+00:00"
+   }
+  ]
+ }
+}

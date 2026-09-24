@@ -1,0 +1,237 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bf1b40bb1f16",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-24T23:58:01+00:00",
+  "window": {
+   "from": "2026-09-23T23:58:01+00:00",
+   "to": "2026-09-24T23:58:01+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609242358"
+  },
+  "summary": "בגזרה הצפונית מתנהלים עימותים נקודתיים בדרום לבנון לצד צמצום מסוים בכוחות הקרקע של צה\"ל באזור. במקביל, ממשלת לבנון מנסה להרחיק את ארצה מהעימות האזורי ומנהלת דיפלומטיה בינלאומית מול איראן ופקקיסטן כדי להבטיח את ריבונותה.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעיל עם צמצום כוחות ופעילות דיפלומטית למניעת הסלמה"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "מתיחות מדינית והצהרות הדדיות באו\"ם"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09242358-01",
+    "title": "תקיפה אווירית בכפר צורבא",
+    "summary": "חיל האוויר הישראלי תקף ר טנדר בכפר צורבא שבדרום לבנון",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T14:51:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T14:51:45+00:00",
+    "last_update_at": "2026-09-24T14:51:45+00:00",
+    "what_is_not_verified": "פרטים נוספים על נפגעים לא צוינו במקור הראשוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_b12b09ccabcb28c2",
+      "url": "https://english.almanar.com.lb/article/130427/",
+      "published_at": "2026-09-24T14:51:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר צורבא, לבנון",
+      "lat": 33.3277,
+      "lon": 35.6927
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09242358-02",
+    "title": "טיסת מטוס קרב מעל צור",
+    "summary": "מטוס קרב ישראלי תועד בשמי העיר צור שבדרום לבנון",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T16:31:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T16:31:24+00:00",
+    "last_update_at": "2026-09-24T16:31:24+00:00",
+    "what_is_not_verified": "לא דווח על פעולת תקיפה ספציפית של המטוס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130748",
+      "published_at": "2026-09-24T16:31:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צור, לבנון",
+      "lat": 33.2721,
+      "lon": 35.1964
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09242358-03",
+    "title": "צמצום כוחות צה\"ל בדרום לבנון",
+    "summary": "צבא ההגנה לישראל צמצם את מספר חטיבות הלחימה באזור הביטחון בדרום לבנון מ-8 ל-6 ושיחרר כוחות מילואים",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T14:04:59+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T14:04:59+00:00",
+    "last_update_at": "2026-09-24T14:04:59+00:00",
+    "what_is_not_verified": "היקף מדויק של כלל כוחות המילואים ששוחררו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/130417/",
+      "published_at": "2026-09-24T14:04:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09242358-04",
+    "title": "פגישת ראשי ממשלת לבנון ונשיא איראן באו\"ם",
+    "summary": "ראש ממשלת לבנון נג'יב מיקאתי נועד עם נשיא איראן במסגרת עצרת האו\"ם והדגיש כי לבנון אינה זירה למלחמות אזוריות",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T12:49:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T12:49:09+00:00",
+    "last_update_at": "2026-09-24T18:32:08+00:00",
+    "what_is_not_verified": "לא צוינו פרטים מלאים על ההסכמות שהושגו בפגישה מעבר להצהרות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-pm-tells-iran-president-country-cannot-be-arena-regional-wars",
+      "published_at": "2026-09-24T18:32:08+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/959564/lebanese-pm-salam-calls-tehran-to-nominate-new-ambassador-to-lebanon-w/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959564",
+      "published_at": "2026-09-24T13:16:16+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/959555/lebanese-pm-nawaf-salam-meets-iranian-president-masoud-pezeshkian-in-n/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959555",
+      "published_at": "2026-09-24T12:49:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק סיטי, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף שיתוף הפעולה המדויק בין קצינים בשיעה בצבא לבנון לבין חיזבאללה",
+   "ההערכות המלאות לגבי השלכות צמצום הכוחות בלבנון על מוכנות צה\"ל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0482,
+    "unit": "ILS",
+    "change_pct": 1.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איומים מצד חיזבאללה וגורמים אזוריים",
+     "עמידה על זכותה של ישראל בגולן ובגבול הצפון"
+    ],
+    "inferred": [
+     "הקלה על עומס המילואים באמצעות התאמת פריסת הכוחות בדרום לבנון"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית נקודתיות בהתאם לצורך המבצעי",
+     "שמירה על נוכחות ברצועת הביטחון בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "מניעת הפיכת לבנון לזירה של עימותים אזוריים או שליחת מסרים",
+     "דרישה לנסיגה מלאה של ישראל משטח לבנון"
+    ],
+    "inferred": [
+     "ניסיון להפחית את ההשפעה האיראנית הישירה על קבלת ההחלטות במדינה"
+    ],
+    "forecast": [
+     "חיזוק סמכות המדינה והצבא בכלל השטחים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/130417/",
+    "accessed_at": "2026-09-24T23:58:01+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/959555/lebanese-pm-nawaf-salam-meets-iranian-president-masoud-pezeshkian-in-n/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959555",
+    "accessed_at": "2026-09-24T23:58:01+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-pm-tells-iran-president-country-cannot-be-arena-regional-wars",
+    "accessed_at": "2026-09-24T23:58:01+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130748",
+    "accessed_at": "2026-09-24T23:58:01+00:00"
+   }
+  ]
+ }
+}

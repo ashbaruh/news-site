@@ -1,0 +1,411 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f12496cae9c8",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-24T23:40:37+00:00",
+  "window": {
+   "from": "2026-09-23T23:40:37+00:00",
+   "to": "2026-09-24T23:40:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609242340"
+  },
+  "summary": "העימות המשולש בין ישראל, ארה\"ב ואיראן נמשך במקביל לדיפלומטיה בעצרת האו\"ם, שם החליפו הצדדים איומים והצעות לתיווך פוטנציאלי. בעוד איראן מאותתת על אפשרות לפתיחת מצר הורמוז בתמורה להסרת סנקציות והפסקת אש, ישראל וארה\"ב מהדקות את הלחץ הצבאי והכלכלי באמצעות סנקציות על תעופה וחיזוק עמדות אסטרטגיות.",
+  "fronts": [
+   {
+    "name": "ישראל - איראן",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "ארה\"ב - איראן",
+    "status": "פעיל עם מגעים דיפלומטיים עקיפים"
+   },
+   {
+    "name": "המפרץ והים האדום",
+    "status": "מוסל מיוחס לאיומי סנקציות ותעופה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09242340-01",
+    "title": "נציג ישראל באו\"ם העניק נתב סטארלינק לנציג איראן",
+    "summary": "שגריר ישראל באו\"ם ניגש לנציג האיראני והציע לו לקחת מכשיר סטארלינק לטהרן כדי לאפשר חירות לעם האיראני, אך הנציג האיראני נמנע מלקבלו.",
+    "axis": "ישראל - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T16:43:27+00:00",
+    "last_update_at": "2026-09-24T23:25:08+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47982",
+      "published_at": "2026-09-24T23:25:08+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21486641",
+      "published_at": "2026-09-24T22:04:15+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkmrm1179zg",
+      "published_at": "2026-09-24T20:18:04+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bk97a2fqzg",
+      "published_at": "2026-09-24T16:43:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09242340-02",
+    "title": "איראן הציעה תנאים לפתיחת מצר הורמוז וחידוש שיחות הגרעין",
+    "summary": "איראן העבירה לארה\"ב הצעה באמצעות מתווכים לפתוח את מצר הורמוז בתוך שישה ימים ולהתחיל בשיחות גרעין, בתנאי שארה\"ב תסיר סנקציות על ייצוא הנפט, תסייום את המלחמה בחזיתות ותשחרר כספים מוקפאים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T17:55:14+00:00",
+    "last_update_at": "2026-09-24T23:18:14+00:00",
+    "what_is_not_verified": "האם ארה\"ב תענה בחיוב להצעה והאם התנאים ייושמו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21486797",
+      "published_at": "2026-09-24T23:18:14+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+      "published_at": "2026-09-24T21:57:34+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609249795",
+      "published_at": "2026-09-24T17:55:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09242340-03",
+    "title": "קולומביה ופרו ניתקו יחסים דיפלומטיים עם איראן",
+    "summary": "משרד החוץ בקולומביה הודיע על ניתוק היחסים עם איראן בשל קשריה לארגוני טרור ונרקו-טרור, בעקבות צעד דומה שנקטה פרו בתחילת החודש.",
+    "axis": "איראן - אמריקה הלטינית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T23:05:55+00:00",
+    "last_update_at": "2026-09-24T23:05:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21486769",
+      "published_at": "2026-09-24T23:05:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בוגוטה, קולומביה",
+      "lat": 4.6534,
+      "lon": -74.0836
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09242340-04",
+    "title": "נשיא איראן הצהיר כי ארה\"ב צריכה לבחור אם לסיים את המלחמה",
+    "summary": "נשיא איראן מסעוד פזשקיאן טען בראיונות ובנאומים כי טהרן אינה מעוניינת להמשיך להילחם וכי נתון בידי ארה\"ב לבחור מתי תסתיים המלחמה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T22:49:53+00:00",
+    "last_update_at": "2026-09-24T23:30:26+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-must-choose-whether-end-war-iran-president-fox-news",
+      "published_at": "2026-09-24T23:30:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-president-says-it-us-choose-if-it-wants-end-iran-war",
+      "published_at": "2026-09-24T22:49:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09242340-05",
+    "title": "הסנאט האמריקאי דחה החלטה להגבלת סמכויות המלחמה של טראמפ נגד איראן",
+    "summary": "הסנאט בארצות הברית דחה ברוב דחוק החלטה שהגישו דמוקרטים לעצירת הפעילות הצבאית נגד איראן ללא אישור קונגרס.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T19:46:39+00:00",
+    "last_update_at": "2026-09-24T19:46:39+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-senate-rejects-resolution-curbing-trumps-iran-war-powers",
+      "published_at": "2026-09-24T19:46:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09242340-06",
+    "title": "הגעת צוללת השישית של צה\"ל לישראל ומסר לאיראן",
+    "summary": "הצוללת אח\"י דרקון הגיעה לישראל לאחר מסע מגרמניה, ושר הביטחון הצהיר כי המרחק אינו מעניק חסינות לאיראן באוויר, ביבשה ובים.",
+    "axis": "ישראל - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T16:17:32+00:00",
+    "last_update_at": "2026-09-24T16:17:32+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/b1jtoim9ml",
+      "published_at": "2026-09-24T16:17:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09242340-07",
+    "title": "טורקיה ואיחוד האמירויות השעו טיסות של חברות תעופה איראניות",
+    "summary": "רשויות התעופה בטורקיה ובאיחוד האמירויות החליטו להשעות את כל הטיסות של חברות התעופה האיראניות על רקע הסנקציות האמריקאיות.",
+    "axis": "איראן - המפרץ וטורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T15:22:53+00:00",
+    "last_update_at": "2026-09-24T16:00:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/2026/09/24/is-turkey-turning-on-tehran-or-just-dodging-the-treasury-department/",
+      "published_at": "2026-09-24T16:00:17+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609248286",
+      "published_at": "2026-09-24T15:22:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09242340-08",
+    "title": "איראן מאיימת על מדינות המפרץ ומזהירה מחזית נוספת בים האדום",
+    "summary": "בכירים ויועצים צבאיים באיראן איימו לתקוף מדינות במפרץ הפרסי אם יצטרפו לסנקציות על התעופה, והזהירו מפני פתיחת חזית חדשה בים האדום ומצר באב אל-מנדב בתיאום עם החות'ים.",
+    "axis": "איראן - ארה\"ב/המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T11:27:46+00:00",
+    "last_update_at": "2026-09-24T11:30:42+00:00",
+    "what_is_not_verified": "האם יתממשו האיומים לתקיפה בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130728",
+      "published_at": "2026-09-24T11:30:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130727",
+      "published_at": "2026-09-24T11:27:46+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "פרטי ההצעה המלאים שהגישה איראן דרך מתווכים לגבי מצר הורמוז ותנאיה המדויקים",
+   "מידת ההיתכנות של פתיחת החזית הנוספת בים האדום על ידי איראן ושלוחותיה",
+   "האם ארה\"ב תענה בחיוב להצעות הפשרה של איראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0482,
+    "unit": "ILS",
+    "change_pct": 1.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הסרת הסנקציות הכלכליות ונפט",
+     "סיום המלחמה בכל החזיתות כולל לבנון",
+     "שחרור כספים מוקפאים בחו\"ל"
+    ],
+    "inferred": [
+     "הפחתת הלחץ הכלכלי המאיים על יציבות המשטר",
+     "מציאת דרך לצאת מהעימות הצבאי מבלי לאבד פנים"
+    ],
+    "forecast": [
+     "איראן תמשיך לשלב איומים אזוריים עם פניות למשא ומתן עקיף",
+     "טהרן תנסה להיעזר בשלוחותיה להפעלת לחץ במצבי מפתח ימיים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות איראנית והסרת האיום האיראני",
+     "קידום שינוי משטר ומתן תמיכה מורלית וטכנולוגית לאזרחי איראן"
+    ],
+    "inferred": [
+     "המשך בידוד בינלאומי של טהרן",
+     "העמקת שיתוף הפעולה האסטרטגי מול שלוחות איראן"
+    ],
+    "forecast": [
+     "שמירה על מוכנות צבאית גבוהה והרתעה מול איומים רחוקים וקרובים"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הגבלת תוכנית הגרעין האיראנית ופעילותה האזורית"
+    ],
+    "inferred": [
+     "הימנעות מהסתבכות במלחמה כוללת חדשה וממושכת ללא אישור קונגרס",
+     "הפעלת לחץ כלכלי ומדיני מקסימלי יחד עם בעלות ברית"
+    ],
+    "forecast": [
+     "המשך בחינת מגעים עקיפים לצד שמירת הסנקציות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/us-senate-rejects-resolution-curbing-trumps-iran-war-powers",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/2026/09/24/is-turkey-turning-on-tehran-or-just-dodging-the-treasury-department/",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609248286",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21486769",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-president-says-it-us-choose-if-it-wants-end-iran-war",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130727",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47982",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/b1jtoim9ml",
+    "accessed_at": "2026-09-24T23:40:37+00:00"
+   }
+  ]
+ }
+}
