@@ -17,6 +17,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -186,6 +187,8 @@ def main(argv=None):
     ap.add_argument("--force", action="store_true", help="להריץ גם אם המועד הנוכחי כבר בוצע")
     args = ap.parse_args(argv)
 
+    # תקציב זמן לכל הריצה: המשימה ב-GitHub נהרגת אחרי 25 דקות, ואז גם סיבת הכישלון לא נשמרת.
+    an.DEADLINE = time.time() + int(os.environ.get("BRIEF_BUDGET_SEC", "1020"))
     now = datetime.now(timezone.utc).replace(microsecond=0)
     slot = current_slot(now)
     old = load_brief()
@@ -231,6 +234,10 @@ def main(argv=None):
     retry = [a for a, why in skipped.items() if why != "אין ידיעות" and per_arena.get(a)]
     if retry:
         print("ניסיון חוזר ל:", ", ".join(retry))
+        if an.out_of_time(120):
+            skipped = {a: w + " (לא נשאר זמן לניסיון חוזר)" for a, w in skipped.items()}
+            retry = []
+    if retry:
         try:
             note = EMPTY_NOTE if all(skipped[a] == EMPTY for a in retry) else RETRY_NOTE
             out2 = an.llm_json(an.SYSTEM, prompt({a: per_arena[a] for a in retry}, note), schema_for(retry))

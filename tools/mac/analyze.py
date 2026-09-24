@@ -102,6 +102,14 @@ def _strip_for_gemini(schema):
 
 _exhausted = set()   # מודלים שהמכסה היומית שלהם נגמרה בריצה הנוכחית
 
+# מתי להפסיק לנסות (time.time()). בלי זה שרשרת הניסיונות עלולה לחרוג מזמן המשימה ב-GitHub,
+# והריצה נהרגת באמצע בלי לכתוב אפילו את סיבת הכישלון (24/09/2026, עדכון 18:00).
+DEADLINE = None
+
+
+def out_of_time(extra=0):
+    return DEADLINE is not None and time.time() + extra > DEADLINE
+
 
 class QuotaExhausted(RuntimeError):
     """המכסה היומית של Gemini נגמרה — אין טעם לנסות שוב היום."""
@@ -147,6 +155,11 @@ def gemini_json(system, user, schema, temperature=0.2):
         for variant, body in enumerate(attempts, 1):   # 400 (צורת בקשה לא נתמכת) ממשיך לצורה הבאה
             code = None
             for wait in (0, 30, 90, 180):          # עומס זמני (503) / מכסה לדקה → המתנה ארוכה; הניתוח לא דחוף
+                if out_of_time(wait):
+                    errors.append(f"{model}: נגמר הזמן לניסיונות")
+                    print(f"      Gemini: {model} · נגמר הזמן לניסיונות")
+                    code = 408
+                    break
                 time.sleep(wait)
                 try:
                     out = _read_answer(_gemini_request(path, body))

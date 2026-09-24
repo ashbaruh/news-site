@@ -53,7 +53,9 @@ jobs:
           # "--force" רק בהפעלה ידנית דרך קובץ הטריגר. השעון הפנימי (clock.yml → workflow_dispatch) ו-GitHub
           # יכולים להפעיל את אותו מועד פעמיים — בלי force, הפעם השנייה רואה שהמועד בוצע ולא קוראת לבינה שוב.
           FORCE=""; if [ "${{ github.event_name }}" = "push" ]; then FORCE="--force"; fi
-          PYTHONUNBUFFERED=1 python tools/war_brief.py $FORCE
+          # אם הריצה נקטעת (24/09/2026: נהרגה ב-25 דקות) — לרשום את זה, אחרת נראה כאילו כלום לא קרה
+          PYTHONUNBUFFERED=1 python tools/war_brief.py $FORCE || \
+            python -c "import json,datetime; json.dump({'at': datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat(), 'ok': False, 'msg': 'הריצה נקטעה או נכשלה — ראו את יומן GitHub'}, open('data/war/brief_status.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)"
 
       - name: שמירה
         if: always()

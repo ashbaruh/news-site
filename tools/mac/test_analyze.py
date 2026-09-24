@@ -246,6 +246,23 @@ class GeminiFallback(unittest.TestCase):
         an.gemini_json("s", "u", {})
         self.assertGreaterEqual(seen.get("maxOutputTokens", 0), 8192)
 
+    def test_deadline_stops_retrying(self):
+        # 24/09/2026: שרשרת הניסיונות חרגה מזמן המשימה והריצה נהרגה בלי לרשום סיבה
+        calls = []
+
+        def fake(path, body=None):
+            calls.append(path)
+            raise self.err(503)
+        an._gemini_request, an._gemini_model = fake, ["flash-a", "flash-b", "flash-lite"]
+        an.DEADLINE = an.time.time() - 1                      # הזמן כבר נגמר
+        try:
+            with self.assertRaises(RuntimeError) as e:
+                an.gemini_json("s", "u", {})
+        finally:
+            an.DEADLINE = None
+        self.assertEqual(calls, [])                           # אף בקשה לא נשלחה
+        self.assertIn("נגמר הזמן", str(e.exception))
+
     def test_all_exhausted_raises(self):
         def fake(path, body=None):
             raise self.err(429, "PerDay")
