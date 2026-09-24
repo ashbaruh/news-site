@@ -1,0 +1,186 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d831d180fc3d",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-24T05:23:27+00:00",
+  "window": {
+   "from": "2026-09-23T05:23:27+00:00",
+   "to": "2026-09-24T05:23:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609240523"
+  },
+  "summary": "הלחימה בתימן נמשכת בין החות'ים לבין כוחות הממשלה וסעודיה, לצד חסימת נתיבי שיט במצר באב אל-מנדב. החות'ים מאיימים לפגוע באינטרסים אמריקניים במקרה של התערבות, בזמן שגורמים רשמיים בתימן פונים לקבלת סיוע ביטחוני ומודיעיני חיצוני.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית",
+    "status": "פעילה עם עימותים וחילופי שליטה"
+   },
+   {
+    "name": "זירת הים האדום ובאב אל-מנדב",
+    "status": "מתוחה ונתונה לאיומי חסימה מצד החות'ים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09240523-01",
+    "title": "התקדמות וכוחות מזוינים בתימן",
+    "summary": "הכוחות המזוינים של תימן הודיעו על אבטחת ואדי מקאטרה ודרכים מרכזיות באזור ופריסה בגבהת חאיפאן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T22:50:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T22:50:16+00:00",
+    "last_update_at": "2026-09-24T02:34:07+00:00",
+    "what_is_not_verified": "היקף השליטה המדויק בשטח אינו מאומת ממקור נייטרלי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b12198d930827f1b",
+      "url": "https://www.sabanew.net/viewstory/152870",
+      "published_at": "2026-09-24T02:34:07+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_f090d7d069623831",
+      "url": "https://www.sabanew.net/viewstory/152869",
+      "published_at": "2026-09-24T00:10:42+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_751b7efb2c7d54f7",
+      "url": "https://www.sabanew.net/viewstory/152867",
+      "published_at": "2026-09-23T22:50:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09240523-02",
+    "title": "איום חות'י כלפי נוכחות ארה\"ב",
+    "summary": "יועץ צבאי של החות'ים הצהיר שהארגון יתקוף אינטרסים אמריקניים אם ארה\"ב תתערב צבאית או תנסה לפתוח את מצר באב אל-מנדב.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T11:31:50+00:00",
+    "last_update_at": "2026-09-23T11:31:50+00:00",
+    "what_is_not_verified": "האם ארה\"ב תתערב בפועל אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-target-us-interests-if-supports-saudi-strikes",
+      "published_at": "2026-09-23T11:31:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09240523-03",
+    "title": "עימותים ותקיפות אוויריות בתעז",
+    "summary": "דווח על מותם של שבעה חמושים חות'ים בעימותים ובתקיפות אוויריות בתעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T19:47:53+00:00",
+    "last_update_at": "2026-09-23T19:47:53+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7e295a8c5ede5273",
+      "url": "https://www.sabanew.net/viewstory/152862",
+      "published_at": "2026-09-23T19:47:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הסיוע הצבאי שארה\"ב תעניק בפועל לסעודיה או לממשלת תימן",
+   "מספר הנפגעים המדויק בתקיפות ועימותים בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0161,
+    "unit": "ILS",
+    "change_pct": -0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת אינטרסים אמריקניים במקרה של התערבות",
+     "סגירת מצר באב אל-מנדב בפני ספינות זרות"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית בתימן",
+     "הפעלת לחץ כלכלי ואזורי באמצעות פגיעה בנתיבי שיט"
+    ],
+    "forecast": [
+     "המשך הלחימה הקרקעית והירי לעבר סעודיה ומטרות ימיות"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וסעודיה",
+    "declared": [
+     "אבטחת דרכים ונתיבי תחבורה",
+     "קריאה לסיוע ביטחוני ובינלאומי נגד החות'ים"
+    ],
+    "inferred": [
+     "בלימת התקדמות החות'ים והשבת שליטה באזורים אסטרטגיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות לגייס תמיכה בינלאומית וצבאית רחבה יותר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemens-houthis-target-us-interests-if-supports-saudi-strikes",
+    "accessed_at": "2026-09-24T05:23:27+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152862",
+    "accessed_at": "2026-09-24T05:23:27+00:00"
+   }
+  ]
+ }
+}

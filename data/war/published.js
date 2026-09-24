@@ -616,169 +616,88 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-23T1527__ukraine-202609231527.json",
+  "draft": "drafts/ukraine/2026-09-24T0517__ukraine-202609240517.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-23T15:27:54+00:00",
+   "generated_at": "2026-09-24T05:17:11+00:00",
    "window": {
-    "from": "2026-09-22T15:27:54+00:00",
-    "to": "2026-09-23T15:27:54+00:00"
+    "from": "2026-09-23T05:17:11+00:00",
+    "to": "2026-09-24T05:17:11+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609231527"
+    "run_id": "ukraine-202609240517"
    },
-   "summary": "הלחימה באוקראינה נמשכת ביתר שאת, כאשר הכוחות הרוסיים ממשיכים לתקוף באמצעות רקטות, כטב\"מים ופצצות אוויריות מטרות בעורף האוקראיני ובערים שונות כגון קייב, קרמטורסק וחרקוב, וגובים קורבנות אדם ונזקים לתשתיות. במקביל, הזירה הדיפלומטית רוחשת פגישות רמי מעלה באו\"ם בניו יורק בין ראשי המעצמות לאוקראינה סביב מתווה סיום הלחימה וסנקציות, בעוד באירופה מתגברות המחלוקות סביב הקלת הגבלות על אוליגרכים רוסים לצד מתיחות גוברת סביב חדירות לכאורה למרחב האווירי של נאט\"ו.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת, כאשר רוסיה מבצעת מתקפות טילים כבדות וקטלניות מהאוויר לעבר קייב ואודסה, בעוד אוקראינה ממשיכה בפעילות רחפנים ובלחימה קרקעית במחוז דונייצק. בזירה הדיפלומטית, נשיא אוקראינה זלנסקי דורש באו\"ם הגברת סנקציות ולחץ כלכלי על מוסקבה, ומנגד רוסיה מבהירה כי לא תסכים להפסקת אש במהלך משא ומתן.",
    "fronts": [
     {
-     "name": "חזית המזרח",
-     "status": "פעילה ואינטנסיבית"
+     "name": "חזית קייב ומערך ההגנה האווירית",
+     "status": "פעיל ותחת תקיפות טילים כבדות"
     },
     {
-     "name": "זירת העורף והתשתיות",
-     "status": "נתונה לתקיפות אוויריות כוונות"
+     "name": "חזית דונייצק ומוקרי יאלי",
+     "status": "פעיל עם דיווחים על התקדמות אוקראינית"
     },
     {
-     "name": "זירת הים השחור",
-     "status": "פעילה ומאויימת"
+     "name": "חזית הדרום ואודסה",
+     "status": "פעיל תחת מתקפות מהאוויר"
     },
     {
-     "name": "המרחב האווירי והגבולות המערביים",
-     "status": "מותח עם אירועי חדירה"
+     "name": "הזירה האווירית ומרחב הרחפנים ארוכי הטווח",
+     "status": "פעיל מאוד משני הצדדים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09231527-01",
-     "title": "תקיפת כוחות רוסיים באמצעות משגרי אורגן בקרמטורסק",
-     "summary": "כוחות רוסיים תקפו את העיר קרמטורסק במחוז דונצק באמצעות משגרי רקטות מרובים מסוג אורגן, וכתוצאה מכך נפצעו אזרחים.",
-     "axis": "חזית המזרח",
+     "id": "UKRAINE-09240517-01",
+     "title": "מתקפת טילים ורחפנים נרחבת על קייב",
+     "summary": "מתקפת טילים ורחפנים פגעה במספר מחוזות בקייב, גרמה להרוגים ופצועים, שריפות והרס מבנים ותשתיות.",
+     "axis": "תקיפות והגנה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T14:51:00+00:00",
+     "occurred_at": "2026-09-23T22:28:54+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:51:00+00:00",
-     "last_update_at": "2026-09-23T15:22:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-23T22:28:54+00:00",
+     "last_update_at": "2026-09-24T04:59:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק והיקף הנזק המלא אינם מאומתים במלואם בכל המקורות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_24d8641056d1199f",
-       "url": "https://www.ukrinform.net/rubric-ato/4167255-russia-strikes-kramatorsk-with-uragan-mlrs-injuring-nine.html",
-       "published_at": "2026-09-23T15:22:00+00:00"
+       "source_root_id": "fh_88b41b7d8e0c31fb",
+       "url": "https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html",
+       "published_at": "2026-09-24T04:59:00+00:00"
       },
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_24d8641056d1199f",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054773/",
-       "published_at": "2026-09-23T14:51:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09231527-02",
-     "title": "חדירת מסוק צבאי רוסי למרחב האווירי של פולין",
-     "summary": "מסוק צבאי רוסי מסוג אם-8 חדר למרחב האווירי של פולין למשך שניות ספורות לאחר שהגיע מאזור קלינינגרד.",
-     "axis": "הגבול המערבי והמרחב האווירי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-23T11:08:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:37:17+00:00",
-     "last_update_at": "2026-09-23T15:04:25+00:00",
-     "what_is_not_verified": "הטענה הרוסית אינה קיימת שכן רוסיה לא הגיבה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_e961293f3fa3c464",
-       "url": "https://meduza.io/en/news/2026/09/23/poland-says-russian-military-helicopter-violated-its-airspace",
-       "published_at": "2026-09-23T15:04:25+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_88b41b7d8e0c31fb",
+       "url": "https://www.ukrinform.net/rubric-ato/4167405-russians-strike-kyiv-with-ballistic-missiles-us-has-ability-to-respond-strongly-zelensky.html",
+       "published_at": "2026-09-24T04:39:00+00:00"
       },
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_7b79300d808d6b1a",
-       "url": "https://kyivindependent.com/russian-mi-8-helicopter-violates-polish-airspace-near-kaliningrad-poland-says/",
-       "published_at": "2026-09-23T14:37:17+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09231527-03",
-     "title": "החלטת האיחוד האירופי להסיר שני אוליגרכים מרשימת הסנקציות",
-     "summary": "המדינות החברות באירופה הסכימו להאריך את הסנקציות על מעורבים במלחמה אך הסירו מהרשימה את האוליגרכים אלישר אוסמוב ומיכאיל פרידמן.",
-     "axis": "זירת הסנקציות הדיפלומטית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-22T18:07:19+00:00",
-     "last_update_at": "2026-09-23T14:42:34+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_a1eea572aadc917b",
-       "url": "https://meduza.io/en/feature/2026/09/23/a-triumph-of-money-filth-and-hypocrisy-eu-decision-to-lift-sanctions-on-russian-billionaires-fridman-and-usmanov-draws-backlash",
-       "published_at": "2026-09-23T14:42:34+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_57c382e50f381285",
+       "url": "https://www.ukrinform.net/rubric-ato/4167404-kyiv-hit-by-massive-russian-missile-strike-two-killed-at-least-six-injured.html",
+       "published_at": "2026-09-24T04:16:00+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "fh_a1eea572aadc917b",
-       "url": "https://www.theguardian.com/world/2026/sep/22/eu-removes-oligarchs-from-russia-sanctions-list-as-deadline-looms",
-       "published_at": "2026-09-22T18:07:19+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09231527-04",
-     "title": "תקיפות כטב\"מים ופגיעות בתשתיות בקייב",
-     "summary": "תקיפות רוסיות בקייב ובסביבתה גרמו להרוגים, פצועים, פגיעה בתשתיות אנרגיה ותחבורה ושיבושי אינטרנט.",
-     "axis": "העורף והתשתיות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-23T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-23T10:57:12+00:00",
-     "last_update_at": "2026-09-23T14:40:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_526236dd64d6833d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054770/",
-       "published_at": "2026-09-23T14:40:00+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_526236dd64d6833d",
-       "url": "https://www.ukrinform.net/rubric-ato/4167199-russian-attacks-on-kyiv-kill-two-injure-at-least-36.html",
-       "published_at": "2026-09-23T13:39:00+00:00"
+       "source_root_id": "fh_88b41b7d8e0c31fb",
+       "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-war-briefing-kyiv-attacked-zelenskyy-urges-united-nations-choke-russia-revenues",
+       "published_at": "2026-09-24T00:45:05+00:00"
       },
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_4974374d8a694bdd",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054745/",
-       "published_at": "2026-09-23T12:26:00+00:00"
+       "source_root_id": "fh_9bf2c14305dd19e6",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054830/",
+       "published_at": "2026-09-23T23:10:00+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_526236dd64d6833d",
-       "url": "https://t.me/alexmehacarmel/47929",
-       "published_at": "2026-09-23T10:57:12+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_eb00b7c0b32ad8c0",
+       "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-as-air-defenses-engaged/",
+       "published_at": "2026-09-23T22:28:54+00:00"
       }
      ],
      "places": [
@@ -790,156 +709,125 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-09231527-05",
-     "title": "תקיפת כטב\"ם על כלי רכב במחוז חרקוב",
-     "summary": "כטב\"ם רוסי פגע במכונית פרטית בכפר בזרוקי שבמחוז חרקוב, מה שהביא למותו של אזרח ולפציעת אזרחית.",
-     "axis": "חזית הצפון-מזרח",
+     "id": "UKRAINE-09240517-02",
+     "title": "תקיפת כוחות רוסיים באודסה",
+     "summary": "כוחות רוסיים תקפו את העיר אודסה וגרמו לנזק למתקני רפואה, חינוך ומבני מגורים.",
+     "axis": "תקיפות והגנה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:27:00+00:00",
-     "last_update_at": "2026-09-23T14:27:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-23T23:40:00+00:00",
+     "last_update_at": "2026-09-23T23:40:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים טרם פורטו במלואם",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_23601a01549dc37b",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054767/",
-       "published_at": "2026-09-23T14:27:00+00:00"
+       "source_root_id": "fh_b404879e8802c6b3",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054831/",
+       "published_at": "2026-09-23T23:40:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "בזרוקי, אוקראינה",
-       "lat": 50.0077,
-       "lon": 34.6354
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
       }
      ]
     },
     {
-     "id": "UKRAINE-09231527-06",
-     "title": "פגיעה בכלי שיט בים השחור ופינוי אנשי צוות",
-     "summary": "כוחות משמר הגבול של אוקראינה פינו אנשי צוות מספינה שהותקפה בידי כוחות רוסיים בים השחור באזור אודסה.",
-     "axis": "זירת הים השחור",
+     "id": "UKRAINE-09240517-03",
+     "title": "גיוס חסיד ברסלב באוקראינה",
+     "summary": "אזרח ישראלי חסיד ברסלב נעצר באוקראינה לאחר שניסה לשוב לישראל מאומן, והוצב כרופא בחרקוב בשל חובת גיוס.",
+     "axis": "עורף וגיוס",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:20:00+00:00",
-     "last_update_at": "2026-09-23T14:20:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-09-24T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-24T02:54:05+00:00",
+     "last_update_at": "2026-09-24T02:54:05+00:00",
+     "what_is_not_verified": "לא מאומתות אפשרויות השילוב העתידיות ברבנות הצבאית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_421f7ee07c543cf0",
-       "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
-       "published_at": "2026-09-23T14:20:00+00:00"
+       "source_id": "src_ynet",
+       "source_root_id": "fh_2b2ed8f24b9e6f39",
+       "url": "https://www.ynet.co.il/news/article/skk1mh119me",
+       "published_at": "2026-09-24T02:54:05+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חרקוב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      },
+      {
+       "name": "אומן, אוקראינה",
+       "lat": 48.7498,
+       "lon": 30.2203
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09240517-04",
+     "title": "דיווחים על התקדמות אוקראינית בדונייצק",
+     "summary": "התקיימו דיווחים על התקדמות כוחות אוקראיניים בגזרת מוקרי יאלי, לרבות השתלטות על הכפר מירנה וחציית הנהר.",
+     "axis": "חזית הקרקע",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-24T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-24T02:36:12+00:00",
+     "last_update_at": "2026-09-24T02:36:12+00:00",
+     "what_is_not_verified": "הדיווחים מבוססים על מקורות OSINT ולאומתו רשמית באופן מלא ממקור ראשון",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_osint",
+       "url": "https://t.me/alexmehacarmel/47953",
+       "published_at": "2026-09-24T02:36:12+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09231527-07",
-     "title": "פגיעת פצצות אוויריות באולקסנדריבקה במחוז דונצק",
-     "summary": "תקיפה רוסית באמצעות פצצות אוויריות על הכפר אולקסנדריבקה הרסה בניינים וגרמה להרוגים ולפצועים, כאשר אנשים נוספים נותרו לכודים תחת ההריסות.",
-     "axis": "חזית המזרח",
+     "id": "UKRAINE-09240517-05",
+     "title": "הרשעת סוכן מודיעין בגין הכוונת תקיפות בקייב",
+     "summary": "תושב קייב שהעביר מיקומים לכוחות הביטחון הבלארוסיים והכוון תקיפות רוסיות על מתקני אנרגיה נידון ל-15 שנות מאסר.",
+     "axis": "עורף וביטחון פנים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-23T12:16:00+00:00",
-     "last_update_at": "2026-09-23T12:16:00+00:00",
-     "what_is_not_verified": "מספר הלכודים המדויק תחת ההריסות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_c0dfc6491c41b1d8",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054742/",
-       "published_at": "2026-09-23T12:16:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אולקסנדריבקה, אוקראינה",
-       "lat": 48.7074,
-       "lon": 36.9208
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09231527-08",
-     "title": "פגישה בין מזכיר המדינה האמריקאי לשר החוץ הרוסי בניו יורק",
-     "summary": "מרקו רוביו וסרגיי לברוב קיימו פגישה סגורה בשולי עצרת האו\"ם בניו יורק.",
-     "axis": "הזירה הדיפלומטית הבינלאומית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "occurred_at": "2026-09-24T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:15:00+00:00",
-     "last_update_at": "2026-09-23T14:15:00+00:00",
-     "what_is_not_verified": "תוכן השיחות הסגורות והפרטים המלאים עליהן אינם ידועים",
+     "first_reported_at": "2026-09-24T03:59:00+00:00",
+     "last_update_at": "2026-09-24T03:59:00+00:00",
+     "what_is_not_verified": "לא ידוע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054766/",
-       "published_at": "2026-09-23T14:15:00+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_31a185082800d7e4",
+       "url": "https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html",
+       "published_at": "2026-09-24T03:59:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09231527-09",
-     "title": "פגישת זלנסקי וטראמפ בניו יורק",
-     "summary": "נשיא אוקראינה ודונלד טראמפ נפגשו לשיחה בת כ-40 דקות בניו יורק ודנו בנושאי סיום המלחמה, סיוע צבאי והפוגת אנרגיה.",
-     "axis": "הזירה הדיפלומטית הבינלאומית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-23T13:24:54+00:00",
-     "last_update_at": "2026-09-23T14:15:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_030a4fb2cfbe5ae2",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054766/",
-       "published_at": "2026-09-23T14:15:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_f1b4fac7142f8b95",
-       "url": "https://meduza.io/en/feature/2026/09/23/after-trump-and-zelensky-meet-in-new-york-ukrainian-president-says-he-hopes-war-will-end-before-winter",
-       "published_at": "2026-09-23T13:24:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     }
    ],
    "not_verified": [
-    "תוכן השיחות המלא והמדויק בפגישה הסגורה בין מרקו רוביו לסרגיי לברוב",
-    "היקף הנזקים המלא והזמן המדויק לחידוש מלא של רשת האינטרנט בקייב",
-    "מספר האנשים המדויק הנותרים לכודים תחת ההריסות באולקסנדריבקה",
-    "כוונותיה המדויקות של רוסיה באשר למטרות בדיקת מוכנות ההגנה האווירית בפולין"
+    "טענות על היקף ההתקדמות המדויק של כוחות אוקראינה בגזרת מוקרי יאלי המבוססות על מקורות OSINT",
+    "תוצאות מדויקות ונתוני נפגעים מלאים מתקיפות הטילים על קייב ואודסה",
+    "מספר הלחימה והאבדות המדויק בצדדים כפי שצוין בנאומים שונים באו\"ם"
    ],
    "map": {
     "confidence": "high",
@@ -959,119 +847,95 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "רוסיה",
-     "declared": [
-      "התייחסות לכל מטען צבאי לקייב כיעד לגיטימי"
-     ],
-     "inferred": [
-      "שחיקת התשתיות האזרחיות והאנרגטיות של אוקראינה לקראת החורף",
-      "בחינת יכולות התגובה של נאט\"ו במרחב האווירי המזרחי"
-     ],
-     "forecast": [
-      "המשך לחץ צבאי לאורך החזית במזרח ובמרחב האווירי",
-      "ניצול מנופים כלכליים ומדיניים מול המערב"
-     ]
-    },
-    {
      "actor": "אוקראינה",
      "declared": [
-      "דרישה לשחזור הריבונות הטריטוריאלית המלאה לרבות חצי האי קרים",
-      "שאיפה לסיום המלחמה לפני עונת החורף"
+      "עצירת התוקפנות הרוסית ושחרור כל השטחים",
+      "הגברת סנקציות בינלאומיות וחסימת הכנסות האנרגיה של רוסיה",
+      "הבטחת חופש השייט וייצוא הדגנים בים השחור"
      ],
      "inferred": [
-      "ניסיון להגביר את הלחץ הדיפלומטי על אירופה לשמור על משטר סנקציות נוקשה",
-      "גיוס סיוע צבאי מערבי מתקדם ופתרונות להסרת המצור על הים השחור"
+      "שאיפה לקבלת מערכות הגנה מתקדמות ומיירטים להגנת האוכלוסייה",
+      "שמירה על לגיטימציה בינלאומית ותמיכה צבאית וכלכלית רצופה"
      ],
      "forecast": [
-      "המשך מאמצי הגנה מול התקיפות האוויריות והקרקעיות",
-      "חיפוש פורמטים דיפלומטיים לקידום הפוגה או הסדר"
+      "המשך מאמצי התקיפה בעומק השטח הרוסי באמצעות רחפנים",
+      "דרישה בלתי מתפשרת להפסקת אש מלאה כתנאי לדיפלומטיה משמעותית"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "רוסיה",
      "declared": [
-      "קריאה להביא לסיום המלחמה",
-      "הפעלת כלים כלכליים ומכסים פוטנציאליים על קונים מרכזיים של אנרגיה רוסית"
+      "המשך מה שמכונה המבצע המיוחד ללא עצירות או הפוגות",
+      "כיבוש שטחים נוספים במחוז דונייצק"
      ],
      "inferred": [
-      "תיווך זהיר לצורך בחינת אפשרויות להפוגה באנרגיה ובמלחמה",
-      "שמירה על מעורבות מבוקרת מבלי להיגרר לעימות ישיר"
+      "שחיקת התשתיות האזרחיות והאנרגטיות של אוקראינה לקראת חורף קשה",
+      "ניסיון למנוע שיקום מלאי החימוש של אוקראינה"
      ],
      "forecast": [
-      "המשך מגעים עקיפים וישירים לצד הפעלת לחץ כלכלי ממוקד"
+      "המשך מתקפות טילים ורחפנים נרחבות על מוקדי שלטון ותשתיות",
+      "דחיית כל מתווה הפסקת אש שלא משרת את מטרותיה הצבאיות"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/22/eu-removes-oligarchs-from-russia-sanctions-list-as-deadline-looms",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-war-briefing-kyiv-attacked-zelenskyy-urges-united-nations-choke-russia-revenues",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/russian-mi-8-helicopter-violates-polish-airspace-near-kaliningrad-poland-says/",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
-    },
-    {
-     "source_id": "src_meduza",
-     "url": "https://meduza.io/en/feature/2026/09/23/after-trump-and-zelensky-meet-in-new-york-ukrainian-president-says-he-hopes-war-will-end-before-winter",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
+     "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-as-air-defenses-engaged/",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054766/",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054831/",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/47929",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
+     "url": "https://t.me/alexmehacarmel/47953",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
-     "accessed_at": "2026-09-23T15:27:54+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/skk1mh119me",
+     "accessed_at": "2026-09-24T05:17:11+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-22T23:44:35+00:00",
+  "previous_generated_at": "2026-09-23T15:27:54+00:00",
   "changes": {
-   "UKRAINE-09231527-01": {
+   "UKRAINE-09240517-01": {
     "kind": "new"
    },
-   "UKRAINE-09231527-02": {
+   "UKRAINE-09240517-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "תקיפת כוחות רוסיים באמצעות משגרי אורגן בקרמטורסק",
+    "score": 0.65
+   },
+   "UKRAINE-09240517-03": {
     "kind": "new"
    },
-   "UKRAINE-09231527-03": {
+   "UKRAINE-09240517-04": {
+    "kind": "new"
+   },
+   "UKRAINE-09240517-05": {
     "kind": "down",
     "from": "verified",
-    "to": "shared_root",
-    "prev": "החלטת האיחוד האירופי על סנקציות והסרת אוליגרכים",
-    "score": 1.0
-   },
-   "UKRAINE-09231527-04": {
-    "kind": "up",
-    "from": "initial",
-    "to": "verified",
-    "prev": "פגיעת כטב\"מים בקייב",
+    "to": "initial",
+    "prev": "תקיפות כטב\"מים ופגיעות בתשתיות בקייב",
     "score": 0.817
-   },
-   "UKRAINE-09231527-05": {
-    "kind": "new"
-   },
-   "UKRAINE-09231527-06": {
-    "kind": "new"
-   },
-   "UKRAINE-09231527-07": {
-    "kind": "new"
-   },
-   "UKRAINE-09231527-08": {
-    "kind": "new"
-   },
-   "UKRAINE-09231527-09": {
-    "kind": "new"
    }
   }
  },

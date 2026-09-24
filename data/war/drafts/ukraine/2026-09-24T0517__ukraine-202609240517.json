@@ -1,0 +1,306 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2297b503feda",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 1,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-24T05:17:11+00:00",
+  "window": {
+   "from": "2026-09-23T05:17:11+00:00",
+   "to": "2026-09-24T05:17:11+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609240517"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת, כאשר רוסיה מבצעת מתקפות טילים כבדות וקטלניות מהאוויר לעבר קייב ואודסה, בעוד אוקראינה ממשיכה בפעילות רחפנים ובלחימה קרקעית במחוז דונייצק. בזירה הדיפלומטית, נשיא אוקראינה זלנסקי דורש באו\"ם הגברת סנקציות ולחץ כלכלי על מוסקבה, ומנגד רוסיה מבהירה כי לא תסכים להפסקת אש במהלך משא ומתן.",
+  "fronts": [
+   {
+    "name": "חזית קייב ומערך ההגנה האווירית",
+    "status": "פעיל ותחת תקיפות טילים כבדות"
+   },
+   {
+    "name": "חזית דונייצק ומוקרי יאלי",
+    "status": "פעיל עם דיווחים על התקדמות אוקראינית"
+   },
+   {
+    "name": "חזית הדרום ואודסה",
+    "status": "פעיל תחת מתקפות מהאוויר"
+   },
+   {
+    "name": "הזירה האווירית ומרחב הרחפנים ארוכי הטווח",
+    "status": "פעיל מאוד משני הצדדים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09240517-01",
+    "title": "מתקפת טילים ורחפנים נרחבת על קייב",
+    "summary": "מתקפת טילים ורחפנים פגעה במספר מחוזות בקייב, גרמה להרוגים ופצועים, שריפות והרס מבנים ותשתיות.",
+    "axis": "תקיפות והגנה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T22:28:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T22:28:54+00:00",
+    "last_update_at": "2026-09-24T04:59:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק והיקף הנזק המלא אינם מאומתים במלואם בכל המקורות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_88b41b7d8e0c31fb",
+      "url": "https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html",
+      "published_at": "2026-09-24T04:59:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_88b41b7d8e0c31fb",
+      "url": "https://www.ukrinform.net/rubric-ato/4167405-russians-strike-kyiv-with-ballistic-missiles-us-has-ability-to-respond-strongly-zelensky.html",
+      "published_at": "2026-09-24T04:39:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_57c382e50f381285",
+      "url": "https://www.ukrinform.net/rubric-ato/4167404-kyiv-hit-by-massive-russian-missile-strike-two-killed-at-least-six-injured.html",
+      "published_at": "2026-09-24T04:16:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_88b41b7d8e0c31fb",
+      "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-war-briefing-kyiv-attacked-zelenskyy-urges-united-nations-choke-russia-revenues",
+      "published_at": "2026-09-24T00:45:05+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_9bf2c14305dd19e6",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054830/",
+      "published_at": "2026-09-23T23:10:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_eb00b7c0b32ad8c0",
+      "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-as-air-defenses-engaged/",
+      "published_at": "2026-09-23T22:28:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09240517-02",
+    "title": "תקיפת כוחות רוסיים באודסה",
+    "summary": "כוחות רוסיים תקפו את העיר אודסה וגרמו לנזק למתקני רפואה, חינוך ומבני מגורים.",
+    "axis": "תקיפות והגנה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-23T23:40:00+00:00",
+    "last_update_at": "2026-09-23T23:40:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים טרם פורטו במלואם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b404879e8802c6b3",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054831/",
+      "published_at": "2026-09-23T23:40:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09240517-03",
+    "title": "גיוס חסיד ברסלב באוקראינה",
+    "summary": "אזרח ישראלי חסיד ברסלב נעצר באוקראינה לאחר שניסה לשוב לישראל מאומן, והוצב כרופא בחרקוב בשל חובת גיוס.",
+    "axis": "עורף וגיוס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T02:54:05+00:00",
+    "last_update_at": "2026-09-24T02:54:05+00:00",
+    "what_is_not_verified": "לא מאומתות אפשרויות השילוב העתידיות ברבנות הצבאית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_2b2ed8f24b9e6f39",
+      "url": "https://www.ynet.co.il/news/article/skk1mh119me",
+      "published_at": "2026-09-24T02:54:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "אומן, אוקראינה",
+      "lat": 48.7498,
+      "lon": 30.2203
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09240517-04",
+    "title": "דיווחים על התקדמות אוקראינית בדונייצק",
+    "summary": "התקיימו דיווחים על התקדמות כוחות אוקראיניים בגזרת מוקרי יאלי, לרבות השתלטות על הכפר מירנה וחציית הנהר.",
+    "axis": "חזית הקרקע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T02:36:12+00:00",
+    "last_update_at": "2026-09-24T02:36:12+00:00",
+    "what_is_not_verified": "הדיווחים מבוססים על מקורות OSINT ולאומתו רשמית באופן מלא ממקור ראשון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_osint",
+      "url": "https://t.me/alexmehacarmel/47953",
+      "published_at": "2026-09-24T02:36:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09240517-05",
+    "title": "הרשעת סוכן מודיעין בגין הכוונת תקיפות בקייב",
+    "summary": "תושב קייב שהעביר מיקומים לכוחות הביטחון הבלארוסיים והכוון תקיפות רוסיות על מתקני אנרגיה נידון ל-15 שנות מאסר.",
+    "axis": "עורף וביטחון פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T03:59:00+00:00",
+    "last_update_at": "2026-09-24T03:59:00+00:00",
+    "what_is_not_verified": "לא ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_31a185082800d7e4",
+      "url": "https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html",
+      "published_at": "2026-09-24T03:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף ההתקדמות המדויק של כוחות אוקראינה בגזרת מוקרי יאלי המבוססות על מקורות OSINT",
+   "תוצאות מדויקות ונתוני נפגעים מלאים מתקיפות הטילים על קייב ואודסה",
+   "מספר הלחימה והאבדות המדויק בצדדים כפי שצוין בנאומים שונים באו\"ם"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1411,
+    "unit": "USD",
+    "change_pct": -0.45,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "עצירת התוקפנות הרוסית ושחרור כל השטחים",
+     "הגברת סנקציות בינלאומיות וחסימת הכנסות האנרגיה של רוסיה",
+     "הבטחת חופש השייט וייצוא הדגנים בים השחור"
+    ],
+    "inferred": [
+     "שאיפה לקבלת מערכות הגנה מתקדמות ומיירטים להגנת האוכלוסייה",
+     "שמירה על לגיטימציה בינלאומית ותמיכה צבאית וכלכלית רצופה"
+    ],
+    "forecast": [
+     "המשך מאמצי התקיפה בעומק השטח הרוסי באמצעות רחפנים",
+     "דרישה בלתי מתפשרת להפסקת אש מלאה כתנאי לדיפלומטיה משמעותית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך מה שמכונה המבצע המיוחד ללא עצירות או הפוגות",
+     "כיבוש שטחים נוספים במחוז דונייצק"
+    ],
+    "inferred": [
+     "שחיקת התשתיות האזרחיות והאנרגטיות של אוקראינה לקראת חורף קשה",
+     "ניסיון למנוע שיקום מלאי החימוש של אוקראינה"
+    ],
+    "forecast": [
+     "המשך מתקפות טילים ורחפנים נרחבות על מוקדי שלטון ותשתיות",
+     "דחיית כל מתווה הפסקת אש שלא משרת את מטרותיה הצבאיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-war-briefing-kyiv-attacked-zelenskyy-urges-united-nations-choke-russia-revenues",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-as-air-defenses-engaged/",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054831/",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47953",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skk1mh119me",
+    "accessed_at": "2026-09-24T05:17:11+00:00"
+   }
+  ]
+ }
+}
