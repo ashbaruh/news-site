@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T21:17:29+00:00",
-  "fetched_at": "2026-09-24T21:17:29+00:00"
+  "checked_at": "2026-09-24T22:17:15+00:00",
+  "fetched_at": "2026-09-24T22:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T21:17:42+00:00",
-  "fetched_at": "2026-09-24T21:17:42+00:00"
+  "checked_at": "2026-09-24T22:17:24+00:00",
+  "fetched_at": "2026-09-24T22:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T21:17:43+00:00",
-  "fetched_at": "2026-09-24T21:17:43+00:00"
+  "checked_at": "2026-09-24T22:17:24+00:00",
+  "fetched_at": "2026-09-24T22:17:24+00:00"
  },
- "generated_at": "2026-09-24T21:17:43+00:00",
+ "generated_at": "2026-09-24T22:17:24+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T21:17:30+00:00",
-  "fetched_at": "2026-09-24T21:17:30+00:00"
+  "checked_at": "2026-09-24T22:17:16+00:00",
+  "fetched_at": "2026-09-24T22:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T21:17:31+00:00",
-  "fetched_at": "2026-09-24T21:17:31+00:00"
+  "checked_at": "2026-09-24T22:17:17+00:00",
+  "fetched_at": "2026-09-24T22:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2354,8 +2354,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T21:17:33+00:00",
-  "fetched_at": "2026-09-24T21:17:33+00:00"
+  "checked_at": "2026-09-24T22:17:18+00:00",
+  "fetched_at": "2026-09-24T22:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2445,8 +2445,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T21:17:33+00:00",
-  "fetched_at": "2026-09-24T21:17:33+00:00"
+  "checked_at": "2026-09-24T22:17:18+00:00",
+  "fetched_at": "2026-09-24T22:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2459,32 +2459,30 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 17,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 202,
+     "likes": 203,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 190,
+     "likes": 191,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2512,14 +2510,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 139,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 106,
+     "likes": 108,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2546,12 +2544,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T21:17:41+00:00",
-  "fetched_at": "2026-09-24T21:17:41+00:00"
+  "checked_at": "2026-09-24T22:17:24+00:00",
+  "fetched_at": "2026-09-24T22:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דניאל פרץ: \"פנינו לשלום. הדיבורים של אירלנד נובעים מבורות\"",
+     "link": "https://sports.walla.co.il/item/3869742",
+     "date": "2026-09-24T21:18:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "רביבו בישל פעמיים, ראפיניה שוב כיכב: טאפאסים",
      "link": "https://www.one.co.il/Article/534218.html?ref=rss",
@@ -2605,15 +2612,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "יעל ארד לנבחרת: \"שמרו על ספורטיביות, אל תיגררו לפרובוקציות\"",
-     "link": "https://sports.walla.co.il/item/3869494",
-     "date": "2026-09-23T08:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עופרי ארד"
      ]
     },
     {
@@ -2863,8 +2861,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T21:17:37+00:00",
-  "fetched_at": "2026-09-24T21:17:37+00:00"
+  "checked_at": "2026-09-24T22:17:21+00:00",
+  "fetched_at": "2026-09-24T22:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2895,7 +2893,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T21:17:38+00:00",
-  "fetched_at": "2026-09-24T21:17:38+00:00"
+  "checked_at": "2026-09-24T22:17:21+00:00",
+  "fetched_at": "2026-09-24T22:17:21+00:00"
  }
 };
