@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T13:17:23+00:00",
-  "fetched_at": "2026-09-24T13:17:23+00:00"
+  "checked_at": "2026-09-24T14:17:28+00:00",
+  "fetched_at": "2026-09-24T14:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T13:17:32+00:00",
-  "fetched_at": "2026-09-24T13:17:32+00:00"
+  "checked_at": "2026-09-24T14:17:43+00:00",
+  "fetched_at": "2026-09-24T14:17:43+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "“We wanted to have a product to compete with the likes of Apple TV and Sky Stream” Vodafone reveals its plans to conquer streaming",
+    "title_he": "\"רצינו שיהיה לנו מוצר שיתחרה עם כמו Apple TV ו-Sky Stream\" וודאפון חושפת את תוכניותיה לכבוש את הסטרימינג",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/we-wanted-to-have-a-product-to-compete-with-the-likes-of-apple-tv-and-sky-stream-vodafone-reveals-its-plans-to-conquer-streaming",
+    "date": "2026-09-24T13:23:52+00:00"
+   },
    {
     "title_en": "Sennheiser Momentum True Wireless 5",
     "title_he": null,
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/radio/roberts-new-collection-of-all-in-one-stereo-systems-brings-together-the-ritual-of-physical-listening-and-the-convenience-of-modern-technology",
     "date": "2026-09-24T07:00:00+00:00"
-   },
-   {
-    "title_en": "How to watch Azerbaijan Grand Prix 2026: live stream F1 race from anywhere",
-    "title_he": "איך לצפות בגראנד פרי של אזרבייג'ן 2026: שידור חי של מירוץ F1 מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/azerbaijan-grand-prix-2026-f1",
-    "date": "2026-09-24T05:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T13:17:34+00:00",
-  "fetched_at": "2026-09-24T13:17:34+00:00"
+  "checked_at": "2026-09-24T14:17:46+00:00",
+  "fetched_at": "2026-09-24T14:17:46+00:00"
  },
- "generated_at": "2026-09-24T13:17:34+00:00",
+ "generated_at": "2026-09-24T14:17:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,19 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "החוזים בוול סטריט אדומים; תשואת האג\"ח ל-30 שנה מזנקת לשיא מאז 2004",
+     "title": "ירידות בוול סטריט; \"כוח עליון\" מפיל את מניית אורקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T12:56:00+00:00"
+     "date": "2026-09-24T13:31:00+00:00"
     },
     {
-     "title": "להוסיף הון בפיקדון: איך לקבל יותר מהבנק שלכם או אפילו מבנק אחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
-     "date": "2026-09-24T12:47:00+00:00"
+     "title": "הפג-לויד וקרן פימי הגישו הצעה משופרת לרכישת צים. מה היא כוללת?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557488",
+     "date": "2026-09-24T13:17:00+00:00"
     },
     {
      "title": "סערת האג\"ח העולמית מגיעה לתל אביב: המדדים יורדים בחדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T12:05:00+00:00"
+     "date": "2026-09-24T13:00:00+00:00"
+    },
+    {
+     "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
+     "date": "2026-09-24T12:47:00+00:00"
     },
     {
      "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחוסר",
@@ -184,11 +189,6 @@ window.DB.generated = {
      "date": "2026-09-23T20:00:00+00:00"
     },
     {
-     "title": "הארווי ויינשטיין נידון ל-15 שנות מאסר במשפט החוזר בניו יורק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557433",
-     "date": "2026-09-23T18:35:00+00:00"
-    },
-    {
      "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
      "date": "2026-09-23T16:36:00+00:00"
@@ -219,15 +219,15 @@ window.DB.generated = {
      "date": "2026-09-23T08:33:00+00:00"
     },
     {
-     "title": "אחרי נפילת עסקת כאל: חורש והמבורגר יכתבו צ'ק של 187 מיליון שקל לדיסקונט והבינלאומי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557101",
-     "date": "2026-09-23T07:51:00+00:00"
+     "title": "פופולרית יותר מכיפת ברזל: מערכת ההגנה הישראלית שהפכה ללהיט גלובלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557006",
+     "date": "2026-09-23T02:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T13:17:24+00:00",
-  "fetched_at": "2026-09-24T13:17:24+00:00"
+  "checked_at": "2026-09-24T14:17:29+00:00",
+  "fetched_at": "2026-09-24T14:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T13:17:24+00:00",
-  "fetched_at": "2026-09-24T13:17:24+00:00"
+  "checked_at": "2026-09-24T14:17:30+00:00",
+  "fetched_at": "2026-09-24T14:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T13:17:25+00:00",
-  "fetched_at": "2026-09-24T13:17:25+00:00"
+  "checked_at": "2026-09-24T14:17:32+00:00",
+  "fetched_at": "2026-09-24T14:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T13:17:25+00:00",
-  "fetched_at": "2026-09-24T13:17:25+00:00"
+  "checked_at": "2026-09-24T14:17:32+00:00",
+  "fetched_at": "2026-09-24T14:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2525,21 +2525,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 192,
+     "likes": 195,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 182,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 530,
+     "likes": 531,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2560,22 +2560,22 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 105,
+     "likes": 107,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 141,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 100,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 142,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
@@ -2588,14 +2588,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 131,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T13:17:30+00:00",
-  "fetched_at": "2026-09-24T13:17:30+00:00"
+  "checked_at": "2026-09-24T14:17:41+00:00",
+  "fetched_at": "2026-09-24T14:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2929,8 +2929,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T13:17:27+00:00",
-  "fetched_at": "2026-09-24T13:17:27+00:00"
+  "checked_at": "2026-09-24T14:17:35+00:00",
+  "fetched_at": "2026-09-24T14:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2961,7 +2961,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T13:17:28+00:00",
-  "fetched_at": "2026-09-24T13:17:28+00:00"
+  "checked_at": "2026-09-24T14:17:36+00:00",
+  "fetched_at": "2026-09-24T14:17:36+00:00"
  }
 };
