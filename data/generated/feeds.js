@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:17:33+00:00",
-  "fetched_at": "2026-09-24T17:17:33+00:00"
+  "checked_at": "2026-09-24T18:17:21+00:00",
+  "fetched_at": "2026-09-24T18:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:17:59+00:00",
-  "fetched_at": "2026-09-24T17:17:59+00:00"
+  "checked_at": "2026-09-24T18:17:33+00:00",
+  "fetched_at": "2026-09-24T18:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,49 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:17:59+00:00",
-  "fetched_at": "2026-09-24T17:17:59+00:00"
+  "checked_at": "2026-09-24T18:17:34+00:00",
+  "fetched_at": "2026-09-24T18:17:34+00:00"
  },
- "generated_at": "2026-09-24T17:17:59+00:00",
+ "generated_at": "2026-09-24T18:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רשות התחרות בוחנת מגבלות חדשות על יבואני הרכב בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557515",
-     "date": "2026-09-24T15:00:00+00:00"
+     "title": "היועץ לשעבר של טראמפ מזהיר: \"אם המטרה להביא את איראן למו\"מ - נתאכזב שוב\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557559",
+     "date": "2026-09-24T18:00:00+00:00"
     },
     {
-     "title": "שעות לפני נאום נתניהו: אבו מאזן תוקף את ישראל באו\"ם",
+     "title": "רה\"מ נתניהו עלה לנאום בעצרת האו\"ם, עשרות נציגים עזבו את האולם",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T17:06:00+00:00"
+     "date": "2026-09-24T18:11:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ירידות בוול סטריט; בכירי הפד: \"ייתכן שיהיה צורך בהעלאות ריבית נוספות\"",
+     "title": "כוחות נאט\"ו במדינות הבלטיות מנסים ללמוד את כללי המלחמה החדשים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557504",
+     "date": "2026-09-24T18:10:00+00:00"
+    },
+    {
+     "title": "היועץ לשעבר של טראמפ מזהיר: \"אם המטרה להביא את איראן למו\"מ - נתאכזב שוב\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557559",
+     "date": "2026-09-24T18:00:00+00:00"
+    },
+    {
+     "title": "מסחר תנודתי בוול סטריט; מטא שוב מזנקת, אורקל יורדת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
-     "date": "2026-09-24T15:29:00+00:00"
+     "date": "2026-09-24T17:57:00+00:00"
+    },
+    {
+     "title": "תומר מזון: הרווח הנקי אשתקד יקטן ב-3 מיליון שקל עקב ניפוח המלאים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557593",
+     "date": "2026-09-24T15:36:00+00:00"
+    },
+    {
+     "title": "קרבות עזים באתיופיה מאיימים לגרור את כל אפריקה למלחמה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557479",
+     "date": "2026-09-24T15:30:00+00:00"
     },
     {
      "title": "מליסרון הודיעה שהמנכ\"ל אופיר שריד יסיים את תפקידו בשל מחלה",
@@ -109,7 +129,7 @@ window.DB.generated = {
      "date": "2026-09-24T15:15:00+00:00"
     },
     {
-     "title": "איזו עיר במזה\"ת הגיעה למקום הכי גבוה במדד הערים העולמי?",
+     "title": "באיזו עיר התושבים בישראל הכי מרוצים מהעירייה שלהם?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557123",
      "date": "2026-09-24T14:44:00+00:00"
     },
@@ -142,11 +162,6 @@ window.DB.generated = {
      "title": "פיצוי מצטבר של מאות מיליוני שקלים: הסכם פשרה ענק הושג נגד חמש חברות ביטוח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557464",
      "date": "2026-09-24T09:56:00+00:00"
-    },
-    {
-     "title": "אפי קפיטל מוכרת קרקע ברעננה שבה זכתה לפני כשנה – ותישאר עם רווח של כ־4 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557455",
-     "date": "2026-09-24T08:25:00+00:00"
     },
     {
      "title": "לאחר 25 שנה: מנכ\"ל הרשות לניירות ערך יסיים את תפקידו",
@@ -204,30 +219,15 @@ window.DB.generated = {
      "date": "2026-09-23T16:36:00+00:00"
     },
     {
-     "title": "מטא מציגה עוזר אישי שיזמין לכם כרטיסי טיסה. האם הוא שווה את הזינוק במניה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557367",
-     "date": "2026-09-23T16:03:00+00:00"
-    },
-    {
      "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557355",
      "date": "2026-09-23T14:53:00+00:00"
-    },
-    {
-     "title": "דיווח: נייס במגעים למכירת אקטימייז לקרן הקנדית ברוקפילד בכ-2 מיליארד דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557156",
-     "date": "2026-09-23T10:35:00+00:00"
-    },
-    {
-     "title": "סימן האזהרה שהופיע במניה הגדולה בעולם - והאם מדובר בהזדמנות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557119",
-     "date": "2026-09-23T08:33:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:17:34+00:00",
-  "fetched_at": "2026-09-24T17:17:34+00:00"
+  "checked_at": "2026-09-24T18:17:22+00:00",
+  "fetched_at": "2026-09-24T18:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:17:35+00:00",
-  "fetched_at": "2026-09-24T17:17:35+00:00"
+  "checked_at": "2026-09-24T18:17:23+00:00",
+  "fetched_at": "2026-09-24T18:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:17:36+00:00",
-  "fetched_at": "2026-09-24T17:17:36+00:00"
+  "checked_at": "2026-09-24T18:17:24+00:00",
+  "fetched_at": "2026-09-24T18:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,39 +2495,37 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:17:36+00:00",
-  "fetched_at": "2026-09-24T17:17:36+00:00"
+  "checked_at": "2026-09-24T18:17:24+00:00",
+  "fetched_at": "2026-09-24T18:17:24+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/claude-opus-5-5-is-out/",
-     "date": "2026-09-23T07:08:18+00:00",
+     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
+     "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
-     "title": "אנת'רופיק חשפה את Opus 5.5: טוב יותר וזול יותר גם מ-GPT-6 Astra"
+     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 17,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 200,
+     "likes": 201,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2541,7 +2539,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 533,
+     "likes": 535,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2555,7 +2553,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2596,8 +2594,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:17:44+00:00",
-  "fetched_at": "2026-09-24T17:17:44+00:00"
+  "checked_at": "2026-09-24T18:17:32+00:00",
+  "fetched_at": "2026-09-24T18:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2637,15 +2635,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מוחמד אבו פאני"
-     ]
-    },
-    {
-     "title": "המנהיג השקט: סולומון ינסה לקחת את ישראל ליורו",
-     "link": "https://www.one.co.il/Article/534183.html?ref=rss",
-     "date": "2026-09-24T07:44:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2932,8 +2921,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T17:17:40+00:00",
-  "fetched_at": "2026-09-24T17:17:40+00:00"
+  "checked_at": "2026-09-24T18:17:28+00:00",
+  "fetched_at": "2026-09-24T18:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2964,7 +2953,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T17:17:40+00:00",
-  "fetched_at": "2026-09-24T17:17:40+00:00"
+  "checked_at": "2026-09-24T18:17:29+00:00",
+  "fetched_at": "2026-09-24T18:17:29+00:00"
  }
 };
