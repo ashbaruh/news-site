@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T19:17:25+00:00",
-  "fetched_at": "2026-09-24T19:17:25+00:00"
+  "checked_at": "2026-09-24T20:17:38+00:00",
+  "fetched_at": "2026-09-24T20:17:38+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "The read operation timed out",
-  "checked_at": "2026-09-24T19:18:05+00:00",
-  "fetched_at": "2026-09-24T18:17:33+00:00"
+  "ok": true,
+  "checked_at": "2026-09-24T20:17:49+00:00",
+  "fetched_at": "2026-09-24T20:17:49+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T19:18:05+00:00",
-  "fetched_at": "2026-09-24T19:18:05+00:00"
+  "checked_at": "2026-09-24T20:17:49+00:00",
+  "fetched_at": "2026-09-24T20:17:49+00:00"
  },
- "generated_at": "2026-09-24T19:18:05+00:00",
+ "generated_at": "2026-09-24T20:17:49+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +94,7 @@ window.DB.generated = {
     {
      "title": "רה\"מ מגיב להאשמות נגד ישראל: \"רצח עם? זה שקר המאה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T18:44:00+00:00"
+     "date": "2026-09-24T19:32:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T19:17:27+00:00",
-  "fetched_at": "2026-09-24T19:17:27+00:00"
+  "checked_at": "2026-09-24T20:17:39+00:00",
+  "fetched_at": "2026-09-24T20:17:39+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T19:17:28+00:00",
-  "fetched_at": "2026-09-24T19:17:28+00:00"
+  "checked_at": "2026-09-24T20:17:40+00:00",
+  "fetched_at": "2026-09-24T20:17:40+00:00"
  },
  "tv": {
   "data": [
@@ -2390,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T19:17:29+00:00",
-  "fetched_at": "2026-09-24T19:17:29+00:00"
+  "checked_at": "2026-09-24T20:17:42+00:00",
+  "fetched_at": "2026-09-24T20:17:42+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2496,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T19:17:29+00:00",
-  "fetched_at": "2026-09-24T19:17:29+00:00"
+  "checked_at": "2026-09-24T20:17:42+00:00",
+  "fetched_at": "2026-09-24T20:17:42+00:00"
  },
  "ai": {
   "data": {
@@ -2510,44 +2509,46 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 17,
-   "failed_sources": [],
+   "candidates": 14,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 201,
+     "likes": 202,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 188,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 536,
+     "likes": 537,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2561,14 +2562,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 101,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2595,21 +2596,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T19:17:40+00:00",
-  "fetched_at": "2026-09-24T19:17:40+00:00"
+  "checked_at": "2026-09-24T20:17:49+00:00",
+  "fetched_at": "2026-09-24T20:17:49+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "רביבו בישל פעמיים, ראפיניה שוב כיכב: טאפאסים",
-     "link": "https://www.one.co.il/Article/534218.html?ref=rss",
-     "date": "2026-09-24T15:18:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
     {
      "title": "המיוחד: כך הפך דיא סבע לאחד הכוכבים הגדולים בטורקיה",
      "link": "https://sports.walla.co.il/item/3869600",
@@ -2899,21 +2891,11 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": [
-    {
-     "title": "מושלמים ברומניה: מכבי חיפה בדרך לתואר אירופי",
-     "link": "https://www.one.co.il/Article/534232.html?ref=rss",
-     "date": "2026-09-24T16:06:00+00:00",
-     "source": "ONE",
-     "clubs": [
-      "מכבי חיפה"
-     ]
-    }
-   ]
+   "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-24T19:17:34+00:00",
-  "fetched_at": "2026-09-24T19:17:34+00:00"
+  "checked_at": "2026-09-24T20:17:45+00:00",
+  "fetched_at": "2026-09-24T20:17:45+00:00"
  },
  "idf": {
   "data": [
@@ -2944,7 +2926,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T19:17:35+00:00",
-  "fetched_at": "2026-09-24T19:17:35+00:00"
+  "checked_at": "2026-09-24T20:17:46+00:00",
+  "fetched_at": "2026-09-24T20:17:46+00:00"
  }
 };
