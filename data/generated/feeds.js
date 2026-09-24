@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-24T20:17:38+00:00",
-  "fetched_at": "2026-09-24T20:17:38+00:00"
+  "checked_at": "2026-09-24T20:32:40+00:00",
+  "fetched_at": "2026-09-24T20:32:40+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T20:17:49+00:00",
-  "fetched_at": "2026-09-24T20:17:49+00:00"
+  "checked_at": "2026-09-24T20:33:14+00:00",
+  "fetched_at": "2026-09-24T20:33:14+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T20:17:49+00:00",
-  "fetched_at": "2026-09-24T20:17:49+00:00"
+  "checked_at": "2026-09-24T20:33:14+00:00",
+  "fetched_at": "2026-09-24T20:33:14+00:00"
  },
- "generated_at": "2026-09-24T20:17:49+00:00",
+ "generated_at": "2026-09-24T20:33:14+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T20:17:39+00:00",
-  "fetched_at": "2026-09-24T20:17:39+00:00"
+  "checked_at": "2026-09-24T20:32:42+00:00",
+  "fetched_at": "2026-09-24T20:32:42+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T20:17:40+00:00",
-  "fetched_at": "2026-09-24T20:17:40+00:00"
+  "checked_at": "2026-09-24T20:32:42+00:00",
+  "fetched_at": "2026-09-24T20:32:42+00:00"
  },
  "tv": {
   "data": [
@@ -2389,8 +2389,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T20:17:42+00:00",
-  "fetched_at": "2026-09-24T20:17:42+00:00"
+  "checked_at": "2026-09-24T20:32:44+00:00",
+  "fetched_at": "2026-09-24T20:32:44+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2495,8 +2495,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T20:17:42+00:00",
-  "fetched_at": "2026-09-24T20:17:42+00:00"
+  "checked_at": "2026-09-24T20:32:44+00:00",
+  "fetched_at": "2026-09-24T20:32:44+00:00"
  },
  "ai": {
   "data": {
@@ -2596,12 +2596,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T20:17:49+00:00",
-  "fetched_at": "2026-09-24T20:17:49+00:00"
+  "checked_at": "2026-09-24T20:32:50+00:00",
+  "fetched_at": "2026-09-24T20:32:50+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רביבו בישל פעמיים, ראפיניה שוב כיכב: טאפאסים",
+     "link": "https://www.one.co.il/Article/534218.html?ref=rss",
+     "date": "2026-09-24T15:18:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "המיוחד: כך הפך דיא סבע לאחד הכוכבים הגדולים בטורקיה",
      "link": "https://sports.walla.co.il/item/3869600",
@@ -2891,11 +2900,21 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": []
+   "europe": [
+    {
+     "title": "מושלמים ברומניה: מכבי חיפה בדרך לתואר אירופי",
+     "link": "https://www.one.co.il/Article/534232.html?ref=rss",
+     "date": "2026-09-24T16:06:00+00:00",
+     "source": "ONE",
+     "clubs": [
+      "מכבי חיפה"
+     ]
+    }
+   ]
   },
   "ok": true,
-  "checked_at": "2026-09-24T20:17:45+00:00",
-  "fetched_at": "2026-09-24T20:17:45+00:00"
+  "checked_at": "2026-09-24T20:32:47+00:00",
+  "fetched_at": "2026-09-24T20:32:47+00:00"
  },
  "idf": {
   "data": [
@@ -2926,7 +2945,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-24T20:17:46+00:00",
-  "fetched_at": "2026-09-24T20:17:46+00:00"
+  "checked_at": "2026-09-24T20:32:47+00:00",
+  "fetched_at": "2026-09-24T20:32:47+00:00"
  }
 };
