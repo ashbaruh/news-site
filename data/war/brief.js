@@ -1,83 +1,77 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-24T04:00:00+03:00",
- "generated_at": "2026-09-24T01:10:27+00:00",
+ "slot": "2026-09-24T12:00:00+03:00",
+ "generated_at": "2026-09-24T08:40:14+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09240110-01",
-     "title": "הרוג בכיר במשמרות המהפכה באיראן",
-     "summary": "משמרות המהפכה הודיעו על מותו של תת-אלוף חוסיין זריפי במהלך פעילות חזיתית.",
+     "id": "IRAN-09240840-01",
+     "title": "חיסול קצין משמרות המהפכה באיראן",
+     "summary": "קצין בכיר במשמרות המהפכה וקצין מודיעין חוסלו בעימותים עם חמושים מתנגדי משטר בדרום-מזרח המדינה.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T18:29:56+00:00",
+     "occurred_at": "2026-09-24T05:50:08+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T18:29:56+00:00",
-     "last_update_at": "2026-09-23T18:29:56+00:00",
-     "what_is_not_verified": "לא מאומתות טענות הארגון על אופי הפעילות של החמושים.",
+     "first_reported_at": "2026-09-24T05:50:08+00:00",
+     "last_update_at": "2026-09-24T05:50:08+00:00",
+     "what_is_not_verified": "מספר אנשי הביטחון שנפצעו מבוסס על מקורות איראנים בלבד.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47946",
-       "published_at": "2026-09-23T18:29:56+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סראוואן, איראן",
-       "lat": 27.3652,
-       "lon": 62.3391
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09240110-02",
-     "title": "ביטול טיסות באיראן בעקבות סנקציות אמריקאיות",
-     "summary": "חברות תעופה איראניות נאלצו לבטל טיסות בינלאומיות לאחר החמרת הסנקציות מצד ארצות הברית.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-24T00:30:23+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-24T00:30:23+00:00",
-     "last_update_at": "2026-09-24T00:30:23+00:00",
-     "what_is_not_verified": "לא מאומת היקף כל הביטולים מעבר למדינות שאישרו רשמית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/iran-airlines-cancel-flights-us-sanctions-hit",
-       "published_at": "2026-09-24T00:30:23+00:00"
+       "url": "https://t.me/abualiexpress/130710",
+       "published_at": "2026-09-24T05:50:08+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-09240110-03",
-     "title": "קנדה מטילה סנקציות על גורמים איראניים",
-     "summary": "קנדה הודיעה על הטלת סנקציות חדשות כנגד עשרה אישים וגופים מאיראן.",
+     "id": "IRAN-09240840-02",
+     "title": "פגיעה בסקטור התעופה האיראני",
+     "summary": "שר האוצר האמריקאי הצהיר כי מרבית הטיסות הבינלאומיות מאיראן הופסקו בעקבות הסנקציות החדשות.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T22:36:46+00:00",
+     "occurred_at": "2026-09-24T05:23:01+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T22:36:46+00:00",
-     "last_update_at": "2026-09-23T22:36:46+00:00",
-     "what_is_not_verified": "ההשלכות המעשיות של הסנקציות אינן מפורטות מלבד הצהרת הכוונה.",
+     "first_reported_at": "2026-09-24T05:23:01+00:00",
+     "last_update_at": "2026-09-24T05:23:01+00:00",
+     "what_is_not_verified": "היקף השיתוק המדויק אינו מאומת ממקור עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130705",
+       "published_at": "2026-09-24T05:23:01+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09240840-03",
+     "title": "עלייה קלה בתנועת הספינות במצר הורמוז",
+     "summary": "נתוני ספנות ראשוניים הצביעו על מעבר של עשר ספינות משא במצר הורמוז.",
+     "axis": "iran",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-24T05:26:11+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-24T05:26:11+00:00",
+     "last_update_at": "2026-09-24T05:26:11+00:00",
+     "what_is_not_verified": "הנתונים כפופים לשינויים עקב כיבוי משדרים של חלק מהאניות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_f332493177c3d172",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/canada-sanctions-ten-iranian-individuals-and-entities",
-       "published_at": "2026-09-23T22:36:46+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/shipping-traffic-hormuz-strait-rises-10-wednesday",
+       "published_at": "2026-09-24T05:26:11+00:00"
       }
      ],
      "places": []
@@ -87,138 +81,103 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-09240110-01",
-     "title": "השלמת משימת כוחות צה\"ל בסוריה",
-     "summary": "כוחות צק\"ח 228 השלימו את משימתם במרחב האבטחה בסוריה לאחר השמדת תשתיות ואמצעי לחימה.",
+     "id": "NORTH-09240840-01",
+     "title": "העברת בסיס צבאי טורקי בעיראק",
+     "summary": "טורקיה הודיעה כי תעביר בהדרגה את השליטה בבסיס בשאקה שבצפון עיראק לידי ממשלת עיראק.",
      "axis": "north",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T15:36:48+00:00",
+     "occurred_at": "2026-09-24T07:49:32+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T15:36:48+00:00",
-     "last_update_at": "2026-09-23T15:36:48+00:00",
-     "what_is_not_verified": "היקף מדויק של אמצעי הלחימה שהושמדו לא מפורט מעבר להגדרת עשרות.",
+     "first_reported_at": "2026-09-24T07:49:32+00:00",
+     "last_update_at": "2026-09-24T07:49:32+00:00",
+     "what_is_not_verified": "לוח הזמנים המדויק של ההעברה המלאה טרם הושלם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25186",
-       "published_at": "2026-09-23T15:36:48+00:00"
+       "url": "https://www.newarab.com/news/turkey-hand-over-military-base-northern-iraq-baghdad",
+       "published_at": "2026-09-24T07:49:32+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-09240110-02",
-     "title": "העברת שליטה בבסיס צבאי מטורקיה לעיראק",
-     "summary": "טורקיה ועיראק סיכמו על העברה הדרגתית של בסיס באשיקה לידי ממשלת עיראק.",
+     "id": "NORTH-09240840-02",
+     "title": "עגינת אוניות ענק בנמל ביירות",
+     "summary": "נמל ביירות קלט שלוש אוניות אם ענקיות ביום אחד למרות המצב באזור.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T21:37:38+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-23T21:37:38+00:00",
-     "last_update_at": "2026-09-24T00:02:51+00:00",
-     "what_is_not_verified": "לוחות הזמנים המדויקים להעברה המלאה טרם בוצעו במלואם.",
+     "occurred_at": "2026-09-24T05:25:19+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-24T05:25:19+00:00",
+     "last_update_at": "2026-09-24T05:25:19+00:00",
+     "what_is_not_verified": "ההשלכות ארוכות הטווח על קיבולת הנמל אינן מאומתות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_f51d7b746d168d1e",
-       "url": "https://www.france24.com/en/middle-east/20260924-turkey-to-hand-over-military-base-in-northern-iraq-to-baghdad",
-       "published_at": "2026-09-24T00:02:51+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_345cd6245c12f583",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-hand-over-military-base-iraq",
-       "published_at": "2026-09-23T21:37:38+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/959473/three-mega-vessels-dock-at-beirut-port-in-single-day-highlighting-grow/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959473",
+       "published_at": "2026-09-24T05:25:19+00:00"
       }
      ],
      "places": [
       {
-       "name": "באשיקה, עיראק",
-       "lat": 36.4505,
-       "lon": 43.3498
+       "name": "נמל ביירות, לבנון",
+       "lat": 33.9008,
+       "lon": 35.5022
       }
      ]
     },
     {
-     "id": "NORTH-09240110-03",
-     "title": "תקיפות אוויריות בדרום לבנון",
-     "summary": "מטוסי קרב תקפו במספר מרחבים בדרום לבנון.",
+     "id": "NORTH-09240840-03",
+     "title": "רעידת אדמה במזרח טורקיה",
+     "summary": "רעידת אדמה בעוצמה של 5.1 דרגות פקדה את מזרח טורקיה.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T14:54:35+00:00",
+     "occurred_at": "2026-09-24T05:02:59+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T14:54:35+00:00",
-     "last_update_at": "2026-09-23T21:26:53+00:00",
-     "what_is_not_verified": "תוצאות התקיפות ופרטי הנזק אינם מפורטים במלואם.",
+     "first_reported_at": "2026-09-24T05:02:59+00:00",
+     "last_update_at": "2026-09-24T05:02:59+00:00",
+     "what_is_not_verified": "היקף הנזקים המלא טרם דווח במלואו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_lbci",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130679",
-       "published_at": "2026-09-23T14:54:35+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanon-3",
-       "published_at": "2026-09-23T21:26:53+00:00"
+       "url": "https://www.lbcgroup.tv/news/world-news/959467/magnitude-51-earthquake-hits-eastern-turkey-emsc-says/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959467",
+       "published_at": "2026-09-24T05:02:59+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "אלקנטרה, לבנון",
-       "lat": 33.2735,
-       "lon": 35.4591
-      },
-      {
-       "name": "אל-חיאם, לבנון",
-       "lat": 33.3272,
-       "lon": 35.609
-      }
-     ]
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09240110-01",
-     "title": "מתקפת טילים ורחפנים על קייב",
-     "summary": "מתקפות רוסיות בלילה שבין 23 ל-24 בספטמבר כללו פגיעות טילים בליסטיים וכטב\"מים שהביאו להרוגים ופצועים.",
+     "id": "UKRAINE-09240840-01",
+     "title": "תקיפה רוסית על מתקנים בקייב ובאודסה",
+     "summary": "משרד ההגנה הרוסי דיווח על פגיעה במתקן תעשייתי לייצור רכיבי כטב\"מים ורובוטים קרקעיים בקייב.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T22:28:54+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-23T22:28:54+00:00",
-     "last_update_at": "2026-09-24T00:45:05+00:00",
-     "what_is_not_verified": "מספר הנפגעים המדויק סותר חלקית בדיווחים הראשוניים בין גורמים שונים.",
+     "occurred_at": "2026-09-24T08:23:33+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-24T08:23:33+00:00",
+     "last_update_at": "2026-09-24T08:23:33+00:00",
+     "what_is_not_verified": "אמינות נתוני הנזק כפי שדווחו על ידי משרד ההגנה הרוסי אינה מאומתת באופן עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_9bf2c14305dd19e6",
-       "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-war-briefing-kyiv-attacked-zelenskyy-urges-united-nations-choke-russia-revenues",
-       "published_at": "2026-09-24T00:45:05+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_9bf2c14305dd19e6",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054830/",
-       "published_at": "2026-09-23T23:10:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_9bf2c14305dd19e6",
-       "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-as-air-defenses-engaged/",
-       "published_at": "2026-09-23T22:28:54+00:00"
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/defense/2192001",
+       "published_at": "2026-09-24T08:23:33+00:00"
       }
      ],
      "places": [
@@ -230,53 +189,53 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-09240110-02",
-     "title": "השמדת מחסן תחמושת רוסי בזפוריז'יה",
-     "summary": "כוחות ההגנה של אוקראינה איתרו והשמידו מחסן של פגזי ארטילריה רוסיים.",
+     "id": "UKRAINE-09240840-02",
+     "title": "פגיעה ישירה במשק חקלאי במחוז חרקוב",
+     "summary": "תקיפה רוסית על חווה חקלאית במחוז חרקוב הותירה שבעה הרוגים ושנים-עשר פצועים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T21:38:00+00:00",
+     "occurred_at": "2026-09-24T08:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T21:38:00+00:00",
-     "last_update_at": "2026-09-23T21:38:00+00:00",
-     "what_is_not_verified": "אין פירוט על היקף הנפגעים בצד הרוסי כתוצאה מהפיצוץ.",
+     "first_reported_at": "2026-09-24T08:00:00+00:00",
+     "last_update_at": "2026-09-24T08:00:00+00:00",
+     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים לא פורט במלואו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_f05734b3b0d8da31",
-       "url": "https://www.ukrinform.net/rubric-ato/4166967-ukrainian-forces-destroy-russian-ammunition-depot-in-huliaipole.html",
-       "published_at": "2026-09-23T21:38:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4167463-seven-killed-12-injured-in-russian-attack-on-farm-in-kharkiv-region.html",
+       "published_at": "2026-09-24T08:00:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "הוליאיפולה, אוקראינה",
-       "lat": 47.6655,
-       "lon": 36.2657
+       "name": "מחוז חרקוב, אוקראינה",
+       "lat": 50.0323,
+       "lon": 36.2188
       }
      ]
     },
     {
-     "id": "UKRAINE-09240110-03",
-     "title": "פניית אוקראינה להפסקת אש",
-     "summary": "שר החוץ האוקראיני הצהיר כי אוקראינה הסכימה להפסקת אש מלאה ומיידית מאז מרץ 2025.",
+     "id": "UKRAINE-09240840-03",
+     "title": "חדירת כטב\"מים למרחב האווירי של מולדובה",
+     "summary": "נשיאת מולדובה אישרה שארבעה כטב\"מים רוסיים הפרו את מרחב המדינה, ואחד מהם התפוצץ בצפון.",
      "axis": "ukraine",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-23T15:53:49+00:00",
+     "occurred_at": "2026-09-24T07:25:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-23T15:53:49+00:00",
-     "last_update_at": "2026-09-23T15:53:49+00:00",
-     "what_is_not_verified": "תגובת רוסיה בפועל להצעה המסוימת לא צוינה באותו מקור כהסכמה.",
+     "first_reported_at": "2026-09-24T07:25:00+00:00",
+     "last_update_at": "2026-09-24T07:25:00+00:00",
+     "what_is_not_verified": "נסיבות ההתרסקות המדויקות של שאר הכטב\"מים אינן מפורטות לחלוטין.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/47941",
-       "published_at": "2026-09-23T15:53:49+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/24/8054858/",
+       "published_at": "2026-09-24T07:25:00+00:00"
       }
      ],
      "places": []
@@ -366,8 +325,11 @@ window.DB.war_brief = {
      ],
      "places": []
     }
-   ]
+   ],
+   "from_slot": "2026-09-24T04:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "yemen": "אין ידיעות"
+ }
 };
