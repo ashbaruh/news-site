@@ -1,5 +1,5 @@
 {
- "at": "2026-09-24T15:25:24+00:00",
- "ok": true,
- "msg": "עדכון ביניים 18:00: iran 3, north 3, ukraine 3, yemen 1"
+ "at": "2026-09-24T15:42:18+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.8-flash צורה 1: HTTP 429: [GenerateRequestsPerDayPerProjectPerModel-FreeTier] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/ra"
 }
