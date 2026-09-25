@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:57:02+00:00",
-  "fetched_at": "2026-09-25T01:57:02+00:00"
+  "checked_at": "2026-09-25T02:17:22+00:00",
+  "fetched_at": "2026-09-25T02:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:57:17+00:00",
-  "fetched_at": "2026-09-25T01:57:17+00:00"
+  "checked_at": "2026-09-25T02:17:34+00:00",
+  "fetched_at": "2026-09-25T02:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:57:17+00:00",
-  "fetched_at": "2026-09-25T01:57:17+00:00"
+  "checked_at": "2026-09-25T02:17:35+00:00",
+  "fetched_at": "2026-09-25T02:17:35+00:00"
  },
- "generated_at": "2026-09-25T01:57:17+00:00",
+ "generated_at": "2026-09-25T02:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:57:03+00:00",
-  "fetched_at": "2026-09-25T01:57:03+00:00"
+  "checked_at": "2026-09-25T02:17:24+00:00",
+  "fetched_at": "2026-09-25T02:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:57:04+00:00",
-  "fetched_at": "2026-09-25T01:57:04+00:00"
+  "checked_at": "2026-09-25T02:17:25+00:00",
+  "fetched_at": "2026-09-25T02:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2351,10 +2351,9 @@
     "title": "ישראל - קוסובו"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-25T01:57:10+00:00",
-  "fetched_at": "2026-09-25T01:17:51+00:00"
+  "ok": true,
+  "checked_at": "2026-09-25T02:17:27+00:00",
+  "fetched_at": "2026-09-25T02:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2444,8 +2443,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:57:10+00:00",
-  "fetched_at": "2026-09-25T01:57:10+00:00"
+  "checked_at": "2026-09-25T02:17:27+00:00",
+  "fetched_at": "2026-09-25T02:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2458,23 +2457,25 @@
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 13,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2509,14 +2510,14 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 142,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 112,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2543,8 +2544,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:57:16+00:00",
-  "fetched_at": "2026-09-25T01:57:16+00:00"
+  "checked_at": "2026-09-25T02:17:34+00:00",
+  "fetched_at": "2026-09-25T02:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2860,8 +2861,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:57:13+00:00",
-  "fetched_at": "2026-09-25T01:57:13+00:00"
+  "checked_at": "2026-09-25T02:17:30+00:00",
+  "fetched_at": "2026-09-25T02:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2892,7 +2893,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:57:13+00:00",
-  "fetched_at": "2026-09-25T01:57:13+00:00"
+  "checked_at": "2026-09-25T02:17:31+00:00",
+  "fetched_at": "2026-09-25T02:17:31+00:00"
  }
 }
