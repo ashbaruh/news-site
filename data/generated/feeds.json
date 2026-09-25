@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T09:17:13+00:00",
-  "fetched_at": "2026-09-25T09:17:13+00:00"
+  "checked_at": "2026-09-25T10:17:23+00:00",
+  "fetched_at": "2026-09-25T10:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T09:17:21+00:00",
-  "fetched_at": "2026-09-25T09:17:21+00:00"
+  "checked_at": "2026-09-25T10:17:32+00:00",
+  "fetched_at": "2026-09-25T10:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Qobuz has started tagging AI music – but is anybody listening to it anyway?",
+    "title_he": "Qobuz התחילה לתייג מוזיקת ​​AI - אבל האם מישהו מאזין לה בכל זאת?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/qobuz-has-started-tagging-ai-music-but-is-anybody-listening-to-it-anyway",
+    "date": "2026-09-25T09:38:59+00:00"
+   },
+   {
+    "title_en": "What Hi-Fi? (and my dad) got me into hi-fi, and as it turns 50, I can still remember one review in particular",
+    "title_he": "איזה Hi-Fi? (ואבא שלי) הכניסו אותי ל-hi-fi, וכשיגיע לגיל 50, אני עדיין זוכר ביקורת אחת במיוחד",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/cd-players/what-hi-fi-and-my-dad-got-me-into-hi-fi-and-as-it-turns-50-i-can-still-remember-one-review-in-particular",
+    "date": "2026-09-25T09:32:25+00:00"
+   },
    {
     "title_en": "Two different monitors, decades old in design – I compared two legendary BBC speakers to find out if their performance still holds up today",
     "title_he": "שני מוניטורים שונים, בני עשרות שנים בעיצוב - השוויתי שני רמקולים אגדיים של BBC כדי לגלות אם הביצועים שלהם עדיין מחזיקים מעמד היום",
@@ -60,27 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/prem-rugby-2026-27",
     "date": "2026-09-25T08:00:00+00:00"
-   },
-   {
-    "title_en": "We’ve just reviewed this five-star Hisense projector – and there’s already £100 cashback and a free Xbox controller available",
-    "title_he": "זה עתה סקרנו את מקרן Hisense בעל חמישה כוכבים זה - וכבר יש 100 פאונד קאשבק ובקר Xbox בחינם.",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/weve-just-reviewed-this-five-star-hisense-projector-and-theres-already-gbp100-cashback-and-a-free-xbox-controller-available",
-    "date": "2026-09-24T16:29:13+00:00"
-   },
-   {
-    "title_en": "I lived with the Sonos Ace Ultra – here are 4 key ways the new headphones are better than the original Ace",
-    "title_he": "חייתי עם Sonos Ace Ultra - הנה 4 דרכים מרכזיות שבהן האוזניות החדשות טובות יותר מהאייס המקורית",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/i-lived-with-the-sonos-ace-ultra-here-are-4-key-ways-the-new-headphones-are-better-than-the-original-ace",
-    "date": "2026-09-24T15:20:31+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T09:17:21+00:00",
-  "fetched_at": "2026-09-25T09:17:21+00:00"
+  "checked_at": "2026-09-25T10:17:35+00:00",
+  "fetched_at": "2026-09-25T10:17:35+00:00"
  },
- "generated_at": "2026-09-25T09:17:21+00:00",
+ "generated_at": "2026-09-25T10:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,19 @@
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T08:46:00+00:00"
+     "date": "2026-09-25T10:07:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "עסקת גז של 6.7 מיליארד שקל בוטלה בשל חששות מכוח השוק של ניו מד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557619",
+     "date": "2026-09-25T10:10:00+00:00"
+    },
+    {
      "title": "עליות שערים באירופה, הנפט בירידות קלות, וההימור המפתיע של ברקליס על המניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
-     "date": "2026-09-25T07:40:00+00:00"
+     "date": "2026-09-25T09:11:00+00:00"
     },
     {
      "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
@@ -187,11 +192,6 @@
      "date": "2026-09-24T08:09:00+00:00"
     },
     {
-     "title": "פימי רוכשת את השליטה בחברת שירותי תקשורת תמורת 55 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557444",
-     "date": "2026-09-24T06:49:00+00:00"
-    },
-    {
      "title": "בית המשפט הפדרלי הורה לממשל טראמפ לבטל את החרם שהטיל על כמה כלי תקשורת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557443",
      "date": "2026-09-24T06:43:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T09:17:14+00:00",
-  "fetched_at": "2026-09-25T09:17:14+00:00"
+  "checked_at": "2026-09-25T10:17:25+00:00",
+  "fetched_at": "2026-09-25T10:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T09:17:15+00:00",
-  "fetched_at": "2026-09-25T09:17:15+00:00"
+  "checked_at": "2026-09-25T10:17:25+00:00",
+  "fetched_at": "2026-09-25T10:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2380,8 +2380,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T09:17:16+00:00",
-  "fetched_at": "2026-09-25T09:17:16+00:00"
+  "checked_at": "2026-09-25T10:17:26+00:00",
+  "fetched_at": "2026-09-25T10:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2471,8 +2471,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T09:17:16+00:00",
-  "fetched_at": "2026-09-25T09:17:16+00:00"
+  "checked_at": "2026-09-25T10:17:26+00:00",
+  "fetched_at": "2026-09-25T10:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2515,14 +2515,14 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 541,
+     "likes": 540,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 118,
+     "likes": 120,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2557,25 +2557,34 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 145,
+     "likes": 146,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 182,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T09:17:21+00:00",
-  "fetched_at": "2026-09-25T09:17:21+00:00"
+  "checked_at": "2026-09-25T10:17:32+00:00",
+  "fetched_at": "2026-09-25T10:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מאמנו של ענאן חלאילי זכה לגיבוי: \"עשה עבודה טובה מאוד\"",
+     "link": "https://sports.walla.co.il/item/3869778",
+     "date": "2026-09-25T09:47:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "דניאל פרץ: \"פנינו לשלום. הדיבורים של אירלנד נובעים מבורות\"",
      "link": "https://sports.walla.co.il/item/3869742",
@@ -2609,16 +2618,6 @@
      "date": "2026-09-24T08:50:00+00:00",
      "source": "וואלה",
      "players": [
-      "מוחמד אבו פאני"
-     ]
-    },
-    {
-     "title": "צרות בקישור: אבו פאני בספק גדול, גאנדלמן יחזור רק לקוסובו?",
-     "link": "https://sports.walla.co.il/item/3869582",
-     "date": "2026-09-23T18:25:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עומרי גאנדלמן",
       "מוחמד אבו פאני"
      ]
     },
@@ -2865,11 +2864,21 @@
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": []
+   "europe": [
+    {
+     "title": "גאווה גדולה: מכבי חיפה קטועי גפיים אלופת הקונפרנס",
+     "link": "https://sports.walla.co.il/item/3869781",
+     "date": "2026-09-25T10:08:00+00:00",
+     "source": "וואלה",
+     "clubs": [
+      "מכבי חיפה"
+     ]
+    }
+   ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T09:17:18+00:00",
-  "fetched_at": "2026-09-25T09:17:18+00:00"
+  "checked_at": "2026-09-25T10:17:29+00:00",
+  "fetched_at": "2026-09-25T10:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2900,7 +2909,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T09:17:19+00:00",
-  "fetched_at": "2026-09-25T09:17:19+00:00"
+  "checked_at": "2026-09-25T10:17:29+00:00",
+  "fetched_at": "2026-09-25T10:17:29+00:00"
  }
 }
