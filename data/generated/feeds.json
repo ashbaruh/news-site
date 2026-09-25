@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T04:17:14+00:00",
-  "fetched_at": "2026-09-25T04:17:14+00:00"
+  "checked_at": "2026-09-25T05:17:18+00:00",
+  "fetched_at": "2026-09-25T05:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T04:17:26+00:00",
-  "fetched_at": "2026-09-25T04:17:26+00:00"
+  "checked_at": "2026-09-25T05:17:32+00:00",
+  "fetched_at": "2026-09-25T05:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T04:17:27+00:00",
-  "fetched_at": "2026-09-25T04:17:27+00:00"
+  "checked_at": "2026-09-25T05:17:32+00:00",
+  "fetched_at": "2026-09-25T05:17:32+00:00"
  },
- "generated_at": "2026-09-25T04:17:27+00:00",
+ "generated_at": "2026-09-25T05:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -96,6 +96,11 @@
     }
    ],
    "market": [
+    {
+     "title": "מגמה מעורבת באסיה, הנפט בירידות קלות, וההימור המפתיע של ברקליס על המניות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
+     "date": "2026-09-25T04:53:00+00:00"
+    },
     {
      "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
@@ -215,17 +220,12 @@
      "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
      "date": "2026-09-23T16:36:00+00:00"
-    },
-    {
-     "title": "חמוש בסוללת בכירי ההייטק האמריקאי: טראמפ בדרך לפסגת ענק עם שי ג'ינפינג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557355",
-     "date": "2026-09-23T14:53:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T04:17:16+00:00",
-  "fetched_at": "2026-09-25T04:17:16+00:00"
+  "checked_at": "2026-09-25T05:17:20+00:00",
+  "fetched_at": "2026-09-25T05:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T04:17:17+00:00",
-  "fetched_at": "2026-09-25T04:17:17+00:00"
+  "checked_at": "2026-09-25T05:17:21+00:00",
+  "fetched_at": "2026-09-25T05:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2352,8 +2352,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T04:17:18+00:00",
-  "fetched_at": "2026-09-25T04:17:18+00:00"
+  "checked_at": "2026-09-25T05:17:22+00:00",
+  "fetched_at": "2026-09-25T05:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2443,8 +2443,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T04:17:18+00:00",
-  "fetched_at": "2026-09-25T04:17:18+00:00"
+  "checked_at": "2026-09-25T05:17:22+00:00",
+  "fetched_at": "2026-09-25T05:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2457,30 +2457,32 @@
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 13,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 208,
+     "likes": 209,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 192,
+     "likes": 193,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2491,18 +2493,18 @@
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 133,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 113,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+    },
+    {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 133,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2522,7 +2524,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 143,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2542,8 +2544,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T04:17:26+00:00",
-  "fetched_at": "2026-09-25T04:17:26+00:00"
+  "checked_at": "2026-09-25T05:17:31+00:00",
+  "fetched_at": "2026-09-25T05:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2849,8 +2851,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T04:17:21+00:00",
-  "fetched_at": "2026-09-25T04:17:21+00:00"
+  "checked_at": "2026-09-25T05:17:26+00:00",
+  "fetched_at": "2026-09-25T05:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2881,7 +2883,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T04:17:22+00:00",
-  "fetched_at": "2026-09-25T04:17:22+00:00"
+  "checked_at": "2026-09-25T05:17:26+00:00",
+  "fetched_at": "2026-09-25T05:17:26+00:00"
  }
 }
