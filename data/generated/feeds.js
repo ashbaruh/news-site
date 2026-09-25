@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T08:17:24+00:00",
-  "fetched_at": "2026-09-25T08:17:24+00:00"
+  "checked_at": "2026-09-25T09:17:13+00:00",
+  "fetched_at": "2026-09-25T09:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T08:17:33+00:00",
-  "fetched_at": "2026-09-25T08:17:33+00:00"
+  "checked_at": "2026-09-25T09:17:21+00:00",
+  "fetched_at": "2026-09-25T09:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T08:17:35+00:00",
-  "fetched_at": "2026-09-25T08:17:35+00:00"
+  "checked_at": "2026-09-25T09:17:21+00:00",
+  "fetched_at": "2026-09-25T09:17:21+00:00"
  },
- "generated_at": "2026-09-25T08:17:35+00:00",
+ "generated_at": "2026-09-25T09:17:21+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T07:43:00+00:00"
+     "date": "2026-09-25T08:46:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T08:17:25+00:00",
-  "fetched_at": "2026-09-25T08:17:25+00:00"
+  "checked_at": "2026-09-25T09:17:14+00:00",
+  "fetched_at": "2026-09-25T09:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T08:17:26+00:00",
-  "fetched_at": "2026-09-25T08:17:26+00:00"
+  "checked_at": "2026-09-25T09:17:15+00:00",
+  "fetched_at": "2026-09-25T09:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T08:17:27+00:00",
-  "fetched_at": "2026-09-25T08:17:27+00:00"
+  "checked_at": "2026-09-25T09:17:16+00:00",
+  "fetched_at": "2026-09-25T09:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T08:17:27+00:00",
-  "fetched_at": "2026-09-25T08:17:27+00:00"
+  "checked_at": "2026-09-25T09:17:16+00:00",
+  "fetched_at": "2026-09-25T09:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2496,7 +2496,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
+   "candidates": 15,
    "failed_sources": [],
    "tools": [
     {
@@ -2510,7 +2510,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 193,
+     "likes": 195,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2524,22 +2524,22 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 116,
+     "likes": 118,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 145,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 146,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2549,13 +2549,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 145,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
@@ -2563,17 +2556,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 145,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 181,
+     "likes": 182,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T08:17:33+00:00",
-  "fetched_at": "2026-09-25T08:17:33+00:00"
+  "checked_at": "2026-09-25T09:17:21+00:00",
+  "fetched_at": "2026-09-25T09:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2870,8 +2870,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T08:17:29+00:00",
-  "fetched_at": "2026-09-25T08:17:29+00:00"
+  "checked_at": "2026-09-25T09:17:18+00:00",
+  "fetched_at": "2026-09-25T09:17:18+00:00"
  },
  "idf": {
   "data": [
@@ -2902,7 +2902,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T08:17:30+00:00",
-  "fetched_at": "2026-09-25T08:17:30+00:00"
+  "checked_at": "2026-09-25T09:17:19+00:00",
+  "fetched_at": "2026-09-25T09:17:19+00:00"
  }
 };
