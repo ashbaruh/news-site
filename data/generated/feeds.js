@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T22:17:18+00:00",
-  "fetched_at": "2026-09-25T22:17:18+00:00"
+  "checked_at": "2026-09-25T23:17:21+00:00",
+  "fetched_at": "2026-09-25T23:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T22:17:30+00:00",
-  "fetched_at": "2026-09-25T22:17:30+00:00"
+  "checked_at": "2026-09-25T23:17:30+00:00",
+  "fetched_at": "2026-09-25T23:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T22:17:32+00:00",
-  "fetched_at": "2026-09-25T22:17:32+00:00"
+  "checked_at": "2026-09-25T23:17:31+00:00",
+  "fetched_at": "2026-09-25T23:17:31+00:00"
  },
- "generated_at": "2026-09-25T22:17:32+00:00",
+ "generated_at": "2026-09-25T23:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T22:17:20+00:00",
-  "fetched_at": "2026-09-25T22:17:20+00:00"
+  "checked_at": "2026-09-25T23:17:22+00:00",
+  "fetched_at": "2026-09-25T23:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T22:17:21+00:00",
-  "fetched_at": "2026-09-25T22:17:21+00:00"
+  "checked_at": "2026-09-25T23:17:23+00:00",
+  "fetched_at": "2026-09-25T23:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2543,8 +2543,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T22:17:22+00:00",
-  "fetched_at": "2026-09-25T22:17:22+00:00"
+  "checked_at": "2026-09-25T23:17:24+00:00",
+  "fetched_at": "2026-09-25T23:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2634,8 +2634,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T22:17:22+00:00",
-  "fetched_at": "2026-09-25T22:17:22+00:00"
+  "checked_at": "2026-09-25T23:17:24+00:00",
+  "fetched_at": "2026-09-25T23:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2664,21 +2664,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 232,
+     "likes": 233,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 548,
+     "likes": 549,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2689,18 +2689,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 157,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 123,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 156,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
@@ -2717,24 +2717,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 150,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 59,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 148,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T22:17:30+00:00",
-  "fetched_at": "2026-09-25T22:17:30+00:00"
+  "checked_at": "2026-09-25T23:17:30+00:00",
+  "fetched_at": "2026-09-25T23:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3022,8 +3022,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T22:17:26+00:00",
-  "fetched_at": "2026-09-25T22:17:26+00:00"
+  "checked_at": "2026-09-25T23:17:27+00:00",
+  "fetched_at": "2026-09-25T23:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3054,7 +3054,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T22:17:26+00:00",
-  "fetched_at": "2026-09-25T22:17:26+00:00"
+  "checked_at": "2026-09-25T23:17:27+00:00",
+  "fetched_at": "2026-09-25T23:17:27+00:00"
  }
 };
