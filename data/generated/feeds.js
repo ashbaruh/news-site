@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:17:12+00:00",
-  "fetched_at": "2026-09-25T13:17:12+00:00"
+  "checked_at": "2026-09-25T13:51:44+00:00",
+  "fetched_at": "2026-09-25T13:51:44+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": false,
-  "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-25T13:17:45+00:00",
+  "error": "HTTP Error 404: Not Found",
+  "checked_at": "2026-09-25T13:51:55+00:00",
   "fetched_at": "2026-09-25T10:17:32+00:00"
  },
  "av_en": {
@@ -80,15 +80,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:17:47+00:00",
-  "fetched_at": "2026-09-25T13:17:47+00:00"
+  "checked_at": "2026-09-25T13:51:57+00:00",
+  "fetched_at": "2026-09-25T13:51:57+00:00"
  },
- "generated_at": "2026-09-25T13:17:47+00:00",
+ "generated_at": "2026-09-25T13:51:57+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "זינוק של כמעט פי 2 תוך 7 שנים: כך הפכה תאילנד ליעד החדש של משפחות ישראליות",
+     "title": "משפחות ישראליות נוהרות לתאילנד: \"אנשים שוברים קרן השתלמות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557497",
      "date": "2026-09-25T12:57:00+00:00"
     },
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:17:14+00:00",
-  "fetched_at": "2026-09-25T13:17:14+00:00"
+  "checked_at": "2026-09-25T13:51:45+00:00",
+  "fetched_at": "2026-09-25T13:51:45+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:17:15+00:00",
-  "fetched_at": "2026-09-25T13:17:15+00:00"
+  "checked_at": "2026-09-25T13:51:46+00:00",
+  "fetched_at": "2026-09-25T13:51:46+00:00"
  },
  "tv": {
   "data": [
@@ -2383,8 +2383,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:17:17+00:00",
-  "fetched_at": "2026-09-25T13:17:17+00:00"
+  "checked_at": "2026-09-25T13:51:47+00:00",
+  "fetched_at": "2026-09-25T13:51:47+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2474,8 +2474,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:17:17+00:00",
-  "fetched_at": "2026-09-25T13:17:17+00:00"
+  "checked_at": "2026-09-25T13:51:47+00:00",
+  "fetched_at": "2026-09-25T13:51:47+00:00"
  },
  "ai": {
   "data": {
@@ -2504,14 +2504,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 214,
+     "likes": 216,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 200,
+     "likes": 202,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2539,14 +2539,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 148,
+     "likes": 149,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2573,12 +2573,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:17:25+00:00",
-  "fetched_at": "2026-09-25T13:17:25+00:00"
+  "checked_at": "2026-09-25T13:51:55+00:00",
+  "fetched_at": "2026-09-25T13:51:55+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "האם מנור סולומון ייענש בגלל דבריו על השיפוט?",
+     "link": "https://www.one.co.il/Article/534303.html?ref=rss",
+     "date": "2026-09-25T13:24:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "מנור סולומון עלול להסתבך בעקבות דבריו על השיפוט",
+     "link": "https://sports.walla.co.il/item/3869797",
+     "date": "2026-09-25T13:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "מאמנו של ענאן חלאילי זכה לגיבוי: \"עשה עבודה טובה מאוד\"",
      "link": "https://sports.walla.co.il/item/3869778",
@@ -2595,15 +2613,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "רביבו בישל פעמיים, ראפיניה שוב כיכב: טאפאסים",
-     "link": "https://www.one.co.il/Article/534218.html?ref=rss",
-     "date": "2026-09-24T15:18:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2889,8 +2898,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:17:20+00:00",
-  "fetched_at": "2026-09-25T13:17:20+00:00"
+  "checked_at": "2026-09-25T13:51:51+00:00",
+  "fetched_at": "2026-09-25T13:51:51+00:00"
  },
  "idf": {
   "data": [
@@ -2921,7 +2930,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:17:21+00:00",
-  "fetched_at": "2026-09-25T13:17:21+00:00"
+  "checked_at": "2026-09-25T13:51:51+00:00",
+  "fetched_at": "2026-09-25T13:51:51+00:00"
  }
 };
