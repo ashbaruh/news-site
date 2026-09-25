@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:17:27+00:00",
-  "fetched_at": "2026-09-25T07:17:27+00:00"
+  "checked_at": "2026-09-25T07:53:07+00:00",
+  "fetched_at": "2026-09-25T07:53:07+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:17:36+00:00",
-  "fetched_at": "2026-09-25T07:17:36+00:00"
+  "checked_at": "2026-09-25T07:53:17+00:00",
+  "fetched_at": "2026-09-25T07:53:17+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,29 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:17:37+00:00",
-  "fetched_at": "2026-09-25T07:17:37+00:00"
+  "checked_at": "2026-09-25T07:53:17+00:00",
+  "fetched_at": "2026-09-25T07:53:17+00:00"
  },
- "generated_at": "2026-09-25T07:17:37+00:00",
+ "generated_at": "2026-09-25T07:53:17+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חמש פקולטות חדשות לרפואה נפתחו בישראל. האם הן ימנעו את קריסת המערכת?",
+     "title": "רוצים ללמוד רפואה? הסיכוי שלכם עלה. כמה זה יעלה ואיפה כדאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557569",
      "date": "2026-09-25T06:59:00+00:00"
     },
     {
-     "title": "אסון בצפון הרצועה: 2 לוחמים נהרגו מפיצוץ רחפן צה\"ל",
+     "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T05:55:00+00:00"
+     "date": "2026-09-25T07:43:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת באסיה, הנפט בירידות קלות, וההימור המפתיע של ברקליס על המניות",
+     "title": "עליות שערים באירופה, הנפט בירידות קלות, וההימור המפתיע של ברקליס על המניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
-     "date": "2026-09-25T04:53:00+00:00"
+     "date": "2026-09-25T07:40:00+00:00"
     },
     {
      "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:17:29+00:00",
-  "fetched_at": "2026-09-25T07:17:29+00:00"
+  "checked_at": "2026-09-25T07:53:08+00:00",
+  "fetched_at": "2026-09-25T07:53:08+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:17:29+00:00",
-  "fetched_at": "2026-09-25T07:17:29+00:00"
+  "checked_at": "2026-09-25T07:53:09+00:00",
+  "fetched_at": "2026-09-25T07:53:09+00:00"
  },
  "tv": {
   "data": [
@@ -2380,8 +2380,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:17:31+00:00",
-  "fetched_at": "2026-09-25T07:17:31+00:00"
+  "checked_at": "2026-09-25T07:53:10+00:00",
+  "fetched_at": "2026-09-25T07:53:10+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2471,36 +2471,31 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:17:31+00:00",
-  "fetched_at": "2026-09-25T07:17:31+00:00"
+  "checked_at": "2026-09-25T07:53:10+00:00",
+  "fetched_at": "2026-09-25T07:53:10+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
+     "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
-     "translated_by": "google"
+     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/airbnb-gpt-6-astra",
-     "date": "2026-09-23T01:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-     "title_he": "Airbnb מרחיבה את הגישה לדגמי GPT-6 Astra ו-OpenAI",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
-   "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2562,7 +2557,7 @@
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 291,
+     "likes": 292,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -2575,8 +2570,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:17:36+00:00",
-  "fetched_at": "2026-09-25T07:17:36+00:00"
+  "checked_at": "2026-09-25T07:53:16+00:00",
+  "fetched_at": "2026-09-25T07:53:16+00:00"
  },
  "abroad": {
   "data": {
@@ -2634,15 +2629,6 @@
      "source": "וואלה",
      "players": [
       "מונס דאבור"
-     ]
-    },
-    {
-     "title": "מנור סולומון הותקל באמירת נשיא אוסטריה, כך הוא השיב",
-     "link": "https://sports.walla.co.il/item/3869560",
-     "date": "2026-09-23T16:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2882,8 +2868,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:17:34+00:00",
-  "fetched_at": "2026-09-25T07:17:34+00:00"
+  "checked_at": "2026-09-25T07:53:13+00:00",
+  "fetched_at": "2026-09-25T07:53:13+00:00"
  },
  "idf": {
   "data": [
@@ -2914,7 +2900,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:17:35+00:00",
-  "fetched_at": "2026-09-25T07:17:35+00:00"
+  "checked_at": "2026-09-25T07:53:13+00:00",
+  "fetched_at": "2026-09-25T07:53:13+00:00"
  }
 }
