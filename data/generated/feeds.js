@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:17:11+00:00",
-  "fetched_at": "2026-09-25T21:17:11+00:00"
+  "checked_at": "2026-09-25T21:51:08+00:00",
+  "fetched_at": "2026-09-25T21:51:08+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:17:21+00:00",
-  "fetched_at": "2026-09-25T21:17:21+00:00"
+  "checked_at": "2026-09-25T21:51:17+00:00",
+  "fetched_at": "2026-09-25T21:51:17+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:17:22+00:00",
-  "fetched_at": "2026-09-25T21:17:22+00:00"
+  "checked_at": "2026-09-25T21:51:18+00:00",
+  "fetched_at": "2026-09-25T21:51:18+00:00"
  },
- "generated_at": "2026-09-25T21:17:22+00:00",
+ "generated_at": "2026-09-25T21:51:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:17:12+00:00",
-  "fetched_at": "2026-09-25T21:17:12+00:00"
+  "checked_at": "2026-09-25T21:51:09+00:00",
+  "fetched_at": "2026-09-25T21:51:09+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:17:13+00:00",
-  "fetched_at": "2026-09-25T21:17:13+00:00"
+  "checked_at": "2026-09-25T21:51:10+00:00",
+  "fetched_at": "2026-09-25T21:51:10+00:00"
  },
  "tv": {
   "data": [
@@ -2543,8 +2543,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:17:14+00:00",
-  "fetched_at": "2026-09-25T21:17:14+00:00"
+  "checked_at": "2026-09-25T21:51:11+00:00",
+  "fetched_at": "2026-09-25T21:51:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2634,8 +2634,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:17:14+00:00",
-  "fetched_at": "2026-09-25T21:17:14+00:00"
+  "checked_at": "2026-09-25T21:51:11+00:00",
+  "fetched_at": "2026-09-25T21:51:11+00:00"
  },
  "ai": {
   "data": {
@@ -2666,7 +2666,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 230,
+     "likes": 231,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2687,7 +2687,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2701,7 +2701,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 155,
+     "likes": 156,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2735,8 +2735,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:17:21+00:00",
-  "fetched_at": "2026-09-25T21:17:21+00:00"
+  "checked_at": "2026-09-25T21:51:16+00:00",
+  "fetched_at": "2026-09-25T21:51:16+00:00"
  },
  "abroad": {
   "data": {
@@ -3024,8 +3024,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:17:17+00:00",
-  "fetched_at": "2026-09-25T21:17:17+00:00"
+  "checked_at": "2026-09-25T21:51:13+00:00",
+  "fetched_at": "2026-09-25T21:51:13+00:00"
  },
  "idf": {
   "data": [
@@ -3056,7 +3056,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:17:18+00:00",
-  "fetched_at": "2026-09-25T21:17:18+00:00"
+  "checked_at": "2026-09-25T21:51:14+00:00",
+  "fetched_at": "2026-09-25T21:51:14+00:00"
  }
 };
