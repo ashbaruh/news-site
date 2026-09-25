@@ -1,0 +1,421 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e3aa28ae4192",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 4,
+   "verified": 3,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-25T02:40:29+00:00",
+  "window": {
+   "from": "2026-09-24T02:40:29+00:00",
+   "to": "2026-09-25T02:40:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609250240"
+  },
+  "summary": "החות'ים בתימן מנהלים מתקפה קרקעית נרחבות במערב המדינה, כולל כיבוש נמל מוח'ה והתקדמות לעבר מצרי באב אל-מנדב, תוך פגיעה בנתיבי השיט והמרת יעד הייצוא של סעודיה לנמל ינבוע שמותקף אף הוא. במקביל, הקואליציה בהובלת סעודיה ומדינות אזוריות ובינלאומיות נערכות לבלום את האיומים, כאשר צרפת מתגייסת להגן על תשתיות האנרגיה הסעודיות וקואליציה של 80 מדינות מביעה גינוי חריף נגד הפגיעה בביטחון האנרגיה והסחר.",
+  "fronts": [
+   {
+    "name": "החזית המערבית בתימן (מוח'ה ובאב אל-מנדב)",
+    "status": "פעילה ומתקדמת (התקדמות חות'ית)"
+   },
+   {
+    "name": "חזית הים האדום ונמל ינבוע",
+    "status": "פעילה (תקיפות טילים ומל\"טים חות'יים נגד סעודיה)"
+   },
+   {
+    "name": "החזית הפנים-תימנית (תעז ואל-ג'וף)",
+    "status": "פעילה עם עימותים קרקעיים ונפגעים אזרחיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09250240-01",
+    "title": "הצהרת נשיא איראן על פעולות החות'ים",
+    "summary": "נשיא איראן מסר כי החות'ים אחראים למעשיהם ואינם מקבלים ממנה הוראות.",
+    "axis": "ציר איראן-חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T01:36:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T01:36:47+00:00",
+    "last_update_at": "2026-09-25T01:36:47+00:00",
+    "what_is_not_verified": "האם יש תיאום נסתר בפועל למרות ההצהרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-responsible-their-own-actions-irans-pezeshkian-says",
+      "published_at": "2026-09-25T01:36:47+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09250240-02",
+    "title": "קריאת המופתי הסעודי למלחמה בחות'ים",
+    "summary": "המופתי הגדול של סעודיה קרא לחיילים להילחם בחות'ים עד להדחתם מהשלטון.",
+    "axis": "ציר סעודיה-הקואליציה מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:46:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T00:46:30+00:00",
+    "last_update_at": "2026-09-25T00:46:30+00:00",
+    "what_is_not_verified": "היערכות מבצעית מדויקת בשטח בעקבות הקריאה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_4ee4cb1278fed1ad",
+      "url": "https://www.al-monitor.com/originals/2026/09/saudi-grand-mufti-tells-troops-be-ready-sacrifice-their-lives-fighting-houthis",
+      "published_at": "2026-09-25T00:46:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09250240-03",
+    "title": "פגישת ראשי צבא של סעודיה, טורקיה ופקיסטן",
+    "summary": "משרד החוץ הסעודי הודיע על קיום פגישת חירום של הרמטכ\"לים מסעודיה, טורקיה ופקיסטן.",
+    "axis": "ציר סעודיה והקואליציה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:23:51+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T00:23:51+00:00",
+    "last_update_at": "2026-09-25T00:23:51+00:00",
+    "what_is_not_verified": "תוצאות מעשיות של הפגישה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_dfb58ce821ebd244",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-turkey-and-pakistan-set-hold-urgent-chiefs-staff-meeting",
+      "published_at": "2026-09-25T00:23:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09250240-04",
+    "title": "יירוט טילים בליסטיים ויציאת כוחות צרפת להגנת ינבוע",
+    "summary": "סעודיה יירטה טילים בליסטיים של החות'ים וצרפת הודיעה על משלוח חיילים ומערכות הגנה לנמל ינבוע.",
+    "axis": "ציר סעודיה-צרפת מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T19:11:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T19:11:13+00:00",
+    "last_update_at": "2026-09-24T23:34:29+00:00",
+    "what_is_not_verified": "מספר מדויק של הנפגעים והנזקים מהתקיפות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_cf9c4e065429541d",
+      "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+      "published_at": "2026-09-24T23:34:29+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_cf9c4e065429541d",
+      "url": "https://www.newarab.com/news/france-send-military-protect-saudi-arabia-macron-says",
+      "published_at": "2026-09-24T23:33:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9c4643110fa2a642",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-send-military-means-protect-saudi-oil-port-macron-says",
+      "published_at": "2026-09-24T19:11:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     },
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09250240-05",
+    "title": "אזהרת 80 מדינות מפני שליטת החות'ים בבאב אל-מנדב",
+    "summary": "כ-80 מדינות הזהירו מפני ההשלכות של שליטת החות'ים בבאב אל-מנדב על הסחר הבינלאומי.",
+    "axis": "הזירה הבינלאומית מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T17:46:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T17:46:34+00:00",
+    "last_update_at": "2026-09-24T21:57:06+00:00",
+    "what_is_not_verified": "צעדי האכיפה המעשיים שינקטו המדינות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_191b8a2951564b90",
+      "url": "https://www.sabanew.net/viewstory/152951",
+      "published_at": "2026-09-24T21:57:06+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_4c07be856ff8d0d8",
+      "url": "https://www.al-monitor.com/originals/2026/09/un-80-countries-demand-reopening-hormuz-condemn-iran-houthi-attacks",
+      "published_at": "2026-09-24T17:46:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09250240-06",
+    "title": "תקיפה ושחיקת אזרחים בנפת תעז",
+    "summary": "פגז חות'י פגע בשכונת מגורים בתעז וגרם להרג ילד ולפציעת אזרחים, ובמקביל נרשמו עימותים שבהם נפגעו חות'ים.",
+    "axis": "הזירה הפנים-תימנית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T19:54:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T19:54:13+00:00",
+    "last_update_at": "2026-09-24T19:56:24+00:00",
+    "what_is_not_verified": "זהות מדויקת של כלל הנפגעים בכל מוקדי העימות בתעז.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b76503ea1d122f12",
+      "url": "https://www.sabanew.net/viewstory/152938",
+      "published_at": "2026-09-24T19:56:24+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_fa8cf8aca8226be2",
+      "url": "https://www.sabanew.net/viewstory/152937",
+      "published_at": "2026-09-24T19:54:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09250240-07",
+    "title": "זינוק בעלויות הביטוח הימי בים האדום",
+    "summary": "עלויות ביטוח המכליות בנמל ינבוע זינקו משמעותית עקב תקיפות החות'ים בבאב אל-מנדב.",
+    "axis": "הזירה הימית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T17:33:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T17:33:54+00:00",
+    "last_update_at": "2026-09-24T17:33:54+00:00",
+    "what_is_not_verified": "היקף הפגיעה המדויק בהכנסות ארוכות הטווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-oil-exports-hit-new-hurdle-insurance-costs-soar",
+      "published_at": "2026-09-24T17:33:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     },
+     {
+      "name": "ג'יזאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09250240-08",
+    "title": "התקדמות קרקעית של החות'ים ומשבר הומניטרי",
+    "summary": "החות'ים כבשו את מוח'ה והתקדמו דרומה לעבר באב אל-מנדב, מה שהוביל למאות הרוגים ופצועים ועקירת עשרות אלפים.",
+    "axis": "הזירה הפנים-תימנית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T11:49:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T11:49:19+00:00",
+    "last_update_at": "2026-09-24T15:10:57+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק באחריות כל צד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/civilians-are-bearing-brunt-yemen-fighting-un-rights-chief",
+      "published_at": "2026-09-24T15:10:57+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/why-yemens-houthis-are-so-difficult-fight",
+      "published_at": "2026-09-24T11:49:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוח'ה, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     },
+     {
+      "name": "ד'ובאב, תימן",
+      "lat": 13.0597,
+      "lon": 43.5117
+     },
+     {
+      "name": "אל-חאזם, תימן",
+      "lat": 16.0878,
+      "lon": 44.9585
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09250240-09",
+    "title": "איום איראני על פתיחת חזית בים האדום ובבאב אל-מנדב",
+    "summary": "יועצו הצבאי של הרמטכ\"ל האיראני איים כי אם ארה\"ב תפתח במלחמה חדשה, תפתח חזית חדשה בים האדום ובבאב אל-מנדב.",
+    "axis": "ציר איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T11:27:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T11:27:46+00:00",
+    "last_update_at": "2026-09-24T11:27:46+00:00",
+    "what_is_not_verified": "כוונות ביצוע בפועל של האיום.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130727",
+      "published_at": "2026-09-24T11:27:46+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "נתונים מדויקים על מספר ההרוגים והפצועים הכולל בעימותים בתימן מטעם שני הצדדים",
+   "האם צרפת תפרסס את מלוא כוחותיה והמערכות הצבאיות המובטחות מיד",
+   "היקף השליטה המדויק של החות'ים באיים סביב באב אל-מנדב"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0482,
+    "unit": "ILS",
+    "change_pct": 1.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בסחר הבינלאומי ובלחץ על נתיבי האנרגיה"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית לאורך חוף הים האדום",
+     "חיזוק המינוף האזורי לצד איראן"
+    ],
+    "forecast": [
+     "המשך התקיפות לעבר תשתיות אנרגיה סעודיות",
+     "ניסיונות ביסוס שליטה במצרי באב אל-מנדב"
+    ]
+   },
+   {
+    "actor": "סעודיה והממשלה המוכרת בתימן",
+    "declared": [
+     "בלימת האיום החות'י והשבת הלגיטימציה של המדינה"
+    ],
+    "inferred": [
+     "גיוס תמיכה בינלאומית והגנה על תשתיות נפט קריטיות",
+     "הקמת בריתות אזוריות ובינלאומיות לעצירת המתקפה"
+    ],
+    "forecast": [
+     "הגברת הפעילות הצבאית בשיתוף גורמים זרים כמו צרפת",
+     "כינוס בריתות דחוקות להגנת נתיבי הסחר"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הכחשת מעורבות ישירה בתוכניות הקרב של החות'ים"
+    ],
+    "inferred": [
+     "מתן גיבוי מדיני ולוגיסטי לפעילות החות'ים כמנוף לחץ",
+     "יצירת איומים מקבילים מול ארה\"ב ובנות בריתה"
+    ],
+    "forecast": [
+     "המשך שמירת עמימות מבצעית סביב הקשר עם החות'ים",
+     "איומים חוזרים ונשנים על סגירת מצרים ונתיבי מים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/un-80-countries-demand-reopening-hormuz-condemn-iran-houthi-attacks",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-send-military-means-protect-saudi-oil-port-macron-says",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/why-yemens-houthis-are-so-difficult-fight",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152937",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130727",
+    "accessed_at": "2026-09-25T02:40:29+00:00"
+   }
+  ]
+ }
+}
