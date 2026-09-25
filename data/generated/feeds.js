@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:51:44+00:00",
-  "fetched_at": "2026-09-25T13:51:44+00:00"
+  "checked_at": "2026-09-25T14:17:27+00:00",
+  "fetched_at": "2026-09-25T14:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 404: Not Found",
-  "checked_at": "2026-09-25T13:51:55+00:00",
-  "fetched_at": "2026-09-25T10:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-25T14:17:37+00:00",
+  "fetched_at": "2026-09-25T14:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:51:57+00:00",
-  "fetched_at": "2026-09-25T13:51:57+00:00"
+  "checked_at": "2026-09-25T14:17:39+00:00",
+  "fetched_at": "2026-09-25T14:17:39+00:00"
  },
- "generated_at": "2026-09-25T13:51:57+00:00",
+ "generated_at": "2026-09-25T14:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:51:45+00:00",
-  "fetched_at": "2026-09-25T13:51:45+00:00"
+  "checked_at": "2026-09-25T14:17:28+00:00",
+  "fetched_at": "2026-09-25T14:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:51:46+00:00",
-  "fetched_at": "2026-09-25T13:51:46+00:00"
+  "checked_at": "2026-09-25T14:17:29+00:00",
+  "fetched_at": "2026-09-25T14:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2383,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:51:47+00:00",
-  "fetched_at": "2026-09-25T13:51:47+00:00"
+  "checked_at": "2026-09-25T14:17:29+00:00",
+  "fetched_at": "2026-09-25T14:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2474,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:51:47+00:00",
-  "fetched_at": "2026-09-25T13:51:47+00:00"
+  "checked_at": "2026-09-25T14:17:29+00:00",
+  "fetched_at": "2026-09-25T14:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2488,17 +2487,19 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [],
+   "candidates": 11,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2532,14 +2533,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 120,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2573,8 +2574,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:51:55+00:00",
-  "fetched_at": "2026-09-25T13:51:55+00:00"
+  "checked_at": "2026-09-25T14:17:36+00:00",
+  "fetched_at": "2026-09-25T14:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2631,15 +2632,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מוחמד אבו פאני"
-     ]
-    },
-    {
-     "title": "סובוסלאי לא שכח את דאבור: \"הוא היה שם בשבילי בכל יום\"",
-     "link": "https://sports.walla.co.il/item/3869580",
-     "date": "2026-09-23T17:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מונס דאבור"
      ]
     },
     {
@@ -2898,8 +2890,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T13:51:51+00:00",
-  "fetched_at": "2026-09-25T13:51:51+00:00"
+  "checked_at": "2026-09-25T14:17:32+00:00",
+  "fetched_at": "2026-09-25T14:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2930,7 +2922,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T13:51:51+00:00",
-  "fetched_at": "2026-09-25T13:51:51+00:00"
+  "checked_at": "2026-09-25T14:17:32+00:00",
+  "fetched_at": "2026-09-25T14:17:32+00:00"
  }
 };
