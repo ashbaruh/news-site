@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T20:17:28+00:00",
-  "fetched_at": "2026-09-25T20:17:28+00:00"
+  "checked_at": "2026-09-25T21:17:11+00:00",
+  "fetched_at": "2026-09-25T21:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T20:17:41+00:00",
-  "fetched_at": "2026-09-25T20:17:41+00:00"
+  "checked_at": "2026-09-25T21:17:21+00:00",
+  "fetched_at": "2026-09-25T21:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T20:17:43+00:00",
-  "fetched_at": "2026-09-25T20:17:43+00:00"
+  "checked_at": "2026-09-25T21:17:22+00:00",
+  "fetched_at": "2026-09-25T21:17:22+00:00"
  },
- "generated_at": "2026-09-25T20:17:43+00:00",
+ "generated_at": "2026-09-25T21:17:22+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T20:17:29+00:00",
-  "fetched_at": "2026-09-25T20:17:29+00:00"
+  "checked_at": "2026-09-25T21:17:12+00:00",
+  "fetched_at": "2026-09-25T21:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,137 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T20:17:29+00:00",
-  "fetched_at": "2026-09-25T20:17:29+00:00"
+  "checked_at": "2026-09-25T21:17:13+00:00",
+  "fetched_at": "2026-09-25T21:17:13+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-25",
-    "time": "12:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "בריסביין בולטס - אילוורה הוקס"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "14:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל ירושלים - בני הרצליה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "16:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "טנזניה - גינאה ביסאו"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "17:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "הודו - פנמה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "18:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "ניז'ר - לסוטו"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "גיאורגיה - צפון אירלנד"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "ארמניה - לטביה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "גמביה - סומליה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "ניגריה - מדגסקאר"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "20:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - ולנסיה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "20:45",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "פנרבחצ'ה - וירטוס בולוניה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:30",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "ג'ירונה - אלבסטה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "טורקיה - צרפת"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "איטליה - בלגיה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "הונגריה - אוקראינה"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "21:45",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "פרטיזן בלגרד - אולימפיה מילאנו"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "22:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "מרוקו - גבון"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מצרים - אנגולה"
-   },
    {
     "date": "2026-09-26",
     "time": "15:30",
@@ -2235,6 +2109,34 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-28",
+    "time": "02:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קולומבוס קרו - אינטר מיאמי"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "גיאורגיה - אוקראינה"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "לטביה - קפריסין"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "19:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ארמניה - מונטנגרו"
+   },
+   {
+    "date": "2026-09-28",
     "time": "19:00",
     "channel": "5 סטארס",
     "sport": "כדורגל",
@@ -2284,6 +2186,34 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-28",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "בלגיה - צרפת"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "טורקיה - איטליה"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "צפון אירלנד - הונגריה"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "רומניה - בוסניה-הרצגובינה"
+   },
+   {
+    "date": "2026-09-28",
     "time": "22:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
@@ -2299,6 +2229,20 @@ window.DB.generated = {
    {
     "date": "2026-09-29",
     "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "פינלנד - בלארוס"
+   },
+   {
+    "date": "2026-09-29",
+    "time": "19:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מולדובה - איי פארו"
+   },
+   {
+    "date": "2026-09-29",
+    "time": "19:00",
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גאנה - גמביה"
@@ -2309,6 +2253,13 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "בי.סי דובאי - ברצלונה"
+   },
+   {
+    "date": "2026-09-29",
+    "time": "20:00",
+    "channel": "ספורט 3",
+    "sport": "כדורסל",
+    "title": "הפועל ירושלים - רוסטוק סיוולבס"
    },
    {
     "date": "2026-09-29",
@@ -2361,10 +2312,38 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-29",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "ספרד - קרואטיה"
+   },
+   {
+    "date": "2026-09-29",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "צ'כיה - אנגליה"
+   },
+   {
+    "date": "2026-09-29",
     "time": "22:00",
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גבון - ניז'ר"
+   },
+   {
+    "date": "2026-09-30",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "אריתראה - דרום אפריקה"
+   },
+   {
+    "date": "2026-09-30",
+    "time": "19:30",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "פאוק סלוניקי - מנרסה"
    },
    {
     "date": "2026-09-30",
@@ -2374,16 +2353,198 @@ window.DB.generated = {
     "title": "מכבי תל אביב - בשיקטאש"
    },
    {
+    "date": "2026-09-30",
+    "time": "21:15",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "פנאתינאיקוס - ליון-וילרבאן"
+   },
+   {
+    "date": "2026-09-30",
+    "time": "22:00",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "איברוסטאר טנריפה - טורק טלקום אנקרה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "04:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "דאלאס ווינגס - גולדן סטייט ולקיריס"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - ריאל מדריד"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "אזרבייג'אן - ליכטנשטיין"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל עפולה - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי בני ריינה - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "מ.ס אשדוד - מכבי הרצליה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - מ.ס. כפר קאסם"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי יפו - הפועל עכו"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי אחי נצרת - עירוני מודיעין"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מכבי קריית גת"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית ים - הפועל כפר סבא"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "20:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - ברצלונה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "הכוכב האדום בלגרד - אנאדולו אפס"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "וירטוס בולוניה - אולימפיאקוס"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:45",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "פאריס באסקטבול - ז'לגיריס קובנה"
+   },
+   {
     "date": "2026-10-01",
     "time": "21:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "ישראל - קוסובו"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "גרמניה - סרביה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "יוון - הולנד"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "ווילס - נורבגיה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "דנמרק - פורטוגל"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "20:45",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "פנרבחצ'ה - בי.סי דובאי"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "באיירן מינכן - פרטיזן בלגרד"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "ליון-וילרבאן - ולנסיה"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:15",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "פנאתינאיקוס - מכבי תל אביב"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:30",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "באסקוניה - אולימפיה מילאנו"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T20:17:30+00:00",
-  "fetched_at": "2026-09-25T20:17:30+00:00"
+  "checked_at": "2026-09-25T21:17:14+00:00",
+  "fetched_at": "2026-09-25T21:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2634,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T20:17:30+00:00",
-  "fetched_at": "2026-09-25T20:17:30+00:00"
+  "checked_at": "2026-09-25T21:17:14+00:00",
+  "fetched_at": "2026-09-25T21:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2496,7 +2657,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 8,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2505,7 +2666,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 228,
+     "likes": 230,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2526,42 +2687,42 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 122,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 154,
+     "likes": 155,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 297,
+     "likes": 299,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 147,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2574,8 +2735,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T20:17:36+00:00",
-  "fetched_at": "2026-09-25T20:17:36+00:00"
+  "checked_at": "2026-09-25T21:17:21+00:00",
+  "fetched_at": "2026-09-25T21:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2623,15 +2784,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "המיוחד: כך הפך דיא סבע לאחד הכוכבים הגדולים בטורקיה",
-     "link": "https://sports.walla.co.il/item/3869600",
-     "date": "2026-09-24T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דיא סבע"
      ]
     },
     {
@@ -2872,8 +3024,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T20:17:33+00:00",
-  "fetched_at": "2026-09-25T20:17:33+00:00"
+  "checked_at": "2026-09-25T21:17:17+00:00",
+  "fetched_at": "2026-09-25T21:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -2904,7 +3056,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T20:17:33+00:00",
-  "fetched_at": "2026-09-25T20:17:33+00:00"
+  "checked_at": "2026-09-25T21:17:18+00:00",
+  "fetched_at": "2026-09-25T21:17:18+00:00"
  }
 };
