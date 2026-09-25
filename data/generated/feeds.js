@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:51:08+00:00",
-  "fetched_at": "2026-09-25T21:51:08+00:00"
+  "checked_at": "2026-09-25T22:17:18+00:00",
+  "fetched_at": "2026-09-25T22:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:51:17+00:00",
-  "fetched_at": "2026-09-25T21:51:17+00:00"
+  "checked_at": "2026-09-25T22:17:30+00:00",
+  "fetched_at": "2026-09-25T22:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:51:18+00:00",
-  "fetched_at": "2026-09-25T21:51:18+00:00"
+  "checked_at": "2026-09-25T22:17:32+00:00",
+  "fetched_at": "2026-09-25T22:17:32+00:00"
  },
- "generated_at": "2026-09-25T21:51:18+00:00",
+ "generated_at": "2026-09-25T22:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:51:09+00:00",
-  "fetched_at": "2026-09-25T21:51:09+00:00"
+  "checked_at": "2026-09-25T22:17:20+00:00",
+  "fetched_at": "2026-09-25T22:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:51:10+00:00",
-  "fetched_at": "2026-09-25T21:51:10+00:00"
+  "checked_at": "2026-09-25T22:17:21+00:00",
+  "fetched_at": "2026-09-25T22:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2543,8 +2543,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:51:11+00:00",
-  "fetched_at": "2026-09-25T21:51:11+00:00"
+  "checked_at": "2026-09-25T22:17:22+00:00",
+  "fetched_at": "2026-09-25T22:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2634,8 +2634,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:51:11+00:00",
-  "fetched_at": "2026-09-25T21:51:11+00:00"
+  "checked_at": "2026-09-25T22:17:22+00:00",
+  "fetched_at": "2026-09-25T22:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2648,25 +2648,23 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 231,
+     "likes": 232,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2719,24 +2717,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 59,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 148,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 140,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:51:16+00:00",
-  "fetched_at": "2026-09-25T21:51:16+00:00"
+  "checked_at": "2026-09-25T22:17:30+00:00",
+  "fetched_at": "2026-09-25T22:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3024,8 +3022,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T21:51:13+00:00",
-  "fetched_at": "2026-09-25T21:51:13+00:00"
+  "checked_at": "2026-09-25T22:17:26+00:00",
+  "fetched_at": "2026-09-25T22:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3056,7 +3054,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T21:51:14+00:00",
-  "fetched_at": "2026-09-25T21:51:14+00:00"
+  "checked_at": "2026-09-25T22:17:26+00:00",
+  "fetched_at": "2026-09-25T22:17:26+00:00"
  }
 };
