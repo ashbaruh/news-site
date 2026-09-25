@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:53:07+00:00",
-  "fetched_at": "2026-09-25T07:53:07+00:00"
+  "checked_at": "2026-09-25T08:17:24+00:00",
+  "fetched_at": "2026-09-25T08:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:53:17+00:00",
-  "fetched_at": "2026-09-25T07:53:17+00:00"
+  "checked_at": "2026-09-25T08:17:33+00:00",
+  "fetched_at": "2026-09-25T08:17:33+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Two different monitors, decades old in design – I compared two legendary BBC speakers to find out if their performance still holds up today",
+    "title_he": "שני מוניטורים שונים, בני עשרות שנים בעיצוב - השוויתי שני רמקולים אגדיים של BBC כדי לגלות אם הביצועים שלהם עדיין מחזיקים מעמד היום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/two-different-monitors-decades-old-in-design-i-compared-two-legendary-bbc-speakers-to-find-out-if-their-performance-still-holds-up-today",
+    "date": "2026-09-25T08:10:15+00:00"
+   },
+   {
+    "title_en": "How to watch PREM Rugby 2026/27 for FREE: live stream every match from anywhere",
+    "title_he": "איך לצפות ב-PREM Rugby 2026/27 בחינם: שידור חי כל משחק מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/prem-rugby-2026-27",
+    "date": "2026-09-25T08:00:00+00:00"
+   },
    {
     "title_en": "We’ve just reviewed this five-star Hisense projector – and there’s already £100 cashback and a free Xbox controller available",
     "title_he": "זה עתה סקרנו את מקרן Hisense בעל חמישה כוכבים זה - וכבר יש 100 פאונד קאשבק ובקר Xbox בחינם.",
@@ -60,27 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/i-lived-with-the-sonos-ace-ultra-here-are-4-key-ways-the-new-headphones-are-better-than-the-original-ace",
     "date": "2026-09-24T15:20:31+00:00"
-   },
-   {
-    "title_en": "Trouble hearing movie dialogue? These are our three top tips to make voices clearer",
-    "title_he": "מתקשים לשמוע דיאלוג בסרט? אלו הם שלושת הטיפים המובילים שלנו להבהיר את הקולות",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/trouble-hearing-movie-dialogue-these-are-our-three-top-tips-to-make-voices-clearer",
-    "date": "2026-09-24T14:13:13+00:00"
-   },
-   {
-    "title_en": "Celebrating International Podcast Day? Our experts pick 8 of the best speakers and headphones for vocal clarity as well as music",
-    "title_he": "חוגגים את יום הפודקאסט הבינלאומי? המומחים שלנו בוחרים 8 מהרמקולים והאוזניות הטובים ביותר לבהירות ווקאלית וגם למוזיקה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/celebrating-international-podcast-day-our-experts-pick-8-of-the-best-speakers-and-headphones-for-vocal-clarity-as-well-as-music",
-    "date": "2026-09-24T14:13:13+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:53:17+00:00",
-  "fetched_at": "2026-09-25T07:53:17+00:00"
+  "checked_at": "2026-09-25T08:17:35+00:00",
+  "fetched_at": "2026-09-25T08:17:35+00:00"
  },
- "generated_at": "2026-09-25T07:53:17+00:00",
+ "generated_at": "2026-09-25T08:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:53:08+00:00",
-  "fetched_at": "2026-09-25T07:53:08+00:00"
+  "checked_at": "2026-09-25T08:17:25+00:00",
+  "fetched_at": "2026-09-25T08:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:53:09+00:00",
-  "fetched_at": "2026-09-25T07:53:09+00:00"
+  "checked_at": "2026-09-25T08:17:26+00:00",
+  "fetched_at": "2026-09-25T08:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2380,8 +2380,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:53:10+00:00",
-  "fetched_at": "2026-09-25T07:53:10+00:00"
+  "checked_at": "2026-09-25T08:17:27+00:00",
+  "fetched_at": "2026-09-25T08:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2471,8 +2471,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:53:10+00:00",
-  "fetched_at": "2026-09-25T07:53:10+00:00"
+  "checked_at": "2026-09-25T08:17:27+00:00",
+  "fetched_at": "2026-09-25T08:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2522,7 +2522,7 @@
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2570,8 +2570,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:53:16+00:00",
-  "fetched_at": "2026-09-25T07:53:16+00:00"
+  "checked_at": "2026-09-25T08:17:33+00:00",
+  "fetched_at": "2026-09-25T08:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2868,8 +2868,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T07:53:13+00:00",
-  "fetched_at": "2026-09-25T07:53:13+00:00"
+  "checked_at": "2026-09-25T08:17:29+00:00",
+  "fetched_at": "2026-09-25T08:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2900,7 +2900,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T07:53:13+00:00",
-  "fetched_at": "2026-09-25T07:53:13+00:00"
+  "checked_at": "2026-09-25T08:17:30+00:00",
+  "fetched_at": "2026-09-25T08:17:30+00:00"
  }
 }
