@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T05:17:18+00:00",
-  "fetched_at": "2026-09-25T05:17:18+00:00"
+  "checked_at": "2026-09-25T06:17:21+00:00",
+  "fetched_at": "2026-09-25T06:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -43,8 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-25T05:17:32+00:00",
+  "ok": false,
+  "error": "The read operation timed out",
+  "checked_at": "2026-09-25T06:17:54+00:00",
   "fetched_at": "2026-09-25T05:17:32+00:00"
  },
  "av_en": {
@@ -79,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T05:17:32+00:00",
-  "fetched_at": "2026-09-25T05:17:32+00:00"
+  "checked_at": "2026-09-25T06:17:54+00:00",
+  "fetched_at": "2026-09-25T06:17:54+00:00"
  },
- "generated_at": "2026-09-25T05:17:32+00:00",
+ "generated_at": "2026-09-25T06:17:54+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +93,9 @@ window.DB.generated = {
      "date": "2026-09-25T03:59:00+00:00"
     },
     {
-     "title": "\"שיתכוננו לרעידת אדמה\" האזהרה של סינוואר לפני 7 באוקטובר",
+     "title": "אסון בצפון הרצועה: 2 לוחמים נהרגו מפיצוץ רחפן צה\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T03:57:00+00:00"
+     "date": "2026-09-25T05:55:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T05:17:20+00:00",
-  "fetched_at": "2026-09-25T05:17:20+00:00"
+  "checked_at": "2026-09-25T06:17:22+00:00",
+  "fetched_at": "2026-09-25T06:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T05:17:21+00:00",
-  "fetched_at": "2026-09-25T05:17:21+00:00"
+  "checked_at": "2026-09-25T06:17:23+00:00",
+  "fetched_at": "2026-09-25T06:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -1914,13 +1915,6 @@ window.DB.generated = {
    {
     "date": "2026-09-25",
     "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "ניגריה - מדגסקאר"
-   },
-   {
-    "date": "2026-09-25",
-    "time": "19:00",
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "גיאורגיה - צפון אירלנד"
@@ -1938,6 +1932,13 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "גמביה - סומליה"
+   },
+   {
+    "date": "2026-09-25",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "ניגריה - מדגסקאר"
    },
    {
     "date": "2026-09-25",
@@ -1991,16 +1992,16 @@ window.DB.generated = {
    {
     "date": "2026-09-25",
     "time": "22:00",
-    "channel": "ספורט 5+ לייב",
+    "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
-    "title": "מצרים - אנגולה"
+    "title": "מרוקו - גבון"
    },
    {
     "date": "2026-09-25",
     "time": "22:00",
-    "channel": "ספורט 5 מקס",
+    "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
-    "title": "מרוקו - גבון"
+    "title": "מצרים - אנגולה"
    },
    {
     "date": "2026-09-26",
@@ -2032,6 +2033,20 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-26",
+    "time": "16:45",
+    "channel": "ספורט 4",
+    "sport": "כדורסל",
+    "title": "אולימפיאקוס - א.א.ק. אתונה"
+   },
+   {
+    "date": "2026-09-26",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בולזאק - שוראל רואן"
+   },
+   {
+    "date": "2026-09-26",
     "time": "19:00",
     "channel": "ספורט 6",
     "sport": "כדורגל",
@@ -2043,13 +2058,6 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "איסלנד - אסטוניה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בולזאק - שוראל רואן"
    },
    {
     "date": "2026-09-26",
@@ -2144,6 +2152,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-27",
+    "time": "18:00",
+    "channel": "ספורט 6",
+    "sport": "כדורסל",
+    "title": "באחצ'שהיר קולג'י - פנרבחצ'ה"
+   },
+   {
+    "date": "2026-09-27",
     "time": "18:30",
     "channel": "5 סטארס",
     "sport": "כדורסל",
@@ -2213,6 +2228,13 @@ window.DB.generated = {
     "title": "אוביידו - ספורטינג גיחון"
    },
    {
+    "date": "2026-09-27",
+    "time": "23:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "בוליביה - פרגוואי"
+   },
+   {
     "date": "2026-09-28",
     "time": "19:00",
     "channel": "5 סטארס",
@@ -2253,6 +2275,13 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "הפועל גליל עליון - עירוני נס ציונה"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "21:30",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "לגאנס - קסטיון"
    },
    {
     "date": "2026-09-28",
@@ -2354,8 +2383,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T05:17:22+00:00",
-  "fetched_at": "2026-09-25T05:17:22+00:00"
+  "checked_at": "2026-09-25T06:17:24+00:00",
+  "fetched_at": "2026-09-25T06:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2445,8 +2474,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T05:17:22+00:00",
-  "fetched_at": "2026-09-25T05:17:22+00:00"
+  "checked_at": "2026-09-25T06:17:24+00:00",
+  "fetched_at": "2026-09-25T06:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2498,7 +2527,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 113,
+     "likes": 114,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2512,7 +2541,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 144,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2546,8 +2575,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T05:17:31+00:00",
-  "fetched_at": "2026-09-25T05:17:31+00:00"
+  "checked_at": "2026-09-25T06:17:29+00:00",
+  "fetched_at": "2026-09-25T06:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2853,8 +2882,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T05:17:26+00:00",
-  "fetched_at": "2026-09-25T05:17:26+00:00"
+  "checked_at": "2026-09-25T06:17:26+00:00",
+  "fetched_at": "2026-09-25T06:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2885,7 +2914,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T05:17:26+00:00",
-  "fetched_at": "2026-09-25T05:17:26+00:00"
+  "checked_at": "2026-09-25T06:17:26+00:00",
+  "fetched_at": "2026-09-25T06:17:26+00:00"
  }
 };
