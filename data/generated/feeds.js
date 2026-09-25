@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T16:17:28+00:00",
-  "fetched_at": "2026-09-25T16:17:28+00:00"
+  "checked_at": "2026-09-25T17:17:17+00:00",
+  "fetched_at": "2026-09-25T17:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T16:17:40+00:00",
-  "fetched_at": "2026-09-25T16:17:40+00:00"
+  "checked_at": "2026-09-25T17:17:51+00:00",
+  "fetched_at": "2026-09-25T17:17:51+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T16:17:42+00:00",
-  "fetched_at": "2026-09-25T16:17:42+00:00"
+  "checked_at": "2026-09-25T17:17:53+00:00",
+  "fetched_at": "2026-09-25T17:17:53+00:00"
  },
- "generated_at": "2026-09-25T16:17:42+00:00",
+ "generated_at": "2026-09-25T17:17:53+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "משפחות ישראליות נוהרות לתאילנד: \"אנשים שוברים קרן השתלמות\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557497",
-     "date": "2026-09-25T12:57:00+00:00"
+     "title": "הפה שלכם עשוי להחזיק את הסוד לחיים ארוכים ובריאים יותר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557572",
+     "date": "2026-09-25T16:57:00+00:00"
     },
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T16:17:29+00:00",
-  "fetched_at": "2026-09-25T16:17:29+00:00"
+  "checked_at": "2026-09-25T17:17:18+00:00",
+  "fetched_at": "2026-09-25T17:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T16:17:30+00:00",
-  "fetched_at": "2026-09-25T16:17:30+00:00"
+  "checked_at": "2026-09-25T17:17:19+00:00",
+  "fetched_at": "2026-09-25T17:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T16:17:32+00:00",
-  "fetched_at": "2026-09-25T16:17:32+00:00"
+  "checked_at": "2026-09-25T17:17:20+00:00",
+  "fetched_at": "2026-09-25T17:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T16:17:32+00:00",
-  "fetched_at": "2026-09-25T16:17:32+00:00"
+  "checked_at": "2026-09-25T17:17:20+00:00",
+  "fetched_at": "2026-09-25T17:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2496,7 +2496,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
+   "candidates": 13,
    "failed_sources": [],
    "tools": [
     {
@@ -2517,7 +2517,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 546,
+     "likes": 548,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2528,18 +2528,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 153,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 121,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 151,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2549,18 +2549,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 296,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
      "likes": 147,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "YuE2-3B Music Generator",
-     "desc_en": "Generate songs and covers from style prompts and lyrics.",
-     "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
-     "likes": 184,
-     "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2572,8 +2572,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T16:17:40+00:00",
-  "fetched_at": "2026-09-25T16:17:40+00:00"
+  "checked_at": "2026-09-25T17:17:51+00:00",
+  "fetched_at": "2026-09-25T17:17:51+00:00"
  },
  "abroad": {
   "data": {
@@ -2654,15 +2654,6 @@ window.DB.generated = {
      "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3868820",
      "date": "2026-09-19T04:46:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בארה\"ב ניתחו: זה השינוי שמחכה לדני אבדיה בעונה הקרובה",
-     "link": "https://sports.walla.co.il/item/3868785",
-     "date": "2026-09-18T16:56:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2888,8 +2879,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T16:17:35+00:00",
-  "fetched_at": "2026-09-25T16:17:35+00:00"
+  "checked_at": "2026-09-25T17:17:25+00:00",
+  "fetched_at": "2026-09-25T17:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -2920,7 +2911,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T16:17:36+00:00",
-  "fetched_at": "2026-09-25T16:17:36+00:00"
+  "checked_at": "2026-09-25T17:17:47+00:00",
+  "fetched_at": "2026-09-25T17:17:47+00:00"
  }
 };
