@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T19:17:23+00:00",
-  "fetched_at": "2026-09-25T19:17:23+00:00"
+  "checked_at": "2026-09-25T20:17:28+00:00",
+  "fetched_at": "2026-09-25T20:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T19:17:35+00:00",
-  "fetched_at": "2026-09-25T19:17:35+00:00"
+  "checked_at": "2026-09-25T20:17:41+00:00",
+  "fetched_at": "2026-09-25T20:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T19:17:37+00:00",
-  "fetched_at": "2026-09-25T19:17:37+00:00"
+  "checked_at": "2026-09-25T20:17:43+00:00",
+  "fetched_at": "2026-09-25T20:17:43+00:00"
  },
- "generated_at": "2026-09-25T19:17:37+00:00",
+ "generated_at": "2026-09-25T20:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T19:17:25+00:00",
-  "fetched_at": "2026-09-25T19:17:25+00:00"
+  "checked_at": "2026-09-25T20:17:29+00:00",
+  "fetched_at": "2026-09-25T20:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T19:17:25+00:00",
-  "fetched_at": "2026-09-25T19:17:25+00:00"
+  "checked_at": "2026-09-25T20:17:29+00:00",
+  "fetched_at": "2026-09-25T20:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T19:17:28+00:00",
-  "fetched_at": "2026-09-25T19:17:28+00:00"
+  "checked_at": "2026-09-25T20:17:30+00:00",
+  "fetched_at": "2026-09-25T20:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T19:17:28+00:00",
-  "fetched_at": "2026-09-25T19:17:28+00:00"
+  "checked_at": "2026-09-25T20:17:30+00:00",
+  "fetched_at": "2026-09-25T20:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2487,23 +2487,25 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
-   "failed_sources": [],
+   "candidates": 9,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 225,
+     "likes": 228,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2524,7 +2526,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2542,18 +2544,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 134,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
      "likes": 297,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+    },
+    {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 134,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2566,14 +2568,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 139,
+     "likes": 140,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T19:17:35+00:00",
-  "fetched_at": "2026-09-25T19:17:35+00:00"
+  "checked_at": "2026-09-25T20:17:36+00:00",
+  "fetched_at": "2026-09-25T20:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2870,8 +2872,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T19:17:32+00:00",
-  "fetched_at": "2026-09-25T19:17:32+00:00"
+  "checked_at": "2026-09-25T20:17:33+00:00",
+  "fetched_at": "2026-09-25T20:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2902,7 +2904,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T19:17:32+00:00",
-  "fetched_at": "2026-09-25T19:17:32+00:00"
+  "checked_at": "2026-09-25T20:17:33+00:00",
+  "fetched_at": "2026-09-25T20:17:33+00:00"
  }
 };
