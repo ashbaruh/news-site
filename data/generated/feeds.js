@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T11:17:20+00:00",
-  "fetched_at": "2026-09-25T11:17:20+00:00"
+  "checked_at": "2026-09-25T12:17:26+00:00",
+  "fetched_at": "2026-09-25T12:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,12 +44,19 @@ window.DB.generated = {
    }
   ],
   "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-25T11:17:31+00:00",
+  "error": "HTTP Error 522: <none>",
+  "checked_at": "2026-09-25T12:17:58+00:00",
   "fetched_at": "2026-09-25T10:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Quick! This remarkably watchable RGB Mini LED TV is half price",
+    "title_he": "מָהִיר! טלוויזיית RGB Mini LED הניתנת לצפייה להפליא היא חצי מחיר",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/quick-this-remarkably-watchable-rgb-mini-led-tv-is-half-price",
+    "date": "2026-09-25T11:50:04+00:00"
+   },
    {
     "title_en": "Samsung R95H (MRE65R95H)",
     "title_he": null,
@@ -70,20 +77,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/cd-players/what-hi-fi-and-my-dad-got-me-into-hi-fi-and-as-it-turns-50-i-can-still-remember-one-review-in-particular",
     "date": "2026-09-25T09:32:25+00:00"
-   },
-   {
-    "title_en": "Two different monitors, decades old in design – I compared two legendary BBC speakers to find out if their performance still holds up today",
-    "title_he": "שני מוניטורים שונים, בני עשרות שנים בעיצוב - השוויתי שני רמקולים אגדיים של BBC כדי לגלות אם הביצועים שלהם עדיין מחזיקים מעמד היום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/two-different-monitors-decades-old-in-design-i-compared-two-legendary-bbc-speakers-to-find-out-if-their-performance-still-holds-up-today",
-    "date": "2026-09-25T08:10:15+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T11:17:33+00:00",
-  "fetched_at": "2026-09-25T11:17:33+00:00"
+  "checked_at": "2026-09-25T12:18:00+00:00",
+  "fetched_at": "2026-09-25T12:18:00+00:00"
  },
- "generated_at": "2026-09-25T11:17:33+00:00",
+ "generated_at": "2026-09-25T12:18:00+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +95,7 @@ window.DB.generated = {
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T11:05:00+00:00"
+     "date": "2026-09-25T11:54:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T11:17:21+00:00",
-  "fetched_at": "2026-09-25T11:17:21+00:00"
+  "checked_at": "2026-09-25T12:17:28+00:00",
+  "fetched_at": "2026-09-25T12:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T11:17:22+00:00",
-  "fetched_at": "2026-09-25T11:17:22+00:00"
+  "checked_at": "2026-09-25T12:17:29+00:00",
+  "fetched_at": "2026-09-25T12:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2383,8 +2383,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T11:17:23+00:00",
-  "fetched_at": "2026-09-25T11:17:23+00:00"
+  "checked_at": "2026-09-25T12:17:30+00:00",
+  "fetched_at": "2026-09-25T12:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2474,8 +2474,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T11:17:23+00:00",
-  "fetched_at": "2026-09-25T11:17:23+00:00"
+  "checked_at": "2026-09-25T12:17:30+00:00",
+  "fetched_at": "2026-09-25T12:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2506,21 +2506,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 212,
+     "likes": 214,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 196,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 541,
+     "likes": 543,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2534,14 +2534,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 119,
+     "likes": 120,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 146,
+     "likes": 147,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2562,7 +2562,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 146,
+     "likes": 147,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2575,8 +2575,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T11:17:31+00:00",
-  "fetched_at": "2026-09-25T11:17:31+00:00"
+  "checked_at": "2026-09-25T12:17:38+00:00",
+  "fetched_at": "2026-09-25T12:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2891,8 +2891,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T11:17:27+00:00",
-  "fetched_at": "2026-09-25T11:17:27+00:00"
+  "checked_at": "2026-09-25T12:17:33+00:00",
+  "fetched_at": "2026-09-25T12:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2923,7 +2923,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T11:17:28+00:00",
-  "fetched_at": "2026-09-25T11:17:28+00:00"
+  "checked_at": "2026-09-25T12:17:34+00:00",
+  "fetched_at": "2026-09-25T12:17:34+00:00"
  }
 };
