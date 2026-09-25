@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T00:17:25+00:00",
-  "fetched_at": "2026-09-25T00:17:25+00:00"
+  "checked_at": "2026-09-25T01:17:48+00:00",
+  "fetched_at": "2026-09-25T01:17:48+00:00"
  },
  "animals": {
   "data": [
@@ -43,7 +43,7 @@
   ],
   "ok": false,
   "error": "The read operation timed out",
-  "checked_at": "2026-09-25T00:18:03+00:00",
+  "checked_at": "2026-09-25T01:18:20+00:00",
   "fetched_at": "2026-09-24T23:31:23+00:00"
  },
  "av_en": {
@@ -78,10 +78,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T00:18:04+00:00",
-  "fetched_at": "2026-09-25T00:18:04+00:00"
+  "checked_at": "2026-09-25T01:18:21+00:00",
+  "fetched_at": "2026-09-25T01:18:21+00:00"
  },
- "generated_at": "2026-09-25T00:18:04+00:00",
+ "generated_at": "2026-09-25T01:18:21+00:00",
  "globes": {
   "data": {
    "top": [
@@ -225,8 +225,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T00:17:27+00:00",
-  "fetched_at": "2026-09-25T00:17:27+00:00"
+  "checked_at": "2026-09-25T01:17:50+00:00",
+  "fetched_at": "2026-09-25T01:17:50+00:00"
  },
  "ifa": {
   "data": [
@@ -1870,8 +1870,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T00:17:28+00:00",
-  "fetched_at": "2026-09-25T00:17:28+00:00"
+  "checked_at": "2026-09-25T01:17:50+00:00",
+  "fetched_at": "2026-09-25T01:17:50+00:00"
  },
  "tv": {
   "data": [
@@ -2353,8 +2353,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T00:17:30+00:00",
-  "fetched_at": "2026-09-25T00:17:30+00:00"
+  "checked_at": "2026-09-25T01:17:51+00:00",
+  "fetched_at": "2026-09-25T01:17:51+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2444,19 +2444,12 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T00:17:30+00:00",
-  "fetched_at": "2026-09-25T00:17:30+00:00"
+  "checked_at": "2026-09-25T01:17:51+00:00",
+  "fetched_at": "2026-09-25T01:17:51+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
-     "date": "2026-09-24T17:23:25+00:00",
-     "launch": true,
-     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -2465,10 +2458,21 @@
      "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
      "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
+    },
+    {
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
+     "launch": true,
+     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 10,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2516,14 +2520,14 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2543,8 +2547,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T00:17:38+00:00",
-  "fetched_at": "2026-09-25T00:17:38+00:00"
+  "checked_at": "2026-09-25T01:17:55+00:00",
+  "fetched_at": "2026-09-25T01:17:55+00:00"
  },
  "abroad": {
   "data": {
@@ -2860,8 +2864,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T00:17:33+00:00",
-  "fetched_at": "2026-09-25T00:17:33+00:00"
+  "checked_at": "2026-09-25T01:17:54+00:00",
+  "fetched_at": "2026-09-25T01:17:54+00:00"
  },
  "idf": {
   "data": [
@@ -2892,7 +2896,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T00:17:34+00:00",
-  "fetched_at": "2026-09-25T00:17:34+00:00"
+  "checked_at": "2026-09-25T01:17:54+00:00",
+  "fetched_at": "2026-09-25T01:17:54+00:00"
  }
 }
