@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T03:17:25+00:00",
-  "fetched_at": "2026-09-25T03:17:25+00:00"
+  "checked_at": "2026-09-25T04:17:14+00:00",
+  "fetched_at": "2026-09-25T04:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T03:17:37+00:00",
-  "fetched_at": "2026-09-25T03:17:37+00:00"
+  "checked_at": "2026-09-25T04:17:26+00:00",
+  "fetched_at": "2026-09-25T04:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,45 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T03:17:37+00:00",
-  "fetched_at": "2026-09-25T03:17:37+00:00"
+  "checked_at": "2026-09-25T04:17:27+00:00",
+  "fetched_at": "2026-09-25T04:17:27+00:00"
  },
- "generated_at": "2026-09-25T03:17:37+00:00",
+ "generated_at": "2026-09-25T04:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "היועץ לשעבר של טראמפ מזהיר: \"אם המטרה להביא את איראן למו\"מ - נתאכזב שוב\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557559",
-     "date": "2026-09-24T18:00:00+00:00"
+     "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
+     "date": "2026-09-25T03:59:00+00:00"
     },
     {
-     "title": "רה\"מ מגיב להאשמות נגד ישראל: \"רצח עם? זה שקר המאה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557435",
-     "date": "2026-09-24T19:32:00+00:00"
+     "title": "\"שיתכוננו לרעידת אדמה\" האזהרה של סינוואר לפני 7 באוקטובר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
+     "date": "2026-09-25T03:57:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
+     "date": "2026-09-25T04:11:00+00:00"
+    },
+    {
+     "title": "באיזו עיר התושבים בישראל הכי מרוצים מהעירייה שלהם?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557123",
+     "date": "2026-09-25T04:01:00+00:00"
+    },
+    {
+     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
+     "date": "2026-09-25T04:00:00+00:00"
+    },
+    {
+     "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
+     "date": "2026-09-25T03:59:00+00:00"
+    },
     {
      "title": "בתום מסחר תנודתי, וול סטריט ננעלה ביציבות; מניות נביוס ומטא זינקו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557426",
@@ -129,11 +149,6 @@ window.DB.generated = {
      "date": "2026-09-24T15:15:00+00:00"
     },
     {
-     "title": "באיזו עיר התושבים בישראל הכי מרוצים מהעירייה שלהם?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557123",
-     "date": "2026-09-24T14:44:00+00:00"
-    },
-    {
      "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
      "date": "2026-09-24T14:30:00+00:00"
@@ -142,11 +157,6 @@ window.DB.generated = {
      "title": "הפג-לויד וקרן פימי הגישו הצעה משופרת לרכישת צים. מה היא כוללת?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557488",
      "date": "2026-09-24T13:17:00+00:00"
-    },
-    {
-     "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
-     "date": "2026-09-24T12:47:00+00:00"
     },
     {
      "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחסר",
@@ -194,19 +204,9 @@ window.DB.generated = {
      "date": "2026-09-24T03:27:00+00:00"
     },
     {
-     "title": "משקיע מיליונים בנדל\"ן ורק עשרות אלפי דולרים בשוק ההון: \"אני עדיין לומד אותו\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557377",
-     "date": "2026-09-24T03:06:00+00:00"
-    },
-    {
      "title": "המגעים על כספי הסיוע האמריקאים תקועים, בצל בחירות האמצע בארה\"ב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557363",
      "date": "2026-09-24T03:05:00+00:00"
-    },
-    {
-     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
-     "date": "2026-09-24T02:56:00+00:00"
     },
     {
      "title": "התשואות זינקו והפאניקה חזרה לוול סטריט: נאסד\"ק ירד ב-1.2%",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T03:17:26+00:00",
-  "fetched_at": "2026-09-25T03:17:26+00:00"
+  "checked_at": "2026-09-25T04:17:16+00:00",
+  "fetched_at": "2026-09-25T04:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T03:17:27+00:00",
-  "fetched_at": "2026-09-25T03:17:27+00:00"
+  "checked_at": "2026-09-25T04:17:17+00:00",
+  "fetched_at": "2026-09-25T04:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2354,8 +2354,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T03:17:28+00:00",
-  "fetched_at": "2026-09-25T03:17:28+00:00"
+  "checked_at": "2026-09-25T04:17:18+00:00",
+  "fetched_at": "2026-09-25T04:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2445,8 +2445,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T03:17:28+00:00",
-  "fetched_at": "2026-09-25T03:17:28+00:00"
+  "checked_at": "2026-09-25T04:17:18+00:00",
+  "fetched_at": "2026-09-25T04:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2475,7 +2475,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 206,
+     "likes": 208,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2517,7 +2517,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 115,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2538,14 +2538,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T03:17:36+00:00",
-  "fetched_at": "2026-09-25T03:17:36+00:00"
+  "checked_at": "2026-09-25T04:17:26+00:00",
+  "fetched_at": "2026-09-25T04:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2848,21 +2848,11 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": [
-    {
-     "title": "מושלמים ברומניה: מכבי חיפה בדרך לתואר אירופי",
-     "link": "https://www.one.co.il/Article/534232.html?ref=rss",
-     "date": "2026-09-24T16:06:00+00:00",
-     "source": "ONE",
-     "clubs": [
-      "מכבי חיפה"
-     ]
-    }
-   ]
+   "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T03:17:32+00:00",
-  "fetched_at": "2026-09-25T03:17:32+00:00"
+  "checked_at": "2026-09-25T04:17:21+00:00",
+  "fetched_at": "2026-09-25T04:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2893,7 +2883,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T03:17:32+00:00",
-  "fetched_at": "2026-09-25T03:17:32+00:00"
+  "checked_at": "2026-09-25T04:17:22+00:00",
+  "fetched_at": "2026-09-25T04:17:22+00:00"
  }
 };
