@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T14:17:27+00:00",
-  "fetched_at": "2026-09-25T14:17:27+00:00"
+  "checked_at": "2026-09-25T15:17:17+00:00",
+  "fetched_at": "2026-09-25T15:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T14:17:37+00:00",
-  "fetched_at": "2026-09-25T14:17:37+00:00"
+  "checked_at": "2026-09-25T15:17:27+00:00",
+  "fetched_at": "2026-09-25T15:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T14:17:39+00:00",
-  "fetched_at": "2026-09-25T14:17:39+00:00"
+  "checked_at": "2026-09-25T15:17:28+00:00",
+  "fetched_at": "2026-09-25T15:17:28+00:00"
  },
- "generated_at": "2026-09-25T14:17:39+00:00",
+ "generated_at": "2026-09-25T15:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T14:17:28+00:00",
-  "fetched_at": "2026-09-25T14:17:28+00:00"
+  "checked_at": "2026-09-25T15:17:18+00:00",
+  "fetched_at": "2026-09-25T15:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T14:17:29+00:00",
-  "fetched_at": "2026-09-25T14:17:29+00:00"
+  "checked_at": "2026-09-25T15:17:19+00:00",
+  "fetched_at": "2026-09-25T15:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T14:17:29+00:00",
-  "fetched_at": "2026-09-25T14:17:29+00:00"
+  "checked_at": "2026-09-25T15:17:20+00:00",
+  "fetched_at": "2026-09-25T15:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T14:17:29+00:00",
-  "fetched_at": "2026-09-25T14:17:29+00:00"
+  "checked_at": "2026-09-25T15:17:20+00:00",
+  "fetched_at": "2026-09-25T15:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2487,25 +2487,23 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 216,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2519,14 +2517,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 545,
+     "likes": 546,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 121,
+     "likes": 122,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2574,12 +2572,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T14:17:36+00:00",
-  "fetched_at": "2026-09-25T14:17:36+00:00"
+  "checked_at": "2026-09-25T15:17:26+00:00",
+  "fetched_at": "2026-09-25T15:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בארה\"ב מפנטזים: התקרה החלומית אליה דני אבדיה יכול להגיע",
+     "link": "https://sports.walla.co.il/item/3869801",
+     "date": "2026-09-25T14:22:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "האם מנור סולומון ייענש בגלל דבריו על השיפוט?",
      "link": "https://www.one.co.il/Article/534303.html?ref=rss",
@@ -2890,8 +2897,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T14:17:32+00:00",
-  "fetched_at": "2026-09-25T14:17:32+00:00"
+  "checked_at": "2026-09-25T15:17:23+00:00",
+  "fetched_at": "2026-09-25T15:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -2922,7 +2929,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T14:17:32+00:00",
-  "fetched_at": "2026-09-25T14:17:32+00:00"
+  "checked_at": "2026-09-25T15:17:23+00:00",
+  "fetched_at": "2026-09-25T15:17:23+00:00"
  }
 };
