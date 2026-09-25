@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T12:17:26+00:00",
-  "fetched_at": "2026-09-25T12:17:26+00:00"
+  "checked_at": "2026-09-25T13:17:12+00:00",
+  "fetched_at": "2026-09-25T13:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -43,7 +43,7 @@
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-25T12:17:58+00:00",
+  "checked_at": "2026-09-25T13:17:45+00:00",
   "fetched_at": "2026-09-25T10:17:32+00:00"
  },
  "av_en": {
@@ -78,22 +78,22 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T12:18:00+00:00",
-  "fetched_at": "2026-09-25T12:18:00+00:00"
+  "checked_at": "2026-09-25T13:17:47+00:00",
+  "fetched_at": "2026-09-25T13:17:47+00:00"
  },
- "generated_at": "2026-09-25T12:18:00+00:00",
+ "generated_at": "2026-09-25T13:17:47+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בעוד שבוע לרבים מאיתנו יהיה הרבה יותר קשה ויקר ליטול משכנתא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557489",
-     "date": "2026-09-25T10:31:00+00:00"
+     "title": "זינוק של כמעט פי 2 תוך 7 שנים: כך הפכה תאילנד ליעד החדש של משפחות ישראליות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557497",
+     "date": "2026-09-25T12:57:00+00:00"
     },
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T11:54:00+00:00"
+     "date": "2026-09-25T12:56:00+00:00"
     }
    ],
    "market": [
@@ -225,8 +225,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T12:17:28+00:00",
-  "fetched_at": "2026-09-25T12:17:28+00:00"
+  "checked_at": "2026-09-25T13:17:14+00:00",
+  "fetched_at": "2026-09-25T13:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1870,8 +1870,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T12:17:29+00:00",
-  "fetched_at": "2026-09-25T12:17:29+00:00"
+  "checked_at": "2026-09-25T13:17:15+00:00",
+  "fetched_at": "2026-09-25T13:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T12:17:30+00:00",
-  "fetched_at": "2026-09-25T12:17:30+00:00"
+  "checked_at": "2026-09-25T13:17:17+00:00",
+  "fetched_at": "2026-09-25T13:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T12:17:30+00:00",
-  "fetched_at": "2026-09-25T12:17:30+00:00"
+  "checked_at": "2026-09-25T13:17:17+00:00",
+  "fetched_at": "2026-09-25T13:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2486,19 +2486,17 @@
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2511,21 +2509,21 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 198,
+     "likes": 200,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 543,
+     "likes": 545,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 120,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2539,7 +2537,7 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 147,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2553,7 +2551,7 @@
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 293,
+     "likes": 294,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -2573,8 +2571,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T12:17:38+00:00",
-  "fetched_at": "2026-09-25T12:17:38+00:00"
+  "checked_at": "2026-09-25T13:17:25+00:00",
+  "fetched_at": "2026-09-25T13:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2889,8 +2887,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T12:17:33+00:00",
-  "fetched_at": "2026-09-25T12:17:33+00:00"
+  "checked_at": "2026-09-25T13:17:20+00:00",
+  "fetched_at": "2026-09-25T13:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2921,7 +2919,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T12:17:34+00:00",
-  "fetched_at": "2026-09-25T12:17:34+00:00"
+  "checked_at": "2026-09-25T13:17:21+00:00",
+  "fetched_at": "2026-09-25T13:17:21+00:00"
  }
 }
