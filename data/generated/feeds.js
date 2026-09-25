@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:17:48+00:00",
-  "fetched_at": "2026-09-25T01:17:48+00:00"
+  "checked_at": "2026-09-25T01:57:02+00:00",
+  "fetched_at": "2026-09-25T01:57:02+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "The read operation timed out",
-  "checked_at": "2026-09-25T01:18:20+00:00",
-  "fetched_at": "2026-09-24T23:31:23+00:00"
+  "ok": true,
+  "checked_at": "2026-09-25T01:57:17+00:00",
+  "fetched_at": "2026-09-25T01:57:17+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:18:21+00:00",
-  "fetched_at": "2026-09-25T01:18:21+00:00"
+  "checked_at": "2026-09-25T01:57:17+00:00",
+  "fetched_at": "2026-09-25T01:57:17+00:00"
  },
- "generated_at": "2026-09-25T01:18:21+00:00",
+ "generated_at": "2026-09-25T01:57:17+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:17:50+00:00",
-  "fetched_at": "2026-09-25T01:17:50+00:00"
+  "checked_at": "2026-09-25T01:57:03+00:00",
+  "fetched_at": "2026-09-25T01:57:03+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:17:50+00:00",
-  "fetched_at": "2026-09-25T01:17:50+00:00"
+  "checked_at": "2026-09-25T01:57:04+00:00",
+  "fetched_at": "2026-09-25T01:57:04+00:00"
  },
  "tv": {
   "data": [
@@ -2354,8 +2353,9 @@ window.DB.generated = {
     "title": "ישראל - קוסובו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-25T01:17:51+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-25T01:57:10+00:00",
   "fetched_at": "2026-09-25T01:17:51+00:00"
  },
  "ligat_haal": {
@@ -2446,12 +2446,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:17:51+00:00",
-  "fetched_at": "2026-09-25T01:17:51+00:00"
+  "checked_at": "2026-09-25T01:57:10+00:00",
+  "fetched_at": "2026-09-25T01:57:10+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
+     "date": "2026-09-24T17:23:25+00:00",
+     "launch": true,
+     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -2460,21 +2467,10 @@ window.DB.generated = {
      "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
      "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
-    },
-    {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
-     "translated_by": "google"
     }
    ],
-   "candidates": 10,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2487,7 +2483,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 191,
+     "likes": 192,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2508,21 +2504,21 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 111,
+     "likes": 112,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 141,
+     "likes": 142,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 111,
+     "likes": 112,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2549,8 +2545,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:17:55+00:00",
-  "fetched_at": "2026-09-25T01:17:55+00:00"
+  "checked_at": "2026-09-25T01:57:16+00:00",
+  "fetched_at": "2026-09-25T01:57:16+00:00"
  },
  "abroad": {
   "data": {
@@ -2866,8 +2862,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T01:17:54+00:00",
-  "fetched_at": "2026-09-25T01:17:54+00:00"
+  "checked_at": "2026-09-25T01:57:13+00:00",
+  "fetched_at": "2026-09-25T01:57:13+00:00"
  },
  "idf": {
   "data": [
@@ -2898,7 +2894,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T01:17:54+00:00",
-  "fetched_at": "2026-09-25T01:17:54+00:00"
+  "checked_at": "2026-09-25T01:57:13+00:00",
+  "fetched_at": "2026-09-25T01:57:13+00:00"
  }
 };
