@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T18:39:59+00:00",
-  "fetched_at": "2026-09-25T18:39:59+00:00"
+  "checked_at": "2026-09-25T19:17:23+00:00",
+  "fetched_at": "2026-09-25T19:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T18:40:12+00:00",
-  "fetched_at": "2026-09-25T18:40:12+00:00"
+  "checked_at": "2026-09-25T19:17:35+00:00",
+  "fetched_at": "2026-09-25T19:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T18:40:13+00:00",
-  "fetched_at": "2026-09-25T18:40:13+00:00"
+  "checked_at": "2026-09-25T19:17:37+00:00",
+  "fetched_at": "2026-09-25T19:17:37+00:00"
  },
- "generated_at": "2026-09-25T18:40:13+00:00",
+ "generated_at": "2026-09-25T19:17:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T18:40:00+00:00",
-  "fetched_at": "2026-09-25T18:40:00+00:00"
+  "checked_at": "2026-09-25T19:17:25+00:00",
+  "fetched_at": "2026-09-25T19:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T18:40:01+00:00",
-  "fetched_at": "2026-09-25T18:40:01+00:00"
+  "checked_at": "2026-09-25T19:17:25+00:00",
+  "fetched_at": "2026-09-25T19:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T18:40:03+00:00",
-  "fetched_at": "2026-09-25T18:40:03+00:00"
+  "checked_at": "2026-09-25T19:17:28+00:00",
+  "fetched_at": "2026-09-25T19:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T18:40:03+00:00",
-  "fetched_at": "2026-09-25T18:40:03+00:00"
+  "checked_at": "2026-09-25T19:17:28+00:00",
+  "fetched_at": "2026-09-25T19:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2487,32 +2487,30 @@ window.DB.generated = {
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
     },
     {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
      "launch": true,
-     "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 12,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 223,
+     "likes": 225,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 203,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2574,8 +2572,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T18:40:11+00:00",
-  "fetched_at": "2026-09-25T18:40:11+00:00"
+  "checked_at": "2026-09-25T19:17:35+00:00",
+  "fetched_at": "2026-09-25T19:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -2868,21 +2866,12 @@ window.DB.generated = {
      "clubs": [
       "מכבי חיפה"
      ]
-    },
-    {
-     "title": "מכבי חיפה קטועי גפיים זכתה בקונפרנס לאחר 0:4",
-     "link": "https://www.one.co.il/Article/534285.html?ref=rss",
-     "date": "2026-09-25T10:03:00+00:00",
-     "source": "ONE",
-     "clubs": [
-      "מכבי חיפה"
-     ]
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T18:40:07+00:00",
-  "fetched_at": "2026-09-25T18:40:07+00:00"
+  "checked_at": "2026-09-25T19:17:32+00:00",
+  "fetched_at": "2026-09-25T19:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2913,7 +2902,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T18:40:08+00:00",
-  "fetched_at": "2026-09-25T18:40:08+00:00"
+  "checked_at": "2026-09-25T19:17:32+00:00",
+  "fetched_at": "2026-09-25T19:17:32+00:00"
  }
 };
