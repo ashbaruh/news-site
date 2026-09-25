@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-25T06:17:21+00:00",
-  "fetched_at": "2026-09-25T06:17:21+00:00"
+  "checked_at": "2026-09-25T07:17:27+00:00",
+  "fetched_at": "2026-09-25T07:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "The read operation timed out",
-  "checked_at": "2026-09-25T06:17:54+00:00",
-  "fetched_at": "2026-09-25T05:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-25T07:17:36+00:00",
+  "fetched_at": "2026-09-25T07:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -80,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T06:17:54+00:00",
-  "fetched_at": "2026-09-25T06:17:54+00:00"
+  "checked_at": "2026-09-25T07:17:37+00:00",
+  "fetched_at": "2026-09-25T07:17:37+00:00"
  },
- "generated_at": "2026-09-25T06:17:54+00:00",
+ "generated_at": "2026-09-25T07:17:37+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
-     "date": "2026-09-25T03:59:00+00:00"
+     "title": "חמש פקולטות חדשות לרפואה נפתחו בישראל. האם הן ימנעו את קריסת המערכת?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557569",
+     "date": "2026-09-25T06:59:00+00:00"
     },
     {
      "title": "אסון בצפון הרצועה: 2 לוחמים נהרגו מפיצוץ רחפן צה\"ל",
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T06:17:22+00:00",
-  "fetched_at": "2026-09-25T06:17:22+00:00"
+  "checked_at": "2026-09-25T07:17:29+00:00",
+  "fetched_at": "2026-09-25T07:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T06:17:23+00:00",
-  "fetched_at": "2026-09-25T06:17:23+00:00"
+  "checked_at": "2026-09-25T07:17:29+00:00",
+  "fetched_at": "2026-09-25T07:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2383,8 +2382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T06:17:24+00:00",
-  "fetched_at": "2026-09-25T06:17:24+00:00"
+  "checked_at": "2026-09-25T07:17:31+00:00",
+  "fetched_at": "2026-09-25T07:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2474,19 +2473,12 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T06:17:24+00:00",
-  "fetched_at": "2026-09-25T06:17:24+00:00"
+  "checked_at": "2026-09-25T07:17:31+00:00",
+  "fetched_at": "2026-09-25T07:17:31+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
-     "date": "2026-09-24T17:23:25+00:00",
-     "launch": true,
-     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -2495,18 +2487,28 @@ window.DB.generated = {
      "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
      "title_he": "קלוד מגלה מערכת אנזימים חדשה עם חזרות דמויות CRISPR",
      "translated_by": "google"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/airbnb-gpt-6-astra",
+     "date": "2026-09-23T01:00:00+00:00",
+     "launch": true,
+     "title_en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+     "title_he": "Airbnb מרחיבה את הגישה לדגמי GPT-6 Astra ו-OpenAI",
+     "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 7,
    "failed_sources": [
-    "Google DeepMind"
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 209,
+     "likes": 210,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2527,15 +2529,8 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 114,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 133,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2552,6 +2547,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 133,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
@@ -2559,24 +2561,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 291,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+    },
+    {
      "title": "YuE2-3B Music Generator",
      "desc_en": "Generate songs and covers from style prompts and lyrics.",
      "desc_he": "צור שירים וקאברים מהנחיות ומילים בסגנון.",
      "likes": 181,
      "link": "https://huggingface.co/spaces/mrfakename/yue2-3b"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 135,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-25T06:17:29+00:00",
-  "fetched_at": "2026-09-25T06:17:29+00:00"
+  "checked_at": "2026-09-25T07:17:36+00:00",
+  "fetched_at": "2026-09-25T07:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2882,8 +2884,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-25T06:17:26+00:00",
-  "fetched_at": "2026-09-25T06:17:26+00:00"
+  "checked_at": "2026-09-25T07:17:34+00:00",
+  "fetched_at": "2026-09-25T07:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -2914,7 +2916,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-25T06:17:26+00:00",
-  "fetched_at": "2026-09-25T06:17:26+00:00"
+  "checked_at": "2026-09-25T07:17:35+00:00",
+  "fetched_at": "2026-09-25T07:17:35+00:00"
  }
 };
