@@ -127,6 +127,7 @@
 47.4979,
 19.0402
 ],
+"burj qalaway, lebanon": null,
 "camp david, united states": [
 39.6487,
 -77.4651
@@ -253,6 +254,10 @@
 "kerch, crimea": [
 45.3563,
 36.4671
+],
+"kfar shouba, lebanon": [
+33.3277,
+35.6927
 ],
 "kfar tebnit, lebanon": [
 33.3519,
@@ -572,6 +577,10 @@
 35.6893,
 51.3896
 ],
+"touline, lebanon": [
+33.2544,
+35.4399
+],
 "tripoli, lebanon": [
 34.4374,
 35.8349
@@ -585,6 +594,14 @@
 35.1964
 ],
 "ukraine": null,
+"ulyanovsk, russia": [
+54.315,
+48.4034
+],
+"voronezh, russia": [
+51.68,
+39.1837
+],
 "vyshhorod district, ukraine": null,
 "wadi al-maqatrah, yemen": null,
 "wadi al-raqqad, syria": [
@@ -634,6 +651,10 @@
 35.1183
 ],
 "zawtar al-gharb, lebanon": null,
+"zibqine, lebanon": [
+33.1644,
+35.2665
+],
 "אודסה, אוקראינה": [
 46.4843,
 30.7323
