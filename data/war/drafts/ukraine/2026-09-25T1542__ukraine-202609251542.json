@@ -1,0 +1,313 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a0bf02aa6a3d",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 1,
+   "shared_root": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-25T15:42:53+00:00",
+  "window": {
+   "from": "2026-09-24T15:42:53+00:00",
+   "to": "2026-09-25T15:42:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609251542"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתאת מתקפות אוויריות אינטנסיביות, הכוללות שימוש נרחב בכטב\"מים ופצצות מונחות מצד רוסיה על תשתיות ומטרות אזרחיות באוקראינה, לצד מתקפות נגד אוקראיניות על מתקני אנרגיה בתוך שטחי רוסיה. במקביל, נמשכים המאמצים הדיפלומטיים והסיוע הביטחוני הבינלאומי לאוקראינה, הכולל תמיכה כספית רחבה ודיונים על רישיונות ייצור נשק.",
+  "fronts": [
+   {
+    "name": "חזית קייב והמרכז",
+    "status": "פעילה ותחת תקיפות כטב\"מים"
+   },
+   {
+    "name": "חזית הדרום (אודסה, חרסון ורוסטוב)",
+    "status": "פעילה עם תקיפות הדדיות על תשתיות אנרגיה"
+   },
+   {
+    "name": "חזית הצפון-מזרח (סומי וחרקוב)",
+    "status": "פעילה עם הפגזות ותקיפות אוויריות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09251542-01",
+    "title": "תקיפות כטב\"מים רוסיות בקייב",
+    "summary": "תקיפות כטב\"מים של כוחות רוסיה פגעו במספר מבנים וגרמו לנפגעים בנפש ובגוף, כולל מותם של אזרחים ובהם נער ישראלי.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T11:21:47+00:00",
+    "last_update_at": "2026-09-25T15:02:21+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק מדווח באופן משתנה על ידי מקורות שונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_25aa8c10366175ce",
+      "url": "https://meduza.io/en/news/2026/09/25/russian-strike-on-kyiv-office-building-kills-at-least-four",
+      "published_at": "2026-09-25T15:02:21+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_25aa8c10366175ce",
+      "url": "https://www.ukrinform.net/rubric-ato/4168047-injury-toll-in-russian-drone-attacks-on-kyiv-rises-to-39-five-killed.html",
+      "published_at": "2026-09-25T14:50:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_25aa8c10366175ce",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8055061/",
+      "published_at": "2026-09-25T14:47:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_50c0370b6be41cd7",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8055058/",
+      "published_at": "2026-09-25T14:30:00+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_25aa8c10366175ce",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21488681",
+      "published_at": "2026-09-25T11:44:38+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_25aa8c10366175ce",
+      "url": "https://www.ynet.co.il/news/article/rk6vvaxczg",
+      "published_at": "2026-09-25T11:21:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09251542-02",
+    "title": "מתקפת כטב\"מים אוקראינית על מתקני אנרגיה ברוסיה",
+    "summary": "כטב\"מים אוקראינים תקפו בתי זיקוק ותשתיות אנרגיה ברוסיה, בין היתר ברוסטוב ופרם, וגרמו לשריפות ולעצירת פעילות.",
+    "axis": "מתקפות נגד",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T01:47:56+00:00",
+    "last_update_at": "2026-09-25T11:51:28+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לכלל המתקנים שהותקפו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_1ce188b3d0c14ea9",
+      "url": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations",
+      "published_at": "2026-09-25T11:51:28+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_1ce188b3d0c14ea9",
+      "url": "https://t.me/abualiexpress/130791",
+      "published_at": "2026-09-25T11:34:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_1ce188b3d0c14ea9",
+      "url": "https://t.me/alexmehacarmel/47984",
+      "published_at": "2026-09-25T01:47:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובושאכטינסק, רוסיה",
+      "lat": 47.7963,
+      "lon": 39.8936
+     },
+     {
+      "name": "פרם, רוסיה",
+      "lat": 58.0109,
+      "lon": 56.2319
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09251542-03",
+    "title": "פגיעה בעובדי אנרגיה באזור אודסה",
+    "summary": "פגיעת כטב\"ם רוסי בכלי רכב של עובדי תשתיות אנרגיה באזור אודסה הביאה למות אדם ולפציעת אחר.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T15:10:00+00:00",
+    "last_update_at": "2026-09-25T15:10:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_178565e653cfe71b",
+      "url": "https://www.ukrinform.net/rubric-ato/4168056-russian-drone-strike-on-energy-workers-vehicle-in-odesa-region-kills-one-injures-another.html",
+      "published_at": "2026-09-25T15:10:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09251542-04",
+    "title": "תקיפת פצצות דואה סומי",
+    "summary": "פצצות אוויריות מונחות רוסיות פגעו בשתי זירות שונות בעיר סומי וגרמו לפצועים ולנזק למבנים.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T14:08:00+00:00",
+    "last_update_at": "2026-09-25T14:08:00+00:00",
+    "what_is_not_verified": "ההשלכות המלאות של התקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ed0eda1844c122de",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8055050/",
+      "published_at": "2026-09-25T14:08:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי, אוקראינה",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09251542-05",
+    "title": "אישור סיוע ביטחוני אירופי",
+    "summary": "מדינות האיחוד האירופי הסכימו על הקצאת 6.6 מיליארד אירו במסגרת מתקן השלום האירופי לתמיכה בהגנת אוקראינה.",
+    "axis": "סיוע צבאי וכלכלי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T14:30:00+00:00",
+    "last_update_at": "2026-09-25T14:30:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_55af61c1471b351e",
+      "url": "https://www.ukrinform.net/rubric-polytics/4168041-eu-agrees-on-66-billion-for-ukraines-defense.html",
+      "published_at": "2026-09-25T14:30:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הילדים המדויק שרוסיה העבירה בכוח או מחזיקה בשטחים הכבושים",
+   "ההערכות המדויקות של מודיעין דנמרק לגבי אפשרות לתקיפת נאט\"ו",
+   "פרטי תוכניות הפעולה העתידיות של SpaceX לגבי כיסוי Starlink"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1403,
+    "unit": "USD",
+    "change_pct": 0.32,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת רישיונות לייצור טילי פטריוט",
+     "הרחבת כיסוי האינטרנט של Starlink מעל שטח רוסיה לפגיעה במשגרי טילים",
+     "הגנה על תעשיית הפלדה וגיוס תמיכה בינלאומית"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות האנרגיה והכלכלה בתוך רוסיה כדי לשבש את מאמצי המלחמה",
+     "שימור רציפות תפקודית תחת מתקפות אוויריות קשות"
+    ],
+    "forecast": [
+     "פנייה לגורמים בינלאומיים להגדלת הסיוע האווירי לקראת חודשי החורף",
+     "המשך ניסיונות לסיכול העברות ילדים אוקראינים והשבתם"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "החלשת המשטר בקייב ומניעת תלות מוחלטת בסיוע המערבי"
+    ],
+    "inferred": [
+     "העמקת הפגיעה בתשתיות האנרגיה, התעשייה והמרחב האזרחי באוקראינה לקראת החורף",
+     "שיבוש הפעילות הכלכלית באוקראינה והעמקת משבר התקציב שלה"
+    ],
+    "forecast": [
+     "המשך תקיפות משולבות של כטב\"מים וטילים על ערים מרכזיות באוקראינה",
+     "הגברת הלחץ הצבאי במוקדי עימות שונים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21488681",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8055050/",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130791",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47984",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4168041-eu-agrees-on-66-billion-for-ukraines-defense.html",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rk6vvaxczg",
+    "accessed_at": "2026-09-25T15:42:53+00:00"
+   }
+  ]
+ }
+}

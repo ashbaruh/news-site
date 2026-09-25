@@ -1,0 +1,225 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c192832b4ebb",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-25T15:31:22+00:00",
+  "window": {
+   "from": "2026-09-24T15:31:22+00:00",
+   "to": "2026-09-25T15:31:22+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609251531"
+  },
+  "summary": "העימות נמשך במישור הכלכלי, האווירי והימי, כאשר ארה\"ב וישראל ממשיכות להפעיל לחץ באמצעות סנקציות שמביאות להשעיית טיסות איראניות באזור ולפגיעה קשה בכלכלת איראן. מנגד, איראן מאיימת על התעופה האזורית ומציעה פתיחה מותנית של מצר הורמוז, בעוד שלוחותיה (החות'ים) ממשיכות בירי טילים לעבר סעודיה.",
+  "fronts": [
+   {
+    "name": "החזית הימית ומצר הורמוז",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "חזית הטרור והשלוחות האזוריצות (חות'ים ומילציות)",
+    "status": "פעיל"
+   },
+   {
+    "name": "חזית הסנקציות והתעופה האזרחית",
+    "status": "הסלים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09251531-01",
+    "title": "השעיית טיסות איראניות בשדות תעופה בעיראק ובמדינות נוספות",
+    "summary": "מספר שדות תעופה בעיראק (בגדד, נג'ף, ארביל וסולימאניה) וכן גאורגיה ואזרביג'אן הפסיקו את הטיסות של חברות תעופה איראניות בעקבות סנקציות אמריקאיות",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T07:17:48+00:00",
+    "last_update_at": "2026-09-25T11:33:10+00:00",
+    "what_is_not_verified": "היקף ההשפעה המלא על כלל ציי המטוסים בעולם אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_state_media_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqs-erbil-and-sulaimaniya-airports-suspend-iranian-flights",
+      "published_at": "2026-09-25T11:33:10+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_state_media_reuters",
+      "url": "https://www.ynet.co.il/news/article/rkhu1cxcfl",
+      "published_at": "2026-09-25T11:07:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_state_media_reuters",
+      "url": "https://t.me/abualiexpress/130776",
+      "published_at": "2026-09-25T07:17:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     },
+     {
+      "name": "ארביל, עיראק",
+      "lat": 36.1912,
+      "lon": 44.0094
+     },
+     {
+      "name": "סולימאניה, עיראק",
+      "lat": 35.5571,
+      "lon": 45.4426
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09251531-02",
+    "title": "יירוט טילי בליסטיקה של החות'ים סעודיה",
+    "summary": "הקואליציה בהובלת סעודיה יירטה שישה טילים בליסטיים שנורו על ידי החות'ים לעבר טאיף ואזור ינבוע",
+    "axis": "איראן והשלוחות מול סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T02:54:27+00:00",
+    "last_update_at": "2026-09-25T02:54:27+00:00",
+    "what_is_not_verified": "הנזק המדויק בכל אתרי הפגיעה אינו מאומת לחלוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
+      "published_at": "2026-09-25T02:54:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיף, סעודיה",
+      "lat": 21.2703,
+      "lon": 40.4158
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09251531-03",
+    "title": "הצעת איראן לפתיחת מצר הורמוז תמורת הסרת סנקציות",
+    "summary": "איראן העבירה הצעה לפיה תפתח את מצר הורמוז בתוך שישה ימים ותחל בשיחות גרעין, בתמורה להסרת סנקציות על ייצוא נפט, סיום המלחמה ושחרור נכסים קפואים",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T21:57:34+00:00",
+    "last_update_at": "2026-09-24T21:57:34+00:00",
+    "what_is_not_verified": "תגובתה הרשמית המלאה של ארה\"ב להצעה ספציפית זו אינה מאומתת לחלוטין בטקסטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_the_guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+      "published_at": "2026-09-24T21:57:34+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "תגובת ארה\"ב המדויקת להצעה האחרונה של איראן לגבי פתיחת מצר הורמוז",
+   "מיקומם המדויק של 440 קילוגרם אורניום מועשר באיראן",
+   "השלכות ההסכמים הביטחוניים החדשים בין טורקיה, סעודיה ופקיסטן על הציר האיראני"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להגן על עצמה מפני תקיפות",
+     "לדרוש הסרת סנקציות על ייצוא נפט ושחרור נכסים קפואים בתמורה לפתיחת מצר הורמוז"
+    ],
+    "inferred": [
+     "לנסות לעקוף את המצור הימי והאווירי דרך מעברים יבשתיים",
+     "להפעיל לחץ על מדינות האזור באמצעות פגיעה בתעופה ובנתיבי סחר כדי שישפיעו על ארה\"ב"
+    ],
+    "forecast": [
+     "המשך ניסיונות סחיטה אזוריים סביב חופש הטיסה והשיט",
+     "החרפת מצוקה כלכלית פנימית עקב קריסת הייצוא"
+    ]
+   },
+   {
+    "actor": "ארצות הברית וישראל",
+    "declared": [
+     "למנוע סיוע צבאי ומודיעיני לאיראן מצד מעצמות כמו סין",
+     "לנתק את איראן ממערכת התעופה והפיננסים הבינלאומית באמצעות סנקציות"
+    ],
+    "inferred": [
+     "להפעיל לחץ מקסימלי דרך מצור כלכלי ואווירי כדי למוטט את הכלכלה האיראנית",
+     "לדרוש פירוק של מיליציות פרו-איראניות בעיראק ובמקומות נוספים"
+    ],
+    "forecast": [
+     "החמרת הסנקציות על חברות תעופה וגורמים המסייעים לאיראן",
+     "המשך האבטחה והליווי של מעבר סחורות ונפט במצר הורמוז"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+    "accessed_at": "2026-09-25T15:31:22+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqs-erbil-and-sulaimaniya-airports-suspend-iranian-flights",
+    "accessed_at": "2026-09-25T15:31:22+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130776",
+    "accessed_at": "2026-09-25T15:31:22+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkhu1cxcfl",
+    "accessed_at": "2026-09-25T15:31:22+00:00"
+   }
+  ]
+ }
+}

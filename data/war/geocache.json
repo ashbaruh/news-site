@@ -137,6 +137,10 @@
 28.8323
 ],
 "cyprus": null,
+"damascus international airport, syria": [
+33.4102,
+36.5241
+],
 "damascus, syria": [
 33.5131,
 36.3096
@@ -178,6 +182,10 @@
 "eastern ghouta, syria": [
 33.4878,
 36.3496
+],
+"erbil, iraq": [
+36.1912,
+44.0094
 ],
 "fastiv district, ukraine": [
 50.0734,
@@ -427,6 +435,10 @@
 45.0943,
 33.5752
 ],
+"novoshakhtinsk, russia": [
+47.7963,
+39.8936
+],
 "novotroitske, ukraine": [
 47.7167,
 37.5817
@@ -539,6 +551,10 @@
 39.371,
 -84.2128
 ],
+"southern lebanon": [
+33.2481,
+35.5119
+],
 "southern saudi arabia": [
 28.3667,
 36.544
@@ -548,6 +564,10 @@
 56.2028
 ],
 "strait of hormuz, iran": null,
+"sulaimaniya, iraq": [
+35.5571,
+45.4426
+],
 "sumy oblast, ukraine": null,
 "sumy, ukraine": [
 50.912,
@@ -613,6 +633,7 @@
 32.8011,
 35.8268
 ],
+"wadi al-ruqad, syria": null,
 "wadi al-salouqi, lebanon": null,
 "washington, d.c., united states": [
 38.8951,

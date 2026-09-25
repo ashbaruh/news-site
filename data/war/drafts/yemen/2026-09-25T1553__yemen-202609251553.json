@@ -1,0 +1,356 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a2747e3d71ad",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-25T15:53:48+00:00",
+  "window": {
+   "from": "2026-09-24T15:53:48+00:00",
+   "to": "2026-09-25T15:53:48+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609251553"
+  },
+  "summary": "הלחימה בתימן ובמרחב הים האדום מתאפיינת בהסלמה בהתקפות החות'ים נגד תשתיות ואזורים בסעודיה, לצד התקדמות קרקעית באזור חוף הים האדום. במקביל, הקהילה הבינלאומית וגורמים אזוריים פועלים לבלום את האיומים על נתיבי השיט, כאשר מעצמות כמו צרפת מתגייסות להגנה על מתקני אנרגיה סעודיים ומדינות האזור מקדמות שיתופי פעולה צבאיים.",
+  "fronts": [
+   {
+    "name": "זירת תימן הפנימית וחוף הים האדום",
+    "status": "פעיל והסלמה בלחימה קרקעית"
+   },
+   {
+    "name": "זירת תימן-סעודיה (מתקפות טילים וכטב\"מים)",
+    "status": "פעיל מאוד"
+   },
+   {
+    "name": "הזירה הימית (הים האדום ומצר באב אל-מנדב)",
+    "status": "מתיחות ואיומים על ספנות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09251553-01",
+    "title": "גינוי מועצת הביטחון של האו\"ם להתקפות החות'ים על סעודיה",
+    "summary": "מועצת הביטחון של האו\"ם גינתה בחריפות את ההתקפות המתמשכות של החות'ים נגד סעודיה, כולל פגיעה בתשתיות אזרחיות ואנרגיה.",
+    "axis": "הזירה האזורית והבינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T23:52:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T23:52:57+00:00",
+    "last_update_at": "2026-09-25T15:45:45+00:00",
+    "what_is_not_verified": "פרטים נוספים מעבר להצהרת האו\"ם אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_dbca68f0a066107f",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-security-council-condemns-houthi-attacks-saudi-arabia",
+      "published_at": "2026-09-25T15:45:45+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_dbca68f0a066107f",
+      "url": "https://www.sabanew.net/viewstory/152976",
+      "published_at": "2026-09-25T15:41:35+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_dbca68f0a066107f",
+      "url": "https://www.newarab.com/news/saudi-host-emergency-yemen-talks-iran-submits-new-peace-plan",
+      "published_at": "2026-09-25T14:35:57+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_dbca68f0a066107f",
+      "url": "https://www.al-monitor.com/originals/2026/09/un-security-council-condemns-houthi-attacks-saudi-arabia",
+      "published_at": "2026-09-25T14:30:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_63c28083cebadb2e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-security-council-condemns-houthi-attacks-saudi",
+      "published_at": "2026-09-25T14:09:13+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_dbca68f0a066107f",
+      "url": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war",
+      "published_at": "2026-09-24T23:52:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09251553-02",
+    "title": "יירוט טילי בליסטיים של החות'ים על ידי סעודיה",
+    "summary": "סעודיה ירטה מספר טילים בליסטיים ששיגרו החות'ים לעבר אזורים שונים בהם טאיף וינבוע.",
+    "axis": "זירת תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T23:34:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-24T23:34:29+00:00",
+    "last_update_at": "2026-09-25T02:54:27+00:00",
+    "what_is_not_verified": "היקף הנזק המלא אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_eba45329ccb51a5b",
+      "url": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
+      "published_at": "2026-09-25T02:54:27+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_44f91c57d108c0cf",
+      "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+      "published_at": "2026-09-24T23:34:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיף, סעודיה",
+      "lat": 21.2703,
+      "lon": 40.4158
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09251553-03",
+    "title": "צרפת תשלח משאבים צבאיים להגנת מתקן הנפט בינבוע",
+    "summary": "נשיא צרפת עמנואל מקרון הודיע על שליחת כוחות, מערכות מכ\"ם והגנה אווירית כדי להגן על מסוף הנפט בינבוע בסעודיה.",
+    "axis": "זירת תימן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T23:33:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-24T23:33:46+00:00",
+    "last_update_at": "2026-09-25T14:04:20+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק לפריסת הכוחות אינו מפורט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_cbabc4b107d826ab",
+      "url": "https://www.france24.com/en/macron-says-military-resources-to-be-sent-to-saudi-arabia",
+      "published_at": "2026-09-25T14:04:20+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_cbabc4b107d826ab",
+      "url": "https://t.me/abualiexpress/130780",
+      "published_at": "2026-09-25T08:26:52+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_cbabc4b107d826ab",
+      "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+      "published_at": "2026-09-24T23:34:29+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_cf9c4e065429541d",
+      "url": "https://www.newarab.com/news/france-send-military-protect-saudi-arabia-macron-says",
+      "published_at": "2026-09-24T23:33:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09251553-04",
+    "title": "החמרה בתת-תזונה בקרב ילדים בתימן עקב הלחימה",
+    "summary": "יוצאיף וסוכנויות סיוע של האו\"ם דיווחו על עלייה חדה במקרי תת-תזונה חמורה בקרב ילדים בתימן עקב שיבושים במערכת הבריאות והלחימה המחודשת.",
+    "axis": "זירת הפנים בתימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T10:46:28+00:00",
+    "last_update_at": "2026-09-25T14:10:51+00:00",
+    "what_is_not_verified": "נתונים מלאים לכלל האזורים בתימן אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_b356ff92069de0ef",
+      "url": "https://www.aljazeera.com/news/2026/9/25/yemen-fighting-displaces-71000-children-worsens-malnutrition-unicef?traffic_source=rss",
+      "published_at": "2026-09-25T14:10:51+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_5ef533950ea4a30a",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168436",
+      "published_at": "2026-09-25T12:00:00+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_7683f109720a5414",
+      "url": "https://www.al-monitor.com/originals/2026/09/child-malnutrition-rises-yemen-fighting-intensifies-says-unicef",
+      "published_at": "2026-09-25T10:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09251553-05",
+    "title": "הבטחת החות'ים שלא לתקוף ספינות אמריקאיות ואירופאיות",
+    "summary": "נציגי החות'ים הבטיחו לאיחוד האירופי ולארה\"ב שלא יתקפו ספינות של מדינות אלו בים האדום וכי פעילותם מכוונת נגד סעודיה.",
+    "axis": "הזירה הימית (ים אדום ובאב אל-מנדב)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T14:24:27+00:00",
+    "last_update_at": "2026-09-25T14:24:27+00:00",
+    "what_is_not_verified": "ההתחייבות בפועל והיציבות שלה לא אומתו באופן רשמי על ידי ארה\"ב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47996",
+      "published_at": "2026-09-25T14:24:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים האדום",
+      "lat": 20.2966,
+      "lon": 38.5343
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים בדבר הימנעות מתקיפת ספינות זרות מסוימות",
+   "מספר הנפגעים המדויק בכל צד כתוצאה מהעימותים האחרונים בתימן",
+   "היקף הנזק המדויק שנגרם למתקני האנרגיה בסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה במטרות בסעודיה",
+     "המשך ההתנגדות"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי על סעודיה באמצעות פגיעה בתשתיות אנרגיה",
+     "הרחבת השליטה באזורים לאורך חוף הים האדום ובאב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדים בסעודיה",
+     "ניסיונות לתחום את העימות הימי כדי למנוע תגובה רחבה מצד מעצמות זרות"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על גבולות הממלכה ותשתיות האנרגיה",
+     "קריאה להכרעת החות'ים"
+    ],
+    "inferred": [
+     "חיזוק שיתוף הפעולה הצבאי והביטחוני עם בעלות ברית (טורקיה, פקיסטן, צרפת) לבלימת האיומים"
+    ],
+    "forecast": [
+     "פריסת אמצעי הגנה אווירית זרים נוספים באתרים אסטרטגיים",
+     "הידוק שיתופי הפעולה במסגרת בריתות הגנה חדשות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/25/yemen-fighting-displaces-71000-children-worsens-malnutrition-unicef?traffic_source=rss",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/child-malnutrition-rises-yemen-fighting-intensifies-says-unicef",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-security-council-condemns-houthi-attacks-saudi",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/france-send-military-protect-saudi-arabia-macron-says",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152976",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130780",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47996",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/09/1168436",
+    "accessed_at": "2026-09-25T15:53:48+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "status": "draft",
+ "received_sha256_12": "16d71b4ec9bf",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-25T16:01:49+00:00",
+  "window": {
+   "from": "2026-09-24T16:01:49+00:00",
+   "to": "2026-09-25T16:01:49+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609251601"
+  },
+  "summary": "בזירה הצפונית נמשכת פעילות צבאית הכוללת פעילות כוחות צה\"ל בדרום לבנון ואירועים בגבול סוריה, לצד מגעים מדיניים והצהרות של בכירים מלבנון ומאזורים שכנים בנוגע להסדרים עתידיים והפסקת אש אפשרית. במקביל מתנהלים חילופי האשמות בין ישראל לטורקיה וגורמים אזוריים נוספים.",
+  "fronts": [
+   {
+    "name": "גבול ישראל-לבנון",
+    "status": "פעיל"
+   },
+   {
+    "name": "גבול ישראל-סוריה",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09251601-01",
+    "title": "דיווחים על מעצר סוהיל אלחסן",
+    "summary": "דיווחים בלבנון על מעצרו של סוהיל אלחסן, מפקד כוחות הנמרים הסורי.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T15:59:19+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T15:59:19+00:00",
+    "last_update_at": "2026-09-25T15:59:19+00:00",
+    "what_is_not_verified": "נכונות המעצר אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47999",
+      "published_at": "2026-09-25T15:59:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09251601-02",
+    "title": "פתיחת טיסות הלילה בשדות התעופה בסוריה",
+    "summary": "ישראל הסירה בשקט את החסימה על הפעלת ציוד ניווט המאפשר טיסות לילה ומזג אוויר קשים בשדות התעופה של דמשק וחלב בסוריה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T12:27:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T12:27:09+00:00",
+    "last_update_at": "2026-09-25T12:27:09+00:00",
+    "what_is_not_verified": "הפרטים נמסרו על ידי גורמים אזוריים בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/israel-quietly-lifts-block-night-flights-syrias-airports",
+      "published_at": "2026-09-25T12:27:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי של דמשק, סוריה",
+      "lat": 33.4102,
+      "lon": 36.5241
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09251601-03",
+    "title": "סיור צבאי ישראלי בדרום סוריה",
+    "summary": "סיור ישראלי נכנס לדרום סוריה באזור ואדי אל-רוקאד ופתח בירי.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T10:48:28+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T10:48:28+00:00",
+    "last_update_at": "2026-09-25T10:48:28+00:00",
+    "what_is_not_verified": "הפרטים מבוססים על דיווח של התקשורת הממלכתית בסוריה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-patrol-enters-southern-syria-opens-fire-state-media/4069126",
+      "published_at": "2026-09-25T10:48:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09251601-04",
+    "title": "שיגור מיירט לעבר מטרה בדרום לבנון",
+    "summary": "שוגר מיירט לעבר מטרה אווירית חשודה שזוהתה במרחב שבו פועלים כוחות צה\"ל בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T11:12:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T11:12:31+00:00",
+    "last_update_at": "2026-09-25T11:34:22+00:00",
+    "what_is_not_verified": "הפרטים היו בבדיקה בזמן הדיווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25223",
+      "published_at": "2026-09-25T11:34:22+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130789",
+      "published_at": "2026-09-25T11:12:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעצרו של סוהיל אלחסן בלבנון",
+   "פרטי המטרה האווירית החשודה בדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "לבנון",
+    "declared": [
+     "סיום המלחמה ושמירה על הפסקת אש",
+     "נסיגת ישראל מכל שטחי לבנון לגבולות המוכרים בהתאם להסכם שביתת הנשק מ-1949 ולחלטה 1701",
+     "מניעת ריק (ואקום) במקרה של נסיגת כוחות יוניפי\"ל"
+    ],
+    "inferred": [
+     "שאיפה לשמור על ריבונות המדינה מבלי להפוך לזירת עימות של צדדים אחרים"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים מול האו\"ם להשגת נסיגה ישראלית"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "שחרור האדמה, הגנה על העם וחזרה לכפרים בדרום לבנון",
+     "נכונות לפתרון מדיני אך דחיית כניעה או מסירת נשק"
+    ],
+    "inferred": [
+     "המשך הלחימה ההגנתית ושמירה על נוכחות צבאית ופוליטית בלבנון"
+    ],
+    "forecast": [
+     "המשך התנגדות מזוינת כל עוד נמשכת הנוכחות הישראלית"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגנה על יישובי הצפון ופעילות נגד תשתיות חיזבאללה"
+    ],
+    "inferred": [
+     "שמירת חופש פעולה צבאי בגבול סוריה ולבנון"
+    ],
+    "forecast": [
+     "המשך פעילות מבצעית ממוקדת בגבולות הצפון בהתאם לצורך"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-patrol-enters-southern-syria-opens-fire-state-media/4069126",
+    "accessed_at": "2026-09-25T16:01:49+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/israel-quietly-lifts-block-night-flights-syrias-airports",
+    "accessed_at": "2026-09-25T16:01:49+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130789",
+    "accessed_at": "2026-09-25T16:01:49+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47999",
+    "accessed_at": "2026-09-25T16:01:49+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25223",
+    "accessed_at": "2026-09-25T16:01:49+00:00"
+   }
+  ]
+ }
+}
