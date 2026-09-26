@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:17:10+00:00",
-  "fetched_at": "2026-09-26T00:17:10+00:00"
+  "checked_at": "2026-09-26T00:38:46+00:00",
+  "fetched_at": "2026-09-26T00:38:46+00:00"
  },
  "animals": {
   "data": [
@@ -43,8 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-26T00:17:20+00:00",
+  "ok": false,
+  "error": "HTTP Error 522: <none>",
+  "checked_at": "2026-09-26T00:39:16+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -79,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:17:22+00:00",
-  "fetched_at": "2026-09-26T00:17:22+00:00"
+  "checked_at": "2026-09-26T00:39:18+00:00",
+  "fetched_at": "2026-09-26T00:39:18+00:00"
  },
- "generated_at": "2026-09-26T00:17:22+00:00",
+ "generated_at": "2026-09-26T00:39:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:17:11+00:00",
-  "fetched_at": "2026-09-26T00:17:11+00:00"
+  "checked_at": "2026-09-26T00:38:47+00:00",
+  "fetched_at": "2026-09-26T00:38:47+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:17:12+00:00",
-  "fetched_at": "2026-09-26T00:17:12+00:00"
+  "checked_at": "2026-09-26T00:38:48+00:00",
+  "fetched_at": "2026-09-26T00:38:48+00:00"
  },
  "tv": {
   "data": [
@@ -2543,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:17:13+00:00",
-  "fetched_at": "2026-09-26T00:17:13+00:00"
+  "checked_at": "2026-09-26T00:38:49+00:00",
+  "fetched_at": "2026-09-26T00:38:49+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2634,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:17:13+00:00",
-  "fetched_at": "2026-09-26T00:17:13+00:00"
+  "checked_at": "2026-09-26T00:38:49+00:00",
+  "fetched_at": "2026-09-26T00:38:49+00:00"
  },
  "ai": {
   "data": {
@@ -2678,7 +2679,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 550,
+     "likes": 551,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2727,14 +2728,14 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 59,
+     "likes": 60,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:17:20+00:00",
-  "fetched_at": "2026-09-26T00:17:20+00:00"
+  "checked_at": "2026-09-26T00:38:57+00:00",
+  "fetched_at": "2026-09-26T00:38:57+00:00"
  },
  "abroad": {
   "data": {
@@ -3022,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:17:16+00:00",
-  "fetched_at": "2026-09-26T00:17:16+00:00"
+  "checked_at": "2026-09-26T00:38:52+00:00",
+  "fetched_at": "2026-09-26T00:38:52+00:00"
  },
  "idf": {
   "data": [
@@ -3054,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:17:17+00:00",
-  "fetched_at": "2026-09-26T00:17:17+00:00"
+  "checked_at": "2026-09-26T00:38:53+00:00",
+  "fetched_at": "2026-09-26T00:38:53+00:00"
  }
 };
