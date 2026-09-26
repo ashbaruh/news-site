@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T07:17:29+00:00",
-  "fetched_at": "2026-09-26T07:17:29+00:00"
+  "checked_at": "2026-09-26T08:17:11+00:00",
+  "fetched_at": "2026-09-26T08:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T07:17:59+00:00",
+  "checked_at": "2026-09-26T08:17:39+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,22 +80,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T07:18:01+00:00",
-  "fetched_at": "2026-09-26T07:18:01+00:00"
+  "checked_at": "2026-09-26T08:17:40+00:00",
+  "fetched_at": "2026-09-26T08:17:40+00:00"
  },
- "generated_at": "2026-09-26T07:18:01+00:00",
+ "generated_at": "2026-09-26T08:17:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בגיל 96, זלמן שובל רוצה להציל את מערכת הבריאות בישראל. ויש לו תוכנית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557582",
-     "date": "2026-09-26T04:44:00+00:00"
+     "title": "מסיירת צנחנים למנכ\"לות בגיל 27: המסלול הלא שגרתי וההחלטה הגורלית של יוחאי עבאדי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557103",
+     "date": "2026-09-26T07:30:00+00:00"
     },
     {
      "title": "דיווח: ההתרעה ממצרים לפני 7 באוקטובר: \"עזה תתפוצץ לכם בפנים\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T07:08:00+00:00"
+     "date": "2026-09-26T07:30:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T07:17:30+00:00",
-  "fetched_at": "2026-09-26T07:17:30+00:00"
+  "checked_at": "2026-09-26T08:17:12+00:00",
+  "fetched_at": "2026-09-26T08:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T07:17:31+00:00",
-  "fetched_at": "2026-09-26T07:17:31+00:00"
+  "checked_at": "2026-09-26T08:17:13+00:00",
+  "fetched_at": "2026-09-26T08:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T07:17:33+00:00",
-  "fetched_at": "2026-09-26T07:17:33+00:00"
+  "checked_at": "2026-09-26T08:17:14+00:00",
+  "fetched_at": "2026-09-26T08:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T07:17:33+00:00",
-  "fetched_at": "2026-09-26T07:17:33+00:00"
+  "checked_at": "2026-09-26T08:17:14+00:00",
+  "fetched_at": "2026-09-26T08:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2665,7 +2665,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 237,
+     "likes": 239,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2679,7 +2679,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 551,
+     "likes": 552,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2693,7 +2693,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 161,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2707,7 +2707,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 66,
+     "likes": 67,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T07:17:39+00:00",
-  "fetched_at": "2026-09-26T07:17:39+00:00"
+  "checked_at": "2026-09-26T08:17:19+00:00",
+  "fetched_at": "2026-09-26T08:17:19+00:00"
  },
  "abroad": {
   "data": {
@@ -3032,8 +3032,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T07:17:36+00:00",
-  "fetched_at": "2026-09-26T07:17:36+00:00"
+  "checked_at": "2026-09-26T08:17:16+00:00",
+  "fetched_at": "2026-09-26T08:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3064,7 +3064,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T07:17:36+00:00",
-  "fetched_at": "2026-09-26T07:17:36+00:00"
+  "checked_at": "2026-09-26T08:17:17+00:00",
+  "fetched_at": "2026-09-26T08:17:17+00:00"
  }
 };
