@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:17:26+00:00",
-  "fetched_at": "2026-09-26T14:17:26+00:00"
+  "checked_at": "2026-09-26T14:44:56+00:00",
+  "fetched_at": "2026-09-26T14:44:56+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T14:17:54+00:00",
+  "checked_at": "2026-09-26T14:45:29+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:17:55+00:00",
-  "fetched_at": "2026-09-26T14:17:55+00:00"
+  "checked_at": "2026-09-26T14:45:30+00:00",
+  "fetched_at": "2026-09-26T14:45:30+00:00"
  },
- "generated_at": "2026-09-26T14:17:55+00:00",
+ "generated_at": "2026-09-26T14:45:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +95,7 @@ window.DB.generated = {
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T14:00:00+00:00"
+     "date": "2026-09-26T14:31:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:17:27+00:00",
-  "fetched_at": "2026-09-26T14:17:27+00:00"
+  "checked_at": "2026-09-26T14:44:58+00:00",
+  "fetched_at": "2026-09-26T14:44:58+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:17:28+00:00",
-  "fetched_at": "2026-09-26T14:17:28+00:00"
+  "checked_at": "2026-09-26T14:44:58+00:00",
+  "fetched_at": "2026-09-26T14:44:58+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:17:29+00:00",
-  "fetched_at": "2026-09-26T14:17:29+00:00"
+  "checked_at": "2026-09-26T14:45:00+00:00",
+  "fetched_at": "2026-09-26T14:45:00+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:17:29+00:00",
-  "fetched_at": "2026-09-26T14:17:29+00:00"
+  "checked_at": "2026-09-26T14:45:00+00:00",
+  "fetched_at": "2026-09-26T14:45:00+00:00"
  },
  "ai": {
   "data": {
@@ -2665,7 +2665,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 241,
+     "likes": 242,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2693,14 +2693,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 166,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2721,7 +2721,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 153,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:17:35+00:00",
-  "fetched_at": "2026-09-26T14:17:35+00:00"
+  "checked_at": "2026-09-26T14:45:09+00:00",
+  "fetched_at": "2026-09-26T14:45:09+00:00"
  },
  "abroad": {
   "data": {
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:17:32+00:00",
-  "fetched_at": "2026-09-26T14:17:32+00:00"
+  "checked_at": "2026-09-26T14:45:04+00:00",
+  "fetched_at": "2026-09-26T14:45:04+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:17:33+00:00",
-  "fetched_at": "2026-09-26T14:17:33+00:00"
+  "checked_at": "2026-09-26T14:45:04+00:00",
+  "fetched_at": "2026-09-26T14:45:04+00:00"
  }
 };
