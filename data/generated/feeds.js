@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T05:17:26+00:00",
-  "fetched_at": "2026-09-26T05:17:26+00:00"
+  "checked_at": "2026-09-26T05:33:24+00:00",
+  "fetched_at": "2026-09-26T05:33:24+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T05:17:53+00:00",
+  "checked_at": "2026-09-26T05:33:59+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T05:17:54+00:00",
-  "fetched_at": "2026-09-26T05:17:54+00:00"
+  "checked_at": "2026-09-26T05:34:01+00:00",
+  "fetched_at": "2026-09-26T05:34:01+00:00"
  },
- "generated_at": "2026-09-26T05:17:54+00:00",
+ "generated_at": "2026-09-26T05:34:01+00:00",
  "globes": {
   "data": {
    "top": [
@@ -93,9 +93,9 @@ window.DB.generated = {
      "date": "2026-09-26T04:44:00+00:00"
     },
     {
-     "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-     "date": "2026-09-25T12:56:00+00:00"
+     "title": "דיווח: ההתרעה ממצרים לפני 7 באוקטובר: \"עזה תתפוצץ לכם בפנים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
+     "date": "2026-09-26T05:00:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T05:17:27+00:00",
-  "fetched_at": "2026-09-26T05:17:27+00:00"
+  "checked_at": "2026-09-26T05:33:25+00:00",
+  "fetched_at": "2026-09-26T05:33:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T05:17:28+00:00",
-  "fetched_at": "2026-09-26T05:17:28+00:00"
+  "checked_at": "2026-09-26T05:33:25+00:00",
+  "fetched_at": "2026-09-26T05:33:25+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T05:17:28+00:00",
-  "fetched_at": "2026-09-26T05:17:28+00:00"
+  "checked_at": "2026-09-26T05:33:28+00:00",
+  "fetched_at": "2026-09-26T05:33:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T05:17:28+00:00",
-  "fetched_at": "2026-09-26T05:17:28+00:00"
+  "checked_at": "2026-09-26T05:33:28+00:00",
+  "fetched_at": "2026-09-26T05:33:28+00:00"
  },
  "ai": {
   "data": {
@@ -2686,7 +2686,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2721,7 +2721,7 @@ window.DB.generated = {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 135,
+     "likes": 136,
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T05:17:34+00:00",
-  "fetched_at": "2026-09-26T05:17:34+00:00"
+  "checked_at": "2026-09-26T05:33:37+00:00",
+  "fetched_at": "2026-09-26T05:33:37+00:00"
  },
  "abroad": {
   "data": {
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T05:17:31+00:00",
-  "fetched_at": "2026-09-26T05:17:31+00:00"
+  "checked_at": "2026-09-26T05:33:33+00:00",
+  "fetched_at": "2026-09-26T05:33:33+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T05:17:31+00:00",
-  "fetched_at": "2026-09-26T05:17:31+00:00"
+  "checked_at": "2026-09-26T05:33:33+00:00",
+  "fetched_at": "2026-09-26T05:33:33+00:00"
  }
 };
