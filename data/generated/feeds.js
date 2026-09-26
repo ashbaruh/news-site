@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:38:46+00:00",
-  "fetched_at": "2026-09-26T00:38:46+00:00"
+  "checked_at": "2026-09-26T01:17:29+00:00",
+  "fetched_at": "2026-09-26T01:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T00:39:16+00:00",
+  "checked_at": "2026-09-26T01:17:57+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:39:18+00:00",
-  "fetched_at": "2026-09-26T00:39:18+00:00"
+  "checked_at": "2026-09-26T01:17:58+00:00",
+  "fetched_at": "2026-09-26T01:17:58+00:00"
  },
- "generated_at": "2026-09-26T00:39:18+00:00",
+ "generated_at": "2026-09-26T01:17:58+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:38:47+00:00",
-  "fetched_at": "2026-09-26T00:38:47+00:00"
+  "checked_at": "2026-09-26T01:17:30+00:00",
+  "fetched_at": "2026-09-26T01:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:38:48+00:00",
-  "fetched_at": "2026-09-26T00:38:48+00:00"
+  "checked_at": "2026-09-26T01:17:31+00:00",
+  "fetched_at": "2026-09-26T01:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:38:49+00:00",
-  "fetched_at": "2026-09-26T00:38:49+00:00"
+  "checked_at": "2026-09-26T01:17:32+00:00",
+  "fetched_at": "2026-09-26T01:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:38:49+00:00",
-  "fetched_at": "2026-09-26T00:38:49+00:00"
+  "checked_at": "2026-09-26T01:17:32+00:00",
+  "fetched_at": "2026-09-26T01:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2658,7 +2658,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
+   "candidates": 10,
    "failed_sources": [],
    "tools": [
     {
@@ -2679,7 +2679,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 551,
+     "likes": 550,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2693,22 +2693,15 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 157,
+     "likes": 159,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 299,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2718,11 +2711,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 150,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 299,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
@@ -2730,12 +2723,19 @@ window.DB.generated = {
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 60,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 150,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:38:57+00:00",
-  "fetched_at": "2026-09-26T00:38:57+00:00"
+  "checked_at": "2026-09-26T01:17:38+00:00",
+  "fetched_at": "2026-09-26T01:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T00:38:52+00:00",
-  "fetched_at": "2026-09-26T00:38:52+00:00"
+  "checked_at": "2026-09-26T01:17:35+00:00",
+  "fetched_at": "2026-09-26T01:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T00:38:53+00:00",
-  "fetched_at": "2026-09-26T00:38:53+00:00"
+  "checked_at": "2026-09-26T01:17:35+00:00",
+  "fetched_at": "2026-09-26T01:17:35+00:00"
  }
 };
