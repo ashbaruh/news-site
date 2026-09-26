@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T17:17:25+00:00",
-  "fetched_at": "2026-09-26T17:17:25+00:00"
+  "checked_at": "2026-09-26T18:04:45+00:00",
+  "fetched_at": "2026-09-26T18:04:45+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T17:17:52+00:00",
+  "checked_at": "2026-09-26T18:05:20+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,17 +80,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T17:17:55+00:00",
-  "fetched_at": "2026-09-26T17:17:55+00:00"
+  "checked_at": "2026-09-26T18:05:21+00:00",
+  "fetched_at": "2026-09-26T18:05:21+00:00"
  },
- "generated_at": "2026-09-26T17:17:55+00:00",
+ "generated_at": "2026-09-26T18:05:21+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"קשרים? מה שאנשים ימצאו ברייכמן זה בני ובנות זוג\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557105",
-     "date": "2026-09-26T16:00:00+00:00"
+     "title": "המועדון הסגור של ההייטק: \"גם עם 40 אלף שקל נטו בחודש אנשים מחפשים הוזלות\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557113",
+     "date": "2026-09-26T18:00:00+00:00"
     },
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T17:17:26+00:00",
-  "fetched_at": "2026-09-26T17:17:26+00:00"
+  "checked_at": "2026-09-26T18:04:46+00:00",
+  "fetched_at": "2026-09-26T18:04:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T17:17:26+00:00",
-  "fetched_at": "2026-09-26T17:17:26+00:00"
+  "checked_at": "2026-09-26T18:04:47+00:00",
+  "fetched_at": "2026-09-26T18:04:47+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T17:17:27+00:00",
-  "fetched_at": "2026-09-26T17:17:27+00:00"
+  "checked_at": "2026-09-26T18:04:49+00:00",
+  "fetched_at": "2026-09-26T18:04:49+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T17:17:27+00:00",
-  "fetched_at": "2026-09-26T17:17:27+00:00"
+  "checked_at": "2026-09-26T18:04:49+00:00",
+  "fetched_at": "2026-09-26T18:04:49+00:00"
  },
  "ai": {
   "data": {
@@ -2647,19 +2647,12 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 4,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2679,7 +2672,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 553,
+     "likes": 554,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2700,7 +2693,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 127,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2728,14 +2721,14 @@ window.DB.generated = {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 144,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T17:17:33+00:00",
-  "fetched_at": "2026-09-26T17:17:33+00:00"
+  "checked_at": "2026-09-26T18:05:00+00:00",
+  "fetched_at": "2026-09-26T18:05:00+00:00"
  },
  "abroad": {
   "data": {
@@ -2996,8 +2989,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T17:17:30+00:00",
-  "fetched_at": "2026-09-26T17:17:30+00:00"
+  "checked_at": "2026-09-26T18:04:52+00:00",
+  "fetched_at": "2026-09-26T18:04:52+00:00"
  },
  "idf": {
   "data": [
@@ -3028,7 +3021,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T17:17:31+00:00",
-  "fetched_at": "2026-09-26T17:17:31+00:00"
+  "checked_at": "2026-09-26T18:04:52+00:00",
+  "fetched_at": "2026-09-26T18:04:52+00:00"
  }
 };
