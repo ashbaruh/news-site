@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:44:56+00:00",
-  "fetched_at": "2026-09-26T14:44:56+00:00"
+  "checked_at": "2026-09-26T15:17:16+00:00",
+  "fetched_at": "2026-09-26T15:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T14:45:29+00:00",
+  "checked_at": "2026-09-26T15:17:47+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:45:30+00:00",
-  "fetched_at": "2026-09-26T14:45:30+00:00"
+  "checked_at": "2026-09-26T15:17:49+00:00",
+  "fetched_at": "2026-09-26T15:17:49+00:00"
  },
- "generated_at": "2026-09-26T14:45:30+00:00",
+ "generated_at": "2026-09-26T15:17:49+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +95,7 @@ window.DB.generated = {
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T14:31:00+00:00"
+     "date": "2026-09-26T15:12:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:44:58+00:00",
-  "fetched_at": "2026-09-26T14:44:58+00:00"
+  "checked_at": "2026-09-26T15:17:18+00:00",
+  "fetched_at": "2026-09-26T15:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:44:58+00:00",
-  "fetched_at": "2026-09-26T14:44:58+00:00"
+  "checked_at": "2026-09-26T15:17:18+00:00",
+  "fetched_at": "2026-09-26T15:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:45:00+00:00",
-  "fetched_at": "2026-09-26T14:45:00+00:00"
+  "checked_at": "2026-09-26T15:17:20+00:00",
+  "fetched_at": "2026-09-26T15:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:45:00+00:00",
-  "fetched_at": "2026-09-26T14:45:00+00:00"
+  "checked_at": "2026-09-26T15:17:20+00:00",
+  "fetched_at": "2026-09-26T15:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2665,7 +2665,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 242,
+     "likes": 244,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2686,14 +2686,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 136,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 167,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:45:09+00:00",
-  "fetched_at": "2026-09-26T14:45:09+00:00"
+  "checked_at": "2026-09-26T15:17:28+00:00",
+  "fetched_at": "2026-09-26T15:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T14:45:04+00:00",
-  "fetched_at": "2026-09-26T14:45:04+00:00"
+  "checked_at": "2026-09-26T15:17:24+00:00",
+  "fetched_at": "2026-09-26T15:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T14:45:04+00:00",
-  "fetched_at": "2026-09-26T14:45:04+00:00"
+  "checked_at": "2026-09-26T15:17:24+00:00",
+  "fetched_at": "2026-09-26T15:17:24+00:00"
  }
 };
