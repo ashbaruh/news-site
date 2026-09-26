@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T04:17:23+00:00",
-  "fetched_at": "2026-09-26T04:17:23+00:00"
+  "checked_at": "2026-09-26T05:17:26+00:00",
+  "fetched_at": "2026-09-26T05:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T04:17:53+00:00",
+  "checked_at": "2026-09-26T05:17:53+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,17 +80,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T04:17:55+00:00",
-  "fetched_at": "2026-09-26T04:17:55+00:00"
+  "checked_at": "2026-09-26T05:17:54+00:00",
+  "fetched_at": "2026-09-26T05:17:54+00:00"
  },
- "generated_at": "2026-09-26T04:17:55+00:00",
+ "generated_at": "2026-09-26T05:17:54+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפה שלכם עשוי להחזיק את הסוד לחיים ארוכים ובריאים יותר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557572",
-     "date": "2026-09-25T16:57:00+00:00"
+     "title": "בגיל 96, זלמן שובל רוצה להציל את מערכת הבריאות בישראל. ויש לו תוכנית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557582",
+     "date": "2026-09-26T04:44:00+00:00"
     },
     {
      "title": "בצל האסון ברצועה: צה\"ל הקפיא את השימוש ברחפנים תוקפים",
@@ -99,6 +99,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "הפה שלכם עשוי להחזיק את הסוד לחיים ארוכים ובריאים יותר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557572",
+     "date": "2026-09-25T16:57:00+00:00"
+    },
     {
      "title": "דרמה בשוק האנרגיה: שותפות לוויתן מבטלת עסקת ענק של 6.7 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557619",
@@ -218,17 +223,12 @@ window.DB.generated = {
      "title": "התשואות זינקו והפאניקה חזרה לוול סטריט: נאסד\"ק ירד ב-1.2%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556999",
      "date": "2026-09-23T20:00:00+00:00"
-    },
-    {
-     "title": "בעיצומה של הדרמה באג\"ח, האסטרטג שאומר למשקיעים: לכו על מניות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557427",
-     "date": "2026-09-23T16:36:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T04:17:24+00:00",
-  "fetched_at": "2026-09-26T04:17:24+00:00"
+  "checked_at": "2026-09-26T05:17:27+00:00",
+  "fetched_at": "2026-09-26T05:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T04:17:25+00:00",
-  "fetched_at": "2026-09-26T04:17:25+00:00"
+  "checked_at": "2026-09-26T05:17:28+00:00",
+  "fetched_at": "2026-09-26T05:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T04:17:26+00:00",
-  "fetched_at": "2026-09-26T04:17:26+00:00"
+  "checked_at": "2026-09-26T05:17:28+00:00",
+  "fetched_at": "2026-09-26T05:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T04:17:26+00:00",
-  "fetched_at": "2026-09-26T04:17:26+00:00"
+  "checked_at": "2026-09-26T05:17:28+00:00",
+  "fetched_at": "2026-09-26T05:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2665,14 +2665,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 235,
+     "likes": 236,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 207,
+     "likes": 209,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2704,18 +2704,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
+     "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 65,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
      "likes": 300,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
-    },
-    {
-     "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 62,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2734,12 +2734,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T04:17:34+00:00",
-  "fetched_at": "2026-09-26T04:17:34+00:00"
+  "checked_at": "2026-09-26T05:17:34+00:00",
+  "fetched_at": "2026-09-26T05:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"סולומון חשוב מדי עבור נונו\": החשש של ווסטהאם",
+     "link": "https://www.one.co.il/Article/534339.html?ref=rss",
+     "date": "2026-09-26T04:44:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "בארה\"ב מפנטזים: התקרה החלומית אליה דני אבדיה יכול להגיע",
      "link": "https://sports.walla.co.il/item/3869801",
@@ -2798,15 +2807,6 @@ window.DB.generated = {
      "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
      "link": "https://sports.walla.co.il/item/3869427",
      "date": "2026-09-23T05:10:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אחרי עסקאות הקיץ: שלל השחקנים שמרוויחים יותר מדני אבדיה",
-     "link": "https://sports.walla.co.il/item/3868820",
-     "date": "2026-09-19T04:46:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T04:17:30+00:00",
-  "fetched_at": "2026-09-26T04:17:30+00:00"
+  "checked_at": "2026-09-26T05:17:31+00:00",
+  "fetched_at": "2026-09-26T05:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T04:17:30+00:00",
-  "fetched_at": "2026-09-26T04:17:30+00:00"
+  "checked_at": "2026-09-26T05:17:31+00:00",
+  "fetched_at": "2026-09-26T05:17:31+00:00"
  }
 };
