@@ -1,0 +1,360 @@
+{
+ "status": "draft",
+ "received_sha256_12": "dc71a2d9c8ef",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-26T05:32:59+00:00",
+  "window": {
+   "from": "2026-09-25T05:32:59+00:00",
+   "to": "2026-09-26T05:32:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609260532"
+  },
+  "summary": "הלחימה בזירת תימן והחות'ים מתאפיינת בהסלמה הכוללת שיגורי טילים וכטב\"מים מצד החות'ים לעבר סעודיה, לצד התקדמות קרקעית של כוחות ממשלת תימן באזור טאעז. במקביל, סעודיה ומדינות אזוריות ובינלאומיות מהדקות את שיתוף הפעולה הצבאי וההגנתי, כולל פריסת אמצעים צרפתיים וקיומן של פסגות חירום ביטחוניות.",
+  "fronts": [
+   {
+    "name": "החזית הפנימית בתימן",
+    "status": "פעילה"
+   },
+   {
+    "name": "חזית סעודיה-תימן",
+    "status": "פעילה והסלמה"
+   },
+   {
+    "name": "הזירה הימית (ים האדום ובאב אל-מנדב)",
+    "status": "פעילה תחת מגבלות הצהרתיות של החות'ים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09260532-01",
+    "title": "יירוט כטב\"מים וטילים בליסטיים לעבר סעודיה",
+    "summary": "כוחות הקואליציה בסעודיה יירו והשמידו טילים בליסטיים וכטב\"מים ששוגרו על ידי החות'ים לעבר הממלכה.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T03:18:55+00:00",
+    "last_update_at": "2026-09-26T05:11:04+00:00",
+    "what_is_not_verified": "היקף הנזק המלא מעבר לדיווחים על היירוט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_c6ddf06a9136dd0c",
+      "url": "https://www.maariv.co.il/breaking-news/article-1370847",
+      "published_at": "2026-09-26T05:11:04+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_c6ddf06a9136dd0c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-coalition-forces-claim-houthi-missile-targeting-khamis-mushait",
+      "published_at": "2026-09-26T03:18:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמיס מושאיט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09260532-02",
+    "title": "התקדמות כוחות ממשלת תימן בטאעז",
+    "summary": "כוחות ממשלת תימן דיווחו על השגת התקדמות בדרום מחוז טאעז, כולל שליטה על הר בזל המאפשר שליטה על קווי האספקה של החות'ים.",
+    "axis": "תימן הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T16:36:18+00:00",
+    "last_update_at": "2026-09-26T05:02:14+00:00",
+    "what_is_not_verified": "השליטה המלאה בכל האזורים שהוכרזו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9b3918a88e7c07a3",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-yemens-government-forces-regain-control-over-taiz-areas",
+      "published_at": "2026-09-26T05:02:14+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_9b3918a88e7c07a3",
+      "url": "https://www.sabanew.net/viewstory/152981",
+      "published_at": "2026-09-25T16:36:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09260532-03",
+    "title": "פניית נשיא תימן לגיוס והצעת חנינה",
+    "summary": "נשיא תימן קרא לאזרחים להתגייס לשורות הצבא והציע חנינה כללית לעורקים ולמורדים החות'ים.",
+    "axis": "תימן הפנימית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T17:56:45+00:00",
+    "last_update_at": "2026-09-26T04:06:49+00:00",
+    "what_is_not_verified": "מידת היענות הציבור והמורדים לקריאה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/yemens-government-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+      "published_at": "2026-09-26T04:06:49+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+      "published_at": "2026-09-26T03:10:43+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20260925-yemen-president-calls-on-his-people-to-mobilise-against-iran-backed-houthis",
+      "published_at": "2026-09-25T20:41:29+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130804",
+      "published_at": "2026-09-25T17:56:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09260532-04",
+    "title": "פגישת ראשי צבאות סעודיה, פקיסטן וטורקיה",
+    "summary": "התקיימה פגישה בריאד של ראשי הצבאות במסגרת הברית הצבאית לחיזוק תיאום צבאי ומודיעיני עקב התקיפות החות'יות.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T09:58:37+00:00",
+    "last_update_at": "2026-09-25T20:46:37+00:00",
+    "what_is_not_verified": "החלטות מבצעיות סודיות שהתקבלו בפגישה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_65da733452833654",
+      "url": "https://www.al-monitor.com/originals/2026/09/pakistani-saudi-turkish-chiefs-discuss-closer-military-ties",
+      "published_at": "2026-09-25T20:46:37+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_20c8b1631c3cc0ee",
+      "url": "https://www.newarab.com/news/saudi-turkey-pakistan-military-chiefs-discuss-houthi-attacks",
+      "published_at": "2026-09-25T09:58:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09260532-05",
+    "title": "הבטחות החות'ים לאירופה ולארה\"ב בנוגע לספינות",
+    "summary": "נציגי החות'ים העבירו הודעה לפיה אין כוונה לפגוע בספינות אירופיות או אמריקאיות בים האדום וכי פעילותם מכוונת נגד סעודיה וממשלת תימן בלבד.",
+    "axis": "הים האדום",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T14:24:27+00:00",
+    "last_update_at": "2026-09-25T19:58:09+00:00",
+    "what_is_not_verified": "האם ההתחייבויות יכובדו בפועל לאורך זמן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
+      "published_at": "2026-09-25T19:58:09+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/47996",
+      "published_at": "2026-09-25T14:24:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים האדום",
+      "lat": 20.2966,
+      "lon": 38.5343
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09260532-06",
+    "title": "הכרזת צרפת על פריסת אמצעים הגנתיים בסעודיה",
+    "summary": "נשיא צרפת הודיע על שליחת משאבים צבאיים ומערכות הגנה אווירית להגנה על מתקן הנפט בינבוע בסעודיה מפני איומי החות'ים.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T08:26:52+00:00",
+    "last_update_at": "2026-09-25T14:04:20+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק להגעת הכוחות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_cbabc4b107d826ab",
+      "url": "https://www.france24.com/en/macron-says-military-resources-to-be-sent-to-saudi-arabia",
+      "published_at": "2026-09-25T14:04:20+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_cbabc4b107d826ab",
+      "url": "https://t.me/abualiexpress/130780",
+      "published_at": "2026-09-25T08:26:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף ההשפעה המלא של הבטחות החות'ים למנוע פגיעה בספינות זרות",
+   "התוצאות המבצעיות המדויקות של פגישת ראשי הצבאות בריאד"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להפעיל לחץ על סעודיה וממשלת תימן",
+     "לטעון כי הפעילות הימית מכוונת נגד סעודיה ולא נגד השיט הבינלאומי הכללי"
+    ],
+    "inferred": [
+     "בידוד סעודיה באמצעות הימנעות מעימות ישיר עם מעצמות כמו ארה\"ב ואירופה",
+     "הרחבת השליטה הטריטוריאלית בתימן"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר סעודיה במקביל לניסיונות לתחום את העימות הימי"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "תבוסה מוחלטת של המיליציה החות'ית",
+     "שיקום ממשלת תימן המוכרת",
+     "הגנה על התשתיות האזרחיות והכלכליות של הממלכה"
+    ],
+    "inferred": [
+     "בניית קואליציה צבאית והגנתית רחבה (כולל טורקיה ופקיסטן, וסיוע מבריטניה ומצרפת) כדי לבלום את החות'ים"
+    ],
+    "forecast": [
+     "הגברת הפעילות הצבאית המשולבת ופריסת אמצעי הגנה אוויריים נוספים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/pakistani-saudi-turkish-chiefs-discuss-closer-military-ties",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/macron-says-military-resources-to-be-sent-to-saudi-arabia",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1370847",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-told-eu-they-have-no-intention-attack-european-ships-report",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-turkey-pakistan-military-chiefs-discuss-houthi-attacks",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/152981",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130780",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/47996",
+    "accessed_at": "2026-09-26T05:32:59+00:00"
+   }
+  ]
+ }
+}

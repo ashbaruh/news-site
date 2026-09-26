@@ -1,0 +1,238 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fba2772b0fe2",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 1,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-26T05:34:04+00:00",
+  "window": {
+   "from": "2026-09-25T05:34:04+00:00",
+   "to": "2026-09-26T05:34:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609260534"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בלחימה מתמשכת בין ישראל לחיזבאללה בלבנון, הכוללת תקיפות ארטילריות ואוויריות לצד היערכות מחודשת של צה\"ל והצהרות על שלבי לחימה חדשים. במקביל, מתנהלים מגעים מדיניים והצעות הפוגה בינלאומיות, בעוד שבזירת סוריה ניכרת רגיעה מסוימת סביב הפעלת מערכות הניווט האווירי.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה עם תקיפות הדדיות והיערכות קרקעית"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "יציבה יחסית עם התאמות בתשתיות התעופה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09260534-01",
+    "title": "תקיפות והפגזות בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות, הפגזות ארטילריות וירי פוספור בדרום לבנון במספר אזורים.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T17:46:04+00:00",
+    "last_update_at": "2026-09-26T02:56:06+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל אתר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_anadolu_agency",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-use-phosphorus-shells-in-southern-lebanon-attacks/4069836",
+      "published_at": "2026-09-26T02:56:06+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_anadolu_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-attacks-southern-lebanon",
+      "published_at": "2026-09-25T22:34:09+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_anadolu_agency",
+      "url": "https://english.almanar.com.lb/article/130742/",
+      "published_at": "2026-09-25T17:46:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה",
+      "lat": 33.3812,
+      "lon": 35.4825
+     },
+     {
+      "name": "צור",
+      "lat": 33.2721,
+      "lon": 35.1964
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09260534-02",
+    "title": "זיהוי שווא ושיגור מיירט בדרום לבנון",
+    "summary": "דובר צה\"ל דיווח על שיגור מיירט לעבר מטרה חשודה בדרום לבנון, ובתחקור ראשוני התברר כמדובר בזיהוי שווא.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T11:34:22+00:00",
+    "last_update_at": "2026-09-25T19:56:14+00:00",
+    "what_is_not_verified": "פרטי התחקור המלאים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_859ee34c29521bb1",
+      "url": "https://www.maariv.co.il/breaking-news/article-1370804",
+      "published_at": "2026-09-25T19:56:14+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_859ee34c29521bb1",
+      "url": "https://t.me/idf_telegram/25225",
+      "published_at": "2026-09-25T19:50:10+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_859ee34c29521bb1",
+      "url": "https://t.me/idf_telegram/25223",
+      "published_at": "2026-09-25T11:34:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09260534-03",
+    "title": "הפעלת מערכות ניווט אווירי בסוריה",
+    "summary": "השלמת כיול ובדיקות אוויריות למערכות ניווט חדשות בנמלי התעופה בדמשק ובחלב, לאחר הסרת מניעות ישראליות.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T20:21:02+00:00",
+    "last_update_at": "2026-09-25T20:21:02+00:00",
+    "what_is_not_verified": "ההסכמות המדויקות מול ישראל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_enab_baladi_middle_east_eye",
+      "url": "https://english.enabbaladi.net/archives/2026/09/israel-backs-off-targeting-syrias-air-navigation-systems/",
+      "published_at": "2026-09-25T20:21:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי דמשק",
+      "lat": 33.4102,
+      "lon": 36.5241
+     },
+     {
+      "name": "נמל התעופה הבינלאומי חלב",
+      "lat": 36.181,
+      "lon": 37.2243
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דיווחים בלבנון על מעצרו של סוהיל אלחסן, מפקד כוחות הנמרים הסורי",
+   "הפרטים המדויקים על הסרת ההתנגדות היראלית למערכות הניווט בסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פגיעה בתשתיות חיזבאללה",
+     "יצירת עומק הגנתי בדרום לבנון"
+    ],
+    "inferred": [
+     "מניעת התבססות מחודשת של חזיתות תמיכה באזור הגבול",
+     "המשך לחץ צבאי לאכיפת הסדרים"
+    ],
+    "forecast": [
+     "המשך מבצעים נקודתיים בדרום לבנון",
+     "שימור מוכנות לעימות רחב יותר בצפון ובמזרח"
+    ]
+   },
+   {
+    "actor": "חיזבאללה ולבנון",
+    "declared": [
+     "שמירת יכולת ההגנה והתנגדות לכיבוש",
+     "יישום החלטות בינלאומיות כגון 1701 ונסיגה ישראלית מלאה"
+    ],
+    "inferred": [
+     "היערכות מחדש של אמצעי לחימה באזורים צפוניים יותר בלבנון",
+     "השתלבות בדיפלומטיה אזורית למניעת קריסה מלאה"
+    ],
+    "forecast": [
+     "המשך מאבק מדיני וצבאי משולב",
+     "ניסיון למנוע וואקום במידה ויאוצתו הסדרי כוחות האו\"ם"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/130742/",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-use-phosphorus-shells-in-southern-lebanon-attacks/4069836",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/israel-backs-off-targeting-syrias-air-navigation-systems/",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1370804",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-attacks-southern-lebanon",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25223",
+    "accessed_at": "2026-09-26T05:34:04+00:00"
+   }
+  ]
+ }
+}

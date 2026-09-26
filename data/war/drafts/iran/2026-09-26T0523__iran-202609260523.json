@@ -1,0 +1,317 @@
+{
+ "status": "draft",
+ "received_sha256_12": "218a5539b145",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 3,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-26T05:23:08+00:00",
+  "window": {
+   "from": "2026-09-25T05:23:08+00:00",
+   "to": "2026-09-26T05:23:08+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609260523"
+  },
+  "summary": "הזירה מתאפיינת במגעים דיפלומטיים עקיפים ועימות מתמשך סביב סוגיות הגרעין, חופש השיט במצר הורמוז והסנקציות הכלכליות. איראן הציעה הצעה להפוגה ופתיחת נתיבי השיט, בעוד בארה\"ב נבחנת האפשרות לדחות הכרעות לכשלאחר בחירות האמצע ולחדש את הלחץ והתקיפות. במקביל, מתקיימות הגבלות תעופה אזוריות וחילופי איומים בין איראן לבין מדינות המפרץ.",
+  "fronts": [
+   {
+    "name": "ציר איראן-ארה\"ב",
+    "status": "פעיל עם מגעים עקיפים"
+   },
+   {
+    "name": "ציר איראן והמפרץ",
+    "status": "מתיחות וצעדים כלכליים-תעופתיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09260523-01",
+    "title": "פגישת שרי חוץ של איראן ועומאן",
+    "summary": "שר חוץ עומאן ושר החוץ של איראן דנו בניו יורק על סוגיות ניווט במצרי הורמוז ומאמצים דיפלומטיים להפגת המתיחות האזורית.",
+    "axis": "ציר איראן-עומאן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T04:13:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T04:13:50+00:00",
+    "last_update_at": "2026-09-26T04:13:50+00:00",
+    "what_is_not_verified": "האם השיחות יבשילו להסכמות מעשיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5cdc8025ab7f7333",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-and-iran-discuss-hormuz-navigation-regional-tensions-unga",
+      "published_at": "2026-09-26T04:13:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09260523-02",
+    "title": "הצעת איראן לפתוח את מצר הורמוז",
+    "summary": "איראן הציעה לארצות הברית תוכנית בת שבעה ימים לפתיחת מצר הורמוז וסיום הלחימה בתמורה לתנאים מסוימים והסרת סנקציות.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T21:30:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T21:30:28+00:00",
+    "last_update_at": "2026-09-26T04:28:58+00:00",
+    "what_is_not_verified": "טיב התגובה הרשמית של ארה\"ב והאם ההצעה תתקבל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss",
+      "published_at": "2026-09-26T04:28:58+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan",
+      "published_at": "2026-09-26T02:46:30+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+      "published_at": "2026-09-26T02:06:07+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-proposes-plan-reopen-hormuz-within-seven-days-minister",
+      "published_at": "2026-09-25T21:30:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09260523-03",
+    "title": "אמירת נשיא איראן על פקחי האו\"ם",
+    "summary": "נשיא איראן מסר ארצה כי מדינתו תאפשר לפקחי הגרעין של האו\"ם לשוב למדינה במסגרת הסכמים עתידיים.",
+    "axis": "ציר איראן-או\"ם",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T03:36:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T03:36:50+00:00",
+    "last_update_at": "2026-09-26T03:36:50+00:00",
+    "what_is_not_verified": "האם הפקחים יורשו להיכנס בפועל ללא מגבלות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_cbs_news",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-iran-will-allow-un-nuclear-inspectors-return",
+      "published_at": "2026-09-26T03:36:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09260523-04",
+    "title": "השעיית טיסות לאיראן והגבלות תעופה",
+    "summary": "עיראק ואיחוד האמירויות השעו טיסות של חברות תעופה איראניות עקב סנקציות אמריקאיות, ובכיר איראני הגיב באיומים על התעופה האזורית.",
+    "axis": "ציר איראן והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T11:07:57+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T11:07:57+00:00",
+    "last_update_at": "2026-09-25T13:51:55+00:00",
+    "what_is_not_verified": "טווח ההשפעה המלא של האיומים האיראניים על מדינות האזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130798",
+      "published_at": "2026-09-25T13:51:55+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130792",
+      "published_at": "2026-09-25T11:58:42+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkhu1cxcfl",
+      "published_at": "2026-09-25T11:07:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ף, עיראק",
+      "lat": 32.001,
+      "lon": 44.33
+     },
+     {
+      "name": "ארביל, עיראק",
+      "lat": 36.1912,
+      "lon": 44.0094
+     },
+     {
+      "name": "סולימאניה, עיראק",
+      "lat": 35.5571,
+      "lon": 45.4426
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09260523-05",
+    "title": "פגישת שרי החוץ של איראן וסעודיה",
+    "summary": "שר החוץ של איראן נועד עם מקבילו הסעודי בשולי עצרת האו\"ם בניו יורק.",
+    "axis": "ציר איראן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T20:29:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T20:29:30+00:00",
+    "last_update_at": "2026-09-25T20:29:30+00:00",
+    "what_is_not_verified": "תוכנם המלא של ההסכמות שהושגו בפגישה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_4f817e48cdd200d0",
+      "url": "https://en.irna.ir/news/86274377/Foreign-Ministers-of-Iran-and-Saudi-Arabia-meet-in-New-York",
+      "published_at": "2026-09-25T20:29:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דחיית ההצעה האיראנית בידי הנשיא טראמפ באופן סופי",
+   "לוחות הזמנים המדויקים לחידוש התקיפות",
+   "היקף התמיכה המלאה של אירופה בפעולות צבאיות"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "מניעת נשק גרעיני אינה אסורה דתית אך פיתוח נשק גרעיני הוא חראם",
+     "פתיחת מצר הורמוז תמורת הסרת סנקציות"
+    ],
+    "inferred": [
+     "שאיפה להקל את הלחץ הכלכלי באמצעות פשרות טקטיות",
+     "ניסיון לבלום פעולות צבאיות נגדה דרך איומים אזוריים"
+    ],
+    "forecast": [
+     "המשך ניסיונות תיווך דרך צדדים שלישיים",
+     "החמרת הצעדים סביב תשתיות אזוריות אם הסנקציות יימשכו"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן",
+     "המשך הפעלת לחץ כלכלי"
+    ],
+    "inferred": [
+     "המתנה לבחירות האמצע בטרם קבלת החלטות צבאיות דרמטיות",
+     "דרישה לתמורות רחבות יותר מאשר הפוגה קצרה"
+    ],
+    "forecast": [
+     "אפשרות לחידוש התקיפות בהתאם לשיקולים פוליטיים פנימיים",
+     "המשך הסנקציות על חברות תעופה וגופים איראניים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/iran-proposes-plan-reopen-hormuz-within-seven-days-minister",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86274377/Foreign-Ministers-of-Iran-and-Saudi-Arabia-meet-in-New-York",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-iran-will-allow-un-nuclear-inspectors-return",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130792",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkhu1cxcfl",
+    "accessed_at": "2026-09-26T05:23:08+00:00"
+   }
+  ]
+ }
+}

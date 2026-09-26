@@ -1,0 +1,478 @@
+{
+ "status": "draft",
+ "received_sha256_12": "078a15bffc4f",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 1,
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-26T05:31:09+00:00",
+  "window": {
+   "from": "2026-09-25T05:31:09+00:00",
+   "to": "2026-09-26T05:31:09+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609260531"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בלחימה עצימה הכוללת מתקפות כטב\"מים נרחבות של רוסיה לעבר ערי אוקראינה ופגיעה בתשתיות אזרחיות ודיגיטליות, לצד תקיפות נגד אוקראיניות המכוונות אל בתי זיקוק ומתקני אנרגיה בתוך שטח רוסיה. במקביל, מתנהלים קרבות קשים בחזית המזרחית, במיוחד בגזרת לימאן ודונייצק, בזמן שזירת המגע הדיפלומטי והבינלאומי עוסקת בסנקציות, בוויכוחים על השתתפות רוסית בכינוסים בינלאומיים ובסיוע צבאי מערבי לאוקראינה.",
+  "fronts": [
+   {
+    "name": "חזית קייב ומרכז אוקראינה",
+    "status": "פעילה (תקיפות כטב\"מים ונזק לתשתיות)"
+   },
+   {
+    "name": "חזית המזרח (דונייצק / לימאן / ז'רבץ)",
+    "status": "פעילה ולחץ התקפי אוקראיני"
+   },
+   {
+    "name": "עומק רוסיה (קרסנודאר ופרם)",
+    "status": "תחת מתקפות כטב\"מים על בתי זיקוק"
+   },
+   {
+    "name": "המרחב האווירי (מפרץ פינלנד)",
+    "status": "דריכות ויירוטים משותפים של שוודיה ופינלנד"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09260531-01",
+    "title": "תקיפות כטב\"מים רוסיות בקייב",
+    "summary": "כטב\"מים רוסיים פגעו במספר מוקדים בקייב, גרמו לפצועים, להרוגים ולנזק למבני מגורים, משרדים ומרכזי נתונים ותקשורת.",
+    "axis": "מתקפות אוויריות ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T11:21:47+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T11:21:47+00:00",
+    "last_update_at": "2026-09-26T05:18:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק וההיקף המלא של הנזק לתשתיות הדיגיטליות טרם אושרו סופית מכלל הגורמים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.ukrinform.net/rubric-ato/4168195-russian-drone-hits-between-apartment-building-and-store-in-kyivs-solomianskyi-district-injuries-reported.html",
+      "published_at": "2026-09-26T05:18:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.ukrinform.net/rubric-ato/4168193-adf-neutralizes-134-russian-drones-used-to-attack-ukraine.html",
+      "published_at": "2026-09-26T04:59:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055119/",
+      "published_at": "2026-09-26T04:55:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_0ee66bd23856d09f",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055123/",
+      "published_at": "2026-09-26T04:33:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres",
+      "published_at": "2026-09-26T04:00:25+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.ukrinform.net/rubric-ato/4168181-office-building-catches-fire-in-kyiv-following-drone-attack.html",
+      "published_at": "2026-09-26T03:59:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-25T20:47:49+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-attacks-on-kyiv-kill-7-including-14-year-old-boy/",
+      "published_at": "2026-09-25T17:51:58+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21488961",
+      "published_at": "2026-09-25T14:01:31+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21488681",
+      "published_at": "2026-09-25T11:44:38+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_5f1ee00dd4a4a2f4",
+      "url": "https://www.ynet.co.il/news/article/rk6vvaxczg",
+      "published_at": "2026-09-25T11:21:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-02",
+    "title": "תקיפת מתקני אנרגיה ברוסיה",
+    "summary": "כטב\"מים אוקראיניים תקפו את בית הזיקוק בילסקי בקרסנודאר ואת בית הזיקוק בפרם, וגרמו לשריפות ולעצירת פעילות.",
+    "axis": "תקיפת תשתיות אנרגיה בעומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T11:34:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T11:34:01+00:00",
+    "last_update_at": "2026-09-26T01:06:20+00:00",
+    "what_is_not_verified": "אישור רשמי מטעם שלטונות רוסיה על מלוא היקף הנזק בבתי הזיקוק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/drone-attack-reportedly-hits-russias-ilsky-oil-refinery-sparks-fire/",
+      "published_at": "2026-09-26T01:06:20+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://tass.com/politics/2193179",
+      "published_at": "2026-09-26T00:50:01+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055117/",
+      "published_at": "2026-09-26T00:33:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://meduza.io/en/news/2026/09/25/reuters-russia-s-seventh-largest-refinery-halts-operations-after-a-ukrainian-drone-attack",
+      "published_at": "2026-09-25T19:56:32+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://t.me/abualiexpress/130791",
+      "published_at": "2026-09-25T11:34:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פרם, רוסיה",
+      "lat": 58.0109,
+      "lon": 56.2319
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-03",
+    "title": "התקדמות ולחימה בגזרת לימאן",
+    "summary": "הכוחות האוקראיניים הגבירו את הפעילות ההתקפית בגזרת לימאן וז'רבץ, ניסו לדחוק את הכוחות הרוסיים ולהתבסס באזורים סמוכים.",
+    "axis": "חזית המזרח (דונייצק)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-25T18:17:32+00:00",
+    "last_update_at": "2026-09-25T18:58:40+00:00",
+    "what_is_not_verified": "היקף השליטה המדויק באזורים האפורים וביישובים השונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ribar_channel",
+      "url": "https://t.me/alexmehacarmel/48005",
+      "published_at": "2026-09-25T18:58:40+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ribar_channel",
+      "url": "https://t.me/alexmehacarmel/48004",
+      "published_at": "2026-09-25T18:17:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לימאן, אוקראינה",
+      "lat": 48.9801,
+      "lon": 37.8168
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-04",
+    "title": "קריאת סנאטורים אמריקאים לביטול הזמנת פוטין ל-G20",
+    "summary": "קבוצת סנאטורים דו-מפלגתית בארצות הברית קראה לנשיא דונלד טראמפ לחזור בו מההזמנה שהוענקה לוולדימיר פוטין להשתתף בפסגת ה-G20 במיאמי.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-25T20:47:15+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T20:47:15+00:00",
+    "last_update_at": "2026-09-26T04:52:53+00:00",
+    "what_is_not_verified": "האם פוטין יחליט להגיע לבסוף לפסגה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/us-senators-push-trump-to-rescind-putins-invitation-to-g20-summit/",
+      "published_at": "2026-09-26T04:52:53+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055118/",
+      "published_at": "2026-09-26T01:05:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://meduza.io/en/news/2026/09/25/bipartisan-group-of-14-u-s-senators-urges-trump-to-withdraw-putin-s-g20-invitation",
+      "published_at": "2026-09-25T20:47:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיאמי, ארצות הברית",
+      "lat": 25.7742,
+      "lon": -80.1936
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-05",
+    "title": "אישור סיוע צבאי נוסף מארצות הברית",
+    "summary": "ארצות הברית אישרה והודיעה על הזמנת ציוד צבאי נוסף בשווי עשרות מיליוני דולרים עבור אוקראינה.",
+    "axis": "סיוע צבאי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T04:18:00+00:00",
+    "last_update_at": "2026-09-26T04:18:00+00:00",
+    "what_is_not_verified": "רשימת הציוד המלאה והמועד המדויק של הגעתו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-polytics/4168182-us-approves-more-than-90m-in-additional-military-aid-for-ukraine.html",
+      "published_at": "2026-09-26T04:18:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-06",
+    "title": "הסרת סנקציות מאיש העסקים פרידמן ואוסמנוב והארכת המגבלות",
+    "summary": "האיחוד האירופי הסיר את הסנקציות מעל שני מיליארדרים רוסים והאריך את שאר רשימת הסנקציות בשלוש שנים.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-25T20:12:51+00:00",
+    "last_update_at": "2026-09-25T20:12:51+00:00",
+    "what_is_not_verified": "לא ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_bcf4d11a076a8b70",
+      "url": "https://meduza.io/en/cards/the-eu-lifted-sanctions-on-russian-billionaires-alisher-usmanov-and-mikhail-fridman-but-extended-restrictions-on-more-than-3-000-others-for-three-years-here-s-how-that-deal-works",
+      "published_at": "2026-09-25T20:12:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09260531-07",
+    "title": "ירוט משותף של מטוסים רוסים על ידי פינלנד ושוודיה",
+    "summary": "פינלנד ושוודיה ביצעו לראשונה משימת יירוט משותפת של מטוסים רוסיים מעל מפרץ פינלנד.",
+    "axis": "מרחב אווירי ואירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T02:40:33+00:00",
+    "last_update_at": "2026-09-26T02:40:33+00:00",
+    "what_is_not_verified": "לא ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/finland-sweden-launch-first-joint-intercept-of-russian-jets-over-gulf-of-finland/",
+      "published_at": "2026-09-26T02:40:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ פינלנד",
+      "lat": 59.8737,
+      "lon": 26.323
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על מעורבות מנהיגים אירופאים בתוכניות שחיתות באוקראינה",
+   "טענות גורמים רוסים כי המערב מכשיר גורמים באוקראינה לייצר פצצות מצעצועי ילדים",
+   "דיווחים על כך שטראמפ קרא לזלנסקי לנסוע למוסקבה לפגישה עם פוטין",
+   "ההערכות הרוסיות לגבי ההפסדים האוקראיניים והיכולת לפצות עליהם"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1403,
+    "unit": "USD",
+    "change_pct": 0.32,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "להגיב על פרובוקציות ומתקפות אוקראיניות לפי אינטרסים רוסיים",
+     "לפעול בהתאם לצרכים צבאיים וללא כוונה לתקוף את אירופה"
+    ],
+    "inferred": [
+     "שחיקת הכלכלה והתשתיות הדיגיטליות של אוקראינה לקראת החורף",
+     "פגיעה ביכולות הזיקוק והאספקה של הצבא האוקראיני והעמקת השליטה במזרח אוקראינה"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות על תשתיות חיוניות ואנרגיה באוקראינה",
+     "המשך לחץ קרקעי בגזרות המזרחיות דוגמת לימאן"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "בחינת תנאים לחזרה אפשרית למשא ומתן בתנאים מסוימים",
+     "הגנה על האוכלוסייה והתשתיות מפני תקיפות אוויריות"
+    ],
+    "inferred": [
+     "פגוע במתקני אנרגיה ותעשייה צבאית בעומק רוסיה כדי לשבש את שרשרת האספקה שלה",
+     "בלימת ההתקדמות הרוסית במזרח וביצוע התקפות נגד מקומיות בגזרת לימאן"
+    ],
+    "forecast": [
+     "המשך שימוש בזהות כטב\"מים ארוכי טווח לתקיפת מטרות אסטרטגיות ברוסיה",
+     "פנייה מתמשכת למדינות המערב לקבלת חיזוק הגנה אווירית וסיוע צבאי"
+    ]
+   },
+   {
+    "actor": "ארצות הברית והמערב",
+    "declared": [
+     "המשך תמיכה צבאית ומתן ציוד לאוקראינה",
+     "שמירת לחץ כלכלי באמצעות סנקציות מורחבות על רוסיה"
+    ],
+    "inferred": [
+     "התלבטות באשר לשילוב או בידוד דיפלומטי של רוסיה במסגרות כמו ה-G20",
+     "האצת תהליכי חימוש והיערכות עצמית של אירופה עד שנת 2030"
+    ],
+    "forecast": [
+     "העברת משלוחי סיוע נוספים לאוקראינה לפי לוחות זמנים מוגדרים",
+     "עימות דיפלומטי מתמשך בנוגע להסרת סנקציות נקודתיות והזמנת מנהיגים רוסים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21488681",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/finland-sweden-launch-first-joint-intercept-of-russian-jets-over-gulf-of-finland/",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/cards/the-eu-lifted-sanctions-on-russian-billionaires-alisher-usmanov-and-mikhail-fridman-but-extended-restrictions-on-more-than-3-000-others-for-three-years-here-s-how-that-deal-works",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055118/",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2193179",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130791",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48004",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4168182-us-approves-more-than-90m-in-additional-military-aid-for-ukraine.html",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rk6vvaxczg",
+    "accessed_at": "2026-09-26T05:31:09+00:00"
+   }
+  ]
+ }
+}

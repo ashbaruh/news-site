@@ -34,6 +34,10 @@
 33.0732,
 36.1834
 ],
+"aleppo international airport, syria": [
+36.181,
+37.2243
+],
 "aleppo, syria": [
 36.1992,
 37.1637
@@ -119,6 +123,10 @@
 50.3512,
 30.9508
 ],
+"brussels, belgium": [
+50.8467,
+4.3525
+],
 "bucha district, ukraine": [
 50.5449,
 29.8987
@@ -200,6 +208,10 @@
 6.1466
 ],
 "golan heights": null,
+"gulf of finland": [
+59.8737,
+26.323
+],
 "hadera, israel": [
 32.4407,
 34.9401
@@ -234,6 +246,7 @@
 41.0064,
 28.9759
 ],
+"jabal bazel, yemen": null,
 "jamlah, syria": [
 35.1005,
 36.3496
@@ -280,6 +293,10 @@
 35.6927
 ],
 "kfartebnit, lebanon": null,
+"khamis mushait, saudi arabia": [
+18.3,
+42.7333
+],
 "kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
 50.0323,
@@ -318,6 +335,7 @@
 48.7389,
 37.5844
 ],
+"krasnodar krai, russia": null,
 "kryvyi rih, ukraine": [
 47.9103,
 33.3918
@@ -382,6 +400,10 @@
 33.17,
 35.5242
 ],
+"miami, united states": [
+25.7742,
+-80.1936
+],
 "minab, iran": [
 27.1506,
 57.0753
@@ -419,6 +441,10 @@
 35.4825
 ],
 "nahal saluki, lebanon": null,
+"najaf, iraq": [
+32.001,
+44.33
+],
 "new york city, usa": [
 40.7127,
 -74.006
@@ -566,6 +592,10 @@
 ],
 "strait of hormuz, iran": null,
 "sulaimaniya, iraq": [
+35.5571,
+45.4426
+],
+"sulaymaniyah, iraq": [
 35.5571,
 45.4426
 ],
