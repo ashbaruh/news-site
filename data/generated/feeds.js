@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T11:17:24+00:00",
-  "fetched_at": "2026-09-26T11:17:24+00:00"
+  "checked_at": "2026-09-26T12:17:16+00:00",
+  "fetched_at": "2026-09-26T12:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T11:17:54+00:00",
+  "checked_at": "2026-09-26T12:17:44+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T11:17:55+00:00",
-  "fetched_at": "2026-09-26T11:17:55+00:00"
+  "checked_at": "2026-09-26T12:17:45+00:00",
+  "fetched_at": "2026-09-26T12:17:45+00:00"
  },
- "generated_at": "2026-09-26T11:17:55+00:00",
+ "generated_at": "2026-09-26T12:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T11:17:25+00:00",
-  "fetched_at": "2026-09-26T11:17:25+00:00"
+  "checked_at": "2026-09-26T12:17:17+00:00",
+  "fetched_at": "2026-09-26T12:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T11:17:26+00:00",
-  "fetched_at": "2026-09-26T11:17:26+00:00"
+  "checked_at": "2026-09-26T12:17:18+00:00",
+  "fetched_at": "2026-09-26T12:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T11:17:27+00:00",
-  "fetched_at": "2026-09-26T11:17:27+00:00"
+  "checked_at": "2026-09-26T12:17:19+00:00",
+  "fetched_at": "2026-09-26T12:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T11:17:27+00:00",
-  "fetched_at": "2026-09-26T11:17:27+00:00"
+  "checked_at": "2026-09-26T12:17:19+00:00",
+  "fetched_at": "2026-09-26T12:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2658,7 +2658,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 6,
    "failed_sources": [],
    "tools": [
     {
@@ -2711,13 +2711,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 152,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
      "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
      "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
@@ -2725,17 +2718,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 152,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T11:17:35+00:00",
-  "fetched_at": "2026-09-26T11:17:35+00:00"
+  "checked_at": "2026-09-26T12:17:25+00:00",
+  "fetched_at": "2026-09-26T12:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3023,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T11:17:31+00:00",
-  "fetched_at": "2026-09-26T11:17:31+00:00"
+  "checked_at": "2026-09-26T12:17:21+00:00",
+  "fetched_at": "2026-09-26T12:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T11:17:32+00:00",
-  "fetched_at": "2026-09-26T11:17:32+00:00"
+  "checked_at": "2026-09-26T12:17:22+00:00",
+  "fetched_at": "2026-09-26T12:17:22+00:00"
  }
 };
