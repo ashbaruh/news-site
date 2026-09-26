@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T20:17:22+00:00",
-  "fetched_at": "2026-09-26T20:17:22+00:00"
+  "checked_at": "2026-09-26T21:13:41+00:00",
+  "fetched_at": "2026-09-26T21:13:41+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T20:17:35+00:00",
-  "fetched_at": "2026-09-26T20:17:35+00:00"
+  "checked_at": "2026-09-26T21:13:54+00:00",
+  "fetched_at": "2026-09-26T21:13:54+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T20:17:36+00:00",
-  "fetched_at": "2026-09-26T20:17:36+00:00"
+  "checked_at": "2026-09-26T21:13:56+00:00",
+  "fetched_at": "2026-09-26T21:13:56+00:00"
  },
- "generated_at": "2026-09-26T20:17:36+00:00",
+ "generated_at": "2026-09-26T21:13:56+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T20:17:23+00:00",
-  "fetched_at": "2026-09-26T20:17:23+00:00"
+  "checked_at": "2026-09-26T21:13:42+00:00",
+  "fetched_at": "2026-09-26T21:13:42+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,116 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T20:17:24+00:00",
-  "fetched_at": "2026-09-26T20:17:24+00:00"
+  "checked_at": "2026-09-26T21:13:43+00:00",
+  "fetched_at": "2026-09-26T21:13:43+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-26",
-    "time": "15:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "צ'רלטון נשים - מנצ'סטר סיטי נשים"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "16:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "סלובניה - סקוטלנד"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "16:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "קניה - אריתראה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "16:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "דרום אפריקה - גינאה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "16:45",
-    "channel": "ספורט 4",
-    "sport": "כדורסל",
-    "title": "אולימפיאקוס - א.א.ק. אתונה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בולזאק - שוראל רואן"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:00",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "סן מרינו - פינלנד"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "איסלנד - אסטוניה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "19:30",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "טנריפה - קאדיס"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "20:55",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל תל אביב - הפועל ב\"ש/דימונה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "באמברג - לודוויגסבורג"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "21:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "נאנטר - פו אורטז"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "21:45",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "צפון מקדוניה - שוויץ"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "צ'כיה - קרואטיה"
-   },
-   {
-    "date": "2026-09-26",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "אנגליה - ספרד"
-   },
    {
     "date": "2026-09-27",
     "time": "13:30",
@@ -2075,13 +1970,6 @@ window.DB.generated = {
    {
     "date": "2026-09-27",
     "time": "21:45",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "ישראל - אירלנד"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "גרמניה - יוון"
@@ -2092,6 +1980,13 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "נורבגיה - פורטוגל"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ישראל - אירלנד"
    },
    {
     "date": "2026-09-27",
@@ -2582,11 +2477,60 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "בוסניה-הרצגובינה - שבדיה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "12:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "מלבורן יונייטד - קיירנס טייפנס"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "13:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הודו - ברזיל"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "שטרסבורג - בולזאק"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אלבה ברלין - באמברג"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "נאנט - מונפלייה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "21:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "בורק - אלאן שאלון"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "22:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "פאריס - לאנס"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T20:17:26+00:00",
-  "fetched_at": "2026-09-26T20:17:26+00:00"
+  "checked_at": "2026-09-26T21:13:44+00:00",
+  "fetched_at": "2026-09-26T21:13:44+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2676,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T20:17:26+00:00",
-  "fetched_at": "2026-09-26T20:17:26+00:00"
+  "checked_at": "2026-09-26T21:13:44+00:00",
+  "fetched_at": "2026-09-26T21:13:44+00:00"
  },
  "ai": {
   "data": {
@@ -2741,7 +2685,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2766,17 +2710,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 137,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+     "title": "Hum to Song",
+     "desc_en": "Hum a melody, get a finished song",
+     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
+     "likes": 77,
+     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T20:17:34+00:00",
-  "fetched_at": "2026-09-26T20:17:34+00:00"
+  "checked_at": "2026-09-26T21:13:53+00:00",
+  "fetched_at": "2026-09-26T21:13:53+00:00"
  },
  "abroad": {
   "data": {
@@ -3046,8 +2990,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T20:17:30+00:00",
-  "fetched_at": "2026-09-26T20:17:30+00:00"
+  "checked_at": "2026-09-26T21:13:47+00:00",
+  "fetched_at": "2026-09-26T21:13:47+00:00"
  },
  "idf": {
   "data": [
@@ -3078,7 +3022,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T20:17:30+00:00",
-  "fetched_at": "2026-09-26T20:17:30+00:00"
+  "checked_at": "2026-09-26T21:13:48+00:00",
+  "fetched_at": "2026-09-26T21:13:48+00:00"
  }
 };
