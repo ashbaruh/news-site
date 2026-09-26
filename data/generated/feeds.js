@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T08:17:11+00:00",
-  "fetched_at": "2026-09-26T08:17:11+00:00"
+  "checked_at": "2026-09-26T09:17:19+00:00",
+  "fetched_at": "2026-09-26T09:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T08:17:39+00:00",
+  "checked_at": "2026-09-26T09:17:50+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T08:17:40+00:00",
-  "fetched_at": "2026-09-26T08:17:40+00:00"
+  "checked_at": "2026-09-26T09:17:51+00:00",
+  "fetched_at": "2026-09-26T09:17:51+00:00"
  },
- "generated_at": "2026-09-26T08:17:40+00:00",
+ "generated_at": "2026-09-26T09:17:51+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,6 +99,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "לראשונה: ה-SEC הותקף בידי הבינה המלאכותית של OpenAI",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
+     "date": "2026-09-26T07:58:00+00:00"
+    },
     {
      "title": "למה לקנות כשאפשר להדפיס? לאומת \"עשה זאת בעצמך\" יש פתרון לכל דבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557500",
@@ -218,17 +223,12 @@ window.DB.generated = {
      "title": "האם תשואה של 6% נראית באופק? התרחיש שמתחיל להפחיד את השווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557437",
      "date": "2026-09-24T03:27:00+00:00"
-    },
-    {
-     "title": "המגעים על כספי הסיוע האמריקאים תקועים, בצל בחירות האמצע בארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557363",
-     "date": "2026-09-24T03:05:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T08:17:12+00:00",
-  "fetched_at": "2026-09-26T08:17:12+00:00"
+  "checked_at": "2026-09-26T09:17:20+00:00",
+  "fetched_at": "2026-09-26T09:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T08:17:13+00:00",
-  "fetched_at": "2026-09-26T08:17:13+00:00"
+  "checked_at": "2026-09-26T09:17:21+00:00",
+  "fetched_at": "2026-09-26T09:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T08:17:14+00:00",
-  "fetched_at": "2026-09-26T08:17:14+00:00"
+  "checked_at": "2026-09-26T09:17:22+00:00",
+  "fetched_at": "2026-09-26T09:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T08:17:14+00:00",
-  "fetched_at": "2026-09-26T08:17:14+00:00"
+  "checked_at": "2026-09-26T09:17:23+00:00",
+  "fetched_at": "2026-09-26T09:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2658,14 +2658,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 7,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 239,
+     "likes": 240,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2686,7 +2686,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 132,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2707,7 +2707,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 67,
+     "likes": 68,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T08:17:19+00:00",
-  "fetched_at": "2026-09-26T08:17:19+00:00"
+  "checked_at": "2026-09-26T09:17:30+00:00",
+  "fetched_at": "2026-09-26T09:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3032,8 +3032,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T08:17:16+00:00",
-  "fetched_at": "2026-09-26T08:17:16+00:00"
+  "checked_at": "2026-09-26T09:17:26+00:00",
+  "fetched_at": "2026-09-26T09:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3064,7 +3064,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T08:17:17+00:00",
-  "fetched_at": "2026-09-26T08:17:17+00:00"
+  "checked_at": "2026-09-26T09:17:26+00:00",
+  "fetched_at": "2026-09-26T09:17:26+00:00"
  }
 };
