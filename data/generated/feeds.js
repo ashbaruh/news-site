@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T09:17:19+00:00",
-  "fetched_at": "2026-09-26T09:17:19+00:00"
+  "checked_at": "2026-09-26T10:17:28+00:00",
+  "fetched_at": "2026-09-26T10:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T09:17:50+00:00",
+  "checked_at": "2026-09-26T10:17:59+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T09:17:51+00:00",
-  "fetched_at": "2026-09-26T09:17:51+00:00"
+  "checked_at": "2026-09-26T10:18:00+00:00",
+  "fetched_at": "2026-09-26T10:18:00+00:00"
  },
- "generated_at": "2026-09-26T09:17:51+00:00",
+ "generated_at": "2026-09-26T10:18:00+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T09:17:20+00:00",
-  "fetched_at": "2026-09-26T09:17:20+00:00"
+  "checked_at": "2026-09-26T10:17:30+00:00",
+  "fetched_at": "2026-09-26T10:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T09:17:21+00:00",
-  "fetched_at": "2026-09-26T09:17:21+00:00"
+  "checked_at": "2026-09-26T10:17:31+00:00",
+  "fetched_at": "2026-09-26T10:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T09:17:22+00:00",
-  "fetched_at": "2026-09-26T09:17:22+00:00"
+  "checked_at": "2026-09-26T10:17:32+00:00",
+  "fetched_at": "2026-09-26T10:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T09:17:23+00:00",
-  "fetched_at": "2026-09-26T09:17:23+00:00"
+  "checked_at": "2026-09-26T10:17:32+00:00",
+  "fetched_at": "2026-09-26T10:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2679,7 +2679,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 552,
+     "likes": 553,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2693,14 +2693,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2711,18 +2711,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 137,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+    },
+    {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
      "likes": 301,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
-    },
-    {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 136,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T09:17:30+00:00",
-  "fetched_at": "2026-09-26T09:17:30+00:00"
+  "checked_at": "2026-09-26T10:17:40+00:00",
+  "fetched_at": "2026-09-26T10:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2765,15 +2765,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "האם מנור סולומון ייענש בגלל דבריו על השיפוט?",
-     "link": "https://www.one.co.il/Article/534303.html?ref=rss",
-     "date": "2026-09-25T13:24:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -3032,8 +3023,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T09:17:26+00:00",
-  "fetched_at": "2026-09-26T09:17:26+00:00"
+  "checked_at": "2026-09-26T10:17:36+00:00",
+  "fetched_at": "2026-09-26T10:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3064,7 +3055,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T09:17:26+00:00",
-  "fetched_at": "2026-09-26T09:17:26+00:00"
+  "checked_at": "2026-09-26T10:17:36+00:00",
+  "fetched_at": "2026-09-26T10:17:36+00:00"
  }
 };
