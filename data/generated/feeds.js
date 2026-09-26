@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:17:25+00:00",
-  "fetched_at": "2026-09-26T23:17:25+00:00"
+  "checked_at": "2026-09-26T23:39:26+00:00",
+  "fetched_at": "2026-09-26T23:39:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:17:38+00:00",
-  "fetched_at": "2026-09-26T23:17:38+00:00"
+  "checked_at": "2026-09-26T23:39:38+00:00",
+  "fetched_at": "2026-09-26T23:39:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:17:40+00:00",
-  "fetched_at": "2026-09-26T23:17:40+00:00"
+  "checked_at": "2026-09-26T23:39:40+00:00",
+  "fetched_at": "2026-09-26T23:39:40+00:00"
  },
- "generated_at": "2026-09-26T23:17:40+00:00",
+ "generated_at": "2026-09-26T23:39:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:17:26+00:00",
-  "fetched_at": "2026-09-26T23:17:26+00:00"
+  "checked_at": "2026-09-26T23:39:28+00:00",
+  "fetched_at": "2026-09-26T23:39:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:17:26+00:00",
-  "fetched_at": "2026-09-26T23:17:26+00:00"
+  "checked_at": "2026-09-26T23:39:29+00:00",
+  "fetched_at": "2026-09-26T23:39:29+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:17:31+00:00",
-  "fetched_at": "2026-09-26T23:17:31+00:00"
+  "checked_at": "2026-09-26T23:39:30+00:00",
+  "fetched_at": "2026-09-26T23:39:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:17:31+00:00",
-  "fetched_at": "2026-09-26T23:17:31+00:00"
+  "checked_at": "2026-09-26T23:39:30+00:00",
+  "fetched_at": "2026-09-26T23:39:30+00:00"
  },
  "ai": {
   "data": {
@@ -2632,19 +2632,12 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2719,8 +2712,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:17:38+00:00",
-  "fetched_at": "2026-09-26T23:17:38+00:00"
+  "checked_at": "2026-09-26T23:39:37+00:00",
+  "fetched_at": "2026-09-26T23:39:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2990,8 +2983,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:17:34+00:00",
-  "fetched_at": "2026-09-26T23:17:34+00:00"
+  "checked_at": "2026-09-26T23:39:33+00:00",
+  "fetched_at": "2026-09-26T23:39:33+00:00"
  },
  "idf": {
   "data": [
@@ -3022,7 +3015,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:17:35+00:00",
-  "fetched_at": "2026-09-26T23:17:35+00:00"
+  "checked_at": "2026-09-26T23:39:34+00:00",
+  "fetched_at": "2026-09-26T23:39:34+00:00"
  }
 };
