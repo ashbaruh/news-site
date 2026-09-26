@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:17:13+00:00",
-  "fetched_at": "2026-09-26T18:17:13+00:00"
+  "checked_at": "2026-09-26T19:17:18+00:00",
+  "fetched_at": "2026-09-26T19:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -43,10 +43,9 @@ window.DB.generated = {
     "date": "2026-09-19T20:13:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T18:17:46+00:00",
-  "fetched_at": "2026-09-26T00:17:20+00:00"
+  "ok": true,
+  "checked_at": "2026-09-26T19:17:33+00:00",
+  "fetched_at": "2026-09-26T19:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -80,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:17:48+00:00",
-  "fetched_at": "2026-09-26T18:17:48+00:00"
+  "checked_at": "2026-09-26T19:17:34+00:00",
+  "fetched_at": "2026-09-26T19:17:34+00:00"
  },
- "generated_at": "2026-09-26T18:17:48+00:00",
+ "generated_at": "2026-09-26T19:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +94,7 @@ window.DB.generated = {
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T17:09:00+00:00"
+     "date": "2026-09-26T18:17:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:17:14+00:00",
-  "fetched_at": "2026-09-26T18:17:14+00:00"
+  "checked_at": "2026-09-26T19:17:19+00:00",
+  "fetched_at": "2026-09-26T19:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:17:15+00:00",
-  "fetched_at": "2026-09-26T18:17:15+00:00"
+  "checked_at": "2026-09-26T19:17:20+00:00",
+  "fetched_at": "2026-09-26T19:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2509,6 +2508,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-02",
+    "time": "17:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "קזחסטן - מולדובה"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "לטביה - מונטנגרו"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "קפריסין - ארמניה"
+   },
+   {
+    "date": "2026-10-02",
     "time": "20:45",
     "channel": "ספורט 5 מקס",
     "sport": "כדורסל",
@@ -2541,11 +2561,32 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "באסקוניה - אולימפיה מילאנו"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "בלגיה - טורקיה"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "צרפת - איטליה"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "בוסניה-הרצגובינה - שבדיה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:17:20+00:00",
-  "fetched_at": "2026-09-26T18:17:20+00:00"
+  "checked_at": "2026-09-26T19:17:26+00:00",
+  "fetched_at": "2026-09-26T19:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2676,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:17:20+00:00",
-  "fetched_at": "2026-09-26T18:17:20+00:00"
+  "checked_at": "2026-09-26T19:17:26+00:00",
+  "fetched_at": "2026-09-26T19:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2647,46 +2688,39 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 247,
+     "likes": 248,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 212,
+     "likes": 213,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 555,
+     "likes": 556,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2714,7 +2748,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 156,
+     "likes": 157,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2734,12 +2768,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:17:27+00:00",
-  "fetched_at": "2026-09-26T18:17:27+00:00"
+  "checked_at": "2026-09-26T19:17:33+00:00",
+  "fetched_at": "2026-09-26T19:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "30 נקודות למשחק? בארה\"ב מסמנים את הקפיצה הבאה של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3869899",
+     "date": "2026-09-26T19:16:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "\"אבדיה היחיד שעומד בין פורטלנד לבנייה מחדש\"",
      "link": "https://www.one.co.il/Article/534344.html?ref=rss",
@@ -2996,8 +3039,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:17:23+00:00",
-  "fetched_at": "2026-09-26T18:17:23+00:00"
+  "checked_at": "2026-09-26T19:17:29+00:00",
+  "fetched_at": "2026-09-26T19:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -3028,7 +3071,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:17:24+00:00",
-  "fetched_at": "2026-09-26T18:17:24+00:00"
+  "checked_at": "2026-09-26T19:17:30+00:00",
+  "fetched_at": "2026-09-26T19:17:30+00:00"
  }
 };
