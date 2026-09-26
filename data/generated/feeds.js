@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T21:17:25+00:00",
-  "fetched_at": "2026-09-26T21:17:25+00:00"
+  "checked_at": "2026-09-26T22:17:29+00:00",
+  "fetched_at": "2026-09-26T22:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T21:17:35+00:00",
-  "fetched_at": "2026-09-26T21:17:35+00:00"
+  "checked_at": "2026-09-26T22:17:39+00:00",
+  "fetched_at": "2026-09-26T22:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T21:17:37+00:00",
-  "fetched_at": "2026-09-26T21:17:37+00:00"
+  "checked_at": "2026-09-26T22:17:40+00:00",
+  "fetched_at": "2026-09-26T22:17:40+00:00"
  },
- "generated_at": "2026-09-26T21:17:37+00:00",
+ "generated_at": "2026-09-26T22:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T21:17:26+00:00",
-  "fetched_at": "2026-09-26T21:17:26+00:00"
+  "checked_at": "2026-09-26T22:17:30+00:00",
+  "fetched_at": "2026-09-26T22:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T21:17:27+00:00",
-  "fetched_at": "2026-09-26T21:17:27+00:00"
+  "checked_at": "2026-09-26T22:17:31+00:00",
+  "fetched_at": "2026-09-26T22:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T21:17:28+00:00",
-  "fetched_at": "2026-09-26T21:17:28+00:00"
+  "checked_at": "2026-09-26T22:17:32+00:00",
+  "fetched_at": "2026-09-26T22:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T21:17:28+00:00",
-  "fetched_at": "2026-09-26T21:17:28+00:00"
+  "checked_at": "2026-09-26T22:17:32+00:00",
+  "fetched_at": "2026-09-26T22:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2650,14 +2650,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 247,
+     "likes": 248,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 213,
+     "likes": 214,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2685,14 +2685,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 131,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 73,
+     "likes": 75,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2719,8 +2719,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T21:17:34+00:00",
-  "fetched_at": "2026-09-26T21:17:34+00:00"
+  "checked_at": "2026-09-26T22:17:38+00:00",
+  "fetched_at": "2026-09-26T22:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2990,8 +2990,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T21:17:31+00:00",
-  "fetched_at": "2026-09-26T21:17:31+00:00"
+  "checked_at": "2026-09-26T22:17:34+00:00",
+  "fetched_at": "2026-09-26T22:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -3022,7 +3022,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T21:17:32+00:00",
-  "fetched_at": "2026-09-26T21:17:32+00:00"
+  "checked_at": "2026-09-26T22:17:35+00:00",
+  "fetched_at": "2026-09-26T22:17:35+00:00"
  }
 };
