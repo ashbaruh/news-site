@@ -1,88 +1,162 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-25T18:00:00+03:00",
- "generated_at": "2026-09-25T14:40:12+00:00",
+ "slot": "2026-09-26T04:00:00+03:00",
+ "generated_at": "2026-09-26T00:40:24+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
-  "north": {
+  "iran": {
    "events": [
     {
-     "id": "NORTH-09251440-01",
-     "title": "שיגור מיירט בדרום לבנון",
-     "summary": "צה\"ל דיווח על שיגור מיירט לעבר מטרה אווירית חשודה במרחב פעילות הכוחות בדרום לבנון.",
-     "axis": "north",
-     "claim_type": "incident",
+     "id": "IRAN-09260040-01",
+     "title": "הצעת פתרון איראנית לפתיחת מצר הורמוז",
+     "summary": "שר החוץ האיראני הודיע כי הוצגה לארצות הברית תוכנית בת שבעה ימים לפתיחת מצר הורמוז מחדש.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T11:34:22+00:00",
+     "occurred_at": "2026-09-25T23:52:18+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-25T11:34:22+00:00",
-     "last_update_at": "2026-09-25T11:34:22+00:00",
-     "what_is_not_verified": "תוצאות זיהוי המטרה המלאות טרם פורסמו",
+     "first_reported_at": "2026-09-25T23:52:18+00:00",
+     "last_update_at": "2026-09-25T23:52:18+00:00",
+     "what_is_not_verified": "תגובת ארצות הברית הרשמית לתוכנית אינה מאומתת לחלוטין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25223",
-       "published_at": "2026-09-25T11:34:22+00:00"
+       "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss",
+       "published_at": "2026-09-25T23:52:18+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-09260040-02",
+     "title": "הצהרת גיוס דתי בסעודיה נגד החות'ים",
+     "summary": "המופתי הגדול של סעודיה פרסם קריאה דתית להגן על המדינה ולהילחם במיליציה החות'ית.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T21:20:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T21:20:28+00:00",
+     "last_update_at": "2026-09-25T21:20:28+00:00",
+     "what_is_not_verified": "לא מאומתת מידת ההשפעה המעשית של ההצהרה בשטח",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48007",
+       "published_at": "2026-09-25T21:20:28+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-09251440-02",
-     "title": "הסרת מגבלות טיסות הלילה בסוריה",
-     "summary": "גורמים אזוריים ציינו כי ישראל הסירה בשקט את ההגבלה על טיסות לילה בשדות התעופה בסוריה.",
-     "axis": "north",
-     "claim_type": "assessment",
+     "id": "IRAN-09260040-03",
+     "title": "ביקורת איראנית על אירופה",
+     "summary": "דובר משרד החוץ האיראני הצהיר כי יש להטיל על אירופה אחריות בגין השתתפותה בתוקפנות נגד איראן.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T12:27:09+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-25T12:27:09+00:00",
-     "last_update_at": "2026-09-25T12:27:09+00:00",
-     "what_is_not_verified": "אישור רשמי מטעם גורמי הביטחון הישראליים אינו מופיע",
+     "occurred_at": "2026-09-25T20:46:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T20:46:50+00:00",
+     "last_update_at": "2026-09-25T20:46:50+00:00",
+     "what_is_not_verified": "טענות התוקפנות אינן מאומתות באופן עצמאי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86274380/Baqaei-Europe-must-be-held-accountable-for-its-participation",
+       "published_at": "2026-09-25T20:46:50+00:00"
+      }
+     ],
+     "places": []
+    }
+   ]
+  },
+  "north": {
+   "events": [
+    {
+     "id": "NORTH-09260040-01",
+     "title": "תקיפות ישראליות חדשות בדרום לבנון",
+     "summary": "סוכנות הידיעות הרשמית של לבנון דיווחה על הפצצות והפגזות של צבא ישראל במספר אזורים בדרום המדינה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T22:34:09+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T22:34:09+00:00",
+     "last_update_at": "2026-09-25T22:34:09+00:00",
+     "what_is_not_verified": "היקף הנזק המלא אינו מאומת ממקור ראשון",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_middle_east_eye",
-       "url": "https://www.middleeasteye.net/news/israel-quietly-lifts-block-night-flights-syrias-airports",
-       "published_at": "2026-09-25T12:27:09+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-attacks-southern-lebanon",
+       "published_at": "2026-09-25T22:34:09+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-09260040-02",
+     "title": "הפעלת מערכות ניווט אווירי בסוריה",
+     "summary": "ישראל איפשרה למערכות הניווט האווירי בנמלי התעופה בסוריה להיות פעילות לאחר חודשים של בלימה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T20:21:02+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T20:21:02+00:00",
+     "last_update_at": "2026-09-25T20:21:02+00:00",
+     "what_is_not_verified": "פרטי ההבנות המדויקים מאחורי המהלך אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.enabbaladi.net/archives/2026/09/israel-backs-off-targeting-syrias-air-navigation-systems/",
+       "published_at": "2026-09-25T20:21:02+00:00"
       }
      ],
      "places": [
       {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      },
-      {
-       "name": "חאלב, סוריה",
-       "lat": 36.1992,
-       "lon": 37.1637
+       "name": "נמל התעופה הבינלאומי דמשק, סוריה",
+       "lat": 33.4102,
+       "lon": 36.5241
       }
      ]
     },
     {
-     "id": "NORTH-09251440-03",
-     "title": "שביתת רעב בכלא לבנוני",
-     "summary": "מאות אסירים בכלא בלבנוני פתחו בשביתת רעב עקב עיכוב ביישום חוק חנינה.",
+     "id": "NORTH-09260040-03",
+     "title": "הודעת דובר צה\"ל על זיהוי שווא",
+     "summary": "דובר צה\"ל עדכן כי שיגור המיירט לעבר מטרה אווירית חשודה בדרום לבנון התברר כזיהוי שווא.",
      "axis": "north",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T14:00:48+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-25T14:00:48+00:00",
-     "last_update_at": "2026-09-25T14:00:48+00:00",
-     "what_is_not_verified": "זהות כלל השובתים המדויקת אינה מפורטת במלואה",
+     "occurred_at": "2026-09-25T19:50:10+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T19:50:10+00:00",
+     "last_update_at": "2026-09-25T19:50:10+00:00",
+     "what_is_not_verified": "פרטי התחקיר המלאים טרם פורסמו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_the_new_arab",
-       "url": "https://www.newarab.com/news/hundreds-hunger-strike-lebanon-prison-amnesty-stalled",
-       "published_at": "2026-09-25T14:00:48+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25225",
+       "published_at": "2026-09-25T19:50:10+00:00"
       }
      ],
      "places": []
@@ -92,197 +166,161 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09251440-01",
-     "title": "אישור תקציב הגנה אירופי לאוקראינה",
-     "summary": "מדינות האיחוד האירופי הסכימו על תנאי הקצאת שישה מיליארד ומאתיים מיליון אירו מתוך מתקן השלום האירופי לטובת אוקראינה.",
+     "id": "UKRAINE-09260040-01",
+     "title": "הכחשת דיווח על דרישת טראמפ לפגישה במוסקבה",
+     "summary": "לשכת נשיא אוקראינה הכחישה את הדיווח לפיו טראמפ דרש מזלנסקי לנסוע למוסקבה לשיחות עם פוטין.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T23:10:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T23:10:00+00:00",
+     "last_update_at": "2026-09-25T23:10:00+00:00",
+     "what_is_not_verified": "תוכן השיחות הסגורות בין המנהיגים אינו מאומת לחלוטין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/zelenskys-office-denies-report-trump-urged-him-to-meet-putin-in-moscow/",
+       "published_at": "2026-09-25T23:10:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09260040-02",
+     "title": "העברת כלי נשק ליחידת אזוב",
+     "summary": "חוקרי לשכת החקירות הממלכתית באוקראינה העבירו נשק ותחמושת בשווי מיליונים ליחידת אזוב של המשמר הלאומי.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T14:30:00+00:00",
+     "occurred_at": "2026-09-25T22:30:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-25T14:30:00+00:00",
-     "last_update_at": "2026-09-25T14:30:00+00:00",
-     "what_is_not_verified": "לוח הזמנים המדויק להעברת כלל הכספים אינו מפורט",
+     "first_reported_at": "2026-09-25T22:30:00+00:00",
+     "last_update_at": "2026-09-25T22:30:00+00:00",
+     "what_is_not_verified": "אין אימות נוסף על מצב התחמושת בשטח",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_55af61c1471b351e",
-       "url": "https://www.ukrinform.net/rubric-polytics/4168041-eu-agrees-on-66-billion-for-ukraines-defense.html",
-       "published_at": "2026-09-25T14:30:00+00:00"
+       "source_root_id": "fh_2fcf89cfdacf3137",
+       "url": "https://www.ukrinform.net/rubric-ato/4167787-azov-receives-confiscated-weapons-and-ammunition-worth-uah-45m-from-sbi.html",
+       "published_at": "2026-09-25T22:30:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09251440-02",
-     "title": "תקיפת כטב\"מ על מתקן אנרגיה ברוסיה",
-     "summary": "מתקפת כטב\"מים אוקראינית פגעה בבית זיקוק בפרם וגרמה להמרת עשן גדולה מעל האתר.",
+     "id": "UKRAINE-09260040-03",
+     "title": "פגיעה ברחפן במוסד חינוכי בקייב",
+     "summary": "ראש עיריית קייב דיווח כי רחפן רוסי התרסק על מתקן גן ילדים וגרם לשריפה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T11:34:01+00:00",
+     "occurred_at": "2026-09-25T20:23:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-25T11:34:01+00:00",
-     "last_update_at": "2026-09-25T11:34:01+00:00",
-     "what_is_not_verified": "היקף הנזק המלא למתקן הזיקוק אינו ידוע",
+     "first_reported_at": "2026-09-25T20:23:00+00:00",
+     "last_update_at": "2026-09-25T20:23:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא למבנה אינו מאומת ממקור ראשון",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130791",
-       "published_at": "2026-09-25T11:34:01+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4168151-russian-drone-falls-on-kindergarten-in-kyiv-klitschko.html",
+       "published_at": "2026-09-25T20:23:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "פרם, רוסיה",
-       "lat": 58.0109,
-       "lon": 56.2319
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
-    },
-    {
-     "id": "UKRAINE-09251440-03",
-     "title": "פגיעה ברכב עובדי אנרגיה באודסה",
-     "summary": "כטב\"מ רוסי תקף רכב של חברת האנרגיה דטק במחוז אודסה, מה שהביא למות עובד אחד ולפציעת אחר.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-25T13:50:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-25T13:50:00+00:00",
-     "last_update_at": "2026-09-25T13:50:00+00:00",
-     "what_is_not_verified": "מצבו הרפואי המדויק של הפצוע אינו מפורט מעבר לעצם הפציעה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_65146517af984ceb",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8055049/",
-       "published_at": "2026-09-25T13:50:00+00:00"
-      }
-     ],
-     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09251440-01",
-     "title": "גינוי מתקפות החות'ים במועצת הביטחון",
-     "summary": "מועצת הביטחון של האו\"ם גינתה פה אחד את הסלמת המתקפות של המורדים החות'ים בתימן נגד סעודיה.",
+     "id": "YEMEN-09260040-01",
+     "title": "הבטחת החות'ים לאיחוד האירופי ולארה\"ב",
+     "summary": "דיווחים ציינו כי נציגי החות'ים הבטיחו שלא לתקף ספינות אירופיות ואמריקניות בים האדום.",
      "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-25T14:30:26+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-25T14:30:26+00:00",
-     "last_update_at": "2026-09-25T14:30:26+00:00",
-     "what_is_not_verified": "האם לגינוי תהיינה השלכות מעשיות מיידיות אינו מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_al_monitor",
-       "url": "https://www.al-monitor.com/originals/2026/09/un-security-council-condemns-houthi-attacks-saudi-arabia",
-       "published_at": "2026-09-25T14:30:26+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-09251440-02",
-     "title": "פריסת כוחות צרפתיים בסעודיה",
-     "summary": "נשיא צרפת הודיע על שליחת משאבי צבא ומערכות הגנה אווירית להגנה על מסוף הנפט ינבוע מפני איומי החות'ים.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-25T08:26:52+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-25T08:26:52+00:00",
-     "last_update_at": "2026-09-25T08:26:52+00:00",
-     "what_is_not_verified": "מועד ההגעה המדויק של כלל הכוחות אינו מצוין",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130780",
-       "published_at": "2026-09-25T08:26:52+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ינבוע, סעודיה",
-       "lat": 24.089,
-       "lon": 38.0687
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09251440-03",
-     "title": "נתוני תת-תזונה בקרב ילדים בתימן",
-     "summary": "יוניצף דיווח על עלייה חדה במקרי תת-תזונה חמורה בקרב ילדים בתימן בעקבות החרפת הלחימה.",
-     "axis": "yemen",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-25T10:46:28+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-25T10:46:28+00:00",
-     "last_update_at": "2026-09-25T10:46:28+00:00",
-     "what_is_not_verified": "מספר הילדים הכולל שנפגע בכלל המחוזות טרם סוכם סופית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_al_monitor",
-       "url": "https://www.al-monitor.com/originals/2026/09/child-malnutrition-rises-yemen-fighting-intensifies-says-unicef",
-       "published_at": "2026-09-25T10:46:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ז'נבה, שוויץ",
-       "lat": 46.2018,
-       "lon": 6.1466
-      }
-     ]
-    }
-   ]
-  },
-  "iran": {
-   "events": [
-    {
-     "id": "IRAN-09250840-02",
-     "title": "הצהרות נשיא איראן בנוגע להעשרת אורניום והיחסים עם ארה\"ב",
-     "summary": "נשיא איראן הצהיר בריאיון כי מדינתו תוותר על אורניום המועשר לשישים אחוזים במסגרת החוק הבינלאומי ותשמח להסכם עם הממשל האמריקני.",
-     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-25T07:01:18+00:00",
+     "occurred_at": "2026-09-25T14:24:27+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-25T07:01:18+00:00",
-     "last_update_at": "2026-09-25T07:01:18+00:00",
-     "what_is_not_verified": "מידת הנכונות המעשית של טהראן ליישם את הוויתור",
+     "first_reported_at": "2026-09-25T14:24:27+00:00",
+     "last_update_at": "2026-09-25T14:24:27+00:00",
+     "what_is_not_verified": "אמינות ההבטחות בשטח אינה מאומתת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130775",
-       "published_at": "2026-09-25T07:01:18+00:00"
+       "url": "https://t.me/alexmehacarmel/47996",
+       "published_at": "2026-09-25T14:24:27+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "הים האדום",
+       "lat": 20.2966,
+       "lon": 38.5343
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09260040-02",
+     "title": "קריאת נשיא תימן לגיוס כללי",
+     "summary": "נשיא תימן רשאד אל-עלימי קרא לאזרחים להתגייס לשורות הצבא נגד החות'ים והציע חנינה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T18:15:38+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T18:15:38+00:00",
+     "last_update_at": "2026-09-25T18:15:38+00:00",
+     "what_is_not_verified": "היקף היענות הציבור לקריאה אינו מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-president-calls-yemenis-mobilise",
+       "published_at": "2026-09-25T18:15:38+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09260040-03",
+     "title": "גינוי מועצת הביטחון של האו\"ם נגד החות'ים",
+     "summary": "מועצת הביטחון של האו\"ם גינתה את ההסלמה בתקיפות שמבצעים החות'ים נגד סעודיה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-25T17:30:21+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-25T17:30:21+00:00",
+     "last_update_at": "2026-09-25T17:30:21+00:00",
+     "what_is_not_verified": "השלכות הגינוי על פעילות החות'ים אינן מאומתות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/un-security-council-condemns-houthi-attacks-saudi-arabia-0",
+       "published_at": "2026-09-25T17:30:21+00:00"
       }
      ],
      "places": []
     }
-   ],
-   "from_slot": "2026-09-25T12:00:00+03:00"
+   ]
   }
  },
- "skipped": {
-  "iran": "אותיות בשפה זרה בתוך הטקסט העברי (1)"
- }
+ "skipped": {}
 };
