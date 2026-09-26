@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T19:17:18+00:00",
-  "fetched_at": "2026-09-26T19:17:18+00:00"
+  "checked_at": "2026-09-26T20:17:22+00:00",
+  "fetched_at": "2026-09-26T20:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T19:17:33+00:00",
-  "fetched_at": "2026-09-26T19:17:33+00:00"
+  "checked_at": "2026-09-26T20:17:35+00:00",
+  "fetched_at": "2026-09-26T20:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T19:17:34+00:00",
-  "fetched_at": "2026-09-26T19:17:34+00:00"
+  "checked_at": "2026-09-26T20:17:36+00:00",
+  "fetched_at": "2026-09-26T20:17:36+00:00"
  },
- "generated_at": "2026-09-26T19:17:34+00:00",
+ "generated_at": "2026-09-26T20:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,7 +99,12 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "האם אפשר להיכנס לראיון עבודה עם כוס קפה? הסרטון שהצית סערה",
+     "title": "שתי החברות שטלטלו את הכלכלה הקוריאנית מייצרות לה בעיה חדשה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557521",
+     "date": "2026-09-26T16:00:00+00:00"
+    },
+    {
+     "title": "משל הקפה הקר: הכללים החדשים לראיונות עבודה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557627",
      "date": "2026-09-26T13:34:00+00:00"
     },
@@ -209,25 +214,20 @@ window.DB.generated = {
      "date": "2026-09-24T11:08:00+00:00"
     },
     {
-     "title": "לאחר 25 שנה: מנכ\"ל הרשות לניירות ערך יסיים את תפקידו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557453",
-     "date": "2026-09-24T08:11:00+00:00"
-    },
-    {
      "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
      "date": "2026-09-24T06:00:00+00:00"
     },
     {
-     "title": "האם תשואה של 6% נראית באופק? התרחיש שמתחיל להפחיד את השווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557437",
-     "date": "2026-09-24T03:27:00+00:00"
+     "title": "המגעים על כספי הסיוע האמריקאים תקועים, בצל בחירות האמצע בארה\"ב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557363",
+     "date": "2026-09-24T03:05:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T19:17:19+00:00",
-  "fetched_at": "2026-09-26T19:17:19+00:00"
+  "checked_at": "2026-09-26T20:17:23+00:00",
+  "fetched_at": "2026-09-26T20:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T19:17:20+00:00",
-  "fetched_at": "2026-09-26T19:17:20+00:00"
+  "checked_at": "2026-09-26T20:17:24+00:00",
+  "fetched_at": "2026-09-26T20:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2585,8 +2585,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T19:17:26+00:00",
-  "fetched_at": "2026-09-26T19:17:26+00:00"
+  "checked_at": "2026-09-26T20:17:26+00:00",
+  "fetched_at": "2026-09-26T20:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2676,8 +2676,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T19:17:26+00:00",
-  "fetched_at": "2026-09-26T19:17:26+00:00"
+  "checked_at": "2026-09-26T20:17:26+00:00",
+  "fetched_at": "2026-09-26T20:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2688,18 +2688,25 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 3,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 248,
+     "likes": 247,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2713,7 +2720,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 556,
+     "likes": 557,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2734,14 +2741,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 128,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 70,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2752,24 +2759,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "Ternary Bonsai 2 WebGPU Kernels",
-     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
-     "likes": 137,
-     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
      "likes": 145,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+    },
+    {
+     "title": "Ternary Bonsai 2 WebGPU Kernels",
+     "desc_en": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+     "desc_he": "הפעל את Ternary-Bonsai-2-27B באופן מקומי בדפדפן שלך ב-WebGPU",
+     "likes": 137,
+     "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T19:17:33+00:00",
-  "fetched_at": "2026-09-26T19:17:33+00:00"
+  "checked_at": "2026-09-26T20:17:34+00:00",
+  "fetched_at": "2026-09-26T20:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -3039,8 +3046,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T19:17:29+00:00",
-  "fetched_at": "2026-09-26T19:17:29+00:00"
+  "checked_at": "2026-09-26T20:17:30+00:00",
+  "fetched_at": "2026-09-26T20:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3071,7 +3078,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T19:17:30+00:00",
-  "fetched_at": "2026-09-26T19:17:30+00:00"
+  "checked_at": "2026-09-26T20:17:30+00:00",
+  "fetched_at": "2026-09-26T20:17:30+00:00"
  }
 };
