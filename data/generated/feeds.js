@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:04:45+00:00",
-  "fetched_at": "2026-09-26T18:04:45+00:00"
+  "checked_at": "2026-09-26T18:17:13+00:00",
+  "fetched_at": "2026-09-26T18:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T18:05:20+00:00",
+  "checked_at": "2026-09-26T18:17:46+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:05:21+00:00",
-  "fetched_at": "2026-09-26T18:05:21+00:00"
+  "checked_at": "2026-09-26T18:17:48+00:00",
+  "fetched_at": "2026-09-26T18:17:48+00:00"
  },
- "generated_at": "2026-09-26T18:05:21+00:00",
+ "generated_at": "2026-09-26T18:17:48+00:00",
  "globes": {
   "data": {
    "top": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:04:46+00:00",
-  "fetched_at": "2026-09-26T18:04:46+00:00"
+  "checked_at": "2026-09-26T18:17:14+00:00",
+  "fetched_at": "2026-09-26T18:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:04:47+00:00",
-  "fetched_at": "2026-09-26T18:04:47+00:00"
+  "checked_at": "2026-09-26T18:17:15+00:00",
+  "fetched_at": "2026-09-26T18:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:04:49+00:00",
-  "fetched_at": "2026-09-26T18:04:49+00:00"
+  "checked_at": "2026-09-26T18:17:20+00:00",
+  "fetched_at": "2026-09-26T18:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:04:49+00:00",
-  "fetched_at": "2026-09-26T18:04:49+00:00"
+  "checked_at": "2026-09-26T18:17:20+00:00",
+  "fetched_at": "2026-09-26T18:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2647,12 +2647,19 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 3,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2672,14 +2679,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 554,
+     "likes": 555,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 138,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2727,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:05:00+00:00",
-  "fetched_at": "2026-09-26T18:05:00+00:00"
+  "checked_at": "2026-09-26T18:17:27+00:00",
+  "fetched_at": "2026-09-26T18:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2989,8 +2996,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T18:04:52+00:00",
-  "fetched_at": "2026-09-26T18:04:52+00:00"
+  "checked_at": "2026-09-26T18:17:23+00:00",
+  "fetched_at": "2026-09-26T18:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3021,7 +3028,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T18:04:52+00:00",
-  "fetched_at": "2026-09-26T18:04:52+00:00"
+  "checked_at": "2026-09-26T18:17:24+00:00",
+  "fetched_at": "2026-09-26T18:17:24+00:00"
  }
 };
