@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T16:17:26+00:00",
-  "fetched_at": "2026-09-26T16:17:26+00:00"
+  "checked_at": "2026-09-26T17:17:25+00:00",
+  "fetched_at": "2026-09-26T17:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -45,11 +45,18 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T16:18:00+00:00",
+  "checked_at": "2026-09-26T17:17:52+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "After nearly half a decade, the small, next-gen OLED TVs I've been waiting for are finally here",
+    "title_he": "אחרי כמעט חצי עשור, טלוויזיות ה-OLED הקטנות מהדור הבא שחיכיתי להן סוף סוף כאן",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/after-nearly-half-a-decade-the-small-next-gen-oled-tvs-ive-been-waiting-for-are-finally-here",
+    "date": "2026-09-26T16:46:24+00:00"
+   },
    {
     "title_en": "Quick! This remarkably watchable RGB Mini LED TV is half price",
     "title_he": "מָהִיר! טלוויזיית RGB Mini LED הניתנת לצפייה להפליא היא חצי מחיר",
@@ -70,20 +77,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/qobuz-has-started-tagging-ai-music-but-is-anybody-listening-to-it-anyway",
     "date": "2026-09-25T09:38:59+00:00"
-   },
-   {
-    "title_en": "What Hi-Fi? (and my dad) got me into hi-fi, and as it turns 50, I can still remember one review in particular",
-    "title_he": "איזה Hi-Fi? (ואבא שלי) הכניסו אותי ל-hi-fi, וכשיגיע לגיל 50, אני עדיין זוכר ביקורת אחת במיוחד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/cd-players/what-hi-fi-and-my-dad-got-me-into-hi-fi-and-as-it-turns-50-i-can-still-remember-one-review-in-particular",
-    "date": "2026-09-25T09:32:25+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T16:18:01+00:00",
-  "fetched_at": "2026-09-26T16:18:01+00:00"
+  "checked_at": "2026-09-26T17:17:55+00:00",
+  "fetched_at": "2026-09-26T17:17:55+00:00"
  },
- "generated_at": "2026-09-26T16:18:01+00:00",
+ "generated_at": "2026-09-26T17:17:55+00:00",
  "globes": {
   "data": {
    "top": [
@@ -95,7 +95,7 @@ window.DB.generated = {
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T15:12:00+00:00"
+     "date": "2026-09-26T17:09:00+00:00"
     }
    ],
    "market": [
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T16:17:27+00:00",
-  "fetched_at": "2026-09-26T16:17:27+00:00"
+  "checked_at": "2026-09-26T17:17:26+00:00",
+  "fetched_at": "2026-09-26T17:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T16:17:28+00:00",
-  "fetched_at": "2026-09-26T16:17:28+00:00"
+  "checked_at": "2026-09-26T17:17:26+00:00",
+  "fetched_at": "2026-09-26T17:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T16:17:30+00:00",
-  "fetched_at": "2026-09-26T16:17:30+00:00"
+  "checked_at": "2026-09-26T17:17:27+00:00",
+  "fetched_at": "2026-09-26T17:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T16:17:30+00:00",
-  "fetched_at": "2026-09-26T16:17:30+00:00"
+  "checked_at": "2026-09-26T17:17:27+00:00",
+  "fetched_at": "2026-09-26T17:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2679,7 +2679,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 555,
+     "likes": 553,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2693,7 +2693,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 170,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2734,8 +2734,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T16:17:40+00:00",
-  "fetched_at": "2026-09-26T16:17:40+00:00"
+  "checked_at": "2026-09-26T17:17:33+00:00",
+  "fetched_at": "2026-09-26T17:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2747,15 +2747,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"סולומון חשוב מדי עבור נונו\": החשש של ווסטהאם",
-     "link": "https://www.one.co.il/Article/534339.html?ref=rss",
-     "date": "2026-09-26T04:44:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2774,15 +2765,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "מאמנו של ענאן חלאילי זכה לגיבוי: \"עשה עבודה טובה מאוד\"",
-     "link": "https://sports.walla.co.il/item/3869778",
-     "date": "2026-09-25T09:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
      ]
     },
     {
@@ -3014,8 +2996,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T16:17:36+00:00",
-  "fetched_at": "2026-09-26T16:17:36+00:00"
+  "checked_at": "2026-09-26T17:17:30+00:00",
+  "fetched_at": "2026-09-26T17:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3046,7 +3028,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T16:17:37+00:00",
-  "fetched_at": "2026-09-26T16:17:37+00:00"
+  "checked_at": "2026-09-26T17:17:31+00:00",
+  "fetched_at": "2026-09-26T17:17:31+00:00"
  }
 };
