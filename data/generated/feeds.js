@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T15:17:16+00:00",
-  "fetched_at": "2026-09-26T15:17:16+00:00"
+  "checked_at": "2026-09-26T16:17:26+00:00",
+  "fetched_at": "2026-09-26T16:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -45,7 +45,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "HTTP Error 522: <none>",
-  "checked_at": "2026-09-26T15:17:47+00:00",
+  "checked_at": "2026-09-26T16:18:00+00:00",
   "fetched_at": "2026-09-26T00:17:20+00:00"
  },
  "av_en": {
@@ -80,17 +80,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T15:17:49+00:00",
-  "fetched_at": "2026-09-26T15:17:49+00:00"
+  "checked_at": "2026-09-26T16:18:01+00:00",
+  "fetched_at": "2026-09-26T16:18:01+00:00"
  },
- "generated_at": "2026-09-26T15:17:49+00:00",
+ "generated_at": "2026-09-26T16:18:01+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "התרחיש שמלך האג”ח מזהיר ממנו - ועוד 4 כתבות על המצב בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557447",
-     "date": "2026-09-26T13:00:00+00:00"
+     "title": "\"קשרים? מה שאנשים ימצאו ברייכמן זה בני ובנות זוג\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557105",
+     "date": "2026-09-26T16:00:00+00:00"
     },
     {
      "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
@@ -105,7 +105,7 @@ window.DB.generated = {
      "date": "2026-09-26T13:34:00+00:00"
     },
     {
-     "title": "התרחיש שמלך האג”ח מזהיר ממנו - ועוד 4 כתבות על המצב בשווקים",
+     "title": "מתי שוק המניות יגיע לנקודת שבירה - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557447",
      "date": "2026-09-26T13:00:00+00:00"
     },
@@ -227,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T15:17:18+00:00",
-  "fetched_at": "2026-09-26T15:17:18+00:00"
+  "checked_at": "2026-09-26T16:17:27+00:00",
+  "fetched_at": "2026-09-26T16:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1872,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T15:17:18+00:00",
-  "fetched_at": "2026-09-26T15:17:18+00:00"
+  "checked_at": "2026-09-26T16:17:28+00:00",
+  "fetched_at": "2026-09-26T16:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2544,8 +2544,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T15:17:20+00:00",
-  "fetched_at": "2026-09-26T15:17:20+00:00"
+  "checked_at": "2026-09-26T16:17:30+00:00",
+  "fetched_at": "2026-09-26T16:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2635,8 +2635,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T15:17:20+00:00",
-  "fetched_at": "2026-09-26T15:17:20+00:00"
+  "checked_at": "2026-09-26T16:17:30+00:00",
+  "fetched_at": "2026-09-26T16:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2658,14 +2658,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 4,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 244,
+     "likes": 247,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2693,22 +2693,29 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 168,
+     "likes": 170,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 68,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 156,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Ternary Bonsai 2 WebGPU Kernels",
@@ -2718,24 +2725,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
     },
     {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 154,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T15:17:28+00:00",
-  "fetched_at": "2026-09-26T15:17:28+00:00"
+  "checked_at": "2026-09-26T16:17:40+00:00",
+  "fetched_at": "2026-09-26T16:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2783,15 +2783,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "דניאל פרץ: \"פנינו לשלום. הדיבורים של אירלנד נובעים מבורות\"",
-     "link": "https://sports.walla.co.il/item/3869742",
-     "date": "2026-09-24T21:18:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -3023,8 +3014,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T15:17:24+00:00",
-  "fetched_at": "2026-09-26T15:17:24+00:00"
+  "checked_at": "2026-09-26T16:17:36+00:00",
+  "fetched_at": "2026-09-26T16:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3055,7 +3046,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T15:17:24+00:00",
-  "fetched_at": "2026-09-26T15:17:24+00:00"
+  "checked_at": "2026-09-26T16:17:37+00:00",
+  "fetched_at": "2026-09-26T16:17:37+00:00"
  }
 };
