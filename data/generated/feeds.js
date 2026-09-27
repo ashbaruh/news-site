@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T05:17:22+00:00",
-  "fetched_at": "2026-09-27T05:17:22+00:00"
+  "checked_at": "2026-09-27T06:17:27+00:00",
+  "fetched_at": "2026-09-27T06:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T05:17:34+00:00",
-  "fetched_at": "2026-09-27T05:17:34+00:00"
+  "checked_at": "2026-09-27T06:17:38+00:00",
+  "fetched_at": "2026-09-27T06:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T05:17:36+00:00",
-  "fetched_at": "2026-09-27T05:17:36+00:00"
+  "checked_at": "2026-09-27T06:17:39+00:00",
+  "fetched_at": "2026-09-27T06:17:39+00:00"
  },
- "generated_at": "2026-09-27T05:17:36+00:00",
+ "generated_at": "2026-09-27T06:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "המאבטח של הנייה קיבל מקלט ואזרחות בריטית - ותכנן פיגוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T05:09:00+00:00"
+     "date": "2026-09-27T06:04:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "אחרי שפרצו לאתרים ממשלתיים - OpenAI מקפיאה את אימון המודלים החדשים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
+     "date": "2026-09-27T06:12:00+00:00"
+    },
     {
      "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
@@ -142,11 +147,6 @@ window.DB.generated = {
      "title": "ההטבות על מס הרכוש עומדות לפקוע, וניו יורק תתייקר עוד יותר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557128",
      "date": "2026-09-26T10:02:00+00:00"
-    },
-    {
-     "title": "לראשונה: ה-SEC הותקף בידי הבינה המלאכותית של OpenAI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
-     "date": "2026-09-26T07:58:00+00:00"
     },
     {
      "title": "למה לקנות כשאפשר להדפיס? לאומת \"עשה זאת בעצמך\" יש פתרון לכל דבר",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T05:17:23+00:00",
-  "fetched_at": "2026-09-27T05:17:23+00:00"
+  "checked_at": "2026-09-27T06:17:28+00:00",
+  "fetched_at": "2026-09-27T06:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T05:17:24+00:00",
-  "fetched_at": "2026-09-27T05:17:24+00:00"
+  "checked_at": "2026-09-27T06:17:29+00:00",
+  "fetched_at": "2026-09-27T06:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -1969,6 +1969,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-27",
+    "time": "20:00",
+    "channel": "ספורט 6",
+    "sport": "כדורסל",
+    "title": "אולימפיאקוס - פאוק סלוניקי"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "מינסוטה לינקס - ניו יורק ליברטי"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ישראל - אירלנד"
+   },
+   {
+    "date": "2026-09-27",
     "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -1983,17 +2004,17 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-27",
-    "time": "21:45",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "ישראל - אירלנד"
-   },
-   {
-    "date": "2026-09-27",
     "time": "22:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "אוביידו - ספורטינג גיחון"
+   },
+   {
+    "date": "2026-09-27",
+    "time": "23:00",
+    "channel": "5 גולד",
+    "sport": "כדורסל",
+    "title": "לאס וגאס אייסז - אינדיאנה פיבר"
    },
    {
     "date": "2026-09-27",
@@ -2096,7 +2117,7 @@ window.DB.generated = {
    {
     "date": "2026-09-28",
     "time": "21:45",
-    "channel": "ספורט 4",
+    "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "צפון אירלנד - הונגריה"
    },
@@ -2529,8 +2550,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T05:17:26+00:00",
-  "fetched_at": "2026-09-27T05:17:26+00:00"
+  "checked_at": "2026-09-27T06:17:30+00:00",
+  "fetched_at": "2026-09-27T06:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2641,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T05:17:26+00:00",
-  "fetched_at": "2026-09-27T05:17:26+00:00"
+  "checked_at": "2026-09-27T06:17:30+00:00",
+  "fetched_at": "2026-09-27T06:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2650,28 +2671,28 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 254,
+     "likes": 255,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 216,
+     "likes": 217,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 563,
+     "likes": 564,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2692,14 +2713,14 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 81,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 160,
+     "likes": 161,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2719,12 +2740,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T05:17:33+00:00",
-  "fetched_at": "2026-09-27T05:17:33+00:00"
+  "checked_at": "2026-09-27T06:17:37+00:00",
+  "fetched_at": "2026-09-27T06:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בדו קרב ישראלי: שני זכה בארד באליפות העולם",
+     "link": "https://www.one.co.il/Article/534406.html?ref=rss",
+     "date": "2026-09-27T05:34:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
      "link": "https://sports.walla.co.il/item/3869886",
@@ -2999,8 +3029,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T05:17:29+00:00",
-  "fetched_at": "2026-09-27T05:17:29+00:00"
+  "checked_at": "2026-09-27T06:17:33+00:00",
+  "fetched_at": "2026-09-27T06:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3031,7 +3061,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T05:17:30+00:00",
-  "fetched_at": "2026-09-27T05:17:30+00:00"
+  "checked_at": "2026-09-27T06:17:34+00:00",
+  "fetched_at": "2026-09-27T06:17:34+00:00"
  }
 };
