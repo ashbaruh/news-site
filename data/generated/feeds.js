@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T18:27:41+00:00",
-  "fetched_at": "2026-09-27T18:27:41+00:00"
+  "checked_at": "2026-09-27T19:17:27+00:00",
+  "fetched_at": "2026-09-27T19:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T18:27:58+00:00",
-  "fetched_at": "2026-09-27T18:27:58+00:00"
+  "checked_at": "2026-09-27T19:17:37+00:00",
+  "fetched_at": "2026-09-27T19:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T18:27:59+00:00",
-  "fetched_at": "2026-09-27T18:27:59+00:00"
+  "checked_at": "2026-09-27T19:17:40+00:00",
+  "fetched_at": "2026-09-27T19:17:40+00:00"
  },
- "generated_at": "2026-09-27T18:27:59+00:00",
+ "generated_at": "2026-09-27T19:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-27T18:00:00+00:00"
     },
     {
-     "title": "טראמפ: \"האיראנים מתחו את החבל יותר מדי\"",
+     "title": "החשש: חיזבאללה ינסה להצית את הגזרה בתקופה הקרובה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T17:03:00+00:00"
+     "date": "2026-09-27T18:51:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T18:27:42+00:00",
-  "fetched_at": "2026-09-27T18:27:42+00:00"
+  "checked_at": "2026-09-27T19:17:28+00:00",
+  "fetched_at": "2026-09-27T19:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T18:27:44+00:00",
-  "fetched_at": "2026-09-27T18:27:44+00:00"
+  "checked_at": "2026-09-27T19:17:29+00:00",
+  "fetched_at": "2026-09-27T19:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2608,8 +2608,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T18:27:46+00:00",
-  "fetched_at": "2026-09-27T18:27:46+00:00"
+  "checked_at": "2026-09-27T19:17:29+00:00",
+  "fetched_at": "2026-09-27T19:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2699,8 +2699,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T18:27:46+00:00",
-  "fetched_at": "2026-09-27T18:27:46+00:00"
+  "checked_at": "2026-09-27T19:17:29+00:00",
+  "fetched_at": "2026-09-27T19:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2714,15 +2714,13 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 269,
+     "likes": 270,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2743,7 +2741,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 575,
+     "likes": 576,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2771,7 +2769,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 172,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2782,17 +2780,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 151,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 313,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T18:27:57+00:00",
-  "fetched_at": "2026-09-27T18:27:57+00:00"
+  "checked_at": "2026-09-27T19:17:36+00:00",
+  "fetched_at": "2026-09-27T19:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -3070,8 +3068,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T18:27:50+00:00",
-  "fetched_at": "2026-09-27T18:27:50+00:00"
+  "checked_at": "2026-09-27T19:17:33+00:00",
+  "fetched_at": "2026-09-27T19:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3102,7 +3100,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T18:27:51+00:00",
-  "fetched_at": "2026-09-27T18:27:51+00:00"
+  "checked_at": "2026-09-27T19:17:33+00:00",
+  "fetched_at": "2026-09-27T19:17:33+00:00"
  }
 };
