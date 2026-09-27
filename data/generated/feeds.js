@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:39:26+00:00",
-  "fetched_at": "2026-09-26T23:39:26+00:00"
+  "checked_at": "2026-09-27T00:17:09+00:00",
+  "fetched_at": "2026-09-27T00:17:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:39:38+00:00",
-  "fetched_at": "2026-09-26T23:39:38+00:00"
+  "checked_at": "2026-09-27T00:17:18+00:00",
+  "fetched_at": "2026-09-27T00:17:18+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:39:40+00:00",
-  "fetched_at": "2026-09-26T23:39:40+00:00"
+  "checked_at": "2026-09-27T00:17:19+00:00",
+  "fetched_at": "2026-09-27T00:17:19+00:00"
  },
- "generated_at": "2026-09-26T23:39:40+00:00",
+ "generated_at": "2026-09-27T00:17:19+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:39:28+00:00",
-  "fetched_at": "2026-09-26T23:39:28+00:00"
+  "checked_at": "2026-09-27T00:17:10+00:00",
+  "fetched_at": "2026-09-27T00:17:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:39:29+00:00",
-  "fetched_at": "2026-09-26T23:39:29+00:00"
+  "checked_at": "2026-09-27T00:17:10+00:00",
+  "fetched_at": "2026-09-27T00:17:10+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:39:30+00:00",
-  "fetched_at": "2026-09-26T23:39:30+00:00"
+  "checked_at": "2026-09-27T00:17:11+00:00",
+  "fetched_at": "2026-09-27T00:17:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:39:30+00:00",
-  "fetched_at": "2026-09-26T23:39:30+00:00"
+  "checked_at": "2026-09-27T00:17:11+00:00",
+  "fetched_at": "2026-09-27T00:17:11+00:00"
  },
  "ai": {
   "data": {
@@ -2632,18 +2632,25 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 2,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 3,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 250,
+     "likes": 251,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2664,7 +2671,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2678,7 +2685,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2712,8 +2719,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:39:37+00:00",
-  "fetched_at": "2026-09-26T23:39:37+00:00"
+  "checked_at": "2026-09-27T00:17:17+00:00",
+  "fetched_at": "2026-09-27T00:17:17+00:00"
  },
  "abroad": {
   "data": {
@@ -2983,8 +2990,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-26T23:39:33+00:00",
-  "fetched_at": "2026-09-26T23:39:33+00:00"
+  "checked_at": "2026-09-27T00:17:14+00:00",
+  "fetched_at": "2026-09-27T00:17:14+00:00"
  },
  "idf": {
   "data": [
@@ -3015,7 +3022,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-26T23:39:34+00:00",
-  "fetched_at": "2026-09-26T23:39:34+00:00"
+  "checked_at": "2026-09-27T00:17:15+00:00",
+  "fetched_at": "2026-09-27T00:17:15+00:00"
  }
 };
