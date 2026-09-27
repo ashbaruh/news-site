@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T09:17:28+00:00",
-  "fetched_at": "2026-09-27T09:17:28+00:00"
+  "checked_at": "2026-09-27T10:17:29+00:00",
+  "fetched_at": "2026-09-27T10:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T09:17:42+00:00",
-  "fetched_at": "2026-09-27T09:17:42+00:00"
+  "checked_at": "2026-09-27T10:17:41+00:00",
+  "fetched_at": "2026-09-27T10:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,35 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T09:17:43+00:00",
-  "fetched_at": "2026-09-27T09:17:43+00:00"
+  "checked_at": "2026-09-27T10:17:42+00:00",
+  "fetched_at": "2026-09-27T10:17:42+00:00"
  },
- "generated_at": "2026-09-27T09:17:43+00:00",
+ "generated_at": "2026-09-27T10:17:42+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "יו\"ר נתיבי איילון עידן דוד מודח מתפקידו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557637",
-     "date": "2026-09-27T07:24:00+00:00"
+     "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
+     "date": "2026-09-27T10:00:00+00:00"
     },
     {
      "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T07:21:00+00:00"
+     "date": "2026-09-27T09:52:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "טיל מאלי אקספרס: כך החות'ים מצליחים לבנות נשק בלי עזרה איראנית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557640",
+     "date": "2026-09-27T10:09:00+00:00"
+    },
+    {
+     "title": "פונתה אחרי 70 שנה בדירה, והציתה מחאת ענק בספרד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557642",
+     "date": "2026-09-27T09:22:00+00:00"
+    },
     {
      "title": "קאמבק של מיליארד דולר: ריסקיפייד מזנקת בוול סטריט לשיא של 5 שנים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557636",
@@ -189,16 +199,6 @@ window.DB.generated = {
      "date": "2026-09-24T20:00:00+00:00"
     },
     {
-     "title": "כוחות נאט\"ו במדינות הבלטיות מנסים ללמוד את כללי המלחמה החדשים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557504",
-     "date": "2026-09-24T18:10:00+00:00"
-    },
-    {
-     "title": "היועץ לשעבר של טראמפ מזהיר: \"אם המטרה להביא את איראן למו\"מ - נתאכזב שוב\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557559",
-     "date": "2026-09-24T18:00:00+00:00"
-    },
-    {
      "title": "תומר מזון: הרווח הנקי אשתקד יקטן ב-3 מיליון שקל עקב ניפוח המלאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557593",
      "date": "2026-09-24T15:36:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T09:17:30+00:00",
-  "fetched_at": "2026-09-27T09:17:30+00:00"
+  "checked_at": "2026-09-27T10:17:31+00:00",
+  "fetched_at": "2026-09-27T10:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T09:17:30+00:00",
-  "fetched_at": "2026-09-27T09:17:30+00:00"
+  "checked_at": "2026-09-27T10:17:31+00:00",
+  "fetched_at": "2026-09-27T10:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2086,7 +2086,7 @@ window.DB.generated = {
     "time": "20:00",
     "channel": "ספורט 5+",
     "sport": "כדורסל",
-    "title": "הפועל גליל עליון - עירוני נס ציונה"
+    "title": "עירוני נס ציונה - הפועל גליל עליון"
    },
    {
     "date": "2026-09-28",
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T09:17:34+00:00",
-  "fetched_at": "2026-09-27T09:17:34+00:00"
+  "checked_at": "2026-09-27T10:17:34+00:00",
+  "fetched_at": "2026-09-27T10:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2650,31 +2650,17 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T09:17:34+00:00",
-  "fetched_at": "2026-09-27T09:17:34+00:00"
+  "checked_at": "2026-09-27T10:17:34+00:00",
+  "fetched_at": "2026-09-27T10:17:34+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
-     "date": "2026-09-24T17:23:25+00:00",
-     "launch": true,
-     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
-    }
+   "news": [],
+   "candidates": 0,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
    ],
-   "candidates": 5,
-   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2687,21 +2673,21 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 220,
+     "likes": 221,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 144,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 567,
+     "likes": 569,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2715,21 +2701,21 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 164,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2749,8 +2735,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T09:17:41+00:00",
-  "fetched_at": "2026-09-27T09:17:41+00:00"
+  "checked_at": "2026-09-27T10:17:40+00:00",
+  "fetched_at": "2026-09-27T10:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3047,8 +3033,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T09:17:37+00:00",
-  "fetched_at": "2026-09-27T09:17:37+00:00"
+  "checked_at": "2026-09-27T10:17:38+00:00",
+  "fetched_at": "2026-09-27T10:17:38+00:00"
  },
  "idf": {
   "data": [
@@ -3079,7 +3065,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T09:17:38+00:00",
-  "fetched_at": "2026-09-27T09:17:38+00:00"
+  "checked_at": "2026-09-27T10:17:38+00:00",
+  "fetched_at": "2026-09-27T10:17:38+00:00"
  }
 };
