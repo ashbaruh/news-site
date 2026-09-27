@@ -1,0 +1,559 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a123ae5b79c9",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 5,
+   "initial": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-26T23:40:36+00:00",
+  "window": {
+   "from": "2026-09-25T23:40:36+00:00",
+   "to": "2026-09-26T23:40:36+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202609262340"
+  },
+  "summary": "העימות הצבאי והכלכלי בין איראן לבין ארצות הברית וישראל נותר במבוי סתום לאחר שטראמפ דחה הצעה איראנית לפתיחת מצר הורמוז בתמורה להסרת המצור והסנקציות. במקביל להמשך סגירת נתיבי השיט והחרפת הסנקציות על התעופה האיראנית, טהרן מאיימת בשיבוש התנועה האווירית וממשיכה במאמצים דיפלומטיים בעצרת האו\"ם. מנגד, הערכות בארצות הברית מצביעות על אפשרות לחידוש התקיפות הצבאיות נגד מטרות באיראן לאחר בחירות האמצע.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "מצור אמריקני הדוק, שיבושי שיט איראניים והתרעות על ירי טילים והגבלת נתיבים"
+   },
+   {
+    "name": "הזירה האווירית והסנקציות הכלכליות",
+    "status": "שיתוק חברות התעופה האיראניות, ניסיונות עיראקיים להשיג פטור ואיומים איראניים לפגוע בתעופה באזור"
+   },
+   {
+    "name": "הזירה המדינית והגרעין",
+    "status": "דחיית הצעת הפסקת האש על ידי וושינגטון לצד מגעים איראניים בשולי עצרת האו\"ם"
+   },
+   {
+    "name": "העימות הצבאי הישיר והפשיעה הממוקדת",
+    "status": "דיווחים על פגיעות בבכירים ובמתקנים באיראן לצד פיגועים איראניים נגד יעדים יהודיים באירופה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09262340-01",
+    "title": "טראמפ דחה את הצעת איראן לפתיחת מצר הורמוז ולהפסקת הלחימה",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הודיע כי דחה הצעה שהעבירה איראן לפתיחה מחדש של מצר הורמוז וחידוש המשא ומתן בנושא הגרעין בתמורה להסרת המצור הימי והסנקציות הכלכליות.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T02:06:07+00:00",
+    "last_update_at": "2026-09-26T22:46:30+00:00",
+    "what_is_not_verified": "פרטי המתווה המדויקים ותגובת ארה\"ב הרשמית דרך המתווכים טרם נמסרו לפי טענת שר החוץ האיראני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-insists-diplomatic-solution-after-trump-rejects-peace-plan",
+      "published_at": "2026-09-26T22:46:30+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-calls-restraint-and-dialogue-middle-east-conflict",
+      "published_at": "2026-09-26T21:03:45+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+      "published_at": "2026-09-26T18:00:43+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/h1el58r9fx",
+      "published_at": "2026-09-26T15:29:49+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21491759",
+      "published_at": "2026-09-26T14:18:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130836",
+      "published_at": "2026-09-26T14:05:41+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+      "published_at": "2026-09-26T12:38:46+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-rejects-iranian-proposal-open-hormuz-and-end-fighting",
+      "published_at": "2026-09-26T02:46:30+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+      "published_at": "2026-09-26T02:06:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-02",
+    "title": "עראקצ'י הודיע כי איראן ממתינה לעמדת ארה\"ב הרשמית דרך מתווכים",
+    "summary": "שר החוץ של איראן הצהיר כי טהרן ראתה את תגובתו הראשונית של טראמפ אך ממתינה לקבלת עמדה מוחלטת דרך המתווכים לפני שתקבל החלטות.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T21:25:31+00:00",
+    "last_update_at": "2026-09-26T22:12:23+00:00",
+    "what_is_not_verified": "זהות המתווכים ותוכן התשובה שטרם נמסרה בצינורות הדיפלומטיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-awaiting-response-through-mediators-after-trump-reaction",
+      "published_at": "2026-09-26T22:12:23+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1371020",
+      "published_at": "2026-09-26T21:25:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09262340-03",
+    "title": "אזהרת מנהלת מצר הורמוז מפני שימוש בנתיבים לא מורשים",
+    "summary": "מנהלת מצר הורמוז באיראן פרסמה אזהרה לפיה ספינות שישוטו בנתיבים לא מורשים במצר ייאלצו להתמודד עם מגבלות קשות.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T21:35:43+00:00",
+    "last_update_at": "2026-09-26T21:35:43+00:00",
+    "what_is_not_verified": "אופי המגבלות והאמצעים שיופעלו נגד כלי השיט בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-restrictions-ships-using-unauthorised-hormuz-routes",
+      "published_at": "2026-09-26T21:35:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09262340-04",
+    "title": "דיווח באיראן על שיגור טילים נגד ספינות למצר הורמוז",
+    "summary": "מקורות תקשורת דיווחו על ביצוע שיגור של טילים נגד ספינות באזור מצר הורמוז.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T21:04:30+00:00",
+    "last_update_at": "2026-09-26T21:04:30+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או פרטים אודות פגיעות, מיקום מדויק של השיגור או סוג הטילים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1371017",
+      "published_at": "2026-09-26T21:04:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09262340-05",
+    "title": "נשיא איראן טען בעצרת האו\"ם לפשעים מצד ארה\"ב וישראל",
+    "summary": "הנשיא מסעוד פזשכיאן שב לטהרן מהעצרת הכללית של האו\"ם וטען כי הציג שם את העוול שנגרם לעם האיראני ואת פשעי ארה\"ב וישראל, והאשים אותן בניסיון לסכסך בין מדינות מוסלמיות.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T19:08:41+00:00",
+    "last_update_at": "2026-09-26T21:19:10+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_62639fd5e63ec4d1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-us-and-israel-are-trying-pit-countries-against-each",
+      "published_at": "2026-09-26T21:19:10+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_62639fd5e63ec4d1",
+      "url": "https://en.irna.ir/news/86275492/Pezeshkian-says-he-highlighted-crimes-of-US-and-Israeli-regime",
+      "published_at": "2026-09-26T19:52:50+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_3db8289b5779f2f7",
+      "url": "https://en.irna.ir/news/86275473/President-Pezeshkian-arrives-in-Tehran",
+      "published_at": "2026-09-26T19:08:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "טהרן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-06",
+    "title": "סעודיה גינתה באו\"ם את תקיפות איראן ושיבוש נתיבי השיט במפרץ",
+    "summary": "שר החוץ הסעודי האשים בנאומו בעצרת האו\"ם את איראן במתקפות בוטות וגינה את שיבוש נתיבי השיט הבינלאומיים במצר הורמוז ובבאב אל-מנדב על ידי איראן ובעלי בריתה החות'ים.",
+    "axis": "איראן - המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T18:07:54+00:00",
+    "last_update_at": "2026-09-26T19:43:03+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+      "published_at": "2026-09-26T19:43:03+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-saudi-fm-warns-world-failing-protect-gulf-shipping",
+      "published_at": "2026-09-26T18:07:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-07",
+    "title": "עיראק פועלת לקבלת פטור מהסנקציות האמריקניות על חברות תעופה איראניות",
+    "summary": "ממשלת עיראק בראשות עלי א-זיידי מבקשת פטור מהגבלות הסנקציות של ארה\"ב על טיסות איראניות, ברקע מחאות בנג'ף ובאיראן נגד סגירת נמלי התעופה בפני מטוסים מטהרן.",
+    "axis": "איראן - ארה\"ב ועיראק",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T13:10:46+00:00",
+    "last_update_at": "2026-09-26T17:35:11+00:00",
+    "what_is_not_verified": "האם ארה\"ב תשקול מתן פטור כלשהו לעיראק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
+      "published_at": "2026-09-26T17:35:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48015",
+      "published_at": "2026-09-26T13:10:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ף",
+      "lat": 32.001,
+      "lon": 44.33
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-08",
+    "title": "חבר מועצת המומחים טען כי מג'תבא ח'אמינאי חולץ מהריסות בית חולים שהותקף",
+    "summary": "איש הדת מוחסן חיידרי טען כי במהלך מבצע שאגת הארי נפצע מג'תבא ח'אמינאי ולאחר שאושפז הותקפו שלושה בתי חולים בטהרן, והוא חולץ מבין ההריסות בבית החולים השלישי.",
+    "axis": "ישראל - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T16:58:44+00:00",
+    "last_update_at": "2026-09-26T16:58:44+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לטענה על תקיפת שלושת בתי החולים או לנסיבות פציעתו של ח'אמינאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130843",
+      "published_at": "2026-09-26T16:58:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-09",
+    "title": "אזהרות איראניות לפגיעה בתעופה האזורית בתגובה לסנקציות",
+    "summary": "היועץ הבכיר מחמד מח'בר איים כי טיסות באזור יהיו פתוחות לכולם או לאף אחד עקב סנקציות ארה\"ב על מערך התעופה האזרחי של איראן, בעוד דיווחים אחרים ציינו כי טהרן הכחישה כוונה להגיב צבאית.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T13:31:51+00:00",
+    "last_update_at": "2026-09-26T16:50:24+00:00",
+    "what_is_not_verified": "קיומה של תוכנית פעולה מעשית והסתירה בין איומי מח'בר להכחשות על תגובה צבאית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130842",
+      "published_at": "2026-09-26T16:50:24+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130835",
+      "published_at": "2026-09-26T13:31:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09262340-10",
+    "title": "ראש המודיעין הבלגי אישר כי איראן הורתה על פיגועים נגד מטרות יהודיות בבלגיה",
+    "summary": "ראש שירות המודיעין בבלגיה מסר כי פיצוץ מטען ליד בית כנסת בליאז' והצתת רכב ברובע היהודי באנטוורפן בוצעו בוודאות בהוראה מתואמת של טהרן.",
+    "axis": "איראן - ישראל והמערב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T12:29:13+00:00",
+    "last_update_at": "2026-09-26T12:29:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/h1jzmvr9fe",
+      "published_at": "2026-09-26T12:29:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ליאז'",
+      "lat": 50.6451,
+      "lon": 5.5736
+     },
+     {
+      "name": "אנטוורפן",
+      "lat": 51.2211,
+      "lon": 4.3997
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09262340-11",
+    "title": "ארצות הברית הזהירה את סין מפני המשך סיוע לאיראן",
+    "summary": "שגריר ארצות הברית בבייג'ינג מסר כי הנשיא טראמפ הבהיר לנשיא סין שי ג'ינפינג שכל תמיכה באיראן אינה מקובלת, וטען כי התקבלו הבטחות סיניות להפסקת הסיוע.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T11:31:09+00:00",
+    "last_update_at": "2026-09-26T11:31:09+00:00",
+    "what_is_not_verified": "מידת העמידה הסינית בהתחייבויות הנטענות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_cnbc",
+      "url": "https://t.me/alexmehacarmel/48011",
+      "published_at": "2026-09-26T11:31:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה לפיה הותקפו שלושה בתי חולים בטהרן כדי לפגוע במג'תבא ח'אמינאי",
+   "דיווחים על שיגור בפועל של טילים נגד ספינות לעבר מצר הורמוז",
+   "הערכות לגבי חידוש הפצצות אמריקניות באיראן לאחר בחירות האמצע",
+   "הדיווח לפיו בכיר לשעבר בממשל ביידן מייעץ לאיראנים בגיבוש ההצעה המדינית",
+   "ההתחייבות הסינית הנטענת להפסיק כל סיוע ישיר או עקיף לטהרן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגעה לפתרון דיפלומטי בלבד של העימות מול ארצות הברית וישראל",
+     "פתיחת מצר הורמוז וחידוש שיחות הגרעין בתמורה להסרת המצור הימי והסנקציות על הנפט והתעופה"
+    ],
+    "inferred": [
+     "הקלת הלחץ הכלכלי הכבד שנוצר כתוצאה מהמצור הימי והשיתוק התעופתי",
+     "שימוש במנוף חסימת מצר הורמוז כדי לאלץ את המערב לוותר על סנקציות"
+    ],
+    "forecast": [
+     "המשך הגבלות על השיט במצר הורמוז והחרפת האיומים נגד תשתיות תעופה אזוריות אם לא יוסרו המגבלות",
+     "המשך ניסיונות תיווך דיפלומטיים לשיפור תנאי הפסקת האש"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "שליטה מלאה במצר הורמוז ואכיפת מצור צבאי וכלכלי כבד על איראן",
+     "דחיית הצעות להפסקת אש שאינן עונות על דרישותיה ומניעת סיוע בינלאומי לטהרן"
+    ],
+    "inferred": [
+     "מיטוט היכולת הכלכלית של איראן באמצעות חסימת ייצוא הנפט והתעופה עד לכניעתה",
+     "דחיית הכרעות צבאיות רחבות עד לאחר בחירות האמצע"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי והסנקציות ללא פשרות בטווח המיידי",
+     "אפשרות לחידוש תקיפות צבאיות ממוקדות נגד יעדים באיראן לאחר הבחירות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "פגיעה ביכולות הצבאיות, הגרעיניות וההנהגה של איראן במסגרת המערכה הצבאית",
+     "מניעת התבססות איראנית וסיכול פיגועים נגד יעדים ישראליים ויהודיים ברחבי העולם"
+    ],
+    "forecast": [
+     "המשך שיתוף פעולה מבצעי עם ארה\"ב ומוכנות לחידוש תקיפות אם ייכשלו המגעים הדיפלומטיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/trump-rejects-iranian-proposal-open-hormuz-and-end-fighting",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86275473/President-Pezeshkian-arrives-in-Tehran",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21491759",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1371017",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-saudi-fm-warns-world-failing-protect-gulf-shipping",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130835",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48011",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/h1jzmvr9fe",
+    "accessed_at": "2026-09-26T23:40:36+00:00"
+   }
+  ]
+ }
+}

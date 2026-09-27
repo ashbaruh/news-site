@@ -1,0 +1,328 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d504f26b9c0a",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 4,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-26T23:53:15+00:00",
+  "window": {
+   "from": "2026-09-25T23:53:15+00:00",
+   "to": "2026-09-26T23:53:15+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609262353"
+  },
+  "summary": "בזירת תימן והחות'ים מתחדשת הלחימה הקרקעית והימית בין ממשלת תימן הנתמכת בידי סעודיה לבין המיליציות החות'יות, לאחר תקופה של רגיעה יחסית. החות'ים ממשיכים באיומים על נתיבי שיבח ומדווח על תקיפות הדדיות, בעוד סעודיה קוראת לקהילה הבינלאומית לפעול להגנה על חופש השיט והתעופה האזרחית.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית",
+    "status": "פעיל ומתחדש"
+   },
+   {
+    "name": "ים סוף ומצר באב אל-מנדב",
+    "status": "פעיל ומאוים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09262353-01",
+    "title": "אזהרת בכירים משימוש החות'ים באמצעי הגנה אווירי",
+    "summary": "הכוחות המזוינים ובכירים תימנים הזהירו כי מיליציות החות' תמשכות להשתמש בנשק הגנה אווירי המסכן את התעופה הבינלאומית והאזרחית",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T19:08:16+00:00",
+    "last_update_at": "2026-09-26T23:34:31+00:00",
+    "what_is_not_verified": "היקף האיום בפועל על התעופה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_312d6a8315e66cc0",
+      "url": "https://www.sabanew.net/viewstory/153047",
+      "published_at": "2026-09-26T23:34:31+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_312d6a8315e66cc0",
+      "url": "https://www.sabanew.net/viewstory/153040",
+      "published_at": "2026-09-26T19:08:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09262353-02",
+    "title": "גינוי סעודי לאיראן ולחות'ים באו\"ם",
+    "summary": "שר החוץ הסעודי האשים את איראן בתקיפות באזור וגינה את פעולות החות'ים, תוך דרישה להגן על נתיבי השיבח",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T18:07:54+00:00",
+    "last_update_at": "2026-09-26T19:43:03+00:00",
+    "what_is_not_verified": "היענות הקהילה הבינלאומית לדרישות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+      "published_at": "2026-09-26T19:43:03+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-saudi-fm-warns-world-failing-protect-gulf-shipping",
+      "published_at": "2026-09-26T18:07:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09262353-03",
+    "title": "תקיפות של כוחות תימניים נגד מוצבי חות'ים",
+    "summary": "חיל האוויר של הכוחות המזוינים תקף מחסני נשק ותגבורות של החות'ים באזורים שונים",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T16:05:27+00:00",
+    "last_update_at": "2026-09-26T16:05:27+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בכל אתר ואתר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b6169de28fdd76dc",
+      "url": "https://www.sabanew.net/viewstory/153030",
+      "published_at": "2026-09-26T16:05:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09262353-04",
+    "title": "הצעת תיווך של חמאס בין הצדדים בתימן",
+    "summary": "ראש הלשכה המדינית של חמאס הצהיר כי הארגון הציע את עצמו כמתווך בין הצדדים הניצים בתימן",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T17:20:18+00:00",
+    "last_update_at": "2026-09-26T17:58:04+00:00",
+    "what_is_not_verified": "האם הצדדים בתימן מקבלים את ההצעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21492829",
+      "published_at": "2026-09-26T17:58:04+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130845",
+      "published_at": "2026-09-26T17:20:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09262353-05",
+    "title": "החמרת המשבר ההומניטרי והפרת זכויות אדם בתימן",
+    "summary": "ארגוני חברה אזרחית וועדות חקירה דיווחו כי ההסלמה וההפרות של החות'ים החמירו את המשבר ההומניטרי ומצב זכויות האדם",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T14:05:02+00:00",
+    "last_update_at": "2026-09-26T14:11:16+00:00",
+    "what_is_not_verified": "היקף הנפגעים המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_fd825e55522f8b7e",
+      "url": "https://www.sabanew.net/viewstory/153026",
+      "published_at": "2026-09-26T14:11:16+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2ff1bc7b032b31a4",
+      "url": "https://www.sabanew.net/viewstory/153025",
+      "published_at": "2026-09-26T14:05:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09262353-06",
+    "title": "קריאת המופתי הסעודי להיערכות צבאית והשתלטות חות'ית",
+    "summary": "המופתי הסעודי קרא לחיילי הקואליציה להיות מוכנים להקריב את חייהם בתימן מול התקדמות החות'ים והשתלטותם על נמלים ואיים",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T13:47:46+00:00",
+    "last_update_at": "2026-09-26T13:47:46+00:00",
+    "what_is_not_verified": "פרטים מלאים על מצב הלחימה בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-mufti-tells-troops-prepare-give-lives-yemen-war",
+      "published_at": "2026-09-26T13:47:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוחא, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09262353-07",
+    "title": "התקדמות כוחות הממשלה מול החות'ים והרוגים בעימותים",
+    "summary": "כוחות הממשלה בתימן התקדמו לעבר מחוזות שונים ונהרגו חמושים חות'ים בעימותים בימים האחרונים",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T08:53:01+00:00",
+    "last_update_at": "2026-09-26T08:53:01+00:00",
+    "what_is_not_verified": "מספר ההרוגים המדויק בצד השני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-rejects-irans-hormuz-plan-yemen-forces-advance-taiz",
+      "published_at": "2026-09-26T08:53:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "לחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק שנגרם מפעילות ההגנה האווירית של החות'ים",
+   "מספר הנפגעים המדויק בקרב החות'ים והכוחות הממשלתיים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בנתיבי השיט והתעופה",
+     "הרחבת השליטה בשטחי ממשלת תימן"
+    ],
+    "inferred": [
+     "שימור לחץ צבאי ואסטרטגי על סעודיה ובעלות בריתה",
+     "ביסוס שליטה באזורים אסטרטגיים ימיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות בקרקע מול כוחות הממשלה"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית וממשלת תימן",
+    "declared": [
+     "הגנה על חופש השיט והניווט במים הבינלאומיים",
+     "בלימת התקדמות המיליציות החות'יות"
+    ],
+    "inferred": [
+     "גיוס תמיכה בינלאומית נגד הפעילות החות'ית והתמיכה האיראנית",
+     "שחזור השליטה באזורים שנפלו לידי החות'ים"
+    ],
+    "forecast": [
+     "הגברת הפעילות הצבאית נגד מוצבי החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21492829",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-saudi-fm-warns-world-failing-protect-gulf-shipping",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-rejects-irans-hormuz-plan-yemen-forces-advance-taiz",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153025",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130845",
+    "accessed_at": "2026-09-26T23:53:15+00:00"
+   }
+  ]
+ }
+}

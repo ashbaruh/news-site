@@ -1,0 +1,395 @@
+{
+ "status": "draft",
+ "received_sha256_12": "db621d384865",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "verified": 1,
+   "shared_root": 1,
+   "assessment": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-27T00:07:02+00:00",
+  "window": {
+   "from": "2026-09-26T00:07:02+00:00",
+   "to": "2026-09-27T00:07:02+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "north-202609270007"
+  },
+  "summary": "צה\"ל ממשיך לבצע תקיפות אוויריות והפגזות ארטילריות נגד יעדי חזבאללה ותשתיותיו בדרום לבנון, לצד אכיפה ביטחונית להסרת איומים מיידיים. במקביל, חזבאללה מקיים אירועי זיכרון במלאת שנתיים לחיסול מנהיגיו, וממשלת לבנון מקדמת חקיקה להגבלת עסקאות מקרקעין בעיירות הדרום. בסוריה נמשכים לחצים פנימיים ותנועת הגירה והברחה לעבר לבנון, לצד ביסוס מסדרון מעבר יבשתי לדלק בין סוריה לעיראק והתגבשות שיתוף פעולה אזורי מול המעורבות הטורקית.",
+  "fronts": [
+   {
+    "name": "חזית דרום לבנון (ישראל - חזבאללה)",
+    "status": "לחימה בעצימות ממוקדת הכוללת תקיפות אוויריות ישראליות על מחסני אמל\"ח וירי ארטילרי."
+   },
+   {
+    "name": "החזית המדינית-אזורית (ישראל - טורקיה - סוריה)",
+    "status": "מתיחות מדינית והיערכות ישראלית-אזורית לבלימת השפעתה של טורקיה בסוריה ובמרחב הימי."
+   },
+   {
+    "name": "גבול סוריה - לבנון",
+    "status": "תנועת הברחות ומעבר לא חוקי של תושבים מסוריה ללבנון בצל קשיים כלכליים וביטחוניים."
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09270007-01",
+    "title": "תקיפות צה\"ל והפגזות ארטילריות בדרום לבנון",
+    "summary": "כוחות צה\"ל ומטוסי קרב ביצעו תקיפות של מחסן אמצעי לחימה של חזבאללה בסג'וד, לצד פיצוצים והפגזות באל-מנסורי, חדת'א, מיס אל-ג'בל, מג'דל זון ואל-ח'יאם.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T02:56:06+00:00",
+    "last_update_at": "2026-09-26T22:39:07+00:00",
+    "what_is_not_verified": "הטענה בדבר שימוש בפגזי זרחן באזורי נבטיה וצור לא אומתה על ידי מקור רשמי נוסף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-violent-explosions-near-southern-lebanons-khiam",
+      "published_at": "2026-09-26T22:39:07+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://english.almanar.com.lb/article/131062/",
+      "published_at": "2026-09-26T18:37:08+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_c5b405be798f3c7b",
+      "url": "https://english.almanar.com.lb/article/131027/",
+      "published_at": "2026-09-26T16:13:35+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://t.me/abualiexpress/130837",
+      "published_at": "2026-09-26T15:15:37+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://t.me/idf_telegram/25226",
+      "published_at": "2026-09-26T15:01:21+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f2ca12fd8478fe6a",
+      "url": "https://english.almanar.com.lb/article/130992/",
+      "published_at": "2026-09-26T14:02:29+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://www.newarab.com/news/trump-rejects-irans-hormuz-plan-yemen-forces-advance-taiz",
+      "published_at": "2026-09-26T08:53:01+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_ce44961b4d16aedc",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-use-phosphorus-shells-in-southern-lebanon-attacks/4069836",
+      "published_at": "2026-09-26T02:56:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-ח'יאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     },
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "סג'וד, לבנון",
+      "lat": 33.4323,
+      "lon": 35.5355
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09270007-02",
+    "title": "ציון שנתיים לחיסול חסן נסראללה ופרסום תיעודים על ידי חזבאללה",
+    "summary": "חזבאללה פרסם תיעוד ישן של חסן נסראללה נוסע ברחובות ביירות והזמין את הציבור לטקס אזכרה מרכזי לנסראללה ולהאשם צפי א-דין ברובע הדאחיה.",
+    "axis": "לבנון - פנים / חזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T08:10:20+00:00",
+    "last_update_at": "2026-09-26T21:32:39+00:00",
+    "what_is_not_verified": "מועד הצילום המדויק של התיעוד שפורסם לא צוין ולא אומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1371021",
+      "published_at": "2026-09-26T21:32:39+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21493337",
+      "published_at": "2026-09-26T18:30:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130846",
+      "published_at": "2026-09-26T17:35:01+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130816",
+      "published_at": "2026-09-26T08:10:20+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09270007-03",
+    "title": "הקמת מערך הגנה אזורי לבלימת התרחבות ההשפעה הטורקית",
+    "summary": "ישראל, יוון וקפריסין פועלות להקמת מערך הגנה רב-שכבתי בעלות של יותר מ-10 מיליארד שקלים כדי לבלום את התרחבות ההשפעה הטורקית מסוריה ועד מזרח הים התיכון.",
+    "axis": "ישראל - טורקיה - סוריה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T20:00:53+00:00",
+    "last_update_at": "2026-09-26T20:00:53+00:00",
+    "what_is_not_verified": "לוחות הזמנים המדויקים להפעלת המערך והיקף פריסתו המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/opinions/article/21491719",
+      "published_at": "2026-09-26T20:00:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09270007-04",
+    "title": "הפעלת מסדרון אנרגיה יבשתי דרך סוריה לאספקת דלק לעיראק",
+    "summary": "משלוחי בנזין מארצות הברית שהגיעו לנמל בניאס בסוריה מועברים במכליות אל בתי הזיקוק בביג'י שבעיראק, כנתיב עוקף בעקבות שיבושי השיט במצר הורמוז.",
+    "axis": "סוריה - עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T19:23:40+00:00",
+    "last_update_at": "2026-09-26T19:23:40+00:00",
+    "what_is_not_verified": "היקף המשלוחים העתידי המדויק ומשך פעילות המסדרון מעבר לחוזה הראשוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_49b3661fbffcf166",
+      "url": "https://english.enabbaladi.net/archives/2026/09/iraq-imports-us-gasoline-via-syria-energy-corridor/",
+      "published_at": "2026-09-26T19:23:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בניאס, סוריה",
+      "lat": 35.1851,
+      "lon": 35.9478
+     },
+     {
+      "name": "ביג'י, עיראק",
+      "lat": 34.9307,
+      "lon": 43.4931
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09270007-05",
+    "title": "הברחת אזרחים מסוריה ללבנון דרך נהר אל-כביר",
+    "summary": "קבוצות אזרחים סורים חוצות באופן לא חוקי את הגבול הצפוני לתוך לבנון דרך נהר אל-כביר, בעוד צבא לבנון פועל ליירוט הנכנסים ולהעברתם למנגנוני הביטחון.",
+    "axis": "גבול סוריה - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T14:10:00+00:00",
+    "last_update_at": "2026-09-26T14:10:00+00:00",
+    "what_is_not_verified": "המספר הכולל של המסתננים מדי יום לאורך כל קו הגבול",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_80082e7c6656b58a",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959850/150-to-300-for-a-way-into-lebanon-inside-the-illegal-crossings-from-sy/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959850",
+      "published_at": "2026-09-26T14:10:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09270007-06",
+    "title": "הצעת חוק ממשלתית בלבנון להגבלת מכירת מקרקעין בעיירות בדרום",
+    "summary": "ממשלת לבנון אישרה הצעת חוק האוסרת על בעלי קרקעות ונכסים בעיירות הנתונות לשליטה ישראלית למכור את רכושם ללא אישור ועדה מיוחדת, עד לסיום המצב בשטח.",
+    "axis": "לבנון - פנים וממשל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T14:00:00+00:00",
+    "last_update_at": "2026-09-26T14:00:00+00:00",
+    "what_is_not_verified": "מועד אישור החוק הסופי בפרלמנט הלבנוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959515/a-new-law-could-reshape-property-sales-in-southern-lebanons-occupied-t/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959515",
+      "published_at": "2026-09-26T14:00:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על שימוש בחימוש זרחני על ידי כוחות צה\"ל בדרום לבנון",
+   "שנת הצילום המקורית של התיעוד בו נראה חסן נסראללה נוסע ברחובות ביירות"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים מיידיים על כוחות הביטחון ופגיעה במחסני אמל\"ח של חזבאללה בדרום לבנון",
+     "מחויבות להסכם בין ישראל ללבנון תוך תגובה בעוצמה לכל הפעלת כוח משטח לבנון"
+    ],
+    "inferred": [
+     "מניעת התעצמות חזבאללה ושיבוש התבססותו מחדש בדרום לבנון",
+     "בלימת ההתפשטות וההשפעה הצבאית והמדינית של טורקיה במרחב סוריה ומזרח הים התיכון"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות של צה\"ל נגד יעדי חזבאללה להסרת איומים טקטיים",
+     "האצת ההצטיידות וההיערכות המשותפת עם יוון וקפריסין במערך ההגנה האזורי"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "שימור מורשת הנהגת הארגון וקיום עצרות זיכרון מרכזיות לנסראללה ולצפי א-דין"
+    ],
+    "inferred": [
+     "ניסיון לשקם את מעמד ההרתעה והתדמית הציבורית באמצעות פרסום תיעודים ואירועים המוניים",
+     "שימור יכולות צבאיות ותשתיות מחסנים בדרום לבנון חרף הלחץ הישראלי"
+    ],
+    "forecast": [
+     "המשך פעילות תעמולתית וטקסים לחיזוק הלכידות הפנימית בקרב תומכיו"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "התנגדות חריפה למדיניות ישראל ולפעולותיה הצבאיות במרחב"
+    ],
+    "inferred": [
+     "הרחבת השפעתה הצבאית, המדינית והגיאופוליטית מסוריה ועד מזרח הים התיכון"
+    ],
+    "forecast": [
+     "המשך חיכוך דיפלומטי ומאבקי השפעה אזוריים מול ישראל ובעלות בריתה"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "אישור מעבר משלוחי נפט ובנזין מארצות הברית דרך נמל בניאס לעיראק במסגרת שירותי מעבר"
+    ],
+    "inferred": [
+     "ניצול מעמדה הגיאוגרפי כמסדרון אנרגיה ומעבר מסחרי להפקת רווחים כלכליים ומדיניים"
+    ],
+    "forecast": [
+     "המשך שימוש בנמלים ובנתיבי היבשה הסוריים למעבר סחורות ודלק עקב חסימות שיט אזוריות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/130992/",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-use-phosphorus-shells-in-southern-lebanon-attacks/4069836",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/iraq-imports-us-gasoline-via-syria-energy-corridor/",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/opinions/article/21491719",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/959515/a-new-law-could-reshape-property-sales-in-southern-lebanons-occupied-t/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959515",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1371021",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-violent-explosions-near-southern-lebanons-khiam",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-rejects-irans-hormuz-plan-yemen-forces-advance-taiz",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130816",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25226",
+    "accessed_at": "2026-09-27T00:07:02+00:00"
+   }
+  ]
+ }
+}

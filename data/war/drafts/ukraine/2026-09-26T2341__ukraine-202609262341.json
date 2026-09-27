@@ -1,0 +1,380 @@
+{
+ "status": "draft",
+ "received_sha256_12": "85acf5648f74",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-26T23:41:57+00:00",
+  "window": {
+   "from": "2026-09-25T23:41:57+00:00",
+   "to": "2026-09-26T23:41:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609262341"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה, בדגש על תקיפות אוויריות הדדיות באמצעות רחפנים וכטב\"מים המכוונים לעבר תשתיות קריטיות, מרכזי ערים ומתקנים תעשייתיים. רוסיה ממשיכה להטיל אש כבדה על אזורים שונים באוקראינה ובהם קייב וסומי, בעוד אוקראינה מדווחת על פגיעה במטרות צבאיות בשטח רוסיה ודורשת סיוע הומניטרי באזורים נצורים כמו אולשקי. במקביל, מתנהל מאבק דיפלומטי חריף באו\"ם ובזירות הבין-לאומיות סביב סיכויי משא ומתן והטשת האשמות הדדיות.",
+  "fronts": [
+   {
+    "name": "חזית קייב והמרכז",
+    "status": "פעיל - תקיפות רחפנים ופגיעה בתשתיות דיגיטליות ואזרחיות"
+   },
+   {
+    "name": "חזית סומי וחרקוב",
+    "status": "פעיל - הפצצות אוויריות ותקיפות קרקעיות גורמות לנפגעים רבים"
+   },
+   {
+    "name": "החזית הימית (הים השחור והכספי)",
+    "status": "פעיל - טענות הדדיות על נזקים לספנות מסחרית"
+   },
+   {
+    "name": "המחוזות המערביים ברוסיה וקרים",
+    "status": "פעיל - יירוטי כטב\"מים אוקראיניים ותקיפות מתקנים צבאיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09262341-01",
+    "title": "תקיפות רוסיות על קייב",
+    "summary": "כוחות רוסיה תקפו את קייב באמצעות רחפנים ופגעו בבנייני מגורים, מחסנים ותשתיות דיגיטליות ונתונים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-26T04:00:25+00:00",
+    "last_update_at": "2026-09-26T22:29:22+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לכל המבנים והתשתיות לא מאומת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_a4755753160d1dd3",
+      "url": "https://kyivindependent.com/russia-launches-third-consecutive-attack-on-kyiv-injuring-1-setting-off-fires/",
+      "published_at": "2026-09-26T22:29:22+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a4755753160d1dd3",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055186/",
+      "published_at": "2026-09-26T18:27:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_a4755753160d1dd3",
+      "url": "https://kyivindependent.com/russian-strikes-on-kyiv-data-centers-disrupt-operations-at-several-ukrainian-media-outlets/",
+      "published_at": "2026-09-26T12:30:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_a4755753160d1dd3",
+      "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres",
+      "published_at": "2026-09-26T04:00:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-02",
+    "title": "תקיפה אוקראינית על מפעל ביטחוני באזוב",
+    "summary": "אוקראינה ביצעה תקיפה על מפעל המייצר רכיבי טילים בעיר אזוב.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T17:45:55+00:00",
+    "last_update_at": "2026-09-26T17:45:55+00:00",
+    "what_is_not_verified": "פרטים מדויקים על נזקי המפעל מעבר להודעת המטה הכללי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-strikes-russian-defense-plant-producing-missile-components-general-staff-says/",
+      "published_at": "2026-09-26T17:45:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אזוב, רוסיה",
+      "lat": 47.0884,
+      "lon": 39.4241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-03",
+    "title": "הרוגים ופצועים בתקיפות על סומי",
+    "summary": "תקיפות אוויריות רוסיות על קהילת סומי גרמו להרוגים ולפצועים רבים, כולל ילדים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T16:21:00+00:00",
+    "last_update_at": "2026-09-26T18:46:08+00:00",
+    "what_is_not_verified": "לא מאומת מצבם הרפואי המדויק של כלל הפצועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-strikes-on-sumy-kill-2-injure-23-including-4-children/",
+      "published_at": "2026-09-26T18:46:08+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055182/",
+      "published_at": "2026-09-26T16:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי, אוקראינה",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-04",
+    "title": "יורטו רחפנים מעל מחוזות ברוסיה",
+    "summary": "ההגנה האווירית הרוסית יירטה עשרות כלי טיס בלתי מאוישים אוקראיניים מעל מספר מחוזות ובים השחור.",
+    "axis": "הגנה אווירית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T18:09:02+00:00",
+    "last_update_at": "2026-09-26T18:09:02+00:00",
+    "what_is_not_verified": "נתוני היירוט מדווחים על ידי הצבא הרוסי בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2193419",
+      "published_at": "2026-09-26T18:09:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חצי האי קרים",
+      "lat": 45.2835,
+      "lon": 34.2008
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-05",
+    "title": "הרוג ופצועים בתקיפת רחפן במחוז חרקוב",
+    "summary": "תקיפת רחפן אוקראיני או רוסי במחוז חרקוב פגעה ברכב וגרמה להרוג ופצועים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T15:01:00+00:00",
+    "last_update_at": "2026-09-26T15:01:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על נסיבות כל פגיעה ופגיעה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055176/",
+      "published_at": "2026-09-26T15:01:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-06",
+    "title": "סיוע כלכלי מיפן לאוקראינה",
+    "summary": "אוקראינה הבטיחה מימון של מיליונים מיפן לפיתוח מערכת הבריאות.",
+    "axis": "סיוע כלכלי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T15:22:00+00:00",
+    "last_update_at": "2026-09-26T15:22:00+00:00",
+    "what_is_not_verified": "לוחות הזמנים המלאים לניצול כלל התקציב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055178/",
+      "published_at": "2026-09-26T15:22:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09262341-07",
+    "title": "הכרזת זלינסקי על תקציב רחפנים רוסי",
+    "summary": "נשיא אוקראינה הצהיר כי מודיעין אוקראינה חשף מסמכים על כוונת רוסיה להשקיע מיליארדי דולרים בייצור רחפנים מתקדמים.",
+    "axis": "מודיעין וחימוש",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T18:00:00+00:00",
+    "last_update_at": "2026-09-26T19:24:38+00:00",
+    "what_is_not_verified": "תוכניות הייצור המדויקות של רוסיה במסמכים הפנימיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-plans-to-spend-12-billion-on-jet-powered-drones-loitering-munitions-next-year-zelensky-says/",
+      "published_at": "2026-09-26T19:24:38+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055188/",
+      "published_at": "2026-09-26T18:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09262341-08",
+    "title": "פגיעה במפעל פרמצבטי בקייב",
+    "summary": "כוחות רוסיה תקפו את מפעל התרופות דרניצה בקייב בפעם השנייה בתוך שבוע.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T13:02:00+00:00",
+    "last_update_at": "2026-09-26T13:02:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא למתקני המפעל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055162/",
+      "published_at": "2026-09-26T13:02:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "{'string': 'נתוני היירוד המדויקים של רחפנים על ידי ההגנה האווירית האוקראינית והרוסית.'}",
+   "{'string': 'המצב ההומניטרי המדויק באולשקי והדיווחים על אכילת עשב.'}",
+   "{'string': 'היקף המסמכים הפנימיים הרוסיים בנוגע לתקציבי הייצור שנחשפו לכאורה על ידי המודיעין האוקראיני.'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1403,
+    "unit": "USD",
+    "change_pct": 0.32,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "בניית מערכות הגנה אווירית חזקות יותר נגד רחפנים מתקדמים",
+     "הגנה על תשתיות קריטיות והבטחת גישה הומניטרית לאזורים הכבושים",
+     "קבלת סיוע כספי וצבאי בינלאומי"
+    ],
+    "inferred": [
+     "פגיעה ביכולות התעשייה הצבאית של רוסיה באמצעות תקיפות עומק",
+     "שימור הכלכלה והתשתיות הדיגיטליות מפני קריסה חורפית"
+    ],
+    "forecast": [
+     "הגברת השימוש בטכנולוגיות אוטונומיות ורחפנים דרך יוזמות חדשות",
+     "פנייה מוגברת לגורמים בינלאומיים להפעלת לחץ כלכלי על רוסיה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת יעדי המבצע הצבאי המיוחד וחיסול איומים ביטחוניים ממוקד קייב",
+     "פיתוח מואץ של חימוש מתקדם ורחפנים לשנה הבאה",
+     "הקמת ארכיטקטורה ביטחונית חדשה באירואסיה"
+    ],
+    "inferred": [
+     "שחיקת היכולות הכלכליות והתשתיות החיוניות של אוקראינה לקראת החורף",
+     "הימנעות מוויתורים במשא ומתן כל עוד השטח נמצא בשליטה צבאית"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות מרוכזות על ערים מרכזיות באוקראינה",
+     "המשך מאמצים דיפלומטיים לערעור התמיכה המערבית באוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres",
+    "accessed_at": "2026-09-26T23:41:57+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russia-plans-to-spend-12-billion-on-jet-powered-drones-loitering-munitions-next-year-zelensky-says/",
+    "accessed_at": "2026-09-26T23:41:57+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/26/8055162/",
+    "accessed_at": "2026-09-26T23:41:57+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2193419",
+    "accessed_at": "2026-09-26T23:41:57+00:00"
+   }
+  ]
+ }
+}

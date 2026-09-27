@@ -11,6 +11,7 @@
 12.7896,
 45.0285
 ],
+"akkar, lebanon": null,
 "akrotiri, cyprus": [
 34.6008,
 32.9562
@@ -55,6 +56,10 @@
 39.9208,
 32.854
 ],
+"antwerp, belgium": [
+51.2211,
+4.3997
+],
 "arifjan, kuwait": [
 28.899,
 48.1505
@@ -66,6 +71,10 @@
 "ayyash, syria": [
 35.6738,
 36.0252
+],
+"azov, russia": [
+47.0884,
+39.4241
 ],
 "bab al-mandab strait, yemen": null,
 "bab al-mandab, yemen": [
@@ -84,11 +93,19 @@
 33.3062,
 44.3872
 ],
+"baiji, iraq": [
+34.9307,
+43.4931
+],
 "balakliia, ukraine": [
 49.4521,
 36.8398
 ],
 "bani hayyan, lebanon": null,
+"baniyas, syria": [
+35.1851,
+35.9478
+],
 "bar'ashit, lebanon": null,
 "bashiqa, iraq": [
 36.4505,
@@ -148,7 +165,12 @@
 47.0245,
 28.8323
 ],
+"crimea": [
+45.2835,
+34.2008
+],
 "cyprus": null,
+"dahieh, beirut, lebanon": null,
 "damascus international airport, syria": [
 33.4102,
 36.5241
@@ -370,6 +392,10 @@
 53.1816
 ],
 "latakia, syria": null,
+"liege, belgium": [
+50.6451,
+5.5736
+],
 "london, united kingdom": [
 51.5074,
 -0.1278
@@ -461,6 +487,7 @@
 35.4825
 ],
 "nahal saluki, lebanon": null,
+"nahr al-kabir, lebanon-syria border": null,
 "najaf, iraq": [
 32.001,
 44.33
@@ -585,6 +612,10 @@
 ],
 "sarbin, lebanon": null,
 "saudi arabia": null,
+"sejoud, lebanon": [
+33.4323,
+35.5355
+],
 "shannon airport, ireland": [
 52.6987,
 -8.9216
