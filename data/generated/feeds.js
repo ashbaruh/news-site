@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T20:17:11+00:00",
-  "fetched_at": "2026-09-27T20:17:11+00:00"
+  "checked_at": "2026-09-27T21:17:29+00:00",
+  "fetched_at": "2026-09-27T21:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T20:17:21+00:00",
-  "fetched_at": "2026-09-27T20:17:21+00:00"
+  "checked_at": "2026-09-27T21:17:43+00:00",
+  "fetched_at": "2026-09-27T21:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T20:17:22+00:00",
-  "fetched_at": "2026-09-27T20:17:22+00:00"
+  "checked_at": "2026-09-27T21:17:47+00:00",
+  "fetched_at": "2026-09-27T21:17:47+00:00"
  },
- "generated_at": "2026-09-27T20:17:22+00:00",
+ "generated_at": "2026-09-27T21:17:47+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T20:17:12+00:00",
-  "fetched_at": "2026-09-27T20:17:12+00:00"
+  "checked_at": "2026-09-27T21:17:30+00:00",
+  "fetched_at": "2026-09-27T21:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,158 +1866,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T20:17:12+00:00",
-  "fetched_at": "2026-09-27T20:17:12+00:00"
+  "checked_at": "2026-09-27T21:17:31+00:00",
+  "fetched_at": "2026-09-27T21:17:31+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-27",
-    "time": "13:30",
-    "channel": "ספורט 1",
-    "sport": "כדורסל",
-    "title": "בורגוס - באסקוניה"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "15:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "ויאדוליד - קורדובה"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "15:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "מנצ'סטר יונייטד נשים - ווסטהאם נשים"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "16:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "ליטא - אזרבייג'אן"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "17:00",
-    "channel": "ספורט 4",
-    "sport": "כדורסל",
-    "title": "אולימפיה מילאנו - טרייסטה"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "17:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "נאנסי - פאריס באסקטבול"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "18:00",
-    "channel": "ספורט 6",
-    "sport": "כדורסל",
-    "title": "באחצ'שהיר קולג'י - פנרבחצ'ה"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "18:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "הפועל עירוני אילת - מכבי אשדוד"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "19:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "מכבי תל אביב - עירוני קריית אתא"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "סרביה - הולנד"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "19:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "דנמרק - ווילס"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "19:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "אליצור חולון - מכבי אשדוד"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "20:00",
-    "channel": "ספורט 4",
-    "sport": "כדורסל",
-    "title": "ריאל מדריד - אוניקאחה מלאגה"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "20:00",
-    "channel": "ספורט 6",
-    "sport": "כדורסל",
-    "title": "אולימפיאקוס - פאוק סלוניקי"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "21:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "מינסוטה לינקס - ניו יורק ליברטי"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "21:45",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "ישראל - אירלנד"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "גרמניה - יוון"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "21:45",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "נורבגיה - פורטוגל"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "22:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "אוביידו - ספורטינג גיחון"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "23:00",
-    "channel": "5 גולד",
-    "sport": "כדורסל",
-    "title": "לאס וגאס אייסז - אינדיאנה פיבר"
-   },
-   {
-    "date": "2026-09-27",
-    "time": "23:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "בוליביה - פרגוואי"
-   },
    {
     "date": "2026-09-28",
     "time": "02:00",
@@ -2315,6 +2168,20 @@ window.DB.generated = {
    {
     "date": "2026-10-01",
     "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מכבי קריית גת"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית ים - הפועל כפר סבא"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "הפועל עפולה - הפועל ראשון לציון"
@@ -2353,20 +2220,6 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי אחי נצרת - עירוני מודיעין"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "בני יהודה - מכבי קריית גת"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - הפועל כפר סבא"
    },
    {
     "date": "2026-10-01",
@@ -2605,11 +2458,18 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "פאריס - לאנס"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "אירלנד - ישראל"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T20:17:13+00:00",
-  "fetched_at": "2026-09-27T20:17:13+00:00"
+  "checked_at": "2026-09-27T21:17:33+00:00",
+  "fetched_at": "2026-09-27T21:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2699,8 +2559,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T20:17:13+00:00",
-  "fetched_at": "2026-09-27T20:17:13+00:00"
+  "checked_at": "2026-09-27T21:17:33+00:00",
+  "fetched_at": "2026-09-27T21:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2714,48 +2574,50 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 272,
+     "likes": 273,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 224,
+     "likes": 226,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 576,
+     "likes": 577,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 177,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2776,25 +2638,34 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 86,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 314,
+     "likes": 316,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T20:17:20+00:00",
-  "fetched_at": "2026-09-27T20:17:20+00:00"
+  "checked_at": "2026-09-27T21:17:42+00:00",
+  "fetched_at": "2026-09-27T21:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דניאל פרץ: \"פגע בנו שרצינו יותר מדי. המחאות? אנשים בורים\"",
+     "link": "https://sports.walla.co.il/item/3870034",
+     "date": "2026-09-27T20:59:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "הצד של דיא סבע: מדוע לא הגיע לנבחרת ישראל?",
      "link": "https://www.one.co.il/Article/534441.html?ref=rss",
@@ -2838,15 +2709,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "מנור סולומון עלול להסתבך בעקבות דבריו על השיפוט",
-     "link": "https://sports.walla.co.il/item/3869797",
-     "date": "2026-09-25T13:19:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -3068,8 +2930,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T20:17:16+00:00",
-  "fetched_at": "2026-09-27T20:17:16+00:00"
+  "checked_at": "2026-09-27T21:17:36+00:00",
+  "fetched_at": "2026-09-27T21:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3100,7 +2962,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T20:17:17+00:00",
-  "fetched_at": "2026-09-27T20:17:17+00:00"
+  "checked_at": "2026-09-27T21:17:37+00:00",
+  "fetched_at": "2026-09-27T21:17:37+00:00"
  }
 };
