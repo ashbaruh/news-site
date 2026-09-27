@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T04:17:18+00:00",
-  "fetched_at": "2026-09-27T04:17:18+00:00"
+  "checked_at": "2026-09-27T05:17:22+00:00",
+  "fetched_at": "2026-09-27T05:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T04:17:30+00:00",
-  "fetched_at": "2026-09-27T04:17:30+00:00"
+  "checked_at": "2026-09-27T05:17:34+00:00",
+  "fetched_at": "2026-09-27T05:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T04:17:31+00:00",
-  "fetched_at": "2026-09-27T04:17:31+00:00"
+  "checked_at": "2026-09-27T05:17:36+00:00",
+  "fetched_at": "2026-09-27T05:17:36+00:00"
  },
- "generated_at": "2026-09-27T04:17:31+00:00",
+ "generated_at": "2026-09-27T05:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"המגזר הציבורי מזמן לא האיש השמן\": הממונה על השכר מסכם ארבע שנים מטלטלות",
+     "title": "הממונה על השכר מזהיר: \"לחלק מהאנשים לא תהיה באמת קצבת זקנה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557564",
      "date": "2026-09-27T03:02:00+00:00"
     },
     {
      "title": "המאבטח של הנייה קיבל מקלט ואזרחות בריטית - ותכנן פיגוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T02:32:00+00:00"
+     "date": "2026-09-27T05:09:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T04:17:19+00:00",
-  "fetched_at": "2026-09-27T04:17:19+00:00"
+  "checked_at": "2026-09-27T05:17:23+00:00",
+  "fetched_at": "2026-09-27T05:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T04:17:20+00:00",
-  "fetched_at": "2026-09-27T04:17:20+00:00"
+  "checked_at": "2026-09-27T05:17:24+00:00",
+  "fetched_at": "2026-09-27T05:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T04:17:21+00:00",
-  "fetched_at": "2026-09-27T04:17:21+00:00"
+  "checked_at": "2026-09-27T05:17:26+00:00",
+  "fetched_at": "2026-09-27T05:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T04:17:21+00:00",
-  "fetched_at": "2026-09-27T04:17:21+00:00"
+  "checked_at": "2026-09-27T05:17:26+00:00",
+  "fetched_at": "2026-09-27T05:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2664,14 +2664,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 561,
+     "likes": 563,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2685,22 +2685,29 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 136,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 80,
+     "likes": 81,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 159,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "Hum to Song",
+     "desc_en": "Hum a melody, get a finished song",
+     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "StepAudio 3 Music Studio",
@@ -2708,23 +2715,25 @@ window.DB.generated = {
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
      "likes": 146,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
-    },
-    {
-     "title": "Hum to Song",
-     "desc_en": "Hum a melody, get a finished song",
-     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 79,
-     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T04:17:29+00:00",
-  "fetched_at": "2026-09-27T04:17:29+00:00"
+  "checked_at": "2026-09-27T05:17:33+00:00",
+  "fetched_at": "2026-09-27T05:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
+     "link": "https://sports.walla.co.il/item/3869886",
+     "date": "2026-09-27T05:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "30 נקודות למשחק? בארה\"ב מסמנים את הקפיצה הבאה של דני אבדיה",
      "link": "https://sports.walla.co.il/item/3869899",
@@ -2990,8 +2999,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T04:17:25+00:00",
-  "fetched_at": "2026-09-27T04:17:25+00:00"
+  "checked_at": "2026-09-27T05:17:29+00:00",
+  "fetched_at": "2026-09-27T05:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -3022,7 +3031,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T04:17:25+00:00",
-  "fetched_at": "2026-09-27T04:17:25+00:00"
+  "checked_at": "2026-09-27T05:17:30+00:00",
+  "fetched_at": "2026-09-27T05:17:30+00:00"
  }
 };
