@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:38:54+00:00",
-  "fetched_at": "2026-09-27T21:38:54+00:00"
+  "checked_at": "2026-09-27T22:17:11+00:00",
+  "fetched_at": "2026-09-27T22:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:39:07+00:00",
-  "fetched_at": "2026-09-27T21:39:07+00:00"
+  "checked_at": "2026-09-27T22:17:20+00:00",
+  "fetched_at": "2026-09-27T22:17:20+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:39:08+00:00",
-  "fetched_at": "2026-09-27T21:39:08+00:00"
+  "checked_at": "2026-09-27T22:17:21+00:00",
+  "fetched_at": "2026-09-27T22:17:21+00:00"
  },
- "generated_at": "2026-09-27T21:39:08+00:00",
+ "generated_at": "2026-09-27T22:17:21+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:38:56+00:00",
-  "fetched_at": "2026-09-27T21:38:56+00:00"
+  "checked_at": "2026-09-27T22:17:13+00:00",
+  "fetched_at": "2026-09-27T22:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:38:57+00:00",
-  "fetched_at": "2026-09-27T21:38:57+00:00"
+  "checked_at": "2026-09-27T22:17:13+00:00",
+  "fetched_at": "2026-09-27T22:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:38:59+00:00",
-  "fetched_at": "2026-09-27T21:38:59+00:00"
+  "checked_at": "2026-09-27T22:17:14+00:00",
+  "fetched_at": "2026-09-27T22:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:38:59+00:00",
-  "fetched_at": "2026-09-27T21:38:59+00:00"
+  "checked_at": "2026-09-27T22:17:14+00:00",
+  "fetched_at": "2026-09-27T22:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2574,7 +2574,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2587,7 +2589,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 226,
+     "likes": 227,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2608,7 +2610,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 178,
+     "likes": 179,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2622,7 +2624,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2649,12 +2651,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:39:05+00:00",
-  "fetched_at": "2026-09-27T21:39:05+00:00"
+  "checked_at": "2026-09-27T22:17:19+00:00",
+  "fetched_at": "2026-09-27T22:17:19+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סולומון: כנראה שסיפור האירים חלחל בכל זאת",
+     "link": "https://www.one.co.il/Article/534488.html?ref=rss",
+     "date": "2026-09-27T21:43:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "מנור סולומון: \"אם אגיד מה אני חושב על האירים, ירחיקו אותי\"",
      "link": "https://sports.walla.co.il/item/3870036",
@@ -2937,8 +2948,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:39:02+00:00",
-  "fetched_at": "2026-09-27T21:39:02+00:00"
+  "checked_at": "2026-09-27T22:17:17+00:00",
+  "fetched_at": "2026-09-27T22:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -2969,7 +2980,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:39:02+00:00",
-  "fetched_at": "2026-09-27T21:39:02+00:00"
+  "checked_at": "2026-09-27T22:17:17+00:00",
+  "fetched_at": "2026-09-27T22:17:17+00:00"
  }
 };
