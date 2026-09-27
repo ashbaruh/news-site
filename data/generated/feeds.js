@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T12:17:33+00:00",
-  "fetched_at": "2026-09-27T12:17:33+00:00"
+  "checked_at": "2026-09-27T13:17:29+00:00",
+  "fetched_at": "2026-09-27T13:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T12:17:49+00:00",
-  "fetched_at": "2026-09-27T12:17:49+00:00"
+  "checked_at": "2026-09-27T13:17:43+00:00",
+  "fetched_at": "2026-09-27T13:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T12:17:50+00:00",
-  "fetched_at": "2026-09-27T12:17:50+00:00"
+  "checked_at": "2026-09-27T13:17:45+00:00",
+  "fetched_at": "2026-09-27T13:17:45+00:00"
  },
- "generated_at": "2026-09-27T12:17:50+00:00",
+ "generated_at": "2026-09-27T13:17:45+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
-     "date": "2026-09-27T10:00:00+00:00"
+     "title": "\"הפכנו ליוניקורן כתום, אלה סכומים שלא חלמתי עליהם\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557536",
+     "date": "2026-09-27T13:01:00+00:00"
     },
     {
      "title": "חשודים שתכננו פיגוע מכונית תופת באמריקאים נעצרו בבסיס בבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T11:53:00+00:00"
+     "date": "2026-09-27T12:19:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "טיל מאלי אקספרס: כך החות'ים מצליחים לבנות נשק בלי עזרה איראנית",
+     "title": "גשמים עזים והצפות בנפאל: עשרות ישראלים תקועים בהרים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557656",
+     "date": "2026-09-27T11:38:00+00:00"
+    },
+    {
+     "title": "מה מסתתר מאחורי העוינות של אירלנד לישראל?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557640",
      "date": "2026-09-27T10:09:00+00:00"
+    },
+    {
+     "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
+     "date": "2026-09-27T10:00:00+00:00"
     },
     {
      "title": "פונתה אחרי 70 שנה בדירה, והציתה מחאת ענק בספרד",
@@ -117,11 +127,6 @@ window.DB.generated = {
      "title": "אחרי שפרצו לאתרים ממשלתיים - OpenAI מקפיאה את אימון המודלים החדשים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
      "date": "2026-09-27T06:12:00+00:00"
-    },
-    {
-     "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
-     "date": "2026-09-27T04:01:00+00:00"
     },
     {
      "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-24T15:36:00+00:00"
     },
     {
-     "title": "קרבות עזים באתיופיה מאיימים לגרור את כל אפריקה למלחמה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557479",
-     "date": "2026-09-24T15:30:00+00:00"
-    },
-    {
      "title": "מליסרון הודיעה שהמנכ\"ל אופיר שריד יסיים את תפקידו בשל מחלה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557595",
      "date": "2026-09-24T15:15:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T12:17:34+00:00",
-  "fetched_at": "2026-09-27T12:17:34+00:00"
+  "checked_at": "2026-09-27T13:17:31+00:00",
+  "fetched_at": "2026-09-27T13:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T12:17:34+00:00",
-  "fetched_at": "2026-09-27T12:17:34+00:00"
+  "checked_at": "2026-09-27T13:17:32+00:00",
+  "fetched_at": "2026-09-27T13:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2128,7 +2128,7 @@ window.DB.generated = {
     "time": "22:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
-    "title": "בוצואנה - טוניסיה"
+    "title": "טוניסיה - בוצואנה"
    },
    {
     "date": "2026-09-29",
@@ -2558,10 +2558,9 @@ window.DB.generated = {
     "title": "פאריס - לאנס"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-27T12:17:40+00:00",
-  "fetched_at": "2026-09-27T11:17:18+00:00"
+  "ok": true,
+  "checked_at": "2026-09-27T13:17:34+00:00",
+  "fetched_at": "2026-09-27T13:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2651,8 +2650,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T12:17:40+00:00",
-  "fetched_at": "2026-09-27T12:17:40+00:00"
+  "checked_at": "2026-09-27T13:17:34+00:00",
+  "fetched_at": "2026-09-27T13:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2663,25 +2662,18 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 5,
-   "failed_sources": [],
+   "candidates": 4,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 262,
+     "likes": 264,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2730,7 +2722,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 166,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2750,8 +2742,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T12:17:48+00:00",
-  "fetched_at": "2026-09-27T12:17:48+00:00"
+  "checked_at": "2026-09-27T13:17:42+00:00",
+  "fetched_at": "2026-09-27T13:17:42+00:00"
  },
  "abroad": {
   "data": {
@@ -3048,8 +3040,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T12:17:44+00:00",
-  "fetched_at": "2026-09-27T12:17:44+00:00"
+  "checked_at": "2026-09-27T13:17:37+00:00",
+  "fetched_at": "2026-09-27T13:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3080,7 +3072,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T12:17:45+00:00",
-  "fetched_at": "2026-09-27T12:17:45+00:00"
+  "checked_at": "2026-09-27T13:17:38+00:00",
+  "fetched_at": "2026-09-27T13:17:38+00:00"
  }
 };
