@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T17:17:46+00:00",
-  "fetched_at": "2026-09-27T17:17:46+00:00"
+  "checked_at": "2026-09-27T18:17:21+00:00",
+  "fetched_at": "2026-09-27T18:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T17:17:58+00:00",
-  "fetched_at": "2026-09-27T17:17:58+00:00"
+  "checked_at": "2026-09-27T18:17:32+00:00",
+  "fetched_at": "2026-09-27T18:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T17:17:59+00:00",
-  "fetched_at": "2026-09-27T17:17:59+00:00"
+  "checked_at": "2026-09-27T18:17:32+00:00",
+  "fetched_at": "2026-09-27T18:17:32+00:00"
  },
- "generated_at": "2026-09-27T17:17:59+00:00",
+ "generated_at": "2026-09-27T18:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפגישה הדרמטית עם רשות התחרות: מאחורי פיצוץ הסכם הגז בין ניו־מד לדליה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557669",
-     "date": "2026-09-27T15:00:00+00:00"
+     "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות מחר?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
+     "date": "2026-09-27T18:00:00+00:00"
     },
     {
      "title": "טראמפ: \"האיראנים מתחו את החבל יותר מדי\"",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T17:17:48+00:00",
-  "fetched_at": "2026-09-27T17:17:48+00:00"
+  "checked_at": "2026-09-27T18:17:22+00:00",
+  "fetched_at": "2026-09-27T18:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T17:17:48+00:00",
-  "fetched_at": "2026-09-27T17:17:48+00:00"
+  "checked_at": "2026-09-27T18:17:22+00:00",
+  "fetched_at": "2026-09-27T18:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2608,8 +2608,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T17:17:51+00:00",
-  "fetched_at": "2026-09-27T17:17:51+00:00"
+  "checked_at": "2026-09-27T18:17:24+00:00",
+  "fetched_at": "2026-09-27T18:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2699,21 +2699,21 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T17:17:51+00:00",
-  "fetched_at": "2026-09-27T17:17:51+00:00"
+  "checked_at": "2026-09-27T18:17:24+00:00",
+  "fetched_at": "2026-09-27T18:17:24+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
-     "date": "2026-09-24T17:23:25+00:00",
-     "launch": true,
-     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+     "link": "https://www.geektime.co.il/openai-halts-sota-models-due-to-misaligned-agents/",
+     "date": "2026-09-27T07:12:28+00:00",
+     "launch": false,
+     "title": "ב-OpenAI מודים: אנחנו עוצרים את פיתוח מודלי הענק שלנו אחרי שורת תקריות חמורות"
     }
    ],
-   "candidates": 4,
+   "candidates": 3,
    "failed_sources": [],
    "tools": [
     {
@@ -2734,7 +2734,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 147,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2776,7 +2776,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 84,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2789,8 +2789,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T17:17:57+00:00",
-  "fetched_at": "2026-09-27T17:17:57+00:00"
+  "checked_at": "2026-09-27T18:17:31+00:00",
+  "fetched_at": "2026-09-27T18:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -3065,21 +3065,11 @@ window.DB.generated = {
      "club": "אשטרלה אמדורה (משנה)"
     }
    ],
-   "europe": [
-    {
-     "title": "גאווה גדולה: מכבי חיפה קטועי גפיים אלופת הקונפרנס",
-     "link": "https://sports.walla.co.il/item/3869781",
-     "date": "2026-09-25T10:08:00+00:00",
-     "source": "וואלה",
-     "clubs": [
-      "מכבי חיפה"
-     ]
-    }
-   ]
+   "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T17:17:54+00:00",
-  "fetched_at": "2026-09-27T17:17:54+00:00"
+  "checked_at": "2026-09-27T18:17:27+00:00",
+  "fetched_at": "2026-09-27T18:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3110,7 +3100,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T17:17:54+00:00",
-  "fetched_at": "2026-09-27T17:17:54+00:00"
+  "checked_at": "2026-09-27T18:17:27+00:00",
+  "fetched_at": "2026-09-27T18:17:27+00:00"
  }
 };
