@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T19:17:27+00:00",
-  "fetched_at": "2026-09-27T19:17:27+00:00"
+  "checked_at": "2026-09-27T20:17:11+00:00",
+  "fetched_at": "2026-09-27T20:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T19:17:37+00:00",
-  "fetched_at": "2026-09-27T19:17:37+00:00"
+  "checked_at": "2026-09-27T20:17:21+00:00",
+  "fetched_at": "2026-09-27T20:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T19:17:40+00:00",
-  "fetched_at": "2026-09-27T19:17:40+00:00"
+  "checked_at": "2026-09-27T20:17:22+00:00",
+  "fetched_at": "2026-09-27T20:17:22+00:00"
  },
- "generated_at": "2026-09-27T19:17:40+00:00",
+ "generated_at": "2026-09-27T20:17:22+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T19:17:28+00:00",
-  "fetched_at": "2026-09-27T19:17:28+00:00"
+  "checked_at": "2026-09-27T20:17:12+00:00",
+  "fetched_at": "2026-09-27T20:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T19:17:29+00:00",
-  "fetched_at": "2026-09-27T19:17:29+00:00"
+  "checked_at": "2026-09-27T20:17:12+00:00",
+  "fetched_at": "2026-09-27T20:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2608,8 +2608,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T19:17:29+00:00",
-  "fetched_at": "2026-09-27T19:17:29+00:00"
+  "checked_at": "2026-09-27T20:17:13+00:00",
+  "fetched_at": "2026-09-27T20:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2699,8 +2699,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T19:17:29+00:00",
-  "fetched_at": "2026-09-27T19:17:29+00:00"
+  "checked_at": "2026-09-27T20:17:13+00:00",
+  "fetched_at": "2026-09-27T20:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2720,7 +2720,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 270,
+     "likes": 272,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2734,7 +2734,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 148,
+     "likes": 149,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2748,7 +2748,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 176,
+     "likes": 177,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2783,14 +2783,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 313,
+     "likes": 314,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T19:17:36+00:00",
-  "fetched_at": "2026-09-27T19:17:36+00:00"
+  "checked_at": "2026-09-27T20:17:20+00:00",
+  "fetched_at": "2026-09-27T20:17:20+00:00"
  },
  "abroad": {
   "data": {
@@ -3068,8 +3068,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T19:17:33+00:00",
-  "fetched_at": "2026-09-27T19:17:33+00:00"
+  "checked_at": "2026-09-27T20:17:16+00:00",
+  "fetched_at": "2026-09-27T20:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3100,7 +3100,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T19:17:33+00:00",
-  "fetched_at": "2026-09-27T19:17:33+00:00"
+  "checked_at": "2026-09-27T20:17:17+00:00",
+  "fetched_at": "2026-09-27T20:17:17+00:00"
  }
 };
