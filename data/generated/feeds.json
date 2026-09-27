@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T06:17:27+00:00",
-  "fetched_at": "2026-09-27T06:17:27+00:00"
+  "checked_at": "2026-09-27T07:17:13+00:00",
+  "fetched_at": "2026-09-27T07:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T06:17:38+00:00",
-  "fetched_at": "2026-09-27T06:17:38+00:00"
+  "checked_at": "2026-09-27T07:17:22+00:00",
+  "fetched_at": "2026-09-27T07:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -77,20 +77,20 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T06:17:39+00:00",
-  "fetched_at": "2026-09-27T06:17:39+00:00"
+  "checked_at": "2026-09-27T07:17:23+00:00",
+  "fetched_at": "2026-09-27T07:17:23+00:00"
  },
- "generated_at": "2026-09-27T06:17:39+00:00",
+ "generated_at": "2026-09-27T07:17:23+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הממונה על השכר מזהיר: \"לחלק מהאנשים לא תהיה באמת קצבת זקנה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557564",
-     "date": "2026-09-27T03:02:00+00:00"
+     "title": "72 דירות בשלושה ימים: איך מועדון חבר ומעיין אדם דווקא מצליחים למכור דירות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557132",
+     "date": "2026-09-27T06:59:00+00:00"
     },
     {
-     "title": "המאבטח של הנייה קיבל מקלט ואזרחות בריטית - ותכנן פיגוע",
+     "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
      "date": "2026-09-27T06:04:00+00:00"
     }
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T06:17:28+00:00",
-  "fetched_at": "2026-09-27T06:17:28+00:00"
+  "checked_at": "2026-09-27T07:17:14+00:00",
+  "fetched_at": "2026-09-27T07:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T06:17:29+00:00",
-  "fetched_at": "2026-09-27T06:17:29+00:00"
+  "checked_at": "2026-09-27T07:17:14+00:00",
+  "fetched_at": "2026-09-27T07:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2142,6 +2142,20 @@
    },
    {
     "date": "2026-09-29",
+    "time": "18:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "הפועל העמק - מכבי ראשון לציון"
+   },
+   {
+    "date": "2026-09-29",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - ברצלונה"
+   },
+   {
+    "date": "2026-09-29",
     "time": "19:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2160,13 +2174,6 @@
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גאנה - גמביה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "בי.סי דובאי - ברצלונה"
    },
    {
     "date": "2026-09-29",
@@ -2244,6 +2251,13 @@
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גבון - ניז'ר"
+   },
+   {
+    "date": "2026-09-30",
+    "time": "01:30",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "אינדיאנה פיבר - לאס וגאס אייסז"
    },
    {
     "date": "2026-09-30",
@@ -2548,8 +2562,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T06:17:30+00:00",
-  "fetched_at": "2026-09-27T06:17:30+00:00"
+  "checked_at": "2026-09-27T07:17:15+00:00",
+  "fetched_at": "2026-09-27T07:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2639,8 +2653,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T06:17:30+00:00",
-  "fetched_at": "2026-09-27T06:17:30+00:00"
+  "checked_at": "2026-09-27T07:17:15+00:00",
+  "fetched_at": "2026-09-27T07:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2651,25 +2665,18 @@
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
-   "failed_sources": [],
+   "candidates": 4,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 255,
+     "likes": 256,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2680,18 +2687,18 @@
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 564,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 144,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 564,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2718,7 +2725,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 161,
+     "likes": 162,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2729,21 +2736,30 @@
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 146,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 310,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T06:17:37+00:00",
-  "fetched_at": "2026-09-27T06:17:37+00:00"
+  "checked_at": "2026-09-27T07:17:21+00:00",
+  "fetched_at": "2026-09-27T07:17:21+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בית\"ר ירושלים שוקלת לחזור לאופציית יהב גורפינקל",
+     "link": "https://sports.walla.co.il/item/3869936",
+     "date": "2026-09-27T06:42:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "יהב גורפינקל"
+     ]
+    },
     {
      "title": "בדו קרב ישראלי: שני זכה בארד באליפות העולם",
      "link": "https://www.one.co.il/Article/534406.html?ref=rss",
@@ -3027,8 +3043,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T06:17:33+00:00",
-  "fetched_at": "2026-09-27T06:17:33+00:00"
+  "checked_at": "2026-09-27T07:17:18+00:00",
+  "fetched_at": "2026-09-27T07:17:18+00:00"
  },
  "idf": {
   "data": [
@@ -3059,7 +3075,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T06:17:34+00:00",
-  "fetched_at": "2026-09-27T06:17:34+00:00"
+  "checked_at": "2026-09-27T07:17:19+00:00",
+  "fetched_at": "2026-09-27T07:17:19+00:00"
  }
 }
