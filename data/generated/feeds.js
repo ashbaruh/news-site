@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T22:17:11+00:00",
-  "fetched_at": "2026-09-27T22:17:11+00:00"
+  "checked_at": "2026-09-27T23:17:17+00:00",
+  "fetched_at": "2026-09-27T23:17:17+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "CA Researchers Identify Odors That Repel Honeybees From Pesticides",
+    "title_he": "חוקרי CA מזהים ריחות הדוחים דבורים מחומרי הדברה",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/",
+    "date": "2026-09-27T22:50:42+00:00"
+   },
    {
     "title_en": "This Curious Bird Had Never Been Seen Before, and its Discovery Changed Ecuador–Perhaps Forever",
     "title_he": "הציפור הסקרנית הזו מעולם לא נראתה לפני כן, והתגלית שלה שינתה את אקוודור - אולי לנצח",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
     "date": "2026-09-20T22:48:46+00:00"
-   },
-   {
-    "title_en": "Fox Left For Dead After Being Run Over is Now Recovering Thanks to Swimming Lessons",
-    "title_he": "Fox Left For Dead לאחר שנדרס מתאושש כעת הודות לשיעורי שחייה",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/fox-left-for-dead-on-road-is-recovering-thanks-to-swim-lessons/",
-    "date": "2026-09-19T20:13:56+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T22:17:20+00:00",
-  "fetched_at": "2026-09-27T22:17:20+00:00"
+  "checked_at": "2026-09-27T23:17:27+00:00",
+  "fetched_at": "2026-09-27T23:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T22:17:21+00:00",
-  "fetched_at": "2026-09-27T22:17:21+00:00"
+  "checked_at": "2026-09-27T23:17:28+00:00",
+  "fetched_at": "2026-09-27T23:17:28+00:00"
  },
- "generated_at": "2026-09-27T22:17:21+00:00",
+ "generated_at": "2026-09-27T23:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T22:17:13+00:00",
-  "fetched_at": "2026-09-27T22:17:13+00:00"
+  "checked_at": "2026-09-27T23:17:18+00:00",
+  "fetched_at": "2026-09-27T23:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T22:17:13+00:00",
-  "fetched_at": "2026-09-27T22:17:13+00:00"
+  "checked_at": "2026-09-27T23:17:19+00:00",
+  "fetched_at": "2026-09-27T23:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T22:17:14+00:00",
-  "fetched_at": "2026-09-27T22:17:14+00:00"
+  "checked_at": "2026-09-27T23:17:19+00:00",
+  "fetched_at": "2026-09-27T23:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T22:17:14+00:00",
-  "fetched_at": "2026-09-27T22:17:14+00:00"
+  "checked_at": "2026-09-27T23:17:19+00:00",
+  "fetched_at": "2026-09-27T23:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2574,9 +2574,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2603,7 +2601,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 577,
+     "likes": 578,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2617,7 +2615,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 144,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2651,8 +2649,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T22:17:19+00:00",
-  "fetched_at": "2026-09-27T22:17:19+00:00"
+  "checked_at": "2026-09-27T23:17:25+00:00",
+  "fetched_at": "2026-09-27T23:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2948,8 +2946,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T22:17:17+00:00",
-  "fetched_at": "2026-09-27T22:17:17+00:00"
+  "checked_at": "2026-09-27T23:17:22+00:00",
+  "fetched_at": "2026-09-27T23:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2980,7 +2978,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T22:17:17+00:00",
-  "fetched_at": "2026-09-27T22:17:17+00:00"
+  "checked_at": "2026-09-27T23:17:22+00:00",
+  "fetched_at": "2026-09-27T23:17:22+00:00"
  }
 };
