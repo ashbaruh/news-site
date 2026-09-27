@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T10:17:29+00:00",
-  "fetched_at": "2026-09-27T10:17:29+00:00"
+  "checked_at": "2026-09-27T11:17:16+00:00",
+  "fetched_at": "2026-09-27T11:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T10:17:41+00:00",
-  "fetched_at": "2026-09-27T10:17:41+00:00"
+  "checked_at": "2026-09-27T11:17:30+00:00",
+  "fetched_at": "2026-09-27T11:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T10:17:42+00:00",
-  "fetched_at": "2026-09-27T10:17:42+00:00"
+  "checked_at": "2026-09-27T11:17:31+00:00",
+  "fetched_at": "2026-09-27T11:17:31+00:00"
  },
- "generated_at": "2026-09-27T10:17:42+00:00",
+ "generated_at": "2026-09-27T11:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,7 +92,7 @@
     {
      "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T09:52:00+00:00"
+     "date": "2026-09-27T10:46:00+00:00"
     }
    ],
    "market": [
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T10:17:31+00:00",
-  "fetched_at": "2026-09-27T10:17:31+00:00"
+  "checked_at": "2026-09-27T11:17:17+00:00",
+  "fetched_at": "2026-09-27T11:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T10:17:31+00:00",
-  "fetched_at": "2026-09-27T10:17:31+00:00"
+  "checked_at": "2026-09-27T11:17:17+00:00",
+  "fetched_at": "2026-09-27T11:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2557,8 +2557,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T10:17:34+00:00",
-  "fetched_at": "2026-09-27T10:17:34+00:00"
+  "checked_at": "2026-09-27T11:17:18+00:00",
+  "fetched_at": "2026-09-27T11:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2648,23 +2648,37 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T10:17:34+00:00",
-  "fetched_at": "2026-09-27T10:17:34+00:00"
+  "checked_at": "2026-09-27T11:17:18+00:00",
+  "fetched_at": "2026-09-27T11:17:18+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
-   "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/gemini-4-is-almost-ready/",
+     "date": "2026-09-24T17:23:25+00:00",
+     "launch": true,
+     "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
+    }
    ],
+   "candidates": 5,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 258,
+     "likes": 259,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2685,60 +2699,69 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 569,
+     "likes": 570,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 174,
+     "likes": 175,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 85,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 165,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "StepAudio 3 Music Studio",
      "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
      "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 148,
+     "likes": 149,
      "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T10:17:40+00:00",
-  "fetched_at": "2026-09-27T10:17:40+00:00"
+  "checked_at": "2026-09-27T11:17:29+00:00",
+  "fetched_at": "2026-09-27T11:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "הצד של דיא סבע: מדוע לא הגיע לנבחרת ישראל?",
+     "link": "https://www.one.co.il/Article/534441.html?ref=rss",
+     "date": "2026-09-27T10:56:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "בית\"ר ירושלים שוקלת לחזור לאופציית יהב גורפינקל",
      "link": "https://sports.walla.co.il/item/3869936",
@@ -2771,15 +2794,6 @@
      "link": "https://sports.walla.co.il/item/3869899",
      "date": "2026-09-26T19:16:00+00:00",
      "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"אבדיה היחיד שעומד בין פורטלנד לבנייה מחדש\"",
-     "link": "https://www.one.co.il/Article/534344.html?ref=rss",
-     "date": "2026-09-26T06:43:00+00:00",
-     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -3031,8 +3045,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T10:17:38+00:00",
-  "fetched_at": "2026-09-27T10:17:38+00:00"
+  "checked_at": "2026-09-27T11:17:21+00:00",
+  "fetched_at": "2026-09-27T11:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -3062,8 +3076,9 @@
     "date": "2026-09-20T03:00:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-27T10:17:38+00:00",
+  "ok": false,
+  "error": "HTTP Error 503: Service Unavailable",
+  "checked_at": "2026-09-27T11:17:26+00:00",
   "fetched_at": "2026-09-27T10:17:38+00:00"
  }
 }
