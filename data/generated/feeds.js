@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-26",
+   "as_of": "2026-09-27",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T02:17:25+00:00",
-  "fetched_at": "2026-09-27T02:17:25+00:00"
+  "checked_at": "2026-09-27T03:17:16+00:00",
+  "fetched_at": "2026-09-27T03:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T02:17:35+00:00",
-  "fetched_at": "2026-09-27T02:17:35+00:00"
+  "checked_at": "2026-09-27T03:17:25+00:00",
+  "fetched_at": "2026-09-27T03:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,45 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T02:17:36+00:00",
-  "fetched_at": "2026-09-27T02:17:36+00:00"
+  "checked_at": "2026-09-27T03:17:27+00:00",
+  "fetched_at": "2026-09-27T03:17:27+00:00"
  },
- "generated_at": "2026-09-27T02:17:36+00:00",
+ "generated_at": "2026-09-27T03:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המועדון הסגור של ההייטק: \"גם עם 40 אלף שקל נטו בחודש אנשים מחפשים הוזלות\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557113",
-     "date": "2026-09-26T18:00:00+00:00"
+     "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
+     "date": "2026-09-27T02:55:00+00:00"
     },
     {
-     "title": "טראמפ: \"דחיתי את ההצעה האיראנית להפסקת אש\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557624",
-     "date": "2026-09-26T18:17:00+00:00"
+     "title": "המאבטח של הנייה קיבל מקלט ואזרחות בריטית - ותכנן פיגוע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
+     "date": "2026-09-27T02:32:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
+     "date": "2026-09-27T03:01:00+00:00"
+    },
+    {
+     "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
+     "date": "2026-09-27T02:55:00+00:00"
+    },
+    {
+     "title": "הרשימה השחורה של האו\"ם: צמרת המשק הישראלי בפנים. מי יצאו ממנה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557631",
+     "date": "2026-09-27T02:54:00+00:00"
+    },
+    {
+     "title": "מחירי היהלומים בשפל היסטורי: צנחו ב-51% בתוך חמש שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557630",
+     "date": "2026-09-27T02:42:00+00:00"
+    },
     {
      "title": "שתי החברות שטלטלו את הכלכלה הקוריאנית מייצרות לה בעיה חדשה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557521",
@@ -154,11 +174,6 @@ window.DB.generated = {
      "date": "2026-09-25T04:01:00+00:00"
     },
     {
-     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
-     "date": "2026-09-25T04:00:00+00:00"
-    },
-    {
      "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
      "date": "2026-09-25T03:59:00+00:00"
@@ -204,30 +219,15 @@ window.DB.generated = {
      "date": "2026-09-24T13:17:00+00:00"
     },
     {
-     "title": "\"שדה הקרב של וול סטריט\": כוכבת ה-AI שזינקה במאות אחוזים - ועדיין מתומחרת בחסר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557454",
-     "date": "2026-09-24T11:56:00+00:00"
-    },
-    {
      "title": "600 מיליון שקל: מה הוביל לקפיצה בשווי בנק ההשקעות של ויקטור שמריך ועידו נויברגר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557383",
      "date": "2026-09-24T11:08:00+00:00"
-    },
-    {
-     "title": "הפיצוי הענק, גורל ההנפקה והמנכ\"לית שמרוויחה: גלי ההדף מביטול עסקת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557394",
-     "date": "2026-09-24T06:00:00+00:00"
-    },
-    {
-     "title": "המגעים על כספי הסיוע האמריקאים תקועים, בצל בחירות האמצע בארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557363",
-     "date": "2026-09-24T03:05:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T02:17:26+00:00",
-  "fetched_at": "2026-09-27T02:17:26+00:00"
+  "checked_at": "2026-09-27T03:17:17+00:00",
+  "fetched_at": "2026-09-27T03:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T02:17:27+00:00",
-  "fetched_at": "2026-09-27T02:17:27+00:00"
+  "checked_at": "2026-09-27T03:17:18+00:00",
+  "fetched_at": "2026-09-27T03:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T02:17:29+00:00",
-  "fetched_at": "2026-09-27T02:17:29+00:00"
+  "checked_at": "2026-09-27T03:17:19+00:00",
+  "fetched_at": "2026-09-27T03:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2620,8 +2620,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T02:17:29+00:00",
-  "fetched_at": "2026-09-27T02:17:29+00:00"
+  "checked_at": "2026-09-27T03:17:19+00:00",
+  "fetched_at": "2026-09-27T03:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2652,7 +2652,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 215,
+     "likes": 216,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2666,14 +2666,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 139,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 172,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2694,15 +2694,8 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 158,
+     "likes": 159,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 145,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     },
     {
      "title": "Hum to Song",
@@ -2710,12 +2703,19 @@ window.DB.generated = {
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
      "likes": 79,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
+    },
+    {
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 145,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T02:17:34+00:00",
-  "fetched_at": "2026-09-27T02:17:34+00:00"
+  "checked_at": "2026-09-27T03:17:24+00:00",
+  "fetched_at": "2026-09-27T03:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2985,8 +2985,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T02:17:32+00:00",
-  "fetched_at": "2026-09-27T02:17:32+00:00"
+  "checked_at": "2026-09-27T03:17:22+00:00",
+  "fetched_at": "2026-09-27T03:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -3017,7 +3017,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T02:17:32+00:00",
-  "fetched_at": "2026-09-27T02:17:32+00:00"
+  "checked_at": "2026-09-27T03:17:23+00:00",
+  "fetched_at": "2026-09-27T03:17:23+00:00"
  }
 };
