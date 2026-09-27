@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T13:17:29+00:00",
-  "fetched_at": "2026-09-27T13:17:29+00:00"
+  "checked_at": "2026-09-27T14:04:08+00:00",
+  "fetched_at": "2026-09-27T14:04:08+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T13:17:43+00:00",
-  "fetched_at": "2026-09-27T13:17:43+00:00"
+  "checked_at": "2026-09-27T14:04:18+00:00",
+  "fetched_at": "2026-09-27T14:04:18+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T13:17:45+00:00",
-  "fetched_at": "2026-09-27T13:17:45+00:00"
+  "checked_at": "2026-09-27T14:04:19+00:00",
+  "fetched_at": "2026-09-27T14:04:19+00:00"
  },
- "generated_at": "2026-09-27T13:17:45+00:00",
+ "generated_at": "2026-09-27T14:04:19+00:00",
  "globes": {
   "data": {
    "top": [
@@ -96,6 +96,16 @@
     }
    ],
    "market": [
+    {
+     "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
+     "date": "2026-09-27T12:35:00+00:00"
+    },
+    {
+     "title": "נדב בלילה מסתער על עוד חוות שרתים שתעלה יותר ממיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557658",
+     "date": "2026-09-27T12:03:00+00:00"
+    },
     {
      "title": "גשמים עזים והצפות בנפאל: עשרות ישראלים תקועים בהרים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557656",
@@ -130,11 +140,6 @@
      "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
      "date": "2026-09-27T03:01:00+00:00"
-    },
-    {
-     "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
-     "date": "2026-09-27T02:55:00+00:00"
     },
     {
      "title": "הרשימה השחורה של האו\"ם: צמרת המשק הישראלי בפנים. מי יצאו ממנה?",
@@ -207,11 +212,6 @@
      "date": "2026-09-24T15:36:00+00:00"
     },
     {
-     "title": "מליסרון הודיעה שהמנכ\"ל אופיר שריד יסיים את תפקידו בשל מחלה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557595",
-     "date": "2026-09-24T15:15:00+00:00"
-    },
-    {
      "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
      "date": "2026-09-24T14:30:00+00:00"
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T13:17:31+00:00",
-  "fetched_at": "2026-09-27T13:17:31+00:00"
+  "checked_at": "2026-09-27T14:04:09+00:00",
+  "fetched_at": "2026-09-27T14:04:09+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T13:17:32+00:00",
-  "fetched_at": "2026-09-27T13:17:32+00:00"
+  "checked_at": "2026-09-27T14:04:10+00:00",
+  "fetched_at": "2026-09-27T14:04:10+00:00"
  },
  "tv": {
   "data": [
@@ -2557,8 +2557,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T13:17:34+00:00",
-  "fetched_at": "2026-09-27T13:17:34+00:00"
+  "checked_at": "2026-09-27T14:04:11+00:00",
+  "fetched_at": "2026-09-27T14:04:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2648,8 +2648,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T13:17:34+00:00",
-  "fetched_at": "2026-09-27T13:17:34+00:00"
+  "checked_at": "2026-09-27T14:04:11+00:00",
+  "fetched_at": "2026-09-27T14:04:11+00:00"
  },
  "ai": {
   "data": {
@@ -2660,32 +2660,39 @@
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 4,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 5,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 264,
+     "likes": 265,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 222,
+     "likes": 224,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 146,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2706,14 +2713,14 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 141,
+     "likes": 142,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 86,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2740,8 +2747,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T13:17:42+00:00",
-  "fetched_at": "2026-09-27T13:17:42+00:00"
+  "checked_at": "2026-09-27T14:04:17+00:00",
+  "fetched_at": "2026-09-27T14:04:17+00:00"
  },
  "abroad": {
   "data": {
@@ -3038,8 +3045,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T13:17:37+00:00",
-  "fetched_at": "2026-09-27T13:17:37+00:00"
+  "checked_at": "2026-09-27T14:04:14+00:00",
+  "fetched_at": "2026-09-27T14:04:14+00:00"
  },
  "idf": {
   "data": [
@@ -3070,7 +3077,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T13:17:38+00:00",
-  "fetched_at": "2026-09-27T13:17:38+00:00"
+  "checked_at": "2026-09-27T14:04:15+00:00",
+  "fetched_at": "2026-09-27T14:04:15+00:00"
  }
 }
