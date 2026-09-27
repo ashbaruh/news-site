@@ -1,0 +1,392 @@
+{
+ "status": "draft",
+ "received_sha256_12": "413947789505",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 3,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-27T23:40:31+00:00",
+  "window": {
+   "from": "2026-09-26T23:40:31+00:00",
+   "to": "2026-09-27T23:40:31+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202609272340"
+  },
+  "summary": "הלחימה בתימן הסלימה מחדש בעקבות קריסת שביתת הנשק, כאשר החות'ים ביצעו מתקפה רחבה והשתלטו על חופי ים סוף ואזור מצר באב אל-מנדב. במקביל נרשמות התנגשויות עזות והפצצות הדדיות בחזית העיר תעז בין כוחות הממשלה הנתמכים בידי סעודיה לבין החות'ים. העימות גולש לפגיעה במטרות בעומק סעודיה וגורר פריסת מערכי הגנה בין-לאומיים לצד ניסיונות תיווך פוליטיים שלא הבשילו.",
+  "fronts": [
+   {
+    "name": "חזית תעז ודרום-מערב תימן",
+    "status": "קרבות עזים, תקיפות אוויריות והפגזות הדדיות שמובילות לנפגעים רבים בקרב אזרחים ולוחמים"
+   },
+   {
+    "name": "חזית חוף ים סוף ומצר באב אל-מנדב",
+    "status": "שליטה חות'ית ברצועת החוף ואיומי מצור על נתיבי שיט וייצוא אנרגיה"
+   },
+   {
+    "name": "חזית תימן מול סעודיה",
+    "status": "שיגורי כטב\"מים וטילים לעבר ערים ומתקני נפט סעודיים, לצד הפצצות אוויריות ותגבור מערכי הגנה צרפתיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09272340-01",
+    "title": "תקיפה אווירית נגד שוק באזור תעז והתרחבות הנפגעים",
+    "summary": "הפצצה אווירית פגעה בשוק בפאתי העיר תעז. החות'ים טענו כי מטוסי קרב של סעודיה ביצעו את התקיפה וגרמו לעשרות נפגעים, בהם הרוגים וילדים פצועים, בעוד דיווחים מקבילים מציינים לפחות שבעה הרוגים ועשרות פצועים.",
+    "axis": "תימן - חזית תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T12:41:22+00:00",
+    "last_update_at": "2026-09-27T22:09:17+00:00",
+    "what_is_not_verified": "זהות הגורם המבצע המדויק ומספר הנפגעים המוחלט שנויים במחלוקת בין הצדדים ואינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strikes-yemens-taiz-leave-dozens-casualties",
+      "published_at": "2026-09-27T22:09:17+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/deadly-strike-hits-market-in-yemens-taiz?traffic_source=rss",
+      "published_at": "2026-09-27T21:00:55+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
+      "published_at": "2026-09-27T12:41:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-02",
+    "title": "הסלמת פעולות צבא תימן והתקפות אוויריות נגד החות'ים בתעז",
+    "summary": "כוחות ממשלת תימן הודיעו על ביצוע מאות פעולות צבאיות בימים האחרונים נגד מטרות חות'יות, וכן על תקיפות אוויריות נגד מצבורי אמצעי לחימה והתקהלויות של החות'ים מצפון וממזרח לתעז.",
+    "axis": "פנים תימן - צבא הממשלה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T13:36:01+00:00",
+    "last_update_at": "2026-09-27T16:59:16+00:00",
+    "what_is_not_verified": "היקף הפגיעה במצבורים ומספר הפעולות המדויק מבוססים על הודעות צד אחד בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153083",
+      "published_at": "2026-09-27T16:59:16+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153082",
+      "published_at": "2026-09-27T16:49:19+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over",
+      "published_at": "2026-09-27T13:36:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-03",
+    "title": "הפגזת כפרים ממערב לעיר תעז בידי החות'ים",
+    "summary": "כוחות חות'יים ביצעו הפגזות לעבר כפרי א-ד'באב הממוקמים ממערב לעיר תעז.",
+    "axis": "פנים תימן - חזית תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T15:49:04+00:00",
+    "last_update_at": "2026-09-27T15:49:04+00:00",
+    "what_is_not_verified": "מידת הנזק או נפגעים בהפגזה זו לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153080",
+      "published_at": "2026-09-27T15:49:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-04",
+    "title": "יירוט כלי טיס בלתי מאוישים מעל שטח סעודיה והשבתת מוסדות חינוך בריאד",
+    "summary": "סעודיה יירטה שני כלי טיס בלתי מאוישים ששוגרו על ידי החות'ים לעבר הבירה ריאד, ובעקבות האירועים הועברו מוסדות חינוך בעיר למתכונת למידה מרחוק.",
+    "axis": "החות'ים מול סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T12:41:22+00:00",
+    "last_update_at": "2026-09-27T12:41:22+00:00",
+    "what_is_not_verified": "הסיבה הרשמית למעבר בתי הספר ללמידה מרחוק לא צוינה בהודעות להורים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
+      "published_at": "2026-09-27T12:41:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-05",
+    "title": "הצבת אמצעי הגנה וחיילים מצרפת בסעודיה לבלימת מתקפות החות'ים",
+    "summary": "צרפת הודיעה על שיגור כוחות, יחידות מכ\"ם ומערכות הגנה אווירית לשטח סעודיה, במטרה לסייע בהגנה מפני שיגורי טילים וכלי טיס בלתי מאוישים מתימן.",
+    "axis": "הגנת סעודיה ומעורבות בין-לאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T14:21:45+00:00",
+    "last_update_at": "2026-09-27T15:38:31+00:00",
+    "what_is_not_verified": "היקף הכוחות והמערכות המדויק שיוצב בפועל טרם נקבע ותלוי בבקשות ריאד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/french-military-support-saudi-arabia-defensive-fm",
+      "published_at": "2026-09-27T15:38:31+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-military-deployment-saudi-arabia-strictly-defensive-minister-says",
+      "published_at": "2026-09-27T14:21:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-06",
+    "title": "השתלטות החות'ים על חופי ים סוף וניסיון מצור על נתיבי נפט",
+    "summary": "כוחות החות'ים השתלטו על רצועת החוף בים סוף כולל אזור מצר באב אל-מנדב, ומפעילים לחץ ומצור על ייצוא האנרגיה ומתקני הנפט של סעודיה.",
+    "axis": "הים האדום ומצר באב אל-מנדב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T12:41:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T12:41:22+00:00",
+    "last_update_at": "2026-09-27T15:38:31+00:00",
+    "what_is_not_verified": "רמת היעילות וההשפעה הממשית של המצור על משלוחי הנפט הסעודיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/french-military-support-saudi-arabia-defensive-fm",
+      "published_at": "2026-09-27T15:38:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
+      "published_at": "2026-09-27T12:41:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09272340-07",
+    "title": "הצעת תיווך מטעם חמאס ליישוב הסכסוך בתימן",
+    "summary": "הנהגת חמאס הודיעה כי הציעה את עצמה כמתווכת בין הצדדים הלוחמים בתימן במטרה לנסות ולהביא לרגיעה.",
+    "axis": "מגעים מדיניים ויוזמות אזוריות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T11:13:31+00:00",
+    "last_update_at": "2026-09-27T19:49:08+00:00",
+    "what_is_not_verified": "האם מי מהצדדים הלוחמים בתימן השיב או קיבל את הצעת התיווך.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130914",
+      "published_at": "2026-09-27T19:49:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/hamas-chief-calls-talks-abbas-endorses-gaza-roadmap",
+      "published_at": "2026-09-27T11:13:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09272340-08",
+    "title": "מעצרי אזרחים והטלת מצור בידי החות'ים במחוז ד'מאר",
+    "summary": "החות'ים עצרו עשרות אזרחים והטילו מצור על כפר במחוז ד'מאר עקב קיום חגיגות לציון מהפכת עשרים ושישה בספטמבר.",
+    "axis": "פנים תימן - דיכוי חות'י",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T15:06:13+00:00",
+    "last_update_at": "2026-09-27T15:06:13+00:00",
+    "what_is_not_verified": "אין אימות עצמאי למספר העצורים ולמצב המצור בשטח מעבר לדיווח הסוכנות הרשמית של הממשלה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153075",
+      "published_at": "2026-09-27T15:06:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ד'מאר, תימן",
+      "lat": 14.543,
+      "lon": 44.4001
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות כלי הטיס שפגעו בשוק בתעז ומספר ההרוגים והפצועים המדויק",
+   "מידת ההצלחה והנזק של תקיפות צבא תימן על מחסני האמל\"ח החות'יים",
+   "הסיבה הרשמית המלאה להשבתת מוסדות החינוך בריאד",
+   "האם התקבל מענה רשמי ליוזמת התיווך שהציג חמאס בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "הטלת מצור ימי על ייצוא הנפט והאנרגיה של סעודיה",
+     "תגובה ותגמול צבאי על תקיפות אוויריות בשטח תימן"
+    ],
+    "inferred": [
+     "ביסוס אחיזה מלאה בנתיבי השיט בים סוף ובמצר באב אל-מנדב כמנוף לחץ אזורי",
+     "הרחבת השליטה הטריטוריאלית באזורי מפתח כמו תעז ומארב על חשבון כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור כטב\"מים וטילים אל עבר עומק סעודיה ומתקני אנרגיה",
+     "החרפת העימותים הקרקעיים במערב תימן ובחזית תעז"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "הגנה על שטח סעודיה, עריה ומתקני הנפט מפני איומים",
+     "בלימת המרד וההתקפות החות'יות על מוקדי שלטון ותשתיות"
+    ],
+    "inferred": [
+     "הסתמכות גוברת על מערכות הגנה וסיוע צבאי מערבי לסיכול מתקפות אוויריות",
+     "שימור שרידי השליטה הצבאית במוקדים אסטרטגיים כמו העיר תעז"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות של חיל האוויר נגד יעדי אמל\"ח והתקהלויות חות'יות",
+     "הידוק שיתוף הפעולה ההגנתי מול שותפות בין-לאומיות במרחב הים האדום"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/deadly-strike-hits-market-in-yemens-taiz?traffic_source=rss",
+    "accessed_at": "2026-09-27T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-military-deployment-saudi-arabia-strictly-defensive-minister-says",
+    "accessed_at": "2026-09-27T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/hamas-chief-calls-talks-abbas-endorses-gaza-roadmap",
+    "accessed_at": "2026-09-27T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153075",
+    "accessed_at": "2026-09-27T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130914",
+    "accessed_at": "2026-09-27T23:40:31+00:00"
+   }
+  ]
+ }
+}

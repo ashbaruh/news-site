@@ -1,0 +1,466 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aa63fd55ce4d",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 2,
+   "initial": 4,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-27T23:42:01+00:00",
+  "window": {
+   "from": "2026-09-26T23:42:01+00:00",
+   "to": "2026-09-27T23:42:01+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202609272342"
+  },
+  "summary": "בגזרה הצפונית נמשכת הלחימה המקומית בדרום לבנון עם תקיפות אוויריות ישראליות בתגובה להפעלת כטב\"מים, חרף קיומו של הסכם מסגרת. במקביל, הנהגת חיזבאללה מתעקשת לשמר את קו ההתנגדות ולהיאבק פוליטית בהסכמי הממשלה הלבנונית, לצד ניסיונות ייצוב אזרחי. במקביל, בסוריה נרשמת פעילות ביטחונית נגד תאי טרור, לצד חידוש כשירות טיסות לילה בנמלי התעופה לאחר הסרת עיכוב ישראלי ממושך, בעוד המתיחות המדינית בין ישראל לטורקיה מחריפה סביב מהלכים משפטיים הדדיים.",
+  "fronts": [
+   {
+    "name": "דרום לבנון (ישראל מול חיזבאללה)",
+    "status": "חילופי אש ותקיפות תגובה של חיל האוויר הישראלי בעקבות שיגורי רחפנים"
+   },
+   {
+    "name": "הזירה הפוליטית בלבנון",
+    "status": "מתיחות גוברת בין חיזבאללה לשלטון המרכזי סביב משא ומתן מול ישראל וסוגיית העקורים"
+   },
+   {
+    "name": "סוריה (ביטחון פנים ותעופה)",
+    "status": "פעילות נגד תאי דאעש, הפעלת מערכות טיסה ליליות והפגנות על הפקעת מקרקעין"
+   },
+   {
+    "name": "ישראל מול טורקיה",
+    "status": "הסלמה מדינית-משפטית על רקע צווי מעצר והכנת תביעות בינלאומיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09272342-01",
+    "title": "תקיפות חיל האוויר הישראלי בדרום לבנון בתגובה לשיגור רחפן",
+    "summary": "כוחות ישראליים תקפו מהאוויר יעדים שונים בדרום לבנון, לרבות מרכז מסחרי ואתרים המשמשים לשיגור כטב\"מים וטילי נ\"ט, לאחר שרחפן נפץ שוגר לעבר כוחות צה\"ל הפועלים ברצועת הביטחון.",
+    "axis": "ישראל–לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T06:28:08+00:00",
+    "last_update_at": "2026-09-27T20:57:38+00:00",
+    "what_is_not_verified": "היקף הנזקים המלא והאם היו נפגעים בתקיפות השונות בלבנון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
+      "published_at": "2026-09-27T20:57:38+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/960017/what-comes-after-ali-al-taher-mapping-out-israels-next-move-in-souther/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960017",
+      "published_at": "2026-09-27T14:23:07+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over",
+      "published_at": "2026-09-27T13:36:01+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130880",
+      "published_at": "2026-09-27T12:25:06+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-continue-to-hit-southern-lebanon-despite-framework-deal/4070714",
+      "published_at": "2026-09-27T10:38:29+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25229",
+      "published_at": "2026-09-27T06:28:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיפדון, לבנון",
+      "lat": 33.3451,
+      "lon": 35.4741
+     },
+     {
+      "name": "אל-חיאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     },
+     {
+      "name": "סג'וד, לבנון",
+      "lat": 33.4323,
+      "lon": 35.5355
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09272342-02",
+    "title": "נאום נעים קאסם לציון שנתיים למות נסראללה",
+    "summary": "מזכ\"ל חיזבאללה הצהיר על המשך ההתנגדות החמושה נגד ישראל, דחה הסכמים וכניעה לטענתו של השלטון הלבנוני, והודיע על כוונה להשתתף במיזם לשיכון עקורים מן הלחימה.",
+    "axis": "לבנון (חיזבאללה)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T12:27:13+00:00",
+    "last_update_at": "2026-09-27T19:47:46+00:00",
+    "what_is_not_verified": "פרטי מיזם השיכון והתקציבים שלו אינם מפורטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://english.almanar.com.lb/article/131427/",
+      "published_at": "2026-09-27T19:47:46+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://www.al-monitor.com/originals/2026/09/hezbollah-plans-contribute-project-house-thousands-lebanese-displaced-chief-says",
+      "published_at": "2026-09-27T17:46:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-israel-unable-break-resistance",
+      "published_at": "2026-09-27T15:51:19+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3ce92d653f08ac57",
+      "url": "https://english.almanar.com.lb/article/131372/",
+      "published_at": "2026-09-27T15:44:50+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_35999b65dbc0cef3",
+      "url": "https://english.almanar.com.lb/article/131362/",
+      "published_at": "2026-09-27T15:40:40+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f324b22b00f2bbbc",
+      "url": "https://english.almanar.com.lb/article/131347/",
+      "published_at": "2026-09-27T15:37:45+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://www.ynet.co.il/news/article/sjsmxjl5fx",
+      "published_at": "2026-09-27T15:15:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://t.me/abualiexpress/130898",
+      "published_at": "2026-09-27T14:59:22+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_f38aeaeb998d1a2a",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960005/qassem-hezbollah-committed-to-resistance-reconstruction-and-full-liber/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960005",
+      "published_at": "2026-09-27T12:27:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09272342-03",
+    "title": "הסרת ההתנגדות הישראלית להפעלת מערכות ניווט בשדות תעופה בסוריה",
+    "summary": "רשות התעופה האזרחית בסוריה הודיעה על סיום כיול ובדיקות טיסה למערכות ניווט חדישות בשדות התעופה בדמשק ובחלב, לאחר שדווח כי ישראל הסירה התנגדות ממושכת לבדיקות הכיול.",
+    "axis": "ישראל–סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T17:00:35+00:00",
+    "last_update_at": "2026-09-27T17:00:35+00:00",
+    "what_is_not_verified": "עצם ההסכמה הישראלית השקטה מבוססת על מקורות דיפלומטיים ולא על אישור ישראלי רשמי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israel-quietly-lifts-block-syrian-airport-night-flights",
+      "published_at": "2026-09-27T17:00:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "חלב, סוריה",
+      "lat": 36.1992,
+      "lon": 37.1637
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09272342-04",
+    "title": "הוראת נתניהו להכנת תיק משפטי נגד ארדואן",
+    "summary": "ראש ממשלת ישראל הורה לצוות בין-משרדי להכין תיק משפטי נגד נשיא טורקיה בעקבות מהלכים טורקיים באינטרפול, תוך התמקדות ביחסי אנקרה עם חמאס והכורדים.",
+    "axis": "ישראל–טורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T20:07:23+00:00",
+    "last_update_at": "2026-09-27T21:30:29+00:00",
+    "what_is_not_verified": "האם התיק המשפטי אכן יוגש בפועל לערכאה בינלאומית או ישמש כמנוף לחץ בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_i24news",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-preparation-possible-legal-case-against-erdogan-report",
+      "published_at": "2026-09-27T21:30:29+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_i24news",
+      "url": "https://t.me/alexmehacarmel/48047",
+      "published_at": "2026-09-27T20:07:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09272342-05",
+    "title": "סיכול חוליית דאעש בסוריה",
+    "summary": "כוחות הביטחון בסוריה פירקו חוליה של ארגון המדינה האסלאמית שפעלה בארבעה מחוזות וביצעה חטיפות, התנקשויות והנחת מטענים.",
+    "axis": "סוריה (פנים)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T23:00:57+00:00",
+    "last_update_at": "2026-09-27T23:00:57+00:00",
+    "what_is_not_verified": "זהות ארבעת המחוזות המדויקים ומספר העצורים בחוליה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/world/syria-dismantles-isis-cell-operating-across-4-provinces/4071099",
+      "published_at": "2026-09-27T23:00:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09272342-06",
+    "title": "הפגנות ומתיחות סביב מיזמי בנייה באזור דמשק",
+    "summary": "חברת נדל\"ן איימה בהליכים משפטיים נגד מפגינים שמחו על הפקעת קרקעות לטובת פרויקטים למגורים וריססו כתובות נגד שלטון אסד במתחם העבודות.",
+    "axis": "סוריה (פנים)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T19:08:54+00:00",
+    "last_update_at": "2026-09-27T19:08:54+00:00",
+    "what_is_not_verified": "האם המפגינים מחזיקים בבעלות חוקית מתועדת על הקרקעות שהופקעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/09/damascus-abyat-real-estate-threatens-legal-action-against-project-opponents/",
+      "published_at": "2026-09-27T19:08:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "קודסיא, סוריה",
+      "lat": 33.5491,
+      "lon": 36.2107
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09272342-07",
+    "title": "קריאת שר האוצר הישראלי לסיפוח שטחים בדרום לבנון",
+    "summary": "בצלאל סמוטריץ' קרא בפודקאסט לספח שטח בלבנון עד לנהר הליטני כדי למנוע הישנות של מלחמה וליצור הרתעה.",
+    "axis": "ישראל–לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T20:10:24+00:00",
+    "last_update_at": "2026-09-27T20:10:24+00:00",
+    "what_is_not_verified": "האם מדובר בעמדת ממשלה רשמית או בהצהרה פוליטית אישית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_ynet",
+      "url": "https://www.newarab.com/news/smotrich-calls-west-bank-war-annexation-lebanon-gaza",
+      "published_at": "2026-09-27T20:10:24+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת ישראל בדבר העברת מפקדים ואמל\"ח של חיזבאללה לחבל אקלים א-תפאח",
+   "הדיווח הלא-רשמי לפיו ישראל הסירה את התנגדותה לטיסות הכיול בסוריה",
+   "הסיבות המדויקות לסדרת הפיצוצים במחסני תחמושת בסוריה במהלך ספטמבר",
+   "היקף מעורבותה ומימונה של ממשלת טורקיה בארגון חמאס כפי שנטען בתיק הישראלי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההתנגדות המזוינת נגד ישראל עד לשחרור מלא של כל האדמות הלבנוניות",
+     "דחיית כל הסכם כניעה או ויתור של השלטון הלבנוני וחזרה למשא ומתן עקיף בלבד",
+     "סיוע בשיכון אלפי עקורים כתוצאה מהמלחמה"
+    ],
+    "inferred": [
+     "הפעלת לחץ פוליטי על ממשלת לבנון כדי למנוע הסדרים מדיניים שאינם נוחים לארגון",
+     "שיקום מעמדו הציבורי בקרב האוכלוסייה השיעית והלבנונית שנפגעה בלחימה"
+    ],
+    "forecast": [
+     "המשך חיכוך צבאי נקודתי מול כוחות צה\"ל בדרום לבנון תוך שימוש בכטב\"מים ורחפנים",
+     "החרפת העימות הפוליטי וההפגנות מול מוסדות השלטון בביירות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים מיידיים והגנה על כוחות צה\"ל במרחב הביטחוני בדרום לבנון",
+     "שמירה על מחויבות להסכם מול לבנון תוך תגובה תקיפה לכל פעולת איבה"
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ דיפלומטיים ומשפטיים כדי להרתיע את הנהגת טורקיה ממהלכים בינלאומיים",
+     "שמירת חופש פעולה מודיעיני וצבאי בשטח לבנון למניעת התבססות מחודשת של חיזבאללה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות נגד תשתיות צבאיות בדרום לבנון במקרה של הפרות",
+     "המשך מתיחות מדינית והצהרתית מול הנהגת טורקיה בפורומים בינלאומיים"
+    ]
+   },
+   {
+    "actor": "הממשל הסורי",
+    "declared": [
+     "שיקום התשתיות האזרחיות והתעופה במדינה לאחר שנות מלחמה וסנקציות",
+     "מאבק בטרור, סיכול תאי דאעש ומאבק ברשתות הברחת סמים"
+    ],
+    "inferred": [
+     "השבת הלגיטימציה הבינלאומית והרחבת הקשרים הדיפלומטיים ללא עימות ישיר עם ישראל"
+    ],
+    "forecast": [
+     "המשך התמקדות בשיקום כלכלי, החזרת פליטים וייצוב ביטחוני פנימי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/131347/",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/hezbollah-plans-contribute-project-house-thousands-lebanese-displaced-chief-says",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/world/syria-dismantles-isis-cell-operating-across-4-provinces/4071099",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/09/damascus-abyat-real-estate-threatens-legal-action-against-project-opponents/",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/960005/qassem-hezbollah-committed-to-resistance-reconstruction-and-full-liber/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960005",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-preparation-possible-legal-case-against-erdogan-report",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/smotrich-calls-west-bank-war-annexation-lebanon-gaza",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130898",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48047",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25229",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sjsmxjl5fx",
+    "accessed_at": "2026-09-27T23:42:01+00:00"
+   }
+  ]
+ }
+}
