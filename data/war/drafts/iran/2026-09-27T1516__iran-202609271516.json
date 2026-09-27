@@ -1,0 +1,380 @@
+{
+ "status": "draft",
+ "received_sha256_12": "18ffbfdf6228",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-27T15:16:51+00:00",
+  "window": {
+   "from": "2026-09-26T15:16:51+00:00",
+   "to": "2026-09-27T15:16:51+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609271516"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין במתיחות גבוהה סביב השליטה במצר הורמוז, לאחר שנשיא ארה\"ב דונלד טראמפ דחה הצעה איראנית להפוגה ופתיחת המצר. איראן ממשיכה באיומים על כוחות ימיים אמריקאיים וטוענת לתפיסת כלי שיט תת-ימיים, בעוד ארצות הברית ממשיכה להפעיל לחץ כלכלי ומצור ימי, ואף מתמודדת עם אירועי אבטחה בבסיסים התומכים במערכה בבריטניה.",
+  "fronts": [
+   {
+    "name": "חזית מצר הורמוז והמפרץ",
+    "status": "פעילה ומתוחה מאוד"
+   },
+   {
+    "name": "החזית הדיפלומטית והכלכלית",
+    "status": "הסלמה לאחר דחיית הצעת הפשרה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09271516-01",
+    "title": "דחיית ההצעה האיראנית בידי נשיא ארה\"ב",
+    "summary": "נשיא ארצות הברית דוחה הצעה שהציגה איראן לפתיחה מחדש של מצר הורמוז וחידוש שיחות, ומציין כי ההצעה אינה מקובלת עליו.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T14:05:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-26T14:05:41+00:00",
+    "last_update_at": "2026-09-27T15:13:42+00:00",
+    "what_is_not_verified": "התנאים המדויקים והפרטים המלאים של הצעת הפשרה שהוצגה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ec23dd50b1ff9826",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-expects-us-hold-talks-iran-week-axios-says",
+      "published_at": "2026-09-27T15:13:42+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_ec23dd50b1ff9826",
+      "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+      "published_at": "2026-09-27T06:34:43+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_ec23dd50b1ff9826",
+      "url": "https://t.me/abualiexpress/130836",
+      "published_at": "2026-09-26T14:05:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09271516-02",
+    "title": "תפיסת כלי שיט תת-ימי בלתי מאויש במצר הורמוז",
+    "summary": "משמרות המהפכה של איראן מדווחים על תפיסת צוללת אוטונומית מתקדמת מסוג רמוס 600 במצר הורמוז, בעוד הצבא האמריקאי מכחיש את הטענה.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T10:45:47+00:00",
+    "last_update_at": "2026-09-27T14:59:52+00:00",
+    "what_is_not_verified": "האם אכן נתפס כלי שיט אוטונומי אמריקאי בידי איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_c21cc30273040b4a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-rejects-irans-claim-capturing-underwater-drone-hormuz",
+      "published_at": "2026-09-27T14:59:52+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_c21cc30273040b4a",
+      "url": "https://t.me/abualiexpress/130879",
+      "published_at": "2026-09-27T12:00:42+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_c21cc30273040b4a",
+      "url": "https://en.irna.ir/news/86276227/Iran-captures-second-US-underwater-drone-in-Strait-of-Hormuz",
+      "published_at": "2026-09-27T11:53:58+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_c21cc30273040b4a",
+      "url": "https://www.maariv.co.il/breaking-news/article-1371188",
+      "published_at": "2026-09-27T10:45:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09271516-03",
+    "title": "מעצר חשודים בקרבת בסיס חיל האוויר פיירפורד בבריטניה",
+    "summary": "המשטרה בבריטניה עצרה מספר גברים בחשד לעבירות חומרי נפטר וטרור בסמוך לבסיס חיל האוויר המלכותי המארח כוחות אמריקאיים.",
+    "axis": "איראן-ארה\"ב-בריטניה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T07:46:37+00:00",
+    "last_update_at": "2026-09-27T11:57:20+00:00",
+    "what_is_not_verified": "האם קיים קשר ישיר בין העצורים לבין איומים מצד איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hknexticze",
+      "published_at": "2026-09-27T11:57:20+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130873",
+      "published_at": "2026-09-27T08:51:01+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sjdqvru9zl",
+      "published_at": "2026-09-27T08:45:43+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/british-police-arrest-five-men-us-air-base-major-incident",
+      "published_at": "2026-09-27T07:46:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.7108,
+      "lon": -1.782
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09271516-04",
+    "title": "איומי משמרות המהפכה על ספינות אמריקאיות באוקיינוס ההודי",
+    "summary": "גורם במשמרות המהפכה מזהיר כי אם תתחדש הלחימה, איראן תתקוף ספינות ומשחתות אמריקאיות גם באוקיינוס ההודי.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T03:56:35+00:00",
+    "last_update_at": "2026-09-27T06:24:41+00:00",
+    "what_is_not_verified": "היכולת המעשית של איראן לממש איום זה במרחב האוקיינוס ההודי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-169",
+      "published_at": "2026-09-27T06:24:41+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-ships-indian-ocean-will-be-hit-if-another-war-breaks-out-irgc-says",
+      "published_at": "2026-09-27T03:56:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האוקיינוס ההודי",
+      "lat": -10.0,
+      "lon": 70.0
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09271516-05",
+    "title": "התבטאויות בכירי הצבא והממשל באיראן על נכונות להמשך עימות",
+    "summary": "בכירי צבא וממשל באיראן מצהירים שהמלחמה טרם הסתיימה וכי כוחותיהם מוכנים להגיב בעוצמה על כל תקיפה עתידית.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T09:46:29+00:00",
+    "last_update_at": "2026-09-27T14:42:01+00:00",
+    "what_is_not_verified": "אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ry5zuiiqml",
+      "published_at": "2026-09-27T14:42:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over",
+      "published_at": "2026-09-27T13:36:01+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86276288/Iran-ready-for-decisive-response-to-any-new-aggression-says",
+      "published_at": "2026-09-27T13:09:15+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130877",
+      "published_at": "2026-09-27T10:05:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/irans-army-voices-readiness-potential-renewed-us-attack",
+      "published_at": "2026-09-27T09:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09271516-06",
+    "title": "מגעים בין עיראק לארה\"ב בנוגע לסנקציות על חברות תעופה איראניות",
+    "summary": "ממשלת עיראק מנהלת שיחות עם ארצות הברית כדי לקבל פטור מסנקציות המטוסים המושביות טיסות אזרחיות איראניות לשטחה מסיבות הומניטריות.",
+    "axis": "ארה\"ב-עיראק-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T06:37:44+00:00",
+    "last_update_at": "2026-09-27T06:37:44+00:00",
+    "what_is_not_verified": "האם ארה\"ב תסכים להיענות לבקשת הפטור העיראקי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-seeks-us-exemption-sanctions-iranian-airlines",
+      "published_at": "2026-09-27T06:37:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן על תפיסת צוללת אוטונומית שנייה מדגם רמוס 600 במצר הורמוז",
+   "הקשר המדויק בין העצורים בבריטניה ליחידות טרור איראניות",
+   "פרטי ההצעה המלאה שהגישה איראן לארה\"ב ותגובת התיווך הרשמית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0338,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "פתיחת מצר הורמוז והסרת המצור רק בכפוף לתנאיה",
+     "מוכנות להמשך הלחימה ותגובה קשה על כל תקיפה חדשה"
+    ],
+    "inferred": [
+     "שבירת המצור הכלכלי והימי המוטל עליה באמצעות לחץ דיפלומטי",
+     "יצירת הרתעה ימית נגד כוחות אמריקאיים במפרץ ובמרחבים ימיים נוספים"
+    ],
+    "forecast": [
+     "המשך ניסיונות עקיפים להגיע להבנות דרך מתווכים",
+     "הגברת החיכוך הימי במצר הורמוז"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "שליטה מלאה במצר הורמוז והמשך הלחץ הכלכלי באמצעות סנקציות",
+     "סירוב להצעות פשרה שאינן משרתות את אינטרס הביטחון שלה"
+    ],
+    "inferred": [
+     "החלשת המשטר באיראן באמצעות חניקה כלכלית ומצור ימי",
+     "שמירה על חופש השייט והפעילות הצבאית באזור ללא ויתורים מוקדמים"
+    ],
+    "forecast": [
+     "החמרת הצעדים הכלכליים והיערכות לאפשרות של חידוש התקיפות הצבאיות",
+     "דחיית דרישות איראניות להקלות ללא שינוי מהותי בהתנהלותה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/irans-army-voices-readiness-potential-renewed-us-attack",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86276288/Iran-ready-for-decisive-response-to-any-new-aggression-says",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1371188",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-seeks-us-exemption-sanctions-iranian-airlines",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130877",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ry5zuiiqml",
+    "accessed_at": "2026-09-27T15:16:51+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2ac5c510c367",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-27T15:31:14+00:00",
+  "window": {
+   "from": "2026-09-26T15:31:14+00:00",
+   "to": "2026-09-27T15:31:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202609271531"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהמשך מתקפות כטב\"מים רוסיות מסיביות על מתקני תשתית, תקשורת ומבני מגורים בקייב ובערים נוספות, במקביל למאמץ אוקראיני מתמשך בגזרות המזרח ובראשן גזרת לימאן. בדרום המדינה, בגזרת חרסון, גובר הלחץ ההומניטרי על יישובים כבושים ומנותקים כמו אולשקי, שם פועלים כוחות אוקראיניים להצנחת אספקה באמצעות רחפנים תחת אש ויירוטים. בזירה המדינית נרשמת מתיחות גוברת סביב ניסיונות חבלה וסיוע צבאי, כאשר פולין מקדמת תוכניות ייצור חימוש ומגעים דיפלומטיים נדירים בין רוסיה לגרמניה מסתיימים ללא פריצת דרך.",
+  "fronts": [
+   {
+    "name": "גזרת לימאן (דונצק)",
+    "status": "פעילות התקפית אוקראינית במסגרת מבצע ויוואלדי ולחימה כבדה"
+   },
+   {
+    "name": "חזית חרסון (אולשקי)",
+    "status": "מצור רוסי על יישובים בגדה המזרחית של הדנייפר ומבצעי אספקה אוקראיניים באמצעות רחפנים"
+   },
+   {
+    "name": "גזרות פוקרובסק וקונסטנטינובקה",
+    "status": "קרבות עזים המוגדרים על ידי אוקראינה כמוקדי הלחימה הכבדים ביותר"
+   },
+   {
+    "name": "העורף האוקראיני (קייב, זפוריז'יה, פסטוב, וישנבה)",
+    "status": "ספיגת מתקפות כטב\"מים וטילים רוסיים לעבר מטרות אזרחיות, לוגיסטיות ותשתיות תקשורת"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09271531-01",
+    "title": "פגיעת כטב\"ם סילוני בבניין מגורים ברובע דרניצקי בקייב",
+    "summary": "כטב\"ם סילוני פגע בבניין מגורים בן תשע קומות ברובע דרניצקי שבקייב, גרם לשריפה בקומות העליונות ופצע אישה.",
+    "axis": "חזית האוויר והעורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T14:51:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T14:51:00+00:00",
+    "last_update_at": "2026-09-27T15:18:00+00:00",
+    "what_is_not_verified": "היקף הנפגעים המלא טרם הוברר סופית בדיווחים הראשוניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055256/",
+      "published_at": "2026-09-27T15:18:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4168564-drone-hits-apartment-building-in-kyivs-darnytskyi-district.html",
+      "published_at": "2026-09-27T14:51:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09271531-02",
+    "title": "פגיעות כטב\"מים במבנים אדמיניסטרטיביים ובמרכז תקשורת בקייב",
+    "summary": "מבנה משרדים ומבנים שאינם למגורים נפגעו ברובע הולוסייבסקי ובאזורים נוספים בקייב, לצד פגיעה במשרדי חברת התקשורת קייבסטאר.",
+    "axis": "חזית האוויר והעורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T07:25:02+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T07:25:02+00:00",
+    "last_update_at": "2026-09-27T13:43:00+00:00",
+    "what_is_not_verified": "רוסיה טענה שתקפה חוות שרתים של וודאפון, בעוד הצד האוקראיני דיווח על פגיעה בקייבסטאר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4168558-administrative-building-hit-in-kyivs-holosiivskyi-district.html",
+      "published_at": "2026-09-27T13:43:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055250/",
+      "published_at": "2026-09-27T13:19:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055241/",
+      "published_at": "2026-09-27T11:53:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2193565",
+      "published_at": "2026-09-27T07:25:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09271531-03",
+    "title": "מבצע הטסת מזון ברחפנים לאולשקי הכבושה",
+    "summary": "כוחות אוקראיניים העבירו באמצעות רחפנים כארבע טונות של מוצרי מזון לכמאה נקודות חלוקה בעיר אולשקי הנתונה תחת כיבוש רוסי וסובלת ממצור ומחסור חמור.",
+    "axis": "חזית חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T06:21:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T06:21:26+00:00",
+    "last_update_at": "2026-09-27T13:23:00+00:00",
+    "what_is_not_verified": "התאריך המדויק שבו נערך המבצע הספציפי והמספר המדויק של התושבים שנותרו בעיר (נע בין 2,000 ל-6,000 לפי מקורות שונים)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48036",
+      "published_at": "2026-09-27T13:23:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-military-delivers-4-tons-of-food-to-occupied-oleshky-by-drones-regional-authorities-said/",
+      "published_at": "2026-09-27T13:08:41+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055242/",
+      "published_at": "2026-09-27T12:05:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/27/hell-on-earth-last-residents-eat-weeds-to-survive-in-russian-occupied-oleshky",
+      "published_at": "2026-09-27T11:00:04+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/09/27/a-humanitarian-crisis-is-gripping-russian-occupied-oleshky-as-food-deliveries-stop-and-safe-evacuation-becomes-nearly-impossible",
+      "published_at": "2026-09-27T06:21:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09271531-04",
+    "title": "התקדמות אוקראינית ומבצע ויוואלדי בגזרת לימאן",
+    "summary": "נשיא אוקראינה דיווח על השגת תוצאות במסגרת מבצע התקפי בגזרת לימאן, וטען לנטרול של מעל עשרת אלפים חיילים רוסים במהלך השבוע בחזיתות השונות.",
+    "axis": "חזית מזרח אוקראינה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T12:21:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-27T12:21:00+00:00",
+    "last_update_at": "2026-09-27T13:35:28+00:00",
+    "what_is_not_verified": "נתוני אבדות הרוסים ופירוט השטחים שנכבשו במבצע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/zelensky-says-over-10-000-russian-troops-killed-or-wounded-this-week-as-ukrainian-military-advances-in-lyman-sector/",
+      "published_at": "2026-09-27T13:35:28+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055245/",
+      "published_at": "2026-09-27T12:35:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4168542-more-than-10600-russian-military-personnel-neutralized-at-front-over-past-week-zelensky.html",
+      "published_at": "2026-09-27T12:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לימאן, אוקראינה",
+      "lat": 48.9801,
+      "lon": 37.8168
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09271531-05",
+    "title": "הצעת פולין להקמת מפעל לייצור טילי פטריוט בשטחה",
+    "summary": "סגנית שר ההגנה של פולין הצהירה על נכונות ארצה לארח מפעל לייצור טילי יירוט למערכת פטריוט בשטחה כדי להבטיח את מיקומו באזור בטוח, במידה ואוקראינה תקבל רישיון ייצור.",
+    "axis": "סיוע צבאי ורכש בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T13:23:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T13:23:00+00:00",
+    "last_update_at": "2026-09-27T13:23:00+00:00",
+    "what_is_not_verified": "האם יינתן אישור סופי ורישיון מארצות הברית והיכן המפעל יוקם בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_rmf24",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055251/",
+      "published_at": "2026-09-27T13:23:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09271531-06",
+    "title": "תקיפת צבא אוקראינה על אתר שיגור כטב\"מים ומחסני אויב בשטחים כבושים",
+    "summary": "כוחות ההגנה של אוקראינה תקפו אתר שיגור של רחפני תקיפה וארבעה מחסני תחמושת ודלק של הכוחות הרוסיים בשטחים הנתונים לכיבוש.",
+    "axis": "השטחים הכבושים במזרח ובדרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T11:28:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T11:28:00+00:00",
+    "last_update_at": "2026-09-27T11:28:00+00:00",
+    "what_is_not_verified": "המיקומים המדויקים של האתרים והיקף הנזק המאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4168528-defense-forces-strike-drone-launch-site-and-four-russian-warehouses-in-tot.html",
+      "published_at": "2026-09-27T11:28:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-09271531-07",
+    "title": "מפגש ראשון בין שרי החוץ של גרמניה ורוסיה",
+    "summary": "שר החוץ של גרמניה יוהאן ודפול נועד בניו יורק עם שר החוץ של רוסיה סרגיי לברוב וקרא להפסקת התוקפנות וההסלמה, בעוד לברוב דחה את הדברים והאשים את גרמניה בליבוי המלחמה.",
+    "axis": "דיפלומטיה ויחסים בינלאומיים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T01:44:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T01:44:50+00:00",
+    "last_update_at": "2026-09-27T02:30:02+00:00",
+    "what_is_not_verified": "תוכן השיחות הסגורות מעבר להצהרות הרשמיות של הצדדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting",
+      "published_at": "2026-09-27T02:30:02+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/german-russian-foreign-ministers-meet-for-1st-time-since-full-scale-war-against-ukraine/",
+      "published_at": "2026-09-27T01:44:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09271531-08",
+    "title": "השמדת מחסן של חברת קרכר בתקיפה רוסית",
+    "summary": "מחסן ציוד וסחורות של חברת קרכר נהרס כתוצאה ממתקפה רוסית, ללא נפגעים בקרב העובדים אך עם שיבושים צפויים באספקה.",
+    "axis": "חזית האוויר והעורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T13:26:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T13:26:00+00:00",
+    "last_update_at": "2026-09-27T13:26:00+00:00",
+    "what_is_not_verified": "המיקום המדויק של המחסן בתוך שטח אוקראינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5fd3b3eb862a4d5d",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055252/",
+      "published_at": "2026-09-27T13:26:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת רוסיה כי הותקף מרכז נתונים של וודאפון בקייב לעומת הודעת אוקראינה על פגיעה במשרדי קייבסטאר",
+   "המספר המדויק של הנפגעים והאבדות בקרב כוחות הצבא הרוסי (דיווח על 10,660 בשבוע)",
+   "מספר התושבים המדויק שנותרו באולשקי (הערכות שנעות בין 2,000 ל-6,000)",
+   "מיקומי הפגיעה המדויקים של התקיפה האוקראינית על מחסני הצבא ואתרי השיגור בשטחים הכבושים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1403,
+    "unit": "USD",
+    "change_pct": 0.32,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "המשך שחרור שטחים כבושים ופגיעה בכוח האדם של הצבא הרוסי",
+     "אספקת סיוע הומניטרי דחוף לאזרחים אוקראינים הלכודים תחת כיבוש באולשקי",
+     "השגת רישיונות ייצור ורכש מסיבי של טילי יירוט למערכות פטריוט"
+    ],
+    "inferred": [
+     "הגנה מרבית על מתקני תקשורת ומידע מפני גלי תקיפות רוסיים ממוקדים",
+     "הסתמכות גוברת על טכנולוגיית רחפנים לפעילות מבצעית ולוגיסטית באזורים מנותקים"
+    ],
+    "forecast": [
+     "המשך לחץ התקפי בצפון מחוז דונצק לצד ניסיונות לשמר קווי אספקה הומניטריים מעבר לדנייפר"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה במרכזי תקשורת ואינטרנט המשמשים את הצבא האוקראיני",
+     "מניעת פעילות ושיקום של תשתיות בידי הצד האוקראיני באזורי העימות"
+    ],
+    "inferred": [
+     "שיתוק רשתות התקשורת והשידור באוקראינה באמצעות פגיעה חוזרת במרכזי נתונים",
+     "הפעלת לחץ אזרחי ובידוד מוחלט של כיסים מיושבים באזורי שליטתה בדרום",
+     "הרתעת מדינות אירופה מהעמקת הסיוע הצבאי לאוקראינה"
+    ],
+    "forecast": [
+     "המשך גלי תקיפות כטב\"מים על תשתיות מפתח וערי אוקראינה לקראת החורף"
+    ]
+   },
+   {
+    "actor": "מדינות המערב (גרמניה, פולין)",
+    "declared": [
+     "דרישה מרוסיה להפסיק את התוקפנות וההסלמה הביטחונית",
+     "היערכות פולנית לאירוח מתקני ייצור ומרכזי שירות לטילי פטריוט לצורכי הגנה"
+    ],
+    "inferred": [
+     "רצון להבטיח את שרשרת ייצור החימוש בשטח בטוח מחוץ לטווח התקיפות הרוסיות באוקראינה",
+     "הידוק הצעדים נגד פעילות ריגול וחבלה רוסית בשטח מדינות נאט\"ו"
+    ],
+    "forecast": [
+     "האצת תוכניות ייצור ורכש ביטחוני במזרח אירופה לצד המשך קיפאון מדיני מלא מול מוסקבה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/german-russian-foreign-ministers-meet-for-1st-time-since-full-scale-war-against-ukraine/",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/09/27/a-humanitarian-crisis-is-gripping-russian-occupied-oleshky-as-food-deliveries-stop-and-safe-evacuation-becomes-nearly-impossible",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055252/",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2193565",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48036",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4168528-defense-forces-strike-drone-launch-site-and-four-russian-warehouses-in-tot.html",
+    "accessed_at": "2026-09-27T15:31:14+00:00"
+   }
+  ]
+ }
+}
