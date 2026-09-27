@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T11:17:16+00:00",
-  "fetched_at": "2026-09-27T11:17:16+00:00"
+  "checked_at": "2026-09-27T12:17:33+00:00",
+  "fetched_at": "2026-09-27T12:17:33+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T11:17:30+00:00",
-  "fetched_at": "2026-09-27T11:17:30+00:00"
+  "checked_at": "2026-09-27T12:17:49+00:00",
+  "fetched_at": "2026-09-27T12:17:49+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T11:17:31+00:00",
-  "fetched_at": "2026-09-27T11:17:31+00:00"
+  "checked_at": "2026-09-27T12:17:50+00:00",
+  "fetched_at": "2026-09-27T12:17:50+00:00"
  },
- "generated_at": "2026-09-27T11:17:31+00:00",
+ "generated_at": "2026-09-27T12:17:50+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-27T10:00:00+00:00"
     },
     {
-     "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
+     "title": "חשודים שתכננו פיגוע מכונית תופת באמריקאים נעצרו בבסיס בבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T10:46:00+00:00"
+     "date": "2026-09-27T11:53:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T11:17:17+00:00",
-  "fetched_at": "2026-09-27T11:17:17+00:00"
+  "checked_at": "2026-09-27T12:17:34+00:00",
+  "fetched_at": "2026-09-27T12:17:34+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T11:17:17+00:00",
-  "fetched_at": "2026-09-27T11:17:17+00:00"
+  "checked_at": "2026-09-27T12:17:34+00:00",
+  "fetched_at": "2026-09-27T12:17:34+00:00"
  },
  "tv": {
   "data": [
@@ -2558,8 +2558,9 @@ window.DB.generated = {
     "title": "פאריס - לאנס"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-27T11:17:18+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-27T12:17:40+00:00",
   "fetched_at": "2026-09-27T11:17:18+00:00"
  },
  "ligat_haal": {
@@ -2650,8 +2651,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T11:17:18+00:00",
-  "fetched_at": "2026-09-27T11:17:18+00:00"
+  "checked_at": "2026-09-27T12:17:40+00:00",
+  "fetched_at": "2026-09-27T12:17:40+00:00"
  },
  "ai": {
   "data": {
@@ -2680,28 +2681,28 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 259,
+     "likes": 262,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 221,
+     "likes": 222,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 145,
+     "likes": 146,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 570,
+     "likes": 571,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2715,7 +2716,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 139,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2740,17 +2741,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 149,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 312,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T11:17:29+00:00",
-  "fetched_at": "2026-09-27T11:17:29+00:00"
+  "checked_at": "2026-09-27T12:17:48+00:00",
+  "fetched_at": "2026-09-27T12:17:48+00:00"
  },
  "abroad": {
   "data": {
@@ -3047,8 +3048,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T11:17:21+00:00",
-  "fetched_at": "2026-09-27T11:17:21+00:00"
+  "checked_at": "2026-09-27T12:17:44+00:00",
+  "fetched_at": "2026-09-27T12:17:44+00:00"
  },
  "idf": {
   "data": [
@@ -3078,9 +3079,8 @@ window.DB.generated = {
     "date": "2026-09-20T03:00:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 503: Service Unavailable",
-  "checked_at": "2026-09-27T11:17:26+00:00",
-  "fetched_at": "2026-09-27T10:17:38+00:00"
+  "ok": true,
+  "checked_at": "2026-09-27T12:17:45+00:00",
+  "fetched_at": "2026-09-27T12:17:45+00:00"
  }
 };
