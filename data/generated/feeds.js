@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:17:29+00:00",
-  "fetched_at": "2026-09-27T21:17:29+00:00"
+  "checked_at": "2026-09-27T21:38:54+00:00",
+  "fetched_at": "2026-09-27T21:38:54+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:17:43+00:00",
-  "fetched_at": "2026-09-27T21:17:43+00:00"
+  "checked_at": "2026-09-27T21:39:07+00:00",
+  "fetched_at": "2026-09-27T21:39:07+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:17:47+00:00",
-  "fetched_at": "2026-09-27T21:17:47+00:00"
+  "checked_at": "2026-09-27T21:39:08+00:00",
+  "fetched_at": "2026-09-27T21:39:08+00:00"
  },
- "generated_at": "2026-09-27T21:17:47+00:00",
+ "generated_at": "2026-09-27T21:39:08+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:17:30+00:00",
-  "fetched_at": "2026-09-27T21:17:30+00:00"
+  "checked_at": "2026-09-27T21:38:56+00:00",
+  "fetched_at": "2026-09-27T21:38:56+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:17:31+00:00",
-  "fetched_at": "2026-09-27T21:17:31+00:00"
+  "checked_at": "2026-09-27T21:38:57+00:00",
+  "fetched_at": "2026-09-27T21:38:57+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:17:33+00:00",
-  "fetched_at": "2026-09-27T21:17:33+00:00"
+  "checked_at": "2026-09-27T21:38:59+00:00",
+  "fetched_at": "2026-09-27T21:38:59+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:17:33+00:00",
-  "fetched_at": "2026-09-27T21:17:33+00:00"
+  "checked_at": "2026-09-27T21:38:59+00:00",
+  "fetched_at": "2026-09-27T21:38:59+00:00"
  },
  "ai": {
   "data": {
@@ -2574,9 +2574,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2651,12 +2649,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:17:42+00:00",
-  "fetched_at": "2026-09-27T21:17:42+00:00"
+  "checked_at": "2026-09-27T21:39:05+00:00",
+  "fetched_at": "2026-09-27T21:39:05+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מנור סולומון: \"אם אגיד מה אני חושב על האירים, ירחיקו אותי\"",
+     "link": "https://sports.walla.co.il/item/3870036",
+     "date": "2026-09-27T21:23:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "דניאל פרץ: \"פגע בנו שרצינו יותר מדי. המחאות? אנשים בורים\"",
      "link": "https://sports.walla.co.il/item/3870034",
@@ -2930,8 +2937,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T21:17:36+00:00",
-  "fetched_at": "2026-09-27T21:17:36+00:00"
+  "checked_at": "2026-09-27T21:39:02+00:00",
+  "fetched_at": "2026-09-27T21:39:02+00:00"
  },
  "idf": {
   "data": [
@@ -2962,7 +2969,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T21:17:37+00:00",
-  "fetched_at": "2026-09-27T21:17:37+00:00"
+  "checked_at": "2026-09-27T21:39:02+00:00",
+  "fetched_at": "2026-09-27T21:39:02+00:00"
  }
 };
