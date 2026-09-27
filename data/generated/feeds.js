@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:15:09+00:00",
-  "fetched_at": "2026-09-27T08:15:09+00:00"
+  "checked_at": "2026-09-27T08:17:17+00:00",
+  "fetched_at": "2026-09-27T08:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:15:25+00:00",
-  "fetched_at": "2026-09-27T08:15:25+00:00"
+  "checked_at": "2026-09-27T08:17:29+00:00",
+  "fetched_at": "2026-09-27T08:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:15:26+00:00",
-  "fetched_at": "2026-09-27T08:15:26+00:00"
+  "checked_at": "2026-09-27T08:17:30+00:00",
+  "fetched_at": "2026-09-27T08:17:30+00:00"
  },
- "generated_at": "2026-09-27T08:15:26+00:00",
+ "generated_at": "2026-09-27T08:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:15:10+00:00",
-  "fetched_at": "2026-09-27T08:15:10+00:00"
+  "checked_at": "2026-09-27T08:17:18+00:00",
+  "fetched_at": "2026-09-27T08:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:15:11+00:00",
-  "fetched_at": "2026-09-27T08:15:11+00:00"
+  "checked_at": "2026-09-27T08:17:19+00:00",
+  "fetched_at": "2026-09-27T08:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2558,10 +2558,9 @@ window.DB.generated = {
     "title": "פאריס - לאנס"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-27T08:15:16+00:00",
-  "fetched_at": "2026-09-27T07:17:15+00:00"
+  "ok": true,
+  "checked_at": "2026-09-27T08:17:20+00:00",
+  "fetched_at": "2026-09-27T08:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2651,8 +2650,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:15:16+00:00",
-  "fetched_at": "2026-09-27T08:15:16+00:00"
+  "checked_at": "2026-09-27T08:17:20+00:00",
+  "fetched_at": "2026-09-27T08:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2730,7 +2729,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2750,8 +2749,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:15:23+00:00",
-  "fetched_at": "2026-09-27T08:15:23+00:00"
+  "checked_at": "2026-09-27T08:17:28+00:00",
+  "fetched_at": "2026-09-27T08:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -3048,8 +3047,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:15:19+00:00",
-  "fetched_at": "2026-09-27T08:15:19+00:00"
+  "checked_at": "2026-09-27T08:17:23+00:00",
+  "fetched_at": "2026-09-27T08:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3080,7 +3079,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:15:20+00:00",
-  "fetched_at": "2026-09-27T08:15:20+00:00"
+  "checked_at": "2026-09-27T08:17:24+00:00",
+  "fetched_at": "2026-09-27T08:17:24+00:00"
  }
 };
