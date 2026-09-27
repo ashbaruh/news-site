@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T14:17:10+00:00",
-  "fetched_at": "2026-09-27T14:17:10+00:00"
+  "checked_at": "2026-09-27T15:17:11+00:00",
+  "fetched_at": "2026-09-27T15:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T14:17:22+00:00",
-  "fetched_at": "2026-09-27T14:17:22+00:00"
+  "checked_at": "2026-09-27T15:17:19+00:00",
+  "fetched_at": "2026-09-27T15:17:19+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T14:17:22+00:00",
-  "fetched_at": "2026-09-27T14:17:22+00:00"
+  "checked_at": "2026-09-27T15:17:22+00:00",
+  "fetched_at": "2026-09-27T15:17:22+00:00"
  },
- "generated_at": "2026-09-27T14:17:22+00:00",
+ "generated_at": "2026-09-27T15:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"הפכנו ליוניקורן כתום, אלה סכומים שלא חלמתי עליהם\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557536",
-     "date": "2026-09-27T13:01:00+00:00"
+     "title": "הפגישה הדרמטית עם רשות התחרות: מאחורי פיצוץ הסכם הגז בין ניו־מד לדליה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557669",
+     "date": "2026-09-27T15:00:00+00:00"
     },
     {
-     "title": "חשודים שתכננו פיגוע מכונית תופת באמריקאים נעצרו בבסיס בבריטניה",
+     "title": "באיראן מאיימים: \"אם ארה\"ב תתערב במצר הורמוז - היא תספוג מכות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T12:19:00+00:00"
+     "date": "2026-09-27T14:37:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "נתוני המפתח שיפורסמו השבוע, והאזהרה משוק האג\"ח: \"משהו תמיד נשבר בסוף\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
+     "date": "2026-09-27T14:00:00+00:00"
+    },
     {
      "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-24T20:00:00+00:00"
     },
     {
-     "title": "תומר מזון: הרווח הנקי אשתקד יקטן ב-3 מיליון שקל עקב ניפוח המלאים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557593",
-     "date": "2026-09-24T15:36:00+00:00"
-    },
-    {
      "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
      "date": "2026-09-24T14:30:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T14:17:12+00:00",
-  "fetched_at": "2026-09-27T14:17:12+00:00"
+  "checked_at": "2026-09-27T15:17:11+00:00",
+  "fetched_at": "2026-09-27T15:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T14:17:12+00:00",
-  "fetched_at": "2026-09-27T14:17:12+00:00"
+  "checked_at": "2026-09-27T15:17:12+00:00",
+  "fetched_at": "2026-09-27T15:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -1925,7 +1925,7 @@ window.DB.generated = {
     "time": "18:30",
     "channel": "5 סטארס",
     "sport": "כדורסל",
-    "title": "עירוני אילת - מכבי אשדוד"
+    "title": "הפועל עירוני אילת - מכבי אשדוד"
    },
    {
     "date": "2026-09-27",
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T14:17:14+00:00",
-  "fetched_at": "2026-09-27T14:17:14+00:00"
+  "checked_at": "2026-09-27T15:17:13+00:00",
+  "fetched_at": "2026-09-27T15:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2650,8 +2650,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T14:17:14+00:00",
-  "fetched_at": "2026-09-27T14:17:14+00:00"
+  "checked_at": "2026-09-27T15:17:13+00:00",
+  "fetched_at": "2026-09-27T15:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2680,7 +2680,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 265,
+     "likes": 266,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2691,18 +2691,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 572,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 145,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 572,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2722,14 +2722,14 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 168,
+     "likes": 169,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2749,8 +2749,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T14:17:21+00:00",
-  "fetched_at": "2026-09-27T14:17:21+00:00"
+  "checked_at": "2026-09-27T15:17:19+00:00",
+  "fetched_at": "2026-09-27T15:17:19+00:00"
  },
  "abroad": {
   "data": {
@@ -3038,8 +3038,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T14:17:17+00:00",
-  "fetched_at": "2026-09-27T14:17:17+00:00"
+  "checked_at": "2026-09-27T15:17:16+00:00",
+  "fetched_at": "2026-09-27T15:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3070,7 +3070,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T14:17:18+00:00",
-  "fetched_at": "2026-09-27T14:17:18+00:00"
+  "checked_at": "2026-09-27T15:17:16+00:00",
+  "fetched_at": "2026-09-27T15:17:16+00:00"
  }
 };
