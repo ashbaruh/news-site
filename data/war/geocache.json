@@ -171,6 +171,7 @@
 ],
 "cyprus": null,
 "dahieh, beirut, lebanon": null,
+"dahiyeh, beirut, lebanon": null,
 "damascus international airport, syria": [
 33.4102,
 36.5241
@@ -392,6 +393,10 @@
 53.1816
 ],
 "latakia, syria": null,
+"lebanon": [
+40.3757,
+-76.4626
+],
 "liege, belgium": [
 50.6451,
 5.5736
@@ -734,6 +739,10 @@
 "washington, usa": [
 38.8951,
 -77.0364
+],
+"white house, united states": [
+38.8976,
+-77.0366
 ],
 "wola krobowska, poland": [
 51.8627,
