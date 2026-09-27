@@ -1,169 +1,192 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-27T12:00:00+03:00",
- "generated_at": "2026-09-27T08:40:19+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-09-27T18:00:00+03:00",
+ "generated_at": "2026-09-27T14:40:14+00:00",
+ "model": "gemini-3.7-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09270840-01",
-     "title": "אזהרת כוחות המזוינים של איראן",
-     "summary": "הצבא האיראני הבהיר כי יגיב לכל תוקפנות באמצעות טכנולוגיות צבאיות מתקדמות ויש לו הפתעות עבור אויביו.",
+     "id": "IRAN-09271440-01",
+     "title": "איראן טוענת לתפיסת כלי שיט תת-ימי בלתי מאויש אמריקאי",
+     "summary": "חיל הים של משמרות המהפכה האיראניים הודיע על תפיסת צוללת אוטונומית בלתי מאוישת שנייה של צבא ארה\"ב במצר הורמוז.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T07:08:04+00:00",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T07:08:04+00:00",
-     "last_update_at": "2026-09-27T07:08:04+00:00",
-     "what_is_not_verified": "היσנות האיומים בפועל והטכנולוגיות המוזכרות אינן מאומתות מעבר להצהרה.",
+     "first_reported_at": "2026-09-27T11:53:58+00:00",
+     "last_update_at": "2026-09-27T12:00:42+00:00",
+     "what_is_not_verified": "אמיתות הטענה על תפיסת כלי השיט התת-ימי",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_c21cc30273040b4a",
+       "url": "https://t.me/abualiexpress/130879",
+       "published_at": "2026-09-27T12:00:42+00:00"
+      },
+      {
        "source_id": "src_irna",
-       "source_root_id": "fh_e63948c49ab34ec5",
-       "url": "https://en.irna.ir/news/86275787/Iran-to-respond-to-any-aggression-with-new-military-technologies",
-       "published_at": "2026-09-27T07:08:04+00:00"
+       "source_root_id": "fh_c21cc30273040b4a",
+       "url": "https://en.irna.ir/news/86276227/Iran-captures-second-US-underwater-drone-in-Strait-of-Hormuz",
+       "published_at": "2026-09-27T11:53:58+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-09270840-02",
-     "title": "דחיית הצעה איראנית על ידי ארה\"ב",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הודיע כי דחה הצעה איראנית לפתיחת מצר הורמוז וחידוש שיחות הגרעין בתמורה להסרת סנקציות ימיות.",
+     "id": "IRAN-09271440-02",
+     "title": "מעצר חשודים בעבירות חומרי נפץ סמוך לבסיס המשמש כוחות ארה\"ב בבריטניה",
+     "summary": "משטרת גלוסטרשייר הכריזה על אירוע חמור ופינתה בתים בעקבות מעצר גברים בחשד לעבירות חומרי נפץ סמוך לבסיס חיל האוויר המלכותי פיירפורד.",
      "axis": "iran",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T06:34:43+00:00",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T06:34:43+00:00",
-     "last_update_at": "2026-09-27T06:34:43+00:00",
-     "what_is_not_verified": "פרטי ההצעה המדויקים ותגובות נוספות מצד טראמפ אינם מאומתים מעבר לציטוט בכתבה.",
+     "first_reported_at": "2026-09-27T08:51:01+00:00",
+     "last_update_at": "2026-09-27T08:51:01+00:00",
+     "what_is_not_verified": "זהות העצורים והקשר הישיר לעימות בין איראן לארה\"ב",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
-       "published_at": "2026-09-27T06:34:43+00:00"
+       "url": "https://t.me/abualiexpress/130873",
+       "published_at": "2026-09-27T08:51:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "הבית הלבן, ארצות הברית",
-       "lat": 38.8976,
-       "lon": -77.0366
+       "name": "בסיס פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
       }
      ]
     },
     {
-     "id": "IRAN-09270840-03",
-     "title": "עיראק מבקשת פטור מסנקציות על חברות תעופה איראניות",
-     "summary": "ממשלת עיראק מקיימת מגעים עם ארצות הברית במטרה לקבל פטור מהסנקציות המוטלות על חברות תעופה איראניות בשל שיבושי נסיעה לנמל התעופה בנג'ף.",
+     "id": "IRAN-09271440-03",
+     "title": "בכירי צבא איראן מזהירים מתגובה חריפה ומצהירים כי המלחמה לא הסתיימה",
+     "summary": "מפקד צבא איראן ודובר הצבא הצהירו כי הכוחות מוכנים להנחית מכות קשות ולהגיב בעוצמה רבה יותר במקרה של תקיפה אמריקאית חדשה.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T06:37:44+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T06:37:44+00:00",
-     "last_update_at": "2026-09-27T06:37:44+00:00",
-     "what_is_not_verified": "הצלחת המגעים לקבלת הפטור טרם אושרה.",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T10:05:19+00:00",
+     "last_update_at": "2026-09-27T13:09:15+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-seeks-us-exemption-sanctions-iranian-airlines",
-       "published_at": "2026-09-27T06:37:44+00:00"
+       "url": "https://t.me/abualiexpress/130877",
+       "published_at": "2026-09-27T10:05:19+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86276288/Iran-ready-for-decisive-response-to-any-new-aggression-says",
+       "published_at": "2026-09-27T13:09:15+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "נג'ף, עיראק",
-       "lat": 32.001,
-       "lon": 44.33
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-09270840-01",
-     "title": "תקיפות צה\"ל בדרום לבנון",
-     "summary": "חיל האוויר תקף מטרות ותשתיות של ארגון חיזבאללה במספר כפרים בדרום לבנון בתגובה לשיגור רחפן נפץ לעבר כוחות צה\"ל.",
+     "id": "NORTH-09271440-01",
+     "title": "גל תקיפות של חיל האוויר וצה\"ל בדרום לבנון",
+     "summary": "מטוסי קרב, מסוקי קרב וארטילריה של צה\"ל ביצעו תקיפות ופיצוצים בכפרים שונים בדרום לבנון, בהם מיס אל-ג'בל, אל-מנצורי, חאריס ומבנה בנבטיה.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T06:28:08+00:00",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T06:28:08+00:00",
-     "last_update_at": "2026-09-27T06:28:08+00:00",
-     "what_is_not_verified": "היקף הנזק המלא שנגרם לתשתיות הטרור לא פורט במלואו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25229",
-       "published_at": "2026-09-27T06:28:08+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09270840-02",
-     "title": "היערכות לטקס ציון שנתיים לחיסול נסראללה",
-     "summary": "הושלמו ההכנות לקיום עצרת גדולה וטקס במתחם הקבר בדאחיה שבביירות לציון שנתיים לחיסולו של חסן נסראללה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T08:15:15+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T08:15:15+00:00",
-     "last_update_at": "2026-09-27T08:15:15+00:00",
-     "what_is_not_verified": "פרטי האבטחה והמשתתפים באירוע אינם מפורטים במלואם.",
+     "first_reported_at": "2026-09-27T08:41:06+00:00",
+     "last_update_at": "2026-09-27T12:30:13+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים בתקיפות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130869",
-       "published_at": "2026-09-27T08:15:15+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09270840-03",
-     "title": "ביקורת של התנועה הלאומית חופשית על נוואף מוסאווי",
-     "summary": "הזרם הפתואי חופשי בלבנון גינה את דבריו של בכיר חיזבאללה לשעבר נוואף מוסאווי וקרא להימנע מהסלמת מתחים נוספת.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T04:09:50+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T04:09:50+00:00",
-     "last_update_at": "2026-09-27T04:09:50+00:00",
-     "what_is_not_verified": "האם הצדדים יצליחו להגיע להבנות אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_root_id": "fh_53d995d06f218a28",
+       "url": "https://t.me/abualiexpress/130880",
+       "published_at": "2026-09-27T12:25:06+00:00"
+      },
       {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/959928/fpm-hits-back-at-nawwaf-moussawi-urges-hezbollah-to-avoid-further-tens/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-959928",
-       "published_at": "2026-09-27T04:09:50+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_53d995d06f218a28",
+       "url": "https://t.me/abualiexpress/130870",
+       "published_at": "2026-09-27T08:41:06+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_53d995d06f218a28",
+       "url": "https://english.almanar.com.lb/article/131197/",
+       "published_at": "2026-09-27T12:30:13+00:00"
       }
      ],
      "places": [
       {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      },
+      {
+       "name": "נבטיה, לבנון",
+       "lat": 33.3812,
+       "lon": 35.4825
+      },
+      {
+       "name": "חאריס, לבנון",
+       "lat": 33.1768,
+       "lon": 35.3799
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09271440-02",
+     "title": "חיזבאללה מקיים טקס ונאומי זיכרון בביירות לציון מותם של נסראללה ובכירים בארגון",
+     "summary": "במתחם הקבר בדאחיה נערך טקס מרכזי לציון שנתיים למותו של חסן נסראללה, ובמהלכו נשא מזכ\"ל הארגון נעים קאסם נאום הספד לבכירים שנהרגו.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T08:15:15+00:00",
+     "last_update_at": "2026-09-27T14:06:51+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_08d4dcdac102a0ba",
+       "url": "https://t.me/abualiexpress/130869",
+       "published_at": "2026-09-27T08:15:15+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_08d4dcdac102a0ba",
+       "url": "https://english.almanar.com.lb/article/131222/",
+       "published_at": "2026-09-27T14:06:51+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_2de7307617ab728e",
+       "url": "https://english.almanar.com.lb/article/131212/",
+       "published_at": "2026-09-27T13:42:16+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
       }
      ]
     }
@@ -172,36 +195,36 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09270840-01",
-     "title": "תקיפות נרחבות של כוחות רוסיה באוקראינה והרוגים",
-     "summary": "כוחות רוסיה תקפו מספר אזורים באוקראינה, כולל קייב, חרקוב ואודסה, בתקיפות שגרמו להרוגים ולפצועים רבים ולשריפות במבנים אזרחיים.",
+     "id": "UKRAINE-09271440-01",
+     "title": "פגיעות כטב\"מים רוסיים במבנים בקייב ובמחוז קייב",
+     "summary": "מתקפת כטב\"מים רוסית גרמה לפגיעה במבנה משרדים במחוז הולוסייבסקי בקייב, לנזק במטה חברת קייבסטאר, ולנפגעים במחוז קייב.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T07:02:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T07:02:00+00:00",
-     "last_update_at": "2026-09-27T08:03:00+00:00",
-     "what_is_not_verified": "סך הנפגעים המלא בכלל אזורי הלחימה עדיין מתעדכן על ידי הרשויות.",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T11:53:00+00:00",
+     "last_update_at": "2026-09-27T13:19:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_313a318b04dea2fe",
-       "url": "https://www.ukrinform.net/rubric-ato/4168487-russian-attacks-kill-two-people-and-injure-eight-in-kharkiv-region.html",
-       "published_at": "2026-09-27T08:03:00+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_09e19f9030460b5c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055250/",
+       "published_at": "2026-09-27T13:19:00+00:00"
       },
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_7c5e470fda107189",
-       "url": "https://www.ukrinform.net/rubric-ato/4168460-large-fire-breaks-out-in-odesa-region-after-russian-attack-one-killed-two-injured.html",
-       "published_at": "2026-09-27T07:21:00+00:00"
+       "source_root_id": "fh_09e19f9030460b5c",
+       "url": "https://www.ukrinform.net/rubric-ato/4168530-russian-attack-on-vyshneve-in-kyiv-region-kills-one-and-injures-three-others.html",
+       "published_at": "2026-09-27T11:58:00+00:00"
       },
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_054abfd8edf4e9f8",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055219/",
-       "published_at": "2026-09-27T07:02:00+00:00"
+       "source_root_id": "fh_09e19f9030460b5c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055241/",
+       "published_at": "2026-09-27T11:53:00+00:00"
       }
      ],
      "places": [
@@ -211,101 +234,148 @@ window.DB.war_brief = {
        "lon": 30.5241
       },
       {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      },
-      {
-       "name": "אודסה, אוקראינה",
-       "lat": 46.4843,
-       "lon": 30.7323
+       "name": "וישנבה, אוקראינה",
+       "lat": 50.3917,
+       "lon": 30.3679
       }
      ]
     },
     {
-     "id": "UKRAINE-09270840-02",
-     "title": "יירוט כטב\"מים אוקראיני",
-     "summary": "ההגנה האווירית של אוקראינה ניטרלה 147 כטב\"מים תוקפים ששיגרו הכוחות הרוסיים במהלך הלילה.",
+     "id": "UKRAINE-09271440-02",
+     "title": "מבצע סיוע הומניטרי באמצעות רחפנים לעיר אולשקי הכבושה",
+     "summary": "כוחות אוקראיניים הצניחו כ-4 טונות של מוצרי מזון באמצעות רחפנים לנקודות חלוקה בעיר אולשקי שבמחוז חרסון הנתונה תחת שליטה רוסית.",
      "axis": "ukraine",
-     "claim_type": "data",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T05:39:00+00:00",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T05:39:00+00:00",
-     "last_update_at": "2026-09-27T05:39:00+00:00",
-     "what_is_not_verified": "מספר הכלים שלא יורטו ופגעו במטרותיהם הסופיות אינו מפורט במלואו.",
+     "first_reported_at": "2026-09-27T12:05:00+00:00",
+     "last_update_at": "2026-09-27T13:23:00+00:00",
+     "what_is_not_verified": "המועד המדויק שבו בוצע המבצע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_dcec9cdbce4c74e2",
-       "url": "https://www.ukrinform.net/rubric-ato/4168444-adf-neutralizes-147-russian-drones-used-to-attack-ukraine-overnight.html",
-       "published_at": "2026-09-27T05:39:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09270840-03",
-     "title": "שליח הוותיקן יוצא לרוסיה לדיונים הומניטריים",
-     "summary": "הקרדינל מטאו זופי צפוי לקיים פגישות במוסקבה כדי לדון בדרכים לפתרון סוגיות הומניטריות הקשורות לסכסוך באוקראינה.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T05:36:51+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T05:36:51+00:00",
-     "last_update_at": "2026-09-27T05:36:51+00:00",
-     "what_is_not_verified": "תוצאות הפגישות טרם נקבעו שכן הביקור מתוכנן לימים הבאים.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_722e59d49b9dc704",
+       "url": "https://t.me/alexmehacarmel/48036",
+       "published_at": "2026-09-27T13:23:00+00:00"
+      },
       {
-       "source_id": "src_tass",
-       "source_root_id": "fh_d5838f02e88c0700",
-       "url": "https://tass.com/world/2193529",
-       "published_at": "2026-09-27T05:36:51+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_722e59d49b9dc704",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055242/",
+       "published_at": "2026-09-27T12:05:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "אולשקי, אוקראינה",
+       "lat": 46.6261,
+       "lon": 32.722
       }
      ]
+    },
+    {
+     "id": "UKRAINE-09271440-03",
+     "title": "פולין מציעה להקים בשטחה מפעל לייצור טילי פטריוט",
+     "summary": "סגנית שר ההגנה של פולין הודיעה כי מדינתה מוכנה לארח מפעל לייצור טילי יירוט למערכות פטריוט, במיוחד אם אוקראינה תקבל רישיונות ייצור.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T13:23:00+00:00",
+     "last_update_at": "2026-09-27T13:23:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_rmf24",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/27/8055251/",
+       "published_at": "2026-09-27T13:23:00+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09270840-01",
-     "title": "קריאת סעודיה לביטחון ימי אזורי כולל",
-     "summary": "שר החוץ של סעודיה דרש בעצרת הכללית של האו\"ם שיתוף פעולה בינלאומי להגנה על חופש השיט ויצירת מסגרת ביטחונית אזורית מקיפה.",
+     "id": "YEMEN-09271440-01",
+     "title": "תקיפה אווירית סעודית בשוק במחוז תעז בתימן",
+     "summary": "כלי תקשורת של החות'ים דיווחו כי שבעה בני אדם נהרגו ועשרות נפצעו בתקיפה של מטוס קרב סעודי בשוק מרכזי במחוז תעז.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T12:41:22+00:00",
+     "last_update_at": "2026-09-27T12:41:22+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק ואחריות הקואליציה בהיעדר אישור רשמי סעודי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
+       "published_at": "2026-09-27T12:41:22+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09271440-02",
+     "title": "צרפת מבהירה: פריסת הכוחות בסעודיה להגנה מפני החות'ים היא הגנתית בלבד",
+     "summary": "שר החוץ הצרפתי הצהיר כי הסיוע הצבאי ופריסת הכוחות ומערכות ההגנה בסעודיה נועדו למטרות הגנה בלבד מפני מתקפות החות'ים.",
      "axis": "yemen",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T01:36:09+00:00",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T01:36:09+00:00",
-     "last_update_at": "2026-09-27T01:36:09+00:00",
-     "what_is_not_verified": "מידת היישום המעשי של הקריאה הבינלאומית אינה מאומתת.",
+     "first_reported_at": "2026-09-27T14:21:45+00:00",
+     "last_update_at": "2026-09-27T14:21:45+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-calls-comprehensive-regional-navigation-security",
-       "published_at": "2026-09-27T01:36:09+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-military-deployment-saudi-arabia-strictly-defensive-minister-says",
+       "published_at": "2026-09-27T14:21:45+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "YEMEN-09271440-03",
+     "title": "בריחת עשרות שודדי ים סומלים בעת העברתם לכלא",
+     "summary": "כ-30 חשודים בפיראטיות ימית שנעצרו במהלך חילוץ מכלית נפט נמלטו בדרכם למאסר, בחשד לסיוע מצד גורמי משטרה מקומיים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T14:24:22+00:00",
+     "last_update_at": "2026-09-27T14:24:22+00:00",
+     "what_is_not_verified": "מעורבות ישירה של המשטרה בבריחה",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "ניו יורק, ארצות הברית",
-       "lat": 40.7127,
-       "lon": -74.006
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/somali-pirates-escape-suspected-police-help",
+       "published_at": "2026-09-27T14:24:22+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   }

@@ -251,6 +251,10 @@
 32.8191,
 34.9984
 ],
+"haris, lebanon": [
+33.1768,
+35.3799
+],
 "hasaka, syria": [
 36.5014,
 40.747
@@ -581,6 +585,10 @@
 "quneitra countryside, syria": null,
 "quneitra, syria": null,
 "raf akrotiri, cyprus": null,
+"raf fairford, united kingdom": [
+51.6851,
+-1.7865
+],
 "red sea": [
 20.2966,
 38.5343
@@ -635,6 +643,7 @@
 48.8523,
 37.6058
 ],
+"somalia": null,
 "south lebanon": [
 39.371,
 -84.2128
@@ -721,6 +730,10 @@
 39.1837
 ],
 "vyshhorod district, ukraine": null,
+"vyshneve, ukraine": [
+50.3917,
+30.3679
+],
 "wadi al-maqatrah, yemen": null,
 "wadi al-raqqad, syria": [
 32.8011,
