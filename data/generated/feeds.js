@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T07:17:13+00:00",
-  "fetched_at": "2026-09-27T07:17:13+00:00"
+  "checked_at": "2026-09-27T08:15:09+00:00",
+  "fetched_at": "2026-09-27T08:15:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T07:17:22+00:00",
-  "fetched_at": "2026-09-27T07:17:22+00:00"
+  "checked_at": "2026-09-27T08:15:25+00:00",
+  "fetched_at": "2026-09-27T08:15:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T07:17:23+00:00",
-  "fetched_at": "2026-09-27T07:17:23+00:00"
+  "checked_at": "2026-09-27T08:15:26+00:00",
+  "fetched_at": "2026-09-27T08:15:26+00:00"
  },
- "generated_at": "2026-09-27T07:17:23+00:00",
+ "generated_at": "2026-09-27T08:15:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T06:04:00+00:00"
+     "date": "2026-09-27T07:21:00+00:00"
     }
    ],
    "market": [
@@ -159,11 +159,6 @@ window.DB.generated = {
      "date": "2026-09-25T20:00:00+00:00"
     },
     {
-     "title": "הפה שלכם עשוי להחזיק את הסוד לחיים ארוכים ובריאים יותר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557572",
-     "date": "2026-09-25T16:57:00+00:00"
-    },
-    {
      "title": "דרמה בשוק האנרגיה: שותפות לוויתן מבטלת עסקת ענק של 6.7 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557619",
      "date": "2026-09-25T10:10:00+00:00"
@@ -226,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T07:17:14+00:00",
-  "fetched_at": "2026-09-27T07:17:14+00:00"
+  "checked_at": "2026-09-27T08:15:10+00:00",
+  "fetched_at": "2026-09-27T08:15:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T07:17:14+00:00",
-  "fetched_at": "2026-09-27T07:17:14+00:00"
+  "checked_at": "2026-09-27T08:15:11+00:00",
+  "fetched_at": "2026-09-27T08:15:11+00:00"
  },
  "tv": {
   "data": [
@@ -2563,8 +2558,9 @@ window.DB.generated = {
     "title": "פאריס - לאנס"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-27T07:17:15+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-27T08:15:16+00:00",
   "fetched_at": "2026-09-27T07:17:15+00:00"
  },
  "ligat_haal": {
@@ -2655,8 +2651,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T07:17:15+00:00",
-  "fetched_at": "2026-09-27T07:17:15+00:00"
+  "checked_at": "2026-09-27T08:15:16+00:00",
+  "fetched_at": "2026-09-27T08:15:16+00:00"
  },
  "ai": {
   "data": {
@@ -2667,12 +2663,19 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
+     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 4,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 5,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2685,7 +2688,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 217,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2699,7 +2702,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 564,
+     "likes": 566,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2727,28 +2730,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 162,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 80,
+     "likes": 82,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 310,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 148,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T07:17:21+00:00",
-  "fetched_at": "2026-09-27T07:17:21+00:00"
+  "checked_at": "2026-09-27T08:15:23+00:00",
+  "fetched_at": "2026-09-27T08:15:23+00:00"
  },
  "abroad": {
   "data": {
@@ -3045,8 +3048,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T07:17:18+00:00",
-  "fetched_at": "2026-09-27T07:17:18+00:00"
+  "checked_at": "2026-09-27T08:15:19+00:00",
+  "fetched_at": "2026-09-27T08:15:19+00:00"
  },
  "idf": {
   "data": [
@@ -3077,7 +3080,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T07:17:19+00:00",
-  "fetched_at": "2026-09-27T07:17:19+00:00"
+  "checked_at": "2026-09-27T08:15:20+00:00",
+  "fetched_at": "2026-09-27T08:15:20+00:00"
  }
 };
