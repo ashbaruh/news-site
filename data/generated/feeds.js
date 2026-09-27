@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T16:17:20+00:00",
-  "fetched_at": "2026-09-27T16:17:20+00:00"
+  "checked_at": "2026-09-27T17:17:46+00:00",
+  "fetched_at": "2026-09-27T17:17:46+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T16:17:33+00:00",
-  "fetched_at": "2026-09-27T16:17:33+00:00"
+  "checked_at": "2026-09-27T17:17:58+00:00",
+  "fetched_at": "2026-09-27T17:17:58+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T16:17:34+00:00",
-  "fetched_at": "2026-09-27T16:17:34+00:00"
+  "checked_at": "2026-09-27T17:17:59+00:00",
+  "fetched_at": "2026-09-27T17:17:59+00:00"
  },
- "generated_at": "2026-09-27T16:17:34+00:00",
+ "generated_at": "2026-09-27T17:17:59+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-27T15:00:00+00:00"
     },
     {
-     "title": "באיראן מאיימים: \"אם ארה\"ב תתערב במצר הורמוז - היא תספוג מכות\"",
+     "title": "טראמפ: \"האיראנים מתחו את החבל יותר מדי\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T15:56:00+00:00"
+     "date": "2026-09-27T17:03:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T16:17:22+00:00",
-  "fetched_at": "2026-09-27T16:17:22+00:00"
+  "checked_at": "2026-09-27T17:17:48+00:00",
+  "fetched_at": "2026-09-27T17:17:48+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T16:17:22+00:00",
-  "fetched_at": "2026-09-27T16:17:22+00:00"
+  "checked_at": "2026-09-27T17:17:48+00:00",
+  "fetched_at": "2026-09-27T17:17:48+00:00"
  },
  "tv": {
   "data": [
@@ -2524,6 +2524,34 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-03",
+    "time": "15:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר יונייטד נשים - ליברפול נשים"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "16:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "פינלנד - אלבניה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "קרואטיה - אנגליה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "איסלנד - בולגריה"
+   },
+   {
+    "date": "2026-10-03",
     "time": "19:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
@@ -2552,6 +2580,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-03",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "צפון מקדוניה - סקוטלנד"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "שוויץ - סלובניה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ספרד - צ'כיה"
+   },
+   {
+    "date": "2026-10-03",
     "time": "22:00",
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
@@ -2559,8 +2608,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T16:17:26+00:00",
-  "fetched_at": "2026-09-27T16:17:26+00:00"
+  "checked_at": "2026-09-27T17:17:51+00:00",
+  "fetched_at": "2026-09-27T17:17:51+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2650,8 +2699,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T16:17:26+00:00",
-  "fetched_at": "2026-09-27T16:17:26+00:00"
+  "checked_at": "2026-09-27T17:17:51+00:00",
+  "fetched_at": "2026-09-27T17:17:51+00:00"
  },
  "ai": {
   "data": {
@@ -2662,18 +2711,9 @@ window.DB.generated = {
      "date": "2026-09-24T17:23:25+00:00",
      "launch": true,
      "title": "גוגל סוף סוף חושפת: Gemini 4… כמעט מוכן…"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-     "date": "2026-09-24T16:20:39+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 3.8 Live with Live Avatar",
-     "title_he": "הכירו את Gemini 3.8 Live עם אווטאר חי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 5,
+   "candidates": 4,
    "failed_sources": [],
    "tools": [
     {
@@ -2694,28 +2734,28 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 146,
+     "likes": 147,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 573,
+     "likes": 575,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 175,
+     "likes": 176,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2740,17 +2780,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 312,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 151,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T16:17:32+00:00",
-  "fetched_at": "2026-09-27T16:17:32+00:00"
+  "checked_at": "2026-09-27T17:17:57+00:00",
+  "fetched_at": "2026-09-27T17:17:57+00:00"
  },
  "abroad": {
   "data": {
@@ -3038,8 +3078,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T16:17:29+00:00",
-  "fetched_at": "2026-09-27T16:17:29+00:00"
+  "checked_at": "2026-09-27T17:17:54+00:00",
+  "fetched_at": "2026-09-27T17:17:54+00:00"
  },
  "idf": {
   "data": [
@@ -3070,7 +3110,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T16:17:29+00:00",
-  "fetched_at": "2026-09-27T16:17:29+00:00"
+  "checked_at": "2026-09-27T17:17:54+00:00",
+  "fetched_at": "2026-09-27T17:17:54+00:00"
  }
 };
