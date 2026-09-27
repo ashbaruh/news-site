@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:17:17+00:00",
-  "fetched_at": "2026-09-27T08:17:17+00:00"
+  "checked_at": "2026-09-27T09:17:28+00:00",
+  "fetched_at": "2026-09-27T09:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:17:29+00:00",
-  "fetched_at": "2026-09-27T08:17:29+00:00"
+  "checked_at": "2026-09-27T09:17:42+00:00",
+  "fetched_at": "2026-09-27T09:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:17:30+00:00",
-  "fetched_at": "2026-09-27T08:17:30+00:00"
+  "checked_at": "2026-09-27T09:17:43+00:00",
+  "fetched_at": "2026-09-27T09:17:43+00:00"
  },
- "generated_at": "2026-09-27T08:17:30+00:00",
+ "generated_at": "2026-09-27T09:17:43+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "72 דירות בשלושה ימים: איך מועדון חבר ומעיין אדם דווקא מצליחים למכור דירות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557132",
-     "date": "2026-09-27T06:59:00+00:00"
+     "title": "יו\"ר נתיבי איילון עידן דוד מודח מתפקידו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557637",
+     "date": "2026-09-27T07:24:00+00:00"
     },
     {
      "title": "הנתק הדרמטי של איראן מהעולם: \"הכול קרה בתוך שבועות\"",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "קאמבק של מיליארד דולר: ריסקיפייד מזנקת בוול סטריט לשיא של 5 שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557636",
+     "date": "2026-09-27T07:17:00+00:00"
+    },
     {
      "title": "אחרי שפרצו לאתרים ממשלתיים - OpenAI מקפיאה את אימון המודלים החדשים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
@@ -212,17 +217,12 @@ window.DB.generated = {
      "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
      "date": "2026-09-24T14:30:00+00:00"
-    },
-    {
-     "title": "הפג-לויד וקרן פימי הגישו הצעה משופרת לרכישת צים. מה היא כוללת?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557488",
-     "date": "2026-09-24T13:17:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:17:18+00:00",
-  "fetched_at": "2026-09-27T08:17:18+00:00"
+  "checked_at": "2026-09-27T09:17:30+00:00",
+  "fetched_at": "2026-09-27T09:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:17:19+00:00",
-  "fetched_at": "2026-09-27T08:17:19+00:00"
+  "checked_at": "2026-09-27T09:17:30+00:00",
+  "fetched_at": "2026-09-27T09:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:17:20+00:00",
-  "fetched_at": "2026-09-27T08:17:20+00:00"
+  "checked_at": "2026-09-27T09:17:34+00:00",
+  "fetched_at": "2026-09-27T09:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2650,8 +2650,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:17:20+00:00",
-  "fetched_at": "2026-09-27T08:17:20+00:00"
+  "checked_at": "2026-09-27T09:17:34+00:00",
+  "fetched_at": "2026-09-27T09:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2680,7 +2680,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 256,
+     "likes": 258,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2701,7 +2701,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 566,
+     "likes": 567,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2722,7 +2722,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 82,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2749,8 +2749,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:17:28+00:00",
-  "fetched_at": "2026-09-27T08:17:28+00:00"
+  "checked_at": "2026-09-27T09:17:41+00:00",
+  "fetched_at": "2026-09-27T09:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -3047,8 +3047,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-27T08:17:23+00:00",
-  "fetched_at": "2026-09-27T08:17:23+00:00"
+  "checked_at": "2026-09-27T09:17:37+00:00",
+  "fetched_at": "2026-09-27T09:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3079,7 +3079,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-27T08:17:24+00:00",
-  "fetched_at": "2026-09-27T08:17:24+00:00"
+  "checked_at": "2026-09-27T09:17:38+00:00",
+  "fetched_at": "2026-09-27T09:17:38+00:00"
  }
 };
