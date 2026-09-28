@@ -1,0 +1,265 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e181c362f43c",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-28T18:19:11+00:00",
+  "window": {
+   "from": "2026-09-27T18:19:11+00:00",
+   "to": "2026-09-28T18:19:11+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609281819"
+  },
+  "summary": "הלחימה בתימן מתחדשת בעוצמה בין החות'ים לבין כוחות ממשלת תימן הנתמכים בידי סעודיה, לצד התקפות חוצות גבולות לעבר שטחי סעודיה כולל שימוש בכטב\"מים. במקביל, מעורבות בינלאומית ואזורית גוברת סביב ניסיונות התמודדות עם האיומים הימיים והאוויריים של החות'ים.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית",
+    "status": "פעילה עם החמרה בלחימה"
+   },
+   {
+    "name": "החזית מול סעודיה",
+    "status": "הסלמה בתקיפות אוויריות ויירוטים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09281819-01",
+    "title": "הכרזה על גיוס כללי נגד החות'ים בתימן",
+    "summary": "שלטונות תימן הלגיטימיים הכריזו על גיוס כללי לצורך לחימה נגד החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T16:22:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T16:22:45+00:00",
+    "last_update_at": "2026-09-28T16:22:45+00:00",
+    "what_is_not_verified": "היקף הביצוע וההשפעה המעשית של הגיוס אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48069",
+      "published_at": "2026-09-28T16:22:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09281819-02",
+    "title": "פגישת שר החוץ של סעודיה עם בכירים בארה\"ב על רקע הלחימה בתימן",
+    "summary": "שר החוץ של סעודיה נפגש עם שר החוץ האמריקאי במסגרת ההתחזקות בלחימה מול החות'ים בתימן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T15:42:15+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T15:42:15+00:00",
+    "last_update_at": "2026-09-28T15:42:15+00:00",
+    "what_is_not_verified": "לא מאומתים פרטים מלאים מתוך תוכן הפגישה הסגורה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_al_monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/rubio-meets-saudi-fm-fight-against-yemens-houthis-intensifies",
+      "published_at": "2026-09-28T15:42:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09281819-03",
+    "title": "יירוט כטב\"מים וטילים בליסטיים סעודי לעבר אזור ריאד וח'מיס מושייט",
+    "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה כטב\"מים ששיגרו החות'ים לעבר מרחב ריאד וטילים בליסטיים לעבר ח'מיס מושייט.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T15:17:05+00:00",
+    "last_update_at": "2026-09-28T15:17:05+00:00",
+    "what_is_not_verified": "סיבת המעבר הזמני ללמידה מרחוק בבתי ספר בריאד טרם אומתה באופן רשמי מצד משרד החינוך.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/why-did-riyadh-schools-abruptly-switch-online-classes",
+      "published_at": "2026-09-28T15:17:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ח'מיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09281819-04",
+    "title": "ממצאים ראשוניים של חקירה עיראקית על תקיפת צינור הנפט בסעודיה",
+    "summary": "חקירה בעיראק מעלה כי משמרות המהפכה של איראן והחות'ים בתימן עמדו מאחורי שיגור כטב\"מים חמושים לעבר צינור הנפט המזרחי-מערבי בסעודיה מתחומי עיראק.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T11:52:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T11:52:30+00:00",
+    "last_update_at": "2026-09-28T11:52:30+00:00",
+    "what_is_not_verified": "הממצאים טרם הוגשו רשמית ובדיקתם נמצאת בשלבים סופיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+      "published_at": "2026-09-28T11:52:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09281819-05",
+    "title": "הסלמה מחודשת בלחימה בתימן ופגיעה בחיי האזרחים",
+    "summary": "הלחימה המחודשת בין החות'ים לכוחות התימניים הנתמכים בידי סעודיה מתקרבת לכפרים ומחוזות, ומשבשת את שגרת החיים והלימודים של ילדים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T07:07:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T07:07:26+00:00",
+    "last_update_at": "2026-09-28T07:07:26+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכלל המחוזות בתימן אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_972cbeebdf6e59c9",
+      "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+      "published_at": "2026-09-28T07:07:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09281819-06",
+    "title": "הצעה של חמאס לשמש כמתווכת בזירה בתימן",
+    "summary": "יו\"ר הלשכה המדינית של חמאס, ח'ליל אלחיה, הצהיר כי ארגונו הציע את עצמו כמתווך בין הצדדים הניצים בתימן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T19:49:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-27T19:49:08+00:00",
+    "last_update_at": "2026-09-27T19:49:08+00:00",
+    "what_is_not_verified": "האם הצדדים בתימן שוקלים או מקבלים את ההצעה לא צוין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130914",
+      "published_at": "2026-09-27T19:49:08+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "סיבת המעבר הזמני ללימודים מרחוק בבתי ספר בריאד והחזרתם למסגרת פרונטלית",
+   "ההשלכות והתוצאות הסופיות של חקירת אירוע תקיפת צינור הנפט מעיראק"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0633,
+    "unit": "ILS",
+    "change_pct": 0.97,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [],
+    "inferred": [
+     "הרחבת הלחץ הצבאי על סעודיה באמצעות תקיפות כטב\"מים וטילים",
+     "שימור אחיזה בשטחים בתימן מול הכוחות הממשלתיים"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר יעדים בסעודיה ובאזור"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "בלימת ההתקדמות והתקיפות של החות'ים"
+    ],
+    "inferred": [
+     "חיזוק שיתוף הפעולה האזורי והבינלאומי לבלום את הפעילות החות'ית",
+     "גיוס כוחות פנימיים למערכה מול החות'ים"
+    ],
+    "forecast": [
+     "הידוק שיתוף הפעולה הביטחוני בין סעודיה למדינות האזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/rubio-meets-saudi-fm-fight-against-yemens-houthis-intensifies",
+    "accessed_at": "2026-09-28T18:19:11+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+    "accessed_at": "2026-09-28T18:19:11+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+    "accessed_at": "2026-09-28T18:19:11+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130914",
+    "accessed_at": "2026-09-28T18:19:11+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48069",
+    "accessed_at": "2026-09-28T18:19:11+00:00"
+   }
+  ]
+ }
+}

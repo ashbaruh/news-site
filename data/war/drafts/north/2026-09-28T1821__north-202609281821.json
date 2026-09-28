@@ -1,0 +1,326 @@
+{
+ "status": "draft",
+ "received_sha256_12": "af2c53751ab9",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "verified": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-28T18:21:41+00:00",
+  "window": {
+   "from": "2026-09-27T18:21:41+00:00",
+   "to": "2026-09-28T18:21:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609281821"
+  },
+  "summary": "בזרה הצפונית נמשכות התנגשויות נקודתיות ופעילות צבאית של צה\"ל בדרום לבנון הכוללת השמדת תשתיות והתבססות במרחב הביטחוני, לצד מאמצים דיפלומטיים של ממשלת לבנון מול ארצות הברית להשגת נסיגה ישראלית מלאה. במקביל, בסוריה מתבצעות פעולות ביטחון פנים נגד תאי טרור לצד שינויים מנהלתיים ותקציביים של משרד האוצר הסורי.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעיל חלקית עם תקיפות צה\"ל, פיצוצים מבוקרים בדרום לבנון ומגעים דיפלומטיים"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילות ביטחון פנים נגד תאי טרור וצעדי התאוששות כלכלית ומנהלית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09281821-01",
+    "title": "פגישת ראש ממשלת לבנון עם מזכיר המדינה האמריקאי",
+    "summary": "ראש ממשלת לבנון נפגש בוושינגטון עם מזכיר המדינה של ארצות הברית וקרא להפעלת מסגרת תלת-צדדית, קביעת לוח זמנים לנסיגה ישראלית מלאה ומנגנון פיקוח אמין.",
+    "axis": "לבנון-ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T12:38:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T12:38:04+00:00",
+    "last_update_at": "2026-09-28T18:13:46+00:00",
+    "what_is_not_verified": "הפרטים לגבי יישום בפועל של לוח הזמנים והמנגנון אינם מאומתים שכן מדובר בהצהרות ודרישות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_src_anadolu",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanese-premier-urges-implementation-of-trilateral-framework-to-ensure-israeli-withdrawal/4071966",
+      "published_at": "2026-09-28T18:13:46+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_src_anadolu",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960192/rubio-reaffirms-us-support-for-lebanon-as-salam-calls-for-clear-timeli/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960192",
+      "published_at": "2026-09-28T13:05:05+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_src_anadolu",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960188/rubio-salam-meeting-highly-positive-discuss-roadmap-for-israeli-withdr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960188",
+      "published_at": "2026-09-28T12:38:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09281821-02",
+    "title": "ירי מיירט לעבר מטרה אווירית בדרום לבנון",
+    "summary": "צה\"ל דיווח על שיגור מיירט לעבר מטרה אווירית חשודה במרחב הפעילות של כוחותיו בדרום לבנון, ללא הפעלת התרעות.",
+    "axis": "לבנון-ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T17:39:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T17:39:44+00:00",
+    "last_update_at": "2026-09-28T18:06:20+00:00",
+    "what_is_not_verified": "הפרטים המלאים על זיהוי המטרה נמצאים בבדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130978",
+      "published_at": "2026-09-28T18:06:20+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25243",
+      "published_at": "2026-09-28T17:39:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-09281821-03",
+    "title": "פיצוצים מבוקרים ותקיפות של צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות, פיצוצים מבוקרים והשמדת תשתיות טרור רבות בכפר אל-מנצורי ובאזורים נוספים בדרום לבנון.",
+    "axis": "לבנון-ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T13:26:35+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T13:26:35+00:00",
+    "last_update_at": "2026-09-28T16:11:45+00:00",
+    "what_is_not_verified": "חלק מהדיווחים מבוססים על גופי תקשורת לבנוניים ועל טענות צבאיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_al_nna_and_afp",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
+      "published_at": "2026-09-28T16:11:45+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_al_nna_and_afp",
+      "url": "https://t.me/idf_telegram/25242",
+      "published_at": "2026-09-28T15:31:01+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_al_nna_and_afp",
+      "url": "https://english.almanar.com.lb/article/131592/",
+      "published_at": "2026-09-28T15:07:36+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_al_nna_and_afp",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
+      "published_at": "2026-09-28T15:05:55+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_al_nna_and_afp",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
+      "published_at": "2026-09-28T13:26:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "צור, לבנון",
+      "lat": 33.2721,
+      "lon": 35.1964
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09281821-04",
+    "title": "חשיפת רשת דאעש במספר מחוזות בסוריה",
+    "summary": "השלטונות בסוריה הודיעו על פירוק רשת של ארגון המדינה אלאסלאמיה שפעלה בארבעה מחוזות וכללה מעצר של בכירים וחברי חוליה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T16:54:35+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T16:54:35+00:00",
+    "last_update_at": "2026-09-28T16:54:35+00:00",
+    "what_is_not_verified": "הטענות של הרשויות הסוריות לא אומתו באופן עצמאי וזהות העצורים לא פורסמה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_syrian_interior_ministry_announcement",
+      "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
+      "published_at": "2026-09-28T16:54:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רקה, סוריה",
+      "lat": 35.9497,
+      "lon": 39.0089
+     },
+     {
+      "name": "חלב, סוריה",
+      "lat": 36.1992,
+      "lon": 37.1637
+     },
+     {
+      "name": "חומס, סוריה",
+      "lat": 34.7333,
+      "lon": 36.7167
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הפרטים המדויקים סביב המטרה האוירית החשודה בדרום לבנון",
+   "זהות העצורים במבצע נגד דאעש בסוריה והמועד המדויק של הפעולות המיוחסות להם",
+   "אמינות הטענות על שימוש במטבעות קריפטו למימון חיזבאללה דרך איראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0633,
+    "unit": "ILS",
+    "change_pct": 0.97,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על ביטחון התושבים והכוחות",
+     "השמדת תשתיות טרור בדרום לבנון"
+    ],
+    "inferred": [
+     "מניעת התבססות מחדש של חיזבאללה בסמוך לגבול",
+     "הרחקת איומים במרחב הגבול הצפוני"
+    ],
+    "forecast": [
+     "המשך פעולות ממוקדות נגד תשתיות טרור בלבנון בהתאם לצורך",
+     "היערכות ממושכת במרחבים המבצעיים בגבול לבנון"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "השגת נסיגה ישראלית מלאה משטח לבנון",
+     "החזרת השליטה הבלעדית של המדינה על הנשק"
+    ],
+    "inferred": [
+     "ניסיון לרתום את ארצות הברית ללחץ דיפלומטי על ישראל",
+     "חיזוק המוסדות הממשלתיים מול גורמי כוח מקומיים"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים בוושינגטון ובזירה הבינלאומית",
+     "לחץ פנימי גובר בנוגע לפירוק נשק ושיקום תשתיות"
+    ]
+   },
+   {
+    "actor": "איראן וחיזבאללה",
+    "declared": [
+     "המשך ההתנגדות לכישול האויב והגנה על ציר ההתנגדות",
+     "שימור מורשת המנהיגים המחוסלים והמשך דרכם"
+    ],
+    "inferred": [
+     "ניסיון לשקם את יכולות הארגון למרות המכות הקשות שפגעו בהנהגה",
+     "הסתמכות על ערוצי מימון אלטרנטיביים לעקוף את הסנקציות"
+    ],
+    "forecast": [
+     "שימור רטוריקה לוחמנית וקיום אירועי זיכרון להפגנת נוכחות",
+     "ניסיונות התארגנות מחדש בדרגים השונים תחת הנהגה חדשה"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "ייצוב המצב הביטחוני פנימי ופירוק רשתות טרור",
+     "ארגון מחדש של ההוצאה הציבורית ושיקום תשתיות אזרחיות"
+    ],
+    "inferred": [
+     "ריסוק תאים פעילים של ארגונים קיצוניים מחוץ למעוזיהם המסורתיים",
+     "התמודדות עם משברים כלכליים חריפים והשפעות הפליטים החוזרים"
+    ],
+    "forecast": [
+     "המשך פעולות מבצעיות של מנגנוני הביטחון במחוזות השונים",
+     "התמודדות מתמשכת עם אתגרים תקציביים ושיקום תחבורה אווירית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/131592/",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130978",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25242",
+    "accessed_at": "2026-09-28T18:21:41+00:00"
+   }
+  ]
+ }
+}

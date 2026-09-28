@@ -1,0 +1,327 @@
+{
+ "status": "draft",
+ "received_sha256_12": "52e8369e1531",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "verified": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-28T18:15:18+00:00",
+  "window": {
+   "from": "2026-09-27T18:15:18+00:00",
+   "to": "2026-09-28T18:15:18+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609281815"
+  },
+  "summary": "העימות המשולש נמשך במספר חזיתות הכוללות לחץ כלכלי וסנקציות על איראן, שיבושים בנתיבי השיט במצר הורמוז, ופעילות מנוגדת של שלוחויות ופרוקסי באזור. איראן מתמודדת עם שפל חסר תקדים במטבע המקומי שלה לצד לחצים צבאיים ומדיניים מצד ארצות הברית וישראל, בעוד מגעים דיפלומטיים עקיפים וגישושים להסכמים מתנהלים במקביל לאיומי תקיפה.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "פעיל ומתוח עם שיבושי שייט ותקיפות"
+   },
+   {
+    "name": "החזית הכלכלית והסנקציות",
+    "status": "החמרה בערך המטבע האיראני והגברת אכיפת סנקציות קריפטו"
+   },
+   {
+    "name": "החזית הדיפלומטית והמדינית",
+    "status": "מגעים עקיפים בין וושינגטון לטהרן באמצעות מתווכים בניו יורק"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09281815-01",
+    "title": "תפיסת כלי שיט ומעצרים במצר הורמוז",
+    "summary": "איראן תפסה שני כלי שיט קלים ועצרה חמישה עשר אנשים בטענה שהפרו תקנות",
+    "axis": "המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T18:05:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T18:05:40+00:00",
+    "last_update_at": "2026-09-28T18:05:40+00:00",
+    "what_is_not_verified": "לא ידועות בדיוק האזרחיות של העצורים וזמן ביצוע הפעולה המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5dee32b6f6db89c0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-seizes-two-light-vessels-arrests-50-people-violating-regulations",
+      "published_at": "2026-09-28T18:05:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     },
+     {
+      "name": "מינאב, איראן",
+      "lat": 27.1506,
+      "lon": 57.0753
+     },
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09281815-02",
+    "title": "חידוש טיסות בין עיראק לאיראן",
+    "summary": "חברת התעופה העיראקית חידשה את הטיסות בין נג'ף לשדות תעופה באיראן לאחר הפסקה קצרה",
+    "axis": "עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T14:42:52+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T14:42:52+00:00",
+    "last_update_at": "2026-09-28T17:54:03+00:00",
+    "what_is_not_verified": "האם ההפסקה נבעה ישירות מהסנקציות של ארצות הברית או מהוראה מקומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4445b3c8119dbd1a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-airways-resumes-flights-between-najaf-and-iranian-airports-state",
+      "published_at": "2026-09-28T17:54:03+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_5b649bd3cb07c1c7",
+      "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
+      "published_at": "2026-09-28T14:42:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ף, עיראק",
+      "lat": 32.001,
+      "lon": 44.33
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09281815-03",
+    "title": "חקירת חשד לפיגוע בבסיס חיל האוויר הבריטי",
+    "summary": "משטרת בריטניה עצרה ושחררה בערבות חמישה חשודים במסגרת חקירת איום פוטנציאלי על בסיס המשמש את ארצות הברית, כאשר נבדק חשד למעורבות מדינה זרה או שליחים",
+    "axis": "אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T12:55:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T12:55:34+00:00",
+    "last_update_at": "2026-09-28T17:52:24+00:00",
+    "what_is_not_verified": "האם איראן הייתה מעורבת במזימה, והאם המטענים שאותרו היו שמישים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+      "published_at": "2026-09-28T17:52:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
+      "published_at": "2026-09-28T16:46:56+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjo2bjucgg",
+      "published_at": "2026-09-28T15:07:59+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
+      "published_at": "2026-09-28T12:55:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.7108,
+      "lon": -1.782
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09281815-04",
+    "title": "פרסום דוח סנאט על שימוש במטבע קריפטו למימון איראן וחיזבאללה",
+    "summary": "דוח של הסנאט האמריקאי חשף כי מטבע הדיגיטלי תטר משמש עורק פיננסי מרכזי לאיראן ולמימון ארגונים פרוקסי בהם חיזבאללה",
+    "axis": "כלכלי/סנקציות",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T14:57:33+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T14:57:33+00:00",
+    "last_update_at": "2026-09-28T17:46:30+00:00",
+    "what_is_not_verified": "היקף העסקאות המדויק שבוצע דרך ארנקים אלו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
+      "published_at": "2026-09-28T17:46:30+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
+      "published_at": "2026-09-28T14:57:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09281815-05",
+    "title": "פציעת חיילי מארינס אמריקאים בתקיפה במצר הורמוז",
+    "summary": "שמונה אנשי סגל של חיל הנחתים האמריקאי נפצעו כתוצאה מפגיעת טיל שיוט איראני בכלי שיט במצר הורמוז מוקדם יותר החודש",
+    "axis": "המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T05:44:58+00:00",
+    "last_update_at": "2026-09-28T05:44:58+00:00",
+    "what_is_not_verified": "זהות כלי השיט המדויקת שספגה את הפגיעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130921",
+      "published_at": "2026-09-28T05:44:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות אפשרית של איראן בניסיון הפיגוע לכאורה בבסיס פיירפורד בבריטניה",
+   "פרטי הפגיעה המדויקים בספינה האמריקאית במצר הורמוז שדווחו ברשת אן-בי-סי",
+   "ההצעה האיראנית המדויקת להפוגה בת שבעה ימים ודחייתה על ידי ארצות הברית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0633,
+    "unit": "ILS",
+    "change_pct": 0.97,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "מוכנות לשיחות או למלחמה אפוקליפטית",
+     "הדגשת תפקידה של ההתנגדות כגורם הרתעתי"
+    ],
+    "inferred": [
+     "עקיפת סנקציות באמצעות מטבעות קריפטו ונתיבי סחר חלופיים",
+     "שימוש בשלוחים להפעלת לחץ על ארצות הברית וישראל"
+    ],
+    "forecast": [
+     "המשך ניסיונות לשבש את תנועת האנרגיה במצר הורמוז כל עוד הלחץ הכלכלי נמשך",
+     "חיפוש ערוצי עקיפה נוספים למערכת הפיננסית המערבית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הפעלת לחץ מקסימלי וסנקציות כלכליות על טהרן",
+     "שמירה על חופש השיט והגנה על כוחותיה במפרץ"
+    ],
+    "inferred": [
+     "בחינת אפשרות לתקיפות צבאיות נוספות במקביל לניהול מגעים עקיפים",
+     "חסימת עורקי מימון של איראן ושלוחיה דרך מערכות פיננסיות וקריפטו"
+    ],
+    "forecast": [
+     "החמרת הפיקוח על עסקאות קריפטו המשרתות את איראן וארגוני הטרור",
+     "המשך הפעלת נוכחות צבאית מוגברת באזורי חיכוך ימיים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "בלימת השפעתה האזורית של איראן ושלחיה",
+     "סיכול תשתיות טרור ומימון המופנות נגדה"
+    ],
+    "inferred": [
+     "שיתוף פעולה מודיעיני הדוק עם ארצות הברית וגורמים מערביים למעקב אחר רשתות מימון איראניות",
+     "היערכות צבאית מתמשכת לאפשרות של עימות ישיר רחב"
+    ],
+    "forecast": [
+     "המשך פעילות חשאית וגלויה נגד נתיבי האספקה והכספים של ציר ההתנגדות",
+     "הגברת התיאום המדיני מול ממשל ארצות הברית בנושא הסנקציות על איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130921",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
+    "accessed_at": "2026-09-28T18:15:18+00:00"
+   }
+  ]
+ }
+}

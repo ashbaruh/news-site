@@ -2,165 +2,96 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-09-27T2340__yemen-202609272340.json",
+  "draft": "drafts/yemen/2026-09-28T1819__yemen-202609281819.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-09-27T23:40:31+00:00",
+   "generated_at": "2026-09-28T18:19:11+00:00",
    "window": {
-    "from": "2026-09-26T23:40:31+00:00",
-    "to": "2026-09-27T23:40:31+00:00"
+    "from": "2026-09-27T18:19:11+00:00",
+    "to": "2026-09-28T18:19:11+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "yemen-202609272340"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "yemen-202609281819"
    },
-   "summary": "הלחימה בתימן הסלימה מחדש בעקבות קריסת שביתת הנשק, כאשר החות'ים ביצעו מתקפה רחבה והשתלטו על חופי ים סוף ואזור מצר באב אל-מנדב. במקביל נרשמות התנגשויות עזות והפצצות הדדיות בחזית העיר תעז בין כוחות הממשלה הנתמכים בידי סעודיה לבין החות'ים. העימות גולש לפגיעה במטרות בעומק סעודיה וגורר פריסת מערכי הגנה בין-לאומיים לצד ניסיונות תיווך פוליטיים שלא הבשילו.",
+   "summary": "הלחימה בתימן מתחדשת בעוצמה בין החות'ים לבין כוחות ממשלת תימן הנתמכים בידי סעודיה, לצד התקפות חוצות גבולות לעבר שטחי סעודיה כולל שימוש בכטב\"מים. במקביל, מעורבות בינלאומית ואזורית גוברת סביב ניסיונות התמודדות עם האיומים הימיים והאוויריים של החות'ים.",
    "fronts": [
     {
-     "name": "חזית תעז ודרום-מערב תימן",
-     "status": "קרבות עזים, תקיפות אוויריות והפגזות הדדיות שמובילות לנפגעים רבים בקרב אזרחים ולוחמים"
+     "name": "חזית תימן הפנימית",
+     "status": "פעילה עם החמרה בלחימה"
     },
     {
-     "name": "חזית חוף ים סוף ומצר באב אל-מנדב",
-     "status": "שליטה חות'ית ברצועת החוף ואיומי מצור על נתיבי שיט וייצוא אנרגיה"
-    },
-    {
-     "name": "חזית תימן מול סעודיה",
-     "status": "שיגורי כטב\"מים וטילים לעבר ערים ומתקני נפט סעודיים, לצד הפצצות אוויריות ותגבור מערכי הגנה צרפתיים"
+     "name": "החזית מול סעודיה",
+     "status": "הסלמה בתקיפות אוויריות ויירוטים"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-09272340-01",
-     "title": "תקיפה אווירית נגד שוק באזור תעז והתרחבות הנפגעים",
-     "summary": "הפצצה אווירית פגעה בשוק בפאתי העיר תעז. החות'ים טענו כי מטוסי קרב של סעודיה ביצעו את התקיפה וגרמו לעשרות נפגעים, בהם הרוגים וילדים פצועים, בעוד דיווחים מקבילים מציינים לפחות שבעה הרוגים ועשרות פצועים.",
-     "axis": "תימן - חזית תעז",
+     "id": "YEMEN-09281819-01",
+     "title": "הכרזה על גיוס כללי נגד החות'ים בתימן",
+     "summary": "שלטונות תימן הלגיטימיים הכריזו על גיוס כללי לצורך לחימה נגד החות'ים.",
+     "axis": "תימן והחות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "occurred_at": "2026-09-28T16:22:45+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T12:41:22+00:00",
-     "last_update_at": "2026-09-27T22:09:17+00:00",
-     "what_is_not_verified": "זהות הגורם המבצע המדויק ומספר הנפגעים המוחלט שנויים במחלוקת בין הצדדים ואינם מאומתים באופן עצמאי.",
+     "first_reported_at": "2026-09-28T16:22:45+00:00",
+     "last_update_at": "2026-09-28T16:22:45+00:00",
+     "what_is_not_verified": "היקף הביצוע וההשפעה המעשית של הגיוס אינם מפורטים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strikes-yemens-taiz-leave-dozens-casualties",
-       "published_at": "2026-09-27T22:09:17+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/deadly-strike-hits-market-in-yemens-taiz?traffic_source=rss",
-       "published_at": "2026-09-27T21:00:55+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
-       "published_at": "2026-09-27T12:41:22+00:00"
+       "url": "https://t.me/alexmehacarmel/48069",
+       "published_at": "2026-09-28T16:22:45+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
+     "places": []
     },
     {
-     "id": "YEMEN-09272340-02",
-     "title": "הסלמת פעולות צבא תימן והתקפות אוויריות נגד החות'ים בתעז",
-     "summary": "כוחות ממשלת תימן הודיעו על ביצוע מאות פעולות צבאיות בימים האחרונים נגד מטרות חות'יות, וכן על תקיפות אוויריות נגד מצבורי אמצעי לחימה והתקהלויות של החות'ים מצפון וממזרח לתעז.",
-     "axis": "פנים תימן - צבא הממשלה מול החות'ים",
+     "id": "YEMEN-09281819-02",
+     "title": "פגישת שר החוץ של סעודיה עם בכירים בארה\"ב על רקע הלחימה בתימן",
+     "summary": "שר החוץ של סעודיה נפגש עם שר החוץ האמריקאי במסגרת ההתחזקות בלחימה מול החות'ים בתימן.",
+     "axis": "תימן והחות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T13:36:01+00:00",
-     "last_update_at": "2026-09-27T16:59:16+00:00",
-     "what_is_not_verified": "היקף הפגיעה במצבורים ומספר הפעולות המדויק מבוססים על הודעות צד אחד בלבד.",
+     "occurred_at": "2026-09-28T15:42:15+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T15:42:15+00:00",
+     "last_update_at": "2026-09-28T15:42:15+00:00",
+     "what_is_not_verified": "לא מאומתים פרטים מלאים מתוך תוכן הפגישה הסגורה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153083",
-       "published_at": "2026-09-27T16:59:16+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153082",
-       "published_at": "2026-09-27T16:49:19+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over",
-       "published_at": "2026-09-27T13:36:01+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_al_monitor",
+       "url": "https://www.al-monitor.com/originals/2026/09/rubio-meets-saudi-fm-fight-against-yemens-houthis-intensifies",
+       "published_at": "2026-09-28T15:42:15+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
+     "places": []
     },
     {
-     "id": "YEMEN-09272340-03",
-     "title": "הפגזת כפרים ממערב לעיר תעז בידי החות'ים",
-     "summary": "כוחות חות'יים ביצעו הפגזות לעבר כפרי א-ד'באב הממוקמים ממערב לעיר תעז.",
-     "axis": "פנים תימן - חזית תעז",
+     "id": "YEMEN-09281819-03",
+     "title": "יירוט כטב\"מים וטילים בליסטיים סעודי לעבר אזור ריאד וח'מיס מושייט",
+     "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה כטב\"מים ששיגרו החות'ים לעבר מרחב ריאד וטילים בליסטיים לעבר ח'מיס מושייט.",
+     "axis": "תימן והחות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "occurred_at": "2026-09-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T15:49:04+00:00",
-     "last_update_at": "2026-09-27T15:49:04+00:00",
-     "what_is_not_verified": "מידת הנזק או נפגעים בהפגזה זו לא פורטו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153080",
-       "published_at": "2026-09-27T15:49:04+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09272340-04",
-     "title": "יירוט כלי טיס בלתי מאוישים מעל שטח סעודיה והשבתת מוסדות חינוך בריאד",
-     "summary": "סעודיה יירטה שני כלי טיס בלתי מאוישים ששוגרו על ידי החות'ים לעבר הבירה ריאד, ובעקבות האירועים הועברו מוסדות חינוך בעיר למתכונת למידה מרחוק.",
-     "axis": "החות'ים מול סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T12:41:22+00:00",
-     "last_update_at": "2026-09-27T12:41:22+00:00",
-     "what_is_not_verified": "הסיבה הרשמית למעבר בתי הספר ללמידה מרחוק לא צוינה בהודעות להורים.",
+     "first_reported_at": "2026-09-28T15:17:05+00:00",
+     "last_update_at": "2026-09-28T15:17:05+00:00",
+     "what_is_not_verified": "סיבת המעבר הזמני ללמידה מרחוק בבתי ספר בריאד טרם אומתה באופן רשמי מצד משרד החינוך.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
-       "published_at": "2026-09-27T12:41:22+00:00"
+       "url": "https://www.newarab.com/news/why-did-riyadh-schools-abruptly-switch-online-classes",
+       "published_at": "2026-09-28T15:17:05+00:00"
       }
      ],
      "places": [
@@ -168,91 +99,78 @@ window.DB.war_published = {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09272340-05",
-     "title": "הצבת אמצעי הגנה וחיילים מצרפת בסעודיה לבלימת מתקפות החות'ים",
-     "summary": "צרפת הודיעה על שיגור כוחות, יחידות מכ\"ם ומערכות הגנה אווירית לשטח סעודיה, במטרה לסייע בהגנה מפני שיגורי טילים וכלי טיס בלתי מאוישים מתימן.",
-     "axis": "הגנת סעודיה ומעורבות בין-לאומית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T14:21:45+00:00",
-     "last_update_at": "2026-09-27T15:38:31+00:00",
-     "what_is_not_verified": "היקף הכוחות והמערכות המדויק שיוצב בפועל טרם נקבע ותלוי בבקשות ריאד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/french-military-support-saudi-arabia-defensive-fm",
-       "published_at": "2026-09-27T15:38:31+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-military-deployment-saudi-arabia-strictly-defensive-minister-says",
-       "published_at": "2026-09-27T14:21:45+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ינבוע, סעודיה",
-       "lat": 24.089,
-       "lon": 38.0687
+       "name": "ח'מיס מושייט, סעודיה",
+       "lat": 18.3,
+       "lon": 42.7333
       }
      ]
     },
     {
-     "id": "YEMEN-09272340-06",
-     "title": "השתלטות החות'ים על חופי ים סוף וניסיון מצור על נתיבי נפט",
-     "summary": "כוחות החות'ים השתלטו על רצועת החוף בים סוף כולל אזור מצר באב אל-מנדב, ומפעילים לחץ ומצור על ייצוא האנרגיה ומתקני הנפט של סעודיה.",
-     "axis": "הים האדום ומצר באב אל-מנדב",
-     "claim_type": "assessment",
+     "id": "YEMEN-09281819-04",
+     "title": "ממצאים ראשוניים של חקירה עיראקית על תקיפת צינור הנפט בסעודיה",
+     "summary": "חקירה בעיראק מעלה כי משמרות המהפכה של איראן והחות'ים בתימן עמדו מאחורי שיגור כטב\"מים חמושים לעבר צינור הנפט המזרחי-מערבי בסעודיה מתחומי עיראק.",
+     "axis": "תימן והחות'ים",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T12:41:22+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T12:41:22+00:00",
-     "last_update_at": "2026-09-27T15:38:31+00:00",
-     "what_is_not_verified": "רמת היעילות וההשפעה הממשית של המצור על משלוחי הנפט הסעודיים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/french-military-support-saudi-arabia-defensive-fm",
-       "published_at": "2026-09-27T15:38:31+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-strike-yemens-taiz-kills-seven",
-       "published_at": "2026-09-27T12:41:22+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "באב אל-מנדב, תימן",
-       "lat": 12.714,
-       "lon": 43.5008
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09272340-07",
-     "title": "הצעת תיווך מטעם חמאס ליישוב הסכסוך בתימן",
-     "summary": "הנהגת חמאס הודיעה כי הציעה את עצמה כמתווכת בין הצדדים הלוחמים בתימן במטרה לנסות ולהביא לרגיעה.",
-     "axis": "מגעים מדיניים ויוזמות אזוריות",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "occurred_at": "2026-09-28T11:52:30+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T11:13:31+00:00",
+     "first_reported_at": "2026-09-28T11:52:30+00:00",
+     "last_update_at": "2026-09-28T11:52:30+00:00",
+     "what_is_not_verified": "הממצאים טרם הוגשו רשמית ובדיקתם נמצאת בשלבים סופיים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+       "published_at": "2026-09-28T11:52:30+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-09281819-05",
+     "title": "הסלמה מחודשת בלחימה בתימן ופגיעה בחיי האזרחים",
+     "summary": "הלחימה המחודשת בין החות'ים לכוחות התימניים הנתמכים בידי סעודיה מתקרבת לכפרים ומחוזות, ומשבשת את שגרת החיים והלימודים של ילדים.",
+     "axis": "תימן והחות'ים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T07:07:26+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-28T07:07:26+00:00",
+     "last_update_at": "2026-09-28T07:07:26+00:00",
+     "what_is_not_verified": "היקף הנזק המלא בכלל המחוזות בתימן אינו מפורט במלואו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_972cbeebdf6e59c9",
+       "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+       "published_at": "2026-09-28T07:07:26+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-09281819-06",
+     "title": "הצעה של חמאס לשמש כמתווכת בזירה בתימן",
+     "summary": "יו\"ר הלשכה המדינית של חמאס, ח'ליל אלחיה, הצהיר כי ארגונו הציע את עצמו כמתווך בין הצדדים הניצים בתימן.",
+     "axis": "תימן והחות'ים",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-27T19:49:08+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-27T19:49:08+00:00",
      "last_update_at": "2026-09-27T19:49:08+00:00",
-     "what_is_not_verified": "האם מי מהצדדים הלוחמים בתימן השיב או קיבל את הצעת התיווך.",
+     "what_is_not_verified": "האם הצדדים בתימן שוקלים או מקבלים את ההצעה לא צוין.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -260,51 +178,14 @@ window.DB.war_published = {
        "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/130914",
        "published_at": "2026-09-27T19:49:08+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/hamas-chief-calls-talks-abbas-endorses-gaza-roadmap",
-       "published_at": "2026-09-27T11:13:31+00:00"
       }
      ],
      "places": []
-    },
-    {
-     "id": "YEMEN-09272340-08",
-     "title": "מעצרי אזרחים והטלת מצור בידי החות'ים במחוז ד'מאר",
-     "summary": "החות'ים עצרו עשרות אזרחים והטילו מצור על כפר במחוז ד'מאר עקב קיום חגיגות לציון מהפכת עשרים ושישה בספטמבר.",
-     "axis": "פנים תימן - דיכוי חות'י",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T15:06:13+00:00",
-     "last_update_at": "2026-09-27T15:06:13+00:00",
-     "what_is_not_verified": "אין אימות עצמאי למספר העצורים ולמצב המצור בשטח מעבר לדיווח הסוכנות הרשמית של הממשלה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153075",
-       "published_at": "2026-09-27T15:06:13+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ד'מאר, תימן",
-       "lat": 14.543,
-       "lon": 44.4001
-      }
-     ]
     }
    ],
    "not_verified": [
-    "זהות כלי הטיס שפגעו בשוק בתעז ומספר ההרוגים והפצועים המדויק",
-    "מידת ההצלחה והנזק של תקיפות צבא תימן על מחסני האמל\"ח החות'יים",
-    "הסיבה הרשמית המלאה להשבתת מוסדות החינוך בריאד",
-    "האם התקבל מענה רשמי ליוזמת התיווך שהציג חמאס בתימן"
+    "סיבת המעבר הזמני ללימודים מרחוק בבתי ספר בריאד והחזרתם למסגרת פרונטלית",
+    "ההשלכות והתוצאות הסופיות של חקירת אירוע תקיפת צינור הנפט מעיראק"
    ],
    "map": {
     "confidence": "low",
@@ -315,168 +196,162 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0338,
+     "value": 3.0633,
      "unit": "ILS",
-     "change_pct": -0.47,
+     "change_pct": 0.97,
      "source_id": "src_ecb",
-     "as_of": "2026-09-25T15:00:00+00:00"
+     "as_of": "2026-09-28T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "התנועה החות'ית",
-     "declared": [
-      "הטלת מצור ימי על ייצוא הנפט והאנרגיה של סעודיה",
-      "תגובה ותגמול צבאי על תקיפות אוויריות בשטח תימן"
-     ],
+     "actor": "החות'ים",
+     "declared": [],
      "inferred": [
-      "ביסוס אחיזה מלאה בנתיבי השיט בים סוף ובמצר באב אל-מנדב כמנוף לחץ אזורי",
-      "הרחבת השליטה הטריטוריאלית באזורי מפתח כמו תעז ומארב על חשבון כוחות הממשלה"
+      "הרחבת הלחץ הצבאי על סעודיה באמצעות תקיפות כטב\"מים וטילים",
+      "שימור אחיזה בשטחים בתימן מול הכוחות הממשלתיים"
      ],
      "forecast": [
-      "המשך ניסיונות שיגור כטב\"מים וטילים אל עבר עומק סעודיה ומתקני אנרגיה",
-      "החרפת העימותים הקרקעיים במערב תימן ובחזית תעז"
+      "המשך שיגורים לעבר יעדים בסעודיה ובאזור"
      ]
     },
     {
      "actor": "סעודיה וממשלת תימן",
      "declared": [
-      "הגנה על שטח סעודיה, עריה ומתקני הנפט מפני איומים",
-      "בלימת המרד וההתקפות החות'יות על מוקדי שלטון ותשתיות"
+      "בלימת ההתקדמות והתקיפות של החות'ים"
      ],
      "inferred": [
-      "הסתמכות גוברת על מערכות הגנה וסיוע צבאי מערבי לסיכול מתקפות אוויריות",
-      "שימור שרידי השליטה הצבאית במוקדים אסטרטגיים כמו העיר תעז"
+      "חיזוק שיתוף הפעולה האזורי והבינלאומי לבלום את הפעילות החות'ית",
+      "גיוס כוחות פנימיים למערכה מול החות'ים"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדות של חיל האוויר נגד יעדי אמל\"ח והתקהלויות חות'יות",
-      "הידוק שיתוף הפעולה ההגנתי מול שותפות בין-לאומיות במרחב הים האדום"
+      "הידוק שיתוף הפעולה הביטחוני בין סעודיה למדינות האזור"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/deadly-strike-hits-market-in-yemens-taiz?traffic_source=rss",
-     "accessed_at": "2026-09-27T23:40:31+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/09/rubio-meets-saudi-fm-fight-against-yemens-houthis-intensifies",
+     "accessed_at": "2026-09-28T18:19:11+00:00"
     },
     {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-military-deployment-saudi-arabia-strictly-defensive-minister-says",
-     "accessed_at": "2026-09-27T23:40:31+00:00"
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+     "accessed_at": "2026-09-28T18:19:11+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/hamas-chief-calls-talks-abbas-endorses-gaza-roadmap",
-     "accessed_at": "2026-09-27T23:40:31+00:00"
-    },
-    {
-     "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/153075",
-     "accessed_at": "2026-09-27T23:40:31+00:00"
+     "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+     "accessed_at": "2026-09-28T18:19:11+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/130914",
-     "accessed_at": "2026-09-27T23:40:31+00:00"
+     "accessed_at": "2026-09-28T18:19:11+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48069",
+     "accessed_at": "2026-09-28T18:19:11+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-26T23:53:15+00:00",
+  "previous_generated_at": "2026-09-27T23:40:31+00:00",
   "changes": {
-   "YEMEN-09272340-01": {
+   "YEMEN-09281819-01": {
     "kind": "new"
    },
-   "YEMEN-09272340-02": {
+   "YEMEN-09281819-02": {
+    "kind": "new"
+   },
+   "YEMEN-09281819-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "יירוט כלי טיס בלתי מאוישים מעל שטח סעודיה והשבתת מוסדות חינוך בריאד",
+    "score": 0.817
+   },
+   "YEMEN-09281819-04": {
+    "kind": "new"
+   },
+   "YEMEN-09281819-05": {
     "kind": "possible",
-    "prev": "תקיפות של כוחות תימניים נגד מוצבי חות'ים",
+    "prev": "הסלמת פעולות צבא תימן והתקפות אוויריות נגד החות'ים בתעז",
     "score": 0.633
    },
-   "YEMEN-09272340-03": {
-    "kind": "possible",
-    "prev": "התקדמות כוחות הממשלה מול החות'ים והרוגים בעימותים",
-    "score": 0.633
-   },
-   "YEMEN-09272340-04": {
-    "kind": "new"
-   },
-   "YEMEN-09272340-05": {
+   "YEMEN-09281819-06": {
     "kind": "same",
     "from": "shared_root",
-    "to": "shared_root",
-    "prev": "אזהרת בכירים משימוש החות'ים באמצעי הגנה אווירי",
-    "score": 0.65
-   },
-   "YEMEN-09272340-06": {
-    "kind": "new"
-   },
-   "YEMEN-09272340-07": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "הצעת תיווך של חמאס בין הצדדים בתימן",
-    "score": 0.65
-   },
-   "YEMEN-09272340-08": {
-    "kind": "new"
+    "to": "initial",
+    "prev": "הצעת תיווך מטעם חמאס ליישוב הסכסוך בתימן",
+    "score": 1.0
    }
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-28T0547__iran-202609280547.json",
+  "draft": "drafts/iran/2026-09-28T1815__iran-202609281815.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-28T05:47:10+00:00",
+   "generated_at": "2026-09-28T18:15:18+00:00",
    "window": {
-    "from": "2026-09-27T05:47:10+00:00",
-    "to": "2026-09-28T05:47:10+00:00"
+    "from": "2026-09-27T18:15:18+00:00",
+    "to": "2026-09-28T18:15:18+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609280547"
+    "run_id": "iran-202609281815"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך בשטח ובמישור הדיפלומטי, כאשר ארה\"ב דוחה את הצעות הפשרה של טהרן בנוגע למצר הורמוז ומגבירה את הלחץ הכלכלי והצבאי. במקביל, נרשמים אירועים מבצעיים כולל תקיפות באזור המפרץ, פעילות נגד נכסים אמריקאיים ומתיחות גוברת סביב צירי השיט והאנרגיה.",
+   "summary": "העימות המשולש נמשך במספר חזיתות הכוללות לחץ כלכלי וסנקציות על איראן, שיבושים בנתיבי השיט במצר הורמוז, ופעילות מנוגדת של שלוחויות ופרוקסי באזור. איראן מתמודדת עם שפל חסר תקדים במטבע המקומי שלה לצד לחצים צבאיים ומדיניים מצד ארצות הברית וישראל, בעוד מגעים דיפלומטיים עקיפים וגישושים להסכמים מתנהלים במקביל לאיומי תקיפה.",
    "fronts": [
     {
      "name": "מצר הורמוז והמפרץ",
-     "status": "פעיל ומתוח עם עימותים ימיים וסגירת נתיבים"
+     "status": "פעיל ומתוח עם שיבושי שייט ותקיפות"
     },
     {
-     "name": "הזירה המדינית-בינלאומית",
-     "status": "קיפאון מדיני וחילופי האשמות באו\"ם"
+     "name": "החזית הכלכלית והסנקציות",
+     "status": "החמרה בערך המטבע האיראני והגברת אכיפת סנקציות קריפטו"
+    },
+    {
+     "name": "החזית הדיפלומטית והמדינית",
+     "status": "מגעים עקיפים בין וושינגטון לטהרן באמצעות מתווכים בניו יורק"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09280547-01",
-     "title": "תקיפת כלי שיט במצר הורמוז",
-     "summary": "נחתים אמריקאים נפגעו מפגיעת טיל שיוט איראני בכלי שיט במצר הורמוז.",
-     "axis": "איראן מול ארה\"ב",
+     "id": "IRAN-09281815-01",
+     "title": "תפיסת כלי שיט ומעצרים במצר הורמוז",
+     "summary": "איראן תפסה שני כלי שיט קלים ועצרה חמישה עשר אנשים בטענה שהפרו תקנות",
+     "axis": "המפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-14T00:00:00+00:00",
+     "occurred_at": "2026-09-28T18:05:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T03:58:00+00:00",
-     "last_update_at": "2026-09-28T05:44:58+00:00",
-     "what_is_not_verified": "סוג כלי השיט ושמו לא נמסרו על ידי הגורמים הרשמיים.",
+     "first_reported_at": "2026-09-28T18:05:40+00:00",
+     "last_update_at": "2026-09-28T18:05:40+00:00",
+     "what_is_not_verified": "לא ידועות בדיוק האזרחיות של העצורים וזמן ביצוע הפעולה המדויק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_nbc",
-       "url": "https://t.me/abualiexpress/130921",
-       "published_at": "2026-09-28T05:44:58+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_nbc",
-       "url": "https://www.maariv.co.il/breaking-news/article-1371370",
-       "published_at": "2026-09-28T03:58:00+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_5dee32b6f6db89c0",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-seizes-two-light-vessels-arrests-50-people-violating-regulations",
+       "published_at": "2026-09-28T18:05:40+00:00"
       }
      ],
      "places": [
+      {
+       "name": "אי קשם, איראן",
+       "lat": 26.7687,
+       "lon": 55.8477
+      },
+      {
+       "name": "מינאב, איראן",
+       "lat": 27.1506,
+       "lon": 57.0753
+      },
       {
        "name": "מצר הורמוז",
        "lat": 26.4494,
@@ -485,124 +360,77 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09280547-02",
-     "title": "עמדות איראניות באו\"ם ובכירים איראנים על שלום ודיפלומטיה",
-     "summary": "בכירים באיראן, בהם שר החוץ והנשיא, הצהירו כי הגיעו לעצרת האו\"ם בניו יורק כדי לכונן שלום אך נותרו איתנים מול תוקפנות.",
-     "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "statement",
+     "id": "IRAN-09281815-02",
+     "title": "חידוש טיסות בין עיראק לאיראן",
+     "summary": "חברת התעופה העיראקית חידשה את הטיסות בין נג'ף לשדות תעופה באיראן לאחר הפסקה קצרה",
+     "axis": "עיראק",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T19:34:56+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T19:34:56+00:00",
-     "last_update_at": "2026-09-28T03:31:08+00:00",
-     "what_is_not_verified": "הכוונה המעשית מאחורי הצהרות השלום לאומת המצב בשטח.",
+     "occurred_at": "2026-09-28T14:42:52+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T14:42:52+00:00",
+     "last_update_at": "2026-09-28T17:54:03+00:00",
+     "what_is_not_verified": "האם ההפסקה נבעה ישירות מהסנקציות של ארצות הברית או מהוראה מקומית",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_74b02f6acc6f42ef",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-came-new-york-forge-peace",
-       "published_at": "2026-09-28T03:31:08+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_74b02f6acc6f42ef",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
-       "published_at": "2026-09-28T00:00:00+00:00"
+       "source_root_id": "fh_4445b3c8119dbd1a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-airways-resumes-flights-between-najaf-and-iranian-airports-state",
+       "published_at": "2026-09-28T17:54:03+00:00"
       },
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_362612afe14ee7d3",
-       "url": "https://en.irna.ir/news/86276558/Araghchi-says-he-and-President-Pezeshkian-came-to-New-York-to",
-       "published_at": "2026-09-27T20:34:25+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_74b02f6acc6f42ef",
-       "url": "https://en.irna.ir/news/86276544/No-plan-for-Iran-delegation-to-hold-talks-with-US-in-New-York",
-       "published_at": "2026-09-27T19:34:56+00:00"
+       "source_root_id": "fh_5b649bd3cb07c1c7",
+       "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
+       "published_at": "2026-09-28T14:42:52+00:00"
       }
      ],
      "places": [
       {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
+       "name": "נג'ף, עיראק",
+       "lat": 32.001,
+       "lon": 44.33
       }
      ]
     },
     {
-     "id": "IRAN-09280547-03",
-     "title": "דחיית הצעה איראנית להפסקת אש ופתיחת מצר הורמוז",
-     "summary": "נשיא ארה\"ב דונלד טראמפ והממשל האמריקאי דחו הצעה איראנית להפסקת אש בת שבעה ימים ופתיחת מצר הורמוז בתמורה להסרת סנקציות.",
-     "axis": "איראן מול ארה\"ב",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T06:34:43+00:00",
-     "last_update_at": "2026-09-27T22:10:44+00:00",
-     "what_is_not_verified": "מועד החידוש המדויק של השיחות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "fh_e9a20f6d3c1b0752",
-       "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal",
-       "published_at": "2026-09-27T22:10:44+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_e9a20f6d3c1b0752",
-       "url": "https://www.al-monitor.com/originals/2026/09/washington-denounces-irans-truce-proposal-cynical",
-       "published_at": "2026-09-27T16:30:20+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_e9a20f6d3c1b0752",
-       "url": "https://www.theguardian.com/us-news/2026/sep/27/trump-un-ambassador-iran-war",
-       "published_at": "2026-09-27T16:28:05+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_ec23dd50b1ff9826",
-       "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
-       "published_at": "2026-09-27T06:34:43+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09280547-04",
-     "title": "מעצר חשודים בטרור ליד בסיס חיל האוויר הבריטי-אמריקאי פיירפורד",
-     "summary": "משטרת בריטניה עצרה חמישה חשודים בחשד לעבירות נפץ וטרור סמוך לבסיס פיירפורד ששימש את ארה\"ב לתקיפות באיראן.",
-     "axis": "איראן מול ארה\"ב ובריטניה",
+     "id": "IRAN-09281815-03",
+     "title": "חקירת חשד לפיגוע בבסיס חיל האוויר הבריטי",
+     "summary": "משטרת בריטניה עצרה ושחררה בערבות חמישה חשודים במסגרת חקירת איום פוטנציאלי על בסיס המשמש את ארצות הברית, כאשר נבדק חשד למעורבות מדינה זרה או שליחים",
+     "axis": "אירופה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T07:46:37+00:00",
-     "last_update_at": "2026-09-27T15:57:10+00:00",
-     "what_is_not_verified": "הקשר הוודאי של איראן לתקיפה שסוכלו (נבדק על ידי המשטרה ונחשב לחשד סביר).",
+     "occurred_at": "2026-09-28T12:55:34+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-28T12:55:34+00:00",
+     "last_update_at": "2026-09-28T17:52:24+00:00",
+     "what_is_not_verified": "האם איראן הייתה מעורבת במזימה, והאם המטענים שאותרו היו שמישים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_israelhayom",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21500801",
-       "published_at": "2026-09-27T15:57:10+00:00"
+       "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+       "published_at": "2026-09-28T17:52:24+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
+       "published_at": "2026-09-28T16:46:56+00:00"
       },
       {
        "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hknexticze",
-       "published_at": "2026-09-27T15:52:16+00:00"
+       "url": "https://www.ynet.co.il/news/article/rjo2bjucgg",
+       "published_at": "2026-09-28T15:07:59+00:00"
       },
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/trump-says-men-arrested-uk-air-base-used-us-were-looking-do-big-damage",
-       "published_at": "2026-09-27T07:46:37+00:00"
+       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
+       "published_at": "2026-09-28T12:55:34+00:00"
       }
      ],
      "places": [
@@ -614,24 +442,53 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-09280547-05",
-     "title": "לכידת צוללת אוטונומית אמריקאית במצר הורמוז",
-     "summary": "הצבא האיראני הודיע על לכידת צוללת אוטונומית שנייה של צבא ארה\"ב מסוג רימוס 600 במצר הורמוז.",
-     "axis": "איראן מול ארה\"ב",
+     "id": "IRAN-09281815-04",
+     "title": "פרסום דוח סנאט על שימוש במטבע קריפטו למימון איראן וחיזבאללה",
+     "summary": "דוח של הסנאט האמריקאי חשף כי מטבע הדיגיטלי תטר משמש עורק פיננסי מרכזי לאיראן ולמימון ארגונים פרוקסי בהם חיזבאללה",
+     "axis": "כלכלי/סנקציות",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T14:57:33+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-28T14:57:33+00:00",
+     "last_update_at": "2026-09-28T17:46:30+00:00",
+     "what_is_not_verified": "היקף העסקאות המדויק שבוצע דרך ארנקים אלו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
+       "published_at": "2026-09-28T17:46:30+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
+       "published_at": "2026-09-28T14:57:33+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09281815-05",
+     "title": "פציעת חיילי מארינס אמריקאים בתקיפה במצר הורמוז",
+     "summary": "שמונה אנשי סגל של חיל הנחתים האמריקאי נפצעו כתוצאה מפגיעת טיל שיוט איראני בכלי שיט במצר הורמוז מוקדם יותר החודש",
+     "axis": "המפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T12:00:42+00:00",
-     "last_update_at": "2026-09-27T12:00:42+00:00",
-     "what_is_not_verified": "פרטי האירוע המדויקים מדווחים מצד גורמים איראניים בלבד.",
+     "occurred_at": "2026-09-14T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T05:44:58+00:00",
+     "last_update_at": "2026-09-28T05:44:58+00:00",
+     "what_is_not_verified": "זהות כלי השיט המדויקת שספגה את הפגיעה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130879",
-       "published_at": "2026-09-27T12:00:42+00:00"
+       "url": "https://t.me/abualiexpress/130921",
+       "published_at": "2026-09-28T05:44:58+00:00"
       }
      ],
      "places": [
@@ -644,9 +501,9 @@ window.DB.war_published = {
     }
    ],
    "not_verified": [
-    "מעורבות ישירה של איראן בניסיון הפיגוע שסוכל בבסיס פיירפורד בבריטניה נמצאת בבדיקה משטרתית ולא אומתה סופית.",
-    "זהות כלי השיט שהותקף במצר הורמוז ב-14 בספטמבר לפי דיווח NBC.",
-    "טענות על היקף מדויק של מלאי הנפט שנותר לסחר איראני מול סין."
+    "מעורבות אפשרית של איראן בניסיון הפיגוע לכאורה בבסיס פיירפורד בבריטניה",
+    "פרטי הפגיעה המדויקים בספינה האמריקאית במצר הורמוז שדווחו ברשת אן-בי-סי",
+    "ההצעה האיראנית המדויקת להפוגה בת שבעה ימים ודחייתה על ידי ארצות הברית"
    ],
    "map": {
     "confidence": "medium",
@@ -657,126 +514,126 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0338,
+     "value": 3.0633,
      "unit": "ILS",
-     "change_pct": -0.47,
+     "change_pct": 0.97,
      "source_id": "src_ecb",
-     "as_of": "2026-09-25T15:00:00+00:00"
+     "as_of": "2026-09-28T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "הגעה לניו יורק כדי לכונן שלום",
-      "עמידה איתנה מול כל תוקפנות"
+      "מוכנות לשיחות או למלחמה אפוקליפטית",
+      "הדגשת תפקידה של ההתנגדות כגורם הרתעתי"
      ],
      "inferred": [
-      "שאיפה להסרת הסנקציות והמצור הימי בתמורה לפתיחת נתיבי השיט",
-      "המשך לחץ באמצעות שלוחים ונכסים ימיים במפרץ"
+      "עקיפת סנקציות באמצעות מטבעות קריפטו ונתיבי סחר חלופיים",
+      "שימוש בשלוחים להפעלת לחץ על ארצות הברית וישראל"
      ],
      "forecast": [
-      "המשך פעילות צבאית עקיפה וישירה במצר הורמוז",
-      "חיפוש אפיקים דיפלומטיים עוקפים לשיכוך הלחץ הכלכלי"
+      "המשך ניסיונות לשבש את תנועת האנרגיה במצר הורמוז כל עוד הלחץ הכלכלי נמשך",
+      "חיפוש ערוצי עקיפה נוספים למערכת הפיננסית המערבית"
      ]
     },
     {
-     "actor": "ארה\"ב",
+     "actor": "ארצות הברית",
      "declared": [
-      "הפעלת לחץ כלכלי וצבאי מקסימלי על איראן",
-      "דחיית הצעות משא ומתן המותנות בהסרת סנקציות מראש"
+      "הפעלת לחץ מקסימלי וסנקציות כלכליות על טהרן",
+      "שמירה על חופש השיט והגנה על כוחותיה במפרץ"
      ],
      "inferred": [
-      "רצון להביא לייבוש מוחלט של יכולות הסחר והייצוא האיראניות",
-      "שמירה על חופש השיט במצר הורמוז בכוח הזרוע"
+      "בחינת אפשרות לתקיפות צבאיות נוספות במקביל לניהול מגעים עקיפים",
+      "חסימת עורקי מימון של איראן ושלוחיה דרך מערכות פיננסיות וקריפטו"
      ],
      "forecast": [
-      "החמרת הלחץ הכלכלי בשבועות הקרובים",
-      "היערכות לתגובות צבאיות נוספות במידה ותמשכנה תקיפות איראניות"
+      "החמרת הפיקוח על עסקאות קריפטו המשרתות את איראן וארגוני הטרור",
+      "המשך הפעלת נוכחות צבאית מוגברת באזורי חיכוך ימיים"
+     ]
+    },
+    {
+     "actor": "ישראל",
+     "declared": [
+      "בלימת השפעתה האזורית של איראן ושלחיה",
+      "סיכול תשתיות טרור ומימון המופנות נגדה"
+     ],
+     "inferred": [
+      "שיתוף פעולה מודיעיני הדוק עם ארצות הברית וגורמים מערביים למעקב אחר רשתות מימון איראניות",
+      "היערכות צבאית מתמשכת לאפשרות של עימות ישיר רחב"
+     ],
+     "forecast": [
+      "המשך פעילות חשאית וגלויה נגד נתיבי האספקה והכספים של ציר ההתנגדות",
+      "הגברת התיאום המדיני מול ממשל ארצות הברית בנושא הסנקציות על איראן"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
-    },
-    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/trump-says-men-arrested-uk-air-base-used-us-were-looking-do-big-damage",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
-    },
-    {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86276544/No-plan-for-Iran-delegation-to-hold-talks-with-US-in-New-York",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21500801",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1371370",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-came-new-york-forge-peace",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130879",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://t.me/abualiexpress/130921",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hknexticze",
-     "accessed_at": "2026-09-28T05:47:10+00:00"
+     "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
+     "accessed_at": "2026-09-28T18:15:18+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-27T15:16:51+00:00",
+  "previous_generated_at": "2026-09-28T05:47:10+00:00",
   "changes": {
-   "IRAN-09280547-01": {
+   "IRAN-09281815-01": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "לכידת צוללת אוטונומית אמריקאית במצר הורמוז",
+    "score": 0.817
+   },
+   "IRAN-09281815-02": {
     "kind": "new"
    },
-   "IRAN-09280547-02": {
-    "kind": "new"
-   },
-   "IRAN-09280547-03": {
-    "kind": "up",
-    "from": "shared_root",
-    "to": "verified",
-    "prev": "דחיית ההצעה האיראנית בידי נשיא ארה\"ב",
-    "score": 1.0
-   },
-   "IRAN-09280547-04": {
+   "IRAN-09281815-03": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "מעצר חשודים בקרבת בסיס חיל האוויר פיירפורד בבריטניה",
+    "prev": "מעצר חשודים בטרור ליד בסיס חיל האוויר הבריטי-אמריקאי פיירפורד",
     "score": 1.0
    },
-   "IRAN-09280547-05": {
+   "IRAN-09281815-04": {
+    "kind": "new"
+   },
+   "IRAN-09281815-05": {
     "kind": "same",
     "from": "shared_root",
     "to": "initial",
-    "prev": "תפיסת כלי שיט תת-ימי בלתי מאויש במצר הורמוז",
+    "prev": "תקיפת כלי שיט במצר הורמוז",
     "score": 1.0
    }
   }
@@ -1377,334 +1234,203 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-27T2342__north-202609272342.json",
+  "draft": "drafts/north/2026-09-28T1821__north-202609281821.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-27T23:42:01+00:00",
+   "generated_at": "2026-09-28T18:21:41+00:00",
    "window": {
-    "from": "2026-09-26T23:42:01+00:00",
-    "to": "2026-09-27T23:42:01+00:00"
+    "from": "2026-09-27T18:21:41+00:00",
+    "to": "2026-09-28T18:21:41+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "north-202609272342"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "north-202609281821"
    },
-   "summary": "בגזרה הצפונית נמשכת הלחימה המקומית בדרום לבנון עם תקיפות אוויריות ישראליות בתגובה להפעלת כטב\"מים, חרף קיומו של הסכם מסגרת. במקביל, הנהגת חיזבאללה מתעקשת לשמר את קו ההתנגדות ולהיאבק פוליטית בהסכמי הממשלה הלבנונית, לצד ניסיונות ייצוב אזרחי. במקביל, בסוריה נרשמת פעילות ביטחונית נגד תאי טרור, לצד חידוש כשירות טיסות לילה בנמלי התעופה לאחר הסרת עיכוב ישראלי ממושך, בעוד המתיחות המדינית בין ישראל לטורקיה מחריפה סביב מהלכים משפטיים הדדיים.",
+   "summary": "בזרה הצפונית נמשכות התנגשויות נקודתיות ופעילות צבאית של צה\"ל בדרום לבנון הכוללת השמדת תשתיות והתבססות במרחב הביטחוני, לצד מאמצים דיפלומטיים של ממשלת לבנון מול ארצות הברית להשגת נסיגה ישראלית מלאה. במקביל, בסוריה מתבצעות פעולות ביטחון פנים נגד תאי טרור לצד שינויים מנהלתיים ותקציביים של משרד האוצר הסורי.",
    "fronts": [
     {
-     "name": "דרום לבנון (ישראל מול חיזבאללה)",
-     "status": "חילופי אש ותקיפות תגובה של חיל האוויר הישראלי בעקבות שיגורי רחפנים"
+     "name": "החזית הלבנונית",
+     "status": "פעיל חלקית עם תקיפות צה\"ל, פיצוצים מבוקרים בדרום לבנון ומגעים דיפלומטיים"
     },
     {
-     "name": "הזירה הפוליטית בלבנון",
-     "status": "מתיחות גוברת בין חיזבאללה לשלטון המרכזי סביב משא ומתן מול ישראל וסוגיית העקורים"
-    },
-    {
-     "name": "סוריה (ביטחון פנים ותעופה)",
-     "status": "פעילות נגד תאי דאעש, הפעלת מערכות טיסה ליליות והפגנות על הפקעת מקרקעין"
-    },
-    {
-     "name": "ישראל מול טורקיה",
-     "status": "הסלמה מדינית-משפטית על רקע צווי מעצר והכנת תביעות בינלאומיות"
+     "name": "החזית הסורית",
+     "status": "פעילות ביטחון פנים נגד תאי טרור וצעדי התאוששות כלכלית ומנהלית"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09272342-01",
-     "title": "תקיפות חיל האוויר הישראלי בדרום לבנון בתגובה לשיגור רחפן",
-     "summary": "כוחות ישראליים תקפו מהאוויר יעדים שונים בדרום לבנון, לרבות מרכז מסחרי ואתרים המשמשים לשיגור כטב\"מים וטילי נ\"ט, לאחר שרחפן נפץ שוגר לעבר כוחות צה\"ל הפועלים ברצועת הביטחון.",
-     "axis": "ישראל–לבנון",
-     "claim_type": "incident",
+     "id": "NORTH-09281821-01",
+     "title": "פגישת ראש ממשלת לבנון עם מזכיר המדינה האמריקאי",
+     "summary": "ראש ממשלת לבנון נפגש בוושינגטון עם מזכיר המדינה של ארצות הברית וקרא להפעלת מסגרת תלת-צדדית, קביעת לוח זמנים לנסיגה ישראלית מלאה ומנגנון פיקוח אמין.",
+     "axis": "לבנון-ישראל",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T06:28:08+00:00",
-     "last_update_at": "2026-09-27T20:57:38+00:00",
-     "what_is_not_verified": "היקף הנזקים המלא והאם היו נפגעים בתקיפות השונות בלבנון",
+     "occurred_at": "2026-09-28T12:38:04+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T12:38:04+00:00",
+     "last_update_at": "2026-09-28T18:13:46+00:00",
+     "what_is_not_verified": "הפרטים לגבי יישום בפועל של לוח הזמנים והמנגנון אינם מאומתים שכן מדובר בהצהרות ודרישות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
-       "published_at": "2026-09-27T20:57:38+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "or_src_anadolu",
+       "url": "https://www.aa.com.tr/en/middle-east/lebanese-premier-urges-implementation-of-trilateral-framework-to-ensure-israeli-withdrawal/4071966",
+       "published_at": "2026-09-28T18:13:46+00:00"
       },
       {
        "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/960017/what-comes-after-ali-al-taher-mapping-out-israels-next-move-in-souther/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960017",
-       "published_at": "2026-09-27T14:23:07+00:00"
+       "source_root_id": "or_src_anadolu",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/960192/rubio-reaffirms-us-support-for-lebanon-as-salam-calls-for-clear-timeli/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960192",
+       "published_at": "2026-09-28T13:05:05+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-iran-says-war-us-not-over",
-       "published_at": "2026-09-27T13:36:01+00:00"
-      },
+       "source_id": "src_lbci",
+       "source_root_id": "or_src_anadolu",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/960188/rubio-salam-meeting-highly-positive-discuss-roadmap-for-israeli-withdr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960188",
+       "published_at": "2026-09-28T12:38:04+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "וושינגטון, ארצות הברית",
+       "lat": 38.8951,
+       "lon": -77.0364
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09281821-02",
+     "title": "ירי מיירט לעבר מטרה אווירית בדרום לבנון",
+     "summary": "צה\"ל דיווח על שיגור מיירט לעבר מטרה אווירית חשודה במרחב הפעילות של כוחותיו בדרום לבנון, ללא הפעלת התרעות.",
+     "axis": "לבנון-ישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T17:39:44+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T17:39:44+00:00",
+     "last_update_at": "2026-09-28T18:06:20+00:00",
+     "what_is_not_verified": "הפרטים המלאים על זיהוי המטרה נמצאים בבדיקה.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130880",
-       "published_at": "2026-09-27T12:25:06+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-continue-to-hit-southern-lebanon-despite-framework-deal/4070714",
-       "published_at": "2026-09-27T10:38:29+00:00"
+       "url": "https://t.me/abualiexpress/130978",
+       "published_at": "2026-09-28T18:06:20+00:00"
       },
       {
        "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25229",
-       "published_at": "2026-09-27T06:28:08+00:00"
+       "url": "https://t.me/idf_telegram/25243",
+       "published_at": "2026-09-28T17:39:44+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "מיפדון, לבנון",
-       "lat": 33.3451,
-       "lon": 35.4741
-      },
-      {
-       "name": "אל-חיאם, לבנון",
-       "lat": 33.3272,
-       "lon": 35.609
-      },
-      {
-       "name": "סג'וד, לבנון",
-       "lat": 33.4323,
-       "lon": 35.5355
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-09272342-02",
-     "title": "נאום נעים קאסם לציון שנתיים למות נסראללה",
-     "summary": "מזכ\"ל חיזבאללה הצהיר על המשך ההתנגדות החמושה נגד ישראל, דחה הסכמים וכניעה לטענתו של השלטון הלבנוני, והודיע על כוונה להשתתף במיזם לשיכון עקורים מן הלחימה.",
-     "axis": "לבנון (חיזבאללה)",
-     "claim_type": "statement",
+     "id": "NORTH-09281821-03",
+     "title": "פיצוצים מבוקרים ותקיפות של צה\"ל בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו תקיפות, פיצוצים מבוקרים והשמדת תשתיות טרור רבות בכפר אל-מנצורי ובאזורים נוספים בדרום לבנון.",
+     "axis": "לבנון-ישראל",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "occurred_at": "2026-09-28T13:26:35+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T12:27:13+00:00",
-     "last_update_at": "2026-09-27T19:47:46+00:00",
-     "what_is_not_verified": "פרטי מיזם השיכון והתקציבים שלו אינם מפורטים",
+     "first_reported_at": "2026-09-28T13:26:35+00:00",
+     "last_update_at": "2026-09-28T16:11:45+00:00",
+     "what_is_not_verified": "חלק מהדיווחים מבוססים על גופי תקשורת לבנוניים ועל טענות צבאיות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://english.almanar.com.lb/article/131427/",
-       "published_at": "2026-09-27T19:47:46+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://www.al-monitor.com/originals/2026/09/hezbollah-plans-contribute-project-house-thousands-lebanese-displaced-chief-says",
-       "published_at": "2026-09-27T17:46:55+00:00"
-      },
-      {
        "source_id": "src_mee",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-israel-unable-break-resistance",
-       "published_at": "2026-09-27T15:51:19+00:00"
+       "source_root_id": "or_al_nna_and_afp",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
+       "published_at": "2026-09-28T16:11:45+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_al_nna_and_afp",
+       "url": "https://t.me/idf_telegram/25242",
+       "published_at": "2026-09-28T15:31:01+00:00"
       },
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_3ce92d653f08ac57",
-       "url": "https://english.almanar.com.lb/article/131372/",
-       "published_at": "2026-09-27T15:44:50+00:00"
+       "source_root_id": "or_al_nna_and_afp",
+       "url": "https://english.almanar.com.lb/article/131592/",
+       "published_at": "2026-09-28T15:07:36+00:00"
       },
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_35999b65dbc0cef3",
-       "url": "https://english.almanar.com.lb/article/131362/",
-       "published_at": "2026-09-27T15:40:40+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_f324b22b00f2bbbc",
-       "url": "https://english.almanar.com.lb/article/131347/",
-       "published_at": "2026-09-27T15:37:45+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://www.ynet.co.il/news/article/sjsmxjl5fx",
-       "published_at": "2026-09-27T15:15:46+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://t.me/abualiexpress/130898",
-       "published_at": "2026-09-27T14:59:22+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "or_al_nna_and_afp",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
+       "published_at": "2026-09-28T15:05:55+00:00"
       },
       {
        "source_id": "src_lbci",
-       "source_root_id": "fh_f38aeaeb998d1a2a",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/960005/qassem-hezbollah-committed-to-resistance-reconstruction-and-full-liber/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960005",
-       "published_at": "2026-09-27T12:27:13+00:00"
+       "source_root_id": "or_al_nna_and_afp",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
+       "published_at": "2026-09-28T13:26:35+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      },
+      {
+       "name": "צור, לבנון",
+       "lat": 33.2721,
+       "lon": 35.1964
       }
      ]
     },
     {
-     "id": "NORTH-09272342-03",
-     "title": "הסרת ההתנגדות הישראלית להפעלת מערכות ניווט בשדות תעופה בסוריה",
-     "summary": "רשות התעופה האזרחית בסוריה הודיעה על סיום כיול ובדיקות טיסה למערכות ניווט חדישות בשדות התעופה בדמשק ובחלב, לאחר שדווח כי ישראל הסירה התנגדות ממושכת לבדיקות הכיול.",
-     "axis": "ישראל–סוריה",
+     "id": "NORTH-09281821-04",
+     "title": "חשיפת רשת דאעש במספר מחוזות בסוריה",
+     "summary": "השלטונות בסוריה הודיעו על פירוק רשת של ארגון המדינה אלאסלאמיה שפעלה בארבעה מחוזות וכללה מעצר של בכירים וחברי חוליה.",
+     "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
+     "occurred_at": "2026-09-28T16:54:35+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-27T17:00:35+00:00",
-     "last_update_at": "2026-09-27T17:00:35+00:00",
-     "what_is_not_verified": "עצם ההסכמה הישראלית השקטה מבוססת על מקורות דיפלומטיים ולא על אישור ישראלי רשמי",
+     "first_reported_at": "2026-09-28T16:54:35+00:00",
+     "last_update_at": "2026-09-28T16:54:35+00:00",
+     "what_is_not_verified": "הטענות של הרשויות הסוריות לא אומתו באופן עצמאי וזהות העצורים לא פורסמה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/israel-quietly-lifts-block-syrian-airport-night-flights",
-       "published_at": "2026-09-27T17:00:35+00:00"
+       "source_root_id": "or_syrian_interior_ministry_announcement",
+       "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
+       "published_at": "2026-09-28T16:54:35+00:00"
       }
      ],
      "places": [
       {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
+       "name": "רקה, סוריה",
+       "lat": 35.9497,
+       "lon": 39.0089
       },
       {
        "name": "חלב, סוריה",
        "lat": 36.1992,
        "lon": 37.1637
-      }
-     ]
-    },
-    {
-     "id": "NORTH-09272342-04",
-     "title": "הוראת נתניהו להכנת תיק משפטי נגד ארדואן",
-     "summary": "ראש ממשלת ישראל הורה לצוות בין-משרדי להכין תיק משפטי נגד נשיא טורקיה בעקבות מהלכים טורקיים באינטרפול, תוך התמקדות ביחסי אנקרה עם חמאס והכורדים.",
-     "axis": "ישראל–טורקיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T20:07:23+00:00",
-     "last_update_at": "2026-09-27T21:30:29+00:00",
-     "what_is_not_verified": "האם התיק המשפטי אכן יוגש בפועל לערכאה בינלאומית או ישמש כמנוף לחץ בלבד",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_i24news",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-preparation-possible-legal-case-against-erdogan-report",
-       "published_at": "2026-09-27T21:30:29+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_i24news",
-       "url": "https://t.me/alexmehacarmel/48047",
-       "published_at": "2026-09-27T20:07:23+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09272342-05",
-     "title": "סיכול חוליית דאעש בסוריה",
-     "summary": "כוחות הביטחון בסוריה פירקו חוליה של ארגון המדינה האסלאמית שפעלה בארבעה מחוזות וביצעה חטיפות, התנקשויות והנחת מטענים.",
-     "axis": "סוריה (פנים)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T23:00:57+00:00",
-     "last_update_at": "2026-09-27T23:00:57+00:00",
-     "what_is_not_verified": "זהות ארבעת המחוזות המדויקים ומספר העצורים בחוליה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/world/syria-dismantles-isis-cell-operating-across-4-provinces/4071099",
-       "published_at": "2026-09-27T23:00:57+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09272342-06",
-     "title": "הפגנות ומתיחות סביב מיזמי בנייה באזור דמשק",
-     "summary": "חברת נדל\"ן איימה בהליכים משפטיים נגד מפגינים שמחו על הפקעת קרקעות לטובת פרויקטים למגורים וריססו כתובות נגד שלטון אסד במתחם העבודות.",
-     "axis": "סוריה (פנים)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-27T19:08:54+00:00",
-     "last_update_at": "2026-09-27T19:08:54+00:00",
-     "what_is_not_verified": "האם המפגינים מחזיקים בבעלות חוקית מתועדת על הקרקעות שהופקעו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/09/damascus-abyat-real-estate-threatens-legal-action-against-project-opponents/",
-       "published_at": "2026-09-27T19:08:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      },
-      {
-       "name": "קודסיא, סוריה",
-       "lat": 33.5491,
-       "lon": 36.2107
+       "name": "חומס, סוריה",
+       "lat": 34.7333,
+       "lon": 36.7167
       }
      ]
-    },
-    {
-     "id": "NORTH-09272342-07",
-     "title": "קריאת שר האוצר הישראלי לסיפוח שטחים בדרום לבנון",
-     "summary": "בצלאל סמוטריץ' קרא בפודקאסט לספח שטח בלבנון עד לנהר הליטני כדי למנוע הישנות של מלחמה וליצור הרתעה.",
-     "axis": "ישראל–לבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-27T20:10:24+00:00",
-     "last_update_at": "2026-09-27T20:10:24+00:00",
-     "what_is_not_verified": "האם מדובר בעמדת ממשלה רשמית או בהצהרה פוליטית אישית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_ynet",
-       "url": "https://www.newarab.com/news/smotrich-calls-west-bank-war-annexation-lebanon-gaza",
-       "published_at": "2026-09-27T20:10:24+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "טענת ישראל בדבר העברת מפקדים ואמל\"ח של חיזבאללה לחבל אקלים א-תפאח",
-    "הדיווח הלא-רשמי לפיו ישראל הסירה את התנגדותה לטיסות הכיול בסוריה",
-    "הסיבות המדויקות לסדרת הפיצוצים במחסני תחמושת בסוריה במהלך ספטמבר",
-    "היקף מעורבותה ומימונה של ממשלת טורקיה בארגון חמאס כפי שנטען בתיק הישראלי"
+    "הפרטים המדויקים סביב המטרה האוירית החשודה בדרום לבנון",
+    "זהות העצורים במבצע נגד דאעש בסוריה והמועד המדויק של הפעולות המיוחסות להם",
+    "אמינות הטענות על שימוש במטבעות קריפטו למימון חיזבאללה דרך איראן"
    ],
    "map": {
     "confidence": "medium",
@@ -1715,155 +1441,135 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0338,
+     "value": 3.0633,
      "unit": "ILS",
-     "change_pct": -0.47,
+     "change_pct": 0.97,
      "source_id": "src_ecb",
-     "as_of": "2026-09-25T15:00:00+00:00"
+     "as_of": "2026-09-28T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "חיזבאללה",
-     "declared": [
-      "המשך ההתנגדות המזוינת נגד ישראל עד לשחרור מלא של כל האדמות הלבנוניות",
-      "דחיית כל הסכם כניעה או ויתור של השלטון הלבנוני וחזרה למשא ומתן עקיף בלבד",
-      "סיוע בשיכון אלפי עקורים כתוצאה מהמלחמה"
-     ],
-     "inferred": [
-      "הפעלת לחץ פוליטי על ממשלת לבנון כדי למנוע הסדרים מדיניים שאינם נוחים לארגון",
-      "שיקום מעמדו הציבורי בקרב האוכלוסייה השיעית והלבנונית שנפגעה בלחימה"
-     ],
-     "forecast": [
-      "המשך חיכוך צבאי נקודתי מול כוחות צה\"ל בדרום לבנון תוך שימוש בכטב\"מים ורחפנים",
-      "החרפת העימות הפוליטי וההפגנות מול מוסדות השלטון בביירות"
-     ]
-    },
-    {
      "actor": "ישראל",
      "declared": [
-      "הסרת איומים מיידיים והגנה על כוחות צה\"ל במרחב הביטחוני בדרום לבנון",
-      "שמירה על מחויבות להסכם מול לבנון תוך תגובה תקיפה לכל פעולת איבה"
+      "שמירה על ביטחון התושבים והכוחות",
+      "השמדת תשתיות טרור בדרום לבנון"
      ],
      "inferred": [
-      "הפעלת מנופי לחץ דיפלומטיים ומשפטיים כדי להרתיע את הנהגת טורקיה ממהלכים בינלאומיים",
-      "שמירת חופש פעולה מודיעיני וצבאי בשטח לבנון למניעת התבססות מחודשת של חיזבאללה"
+      "מניעת התבססות מחדש של חיזבאללה בסמוך לגבול",
+      "הרחקת איומים במרחב הגבול הצפוני"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדות נגד תשתיות צבאיות בדרום לבנון במקרה של הפרות",
-      "המשך מתיחות מדינית והצהרתית מול הנהגת טורקיה בפורומים בינלאומיים"
+      "המשך פעולות ממוקדות נגד תשתיות טרור בלבנון בהתאם לצורך",
+      "היערכות ממושכת במרחבים המבצעיים בגבול לבנון"
      ]
     },
     {
-     "actor": "הממשל הסורי",
+     "actor": "לבנון",
      "declared": [
-      "שיקום התשתיות האזרחיות והתעופה במדינה לאחר שנות מלחמה וסנקציות",
-      "מאבק בטרור, סיכול תאי דאעש ומאבק ברשתות הברחת סמים"
+      "השגת נסיגה ישראלית מלאה משטח לבנון",
+      "החזרת השליטה הבלעדית של המדינה על הנשק"
      ],
      "inferred": [
-      "השבת הלגיטימציה הבינלאומית והרחבת הקשרים הדיפלומטיים ללא עימות ישיר עם ישראל"
+      "ניסיון לרתום את ארצות הברית ללחץ דיפלומטי על ישראל",
+      "חיזוק המוסדות הממשלתיים מול גורמי כוח מקומיים"
      ],
      "forecast": [
-      "המשך התמקדות בשיקום כלכלי, החזרת פליטים וייצוב ביטחוני פנימי"
+      "המשך מאמצים דיפלומטיים בוושינגטון ובזירה הבינלאומית",
+      "לחץ פנימי גובר בנוגע לפירוק נשק ושיקום תשתיות"
+     ]
+    },
+    {
+     "actor": "איראן וחיזבאללה",
+     "declared": [
+      "המשך ההתנגדות לכישול האויב והגנה על ציר ההתנגדות",
+      "שימור מורשת המנהיגים המחוסלים והמשך דרכם"
+     ],
+     "inferred": [
+      "ניסיון לשקם את יכולות הארגון למרות המכות הקשות שפגעו בהנהגה",
+      "הסתמכות על ערוצי מימון אלטרנטיביים לעקוף את הסנקציות"
+     ],
+     "forecast": [
+      "שימור רטוריקה לוחמנית וקיום אירועי זיכרון להפגנת נוכחות",
+      "ניסיונות התארגנות מחדש בדרגים השונים תחת הנהגה חדשה"
+     ]
+    },
+    {
+     "actor": "סוריה",
+     "declared": [
+      "ייצוב המצב הביטחוני פנימי ופירוק רשתות טרור",
+      "ארגון מחדש של ההוצאה הציבורית ושיקום תשתיות אזרחיות"
+     ],
+     "inferred": [
+      "ריסוק תאים פעילים של ארגונים קיצוניים מחוץ למעוזיהם המסורתיים",
+      "התמודדות עם משברים כלכליים חריפים והשפעות הפליטים החוזרים"
+     ],
+     "forecast": [
+      "המשך פעולות מבצעיות של מנגנוני הביטחון במחוזות השונים",
+      "התמודדות מתמשכת עם אתגרים תקציביים ושיקום תחבורה אווירית"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
-    },
-    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/131347/",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
-    },
-    {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/hezbollah-plans-contribute-project-house-thousands-lebanese-displaced-chief-says",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://english.almanar.com.lb/article/131592/",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/world/syria-dismantles-isis-cell-operating-across-4-provinces/4071099",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
-    },
-    {
-     "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/09/damascus-abyat-real-estate-threatens-legal-action-against-project-opponents/",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon-news/960005/qassem-hezbollah-committed-to-resistance-reconstruction-and-full-liber/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960005",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-preparation-possible-legal-case-against-erdogan-report",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/smotrich-calls-west-bank-war-annexation-lebanon-gaza",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130898",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48047",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://t.me/abualiexpress/130978",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     },
     {
      "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25229",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/sjsmxjl5fx",
-     "accessed_at": "2026-09-27T23:42:01+00:00"
+     "url": "https://t.me/idf_telegram/25242",
+     "accessed_at": "2026-09-28T18:21:41+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-27T00:07:02+00:00",
+  "previous_generated_at": "2026-09-27T23:42:01+00:00",
   "changes": {
-   "NORTH-09272342-01": {
+   "NORTH-09281821-01": {
+    "kind": "new"
+   },
+   "NORTH-09281821-02": {
+    "kind": "possible",
+    "prev": "קריאת שר האוצר הישראלי לסיפוח שטחים בדרום לבנון",
+    "score": 0.467
+   },
+   "NORTH-09281821-03": {
     "kind": "same",
     "from": "verified",
     "to": "verified",
-    "prev": "תקיפות צה\"ל והפגזות ארטילריות בדרום לבנון",
-    "score": 1.0
-   },
-   "NORTH-09272342-02": {
-    "kind": "up",
-    "from": "shared_root",
-    "to": "verified",
-    "prev": "ציון שנתיים לחיסול חסן נסראללה ופרסום תיעודים על ידי חזבאללה",
+    "prev": "תקיפות חיל האוויר הישראלי בדרום לבנון בתגובה לשיגור רחפן",
     "score": 0.65
    },
-   "NORTH-09272342-03": {
+   "NORTH-09281821-04": {
     "kind": "possible",
-    "prev": "הפעלת מסדרון אנרגיה יבשתי דרך סוריה לאספקת דלק לעיראק",
-    "score": 0.467
-   },
-   "NORTH-09272342-04": {
-    "kind": "new"
-   },
-   "NORTH-09272342-05": {
-    "kind": "new"
-   },
-   "NORTH-09272342-06": {
-    "kind": "new"
-   },
-   "NORTH-09272342-07": {
-    "kind": "new"
+    "prev": "הסרת ההתנגדות הישראלית להפעלת מערכות ניווט בשדות תעופה בסוריה",
+    "score": 0.633
    }
   }
  }
