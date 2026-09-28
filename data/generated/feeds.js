@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:17:15+00:00",
-  "fetched_at": "2026-09-28T12:17:15+00:00"
+  "checked_at": "2026-09-28T13:17:11+00:00",
+  "fetched_at": "2026-09-28T13:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:17:27+00:00",
-  "fetched_at": "2026-09-28T12:17:27+00:00"
+  "checked_at": "2026-09-28T13:17:22+00:00",
+  "fetched_at": "2026-09-28T13:17:22+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "A Swiss Army knife CD player, Sonos Beam and Ace Ultra reviews, next-gen upgrade for wireless headphones and more",
+    "title_he": "נגן תקליטורים צבאי שוויצרי, ביקורות של Sonos Beam ו-Ace Ultra, שדרוג הדור הבא לאוזניות אלחוטיות ועוד",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/av/a-swiss-army-knife-cd-player-sonos-beam-and-ace-ultra-reviews-next-gen-upgrade-for-wireless-headphones-and-more",
+    "date": "2026-09-28T13:04:56+00:00"
+   },
+   {
+    "title_en": "JBL’s new soundbar series can fold into a U-shape – and that’s not the only flexible feature",
+    "title_he": "סדרת הסאונד - בר החדשה של JBL יכולה להתקפל לצורת U – וזו לא התכונה הגמישה היחידה",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/jbls-new-soundbar-series-can-fold-into-a-u-shape-and-thats-not-the-only-flexible-feature",
+    "date": "2026-09-28T13:00:20+00:00"
+   },
    {
     "title_en": "Tribit’s new Bluetooth speaker is “designed to make music sound bigger without sacrificing portability”",
     "title_he": "רמקול ה-Bluetooth החדש של Tribit \"נועד לגרום למוזיקה להישמע גדול יותר מבלי לוותר על הניידות\"",
@@ -62,42 +76,33 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-earbuds/sennheiser-momentum-true-wireless-5-vs-sony-wf-1000xm6-which-five-star-earbuds-are-better",
     "date": "2026-09-28T10:51:14+00:00"
-   },
-   {
-    "title_en": "I put two mid-range Dolby Atmos soundbars head to head – and it's clear which one is best for your living room",
-    "title_he": "שמתי שני פסי קול של Dolby Atmos בטווח בינוני - וברור איזה מהם הכי מתאים לסלון שלך",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/i-put-two-mid-range-dolby-atmos-soundbars-head-to-head-and-its-clear-which-one-is-best-for-your-living-room",
-    "date": "2026-09-28T08:58:28+00:00"
-   },
-   {
-    "title_en": "AudioQuest DragonFly Copper",
-    "title_he": "נחושת AudioQuest DragonFly",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/dacs/audioquest-dragonfly-copper",
-    "date": "2026-09-28T08:37:02+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:17:28+00:00",
-  "fetched_at": "2026-09-28T12:17:28+00:00"
+  "checked_at": "2026-09-28T13:17:25+00:00",
+  "fetched_at": "2026-09-28T13:17:25+00:00"
  },
- "generated_at": "2026-09-28T12:17:28+00:00",
+ "generated_at": "2026-09-28T13:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "השקל נופל לשפל של כחודשיים. אלו הסיבות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557720",
-     "date": "2026-09-28T10:28:00+00:00"
+     "title": "חידת נתב\"ג: עם 20 אלף חניות, איך נגמר המקום?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557724",
+     "date": "2026-09-28T12:41:00+00:00"
     },
     {
      "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו לפני ה-7 באוקטובר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T11:26:00+00:00"
+     "date": "2026-09-28T12:42:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "שיא היסטורי: אנבידיה מגדילה את תוכנית הרכישה העצמית ב־150 מיליארד דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557733",
+     "date": "2026-09-28T12:13:00+00:00"
+    },
     {
      "title": "מדוע מניית אלקטרה נדל\"ן התרסקה בכ-16% היום?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557727",
@@ -189,11 +194,6 @@ window.DB.generated = {
      "date": "2026-09-27T12:03:00+00:00"
     },
     {
-     "title": "גשמים עזים והצפות בנפאל: עשרות ישראלים תקועים בהרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557656",
-     "date": "2026-09-27T11:38:00+00:00"
-    },
-    {
      "title": "מה מסתתר מאחורי העוינות של אירלנד לישראל?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557640",
      "date": "2026-09-27T10:09:00+00:00"
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:17:16+00:00",
-  "fetched_at": "2026-09-28T12:17:16+00:00"
+  "checked_at": "2026-09-28T13:17:12+00:00",
+  "fetched_at": "2026-09-28T13:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:17:17+00:00",
-  "fetched_at": "2026-09-28T12:17:17+00:00"
+  "checked_at": "2026-09-28T13:17:13+00:00",
+  "fetched_at": "2026-09-28T13:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:17:18+00:00",
-  "fetched_at": "2026-09-28T12:17:18+00:00"
+  "checked_at": "2026-09-28T13:17:14+00:00",
+  "fetched_at": "2026-09-28T13:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,8 +2561,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:17:18+00:00",
-  "fetched_at": "2026-09-28T12:17:18+00:00"
+  "checked_at": "2026-09-28T13:17:14+00:00",
+  "fetched_at": "2026-09-28T13:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2582,7 +2582,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 287,
+     "likes": 288,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2596,7 +2596,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 160,
+     "likes": 162,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2607,18 +2607,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 186,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 158,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 186,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
@@ -2642,21 +2642,30 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 317,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 84,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:17:26+00:00",
-  "fetched_at": "2026-09-28T12:17:26+00:00"
+  "checked_at": "2026-09-28T13:17:21+00:00",
+  "fetched_at": "2026-09-28T13:17:21+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "אנטיפה נגד מנור סולומון: \"תומך בגלוי ברצח העם בעזה\"",
+     "link": "https://sports.walla.co.il/item/3870110",
+     "date": "2026-09-28T12:56:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "חסרונו הורגש: \"הגיע הזמן להגיד למה דיא סבע לא בנבחרת ישראל\"",
      "link": "https://sports.walla.co.il/item/3870064",
@@ -2948,8 +2957,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:17:21+00:00",
-  "fetched_at": "2026-09-28T12:17:21+00:00"
+  "checked_at": "2026-09-28T13:17:17+00:00",
+  "fetched_at": "2026-09-28T13:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -2980,7 +2989,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:17:22+00:00",
-  "fetched_at": "2026-09-28T12:17:22+00:00"
+  "checked_at": "2026-09-28T13:17:18+00:00",
+  "fetched_at": "2026-09-28T13:17:18+00:00"
  }
 };
