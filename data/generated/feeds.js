@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T04:17:20+00:00",
-  "fetched_at": "2026-09-28T04:17:20+00:00"
+  "checked_at": "2026-09-28T05:17:24+00:00",
+  "fetched_at": "2026-09-28T05:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T04:17:30+00:00",
-  "fetched_at": "2026-09-28T04:17:30+00:00"
+  "checked_at": "2026-09-28T05:17:35+00:00",
+  "fetched_at": "2026-09-28T05:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T04:17:32+00:00",
-  "fetched_at": "2026-09-28T04:17:32+00:00"
+  "checked_at": "2026-09-28T05:17:36+00:00",
+  "fetched_at": "2026-09-28T05:17:36+00:00"
  },
- "generated_at": "2026-09-28T04:17:32+00:00",
+ "generated_at": "2026-09-28T05:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "החברה המשפחתית הכפילה את שוויה והפכה את הבעלים למיליארדר על הנייר",
+     "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
      "date": "2026-09-28T02:36:00+00:00"
     },
     {
      "title": "ראש המודיעין המצרי הזהיר את נתניהו ימים לפני הטבח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T03:46:00+00:00"
+     "date": "2026-09-28T04:26:00+00:00"
     }
    ],
    "market": [
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-09-28T04:00:00+00:00"
     },
     {
-     "title": "הפעם גם הקסמים לא יעזרו? יגאל דמרי מתקרב בצעדי ענק להדחה ממדד ת\"א 35",
+     "title": "עשרה ימים גורליים: שופרסל ויגאל דמרי בסכנת הדחה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557692",
      "date": "2026-09-28T02:42:00+00:00"
     },
@@ -114,7 +114,7 @@ window.DB.generated = {
      "date": "2026-09-28T02:39:00+00:00"
     },
     {
-     "title": "החברה המשפחתית הכפילה את שוויה והפכה את הבעלים למיליארדר על הנייר",
+     "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
      "date": "2026-09-28T02:36:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T04:17:22+00:00",
-  "fetched_at": "2026-09-28T04:17:22+00:00"
+  "checked_at": "2026-09-28T05:17:25+00:00",
+  "fetched_at": "2026-09-28T05:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T04:17:23+00:00",
-  "fetched_at": "2026-09-28T04:17:23+00:00"
+  "checked_at": "2026-09-28T05:17:25+00:00",
+  "fetched_at": "2026-09-28T05:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2463,8 +2463,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T04:17:24+00:00",
-  "fetched_at": "2026-09-28T04:17:24+00:00"
+  "checked_at": "2026-09-28T05:17:27+00:00",
+  "fetched_at": "2026-09-28T05:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2554,29 +2554,35 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T04:17:24+00:00",
-  "fetched_at": "2026-09-28T04:17:24+00:00"
+  "checked_at": "2026-09-28T05:17:27+00:00",
+  "fetched_at": "2026-09-28T05:17:27+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
-   "failed_sources": [
-    "גיקטיים"
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/openai-halts-sota-models-due-to-misaligned-agents/",
+     "date": "2026-09-27T07:12:28+00:00",
+     "launch": false,
+     "title": "ב-OpenAI מודים: אנחנו עוצרים את פיתוח מודלי הענק שלנו אחרי שורת תקריות חמורות"
+    }
    ],
+   "candidates": 3,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 276,
+     "likes": 278,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 230,
+     "likes": 231,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2597,21 +2603,21 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 180,
+     "likes": 182,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 150,
+     "likes": 151,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2629,17 +2635,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 316,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 83,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T04:17:30+00:00",
-  "fetched_at": "2026-09-28T04:17:30+00:00"
+  "checked_at": "2026-09-28T05:17:34+00:00",
+  "fetched_at": "2026-09-28T05:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2926,8 +2932,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T04:17:28+00:00",
-  "fetched_at": "2026-09-28T04:17:28+00:00"
+  "checked_at": "2026-09-28T05:17:29+00:00",
+  "fetched_at": "2026-09-28T05:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2958,7 +2964,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T04:17:28+00:00",
-  "fetched_at": "2026-09-28T04:17:28+00:00"
+  "checked_at": "2026-09-28T05:17:30+00:00",
+  "fetched_at": "2026-09-28T05:17:30+00:00"
  }
 };
