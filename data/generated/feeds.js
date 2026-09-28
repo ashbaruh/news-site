@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-27",
+   "as_of": "2026-09-28",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T03:17:28+00:00",
-  "fetched_at": "2026-09-28T03:17:28+00:00"
+  "checked_at": "2026-09-28T04:17:20+00:00",
+  "fetched_at": "2026-09-28T04:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T03:17:40+00:00",
-  "fetched_at": "2026-09-28T03:17:40+00:00"
+  "checked_at": "2026-09-28T04:17:30+00:00",
+  "fetched_at": "2026-09-28T04:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T03:17:41+00:00",
-  "fetched_at": "2026-09-28T03:17:41+00:00"
+  "checked_at": "2026-09-28T04:17:32+00:00",
+  "fetched_at": "2026-09-28T04:17:32+00:00"
  },
- "generated_at": "2026-09-28T03:17:41+00:00",
+ "generated_at": "2026-09-28T04:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,17 @@ window.DB.generated = {
      "date": "2026-09-28T02:36:00+00:00"
     },
     {
-     "title": "ראש הממשלה המריא לאבו דאבי - ונפגש עם נשיא האמירויות",
+     "title": "ראש המודיעין המצרי הזהיר את נתניהו ימים לפני הטבח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T02:29:00+00:00"
+     "date": "2026-09-28T03:46:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מצב השווקים: בורסת סיאול נופלת במעל 2%, מחירי הנפט מטפסים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T04:00:00+00:00"
+    },
     {
      "title": "הפעם גם הקסמים לא יעזרו? יגאל דמרי מתקרב בצעדי ענק להדחה ממדד ת\"א 35",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557692",
@@ -184,11 +189,6 @@ window.DB.generated = {
      "date": "2026-09-26T16:00:00+00:00"
     },
     {
-     "title": "משל הקפה הקר: הכללים החדשים לראיונות עבודה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557627",
-     "date": "2026-09-26T13:34:00+00:00"
-    },
-    {
      "title": "מתי שוק המניות יגיע לנקודת שבירה - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557447",
      "date": "2026-09-26T13:00:00+00:00"
@@ -209,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-25T10:10:00+00:00"
     },
     {
-     "title": "הפיקדון שלא הכרתם: אפשר לקבל יותר ריבית אפילו בלי לעבור בנק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557375",
-     "date": "2026-09-25T04:11:00+00:00"
-    },
-    {
      "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
      "date": "2026-09-25T03:59:00+00:00"
@@ -221,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T03:17:29+00:00",
-  "fetched_at": "2026-09-28T03:17:29+00:00"
+  "checked_at": "2026-09-28T04:17:22+00:00",
+  "fetched_at": "2026-09-28T04:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T03:17:30+00:00",
-  "fetched_at": "2026-09-28T03:17:30+00:00"
+  "checked_at": "2026-09-28T04:17:23+00:00",
+  "fetched_at": "2026-09-28T04:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2463,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T03:17:32+00:00",
-  "fetched_at": "2026-09-28T03:17:32+00:00"
+  "checked_at": "2026-09-28T04:17:24+00:00",
+  "fetched_at": "2026-09-28T04:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,23 +2554,15 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T03:17:32+00:00",
-  "fetched_at": "2026-09-28T03:17:32+00:00"
+  "checked_at": "2026-09-28T04:17:24+00:00",
+  "fetched_at": "2026-09-28T04:17:24+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-halts-sota-models-due-to-misaligned-agents/",
-     "date": "2026-09-27T07:12:28+00:00",
-     "launch": false,
-     "title": "ב-OpenAI מודים: אנחנו עוצרים את פיתוח מודלי הענק שלנו אחרי שורת תקריות חמורות"
-    }
-   ],
-   "candidates": 3,
+   "news": [],
+   "candidates": 0,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2603,7 +2590,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 580,
+     "likes": 581,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2624,7 +2611,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 94,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2638,7 +2625,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2651,8 +2638,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T03:17:39+00:00",
-  "fetched_at": "2026-09-28T03:17:39+00:00"
+  "checked_at": "2026-09-28T04:17:30+00:00",
+  "fetched_at": "2026-09-28T04:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2682,15 +2669,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "הצד של דיא סבע: מדוע לא הגיע לנבחרת ישראל?",
-     "link": "https://www.one.co.il/Article/534441.html?ref=rss",
-     "date": "2026-09-27T10:56:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דיא סבע"
      ]
     },
     {
@@ -2948,8 +2926,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T03:17:35+00:00",
-  "fetched_at": "2026-09-28T03:17:35+00:00"
+  "checked_at": "2026-09-28T04:17:28+00:00",
+  "fetched_at": "2026-09-28T04:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2980,7 +2958,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T03:17:36+00:00",
-  "fetched_at": "2026-09-28T03:17:36+00:00"
+  "checked_at": "2026-09-28T04:17:28+00:00",
+  "fetched_at": "2026-09-28T04:17:28+00:00"
  }
 };
