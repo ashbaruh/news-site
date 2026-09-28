@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T09:17:23+00:00",
-  "fetched_at": "2026-09-28T09:17:23+00:00"
+  "checked_at": "2026-09-28T10:17:12+00:00",
+  "fetched_at": "2026-09-28T10:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T09:17:35+00:00",
-  "fetched_at": "2026-09-28T09:17:35+00:00"
+  "checked_at": "2026-09-28T10:17:25+00:00",
+  "fetched_at": "2026-09-28T10:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T09:17:39+00:00",
-  "fetched_at": "2026-09-28T09:17:39+00:00"
+  "checked_at": "2026-09-28T10:17:25+00:00",
+  "fetched_at": "2026-09-28T10:17:25+00:00"
  },
- "generated_at": "2026-09-28T09:17:39+00:00",
+ "generated_at": "2026-09-28T10:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בית וגג לא מסתפקת במרכז: \"בת גלים בחיפה זו שכונה ששנים חיכתה לבום\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557130",
-     "date": "2026-09-28T08:15:00+00:00"
+     "title": "סערה בשווקים: החוזים על וול סטריט אדומים, תשואות האג\"ח קופצות והדולר מזנק מול השקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T09:30:00+00:00"
     },
     {
-     "title": "איראן הציבה תנאי: \"שישראל לא תתקוף אותנו\"",
+     "title": "החות'ים מחריפים את האיומים: \"נפציץ גשרים בריאד\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T08:45:00+00:00"
+     "date": "2026-09-28T09:23:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T09:17:25+00:00",
-  "fetched_at": "2026-09-28T09:17:25+00:00"
+  "checked_at": "2026-09-28T10:17:13+00:00",
+  "fetched_at": "2026-09-28T10:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T09:17:26+00:00",
-  "fetched_at": "2026-09-28T09:17:26+00:00"
+  "checked_at": "2026-09-28T10:17:14+00:00",
+  "fetched_at": "2026-09-28T10:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2475,8 +2475,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T09:17:27+00:00",
-  "fetched_at": "2026-09-28T09:17:27+00:00"
+  "checked_at": "2026-09-28T10:17:16+00:00",
+  "fetched_at": "2026-09-28T10:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2566,8 +2566,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T09:17:27+00:00",
-  "fetched_at": "2026-09-28T09:17:27+00:00"
+  "checked_at": "2026-09-28T10:17:16+00:00",
+  "fetched_at": "2026-09-28T10:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2581,13 +2581,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 4,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 283,
+     "likes": 285,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2615,7 +2617,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 185,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2629,7 +2631,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 98,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2656,12 +2658,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T09:17:34+00:00",
-  "fetched_at": "2026-09-28T09:17:34+00:00"
+  "checked_at": "2026-09-28T10:17:24+00:00",
+  "fetched_at": "2026-09-28T10:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חסרונו הורגש: \"הגיע הזמן להגיד למה דיא סבע לא בנבחרת ישראל\"",
+     "link": "https://sports.walla.co.il/item/3870064",
+     "date": "2026-09-28T10:00:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "מדסה עד בריבו: הנבחרת מעכלת את התבוסה, השינויים בדרך",
      "link": "https://sports.walla.co.il/item/3870068",
@@ -2669,15 +2680,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "תאי בריבו"
-     ]
-    },
-    {
-     "title": "סולומון: כנראה שסיפור האירים חלחל בכל זאת",
-     "link": "https://www.one.co.il/Article/534488.html?ref=rss",
-     "date": "2026-09-27T21:43:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2953,8 +2955,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T09:17:30+00:00",
-  "fetched_at": "2026-09-28T09:17:30+00:00"
+  "checked_at": "2026-09-28T10:17:19+00:00",
+  "fetched_at": "2026-09-28T10:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2985,7 +2987,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T09:17:31+00:00",
-  "fetched_at": "2026-09-28T09:17:31+00:00"
+  "checked_at": "2026-09-28T10:17:20+00:00",
+  "fetched_at": "2026-09-28T10:17:20+00:00"
  }
 };
