@@ -1,168 +1,197 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-28T12:00:00+03:00",
- "generated_at": "2026-09-28T08:40:13+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-09-28T18:00:00+03:00",
+ "generated_at": "2026-09-28T18:10:14+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09280840-01",
-     "title": "דיווח על פציעת נחתים אמריקנים במצר הורמוז",
-     "summary": "גורמים אמריקנים מסרו כי שמונה לוחמי מארינס נפצעו מפגיעת טיל שיוט איראני בכלי שיט שאינו ספינת מלחמה.",
-     "axis": "military_escalation",
+     "id": "IRAN-09281810-01",
+     "title": "תפיסת כלי שיט ומעצרים באיראן",
+     "summary": "השלטונות באיראן תפסו שני כלי שיט קלים ועצרו חמישה עשר בני אדם בטענה שהפרו תקנות מקומיות.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-14T00:00:00+00:00",
+     "occurred_at": "2026-09-28T18:05:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T05:44:58+00:00",
-     "last_update_at": "2026-09-28T05:44:58+00:00",
-     "what_is_not_verified": "סוג ושם כלי השיט לא נמסרו על ידי הגורמים הרשמיים",
+     "first_reported_at": "2026-09-28T18:05:40+00:00",
+     "last_update_at": "2026-09-28T18:05:40+00:00",
+     "what_is_not_verified": "לא ידועות הלאומים של העצורים ומועד המבצע המדויק.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_nbc",
-       "url": "https://t.me/abualiexpress/130921",
-       "published_at": "2026-09-28T05:44:58+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-09280840-02",
-     "title": "מעצר חשודים בעבירות טרור סמוך לבסיס צבאי בבריטניה",
-     "summary": "משטרת בריטניה עצרה וחקרה חמישה גברים בחשד לעבירות חומרי נפץ וטרור סמוך לבסיס חיל האוויר ששימש לתקיפות באיראן.",
-     "axis": "military_tensions",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T07:46:28+00:00",
-     "last_update_at": "2026-09-28T07:46:28+00:00",
-     "what_is_not_verified": "בטקסט ישנה אי-התאמה בין חקירת חמישה גברים לבין מעצר של שלושה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/uk-police-question-five-men-held-airbase-used-us-attack-iran",
-       "published_at": "2026-09-28T07:46:28+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_5dee32b6f6db89c0",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-seizes-two-light-vessels-arrests-50-people-violating-regulations",
+       "published_at": "2026-09-28T18:05:40+00:00"
       }
      ],
      "places": [
       {
-       "name": "פרפורד, אנגליה",
-       "lat": 51.7108,
-       "lon": -1.782
+       "name": "אי קשם, איראן",
+       "lat": 26.7687,
+       "lon": 55.8477
+      },
+      {
+       "name": "מינאב, איראן",
+       "lat": 27.1506,
+       "lon": 57.0753
       }
      ]
     },
     {
-     "id": "IRAN-09280840-03",
-     "title": "אזהרת משמרות המהפכה בנוגע למצר הורמוז",
-     "summary": "דובר משמרות המהפכה הצהיר כי מצר הורמוז סגור והפך לשטח ציד של כלי שיט תת-ימיים אמריקניים.",
-     "axis": "rhetoric",
-     "claim_type": "statement",
+     "id": "IRAN-09281810-02",
+     "title": "חידוש טיסות עיראקיות לאיראן",
+     "summary": "חברת התעופה של עיראק חידשה את הטיסות בין נג'ף לשדות תעופה באיראן בהתאם להודעה רשמית.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T06:42:57+00:00",
+     "occurred_at": "2026-09-28T17:54:03+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T06:42:57+00:00",
-     "last_update_at": "2026-09-28T06:42:57+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לטענה כי מצר הורמוז אינו פתוח",
+     "first_reported_at": "2026-09-28T17:54:03+00:00",
+     "last_update_at": "2026-09-28T17:54:03+00:00",
+     "what_is_not_verified": "הטקסט אינו מפרט את היקף הטיסות המחודשות מעבר לכך.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_0e3ae1bfcd8dd33d",
-       "url": "https://en.irna.ir/news/86276781/IRGC-Strait-of-Hormuz-is-hunting-ground-for-US-underwater-vehicles",
-       "published_at": "2026-09-28T06:42:57+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_4445b3c8119dbd1a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-airways-resumes-flights-between-najaf-and-iranian-airports-state",
+       "published_at": "2026-09-28T17:54:03+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "נג'ף, עיראק",
+       "lat": 32.001,
+       "lon": 44.33
+      }
+     ]
+    },
+    {
+     "id": "IRAN-09281810-03",
+     "title": "מאסר חבר פרלמנט איראני",
+     "summary": "מחוקק איראני הועבר לכלא אווין כדי לרצות עונש מאסר בעקבות תלונה שהגיש נגדו יושב ראש הפרלמנט.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T16:50:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T16:50:00+00:00",
+     "last_update_at": "2026-09-28T16:50:00+00:00",
+     "what_is_not_verified": "פרטי תוכן הכתבה המדויקים מעבר לעצם המאסר אינם מפורטים מעבר להודעת מערכת המשפט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_b6985717d91e5de9",
+       "url": "https://www.iranintl.com/en/202609283778",
+       "published_at": "2026-09-28T16:50:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-09280840-01",
-     "title": "תקיפות חיל האוויר וירי ארטילרי בדרום לבנון",
-     "summary": "מטוסי קרב תקפו יעדים במספר כפרים בדרום לבנון, לצד ירי עשרות פגזי ארטילריה לעבר אזור ואדי זבקין.",
-     "axis": "clashes",
+     "id": "NORTH-09281810-01",
+     "title": "שיגור מיירט לעבר מטרה בדרום לבנון",
+     "summary": "דובר צה\"ל דיווח על שיגור מיירט לעבר מטרה אווירית חשודה שזוהתה במרחב פעילות הכוחות בדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-28T17:39:44+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T03:15:27+00:00",
-     "last_update_at": "2026-09-28T07:26:47+00:00",
-     "what_is_not_verified": "מספר הפגזים המדויק שנורה לעבר ואדי זבקין מבוסס על חלק מהדיווחים בלבד",
+     "first_reported_at": "2026-09-28T17:39:44+00:00",
+     "last_update_at": "2026-09-28T17:39:44+00:00",
+     "what_is_not_verified": "פרטי המטרה נמצאים בבדיקה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_76976117d8a80dd3",
-       "url": "https://t.me/abualiexpress/130916",
-       "published_at": "2026-09-28T05:37:01+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_76976117d8a80dd3",
-       "url": "https://t.me/alexmehacarmel/48053",
-       "published_at": "2026-09-28T03:15:27+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_76976117d8a80dd3",
-       "url": "https://english.almanar.com.lb/article/131547/",
-       "published_at": "2026-09-28T07:26:47+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25243",
+       "published_at": "2026-09-28T17:39:44+00:00"
       }
      ],
      "places": [
       {
-       "name": "זבקין, לבנון",
-       "lat": 33.1644,
-       "lon": 35.2665
-      },
-      {
-       "name": "חאריס, לבנון",
-       "lat": 33.1768,
-       "lon": 35.3799
-      },
-      {
-       "name": "מיס אל-ג'בל, לבנון",
-       "lat": 33.1756,
-       "lon": 35.5099
+       "name": "דרום לבנון",
+       "lat": 39.371,
+       "lon": -84.2128
       }
      ]
     },
     {
-     "id": "NORTH-09280840-02",
-     "title": "פעולת הריסה ותקיפה אווירית באזור מיס אל-ג'בל",
-     "summary": "כתב בדרום לבנון דיווח על פעילות הריסה ישראלית לצד תקיפה אווירית בפאתי היישוב מיס אל-ג'בל.",
-     "axis": "clashes",
+     "id": "NORTH-09281810-02",
+     "title": "השלמת משימת השמדת תשתיות בדרום לבנון",
+     "summary": "כוחות צה\"ל השלימו את משימתם בכפר אל-מנצורי בדרום לבנון והשמידו למעלה משש מאות תשתיות טרור.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-28T15:31:01+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T07:25:34+00:00",
-     "last_update_at": "2026-09-28T07:25:34+00:00",
-     "what_is_not_verified": "לא נמסרו פרטים לגבי המבנים או המתקנים שנהרסו",
+     "first_reported_at": "2026-09-28T15:31:01+00:00",
+     "last_update_at": "2026-09-28T15:31:01+00:00",
+     "what_is_not_verified": "אין פירוט נוסף על אופי כל תשתית ותשתית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_af161b94f7d59495",
-       "url": "https://english.almanar.com.lb/article/131537/",
-       "published_at": "2026-09-28T07:25:34+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25242",
+       "published_at": "2026-09-28T15:31:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "מיס אל-ג'בל, לבנון",
-       "lat": 33.1756,
-       "lon": 35.5099
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09281810-03",
+     "title": "פירוק רשת של ארגון המדינה האסלאמית בסוריה",
+     "summary": "הרשויות בסוריה הודיעו על פירוק רשת פעילים של ארגון המדינה האסלאמית שפעלה במספר מחוזות במדינה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T16:54:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T16:54:35+00:00",
+     "last_update_at": "2026-09-28T16:54:35+00:00",
+     "what_is_not_verified": "המספר המלא של כלל הפעילים בשטח אינו ידוע במלואו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_d1632934e5620aa5",
+       "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
+       "published_at": "2026-09-28T16:54:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "רקה, סוריה",
+       "lat": 35.9497,
+       "lon": 39.0089
+      },
+      {
+       "name": "חאלב, סוריה",
+       "lat": 36.1992,
+       "lon": 37.1637
       }
      ]
     }
@@ -171,101 +200,89 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09280840-01",
-     "title": "התקדמות אוקראינית ושחרור יישובים במבצע ויוולדי",
-     "summary": "הגיס השלישי של אוקראינה הכריז על סיום השלב השלישי של מבצע ויוולדי, שחרור שלושה יישובים ושביית יותר מ-250 חיילים רוסים.",
-     "axis": "ground_offensive",
+     "id": "UKRAINE-09281810-01",
+     "title": "פגיעת כלי טיס בלתי מאויש באקדמיה למדעים בקייב",
+     "summary": "כלי טיס בלתי מאויש רוסי פגע במבנה האקדמיה למדעים בעיר הבירה קייב.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T07:35:00+00:00",
+     "occurred_at": "2026-09-28T16:00:12+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T07:35:00+00:00",
-     "last_update_at": "2026-09-28T07:49:00+00:00",
-     "what_is_not_verified": "טענות היקף הנפגעים בצד הרוסי לא אומתו באופן בלתי תלוי",
+     "first_reported_at": "2026-09-28T16:00:12+00:00",
+     "last_update_at": "2026-09-28T16:00:12+00:00",
+     "what_is_not_verified": "מלוא היקף הנזק המדויק לציוד המדעי טרם פורט.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_aa6fb488267b304d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055338/",
-       "published_at": "2026-09-28T07:49:00+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_16eb4f6e101786a6",
-       "url": "https://www.ukrinform.net/rubric-ato/4168685-biletsky-3rd-army-corps-liberates-nove-ridkodub-and-katerynivka-in-operation-vivaldi.html",
-       "published_at": "2026-09-28T07:45:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_bde4b898fe067225",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055336/",
-       "published_at": "2026-09-28T07:35:00+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48066",
+       "published_at": "2026-09-28T16:00:12+00:00"
       }
      ],
      "places": [
       {
-       "name": "לימאן, אוקראינה",
-       "lat": 48.9801,
-       "lon": 37.8168
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     },
     {
-     "id": "UKRAINE-09280840-02",
-     "title": "פגיעה בבניין מגורים בחרקוב בתקיפה רוסית",
-     "summary": "עשרים וחמישה בני אדם נפצעו כתוצאה מפגיעת טיל או כטב\"ם רוסי שהרסה קומות בבניין מגורים ברובע סלטיבסקי בחרקוב.",
-     "axis": "airstrikes",
+     "id": "UKRAINE-09281810-02",
+     "title": "תקיפה רוסית על מרכז רפואי בקייב",
+     "summary": "כוחות רוסיים ביצעו תקיפה שפגעה במרכז רפואי הממוקם בעיר קייב.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-28T13:48:20+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T07:28:52+00:00",
-     "last_update_at": "2026-09-28T07:28:52+00:00",
-     "what_is_not_verified": "סוג החימוש שפגע במבנה המגורים לא צוין במפורש",
+     "first_reported_at": "2026-09-28T13:48:20+00:00",
+     "last_update_at": "2026-09-28T13:48:20+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק מהמרכז הרפואי אינו מצוין בדיווח זה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/09/28/russian-strike-on-apartment-building-in-kharkiv-ukraine-injures-25-people-including-nine-children-regional-governor-says",
-       "published_at": "2026-09-28T07:28:52+00:00"
+       "url": "https://t.me/alexmehacarmel/48063",
+       "published_at": "2026-09-28T13:48:20+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     },
     {
-     "id": "UKRAINE-09280840-03",
-     "title": "פגיעות כטב\"מים אוקראיניים בדרום רוסיה",
-     "summary": "מתקפת כטב\"מים פצעה ארבעה אזרחים והציתה שריפות בשלושה מתקני תשתית אזרחיים במחוז וורונז'.",
-     "axis": "drone_strikes",
+     "id": "UKRAINE-09281810-03",
+     "title": "פגיעת רחפנים במחסנים במחוז קייב",
+     "summary": "תקיפה של כלי טיס בלתי מאוישים פגעה בשתי יחידות מחסנים של רשת שיווק במחוז קייב וגרמה לשריפות.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-28T17:32:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T08:22:40+00:00",
-     "last_update_at": "2026-09-28T08:22:40+00:00",
-     "what_is_not_verified": "מהותם המדויקת של שלושת מתקני התשתית לא פורטה בטקסט",
+     "first_reported_at": "2026-09-28T17:32:00+00:00",
+     "last_update_at": "2026-09-28T17:32:00+00:00",
+     "what_is_not_verified": "היקף הדליפה הכימית או הביולוגית במקום נבדק על ידי יחידות מיגון.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2193769",
-       "published_at": "2026-09-28T08:22:40+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_e6aef253372495db",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055489/",
+       "published_at": "2026-09-28T17:32:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "וורונז', רוסיה",
-       "lat": 51.68,
-       "lon": 39.1837
+       "name": "נפות ברובארי, אוקראינה",
+       "lat": 50.5291,
+       "lon": 30.7807
       }
      ]
     }
@@ -274,62 +291,27 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09280840-01",
-     "title": "ביקור שר החוץ הסעודי בוושינגטון לדיונים על רקע הלחימה עם החות'ים",
-     "summary": "שר החוץ הסעודי הגיע לוושינגטון לפגישה עם מזכיר המדינה האמריקני על רקע הסלמת הלחימה בין ריאד לחות'ים.",
-     "axis": "diplomacy",
+     "id": "YEMEN-09281810-01",
+     "title": "הכרזת גיוס כללי בתימן הלגיטימית",
+     "summary": "השלטונות הרשמיים של ממשלת תימן הלגיטימית הכריזו על גיוס כללי לקראת הלחימה נגד הכוחות החות'ים.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T04:46:27+00:00",
-     "last_update_at": "2026-09-28T04:46:27+00:00",
-     "what_is_not_verified": "תוכן השיחות המדויק ותוצאותיהן אינם ידועים מעבר לנושאים הכלליים שפורסמו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/saudi-foreign-minister-arrives-washington-talks-rubio",
-       "published_at": "2026-09-28T04:46:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09280840-02",
-     "title": "חידוש הקרבות בין כוחות הנתמכים בידי סעודיה לחות'ים במחוז תעז",
-     "summary": "עימותים מחודשים בין כוחות החות'ים לכוחות הנתמכים בידי סעודיה התקרבו לכפרים באזור אל-וואזעיה ושיבשו את חיי התושבים.",
-     "axis": "ground_clashes",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T07:07:26+00:00",
+     "occurred_at": "2026-09-28T16:22:45+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-28T07:07:26+00:00",
-     "last_update_at": "2026-09-28T07:07:26+00:00",
-     "what_is_not_verified": "היקף הנפגעים המדויק בלחימה באל-וואזעיה אינו מפורט בטקסט",
+     "first_reported_at": "2026-09-28T16:22:45+00:00",
+     "last_update_at": "2026-09-28T16:22:45+00:00",
+     "what_is_not_verified": "מספר המתגייסים בפועל אינו ידוע.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
-       "published_at": "2026-09-28T07:07:26+00:00"
+       "url": "https://t.me/alexmehacarmel/48069",
+       "published_at": "2026-09-28T16:22:45+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
+     "places": []
     }
    ]
   }
