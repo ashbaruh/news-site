@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T07:17:14+00:00",
-  "fetched_at": "2026-09-28T07:17:14+00:00"
+  "checked_at": "2026-09-28T08:17:13+00:00",
+  "fetched_at": "2026-09-28T08:17:13+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Newly Identified Frog-like Creature Named by Student Scientists After Their Moms",
+    "title_he": "יצור דמוי צפרדע שזוהה לאחרונה שנקרא על ידי מדענים סטודנטים על שם אמהותיהם",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/",
+    "date": "2026-09-28T03:00:01+00:00"
+   },
    {
     "title_en": "CA Researchers Identify Odors That Repel Honeybees From Pesticides",
     "title_he": "חוקרי CA מזהים ריחות הדוחים דבורים מחומרי הדברה",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/135000-shelter-pets-found-forever-homes-in-august-thanks-to-nbcs-annual-adopt-a-thon/",
     "date": "2026-09-22T13:00:22+00:00"
-   },
-   {
-    "title_en": "Couple Fosters 59 Dogs in Retirement: ‘We love to get them out of the kennels’",
-    "title_he": "זוג מטפח 59 כלבים בפנסיה: \"אנחנו אוהבים להוציא אותם מהכלביות\"",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
-    "date": "2026-09-20T22:48:46+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T07:17:22+00:00",
-  "fetched_at": "2026-09-28T07:17:22+00:00"
+  "checked_at": "2026-09-28T08:17:25+00:00",
+  "fetched_at": "2026-09-28T08:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,29 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T07:17:23+00:00",
-  "fetched_at": "2026-09-28T07:17:23+00:00"
+  "checked_at": "2026-09-28T08:17:26+00:00",
+  "fetched_at": "2026-09-28T08:17:26+00:00"
  },
- "generated_at": "2026-09-28T07:17:23+00:00",
+ "generated_at": "2026-09-28T08:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שיווקי הקרקעות לדיור נחתכו בחדות וגם בליץ סוף השנה לא צפוי להציל את המצב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557665",
-     "date": "2026-09-28T06:12:00+00:00"
+     "title": "בית וגג לא מסתפקת במרכז: \"בת גלים בחיפה זו שכונה ששנים חיכתה לבום\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557130",
+     "date": "2026-09-28T08:15:00+00:00"
     },
     {
      "title": "איראן הציבה תנאי: \"שישראל לא תתקוף אותנו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T07:11:00+00:00"
+     "date": "2026-09-28T08:00:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "פתיחה שלילית בתל אביב; מדד ת\"א־נפט וגז יורד במעל 1%",
+     "title": "מגמה שלילית בתל אביב; מדד ת\"א־נפט וגז יורד במעל 1%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T07:07:00+00:00"
+     "date": "2026-09-28T07:26:00+00:00"
     },
     {
      "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
@@ -114,7 +114,7 @@ window.DB.generated = {
      "date": "2026-09-28T05:31:00+00:00"
     },
     {
-     "title": "מצב השווקים: בורסת סיאול נופלת במעל 2%, מחירי הנפט מטפסים",
+     "title": "עליות קלות באירופה; החוזים בניו יורק אדומים, מחירי הנפט מטפסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
      "date": "2026-09-28T04:00:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T07:17:15+00:00",
-  "fetched_at": "2026-09-28T07:17:15+00:00"
+  "checked_at": "2026-09-28T08:17:14+00:00",
+  "fetched_at": "2026-09-28T08:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T07:17:16+00:00",
-  "fetched_at": "2026-09-28T07:17:16+00:00"
+  "checked_at": "2026-09-28T08:17:15+00:00",
+  "fetched_at": "2026-09-28T08:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -1872,6 +1872,20 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "קולומבוס קרו - אינטר מיאמי"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "הפועל כפר שלם - מכבי יפו"
+   },
+   {
+    "date": "2026-09-28",
+    "time": "19:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "זימבבואה - הרפובליקה הדמוקרטית של קונגו"
    },
    {
     "date": "2026-09-28",
@@ -1907,20 +1921,6 @@ window.DB.generated = {
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
     "title": "מכבי קריית גת - מ.ס. כפר קאסם"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "הפועל כפר שלם - מכבי יפו"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "זימבבואה - הרפובליקה הדמוקרטית של קונגו"
    },
    {
     "date": "2026-09-28",
@@ -2117,6 +2117,13 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורסל",
     "title": "פאוק סלוניקי - מנרסה"
+   },
+   {
+    "date": "2026-09-30",
+    "time": "20:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "הפועל חולון - הפועל עירוני אילת"
    },
    {
     "date": "2026-09-30",
@@ -2462,10 +2469,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-09-28T07:17:16+00:00",
-  "fetched_at": "2026-09-28T06:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-28T08:17:16+00:00",
+  "fetched_at": "2026-09-28T08:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2555,22 +2561,28 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T07:17:16+00:00",
-  "fetched_at": "2026-09-28T07:17:16+00:00"
+  "checked_at": "2026-09-28T08:17:16+00:00",
+  "fetched_at": "2026-09-28T08:17:16+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
-   "failed_sources": [
-    "גיקטיים"
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-can-now-make-business-calls/",
+     "date": "2026-09-28T06:58:10+00:00",
+     "launch": false,
+     "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
+    }
    ],
+   "candidates": 4,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 280,
+     "likes": 281,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2584,7 +2596,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 158,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2598,14 +2610,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 182,
+     "likes": 185,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 154,
+     "likes": 155,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2633,18 +2645,27 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 316,
+     "likes": 317,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T07:17:21+00:00",
-  "fetched_at": "2026-09-28T07:17:21+00:00"
+  "checked_at": "2026-09-28T08:17:24+00:00",
+  "fetched_at": "2026-09-28T08:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מדסה עד בריבו: הנבחרת מעכלת את התבוסה, השינויים בדרך",
+     "link": "https://sports.walla.co.il/item/3870068",
+     "date": "2026-09-28T07:50:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "תאי בריבו"
+     ]
+    },
     {
      "title": "סולומון: כנראה שסיפור האירים חלחל בכל זאת",
      "link": "https://www.one.co.il/Article/534488.html?ref=rss",
@@ -2927,8 +2948,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T07:17:19+00:00",
-  "fetched_at": "2026-09-28T07:17:19+00:00"
+  "checked_at": "2026-09-28T08:17:20+00:00",
+  "fetched_at": "2026-09-28T08:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2959,7 +2980,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T07:17:19+00:00",
-  "fetched_at": "2026-09-28T07:17:19+00:00"
+  "checked_at": "2026-09-28T08:17:20+00:00",
+  "fetched_at": "2026-09-28T08:17:20+00:00"
  }
 };
