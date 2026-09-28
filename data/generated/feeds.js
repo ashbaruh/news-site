@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T08:17:13+00:00",
-  "fetched_at": "2026-09-28T08:17:13+00:00"
+  "checked_at": "2026-09-28T09:17:23+00:00",
+  "fetched_at": "2026-09-28T09:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T08:17:25+00:00",
-  "fetched_at": "2026-09-28T08:17:25+00:00"
+  "checked_at": "2026-09-28T09:17:35+00:00",
+  "fetched_at": "2026-09-28T09:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I put two mid-range Dolby Atmos soundbars head to head – and it's clear which one is best for your living room",
+    "title_he": "שמתי שני פסי קול של Dolby Atmos בטווח בינוני - וברור איזה מהם הכי מתאים לסלון שלך",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/i-put-two-mid-range-dolby-atmos-soundbars-head-to-head-and-its-clear-which-one-is-best-for-your-living-room",
+    "date": "2026-09-28T08:58:28+00:00"
+   },
+   {
+    "title_en": "AudioQuest DragonFly Copper",
+    "title_he": "נחושת AudioQuest DragonFly",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/dacs/audioquest-dragonfly-copper",
+    "date": "2026-09-28T08:37:02+00:00"
+   },
    {
     "title_en": "After nearly half a decade, the small, next-gen OLED TVs I've been waiting for are finally here",
     "title_he": "אחרי כמעט חצי עשור, טלוויזיות ה-OLED הקטנות מהדור הבא שחיכיתי להן סוף סוף כאן",
@@ -62,27 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/quick-this-remarkably-watchable-rgb-mini-led-tv-is-half-price",
     "date": "2026-09-25T11:50:04+00:00"
-   },
-   {
-    "title_en": "Samsung R95H (MRE65R95H)",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-r95h-mre65r95h",
-    "date": "2026-09-25T11:03:25+00:00"
-   },
-   {
-    "title_en": "Qobuz has started tagging AI music – but is anybody listening to it anyway?",
-    "title_he": "Qobuz התחילה לתייג מוזיקת ​​AI - אבל האם מישהו מאזין לה בכל זאת?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/qobuz-has-started-tagging-ai-music-but-is-anybody-listening-to-it-anyway",
-    "date": "2026-09-25T09:38:59+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T08:17:26+00:00",
-  "fetched_at": "2026-09-28T08:17:26+00:00"
+  "checked_at": "2026-09-28T09:17:39+00:00",
+  "fetched_at": "2026-09-28T09:17:39+00:00"
  },
- "generated_at": "2026-09-28T08:17:26+00:00",
+ "generated_at": "2026-09-28T09:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,14 +94,24 @@ window.DB.generated = {
     {
      "title": "איראן הציבה תנאי: \"שישראל לא תתקוף אותנו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T08:00:00+00:00"
+     "date": "2026-09-28T08:45:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה שלילית בתל אביב; מדד ת\"א־נפט וגז יורד במעל 1%",
+     "title": "\"חיפושים פוגעניים\": משרד החוץ מזהיר את הטסים לאמסטרדם, ומגרש דיפלומטיים הולנדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557712",
+     "date": "2026-09-28T08:46:00+00:00"
+    },
+    {
+     "title": "החוזים על הנאסד\"ק נופלים ב-1%, מניות השבבים יורדות; מחירי הנפט מטפסים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T08:45:00+00:00"
+    },
+    {
+     "title": "מגמה שלילית בתל אביב בהובלת מדדי הנדל\"ן; השקל נחלש ב-1%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T07:26:00+00:00"
+     "date": "2026-09-28T08:25:00+00:00"
     },
     {
      "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
@@ -112,11 +122,6 @@ window.DB.generated = {
      "title": "עסקה גדולה לקרן אלומה: רוכשת חברה בת של OPC ב-272 מיליון שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557697",
      "date": "2026-09-28T05:31:00+00:00"
-    },
-    {
-     "title": "עליות קלות באירופה; החוזים בניו יורק אדומים, מחירי הנפט מטפסים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T04:00:00+00:00"
     },
     {
      "title": "עשרה ימים גורליים: שופרסל ויגאל דמרי בסכנת הדחה",
@@ -216,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T08:17:14+00:00",
-  "fetched_at": "2026-09-28T08:17:14+00:00"
+  "checked_at": "2026-09-28T09:17:25+00:00",
+  "fetched_at": "2026-09-28T09:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T08:17:15+00:00",
-  "fetched_at": "2026-09-28T08:17:15+00:00"
+  "checked_at": "2026-09-28T09:17:26+00:00",
+  "fetched_at": "2026-09-28T09:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2475,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T08:17:16+00:00",
-  "fetched_at": "2026-09-28T08:17:16+00:00"
+  "checked_at": "2026-09-28T09:17:27+00:00",
+  "fetched_at": "2026-09-28T09:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,8 +2566,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T08:17:16+00:00",
-  "fetched_at": "2026-09-28T08:17:16+00:00"
+  "checked_at": "2026-09-28T09:17:27+00:00",
+  "fetched_at": "2026-09-28T09:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2582,14 +2587,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 281,
+     "likes": 283,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 232,
+     "likes": 233,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2617,7 +2622,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 155,
+     "likes": 156,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2651,8 +2656,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T08:17:24+00:00",
-  "fetched_at": "2026-09-28T08:17:24+00:00"
+  "checked_at": "2026-09-28T09:17:34+00:00",
+  "fetched_at": "2026-09-28T09:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2948,8 +2953,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T08:17:20+00:00",
-  "fetched_at": "2026-09-28T08:17:20+00:00"
+  "checked_at": "2026-09-28T09:17:30+00:00",
+  "fetched_at": "2026-09-28T09:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2980,7 +2985,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T08:17:20+00:00",
-  "fetched_at": "2026-09-28T08:17:20+00:00"
+  "checked_at": "2026-09-28T09:17:31+00:00",
+  "fetched_at": "2026-09-28T09:17:31+00:00"
  }
 };
