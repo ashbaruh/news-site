@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T11:17:23+00:00",
-  "fetched_at": "2026-09-28T11:17:23+00:00"
+  "checked_at": "2026-09-28T12:01:09+00:00",
+  "fetched_at": "2026-09-28T12:01:09+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T11:17:34+00:00",
-  "fetched_at": "2026-09-28T11:17:34+00:00"
+  "checked_at": "2026-09-28T12:01:19+00:00",
+  "fetched_at": "2026-09-28T12:01:19+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T11:17:36+00:00",
-  "fetched_at": "2026-09-28T11:17:36+00:00"
+  "checked_at": "2026-09-28T12:01:20+00:00",
+  "fetched_at": "2026-09-28T12:01:20+00:00"
  },
- "generated_at": "2026-09-28T11:17:36+00:00",
+ "generated_at": "2026-09-28T12:01:20+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,16 +90,21 @@
      "date": "2026-09-28T10:28:00+00:00"
     },
     {
-     "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו",
+     "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו לפני ה-7 באוקטובר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T11:12:00+00:00"
+     "date": "2026-09-28T11:26:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נופלת ב-14%",
+     "title": "מדוע מניית אלקטרה נדל\"ן התרסקה בכ-16% היום?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557727",
+     "date": "2026-09-28T11:47:00+00:00"
+    },
+    {
+     "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T11:06:00+00:00"
+     "date": "2026-09-28T11:26:00+00:00"
     },
     {
      "title": "סערה בשווקים: החוזים על וול סטריט אדומים, נפט ברנט מעל 108 דולר",
@@ -209,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T11:17:24+00:00",
-  "fetched_at": "2026-09-28T11:17:24+00:00"
+  "checked_at": "2026-09-28T12:01:09+00:00",
+  "fetched_at": "2026-09-28T12:01:09+00:00"
  },
  "ifa": {
   "data": [
@@ -1854,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T11:17:25+00:00",
-  "fetched_at": "2026-09-28T11:17:25+00:00"
+  "checked_at": "2026-09-28T12:01:10+00:00",
+  "fetched_at": "2026-09-28T12:01:10+00:00"
  },
  "tv": {
   "data": [
@@ -2463,8 +2468,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T11:17:26+00:00",
-  "fetched_at": "2026-09-28T11:17:26+00:00"
+  "checked_at": "2026-09-28T12:01:11+00:00",
+  "fetched_at": "2026-09-28T12:01:11+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2554,8 +2559,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T11:17:26+00:00",
-  "fetched_at": "2026-09-28T11:17:26+00:00"
+  "checked_at": "2026-09-28T12:01:11+00:00",
+  "fetched_at": "2026-09-28T12:01:11+00:00"
  },
  "ai": {
   "data": {
@@ -2569,15 +2574,13 @@
     }
    ],
    "candidates": 4,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 286,
+     "likes": 287,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2598,7 +2601,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 581,
+     "likes": 582,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2612,7 +2615,7 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 156,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2646,8 +2649,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T11:17:33+00:00",
-  "fetched_at": "2026-09-28T11:17:33+00:00"
+  "checked_at": "2026-09-28T12:01:18+00:00",
+  "fetched_at": "2026-09-28T12:01:18+00:00"
  },
  "abroad": {
   "data": {
@@ -2943,8 +2946,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T11:17:29+00:00",
-  "fetched_at": "2026-09-28T11:17:29+00:00"
+  "checked_at": "2026-09-28T12:01:14+00:00",
+  "fetched_at": "2026-09-28T12:01:14+00:00"
  },
  "idf": {
   "data": [
@@ -2975,7 +2978,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T11:17:30+00:00",
-  "fetched_at": "2026-09-28T11:17:30+00:00"
+  "checked_at": "2026-09-28T12:01:15+00:00",
+  "fetched_at": "2026-09-28T12:01:15+00:00"
  }
 }
