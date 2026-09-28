@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T18:17:21+00:00",
-  "fetched_at": "2026-09-28T18:17:21+00:00"
+  "checked_at": "2026-09-28T19:17:19+00:00",
+  "fetched_at": "2026-09-28T19:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T18:17:36+00:00",
-  "fetched_at": "2026-09-28T18:17:36+00:00"
+  "checked_at": "2026-09-28T19:17:41+00:00",
+  "fetched_at": "2026-09-28T19:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -77,27 +77,37 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T18:17:36+00:00",
-  "fetched_at": "2026-09-28T18:17:36+00:00"
+  "checked_at": "2026-09-28T19:17:41+00:00",
+  "fetched_at": "2026-09-28T19:17:41+00:00"
  },
- "generated_at": "2026-09-28T18:17:36+00:00",
+ "generated_at": "2026-09-28T19:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המהפך של הולנד: ממדינה תומכת בישראל לחזית החרם נגד המוצרים מעבר לקו הירוק",
+     "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
      "date": "2026-09-28T18:00:00+00:00"
     },
     {
      "title": "דיווח: צינור החמצן מאיראן לחיזבאללה - למרות הסנקציות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T17:24:00+00:00"
+     "date": "2026-09-28T18:52:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "המהפך של הולנד: ממדינה תומכת בישראל לחזית החרם נגד המוצרים מעבר לקו הירוק",
+     "title": "התאוששות קלה בוול סטריט על רקע טלטלה במחירי הנפט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T18:48:00+00:00"
+    },
+    {
+     "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557703",
+     "date": "2026-09-28T18:38:00+00:00"
+    },
+    {
+     "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
      "date": "2026-09-28T18:00:00+00:00"
     },
@@ -105,11 +115,6 @@
      "title": "הטלטלה בשוק האג\"ח מתחילה לזלוג למניות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557779",
      "date": "2026-09-28T17:39:00+00:00"
-    },
-    {
-     "title": "התאוששות קלה בוול סטריט על רקע טלטלה במחירי הנפט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T17:38:00+00:00"
     },
     {
      "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
@@ -177,11 +182,6 @@
      "date": "2026-09-28T08:46:00+00:00"
     },
     {
-     "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557703",
-     "date": "2026-09-28T05:35:00+00:00"
-    },
-    {
      "title": "עסקה גדולה לקרן אלומה: רוכשת חברה בת של OPC ב-272 מיליון שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557697",
      "date": "2026-09-28T05:31:00+00:00"
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T18:17:22+00:00",
-  "fetched_at": "2026-09-28T18:17:22+00:00"
+  "checked_at": "2026-09-28T19:17:21+00:00",
+  "fetched_at": "2026-09-28T19:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T18:17:23+00:00",
-  "fetched_at": "2026-09-28T18:17:23+00:00"
+  "checked_at": "2026-09-28T19:17:22+00:00",
+  "fetched_at": "2026-09-28T19:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T18:17:25+00:00",
-  "fetched_at": "2026-09-28T18:17:25+00:00"
+  "checked_at": "2026-09-28T19:17:25+00:00",
+  "fetched_at": "2026-09-28T19:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T18:17:25+00:00",
-  "fetched_at": "2026-09-28T18:17:25+00:00"
+  "checked_at": "2026-09-28T19:17:25+00:00",
+  "fetched_at": "2026-09-28T19:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2573,23 +2573,25 @@
      "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-     "date": "2026-09-28T07:00:00+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+     "date": "2026-09-28T19:00:00+00:00",
      "launch": false,
-     "title_en": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-     "title_he": "מכון Lenfest מצמיח תוכנית ציון דרך עם תמיכת OpenAI מורחבת",
+     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
-   "failed_sources": [],
+   "candidates": 6,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 303,
+     "likes": 305,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2610,35 +2612,35 @@
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 162,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 164,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
-     "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 190,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 100,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 188,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2652,14 +2654,14 @@
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 320,
+     "likes": 321,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T18:17:34+00:00",
-  "fetched_at": "2026-09-28T18:17:34+00:00"
+  "checked_at": "2026-09-28T19:17:36+00:00",
+  "fetched_at": "2026-09-28T19:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2674,7 +2676,7 @@
      ]
     },
     {
-     "title": "\"הארכת חוזה לאבדיה? יש מורכבות, זה לא רגיל\"",
+     "title": "דני אבדיה: החוזה שלי? אני לא מתמקד בזה כרגע",
      "link": "https://www.one.co.il/Article/534564.html?ref=rss",
      "date": "2026-09-28T17:07:00+00:00",
      "source": "ONE",
@@ -2982,8 +2984,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T18:17:28+00:00",
-  "fetched_at": "2026-09-28T18:17:28+00:00"
+  "checked_at": "2026-09-28T19:17:29+00:00",
+  "fetched_at": "2026-09-28T19:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -3014,7 +3016,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T18:17:29+00:00",
-  "fetched_at": "2026-09-28T18:17:29+00:00"
+  "checked_at": "2026-09-28T19:17:30+00:00",
+  "fetched_at": "2026-09-28T19:17:30+00:00"
  }
 }
