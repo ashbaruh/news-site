@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:42:01+00:00",
-  "fetched_at": "2026-09-28T19:42:01+00:00"
+  "checked_at": "2026-09-28T20:17:23+00:00",
+  "fetched_at": "2026-09-28T20:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:42:11+00:00",
-  "fetched_at": "2026-09-28T19:42:11+00:00"
+  "checked_at": "2026-09-28T20:17:37+00:00",
+  "fetched_at": "2026-09-28T20:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:42:12+00:00",
-  "fetched_at": "2026-09-28T19:42:12+00:00"
+  "checked_at": "2026-09-28T20:17:38+00:00",
+  "fetched_at": "2026-09-28T20:17:38+00:00"
  },
- "generated_at": "2026-09-28T19:42:12+00:00",
+ "generated_at": "2026-09-28T20:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:42:03+00:00",
-  "fetched_at": "2026-09-28T19:42:03+00:00"
+  "checked_at": "2026-09-28T20:17:25+00:00",
+  "fetched_at": "2026-09-28T20:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:42:03+00:00",
-  "fetched_at": "2026-09-28T19:42:03+00:00"
+  "checked_at": "2026-09-28T20:17:26+00:00",
+  "fetched_at": "2026-09-28T20:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:42:04+00:00",
-  "fetched_at": "2026-09-28T19:42:04+00:00"
+  "checked_at": "2026-09-28T20:17:28+00:00",
+  "fetched_at": "2026-09-28T20:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:42:04+00:00",
-  "fetched_at": "2026-09-28T19:42:04+00:00"
+  "checked_at": "2026-09-28T20:17:28+00:00",
+  "fetched_at": "2026-09-28T20:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2621,6 +2621,13 @@
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 101,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
@@ -2628,17 +2635,10 @@
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 100,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2658,12 +2658,30 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:42:10+00:00",
-  "fetched_at": "2026-09-28T19:42:10+00:00"
+  "checked_at": "2026-09-28T20:17:36+00:00",
+  "fetched_at": "2026-09-28T20:17:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "עידן טוקלומטי עשוי להיעדר מהמשחק מול קוסובו",
+     "link": "https://sports.walla.co.il/item/3870151",
+     "date": "2026-09-28T19:51:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עידן טוקלומטי"
+     ]
+    },
+    {
+     "title": "בעקבות הפציעה: עידן טוקלומטי ישוחרר מהנבחרת",
+     "link": "https://www.one.co.il/Article/534539.html?ref=rss",
+     "date": "2026-09-28T19:47:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עידן טוקלומטי"
+     ]
+    },
     {
      "title": "דני וולף: עונת הרוקי לא עמדה בציפיות שלי",
      "link": "https://www.one.co.il/Article/534565.html?ref=rss",
@@ -2982,8 +3000,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:42:07+00:00",
-  "fetched_at": "2026-09-28T19:42:07+00:00"
+  "checked_at": "2026-09-28T20:17:31+00:00",
+  "fetched_at": "2026-09-28T20:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3014,7 +3032,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:42:08+00:00",
-  "fetched_at": "2026-09-28T19:42:08+00:00"
+  "checked_at": "2026-09-28T20:17:32+00:00",
+  "fetched_at": "2026-09-28T20:17:32+00:00"
  }
 }
