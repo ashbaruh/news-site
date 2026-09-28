@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T10:17:12+00:00",
-  "fetched_at": "2026-09-28T10:17:12+00:00"
+  "checked_at": "2026-09-28T11:17:23+00:00",
+  "fetched_at": "2026-09-28T11:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T10:17:25+00:00",
-  "fetched_at": "2026-09-28T10:17:25+00:00"
+  "checked_at": "2026-09-28T11:17:34+00:00",
+  "fetched_at": "2026-09-28T11:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Sennheiser Momentum True Wireless 5 vs Sony WF-1000XM6: which five-star earbuds are better?",
+    "title_he": "Sennheiser Momentum True Wireless 5 לעומת Sony WF-1000XM6: אילו אוזניות חמישה כוכבים טובות יותר?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-earbuds/sennheiser-momentum-true-wireless-5-vs-sony-wf-1000xm6-which-five-star-earbuds-are-better",
+    "date": "2026-09-28T10:51:14+00:00"
+   },
    {
     "title_en": "I put two mid-range Dolby Atmos soundbars head to head – and it's clear which one is best for your living room",
     "title_he": "שמתי שני פסי קול של Dolby Atmos בטווח בינוני - וברור איזה מהם הכי מתאים לסלון שלך",
@@ -69,49 +76,67 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/after-nearly-half-a-decade-the-small-next-gen-oled-tvs-ive-been-waiting-for-are-finally-here",
     "date": "2026-09-26T16:46:24+00:00"
-   },
-   {
-    "title_en": "Quick! This remarkably watchable RGB Mini LED TV is half price",
-    "title_he": "מָהִיר! טלוויזיית RGB Mini LED הניתנת לצפייה להפליא היא חצי מחיר",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/quick-this-remarkably-watchable-rgb-mini-led-tv-is-half-price",
-    "date": "2026-09-25T11:50:04+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T10:17:25+00:00",
-  "fetched_at": "2026-09-28T10:17:25+00:00"
+  "checked_at": "2026-09-28T11:17:36+00:00",
+  "fetched_at": "2026-09-28T11:17:36+00:00"
  },
- "generated_at": "2026-09-28T10:17:25+00:00",
+ "generated_at": "2026-09-28T11:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "סערה בשווקים: החוזים על וול סטריט אדומים, תשואות האג\"ח קופצות והדולר מזנק מול השקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T09:30:00+00:00"
+     "title": "השקל נופל לשפל של כחודשיים. אלו הסיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557720",
+     "date": "2026-09-28T10:28:00+00:00"
     },
     {
-     "title": "החות'ים מחריפים את האיומים: \"נפציץ גשרים בריאד\"",
+     "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T09:23:00+00:00"
+     "date": "2026-09-28T11:12:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מגמה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נופלת ב-14%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
+     "date": "2026-09-28T11:06:00+00:00"
+    },
+    {
+     "title": "סערה בשווקים: החוזים על וול סטריט אדומים, נפט ברנט מעל 108 דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T11:00:00+00:00"
+    },
+    {
+     "title": "חברת הסייבר ההתקפי שהקימו אהוד ברק ובכירי 8200 יוצאת לוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557721",
+     "date": "2026-09-28T11:00:00+00:00"
+    },
+    {
+     "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557710",
+     "date": "2026-09-28T10:30:00+00:00"
+    },
+    {
+     "title": "ביל גייטס באזהרה חריגה: “ה-AI עלול לגרום למיליארד מקרי מוות”",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557719",
+     "date": "2026-09-28T10:30:00+00:00"
+    },
+    {
+     "title": "השקל נופל לשפל של כחודשיים. אלו הסיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557720",
+     "date": "2026-09-28T10:28:00+00:00"
+    },
+    {
+     "title": "איראן \"נוקמת\" באירופה על שיתוף הפעולה עם ישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557718",
+     "date": "2026-09-28T10:12:00+00:00"
+    },
+    {
      "title": "\"חיפושים פוגעניים\": משרד החוץ מזהיר את הטסים לאמסטרדם, ומגרש דיפלומטיים הולנדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557712",
      "date": "2026-09-28T08:46:00+00:00"
-    },
-    {
-     "title": "החוזים על הנאסד\"ק נופלים ב-1%, מניות השבבים יורדות; מחירי הנפט מטפסים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T08:45:00+00:00"
-    },
-    {
-     "title": "מגמה שלילית בתל אביב בהובלת מדדי הנדל\"ן; השקל נחלש ב-1%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T08:25:00+00:00"
     },
     {
      "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
@@ -174,55 +199,20 @@ window.DB.generated = {
      "date": "2026-09-27T10:00:00+00:00"
     },
     {
-     "title": "פונתה אחרי 70 שנה בדירה, והציתה מחאת ענק בספרד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557642",
-     "date": "2026-09-27T09:22:00+00:00"
-    },
-    {
      "title": "קאמבק של מיליארד דולר: ריסקיפייד מזנקת בוול סטריט לשיא של 5 שנים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557636",
      "date": "2026-09-27T07:17:00+00:00"
     },
     {
-     "title": "אחרי שפרצו לאתרים ממשלתיים - OpenAI מקפיאה את אימון המודלים החדשים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557625",
-     "date": "2026-09-27T06:12:00+00:00"
-    },
-    {
-     "title": "מערכת ההגנה החדשה של צה\"ל בשדה הקרב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001556977",
-     "date": "2026-09-27T03:01:00+00:00"
-    },
-    {
-     "title": "הרשימה השחורה של האו\"ם: צמרת המשק הישראלי בפנים. מי יצאו ממנה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557631",
-     "date": "2026-09-27T02:54:00+00:00"
-    },
-    {
      "title": "מחירי היהלומים בשפל היסטורי: אלה הסיבות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557630",
      "date": "2026-09-27T02:42:00+00:00"
-    },
-    {
-     "title": "שתי החברות שטלטלו את הכלכלה הקוריאנית מייצרות לה בעיה חדשה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557521",
-     "date": "2026-09-26T16:00:00+00:00"
-    },
-    {
-     "title": "מתי שוק המניות יגיע לנקודת שבירה - ועוד 4 כתבות על המצב בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557447",
-     "date": "2026-09-26T13:00:00+00:00"
-    },
-    {
-     "title": "וול סטריט נועלת שבוע חיובי למרות הזינוק בתשואות האג\"ח והחשש מהעלאת ריבית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
-     "date": "2026-09-25T20:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T10:17:13+00:00",
-  "fetched_at": "2026-09-28T10:17:13+00:00"
+  "checked_at": "2026-09-28T11:17:24+00:00",
+  "fetched_at": "2026-09-28T11:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T10:17:14+00:00",
-  "fetched_at": "2026-09-28T10:17:14+00:00"
+  "checked_at": "2026-09-28T11:17:25+00:00",
+  "fetched_at": "2026-09-28T11:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2475,8 +2465,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T10:17:16+00:00",
-  "fetched_at": "2026-09-28T10:17:16+00:00"
+  "checked_at": "2026-09-28T11:17:26+00:00",
+  "fetched_at": "2026-09-28T11:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2566,8 +2556,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T10:17:16+00:00",
-  "fetched_at": "2026-09-28T10:17:16+00:00"
+  "checked_at": "2026-09-28T11:17:26+00:00",
+  "fetched_at": "2026-09-28T11:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2589,14 +2579,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 285,
+     "likes": 286,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 233,
+     "likes": 234,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2638,7 +2628,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 91,
+     "likes": 92,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2658,8 +2648,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T10:17:24+00:00",
-  "fetched_at": "2026-09-28T10:17:24+00:00"
+  "checked_at": "2026-09-28T11:17:33+00:00",
+  "fetched_at": "2026-09-28T11:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2955,8 +2945,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T10:17:19+00:00",
-  "fetched_at": "2026-09-28T10:17:19+00:00"
+  "checked_at": "2026-09-28T11:17:29+00:00",
+  "fetched_at": "2026-09-28T11:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2987,7 +2977,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T10:17:20+00:00",
-  "fetched_at": "2026-09-28T10:17:20+00:00"
+  "checked_at": "2026-09-28T11:17:30+00:00",
+  "fetched_at": "2026-09-28T11:17:30+00:00"
  }
 };
