@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T14:17:15+00:00",
-  "fetched_at": "2026-09-28T14:17:15+00:00"
+  "checked_at": "2026-09-28T15:17:28+00:00",
+  "fetched_at": "2026-09-28T15:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T14:17:22+00:00",
-  "fetched_at": "2026-09-28T14:17:22+00:00"
+  "checked_at": "2026-09-28T15:17:41+00:00",
+  "fetched_at": "2026-09-28T15:17:41+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "No, for real this time! A HomePod Mini 2 is on its way, and you're spoiled for choice when it comes to finishes",
+    "title_he": "לא, הפעם באמת! HomePod Mini 2 בדרך, ואתם מפונקים בבחירה בכל הנוגע לגימורים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/no-for-real-this-time-a-homepod-mini-2-is-on-its-way-and-youre-spoiled-for-choice-when-it-comes-to-finishes",
+    "date": "2026-09-28T14:20:07+00:00"
+   },
    {
     "title_en": "A Swiss Army knife CD player, Sonos Beam and Ace Ultra reviews, next-gen upgrade for wireless headphones and more",
     "title_he": "נגן תקליטורים צבאי שוויצרי, ביקורות של Sonos Beam ו-Ace Ultra, שדרוג הדור הבא לאוזניות אלחוטיות ועוד",
@@ -69,42 +76,50 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/tribits-new-bluetooth-speaker-is-designed-to-make-music-sound-bigger-without-sacrificing-portability",
     "date": "2026-09-28T12:08:28+00:00"
-   },
-   {
-    "title_en": "Sennheiser Momentum True Wireless 5 vs Sony WF-1000XM6: which five-star earbuds are better?",
-    "title_he": "Sennheiser Momentum True Wireless 5 לעומת Sony WF-1000XM6: אילו אוזניות חמישה כוכבים טובות יותר?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/sennheiser-momentum-true-wireless-5-vs-sony-wf-1000xm6-which-five-star-earbuds-are-better",
-    "date": "2026-09-28T10:51:14+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T14:17:22+00:00",
-  "fetched_at": "2026-09-28T14:17:22+00:00"
+  "checked_at": "2026-09-28T15:17:43+00:00",
+  "fetched_at": "2026-09-28T15:17:43+00:00"
  },
- "generated_at": "2026-09-28T14:17:22+00:00",
+ "generated_at": "2026-09-28T15:17:43+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חידת נתב\"ג: עם 20 אלף חניות, איך נגמר המקום?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557724",
-     "date": "2026-09-28T12:41:00+00:00"
+     "title": "השותפים לשעבר של אהוד ברק בדרך להקמת חברת סייבר חדשה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557756",
+     "date": "2026-09-28T14:30:00+00:00"
     },
     {
-     "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו לפני ה-7 באוקטובר",
+     "title": "דיווח: צינור החמצן מאיראן לחיזבאללה - למרות הסנקציות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T13:57:00+00:00"
+     "date": "2026-09-28T15:12:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "שיא היסטורי: אנבידיה מגדילה את תוכנית הרכישה העצמית ב־150 מיליארד דולר",
+     "title": "מנכ\"ל מליסרון לשעבר אופיר שריד הלך לעולמו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557613",
+     "date": "2026-09-28T14:50:00+00:00"
+    },
+    {
+     "title": "אירופה ירוקה, וול סטריט במגמה שלילית בצל הזינוק בנפט ובאג\"ח",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T14:48:00+00:00"
+    },
+    {
+     "title": "\"הקבלן הפסיק את העבודות באופן חד־צדדי\": קרסו נדל\"ן ביטלה את ההסכם עם נטע ליפשיץ",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557773",
+     "date": "2026-09-28T14:24:00+00:00"
+    },
+    {
+     "title": "אנבידיה יוצאת למהלך היסטורי של 150 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557733",
      "date": "2026-09-28T12:13:00+00:00"
     },
     {
-     "title": "מדוע מניית אלקטרה נדל\"ן התרסקה בכ-16% היום?",
+     "title": "המניה שצנחה היום ב-16% ואיבדה כבר למעלה ממיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557727",
      "date": "2026-09-28T11:47:00+00:00"
     },
@@ -112,11 +127,6 @@ window.DB.generated = {
      "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
      "date": "2026-09-28T11:26:00+00:00"
-    },
-    {
-     "title": "סערה בשווקים: החוזים על וול סטריט אדומים, נפט ברנט מעל 108 דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T11:00:00+00:00"
     },
     {
      "title": "חברת הסייבר ההתקפי שהקימו אהוד ברק ובכירי 8200 יוצאת לוול סטריט",
@@ -216,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T14:17:16+00:00",
-  "fetched_at": "2026-09-28T14:17:16+00:00"
+  "checked_at": "2026-09-28T15:17:29+00:00",
+  "fetched_at": "2026-09-28T15:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T14:17:17+00:00",
-  "fetched_at": "2026-09-28T14:17:17+00:00"
+  "checked_at": "2026-09-28T15:17:30+00:00",
+  "fetched_at": "2026-09-28T15:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2480,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T14:17:18+00:00",
-  "fetched_at": "2026-09-28T14:17:18+00:00"
+  "checked_at": "2026-09-28T15:17:32+00:00",
+  "fetched_at": "2026-09-28T15:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,15 +2571,23 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T14:17:18+00:00",
-  "fetched_at": "2026-09-28T14:17:18+00:00"
+  "checked_at": "2026-09-28T15:17:32+00:00",
+  "fetched_at": "2026-09-28T15:17:32+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-can-now-make-business-calls/",
+     "date": "2026-09-28T06:58:10+00:00",
+     "launch": false,
+     "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
+    }
+   ],
+   "candidates": 4,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2590,7 +2608,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 161,
+     "likes": 162,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2611,7 +2629,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 186,
+     "likes": 187,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2639,14 +2657,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 318,
+     "likes": 319,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T14:17:22+00:00",
-  "fetched_at": "2026-09-28T14:17:22+00:00"
+  "checked_at": "2026-09-28T15:17:40+00:00",
+  "fetched_at": "2026-09-28T15:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2951,8 +2969,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T14:17:20+00:00",
-  "fetched_at": "2026-09-28T14:17:20+00:00"
+  "checked_at": "2026-09-28T15:17:36+00:00",
+  "fetched_at": "2026-09-28T15:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -2983,7 +3001,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T14:17:21+00:00",
-  "fetched_at": "2026-09-28T14:17:21+00:00"
+  "checked_at": "2026-09-28T15:17:37+00:00",
+  "fetched_at": "2026-09-28T15:17:37+00:00"
  }
 };
