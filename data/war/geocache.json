@@ -508,6 +508,10 @@
 33.17,
 35.5242
 ],
+"metz, france": [
+49.1197,
+6.1764
+],
 "miami, united states": [
 25.7742,
 -80.1936
@@ -683,6 +687,7 @@
 47.261,
 39.7249
 ],
+"russia": null,
 "sajd, lebanon": null,
 "saluki, lebanon": null,
 "samara, russia": [
@@ -803,6 +808,7 @@
 54.315,
 48.4034
 ],
+"volyn oblast, ukraine": null,
 "voronezh region, russia": [
 44.9251,
 40.9834
