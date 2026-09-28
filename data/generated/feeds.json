@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T17:17:30+00:00",
-  "fetched_at": "2026-09-28T17:17:30+00:00"
+  "checked_at": "2026-09-28T18:17:21+00:00",
+  "fetched_at": "2026-09-28T18:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T17:17:43+00:00",
-  "fetched_at": "2026-09-28T17:17:43+00:00"
+  "checked_at": "2026-09-28T18:17:36+00:00",
+  "fetched_at": "2026-09-28T18:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -77,34 +77,44 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T17:17:43+00:00",
-  "fetched_at": "2026-09-28T17:17:43+00:00"
+  "checked_at": "2026-09-28T18:17:36+00:00",
+  "fetched_at": "2026-09-28T18:17:36+00:00"
  },
- "generated_at": "2026-09-28T17:17:43+00:00",
+ "generated_at": "2026-09-28T18:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557796",
-     "date": "2026-09-28T16:46:00+00:00"
+     "title": "המהפך של הולנד: ממדינה תומכת בישראל לחזית החרם נגד המוצרים מעבר לקו הירוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
+     "date": "2026-09-28T18:00:00+00:00"
     },
     {
      "title": "דיווח: צינור החמצן מאיראן לחיזבאללה - למרות הסנקציות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T16:10:00+00:00"
+     "date": "2026-09-28T17:24:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "וול סטריט נופלת בהובלת הנאסד\"ק; תשואות האג\"ח ל-10 שנים מזנקות לשיא של 19 שנה",
+     "title": "המהפך של הולנד: ממדינה תומכת בישראל לחזית החרם נגד המוצרים מעבר לקו הירוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
+     "date": "2026-09-28T18:00:00+00:00"
+    },
+    {
+     "title": "הטלטלה בשוק האג\"ח מתחילה לזלוג למניות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557779",
+     "date": "2026-09-28T17:39:00+00:00"
+    },
+    {
+     "title": "התאוששות קלה בוול סטריט על רקע טלטלה במחירי הנפט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T16:25:00+00:00"
+     "date": "2026-09-28T17:38:00+00:00"
     },
     {
      "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557796",
-     "date": "2026-09-28T16:00:00+00:00"
+     "date": "2026-09-28T16:46:00+00:00"
     },
     {
      "title": "שישה מומחי השקעות מנתחים את הזינוק בתשואות האג\"ח ואיך כדאי לפעול בעקבותיו",
@@ -192,21 +202,6 @@
      "date": "2026-09-28T02:36:00+00:00"
     },
     {
-     "title": "הקמת תשתיות הבינה המלאכותית הופכת להימור הכלכלי הגדול בתולדות ארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557648",
-     "date": "2026-09-27T16:00:00+00:00"
-    },
-    {
-     "title": "הפגישה הדרמטית עם רשות התחרות: מאחורי פיצוץ הסכם הגז בין ניו־מד לדליה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557669",
-     "date": "2026-09-27T15:00:00+00:00"
-    },
-    {
-     "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557555",
-     "date": "2026-09-27T12:35:00+00:00"
-    },
-    {
      "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
      "date": "2026-09-27T10:00:00+00:00"
@@ -219,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T17:17:31+00:00",
-  "fetched_at": "2026-09-28T17:17:31+00:00"
+  "checked_at": "2026-09-28T18:17:22+00:00",
+  "fetched_at": "2026-09-28T18:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T17:17:32+00:00",
-  "fetched_at": "2026-09-28T17:17:32+00:00"
+  "checked_at": "2026-09-28T18:17:23+00:00",
+  "fetched_at": "2026-09-28T18:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2473,8 +2468,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T17:17:33+00:00",
-  "fetched_at": "2026-09-28T17:17:33+00:00"
+  "checked_at": "2026-09-28T18:17:25+00:00",
+  "fetched_at": "2026-09-28T18:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2564,8 +2559,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T17:17:33+00:00",
-  "fetched_at": "2026-09-28T17:17:33+00:00"
+  "checked_at": "2026-09-28T18:17:25+00:00",
+  "fetched_at": "2026-09-28T18:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2576,16 +2571,25 @@
      "date": "2026-09-28T06:58:10+00:00",
      "launch": false,
      "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+     "date": "2026-09-28T07:00:00+00:00",
+     "launch": false,
+     "title_en": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+     "title_he": "מכון Lenfest מצמיח תוכנית ציון דרך עם תמיכת OpenAI מורחבת",
+     "translated_by": "google"
     }
    ],
-   "candidates": 4,
+   "candidates": 5,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 300,
+     "likes": 303,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2599,7 +2603,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 582,
+     "likes": 583,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2613,7 +2617,7 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2627,7 +2631,7 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 187,
+     "likes": 188,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2641,25 +2645,34 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 175,
+     "likes": 176,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 319,
+     "likes": 320,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T17:17:41+00:00",
-  "fetched_at": "2026-09-28T17:17:41+00:00"
+  "checked_at": "2026-09-28T18:17:34+00:00",
+  "fetched_at": "2026-09-28T18:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דני וולף: עונת הרוקי לא עמדה בציפיות שלי",
+     "link": "https://www.one.co.il/Article/534565.html?ref=rss",
+     "date": "2026-09-28T17:55:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני וולף"
+     ]
+    },
     {
      "title": "\"הארכת חוזה לאבדיה? יש מורכבות, זה לא רגיל\"",
      "link": "https://www.one.co.il/Article/534564.html?ref=rss",
@@ -2721,15 +2734,6 @@
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "בית\"ר ירושלים שוקלת לחזור לאופציית יהב גורפינקל",
-     "link": "https://sports.walla.co.il/item/3869936",
-     "date": "2026-09-27T06:42:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "יהב גורפינקל"
      ]
     },
     {
@@ -2978,8 +2982,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T17:17:37+00:00",
-  "fetched_at": "2026-09-28T17:17:37+00:00"
+  "checked_at": "2026-09-28T18:17:28+00:00",
+  "fetched_at": "2026-09-28T18:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -3010,7 +3014,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T17:17:38+00:00",
-  "fetched_at": "2026-09-28T17:17:38+00:00"
+  "checked_at": "2026-09-28T18:17:29+00:00",
+  "fetched_at": "2026-09-28T18:17:29+00:00"
  }
 }
