@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T13:17:11+00:00",
-  "fetched_at": "2026-09-28T13:17:11+00:00"
+  "checked_at": "2026-09-28T14:17:15+00:00",
+  "fetched_at": "2026-09-28T14:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T13:17:22+00:00",
-  "fetched_at": "2026-09-28T13:17:22+00:00"
+  "checked_at": "2026-09-28T14:17:22+00:00",
+  "fetched_at": "2026-09-28T14:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T13:17:25+00:00",
-  "fetched_at": "2026-09-28T13:17:25+00:00"
+  "checked_at": "2026-09-28T14:17:22+00:00",
+  "fetched_at": "2026-09-28T14:17:22+00:00"
  },
- "generated_at": "2026-09-28T13:17:25+00:00",
+ "generated_at": "2026-09-28T14:17:22+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "דיווח: רה\"מ ביקש מנשיא האמירויות להכחיש שהתריע לו לפני ה-7 באוקטובר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T12:42:00+00:00"
+     "date": "2026-09-28T13:57:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T13:17:12+00:00",
-  "fetched_at": "2026-09-28T13:17:12+00:00"
+  "checked_at": "2026-09-28T14:17:16+00:00",
+  "fetched_at": "2026-09-28T14:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T13:17:13+00:00",
-  "fetched_at": "2026-09-28T13:17:13+00:00"
+  "checked_at": "2026-09-28T14:17:17+00:00",
+  "fetched_at": "2026-09-28T14:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T13:17:14+00:00",
-  "fetched_at": "2026-09-28T13:17:14+00:00"
+  "checked_at": "2026-09-28T14:17:18+00:00",
+  "fetched_at": "2026-09-28T14:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,42 +2561,36 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T13:17:14+00:00",
-  "fetched_at": "2026-09-28T13:17:14+00:00"
+  "checked_at": "2026-09-28T14:17:18+00:00",
+  "fetched_at": "2026-09-28T14:17:18+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-gemini-can-now-make-business-calls/",
-     "date": "2026-09-28T06:58:10+00:00",
-     "launch": false,
-     "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
-    }
+   "news": [],
+   "candidates": 0,
+   "failed_sources": [
+    "גיקטיים"
    ],
-   "candidates": 4,
-   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 288,
+     "likes": 292,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 234,
+     "likes": 235,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 162,
+     "likes": 161,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2610,7 +2604,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 158,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2631,7 +2625,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 92,
+     "likes": 94,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2642,17 +2636,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "Omni Video Factory",
-     "desc_en": "text to video, image to video, video extend",
-     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 84,
-     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 318,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T13:17:21+00:00",
-  "fetched_at": "2026-09-28T13:17:21+00:00"
+  "checked_at": "2026-09-28T14:17:22+00:00",
+  "fetched_at": "2026-09-28T14:17:22+00:00"
  },
  "abroad": {
   "data": {
@@ -2957,8 +2951,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T13:17:17+00:00",
-  "fetched_at": "2026-09-28T13:17:17+00:00"
+  "checked_at": "2026-09-28T14:17:20+00:00",
+  "fetched_at": "2026-09-28T14:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2989,7 +2983,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T13:17:18+00:00",
-  "fetched_at": "2026-09-28T13:17:18+00:00"
+  "checked_at": "2026-09-28T14:17:21+00:00",
+  "fetched_at": "2026-09-28T14:17:21+00:00"
  }
 };
