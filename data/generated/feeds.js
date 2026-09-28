@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:28:57+00:00",
-  "fetched_at": "2026-09-28T05:28:57+00:00"
+  "checked_at": "2026-09-28T06:17:29+00:00",
+  "fetched_at": "2026-09-28T06:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:29:10+00:00",
-  "fetched_at": "2026-09-28T05:29:10+00:00"
+  "checked_at": "2026-09-28T06:17:40+00:00",
+  "fetched_at": "2026-09-28T06:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,27 +79,37 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:29:11+00:00",
-  "fetched_at": "2026-09-28T05:29:11+00:00"
+  "checked_at": "2026-09-28T06:17:41+00:00",
+  "fetched_at": "2026-09-28T06:17:41+00:00"
  },
- "generated_at": "2026-09-28T05:29:11+00:00",
+ "generated_at": "2026-09-28T06:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
-     "date": "2026-09-28T02:36:00+00:00"
+     "title": "שיווקי הקרקעות לדיור נחתכו בחדות וגם בליץ סוף השנה לא צפוי להציל את המצב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557665",
+     "date": "2026-09-28T06:12:00+00:00"
     },
     {
      "title": "ראש המודיעין המצרי הזהיר את נתניהו ימים לפני הטבח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T04:26:00+00:00"
+     "date": "2026-09-28T05:49:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "title": "מיליארדר בן 77 מסביר למה הוא נחוש להמשיך לעבוד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557703",
+     "date": "2026-09-28T05:35:00+00:00"
+    },
+    {
+     "title": "עסקה גדולה לקרן אלומה: רוכשת חברה בת של OPC ב-272 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557697",
+     "date": "2026-09-28T05:31:00+00:00"
+    },
+    {
+     "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח: חמישה דברים לקראת יום המסחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
      "date": "2026-09-28T05:13:00+00:00"
     },
@@ -199,25 +209,15 @@ window.DB.generated = {
      "date": "2026-09-26T13:00:00+00:00"
     },
     {
-     "title": "ההטבות על מס הרכוש עומדות לפקוע, וניו יורק תתייקר עוד יותר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557128",
-     "date": "2026-09-26T10:02:00+00:00"
-    },
-    {
      "title": "וול סטריט נועלת שבוע חיובי למרות הזינוק בתשואות האג\"ח והחשש מהעלאת ריבית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
      "date": "2026-09-25T20:00:00+00:00"
-    },
-    {
-     "title": "דרמה בשוק האנרגיה: שותפות לוויתן מבטלת עסקת ענק של 6.7 מיליארד דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557619",
-     "date": "2026-09-25T10:10:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:28:58+00:00",
-  "fetched_at": "2026-09-28T05:28:58+00:00"
+  "checked_at": "2026-09-28T06:17:30+00:00",
+  "fetched_at": "2026-09-28T06:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:28:59+00:00",
-  "fetched_at": "2026-09-28T05:28:59+00:00"
+  "checked_at": "2026-09-28T06:17:31+00:00",
+  "fetched_at": "2026-09-28T06:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2099,10 +2099,10 @@ window.DB.generated = {
    },
    {
     "date": "2026-09-30",
-    "time": "01:30",
+    "time": "03:30",
     "channel": "ספורט 5",
     "sport": "כדורסל",
-    "title": "אינדיאנה פיבר - לאס וגאס אייסז"
+    "title": "ניו יורק ליברטי - מינסוטה לינקס"
    },
    {
     "date": "2026-09-30",
@@ -2463,8 +2463,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:29:01+00:00",
-  "fetched_at": "2026-09-28T05:29:01+00:00"
+  "checked_at": "2026-09-28T06:17:32+00:00",
+  "fetched_at": "2026-09-28T06:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2554,8 +2554,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:29:01+00:00",
-  "fetched_at": "2026-09-28T05:29:01+00:00"
+  "checked_at": "2026-09-28T06:17:32+00:00",
+  "fetched_at": "2026-09-28T06:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2569,9 +2569,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2591,7 +2589,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 155,
+     "likes": 156,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2612,7 +2610,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 151,
+     "likes": 153,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2637,17 +2635,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "Omni Video Factory",
-     "desc_en": "text to video, image to video, video extend",
-     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 84,
-     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+     "title": "StepAudio 3 Music Studio",
+     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
+     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
+     "likes": 157,
+     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:29:09+00:00",
-  "fetched_at": "2026-09-28T05:29:09+00:00"
+  "checked_at": "2026-09-28T06:17:39+00:00",
+  "fetched_at": "2026-09-28T06:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2934,8 +2932,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:29:05+00:00",
-  "fetched_at": "2026-09-28T05:29:05+00:00"
+  "checked_at": "2026-09-28T06:17:35+00:00",
+  "fetched_at": "2026-09-28T06:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2966,7 +2964,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:29:06+00:00",
-  "fetched_at": "2026-09-28T05:29:06+00:00"
+  "checked_at": "2026-09-28T06:17:36+00:00",
+  "fetched_at": "2026-09-28T06:17:36+00:00"
  }
 };
