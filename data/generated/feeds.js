@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:17:19+00:00",
-  "fetched_at": "2026-09-28T19:17:19+00:00"
+  "checked_at": "2026-09-28T19:42:01+00:00",
+  "fetched_at": "2026-09-28T19:42:01+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:17:41+00:00",
-  "fetched_at": "2026-09-28T19:17:41+00:00"
+  "checked_at": "2026-09-28T19:42:11+00:00",
+  "fetched_at": "2026-09-28T19:42:11+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:17:41+00:00",
-  "fetched_at": "2026-09-28T19:17:41+00:00"
+  "checked_at": "2026-09-28T19:42:12+00:00",
+  "fetched_at": "2026-09-28T19:42:12+00:00"
  },
- "generated_at": "2026-09-28T19:17:41+00:00",
+ "generated_at": "2026-09-28T19:42:12+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-28T18:00:00+00:00"
     },
     {
-     "title": "דיווח: צינור החמצן מאיראן לחיזבאללה - למרות הסנקציות",
+     "title": "הגרעין חוזר לשולחן: ההצעה של טראמפ לאיראן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T18:52:00+00:00"
+     "date": "2026-09-28T19:17:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:17:21+00:00",
-  "fetched_at": "2026-09-28T19:17:21+00:00"
+  "checked_at": "2026-09-28T19:42:03+00:00",
+  "fetched_at": "2026-09-28T19:42:03+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:17:22+00:00",
-  "fetched_at": "2026-09-28T19:17:22+00:00"
+  "checked_at": "2026-09-28T19:42:03+00:00",
+  "fetched_at": "2026-09-28T19:42:03+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:17:25+00:00",
-  "fetched_at": "2026-09-28T19:17:25+00:00"
+  "checked_at": "2026-09-28T19:42:04+00:00",
+  "fetched_at": "2026-09-28T19:42:04+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,8 +2561,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:17:25+00:00",
-  "fetched_at": "2026-09-28T19:17:25+00:00"
+  "checked_at": "2026-09-28T19:42:04+00:00",
+  "fetched_at": "2026-09-28T19:42:04+00:00"
  },
  "ai": {
   "data": {
@@ -2585,9 +2585,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 6,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2649,7 +2647,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 176,
+     "likes": 177,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2662,8 +2660,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:17:36+00:00",
-  "fetched_at": "2026-09-28T19:17:36+00:00"
+  "checked_at": "2026-09-28T19:42:10+00:00",
+  "fetched_at": "2026-09-28T19:42:10+00:00"
  },
  "abroad": {
   "data": {
@@ -2986,8 +2984,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T19:17:29+00:00",
-  "fetched_at": "2026-09-28T19:17:29+00:00"
+  "checked_at": "2026-09-28T19:42:07+00:00",
+  "fetched_at": "2026-09-28T19:42:07+00:00"
  },
  "idf": {
   "data": [
@@ -3018,7 +3016,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T19:17:30+00:00",
-  "fetched_at": "2026-09-28T19:17:30+00:00"
+  "checked_at": "2026-09-28T19:42:08+00:00",
+  "fetched_at": "2026-09-28T19:42:08+00:00"
  }
 };
