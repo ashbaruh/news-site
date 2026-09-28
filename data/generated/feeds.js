@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T20:17:23+00:00",
-  "fetched_at": "2026-09-28T20:17:23+00:00"
+  "checked_at": "2026-09-28T21:17:27+00:00",
+  "fetched_at": "2026-09-28T21:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T20:17:37+00:00",
-  "fetched_at": "2026-09-28T20:17:37+00:00"
+  "checked_at": "2026-09-28T21:17:36+00:00",
+  "fetched_at": "2026-09-28T21:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T20:17:38+00:00",
-  "fetched_at": "2026-09-28T20:17:38+00:00"
+  "checked_at": "2026-09-28T21:17:36+00:00",
+  "fetched_at": "2026-09-28T21:17:36+00:00"
  },
- "generated_at": "2026-09-28T20:17:38+00:00",
+ "generated_at": "2026-09-28T21:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T20:17:25+00:00",
-  "fetched_at": "2026-09-28T20:17:25+00:00"
+  "checked_at": "2026-09-28T21:17:28+00:00",
+  "fetched_at": "2026-09-28T21:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,123 +1861,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T20:17:26+00:00",
-  "fetched_at": "2026-09-28T20:17:26+00:00"
+  "checked_at": "2026-09-28T21:17:29+00:00",
+  "fetched_at": "2026-09-28T21:17:29+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-28",
-    "time": "02:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "קולומבוס קרו - אינטר מיאמי"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "הפועל כפר שלם - מכבי יפו"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "זימבבואה - הרפובליקה הדמוקרטית של קונגו"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "גיאורגיה - אוקראינה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "לטביה - קפריסין"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "ארמניה - מונטנגרו"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "הפועל כפר סבא - בני יהודה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מכבי קריית גת - מ.ס. כפר קאסם"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "19:45",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי בני ריינה - הפועל רעננה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "20:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "עירוני נס ציונה - הפועל גליל עליון"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "21:30",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "לגאנס - קסטיון"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "בלגיה - צרפת"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "טורקיה - איטליה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "21:45",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "צפון אירלנד - הונגריה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "21:45",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "רומניה - בוסניה-הרצגובינה"
-   },
-   {
-    "date": "2026-09-28",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "טוניסיה - בוצואנה"
-   },
    {
     "date": "2026-09-29",
     "time": "17:00",
@@ -2148,6 +2036,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-01",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ארגנטינה - בוליביה"
+   },
+   {
+    "date": "2026-10-01",
     "time": "04:00",
     "channel": "ספורט 5+",
     "sport": "כדורסל",
@@ -2166,20 +2061,6 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "אזרבייג'אן - ליכטנשטיין"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "בני יהודה - מכבי קריית גת"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - הפועל כפר סבא"
    },
    {
     "date": "2026-10-01",
@@ -2222,6 +2103,20 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מכבי אחי נצרת - עירוני מודיעין"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מכבי קריית גת"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית ים - הפועל כפר סבא"
    },
    {
     "date": "2026-10-01",
@@ -2428,6 +2323,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-03",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - עירוני נס ציונה"
+   },
+   {
+    "date": "2026-10-03",
     "time": "21:30",
     "channel": "ספורט 5+",
     "sport": "כדורסל",
@@ -2463,6 +2365,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-04",
+    "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - הפועל ירושלים"
+   },
+   {
+    "date": "2026-10-04",
     "time": "21:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
@@ -2470,8 +2379,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T20:17:28+00:00",
-  "fetched_at": "2026-09-28T20:17:28+00:00"
+  "checked_at": "2026-09-28T21:17:29+00:00",
+  "fetched_at": "2026-09-28T21:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,8 +2470,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T20:17:28+00:00",
-  "fetched_at": "2026-09-28T20:17:28+00:00"
+  "checked_at": "2026-09-28T21:17:29+00:00",
+  "fetched_at": "2026-09-28T21:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2591,7 +2500,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 305,
+     "likes": 306,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2605,7 +2514,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 583,
+     "likes": 585,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2619,14 +2528,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 165,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 101,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2640,7 +2549,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 98,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2654,14 +2563,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 321,
+     "likes": 322,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T20:17:36+00:00",
-  "fetched_at": "2026-09-28T20:17:36+00:00"
+  "checked_at": "2026-09-28T21:17:35+00:00",
+  "fetched_at": "2026-09-28T21:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -3002,8 +2911,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T20:17:31+00:00",
-  "fetched_at": "2026-09-28T20:17:31+00:00"
+  "checked_at": "2026-09-28T21:17:32+00:00",
+  "fetched_at": "2026-09-28T21:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3034,7 +2943,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T20:17:32+00:00",
-  "fetched_at": "2026-09-28T20:17:32+00:00"
+  "checked_at": "2026-09-28T21:17:33+00:00",
+  "fetched_at": "2026-09-28T21:17:33+00:00"
  }
 };
