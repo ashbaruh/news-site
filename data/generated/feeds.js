@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T02:17:14+00:00",
-  "fetched_at": "2026-09-28T02:17:14+00:00"
+  "checked_at": "2026-09-28T03:17:28+00:00",
+  "fetched_at": "2026-09-28T03:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T02:17:22+00:00",
-  "fetched_at": "2026-09-28T02:17:22+00:00"
+  "checked_at": "2026-09-28T03:17:40+00:00",
+  "fetched_at": "2026-09-28T03:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,49 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T02:17:23+00:00",
-  "fetched_at": "2026-09-28T02:17:23+00:00"
+  "checked_at": "2026-09-28T03:17:41+00:00",
+  "fetched_at": "2026-09-28T03:17:41+00:00"
  },
- "generated_at": "2026-09-28T02:17:23+00:00",
+ "generated_at": "2026-09-28T03:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות מחר?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
-     "date": "2026-09-27T18:00:00+00:00"
+     "title": "החברה המשפחתית הכפילה את שוויה והפכה את הבעלים למיליארדר על הנייר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
+     "date": "2026-09-28T02:36:00+00:00"
     },
     {
-     "title": "החשש: חיזבאללה ינסה להצית את הגזרה בתקופה הקרובה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557629",
-     "date": "2026-09-27T18:51:00+00:00"
+     "title": "ראש הממשלה המריא לאבו דאבי - ונפגש עם נשיא האמירויות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
+     "date": "2026-09-28T02:29:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "הפעם גם הקסמים לא יעזרו? יגאל דמרי מתקרב בצעדי ענק להדחה ממדד ת\"א 35",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557692",
+     "date": "2026-09-28T02:42:00+00:00"
+    },
+    {
+     "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות היום?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
+     "date": "2026-09-28T02:39:00+00:00"
+    },
+    {
+     "title": "החברה המשפחתית הכפילה את שוויה והפכה את הבעלים למיליארדר על הנייר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
+     "date": "2026-09-28T02:36:00+00:00"
+    },
+    {
+     "title": "הקמת תשתיות הבינה המלאכותית הופכת להימור הכלכלי הגדול בתולדות ארה\"ב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557648",
+     "date": "2026-09-27T16:00:00+00:00"
+    },
+    {
      "title": "הפגישה הדרמטית עם רשות התחרות: מאחורי פיצוץ הסכם הגז בין ניו־מד לדליה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557669",
      "date": "2026-09-27T15:00:00+00:00"
-    },
-    {
-     "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות מחר?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
-     "date": "2026-09-27T14:00:00+00:00"
     },
     {
      "title": "בין ה\"החמצה\" של איל וולדמן לבוננזה של משקיעי סייברארק: מניות הפכו למטבע חזק בעסקאות רכישה",
@@ -184,11 +199,6 @@ window.DB.generated = {
      "date": "2026-09-26T10:02:00+00:00"
     },
     {
-     "title": "למה לקנות כשאפשר להדפיס? לאומת \"עשה זאת בעצמך\" יש פתרון לכל דבר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557500",
-     "date": "2026-09-26T04:48:00+00:00"
-    },
-    {
      "title": "וול סטריט נועלת שבוע חיובי למרות הזינוק בתשואות האג\"ח והחשש מהעלאת ריבית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557535",
      "date": "2026-09-25T20:00:00+00:00"
@@ -204,25 +214,15 @@ window.DB.generated = {
      "date": "2026-09-25T04:11:00+00:00"
     },
     {
-     "title": "באיזו עיר התושבים בישראל הכי מרוצים מהעירייה שלהם?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557123",
-     "date": "2026-09-25T04:01:00+00:00"
-    },
-    {
      "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
      "date": "2026-09-25T03:59:00+00:00"
-    },
-    {
-     "title": "הבורסה ננעלה בירידות חדות, על רקע סערת האג\"ח העולמית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557405",
-     "date": "2026-09-24T14:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T02:17:15+00:00",
-  "fetched_at": "2026-09-28T02:17:15+00:00"
+  "checked_at": "2026-09-28T03:17:29+00:00",
+  "fetched_at": "2026-09-28T03:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T02:17:15+00:00",
-  "fetched_at": "2026-09-28T02:17:15+00:00"
+  "checked_at": "2026-09-28T03:17:30+00:00",
+  "fetched_at": "2026-09-28T03:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2468,8 +2468,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T02:17:16+00:00",
-  "fetched_at": "2026-09-28T02:17:16+00:00"
+  "checked_at": "2026-09-28T03:17:32+00:00",
+  "fetched_at": "2026-09-28T03:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2559,8 +2559,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T02:17:16+00:00",
-  "fetched_at": "2026-09-28T02:17:16+00:00"
+  "checked_at": "2026-09-28T03:17:32+00:00",
+  "fetched_at": "2026-09-28T03:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2574,27 +2574,29 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 275,
+     "likes": 276,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 229,
+     "likes": 230,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 152,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2615,14 +2617,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 93,
+     "likes": 94,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2649,8 +2651,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T02:17:21+00:00",
-  "fetched_at": "2026-09-28T02:17:21+00:00"
+  "checked_at": "2026-09-28T03:17:39+00:00",
+  "fetched_at": "2026-09-28T03:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2946,8 +2948,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T02:17:18+00:00",
-  "fetched_at": "2026-09-28T02:17:18+00:00"
+  "checked_at": "2026-09-28T03:17:35+00:00",
+  "fetched_at": "2026-09-28T03:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2978,7 +2980,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T02:17:19+00:00",
-  "fetched_at": "2026-09-28T02:17:19+00:00"
+  "checked_at": "2026-09-28T03:17:36+00:00",
+  "fetched_at": "2026-09-28T03:17:36+00:00"
  }
 };
