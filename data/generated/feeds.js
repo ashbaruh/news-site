@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:17:24+00:00",
-  "fetched_at": "2026-09-28T05:17:24+00:00"
+  "checked_at": "2026-09-28T05:28:57+00:00",
+  "fetched_at": "2026-09-28T05:28:57+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:17:35+00:00",
-  "fetched_at": "2026-09-28T05:17:35+00:00"
+  "checked_at": "2026-09-28T05:29:10+00:00",
+  "fetched_at": "2026-09-28T05:29:10+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:17:36+00:00",
-  "fetched_at": "2026-09-28T05:17:36+00:00"
+  "checked_at": "2026-09-28T05:29:11+00:00",
+  "fetched_at": "2026-09-28T05:29:11+00:00"
  },
- "generated_at": "2026-09-28T05:17:36+00:00",
+ "generated_at": "2026-09-28T05:29:11+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
+     "date": "2026-09-28T05:13:00+00:00"
+    },
     {
      "title": "מצב השווקים: בורסת סיאול נופלת במעל 2%, מחירי הנפט מטפסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
@@ -207,17 +212,12 @@ window.DB.generated = {
      "title": "דרמה בשוק האנרגיה: שותפות לוויתן מבטלת עסקת ענק של 6.7 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557619",
      "date": "2026-09-25T10:10:00+00:00"
-    },
-    {
-     "title": "סחורה לוהטת: הבכירים שעוזבים את הבנק ומרוויחים הרבה יותר מהמנכ\"ל שלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557551",
-     "date": "2026-09-25T03:59:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:17:25+00:00",
-  "fetched_at": "2026-09-28T05:17:25+00:00"
+  "checked_at": "2026-09-28T05:28:58+00:00",
+  "fetched_at": "2026-09-28T05:28:58+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:17:25+00:00",
-  "fetched_at": "2026-09-28T05:17:25+00:00"
+  "checked_at": "2026-09-28T05:28:59+00:00",
+  "fetched_at": "2026-09-28T05:28:59+00:00"
  },
  "tv": {
   "data": [
@@ -2463,8 +2463,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:17:27+00:00",
-  "fetched_at": "2026-09-28T05:17:27+00:00"
+  "checked_at": "2026-09-28T05:29:01+00:00",
+  "fetched_at": "2026-09-28T05:29:01+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2554,8 +2554,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:17:27+00:00",
-  "fetched_at": "2026-09-28T05:17:27+00:00"
+  "checked_at": "2026-09-28T05:29:01+00:00",
+  "fetched_at": "2026-09-28T05:29:01+00:00"
  },
  "ai": {
   "data": {
@@ -2569,7 +2569,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 3,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2589,7 +2591,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 154,
+     "likes": 155,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2638,14 +2640,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:17:34+00:00",
-  "fetched_at": "2026-09-28T05:17:34+00:00"
+  "checked_at": "2026-09-28T05:29:09+00:00",
+  "fetched_at": "2026-09-28T05:29:09+00:00"
  },
  "abroad": {
   "data": {
@@ -2932,8 +2934,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T05:17:29+00:00",
-  "fetched_at": "2026-09-28T05:17:29+00:00"
+  "checked_at": "2026-09-28T05:29:05+00:00",
+  "fetched_at": "2026-09-28T05:29:05+00:00"
  },
  "idf": {
   "data": [
@@ -2964,7 +2966,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T05:17:30+00:00",
-  "fetched_at": "2026-09-28T05:17:30+00:00"
+  "checked_at": "2026-09-28T05:29:06+00:00",
+  "fetched_at": "2026-09-28T05:29:06+00:00"
  }
 };
