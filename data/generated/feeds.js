@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T16:17:18+00:00",
-  "fetched_at": "2026-09-28T16:17:18+00:00"
+  "checked_at": "2026-09-28T17:17:30+00:00",
+  "fetched_at": "2026-09-28T17:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T16:17:37+00:00",
-  "fetched_at": "2026-09-28T16:17:37+00:00"
+  "checked_at": "2026-09-28T17:17:43+00:00",
+  "fetched_at": "2026-09-28T17:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T16:17:38+00:00",
-  "fetched_at": "2026-09-28T16:17:38+00:00"
+  "checked_at": "2026-09-28T17:17:43+00:00",
+  "fetched_at": "2026-09-28T17:17:43+00:00"
  },
- "generated_at": "2026-09-28T16:17:38+00:00",
+ "generated_at": "2026-09-28T17:17:43+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557796",
-     "date": "2026-09-28T16:00:00+00:00"
+     "date": "2026-09-28T16:46:00+00:00"
     },
     {
      "title": "דיווח: צינור החמצן מאיראן לחיזבאללה - למרות הסנקציות",
@@ -99,6 +99,11 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "וול סטריט נופלת בהובלת הנאסד\"ק; תשואות האג\"ח ל-10 שנים מזנקות לשיא של 19 שנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
+     "date": "2026-09-28T16:25:00+00:00"
+    },
+    {
      "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557796",
      "date": "2026-09-28T16:00:00+00:00"
@@ -107,11 +112,6 @@ window.DB.generated = {
      "title": "שישה מומחי השקעות מנתחים את הזינוק בתשואות האג\"ח ואיך כדאי לפעול בעקבותיו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557732",
      "date": "2026-09-28T16:00:00+00:00"
-    },
-    {
-     "title": "וול סטריט מעמיקה את הירידות, אירופה נסחרת בירוק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T14:55:00+00:00"
     },
     {
      "title": "מנכ\"ל מליסרון אופיר שריד הלך לעולמו",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T16:17:19+00:00",
-  "fetched_at": "2026-09-28T16:17:19+00:00"
+  "checked_at": "2026-09-28T17:17:31+00:00",
+  "fetched_at": "2026-09-28T17:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T16:17:21+00:00",
-  "fetched_at": "2026-09-28T16:17:21+00:00"
+  "checked_at": "2026-09-28T17:17:32+00:00",
+  "fetched_at": "2026-09-28T17:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2474,10 +2474,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-28T16:17:27+00:00",
-  "fetched_at": "2026-09-28T15:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-28T17:17:33+00:00",
+  "fetched_at": "2026-09-28T17:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2567,8 +2566,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T16:17:27+00:00",
-  "fetched_at": "2026-09-28T16:17:27+00:00"
+  "checked_at": "2026-09-28T17:17:33+00:00",
+  "fetched_at": "2026-09-28T17:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2588,22 +2587,15 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 296,
+     "likes": 300,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 236,
+     "likes": 238,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 163,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2613,18 +2605,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 162,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+    },
+    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 162,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 187,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
@@ -2634,17 +2626,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 187,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 174,
+     "likes": 175,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2657,12 +2656,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T16:17:34+00:00",
-  "fetched_at": "2026-09-28T16:17:34+00:00"
+  "checked_at": "2026-09-28T17:17:41+00:00",
+  "fetched_at": "2026-09-28T17:17:41+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"הארכת חוזה לאבדיה? יש מורכבות, זה לא רגיל\"",
+     "link": "https://www.one.co.il/Article/534564.html?ref=rss",
+     "date": "2026-09-28T17:07:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "הג'נרל מנג'ר של פורטלנד: \"החוזה של דני אבדיה בנוי בצורה מסובכת\"",
+     "link": "https://sports.walla.co.il/item/3870135",
+     "date": "2026-09-28T16:55:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "אנטיפה נגד מנור סולומון: \"תומך בגלוי ברצח העם בעזה\"",
      "link": "https://sports.walla.co.il/item/3870110",
@@ -2963,8 +2980,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T16:17:30+00:00",
-  "fetched_at": "2026-09-28T16:17:30+00:00"
+  "checked_at": "2026-09-28T17:17:37+00:00",
+  "fetched_at": "2026-09-28T17:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -2995,7 +3012,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T16:17:30+00:00",
-  "fetched_at": "2026-09-28T16:17:30+00:00"
+  "checked_at": "2026-09-28T17:17:38+00:00",
+  "fetched_at": "2026-09-28T17:17:38+00:00"
  }
 };
