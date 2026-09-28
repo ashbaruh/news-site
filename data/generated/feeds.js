@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:01:09+00:00",
-  "fetched_at": "2026-09-28T12:01:09+00:00"
+  "checked_at": "2026-09-28T12:17:15+00:00",
+  "fetched_at": "2026-09-28T12:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:01:19+00:00",
-  "fetched_at": "2026-09-28T12:01:19+00:00"
+  "checked_at": "2026-09-28T12:17:27+00:00",
+  "fetched_at": "2026-09-28T12:17:27+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Tribit’s new Bluetooth speaker is “designed to make music sound bigger without sacrificing portability”",
+    "title_he": "רמקול ה-Bluetooth החדש של Tribit \"נועד לגרום למוזיקה להישמע גדול יותר מבלי לוותר על הניידות\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/tribits-new-bluetooth-speaker-is-designed-to-make-music-sound-bigger-without-sacrificing-portability",
+    "date": "2026-09-28T12:08:28+00:00"
+   },
    {
     "title_en": "Sennheiser Momentum True Wireless 5 vs Sony WF-1000XM6: which five-star earbuds are better?",
     "title_he": "Sennheiser Momentum True Wireless 5 לעומת Sony WF-1000XM6: אילו אוזניות חמישה כוכבים טובות יותר?",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/hi-fi/dacs/audioquest-dragonfly-copper",
     "date": "2026-09-28T08:37:02+00:00"
-   },
-   {
-    "title_en": "After nearly half a decade, the small, next-gen OLED TVs I've been waiting for are finally here",
-    "title_he": "אחרי כמעט חצי עשור, טלוויזיות ה-OLED הקטנות מהדור הבא שחיכיתי להן סוף סוף כאן",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/after-nearly-half-a-decade-the-small-next-gen-oled-tvs-ive-been-waiting-for-are-finally-here",
-    "date": "2026-09-26T16:46:24+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:01:20+00:00",
-  "fetched_at": "2026-09-28T12:01:20+00:00"
+  "checked_at": "2026-09-28T12:17:28+00:00",
+  "fetched_at": "2026-09-28T12:17:28+00:00"
  },
- "generated_at": "2026-09-28T12:01:20+00:00",
+ "generated_at": "2026-09-28T12:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:01:09+00:00",
-  "fetched_at": "2026-09-28T12:01:09+00:00"
+  "checked_at": "2026-09-28T12:17:16+00:00",
+  "fetched_at": "2026-09-28T12:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:01:10+00:00",
-  "fetched_at": "2026-09-28T12:01:10+00:00"
+  "checked_at": "2026-09-28T12:17:17+00:00",
+  "fetched_at": "2026-09-28T12:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:01:11+00:00",
-  "fetched_at": "2026-09-28T12:01:11+00:00"
+  "checked_at": "2026-09-28T12:17:18+00:00",
+  "fetched_at": "2026-09-28T12:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2561,8 +2561,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:01:11+00:00",
-  "fetched_at": "2026-09-28T12:01:11+00:00"
+  "checked_at": "2026-09-28T12:17:18+00:00",
+  "fetched_at": "2026-09-28T12:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2624,7 +2624,7 @@ window.DB.generated = {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2651,8 +2651,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:01:18+00:00",
-  "fetched_at": "2026-09-28T12:01:18+00:00"
+  "checked_at": "2026-09-28T12:17:26+00:00",
+  "fetched_at": "2026-09-28T12:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2948,8 +2948,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T12:01:14+00:00",
-  "fetched_at": "2026-09-28T12:01:14+00:00"
+  "checked_at": "2026-09-28T12:17:21+00:00",
+  "fetched_at": "2026-09-28T12:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2980,7 +2980,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T12:01:15+00:00",
-  "fetched_at": "2026-09-28T12:01:15+00:00"
+  "checked_at": "2026-09-28T12:17:22+00:00",
+  "fetched_at": "2026-09-28T12:17:22+00:00"
  }
 };
