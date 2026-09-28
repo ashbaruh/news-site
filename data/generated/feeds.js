@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T06:17:29+00:00",
-  "fetched_at": "2026-09-28T06:17:29+00:00"
+  "checked_at": "2026-09-28T07:17:14+00:00",
+  "fetched_at": "2026-09-28T07:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T06:17:40+00:00",
-  "fetched_at": "2026-09-28T06:17:40+00:00"
+  "checked_at": "2026-09-28T07:17:22+00:00",
+  "fetched_at": "2026-09-28T07:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T06:17:41+00:00",
-  "fetched_at": "2026-09-28T06:17:41+00:00"
+  "checked_at": "2026-09-28T07:17:23+00:00",
+  "fetched_at": "2026-09-28T07:17:23+00:00"
  },
- "generated_at": "2026-09-28T06:17:41+00:00",
+ "generated_at": "2026-09-28T07:17:23+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,19 @@ window.DB.generated = {
      "date": "2026-09-28T06:12:00+00:00"
     },
     {
-     "title": "ראש המודיעין המצרי הזהיר את נתניהו ימים לפני הטבח",
+     "title": "איראן הציבה תנאי: \"שישראל לא תתקוף אותנו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T05:49:00+00:00"
+     "date": "2026-09-28T07:11:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מיליארדר בן 77 מסביר למה הוא נחוש להמשיך לעבוד",
+     "title": "פתיחה שלילית בתל אביב; מדד ת\"א־נפט וגז יורד במעל 1%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
+     "date": "2026-09-28T07:07:00+00:00"
+    },
+    {
+     "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557703",
      "date": "2026-09-28T05:35:00+00:00"
     },
@@ -107,11 +112,6 @@ window.DB.generated = {
      "title": "עסקה גדולה לקרן אלומה: רוכשת חברה בת של OPC ב-272 מיליון שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557697",
      "date": "2026-09-28T05:31:00+00:00"
-    },
-    {
-     "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח: חמישה דברים לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T05:13:00+00:00"
     },
     {
      "title": "מצב השווקים: בורסת סיאול נופלת במעל 2%, מחירי הנפט מטפסים",
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T06:17:30+00:00",
-  "fetched_at": "2026-09-28T06:17:30+00:00"
+  "checked_at": "2026-09-28T07:17:15+00:00",
+  "fetched_at": "2026-09-28T07:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T06:17:31+00:00",
-  "fetched_at": "2026-09-28T06:17:31+00:00"
+  "checked_at": "2026-09-28T07:17:16+00:00",
+  "fetched_at": "2026-09-28T07:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2462,8 +2462,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-28T06:17:32+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-09-28T07:17:16+00:00",
   "fetched_at": "2026-09-28T06:17:32+00:00"
  },
  "ligat_haal": {
@@ -2554,42 +2555,36 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T06:17:32+00:00",
-  "fetched_at": "2026-09-28T06:17:32+00:00"
+  "checked_at": "2026-09-28T07:17:16+00:00",
+  "fetched_at": "2026-09-28T07:17:16+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-halts-sota-models-due-to-misaligned-agents/",
-     "date": "2026-09-27T07:12:28+00:00",
-     "launch": false,
-     "title": "ב-OpenAI מודים: אנחנו עוצרים את פיתוח מודלי הענק שלנו אחרי שורת תקריות חמורות"
-    }
+   "news": [],
+   "candidates": 0,
+   "failed_sources": [
+    "גיקטיים"
    ],
-   "candidates": 3,
-   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 278,
+     "likes": 280,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 231,
+     "likes": 232,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 156,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2610,22 +2605,15 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 153,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 174,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Hum to Song",
@@ -2635,17 +2623,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
-     "title": "StepAudio 3 Music Studio",
-     "desc_en": "Create songs, arrange vocals, and remix music with StepFun",
-     "desc_he": "צור שירים, ארגן שירה ומיקס מוזיקה עם StepFun",
-     "likes": 157,
-     "link": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music"
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 174,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 316,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T06:17:39+00:00",
-  "fetched_at": "2026-09-28T06:17:39+00:00"
+  "checked_at": "2026-09-28T07:17:21+00:00",
+  "fetched_at": "2026-09-28T07:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2932,8 +2927,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T06:17:35+00:00",
-  "fetched_at": "2026-09-28T06:17:35+00:00"
+  "checked_at": "2026-09-28T07:17:19+00:00",
+  "fetched_at": "2026-09-28T07:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2964,7 +2959,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T06:17:36+00:00",
-  "fetched_at": "2026-09-28T06:17:36+00:00"
+  "checked_at": "2026-09-28T07:17:19+00:00",
+  "fetched_at": "2026-09-28T07:17:19+00:00"
  }
 };
