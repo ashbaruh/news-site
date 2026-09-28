@@ -144,6 +144,10 @@
 50.3512,
 30.9508
 ],
+"brovary, ukraine": [
+50.5111,
+30.79
+],
 "brussels, belgium": [
 50.8467,
 4.3525
@@ -281,6 +285,10 @@
 34.8089
 ],
 "hmeimim airbase, syria": null,
+"holubivka, ukraine": [
+48.6414,
+38.6479
+],
 "huliaipole, ukraine": [
 47.6655,
 36.2657
@@ -330,6 +338,10 @@
 "kapotnya, russia": [
 55.6367,
 37.7985
+],
+"katerynivka, ukraine": [
+47.8756,
+37.3456
 ],
 "kerch, crimea": [
 45.3563,
@@ -398,6 +410,10 @@
 "kryvyi rih, ukraine": [
 47.9103,
 33.3918
+],
+"kupiansk, ukraine": [
+49.7133,
+37.6142
 ],
 "kyiv oblast, ukraine": null,
 "kyiv region, ukraine": [
@@ -541,6 +557,14 @@
 40.7127,
 -74.006
 ],
+"nove, ukraine": [
+50.0334,
+32.6109
+],
+"novhorod-siverskyi, ukraine": [
+52.0043,
+33.278
+],
 "novofedorivka, ukraine": [
 45.0943,
 33.5752
@@ -630,6 +654,10 @@
 12.783,
 45.0315
 ],
+"ridkodub, ukraine": [
+49.1817,
+37.8043
+],
 "riyadh, saudi arabia": [
 24.6389,
 46.716
@@ -661,6 +689,10 @@
 "sejoud, lebanon": [
 33.4323,
 35.5355
+],
+"semenivka, ukraine": [
+52.1785,
+32.5776
 ],
 "shannon airport, ireland": [
 52.6987,
@@ -756,6 +788,10 @@
 "ulyanovsk, russia": [
 54.315,
 48.4034
+],
+"voronezh region, russia": [
+44.9251,
+40.9834
 ],
 "voronezh, russia": [
 51.68,
