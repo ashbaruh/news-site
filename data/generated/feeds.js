@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T16:17:12+00:00",
-  "fetched_at": "2026-09-29T16:17:12+00:00"
+  "checked_at": "2026-09-29T17:17:14+00:00",
+  "fetched_at": "2026-09-29T17:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T16:17:25+00:00",
-  "fetched_at": "2026-09-29T16:17:25+00:00"
+  "checked_at": "2026-09-29T17:17:26+00:00",
+  "fetched_at": "2026-09-29T17:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T16:17:26+00:00",
-  "fetched_at": "2026-09-29T16:17:26+00:00"
+  "checked_at": "2026-09-29T17:17:26+00:00",
+  "fetched_at": "2026-09-29T17:17:26+00:00"
  },
- "generated_at": "2026-09-29T16:17:26+00:00",
+ "generated_at": "2026-09-29T17:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אחרי הברקס של רשות החשמל: נחשפים התנאים החדשים להקמת חוות שרתים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557885",
-     "date": "2026-09-29T14:30:00+00:00"
+     "title": "מאות מימושים: עובדי חברת הסייבר קייטו ייפגשו עם 100 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557903",
+     "date": "2026-09-29T17:00:00+00:00"
     },
     {
      "title": "טראמפ: לאיראן לא יהיה נשק גרעיני. זה יסתיים בקרוב ומחירי הנפט יירדו מהר",
@@ -101,10 +101,15 @@ window.DB.generated = {
     {
      "title": "תשואת האג\"ח ל-30 שנה עולה לשיא חדש; וול סטריט עוברת לירידות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T15:48:00+00:00"
+     "date": "2026-09-29T17:07:00+00:00"
     },
     {
-     "title": "רשות שוק הון באזהרה חמורה לסוכנים: אל תנצלו לרעה את עסקת אלטשולר שחם",
+     "title": "רשות החברות לצים: נעצרו הדיונים בעסקת המכירה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557944",
+     "date": "2026-09-29T16:13:00+00:00"
+    },
+    {
+     "title": "על רקע עסקת אלטשולר שחם: רשות שוק ההון באזהרה חריפה לסוכני ביטוח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557905",
      "date": "2026-09-29T14:47:00+00:00"
     },
@@ -211,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T16:17:14+00:00",
-  "fetched_at": "2026-09-29T16:17:14+00:00"
+  "checked_at": "2026-09-29T17:17:15+00:00",
+  "fetched_at": "2026-09-29T17:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T16:17:15+00:00",
-  "fetched_at": "2026-09-29T16:17:15+00:00"
+  "checked_at": "2026-09-29T17:17:16+00:00",
+  "fetched_at": "2026-09-29T17:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2115,13 +2120,6 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-01",
-    "time": "20:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - ברצלונה"
-   },
-   {
-    "date": "2026-10-01",
     "time": "21:00",
     "channel": "5 סטארס",
     "sport": "כדורסל",
@@ -2196,6 +2194,13 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "קפריסין - ארמניה"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "20:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - ברצלונה"
    },
    {
     "date": "2026-10-02",
@@ -2381,8 +2386,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T16:17:16+00:00",
-  "fetched_at": "2026-09-29T16:17:16+00:00"
+  "checked_at": "2026-09-29T17:17:17+00:00",
+  "fetched_at": "2026-09-29T17:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2477,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T16:17:16+00:00",
-  "fetched_at": "2026-09-29T16:17:16+00:00"
+  "checked_at": "2026-09-29T17:17:17+00:00",
+  "fetched_at": "2026-09-29T17:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2496,15 +2501,13 @@ window.DB.generated = {
     }
    ],
    "candidates": 7,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 318,
+     "likes": 319,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2546,7 +2549,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 178,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2573,8 +2576,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T16:17:24+00:00",
-  "fetched_at": "2026-09-29T16:17:24+00:00"
+  "checked_at": "2026-09-29T17:17:24+00:00",
+  "fetched_at": "2026-09-29T17:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2879,8 +2882,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T16:17:20+00:00",
-  "fetched_at": "2026-09-29T16:17:20+00:00"
+  "checked_at": "2026-09-29T17:17:20+00:00",
+  "fetched_at": "2026-09-29T17:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2911,7 +2914,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T16:17:21+00:00",
-  "fetched_at": "2026-09-29T16:17:21+00:00"
+  "checked_at": "2026-09-29T17:17:21+00:00",
+  "fetched_at": "2026-09-29T17:17:21+00:00"
  }
 };
