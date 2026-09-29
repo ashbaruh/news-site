@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T08:17:11+00:00",
-  "fetched_at": "2026-09-29T08:17:11+00:00"
+  "checked_at": "2026-09-29T09:17:22+00:00",
+  "fetched_at": "2026-09-29T09:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T08:17:24+00:00",
-  "fetched_at": "2026-09-29T08:17:24+00:00"
+  "checked_at": "2026-09-29T09:17:37+00:00",
+  "fetched_at": "2026-09-29T09:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T08:17:24+00:00",
-  "fetched_at": "2026-09-29T08:17:24+00:00"
+  "checked_at": "2026-09-29T09:17:38+00:00",
+  "fetched_at": "2026-09-29T09:17:38+00:00"
  },
- "generated_at": "2026-09-29T08:17:24+00:00",
+ "generated_at": "2026-09-29T09:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "פריצה לאלפי חשבונות במיטב טרייד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
-     "date": "2026-09-29T07:08:00+00:00"
+     "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
+     "date": "2026-09-29T08:20:00+00:00"
     },
     {
      "title": "100 פורעים ישראלים תקפו לוחמים ושרפו בתים בכפר בשומרון",
@@ -99,24 +99,29 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "החשש מהסלמה במזרח התיכון מפיל את הבורסות באסיה; הנפט ממשיך לטפס",
+     "title": "ניסיון הפריצה למיטב טרייד: מה הלקוחות צריכים לדעת?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557821",
+     "date": "2026-09-29T09:12:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בבורסות אירופה; יציבות בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T07:22:00+00:00"
+     "date": "2026-09-29T08:42:00+00:00"
     },
     {
-     "title": "פתיחה חיובית בבורסת תל אביב: הבנקים בולטים לחיוב, מניות הביטחון מכבידות והדולר ממשיך לטפס",
+     "title": "מגמה חיובית בתל אביב בהובלת מניות הנדל\"ן; פאלו אלטו ואלקטרה נדל\"ן מזנקות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
-     "date": "2026-09-29T07:16:00+00:00"
-    },
-    {
-     "title": "פריצה לאלפי חשבונות במיטב טרייד; המניה צונחת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
-     "date": "2026-09-29T07:08:00+00:00"
+     "date": "2026-09-29T08:20:00+00:00"
     },
     {
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
-     "date": "2026-09-29T07:01:00+00:00"
+     "date": "2026-09-29T08:20:00+00:00"
+    },
+    {
+     "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
+     "date": "2026-09-29T07:08:00+00:00"
     },
     {
      "title": "לקראת הנפקת אנתרופיק: ההכנסות זינקו פי 12, ההפסד הנקי הגיע ל־42 מיליארד דולר, ועדיין החברה מזהירה מסכנה לאנושות",
@@ -174,11 +179,6 @@ window.DB.generated = {
      "date": "2026-09-28T12:13:00+00:00"
     },
     {
-     "title": "המניה שצנחה היום ב-16% ואיבדה כבר למעלה ממיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557727",
-     "date": "2026-09-28T11:47:00+00:00"
-    },
-    {
      "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
      "date": "2026-09-28T11:26:00+00:00"
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T08:17:12+00:00",
-  "fetched_at": "2026-09-29T08:17:12+00:00"
+  "checked_at": "2026-09-29T09:17:24+00:00",
+  "fetched_at": "2026-09-29T09:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T08:17:13+00:00",
-  "fetched_at": "2026-09-29T08:17:13+00:00"
+  "checked_at": "2026-09-29T09:17:25+00:00",
+  "fetched_at": "2026-09-29T09:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2269,13 +2269,6 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-03",
-    "time": "13:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "הודו - ברזיל"
-   },
-   {
-    "date": "2026-10-03",
     "time": "15:30",
     "channel": "ספורט 3",
     "sport": "כדורגל",
@@ -2287,6 +2280,13 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "פינלנד - אלבניה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "17:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הודו - ברזיל"
    },
    {
     "date": "2026-10-03",
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T08:17:16+00:00",
-  "fetched_at": "2026-09-29T08:17:16+00:00"
+  "checked_at": "2026-09-29T09:17:28+00:00",
+  "fetched_at": "2026-09-29T09:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T08:17:16+00:00",
-  "fetched_at": "2026-09-29T08:17:16+00:00"
+  "checked_at": "2026-09-29T09:17:28+00:00",
+  "fetched_at": "2026-09-29T09:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2496,13 +2496,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 8,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 309,
+     "likes": 311,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2571,12 +2573,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T08:17:23+00:00",
-  "fetched_at": "2026-09-29T08:17:23+00:00"
+  "checked_at": "2026-09-29T09:17:36+00:00",
+  "fetched_at": "2026-09-29T09:17:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דניאל פרץ מול האירים: החשש החדש בסאות'המפטון",
+     "link": "https://sports.walla.co.il/item/3870203",
+     "date": "2026-09-29T08:41:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "בלגן? \"פורטלנד חייבת להתייחס לדני אבדיה כאל הפנים של המועדון\"",
      "link": "https://sports.walla.co.il/item/3870178",
@@ -2665,15 +2676,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "דניאל פרץ: \"פגע בנו שרצינו יותר מדי. המחאות? אנשים בורים\"",
-     "link": "https://sports.walla.co.il/item/3870034",
-     "date": "2026-09-27T20:59:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -2913,8 +2915,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T08:17:19+00:00",
-  "fetched_at": "2026-09-29T08:17:19+00:00"
+  "checked_at": "2026-09-29T09:17:32+00:00",
+  "fetched_at": "2026-09-29T09:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2945,7 +2947,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T08:17:20+00:00",
-  "fetched_at": "2026-09-29T08:17:20+00:00"
+  "checked_at": "2026-09-29T09:17:33+00:00",
+  "fetched_at": "2026-09-29T09:17:33+00:00"
  }
 };
