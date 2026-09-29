@@ -52,6 +52,7 @@
 32.5639,
 35.0205
 ],
+"amur oblast, russia": null,
 "ankara, turkey": [
 39.9208,
 32.854
@@ -325,6 +326,10 @@
 32.6708,
 51.665
 ],
+"istanbul airport, turkey": [
+41.2749,
+28.7323
+],
 "istanbul, turkey": [
 41.0064,
 28.9759
@@ -518,6 +523,10 @@
 39.8269
 ],
 "meiss ej jabal, lebanon": [
+33.1756,
+35.5099
+],
+"meiss ej-jabal, lebanon": [
 33.1756,
 35.5099
 ],
@@ -799,6 +808,10 @@
 "taizz, yemen": [
 13.5752,
 44.0215
+],
+"tallinn, estonia": [
+59.4372,
+24.7573
 ],
 "tayr harfa, lebanon": [
 33.1337,
