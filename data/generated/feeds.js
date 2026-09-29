@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T04:17:22+00:00",
-  "fetched_at": "2026-09-29T04:17:22+00:00"
+  "checked_at": "2026-09-29T05:17:23+00:00",
+  "fetched_at": "2026-09-29T05:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T04:17:33+00:00",
-  "fetched_at": "2026-09-29T04:17:33+00:00"
+  "checked_at": "2026-09-29T05:17:35+00:00",
+  "fetched_at": "2026-09-29T05:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,35 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T04:17:34+00:00",
-  "fetched_at": "2026-09-29T04:17:34+00:00"
+  "checked_at": "2026-09-29T05:17:35+00:00",
+  "fetched_at": "2026-09-29T05:17:35+00:00"
  },
- "generated_at": "2026-09-29T04:17:34+00:00",
+ "generated_at": "2026-09-29T05:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "30% מהשטחים ממתינים לשוכר: מה לא נחגג בהשקת המגדל הגבוה בישראל",
+     "title": "עם 78 קומות: המגדל הגבוה בישראל מתחיל להתאכלס ועירייה אחת תרוויח במיוחד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557752",
      "date": "2026-09-29T02:49:00+00:00"
     },
     {
-     "title": "הצעת טראמפ לאיראן: הקלה בסנקציות תמורת ויתור בגרעין",
+     "title": "100 פורעים ישראלים תקפו לוחמים ושרפו בתים בכפר בשומרון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T03:00:00+00:00"
+     "date": "2026-09-29T05:13:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
+     "date": "2026-09-29T04:40:00+00:00"
+    },
+    {
+     "title": "החשש מהסלמה במזרח התיכון מפיל את הבורסות באסיה; הנפט ממשיך לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
+     "date": "2026-09-29T03:56:00+00:00"
+    },
     {
      "title": "האם אחרי שנים של אכזבות, מניית נייס משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
@@ -117,11 +127,6 @@ window.DB.generated = {
      "title": "נעילה אדומה בוול סטריט בהובלת הנאסד\"ק; תשואות האג\"ח בשיא של 19 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
      "date": "2026-09-28T20:11:00+00:00"
-    },
-    {
-     "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557703",
-     "date": "2026-09-28T18:38:00+00:00"
     },
     {
      "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
@@ -199,25 +204,15 @@ window.DB.generated = {
      "date": "2026-09-28T05:31:00+00:00"
     },
     {
-     "title": "עשרה ימים גורליים: שופרסל ויגאל דמרי בסכנת הדחה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557692",
-     "date": "2026-09-28T02:42:00+00:00"
-    },
-    {
      "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות היום?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
      "date": "2026-09-28T02:39:00+00:00"
-    },
-    {
-     "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
-     "date": "2026-09-28T02:36:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T04:17:23+00:00",
-  "fetched_at": "2026-09-29T04:17:23+00:00"
+  "checked_at": "2026-09-29T05:17:24+00:00",
+  "fetched_at": "2026-09-29T05:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T04:17:24+00:00",
-  "fetched_at": "2026-09-29T04:17:24+00:00"
+  "checked_at": "2026-09-29T05:17:25+00:00",
+  "fetched_at": "2026-09-29T05:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2379,8 +2374,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T04:17:25+00:00",
-  "fetched_at": "2026-09-29T04:17:25+00:00"
+  "checked_at": "2026-09-29T05:17:26+00:00",
+  "fetched_at": "2026-09-29T05:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2465,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T04:17:25+00:00",
-  "fetched_at": "2026-09-29T04:17:25+00:00"
+  "checked_at": "2026-09-29T05:17:26+00:00",
+  "fetched_at": "2026-09-29T05:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2494,7 +2489,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 7,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2563,14 +2560,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 325,
+     "likes": 326,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T04:17:33+00:00",
-  "fetched_at": "2026-09-29T04:17:33+00:00"
+  "checked_at": "2026-09-29T05:17:33+00:00",
+  "fetched_at": "2026-09-29T05:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2911,8 +2908,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T04:17:29+00:00",
-  "fetched_at": "2026-09-29T04:17:29+00:00"
+  "checked_at": "2026-09-29T05:17:29+00:00",
+  "fetched_at": "2026-09-29T05:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2943,7 +2940,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T04:17:30+00:00",
-  "fetched_at": "2026-09-29T04:17:30+00:00"
+  "checked_at": "2026-09-29T05:17:30+00:00",
+  "fetched_at": "2026-09-29T05:17:30+00:00"
  }
 };
