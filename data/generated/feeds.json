@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T13:17:27+00:00",
-  "fetched_at": "2026-09-29T13:17:27+00:00"
+  "checked_at": "2026-09-29T14:17:13+00:00",
+  "fetched_at": "2026-09-29T14:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -42,45 +42,45 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T13:17:39+00:00",
-  "fetched_at": "2026-09-29T13:17:39+00:00"
+  "checked_at": "2026-09-29T14:17:26+00:00",
+  "fetched_at": "2026-09-29T14:17:26+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Technics EAH-A1000",
+    "title_he": "טכניקות EAH-A1000",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
+    "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
+    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
+    "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "This ultra-premium cabinet is an all-in-one storage solution “engineered to keep your projector at its best”",
+    "title_he": "ארון אולטרה פרימיום זה הוא פתרון אחסון הכל-באחד \"הונדס כדי לשמור על המקרן שלך במיטבו\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/projectors/this-ultra-premium-cabinet-is-an-all-in-one-storage-solution-engineered-to-keep-your-projector-at-its-best",
+    "date": "2026-09-29T13:57:23+00:00"
+   },
    {
     "title_en": "Marshall’s premium Bluetooth speaker is built to get the party started – and keep it going long into the night",
     "title_he": "רמקול ה-Bluetooth המובחר של Marshall נבנה כדי להתחיל את המסיבה - ולשמור עליה לאורך כל הלילה",
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/marshalls-premium-bluetooth-speaker-is-built-to-get-the-party-started-and-keep-it-going-long-into-the-night",
     "date": "2026-09-29T12:00:00+00:00"
-   },
-   {
-    "title_en": "Your hi-fi, home cinema and TV questions answered – join our Sound Advice live Q&A this Friday",
-    "title_he": "תשובות לשאלות ההי-פי, הקולנוע הביתי והטלוויזיה שלכם - הצטרפו לשאלות ותשובות בשידור חי שלנו בנושא סאונד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/your-hi-fi-home-cinema-and-tv-questions-answered-join-our-sound-advice-live-q-and-a-this-friday",
-    "date": "2026-09-29T11:24:38+00:00"
-   },
-   {
-    "title_en": "Nothing's flagship wireless headphones are \"ludicrously over-engineered\" to deliver its \"best listening experience ever\"",
-    "title_he": "אוזניות הדגל האלחוטיות של שום דבר \"הונדסות יתר על המידה בצורה מגוחכת\" כדי לספק את \"חווית ההאזנה הטובה ביותר אי פעם\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/nothings-flagship-wireless-headphones-are-ludicrously-over-engineered-to-deliver-its-best-listening-experience-ever",
-    "date": "2026-09-29T09:43:39+00:00"
-   },
-   {
-    "title_en": "Bose’s new Noise Cancelling Wired Earbuds aim to “set a new standard for what wired earbuds can be”",
-    "title_he": "האוזניות החוטיות החדשות של Bose שואפות \"להגדיר סטנדרט חדש למה שיכולות להיות אוזניות חוטיות\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wired-earbuds/boses-new-noise-cancelling-wired-earbuds-aim-to-set-a-new-standard-for-what-wired-earbuds-can-be",
-    "date": "2026-09-28T15:21:23+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T13:17:40+00:00",
-  "fetched_at": "2026-09-29T13:17:40+00:00"
+  "checked_at": "2026-09-29T14:17:31+00:00",
+  "fetched_at": "2026-09-29T14:17:31+00:00"
  },
- "generated_at": "2026-09-29T13:17:40+00:00",
+ "generated_at": "2026-09-29T14:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,19 @@
     {
      "title": "גורמים במערכת הביטחון: \"לא יהיה מנוס מפעולה רחבה ברצועת עזה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T12:29:00+00:00"
+     "date": "2026-09-29T14:06:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות קלות בחוזים בניו יורק; מחירי הנפט ותשואות האג\"ח נסוגים",
+     "title": "יציבות בוול סטריט; מחירי הנפט יורדים, תשואות האג\"ח מטפסות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T12:55:00+00:00"
+     "date": "2026-09-29T13:55:00+00:00"
+    },
+    {
+     "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
+     "date": "2026-09-29T13:06:00+00:00"
     },
     {
      "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
@@ -130,11 +135,6 @@
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
      "date": "2026-09-29T08:20:00+00:00"
-    },
-    {
-     "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
-     "date": "2026-09-29T07:08:00+00:00"
     },
     {
      "title": "לקראת הנפקת אנתרופיק: ההכנסות זינקו פי 12, ההפסד הנקי הגיע ל־42 מיליארד דולר, ועדיין החברה מזהירה מסכנה לאנושות",
@@ -209,8 +209,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T13:17:28+00:00",
-  "fetched_at": "2026-09-29T13:17:28+00:00"
+  "checked_at": "2026-09-29T14:17:14+00:00",
+  "fetched_at": "2026-09-29T14:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1854,8 +1854,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T13:17:28+00:00",
-  "fetched_at": "2026-09-29T13:17:28+00:00"
+  "checked_at": "2026-09-29T14:17:15+00:00",
+  "fetched_at": "2026-09-29T14:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2379,8 +2379,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T13:17:30+00:00",
-  "fetched_at": "2026-09-29T13:17:30+00:00"
+  "checked_at": "2026-09-29T14:17:16+00:00",
+  "fetched_at": "2026-09-29T14:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2470,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T13:17:30+00:00",
-  "fetched_at": "2026-09-29T13:17:30+00:00"
+  "checked_at": "2026-09-29T14:17:16+00:00",
+  "fetched_at": "2026-09-29T14:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2494,13 +2494,15 @@
     }
    ],
    "candidates": 7,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 316,
+     "likes": 317,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2521,15 +2523,22 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 593,
+     "likes": 594,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 200,
+     "likes": 201,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 169,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2537,13 +2546,6 @@
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 177,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 168,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Hum to Song",
@@ -2569,21 +2571,12 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T13:17:38+00:00",
-  "fetched_at": "2026-09-29T13:17:38+00:00"
+  "checked_at": "2026-09-29T14:17:25+00:00",
+  "fetched_at": "2026-09-29T14:17:25+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "גבאי בחוד, גורן בקישור: הרכב הנבחרת הצעירה בסלובניה",
-     "link": "https://sports.walla.co.il/item/3870227",
-     "date": "2026-09-29T12:35:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
     {
      "title": "דניאל פרץ מול האירים: החשש החדש בסאות'המפטון",
      "link": "https://sports.walla.co.il/item/3870203",
@@ -2893,8 +2886,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T13:17:33+00:00",
-  "fetched_at": "2026-09-29T13:17:33+00:00"
+  "checked_at": "2026-09-29T14:17:20+00:00",
+  "fetched_at": "2026-09-29T14:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2925,7 +2918,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T13:17:33+00:00",
-  "fetched_at": "2026-09-29T13:17:33+00:00"
+  "checked_at": "2026-09-29T14:17:21+00:00",
+  "fetched_at": "2026-09-29T14:17:21+00:00"
  }
 }
