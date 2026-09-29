@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T15:17:23+00:00",
-  "fetched_at": "2026-09-29T15:17:23+00:00"
+  "checked_at": "2026-09-29T16:17:12+00:00",
+  "fetched_at": "2026-09-29T16:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T15:17:33+00:00",
-  "fetched_at": "2026-09-29T15:17:33+00:00"
+  "checked_at": "2026-09-29T16:17:25+00:00",
+  "fetched_at": "2026-09-29T16:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T15:17:35+00:00",
-  "fetched_at": "2026-09-29T15:17:35+00:00"
+  "checked_at": "2026-09-29T16:17:26+00:00",
+  "fetched_at": "2026-09-29T16:17:26+00:00"
  },
- "generated_at": "2026-09-29T15:17:35+00:00",
+ "generated_at": "2026-09-29T16:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,16 +92,21 @@ window.DB.generated = {
      "date": "2026-09-29T14:30:00+00:00"
     },
     {
-     "title": "טראמפ: לאיראן לא יהיה נשק גרעיני. זה יסתיים בקרוב ומחירי הנפט ירדו מהר",
+     "title": "טראמפ: לאיראן לא יהיה נשק גרעיני. זה יסתיים בקרוב ומחירי הנפט יירדו מהר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T14:45:00+00:00"
+     "date": "2026-09-29T16:06:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בוול סטריט; מחירי הנפט יורדים",
+     "title": "תשואת האג\"ח ל-30 שנה עולה לשיא חדש; וול סטריט עוברת לירידות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T14:32:00+00:00"
+     "date": "2026-09-29T15:48:00+00:00"
+    },
+    {
+     "title": "רשות שוק הון באזהרה חמורה לסוכנים: אל תנצלו לרעה את עסקת אלטשולר שחם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557905",
+     "date": "2026-09-29T14:47:00+00:00"
     },
     {
      "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
@@ -202,17 +207,12 @@ window.DB.generated = {
      "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557710",
      "date": "2026-09-28T10:30:00+00:00"
-    },
-    {
-     "title": "השקל נופל לשפל של כחודשיים. אלו הסיבות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557720",
-     "date": "2026-09-28T10:28:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T15:17:24+00:00",
-  "fetched_at": "2026-09-29T15:17:24+00:00"
+  "checked_at": "2026-09-29T16:17:14+00:00",
+  "fetched_at": "2026-09-29T16:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T15:17:24+00:00",
-  "fetched_at": "2026-09-29T15:17:24+00:00"
+  "checked_at": "2026-09-29T16:17:15+00:00",
+  "fetched_at": "2026-09-29T16:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T15:17:25+00:00",
-  "fetched_at": "2026-09-29T15:17:25+00:00"
+  "checked_at": "2026-09-29T16:17:16+00:00",
+  "fetched_at": "2026-09-29T16:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T15:17:25+00:00",
-  "fetched_at": "2026-09-29T15:17:25+00:00"
+  "checked_at": "2026-09-29T16:17:16+00:00",
+  "fetched_at": "2026-09-29T16:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2532,7 +2532,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 201,
+     "likes": 203,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2573,8 +2573,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T15:17:32+00:00",
-  "fetched_at": "2026-09-29T15:17:32+00:00"
+  "checked_at": "2026-09-29T16:17:24+00:00",
+  "fetched_at": "2026-09-29T16:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2631,15 +2631,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דיא סבע"
-     ]
-    },
-    {
-     "title": "מדסה עד בריבו: הנבחרת מעכלת את התבוסה, השינויים בדרך",
-     "link": "https://sports.walla.co.il/item/3870068",
-     "date": "2026-09-28T07:50:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "תאי בריבו"
      ]
     },
     {
@@ -2888,8 +2879,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T15:17:28+00:00",
-  "fetched_at": "2026-09-29T15:17:28+00:00"
+  "checked_at": "2026-09-29T16:17:20+00:00",
+  "fetched_at": "2026-09-29T16:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2920,7 +2911,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T15:17:29+00:00",
-  "fetched_at": "2026-09-29T15:17:29+00:00"
+  "checked_at": "2026-09-29T16:17:21+00:00",
+  "fetched_at": "2026-09-29T16:17:21+00:00"
  }
 };
