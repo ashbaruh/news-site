@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:39:40+00:00",
-  "fetched_at": "2026-09-29T18:39:40+00:00"
+  "checked_at": "2026-09-29T19:17:30+00:00",
+  "fetched_at": "2026-09-29T19:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:39:50+00:00",
-  "fetched_at": "2026-09-29T18:39:50+00:00"
+  "checked_at": "2026-09-29T19:17:45+00:00",
+  "fetched_at": "2026-09-29T19:17:45+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:39:51+00:00",
-  "fetched_at": "2026-09-29T18:39:51+00:00"
+  "checked_at": "2026-09-29T19:17:45+00:00",
+  "fetched_at": "2026-09-29T19:17:45+00:00"
  },
- "generated_at": "2026-09-29T18:39:51+00:00",
+ "generated_at": "2026-09-29T19:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,19 +94,19 @@ window.DB.generated = {
     {
      "title": "חזית דרמטית נגד אבו מאזן: חמאס והג'יהאד האיסלאמי סיכמו על ברית עם מוחמד דחלאן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T18:13:00+00:00"
+     "date": "2026-09-29T18:51:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "ירידות קלות בוול סטריט; תשואת האג\"ח ל-30 שנה עולה לשיא חדש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
+     "date": "2026-09-29T19:03:00+00:00"
+    },
+    {
      "title": "התשואה ל-30 שנה חזרה שני עשורים לאחור. למה זה מסוכן?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557949",
      "date": "2026-09-29T18:28:00+00:00"
-    },
-    {
-     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-30 שנה עולה לשיא חדש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T17:40:00+00:00"
     },
     {
      "title": "רשות החברות לצים: נעצרו הדיונים בעסקת המכירה",
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:39:41+00:00",
-  "fetched_at": "2026-09-29T18:39:41+00:00"
+  "checked_at": "2026-09-29T19:17:31+00:00",
+  "fetched_at": "2026-09-29T19:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:39:42+00:00",
-  "fetched_at": "2026-09-29T18:39:42+00:00"
+  "checked_at": "2026-09-29T19:17:32+00:00",
+  "fetched_at": "2026-09-29T19:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2386,8 +2386,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:39:43+00:00",
-  "fetched_at": "2026-09-29T18:39:43+00:00"
+  "checked_at": "2026-09-29T19:17:34+00:00",
+  "fetched_at": "2026-09-29T19:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2477,8 +2477,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:39:43+00:00",
-  "fetched_at": "2026-09-29T18:39:43+00:00"
+  "checked_at": "2026-09-29T19:17:34+00:00",
+  "fetched_at": "2026-09-29T19:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2507,21 +2507,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 320,
+     "likes": 321,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 113,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 595,
+     "likes": 596,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2539,6 +2539,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 182,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
@@ -2546,17 +2553,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 181,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
-    },
-    {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 184,
+     "likes": 185,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2570,14 +2570,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 328,
+     "likes": 330,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:39:50+00:00",
-  "fetched_at": "2026-09-29T18:39:50+00:00"
+  "checked_at": "2026-09-29T19:17:43+00:00",
+  "fetched_at": "2026-09-29T19:17:43+00:00"
  },
  "abroad": {
   "data": {
@@ -2882,8 +2882,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:39:46+00:00",
-  "fetched_at": "2026-09-29T18:39:46+00:00"
+  "checked_at": "2026-09-29T19:17:39+00:00",
+  "fetched_at": "2026-09-29T19:17:39+00:00"
  },
  "idf": {
   "data": [
@@ -2914,7 +2914,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:39:47+00:00",
-  "fetched_at": "2026-09-29T18:39:47+00:00"
+  "checked_at": "2026-09-29T19:17:40+00:00",
+  "fetched_at": "2026-09-29T19:17:40+00:00"
  }
 };
