@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T10:17:13+00:00",
-  "fetched_at": "2026-09-29T10:17:13+00:00"
+  "checked_at": "2026-09-29T11:17:14+00:00",
+  "fetched_at": "2026-09-29T11:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T10:17:25+00:00",
-  "fetched_at": "2026-09-29T10:17:25+00:00"
+  "checked_at": "2026-09-29T11:17:26+00:00",
+  "fetched_at": "2026-09-29T11:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T10:17:25+00:00",
-  "fetched_at": "2026-09-29T10:17:25+00:00"
+  "checked_at": "2026-09-29T11:17:26+00:00",
+  "fetched_at": "2026-09-29T11:17:26+00:00"
  },
- "generated_at": "2026-09-29T10:17:25+00:00",
+ "generated_at": "2026-09-29T11:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,26 +92,36 @@ window.DB.generated = {
      "date": "2026-09-29T09:12:00+00:00"
     },
     {
-     "title": "100 פורעים ישראלים תקפו לוחמים ושרפו בתים בכפר בשומרון",
+     "title": "גורמים במערכת הביטחון: \"לא יהיה מנוס מפעולה רחבה ברצועת עזה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T05:21:00+00:00"
+     "date": "2026-09-29T09:55:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה חיובית בתל אביב בהובלת מניות הנדל\"ן; פאלו אלטו ואלקטרה נדל\"ן מזנקות",
+     "title": "מגמה מעורבת בת\"א; פאלו אלטו ואלקטרה נדל\"ן מזנקות, אלביט יורדת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
-     "date": "2026-09-29T09:20:00+00:00"
+     "date": "2026-09-29T10:44:00+00:00"
+    },
+    {
+     "title": "דיווח: בריטניה הרחיבה משמעותית את אמברגו הנשק על ישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557825",
+     "date": "2026-09-29T10:30:00+00:00"
+    },
+    {
+     "title": "יציבות בחוזים בוול סטריט; AMD הודיעה על רכישת ענק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
+     "date": "2026-09-29T09:47:00+00:00"
+    },
+    {
+     "title": "לא טילים ולא נפט: הנשק האמריקאי שמכאיב לאיראן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557822",
+     "date": "2026-09-29T09:45:00+00:00"
     },
     {
      "title": "ניסיון הפריצה למיטב טרייד: מה הלקוחות צריכים לדעת?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557821",
      "date": "2026-09-29T09:12:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בבורסות אירופה; יציבות בוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T08:42:00+00:00"
     },
     {
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
@@ -134,7 +144,7 @@ window.DB.generated = {
      "date": "2026-09-29T06:29:00+00:00"
     },
     {
-     "title": "האם אחרי שנים של אכזבות, מניית נייס משנה כיוון?",
+     "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
     },
@@ -194,25 +204,15 @@ window.DB.generated = {
      "date": "2026-09-28T10:30:00+00:00"
     },
     {
-     "title": "\"מיליארד מתים\": האזהרה החריגה של ביל גייטס על ה-AI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557719",
-     "date": "2026-09-28T10:30:00+00:00"
-    },
-    {
      "title": "השקל נופל לשפל של כחודשיים. אלו הסיבות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557720",
      "date": "2026-09-28T10:28:00+00:00"
-    },
-    {
-     "title": "\"חיפושים פוגעניים\": משרד החוץ מזהיר את הטסים לאמסטרדם, ומגרש דיפלומטיים הולנדים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557712",
-     "date": "2026-09-28T08:46:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T10:17:14+00:00",
-  "fetched_at": "2026-09-29T10:17:14+00:00"
+  "checked_at": "2026-09-29T11:17:15+00:00",
+  "fetched_at": "2026-09-29T11:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T10:17:15+00:00",
-  "fetched_at": "2026-09-29T10:17:15+00:00"
+  "checked_at": "2026-09-29T11:17:16+00:00",
+  "fetched_at": "2026-09-29T11:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T10:17:16+00:00",
-  "fetched_at": "2026-09-29T10:17:16+00:00"
+  "checked_at": "2026-09-29T11:17:18+00:00",
+  "fetched_at": "2026-09-29T11:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T10:17:17+00:00",
-  "fetched_at": "2026-09-29T10:17:17+00:00"
+  "checked_at": "2026-09-29T11:17:18+00:00",
+  "fetched_at": "2026-09-29T11:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2496,15 +2496,13 @@ window.DB.generated = {
     }
    ],
    "candidates": 8,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 312,
+     "likes": 313,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2546,7 +2544,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 172,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2573,8 +2571,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T10:17:24+00:00",
-  "fetched_at": "2026-09-29T10:17:24+00:00"
+  "checked_at": "2026-09-29T11:17:24+00:00",
+  "fetched_at": "2026-09-29T11:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2602,15 +2600,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3870151",
      "date": "2026-09-28T19:51:00+00:00",
      "source": "וואלה",
-     "players": [
-      "עידן טוקלומטי"
-     ]
-    },
-    {
-     "title": "בעקבות הפציעה: עידן טוקלומטי ישוחרר מהנבחרת",
-     "link": "https://www.one.co.il/Article/534539.html?ref=rss",
-     "date": "2026-09-28T19:47:00+00:00",
-     "source": "ONE",
      "players": [
       "עידן טוקלומטי"
      ]
@@ -2906,8 +2895,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T10:17:20+00:00",
-  "fetched_at": "2026-09-29T10:17:20+00:00"
+  "checked_at": "2026-09-29T11:17:20+00:00",
+  "fetched_at": "2026-09-29T11:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2938,7 +2927,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T10:17:21+00:00",
-  "fetched_at": "2026-09-29T10:17:21+00:00"
+  "checked_at": "2026-09-29T11:17:21+00:00",
+  "fetched_at": "2026-09-29T11:17:21+00:00"
  }
 };
