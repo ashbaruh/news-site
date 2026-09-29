@@ -1,0 +1,298 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9d5aeb7ce406",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-29T23:40:44+00:00",
+  "window": {
+   "from": "2026-09-28T23:40:44+00:00",
+   "to": "2026-09-29T23:40:44+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609292340"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך כאשר ארה\"ב מקדמת לחץ כלכלי וסנקציות, בעוד איראן מדווחת על שחיקת מעמדה במצר הורמוז וקוראת לתגובות מדיניות. במקביל, שחקניות אזוריות כמו סעודיה והאמירויות מהדקות שורוק עקב האיומים מצד שלוחאן של איראן בתימן, וקטאר מעורבת בחילופי האשמות דיפלומטיים עם ישראל.",
+  "fronts": [
+   {
+    "name": "החזית הישראלית-אמריקאית מול איראן",
+    "status": "פעיל - כולל לחץ כלכלי, סנקציות, ואיומי עימות צבאי"
+   },
+   {
+    "name": "חזית המפרץ מול השלוחים האיראנים",
+    "status": "פעיל - הידוק שיתוף פעולה אזורי מול פעילות החות'ים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09292340-01",
+    "title": "הטלת סנקציות כלכליות אמריקאיות",
+    "summary": "ארה\"ב הטילה סנקציות חדשות על גופים ויחידים הקשורים לסיוע צבאי ורכש נשק עבור איראן, וממשיכה בפעילות כלכלית נגד תשתיות הטרור שלה.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T18:46:27+00:00",
+    "last_update_at": "2026-09-29T22:06:41+00:00",
+    "what_is_not_verified": "היקף ההשפעה המדויק של הסנקציות אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f9109a5dc269a6c9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-treasury-secretary-says-economic-action-against-iran-continue",
+      "published_at": "2026-09-29T22:06:41+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_f8a739cb3145bf74",
+      "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+      "published_at": "2026-09-29T20:48:34+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_604e90c968886b12",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-imposes-sanctions-13-tied-iran-weapons-procurement",
+      "published_at": "2026-09-29T18:46:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09292340-02",
+    "title": "הצעת איראן בנוגע למצר הורמוז",
+    "summary": "איראן מסרה כי היא ממתינה לתגובת ארה\"ב להצעה לפתיחת מצר הורמוז בתמורה לדרישות שונות.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T06:32:31+00:00",
+    "last_update_at": "2026-09-29T12:28:10+00:00",
+    "what_is_not_verified": "פרטי ההצעה המדויקים ותגובת ארה\"ב בפועל אינם מאומתים ממקור ראשון אמריקאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_iran",
+      "url": "https://www.iranintl.com/en/202609290526",
+      "published_at": "2026-09-29T12:28:10+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_iran",
+      "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz",
+      "published_at": "2026-09-29T06:32:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09292340-03",
+    "title": "עיקול מטוס איראני באיסטנבול",
+    "summary": "מטוס בואינג 737 של חברת תעופה איראנית עוקל בנמל התעופה באיסטנבול בשל חוב כספי לחברת שירותים טורקית.",
+    "axis": "איראן מול טורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T11:28:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T11:28:40+00:00",
+    "last_update_at": "2026-09-29T11:28:40+00:00",
+    "what_is_not_verified": "פרטי החוב המדויקים אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/48085",
+      "published_at": "2026-09-29T11:28:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה באיסטנבול, טורקיה",
+      "lat": 41.2749,
+      "lon": 28.7323
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09292340-04",
+    "title": "פסיקת בית משפט באיראן בפרשת סולימאני",
+    "summary": "מערכת המשפט באיראן חייבה את ממשלת ארה\"ב לשלם 48 מיליארד דולר בהליך משפטי הקשור לחיסול קאסם סולימאני.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T11:26:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T11:26:12+00:00",
+    "last_update_at": "2026-09-29T11:26:12+00:00",
+    "what_is_not_verified": "יכולת האכיפה של הפסיקה אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_iranian_judiciary_representative_kazemi",
+      "url": "https://t.me/alexmehacarmel/48084",
+      "published_at": "2026-09-29T11:26:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09292340-05",
+    "title": "פגישת בכירים מסעודים ואמירתים",
+    "summary": "סגן נשיא איחוד האמירויות ביקר בסעודיה ונפגש עם יורש העצר הסעודי על רקע האיומים האזוריים והחורתים מתימן.",
+    "axis": "המפרץ מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T20:25:53+00:00",
+    "last_update_at": "2026-09-29T20:46:26+00:00",
+    "what_is_not_verified": "ההסכמות המדויקות בין הצדדים אינן מאומתות במלואן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_989d80038769485a",
+      "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
+      "published_at": "2026-09-29T20:46:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6164956ff8e5504a",
+      "url": "https://www.middleeasteye.net/news/saudi-arabia-turns-uae-white-horse-it-gears-battle-yemens-houthis",
+      "published_at": "2026-09-29T20:25:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההיתכנות והפרטים המדויקים של הצעת איראן לפתיחת מצר הורמוז ותגובת ארה\"ב עליה",
+   "ההשפעה המעשית של פסיקת בית המשפט באיראן נגד ארה\"ב בפרשת סולימאני",
+   "קיומו או אופיו המדויק של 'מזימת פיצוץ' איראנית נגד בסיס צבאי בריטי-אמריקאי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0561,
+    "unit": "ILS",
+    "change_pct": -0.24,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-29T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "דרישה להסרת הסנקציות על מגזר הנפט",
+     "דרישה לסיום הסגר הימי האמריקאי",
+     "דרישה להפסקת אש אזורית בתמורה לפתיחת מצר הורמוז"
+    ],
+    "inferred": [
+     "ניסיון להפחית את הלחץ הכלכלי באמצעות הצעות דיפלומטיות",
+     "ניסיון לערער את הלגיטימציה של פעילות ארה\"ב וישראל באזור"
+    ],
+    "forecast": [
+     "המשך מאבק כלכלי תחת לחץ הסנקציות",
+     "התאמת אמצעי הלחימה לפי שינוי אופי העימות"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "המשך הפעילות הכלכלית במסגרת מבצע 'אוקיינוס כלכלי' להחלשת המשטר האיראני",
+     "שיבוש המנגנונים הפיננסיים של משמרות המהפכה"
+    ],
+    "inferred": [
+     "הפעלת לחץ מסיבי במטרה לאלץ את איראן לשאת ולתת או להביא לקריסת המערכת הכלכלית שלה"
+    ],
+    "forecast": [
+     "המשך אכיפת סנקציות ומצור כלכלי עד להשגת יעדי הפירוק של תוכניות איראן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות איראנית ושלוחותיה באזור"
+    ],
+    "inferred": [
+     "חיזוק הבריתות האזוריות (כגון הסכמי אברהם והידוק קשרים עם מדינות המפרץ) מול הציר האיראני"
+    ],
+    "forecast": [
+     "המשך שיתוף פעולה אסטרטגי ומדיני במרחב המפרץ נגד איומי איראן ושלוחותיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609290526",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/saudi-arabia-turns-uae-white-horse-it-gears-battle-yemens-houthis",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48084",
+    "accessed_at": "2026-09-29T23:40:44+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4db055a8d980",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 1,
+   "verified": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-29T23:42:40+00:00",
+  "window": {
+   "from": "2026-09-28T23:42:40+00:00",
+   "to": "2026-09-29T23:42:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609292342"
+  },
+  "summary": "בלחימה בתימן מתנהלים עימותים קרקעיים ואוויריים אינטנסיביים בין ממשלת תימן לבין החות'ים המגובים באיראן במחוזות כמו תעז ולאחג'. במקביל, סעודיה ואיחוד האמירויות מקיימות מגעים פוליטיים כדי לגבש שיתוף פעולה מול הלחץ הצבאי שמפעילים החות'ים בגבולות ובמפרץ.",
+  "fronts": [
+   {
+    "name": "ממשלת תימן מול החות'ים",
+    "status": "לחימה עצימה וחילופי תקיפות"
+   },
+   {
+    "name": "הזירה הימית ומצר באב אל-מנדב",
+    "status": "מאמצי התבססות חות'יים והשפעה על נתיבי השיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09292342-01",
+    "title": "פגישת מנהיגים בריאד",
+    "summary": "סגן נשיא איחוד האמורות ערך ביקור בריאד ונפגש עם יורש העצר הסעודי ושר ההגנה",
+    "axis": "סעודיה-איחוד האמירויות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T20:39:08+00:00",
+    "last_update_at": "2026-09-29T21:14:18+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_saudi_press_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-turns-uae-white-horse-it-gears-battle-yemens-houthis",
+      "published_at": "2026-09-29T21:14:18+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_saudi_press_agency",
+      "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
+      "published_at": "2026-09-29T20:46:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_saudi_press_agency",
+      "url": "https://www.newarab.com/news/uae-vice-president-visits-saudi-arabia-first-visit-rift",
+      "published_at": "2026-09-29T20:39:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09292342-02",
+    "title": "תקיפות כוחות ממשלת תימן",
+    "summary": "דובר הכוחות המזוינים של תימן דיווח על ביצוע מאות תקיפות מדויקות נגד עמדות חות'יות ביממה האחרונה",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T20:05:32+00:00",
+    "last_update_at": "2026-09-29T21:10:45+00:00",
+    "what_is_not_verified": "מספר התקיפות המדויק ותוצאותיהן מבוססים על הצהרת הדובר בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6b719bc3e97c3f6b",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-say-they-conducted-414-strikes-houthis-last-24",
+      "published_at": "2026-09-29T21:10:45+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2b8c1e342e2ca0a4",
+      "url": "https://www.sabanew.net/viewstory/153211",
+      "published_at": "2026-09-29T20:05:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09292342-03",
+    "title": "תקיפות באל-וזאיעה",
+    "summary": "כוחות ממשלת תימן ביצעו תקיפות באזור אל-וזאיעה במחוז תעז",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T19:53:38+00:00",
+    "last_update_at": "2026-09-29T19:53:38+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים אינם מאומתים ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9d78eb9c42f56c93",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-strikes-houthi-positions-yemens-al",
+      "published_at": "2026-09-29T19:53:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09292342-04",
+    "title": "אזהרת צבא תימן לאזרחים",
+    "summary": "צבא תימן הזהיר אזרחים להתרחק ממפקדות ומאתרים המשמשים את החות'ים לפעילות צבאית",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T16:08:14+00:00",
+    "last_update_at": "2026-09-29T18:42:18+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_fca2721fd4c14f78",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-forces-warn-all-sites-used-houthis-legitimate-targets",
+      "published_at": "2026-09-29T18:42:18+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_5c5dda70e841583c",
+      "url": "https://www.sabanew.net/viewstory/153199",
+      "published_at": "2026-09-29T16:08:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09292342-05",
+    "title": "קריאה לגיוס צבאי בתימן",
+    "summary": "ראש מועצת ההנהגה הנשיאותית קרא לכוחות המזוהים עם הממשלה להגביר את המוכנות ולהתגייס",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T16:35:44+00:00",
+    "last_update_at": "2026-09-29T16:35:44+00:00",
+    "what_is_not_verified": "האם הקריאה מתורגמת בפועל למערכה בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_maysaa_shuja_al_deen",
+      "url": "https://www.newarab.com/news/yemen-mobilisation-call-signals-escalation-backed-saudis",
+      "published_at": "2026-09-29T16:35:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09292342-06",
+    "title": "הפגזה חות'ית על תעז",
+    "summary": "נמסר על הרוג ופצועים כתוצאה מפגזים חות'ים על כפרים בג'בל ג'ראד ממערב לתעז",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T14:39:09+00:00",
+    "last_update_at": "2026-09-29T14:39:09+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_saba_aden",
+      "url": "https://www.sabanew.net/viewstory/153184",
+      "published_at": "2026-09-29T14:39:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים והנזק המדויק בתקיפות שדווחו על ידי כוחות ממשלת תימן",
+   "היקף הגיוס והיישום בפועל של קריאת הממשלה למוביליזציה צבאית"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0561,
+    "unit": "ILS",
+    "change_pct": -0.24,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-29T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [],
+    "inferred": [
+     "ביסוס השליטה באזורים האסטרטגיים סביב באב אל-מנדב והחוף המערבי",
+     "הפעלת לחץ צבאי וימי על סעודיה והשחקנים האזוריים"
+    ],
+    "forecast": [
+     "המשך ניסיונות ההתבססות ברמות שמעל באב אל-מנדב",
+     "המשך מתקפות כטב\"מים וטילים לעבר סעודיה"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [],
+    "inferred": [
+     "יצירת חזית אחידה יחד עם איחוד האמירויות לבלימת המתקפה החות'ית",
+     "הגנה על מסדרונות ייצוא הנפט בים האדום"
+    ],
+    "forecast": [
+     "התקרבות דיפלומטית מחודשת עם איחוד האמירויות",
+     "הגברת התמיכה בממשלה המוכרת בתימן"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן",
+    "declared": [
+     "קריאה להגברת המוכנות והמוביליזציה הצבאית נגד החות'ים"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית במחוזות המערביים והדרומיים"
+    ],
+    "forecast": [
+     "המשך ביצוע תקיפות ממוקדמות וסימון אתרים חות'יים כיעדים לגיטימיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
+    "accessed_at": "2026-09-29T23:42:40+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-forces-warn-all-sites-used-houthis-legitimate-targets",
+    "accessed_at": "2026-09-29T23:42:40+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-mobilisation-call-signals-escalation-backed-saudis",
+    "accessed_at": "2026-09-29T23:42:40+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153184",
+    "accessed_at": "2026-09-29T23:42:40+00:00"
+   }
+  ]
+ }
+}

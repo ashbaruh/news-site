@@ -31,10 +31,15 @@
 33.1737,
 35.2111
 ],
+"al-qantara, lebanon": [
+33.2589,
+35.459
+],
 "al-sanamayn, syria": [
 33.0732,
 36.1834
 ],
+"al-wazi'yah, yemen": null,
 "aleppo international airport, syria": [
 36.181,
 37.2243
@@ -271,6 +276,10 @@
 "gulf of finland": [
 59.8737,
 26.323
+],
+"hadatha, lebanon": [
+33.165,
+35.3916
 ],
 "haddatha, lebanon": [
 33.1561,
@@ -900,6 +909,7 @@
 24.089,
 38.0687
 ],
+"yarmouk basin, syria": null,
 "yaroslavl, russia": [
 57.6264,
 39.8934
