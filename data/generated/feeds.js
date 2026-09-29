@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-28T23:57:45+00:00",
-  "fetched_at": "2026-09-28T23:57:45+00:00"
+  "checked_at": "2026-09-29T00:17:59+00:00",
+  "fetched_at": "2026-09-29T00:17:59+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T23:57:54+00:00",
-  "fetched_at": "2026-09-28T23:57:54+00:00"
+  "checked_at": "2026-09-29T00:18:11+00:00",
+  "fetched_at": "2026-09-29T00:18:11+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T23:57:55+00:00",
-  "fetched_at": "2026-09-28T23:57:55+00:00"
+  "checked_at": "2026-09-29T00:18:11+00:00",
+  "fetched_at": "2026-09-29T00:18:11+00:00"
  },
- "generated_at": "2026-09-28T23:57:55+00:00",
+ "generated_at": "2026-09-29T00:18:11+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T23:57:45+00:00",
-  "fetched_at": "2026-09-28T23:57:45+00:00"
+  "checked_at": "2026-09-29T00:18:00+00:00",
+  "fetched_at": "2026-09-29T00:18:00+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T23:57:47+00:00",
-  "fetched_at": "2026-09-28T23:57:47+00:00"
+  "checked_at": "2026-09-29T00:18:01+00:00",
+  "fetched_at": "2026-09-29T00:18:01+00:00"
  },
  "tv": {
   "data": [
@@ -2379,8 +2379,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T23:57:48+00:00",
-  "fetched_at": "2026-09-28T23:57:48+00:00"
+  "checked_at": "2026-09-29T00:18:02+00:00",
+  "fetched_at": "2026-09-29T00:18:02+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T23:57:48+00:00",
-  "fetched_at": "2026-09-28T23:57:48+00:00"
+  "checked_at": "2026-09-29T00:18:02+00:00",
+  "fetched_at": "2026-09-29T00:18:02+00:00"
  },
  "ai": {
   "data": {
@@ -2542,7 +2542,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 168,
+     "likes": 169,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2569,8 +2569,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-28T23:57:54+00:00",
-  "fetched_at": "2026-09-28T23:57:54+00:00"
+  "checked_at": "2026-09-29T00:18:10+00:00",
+  "fetched_at": "2026-09-29T00:18:10+00:00"
  },
  "abroad": {
   "data": {
@@ -2911,8 +2911,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-28T23:57:50+00:00",
-  "fetched_at": "2026-09-28T23:57:50+00:00"
+  "checked_at": "2026-09-29T00:18:06+00:00",
+  "fetched_at": "2026-09-29T00:18:06+00:00"
  },
  "idf": {
   "data": [
@@ -2943,7 +2943,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-28T23:57:51+00:00",
-  "fetched_at": "2026-09-28T23:57:51+00:00"
+  "checked_at": "2026-09-29T00:18:07+00:00",
+  "fetched_at": "2026-09-29T00:18:07+00:00"
  }
 };
