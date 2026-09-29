@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T14:17:13+00:00",
-  "fetched_at": "2026-09-29T14:17:13+00:00"
+  "checked_at": "2026-09-29T15:17:23+00:00",
+  "fetched_at": "2026-09-29T15:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T14:17:26+00:00",
-  "fetched_at": "2026-09-29T14:17:26+00:00"
+  "checked_at": "2026-09-29T15:17:33+00:00",
+  "fetched_at": "2026-09-29T15:17:33+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "\"This is the headphone we set out to create from the very beginning\" – a closer look at the development of the new driver technology inside the premium Technics EAH-A1000 wireless headphones",
+    "title_he": "\"זו האוזניות שיצאנו ליצור מההתחלה\" - מבט מקרוב על הפיתוח של טכנולוגיית הדרייברים החדשה בתוך האוזניות האלחוטיות הפרימיום Technics EAH-A1000",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/this-is-the-headphone-we-set-out-to-create-from-the-very-beginning-a-closer-look-at-the-development-of-the-new-driver-technology-inside-the-premium-technics-eah-a1000-wireless-headphones",
+    "date": "2026-09-29T14:29:29+00:00"
+   },
+   {
+    "title_en": "Bose's flagship wireless headphones are getting an audio upgrade – but there's a catch",
+    "title_he": "אוזניות הדגל האלחוטיות של Bose זוכות לשדרוג אודיו - אבל יש תקלה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/boses-flagship-wireless-headphones-are-getting-an-audio-upgrade-but-theres-a-catch",
+    "date": "2026-09-29T14:26:10+00:00"
+   },
    {
     "title_en": "Technics EAH-A1000",
     "title_he": "טכניקות EAH-A1000",
@@ -62,46 +76,32 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
     "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
-    "title_en": "This ultra-premium cabinet is an all-in-one storage solution “engineered to keep your projector at its best”",
-    "title_he": "ארון אולטרה פרימיום זה הוא פתרון אחסון הכל-באחד \"הונדס כדי לשמור על המקרן שלך במיטבו\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/this-ultra-premium-cabinet-is-an-all-in-one-storage-solution-engineered-to-keep-your-projector-at-its-best",
-    "date": "2026-09-29T13:57:23+00:00"
-   },
-   {
-    "title_en": "Marshall’s premium Bluetooth speaker is built to get the party started – and keep it going long into the night",
-    "title_he": "רמקול ה-Bluetooth המובחר של Marshall נבנה כדי להתחיל את המסיבה - ולשמור עליה לאורך כל הלילה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/marshalls-premium-bluetooth-speaker-is-built-to-get-the-party-started-and-keep-it-going-long-into-the-night",
-    "date": "2026-09-29T12:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T14:17:31+00:00",
-  "fetched_at": "2026-09-29T14:17:31+00:00"
+  "checked_at": "2026-09-29T15:17:35+00:00",
+  "fetched_at": "2026-09-29T15:17:35+00:00"
  },
- "generated_at": "2026-09-29T14:17:31+00:00",
+ "generated_at": "2026-09-29T15:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557762",
-     "date": "2026-09-29T12:01:00+00:00"
+     "title": "אחרי הברקס של רשות החשמל: נחשפים התנאים החדשים להקמת חוות שרתים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557885",
+     "date": "2026-09-29T14:30:00+00:00"
     },
     {
-     "title": "גורמים במערכת הביטחון: \"לא יהיה מנוס מפעולה רחבה ברצועת עזה\"",
+     "title": "טראמפ: לאיראן לא יהיה נשק גרעיני. זה יסתיים בקרוב ומחירי הנפט ירדו מהר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T14:06:00+00:00"
+     "date": "2026-09-29T14:45:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "יציבות בוול סטריט; מחירי הנפט יורדים, תשואות האג\"ח מטפסות",
+     "title": "מגמה מעורבת בוול סטריט; מחירי הנפט יורדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T13:55:00+00:00"
+     "date": "2026-09-29T14:32:00+00:00"
     },
     {
      "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T14:17:14+00:00",
-  "fetched_at": "2026-09-29T14:17:14+00:00"
+  "checked_at": "2026-09-29T15:17:24+00:00",
+  "fetched_at": "2026-09-29T15:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T14:17:15+00:00",
-  "fetched_at": "2026-09-29T14:17:15+00:00"
+  "checked_at": "2026-09-29T15:17:24+00:00",
+  "fetched_at": "2026-09-29T15:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T14:17:16+00:00",
-  "fetched_at": "2026-09-29T14:17:16+00:00"
+  "checked_at": "2026-09-29T15:17:25+00:00",
+  "fetched_at": "2026-09-29T15:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T14:17:16+00:00",
-  "fetched_at": "2026-09-29T14:17:16+00:00"
+  "checked_at": "2026-09-29T15:17:25+00:00",
+  "fetched_at": "2026-09-29T15:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2504,28 +2504,28 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 317,
+     "likes": 318,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 243,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 111,
+     "likes": 112,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 244,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 594,
+     "likes": 595,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2546,7 +2546,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 177,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2567,14 +2567,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 327,
+     "likes": 328,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T14:17:25+00:00",
-  "fetched_at": "2026-09-29T14:17:25+00:00"
+  "checked_at": "2026-09-29T15:17:32+00:00",
+  "fetched_at": "2026-09-29T15:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2888,8 +2888,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T14:17:20+00:00",
-  "fetched_at": "2026-09-29T14:17:20+00:00"
+  "checked_at": "2026-09-29T15:17:28+00:00",
+  "fetched_at": "2026-09-29T15:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2920,7 +2920,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T14:17:21+00:00",
-  "fetched_at": "2026-09-29T14:17:21+00:00"
+  "checked_at": "2026-09-29T15:17:29+00:00",
+  "fetched_at": "2026-09-29T15:17:29+00:00"
  }
 };
