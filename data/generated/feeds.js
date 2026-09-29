@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T03:17:13+00:00",
-  "fetched_at": "2026-09-29T03:17:13+00:00"
+  "checked_at": "2026-09-29T04:17:22+00:00",
+  "fetched_at": "2026-09-29T04:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T03:17:22+00:00",
-  "fetched_at": "2026-09-29T03:17:22+00:00"
+  "checked_at": "2026-09-29T04:17:33+00:00",
+  "fetched_at": "2026-09-29T04:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T03:17:22+00:00",
-  "fetched_at": "2026-09-29T03:17:22+00:00"
+  "checked_at": "2026-09-29T04:17:34+00:00",
+  "fetched_at": "2026-09-29T04:17:34+00:00"
  },
- "generated_at": "2026-09-29T03:17:22+00:00",
+ "generated_at": "2026-09-29T04:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-09-29T02:49:00+00:00"
     },
     {
-     "title": "הגרעין חוזר לשולחן: ההצעה של טראמפ לאיראן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557699",
-     "date": "2026-09-28T19:17:00+00:00"
+     "title": "הצעת טראמפ לאיראן: הקלה בסנקציות תמורת ויתור בגרעין",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
+     "date": "2026-09-29T03:00:00+00:00"
     }
    ],
    "market": [
@@ -106,6 +106,11 @@ window.DB.generated = {
     {
      "title": "מנהל ההשקעות שלא נבהל מהאינפלציה ומהמלצה על סקטורים שזינקו מאות אחוזים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
+     "date": "2026-09-29T02:50:00+00:00"
+    },
+    {
+     "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557762",
      "date": "2026-09-29T02:50:00+00:00"
     },
     {
@@ -207,17 +212,12 @@ window.DB.generated = {
      "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
      "date": "2026-09-28T02:36:00+00:00"
-    },
-    {
-     "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
-     "date": "2026-09-27T10:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T03:17:14+00:00",
-  "fetched_at": "2026-09-29T03:17:14+00:00"
+  "checked_at": "2026-09-29T04:17:23+00:00",
+  "fetched_at": "2026-09-29T04:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T03:17:15+00:00",
-  "fetched_at": "2026-09-29T03:17:15+00:00"
+  "checked_at": "2026-09-29T04:17:24+00:00",
+  "fetched_at": "2026-09-29T04:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2379,8 +2379,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T03:17:16+00:00",
-  "fetched_at": "2026-09-29T03:17:16+00:00"
+  "checked_at": "2026-09-29T04:17:25+00:00",
+  "fetched_at": "2026-09-29T04:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T03:17:16+00:00",
-  "fetched_at": "2026-09-29T03:17:16+00:00"
+  "checked_at": "2026-09-29T04:17:25+00:00",
+  "fetched_at": "2026-09-29T04:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2514,7 +2514,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 587,
+     "likes": 589,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2525,18 +2525,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 200,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 167,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 199,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2569,8 +2569,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T03:17:22+00:00",
-  "fetched_at": "2026-09-29T03:17:22+00:00"
+  "checked_at": "2026-09-29T04:17:33+00:00",
+  "fetched_at": "2026-09-29T04:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2911,8 +2911,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T03:17:19+00:00",
-  "fetched_at": "2026-09-29T03:17:19+00:00"
+  "checked_at": "2026-09-29T04:17:29+00:00",
+  "fetched_at": "2026-09-29T04:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2943,7 +2943,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T03:17:19+00:00",
-  "fetched_at": "2026-09-29T03:17:19+00:00"
+  "checked_at": "2026-09-29T04:17:30+00:00",
+  "fetched_at": "2026-09-29T04:17:30+00:00"
  }
 };
