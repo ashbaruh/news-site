@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T06:17:22+00:00",
-  "fetched_at": "2026-09-29T06:17:22+00:00"
+  "checked_at": "2026-09-29T07:17:26+00:00",
+  "fetched_at": "2026-09-29T07:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T06:17:33+00:00",
-  "fetched_at": "2026-09-29T06:17:33+00:00"
+  "checked_at": "2026-09-29T07:17:36+00:00",
+  "fetched_at": "2026-09-29T07:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T06:17:33+00:00",
-  "fetched_at": "2026-09-29T06:17:33+00:00"
+  "checked_at": "2026-09-29T07:17:36+00:00",
+  "fetched_at": "2026-09-29T07:17:36+00:00"
  },
- "generated_at": "2026-09-29T06:17:33+00:00",
+ "generated_at": "2026-09-29T07:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עם 78 קומות: המגדל הגבוה בישראל מתחיל להתאכלס ועירייה אחת תרוויח במיוחד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557752",
-     "date": "2026-09-29T02:49:00+00:00"
+     "title": "פריצה לאלפי חשבונות במיטב טרייד; המניה צונחת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
+     "date": "2026-09-29T07:08:00+00:00"
     },
     {
      "title": "100 פורעים ישראלים תקפו לוחמים ושרפו בתים בכפר בשומרון",
@@ -99,9 +99,29 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
+     "title": "ניסיון פריצה לאלפי חשבונות מיטב טרייד: נשלף מידע אישי של לקוחות בודדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
+     "date": "2026-09-29T07:08:00+00:00"
+    },
+    {
+     "title": "פתיחה חיובית בבורסת תל אביב: הבנקים בולטים לחיוב, מניות הביטחון מכבידות והדולר ממשיך לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
-     "date": "2026-09-29T04:40:00+00:00"
+     "date": "2026-09-29T07:05:00+00:00"
+    },
+    {
+     "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
+     "date": "2026-09-29T07:01:00+00:00"
+    },
+    {
+     "title": "לקראת הנפקת אנתרופיק: ההכנסות זינקו פי 12, ההפסד הנקי הגיע ל־42 מיליארד דולר, ועדיין החברה מזהירה מסכנה לאנושות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557810",
+     "date": "2026-09-29T06:45:00+00:00"
+    },
+    {
+     "title": "אל תיפלו בפח של קרנות אג\"ח שטוענות שהן מנצחות את השוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557683",
+     "date": "2026-09-29T06:29:00+00:00"
     },
     {
      "title": "החשש מהסלמה במזרח התיכון מפיל את הבורסות באסיה; הנפט ממשיך לטפס",
@@ -112,11 +132,6 @@ window.DB.generated = {
      "title": "האם אחרי שנים של אכזבות, מניית נייס משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
-    },
-    {
-     "title": "מנהל ההשקעות שלא נבהל מהאינפלציה ומהמלצה על סקטורים שזינקו מאות אחוזים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
-     "date": "2026-09-29T02:50:00+00:00"
     },
     {
      "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
@@ -189,35 +204,20 @@ window.DB.generated = {
      "date": "2026-09-28T10:28:00+00:00"
     },
     {
-     "title": "איראן \"נוקמת\" באירופה על שיתוף הפעולה עם ישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557718",
-     "date": "2026-09-28T10:12:00+00:00"
-    },
-    {
      "title": "\"חיפושים פוגעניים\": משרד החוץ מזהיר את הטסים לאמסטרדם, ומגרש דיפלומטיים הולנדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557712",
      "date": "2026-09-28T08:46:00+00:00"
     },
     {
-     "title": "עסקה גדולה לקרן אלומה: רוכשת חברה בת של OPC ב-272 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557697",
-     "date": "2026-09-28T05:31:00+00:00"
-    },
-    {
      "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות היום?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
      "date": "2026-09-28T02:39:00+00:00"
-    },
-    {
-     "title": "חברת המתכות שנסקה ביותר מ־100% בשנה והפכה את הבעלים שלה למיליארדר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557689",
-     "date": "2026-09-28T02:36:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T06:17:23+00:00",
-  "fetched_at": "2026-09-29T06:17:23+00:00"
+  "checked_at": "2026-09-29T07:17:26+00:00",
+  "fetched_at": "2026-09-29T07:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T06:17:24+00:00",
-  "fetched_at": "2026-09-29T06:17:24+00:00"
+  "checked_at": "2026-09-29T07:17:27+00:00",
+  "fetched_at": "2026-09-29T07:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2386,8 +2386,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T06:17:25+00:00",
-  "fetched_at": "2026-09-29T06:17:25+00:00"
+  "checked_at": "2026-09-29T07:17:29+00:00",
+  "fetched_at": "2026-09-29T07:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2477,8 +2477,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T06:17:25+00:00",
-  "fetched_at": "2026-09-29T06:17:25+00:00"
+  "checked_at": "2026-09-29T07:17:29+00:00",
+  "fetched_at": "2026-09-29T07:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2500,14 +2500,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 8,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 308,
+     "likes": 309,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2518,18 +2518,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 590,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 591,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2549,7 +2549,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 171,
+     "likes": 172,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2563,25 +2563,34 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 179,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 326,
+     "likes": 327,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T06:17:32+00:00",
-  "fetched_at": "2026-09-29T06:17:32+00:00"
+  "checked_at": "2026-09-29T07:17:35+00:00",
+  "fetched_at": "2026-09-29T07:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בלגן? \"פורטלנד חייבת להתייחס לדני אבדיה כאל הפנים של המועדון\"",
+     "link": "https://sports.walla.co.il/item/3870178",
+     "date": "2026-09-29T06:52:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "עידן טוקלומטי עשוי להיעדר מהמשחק מול קוסובו",
      "link": "https://sports.walla.co.il/item/3870151",
@@ -2703,15 +2712,6 @@ window.DB.generated = {
      "title": "\"חדשות רעות מאוד לדני אבדיה\". המהלך שפגע באולסטאר הישראלי",
      "link": "https://sports.walla.co.il/item/3869446",
      "date": "2026-09-23T05:23:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3869427",
-     "date": "2026-09-23T05:10:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2918,8 +2918,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T06:17:28+00:00",
-  "fetched_at": "2026-09-29T06:17:28+00:00"
+  "checked_at": "2026-09-29T07:17:32+00:00",
+  "fetched_at": "2026-09-29T07:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2950,7 +2950,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T06:17:29+00:00",
-  "fetched_at": "2026-09-29T06:17:29+00:00"
+  "checked_at": "2026-09-29T07:17:32+00:00",
+  "fetched_at": "2026-09-29T07:17:32+00:00"
  }
 };
