@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T01:18:38+00:00",
-  "fetched_at": "2026-09-29T01:18:38+00:00"
+  "checked_at": "2026-09-29T02:17:19+00:00",
+  "fetched_at": "2026-09-29T02:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T01:18:51+00:00",
-  "fetched_at": "2026-09-29T01:18:51+00:00"
+  "checked_at": "2026-09-29T02:17:32+00:00",
+  "fetched_at": "2026-09-29T02:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T01:18:51+00:00",
-  "fetched_at": "2026-09-29T01:18:51+00:00"
+  "checked_at": "2026-09-29T02:17:32+00:00",
+  "fetched_at": "2026-09-29T02:17:32+00:00"
  },
- "generated_at": "2026-09-29T01:18:51+00:00",
+ "generated_at": "2026-09-29T02:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T01:18:39+00:00",
-  "fetched_at": "2026-09-29T01:18:39+00:00"
+  "checked_at": "2026-09-29T02:17:21+00:00",
+  "fetched_at": "2026-09-29T02:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T01:18:40+00:00",
-  "fetched_at": "2026-09-29T01:18:40+00:00"
+  "checked_at": "2026-09-29T02:17:21+00:00",
+  "fetched_at": "2026-09-29T02:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2379,8 +2379,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T01:18:42+00:00",
-  "fetched_at": "2026-09-29T01:18:42+00:00"
+  "checked_at": "2026-09-29T02:17:23+00:00",
+  "fetched_at": "2026-09-29T02:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2470,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T01:18:42+00:00",
-  "fetched_at": "2026-09-29T01:18:42+00:00"
+  "checked_at": "2026-09-29T02:17:23+00:00",
+  "fetched_at": "2026-09-29T02:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2484,16 +2484,16 @@ window.DB.generated = {
      "title": "ה-AI של גוגל כבר יכול להתקשר לחנויות ולעסקים במקומכם"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-     "date": "2026-09-28T19:00:00+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+     "date": "2026-09-29T01:00:00+00:00",
      "launch": false,
-     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
+     "title_en": "How we will do better for Australia",
+     "title_he": "איך נעשה טוב יותר עבור אוסטרליה",
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 7,
    "failed_sources": [],
    "tools": [
     {
@@ -2507,7 +2507,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 241,
+     "likes": 242,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2525,18 +2525,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 108,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 198,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 106,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2569,8 +2569,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T01:18:50+00:00",
-  "fetched_at": "2026-09-29T01:18:50+00:00"
+  "checked_at": "2026-09-29T02:17:31+00:00",
+  "fetched_at": "2026-09-29T02:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2911,8 +2911,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T01:18:46+00:00",
-  "fetched_at": "2026-09-29T01:18:46+00:00"
+  "checked_at": "2026-09-29T02:17:26+00:00",
+  "fetched_at": "2026-09-29T02:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2943,7 +2943,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T01:18:46+00:00",
-  "fetched_at": "2026-09-29T01:18:46+00:00"
+  "checked_at": "2026-09-29T02:17:26+00:00",
+  "fetched_at": "2026-09-29T02:17:26+00:00"
  }
 };
