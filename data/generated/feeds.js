@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T22:17:15+00:00",
-  "fetched_at": "2026-09-29T22:17:15+00:00"
+  "checked_at": "2026-09-29T22:40:04+00:00",
+  "fetched_at": "2026-09-29T22:40:04+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T22:17:26+00:00",
-  "fetched_at": "2026-09-29T22:17:26+00:00"
+  "checked_at": "2026-09-29T22:40:16+00:00",
+  "fetched_at": "2026-09-29T22:40:16+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T22:17:26+00:00",
-  "fetched_at": "2026-09-29T22:17:26+00:00"
+  "checked_at": "2026-09-29T22:40:16+00:00",
+  "fetched_at": "2026-09-29T22:40:16+00:00"
  },
- "generated_at": "2026-09-29T22:17:26+00:00",
+ "generated_at": "2026-09-29T22:40:16+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T22:17:16+00:00",
-  "fetched_at": "2026-09-29T22:17:16+00:00"
+  "checked_at": "2026-09-29T22:40:06+00:00",
+  "fetched_at": "2026-09-29T22:40:06+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T22:17:17+00:00",
-  "fetched_at": "2026-09-29T22:17:17+00:00"
+  "checked_at": "2026-09-29T22:40:06+00:00",
+  "fetched_at": "2026-09-29T22:40:06+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T22:17:18+00:00",
-  "fetched_at": "2026-09-29T22:17:18+00:00"
+  "checked_at": "2026-09-29T22:40:08+00:00",
+  "fetched_at": "2026-09-29T22:40:08+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2358,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T22:17:18+00:00",
-  "fetched_at": "2026-09-29T22:17:18+00:00"
+  "checked_at": "2026-09-29T22:40:08+00:00",
+  "fetched_at": "2026-09-29T22:40:08+00:00"
  },
  "ai": {
   "data": {
@@ -2382,9 +2382,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2459,8 +2457,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T22:17:24+00:00",
-  "fetched_at": "2026-09-29T22:17:24+00:00"
+  "checked_at": "2026-09-29T22:40:14+00:00",
+  "fetched_at": "2026-09-29T22:40:14+00:00"
  },
  "abroad": {
   "data": {
@@ -2765,8 +2763,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T22:17:20+00:00",
-  "fetched_at": "2026-09-29T22:17:20+00:00"
+  "checked_at": "2026-09-29T22:40:11+00:00",
+  "fetched_at": "2026-09-29T22:40:11+00:00"
  },
  "idf": {
   "data": [
@@ -2797,7 +2795,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T22:17:21+00:00",
-  "fetched_at": "2026-09-29T22:17:21+00:00"
+  "checked_at": "2026-09-29T22:40:11+00:00",
+  "fetched_at": "2026-09-29T22:40:11+00:00"
  }
 };
