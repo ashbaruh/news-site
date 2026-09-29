@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T21:17:19+00:00",
-  "fetched_at": "2026-09-29T21:17:19+00:00"
+  "checked_at": "2026-09-29T22:17:15+00:00",
+  "fetched_at": "2026-09-29T22:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T21:17:34+00:00",
-  "fetched_at": "2026-09-29T21:17:34+00:00"
+  "checked_at": "2026-09-29T22:17:26+00:00",
+  "fetched_at": "2026-09-29T22:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T21:17:35+00:00",
-  "fetched_at": "2026-09-29T21:17:35+00:00"
+  "checked_at": "2026-09-29T22:17:26+00:00",
+  "fetched_at": "2026-09-29T22:17:26+00:00"
  },
- "generated_at": "2026-09-29T21:17:35+00:00",
+ "generated_at": "2026-09-29T22:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T21:17:21+00:00",
-  "fetched_at": "2026-09-29T21:17:21+00:00"
+  "checked_at": "2026-09-29T22:17:16+00:00",
+  "fetched_at": "2026-09-29T22:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T21:17:22+00:00",
-  "fetched_at": "2026-09-29T21:17:22+00:00"
+  "checked_at": "2026-09-29T22:17:17+00:00",
+  "fetched_at": "2026-09-29T22:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T21:17:24+00:00",
-  "fetched_at": "2026-09-29T21:17:24+00:00"
+  "checked_at": "2026-09-29T22:17:18+00:00",
+  "fetched_at": "2026-09-29T22:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2358,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T21:17:24+00:00",
-  "fetched_at": "2026-09-29T21:17:24+00:00"
+  "checked_at": "2026-09-29T22:17:18+00:00",
+  "fetched_at": "2026-09-29T22:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2397,7 +2397,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 117,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2411,7 +2411,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 245,
+     "likes": 246,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2439,7 +2439,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 187,
+     "likes": 188,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2459,8 +2459,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T21:17:32+00:00",
-  "fetched_at": "2026-09-29T21:17:32+00:00"
+  "checked_at": "2026-09-29T22:17:24+00:00",
+  "fetched_at": "2026-09-29T22:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2765,8 +2765,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T21:17:28+00:00",
-  "fetched_at": "2026-09-29T21:17:28+00:00"
+  "checked_at": "2026-09-29T22:17:20+00:00",
+  "fetched_at": "2026-09-29T22:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2797,7 +2797,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T21:17:29+00:00",
-  "fetched_at": "2026-09-29T21:17:29+00:00"
+  "checked_at": "2026-09-29T22:17:21+00:00",
+  "fetched_at": "2026-09-29T22:17:21+00:00"
  }
 };
