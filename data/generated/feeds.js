@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T05:47:45+00:00",
-  "fetched_at": "2026-09-29T05:47:45+00:00"
+  "checked_at": "2026-09-29T06:17:22+00:00",
+  "fetched_at": "2026-09-29T06:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T05:48:02+00:00",
-  "fetched_at": "2026-09-29T05:48:02+00:00"
+  "checked_at": "2026-09-29T06:17:33+00:00",
+  "fetched_at": "2026-09-29T06:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T05:48:03+00:00",
-  "fetched_at": "2026-09-29T05:48:03+00:00"
+  "checked_at": "2026-09-29T06:17:33+00:00",
+  "fetched_at": "2026-09-29T06:17:33+00:00"
  },
- "generated_at": "2026-09-29T05:48:03+00:00",
+ "generated_at": "2026-09-29T06:17:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T05:47:46+00:00",
-  "fetched_at": "2026-09-29T05:47:46+00:00"
+  "checked_at": "2026-09-29T06:17:23+00:00",
+  "fetched_at": "2026-09-29T06:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T05:47:47+00:00",
-  "fetched_at": "2026-09-29T05:47:47+00:00"
+  "checked_at": "2026-09-29T06:17:24+00:00",
+  "fetched_at": "2026-09-29T06:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2086,7 +2086,7 @@ window.DB.generated = {
    {
     "date": "2026-10-01",
     "time": "19:00",
-    "channel": "ספורט 5+",
+    "channel": "אתר ספורט 5",
     "sport": "כדורגל",
     "title": "הפועל רעננה - מ.ס. כפר קאסם"
    },
@@ -2239,6 +2239,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-02",
+    "time": "21:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אלדנסה - אוביידו"
+   },
+   {
+    "date": "2026-10-02",
     "time": "21:45",
     "channel": "ספורט 4",
     "sport": "כדורגל",
@@ -2379,8 +2386,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T05:47:53+00:00",
-  "fetched_at": "2026-09-29T05:47:53+00:00"
+  "checked_at": "2026-09-29T06:17:25+00:00",
+  "fetched_at": "2026-09-29T06:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2470,8 +2477,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T05:47:53+00:00",
-  "fetched_at": "2026-09-29T05:47:53+00:00"
+  "checked_at": "2026-09-29T06:17:25+00:00",
+  "fetched_at": "2026-09-29T06:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2494,9 +2501,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 7,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2516,14 +2521,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 589,
+     "likes": 590,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2571,8 +2576,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T05:48:01+00:00",
-  "fetched_at": "2026-09-29T05:48:01+00:00"
+  "checked_at": "2026-09-29T06:17:32+00:00",
+  "fetched_at": "2026-09-29T06:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2913,8 +2918,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T05:47:56+00:00",
-  "fetched_at": "2026-09-29T05:47:56+00:00"
+  "checked_at": "2026-09-29T06:17:28+00:00",
+  "fetched_at": "2026-09-29T06:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2945,7 +2950,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T05:47:57+00:00",
-  "fetched_at": "2026-09-29T05:47:57+00:00"
+  "checked_at": "2026-09-29T06:17:29+00:00",
+  "fetched_at": "2026-09-29T06:17:29+00:00"
  }
 };
