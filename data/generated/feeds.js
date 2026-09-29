@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T19:17:30+00:00",
-  "fetched_at": "2026-09-29T19:17:30+00:00"
+  "checked_at": "2026-09-29T20:17:16+00:00",
+  "fetched_at": "2026-09-29T20:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T19:17:45+00:00",
-  "fetched_at": "2026-09-29T19:17:45+00:00"
+  "checked_at": "2026-09-29T20:17:28+00:00",
+  "fetched_at": "2026-09-29T20:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-29T14:26:10+00:00"
    },
    {
-    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
-    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
-    "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
     "title_en": "Technics EAH-A1000",
     "title_he": "טכניקות EAH-A1000",
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
     "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
+    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
+    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T19:17:45+00:00",
-  "fetched_at": "2026-09-29T19:17:45+00:00"
+  "checked_at": "2026-09-29T20:17:28+00:00",
+  "fetched_at": "2026-09-29T20:17:28+00:00"
  },
- "generated_at": "2026-09-29T19:17:45+00:00",
+ "generated_at": "2026-09-29T20:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "חזית דרמטית נגד אבו מאזן: חמאס והג'יהאד האיסלאמי סיכמו על ברית עם מוחמד דחלאן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T18:51:00+00:00"
+     "date": "2026-09-29T19:53:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T19:17:31+00:00",
-  "fetched_at": "2026-09-29T19:17:31+00:00"
+  "checked_at": "2026-09-29T20:17:17+00:00",
+  "fetched_at": "2026-09-29T20:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1860,8 +1860,9 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-29T19:17:32+00:00",
+  "ok": false,
+  "error": "<urlopen error [Errno 104] Connection reset by peer>",
+  "checked_at": "2026-09-29T20:17:17+00:00",
   "fetched_at": "2026-09-29T19:17:32+00:00"
  },
  "tv": {
@@ -2386,8 +2387,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T19:17:34+00:00",
-  "fetched_at": "2026-09-29T19:17:34+00:00"
+  "checked_at": "2026-09-29T20:17:19+00:00",
+  "fetched_at": "2026-09-29T20:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2477,8 +2478,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T19:17:34+00:00",
-  "fetched_at": "2026-09-29T19:17:34+00:00"
+  "checked_at": "2026-09-29T20:17:19+00:00",
+  "fetched_at": "2026-09-29T20:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2507,14 +2508,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 321,
+     "likes": 323,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 115,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2535,7 +2536,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 203,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2549,7 +2550,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 169,
+     "likes": 170,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2570,14 +2571,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 330,
+     "likes": 333,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T19:17:43+00:00",
-  "fetched_at": "2026-09-29T19:17:43+00:00"
+  "checked_at": "2026-09-29T20:17:27+00:00",
+  "fetched_at": "2026-09-29T20:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2882,8 +2883,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T19:17:39+00:00",
-  "fetched_at": "2026-09-29T19:17:39+00:00"
+  "checked_at": "2026-09-29T20:17:22+00:00",
+  "fetched_at": "2026-09-29T20:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2914,7 +2915,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T19:17:40+00:00",
-  "fetched_at": "2026-09-29T19:17:40+00:00"
+  "checked_at": "2026-09-29T20:17:23+00:00",
+  "fetched_at": "2026-09-29T20:17:23+00:00"
  }
 };
