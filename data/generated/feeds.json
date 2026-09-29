@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T20:17:16+00:00",
-  "fetched_at": "2026-09-29T20:17:16+00:00"
+  "checked_at": "2026-09-29T21:17:19+00:00",
+  "fetched_at": "2026-09-29T21:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T20:17:28+00:00",
-  "fetched_at": "2026-09-29T20:17:28+00:00"
+  "checked_at": "2026-09-29T21:17:34+00:00",
+  "fetched_at": "2026-09-29T21:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T20:17:28+00:00",
-  "fetched_at": "2026-09-29T20:17:28+00:00"
+  "checked_at": "2026-09-29T21:17:35+00:00",
+  "fetched_at": "2026-09-29T21:17:35+00:00"
  },
- "generated_at": "2026-09-29T20:17:28+00:00",
+ "generated_at": "2026-09-29T21:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T20:17:17+00:00",
-  "fetched_at": "2026-09-29T20:17:17+00:00"
+  "checked_at": "2026-09-29T21:17:21+00:00",
+  "fetched_at": "2026-09-29T21:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1858,132 +1858,12 @@
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": false,
-  "error": "<urlopen error [Errno 104] Connection reset by peer>",
-  "checked_at": "2026-09-29T20:17:17+00:00",
-  "fetched_at": "2026-09-29T19:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-29T21:17:22+00:00",
+  "fetched_at": "2026-09-29T21:17:22+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-09-29",
-    "time": "17:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "סלובניה עד 21 - ישראל עד 21"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "18:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "הפועל העמק - מכבי ראשון לציון"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "בי.סי דובאי - ברצלונה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "פינלנד - בלארוס"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "19:00",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "מולדובה - איי פארו"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "19:00",
-    "channel": "5 גולד",
-    "sport": "כדורגל",
-    "title": "גאנה - גמביה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "20:00",
-    "channel": "ספורט 3",
-    "sport": "כדורסל",
-    "title": "הפועל ירושלים - רוסטוק סיוולבס"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "20:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "ז'לגיריס קובנה - אולימפיאקוס"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "20:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "אנאדולו אפס - ריאל מדריד"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "20:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "פנרבחצ'ה - באיירן מינכן"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הכוכב האדום בלגרד - הפועל תל אביב"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "ולנסיה - באסקוניה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "אולימפיה מילאנו - וירטוס בולוניה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:45",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "פאריס באסקטבול - פרטיזן בלגרד"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "ספרד - קרואטיה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "צ'כיה - אנגליה"
-   },
-   {
-    "date": "2026-09-29",
-    "time": "22:00",
-    "channel": "5 גולד",
-    "sport": "כדורגל",
-    "title": "גבון - ניז'ר"
-   },
    {
     "date": "2026-09-30",
     "time": "03:30",
@@ -2385,8 +2265,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T20:17:19+00:00",
-  "fetched_at": "2026-09-29T20:17:19+00:00"
+  "checked_at": "2026-09-29T21:17:24+00:00",
+  "fetched_at": "2026-09-29T21:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2476,8 +2356,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T20:17:19+00:00",
-  "fetched_at": "2026-09-29T20:17:19+00:00"
+  "checked_at": "2026-09-29T21:17:24+00:00",
+  "fetched_at": "2026-09-29T21:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2500,13 +2380,15 @@
     }
    ],
    "candidates": 11,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 323,
+     "likes": 325,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2520,7 +2402,7 @@
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 596,
+     "likes": 597,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2534,14 +2416,14 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 182,
+     "likes": 183,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2555,7 +2437,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 185,
+     "likes": 187,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2575,8 +2457,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T20:17:27+00:00",
-  "fetched_at": "2026-09-29T20:17:27+00:00"
+  "checked_at": "2026-09-29T21:17:32+00:00",
+  "fetched_at": "2026-09-29T21:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2881,8 +2763,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T20:17:22+00:00",
-  "fetched_at": "2026-09-29T20:17:22+00:00"
+  "checked_at": "2026-09-29T21:17:28+00:00",
+  "fetched_at": "2026-09-29T21:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2913,7 +2795,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T20:17:23+00:00",
-  "fetched_at": "2026-09-29T20:17:23+00:00"
+  "checked_at": "2026-09-29T21:17:29+00:00",
+  "fetched_at": "2026-09-29T21:17:29+00:00"
  }
 }
