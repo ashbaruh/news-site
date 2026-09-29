@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T09:17:22+00:00",
-  "fetched_at": "2026-09-29T09:17:22+00:00"
+  "checked_at": "2026-09-29T10:17:13+00:00",
+  "fetched_at": "2026-09-29T10:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T09:17:37+00:00",
-  "fetched_at": "2026-09-29T09:17:37+00:00"
+  "checked_at": "2026-09-29T10:17:25+00:00",
+  "fetched_at": "2026-09-29T10:17:25+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Nothing's flagship wireless headphones are \"ludicrously over-engineered\" to deliver its \"best listening experience ever\"",
+    "title_he": "אוזניות הדגל האלחוטיות של שום דבר \"הונדסות יתר על המידה בצורה מגוחכת\" כדי לספק את \"חווית ההאזנה הטובה ביותר אי פעם\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/nothings-flagship-wireless-headphones-are-ludicrously-over-engineered-to-deliver-its-best-listening-experience-ever",
+    "date": "2026-09-29T09:43:39+00:00"
+   },
    {
     "title_en": "Bose’s new Noise Cancelling Wired Earbuds aim to “set a new standard for what wired earbuds can be”",
     "title_he": "האוזניות החוטיות החדשות של Bose שואפות \"להגדיר סטנדרט חדש למה שיכולות להיות אוזניות חוטיות\"",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/av/a-swiss-army-knife-cd-player-sonos-beam-and-ace-ultra-reviews-next-gen-upgrade-for-wireless-headphones-and-more",
     "date": "2026-09-28T13:04:56+00:00"
-   },
-   {
-    "title_en": "JBL’s new soundbar series can fold into a U-shape – and that’s not the only flexible feature",
-    "title_he": "סדרת הסאונד - בר החדשה של JBL יכולה להתקפל לצורת U – וזו לא התכונה הגמישה היחידה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/jbls-new-soundbar-series-can-fold-into-a-u-shape-and-thats-not-the-only-flexible-feature",
-    "date": "2026-09-28T13:00:20+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T09:17:38+00:00",
-  "fetched_at": "2026-09-29T09:17:38+00:00"
+  "checked_at": "2026-09-29T10:17:25+00:00",
+  "fetched_at": "2026-09-29T10:17:25+00:00"
  },
- "generated_at": "2026-09-29T09:17:38+00:00",
+ "generated_at": "2026-09-29T10:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
-     "date": "2026-09-29T08:20:00+00:00"
+     "title": "ניסיון הפריצה למיטב טרייד: מה הלקוחות צריכים לדעת?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557821",
+     "date": "2026-09-29T09:12:00+00:00"
     },
     {
      "title": "100 פורעים ישראלים תקפו לוחמים ושרפו בתים בכפר בשומרון",
@@ -99,6 +99,11 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "מגמה חיובית בתל אביב בהובלת מניות הנדל\"ן; פאלו אלטו ואלקטרה נדל\"ן מזנקות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
+     "date": "2026-09-29T09:20:00+00:00"
+    },
+    {
      "title": "ניסיון הפריצה למיטב טרייד: מה הלקוחות צריכים לדעת?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557821",
      "date": "2026-09-29T09:12:00+00:00"
@@ -107,11 +112,6 @@ window.DB.generated = {
      "title": "מגמה מעורבת בבורסות אירופה; יציבות בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
      "date": "2026-09-29T08:42:00+00:00"
-    },
-    {
-     "title": "מגמה חיובית בתל אביב בהובלת מניות הנדל\"ן; פאלו אלטו ואלקטרה נדל\"ן מזנקות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
-     "date": "2026-09-29T08:20:00+00:00"
     },
     {
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T09:17:24+00:00",
-  "fetched_at": "2026-09-29T09:17:24+00:00"
+  "checked_at": "2026-09-29T10:17:14+00:00",
+  "fetched_at": "2026-09-29T10:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T09:17:25+00:00",
-  "fetched_at": "2026-09-29T09:17:25+00:00"
+  "checked_at": "2026-09-29T10:17:15+00:00",
+  "fetched_at": "2026-09-29T10:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T09:17:28+00:00",
-  "fetched_at": "2026-09-29T09:17:28+00:00"
+  "checked_at": "2026-09-29T10:17:16+00:00",
+  "fetched_at": "2026-09-29T10:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T09:17:28+00:00",
-  "fetched_at": "2026-09-29T09:17:28+00:00"
+  "checked_at": "2026-09-29T10:17:17+00:00",
+  "fetched_at": "2026-09-29T10:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2504,7 +2504,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 311,
+     "likes": 312,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2553,7 +2553,7 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 103,
+     "likes": 104,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
@@ -2573,8 +2573,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T09:17:36+00:00",
-  "fetched_at": "2026-09-29T09:17:36+00:00"
+  "checked_at": "2026-09-29T10:17:24+00:00",
+  "fetched_at": "2026-09-29T10:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2613,15 +2613,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "עידן טוקלומטי"
-     ]
-    },
-    {
-     "title": "דני וולף: עונת הרוקי לא עמדה בציפיות שלי",
-     "link": "https://www.one.co.il/Article/534565.html?ref=rss",
-     "date": "2026-09-28T17:55:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני וולף"
      ]
     },
     {
@@ -2670,15 +2661,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "מנור סולומון: \"אם אגיד מה אני חושב על האירים, ירחיקו אותי\"",
-     "link": "https://sports.walla.co.il/item/3870036",
-     "date": "2026-09-27T21:23:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
      "link": "https://sports.walla.co.il/item/3869886",
      "date": "2026-09-27T05:15:00+00:00",
@@ -2709,6 +2691,15 @@ window.DB.generated = {
      "title": "\"חדשות רעות מאוד לדני אבדיה\". המהלך שפגע באולסטאר הישראלי",
      "link": "https://sports.walla.co.il/item/3869446",
      "date": "2026-09-23T05:23:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3869427",
+     "date": "2026-09-23T05:10:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2915,8 +2906,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T09:17:32+00:00",
-  "fetched_at": "2026-09-29T09:17:32+00:00"
+  "checked_at": "2026-09-29T10:17:20+00:00",
+  "fetched_at": "2026-09-29T10:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -2947,7 +2938,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T09:17:33+00:00",
-  "fetched_at": "2026-09-29T09:17:33+00:00"
+  "checked_at": "2026-09-29T10:17:21+00:00",
+  "fetched_at": "2026-09-29T10:17:21+00:00"
  }
 };
