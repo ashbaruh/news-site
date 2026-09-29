@@ -1,0 +1,311 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8a1abea476cc",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "verified": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-29T09:00:14+00:00",
+  "window": {
+   "from": "2026-09-28T09:00:14+00:00",
+   "to": "2026-09-29T09:00:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609290900"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך בממדים דיפלומטיים, כלכליים וצבאיים, כאשר איראן מתמודדת עם קריסה חדה במטבע המקומי ומאבק על פתיחת מצרי הורמוז בתמורה להסרת סנקציות. במקביל, מתקיימים מגעים עקיפים דרך מתווכים ומפגשים אזוריים בין ישראל למדינות המפרץ לבחירת מענה משותף לאיומי איראן ושלוחותיה, לצד הכחשות אמריקאיות לגבי מתן הנחות בסנקציות.",
+  "fronts": [
+   {
+    "name": "החזית הדיפלומטית והגרעינית",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "חזית המפרץ ומצרי הורמוז",
+    "status": "פעיל תחת לחץ כלכלי וצבאי"
+   },
+   {
+    "name": "החזית הכלכלית",
+    "status": "החמרה עקב קריסת המטבע והסנקציות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09290900-01",
+    "title": "מעצר חשודים סמוך לבסיס חיל אוויר בבריטניה",
+    "summary": "משטרת בריטניה עצרה חמישה חשודים בעבירות נפץ וטרור סמוך לבסיס חיל האוויר של בריטניה שמשמש כוחות אמריקניים, ומזכיר המדינה האמריקני אמר כי באירוע מעורב גורם זר.",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T21:36:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T21:36:40+00:00",
+    "last_update_at": "2026-09-29T08:46:30+00:00",
+    "what_is_not_verified": "הקשר הישיר של איראן לאירוע אינו מאומת במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/09/rubio-says-uk-airbase-incident-involved-foreign-state",
+      "published_at": "2026-09-29T08:46:30+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_reuters",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21509592",
+      "published_at": "2026-09-29T01:41:45+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_reuters",
+      "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+      "published_at": "2026-09-28T21:36:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס חיל האוויר פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09290900-02",
+    "title": "קריסת שער המטבע האיראני",
+    "summary": "שער המטבע האיראני רשם ירידה חדה ונסחר סביב שער של 2.44 מיליון ריאל לדולר אמריקאי אחד.",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T10:23:50+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T10:23:50+00:00",
+    "last_update_at": "2026-09-29T07:59:01+00:00",
+    "what_is_not_verified": "לא מאומתים כלל הגורמים המדויקים שהאיצו את הקריסה הבוקר מעבר למצב הכלכלי הכללי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131004",
+      "published_at": "2026-09-29T07:59:01+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130954",
+      "published_at": "2026-09-28T10:32:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48057",
+      "published_at": "2026-09-28T10:23:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09290900-03",
+    "title": "פגישת בכירים באיחוד הארויות בנושא איראן והחות'ים",
+    "summary": "ראש ממשלת ישראל נסע לאיחוד האמירויות ונפגש עם הנשיא, בהשתתפות נציגים ממדינות נוספות, לדיון שכלל את איראן ואת האיום החות'י.",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T19:28:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T19:28:59+00:00",
+    "last_update_at": "2026-09-29T06:50:17+00:00",
+    "what_is_not_verified": "זהותן המלאה של כל המדינות המשתתפות הנוספות לא צוינה במלואה במקורות הראשוניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+      "published_at": "2026-09-29T06:50:17+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21509128",
+      "published_at": "2026-09-28T19:28:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09290900-04",
+    "title": "הכחשת נשיא ארה\"ב בדבר מתן הקלה בסנקציות לאיראן",
+    "summary": "נשיא ארה\"ב דונלד טראמפ הכחיש דיווחים לפיהם הציע לאיראן הקלה בסנקציות ושחרור כספים קפואים בתמורה לויתורים בתחום הגרעין.",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T03:46:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T03:46:31+00:00",
+    "last_update_at": "2026-09-29T06:50:17+00:00",
+    "what_is_not_verified": "האם אכן מתקיימים ערוצי משא ומתן חשאיים נוספים סביב הסנקציות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_533d5f1ef40e130c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+      "published_at": "2026-09-29T06:50:17+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_43bd64faebbcc38c",
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks",
+      "published_at": "2026-09-29T06:46:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_5ac57b7526987229",
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-denies-offering-iran-sanctions-relief-nuclear-concessions",
+      "published_at": "2026-09-29T03:46:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09290900-05",
+    "title": "נסיגת כוחות ארה\"ב מעיראק",
+    "summary": "כוחות ארצות הברית עומדים לסיים את נסיגתם מהבסיסים האחרונים בעיראק.",
+    "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T06:46:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T06:46:28+00:00",
+    "last_update_at": "2026-09-29T06:46:28+00:00",
+    "what_is_not_verified": "היקף ההשפעה המדויק שיישאר לגורמים פרו-איראניים בבסיסים לאחר הפינוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-forces-exit-iraq-after-two-decades-leaving-opening-iran",
+      "published_at": "2026-09-29T06:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומו או תוכנו המדויק של הסכם מתגבש בין ארה\"ב לאיראן באמצעות מתווכים",
+   "מעורבות ישירה ומוძחת של מדינה זרה באירוע הבטחוני בבסיס פיירפורד בבריטניה",
+   "האם הצעות כלשהן להקלות בסנקציות אכן הוצעו מאחורי הקלעים באורח חשאי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0633,
+    "unit": "ILS",
+    "change_pct": 0.97,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הסרת הסנקציות מעל מגזר הנפט",
+     "הפסקת אש אזורית והפסקת הסגר הימי האמריקני בתמורה לפתיחת מצרי הורמוז",
+     "עשיית צדק והעמדה לדין של פושעי מלחמה אמריקנים וישראלים"
+    ],
+    "inferred": [
+     "שמירה על תוכנית הגרעין והשפעה אזורית למרות המשבר הכלכלי החמור",
+     "ניצול מנופים אזוריים להקלת הלחץ הכלכלי מבית"
+    ],
+    "forecast": [
+     "המשך המאבק הכלכלי והסלמה אפשרית לאחר תקופת הבחירות בארצות הברית",
+     "התעקשות על תנאים נוקשים לפתיחת מעברים ימיים"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "שמירה על הביטחון האזורי ובלימת ההשפעה האיראנית",
+     "התנגדות למתן הקלות סנקציות ללא צעדים קונקרטיים בתחום הגרעין"
+    ],
+    "inferred": [
+     "שאיפה למנוע מאיראן השגת נשק גרעיני שיאפשר לה לסחוט את העולם",
+     "גיבוי שיתופי הפעולה הביטחוניים במפרץ"
+    ],
+    "forecast": [
+     "המשך מדיניות הלחץ המקסימלי והטלת סנקציות על גופים וחברות המפרות אותן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול התוכניות האיראניות ושלוחותיה באזור",
+     "יצירת חזית אזורית משותפת עם מדינות המפרץ ומצרים מול האיום האיראני והחות'י"
+    ],
+    "inferred": [
+     "הדגשת הסכנה שבהשגת נשק גרעיני בידי איראן בזירות הבינלאומיות",
+     "חיזוק קשרים דיפלומטיים חשאיים ופומביים לבלימת ציר הטרור האיראני"
+    ],
+    "forecast": [
+     "הידוק התיאום המדיני-ביטחוני עם הממשל האמריקני ומדינות האזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/us-forces-exit-iraq-after-two-decades-leaving-opening-iran",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/geopolitics/article/21509128",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130954",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48057",
+    "accessed_at": "2026-09-29T09:00:14+00:00"
+   }
+  ]
+ }
+}

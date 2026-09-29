@@ -1,0 +1,347 @@
+{
+ "status": "draft",
+ "received_sha256_12": "07dd92bf5529",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 2,
+   "initial": 3,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-29T09:14:18+00:00",
+  "window": {
+   "from": "2026-09-28T09:14:18+00:00",
+   "to": "2026-09-29T09:14:18+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609290914"
+  },
+  "summary": "הלחימה בתימן ובמרחב הימי נמשכת ביתר שאת, כאשר ממשלת תימן והכוחות התומכים בה פועלים נגד המיליצייה החות'ית ומכריזים על גיוס כללי, בעוד החות'ים ממשיכים בשיגור כטב\"מים וטילים לעבר סעודיה והים האדום. במקביל, נרשמים מאמצים דיפלומטיים אזוריים ובינלאומיים של ארה\"ב, האיחוד האירופי ומדינות האזור להתמודד עם האיומים הימיים והביטחוניים מצד החות'ים.",
+  "fronts": [
+   {
+    "name": "החזית הפנימית בתימן",
+    "status": "פעיל ומתמשך עם עימותים קרקעיים ואוויריים"
+   },
+   {
+    "name": "חזית סעודיה-החות'ים",
+    "status": "פעיל הכולל תקיפות חוצות גבולות של כטב\"מים וטילים"
+   },
+   {
+    "name": "זירת הים האדום ומצר באב אל-מנדב",
+    "status": "פעיל עם איומים ימיים ומאמצי הגנה בינלאומיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09290914-01",
+    "title": "עקירת תושבים בתימן עקב לחימה",
+    "summary": "הארגון הבינלאומי להגירה דיווח על עקירתם של כמעט 16 אלף בני אדם בתימן בשבוע אחד, עקב הסלמה בחוסר הביטחון בחוף המערבי.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-29T05:18:16+00:00",
+    "last_update_at": "2026-09-29T05:18:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_680ae2ec995e46a2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-yemen-displaces-16000-over-past-week-iom",
+      "published_at": "2026-09-29T05:18:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09290914-02",
+    "title": "פעולות צבאיות של משרד ההגנה בתימן נגד החות'ים",
+    "summary": "משרד ההגנה בתימן הודיע שכוחותיו ביצעו מאות פעולות נגד יעדי חות'ים במספר חזיתות, וגרמו לנפגעים בקרב החות'ים.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T17:25:32+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T17:25:32+00:00",
+    "last_update_at": "2026-09-29T06:50:17+00:00",
+    "what_is_not_verified": "הנתונים על מספר ההרוגים והנפגעים אינם מאומתים ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9f77b7c90acca0a2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+      "published_at": "2026-09-29T06:50:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9f77b7c90acca0a2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-armed-forces-claim-356-operations-against-houthi-targets-over",
+      "published_at": "2026-09-29T01:40:42+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_9fec03e5feb1250a",
+      "url": "https://www.sabanew.net/viewstory/153150",
+      "published_at": "2026-09-28T17:25:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09290914-03",
+    "title": "תקיפות אוויריות סעודיות בתימן לפי טענת החות'ים",
+    "summary": "הדובר הצבאי של החות'ים טען שמטוסי קרב סעודיים ביצעו עשרות תקיפות אוויריות במחוזות שונים בתימן.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T18:39:03+00:00",
+    "last_update_at": "2026-09-28T18:39:03+00:00",
+    "what_is_not_verified": "מספר התקיפות והנפגעים לא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/130980",
+      "published_at": "2026-09-28T18:39:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "צעדה",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "חג'ה",
+      "lat": 15.6329,
+      "lon": 43.6063
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09290914-04",
+    "title": "הכרזת גיוס כללי על ידי שלטונות תימן הלגיטימית",
+    "summary": "…",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T16:22:45+00:00",
+    "last_update_at": "2026-09-28T16:22:45+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48069",
+      "published_at": "2026-09-28T16:22:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09290914-05",
+    "title": "יירוט רחפנים וטילים סעודי לעבר סעודיה",
+    "summary": "הקואליציה בהובלת סעודיה הודיעה על יירוט והשמדה של רחפנים וטילי בליסטיים שכוונות לעבר אזור ריאד וחימיש מושייט.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-28T15:17:05+00:00",
+    "last_update_at": "2026-09-28T15:17:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/why-did-riyadh-schools-abruptly-switch-online-classes",
+      "published_at": "2026-09-28T15:17:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "חימיש מושייט",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-09290914-06",
+    "title": "חקירת עיראק על מתקפת כטב\"מים נגד צינור נפט סעודי",
+    "summary": "ממצאים ראשוניים של חקירה בעיראק הצביעו על כך שמשמר המהפך האיראני והחות'ים עמדו מאחורי שיגור כטב\"מים לעבר צינור הנפט מזרח-מערב בסעודיה מעיראק.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-28T11:52:30+00:00",
+    "last_update_at": "2026-09-28T11:52:30+00:00",
+    "what_is_not_verified": "ממצאי החקירה הראשוניים טרם פורסמו רשמית כמконן סופי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+      "published_at": "2026-09-28T11:52:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-09290914-07",
+    "title": "בקשת סעודיה לסיוע מישראל מול איומי החות'ים",
+    "summary": "כלי תקשורת דיווחו שסעודיה ביקשה סיוע מישראל נגד התקפות החות'ים בים האדום, מה שהוביל לפגישה בתיווך המוסד באיחוד האמירויות.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T03:37:32+00:00",
+    "last_update_at": "2026-09-29T06:50:17+00:00",
+    "what_is_not_verified": "השתתפות נציגי סעודיה בפגישה ובקשת הסיוע מדווחות על ידי כלי תקשורת בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ynet",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+      "published_at": "2026-09-29T06:50:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ynet",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahus-office-confirms-visit-uae-israeli-media-reports-attendance",
+      "published_at": "2026-09-29T03:37:32+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': \"מספר הנפגעים וההרוגים המדויק בפעולות צבא תימן נגד החות'ים.\"}",
+   "{'string': 'השתתפות נציגי סעודיה בפגישה המדוברת באיחוד האמירויות.'}",
+   "{'string': 'הממצאים המלאים והסופיים של החקירה העיראקית לגבי מתקפת צינור הנפט.'}"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0633,
+    "unit": "ILS",
+    "change_pct": 0.97,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשכת תקיפות נגד יעדים בסעודיה ובמרחב הימי"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי על סעודיה וישראל",
+     "הרחבת ההשפעה באזור באמצעות פגיעה בתשתיות אנרגיה"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר יעדים בסעודיה ובים האדום",
+     "היערכות להסלמה נוספת מול כוחות הממשלה הלגיטימית בתימן"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן הלגיטימית",
+    "declared": [
+     "גיוס כללי ללחימה נגד החות'ים",
+     "השמדת תשתיות ויעדים צבאיים של החות'ים"
+    ],
+    "inferred": [
+     "שחזור שליטה טריטוריאלית באזורים שנפלו בידי החות'ים",
+     "גיוס תמיכה בינלאומית וערבית נגד המיליצייה"
+    ],
+    "forecast": [
+     "הגברת פעולות ההתקפה הקרקעיות והאוויריות נגד מעוזי החות'ים"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על ביטחון המדינה ותשתיות האנרגיה מפני תקיפות חות'יות"
+    ],
+    "inferred": [
+     "חיפוש שיתופי פעולה אזוריים ובינלאומיים לבלום את האיומי החות'ים",
+     "תמיכה בממשלת תימן ובקואליציה לייצוב המצב"
+    ],
+    "forecast": [
+     "המשך תקיפות הגנתיות ויירוט איומים אוויריים",
+     "בחינת שיתופי פעולה ביטחוניים רחבים יותר מול האיום החות'י"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahus-office-confirms-visit-uae-israeli-media-reports-attendance",
+    "accessed_at": "2026-09-29T09:14:18+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/exclusive-irgc-houthis-behind-saudi-pipeline-attack-iraq",
+    "accessed_at": "2026-09-29T09:14:18+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153150",
+    "accessed_at": "2026-09-29T09:14:18+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/130980",
+    "accessed_at": "2026-09-29T09:14:18+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48069",
+    "accessed_at": "2026-09-29T09:14:18+00:00"
+   }
+  ]
+ }
+}

@@ -291,219 +291,209 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-28T1815__iran-202609281815.json",
+  "draft": "drafts/iran/2026-09-29T0900__iran-202609290900.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-28T18:15:18+00:00",
+   "generated_at": "2026-09-29T09:00:14+00:00",
    "window": {
-    "from": "2026-09-27T18:15:18+00:00",
-    "to": "2026-09-28T18:15:18+00:00"
+    "from": "2026-09-28T09:00:14+00:00",
+    "to": "2026-09-29T09:00:14+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609281815"
+    "run_id": "iran-202609290900"
    },
-   "summary": "העימות המשולש נמשך במספר חזיתות הכוללות לחץ כלכלי וסנקציות על איראן, שיבושים בנתיבי השיט במצר הורמוז, ופעילות מנוגדת של שלוחויות ופרוקסי באזור. איראן מתמודדת עם שפל חסר תקדים במטבע המקומי שלה לצד לחצים צבאיים ומדיניים מצד ארצות הברית וישראל, בעוד מגעים דיפלומטיים עקיפים וגישושים להסכמים מתנהלים במקביל לאיומי תקיפה.",
+   "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך בממדים דיפלומטיים, כלכליים וצבאיים, כאשר איראן מתמודדת עם קריסה חדה במטבע המקומי ומאבק על פתיחת מצרי הורמוז בתמורה להסרת סנקציות. במקביל, מתקיימים מגעים עקיפים דרך מתווכים ומפגשים אזוריים בין ישראל למדינות המפרץ לבחירת מענה משותף לאיומי איראן ושלוחותיה, לצד הכחשות אמריקאיות לגבי מתן הנחות בסנקציות.",
    "fronts": [
     {
-     "name": "מצר הורמוז והמפרץ",
-     "status": "פעיל ומתוח עם שיבושי שייט ותקיפות"
+     "name": "החזית הדיפלומטית והגרעינית",
+     "status": "פעיל ומתוח"
     },
     {
-     "name": "החזית הכלכלית והסנקציות",
-     "status": "החמרה בערך המטבע האיראני והגברת אכיפת סנקציות קריפטו"
+     "name": "חזית המפרץ ומצרי הורמוז",
+     "status": "פעיל תחת לחץ כלכלי וצבאי"
     },
     {
-     "name": "החזית הדיפלומטית והמדינית",
-     "status": "מגעים עקיפים בין וושינגטון לטהרן באמצעות מתווכים בניו יורק"
+     "name": "החזית הכלכלית",
+     "status": "החמרה עקב קריסת המטבע והסנקציות"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09281815-01",
-     "title": "תפיסת כלי שיט ומעצרים במצר הורמוז",
-     "summary": "איראן תפסה שני כלי שיט קלים ועצרה חמישה עשר אנשים בטענה שהפרו תקנות",
-     "axis": "המפרץ",
+     "id": "IRAN-09290900-01",
+     "title": "מעצר חשודים סמוך לבסיס חיל אוויר בבריטניה",
+     "summary": "משטרת בריטניה עצרה חמישה חשודים בעבירות נפץ וטרור סמוך לבסיס חיל האוויר של בריטניה שמשמש כוחות אמריקניים, ומזכיר המדינה האמריקני אמר כי באירוע מעורב גורם זר.",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T18:05:40+00:00",
+     "occurred_at": "2026-09-28T21:36:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:05:40+00:00",
-     "last_update_at": "2026-09-28T18:05:40+00:00",
-     "what_is_not_verified": "לא ידועות בדיוק האזרחיות של העצורים וזמן ביצוע הפעולה המדויק",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_5dee32b6f6db89c0",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-seizes-two-light-vessels-arrests-50-people-violating-regulations",
-       "published_at": "2026-09-28T18:05:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      },
-      {
-       "name": "מינאב, איראן",
-       "lat": 27.1506,
-       "lon": 57.0753
-      },
-      {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09281815-02",
-     "title": "חידוש טיסות בין עיראק לאיראן",
-     "summary": "חברת התעופה העיראקית חידשה את הטיסות בין נג'ף לשדות תעופה באיראן לאחר הפסקה קצרה",
-     "axis": "עיראק",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T14:42:52+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T14:42:52+00:00",
-     "last_update_at": "2026-09-28T17:54:03+00:00",
-     "what_is_not_verified": "האם ההפסקה נבעה ישירות מהסנקציות של ארצות הברית או מהוראה מקומית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_4445b3c8119dbd1a",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-airways-resumes-flights-between-najaf-and-iranian-airports-state",
-       "published_at": "2026-09-28T17:54:03+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_5b649bd3cb07c1c7",
-       "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
-       "published_at": "2026-09-28T14:42:52+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "נג'ף, עיראק",
-       "lat": 32.001,
-       "lon": 44.33
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09281815-03",
-     "title": "חקירת חשד לפיגוע בבסיס חיל האוויר הבריטי",
-     "summary": "משטרת בריטניה עצרה ושחררה בערבות חמישה חשודים במסגרת חקירת איום פוטנציאלי על בסיס המשמש את ארצות הברית, כאשר נבדק חשד למעורבות מדינה זרה או שליחים",
-     "axis": "אירופה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T12:55:34+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T12:55:34+00:00",
-     "last_update_at": "2026-09-28T17:52:24+00:00",
-     "what_is_not_verified": "האם איראן הייתה מעורבת במזימה, והאם המטענים שאותרו היו שמישים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
-       "published_at": "2026-09-28T17:52:24+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
-       "published_at": "2026-09-28T16:46:56+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/rjo2bjucgg",
-       "published_at": "2026-09-28T15:07:59+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
-       "published_at": "2026-09-28T12:55:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פיירפורד, בריטניה",
-       "lat": 51.7108,
-       "lon": -1.782
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09281815-04",
-     "title": "פרסום דוח סנאט על שימוש במטבע קריפטו למימון איראן וחיזבאללה",
-     "summary": "דוח של הסנאט האמריקאי חשף כי מטבע הדיגיטלי תטר משמש עורק פיננסי מרכזי לאיראן ולמימון ארגונים פרוקסי בהם חיזבאללה",
-     "axis": "כלכלי/סנקציות",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T14:57:33+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T14:57:33+00:00",
-     "last_update_at": "2026-09-28T17:46:30+00:00",
-     "what_is_not_verified": "היקף העסקאות המדויק שבוצע דרך ארנקים אלו",
+     "first_reported_at": "2026-09-28T21:36:40+00:00",
+     "last_update_at": "2026-09-29T08:46:30+00:00",
+     "what_is_not_verified": "הקשר הישיר של איראן לאירוע אינו מאומת במלואו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
-       "published_at": "2026-09-28T17:46:30+00:00"
+       "source_root_id": "or_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/09/rubio-says-uk-airbase-incident-involved-foreign-state",
+       "published_at": "2026-09-29T08:46:30+00:00"
       },
       {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
-       "published_at": "2026-09-28T14:57:33+00:00"
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_reuters",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21509592",
+       "published_at": "2026-09-29T01:41:45+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_reuters",
+       "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+       "published_at": "2026-09-28T21:36:40+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "בסיס חיל האוויר פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
+      }
+     ]
     },
     {
-     "id": "IRAN-09281815-05",
-     "title": "פציעת חיילי מארינס אמריקאים בתקיפה במצר הורמוז",
-     "summary": "שמונה אנשי סגל של חיל הנחתים האמריקאי נפצעו כתוצאה מפגיעת טיל שיוט איראני בכלי שיט במצר הורמוז מוקדם יותר החודש",
-     "axis": "המפרץ",
-     "claim_type": "incident",
+     "id": "IRAN-09290900-02",
+     "title": "קריסת שער המטבע האיראני",
+     "summary": "שער המטבע האיראני רשם ירידה חדה ונסחר סביב שער של 2.44 מיליון ריאל לדולר אמריקאי אחד.",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-09-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T05:44:58+00:00",
-     "last_update_at": "2026-09-28T05:44:58+00:00",
-     "what_is_not_verified": "זהות כלי השיט המדויקת שספגה את הפגיעה",
+     "occurred_at": "2026-09-28T10:23:50+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-28T10:23:50+00:00",
+     "last_update_at": "2026-09-29T07:59:01+00:00",
+     "what_is_not_verified": "לא מאומתים כלל הגורמים המדויקים שהאיצו את הקריסה הבוקר מעבר למצב הכלכלי הכללי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130921",
-       "published_at": "2026-09-28T05:44:58+00:00"
+       "url": "https://t.me/abualiexpress/131004",
+       "published_at": "2026-09-29T07:59:01+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130954",
+       "published_at": "2026-09-28T10:32:01+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48057",
+       "published_at": "2026-09-28T10:23:50+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09290900-03",
+     "title": "פגישת בכירים באיחוד הארויות בנושא איראן והחות'ים",
+     "summary": "ראש ממשלת ישראל נסע לאיחוד האמירויות ונפגש עם הנשיא, בהשתתפות נציגים ממדינות נוספות, לדיון שכלל את איראן ואת האיום החות'י.",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T19:28:59+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T19:28:59+00:00",
+     "last_update_at": "2026-09-29T06:50:17+00:00",
+     "what_is_not_verified": "זהותן המלאה של כל המדינות המשתתפות הנוספות לא צוינה במלואה במקורות הראשוניים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+       "published_at": "2026-09-29T06:50:17+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21509128",
+       "published_at": "2026-09-28T19:28:59+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09290900-04",
+     "title": "הכחשת נשיא ארה\"ב בדבר מתן הקלה בסנקציות לאיראן",
+     "summary": "נשיא ארה\"ב דונלד טראמפ הכחיש דיווחים לפיהם הציע לאיראן הקלה בסנקציות ושחרור כספים קפואים בתמורה לויתורים בתחום הגרעין.",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T03:46:31+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-29T03:46:31+00:00",
+     "last_update_at": "2026-09-29T06:50:17+00:00",
+     "what_is_not_verified": "האם אכן מתקיימים ערוצי משא ומתן חשאיים נוספים סביב הסנקציות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_533d5f1ef40e130c",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+       "published_at": "2026-09-29T06:50:17+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_43bd64faebbcc38c",
+       "url": "https://www.al-monitor.com/originals/2026/09/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks",
+       "published_at": "2026-09-29T06:46:28+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_5ac57b7526987229",
+       "url": "https://www.al-monitor.com/originals/2026/09/trump-denies-offering-iran-sanctions-relief-nuclear-concessions",
+       "published_at": "2026-09-29T03:46:31+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-09290900-05",
+     "title": "נסיגת כוחות ארה\"ב מעיראק",
+     "summary": "כוחות ארצות הברית עומדים לסיים את נסיגתם מהבסיסים האחרונים בעיראק.",
+     "axis": "ישראל-ארה\"ב מול איראן ושלוחותיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T06:46:28+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T06:46:28+00:00",
+     "last_update_at": "2026-09-29T06:46:28+00:00",
+     "what_is_not_verified": "היקף ההשפעה המדויק שיישאר לגורמים פרו-איראניים בבסיסים לאחר הפינוי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/09/us-forces-exit-iraq-after-two-decades-leaving-opening-iran",
+       "published_at": "2026-09-29T06:46:28+00:00"
       }
      ],
      "places": [
       {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
+       "name": "בגדאד, עיראק",
+       "lat": 33.3062,
+       "lon": 44.3872
       }
      ]
     }
    ],
    "not_verified": [
-    "מעורבות אפשרית של איראן בניסיון הפיגוע לכאורה בבסיס פיירפורד בבריטניה",
-    "פרטי הפגיעה המדויקים בספינה האמריקאית במצר הורמוז שדווחו ברשת אן-בי-סי",
-    "ההצעה האיראנית המדויקת להפוגה בת שבעה ימים ודחייתה על ידי ארצות הברית"
+    "קיומו או תוכנו המדויק של הסכם מתגבש בין ארה\"ב לאיראן באמצעות מתווכים",
+    "מעורבות ישירה ומוძחת של מדינה זרה באירוע הבטחוני בבסיס פיירפורד בבריטניה",
+    "האם הצעות כלשהן להקלות בסנקציות אכן הוצעו מאחורי הקלעים באורח חשאי"
    ],
    "map": {
     "confidence": "medium",
@@ -525,116 +515,102 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "מוכנות לשיחות או למלחמה אפוקליפטית",
-      "הדגשת תפקידה של ההתנגדות כגורם הרתעתי"
+      "הסרת הסנקציות מעל מגזר הנפט",
+      "הפסקת אש אזורית והפסקת הסגר הימי האמריקני בתמורה לפתיחת מצרי הורמוז",
+      "עשיית צדק והעמדה לדין של פושעי מלחמה אמריקנים וישראלים"
      ],
      "inferred": [
-      "עקיפת סנקציות באמצעות מטבעות קריפטו ונתיבי סחר חלופיים",
-      "שימוש בשלוחים להפעלת לחץ על ארצות הברית וישראל"
+      "שמירה על תוכנית הגרעין והשפעה אזורית למרות המשבר הכלכלי החמור",
+      "ניצול מנופים אזוריים להקלת הלחץ הכלכלי מבית"
      ],
      "forecast": [
-      "המשך ניסיונות לשבש את תנועת האנרגיה במצר הורמוז כל עוד הלחץ הכלכלי נמשך",
-      "חיפוש ערוצי עקיפה נוספים למערכת הפיננסית המערבית"
+      "המשך המאבק הכלכלי והסלמה אפשרית לאחר תקופת הבחירות בארצות הברית",
+      "התעקשות על תנאים נוקשים לפתיחת מעברים ימיים"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "ארה\"ב",
      "declared": [
-      "הפעלת לחץ מקסימלי וסנקציות כלכליות על טהרן",
-      "שמירה על חופש השיט והגנה על כוחותיה במפרץ"
+      "שמירה על הביטחון האזורי ובלימת ההשפעה האיראנית",
+      "התנגדות למתן הקלות סנקציות ללא צעדים קונקרטיים בתחום הגרעין"
      ],
      "inferred": [
-      "בחינת אפשרות לתקיפות צבאיות נוספות במקביל לניהול מגעים עקיפים",
-      "חסימת עורקי מימון של איראן ושלוחיה דרך מערכות פיננסיות וקריפטו"
+      "שאיפה למנוע מאיראן השגת נשק גרעיני שיאפשר לה לסחוט את העולם",
+      "גיבוי שיתופי הפעולה הביטחוניים במפרץ"
      ],
      "forecast": [
-      "החמרת הפיקוח על עסקאות קריפטו המשרתות את איראן וארגוני הטרור",
-      "המשך הפעלת נוכחות צבאית מוגברת באזורי חיכוך ימיים"
+      "המשך מדיניות הלחץ המקסימלי והטלת סנקציות על גופים וחברות המפרות אותן"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "בלימת השפעתה האזורית של איראן ושלחיה",
-      "סיכול תשתיות טרור ומימון המופנות נגדה"
+      "סיכול התוכניות האיראניות ושלוחותיה באזור",
+      "יצירת חזית אזורית משותפת עם מדינות המפרץ ומצרים מול האיום האיראני והחות'י"
      ],
      "inferred": [
-      "שיתוף פעולה מודיעיני הדוק עם ארצות הברית וגורמים מערביים למעקב אחר רשתות מימון איראניות",
-      "היערכות צבאית מתמשכת לאפשרות של עימות ישיר רחב"
+      "הדגשת הסכנה שבהשגת נשק גרעיני בידי איראן בזירות הבינלאומיות",
+      "חיזוק קשרים דיפלומטיים חשאיים ופומביים לבלימת ציר הטרור האיראני"
      ],
      "forecast": [
-      "המשך פעילות חשאית וגלויה נגד נתיבי האספקה והכספים של ציר ההתנגדות",
-      "הגברת התיאום המדיני מול ממשל ארצות הברית בנושא הסנקציות על איראן"
+      "הידוק התיאום המדיני-ביטחוני עם הממשל האמריקני ומדינות האזור"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/tether-usdt-aids-iran-funding-senate-report-says",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/us-forces-exit-iraq-after-two-decades-leaving-opening-iran",
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     },
     {
      "source_id": "src_guardian",
      "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
-    },
-    {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86277438/Iraq-to-resume-Iran-flights-from-Najaf-airport-within-24-hours",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21506710",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "url": "https://www.israelhayom.co.il/news/geopolitics/article/21509128",
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-police-say-releasing-bail-five-men-held-over-airbase-incident",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-630",
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/130921",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "url": "https://t.me/abualiexpress/130954",
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/bje4rgd9ml",
-     "accessed_at": "2026-09-28T18:15:18+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48057",
+     "accessed_at": "2026-09-29T09:00:14+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-28T05:47:10+00:00",
+  "previous_generated_at": "2026-09-28T18:15:18+00:00",
   "changes": {
-   "IRAN-09281815-01": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "לכידת צוללת אוטונומית אמריקאית במצר הורמוז",
-    "score": 0.817
-   },
-   "IRAN-09281815-02": {
-    "kind": "new"
-   },
-   "IRAN-09281815-03": {
+   "IRAN-09290900-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "מעצר חשודים בטרור ליד בסיס חיל האוויר הבריטי-אמריקאי פיירפורד",
+    "prev": "חקירת חשד לפיגוע בבסיס חיל האוויר הבריטי",
     "score": 1.0
    },
-   "IRAN-09281815-04": {
+   "IRAN-09290900-02": {
     "kind": "new"
    },
-   "IRAN-09281815-05": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפת כלי שיט במצר הורמוז",
-    "score": 1.0
+   "IRAN-09290900-03": {
+    "kind": "new"
+   },
+   "IRAN-09290900-04": {
+    "kind": "new"
+   },
+   "IRAN-09290900-05": {
+    "kind": "new"
    }
   }
  },
@@ -1072,84 +1048,212 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-28T1821__north-202609281821.json",
+  "draft": "drafts/north/2026-09-29T0927__north-202609290927.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-28T18:21:41+00:00",
+   "generated_at": "2026-09-29T09:27:12+00:00",
    "window": {
-    "from": "2026-09-27T18:21:41+00:00",
-    "to": "2026-09-28T18:21:41+00:00"
+    "from": "2026-09-28T09:27:12+00:00",
+    "to": "2026-09-29T09:27:12+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202609281821"
+    "run_id": "north-202609290927"
    },
-   "summary": "בזרה הצפונית נמשכות התנגשויות נקודתיות ופעילות צבאית של צה\"ל בדרום לבנון הכוללת השמדת תשתיות והתבססות במרחב הביטחוני, לצד מאמצים דיפלומטיים של ממשלת לבנון מול ארצות הברית להשגת נסיגה ישראלית מלאה. במקביל, בסוריה מתבצעות פעולות ביטחון פנים נגד תאי טרור לצד שינויים מנהלתיים ותקציביים של משרד האוצר הסורי.",
+   "summary": "הזירה הצפונית מתאפיינת בפעילות צבאית מתמשכת של צה\"ל בדרום לבנון הכוללת תקיפות, פירוק תשתיות תת-קרקעיות וחילופי אש, לצד פשיטות ומעצרים המתרחשים באזור קוניטרה ודרעא שבדרום סוריה. במקביל, ממשלת לבנון מקיימת דיונים כלכליים ומדיניים עם גורמים בינלאומיים בוושינגטון סביב דרישות לפירוק רשתות פיננסיות ושיקום המדינה, בעוד שסוריה מתמודדת פנימית עם משברים כלכליים, שיקום תשתיות אנרגיה ופעילות ביטחונית נגד תאי טרור.",
    "fronts": [
     {
-     "name": "החזית הלבנונית",
-     "status": "פעיל חלקית עם תקיפות צה\"ל, פיצוצים מבוקרים בדרום לבנון ומגעים דיפלומטיים"
+     "name": "חזית לבנון",
+     "status": "פעילה עם תקיפות צה\"ל, פעילות כוחות קרקעיים ועימותים נקודתיים"
     },
     {
-     "name": "החזית הסורית",
-     "status": "פעילות ביטחון פנים נגד תאי טרור וצעדי התאוששות כלכלית ומנהלית"
+     "name": "חזית סוריה",
+     "status": "פעילה עם פשיטות ומעצרים של צה\"ל בגולן ובדרום המדינה, ואירועי טרור ותשתיות פנימיים"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09281821-01",
-     "title": "פגישת ראש ממשלת לבנון עם מזכיר המדינה האמריקאי",
-     "summary": "ראש ממשלת לבנון נפגש בוושינגטון עם מזכיר המדינה של ארצות הברית וקרא להפעלת מסגרת תלת-צדדית, קביעת לוח זמנים לנסיגה ישראלית מלאה ומנגנון פיקוח אמין.",
-     "axis": "לבנון-ישראל",
-     "claim_type": "statement",
+     "id": "NORTH-09290927-01",
+     "title": "תקיפות והפגזות באלמנצורי ודרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו פיצוצי מבנים ותקיפות במשך שבועות, כולל ירי פצצות תאורה והפגזות בכפר אלמנצורי ופאתי מייס אל-ג'בל.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T12:38:04+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T12:38:04+00:00",
-     "last_update_at": "2026-09-28T18:13:46+00:00",
-     "what_is_not_verified": "הפרטים לגבי יישום בפועל של לוח הזמנים והמנגנון אינם מאומתים שכן מדובר בהצהרות ודרישות.",
+     "occurred_at": "2026-09-28T19:40:49+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-28T19:40:49+00:00",
+     "last_update_at": "2026-09-29T08:56:41+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_src_anadolu",
-       "url": "https://www.aa.com.tr/en/middle-east/lebanese-premier-urges-implementation-of-trilateral-framework-to-ensure-israeli-withdrawal/4071966",
-       "published_at": "2026-09-28T18:13:46+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131007",
+       "published_at": "2026-09-29T08:56:41+00:00"
       },
       {
-       "source_id": "src_lbci",
-       "source_root_id": "or_src_anadolu",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/960192/rubio-reaffirms-us-support-for-lebanon-as-salam-calls-for-clear-timeli/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960192",
-       "published_at": "2026-09-28T13:05:05+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/132252/",
+       "published_at": "2026-09-29T08:41:30+00:00"
       },
       {
-       "source_id": "src_lbci",
-       "source_root_id": "or_src_anadolu",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/960188/rubio-salam-meeting-highly-positive-discuss-roadmap-for-israeli-withdr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960188",
-       "published_at": "2026-09-28T12:38:04+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130984",
+       "published_at": "2026-09-28T19:40:49+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
+       "name": "אלמנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
       }
      ]
     },
     {
-     "id": "NORTH-09281821-02",
-     "title": "ירי מיירט לעבר מטרה אווירית בדרום לבנון",
-     "summary": "צה\"ל דיווח על שיגור מיירט לעבר מטרה אווירית חשודה במרחב הפעילות של כוחותיו בדרום לבנון, ללא הפעלת התרעות.",
-     "axis": "לבנון-ישראל",
+     "id": "NORTH-09290927-02",
+     "title": "פשיטה ומעצר בקוניטרה ובכפר זוביידה",
+     "summary": "כוחות ישראליים עצרו גבר סורי והתקדמו לעבר כפר זוביידה בצפון קוניטרה במהלך פלישה.",
+     "axis": "ישראל - סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T08:27:59+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T08:27:59+00:00",
+     "last_update_at": "2026-09-29T08:27:59+00:00",
+     "what_is_not_verified": "הפרטים מדווחים על ידי תקשורת סורית ולא אומתו ממקור ראשון",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-detain-syrian-man-during-incursion-in-northern-quneitra/4072325",
+       "published_at": "2026-09-29T08:27:59+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זוביידה, סוריה",
+       "lat": 36.1017,
+       "lon": 37.6663
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09290927-03",
+     "title": "פשיטות והקמת מחסום בדרום סוריה",
+     "summary": "כוחות ישראליים ביצעו פשיטות בדרעא המערבית והקימו מחסום בקוניטרה.",
+     "axis": "ישראל - סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T04:10:29+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T04:10:29+00:00",
+     "last_update_at": "2026-09-29T04:10:29+00:00",
+     "what_is_not_verified": "מבוסס על דיווחי תקשורת סורית ללא אישור רשמי נוסף",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-homes-set-up-checkpoint-in-southern-syria/4072117",
+       "published_at": "2026-09-29T04:10:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09290927-04",
+     "title": "פיצוץ צינור גז בדיר א-זור",
+     "summary": "פיצוץ בצינור גז שיבש את אספקת האנרגיה לתחנות כוח במזרח סוריה, וצוותי כיבוי פעלו לבידוד הקטע.",
+     "axis": "סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T18:41:44+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T18:41:44+00:00",
+     "last_update_at": "2026-09-29T03:40:04+00:00",
+     "what_is_not_verified": "סיבת הפיצוץ המדויקת אינה מפורטת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_500282b92d56a89f",
+       "url": "https://www.aa.com.tr/en/middle-east/gas-pipeline-blaze-disrupts-supplies-to-power-stations-in-eastern-syria/4072113",
+       "published_at": "2026-09-29T03:40:04+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_500282b92d56a89f",
+       "url": "https://t.me/abualiexpress/130981",
+       "published_at": "2026-09-28T18:41:44+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דיר א-זור, סוריה",
+       "lat": 35.3333,
+       "lon": 40.15
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09290927-05",
+     "title": "ניטרול שני חשודים בדרום לבנון",
+     "summary": "כוחות צה\"ל זיהו שני חשודים שנכנסו למרחב הביטחוני בדרום לבנון והתקרבו לכוחות, פתחו באש ונטרלו אותם.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T19:20:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T19:20:50+00:00",
+     "last_update_at": "2026-09-28T19:40:49+00:00",
+     "what_is_not_verified": "אין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130984",
+       "published_at": "2026-09-28T19:40:49+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25245",
+       "published_at": "2026-09-28T19:20:50+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09290927-06",
+     "title": "שיגור מיירט לעבר מטרה אווירית בדרום לבנון",
+     "summary": "טיל מיירט שוגר לעבר מטרה אווירית חשודה שזוהתה במרחב הפעילות של כוחות צה\"ל בדרום לבנון.",
+     "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-28T17:39:44+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-09-28T17:39:44+00:00",
      "last_update_at": "2026-09-28T18:06:20+00:00",
-     "what_is_not_verified": "הפרטים המלאים על זיהוי המטרה נמצאים בבדיקה.",
+     "what_is_not_verified": "הפרטים המלאים על המטרה נמצאים בבדיקה",
      "is_new_in_window": true,
      "reports": [
       {
@@ -1165,70 +1269,18 @@ window.DB.war_published = {
        "published_at": "2026-09-28T17:39:44+00:00"
       }
      ],
-     "places": []
-    },
-    {
-     "id": "NORTH-09281821-03",
-     "title": "פיצוצים מבוקרים ותקיפות של צה\"ל בדרום לבנון",
-     "summary": "כוחות צה\"ל ביצעו תקיפות, פיצוצים מבוקרים והשמדת תשתיות טרור רבות בכפר אל-מנצורי ובאזורים נוספים בדרום לבנון.",
-     "axis": "לבנון-ישראל",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T13:26:35+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T13:26:35+00:00",
-     "last_update_at": "2026-09-28T16:11:45+00:00",
-     "what_is_not_verified": "חלק מהדיווחים מבוססים על גופי תקשורת לבנוניים ועל טענות צבאיות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_al_nna_and_afp",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
-       "published_at": "2026-09-28T16:11:45+00:00"
-      },
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_al_nna_and_afp",
-       "url": "https://t.me/idf_telegram/25242",
-       "published_at": "2026-09-28T15:31:01+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_al_nna_and_afp",
-       "url": "https://english.almanar.com.lb/article/131592/",
-       "published_at": "2026-09-28T15:07:36+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_al_nna_and_afp",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
-       "published_at": "2026-09-28T15:05:55+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_al_nna_and_afp",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
-       "published_at": "2026-09-28T13:26:35+00:00"
-      }
-     ],
      "places": [
       {
-       "name": "אל-מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "צור, לבנון",
-       "lat": 33.2721,
-       "lon": 35.1964
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
       }
      ]
     },
     {
-     "id": "NORTH-09281821-04",
-     "title": "חשיפת רשת דאעש במספר מחוזות בסוריה",
-     "summary": "השלטונות בסוריה הודיעו על פירוק רשת של ארגון המדינה אלאסלאמיה שפעלה בארבעה מחוזות וכללה מעצר של בכירים וחברי חוליה.",
+     "id": "NORTH-09290927-07",
+     "title": "פירוק רשת של ארגון המדינה האסלאמית בסוריה",
+     "summary": "רשויות הביטחון בסוריה הודיעו כי פירקו רשת טרור של ארגון המדינה האסלאמית שפעלה בארבעה מחוזות ועצרו תשעה חשודים.",
      "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
@@ -1236,12 +1288,12 @@ window.DB.war_published = {
      "is_ongoing": false,
      "first_reported_at": "2026-09-28T16:54:35+00:00",
      "last_update_at": "2026-09-28T16:54:35+00:00",
-     "what_is_not_verified": "הטענות של הרשויות הסוריות לא אומתו באופן עצמאי וזהות העצורים לא פורסמה.",
+     "what_is_not_verified": "הטענות לא אומתו באופן עצמאי וזהות העצורים לא פורסמה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_syrian_interior_ministry_announcement",
+       "source_root_id": "or_unknown_origin",
        "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
        "published_at": "2026-09-28T16:54:35+00:00"
       }
@@ -1263,12 +1315,47 @@ window.DB.war_published = {
        "lon": 36.7167
       }
      ]
+    },
+    {
+     "id": "NORTH-09290927-08",
+     "title": "השלמת מבצע השמדת תשתיות באל-מנצורי",
+     "summary": "כוחות חטיבה 55 השלימו פעילות באזור אל-מנצורי בדרום לבנון, במסגרתה הושמדו למעלה מ-600 תשתיות טרור ומספר תוואים תת-קרקעיים.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T13:26:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T13:26:35+00:00",
+     "last_update_at": "2026-09-28T15:31:01+00:00",
+     "what_is_not_verified": "אין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "fh_70d5fce9f0dce013",
+       "url": "https://t.me/idf_telegram/25242",
+       "published_at": "2026-09-28T15:31:01+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "fh_70d5fce9f0dce013",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
+       "published_at": "2026-09-28T13:26:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אל-מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      }
+     ]
     }
    ],
    "not_verified": [
-    "הפרטים המדויקים סביב המטרה האוירית החשודה בדרום לבנון",
-    "זהות העצורים במבצע נגד דאעש בסוריה והמועד המדויק של הפעולות המיוחסות להם",
-    "אמינות הטענות על שימוש במטבעות קריפטו למימון חיזבאללה דרך איראן"
+    "טענות השלטונות בסוריה על פירוק רשת המדינה האסלאמית ומספר העצורים המדויק",
+    "דיווחים על פשיטות ומעצרים בקוניטרה ובדרעא מצד מקורות מקומיים בלבד",
+    "ההערכות והדיווחים על היקף הנזק והפעילות באזורים מסוימים בדרום לבנון מעבר להודעות הרשמיות"
    ],
    "map": {
     "confidence": "medium",
@@ -1290,124 +1377,135 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "שמירה על ביטחון התושבים והכוחות",
-      "השמדת תשתיות טרור בדרום לבנון"
+      "מניעת היערכות מחודשת של חיזבאללה בדרום לבנון",
+      "חיסול תשתיות טרור והסרת איומים על אזרחים וכוחות צה\"ל"
      ],
      "inferred": [
-      "מניעת התבססות מחדש של חיזבאללה בסמוך לגבול",
-      "הרחקת איומים במרחב הגבול הצפוני"
+      "יצירת מרחב ביטחוני מתפקד ומניעת התבססות עוינת סמוך לגבול הצפון",
+      "הפעלת לחץ מתמשך על תשתיות צבאיות בדרום לבנון ובמרחבי הגבול"
      ],
      "forecast": [
-      "המשך פעולות ממוקדות נגד תשתיות טרור בלבנון בהתאם לצורך",
-      "היערכות ממושכת במרחבים המבצעיים בגבול לבנון"
+      "המשך פעולות חיסול תשתיות וסיכול איומים ממוקדים בגבול לבנון ובסוריה",
+      "שימור דריכות גבוהה והמשך פעילות הנדסית וטכנולוגית (כגון כלים בלתי מאוישים) בשטח"
      ]
     },
     {
      "actor": "לבנון",
      "declared": [
-      "השגת נסיגה ישראלית מלאה משטח לבנון",
-      "החזרת השליטה הבלעדית של המדינה על הנשק"
+      "קידום רפורמות כלכליות ושיקום תשתיות המדינה בסיוע הבנק העולמי וגורמים בינלאומיים",
+      "התמודדות עם לחצים כלכליים ודרישות לשמירת יציבות המערכת הבנקאית"
      ],
      "inferred": [
-      "ניסיון לרתום את ארצות הברית ללחץ דיפלומטי על ישראל",
-      "חיזוק המוסדות הממשלתיים מול גורמי כוח מקומיים"
+      "ניסיון לאזן בין הדרישות הבינלאומיות (הפסקת פעילות רשתות מימון של חיזבאללה ואיראן) לבין המציאות הפוליטית הפנימית המורכבת",
+      "שאיפה לקבלת סיוע חיצוני שיסייע בשיקום אזורי ההרס"
      ],
      "forecast": [
-      "המשך מאמצים דיפלומטיים בוושינגטון ובזירה הבינלאומית",
-      "לחץ פנימי גובר בנוגע לפירוק נשק ושיקום תשתיות"
+      "המשך לחץ אמריקאי ומערבי על ממשלת לבנון לנקוט צעדים נגד רשתות פיננסיות",
+      "המשך מאבקים פנימיים סביב דרישות כלכליות, מחאות עובדים ומעמדו של חיזבאללה"
      ]
     },
     {
-     "actor": "איראן וחיזבאללה",
+     "actor": "איראן",
      "declared": [
-      "המשך ההתנגדות לכישול האויב והגנה על ציר ההתנגדות",
-      "שימור מורשת המנהיגים המחוסלים והמשך דרכם"
+      "הגנה על הביטחון והאינטרסים הלאומיים של איראן מפני תוקפנות",
+      "המשך תמיכה ב\"ציר ההתנגדות\" ובבעלי בריתה באזור"
      ],
      "inferred": [
-      "ניסיון לשקם את יכולות הארגון למרות המכות הקשות שפגעו בהנהגה",
-      "הסתמכות על ערוצי מימון אלטרנטיביים לעקוף את הסנקציות"
+      "ניסיון להשתמש באיומים על תשתיות אנרגיה ומצריים אזוריים כמנוף לחץ נגד ארצות הברית וישראל",
+      "שימור רשתות ההשפעה והמימון האזוריות למרות הלחץ הדיפלומטי והכלכלי המערבי"
      ],
      "forecast": [
-      "שימור רטוריקה לוחמנית וקיום אירועי זיכרון להפגנת נוכחות",
-      "ניסיונות התארגנות מחדש בדרגים השונים תחת הנהגה חדשה"
+      "המשך שיחות עקיפות בתיווך בינלאומי לצד שמירה על קו לוחמני בהצהרות פומביות",
+      "הגברת החיכוך המדיני סביב סוגיות גרעין וסנקציות"
      ]
     },
     {
      "actor": "סוריה",
      "declared": [
-      "ייצוב המצב הביטחוני פנימי ופירוק רשתות טרור",
-      "ארגון מחדש של ההוצאה הציבורית ושיקום תשתיות אזרחיות"
+      "בניית מדיניות חוץ חדשה המבוססת על כבוד הדדי ושמירה על ריבונות לאומית",
+      "שיקום תשתיות אזרחיות, שדות תעופה ומערכות כלכליות"
      ],
      "inferred": [
-      "ריסוק תאים פעילים של ארגונים קיצוניים מחוץ למעוזיהם המסורתיים",
-      "התמודדות עם משברים כלכליים חריפים והשפעות הפליטים החוזרים"
+      "רצון להתרחק מהשפעות שליליות של מעורבות זרה קודמת תוך התמודדות עם אתגרים ביטחוניים פנימיים (כמו תאי טרור)",
+      "התמודדות עם קשיים תקציביים חמורים וגירעון פיסקאלי משמעותי"
      ],
      "forecast": [
-      "המשך פעולות מבצעיות של מנגנוני הביטחון במחוזות השונים",
-      "התמודדות מתמשכת עם אתגרים תקציביים ושיקום תחבורה אווירית"
+      "המשך מאמצים לייצוב הפנים ושיקום מבני שלטון ותשתיות תחבורה ואנרגיה",
+      "המשך התמודדות עם חוסר יציבות בגבולות ובדרום המדינה מול פעילות צבאית זרה"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/131592/",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "url": "https://english.almanar.com.lb/article/132252/",
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-army-carries-out-massive-explosion-in-southern-lebanon-report/4071813",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/gas-pipeline-blaze-disrupts-supplies-to-power-stations-in-eastern-syria/4072113",
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     },
     {
      "source_id": "src_lbci",
      "url": "https://www.lbcgroup.tv/news/lebanon-news/960197/israeli-army-claims-it-destroyed-over-600-infrastructure-sites-in-sout/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960197",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-set-large-explosion-south-report-says",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     },
     {
      "source_id": "src_newarab",
      "url": "https://www.newarab.com/news/syria-says-network-dismantled-across-four-provinces",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/130978",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     },
     {
      "source_id": "src_tg_idf",
      "url": "https://t.me/idf_telegram/25242",
-     "accessed_at": "2026-09-28T18:21:41+00:00"
+     "accessed_at": "2026-09-29T09:27:12+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-27T23:42:01+00:00",
+  "previous_generated_at": "2026-09-28T18:21:41+00:00",
   "changes": {
-   "NORTH-09281821-01": {
+   "NORTH-09290927-01": {
+    "kind": "down",
+    "from": "verified",
+    "to": "shared_root",
+    "prev": "פיצוצים מבוקרים ותקיפות של צה\"ל בדרום לבנון",
+    "score": 0.65
+   },
+   "NORTH-09290927-02": {
     "kind": "new"
    },
-   "NORTH-09281821-02": {
-    "kind": "possible",
-    "prev": "קריאת שר האוצר הישראלי לסיפוח שטחים בדרום לבנון",
-    "score": 0.467
+   "NORTH-09290927-03": {
+    "kind": "new"
    },
-   "NORTH-09281821-03": {
+   "NORTH-09290927-04": {
+    "kind": "new"
+   },
+   "NORTH-09290927-05": {
+    "kind": "new"
+   },
+   "NORTH-09290927-06": {
     "kind": "same",
     "from": "verified",
     "to": "verified",
-    "prev": "תקיפות חיל האוויר הישראלי בדרום לבנון בתגובה לשיגור רחפן",
-    "score": 0.65
+    "prev": "ירי מיירט לעבר מטרה אווירית בדרום לבנון",
+    "score": 1.0
    },
-   "NORTH-09281821-04": {
-    "kind": "possible",
-    "prev": "הסרת ההתנגדות הישראלית להפעלת מערכות ניווט בשדות תעופה בסוריה",
-    "score": 0.633
+   "NORTH-09290927-07": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "חשיפת רשת דאעש במספר מחוזות בסוריה",
+    "score": 1.0
+   },
+   "NORTH-09290927-08": {
+    "kind": "new"
    }
   }
  }
