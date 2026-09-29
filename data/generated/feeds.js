@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:57:58+00:00",
-  "fetched_at": "2026-09-29T12:57:58+00:00"
+  "checked_at": "2026-09-29T13:17:27+00:00",
+  "fetched_at": "2026-09-29T13:17:27+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "A Strategy of Cash-for-Photos Turns Animal Hunters into Animal Protectors in Indonesia",
+    "title_he": "אסטרטגיה של מזומנים תמורת תמונות הופכת ציידי בעלי חיים למגני בעלי חיים באינדונזיה",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/a-strategy-of-cash-for-photos-turns-animal-hunters-into-animal-protectors-in-indonesia/",
+    "date": "2026-09-29T13:00:01+00:00"
+   },
    {
     "title_en": "Vietnam Swiftly Protects Forests Containing the Last of the World’s Most-Endangered Monkey",
     "title_he": "וייטנאם מגנה במהירות על יערות המכילים את הקוף האחרון בסכנת הכחדה בעולם",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/",
     "date": "2026-09-27T22:50:42+00:00"
-   },
-   {
-    "title_en": "This Curious Bird Had Never Been Seen Before, and its Discovery Changed Ecuador–Perhaps Forever",
-    "title_he": "הציפור הסקרנית הזו מעולם לא נראתה לפני כן, והתגלית שלה שינתה את אקוודור - אולי לנצח",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/this-curious-bird-had-never-been-seen-before-and-its-discovery-changed-ecuador-perhaps-forever/",
-    "date": "2026-09-22T15:30:15+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:58:09+00:00",
-  "fetched_at": "2026-09-29T12:58:09+00:00"
+  "checked_at": "2026-09-29T13:17:39+00:00",
+  "fetched_at": "2026-09-29T13:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:58:09+00:00",
-  "fetched_at": "2026-09-29T12:58:09+00:00"
+  "checked_at": "2026-09-29T13:17:40+00:00",
+  "fetched_at": "2026-09-29T13:17:40+00:00"
  },
- "generated_at": "2026-09-29T12:58:09+00:00",
+ "generated_at": "2026-09-29T13:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:57:59+00:00",
-  "fetched_at": "2026-09-29T12:57:59+00:00"
+  "checked_at": "2026-09-29T13:17:28+00:00",
+  "fetched_at": "2026-09-29T13:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:58:00+00:00",
-  "fetched_at": "2026-09-29T12:58:00+00:00"
+  "checked_at": "2026-09-29T13:17:28+00:00",
+  "fetched_at": "2026-09-29T13:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:58:01+00:00",
-  "fetched_at": "2026-09-29T12:58:01+00:00"
+  "checked_at": "2026-09-29T13:17:30+00:00",
+  "fetched_at": "2026-09-29T13:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:58:01+00:00",
-  "fetched_at": "2026-09-29T12:58:01+00:00"
+  "checked_at": "2026-09-29T13:17:30+00:00",
+  "fetched_at": "2026-09-29T13:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2495,16 +2495,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 7,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 315,
+     "likes": 316,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2536,18 +2534,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 177,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 168,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 176,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Hum to Song",
@@ -2573,8 +2571,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:58:08+00:00",
-  "fetched_at": "2026-09-29T12:58:08+00:00"
+  "checked_at": "2026-09-29T13:17:38+00:00",
+  "fetched_at": "2026-09-29T13:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2897,8 +2895,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:58:04+00:00",
-  "fetched_at": "2026-09-29T12:58:04+00:00"
+  "checked_at": "2026-09-29T13:17:33+00:00",
+  "fetched_at": "2026-09-29T13:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2929,7 +2927,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:58:05+00:00",
-  "fetched_at": "2026-09-29T12:58:05+00:00"
+  "checked_at": "2026-09-29T13:17:33+00:00",
+  "fetched_at": "2026-09-29T13:17:33+00:00"
  }
 };
