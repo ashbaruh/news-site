@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:17:35+00:00",
-  "fetched_at": "2026-09-29T12:17:35+00:00"
+  "checked_at": "2026-09-29T12:57:58+00:00",
+  "fetched_at": "2026-09-29T12:57:58+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:17:46+00:00",
-  "fetched_at": "2026-09-29T12:17:46+00:00"
+  "checked_at": "2026-09-29T12:58:09+00:00",
+  "fetched_at": "2026-09-29T12:58:09+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:17:47+00:00",
-  "fetched_at": "2026-09-29T12:17:47+00:00"
+  "checked_at": "2026-09-29T12:58:09+00:00",
+  "fetched_at": "2026-09-29T12:58:09+00:00"
  },
- "generated_at": "2026-09-29T12:17:47+00:00",
+ "generated_at": "2026-09-29T12:58:09+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "גורמים במערכת הביטחון: \"לא יהיה מנוס מפעולה רחבה ברצועת עזה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T11:54:00+00:00"
+     "date": "2026-09-29T12:29:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "עליות קלות בחוזים בניו יורק; מחירי הנפט ותשואות האג\"ח נסוגים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
+     "date": "2026-09-29T12:55:00+00:00"
+    },
     {
      "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557762",
@@ -112,11 +117,6 @@ window.DB.generated = {
      "title": "דיווח: בריטניה הרחיבה משמעותית את אמברגו הנשק על ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557825",
      "date": "2026-09-29T10:30:00+00:00"
-    },
-    {
-     "title": "יציבות בחוזים בוול סטריט; AMD הודיעה על רכישת ענק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T09:47:00+00:00"
     },
     {
      "title": "לא טילים ולא נפט: הנשק האמריקאי שמכאיב לאיראן",
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:17:36+00:00",
-  "fetched_at": "2026-09-29T12:17:36+00:00"
+  "checked_at": "2026-09-29T12:57:59+00:00",
+  "fetched_at": "2026-09-29T12:57:59+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:17:37+00:00",
-  "fetched_at": "2026-09-29T12:17:37+00:00"
+  "checked_at": "2026-09-29T12:58:00+00:00",
+  "fetched_at": "2026-09-29T12:58:00+00:00"
  },
  "tv": {
   "data": [
@@ -2381,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:17:38+00:00",
-  "fetched_at": "2026-09-29T12:17:38+00:00"
+  "checked_at": "2026-09-29T12:58:01+00:00",
+  "fetched_at": "2026-09-29T12:58:01+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2472,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:17:38+00:00",
-  "fetched_at": "2026-09-29T12:17:38+00:00"
+  "checked_at": "2026-09-29T12:58:01+00:00",
+  "fetched_at": "2026-09-29T12:58:01+00:00"
  },
  "ai": {
   "data": {
@@ -2496,13 +2496,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 8,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 314,
+     "likes": 315,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2516,7 +2518,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2537,28 +2539,28 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 167,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 175,
+     "likes": 176,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 105,
+     "likes": 106,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 183,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2571,12 +2573,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:17:45+00:00",
-  "fetched_at": "2026-09-29T12:17:45+00:00"
+  "checked_at": "2026-09-29T12:58:08+00:00",
+  "fetched_at": "2026-09-29T12:58:08+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "גבאי בחוד, גורן בקישור: הרכב הנבחרת הצעירה בסלובניה",
+     "link": "https://sports.walla.co.il/item/3870227",
+     "date": "2026-09-29T12:35:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "דניאל פרץ מול האירים: החשש החדש בסאות'המפטון",
      "link": "https://sports.walla.co.il/item/3870203",
@@ -2886,8 +2897,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T12:17:41+00:00",
-  "fetched_at": "2026-09-29T12:17:41+00:00"
+  "checked_at": "2026-09-29T12:58:04+00:00",
+  "fetched_at": "2026-09-29T12:58:04+00:00"
  },
  "idf": {
   "data": [
@@ -2918,7 +2929,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T12:17:42+00:00",
-  "fetched_at": "2026-09-29T12:17:42+00:00"
+  "checked_at": "2026-09-29T12:58:05+00:00",
+  "fetched_at": "2026-09-29T12:58:05+00:00"
  }
 };
