@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-28",
+   "as_of": "2026-09-29",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T02:17:19+00:00",
-  "fetched_at": "2026-09-29T02:17:19+00:00"
+  "checked_at": "2026-09-29T03:17:13+00:00",
+  "fetched_at": "2026-09-29T03:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T02:17:32+00:00",
-  "fetched_at": "2026-09-29T02:17:32+00:00"
+  "checked_at": "2026-09-29T03:17:22+00:00",
+  "fetched_at": "2026-09-29T03:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T02:17:32+00:00",
-  "fetched_at": "2026-09-29T02:17:32+00:00"
+  "checked_at": "2026-09-29T03:17:22+00:00",
+  "fetched_at": "2026-09-29T03:17:22+00:00"
  },
- "generated_at": "2026-09-29T02:17:32+00:00",
+ "generated_at": "2026-09-29T03:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
-     "date": "2026-09-28T18:00:00+00:00"
+     "title": "30% מהשטחים ממתינים לשוכר: מה לא נחגג בהשקת המגדל הגבוה בישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557752",
+     "date": "2026-09-29T02:49:00+00:00"
     },
     {
      "title": "הגרעין חוזר לשולחן: ההצעה של טראמפ לאיראן",
@@ -97,9 +97,19 @@
    ],
    "market": [
     {
-     "title": "התאוששות קלה בוול סטריט על רקע טלטלה במחירי הנפט",
+     "title": "האם אחרי שנים של אכזבות, מניית נייס משנה כיוון?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
+     "date": "2026-09-29T02:51:00+00:00"
+    },
+    {
+     "title": "מנהל ההשקעות שלא נבהל מהאינפלציה ומהמלצה על סקטורים שזינקו מאות אחוזים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
+     "date": "2026-09-29T02:50:00+00:00"
+    },
+    {
+     "title": "נעילה אדומה בוול סטריט בהובלת הנאסד\"ק; תשואות האג\"ח בשיא של 19 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T18:48:00+00:00"
+     "date": "2026-09-28T20:11:00+00:00"
     },
     {
      "title": "בן 77, מיליארדר ועדיין עובד: \"לא רוצה לרדת מהבמה\"",
@@ -130,11 +140,6 @@
      "title": "מנכ\"ל מליסרון אופיר שריד הלך לעולמו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557613",
      "date": "2026-09-28T14:50:00+00:00"
-    },
-    {
-     "title": "קרסו נשארה בלי הקבלן המבצע בפרויקט הירושלמי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557773",
-     "date": "2026-09-28T14:24:00+00:00"
     },
     {
      "title": "אנבידיה יוצאת למהלך היסטורי של 150 מיליארד דולר",
@@ -205,17 +210,12 @@
      "title": "נורה אדומה: שני סימנים שעלולים לבשר על טלטלה בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557632",
      "date": "2026-09-27T10:00:00+00:00"
-    },
-    {
-     "title": "קאמבק של מיליארד דולר: ריסקיפייד מזנקת בוול סטריט לשיא של 5 שנים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557636",
-     "date": "2026-09-27T07:17:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T02:17:21+00:00",
-  "fetched_at": "2026-09-29T02:17:21+00:00"
+  "checked_at": "2026-09-29T03:17:14+00:00",
+  "fetched_at": "2026-09-29T03:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T02:17:21+00:00",
-  "fetched_at": "2026-09-29T02:17:21+00:00"
+  "checked_at": "2026-09-29T03:17:15+00:00",
+  "fetched_at": "2026-09-29T03:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2377,8 +2377,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T02:17:23+00:00",
-  "fetched_at": "2026-09-29T02:17:23+00:00"
+  "checked_at": "2026-09-29T03:17:16+00:00",
+  "fetched_at": "2026-09-29T03:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2468,8 +2468,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T02:17:23+00:00",
-  "fetched_at": "2026-09-29T02:17:23+00:00"
+  "checked_at": "2026-09-29T03:17:16+00:00",
+  "fetched_at": "2026-09-29T03:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2484,7 +2484,7 @@
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-     "date": "2026-09-29T01:00:00+00:00",
+     "date": "2026-09-28T19:00:00+00:00",
      "launch": false,
      "title_en": "How we will do better for Australia",
      "title_he": "איך נעשה טוב יותר עבור אוסטרליה",
@@ -2505,7 +2505,7 @@
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 242,
+     "likes": 243,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2516,13 +2516,6 @@
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 166,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
@@ -2530,10 +2523,17 @@
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 167,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 198,
+     "likes": 199,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2547,14 +2547,14 @@
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 101,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 178,
+     "likes": 179,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2567,8 +2567,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T02:17:31+00:00",
-  "fetched_at": "2026-09-29T02:17:31+00:00"
+  "checked_at": "2026-09-29T03:17:22+00:00",
+  "fetched_at": "2026-09-29T03:17:22+00:00"
  },
  "abroad": {
   "data": {
@@ -2909,8 +2909,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T02:17:26+00:00",
-  "fetched_at": "2026-09-29T02:17:26+00:00"
+  "checked_at": "2026-09-29T03:17:19+00:00",
+  "fetched_at": "2026-09-29T03:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2941,7 +2941,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T02:17:26+00:00",
-  "fetched_at": "2026-09-29T02:17:26+00:00"
+  "checked_at": "2026-09-29T03:17:19+00:00",
+  "fetched_at": "2026-09-29T03:17:19+00:00"
  }
 }
