@@ -1,181 +1,157 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-09-29T04:00:00+03:00",
- "generated_at": "2026-09-29T00:40:24+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-09-29T12:00:00+03:00",
+ "generated_at": "2026-09-29T08:40:14+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-09290040-01",
-     "title": "טראמפ מכחיש שהציע הקלת סנקציות לאיראן",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הכחיש דיווחים לפיהם ממשלו הציע לאיראן הקלת סנקציות ושחרור כספים מוקפאים בתמורה לוויתורים בתוכנית הגרעין.",
-     "axis": "סנקציות וגרעין מול ארה\"ב",
-     "claim_type": "statement",
+     "id": "IRAN-09290840-01",
+     "title": "קריסת שער המטבע באיראן",
+     "summary": "המטבע האיראני רשם ירידה חדה ונסחר בשער של 2.44 מיליון ריאל לדולר.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T21:53:49+00:00",
-     "last_update_at": "2026-09-28T21:53:49+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-09-29T07:59:01+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T07:59:01+00:00",
+     "last_update_at": "2026-09-29T07:59:01+00:00",
+     "what_is_not_verified": "לא מאומת האם השער ימשיך לרדת במהלך היום.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_truth_social",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-denies-he-offered-iran-sanctions-relief-release-frozen-funds",
-       "published_at": "2026-09-28T21:53:49+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131004",
+       "published_at": "2026-09-29T07:59:01+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-09290040-02",
-     "title": "מגעים להעברת תגובה אמריקאית דרך קטאר",
-     "summary": "שר החוץ האיראני עבאס עראקצ'י מסר כי ארצו דנה ברעיונות מול מתווכים קטארים וצופה לקבל את תגובתה הסופית של וושינגטון דרך דוחה.",
-     "axis": "משא ומתן דיפלומטי",
+     "id": "IRAN-09290840-02",
+     "title": "הכחשת נשיא ארצות הברית על הקלת סנקציות",
+     "summary": "הנשיא טראמפ דחה את הדיווחים לפיהם הציע לאיראן הקלה בסנקציות או שחרור כספים מוקפאים.",
+     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T22:41:40+00:00",
-     "last_update_at": "2026-09-28T22:41:40+00:00",
-     "what_is_not_verified": "פרטי הרעיונות שהועברו והתגובה האמריקאית טרם אומתו",
+     "occurred_at": "2026-09-29T05:49:41+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-29T05:49:41+00:00",
+     "last_update_at": "2026-09-29T05:49:41+00:00",
+     "what_is_not_verified": "האם התקיימו מגעים מאחורי הקלעים שלא פורסמו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_irna",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-qatar-convey-us-response-after-talks-ideas-irna-reports",
-       "published_at": "2026-09-28T22:41:40+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/130994",
+       "published_at": "2026-09-29T05:49:41+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-09290040-03",
-     "title": "חידוש טיסות צליינים בין נג'ף לאיראן",
-     "summary": "עיראק ואיראן הודיעו על חידוש הטיסות בקו בין נג'ף לאיראן ברקע מחאות ופטור אמריקאי מוגבל מהסנקציות לצורך הטסת עולי רגל.",
-     "axis": "תעופה וסנקציות",
-     "claim_type": "incident",
+     "id": "IRAN-09290840-03",
+     "title": "דרישת איראן לפתיחת מצר הורמוז",
+     "summary": "שר החוץ האיראני הצהיר כי המדינה מצפה לתשובה מוושינגטון בנוגע לתוכנית פתיחת מצר הורמוז בתמורה להסרת סנקציות והפסקת אש אזורית.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:46:30+00:00",
-     "last_update_at": "2026-09-28T20:27:13+00:00",
-     "what_is_not_verified": "מעמדו הרשמי של הפטור האמריקאי המדויק נסמך על מקור יודע דבר",
+     "occurred_at": "2026-09-29T06:32:31+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T06:32:31+00:00",
+     "last_update_at": "2026-09-29T06:32:31+00:00",
+     "what_is_not_verified": "האם תתקבל תשובה אמריקאית חיובית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/iraq-announces-iran-flights-resume-what-know",
-       "published_at": "2026-09-28T20:27:13+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/9/28/flights-between-iraqs-najaf-and-iran-resumed-as-tehran-protests-us-curbs?traffic_source=rss",
-       "published_at": "2026-09-28T18:50:24+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/09/exclusive-us-grant-sanctions-waiver-flights-between-iran-and-iraqs-najaf-source",
-       "published_at": "2026-09-28T18:46:30+00:00"
+       "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz",
+       "published_at": "2026-09-29T06:32:31+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "נג'ף, עיראק",
-       "lat": 32.001,
-       "lon": 44.33
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-09290040-01",
-     "title": "כוחות צה\"ל נטרלו שני חשודים בדרום לבנון",
-     "summary": "כוחות צה\"ל הפועלים בדרום לבנון זיהו שני חשודים שהתקרבו אליהם במרחב הביטחוני ופתחו לעברם באש עד לנטרולם ללא נפגעים בקרב החיילים.",
-     "axis": "חזית לבנון",
+     "id": "NORTH-09290840-01",
+     "title": "פעילות כוחות זרים בגבול סוריה",
+     "summary": "כוחות ישראליים ביצעו פעילות בקוניטרה ובכפרים סמוכים בסוריה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T08:27:59+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T19:20:50+00:00",
-     "last_update_at": "2026-09-28T19:20:50+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-29T08:27:59+00:00",
+     "last_update_at": "2026-09-29T08:27:59+00:00",
+     "what_is_not_verified": "היקף הנזק או הנפגעים המלא.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25245",
-       "published_at": "2026-09-28T19:20:50+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-detain-syrian-man-during-incursion-in-northern-quneitra/4072325",
+       "published_at": "2026-09-29T08:27:59+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-09290040-02",
-     "title": "שיגור מיירט לעבר מטרה אווירית חשודה בדרום לבנון",
-     "summary": "טיל מיירט שוגר לעבר מטרה אווירית חשודה שזוהתה במרחב הפעילות של כוחות צה\"ל בדרום לבנון ללא הפעלת התרעות.",
-     "axis": "חזית לבנון",
+     "id": "NORTH-09290840-02",
+     "title": "שריפה בקו גז בסוריה",
+     "summary": "שריפה בצינור גז שיבשה את אספקת האנרגיה לתחנות כוח במזרח סוריה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T17:39:44+00:00",
-     "last_update_at": "2026-09-28T17:39:44+00:00",
-     "what_is_not_verified": "תוצאות היירוט ומהות המטרה החשודה נותרו בבדיקה",
+     "occurred_at": "2026-09-29T03:40:04+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T03:40:04+00:00",
+     "last_update_at": "2026-09-29T03:40:04+00:00",
+     "what_is_not_verified": "גורם השריפה המדויק.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25243",
-       "published_at": "2026-09-28T17:39:44+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/gas-pipeline-blaze-disrupts-supplies-to-power-stations-in-eastern-syria/4072113",
+       "published_at": "2026-09-29T03:40:04+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-09290040-03",
-     "title": "פיצוץ בצינור גז באזור דיר א-זור",
-     "summary": "צינור גז התפוצץ במרחב דיר א-זור שבסוריה.",
-     "axis": "הזירה הסורית",
+     "id": "NORTH-09290840-03",
+     "title": "פיצוצים בדרום לבנון",
+     "summary": "הצבא ביצע פיצוצים נרחבים באזור מנצורי שבדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T00:09:38+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:41:44+00:00",
-     "last_update_at": "2026-09-28T18:41:44+00:00",
-     "what_is_not_verified": "סיבת הפיצוץ והגורם האחראי אינם מצוינים",
+     "first_reported_at": "2026-09-29T00:09:38+00:00",
+     "last_update_at": "2026-09-29T00:09:38+00:00",
+     "what_is_not_verified": "פרטים מדויקים על מטרת הפיצוצים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130981",
-       "published_at": "2026-09-28T18:41:44+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-forces-set-large-explosions-south-lebanons-mansouri",
+       "published_at": "2026-09-29T00:09:38+00:00"
       }
      ],
      "places": [
       {
-       "name": "דיר א-זור, סוריה",
-       "lat": 35.3333,
-       "lon": 40.15
+       "name": "מנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
       }
      ]
     }
@@ -184,186 +160,135 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-09290040-01",
-     "title": "תקיפות על מטרות בקייב",
-     "summary": "מטחי טילים וכלי טיס מסוג גראן שוגרו אל עבר קייב, ובאחד המקרים נמסר על פגיעה במבנה האקדמיה למדעים בעיר.",
-     "axis": "העורף האוקראיני",
-     "claim_type": "incident",
+     "id": "UKRAINE-09290840-01",
+     "title": "האשמת רוסיה במעשה חבלה באסטוניה",
+     "summary": "ממשלת אסטוניה קבעה בוודאות כי רוסיה אחראית להתקפת הצתה נגד חברת טכנולוגיית הגנה בשטחה.",
+     "axis": "ukraine",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T08:29:47+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T16:00:12+00:00",
-     "last_update_at": "2026-09-28T22:26:55+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים במתקפת הטילים המדווחת אינם מאומתים",
+     "first_reported_at": "2026-09-29T08:29:47+00:00",
+     "last_update_at": "2026-09-29T08:29:47+00:00",
+     "what_is_not_verified": "זהות המבצעים הישירים בשטח.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48078",
-       "published_at": "2026-09-28T22:26:55+00:00"
-      },
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_b158b0ea15fa65d3",
+       "url": "https://kyivindependent.com/estonia-says-russia-responsible-for-arson-attack-against-defense-tech-company/",
+       "published_at": "2026-09-29T08:29:47+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-09290840-02",
+     "title": "תקיפות כוחות אוקראיניים על יעדים רוסיים",
+     "summary": "כוחות ההגנה של אוקראינה תקפו עמדות מכָּד ומחסני ציוד של צבא רוסיה במספר מוקדים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T08:22:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-29T08:22:00+00:00",
+     "last_update_at": "2026-09-29T08:22:00+00:00",
+     "what_is_not_verified": "היקף ההרס המדויק בכל יעד.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48066",
-       "published_at": "2026-09-28T16:00:12+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_5aefcba6d664253a",
+       "url": "https://www.ukrinform.net/rubric-ato/4169110-ukrainian-defense-forces-strike-kasta-radar-russian-uav-command-posts-and-warehouses.html",
+       "published_at": "2026-09-29T08:22:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "מנפוש, אוקראינה",
+       "lat": 47.0568,
+       "lon": 37.3078
       }
      ]
     },
     {
-     "id": "UKRAINE-09290040-02",
-     "title": "רוסיה החלה בגיוס נוסף ובהיערכות להרחבת כוחות צפון קוריאניים",
-     "summary": "נשיא אוקראינה טען כי רוסיה החלה בהליך גיוס כוחות נוסף, לצד כוונה לפרוס עשרת אלפים חיילים נוספים מצפון קוריאה מעבר לאלפים שכבר נמצאים בשטחה.",
-     "axis": "סד\"כ ושותפויות זרות",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:47:11+00:00",
-     "last_update_at": "2026-09-28T20:20:59+00:00",
-     "what_is_not_verified": "הנתונים על היקפי החיילים הצפון קוריאניים והגיוס הרוסי נשענים על הודעת זלנסקי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48074",
-       "published_at": "2026-09-28T18:47:11+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-beginning-additional-mobilization-of-troops-north-korean-recruitment-zelensky-warns/",
-       "published_at": "2026-09-28T20:20:59+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09290040-03",
-     "title": "צו האוסר פרסום נתוני זיקוק וייצוא דלק ברוסיה",
-     "summary": "נשיא רוסיה ולדימיר פוטין חתם על צו האוסר על כלי תקשורת ובאינטרנט לפרסם מידע על פעילות מגזר הדלק והאנרגיה במטרה להקשות על אכיפת הסנקציות המערביות.",
-     "axis": "סנקציות וכלכלת מלחמה",
+     "id": "UKRAINE-09290840-03",
+     "title": "נפילת שברי כטב\"ם ברומניה",
+     "summary": "שברי עצם החשוד ככטב\"ם נפלו על שטחים חקלאיים במחוז בריילא ברומניה סמוך לגבול אוקראינה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T07:47:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T20:57:18+00:00",
-     "last_update_at": "2026-09-28T20:57:18+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-09-29T07:47:00+00:00",
+     "last_update_at": "2026-09-29T07:47:00+00:00",
+     "what_is_not_verified": "מקורו המדויק של כלי הטיס.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/09/28/putin-bans-online-publication-of-fuel-export-and-oil-refinery-processing-data-in-a-bid-to-make-western-sanctions-harder-to-enforce",
-       "published_at": "2026-09-28T20:57:18+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_3062287b73d9d29c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/29/8055555/",
+       "published_at": "2026-09-29T07:47:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "בריילא, רומניה",
+       "lat": 45.2716,
+       "lon": 27.9743
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-09290040-01",
-     "title": "ממשלת תימן הכריזה על גיוס כללי נגד החות'ים",
-     "summary": "הרשויות המוכרות של תימן הודיעו על הכרזת גיוס כללי במסגרת הלחימה נגד הכוחות החות'ים.",
-     "axis": "מלחמת הפנים בתימן",
-     "claim_type": "statement",
+     "id": "YEMEN-09290840-01",
+     "title": "עקירת תושבים עקב הלחימה בתימן",
+     "summary": "ארגון ההגירה הבינלאומי דיווח כי הלחימה בתימן גרמה לעקירתם של כ-16,000 בני אדם בשבוע האחרון.",
+     "axis": "yemen",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T16:22:45+00:00",
-     "last_update_at": "2026-09-28T16:22:45+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-09-29T05:18:16+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T05:18:16+00:00",
+     "last_update_at": "2026-09-29T05:18:16+00:00",
+     "what_is_not_verified": "הערכות מספר העקורבים המדויק באזורים שאינם נגישים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48069",
-       "published_at": "2026-09-28T16:22:45+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_680ae2ec995e46a2",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-yemen-displaces-16000-over-past-week-iom",
+       "published_at": "2026-09-29T05:18:16+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-09290040-02",
-     "title": "החות'ים טוענים לעשרות תקיפות אוויריות סעודיות",
-     "summary": "הדובר הצבאי של החות'ים הודיע כי מטוסי קרב של סעודיה ביצעו שלושים ושמונה תקיפות אוויריות במחוזות תעז, צעדה וחג'ה ביממה האחרונה וגרמו לנפגעים.",
-     "axis": "העימות מול סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:39:03+00:00",
-     "last_update_at": "2026-09-28T18:39:03+00:00",
-     "what_is_not_verified": "מספרי התקיפות וטענות הנפגעים מבוססים על הודעת הדובר החות'י בלבד",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/130980",
-       "published_at": "2026-09-28T18:39:03+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      },
-      {
-       "name": "צעדה, תימן",
-       "lat": 16.9409,
-       "lon": 43.763
-      },
-      {
-       "name": "חג'ה, תימן",
-       "lat": 15.6329,
-       "lon": 43.6063
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-09290040-03",
-     "title": "כוחות ממשלת תימן תקפו עמדות חות'יות בחזית כהבוב",
-     "summary": "צבא תימן וכוחות מקומיים פרסמו תיעודים מהאוויר של פגיעות בעמדות מרגמה, כלי רכב ורכבי פיקוד של החות'ים בגזרת כהבוב.",
-     "axis": "מלחמת הפנים בתימן",
+     "id": "YEMEN-09290840-02",
+     "title": "פעילות צבאית בתימן נגד החות'ים",
+     "summary": "משרד ההגנה בתימן דיווח על ביצוע מאות פעולות צבאיות נגד יעדי חות'ים ביממה האחרונה במספר חזיתות.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T20:56:23+00:00",
-     "last_update_at": "2026-09-28T20:56:23+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-09-29T01:40:42+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T01:40:42+00:00",
+     "last_update_at": "2026-09-29T01:40:42+00:00",
+     "what_is_not_verified": "אימות עצמאי של מספר הנפגעים בצד החות'י.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48076",
-       "published_at": "2026-09-28T20:56:23+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_9f77b7c90acca0a2",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-armed-forces-claim-356-operations-against-houthi-targets-over",
+       "published_at": "2026-09-29T01:40:42+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "כהבוב, תימן",
-       "lat": 12.938,
-       "lon": 43.6504
-      }
-     ]
+     "places": []
     }
    ]
   }
