@@ -615,84 +615,60 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-28T2340__ukraine-202609282340.json",
+  "draft": "drafts/ukraine/2026-09-29T1637__ukraine-202609291637.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-28T23:40:40+00:00",
+   "generated_at": "2026-09-29T16:37:24+00:00",
    "window": {
-    "from": "2026-09-27T23:40:40+00:00",
-    "to": "2026-09-28T23:40:40+00:00"
+    "from": "2026-09-28T16:37:24+00:00",
+    "to": "2026-09-29T16:37:24+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609282340"
+    "run_id": "ukraine-202609291637"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת, כאשר רוסיה ממשיכה בגל תקיפות נרחב של כטב\"מים וטילים לעבר תשתיות אזרחיות, מבני ממשל ומדע בקייב ובאזורים נוספים, בעוד אוקראינה מדווחת על הצלחות מקומיות ועל פעולות תגמול בעומק רוסיה. במקביל, שתי המדינות נוקטות בצעדים להרחבת בניין הכוח הצבאי שלהן, וקולות בינלאומיים ממשיכים לקרוא לדיפלומטיה ולהפסקת האש.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתאת תקיפות אוויריות אינטנסיביות של כטב\"מים וטילים מצד רוסיה על תשתיות ואזורי מגורים בקייב, סומי וחרקיב, לצד פעולות חבלה נגד מרכזי נתונים ותשתיות אנרגיה. במקביל, אוקראינה ממשיכה לקבל סיוע צבאי ממדינות המערב, הכולל הבטחות לאספקת מטוסי קרב, בעוד רוסיה מרחיבה את צבאה ומטילה הגבלות כלכליות נוספות.",
    "fronts": [
     {
-     "name": "קייב והמרכז",
-     "status": "פעיל מאוד תחת תקיפות אוויריות"
+     "name": "חזית קייב וסביבתה",
+     "status": "פעיל - תקיפות כטב\"מים וטילים יומיומיות"
     },
     {
-     "name": "הגבול המערבי (אוקראינה-פולין)",
-     "status": "פעיל עם זליגת איומים אוויריים"
+     "name": "חזית מזרח אוקראינה (חרקיב וסומי)",
+     "status": "פעיל - הפצצות אוויריות ופגיעה בתשתיות"
     },
     {
-     "name": "חזית הדונבאס",
-     "status": "פעיל עם עימותים וחילופי שטחים"
+     "name": "חזית קורסק",
+     "status": "פעיל - נוכחות צבאית זרה"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09282340-01",
-     "title": "מתקפת טילים וכטב\"מים על קייב וערי אוקראינה",
-     "summary": "מתקפות נרחבות של כטב\"מים וטילים פגעו במספר מבנים בעיר קייב, בהם האקדמיה הלאומית למדעים, מרכז רפואי, ומחסנים, וגרמו לנפגעים בגוף.",
-     "axis": "תקיפות והפצצות",
+     "id": "UKRAINE-09291637-01",
+     "title": "פגיעת כטב\"מים וטילים בבניין האקדמיה למדעים בקייב",
+     "summary": "כטב\"ם פגע בבניין האקדמיה למדעים בקייב וגרם לשריפה ולהרוגים",
+     "axis": "תקיפות אוויריות",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T15:16:50+00:00",
-     "last_update_at": "2026-09-28T22:26:55+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים הכולל אינם מאומתים ממקור ניטרלי.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-28T17:04:14+00:00",
+     "last_update_at": "2026-09-29T06:34:14+00:00",
+     "what_is_not_verified": "המספר המדויק של הנפגעים הכולל אינו מאומת לחלוטין מחוץ לדיווחים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48078",
-       "published_at": "2026-09-28T22:26:55+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bycmsv00qfx",
-       "published_at": "2026-09-28T21:38:44+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055496/",
-       "published_at": "2026-09-28T19:38:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-downtown-kyiv-kills-one-injures-21-damages-national-academy-of-sciences/",
-       "published_at": "2026-09-28T17:49:22+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055488/",
-       "published_at": "2026-09-28T17:13:00+00:00"
-      },
-      {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_37c3ce93e4a7c734",
        "url": "https://www.theguardian.com/world/2026/sep/28/russia-strike-on-kyiv-science-academy-drone-ukraine",
-       "published_at": "2026-09-28T15:16:50+00:00"
+       "published_at": "2026-09-29T06:34:14+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_37c3ce93e4a7c734",
+       "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-09-28T17:04:14+00:00"
       }
      ],
      "places": [
@@ -704,30 +680,158 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-09282340-02",
-     "title": "צו נשיאותי רוסי להגדלת מצבת כוחות הצבא",
-     "summary": "נשיא רוסיה ולדימיר פוטין חתם על צו המגדיל את המספר הרשמי של אנשי הצבא בכוחות המזוינים של רוסיה.",
-     "axis": "גיוס ובניין כוח",
+     "id": "UKRAINE-09291637-02",
+     "title": "פגיעת פצצות דואה בבית ספר ובאזור מגורים בסומי",
+     "summary": "כוחות רוסים תקפו את סומי באמצעות פצצות אוויריות מונחות, פגעו בבית ספר בזמן שילדים היו במקלט ובאזור מגורים, וגרמו להרוגים ופצועים",
+     "axis": "תקיפות אוויריות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-28T18:23:00+00:00",
-     "last_update_at": "2026-09-28T18:48:12+00:00",
-     "what_is_not_verified": "אין פרטים לא מאומתים בנוגע לצו עצמו שפורסם רשמית.",
+     "first_reported_at": "2026-09-29T14:28:00+00:00",
+     "last_update_at": "2026-09-29T14:28:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא וההשלכות ארוכות הטווח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_89958f58c3680e1b",
-       "url": "https://meduza.io/en/news/2026/09/28/putin-orders-fourth-expansion-of-russia-s-armed-forces-this-year",
-       "published_at": "2026-09-28T18:48:12+00:00"
-      },
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_oleh_hryhorov_sumy_oblast_military_admin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/29/8055643/",
+       "published_at": "2026-09-29T14:28:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סומי, אוקראינה",
+       "lat": 50.912,
+       "lon": 34.8028
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09291637-03",
+     "title": "פגיעה במתקן אנרגיה והפסקת חשמל בעיר דרחאצ'י",
+     "summary": "תקיפה רוסית על מתקן תשתית אנרגיה ניתקה לחלוטין את החשמל בעיר דרחאצ'י וביישובי הסביבה",
+     "axis": "תשתיות אנרגיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T16:07:00+00:00",
+     "last_update_at": "2026-09-29T16:07:00+00:00",
+     "what_is_not_verified": "משך זמן התיקון המדויק של מערכת החשמל",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_89958f58c3680e1b",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055494/",
-       "published_at": "2026-09-28T18:23:00+00:00"
+       "source_root_id": "or_viacheslav_zadorenko_head_of_derhachi_ci",
+       "url": "https://www.pravda.com.ua/eng/news/2026/09/29/8055659/",
+       "published_at": "2026-09-29T16:07:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרחאצ'י, אוקראינה",
+       "lat": 50.1071,
+       "lon": 36.1206
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09291637-04",
+     "title": "העברת שלושה מטוסי אף-6 עשר מאת בלגיה לאוקראינה",
+     "summary": "נשיא אוקראינה הודיע שבלגיה תעביר שלושה מטוסי קרב מסוג אף-16 לאוקראינה עד סוף שנת 2026",
+     "axis": "סיוע צבאי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-29T14:58:00+00:00",
+     "last_update_at": "2026-09-29T15:31:33+00:00",
+     "what_is_not_verified": "מועד המסירה המדויק בתוך סוף השנה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_volodymyr_zelenskyy",
+       "url": "https://kyivindependent.com/belgium-to-transfer-3-f-16-fighter-jets-to-ukraine-by-end-of-2026-zelensky-says/",
+       "published_at": "2026-09-29T15:31:33+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_volodymyr_zelenskyy",
+       "url": "https://www.ukrinform.net/rubric-ato/4169259-zelensky-belgium-will-deliver-three-f16-fighter-jets-to-ukraine-by-end-of-year.html",
+       "published_at": "2026-09-29T14:58:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09291637-05",
+     "title": "האשמת רוסיה בהצתת מתקן של יצרנית רובוטיקה צבאית באסטוניה",
+     "summary": "רשויות אסטוניה קבעו כי שירותי הביטחון הרוסיים הזמינו פעולת חבלה והצתה של מבנה חברת רובוטיקה בטאלין",
+     "axis": "לוחמה אלקטרונית וחבלה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-08-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-29T11:07:13+00:00",
+     "last_update_at": "2026-09-29T15:03:15+00:00",
+     "what_is_not_verified": "זהותם המלאה של כל מפעילי החבלה בשטח מעבר לשלושת העצורים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_kristen_michal_estonian_pm",
+       "url": "https://www.theguardian.com/world/live/2026/sep/29/ukraine-russia-war-odesa-overnight-lithuania-mark-rutte-europe-latest-news-updates",
+       "published_at": "2026-09-29T15:03:15+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_kristen_michal_estonian_pm",
+       "url": "https://www.theguardian.com/world/2026/sep/29/estonia-blames-russia-arson-attack-drone-maker-ukraine",
+       "published_at": "2026-09-29T14:20:39+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_kristen_michal_estonian_pm",
+       "url": "https://t.me/alexmehacarmel/48083",
+       "published_at": "2026-09-29T11:07:13+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טאלין, אסטוניה",
+       "lat": 59.4372,
+       "lon": 24.7573
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-09291637-06",
+     "title": "צו נשיאותי ברוסיה להגבלת הוצאת מזומן ברובלים",
+     "summary": "נשיא רוסיה חתם על צו שמטיל תקרה של מיליון רובל על הוצאת מזומן למדינות שכנות",
+     "axis": "סנקציות וכלכלה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T14:40:48+00:00",
+     "last_update_at": "2026-09-29T14:40:48+00:00",
+     "what_is_not_verified": "ההשפעה המדויקת על כלל עסקאות הגבול",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48092",
+       "published_at": "2026-09-29T14:40:48+00:00"
       }
      ],
      "places": [
@@ -739,190 +843,68 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-09282340-03",
-     "title": "אזהרת זלנסקי מפני גיוס נוסף ושילוב חיילים צפון-קוריאנים",
-     "summary": "נשיא אוקראינה אזהיר כי רוסיה החלה בגל גיוס נוסף ובהיערכות לקליטת אלפי חיילים צפון-קוריאנים בשטחה.",
-     "axis": "גיוס ובניין כוח",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-28T18:42:00+00:00",
-     "last_update_at": "2026-09-28T20:20:59+00:00",
-     "what_is_not_verified": "מספר החיילים המדויק שגויס או צפוי להגיע.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-beginning-additional-mobilization-of-troops-north-korean-recruitment-zelensky-warns/",
-       "published_at": "2026-09-28T20:20:59+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48074",
-       "published_at": "2026-09-28T18:47:11+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055498/",
-       "published_at": "2026-09-28T18:42:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09282340-04",
-     "title": "השתלטות הקרמלין על נכסי חברת מרקט רוסית",
-     "summary": "הקרמלין השתלט על נכסיה של רשת הקמעונאות הגרמנית מטרו הפועלת בשטח רוסיה.",
-     "axis": "סנקציות וכלכלה",
+     "id": "UKRAINE-09291637-07",
+     "title": "תפיסה בכוח של מסוף ימי באזור אודסה",
+     "summary": "קבוצת אנשים לא ידועה השתלטה בכוח על המסוף הימי בוריבאז' ליד אודסה",
+     "axis": "תשתיות כלכליות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T22:56:25+00:00",
-     "last_update_at": "2026-09-28T22:56:25+00:00",
-     "what_is_not_verified": "לא צוינו פרטים לא מאומתים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://kyivindependent.com/kremlin-seizes-control-of-german-retailer-metro-ags-russian-properties/",
-       "published_at": "2026-09-28T22:56:25+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09282340-05",
-     "title": "צו רוסי לאיסור פרסום נתוני ייצוא דלק ואנרגיה",
-     "summary": "נשיא רוסיה חתם על צו המונע פרסום נתונים אודות מגזר האנרגיה והדלק כדי להקשות על אכיפת סנקציות מערביות.",
-     "axis": "סנקציות וכלכלה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-28T20:57:18+00:00",
-     "last_update_at": "2026-09-28T20:57:18+00:00",
-     "what_is_not_verified": "ההשפעה המדויקת של הצו על המעקב המערבי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/09/28/putin-bans-online-publication-of-fuel-export-and-oil-refinery-processing-data-in-a-bid-to-make-western-sanctions-harder-to-enforce",
-       "published_at": "2026-09-28T20:57:18+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09282340-06",
-     "title": "קריאת האפיפיור למשא ומתן וויתורים הדדיים",
-     "summary": "האפיפיור קרא לרוסיה ואוקראינה לשבת לשולחן המשא ומתן ולקבל ויתורים כדי להגיע לשלום.",
-     "axis": "דיפלומטיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T15:07:54+00:00",
-     "last_update_at": "2026-09-28T23:23:07+00:00",
-     "what_is_not_verified": "לא רלוונטי.",
+     "first_reported_at": "2026-09-29T14:49:12+00:00",
+     "last_update_at": "2026-09-29T14:49:12+00:00",
+     "what_is_not_verified": "זהותם המדויקת ושיוכם של השולטים במסוף",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2194247",
-       "published_at": "2026-09-28T23:23:07+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/promoting-peace-is-an-active-work-pope-leo-urges-concessions-between-russia-ukraine/",
-       "published_at": "2026-09-28T19:18:48+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/video/2026/sep/28/pope-urges-concessions-for-peace-europe-video",
-       "published_at": "2026-09-28T15:07:54+00:00"
+       "source_root_id": "or_odessa_region_report",
+       "url": "https://tass.com/society/2194633",
+       "published_at": "2026-09-29T14:49:12+00:00"
       }
      ],
      "places": [
       {
-       "name": "מץ, צרפת",
-       "lat": 49.1197,
-       "lon": 6.1764
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
       }
      ]
     },
     {
-     "id": "UKRAINE-09282340-07",
-     "title": "פגיעה במעבר הגבול יגודין סמוך לפולין",
-     "summary": "כטב\"ם רוסי מונע סילוני פגע באזור מעבר הגבול יגודין וגרם נזק למבנה הטרמינל.",
-     "axis": "תקיפות והפצצות",
+     "id": "UKRAINE-09291637-08",
+     "title": "צו פוטין להרחבת צבא רוסיה ונוכחות כוחות צפון קוריאניים",
+     "summary": "פוטין הורה בצו להגדיל את כוח האדם הפעיל בצבא ל-1.55 מיליון חייל, בעוד אוקראינה מדווחת על אלפי חיילים צפון קוריאניים בשטח רוסיה",
+     "axis": "גיוס וכוחות",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T15:56:36+00:00",
-     "last_update_at": "2026-09-28T16:58:00+00:00",
-     "what_is_not_verified": "לא דווח על נפגעים, אך עוצמת ההדף גרמה לנזק.",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-29T00:43:01+00:00",
+     "last_update_at": "2026-09-29T00:43:01+00:00",
+     "what_is_not_verified": "לוח הזמנים וההיקף המדויק של פריסת הכוחות הנוספים מקוריאה הצפונית",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055483/",
-       "published_at": "2026-09-28T16:58:00+00:00"
-      },
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates",
-       "published_at": "2026-09-28T15:56:36+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-09282340-08",
-     "title": "פגיעה במחסני רשת שיווק במחוז קייב",
-     "summary": "מתקפה רוסית פגעה במחסנים של רשת המרכולים א.ט.ב במחוז קייב ויצרה שריפה עם עלייה קלה בריכוז האמוניה באזור.",
-     "axis": "תקיפות והפצצות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-28T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-28T17:32:00+00:00",
-     "last_update_at": "2026-09-28T17:32:00+00:00",
-     "what_is_not_verified": "מידת הסכנה האפשרית מעבר לאזור המיידי של השריפה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055489/",
-       "published_at": "2026-09-28T17:32:00+00:00"
+       "source_root_id": "or_vladimir_putin_presidential_decree_volod",
+       "url": "https://www.theguardian.com/world/2026/sep/29/ukraine-war-briefing-putin-orders-army-expansion-as-zelenskyy-claims-more-north-korean-troops-to-be-deployed-for-moscow",
+       "published_at": "2026-09-29T00:43:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "ברובארי, אוקראינה",
-       "lat": 50.5111,
-       "lon": 30.79
+       "name": "קורסק, רוסיה",
+       "lat": 51.727,
+       "lon": 36.1922
       }
      ]
     }
    ],
    "not_verified": [
-    "מספר הנפגעים המדויק בתקיפות על קייב וערי אוקראינה",
-    "מספר החיילים הצפון-קוריאנים המדויקים שייפרסו בפועל ברוסיה",
-    "היקף הנזק המדויק למתקני האנרגיה ברוסיה עקב תקיפות אוקראיניות"
+    "ההערכות המדויקות על מחירי הדגמים החדשים של הכטב\"מים הסילוניים ותקציבי ההגנה הנדרשים נגדם",
+    "היקף הנזק המלא בכל מרכזי הנתונים שהותקפו באוקראינה",
+    "האם ארצות הברית תצטרף לפרויקט מפעלי הדשנים בבלארוס"
    ],
    "map": {
     "confidence": "high",
@@ -933,117 +915,115 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1378,
+     "value": 1.1355,
      "unit": "USD",
-     "change_pct": -0.22,
+     "change_pct": -0.2,
      "source_id": "src_ecb",
-     "as_of": "2026-09-28T15:00:00+00:00"
+     "as_of": "2026-09-29T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "רוסיה",
      "declared": [
-      "הגנה על האינטרסים של רוסיה מפני פעולות עוינות של המערב",
-      "הרחבת הסד\"כ של הכוחות המזוינים"
+      "פגיעה בתשתיות ובמרכזי נתונים המעבירים מודיעין לאוקראינה",
+      "הרחבת צבא רוסיה למיליון וחצי חיילים פעילים"
      ],
      "inferred": [
-      "שחיקת היכולות הכלכליות והתשתיות של אוקראינה באמצעות מתקפות עצימות",
-      "הסתרת נתוני אנרגיה כדי לחמוק מהשפעת סנקציות"
+      "שחיקת מערך ההגנה האווירית של אוקראינה באמצעות כטב\"מים סילוניים",
+      "ערעור יציבות משק האנרגיה האוקראיני לקראת החורף"
      ],
      "forecast": [
-      "המשך הגדלת תקציבי הביטחון והגיוס לקראת שנת 2027",
-      "המשך מתקפות אוויריות על ערים מרכזיות באוקראינה"
+      "המשך התקיפות על תשתיות קריטיות באוקראינה",
+      "החמרת הפיקוח על הכלכלה וסגירת נתוני אנרגיה מפני סנקציות"
      ]
     },
     {
      "actor": "אוקראינה",
      "declared": [
-      "שחרור כל השטחים הכבושים והגנה על האוכלוסייה",
-      "דרישה לאכיפת סנקציות נוקשות נגד רוסיה"
+      "השגת סיוע צבאי וישיר לייצור הגנתי ממדינות אירופה",
+      "דרישה לרפורמות פנימיות בתמורה למימון מהאיחוד האירופי"
      ],
      "inferred": [
-      "פגיעה בתשתיות האנרגיה והכלכלה של רוסיה כדי לשבש את מאמצי המלחמה שלה",
-      "גיוס תמיכה בינלאומית וציוד מתקדם מבעלי ברית"
+      "ניסיון לבלום את מתקפות הטילים והכטב\"מים באמצעות חיזוק ההגנה השכבתית",
+      "גיוס תמיכה בינלאומית והצגת מעורבות כוחות צפון קוריאניים לצידה של רוסיה"
      ],
      "forecast": [
-      "המשך תקיפות כטב\"מים בעומק השטח הרוסי נגד מתקני נפט ואנרגיה",
-      "מאבק דיפלומטי לגיוס סיוע צבאי נוסף"
+      "קליטת ציוד ואמצעי הגנה אווירית חדשים ממדינות המערב",
+      "המשך מאמצי יירוט מול האיומים האוויריים המתקדמים של רוסיה"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
+    },
+    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "url": "https://www.theguardian.com/world/2026/sep/29/ukraine-war-briefing-putin-orders-army-expansion-as-zelenskyy-claims-more-north-korean-troops-to-be-deployed-for-moscow",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/promoting-peace-is-an-active-work-pope-leo-urges-concessions-between-russia-ukraine/",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
-    },
-    {
-     "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/09/28/putin-bans-online-publication-of-fuel-export-and-oil-refinery-processing-data-in-a-bid-to-make-western-sanctions-harder-to-enforce",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "url": "https://kyivindependent.com/belgium-to-transfer-3-f-16-fighter-jets-to-ukraine-by-end-of-2026-zelensky-says/",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/28/8055489/",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/09/29/8055659/",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/world/2194247",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "url": "https://tass.com/society/2194633",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48074",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "url": "https://t.me/alexmehacarmel/48092",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/bycmsv00qfx",
-     "accessed_at": "2026-09-28T23:40:40+00:00"
+     "source_id": "src_ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4169259-zelensky-belgium-will-deliver-three-f16-fighter-jets-to-ukraine-by-end-of-year.html",
+     "accessed_at": "2026-09-29T16:37:24+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-28T08:57:09+00:00",
+  "previous_generated_at": "2026-09-28T23:40:40+00:00",
   "changes": {
-   "UKRAINE-09282340-01": {
+   "UKRAINE-09291637-01": {
     "kind": "same",
-    "from": "initial",
+    "from": "shared_root",
     "to": "shared_root",
-    "prev": "פגיעות טילים ורחפנים בערים אוקראיניות ובהן חרקוב, קייב ואודסה",
-    "score": 0.817
+    "prev": "מתקפת טילים וכטב\"מים על קייב וערי אוקראינה",
+    "score": 1.0
    },
-   "UKRAINE-09282340-02": {
+   "UKRAINE-09291637-02": {
     "kind": "new"
    },
-   "UKRAINE-09282340-03": {
+   "UKRAINE-09291637-03": {
     "kind": "new"
    },
-   "UKRAINE-09282340-04": {
+   "UKRAINE-09291637-04": {
     "kind": "new"
    },
-   "UKRAINE-09282340-05": {
+   "UKRAINE-09291637-05": {
     "kind": "new"
    },
-   "UKRAINE-09282340-06": {
+   "UKRAINE-09291637-06": {
+    "kind": "possible",
+    "prev": "צו נשיאותי רוסי להגדלת מצבת כוחות הצבא",
+    "score": 0.633
+   },
+   "UKRAINE-09291637-07": {
     "kind": "new"
    },
-   "UKRAINE-09282340-07": {
+   "UKRAINE-09291637-08": {
     "kind": "new"
-   },
-   "UKRAINE-09282340-08": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "תקיפות נרחבות במחוז קייב והרוגים אזרחיים",
-    "score": 0.817
    }
   }
  },
