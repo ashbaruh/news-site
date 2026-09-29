@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:17:23+00:00",
-  "fetched_at": "2026-09-29T18:17:23+00:00"
+  "checked_at": "2026-09-29T18:39:40+00:00",
+  "fetched_at": "2026-09-29T18:39:40+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:17:34+00:00",
-  "fetched_at": "2026-09-29T18:17:34+00:00"
+  "checked_at": "2026-09-29T18:39:50+00:00",
+  "fetched_at": "2026-09-29T18:39:50+00:00"
  },
  "av_en": {
   "data": [
@@ -64,44 +64,49 @@ window.DB.generated = {
     "date": "2026-09-29T14:26:10+00:00"
    },
    {
-    "title_en": "Technics EAH-A1000",
-    "title_he": "טכניקות EAH-A1000",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
-    "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
     "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
     "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
     "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "Technics EAH-A1000",
+    "title_he": "טכניקות EAH-A1000",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
+    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:17:35+00:00",
-  "fetched_at": "2026-09-29T18:17:35+00:00"
+  "checked_at": "2026-09-29T18:39:51+00:00",
+  "fetched_at": "2026-09-29T18:39:51+00:00"
  },
- "generated_at": "2026-09-29T18:17:35+00:00",
+ "generated_at": "2026-09-29T18:39:51+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מאות מימושים: עובדי חברת הסייבר קייטו ייפגשו עם 100 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557903",
-     "date": "2026-09-29T17:00:00+00:00"
+     "title": "18 מנדטים על הכוונת: המיזמים ששואפים לשנע מאות אלפי ישראלים מחו\"ל לקלפי. עד כמה זה ריאלי?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557675",
+     "date": "2026-09-29T18:30:00+00:00"
     },
     {
-     "title": "טראמפ: לאיראן לא יהיה נשק גרעיני. זה יסתיים בקרוב ומחירי הנפט יירדו מהר",
+     "title": "חזית דרמטית נגד אבו מאזן: חמאס והג'יהאד האיסלאמי סיכמו על ברית עם מוחמד דחלאן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
      "date": "2026-09-29T18:13:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "תשואת האג\"ח ל-30 שנה עולה לשיא חדש; וול סטריט עוברת לירידות",
+     "title": "התשואה ל-30 שנה חזרה שני עשורים לאחור. למה זה מסוכן?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557949",
+     "date": "2026-09-29T18:28:00+00:00"
+    },
+    {
+     "title": "ירידות בוול סטריט; תשואת האג\"ח ל-30 שנה עולה לשיא חדש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T17:07:00+00:00"
+     "date": "2026-09-29T17:40:00+00:00"
     },
     {
      "title": "רשות החברות לצים: נעצרו הדיונים בעסקת המכירה",
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-09-28T11:26:00+00:00"
     },
     {
-     "title": "חברת הסייבר ההתקפי שהקימו אהוד ברק ובכירי 8200 יוצאת לוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557721",
-     "date": "2026-09-28T11:00:00+00:00"
-    },
-    {
      "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557710",
      "date": "2026-09-28T10:30:00+00:00"
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:17:24+00:00",
-  "fetched_at": "2026-09-29T18:17:24+00:00"
+  "checked_at": "2026-09-29T18:39:41+00:00",
+  "fetched_at": "2026-09-29T18:39:41+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:17:25+00:00",
-  "fetched_at": "2026-09-29T18:17:25+00:00"
+  "checked_at": "2026-09-29T18:39:42+00:00",
+  "fetched_at": "2026-09-29T18:39:42+00:00"
  },
  "tv": {
   "data": [
@@ -2386,8 +2386,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:17:27+00:00",
-  "fetched_at": "2026-09-29T18:17:27+00:00"
+  "checked_at": "2026-09-29T18:39:43+00:00",
+  "fetched_at": "2026-09-29T18:39:43+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2477,8 +2477,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:17:27+00:00",
-  "fetched_at": "2026-09-29T18:17:27+00:00"
+  "checked_at": "2026-09-29T18:39:43+00:00",
+  "fetched_at": "2026-09-29T18:39:43+00:00"
  },
  "ai": {
   "data": {
@@ -2493,25 +2493,21 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-     "date": "2026-09-28T19:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
+     "date": "2026-09-29T17:47:37+00:00",
      "launch": false,
-     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
-     "translated_by": "google"
+     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
     }
    ],
-   "candidates": 7,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 319,
+     "likes": 320,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2532,7 +2528,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 244,
+     "likes": 245,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2580,8 +2576,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:17:33+00:00",
-  "fetched_at": "2026-09-29T18:17:33+00:00"
+  "checked_at": "2026-09-29T18:39:50+00:00",
+  "fetched_at": "2026-09-29T18:39:50+00:00"
  },
  "abroad": {
   "data": {
@@ -2886,8 +2882,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T18:17:30+00:00",
-  "fetched_at": "2026-09-29T18:17:30+00:00"
+  "checked_at": "2026-09-29T18:39:46+00:00",
+  "fetched_at": "2026-09-29T18:39:46+00:00"
  },
  "idf": {
   "data": [
@@ -2918,7 +2914,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T18:17:30+00:00",
-  "fetched_at": "2026-09-29T18:17:30+00:00"
+  "checked_at": "2026-09-29T18:39:47+00:00",
+  "fetched_at": "2026-09-29T18:39:47+00:00"
  }
 };
