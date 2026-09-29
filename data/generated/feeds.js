@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-29T07:17:26+00:00",
-  "fetched_at": "2026-09-29T07:17:26+00:00"
+  "checked_at": "2026-09-29T08:17:11+00:00",
+  "fetched_at": "2026-09-29T08:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T07:17:36+00:00",
-  "fetched_at": "2026-09-29T07:17:36+00:00"
+  "checked_at": "2026-09-29T08:17:24+00:00",
+  "fetched_at": "2026-09-29T08:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,15 +79,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T07:17:36+00:00",
-  "fetched_at": "2026-09-29T07:17:36+00:00"
+  "checked_at": "2026-09-29T08:17:24+00:00",
+  "fetched_at": "2026-09-29T08:17:24+00:00"
  },
- "generated_at": "2026-09-29T07:17:36+00:00",
+ "generated_at": "2026-09-29T08:17:24+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "פריצה לאלפי חשבונות במיטב טרייד; המניה צונחת",
+     "title": "פריצה לאלפי חשבונות במיטב טרייד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
      "date": "2026-09-29T07:08:00+00:00"
     },
@@ -99,14 +99,19 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ניסיון פריצה לאלפי חשבונות מיטב טרייד: נשלף מידע אישי של לקוחות בודדים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
-     "date": "2026-09-29T07:08:00+00:00"
+     "title": "החשש מהסלמה במזרח התיכון מפיל את הבורסות באסיה; הנפט ממשיך לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
+     "date": "2026-09-29T07:22:00+00:00"
     },
     {
      "title": "פתיחה חיובית בבורסת תל אביב: הבנקים בולטים לחיוב, מניות הביטחון מכבידות והדולר ממשיך לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
-     "date": "2026-09-29T07:05:00+00:00"
+     "date": "2026-09-29T07:16:00+00:00"
+    },
+    {
+     "title": "פריצה לאלפי חשבונות במיטב טרייד; המניה צונחת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
+     "date": "2026-09-29T07:08:00+00:00"
     },
     {
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
@@ -122,11 +127,6 @@ window.DB.generated = {
      "title": "אל תיפלו בפח של קרנות אג\"ח שטוענות שהן מנצחות את השוק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557683",
      "date": "2026-09-29T06:29:00+00:00"
-    },
-    {
-     "title": "החשש מהסלמה במזרח התיכון מפיל את הבורסות באסיה; הנפט ממשיך לטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T03:56:00+00:00"
     },
     {
      "title": "האם אחרי שנים של אכזבות, מניית נייס משנה כיוון?",
@@ -207,17 +207,12 @@ window.DB.generated = {
      "title": "\"חיפושים פוגעניים\": משרד החוץ מזהיר את הטסים לאמסטרדם, ומגרש דיפלומטיים הולנדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557712",
      "date": "2026-09-28T08:46:00+00:00"
-    },
-    {
-     "title": "הנתונים שכל השוק מחכה להם, ומה יעשו הדואליות היום?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557653",
-     "date": "2026-09-28T02:39:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T07:17:26+00:00",
-  "fetched_at": "2026-09-29T07:17:26+00:00"
+  "checked_at": "2026-09-29T08:17:12+00:00",
+  "fetched_at": "2026-09-29T08:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T07:17:27+00:00",
-  "fetched_at": "2026-09-29T07:17:27+00:00"
+  "checked_at": "2026-09-29T08:17:13+00:00",
+  "fetched_at": "2026-09-29T08:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2386,8 +2381,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T07:17:29+00:00",
-  "fetched_at": "2026-09-29T07:17:29+00:00"
+  "checked_at": "2026-09-29T08:17:16+00:00",
+  "fetched_at": "2026-09-29T08:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2477,8 +2472,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T07:17:29+00:00",
-  "fetched_at": "2026-09-29T07:17:29+00:00"
+  "checked_at": "2026-09-29T08:17:16+00:00",
+  "fetched_at": "2026-09-29T08:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2528,7 +2523,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 591,
+     "likes": 592,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2556,14 +2551,14 @@ window.DB.generated = {
      "title": "Hum to Song",
      "desc_en": "Hum a melody, get a finished song",
      "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 102,
+     "likes": 103,
      "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 181,
+     "likes": 182,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2576,8 +2571,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-29T07:17:35+00:00",
-  "fetched_at": "2026-09-29T07:17:35+00:00"
+  "checked_at": "2026-09-29T08:17:23+00:00",
+  "fetched_at": "2026-09-29T08:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -2918,8 +2913,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-29T07:17:32+00:00",
-  "fetched_at": "2026-09-29T07:17:32+00:00"
+  "checked_at": "2026-09-29T08:17:19+00:00",
+  "fetched_at": "2026-09-29T08:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2950,7 +2945,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-29T07:17:32+00:00",
-  "fetched_at": "2026-09-29T07:17:32+00:00"
+  "checked_at": "2026-09-29T08:17:20+00:00",
+  "fetched_at": "2026-09-29T08:17:20+00:00"
  }
 };
