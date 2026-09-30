@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T13:17:25+00:00",
-  "fetched_at": "2026-09-30T13:17:25+00:00"
+  "checked_at": "2026-09-30T14:15:03+00:00",
+  "fetched_at": "2026-09-30T14:15:03+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T13:17:34+00:00",
-  "fetched_at": "2026-09-30T13:17:34+00:00"
+  "checked_at": "2026-09-30T14:15:17+00:00",
+  "fetched_at": "2026-09-30T14:15:17+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T13:17:34+00:00",
-  "fetched_at": "2026-09-30T13:17:34+00:00"
+  "checked_at": "2026-09-30T14:15:18+00:00",
+  "fetched_at": "2026-09-30T14:15:18+00:00"
  },
- "generated_at": "2026-09-30T13:17:34+00:00",
+ "generated_at": "2026-09-30T14:15:18+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,20 @@ window.DB.generated = {
     {
      "title": "חקירת טייס המשנה בסעודיה: מתחזק החשד לארוע לאומני",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T13:05:00+00:00"
+     "date": "2026-09-30T13:50:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "עליות בוול סטריט בעקבות נתוני האינפלציה שהפתיעו לטובה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
+     "date": "2026-09-30T13:37:00+00:00"
+    },
+    {
+     "title": "\"תקרית\" ו\"ריב בין טייסים\": איך מסקרים בעולם את טיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557990",
+     "date": "2026-09-30T12:14:00+00:00"
+    },
     {
      "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
@@ -107,11 +117,6 @@ window.DB.generated = {
      "title": "החוזה הגדול בתולדות סמארט שוטר: מערכות יירוט רחפנים בעד כ-150 מיליון דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557974",
      "date": "2026-09-30T11:36:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת באירופה; יציבות בחוזים בניו יורק, תשואות האג\"ח נסוגות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T11:16:00+00:00"
     },
     {
      "title": "פרשת סלייס: תוכנית ההסדר של המנהל המורשה אושרה בביהמ\"ש",
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-29T10:30:00+00:00"
     },
     {
-     "title": "לא טילים ולא נפט: הנשק האמריקאי שמכאיב לאיראן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557822",
-     "date": "2026-09-29T09:45:00+00:00"
-    },
-    {
      "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T13:17:26+00:00",
-  "fetched_at": "2026-09-30T13:17:26+00:00"
+  "checked_at": "2026-09-30T14:15:05+00:00",
+  "fetched_at": "2026-09-30T14:15:05+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T13:17:27+00:00",
-  "fetched_at": "2026-09-30T13:17:27+00:00"
+  "checked_at": "2026-09-30T14:15:05+00:00",
+  "fetched_at": "2026-09-30T14:15:05+00:00"
  },
  "tv": {
   "data": [
@@ -2286,8 +2286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T13:17:27+00:00",
-  "fetched_at": "2026-09-30T13:17:27+00:00"
+  "checked_at": "2026-09-30T14:15:07+00:00",
+  "fetched_at": "2026-09-30T14:15:07+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2377,8 +2377,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T13:17:27+00:00",
-  "fetched_at": "2026-09-30T13:17:27+00:00"
+  "checked_at": "2026-09-30T14:15:07+00:00",
+  "fetched_at": "2026-09-30T14:15:07+00:00"
  },
  "ai": {
   "data": {
@@ -2401,13 +2401,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 335,
+     "likes": 338,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2428,21 +2430,21 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 253,
+     "likes": 254,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 187,
+     "likes": 189,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2456,7 +2458,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 206,
+     "likes": 207,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2470,14 +2472,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T13:17:33+00:00",
-  "fetched_at": "2026-09-30T13:17:33+00:00"
+  "checked_at": "2026-09-30T14:15:16+00:00",
+  "fetched_at": "2026-09-30T14:15:16+00:00"
  },
  "abroad": {
   "data": {
@@ -2773,8 +2775,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T13:17:30+00:00",
-  "fetched_at": "2026-09-30T13:17:30+00:00"
+  "checked_at": "2026-09-30T14:15:11+00:00",
+  "fetched_at": "2026-09-30T14:15:11+00:00"
  },
  "idf": {
   "data": [
@@ -2805,7 +2807,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T13:17:31+00:00",
-  "fetched_at": "2026-09-30T13:17:31+00:00"
+  "checked_at": "2026-09-30T14:15:11+00:00",
+  "fetched_at": "2026-09-30T14:15:11+00:00"
  }
 };
