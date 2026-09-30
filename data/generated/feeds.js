@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T22:17:17+00:00",
-  "fetched_at": "2026-09-30T22:17:17+00:00"
+  "checked_at": "2026-09-30T23:13:16+00:00",
+  "fetched_at": "2026-09-30T23:13:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T22:17:28+00:00",
-  "fetched_at": "2026-09-30T22:17:28+00:00"
+  "checked_at": "2026-09-30T23:13:52+00:00",
+  "fetched_at": "2026-09-30T23:13:52+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T22:17:29+00:00",
-  "fetched_at": "2026-09-30T22:17:29+00:00"
+  "checked_at": "2026-09-30T23:13:53+00:00",
+  "fetched_at": "2026-09-30T23:13:53+00:00"
  },
- "generated_at": "2026-09-30T22:17:29+00:00",
+ "generated_at": "2026-09-30T23:13:53+00:00",
  "globes": {
   "data": {
    "top": [
@@ -225,8 +225,9 @@ window.DB.generated = {
     }
    ]
   },
-  "ok": true,
-  "checked_at": "2026-09-30T22:17:18+00:00",
+  "ok": false,
+  "error": "The read operation timed out",
+  "checked_at": "2026-09-30T23:13:42+00:00",
   "fetched_at": "2026-09-30T22:17:18+00:00"
  },
  "ifa": {
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T22:17:19+00:00",
-  "fetched_at": "2026-09-30T22:17:19+00:00"
+  "checked_at": "2026-09-30T23:13:42+00:00",
+  "fetched_at": "2026-09-30T23:13:42+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2243,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T22:17:20+00:00",
-  "fetched_at": "2026-09-30T22:17:20+00:00"
+  "checked_at": "2026-09-30T23:13:44+00:00",
+  "fetched_at": "2026-09-30T23:13:44+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2334,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T22:17:20+00:00",
-  "fetched_at": "2026-09-30T22:17:20+00:00"
+  "checked_at": "2026-09-30T23:13:44+00:00",
+  "fetched_at": "2026-09-30T23:13:44+00:00"
  },
  "ai": {
   "data": {
@@ -2365,14 +2366,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 346,
+     "likes": 347,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 617,
+     "likes": 618,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2393,15 +2394,22 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 194,
+     "likes": 195,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 256,
+     "likes": 257,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 214,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Qwen-Image-2.1",
@@ -2409,13 +2417,6 @@ window.DB.generated = {
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
      "likes": 172,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 213,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
@@ -2434,8 +2435,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T22:17:27+00:00",
-  "fetched_at": "2026-09-30T22:17:27+00:00"
+  "checked_at": "2026-09-30T23:13:51+00:00",
+  "fetched_at": "2026-09-30T23:13:51+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2724,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T22:17:23+00:00",
-  "fetched_at": "2026-09-30T22:17:23+00:00"
+  "checked_at": "2026-09-30T23:13:47+00:00",
+  "fetched_at": "2026-09-30T23:13:47+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2756,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T22:17:23+00:00",
-  "fetched_at": "2026-09-30T22:17:23+00:00"
+  "checked_at": "2026-09-30T23:13:48+00:00",
+  "fetched_at": "2026-09-30T23:13:48+00:00"
  }
 };
