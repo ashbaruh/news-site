@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T06:17:15+00:00",
-  "fetched_at": "2026-09-30T06:17:15+00:00"
+  "checked_at": "2026-09-30T07:17:19+00:00",
+  "fetched_at": "2026-09-30T07:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T06:17:27+00:00",
-  "fetched_at": "2026-09-30T06:17:27+00:00"
+  "checked_at": "2026-09-30T07:17:29+00:00",
+  "fetched_at": "2026-09-30T07:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,29 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T06:17:27+00:00",
-  "fetched_at": "2026-09-30T06:17:27+00:00"
+  "checked_at": "2026-09-30T07:17:29+00:00",
+  "fetched_at": "2026-09-30T07:17:29+00:00"
  },
- "generated_at": "2026-09-30T06:17:27+00:00",
+ "generated_at": "2026-09-30T07:17:29+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
-     "date": "2026-09-30T06:00:00+00:00"
+     "title": "המטוס נחת בסעודיה. הסיבה: קטטה בין הטייסים ולא חטיפה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
+     "date": "2026-09-30T07:03:00+00:00"
     },
     {
-     "title": "לפיד בתום העדכון עם נתניהו: \"אין סיבה להכניס לפאניקה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
      "date": "2026-09-30T06:00:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "האיתות מניו יורק שמשנה את מסלול השווקים: חמישה דברים לקראת יום המסחר",
+     "title": "עליות קלות בפתיחה בתל אביב; המניה הביטחונית שמזנקת בכ-30%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T06:07:00+00:00"
+     "date": "2026-09-30T07:10:00+00:00"
     },
     {
      "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T06:17:16+00:00",
-  "fetched_at": "2026-09-30T06:17:16+00:00"
+  "checked_at": "2026-09-30T07:17:20+00:00",
+  "fetched_at": "2026-09-30T07:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T06:17:17+00:00",
-  "fetched_at": "2026-09-30T06:17:17+00:00"
+  "checked_at": "2026-09-30T07:17:20+00:00",
+  "fetched_at": "2026-09-30T07:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2077,7 +2077,7 @@
    {
     "date": "2026-10-02",
     "time": "20:00",
-    "channel": "ספורט 5+ לייב",
+    "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "בשיקטאש - ברצלונה"
    },
@@ -2146,6 +2146,13 @@
    },
    {
     "date": "2026-10-03",
+    "time": "03:30",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "בוקה ג'וניורס - אוניון"
+   },
+   {
+    "date": "2026-10-03",
     "time": "12:30",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
@@ -2199,6 +2206,13 @@
     "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "אלבה ברלין - באמברג"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:30",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "קאדיס - לגאנס"
    },
    {
     "date": "2026-10-03",
@@ -2265,8 +2279,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T06:17:19+00:00",
-  "fetched_at": "2026-09-30T06:17:19+00:00"
+  "checked_at": "2026-09-30T07:17:22+00:00",
+  "fetched_at": "2026-09-30T07:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2356,8 +2370,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T06:17:19+00:00",
-  "fetched_at": "2026-09-30T06:17:19+00:00"
+  "checked_at": "2026-09-30T07:17:22+00:00",
+  "fetched_at": "2026-09-30T07:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2379,7 +2393,7 @@
      "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
     }
    ],
-   "candidates": 11,
+   "candidates": 9,
    "failed_sources": [],
    "tools": [
     {
@@ -2421,7 +2435,7 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 185,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2435,15 +2449,8 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 194,
+     "likes": 196,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "Hum to Song",
-     "desc_en": "Hum a melody, get a finished song",
-     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 106,
-     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
@@ -2451,12 +2458,19 @@
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
      "likes": 334,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+    },
+    {
+     "title": "Hum to Song",
+     "desc_en": "Hum a melody, get a finished song",
+     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
+     "likes": 106,
+     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T06:17:26+00:00",
-  "fetched_at": "2026-09-30T06:17:26+00:00"
+  "checked_at": "2026-09-30T07:17:28+00:00",
+  "fetched_at": "2026-09-30T07:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -2761,8 +2775,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T06:17:22+00:00",
-  "fetched_at": "2026-09-30T06:17:22+00:00"
+  "checked_at": "2026-09-30T07:17:24+00:00",
+  "fetched_at": "2026-09-30T07:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -2793,7 +2807,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T06:17:23+00:00",
-  "fetched_at": "2026-09-30T06:17:23+00:00"
+  "checked_at": "2026-09-30T07:17:25+00:00",
+  "fetched_at": "2026-09-30T07:17:25+00:00"
  }
 }
