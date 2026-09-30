@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T10:17:16+00:00",
-  "fetched_at": "2026-09-30T10:17:16+00:00"
+  "checked_at": "2026-09-30T11:17:27+00:00",
+  "fetched_at": "2026-09-30T11:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T10:17:28+00:00",
-  "fetched_at": "2026-09-30T10:17:28+00:00"
+  "checked_at": "2026-09-30T11:17:38+00:00",
+  "fetched_at": "2026-09-30T11:17:38+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Loewe's snazzy-looking Bluetooth speaker promises \"exceptional acoustic power\", but comes at a premium price",
+    "title_he": "רמקול ה-Bluetooth בעל המראה הנפלא של Loewe מבטיח \"עוצמה אקוסטית יוצאת דופן\", אך מגיע במחיר מובחר",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/loewes-snazzy-looking-bluetooth-speaker-promises-exceptional-acoustic-power-but-comes-at-a-premium-price",
+    "date": "2026-09-30T10:34:16+00:00"
+   },
    {
     "title_en": "I tested Samsung’s two flagship OLED TVs, and despite what you might have heard, they’re very different",
     "title_he": "בדקתי את שתי טלוויזיות הדגל של Samsung OLED, ולמרות מה שאולי שמעתם, הן שונות מאוד",
@@ -67,42 +74,40 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/boses-flagship-wireless-headphones-are-getting-an-audio-upgrade-but-theres-a-catch",
     "date": "2026-09-29T14:26:10+00:00"
-   },
-   {
-    "title_en": "Technics EAH-A1000",
-    "title_he": "טכניקות EAH-A1000",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
-    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T10:17:29+00:00",
-  "fetched_at": "2026-09-30T10:17:29+00:00"
+  "checked_at": "2026-09-30T11:17:39+00:00",
+  "fetched_at": "2026-09-30T11:17:39+00:00"
  },
- "generated_at": "2026-09-30T10:17:29+00:00",
+ "generated_at": "2026-09-30T11:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בכיר ישראלי: \"טייס אחד דקר את השני וניסה לעשות 11/9\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557970",
-     "date": "2026-09-30T09:13:00+00:00"
+     "title": "המנכ\"ל הבכיר שהשתלט על הטיסה: \"תקפו אותנו, אנחנו שומרים על הטייס\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557982",
+     "date": "2026-09-30T10:55:00+00:00"
     },
     {
-     "title": "בעקבות העלאת הכוננות והמתיחות הביטחונית: הרמטכ\"ל ביטל את ביקורו המתוכנן בארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T10:01:00+00:00"
+     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T10:59:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T09:43:00+00:00"
+     "title": "פרשת סלייס: תוכנית ההסדר של המנהל המורשה אושרה בביהמ\"ש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557985",
+     "date": "2026-09-30T11:08:00+00:00"
     },
     {
-     "title": "זריקת מרץ לדעא\"ש: המהלך האמריקאי שעשוי לשקם את ארגון הטרור הרצחני",
+     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T10:59:00+00:00"
+    },
+    {
+     "title": "המשבר בין נתניהו לארדואן עולה מדרגה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557976",
      "date": "2026-09-30T09:42:00+00:00"
     },
@@ -207,11 +212,6 @@
      "date": "2026-09-29T09:45:00+00:00"
     },
     {
-     "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557788",
-     "date": "2026-09-29T08:20:00+00:00"
-    },
-    {
      "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T10:17:18+00:00",
-  "fetched_at": "2026-09-30T10:17:18+00:00"
+  "checked_at": "2026-09-30T11:17:28+00:00",
+  "fetched_at": "2026-09-30T11:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T10:17:19+00:00",
-  "fetched_at": "2026-09-30T10:17:19+00:00"
+  "checked_at": "2026-09-30T11:17:29+00:00",
+  "fetched_at": "2026-09-30T11:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2284,8 +2284,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T10:17:20+00:00",
-  "fetched_at": "2026-09-30T10:17:20+00:00"
+  "checked_at": "2026-09-30T11:17:30+00:00",
+  "fetched_at": "2026-09-30T11:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2375,8 +2375,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T10:17:20+00:00",
-  "fetched_at": "2026-09-30T10:17:20+00:00"
+  "checked_at": "2026-09-30T11:17:30+00:00",
+  "fetched_at": "2026-09-30T11:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2391,20 +2391,15 @@
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-     "date": "2026-09-28T19:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/ai-agents-in-action-meetup-21102026/",
+     "date": "2026-09-30T09:00:30+00:00",
      "launch": false,
-     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
-     "translated_by": "google"
+     "title": "מהאירוע הזה תצאו עם סוכן AI עובד שכבר מוטמע בחברה שלכם"
     }
    ],
-   "candidates": 7,
-   "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2417,7 +2412,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 127,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2431,14 +2426,14 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 212,
+     "likes": 211,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 251,
+     "likes": 252,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2459,14 +2454,14 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 203,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 56,
+     "likes": 57,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2479,12 +2474,21 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T10:17:25+00:00",
-  "fetched_at": "2026-09-30T10:17:25+00:00"
+  "checked_at": "2026-09-30T11:17:37+00:00",
+  "fetched_at": "2026-09-30T11:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "עבד: הבטחתי שאהיה ביורו, בכיתי כשלא הייתי בסגל",
+     "link": "https://www.one.co.il/Article/534699.html?ref=rss",
+     "date": "2026-09-30T10:33:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי עבד"
+     ]
+    },
     {
      "title": "הקו המחודש של פורטלנד יהפוך את אבדיה לשלם יותר",
      "link": "https://www.one.co.il/Article/534689.html?ref=rss",
@@ -2776,8 +2780,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T10:17:24+00:00",
-  "fetched_at": "2026-09-30T10:17:24+00:00"
+  "checked_at": "2026-09-30T11:17:33+00:00",
+  "fetched_at": "2026-09-30T11:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2808,7 +2812,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T10:17:24+00:00",
-  "fetched_at": "2026-09-30T10:17:24+00:00"
+  "checked_at": "2026-09-30T11:17:33+00:00",
+  "fetched_at": "2026-09-30T11:17:33+00:00"
  }
 }
