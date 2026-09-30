@@ -1,0 +1,235 @@
+{
+ "status": "draft",
+ "received_sha256_12": "625473428f58",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-09-30T16:30:08+00:00",
+  "window": {
+   "from": "2026-09-29T16:30:08+00:00",
+   "to": "2026-09-30T16:30:08+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202609301630"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל במקביל במספר חזיתות אזוריות, הכוללות חיכוך ימי מתמשך במצר הורמוז, השלמת נסיגת כוחות אמריקאיים מעיראק לצד חגיגות של מיליציות פרו-איראניות, וחשדות גוברים למעורבות איראנית בפעילות חתרנית באירופה. במקביל, מתנהלים מגעים דיפלומטיים עקיפים בתיווך קטאר בנוגע להסדרה אפשרית ולפתרון משבר הספנות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "פעיל עם חיכוך ימי צבאי ודיונים דיפלומטיים"
+   },
+   {
+    "name": "עיראק",
+    "status": "נסיגה אמריקאית מלאה והתחזקות מעמד המיליציות הפרו-איראניות"
+   },
+   {
+    "name": "אירופה ובריטניה",
+    "status": "כוננות ביטחונית בעקבות חשדות לפעילות טרור ואינדיקציות למעורבות איראנית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-09301630-01",
+    "title": "תקיפות והגבלת מעבר ספינות במצר הורמוז",
+    "summary": "משמרות המהפכה של איראן מדווחים כי כוחותיהם תוקפים מדי יום כלי שיט קטנים ומונעים את מעברם במצר הורמוז, בעוד סוכנות ספנות בריטית מדווחת על תקיפות נגד לפחות שלוש ספינות מסחריות בנתיב המים.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T12:41:03+00:00",
+    "last_update_at": "2026-09-30T12:41:03+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל תקיפה וזהות כל הגורמים המעורבים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_fars_news_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-it-attacks-ships-daily-strait-hormuz",
+      "published_at": "2026-09-30T12:41:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09301630-02",
+    "title": "השלמת נסיגת כוחות צבא ארה\"ב מעיראק",
+    "summary": "הפנטגון הוציא הודעה רשמית על השלמת נסיגת כל כוחות צבא ארה\"ב מהבסיסים האחרונים שנותרו להם בעיראק.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T14:31:44+00:00",
+    "last_update_at": "2026-09-30T14:31:44+00:00",
+    "what_is_not_verified": "ההשלכות הביטחוניות ארוכות הטווח על יציבות המדינה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_701d4df228a87ee9",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+      "published_at": "2026-09-30T14:31:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-09301630-03",
+    "title": "תקרית ביטחונית בבסיס חיל האוויר הבריטי",
+    "summary": "ראש ממשלת בריטניה מדווח על אינדיקציות חזקות למעורבות איראנית בפעילות חשודה שהפעילה כוננות ביטחונית סמוך לבסיס של חיל האוויר הבריטי המשמש את צבא ארה\"ב.",
+    "axis": "ציר איראן-בריטניה וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T16:11:16+00:00",
+    "last_update_at": "2026-09-30T16:11:16+00:00",
+    "what_is_not_verified": "הקשר הישיר של המעורבים החשודים לממשלת איראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_bbc",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
+      "published_at": "2026-09-30T16:11:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-09301630-04",
+    "title": "פגישת שר החוץ האיראני עם מתווכים בקטאר על תוכנית הרגעת מתחים",
+    "summary": "שר החוץ האיראני קיבל תגובה אמריקאית באמצעות מתווכים קטארים בדוחה בנוגע לתוכנית אמון דו-צדדית.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T07:46:28+00:00",
+    "last_update_at": "2026-09-30T07:46:28+00:00",
+    "what_is_not_verified": "תנאי הסף המדויקים שדורש כל צד ליישום ההסכם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-receives-us-feedback-seven-day-trust-building-plan",
+      "published_at": "2026-09-30T07:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוחה, קטאר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה של איראן באירוע הביטחוני בבסיס הבריטי",
+   "האם המגעים הדיפלומטיים בתיווך קטאר יובילו להסכם כולל לפתיחת מצר הורמוז",
+   "טיב הקשר המדויק בין טייס המשנה העומאני לבין גורמים איראניים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0736,
+    "unit": "ILS",
+    "change_pct": 0.57,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "דרישה להפסקת הלחץ הכלכלי מצד ארה\"ב ומדינות המערב",
+     "התנגדות לכל נוכחות צבאית זרה באזור המפרץ"
+    ],
+    "inferred": [
+     "שאיפה למקסם את הרווח מהיציאה האמריקאית מעיראק באמצעות שלוחותיה",
+     "שימוש בלחץ ימי במצר הורמוז כמנוף להסרת סנקציות"
+    ],
+    "forecast": [
+     "המשך הפעלת לחץ דרך מיליציות אזוריות",
+     "התלבטות פנימית בטהרן בין פשרה דיפלומטית להסלמה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "השלמת נסיגת הכוחות הצבאיים מעיראק",
+     "שמירה על חופש השיט והסחר במצר הורמוז"
+    ],
+    "inferred": [
+     "ניסיון לבלום את השפעת איראן באזור תוך הימנעות מעימות צבאי כולל",
+     "בחינת הצעות פשרה דיפלומטיות באמצעות מדינות תווך"
+    ],
+    "forecast": [
+     "המשך תות נקודתיות או אבטחת נתיבי סחר במידת הצורך",
+     "מעקב הדוק אחר ואקום הכוח בעיראק"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "היערכות מול איומים פוטנציאליים מצד איראן ושלוחותיה בזירות השונות"
+    ],
+    "inferred": [
+     "מעקב רצוף אחר התקדמות איראן בתוכנית הגרעין",
+     "שאיפה למנוע ביסוס צבאי של ציר המיליציות האיראניות בגבולותיה"
+    ],
+    "forecast": [
+     "המשך מודיעיני ומבצעי מול איומי הפתעה אזוריים",
+     "הידוק שיתופי פעולה אזוריים נגד ציר איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/iran-receives-us-feedback-seven-day-trust-building-plan",
+    "accessed_at": "2026-09-30T16:30:08+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+    "accessed_at": "2026-09-30T16:30:08+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-pm-says-strong-indications-iran-involved-airbase-scare",
+    "accessed_at": "2026-09-30T16:30:08+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0ca65b26d0bb",
+ "preview": {
+  "events": 1,
+  "levels": {
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-09-30T16:42:09+00:00",
+  "window": {
+   "from": "2026-09-29T16:42:09+00:00",
+   "to": "2026-09-30T16:42:09+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202609301642"
+  },
+  "summary": "מ",
+  "fronts": [
+   {
+    "name": "א",
+    "status": "א"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-09301642-01",
+    "title": "ה",
+    "summary": "א",
+    "axis": "ת",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T15:34:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T15:34:57+00:00",
+    "last_update_at": "2026-09-30T15:34:57+00:00",
+    "what_is_not_verified": "ל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153255",
+      "published_at": "2026-09-30T15:34:57+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "א"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0736,
+    "unit": "ILS",
+    "change_pct": 0.57,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "א",
+    "declared": [
+     "א"
+    ],
+    "inferred": [
+     "א"
+    ],
+    "forecast": [
+     "א"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153255",
+    "accessed_at": "2026-09-30T16:42:09+00:00"
+   }
+  ]
+ }
+}

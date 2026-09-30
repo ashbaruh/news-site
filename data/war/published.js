@@ -1035,62 +1035,62 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-09-29T2343__north-202609292343.json",
+  "draft": "drafts/north/2026-09-30T1650__north-202609301650.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-09-29T23:43:32+00:00",
+   "generated_at": "2026-09-30T16:50:58+00:00",
    "window": {
-    "from": "2026-09-28T23:43:32+00:00",
-    "to": "2026-09-29T23:43:32+00:00"
+    "from": "2026-09-29T16:50:58+00:00",
+    "to": "2026-09-30T16:50:58+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202609292343"
+    "run_id": "north-202609301650"
    },
-   "summary": "הגזרה הצפונית מתאפיינת בלחימה מתמשכת ופעילות צבאית ישראלית בדרום לבנון, הכוללת תקיפות והרס תשתיות, לצד פעילות של שלטונות סוריה נגד תשתיות חיזבאללה בשטחם. במקביל, מתקיימים מגעים דיפלומטיים בין לבנון והקהילה הבינלאומית לצד אזהרות הדדיות מפני הסלמה רחבה.",
+   "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית נמשכת הכוללת תקיפות וחשיפת תשתיות טרור בסוריה ובלבנון, לצד שינויי פריסת כוחות של ישראל ועימותים מתמשכים סביב דרישות לפירוז חיזבאללה. במקביל, מתקיימים מגעים דיפלומטיים והצהרות פוליטיות בין ממשלות סוריה ולבנון, תוך מעורבות של גורמים אזוריים ובינלאומיים.",
    "fronts": [
     {
-     "name": "החזית הלבנונית",
-     "status": "פעילה עם תקיפות אוויריות ופשיטות קרקעיות"
+     "name": "חזית לבנון-ישראל",
+     "status": "פעילה (תקיפות, חילופי אש, פריסת כוחות ומשא ומתן דיפלומטי)"
     },
     {
-     "name": "החזית הסורית",
-     "status": "פעילה מבחינת סיכול תאי חיזבאללה ותנועות צבאיות ישראליות"
+     "name": "חזית סוריה-ישראל",
+     "status": "פעילה (חשיפת חוליות טרור וסיכול שיגורים בדרום סוריה)"
     }
    ],
    "events": [
     {
-     "id": "NORTH-09292343-01",
-     "title": "מעצר חוליית חיזבאללה באגן הירמוך",
-     "summary": "כוחות הביטחון של סוריה עצרו שלושה חשודים המזוהים עם חיזבאללה באגן הירמוך בטענה שניסו להציב משגרי טילים לתקיפות.",
-     "axis": "הגזרה הסורית",
+     "id": "NORTH-09301650-01",
+     "title": "עצירת חוליית חיזבאללה באזור אגן הירמוך",
+     "summary": "כוחות הביטחון הפנימי בסוריה עצרו חוליה המזוהה עם חיזבאללה באגן הירמוך, אשר עבדה על הקמת תשתיות לשיגור רקטות לעבר ישראל.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T21:08:02+00:00",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-29T21:08:02+00:00",
-     "last_update_at": "2026-09-29T23:27:53+00:00",
-     "what_is_not_verified": "יעדי התקיפה המתוכננים המדויקים אינם מאומתים",
+     "first_reported_at": "2026-09-29T21:09:53+00:00",
+     "last_update_at": "2026-09-30T15:55:47+00:00",
+     "what_is_not_verified": "זהותם המדויקת והרקע של העצורים טרם נחשפו במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_alma",
+       "source_root_id": "fh_0071760f12350f4b",
+       "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+       "published_at": "2026-09-30T15:55:47+00:00"
+      },
+      {
        "source_id": "src_anadolu",
-       "source_root_id": "fh_fac0efdf2eb71e20",
+       "source_root_id": "fh_0071760f12350f4b",
        "url": "https://www.aa.com.tr/en/middle-east/syria-dismantles-hezbollah-linked-cell-in-southern-daraa-province/4073183",
        "published_at": "2026-09-29T23:27:53+00:00"
       },
       {
        "source_id": "src_newarab",
-       "source_root_id": "fh_9134ecda4336b17b",
+       "source_root_id": "fh_0071760f12350f4b",
        "url": "https://www.newarab.com/news/syria-says-arrested-hezbollah-affiliated-cell-planning-attacks",
        "published_at": "2026-09-29T21:09:53+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_fac0efdf2eb71e20",
-       "url": "https://www.ynet.co.il/news/article/sy5z9cfcfg",
-       "published_at": "2026-09-29T21:08:02+00:00"
       }
      ],
      "places": [
@@ -1102,131 +1102,142 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-09292343-02",
-     "title": "תקיפות והרס בכפר אל-מנצורי ובאזורים נוספים בדרום לבנון",
-     "summary": "נרשמו תקיפות הישראליות באל-מנצורי, חדאת' ומקומות נוספים בדרום לבנון, שהרסו בתים, בארות מים וניתקו חלקי רשת מים.",
-     "axis": "הגזרה הלבנונית",
+     "id": "NORTH-09301650-02",
+     "title": "תקיפות ארטילריה ופיצוצים בדרום-מזרח לבנון",
+     "summary": "דווח על תקיפות ארטילריה ישראליות בעיירה אל-חיאם ושמיעת פיצוץ בחואלה בדרום-מזרח לבנון.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T08:56:41+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-29T08:56:41+00:00",
-     "last_update_at": "2026-09-29T17:44:30+00:00",
-     "what_is_not_verified": "היקף הנזק המלא וההשלכות ארוכות הטווח אינם מאומתים במלואם",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-30T15:25:26+00:00",
+     "last_update_at": "2026-09-30T15:25:26+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים הישירים אינם מפורטים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-sever-parts-water-network-lebanons-mansouri",
-       "published_at": "2026-09-29T17:44:30+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131007",
-       "published_at": "2026-09-29T08:56:41+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-media-reports-israeli-strikes-southeast-country",
+       "published_at": "2026-09-30T15:25:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "אל-חיאם, לבנון",
+       "lat": 33.3103,
+       "lon": 35.6054
       },
       {
-       "name": "חדאת', לבנון",
-       "lat": 33.165,
-       "lon": 35.3916
+       "name": "חואלה, לבנון",
+       "lat": 33.2102,
+       "lon": 35.5187
       }
      ]
     },
     {
-     "id": "NORTH-09292343-03",
-     "title": "פשיטות ותקיפות אוויריות ישראליות בדרום לבנון",
-     "summary": "כוחות ישראליים פשטו על בתים וירו באל-כפארצ'ובא, ומטוסי קרב תקפו את אל-קנטרה, בראשיִת וכפר טבנית.",
-     "axis": "הגזרה הלבנונית",
+     "id": "NORTH-09301650-03",
+     "title": "פציעת חייל לבנוני ואזרחים מפגיעת עצם חשוד או תקיפה בדרום לבנון",
+     "summary": "ארבעה בני אדם, בהם חייל צבא לבנון ואזרחים, נפצעו בדרום לבנון כתוצאה מפיצוץ של עצם חשוד או תקיפה על רכב צבאי.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T14:46:28+00:00",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-29T14:46:28+00:00",
-     "last_update_at": "2026-09-29T15:52:54+00:00",
-     "what_is_not_verified": "פרטים מדויקים על נפגעים נוספים אינם מאומתים",
+     "first_reported_at": "2026-09-30T04:27:43+00:00",
+     "last_update_at": "2026-09-30T07:30:41+00:00",
+     "what_is_not_verified": "פרטים מלאים על נסיבות הפיצוץ המדויקות מעבר להודעת הצבא.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_644f6a14849e26c9",
-       "url": "https://english.almanar.com.lb/article/132392/",
-       "published_at": "2026-09-29T15:52:54+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_7f7883c894d68ee2",
+       "url": "https://www.aa.com.tr/en/middle-east/4-including-lebanese-soldier-injured-in-southern-lebanon-blast/4073353",
+       "published_at": "2026-09-30T07:30:41+00:00"
       },
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_b14d12fbb31ab8b4",
-       "url": "https://english.almanar.com.lb/article/132417/",
-       "published_at": "2026-09-29T14:52:30+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_15efabbe84aaf576",
-       "url": "https://english.almanar.com.lb/article/132407/",
-       "published_at": "2026-09-29T14:50:10+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_5b0b08214138024b",
-       "url": "https://english.almanar.com.lb/article/132397/",
-       "published_at": "2026-09-29T14:46:28+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_7f7883c894d68ee2",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/960426/israeli-strike-on-army-vehicle-in-nabatieh-al-fawqa-seriously-wounds-l/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960426",
+       "published_at": "2026-09-30T04:27:43+00:00"
       }
      ],
      "places": [
       {
-       "name": "כפארצ'ובא, לבנון",
-       "lat": 33.3277,
-       "lon": 35.6927
-      },
-      {
-       "name": "אל-קנטרה, לבנון",
-       "lat": 33.2589,
-       "lon": 35.459
+       "name": "נבטיה אל-פוקא, לבנון",
+       "lat": 33.3619,
+       "lon": 35.4987
       }
      ]
     },
     {
-     "id": "NORTH-09292343-04",
-     "title": "חדירה ופעילות ישראלית בצפון קוניטרה",
-     "summary": "סיור ישראלי ביצע חדירה בצפון קוניטרה והתקדם לעבר כפר זוביידה, דבר שגרם לחרדה בקרב תלמידים.",
-     "axis": "הגזרה הסורית",
+     "id": "NORTH-09301650-04",
+     "title": "סיום פריסת חטיבת גולני בדרום לבנון לאחר שבעה חודשים",
+     "summary": "כוחות צק\"ח גולני סיימו תקופת פעילות של שבעה חודשים בדרום לבנון ויצאו לרענון, תוך השמדת אמצעי לחימה ותשתיות טרור.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T08:27:59+00:00",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-29T08:27:59+00:00",
-     "last_update_at": "2026-09-29T08:27:59+00:00",
-     "what_is_not_verified": "זהות העצור והסיבות המדויקות למעצר אינן מאומתות במלואן ממקור ראשון",
+     "first_reported_at": "2026-09-30T06:00:25+00:00",
+     "last_update_at": "2026-09-30T12:02:16+00:00",
+     "what_is_not_verified": "לא צוין מי הכוח המדויק שיחליף אותם בשטח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25252",
+       "published_at": "2026-09-30T06:00:25+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/new-lebanon-israel-talks-set-20-oct-golani-brigade-leaves",
+       "published_at": "2026-09-30T12:02:16+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
+      }
+     ]
+    },
+    {
+     "id": "NORTH-09301650-05",
+     "title": "דיונים משותפים בין סוריה ולבנון על נתיבי תיירות",
+     "summary": "שרים מסוריה ומלבנון קיימו דיונים בנושא נתיבי תיירות משותפים והקלה על נהלי כניסת מבקרים.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-30T14:55:17+00:00",
+     "last_update_at": "2026-09-30T14:55:17+00:00",
+     "what_is_not_verified": "החלטות מעשיות סופיות ולוחות זמנים מדויקים לא פורטו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-detain-syrian-man-during-incursion-in-northern-quneitra/4072325",
-       "published_at": "2026-09-29T08:27:59+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/syria-lebanon-discuss-joint-tourism-routes-extending-to-jordan/4073961",
+       "published_at": "2026-09-30T14:55:17+00:00"
       }
      ],
      "places": [
       {
-       "name": "זוביידה, סוריה",
-       "lat": 36.1017,
-       "lon": 37.6663
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
       }
      ]
     }
    ],
    "not_verified": [
-    "מטרות התקיפה המדויקות שתכננה חוליית חיזבאללה באגן הירמוך",
-    "קיומם הוודאי של תוכניות התקפה של אויבי ישראל טרם הבחירות",
-    "ההשפעה המדויקת של פריסת מטוסי הקרב האמריקאיים בדרום ישראל"
+    "זהותם המדויקת והרקע של העצורים בחוליית חיזבאללה באגן הירמוך.",
+    "הפרטים המדויקים מתוך הצעות התיווך האמריקאיות והאיראניות שטרם פורסמו במלואן."
    ],
    "map": {
     "confidence": "medium",
@@ -1237,129 +1248,135 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0561,
+     "value": 3.0736,
      "unit": "ILS",
-     "change_pct": -0.24,
+     "change_pct": 0.57,
      "source_id": "src_ecb",
-     "as_of": "2026-09-29T15:00:00+00:00"
+     "as_of": "2026-09-30T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת פעילות עוינת מצד חיזבאללה ואויביה",
-      "התרעה מפני ניסיונות תקיפה לקראת הבחירות באוקטובר"
+      "מניעת התבססות תשתיות טרור בגבולות הצפון",
+      "תגובה לעוינות מצד חיזבאללה וגורמים איראניים"
      ],
      "inferred": [
-      "שמירה על חופש פעולה מבצעי בלבנון ובמרחב הגבול הסורי",
-      "פגיעה בתשתיות טרור וסיכול הברחות אמצעי לחימה"
+      "שמירת חופש פעולה מבצעי בדרום לבנון ובדרום סוריה",
+      "הפעלת לחץ צבאי וביטחוני להרחקת איומים"
      ],
      "forecast": [
-      "המשך פעילות צבאית ממוקדת נגד יעדי חיזבאללה בלבנון",
-      "כוננות גבוהה והיערכות לאפשרות של הסלמה רחבה במספר זירות"
+      "המשך פעילות צבאית ממוקדת נגד תשתיות טרור בגבולות",
+      "היערכות להסלמה אפשרית בהתאם לתוצאות השיחות והבחירות"
      ]
     },
     {
      "actor": "חיזבאללה",
-     "declared": [],
+     "declared": [
+      "המשך ההתנגדות ושמירה על עצמאות נשק הארגון",
+      "דחיית דרישות הפירוז מנשק"
+     ],
      "inferred": [
-      "ניסיון שיקום תשתיות צבאיות והצבת אמצעי שיגור בגבולות סוריה ולבנון",
-      "הישרדות ארגונית מול לחצים צבאיים וכלכליים כבדים"
+      "שיקום יכולות וניסיון להקים תשתיות חלופיות בדרום סוריה ובלבנון",
+      "השתלבות במערך האזורי של ציר ההתנגדות מול ישראל"
      ],
      "forecast": [
-      "המשך ניסיונות לפעול בחשאי בשטחים סמוכים לגבול",
-      "התמודדות עם לחץ פנימי גובר מצד שלטונות סוריה והקהילה הבינלאומית"
+      "המשך סירוב לדרישות המסירה של אמצעי הלחימה למדינה",
+      "ניסיונות חוזרים להקמת תאי טרור בגבולות"
      ]
     },
     {
-     "actor": "לבנון",
+     "actor": "ממשלת לבנון",
      "declared": [
-      "דרישה ליישום הסכמים והפסקת הפעילות הצבאית הישראלית",
-      "גיוס תמיכה בינלאומית וכלכלית לשיקום המדינה"
+      "שאיפה ליציבות וריבונות בלעדית על נשק במדינה",
+      "קידום פתרונות דיפלומטיים מול ישראל"
      ],
      "inferred": [
-      "ניסיון להימנע מהסלמה נוספת תוך הפעלת לחץ דיפלומטי על ארצות הברית",
-      "ניסיון להגביל את ההשפעה הכלכלית והפיננסית של חיזבאללה ואיראן"
+      "ניסיונות להיעזר בלחץ בינלאומי ואמריקאי להשגת נסיגה ישראלית",
+      "התמודדות קשה עם השפעת חיזבאללה הפנימית"
      ],
      "forecast": [
-      "המשך מאמצים דיפלומטיים מול וושינגטון והמוסדות הפיננסיים הבינלאומיים",
-      "התמודדות עם משבר הומניטרי ותשתיות רעועות בדרום המדינה"
+      "המשך מגעים דיפלומטיים צפויים בחודש אוקטובר",
+      "מאבק פנימי מתמשך סביב סוגיית פירוז המיליציות"
      ]
     },
     {
-     "actor": "סוריה (משטר א-שרע)",
+     "actor": "ממשלת סוריה",
      "declared": [
-      "דרישה לנסיגה ישראלית לקווי 8 בדצמבר 2024",
-      "ביסוס ריבונות ושמירה על הביטחון והיציבות הפנימית"
+      "שמירה על הביטחון והיציבות הפנימית",
+      "דרישה לנסיגה ישראלית משטחים שנכבשו לאחר דצמבר 2024"
      ],
      "inferred": [
-      "הרחקת גורמים עוינים כמו חיזבאללה כדי לקבל לגיטימציה וסיוע כלכלי מערבי",
-      "ניצול נכסים כלכליים ומעבר סחר לחיזוק הכלכלה המקומית"
+      "מניעת פעילות עצמאית של גורמים כמו חיזבאללה על אדמתה כדי לא להיגרר לעימות",
+      "חיזוק קשרים דיפלומטיים וכלכליים עם אירופה ושכנותיה"
      ],
      "forecast": [
-      "המשך פעולות שיטור וסיכול נגד גורמים חתרניים בשטח סוריה",
-      "העמקת הקשרים הדיפלומטיים והכלכליים עם האיחוד האירופי ומדינות האזור"
+      "המשך פעולות אכיפה נגד תאי טרור זרים בתוך שטחה",
+      "ניסיונות להרחיב שיתופי פעולה אזוריים ובינלאומיים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/132397/",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
+     "source_id": "src_alma",
+     "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-detain-syrian-man-during-incursion-in-northern-quneitra/4072325",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/syria-lebanon-discuss-joint-tourism-routes-extending-to-jordan/4073961",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
+    },
+    {
+     "source_id": "src_lbci",
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/960426/israeli-strike-on-army-vehicle-in-nabatieh-al-fawqa-seriously-wounds-l/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960426",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-sever-parts-water-network-lebanons-mansouri",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-media-reports-israeli-strikes-southeast-country",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/syria-says-arrested-hezbollah-affiliated-cell-planning-attacks",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
+     "url": "https://www.newarab.com/news/new-lebanon-israel-talks-set-20-oct-golani-brigade-leaves",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
     },
     {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131007",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/sy5z9cfcfg",
-     "accessed_at": "2026-09-29T23:43:32+00:00"
+     "source_id": "src_tg_idf",
+     "url": "https://t.me/idf_telegram/25252",
+     "accessed_at": "2026-09-30T16:50:58+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-29T09:27:12+00:00",
+  "previous_generated_at": "2026-09-29T23:43:32+00:00",
   "changes": {
-   "NORTH-09292343-01": {
-    "kind": "new"
+   "NORTH-09301650-01": {
+    "kind": "down",
+    "from": "verified",
+    "to": "shared_root",
+    "prev": "מעצר חוליית חיזבאללה באגן הירמוך",
+    "score": 1.0
    },
-   "NORTH-09292343-02": {
+   "NORTH-09301650-02": {
     "kind": "same",
     "from": "shared_root",
-    "to": "shared_root",
-    "prev": "תקיפות והפגזות באלמנצורי ודרום לבנון",
-    "score": 1.0
+    "to": "initial",
+    "prev": "פשיטות ותקיפות אוויריות ישראליות בדרום לבנון",
+    "score": 0.65
    },
-   "NORTH-09292343-03": {
+   "NORTH-09301650-03": {
+    "kind": "new"
+   },
+   "NORTH-09301650-04": {
     "kind": "possible",
-    "prev": "שיגור מיירט לעבר מטרה אווירית בדרום לבנון",
+    "prev": "תקיפות והרס בכפר אל-מנצורי ובאזורים נוספים בדרום לבנון",
     "score": 0.467
    },
-   "NORTH-09292343-04": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "פשיטה ומעצר בקוניטרה ובכפר זוביידה",
-    "score": 1.0
+   "NORTH-09301650-05": {
+    "kind": "new"
    }
   }
  }

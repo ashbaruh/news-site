@@ -1,0 +1,327 @@
+{
+ "status": "draft",
+ "received_sha256_12": "192ea03aaea2",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-09-30T16:50:58+00:00",
+  "window": {
+   "from": "2026-09-29T16:50:58+00:00",
+   "to": "2026-09-30T16:50:58+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202609301650"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית נמשכת הכוללת תקיפות וחשיפת תשתיות טרור בסוריה ובלבנון, לצד שינויי פריסת כוחות של ישראל ועימותים מתמשכים סביב דרישות לפירוז חיזבאללה. במקביל, מתקיימים מגעים דיפלומטיים והצהרות פוליטיות בין ממשלות סוריה ולבנון, תוך מעורבות של גורמים אזוריים ובינלאומיים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון-ישראל",
+    "status": "פעילה (תקיפות, חילופי אש, פריסת כוחות ומשא ומתן דיפלומטי)"
+   },
+   {
+    "name": "חזית סוריה-ישראל",
+    "status": "פעילה (חשיפת חוליות טרור וסיכול שיגורים בדרום סוריה)"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-09301650-01",
+    "title": "עצירת חוליית חיזבאללה באזור אגן הירמוך",
+    "summary": "כוחות הביטחון הפנימי בסוריה עצרו חוליה המזוהה עם חיזבאללה באגן הירמוך, אשר עבדה על הקמת תשתיות לשיגור רקטות לעבר ישראל.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T21:09:53+00:00",
+    "last_update_at": "2026-09-30T15:55:47+00:00",
+    "what_is_not_verified": "זהותם המדויקת והרקע של העצורים טרם נחשפו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "fh_0071760f12350f4b",
+      "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+      "published_at": "2026-09-30T15:55:47+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_0071760f12350f4b",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-dismantles-hezbollah-linked-cell-in-southern-daraa-province/4073183",
+      "published_at": "2026-09-29T23:27:53+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_0071760f12350f4b",
+      "url": "https://www.newarab.com/news/syria-says-arrested-hezbollah-affiliated-cell-planning-attacks",
+      "published_at": "2026-09-29T21:09:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09301650-02",
+    "title": "תקיפות ארטילריה ופיצוצים בדרום-מזרח לבנון",
+    "summary": "דווח על תקיפות ארטילריה ישראליות בעיירה אל-חיאם ושמיעת פיצוץ בחואלה בדרום-מזרח לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T15:25:26+00:00",
+    "last_update_at": "2026-09-30T15:25:26+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים הישירים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-media-reports-israeli-strikes-southeast-country",
+      "published_at": "2026-09-30T15:25:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חיאם, לבנון",
+      "lat": 33.3103,
+      "lon": 35.6054
+     },
+     {
+      "name": "חואלה, לבנון",
+      "lat": 33.2102,
+      "lon": 35.5187
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09301650-03",
+    "title": "פציעת חייל לבנוני ואזרחים מפגיעת עצם חשוד או תקיפה בדרום לבנון",
+    "summary": "ארבעה בני אדם, בהם חייל צבא לבנון ואזרחים, נפצעו בדרום לבנון כתוצאה מפיצוץ של עצם חשוד או תקיפה על רכב צבאי.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T04:27:43+00:00",
+    "last_update_at": "2026-09-30T07:30:41+00:00",
+    "what_is_not_verified": "פרטים מלאים על נסיבות הפיצוץ המדויקות מעבר להודעת הצבא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_7f7883c894d68ee2",
+      "url": "https://www.aa.com.tr/en/middle-east/4-including-lebanese-soldier-injured-in-southern-lebanon-blast/4073353",
+      "published_at": "2026-09-30T07:30:41+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_7f7883c894d68ee2",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960426/israeli-strike-on-army-vehicle-in-nabatieh-al-fawqa-seriously-wounds-l/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960426",
+      "published_at": "2026-09-30T04:27:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09301650-04",
+    "title": "סיום פריסת חטיבת גולני בדרום לבנון לאחר שבעה חודשים",
+    "summary": "כוחות צק\"ח גולני סיימו תקופת פעילות של שבעה חודשים בדרום לבנון ויצאו לרענון, תוך השמדת אמצעי לחימה ותשתיות טרור.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T06:00:25+00:00",
+    "last_update_at": "2026-09-30T12:02:16+00:00",
+    "what_is_not_verified": "לא צוין מי הכוח המדויק שיחליף אותם בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25252",
+      "published_at": "2026-09-30T06:00:25+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/new-lebanon-israel-talks-set-20-oct-golani-brigade-leaves",
+      "published_at": "2026-09-30T12:02:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-09301650-05",
+    "title": "דיונים משותפים בין סוריה ולבנון על נתיבי תיירות",
+    "summary": "שרים מסוריה ומלבנון קיימו דיונים בנושא נתיבי תיירות משותפים והקלה על נהלי כניסת מבקרים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T14:55:17+00:00",
+    "last_update_at": "2026-09-30T14:55:17+00:00",
+    "what_is_not_verified": "החלטות מעשיות סופיות ולוחות זמנים מדויקים לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-lebanon-discuss-joint-tourism-routes-extending-to-jordan/4073961",
+      "published_at": "2026-09-30T14:55:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהותם המדויקת והרקע של העצורים בחוליית חיזבאללה באגן הירמוך.",
+   "הפרטים המדויקים מתוך הצעות התיווך האמריקאיות והאיראניות שטרם פורסמו במלואן."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0736,
+    "unit": "ILS",
+    "change_pct": 0.57,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות תשתיות טרור בגבולות הצפון",
+     "תגובה לעוינות מצד חיזבאללה וגורמים איראניים"
+    ],
+    "inferred": [
+     "שמירת חופש פעולה מבצעי בדרום לבנון ובדרום סוריה",
+     "הפעלת לחץ צבאי וביטחוני להרחקת איומים"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת נגד תשתיות טרור בגבולות",
+     "היערכות להסלמה אפשרית בהתאם לתוצאות השיחות והבחירות"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההתנגדות ושמירה על עצמאות נשק הארגון",
+     "דחיית דרישות הפירוז מנשק"
+    ],
+    "inferred": [
+     "שיקום יכולות וניסיון להקים תשתיות חלופיות בדרום סוריה ובלבנון",
+     "השתלבות במערך האזורי של ציר ההתנגדות מול ישראל"
+    ],
+    "forecast": [
+     "המשך סירוב לדרישות המסירה של אמצעי הלחימה למדינה",
+     "ניסיונות חוזרים להקמת תאי טרור בגבולות"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "שאיפה ליציבות וריבונות בלעדית על נשק במדינה",
+     "קידום פתרונות דיפלומטיים מול ישראל"
+    ],
+    "inferred": [
+     "ניסיונות להיעזר בלחץ בינלאומי ואמריקאי להשגת נסיגה ישראלית",
+     "התמודדות קשה עם השפעת חיזבאללה הפנימית"
+    ],
+    "forecast": [
+     "המשך מגעים דיפלומטיים צפויים בחודש אוקטובר",
+     "מאבק פנימי מתמשך סביב סוגיית פירוז המיליציות"
+    ]
+   },
+   {
+    "actor": "ממשלת סוריה",
+    "declared": [
+     "שמירה על הביטחון והיציבות הפנימית",
+     "דרישה לנסיגה ישראלית משטחים שנכבשו לאחר דצמבר 2024"
+    ],
+    "inferred": [
+     "מניעת פעילות עצמאית של גורמים כמו חיזבאללה על אדמתה כדי לא להיגרר לעימות",
+     "חיזוק קשרים דיפלומטיים וכלכליים עם אירופה ושכנותיה"
+    ],
+    "forecast": [
+     "המשך פעולות אכיפה נגד תאי טרור זרים בתוך שטחה",
+     "ניסיונות להרחיב שיתופי פעולה אזוריים ובינלאומיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-lebanon-discuss-joint-tourism-routes-extending-to-jordan/4073961",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/960426/israeli-strike-on-army-vehicle-in-nabatieh-al-fawqa-seriously-wounds-l/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960426",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-media-reports-israeli-strikes-southeast-country",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/new-lebanon-israel-talks-set-20-oct-golani-brigade-leaves",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25252",
+    "accessed_at": "2026-09-30T16:50:58+00:00"
+   }
+  ]
+ }
+}
