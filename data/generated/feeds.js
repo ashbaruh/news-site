@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:17:30+00:00",
-  "fetched_at": "2026-09-30T19:17:30+00:00"
+  "checked_at": "2026-09-30T19:27:45+00:00",
+  "fetched_at": "2026-09-30T19:27:45+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:17:39+00:00",
-  "fetched_at": "2026-09-30T19:17:39+00:00"
+  "checked_at": "2026-09-30T19:27:56+00:00",
+  "fetched_at": "2026-09-30T19:27:56+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:17:39+00:00",
-  "fetched_at": "2026-09-30T19:17:39+00:00"
+  "checked_at": "2026-09-30T19:27:57+00:00",
+  "fetched_at": "2026-09-30T19:27:57+00:00"
  },
- "generated_at": "2026-09-30T19:17:39+00:00",
+ "generated_at": "2026-09-30T19:27:57+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הנוסעים של פליי דובאי נחתו בישראל; נתניהו שוחח עם בן זאיד בעניין אבטחת המטוסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T18:56:00+00:00"
+     "date": "2026-09-30T19:18:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:17:31+00:00",
-  "fetched_at": "2026-09-30T19:17:31+00:00"
+  "checked_at": "2026-09-30T19:27:46+00:00",
+  "fetched_at": "2026-09-30T19:27:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:17:31+00:00",
-  "fetched_at": "2026-09-30T19:17:31+00:00"
+  "checked_at": "2026-09-30T19:27:47+00:00",
+  "fetched_at": "2026-09-30T19:27:47+00:00"
  },
  "tv": {
   "data": [
@@ -2291,8 +2291,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:17:32+00:00",
-  "fetched_at": "2026-09-30T19:17:32+00:00"
+  "checked_at": "2026-09-30T19:27:48+00:00",
+  "fetched_at": "2026-09-30T19:27:48+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:17:32+00:00",
-  "fetched_at": "2026-09-30T19:17:32+00:00"
+  "checked_at": "2026-09-30T19:27:48+00:00",
+  "fetched_at": "2026-09-30T19:27:48+00:00"
  },
  "ai": {
   "data": {
@@ -2470,7 +2470,7 @@ window.DB.generated = {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 61,
+     "likes": 62,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2483,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:17:38+00:00",
-  "fetched_at": "2026-09-30T19:17:38+00:00"
+  "checked_at": "2026-09-30T19:27:55+00:00",
+  "fetched_at": "2026-09-30T19:27:55+00:00"
  },
  "abroad": {
   "data": {
@@ -2772,8 +2772,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:17:35+00:00",
-  "fetched_at": "2026-09-30T19:17:35+00:00"
+  "checked_at": "2026-09-30T19:27:51+00:00",
+  "fetched_at": "2026-09-30T19:27:51+00:00"
  },
  "idf": {
   "data": [
@@ -2804,7 +2804,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:17:35+00:00",
-  "fetched_at": "2026-09-30T19:17:35+00:00"
+  "checked_at": "2026-09-30T19:27:52+00:00",
+  "fetched_at": "2026-09-30T19:27:52+00:00"
  }
 };
