@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T09:17:25+00:00",
-  "fetched_at": "2026-09-30T09:17:25+00:00"
+  "checked_at": "2026-09-30T10:17:16+00:00",
+  "fetched_at": "2026-09-30T10:17:16+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "First Ever Recorded Sea Turtle Nests on America’s West Coast",
+    "title_he": "קיני צבי הים הראשונים שהוקלטו אי פעם בחוף המערבי של אמריקה",
+    "translated_by": "mymemory",
+    "link": "https://www.goodnewsnetwork.org/first-ever-recorded-sea-turtle-nests-on-americas-west-coast/",
+    "date": "2026-09-30T09:52:15+00:00"
+   },
    {
     "title_en": "A Strategy of Cash-for-Photos Turns Animal Hunters into Animal Protectors in Indonesia",
     "title_he": "אסטרטגיה של מזומנים תמורת תמונות הופכת ציידי בעלי חיים למגני בעלי חיים באינדונזיה",
@@ -34,21 +41,21 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/",
     "date": "2026-09-28T03:00:01+00:00"
-   },
-   {
-    "title_en": "CA Researchers Identify Odors That Repel Honeybees From Pesticides",
-    "title_he": "חוקרי CA מזהים ריחות הדוחים דבורים מחומרי הדברה",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/ca-researchers-identify-odors-that-repel-honeybees-from-pesticides/",
-    "date": "2026-09-27T22:50:42+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T09:17:38+00:00",
-  "fetched_at": "2026-09-30T09:17:38+00:00"
+  "checked_at": "2026-09-30T10:17:28+00:00",
+  "fetched_at": "2026-09-30T10:17:28+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I tested Samsung’s two flagship OLED TVs, and despite what you might have heard, they’re very different",
+    "title_he": "בדקתי את שתי טלוויזיות הדגל של Samsung OLED, ולמרות מה שאולי שמעתם, הן שונות מאוד",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/i-tested-samsungs-two-flagship-oled-tvs-and-despite-what-you-might-have-heard-theyre-very-different",
+    "date": "2026-09-30T09:43:39+00:00"
+   },
    {
     "title_en": "\"This is the headphone we set out to create from the very beginning\" – a closer look at the development of the new driver technology inside the premium Technics EAH-A1000 wireless headphones",
     "title_he": "\"זו האוזניות שיצאנו ליצור מההתחלה\" - מבט מקרוב על הפיתוח של טכנולוגיית הדרייברים החדשה בתוך האוזניות האלחוטיות הפרימיום Technics EAH-A1000",
@@ -69,35 +76,43 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
     "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
-    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
-    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
-    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T09:17:39+00:00",
-  "fetched_at": "2026-09-30T09:17:39+00:00"
+  "checked_at": "2026-09-30T10:17:29+00:00",
+  "fetched_at": "2026-09-30T10:17:29+00:00"
  },
- "generated_at": "2026-09-30T09:17:39+00:00",
+ "generated_at": "2026-09-30T10:17:29+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בכיר ישראלי: \"טייס אחד דקר את השני וניסה לעשות 11\\9\"",
+     "title": "בכיר ישראלי: \"טייס אחד דקר את השני וניסה לעשות 11/9\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557970",
      "date": "2026-09-30T09:13:00+00:00"
     },
     {
      "title": "בעקבות העלאת הכוננות והמתיחות הביטחונית: הרמטכ\"ל ביטל את ביקורו המתוכנן בארה\"ב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T08:15:00+00:00"
+     "date": "2026-09-30T10:01:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T09:43:00+00:00"
+    },
+    {
+     "title": "זריקת מרץ לדעא\"ש: המהלך האמריקאי שעשוי לשקם את ארגון הטרור הרצחני",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557976",
+     "date": "2026-09-30T09:42:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת באירופה; החוזים בניו יורק מטפסים, תשואות האג\"ח נסוגות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
+     "date": "2026-09-30T09:10:00+00:00"
+    },
     {
      "title": "האם משקיעי הקריפטו יכולים להוציא את בגדי האביב?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557967",
@@ -109,19 +124,9 @@ window.DB.generated = {
      "date": "2026-09-30T08:54:00+00:00"
     },
     {
-     "title": "עליות קלות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T08:41:00+00:00"
-    },
-    {
      "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557972",
      "date": "2026-09-30T08:32:00+00:00"
-    },
-    {
-     "title": "עליות באירופה; החוזים בניו יורק מטפסים, תשואות האג\"ח נסוגות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T07:51:00+00:00"
     },
     {
      "title": "אקירוב רוצה לשלם 788 מיליון שקל כדי למחוק את אלרוב ולנסות להשתלט על כלל ביטוח",
@@ -209,16 +214,6 @@ window.DB.generated = {
      "date": "2026-09-29T08:20:00+00:00"
     },
     {
-     "title": "לקראת הנפקת אנתרופיק: ההכנסות זינקו פי 12, ההפסד הנקי הגיע ל־42 מיליארד דולר, ועדיין החברה מזהירה מסכנה לאנושות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557810",
-     "date": "2026-09-29T06:45:00+00:00"
-    },
-    {
-     "title": "אל תיפלו בפח של קרנות אג\"ח שטוענות שהן מנצחות את השוק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557683",
-     "date": "2026-09-29T06:29:00+00:00"
-    },
-    {
      "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
@@ -226,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T09:17:26+00:00",
-  "fetched_at": "2026-09-30T09:17:26+00:00"
+  "checked_at": "2026-09-30T10:17:18+00:00",
+  "fetched_at": "2026-09-30T10:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T09:17:27+00:00",
-  "fetched_at": "2026-09-30T09:17:27+00:00"
+  "checked_at": "2026-09-30T10:17:19+00:00",
+  "fetched_at": "2026-09-30T10:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2291,8 +2286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T09:17:28+00:00",
-  "fetched_at": "2026-09-30T09:17:28+00:00"
+  "checked_at": "2026-09-30T10:17:20+00:00",
+  "fetched_at": "2026-09-30T10:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2382,8 +2377,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T09:17:28+00:00",
-  "fetched_at": "2026-09-30T09:17:28+00:00"
+  "checked_at": "2026-09-30T10:17:20+00:00",
+  "fetched_at": "2026-09-30T10:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2398,15 +2393,20 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/ai-agents-in-action-meetup-21102026/",
-     "date": "2026-09-30T09:00:30+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+     "date": "2026-09-28T19:00:00+00:00",
      "launch": false,
-     "title": "מהאירוע הזה תצאו עם סוכן AI עובד שכבר מוטמע בחברה שלכם"
+     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
+     "translated_by": "google"
     }
    ],
-   "candidates": 11,
-   "failed_sources": [],
+   "candidates": 7,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2426,14 +2426,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 604,
+     "likes": 605,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2461,14 +2461,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 202,
+     "likes": 203,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 54,
+     "likes": 56,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2481,8 +2481,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T09:17:37+00:00",
-  "fetched_at": "2026-09-30T09:17:37+00:00"
+  "checked_at": "2026-09-30T10:17:25+00:00",
+  "fetched_at": "2026-09-30T10:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -2778,8 +2778,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T09:17:31+00:00",
-  "fetched_at": "2026-09-30T09:17:31+00:00"
+  "checked_at": "2026-09-30T10:17:24+00:00",
+  "fetched_at": "2026-09-30T10:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -2810,7 +2810,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T09:17:32+00:00",
-  "fetched_at": "2026-09-30T09:17:32+00:00"
+  "checked_at": "2026-09-30T10:17:24+00:00",
+  "fetched_at": "2026-09-30T10:17:24+00:00"
  }
 };
