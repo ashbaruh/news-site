@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:27:45+00:00",
-  "fetched_at": "2026-09-30T19:27:45+00:00"
+  "checked_at": "2026-09-30T20:17:24+00:00",
+  "fetched_at": "2026-09-30T20:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:27:56+00:00",
-  "fetched_at": "2026-09-30T19:27:56+00:00"
+  "checked_at": "2026-09-30T20:17:34+00:00",
+  "fetched_at": "2026-09-30T20:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:27:57+00:00",
-  "fetched_at": "2026-09-30T19:27:57+00:00"
+  "checked_at": "2026-09-30T20:17:35+00:00",
+  "fetched_at": "2026-09-30T20:17:35+00:00"
  },
- "generated_at": "2026-09-30T19:27:57+00:00",
+ "generated_at": "2026-09-30T20:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,19 @@
     {
      "title": "הנוסעים של פליי דובאי נחתו בישראל; נתניהו שוחח עם בן זאיד בעניין אבטחת המטוסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T19:18:00+00:00"
+     "date": "2026-09-30T20:01:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות בוול סטריט בעקבות נתוני האינפלציה שהפתיעו לטובה",
+     "title": "נעילה מעורבת בוול סטריט; התשואות שוב זינקו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T17:13:00+00:00"
+     "date": "2026-09-30T18:32:00+00:00"
+    },
+    {
+     "title": "הפסיד מיליונים משורט על טסלה ועכשיו משתלט על חברת ה-BVI המסתבכת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558094",
+     "date": "2026-09-30T18:23:00+00:00"
     },
     {
      "title": "גיבור היום: זה הטייס שנדקר ונאבק כדי להציל את טיסת פליי דובאי",
@@ -215,17 +220,12 @@
      "title": "נעילה חיובית בת\"א; פאלו אלטו ואלקטרה נדל\"ן זינקו, אלביט ירדה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
      "date": "2026-09-29T11:29:00+00:00"
-    },
-    {
-     "title": "דיווח: בריטניה הרחיבה משמעותית את אמברגו הנשק על ישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557825",
-     "date": "2026-09-29T10:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:27:46+00:00",
-  "fetched_at": "2026-09-30T19:27:46+00:00"
+  "checked_at": "2026-09-30T20:17:25+00:00",
+  "fetched_at": "2026-09-30T20:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:27:47+00:00",
-  "fetched_at": "2026-09-30T19:27:47+00:00"
+  "checked_at": "2026-09-30T20:17:26+00:00",
+  "fetched_at": "2026-09-30T20:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2289,8 +2289,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:27:48+00:00",
-  "fetched_at": "2026-09-30T19:27:48+00:00"
+  "checked_at": "2026-09-30T20:17:26+00:00",
+  "fetched_at": "2026-09-30T20:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2380,19 +2380,19 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:27:48+00:00",
-  "fetched_at": "2026-09-30T19:27:48+00:00"
+  "checked_at": "2026-09-30T20:17:26+00:00",
+  "fetched_at": "2026-09-30T20:17:26+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-     "date": "2026-09-30T15:03:07+00:00",
+     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "date": "2026-09-30T20:01:45+00:00",
      "launch": true,
-     "title_en": "Introducing SynthID Bio",
-     "title_he": "הכירו את SynthID Bio",
+     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
+     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
      "translated_by": "mymemory"
     },
     {
@@ -2405,7 +2405,7 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 14,
    "failed_sources": [],
    "tools": [
     {
@@ -2419,14 +2419,14 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 613,
+     "likes": 614,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2437,18 +2437,18 @@
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 194,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
      "likes": 255,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 193,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1",
@@ -2461,28 +2461,28 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 210,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 62,
+     "likes": 63,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:27:55+00:00",
-  "fetched_at": "2026-09-30T19:27:55+00:00"
+  "checked_at": "2026-09-30T20:17:33+00:00",
+  "fetched_at": "2026-09-30T20:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2770,8 +2770,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T19:27:51+00:00",
-  "fetched_at": "2026-09-30T19:27:51+00:00"
+  "checked_at": "2026-09-30T20:17:28+00:00",
+  "fetched_at": "2026-09-30T20:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2802,7 +2802,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T19:27:52+00:00",
-  "fetched_at": "2026-09-30T19:27:52+00:00"
+  "checked_at": "2026-09-30T20:17:29+00:00",
+  "fetched_at": "2026-09-30T20:17:29+00:00"
  }
 }
