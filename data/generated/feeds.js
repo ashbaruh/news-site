@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T08:17:25+00:00",
-  "fetched_at": "2026-09-30T08:17:25+00:00"
+  "checked_at": "2026-09-30T09:17:25+00:00",
+  "fetched_at": "2026-09-30T09:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T08:17:41+00:00",
-  "fetched_at": "2026-09-30T08:17:41+00:00"
+  "checked_at": "2026-09-30T09:17:38+00:00",
+  "fetched_at": "2026-09-30T09:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T08:17:41+00:00",
-  "fetched_at": "2026-09-30T08:17:41+00:00"
+  "checked_at": "2026-09-30T09:17:39+00:00",
+  "fetched_at": "2026-09-30T09:17:39+00:00"
  },
- "generated_at": "2026-09-30T08:17:41+00:00",
+ "generated_at": "2026-09-30T09:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"אירוע פלילי\": מה העונש הצפוי לטייסים של פליי דובאי?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557968",
-     "date": "2026-09-30T07:42:00+00:00"
+     "title": "בכיר ישראלי: \"טייס אחד דקר את השני וניסה לעשות 11\\9\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557970",
+     "date": "2026-09-30T09:13:00+00:00"
     },
     {
      "title": "בעקבות העלאת הכוננות והמתיחות הביטחונית: הרמטכ\"ל ביטל את ביקורו המתוכנן בארה\"ב",
@@ -99,17 +99,32 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "האם משקיעי הקריפטו יכולים להוציא את בגדי האביב?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557967",
+     "date": "2026-09-30T08:57:00+00:00"
+    },
+    {
+     "title": "החוזה הגדול בתולדות סמארט שוטר: מערכות יירוט רחפנים בעד כ-150 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557974",
+     "date": "2026-09-30T08:54:00+00:00"
+    },
+    {
+     "title": "עליות קלות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T08:41:00+00:00"
+    },
+    {
+     "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557972",
+     "date": "2026-09-30T08:32:00+00:00"
+    },
+    {
      "title": "עליות באירופה; החוזים בניו יורק מטפסים, תשואות האג\"ח נסוגות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
      "date": "2026-09-30T07:51:00+00:00"
     },
     {
-     "title": "עליות קלות בתל אביב; המניה הביטחונית שמזנקת בכ-20%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T07:43:00+00:00"
-    },
-    {
-     "title": "תמורת 788 מיליון שקל: אקירוב רוצה למחוק את אלרוב מהמסחר",
+     "title": "אקירוב רוצה לשלם 788 מיליון שקל כדי למחוק את אלרוב ולנסות להשתלט על כלל ביטוח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557965",
      "date": "2026-09-30T07:22:00+00:00"
     },
@@ -169,11 +184,6 @@ window.DB.generated = {
      "date": "2026-09-29T14:47:00+00:00"
     },
     {
-     "title": "ניסיון פריצה לאלפי חשבונות במיטב טרייד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557812",
-     "date": "2026-09-29T13:06:00+00:00"
-    },
-    {
      "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557762",
      "date": "2026-09-29T12:01:00+00:00"
@@ -192,11 +202,6 @@ window.DB.generated = {
      "title": "לא טילים ולא נפט: הנשק האמריקאי שמכאיב לאיראן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557822",
      "date": "2026-09-29T09:45:00+00:00"
-    },
-    {
-     "title": "ניסיון הפריצה למיטב טרייד: מה הלקוחות צריכים לדעת?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557821",
-     "date": "2026-09-29T09:12:00+00:00"
     },
     {
      "title": "\"שיא של כמעט 20 שנה\": מנהל ההשקעות שמסמן את הלהיט הבא בבורסה",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T08:17:27+00:00",
-  "fetched_at": "2026-09-30T08:17:27+00:00"
+  "checked_at": "2026-09-30T09:17:26+00:00",
+  "fetched_at": "2026-09-30T09:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T08:17:27+00:00",
-  "fetched_at": "2026-09-30T08:17:27+00:00"
+  "checked_at": "2026-09-30T09:17:27+00:00",
+  "fetched_at": "2026-09-30T09:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2285,10 +2290,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-09-30T08:17:33+00:00",
-  "fetched_at": "2026-09-30T07:30:33+00:00"
+  "ok": true,
+  "checked_at": "2026-09-30T09:17:28+00:00",
+  "fetched_at": "2026-09-30T09:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2378,8 +2382,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T08:17:33+00:00",
-  "fetched_at": "2026-09-30T08:17:33+00:00"
+  "checked_at": "2026-09-30T09:17:28+00:00",
+  "fetched_at": "2026-09-30T09:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2395,28 +2399,35 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-devday-sol-codex-chatgpt-space/",
-     "date": "2026-09-30T07:18:37+00:00",
+     "link": "https://www.geektime.co.il/ai-agents-in-action-meetup-21102026/",
+     "date": "2026-09-30T09:00:30+00:00",
      "launch": false,
-     "title": "ממודל Sol החדש ועד קודקס: אלו ההכרזות החשובות של OpenAI"
+     "title": "מהאירוע הזה תצאו עם סוכן AI עובד שכבר מוטמע בחברה שלכם"
     }
    ],
-   "candidates": 10,
+   "candidates": 11,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 331,
+     "likes": 333,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 604,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2426,17 +2437,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 602,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 250,
+     "likes": 251,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2457,8 +2461,15 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 201,
+     "likes": 202,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "MiMo RL Environment Explorer",
+     "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
+     "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
+     "likes": 54,
+     "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
@@ -2466,19 +2477,12 @@ window.DB.generated = {
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
      "likes": 334,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
-    },
-    {
-     "title": "Hum to Song",
-     "desc_en": "Hum a melody, get a finished song",
-     "desc_he": "לזמזם מנגינה, קבלו שיר גמור",
-     "likes": 106,
-     "link": "https://huggingface.co/spaces/Mothersuperior/yue2-hum-to-song"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T08:17:39+00:00",
-  "fetched_at": "2026-09-30T08:17:39+00:00"
+  "checked_at": "2026-09-30T09:17:37+00:00",
+  "fetched_at": "2026-09-30T09:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2774,8 +2778,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T08:17:36+00:00",
-  "fetched_at": "2026-09-30T08:17:36+00:00"
+  "checked_at": "2026-09-30T09:17:31+00:00",
+  "fetched_at": "2026-09-30T09:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -2806,7 +2810,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T08:17:36+00:00",
-  "fetched_at": "2026-09-30T08:17:36+00:00"
+  "checked_at": "2026-09-30T09:17:32+00:00",
+  "fetched_at": "2026-09-30T09:17:32+00:00"
  }
 };
