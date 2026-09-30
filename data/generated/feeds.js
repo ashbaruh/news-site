@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T12:21:13+00:00",
-  "fetched_at": "2026-09-30T12:21:13+00:00"
+  "checked_at": "2026-09-30T13:17:25+00:00",
+  "fetched_at": "2026-09-30T13:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T12:21:25+00:00",
-  "fetched_at": "2026-09-30T12:21:25+00:00"
+  "checked_at": "2026-09-30T13:17:34+00:00",
+  "fetched_at": "2026-09-30T13:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T12:21:25+00:00",
-  "fetched_at": "2026-09-30T12:21:25+00:00"
+  "checked_at": "2026-09-30T13:17:34+00:00",
+  "fetched_at": "2026-09-30T13:17:34+00:00"
  },
- "generated_at": "2026-09-30T12:21:25+00:00",
+ "generated_at": "2026-09-30T13:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המנכ\"ל הבכיר שהשתלט על הטיסה: \"תקפו אותנו, אנחנו שומרים על הטייס\"",
+     "title": "המנכ\"ל שהשתלט על הטיסה: \"תקפו אותנו, אנחנו שומרים על הטייס\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557982",
      "date": "2026-09-30T10:55:00+00:00"
     },
     {
-     "title": "שרת התחבורה מירי רגב: \"לעצור את כל הטיסות של פליי דובאי\"",
+     "title": "חקירת טייס המשנה בסעודיה: מתחזק החשד לארוע לאומני",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T12:18:00+00:00"
+     "date": "2026-09-30T13:05:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T12:21:14+00:00",
-  "fetched_at": "2026-09-30T12:21:14+00:00"
+  "checked_at": "2026-09-30T13:17:26+00:00",
+  "fetched_at": "2026-09-30T13:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1865,10 +1865,9 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": false,
-  "error": "<urlopen error [Errno 104] Connection reset by peer>",
-  "checked_at": "2026-09-30T12:21:16+00:00",
-  "fetched_at": "2026-09-30T11:17:29+00:00"
+  "ok": true,
+  "checked_at": "2026-09-30T13:17:27+00:00",
+  "fetched_at": "2026-09-30T13:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -1923,7 +1922,7 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-01",
-    "time": "02:00",
+    "time": "03:00",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "ארגנטינה - בוליביה"
@@ -2287,8 +2286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T12:21:17+00:00",
-  "fetched_at": "2026-09-30T12:21:17+00:00"
+  "checked_at": "2026-09-30T13:17:27+00:00",
+  "fetched_at": "2026-09-30T13:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2378,8 +2377,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T12:21:17+00:00",
-  "fetched_at": "2026-09-30T12:21:17+00:00"
+  "checked_at": "2026-09-30T13:17:27+00:00",
+  "fetched_at": "2026-09-30T13:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2415,7 +2414,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 129,
+     "likes": 130,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2436,7 +2435,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 252,
+     "likes": 253,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2457,14 +2456,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 205,
+     "likes": 206,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 57,
+     "likes": 58,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2477,8 +2476,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T12:21:24+00:00",
-  "fetched_at": "2026-09-30T12:21:24+00:00"
+  "checked_at": "2026-09-30T13:17:33+00:00",
+  "fetched_at": "2026-09-30T13:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2774,8 +2773,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T12:21:20+00:00",
-  "fetched_at": "2026-09-30T12:21:20+00:00"
+  "checked_at": "2026-09-30T13:17:30+00:00",
+  "fetched_at": "2026-09-30T13:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2806,7 +2805,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T12:21:21+00:00",
-  "fetched_at": "2026-09-30T12:21:21+00:00"
+  "checked_at": "2026-09-30T13:17:31+00:00",
+  "fetched_at": "2026-09-30T13:17:31+00:00"
  }
 };
