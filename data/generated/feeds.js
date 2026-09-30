@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T05:17:31+00:00",
-  "fetched_at": "2026-09-30T05:17:31+00:00"
+  "checked_at": "2026-09-30T06:17:15+00:00",
+  "fetched_at": "2026-09-30T06:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T05:17:44+00:00",
-  "fetched_at": "2026-09-30T05:17:44+00:00"
+  "checked_at": "2026-09-30T06:17:27+00:00",
+  "fetched_at": "2026-09-30T06:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,35 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T05:17:44+00:00",
-  "fetched_at": "2026-09-30T05:17:44+00:00"
+  "checked_at": "2026-09-30T06:17:27+00:00",
+  "fetched_at": "2026-09-30T06:17:27+00:00"
  },
- "generated_at": "2026-09-30T05:17:44+00:00",
+ "generated_at": "2026-09-30T06:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רמת גן מציגה: עוד עשרה מגדלים של עד 100 קומות באחד המתחמים הוותיקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557142",
-     "date": "2026-09-30T02:42:00+00:00"
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
+     "date": "2026-09-30T06:00:00+00:00"
     },
     {
      "title": "לפיד בתום העדכון עם נתניהו: \"אין סיבה להכניס לפאניקה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T04:23:00+00:00"
+     "date": "2026-09-30T06:00:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "האיתות מניו יורק שמשנה את מסלול השווקים: חמישה דברים לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T06:07:00+00:00"
+    },
+    {
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
+     "date": "2026-09-30T06:00:00+00:00"
+    },
     {
      "title": "רק לפני חודש הם הזהירו מוול סטריט. עכשיו בג'יי.פי מורגן חוזרים להמר על השוק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557956",
@@ -109,14 +119,9 @@ window.DB.generated = {
      "date": "2026-09-30T04:02:00+00:00"
     },
     {
-     "title": "בריטניה מאיימת לקחת את החרם על סחורות מההתנחלויות צעד משמעותי קדימה",
+     "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
-    },
-    {
-     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
-     "date": "2026-09-30T03:04:00+00:00"
     },
     {
      "title": "כך ה-AI משפיע על מחיר הביג מק: שיטת התמחור של מקדונלד'ס נחשפת",
@@ -211,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T05:17:32+00:00",
-  "fetched_at": "2026-09-30T05:17:32+00:00"
+  "checked_at": "2026-09-30T06:17:16+00:00",
+  "fetched_at": "2026-09-30T06:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T05:17:33+00:00",
-  "fetched_at": "2026-09-30T05:17:33+00:00"
+  "checked_at": "2026-09-30T06:17:17+00:00",
+  "fetched_at": "2026-09-30T06:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2262,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T05:17:35+00:00",
-  "fetched_at": "2026-09-30T05:17:35+00:00"
+  "checked_at": "2026-09-30T06:17:19+00:00",
+  "fetched_at": "2026-09-30T06:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2353,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T05:17:35+00:00",
-  "fetched_at": "2026-09-30T05:17:35+00:00"
+  "checked_at": "2026-09-30T06:17:19+00:00",
+  "fetched_at": "2026-09-30T06:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2377,29 +2382,27 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 329,
+     "likes": 331,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 249,
+     "likes": 250,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2413,7 +2416,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 600,
+     "likes": 601,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2434,7 +2437,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 191,
+     "likes": 194,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2448,14 +2451,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 333,
+     "likes": 334,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T05:17:43+00:00",
-  "fetched_at": "2026-09-30T05:17:43+00:00"
+  "checked_at": "2026-09-30T06:17:26+00:00",
+  "fetched_at": "2026-09-30T06:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2554,15 +2557,6 @@ window.DB.generated = {
      "title": "בארה\"ב מפנטזים: התקרה החלומית אליה דני אבדיה יכול להגיע",
      "link": "https://sports.walla.co.il/item/3869801",
      "date": "2026-09-25T14:22:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"חדשות רעות מאוד לדני אבדיה\". המהלך שפגע באולסטאר הישראלי",
-     "link": "https://sports.walla.co.il/item/3869446",
-     "date": "2026-09-23T05:23:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2769,8 +2763,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T05:17:38+00:00",
-  "fetched_at": "2026-09-30T05:17:38+00:00"
+  "checked_at": "2026-09-30T06:17:22+00:00",
+  "fetched_at": "2026-09-30T06:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2801,7 +2795,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T05:17:39+00:00",
-  "fetched_at": "2026-09-30T05:17:39+00:00"
+  "checked_at": "2026-09-30T06:17:23+00:00",
+  "fetched_at": "2026-09-30T06:17:23+00:00"
  }
 };
