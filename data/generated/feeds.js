@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T00:17:29+00:00",
-  "fetched_at": "2026-09-30T00:17:29+00:00"
+  "checked_at": "2026-09-30T01:17:19+00:00",
+  "fetched_at": "2026-09-30T01:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T00:17:40+00:00",
-  "fetched_at": "2026-09-30T00:17:40+00:00"
+  "checked_at": "2026-09-30T01:17:31+00:00",
+  "fetched_at": "2026-09-30T01:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-29T14:26:10+00:00"
    },
    {
-    "title_en": "Technics EAH-A1000",
-    "title_he": "טכניקות EAH-A1000",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
-    "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
     "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
     "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
     "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "Technics EAH-A1000",
+    "title_he": "טכניקות EAH-A1000",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
+    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T00:17:41+00:00",
-  "fetched_at": "2026-09-30T00:17:41+00:00"
+  "checked_at": "2026-09-30T01:17:32+00:00",
+  "fetched_at": "2026-09-30T01:17:32+00:00"
  },
- "generated_at": "2026-09-30T00:17:41+00:00",
+ "generated_at": "2026-09-30T01:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T00:17:30+00:00",
-  "fetched_at": "2026-09-30T00:17:30+00:00"
+  "checked_at": "2026-09-30T01:17:20+00:00",
+  "fetched_at": "2026-09-30T01:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T00:17:31+00:00",
-  "fetched_at": "2026-09-30T00:17:31+00:00"
+  "checked_at": "2026-09-30T01:17:21+00:00",
+  "fetched_at": "2026-09-30T01:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T00:17:32+00:00",
-  "fetched_at": "2026-09-30T00:17:32+00:00"
+  "checked_at": "2026-09-30T01:17:22+00:00",
+  "fetched_at": "2026-09-30T01:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2358,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T00:17:32+00:00",
-  "fetched_at": "2026-09-30T00:17:32+00:00"
+  "checked_at": "2026-09-30T01:17:22+00:00",
+  "fetched_at": "2026-09-30T01:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2382,7 +2382,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2395,7 +2397,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 120,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2423,7 +2425,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 183,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2457,8 +2459,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T00:17:39+00:00",
-  "fetched_at": "2026-09-30T00:17:39+00:00"
+  "checked_at": "2026-09-30T01:17:30+00:00",
+  "fetched_at": "2026-09-30T01:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2763,8 +2765,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T00:17:36+00:00",
-  "fetched_at": "2026-09-30T00:17:36+00:00"
+  "checked_at": "2026-09-30T01:17:26+00:00",
+  "fetched_at": "2026-09-30T01:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2795,7 +2797,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T00:17:36+00:00",
-  "fetched_at": "2026-09-30T00:17:36+00:00"
+  "checked_at": "2026-09-30T01:17:27+00:00",
+  "fetched_at": "2026-09-30T01:17:27+00:00"
  }
 };
