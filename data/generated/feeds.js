@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:15:03+00:00",
-  "fetched_at": "2026-09-30T14:15:03+00:00"
+  "checked_at": "2026-09-30T14:17:12+00:00",
+  "fetched_at": "2026-09-30T14:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:15:17+00:00",
-  "fetched_at": "2026-09-30T14:15:17+00:00"
+  "checked_at": "2026-09-30T14:17:25+00:00",
+  "fetched_at": "2026-09-30T14:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:15:18+00:00",
-  "fetched_at": "2026-09-30T14:15:18+00:00"
+  "checked_at": "2026-09-30T14:17:25+00:00",
+  "fetched_at": "2026-09-30T14:17:25+00:00"
  },
- "generated_at": "2026-09-30T14:15:18+00:00",
+ "generated_at": "2026-09-30T14:17:25+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:15:05+00:00",
-  "fetched_at": "2026-09-30T14:15:05+00:00"
+  "checked_at": "2026-09-30T14:17:12+00:00",
+  "fetched_at": "2026-09-30T14:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:15:05+00:00",
-  "fetched_at": "2026-09-30T14:15:05+00:00"
+  "checked_at": "2026-09-30T14:17:13+00:00",
+  "fetched_at": "2026-09-30T14:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2286,8 +2286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:15:07+00:00",
-  "fetched_at": "2026-09-30T14:15:07+00:00"
+  "checked_at": "2026-09-30T14:17:14+00:00",
+  "fetched_at": "2026-09-30T14:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2377,8 +2377,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:15:07+00:00",
-  "fetched_at": "2026-09-30T14:15:07+00:00"
+  "checked_at": "2026-09-30T14:17:14+00:00",
+  "fetched_at": "2026-09-30T14:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2394,13 +2394,13 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/ai-agents-in-action-meetup-21102026/",
-     "date": "2026-09-30T09:00:30+00:00",
+     "link": "https://www.geektime.co.il/openai-israel-moti-hadas-gtm-manager/",
+     "date": "2026-09-30T14:16:19+00:00",
      "launch": false,
-     "title": "מהאירוע הזה תצאו עם סוכן AI עובד שכבר מוטמע בחברה שלכם"
+     "title": "נחשף האיש שיעמוד בראש הפעילות הישראלית של OpenAI"
     }
    ],
-   "candidates": 11,
+   "candidates": 12,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2478,8 +2478,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:15:16+00:00",
-  "fetched_at": "2026-09-30T14:15:16+00:00"
+  "checked_at": "2026-09-30T14:17:24+00:00",
+  "fetched_at": "2026-09-30T14:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2775,8 +2775,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:15:11+00:00",
-  "fetched_at": "2026-09-30T14:15:11+00:00"
+  "checked_at": "2026-09-30T14:17:17+00:00",
+  "fetched_at": "2026-09-30T14:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -2807,7 +2807,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:15:11+00:00",
-  "fetched_at": "2026-09-30T14:15:11+00:00"
+  "checked_at": "2026-09-30T14:17:17+00:00",
+  "fetched_at": "2026-09-30T14:17:17+00:00"
  }
 };
