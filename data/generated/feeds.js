@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:17:12+00:00",
-  "fetched_at": "2026-09-30T14:17:12+00:00"
+  "checked_at": "2026-09-30T15:17:15+00:00",
+  "fetched_at": "2026-09-30T15:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:17:25+00:00",
-  "fetched_at": "2026-09-30T14:17:25+00:00"
+  "checked_at": "2026-09-30T15:17:27+00:00",
+  "fetched_at": "2026-09-30T15:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,34 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:17:25+00:00",
-  "fetched_at": "2026-09-30T14:17:25+00:00"
+  "checked_at": "2026-09-30T15:17:27+00:00",
+  "fetched_at": "2026-09-30T15:17:27+00:00"
  },
- "generated_at": "2026-09-30T14:17:25+00:00",
+ "generated_at": "2026-09-30T15:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המנכ\"ל שהשתלט על הטיסה: \"תקפו אותנו, אנחנו שומרים על הטייס\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557982",
-     "date": "2026-09-30T10:55:00+00:00"
+     "title": "מנכ\"ל ארקיע דורש לחזור לטוס לדובאי: \"מפסידים מיליון דולר בחודש\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558066",
+     "date": "2026-09-30T14:32:00+00:00"
     },
     {
-     "title": "חקירת טייס המשנה בסעודיה: מתחזק החשד לארוע לאומני",
+     "title": "אחרי ניסיון ההשתלטות על המטוס: הישראלים המריאו מסעודיה לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T13:50:00+00:00"
+     "date": "2026-09-30T14:49:00+00:00"
     }
    ],
    "market": [
     {
      "title": "עליות בוול סטריט בעקבות נתוני האינפלציה שהפתיעו לטובה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T13:37:00+00:00"
+     "date": "2026-09-30T14:50:00+00:00"
+    },
+    {
+     "title": "הישראלי שפורש מניהול חברת הענק אחרי 8 שנים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558045",
+     "date": "2026-09-30T14:11:00+00:00"
     },
     {
      "title": "\"תקרית\" ו\"ריב בין טייסים\": איך מסקרים בעולם את טיסת פליי דובאי",
@@ -212,17 +217,12 @@ window.DB.generated = {
      "title": "דיווח: בריטניה הרחיבה משמעותית את אמברגו הנשק על ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557825",
      "date": "2026-09-29T10:30:00+00:00"
-    },
-    {
-     "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
-     "date": "2026-09-29T02:51:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:17:12+00:00",
-  "fetched_at": "2026-09-30T14:17:12+00:00"
+  "checked_at": "2026-09-30T15:17:16+00:00",
+  "fetched_at": "2026-09-30T15:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:17:13+00:00",
-  "fetched_at": "2026-09-30T14:17:13+00:00"
+  "checked_at": "2026-09-30T15:17:17+00:00",
+  "fetched_at": "2026-09-30T15:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2286,8 +2286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:17:14+00:00",
-  "fetched_at": "2026-09-30T14:17:14+00:00"
+  "checked_at": "2026-09-30T15:17:19+00:00",
+  "fetched_at": "2026-09-30T15:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2377,12 +2377,21 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:17:14+00:00",
-  "fetched_at": "2026-09-30T14:17:14+00:00"
+  "checked_at": "2026-09-30T15:17:19+00:00",
+  "fetched_at": "2026-09-30T15:17:19+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+     "date": "2026-09-30T15:03:07+00:00",
+     "launch": true,
+     "title_en": "Introducing SynthID Bio",
+     "title_he": "הכירו את SynthID Bio",
+     "translated_by": "mymemory"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -2391,32 +2400,23 @@ window.DB.generated = {
      "title_en": "Introducing GPT-6.1 Sol",
      "title_he": "הכירו את GPT-6.1 Sol",
      "translated_by": "google"
-    },
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-israel-moti-hadas-gtm-manager/",
-     "date": "2026-09-30T14:16:19+00:00",
-     "launch": false,
-     "title": "נחשף האיש שיעמוד בראש הפעילות הישראלית של OpenAI"
     }
    ],
-   "candidates": 12,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 13,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 338,
+     "likes": 340,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 130,
+     "likes": 131,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2437,7 +2437,7 @@ window.DB.generated = {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 254,
+     "likes": 255,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2458,28 +2458,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 207,
+     "likes": 208,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 58,
+     "likes": 59,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:17:24+00:00",
-  "fetched_at": "2026-09-30T14:17:24+00:00"
+  "checked_at": "2026-09-30T15:17:27+00:00",
+  "fetched_at": "2026-09-30T15:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2491,15 +2491,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "תאי עבד"
-     ]
-    },
-    {
-     "title": "הקו המחודש של פורטלנד יהפוך את אבדיה לשלם יותר",
-     "link": "https://www.one.co.il/Article/534689.html?ref=rss",
-     "date": "2026-09-30T04:57:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
      ]
     },
     {
@@ -2775,8 +2766,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T14:17:17+00:00",
-  "fetched_at": "2026-09-30T14:17:17+00:00"
+  "checked_at": "2026-09-30T15:17:21+00:00",
+  "fetched_at": "2026-09-30T15:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -2807,7 +2798,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T14:17:17+00:00",
-  "fetched_at": "2026-09-30T14:17:17+00:00"
+  "checked_at": "2026-09-30T15:17:22+00:00",
+  "fetched_at": "2026-09-30T15:17:22+00:00"
  }
 };
