@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:30:30+00:00",
-  "fetched_at": "2026-09-30T07:30:30+00:00"
+  "checked_at": "2026-09-30T08:17:25+00:00",
+  "fetched_at": "2026-09-30T08:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:30:41+00:00",
-  "fetched_at": "2026-09-30T07:30:41+00:00"
+  "checked_at": "2026-09-30T08:17:41+00:00",
+  "fetched_at": "2026-09-30T08:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,44 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:30:41+00:00",
-  "fetched_at": "2026-09-30T07:30:41+00:00"
+  "checked_at": "2026-09-30T08:17:41+00:00",
+  "fetched_at": "2026-09-30T08:17:41+00:00"
  },
- "generated_at": "2026-09-30T07:30:41+00:00",
+ "generated_at": "2026-09-30T08:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המטוס נחת בסעודיה. הסיבה: קטטה בין הטייסים ולא חטיפה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T07:28:00+00:00"
+     "title": "\"אירוע פלילי\": מה העונש הצפוי לטייסים של פליי דובאי?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557968",
+     "date": "2026-09-30T07:42:00+00:00"
     },
     {
-     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
-     "date": "2026-09-30T06:00:00+00:00"
+     "title": "בעקבות העלאת הכוננות והמתיחות הביטחונית: הרמטכ\"ל ביטל את ביקורו המתוכנן בארה\"ב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
+     "date": "2026-09-30T08:15:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "עליות באירופה; החוזים בניו יורק מטפסים, תשואות האג\"ח נסוגות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
+     "date": "2026-09-30T07:51:00+00:00"
+    },
+    {
+     "title": "עליות קלות בתל אביב; המניה הביטחונית שמזנקת בכ-20%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T07:43:00+00:00"
+    },
+    {
+     "title": "תמורת 788 מיליון שקל: אקירוב רוצה למחוק את אלרוב מהמסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557965",
+     "date": "2026-09-30T07:22:00+00:00"
+    },
+    {
      "title": "\"אין מקום שני\": טראמפ מגייס את ענקיות ה-AI למאבק מול סין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557959",
      "date": "2026-09-30T07:18:00+00:00"
-    },
-    {
-     "title": "עליות קלות בפתיחה בתל אביב; המניה הביטחונית שמזנקת בכ-30%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T07:10:00+00:00"
     },
     {
      "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
@@ -117,11 +127,6 @@ window.DB.generated = {
      "title": "רק לפני חודש הם הזהירו מוול סטריט. עכשיו בג'יי.פי מורגן חוזרים להמר על השוק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557956",
      "date": "2026-09-30T04:47:00+00:00"
-    },
-    {
-     "title": "מצב השווקים: תפנית חדה בציפיות הריבית בארה\"ב, ושני הדגלים האדומים שהרימו במורגן סטנלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T04:02:00+00:00"
     },
     {
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
@@ -216,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:30:31+00:00",
-  "fetched_at": "2026-09-30T07:30:31+00:00"
+  "checked_at": "2026-09-30T08:17:27+00:00",
+  "fetched_at": "2026-09-30T08:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:30:32+00:00",
-  "fetched_at": "2026-09-30T07:30:32+00:00"
+  "checked_at": "2026-09-30T08:17:27+00:00",
+  "fetched_at": "2026-09-30T08:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2280,8 +2285,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-30T07:30:33+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-09-30T08:17:33+00:00",
   "fetched_at": "2026-09-30T07:30:33+00:00"
  },
  "ligat_haal": {
@@ -2372,8 +2378,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:30:33+00:00",
-  "fetched_at": "2026-09-30T07:30:33+00:00"
+  "checked_at": "2026-09-30T08:17:33+00:00",
+  "fetched_at": "2026-09-30T08:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2396,9 +2402,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 10,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2418,15 +2422,8 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 209,
+     "likes": 211,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "Laya Demo",
-     "desc_en": "Fast System 1 decisions with calibrated probabilities",
-     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 250,
-     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2434,6 +2431,13 @@ window.DB.generated = {
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
      "likes": 602,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+    },
+    {
+     "title": "Laya Demo",
+     "desc_en": "Fast System 1 decisions with calibrated probabilities",
+     "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
+     "likes": 250,
+     "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2453,7 +2457,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 199,
+     "likes": 201,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2473,8 +2477,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:30:40+00:00",
-  "fetched_at": "2026-09-30T07:30:40+00:00"
+  "checked_at": "2026-09-30T08:17:39+00:00",
+  "fetched_at": "2026-09-30T08:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2770,8 +2774,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:30:36+00:00",
-  "fetched_at": "2026-09-30T07:30:36+00:00"
+  "checked_at": "2026-09-30T08:17:36+00:00",
+  "fetched_at": "2026-09-30T08:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -2802,7 +2806,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:30:37+00:00",
-  "fetched_at": "2026-09-30T07:30:37+00:00"
+  "checked_at": "2026-09-30T08:17:36+00:00",
+  "fetched_at": "2026-09-30T08:17:36+00:00"
  }
 };
