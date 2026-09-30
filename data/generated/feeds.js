@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-09-29",
+   "as_of": "2026-09-30",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T02:17:29+00:00",
-  "fetched_at": "2026-09-30T02:17:29+00:00"
+  "checked_at": "2026-09-30T03:17:57+00:00",
+  "fetched_at": "2026-09-30T03:17:57+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T02:17:39+00:00",
-  "fetched_at": "2026-09-30T02:17:39+00:00"
+  "checked_at": "2026-09-30T03:18:37+00:00",
+  "fetched_at": "2026-09-30T03:18:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T02:17:39+00:00",
-  "fetched_at": "2026-09-30T02:17:39+00:00"
+  "checked_at": "2026-09-30T03:18:37+00:00",
+  "fetched_at": "2026-09-30T03:18:37+00:00"
  },
- "generated_at": "2026-09-30T02:17:39+00:00",
+ "generated_at": "2026-09-30T03:18:37+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "18 מנדטים על הכוונת: המיזמים ששואפים לשנע מאות אלפי ישראלים מחו\"ל לקלפי. עד כמה זה ריאלי?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557675",
-     "date": "2026-09-29T18:30:00+00:00"
+     "title": "מתחם הבורסה ברמת גן צומח מהר. מי ימלא אותו?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557142",
+     "date": "2026-09-30T02:42:00+00:00"
     },
     {
      "title": "חזית דרמטית נגד אבו מאזן: חמאס והג'יהאד האיסלאמי סיכמו על ברית עם מוחמד דחלאן",
@@ -99,9 +99,29 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ירידות קלות בוול סטריט; תשואת האג\"ח ל-30 שנה עולה לשיא חדש",
+     "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
+     "date": "2026-09-30T03:16:00+00:00"
+    },
+    {
+     "title": "כך ה-AI משפיע על מחיר הביג מק: שיטת התמחור של מקדונלד'ס נחשפת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557950",
+     "date": "2026-09-30T02:56:00+00:00"
+    },
+    {
+     "title": "הקהילה הסגורה שבה לארי אליסון קנה שמונה בתים לעובדיו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557823",
+     "date": "2026-09-30T02:52:00+00:00"
+    },
+    {
+     "title": "מגדל והפניקס מובילות את ההשקעות הפרטיות בישראל, אבל הקצב הואט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557907",
+     "date": "2026-09-30T02:49:00+00:00"
+    },
+    {
+     "title": "וול סטריט ננעלה בירידות קלות בלבד, בעקבות הצהרה של בכיר בפד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557799",
-     "date": "2026-09-29T19:03:00+00:00"
+     "date": "2026-09-29T20:14:00+00:00"
     },
     {
      "title": "התשואה ל-30 שנה חזרה שני עשורים לאחור. למה זה מסוכן?",
@@ -184,11 +204,6 @@ window.DB.generated = {
      "date": "2026-09-28T17:39:00+00:00"
     },
     {
-     "title": "משרד האוצר נגד עסקת צים: \"סיכונים מהותיים\" וחשש ממעורבות קטאר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557796",
-     "date": "2026-09-28T16:46:00+00:00"
-    },
-    {
      "title": "שישה מומחי השקעות מנתחים את הזינוק בתשואות האג\"ח ואיך כדאי לפעול בעקבותיו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557732",
      "date": "2026-09-28T16:00:00+00:00"
@@ -199,25 +214,15 @@ window.DB.generated = {
      "date": "2026-09-28T14:50:00+00:00"
     },
     {
-     "title": "אנבידיה יוצאת למהלך היסטורי של 150 מיליארד דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557733",
-     "date": "2026-09-28T12:13:00+00:00"
-    },
-    {
      "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
      "date": "2026-09-28T11:26:00+00:00"
-    },
-    {
-     "title": "\"משהו תמיד נשבר בסוף\" - האזהרה משוק האג\"ח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557710",
-     "date": "2026-09-28T10:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T02:17:30+00:00",
-  "fetched_at": "2026-09-30T02:17:30+00:00"
+  "checked_at": "2026-09-30T03:17:58+00:00",
+  "fetched_at": "2026-09-30T03:17:58+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T02:17:31+00:00",
-  "fetched_at": "2026-09-30T02:17:31+00:00"
+  "checked_at": "2026-09-30T03:17:59+00:00",
+  "fetched_at": "2026-09-30T03:17:59+00:00"
  },
  "tv": {
   "data": [
@@ -2266,8 +2271,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-30T02:17:32+00:00",
+  "ok": false,
+  "error": "The read operation timed out",
+  "checked_at": "2026-09-30T03:18:29+00:00",
   "fetched_at": "2026-09-30T02:17:32+00:00"
  },
  "ligat_haal": {
@@ -2358,8 +2364,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T02:17:32+00:00",
-  "fetched_at": "2026-09-30T02:17:32+00:00"
+  "checked_at": "2026-09-30T03:18:29+00:00",
+  "fetched_at": "2026-09-30T03:18:29+00:00"
  },
  "ai": {
   "data": {
@@ -2388,7 +2394,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 326,
+     "likes": 329,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2399,24 +2405,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 599,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 246,
+     "likes": 248,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 600,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 207,
+     "likes": 208,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2437,7 +2443,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 188,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2457,8 +2463,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T02:17:38+00:00",
-  "fetched_at": "2026-09-30T02:17:38+00:00"
+  "checked_at": "2026-09-30T03:18:36+00:00",
+  "fetched_at": "2026-09-30T03:18:36+00:00"
  },
  "abroad": {
   "data": {
@@ -2763,8 +2769,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T02:17:34+00:00",
-  "fetched_at": "2026-09-30T02:17:34+00:00"
+  "checked_at": "2026-09-30T03:18:32+00:00",
+  "fetched_at": "2026-09-30T03:18:32+00:00"
  },
  "idf": {
   "data": [
@@ -2795,7 +2801,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T02:17:35+00:00",
-  "fetched_at": "2026-09-30T02:17:35+00:00"
+  "checked_at": "2026-09-30T03:18:33+00:00",
+  "fetched_at": "2026-09-30T03:18:33+00:00"
  }
 };
