@@ -1,0 +1,319 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4d2a4c944ff0",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-09-30T05:54:14+00:00",
+  "window": {
+   "from": "2026-09-29T05:54:14+00:00",
+   "to": "2026-09-30T05:54:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202609300554"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה, בדגש על תקיפות אוויריות רוסיות רחבות היקף באמצעות טילים וכטב\"מים על ערי אוקראינה ובפרט קייב, לצד פעילות הפגזה ותקיפות אוויריות במחוזות נוספים. אוקראינה ממשיכה לקבל סיוע אווירי והגנתי מבעלי בריתה ומנסה לקיים את כלכלתה תחת נטל הלחימה, בע время שרוסיה מגבירה את הוצאות הביטחון שלה וממשיכה בפעולות צבאיות, כולל מעצרים פנימיים ופעולות חבלה מחוץ לגבולותיה.",
+  "fronts": [
+   {
+    "name": "חזית האוויר והעורף האוקראיני",
+    "status": "פעילה מאוד ונתונה להתקפות בלתי פוסקות של טילים וכטב\"מים רוסיים"
+   },
+   {
+    "name": "החזית המזרחית והדרומית באוקראינה",
+    "status": "לחימה קרקעית, תקיפות פצצות דואה ופעילות לוגיסטית"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-09300554-01",
+    "title": "תקיפה אווירית נרחבת של רוסיה על קייב והסביבה",
+    "summary": "כוחות רוסיה תקפו את קייב ומחוז קייב באמצעות טילים בליסטיים, טילי נגד ספינות וכטב\"מים, מה שהוביל להרוגים, פצועים והרס בתשתיות ובבניינים.",
+    "axis": "חזית האוויר ואזורי העורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T00:28:46+00:00",
+    "last_update_at": "2026-09-30T05:12:00+00:00",
+    "what_is_not_verified": "מספר הכלים המדויק שנפגע ומלוא היקף נזקי התשתיות עדיין מתבררים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_51d642b9a7b3cc05",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055705/",
+      "published_at": "2026-09-30T05:12:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_40c615b5ba2ec61c",
+      "url": "https://www.ukrinform.net/rubric-ato/4169420-kyiv-region-hit-by-combined-attack-fires-and-damage-reported-child-killed.html",
+      "published_at": "2026-09-30T04:57:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8d5f20c76be2794a",
+      "url": "https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html",
+      "published_at": "2026-09-30T04:38:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_8c8a1f54d8ed1ded",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055701/",
+      "published_at": "2026-09-30T04:27:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_9c469eb32666029e",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055698/",
+      "published_at": "2026-09-30T02:04:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_51d642b9a7b3cc05",
+      "url": "https://t.me/alexmehacarmel/48105",
+      "published_at": "2026-09-30T00:36:20+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_11df132ff8084da3",
+      "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-disrupt-electricity-as-multi-day-russian-attacks-on-capital-continue/",
+      "published_at": "2026-09-30T00:28:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "וישגורוד, אוקראינה",
+      "lat": 50.5824,
+      "lon": 30.4851
+     },
+     {
+      "name": "בוצ'ה, אוקראינה",
+      "lat": 50.5503,
+      "lon": 30.2107
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09300554-02",
+    "title": "תקיפת פצצות דואה (FAB) בסומי ובפרוסיאנאיה",
+    "summary": "תקיפות באמצעות פצצות מרחפות ופצצות FAB פגעו באזורים אזרחיים ומטרות צבאיות במחוז סומי ובמחוז דניפרופטרובסק.",
+    "axis": "החזית המזרחית והצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T17:14:48+00:00",
+    "last_update_at": "2026-09-30T03:20:01+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בבסיסי הצבא אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f337caa23510864a",
+      "url": "https://tass.com/politics/2194807",
+      "published_at": "2026-09-30T03:20:01+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_f337caa23510864a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055693/",
+      "published_at": "2026-09-29T22:52:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_6b2871ca821b49b1",
+      "url": "https://kyivindependent.com/3-children-injured-as-russia-strikes-sumy-school-with-glide-bombs/",
+      "published_at": "2026-09-29T17:14:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי, אוקראינה",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09300554-03",
+    "title": "התרסקות מפציץ אסטרטגי רוסי סובייטי במזרח הרחוק של רוסיה",
+    "summary": "מפציץ אסטרטגי מסוג טו-95 התרסק באזור אמור ברוסיה, וכתוצאה מכך נהרגו שישה אנשי צוות.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T17:19:02+00:00",
+    "last_update_at": "2026-09-29T17:19:02+00:00",
+    "what_is_not_verified": "סיבת ההתרסקות המדויקת, המיוחסת לפיצוץ דלק ראשוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_9e0c834795bff20e",
+      "url": "https://meduza.io/en/news/2026/09/29/russian-tu-95-strategic-bomber-crashes-in-country-s-far-east-killing-six",
+      "published_at": "2026-09-29T17:19:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז אמור, רוסיה",
+      "lat": 50.6738,
+      "lon": 137.5957
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-09300554-04",
+    "title": "הפללת רוסיה במעשה חבלה באסטוניה",
+    "summary": "רשויות אסטוניה האשימו את שירותי הביטחון הרוסיים בביצוע התקפת הצתה נגד חברה לייצור רחפנים באסטוניה המספקת ציוד לאוקראינה.",
+    "axis": "הזירה הבין-לאומית והאירופית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T14:20:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-29T14:20:39+00:00",
+    "last_update_at": "2026-09-29T19:36:41+00:00",
+    "what_is_not_verified": "הכחשת המעורבות מצד הקרמלין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_b51255af0b26336c",
+      "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-29T19:36:41+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_7950173794c4777d",
+      "url": "https://www.theguardian.com/world/live/2026/sep/29/ukraine-russia-war-odesa-overnight-lithuania-mark-rutte-europe-latest-news-updates",
+      "published_at": "2026-09-29T15:03:15+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_9525ea0036c20e4d",
+      "url": "https://www.theguardian.com/world/2026/sep/29/estonia-blames-russia-arson-attack-drone-maker-ukraine",
+      "published_at": "2026-09-29T14:20:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאלין, אסטוניה",
+      "lat": 59.4372,
+      "lon": 24.7573
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על קשר אפשרי בין המטוס שהתרסק לבין שדה תעופה אוקראיני סמוך",
+   "דיווחים על שימוש ברשתות תקשורת וממסרים של דרונים דרך גבול בלארוס",
+   "ההערכות המדויקות לגבי היקף הנזק המדויק לכל אתרי התשתיות שהותקפו"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1355,
+    "unit": "USD",
+    "change_pct": -0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-29T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "חסימת כל ניסיון להקל סנקציות על רוסיה טרם סיום המלחמה",
+     "דרישה להשבת ילדים אוקראינים שנלקחו לרוסיה"
+    ],
+    "inferred": [
+     "שחיקת התקיפות האוויריות באמצעות מערכות הגנה אווירית מתקדמות",
+     "המשך גיוס תמיכה כלכלית וצבאית בינלאומית"
+    ],
+    "forecast": [
+     "המשך מאמצי ייצוב הכלכלה לצד מתן מענה למחסור במערכות הגנה",
+     "העמקת שיתופי הפעולה עם בנות בריתה באירופה ובארצות הברית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשכת 'המבצע הצבאי המיוחד' עד השגת היעדים",
+     "הגדלת התקציב הצבאי לשנת 2027 כביטוי להמשך הלחימה"
+    ],
+    "inferred": [
+     "ניסיון להרוס את התשתיות הכלכליות והאנרגטיות של אוקראינה כדי למוטט את עורפה",
+     "הפעלת לחץ צבאי ותשתיות חבלה גם מחוץ לגבולות אוקראינה"
+    ],
+    "forecast": [
+     "המשך מתקפות הטילים והכטב\"מים להשגת התשה של מערך ההגנה האוקראיני",
+     "הדגשת היד הקשה מול מתנגדי משטר מבית ומחוץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/sep/29/estonia-blames-russia-arson-attack-drone-maker-ukraine",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/3-children-injured-as-russia-strikes-sumy-school-with-glide-bombs/",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/09/29/russian-tu-95-strategic-bomber-crashes-in-country-s-far-east-killing-six",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055693/",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2194807",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48105",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html",
+    "accessed_at": "2026-09-30T05:54:14+00:00"
+   }
+  ]
+ }
+}
