@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:17:19+00:00",
-  "fetched_at": "2026-09-30T07:17:19+00:00"
+  "checked_at": "2026-09-30T07:30:30+00:00",
+  "fetched_at": "2026-09-30T07:30:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:17:29+00:00",
-  "fetched_at": "2026-09-30T07:17:29+00:00"
+  "checked_at": "2026-09-30T07:30:41+00:00",
+  "fetched_at": "2026-09-30T07:30:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:17:29+00:00",
-  "fetched_at": "2026-09-30T07:17:29+00:00"
+  "checked_at": "2026-09-30T07:30:41+00:00",
+  "fetched_at": "2026-09-30T07:30:41+00:00"
  },
- "generated_at": "2026-09-30T07:17:29+00:00",
+ "generated_at": "2026-09-30T07:30:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "המטוס נחת בסעודיה. הסיבה: קטטה בין הטייסים ולא חטיפה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T07:03:00+00:00"
+     "date": "2026-09-30T07:28:00+00:00"
     },
     {
      "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "\"אין מקום שני\": טראמפ מגייס את ענקיות ה-AI למאבק מול סין",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557959",
+     "date": "2026-09-30T07:18:00+00:00"
+    },
     {
      "title": "עליות קלות בפתיחה בתל אביב; המניה הביטחונית שמזנקת בכ-30%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
@@ -207,17 +212,12 @@ window.DB.generated = {
      "title": "האם אחרי שנים של אכזבות, מניית הטכנולוגיה הישראלית משנה כיוון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557790",
      "date": "2026-09-29T02:51:00+00:00"
-    },
-    {
-     "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
-     "date": "2026-09-28T18:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:17:20+00:00",
-  "fetched_at": "2026-09-30T07:17:20+00:00"
+  "checked_at": "2026-09-30T07:30:31+00:00",
+  "fetched_at": "2026-09-30T07:30:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:17:20+00:00",
-  "fetched_at": "2026-09-30T07:17:20+00:00"
+  "checked_at": "2026-09-30T07:30:32+00:00",
+  "fetched_at": "2026-09-30T07:30:32+00:00"
  },
  "tv": {
   "data": [
@@ -2281,8 +2281,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:17:22+00:00",
-  "fetched_at": "2026-09-30T07:17:22+00:00"
+  "checked_at": "2026-09-30T07:30:33+00:00",
+  "fetched_at": "2026-09-30T07:30:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2372,8 +2372,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:17:22+00:00",
-  "fetched_at": "2026-09-30T07:17:22+00:00"
+  "checked_at": "2026-09-30T07:30:33+00:00",
+  "fetched_at": "2026-09-30T07:30:33+00:00"
  },
  "ai": {
   "data": {
@@ -2389,14 +2389,16 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
-     "date": "2026-09-29T17:47:37+00:00",
+     "link": "https://www.geektime.co.il/openai-devday-sol-codex-chatgpt-space/",
+     "date": "2026-09-30T07:18:37+00:00",
      "launch": false,
-     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
+     "title": "ממודל Sol החדש ועד קודקס: אלו ההכרזות החשובות של OpenAI"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [],
+   "candidates": 10,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2413,6 +2415,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 209,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
@@ -2420,17 +2429,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 208,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 601,
+     "likes": 602,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2451,7 +2453,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 196,
+     "likes": 199,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2471,8 +2473,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:17:28+00:00",
-  "fetched_at": "2026-09-30T07:17:28+00:00"
+  "checked_at": "2026-09-30T07:30:40+00:00",
+  "fetched_at": "2026-09-30T07:30:40+00:00"
  },
  "abroad": {
   "data": {
@@ -2538,15 +2540,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אנטיפה נגד מנור סולומון: \"תומך בגלוי ברצח העם בעזה\"",
-     "link": "https://sports.walla.co.il/item/3870110",
-     "date": "2026-09-28T12:56:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2777,8 +2770,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T07:17:24+00:00",
-  "fetched_at": "2026-09-30T07:17:24+00:00"
+  "checked_at": "2026-09-30T07:30:36+00:00",
+  "fetched_at": "2026-09-30T07:30:36+00:00"
  },
  "idf": {
   "data": [
@@ -2809,7 +2802,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T07:17:25+00:00",
-  "fetched_at": "2026-09-30T07:17:25+00:00"
+  "checked_at": "2026-09-30T07:30:37+00:00",
+  "fetched_at": "2026-09-30T07:30:37+00:00"
  }
 };
