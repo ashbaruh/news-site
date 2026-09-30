@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:17:19+00:00",
-  "fetched_at": "2026-09-30T01:17:19+00:00"
+  "checked_at": "2026-09-30T01:37:36+00:00",
+  "fetched_at": "2026-09-30T01:37:36+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:17:31+00:00",
-  "fetched_at": "2026-09-30T01:17:31+00:00"
+  "checked_at": "2026-09-30T01:37:43+00:00",
+  "fetched_at": "2026-09-30T01:37:43+00:00"
  },
  "av_en": {
   "data": [
@@ -64,25 +64,25 @@ window.DB.generated = {
     "date": "2026-09-29T14:26:10+00:00"
    },
    {
-    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
-    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
-    "date": "2026-09-29T14:00:00+00:00"
-   },
-   {
     "title_en": "Technics EAH-A1000",
     "title_he": "טכניקות EAH-A1000",
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-eah-a1000",
     "date": "2026-09-29T14:00:00+00:00"
+   },
+   {
+    "title_en": "Technics' new flagship wireless headphones feature acoustic tech from its speakers and Award-winning earbuds",
+    "title_he": "אוזניות הדגל האלחוטיות החדשות של Technics כוללות טכנולוגיה אקוסטית מהרמקולים שלה ואוזניות עטורות פרסים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/technics-new-flagship-wireless-headphones-feature-acoustic-tech-from-its-speakers-and-award-winning-earbuds",
+    "date": "2026-09-29T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:17:32+00:00",
-  "fetched_at": "2026-09-30T01:17:32+00:00"
+  "checked_at": "2026-09-30T01:37:43+00:00",
+  "fetched_at": "2026-09-30T01:37:43+00:00"
  },
- "generated_at": "2026-09-30T01:17:32+00:00",
+ "generated_at": "2026-09-30T01:37:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:17:20+00:00",
-  "fetched_at": "2026-09-30T01:17:20+00:00"
+  "checked_at": "2026-09-30T01:37:37+00:00",
+  "fetched_at": "2026-09-30T01:37:37+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:17:21+00:00",
-  "fetched_at": "2026-09-30T01:17:21+00:00"
+  "checked_at": "2026-09-30T01:37:38+00:00",
+  "fetched_at": "2026-09-30T01:37:38+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:17:22+00:00",
-  "fetched_at": "2026-09-30T01:17:22+00:00"
+  "checked_at": "2026-09-30T01:37:39+00:00",
+  "fetched_at": "2026-09-30T01:37:39+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2358,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:17:22+00:00",
-  "fetched_at": "2026-09-30T01:17:22+00:00"
+  "checked_at": "2026-09-30T01:37:39+00:00",
+  "fetched_at": "2026-09-30T01:37:39+00:00"
  },
  "ai": {
   "data": {
@@ -2374,16 +2374,18 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
-     "date": "2026-09-29T17:47:37+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+     "date": "2026-09-28T19:00:00+00:00",
      "launch": false,
-     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
+     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
+     "translated_by": "google"
     }
    ],
-   "candidates": 11,
+   "candidates": 7,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2459,8 +2461,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:17:30+00:00",
-  "fetched_at": "2026-09-30T01:17:30+00:00"
+  "checked_at": "2026-09-30T01:37:43+00:00",
+  "fetched_at": "2026-09-30T01:37:43+00:00"
  },
  "abroad": {
   "data": {
@@ -2765,8 +2767,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:17:26+00:00",
-  "fetched_at": "2026-09-30T01:17:26+00:00"
+  "checked_at": "2026-09-30T01:37:42+00:00",
+  "fetched_at": "2026-09-30T01:37:42+00:00"
  },
  "idf": {
   "data": [
@@ -2797,7 +2799,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:17:27+00:00",
-  "fetched_at": "2026-09-30T01:17:27+00:00"
+  "checked_at": "2026-09-30T01:37:42+00:00",
+  "fetched_at": "2026-09-30T01:37:42+00:00"
  }
 };
