@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T04:17:25+00:00",
-  "fetched_at": "2026-09-30T04:17:25+00:00"
+  "checked_at": "2026-09-30T05:17:31+00:00",
+  "fetched_at": "2026-09-30T05:17:31+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T04:17:35+00:00",
-  "fetched_at": "2026-09-30T04:17:35+00:00"
+  "checked_at": "2026-09-30T05:17:44+00:00",
+  "fetched_at": "2026-09-30T05:17:44+00:00"
  },
  "av_en": {
   "data": [
@@ -77,32 +77,37 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T04:17:35+00:00",
-  "fetched_at": "2026-09-30T04:17:35+00:00"
+  "checked_at": "2026-09-30T05:17:44+00:00",
+  "fetched_at": "2026-09-30T05:17:44+00:00"
  },
- "generated_at": "2026-09-30T04:17:35+00:00",
+ "generated_at": "2026-09-30T05:17:44+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מתחם הבורסה ברמת גן צומח מהר. מי ימלא אותו?",
+     "title": "רמת גן מציגה: עוד עשרה מגדלים של עד 100 קומות באחד המתחמים הוותיקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557142",
      "date": "2026-09-30T02:42:00+00:00"
     },
     {
      "title": "לפיד בתום העדכון עם נתניהו: \"אין סיבה להכניס לפאניקה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T03:37:00+00:00"
+     "date": "2026-09-30T04:23:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "רק לפני חודש הם הזהירו מוול סטריט. עכשיו בג'יי.פי מורגן חוזרים להמר על השוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557956",
+     "date": "2026-09-30T04:47:00+00:00"
+    },
     {
      "title": "מצב השווקים: תפנית חדה בציפיות הריבית בארה\"ב, ושני הדגלים האדומים שהרימו במורגן סטנלי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
      "date": "2026-09-30T04:02:00+00:00"
     },
     {
-     "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
+     "title": "בריטניה מאיימת לקחת את החרם על סחורות מההתנחלויות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
     },
@@ -200,22 +205,12 @@
      "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
      "date": "2026-09-28T18:00:00+00:00"
-    },
-    {
-     "title": "שישה מומחי השקעות מנתחים את הזינוק בתשואות האג\"ח ואיך כדאי לפעול בעקבותיו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557732",
-     "date": "2026-09-28T16:00:00+00:00"
-    },
-    {
-     "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557701",
-     "date": "2026-09-28T11:26:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T04:17:26+00:00",
-  "fetched_at": "2026-09-30T04:17:26+00:00"
+  "checked_at": "2026-09-30T05:17:32+00:00",
+  "fetched_at": "2026-09-30T05:17:32+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1854,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T04:17:27+00:00",
-  "fetched_at": "2026-09-30T04:17:27+00:00"
+  "checked_at": "2026-09-30T05:17:33+00:00",
+  "fetched_at": "2026-09-30T05:17:33+00:00"
  },
  "tv": {
   "data": [
@@ -2265,8 +2260,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T04:17:28+00:00",
-  "fetched_at": "2026-09-30T04:17:28+00:00"
+  "checked_at": "2026-09-30T05:17:35+00:00",
+  "fetched_at": "2026-09-30T05:17:35+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2356,8 +2351,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T04:17:28+00:00",
-  "fetched_at": "2026-09-30T04:17:28+00:00"
+  "checked_at": "2026-09-30T05:17:35+00:00",
+  "fetched_at": "2026-09-30T05:17:35+00:00"
  },
  "ai": {
   "data": {
@@ -2372,18 +2367,16 @@
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-     "date": "2026-09-28T19:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
+     "date": "2026-09-29T17:47:37+00:00",
      "launch": false,
-     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
-     "translated_by": "google"
+     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
     }
    ],
-   "candidates": 7,
+   "candidates": 11,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2397,7 +2390,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 124,
+     "likes": 125,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2408,18 +2401,18 @@
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 599,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 208,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 600,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2459,12 +2452,39 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T04:17:33+00:00",
-  "fetched_at": "2026-09-30T04:17:33+00:00"
+  "checked_at": "2026-09-30T05:17:43+00:00",
+  "fetched_at": "2026-09-30T05:17:43+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "הקו המחודש של פורטלנד יהפוך את אבדיה לשלם יותר",
+     "link": "https://www.one.co.il/Article/534689.html?ref=rss",
+     "date": "2026-09-30T04:57:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "בן שמעון מתלבט לקראת קוסובו, בריבו ופרץ צפויים לפתוח",
+     "link": "https://sports.walla.co.il/item/3870300",
+     "date": "2026-09-30T04:38:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "תאי בריבו"
+     ]
+    },
+    {
+     "title": "בארה\"ב מסמנים: זו צריכה להיות קפיצת המדרגה הבאה של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3870279",
+     "date": "2026-09-30T04:27:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "דניאל פרץ מול האירים: החשש החדש בסאות'המפטון",
      "link": "https://sports.walla.co.il/item/3870203",
@@ -2511,15 +2531,6 @@
      ]
     },
     {
-     "title": "חסרונו הורגש: \"הגיע הזמן להגיד למה דיא סבע לא בנבחרת ישראל\"",
-     "link": "https://sports.walla.co.il/item/3870064",
-     "date": "2026-09-28T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דיא סבע"
-     ]
-    },
-    {
      "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
      "link": "https://sports.walla.co.il/item/3869886",
      "date": "2026-09-27T05:15:00+00:00",
@@ -2550,15 +2561,6 @@
      "title": "\"חדשות רעות מאוד לדני אבדיה\". המהלך שפגע באולסטאר הישראלי",
      "link": "https://sports.walla.co.il/item/3869446",
      "date": "2026-09-23T05:23:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "פחות כדורים, פחות לחץ? האתגר החדש של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3869427",
-     "date": "2026-09-23T05:10:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2765,8 +2767,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T04:17:31+00:00",
-  "fetched_at": "2026-09-30T04:17:31+00:00"
+  "checked_at": "2026-09-30T05:17:38+00:00",
+  "fetched_at": "2026-09-30T05:17:38+00:00"
  },
  "idf": {
   "data": [
@@ -2797,7 +2799,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T04:17:32+00:00",
-  "fetched_at": "2026-09-30T04:17:32+00:00"
+  "checked_at": "2026-09-30T05:17:39+00:00",
+  "fetched_at": "2026-09-30T05:17:39+00:00"
  }
 }
