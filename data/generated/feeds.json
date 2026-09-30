@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T17:17:16+00:00",
-  "fetched_at": "2026-09-30T17:17:16+00:00"
+  "checked_at": "2026-09-30T18:18:57+00:00",
+  "fetched_at": "2026-09-30T18:18:57+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T17:17:28+00:00",
-  "fetched_at": "2026-09-30T17:17:28+00:00"
+  "checked_at": "2026-09-30T18:19:10+00:00",
+  "fetched_at": "2026-09-30T18:19:10+00:00"
  },
  "av_en": {
   "data": [
@@ -77,22 +77,22 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T17:17:28+00:00",
-  "fetched_at": "2026-09-30T17:17:28+00:00"
+  "checked_at": "2026-09-30T18:19:11+00:00",
+  "fetched_at": "2026-09-30T18:19:11+00:00"
  },
- "generated_at": "2026-09-30T17:17:28+00:00",
+ "generated_at": "2026-09-30T18:19:11+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
-     "date": "2026-09-30T16:00:00+00:00"
+     "title": "גיבור היום: זה הטייס שנדקר ונאבק כדי להציל את טיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558092",
+     "date": "2026-09-30T17:10:00+00:00"
     },
     {
      "title": "הנוסעים של פליי דובאי נחתו בישראל; נתניהו שוחח עם בן זאיד בעניין אבטחת המטוסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T17:15:00+00:00"
+     "date": "2026-09-30T18:04:00+00:00"
     }
    ],
    "market": [
@@ -102,12 +102,17 @@
      "date": "2026-09-30T17:13:00+00:00"
     },
     {
+     "title": "גיבור היום: זה הטייס שנדקר ונאבק כדי להציל את טיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558092",
+     "date": "2026-09-30T17:10:00+00:00"
+    },
+    {
      "title": "הישראלי שפורש מניהול ענקית הצעצועים ועשוי להצטרף לפרמאונט–וורנר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558045",
      "date": "2026-09-30T16:10:00+00:00"
     },
     {
-     "title": "העסקי התערבב עם הפוליטי: הרוכשים בעסקת צים לא מתכוונים לוותר",
+     "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
      "date": "2026-09-30T16:00:00+00:00"
     },
@@ -207,11 +212,6 @@
      "date": "2026-09-29T14:47:00+00:00"
     },
     {
-     "title": "חברת הספנות שפיצחה את השיטה ושטה בהורמוז מתחת לאף האיראני",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557762",
-     "date": "2026-09-29T12:01:00+00:00"
-    },
-    {
      "title": "נעילה חיובית בת\"א; פאלו אלטו ואלקטרה נדל\"ן זינקו, אלביט ירדה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557786",
      "date": "2026-09-29T11:29:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T17:17:17+00:00",
-  "fetched_at": "2026-09-30T17:17:17+00:00"
+  "checked_at": "2026-09-30T18:18:58+00:00",
+  "fetched_at": "2026-09-30T18:18:58+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T17:17:18+00:00",
-  "fetched_at": "2026-09-30T17:17:18+00:00"
+  "checked_at": "2026-09-30T18:18:59+00:00",
+  "fetched_at": "2026-09-30T18:18:59+00:00"
  },
  "tv": {
   "data": [
@@ -2289,8 +2289,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T17:17:19+00:00",
-  "fetched_at": "2026-09-30T17:17:19+00:00"
+  "checked_at": "2026-09-30T18:19:01+00:00",
+  "fetched_at": "2026-09-30T18:19:01+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2380,8 +2380,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T17:17:19+00:00",
-  "fetched_at": "2026-09-30T17:17:19+00:00"
+  "checked_at": "2026-09-30T18:19:01+00:00",
+  "fetched_at": "2026-09-30T18:19:01+00:00"
  },
  "ai": {
   "data": {
@@ -2433,7 +2433,7 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 212,
+     "likes": 213,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2447,7 +2447,7 @@
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 190,
+     "likes": 191,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2461,32 +2461,42 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 209,
+     "likes": 210,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 60,
+     "likes": 61,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
-     "title": "Omni Video Factory",
-     "desc_en": "text to video, image to video, video extend",
-     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 111,
-     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+     "title": "KV Image to Clip",
+     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
+     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
+     "likes": 68,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T17:17:27+00:00",
-  "fetched_at": "2026-09-30T17:17:27+00:00"
+  "checked_at": "2026-09-30T18:19:10+00:00",
+  "fetched_at": "2026-09-30T18:19:10+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "עבדה מגן, גלזר יפתח בשער; רביבו נטש את האימון",
+     "link": "https://www.one.co.il/Article/534739.html?ref=rss",
+     "date": "2026-09-30T17:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו",
+      "ליאל עבדה"
+     ]
+    },
     {
      "title": "עבד: הבטחתי שאהיה ביורו, בכיתי כשלא הייתי בסגל",
      "link": "https://www.one.co.il/Article/534699.html?ref=rss",
@@ -2760,8 +2770,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T17:17:22+00:00",
-  "fetched_at": "2026-09-30T17:17:22+00:00"
+  "checked_at": "2026-09-30T18:19:05+00:00",
+  "fetched_at": "2026-09-30T18:19:05+00:00"
  },
  "idf": {
   "data": [
@@ -2792,7 +2802,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T17:17:22+00:00",
-  "fetched_at": "2026-09-30T17:17:22+00:00"
+  "checked_at": "2026-09-30T18:19:05+00:00",
+  "fetched_at": "2026-09-30T18:19:05+00:00"
  }
 }
