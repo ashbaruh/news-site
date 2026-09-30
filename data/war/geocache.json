@@ -170,6 +170,7 @@
 50.8467,
 4.3525
 ],
+"bryansk region, russia": null,
 "bucha district, ukraine": [
 50.5449,
 29.8987
@@ -378,6 +379,7 @@
 46.2572,
 33.2844
 ],
+"kaliningrad oblast, russia": null,
 "kaliningrad, russia": [
 54.7046,
 20.4566
@@ -541,6 +543,10 @@
 "markaba, lebanon": [
 33.2314,
 35.5177
+],
+"mashhad, iran": [
+36.2975,
+59.6059
 ],
 "mayfadoun, lebanon": [
 33.3451,
@@ -850,6 +856,10 @@
 "tallinn, estonia": [
 59.4372,
 24.7573
+],
+"tampa, united states": [
+27.945,
+-82.4583
 ],
 "tayr harfa, lebanon": [
 33.1337,
