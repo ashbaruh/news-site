@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T18:18:57+00:00",
-  "fetched_at": "2026-09-30T18:18:57+00:00"
+  "checked_at": "2026-09-30T19:17:30+00:00",
+  "fetched_at": "2026-09-30T19:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T18:19:10+00:00",
-  "fetched_at": "2026-09-30T18:19:10+00:00"
+  "checked_at": "2026-09-30T19:17:39+00:00",
+  "fetched_at": "2026-09-30T19:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T18:19:11+00:00",
-  "fetched_at": "2026-09-30T18:19:11+00:00"
+  "checked_at": "2026-09-30T19:17:39+00:00",
+  "fetched_at": "2026-09-30T19:17:39+00:00"
  },
- "generated_at": "2026-09-30T18:19:11+00:00",
+ "generated_at": "2026-09-30T19:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הנוסעים של פליי דובאי נחתו בישראל; נתניהו שוחח עם בן זאיד בעניין אבטחת המטוסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T18:04:00+00:00"
+     "date": "2026-09-30T18:56:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T18:18:58+00:00",
-  "fetched_at": "2026-09-30T18:18:58+00:00"
+  "checked_at": "2026-09-30T19:17:31+00:00",
+  "fetched_at": "2026-09-30T19:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T18:18:59+00:00",
-  "fetched_at": "2026-09-30T18:18:59+00:00"
+  "checked_at": "2026-09-30T19:17:31+00:00",
+  "fetched_at": "2026-09-30T19:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2291,8 +2291,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T18:19:01+00:00",
-  "fetched_at": "2026-09-30T18:19:01+00:00"
+  "checked_at": "2026-09-30T19:17:32+00:00",
+  "fetched_at": "2026-09-30T19:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2382,8 +2382,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T18:19:01+00:00",
-  "fetched_at": "2026-09-30T18:19:01+00:00"
+  "checked_at": "2026-09-30T19:17:32+00:00",
+  "fetched_at": "2026-09-30T19:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2414,28 +2414,28 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 341,
+     "likes": 343,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 608,
+     "likes": 613,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 213,
+     "likes": 215,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2449,7 +2449,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 191,
+     "likes": 193,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2483,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T18:19:10+00:00",
-  "fetched_at": "2026-09-30T18:19:10+00:00"
+  "checked_at": "2026-09-30T19:17:38+00:00",
+  "fetched_at": "2026-09-30T19:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2772,8 +2772,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T18:19:05+00:00",
-  "fetched_at": "2026-09-30T18:19:05+00:00"
+  "checked_at": "2026-09-30T19:17:35+00:00",
+  "fetched_at": "2026-09-30T19:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -2804,7 +2804,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T18:19:05+00:00",
-  "fetched_at": "2026-09-30T18:19:05+00:00"
+  "checked_at": "2026-09-30T19:17:35+00:00",
+  "fetched_at": "2026-09-30T19:17:35+00:00"
  }
 };
