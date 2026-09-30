@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T16:17:27+00:00",
-  "fetched_at": "2026-09-30T16:17:27+00:00"
+  "checked_at": "2026-09-30T17:17:16+00:00",
+  "fetched_at": "2026-09-30T17:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T16:17:39+00:00",
-  "fetched_at": "2026-09-30T16:17:39+00:00"
+  "checked_at": "2026-09-30T17:17:28+00:00",
+  "fetched_at": "2026-09-30T17:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T16:17:39+00:00",
-  "fetched_at": "2026-09-30T16:17:39+00:00"
+  "checked_at": "2026-09-30T17:17:28+00:00",
+  "fetched_at": "2026-09-30T17:17:28+00:00"
  },
- "generated_at": "2026-09-30T16:17:39+00:00",
+ "generated_at": "2026-09-30T17:17:28+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "העסקי התערבב עם הפוליטי: הרוכשים בעסקת צים לא מתכוונים לוותר",
+     "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
      "date": "2026-09-30T16:00:00+00:00"
     },
     {
-     "title": "בשעה טובה: הנוסעים של פליי דובאי נחתו בישראל",
+     "title": "הנוסעים של פליי דובאי נחתו בישראל; נתניהו שוחח עם בן זאיד בעניין אבטחת המטוסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
-     "date": "2026-09-30T16:14:00+00:00"
+     "date": "2026-09-30T17:15:00+00:00"
     }
    ],
    "market": [
     {
      "title": "עליות בוול סטריט בעקבות נתוני האינפלציה שהפתיעו לטובה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T15:59:00+00:00"
+     "date": "2026-09-30T17:13:00+00:00"
     },
     {
-     "title": "הישראלי שפורש מניהול חברת הענק אחרי 8 שנים",
+     "title": "הישראלי שפורש מניהול ענקית הצעצועים ועשוי להצטרף לפרמאונט–וורנר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558045",
-     "date": "2026-09-30T14:11:00+00:00"
+     "date": "2026-09-30T16:10:00+00:00"
+    },
+    {
+     "title": "העסקי התערבב עם הפוליטי: הרוכשים בעסקת צים לא מתכוונים לוותר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
+     "date": "2026-09-30T16:00:00+00:00"
     },
     {
      "title": "\"תקרית\" ו\"ריב בין טייסים\": איך מסקרים בעולם את טיסת פליי דובאי",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T16:17:29+00:00",
-  "fetched_at": "2026-09-30T16:17:29+00:00"
+  "checked_at": "2026-09-30T17:17:17+00:00",
+  "fetched_at": "2026-09-30T17:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T16:17:29+00:00",
-  "fetched_at": "2026-09-30T16:17:29+00:00"
+  "checked_at": "2026-09-30T17:17:18+00:00",
+  "fetched_at": "2026-09-30T17:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2286,8 +2291,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T16:17:31+00:00",
-  "fetched_at": "2026-09-30T16:17:31+00:00"
+  "checked_at": "2026-09-30T17:17:19+00:00",
+  "fetched_at": "2026-09-30T17:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2377,8 +2382,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T16:17:31+00:00",
-  "fetched_at": "2026-09-30T16:17:31+00:00"
+  "checked_at": "2026-09-30T17:17:19+00:00",
+  "fetched_at": "2026-09-30T17:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2423,7 +2428,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 607,
+     "likes": 608,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2451,7 +2456,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 171,
+     "likes": 172,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2465,7 +2470,7 @@ window.DB.generated = {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 59,
+     "likes": 60,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2478,8 +2483,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T16:17:38+00:00",
-  "fetched_at": "2026-09-30T16:17:38+00:00"
+  "checked_at": "2026-09-30T17:17:27+00:00",
+  "fetched_at": "2026-09-30T17:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2509,15 +2514,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דניאל פרץ מול האירים: החשש החדש בסאות'המפטון",
-     "link": "https://sports.walla.co.il/item/3870203",
-     "date": "2026-09-29T08:41:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -2766,8 +2762,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T16:17:34+00:00",
-  "fetched_at": "2026-09-30T16:17:34+00:00"
+  "checked_at": "2026-09-30T17:17:22+00:00",
+  "fetched_at": "2026-09-30T17:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -2798,7 +2794,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T16:17:35+00:00",
-  "fetched_at": "2026-09-30T16:17:35+00:00"
+  "checked_at": "2026-09-30T17:17:22+00:00",
+  "fetched_at": "2026-09-30T17:17:22+00:00"
  }
 };
