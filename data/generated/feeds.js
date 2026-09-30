@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T11:17:27+00:00",
-  "fetched_at": "2026-09-30T11:17:27+00:00"
+  "checked_at": "2026-09-30T12:21:13+00:00",
+  "fetched_at": "2026-09-30T12:21:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T11:17:38+00:00",
-  "fetched_at": "2026-09-30T11:17:38+00:00"
+  "checked_at": "2026-09-30T12:21:25+00:00",
+  "fetched_at": "2026-09-30T12:21:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T11:17:39+00:00",
-  "fetched_at": "2026-09-30T11:17:39+00:00"
+  "checked_at": "2026-09-30T12:21:25+00:00",
+  "fetched_at": "2026-09-30T12:21:25+00:00"
  },
- "generated_at": "2026-09-30T11:17:39+00:00",
+ "generated_at": "2026-09-30T12:21:25+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,21 +92,31 @@ window.DB.generated = {
      "date": "2026-09-30T10:55:00+00:00"
     },
     {
-     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T10:59:00+00:00"
+     "title": "שרת התחבורה מירי רגב: \"לעצור את כל הטיסות של פליי דובאי\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
+     "date": "2026-09-30T12:18:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
+     "date": "2026-09-30T11:37:00+00:00"
+    },
+    {
+     "title": "החוזה הגדול בתולדות סמארט שוטר: מערכות יירוט רחפנים בעד כ-150 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557974",
+     "date": "2026-09-30T11:36:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת באירופה; יציבות בחוזים בניו יורק, תשואות האג\"ח נסוגות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
+     "date": "2026-09-30T11:16:00+00:00"
+    },
+    {
      "title": "פרשת סלייס: תוכנית ההסדר של המנהל המורשה אושרה בביהמ\"ש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557985",
      "date": "2026-09-30T11:08:00+00:00"
-    },
-    {
-     "title": "עליות בתל אביב; מניות התעופה קופצות אחרי הדרמה בטיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
-     "date": "2026-09-30T10:59:00+00:00"
     },
     {
      "title": "המשבר בין נתניהו לארדואן עולה מדרגה",
@@ -114,19 +124,9 @@ window.DB.generated = {
      "date": "2026-09-30T09:42:00+00:00"
     },
     {
-     "title": "מגמה מעורבת באירופה; החוזים בניו יורק מטפסים, תשואות האג\"ח נסוגות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T09:10:00+00:00"
-    },
-    {
      "title": "האם משקיעי הקריפטו יכולים להוציא את בגדי האביב?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557967",
      "date": "2026-09-30T08:57:00+00:00"
-    },
-    {
-     "title": "החוזה הגדול בתולדות סמארט שוטר: מערכות יירוט רחפנים בעד כ-150 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557974",
-     "date": "2026-09-30T08:54:00+00:00"
     },
     {
      "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T11:17:28+00:00",
-  "fetched_at": "2026-09-30T11:17:28+00:00"
+  "checked_at": "2026-09-30T12:21:14+00:00",
+  "fetched_at": "2026-09-30T12:21:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1865,8 +1865,9 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-09-30T11:17:29+00:00",
+  "ok": false,
+  "error": "<urlopen error [Errno 104] Connection reset by peer>",
+  "checked_at": "2026-09-30T12:21:16+00:00",
   "fetched_at": "2026-09-30T11:17:29+00:00"
  },
  "tv": {
@@ -2286,8 +2287,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T11:17:30+00:00",
-  "fetched_at": "2026-09-30T11:17:30+00:00"
+  "checked_at": "2026-09-30T12:21:17+00:00",
+  "fetched_at": "2026-09-30T12:21:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2377,8 +2378,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T11:17:30+00:00",
-  "fetched_at": "2026-09-30T11:17:30+00:00"
+  "checked_at": "2026-09-30T12:21:17+00:00",
+  "fetched_at": "2026-09-30T12:21:17+00:00"
  },
  "ai": {
   "data": {
@@ -2407,21 +2408,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 333,
+     "likes": 335,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 128,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 605,
+     "likes": 607,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2442,7 +2443,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 186,
+     "likes": 187,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2456,7 +2457,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2467,17 +2468,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 334,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 109,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T11:17:37+00:00",
-  "fetched_at": "2026-09-30T11:17:37+00:00"
+  "checked_at": "2026-09-30T12:21:24+00:00",
+  "fetched_at": "2026-09-30T12:21:24+00:00"
  },
  "abroad": {
   "data": {
@@ -2534,15 +2535,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "עידן טוקלומטי עשוי להיעדר מהמשחק מול קוסובו",
-     "link": "https://sports.walla.co.il/item/3870151",
-     "date": "2026-09-28T19:51:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עידן טוקלומטי"
      ]
     },
     {
@@ -2782,8 +2774,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T11:17:33+00:00",
-  "fetched_at": "2026-09-30T11:17:33+00:00"
+  "checked_at": "2026-09-30T12:21:20+00:00",
+  "fetched_at": "2026-09-30T12:21:20+00:00"
  },
  "idf": {
   "data": [
@@ -2814,7 +2806,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T11:17:33+00:00",
-  "fetched_at": "2026-09-30T11:17:33+00:00"
+  "checked_at": "2026-09-30T12:21:21+00:00",
+  "fetched_at": "2026-09-30T12:21:21+00:00"
  }
 };
