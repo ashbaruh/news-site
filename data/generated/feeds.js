@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:37:36+00:00",
-  "fetched_at": "2026-09-30T01:37:36+00:00"
+  "checked_at": "2026-09-30T02:17:29+00:00",
+  "fetched_at": "2026-09-30T02:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:37:43+00:00",
-  "fetched_at": "2026-09-30T01:37:43+00:00"
+  "checked_at": "2026-09-30T02:17:39+00:00",
+  "fetched_at": "2026-09-30T02:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:37:43+00:00",
-  "fetched_at": "2026-09-30T01:37:43+00:00"
+  "checked_at": "2026-09-30T02:17:39+00:00",
+  "fetched_at": "2026-09-30T02:17:39+00:00"
  },
- "generated_at": "2026-09-30T01:37:43+00:00",
+ "generated_at": "2026-09-30T02:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:37:37+00:00",
-  "fetched_at": "2026-09-30T01:37:37+00:00"
+  "checked_at": "2026-09-30T02:17:30+00:00",
+  "fetched_at": "2026-09-30T02:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:37:38+00:00",
-  "fetched_at": "2026-09-30T01:37:38+00:00"
+  "checked_at": "2026-09-30T02:17:31+00:00",
+  "fetched_at": "2026-09-30T02:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2267,8 +2267,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:37:39+00:00",
-  "fetched_at": "2026-09-30T01:37:39+00:00"
+  "checked_at": "2026-09-30T02:17:32+00:00",
+  "fetched_at": "2026-09-30T02:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2358,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:37:39+00:00",
-  "fetched_at": "2026-09-30T01:37:39+00:00"
+  "checked_at": "2026-09-30T02:17:32+00:00",
+  "fetched_at": "2026-09-30T02:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2374,19 +2374,15 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-     "date": "2026-09-28T19:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
+     "date": "2026-09-29T17:47:37+00:00",
      "launch": false,
-     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
-     "translated_by": "google"
+     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
     }
    ],
-   "candidates": 7,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2403,18 +2399,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 599,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+    },
+    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
      "likes": 246,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 597,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2427,7 +2423,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 184,
+     "likes": 185,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2461,8 +2457,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:37:43+00:00",
-  "fetched_at": "2026-09-30T01:37:43+00:00"
+  "checked_at": "2026-09-30T02:17:38+00:00",
+  "fetched_at": "2026-09-30T02:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2767,8 +2763,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T01:37:42+00:00",
-  "fetched_at": "2026-09-30T01:37:42+00:00"
+  "checked_at": "2026-09-30T02:17:34+00:00",
+  "fetched_at": "2026-09-30T02:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -2799,7 +2795,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T01:37:42+00:00",
-  "fetched_at": "2026-09-30T01:37:42+00:00"
+  "checked_at": "2026-09-30T02:17:35+00:00",
+  "fetched_at": "2026-09-30T02:17:35+00:00"
  }
 };
