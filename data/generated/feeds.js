@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-09-30T03:17:57+00:00",
-  "fetched_at": "2026-09-30T03:17:57+00:00"
+  "checked_at": "2026-09-30T04:17:25+00:00",
+  "fetched_at": "2026-09-30T04:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T03:18:37+00:00",
-  "fetched_at": "2026-09-30T03:18:37+00:00"
+  "checked_at": "2026-09-30T04:17:35+00:00",
+  "fetched_at": "2026-09-30T04:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T03:18:37+00:00",
-  "fetched_at": "2026-09-30T03:18:37+00:00"
+  "checked_at": "2026-09-30T04:17:35+00:00",
+  "fetched_at": "2026-09-30T04:17:35+00:00"
  },
- "generated_at": "2026-09-30T03:18:37+00:00",
+ "generated_at": "2026-09-30T04:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,16 +92,26 @@ window.DB.generated = {
      "date": "2026-09-30T02:42:00+00:00"
     },
     {
-     "title": "חזית דרמטית נגד אבו מאזן: חמאס והג'יהאד האיסלאמי סיכמו על ברית עם מוחמד דחלאן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557807",
-     "date": "2026-09-29T19:53:00+00:00"
+     "title": "לפיד בתום העדכון עם נתניהו: \"אין סיבה להכניס לפאניקה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557921",
+     "date": "2026-09-30T03:37:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מצב השווקים: תפנית חדה בציפיות הריבית בארה\"ב, ושני הדגלים האדומים שהרימו במורגן סטנלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
+     "date": "2026-09-30T04:02:00+00:00"
+    },
+    {
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
+    },
+    {
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
+     "date": "2026-09-30T03:04:00+00:00"
     },
     {
      "title": "כך ה-AI משפיע על מחיר הביג מק: שיטת התמחור של מקדונלד'ס נחשפת",
@@ -189,29 +199,14 @@ window.DB.generated = {
      "date": "2026-09-29T02:51:00+00:00"
     },
     {
-     "title": "נעילה אדומה בוול סטריט בהובלת הנאסד\"ק; תשואות האג\"ח בשיא של 19 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557664",
-     "date": "2026-09-28T20:11:00+00:00"
-    },
-    {
      "title": "עד 6 שנות מאסר: מה עומד מאחורי המהפך ביחס של הולנד לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557760",
      "date": "2026-09-28T18:00:00+00:00"
     },
     {
-     "title": "הטלטלה בשוק האג\"ח מתחילה לזלוג למניות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557779",
-     "date": "2026-09-28T17:39:00+00:00"
-    },
-    {
      "title": "שישה מומחי השקעות מנתחים את הזינוק בתשואות האג\"ח ואיך כדאי לפעול בעקבותיו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557732",
      "date": "2026-09-28T16:00:00+00:00"
-    },
-    {
-     "title": "מנכ\"ל מליסרון אופיר שריד הלך לעולמו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557613",
-     "date": "2026-09-28T14:50:00+00:00"
     },
     {
      "title": "נעילה שלילית בתל אביב, השקל נחלש ב-1%; אלקטרה נדל\"ן נפלה ב-16%",
@@ -221,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T03:17:58+00:00",
-  "fetched_at": "2026-09-30T03:17:58+00:00"
+  "checked_at": "2026-09-30T04:17:26+00:00",
+  "fetched_at": "2026-09-30T04:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T03:17:59+00:00",
-  "fetched_at": "2026-09-30T03:17:59+00:00"
+  "checked_at": "2026-09-30T04:17:27+00:00",
+  "fetched_at": "2026-09-30T04:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2271,10 +2266,9 @@ window.DB.generated = {
     "title": "אירלנד - ישראל"
    }
   ],
-  "ok": false,
-  "error": "The read operation timed out",
-  "checked_at": "2026-09-30T03:18:29+00:00",
-  "fetched_at": "2026-09-30T02:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-09-30T04:17:28+00:00",
+  "fetched_at": "2026-09-30T04:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2364,8 +2358,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T03:18:29+00:00",
-  "fetched_at": "2026-09-30T03:18:29+00:00"
+  "checked_at": "2026-09-30T04:17:28+00:00",
+  "fetched_at": "2026-09-30T04:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2380,15 +2374,19 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-devday-2026-keynote/",
-     "date": "2026-09-29T17:47:37+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+     "date": "2026-09-28T19:00:00+00:00",
      "launch": false,
-     "title": "תכירו: Dots, האייג'נטים החדשים של OpenAI, שיתחרו ב-Muse ו-Instinct"
+     "title_en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+     "title_he": "צפו בטריילר המנצח מתוך Future Vision XPRIZE, The Gifted.",
+     "translated_by": "google"
     }
    ],
-   "candidates": 11,
-   "failed_sources": [],
+   "candidates": 7,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2401,21 +2399,21 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 248,
+     "likes": 249,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 600,
+     "likes": 599,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2443,7 +2441,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 190,
+     "likes": 191,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2463,8 +2461,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-09-30T03:18:36+00:00",
-  "fetched_at": "2026-09-30T03:18:36+00:00"
+  "checked_at": "2026-09-30T04:17:33+00:00",
+  "fetched_at": "2026-09-30T04:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2769,8 +2767,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-09-30T03:18:32+00:00",
-  "fetched_at": "2026-09-30T03:18:32+00:00"
+  "checked_at": "2026-09-30T04:17:31+00:00",
+  "fetched_at": "2026-09-30T04:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -2801,7 +2799,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-09-30T03:18:33+00:00",
-  "fetched_at": "2026-09-30T03:18:33+00:00"
+  "checked_at": "2026-09-30T04:17:32+00:00",
+  "fetched_at": "2026-09-30T04:17:32+00:00"
  }
 };
