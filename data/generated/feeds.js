@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:17:29+00:00",
-  "fetched_at": "2026-10-01T16:17:29+00:00"
+  "checked_at": "2026-10-01T16:28:39+00:00",
+  "fetched_at": "2026-10-01T16:28:39+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:17:44+00:00",
-  "fetched_at": "2026-10-01T16:17:44+00:00"
+  "checked_at": "2026-10-01T16:28:56+00:00",
+  "fetched_at": "2026-10-01T16:28:56+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:17:46+00:00",
-  "fetched_at": "2026-10-01T16:17:46+00:00"
+  "checked_at": "2026-10-01T16:28:57+00:00",
+  "fetched_at": "2026-10-01T16:28:57+00:00"
  },
- "generated_at": "2026-10-01T16:17:46+00:00",
+ "generated_at": "2026-10-01T16:28:57+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:17:31+00:00",
-  "fetched_at": "2026-10-01T16:17:31+00:00"
+  "checked_at": "2026-10-01T16:28:40+00:00",
+  "fetched_at": "2026-10-01T16:28:40+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:17:32+00:00",
-  "fetched_at": "2026-10-01T16:17:32+00:00"
+  "checked_at": "2026-10-01T16:28:42+00:00",
+  "fetched_at": "2026-10-01T16:28:42+00:00"
  },
  "tv": {
   "data": [
@@ -2501,8 +2501,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:17:35+00:00",
-  "fetched_at": "2026-10-01T16:17:35+00:00"
+  "checked_at": "2026-10-01T16:28:43+00:00",
+  "fetched_at": "2026-10-01T16:28:43+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2592,8 +2592,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:17:35+00:00",
-  "fetched_at": "2026-10-01T16:17:35+00:00"
+  "checked_at": "2026-10-01T16:28:43+00:00",
+  "fetched_at": "2026-10-01T16:28:43+00:00"
  },
  "ai": {
   "data": {
@@ -2615,7 +2615,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 14,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2677,24 +2677,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "OpenVuln",
+     "desc_en": "Find bugs in your repository with GLM",
+     "desc_he": "מצא באגים במאגר שלך עם GLM",
+     "likes": 192,
+     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
+    },
+    {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
      "likes": 74,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
-    },
-    {
-     "title": "OpenVuln",
-     "desc_en": "Find bugs in your repository with GLM",
-     "desc_he": "מצא באגים במאגר שלך עם GLM",
-     "likes": 191,
-     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:17:43+00:00",
-  "fetched_at": "2026-10-01T16:17:43+00:00"
+  "checked_at": "2026-10-01T16:28:55+00:00",
+  "fetched_at": "2026-10-01T16:28:55+00:00"
  },
  "abroad": {
   "data": {
@@ -2999,8 +2999,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:17:38+00:00",
-  "fetched_at": "2026-10-01T16:17:38+00:00"
+  "checked_at": "2026-10-01T16:28:47+00:00",
+  "fetched_at": "2026-10-01T16:28:47+00:00"
  },
  "idf": {
   "data": [
@@ -3030,8 +3030,9 @@ window.DB.generated = {
     "date": "2026-09-20T03:00:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-01T16:17:39+00:00",
+  "ok": false,
+  "error": "HTTP Error 503: Service Unavailable",
+  "checked_at": "2026-10-01T16:28:52+00:00",
   "fetched_at": "2026-10-01T16:17:39+00:00"
  }
 };
