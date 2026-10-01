@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:54:04+00:00",
-  "fetched_at": "2026-10-01T17:54:04+00:00"
+  "checked_at": "2026-10-01T18:17:28+00:00",
+  "fetched_at": "2026-10-01T18:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:54:19+00:00",
-  "fetched_at": "2026-10-01T17:54:19+00:00"
+  "checked_at": "2026-10-01T18:17:39+00:00",
+  "fetched_at": "2026-10-01T18:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "iFi’s special-edition DAC packs upgraded circuitry and filters tuned by a Brit Award-winning producer",
+    "title_he": "ה-DAC המהדורה המיוחדת של iFi מכילה מעגלים ומסננים משודרגים המכוונים על ידי מפיק זוכה פרס Brit",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/dacs/ifis-special-edition-dac-packs-upgraded-circuitry-and-filters-tuned-by-a-brit-award-winning-producer",
+    "date": "2026-10-01T18:00:00+00:00"
+   },
    {
     "title_en": "Ask The Reader: what's the first record you play when you christen a new turntable?",
     "title_he": "שאל את הקורא: מהו התקליט הראשון שאתה מנגן כשאתה מטביל פטיפון חדש?",
@@ -69,32 +76,25 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/stereo-systems/little-or-large-panasonic-launches-two-new-micro-hi-fi-systems-including-a-mini-me-for-smaller-spaces-and-budgets",
     "date": "2026-10-01T14:50:58+00:00"
-   },
-   {
-    "title_en": "This punchy KEF subwoofer is part of an Award-winning system – and now it's 25% off",
-    "title_he": "סאבוופר KEF המחמיר הזה הוא חלק ממערכת עטורת פרסים - ועכשיו הוא ב-25% הנחה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/subwoofers/this-punchy-kef-subwoofer-is-part-of-an-award-winning-system-and-now-its-25-percent-off",
-    "date": "2026-10-01T14:42:13+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:54:19+00:00",
-  "fetched_at": "2026-10-01T17:54:19+00:00"
+  "checked_at": "2026-10-01T18:17:41+00:00",
+  "fetched_at": "2026-10-01T18:17:41+00:00"
  },
- "generated_at": "2026-10-01T17:54:19+00:00",
+ "generated_at": "2026-10-01T18:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"השב\"כ לא בודק\": הטיסות שהפכו לחור השחור של עולם התעופה הישראלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558187",
-     "date": "2026-10-01T16:35:00+00:00"
+     "title": "מייסד אופן ווב בהתייחסות ראשונה לקריסה: \"חברת הייטק לא שורדת ללא היזם שלה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558181",
+     "date": "2026-10-01T18:00:00+00:00"
     },
     {
-     "title": "טראמפ נשאל אם הטייס קשור לאיראן והשיב: \"בודקים את זה, לפי מה שאני שומע כן\"",
+     "title": "הטייס העומאני התכוון לבצע פיגוע, לא ניתן עדיין לקבוע אם איראן אחראית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T16:37:00+00:00"
+     "date": "2026-10-01T18:12:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:54:06+00:00",
-  "fetched_at": "2026-10-01T17:54:06+00:00"
+  "checked_at": "2026-10-01T18:17:29+00:00",
+  "fetched_at": "2026-10-01T18:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:54:07+00:00",
-  "fetched_at": "2026-10-01T17:54:07+00:00"
+  "checked_at": "2026-10-01T18:17:30+00:00",
+  "fetched_at": "2026-10-01T18:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2501,8 +2501,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:54:09+00:00",
-  "fetched_at": "2026-10-01T17:54:09+00:00"
+  "checked_at": "2026-10-01T18:17:31+00:00",
+  "fetched_at": "2026-10-01T18:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2592,8 +2592,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:54:09+00:00",
-  "fetched_at": "2026-10-01T17:54:09+00:00"
+  "checked_at": "2026-10-01T18:17:31+00:00",
+  "fetched_at": "2026-10-01T18:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2615,8 +2615,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
-   "failed_sources": [],
+   "candidates": 14,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2691,8 +2693,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:54:18+00:00",
-  "fetched_at": "2026-10-01T17:54:18+00:00"
+  "checked_at": "2026-10-01T18:17:38+00:00",
+  "fetched_at": "2026-10-01T18:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3006,8 +3008,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:54:12+00:00",
-  "fetched_at": "2026-10-01T17:54:12+00:00"
+  "checked_at": "2026-10-01T18:17:34+00:00",
+  "fetched_at": "2026-10-01T18:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -3038,58 +3040,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:54:13+00:00",
-  "fetched_at": "2026-10-01T17:54:13+00:00"
+  "checked_at": "2026-10-01T18:17:35+00:00",
+  "fetched_at": "2026-10-01T18:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-01T17:08:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "newest": "2026-10-01T18:12:00+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-01T16:30:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-01T16:00:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-09-30T04:27:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-01T17:40:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-01T17:20:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "newest": "2026-10-01T17:55:00+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-01T17:26:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-01T08:04:32+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "newest": "2026-10-01T11:36:35+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3101,28 +3103,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-09-28T19:00:00+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-01T15:45:26+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-01T16:02:17+00:00",
-    "seen_at": "2026-10-01T17:54:19+00:00",
+    "newest": "2026-10-01T18:00:00+00:00",
+    "seen_at": "2026-10-01T18:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-01T17:54:19+00:00"
+  "checked_at": "2026-10-01T18:17:41+00:00"
  }
 };
