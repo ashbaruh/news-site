@@ -1,0 +1,467 @@
+{
+ "status": "draft",
+ "received_sha256_12": "279510bf76f8",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "initial": 8,
+   "verified": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-01T17:07:57+00:00",
+  "window": {
+   "from": "2026-09-30T17:07:57+00:00",
+   "to": "2026-10-01T17:07:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610011707"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר תעוזה, כאשר אוקראינה מבצעת תקיפות עומק נגד מתקני זיקוק נפט ברוסיה ומציגה שימוש מבצעי ראשון בטיל הבליסטי FP-7, לצד מתקפות אוויריות נרחבות של כטב\"מים וטילים מצד רוסיה על תשתיות ומטרות בקייב ובאזורים נוספים. במקביל, מתנהלת מערכה דיפלומטית וכלכלית עצימה הכוללת סנקציות מערביות המגבילות עסקאות והעברות כספים, לצד איומים רוסיים כלפי נאט\"ו בנוגע למובלעת קלינינגרד.",
+  "fronts": [
+   {
+    "name": "חזית האוויר וההגנה האווירית באוקראינה",
+    "status": "פעיל מאוד עם מטחי כטב\"מים ותקיפות טילים"
+   },
+   {
+    "name": "תקיפות עומק אוקראיניות בתוך רוסיה",
+    "status": "פעיל (בתי זיקוק ומטרות צבאיות)"
+   },
+   {
+    "name": "חזית מחוז לוהנסק ודרום אוקראינה",
+    "status": "פעיל עם חילופי תקיפות ארטילריות ומצור באולשקי"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10011707-01",
+    "title": "Ukrainian pilot Redvanovich killed after MiG-29 shot down",
+    "summary": "טייס אוקראיני בן 25, מפקד בטייסת, נהרג לאחר שמטוס הקורות שלו מסוג מיג-29 הופל על ידי טיל רוסי.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T16:55:31+00:00",
+    "last_update_at": "2026-10-01T16:55:31+00:00",
+    "what_is_not_verified": "הפרטים המדויקים על נסיבות ההפילה אינם מפורטים מעבר להודעת הכתבה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_kyivind",
+      "url": "https://kyivindependent.com/ukrainian-pilot-dies-after-mig-29-fighter-shot-down-by-russian-missile/",
+      "published_at": "2026-10-01T16:55:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-02",
+    "title": "Russian drone strike on a school in Kyiv",
+    "summary": "כטב\"ם רוסי פגע בבית ספר בקייב, גרם לנזק ולחורבן חלקי בקיר, מבלי לגרום לנפגעים בקרב הילדים והמורים שהיו במקלט.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T15:25:27+00:00",
+    "last_update_at": "2026-10-01T16:52:56+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_49f7c4033e8417fd",
+      "url": "https://www.theguardian.com/world/video/2026/oct/01/cctv-captures-moment-russian-drone-hits-kyiv-school-video",
+      "published_at": "2026-10-01T16:52:56+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_dbc6820f2e5f14ce",
+      "url": "https://meduza.io/en/news/2026/10/01/russian-drone-hits-kyiv-school-while-children-and-teachers-shelter-inside-mayor-says",
+      "published_at": "2026-10-01T15:25:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10011707-03",
+    "title": "Heavenly Watch memorial opened on Zmiinyi Island",
+    "summary": "אנשי כוחות מיוחדים ממשמר הגבול פתחו אנדרטה בשם 'השעון השמימי' באי זמיאיני בים השחור.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T16:51:00+00:00",
+    "last_update_at": "2026-10-01T16:51:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4fa81a0847812291",
+      "url": "https://www.ukrinform.net/rubric-society/4170148-border-guards-open-heavenly-watch-memorial-on-zmiinyi-island.html",
+      "published_at": "2026-10-01T16:51:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי זמיאיני, אוקראינה",
+      "lat": 45.2548,
+      "lon": 30.2033
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10011707-04",
+    "title": "Fall in money transfers between Russia, Kazakhstan and Georgia due to EU sanctions",
+    "summary": "העברות הכספים בין רוסיה לקזחסטן ולגאורגיה נפלו משמעותית בעקבות הטלת סנקציות של האיחוד האירופי על מערכת התשלומים זולטאי קורונה.",
+    "axis": "רוסיה-מערב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T16:37:31+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T16:37:31+00:00",
+    "last_update_at": "2026-10-01T16:37:31+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_rbc_data",
+      "url": "https://meduza.io/en/news/2026/10/01/money-transfers-between-russia-and-kazakhstan-fall-nearly-12-fold-after-eu-sanctions-on-zolotaya-korona-payment-service",
+      "published_at": "2026-10-01T16:37:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-05",
+    "title": "Ukrainian air defense neutralizes 78 Russian drones",
+    "summary": "כוחות ההגנה האווירית של אוקראינה יירטו או שיבשו 78 מתוך 97 רחפני תקיפה רוסיים ששוגרו במהלך היום.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T15:19:00+00:00",
+    "last_update_at": "2026-10-01T16:30:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_7982b1a3d2772133",
+      "url": "https://www.ukrinform.net/rubric-ato/4170133-ukrainian-air-defenses-neutralize-78-out-of-97-russian-drones-on-oct-1.html",
+      "published_at": "2026-10-01T16:30:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c7564743ba6406e9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/01/8056012/",
+      "published_at": "2026-10-01T15:19:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-06",
+    "title": "Ukrainian forces hit Buk-M3 and Akatsiya systems in Luhansk",
+    "summary": "כוחות המערכות הבלתי מאוישות של אוקראינה פגעו במערכת הגנה אווירית רוסית מסוג בוק-מ3 ובתותח מתנייע מסוג אקציה בשטח מחוז לוהנסק.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T16:15:00+00:00",
+    "last_update_at": "2026-10-01T16:15:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6f06cf2efea88593",
+      "url": "https://www.ukrinform.net/rubric-ato/4170126-ukrainian-forces-hit-russian-bukm3-sam-system-akatsiya-selfpropelled-gun-in-luhansk-region.html",
+      "published_at": "2026-10-01T16:15:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז לוהנסק, אוקראינה",
+      "lat": 48.5151,
+      "lon": 39.3719
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10011707-07",
+    "title": "First combat use of Ukraine's FP-7 tactical ballistic missile",
+    "summary": "נשיא אוקראינה וולודימיר זלנסקי חשף את השימוש הקרבי הראשון בטיל הבליסטי הטקטי הפתוח FP-7 מתוצרת אוקראינה.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T15:51:00+00:00",
+    "last_update_at": "2026-10-01T16:14:01+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_e07cff22fe6e2927",
+      "url": "https://www.ukrinform.net/rubric-ato/4170140-zelensky-shows-first-combat-use-of-ukraines-fp7-tactical-ballistic-missile.html",
+      "published_at": "2026-10-01T16:14:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_e07cff22fe6e2927",
+      "url": "https://t.me/alexmehacarmel/48166",
+      "published_at": "2026-10-01T16:13:28+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_28c3b6f2927d994a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/01/8056021/",
+      "published_at": "2026-10-01T15:51:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-08",
+    "title": "Russia plans fall conscription of 120,000 men",
+    "summary": "רוסיה מתכננת לגייס כ-120,000 איש לשירות צבאי חובה בגיוס הסתיו, כאשר המטה הכללי מצהיר שלא יישלחו לאוקראינה.",
+    "axis": "רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T15:43:07+00:00",
+    "last_update_at": "2026-10-01T15:43:07+00:00",
+    "what_is_not_verified": "ההצהרה כי המגויסים לא יישלחו לשטח אוקראינה אינה מאומתת בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_90b9b011f8508234",
+      "url": "https://meduza.io/en/news/2026/10/01/russia-plans-to-conscript-120-000-men-into-military-service-this-fall-the-general-staff-says-none-will-be-sent-to-ukraine",
+      "published_at": "2026-10-01T15:43:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-09",
+    "title": "Finland provides EUR 50M loan for Ukraine reconstruction",
+    "summary": "פינלנד תעניק הלוואה בסך 50 מיליון אירו דרך הבנק העולמי לטובת שיקום אוקראינה.",
+    "axis": "אוקראינה-אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T15:33:00+00:00",
+    "last_update_at": "2026-10-01T15:33:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_1c2b11d9cad7143d",
+      "url": "https://www.ukrinform.net/rubric-vidbudova/4170116-finland-to-provide-eur-50m-loan-for-ukraines-reconstruction.html",
+      "published_at": "2026-10-01T15:33:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10011707-10",
+    "title": "Russian drone strikes Kyiv nuclear institute",
+    "summary": "כטב\"ם רוסי פגע במכון גרעיני בקייב הכולל כור מחקר, וגרם לשריפה שכובתה במהירות ללא נפגעים.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T14:13:40+00:00",
+    "last_update_at": "2026-10-01T14:13:40+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_kyivind_statement",
+      "url": "https://kyivindependent.com/russian-drone-strikes-kyiv-nuclear-institute-housing-research-reactor/",
+      "published_at": "2026-10-01T14:13:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10011707-11",
+    "title": "Blockade and starvation conditions in Oleshky",
+    "summary": "העיירה אולשקי ומחוז סביבה בדרום מחוז חרסון נמצאים תחת מצור מלא של כוחות הכיבוש הרוסיים ללא סיוע הומניטרי מאז מאי.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-05-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T14:11:08+00:00",
+    "last_update_at": "2026-10-01T14:11:08+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_kyivind",
+      "url": "https://kyivindependent.com/russias-methodical-use-of-starvation-in-oleshky-2/",
+      "published_at": "2026-10-01T14:11:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10011707-12",
+    "title": "Ukraine persists with Russian oil refinery and vessel strikes",
+    "summary": "אוקראינה המשיכה בתקיפות עומק נגד מתקני זיקוק נפט ברוסיה (כולל במחוז סמרה ואוריול) וכלי שיט בים השחור, חרף לחץ אמריקאי.",
+    "axis": "אוקראינה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T12:09:34+00:00",
+    "last_update_at": "2026-10-01T12:09:34+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy_statement",
+      "url": "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings",
+      "published_at": "2026-10-01T12:09:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז סמרה, רוסיה",
+      "lat": 53.2029,
+      "lon": 50.1091
+     },
+     {
+      "name": "מחוז אוריול, רוסיה",
+      "lat": 43.4681,
+      "lon": 39.9289
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ניסיון החיסול של דניס שטילרמן ליד קייב (מצוין כדיווח ראשוני שדורש אימות)",
+   "ההצהרה הרוסית כי החיילים המגוייסים בסתיו לא יישלחו לשטח אוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1298,
+    "unit": "USD",
+    "change_pct": -0.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-01T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להחזיר את המלחמה לשטחה של רוסיה באמצעות תקיפות עומק",
+     "לפתח ולייצר אמצעי לחימה מתקדמים כמו טילי FP-7"
+    ],
+    "inferred": [
+     "פגיעה בכלכלה ובאנרגיה הרוסית כדי לשחוק את יכולת הלחימה שלה",
+     "גיוס תמיכה בינלאומית ומימון לשיקום המדינה"
+    ],
+    "forecast": [
+     "המשך שימוש בנשק תוצרת בית לפגיעה במתקנים אסטרטגיים ברוסיה",
+     "הגברת הלחץ לקבלת פיצויים מנכסים רוסיים מוקפאים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך פעולות מיוחדות באוקראינה עד להשגת היעדים",
+     "תגובה צבאית קשה לכל תקיפה מערבית ישירה או איום על מובלעת קלינינגרד"
+    ],
+    "inferred": [
+     "שחיקת התשתיות הקריטיות והכלכליות של אוקראינה באמצעות מתקפות כטב\"מים בלתי פוסקות",
+     "הפעלת לחץ פסיכולוגי על נאט\"ו והמערב כדי להפחית את הסיוע לאוקראינה"
+    ],
+    "forecast": [
+     "המשך גיוס כוח אדם והיערכות ממושכת להמשך הלחימה",
+     "הגברת האיומים הגרעיניים והדיפלומטיים נגד מדינות אירופה ונאט\"ו"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russias-methodical-use-of-starvation-in-oleshky-2/",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/01/russia-plans-to-conscript-120-000-men-into-military-service-this-fall-the-general-staff-says-none-will-be-sent-to-ukraine",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/01/8056021/",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48166",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-vidbudova/4170116-finland-to-provide-eur-50m-loan-for-ukraines-reconstruction.html",
+    "accessed_at": "2026-10-01T17:07:57+00:00"
+   }
+  ]
+ }
+}

@@ -529,6 +529,10 @@
 51.5074,
 -0.1278
 ],
+"luhansk region, ukraine": [
+48.5151,
+39.3719
+],
 "luhansk, ukraine": [
 48.5717,
 39.2973
@@ -710,6 +714,10 @@
 ],
 "oman": null,
 "oryol oblast, russia": null,
+"oryol region, russia": [
+43.4681,
+39.9289
+],
 "parchin, iran": [
 35.5121,
 51.7774
@@ -805,6 +813,10 @@
 ],
 "sajd, lebanon": null,
 "saluki, lebanon": null,
+"samara region, russia": [
+53.2029,
+50.1091
+],
 "samara, russia": [
 53.1956,
 50.1015
@@ -1032,6 +1044,10 @@
 "zibqine, lebanon": [
 33.1644,
 35.2665
+],
+"zmiinyi island, ukraine": [
+45.2548,
+30.2033
 ],
 "zubaida, syria": [
 36.1017,
