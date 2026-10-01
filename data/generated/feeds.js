@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T04:17:20+00:00",
-  "fetched_at": "2026-10-01T04:17:20+00:00"
+  "checked_at": "2026-10-01T05:17:25+00:00",
+  "fetched_at": "2026-10-01T05:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T04:17:34+00:00",
-  "fetched_at": "2026-10-01T04:17:34+00:00"
+  "checked_at": "2026-10-01T05:17:39+00:00",
+  "fetched_at": "2026-10-01T05:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T04:17:34+00:00",
-  "fetched_at": "2026-10-01T04:17:34+00:00"
+  "checked_at": "2026-10-01T05:17:39+00:00",
+  "fetched_at": "2026-10-01T05:17:39+00:00"
  },
- "generated_at": "2026-10-01T04:17:34+00:00",
+ "generated_at": "2026-10-01T05:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "התרומה הגדולה בהיסטוריה לאוניברסיטה - 3 מיליארד דולר ממייסד קרן הגידור הרווחית בעולם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558109",
+     "date": "2026-10-01T04:46:00+00:00"
+    },
+    {
+     "title": "האסטרטג שמייחל לירידות בוול סטריט והסיבה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558108",
+     "date": "2026-10-01T04:32:00+00:00"
+    },
+    {
+     "title": "מצב השווקים: בורסת טוקיו קופצת בקרוב ל-3% בהובלת מניות השבבים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
+     "date": "2026-10-01T04:07:00+00:00"
+    },
     {
      "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט - וורנר ברדרס דיסקברי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558104",
@@ -154,7 +169,7 @@ window.DB.generated = {
      "date": "2026-09-30T17:10:00+00:00"
     },
     {
-     "title": "הישראלי שפורש מניהול ענקית הצעצועים ועשוי להצטרף לפרמאונט–וורנר",
+     "title": "הישראלי שפורש מניהול ענקית הצעצועים ועשוי להצטרף לפרמאונט־וורנר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558045",
      "date": "2026-09-30T16:10:00+00:00"
     },
@@ -184,11 +199,6 @@ window.DB.generated = {
      "date": "2026-09-30T11:08:00+00:00"
     },
     {
-     "title": "המשבר בין נתניהו לארדואן עולה מדרגה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557976",
-     "date": "2026-09-30T09:42:00+00:00"
-    },
-    {
      "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557972",
      "date": "2026-09-30T08:32:00+00:00"
@@ -212,22 +222,12 @@ window.DB.generated = {
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
-    },
-    {
-     "title": "הקהילה הסגורה שבה לארי אליסון קנה שמונה בתים לעובדיו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557823",
-     "date": "2026-09-30T02:52:00+00:00"
-    },
-    {
-     "title": "מגדל והפניקס מובילות את ההשקעות הפרטיות בישראל, אבל הקצב הואט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557907",
-     "date": "2026-09-30T02:49:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T04:17:21+00:00",
-  "fetched_at": "2026-10-01T04:17:21+00:00"
+  "checked_at": "2026-10-01T05:17:26+00:00",
+  "fetched_at": "2026-10-01T05:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T04:17:22+00:00",
-  "fetched_at": "2026-10-01T04:17:22+00:00"
+  "checked_at": "2026-10-01T05:17:27+00:00",
+  "fetched_at": "2026-10-01T05:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2242,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T04:17:25+00:00",
-  "fetched_at": "2026-10-01T04:17:25+00:00"
+  "checked_at": "2026-10-01T05:17:28+00:00",
+  "fetched_at": "2026-10-01T05:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T04:17:25+00:00",
-  "fetched_at": "2026-10-01T04:17:25+00:00"
+  "checked_at": "2026-10-01T05:17:28+00:00",
+  "fetched_at": "2026-10-01T05:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2365,7 +2365,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 347,
+     "likes": 348,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2407,7 +2407,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 218,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T04:17:32+00:00",
-  "fetched_at": "2026-10-01T04:17:32+00:00"
+  "checked_at": "2026-10-01T05:17:37+00:00",
+  "fetched_at": "2026-10-01T05:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2723,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T04:17:28+00:00",
-  "fetched_at": "2026-10-01T04:17:28+00:00"
+  "checked_at": "2026-10-01T05:17:32+00:00",
+  "fetched_at": "2026-10-01T05:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2755,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T04:17:29+00:00",
-  "fetched_at": "2026-10-01T04:17:29+00:00"
+  "checked_at": "2026-10-01T05:17:32+00:00",
+  "fetched_at": "2026-10-01T05:17:32+00:00"
  }
 };
