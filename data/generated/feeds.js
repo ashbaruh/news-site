@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T03:17:11+00:00",
-  "fetched_at": "2026-10-01T03:17:11+00:00"
+  "checked_at": "2026-10-01T04:17:20+00:00",
+  "fetched_at": "2026-10-01T04:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T03:17:22+00:00",
-  "fetched_at": "2026-10-01T03:17:22+00:00"
+  "checked_at": "2026-10-01T04:17:34+00:00",
+  "fetched_at": "2026-10-01T04:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T03:17:22+00:00",
-  "fetched_at": "2026-10-01T03:17:22+00:00"
+  "checked_at": "2026-10-01T04:17:34+00:00",
+  "fetched_at": "2026-10-01T04:17:34+00:00"
  },
- "generated_at": "2026-10-01T03:17:22+00:00",
+ "generated_at": "2026-10-01T04:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט - וורנר ברדרס דיסקברי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558104",
+     "date": "2026-10-01T03:27:00+00:00"
+    },
     {
      "title": "הסחורות בעולם כבר התייקרו, ישראל תצטרף לעליית המחירים אחרי החגים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558005",
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-09-30T07:22:00+00:00"
     },
     {
-     "title": "\"אין מקום שני\": טראמפ מגייס את ענקיות ה-AI למאבק מול סין",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557959",
-     "date": "2026-09-30T07:18:00+00:00"
-    },
-    {
      "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
      "date": "2026-09-30T06:00:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T03:17:12+00:00",
-  "fetched_at": "2026-10-01T03:17:12+00:00"
+  "checked_at": "2026-10-01T04:17:21+00:00",
+  "fetched_at": "2026-10-01T04:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T03:17:12+00:00",
-  "fetched_at": "2026-10-01T03:17:12+00:00"
+  "checked_at": "2026-10-01T04:17:22+00:00",
+  "fetched_at": "2026-10-01T04:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2242,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T03:17:13+00:00",
-  "fetched_at": "2026-10-01T03:17:13+00:00"
+  "checked_at": "2026-10-01T04:17:25+00:00",
+  "fetched_at": "2026-10-01T04:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T03:17:13+00:00",
-  "fetched_at": "2026-10-01T03:17:13+00:00"
+  "checked_at": "2026-10-01T04:17:25+00:00",
+  "fetched_at": "2026-10-01T04:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2372,7 +2372,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 618,
+     "likes": 619,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2386,7 +2386,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 218,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
@@ -2407,7 +2407,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 217,
+     "likes": 218,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2421,7 +2421,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 172,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     },
     {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T03:17:21+00:00",
-  "fetched_at": "2026-10-01T03:17:21+00:00"
+  "checked_at": "2026-10-01T04:17:32+00:00",
+  "fetched_at": "2026-10-01T04:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -2443,7 +2443,7 @@ window.DB.generated = {
     {
      "title": "עבדה מגן, גלזר יפתח בשער; רביבו נטש את האימון",
      "link": "https://www.one.co.il/Article/534739.html?ref=rss",
-     "date": "2026-09-30T17:04:00+00:00",
+     "date": "2026-09-30T21:00:00+00:00",
      "source": "ONE",
      "players": [
       "רועי רביבו",
@@ -2723,8 +2723,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T03:17:16+00:00",
-  "fetched_at": "2026-10-01T03:17:16+00:00"
+  "checked_at": "2026-10-01T04:17:28+00:00",
+  "fetched_at": "2026-10-01T04:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2755,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T03:17:17+00:00",
-  "fetched_at": "2026-10-01T03:17:17+00:00"
+  "checked_at": "2026-10-01T04:17:29+00:00",
+  "fetched_at": "2026-10-01T04:17:29+00:00"
  }
 };
