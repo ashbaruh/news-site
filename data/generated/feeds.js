@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T13:17:23+00:00",
-  "fetched_at": "2026-10-01T13:17:23+00:00"
+  "checked_at": "2026-10-01T14:17:34+00:00",
+  "fetched_at": "2026-10-01T14:17:34+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T13:17:36+00:00",
-  "fetched_at": "2026-10-01T13:17:36+00:00"
+  "checked_at": "2026-10-01T14:17:48+00:00",
+  "fetched_at": "2026-10-01T14:17:48+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T13:17:38+00:00",
-  "fetched_at": "2026-10-01T13:17:38+00:00"
+  "checked_at": "2026-10-01T14:17:49+00:00",
+  "fetched_at": "2026-10-01T14:17:49+00:00"
  },
- "generated_at": "2026-10-01T13:17:38+00:00",
+ "generated_at": "2026-10-01T14:17:49+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,14 +94,19 @@ window.DB.generated = {
     {
      "title": "נתניהו: יש אינדיקציה שהאיראנים ינסו לפגוע שוב במטרות ישראליות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T12:42:00+00:00"
+     "date": "2026-10-01T13:39:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות בחוזים העתידיים בוול סטריט בהובלת מניות הטכנולוגיה",
+     "title": "העליות בוול סטריט נמחקו; התשואות ממשיכות לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T12:36:00+00:00"
+     "date": "2026-10-01T14:11:00+00:00"
+    },
+    {
+     "title": "המועמדת החדשה והמפתיעה למדד ת\"א 35",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558175",
+     "date": "2026-10-01T13:58:00+00:00"
     },
     {
      "title": "אחרי ניסיון המיזוג הכושל: אפקון רוצה להנפיק את זרוע האנרגיה המתחדשת שלה",
@@ -112,6 +117,11 @@ window.DB.generated = {
      "title": "נעילה מעורבת בתל אביב; פאלו אלטו מעל טריליון שקל, אל על קפצה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
      "date": "2026-10-01T11:37:00+00:00"
+    },
+    {
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
+     "date": "2026-10-01T10:49:00+00:00"
     },
     {
      "title": "הקפטן של טיסת פליי דובאי הפך לגיבור לאומי בהודו",
@@ -207,22 +217,12 @@ window.DB.generated = {
      "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
      "date": "2026-09-30T11:37:00+00:00"
-    },
-    {
-     "title": "החוזה הגדול בתולדות סמארט שוטר: מערכות יירוט רחפנים בעד כ-150 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557974",
-     "date": "2026-09-30T11:36:00+00:00"
-    },
-    {
-     "title": "אקירוב רוצה לשלם 788 מיליון שקל כדי למחוק את אלרוב ולנסות להשתלט על כלל ביטוח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557965",
-     "date": "2026-09-30T07:22:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T13:17:24+00:00",
-  "fetched_at": "2026-10-01T13:17:24+00:00"
+  "checked_at": "2026-10-01T14:17:36+00:00",
+  "fetched_at": "2026-10-01T14:17:36+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T13:17:25+00:00",
-  "fetched_at": "2026-10-01T13:17:25+00:00"
+  "checked_at": "2026-10-01T14:17:37+00:00",
+  "fetched_at": "2026-10-01T14:17:37+00:00"
  },
  "tv": {
   "data": [
@@ -2496,8 +2496,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T13:17:27+00:00",
-  "fetched_at": "2026-10-01T13:17:27+00:00"
+  "checked_at": "2026-10-01T14:17:38+00:00",
+  "fetched_at": "2026-10-01T14:17:38+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2587,8 +2587,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T13:17:27+00:00",
-  "fetched_at": "2026-10-01T13:17:27+00:00"
+  "checked_at": "2026-10-01T14:17:38+00:00",
+  "fetched_at": "2026-10-01T14:17:38+00:00"
  },
  "ai": {
   "data": {
@@ -2638,15 +2638,22 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 201,
+     "likes": 203,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 221,
+     "likes": 222,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
+    },
+    {
+     "title": "Wan2.2 14B Preview",
+     "desc_en": "generate a video from an image with a text prompt",
+     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
+     "likes": 226,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Laya Demo",
@@ -2654,13 +2661,6 @@ window.DB.generated = {
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
      "likes": 258,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Wan2.2 14B Preview",
-     "desc_en": "generate a video from an image with a text prompt",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 224,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
@@ -2686,8 +2686,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T13:17:34+00:00",
-  "fetched_at": "2026-10-01T13:17:34+00:00"
+  "checked_at": "2026-10-01T14:17:46+00:00",
+  "fetched_at": "2026-10-01T14:17:46+00:00"
  },
  "abroad": {
   "data": {
@@ -2956,8 +2956,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T13:17:30+00:00",
-  "fetched_at": "2026-10-01T13:17:30+00:00"
+  "checked_at": "2026-10-01T14:17:42+00:00",
+  "fetched_at": "2026-10-01T14:17:42+00:00"
  },
  "idf": {
   "data": [
@@ -2988,7 +2988,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T13:17:30+00:00",
-  "fetched_at": "2026-10-01T13:17:30+00:00"
+  "checked_at": "2026-10-01T14:17:42+00:00",
+  "fetched_at": "2026-10-01T14:17:42+00:00"
  }
 };
