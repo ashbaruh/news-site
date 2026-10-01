@@ -1,96 +1,96 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-01T04:00:00+03:00",
- "generated_at": "2026-10-01T00:40:12+00:00",
+ "slot": "2026-10-01T12:00:00+03:00",
+ "generated_at": "2026-10-01T08:40:20+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10010040-01",
-     "title": "הפניית כלי שיט לאכיפת הסגר",
-     "summary": "פיקוד המרכז של ארצות הברית הודיע כי כוחותיו היפנו מחדש 125 כלי שיט מסחריים כדי לאכפת את הסגר הימי על נמלי איראן.",
+     "id": "IRAN-10010840-01",
+     "title": "עימות חמוש סמוך לזאהדאן",
+     "summary": "התנהל עימות חמוש ממושך בין כוחות הביטחון של איראן לחמושים באזור מנזלאב שליד זאהדאן, תוך שימוש בירי כבד ורקטות נגד טנקים.",
      "axis": "iran",
-     "claim_type": "data",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T22:20:23+00:00",
+     "occurred_at": "2026-10-01T07:37:23+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-30T22:20:23+00:00",
-     "last_update_at": "2026-09-30T22:20:23+00:00",
-     "what_is_not_verified": "ההשפעה המלאה של אכיפת הסגר על הכלכלה האיראנית.",
+     "first_reported_at": "2026-10-01T07:37:23+00:00",
+     "last_update_at": "2026-10-01T07:37:23+00:00",
+     "what_is_not_verified": "תוצאות העימות המדויקות ומספר נפגעים אינם מפורטים מעבר לדיווח על עצם ההתרחשות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_ea570342c2121045",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-says-it-redirected-125-vessels-enforce-iran-blockade",
-       "published_at": "2026-09-30T22:20:23+00:00"
+       "source_id": "src_iranintl",
+       "source_root_id": "or_halvash",
+       "url": "https://www.iranintl.com/en/202610011490",
+       "published_at": "2026-10-01T07:37:23+00:00"
       }
      ],
      "places": [
       {
-       "name": "הים הערבי",
-       "lat": 20.0,
-       "lon": 65.0
+       "name": "זאהדאן, איראן",
+       "lat": 29.4907,
+       "lon": 60.8635
       }
      ]
     },
     {
-     "id": "IRAN-10010040-02",
-     "title": "השמדת היכולות הצבאיות של איראן",
-     "summary": "שר המלחמה האמריקאי טען בפני מנהיגים צבאיים כי כוחות ארצות הברית השמידו את חיל הים, חיל האוויר, מערכות ההגנה והתעשייה הצבאית של איראן.",
+     "id": "IRAN-10010840-02",
+     "title": "דחיית טענות על עזיבת המשלחת באו\"ם",
+     "summary": "משלחת איראן לאומות המאוחדות דחתה את הדיווחים סביב מועד עזיבתה את ניו יורק וטענה כי עזבה בהתאם ללוח הזמנים שנקבע מראש.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T20:39:52+00:00",
+     "occurred_at": "2026-10-01T06:40:18+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-30T20:39:52+00:00",
-     "last_update_at": "2026-09-30T20:39:52+00:00",
-     "what_is_not_verified": "היקף ההרס המדויק בשטח.",
+     "first_reported_at": "2026-10-01T06:40:18+00:00",
+     "last_update_at": "2026-10-01T06:40:18+00:00",
+     "what_is_not_verified": "הטענות הנגדיות מצד גורמים אמריקאיים לא אומתו במסגרת הודעה זו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_4e6668e0366a4254",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-says-american-forces-have-destroyed-irans-military",
-       "published_at": "2026-09-30T20:39:52+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_61575862aea7b8c5",
+       "url": "https://en.irna.ir/news/86279984/Iran-rejects-reports-on-timing-of-delegation-s-departure-from",
+       "published_at": "2026-10-01T06:40:18+00:00"
       }
      ],
      "places": [
       {
-       "name": "קונטיקו, ארצות הברית",
-       "lat": 38.5219,
-       "lon": -77.2911
+       "name": "ניו יורק, ארה\"ב",
+       "lat": 40.7127,
+       "lon": -74.006
       }
      ]
     },
     {
-     "id": "IRAN-10010040-03",
-     "title": "איומי תקיפה ומשא ומתן מצד ארצות הברית",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי ייתכן וארצות הברית תפוצץ את איראן או תגיע עמה לסיכום בקרוב.",
+     "id": "IRAN-10010840-03",
+     "title": "הכחשת מעורבות באספקת חומרי נפץ בבריטניה",
+     "summary": "שר החוץ האיראני דחה באופן קטגורי את ההאשמות של ראש ממשלת בריטניה בדבר מעורבות איראנית בתקרית חומרי הנפץ בבסיס חיל האוויר הבריטי.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T22:47:29+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T22:47:29+00:00",
-     "last_update_at": "2026-09-30T22:47:29+00:00",
-     "what_is_not_verified": "ההחלטה הסופית על אופן הפעולה של ממשל ארצות הברית.",
+     "occurred_at": "2026-10-01T05:31:29+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-01T05:31:29+00:00",
+     "last_update_at": "2026-10-01T05:31:29+00:00",
+     "what_is_not_verified": "אמיתות הטענות הבריטיות על מעורבות איראן טרם אומתו באופן עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_b907799a2a280123",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-may-blow-iran",
-       "published_at": "2026-09-30T22:47:29+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_3f71d5c147e8d98a",
+       "url": "https://en.irna.ir/news/86279956/Iran-FM-dismisses-UK-PM-s-allegations-over-RAF-Fairford-incident",
+       "published_at": "2026-10-01T05:31:29+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
@@ -99,53 +99,70 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10010040-01",
-     "title": "מתקפת ירי על אוטובוס בסוריה",
-     "summary": "שבעה בני אדם נהרגו וארבעה נוספים נפצעו כתוצאה מירי לעבר כלי רכב במחוז חומס.",
+     "id": "NORTH-10010840-01",
+     "title": "תקיפות חיל האוויר בעזה ובלבנון",
+     "summary": "דובר צה\"ל וגורמי צבא ציינו כי בחודש האחרון הותקפו יותר מ-500 מטרות במרחב הביטחוני בלבנון וברצועת עזה.",
+     "axis": "north",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T06:00:12+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T06:00:12+00:00",
+     "last_update_at": "2026-10-01T06:00:12+00:00",
+     "what_is_not_verified": "פירוט מלא של כלל המטרות והנזק אינו מופיע בדיווח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25256",
+       "published_at": "2026-10-01T06:00:12+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10010840-02",
+     "title": "עצירת פעילות צבאית של חזבאללה עיראקי",
+     "summary": "מנהיג קטאיב חיזבאללה בעיראק הודיע על השעיית הפעילות הצבאית של הארגון, למעט יירוט מטוסים עוינים המפרים את מרחב המדינה.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T06:40:42+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T06:40:42+00:00",
+     "last_update_at": "2026-10-01T06:40:42+00:00",
+     "what_is_not_verified": "היקף היישום בפועל של ההשעיה בשטח אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqs-kataib-hezbollah-announces-suspension-military-activities",
+       "published_at": "2026-10-01T06:40:42+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10010840-03",
+     "title": "הסרת סוריה מאיסור ייצוא נשק אמריקאי",
+     "summary": "ממשל טראמפ הוציא את סוריה מרשימת המדינות האסורות ברכישת או ייבוא נשק אמריקאי, כחלק מהקלה הדרגתית של סנקציות.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T23:31:32+00:00",
+     "occurred_at": "2026-10-01T07:55:39+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-30T23:31:32+00:00",
-     "last_update_at": "2026-09-30T23:31:32+00:00",
-     "what_is_not_verified": "זהות המבצעים עומדת בסימן שאלה שכן טרם זוהו.",
+     "first_reported_at": "2026-10-01T07:55:39+00:00",
+     "last_update_at": "2026-10-01T07:55:39+00:00",
+     "what_is_not_verified": "ההשלכות המעשיות המלאות של ההחלטה טרם התבררו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_sana_news_agency",
-       "url": "https://www.newarab.com/news/attack-bus-syria-kills-seven-state-news-agency",
-       "published_at": "2026-09-30T23:31:32+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חומס, סוריה",
-       "lat": 34.7333,
-       "lon": 36.7167
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10010040-02",
-     "title": "פיצוץ בצינור גז המשבית תחנות כוח",
-     "summary": "פיצוץ בצינור גז בתחנת תשרין הוצאת משירות של שלוש תחנות כוח באזור דמשק.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T20:06:48+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T20:06:48+00:00",
-     "last_update_at": "2026-09-30T20:06:48+00:00",
-     "what_is_not_verified": "סיבת הפיצוץ המדויקת בצינור.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_syrian_electricity_company",
-       "url": "https://english.almanar.com.lb/article/132892/",
-       "published_at": "2026-09-30T20:06:48+00:00"
+       "source_root_id": "fh_6495f53883d165a2",
+       "url": "https://www.newarab.com/news/us-removes-syria-arms-export-ban",
+       "published_at": "2026-10-01T07:55:39+00:00"
       }
      ],
      "places": [
@@ -161,89 +178,100 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10010040-01",
-     "title": "פציעת אדם בתקיפה רוסית במחוז קייב",
-     "summary": "אישה נפגעה ונזקים נגרמו למבנים בחמישה מחוזות בעקבות תקיפה רוסית באזור קייב.",
+     "id": "UKRAINE-10010840-01",
+     "title": "מתקפת כטב\"מים נרחבת על אוקראינה",
+     "summary": "כוחות רוסיה תקפו את אוקראינה בעשרות כטב\"מים, מה שהוביל להרוגים, פצועים ונזק לתשתיות בכמה אזורים בהם קייב ואודסה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T18:27:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T18:27:00+00:00",
-     "last_update_at": "2026-09-30T18:27:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא בכל המבנים שנפגעו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_tymur_tkachenko",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055875/",
-       "published_at": "2026-09-30T18:27:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בוריספיל, אוקראינה",
-       "lat": 50.3512,
-       "lon": 30.9508
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10010040-02",
-     "title": "מחאה רשמית של ליטא מול רוסיה",
-     "summary": "משרד החוץ של ליטא הגיש מחאה רשמית נגד רוסיה בעקבות אירוע החבלה באסטוניה והתקיפות באוקראינה.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T23:35:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T23:35:00+00:00",
-     "last_update_at": "2026-09-30T23:35:00+00:00",
-     "what_is_not_verified": "תגובת רוסיה הרשמית למחאה זו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_lithuania_s_ministry_of_foreign_affairs",
-       "url": "https://www.ukrinform.net/rubric-polytics/4169646-lithuania-protests-to-russia-over-sabotage-in-estonia-and-attacks-on-ukraine.html",
-       "published_at": "2026-09-30T23:35:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וילנה, ליטא",
-       "lat": 54.687,
-       "lon": 25.2829
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10010040-03",
-     "title": "ביטול הופעות של קניה וסט ברוסיה",
-     "summary": "הודלף ובוטל רשמית קיום שתי הופעות מתוכננות של האמן קניה וסט בסנקט פטרבורג בחודש אוקטובר.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T22:45:33+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T22:45:33+00:00",
-     "last_update_at": "2026-09-30T22:45:33+00:00",
-     "what_is_not_verified": "הסיבות המלאות לביטול מצד המארגנים.",
+     "occurred_at": "2026-10-01T08:19:21+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T08:19:21+00:00",
+     "last_update_at": "2026-10-01T08:31:20+00:00",
+     "what_is_not_verified": "מספר הנפגעים המלא הסופי והיקף הפגיעה המדויק בכלל אתרי התשתית עודם מתבררים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_organizers_confirmation",
-       "url": "https://kyivindependent.com/kanye-west-concerts-at-russias-gazprom-arena-officially-cancelled/",
-       "published_at": "2026-09-30T22:45:33+00:00"
+       "source_root_id": "fh_8823441961c21ece",
+       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-injure-38-across-ukraine-amid-another-overnight-drone-barrage-nationwide/",
+       "published_at": "2026-10-01T08:31:20+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_8823441961c21ece",
+       "url": "https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato",
+       "published_at": "2026-10-01T08:19:21+00:00"
       }
      ],
      "places": [
       {
-       "name": "סנקט פטרבורג, רוסיה",
-       "lat": 59.9387,
-       "lon": 30.3162
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      },
+      {
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10010840-02",
+     "title": "אסטוניה אוסרת מעבר דגנים מרוסיה ובלארוס",
+     "summary": "שר החוץ של אסטוניה הודיע כי ארצו תאסור מעבר של תוצרת דגנים שמקורה ברוסיה ובבלארוס דרך שטחה.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T08:16:50+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T08:16:50+00:00",
+     "last_update_at": "2026-10-01T08:16:50+00:00",
+     "what_is_not_verified": "השפעת החסימה על נתיבי הסחר החלופיים אינה מאומתת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_49e8c2fa9ef482b0",
+       "url": "https://kyivindependent.com/estonia-bans-transit-of-grain-from-russia-belarus/",
+       "published_at": "2026-10-01T08:16:50+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10010840-03",
+     "title": "פגיעת כטב\"ם במחסנים ובבית ספר בקייב",
+     "summary": "כטב\"ם רוסי פגע במתקן מחסנים ובמבנה בית ספר ברובע סולומיאנסקי שבקייב, וגרם לפרוץ שריפה ולנזק.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T06:59:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-01T06:59:00+00:00",
+     "last_update_at": "2026-10-01T08:18:00+00:00",
+     "what_is_not_verified": "עלות הנזק הכלכלי הישיר למבנים אינה ידועה במלואה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4169900-russian-drone-hits-warehouses-in-kyiv-damage-reported.html",
+       "published_at": "2026-10-01T08:18:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4169865-russian-drone-hits-school-in-kyiv-fire-breaks-out.html",
+       "published_at": "2026-10-01T06:59:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     }
@@ -252,67 +280,27 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10010040-01",
-     "title": "תקיפות אוויריות של צבא תימן הלגיטימי נגד החות'ים",
-     "summary": "צבא תימן ביצע שורת תקיפות ממוקדות באמצעות כטב\"מים ורחפנים נגד תשתיות ומאגרי אמל\"ח של המיליציה החות'ית במחוזות צעדה, אל-בידאא ותעז.",
+     "id": "YEMEN-10010840-01",
+     "title": "פעילות צבאית נרחבת של צבא תימן נגד החות'ים",
+     "summary": "צבא תימן דיווח כי ביצע מאות מבצעים צבאיים נגד החות'ים בשלוש חזיתות שונות, שהביאו לפגיעה במאות מחבלים וציוד צבאי.",
      "axis": "yemen",
-     "claim_type": "incident",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T22:17:15+00:00",
+     "occurred_at": "2026-10-01T06:49:03+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-30T22:17:15+00:00",
-     "last_update_at": "2026-09-30T22:17:15+00:00",
-     "what_is_not_verified": "היקף הנפגעים המלא בקרב פעילי המיליציה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48147",
-       "published_at": "2026-09-30T22:17:15+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צעדה, תימן",
-       "lat": 16.9409,
-       "lon": 43.763
-      },
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10010040-02",
-     "title": "אזהרה סעודית מפני איומי החות'ים",
-     "summary": "יורש העצר הסעודי מוחמד בן סלמאן הזהיר כי ארצו לא תהסס להגיב בנחרצות לכל איום או התקפה, והדגיש את התמיכה בקואליציה מול החות'ים.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T19:25:52+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T19:25:52+00:00",
-     "last_update_at": "2026-09-30T19:25:52+00:00",
-     "what_is_not_verified": "טיב התגובה הסעודית המעשית הבאה.",
+     "first_reported_at": "2026-10-01T06:49:03+00:00",
+     "last_update_at": "2026-10-01T06:49:03+00:00",
+     "what_is_not_verified": "נתוני הנפגעים והנזק המדויקים בצד החות'י מבוססים על הודעת דובר צבא תימן בלבד ואינם מאומתים ממקור ניטרלי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_cddbae9571aa3b22",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-yemen-call-closer-regional-ties-counter-houthi-attacks",
-       "published_at": "2026-09-30T19:25:52+00:00"
+       "source_root_id": "fh_50ce1dd65e63560e",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-claims-468-operations-targeting-houthis-killed-wounded",
+       "published_at": "2026-10-01T06:49:03+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
+     "places": []
     }
    ]
   }
