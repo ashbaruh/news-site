@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T08:17:18+00:00",
-  "fetched_at": "2026-10-01T08:17:18+00:00"
+  "checked_at": "2026-10-01T09:00:09+00:00",
+  "fetched_at": "2026-10-01T09:00:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T08:17:28+00:00",
-  "fetched_at": "2026-10-01T08:17:28+00:00"
+  "checked_at": "2026-10-01T09:00:31+00:00",
+  "fetched_at": "2026-10-01T09:00:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T08:17:30+00:00",
-  "fetched_at": "2026-10-01T08:17:30+00:00"
+  "checked_at": "2026-10-01T09:00:32+00:00",
+  "fetched_at": "2026-10-01T09:00:32+00:00"
  },
- "generated_at": "2026-10-01T08:17:30+00:00",
+ "generated_at": "2026-10-01T09:00:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,24 +94,29 @@ window.DB.generated = {
     {
      "title": "באמירויות מעלים לראשונה אפשרות של פיגוע: \"בודקים זאת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T08:14:00+00:00"
+     "date": "2026-10-01T08:52:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "שווה כמעט כמו כל חברותיה למדד: המספרים מאחורי השווי ההיסטורי של פאלו אלטו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558127",
+     "date": "2026-10-01T08:51:00+00:00"
+    },
+    {
      "title": "ירידות חדות באירופה; תשואות האג\"ח בבריטניה ובארה\"ב בשיאים חדשים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T07:41:00+00:00"
+     "date": "2026-10-01T08:44:00+00:00"
     },
     {
-     "title": "איך מקבלים תשואה דולרית של 5.5% שנה? \"יש לא מעט חלופות\"",
+     "title": "מגמה מעורבת בתל אביב; לראשונה חברה מעל שווי של טריליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
+     "date": "2026-10-01T08:24:00+00:00"
+    },
+    {
+     "title": "איך מקבלים תשואה דולרית של 5.5% בשנה? \"יש לא מעט חלופות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558014",
      "date": "2026-10-01T07:27:00+00:00"
-    },
-    {
-     "title": "לראשונה בבורסה בתל אביב: חברה בשווי טריליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
-     "date": "2026-10-01T07:18:00+00:00"
     },
     {
      "title": "המסלול שטיפס, וזה שאכזב: מה עשה החיסכון שלכם בספטמבר?",
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-09-30T07:22:00+00:00"
     },
     {
-     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
-     "date": "2026-09-30T06:00:00+00:00"
-    },
-    {
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T08:17:20+00:00",
-  "fetched_at": "2026-10-01T08:17:20+00:00"
+  "checked_at": "2026-10-01T09:00:10+00:00",
+  "fetched_at": "2026-10-01T09:00:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T08:17:21+00:00",
-  "fetched_at": "2026-10-01T08:17:21+00:00"
+  "checked_at": "2026-10-01T09:00:11+00:00",
+  "fetched_at": "2026-10-01T09:00:11+00:00"
  },
  "tv": {
   "data": [
@@ -2356,8 +2356,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T08:17:22+00:00",
-  "fetched_at": "2026-10-01T08:17:22+00:00"
+  "checked_at": "2026-10-01T09:00:13+00:00",
+  "fetched_at": "2026-10-01T09:00:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2447,12 +2447,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T08:17:22+00:00",
-  "fetched_at": "2026-10-01T08:17:22+00:00"
+  "checked_at": "2026-10-01T09:00:13+00:00",
+  "fetched_at": "2026-10-01T09:00:13+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-4-argon-launch/",
+     "date": "2026-10-01T07:34:40+00:00",
+     "launch": true,
+     "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
+    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -2461,27 +2468,16 @@ window.DB.generated = {
      "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
      "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-     "date": "2026-09-29T10:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing GPT-6.1 Sol",
-     "title_he": "הכירו את GPT-6.1 Sol",
-     "translated_by": "google"
     }
    ],
-   "candidates": 8,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 348,
+     "likes": 349,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2530,14 +2526,14 @@ window.DB.generated = {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 65,
+     "likes": 66,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 71,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     },
     {
@@ -2550,8 +2546,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T08:17:27+00:00",
-  "fetched_at": "2026-10-01T08:17:27+00:00"
+  "checked_at": "2026-10-01T09:00:30+00:00",
+  "fetched_at": "2026-10-01T09:00:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2830,8 +2826,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T08:17:25+00:00",
-  "fetched_at": "2026-10-01T08:17:25+00:00"
+  "checked_at": "2026-10-01T09:00:16+00:00",
+  "fetched_at": "2026-10-01T09:00:16+00:00"
  },
  "idf": {
   "data": [
@@ -2862,7 +2858,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T08:17:26+00:00",
-  "fetched_at": "2026-10-01T08:17:26+00:00"
+  "checked_at": "2026-10-01T09:00:17+00:00",
+  "fetched_at": "2026-10-01T09:00:17+00:00"
  }
 };
