@@ -1,0 +1,331 @@
+{
+ "status": "draft",
+ "received_sha256_12": "df9959ec941f",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 5,
+   "shared_root": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-01T05:36:53+00:00",
+  "window": {
+   "from": "2026-09-30T05:36:53+00:00",
+   "to": "2026-10-01T05:36:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610010536"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית נמשכת בין ישראל לחיזבאללה ולגורמים בדרום לבנון, לצד אירועים ביטחוניים בדרום סוריה הכוללים סיכול חוליות טרור ותקיפות נקודתיות. בלבנון נמשך הדיון הציבורי סביב פירוק חיזבאללה מנשקו, בעוד גורמים רשמיים קוראים לריבונות המדינה ולשליטה בלעדית על הנשק. ישראל ממשיכה בפעילות מבצעית בגבול לבנון וסוריה.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם אירועי אש ותקיפות"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילה עם סיכול חוליות ותקיפות נקודתיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10010536-01",
+    "title": "תקיפה ארטיлеרית ישראלית בדרום לבנון",
+    "summary": "בוצע ירי ארטילערי ישראלי לעבר פאתי העיירה חאריס",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T05:20:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T05:20:06+00:00",
+    "last_update_at": "2026-10-01T05:20:06+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_src_almanar",
+      "url": "https://english.almanar.com.lb/article/132937/",
+      "published_at": "2026-10-01T05:20:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חאריס, לבנון",
+      "lat": 33.1768,
+      "lon": 35.3799
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10010536-02",
+    "title": "ירי מקלעים ישראלי בחדאתה",
+    "summary": "כוחות ישראליים ביצעו ירי מקלעים באזור חדאתה",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T05:18:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T05:18:18+00:00",
+    "last_update_at": "2026-10-01T05:18:18+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_67b4bfd944d4e065",
+      "url": "https://english.almanar.com.lb/article/132927/",
+      "published_at": "2026-10-01T05:18:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאתה, לבנון",
+      "lat": 33.165,
+      "lon": 35.3916
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10010536-03",
+    "title": "ירי פגזים ישראלי באזור קוניטרה",
+    "summary": "הצבא הישראלי שיגר שלושה פגזים לעבר אזור סכר אל-מנטרה במחוז קוניטרה בסוריה",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:56:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T00:56:04+00:00",
+    "last_update_at": "2026-10-01T04:37:06+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-attacks-area-syrias-southern-quneitra-province",
+      "published_at": "2026-10-01T04:37:06+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-dam-area-in-southern-syria/4074352",
+      "published_at": "2026-10-01T00:56:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10010536-04",
+    "title": "יציאת כוחות צק\"ח גולני לרענון אחרי פעילות בדרום לבנון",
+    "summary": "כוחות צק\"ח גולני יצאו לרענון לאחר שבעה חודשי פעילות שבהם הושמדו רקטות, מטענים, רחפני נפץ ותשתיות טרור בדרום לבנון",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T06:00:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T06:00:25+00:00",
+    "last_update_at": "2026-09-30T06:00:25+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25252",
+      "published_at": "2026-09-30T06:00:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10010536-05",
+    "title": "תקיפה והפצצה בין חולא ומרכבא",
+    "summary": "הצבא הישראלי ביצע הפצצה חדשה בין עיירות הגבול חולא ומרכבא",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T17:13:26+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T17:13:26+00:00",
+    "last_update_at": "2026-09-30T17:13:26+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_68159ff9eada6f2e",
+      "url": "https://english.almanar.com.lb/article/132872/",
+      "published_at": "2026-09-30T17:13:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חולא, לבנון",
+      "lat": 33.2102,
+      "lon": 35.5187
+     },
+     {
+      "name": "מרכבא, לבנון",
+      "lat": 33.2314,
+      "lon": 35.5177
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10010536-06",
+    "title": "פיצוץ אובייקט חשוד בנבטיה אל-פוקא",
+    "summary": "חפץ חשוד התפוצץ ליד מחסום צבאי באזור נבטיה אל-פוקא, ופצע מספר אנשים ביניהם אזרחים וחייל צבא לבנון",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T13:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T13:55:00+00:00",
+    "last_update_at": "2026-09-30T13:55:00+00:00",
+    "what_is_not_verified": "לא צוין האם מדובר במוקש או פליט שלא התפוצץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/960517/in-nabatieh-al-fawqa-unexploded-ordnance-keeps-the-danger-alive/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960517",
+      "published_at": "2026-09-30T13:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10010536-07",
+    "title": "סיכול חוליית חיזבאללה בבסין אל-ירמוק",
+    "summary": "כוחות הביטחון הפנימי הסורי עצרו חוליה של שלושה חברים המשויכת לחיזבאללה באזור בסין אל-ירמוק שתכננה להקים תשתית לשיגור רקטות לעבר ישראל",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T15:55:47+00:00",
+    "last_update_at": "2026-09-30T15:55:47+00:00",
+    "what_is_not_verified": "זהותם המדויקת והרקע של העצורים לא נחשפו במלואם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+      "published_at": "2026-09-30T15:55:47+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "זהותם המדויקת של חברי חוליית חיזבאללה שנעצרו באגן הירמוך אינה מאומתת",
+   "מהות החפץ שהתפוצץ בנבטיה אל-פוקא אינה מאומתת באופן סופי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0736,
+    "unit": "ILS",
+    "change_pct": 0.57,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פגיעה בתשתיות טרור ונטרול איומים בגבול הצפון"
+    ],
+    "inferred": [
+     "מניעת התבססות של חיזבאללה וגורמים עוינים בגבולות לבנון וסוריה"
+    ],
+    "forecast": [
+     "המשך פעילות מבצעית ממוקדת נגד תשתיות טרור בגבולות הצפון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "שמירה על ההתנגדות ודחיית כל פשרה בנוגע לריבונותה ונשקה"
+    ],
+    "inferred": [
+     "הקמת תשתיות שיגור גם משטח סוריה כדי לעקוף את הלחץ בלבנון"
+    ],
+    "forecast": [
+     "המשך ניסיונות שימור כוחו הצבאי למרות הלחצים הפנימיים והחיצוניים"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "השגת שליטה בלעדית של המדינה על הנשק וקידום יציבות"
+    ],
+    "inferred": [
+     "ניסיון להקטין את ההשפעה המזוינת של חיזבאללה תחת לחץ בינלאומי"
+    ],
+    "forecast": [
+     "המשך הדרישה לפירוק המיליציות מנשקן לצד חיזוק צבא לבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/syrian-security-forces-intercept-a-hezbollah-cell-in-the-yarmouk-basin-september-29-2026/",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/132872/",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-dam-area-in-southern-syria/4074352",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/960517/in-nabatieh-al-fawqa-unexploded-ordnance-keeps-the-danger-alive/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960517",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-attacks-area-syrias-southern-quneitra-province",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25252",
+    "accessed_at": "2026-10-01T05:36:53+00:00"
+   }
+  ]
+ }
+}

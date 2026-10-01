@@ -313,199 +313,355 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-09-29T2340__iran-202609292340.json",
+  "draft": "drafts/iran/2026-10-01T0525__iran-202610010525.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-09-29T23:40:44+00:00",
+   "generated_at": "2026-10-01T05:25:59+00:00",
    "window": {
-    "from": "2026-09-28T23:40:44+00:00",
-    "to": "2026-09-29T23:40:44+00:00"
+    "from": "2026-09-30T05:25:59+00:00",
+    "to": "2026-10-01T05:25:59+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202609292340"
+    "run_id": "iran-202610010525"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך כאשר ארה\"ב מקדמת לחץ כלכלי וסנקציות, בעוד איראן מדווחת על שחיקת מעמדה במצר הורמוז וקוראת לתגובות מדיניות. במקביל, שחקניות אזוריות כמו סעודיה והאמירויות מהדקות שורוק עקב האיומים מצד שלוחאן של איראן בתימן, וקטאר מעורבת בחילופי האשמות דיפלומטיים עם ישראל.",
+   "summary": "העימות בין איראן לבין ישראל וארה\"ב מתנהל במספר חזיתות הכוללות אירועי תעופה חשודים, האשמות הדדיות על פעולות טרור וסיכולים, לצד לחץ כלכלי וסגר ימי שמפעילה ארצות הברית. במקביל, כוחות ארה\"ב השלימו את נסיגתם מעיראק, דבר שעורר חגיגות בקרב מיליציות פרו-איראניות, בעוד המגעים הדיפלומטיים והגרעיניים נתונים במבוי סתום ומלווים באיומים צבאיים.",
    "fronts": [
     {
-     "name": "החזית הישראלית-אמריקאית מול איראן",
-     "status": "פעיל - כולל לחץ כלכלי, סנקציות, ואיומי עימות צבאי"
+     "name": "ישראל - איראן ושלוחותיה",
+     "status": "פעיל ומתוח"
     },
     {
-     "name": "חזית המפרץ מול השלוחים האיראנים",
-     "status": "פעיל - הידוק שיתוף פעולה אזורי מול פעילות החות'ים"
+     "name": "ארה\"ב - איראן",
+     "status": "פעיל הכולל לחץ ימי ודיפלומטי"
+    },
+    {
+     "name": "בריטניה - איראן",
+     "status": "מתוח בעקבות אירועים ביטחוניים"
     }
    ],
    "events": [
     {
-     "id": "IRAN-09292340-01",
-     "title": "הטלת סנקציות כלכליות אמריקאיות",
-     "summary": "ארה\"ב הטילה סנקציות חדשות על גופים ויחידים הקשורים לסיוע צבאי ורכש נשק עבור איראן, וממשיכה בפעילות כלכלית נגד תשתיות הטרור שלה.",
-     "axis": "ארה\"ב-ישראל מול איראן",
+     "id": "IRAN-10010525-01",
+     "title": "ניסיון תקיפה וטיסה חשודה בדרך לישראל",
+     "summary": "אירוע חריג בטיסה שיועדה לתל אביב ובו נטען לניסיון פגיעה במטוס, כאשר מתנהלת חקירה בנושא",
+     "axis": "ישראל-איראן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-29T18:46:27+00:00",
-     "last_update_at": "2026-09-29T22:06:41+00:00",
-     "what_is_not_verified": "היקף ההשפעה המדויק של הסנקציות אינו מאומת",
+     "occurred_at": "2026-09-30T22:58:10+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-30T22:58:10+00:00",
+     "last_update_at": "2026-10-01T04:55:41+00:00",
+     "what_is_not_verified": "האם איראן עמדה מאחורי ניסיון הפגיעה במטוס ומה היו פרטי התקרית המדויקים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_f9109a5dc269a6c9",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-treasury-secretary-says-economic-action-against-iran-continue",
-       "published_at": "2026-09-29T22:06:41+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+       "published_at": "2026-10-01T04:55:41+00:00"
       },
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_f8a739cb3145bf74",
-       "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
-       "published_at": "2026-09-29T20:48:34+00:00"
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/sk4mypcczx",
+       "published_at": "2026-10-01T04:00:10+00:00"
       },
       {
        "source_id": "src_almonitor",
-       "source_root_id": "fh_604e90c968886b12",
-       "url": "https://www.al-monitor.com/originals/2026/09/us-imposes-sanctions-13-tied-iran-weapons-procurement",
-       "published_at": "2026-09-29T18:46:27+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/netanyahu-says-israel-will-get-root-co-pilot-foiled-bid-crash-flydubai-flight",
+       "published_at": "2026-10-01T03:46:33+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-says-too-early-tell-who-behind-attempt-crashing-israel-bound",
+       "published_at": "2026-10-01T02:55:29+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21527219",
+       "published_at": "2026-09-30T23:46:19+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527168",
+       "published_at": "2026-09-30T22:58:10+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "תל אביב, ישראל",
+       "lat": 32.0853,
+       "lon": 34.7818
+      }
+     ]
     },
     {
-     "id": "IRAN-09292340-02",
-     "title": "הצעת איראן בנוגע למצר הורמוז",
-     "summary": "איראן מסרה כי היא ממתינה לתגובת ארה\"ב להצעה לפתיחת מצר הורמוז בתמורה לדרישות שונות.",
-     "axis": "ארה\"ב-ישראל מול איראן",
+     "id": "IRAN-10010525-02",
+     "title": "הצהרת בריטניה על מעורבות איראנית לכאורה ליד בסיס חיל האוויר",
+     "summary": "ראש ממשלת בריטניה הצהיר כי יש אינדיקציות חזקות למעורבות איראנית באירוע ביטחוני ליד בסיס פיירפורד",
+     "axis": "ארה\"ב ובריטניה-איראן",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T00:00:00+00:00",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-09-29T06:32:31+00:00",
-     "last_update_at": "2026-09-29T12:28:10+00:00",
-     "what_is_not_verified": "פרטי ההצעה המדויקים ותגובת ארה\"ב בפועל אינם מאומתים ממקור ראשון אמריקאי",
+     "first_reported_at": "2026-09-30T05:38:01+00:00",
+     "last_update_at": "2026-10-01T02:30:45+00:00",
+     "what_is_not_verified": "האחריות המדויקת של איראן לאירוע והאם החשודים שחררו בערבות כראוי",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_iran",
-       "url": "https://www.iranintl.com/en/202609290526",
-       "published_at": "2026-09-29T12:28:10+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
+       "published_at": "2026-10-01T02:30:45+00:00"
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "or_iran",
-       "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz",
-       "published_at": "2026-09-29T06:32:31+00:00"
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+       "published_at": "2026-10-01T01:42:31+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/uk-pm-says-strong-indications-iran-involved-airbase-incident",
+       "published_at": "2026-09-30T22:30:26+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-09-30T21:26:59+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202609308223",
+       "published_at": "2026-09-30T19:31:12+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48134",
+       "published_at": "2026-09-30T16:43:57+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131049",
+       "published_at": "2026-09-30T05:38:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
+       "name": "פיירפורד, בריטניה",
+       "lat": 51.7108,
+       "lon": -1.782
       }
      ]
     },
     {
-     "id": "IRAN-09292340-03",
-     "title": "עיקול מטוס איראני באיסטנבול",
-     "summary": "מטוס בואינג 737 של חברת תעופה איראנית עוקל בנמל התעופה באיסטנבול בשל חוב כספי לחברת שירותים טורקית.",
-     "axis": "איראן מול טורקיה",
+     "id": "IRAN-10010525-03",
+     "title": "סיום נסיגת הכוחות האמריקאיים מעיראק",
+     "summary": "הפנטגון הוציא לפועל את השלמת הנסיגה הרשמית של כוחות ארצות הברית מעיראק, ומיליציות חגגו זאת",
+     "axis": "ארה\"ב-עיראק ומיליציות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T11:28:40+00:00",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-29T11:28:40+00:00",
-     "last_update_at": "2026-09-29T11:28:40+00:00",
-     "what_is_not_verified": "פרטי החוב המדויקים אינם מאומתים",
+     "first_reported_at": "2026-09-30T13:59:02+00:00",
+     "last_update_at": "2026-09-30T18:40:36+00:00",
+     "what_is_not_verified": "ההשלכות הביטחוניות המדויקות על התחזקות דאעש והמיליציות באזור",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/48085",
-       "published_at": "2026-09-29T11:28:40+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "fh_701d4df228a87ee9",
+       "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+       "published_at": "2026-09-30T18:40:36+00:00"
+      },
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "fh_5a9c051240df96d2",
+       "url": "https://www.fdd.org/analysis/2026/09/30/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends/",
+       "published_at": "2026-09-30T16:39:17+00:00"
+      },
+      {
+       "source_id": "src_lwj",
+       "source_root_id": "fh_701d4df228a87ee9",
+       "url": "https://www.longwarjournal.org/archives/2026/09/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends.php",
+       "published_at": "2026-09-30T16:33:28+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_701d4df228a87ee9",
+       "url": "https://t.me/abualiexpress/131097",
+       "published_at": "2026-09-30T13:59:02+00:00"
       }
      ],
      "places": [
       {
-       "name": "נמל התעופה באיסטנבול, טורקיה",
-       "lat": 41.2749,
-       "lon": 28.7323
-      }
-     ]
-    },
-    {
-     "id": "IRAN-09292340-04",
-     "title": "פסיקת בית משפט באיראן בפרשת סולימאני",
-     "summary": "מערכת המשפט באיראן חייבה את ממשלת ארה\"ב לשלם 48 מיליארד דולר בהליך משפטי הקשור לחיסול קאסם סולימאני.",
-     "axis": "איראן מול ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-29T11:26:12+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-29T11:26:12+00:00",
-     "last_update_at": "2026-09-29T11:26:12+00:00",
-     "what_is_not_verified": "יכולת האכיפה של הפסיקה אינה מאומתת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_iranian_judiciary_representative_kazemi",
-       "url": "https://t.me/alexmehacarmel/48084",
-       "published_at": "2026-09-29T11:26:12+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בגדד, עיראק",
+       "name": "בגדאד, עיראק",
        "lat": 33.3062,
        "lon": 44.3872
+      },
+      {
+       "name": "ארביל, עיראק",
+       "lat": 36.1912,
+       "lon": 44.0094
       }
      ]
     },
     {
-     "id": "IRAN-09292340-05",
-     "title": "פגישת בכירים מסעודים ואמירתים",
-     "summary": "סגן נשיא איחוד האמירויות ביקר בסעודיה ונפגש עם יורש העצר הסעודי על רקע האיומים האזוריים והחורתים מתימן.",
-     "axis": "המפרץ מול החות'ים",
+     "id": "IRAN-10010525-04",
+     "title": "אכיפת הסגר הימי של פיקוד המרכז האמריקאי על נמלי איראן",
+     "summary": "פיקוד המרכז האמריקאי הודיע על הפניית כלי שיט מסחריים כדי לאכוף את הסגר הימי על איראן",
+     "axis": "ארה\"ב-איראן",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-30T22:20:23+00:00",
+     "last_update_at": "2026-09-30T22:20:23+00:00",
+     "what_is_not_verified": "היקף ההשפעה המדויק על הכלכלה האיראנית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_ea570342c2121045",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-says-it-redirected-125-vessels-enforce-iran-blockade",
+       "published_at": "2026-09-30T22:20:23+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "הים הערבי",
+       "lat": 20.0,
+       "lon": 65.0
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10010525-05",
+     "title": "תפיסת מטוס איראני בטורקיה בגין חובות",
+     "summary": "רשויות טורקיה עצרו מטוס של חברת תעופה איראנית בנמל תעופה בעקבות חוב כספי",
+     "axis": "איראן-טורקיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-29T20:25:53+00:00",
-     "last_update_at": "2026-09-29T20:46:26+00:00",
-     "what_is_not_verified": "ההסכמות המדויקות בין הצדדים אינן מאומתות במלואן",
+     "occurred_at": "2026-09-30T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-09-30T15:58:29+00:00",
+     "last_update_at": "2026-09-30T15:58:29+00:00",
+     "what_is_not_verified": "הקשר המדויק של התפיסה לסנקציות האמריקאיות החדשות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
-       "source_root_id": "fh_989d80038769485a",
-       "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
-       "published_at": "2026-09-29T20:46:26+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_6164956ff8e5504a",
-       "url": "https://www.middleeasteye.net/news/saudi-arabia-turns-uae-white-horse-it-gears-battle-yemens-houthis",
-       "published_at": "2026-09-29T20:25:53+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/09/turkey-seizes-irans-caspian-airlines-jet-over-34m-debt",
+       "published_at": "2026-09-30T15:58:29+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "איסטנבול, טורקיה",
+       "lat": 41.0064,
+       "lon": 28.9759
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10010525-06",
+     "title": "סיכול מזימת חבלה של חזבאללה בסוריה",
+     "summary": "כוחות הביטחון בסוריה דיווחו על סיכול תא שפעל מטעם חזבאללה ותכנן מתקפות רקטיות באזור דרום סוריה",
+     "axis": "ישראל-סוריה-חזבאללה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-29T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-09-30T19:09:58+00:00",
+     "last_update_at": "2026-09-30T19:09:58+00:00",
+     "what_is_not_verified": "האם היעד הספציפי היה כוחות ישראל או שטח ישראל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "fh_1f64e743588fca1b",
+       "url": "https://www.fdd.org/analysis/2026/09/30/syria-says-it-thwarted-hezbollah-plot-israel-likely-target/",
+       "published_at": "2026-09-30T19:09:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10010525-07",
+     "title": "מחלוקת דיפלומטית סביב משלחת איראן לאו\"ם בארה\"ב",
+     "summary": "חילופי גרסאות בין ארה\"ב לאיראן בנוגע לדרישה או ליציאה של המשלחת האיראנית מניו יורק לאחר מבוי סתום בשיחות",
+     "axis": "ארה\"ב-איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-01T01:42:31+00:00",
+     "last_update_at": "2026-10-01T04:29:46+00:00",
+     "what_is_not_verified": "האם ניתנה פקודת גירוש רשמית על ידי מזכיר המדינה האמריקאי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_ede755261841c563",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-un-mission-dismisses-us-expulsion-claim-baseless-and-worthless",
+       "published_at": "2026-10-01T04:29:46+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_ede755261841c563",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527431",
+       "published_at": "2026-10-01T03:32:24+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_ede755261841c563",
+       "url": "https://www.maariv.co.il/breaking-news/article-1372406",
+       "published_at": "2026-10-01T03:10:54+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_ede755261841c563",
+       "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+       "published_at": "2026-10-01T01:42:31+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
+      },
+      {
+       "name": "דוחא, קטר",
+       "lat": 25.2856,
+       "lon": 51.5264
       }
      ]
     }
    ],
    "not_verified": [
-    "ההיתכנות והפרטים המדויקים של הצעת איראן לפתיחת מצר הורמוז ותגובת ארה\"ב עליה",
-    "ההשפעה המעשית של פסיקת בית המשפט באיראן נגד ארה\"ב בפרשת סולימאני",
-    "קיומו או אופיו המדויק של 'מזימת פיצוץ' איראנית נגד בסיס צבאי בריטי-אמריקאי"
+    "הקשר הישיר של ממשלת איראן לאירועי טיסת פליי דובאי ולתקרית בבסיס פיירפורד בבריטניה",
+    "הפרטים המדויקים סביב עזיבת המשלחת האיראנית מארה\"ב והאם גורשה בפועל",
+    "טענות סוכנות פארס לפיהן ישראל תכננה פעולת דגל כוזב באמצעות המוסד"
    ],
    "map": {
     "confidence": "medium",
@@ -516,108 +672,155 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0561,
+     "value": 3.0736,
      "unit": "ILS",
-     "change_pct": -0.24,
+     "change_pct": 0.57,
      "source_id": "src_ecb",
-     "as_of": "2026-09-29T15:00:00+00:00"
+     "as_of": "2026-09-30T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "דרישה להסרת הסנקציות על מגזר הנפט",
-      "דרישה לסיום הסגר הימי האמריקאי",
-      "דרישה להפסקת אש אזורית בתמורה לפתיחת מצר הורמוז"
+      "המשך פיתוח מרחב סייבר ותקשורת עצמאי",
+      "הגנה על נכסיה התרבותיים והתנגדות ללחץ זר"
      ],
      "inferred": [
-      "ניסיון להפחית את הלחץ הכלכלי באמצעות הצעות דיפלומטיות",
-      "ניסיון לערער את הלגיטימציה של פעילות ארה\"ב וישראל באזור"
+      "שימור השפעה אזורית באמצעות מיליציות ושלוחות",
+      "היערכות לעימות ממושך ומלחמה רחבת היקף מול ארה\"ב וישראל"
      ],
      "forecast": [
-      "המשך מאבק כלכלי תחת לחץ הסנקציות",
-      "התאמת אמצעי הלחימה לפי שינוי אופי העימות"
-     ]
-    },
-    {
-     "actor": "ארה\"ב",
-     "declared": [
-      "המשך הפעילות הכלכלית במסגרת מבצע 'אוקיינוס כלכלי' להחלשת המשטר האיראני",
-      "שיבוש המנגנונים הפיננסיים של משמרות המהפכה"
-     ],
-     "inferred": [
-      "הפעלת לחץ מסיבי במטרה לאלץ את איראן לשאת ולתת או להביא לקריסת המערכת הכלכלית שלה"
-     ],
-     "forecast": [
-      "המשך אכיפת סנקציות ומצור כלכלי עד להשגת יעדי הפירוק של תוכניות איראן"
+      "החמרת המתיחות סביב נתיבי השיט והתעופה",
+      "המשך ניסיונות עקיפים לפגוע ביעדים מערביים וישראליים"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת התבססות איראנית ושלוחותיה באזור"
+      "חקר לעומק של אירועי הטרור והתעופה המכוונים נגדה",
+      "מניעת ביסוס תשובות טרור של שלוחות איראן בגבולותיה"
      ],
      "inferred": [
-      "חיזוק הבריתות האזוריות (כגון הסכמי אברהם והידוק קשרים עם מדינות המפרץ) מול הציר האיראני"
+      "הידוק שיתוף פעולה מודיעיני וביטחוני אזורי מול איומי איראן",
+      "מעקב קפדני אחר ניסיונות הסחה ופעולות טרור של ציר ההתנגדות"
      ],
      "forecast": [
-      "המשך שיתוף פעולה אסטרטגי ומדיני במרחב המפרץ נגד איומי איראן ושלוחותיה"
+      "השתתפות בחקירות בינלאומיות של אירועי התעופה",
+      "המשך פעילות סיכול נגד תשתיות שלוח איראניות"
+     ]
+    },
+    {
+     "actor": "ארה\"ב",
+     "declared": [
+      "אכיפת סגר ימי מלא על נמלי איראן",
+      "השלמת נסיגה צבאית מעיראק תוך שמירת מוכנות אזורית"
+     ],
+     "inferred": [
+      "הפעלת לחץ מקסימלי כלכלי ודיפלומטי על טהרן",
+      "שמירת אופציה לתגובה צבאית חריפה במקרה של הסלמה"
+     ],
+     "forecast": [
+      "המשך אכיפת סנקציות חמורות בתחומי התעופה והסחר",
+      "תגובה אפשרית לפרובוקציות איראניות במפרץ או באירופה"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/09/uae-vice-president-visits-saudi-arabia-first-visit-rift",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/09/turkey-seizes-irans-caspian-airlines-jet-over-34m-debt",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     },
     {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_fdd",
+     "url": "https://www.fdd.org/analysis/2026/09/30/syria-says-it-thwarted-hezbollah-plot-israel-likely-target/",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202609290526",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "url": "https://www.iranintl.com/en/202609308223",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527431",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_lwj",
+     "url": "https://www.longwarjournal.org/archives/2026/09/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends.php",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1372406",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/news/saudi-arabia-turns-uae-white-horse-it-gears-battle-yemens-houthis",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-un-mission-dismisses-us-expulsion-claim-baseless-and-worthless",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/131097",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48084",
-     "accessed_at": "2026-09-29T23:40:44+00:00"
+     "url": "https://t.me/alexmehacarmel/48134",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+     "accessed_at": "2026-10-01T05:25:59+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-29T09:00:14+00:00",
+  "previous_generated_at": "2026-09-29T23:40:44+00:00",
   "changes": {
-   "IRAN-09292340-01": {
+   "IRAN-10010525-01": {
     "kind": "new"
    },
-   "IRAN-09292340-02": {
+   "IRAN-10010525-02": {
     "kind": "new"
    },
-   "IRAN-09292340-03": {
+   "IRAN-10010525-03": {
     "kind": "new"
    },
-   "IRAN-09292340-04": {
+   "IRAN-10010525-04": {
     "kind": "new"
    },
-   "IRAN-09292340-05": {
-    "kind": "possible",
-    "prev": "פגישת בכירים באיחוד הארויות בנושא איראן והחות'ים",
-    "score": 0.467
+   "IRAN-10010525-05": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "עיקול מטוס איראני באיסטנבול",
+    "score": 0.817
+   },
+   "IRAN-10010525-06": {
+    "kind": "new"
+   },
+   "IRAN-10010525-07": {
+    "kind": "new"
    }
   }
  },

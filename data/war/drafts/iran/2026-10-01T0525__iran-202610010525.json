@@ -1,0 +1,493 @@
+{
+ "status": "draft",
+ "received_sha256_12": "86aa7187aa9d",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "verified": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-01T05:25:59+00:00",
+  "window": {
+   "from": "2026-09-30T05:25:59+00:00",
+   "to": "2026-10-01T05:25:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610010525"
+  },
+  "summary": "העימות בין איראן לבין ישראל וארה\"ב מתנהל במספר חזיתות הכוללות אירועי תעופה חשודים, האשמות הדדיות על פעולות טרור וסיכולים, לצד לחץ כלכלי וסגר ימי שמפעילה ארצות הברית. במקביל, כוחות ארה\"ב השלימו את נסיגתם מעיראק, דבר שעורר חגיגות בקרב מיליציות פרו-איראניות, בעוד המגעים הדיפלומטיים והגרעיניים נתונים במבוי סתום ומלווים באיומים צבאיים.",
+  "fronts": [
+   {
+    "name": "ישראל - איראן ושלוחותיה",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "ארה\"ב - איראן",
+    "status": "פעיל הכולל לחץ ימי ודיפלומטי"
+   },
+   {
+    "name": "בריטניה - איראן",
+    "status": "מתוח בעקבות אירועים ביטחוניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10010525-01",
+    "title": "ניסיון תקיפה וטיסה חשודה בדרך לישראל",
+    "summary": "אירוע חריג בטיסה שיועדה לתל אביב ובו נטען לניסיון פגיעה במטוס, כאשר מתנהלת חקירה בנושא",
+    "axis": "ישראל-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T22:58:10+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T22:58:10+00:00",
+    "last_update_at": "2026-10-01T04:55:41+00:00",
+    "what_is_not_verified": "האם איראן עמדה מאחורי ניסיון הפגיעה במטוס ומה היו פרטי התקרית המדויקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+      "published_at": "2026-10-01T04:55:41+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sk4mypcczx",
+      "published_at": "2026-10-01T04:00:10+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/netanyahu-says-israel-will-get-root-co-pilot-foiled-bid-crash-flydubai-flight",
+      "published_at": "2026-10-01T03:46:33+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-says-too-early-tell-who-behind-attempt-crashing-israel-bound",
+      "published_at": "2026-10-01T02:55:29+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21527219",
+      "published_at": "2026-09-30T23:46:19+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527168",
+      "published_at": "2026-09-30T22:58:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תל אביב, ישראל",
+      "lat": 32.0853,
+      "lon": 34.7818
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-02",
+    "title": "הצהרת בריטניה על מעורבות איראנית לכאורה ליד בסיס חיל האוויר",
+    "summary": "ראש ממשלת בריטניה הצהיר כי יש אינדיקציות חזקות למעורבות איראנית באירוע ביטחוני ליד בסיס פיירפורד",
+    "axis": "ארה\"ב ובריטניה-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T05:38:01+00:00",
+    "last_update_at": "2026-10-01T02:30:45+00:00",
+    "what_is_not_verified": "האחריות המדויקת של איראן לאירוע והאם החשודים שחררו בערבות כראוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
+      "published_at": "2026-10-01T02:30:45+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+      "published_at": "2026-10-01T01:42:31+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/uk-pm-says-strong-indications-iran-involved-airbase-incident",
+      "published_at": "2026-09-30T22:30:26+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-30T21:26:59+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202609308223",
+      "published_at": "2026-09-30T19:31:12+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48134",
+      "published_at": "2026-09-30T16:43:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131049",
+      "published_at": "2026-09-30T05:38:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.7108,
+      "lon": -1.782
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-03",
+    "title": "סיום נסיגת הכוחות האמריקאיים מעיראק",
+    "summary": "הפנטגון הוציא לפועל את השלמת הנסיגה הרשמית של כוחות ארצות הברית מעיראק, ומיליציות חגגו זאת",
+    "axis": "ארה\"ב-עיראק ומיליציות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T13:59:02+00:00",
+    "last_update_at": "2026-09-30T18:40:36+00:00",
+    "what_is_not_verified": "ההשלכות הביטחוניות המדויקות על התחזקות דאעש והמיליציות באזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_701d4df228a87ee9",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+      "published_at": "2026-09-30T18:40:36+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_5a9c051240df96d2",
+      "url": "https://www.fdd.org/analysis/2026/09/30/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends/",
+      "published_at": "2026-09-30T16:39:17+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "fh_701d4df228a87ee9",
+      "url": "https://www.longwarjournal.org/archives/2026/09/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends.php",
+      "published_at": "2026-09-30T16:33:28+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_701d4df228a87ee9",
+      "url": "https://t.me/abualiexpress/131097",
+      "published_at": "2026-09-30T13:59:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     },
+     {
+      "name": "ארביל, עיראק",
+      "lat": 36.1912,
+      "lon": 44.0094
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-04",
+    "title": "אכיפת הסגר הימי של פיקוד המרכז האמריקאי על נמלי איראן",
+    "summary": "פיקוד המרכז האמריקאי הודיע על הפניית כלי שיט מסחריים כדי לאכוף את הסגר הימי על איראן",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T22:20:23+00:00",
+    "last_update_at": "2026-09-30T22:20:23+00:00",
+    "what_is_not_verified": "היקף ההשפעה המדויק על הכלכלה האיראנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ea570342c2121045",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-says-it-redirected-125-vessels-enforce-iran-blockade",
+      "published_at": "2026-09-30T22:20:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים הערבי",
+      "lat": 20.0,
+      "lon": 65.0
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-05",
+    "title": "תפיסת מטוס איראני בטורקיה בגין חובות",
+    "summary": "רשויות טורקיה עצרו מטוס של חברת תעופה איראנית בנמל תעופה בעקבות חוב כספי",
+    "axis": "איראן-טורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-09-30T15:58:29+00:00",
+    "last_update_at": "2026-09-30T15:58:29+00:00",
+    "what_is_not_verified": "הקשר המדויק של התפיסה לסנקציות האמריקאיות החדשות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/09/turkey-seizes-irans-caspian-airlines-jet-over-34m-debt",
+      "published_at": "2026-09-30T15:58:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-06",
+    "title": "סיכול מזימת חבלה של חזבאללה בסוריה",
+    "summary": "כוחות הביטחון בסוריה דיווחו על סיכול תא שפעל מטעם חזבאללה ותכנן מתקפות רקטיות באזור דרום סוריה",
+    "axis": "ישראל-סוריה-חזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-09-30T19:09:58+00:00",
+    "last_update_at": "2026-09-30T19:09:58+00:00",
+    "what_is_not_verified": "האם היעד הספציפי היה כוחות ישראל או שטח ישראל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_1f64e743588fca1b",
+      "url": "https://www.fdd.org/analysis/2026/09/30/syria-says-it-thwarted-hezbollah-plot-israel-likely-target/",
+      "published_at": "2026-09-30T19:09:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10010525-07",
+    "title": "מחלוקת דיפלומטית סביב משלחת איראן לאו\"ם בארה\"ב",
+    "summary": "חילופי גרסאות בין ארה\"ב לאיראן בנוגע לדרישה או ליציאה של המשלחת האיראנית מניו יורק לאחר מבוי סתום בשיחות",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T01:42:31+00:00",
+    "last_update_at": "2026-10-01T04:29:46+00:00",
+    "what_is_not_verified": "האם ניתנה פקודת גירוש רשמית על ידי מזכיר המדינה האמריקאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ede755261841c563",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-un-mission-dismisses-us-expulsion-claim-baseless-and-worthless",
+      "published_at": "2026-10-01T04:29:46+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_ede755261841c563",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527431",
+      "published_at": "2026-10-01T03:32:24+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_ede755261841c563",
+      "url": "https://www.maariv.co.il/breaking-news/article-1372406",
+      "published_at": "2026-10-01T03:10:54+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_ede755261841c563",
+      "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+      "published_at": "2026-10-01T01:42:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "דוחא, קטר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הקשר הישיר של ממשלת איראן לאירועי טיסת פליי דובאי ולתקרית בבסיס פיירפורד בבריטניה",
+   "הפרטים המדויקים סביב עזיבת המשלחת האיראנית מארה\"ב והאם גורשה בפועל",
+   "טענות סוכנות פארס לפיהן ישראל תכננה פעולת דגל כוזב באמצעות המוסד"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0736,
+    "unit": "ILS",
+    "change_pct": 0.57,
+    "source_id": "src_ecb",
+    "as_of": "2026-09-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשך פיתוח מרחב סייבר ותקשורת עצמאי",
+     "הגנה על נכסיה התרבותיים והתנגדות ללחץ זר"
+    ],
+    "inferred": [
+     "שימור השפעה אזורית באמצעות מיליציות ושלוחות",
+     "היערכות לעימות ממושך ומלחמה רחבת היקף מול ארה\"ב וישראל"
+    ],
+    "forecast": [
+     "החמרת המתיחות סביב נתיבי השיט והתעופה",
+     "המשך ניסיונות עקיפים לפגוע ביעדים מערביים וישראליים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "חקר לעומק של אירועי הטרור והתעופה המכוונים נגדה",
+     "מניעת ביסוס תשובות טרור של שלוחות איראן בגבולותיה"
+    ],
+    "inferred": [
+     "הידוק שיתוף פעולה מודיעיני וביטחוני אזורי מול איומי איראן",
+     "מעקב קפדני אחר ניסיונות הסחה ופעולות טרור של ציר ההתנגדות"
+    ],
+    "forecast": [
+     "השתתפות בחקירות בינלאומיות של אירועי התעופה",
+     "המשך פעילות סיכול נגד תשתיות שלוח איראניות"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "אכיפת סגר ימי מלא על נמלי איראן",
+     "השלמת נסיגה צבאית מעיראק תוך שמירת מוכנות אזורית"
+    ],
+    "inferred": [
+     "הפעלת לחץ מקסימלי כלכלי ודיפלומטי על טהרן",
+     "שמירת אופציה לתגובה צבאית חריפה במקרה של הסלמה"
+    ],
+    "forecast": [
+     "המשך אכיפת סנקציות חמורות בתחומי התעופה והסחר",
+     "תגובה אפשרית לפרובוקציות איראניות במפרץ או באירופה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/09/turkey-seizes-irans-caspian-airlines-jet-over-34m-debt",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cjwyz59k5y75o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/2026/09/30/syria-says-it-thwarted-hezbollah-plot-israel-likely-target/",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202609308223",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21527431",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/09/us-forces-complete-departure-from-iraq-as-anti-islamic-state-mission-in-iraq-ends.php",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1372406",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-un-mission-dismisses-us-expulsion-claim-baseless-and-worthless",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131097",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48134",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sjvni7s5fx",
+    "accessed_at": "2026-10-01T05:25:59+00:00"
+   }
+  ]
+ }
+}
