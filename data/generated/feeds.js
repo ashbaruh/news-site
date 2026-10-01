@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T01:17:19+00:00",
-  "fetched_at": "2026-10-01T01:17:19+00:00"
+  "checked_at": "2026-10-01T02:11:45+00:00",
+  "fetched_at": "2026-10-01T02:11:45+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T01:17:30+00:00",
-  "fetched_at": "2026-10-01T01:17:30+00:00"
+  "checked_at": "2026-10-01T02:11:55+00:00",
+  "fetched_at": "2026-10-01T02:11:55+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T01:17:31+00:00",
-  "fetched_at": "2026-10-01T01:17:31+00:00"
+  "checked_at": "2026-10-01T02:11:55+00:00",
+  "fetched_at": "2026-10-01T02:11:55+00:00"
  },
- "generated_at": "2026-10-01T01:17:31+00:00",
+ "generated_at": "2026-10-01T02:11:55+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T01:17:20+00:00",
-  "fetched_at": "2026-10-01T01:17:20+00:00"
+  "checked_at": "2026-10-01T02:11:46+00:00",
+  "fetched_at": "2026-10-01T02:11:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T01:17:21+00:00",
-  "fetched_at": "2026-10-01T01:17:21+00:00"
+  "checked_at": "2026-10-01T02:11:47+00:00",
+  "fetched_at": "2026-10-01T02:11:47+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2242,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T01:17:22+00:00",
-  "fetched_at": "2026-10-01T01:17:22+00:00"
+  "checked_at": "2026-10-01T02:11:48+00:00",
+  "fetched_at": "2026-10-01T02:11:48+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T01:17:22+00:00",
-  "fetched_at": "2026-10-01T01:17:22+00:00"
+  "checked_at": "2026-10-01T02:11:48+00:00",
+  "fetched_at": "2026-10-01T02:11:48+00:00"
  },
  "ai": {
   "data": {
@@ -2383,18 +2383,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 216,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 198,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 218,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Laya Demo",
@@ -2407,7 +2407,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 216,
+     "likes": 217,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2428,14 +2428,14 @@ window.DB.generated = {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 70,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T01:17:29+00:00",
-  "fetched_at": "2026-10-01T01:17:29+00:00"
+  "checked_at": "2026-10-01T02:11:54+00:00",
+  "fetched_at": "2026-10-01T02:11:54+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2723,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T01:17:26+00:00",
-  "fetched_at": "2026-10-01T01:17:26+00:00"
+  "checked_at": "2026-10-01T02:11:50+00:00",
+  "fetched_at": "2026-10-01T02:11:50+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2755,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T01:17:26+00:00",
-  "fetched_at": "2026-10-01T01:17:26+00:00"
+  "checked_at": "2026-10-01T02:11:51+00:00",
+  "fetched_at": "2026-10-01T02:11:51+00:00"
  }
 };
