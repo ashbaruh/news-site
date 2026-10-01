@@ -374,6 +374,7 @@
 32.6708,
 51.665
 ],
+"israel": null,
 "istanbul airport, turkey": [
 41.2749,
 28.7323
@@ -413,6 +414,10 @@
 "kapotnya, russia": [
 55.6367,
 37.7985
+],
+"kashan, iran": [
+33.9877,
+51.4429
 ],
 "katerynivka, ukraine": [
 47.8756,
@@ -771,6 +776,10 @@
 12.783,
 45.0315
 ],
+"reyhanli, turkey": [
+36.2684,
+36.5672
+],
 "ridkodub, ukraine": [
 49.1817,
 37.8043
@@ -925,6 +934,7 @@
 49.9074,
 38.2868
 ],
+"turkey": null,
 "tyre, lebanon": [
 33.2721,
 35.1964
