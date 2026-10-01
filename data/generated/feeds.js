@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T12:17:22+00:00",
-  "fetched_at": "2026-10-01T12:17:22+00:00"
+  "checked_at": "2026-10-01T13:17:23+00:00",
+  "fetched_at": "2026-10-01T13:17:23+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Genetic Analysis All But Confirms the Most Unique of Humpback Populations Is Actually a Subspecies",
+    "title_he": "ניתוח גנטי בסך הכל מאשר שהייחודי ביותר מבין אוכלוסיות הגבנון הוא למעשה תת-מין",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/genetic-analysis-all-but-confirms-the-most-unique-of-humpback-populations-is-actually-a-subspecies/",
+    "date": "2026-10-01T13:00:21+00:00"
+   },
    {
     "title_en": "First Ever Recorded Sea Turtle Nests on America’s West Coast",
     "title_he": "קיני צבי הים הראשונים שהוקלטו אי פעם בחוף המערבי של אמריקה",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/vietnam-swiftly-protects-forests-containing-the-last-of-the-worlds-most-endangered-monkey/",
     "date": "2026-09-28T15:30:22+00:00"
-   },
-   {
-    "title_en": "Newly Identified Frog-like Creature Named by Student Scientists After Their Moms",
-    "title_he": "יצור דמוי צפרדע שזוהה לאחרונה שנקרא על ידי מדענים סטודנטים על שם אמהותיהם",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/newly-identified-frog-like-creature-named-by-student-scientists-after-their-moms/",
-    "date": "2026-09-28T03:00:01+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T12:17:35+00:00",
-  "fetched_at": "2026-10-01T12:17:35+00:00"
+  "checked_at": "2026-10-01T13:17:36+00:00",
+  "fetched_at": "2026-10-01T13:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T12:17:36+00:00",
-  "fetched_at": "2026-10-01T12:17:36+00:00"
+  "checked_at": "2026-10-01T13:17:38+00:00",
+  "fetched_at": "2026-10-01T13:17:38+00:00"
  },
- "generated_at": "2026-10-01T12:17:36+00:00",
+ "generated_at": "2026-10-01T13:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,21 +92,26 @@ window.DB.generated = {
      "date": "2026-10-01T11:58:00+00:00"
     },
     {
-     "title": "באמירויות מעלים לראשונה אפשרות של פיגוע: \"בודקים זאת\"",
+     "title": "נתניהו: יש אינדיקציה שהאיראנים ינסו לפגוע שוב במטרות ישראליות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T12:13:00+00:00"
+     "date": "2026-10-01T12:42:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ירידות חדות באירופה; תשואות האג\"ח בבריטניה ובארה\"ב בשיאים חדשים",
+     "title": "עליות בחוזים העתידיים בוול סטריט בהובלת מניות הטכנולוגיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T10:09:00+00:00"
+     "date": "2026-10-01T12:36:00+00:00"
     },
     {
-     "title": "מגמה מעורבת בתל אביב; מניות השבבים והתעופה מזנקות",
+     "title": "אחרי ניסיון המיזוג הכושל: אפקון רוצה להנפיק את זרוע האנרגיה המתחדשת שלה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558144",
+     "date": "2026-10-01T12:33:00+00:00"
+    },
+    {
+     "title": "נעילה מעורבת בתל אביב; פאלו אלטו מעל טריליון שקל, אל על קפצה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
-     "date": "2026-10-01T10:04:00+00:00"
+     "date": "2026-10-01T11:37:00+00:00"
     },
     {
      "title": "הקפטן של טיסת פליי דובאי הפך לגיבור לאומי בהודו",
@@ -142,6 +147,11 @@ window.DB.generated = {
      "title": "האסטרטג שמייחל לירידות בוול סטריט - והסיבה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558108",
      "date": "2026-10-01T04:32:00+00:00"
+    },
+    {
+     "title": "טראמפ: \"טייס המשנה היה טרוריסט או משוגע. אינסטלטור הציל את המטוס, זה מדהים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558105",
+     "date": "2026-10-01T03:54:00+00:00"
     },
     {
      "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט-וורנר ברדרס דיסקברי",
@@ -184,11 +194,6 @@ window.DB.generated = {
      "date": "2026-09-30T20:02:00+00:00"
     },
     {
-     "title": "הפסיד מיליונים משורט על טסלה ועכשיו משתלט על חברת ה-BVI המסתבכת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558094",
-     "date": "2026-09-30T18:23:00+00:00"
-    },
-    {
      "title": "גיבור היום: זה הטייס שנדקר ונאבק כדי להציל את טיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558092",
      "date": "2026-09-30T17:10:00+00:00"
@@ -197,11 +202,6 @@ window.DB.generated = {
      "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
      "date": "2026-09-30T16:00:00+00:00"
-    },
-    {
-     "title": "\"תקרית\" ו\"ריב בין טייסים\": איך מסקרים בעולם את טיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557990",
-     "date": "2026-09-30T12:14:00+00:00"
     },
     {
      "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T12:17:24+00:00",
-  "fetched_at": "2026-10-01T12:17:24+00:00"
+  "checked_at": "2026-10-01T13:17:24+00:00",
+  "fetched_at": "2026-10-01T13:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T12:17:24+00:00",
-  "fetched_at": "2026-10-01T12:17:24+00:00"
+  "checked_at": "2026-10-01T13:17:25+00:00",
+  "fetched_at": "2026-10-01T13:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -1891,41 +1891,6 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורסל",
     "title": "הפועל תל אביב - ריאל מדריד"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "אזרבייג'אן - ליכטנשטיין"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "הפועל עפולה - הפועל ראשון לציון"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי בני ריינה - הפועל כפר שלם"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מ.ס אשדוד - מכבי הרצליה"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "אתר ספורט 5",
-    "sport": "כדורגל",
-    "title": "הפועל רעננה - מ.ס. כפר קאסם"
    },
    {
     "date": "2026-10-01",
@@ -1961,6 +1926,41 @@ window.DB.generated = {
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גינאה - קניה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "אזרבייג'אן - ליכטנשטיין"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל עפולה - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי בני ריינה - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "מ.ס אשדוד - מכבי הרצליה"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "אתר ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - מ.ס. כפר קאסם"
    },
    {
     "date": "2026-10-01",
@@ -2154,13 +2154,6 @@ window.DB.generated = {
    {
     "date": "2026-10-03",
     "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "שטרסבורג - בולזאק"
-   },
-   {
-    "date": "2026-10-03",
-    "time": "19:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "קרואטיה - אנגליה"
@@ -2171,6 +2164,20 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "איסלנד - בולגריה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "שטרסבורג - בולזאק"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אלבה ברלין - באמברג"
    },
    {
     "date": "2026-10-03",
@@ -2185,13 +2192,6 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "נאנט - מונפלייה"
-   },
-   {
-    "date": "2026-10-03",
-    "time": "19:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "אלבה ברלין - באמברג"
    },
    {
     "date": "2026-10-03",
@@ -2353,11 +2353,151 @@ window.DB.generated = {
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "ג'ירונה - מאיורקה"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "02:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "לוס אנג'לס קליפרס - גולדן סטייט ווריירס"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "19:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "קפריסין - לטביה"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי רמת גן - מכבי אשדוד"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "איטליה - טורקיה"
+   },
+   {
+    "date": "2026-10-05",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "צרפת - בלגיה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "02:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "פילדלפיה 76 - ניו יורק ניקס"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "05:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "סקרמנטו קינגס - לוס אנג'לס לייקרס"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "17:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "קזחסטן - איי פארו"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "17:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "הודו - אורוגוואי"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "19:30",
+    "channel": "ספורט 4",
+    "sport": "כדורסל",
+    "title": "צדביטה אולימפיה - הפועל ירושלים"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "19:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "הפועל חולון - שולה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "19:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "נורבגיה עד 21 - ישראל עד 21"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "שוויץ - צפון מקדוניה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "סקוטלנד - סלובניה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קרואטיה - ספרד"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אנגליה - צ'כיה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "22:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "אנגולה - מלאווי"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ארגנטינה - בנין"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "21:30",
+    "channel": "ספורט 2",
+    "sport": "כדורסל",
+    "title": "מנרסה - רטיופרם אולם"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "21:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "פאריס באסקטבול - ליון-וילרבאן"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T12:17:26+00:00",
-  "fetched_at": "2026-10-01T12:17:26+00:00"
+  "checked_at": "2026-10-01T13:17:27+00:00",
+  "fetched_at": "2026-10-01T13:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2447,8 +2587,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T12:17:26+00:00",
-  "fetched_at": "2026-10-01T12:17:26+00:00"
+  "checked_at": "2026-10-01T13:17:27+00:00",
+  "fetched_at": "2026-10-01T13:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2477,7 +2617,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 352,
+     "likes": 353,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2491,7 +2631,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 620,
+     "likes": 622,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2519,7 +2659,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 223,
+     "likes": 224,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2546,8 +2686,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T12:17:33+00:00",
-  "fetched_at": "2026-10-01T12:17:33+00:00"
+  "checked_at": "2026-10-01T13:17:34+00:00",
+  "fetched_at": "2026-10-01T13:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2816,8 +2956,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T12:17:29+00:00",
-  "fetched_at": "2026-10-01T12:17:29+00:00"
+  "checked_at": "2026-10-01T13:17:30+00:00",
+  "fetched_at": "2026-10-01T13:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2848,7 +2988,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T12:17:29+00:00",
-  "fetched_at": "2026-10-01T12:17:29+00:00"
+  "checked_at": "2026-10-01T13:17:30+00:00",
+  "fetched_at": "2026-10-01T13:17:30+00:00"
  }
 };
