@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T09:00:09+00:00",
-  "fetched_at": "2026-10-01T09:00:09+00:00"
+  "checked_at": "2026-10-01T09:17:29+00:00",
+  "fetched_at": "2026-10-01T09:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T09:00:31+00:00",
-  "fetched_at": "2026-10-01T09:00:31+00:00"
+  "checked_at": "2026-10-01T09:17:43+00:00",
+  "fetched_at": "2026-10-01T09:17:43+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Cambridge Audio adds Dolby Audio and a new colourway to its affordable wireless earbuds",
+    "title_he": "Cambridge Audio מוסיפה Dolby Audio וצבע חדש לאוזניות האלחוטיות הזולות שלה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-earbuds/cambridge-audio-adds-dolby-audio-and-a-new-colourway-to-its-affordable-wireless-earbuds",
+    "date": "2026-10-01T09:00:00+00:00"
+   },
    {
     "title_en": "Amazon’s new Fire Stick promises to be faster and slimmer – but its pricing has us scratching our heads",
     "title_he": "Fire Stick החדש של אמזון מבטיח להיות מהיר יותר ורזה יותר - אבל התמחור שלו גורם לנו לגרד את הראש שלנו",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/i-tested-samsungs-two-flagship-oled-tvs-and-despite-what-you-might-have-heard-theyre-very-different",
     "date": "2026-09-30T09:43:39+00:00"
-   },
-   {
-    "title_en": "\"This is the headphone we set out to create from the very beginning\" – a closer look at the development of the new driver technology inside the premium Technics EAH-A1000 wireless headphones",
-    "title_he": "\"זו האוזניות שיצאנו ליצור מההתחלה\" - מבט מקרוב על הפיתוח של טכנולוגיית הדרייברים החדשה בתוך האוזניות האלחוטיות הפרימיום Technics EAH-A1000",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/this-is-the-headphone-we-set-out-to-create-from-the-very-beginning-a-closer-look-at-the-development-of-the-new-driver-technology-inside-the-premium-technics-eah-a1000-wireless-headphones",
-    "date": "2026-09-29T14:29:29+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T09:00:32+00:00",
-  "fetched_at": "2026-10-01T09:00:32+00:00"
+  "checked_at": "2026-10-01T09:17:45+00:00",
+  "fetched_at": "2026-10-01T09:17:45+00:00"
  },
- "generated_at": "2026-10-01T09:00:32+00:00",
+ "generated_at": "2026-10-01T09:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T09:00:10+00:00",
-  "fetched_at": "2026-10-01T09:00:10+00:00"
+  "checked_at": "2026-10-01T09:17:31+00:00",
+  "fetched_at": "2026-10-01T09:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T09:00:11+00:00",
-  "fetched_at": "2026-10-01T09:00:11+00:00"
+  "checked_at": "2026-10-01T09:17:32+00:00",
+  "fetched_at": "2026-10-01T09:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2356,8 +2356,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T09:00:13+00:00",
-  "fetched_at": "2026-10-01T09:00:13+00:00"
+  "checked_at": "2026-10-01T09:17:34+00:00",
+  "fetched_at": "2026-10-01T09:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2447,8 +2447,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T09:00:13+00:00",
-  "fetched_at": "2026-10-01T09:00:13+00:00"
+  "checked_at": "2026-10-01T09:17:34+00:00",
+  "fetched_at": "2026-10-01T09:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2461,17 +2461,19 @@ window.DB.generated = {
      "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "date": "2026-09-30T20:01:45+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+     "date": "2026-09-29T10:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
-     "translated_by": "mymemory"
+     "title_en": "Introducing GPT-6.1 Sol",
+     "title_he": "הכירו את GPT-6.1 Sol",
+     "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [],
+   "candidates": 12,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2484,7 +2486,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 619,
+     "likes": 620,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2533,35 +2535,25 @@ window.DB.generated = {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 72,
+     "likes": 73,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     },
     {
      "title": "Qwen-Image-2.1",
      "desc_en": "Generate and edit images with Qwen-Image-2.1",
      "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 173,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T09:00:30+00:00",
-  "fetched_at": "2026-10-01T09:00:30+00:00"
+  "checked_at": "2026-10-01T09:17:42+00:00",
+  "fetched_at": "2026-10-01T09:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "עבדה מגן, גלזר יפתח בשער; רביבו נטש את האימון",
-     "link": "https://www.one.co.il/Article/534739.html?ref=rss",
-     "date": "2026-09-30T21:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו",
-      "ליאל עבדה"
-     ]
-    },
     {
      "title": "בן שמעון מתלבט לקראת קוסובו, בריבו ופרץ צפויים לפתוח",
      "link": "https://sports.walla.co.il/item/3870300",
@@ -2826,8 +2818,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T09:00:16+00:00",
-  "fetched_at": "2026-10-01T09:00:16+00:00"
+  "checked_at": "2026-10-01T09:17:38+00:00",
+  "fetched_at": "2026-10-01T09:17:38+00:00"
  },
  "idf": {
   "data": [
@@ -2858,7 +2850,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T09:00:17+00:00",
-  "fetched_at": "2026-10-01T09:00:17+00:00"
+  "checked_at": "2026-10-01T09:17:39+00:00",
+  "fetched_at": "2026-10-01T09:17:39+00:00"
  }
 };
