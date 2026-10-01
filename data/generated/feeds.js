@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T00:17:32+00:00",
-  "fetched_at": "2026-10-01T00:17:32+00:00"
+  "checked_at": "2026-10-01T01:17:19+00:00",
+  "fetched_at": "2026-10-01T01:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T00:17:41+00:00",
-  "fetched_at": "2026-10-01T00:17:41+00:00"
+  "checked_at": "2026-10-01T01:17:30+00:00",
+  "fetched_at": "2026-10-01T01:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T00:17:42+00:00",
-  "fetched_at": "2026-10-01T00:17:42+00:00"
+  "checked_at": "2026-10-01T01:17:31+00:00",
+  "fetched_at": "2026-10-01T01:17:31+00:00"
  },
- "generated_at": "2026-10-01T00:17:42+00:00",
+ "generated_at": "2026-10-01T01:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T00:17:32+00:00",
-  "fetched_at": "2026-10-01T00:17:32+00:00"
+  "checked_at": "2026-10-01T01:17:20+00:00",
+  "fetched_at": "2026-10-01T01:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T00:17:33+00:00",
-  "fetched_at": "2026-10-01T00:17:33+00:00"
+  "checked_at": "2026-10-01T01:17:21+00:00",
+  "fetched_at": "2026-10-01T01:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2242,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T00:17:34+00:00",
-  "fetched_at": "2026-10-01T00:17:34+00:00"
+  "checked_at": "2026-10-01T01:17:22+00:00",
+  "fetched_at": "2026-10-01T01:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T00:17:34+00:00",
-  "fetched_at": "2026-10-01T00:17:34+00:00"
+  "checked_at": "2026-10-01T01:17:22+00:00",
+  "fetched_at": "2026-10-01T01:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T00:17:41+00:00",
-  "fetched_at": "2026-10-01T00:17:41+00:00"
+  "checked_at": "2026-10-01T01:17:29+00:00",
+  "fetched_at": "2026-10-01T01:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2723,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T00:17:37+00:00",
-  "fetched_at": "2026-10-01T00:17:37+00:00"
+  "checked_at": "2026-10-01T01:17:26+00:00",
+  "fetched_at": "2026-10-01T01:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2755,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T00:17:38+00:00",
-  "fetched_at": "2026-10-01T00:17:38+00:00"
+  "checked_at": "2026-10-01T01:17:26+00:00",
+  "fetched_at": "2026-10-01T01:17:26+00:00"
  }
 };
