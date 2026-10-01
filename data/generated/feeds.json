@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T07:17:17+00:00",
-  "fetched_at": "2026-10-01T07:17:17+00:00"
+  "checked_at": "2026-10-01T08:17:18+00:00",
+  "fetched_at": "2026-10-01T08:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T07:17:30+00:00",
-  "fetched_at": "2026-10-01T07:17:30+00:00"
+  "checked_at": "2026-10-01T08:17:28+00:00",
+  "fetched_at": "2026-10-01T08:17:28+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Amazon’s new Fire Stick promises to be faster and slimmer – but its pricing has us scratching our heads",
+    "title_he": "Fire Stick החדש של אמזון מבטיח להיות מהיר יותר ורזה יותר - אבל התמחור שלו גורם לנו לגרד את הראש שלנו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/amazons-new-fire-stick-promises-to-be-faster-and-slimmer-but-its-pricing-has-us-scratching-our-heads",
+    "date": "2026-10-01T07:26:40+00:00"
+   },
    {
     "title_en": "Loewe's snazzy-looking Bluetooth speaker promises \"exceptional acoustic power\", but comes at a premium price",
     "title_he": "רמקול ה-Bluetooth בעל המראה הנפלא של Loewe מבטיח \"עוצמה אקוסטית יוצאת דופן\", אך מגיע במחיר מובחר",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/this-is-the-headphone-we-set-out-to-create-from-the-very-beginning-a-closer-look-at-the-development-of-the-new-driver-technology-inside-the-premium-technics-eah-a1000-wireless-headphones",
     "date": "2026-09-29T14:29:29+00:00"
-   },
-   {
-    "title_en": "Bose's flagship wireless headphones are getting an audio upgrade – but there's a catch",
-    "title_he": "אוזניות הדגל האלחוטיות של Bose זוכות לשדרוג אודיו - אבל יש תקלה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/boses-flagship-wireless-headphones-are-getting-an-audio-upgrade-but-theres-a-catch",
-    "date": "2026-09-29T14:26:10+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T07:17:31+00:00",
-  "fetched_at": "2026-10-01T07:17:31+00:00"
+  "checked_at": "2026-10-01T08:17:30+00:00",
+  "fetched_at": "2026-10-01T08:17:30+00:00"
  },
- "generated_at": "2026-10-01T07:17:31+00:00",
+ "generated_at": "2026-10-01T08:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,16 +90,26 @@
      "date": "2026-10-01T06:22:00+00:00"
     },
     {
-     "title": "נתניהו מודה: לא הייתה התרעה ספציפית לאירוע בטיסת פליי דובאי",
+     "title": "באמירויות מעלים לראשונה אפשרות של פיגוע: \"בודקים זאת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T07:14:00+00:00"
+     "date": "2026-10-01T08:14:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "פתיחה חיובית בתל אביב; מניות השבבים מטפסות, אל על וישראייר עולות",
+     "title": "ירידות חדות באירופה; תשואות האג\"ח בבריטניה ובארה\"ב בשיאים חדשים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
+     "date": "2026-10-01T07:41:00+00:00"
+    },
+    {
+     "title": "איך מקבלים תשואה דולרית של 5.5% שנה? \"יש לא מעט חלופות\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558014",
+     "date": "2026-10-01T07:27:00+00:00"
+    },
+    {
+     "title": "לראשונה בבורסה בתל אביב: חברה בשווי טריליון שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
-     "date": "2026-10-01T07:06:00+00:00"
+     "date": "2026-10-01T07:18:00+00:00"
     },
     {
      "title": "המסלול שטיפס, וזה שאכזב: מה עשה החיסכון שלכם בספטמבר?",
@@ -115,11 +125,6 @@
      "title": "האסטרטג שמייחל לירידות בוול סטריט - והסיבה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558108",
      "date": "2026-10-01T04:32:00+00:00"
-    },
-    {
-     "title": "מצב השווקים: בורסת טוקיו קופצת בקרוב ל-3% בהובלת מניות השבבים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T04:07:00+00:00"
     },
     {
      "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט-וורנר ברדרס דיסקברי",
@@ -177,11 +182,6 @@
      "date": "2026-09-30T17:10:00+00:00"
     },
     {
-     "title": "הישראלי שפורש מניהול ענקית הצעצועים ועשוי להצטרף לפרמאונט־וורנר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558045",
-     "date": "2026-09-30T16:10:00+00:00"
-    },
-    {
      "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
      "date": "2026-09-30T16:00:00+00:00"
@@ -215,17 +215,12 @@
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
-    },
-    {
-     "title": "מגדל והפניקס מובילות את ההשקעות הפרטיות בישראל, אבל הקצב הואט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557907",
-     "date": "2026-09-30T02:49:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T07:17:18+00:00",
-  "fetched_at": "2026-10-01T07:17:18+00:00"
+  "checked_at": "2026-10-01T08:17:20+00:00",
+  "fetched_at": "2026-10-01T08:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T07:17:19+00:00",
-  "fetched_at": "2026-10-01T07:17:19+00:00"
+  "checked_at": "2026-10-01T08:17:21+00:00",
+  "fetched_at": "2026-10-01T08:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2359,8 +2354,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T07:17:21+00:00",
-  "fetched_at": "2026-10-01T07:17:21+00:00"
+  "checked_at": "2026-10-01T08:17:22+00:00",
+  "fetched_at": "2026-10-01T08:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2450,12 +2445,21 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T07:17:21+00:00",
-  "fetched_at": "2026-10-01T07:17:21+00:00"
+  "checked_at": "2026-10-01T08:17:22+00:00",
+  "fetched_at": "2026-10-01T08:17:22+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "date": "2026-09-30T20:01:45+00:00",
+     "launch": true,
+     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
+     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
+     "translated_by": "mymemory"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -2464,18 +2468,11 @@
      "title_en": "Introducing GPT-6.1 Sol",
      "title_he": "הכירו את GPT-6.1 Sol",
      "translated_by": "google"
-    },
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/cognition-factory-ai-feud-khosla/",
-     "date": "2026-10-01T06:32:40+00:00",
-     "launch": false,
-     "title": "האשמות בריגול, איומים ב\"נשק גרעיני\" וקרב בתוך קרן ההון: זה כנראה הקרב הכי מלוכלך עכשיו בעולם ה-AI"
     }
    ],
-   "candidates": 11,
+   "candidates": 8,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2500,18 +2497,18 @@
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 200,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 220,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
-    },
-    {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 199,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Laya Demo",
@@ -2524,7 +2521,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 220,
+     "likes": 222,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2551,8 +2548,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T07:17:29+00:00",
-  "fetched_at": "2026-10-01T07:17:29+00:00"
+  "checked_at": "2026-10-01T08:17:27+00:00",
+  "fetched_at": "2026-10-01T08:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -2565,15 +2562,6 @@
      "players": [
       "רועי רביבו",
       "ליאל עבדה"
-     ]
-    },
-    {
-     "title": "עבד: הבטחתי שאהיה ביורו, בכיתי כשלא הייתי בסגל",
-     "link": "https://www.one.co.il/Article/534699.html?ref=rss",
-     "date": "2026-09-30T10:33:00+00:00",
-     "source": "ONE",
-     "players": [
-      "תאי עבד"
      ]
     },
     {
@@ -2840,8 +2828,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T07:17:24+00:00",
-  "fetched_at": "2026-10-01T07:17:24+00:00"
+  "checked_at": "2026-10-01T08:17:25+00:00",
+  "fetched_at": "2026-10-01T08:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -2872,7 +2860,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T07:17:25+00:00",
-  "fetched_at": "2026-10-01T07:17:25+00:00"
+  "checked_at": "2026-10-01T08:17:26+00:00",
+  "fetched_at": "2026-10-01T08:17:26+00:00"
  }
 }
