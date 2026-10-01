@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T10:17:19+00:00",
-  "fetched_at": "2026-10-01T10:17:19+00:00"
+  "checked_at": "2026-10-01T11:17:10+00:00",
+  "fetched_at": "2026-10-01T11:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T10:17:29+00:00",
-  "fetched_at": "2026-10-01T10:17:29+00:00"
+  "checked_at": "2026-10-01T11:17:17+00:00",
+  "fetched_at": "2026-10-01T11:17:17+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,35 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T10:17:30+00:00",
-  "fetched_at": "2026-10-01T10:17:30+00:00"
+  "checked_at": "2026-10-01T11:17:18+00:00",
+  "fetched_at": "2026-10-01T11:17:18+00:00"
  },
- "generated_at": "2026-10-01T10:17:30+00:00",
+ "generated_at": "2026-10-01T11:17:18+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "דוח רשות החברות: ניגוד עניינים בחברה ממשלתית שמנהלת כמיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558038",
-     "date": "2026-10-01T10:00:00+00:00"
+     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
+     "date": "2026-10-01T10:49:00+00:00"
     },
     {
      "title": "באמירויות מעלים לראשונה אפשרות של פיגוע: \"בודקים זאת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T08:52:00+00:00"
+     "date": "2026-10-01T10:48:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "ירידות חדות באירופה; תשואות האג\"ח בבריטניה ובארה\"ב בשיאים חדשים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
+     "date": "2026-10-01T10:09:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בתל אביב; מניות השבבים והתעופה מזנקות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
+     "date": "2026-10-01T10:04:00+00:00"
+    },
     {
      "title": "הקפטן של טיסת פליי דובאי הפך לגיבור לאומי בהודו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558129",
@@ -109,17 +119,7 @@ window.DB.generated = {
      "date": "2026-10-01T09:31:00+00:00"
     },
     {
-     "title": "ירידות חדות באירופה; תשואות האג\"ח בבריטניה ובארה\"ב בשיאים חדשים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T09:19:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בתל אביב; מניות השבבים והתעופה מזנקות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
-     "date": "2026-10-01T09:17:00+00:00"
-    },
-    {
-     "title": "שווה כמעט כמו כל חברותיה למדד: המספרים מאחורי השווי ההיסטורי של פאלו אלטו",
+     "title": "טריליון שקל: פאלו אלטו קבעה שיא חדש בבורסה בת\"א",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558127",
      "date": "2026-10-01T08:51:00+00:00"
     },
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T10:17:20+00:00",
-  "fetched_at": "2026-10-01T10:17:20+00:00"
+  "checked_at": "2026-10-01T11:17:11+00:00",
+  "fetched_at": "2026-10-01T11:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T10:17:21+00:00",
-  "fetched_at": "2026-10-01T10:17:21+00:00"
+  "checked_at": "2026-10-01T11:17:12+00:00",
+  "fetched_at": "2026-10-01T11:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2356,8 +2356,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T10:17:22+00:00",
-  "fetched_at": "2026-10-01T10:17:22+00:00"
+  "checked_at": "2026-10-01T11:17:13+00:00",
+  "fetched_at": "2026-10-01T11:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2447,8 +2447,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T10:17:22+00:00",
-  "fetched_at": "2026-10-01T10:17:22+00:00"
+  "checked_at": "2026-10-01T11:17:13+00:00",
+  "fetched_at": "2026-10-01T11:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2523,14 +2523,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 223,
+     "likes": 224,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 66,
+     "likes": 67,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2544,14 +2544,14 @@ window.DB.generated = {
      "title": "OpenVuln",
      "desc_en": "Find bugs in your repository with GLM",
      "desc_he": "מצא באגים במאגר שלך עם GLM",
-     "likes": 189,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T10:17:29+00:00",
-  "fetched_at": "2026-10-01T10:17:29+00:00"
+  "checked_at": "2026-10-01T11:17:17+00:00",
+  "fetched_at": "2026-10-01T11:17:17+00:00"
  },
  "abroad": {
   "data": {
@@ -2820,8 +2820,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T10:17:26+00:00",
-  "fetched_at": "2026-10-01T10:17:26+00:00"
+  "checked_at": "2026-10-01T11:17:16+00:00",
+  "fetched_at": "2026-10-01T11:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -2852,7 +2852,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T10:17:26+00:00",
-  "fetched_at": "2026-10-01T10:17:26+00:00"
+  "checked_at": "2026-10-01T11:17:16+00:00",
+  "fetched_at": "2026-10-01T11:17:16+00:00"
  }
 };
