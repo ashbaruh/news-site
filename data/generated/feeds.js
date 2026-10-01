@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:28:39+00:00",
-  "fetched_at": "2026-10-01T16:28:39+00:00"
+  "checked_at": "2026-10-01T17:17:20+00:00",
+  "fetched_at": "2026-10-01T17:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:28:56+00:00",
-  "fetched_at": "2026-10-01T16:28:56+00:00"
+  "checked_at": "2026-10-01T17:17:30+00:00",
+  "fetched_at": "2026-10-01T17:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:28:57+00:00",
-  "fetched_at": "2026-10-01T16:28:57+00:00"
+  "checked_at": "2026-10-01T17:17:30+00:00",
+  "fetched_at": "2026-10-01T17:17:30+00:00"
  },
- "generated_at": "2026-10-01T16:28:57+00:00",
+ "generated_at": "2026-10-01T17:17:30+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "החל מ-120 אלף שקל: קרוס אובר במחיר מציאה ועוד כמה הפתעות שבדרך",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558242",
-     "date": "2026-10-01T14:55:00+00:00"
+     "title": "\"השב\"כ לא בודק\": הטיסות שהפכו לחור השחור של עולם התעופה הישראלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558187",
+     "date": "2026-10-01T16:35:00+00:00"
     },
     {
      "title": "נתניהו: יש אינדיקציה שהאיראנים ינסו לפגוע שוב במטרות ישראליות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T14:57:00+00:00"
+     "date": "2026-10-01T16:37:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "וול סטריט עברה לירידות בעוד התשואות והנפט ממשיכים לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
+     "date": "2026-10-01T16:30:00+00:00"
+    },
     {
      "title": "גולה מאיראן בטור לגלובס: \"הכלכלה לא תקרוס מפצצות, אלא מהשוד של השלטון\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558170",
@@ -107,11 +112,6 @@ window.DB.generated = {
      "title": "\"הפעם זה רציני\": פוטין מאיים בשימוש בנשק גרעיני נגד מדינות נאט\"ו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558134",
      "date": "2026-10-01T15:58:00+00:00"
-    },
-    {
-     "title": "וול סטריט עברה לירידות בעוד התשואות והנפט ממשיכים לטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T15:19:00+00:00"
     },
     {
      "title": "איפה עובד צביקה מנס, מגיבורי טיסת פליי דובאי?",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:28:40+00:00",
-  "fetched_at": "2026-10-01T16:28:40+00:00"
+  "checked_at": "2026-10-01T17:17:21+00:00",
+  "fetched_at": "2026-10-01T17:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:28:42+00:00",
-  "fetched_at": "2026-10-01T16:28:42+00:00"
+  "checked_at": "2026-10-01T17:17:21+00:00",
+  "fetched_at": "2026-10-01T17:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2501,8 +2501,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T16:28:43+00:00",
-  "fetched_at": "2026-10-01T16:28:43+00:00"
+  "checked_at": "2026-10-01T17:17:22+00:00",
+  "fetched_at": "2026-10-01T17:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2592,8 +2592,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:28:43+00:00",
-  "fetched_at": "2026-10-01T16:28:43+00:00"
+  "checked_at": "2026-10-01T17:17:22+00:00",
+  "fetched_at": "2026-10-01T17:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2638,35 +2638,35 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 139,
+     "likes": 140,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 203,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 222,
+     "likes": 223,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 227,
+     "likes": 228,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 258,
+     "likes": 259,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
@@ -2677,24 +2677,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "KV Image to Clip",
+     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
+     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
+     "likes": 75,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
+    },
+    {
      "title": "OpenVuln",
      "desc_en": "Find bugs in your repository with GLM",
      "desc_he": "מצא באגים במאגר שלך עם GLM",
      "likes": 192,
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
-    },
-    {
-     "title": "KV Image to Clip",
-     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
-     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 74,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:28:55+00:00",
-  "fetched_at": "2026-10-01T16:28:55+00:00"
+  "checked_at": "2026-10-01T17:17:29+00:00",
+  "fetched_at": "2026-10-01T17:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2999,8 +2999,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T16:28:47+00:00",
-  "fetched_at": "2026-10-01T16:28:47+00:00"
+  "checked_at": "2026-10-01T17:17:25+00:00",
+  "fetched_at": "2026-10-01T17:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3030,9 +3030,8 @@ window.DB.generated = {
     "date": "2026-09-20T03:00:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 503: Service Unavailable",
-  "checked_at": "2026-10-01T16:28:52+00:00",
-  "fetched_at": "2026-10-01T16:17:39+00:00"
+  "ok": true,
+  "checked_at": "2026-10-01T17:17:26+00:00",
+  "fetched_at": "2026-10-01T17:17:26+00:00"
  }
 };
