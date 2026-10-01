@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T06:17:29+00:00",
-  "fetched_at": "2026-10-01T06:17:29+00:00"
+  "checked_at": "2026-10-01T07:17:17+00:00",
+  "fetched_at": "2026-10-01T07:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T06:17:42+00:00",
-  "fetched_at": "2026-10-01T06:17:42+00:00"
+  "checked_at": "2026-10-01T07:17:30+00:00",
+  "fetched_at": "2026-10-01T07:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,34 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T06:17:42+00:00",
-  "fetched_at": "2026-10-01T06:17:42+00:00"
+  "checked_at": "2026-10-01T07:17:31+00:00",
+  "fetched_at": "2026-10-01T07:17:31+00:00"
  },
- "generated_at": "2026-10-01T06:17:42+00:00",
+ "generated_at": "2026-10-01T07:17:31+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מנכ\"ל נאייקס לא מתרגש מצניחה של 35% במניה ובטוח שעוד יקבל בונוס גדול",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558062",
-     "date": "2026-10-01T02:29:00+00:00"
+     "title": "המסלול שטיפס, וזה שאכזב: מה עשה החיסכון שלכם בספטמבר?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558111",
+     "date": "2026-10-01T06:22:00+00:00"
     },
     {
-     "title": "האזהרה של זיני שקדמה לניסיון הפיגוע",
+     "title": "נתניהו מודה: לא הייתה התרעה ספציפית לאירוע בטיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T02:28:00+00:00"
+     "date": "2026-10-01T07:14:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "title": "פתיחה חיובית בתל אביב; מניות השבבים מטפסות, אל על וישראייר עולות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
-     "date": "2026-10-01T05:37:00+00:00"
+     "date": "2026-10-01T07:06:00+00:00"
+    },
+    {
+     "title": "המסלול שטיפס, וזה שאכזב: מה עשה החיסכון שלכם בספטמבר?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558111",
+     "date": "2026-10-01T06:22:00+00:00"
     },
     {
      "title": "מיליארדר הגידור מעמיד את התרומה הגדולה בהיסטוריה לאוניברסיטה",
@@ -149,7 +154,7 @@ window.DB.generated = {
      "date": "2026-10-01T02:36:00+00:00"
     },
     {
-     "title": "מנכ\"ל נאייקס לא מתרגש מצניחה של 35% במניה ובטוח שעוד יקבל בונוס גדול",
+     "title": "המנכ\"ל שמאחורי קופסת התשלומים הצהובה לא מתרגש מנפילת המניה: \"אני כאן לנצח\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558062",
      "date": "2026-10-01T02:29:00+00:00"
     },
@@ -199,11 +204,6 @@ window.DB.generated = {
      "date": "2026-09-30T11:36:00+00:00"
     },
     {
-     "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557972",
-     "date": "2026-09-30T08:32:00+00:00"
-    },
-    {
      "title": "אקירוב רוצה לשלם 788 מיליון שקל כדי למחוק את אלרוב ולנסות להשתלט על כלל ביטוח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557965",
      "date": "2026-09-30T07:22:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T06:17:30+00:00",
-  "fetched_at": "2026-10-01T06:17:30+00:00"
+  "checked_at": "2026-10-01T07:17:18+00:00",
+  "fetched_at": "2026-10-01T07:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T06:17:31+00:00",
-  "fetched_at": "2026-10-01T06:17:31+00:00"
+  "checked_at": "2026-10-01T07:17:19+00:00",
+  "fetched_at": "2026-10-01T07:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -1896,34 +1896,6 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורסל",
     "title": "הפועל תל אביב - ריאל מדריד"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי יפו - הפועל עכו"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מכבי אחי נצרת - עירוני מודיעין"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "בני יהודה - מכבי קריית גת"
-   },
-   {
-    "date": "2026-10-01",
-    "time": "19:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - הפועל כפר סבא"
    },
    {
     "date": "2026-10-01",
@@ -1959,6 +1931,41 @@ window.DB.generated = {
     "channel": "אתר ספורט 5",
     "sport": "כדורגל",
     "title": "הפועל רעננה - מ.ס. כפר קאסם"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי יפו - הפועל עכו"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מכבי אחי נצרת - עירוני מודיעין"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מכבי קריית גת"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס קרית ים - הפועל כפר סבא"
+   },
+   {
+    "date": "2026-10-01",
+    "time": "19:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "גינאה - קניה"
    },
    {
     "date": "2026-10-01",
@@ -2015,6 +2022,13 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "דנמרק - פורטוגל"
+   },
+   {
+    "date": "2026-10-02",
+    "time": "04:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "לאס וגאס אייסז - אינדיאנה פיבר"
    },
    {
     "date": "2026-10-02",
@@ -2110,7 +2124,7 @@ window.DB.generated = {
    {
     "date": "2026-10-03",
     "time": "03:30",
-    "channel": "ספורט 3",
+    "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "בוקה ג'וניורס - אוניון"
    },
@@ -2145,6 +2159,13 @@ window.DB.generated = {
    {
     "date": "2026-10-03",
     "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "שטרסבורג - בולזאק"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "קרואטיה - אנגליה"
@@ -2155,20 +2176,6 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "איסלנד - בולגריה"
-   },
-   {
-    "date": "2026-10-03",
-    "time": "19:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "שטרסבורג - בולזאק"
-   },
-   {
-    "date": "2026-10-03",
-    "time": "19:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "אלבה ברלין - באמברג"
    },
    {
     "date": "2026-10-03",
@@ -2183,6 +2190,13 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "נאנט - מונפלייה"
+   },
+   {
+    "date": "2026-10-03",
+    "time": "19:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אלבה ברלין - באמברג"
    },
    {
     "date": "2026-10-03",
@@ -2228,6 +2242,69 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-04",
+    "time": "03:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ארגנטינה - בורקינה פאסו"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "13:00",
+    "channel": "ספורט 3",
+    "sport": "כדורסל",
+    "title": "פנאתינאיקוס - ויקוס"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "13:30",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "אוברדוירו - ריאל מדריד"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "15:30",
+    "channel": "ספורט 3",
+    "sport": "כדורסל",
+    "title": "פנרבחצ'ה - קורפז באסקט"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "16:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "אזרבייג'אן - ליטא"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "16:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "טוטנהאם נשים - לונדון סיטי ליונסס"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "18:00",
+    "channel": "ספורט 3",
+    "sport": "כדורסל",
+    "title": "סראגוסה - ולנסיה"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "18:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר סיטי נשים - ארסנל נשים"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "19:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "קוסובו - אוסטריה"
+   },
+   {
+    "date": "2026-10-04",
     "time": "19:00",
     "channel": "ספורט 5",
     "sport": "כדורסל",
@@ -2235,15 +2312,57 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-04",
+    "time": "19:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אליצור רמלה - מכבי חיפה"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "19:30",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "לאס פלמאס - ויאדוליד"
+   },
+   {
+    "date": "2026-10-04",
     "time": "21:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "אירלנד - ישראל"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "21:45",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "הולנד - סרביה"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "יוון - גרמניה"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "21:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "פורטוגל - נורבגיה"
+   },
+   {
+    "date": "2026-10-04",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "ג'ירונה - מאיורקה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T06:17:32+00:00",
-  "fetched_at": "2026-10-01T06:17:32+00:00"
+  "checked_at": "2026-10-01T07:17:21+00:00",
+  "fetched_at": "2026-10-01T07:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,21 +2452,12 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T06:17:32+00:00",
-  "fetched_at": "2026-10-01T06:17:32+00:00"
+  "checked_at": "2026-10-01T07:17:21+00:00",
+  "fetched_at": "2026-10-01T07:17:21+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "date": "2026-09-30T20:01:45+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
-     "translated_by": "mymemory"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -2356,10 +2466,19 @@ window.DB.generated = {
      "title_en": "Introducing GPT-6.1 Sol",
      "title_he": "הכירו את GPT-6.1 Sol",
      "translated_by": "google"
+    },
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/cognition-factory-ai-feud-khosla/",
+     "date": "2026-10-01T06:32:40+00:00",
+     "launch": false,
+     "title": "האשמות בריגול, איומים ב\"נשק גרעיני\" וקרב בתוך קרן ההון: זה כנראה הקרב הכי מלוכלך עכשיו בעולם ה-AI"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [],
+   "candidates": 11,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2379,7 +2498,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2390,18 +2509,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 199,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
      "likes": 257,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
-    },
-    {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 198,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2418,24 +2537,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
-     "title": "Qwen-Image-2.1",
-     "desc_en": "Generate and edit images with Qwen-Image-2.1",
-     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
-     "likes": 173,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
-    },
-    {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
      "likes": 71,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
+    },
+    {
+     "title": "Qwen-Image-2.1",
+     "desc_en": "Generate and edit images with Qwen-Image-2.1",
+     "desc_he": "צור וערוך תמונות עם Qwen-Image-2.1",
+     "likes": 173,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T06:17:41+00:00",
-  "fetched_at": "2026-10-01T06:17:41+00:00"
+  "checked_at": "2026-10-01T07:17:29+00:00",
+  "fetched_at": "2026-10-01T07:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2842,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T06:17:36+00:00",
-  "fetched_at": "2026-10-01T06:17:36+00:00"
+  "checked_at": "2026-10-01T07:17:24+00:00",
+  "fetched_at": "2026-10-01T07:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2874,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T06:17:36+00:00",
-  "fetched_at": "2026-10-01T06:17:36+00:00"
+  "checked_at": "2026-10-01T07:17:25+00:00",
+  "fetched_at": "2026-10-01T07:17:25+00:00"
  }
 };
