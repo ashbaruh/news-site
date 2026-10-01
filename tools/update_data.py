@@ -82,8 +82,10 @@ def read_rss(url, allowed_host):
             host = urllib.parse.urlparse(link).hostname or ""
             scheme = urllib.parse.urlparse(link).scheme
             date = parsedate_to_datetime(pub).astimezone(timezone.utc)
-            if allowed_host == "walla.co.il":
-                date = walla_time(date)
+            if allowed_host == "walla.co.il" and "rss.walla.co.il" in url:
+                date = walla_time(date)  # פידים ישנים: שעון ישראל עם תווית GMT
+            elif allowed_host == "walla.co.il" and date > datetime.now(timezone.utc) + timedelta(minutes=10):
+                date = walla_time(date)  # פיד חדש (www.walla.co.il/rss): GMT אמיתי — ואם יוצא "עתידי", כנראה שעון ישראל
         except Exception:
             continue
         if scheme != "https" or not (host == allowed_host or host.endswith("." + allowed_host)):
@@ -681,13 +683,13 @@ def job_boi():
 # ------------------------------------------------------------------ הרכבה
 
 # צה"ל — מה הצבא מבצע (בקשת בעל האתר, 21/09/2026). בלי זירה נפרדת: 3 כותרות בלשונית "הכל" במלחמות.
-# וואלה "צבא וביטחון" — רק כותרת + קישור (כמו שאר פידי וואלה). נשארות רק כותרות על פעולה של צה"ל.
+# וואלה "צבא וביטחון" (כתובת חדשה מ-01/10/2026 — הישנה feed/2689 קפאה ב-22/09) — רק כותרת + קישור (כמו שאר פידי וואלה). נשארות רק כותרות על פעולה של צה"ל.
 IDF_RX = re.compile(r'צה"ל|צה״ל|חייל|לוחמ|כוחות|חיסל|חוסל|תקף|תקיפ|יירט|יירוט|מחבל|פשיט|מבצע|אוגד|חטיב|'
                     r'פיקוד|שייטת|חיל האוויר|הנדסה קרבית|מעצר|נעצר|עצרו')
 
 
 def job_idf():
-    items = [i for i in read_rss("https://rss.walla.co.il/feed/2689", "walla.co.il") if IDF_RX.search(i["title"])]
+    items = [i for i in read_rss("https://www.walla.co.il/rss/feed/news/military", "walla.co.il") if IDF_RX.search(i["title"])]
     items.sort(key=lambda i: i["date"], reverse=True)
     return items[:5]
 

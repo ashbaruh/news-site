@@ -139,8 +139,8 @@ def read_feed(source_id, url, words, since):
                 date = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%S%z").astimezone(timezone.utc)
             except ValueError:
                 continue
-        if source_id == "src_walla":
-            date = walla_time(date)
+        if source_id == "src_walla" and ("rss.walla.co.il" in url or date > datetime.now(timezone.utc) + timedelta(minutes=10)):
+            date = walla_time(date)   # פיד ישן = שעון ישראל עם תווית GMT; פיד חדש = GMT אמיתי (אלא אם יוצא "עתידי")
         if date < since or date > datetime.now(timezone.utc) + timedelta(minutes=10):
             continue
         if not title or not host_ok(link, source_id, url):

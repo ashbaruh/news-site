@@ -45,8 +45,8 @@ def israeli(words):
     return [("src_ynet", "https://www.ynet.co.il/Integration/StoryRss2.xml", words),
             ("src_maariv", "https://www.maariv.co.il/Rss/RssFeedsMivzakiChadashot", words),
             ("src_israelhayom", "https://www.israelhayom.co.il/rss.xml", words),
-            # וואלה "צבא וביטחון" — פעולות צה"ל (נוסף 21/09/2026)
-            ("src_walla", "https://rss.walla.co.il/feed/2689", words)]
+            # וואלה "צבא וביטחון" — פעולות צה"ל (נוסף 21/09/2026; כתובת חדשה 01/10/2026 — feed/2689 קפא)
+            ("src_walla", "https://www.walla.co.il/rss/feed/news/military", words)]
 
 
 def telegram(words):
