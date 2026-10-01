@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T05:25:41+00:00",
-  "fetched_at": "2026-10-01T05:25:41+00:00"
+  "checked_at": "2026-10-01T06:17:29+00:00",
+  "fetched_at": "2026-10-01T06:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T05:25:53+00:00",
-  "fetched_at": "2026-10-01T05:25:53+00:00"
+  "checked_at": "2026-10-01T06:17:42+00:00",
+  "fetched_at": "2026-10-01T06:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T05:25:53+00:00",
-  "fetched_at": "2026-10-01T05:25:53+00:00"
+  "checked_at": "2026-10-01T06:17:42+00:00",
+  "fetched_at": "2026-10-01T06:17:42+00:00"
  },
- "generated_at": "2026-10-01T05:25:53+00:00",
+ "generated_at": "2026-10-01T06:17:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,12 +99,17 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "התרומה הגדולה בהיסטוריה לאוניברסיטה - 3 מיליארד דולר ממייסד קרן הגידור הרווחית בעולם",
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558052",
+     "date": "2026-10-01T05:37:00+00:00"
+    },
+    {
+     "title": "מיליארדר הגידור מעמיד את התרומה הגדולה בהיסטוריה לאוניברסיטה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558109",
      "date": "2026-10-01T04:46:00+00:00"
     },
     {
-     "title": "האסטרטג שמייחל לירידות בוול סטריט והסיבה",
+     "title": "האסטרטג שמייחל לירידות בוול סטריט - והסיבה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558108",
      "date": "2026-10-01T04:32:00+00:00"
     },
@@ -114,7 +119,7 @@ window.DB.generated = {
      "date": "2026-10-01T04:07:00+00:00"
     },
     {
-     "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט - וורנר ברדרס דיסקברי",
+     "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט-וורנר ברדרס דיסקברי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558104",
      "date": "2026-10-01T03:27:00+00:00"
     },
@@ -124,7 +129,7 @@ window.DB.generated = {
      "date": "2026-10-01T02:42:00+00:00"
     },
     {
-     "title": "החברות הישראליות שמגיעות לתערוכות נשק במדיניות מוסלמיות",
+     "title": "החברות הישראליות שמגיעות לתערוכות נשק במדינות מוסלמיות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557975",
      "date": "2026-10-01T02:41:00+00:00"
     },
@@ -139,7 +144,7 @@ window.DB.generated = {
      "date": "2026-10-01T02:37:00+00:00"
     },
     {
-     "title": "התשואה שלה נמחקה בגלל מניה אחת והיא עדיין חולמת לפרוש מהעבודה בגיל 40",
+     "title": "התשואה שלה נמחקה בגלל מניה אחת, והיא עדיין חולמת לפרוש מהעבודה בגיל 40",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558056",
      "date": "2026-10-01T02:36:00+00:00"
     },
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-09-30T11:36:00+00:00"
     },
     {
-     "title": "פרשת סלייס: תוכנית ההסדר של המנהל המורשה אושרה בביהמ\"ש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557985",
-     "date": "2026-09-30T11:08:00+00:00"
-    },
-    {
      "title": "בהשקעה של כ-850 מיליון שקל: פרויקט הענק של דוראל חושמל בהצלחה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557972",
      "date": "2026-09-30T08:32:00+00:00"
@@ -214,20 +214,20 @@ window.DB.generated = {
      "date": "2026-09-30T06:00:00+00:00"
     },
     {
-     "title": "רק לפני חודש הם הזהירו מוול סטריט. עכשיו בג'יי.פי מורגן חוזרים להמר על השוק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557956",
-     "date": "2026-09-30T04:47:00+00:00"
-    },
-    {
      "title": "בריטניה מאיימת לקחת את החרם על סחורות ישראליות צעד משמעותי קדימה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557915",
      "date": "2026-09-30T03:16:00+00:00"
+    },
+    {
+     "title": "מגדל והפניקס מובילות את ההשקעות הפרטיות בישראל, אבל הקצב הואט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557907",
+     "date": "2026-09-30T02:49:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T05:25:42+00:00",
-  "fetched_at": "2026-10-01T05:25:42+00:00"
+  "checked_at": "2026-10-01T06:17:30+00:00",
+  "fetched_at": "2026-10-01T06:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T05:25:43+00:00",
-  "fetched_at": "2026-10-01T05:25:43+00:00"
+  "checked_at": "2026-10-01T06:17:31+00:00",
+  "fetched_at": "2026-10-01T06:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2242,8 +2242,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T05:25:45+00:00",
-  "fetched_at": "2026-10-01T05:25:45+00:00"
+  "checked_at": "2026-10-01T06:17:32+00:00",
+  "fetched_at": "2026-10-01T06:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2333,8 +2333,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T05:25:45+00:00",
-  "fetched_at": "2026-10-01T05:25:45+00:00"
+  "checked_at": "2026-10-01T06:17:32+00:00",
+  "fetched_at": "2026-10-01T06:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2414,7 +2414,7 @@ window.DB.generated = {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2434,8 +2434,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T05:25:53+00:00",
-  "fetched_at": "2026-10-01T05:25:53+00:00"
+  "checked_at": "2026-10-01T06:17:41+00:00",
+  "fetched_at": "2026-10-01T06:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2723,8 +2723,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T05:25:49+00:00",
-  "fetched_at": "2026-10-01T05:25:49+00:00"
+  "checked_at": "2026-10-01T06:17:36+00:00",
+  "fetched_at": "2026-10-01T06:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -2755,7 +2755,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T05:25:49+00:00",
-  "fetched_at": "2026-10-01T05:25:49+00:00"
+  "checked_at": "2026-10-01T06:17:36+00:00",
+  "fetched_at": "2026-10-01T06:17:36+00:00"
  }
 };
