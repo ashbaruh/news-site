@@ -52,6 +52,22 @@ window.LiveNet = (function () {
     } catch (e) { return d; }
   }
 
+  /* פיד תקוע: הכתבה הכי חדשה בכל פיד נשמרת בדפדפן, ונורת המצב (health.js) בודקת אותה.
+     (וואלה צבא וביטחון קפא ב-22/09/2026 בלי שום שגיאה — התגלה רק אחרי 10 ימים.) */
+  var NEWEST_KEY = 'feed_newest', newestMem = {};
+  function readNewest() {
+    var all = {};
+    try { all = JSON.parse(localStorage.getItem(NEWEST_KEY) || '{}') || {}; } catch (e) { /* בלי אחסון */ }
+    Object.keys(newestMem).forEach(function (u) { all[u] = newestMem[u]; });
+    return all;
+  }
+  function remember(url, items) {
+    var newest = items.reduce(function (m, i) { return i.date > m ? i.date : m; }, '');
+    var all = readNewest();
+    all[url] = newestMem[url] = { newest: newest, seen_at: new Date().toISOString() };
+    try { localStorage.setItem(NEWEST_KEY, JSON.stringify(all)); } catch (e) { /* בלי אחסון — רק בהרצה הזו */ }
+  }
+
   function getRss(url, allowedHost) {
     return getText(url).then(function (xml) {
       var doc = new DOMParser().parseFromString(xml, 'application/xml');
@@ -72,6 +88,7 @@ window.LiveNet = (function () {
         out.push({ title: title, link: link, date: date.toISOString() });
       });
       if (!out.length) throw new Error('הפיד ריק');
+      remember(url, out);
       return out;
     });
   }
@@ -115,5 +132,5 @@ window.LiveNet = (function () {
   }
 
   return { getJSON: getJSON, getText: getText, getRss: getRss, num: num, parseNum: parseNum, parseVolume: parseVolume,
-           pool: pool, SIM_DOWN: SIM_DOWN };
+           pool: pool, SIM_DOWN: SIM_DOWN, readNewest: readNewest };
 })();

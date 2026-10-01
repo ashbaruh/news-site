@@ -6,6 +6,7 @@
      • עדכון נתונים (כל שעה)         — לא ישן מ-3 שעות
      • עדכון ביניים (04:00/12:00/18:00) — המועד האחרון שעבר (+50 דק' לניסיון החוזר) בוצע
      • ניתוח יומי לכל זירה           — לא ישן מ-36 שעות
+     • כל פיד RSS                    — הכתבה הכי חדשה בו לא ישנה מ-4 ימים (פיד "תקוע")
    נבדקת הגרסה שב-GitHub (לא העותק המקומי) — כדי שגם בפתיחה כקובץ הנורה תשקף את מצב הבוטים.
    לחיצה על הנורה מציגה את הפירוט.
    ============================================================ */
@@ -44,6 +45,37 @@
       .catch(function () { return local; });                       // GitHub לא זמין — העותק המקומי
   }
 
+  /* פיד תקוע — מקור שעונה "תקין" אבל בלי כתבה חדשה יותר מ-STUCK_DAYS ימים.
+     שני מקורות מידע: פידים שהמשימה בענן קוראת (feed_health), ופידים שהדפדפן קורא ישירות (LiveNet.readNewest). */
+  var STUCK_DAYS = 4;
+  /* [שם, ימים עד "תקוע"] — פידים איטיים מטבעם קיבלו סף ארוך יותר (נמדד 01/10/2026) */
+  var BROWSER_FEEDS = {
+    'https://rss.walla.co.il/feed/4701': ['וואלה מבחני רכב', 14],
+    'https://rss.walla.co.il/feed/779': ['וואלה טיולים בעולם', 21],
+    'https://rss.walla.co.il/feed/2500': ['וואלה חדשות תיירות', STUCK_DAYS],
+    'https://rss.walla.co.il/feed/4001': ['וואלה סקירות טק', 45],
+    'https://rss.walla.co.il/feed/4000': ['וואלה חדשות טק', 7],
+    'https://rss.walla.co.il/feed/2?type=main': ['וואלה כסף', STUCK_DAYS],
+    'https://rss.walla.co.il/feed/578': ['וואלה חדשות בריאות', STUCK_DAYS]
+  };
+
+  function feedRows() {
+    var out = [];
+    var fh = (window.DB.generated && window.DB.generated.feed_health) || {};
+    Object.keys(fh.data || {}).forEach(function (u) {
+      var r = fh.data[u];
+      if (r && r.stuck) out.push({ ok: false, name: 'פיד תקוע: ' + r.label, at: r.newest });
+    });
+    var seen = window.LiveNet && window.LiveNet.readNewest ? window.LiveNet.readNewest() : {};
+    Object.keys(BROWSER_FEEDS).forEach(function (u) {
+      var r = seen[u];
+      if (r && r.newest && hoursAgo(r.newest) > BROWSER_FEEDS[u][1] * 24 && hoursAgo(r.seen_at) < 48)
+        out.push({ ok: false, name: 'פיד תקוע: ' + BROWSER_FEEDS[u][0], at: r.newest });
+    });
+    if (!out.length && fh.data) out.push({ ok: true, name: 'פידים — כתבות חדשות', at: fh.checked_at });
+    return out;
+  }
+
   function check() {
     return Promise.all([
       remote('data/war/brief.js', 'window.DB.war_brief =', window.DB.war_brief),
@@ -52,6 +84,7 @@
       var brief = r[0] || {}, pub = r[1] || {}, rows = [];
       var gen = window.DB.generated && window.DB.generated.generated_at;
       rows.push({ ok: !!gen && hoursAgo(gen) <= DATA_MAX_H, name: 'נתונים (כל שעה)', at: gen });
+      feedRows().forEach(function (r) { rows.push(r); });
 
       var slotOk = !!brief.slot && new Date(brief.slot).getTime() >= expectedSlot().getTime() - 60000;
       rows.push({ ok: slotOk, name: 'עדכון ביניים', at: brief.generated_at });
@@ -78,7 +111,10 @@
   function run() { check().then(paint).catch(function () { el.className = 'health'; }); }
 
   el.addEventListener('click', function () { el.classList.toggle('open'); });
-  document.addEventListener('live:update', function (e) { if (e.detail && e.detail.key === 'generated') run(); });
+  document.addEventListener('live:update', function (e) {
+    var k = e.detail && e.detail.key;
+    if (k === 'generated' || k === 'lifestyle' || k === 'positive' || k === 'economy') run();
+  });
   run();
   setInterval(run, 10 * 60000);
 })();

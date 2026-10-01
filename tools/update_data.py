@@ -97,7 +97,51 @@ def read_rss(url, allowed_host):
         out.append({"title": title, "link": link, "date": date.isoformat(timespec="seconds")})
     if not out:
         raise ValueError("הפיד ריק")
+    FEED_NEWEST[url] = max(i["date"] for i in out)
     return out
+
+
+# ------------------------------------------------------------------ פיד תקוע
+# פיד שעונה "תקין" אבל לא מקבל כתבות חדשות (וואלה צבא וביטחון קפא ב-22/09 בלי שום שגיאה — התגלה רק אחרי 10 ימים).
+# כל קריאת RSS רושמת את הכתבה הכי חדשה. פיד שהכתבה הכי חדשה בו ישנה מ-STUCK_DAYS ימים = תקוע → נורה אדומה באתר.
+FEED_NEWEST = {}
+STUCK_DAYS = 4
+STUCK_DAYS_BY_FEED = {           # פידים איטיים מטבעם (נמדד 01/10/2026) — אחרת נורה אדומה סתם
+    "https://rss.walla.co.il/feed/13444": 30,                               # ישראלים ב-NBA — שקט מחוץ לעונה
+    "https://deepmind.google/blog/rss.xml": 21,
+    "https://blog.google/technology/ai/rss/": 10,
+    "https://www.goodnewsnetwork.org/category/news/animals/feed/": 10,
+}
+
+
+def feed_label(url):
+    for part, label in [("news/military", "וואלה צבא וביטחון"), ("/feed/13444", "וואלה ישראלים ב-NBA"),
+                        ("/feed/316", "וואלה כדורגל עולמי"), ("/feed/156", "וואלה כדורגל ישראלי"),
+                        ("one.co.il", "ONE"), ("goodnewsnetwork", "Good News Network"), ("whathifi", "What Hi-Fi?"),
+                        ("globes", "גלובס"), ("deepmind", "Google DeepMind"), ("blog.google", "Google"),
+                        ("geektime", "גיקטיים")]:
+        if part in url:
+            return label
+    return urllib.parse.urlparse(url).hostname or url
+
+
+def feed_health(prev):
+    """מה הכתבה הכי חדשה בכל פיד, ומי תקוע. פיד שלא נקרא בהרצה הזו — נשאר מההרצה הקודמת."""
+    now = datetime.now(timezone.utc)
+    rows = {}
+    for url, r in ((prev or {}).get("data") or {}).items():      # פיד שהוסר מהקוד — נמחק אחרי יומיים
+        try:
+            if now - datetime.fromisoformat(r.get("seen_at", "")) < timedelta(days=2):
+                rows[url] = r
+        except ValueError:
+            pass
+    for url, newest in FEED_NEWEST.items():
+        days = STUCK_DAYS_BY_FEED.get(url, STUCK_DAYS)
+        rows[url] = {"label": feed_label(url), "newest": newest, "seen_at": now_iso(),
+                     "stuck": now - datetime.fromisoformat(newest) > timedelta(days=days)}
+    stuck = [r["label"] for r in rows.values() if r["stuck"]]
+    return {"ok": not stuck, "data": rows, "checked_at": now_iso(),
+            **({"error": "פיד תקוע: " + ", ".join(stuck)} if stuck else {})}
 
 
 # ------------------------------------------------------------------ תרגום
@@ -742,6 +786,10 @@ def main():
     run_section(state, "ai", lambda: job_ai(cache))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
+    state["feed_health"] = feed_health(state.get("feed_health"))
+    for r in state["feed_health"]["data"].values():
+        if r["stuck"]:
+            print(f"[feed_health] תקוע: {r['label']} — כתבה אחרונה {r['newest']}", file=sys.stderr)
     state["generated_at"] = now_iso()
 
     # זיכרון התרגומים — שומרים רק 500 אחרונים
