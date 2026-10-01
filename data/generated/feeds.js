@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T15:17:19+00:00",
-  "fetched_at": "2026-10-01T15:17:19+00:00"
+  "checked_at": "2026-10-01T16:17:29+00:00",
+  "fetched_at": "2026-10-01T16:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T15:17:31+00:00",
-  "fetched_at": "2026-10-01T15:17:31+00:00"
+  "checked_at": "2026-10-01T16:17:44+00:00",
+  "fetched_at": "2026-10-01T16:17:44+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Ask The Reader: what's the first record you play when you christen a new turntable?",
+    "title_he": "שאל את הקורא: מהו התקליט הראשון שאתה מנגן כשאתה מטביל פטיפון חדש?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/vinyl/ask-the-reader-whats-the-first-record-you-play-when-you-christen-a-new-turntable",
+    "date": "2026-10-01T16:02:17+00:00"
+   },
+   {
+    "title_en": "We asked what got you into hi-fi – and glorious audio-related chaos ensued",
+    "title_he": "שאלנו מה הכניס אותך ל-hi-fi - והתפתח כאוס מפואר הקשור לשמע",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/we-asked-what-got-you-into-hi-fi-and-glorious-audio-related-chaos-ensued",
+    "date": "2026-10-01T15:35:21+00:00"
+   },
    {
     "title_en": "Little or large? Panasonic launches two new micro hi-fi systems, including a mini-me for smaller spaces and budgets",
     "title_he": "קטן או גדול? Panasonic משיקה שתי מערכות מיקרו Hi-Fi חדשות, כולל מיני-מי לחללים ותקציבים קטנים יותר",
@@ -62,32 +76,18 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/subwoofers/this-punchy-kef-subwoofer-is-part-of-an-award-winning-system-and-now-its-25-percent-off",
     "date": "2026-10-01T14:42:13+00:00"
-   },
-   {
-    "title_en": "PMC MB2 SE",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/pmc-mb2-se",
-    "date": "2026-10-01T11:59:19+00:00"
-   },
-   {
-    "title_en": "Cambridge Audio adds Dolby Audio and a new colourway to its affordable wireless earbuds",
-    "title_he": "Cambridge Audio מוסיפה Dolby Audio וצבע חדש לאוזניות האלחוטיות הזולות שלה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/cambridge-audio-adds-dolby-audio-and-a-new-colourway-to-its-affordable-wireless-earbuds",
-    "date": "2026-10-01T09:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T15:17:35+00:00",
-  "fetched_at": "2026-10-01T15:17:35+00:00"
+  "checked_at": "2026-10-01T16:17:46+00:00",
+  "fetched_at": "2026-10-01T16:17:46+00:00"
  },
- "generated_at": "2026-10-01T15:17:35+00:00",
+ "generated_at": "2026-10-01T16:17:46+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מלחמת המחירים שנחשפה בתערוכה הנחשבת: רכבים החל מ-90 אלף שקל",
+     "title": "החל מ-120 אלף שקל: קרוס אובר במחיר מציאה ועוד כמה הפתעות שבדרך",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558242",
      "date": "2026-10-01T14:55:00+00:00"
     },
@@ -99,14 +99,29 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "גולה מאיראן בטור לגלובס: \"הכלכלה לא תקרוס מפצצות, אלא מהשוד של השלטון\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558170",
+     "date": "2026-10-01T16:00:00+00:00"
+    },
+    {
+     "title": "\"הפעם זה רציני\": פוטין מאיים בשימוש בנשק גרעיני נגד מדינות נאט\"ו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558134",
+     "date": "2026-10-01T15:58:00+00:00"
+    },
+    {
+     "title": "וול סטריט עברה לירידות בעוד התשואות והנפט ממשיכים לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
+     "date": "2026-10-01T15:19:00+00:00"
+    },
+    {
+     "title": "איפה עובד צביקה מנס, מגיבורי טיסת פליי דובאי?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001557969",
+     "date": "2026-10-01T15:00:00+00:00"
+    },
+    {
      "title": "המשקיע שמכר את כל המניות שלו בסמארט שוטר ב-51 מיליון שקל, ומי הרוכשים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558223",
      "date": "2026-10-01T14:37:00+00:00"
-    },
-    {
-     "title": "העליות בוול סטריט נמחקו; התשואות ממשיכות לטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T14:34:00+00:00"
     },
     {
      "title": "המועמדת החדשה והמפתיעה למדד ת\"א 35",
@@ -204,16 +219,6 @@ window.DB.generated = {
      "date": "2026-10-01T02:29:00+00:00"
     },
     {
-     "title": "נעילה מעורבת בוול סטריט; התשואות שוב זינקו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557900",
-     "date": "2026-09-30T20:02:00+00:00"
-    },
-    {
-     "title": "גיבור היום: זה הטייס שנדקר ונאבק כדי להציל את טיסת פליי דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558092",
-     "date": "2026-09-30T17:10:00+00:00"
-    },
-    {
      "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
      "date": "2026-09-30T11:37:00+00:00"
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T15:17:21+00:00",
-  "fetched_at": "2026-10-01T15:17:21+00:00"
+  "checked_at": "2026-10-01T16:17:31+00:00",
+  "fetched_at": "2026-10-01T16:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T15:17:22+00:00",
-  "fetched_at": "2026-10-01T15:17:22+00:00"
+  "checked_at": "2026-10-01T16:17:32+00:00",
+  "fetched_at": "2026-10-01T16:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2496,8 +2501,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T15:17:23+00:00",
-  "fetched_at": "2026-10-01T15:17:23+00:00"
+  "checked_at": "2026-10-01T16:17:35+00:00",
+  "fetched_at": "2026-10-01T16:17:35+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2587,8 +2592,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T15:17:23+00:00",
-  "fetched_at": "2026-10-01T15:17:23+00:00"
+  "checked_at": "2026-10-01T16:17:35+00:00",
+  "fetched_at": "2026-10-01T16:17:35+00:00"
  },
  "ai": {
   "data": {
@@ -2610,8 +2615,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
-   "failed_sources": [],
+   "candidates": 13,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2624,7 +2631,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 624,
+     "likes": 625,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2670,28 +2677,46 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "KV Image to Clip",
+     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
+     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
+     "likes": 74,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
+    },
+    {
      "title": "OpenVuln",
      "desc_en": "Find bugs in your repository with GLM",
      "desc_he": "מצא באגים במאגר שלך עם GLM",
      "likes": 191,
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
-    },
-    {
-     "title": "KV Image to Clip",
-     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
-     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 73,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T15:17:30+00:00",
-  "fetched_at": "2026-10-01T15:17:30+00:00"
+  "checked_at": "2026-10-01T16:17:43+00:00",
+  "fetched_at": "2026-10-01T16:17:43+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "השחקן שהעריץ בילדות והתחושות בטורקיה: סבע מדבר",
+     "link": "https://www.one.co.il/Article/534834.html?ref=rss",
+     "date": "2026-10-01T15:31:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "שחקן ברצלונה החמיא לאוריין גורן: \"אהבתי לראות אותו\"",
+     "link": "https://sports.walla.co.il/item/3870525",
+     "date": "2026-10-01T15:29:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "דיא סבע: \"מכבדים אותי באמדספור, מראים לי אהבה בכל מקום\"",
      "link": "https://sports.walla.co.il/item/3870522",
@@ -2974,8 +2999,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T15:17:26+00:00",
-  "fetched_at": "2026-10-01T15:17:26+00:00"
+  "checked_at": "2026-10-01T16:17:38+00:00",
+  "fetched_at": "2026-10-01T16:17:38+00:00"
  },
  "idf": {
   "data": [
@@ -3006,7 +3031,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T15:17:27+00:00",
-  "fetched_at": "2026-10-01T15:17:27+00:00"
+  "checked_at": "2026-10-01T16:17:39+00:00",
+  "fetched_at": "2026-10-01T16:17:39+00:00"
  }
 };
