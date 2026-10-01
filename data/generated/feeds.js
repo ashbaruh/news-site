@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:17:20+00:00",
-  "fetched_at": "2026-10-01T17:17:20+00:00"
+  "checked_at": "2026-10-01T17:49:34+00:00",
+  "fetched_at": "2026-10-01T17:49:34+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:17:30+00:00",
-  "fetched_at": "2026-10-01T17:17:30+00:00"
+  "checked_at": "2026-10-01T17:49:45+00:00",
+  "fetched_at": "2026-10-01T17:49:45+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:17:30+00:00",
-  "fetched_at": "2026-10-01T17:17:30+00:00"
+  "checked_at": "2026-10-01T17:49:46+00:00",
+  "fetched_at": "2026-10-01T17:49:46+00:00"
  },
- "generated_at": "2026-10-01T17:17:30+00:00",
+ "generated_at": "2026-10-01T17:49:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,7 +92,7 @@ window.DB.generated = {
      "date": "2026-10-01T16:35:00+00:00"
     },
     {
-     "title": "נתניהו: יש אינדיקציה שהאיראנים ינסו לפגוע שוב במטרות ישראליות",
+     "title": "טראמפ נשאל אם הטייס קשור לאיראן והשיב: \"בודקים את זה, לפי מה שאני שומע כן\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
      "date": "2026-10-01T16:37:00+00:00"
     }
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:17:21+00:00",
-  "fetched_at": "2026-10-01T17:17:21+00:00"
+  "checked_at": "2026-10-01T17:49:35+00:00",
+  "fetched_at": "2026-10-01T17:49:35+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:17:21+00:00",
-  "fetched_at": "2026-10-01T17:17:21+00:00"
+  "checked_at": "2026-10-01T17:49:36+00:00",
+  "fetched_at": "2026-10-01T17:49:36+00:00"
  },
  "tv": {
   "data": [
@@ -2501,8 +2501,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:17:22+00:00",
-  "fetched_at": "2026-10-01T17:17:22+00:00"
+  "checked_at": "2026-10-01T17:49:38+00:00",
+  "fetched_at": "2026-10-01T17:49:38+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2592,8 +2592,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:17:22+00:00",
-  "fetched_at": "2026-10-01T17:17:22+00:00"
+  "checked_at": "2026-10-01T17:49:38+00:00",
+  "fetched_at": "2026-10-01T17:49:38+00:00"
  },
  "ai": {
   "data": {
@@ -2615,17 +2615,22 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 354,
+     "likes": 358,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 141,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2633,13 +2638,6 @@ window.DB.generated = {
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
      "likes": 625,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 140,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2677,28 +2675,37 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "OpenVuln",
+     "desc_en": "Find bugs in your repository with GLM",
+     "desc_he": "מצא באגים במאגר שלך עם GLM",
+     "likes": 193,
+     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
+    },
+    {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
      "likes": 75,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
-    },
-    {
-     "title": "OpenVuln",
-     "desc_en": "Find bugs in your repository with GLM",
-     "desc_he": "מצא באגים במאגר שלך עם GLM",
-     "likes": 192,
-     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:17:29+00:00",
-  "fetched_at": "2026-10-01T17:17:29+00:00"
+  "checked_at": "2026-10-01T17:49:45+00:00",
+  "fetched_at": "2026-10-01T17:49:45+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "זעזוע: אסף צור בשער הנבחרת, תאי בריבו בחוד",
+     "link": "https://www.one.co.il/Article/534841.html?ref=rss",
+     "date": "2026-10-01T17:26:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי בריבו"
+     ]
+    },
     {
      "title": "השחקן שהעריץ בילדות והתחושות בטורקיה: סבע מדבר",
      "link": "https://www.one.co.il/Article/534834.html?ref=rss",
@@ -2999,39 +3006,39 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T17:17:25+00:00",
-  "fetched_at": "2026-10-01T17:17:25+00:00"
+  "checked_at": "2026-10-01T17:49:41+00:00",
+  "fetched_at": "2026-10-01T17:49:41+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "במהלך יום כיפור: לוחמי דובדבן עצרו שני מחבלים שתכננו לבצע פיגוע בטווח הזמן המיידי",
-    "link": "https://news.walla.co.il/item/3869130",
-    "date": "2026-09-21T16:52:00+00:00"
+    "title": "צה\"ל חשף: 170 \"עיתונאים\" שנהרגו בעזה - היו מחבלים",
+    "link": "https://www.walla.co.il/news/military/383956001",
+    "date": "2026-10-01T14:56:44+00:00"
    },
    {
-    "title": "צפצוף המוות: מאחורי המבצע ששבר את נסראללה | שנתיים למבצע הביפרים",
-    "link": "https://news.walla.co.il/item/3868965",
-    "date": "2026-09-20T12:15:00+00:00"
+    "title": "בג\"ץ התיר לפרסם: סא\"ל אריה עמידרור היה קמ\"ן אוגדת עזה ב-7 באוקטובר",
+    "link": "https://www.walla.co.il/news/military/383955953",
+    "date": "2026-10-01T07:50:41+00:00"
    },
    {
-    "title": "פיגוע ירי סמוך לנווה צוף: ישראלי נרצח - המחבל נתפס פצוע בבית חולים",
-    "link": "https://news.walla.co.il/item/3869053",
-    "date": "2026-09-20T10:08:00+00:00"
+    "title": "הישראלי שהשתלט על המחבל בטיסה מדובאי: ״קשרנו אותו עם אזניות מולטימדיה״",
+    "link": "https://www.walla.co.il/news/military/383955864",
+    "date": "2026-09-30T14:34:19+00:00"
    },
    {
-    "title": "בצה\"ל ממליצים: ליישם את מודל עלי טאהר בלב עזה ולפרק את מעוז חמאס",
-    "link": "https://news.walla.co.il/item/3868939",
-    "date": "2026-09-20T09:45:00+00:00"
+    "title": "הפלסטינים טוענים: מתנחלים גנבו זיתים מהכפר סינג'יל - לעיני הלוחמים בשטח",
+    "link": "https://www.walla.co.il/news/military/383955792",
+    "date": "2026-09-30T05:42:52+00:00"
    },
    {
-    "title": "היישובים מתרחבים, הנשק מצטמצם: המתיחות החדשה בין צה\"ל למתיישבים",
-    "link": "https://news.walla.co.il/item/3868933",
-    "date": "2026-09-20T03:00:00+00:00"
+    "title": "צה\"ל : מח\"ט צפון הרצועה בחמאס חוסל בתקיפה ממוקדת מהאוויר - \"היווה איום מיידי\" | תיעוד",
+    "link": "https://www.walla.co.il/news/military/383955649",
+    "date": "2026-09-29T05:28:38+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T17:17:26+00:00",
-  "fetched_at": "2026-10-01T17:17:26+00:00"
+  "checked_at": "2026-10-01T17:49:42+00:00",
+  "fetched_at": "2026-10-01T17:49:42+00:00"
  }
 };
