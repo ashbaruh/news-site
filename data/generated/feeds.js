@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T11:17:10+00:00",
-  "fetched_at": "2026-10-01T11:17:10+00:00"
+  "checked_at": "2026-10-01T12:17:22+00:00",
+  "fetched_at": "2026-10-01T12:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T11:17:17+00:00",
-  "fetched_at": "2026-10-01T11:17:17+00:00"
+  "checked_at": "2026-10-01T12:17:35+00:00",
+  "fetched_at": "2026-10-01T12:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "PMC MB2 SE",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/pmc-mb2-se",
+    "date": "2026-10-01T11:59:19+00:00"
+   },
    {
     "title_en": "Cambridge Audio adds Dolby Audio and a new colourway to its affordable wireless earbuds",
     "title_he": "Cambridge Audio מוסיפה Dolby Audio וצבע חדש לאוזניות האלחוטיות הזולות שלה",
@@ -69,32 +76,25 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/loewes-snazzy-looking-bluetooth-speaker-promises-exceptional-acoustic-power-but-comes-at-a-premium-price",
     "date": "2026-09-30T10:34:16+00:00"
-   },
-   {
-    "title_en": "I tested Samsung’s two flagship OLED TVs, and despite what you might have heard, they’re very different",
-    "title_he": "בדקתי את שתי טלוויזיות הדגל של Samsung OLED, ולמרות מה שאולי שמעתם, הן שונות מאוד",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/i-tested-samsungs-two-flagship-oled-tvs-and-despite-what-you-might-have-heard-theyre-very-different",
-    "date": "2026-09-30T09:43:39+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T11:17:18+00:00",
-  "fetched_at": "2026-10-01T11:17:18+00:00"
+  "checked_at": "2026-10-01T12:17:36+00:00",
+  "fetched_at": "2026-10-01T12:17:36+00:00"
  },
- "generated_at": "2026-10-01T11:17:18+00:00",
+ "generated_at": "2026-10-01T12:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"היא מתחרה קשה ומזיזה את המחט\": המהפך באיילון והאם יש עוד אפסייד במניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557901",
-     "date": "2026-10-01T10:49:00+00:00"
+     "title": "הסטארט-אפ מתל אביב הוקם לפני עשרה חודשים. עכשיו הוא נמכר במעל 100 מיליון דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558143",
+     "date": "2026-10-01T11:58:00+00:00"
     },
     {
      "title": "באמירויות מעלים לראשונה אפשרות של פיגוע: \"בודקים זאת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T10:48:00+00:00"
+     "date": "2026-10-01T12:13:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T11:17:11+00:00",
-  "fetched_at": "2026-10-01T11:17:11+00:00"
+  "checked_at": "2026-10-01T12:17:24+00:00",
+  "fetched_at": "2026-10-01T12:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T11:17:12+00:00",
-  "fetched_at": "2026-10-01T11:17:12+00:00"
+  "checked_at": "2026-10-01T12:17:24+00:00",
+  "fetched_at": "2026-10-01T12:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2356,8 +2356,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T11:17:13+00:00",
-  "fetched_at": "2026-10-01T11:17:13+00:00"
+  "checked_at": "2026-10-01T12:17:26+00:00",
+  "fetched_at": "2026-10-01T12:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2447,12 +2447,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T11:17:13+00:00",
-  "fetched_at": "2026-10-01T11:17:13+00:00"
+  "checked_at": "2026-10-01T12:17:26+00:00",
+  "fetched_at": "2026-10-01T12:17:26+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-4-argon-launch/",
+     "date": "2026-10-01T07:34:40+00:00",
+     "launch": true,
+     "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/barclays-scales-claude",
@@ -2461,28 +2468,24 @@ window.DB.generated = {
      "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
      "title_he": "Barclays קנה קנה מידה של קלוד כדי לשדרג את התפעול ולשפר את חווית הלקוח",
      "translated_by": "google"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "date": "2026-09-30T20:01:45+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
-     "translated_by": "mymemory"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 15,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 350,
+     "likes": 352,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 139,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
@@ -2490,13 +2493,6 @@ window.DB.generated = {
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
      "likes": 620,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 138,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2509,21 +2505,21 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 220,
+     "likes": 221,
      "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3"
     },
     {
      "title": "Laya Demo",
      "desc_en": "Fast System 1 decisions with calibrated probabilities",
      "desc_he": "החלטות מהירות של מערכת 1 עם הסתברויות מכוילות",
-     "likes": 257,
+     "likes": 258,
      "link": "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 224,
+     "likes": 223,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2550,8 +2546,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T11:17:17+00:00",
-  "fetched_at": "2026-10-01T11:17:17+00:00"
+  "checked_at": "2026-10-01T12:17:33+00:00",
+  "fetched_at": "2026-10-01T12:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -2820,8 +2816,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T11:17:16+00:00",
-  "fetched_at": "2026-10-01T11:17:16+00:00"
+  "checked_at": "2026-10-01T12:17:29+00:00",
+  "fetched_at": "2026-10-01T12:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -2852,7 +2848,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T11:17:16+00:00",
-  "fetched_at": "2026-10-01T11:17:16+00:00"
+  "checked_at": "2026-10-01T12:17:29+00:00",
+  "fetched_at": "2026-10-01T12:17:29+00:00"
  }
 };
