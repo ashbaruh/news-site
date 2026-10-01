@@ -16,6 +16,11 @@
 34.6008,
 32.9562
 ],
+"al-bayda, yemen": [
+13.9881,
+45.5729
+],
+"al-dhabab, yemen": null,
 "al-eis, syria": null,
 "al-hazm, yemen": [
 16.0878,
@@ -328,6 +333,10 @@
 34.8089
 ],
 "hmeimim airbase, syria": null,
+"hodeidah, yemen": [
+14.7979,
+42.9545
+],
 "holubivka, ukraine": [
 48.6414,
 38.6479
@@ -780,6 +789,7 @@
 39.7249
 ],
 "russia": null,
+"sa'ada, yemen": null,
 "saada, yemen": [
 16.9409,
 43.763
