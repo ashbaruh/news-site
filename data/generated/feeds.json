@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-01T14:17:34+00:00",
-  "fetched_at": "2026-10-01T14:17:34+00:00"
+  "checked_at": "2026-10-01T15:17:19+00:00",
+  "fetched_at": "2026-10-01T15:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T14:17:48+00:00",
-  "fetched_at": "2026-10-01T14:17:48+00:00"
+  "checked_at": "2026-10-01T15:17:31+00:00",
+  "fetched_at": "2026-10-01T15:17:31+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Little or large? Panasonic launches two new micro hi-fi systems, including a mini-me for smaller spaces and budgets",
+    "title_he": "קטן או גדול? Panasonic משיקה שתי מערכות מיקרו Hi-Fi חדשות, כולל מיני-מי לחללים ותקציבים קטנים יותר",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/stereo-systems/little-or-large-panasonic-launches-two-new-micro-hi-fi-systems-including-a-mini-me-for-smaller-spaces-and-budgets",
+    "date": "2026-10-01T14:50:58+00:00"
+   },
+   {
+    "title_en": "This punchy KEF subwoofer is part of an Award-winning system – and now it's 25% off",
+    "title_he": "סאבוופר KEF המחמיר הזה הוא חלק ממערכת עטורת פרסים - ועכשיו הוא ב-25% הנחה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/subwoofers/this-punchy-kef-subwoofer-is-part-of-an-award-winning-system-and-now-its-25-percent-off",
+    "date": "2026-10-01T14:42:13+00:00"
+   },
    {
     "title_en": "PMC MB2 SE",
     "title_he": null,
@@ -60,46 +74,37 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-earbuds/cambridge-audio-adds-dolby-audio-and-a-new-colourway-to-its-affordable-wireless-earbuds",
     "date": "2026-10-01T09:00:00+00:00"
-   },
-   {
-    "title_en": "Amazon’s new Fire Stick promises to be faster and slimmer – but its pricing has us scratching our heads",
-    "title_he": "Fire Stick החדש של אמזון מבטיח להיות מהיר יותר ורזה יותר - אבל התמחור שלו גורם לנו לגרד את הראש שלנו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/amazons-new-fire-stick-promises-to-be-faster-and-slimmer-but-its-pricing-has-us-scratching-our-heads",
-    "date": "2026-10-01T07:26:40+00:00"
-   },
-   {
-    "title_en": "Loewe's snazzy-looking Bluetooth speaker promises \"exceptional acoustic power\", but comes at a premium price",
-    "title_he": "רמקול ה-Bluetooth בעל המראה הנפלא של Loewe מבטיח \"עוצמה אקוסטית יוצאת דופן\", אך מגיע במחיר מובחר",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/loewes-snazzy-looking-bluetooth-speaker-promises-exceptional-acoustic-power-but-comes-at-a-premium-price",
-    "date": "2026-09-30T10:34:16+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T14:17:49+00:00",
-  "fetched_at": "2026-10-01T14:17:49+00:00"
+  "checked_at": "2026-10-01T15:17:35+00:00",
+  "fetched_at": "2026-10-01T15:17:35+00:00"
  },
- "generated_at": "2026-10-01T14:17:49+00:00",
+ "generated_at": "2026-10-01T15:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הסטארט-אפ מתל אביב הוקם לפני עשרה חודשים. עכשיו הוא נמכר במעל 100 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558143",
-     "date": "2026-10-01T11:58:00+00:00"
+     "title": "מלחמת המחירים שנחשפה בתערוכה הנחשבת: רכבים החל מ-90 אלף שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558242",
+     "date": "2026-10-01T14:55:00+00:00"
     },
     {
      "title": "נתניהו: יש אינדיקציה שהאיראנים ינסו לפגוע שוב במטרות ישראליות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558102",
-     "date": "2026-10-01T13:39:00+00:00"
+     "date": "2026-10-01T14:57:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "המשקיע שמכר את כל המניות שלו בסמארט שוטר ב-51 מיליון שקל, ומי הרוכשים?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558223",
+     "date": "2026-10-01T14:37:00+00:00"
+    },
+    {
      "title": "העליות בוול סטריט נמחקו; התשואות ממשיכות לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558097",
-     "date": "2026-10-01T14:11:00+00:00"
+     "date": "2026-10-01T14:34:00+00:00"
     },
     {
      "title": "המועמדת החדשה והמפתיעה למדד ת\"א 35",
@@ -207,11 +212,6 @@
      "date": "2026-09-30T17:10:00+00:00"
     },
     {
-     "title": "בין הפוליטי לעסקי: מה יעלה בגורל עסקת צים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558008",
-     "date": "2026-09-30T16:00:00+00:00"
-    },
-    {
      "title": "נעילה מעורבת בתל אביב; אל על זינקה ב-8% אחרי הדרמה בטיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001557909",
      "date": "2026-09-30T11:37:00+00:00"
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T14:17:36+00:00",
-  "fetched_at": "2026-10-01T14:17:36+00:00"
+  "checked_at": "2026-10-01T15:17:21+00:00",
+  "fetched_at": "2026-10-01T15:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T14:17:37+00:00",
-  "fetched_at": "2026-10-01T14:17:37+00:00"
+  "checked_at": "2026-10-01T15:17:22+00:00",
+  "fetched_at": "2026-10-01T15:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2494,8 +2494,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T14:17:38+00:00",
-  "fetched_at": "2026-10-01T14:17:38+00:00"
+  "checked_at": "2026-10-01T15:17:23+00:00",
+  "fetched_at": "2026-10-01T15:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2585,8 +2585,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T14:17:38+00:00",
-  "fetched_at": "2026-10-01T14:17:38+00:00"
+  "checked_at": "2026-10-01T15:17:23+00:00",
+  "fetched_at": "2026-10-01T15:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2615,8 +2615,15 @@
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 353,
+     "likes": 354,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 624,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
@@ -2624,13 +2631,6 @@
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 139,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 622,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -2650,7 +2650,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 226,
+     "likes": 227,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2668,28 +2668,46 @@
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "OpenVuln",
+     "desc_en": "Find bugs in your repository with GLM",
+     "desc_he": "מצא באגים במאגר שלך עם GLM",
+     "likes": 191,
+     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
+    },
+    {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
      "likes": 73,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
-    },
-    {
-     "title": "OpenVuln",
-     "desc_en": "Find bugs in your repository with GLM",
-     "desc_he": "מצא באגים במאגר שלך עם GLM",
-     "likes": 190,
-     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-01T14:17:46+00:00",
-  "fetched_at": "2026-10-01T14:17:46+00:00"
+  "checked_at": "2026-10-01T15:17:30+00:00",
+  "fetched_at": "2026-10-01T15:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דיא סבע: \"מכבדים אותי באמדספור, מראים לי אהבה בכל מקום\"",
+     "link": "https://sports.walla.co.il/item/3870522",
+     "date": "2026-10-01T15:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "ג'רארד מרטין: אוריין גורן הרשים אותי מאוד",
+     "link": "https://www.one.co.il/Article/534825.html?ref=rss",
+     "date": "2026-10-01T13:55:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "בן שמעון מתלבט לקראת קוסובו, בריבו ופרץ צפויים לפתוח",
      "link": "https://sports.walla.co.il/item/3870300",
@@ -2954,8 +2972,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-01T14:17:42+00:00",
-  "fetched_at": "2026-10-01T14:17:42+00:00"
+  "checked_at": "2026-10-01T15:17:26+00:00",
+  "fetched_at": "2026-10-01T15:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -2986,7 +3004,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-01T14:17:42+00:00",
-  "fetched_at": "2026-10-01T14:17:42+00:00"
+  "checked_at": "2026-10-01T15:17:27+00:00",
+  "fetched_at": "2026-10-01T15:17:27+00:00"
  }
 }
