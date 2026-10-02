@@ -1,0 +1,470 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d3a69b703d55",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1,
+   "assessment": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-02T16:21:27+00:00",
+  "window": {
+   "from": "2026-10-01T16:21:27+00:00",
+   "to": "2026-10-02T16:21:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "iran-202610021621"
+  },
+  "summary": "העימות הצבאי והכלכלי בין ארצות הברית וישראל לבין איראן מחריף ומלווה בהזרמת נושאות מטוסים ומערכות הגנה אמריקאיות להגנה על מתקני נפט במפרץ. במקביל לסנקציות חריפות שפגעו בהעמסת הנפט האיראני ובמטבע המקומי, מדינות ה-G7 מפעילות מאגרי חירום לייצוב שוק האנרגיה. בגזרת השלוחות, החות'ים מואשמים בפגיעה בתשתיות אנרגיה בסעודיה, בעוד חזבאללה מצהיר על כוונתו להימנע מפתיחת מערכה ישירה.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "שיבושי אנרגיה מתמשכים, אבטחת שיירות ופריסת מערכות הגנה ונושאות מטוסים אמריקאיות סביב שדות נפט וגז"
+   },
+   {
+    "name": "ציר איראן - ארה\"ב (כלכלי וצבאי)",
+    "status": "סנקציות תעופה ונפט הדוקות, התרסקות שער הריאל האיראני ואיומי תגובה הדדיים על רקע מבוי סתום במשא ומתן"
+   },
+   {
+    "name": "הזירה התימנית (חות'ים מול סעודיה והים האדום)",
+    "status": "האשמות על פגיעה בתשתיות חשמל בסעודיה לצד חשש מלחץ משולב על נתיבי השיט בבאב אל-מנדב"
+   },
+   {
+    "name": "הזירה הצפונית (חזבאללה - ישראל)",
+    "status": "חזבאללה מצהיר על שמירת נשקו והימנעות ממתן אמתלה לעימות חדש כחזית סיוע"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10021621-01",
+    "title": "מדינות ה-G7 סיכמו על שחרור עשרות מיליוני חביות נפט וסולר בשל המשבר במצר הורמוז",
+    "summary": "מדינות פורום ה-G7 גינו את תקיפותיה של איראן נגד שכנותיה וסיכמו על שחרור של עד מאה מיליון חביות נפט וסולר ממאגרי החירום לאורך ארבעה חודשים, במטרה להקל על מחירי האנרגיה ולייצב את האספקה בעקבות השיבושים במצר הורמוז.",
+    "axis": "איראן - ארה\"ב והמערב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T14:49:00+00:00",
+    "last_update_at": "2026-10-02T15:48:34+00:00",
+    "what_is_not_verified": "היקף ההשפעה המעשי של שחרור המאגרים על מחירי השוק ומשך המשבר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-countries-rebuke-iran-attack-neighbours",
+      "published_at": "2026-10-02T15:48:34+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-plans-oil-and-diesel-supply-offers-100-million-barrels-macron-says",
+      "published_at": "2026-10-02T14:49:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10021621-02",
+    "title": "תגבור כוחות וסוללות הגנה של ארצות הברית במזרח התיכון",
+    "summary": "צבא ארצות הברית שיגר קבוצת קרב של נושאת מטוסים שלישית לאזור, לצד כוח נחיתה אמפיבי, ופרס סוללות טילי פטריוט להגנה על שדות נפט וגז בערב הסעודית ובקטאר על רקע הלחימה מול איראן.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T01:17:37+00:00",
+    "last_update_at": "2026-10-02T04:29:17+00:00",
+    "what_is_not_verified": "המועד המדויק להגעת מלוא הכוחות הנוספים ואפשרויות התקיפה שייבחרו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21535879",
+      "published_at": "2026-10-02T04:29:17+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/02/us-third-aircraft-carrier-middle-east-iran",
+      "published_at": "2026-10-02T01:17:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10021621-03",
+    "title": "החרפת הלחץ הכלכלי האמריקאי והחרגת טיסות לעיר נג'ף",
+    "summary": "שר האוצר האמריקאי הצהיר כי איראן לא הטעינה נפט על מכליות בספטמבר, בעוד הממשל הטיל עיצומים על עשרות חברות תעופה איראניות אך העניק היתר זמני לטיסות עיראקיות בין איראן לנג'ף.",
+    "axis": "איראן - ארה\"ב ועיראק",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T16:05:52+00:00",
+    "last_update_at": "2026-10-01T20:10:35+00:00",
+    "what_is_not_verified": "האם היתר הטיסות לנג'ף יהפוך להחרגה קבועה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131184",
+      "published_at": "2026-10-01T20:10:35+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/2026/10/01/washington-decides-complete-ban-on-iran-iraq-flights-is-not-worth-the-political-cost/",
+      "published_at": "2026-10-01T16:05:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ף, עיראק",
+      "lat": 32.001,
+      "lon": 44.33
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10021621-04",
+    "title": "שיקום חלקי של ייצוא הנפט הגולמי דרך מצר הורמוז",
+    "summary": "ייצוא הנפט הגולמי מהאזור שב ברובו להיקפיו שלפני המלחמה באמצעות צינורות עוקפים, העברות בין אוניות וליווי צבאי אמריקאי, אך מעבר תזקיקים וסולר ממשיך להיתקל בקשיים.",
+    "axis": "מצר הורמוז והמפרץ הפרסי",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T15:52:14+00:00",
+    "last_update_at": "2026-10-01T16:21:27+00:00",
+    "what_is_not_verified": "היקף הזרימה המדויק של תזקיקי סולר בנתיבים החלופיים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/business/2026/oct/01/crude-oil-exports-strait-of-hormuz-transport-gulf-region-diesel",
+      "published_at": "2026-10-01T15:52:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10021621-05",
+    "title": "מתקפת כטב\"מים על תחנת חשמל בעיר אל-מדינה והכחשה חות'ית",
+    "summary": "הקואליציה בראשות ערב הסעודית האשימה את החות'ים בשיגור כטב\"מים לעבר תחנת הכוח טייבה המספקת חשמל למסגד הנביא בעיר מדינה. מנגד, החות'ים הכחישו כל מעורבות בתקיפה.",
+    "axis": "שלוחות איראן - המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T18:22:01+00:00",
+    "last_update_at": "2026-10-02T02:39:43+00:00",
+    "what_is_not_verified": "זהות המשגר בפועל לנוכח ההכחשה הרשמית של החות'ים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261002-saudi-led-coalition-houthis-striking-medina-power-station",
+      "published_at": "2026-10-02T02:39:43+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48178",
+      "published_at": "2026-10-01T18:22:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מדינה, ערב הסעודית",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10021621-06",
+    "title": "הודעת חזבאללה על אי-פתיחת חזית נוספת בעימות האמריקאי-איראני",
+    "summary": "מקור פוליטי בכיר בחזבאללה מסר כי הארגון אינו מתכוון לפתוח במערכת סיוע שלישית בעת חידוש העימות בין ארצות הברית לאיראן, אלא יתמקד בשימור נשקו וחופש פעולתו.",
+    "axis": "חזבאללה - ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T07:23:07+00:00",
+    "last_update_at": "2026-10-02T07:23:07+00:00",
+    "what_is_not_verified": "עמדת הארגון הרשמית בזמן אמת אם תתרחש תקיפה ישירה נגד איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131191",
+      "published_at": "2026-10-02T07:23:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10021621-07",
+    "title": "בדיקת חשד למעורבות איראנית באירוע טיסת פליי דובאי",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי הרשויות בוחנות האם הטייס באירוע מטוס חברת פליי דובאי היה מקושר לאיראן, וציין כי לפי המידע שבידיו התשובה חיובית אך העניין עודנו בבדיקה.",
+    "axis": "איראן - ארה\"ב והמפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T17:13:59+00:00",
+    "last_update_at": "2026-10-02T13:10:20+00:00",
+    "what_is_not_verified": "ממצאי הבדיקה הסופיים ואימות הקשר הישיר של הטייס למשטר האיראני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131216",
+      "published_at": "2026-10-02T13:10:20+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48175",
+      "published_at": "2026-10-01T17:40:19+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94448",
+      "published_at": "2026-10-01T17:13:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10021621-08",
+    "title": "אזהרות איראניות מתגובה חריפה לכל תקיפה",
+    "summary": "משמרות המהפכה ובכירים במערך הביטחון הלאומי ומשרד החוץ של איראן איימו במענה כואב ומשמיד לכל פעולה צבאית, והגדירו את מהלכי ארצות הברית וישראל כאלימות מדינתית.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T14:02:59+00:00",
+    "last_update_at": "2026-10-02T15:17:08+00:00",
+    "what_is_not_verified": "אופי התגובה האיראנית המעשית והיכולת להוציאה לפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_0e7b7fb128f4a6e0",
+      "url": "https://en.irna.ir/news/86281056/Rezaei-Fantasies-of-worst-president-in-US-history-do-not-shape",
+      "published_at": "2026-10-02T15:17:08+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_e7591f8286c2326b",
+      "url": "https://en.irna.ir/news/86281012/Iran-Silence-on-US-Israeli-crimes-complicity-in-violence",
+      "published_at": "2026-10-02T14:11:02+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_089eccbc68f29d89",
+      "url": "https://en.irna.ir/news/86281010/IRGC-warns-of-painful-devastating-response-to-any-aggression",
+      "published_at": "2026-10-02T14:02:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10021621-09",
+    "title": "מעצר אזרח בישראל בחשד לפעילות עבור איראן",
+    "summary": "שירות הביטחון הכללי ומשטרת ישראל עצרו תושב באקה אל-גרבייה בחשד שעמד בקשר ברשת עם גורם עוין וביצע משימות בעבור תשלום כספי מטעם גורמים איראניים.",
+    "axis": "איראן - ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T07:14:21+00:00",
+    "last_update_at": "2026-10-02T07:14:21+00:00",
+    "what_is_not_verified": "פרטי המשימות המדויקות שביצע החשוד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21536362",
+      "published_at": "2026-10-02T07:14:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באקה אל-גרבייה, ישראל",
+      "lat": 32.4197,
+      "lon": 35.0428
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10021621-10",
+    "title": "הגשת כתבי אישום בארצות הברית על סיוע לחות'ים ולחמאס",
+    "summary": "רשויות המשפט בארצות הברית הגישו כתבי אישום נגד עובד במשרד האנרגיה בוושינגטון בחשד לרכישת רכיבי כטב\"מים וחומרי נפץ עבור החות'ים, ונגד שלושה מעורבים נוספים במימון חמאס.",
+    "axis": "שלוחות איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T15:00:09+00:00",
+    "last_update_at": "2026-10-02T15:00:09+00:00",
+    "what_is_not_verified": "מידת הגעתם של חומרים בפועל לידי הכוחות בתימן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/2026/10/02/us-charges-engineer-with-supporting-houthis-louisiana-brothers-and-florida-man-with-financing-hamas/",
+      "published_at": "2026-10-02T15:00:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריצ'לנד, וושינגטון, ארה\"ב",
+      "lat": 46.2804,
+      "lon": -119.2752
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה של איראן באירוע טייס פליי דובאי",
+   "אחריות החות'ים לתקיפת תחנת הכוח טייבה באל-מדינה בעקבות הכחשתם",
+   "הערכות על כוונת ישראל לבצע תקיפה באיראן לפני חודש נובמבר",
+   "טענות על יכולת שימוש עתידית של איראן בארגון אל-קאעידה כגיבוי למלחמה",
+   "מידת ההיתכנות להפיכת היתר הטיסות מנג'ף להסדר קבוע"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת הגעה של איראן לנשק גרעיני",
+     "הגנה על אספקת האנרגיה העולמית ושדות הנפט של בעלות בריתה במפרץ",
+     "בידוד כלכלי של המשטר בטהראן והפסקת ייצוא הנפט שלו"
+    ],
+    "inferred": [
+     "הרתעת איראן מפני פגיעה בנתיבי שיט באמצעות נוכחות צבאית רחבה",
+     "שמירה על יציבות ממשלת עיראק באמצעות החרגות נקודתיות של עיצומים"
+    ],
+    "forecast": [
+     "המשך הגברת הנוכחות הצבאית במפרץ והחזקת מאגרי נפט פתוחים לוויסות שוק האנרגיה"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "מתן תגובה כואבת ומשמידה לכל תוקפנות או איום צבאי",
+     "שלילת טענות הניצחון של נשיא ארצות הברית והצגת עמידה איתנה"
+    ],
+    "inferred": [
+     "חיפוש דרכים חלופיות למסחר וייצוא נפט נוכח המצור הימי והכלכלי",
+     "הפעלת מנופי לחץ על נתיבי שיט באמצעות שלוחות אזוריות כדי לערער את שוק האנרגיה"
+    ],
+    "forecast": [
+     "החרפת המשבר הכלכלי הפנימי והמשך ניסיונות עקיפת העיצומים במסלולים צפוניים ומקוונים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול התבססות שלוחות איראן ומניעת השגת נשק גרעיני"
+    ],
+    "inferred": [
+     "מוכנות לפעולה צבאית ישירה נגד יעדים איראניים ופגיעה ברשתות הריגול הפנימיות",
+     "חיזוק שיתוף הפעולה החשאי והגלוי עם מדינות האזור"
+    ],
+    "forecast": [
+     "שימור דריכות מבצעית גבוהה וסיכול מוקדי גיוס והפעלה מבית ומחוץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/2026/10/02/us-charges-engineer-with-supporting-houthis-louisiana-brothers-and-florida-man-with-financing-hamas/",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261002-saudi-led-coalition-houthis-striking-medina-power-station",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/business/2026/oct/01/crude-oil-exports-strait-of-hormuz-transport-gulf-region-diesel",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86281010/IRGC-warns-of-painful-devastating-response-to-any-aggression",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21536362",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-plans-oil-and-diesel-supply-offers-100-million-barrels-macron-says",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131216",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48175",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94448",
+    "accessed_at": "2026-10-02T16:21:27+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,427 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0ff4ddf03114",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 5,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-02T16:46:03+00:00",
+  "window": {
+   "from": "2026-10-01T16:46:03+00:00",
+   "to": "2026-10-02T16:46:03+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "north-202610021646"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת במתיחות ביטחונית מתמשכת בדרום לבנון ובדרום סוריה מול כוחות צה\"ל, לצד מאמצים דיפלומטיים לבנוניים לגיבוש מנגנון נסיגה ופיקוח. בסוריה נמשכת אי-יציבות פנימית עם התנקשויות ומפגני כוח חמושים בדמשק ובדרום המדינה, במקביל להידוק שיתוף הפעולה האזרחי מצד טורקיה. שלטונות לבנון פועלים מול ארצות הברית והמוסדות הבינלאומיים לשיקום אזורי ההרס ולביסוס סמכות המדינה בדרום.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות צבאית ישראלית נקודתית לצד חיכוך סביב תנועת תושבים ומאמצי שיקום של הממשלה"
+   },
+   {
+    "name": "דרום סוריה (דרעא וסווידא)",
+    "status": "תקריות ירי, מתיחות ביטחונית מקומית ופשיטות של צה\"ל"
+   },
+   {
+    "name": "דמשק והמרכז הסורי",
+    "status": "נוכחות כלי טיס ישראליים, פעילות ארגונים חמושים והתרחבות השפעה טורקית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10021646-01",
+    "title": "דיווח על כלי טיס בלתי מאוישים ישראליים בשמי דמשק",
+    "summary": "מקורות בסוריה דיווחו על הימצאותם של חמישה כלי טיס ישראליים ללא טייס מדגם הרמס מעל הבירה דמשק.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T16:07:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T16:07:58+00:00",
+    "last_update_at": "2026-10-02T16:07:58+00:00",
+    "what_is_not_verified": "לא נמסר אישור רשמי של צה\"ל או גורם ישראלי אחר אודות גיחות כלי הטיס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48210",
+      "published_at": "2026-10-02T16:07:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-02",
+    "title": "פשיטה צבאית ישראלית ומעצר תושבים בדרום סוריה",
+    "summary": "כוחות ישראליים ביצעו פשיטה לתוך כפר בדרום סוריה ועצרו שני תושבים מקומיים, לצד טענה סורית על מאות פשיטות ישראליות מאז סוף שנת 2024.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T11:59:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T11:59:46+00:00",
+    "last_update_at": "2026-10-02T11:59:46+00:00",
+    "what_is_not_verified": "שמות הכפר, העצורים והיקף הפשיטות המדויק אינם מאומתים במלואם מעבר להצהרת הצד הסורי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-detain-2-syrians-during-incursion-into-southern-syrian-village/4076107",
+      "published_at": "2026-10-02T11:59:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום סוריה",
+      "lat": 35.9664,
+      "lon": 40.8012
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-03",
+    "title": "פעילות צבאית ישראלית וירי בדרום לבנון",
+    "summary": "טנק של צה\"ל ביצע ירי פגזים לעבר העיירה ביוט א-סיאד, ובמקביל דווח על פעולת הריסה שביצעו כוחות ישראליים בעיירה בית ליף בדרום המדינה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T10:53:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T10:53:00+00:00",
+    "last_update_at": "2026-10-02T11:35:00+00:00",
+    "what_is_not_verified": "אין פירוט על נפגעים או על היקף ההרס המדויק במבנים שנהרסו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_1d22afaf1e6de9b0",
+      "url": "https://english.almanar.com.lb/article/133547/",
+      "published_at": "2026-10-02T11:35:00+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_2503b9bbfa8e4a89",
+      "url": "https://english.almanar.com.lb/article/133522/",
+      "published_at": "2026-10-02T10:53:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית ליף, לבנון",
+      "lat": 33.1321,
+      "lon": 35.334
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-04",
+    "title": "כניסת אזרחים לכפר נבטיה אל-פוקא חרף אזהרות צה\"ל",
+    "summary": "ראש עיריית נבטיה אל-פוקא נכנס יחד עם תושבים מקומיים לשטח הכפר למרות אזהרות ישראליות, תוך ניצול היעדר תקיפות אוויריות בזמן ביקור ראש ממשלת לבנון בעיר.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T09:30:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T09:30:47+00:00",
+    "last_update_at": "2026-10-02T09:30:47+00:00",
+    "what_is_not_verified": "לא פורסמו פרטים רשמיים על משך השהייה של התושבים או על תגובה ישירה בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131199",
+      "published_at": "2026-10-02T09:30:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-05",
+    "title": "ביקור ראש ממשלת לבנון בדרום המדינה ודרישה להסדר נסיגה",
+    "summary": "ראש הממשלה נואף סלאם סייר באזור נבטיה, הניח אבן פינה למטה הגנה אזרחית, הציג מכרזים לשיקום תשתיות, ובמקביל קידם שיחות מול ארצות הברית בנוגע לקביעת לוח זמנים לנסיגה ישראלית ומנגנון פיקוח הדדי.",
+    "axis": "לבנון - זירה פנימית ובינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T04:09:10+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T04:09:10+00:00",
+    "last_update_at": "2026-10-02T12:44:12+00:00",
+    "what_is_not_verified": "טרם סוכמו זהות הגוף המפקח והתנאים הסופיים להסכם מול קרן המטבע והבנק העולמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960931/aoun-salam-discuss-washington-talks-nabatieh-visit-and-cabinet-measure/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960931",
+      "published_at": "2026-10-02T12:44:12+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960913/salam-seeks-withdrawal-timeline-and-new-un-force-as-rubio-tackles-veri/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960913",
+      "published_at": "2026-10-02T11:16:53+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanon-s-prime-minister-calls-for-full-israeli-withdrawal-one-army/4075905",
+      "published_at": "2026-10-02T09:16:42+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/lebanon-pm-says-scale-war-recovery-beyond-states-capacity",
+      "published_at": "2026-10-02T09:15:04+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/960825/pm-salam-visits-nabatieh-let-us-all-rally-under-the-banner-of-our-stat/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960825",
+      "published_at": "2026-10-02T04:09:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה, לבנון",
+      "lat": 33.3812,
+      "lon": 35.4825
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-06",
+    "title": "פתיחת מוסד חינוך טורקי בבירת סוריה",
+    "summary": "טורקיה הודיעה על פתיחת בית ספר על שמו של ארדואן בדמשק, בעל קיבולת של כאלף תלמידים, כחלק מהרחבת שיתוף הפעולה בין אנקרה לדמשק.",
+    "axis": "טורקיה - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T12:33:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T12:33:00+00:00",
+    "last_update_at": "2026-10-02T12:33:00+00:00",
+    "what_is_not_verified": "לא פורטו ההסכמים הרחבים המלאים שגובשו בין משרדי החינוך של שתי המדינות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.dailysabah.com/politics/turkish-school-named-after-erdogan-to-open-in-syrias-damascus/news",
+      "published_at": "2026-10-02T12:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-07",
+    "title": "תקריות ירי ופגיעה בקצין צבא בדרום סוריה",
+    "summary": "חמושים לא מזוהים ירו ופצעו קשה קצין במשרד ההגנה הסורי בעיר א-סנמין שבמחוז דרעא, ובמקביל חמושים פתחו באש לעבר עמדות ביטחון ובתים באזור מזרעה במחוז סווידא.",
+    "axis": "סוריה - זירה פנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T17:46:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T17:46:41+00:00",
+    "last_update_at": "2026-10-02T13:45:33+00:00",
+    "what_is_not_verified": "זהות המבצעים באזור סווידא לא אומתה, ומעורבותו של מפקד מקומי בא-סנמין נותרה בגדר האשמות מקומיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_9acd1d6db00421ca",
+      "url": "https://www.aa.com.tr/en/middle-east/gunmen-open-fire-on-security-posts-homes-in-southern-syria/4076245",
+      "published_at": "2026-10-02T13:45:33+00:00"
+     },
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_9acd1d6db00421ca",
+      "url": "https://english.enabbaladi.net/archives/2026/10/gunmen-target-syrian-army-officer-in-daraa/",
+      "published_at": "2026-10-01T17:46:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סנמין, סוריה",
+      "lat": 33.0732,
+      "lon": 36.1834
+     },
+     {
+      "name": "סווידא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10021646-08",
+    "title": "מצעד חמושים אסלאמיסטים בשכונת אל-מידאן בדמשק",
+    "summary": "חמושים סונים במדים צבאיים קיימו תהלוכת מפגן כוח ברחובות שכונת אל-מידאן בדמשק תוך נשיאת סרטי שהאדה ודגלים שונים.",
+    "axis": "סוריה - זירה פנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T20:42:23+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T20:42:23+00:00",
+    "last_update_at": "2026-10-01T20:42:23+00:00",
+    "what_is_not_verified": "השיוך הארגוני הרשמי של החמושים ומידת השפעתם על גורמי השלטון המרכזי בעיר אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48183",
+      "published_at": "2026-10-01T20:42:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הפשיטות הישראליות הכולל בסוריה מאז סוף 2024",
+   "זהות מבצעי הירי במחוז סווידא ומבצעי ההתנקשות בא-סנמין",
+   "אישור ישראלי בדבר גיחות כלי הטיס מעל דמשק",
+   "פרטי מנגנון הפיקוח וההסדרים הסופיים עם קרן המטבע בלבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "השגת נסיגה ישראלית מלאה מדרום לבנון וקביעת לוח זמנים מוגדר",
+     "פריסת סמכות המדינה וצבא יחיד על כלל שטח המדינה",
+     "גיוס סיוע כספי בינלאומי לשיקום אזורי הדרום ההרוסים"
+    ],
+    "inferred": [
+     "מניעת חידוש העימות הצבאי הכולל תוך דחיקת חופש הפעולה של חיזבאללה",
+     "חיזוק הלגיטימציה של מוסדות המדינה מול הציבור המקומי"
+    ],
+    "forecast": [
+     "המשך הסתמכות על תיווך אמריקאי לקביעת מנגנוני פיקוח על הגבול",
+     "התקדמות איטית בשיקום האזרחי בשל תלות בהסכמי מימון בינלאומיים"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הרחבת שיתוף הפעולה האזרחי והחינוכי עם המשטר בדמשק"
+    ],
+    "inferred": [
+     "ביסוס השפעה רכה ומעמד מדיני בתוך הבירה הסורית"
+    ],
+    "forecast": [
+     "המשך פיתוח מיזמים אזרחיים ודיפלומטיים בסוריה לצורך העמקת האחיזה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגנה על יישובי הצפון ומניעת התבססות איומים מעבר לגבול"
+    ],
+    "inferred": [
+     "שימור חופש פעולה מודיעיני ומבצעי בשמי סוריה ובדרום לבנון",
+     "אכיפת הגבלות תנועה ופירוק תשתיות חשודות במרחב הגבול"
+    ],
+    "forecast": [
+     "המשך פעולות מנע נקודתיות וסיכולים במידה ותזוהה התקרבות לגבול"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/133522/",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/gunmen-open-fire-on-security-posts-homes-in-southern-syria/4076245",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/turkish-school-named-after-erdogan-to-open-in-syrias-damascus/news",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/gunmen-target-syrian-army-officer-in-daraa/",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/960825/pm-salam-visits-nabatieh-let-us-all-rally-under-the-banner-of-our-stat/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-960825",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/lebanon-pm-says-scale-war-recovery-beyond-states-capacity",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131199",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48183",
+    "accessed_at": "2026-10-02T16:46:03+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "status": "draft",
+ "received_sha256_12": "417a94b2b946",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-02T16:30:27+00:00",
+  "window": {
+   "from": "2026-10-01T16:30:27+00:00",
+   "to": "2026-10-02T16:30:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610021630"
+  },
+  "summary": "הלחימה בתימן מחריפה בעקבות מתקפה חות'ית שחיזקה את אחיזתם בחוף הים האדום ובבאב אל-מנדב, מה שמגביר את משבר הביטחון התזונתי החמור בקרב האוכלוסייה. במקביל, נמשכות תקיפות של החות'ים מול סעודיה, כולל האשמות על פגיעה בתשתיות חשמל, דבר המעורר היערכות ביטחונית אזורית ומדינית רחבה.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית (תעז ועדן)",
+    "status": "פעילה ומתלקחת"
+   },
+   {
+    "name": "חזית הים האדום ומצר באב אל-מנדב",
+    "status": "במוקד מתיחות אסטרטגית"
+   },
+   {
+    "name": "חזית סעודיה",
+    "status": "תחת איומי כטב\"מים וטילים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10021630-01",
+    "title": "פגזים וצלפים פגעו באזורים מגורים בעיר תעז",
+    "summary": "הפגזה וירי צלפים של החות'ים פגעו באזורים מגורים וגרמו לפציעת אזרחים ביניהם ילדים ואישה.",
+    "axis": "תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T14:37:25+00:00",
+    "last_update_at": "2026-10-02T16:06:56+00:00",
+    "what_is_not_verified": "היקף הנפגעים המלא אינו מאומת מעבר לדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_932304052cd6f328",
+      "url": "https://www.sabanew.net/viewstory/153384",
+      "published_at": "2026-10-02T16:06:56+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ba71ce3ce367e159",
+      "url": "https://www.sabanew.net/viewstory/153378",
+      "published_at": "2026-10-02T14:37:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10021630-02",
+    "title": "הסלמה צבאית רחבה וקרבות קשים בין החות'ים לכוחות הממשלה בתעז",
+    "summary": "עימותים קשים ואבדות כבדות בלחימה בין החות'ים לכוחות הממשלה בתימן, לצד תקיפות אוויריות נרחבות של הקואליציה.",
+    "axis": "תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T00:06:29+00:00",
+    "last_update_at": "2026-10-02T15:03:31+00:00",
+    "what_is_not_verified": "מספר ההרוגים המדויק אינו מאומת ממקור ניטרלי עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6ab033cb6cbb943f",
+      "url": "https://www.newarab.com/news/yemen-hunger-crisis-could-become-absolutely-devastating-un",
+      "published_at": "2026-10-02T15:03:31+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6ab033cb6cbb943f",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/least-80-dead-fighting-between-houthis-and-pro-government-forces-last-24",
+      "published_at": "2026-10-02T08:55:47+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6ab033cb6cbb943f",
+      "url": "https://www.newarab.com/news/yemen-govt-launched-20-strikes-houthi-sites-taiz-province",
+      "published_at": "2026-10-02T07:58:36+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6ab033cb6cbb943f",
+      "url": "https://www.sabanew.net/viewstory/153363",
+      "published_at": "2026-10-02T04:14:18+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0309aebd03bf161d",
+      "url": "https://www.sabanew.net/viewstory/153358",
+      "published_at": "2026-10-02T00:06:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10021630-03",
+    "title": "תקיפה לכאורה של תחנת כוח במדינה",
+    "summary": "הקואליציה בראשות סעודיה האשימה את החות'ים בביצוע מתקפת כטב\"מים על תחנת חשמל בעיר מדינה, טענה שהוכחשה על ידי החות'ים.",
+    "axis": "סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T18:22:01+00:00",
+    "last_update_at": "2026-10-02T07:58:36+00:00",
+    "what_is_not_verified": "האחריות לתקיפה והנזק המדויק בתחנה אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_816a9077ea3b2652",
+      "url": "https://www.newarab.com/news/yemen-govt-launched-20-strikes-houthi-sites-taiz-province",
+      "published_at": "2026-10-02T07:58:36+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_816a9077ea3b2652",
+      "url": "https://www.sabanew.net/viewstory/153361",
+      "published_at": "2026-10-02T03:58:43+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_816a9077ea3b2652",
+      "url": "https://www.france24.com/en/middle-east/20261002-saudi-led-coalition-houthis-striking-medina-power-station",
+      "published_at": "2026-10-02T02:39:43+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_816a9077ea3b2652",
+      "url": "https://t.me/alexmehacarmel/48178",
+      "published_at": "2026-10-01T18:22:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10021630-04",
+    "title": "יירוט כטב\"מים וטילים סמוך לעדן ובחמיס משית",
+    "summary": "הגנות אוויריות יירטו והפילו כלטי\"ב מתאבדים וטילים בלסטיים ששיגרו החות'ים לעבר עדן וחמיס משית.",
+    "axis": "תימן וסעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T03:58:43+00:00",
+    "last_update_at": "2026-10-02T05:58:01+00:00",
+    "what_is_not_verified": "פרטי הנזק המלאים מהטילים והכטב\"מים אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_59e2557480a59893",
+      "url": "https://t.me/alexmehacarmel/48195",
+      "published_at": "2026-10-02T05:58:01+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_59e2557480a59893",
+      "url": "https://www.sabanew.net/viewstory/153362",
+      "published_at": "2026-10-02T04:01:31+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_816a9077ea3b2652",
+      "url": "https://www.sabanew.net/viewstory/153361",
+      "published_at": "2026-10-02T03:58:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "חמיס משית, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה של אנשי משמרות המהפכה האיראניים בניהול השטח של החות'ים.",
+   "היקף הנזק המדויק בתחנת הכוח במדינה.",
+   "מספר הנפגעים המדויק בלחימה הקרקעית בתעז."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשך פעילות נגד ממשלת תימן הנתמכת בידי סעודיה",
+     "הכחשת תקיפת אתרים קדושים או אזרחיים בסעודיה"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית בתימן, לרבות חוף הים האדום ומרחב באב אל-מנדב",
+     "הפעלת לחץ צבאי על סעודיה וגורמים אזוריים"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות קרקעית באזורים שבשליטת הממשלה",
+     "המשך שיגור כטב\"מים וטילים לעבר יעדים בסעודיה ובמרחב הימי"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "בלימת התוקפנות של המיליציה החות'ית",
+     "הגנה על תשתיות קריטיות ואתרים קדושים"
+    ],
+    "inferred": [
+     "יצירת חזית דיפלומטית וביטחונית אזורית רחבה יחד עם שותפות כמו פקיסטן וטורקיה",
+     "תמיכה צבאית ישירה בכוחות הממשלה בתימן"
+    ],
+    "forecast": [
+     "כינוס פגישות חירום ביטחוניות להגברת התיאום",
+     "המשך תקיפות אוויריות נגד ריכוזי כוחות חות'יים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261002-saudi-led-coalition-houthis-striking-medina-power-station",
+    "accessed_at": "2026-10-02T16:30:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/least-80-dead-fighting-between-houthis-and-pro-government-forces-last-24",
+    "accessed_at": "2026-10-02T16:30:27+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-launched-20-strikes-houthi-sites-taiz-province",
+    "accessed_at": "2026-10-02T16:30:27+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153361",
+    "accessed_at": "2026-10-02T16:30:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48195",
+    "accessed_at": "2026-10-02T16:30:27+00:00"
+   }
+  ]
+ }
+}

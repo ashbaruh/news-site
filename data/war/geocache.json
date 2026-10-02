@@ -133,6 +133,10 @@
 35.1851,
 35.9478
 ],
+"baqa al-gharbiyye, israel": [
+32.4197,
+35.0428
+],
 "bar'ashit, lebanon": null,
 "bashiqa, iraq": [
 36.4505,
@@ -149,6 +153,10 @@
 "beirut, lebanon": [
 33.8892,
 35.5026
+],
+"beit lif, lebanon": [
+33.1321,
+35.334
 ],
 "beit yahoun, lebanon": [
 33.1582,
@@ -205,6 +213,7 @@
 19.0402
 ],
 "burj qalaway, lebanon": null,
+"byout al-seyyad, lebanon": null,
 "cairo, egypt": [
 30.0444,
 31.2357
@@ -809,6 +818,10 @@
 36.2684,
 36.5672
 ],
+"richland, washington, usa": [
+46.2804,
+-119.2752
+],
 "ridkodub, ukraine": [
 49.1817,
 37.8043
@@ -895,6 +908,10 @@
 28.3667,
 36.544
 ],
+"southern syria": [
+35.9664,
+40.8012
+],
 "st. petersburg, russia": [
 59.9387,
 30.3162
@@ -921,6 +938,10 @@
 "sumy, ukraine": [
 50.912,
 34.8028
+],
+"suwayda, syria": [
+32.7094,
+36.5687
 ],
 "sweida, syria": [
 32.7094,
