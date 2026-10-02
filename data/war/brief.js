@@ -1,77 +1,162 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-02T12:00:00+03:00",
- "generated_at": "2026-10-02T08:40:15+00:00",
+ "slot": "2026-10-02T18:00:00+03:00",
+ "generated_at": "2026-10-02T14:56:32+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10020840-01",
-     "title": "ארה\"ב עשויה לבקש מאירופה לשחרר סולר",
-     "summary": "נשיא ארצות הברית ציין כי וושינגטון עשויה לבקש ממדינות אירופה לשחרר סולר ממאגרי החירום שלהן בעקבות השפעת העימות עם איראן על אספקת הדלק הגלובלית.",
+     "id": "IRAN-10021456-01",
+     "title": "הרוגים באירוע אלימות בדרום-מזרח איראן",
+     "summary": "לפחות חמישה בני אדם נהרגו בתקיפה ליד זאהדאן, ומשמרות המהפכה אישרו כי פיצוץ מטען צדי הביא למותו של אחד מלוחמיהם באזור.",
      "axis": "iran",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T07:00:16+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T07:00:16+00:00",
-     "last_update_at": "2026-10-02T07:00:16+00:00",
-     "what_is_not_verified": "האם הבקשה תוגש בפועל והאם אירופה תענה לה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_7c7c7f7abbf88a9a",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-633",
-       "published_at": "2026-10-02T07:00:16+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10020840-02",
-     "title": "דרישה איראנית מעיראק בנוגע להגבלות טיסה",
-     "summary": "משרד החוץ של איראן קרא לעיראק לקבל החלטות מתאימות בתגובה לצעדי ארצות הברית שנועדו לשבש את קשרי התעופה והמסחר.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T05:52:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T05:52:31+00:00",
-     "last_update_at": "2026-10-02T05:52:31+00:00",
-     "what_is_not_verified": "התגובה הרשמית של ממשלת עיראק לדרישה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_1a9accfe0fedde7f",
-       "url": "https://en.irna.ir/news/86280636/Iran-urges-Iraq-to-take-appropriate-decision-on-US-flight-restrictions",
-       "published_at": "2026-10-02T05:52:31+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10020840-03",
-     "title": "פניית איראן לנתיבי סחר צפוניים דרך הים הכספי",
-     "summary": "עקב שיבוש נתיבי המסחר בדרום המדינה בעקבות המלחמה, טהראן בוחנת חלופות צפוניות דרך הים הכספי.",
-     "axis": "iran",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T08:21:33+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T08:21:33+00:00",
-     "last_update_at": "2026-10-02T08:21:33+00:00",
-     "what_is_not_verified": "היכולת המעשית של נתיבים אלו להוות תחליף מלא ליצוא הנפט הקריטי.",
+     "occurred_at": "2026-10-02T12:37:58+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-02T12:37:58+00:00",
+     "last_update_at": "2026-10-02T12:37:58+00:00",
+     "what_is_not_verified": "הזהות המלאה של כל ההרוגים והנסיבות המדויקות אינן מפורטות מעבר להודעת משמרות המהפכה והדיווחים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202609305707",
-       "published_at": "2026-10-02T08:21:33+00:00"
+       "source_root_id": "or_iranintl",
+       "url": "https://www.iranintl.com/en/202610028639",
+       "published_at": "2026-10-02T12:37:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זאהדאן, איראן",
+       "lat": 29.4907,
+       "lon": 60.8635
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10021456-02",
+     "title": "תגובת טראמפ על מעורבות איראנית במטוס פליי דובאי",
+     "summary": "בתשובה לשאלה על מעורבות איראן בתקרית מטוס פליי דובאי, ציין נשיא ארצות הברית כי על סמך מה ששמע התשובה היא כן, אך הנושא עדיין בבדיקה.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T13:10:20+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-02T13:10:20+00:00",
+     "last_update_at": "2026-10-02T13:10:20+00:00",
+     "what_is_not_verified": "בדיקת התקרית טרם הושלמה באופן סופי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_abualiexpress",
+       "url": "https://t.me/abualiexpress/131216",
+       "published_at": "2026-10-02T13:10:20+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10021456-03",
+     "title": "תוכנית מדינות ה-ז' לספק מלאי נפט ודיזל",
+     "summary": "נשיא צרפת הצהיר כי מדינות קבוצת ה-ז' מתכננות להציע זו לזו עד מאה מיליון חביות נפט גולמי ודיזל במשך ארבעה חודשים.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T14:49:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-02T14:49:00+00:00",
+     "last_update_at": "2026-10-02T14:49:00+00:00",
+     "what_is_not_verified": "ביצוע התוכנית בפועל והשפעתה המדויקות טרם התבררו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-plans-oil-and-diesel-supply-offers-100-million-barrels-macron-says",
+       "published_at": "2026-10-02T14:49:00+00:00"
+      }
+     ],
+     "places": []
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-10021456-01",
+     "title": "הרוגים ופצועים מפגיעת פצצה ממוחטבת בחארקיב",
+     "summary": "שני בני אדם נהרגו ו-17 נוספים נפצעו מפגיעת פצצות אוויריות ממוחטבות באזורים מיושבים בחארקיב.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T13:10:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-02T13:10:00+00:00",
+     "last_update_at": "2026-10-02T13:10:00+00:00",
+     "what_is_not_verified": "ייתכן שישנם אנשים נוספים הלכודים תחת ההריסות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_ukrayinska_pravda",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056179/",
+       "published_at": "2026-10-02T13:10:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חארקיב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10021456-02",
+     "title": "צרפת תאמן טייסים אוקראינים על מטוסי רפאל",
+     "summary": "צרפת החלה בהכנות לאימון קבוצת הטייסים האוקראינים הראשונה על מטוסי קרב מסוג רפאל לקראת אספקה פוטנציאלית של 16 מטוסים בשנים המצוינות.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T14:30:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-02T14:30:00+00:00",
+     "last_update_at": "2026-10-02T14:30:00+00:00",
+     "what_is_not_verified": "מועד האספקה המדויק והשלמת ההכשרה תלויים בהתפתחויות עתידיות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_ukrayinska_pravda",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056196/",
+       "published_at": "2026-10-02T14:30:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10021456-03",
+     "title": "חתימת חוק השתתפות אוקראינה בקרן ההגנה האירופית",
+     "summary": "הנשיא וולודימיר זלנסקי חתם על חוק המאשר את הסכם ההצטרפות של אוקראינה לקרן ההגנה של האיחוד האירופי.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T13:14:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-02T13:14:00+00:00",
+     "last_update_at": "2026-10-02T13:14:00+00:00",
+     "what_is_not_verified": "אין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_ukrayinska_pravda",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056180/",
+       "published_at": "2026-10-02T13:14:00+00:00"
       }
      ],
      "places": []
@@ -161,86 +246,8 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-10020840-01",
-     "title": "מתקפת כטב\"מים נרחבת על אוקראינה בלילה",
-     "summary": "רוסיה שיגרה לעבר אוקראינה למעלה ממאה כטב\"מים תוקפים במהלך הלילה, מתוכם כחמישים מונעי סילון.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T08:15:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-02T08:15:00+00:00",
-     "last_update_at": "2026-10-02T08:15:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא בכלל המוקדים שהותקפו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_53c293e8a7136209",
-       "url": "https://www.ukrinform.net/rubric-ato/4170304-zelensky-russia-launched-over-100-attack-drones-at-ukraine-overnight-nearly-50-of-them-jetpowered.html",
-       "published_at": "2026-10-02T08:15:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10020840-02",
-     "title": "פגיעה באוטובוס באמצעות כטב\"ם בקרמטורסק",
-     "summary": "כוחות רוסיים תקפו באמצעות כטב\"ם מתאבד אוטובוס בקו עירוני בקרמטורסק, וגרמו לפציעת שני בני אדם.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T07:40:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-02T07:40:00+00:00",
-     "last_update_at": "2026-10-02T07:40:00+00:00",
-     "what_is_not_verified": "חומרת מצבם הרפואי של הפצועים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_7dd32320582d9d21",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056096/",
-       "published_at": "2026-10-02T07:40:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10020840-03",
-     "title": "תוכנית רוסית מתוכננת לנתק את תחנות הכוח הגרעיניות באוקראינה",
-     "summary": "על פי מסמך שהוצג לשותפים מערביים, רוסיה מתכננת לנסות לנתק את תחנות הכוח הגרעיניות באוקראינה מרשת החשמל באמצעות תקיפות חורף.",
-     "axis": "ukraine",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T07:49:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T07:49:00+00:00",
-     "last_update_at": "2026-10-02T07:49:00+00:00",
-     "what_is_not_verified": "היכולת המעשית של רוסיה לממש את התוכנית במלואה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056102/",
-       "published_at": "2026-10-02T07:49:00+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
+   ],
+   "from_slot": "2026-10-02T12:00:00+03:00"
   },
   "yemen": {
    "events": [
@@ -336,8 +343,12 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
+   ],
+   "from_slot": "2026-10-02T12:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "north": "אותיות בשפה זרה בתוך הטקסט העברי (1)",
+  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (1)"
+ }
 };
