@@ -2,139 +2,243 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-10-01T0627__yemen-202610010627.json",
+  "draft": "drafts/yemen/2026-10-02T0235__yemen-202610020235.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-10-01T06:27:49+00:00",
+   "generated_at": "2026-10-02T02:35:03+00:00",
    "window": {
-    "from": "2026-09-30T06:27:49+00:00",
-    "to": "2026-10-01T06:27:49+00:00"
+    "from": "2026-10-01T02:35:03+00:00",
+    "to": "2026-10-02T02:35:03+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "yemen-202610010627"
+    "run_id": "yemen-202610020235"
    },
-   "summary": "הלחימה בתימן נמשכת בין צבא תימן הלגיטימי, הנתמך בידי סעודיה, לבין המיליציות החות'יות הנתמכות בידי איראן. במקביל, החות'ים פועלים באזור הים האדום ומצר באב אל-מנדב ומאיימים על נתיבי השיט הבינלאומיים, מה שדוחף את סעודיה לחפש שיתופי פעולה אזוריים והגנה נוספת.",
+   "summary": "הזירה בתימן ובמרחב הסובב אותה מאופיינת בהסלמה צבאית רחבת היקף, הכוללת תקיפות אוויריות הדדיות, ניסיונות תקיפה של החות'ים לעבר שטחי סעודיה, וריכוז כוחות חות'יים באזור הגבול. במקביל, הממשלה התימנית והקואליציה בהובלת סעודיה מעצימות את התקיפות נגד תשתיות וריכוזי חות'ים, תוך חשש כבד מהתרחבות העימות לים האדום ולאיומים על תשתיות אנרגיה אזוריות.",
    "fronts": [
     {
-     "name": "החזית המקומית בתימן",
-     "status": "פעילה עם חילופי תקיפות ואש ארטילרית"
+     "name": "חזית תימן הפנימית (צנעא, תעז, סעדה)",
+     "status": "פעיל והסלמה מתמשכת"
     },
     {
-     "name": "חזית הים האדום ומצר באב אל-מנדב",
-     "status": "פעילה ומאיימת על הספנות"
+     "name": "חזית גבול תימן-סעודיה",
+     "status": "התחמשות והכנות לעימות גבול"
+    },
+    {
+     "name": "מרחב הים האדום ומצר באב אל-מנדב",
+     "status": "מתיחות אסטרטגית ואיומים על נתיבי שיט ואנרגיה"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-10010627-01",
-     "title": "תקיפות אוויריות ומבצעים של צבא תימן הלגיטימי נגד המיליציה החות'ית",
-     "summary": "צבא תימן הלגיטימי ביצע שורת תקיפות ממוקדות ופעולות נגד החות'ים במספר חזיתות, הכוללות השמדת משאיות אספקה, מחסני אמצעי לחימה וטנדרים חמושים.",
-     "axis": "ציר ממשלת תימן מול החות'ים",
+     "id": "YEMEN-10020235-01",
+     "title": "מתקפת כטב\"ם על תחנת כוח במדינה",
+     "summary": "הקואליציה בראשות סעודיה האשימה את החות'ים בביצוע מתקפת כטב\"ם על תחנת חלוקת חשמל בעיר מדינה, שהביאה לפגיעה בשנאי אך לא השפיעה על כלל רשת החשמל.",
+     "axis": "תימן-סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T18:06:29+00:00",
-     "last_update_at": "2026-09-30T22:17:15+00:00",
-     "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור ניטרלי.",
+     "occurred_at": "2026-10-01T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-01T16:23:09+00:00",
+     "last_update_at": "2026-10-02T02:30:24+00:00",
+     "what_is_not_verified": "אחריות החות'ים וטענת הקואליציה לגבי עצם ביצוע המתקפה.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-coalition-accuses-houthis-drone-attack-medina",
+       "published_at": "2026-10-02T02:30:24+00:00"
+      },
+      {
        "source_id": "src_tg_carmel",
-       "source_root_id": "fh_061446a2e2a3347f",
-       "url": "https://t.me/alexmehacarmel/48147",
-       "published_at": "2026-09-30T22:17:15+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48178",
+       "published_at": "2026-10-01T18:22:01+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-houthis-targeted-power-station-medina",
+       "published_at": "2026-10-01T16:44:45+00:00"
       },
       {
        "source_id": "src_saba_aden",
-       "source_root_id": "fh_061446a2e2a3347f",
-       "url": "https://www.sabanew.net/viewstory/153281",
-       "published_at": "2026-09-30T19:54:22+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_0fac83af9f68e274",
-       "url": "https://www.sabanew.net/viewstory/153280",
-       "published_at": "2026-09-30T19:46:26+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_d8f4e36807c58a0d",
-       "url": "https://www.sabanew.net/viewstory/153272",
-       "published_at": "2026-09-30T18:06:29+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/153338",
+       "published_at": "2026-10-01T16:23:09+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-בידאא",
-       "lat": 13.9881,
-       "lon": 45.5729
-      },
-      {
-       "name": "תעז",
-       "lat": 13.5752,
-       "lon": 44.0215
+       "name": "מדינה, סעודיה",
+       "lat": 24.4712,
+       "lon": 39.6111
       }
      ]
     },
     {
-     "id": "YEMEN-10010627-02",
-     "title": "ירי פצצות מרגמה לעבר כפרים בתימן",
-     "summary": "מיליציות החות'ים ירו עשרות פצצות מרגמה לעבר כפרים באזור בתימן.",
-     "axis": "ציר ממשלת תימן מול החות'ים",
+     "id": "YEMEN-10020235-02",
+     "title": "יירוט טילים בתוך סעודיה",
+     "summary": "הגנה אווירית של הקואליציה בראשות סעודיה יירטה והשמידה טיל בליסטי ששוגר לעבר חמיס מושאיט.",
+     "axis": "תימן-סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T19:42:03+00:00",
-     "last_update_at": "2026-09-30T19:42:03+00:00",
-     "what_is_not_verified": "היקף הנזק המלא אינו מפורט.",
+     "occurred_at": "2026-10-02T02:10:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-02T02:10:50+00:00",
+     "last_update_at": "2026-10-02T02:10:50+00:00",
+     "what_is_not_verified": "הטענה על שיגור הטיל על ידי החות'ים ומסלולו המדויק.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_785b33e8d8f63f07",
-       "url": "https://www.sabanew.net/viewstory/153278",
-       "published_at": "2026-09-30T19:42:03+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10010627-03",
-     "title": "תנועת החות'ים באזור הים האדום ומצר באב אל-מנדב",
-     "summary": "החות'ים התקדמו לעבר מצר באב אל-מנדב ותפסו איים בדרום הים האדום.",
-     "axis": "הזירה הימית - חות'ים מול ספנות בינלאומית ומדינות האזור",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T14:35:59+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-09-30T14:35:59+00:00",
-     "last_update_at": "2026-09-30T14:35:59+00:00",
-     "what_is_not_verified": "הסטטוס המדויק של כל אי ואי אינו מאומת באופן עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_geostrategy",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/GeoStrategyIL/487",
-       "published_at": "2026-09-30T14:35:59+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missile",
+       "published_at": "2026-10-02T02:10:50+00:00"
       }
      ],
      "places": [
       {
-       "name": "חודיידה",
-       "lat": 14.7979,
-       "lon": 42.9545
+       "name": "חמיס מושאיט, סעודיה",
+       "lat": 18.3,
+       "lon": 42.7333
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10020235-03",
+     "title": "מעצר עובד משרד האנרגיה האמריקאי באשמת סיוע לחות'ים",
+     "summary": "רשויות האכיפה בארצות הברית עצרו עובד משרד האנרגיה בחשד שניסה לספק תמיכה חומרית, חומרים לבניית חומרי נפץ וכטב\"מים לחות'ים בתימן.",
+     "axis": "תימן וארה\"ב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-02T00:26:10+00:00",
+     "last_update_at": "2026-10-02T00:26:10+00:00",
+     "what_is_not_verified": "נכונות האישומים המשפטיים שהוגשו נגד העובד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_fd12238300a4dd69",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-arrests-energy-department-employee-under-claims-backing-yemens",
+       "published_at": "2026-10-02T00:26:10+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "וושינגטון, ארצות הברית",
+       "lat": 38.8951,
+       "lon": -77.0364
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10020235-04",
+     "title": "תקיפות אוויריות בתימן (צנעא, תעז, סעדה ועמראן)",
+     "summary": "כוחות אוויר וגורמים צבאיים ביצעו סדרת תקיפות אוויריות (כולל 13 ו-15 גיחות בתעז), ובמקביל נשמעו פיצוצים בצנעא לפי דיווחים מקומיים ותקשורתיים.",
+     "axis": "הזירה הפנימית בתימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T16:31:47+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T16:31:47+00:00",
+     "last_update_at": "2026-10-02T02:30:24+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים בכל אתר שהופצץ.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_0309aebd03bf161d",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-coalition-accuses-houthis-drone-attack-medina",
+       "published_at": "2026-10-02T02:30:24+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_0309aebd03bf161d",
+       "url": "https://www.sabanew.net/viewstory/153358",
+       "published_at": "2026-10-02T00:06:29+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_f3347b5ae5ddc65d",
+       "url": "https://www.sabanew.net/viewstory/153357",
+       "published_at": "2026-10-01T22:02:20+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_0309aebd03bf161d",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-afp-say-explosions-heard-sanaa",
+       "published_at": "2026-10-01T21:22:04+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_9ad315a5c1263138",
+       "url": "https://www.sabanew.net/viewstory/153353",
+       "published_at": "2026-10-01T19:07:49+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_0309aebd03bf161d",
+       "url": "https://www.newarab.com/news/trump-threatens-bombing-escalation-iran-vows-forceful-response",
+       "published_at": "2026-10-01T16:31:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "צנעא, תימן",
+       "lat": 15.3539,
+       "lon": 44.2059
+      },
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      },
+      {
+       "name": "סעדה, תימן",
+       "lat": 16.9409,
+       "lon": 43.763
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10020235-05",
+     "title": "התקבצות צבאית חות'ית בגבול סעודיה והכנות לעימות",
+     "summary": "החות'ים הגבירו את הגיוס הצבאי והעברת כלי נשק לאזורים המישוריים ולמחוז סעדה הסמוך לגבול סעודיה, לקראת עימות אפשרי.",
+     "axis": "תימן-סעודיה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T14:06:49+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-01T14:06:49+00:00",
+     "last_update_at": "2026-10-01T14:06:49+00:00",
+     "what_is_not_verified": "כוונותיהם המבצעיות המדויקות של החות'ים והאם יפתחו בפלישה קרקעית משמעותית לשטח סעודיה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/focus-saada-yemens-houthis-amass-forces-near-saudi-border",
+       "published_at": "2026-10-01T14:06:49+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סעדה, תימן",
+       "lat": 16.9409,
+       "lon": 43.763
       }
      ]
     }
    ],
    "not_verified": [
-    "מספר הנפגעים המדויק בתקיפות צבא תימן הלגיטימי",
-    "פרטי השליטה המלאה בכל האיים בדרום הים האדום"
+    "הטענה לפיה החות'ים מתכננים פלישה קרקעית מלאה לתוך שטחי סעודיה.",
+    "היקף הנזק המדויק בתחנת הכוח במדינה בעקבות פגיעת הכטב\"ם.",
+    "האם המעצר של עובד משרד האנרגיה בארה\"ב הניב העברת אמצעי לחימה בפועל לחות'ים."
    ],
    "map": {
     "confidence": "low",
@@ -145,71 +249,93 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0736,
+     "value": 3.0762,
      "unit": "ILS",
-     "change_pct": 0.57,
+     "change_pct": 0.08,
      "source_id": "src_ecb",
-     "as_of": "2026-09-30T15:00:00+00:00"
+     "as_of": "2026-10-01T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "החות'ים",
-     "declared": [],
+     "declared": [
+      "התנגדות לתוקפנות של הקואליציה בראשות סעודיה",
+      "תמיכה בפעולות נגד ישראל וסעודיה בהתאם לקו האיראני"
+     ],
      "inferred": [
-      "להפעיל לחץ על נתיבי השיט הבינלאומיים באמצעות איום על הים האדום",
-      "להרחיב את השליטה הקרקעית והימית בנקודות מפתח בתימן"
+      "להפעיל לחץ צבאי וכלכלי על סעודיה באמצעות פגיעה בתשתיות ואיומי גבול",
+      "להרחיב את השליטה בשטחים נוספים בתימן"
      ],
      "forecast": [
-      "המשך איום על תנועת הספנות במצר באב אל-מנדב",
-      "התנגשות מתמשכת מול כוחות הממשלה הלגיטימית ובעלי בריתם"
+      "הגברת ההתקפות באמצעות כטב\"מים וטילים לעבר יעדים בסעודיה",
+      "החמרת העימות באזורי הגבול של סעדה"
      ]
     },
     {
-     "actor": "סעודיה וממשלת תימן הלגיטימית",
+     "actor": "הקואליציה בהובלת סעודיה והממשלה התימנית",
      "declared": [
-      "לשקם את מוסדות המדינה ובסס את ריבונותה"
+      "הגנה על שטחי הממלכה ותשתיות חיוניות (כגון תחנות חשמל ומעבר סחורות)",
+      "בלימת ההתקדמות של החות'ים בתוך תימן"
      ],
      "inferred": [
-      "לבלום את התקדמות החות'ים בקרקע ובים",
-      "לחזק את שיתוף הפעולה הביטחוני והאזורי להתמודדות עם איומי החות'ים"
+      "החלשת היכולות הצבאיות והאמל\"ח של החות'ים באמצעות תקיפות אוויריות נרחבות",
+      "מניעת פתיחת חזית גבול נוספת שתאפשר לחות'ים לחדור לשטח סעודיה"
      ],
      "forecast": [
-      "הגברת התיאום הביטחוני האזורי מול האיום החות'י",
-      "המשך פעילות צבאית מקומית להשגת רווחים טריטוריאליים"
+      "המשך התקיפות האוויריות נגד מעוזי חות'ים בצנעא, סעדה ותעז",
+      "הדגשת שיתוף הפעולה האזורי לבלימת איומי החות'ים"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/saudi-coalition-accuses-houthis-drone-attack-medina",
+     "accessed_at": "2026-10-02T02:35:03+00:00"
+    },
+    {
+     "source_id": "src_mee",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-afp-say-explosions-heard-sanaa",
+     "accessed_at": "2026-10-02T02:35:03+00:00"
+    },
+    {
+     "source_id": "src_newarab",
+     "url": "https://www.newarab.com/news/focus-saada-yemens-houthis-amass-forces-near-saudi-border",
+     "accessed_at": "2026-10-02T02:35:03+00:00"
+    },
+    {
      "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/153278",
-     "accessed_at": "2026-10-01T06:27:49+00:00"
+     "url": "https://www.sabanew.net/viewstory/153353",
+     "accessed_at": "2026-10-02T02:35:03+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48147",
-     "accessed_at": "2026-10-01T06:27:49+00:00"
-    },
-    {
-     "source_id": "src_tg_geostrategy",
-     "url": "https://t.me/GeoStrategyIL/487",
-     "accessed_at": "2026-10-01T06:27:49+00:00"
+     "url": "https://t.me/alexmehacarmel/48178",
+     "accessed_at": "2026-10-02T02:35:03+00:00"
     }
    ]
   },
-  "auto": false,
-  "previous_generated_at": "2026-09-29T23:42:40+00:00",
+  "auto": true,
+  "previous_generated_at": "2026-10-01T06:27:49+00:00",
   "changes": {
-   "YEMEN-10010627-01": {
-    "kind": "possible",
-    "prev": "הפגזה חות'ית על תעז",
-    "score": 0.633
-   },
-   "YEMEN-10010627-02": {
+   "YEMEN-10020235-01": {
     "kind": "new"
    },
-   "YEMEN-10010627-03": {
+   "YEMEN-10020235-02": {
+    "kind": "new"
+   },
+   "YEMEN-10020235-03": {
+    "kind": "new"
+   },
+   "YEMEN-10020235-04": {
+    "kind": "same",
+    "from": "verified",
+    "to": "verified",
+    "prev": "תקיפות אוויריות ומבצעים של צבא תימן הלגיטימי נגד המיליציה החות'ית",
+    "score": 1.0
+   },
+   "YEMEN-10020235-05": {
     "kind": "new"
    }
   }
