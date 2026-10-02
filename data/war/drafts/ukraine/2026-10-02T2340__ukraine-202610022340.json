@@ -1,0 +1,422 @@
+{
+ "status": "draft",
+ "received_sha256_12": "601b457a18d6",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "initial": 8,
+   "assessment": 1,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-02T23:40:34+00:00",
+  "window": {
+   "from": "2026-10-01T23:40:34+00:00",
+   "to": "2026-10-02T23:40:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610022340"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במתכונת של תקיפות אוויריות ממוסדות מצד רוסיה נגד תשתיות אזרחיות, אנרגיה וגשרים באוקראינה, לצד פעילות הגנה ופיתוח רחפנים מיירטים מצד אוקראינה. רוסיה ממשיכה בהגדלת תקציבי הביטחון שלה ובצעדים משפטיים נגד דמויות אוקראיניות, בז время שמוסדות בינלאומיים מתריעים על משבר הומניטרי וזכויות אדם מתמשך.",
+  "fronts": [
+   {
+    "name": "חזית המזרח",
+    "status": "פעיל עם תקיפות הדדיות"
+   },
+   {
+    "name": "עורף אוקראיני",
+    "status": "תחת הפצצות כבדות של טילים וכטב\"מים"
+   },
+   {
+    "name": "תשתיות אנרגיה",
+    "status": "יעד מרכזי לתקיפות רוסיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10022340-01",
+    "title": "זיהוי גופות חללים אוקראינים",
+    "summary": "ראש לשכת הנשיאות באוקראינה ציין כי מתוך עשרות אלפי גופות שהוחזרו לאוקראינה, חלק משמעותי טרם זוהה.",
+    "axis": "עורף אוקראיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T22:37:44+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T22:37:44+00:00",
+    "last_update_at": "2026-10-02T22:37:44+00:00",
+    "what_is_not_verified": "המספר המדויק של הגופות שטרם זוהו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_83aa76e71dc0cbd8",
+      "url": "https://kyivindependent.com/every-fallen-hero-will-be-found-kyiv-to-speed-up-identification-of-fallen-ukrainians-budanov-says/",
+      "published_at": "2026-10-02T22:37:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10022340-02",
+    "title": "פגיעה באזורים בדונבאס",
+    "summary": "כוחות אוקראיניים תקפו יישובים בדונבאס במספר תקיפות במהלך היממה האחרונה, וכתוצאה מכך נפצעו אזרחים.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T22:08:22+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T22:08:22+00:00",
+    "last_update_at": "2026-10-02T22:08:22+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף הנזק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_tass",
+      "url": "https://tass.com/defense/2197013",
+      "published_at": "2026-10-02T22:08:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10022340-03",
+    "title": "פגיעת רחפן בחארקוב",
+    "summary": "רחפן פגע ברובע בקייבסקי שבחארקוב וגרם לפציעתו של אדם אחד.",
+    "axis": "חזית הצפון-מזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T20:50:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T20:50:00+00:00",
+    "last_update_at": "2026-10-02T20:50:00+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות של פגיעת הרחפן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5a2c8d32743b04b9",
+      "url": "https://www.ukrinform.net/rubric-ato/4170571-russian-forces-strike-kharkiv-with-molniya-drone-one-person-injured.html",
+      "published_at": "2026-10-02T20:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10022340-04",
+    "title": "שימוש ברחפני שאהד בעלי ראש קרבי משופר",
+    "summary": "רוסיה הפעילה רחפני שאהד המצוידים במוטות מתכת וראש קרבי לחיתוך תשתיות חשמל, וגורמים אוקראיניים ומומחים דיווחו על מאפייני המערכת.",
+    "axis": "תשתיות אנרגיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T19:46:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T19:46:48+00:00",
+    "last_update_at": "2026-10-02T19:46:48+00:00",
+    "what_is_not_verified": "היקף ההפעלה וההצלחה המבצעית של הדגם החדש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48216",
+      "published_at": "2026-10-02T19:46:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10022340-05",
+    "title": "תקיפת מחסן תרופות בקייב",
+    "summary": "כוחות הרוסים תקפו מחסן תרופות בקייב, ובכלל זה נפגעו נכסים של חברת תרופות.",
+    "axis": "עורף אוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T19:10:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T19:10:39+00:00",
+    "last_update_at": "2026-10-02T19:10:39+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למלאי התרופות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48215",
+      "published_at": "2026-10-02T19:10:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10022340-06",
+    "title": "מעצר אזרחית אוקראינית בקזחסטן לבקשת רוסיה",
+    "summary": "הרשויות בקזחסטן עצרו אזרחית אוקראינית באסטנה לבקשת רוסיה במסגרת בקשת הסגרה, ואוקראינה ביקשה שלא להיענות לבקשה.",
+    "axis": "דיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T17:44:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T17:44:00+00:00",
+    "last_update_at": "2026-10-02T19:25:00+00:00",
+    "what_is_not_verified": "החלטת בתי המשפט בקזחסטן בנוגע להסגרה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_07863e0c8209bb97",
+      "url": "https://www.ukrinform.net/rubric-society/4170560-mfa-asks-kazakhstan-not-to-grant-russias-extradition-request-for-detained-ukrainian.html",
+      "published_at": "2026-10-02T19:25:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_fc22bcc0e61da714",
+      "url": "https://www.ukrinform.net/rubric-society/4170320-kazakhstan-detains-ukrainian-woman-at-russias-request-as-she-traveled-to-pick-up-grandson.html",
+      "published_at": "2026-10-02T18:54:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_07863e0c8209bb97",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056225/",
+      "published_at": "2026-10-02T17:44:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אסטנה, קזחסטן",
+      "lat": 51.1283,
+      "lon": 71.4305
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10022340-07",
+    "title": "תקיפה על הוסטומל",
+    "summary": "כוחות רוסיים תקפו את הוסטומל במחוז קייב, מה שהוביל לפציעת שני בני אדם ולשריפה במתקני ייצור ומחסן.",
+    "axis": "עורף אוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T18:22:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T18:22:00+00:00",
+    "last_update_at": "2026-10-02T18:22:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא במתקנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_817a43201e9de44e",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056231/",
+      "published_at": "2026-10-02T18:22:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הוסטומל, אוקראינה",
+      "lat": 50.5883,
+      "lon": 30.2591
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10022340-08",
+    "title": "תקיפה על דניפרו",
+    "summary": "מתקפה רוסית על דניפרו גרמה לשריפה בבניין מגורים ולפציעתן של שלוש נשים.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T18:13:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T18:13:00+00:00",
+    "last_update_at": "2026-10-02T18:13:00+00:00",
+    "what_is_not_verified": "מצבם המדויק של כלל הפצועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_cc220c6c805ef014",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056228/",
+      "published_at": "2026-10-02T18:13:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10022340-09",
+    "title": "הוספת תקציב הביטחון הרוסי לשנת 2027",
+    "summary": "רוסיה החליטה להגדיל את ההוצאות הצבאיות המתוכננות לשנת 2027 בעקבות תקיפות אוקראיניות על בתי זיקוק ומחסנים.",
+    "axis": "עורף רוסי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T18:03:12+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T18:03:12+00:00",
+    "last_update_at": "2026-10-02T18:03:12+00:00",
+    "what_is_not_verified": "היקף ההוצאות בפועל שיוצאו לפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_vlast",
+      "url": "https://meduza.io/en/news/2026/10/02/russia-decided-to-increase-planned-war-spending-for-2027-in-response-to-ukrainian-strikes-on-refineries-and-warehouses-the-newsletter-vlast-reports",
+      "published_at": "2026-10-02T18:03:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10022340-10",
+    "title": "הכנסת דמויות רוסיות לרשימת סוכנים זרים",
+    "summary": "משרד המשפטים של רוסיה הוסיף פעילים וגופים נוספים, בהם זאנה נמצובה וצוות נבאלני, למרשם הסוכנים הזרים.",
+    "axis": "פנים רוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T17:59:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T17:59:49+00:00",
+    "last_update_at": "2026-10-02T17:59:49+00:00",
+    "what_is_not_verified": "השלכות הרוחב המשפטיות המלאות על הרשומים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_ad5f0870dbe5ddc1",
+      "url": "https://meduza.io/en/news/2026/10/02/boris-nemtsov-s-daughter-is-now-a-foreign-agent-in-russia-so-are-social-media-accounts-run-by-alexey-navalny-s-team",
+      "published_at": "2026-10-02T17:59:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10022340-11",
+    "title": "הכללת שרים לשעבר באוקראינה ברשימת המבוקשים של רוסיה",
+    "summary": "ועדת החקירה של רוסיה הכניסה את שרי ההגנה והדיגיטל לשעבר של אוקראינה לרשימת המבוקשים הבין-לאומית.",
+    "axis": "דיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T16:13:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T16:13:00+00:00",
+    "last_update_at": "2026-10-02T16:13:00+00:00",
+    "what_is_not_verified": "יכולת האכיפה של צווי המבוקשים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_098db49f404ccc3e",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056212/",
+      "published_at": "2026-10-02T16:13:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "תוכנית ההגנה הרוסית המלאה להשמדת מערכת החשמל כפי שדווחה בניו יורק טיימס",
+   "אמינות תוכניות פינוי שגרירויות מערביות מקייב",
+   "מספר הכלים המדויק שהופעל מדגם השאהד החדש"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1225,
+    "unit": "USD",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה ביעדים צבאיים ותשתיות"
+    ],
+    "inferred": [
+     "השמדת מערכות החשמל והאנרגיה של אוקראינה במטרה ליצור משבר הומניטרי",
+     "התאמת הכלכלה למלחמה ארוכת טווח באמצעות הגדלת תקציבי הביטחון"
+    ],
+    "forecast": [
+     "המשך גלי תקיפה גדולים לקראת החורף",
+     "הגברת הלחץ הכלכלי והצבאי על עורף אוקראינה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על המדינה ושיתוף ניסיון ביטחוני עם אירופה",
+     "פיתוח מאות רחפנים מיירטים"
+    ],
+    "inferred": [
+     "הרחבת הפגיעה בעורף הכלכלי והאנרגטי של רוסיה",
+     "גיוס תמיכה דיפלומטית ובינלאומית למניעת הסגרות אזרחים"
+    ],
+    "forecast": [
+     "הגברת השימוש בטכנולוגיות רחפנים מתקדמות נגד כוחות רוסיים",
+     "ניסיון למנוע קריסה מוחלטת של רשת החשמל תחת תקיפות עתידיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/every-fallen-hero-will-be-found-kyiv-to-speed-up-identification-of-fallen-ukrainians-budanov-says/",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/02/boris-nemtsov-s-daughter-is-now-a-foreign-agent-in-russia-so-are-social-media-accounts-run-by-alexey-navalny-s-team",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056212/",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2197013",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48215",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4170320-kazakhstan-detains-ukrainian-woman-at-russias-request-as-she-traveled-to-pick-up-grandson.html",
+    "accessed_at": "2026-10-02T23:40:34+00:00"
+   }
+  ]
+ }
+}
