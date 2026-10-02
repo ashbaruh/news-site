@@ -865,83 +865,84 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-09-30T2340__ukraine-202609302340.json",
+  "draft": "drafts/ukraine/2026-10-02T0606__ukraine-202610020606.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-09-30T23:40:39+00:00",
+   "generated_at": "2026-10-02T06:06:04+00:00",
    "window": {
-    "from": "2026-09-29T23:40:39+00:00",
-    "to": "2026-09-30T23:40:39+00:00"
+    "from": "2026-10-01T06:06:04+00:00",
+    "to": "2026-10-02T06:06:04+00:00"
    },
    "model": {
-    "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202609302340"
+    "name": "gemini-3.8-flash",
+    "run_id": "ukraine-202610020606"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת באמצעות הפצצות אוויריות כבדות של רוסיה על תשתיות אנרגיה, אזורים עירוניים ואתרים כלכליים באוקראינה, לצד פעילות הגנה ותקיפה נגדית של אוקראינה במזרח ובדרום. במקביל, מתנהלת מערכה דיפלומטית וכלכלית סביב סנקציות, הגבלות על אמנים, ואיומים מצד רוסיה כלפי נאט\"ו.",
+   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהסלמה בתקיפות הדדיות בעומק העורף, כאשר כוחות רוסיים מכוונים אל תשתיות תחבורה ואזורי מגורים בקייב באמצעות נחילי כטב\"מים, בעוד אוקראינה ממשיכה לפגוע בבתי זיקוק ובמתקני תעשייה בתוך שטח רוסיה. במקביל, המתיחות מול מדינות המערב מחריפה בעקבות איומים גלויים של ההנהגה הרוסית בשימוש בכלל מאגרי הנשק שלה נגד נאט\"ו. מאמצי ההגנה האווירית האוקראינית מיירטים חלק ניכר מן האיומים, אך הפגיעה בתשתיות קריטיות ממשיכה להכביד על שני הצדדים.",
    "fronts": [
     {
-     "name": "חזית מזרח דונבאס",
-     "status": "פעיל"
+     "name": "עורף אוקראינה וקייב",
+     "status": "מתקפות מתמשכות של כטב\"מים וטילים רוסיים על גשרים, תשתיות אנרגיה ומבני מגורים"
     },
     {
-     "name": "חזית האוויר והתשתיות בקייב",
-     "status": "פעיל"
+     "name": "עורף רוסיה (מתקני נפט ואנרגיה)",
+     "status": "פגיעות כטב\"מים אוקראיניים בבתי זיקוק, מפעלים כימיים ומאגרי דלק"
     },
     {
-     "name": "חזית דרום זפוריז'יה",
-     "status": "פעיל"
+     "name": "הזירה המדינית והאסטרטגית מול נאט\"ו והאיחוד האירופי",
+     "status": "החרפת איומים גרעיניים והצהרות על מוכנות לעימות רחב היקף"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-09302340-01",
-     "title": "תקיפת מטוס אוקראיני בדונבאס",
-     "summary": "מטוס תקיפה אוקראיני ביצע גיחה בגובה נמוך והטיל תחמושת מדויקת מדגם AASM HAMMER על מטרה רוסית במזרח דונבאס",
-     "axis": "חזית האוויר והקרקע",
+     "id": "UKRAINE-10020606-01",
+     "title": "מתקפת כטב\"מים וטילים רוסית על קייב ופגיעה בגשרים ובבנייני מגורים",
+     "summary": "כוחות רוסיים תקפו את קייב בכטב\"מים, פגעו שוב בגשר הדרומי וגרמו נזק למבנה מגורים בן 25 קומות במחוז דרניצקי. בעקבות כך נסגרו גשרים ושונו נתיבי תחבורה.",
+     "axis": "מתקפות אוויריות על עורף אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T23:37:46+00:00",
+     "occurred_at": "2026-10-01T14:31:03+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-30T23:37:46+00:00",
-     "last_update_at": "2026-09-30T23:37:46+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-01T14:31:03+00:00",
+     "last_update_at": "2026-10-02T05:04:11+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק וממדי הנזק המלאים לתשתיות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48151",
-       "published_at": "2026-09-30T23:37:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דונבאס, אוקראינה",
-       "lat": 47.9864,
-       "lon": 37.2746
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09302340-02",
-     "title": "פציעת איש חילוץ בקייב",
-     "summary": "איש חילוץ נפצע במתקפה רוסית שנייה על קייב",
-     "axis": "חזית ההפצצות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T22:33:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T22:33:00+00:00",
-     "last_update_at": "2026-09-30T22:33:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://kyivindependent.com/russian-strike-kills-1-injures-2-in-kyiv-as-southern-bridge-hit-again-overnight/",
+       "published_at": "2026-10-02T05:04:11+00:00"
+      },
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-society/4169575-recordholding-rescue-worker-injured-in-second-russian-shelling-attack-in-kyiv.html",
-       "published_at": "2026-09-30T22:33:00+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4170242-russian-attack-in-kyivs-darnytskyi-district-leaves-25story-residential-building-damaged.html",
+       "published_at": "2026-10-02T04:59:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056065/",
+       "published_at": "2026-10-02T04:17:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056063/",
+       "published_at": "2026-10-02T03:22:00+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1372797",
+       "published_at": "2026-10-02T02:53:55+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-01T14:31:03+00:00"
       }
      ],
      "places": [
@@ -953,184 +954,162 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-09302340-03",
-     "title": "פגיעה באזרחים ונזק במחוז קייב",
-     "summary": "מתקפה רוסית פגעה בחמישה מחוזות בקייב והובילה לפציעת אישה ונזק למבנים",
-     "axis": "חזית ההפצצות באוקראינה",
+     "id": "UKRAINE-10020606-02",
+     "title": "יירוט נרחב של כטב\"מים רוסיים על ידי ההגנה האווירית האוקראינית",
+     "summary": "חיל האוויר האוקראיני דיווח על שיגור של 108 כטב\"מים על ידי רוסיה, כאשר 88 מהם יורטו או שובשו באמצעות לוחמה אלקטרונית ונשק נ\"מ.",
+     "axis": "לוחמה אווירית והגנה אווירית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T18:27:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T18:27:00+00:00",
-     "last_update_at": "2026-09-30T20:27:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-10-01T18:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-02T05:15:00+00:00",
+     "last_update_at": "2026-10-02T05:15:00+00:00",
+     "what_is_not_verified": "היקף הפגיעות המדויק ב-11 המוקדים שצוינו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4169795-russian-attack-in-kyiv-regions-boryspil-district-injures-woman.html",
-       "published_at": "2026-09-30T20:27:00+00:00"
-      },
-      {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055875/",
-       "published_at": "2026-09-30T18:27:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056077/",
+       "published_at": "2026-10-02T05:15:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "בוריספיל, אוקראינה",
-       "lat": 50.3512,
-       "lon": 30.9508
+       "name": "בריאנסק, רוסיה",
+       "lat": 53.2789,
+       "lon": 34.3659
+      },
+      {
+       "name": "פרימורסקו-אחטרסק, רוסיה",
+       "lat": 46.0491,
+       "lon": 38.1712
       }
      ]
     },
     {
-     "id": "UKRAINE-09302340-04",
-     "title": "שימוש ברחפן חיתוך פלגה על ידי רוסיה",
-     "summary": "רוסיה השתמשה לראשונה ברחפן המצויד בראש קרב המיועד לחיתוך עמודי חשמל",
-     "axis": "חזית התשתיות",
+     "id": "UKRAINE-10020606-03",
+     "title": "תקיפות כטב\"מים אוקראיניות על מתקני נפט ותעשייה ברוסיה",
+     "summary": "פיצוצים ושריפות נרשמו באזור בית הזיקוק ומפעל כימי בוולגוגרד, לצד דיווחים על פגיעה במתקני נפט באזור סמארה ובמטרות נוספות.",
+     "axis": "פגיעה בתשתיות אנרגיה בעורף הרוסי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T16:25:07+00:00",
+     "occurred_at": "2026-10-01T12:09:34+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-30T16:25:07+00:00",
-     "last_update_at": "2026-09-30T18:19:35+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-01T12:09:34+00:00",
+     "last_update_at": "2026-10-02T04:38:00+00:00",
+     "what_is_not_verified": "היקף הנזק הממשי למתקני התעשייה ומהות המוקדים שעלו באש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056068/",
+       "published_at": "2026-10-02T04:38:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-oil-facilities-in-russias-volgograd-samara-regions/",
+       "published_at": "2026-10-02T04:33:17+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48190",
+       "published_at": "2026-10-02T02:55:28+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings",
+       "published_at": "2026-10-01T12:09:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "וולגוגרד, רוסיה",
+       "lat": 48.7082,
+       "lon": 44.5153
+      },
+      {
+       "name": "סמארה, רוסיה",
+       "lat": 53.1956,
+       "lon": 50.1015
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10020606-04",
+     "title": "פוטין מאיים בשימוש בכל אמצעי הלחימה שברשות רוסיה",
+     "summary": "נשיא רוסיה הצהיר כי ארצו תגיב בכל הנשק שברשותה במקרה של תקיפה מצד נאט\"ו, ודחה אפשרות להפסקת פגיעה בספינות תמורת הפסקת תקיפת בתי הזיקוק.",
+     "axis": "העימות המדיני-אסטרטגי מול המערב",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-01T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-01T16:38:32+00:00",
+     "last_update_at": "2026-10-01T23:46:17+00:00",
+     "what_is_not_verified": "נכונות הטענות בדבר הסכמות קודמות להפסקת פגיעה במתקני אנרגיה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russia-uses-drone-with-warhead-designed-to-cut-power-pylons-for-1st-time-zelensky-adviser-says/",
-       "published_at": "2026-09-30T18:19:35+00:00"
+       "url": "https://kyivindependent.com/putin-vows-russia-will-respond-with-all-weapons-at-our-disposal-if-attacked-by-nato/",
+       "published_at": "2026-10-01T23:46:17+00:00"
       },
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-strikes-ukrainian-power-pylon-with-steel-cutting-drone-for-1st-time-zelenskys-adviser-says/",
-       "published_at": "2026-09-30T16:25:07+00:00"
+       "url": "https://meduza.io/en/news/2026/10/01/by-putin-s-own-estimate-ukrainian-strikes-on-russian-refineries-have-cost-russia-1-of-gdp-but-he-says-stopping-them-isn-t-worth-halting-attacks-on-ukrainian-vessels",
+       "published_at": "2026-10-01T19:42:03+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato",
+       "published_at": "2026-10-01T16:38:32+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-09302340-05",
-     "title": "דחיית ערעור חברת נכסים רוסית בצ'כיה",
-     "summary": "בית משפט מנהלי עליון בצ'כיה דחה ערעור של חברת ניהול נכסים רוסית על הקפאת 61 נכסים",
-     "axis": "חזית הסנקציות והנכסים",
-     "claim_type": "incident",
+     "id": "UKRAINE-10020606-05",
+     "title": "הערכות אוקראיניות על אבדות הצבא הרוסי",
+     "summary": "המטה הכללי של צבא אוקראינה דיווח כי צבא רוסיה איבד 1,520 חיילים ביממה האחרונה, לצד עשרות מערכות ארטילריה וכלים משוריינים.",
+     "axis": "שחיקת כוחות בחזית",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-09-30T17:25:00+00:00",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-09-30T17:25:00+00:00",
-     "last_update_at": "2026-09-30T17:25:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-02T03:49:00+00:00",
+     "last_update_at": "2026-10-02T05:17:00+00:00",
+     "what_is_not_verified": "אימות עצמאי של נתוני הנפגעים והאבדות הרוסיים",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4170247-russian-army-loses-1520-troops-in-war-against-ukraine-over-past-day.html",
+       "published_at": "2026-10-02T05:17:00+00:00"
+      },
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055866/",
-       "published_at": "2026-09-30T17:25:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פראג, צ'כיה",
-       "lat": 50.0875,
-       "lon": 14.4213
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09302340-06",
-     "title": "פינוי נפגעים באמצעות רובוט קרקעי בזפוריז'יה",
-     "summary": "כוחות אוקראיניים פינו ארבעה חיילים פצועים מקו החזית באמצעות רכב קרקעי בלתי מאויש",
-     "axis": "חזית דרום",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T16:41:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T16:41:00+00:00",
-     "last_update_at": "2026-09-30T16:41:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055856/",
-       "published_at": "2026-09-30T16:41:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "הוליאיפולה, אוקראינה",
-       "lat": 47.6655,
-       "lon": 36.2657
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09302340-07",
-     "title": "תקיפת פצצות אוויריות בסומי",
-     "summary": "תקיפה רוסית באמצעות פצצות אוויריות מונחות פגעה בסומי ופצעה שישה בני אדם",
-     "axis": "חזית ההפצצות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T16:28:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T16:28:00+00:00",
-     "last_update_at": "2026-09-30T16:28:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055854/",
-       "published_at": "2026-09-30T16:28:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סומי, אוקראינה",
-       "lat": 50.912,
-       "lon": 34.8028
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-09302340-08",
-     "title": "נפילת כטב\"ם במחוז רובנו",
-     "summary": "כטב\"ם רוסי נחת במחוז רובנו באוקראינה מבלי להתפוצץ",
-     "axis": "חזית ההפצצות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T11:28:36+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-09-30T11:28:36+00:00",
-     "last_update_at": "2026-09-30T11:28:36+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48122",
-       "published_at": "2026-09-30T11:28:36+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056064/",
+       "published_at": "2026-10-02T03:49:00+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "טענות הקרמלין לפיהן רוסיה מקפידה בקפדנות על כל התקנים ההומניטריים כלפי עצורים אוקראיניים",
-    "דיווחים על היערכות נאט\"ו לבלוקאדה ימית ואווירית של מחוז קלינינגרד",
-    "הערכות לפיהן ולדימיר פוטין הורה אישית על תקיפות אתרים אזרחיים כדי לזרוע פחד"
+    "טענות רוסיות על עייפות הציבור האוקראיני מהשלטון הנוכחי",
+    "מספר האבדות המדויק של כוחות הצבא הרוסי",
+    "הדיווחים של בלומברג על דחיית בקשת סיוע של 27 מיליארד אירו מצד האיחוד האירופי",
+    "מידת המעורבות של גורמים זרים בפריצות לבתיהם של חברי פרלמנט בפינלנד",
+    "נכונות הדיווח בדבר הסכמה לעצירת תקיפות הדדיות על מתקני אנרגיה"
    ],
    "map": {
     "confidence": "high",
@@ -1141,95 +1120,108 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1355,
+     "value": 1.1298,
      "unit": "USD",
-     "change_pct": 0.0,
+     "change_pct": -0.5,
      "source_id": "src_ecb",
-     "as_of": "2026-09-30T15:00:00+00:00"
+     "as_of": "2026-10-01T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "רוסיה",
      "declared": [
-      "פגיעה במפעלים ובמפעלים לייצור נשק באירופה המספקים נשק לקייב כמטרות צבאיות לגיטימיות"
+      "תגובה בכל אמצעי הלחימה העומדים לרשותה במקרה של תקיפה מצד נאט\"ו",
+      "המשך פגיעה במטרות כלכליות וספינות אוקראיניות בתגובה לתקיפת בתי הזיקוק"
      ],
      "inferred": [
-      "שחיקת הכלכלה האוקראינית והרסת תשתית האנרגיה כדי לשתק את העורף לקראת החורף",
-      "יצירת הרתעה מול נאט\"ו באמצעות איומים גרעיניים סביב קלינינגרד"
+      "שיבוש התחבורה והתשתיות האזרחיות בקייב לשם הפעלת לחץ פסיכולוגי ומוראלי",
+      "הרחקת נאט\"ו ממעורבות ישירה באמצעות הרתעה ואיומים בשימוש בנשק לא קונבנציונלי"
      ],
      "forecast": [
-      "המשך מתקפות אוויריות אינטנסיביות על מרכזי אוכלוסייה ותשתיות חיוניות באוקראינה"
+      "המשך התקיפות האוויריות על תשתיות מפתח אוקראיניות לקראת תקופות קור",
+      "החרפת הרטוריקה התקיפה מול מדינות הגבול של נאט\"ו"
      ]
     },
     {
      "actor": "אוקראינה",
      "declared": [
-      "הגנה על המדינה והשבת ילדים אוקראינים שפונו או נלקחו"
+      "המשך הפגיעה בבתי זיקוק ובמתקנים כלכליים של רוסיה",
+      "הטלת סנקציות נוספות על אוליגרכים רוסים"
      ],
      "inferred": [
-      "שימור רציפות תפקודית של הכלכלה למרות נזקי התקיפות והתראות האזעקה הממושכות",
-      "פיתוח והטמעה של אמצעים טכנולוגיים מתקדמים כמו רובוטים קרקעיים וחימוש מדויק"
+      "שחיקת היכולת הכלכלית של רוסיה לממן את המלחמה ופגיעה באספקת הדלק הצבאית",
+      "הפגנת עצמאות מבצעית חרף לחצים בין-לאומיים לצמצום הפגיעה במתקני אנרגיה"
      ],
      "forecast": [
-      "פנייה מתמשכת לבעלי ברית מערביים בדרישה לסיוע כלכלי וצבאי לייצוב שוק האנרגיה"
+      "הגברת מאמצי השיגור של כטב\"מים ארוכי טווח אל תוך מחוזות עמוקים ברוסיה",
+      "המשך לחץ לקבלת מערכות הגנה אווירית נוספות משותפותיה באירופה"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
+    },
+    {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/russia-strikes-ukrainian-power-pylon-with-steel-cutting-drone-for-1st-time-zelenskys-adviser-says/",
-     "accessed_at": "2026-09-30T23:40:39+00:00"
+     "url": "https://kyivindependent.com/putin-vows-russia-will-respond-with-all-weapons-at-our-disposal-if-attacked-by-nato/",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1372797",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
+    },
+    {
+     "source_id": "src_meduza",
+     "url": "https://meduza.io/en/news/2026/10/01/by-putin-s-own-estimate-ukrainian-strikes-on-russian-refineries-have-cost-russia-1-of-gdp-but-he-says-stopping-them-isn-t-worth-halting-attacks-on-ukrainian-vessels",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/09/30/8055854/",
-     "accessed_at": "2026-09-30T23:40:39+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056064/",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48122",
-     "accessed_at": "2026-09-30T23:40:39+00:00"
+     "url": "https://t.me/alexmehacarmel/48190",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4169795-russian-attack-in-kyiv-regions-boryspil-district-injures-woman.html",
-     "accessed_at": "2026-09-30T23:40:39+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4170247-russian-army-loses-1520-troops-in-war-against-ukraine-over-past-day.html",
+     "accessed_at": "2026-10-02T06:06:04+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-09-29T16:37:24+00:00",
+  "previous_generated_at": "2026-09-30T23:40:39+00:00",
   "changes": {
-   "UKRAINE-09302340-01": {
-    "kind": "new"
-   },
-   "UKRAINE-09302340-02": {
+   "UKRAINE-10020606-01": {
     "kind": "possible",
-    "prev": "פגיעת כטב\"מים וטילים בבניין האקדמיה למדעים בקייב",
+    "prev": "פציעת איש חילוץ בקייב",
     "score": 0.633
    },
-   "UKRAINE-09302340-03": {
+   "UKRAINE-10020606-02": {
     "kind": "new"
    },
-   "UKRAINE-09302340-04": {
+   "UKRAINE-10020606-03": {
     "kind": "new"
    },
-   "UKRAINE-09302340-05": {
-    "kind": "new"
+   "UKRAINE-10020606-04": {
+    "kind": "possible",
+    "prev": "שימוש ברחפן חיתוך פלגה על ידי רוסיה",
+    "score": 0.467
    },
-   "UKRAINE-09302340-06": {
-    "kind": "new"
-   },
-   "UKRAINE-09302340-07": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "פגיעת פצצות דואה בבית ספר ובאזור מגורים בסומי",
-    "score": 0.817
-   },
-   "UKRAINE-09302340-08": {
+   "UKRAINE-10020606-05": {
     "kind": "new"
    }
   }
