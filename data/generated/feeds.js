@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-02T13:54:01+00:00",
-  "fetched_at": "2026-10-02T13:54:01+00:00"
+  "checked_at": "2026-10-02T14:17:17+00:00",
+  "fetched_at": "2026-10-02T14:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T13:54:11+00:00",
-  "fetched_at": "2026-10-02T13:54:11+00:00"
+  "checked_at": "2026-10-02T14:17:29+00:00",
+  "fetched_at": "2026-10-02T14:17:29+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "A trio of five-star turntables from Pro-Ject, Rega and Technics are put to the test in our listening rooms – but which one is the best at the price?",
+    "title_he": "שלישיית פטיפונים בדרגת חמישה כוכבים מבית Pro-Ject, Rega ו-Technics עומדת למבחן בחדרי ההאזנה שלנו - אבל מי מהם הכי טוב במחיר?",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/a-trio-of-five-star-turntables-from-pro-ject-rega-and-technics-are-put-to-the-test-in-our-listening-rooms-but-which-one-is-the-best-at-the-price",
+    "date": "2026-10-02T14:07:18+00:00"
+   },
+   {
+    "title_en": "Samsung HW-QS90H",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/samsung-hw-qs90h-soundbar",
+    "date": "2026-10-02T13:55:09+00:00"
+   },
    {
     "title_en": "Samsung launches two new tablets, with super-sized OLED displays and spatial audio support – but can they challenge the iPad Pro?",
     "title_he": "Samsung משיקה שני טאבלטים חדשים, עם צגי OLED גדולים במיוחד ותמיכה באודיו מרחבי – אבל האם הם יכולים לאתגר את ה-iPad Pro?",
@@ -62,27 +76,13 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/hi-fi/vinyl/counterfeit-vinyl-is-a-massive-problem-for-us-all-for-this-very-simple-reason",
     "date": "2026-10-02T10:25:50+00:00"
-   },
-   {
-    "title_en": "Sound Advice: your hi-fi and home cinema questions answered, live",
-    "title_he": "עצות סאונד: תשובות לשאלות ההי-פי והקולנוע הביתי שלך, בשידור חי",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/sound-advice-your-hi-fi-and-home-cinema-questions-answered-live",
-    "date": "2026-10-02T09:12:42+00:00"
-   },
-   {
-    "title_en": "The five-star return of a portable hi-fi classic, Sonos strikes Dolby Atmos gold, fresh turntable treats from Technics and Pro-Ject, and more",
-    "title_he": "החזרה של חמישה כוכבים של קלאסיקת Hi-Fi ניידת, Sonos מכה את Dolby Atmos זהב, פינוקי פטיפון טריים מ-Technics ו-Pro-Ject, ועוד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/the-five-star-return-of-portable-hi-fi-classic-sonos-strikes-dolby-atmos-gold-fresh-turntable-treats-from-technics-and-pro-ject-and-more",
-    "date": "2026-10-02T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T13:54:14+00:00",
-  "fetched_at": "2026-10-02T13:54:14+00:00"
+  "checked_at": "2026-10-02T14:17:32+00:00",
+  "fetched_at": "2026-10-02T14:17:32+00:00"
  },
- "generated_at": "2026-10-02T13:54:14+00:00",
+ "generated_at": "2026-10-02T14:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "לקראת חידוש אפשרי של הלחימה: ארה\"ב שלחה סוללות פטריוט נוספות להגן על מתקני האנרגיה בסעודיה וקטאר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558300",
-     "date": "2026-10-02T12:54:00+00:00"
+     "date": "2026-10-02T13:54:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T13:54:02+00:00",
-  "fetched_at": "2026-10-02T13:54:02+00:00"
+  "checked_at": "2026-10-02T14:17:18+00:00",
+  "fetched_at": "2026-10-02T14:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T13:54:03+00:00",
-  "fetched_at": "2026-10-02T13:54:03+00:00"
+  "checked_at": "2026-10-02T14:17:19+00:00",
+  "fetched_at": "2026-10-02T14:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2431,8 +2431,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T13:54:05+00:00",
-  "fetched_at": "2026-10-02T13:54:05+00:00"
+  "checked_at": "2026-10-02T14:17:20+00:00",
+  "fetched_at": "2026-10-02T14:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2522,12 +2522,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T13:54:05+00:00",
-  "fetched_at": "2026-10-02T13:54:05+00:00"
+  "checked_at": "2026-10-02T14:17:20+00:00",
+  "fetched_at": "2026-10-02T14:17:20+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-4-argon-launch/",
+     "date": "2026-10-01T07:34:40+00:00",
+     "launch": true,
+     "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/barclays-scales-claude",
@@ -2536,34 +2543,25 @@ window.DB.generated = {
      "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
      "title_he": "Barclays קנה קנה מידה של קלוד כדי לשדרג את התפעול ולשפר את חווית הלקוח",
      "translated_by": "google"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "date": "2026-09-30T20:01:45+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
-     "translated_by": "mymemory"
     }
    ],
-   "candidates": 4,
+   "candidates": 9,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 376,
+     "likes": 377,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 255,
+     "likes": 256,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2591,7 +2589,7 @@ window.DB.generated = {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 70,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
@@ -2625,12 +2623,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T13:54:10+00:00",
-  "fetched_at": "2026-10-02T13:54:10+00:00"
+  "checked_at": "2026-10-02T14:17:27+00:00",
+  "fetched_at": "2026-10-02T14:17:27+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ההערצה לדיא סבע בטורקיה שוברת שיאים: אוהד קרא לבנו על שמו",
+     "link": "https://sports.walla.co.il/item/3870601",
+     "date": "2026-10-02T14:02:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "\"דאגה בקריסטל פאלאס מפציעתו של ענאן חלאילי\"",
      "link": "https://www.one.co.il/Article/534906.html?ref=rss",
@@ -2959,8 +2966,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T13:54:08+00:00",
-  "fetched_at": "2026-10-02T13:54:08+00:00"
+  "checked_at": "2026-10-02T14:17:23+00:00",
+  "fetched_at": "2026-10-02T14:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -2991,58 +2998,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T13:54:08+00:00",
-  "fetched_at": "2026-10-02T13:54:08+00:00"
+  "checked_at": "2026-10-02T14:17:24+00:00",
+  "fetched_at": "2026-10-02T14:17:24+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-02T13:42:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "newest": "2026-10-02T14:05:00+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-02T12:33:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-02T03:57:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-09-30T04:27:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-02T13:39:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "newest": "2026-10-02T14:02:00+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-02T13:00:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-02T13:23:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "newest": "2026-10-02T13:55:00+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-02T02:53:32+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3054,28 +3061,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-09-28T19:00:00+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-02T10:29:24+00:00",
-    "seen_at": "2026-10-02T13:17:47+00:00",
+    "newest": "2026-10-02T14:08:15+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-02T13:22:09+00:00",
-    "seen_at": "2026-10-02T13:54:14+00:00",
+    "newest": "2026-10-02T14:07:18+00:00",
+    "seen_at": "2026-10-02T14:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-02T13:54:14+00:00"
+  "checked_at": "2026-10-02T14:17:32+00:00"
  }
 };
