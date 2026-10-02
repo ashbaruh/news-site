@@ -40,6 +40,10 @@
 33.1737,
 35.2111
 ],
+"al-midan, damascus, syria": [
+33.4933,
+36.2969
+],
 "al-qantara, lebanon": [
 33.2589,
 35.459
@@ -197,6 +201,10 @@
 19.0402
 ],
 "burj qalaway, lebanon": null,
+"cairo, egypt": [
+30.0444,
+31.2357
+],
 "camp david, united states": [
 39.6487,
 -77.4651
@@ -521,6 +529,7 @@
 40.3757,
 -76.4626
 ],
+"lebanon-syria border": null,
 "liege, belgium": [
 50.6451,
 5.5736
@@ -821,6 +830,10 @@
 53.1956,
 50.1015
 ],
+"san diego, united states": [
+32.7157,
+-117.1638
+],
 "sanaa, yemen": [
 15.3539,
 44.2059
@@ -879,6 +892,10 @@
 56.2028
 ],
 "strait of hormuz, iran": null,
+"strait of hormuz, oman": [
+26.4494,
+56.2028
+],
 "sujud, lebanon": null,
 "sulaimaniya, iraq": [
 35.5571,

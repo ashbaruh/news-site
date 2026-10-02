@@ -1,0 +1,490 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2d644fe1d71e",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 5,
+   "shared_root": 4,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-01T23:40:39+00:00",
+  "window": {
+   "from": "2026-09-30T23:40:39+00:00",
+   "to": "2026-10-01T23:40:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610012340"
+  },
+  "summary": "המערכה בין ארצות הברית וישראל לבין איראן מתאפיינת בלחץ כלכלי וצבאי גובר של וושינגטון הכולל מצור ימי, פגיעה ביצוא הנפט וריכוז כוחות צי באזור. מנגד, הזירה הימית במצר הורמוז ממשיכה לבעור בעקבות פגיעות במכליות, לצד חקירות של תוכניות פגיעה בנתיבי תעופה ובסיסים צבאיים באירופה. המתיחות מלווה במאבקים דיפלומטיים באו\"ם שבהם מעורבות רוסיה וסין, וכן באיומים הדדיים לקראת אפשרות להסלמה צבאית נרחבת.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "הסלמה ימית בעקבות ירי טילים לעבר מכליות ומצור אמריקאי על נמלים"
+   },
+   {
+    "name": "המערכה הכלכלית והסנקציות",
+    "status": "החרפת העיצומים האמריקאיים ועצירת העמסת נפט גולמי איראני"
+   },
+   {
+    "name": "הזירה המדינית והבין-לאומית",
+    "status": "חסימת מנגנוני פיקוח באו\"ם באמצעות וטו רוסי-סיני והיערכות צבאית אמריקאית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10012340-01",
+    "title": "פגיעת טיל במכלית נפט במצר הורמוז",
+    "summary": "מכלית-על לנפט עלתה באש במצר הורמוז לאחר שנפגעה מטיל במרחק של כשמונה קילומטרים מחופי עומאן, על פי דיווחים בתקשורת האיראנית.",
+    "axis": "מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T20:16:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T20:16:30+00:00",
+    "last_update_at": "2026-10-01T20:16:30+00:00",
+    "what_is_not_verified": "זהות הגורם ששיגר את הטיל לא צוינה ולא אומתה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-supertanker-hit-hormuz-iranian-media",
+      "published_at": "2026-10-01T20:16:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז, עומאן",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10012340-02",
+    "title": "הטלת סנקציות אמריקאיות על מגזרי הרכב והרכבות באיראן",
+    "summary": "משרד האוצר של ארצות הברית הטיל עיצומים חדשים על מגזרי הרכב והמסילות של איראן במסגרת מבצע לבידוד כלכלי של המדינה.",
+    "axis": "סנקציות וכלכלה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T18:40:09+00:00",
+    "last_update_at": "2026-10-01T18:46:36+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-sanctions-target-irans-auto-rail-sectors-blockade-chokes-ship-lanes",
+      "published_at": "2026-10-01T18:46:36+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610016404",
+      "published_at": "2026-10-01T18:40:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10012340-03",
+    "title": "עיצומים אמריקאיים על רשת פיננסית בראשות אזרח ישראלי ומולדובי",
+    "summary": "ארצות הברית הטילה סנקציות על רשת פיננסית שסייעה לאיראן לעקוף הגבלות ולהעביר כספים למשמרות המהפכה ולשלוחותיהן.",
+    "axis": "סנקציות וכלכלה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T20:20:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T20:20:33+00:00",
+    "last_update_at": "2026-10-01T20:20:33+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21535356",
+      "published_at": "2026-10-01T20:20:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10012340-04",
+    "title": "מעצר בעל אזרחות איראנית-בריטית בחשד למעורבות בתוכנית לפגוע בבסיס פיירפורד",
+    "summary": "המשטרה בבריטניה עצרה אזרח בעל אזרחות כפולה בחשד להכנת מעשי טרור הקשורים לבסיס חיל האוויר המלכותי פיירפורד, המשמש לתקיפות באיראן.",
+    "axis": "בריטניה ואירופה מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T17:54:32+00:00",
+    "last_update_at": "2026-10-01T21:51:00+00:00",
+    "what_is_not_verified": "מידת המעורבות הישירה של איראן בתוכנית בבסיס הבריטי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610011828",
+      "published_at": "2026-10-01T21:51:00+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/uk-police-arrest-dual-uk-iranian-man-fairford-air-base-investigation",
+      "published_at": "2026-10-01T18:46:36+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21534599",
+      "published_at": "2026-10-01T17:54:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     },
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10012340-05",
+    "title": "טענות ואיומים בנוגע לחשד לקשר איראני בתקרית טיסת פליי דובאי",
+    "summary": "נשיא ארצות הברית הצהיר כי איראן תספוג תגובה קשה אם יוכח קשר למתקפה על הטיסה לישראל, בעוד גורם ישראלי ציין כי כרגע הקשר נשלל.",
+    "axis": "ישראל-ארה\"ב מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T11:26:46+00:00",
+    "last_update_at": "2026-10-01T20:30:24+00:00",
+    "what_is_not_verified": "קיומו של קשר ישיר בין הטייס או המתקפה במטוס לבין שלטונות איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/trump-vows-hit-iran-very-hard-if-linked-flydubai-attack",
+      "published_at": "2026-10-01T20:30:24+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bjrab7ncfl",
+      "published_at": "2026-10-01T18:25:54+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131179",
+      "published_at": "2026-10-01T18:18:39+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sywkgaj9gl",
+      "published_at": "2026-10-01T17:07:09+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-01T11:26:46+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10012340-06",
+    "title": "וטו באו\"ם על פאנל מומחים לבחינת מתקני הגרעין של איראן",
+    "summary": "רוסיה וסין הטילו וטו במועצת הביטחון של האו\"ם נגד הקמת צוות מומחים בתמיכת ארצות הברית בנושא מתקני הגרעין האיראניים.",
+    "axis": "הזירה המדינית והגרעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T12:00:00+00:00",
+    "last_update_at": "2026-10-01T12:00:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_c3567e027609c62d",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168505",
+      "published_at": "2026-10-01T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10012340-07",
+    "title": "הודעת שר האוצר האמריקאי על אפס יצוא נפט גולמי איראני במכליות",
+    "summary": "שר האוצר של ארצות הברית פרסם כי איראן לא העמיסה כלל נפט גולמי על מכליות במהלך חודש ספטמבר כתוצאה מהמצור והסנקציות.",
+    "axis": "סנקציות וכלכלה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T17:55:00+00:00",
+    "last_update_at": "2026-10-01T22:31:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_8cba82832dfd0541",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-iranian-oil-exports-september-bessent",
+      "published_at": "2026-10-01T22:31:55+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_8cba82832dfd0541",
+      "url": "https://t.me/abualiexpress/131184",
+      "published_at": "2026-10-01T20:10:35+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_8cba82832dfd0541",
+      "url": "https://www.iranintl.com/en/202610014929",
+      "published_at": "2026-10-01T17:55:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10012340-08",
+    "title": "מתן פטור זמני מסנקציות לטיסות בין איראן לעיר נג'ף בעיראק",
+    "summary": "משרד האוצר האמריקאי העניק רישיון מיוחד לחברת תעופה עיראקית לבצע טיסות בין עיראק לאיראן עד סוף חודש אוקטובר, חרף ההגבלות על התעופה האיראנית.",
+    "axis": "סנקציות וכלכלה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T16:05:52+00:00",
+    "last_update_at": "2026-10-01T16:05:52+00:00",
+    "what_is_not_verified": "האם יאושר פטור קבוע לטיסות אלו מעבר לאוקטובר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/2026/10/01/washington-decides-complete-ban-on-iran-iraq-flights-is-not-worth-the-political-cost/",
+      "published_at": "2026-10-01T16:05:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ף, עיראק",
+      "lat": 32.001,
+      "lon": 44.33
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10012340-09",
+    "title": "העברת סיוע צבאי אמריקאי למצרים על רקע המערכה מול איראן",
+    "summary": "ממשל ארצות הברית אישר העברת סיוע ביטחוני למצרים בסך שלוש מאות ועשרים מיליון דולר תוך ויתור על תנאים קודמים עקב תפקידה במלחמה.",
+    "axis": "ישראל-ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T15:52:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-01T15:52:27+00:00",
+    "last_update_at": "2026-10-01T15:52:27+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21533734",
+      "published_at": "2026-10-01T15:52:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10012340-10",
+    "title": "שילוח כוחות צי ונחיתה אמריקאיים לעבר המזרח התיכון",
+    "summary": "קבוצת תקיפה של נושאת מטוסים וכוח נחיתה הכולל אלפי לוחמים עזבו את סן דייגו כחלק מריכוז כוחות צבאיים נרחב סביב איראן לקראת נובמבר.",
+    "axis": "ישראל-ארה\"ב מול איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T15:50:33+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-01T15:50:33+00:00",
+    "last_update_at": "2026-10-01T22:48:40+00:00",
+    "what_is_not_verified": "כוונות מבצעיות מדויקות של הנשיא טראמפ לתקוף בנובמבר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1372795",
+      "published_at": "2026-10-01T22:48:40+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131171",
+      "published_at": "2026-10-01T15:50:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סן דייגו, ארצות הברית",
+      "lat": 32.7157,
+      "lon": -117.1638
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות המשגרים של הטיל שפגע במכלית הנפט ליד עומאן",
+   "קשר ישיר בין איראן לתקרית בטיסת פליי דובאי לישראל",
+   "מידת ההכוונה האיראנית של החשוד שנעצר סמוך לבסיס פיירפורד בבריטניה",
+   "הערכות על תוכנית תקיפה ודאית של ארצות הברית או ישראל במהלך חודש נובמבר"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0762,
+    "unit": "ILS",
+    "change_pct": 0.08,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-01T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חסימת מקורות ההכנסה והמימון של המשטר האיראני באמצעות מבצע כלכלי",
+     "תגובה קשה וחריפה נגד איראן אם יוכח קשר למתקפה על הטיסה לישראל"
+    ],
+    "inferred": [
+     "הפעלת לחץ מרבי על מנת לכפות על איראן הגעה להסכם בתנאים אמריקאיים",
+     "הרתעה והכנת תשתית צבאית לתקיפה רחבה באמצעות תגבור כוחות ימיים"
+    ],
+    "forecast": [
+     "המשך אכיפה קפדנית של המצור הימי והרחבת הסנקציות על מגזרים נוספים"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "פתרון סוגיות באמצעים דיפלומטיים תוך דרישה לערבויות מוחשיות מארה\"ב לסיום המלחמה",
+     "הגנה עצמית בעוצמה מרבית נגד תוקפנות וטרור אמריקאיים"
+    ],
+    "inferred": [
+     "שימור הכלכלה המקומית וניסיונות לעקוף את המצור והעיצומים הבין-לאומיים",
+     "הישענות על תמיכה רוסית וסינית במוסדות הבין-לאומיים לבלימת לחץ מערבי"
+    ],
+    "forecast": [
+     "המשך פעילות עקיפה ושיבוש תנועת שיט באזור המפרץ כדי לאותת על מחיר המצור"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "בדיקת נסיבות אירוע הטיסה והדגשת ההתמודדות מול שטיפת מוח איסלאמיסטית קיצונית"
+    ],
+    "inferred": [
+     "היערכות צבאית וביטחונית מתמדת לאפשרות של הסלמה או תקיפה ישירה מול איראן"
+    ],
+    "forecast": [
+     "המשך תיאום מודיעיני וביטחוני הדוק עם ארצות הברית והמדינות השותפות באזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/trump-vows-hit-iran-very-hard-if-linked-flydubai-attack",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/2026/10/01/washington-decides-complete-ban-on-iran-iraq-flights-is-not-worth-the-political-cost/",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610014929",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21533734",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1372795",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-iranian-oil-exports-september-bessent",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131171",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168505",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sywkgaj9gl",
+    "accessed_at": "2026-10-01T23:40:39+00:00"
+   }
+  ]
+ }
+}

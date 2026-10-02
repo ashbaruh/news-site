@@ -73,7 +73,9 @@
   "drafts/ukraine/2026-09-30T2340__ukraine-202609302340.json",
   "drafts/iran/2026-10-01T0525__iran-202610010525.json",
   "drafts/north/2026-10-01T0536__north-202610010536.json",
-  "drafts/yemen/2026-10-01T0627__yemen-202610010627.json"
+  "drafts/yemen/2026-10-01T0627__yemen-202610010627.json",
+  "drafts/iran/2026-10-01T2340__iran-202610012340.json",
+  "drafts/north/2026-10-01T2357__north-202610012357.json"
  ],
  "auto": [
   "drafts/iran/2026-09-19T1041__iran-202609191041.json",
@@ -137,6 +139,8 @@
   "drafts/yemen/2026-09-29T2342__yemen-202609292342.json",
   "drafts/north/2026-09-30T1650__north-202609301650.json",
   "drafts/ukraine/2026-09-30T2340__ukraine-202609302340.json",
-  "drafts/iran/2026-10-01T0525__iran-202610010525.json"
+  "drafts/iran/2026-10-01T0525__iran-202610010525.json",
+  "drafts/iran/2026-10-01T2340__iran-202610012340.json",
+  "drafts/north/2026-10-01T2357__north-202610012357.json"
  ]
 }
