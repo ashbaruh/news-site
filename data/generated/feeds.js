@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-02T09:17:24+00:00",
-  "fetched_at": "2026-10-02T09:17:24+00:00"
+  "checked_at": "2026-10-02T10:17:13+00:00",
+  "fetched_at": "2026-10-02T10:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,14 +44,21 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T09:17:35+00:00",
-  "fetched_at": "2026-10-02T09:17:35+00:00"
+  "checked_at": "2026-10-02T10:17:26+00:00",
+  "fetched_at": "2026-10-02T10:17:26+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "The five-star return of portable hi-fi classic, Sonos strikes Dolby Atmos gold, fresh turntable treats from Technics and Pro-Ject and more",
-    "title_he": "החזרה של חמישה כוכבים של ה-hi-fi הקלאסי הנייד, Sonos מכה את Dolby Atmos זהב, פינוקי פטיפון טריים מ-Technics ו-Pro-Ject ועוד",
+    "title_en": "Sound Advice: your hi-fi and home cinema questions answered, live",
+    "title_he": "עצות סאונד: תשובות לשאלות ההי-פי והקולנוע הביתי שלך, בשידור חי",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/sound-advice-your-hi-fi-and-home-cinema-questions-answered-live",
+    "date": "2026-10-02T09:12:42+00:00"
+   },
+   {
+    "title_en": "The five-star return of a portable hi-fi classic, Sonos strikes Dolby Atmos gold, fresh turntable treats from Technics and Pro-Ject, and more",
+    "title_he": "החזרה של חמישה כוכבים של קלאסיקת Hi-Fi ניידת, Sonos מכה את Dolby Atmos זהב, פינוקי פטיפון טריים מ-Technics ו-Pro-Ject, ועוד",
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/the-five-star-return-of-portable-hi-fi-classic-sonos-strikes-dolby-atmos-gold-fresh-turntable-treats-from-technics-and-pro-ject-and-more",
     "date": "2026-10-02T07:00:00+00:00"
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/bahrain-grand-prix-2026-f1",
     "date": "2026-10-01T19:00:00+00:00"
-   },
-   {
-    "title_en": "iFi’s special-edition DAC packs upgraded circuitry and filters tuned by a Brit Award-winning producer",
-    "title_he": "ה-DAC המהדורה המיוחדת של iFi מכילה מעגלים ומסננים משודרגים המכוונים על ידי מפיק זוכה פרס Brit",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/dacs/ifis-special-edition-dac-packs-upgraded-circuitry-and-filters-tuned-by-a-brit-award-winning-producer",
-    "date": "2026-10-01T18:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T09:17:37+00:00",
-  "fetched_at": "2026-10-02T09:17:37+00:00"
+  "checked_at": "2026-10-02T10:17:28+00:00",
+  "fetched_at": "2026-10-02T10:17:28+00:00"
  },
- "generated_at": "2026-10-02T09:17:37+00:00",
+ "generated_at": "2026-10-02T10:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T09:17:26+00:00",
-  "fetched_at": "2026-10-02T09:17:26+00:00"
+  "checked_at": "2026-10-02T10:17:14+00:00",
+  "fetched_at": "2026-10-02T10:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T09:17:27+00:00",
-  "fetched_at": "2026-10-02T09:17:27+00:00"
+  "checked_at": "2026-10-02T10:17:15+00:00",
+  "fetched_at": "2026-10-02T10:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2431,8 +2431,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T09:17:28+00:00",
-  "fetched_at": "2026-10-02T09:17:28+00:00"
+  "checked_at": "2026-10-02T10:17:16+00:00",
+  "fetched_at": "2026-10-02T10:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2522,12 +2522,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T09:17:28+00:00",
-  "fetched_at": "2026-10-02T09:17:28+00:00"
+  "checked_at": "2026-10-02T10:17:16+00:00",
+  "fetched_at": "2026-10-02T10:17:16+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-4-argon-launch/",
+     "date": "2026-10-01T07:34:40+00:00",
+     "launch": true,
+     "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/barclays-scales-claude",
@@ -2536,28 +2543,16 @@ window.DB.generated = {
      "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
      "title_he": "Barclays קנה קנה מידה של קלוד כדי לשדרג את התפעול ולשפר את חווית הלקוח",
      "translated_by": "google"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-     "date": "2026-09-29T10:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing GPT-6.1 Sol",
-     "title_he": "הכירו את GPT-6.1 Sol",
-     "translated_by": "google"
     }
    ],
-   "candidates": 4,
-   "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 372,
+     "likes": 373,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2571,7 +2566,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 244,
+     "likes": 245,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2626,12 +2621,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T09:17:34+00:00",
-  "fetched_at": "2026-10-02T09:17:34+00:00"
+  "checked_at": "2026-10-02T10:17:24+00:00",
+  "fetched_at": "2026-10-02T10:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דניאל פרץ: אעשה הכל לחזור הכי מהר וחזק שיש",
+     "link": "https://www.one.co.il/Article/534900.html?ref=rss",
+     "date": "2026-10-02T09:23:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "בשל פציעתו של דניאל פרץ: ניב אליאסי מצטרף לסגל הנבחרת",
      "link": "https://sports.walla.co.il/item/3870564",
@@ -2649,15 +2653,6 @@ window.DB.generated = {
      "players": [
       "ענאן חלאילי",
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "דניאל פרץ אובחן עם קרע, אליאסי יצטרף במקומו",
-     "link": "https://www.one.co.il/Article/534846.html?ref=rss",
-     "date": "2026-10-01T21:19:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -2951,8 +2946,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T09:17:31+00:00",
-  "fetched_at": "2026-10-02T09:17:31+00:00"
+  "checked_at": "2026-10-02T10:17:19+00:00",
+  "fetched_at": "2026-10-02T10:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -2983,8 +2978,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T09:17:32+00:00",
-  "fetched_at": "2026-10-02T09:17:32+00:00"
+  "checked_at": "2026-10-02T10:17:20+00:00",
+  "fetched_at": "2026-10-02T10:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -2992,82 +2987,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-02T08:13:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-02T04:01:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-02T03:57:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-09-30T04:27:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-02T08:32:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-02T08:40:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "newest": "2026-10-02T09:29:00+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-02T09:00:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "newest": "2026-10-02T09:51:00+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-01T14:56:44+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "newest": "2026-10-02T02:53:32+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-02T08:17:31+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-09-28T19:00:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-02T08:11:56+00:00",
-    "seen_at": "2026-10-02T08:17:31+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-02T07:00:00+00:00",
-    "seen_at": "2026-10-02T09:17:37+00:00",
+    "newest": "2026-10-02T09:12:42+00:00",
+    "seen_at": "2026-10-02T10:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-02T09:17:37+00:00"
+  "checked_at": "2026-10-02T10:17:28+00:00"
  }
 };
