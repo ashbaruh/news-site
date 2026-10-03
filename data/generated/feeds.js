@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-03T11:17:11+00:00",
-  "fetched_at": "2026-10-03T11:17:11+00:00"
+  "checked_at": "2026-10-03T12:17:19+00:00",
+  "fetched_at": "2026-10-03T12:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T11:17:27+00:00",
-  "fetched_at": "2026-10-03T11:17:27+00:00"
+  "checked_at": "2026-10-03T12:17:29+00:00",
+  "fetched_at": "2026-10-03T12:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T11:17:27+00:00",
-  "fetched_at": "2026-10-03T11:17:27+00:00"
+  "checked_at": "2026-10-03T12:17:30+00:00",
+  "fetched_at": "2026-10-03T12:17:30+00:00"
  },
- "generated_at": "2026-10-03T11:17:27+00:00",
+ "generated_at": "2026-10-03T12:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,11 +99,6 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ההפתעה שחיכתה למיליון איש: צ׳ק של 500 דולר עם מכתב של טראמפ",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558309",
-     "date": "2026-10-03T05:26:00+00:00"
-    },
-    {
      "title": "שוק העבודה האמריקאי מתקרר: 29 אלף משרות נוספו בספטמבר - הרבה מתחת לצפי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558228",
      "date": "2026-10-02T12:33:00+00:00"
@@ -112,11 +107,6 @@ window.DB.generated = {
      "title": "התשואה שלה נמחקה בגלל מניה אחת, והיא עדיין חולמת לפרוש מהעבודה בגיל 40",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558056",
      "date": "2026-10-02T08:13:00+00:00"
-    },
-    {
-     "title": "\"הכרחתי את עצמי לפתוח את הדלת\": הטייס ההודי מדבר לראשונה על רגעי האימה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558305",
-     "date": "2026-10-02T07:40:00+00:00"
     },
     {
      "title": "הוא מבכירי העיתונאים הפיננסים בעולם ויש לו עצה מפתיעה למשקיעים",
@@ -209,9 +199,24 @@ window.DB.generated = {
      "date": "2026-10-01T04:32:00+00:00"
     },
     {
+     "title": "טראמפ: \"טייס המשנה היה טרוריסט או משוגע. אינסטלטור הציל את המטוס, זה מדהים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558105",
+     "date": "2026-10-01T03:54:00+00:00"
+    },
+    {
      "title": "ינון קרייז ימונה למנכ\"ל משותף בענקית המדיה הממוזגת של פרמאונט-וורנר ברדרס דיסקברי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558104",
      "date": "2026-10-01T03:27:00+00:00"
+    },
+    {
+     "title": "הסחורות בעולם כבר התייקרו, ישראל תצטרף לעליית המחירים אחרי החגים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558005",
+     "date": "2026-10-01T02:42:00+00:00"
+    },
+    {
+     "title": "כשריבית האג\"ח מתחילה לכאוב: הראסל 2000 נגרר מאחור",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558072",
+     "date": "2026-10-01T02:38:00+00:00"
     },
     {
      "title": "המנכ\"ל שמאחורי קופסת התשלומים הצהובה לא מתרגש מנפילת המניה: \"אני כאן לנצח\"",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T11:17:12+00:00",
-  "fetched_at": "2026-10-03T11:17:12+00:00"
+  "checked_at": "2026-10-03T12:17:20+00:00",
+  "fetched_at": "2026-10-03T12:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T11:17:13+00:00",
-  "fetched_at": "2026-10-03T11:17:13+00:00"
+  "checked_at": "2026-10-03T12:17:21+00:00",
+  "fetched_at": "2026-10-03T12:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2412,8 +2417,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T11:17:19+00:00",
-  "fetched_at": "2026-10-03T11:17:19+00:00"
+  "checked_at": "2026-10-03T12:17:22+00:00",
+  "fetched_at": "2026-10-03T12:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2503,8 +2508,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T11:17:19+00:00",
-  "fetched_at": "2026-10-03T11:17:19+00:00"
+  "checked_at": "2026-10-03T12:17:22+00:00",
+  "fetched_at": "2026-10-03T12:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2540,28 +2545,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 265,
+     "likes": 266,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 226,
+     "likes": 228,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 637,
+     "likes": 639,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2572,18 +2577,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "The ultimate guide to multi-harness RL",
+     "desc_en": "Train open models with RL inside real agent harnesses",
+     "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
+     "likes": 73,
+     "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
+    },
+    {
      "title": "OpenVuln",
      "desc_en": "Find bugs in your repository with GLM",
      "desc_he": "מצא באגים במאגר שלך עם GLM",
      "likes": 199,
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
-    },
-    {
-     "title": "The ultimate guide to multi-harness RL",
-     "desc_en": "Train open models with RL inside real agent harnesses",
-     "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 70,
-     "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "KV Image to Clip",
@@ -2596,14 +2601,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 141,
+     "likes": 142,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T11:17:26+00:00",
-  "fetched_at": "2026-10-03T11:17:26+00:00"
+  "checked_at": "2026-10-03T12:17:29+00:00",
+  "fetched_at": "2026-10-03T12:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2619,13 +2624,21 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "חלאילי ערך אימון קל, סולומון חולה ונשאר במלון",
+     "title": "סופית: חלאילי ייעדר מול אירלנד. מנור לא התאמן",
      "link": "https://www.one.co.il/Article/534938.html?ref=rss",
      "date": "2026-10-03T10:50:00+00:00",
      "source": "ONE",
      "players": [
-      "מנור סולומון",
       "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "אורח של כבוד באימון הנבחרת: נאתכו הגיע. צפו",
+     "link": "https://www.one.co.il/Article/534969.html?ref=rss",
+     "date": "2026-10-03T10:28:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ביברס נאתכו"
      ]
     },
     {
@@ -2732,15 +2745,6 @@ window.DB.generated = {
      "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
      "link": "https://sports.walla.co.il/item/3869886",
      "date": "2026-09-27T05:15:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "30 נקודות למשחק? בארה\"ב מסמנים את הקפיצה הבאה של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3869899",
-     "date": "2026-09-26T19:16:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -2947,13 +2951,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T11:17:22+00:00",
-  "fetched_at": "2026-10-03T11:17:22+00:00"
+  "checked_at": "2026-10-03T12:17:25+00:00",
+  "fetched_at": "2026-10-03T12:17:25+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "צה\"ל ניסה לחסל את עלי אל עאמודי, מחליפו של סינוואר: תוצאות התקיפה טרם התבררו",
+    "title": "צה\"ל ניסה לחסל את מחליפו של סינוואר ברצועת עזה: תוצאות התקיפה טרם התבררו",
     "link": "https://www.walla.co.il/news/military/383956110",
     "date": "2026-10-03T07:16:06+00:00"
    },
@@ -2979,8 +2983,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T11:17:22+00:00",
-  "fetched_at": "2026-10-03T11:17:22+00:00"
+  "checked_at": "2026-10-03T12:17:26+00:00",
+  "fetched_at": "2026-10-03T12:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -2988,82 +2992,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-03T10:55:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-02T12:33:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-03T05:26:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "newest": "2026-10-02T20:01:00+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-03T07:02:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-03T11:13:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-03T10:50:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "newest": "2026-10-03T12:02:00+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-03T07:43:59+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-03T10:00:05+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-03T07:00:00+00:00",
-    "seen_at": "2026-10-03T11:17:27+00:00",
+    "seen_at": "2026-10-03T12:17:30+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-03T11:17:27+00:00"
+  "checked_at": "2026-10-03T12:17:30+00:00"
  }
 };
