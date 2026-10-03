@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-03T21:20:52+00:00",
-  "fetched_at": "2026-10-03T21:20:52+00:00"
+  "checked_at": "2026-10-03T22:17:15+00:00",
+  "fetched_at": "2026-10-03T22:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T21:21:00+00:00",
-  "fetched_at": "2026-10-03T21:21:00+00:00"
+  "checked_at": "2026-10-03T22:17:28+00:00",
+  "fetched_at": "2026-10-03T22:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T21:21:01+00:00",
-  "fetched_at": "2026-10-03T21:21:01+00:00"
+  "checked_at": "2026-10-03T22:17:28+00:00",
+  "fetched_at": "2026-10-03T22:17:28+00:00"
  },
- "generated_at": "2026-10-03T21:21:01+00:00",
+ "generated_at": "2026-10-03T22:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T21:20:53+00:00",
-  "fetched_at": "2026-10-03T21:20:53+00:00"
+  "checked_at": "2026-10-03T22:17:16+00:00",
+  "fetched_at": "2026-10-03T22:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T21:20:53+00:00",
-  "fetched_at": "2026-10-03T21:20:53+00:00"
+  "checked_at": "2026-10-03T22:17:17+00:00",
+  "fetched_at": "2026-10-03T22:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2487,8 +2487,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T21:20:54+00:00",
-  "fetched_at": "2026-10-03T21:20:54+00:00"
+  "checked_at": "2026-10-03T22:17:19+00:00",
+  "fetched_at": "2026-10-03T22:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2597,8 +2597,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T21:20:54+00:00",
-  "fetched_at": "2026-10-03T21:20:54+00:00"
+  "checked_at": "2026-10-03T22:17:19+00:00",
+  "fetched_at": "2026-10-03T22:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2621,7 +2621,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 10,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2634,7 +2636,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 269,
+     "likes": 270,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2696,8 +2698,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T21:21:00+00:00",
-  "fetched_at": "2026-10-03T21:21:00+00:00"
+  "checked_at": "2026-10-03T22:17:26+00:00",
+  "fetched_at": "2026-10-03T22:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -3031,18 +3033,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T21:20:57+00:00",
-  "fetched_at": "2026-10-03T21:20:57+00:00"
+  "checked_at": "2026-10-03T22:17:22+00:00",
+  "fetched_at": "2026-10-03T22:17:22+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "שבת של טרור יהודי: דיווח על פלסטיני שנפצע אנוש לאחר שהותקף ע\"י רעולי פנים יהודים",
-    "link": "https://www.walla.co.il/news/military/383956112",
-    "date": "2026-10-03T07:43:59+00:00"
-   },
-   {
-    "title": "\"תוצאות התקיפה בבדיקה\": בצה\"ל אישרו - ניסינו לחסל את \"היורש של סינוואר\"",
+    "title": "צה\"ל ניסה לחסל את עלי אל עאמודי, מחליפו של סינוואר: תוצאות התקיפה טרם התבררו",
     "link": "https://www.walla.co.il/news/military/383956110",
     "date": "2026-10-03T07:16:06+00:00"
    },
@@ -3060,11 +3057,16 @@ window.DB.generated = {
     "title": "הישראלי שהשתלט על המחבל בטיסה מדובאי: ״קשרנו אותו עם אזניות מולטימדיה״",
     "link": "https://www.walla.co.il/news/military/383955864",
     "date": "2026-09-30T14:34:19+00:00"
+   },
+   {
+    "title": "הפלסטינים טוענים: מתנחלים גנבו זיתים מהכפר סינג'יל - לעיני הלוחמים בשטח",
+    "link": "https://www.walla.co.il/news/military/383955792",
+    "date": "2026-09-30T05:42:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T21:20:57+00:00",
-  "fetched_at": "2026-10-03T21:20:57+00:00"
+  "checked_at": "2026-10-03T22:17:23+00:00",
+  "fetched_at": "2026-10-03T22:17:23+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3072,49 +3074,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-03T19:03:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-03T13:00:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-03T18:00:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-03T20:39:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-03T17:35:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-03T20:18:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "newest": "2026-10-03T21:18:00+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-03T17:06:04+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "newest": "2026-10-03T07:43:59+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3126,28 +3128,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-03T17:06:35+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-03T19:00:00+00:00",
-    "seen_at": "2026-10-03T21:21:01+00:00",
+    "seen_at": "2026-10-03T22:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-03T21:21:01+00:00"
+  "checked_at": "2026-10-03T22:17:28+00:00"
  }
 };
