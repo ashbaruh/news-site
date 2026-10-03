@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-02T23:17:15+00:00",
-  "fetched_at": "2026-10-02T23:17:15+00:00"
+  "checked_at": "2026-10-03T00:17:26+00:00",
+  "fetched_at": "2026-10-03T00:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T23:17:29+00:00",
-  "fetched_at": "2026-10-02T23:17:29+00:00"
+  "checked_at": "2026-10-03T00:17:39+00:00",
+  "fetched_at": "2026-10-03T00:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T23:17:30+00:00",
-  "fetched_at": "2026-10-02T23:17:30+00:00"
+  "checked_at": "2026-10-03T00:17:40+00:00",
+  "fetched_at": "2026-10-03T00:17:40+00:00"
  },
- "generated_at": "2026-10-02T23:17:30+00:00",
+ "generated_at": "2026-10-03T00:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T23:17:16+00:00",
-  "fetched_at": "2026-10-02T23:17:16+00:00"
+  "checked_at": "2026-10-03T00:17:27+00:00",
+  "fetched_at": "2026-10-03T00:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T23:17:18+00:00",
-  "fetched_at": "2026-10-02T23:17:18+00:00"
+  "checked_at": "2026-10-03T00:17:28+00:00",
+  "fetched_at": "2026-10-03T00:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2415,8 +2415,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T23:17:19+00:00",
-  "fetched_at": "2026-10-02T23:17:19+00:00"
+  "checked_at": "2026-10-03T00:17:29+00:00",
+  "fetched_at": "2026-10-03T00:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2506,8 +2506,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T23:17:19+00:00",
-  "fetched_at": "2026-10-02T23:17:19+00:00"
+  "checked_at": "2026-10-03T00:17:29+00:00",
+  "fetched_at": "2026-10-03T00:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2529,8 +2529,10 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
-   "failed_sources": [],
+   "candidates": 10,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2550,21 +2552,21 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 158,
+     "likes": 159,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 633,
+     "likes": 634,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 217,
+     "likes": 218,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2585,28 +2587,28 @@
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     },
     {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 139,
+     "likes": 140,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
-     "title": "The ultimate guide to multi-harness RL",
-     "desc_en": "Train open models with RL inside real agent harnesses",
-     "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 57,
-     "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 95,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-02T23:17:28+00:00",
-  "fetched_at": "2026-10-02T23:17:28+00:00"
+  "checked_at": "2026-10-03T00:17:39+00:00",
+  "fetched_at": "2026-10-03T00:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2921,8 +2923,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-02T23:17:22+00:00",
-  "fetched_at": "2026-10-02T23:17:22+00:00"
+  "checked_at": "2026-10-03T00:17:32+00:00",
+  "fetched_at": "2026-10-03T00:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -2953,8 +2955,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-02T23:17:23+00:00",
-  "fetched_at": "2026-10-02T23:17:23+00:00"
+  "checked_at": "2026-10-03T00:17:33+00:00",
+  "fetched_at": "2026-10-03T00:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -2962,49 +2964,49 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-02T20:01:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-02T12:33:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-02T03:57:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-09-30T04:27:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-02T21:24:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-02T15:21:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-02T21:34:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-02T02:53:32+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3016,28 +3018,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-02T14:08:15+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-02T17:29:16+00:00",
-    "seen_at": "2026-10-02T23:17:30+00:00",
+    "seen_at": "2026-10-03T00:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-02T23:17:30+00:00"
+  "checked_at": "2026-10-03T00:17:40+00:00"
  }
 }
