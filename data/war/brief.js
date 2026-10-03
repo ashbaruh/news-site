@@ -1,83 +1,186 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-03T04:00:00+03:00",
- "generated_at": "2026-10-03T00:40:26+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-03T12:00:00+03:00",
+ "generated_at": "2026-10-03T08:40:17+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
+  "iran": {
+   "events": [
+    {
+     "id": "IRAN-10030840-01",
+     "title": "טענות לפגיעה במתקני נפט של אראמקו בריאד",
+     "summary": "ערוצים המזוהים עם הציר השיעי-איראני הפיצו תיעודים המציגים לכאורה פגיעה במתקני נפט של החברה בריאד.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T08:30:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T08:30:01+00:00",
+     "last_update_at": "2026-10-03T08:30:01+00:00",
+     "what_is_not_verified": "אמיתות הסרטונים ועצם הפגיעה במתקני הנפט בריאד אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131235",
+       "published_at": "2026-10-03T08:30:01+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10030840-02",
+     "title": "רוסיה דוחה את דרישת ארה\"ב מתוכנית הגרעין האיראנית",
+     "summary": "נציג רוסיה לארגונים הבינלאומיים בווינה הצהיר כי תוכנית הגרעין היא זכות בלתי ניתנת לערעור של איראן ואינה מחויבת לנטוש אותה.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T05:24:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T05:24:47+00:00",
+     "last_update_at": "2026-10-03T06:34:35+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86281354/Iran-s-nuclear-program-is-an-inalienable-right-Russian-envoy",
+       "published_at": "2026-10-03T06:34:35+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-not-obliged-abandon-its-nuclear-programme-russias-iaea-envoy-says",
+       "published_at": "2026-10-03T05:24:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "וינה, אוסטריה",
+       "lat": 48.2084,
+       "lon": 16.3725
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10030840-03",
+     "title": "דיווח על דיון בצמרת הממשל האמריקני בנושא המלחמה מול איראן",
+     "summary": "בכירים בממשל האמריקני התכנסו בקמפ דייוויד לדיון בצעדי ההמשך במלחמה מול איראן ובסכסוך בתימן, לצד דברי הנשיא טראמפ כי המלחמה עשויה להסתיים בקרוב.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T06:45:31+00:00",
+     "last_update_at": "2026-10-03T06:45:31+00:00",
+     "what_is_not_verified": "עצם קיום הפגישה הסודית ותוכנה מבוססים על דיווח באקסיוס ולא אומתו רשמית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_axios",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-170",
+       "published_at": "2026-10-03T06:45:31+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קמפ דייוויד, ארצות הברית",
+       "lat": 39.6487,
+       "lon": -77.4651
+      }
+     ]
+    }
+   ]
+  },
   "north": {
    "events": [
     {
-     "id": "NORTH-10030040-01",
-     "title": "פיצוצים יזומים של צבא ישראל בדרום לבנון",
-     "summary": "הצבא הישראלי ביצע פיצוצים גדולים בעיירה מג'דל זון שבדרום לבנון.",
+     "id": "NORTH-10030840-01",
+     "title": "תקיפות אוויריות ישראליות בעיירה בני חיאן בדרום לבנון",
+     "summary": "מטוסי קרב ישראליים ביצעו שתי תקיפות אוויריות בעיירה בני חיאן שבמחוז מרג'עיון בדרום לבנון.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T20:25:05+00:00",
+     "occurred_at": "2026-10-03T06:17:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T20:25:05+00:00",
-     "last_update_at": "2026-10-02T20:25:05+00:00",
-     "what_is_not_verified": "פרטים מדויקים על נפגעים או נזק אינם ברורים.",
+     "first_reported_at": "2026-10-03T06:17:00+00:00",
+     "last_update_at": "2026-10-03T06:17:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-conducts-explosion-southern-lebanon",
-       "published_at": "2026-10-02T20:25:05+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-target-bani-haiyyan-town-southern-lebanon",
+       "published_at": "2026-10-03T06:17:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מג'דל זון, לבנון",
-       "lat": 33.1503,
-       "lon": 35.226
+       "name": "בני חיאן, לבנון",
+       "lat": 33.2467,
+       "lon": 35.487
       }
      ]
     },
     {
-     "id": "NORTH-10030040-02",
-     "title": "תיעוד הפרות ישראליות בסוריה בחודש ספטמבר",
-     "summary": "מרכז סייג'יל תיעד 280 הפרות שבוצעו על ידי כוחות ישראל בסוריה במהלך חודש ספטמבר.",
+     "id": "NORTH-10030840-02",
+     "title": "דיווח על פציעת חמישה חיילים ישראלים בדרום לבנון",
+     "summary": "חמישה חיילים ישראלים נפצעו בדרגות חומרה שונות באירוע מבצעי שהתרחש במהלך הלילה בדרום לבנון.",
      "axis": "north",
-     "claim_type": "data",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T18:21:52+00:00",
+     "occurred_at": "2026-10-03T07:36:03+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T18:21:52+00:00",
-     "last_update_at": "2026-10-02T18:21:52+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-03T07:36:03+00:00",
+     "last_update_at": "2026-10-03T07:36:03+00:00",
+     "what_is_not_verified": "פרטי ונסיבות האירוע המבצעי מבוססים על ציטוט של כלי תקשורת ישראליים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_241426a98419c2f7",
-       "url": "https://english.enabbaladi.net/archives/2026/10/report-documents-280-israeli-violations-in-syria-in-september/",
-       "published_at": "2026-10-02T18:21:52+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/133797/",
+       "published_at": "2026-10-03T07:36:03+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10030040-03",
-     "title": "השלמת קטע מקטע צינור הגז הערבי בסוריה",
-     "summary": "חברת הנפט הסורית הודיעה על השלמת עבודות על קטע נוסף במסגרת פרויקט צינור הגז הערבי.",
+     "id": "NORTH-10030840-03",
+     "title": "חשיפת פרטי הטייס שניסה לרסק מטוס בישראל",
+     "summary": "הטייס החשוד בניסיון ריסוק טיסת פליי דובאי בישראל זוהה כהמאם אלהמאמי, יליד האמירויות ממוצא עומאני-סורי שקורקע בעבר עקב עמדות קיצוניות שספג בסוריה.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T18:20:37+00:00",
+     "occurred_at": "2026-10-03T04:31:25+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T18:20:37+00:00",
-     "last_update_at": "2026-10-02T18:20:37+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-03T04:31:25+00:00",
+     "last_update_at": "2026-10-03T07:37:46+00:00",
+     "what_is_not_verified": "פרטי הרקע והחקירה נסמכים על דיווחים עיתונאיים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_496e7209dc5c4fbd",
-       "url": "https://english.enabbaladi.net/archives/2026/10/syria-completes-final-186-km-section-of-arab-gas-pipeline/",
-       "published_at": "2026-10-02T18:20:37+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131231",
+       "published_at": "2026-10-03T07:37:46+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/hkigaer9fg",
+       "published_at": "2026-10-03T04:31:25+00:00"
       }
      ],
      "places": []
@@ -87,83 +190,112 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10030040-01",
-     "title": "שינוי ברחפני השאהד הרוסיים המכוונים לתשתיות החשמל",
-     "summary": "רוסיה הפעילה רחפני שאהד המצוידים במוטות מתכת וראש קרבי במטרה לפגוע ברשת החשמל ובמבני מתכת באוקראינה.",
+     "id": "UKRAINE-10030840-01",
+     "title": "פגיעה רוסית בגשר הצפוני בקייב",
+     "summary": "כוחות רוסיים תקפו את הגשר הצפוני מעל נהר הדנייפר בקייב וגרמו נזק לכביש ולתשתיות החשמל, מה שהוביל לחסימת התנועה לעבר הגדה הימנית.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T19:46:48+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T19:46:48+00:00",
-     "last_update_at": "2026-10-02T19:46:48+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T06:28:00+00:00",
+     "last_update_at": "2026-10-03T07:34:30+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/48216",
-       "published_at": "2026-10-02T19:46:48+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/03/russian-forces-strike-a-second-major-kyiv-bridge-across-the-dnipro-after-two-days-of-attacks-on-the-south-bridge",
+       "published_at": "2026-10-03T07:34:30+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-03T07:25:09+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/defense/2197045",
+       "published_at": "2026-10-03T06:57:05+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4170602-russian-attack-damages-road-surface-on-kyivs-northern-bridge-blocking-traffic-to-right-bank.html",
+       "published_at": "2026-10-03T06:28:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10030840-02",
+     "title": "מתקפת כטב\"מים רוסית נרחבת ברחבי אוקראינה",
+     "summary": "צבא רוסיה שיגר 157 כלי טיס בלתי מאוישים לעבר אוקראינה, ומערך ההגנה האווירית יירט או שיבש 131 מהם לצד פגיעות ב-12 אתרים שונים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T06:12:00+00:00",
+     "last_update_at": "2026-10-03T08:12:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4170631-air-defense-intercepts-131-of-157-drones-used-by-russia-to-attack-ukraine-overnight.html",
+       "published_at": "2026-10-03T08:12:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056260/",
+       "published_at": "2026-10-03T06:12:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10030040-02",
-     "title": "חשיפת רשת סוכנים של המודיעין הרוסי בחרקיב",
-     "summary": "שירות הביטחון של אוקראינה חשף רשת סוכנים של המודיעין הצבאי הרוסי שהכוונתה תקיפות ואספה מידע בחרקיב.",
+     "id": "UKRAINE-10030840-03",
+     "title": "תקיפות אוקראיניות על אתרי שיגור ומפקדה בשטחי רוסיה והכיבוש",
+     "summary": "המטה הכללי של צבא אוקראינה דיווח על פגיעות באתר אחסון ושיגור כטב\"מים באזור דונצק, בעמדת פיקוד במחוז בלגורוד ובמעבר מים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T23:42:00+00:00",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T23:42:00+00:00",
-     "last_update_at": "2026-10-02T23:42:00+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-03T07:54:00+00:00",
+     "last_update_at": "2026-10-03T07:54:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_9afcc5c125feafc2",
-       "url": "https://www.ukrinform.net/rubric-crime/4170387-sbu-exposes-gru-agents-who-collected-data-on-military-personnel-and-guided-strikes-on-kharkiv.html",
-       "published_at": "2026-10-02T23:42:00+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056268/",
+       "published_at": "2026-10-03T07:54:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרקיב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10030040-03",
-     "title": "תקיפת רחפן פגעה במחוז קייבסקי בחרקיב",
-     "summary": "רחפן פגע במחוז קייבסקי בחרקיב וגרם לפציעתו של אדם אחד.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T20:50:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-02T20:50:00+00:00",
-     "last_update_at": "2026-10-02T20:50:00+00:00",
-     "what_is_not_verified": "לא מאומת",
-     "is_new_in_window": true,
-     "reports": [
+       "name": "דונצק, אוקראינה",
+       "lat": 48.0159,
+       "lon": 37.8013
+      },
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_5a2c8d32743b04b9",
-       "url": "https://www.ukrinform.net/rubric-ato/4170571-russian-forces-strike-kharkiv-with-molniya-drone-one-person-injured.html",
-       "published_at": "2026-10-02T20:50:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרקיב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
+       "name": "נובה טבולז'נקה, רוסיה",
+       "lat": 50.354,
+       "lon": 36.8279
       }
      ]
     }
@@ -172,53 +304,36 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10030040-01",
-     "title": "יירוט טילים בלסטיים ששוגרו לעבר סעודיה",
-     "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה שלושה טילים בלסטיים ששוגרו לעבר העיר חמיס מושיט.",
+     "id": "YEMEN-10030840-01",
+     "title": "כוחות צבא תימן הודיעו על 71 תקיפות נגד מטרות חות'יות בתעז",
+     "summary": "צבא תימן ביצע עשרות פעולות שפגעו בהתקהלויות, תגבורות וציוד צבאי של החות'ים באזורים שונים ברחבי מחוז תעז.",
      "axis": "yemen",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T18:07:43+00:00",
+     "occurred_at": "2026-10-03T01:44:48+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T18:07:43+00:00",
-     "last_update_at": "2026-10-02T18:07:43+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-03T01:44:48+00:00",
+     "last_update_at": "2026-10-03T04:27:23+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_d3f7dd8135ca6c56",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-three-missiles-launched-houthis",
-       "published_at": "2026-10-02T18:07:43+00:00"
-      }
-     ],
-     "places": [
+       "source_root_id": "fh_e92676a9135b1882",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-claim-71-attacks-houthi-targets-taiz",
+       "published_at": "2026-10-03T03:23:29+00:00"
+      },
       {
-       "name": "חמיס מושיט, סעודיה",
-       "lat": 18.3,
-       "lon": 42.7333
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10030040-02",
-     "title": "תקיפות ארטילריה בתוך העיר תעז",
-     "summary": "פגזי ארטילריה פגעו בשכונות מגורים בעיר תעז וגרמו לפציעתם של שישה אזרחים, בהם שני ילדים.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T19:54:25+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-02T19:54:25+00:00",
-     "last_update_at": "2026-10-02T19:54:25+00:00",
-     "what_is_not_verified": "זהות היורים המדויקת לא אומתה באופן עצמאי לחלוטין מעבר לדיווח המקומי.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_e92676a9135b1882",
+       "url": "https://www.sabanew.net/viewstory/153397",
+       "published_at": "2026-10-03T01:44:48+00:00"
+      },
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/artillery-attack-injures-six-people-including-two-children-yemens-taiz",
-       "published_at": "2026-10-02T19:54:25+00:00"
+       "source_id": "src_maariv",
+       "source_root_id": "fh_e92676a9135b1882",
+       "url": "https://www.maariv.co.il/breaking-news/article-1373065",
+       "published_at": "2026-10-03T04:27:23+00:00"
       }
      ],
      "places": [
@@ -230,122 +345,66 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "YEMEN-10030040-03",
-     "title": "משלוחי נשק מפקיסטן לממשלת תימן הנתמכת בידי סעודיה",
-     "summary": "פקיסטן שלחה מטוסי מטען ועליהם אמצעי לחימה לממשלת תימן הנתמכת בידי סעודיה בעיר הנמל עדן.",
+     "id": "YEMEN-10030840-02",
+     "title": "פרסומים על תקיפה נגד מתקני חברת אראמקו בריאד",
+     "summary": "תיעודים המציגים לכאורה פגיעה במתקני חברת הנפט אראמקו בריאד הופצו ברשתות המזוהות עם הציר האיראני, יומיים לאחר תקיפות סעודיות בצנעא.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T19:46:24+00:00",
+     "occurred_at": "2026-10-03T08:30:01+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T19:46:24+00:00",
-     "last_update_at": "2026-10-02T19:46:24+00:00",
-     "what_is_not_verified": "לא מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-sent-four-planeloads-weapons-saudi-backed-government-yemen",
-       "published_at": "2026-10-02T19:46:24+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      }
-     ]
-    }
-   ]
-  },
-  "iran": {
-   "events": [
-    {
-     "id": "IRAN-10030040-01",
-     "title": "מעצר איראנים בבריטניה",
-     "summary": "שני אזרחים איראנים נעצרו בבריטניה בחשד לתכנון פיגוע טרור נגד קהילות יהודיות במנצ'סטר.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T20:15:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-02T20:15:46+00:00",
-     "last_update_at": "2026-10-02T20:15:46+00:00",
-     "what_is_not_verified": "הקשר הישיר לאיראן אינו מאומת במלואו מעבר לחשדות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48218",
-       "published_at": "2026-10-02T20:15:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מנצ'סטר",
-       "lat": 53.4425,
-       "lon": -2.2325
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10030040-02",
-     "title": "שפל לריאל האיראני",
-     "summary": "שער הריאל האיראני ירד לשפל חדש והשלים צניחה של כ שלושים אחוזים בתוך חודש וחצי.",
-     "axis": "iran",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T15:57:58+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-02T15:57:58+00:00",
-     "last_update_at": "2026-10-02T15:57:58+00:00",
-     "what_is_not_verified": "לא ידוע",
+     "first_reported_at": "2026-10-03T08:30:01+00:00",
+     "last_update_at": "2026-10-03T08:30:01+00:00",
+     "what_is_not_verified": "מהימנות התיעודים ועצם הפגיעה במתקנים בריאד אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131223",
-       "published_at": "2026-10-02T15:57:58+00:00"
+       "url": "https://t.me/abualiexpress/131235",
+       "published_at": "2026-10-03T08:30:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     },
     {
-     "id": "IRAN-10030040-03",
-     "title": "אישור טיסות עיראקיות לאיראן",
-     "summary": "עיראק העניקה לחברות תעופה איראניות אישור לביצוע טיסות יומיות בעקבות פטור אמריקאי.",
-     "axis": "iran",
+     "id": "YEMEN-10030840-03",
+     "title": "דיווח על כינוס בכירי הממשל האמריקני בנוגע לעימות עם החות'ים",
+     "summary": "בכירים בממשל האמריקני נפגשו בקמפ דייוויד בראשות סגן הנשיא לדיון בצעדים הבאים בעימות בין סעודיה לחות'ים בתימן ובמלחמה עם איראן.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T20:32:02+00:00",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T20:32:02+00:00",
-     "last_update_at": "2026-10-02T20:32:02+00:00",
-     "what_is_not_verified": "פרטי הפטור המלאים מארצות הברית",
+     "first_reported_at": "2026-10-03T03:44:42+00:00",
+     "last_update_at": "2026-10-03T08:00:46+00:00",
+     "what_is_not_verified": "קיום הפגישה ותוכנה נסמכים על פרסום באקסיוס ולא אושרו רשמית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/2/iraq-grants-iranian-airlines-40-daily-najaf-flights-after-us-exemption?traffic_source=rss",
-       "published_at": "2026-10-02T20:32:02+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_axios",
+       "url": "https://www.newarab.com/news/top-trump-aides-hold-secret-meeting-iran-yemen",
+       "published_at": "2026-10-03T08:00:46+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_axios",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trumps-top-cabinet-members-discuss-iran-houthi-conflict-camp-david",
+       "published_at": "2026-10-03T03:44:42+00:00"
       }
      ],
      "places": [
       {
-       "name": "נג'ף",
-       "lat": 32.001,
-       "lon": 44.33
+       "name": "קמפ דייוויד, ארצות הברית",
+       "lat": 39.6487,
+       "lon": -77.4651
       }
      ]
     }
