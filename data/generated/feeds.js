@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-03T13:17:25+00:00",
-  "fetched_at": "2026-10-03T13:17:25+00:00"
+  "checked_at": "2026-10-03T13:57:09+00:00",
+  "fetched_at": "2026-10-03T13:57:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T13:17:35+00:00",
-  "fetched_at": "2026-10-03T13:17:35+00:00"
+  "checked_at": "2026-10-03T13:57:22+00:00",
+  "fetched_at": "2026-10-03T13:57:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T13:17:35+00:00",
-  "fetched_at": "2026-10-03T13:17:35+00:00"
+  "checked_at": "2026-10-03T13:57:22+00:00",
+  "fetched_at": "2026-10-03T13:57:22+00:00"
  },
- "generated_at": "2026-10-03T13:17:35+00:00",
+ "generated_at": "2026-10-03T13:57:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חיים אתגר מלמד איך לא להפוך לקורבן הבא: \"כמות ההונאות היא פסיכית\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557746",
-     "date": "2026-10-03T10:30:00+00:00"
+     "title": "מנהל ההשקעות שמסמן את הלהיט הבא בבורסה - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558122",
+     "date": "2026-10-03T13:00:00+00:00"
     },
     {
      "title": "חשד: הטייס-המחבל שהה בישראל כמה ימים לפני ניסיון הפיגוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558310",
-     "date": "2026-10-03T10:55:00+00:00"
+     "date": "2026-10-03T13:40:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מנהל ההשקעות שמסמן את הלהיט הבא בבורסה - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558122",
+     "date": "2026-10-03T13:00:00+00:00"
+    },
     {
      "title": "ההפתעה שחיכתה למיליון איש: צ׳ק של 500 דולר עם מכתב של טראמפ",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558309",
@@ -221,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T13:17:26+00:00",
-  "fetched_at": "2026-10-03T13:17:26+00:00"
+  "checked_at": "2026-10-03T13:57:10+00:00",
+  "fetched_at": "2026-10-03T13:57:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T13:17:27+00:00",
-  "fetched_at": "2026-10-03T13:17:27+00:00"
+  "checked_at": "2026-10-03T13:57:10+00:00",
+  "fetched_at": "2026-10-03T13:57:10+00:00"
  },
  "tv": {
   "data": [
@@ -2412,8 +2417,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T13:17:28+00:00",
-  "fetched_at": "2026-10-03T13:17:28+00:00"
+  "checked_at": "2026-10-03T13:57:14+00:00",
+  "fetched_at": "2026-10-03T13:57:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2503,12 +2508,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T13:17:28+00:00",
-  "fetched_at": "2026-10-03T13:17:28+00:00"
+  "checked_at": "2026-10-03T13:57:14+00:00",
+  "fetched_at": "2026-10-03T13:57:14+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/google-gemini-4-argon-launch/",
+     "date": "2026-10-01T07:34:40+00:00",
+     "launch": true,
+     "title": "גוגל חושפת את Gemini 4 Argon, אבל אם אתם לא עובדים ב-Wiz לא תוכלו להשתמש בו עדיין"
+    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/barclays-scales-claude",
@@ -2517,21 +2529,10 @@ window.DB.generated = {
      "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
      "title_he": "Barclays קנה קנה מידה של קלוד כדי לשדרג את התפעול ולשפר את חווית הלקוח",
      "translated_by": "google"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "date": "2026-09-30T20:01:45+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-     "title_he": "ג'מיני 4 ארגון: העידן הבא שלנו של אינטליגנציה גבולית",
-     "translated_by": "mymemory"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 12,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2551,7 +2552,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 164,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2565,7 +2566,7 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 639,
+     "likes": 640,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2593,7 +2594,7 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 144,
+     "likes": 145,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2606,8 +2607,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T13:17:34+00:00",
-  "fetched_at": "2026-10-03T13:17:34+00:00"
+  "checked_at": "2026-10-03T13:57:21+00:00",
+  "fetched_at": "2026-10-03T13:57:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2950,8 +2951,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T13:17:32+00:00",
-  "fetched_at": "2026-10-03T13:17:32+00:00"
+  "checked_at": "2026-10-03T13:57:17+00:00",
+  "fetched_at": "2026-10-03T13:57:17+00:00"
  },
  "idf": {
   "data": [
@@ -2981,8 +2982,9 @@ window.DB.generated = {
     "date": "2026-09-30T05:42:52+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-03T13:17:32+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-03T13:57:17+00:00",
   "fetched_at": "2026-10-03T13:17:32+00:00"
  },
  "feed_health": {
@@ -2990,44 +2992,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-03T10:55:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "newest": "2026-10-03T13:40:00+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-02T20:01:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "newest": "2026-10-03T13:00:00+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-03T05:26:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-03T12:42:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-03T11:13:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-03T12:35:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "newest": "2026-10-03T13:31:00+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3039,34 +3041,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-03T10:00:05+00:00",
-    "seen_at": "2026-10-03T12:17:30+00:00",
+    "newest": "2026-10-03T13:05:08+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-03T07:00:00+00:00",
-    "seen_at": "2026-10-03T13:17:35+00:00",
+    "seen_at": "2026-10-03T13:57:22+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-03T13:17:35+00:00"
+  "checked_at": "2026-10-03T13:57:22+00:00"
  }
 };
