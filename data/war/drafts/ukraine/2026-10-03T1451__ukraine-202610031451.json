@@ -1,0 +1,455 @@
+{
+ "status": "draft",
+ "received_sha256_12": "5a158a757d6c",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "initial": 8,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-03T14:51:13+00:00",
+  "window": {
+   "from": "2026-10-02T14:51:13+00:00",
+   "to": "2026-10-03T14:51:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610031451"
+  },
+  "summary": "רוסיה ממשיכה במערכת תקיפות נרחבת המכוונת נגד תשתיות קריטיות באוקראינה, בדגש על גשרים בקייב, מתקני אנרגיה ואזורי תעשייה, בעוד אוקראינה מקיימת הגנה עיקשת ומוציאה לפועל תקיפות נגד מטרות בשטח רוסיה. במקביל, מתנהלים מאמצים דיפלומטיים סביב סנקציות בינלאומיות, עסקאות אנרגיה וסיוע פיננסי מערבי לאוקראינה.",
+  "fronts": [
+   {
+    "name": "חזית מחוז דונייצק",
+    "status": "פעיל ועצימות גבוהה"
+   },
+   {
+    "name": "חזית מחוז חרקוב",
+    "status": "פעיל"
+   },
+   {
+    "name": "עורף קייב ותשתיות האנרגיה",
+    "status": "תחת מתקפות אוויריות אינטנסיביות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10031451-01",
+    "title": "Russian-to-Ukrainian force ratio in Donetsk Oblast",
+    "summary": "מפקד המשמר הלאומי של אוקראינה דיווח כי במספר אזורים בחזית במחוז דונייצק יחס הכוחות הוא שש לטובת הכוחות הרוסיים.",
+    "axis": "חזית הלחימה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T14:19:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T14:19:00+00:00",
+    "last_update_at": "2026-10-03T14:19:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_18923285d9064d98",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056311/",
+      "published_at": "2026-10-03T14:19:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10031451-02",
+    "title": "Russian strikes on Kyiv bridges",
+    "summary": "כוחות רוסיים ביצעו מתקפות על גשרים בקייב, כולל גשר פיוודני וגשר פיווניצני, מה שהוביל להגבלות תנועה וחשש לפגיעה בתשתיות התחבורה.",
+    "axis": "תשתיות ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T01:52:35+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T01:52:35+00:00",
+    "last_update_at": "2026-10-03T14:06:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_44f1a0e38dc7de89",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056310/",
+      "published_at": "2026-10-03T14:06:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_44f1a0e38dc7de89",
+      "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-03T12:59:10+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_44f1a0e38dc7de89",
+      "url": "https://meduza.io/en/news/2026/10/03/russian-forces-strike-a-second-major-kyiv-bridge-across-the-dnipro-after-two-days-of-attacks-on-the-south-bridge",
+      "published_at": "2026-10-03T07:34:30+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_44f1a0e38dc7de89",
+      "url": "https://kyivindependent.com/russia-strikes-key-kyiv-bridge-for-3rd-straight-day-as-attacks-intensify/",
+      "published_at": "2026-10-03T04:53:10+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_44f1a0e38dc7de89",
+      "url": "https://www.theguardian.com/world/2026/oct/03/ukraine-war-briefing-russian-attacks-on-kyiv-bridges-cause-traffic-chaos",
+      "published_at": "2026-10-03T01:52:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-03",
+    "title": "CEB and Italy funding for destroyed housing",
+    "summary": "אוקראינה קיבלה מימון משותף מבנק פיתוח של מועצת אירופה ומאיטליה במסגרת פרויקט פיצוי על דיור שנהרס.",
+    "axis": "כלכלה וסיוע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T13:50:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T13:50:00+00:00",
+    "last_update_at": "2026-10-03T13:50:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b51779838abe0ee0",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056308/",
+      "published_at": "2026-10-03T13:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "גדינסק, פולין",
+      "lat": 54.3707,
+      "lon": 18.613
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-04",
+    "title": "Drone attacks near Zaporizhzhia Nuclear Plant",
+    "summary": "דווח על סדרת מתקפות כטב״מים שפגעו בשנאים חיוניים בסמוך לתחנת הכוח הגרעינית בזפוריז'יה.",
+    "axis": "תשתיות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T11:58:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T11:58:00+00:00",
+    "last_update_at": "2026-10-03T13:45:35+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_6c225db82bba7f68",
+      "url": "https://kyivindependent.com/series-of-drone-attacks-disrupt-power-supply-near-zaporizhzhia-nuclear-plant-iaea-says/",
+      "published_at": "2026-10-03T13:45:35+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6c225db82bba7f68",
+      "url": "https://www.ukrinform.net/rubric-economy/4170677-iaea-reports-damage-to-transformers-near-zaporizhzhia-npp-seeks-truce-for-repairs.html",
+      "published_at": "2026-10-03T11:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-05",
+    "title": "Civilians leaving Oleshky",
+    "summary": "נציב זכויות האדם של הפרלמנט האוקראיני פרסם תיעוד של עשרות תושבים המנסים לעזוב בכוחות עצמם את העיר אולשקי הכבושה.",
+    "axis": "האוכלוסייה האזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T13:32:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T13:32:00+00:00",
+    "last_update_at": "2026-10-03T13:32:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8ced7925e807d1bb",
+      "url": "https://www.ukrinform.net/rubric-society/4170712-lubinets-shows-dozens-of-people-trying-to-leave-oleshky.html",
+      "published_at": "2026-10-03T13:32:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-06",
+    "title": "Fatal drone strike in Kyiv home",
+    "summary": "פגיעת כטב״ם רוסי בבית מגורים בקייב גרמה למותן של שתי נשים בני משפחה אחת.",
+    "axis": "עורף ואזרחים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T13:24:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T13:24:00+00:00",
+    "last_update_at": "2026-10-03T13:24:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_yuliia_haharina_on_facebook",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056307/",
+      "published_at": "2026-10-03T13:24:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-07",
+    "title": "Russian territorial claims in September",
+    "summary": "נשיא רוסיה טען כי כוחות ארצו השתלטו על שטחים נרחבים באוקראינה במהלך ספטמבר, נתון השנוי במחלוקת מול נתוני מכוני מחקר.",
+    "axis": "חזית הלחימה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T13:03:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T13:03:00+00:00",
+    "last_update_at": "2026-10-03T13:03:00+00:00",
+    "what_is_not_verified": "היקף השטחים הנתפסים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_vladimir_putin_isw",
+      "url": "https://www.ukrinform.net/rubric-ato/4170705-putin-claims-russia-seized-1301-square-kilometers-of-ukrainian-territory-in-september-sharply-diverging-from-isw-data.html",
+      "published_at": "2026-10-03T13:03:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10031451-08",
+    "title": "Missiles and drones hit Moldova",
+    "summary": "טילים וכטב״מים רוסיים ששוגרו במסגרת מתקפה נגד אוקראינה פגעו בשטח מולדובה.",
+    "axis": "זירות שכנות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T10:03:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T10:03:27+00:00",
+    "last_update_at": "2026-10-03T10:54:30+00:00",
+    "what_is_not_verified": "האם הפגיעה הייתה זליגה מכוונת או תקלה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/48224",
+      "published_at": "2026-10-03T10:54:30+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+      "published_at": "2026-10-03T10:03:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10031451-09",
+    "title": "Attack on civilian vessel in Odesa region",
+    "summary": "כוחות רוסיים תקפו אוניית מטען אזרחית בעלת דגל ליבריה בנמל במחוז אודסה, וגרמו לנפגעים בנפש.",
+    "axis": "ימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T12:43:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T12:43:00+00:00",
+    "last_update_at": "2026-10-03T12:43:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_35544a9ddd871821",
+      "url": "https://www.ukrinform.net/rubric-ato/4170700-russian-forces-attack-civilian-vessel-in-odesa-region-port-killing-one-and-injuring-three-others.html",
+      "published_at": "2026-10-03T12:43:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10031451-10",
+    "title": "Ukrainian drone attack on Kaluga",
+    "summary": "כטב״מים אוקראיניים תקפו את העיר קלוגה שברוסיה.",
+    "axis": "עורף רוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T03:20:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T03:20:09+00:00",
+    "last_update_at": "2026-10-03T03:20:09+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/48221",
+      "published_at": "2026-10-03T03:20:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קלוגה, רוסיה",
+      "lat": 54.5101,
+      "lon": 36.2598
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10031451-11",
+    "title": "New Shahed drone modification with metal rods",
+    "summary": "רוסיה הפעילה לראשונה כטב״מי שאהד המצוידים במוטות מתכת ומטען חלול שנועדו לפגוע במבני רשת החשמל.",
+    "axis": "אמצעי לחימה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T19:46:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T19:46:48+00:00",
+    "last_update_at": "2026-10-02T19:46:48+00:00",
+    "what_is_not_verified": "האם הגרסה החדשה תהפוך לנשק מרכזי במערכה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/48216",
+      "published_at": "2026-10-02T19:46:48+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "אותנטיות המסמך המיוחס למשרד ההגנה הרוסי בדבר תוכנית פגיעה ברשת החשמל",
+   "היקף הנזק המדויק בכל אתרי התשתיות שהותקפו",
+   "האם פגיעת הטילים במולדובה הייתה מכוונת"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1225,
+    "unit": "USD",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה במתקנים צבאיים ותשתיות התומכות במאמץ המלחמתי האוקראיני"
+    ],
+    "inferred": [
+     "שחיקת הכלכלה והתשתיות האזרחיות של אוקראינה כדי לגרום למשבר הומניטרי ולהכריח כניעה",
+     "הגדלת תקציב הביטחון וההיערכות למלחמה רב-שנתית"
+    ],
+    "forecast": [
+     "המשך שימוש משולב בטילים וכטב״מים לפגיעה ברשת החשמל לקראת החורף",
+     "הגברת הלחץ הצבאי במזרח אוקראינה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה ושחרור כל השטחים הכבושים"
+    ],
+    "inferred": [
+     "שימור יכולת התפקוד של התשתיות והכלכלה בעזרת סיוע כספי וטכנולוגי מערבי",
+     "פגיעה ביכולות הלוגיסטיות והאנרגטיות של רוסיה באמצעות כטב״מים"
+    ],
+    "forecast": [
+     "המשך דרישה לקבלת מערכות הגנה מתקדמות וסנקציות על תשתית הלוויינים והאנרגיה הרוסית",
+     "המשך תיקון מהיר של תשתיות קריטיות שנפגעו בעורף"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/03/ukraine-war-briefing-russian-attacks-on-kyiv-bridges-cause-traffic-chaos",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/03/russian-forces-strike-a-second-major-kyiv-bridge-across-the-dnipro-after-two-days-of-attacks-on-the-south-bridge",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/03/8056307/",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48216",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4170700-russian-forces-attack-civilian-vessel-in-odesa-region-port-killing-one-and-injuring-three-others.html",
+    "accessed_at": "2026-10-03T14:51:13+00:00"
+   }
+  ]
+ }
+}
