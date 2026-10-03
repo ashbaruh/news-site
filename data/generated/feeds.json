@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-03T18:17:23+00:00",
-  "fetched_at": "2026-10-03T18:17:23+00:00"
+  "checked_at": "2026-10-03T19:17:28+00:00",
+  "fetched_at": "2026-10-03T19:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T18:17:34+00:00",
-  "fetched_at": "2026-10-03T18:17:34+00:00"
+  "checked_at": "2026-10-03T19:17:42+00:00",
+  "fetched_at": "2026-10-03T19:17:42+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch NRL Grand Final 2026: live stream Roosters vs Knights for free from anywhere",
+    "title_he": "איך לצפות בגמר הגדול של NRL 2026: סטרימינג בשידור חי של Roosters vs Knights בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/nrl-grand-final-2026-roosters-vs-knights-for-free",
+    "date": "2026-10-03T19:00:00+00:00"
+   },
    {
     "title_en": "It’s hard to know which Sonos soundbar is best for your living room – and I’m learning that first-hand",
     "title_he": "קשה לדעת איזה Sonos soundbar הכי מתאים לסלון שלך - ואני לומד את זה ממקור ראשון",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/skys-os-is-getting-a-big-facelift-and-i-got-a-sneak-peek-at-whats-to-come",
     "date": "2026-10-02T15:27:27+00:00"
-   },
-   {
-    "title_en": "A trio of five-star turntables from Pro-Ject, Rega and Technics are put to the test in our listening rooms – but which one is the best at the price?",
-    "title_he": "שלישיית פטיפונים בדרגת חמישה כוכבים מבית Pro-Ject, Rega ו-Technics עומדת למבחן בחדרי ההאזנה שלנו - אבל מי מהם הכי טוב במחיר?",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/turntables/a-trio-of-five-star-turntables-from-pro-ject-rega-and-technics-are-put-to-the-test-in-our-listening-rooms-but-which-one-is-the-best-at-the-price",
-    "date": "2026-10-02T14:07:18+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T18:17:34+00:00",
-  "fetched_at": "2026-10-03T18:17:34+00:00"
+  "checked_at": "2026-10-03T19:17:44+00:00",
+  "fetched_at": "2026-10-03T19:17:44+00:00"
  },
- "generated_at": "2026-10-03T18:17:34+00:00",
+ "generated_at": "2026-10-03T19:17:44+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,10 +92,15 @@
     {
      "title": "פרטים חדשים על זהות הטייס המפגע, החשד למחדל ומה אומרים באמירויות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558313",
-     "date": "2026-10-03T17:09:00+00:00"
+     "date": "2026-10-03T19:00:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "סופת האג\"ח מטלטלת את השווקים ומעמידה את הפד בפני מבחן קריטי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558157",
+     "date": "2026-10-03T18:00:00+00:00"
+    },
     {
      "title": "כאב הראש הענק של ייצור משחקי מונופול תוצרת ארה''ב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558168",
@@ -197,11 +202,6 @@
      "date": "2026-10-01T10:49:00+00:00"
     },
     {
-     "title": "הקפטן של טיסת פליי דובאי הפך לגיבור לאומי בהודו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558129",
-     "date": "2026-10-01T10:01:00+00:00"
-    },
-    {
      "title": "טריליון שקל: פאלו אלטו קבעה שיא חדש בבורסה בת\"א",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558127",
      "date": "2026-10-01T08:51:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T18:17:25+00:00",
-  "fetched_at": "2026-10-03T18:17:25+00:00"
+  "checked_at": "2026-10-03T19:17:30+00:00",
+  "fetched_at": "2026-10-03T19:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T18:17:25+00:00",
-  "fetched_at": "2026-10-03T18:17:25+00:00"
+  "checked_at": "2026-10-03T19:17:31+00:00",
+  "fetched_at": "2026-10-03T19:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2471,8 +2471,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T18:17:27+00:00",
-  "fetched_at": "2026-10-03T18:17:27+00:00"
+  "checked_at": "2026-10-03T19:17:34+00:00",
+  "fetched_at": "2026-10-03T19:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2562,8 +2562,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T18:17:27+00:00",
-  "fetched_at": "2026-10-03T18:17:27+00:00"
+  "checked_at": "2026-10-03T19:17:34+00:00",
+  "fetched_at": "2026-10-03T19:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2585,23 +2585,21 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 11,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 407,
+     "likes": 408,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 169,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2619,18 +2617,18 @@
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 643,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
-    },
-    {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
      "likes": 79,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 643,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
      "title": "OpenVuln",
@@ -2647,24 +2645,24 @@
      "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     },
     {
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 104,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
+    },
+    {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
      "likes": 149,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
-    },
-    {
-     "title": "ChessFly",
-     "desc_en": "Just a fruit fly's brain, playing chess",
-     "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 103,
-     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-03T18:17:34+00:00",
-  "fetched_at": "2026-10-03T18:17:34+00:00"
+  "checked_at": "2026-10-03T19:17:41+00:00",
+  "fetched_at": "2026-10-03T19:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -2792,15 +2790,6 @@
      "title": "דני אבדיה כבר לא יהיה האופציה הראשונה בהתקפת פורטלנד?",
      "link": "https://sports.walla.co.il/item/3869886",
      "date": "2026-09-27T05:15:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "30 נקודות למשחק? בארה\"ב מסמנים את הקפיצה הבאה של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3869899",
-     "date": "2026-09-26T19:16:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3007,8 +2996,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-03T18:17:29+00:00",
-  "fetched_at": "2026-10-03T18:17:29+00:00"
+  "checked_at": "2026-10-03T19:17:37+00:00",
+  "fetched_at": "2026-10-03T19:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3039,91 +3028,91 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-03T18:17:30+00:00",
-  "fetched_at": "2026-10-03T18:17:30+00:00"
+  "checked_at": "2026-10-03T19:17:38+00:00",
+  "fetched_at": "2026-10-03T19:17:38+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-03T18:00:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "newest": "2026-10-03T19:03:00+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-03T13:00:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-03T16:45:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "newest": "2026-10-03T18:00:00+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-03T17:51:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "newest": "2026-10-03T19:09:00+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-03T17:35:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-03T18:07:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "newest": "2026-10-03T18:45:00+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-03T07:43:59+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-03T17:59:11+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-03T17:06:35+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-03T07:00:00+00:00",
-    "seen_at": "2026-10-03T18:17:34+00:00",
+    "newest": "2026-10-03T19:00:00+00:00",
+    "seen_at": "2026-10-03T19:17:44+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-03T18:17:34+00:00"
+  "checked_at": "2026-10-03T19:17:44+00:00"
  }
 }
