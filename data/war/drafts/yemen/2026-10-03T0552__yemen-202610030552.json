@@ -1,0 +1,279 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f9e798ceb4d8",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "initial": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-03T05:52:32+00:00",
+  "window": {
+   "from": "2026-10-02T05:52:32+00:00",
+   "to": "2026-10-03T05:52:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610030552"
+  },
+  "summary": "הלחימה בתימן מתրכזת כיום בעיקר במחוז טאיז ובאזורי החוף סביב מצר באב אל-מנדב והים האדום, שם מתנהלים עימותים עזים בין כוחות הממשלה התימנית הנתמכים בידי סעודיה לבין המיליציה החות'ית. החות'ים הרחיבו את אחיזתם במרחב הימי והיבשתי, מה שמעורר תגובות נגד צבאיות והיערכות אזורית ובינלאומית רחבה בהובלת סעודיה וגורמים מערביים לאבטחת נתיבי השיט, לצד החמרה חמורה במשבר ההומניטרי והתזונתי במדינה.",
+  "fronts": [
+   {
+    "name": "חזית טאיז",
+    "status": "פעילה"
+   },
+   {
+    "name": "הזירה הימית (ים אדום ובאב אל-מנדב)",
+    "status": "פעילה"
+   },
+   {
+    "name": "גבול סעודיה-תימן",
+    "status": "פעילה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10030552-01",
+    "title": "פעולות צבא תימן נגד החות'ים בטאיז",
+    "summary": "כוחות צבא תימן דיווחו על ביצוע עשרות עד מאות תקיפות ופעולות נגד יעדים, התארגנויות ותגבורות של החות'ים במחוז טאיז.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T18:28:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T18:28:36+00:00",
+    "last_update_at": "2026-10-03T04:27:23+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בקרב החות'ים אינו מאומת ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_e92676a9135b1882",
+      "url": "https://www.maariv.co.il/breaking-news/article-1373065",
+      "published_at": "2026-10-03T04:27:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_e92676a9135b1882",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-claim-71-attacks-houthi-targets-taiz",
+      "published_at": "2026-10-03T03:23:29+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_e92676a9135b1882",
+      "url": "https://www.sabanew.net/viewstory/153397",
+      "published_at": "2026-10-03T01:44:48+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_e92676a9135b1882",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
+      "published_at": "2026-10-03T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_344176f63cf9237d",
+      "url": "https://www.sabanew.net/viewstory/153392",
+      "published_at": "2026-10-02T18:28:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10030552-02",
+    "title": "יירוט טילים וכטב\"מים באזור סעודיה",
+    "summary": "כוחות הברית תועדו מיירטת ומדמינה טילים בליסטיים וכטב\"מים שהושקו לעבר אזורים בסעודיה, כולל חמיס משיט.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T17:54:15+00:00",
+    "last_update_at": "2026-10-02T17:54:15+00:00",
+    "what_is_not_verified": "היקף הנזק המלא מן השיגורים אינו מאומת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_a4529db846f2c9de",
+      "url": "https://www.sabanew.net/viewstory/153390",
+      "published_at": "2026-10-02T17:54:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמיס משיט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10030552-03",
+    "title": "תקיפות החות'ים בעדן",
+    "summary": "החות'ים תקפו באמצעות כטב\"מים את העיר עדן בתימן.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T05:58:01+00:00",
+    "last_update_at": "2026-10-02T05:58:01+00:00",
+    "what_is_not_verified": "תוצאות הפגיעה המדויקות של הכטב\"מים אינן מפורטות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48195",
+      "published_at": "2026-10-02T05:58:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10030552-04",
+    "title": "מעצר והאשמת מהנדס בארה\"ב בסיוע לחות'ים",
+    "summary": "רשויות אכיפת החוק בארצות הברית עצרו והאשימו מהנדס במתן תמיכה וסיוע חומרי לארגון החות'ים.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T14:49:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T14:49:45+00:00",
+    "last_update_at": "2026-10-02T18:25:39+00:00",
+    "what_is_not_verified": "הטענות המלאות בכתב האישום טרם הוכחו בבית משפט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21539631",
+      "published_at": "2026-10-02T18:25:39+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/10/us-charges-engineer-with-supporting-houthis-louisiana-brothers-and-florida-man-with-financing-hamas.php",
+      "published_at": "2026-10-02T14:49:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בקרב הלוחמים בשטח טאיז",
+   "לוח הזמנים המדויק והתוכניות המלאות של המבצע הצבאי הסעודי המתוכנן נגד החות'ים",
+   "היקף הסיוע האיראני הישיר המדויק שניתן לחות'ים בשטח בזמן אמת"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "התנגדות לכוחות הממשלה והקואליציה בתימן",
+     "פעולה נגד מה שהם מכנים תקיפות סעודיות"
+    ],
+    "inferred": [
+     "השתלטות על מרחבים חיוניים בטאיז ובחופים כדי לבסס שליטה בים האדום ובבאב אל-מנדב",
+     "הפעלת לחץ כלכלי וגיאופוליטי אזורי באמצעות פגיעה בנתיבי שיט"
+    ],
+    "forecast": [
+     "המשך ניסיונות הרחבת השליטה הקרקעית והימית בתימן",
+     "התמודדות עם תקיפות נגד מצד כוחות הממשלה והקואליציה"
+    ]
+   },
+   {
+    "actor": "סעודיה והממשלה התימנית",
+    "declared": [
+     "הגנה על שטחי סעודיה ומוקדיה מפני שיגורי החות'ים",
+     "תמיכה בממשלה המוכרת בינלאומית של תימן"
+    ],
+    "inferred": [
+     "תכנון פעולה צבאית נרחבת לשבירת השליטה החות'ית בנתיבי השיט בים האדום",
+     "בניית בריתות אזוריות לעצירת התפשטות האיום החות'י"
+    ],
+    "forecast": [
+     "פציעה או יציאה למבצע צבאי משולב בתימן ובאזור החוף",
+     "חיזוק שיתוף הפעולה הבינלאומי והאזורי לאבטחת נתיבי התנועה הימית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21539631",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/us-charges-engineer-with-supporting-houthis-louisiana-brothers-and-florida-man-with-financing-hamas.php",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1373065",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-claim-71-attacks-houthi-targets-taiz",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153390",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48195",
+    "accessed_at": "2026-10-03T05:52:32+00:00"
+   }
+  ]
+ }
+}

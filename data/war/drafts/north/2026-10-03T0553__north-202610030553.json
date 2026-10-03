@@ -1,0 +1,235 @@
+{
+ "status": "draft",
+ "received_sha256_12": "63e9acfddb52",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-03T05:53:16+00:00",
+  "window": {
+   "from": "2026-10-02T05:53:16+00:00",
+   "to": "2026-10-03T05:53:16+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610030553"
+  },
+  "summary": "בזירה הצפונית נמשכות התקריות וההפגזות של כוחות צה\"ל בדרום לבנון לצד פעילות צבאית באזור קוניטרה בסוריה, חרף הסכמי הפסקת אש קודמים. במקביל, הדרג הполиטי בלבנון ובסוריה ממשיך לעסוק בשיקום, באתגרים הכלכליים ובדרישות לנסיגה ישראלית ולהרחבת סמכויות המדינה.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה עם תקיפות והפגזות ישראליות לצד דיונים מדיניים על מנגנוני פיקוח ונסיגה"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה עם חדירות, סיורים והפגזות של כוחות ישראליים בגבול סוריה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10030553-01",
+    "title": "תקיפות והפגזות ישראליות בדרום לבנון",
+    "summary": "כוחות ישראליים ביצעו תקיפות אוויריות, ירי ארטילרי, תנועות כלי רכב צבאיים ופעולות פיצוץ מבוקרות בכפרים ובעיירות בדרום לבנון.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-02T11:35:00+00:00",
+    "last_update_at": "2026-10-02T18:14:42+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק והנפגעים בכל אתר לא אומתו באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_d8aca4e2448887a9",
+      "url": "https://english.almanar.com.lb/article/133602/",
+      "published_at": "2026-10-02T18:14:42+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_1d22afaf1e6de9b0",
+      "url": "https://english.almanar.com.lb/article/133547/",
+      "published_at": "2026-10-02T11:35:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית ליף, לבנון",
+      "lat": 33.1321,
+      "lon": 35.334
+     },
+     {
+      "name": "מג'דל זון, לבנון",
+      "lat": 33.1503,
+      "lon": 35.226
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10030553-02",
+    "title": "כניסת ראש ממשלת לבנון וראש עיריית נבטיה אלפוקא לכפר",
+    "summary": "ראש ממשלת לבנון ביקר בנבטיה, וראש עיריית נבטיה אלפוקא נכנס יחד עם תושבים לכפר למרות איומי צה\"ל.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T09:30:47+00:00",
+    "last_update_at": "2026-10-02T09:30:47+00:00",
+    "what_is_not_verified": "ההשלכות הביטחוניות הישירות של כניסת התושבים לא צוינו במלואן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131199",
+      "published_at": "2026-10-02T09:30:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אלפוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10030553-03",
+    "title": "דיווח על כטב\"מים סורי מעל דמשק",
+    "summary": "גורמים סוריים דיווחו על הופעת חמישה כלטי טיס מסוג הרמס בשמי דמשק.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T16:07:58+00:00",
+    "last_update_at": "2026-10-02T16:07:58+00:00",
+    "what_is_not_verified": "הזהות המדויקת ומטרת הכלים אינן מאומתות ממקור רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48210",
+      "published_at": "2026-10-02T16:07:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10030553-04",
+    "title": "דיווח על פטרול ישראלי בסוריה",
+    "summary": "התקשורת בסוריה דיווחה כי סיור ישראלי נכנס לכפר סעיד אל-חאנות באזור אל-קוניטרה.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-02T19:23:55+00:00",
+    "last_update_at": "2026-10-02T19:23:55+00:00",
+    "what_is_not_verified": "פרטי הפעילות של הסיור אינם מאומתים ממקור רשמי צבאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/133717/",
+      "published_at": "2026-10-02T19:23:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעיד אל-חאנות, סוריה",
+      "lat": 32.8756,
+      "lon": 35.8774
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הדיווחים על היקף כלי הטיס הבלתי מאוישים בשמי דמשק",
+   "פרטי הפעילות המדויקים של הסיור הישראלי בקוניטרה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איומים בגבולות הצפון",
+     "אכיפת הסדרים ביטחוניים"
+    ],
+    "inferred": [
+     "שמירת חופש פעולה מבצעי בלבנון ובסוריה",
+     "מניעת התבססות עוינת בגבולות"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת במקרה של הפרות",
+     "לחץ מתמשך להשגת סידורי ביטחון"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "דרישה לנסיגה ישראלית מלאה",
+     "החלת ריבונות המדינה על כל השטחים",
+     "קבלת סיוע בינלאומי לשיקום נזקי המלחמה"
+    ],
+    "inferred": [
+     "ניסיון להיעזר בגורמים בינלאומיים להשגת ערבויות מדיניות",
+     "התמודדות קשה עם יכולת המדינה לממן את שיקום הדרום"
+    ],
+    "forecast": [
+     "המשך מגעים דיפלומטיים מול ארצות הברית והאו\"ם",
+     "חיכוך מקומי מתמשך בקו הגבול"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/133717/",
+    "accessed_at": "2026-10-03T05:53:16+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131199",
+    "accessed_at": "2026-10-03T05:53:16+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48210",
+    "accessed_at": "2026-10-03T05:53:16+00:00"
+   }
+  ]
+ }
+}
