@@ -1,0 +1,178 @@
+{
+ "status": "draft",
+ "received_sha256_12": "42d19b0804a2",
+ "preview": {
+  "events": 2,
+  "levels": {
+   "shared_root": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-04T00:04:03+00:00",
+  "window": {
+   "from": "2026-10-03T00:04:03+00:00",
+   "to": "2026-10-04T00:04:03+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610040004"
+  },
+  "summary": "בגזרה הצפונית נמשכת הלחימה הכוללת תקיפות אוויריות וירי ארטילרי של צה\"ל בדרום לבנון לצד אירועים מבצעיים בשטח, בהם פציעת חיילים בתאונה. במקביל, מתנהלים דיווחים מדיניים ופעילות אזרחית באזור הגבול והמדינות השכנות סוריה ולבנון.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10040004-01",
+    "title": "תקיפות והפגזות בדרום לבנון",
+    "summary": "כוחות צבא ישראל ביצעו תקיפות אוויריות, הפגזות ארטילריה ופיצוצים במספר אזורים בדרום לבנון.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T12:19:07+00:00",
+    "last_update_at": "2026-10-03T19:28:05+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם בכל הדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-blows-up-school-shells-towns-in-southern-lebanon-despite-ceasefire-report/4077288",
+      "published_at": "2026-10-03T19:28:05+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/133987/",
+      "published_at": "2026-10-03T17:21:17+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/133967/",
+      "published_at": "2026-10-03T16:55:59+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/133902/",
+      "published_at": "2026-10-03T12:19:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "נבטיה אל-פוקא",
+      "lat": 33.3619,
+      "lon": 35.4987
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10040004-02",
+    "title": "תאונת דרכים מבצעית בדרום לבנון",
+    "summary": "שמונה לוחמי צה\"ל מחטיבת השריון נפצעו באורח קל בתאונת דרכים מבצעית בדרום לבנון.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T16:05:17+00:00",
+    "last_update_at": "2026-10-03T16:05:17+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94466",
+      "published_at": "2026-10-03T16:05:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק מן התקיפות בדרום לבנון אינו מאומת במלואו ממקור בלתי תלוי",
+   "פרטים מלאים על נסיבות תאונת הדרכים המבצעית של כוחות השריון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגנה על יישובי הצפון וגבול לבנון"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות צבאיות של חיזבאללה בדרום לבנון ומניעת התבססות"
+    ],
+    "forecast": [
+     "המשך פעילות מבצעית ממוקדת והפגזות בגבול הצפון כל עוד נשמרת המתיחות"
+    ]
+   },
+   {
+    "actor": "חיזבאללה ולבנון",
+    "declared": [
+     "התנגדות לנוכחות צה\"ל בדרום לבנון"
+    ],
+    "inferred": [
+     "שימור יכולות הלחימה והשפעה בזירה למרות התקיפות"
+    ],
+    "forecast": [
+     "המשך תיעוד ומחאה נגד פעולות צה\"ל לצד שמירה על עימות מוגבל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/133902/",
+    "accessed_at": "2026-10-04T00:04:03+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-blows-up-school-shells-towns-in-southern-lebanon-despite-ceasefire-report/4077288",
+    "accessed_at": "2026-10-04T00:04:03+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94466",
+    "accessed_at": "2026-10-04T00:04:03+00:00"
+   }
+  ]
+ }
+}

@@ -291,157 +291,249 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-03T0540__iran-202610030540.json",
+  "draft": "drafts/iran/2026-10-03T2340__iran-202610032340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-03T05:40:43+00:00",
+   "generated_at": "2026-10-03T23:40:33+00:00",
    "window": {
-    "from": "2026-10-02T05:40:43+00:00",
-    "to": "2026-10-03T05:40:43+00:00"
+    "from": "2026-10-02T23:40:33+00:00",
+    "to": "2026-10-03T23:40:33+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610030540"
+    "run_id": "iran-202610032340"
    },
-   "summary": "העימות בין איראן לבין ארצות הברית וישראל נמשך במישור הדיפלומטי, הכלכלי והביטחוני, כאשר וושינגטון שוקלת את צעדיה הבאים מול טהרן וממשל טראמפ מצהיר על לחץ מתמשך. במקביל, נמשכות השלכות העימות על הכלכלה האיראנית המתמוטטת, לצד פעילות של שלוחות ורשתות טרור פרו-איראניות בגזרות שונות.",
+   "summary": "העימות מול איראן מתאפיין בהגברת הלחץ הכלכלי והצבאי מצד ארצות הברית וישראל, הכולל פריסת כוחות אמריקאיים ודיונים אסטרטגיים ברמה גבוהה, לצד החמרת משבר המטבע באיראן. במקביל, טהראן מגיבה ברטוריקה מאיימת כלפי מדינות המפרץ ומברכת על נסיגת כוחות זרים מעיראק, בעוד המתיחות האזורית נמשכת.",
    "fronts": [
     {
-     "name": "הזירה האמריקאית-איראנית הישירה",
-     "status": "פעיל מבחינה מדינית וכלכלית, כולל סנקציות ואיומי עימות"
+     "name": "החזית האמריקאית-ישראלית מול איראן",
+     "status": "הסלמה ופעילות צבאית ודיפלומטית מוגברת"
     },
     {
-     "name": "הזירה הפנים-איראנית והכלכלית",
-     "status": "במשבר עמוק עם ירידה דרסטית בשער הריאל"
+     "name": "החזית האיראנית מול מדינות המפרץ",
+     "status": "מתיחות ואיומים מדיניים"
     },
     {
-     "name": "הזירה האירופית מול פעילות איראנית",
-     "status": "התמודדות עם תאי טרור ופעילות חשודה בחסות איראן"
+     "name": "החזית הכלכלית",
+     "status": "החמרת סנקציות, מצור ימי וירידת ערך המטבע האיראני"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10030540-01",
-     "title": "הגשת כתבי אישום נגד איראנים בבריטניה בחשד לתכנון פיגוע",
-     "summary": "שתי אנשים בעלי אזרחות איראנית הואשמו בבריטניה בהכנות לביצוע מעשה טרור המכוון נגד הקהילה היהודית",
-     "axis": "ציר איראן-מערב",
+     "id": "IRAN-10032340-01",
+     "title": "התכנסות צוות הביטחון הלאומי של טראמפ בקמפ דייוויד",
+     "summary": "נשיא ארצות הברית דונלד טראמפ וצוות הביטחון הלאומי הבכיר שלו התכנסו בפגישה בלתי מתוכננת בקמפ דייוויד, במקביל לתנועת נושאת מטוסים ואלפי חיילים אמריקאיים למזרח התיכון.",
+     "axis": "ארה\"ב-ישראל מול איראן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-02T20:15:46+00:00",
-     "last_update_at": "2026-10-03T03:56:10+00:00",
-     "what_is_not_verified": "הקשר הישיר בין החשודים לבין ממשלת איראן אינו מאומת לחלוטין מעבר לטענות המשטרה והרשויות",
+     "first_reported_at": "2026-10-03T16:32:17+00:00",
+     "last_update_at": "2026-10-03T21:04:29+00:00",
+     "what_is_not_verified": "טיב ההחלטות שהתקבלו בפגישה.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_src_aljazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/3/two-iranians-charged-over-alleged-plot-targeting-jewish-community-in-uk?traffic_source=rss",
-       "published_at": "2026-10-03T03:56:10+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_src_aljazeera",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-iranians-charged-over-suspected-plot-target-jews-manchester",
-       "published_at": "2026-10-02T23:38:28+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_src_aljazeera",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21540181",
-       "published_at": "2026-10-02T21:54:38+00:00"
-      },
       {
        "source_id": "src_iranintl",
-       "source_root_id": "or_src_aljazeera",
-       "url": "https://www.iranintl.com/en/202610024632",
-       "published_at": "2026-10-02T20:26:34+00:00"
+       "source_root_id": "or_iran_international",
+       "url": "https://www.iranintl.com/en/202610039569",
+       "published_at": "2026-10-03T21:04:29+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_aljazeera",
-       "url": "https://t.me/alexmehacarmel/48218",
-       "published_at": "2026-10-02T20:15:46+00:00"
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_iran_international",
+       "url": "https://t.me/lelotsenzura/94467",
+       "published_at": "2026-10-03T16:32:17+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "מנצ'סטר, בריטניה",
-       "lat": 53.4425,
-       "lon": -2.2325
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-10030540-02",
-     "title": "פגישת בכירים אמריקאים בקמפ דייוויד לדיון במלחמה מול איראן",
-     "summary": "חברי הקבינט המובילים של ארצות הברית קיימו פגישה חשאית כדי לדון בצעדים הבאים במלחמה מול איראן",
-     "axis": "ציר ארה\"ב-ישראל-איראן",
+     "id": "IRAN-10032340-02",
+     "title": "גירוש דיפלומטים איראניים מארה\"ב",
+     "summary": "ארצות הברית גירשה שני חברים מהמשלחת האיראנית לעצרת הכללית של האו\"ם לאחר שהתעלמו מהדרישה לעזוב את המדינה.",
+     "axis": "ארה\"ב-ישראל מול איראן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-03T03:44:42+00:00",
-     "last_update_at": "2026-10-03T03:44:42+00:00",
-     "what_is_not_verified": "פרטי ההחלטות שהתקבלו בפגישה אינם רשמיים ומבוססים על דיווח תקשורתי המצטט מקורות אלמונים",
+     "first_reported_at": "2026-10-03T22:40:05+00:00",
+     "last_update_at": "2026-10-03T22:40:05+00:00",
+     "what_is_not_verified": "זהותם המלאה של המגורשים מעבר לכך שהיו חברי משלחת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_axios",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trumps-top-cabinet-members-discuss-iran-houthi-conflict-camp-david",
-       "published_at": "2026-10-03T03:44:42+00:00"
+       "source_root_id": "or_us_state_department_official",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/state-department-says-iranian-un-delegation-duo-expelled-us",
+       "published_at": "2026-10-03T22:40:05+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10032340-03",
+     "title": "העברת מטען נפט גולמי דרך מצר הורמוז על ידי עיראק",
+     "summary": "חברת מכליות הנפט של עיראק ביצעה הפעלה של העברת שני מיליון חביות נפט גולמי דרך מצר הורמוז באמצעות מכלית ענק.",
+     "axis": "ארה\"ב-ישראל מול איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T19:49:13+00:00",
+     "last_update_at": "2026-10-03T19:49:13+00:00",
+     "what_is_not_verified": "האם התנועה נתקלה בהפרעה מצד כוחות איראניים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_iraq_s_oil_tankers_company_director_gene",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-says-it-transported-two-million-barrels-crude-through-strait-hormuz",
+       "published_at": "2026-10-03T19:49:13+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10032340-04",
+     "title": "הודעת משרד החוץ האיראני על צאת הכוחות האמריקאיים מעיראק",
+     "summary": "משרד החוץ של איראן פרסם הודעת ברכה לעם ולממשלת עיראק על יציאת הכוחות האמריקאיים והזרים ממדינה זו.",
+     "axis": "ארה\"ב-ישראל מול איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T21:57:26+00:00",
+     "last_update_at": "2026-10-03T22:45:17+00:00",
+     "what_is_not_verified": "ההשלכות המלאות של הנסיגה על ביטחון האזור.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_5e59971f937cf9a7",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-welcomes-exit-us-forces-iraq-calls-washington-be-held-accountable",
+       "published_at": "2026-10-03T22:45:17+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_5ebd3e811582c79f",
+       "url": "https://en.irna.ir/news/86282237/Iranian-Foreign-Ministry-issues-statement-on-withdrawal-of-US",
+       "published_at": "2026-10-03T21:57:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "קמפ דייוויד, ארצות הברית",
-       "lat": 39.6487,
-       "lon": -77.4651
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     },
     {
-     "id": "IRAN-10030540-03",
-     "title": "סיכום על הפעלת טיסות יומיות בין איראן לעיראק",
-     "summary": "לשכת ראש ממשלת עיראק הודיעה על הסכם המאפשר לחברות תעופה איראניות להפעיל מספר טיסות יומיות לנמל התעופה בנג'ף",
-     "axis": "ציר איראן-עיראק",
+     "id": "IRAN-10032340-05",
+     "title": "הצהרת נשיא איראן על היערכות כלכלית מול סנקציות",
+     "summary": "נשיא איראן מסר כי הממשלה אימצה מערך חדש לניהול תנאי הסנקציות והמצור הימי, במטרה להתמודד עם ניסיונות הפגיעה הכלכלית.",
+     "axis": "ארה\"ב-ישראל מול איראן",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-02T16:46:38+00:00",
-     "last_update_at": "2026-10-02T18:33:21+00:00",
-     "what_is_not_verified": "האם חברות התעופה יצליחו לעמוד במגבלות הסנקציות האמריקאיות לאורך זמן",
+     "first_reported_at": "2026-10-03T21:01:42+00:00",
+     "last_update_at": "2026-10-03T21:01:42+00:00",
+     "what_is_not_verified": "הצלחת האמצעים החדשים לבלום את קריסת הכלכלה והמטבע.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_8813d2f86e0cf5dd",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-pezeshkian-says-new-measures-place-amid-stricter-sanctions",
+       "published_at": "2026-10-03T21:01:42+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10032340-06",
+     "title": "אזהרת בכיר איראני כלפי איחוד האמירויות",
+     "summary": "יועץ בכיר למנהיג העליון של איראן הזהיר את איחוד האמירויות מפני עימות עם איראן ומפני ערעור הריבונות על האיים במפרץ הפרסי.",
+     "axis": "איראן מול המפרץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T16:00:01+00:00",
+     "last_update_at": "2026-10-03T16:53:03+00:00",
+     "what_is_not_verified": "התגובה הרשמית של איחוד האמירויות לאזהרה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_6d267a739bc41e61",
-       "url": "https://en.irna.ir/news/86281141/Iraq-and-Iran-agree-on-40-daily-flights-by-Iranian-airlines-to",
-       "published_at": "2026-10-02T18:33:21+00:00"
+       "source_root_id": "fh_470ec0e5853f9553",
+       "url": "https://en.irna.ir/news/86282122/Velayati-warns-UAE-Half-century-old-state-better-off-not-challenging",
+       "published_at": "2026-10-03T16:53:03+00:00"
       },
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_1a34e9c8cabe3656",
-       "url": "https://www.al-monitor.com/originals/2026/10/iraq-says-40-daily-iranian-flights-cleared-fly-and-najaf",
-       "published_at": "2026-10-02T16:46:38+00:00"
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_470ec0e5853f9553",
+       "url": "https://www.iranintl.com/en/202610038850",
+       "published_at": "2026-10-03T16:00:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "נג'ף, עיראק",
-       "lat": 32.001,
-       "lon": 44.33
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
+    },
+    {
+     "id": "IRAN-10032340-07",
+     "title": "הצהרות דונלד טראמפ על מצבה של איראן ותוכנית הגרעין",
+     "summary": "נשיא ארצות הברית טען כי איראן מוחלשת וכי היא ויתרה על תוכניותיה לפתח נשק גרעיני, והוסיף כי עומדת בפניו החלטה אם לנהוג בדרך הקלה או הקשה.",
+     "axis": "ארה\"ב-ישראל מול איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-03T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-03T21:33:05+00:00",
+     "last_update_at": "2026-10-03T22:52:23+00:00",
+     "what_is_not_verified": "אמיתות הטענה לפיה איראן ויתרה לחלוטין על שאיפות גרעיניות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://t.me/alexmehacarmel/48236",
+       "published_at": "2026-10-03T22:52:23+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-decimated",
+       "published_at": "2026-10-03T21:53:46+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://www.maariv.co.il/breaking-news/article-1373256",
+       "published_at": "2026-10-03T21:33:05+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "מעורבות ישירה של משטר איראן בתכנון הפיגוע במנצ'סטר מעבר לקשרים של החשודים",
-    "ההחלטות המדויקות שהתקבלו בפגישת הקבינט האמריקאי בקמפ דייוויד",
-    "האם תקרית המטוס של פליי דובאי קשורה ישירות לאיראן לפי בדיקת הרשויות"
+    "ההחלטה הסופית שצפוי נשיא ארה\"ב טראמפ לקבל לגבי איראן",
+    "היקף הנזק המדויק שנגרם לכלכלה האיראנית כתוצאה מהמצור הימי",
+    "קיומו או היעדרו של קשר ישיר בין גורמים באיראן לכל ניסיונות הפיגוע באירופה ובאזור"
    ],
    "map": {
     "confidence": "medium",
@@ -463,102 +555,98 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "שמירה על זכויות גרעיניות",
-      "המשך קשרי מסחר ותעופה באזור"
+      "גינוי הסנקציות והמצור הימי",
+      "דרישה לאחריות מצד ארה\"ב על פעולותיה בעיראק",
+      "הזהרת מדינות המפרץ מפני התעמתות עם ריבונותה"
      ],
      "inferred": [
-      "עקיפת הסנקציות הכלכליות",
-      "תמיכה בשלוחות אזוריות לשמירת השפעה"
+      "שמירה על השפעה אזורית למרות הלחץ הכלכלי והצבאי",
+      "ניסיון להציג חזית איתנה מול קריסת המטבע והסנקציות",
+      "המשך תמיכה בשלוחים באזור"
      ],
      "forecast": [
-      "המשך התמודדות עם קריסה כלכלית פנימית",
-      "שימור יכולות הרתעה מול ארה\"ב וישראל"
+      "המרת פעילות לדרכי פעולה עקיפות עקב הלחץ",
+      "הגברת האיומים המילוליים כלפי שכנותיה במפרץ",
+      "ניסיון לאתר פרצות במצור הכלכלי"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "ארה\"ב וישראל",
      "declared": [
       "מניעת נשק גרעיני מאיראן",
-      "הפעלת לחץ כלכלי ודיפלומתי מקסימלי"
+      "הפשטת יכולותיה הכלכליות והצבאיות של איראן",
+      "הגנה על נתיבי השיט והאינטרסים במפרץ"
      ],
      "inferred": [
-      "היערכות לאפשרות של חידוש הלחימה הישירה",
-      "בלימת ההשפעה האזורית של טהרן"
+      "הכנה לאפשרות של פעולה צבאית נרחבת",
+      "הדוק הפיקוח והלחץ הדיפלומטי והכלכלי על טהראן",
+      "בניית בריתות אזוריות מול ההשפעה האיראנית"
      ],
      "forecast": [
-      "המשך האכיפה של סנקציות כלכליות",
-      "תיאום הדוק עם בעלות ברית נגד איומי הטרור האיראני"
-     ]
-    },
-    {
-     "actor": "ישראל",
-     "declared": [
-      "סיכול תשתיות טרור ופעילות עוינת של איראן ושלוחותיה"
-     ],
-     "inferred": [
-      "ניצול זירות בינלאומיות לחשיפת המעורבות האיראנית",
-      "שמירה על חופש פעולה מול איומים אזוריים"
-     ],
-     "forecast": [
-      "המשך המעקב המודיעיני אחר שלוחות איראן באירופה ובמזרח התיכון"
+      "המשך תגבור כוחות צבאיים באזור המפרץ",
+      "הדגשת האופציה הצבאית במידה ואיראן לא תיסוג ממדיניותה",
+      "הדוק האכיפה של הסנקציות הכלכליות"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/3/two-iranians-charged-over-alleged-plot-targeting-jewish-community-in-uk?traffic_source=rss",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
-    },
-    {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/iraq-says-40-daily-iranian-flights-cleared-fly-and-najaf",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
-    },
-    {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610024632",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
+     "url": "https://www.iranintl.com/en/202610038850",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86281141/Iraq-and-Iran-agree-on-40-daily-flights-by-Iranian-airlines-to",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
+     "url": "https://en.irna.ir/news/86282122/Velayati-warns-UAE-Half-century-old-state-better-off-not-challenging",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
     },
     {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21540181",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1373256",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trumps-top-cabinet-members-discuss-iran-houthi-conflict-camp-david",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-decimated",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48218",
-     "accessed_at": "2026-10-03T05:40:43+00:00"
+     "url": "https://t.me/alexmehacarmel/48236",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94467",
+     "accessed_at": "2026-10-03T23:40:33+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-02T16:21:27+00:00",
+  "previous_generated_at": "2026-10-03T05:40:43+00:00",
   "changes": {
-   "IRAN-10030540-01": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "הגשת כתבי אישום בארצות הברית על סיוע לחות'ים ולחמאס",
-    "score": 0.65
+   "IRAN-10032340-01": {
+    "kind": "possible",
+    "prev": "פגישת בכירים אמריקאים בקמפ דייוויד לדיון במלחמה מול איראן",
+    "score": 0.467
    },
-   "IRAN-10030540-02": {
+   "IRAN-10032340-02": {
     "kind": "new"
    },
-   "IRAN-10030540-03": {
-    "kind": "possible",
-    "prev": "החרפת הלחץ הכלכלי האמריקאי והחרגת טיסות לעיר נג'ף",
-    "score": 0.633
+   "IRAN-10032340-03": {
+    "kind": "new"
+   },
+   "IRAN-10032340-04": {
+    "kind": "new"
+   },
+   "IRAN-10032340-05": {
+    "kind": "new"
+   },
+   "IRAN-10032340-06": {
+    "kind": "new"
+   },
+   "IRAN-10032340-07": {
+    "kind": "new"
    }
   }
  },

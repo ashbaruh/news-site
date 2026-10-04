@@ -1,0 +1,313 @@
+{
+ "status": "draft",
+ "received_sha256_12": "960bd244c65b",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-03T23:53:00+00:00",
+  "window": {
+   "from": "2026-10-02T23:53:00+00:00",
+   "to": "2026-10-03T23:53:00+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610032353"
+  },
+  "summary": "הלחימה בתימן ובמרחב הסעודי חווה הסלמה לאחר תקופה של הפוגה יחסית, עם חילופי תקיפות הדדיים בין החות'ים לבין סעודיה והממשלה התימנית המוכרת. החות'ים ביצעו תקיפות נגד מתקני אנרגיה בתוך סעודיה וקיימו הסגר ימי, בעוד כוחות הממשלה והקואליציה הסעודית מגיבים בתקיפות אוויריות ובלחימה קרקעית עצימה במספר מוקדים ובמיוחד במחוז תעז.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית ותעז",
+    "status": "פעיל ועצימות גבוהה"
+   },
+   {
+    "name": "החזית הסעודית-חות'ית (פגיעה בתשתיות אנרגיה בריאד)",
+    "status": "הסלמה פעילה"
+   },
+   {
+    "name": "זירת הים האדום ומצור ימי",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10032353-01",
+    "title": "תקיפה נגד מתקן אראמכו בריאד",
+    "summary": "החות'ים טענו שביצעו תקיפה באמצעות טילים בליסטיים וכטב\"מים נגד מתקן חברת אראמכו בריאד, בעוד שגורמים שונים דיווחו על עשן ולהבות באתר בדרום הבירה.",
+    "axis": "הציר השיעי-איראני מול סעודיה והממשלה המוכרת",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T08:00:46+00:00",
+    "last_update_at": "2026-10-03T19:25:58+00:00",
+    "what_is_not_verified": "אישור רשמי מצד הרשויות בסעודיה על עצם פגיעה במתקן אראמכו בריאד אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-attack-aramco-site-riyadh",
+      "published_at": "2026-10-03T19:25:58+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-struck-oil-facility-near-riyadh-saudis-hit-sanaa",
+      "published_at": "2026-10-03T15:30:24+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.newarab.com/news/flames-smoke-seen-aramco-facility-south-saudi-capital",
+      "published_at": "2026-10-03T15:12:27+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+      "published_at": "2026-10-03T14:31:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-attacked-aramco-facility-riyadh-missiles-drones",
+      "published_at": "2026-10-03T12:46:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.newarab.com/news/oil-tankers-attacked-hormuz-smoke-seen-near-aramco-riyadh",
+      "published_at": "2026-10-03T08:00:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10032353-02",
+    "title": "תקיפות בצנעא ובסעדה בתימן",
+    "summary": "כוחות המזוהים עם ממשלת תימן הודיעו כי ביצעו תקיפות נגד יעדים חות'יים בצנעא ובסעדה, בעוד כלי תקשורת חות'יים טענו כי מדובר בתקיפות של סעודיה.",
+    "axis": "הציר השיעי-איראני מול סעודיה והממשלה המוכרת",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T12:14:24+00:00",
+    "last_update_at": "2026-10-03T23:07:10+00:00",
+    "what_is_not_verified": "אישור רשמי סעודי לתקיפות בריאד או בצנעא אינו מאומת במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-strikes-conducted-houthi-targets-sanaa-saada",
+      "published_at": "2026-10-03T23:07:10+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthi-run-al-masirah-tv-reports-saudi-attack-sanaa",
+      "published_at": "2026-10-03T21:49:01+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1373254",
+      "published_at": "2026-10-03T21:24:08+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131268",
+      "published_at": "2026-10-03T14:33:51+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+      "published_at": "2026-10-03T14:31:30+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153408",
+      "published_at": "2026-10-03T12:14:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10032353-03",
+    "title": "לחימה עצימה ופעילות צבאית במחוז תעז",
+    "summary": "כוחות צבא תימן דיווחו על מאות פעולות מבצעיות ועימותים נגד החות'ים במספר חזיתות במחוז תעז, לצד דיווחים על נפגעים רבים.",
+    "axis": "הציר השיעי-איראני מול סעודיה והממשלה המוכרת",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T11:02:40+00:00",
+    "last_update_at": "2026-10-03T19:50:34+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בקרב החות'ים אינו מאומת ממקור נייטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153423",
+      "published_at": "2026-10-03T19:50:34+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153417",
+      "published_at": "2026-10-03T16:00:35+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153412",
+      "published_at": "2026-10-03T14:38:18+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-claims-1540-houthi-casualties-fighting-intensifies-taiz",
+      "published_at": "2026-10-03T14:21:45+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153409",
+      "published_at": "2026-10-03T12:55:19+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153403",
+      "published_at": "2026-10-03T11:02:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "אישור רשמי מסעודיה על פגיעה במתקן אראמכו בריאד",
+   "מספר הנפגעים המדויק בקרב כוחות החות'ים במחוז תעז",
+   "אחריות ישירה לאירוע השריפה או הפגיעה במכלולים באזור סעודיה לפי מקורות זרים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "הטלת סגר ימי על סעודיה",
+     "תקיפת יעדים רגישים ומתקני אנרגיה בסעודיה בתגובה לתקיפות בצנעא"
+    ],
+    "inferred": [
+     "יצירת לחץ על הכלכלה הסעודית ותשתיות האנרגיה שלה",
+     "הרחבת השליטה הטריטוריאלית בתימן"
+    ],
+    "forecast": [
+     "המשך שימוש בטילים וכטב'מים לעבר מתקנים אסטרטגיים בסעודיה",
+     "החמרת הלחימה הקרקעית מול כוחות הממשלה"
+    ]
+   },
+   {
+    "actor": "סעודיה והממשלה המוכרת בתימן",
+    "declared": [
+     "בלימת התקדמות החות'ים והגנה על תשתיות חיוניות",
+     "ביצוע פעולות צבאיות ותקיפות נגד יעדים חות'יים בצנעא, בסעדה ובתעז"
+    ],
+    "inferred": [
+     "ניסיון להרתיע את החות'ים ולשос את יכולותיהם הצבאיות",
+     "החזרת השליטה באזורים שנכבשו מחדש"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות והתמיכה בכוחות הקרקע במחוזות השונים",
+     "ניסיונות הגנה מוגברים על מתקני האנרגיה מפני איומים אוויריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-attacked-aramco-facility-riyadh-missiles-drones",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1373254",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-claims-1540-houthi-casualties-fighting-intensifies-taiz",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/oil-tankers-attacked-hormuz-smoke-seen-near-aramco-riyadh",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153403",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131268",
+    "accessed_at": "2026-10-03T23:53:00+00:00"
+   }
+  ]
+ }
+}
