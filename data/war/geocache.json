@@ -150,6 +150,10 @@
 36.4505,
 43.3498
 ],
+"beer sheva, israel": [
+31.2457,
+34.7925
+],
 "beijing, china": [
 39.9057,
 116.3913
@@ -278,6 +282,10 @@
 "dhubab, yemen": [
 13.0597,
 43.5117
+],
+"dimona, israel": [
+31.0687,
+35.0366
 ],
 "dnipro, ukraine": [
 51.5567,
@@ -477,6 +485,10 @@
 29.5719,
 57.301
 ],
+"kfar roummane, lebanon": [
+33.399,
+35.5169
+],
 "kfar shouba, lebanon": [
 33.3277,
 35.6927
@@ -629,6 +641,7 @@
 33.1503,
 35.226
 ],
+"majdalzoun, lebanon": null,
 "makhachkala, russia": [
 42.983,
 47.5049
@@ -665,6 +678,10 @@
 "mashhad, iran": [
 36.2975,
 59.6059
+],
+"masyaf, syria": [
+35.0646,
+36.3408
 ],
 "mayfadoun, lebanon": [
 33.3451,
@@ -780,6 +797,10 @@
 "novovorontsovka, ukraine": [
 47.4958,
 33.9198
+],
+"obolonskyi district, kyiv, ukraine": [
+50.5306,
+30.4384
 ],
 "obukhiv, ukraine": [
 50.1102,
@@ -956,6 +977,10 @@
 "shestakove, ukraine": [
 50.0726,
 36.6254
+],
+"simferopol district, crimea": [
+44.9402,
+34.1198
 ],
 "sirjan, iran": [
 29.4491,

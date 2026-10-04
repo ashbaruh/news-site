@@ -1,0 +1,440 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d148b880e0b3",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-04T15:42:33+00:00",
+  "window": {
+   "from": "2026-10-03T15:42:33+00:00",
+   "to": "2026-10-04T15:42:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "yemen-202610041542"
+  },
+  "summary": "הלחימה בתימן החריפה עם הכרזת ממשלת תימן על מתקפת נגד כוללת להשבת השטחים שנכבשו, לצד סיוע אווירי של סעודיה. במקביל, כוחות החות'ים המשיכו להתקדם בשטח, ניתקו את ציר האספקה הראשי בין תעז לעדן והטילו מצור על העיר תעז. במקביל נמשכים חילופי מהלומות כבדים בין החות'ים לסעודיה הכוללים תקיפות על מתקני נפט בריאד והפצצות אוויריות נרחבות בצנעא.",
+  "fronts": [
+   {
+    "name": "חזית מחוז תעז ודרום-מערב תימן",
+    "status": "התקדמות חות'ית וחסימת ציר תעז-עדן אל מול הכרזת מתקפת נגד ממשלתית"
+   },
+   {
+    "name": "חזית תימן - ערב הסעודית",
+    "status": "הסלמה בתקיפות הדדיות על ערי הבירה ריאד וצנעא ופגיעה במתקני אנרגיה"
+   },
+   {
+    "name": "מרחב ים סוף ומצר באב אל-מנדב",
+    "status": "שליטה חות'ית מוגברת לאורך החוף לאחר כיבוש שטחים נרחבים לאחרונה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10041542-01",
+    "title": "הכרזת ממשלת תימן על מבצע צבאי נרחב להשבת השליטה בשטחי החות'ים",
+    "summary": "יושב ראש מועצת ההנהגה הנשיאותית של תימן, רשאד אל-עלימי, הודיע על פתיחת מבצע צבאי כולל של כוחות הממשלה בסיוע אווירי סעודי במטרה להשיב את השליטה בכלל שטחי המדינה מידי החות'ים.",
+    "axis": "פנים-תימני / ממשלת תימן מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-04T12:15:04+00:00",
+    "last_update_at": "2026-10-04T14:22:09+00:00",
+    "what_is_not_verified": "היקף הכוחות המשתתפים בפועל והיכולת לממש את המבצע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemeni-presidency-announces-offensive-retake-houthi-territory",
+      "published_at": "2026-10-04T14:22:09+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1ry66yifx",
+      "published_at": "2026-10-04T13:52:18+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261004-yemen-leader-announces-counter-offensive-as-houthis-cut-off-supply-route-besieged-city-taiz",
+      "published_at": "2026-10-04T12:59:17+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
+      "published_at": "2026-10-04T12:48:50+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemen-leader-announces-major-military-operations-against-iran-backed-houthis",
+      "published_at": "2026-10-04T12:46:33+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94476",
+      "published_at": "2026-10-04T12:42:50+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-launch-military-campaign-reclaim-houthi-controlled",
+      "published_at": "2026-10-04T12:15:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10041542-02",
+    "title": "התקדמות חות'ית וחסימת ציר האספקה המרכזי בין תעז לעדן",
+    "summary": "כוחות החות'ים השתלטו על אזור א-סאפיה וניתקו את ציר התנועה הראשי המחבר בין העיר תעז לבירה הזמנית עדן, מה שהביא להטלת מצור מבצעי על תעז.",
+    "axis": "חזית מחוז תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-04T08:52:50+00:00",
+    "last_update_at": "2026-10-04T14:22:09+00:00",
+    "what_is_not_verified": "מידת הידוק המצור וההשפעה המיידית על כושר העמידה של עדן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemeni-presidency-announces-offensive-retake-houthi-territory",
+      "published_at": "2026-10-04T14:22:09+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1ry66yifx",
+      "published_at": "2026-10-04T13:52:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/4/why-is-fighting-intensifying-in-yemens-taiz-governorate?traffic_source=rss",
+      "published_at": "2026-10-04T13:31:15+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261004-yemen-leader-announces-counter-offensive-as-houthis-cut-off-supply-route-besieged-city-taiz",
+      "published_at": "2026-10-04T12:59:17+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131322",
+      "published_at": "2026-10-04T12:35:45+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-cut-vital-supply-road-yemens-taiz",
+      "published_at": "2026-10-04T11:14:24+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-cut-vital-aden-taiz-road-yemen",
+      "published_at": "2026-10-04T08:52:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10041542-03",
+    "title": "תקיפות חות'יות בטילים וכטב\"מים על מתקני נפט של אראמקו בסעודיה",
+    "summary": "החות'ים שיגרו טילים בליסטיים וכלי טיס בלתי מאוישים לעבר מתקני חברת אראמקו בריאד ובח'ורייס. כתב סוכנות הידיעות הצרפתית דיווח על שריפה ועשן במתקן נפט מדרום לריאד, בעוד הקואליציה הסעודית טענה כי הטענות החות'יות מטעות.",
+    "axis": "העימות בין החות'ים לסעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-03T14:31:30+00:00",
+    "last_update_at": "2026-10-04T13:56:27+00:00",
+    "what_is_not_verified": "מידת הנזק המדויק באתרים וחלק מהפגיעות הנטענות על ידי החות'ים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-aramco-sites-saudi-arabia",
+      "published_at": "2026-10-04T13:56:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://www.newarab.com/news/houthi-claims-attack-saudi-capital-misleading",
+      "published_at": "2026-10-04T10:09:39+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://www.france24.com/en/yemen-s-houthis-claim-attacks-on-aramco-facilities-in-riyadh",
+      "published_at": "2026-10-04T08:21:37+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://t.me/abualiexpress/131312",
+      "published_at": "2026-10-04T07:54:13+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.newarab.com/news/flames-smoke-seen-aramco-facility-south-saudi-capital",
+      "published_at": "2026-10-03T15:12:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://t.me/abualiexpress/131268",
+      "published_at": "2026-10-03T14:33:51+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_d356d127a956eb6d",
+      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+      "published_at": "2026-10-03T14:31:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ח'ורייס, ערב הסעודית",
+      "lat": 25.2677,
+      "lon": 48.1771
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10041542-04",
+    "title": "גל תקיפות אוויריות נרחב של סעודיה וממשלת תימן בצנעא ובמחוזות נוספים",
+    "summary": "מטוסי הקואליציה בראשות סעודיה וכוחות הממשלה ביצעו עשרות תקיפות אוויריות על מטרות חות'יות בבירה צנעא ובמחוזות אל-ג'וף, תעז, עמראן, חג'ה וסעדה, בתגובה לשיגורים לעבר שטח הממלכה.",
+    "axis": "העימות בין החות'ים לסעודיה וממשלת תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-03T14:31:30+00:00",
+    "last_update_at": "2026-10-04T13:56:27+00:00",
+    "what_is_not_verified": "המספר המדויק של התקיפות (נטען בין עשרות ל-50)",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-aramco-sites-saudi-arabia",
+      "published_at": "2026-10-04T13:56:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.newarab.com/news/houthi-claims-attack-saudi-capital-misleading",
+      "published_at": "2026-10-04T10:09:39+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.france24.com/en/yemen-s-houthis-claim-attacks-on-aramco-facilities-in-riyadh",
+      "published_at": "2026-10-04T08:21:37+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://t.me/abualiexpress/131312",
+      "published_at": "2026-10-04T07:54:13+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemen-government-forces-say-struck-houthi-targets",
+      "published_at": "2026-10-03T15:30:24+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.newarab.com/news/flames-smoke-seen-aramco-facility-south-saudi-capital",
+      "published_at": "2026-10-03T15:12:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://t.me/abualiexpress/131268",
+      "published_at": "2026-10-03T14:33:51+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_6de79581bf0b1260",
+      "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+      "published_at": "2026-10-03T14:31:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10041542-05",
+    "title": "כינוס הקבינט המדיני-ביטחוני בישראל לדיון בזירה החות'ית",
+    "summary": "הקבינט המדיני-ביטחוני בישראל התכנס לדיון מיוחד שהוקדש להתפתחויות בזירה החות'ית בתימן.",
+    "axis": "ישראל מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T12:01:23+00:00",
+    "last_update_at": "2026-10-04T12:01:23+00:00",
+    "what_is_not_verified": "תוכן ההחלטות שהתקבלו בדיון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1373469",
+      "published_at": "2026-10-04T12:01:23+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים לפגיעות מדויקות ושריפות בכלל מתקני אראמקו בריאד ובח'ורייס לעומת הכחשת הקואליציה",
+   "היקף הכוחות הממשלתיים והסעודיים הצפויים להשתתף במבצע (דיווחים על עד 100,000 חיילים)",
+   "מספר התקיפות האוויריות המדויק שביצעה סעודיה בצנעא ובמחוזות השונים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ממשלת תימן והקואליציה בראשות סעודיה",
+    "declared": [
+     "השבת כלל שטחי המדינה ושחרורם מידי המיליציה החות'ית",
+     "הרחבת סמכות מוסדות המדינה על פני כל השטח הלאומי של תימן"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית לעבר עדן ומניעת נפילת תעז",
+     "הסרת האיום החות'י מעל מצר באב אל-מנדב ונתיבי השיט, וצמצום הפגיעה במתקני האנרגיה הסעודיים"
+    ],
+    "forecast": [
+     "החרפת הקרבות הקרקעיים במחוז תעז ובאזור החוף, לצד הגברת התקיפות האוויריות על מוקדי שלטון חות'יים"
+    ]
+   },
+   {
+    "actor": "תנועת החות'ים (אנצאר אללה)",
+    "declared": [
+     "המשך תגובה בהסלמה כנגד התקיפות הסעודיות ופגיעה במתקני צבא ואנרגיה של הממלכה",
+     "הטלת מצור ימי על ערב הסעודית"
+    ],
+    "inferred": [
+     "השלמת כיתור וכיבוש העיר תעז וניתוקה המוחלט ממוקדי הכוח הממשלתיים בדרום",
+     "ביסוס השליטה על קו החוף ומצרי באב אל-מנדב כמנוף לחץ אזורי ובינלאומי"
+    ],
+    "forecast": [
+     "המשך ירי טילים וכטב\"מים לעבר מתקני נפט ותשתיות אסטרטגיות בסעודיה במקביל ללחץ צבאי מוגבר על תעז ועדן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/4/why-is-fighting-intensifying-in-yemens-taiz-governorate?traffic_source=rss",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/yemen-government-forces-say-struck-houthi-targets",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1373469",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-aramco-sites-saudi-arabia",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/flames-smoke-seen-aramco-facility-south-saudi-capital",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131268",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94476",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1ry66yifx",
+    "accessed_at": "2026-10-04T15:42:33+00:00"
+   }
+  ]
+ }
+}

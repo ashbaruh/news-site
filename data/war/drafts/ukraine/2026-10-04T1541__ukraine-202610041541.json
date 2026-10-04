@@ -1,0 +1,493 @@
+{
+ "status": "draft",
+ "received_sha256_12": "cbe193a0b6b0",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 4,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-04T15:41:12+00:00",
+  "window": {
+   "from": "2026-10-03T15:41:12+00:00",
+   "to": "2026-10-04T15:41:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610041541"
+  },
+  "summary": "צבא רוסיה מרחיב את מתקפותיו האוויריות על תשתיות תחבורה ותקשורת בקייב, בדגש על פגיעה מתמשכת בגשרים מרכזיים מעל נהר הדנייפר באמצעות כטב\"מים מהירים. במקביל, כוחות אוקראינה מעמיקים את הפגיעה בעומק השטח הרוסי ותוקפים בסיסי חיל אוויר ומתקני אנרגיה. בזירה המדינית נמשכת ההתבססות של קייב על סיוע אירופי מוגבר בעוד נבחנת אפשרות לשיחות טכניות משולשות לקראת החורף.",
+  "fronts": [
+   {
+    "name": "העורף האוקראיני ומרחב קייב",
+    "status": "תקיפות אוויריות מוגברות של רוסיה על גשרים, מרכזי נתונים ותשתיות אזרחיות לצד עיבוי מערכות יירוט"
+   },
+   {
+    "name": "החזית המזרחית (דונבאס)",
+    "status": "מתקפת נגד אוקראינית תחת השם ויוואלדי שהביאה לשחרור של כ-140 קמ\"ר"
+   },
+   {
+    "name": "עומק רוסיה ומתקנים אסטרטגיים",
+    "status": "תקיפות כטב\"מים אוקראיניות נגד מטוסי קרב בבסיסי חיל אוויר ופגיעות בתשתיות בדרום רוסיה ובקרים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10041541-01",
+    "title": "תקיפת כטב\"מים אוקראינית על בסיס טיסה באדיגיה",
+    "summary": "כטב\"מים של יחידת אלפא בשירות הביטחון של אוקראינה פגעו במטוסי קרב מסוג סוחוי-35 וסוחוי-34 בבסיס חאנסקאיה שברפובליקת אדיגיה ברוסיה, במרחק של כ-500 קילומטרים.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T13:17:00+00:00",
+    "last_update_at": "2026-10-04T15:13:46+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת למטוסים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_93f7211839d8696e",
+      "url": "https://kyivindependent.com/russian-su-35-su-34-fighter-jets-hit-by-drones-at-airfield-in-adygea-sbu-says/",
+      "published_at": "2026-10-04T15:13:46+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_93f7211839d8696e",
+      "url": "https://www.ukrinform.net/rubric-ato/4170953-ukrainian-drones-hit-two-russian-fighter-jets-at-air-base-in-adygea.html",
+      "published_at": "2026-10-04T14:43:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_93f7211839d8696e",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056419/",
+      "published_at": "2026-10-04T13:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס חאנסקאיה, אדיגיה, רוסיה",
+      "lat": 44.6783,
+      "lon": 40.0317
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-02",
+    "title": "פגיעות כטב\"מים בגשר הצפוני בקייב",
+    "summary": "רוסיה תקפה את הגשר הצפוני מעל נהר הדנייפר בקייב באמצעות כטב\"מים, מה שהוביל לפציעת שני בני אדם ולשיבושי תנועה כבדים.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T09:14:04+00:00",
+    "last_update_at": "2026-10-04T14:53:11+00:00",
+    "what_is_not_verified": "האם מדובר בטיל שיוט או בכטב\"ם סילוני כפי שנטען בחלק מהדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48245",
+      "published_at": "2026-10-04T14:53:11+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
+      "published_at": "2026-10-04T14:35:31+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4170930-two-people-injured-in-russian-strike-on-northern-bridge-in-kyiv.html",
+      "published_at": "2026-10-04T12:24:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-04T12:09:04+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/04/russia-strikes-kyiv-bridge-german-chancellor-merz-visits-ukraine",
+      "published_at": "2026-10-04T11:53:09+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131320",
+      "published_at": "2026-10-04T11:49:15+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21548548",
+      "published_at": "2026-10-04T11:29:21+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/byasbjyszg",
+      "published_at": "2026-10-04T10:30:41+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
+      "published_at": "2026-10-04T09:14:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-03",
+    "title": "התרסקות כלי טיס בלתי מאויש במחוז אובולון בקייב",
+    "summary": "כלי טיס בלתי מאויש רוסי הנושא חימוש שלא התפוצץ התרסק ברובע אובולון שבקייב, וצוותי חירום הוזעקו לזירה.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T15:08:00+00:00",
+    "last_update_at": "2026-10-04T15:08:00+00:00",
+    "what_is_not_verified": "נסיבות ההתרסקות והיקף הנזק סביב הנפילה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056436/",
+      "published_at": "2026-10-04T15:08:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רובע אובולונסקי, קייב, אוקראינה",
+      "lat": 50.5306,
+      "lon": 30.4384
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-04",
+    "title": "ביקור קנצלר גרמניה בקייב והכרזה על חבילת סיוע",
+    "summary": "קנצלר גרמניה פרידריך מרץ הגיע לביקור רשמי בקייב והודיע יחד עם זלנסקי על חבילת סיוע ביטחוני בשווי 1.46 מיליארד דולר ועל הסכם לשיתוף פעולה ביירוט כטב\"מים.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T06:58:11+00:00",
+    "last_update_at": "2026-10-04T15:00:00+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק להגעת כטב\"מי היירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4170960-germany-working-to-accelerate-ukraines-accession-to-eu-merz.html",
+      "published_at": "2026-10-04T15:00:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
+      "published_at": "2026-10-04T14:35:31+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4170952-zelensky-merz-meet-rescuers-who-cleared-aftermath-of-russian-strike-on-science-academy-in-kyiv.html",
+      "published_at": "2026-10-04T14:22:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4170948-ukraine-germany-sign-agreement-on-cooperation-in-countering-uavs.html",
+      "published_at": "2026-10-04T14:02:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
+      "published_at": "2026-10-04T13:18:47+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/german-chancellor-merz-arrives-in-kyiv-pledges-further-support-for-ukraine/",
+      "published_at": "2026-10-04T06:58:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-05",
+    "title": "שריפות בתחנות כוח סולאריות בחצי האי קרים",
+    "summary": "שריפה פרצה בתחנת כוח סולארית בניקולייבקה שבמחוז סימפרופול בחצי האי קרים הכבוש, לפי פרסומים ברשתות החברתיות.",
+    "axis": "קרים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T15:26:00+00:00",
+    "last_update_at": "2026-10-04T15:26:00+00:00",
+    "what_is_not_verified": "סיבת פרוץ השריפות ומידת הפגיעה בתחנה השנייה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4170977-fires-break-out-at-two-solar-power-plants-in-occupied-crimea-social-media.html",
+      "published_at": "2026-10-04T15:26:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז סימפרופול, קרים",
+      "lat": 44.9402,
+      "lon": 34.1198
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-06",
+    "title": "אספקת סיוע הומניטרי באמצעות רחפנים לעיר אולשקי",
+    "summary": "הצבא האוקראיני ביצע מבצע שני להטסת סיוע הומניטרי באמצעות רחפנים לתושבי העיר הכבושה אולשקי הסובלים ממחסור במזון, מים ותרופות.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T14:41:31+00:00",
+    "last_update_at": "2026-10-04T14:41:31+00:00",
+    "what_is_not_verified": "כמות הציוד שהועברה בפועל במבצע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/news-from-occupied-ukraine-military-delivers-aid-by-drone-to-occupied-oleshky-in-second-operation/",
+      "published_at": "2026-10-04T14:41:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-07",
+    "title": "הסכמת אוקראינה למפגש טכני משולש באיחוד האמירויות",
+    "summary": "הנשיא זלנסקי הודיע כי אוקראינה הביעה נכונות להשתתף במפגש טכני משולש עם ארצות הברית ורוסיה שתוכנן להתקיים באיחוד האמירויות עד סוף חודש אוקטובר.",
+    "axis": "דיפלומטיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T13:39:00+00:00",
+    "last_update_at": "2026-10-04T13:45:00+00:00",
+    "what_is_not_verified": "האם רוסיה הסכימה לקחת חלק במפגש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4170947-ukraine-agrees-to-trilateral-technical-meeting-in-uae-ball-is-now-in-russias-court-zelensky.html",
+      "published_at": "2026-10-04T13:45:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056421/",
+      "published_at": "2026-10-04T13:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-08",
+    "title": "הצבת עמדות יירוט כטב\"מים באזור קייב",
+    "summary": "נשיא אוקראינה מסר כי מעל שתים-עשרה עמדות יירוט מיוחדות להתמודדות עם כטב\"מי סילון הוצבו בקייב, ושמונה נוספות יוצבו ברחבי המחוז.",
+    "axis": "קייב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T13:28:00+00:00",
+    "last_update_at": "2026-10-04T13:28:00+00:00",
+    "what_is_not_verified": "מועד הפריסה המלא של העמדות הנוספות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4170944-zelensky-more-than-12-turrets-to-counter-jetpowered-drones-installed-in-kyiv.html",
+      "published_at": "2026-10-04T13:28:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10041541-09",
+    "title": "איום רוסי בפגיעה בלווייני סטארלינק",
+    "summary": "דמיטרי מדבדב איים כי ניסיון לפגוע במערך הלוויינים הרוסי רסבט יוביל לתגובה נגד לווייני סטארלינק וללוחמת חלל כוללת.",
+    "axis": "רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T12:42:00+00:00",
+    "last_update_at": "2026-10-04T12:42:00+00:00",
+    "what_is_not_verified": "היכולת המעשית והאמצעים שבהם רוסיה מתכוונת לפגוע בלוויינים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_772f8be306c420f1",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056413/",
+      "published_at": "2026-10-04T12:42:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "סוג החימוש שפגע בגשר הצפוני בקייב – טיל שיוט מדגם S8000 או כטב\"ם סילוני",
+   "טענת אוקראינה לפיה בידיה מסמכי מודיעין על דוקטרינה רוסית לתקיפת אזרחים בלבד כדי לרוקן ערים",
+   "תוכניות פינוי של שגרירויות מערביות מקייב בעקבות התקיפות",
+   "סיבת השריפות בתחנות הכוח הסולאריות בחצי האי קרים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1225,
+    "unit": "USD",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להגביר תקיפות נגד בתי זיקוק רוסיים כדי לפגוע במימון המלחמה",
+     "לקדם הצטרפות מואצת לאיחוד האירופי ולהשיג הסכמי יירוט כטב\"מים עם גרמניה",
+     "להשתתף במפגש טכני משולש באיחוד האמירויות לבחינת הפסקת תקיפות הדדית על אנרגיה"
+    ],
+    "inferred": [
+     "החלשת יכולות חיל האוויר הרוסי באמצעות פגיעה במטוסים מתקדמים בעומק הבסיסים",
+     "הגנה דחופה על נתיבי התחבורה והתקשורת בבירה קייב לקראת עונת החורף"
+    ],
+    "forecast": [
+     "המשך מיקוד התקיפות בנכסי נפט ותעופה בעומק רוסיה לצד פריסת עמדות הגנה אווירית נוספות סביב קייב"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "תקיפת מתקני תעשייה ביטחונית ותשתיות נלוות בתגובה לפעולות אוקראינה",
+     "איום בהשמדת לווייני סטארלינק אם יוטלו סנקציות או ייחסם מערך רסבט"
+    ],
+    "inferred": [
+     "שיבוש התנועה והתקשורת בקייב כדי להפעיל לחץ פסיכולוגי ואזרחי על הנהגת המדינה",
+     "שליטה מלאה במחוז דונבאס כתנאי מוקדם לכל משא ומתן עתידי"
+    ],
+    "forecast": [
+     "המשך שימוש נרחב בכטב\"מי סילון לפגיעה בגשרים, מתקני אנרגיה ומרכזי נתונים באוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21548548",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/news-from-occupied-ukraine-military-delivers-aid-by-drone-to-occupied-oleshky-in-second-operation/",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056413/",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131320",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48245",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4170944-zelensky-more-than-12-turrets-to-counter-jetpowered-drones-installed-in-kyiv.html",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/byasbjyszg",
+    "accessed_at": "2026-10-04T15:41:12+00:00"
+   }
+  ]
+ }
+}
