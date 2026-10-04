@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-04T05:17:28+00:00",
-  "fetched_at": "2026-10-04T05:17:28+00:00"
+  "checked_at": "2026-10-04T05:58:32+00:00",
+  "fetched_at": "2026-10-04T05:58:32+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T05:17:37+00:00",
-  "fetched_at": "2026-10-04T05:17:37+00:00"
+  "checked_at": "2026-10-04T05:58:46+00:00",
+  "fetched_at": "2026-10-04T05:58:46+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T05:17:38+00:00",
-  "fetched_at": "2026-10-04T05:17:38+00:00"
+  "checked_at": "2026-10-04T05:58:46+00:00",
+  "fetched_at": "2026-10-04T05:58:46+00:00"
  },
- "generated_at": "2026-10-04T05:17:38+00:00",
+ "generated_at": "2026-10-04T05:58:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-04T02:50:00+00:00"
     },
     {
-     "title": "לוחם נפצע קשה וקצין נפצע בינוני מפיצוץ רימון בדרום לבנון",
+     "title": "תאונה קשה בלבנון: רימון התפוצץ במהלך פעילות מבצעית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558318",
-     "date": "2026-10-04T04:04:00+00:00"
+     "date": "2026-10-04T05:48:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-04T05:17:29+00:00",
-  "fetched_at": "2026-10-04T05:17:29+00:00"
+  "checked_at": "2026-10-04T05:58:33+00:00",
+  "fetched_at": "2026-10-04T05:58:33+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T05:17:30+00:00",
-  "fetched_at": "2026-10-04T05:17:30+00:00"
+  "checked_at": "2026-10-04T05:58:34+00:00",
+  "fetched_at": "2026-10-04T05:58:34+00:00"
  },
  "tv": {
   "data": [
@@ -2487,8 +2487,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T05:17:31+00:00",
-  "fetched_at": "2026-10-04T05:17:31+00:00"
+  "checked_at": "2026-10-04T05:58:35+00:00",
+  "fetched_at": "2026-10-04T05:58:35+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2597,8 +2597,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-04T05:17:31+00:00",
-  "fetched_at": "2026-10-04T05:17:31+00:00"
+  "checked_at": "2026-10-04T05:58:35+00:00",
+  "fetched_at": "2026-10-04T05:58:35+00:00"
  },
  "ai": {
   "data": {
@@ -2634,28 +2634,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 272,
+     "likes": 273,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
-    },
-    {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 170,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 84,
+     "likes": 86,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
+    },
+    {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 171,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 235,
+     "likes": 236,
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
@@ -2696,8 +2696,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-04T05:17:37+00:00",
-  "fetched_at": "2026-10-04T05:17:37+00:00"
+  "checked_at": "2026-10-04T05:58:44+00:00",
+  "fetched_at": "2026-10-04T05:58:44+00:00"
  },
  "abroad": {
   "data": {
@@ -3013,16 +3013,11 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-04T05:17:34+00:00",
-  "fetched_at": "2026-10-04T05:17:34+00:00"
+  "checked_at": "2026-10-04T05:58:38+00:00",
+  "fetched_at": "2026-10-04T05:58:38+00:00"
  },
  "idf": {
   "data": [
-   {
-    "title": "לוחם נפצע קשה וקצין נפצע בינוני בתאונה מבצעית בדרום לבנון",
-    "link": "https://www.walla.co.il/news/military/383956179",
-    "date": "2026-10-04T03:15:38+00:00"
-   },
    {
     "title": "שבת של טרור יהודי: דיווח על פלסטיני שנפצע אנוש לאחר שהותקף ע\"י רעולי פנים יהודים",
     "link": "https://www.walla.co.il/news/military/383956112",
@@ -3042,94 +3037,99 @@ window.DB.generated = {
     "title": "בג\"ץ התיר לפרסם: סא\"ל אריה עמידרור היה קמ\"ן אוגדת עזה ב-7 באוקטובר",
     "link": "https://www.walla.co.il/news/military/383955953",
     "date": "2026-10-01T07:50:41+00:00"
+   },
+   {
+    "title": "הישראלי שהשתלט על המחבל בטיסה מדובאי: ״קשרנו אותו עם אזניות מולטימדיה״",
+    "link": "https://www.walla.co.il/news/military/383955864",
+    "date": "2026-09-30T14:34:19+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T05:17:34+00:00",
-  "fetched_at": "2026-10-04T05:17:34+00:00"
+  "checked_at": "2026-10-04T05:58:38+00:00",
+  "fetched_at": "2026-10-04T05:58:38+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-04T04:04:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "newest": "2026-10-04T05:48:00+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-04T03:06:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-04T03:03:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-04T04:58:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "newest": "2026-10-04T05:37:00+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-04T04:39:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-04T04:52:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "newest": "2026-10-04T05:17:00+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-04T03:15:38+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "newest": "2026-10-03T17:06:04+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-03T17:06:35+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-01T13:00:21+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-03T19:00:00+00:00",
-    "seen_at": "2026-10-04T05:17:38+00:00",
+    "seen_at": "2026-10-04T05:58:46+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-04T05:17:38+00:00"
+  "checked_at": "2026-10-04T05:58:46+00:00"
  }
 };
