@@ -498,6 +498,10 @@
 18.3,
 42.7333
 ],
+"khanskaya air base, adygea, russia": [
+44.6783,
+40.0317
+],
 "kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
 50.0323,
@@ -524,6 +528,10 @@
 13.8062,
 43.2494
 ],
+"khurais, saudi arabia": [
+25.2677,
+48.1771
+],
 "kirsehir, turkey": [
 39.3303,
 34.1266
@@ -531,6 +539,10 @@
 "kostiantynivka, ukraine": [
 48.5349,
 37.6924
+],
+"kounine, lebanon": [
+33.1496,
+35.4467
 ],
 "kramatorsk, ukraine": [
 48.7389,
@@ -1105,6 +1117,10 @@
 50.3917,
 30.3679
 ],
+"wadi al-hujair, lebanon": [
+33.2589,
+35.459
+],
 "wadi al-maqatrah, yemen": null,
 "wadi al-raqqad, syria": [
 32.8011,
@@ -1164,6 +1180,7 @@
 35.1183
 ],
 "zawtar al-gharb, lebanon": null,
+"zawtar el charkiyeh, lebanon": null,
 "zhytomyr, ukraine": [
 50.2601,
 28.6696
