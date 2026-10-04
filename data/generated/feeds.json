@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-04T16:17:25+00:00",
-  "fetched_at": "2026-10-04T16:17:25+00:00"
+  "checked_at": "2026-10-04T17:03:51+00:00",
+  "fetched_at": "2026-10-04T17:03:51+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T16:17:35+00:00",
-  "fetched_at": "2026-10-04T16:17:35+00:00"
+  "checked_at": "2026-10-04T17:04:04+00:00",
+  "fetched_at": "2026-10-04T17:04:04+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T16:17:36+00:00",
-  "fetched_at": "2026-10-04T16:17:36+00:00"
+  "checked_at": "2026-10-04T17:04:04+00:00",
+  "fetched_at": "2026-10-04T17:04:04+00:00"
  },
- "generated_at": "2026-10-04T16:17:36+00:00",
+ "generated_at": "2026-10-04T17:04:04+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,7 +92,7 @@
     {
      "title": "ההתקרבות לישראל שנבלמה: קרע דיפלומטי בגלל טיסת פליי דובאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558318",
-     "date": "2026-10-04T14:51:00+00:00"
+     "date": "2026-10-04T16:51:00+00:00"
     }
    ],
    "market": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-04T16:17:26+00:00",
-  "fetched_at": "2026-10-04T16:17:26+00:00"
+  "checked_at": "2026-10-04T17:03:53+00:00",
+  "fetched_at": "2026-10-04T17:03:53+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T16:17:27+00:00",
-  "fetched_at": "2026-10-04T16:17:27+00:00"
+  "checked_at": "2026-10-04T17:03:53+00:00",
+  "fetched_at": "2026-10-04T17:03:53+00:00"
  },
  "tv": {
   "data": [
@@ -2534,8 +2534,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-04T16:17:28+00:00",
-  "fetched_at": "2026-10-04T16:17:28+00:00"
+  "checked_at": "2026-10-04T17:03:58+00:00",
+  "fetched_at": "2026-10-04T17:03:58+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2644,8 +2644,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-04T16:17:28+00:00",
-  "fetched_at": "2026-10-04T16:17:28+00:00"
+  "checked_at": "2026-10-04T17:03:58+00:00",
+  "fetched_at": "2026-10-04T17:03:58+00:00"
  },
  "ai": {
   "data": {
@@ -2668,29 +2668,27 @@
     }
    ],
    "candidates": 8,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 422,
+     "likes": 423,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 283,
+     "likes": 285,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2745,21 +2743,12 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-04T16:17:34+00:00",
-  "fetched_at": "2026-10-04T16:17:34+00:00"
+  "checked_at": "2026-10-04T17:04:03+00:00",
+  "fetched_at": "2026-10-04T17:04:03+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "\"ההיעדרות של גורן תהיה משמעותית לבלטי במשחק\"",
-     "link": "https://www.one.co.il/Article/535054.html?ref=rss",
-     "date": "2026-10-04T13:20:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
     {
      "title": "בראש של אוסקר: אחרי הספסול, גלוך מחפש את התיקון",
      "link": "https://sports.walla.co.il/item/3870804",
@@ -2805,16 +2794,6 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "למה אין מחליף לרביבו והאם חלאילי מושפע מהלחץ?",
-     "link": "https://www.one.co.il/Article/534867.html?ref=rss",
-     "date": "2026-10-02T04:20:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי",
-      "רועי רביבו"
      ]
     },
     {
@@ -3045,8 +3024,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-04T16:17:31+00:00",
-  "fetched_at": "2026-10-04T16:17:31+00:00"
+  "checked_at": "2026-10-04T17:04:00+00:00",
+  "fetched_at": "2026-10-04T17:04:00+00:00"
  },
  "idf": {
   "data": [
@@ -3076,8 +3055,9 @@
     "date": "2026-10-03T07:16:06+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-04T16:17:32+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-04T17:04:00+00:00",
   "fetched_at": "2026-10-04T16:17:32+00:00"
  },
  "feed_health": {
@@ -3085,38 +3065,38 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-04T16:15:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "newest": "2026-10-04T16:51:00+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-04T15:31:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-04T15:29:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-03T05:27:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-04T16:05:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "newest": "2026-10-04T16:42:00+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-04T13:03:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "newest": "2026-10-04T16:48:00+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
@@ -3134,34 +3114,34 @@
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-04T14:17:37+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-04T16:02:01+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-04T15:04:49+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-03T19:00:00+00:00",
-    "seen_at": "2026-10-04T16:17:36+00:00",
+    "seen_at": "2026-10-04T17:04:04+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-04T16:17:36+00:00"
+  "checked_at": "2026-10-04T17:04:04+00:00"
  }
 }
