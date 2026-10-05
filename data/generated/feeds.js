@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T08:17:27+00:00",
-  "fetched_at": "2026-10-05T08:17:27+00:00"
+  "checked_at": "2026-10-05T09:09:24+00:00",
+  "fetched_at": "2026-10-05T09:09:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T08:17:35+00:00",
-  "fetched_at": "2026-10-05T08:17:35+00:00"
+  "checked_at": "2026-10-05T09:09:37+00:00",
+  "fetched_at": "2026-10-05T09:09:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,44 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T08:17:36+00:00",
-  "fetched_at": "2026-10-05T08:17:36+00:00"
+  "checked_at": "2026-10-05T09:09:38+00:00",
+  "fetched_at": "2026-10-05T09:09:38+00:00"
  },
- "generated_at": "2026-10-05T08:17:36+00:00",
+ "generated_at": "2026-10-05T09:09:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הכמעט אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
-     "date": "2026-10-05T07:03:00+00:00"
+     "title": "הרבעון שהוכיח: קרנות גידור יכולות להפסיד לבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558376",
+     "date": "2026-10-05T09:06:00+00:00"
     },
     {
      "title": "התפתחות דרמטית: המצור האיראני נשבר, הישג עצום לארה\"ב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558405",
-     "date": "2026-10-05T08:13:00+00:00"
+     "date": "2026-10-05T08:38:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מגמה מעורבת באירופה: שניידר אלקטריק נחתכת בעקבות עסקת רכישה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
+     "date": "2026-10-05T08:08:00+00:00"
+    },
+    {
+     "title": "מגמה חיובית בתל אביב בהובלת מניות האנרגיה והקלינטק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558349",
+     "date": "2026-10-05T07:39:00+00:00"
+    },
+    {
      "title": "ראש ממשלת ספרד הכריז על בחירות בזק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558412",
      "date": "2026-10-05T07:24:00+00:00"
+    },
+    {
+     "title": "הכמעט אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
+     "date": "2026-10-05T07:03:00+00:00"
     },
     {
      "title": "איך תשפיע פרשת טיסת פליי דובאי על הסכמי אברהם? מומחים מסבירים",
@@ -109,27 +124,12 @@ window.DB.generated = {
      "date": "2026-10-05T05:51:00+00:00"
     },
     {
-     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558349",
-     "date": "2026-10-05T04:43:00+00:00"
-    },
-    {
-     "title": "הנפט בנסיגה, הניקיי שובר שיאים היסטוריים וגם: מתי משקיעי האג\"ח צריכים להתחיל לדאוג?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
-     "date": "2026-10-05T03:57:00+00:00"
-    },
-    {
      "title": "המוניטין המפוקפק של אוקטובר בשווקים. ומה יקרה השנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558404",
      "date": "2026-10-05T03:17:00+00:00"
     },
     {
-     "title": "הבעלים שמורווח מיליארדים והפזילה למדד הדגל: הכול עובד לטובת אל על",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
-     "date": "2026-10-05T02:55:00+00:00"
-    },
-    {
-     "title": "הדשדוש בבורסה פגע בביצועי קרנות הגידור: הציגו תשואות חסר מול המדד",
+     "title": "הרבעון שהוכיח: קרנות גידור יכולות להפסיד לבורסה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558376",
      "date": "2026-10-05T02:52:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T08:17:28+00:00",
-  "fetched_at": "2026-10-05T08:17:28+00:00"
+  "checked_at": "2026-10-05T09:09:26+00:00",
+  "fetched_at": "2026-10-05T09:09:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T08:17:29+00:00",
-  "fetched_at": "2026-10-05T08:17:29+00:00"
+  "checked_at": "2026-10-05T09:09:27+00:00",
+  "fetched_at": "2026-10-05T09:09:27+00:00"
  },
  "tv": {
   "data": [
@@ -2424,8 +2424,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T08:17:30+00:00",
-  "fetched_at": "2026-10-05T08:17:30+00:00"
+  "checked_at": "2026-10-05T09:09:28+00:00",
+  "fetched_at": "2026-10-05T09:09:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2534,12 +2534,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T08:17:30+00:00",
-  "fetched_at": "2026-10-05T08:17:30+00:00"
+  "checked_at": "2026-10-05T09:09:28+00:00",
+  "fetched_at": "2026-10-05T09:09:28+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/trumps-ai-rebrand-leads-to-domain-buying-frenzy/",
+     "date": "2026-10-05T06:39:48+00:00",
+     "launch": false,
+     "title": "טראמפ נתן ל-AI שם חדש, וגרם להתנפלות על דומיינים סלובניים"
+    },
     {
      "source": "Google",
      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -2548,20 +2555,11 @@ window.DB.generated = {
      "title_en": "The latest AI news we announced in September 2026",
      "title_he": "את החדשות האחרונות של AI הכרזנו בספטמבר 2026",
      "translated_by": "google"
-    },
-    {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/claude-frontier-academy",
-     "date": "2026-10-02T12:00:00+00:00",
-     "launch": false,
-     "title_en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-     "title_he": "אנתרופיק משקיעה 100 מיליון דולר כדי להכשיר 10,000 מהנדסים ולהתמודד עם פער הכישרונות בינה מלאכותית ארגונית",
-     "translated_by": "google"
     }
    ],
-   "candidates": 2,
+   "candidates": 8,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2575,7 +2573,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 301,
+     "likes": 303,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2596,7 +2594,7 @@ window.DB.generated = {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 121,
+     "likes": 123,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
@@ -2628,17 +2626,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
     },
     {
-     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
-     "desc_en": "AnyPose pose still with a strong pose-reference lock",
-     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 651,
-     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 170,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T08:17:34+00:00",
-  "fetched_at": "2026-10-05T08:17:34+00:00"
+  "checked_at": "2026-10-05T09:09:37+00:00",
+  "fetched_at": "2026-10-05T09:09:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2678,16 +2676,6 @@ window.DB.generated = {
      "players": [
       "מנור סולומון",
       "תאי בריבו"
-     ]
-    },
-    {
-     "title": "סולומון ושלמה לא התאמנו, חלאילי כנראה ייעדר מול אירלנד",
-     "link": "https://sports.walla.co.il/item/3870672",
-     "date": "2026-10-03T11:13:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון",
-      "ענאן חלאילי"
      ]
     },
     {
@@ -2937,8 +2925,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T08:17:33+00:00",
-  "fetched_at": "2026-10-05T08:17:33+00:00"
+  "checked_at": "2026-10-05T09:09:32+00:00",
+  "fetched_at": "2026-10-05T09:09:32+00:00"
  },
  "idf": {
   "data": [
@@ -2969,58 +2957,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T08:17:33+00:00",
-  "fetched_at": "2026-10-05T08:17:33+00:00"
+  "checked_at": "2026-10-05T09:09:32+00:00",
+  "fetched_at": "2026-10-05T09:09:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T08:13:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "newest": "2026-10-05T09:07:00+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-05T04:43:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "newest": "2026-10-05T08:08:00+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-05T07:30:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-05T08:00:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "newest": "2026-10-05T08:46:00+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-05T07:41:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "newest": "2026-10-05T08:11:00+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T08:07:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "newest": "2026-10-05T08:36:00+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-05T05:31:45+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3032,28 +3020,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-05T06:39:48+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T07:44:05+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-04T15:04:49+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-05T07:00:00+00:00",
-    "seen_at": "2026-10-05T08:17:36+00:00",
+    "seen_at": "2026-10-05T09:09:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T08:17:36+00:00"
+  "checked_at": "2026-10-05T09:09:38+00:00"
  }
 };
