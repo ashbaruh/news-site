@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T13:17:23+00:00",
-  "fetched_at": "2026-10-05T13:17:23+00:00"
+  "checked_at": "2026-10-05T14:17:28+00:00",
+  "fetched_at": "2026-10-05T14:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T13:17:34+00:00",
-  "fetched_at": "2026-10-05T13:17:34+00:00"
+  "checked_at": "2026-10-05T14:17:39+00:00",
+  "fetched_at": "2026-10-05T14:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "LG C6 48-inch (OLED48C6)",
+    "title_he": "LG C6 48 אינץ' (OLED48C6)",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/lg-c6-48-inch-oled48c6",
+    "date": "2026-10-05T13:52:02+00:00"
+   },
    {
     "title_en": "Sony WH-1000XM4C",
     "title_he": "סוני WH-1000XM4C",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/nrl-grand-final-2026-roosters-vs-knights-for-free",
     "date": "2026-10-03T19:00:00+00:00"
-   },
-   {
-    "title_en": "It’s hard to know which Sonos soundbar is best for your living room – and I’m learning that first-hand",
-    "title_he": "קשה לדעת איזה Sonos soundbar הכי מתאים לסלון שלך - ואני לומד את זה ממקור ראשון",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/its-hard-to-know-which-sonos-soundbar-is-best-for-your-living-room-and-im-learning-that-first-hand",
-    "date": "2026-10-03T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T13:17:34+00:00",
-  "fetched_at": "2026-10-05T13:17:34+00:00"
+  "checked_at": "2026-10-05T14:17:41+00:00",
+  "fetched_at": "2026-10-05T14:17:41+00:00"
  },
- "generated_at": "2026-10-05T13:17:34+00:00",
+ "generated_at": "2026-10-05T14:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -90,12 +90,27 @@
      "date": "2026-10-05T13:05:00+00:00"
     },
     {
-     "title": "הסלמה בתימן: \"100 מטוסי קרב תקפו מאות מטרות\"",
+     "title": "4,000 ממחבלי 7.10 חוסלו, ראש השב\"כ: חמאס מתכנן מתקפה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558405",
-     "date": "2026-10-05T13:01:00+00:00"
+     "date": "2026-10-05T13:46:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "פתיחה מעורבת בוול סטריט; תשואות האג\"ח ממשיכות לטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
+     "date": "2026-10-05T14:00:00+00:00"
+    },
+    {
+     "title": "ירידות בתל אביב; מדד הבנייה נופל במעל 3%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558349",
+     "date": "2026-10-05T13:56:00+00:00"
+    },
+    {
+     "title": "במקום הנפקה: גרין לנטרן בוחנת השקעה בקיסו בשווי 300-330 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558447",
+     "date": "2026-10-05T13:52:00+00:00"
+    },
     {
      "title": "לקרנות ההשקעה הפרטיות יש בעיה, והממשל האמריקאי חושב שהארנק שלכם יכול לפתור אותה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558342",
@@ -105,11 +120,6 @@
      "title": "השורטיסט שעם פחות מ־10 מיליון דולר השתלט על חברת נדל\"ן שהסתבכה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558370",
      "date": "2026-10-05T13:05:00+00:00"
-    },
-    {
-     "title": "ירידות בתל אביב, בהובלת מניות הבנייה והביטוח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558349",
-     "date": "2026-10-05T12:51:00+00:00"
     },
     {
      "title": "דלק ישראל משתלטת על זאפה: רשות התחרות אישרה את העסקה",
@@ -125,11 +135,6 @@
      "title": "עו\"ד שרה קנדלר מונתה למנכ”לית הרשות לניירות ערך",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558431",
      "date": "2026-10-05T11:53:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת באירופה; החוזים בוול סטריט מצביעים על פתיחה שלילית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
-     "date": "2026-10-05T11:26:00+00:00"
     },
     {
      "title": "הבסיס שישראל אולי כבר מחזיקה מול חופי תימן",
@@ -197,11 +202,6 @@
      "date": "2026-10-04T17:30:00+00:00"
     },
     {
-     "title": "לקראת השקעה של 10 מיליון דולר: ישראייר מטיסה משקיעים לקפריסין",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558372",
-     "date": "2026-10-04T15:31:00+00:00"
-    },
-    {
      "title": "\"הירוקים\" בבריטניה: ציונות היא גזענות, \"מדינת פלסטין\" צריכה לקום במקום ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558398",
      "date": "2026-10-04T15:29:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T13:17:24+00:00",
-  "fetched_at": "2026-10-05T13:17:24+00:00"
+  "checked_at": "2026-10-05T14:17:30+00:00",
+  "fetched_at": "2026-10-05T14:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T13:17:24+00:00",
-  "fetched_at": "2026-10-05T13:17:24+00:00"
+  "checked_at": "2026-10-05T14:17:31+00:00",
+  "fetched_at": "2026-10-05T14:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2422,8 +2422,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T13:17:25+00:00",
-  "fetched_at": "2026-10-05T13:17:25+00:00"
+  "checked_at": "2026-10-05T14:17:32+00:00",
+  "fetched_at": "2026-10-05T14:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2532,8 +2532,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T13:17:25+00:00",
-  "fetched_at": "2026-10-05T13:17:25+00:00"
+  "checked_at": "2026-10-05T14:17:32+00:00",
+  "fetched_at": "2026-10-05T14:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2569,28 +2569,28 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 308,
+     "likes": 313,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 113,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 188,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 128,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
@@ -2601,38 +2601,38 @@
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     },
     {
-     "title": "MiMo RL Environment Explorer",
-     "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
-     "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
-     "likes": 78,
-     "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
-    },
-    {
      "title": "JEV-27B Live Demo",
      "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
-     "likes": 90,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
     },
     {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 172,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 653,
+     "likes": 654,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+    },
+    {
+     "title": "MiMo RL Environment Explorer",
+     "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
+     "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
+     "likes": 78,
+     "link": "https://huggingface.co/spaces/FineEnvs/MiMo-RL-Envs-Explorer"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T13:17:33+00:00",
-  "fetched_at": "2026-10-05T13:17:33+00:00"
+  "checked_at": "2026-10-05T14:17:38+00:00",
+  "fetched_at": "2026-10-05T14:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -2939,11 +2939,21 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T13:17:28+00:00",
-  "fetched_at": "2026-10-05T13:17:28+00:00"
+  "checked_at": "2026-10-05T14:17:35+00:00",
+  "fetched_at": "2026-10-05T14:17:35+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "תקרית נוספת בסוריה: שני חשודים על אופנוע נעצרו לאחר שהתקרבו למוצב צה\"ל",
+    "link": "https://www.walla.co.il/news/military/383956358",
+    "date": "2026-10-05T13:54:26+00:00"
+   },
+   {
+    "title": "\"אין מצב שזו תקלה\": הרגע שבו חיל האוויר הבין שמטוס עם ישראלים נחטף | בלעדי",
+    "link": "https://www.walla.co.il/news/military/383956269",
+    "date": "2026-10-05T13:24:42+00:00"
+   },
    {
     "title": "הניצחון נמצא ביבשה? שלוש שנים ל-7 באוקטובר: פני הכישלון הצורב של הזרוע הגדולה בצה\"ל",
     "link": "https://www.walla.co.il/news/military/383956266",
@@ -2958,104 +2968,94 @@
     "title": "הרמטכ\"ל לציון שלוש שנים לטבח: \"נישא את סיפוריהם ונחנך לאורם דורות של מפקדים וחיילים\"",
     "link": "https://www.walla.co.il/news/military/383956277",
     "date": "2026-10-05T03:29:00+00:00"
-   },
-   {
-    "title": "חריג: חשוד ניסה לחדור למוצב צה\"ל בדרום סוריה - וחוסל ע\"י הכוחות במקום",
-    "link": "https://www.walla.co.il/news/military/383956275",
-    "date": "2026-10-04T21:36:12+00:00"
-   },
-   {
-    "title": "לקחי 7 באוקטובר: צה\"ל יגדיל את הסד\"כ וייערך למתקפת פתע רב-זירתית",
-    "link": "https://www.walla.co.il/news/military/383956245",
-    "date": "2026-10-04T15:29:53+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T13:17:29+00:00",
-  "fetched_at": "2026-10-05T13:17:29+00:00"
+  "checked_at": "2026-10-05T14:17:36+00:00",
+  "fetched_at": "2026-10-05T14:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T13:14:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T14:00:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-05T13:14:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T14:00:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-05T13:14:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:35:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-05T12:49:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:41:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-05T13:05:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:12:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T12:53:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:08:00+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-05T05:31:45+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:54:26+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-05T11:37:00+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-05T13:12:55+00:00",
-    "seen_at": "2026-10-05T13:17:34+00:00",
+    "newest": "2026-10-05T13:52:02+00:00",
+    "seen_at": "2026-10-05T14:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T13:17:34+00:00"
+  "checked_at": "2026-10-05T14:17:41+00:00"
  }
 }
