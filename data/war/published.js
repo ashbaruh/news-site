@@ -342,180 +342,176 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-04T1529__iran-202610041529.json",
+  "draft": "drafts/iran/2026-10-05T0935__iran-202610050935.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-04T15:29:08+00:00",
+   "generated_at": "2026-10-05T09:35:06+00:00",
    "window": {
-    "from": "2026-10-03T15:29:08+00:00",
-    "to": "2026-10-04T15:29:08+00:00"
+    "from": "2026-10-04T09:35:06+00:00",
+    "to": "2026-10-05T09:35:06+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610041529"
+    "run_id": "iran-202610050935"
    },
-   "summary": "הזירה מאופיינת במתיחות רבה סביב שליטת ארה\"ב במצר הורמוז, לצד סנקציות כלכליות חמורות המפעילות לחץ כבד על הכלכלה והמטבע באיראן. איראן ממשיכה לדרוש תנאים לפתיחת המצר ומאיימת בשדרוג טווח טיליה נגד בסיסים אמריקניים, בעוד ארה\"ב וישראל ממשיכות לשמור את כל האפשרויות פתוחות ולבחון את צעדיהן הבאים.",
+   "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל על רקע לחץ כלכלי כבד, סנקציות ופעולות מנע ביטחוניות כמו פינוי מפציצים אמריקאיים מבריטניה עקב חשש מאיומים. איראן ממשיכה להציג קו נוקשה ולטען לשליטה במרחבים ימיים, בעוד שגורמים רשמיים באיראן מדווחים על פגיעה חמורה במצב הכלכלי וחילופים בצמרת משרד הנפט.",
    "fronts": [
     {
-     "name": "המפרץ והורמוז",
-     "status": "פעיל ומתוח"
+     "name": "החזית הישירה איראן-ארה\"ב",
+     "status": "פעיל באמצעות לחץ כלכלי, מלחמת הצהרות וצעדי אבטחה"
     },
     {
-     "name": "הזירה הדיפלומטית-כלכלית",
-     "status": "בסנקציות ועימות כלכלי"
+     "name": "מרחב המפרץ ומצר הורמוז",
+     "status": "מתוח עם איומים איראניים על נתיבי שיט"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10041529-01",
-     "title": "תקיפת מכלית במצר הורמוז",
-     "summary": "מכלית נפגעה על ידי קליע לא מזוהה במצר הורמוז ונגרם נזק לחדר המכונות שלה, ללא נפגעים בקרב הצוות.",
+     "id": "IRAN-10050935-01",
+     "title": "פינוי מפציצי B-1 מבסיס בבריטניה בעקבות חשש מאיום איראני",
+     "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס בבריטניה לאחר מעצר חשודים במזימה שנקשרה לאיראן.",
+     "axis": "איראן מול ארה\"ב וישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-04T20:41:54+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-04T20:41:54+00:00",
+     "last_update_at": "2026-10-05T08:46:35+00:00",
+     "what_is_not_verified": "הקשר הישיר המדויק של כל החשודים לאיראן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/10/us-removes-bombers-uk-base-centre-suspected-iranian-plot",
+       "published_at": "2026-10-05T08:46:35+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_reuters",
+       "url": "https://t.me/abualiexpress/131361",
+       "published_at": "2026-10-05T05:50:01+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_reuters",
+       "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
+       "published_at": "2026-10-04T21:42:23+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_reuters",
+       "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
+       "published_at": "2026-10-04T20:41:54+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פיירפורד, בריטניה",
+       "lat": 51.7108,
+       "lon": -1.782
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10050935-02",
+     "title": "התפטרות שר הנפט של איראן",
+     "summary": "שר הנפט של איראן מחסן פאקנז'אד הודיע על התפטרותו על רקע לחץ כלכלי ומשבר נפט.",
      "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T09:07:28+00:00",
-     "last_update_at": "2026-10-04T09:07:28+00:00",
-     "what_is_not_verified": "זהות אלגורם או אמצעי הלחימה שפגע במכלית אינם ידועים בוודאות.",
+     "first_reported_at": "2026-10-04T17:23:14+00:00",
+     "last_update_at": "2026-10-05T00:58:30+00:00",
+     "what_is_not_verified": "סיבות אישיות אמיתיות לעומת לחץ מערכתי",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_2c26db0ba0effb3c",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-hit-unknown-projectile-strait-hormuz-ukmto-says",
-       "published_at": "2026-10-04T09:07:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10041529-02",
-     "title": "עמדות איראניות בנוגע לסגירת מצר הורמוז והצעת 7 הימים",
-     "summary": "בכירים באיראן ציינו כי הם בוחנים את תגובת ארצות הברית להצעתם בת שבעת הימים לפתיחת מצר הורמוז, אך הדגישו כי המצר יישאר סגור עד שוושינגטון תעמוד בשבעה תנאים.",
-     "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T08:55:24+00:00",
-     "last_update_at": "2026-10-04T14:52:46+00:00",
-     "what_is_not_verified": "פרטי התגובה האמריקאית המדויקים ותוקף ההצעה אינם מאומתים מעבר לדיווחים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_irna",
-       "url": "https://en.irna.ir/news/86283103/US-response-to-Iran-s-7-day-proposal-being-reviewed-Deputy-FM",
-       "published_at": "2026-10-04T14:52:46+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_irna",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-reponse-hormuz-proposal-currently-under-review-tehran",
-       "published_at": "2026-10-04T13:49:52+00:00"
-      },
       {
        "source_id": "src_iranintl",
-       "source_root_id": "or_irna",
-       "url": "https://www.iranintl.com/en/202610047470",
-       "published_at": "2026-10-04T13:22:34+00:00"
+       "source_root_id": "or_iran_international",
+       "url": "https://www.iranintl.com/en/202610051913",
+       "published_at": "2026-10-05T00:58:30+00:00"
       },
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_irna",
-       "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-       "published_at": "2026-10-04T11:11:30+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_iran_international",
+       "url": "https://www.al-monitor.com/originals/2026/10/irans-oil-minister-resigns-personal-reasons-state-media-reports",
+       "published_at": "2026-10-04T17:46:31+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_irna",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-strait-remain-closed-until-us-meets-seven-conditions",
-       "published_at": "2026-10-04T08:55:24+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10041529-03",
-     "title": "הצהרת איראן על שדרוג טווח הטילים",
-     "summary": "דובר צבא איראן הכריז על כוונת ארצו להגדיל את טווח הטילים הבליסטיים כדי לפגוע בבסיסים אמריקניים מרוחקים.",
-     "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T11:12:20+00:00",
-     "last_update_at": "2026-10-04T11:15:09+00:00",
-     "what_is_not_verified": "האם הטילים אכן שודרגו בפועל מעבר להצהרות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_israel_hayom",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21548568",
-       "published_at": "2026-10-04T11:15:09+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_israel_hayom",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-increase-range-its-missiles-army-spokesperson-tells-fars",
-       "published_at": "2026-10-04T11:12:20+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_iran_international",
+       "url": "https://t.me/abualiexpress/131336",
+       "published_at": "2026-10-04T17:23:14+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10041529-04",
-     "title": "פסיקת מאסר לתושב באר שבע בגין מגע עם סוכן איראני",
-     "summary": "תושב באר שבע נידון לשלוש שנות מאסר לאחר שהורשע במגע עם סוכן איראני והציע לו מידע תמורת תשלום.",
+     "id": "IRAN-10050935-03",
+     "title": "הצהרת בכיר משמרות המהפכה על נסיגת כוחות ארה\"ב ושליטה בהורמוז",
+     "summary": "מפקד במשמרות המהפכה טען כי כוחות ארה\"ב התרחקו ממרחק אלף קילומטרים וכי מצר הורמוז נמצא בשליטת איראן.",
      "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T07:45:22+00:00",
-     "last_update_at": "2026-10-04T07:45:22+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-05T06:53:35+00:00",
+     "last_update_at": "2026-10-05T06:53:35+00:00",
+     "what_is_not_verified": "טענת איראן על נסיגת כל כוחות ארה\"ב והיעדרות ספינות וושינגטון מהאזור",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_c1560725396e6260",
-       "url": "https://www.ynet.co.il/news/article/b1sdfkjofe",
-       "published_at": "2026-10-04T07:45:22+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-commander-says-us-forces-have-fled-1000km-irans-borders",
+       "published_at": "2026-10-05T06:53:35+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "IRAN-10050935-04",
+     "title": "הצהרת שר החוץ האיראני על אי-קיומו של פתרון צבאי",
+     "summary": "עבאס עראקצ'י אמר שאין פתרון צבאי לעימות בין ארה\"ב לאיראן ושנדרשות משלחות ומשא ומתן מבוסס צדק.",
+     "axis": "איראן מול ארה\"ב וישראל",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-04T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-04T10:30:27+00:00",
+     "last_update_at": "2026-10-05T06:59:46+00:00",
+     "what_is_not_verified": "אינו מאומת האם מתנהל משא ומתן ממשי מאחורי הקלעים",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "באר שבע, ישראל",
-       "lat": 31.2457,
-       "lon": 34.7925
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-634",
+       "published_at": "2026-10-05T06:59:46+00:00"
       },
       {
-       "name": "דימונה, ישראל",
-       "lat": 31.0687,
-       "lon": 35.0366
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
+       "published_at": "2026-10-04T22:09:03+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
+       "published_at": "2026-10-04T10:30:27+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "פרטי תגובת ארצות הברית המלאה להצעת שבעת הימים של איראן.",
-    "היactual יכולות של איראן לפגוע במטרות מרוחקות בטווחים של מעל 1,000 קילומטרים."
+    "מזימה איראנית מלאה לפגוע במפציצים באנגליה",
+    "טענות משמרות המהפכה על נסיגה מוחלטת של כוחות ארה\"ב אל מעבר לאלף קילומטר",
+    "היקף תנועת הנפט המדויק במצרי הורמוז תחת פיקוח זר"
    ],
    "map": {
     "confidence": "medium",
@@ -537,84 +533,78 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "סגירת מצר הורמוז עד לקיום תנאים מסוימים",
-      "הרחבת טווח הטילים הבליסטיים"
+      "המשך תיעוד פשיטות צבאיות והליכים משפטיים",
+      "דחיית פתרונות צבאיים או סנקציות חדשות"
      ],
      "inferred": [
-      "הפחתת הלחץ הכלכלי באמצעות לחץ על נתיבי השיט",
-      "הרתעת כוחות ארה\"ב במרחב"
+      "התמודדות עם לחץ כלכלי חריף וקריסת מטבע",
+      "ניסיון להרתיע כוחות זרים באמצעות שלוחות ואיומים ימיים"
      ],
      "forecast": [
-      "המשך מאבק כלכלי וצבאי מוגבל נגד נוכחות זרה במפרץ",
-      "שמירה על סירוב לפתרונות צבאיים מוכתבים"
+      "המשך מאבק בכלכלה המקומית ומציאת נתיבי עוקף לסנקציות הנפט"
      ]
     },
     {
      "actor": "ארה\"ב וישראל",
      "declared": [
-      "מניעת נשק גרעיני מאיראן",
-      "הבטחת זרימת נפט חופשית דרך מצר הורמוז"
+      "הגנה על נכסים צבאיים מפני איומי טרור",
+      "הפעלת לחץ כלכלי ומניעת ייצוא נפט איראני"
      ],
      "inferred": [
-      "הגברת הלחץ הכלכלי והפיננסי על טהרן",
-      "היערכות צבאית מתמשכת כאופציה לתגובה"
+      "צמצום חשיפת כוחות לתקיפות ממוקדות",
+      "המתנה לשינויים פוליטיים או הכרעה אסטרטגית לעתיד"
      ],
      "forecast": [
-      "שמירה על פריסת כוחות מוגברת באזור",
-      "המשך הלחץ הכלכלי על איראן לצד פתיחת פתח למוסדות תיווך"
+      "שמירה על סנקציות הדוקות ונוכחות צבאית מותאמת בבסיסים מרוחקים יותר"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610047470",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
-    },
-    {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86283103/US-response-to-Iran-s-7-day-proposal-being-reviewed-Deputy-FM",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
+     "url": "https://www.iranintl.com/en/202610051913",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21548568",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-increase-range-its-missiles-army-spokesperson-tells-fars",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
+    },
+    {
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/131336",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/b1sdfkjofe",
-     "accessed_at": "2026-10-04T15:29:08+00:00"
+     "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
+     "accessed_at": "2026-10-05T09:35:06+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-03T23:40:33+00:00",
+  "previous_generated_at": "2026-10-04T15:29:08+00:00",
   "changes": {
-   "IRAN-10041529-01": {
+   "IRAN-10050935-01": {
     "kind": "new"
    },
-   "IRAN-10041529-02": {
-    "kind": "possible",
-    "prev": "העברת מטען נפט גולמי דרך מצר הורמוז על ידי עיראק",
-    "score": 0.467
+   "IRAN-10050935-02": {
+    "kind": "new"
    },
-   "IRAN-10041529-03": {
-    "kind": "possible",
-    "prev": "הצהרת נשיא איראן על היערכות כלכלית מול סנקציות",
-    "score": 0.467
+   "IRAN-10050935-03": {
+    "kind": "new"
    },
-   "IRAN-10041529-04": {
+   "IRAN-10050935-04": {
     "kind": "new"
    }
   }

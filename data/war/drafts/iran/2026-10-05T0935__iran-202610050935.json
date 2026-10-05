@@ -1,0 +1,261 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6d83719fdf94",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-05T09:35:06+00:00",
+  "window": {
+   "from": "2026-10-04T09:35:06+00:00",
+   "to": "2026-10-05T09:35:06+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610050935"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל על רקע לחץ כלכלי כבד, סנקציות ופעולות מנע ביטחוניות כמו פינוי מפציצים אמריקאיים מבריטניה עקב חשש מאיומים. איראן ממשיכה להציג קו נוקשה ולטען לשליטה במרחבים ימיים, בעוד שגורמים רשמיים באיראן מדווחים על פגיעה חמורה במצב הכלכלי וחילופים בצמרת משרד הנפט.",
+  "fronts": [
+   {
+    "name": "החזית הישירה איראן-ארה\"ב",
+    "status": "פעיל באמצעות לחץ כלכלי, מלחמת הצהרות וצעדי אבטחה"
+   },
+   {
+    "name": "מרחב המפרץ ומצר הורמוז",
+    "status": "מתוח עם איומים איראניים על נתיבי שיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10050935-01",
+    "title": "פינוי מפציצי B-1 מבסיס בבריטניה בעקבות חשש מאיום איראני",
+    "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס בבריטניה לאחר מעצר חשודים במזימה שנקשרה לאיראן.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T20:41:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T20:41:54+00:00",
+    "last_update_at": "2026-10-05T08:46:35+00:00",
+    "what_is_not_verified": "הקשר הישיר המדויק של כל החשודים לאיראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-removes-bombers-uk-base-centre-suspected-iranian-plot",
+      "published_at": "2026-10-05T08:46:35+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_reuters",
+      "url": "https://t.me/abualiexpress/131361",
+      "published_at": "2026-10-05T05:50:01+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_reuters",
+      "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
+      "published_at": "2026-10-04T21:42:23+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_reuters",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
+      "published_at": "2026-10-04T20:41:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.7108,
+      "lon": -1.782
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10050935-02",
+    "title": "התפטרות שר הנפט של איראן",
+    "summary": "שר הנפט של איראן מחסן פאקנז'אד הודיע על התפטרותו על רקע לחץ כלכלי ומשבר נפט.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T17:23:14+00:00",
+    "last_update_at": "2026-10-05T00:58:30+00:00",
+    "what_is_not_verified": "סיבות אישיות אמיתיות לעומת לחץ מערכתי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_iran_international",
+      "url": "https://www.iranintl.com/en/202610051913",
+      "published_at": "2026-10-05T00:58:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_iran_international",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-oil-minister-resigns-personal-reasons-state-media-reports",
+      "published_at": "2026-10-04T17:46:31+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_iran_international",
+      "url": "https://t.me/abualiexpress/131336",
+      "published_at": "2026-10-04T17:23:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10050935-03",
+    "title": "הצהרת בכיר משמרות המהפכה על נסיגת כוחות ארה\"ב ושליטה בהורמוז",
+    "summary": "מפקד במשמרות המהפכה טען כי כוחות ארה\"ב התרחקו ממרחק אלף קילומטרים וכי מצר הורמוז נמצא בשליטת איראן.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T06:53:35+00:00",
+    "last_update_at": "2026-10-05T06:53:35+00:00",
+    "what_is_not_verified": "טענת איראן על נסיגת כל כוחות ארה\"ב והיעדרות ספינות וושינגטון מהאזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-commander-says-us-forces-have-fled-1000km-irans-borders",
+      "published_at": "2026-10-05T06:53:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10050935-04",
+    "title": "הצהרת שר החוץ האיראני על אי-קיומו של פתרון צבאי",
+    "summary": "עבאס עראקצ'י אמר שאין פתרון צבאי לעימות בין ארה\"ב לאיראן ושנדרשות משלחות ומשא ומתן מבוסס צדק.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-04T10:30:27+00:00",
+    "last_update_at": "2026-10-05T06:59:46+00:00",
+    "what_is_not_verified": "אינו מאומת האם מתנהל משא ומתן ממשי מאחורי הקלעים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-634",
+      "published_at": "2026-10-05T06:59:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
+      "published_at": "2026-10-04T22:09:03+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
+      "published_at": "2026-10-04T10:30:27+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מזימה איראנית מלאה לפגוע במפציצים באנגליה",
+   "טענות משמרות המהפכה על נסיגה מוחלטת של כוחות ארה\"ב אל מעבר לאלף קילומטר",
+   "היקף תנועת הנפט המדויק במצרי הורמוז תחת פיקוח זר"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשך תיעוד פשיטות צבאיות והליכים משפטיים",
+     "דחיית פתרונות צבאיים או סנקציות חדשות"
+    ],
+    "inferred": [
+     "התמודדות עם לחץ כלכלי חריף וקריסת מטבע",
+     "ניסיון להרתיע כוחות זרים באמצעות שלוחות ואיומים ימיים"
+    ],
+    "forecast": [
+     "המשך מאבק בכלכלה המקומית ומציאת נתיבי עוקף לסנקציות הנפט"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "הגנה על נכסים צבאיים מפני איומי טרור",
+     "הפעלת לחץ כלכלי ומניעת ייצוא נפט איראני"
+    ],
+    "inferred": [
+     "צמצום חשיפת כוחות לתקיפות ממוקדות",
+     "המתנה לשינויים פוליטיים או הכרעה אסטרטגית לעתיד"
+    ],
+    "forecast": [
+     "שמירה על סנקציות הדוקות ונוכחות צבאית מותאמת בבסיסים מרוחקים יותר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610051913",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131336",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
+    "accessed_at": "2026-10-05T09:35:06+00:00"
+   }
+  ]
+ }
+}
