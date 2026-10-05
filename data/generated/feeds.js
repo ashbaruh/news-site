@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T07:17:26+00:00",
-  "fetched_at": "2026-10-05T07:17:26+00:00"
+  "checked_at": "2026-10-05T08:17:27+00:00",
+  "fetched_at": "2026-10-05T08:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T07:17:35+00:00",
-  "fetched_at": "2026-10-05T07:17:35+00:00"
+  "checked_at": "2026-10-05T08:17:35+00:00",
+  "fetched_at": "2026-10-05T08:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T07:17:36+00:00",
-  "fetched_at": "2026-10-05T07:17:36+00:00"
+  "checked_at": "2026-10-05T08:17:36+00:00",
+  "fetched_at": "2026-10-05T08:17:36+00:00"
  },
- "generated_at": "2026-10-05T07:17:36+00:00",
+ "generated_at": "2026-10-05T08:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,17 @@ window.DB.generated = {
      "date": "2026-10-05T07:03:00+00:00"
     },
     {
-     "title": "האחראי על פיקוח חברות התעופה הזרות - קיבל במקביל כסף מ\"פליי דובאי\" על הדרכות | פרסום ראשון",
+     "title": "התפתחות דרמטית: המצור האיראני נשבר, הישג עצום לארה\"ב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558405",
-     "date": "2026-10-05T05:24:00+00:00"
+     "date": "2026-10-05T08:13:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "ראש ממשלת ספרד הכריז על בחירות בזק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558412",
+     "date": "2026-10-05T07:24:00+00:00"
+    },
     {
      "title": "איך תשפיע פרשת טיסת פליי דובאי על הסכמי אברהם? מומחים מסבירים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558407",
@@ -204,11 +209,6 @@ window.DB.generated = {
      "date": "2026-10-04T07:00:00+00:00"
     },
     {
-     "title": "טיל כתף ישראלי בדרך לכוחות אמריקאים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001557975",
-     "date": "2026-10-04T03:03:00+00:00"
-    },
-    {
      "title": "פערים של 6,000 שקל על אותו ביטוח: דגם הרכב משפיע יותר משחושבים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558268",
      "date": "2026-10-04T02:50:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T07:17:26+00:00",
-  "fetched_at": "2026-10-05T07:17:26+00:00"
+  "checked_at": "2026-10-05T08:17:28+00:00",
+  "fetched_at": "2026-10-05T08:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T07:17:27+00:00",
-  "fetched_at": "2026-10-05T07:17:27+00:00"
+  "checked_at": "2026-10-05T08:17:29+00:00",
+  "fetched_at": "2026-10-05T08:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2424,8 +2424,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T07:17:28+00:00",
-  "fetched_at": "2026-10-05T07:17:28+00:00"
+  "checked_at": "2026-10-05T08:17:30+00:00",
+  "fetched_at": "2026-10-05T08:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2534,19 +2534,12 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T07:17:28+00:00",
-  "fetched_at": "2026-10-05T07:17:28+00:00"
+  "checked_at": "2026-10-05T08:17:30+00:00",
+  "fetched_at": "2026-10-05T08:17:30+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/trumps-ai-rebrand-leads-to-domain-buying-frenzy/",
-     "date": "2026-10-05T06:39:48+00:00",
-     "launch": false,
-     "title": "טראמפ נתן ל-AI שם חדש, וגרם להתנפלות על דומיינים סלובניים"
-    },
     {
      "source": "Google",
      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -2555,45 +2548,49 @@ window.DB.generated = {
      "title_en": "The latest AI news we announced in September 2026",
      "title_he": "את החדשות האחרונות של AI הכרזנו בספטמבר 2026",
      "translated_by": "google"
+    },
+    {
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/claude-frontier-academy",
+     "date": "2026-10-02T12:00:00+00:00",
+     "launch": false,
+     "title_en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+     "title_he": "אנתרופיק משקיעה 100 מיליון דולר כדי להכשיר 10,000 מהנדסים ולהתמודד עם פער הכישרונות בינה מלאכותית ארגונית",
+     "translated_by": "google"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 438,
+     "likes": 439,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 299,
+     "likes": 301,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 106,
+     "likes": 107,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 180,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 253,
-     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
      "title": "ChessFly",
@@ -2610,6 +2607,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     },
     {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 253,
+     "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
+    },
+    {
      "title": "MiMo RL Environment Explorer",
      "desc_en": "Explore the MiMo-V2.6 RL environments and run rollouts",
      "desc_he": "חקור את סביבות MiMo-V2.6 RL והפעל השקות",
@@ -2620,7 +2624,7 @@ window.DB.generated = {
      "title": "JEV-27B Live Demo",
      "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
     },
     {
@@ -2633,8 +2637,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T07:17:34+00:00",
-  "fetched_at": "2026-10-05T07:17:34+00:00"
+  "checked_at": "2026-10-05T08:17:34+00:00",
+  "fetched_at": "2026-10-05T08:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2652,15 +2656,6 @@ window.DB.generated = {
      "title": "העצבים התפוצצו בסיום: גלוך ניגש לשחקן אירי",
      "link": "https://www.one.co.il/Article/535080.html?ref=rss",
      "date": "2026-10-04T20:48:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "\"היה מצוין\": המחמאות לאוסקר גלוך באירלנד",
-     "link": "https://www.one.co.il/Article/535078.html?ref=rss",
-     "date": "2026-10-04T20:40:00+00:00",
      "source": "ONE",
      "players": [
       "אוסקר גלוך"
@@ -2942,8 +2937,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T07:17:30+00:00",
-  "fetched_at": "2026-10-05T07:17:30+00:00"
+  "checked_at": "2026-10-05T08:17:33+00:00",
+  "fetched_at": "2026-10-05T08:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -2974,70 +2969,70 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T07:17:31+00:00",
-  "fetched_at": "2026-10-05T07:17:31+00:00"
+  "checked_at": "2026-10-05T08:17:33+00:00",
+  "fetched_at": "2026-10-05T08:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T07:07:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T08:13:00+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-05T04:43:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-05T05:51:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T07:30:00+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-05T06:59:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T08:00:00+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-05T07:00:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T07:41:00+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T06:43:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "newest": "2026-10-05T08:07:00+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-05T05:31:45+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3049,16 +3044,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-04T15:04:49+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-05T07:00:00+00:00",
-    "seen_at": "2026-10-05T07:17:36+00:00",
+    "seen_at": "2026-10-05T08:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T07:17:36+00:00"
+  "checked_at": "2026-10-05T08:17:36+00:00"
  }
 };
