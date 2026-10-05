@@ -342,176 +342,184 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-05T0935__iran-202610050935.json",
+  "draft": "drafts/iran/2026-10-05T2340__iran-202610052340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-05T09:35:06+00:00",
+   "generated_at": "2026-10-05T23:40:42+00:00",
    "window": {
-    "from": "2026-10-04T09:35:06+00:00",
-    "to": "2026-10-05T09:35:06+00:00"
+    "from": "2026-10-04T23:40:42+00:00",
+    "to": "2026-10-05T23:40:42+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610050935"
+    "run_id": "iran-202610052340"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל על רקע לחץ כלכלי כבד, סנקציות ופעולות מנע ביטחוניות כמו פינוי מפציצים אמריקאיים מבריטניה עקב חשש מאיומים. איראן ממשיכה להציג קו נוקשה ולטען לשליטה במרחבים ימיים, בעוד שגורמים רשמיים באיראן מדווחים על פגיעה חמורה במצב הכלכלי וחילופים בצמרת משרד הנפט.",
+   "summary": "העימות בין איראן מחד לבין ישראל וארה\"ב מאידך מתאפיין בהמשך לחץ כלכלי וסנקציות חריפות מצד וושינגטון המדרדרות את הכלכלה האיראנית, לצד אירועים ימיים במצר הורמוז והתרחבות החשדות לזירות חוץ כמו אירופה. במקביל, הזירות האזוריות רוחשות פעילות צבאית עצימה הכוללת מתקפות נגד בתימן וגיבוש בריתות הגנה חדשות במפרץ.",
    "fronts": [
     {
-     "name": "החזית הישירה איראן-ארה\"ב",
-     "status": "פעיל באמצעות לחץ כלכלי, מלחמת הצהרות וצעדי אבטחה"
+     "name": "הזירה הימית (הורמוז והים האדום)",
+     "status": "פעיל ומתוח"
     },
     {
-     "name": "מרחב המפרץ ומצר הורמוז",
-     "status": "מתוח עם איומים איראניים על נתיבי שיט"
+     "name": "הזירה הדיפלומטית-כלכלית (סנקציות ושיחות)",
+     "status": "מוקפא עם הסלמה"
+    },
+    {
+     "name": "זירת המפרץ ותימן (סעודיה מול שלוחחות איראן)",
+     "status": "הסלמה צבאית"
+    },
+    {
+     "name": "זירת אירופה (איומים על בסיסים אמריקאיים)",
+     "status": "התעוררות איומים"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10050935-01",
-     "title": "פינוי מפציצי B-1 מבסיס בבריטניה בעקבות חשש מאיום איראני",
-     "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס בבריטניה לאחר מעצר חשודים במזימה שנקשרה לאיראן.",
-     "axis": "איראן מול ארה\"ב וישראל",
+     "id": "IRAN-10052340-01",
+     "title": "פגיעה במכלית שלישית ליד מצר הורמוז",
+     "summary": "מכלית שלישית בתוך יומיים נפגעה בסמוך למצר הורמוז, על רקע ניסיונות לחץ כלכלי וסנקציות אמריקאיות.",
+     "axis": "הזירה הימית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T20:41:54+00:00",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T20:41:54+00:00",
-     "last_update_at": "2026-10-05T08:46:35+00:00",
-     "what_is_not_verified": "הקשר הישיר המדויק של כל החשודים לאיראן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/us-removes-bombers-uk-base-centre-suspected-iranian-plot",
-       "published_at": "2026-10-05T08:46:35+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_reuters",
-       "url": "https://t.me/abualiexpress/131361",
-       "published_at": "2026-10-05T05:50:01+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_reuters",
-       "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
-       "published_at": "2026-10-04T21:42:23+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_reuters",
-       "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
-       "published_at": "2026-10-04T20:41:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פיירפורד, בריטניה",
-       "lat": 51.7108,
-       "lon": -1.782
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10050935-02",
-     "title": "התפטרות שר הנפט של איראן",
-     "summary": "שר הנפט של איראן מחסן פאקנז'אד הודיע על התפטרותו על רקע לחץ כלכלי ומשבר נפט.",
-     "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T17:23:14+00:00",
-     "last_update_at": "2026-10-05T00:58:30+00:00",
-     "what_is_not_verified": "סיבות אישיות אמיתיות לעומת לחץ מערכתי",
+     "first_reported_at": "2026-10-05T22:08:27+00:00",
+     "last_update_at": "2026-10-05T22:08:27+00:00",
+     "what_is_not_verified": "זהות אלגורם האחראי לפגיעה במכלית אינה מפורטת במלואה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
-       "source_root_id": "or_iran_international",
-       "url": "https://www.iranintl.com/en/202610051913",
-       "published_at": "2026-10-05T00:58:30+00:00"
-      },
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610050957",
+       "published_at": "2026-10-05T22:08:27+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_iran_international",
-       "url": "https://www.al-monitor.com/originals/2026/10/irans-oil-minister-resigns-personal-reasons-state-media-reports",
-       "published_at": "2026-10-04T17:46:31+00:00"
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10052340-02",
+     "title": "ארה\"ב מפנה מפציצים מבסיס בבריטניה מחשש לאיום",
+     "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס האוויר פיירפורד בבריטניה בחזרה לארה\"ב, עקב חשיפת חשודים הקשורים לאיראן שפעלו בקרבת הבסיס.",
+     "axis": "זירת אירופה והעורף האמריקאי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T05:50:01+00:00",
+     "last_update_at": "2026-10-05T15:45:46+00:00",
+     "what_is_not_verified": "הקשר הישיר והמוכח של ממשלת איראן לחוליה שנחשפה בבריטניה אינו מאומת לחלוטין מעבר לחשדות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/news/audio/2026/oct/05/why-did-us-withdraw-bombers-from-raf-fairford-the-latest",
+       "published_at": "2026-10-05T15:45:46+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_iran_international",
-       "url": "https://t.me/abualiexpress/131336",
-       "published_at": "2026-10-04T17:23:14+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131361",
+       "published_at": "2026-10-05T05:50:01+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "בסיס פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
+      }
+     ]
     },
     {
-     "id": "IRAN-10050935-03",
-     "title": "הצהרת בכיר משמרות המהפכה על נסיגת כוחות ארה\"ב ושליטה בהורמוז",
-     "summary": "מפקד במשמרות המהפכה טען כי כוחות ארה\"ב התרחקו ממרחק אלף קילומטרים וכי מצר הורמוז נמצא בשליטת איראן.",
-     "axis": "איראן מול ארה\"ב וישראל",
+     "id": "IRAN-10052340-03",
+     "title": "תקיפות ומתקפה נגד של הקואליציה בתימן מול החות'ים",
+     "summary": "כוחות ממשלת תימן הנתמכים בסעודיה ובאמצעות קואליציה אווירית פתחו במתקפה נגד החות'ים וכבשו מחדש שטחים באזור מצרי באב אל-מנדב.",
+     "axis": "זירת תימן והים האדום",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-05T15:21:54+00:00",
+     "last_update_at": "2026-10-05T19:44:01+00:00",
+     "what_is_not_verified": "פרטים מלאים על היקף הנפגעים המדויק בכל זירות הלחימה בתימן.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
+       "published_at": "2026-10-05T19:44:01+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+       "published_at": "2026-10-05T19:17:05+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+       "published_at": "2026-10-05T15:21:54+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר באב אל-מנדב, תימן",
+       "lat": 12.6671,
+       "lon": 43.4565
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10052340-04",
+     "title": "הפעלת מנגנון ברית מכה בין סעודיה, פקיסטן וטורקיה",
+     "summary": "סעודיה, פקיסטן וטורקיה הכריזו על הפעלה מיידית של הסכם ההגנה הקולקטיבית (ברית מכה) והיערכות להצבת כוחות בממלכה בעקבות התקיפות האחרונות.",
+     "axis": "המפרץ והקואליציות האזוריות",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-05T06:53:35+00:00",
-     "last_update_at": "2026-10-05T06:53:35+00:00",
-     "what_is_not_verified": "טענת איראן על נסיגת כל כוחות ארה\"ב והיעדרות ספינות וושינגטון מהאזור",
+     "first_reported_at": "2026-10-05T18:25:54+00:00",
+     "last_update_at": "2026-10-05T20:43:27+00:00",
+     "what_is_not_verified": "ההשפעה המבצעית המדויקת בשטח של פריסת הכוחות טרם הוכחה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_middle_east_eye",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-commander-says-us-forces-have-fled-1000km-irans-borders",
-       "published_at": "2026-10-05T06:53:35+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10050935-04",
-     "title": "הצהרת שר החוץ האיראני על אי-קיומו של פתרון צבאי",
-     "summary": "עבאס עראקצ'י אמר שאין פתרון צבאי לעימות בין ארה\"ב לאיראן ושנדרשות משלחות ומשא ומתן מבוסס צדק.",
-     "axis": "איראן מול ארה\"ב וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T10:30:27+00:00",
-     "last_update_at": "2026-10-05T06:59:46+00:00",
-     "what_is_not_verified": "אינו מאומת האם מתנהל משא ומתן ממשי מאחורי הקלעים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_middle_east_eye",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-634",
-       "published_at": "2026-10-05T06:59:46+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
+       "published_at": "2026-10-05T20:43:27+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_middle_east_eye",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
-       "published_at": "2026-10-04T22:09:03+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_middle_east_eye",
-       "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
-       "published_at": "2026-10-04T10:30:27+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48280",
+       "published_at": "2026-10-05T18:25:54+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
     }
    ],
    "not_verified": [
-    "מזימה איראנית מלאה לפגוע במפציצים באנגליה",
-    "טענות משמרות המהפכה על נסיגה מוחלטת של כוחות ארה\"ב אל מעבר לאלף קילומטר",
-    "היקף תנועת הנפט המדויק במצרי הורמוז תחת פיקוח זר"
+    "האחריות הישירה של איראן לניסיון הפגיעה בטיסת פליי דובאי נתונה במחלוקת והצהרות פוליטיות בלבד.",
+    "היקף שיתוף הפעולה המדויק של מדינות אירופה עם הצדדים הלוחמים מעבר לטענות פקידי איראן.",
+    "התוצאות המבצעיות של פריסת כוחות ברית מכה בסעודיה."
    ],
    "map": {
     "confidence": "medium",
@@ -522,89 +530,95 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0653,
+     "value": 3.0623,
      "unit": "ILS",
-     "change_pct": -0.35,
+     "change_pct": -0.1,
      "source_id": "src_ecb",
-     "as_of": "2026-10-02T15:00:00+00:00"
+     "as_of": "2026-10-05T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "המשך תיעוד פשיטות צבאיות והליכים משפטיים",
-      "דחיית פתרונות צבאיים או סנקציות חדשות"
+      "הדגשת חוסר המשמעות של קיום שיחות עם ארצות הברית במצב הנוכחי",
+      "דרישה שגורמים אירופיים יישאו באחריות על סיוע לתוקפים"
      ],
      "inferred": [
-      "התמודדות עם לחץ כלכלי חריף וקריסת מטבע",
-      "ניסיון להרתיע כוחות זרים באמצעות שלוחות ואיומים ימיים"
+      "הפעלת לחץ ימי דרך פגיעה במכליות כדי לערער את שוק האנרגיה העולמי",
+      "הכנת העורף האזרחי והנשים לעימות ממושך דרך אימונים והתארגנויות הגנה עירונית"
      ],
      "forecast": [
-      "המשך מאבק בכלכלה המקומית ומציאת נתיבי עוקף לסנקציות הנפט"
+      "החמרת הבידוד הכלכלי עקב קריסת המטבע המקומי והכנסות הנפט",
+      "המשך הסתמכות על שלוחות אזוריות לתקיפות נגד אינטרסים של יריבותיה"
      ]
     },
     {
-     "actor": "ארה\"ב וישראל",
+     "actor": "ארצות הברית וישראל",
      "declared": [
-      "הגנה על נכסים צבאיים מפני איומי טרור",
-      "הפעלת לחץ כלכלי ומניעת ייצוא נפט איראני"
+      "הטלת סנקציות כלכליות נוקשות על בנקים וגופים הסוחרים עם איראן",
+      "הזהרה מפני מתן גישה או סיוע לעסקים ולמוסדות פיננסיים הקשורים לטהרן"
      ],
      "inferred": [
-      "צמצום חשיפת כוחות לתקיפות ממוקדות",
-      "המתנה לשינויים פוליטיים או הכרעה אסטרטגית לעתיד"
+      "הידוק הפיקוח המודיעיני ומניעת התבססות איראנית במרחבים שונים",
+      "נקיטת משנה זהירות ואבטחה מוגברת על בסיסים ונכסים אסטרטגיים מפני חבלות"
      ],
      "forecast": [
-      "שמירה על סנקציות הדוקות ונוכחות צבאית מותאמת בבסיסים מרוחקים יותר"
+      "הגברת הלחץ הכלכלי עד קצה מנופי ההשפעה",
+      "המשך פעילות סיכול ומעקב אחר פעילות איראנית חוצת גבולות"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-us-there-no-military-solution-middle-east-war",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610051913",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/article/21553117",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
+     "url": "https://www.iranintl.com/en/202610050957",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-military-solution-us-iran-war-iranian-foreign-minister-says",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
+     "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131336",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
+     "url": "https://t.me/abualiexpress/131361",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/ry52w4gogl",
-     "accessed_at": "2026-10-05T09:35:06+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48280",
+     "accessed_at": "2026-10-05T23:40:42+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-04T15:29:08+00:00",
+  "previous_generated_at": "2026-10-05T09:35:06+00:00",
   "changes": {
-   "IRAN-10050935-01": {
+   "IRAN-10052340-01": {
     "kind": "new"
    },
-   "IRAN-10050935-02": {
+   "IRAN-10052340-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "פינוי מפציצי B-1 מבסיס בבריטניה בעקבות חשש מאיום איראני",
+    "score": 1.0
+   },
+   "IRAN-10052340-03": {
     "kind": "new"
    },
-   "IRAN-10050935-03": {
-    "kind": "new"
-   },
-   "IRAN-10050935-04": {
+   "IRAN-10052340-04": {
     "kind": "new"
    }
   }

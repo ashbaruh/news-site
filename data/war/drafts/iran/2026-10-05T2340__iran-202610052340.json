@@ -1,0 +1,271 @@
+{
+ "status": "draft",
+ "received_sha256_12": "cf775385b180",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 1,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-05T23:40:42+00:00",
+  "window": {
+   "from": "2026-10-04T23:40:42+00:00",
+   "to": "2026-10-05T23:40:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610052340"
+  },
+  "summary": "העימות בין איראן מחד לבין ישראל וארה\"ב מאידך מתאפיין בהמשך לחץ כלכלי וסנקציות חריפות מצד וושינגטון המדרדרות את הכלכלה האיראנית, לצד אירועים ימיים במצר הורמוז והתרחבות החשדות לזירות חוץ כמו אירופה. במקביל, הזירות האזוריות רוחשות פעילות צבאית עצימה הכוללת מתקפות נגד בתימן וגיבוש בריתות הגנה חדשות במפרץ.",
+  "fronts": [
+   {
+    "name": "הזירה הימית (הורמוז והים האדום)",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "הזירה הדיפלומטית-כלכלית (סנקציות ושיחות)",
+    "status": "מוקפא עם הסלמה"
+   },
+   {
+    "name": "זירת המפרץ ותימן (סעודיה מול שלוחחות איראן)",
+    "status": "הסלמה צבאית"
+   },
+   {
+    "name": "זירת אירופה (איומים על בסיסים אמריקאיים)",
+    "status": "התעוררות איומים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10052340-01",
+    "title": "פגיעה במכלית שלישית ליד מצר הורמוז",
+    "summary": "מכלית שלישית בתוך יומיים נפגעה בסמוך למצר הורמוז, על רקע ניסיונות לחץ כלכלי וסנקציות אמריקאיות.",
+    "axis": "הזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T22:08:27+00:00",
+    "last_update_at": "2026-10-05T22:08:27+00:00",
+    "what_is_not_verified": "זהות אלגורם האחראי לפגיעה במכלית אינה מפורטת במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610050957",
+      "published_at": "2026-10-05T22:08:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10052340-02",
+    "title": "ארה\"ב מפנה מפציצים מבסיס בבריטניה מחשש לאיום",
+    "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס האוויר פיירפורד בבריטניה בחזרה לארה\"ב, עקב חשיפת חשודים הקשורים לאיראן שפעלו בקרבת הבסיס.",
+    "axis": "זירת אירופה והעורף האמריקאי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T05:50:01+00:00",
+    "last_update_at": "2026-10-05T15:45:46+00:00",
+    "what_is_not_verified": "הקשר הישיר והמוכח של ממשלת איראן לחוליה שנחשפה בבריטניה אינו מאומת לחלוטין מעבר לחשדות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/05/why-did-us-withdraw-bombers-from-raf-fairford-the-latest",
+      "published_at": "2026-10-05T15:45:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131361",
+      "published_at": "2026-10-05T05:50:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10052340-03",
+    "title": "תקיפות ומתקפה נגד של הקואליציה בתימן מול החות'ים",
+    "summary": "כוחות ממשלת תימן הנתמכים בסעודיה ובאמצעות קואליציה אווירית פתחו במתקפה נגד החות'ים וכבשו מחדש שטחים באזור מצרי באב אל-מנדב.",
+    "axis": "זירת תימן והים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T15:21:54+00:00",
+    "last_update_at": "2026-10-05T19:44:01+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף הנפגעים המדויק בכל זירות הלחימה בתימן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
+      "published_at": "2026-10-05T19:44:01+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+      "published_at": "2026-10-05T19:17:05+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+      "published_at": "2026-10-05T15:21:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר באב אל-מנדב, תימן",
+      "lat": 12.6671,
+      "lon": 43.4565
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10052340-04",
+    "title": "הפעלת מנגנון ברית מכה בין סעודיה, פקיסטן וטורקיה",
+    "summary": "סעודיה, פקיסטן וטורקיה הכריזו על הפעלה מיידית של הסכם ההגנה הקולקטיבית (ברית מכה) והיערכות להצבת כוחות בממלכה בעקבות התקיפות האחרונות.",
+    "axis": "המפרץ והקואליציות האזוריות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T18:25:54+00:00",
+    "last_update_at": "2026-10-05T20:43:27+00:00",
+    "what_is_not_verified": "ההשפעה המבצעית המדויקת בשטח של פריסת הכוחות טרם הוכחה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
+      "published_at": "2026-10-05T20:43:27+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48280",
+      "published_at": "2026-10-05T18:25:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האחריות הישירה של איראן לניסיון הפגיעה בטיסת פליי דובאי נתונה במחלוקת והצהרות פוליטיות בלבד.",
+   "היקף שיתוף הפעולה המדויק של מדינות אירופה עם הצדדים הלוחמים מעבר לטענות פקידי איראן.",
+   "התוצאות המבצעיות של פריסת כוחות ברית מכה בסעודיה."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0623,
+    "unit": "ILS",
+    "change_pct": -0.1,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הדגשת חוסר המשמעות של קיום שיחות עם ארצות הברית במצב הנוכחי",
+     "דרישה שגורמים אירופיים יישאו באחריות על סיוע לתוקפים"
+    ],
+    "inferred": [
+     "הפעלת לחץ ימי דרך פגיעה במכליות כדי לערער את שוק האנרגיה העולמי",
+     "הכנת העורף האזרחי והנשים לעימות ממושך דרך אימונים והתארגנויות הגנה עירונית"
+    ],
+    "forecast": [
+     "החמרת הבידוד הכלכלי עקב קריסת המטבע המקומי והכנסות הנפט",
+     "המשך הסתמכות על שלוחות אזוריות לתקיפות נגד אינטרסים של יריבותיה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית וישראל",
+    "declared": [
+     "הטלת סנקציות כלכליות נוקשות על בנקים וגופים הסוחרים עם איראן",
+     "הזהרה מפני מתן גישה או סיוע לעסקים ולמוסדות פיננסיים הקשורים לטהרן"
+    ],
+    "inferred": [
+     "הידוק הפיקוח המודיעיני ומניעת התבססות איראנית במרחבים שונים",
+     "נקיטת משנה זהירות ואבטחה מוגברת על בסיסים ונכסים אסטרטגיים מפני חבלות"
+    ],
+    "forecast": [
+     "הגברת הלחץ הכלכלי עד קצה מנופי ההשפעה",
+     "המשך פעילות סיכול ומעקב אחר פעילות איראנית חוצת גבולות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610050957",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131361",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48280",
+    "accessed_at": "2026-10-05T23:40:42+00:00"
+   }
+  ]
+ }
+}
