@@ -1,35 +1,188 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-05T04:00:00+03:00",
- "generated_at": "2026-10-05T00:40:23+00:00",
+ "slot": "2026-10-05T12:00:00+03:00",
+ "generated_at": "2026-10-05T08:40:11+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
-  "iran": {
+  "north": {
    "events": [
     {
-     "id": "IRAN-10050040-01",
-     "title": "התפטרות שר הנפט",
-     "summary": "שר הנפט של איראן הודיע על התפטרותו על רקע משבר הנפט והסנקציות, והנשיא מינה לו ממלא מקום.",
-     "axis": "iran",
+     "id": "NORTH-10050840-01",
+     "title": "כניסת כוחות ישראליים לדרום סוריה",
+     "summary": "כוחות ישראליים נכנסו לאזור חקלאי בדרום מערב סוריה ופוצצו מבנה נטוש באזור הפרברי של דמשק.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T17:23:14+00:00",
+     "occurred_at": "2026-10-05T07:16:02+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T17:23:14+00:00",
-     "last_update_at": "2026-10-04T17:23:14+00:00",
-     "what_is_not_verified": "לא מאומתות הסיבות המלאות מעבר לדיווח על משבר והתפטרות",
+     "first_reported_at": "2026-10-05T07:16:02+00:00",
+     "last_update_at": "2026-10-05T08:11:14+00:00",
+     "what_is_not_verified": "היקף הכוחות המלא והנזקים הנוספים אינם מפורטים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131336",
-       "published_at": "2026-10-04T17:23:14+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_86cb6072c744a740",
+       "url": "https://english.almanar.com.lb/article/134512/",
+       "published_at": "2026-10-05T08:11:14+00:00"
+      },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_86cb6072c744a740",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-blow-up-abandoned-building-in-military-raid-into-southwestern-syria/4078042",
+       "published_at": "2026-10-05T07:16:02+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "בית ג'ן, סוריה",
+       "lat": 33.3145,
+       "lon": 35.8794
+      }
+     ]
     },
+    {
+     "id": "NORTH-10050840-02",
+     "title": "ירי ארטילרי ישראלי בדרום לבנון",
+     "summary": "כוחות ישראליים ביצעו ירי ארטילרי לעבר אזור נבטיה אל-פוקא שבדרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T05:43:06+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T05:43:06+00:00",
+     "last_update_at": "2026-10-05T05:43:06+00:00",
+     "what_is_not_verified": "רשימת נפגעים או נזקים מדויקים לא צוינה בדיווח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_src_almanar",
+       "url": "https://english.almanar.com.lb/article/134412/",
+       "published_at": "2026-10-05T05:43:06+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נבטיה אל-פוקא, לבנון",
+       "lat": 33.3619,
+       "lon": 35.4987
+      }
+     ]
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-10050840-01",
+     "title": "התרסקות מפציץ רוסי מסוג טו-95אמ-אס",
+     "summary": "שמונה קצינים רוסים נהרגו בהתרסקות מטוס קרב מסוג טו-95אמ-אס באזור אמור.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T07:41:03+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T07:41:03+00:00",
+     "last_update_at": "2026-10-05T07:41:03+00:00",
+     "what_is_not_verified": "סיבת ההתרסקות המדויקת לא פורטה מעבר לדיווח על טיסת אימון.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_src_meduza",
+       "url": "https://meduza.io/en/news/2026/10/05/tu-95ms-bomber-crashed-in-russia-killing-eight-officers-some-helped-organize-missile-strikes-on-ukraine",
+       "published_at": "2026-10-05T07:41:03+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קרסנוירובו, רוסיה",
+       "lat": 51.458,
+       "lon": 128.4345
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10050840-02",
+     "title": "חיסול קצין רוסי לשעבר באמצעות מכונית תופעת",
+     "summary": "איש כוחות הביטחון הרוסיים לשעבר, רומן סירומיאטניקוב, נהרג כתוצאה ממטען חבלה שהתפוצץ ברכבו בנובומוסקובסק.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T07:17:51+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T07:17:51+00:00",
+     "last_update_at": "2026-10-05T07:17:51+00:00",
+     "what_is_not_verified": "זהות המבצעים הישירה אינה מאומתת רשמית מעבר להאשמות והודעות ערוצי מעקב.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_src_meduza",
+       "url": "https://meduza.io/en/news/2026/10/05/car-bomb-in-russia-destroys-vehicle-belonging-to-ex-prison-official-ukraine-accused-of-torturing-pows",
+       "published_at": "2026-10-05T07:17:51+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נובומוסקובסק, רוסיה",
+       "lat": 54.011,
+       "lon": 38.2909
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10050840-03",
+     "title": "התקפות כטב\"מים וטילים רחבות היקף",
+     "summary": "רוסיה שיגרה מאות כטב\"מים וביצעה תקיפות נרחבות שפגעו בתשתיות ובאזורים שונים באוקראינה, כולל חארקיב ואודסה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T06:59:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-05T06:59:00+00:00",
+     "last_update_at": "2026-10-05T08:05:36+00:00",
+     "what_is_not_verified": "מלוא היקף הפגיעות המדויק בכלל האתרים עדיין מתברר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_39e6de3ed8c8bdeb",
+       "url": "https://kyivindependent.com/kharkiv-targeted-in-deadly-banderol-strike-as-russia-kills-5-injures-61-across-ukraine-over-past-day/",
+       "published_at": "2026-10-05T08:05:36+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_6659f500210253ca",
+       "url": "https://www.ukrinform.net/rubric-ato/4171094-russian-attacks-in-kharkiv-and-region-leave-one-killed-12-injured-over-past-day.html",
+       "published_at": "2026-10-05T07:20:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_2b112f906a32ea42",
+       "url": "https://www.ukrinform.net/rubric-ato/4171090-russians-launch-massive-attack-on-industrial-and-port-infrastructure-in-odesa-region.html",
+       "published_at": "2026-10-05T06:59:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חארקיב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      },
+      {
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    }
+   ]
+  },
+  "iran": {
+   "events": [
     {
      "id": "IRAN-10050040-02",
      "title": "נסיגת מפציצים אמריקאיים",
@@ -82,231 +235,11 @@ window.DB.war_brief = {
      ],
      "places": []
     }
-   ]
-  },
-  "north": {
-   "events": [
-    {
-     "id": "NORTH-10050040-01",
-     "title": "חיסול חשוד בדרום סוריה",
-     "summary": "כוחות צה\"ל זיהו וחיסלו חשוד שניסה לחדור למוצב צבאי במרחב האבטחה בדרום סוריה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T21:26:38+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T21:26:38+00:00",
-     "last_update_at": "2026-10-04T21:26:38+00:00",
-     "what_is_not_verified": "זהותו המדויקת של החשוד",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25278",
-       "published_at": "2026-10-04T21:26:38+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10050040-02",
-     "title": "תקיפות והפגזות בדרום לבנון",
-     "summary": "מטוסי קרב וארטילריה של ישראל ביצעו סדרת תקיפות והפגזות במספר מרחבים בדרום לבנון.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T21:38:29+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T21:38:29+00:00",
-     "last_update_at": "2026-10-04T21:38:29+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והנפגעים בצד הלבנוני",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/134362/",
-       "published_at": "2026-10-04T21:38:29+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חאדאתה, לבנון",
-       "lat": 33.165,
-       "lon": 35.3916
-      },
-      {
-       "name": "מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10050040-03",
-     "title": "תגובת ממשלת סוריה לעבודות הנדסיות",
-     "summary": "משרד החוץ של סוריה גינה את עבודות החפירה והבנייה של ישראל באזור קוניטרה.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T16:48:41+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T16:48:41+00:00",
-     "last_update_at": "2026-10-04T16:48:41+00:00",
-     "what_is_not_verified": "ההשלכות המעשיות בשטח מעבר לגינוי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-condemns-israeli-excavation-work-near-occupied-golan-heights/4077809",
-       "published_at": "2026-10-04T16:48:41+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-10050040-01",
-     "title": "הצעת שיחות משולשות מטעם ארצות הברית",
-     "summary": "נשיא אוקראינה דיווח כי ארצות הברית הציעה לקיים פגישה ברמה הטכנית במתכונת משולשת עם רוסיה ואוקראינה עד סוף אוקטובר.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T20:58:12+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T20:58:12+00:00",
-     "last_update_at": "2026-10-04T20:58:12+00:00",
-     "what_is_not_verified": "האם רוסיה ואוקראינה יסכימו להצעה בפועל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/",
-       "published_at": "2026-10-04T20:58:12+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10050040-02",
-     "title": "הסכמי אנרגיה בין אוקראינה לגרמניה",
-     "summary": "אוקראינה וגרמניה חתמו על סדרת הסכמים בתחום האנרגיה בשווי העולה על מאה חמישים וחמישה מיליון אירו.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T20:40:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T20:40:00+00:00",
-     "last_update_at": "2026-10-04T20:40:00+00:00",
-     "what_is_not_verified": "לוחות הזמנים המדויקים למימוש ההסכמים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_ea1180baace4e075",
-       "url": "https://www.ukrinform.net/rubric-economy/4171039-ukraine-and-germany-sign-energy-agreements-worth-more-than-155-million.html",
-       "published_at": "2026-10-04T20:40:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10050040-03",
-     "title": "פגיעה במתקן אנרגיה בפולטבה",
-     "summary": "תקיפת כטב\"ם רוסית פגעה במתקן אנרגיה במחוז פולטבה והותירה אלפים ללא חשמל.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T21:37:32+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T21:37:32+00:00",
-     "last_update_at": "2026-10-04T21:37:32+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק למתקן ותאריך החזרת אספקת החשמל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-drone-strike-hits-energy-facility-in-poltava-oblast-leaves-22-000-without-power/",
-       "published_at": "2026-10-04T21:37:32+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פולטבה, אוקראינה",
-       "lat": 49.5897,
-       "lon": 34.5508
-      }
-     ]
-    }
-   ]
+   ],
+   "from_slot": "2026-10-05T04:00:00+03:00"
   },
   "yemen": {
    "events": [
-    {
-     "id": "YEMEN-10050040-01",
-     "title": "מבצע צבאי של ממשלת תימן נגד החות'ים",
-     "summary": "ממשלת תימן הנתמכת בידי סעודיה הכריזה על תחילת פעולה צבאית רחבה במטרה להשתלט מחדש על כל השטחים שבידי החות'ים.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T18:15:56+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T18:15:56+00:00",
-     "last_update_at": "2026-10-04T18:15:56+00:00",
-     "what_is_not_verified": "יכולת הכוחות הממשלתיים להשיג את כל יעדי המבצע",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48250",
-       "published_at": "2026-10-04T18:15:56+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10050040-02",
-     "title": "תקיפת מתחם הנפט ח'וריס בסעודיה",
-     "summary": "החות'ים קיבלו אחריות על שיגור טילים וכטב\"מים לעבר מתחם הזיקוק ח'וריס בסעודיה, פעולה שגרמה לשריפות ענק.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T17:14:58+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T17:14:58+00:00",
-     "last_update_at": "2026-10-04T17:14:58+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק במתקן הזיקוק",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94484",
-       "published_at": "2026-10-04T17:14:58+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ח'וריס, סעודיה",
-       "lat": 25.2677,
-       "lon": 48.1771
-      }
-     ]
-    },
     {
      "id": "YEMEN-10050040-03",
      "title": "פיצוצים סמוך למכלית בים האדום",
@@ -336,8 +269,12 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
+   ],
+   "from_slot": "2026-10-05T04:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "iran": "אותיות בשפה זרה בתוך הטקסט העברי (1)",
+  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (3)"
+ }
 };
