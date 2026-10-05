@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T06:17:21+00:00",
-  "fetched_at": "2026-10-05T06:17:21+00:00"
+  "checked_at": "2026-10-05T07:17:26+00:00",
+  "fetched_at": "2026-10-05T07:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T06:17:32+00:00",
-  "fetched_at": "2026-10-05T06:17:32+00:00"
+  "checked_at": "2026-10-05T07:17:35+00:00",
+  "fetched_at": "2026-10-05T07:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Technics’ new arrival, Panasonic mounts a micro hi-fi comeback, a headphones surprise from Bose and more",
+    "title_he": "הגעתה החדשה של Technics, פנסוניק עושה קאמבק מיקרו Hi-Fi, הפתעת אוזניות מבית Bose ועוד",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/av/technics-new-arrival-panasonic-mounts-a-micro-hi-fi-comeback-a-headphones-surprise-from-bose-and-more",
+    "date": "2026-10-05T07:00:00+00:00"
+   },
    {
     "title_en": "How to watch NRL Grand Final 2026: live stream Roosters vs Knights for free from anywhere",
     "title_he": "איך לצפות בגמר הגדול של NRL 2026: סטרימינג בשידור חי של Roosters vs Knights בחינם מכל מקום",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/vinyl/the-beatles-rubber-soul-gets-a-deluxe-makeover-with-new-dolby-atmos-mixes-and-unheard-songs",
     "date": "2026-10-02T16:40:41+00:00"
-   },
-   {
-    "title_en": "Sky’s OS is getting a big facelift – and I got a sneak peek at what’s to come",
-    "title_he": "מערכת ההפעלה של Sky מקבלת מתיחת פנים גדולה - וקיבלתי הצצה למה שעתיד לבוא",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/skys-os-is-getting-a-big-facelift-and-i-got-a-sneak-peek-at-whats-to-come",
-    "date": "2026-10-02T15:27:27+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T06:17:32+00:00",
-  "fetched_at": "2026-10-05T06:17:32+00:00"
+  "checked_at": "2026-10-05T07:17:36+00:00",
+  "fetched_at": "2026-10-05T07:17:36+00:00"
  },
- "generated_at": "2026-10-05T06:17:32+00:00",
+ "generated_at": "2026-10-05T07:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "רשות המסים רוצה את כרטיס האשראי שלכם, לא תאמינו למה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558362",
-     "date": "2026-10-05T02:46:00+00:00"
+     "title": "הכמעט אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
+     "date": "2026-10-05T07:03:00+00:00"
     },
     {
      "title": "האחראי על פיקוח חברות התעופה הזרות - קיבל במקביל כסף מ\"פליי דובאי\" על הדרכות | פרסום ראשון",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T06:17:22+00:00",
-  "fetched_at": "2026-10-05T06:17:22+00:00"
+  "checked_at": "2026-10-05T07:17:26+00:00",
+  "fetched_at": "2026-10-05T07:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T06:17:23+00:00",
-  "fetched_at": "2026-10-05T06:17:23+00:00"
+  "checked_at": "2026-10-05T07:17:27+00:00",
+  "fetched_at": "2026-10-05T07:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2424,8 +2424,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T06:17:24+00:00",
-  "fetched_at": "2026-10-05T06:17:24+00:00"
+  "checked_at": "2026-10-05T07:17:28+00:00",
+  "fetched_at": "2026-10-05T07:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2534,18 +2534,18 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T06:17:24+00:00",
-  "fetched_at": "2026-10-05T06:17:24+00:00"
+  "checked_at": "2026-10-05T07:17:28+00:00",
+  "fetched_at": "2026-10-05T07:17:28+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/former-openai-researcher-says-company-culture-is-broken/",
-     "date": "2026-10-04T08:16:36+00:00",
+     "link": "https://www.geektime.co.il/trumps-ai-rebrand-leads-to-domain-buying-frenzy/",
+     "date": "2026-10-05T06:39:48+00:00",
      "launch": false,
-     "title": "עוד בכיר בצוות הבטיחות של OpenAI פורש עם אזהרה מהמצב"
+     "title": "טראמפ נתן ל-AI שם חדש, וגרם להתנפלות על דומיינים סלובניים"
     },
     {
      "source": "Google",
@@ -2557,21 +2557,21 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 9,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 435,
+     "likes": 438,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 298,
+     "likes": 299,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2585,7 +2585,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 179,
+     "likes": 180,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2596,18 +2596,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2"
     },
     {
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 121,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
+    },
+    {
      "title": "OpenVuln",
      "desc_en": "Find bugs in your repository with GLM",
      "desc_he": "מצא באגים במאגר שלך עם GLM",
      "likes": 206,
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
-    },
-    {
-     "title": "ChessFly",
-     "desc_en": "Just a fruit fly's brain, playing chess",
-     "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 119,
-     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
      "title": "MiMo RL Environment Explorer",
@@ -2624,17 +2624,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
     },
     {
-     "title": "Omni Video Factory",
-     "desc_en": "text to video, image to video, video extend",
-     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 168,
-     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 651,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T06:17:31+00:00",
-  "fetched_at": "2026-10-05T06:17:31+00:00"
+  "checked_at": "2026-10-05T07:17:34+00:00",
+  "fetched_at": "2026-10-05T07:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -2693,15 +2693,6 @@ window.DB.generated = {
      "players": [
       "מנור סולומון",
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "האלגרימסון נשאל על דברי סולומון: \"זה לא משחק ידידות\"",
-     "link": "https://sports.walla.co.il/item/3870653",
-     "date": "2026-10-03T07:25:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -2951,8 +2942,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T06:17:26+00:00",
-  "fetched_at": "2026-10-05T06:17:26+00:00"
+  "checked_at": "2026-10-05T07:17:30+00:00",
+  "fetched_at": "2026-10-05T07:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -2983,91 +2974,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T06:17:27+00:00",
-  "fetched_at": "2026-10-05T06:17:27+00:00"
+  "checked_at": "2026-10-05T07:17:31+00:00",
+  "fetched_at": "2026-10-05T07:17:31+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T05:55:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T07:07:00+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-05T04:43:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-05T05:51:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-05T05:00:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T06:59:00+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-05T05:40:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T07:00:00+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T05:46:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T06:43:00+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-05T05:31:45+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-04T16:02:01+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T06:39:48+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-04T15:04:49+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-03T19:00:00+00:00",
-    "seen_at": "2026-10-05T06:17:32+00:00",
+    "newest": "2026-10-05T07:00:00+00:00",
+    "seen_at": "2026-10-05T07:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T06:17:32+00:00"
+  "checked_at": "2026-10-05T07:17:36+00:00"
  }
 };
