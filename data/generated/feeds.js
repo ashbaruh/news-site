@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T10:17:28+00:00",
-  "fetched_at": "2026-10-05T10:17:28+00:00"
+  "checked_at": "2026-10-05T11:17:29+00:00",
+  "fetched_at": "2026-10-05T11:17:29+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Orphaned, Rescued, and Rewilded, Female Gorilla Becomes a Mother in Historic Conservation Success",
+    "title_he": "גורילה נשית, יתומה, ניצלה ונדהמה מחדש, הופכת לאם בהצלחת שימור היסטורי",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/",
+    "date": "2026-10-05T11:00:53+00:00"
+   },
    {
     "title_en": "Rare 1-in-100M ‘Ghost Lobster’ Goes to School to Help Scientists Crack Genetic Mystery–in Time for Halloween",
     "title_he": "\"לובסטר רפאים\" נדיר 1 ל-100 מיליון הולך לבית הספר כדי לעזור למדענים לפצח תעלומה גנטית - בזמן לליל כל הקדושים",
@@ -34,21 +41,21 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/first-ever-recorded-sea-turtle-nests-on-americas-west-coast/",
     "date": "2026-09-30T09:52:15+00:00"
-   },
-   {
-    "title_en": "A Strategy of Cash-for-Photos Turns Animal Hunters into Animal Protectors in Indonesia",
-    "title_he": "אסטרטגיה של מזומנים תמורת תמונות הופכת ציידי בעלי חיים למגני בעלי חיים באינדונזיה",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/a-strategy-of-cash-for-photos-turns-animal-hunters-into-animal-protectors-in-indonesia/",
-    "date": "2026-09-29T13:00:01+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T10:17:42+00:00",
-  "fetched_at": "2026-10-05T10:17:42+00:00"
+  "checked_at": "2026-10-05T11:17:39+00:00",
+  "fetched_at": "2026-10-05T11:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Sony WH-1000XM4C",
+    "title_he": "סוני WH-1000XM4C",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/sony-wh-1000xm4c",
+    "date": "2026-10-05T10:41:58+00:00"
+   },
    {
     "title_en": "Technics’ new arrival, Panasonic mounts a micro hi-fi comeback, a headphones surprise from Bose and more",
     "title_he": "הגעתה החדשה של Technics, פנסוניק עושה קאמבק מיקרו Hi-Fi, הפתעת אוזניות מבית Bose ועוד",
@@ -69,32 +76,25 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/its-hard-to-know-which-sonos-soundbar-is-best-for-your-living-room-and-im-learning-that-first-hand",
     "date": "2026-10-03T07:00:00+00:00"
-   },
-   {
-    "title_en": "The Beatles' Rubber Soul gets a deluxe makeover with new Dolby Atmos mixes and unheard songs",
-    "title_he": "ה- Rubber Soul של הביטלס זוכה למהפך דלוקס עם מיקסים חדשים של Dolby Atmos ושירים שלא נשמעו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/vinyl/the-beatles-rubber-soul-gets-a-deluxe-makeover-with-new-dolby-atmos-mixes-and-unheard-songs",
-    "date": "2026-10-02T16:40:41+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T10:17:42+00:00",
-  "fetched_at": "2026-10-05T10:17:42+00:00"
+  "checked_at": "2026-10-05T11:17:39+00:00",
+  "fetched_at": "2026-10-05T11:17:39+00:00"
  },
- "generated_at": "2026-10-05T10:17:42+00:00",
+ "generated_at": "2026-10-05T11:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "זה לא היה רבעון שקרנות הגידור יכולות להתגאות בו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558376",
-     "date": "2026-10-05T09:06:00+00:00"
+     "title": "שלוש קומות ומעלית שקופה: מאחורי הקשיים של סוכנות רכבי היוקרה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558381",
+     "date": "2026-10-05T11:00:00+00:00"
     },
     {
      "title": "אישום: מרצה למתמטיקה מאוניברסיטת בר-אילן תכנן פיגועים נגד מאות ערבים בישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558405",
-     "date": "2026-10-05T09:57:00+00:00"
+     "date": "2026-10-05T10:58:00+00:00"
     }
    ],
    "market": [
@@ -129,7 +129,7 @@ window.DB.generated = {
      "date": "2026-10-05T09:06:00+00:00"
     },
     {
-     "title": "המצור האיראני נשבר: לראשונה יוצא מהורמוז יותר נפט מאשר לפני המלחמה",
+     "title": "המצור האיראני נשבר: לראשונה יוצא מהמפרץ יותר נפט מאשר לפני המלחמה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558420",
      "date": "2026-10-05T09:03:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T10:17:29+00:00",
-  "fetched_at": "2026-10-05T10:17:29+00:00"
+  "checked_at": "2026-10-05T11:17:30+00:00",
+  "fetched_at": "2026-10-05T11:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T10:17:30+00:00",
-  "fetched_at": "2026-10-05T10:17:30+00:00"
+  "checked_at": "2026-10-05T11:17:30+00:00",
+  "fetched_at": "2026-10-05T11:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2424,8 +2424,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T10:17:32+00:00",
-  "fetched_at": "2026-10-05T10:17:32+00:00"
+  "checked_at": "2026-10-05T11:17:31+00:00",
+  "fetched_at": "2026-10-05T11:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2534,8 +2534,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T10:17:32+00:00",
-  "fetched_at": "2026-10-05T10:17:32+00:00"
+  "checked_at": "2026-10-05T11:17:31+00:00",
+  "fetched_at": "2026-10-05T11:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2564,14 +2564,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 440,
+     "likes": 442,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 303,
+     "likes": 305,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2592,7 +2592,7 @@ window.DB.generated = {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 124,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
@@ -2627,14 +2627,14 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 651,
+     "likes": 652,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T10:17:41+00:00",
-  "fetched_at": "2026-10-05T10:17:41+00:00"
+  "checked_at": "2026-10-05T11:17:37+00:00",
+  "fetched_at": "2026-10-05T11:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2932,8 +2932,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T10:17:35+00:00",
-  "fetched_at": "2026-10-05T10:17:35+00:00"
+  "checked_at": "2026-10-05T11:17:34+00:00",
+  "fetched_at": "2026-10-05T11:17:34+00:00"
  },
  "idf": {
   "data": [
@@ -2964,91 +2964,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T10:17:36+00:00",
-  "fetched_at": "2026-10-05T10:17:36+00:00"
+  "checked_at": "2026-10-05T11:17:34+00:00",
+  "fetched_at": "2026-10-05T11:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T10:08:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T11:00:00+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-05T09:40:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-05T09:50:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:14:00+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-05T09:48:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:58:00+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-05T08:11:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:00:00+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T10:00:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:59:00+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-05T05:31:45+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-05T09:12:40+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:55:34+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-10-04T15:04:49+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T11:00:53+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-05T07:00:00+00:00",
-    "seen_at": "2026-10-05T10:17:42+00:00",
+    "newest": "2026-10-05T10:41:58+00:00",
+    "seen_at": "2026-10-05T11:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T10:17:42+00:00"
+  "checked_at": "2026-10-05T11:17:39+00:00"
  }
 };
