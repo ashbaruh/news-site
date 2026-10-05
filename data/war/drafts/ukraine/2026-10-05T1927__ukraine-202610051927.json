@@ -1,0 +1,285 @@
+{
+ "status": "draft",
+ "received_sha256_12": "62d5f7dabbaa",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-05T19:27:55+00:00",
+  "window": {
+   "from": "2026-10-04T19:27:55+00:00",
+   "to": "2026-10-05T19:27:55+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610051927"
+  },
+  "summary": "הלחימה באוקראינה מתאפיינת בהמשך תקיפות אוויריות אינטנסיביות מצד רוסיה על תשתיות ואזורי מגורים, מול ניסיונות יירוט אוקראיניים מתקדמים הכוללים מערכות אוטומטיות. במקביל, גרמניה ומדינות אירופיות נוספות מחזקות את הסיוע הצבאי והכלכלי לקייב, בעוד שרוסיה ממשיכה בלחץ צבאי וכלכלי.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (חארקוב)",
+    "status": "פעיל ואינטנסיבי עם תקיפות אוויריות"
+   },
+   {
+    "name": "חזית הדרום (זפוריז'ה)",
+    "status": "פעיל עם תקיפות על תשתיות ומגורים"
+   },
+   {
+    "name": "מרחב קייב והעורף",
+    "status": "תחת מתקפות כטב\"מים וטילים ומערכות הגנה"
+   },
+   {
+    "name": "זירת הים השחור",
+    "status": "פעילה עם פגיעה בספינות סחר"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10051927-01",
+    "title": "פגיעת כטב\"מ בגשר הצפוני בקייב",
+    "summary": "כטב\"מ רוסי פגע בגשר הצפוני מעל נהר דניפרו בקייב, במהלך ביקור של קנצלר גרמניה",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T18:30:50+00:00",
+    "last_update_at": "2026-10-05T01:00:20+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים אינם מפורטים מעבר לשני פצועים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+      "published_at": "2026-10-05T01:00:20+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian",
+      "url": "https://www.theguardian.com/world/video/2026/oct/04/russian-drone-hits-key-bridge-in-kyiv-on-german-chancellors-visit-video",
+      "published_at": "2026-10-04T18:30:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10051927-02",
+    "title": "תקיפת מבנה מגורים בחארקוב",
+    "summary": "כוחות רוסיים תקפו את חארקוב באמצעות פצצות אוויריות מונחות, מה שהוביל להרוגים ופצועים רבים",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T01:00:20+00:00",
+    "last_update_at": "2026-10-05T18:26:15+00:00",
+    "what_is_not_verified": "זהות כל הנפגעים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_4741773569c7fb98",
+      "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/",
+      "published_at": "2026-10-05T18:26:15+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_4741773569c7fb98",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056604/",
+      "published_at": "2026-10-05T17:48:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_4741773569c7fb98",
+      "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+      "published_at": "2026-10-05T01:00:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10051927-03",
+    "title": "תקיפת בניין מגורים בזפוריז'ה",
+    "summary": "רוסיה תקפה בניין מגורים בזפוריז'ה וגרמה לפצועים",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T18:35:00+00:00",
+    "last_update_at": "2026-10-05T18:35:00+00:00",
+    "what_is_not_verified": "מצבו הרפואי המלא של כלל הפצועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_46d33fff2a24d5c8",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056607/",
+      "published_at": "2026-10-05T18:35:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'ה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10051927-04",
+    "title": "פגיעה בספינת תבואה בים השחור",
+    "summary": "ספינת תבואה טבעה בים השחור לאחר פגיעת כטב\"מ",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T12:44:28+00:00",
+    "last_update_at": "2026-10-05T12:44:28+00:00",
+    "what_is_not_verified": "זהות אלגורם המשגר המדויקת של הכטב\"ם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_abu_ali_express_telegram",
+      "url": "https://t.me/abualiexpress/131385",
+      "published_at": "2026-10-05T12:44:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים השחור",
+      "lat": 43.8728,
+      "lon": 33.9938
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10051927-05",
+    "title": "נפילת שברי כטב\"מ בקייב",
+    "summary": "שברי כטב\"מ רוסי נפלו במחוז פצ'רסקי בקייב וגרמו שריפה במכוניות חונות",
+    "axis": "הגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T18:18:00+00:00",
+    "last_update_at": "2026-10-05T18:18:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא למבנים סמוכים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_d97f0208995f3e6d",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056605/",
+      "published_at": "2026-10-05T18:18:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות רוסיה כי אוקראינה ממשיכה לתקוף את תחנת הכוח הגרעינית בזפוריז'ה באופן המסכן את האזור",
+   "טענות יחידה אוקראינית על הרגת 600 חיילים רוסים ביממה אחת",
+   "פרטי הצעות השלום של הודו והתקדמות השיחות הדיפלומטיות",
+   "מעורבות אפשרית של פעיל רוסי בקבוצה חמושה אוקראינית"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1204,
+    "unit": "USD",
+    "change_pct": -0.19,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "עמידה ביעדי אספקת נשק מהשותפים",
+     "חיזוק מערך ההגנה האווירית והתמודדות עם כטב\"מים סילוניים"
+    ],
+    "inferred": [
+     "המשך פגיעה בתשתיות אנרגיה וזיקוק ברוסיה",
+     "גיוס תמיכה מערבית כלכלית וצבאית רחבה"
+    ],
+    "forecast": [
+     "שילוב מערכות יירוט רובוטיות נוספות להגנת הערים",
+     "המשך מאמצים לקבלת מטוסי קרב וציוד כבד נוסף"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הגדלת תקציב הביטחון לשנים הקרובות למימון המלחמה",
+     "הזהרת אזרחים ודיפלומטים זרים לעזוב את קייב"
+    ],
+    "inferred": [
+     "שחיקת המורעה והתשתיות באוקראינה לקראת חורף",
+     "שיבוש יכולות הייצוא והכלכלה האוקראינית"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות נרחבות על ערים מרכזיות באוקראינה",
+     "הגברת הלחץ סביב אתרים אסטרטגיים ותשתיות אנרגיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+    "accessed_at": "2026-10-05T19:27:55+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/",
+    "accessed_at": "2026-10-05T19:27:55+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056605/",
+    "accessed_at": "2026-10-05T19:27:55+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131385",
+    "accessed_at": "2026-10-05T19:27:55+00:00"
+   }
+  ]
+ }
+}

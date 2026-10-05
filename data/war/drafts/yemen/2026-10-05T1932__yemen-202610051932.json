@@ -1,0 +1,332 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c71436e031ab",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-05T19:32:48+00:00",
+  "window": {
+   "from": "2026-10-04T19:32:48+00:00",
+   "to": "2026-10-05T19:32:48+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610051932"
+  },
+  "summary": "הלחימה בתימן מתחדשת בעוצמה בעקבות מתקפת נגד של כוחות ממשלת תימן הנתמכים בסעודיה נגד החות'ים, במטרה להשתלט מחדש על אזורי מפתח סביב מצר באב אל-מנדב ועיר הנמל אל-מוח'א. במקביל, סעודיה, פקיסטן וטורקיה מכריזות על הפעלת מנגנון הגנה קולקטיבי במסגרת ברית מכה להעמדת יכולות צבאיות, בעוד ארה'ב וגורמים נוספים מפרסמים אזהרות מסע והתרעות ביטחוניות באזור.",
+  "fronts": [
+   {
+    "name": "חזית החוף המערבי ובאב אל-מנדב",
+    "status": "פעילה וסוערת עם מתקפות נגד"
+   },
+   {
+    "name": "חזית תאיז ומריב",
+    "status": "לחימה קרקעית נמשכת"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10051932-01",
+    "title": "פתיחת מתקפת נגד ומבצע צבאי של ממשלת תימן נגד החות'ים",
+    "summary": "כוחות ממשלת תימן הנתמכים בידי סעודיה החלו במתקפה רחבה ובהטלת מבצע צבאי בשם שחר תימן במטרה להשתלט מחדש על שטחים שאיבדו ולהחזיר את שליטת המדינה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T00:38:54+00:00",
+    "last_update_at": "2026-10-05T19:17:05+00:00",
+    "what_is_not_verified": "היirs המלא של השטח שנכבש בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_d1aa167fab2ae162",
+      "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+      "published_at": "2026-10-05T19:17:05+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_d1aa167fab2ae162",
+      "url": "https://t.me/abualiexpress/131415",
+      "published_at": "2026-10-05T17:12:10+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_eb5fe16931176031",
+      "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+      "published_at": "2026-10-05T15:21:54+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_e92ddaf0bdc05219",
+      "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+      "published_at": "2026-10-05T00:38:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10051932-02",
+    "title": "הכרזה על הפעלת מנגנון הגנה קולקטיבי של ברית מכה",
+    "summary": "סעודיה, פקיסטן וטורקיה הודיעו על יישום צעדים מיידיים של ברית ההגנה של מכה והעמדת כוחות ויכולות צבאיות לתמיכה בסעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T18:25:54+00:00",
+    "last_update_at": "2026-10-05T19:01:28+00:00",
+    "what_is_not_verified": "האם פקיסטן וטורקיה מצטרפות באופן ישיר ללחימה בתימן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_281cb9099d6a0495",
+      "url": "https://t.me/abualiexpress/131422",
+      "published_at": "2026-10-05T19:01:28+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_281cb9099d6a0495",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-and-turkey-provide-military-support-saudi-arabia-amid-war",
+      "published_at": "2026-10-05T18:43:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_281cb9099d6a0495",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/makkah-alliance-activate-collective-deterrence-saudi-arabias-minister",
+      "published_at": "2026-10-05T18:26:15+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_281cb9099d6a0495",
+      "url": "https://t.me/alexmehacarmel/48280",
+      "published_at": "2026-10-05T18:25:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10051932-03",
+    "title": "השתלטות כוחות ממשלת תימן הנתמכים בידי סעודיה על אל-מוח'א ובאב אל-מנדב",
+    "summary": "כוחות הממשלה התימנית הנתמכים בידי סעודיה הודיעו כי כבשו מחדש את עיר הנמל אל-מוח'א ואזורים סביב מצר באב אל-מנדב.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T15:40:19+00:00",
+    "last_update_at": "2026-10-05T19:17:05+00:00",
+    "what_is_not_verified": "מידת השליטה המלאה בשטח והיקף הנפגעים המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_d1aa167fab2ae162",
+      "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+      "published_at": "2026-10-05T19:17:05+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_d1aa167fab2ae162",
+      "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T17:49:59+00:00"
+     },
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "fh_542163ce1e8dc149",
+      "url": "https://gcaptain.com/saudi-backed-forces-claim-control-of-bab-el-mandeb-strait/",
+      "published_at": "2026-10-05T16:04:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d1aa167fab2ae162",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-saudi-backed-forces-announce-mocha-takeover",
+      "published_at": "2026-10-05T15:40:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מוח'א, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     },
+     {
+      "name": "מצר באב אל-מנדב",
+      "lat": 12.5744,
+      "lon": 43.3128
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10051932-04",
+    "title": "תיעוד עימותים ואלימות בקרבות בתימן",
+    "summary": "פורסמו סרטונים המציגים קרבות באזורי החזית, כולל תנועת רכבים משוריינים וחילופי אש בין כוחות הממשלה לחות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T18:16:56+00:00",
+    "last_update_at": "2026-10-05T18:16:56+00:00",
+    "what_is_not_verified": "זהותם המדויקת של כל המעורבים בכל סרטון ונסיבות האירועים הפרטניות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/yemen-video-armoured-vehicle-rams-unarmed-and-armed-men-fighting",
+      "published_at": "2026-10-05T18:16:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10051932-05",
+    "title": "הרוג ליועץ צבאי פקיסטני בחזית מריב",
+    "summary": "דווח על מותו של יועץ צבאי פקיסטני בקווי החזית בצפון מערב מריב.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T17:02:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T17:02:56+00:00",
+    "last_update_at": "2026-10-05T17:02:56+00:00",
+    "what_is_not_verified": "אימות רשמי מצד ממשלת פקיסטן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48276",
+      "published_at": "2026-10-05T17:02:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "השתלטות מלאה ויציבה על כל האזורים שהוכרזו במסגרת מתקפת הנגד",
+   "היקף ההשתתפות המבצעית הישירה של פקיסטן וטורקיה בשטח",
+   "מותו של היועץ הצבאי הפקיסטני במריב"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0623,
+    "unit": "ILS",
+    "change_pct": -0.1,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ממשלת תימן והקואליציה בהובלת סעודיה",
+    "declared": [
+     "להחזיר את השליטה בכל השטחים שנכבשו בידי החות'ים",
+     "להרחיב את סמכות המדינה ומוסדותיה על כל שטחי הרפובליקה",
+     "לאבטח את נתיבי השיט בים האדום ובבאב אל-מנדב"
+    ],
+    "inferred": [
+     "לבלום את התקדמות החות'ים ולשсר את קווי האספקה האסטרטגיים",
+     "לגייס תמיכה אזורית רחבה דרך ברית מכה"
+    ],
+    "forecast": [
+     "המשך הלחימה הקרקעית והאווירית המאסיבית באזורי החוף",
+     "ניסיונות יישום של כוחות ברית מכה בסעודיה"
+    ]
+   },
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להמשיך במערכה נגד התקיפות והכוחות המזוהים עם סעודיה"
+    ],
+    "inferred": [
+     "לבצר שליטה באזורים הרריים השולטים על נתיבי תחבורה ותשתיות",
+     "לשבש את קווי התקשורת והתנועה של הכוחות היריבים"
+    ],
+    "forecast": [
+     "המשך התנגדות עיקשת ולחימה אסימטרית מול מתקפות הנגד"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/saudi-backed-forces-claim-control-of-bab-el-mandeb-strait/",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/yemen-video-armoured-vehicle-rams-unarmed-and-armed-men-fighting",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131422",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48276",
+    "accessed_at": "2026-10-05T19:32:48+00:00"
+   }
+  ]
+ }
+}

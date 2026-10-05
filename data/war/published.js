@@ -610,143 +610,64 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-04T1541__ukraine-202610041541.json",
+  "draft": "drafts/ukraine/2026-10-05T1927__ukraine-202610051927.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-04T15:41:12+00:00",
+   "generated_at": "2026-10-05T19:27:55+00:00",
    "window": {
-    "from": "2026-10-03T15:41:12+00:00",
-    "to": "2026-10-04T15:41:12+00:00"
+    "from": "2026-10-04T19:27:55+00:00",
+    "to": "2026-10-05T19:27:55+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202610041541"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "ukraine-202610051927"
    },
-   "summary": "צבא רוסיה מרחיב את מתקפותיו האוויריות על תשתיות תחבורה ותקשורת בקייב, בדגש על פגיעה מתמשכת בגשרים מרכזיים מעל נהר הדנייפר באמצעות כטב\"מים מהירים. במקביל, כוחות אוקראינה מעמיקים את הפגיעה בעומק השטח הרוסי ותוקפים בסיסי חיל אוויר ומתקני אנרגיה. בזירה המדינית נמשכת ההתבססות של קייב על סיוע אירופי מוגבר בעוד נבחנת אפשרות לשיחות טכניות משולשות לקראת החורף.",
+   "summary": "הלחימה באוקראינה מתאפיינת בהמשך תקיפות אוויריות אינטנסיביות מצד רוסיה על תשתיות ואזורי מגורים, מול ניסיונות יירוט אוקראיניים מתקדמים הכוללים מערכות אוטומטיות. במקביל, גרמניה ומדינות אירופיות נוספות מחזקות את הסיוע הצבאי והכלכלי לקייב, בעוד שרוסיה ממשיכה בלחץ צבאי וכלכלי.",
    "fronts": [
     {
-     "name": "העורף האוקראיני ומרחב קייב",
-     "status": "תקיפות אוויריות מוגברות של רוסיה על גשרים, מרכזי נתונים ותשתיות אזרחיות לצד עיבוי מערכות יירוט"
+     "name": "חזית המזרח (חארקוב)",
+     "status": "פעיל ואינטנסיבי עם תקיפות אוויריות"
     },
     {
-     "name": "החזית המזרחית (דונבאס)",
-     "status": "מתקפת נגד אוקראינית תחת השם ויוואלדי שהביאה לשחרור של כ-140 קמ\"ר"
+     "name": "חזית הדרום (זפוריז'ה)",
+     "status": "פעיל עם תקיפות על תשתיות ומגורים"
     },
     {
-     "name": "עומק רוסיה ומתקנים אסטרטגיים",
-     "status": "תקיפות כטב\"מים אוקראיניות נגד מטוסי קרב בבסיסי חיל אוויר ופגיעות בתשתיות בדרום רוסיה ובקרים"
+     "name": "מרחב קייב והעורף",
+     "status": "תחת מתקפות כטב\"מים וטילים ומערכות הגנה"
+    },
+    {
+     "name": "זירת הים השחור",
+     "status": "פעילה עם פגיעה בספינות סחר"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10041541-01",
-     "title": "תקיפת כטב\"מים אוקראינית על בסיס טיסה באדיגיה",
-     "summary": "כטב\"מים של יחידת אלפא בשירות הביטחון של אוקראינה פגעו במטוסי קרב מסוג סוחוי-35 וסוחוי-34 בבסיס חאנסקאיה שברפובליקת אדיגיה ברוסיה, במרחק של כ-500 קילומטרים.",
-     "axis": "רוסיה",
+     "id": "UKRAINE-10051927-01",
+     "title": "פגיעת כטב\"מ בגשר הצפוני בקייב",
+     "summary": "כטב\"מ רוסי פגע בגשר הצפוני מעל נהר דניפרו בקייב, במהלך ביקור של קנצלר גרמניה",
+     "axis": "תקיפות אוויריות",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T13:17:00+00:00",
-     "last_update_at": "2026-10-04T15:13:46+00:00",
-     "what_is_not_verified": "מידת הנזק המדויקת למטוסים",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-10-04T18:30:50+00:00",
+     "last_update_at": "2026-10-05T01:00:20+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים אינם מפורטים מעבר לשני פצועים",
+     "is_new_in_window": false,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_93f7211839d8696e",
-       "url": "https://kyivindependent.com/russian-su-35-su-34-fighter-jets-hit-by-drones-at-airfield-in-adygea-sbu-says/",
-       "published_at": "2026-10-04T15:13:46+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_93f7211839d8696e",
-       "url": "https://www.ukrinform.net/rubric-ato/4170953-ukrainian-drones-hit-two-russian-fighter-jets-at-air-base-in-adygea.html",
-       "published_at": "2026-10-04T14:43:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_93f7211839d8696e",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056419/",
-       "published_at": "2026-10-04T13:17:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בסיס חאנסקאיה, אדיגיה, רוסיה",
-       "lat": 44.6783,
-       "lon": 40.0317
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10041541-02",
-     "title": "פגיעות כטב\"מים בגשר הצפוני בקייב",
-     "summary": "רוסיה תקפה את הגשר הצפוני מעל נהר הדנייפר בקייב באמצעות כטב\"מים, מה שהוביל לפציעת שני בני אדם ולשיבושי תנועה כבדים.",
-     "axis": "קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T09:14:04+00:00",
-     "last_update_at": "2026-10-04T14:53:11+00:00",
-     "what_is_not_verified": "האם מדובר בטיל שיוט או בכטב\"ם סילוני כפי שנטען בחלק מהדיווחים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48245",
-       "published_at": "2026-10-04T14:53:11+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "or_guardian",
+       "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+       "published_at": "2026-10-05T01:00:20+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
-       "published_at": "2026-10-04T14:35:31+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4170930-two-people-injured-in-russian-strike-on-northern-bridge-in-kyiv.html",
-       "published_at": "2026-10-04T12:24:00+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-04T12:09:04+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/04/russia-strikes-kyiv-bridge-german-chancellor-merz-visits-ukraine",
-       "published_at": "2026-10-04T11:53:09+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131320",
-       "published_at": "2026-10-04T11:49:15+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21548548",
-       "published_at": "2026-10-04T11:29:21+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/byasbjyszg",
-       "published_at": "2026-10-04T10:30:41+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
-       "published_at": "2026-10-04T09:14:04+00:00"
+       "source_root_id": "or_guardian",
+       "url": "https://www.theguardian.com/world/video/2026/oct/04/russian-drone-hits-key-bridge-in-kyiv-on-german-chancellors-visit-video",
+       "published_at": "2026-10-04T18:30:50+00:00"
       }
      ],
      "places": [
@@ -758,176 +679,123 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-10041541-03",
-     "title": "התרסקות כלי טיס בלתי מאויש במחוז אובולון בקייב",
-     "summary": "כלי טיס בלתי מאויש רוסי הנושא חימוש שלא התפוצץ התרסק ברובע אובולון שבקייב, וצוותי חירום הוזעקו לזירה.",
-     "axis": "קייב",
+     "id": "UKRAINE-10051927-02",
+     "title": "תקיפת מבנה מגורים בחארקוב",
+     "summary": "כוחות רוסיים תקפו את חארקוב באמצעות פצצות אוויריות מונחות, מה שהוביל להרוגים ופצועים רבים",
+     "axis": "חזית המזרח",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T15:08:00+00:00",
-     "last_update_at": "2026-10-04T15:08:00+00:00",
-     "what_is_not_verified": "נסיבות ההתרסקות והיקף הנזק סביב הנפילה",
+     "first_reported_at": "2026-10-05T01:00:20+00:00",
+     "last_update_at": "2026-10-05T18:26:15+00:00",
+     "what_is_not_verified": "זהות כל הנפגעים",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_4741773569c7fb98",
+       "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/",
+       "published_at": "2026-10-05T18:26:15+00:00"
+      },
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056436/",
-       "published_at": "2026-10-04T15:08:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "רובע אובולונסקי, קייב, אוקראינה",
-       "lat": 50.5306,
-       "lon": 30.4384
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10041541-04",
-     "title": "ביקור קנצלר גרמניה בקייב והכרזה על חבילת סיוע",
-     "summary": "קנצלר גרמניה פרידריך מרץ הגיע לביקור רשמי בקייב והודיע יחד עם זלנסקי על חבילת סיוע ביטחוני בשווי 1.46 מיליארד דולר ועל הסכם לשיתוף פעולה ביירוט כטב\"מים.",
-     "axis": "קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T06:58:11+00:00",
-     "last_update_at": "2026-10-04T15:00:00+00:00",
-     "what_is_not_verified": "לוח הזמנים המדויק להגעת כטב\"מי היירוט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4170960-germany-working-to-accelerate-ukraines-accession-to-eu-merz.html",
-       "published_at": "2026-10-04T15:00:00+00:00"
+       "source_root_id": "fh_4741773569c7fb98",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056604/",
+       "published_at": "2026-10-05T17:48:00+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
-       "published_at": "2026-10-04T14:35:31+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4170952-zelensky-merz-meet-rescuers-who-cleared-aftermath-of-russian-strike-on-science-academy-in-kyiv.html",
-       "published_at": "2026-10-04T14:22:00+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4170948-ukraine-germany-sign-agreement-on-cooperation-in-countering-uavs.html",
-       "published_at": "2026-10-04T14:02:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
-       "published_at": "2026-10-04T13:18:47+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/german-chancellor-merz-arrives-in-kyiv-pledges-further-support-for-ukraine/",
-       "published_at": "2026-10-04T06:58:11+00:00"
+       "source_root_id": "fh_4741773569c7fb98",
+       "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+       "published_at": "2026-10-05T01:00:20+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "חארקוב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
       }
      ]
     },
     {
-     "id": "UKRAINE-10041541-05",
-     "title": "שריפות בתחנות כוח סולאריות בחצי האי קרים",
-     "summary": "שריפה פרצה בתחנת כוח סולארית בניקולייבקה שבמחוז סימפרופול בחצי האי קרים הכבוש, לפי פרסומים ברשתות החברתיות.",
-     "axis": "קרים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T15:26:00+00:00",
-     "last_update_at": "2026-10-04T15:26:00+00:00",
-     "what_is_not_verified": "סיבת פרוץ השריפות ומידת הפגיעה בתחנה השנייה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4170977-fires-break-out-at-two-solar-power-plants-in-occupied-crimea-social-media.html",
-       "published_at": "2026-10-04T15:26:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מחוז סימפרופול, קרים",
-       "lat": 44.9402,
-       "lon": 34.1198
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10041541-06",
-     "title": "אספקת סיוע הומניטרי באמצעות רחפנים לעיר אולשקי",
-     "summary": "הצבא האוקראיני ביצע מבצע שני להטסת סיוע הומניטרי באמצעות רחפנים לתושבי העיר הכבושה אולשקי הסובלים ממחסור במזון, מים ותרופות.",
+     "id": "UKRAINE-10051927-03",
+     "title": "תקיפת בניין מגורים בזפוריז'ה",
+     "summary": "רוסיה תקפה בניין מגורים בזפוריז'ה וגרמה לפצועים",
      "axis": "חזית הדרום",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T14:41:31+00:00",
-     "last_update_at": "2026-10-04T14:41:31+00:00",
-     "what_is_not_verified": "כמות הציוד שהועברה בפועל במבצע",
+     "first_reported_at": "2026-10-05T18:35:00+00:00",
+     "last_update_at": "2026-10-05T18:35:00+00:00",
+     "what_is_not_verified": "מצבו הרפואי המלא של כלל הפצועים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/news-from-occupied-ukraine-military-delivers-aid-by-drone-to-occupied-oleshky-in-second-operation/",
-       "published_at": "2026-10-04T14:41:31+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_46d33fff2a24d5c8",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056607/",
+       "published_at": "2026-10-05T18:35:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אולשקי, אוקראינה",
-       "lat": 46.6261,
-       "lon": 32.722
+       "name": "זפוריז'ה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
       }
      ]
     },
     {
-     "id": "UKRAINE-10041541-07",
-     "title": "הסכמת אוקראינה למפגש טכני משולש באיחוד האמירויות",
-     "summary": "הנשיא זלנסקי הודיע כי אוקראינה הביעה נכונות להשתתף במפגש טכני משולש עם ארצות הברית ורוסיה שתוכנן להתקיים באיחוד האמירויות עד סוף חודש אוקטובר.",
-     "axis": "דיפלומטיה",
-     "claim_type": "statement",
+     "id": "UKRAINE-10051927-04",
+     "title": "פגיעה בספינת תבואה בים השחור",
+     "summary": "ספינת תבואה טבעה בים השחור לאחר פגיעת כטב\"מ",
+     "axis": "הים השחור",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T13:39:00+00:00",
-     "last_update_at": "2026-10-04T13:45:00+00:00",
-     "what_is_not_verified": "האם רוסיה הסכימה לקחת חלק במפגש",
+     "first_reported_at": "2026-10-05T12:44:28+00:00",
+     "last_update_at": "2026-10-05T12:44:28+00:00",
+     "what_is_not_verified": "זהות אלגורם המשגר המדויקת של הכטב\"ם",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4170947-ukraine-agrees-to-trilateral-technical-meeting-in-uae-ball-is-now-in-russias-court-zelensky.html",
-       "published_at": "2026-10-04T13:45:00+00:00"
-      },
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_abu_ali_express_telegram",
+       "url": "https://t.me/abualiexpress/131385",
+       "published_at": "2026-10-05T12:44:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "הים השחור",
+       "lat": 43.8728,
+       "lon": 33.9938
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10051927-05",
+     "title": "נפילת שברי כטב\"מ בקייב",
+     "summary": "שברי כטב\"מ רוסי נפלו במחוז פצ'רסקי בקייב וגרמו שריפה במכוניות חונות",
+     "axis": "הגנה אווירית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T18:18:00+00:00",
+     "last_update_at": "2026-10-05T18:18:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא למבנים סמוכים",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056421/",
-       "published_at": "2026-10-04T13:39:00+00:00"
+       "source_root_id": "fh_d97f0208995f3e6d",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056605/",
+       "published_at": "2026-10-05T18:18:00+00:00"
       }
      ],
      "places": [
@@ -937,65 +805,13 @@ window.DB.war_published = {
        "lon": 30.5241
       }
      ]
-    },
-    {
-     "id": "UKRAINE-10041541-08",
-     "title": "הצבת עמדות יירוט כטב\"מים באזור קייב",
-     "summary": "נשיא אוקראינה מסר כי מעל שתים-עשרה עמדות יירוט מיוחדות להתמודדות עם כטב\"מי סילון הוצבו בקייב, ושמונה נוספות יוצבו ברחבי המחוז.",
-     "axis": "קייב",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T13:28:00+00:00",
-     "last_update_at": "2026-10-04T13:28:00+00:00",
-     "what_is_not_verified": "מועד הפריסה המלא של העמדות הנוספות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4170944-zelensky-more-than-12-turrets-to-counter-jetpowered-drones-installed-in-kyiv.html",
-       "published_at": "2026-10-04T13:28:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10041541-09",
-     "title": "איום רוסי בפגיעה בלווייני סטארלינק",
-     "summary": "דמיטרי מדבדב איים כי ניסיון לפגוע במערך הלוויינים הרוסי רסבט יוביל לתגובה נגד לווייני סטארלינק וללוחמת חלל כוללת.",
-     "axis": "רוסיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T12:42:00+00:00",
-     "last_update_at": "2026-10-04T12:42:00+00:00",
-     "what_is_not_verified": "היכולת המעשית והאמצעים שבהם רוסיה מתכוונת לפגוע בלוויינים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_772f8be306c420f1",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056413/",
-       "published_at": "2026-10-04T12:42:00+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "סוג החימוש שפגע בגשר הצפוני בקייב – טיל שיוט מדגם S8000 או כטב\"ם סילוני",
-    "טענת אוקראינה לפיה בידיה מסמכי מודיעין על דוקטרינה רוסית לתקיפת אזרחים בלבד כדי לרוקן ערים",
-    "תוכניות פינוי של שגרירויות מערביות מקייב בעקבות התקיפות",
-    "סיבת השריפות בתחנות הכוח הסולאריות בחצי האי קרים"
+    "טענות רוסיה כי אוקראינה ממשיכה לתקוף את תחנת הכוח הגרעינית בזפוריז'ה באופן המסכן את האזור",
+    "טענות יחידה אוקראינית על הרגת 600 חיילים רוסים ביממה אחת",
+    "פרטי הצעות השלום של הודו והתקדמות השיחות הדיפלומטיות",
+    "מעורבות אפשרית של פעיל רוסי בקבוצה חמושה אוקראינית"
    ],
    "map": {
     "confidence": "high",
@@ -1006,363 +822,311 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1225,
+     "value": 1.1204,
      "unit": "USD",
-     "change_pct": -0.65,
+     "change_pct": -0.19,
      "source_id": "src_ecb",
-     "as_of": "2026-10-02T15:00:00+00:00"
+     "as_of": "2026-10-05T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "להגביר תקיפות נגד בתי זיקוק רוסיים כדי לפגוע במימון המלחמה",
-      "לקדם הצטרפות מואצת לאיחוד האירופי ולהשיג הסכמי יירוט כטב\"מים עם גרמניה",
-      "להשתתף במפגש טכני משולש באיחוד האמירויות לבחינת הפסקת תקיפות הדדית על אנרגיה"
+      "עמידה ביעדי אספקת נשק מהשותפים",
+      "חיזוק מערך ההגנה האווירית והתמודדות עם כטב\"מים סילוניים"
      ],
      "inferred": [
-      "החלשת יכולות חיל האוויר הרוסי באמצעות פגיעה במטוסים מתקדמים בעומק הבסיסים",
-      "הגנה דחופה על נתיבי התחבורה והתקשורת בבירה קייב לקראת עונת החורף"
+      "המשך פגיעה בתשתיות אנרגיה וזיקוק ברוסיה",
+      "גיוס תמיכה מערבית כלכלית וצבאית רחבה"
      ],
      "forecast": [
-      "המשך מיקוד התקיפות בנכסי נפט ותעופה בעומק רוסיה לצד פריסת עמדות הגנה אווירית נוספות סביב קייב"
+      "שילוב מערכות יירוט רובוטיות נוספות להגנת הערים",
+      "המשך מאמצים לקבלת מטוסי קרב וציוד כבד נוסף"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "תקיפת מתקני תעשייה ביטחונית ותשתיות נלוות בתגובה לפעולות אוקראינה",
-      "איום בהשמדת לווייני סטארלינק אם יוטלו סנקציות או ייחסם מערך רסבט"
+      "הגדלת תקציב הביטחון לשנים הקרובות למימון המלחמה",
+      "הזהרת אזרחים ודיפלומטים זרים לעזוב את קייב"
      ],
      "inferred": [
-      "שיבוש התנועה והתקשורת בקייב כדי להפעיל לחץ פסיכולוגי ואזרחי על הנהגת המדינה",
-      "שליטה מלאה במחוז דונבאס כתנאי מוקדם לכל משא ומתן עתידי"
+      "שחיקת המורעה והתשתיות באוקראינה לקראת חורף",
+      "שיבוש יכולות הייצוא והכלכלה האוקראינית"
      ],
      "forecast": [
-      "המשך שימוש נרחב בכטב\"מי סילון לפגיעה בגשרים, מתקני אנרגיה ומרכזי נתונים באוקראינה"
+      "המשך מתקפות אוויריות נרחבות על ערים מרכזיות באוקראינה",
+      "הגברת הלחץ סביב אתרים אסטרטגיים ותשתיות אנרגיה"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
-    },
-    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21548548",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks",
+     "accessed_at": "2026-10-05T19:27:55+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/news-from-occupied-ukraine-military-delivers-aid-by-drone-to-occupied-oleshky-in-second-operation/",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
+     "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/",
+     "accessed_at": "2026-10-05T19:27:55+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056413/",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/05/8056605/",
+     "accessed_at": "2026-10-05T19:27:55+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131320",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48245",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
-    },
-    {
-     "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4170944-zelensky-more-than-12-turrets-to-counter-jetpowered-drones-installed-in-kyiv.html",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/byasbjyszg",
-     "accessed_at": "2026-10-04T15:41:12+00:00"
+     "url": "https://t.me/abualiexpress/131385",
+     "accessed_at": "2026-10-05T19:27:55+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-04T02:51:47+00:00",
+  "previous_generated_at": "2026-10-04T15:41:12+00:00",
   "changes": {
-   "UKRAINE-10041541-01": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-02": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-03": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-04": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-05": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-06": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-07": {
-    "kind": "new"
-   },
-   "UKRAINE-10041541-08": {
+   "UKRAINE-10051927-01": {
     "kind": "same",
     "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפות כטב\"מים רוסיים על גשרי נהר הדניפרו בקייב",
-    "score": 0.817
+    "to": "shared_root",
+    "prev": "פגיעות כטב\"מים בגשר הצפוני בקייב",
+    "score": 1.0
    },
-   "UKRAINE-10041541-09": {
+   "UKRAINE-10051927-02": {
     "kind": "new"
+   },
+   "UKRAINE-10051927-03": {
+    "kind": "new"
+   },
+   "UKRAINE-10051927-04": {
+    "kind": "new"
+   },
+   "UKRAINE-10051927-05": {
+    "kind": "possible",
+    "prev": "הצבת עמדות יירוט כטב\"מים באזור קייב",
+    "score": 0.633
    }
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-05T0628__north-202610050628.json",
+  "draft": "drafts/north/2026-10-05T1933__north-202610051933.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-05T06:28:06+00:00",
+   "generated_at": "2026-10-05T19:33:35+00:00",
    "window": {
-    "from": "2026-10-04T06:28:06+00:00",
-    "to": "2026-10-05T06:28:06+00:00"
+    "from": "2026-10-04T19:33:35+00:00",
+    "to": "2026-10-05T19:33:35+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202610050628"
+    "run_id": "north-202610051933"
    },
-   "summary": "הזירה הצפונית מתאפיינת בלחימה מתמשכת בדרום לבנון הכוללת תקיפות צה\"ל והפגזות לצד פעילות שוטפת של צבא ההגנה לישראל במרחב האבטחה בדרום סוריה. במקביל, ממשלת לבנון מנסה לקדם מחדש את נוכחות המדינה בדרום ובמקביל מנהלת דיפלומטיה אזורית, בעוד חיזבאללה ממשיך לשמור על נוכחות אזרחית וצבאיות. בצד הסורי נמשכות מחאות פנימיות וביקורת על פעילות הבנייה והחישוף של ישראל באזור קוניטרה.",
+   "summary": "בגזרה הצפונית נרשמת דריכות והתחממות במספר צירים: בחזית הסורית מדווחים עימותים ותקריות אבטחה שכללו סיכול חדירות וירי מוצבים, לצד גינויים אזוריים נגד פעילות צה\"ל במרחב החיץ והשלמת קו סופה 53. בחזית הלבנונית נמשכות תקיפות ארטילריות ממוקדות בדרום לבנון, לצד היערכות הממשלה והצבא בביירות לחיזוק השליטה הביטחונית והחברתית.",
    "fronts": [
     {
-     "name": "החזית הלבנונית",
-     "status": "פעילה עם תקיפות אוויריות, ארטילריה ותאונות מבצעיות"
+     "name": "החזית הסורית",
+     "status": "מתיחות גוברת ותקריות אבטחה במרחב הגבול ודרום סוריה"
     },
     {
-     "name": "החזית הסורית",
-     "status": "פעילה עם מבצעים נקודתיים ופעילות במרחב האבטחה"
+     "name": "החזית הלבנונית",
+     "status": "פעילות צבאית מקומית ותהליכי היערכות של המדינה מול תשתיות חיזבאללה"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10050628-01",
-     "title": "תקיפות והפגזות ארטילריות בדרום לבנון",
-     "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות והפגזות ארטילריות במספר מרחבים בדרום לבנון.",
-     "axis": "ישראל - לבנון וחיזבאללה",
+     "id": "NORTH-10051933-01",
+     "title": "חיסול חשוד בדרום סוריה",
+     "summary": "חיילי צה\"ל חיסלו מחבל שחדר לבסיס צה\"ל בדרום סוריה",
+     "axis": "הגזרה הסורית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T14:46:07+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-04T14:46:07+00:00",
-     "last_update_at": "2026-10-05T05:43:06+00:00",
-     "what_is_not_verified": "מיקום מדויק של פגיעת חלק מן הפגזים.",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T19:16:40+00:00",
+     "last_update_at": "2026-10-05T19:16:40+00:00",
+     "what_is_not_verified": "זהות המחבל המלאה ומניעיו אינם מאומתים במלואם מעבר לדיווח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_307f16f631bcab00",
-       "url": "https://english.almanar.com.lb/article/134412/",
-       "published_at": "2026-10-05T05:43:06+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_9861edbb906c2983",
-       "url": "https://english.almanar.com.lb/article/134362/",
-       "published_at": "2026-10-04T21:38:29+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_307f16f631bcab00",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-and-detonations-hit-several-towns-southern-lebanon",
-       "published_at": "2026-10-04T19:13:41+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_ce6132a07e5a6c14",
-       "url": "https://english.almanar.com.lb/article/134227/",
-       "published_at": "2026-10-04T14:46:07+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131423",
+       "published_at": "2026-10-05T19:16:40+00:00"
       }
      ],
      "places": [
       {
-       "name": "נבטיה אל-פוקא, לבנון",
-       "lat": 33.3619,
-       "lon": 35.4987
-      },
-      {
-       "name": "מג'דל זון, לבנון",
-       "lat": 33.1503,
-       "lon": 35.226
-      },
-      {
-       "name": "מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "דרום סוריה",
+       "lat": 35.9664,
+       "lon": 40.8012
       }
      ]
     },
     {
-     "id": "NORTH-10050628-02",
-     "title": "חיסול חשוד בדרום סוריה",
-     "summary": "כוחות צה\"ל ירו וחיסלו חשוד שניסה לחדור למוצב במרחב האבטחה בדרום סוריה.",
-     "axis": "ישראל - סוריה",
+     "id": "NORTH-10051933-02",
+     "title": "זיהוי וירי לעבר שני חשודים על אופנוע בדרום סוריה",
+     "summary": "כוחות צה\"ל זיהו שני חשודים על אופנוע שנעו לעבר מוצב צה\"ל במרחב האבטחה והחיץ בדרום סוריה, פתחו בנוהל מעצר חשוד שכלל ירי ועצרו אותם",
+     "axis": "הגזרה הסורית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-04T00:00:00+00:00",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T19:41:26+00:00",
-     "last_update_at": "2026-10-04T23:43:43+00:00",
-     "what_is_not_verified": "זהותו המדויקת של ההרוג והמניע המדויק לפי מקורות שאינם רשמיים.",
+     "first_reported_at": "2026-10-05T13:22:43+00:00",
+     "last_update_at": "2026-10-05T19:16:40+00:00",
+     "what_is_not_verified": "מצבו הרפואי המדויק של הפצוע אינו מפורט מעבר לכך שהועבר לטיפול",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-troops-kill-man-southern-syria",
-       "published_at": "2026-10-04T23:43:43+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-kills-man-in-southern-syria/4077933",
-       "published_at": "2026-10-04T22:53:22+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://t.me/abualiexpress/131423",
+       "published_at": "2026-10-05T19:16:40+00:00"
       },
       {
        "source_id": "src_israelhayom",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.israelhayom.co.il/news/defense/article/21553297",
-       "published_at": "2026-10-04T21:46:53+00:00"
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://www.israelhayom.co.il/news/defense/article/21559690",
+       "published_at": "2026-10-05T17:01:35+00:00"
       },
       {
        "source_id": "src_walla",
-       "source_root_id": "fh_1f1217573992128f",
-       "url": "https://www.walla.co.il/news/military/383956275",
-       "published_at": "2026-10-04T21:36:12+00:00"
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://www.walla.co.il/news/military/383956358",
+       "published_at": "2026-10-05T13:54:26+00:00"
       },
       {
        "source_id": "src_tg_idf",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://t.me/idf_telegram/25278",
-       "published_at": "2026-10-04T21:26:38+00:00"
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://t.me/idf_telegram/25292",
+       "published_at": "2026-10-05T13:42:59+00:00"
       },
       {
        "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://t.me/lelotsenzura/94486",
-       "published_at": "2026-10-04T21:26:27+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.maariv.co.il/breaking-news/article-1373652",
-       "published_at": "2026-10-04T21:26:18+00:00"
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://t.me/lelotsenzura/94498",
+       "published_at": "2026-10-05T13:41:01+00:00"
       },
       {
        "source_id": "src_ynet",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.ynet.co.il/news/article/rywrrvlsfe",
-       "published_at": "2026-10-04T21:18:29+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_5a420dfbae79c8b1",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-shells-syrias-quneitra-while-qatar-and-jordan-condemn-its",
-       "published_at": "2026-10-04T19:41:26+00:00"
+       "source_root_id": "fh_e625c47f79c3d0f8",
+       "url": "https://www.ynet.co.il/news/article/skb9w711oze",
+       "published_at": "2026-10-05T13:22:43+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-חמידייה, סוריה",
+       "name": "כפר אל-חמדיה, סוריה",
        "lat": 35.6562,
        "lon": 36.3884
       }
      ]
     },
     {
-     "id": "NORTH-10050628-03",
-     "title": "פציעת חיילי צה\"ל בתאונה מבצעית בדרום לבנון",
-     "summary": "לוחם צה\"ל נפצע קשה וקצין נפצע בינוני כתוצאה מתאונה מבצעית במהלך פעילות בדרום לבנון.",
-     "axis": "ישראל - לבנון וחיזבאללה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-04T05:17:14+00:00",
-     "last_update_at": "2026-10-04T06:28:06+00:00",
-     "what_is_not_verified": "הנסיבות הטכניות המדויקות של התאונה המבצעית.",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131297",
-       "published_at": "2026-10-04T05:17:14+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10050628-04",
-     "title": "כנס צופים של חיזבאללה בדאחיה",
-     "summary": "התקיים כינוס צופים המזוהה עם חיזבאללה לציון שנה שנייה למותם של חסן נאסראללה והאשם ספי א-דין.",
-     "axis": "ישראל - לבנון וחיזבאללה",
+     "id": "NORTH-10051933-03",
+     "title": "איתור אמצעי לחימה בדרום סוריה",
+     "summary": "כוחות חטיבת כרמלי איתרו מטעני נ\"ט ומוקשים במהלך פעילות לטיהור המרחב הביטחוני מאמצעי לחימה של המשטר הישן",
+     "axis": "הגזרה הסורית",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-04T15:50:41+00:00",
-     "last_update_at": "2026-10-04T21:22:15+00:00",
-     "what_is_not_verified": "מספר המשתתפים המדויק אינו מאומת ממקור ניטרלי.",
+     "first_reported_at": "2026-10-05T13:18:52+00:00",
+     "last_update_at": "2026-10-05T13:18:52+00:00",
+     "what_is_not_verified": "היקף מלא של כל אמצעי הלחימה שנותרו במרחב אינו ידוע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_554776f72ffe3926",
-       "url": "https://english.almanar.com.lb/article/134237/",
-       "published_at": "2026-10-04T21:22:15+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_104d184e789368de",
-       "url": "https://english.almanar.com.lb/article/134252/",
-       "published_at": "2026-10-04T19:23:03+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_554776f72ffe3926",
-       "url": "https://t.me/abualiexpress/131332",
-       "published_at": "2026-10-04T15:50:41+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25291",
+       "published_at": "2026-10-05T13:18:52+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "דרום סוריה",
+       "lat": 35.9664,
+       "lon": 40.8012
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10051933-04",
+     "title": "ירי ארטילרי ישראלי בדרום לבנון",
+     "summary": "ארטילריה ישראלית תקפה את העיירה בית יהון בדרום לבנון",
+     "axis": "הגזרה הלבנונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T15:09:25+00:00",
+     "last_update_at": "2026-10-05T15:09:25+00:00",
+     "what_is_not_verified": "פרטים מלאים על נזקים ונפגעים אינם מפורטים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_4b6c27418009a2e7",
+       "url": "https://english.almanar.com.lb/article/134682/",
+       "published_at": "2026-10-05T15:09:25+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בית יהון, לבנון",
+       "lat": 33.1582,
+       "lon": 35.4212
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10051933-05",
+     "title": "גינויים סוריים וערביים לפעילות ישראלית בשטח סוריה",
+     "summary": "משרד החוץ הסורי, ירדן וקטר גינו את השלמת העבודות על קו סופה 53 והגדירו זאת כהפרה של הסכם הפרדת הכוחות משנת 1974 ושל ריבונות סוריה",
+     "axis": "הגזרה הסורית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-05T10:08:00+00:00",
+     "last_update_at": "2026-10-05T16:51:27+00:00",
+     "what_is_not_verified": "תגובת ישראל המלאה לגינויים אינה מפורטת במסמך זה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "fh_772d6ded90d708b4",
+       "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
+       "published_at": "2026-10-05T16:51:27+00:00"
+      },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_bb16e77eabfcf249",
+       "url": "https://www.aa.com.tr/en/middle-east/egypt-condemns-israeli-incursions-in-syria-calls-for-withdrawal-from-syrian-territory/4078446",
+       "published_at": "2026-10-05T11:16:33+00:00"
+      },
+      {
+       "source_id": "src_dailysabah",
+       "source_root_id": "fh_d68b78f8cbf64e45",
+       "url": "https://www.dailysabah.com/politics/turkiye-condemns-israels-deepening-incursion-into-syria/news",
+       "published_at": "2026-10-05T10:08:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום סוריה",
+       "lat": 35.9664,
+       "lon": 40.8012
       }
      ]
     }
    ],
    "not_verified": [
-    "טענות על היערכות לפלישה רחבת היקף של כוחות מסוריה ללבנון",
-    "כניסת טייסים ואנשי צוות אוויר זרים מיעדים אסורים לישראל",
-    "מספר המשתתפים המדויק בכנס הצופים של חיזבאללה"
+    "ההערכות המדויקות לגבי היקף השיקום של תשתיות חיזבאללה בלבנון",
+    "האם הפיצוצים בתשתיות האנרגיה בסוריה נבעו מחבלה מכוונת או תקלה טכנית"
    ],
    "map": {
     "confidence": "medium",
@@ -1373,132 +1137,119 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0653,
+     "value": 3.0623,
      "unit": "ILS",
-     "change_pct": -0.35,
+     "change_pct": -0.1,
      "source_id": "src_ecb",
-     "as_of": "2026-10-02T15:00:00+00:00"
+     "as_of": "2026-10-05T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "הסרת כל איום על אזרחי מדינת ישראל וכוחות צה\"ל במרחב האבטחה בסוריה"
+      "הסרת איום מאזרחי ישראל וכוחות צה\"ל בגבול סוריה"
      ],
      "inferred": [
-      "מניעת התבססות עוינת בגבול הצפון ובסוריה",
-      "שמירה על חופש פעולה מבצעי בלבנון ובסוריה"
+      "שמירת מרחב אבטחה פעיל בדרום סוריה וסיכול כל ניסיון חדירה",
+      "פגיעה בתשתיות צבאיות בגבולות הצפון"
      ],
      "forecast": [
-      "המשך התקיפות הנקודתיות והפעילות ההגנתית לאורך הגבולות"
+      "המשך פעילות ביטחונית הדוקה ונוכחות צבאית במרחבי החיץ",
+      "תגובה קשוחה לכל ניסיון התקרבות למוצבים"
      ]
     },
     {
-     "actor": "לבנון",
+     "actor": "חיזבאללה ולבנון",
      "declared": [
-      "דרישה לנסיגה מלאה של ישראל והפסקת התקיפות",
-      "חיזוק סמכות המדינה בדרום ושיקום האזור"
+      "חיזוק הנוכחות והאחריות הביטחונית של צבא לבנון בדרום המדינה"
      ],
      "inferred": [
-      "ניסיון לאזן בין דרישות הריבונות הממשלתית לבין הנוכחות והלחץ של חיזבאללה"
+      "שימור יכולות צבאיות והתארגנות מחדש תחת לחץ פוליטי ומקומי"
      ],
      "forecast": [
-      "המשך המאמצים המדיניים להשגת הפסקת אש יציבה יותר"
-     ]
-    },
-    {
-     "actor": "חיזבאללה",
-     "declared": [
-      "המשך ההגנה על האדמה והתנגדות לפעילות ישראל בדרום לבנון"
-     ],
-     "inferred": [
-      "שימור הלגיטימציה הציבורית באמצעות אירועים המוניים ופעילות אזרחית"
-     ],
-     "forecast": [
-      "שימור יכולות צבאיות מוגבלות לצד הפגנת נוכחות אזרחית ערה"
+      "המשך עימותים נמוכי עצימות ותגובות מקומיות מול פעילות צה\"ל"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/134252/",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://english.almanar.com.lb/article/134682/",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-army-kills-man-in-southern-syria/4077933",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/egypt-condemns-israeli-incursions-in-syria-calls-for-withdrawal-from-syrian-territory/4078446",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
+    },
+    {
+     "source_id": "src_dailysabah",
+     "url": "https://www.dailysabah.com/politics/turkiye-condemns-israels-deepening-incursion-into-syria/news",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
+    },
+    {
+     "source_id": "src_enabbaladi",
+     "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/defense/article/21553297",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1373652",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-shells-syrias-quneitra-while-qatar-and-jordan-condemn-its",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://www.israelhayom.co.il/news/defense/article/21559690",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131332",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://t.me/abualiexpress/131423",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25278",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://t.me/idf_telegram/25291",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/94486",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://t.me/lelotsenzura/94498",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_walla",
-     "url": "https://www.walla.co.il/news/military/383956275",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://www.walla.co.il/news/military/383956358",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/rywrrvlsfe",
-     "accessed_at": "2026-10-05T06:28:06+00:00"
+     "url": "https://www.ynet.co.il/news/article/skb9w711oze",
+     "accessed_at": "2026-10-05T19:33:35+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-04T15:53:47+00:00",
+  "previous_generated_at": "2026-10-05T06:28:06+00:00",
   "changes": {
-   "NORTH-10050628-01": {
+   "NORTH-10051933-01": {
+    "kind": "new"
+   },
+   "NORTH-10051933-02": {
     "kind": "same",
     "from": "verified",
     "to": "verified",
-    "prev": "תקיפות והרס בדרום לבנון",
-    "score": 1.0
+    "prev": "חיסול חשוד בדרום סוריה",
+    "score": 0.817
    },
-   "NORTH-10050628-02": {
+   "NORTH-10051933-03": {
+    "kind": "possible",
+    "prev": "תקיפות והפגזות ארטילריות בדרום לבנון",
+    "score": 0.633
+   },
+   "NORTH-10051933-04": {
+    "kind": "possible",
+    "prev": "פציעת חיילי צה\"ל בתאונה מבצעית בדרום לבנון",
+    "score": 0.467
+   },
+   "NORTH-10051933-05": {
     "kind": "new"
-   },
-   "NORTH-10050628-03": {
-    "kind": "down",
-    "from": "verified",
-    "to": "initial",
-    "prev": "תאונות מבצעיות ופציעת חיילים בדרום לבנון",
-    "score": 1.0
-   },
-   "NORTH-10050628-04": {
-    "kind": "up",
-    "from": "initial",
-    "to": "verified",
-    "prev": "כנס צופי חזבאללה בדאחיה",
-    "score": 1.0
    }
   }
  }

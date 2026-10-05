@@ -1,0 +1,325 @@
+{
+ "status": "draft",
+ "received_sha256_12": "31f59317dee9",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "verified": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-05T19:33:35+00:00",
+  "window": {
+   "from": "2026-10-04T19:33:35+00:00",
+   "to": "2026-10-05T19:33:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610051933"
+  },
+  "summary": "בגזרה הצפונית נרשמת דריכות והתחממות במספר צירים: בחזית הסורית מדווחים עימותים ותקריות אבטחה שכללו סיכול חדירות וירי מוצבים, לצד גינויים אזוריים נגד פעילות צה\"ל במרחב החיץ והשלמת קו סופה 53. בחזית הלבנונית נמשכות תקיפות ארטילריות ממוקדות בדרום לבנון, לצד היערכות הממשלה והצבא בביירות לחיזוק השליטה הביטחונית והחברתית.",
+  "fronts": [
+   {
+    "name": "החזית הסורית",
+    "status": "מתיחות גוברת ותקריות אבטחה במרחב הגבול ודרום סוריה"
+   },
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילות צבאית מקומית ותהליכי היערכות של המדינה מול תשתיות חיזבאללה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10051933-01",
+    "title": "חיסול חשוד בדרום סוריה",
+    "summary": "חיילי צה\"ל חיסלו מחבל שחדר לבסיס צה\"ל בדרום סוריה",
+    "axis": "הגזרה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T19:16:40+00:00",
+    "last_update_at": "2026-10-05T19:16:40+00:00",
+    "what_is_not_verified": "זהות המחבל המלאה ומניעיו אינם מאומתים במלואם מעבר לדיווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131423",
+      "published_at": "2026-10-05T19:16:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום סוריה",
+      "lat": 35.9664,
+      "lon": 40.8012
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10051933-02",
+    "title": "זיהוי וירי לעבר שני חשודים על אופנוע בדרום סוריה",
+    "summary": "כוחות צה\"ל זיהו שני חשודים על אופנוע שנעו לעבר מוצב צה\"ל במרחב האבטחה והחיץ בדרום סוריה, פתחו בנוהל מעצר חשוד שכלל ירי ועצרו אותם",
+    "axis": "הגזרה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T13:22:43+00:00",
+    "last_update_at": "2026-10-05T19:16:40+00:00",
+    "what_is_not_verified": "מצבו הרפואי המדויק של הפצוע אינו מפורט מעבר לכך שהועבר לטיפול",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://t.me/abualiexpress/131423",
+      "published_at": "2026-10-05T19:16:40+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21559690",
+      "published_at": "2026-10-05T17:01:35+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://www.walla.co.il/news/military/383956358",
+      "published_at": "2026-10-05T13:54:26+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://t.me/idf_telegram/25292",
+      "published_at": "2026-10-05T13:42:59+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://t.me/lelotsenzura/94498",
+      "published_at": "2026-10-05T13:41:01+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_e625c47f79c3d0f8",
+      "url": "https://www.ynet.co.il/news/article/skb9w711oze",
+      "published_at": "2026-10-05T13:22:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר אל-חמדיה, סוריה",
+      "lat": 35.6562,
+      "lon": 36.3884
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10051933-03",
+    "title": "איתור אמצעי לחימה בדרום סוריה",
+    "summary": "כוחות חטיבת כרמלי איתרו מטעני נ\"ט ומוקשים במהלך פעילות לטיהור המרחב הביטחוני מאמצעי לחימה של המשטר הישן",
+    "axis": "הגזרה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T13:18:52+00:00",
+    "last_update_at": "2026-10-05T13:18:52+00:00",
+    "what_is_not_verified": "היקף מלא של כל אמצעי הלחימה שנותרו במרחב אינו ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25291",
+      "published_at": "2026-10-05T13:18:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום סוריה",
+      "lat": 35.9664,
+      "lon": 40.8012
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10051933-04",
+    "title": "ירי ארטילרי ישראלי בדרום לבנון",
+    "summary": "ארטילריה ישראלית תקפה את העיירה בית יהון בדרום לבנון",
+    "axis": "הגזרה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T15:09:25+00:00",
+    "last_update_at": "2026-10-05T15:09:25+00:00",
+    "what_is_not_verified": "פרטים מלאים על נזקים ונפגעים אינם מפורטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_4b6c27418009a2e7",
+      "url": "https://english.almanar.com.lb/article/134682/",
+      "published_at": "2026-10-05T15:09:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10051933-05",
+    "title": "גינויים סוריים וערביים לפעילות ישראלית בשטח סוריה",
+    "summary": "משרד החוץ הסורי, ירדן וקטר גינו את השלמת העבודות על קו סופה 53 והגדירו זאת כהפרה של הסכם הפרדת הכוחות משנת 1974 ושל ריבונות סוריה",
+    "axis": "הגזרה הסורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T10:08:00+00:00",
+    "last_update_at": "2026-10-05T16:51:27+00:00",
+    "what_is_not_verified": "תגובת ישראל המלאה לגינויים אינה מפורטת במסמך זה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_772d6ded90d708b4",
+      "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
+      "published_at": "2026-10-05T16:51:27+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_bb16e77eabfcf249",
+      "url": "https://www.aa.com.tr/en/middle-east/egypt-condemns-israeli-incursions-in-syria-calls-for-withdrawal-from-syrian-territory/4078446",
+      "published_at": "2026-10-05T11:16:33+00:00"
+     },
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "fh_d68b78f8cbf64e45",
+      "url": "https://www.dailysabah.com/politics/turkiye-condemns-israels-deepening-incursion-into-syria/news",
+      "published_at": "2026-10-05T10:08:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום סוריה",
+      "lat": 35.9664,
+      "lon": 40.8012
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההערכות המדויקות לגבי היקף השיקום של תשתיות חיזבאללה בלבנון",
+   "האם הפיצוצים בתשתיות האנרגיה בסוריה נבעו מחבלה מכוונת או תקלה טכנית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0623,
+    "unit": "ILS",
+    "change_pct": -0.1,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איום מאזרחי ישראל וכוחות צה\"ל בגבול סוריה"
+    ],
+    "inferred": [
+     "שמירת מרחב אבטחה פעיל בדרום סוריה וסיכול כל ניסיון חדירה",
+     "פגיעה בתשתיות צבאיות בגבולות הצפון"
+    ],
+    "forecast": [
+     "המשך פעילות ביטחונית הדוקה ונוכחות צבאית במרחבי החיץ",
+     "תגובה קשוחה לכל ניסיון התקרבות למוצבים"
+    ]
+   },
+   {
+    "actor": "חיזבאללה ולבנון",
+    "declared": [
+     "חיזוק הנוכחות והאחריות הביטחונית של צבא לבנון בדרום המדינה"
+    ],
+    "inferred": [
+     "שימור יכולות צבאיות והתארגנות מחדש תחת לחץ פוליטי ומקומי"
+    ],
+    "forecast": [
+     "המשך עימותים נמוכי עצימות ותגובות מקומיות מול פעילות צה\"ל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/134682/",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/egypt-condemns-israeli-incursions-in-syria-calls-for-withdrawal-from-syrian-territory/4078446",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/turkiye-condemns-israels-deepening-incursion-into-syria/news",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21559690",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131423",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25291",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94498",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956358",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skb9w711oze",
+    "accessed_at": "2026-10-05T19:33:35+00:00"
+   }
+  ]
+ }
+}
