@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-05T19:17:35+00:00",
-  "fetched_at": "2026-10-05T19:17:35+00:00"
+  "checked_at": "2026-10-05T20:17:52+00:00",
+  "fetched_at": "2026-10-05T20:17:52+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T19:17:48+00:00",
-  "fetched_at": "2026-10-05T19:17:48+00:00"
+  "checked_at": "2026-10-05T20:18:08+00:00",
+  "fetched_at": "2026-10-05T20:18:08+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T19:17:48+00:00",
-  "fetched_at": "2026-10-05T19:17:48+00:00"
+  "checked_at": "2026-10-05T20:18:09+00:00",
+  "fetched_at": "2026-10-05T20:18:09+00:00"
  },
- "generated_at": "2026-10-05T19:17:48+00:00",
+ "generated_at": "2026-10-05T20:18:09+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,14 +94,14 @@ window.DB.generated = {
     {
      "title": "הטייס-המחבל הודה בחקירה: \"עשיתי את זה כנקמה על עזה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558405",
-     "date": "2026-10-05T19:08:00+00:00"
+     "date": "2026-10-05T19:40:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "הנאסד\"ק מטפס לשיא חדש בתמיכת ענקיות הטכנולוגיה; תשואות האג\"ח ממשיכות לעלות",
+     "title": "נאסד\"ק זינק לשיא חדש; מחירי הנפט ירדו, תשואות האג\"ח עלו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
-     "date": "2026-10-05T19:08:00+00:00"
+     "date": "2026-10-05T20:02:00+00:00"
     },
     {
      "title": "סטפק: \"צעירים אומרים 'למה לי להשקיע באג\"ח ולקבל 5% בשנה, כשאני יכול לעשות את זה ביום'\"",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T19:17:37+00:00",
-  "fetched_at": "2026-10-05T19:17:37+00:00"
+  "checked_at": "2026-10-05T20:17:54+00:00",
+  "fetched_at": "2026-10-05T20:17:54+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T19:17:38+00:00",
-  "fetched_at": "2026-10-05T19:17:38+00:00"
+  "checked_at": "2026-10-05T20:17:55+00:00",
+  "fetched_at": "2026-10-05T20:17:55+00:00"
  },
  "tv": {
   "data": [
@@ -2655,8 +2655,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T19:17:39+00:00",
-  "fetched_at": "2026-10-05T19:17:39+00:00"
+  "checked_at": "2026-10-05T20:17:57+00:00",
+  "fetched_at": "2026-10-05T20:17:57+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2801,8 +2801,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T19:17:39+00:00",
-  "fetched_at": "2026-10-05T19:17:39+00:00"
+  "checked_at": "2026-10-05T20:17:57+00:00",
+  "fetched_at": "2026-10-05T20:17:57+00:00"
  },
  "ai": {
   "data": {
@@ -2838,7 +2838,7 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 134,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2873,14 +2873,14 @@ window.DB.generated = {
      "title": "JEV-27B Live Demo",
      "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
-     "likes": 92,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 656,
+     "likes": 657,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2900,8 +2900,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-05T19:17:47+00:00",
-  "fetched_at": "2026-10-05T19:17:47+00:00"
+  "checked_at": "2026-10-05T20:18:07+00:00",
+  "fetched_at": "2026-10-05T20:18:07+00:00"
  },
  "abroad": {
   "data": {
@@ -3198,8 +3198,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-05T19:17:42+00:00",
-  "fetched_at": "2026-10-05T19:17:42+00:00"
+  "checked_at": "2026-10-05T20:18:01+00:00",
+  "fetched_at": "2026-10-05T20:18:01+00:00"
  },
  "idf": {
   "data": [
@@ -3230,91 +3230,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-05T19:17:43+00:00",
-  "fetched_at": "2026-10-05T19:17:43+00:00"
+  "checked_at": "2026-10-05T20:18:02+00:00",
+  "fetched_at": "2026-10-05T20:18:02+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-05T19:08:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "newest": "2026-10-05T20:02:00+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-05T19:08:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "newest": "2026-10-05T20:02:00+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-05T19:08:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "newest": "2026-10-05T20:02:00+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-05T18:45:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-05T18:56:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-05T19:07:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "newest": "2026-10-05T19:53:00+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-05T15:17:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-05T11:37:00+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-05T18:02:16+00:00",
-    "seen_at": "2026-10-05T19:17:48+00:00",
+    "seen_at": "2026-10-05T20:18:09+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-05T19:17:48+00:00"
+  "checked_at": "2026-10-05T20:18:09+00:00"
  }
 };
