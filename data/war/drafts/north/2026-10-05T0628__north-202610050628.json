@@ -1,0 +1,355 @@
+{
+ "status": "draft",
+ "received_sha256_12": "52860e196e7f",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-05T06:28:06+00:00",
+  "window": {
+   "from": "2026-10-04T06:28:06+00:00",
+   "to": "2026-10-05T06:28:06+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610050628"
+  },
+  "summary": "הזירה הצפונית מתאפיינת בלחימה מתמשכת בדרום לבנון הכוללת תקיפות צה\"ל והפגזות לצד פעילות שוטפת של צבא ההגנה לישראל במרחב האבטחה בדרום סוריה. במקביל, ממשלת לבנון מנסה לקדם מחדש את נוכחות המדינה בדרום ובמקביל מנהלת דיפלומטיה אזורית, בעוד חיזבאללה ממשיך לשמור על נוכחות אזרחית וצבאיות. בצד הסורי נמשכות מחאות פנימיות וביקורת על פעילות הבנייה והחישוף של ישראל באזור קוניטרה.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם תקיפות אוויריות, ארטילריה ותאונות מבצעיות"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילה עם מבצעים נקודתיים ופעילות במרחב האבטחה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10050628-01",
+    "title": "תקיפות והפגזות ארטילריות בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות והפגזות ארטילריות במספר מרחבים בדרום לבנון.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T14:46:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-04T14:46:07+00:00",
+    "last_update_at": "2026-10-05T05:43:06+00:00",
+    "what_is_not_verified": "מיקום מדויק של פגיעת חלק מן הפגזים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_307f16f631bcab00",
+      "url": "https://english.almanar.com.lb/article/134412/",
+      "published_at": "2026-10-05T05:43:06+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_9861edbb906c2983",
+      "url": "https://english.almanar.com.lb/article/134362/",
+      "published_at": "2026-10-04T21:38:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_307f16f631bcab00",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-and-detonations-hit-several-towns-southern-lebanon",
+      "published_at": "2026-10-04T19:13:41+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_ce6132a07e5a6c14",
+      "url": "https://english.almanar.com.lb/article/134227/",
+      "published_at": "2026-10-04T14:46:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     },
+     {
+      "name": "מג'דל זון, לבנון",
+      "lat": 33.1503,
+      "lon": 35.226
+     },
+     {
+      "name": "מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10050628-02",
+    "title": "חיסול חשוד בדרום סוריה",
+    "summary": "כוחות צה\"ל ירו וחיסלו חשוד שניסה לחדור למוצב במרחב האבטחה בדרום סוריה.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T19:41:26+00:00",
+    "last_update_at": "2026-10-04T23:43:43+00:00",
+    "what_is_not_verified": "זהותו המדויקת של ההרוג והמניע המדויק לפי מקורות שאינם רשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-troops-kill-man-southern-syria",
+      "published_at": "2026-10-04T23:43:43+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-kills-man-in-southern-syria/4077933",
+      "published_at": "2026-10-04T22:53:22+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21553297",
+      "published_at": "2026-10-04T21:46:53+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_1f1217573992128f",
+      "url": "https://www.walla.co.il/news/military/383956275",
+      "published_at": "2026-10-04T21:36:12+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://t.me/idf_telegram/25278",
+      "published_at": "2026-10-04T21:26:38+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://t.me/lelotsenzura/94486",
+      "published_at": "2026-10-04T21:26:27+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.maariv.co.il/breaking-news/article-1373652",
+      "published_at": "2026-10-04T21:26:18+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.ynet.co.il/news/article/rywrrvlsfe",
+      "published_at": "2026-10-04T21:18:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5a420dfbae79c8b1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-shells-syrias-quneitra-while-qatar-and-jordan-condemn-its",
+      "published_at": "2026-10-04T19:41:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חמידייה, סוריה",
+      "lat": 35.6562,
+      "lon": 36.3884
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10050628-03",
+    "title": "פציעת חיילי צה\"ל בתאונה מבצעית בדרום לבנון",
+    "summary": "לוחם צה\"ל נפצע קשה וקצין נפצע בינוני כתוצאה מתאונה מבצעית במהלך פעילות בדרום לבנון.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T05:17:14+00:00",
+    "last_update_at": "2026-10-04T06:28:06+00:00",
+    "what_is_not_verified": "הנסיבות הטכניות המדויקות של התאונה המבצעית.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131297",
+      "published_at": "2026-10-04T05:17:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10050628-04",
+    "title": "כנס צופים של חיזבאללה בדאחיה",
+    "summary": "התקיים כינוס צופים המזוהה עם חיזבאללה לציון שנה שנייה למותם של חסן נאסראללה והאשם ספי א-דין.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-04T15:50:41+00:00",
+    "last_update_at": "2026-10-04T21:22:15+00:00",
+    "what_is_not_verified": "מספר המשתתפים המדויק אינו מאומת ממקור ניטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_554776f72ffe3926",
+      "url": "https://english.almanar.com.lb/article/134237/",
+      "published_at": "2026-10-04T21:22:15+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_104d184e789368de",
+      "url": "https://english.almanar.com.lb/article/134252/",
+      "published_at": "2026-10-04T19:23:03+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_554776f72ffe3926",
+      "url": "https://t.me/abualiexpress/131332",
+      "published_at": "2026-10-04T15:50:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היערכות לפלישה רחבת היקף של כוחות מסוריה ללבנון",
+   "כניסת טייסים ואנשי צוות אוויר זרים מיעדים אסורים לישראל",
+   "מספר המשתתפים המדויק בכנס הצופים של חיזבאללה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0653,
+    "unit": "ILS",
+    "change_pct": -0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת כל איום על אזרחי מדינת ישראל וכוחות צה\"ל במרחב האבטחה בסוריה"
+    ],
+    "inferred": [
+     "מניעת התבססות עוינת בגבול הצפון ובסוריה",
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך התקיפות הנקודתיות והפעילות ההגנתית לאורך הגבולות"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "דרישה לנסיגה מלאה של ישראל והפסקת התקיפות",
+     "חיזוק סמכות המדינה בדרום ושיקום האזור"
+    ],
+    "inferred": [
+     "ניסיון לאזן בין דרישות הריבונות הממשלתית לבין הנוכחות והלחץ של חיזבאללה"
+    ],
+    "forecast": [
+     "המשך המאמצים המדיניים להשגת הפסקת אש יציבה יותר"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההגנה על האדמה והתנגדות לפעילות ישראל בדרום לבנון"
+    ],
+    "inferred": [
+     "שימור הלגיטימציה הציבורית באמצעות אירועים המוניים ופעילות אזרחית"
+    ],
+    "forecast": [
+     "שימור יכולות צבאיות מוגבלות לצד הפגנת נוכחות אזרחית ערה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/134252/",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-kills-man-in-southern-syria/4077933",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21553297",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1373652",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-shells-syrias-quneitra-while-qatar-and-jordan-condemn-its",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131332",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25278",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94486",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956275",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rywrrvlsfe",
+    "accessed_at": "2026-10-05T06:28:06+00:00"
+   }
+  ]
+ }
+}

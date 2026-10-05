@@ -22,6 +22,10 @@
 ],
 "al-dhabab, yemen": null,
 "al-eis, syria": null,
+"al-hamidiyah, syria": [
+35.6562,
+36.3884
+],
 "al-hazm, yemen": [
 16.0878,
 44.9585
@@ -341,6 +345,10 @@
 6.1466
 ],
 "golan heights": null,
+"gulf of aden": [
+12.6147,
+47.5063
+],
 "gulf of finland": [
 59.8737,
 26.323
@@ -855,6 +863,7 @@
 37.1772
 ],
 "poland": null,
+"poltava oblast, ukraine": null,
 "poltava, ukraine": [
 49.5897,
 34.5508
@@ -1136,6 +1145,10 @@
 "voronezh, russia": [
 51.68,
 39.1837
+],
+"vylkove, ukraine": [
+45.4031,
+29.5831
 ],
 "vyshhorod district, ukraine": null,
 "vyshhorod, ukraine": [
