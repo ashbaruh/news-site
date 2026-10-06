@@ -8,8 +8,9 @@ window.DB.generated = {
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
-  "ok": true,
-  "checked_at": "2026-10-06T18:17:21+00:00",
+  "ok": false,
+  "error": "Remote end closed connection without response",
+  "checked_at": "2026-10-06T19:17:30+00:00",
   "fetched_at": "2026-10-06T18:17:21+00:00"
  },
  "animals": {
@@ -44,8 +45,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T18:17:36+00:00",
-  "fetched_at": "2026-10-06T18:17:36+00:00"
+  "checked_at": "2026-10-06T19:17:42+00:00",
+  "fetched_at": "2026-10-06T19:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +80,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T18:17:37+00:00",
-  "fetched_at": "2026-10-06T18:17:37+00:00"
+  "checked_at": "2026-10-06T19:17:43+00:00",
+  "fetched_at": "2026-10-06T19:17:43+00:00"
  },
- "generated_at": "2026-10-06T18:17:37+00:00",
+ "generated_at": "2026-10-06T19:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,22 +95,22 @@ window.DB.generated = {
     {
      "title": "ביום השנה ל-7.10: המל\"ל באזהרה לישראלים בחו\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558513",
-     "date": "2026-10-06T17:11:00+00:00"
+     "date": "2026-10-06T18:17:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה חיובית בוול סטריט; כלל הסקטורים ב-S&P נסחרים בירוק",
+     "title": "עסקת ענק בתחום הגרעין מזניקה את ה-S&P 500 לשיא",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558504",
-     "date": "2026-10-06T16:23:00+00:00"
+     "date": "2026-10-06T18:28:00+00:00"
     },
     {
-     "title": "במקום אקזיט: הסטארט אפ שעובד עם אילון מאסק בדרך לבורסה בתל אביב",
+     "title": "במקום אקזיט: הסטארט-אפ שעובד עם אילון מאסק בדרך לבורסה בתל אביב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558595",
      "date": "2026-10-06T16:00:00+00:00"
     },
     {
-     "title": "דיסקונט יוצא לדרך עם מיזוג מרכנתיל: עד כ-550 עובדים יפרשו וסניפים ייסגרו",
+     "title": "דיסקונט יתמזג עם מרכנתיל: הערכה - עד 550 עובדים יפרשו וסניפים ימוזגו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558611",
      "date": "2026-10-06T15:44:00+00:00"
     },
@@ -226,8 +227,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T18:17:22+00:00",
-  "fetched_at": "2026-10-06T18:17:22+00:00"
+  "checked_at": "2026-10-06T19:17:31+00:00",
+  "fetched_at": "2026-10-06T19:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T18:17:23+00:00",
-  "fetched_at": "2026-10-06T18:17:23+00:00"
+  "checked_at": "2026-10-06T19:17:32+00:00",
+  "fetched_at": "2026-10-06T19:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2704,8 +2705,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T18:17:25+00:00",
-  "fetched_at": "2026-10-06T18:17:25+00:00"
+  "checked_at": "2026-10-06T19:17:33+00:00",
+  "fetched_at": "2026-10-06T19:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2850,8 +2851,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T18:17:25+00:00",
-  "fetched_at": "2026-10-06T18:17:25+00:00"
+  "checked_at": "2026-10-06T19:17:33+00:00",
+  "fetched_at": "2026-10-06T19:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2873,7 +2874,7 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 10,
+   "candidates": 12,
    "failed_sources": [],
    "tools": [
     {
@@ -2887,7 +2888,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 465,
+     "likes": 466,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2929,7 +2930,7 @@ window.DB.generated = {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
@@ -2943,14 +2944,14 @@ window.DB.generated = {
      "title": "KV Image to Clip",
      "desc_en": "Wan 2.2 image-to-clip with KV adapters",
      "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
-     "likes": 114,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T18:17:33+00:00",
-  "fetched_at": "2026-10-06T18:17:33+00:00"
+  "checked_at": "2026-10-06T19:17:41+00:00",
+  "fetched_at": "2026-10-06T19:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -3265,8 +3266,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T18:17:28+00:00",
-  "fetched_at": "2026-10-06T18:17:28+00:00"
+  "checked_at": "2026-10-06T19:17:36+00:00",
+  "fetched_at": "2026-10-06T19:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3297,91 +3298,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T18:17:29+00:00",
-  "fetched_at": "2026-10-06T18:17:29+00:00"
+  "checked_at": "2026-10-06T19:17:36+00:00",
+  "fetched_at": "2026-10-06T19:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T18:00:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "newest": "2026-10-06T18:47:00+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-06T16:23:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "newest": "2026-10-06T18:28:00+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-06T17:01:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T17:36:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "newest": "2026-10-06T18:45:00+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T16:45:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "newest": "2026-10-06T18:36:00+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T17:44:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "newest": "2026-10-06T19:13:00+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-06T18:17:13+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-06T14:00:00+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-06T15:27:12+00:00",
-    "seen_at": "2026-10-06T18:17:37+00:00",
+    "seen_at": "2026-10-06T19:17:43+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T18:17:37+00:00"
+  "checked_at": "2026-10-06T19:17:43+00:00"
  }
 };
