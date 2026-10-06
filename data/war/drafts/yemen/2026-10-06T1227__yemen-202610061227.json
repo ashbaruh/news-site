@@ -1,0 +1,377 @@
+{
+ "status": "draft",
+ "received_sha256_12": "455abed64038",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-06T12:27:07+00:00",
+  "window": {
+   "from": "2026-10-05T12:27:07+00:00",
+   "to": "2026-10-06T12:27:07+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "yemen-202610061227"
+  },
+  "summary": "המלחמה בתימן הגיעה לשלב מכריע סביב מצר באב אל-מנדב: הכוחות הנתמכים בידי סעודיה טוענים שכבשו מחדש את מוחא ועמדות ליד המצר, והחות'ים מכחישים. במקביל החות'ים מרחיבים את התקיפות לעומק סעודיה, והקואליציה מגיבה בתקיפות אוויריות על צנעא וחודיידה. הסכסוך הופך אזורי: טורקיה ופקיסטן פורסות כוחות בסעודיה, וארה\"ב מספקת מודיעין.",
+  "fronts": [
+   {
+    "name": "החוף המערבי ובאב אל-מנדב",
+    "status": "מתקפת נגד של כוחות הממשלה; השליטה במוחא שנויה במחלוקת."
+   },
+   {
+    "name": "תקיפות על סעודיה",
+    "status": "שדות תעופה בדרום הממלכה נפגעו; טענות לתקיפה בריאד לא אושרו."
+   },
+   {
+    "name": "תקיפות אוויריות בצפון תימן",
+    "status": "גל תקיפות של הקואליציה על צנעא, חודיידה וצעדה."
+   },
+   {
+    "name": "הים האדום",
+    "status": "מסוק אמריקאי נעלם; הספנות במצר בסיכון."
+   },
+   {
+    "name": "הומניטרי",
+    "status": "כמעט אלף הרוגים ו-184 אלף עקורים מאז חידוש הלחימה."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10061227-01",
+    "title": "צבא ממשלת תימן הודיע שכבש מחדש את מוחא ואזורים ליד באב אל-מנדב",
+    "summary": "הכוחות הנתמכים בידי סעודיה הודיעו שהשתלטו על עיר הנמל מוחא, על ד'ובאב ועל עמדות סביב מצר באב אל-מנדב, וגם על שלושה הרים באזור חיפאן. החות'ים מכחישים ומכנים זאת \"גבורה מפוברקת\".",
+    "axis": "החוף המערבי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T17:49:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T17:49:09+00:00",
+    "last_update_at": "2026-10-06T09:30:16+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לשליטה בשטח; החות'ים מקיפים את מוחא משלושה כיוונים לפי מומחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemen-military-announces-retaking-mokha-houthis-amid-red-sea-offensive",
+      "published_at": "2026-10-05T17:49:09+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+      "published_at": "2026-10-05T19:17:05+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
+      "published_at": "2026-10-05T19:44:01+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+      "published_at": "2026-10-06T08:27:51+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-claim-attack-riyadh-airport-deny-losing-territory",
+      "published_at": "2026-10-06T09:30:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוחא",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10061227-02",
+    "title": "שדות התעופה בג'יזאן ובנג'ראן הותקפו, שלושה פצועים קל",
+    "summary": "סעודיה אישרה שהשדות בג'יזאן ובנג'ראן הותקפו ושלושה בני אדם נפצעו קל. החות'ים טוענים שתקפו גם את שדה התעופה בריאד, את אבהא, את חמיס מושייט ואת בית הזיקוק בראביע. תושבים דיווחו על פיצוץ בצפון ריאד.",
+    "axis": "תקיפות על סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T08:27:51+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T08:27:51+00:00",
+    "last_update_at": "2026-10-06T09:39:00+00:00",
+    "what_is_not_verified": "סעודיה לא אישרה פגיעה בריאד, באבהא או בראביע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+      "published_at": "2026-10-06T08:27:51+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-claim-attack-riyadh-airport-deny-losing-territory",
+      "published_at": "2026-10-06T09:30:16+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-north-saudi-capital-riyadh-residents-afp",
+      "published_at": "2026-10-06T09:07:11+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/liveblog/202610033293",
+      "published_at": "2026-10-06T09:39:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10061227-03",
+    "title": "הקואליציה בהובלת סעודיה תקפה בצנעא, בחודיידה ובצעדה",
+    "summary": "הקואליציה דיווחה על גל תקיפות אוויריות רחב נגד מטרות של החות'ים, בהן מחסני נשק וסירות נפץ בחודיידה ומתקנים בצנעא ובצעדה.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T15:21:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-05T15:21:54+00:00",
+    "last_update_at": "2026-10-06T11:35:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים והנזק לא פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7f09a1e5c9d970ad",
+      "url": "https://www.sabanew.net/viewstory/153538",
+      "published_at": "2026-10-05T23:08:02+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_7f09a1e5c9d970ad",
+      "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+      "published_at": "2026-10-05T15:21:54+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_7f09a1e5c9d970ad",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+      "published_at": "2026-10-06T11:35:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "חודיידה",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10061227-04",
+    "title": "טורקיה ופקיסטן שולחות כוחות לסעודיה במסגרת ברית מכה",
+    "summary": "סעודיה, טורקיה ופקיסטן החלו ליישם את מנגנון ההגנה של ברית מכה, וטורקיה ופקיסטן פורסות כוחות בממלכה. ארה\"ב מספקת מודיעין, ונשיאת הנציבות האירופית גינתה את תקיפות החות'ים.",
+    "axis": "בריתות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T06:32:35+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T06:32:35+00:00",
+    "last_update_at": "2026-10-06T09:39:00+00:00",
+    "what_is_not_verified": "היקף הכוחות ומועד הגעתם לא פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-forces-advance-against-houthis-hormuz-deadlocked",
+      "published_at": "2026-10-06T06:32:35+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+      "published_at": "2026-10-06T08:27:51+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/liveblog/202610033293",
+      "published_at": "2026-10-06T09:39:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10061227-05",
+    "title": "מסוק של הצי האמריקאי נעלם מעל הים האדום",
+    "summary": "מסוק סיקורסקי של הצי האמריקאי הכריז על מצב חירום ונעלם מנתוני המעקב הפומביים מעל הים האדום.",
+    "axis": "הים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T06:16:31+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T06:16:31+00:00",
+    "last_update_at": "2026-10-06T06:16:31+00:00",
+    "what_is_not_verified": "גורל הצוות והסיבה לתקלה לא ידועים; אין סימן לפגיעה של החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-navy-helicopter-disappears-after-declaring-emergency-over-red-sea",
+      "published_at": "2026-10-06T06:16:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10061227-06",
+    "title": "ארגון הבריאות העולמי: 959 הרוגים ו-184 אלף עקורים",
+    "summary": "לפי נתוני ארגון הבריאות העולמי, מאז חידוש הלחימה נהרגו 959 בני אדם, יותר מ-4,200 נפצעו ויותר מ-184 אלף עקורים.",
+    "axis": "הומניטרי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T08:27:51+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T08:27:51+00:00",
+    "last_update_at": "2026-10-06T08:27:51+00:00",
+    "what_is_not_verified": "הנתונים חלקיים בגלל הקושי לאסוף מידע בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+      "published_at": "2026-10-06T08:27:51+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "השליטה בפועל במוחא ובד'ובאב.",
+   "תקיפת שדה התעופה בריאד ובית הזיקוק בראביע.",
+   "גורל צוות המסוק האמריקאי.",
+   "היקף הכוחות הטורקיים והפקיסטניים."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0623,
+    "unit": "ILS",
+    "change_pct": -0.1,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להמשיך לתקוף את סעודיה",
+     "להחזיק בשטחים סביב באב אל-מנדב"
+    ],
+    "inferred": [
+     "להעלות לסעודיה את מחיר המלחמה",
+     "לשמור על השליטה במצר כקלף לחץ אזורי לצד איראן"
+    ],
+    "forecast": [
+     "המשך שיגורים לעומק סעודיה וניסיון לכתר את מוחא"
+    ]
+   },
+   {
+    "actor": "סעודיה וממשלת תימן",
+    "declared": [
+     "החזרת השטחים שאבדו",
+     "הגנה על הממלכה"
+    ],
+    "inferred": [
+     "להרחיק את החות'ים מהמצר ומנתיב הנפט לינבוע"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות וניסיון להתקדם לד'ובאב"
+    ]
+   },
+   {
+    "actor": "טורקיה ופקיסטן",
+    "declared": [
+     "יישום ברית מכה"
+    ],
+    "inferred": [
+     "חיזוק מעמד אזורי בלי להיכנס ללחימה ישירה"
+    ],
+    "forecast": [
+     "פריסה בעיקר הגנתית בתוך סעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-claim-attack-riyadh-airport-deny-losing-territory",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/liveblog/202610033293",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-navy-helicopter-disappears-after-declaring-emergency-over-red-sea",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-forces-advance-against-houthis-hormuz-deadlocked",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153538",
+    "accessed_at": "2026-10-06T12:27:07+00:00"
+   }
+  ]
+ }
+}
