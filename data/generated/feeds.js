@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T08:17:26+00:00",
-  "fetched_at": "2026-10-06T08:17:26+00:00"
+  "checked_at": "2026-10-06T09:17:17+00:00",
+  "fetched_at": "2026-10-06T09:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T08:17:40+00:00",
-  "fetched_at": "2026-10-06T08:17:40+00:00"
+  "checked_at": "2026-10-06T09:17:30+00:00",
+  "fetched_at": "2026-10-06T09:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T08:17:41+00:00",
-  "fetched_at": "2026-10-06T08:17:41+00:00"
+  "checked_at": "2026-10-06T09:17:31+00:00",
+  "fetched_at": "2026-10-06T09:17:31+00:00"
  },
- "generated_at": "2026-10-06T08:17:41+00:00",
+ "generated_at": "2026-10-06T09:17:31+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מגמה מעורבת בתל אביב; כמעט 3 מיליארד שקל נמחקו בחצי שעה במניית נקסט ויז'ן",
+     "title": "ירידות בתל אביב; נקסט ויז'ן מוחקת מערכה כ-2 מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
-     "date": "2026-10-06T07:30:00+00:00"
+     "date": "2026-10-06T09:05:00+00:00"
     },
     {
      "title": "דיווח: איראן תכננה להרוג חיילי ארה\"ב ולפגוע במפציצים בבריטניה",
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "דירקטוריון צים מבהיר לרשות החברות: לא צריכים לדון בעסקה מחדש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558528",
+     "date": "2026-10-06T08:42:00+00:00"
+    },
+    {
+     "title": "ירידות בתל אביב; כמעט 3 מיליארד שקל נמחקו בחצי שעה במניית נקסט ויז'ן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
+     "date": "2026-10-06T08:33:00+00:00"
+    },
+    {
+     "title": "\"פידליטי הרוויחו פי 2 על ההשקעה שלהם בנקסט ויז'ן - הם מנהלים סיכונים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558525",
+     "date": "2026-10-06T08:15:00+00:00"
+    },
     {
      "title": "חיסכון עד הפנסיה וביטוח רק מגיל 70: החורים בתוכנית הסיעוד החדשה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558482",
@@ -112,11 +127,6 @@ window.DB.generated = {
      "title": "מה עומד מאחורי מימוש הענק בנקסט ויז'ן, ומה חושב עליו היו\"ר?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558512",
      "date": "2026-10-06T07:35:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בתל אביב; כמעט 3 מיליארד שקל נמחקו בחצי שעה במניית נקסט ויז'ן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
-     "date": "2026-10-06T07:30:00+00:00"
     },
     {
      "title": "משרד התקשורת יפרסם בשבוע הבא שימוע לביטול ההפרדה המבנית בבזק ו-yes",
@@ -194,11 +204,6 @@ window.DB.generated = {
      "date": "2026-10-05T13:05:00+00:00"
     },
     {
-     "title": "עו\"ד שרה קנדלר מונתה למנכ”לית הרשות לניירות ערך",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558431",
-     "date": "2026-10-05T11:53:00+00:00"
-    },
-    {
      "title": "הבסיס שישראל אולי כבר מחזיקה מול חופי תימן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558426",
      "date": "2026-10-05T10:58:00+00:00"
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "מהמר על מחאת הדיור: ראש ממשלת ספרד הכריז על בחירות בזק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558412",
      "date": "2026-10-05T07:24:00+00:00"
-    },
-    {
-     "title": "הכמעט-אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
-     "date": "2026-10-05T07:03:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T08:17:28+00:00",
-  "fetched_at": "2026-10-06T08:17:28+00:00"
+  "checked_at": "2026-10-06T09:17:18+00:00",
+  "fetched_at": "2026-10-06T09:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T08:17:29+00:00",
-  "fetched_at": "2026-10-06T08:17:29+00:00"
+  "checked_at": "2026-10-06T09:17:19+00:00",
+  "fetched_at": "2026-10-06T09:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2662,8 +2662,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T08:17:31+00:00",
-  "fetched_at": "2026-10-06T08:17:31+00:00"
+  "checked_at": "2026-10-06T09:17:24+00:00",
+  "fetched_at": "2026-10-06T09:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2808,19 +2808,12 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T08:17:31+00:00",
-  "fetched_at": "2026-10-06T08:17:31+00:00"
+  "checked_at": "2026-10-06T09:17:24+00:00",
+  "fetched_at": "2026-10-06T09:17:24+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/reflection-seeks-to-be-american-deepseek-and-launches-beam-model/",
-     "date": "2026-10-06T08:05:09+00:00",
-     "launch": false,
-     "title": "תשובה למודלים הסיניים הפתוחים? נחשף מודל ה-AI החדש Beam"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/eu-text-provenance",
@@ -2831,28 +2824,31 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
-   "failed_sources": [],
+   "candidates": 1,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 158,
+     "likes": 161,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 456,
+     "likes": 457,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 335,
+     "likes": 337,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2873,7 +2869,7 @@ window.DB.generated = {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 131,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
@@ -2887,7 +2883,7 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 178,
+     "likes": 179,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2898,21 +2894,30 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
-     "title": "JEV-9B — typed decisions",
-     "desc_en": "Calibrated typed decisions + System 2 reasoning",
-     "desc_he": "החלטות מוקלדות מכוילות + הנמקת מערכת 2",
-     "likes": 74,
-     "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
+     "title": "KV Image to Clip",
+     "desc_en": "Wan 2.2 image-to-clip with KV adapters",
+     "desc_he": "Wan 2.2 תמונה לקליפ עם מתאמי KV",
+     "likes": 110,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/kv-i2v"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T08:17:39+00:00",
-  "fetched_at": "2026-10-06T08:17:39+00:00"
+  "checked_at": "2026-10-06T09:17:29+00:00",
+  "fetched_at": "2026-10-06T09:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "אוריין גורן בין שלושת היהלומים שברצלונה לא מוכנה לאבד",
+     "link": "https://sports.walla.co.il/item/3871079",
+     "date": "2026-10-06T08:11:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "צפירת הרגעה: טוקלומטי צפוי לחזור לכשירות מלאה",
      "link": "https://www.one.co.il/Article/535163.html?ref=rss",
@@ -3169,8 +3174,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T08:17:34+00:00",
-  "fetched_at": "2026-10-06T08:17:34+00:00"
+  "checked_at": "2026-10-06T09:17:27+00:00",
+  "fetched_at": "2026-10-06T09:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3201,58 +3206,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T08:17:35+00:00",
-  "fetched_at": "2026-10-06T08:17:35+00:00"
+  "checked_at": "2026-10-06T09:17:28+00:00",
+  "fetched_at": "2026-10-06T09:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T08:03:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T09:05:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-06T07:59:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T08:42:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-06T04:51:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T07:41:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T07:48:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T08:44:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T08:09:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T09:00:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T08:12:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "newest": "2026-10-06T08:55:00+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-06T07:54:59+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3264,7 +3269,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3276,16 +3281,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-06T07:45:35+00:00",
-    "seen_at": "2026-10-06T08:17:41+00:00",
+    "seen_at": "2026-10-06T09:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T08:17:41+00:00"
+  "checked_at": "2026-10-06T09:17:31+00:00"
  }
 };
