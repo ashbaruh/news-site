@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T05:17:11+00:00",
-  "fetched_at": "2026-10-06T05:17:11+00:00"
+  "checked_at": "2026-10-06T06:17:18+00:00",
+  "fetched_at": "2026-10-06T06:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T05:17:20+00:00",
-  "fetched_at": "2026-10-06T05:17:20+00:00"
+  "checked_at": "2026-10-06T06:17:30+00:00",
+  "fetched_at": "2026-10-06T06:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T05:17:20+00:00",
-  "fetched_at": "2026-10-06T05:17:20+00:00"
+  "checked_at": "2026-10-06T06:17:31+00:00",
+  "fetched_at": "2026-10-06T06:17:31+00:00"
  },
- "generated_at": "2026-10-06T05:17:20+00:00",
+ "generated_at": "2026-10-06T06:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,19 @@ window.DB.generated = {
      "date": "2026-10-06T02:58:00+00:00"
     },
     {
-     "title": "טראמפ: \"חושב שאיראן אחראית לניסיון הפיגוע בטיסה\"",
+     "title": "דיווח: איראן תכננה להרוג חיילי ארה\"ב ולפגוע במפציצים בבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558513",
      "date": "2026-10-06T05:02:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ארה\"ב אישרה מכירת אמלח גדולה למדינות האזור, כולל למצרים",
+     "title": "\"הבועה תתפוצץ\" - תחזית האימים לוול סטריט: חמישה דברים לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
+     "date": "2026-10-06T05:33:00+00:00"
+    },
+    {
+     "title": "ארה\"ב אישרה מכירת אמל\"ח גדולה למדינות האזור, כולל למצרים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558515",
      "date": "2026-10-06T04:51:00+00:00"
     },
@@ -109,7 +114,7 @@ window.DB.generated = {
      "date": "2026-10-06T04:04:00+00:00"
     },
     {
-     "title": "למה מכרה פידליטי מניות נקסט ויז'ן ב-1.3 מיליארד שקל, ומי הרוכשים?",
+     "title": "מה עומד מאחורי מימוש הענק בנקסט ויז׳ן ומה חושב עליו היו״ר?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558512",
      "date": "2026-10-06T03:21:00+00:00"
     },
@@ -119,7 +124,7 @@ window.DB.generated = {
      "date": "2026-10-06T03:04:00+00:00"
     },
     {
-     "title": "בעלי החברה הביטחונית מכר מניות בשיא והמוסדיים הפסידו כרבע מיליארד שקל",
+     "title": "בעלי החברה הביטחונית מכר מניות בשיא, והמוסדיים הפסידו כרבע מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558460",
      "date": "2026-10-06T03:02:00+00:00"
     },
@@ -159,11 +164,6 @@ window.DB.generated = {
      "date": "2026-10-05T14:56:00+00:00"
     },
     {
-     "title": "אאורה פרסמה הצצה לנתוני המכירות של הרבעון השלישי. כך מבצע חבר תרם למכירות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558411",
-     "date": "2026-10-05T14:55:00+00:00"
-    },
-    {
      "title": "פרויקט הדגל של נאוויטס מסתבך? הדיווח שמפיל את המניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558424",
      "date": "2026-10-05T14:38:00+00:00"
@@ -174,14 +174,14 @@ window.DB.generated = {
      "date": "2026-10-05T14:35:00+00:00"
     },
     {
-     "title": "במקום הנפקה: גרין לנטרן בוחנת השקעה בקיסו בשווי 300-330 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558447",
-     "date": "2026-10-05T13:52:00+00:00"
-    },
-    {
      "title": "לקרנות ההשקעה הפרטיות יש בעיה, והממשל האמריקאי חושב שהארנק שלכם יכול לפתור אותה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558342",
      "date": "2026-10-05T13:14:00+00:00"
+    },
+    {
+     "title": "השורטיסט שעם פחות מ־10 מיליון דולר השתלט על חברת נדל\"ן שהסתבכה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558370",
+     "date": "2026-10-05T13:05:00+00:00"
     },
     {
      "title": "עו\"ד שרה קנדלר מונתה למנכ”לית הרשות לניירות ערך",
@@ -212,17 +212,12 @@ window.DB.generated = {
      "title": "הכמעט אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
      "date": "2026-10-05T07:03:00+00:00"
-    },
-    {
-     "title": "\"הירוקים\" בבריטניה: ציונות היא גזענות, \"מדינת פלסטין\" צריכה לקום במקום ישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558398",
-     "date": "2026-10-04T15:29:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T05:17:12+00:00",
-  "fetched_at": "2026-10-06T05:17:12+00:00"
+  "checked_at": "2026-10-06T06:17:19+00:00",
+  "fetched_at": "2026-10-06T06:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T05:17:13+00:00",
-  "fetched_at": "2026-10-06T05:17:13+00:00"
+  "checked_at": "2026-10-06T06:17:20+00:00",
+  "fetched_at": "2026-10-06T06:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -1915,10 +1910,31 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-06",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "פרישטרי - באמברג"
+   },
+   {
+    "date": "2026-10-06",
     "time": "19:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "נורבגיה עד 21 - ישראל עד 21"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "חובנטוד בדאלונה - בני הרצליה"
+   },
+   {
+    "date": "2026-10-06",
+    "time": "21:45",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אנגליה - צ'כיה"
    },
    {
     "date": "2026-10-06",
@@ -1940,13 +1956,6 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "קרואטיה - ספרד"
-   },
-   {
-    "date": "2026-10-06",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "אנגליה - צ'כיה"
    },
    {
     "date": "2026-10-06",
@@ -2118,6 +2127,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-09",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי קריית גת - מ.ס קרית ים"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "16:00",
+    "channel": "אתר ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל עכו - מכבי בני ריינה"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי הרצליה - מכבי אחי נצרת"
+   },
+   {
+    "date": "2026-10-09",
     "time": "19:30",
     "channel": "ספורט 5",
     "sport": "כדורגל",
@@ -2129,6 +2159,13 @@ window.DB.generated = {
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "היידנהיים - קייזרסלאוטרן"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "20:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "נורדסלנד - אודנסה"
    },
    {
     "date": "2026-10-09",
@@ -2154,20 +2191,6 @@ window.DB.generated = {
    {
     "date": "2026-10-09",
     "time": "21:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "ברצלונה - ז'לגיריס קובנה"
-   },
-   {
-    "date": "2026-10-09",
-    "time": "21:30",
-    "channel": "5 גולד",
-    "sport": "כדורסל",
-    "title": "באסקוניה - בשיקטאש"
-   },
-   {
-    "date": "2026-10-09",
-    "time": "21:30",
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "בורוסיה דורטמונד - ורדר ברמן"
@@ -2178,6 +2201,20 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "אבלינו - סמפדוריה"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "21:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "ברצלונה - ז'לגיריס קובנה"
+   },
+   {
+    "date": "2026-10-09",
+    "time": "21:30",
+    "channel": "5 גולד",
+    "sport": "כדורסל",
+    "title": "באסקוניה - בשיקטאש"
    },
    {
     "date": "2026-10-09",
@@ -2615,8 +2652,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T05:17:14+00:00",
-  "fetched_at": "2026-10-06T05:17:14+00:00"
+  "checked_at": "2026-10-06T06:17:22+00:00",
+  "fetched_at": "2026-10-06T06:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2761,8 +2798,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T05:17:14+00:00",
-  "fetched_at": "2026-10-06T05:17:14+00:00"
+  "checked_at": "2026-10-06T06:17:22+00:00",
+  "fetched_at": "2026-10-06T06:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2791,21 +2828,21 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 152,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 455,
+     "likes": 456,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 332,
+     "likes": 334,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2840,7 +2877,7 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 176,
+     "likes": 177,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2860,8 +2897,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T05:17:20+00:00",
-  "fetched_at": "2026-10-06T05:17:20+00:00"
+  "checked_at": "2026-10-06T06:17:30+00:00",
+  "fetched_at": "2026-10-06T06:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2891,15 +2928,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בראש של אוסקר: אחרי הספסול, גלוך מחפש את התיקון",
-     "link": "https://sports.walla.co.il/item/3870804",
-     "date": "2026-10-04T12:40:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -3140,8 +3168,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T05:17:17+00:00",
-  "fetched_at": "2026-10-06T05:17:17+00:00"
+  "checked_at": "2026-10-06T06:17:25+00:00",
+  "fetched_at": "2026-10-06T06:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3172,91 +3200,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T05:17:17+00:00",
-  "fetched_at": "2026-10-06T05:17:17+00:00"
+  "checked_at": "2026-10-06T06:17:25+00:00",
+  "fetched_at": "2026-10-06T06:17:25+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T05:02:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "newest": "2026-10-06T05:33:00+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-06T04:04:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "newest": "2026-10-06T05:33:00+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-06T04:51:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-06T04:46:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T05:00:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "newest": "2026-10-06T05:15:00+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T04:57:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "newest": "2026-10-06T05:59:00+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-06T04:36:11+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-05T11:37:00+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "newest": "2026-10-06T05:51:21+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-05T18:02:16+00:00",
-    "seen_at": "2026-10-06T05:17:20+00:00",
+    "seen_at": "2026-10-06T06:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T05:17:20+00:00"
+  "checked_at": "2026-10-06T06:17:31+00:00"
  }
 };
