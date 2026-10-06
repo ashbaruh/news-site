@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:00:27+00:00",
-  "fetched_at": "2026-10-06T12:00:27+00:00"
+  "checked_at": "2026-10-06T12:17:24+00:00",
+  "fetched_at": "2026-10-06T12:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:00:39+00:00",
-  "fetched_at": "2026-10-06T12:00:39+00:00"
+  "checked_at": "2026-10-06T12:17:37+00:00",
+  "fetched_at": "2026-10-06T12:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:00:40+00:00",
-  "fetched_at": "2026-10-06T12:00:40+00:00"
+  "checked_at": "2026-10-06T12:17:39+00:00",
+  "fetched_at": "2026-10-06T12:17:39+00:00"
  },
- "generated_at": "2026-10-06T12:00:40+00:00",
+ "generated_at": "2026-10-06T12:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ניו-מד איימה לבטל את עסקת הענק ורשות התחרות חזרה בה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558529",
-     "date": "2026-10-06T09:18:00+00:00"
+     "title": "הישראלי שהקים את ה\"בנק של הבנקים\" מגייס לפי שווי של כמעט 2 מיליארד דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558520",
+     "date": "2026-10-06T12:00:00+00:00"
     },
     {
      "title": "דיווח: איראן תכננה להרוג חיילי ארה\"ב ולפגוע במפציצים בבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558513",
-     "date": "2026-10-06T09:46:00+00:00"
+     "date": "2026-10-06T12:02:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:00:28+00:00",
-  "fetched_at": "2026-10-06T12:00:28+00:00"
+  "checked_at": "2026-10-06T12:17:25+00:00",
+  "fetched_at": "2026-10-06T12:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:00:29+00:00",
-  "fetched_at": "2026-10-06T12:00:29+00:00"
+  "checked_at": "2026-10-06T12:17:26+00:00",
+  "fetched_at": "2026-10-06T12:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2697,8 +2697,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:00:30+00:00",
-  "fetched_at": "2026-10-06T12:00:30+00:00"
+  "checked_at": "2026-10-06T12:17:28+00:00",
+  "fetched_at": "2026-10-06T12:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2843,8 +2843,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:00:30+00:00",
-  "fetched_at": "2026-10-06T12:00:30+00:00"
+  "checked_at": "2026-10-06T12:17:28+00:00",
+  "fetched_at": "2026-10-06T12:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2867,13 +2867,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 163,
+     "likes": 164,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2942,8 +2944,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:00:38+00:00",
-  "fetched_at": "2026-10-06T12:00:38+00:00"
+  "checked_at": "2026-10-06T12:17:36+00:00",
+  "fetched_at": "2026-10-06T12:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -3231,8 +3233,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:00:33+00:00",
-  "fetched_at": "2026-10-06T12:00:33+00:00"
+  "checked_at": "2026-10-06T12:17:31+00:00",
+  "fetched_at": "2026-10-06T12:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3263,58 +3265,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:00:33+00:00",
-  "fetched_at": "2026-10-06T12:00:33+00:00"
+  "checked_at": "2026-10-06T12:17:32+00:00",
+  "fetched_at": "2026-10-06T12:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T11:50:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "newest": "2026-10-06T12:02:00+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-06T11:50:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-06T11:50:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T10:02:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "newest": "2026-10-06T11:52:00+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-06T09:00:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T11:39:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "newest": "2026-10-06T12:07:00+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-06T07:54:59+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3326,28 +3328,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-06T12:00:03+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-06T11:53:20+00:00",
-    "seen_at": "2026-10-06T12:00:40+00:00",
+    "seen_at": "2026-10-06T12:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T12:00:40+00:00"
+  "checked_at": "2026-10-06T12:17:39+00:00"
  }
 };
