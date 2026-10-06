@@ -1,84 +1,181 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-06T12:00:00+03:00",
- "generated_at": "2026-10-06T12:06:26+00:00",
- "model": "claude",
+ "slot": "2026-10-06T18:00:00+03:00",
+ "generated_at": "2026-10-06T15:55:00+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10061206-01",
-     "title": "הצעות חוק להאצת פרישת איראן מאמנת ה-NPT",
-     "summary": "חבר הפרלמנט האיראני קאסם רוונבח'ש אמר שהוגשו לפרלמנט שתי הצעות במסלול מהיר לפרישה מהאמנה למניעת הפצת נשק גרעיני. חבר פרלמנט נוסף טען שבציבור גוברת הדרישה לנשק גרעיני.",
-     "axis": "גרעין",
-     "claim_type": "statement",
+     "id": "IRAN-10061555-01",
+     "title": "הסרת מפציצים אמריקאיים בבריטניה",
+     "summary": "ארצות הברית הוציאה מפציצים מבסיס בבריטניה בעקבות חשש ממזימת תקיפה בכטב\"מים מצד איראן.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T09:09:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T09:09:00+00:00",
-     "last_update_at": "2026-10-06T09:09:00+00:00",
-     "what_is_not_verified": "לא ידוע אם ההצעות יעלו להצבעה ומה עמדת ההנהגה כלפיהן.",
+     "occurred_at": "2026-10-06T15:46:34+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T15:46:34+00:00",
+     "last_update_at": "2026-10-06T15:50:22+00:00",
+     "what_is_not_verified": "האם איראן אכן הייתה מעורבת במזימה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/liveblog/202610033293",
-       "published_at": "2026-10-06T09:09:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10061206-02",
-     "title": "פקיסטן עדכנה את מזכ\"ל האו\"ם על התיווך בין ארה\"ב לאיראן",
-     "summary": "סגן ראש ממשלת פקיסטן, אסחאק דאר, תדרך את מזכ\"ל האו\"ם גוטרש על תפקידה של איסלאמאבאד בשיחות בין וושינגטון לטהרן, זאת אחרי שנשיא איראן פזשכיאן שלל לאחרונה מגעים עם ארה\"ב.",
-     "axis": "דיפלומטיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:34:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T08:34:00+00:00",
-     "last_update_at": "2026-10-06T08:34:00+00:00",
-     "what_is_not_verified": "תוכן התדריך ומצב השיחות בפועל לא פורסמו.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_mee",
+       "source_root_id": "or_us_officials_to_reuters",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-drone-plot-fears-led-us-remove-bombers-uk-base-us-officials-say",
+       "published_at": "2026-10-06T15:50:22+00:00"
+      },
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/liveblog/202610033293",
-       "published_at": "2026-10-06T08:34:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10061206-03",
-     "title": "צינור מזרח-מערב הסעודי: 5.8 מיליון חביות לינבוע",
-     "summary": "שר האנרגיה הסעודי מסר שעד בוקר יום שלישי הוזרמו בצינור מזרח-מערב 5.8 מיליון חביות נפט לנמל ינבוע שבים האדום, נתיב עוקף להורמוז.",
-     "axis": "הורמוז ונפט",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T09:14:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T09:14:00+00:00",
-     "last_update_at": "2026-10-06T09:14:00+00:00",
-     "what_is_not_verified": "הנתון נמסר על ידי סעודיה ולא אומת באופן עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/liveblog/202610033293",
-       "published_at": "2026-10-06T09:14:00+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_us_officials_to_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/10/iran-drone-plot-fears-led-us-remove-bombers-uk-base-us-officials-say",
+       "published_at": "2026-10-06T15:46:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "ינבוע",
-       "lat": 24.089,
-       "lon": 38.0687
+       "name": "רף פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10061555-02",
+     "title": "מעצר חשודים בריגול בבריטניה",
+     "summary": "שสาม אזרחים איראנים הואשמו בריגול אחר עיתונאים עבור שירותי הביטחון של איראן.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T14:40:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T14:40:00+00:00",
+     "last_update_at": "2026-10-06T14:40:00+00:00",
+     "what_is_not_verified": "אשמתם המלאה של החשודים בבית המשפט",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_prosecutors_to_london_court",
+       "url": "https://www.iranintl.com/en/202610064415",
+       "published_at": "2026-10-06T14:40:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10061555-03",
+     "title": "הקמת צוות משימה משותף לאיראן וקטאר",
+     "summary": "איראן וקטאר סיכמו על הקמת צוות משימה משותף בין משרדי הפנים של שתי המדינות.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T15:47:14+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T15:47:14+00:00",
+     "last_update_at": "2026-10-06T15:47:14+00:00",
+     "what_is_not_verified": "פרטי הפעילות המלאים של הצוות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_2ab3b6c0fc86ecc9",
+       "url": "https://en.irna.ir/news/86285266/Iran-Qatar-to-form-joint-task-force-to-follow-up-on-bilateral",
+       "published_at": "2026-10-06T15:47:14+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    }
+   ]
+  },
+  "north": {
+   "events": [
+    {
+     "id": "NORTH-10061555-01",
+     "title": "נשיא סוריה הגיע לביקור בסעודיה",
+     "summary": "נשיא סוריה אחמד א-שרע נחת בסעודיה לפגישה רשמית עם יורש העצר.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T12:39:16+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T12:39:16+00:00",
+     "last_update_at": "2026-10-06T12:39:16+00:00",
+     "what_is_not_verified": "תוצאות הפגישה בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_telegram_channel",
+       "url": "https://t.me/abualiexpress/131454",
+       "published_at": "2026-10-06T12:39:16+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10061555-02",
+     "title": "פריסת כוחות טורקיים בסעודיה",
+     "summary": "טורקיה מתכננת לפרוס כוחות ומערכות הגנה אווירית בסעודיה בעקבות התקפות החות'ים.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T15:30:46+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T15:30:46+00:00",
+     "last_update_at": "2026-10-06T15:30:46+00:00",
+     "what_is_not_verified": "המועד המדויק של סיום הפריסה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_turkish_officials_to_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-deploy-troops-and-air-defence-systems-saudi-arabia-amid-houthi",
+       "published_at": "2026-10-06T15:30:46+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10061555-03",
+     "title": "התבטאות מנהיג חיזבאללה על דרום לבנון",
+     "summary": "ראש חיזבאללה טען כי נסיגת ישראל מדרום לבנון היא בלתי נמנעת.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T15:30:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T15:30:50+00:00",
+     "last_update_at": "2026-10-06T15:30:50+00:00",
+     "what_is_not_verified": "מימוש הטענה בשטח",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_bd10cef951423e31",
+       "url": "https://english.almanar.com.lb/article/135007/",
+       "published_at": "2026-10-06T15:30:50+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 39.371,
+       "lon": -84.2128
       }
      ]
     }
@@ -87,82 +184,82 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10061206-01",
-     "title": "תקיפות רחפנים על ספינות סוחר בים השחור, הרוג אחד",
-     "summary": "רחפן רוסי פגע בספינה בדגל איי מרשל מול חופי אוקראינה, אחד מאנשי הצוות נהרג ושבעה נפצעו. בנוסף, כ-112 ק\"מ מחופי בולגריה טבעה ספינה בדגל טוגו וספינה נוספת עלתה באש, אחרי פגיעת רחפנים שמקורם לא נקבע.",
-     "axis": "הים השחור",
+     "id": "UKRAINE-10061555-01",
+     "title": "מתקפת רחפנים על אניות מסחר מול חופי בולגריה",
+     "summary": "רחפנים בלתי מזוהים תקפו אניות מסחר מול חופי בולגריה, כשאחת מהן טובעת.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T11:47:00+00:00",
+     "occurred_at": "2026-10-06T15:47:21+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T11:47:00+00:00",
-     "last_update_at": "2026-10-06T11:47:00+00:00",
-     "what_is_not_verified": "מקור הרחפנים שפגעו בשתי הספינות מול בולגריה וגורל צוות הספינה שטבעה.",
+     "first_reported_at": "2026-10-06T15:47:21+00:00",
+     "last_update_at": "2026-10-06T15:47:21+00:00",
+     "what_is_not_verified": "זהות אלגמים וגורל אנשי הצוות של האנייה שטבעה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
-       "published_at": "2026-10-06T11:47:00+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "or_bulgarian_prime_minister",
+       "url": "https://meduza.io/en/news/2026/10/06/drones-attack-civilian-ships-off-bulgaria-for-first-time-sinking-one",
+       "published_at": "2026-10-06T15:47:21+00:00"
       }
      ],
      "places": [
       {
-       "name": "אודסה",
-       "lat": 46.4843,
-       "lon": 30.7323
+       "name": "חופי בולגריה",
+       "lat": 43.3651,
+       "lon": 28.0192
       }
      ]
     },
     {
-     "id": "UKRAINE-10061206-02",
-     "title": "בית חולים בקריבי ריה נפגע, 13 הרוגים ביממה",
-     "summary": "תקיפות רוסיות ביממה האחרונה הרגו 13 בני אדם ופצעו 104 ברחבי אוקראינה. בקריבי ריה נפגע בית חולים וארבעה נפצעו, בהם שני אנשי צוות רפואי.",
-     "axis": "תקיפות בעורף",
+     "id": "UKRAINE-10061555-02",
+     "title": "פגיעת רחפן בניידת משטרה בקרמטורסק",
+     "summary": "רחפן פגוע פגע בניידת משטרה בעיר קרמטורסק וגרם למותו של שוטר.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T09:03:00+00:00",
+     "occurred_at": "2026-10-06T14:58:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T09:03:00+00:00",
-     "last_update_at": "2026-10-06T09:03:00+00:00",
-     "what_is_not_verified": "המספרים נמסרו על ידי רשויות אוקראיניות ועשויים להשתנות.",
+     "first_reported_at": "2026-10-06T14:58:00+00:00",
+     "last_update_at": "2026-10-06T14:58:00+00:00",
+     "what_is_not_verified": "היקף הנזקים הנוספים באזור",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-strikes-kill-13-injure-104-across-ukraine-damage-kryvyi-rih-hospital/",
-       "published_at": "2026-10-06T09:03:00+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_ebc5170eccdd93bc",
+       "url": "https://www.ukrinform.net/rubric-society/4171635-fpv-drone-strikes-patrol-car-in-kramatorsk-killing-one-person.html",
+       "published_at": "2026-10-06T14:58:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קריבי ריה",
-       "lat": 47.9103,
-       "lon": 33.3918
+       "name": "קרמטורסק, אוקראינה",
+       "lat": 48.7389,
+       "lon": 37.5844
       }
      ]
     },
     {
-     "id": "UKRAINE-10061206-03",
-     "title": "ליטא פתחה בהליך להסרת האיסור על נשק גרעיני בשטחה",
-     "summary": "הפרלמנט הליטאי עשה צעד ראשון לשינוי חוקתי שיסיר את האיסור על נשק גרעיני במדינה, על רקע האיום הרוסי.",
-     "axis": "נאט\"ו",
-     "claim_type": "statement",
+     "id": "UKRAINE-10061555-03",
+     "title": "סגירת תיק פלילי נגד מייסדת הוספיס ברוסיה",
+     "summary": "הרשויות ברוסיה ביטלו את תיק הפייק ניוז נגד מייסדת הוספיס הילדים לידה מוניאבה לאחר שנקבע כי מעשיה אינם מהווים פשע.",
+     "axis": "ukraine",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:57:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T08:57:00+00:00",
-     "last_update_at": "2026-10-06T08:57:00+00:00",
-     "what_is_not_verified": "ההליך בתחילתו ולא ברור אם יושלם.",
+     "occurred_at": "2026-10-06T15:54:38+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T15:54:38+00:00",
+     "last_update_at": "2026-10-06T15:54:38+00:00",
+     "what_is_not_verified": "ההשלכות המשפטיות הנוספות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/lithuania-takes-1st-step-to-lift-nuclear-weapons-ban-amid-russian-threat/",
-       "published_at": "2026-10-06T08:57:00+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "or_support_group_telegram_channel",
+       "url": "https://meduza.io/en/news/2026/10/06/russia-charged-children-s-hospice-founder-lida-moniava-with-spreading-fake-news-about-the-military-over-an-anti-war-post-investigators-now-say-she-committed-no-crime",
+       "published_at": "2026-10-06T15:54:38+00:00"
       }
      ],
      "places": []
@@ -264,88 +361,11 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
-  },
-  "north": {
-   "events": [
-    {
-     "id": "NORTH-10060840-01",
-     "title": "כניסת כוחות ישראליים לדרום קוניטרה",
-     "summary": "כוחות וטנקים של צבא ישראל נכנסו לאזור תל אל-דוריאת סמוך לכפר אל-מועלאקא בדרום מרחב קוניטרה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T06:46:23+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T06:46:23+00:00",
-     "last_update_at": "2026-10-06T06:46:23+00:00",
-     "what_is_not_verified": "מטרות המבצע המלאות אינן מפורטות בדיווח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-raid-in-syria-s-quneitra/4079190",
-       "published_at": "2026-10-06T06:46:23+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קוניטרה, סוריה",
-       "lat": 33.1244,
-       "lon": 35.823
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10060840-02",
-     "title": "פציעת נערה ברמת הגולן",
-     "summary": "נערה נפצעה באורח בינוני בעקבות אירוע בשטח חקלאי ברמת הגולן.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:37:19+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:37:19+00:00",
-     "last_update_at": "2026-10-06T07:37:19+00:00",
-     "what_is_not_verified": "הגורם המדויק לפציעה אינו מפורט בטקסט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1374157",
-       "published_at": "2026-10-06T07:37:19+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10060840-03",
-     "title": "ירידת מחירי הדלק בלבנון",
-     "summary": "מחירי הדלק מסוגים שונים וסולר ירדו בלבנון, בעוד שמחיר מיכל הגז רשם עלייה.",
-     "axis": "north",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T04:06:14+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T04:06:14+00:00",
-     "last_update_at": "2026-10-06T04:06:14+00:00",
-     "what_is_not_verified": "לא צוינו הגורמים הכלכליים המדויקים שהובילו לשינוי המחירים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_b312e255aece2c6f",
-       "url": "https://www.lbcgroup.tv/news/economy/961401/fuel-prices-slightly-drop-across-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961401",
-       "published_at": "2026-10-06T04:06:14+00:00"
-      }
-     ],
-     "places": []
-    }
    ],
    "from_slot": "2026-10-06T12:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (1) (גם בניסיון חוזר)"
+ }
 };
