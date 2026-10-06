@@ -491,184 +491,268 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-05T2340__iran-202610052340.json",
+  "draft": "drafts/iran/2026-10-06T1209__iran-202610061209.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-05T23:40:42+00:00",
+   "generated_at": "2026-10-06T12:09:36+00:00",
    "window": {
-    "from": "2026-10-04T23:40:42+00:00",
-    "to": "2026-10-05T23:40:42+00:00"
+    "from": "2026-10-05T12:09:36+00:00",
+    "to": "2026-10-06T12:09:36+00:00"
    },
    "model": {
-    "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610052340"
+    "name": "claude",
+    "run_id": "iran-202610061209"
    },
-   "summary": "העימות בין איראן מחד לבין ישראל וארה\"ב מאידך מתאפיין בהמשך לחץ כלכלי וסנקציות חריפות מצד וושינגטון המדרדרות את הכלכלה האיראנית, לצד אירועים ימיים במצר הורמוז והתרחבות החשדות לזירות חוץ כמו אירופה. במקביל, הזירות האזוריות רוחשות פעילות צבאית עצימה הכוללת מתקפות נגד בתימן וגיבוש בריתות הגנה חדשות במפרץ.",
+   "summary": "ביממה האחרונה לא דווח על חילופי אש ישירים בין איראן לבין ישראל או ארה\"ב. המאבק עבר לזירות עקיפות: החות'ים ממשיכים לתקוף בסעודיה, ריאד מזרימה נפט בצינור שעוקף את הורמוז, ובטהרן מקדמים בפרלמנט פרישה מה-NPT ומחפשים דרכים לעקוף סנקציות דרך רוסיה. במקביל פקיסטן ממשיכה לתווך, ובפנים המשטר מחמיר מול המחאות.",
    "fronts": [
     {
-     "name": "הזירה הימית (הורמוז והים האדום)",
-     "status": "פעיל ומתוח"
+     "name": "גרעין",
+     "status": "הצעות לפרישה מהירה מה-NPT הוגשו בפרלמנט; עדיין לא הוחלט."
     },
     {
-     "name": "הזירה הדיפלומטית-כלכלית (סנקציות ושיחות)",
-     "status": "מוקפא עם הסלמה"
+     "name": "הורמוז ונפט",
+     "status": "סעודיה מגדילה הזרמה בצינור מזרח-מערב לינבוע, נתיב עוקף להורמוז."
     },
     {
-     "name": "זירת המפרץ ותימן (סעודיה מול שלוחחות איראן)",
-     "status": "הסלמה צבאית"
+     "name": "שלוחות מול המפרץ",
+     "status": "החות'ים תוקפים שדות תעופה בדרום סעודיה; הקואליציה מגיבה בצנעא."
     },
     {
-     "name": "זירת אירופה (איומים על בסיסים אמריקאיים)",
-     "status": "התעוררות איומים"
+     "name": "דיפלומטיה וסנקציות",
+     "status": "פקיסטן מתווכת; ארה\"ב ובעלות בריתה מגנות; רשת נפט של המשמרות עברה לרוסיה לפי תחקיר."
+    },
+    {
+     "name": "פנים",
+     "status": "גזרי דין מוות למפגינים והחמרה באכיפה."
     }
    ],
    "events": [
     {
-     "id": "IRAN-10052340-01",
-     "title": "פגיעה במכלית שלישית ליד מצר הורמוז",
-     "summary": "מכלית שלישית בתוך יומיים נפגעה בסמוך למצר הורמוז, על רקע ניסיונות לחץ כלכלי וסנקציות אמריקאיות.",
-     "axis": "הזירה הימית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-05T22:08:27+00:00",
-     "last_update_at": "2026-10-05T22:08:27+00:00",
-     "what_is_not_verified": "זהות אלגורם האחראי לפגיעה במכלית אינה מפורטת במלואה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610050957",
-       "published_at": "2026-10-05T22:08:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10052340-02",
-     "title": "ארה\"ב מפנה מפציצים מבסיס בבריטניה מחשש לאיום",
-     "summary": "ארצות הברית פינתה מפציצי B-1 מבסיס האוויר פיירפורד בבריטניה בחזרה לארה\"ב, עקב חשיפת חשודים הקשורים לאיראן שפעלו בקרבת הבסיס.",
-     "axis": "זירת אירופה והעורף האמריקאי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-05T05:50:01+00:00",
-     "last_update_at": "2026-10-05T15:45:46+00:00",
-     "what_is_not_verified": "הקשר הישיר והמוכח של ממשלת איראן לחוליה שנחשפה בבריטניה אינו מאומת לחלוטין מעבר לחשדות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/news/audio/2026/oct/05/why-did-us-withdraw-bombers-from-raf-fairford-the-latest",
-       "published_at": "2026-10-05T15:45:46+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131361",
-       "published_at": "2026-10-05T05:50:01+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בסיס פיירפורד, בריטניה",
-       "lat": 51.6851,
-       "lon": -1.7865
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10052340-03",
-     "title": "תקיפות ומתקפה נגד של הקואליציה בתימן מול החות'ים",
-     "summary": "כוחות ממשלת תימן הנתמכים בסעודיה ובאמצעות קואליציה אווירית פתחו במתקפה נגד החות'ים וכבשו מחדש שטחים באזור מצרי באב אל-מנדב.",
-     "axis": "זירת תימן והים האדום",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T15:21:54+00:00",
-     "last_update_at": "2026-10-05T19:44:01+00:00",
-     "what_is_not_verified": "פרטים מלאים על היקף הנפגעים המדויק בכל זירות הלחימה בתימן.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
-       "published_at": "2026-10-05T19:44:01+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
-       "published_at": "2026-10-05T19:17:05+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
-       "published_at": "2026-10-05T15:21:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מצר באב אל-מנדב, תימן",
-       "lat": 12.6671,
-       "lon": 43.4565
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10052340-04",
-     "title": "הפעלת מנגנון ברית מכה בין סעודיה, פקיסטן וטורקיה",
-     "summary": "סעודיה, פקיסטן וטורקיה הכריזו על הפעלה מיידית של הסכם ההגנה הקולקטיבית (ברית מכה) והיערכות להצבת כוחות בממלכה בעקבות התקיפות האחרונות.",
-     "axis": "המפרץ והקואליציות האזוריות",
+     "id": "IRAN-10061209-01",
+     "title": "ארה\"ב ותשע מדינות ביבשת אמריקה גינו את איראן",
+     "summary": "ארצות הברית ותשע מדינות נוספות ביבשת אמריקה פרסמו הצהרה משותפת שמגנה את מה שהגדירו פעולות טרור והשפעה זדונית של איראן.",
+     "axis": "דיפלומטיה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-05T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T18:25:54+00:00",
-     "last_update_at": "2026-10-05T20:43:27+00:00",
-     "what_is_not_verified": "ההשפעה המבצעית המדויקת בשטח של פריסת הכוחות טרם הוכחה.",
+     "occurred_at": "2026-10-06T07:11:03+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T07:11:03+00:00",
+     "last_update_at": "2026-10-06T07:11:03+00:00",
+     "what_is_not_verified": "לא פורסמו צעדים מעשיים בעקבות ההצהרה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
-       "published_at": "2026-10-05T20:43:27+00:00"
-      },
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-and-several-allies-say-iran-committed-terrorist-actions",
+       "published_at": "2026-10-06T07:11:03+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-02",
+     "title": "הצעות חוק לפרישה מהירה מה-NPT הוגשו בפרלמנט האיראני",
+     "summary": "חבר פרלמנט איראני מסר שהוגשו שתי הצעות במסלול מהיר לפרישה מהאמנה למניעת הפצת נשק גרעיני, וחבר פרלמנט אחר טען שבציבור גוברת הדרישה לנשק גרעיני.",
+     "axis": "גרעין",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:09:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T09:09:00+00:00",
+     "last_update_at": "2026-10-06T09:09:00+00:00",
+     "what_is_not_verified": "לא ידוע אם ההצעות יעלו להצבעה ומה עמדת המנהיגות.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48280",
-       "published_at": "2026-10-05T18:25:54+00:00"
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:09:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-03",
+     "title": "פקיסטן תדרכה את מזכ\"ל האו\"ם על התיווך בין ארה\"ב לאיראן",
+     "summary": "סגן ראש ממשלת פקיסטן עדכן את גוטרש על תפקיד איסלאמאבאד כמתווכת בין וושינגטון לטהרן.",
+     "axis": "דיפלומטיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T08:34:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T08:34:00+00:00",
+     "last_update_at": "2026-10-06T08:34:00+00:00",
+     "what_is_not_verified": "מצב המגעים בפועל לא פורסם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T08:34:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-04",
+     "title": "תחקיר: רשת מכירת נפט של משמרות המהפכה הועברה לרוסיה",
+     "summary": "לפי תחקיר של איראן אינטרנשיונל, מפקד בכיר במשמרות המהפכה ובנו סייעו לשמר רשת מכירת נפט של מודיעין המשמרות ולהעביר את הכספים שלה מאיחוד האמירויות לבנק רוסי, כדי לעקוף את הסנקציות.",
+     "axis": "סנקציות ונפט",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T03:41:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T03:41:00+00:00",
+     "last_update_at": "2026-10-06T03:41:00+00:00",
+     "what_is_not_verified": "הנתונים מבוססים על תחקיר של כלי תקשורת אחד ולא אומתו באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610060772",
+       "published_at": "2026-10-06T03:41:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-05",
+     "title": "צינור מזרח-מערב הסעודי הזרים 5.8 מיליון חביות לינבוע",
+     "summary": "שר האנרגיה הסעודי מסר שעד בוקר יום שלישי הוזרמו 5.8 מיליון חביות לנמל ינבוע בים האדום, נתיב שעוקף את מצר הורמוז.",
+     "axis": "הורמוז ונפט",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:14:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T09:14:00+00:00",
+     "last_update_at": "2026-10-06T09:14:00+00:00",
+     "what_is_not_verified": "הנתון סעודי ולא אומת באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:14:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "ינבוע",
+       "lat": 24.089,
+       "lon": 38.0687
       }
      ]
+    },
+    {
+     "id": "IRAN-10061209-06",
+     "title": "שדות תעופה בדרום סעודיה הותקפו, החות'ים תקפו גם את אבהא לטענתם",
+     "summary": "שדות התעופה בג'יזאן ובנג'ראן הותקפו ונגרמו נזק ופציעות, והקואליציה בהובלת סעודיה תקפה בצנעא. החות'ים, בעלי בריתה של איראן, טענו גם לשיגור טיל לאבהא.",
+     "axis": "שלוחות מול המפרץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T11:35:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T11:35:00+00:00",
+     "last_update_at": "2026-10-06T11:35:00+00:00",
+     "what_is_not_verified": "סעודיה לא אישרה פגיעה באבהא; מספר הפצועים לא פורסם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+       "published_at": "2026-10-06T11:35:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אבהא",
+       "lat": 18.2164,
+       "lon": 42.5044
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10061209-07",
+     "title": "שר החוץ האיראני נפגש עם מתאם האו\"ם ללבנון",
+     "summary": "עראקצ'י אירח בטהרן את מתאם האו\"ם המיוחד ללבנון, ז'אן ארנו.",
+     "axis": "לבנון",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:19:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T09:19:00+00:00",
+     "last_update_at": "2026-10-06T09:19:00+00:00",
+     "what_is_not_verified": "תוכן הפגישה לא פורסם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:19:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-08",
+     "title": "גזר דין מוות למפגין בבוג'נורד",
+     "summary": "בית משפט מהפכני גזר דין מוות על תושב בוג'נורד בן 38 בגלל תמיכה במחאות של ינואר.",
+     "axis": "פנים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T07:36:39+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T07:36:39+00:00",
+     "last_update_at": "2026-10-06T07:36:39+00:00",
+     "what_is_not_verified": "פרטי המשפט לא פורסמו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610064931",
+       "published_at": "2026-10-06T07:36:39+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061209-09",
+     "title": "איש דת קיצוני שוחרר בערבות",
+     "summary": "הרשויות שחררו בערבות את איש הדת מוחמד באקר ח'ראזי אחרי כחודש במעצר.",
+     "axis": "פנים",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T07:55:39+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T07:55:39+00:00",
+     "last_update_at": "2026-10-06T07:55:39+00:00",
+     "what_is_not_verified": "סיבת המעצר והשחרור לא פורטו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610069977",
+       "published_at": "2026-10-06T07:55:39+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "האחריות הישירה של איראן לניסיון הפגיעה בטיסת פליי דובאי נתונה במחלוקת והצהרות פוליטיות בלבד.",
-    "היקף שיתוף הפעולה המדויק של מדינות אירופה עם הצדדים הלוחמים מעבר לטענות פקידי איראן.",
-    "התוצאות המבצעיות של פריסת כוחות ברית מכה בסעודיה."
+    "מספר הפצועים בתקיפות על שדות התעופה בסעודיה.",
+    "פגיעה בשדה התעופה באבהא — טענת החות'ים בלבד.",
+    "היקף רשת הנפט של משמרות המהפכה — תחקיר עיתונאי אחד.",
+    "מצב המגעים בתיווך פקיסטן."
    ],
    "map": {
     "confidence": "medium",
@@ -690,84 +774,92 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "הדגשת חוסר המשמעות של קיום שיחות עם ארצות הברית במצב הנוכחי",
-      "דרישה שגורמים אירופיים יישאו באחריות על סיוע לתוקפים"
+      "לא לנהל מגעים עם ארה\"ב בתנאים הנוכחיים",
+      "לבחון פרישה מהאמנה למניעת הפצת נשק גרעיני"
      ],
      "inferred": [
-      "הפעלת לחץ ימי דרך פגיעה במכליות כדי לערער את שוק האנרגיה העולמי",
-      "הכנת העורף האזרחי והנשים לעימות ממושך דרך אימונים והתארגנויות הגנה עירונית"
+      "להפעיל לחץ על המפרץ דרך החות'ים במקום עימות ישיר",
+      "לשמור על הכנסות נפט למרות הסנקציות דרך רוסיה"
      ],
      "forecast": [
-      "החמרת הבידוד הכלכלי עקב קריסת המטבע המקומי והכנסות הנפט",
-      "המשך הסתמכות על שלוחות אזוריות לתקיפות נגד אינטרסים של יריבותיה"
+      "איום ה-NPT ישמש קלף מיקוח ולא בהכרח יבוצע בקרוב",
+      "תקיפות השלוחות על סעודיה צפויות להימשך"
      ]
     },
     {
-     "actor": "ארצות הברית וישראל",
+     "actor": "ארה\"ב ובעלות בריתה",
      "declared": [
-      "הטלת סנקציות כלכליות נוקשות על בנקים וגופים הסוחרים עם איראן",
-      "הזהרה מפני מתן גישה או סיוע לעסקים ולמוסדות פיננסיים הקשורים לטהרן"
+      "גינוי פעולות איראן",
+      "מניעת נשק גרעיני מאיראן"
      ],
      "inferred": [
-      "הידוק הפיקוח המודיעיני ומניעת התבססות איראנית במרחבים שונים",
-      "נקיטת משנה זהירות ואבטחה מוגברת על בסיסים ונכסים אסטרטגיים מפני חבלות"
+      "בידוד דיפלומטי של טהרן",
+      "השארת ערוץ התיווך הפקיסטני פתוח"
      ],
      "forecast": [
-      "הגברת הלחץ הכלכלי עד קצה מנופי ההשפעה",
-      "המשך פעילות סיכול ומעקב אחר פעילות איראנית חוצת גבולות"
+      "הידוק סנקציות על ערוצי הכספים דרך רוסיה"
+     ]
+    },
+    {
+     "actor": "סעודיה",
+     "declared": [
+      "המשך יצוא נפט דרך הים האדום"
+     ],
+     "inferred": [
+      "להפחית תלות בהורמוז",
+      "להחזיר את החות'ים לאחור דרך הכוחות בתימן"
+     ],
+     "forecast": [
+      "הגדלה נוספת בהזרמה בצינור לינבוע"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/saudi-backed-yemeni-forces-expel-the-houthis-from-several-areas-around-key-strait-officials-say",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
-    },
-    {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+     "accessed_at": "2026-10-06T12:09:36+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610050957",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
+     "url": "https://www.iranintl.com/en/202610069977",
+     "accessed_at": "2026-10-06T12:09:36+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/news/saudi-arabia-turkey-and-pakistan-activate-mecca-pact-amid-war-houthis",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131361",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48280",
-     "accessed_at": "2026-10-05T23:40:42+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-and-several-allies-say-iran-committed-terrorist-actions",
+     "accessed_at": "2026-10-06T12:09:36+00:00"
     }
    ]
   },
-  "auto": true,
-  "previous_generated_at": "2026-10-05T09:35:06+00:00",
+  "auto": false,
+  "previous_generated_at": "2026-10-05T23:40:42+00:00",
   "changes": {
-   "IRAN-10052340-01": {
+   "IRAN-10061209-01": {
     "kind": "new"
    },
-   "IRAN-10052340-02": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "פינוי מפציצי B-1 מבסיס בבריטניה בעקבות חשש מאיום איראני",
-    "score": 1.0
-   },
-   "IRAN-10052340-03": {
+   "IRAN-10061209-02": {
     "kind": "new"
    },
-   "IRAN-10052340-04": {
+   "IRAN-10061209-03": {
+    "kind": "new"
+   },
+   "IRAN-10061209-04": {
+    "kind": "new"
+   },
+   "IRAN-10061209-05": {
+    "kind": "new"
+   },
+   "IRAN-10061209-06": {
+    "kind": "new"
+   },
+   "IRAN-10061209-07": {
+    "kind": "new"
+   },
+   "IRAN-10061209-08": {
+    "kind": "new"
+   },
+   "IRAN-10061209-09": {
     "kind": "new"
    }
   }

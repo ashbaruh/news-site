@@ -2,83 +2,265 @@
 window.DB = window.DB || {};
 window.DB.war_brief = {
  "slot": "2026-10-06T12:00:00+03:00",
- "generated_at": "2026-10-06T08:40:46+00:00",
- "model": "gemini-3.5-flash-lite",
+ "generated_at": "2026-10-06T12:06:26+00:00",
+ "model": "claude",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10060840-01",
-     "title": "גינוי פעולות טרור איראניות",
-     "summary": "ארצות הברית ותשע מדינות נוספות באמריקה פרסמו הצהרה משותפת המגנה את הפעולות הטרוריסטיות וההשפעה הזדונית של איראן.",
-     "axis": "iran",
+     "id": "IRAN-10061206-01",
+     "title": "הצעות חוק להאצת פרישת איראן מאמנת ה-NPT",
+     "summary": "חבר הפרלמנט האיראני קאסם רוונבח'ש אמר שהוגשו לפרלמנט שתי הצעות במסלול מהיר לפרישה מהאמנה למניעת הפצת נשק גרעיני. חבר פרלמנט נוסף טען שבציבור גוברת הדרישה לנשק גרעיני.",
+     "axis": "גרעין",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:11:03+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:11:03+00:00",
-     "last_update_at": "2026-10-06T07:11:03+00:00",
-     "what_is_not_verified": "לא ידוע אילו צעדים מעשיים ינקטו בעקבות ההצהרה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-and-several-allies-say-iran-committed-terrorist-actions",
-       "published_at": "2026-10-06T07:11:03+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10060840-02",
-     "title": "שחרור איש דת בערבות",
-     "summary": "הרשויות באיראן שחררו בערבות את איש הדת הקיצוני מוחמד באקרא כחראזי לאחר כחודש במעצר.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:55:39+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:55:39+00:00",
-     "last_update_at": "2026-10-06T07:55:39+00:00",
-     "what_is_not_verified": "הסיבות המדויקות שבעטיין שוחרר אינן מפורטות מעבר לדיווח על תנאי הערבות.",
+     "occurred_at": "2026-10-06T09:09:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T09:09:00+00:00",
+     "last_update_at": "2026-10-06T09:09:00+00:00",
+     "what_is_not_verified": "לא ידוע אם ההצעות יעלו להצבעה ומה עמדת ההנהגה כלפיהן.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610069977",
-       "published_at": "2026-10-06T07:55:39+00:00"
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:09:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10060840-03",
-     "title": "גזר דין מוות על רקע מחאות",
-     "summary": "בית משפט מהפכני באיראן גזר דין מוות על תושב בן שלושים ושמונה בגין תמיכה במחאות הארציות שהתקיימו בינואר.",
-     "axis": "iran",
-     "claim_type": "incident",
+     "id": "IRAN-10061206-02",
+     "title": "פקיסטן עדכנה את מזכ\"ל האו\"ם על התיווך בין ארה\"ב לאיראן",
+     "summary": "סגן ראש ממשלת פקיסטן, אסחאק דאר, תדרך את מזכ\"ל האו\"ם גוטרש על תפקידה של איסלאמאבאד בשיחות בין וושינגטון לטהרן, זאת אחרי שנשיא איראן פזשכיאן שלל לאחרונה מגעים עם ארה\"ב.",
+     "axis": "דיפלומטיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:36:39+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:36:39+00:00",
-     "last_update_at": "2026-10-06T07:36:39+00:00",
-     "what_is_not_verified": "פרטים מלאים על מהלך המשפט אינם ידועים מעבר למידע שהושג.",
+     "occurred_at": "2026-10-06T08:34:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T08:34:00+00:00",
+     "last_update_at": "2026-10-06T08:34:00+00:00",
+     "what_is_not_verified": "תוכן התדריך ומצב השיחות בפועל לא פורסמו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610064931",
-       "published_at": "2026-10-06T07:36:39+00:00"
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T08:34:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10061206-03",
+     "title": "צינור מזרח-מערב הסעודי: 5.8 מיליון חביות לינבוע",
+     "summary": "שר האנרגיה הסעודי מסר שעד בוקר יום שלישי הוזרמו בצינור מזרח-מערב 5.8 מיליון חביות נפט לנמל ינבוע שבים האדום, נתיב עוקף להורמוז.",
+     "axis": "הורמוז ונפט",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:14:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T09:14:00+00:00",
+     "last_update_at": "2026-10-06T09:14:00+00:00",
+     "what_is_not_verified": "הנתון נמסר על ידי סעודיה ולא אומת באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:14:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "בוג'נורד, איראן",
-       "lat": 37.476,
-       "lon": 57.332
+       "name": "ינבוע",
+       "lat": 24.089,
+       "lon": 38.0687
+      }
+     ]
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-10061206-01",
+     "title": "תקיפות רחפנים על ספינות סוחר בים השחור, הרוג אחד",
+     "summary": "רחפן רוסי פגע בספינה בדגל איי מרשל מול חופי אוקראינה, אחד מאנשי הצוות נהרג ושבעה נפצעו. בנוסף, כ-112 ק\"מ מחופי בולגריה טבעה ספינה בדגל טוגו וספינה נוספת עלתה באש, אחרי פגיעת רחפנים שמקורם לא נקבע.",
+     "axis": "הים השחור",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T11:47:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T11:47:00+00:00",
+     "last_update_at": "2026-10-06T11:47:00+00:00",
+     "what_is_not_verified": "מקור הרחפנים שפגעו בשתי הספינות מול בולגריה וגורל צוות הספינה שטבעה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
+       "published_at": "2026-10-06T11:47:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אודסה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10061206-02",
+     "title": "בית חולים בקריבי ריה נפגע, 13 הרוגים ביממה",
+     "summary": "תקיפות רוסיות ביממה האחרונה הרגו 13 בני אדם ופצעו 104 ברחבי אוקראינה. בקריבי ריה נפגע בית חולים וארבעה נפצעו, בהם שני אנשי צוות רפואי.",
+     "axis": "תקיפות בעורף",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:03:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T09:03:00+00:00",
+     "last_update_at": "2026-10-06T09:03:00+00:00",
+     "what_is_not_verified": "המספרים נמסרו על ידי רשויות אוקראיניות ועשויים להשתנות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/russian-strikes-kill-13-injure-104-across-ukraine-damage-kryvyi-rih-hospital/",
+       "published_at": "2026-10-06T09:03:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קריבי ריה",
+       "lat": 47.9103,
+       "lon": 33.3918
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10061206-03",
+     "title": "ליטא פתחה בהליך להסרת האיסור על נשק גרעיני בשטחה",
+     "summary": "הפרלמנט הליטאי עשה צעד ראשון לשינוי חוקתי שיסיר את האיסור על נשק גרעיני במדינה, על רקע האיום הרוסי.",
+     "axis": "נאט\"ו",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T08:57:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T08:57:00+00:00",
+     "last_update_at": "2026-10-06T08:57:00+00:00",
+     "what_is_not_verified": "ההליך בתחילתו ולא ברור אם יושלם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/lithuania-takes-1st-step-to-lift-nuclear-weapons-ban-amid-russian-threat/",
+       "published_at": "2026-10-06T08:57:00+00:00"
+      }
+     ],
+     "places": []
+    }
+   ]
+  },
+  "yemen": {
+   "events": [
+    {
+     "id": "YEMEN-10061206-01",
+     "title": "צבא ממשלת תימן: העיר מוחא נכבשה מחדש מהחות'ים",
+     "summary": "הכוחות הנתמכים בידי סעודיה הודיעו שהשתלטו מחדש על עיר הנמל מוחא שבחוף המערבי, ושפתחו במתקפת נגד רחבה סמוך למצר באב אל-מנדב.",
+     "axis": "החוף המערבי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T11:35:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T11:35:00+00:00",
+     "last_update_at": "2026-10-06T11:35:00+00:00",
+     "what_is_not_verified": "החות'ים מכחישים שאיבדו שטח; אין אימות עצמאי לשליטה בעיר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+       "published_at": "2026-10-06T11:35:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוחא",
+       "lat": 13.3179,
+       "lon": 43.2501
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10061206-02",
+     "title": "שדות תעופה בדרום סעודיה הותקפו, יש פצועים",
+     "summary": "שדות התעופה בג'יזאן ובנג'ראן הותקפו ונגרמו נזק ופציעות. החות'ים טענו בנוסף שכיוונו טיל לשדה התעופה באבהא, וסעודיה לא אישרה זאת.",
+     "axis": "תקיפות על סעודיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T09:39:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T09:39:00+00:00",
+     "last_update_at": "2026-10-06T11:35:00+00:00",
+     "what_is_not_verified": "מספר הפצועים והפגיעה באבהא לא אומתו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+       "published_at": "2026-10-06T11:35:00+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/liveblog/202610033293",
+       "published_at": "2026-10-06T09:39:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אבהא",
+       "lat": 18.2164,
+       "lon": 42.5044
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10061206-03",
+     "title": "הקואליציה תקפה מתקנים של החות'ים בצנעא",
+     "summary": "מטוסי הקואליציה בהובלת סעודיה תקפו מתקנים של החות'ים בצנעא, במקביל לקרבות בחוף המערבי.",
+     "axis": "צנעא",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T11:35:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T11:35:00+00:00",
+     "last_update_at": "2026-10-06T11:35:00+00:00",
+     "what_is_not_verified": "היעדים המדויקים ומספר הנפגעים לא פורסמו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+       "published_at": "2026-10-06T11:35:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "צנעא",
+       "lat": 15.3539,
+       "lon": 44.2059
       }
      ]
     }
@@ -161,176 +343,8 @@ window.DB.war_brief = {
      ],
      "places": []
     }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-10060840-01",
-     "title": "מתקפות רוסיות במחוז חרקוב",
-     "summary": "הצבא הרוסי תקף את חרקוב ועשרה יישובים נוספים במחוז, דבר שהביא להרג של שבעה בני אדם ולפציעת שמונים נוספים.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:35:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T08:35:00+00:00",
-     "last_update_at": "2026-10-06T08:35:00+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק בכל אתר ואתר אינו מפורט במלואו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4171478-russian-attacks-in-kharkiv-region-leave-seven-killed-80-injured-over-past-day.html",
-       "published_at": "2026-10-06T08:35:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10060840-02",
-     "title": "תקיפה רוסית על גשר ופגיעה באזרחים בזפוריז'יה",
-     "summary": "כוחות רוסיים תקפו את אחד הגשרים מעל נהר דנייפרו בזפוריז'יה ופגעו בבניין מגורים, מה שהוביל לפציעת חמישה בני אדם בהם עובדי צלב אדום.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:20:08+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:20:08+00:00",
-     "last_update_at": "2026-10-06T07:20:08+00:00",
-     "what_is_not_verified": "מצבם המדויק של כלל הפצועים לא פורט מעבר לדיווח על עצם הפציעה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/06/russia-strikes-bridge-over-dnipro-river-in-ukraine-s-zaporizhzhia-injuring-five-including-red-cross-workers",
-       "published_at": "2026-10-06T07:20:08+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "זפוריז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10060840-03",
-     "title": "דיווח על נזק לגשר צ'ונגאר",
-     "summary": "צילומי לווין הצביעו על נזק נרחב שנגרם לגשר הכביש צ'ונגאר המחבר בין חצי האי קרים לבין מחוז חרסון.",
-     "axis": "ukraine",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:18:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T08:18:00+00:00",
-     "last_update_at": "2026-10-06T08:18:00+00:00",
-     "what_is_not_verified": "מועד הפגיעה המדויק אינו מפורט בטקסט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_5fe64e52e2ddf0bc",
-       "url": "https://www.ukrinform.net/rubric-ato/4171471-new-attacks-cause-extensive-damage-to-chonhar-bridge-satellite-imagery.html",
-       "published_at": "2026-10-06T08:18:00+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
-  },
-  "yemen": {
-   "events": [
-    {
-     "id": "YEMEN-10060840-01",
-     "title": "תקיפת מתקני טילים בתימן על ידי הקואליציה בהובלת סעודיה",
-     "summary": "הקואליציה בהובלת סעודיה דיווחה על השמדת פלטפורמת שיגור טילים בבירה צנעא ומחסן שהכיל עשרים טילים בואדי סעדה הצפונית.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T02:04:28+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T02:04:28+00:00",
-     "last_update_at": "2026-10-06T02:04:28+00:00",
-     "what_is_not_verified": "מידת ההרס המדויקת בשטח לא אומתה ממקור בלתי תלוי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-destruction-depot-housing-20-ballistic",
-       "published_at": "2026-10-06T02:04:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
-      },
-      {
-       "name": "סעדה, תימן",
-       "lat": 16.9409,
-       "lon": 43.763
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10060840-02",
-     "title": "היעלמות מסוק של חיל הים האמריקאי",
-     "summary": "מסוק של חיל הים האמריקאי מדגם סיקורסקי נעלם מנתוני מעקב הטיסה לאחר שהכריז על מצב חירום מעל הים האדום סמוך לחופי סעודיה.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T21:20:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T06:16:31+00:00",
-     "last_update_at": "2026-10-06T06:16:31+00:00",
-     "what_is_not_verified": "גורל המסוק וצוותו אינו ידוע או מפורט בטקסט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-navy-helicopter-disappears-after-declaring-emergency-over-red-sea",
-       "published_at": "2026-10-06T06:16:31+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10060840-03",
-     "title": "החלטה על פריסת כוחות טורקיים ופקיסטניים בסעודיה",
-     "summary": "טורקיה ופקיסטן סיכמו על שליחת כוחות פריסה מהירה לסעודיה בעקבות התקפות החות'ים.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T01:39:54+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T01:39:54+00:00",
-     "last_update_at": "2026-10-06T01:39:54+00:00",
-     "what_is_not_verified": "המועד המדויק להגעת הכוחות או היקפם המלא אינם מצוינים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-6-yemen-war-update-sv?traffic_source=rss",
-       "published_at": "2026-10-06T01:39:54+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
+   ],
+   "from_slot": "2026-10-06T12:00:00+03:00"
   }
  },
  "skipped": {}
