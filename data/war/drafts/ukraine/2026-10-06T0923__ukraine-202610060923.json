@@ -1,0 +1,408 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6d20333e80c1",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-06T09:23:21+00:00",
+  "window": {
+   "from": "2026-10-05T09:23:21+00:00",
+   "to": "2026-10-06T09:23:21+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610060923"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה, הכוללת תקיפות אוויריות והדדיות נרחבות על תשתיות אנרגיה, גשרים וריכוזי אוכלוסייה בעומק שתי המדינות. במקביל, מתנהלים קרבות קשים בחזיתות היבשתיות המרכזיות כמו פוקרובסק וקונסטנטינובקה. בזירה הדיפלומטית והכלכלית, נרשמות מתיחויות סביב אספקת דלק וסנקציות, לצד אינדיקציות ציבוריות על נכונות מסוימת למשא ומתן מצד הציבור האוקראיני.",
+  "fronts": [
+   {
+    "name": "חזית פוקרובסק",
+    "status": "פעיל מאוד עם עימותים בלתי פוסקים"
+   },
+   {
+    "name": "חזית קונסטנטינובקה",
+    "status": "פעיל עם התקפות רוסיות חוזרות"
+   },
+   {
+    "name": "מרחב קורסק",
+    "status": "פעיל עם תקיפות אוויריות וקרקעיות"
+   },
+   {
+    "name": "זירת הים השחור",
+    "status": "פעיל הכולל תקיפות על כלי שיט ותשתיות ימיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10060923-01",
+    "title": "תקיפות רוסיות על מתקנים ותשתיות באוקראינה",
+    "summary": "כוחות רוסיים ביצעו תקיפות רבות ברחבי אוקראינה, שגרמו לנפגעים בנפש ולנזקים במבנים, כולל בתי חולים, גשרים ומוסדות חינוך.",
+    "axis": "תקיפות אוויריות וקרקעיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T06:03:00+00:00",
+    "last_update_at": "2026-10-06T09:03:24+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בכל זירה משנית אינו מאומת ממקור ניטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_e6ea061c11ef13ad",
+      "url": "https://kyivindependent.com/russian-strikes-kill-13-injure-104-across-ukraine-damage-kryvyi-rih-hospital/",
+      "published_at": "2026-10-06T09:03:24+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_e6ea061c11ef13ad",
+      "url": "https://www.ukrinform.net/rubric-ato/4171478-russian-attacks-in-kharkiv-region-leave-seven-killed-80-injured-over-past-day.html",
+      "published_at": "2026-10-06T08:35:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_e6ea061c11ef13ad",
+      "url": "https://meduza.io/en/news/2026/10/06/russia-strikes-bridge-over-dnipro-river-in-ukraine-s-zaporizhzhia-injuring-five-including-red-cross-workers",
+      "published_at": "2026-10-06T07:20:08+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e6ea061c11ef13ad",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056649/",
+      "published_at": "2026-10-06T06:03:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קריבי ריה, אוקראינה",
+      "lat": 47.9103,
+      "lon": 33.3918
+     },
+     {
+      "name": "חרקיב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "קרמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10060923-02",
+    "title": "מתקפת כטב\"מים אוקראינית על מוסקבה ומחוזות ברוסיה",
+    "summary": "מתקפת כטב\"מים נרחבת שיוחסה לאוקראינה כוונה לעבר אזור מוסקבה ופגעה במתקנים שונים, וכן דווח על פגיעה בתשתיות אנרגיה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T00:14:26+00:00",
+    "last_update_at": "2026-10-06T07:08:08+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בבתי הזיקוק ונתוני היירוט הרשמיים אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_governor_andrei_vorobyov_moscow_mayor_se",
+      "url": "https://meduza.io/en/news/2026/10/06/massive-ukrainian-drone-attack-on-moscow-and-surrounding-region-kills-two-sets-region-s-largest-oil-depot-ablaze",
+      "published_at": "2026-10-06T07:08:08+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_governor_andrei_vorobyov_moscow_mayor_se",
+      "url": "https://t.me/abualiexpress/131437",
+      "published_at": "2026-10-06T05:53:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_governor_andrei_vorobyov_moscow_mayor_se",
+      "url": "https://t.me/alexmehacarmel/48290",
+      "published_at": "2026-10-06T00:14:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10060923-03",
+    "title": "פגיעה בגשרים ובעורקי תחבורה מרכזיים",
+    "summary": "דווח על נזקים לגשרים המרכזיים החוצים את נהר דנייפרו, וכן לגשר צ'ונחר המחבר בין חצי האי קרים לאזור חרסון.",
+    "axis": "תשתיות תחבורה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T04:26:24+00:00",
+    "last_update_at": "2026-10-06T08:18:00+00:00",
+    "what_is_not_verified": "ההשפעה המלאה על תנועת כלי הרכב והשיקום אינה מאומתת ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5fe64e52e2ddf0bc",
+      "url": "https://www.ukrinform.net/rubric-ato/4171471-new-attacks-cause-extensive-damage-to-chonhar-bridge-satellite-imagery.html",
+      "published_at": "2026-10-06T08:18:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_5fe64e52e2ddf0bc",
+      "url": "https://meduza.io/en/news/2026/10/06/russia-strikes-bridge-over-dnipro-river-in-ukraine-s-zaporizhzhia-injuring-five-including-red-cross-workers",
+      "published_at": "2026-10-06T07:20:08+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5fe64e52e2ddf0bc",
+      "url": "https://kyivindependent.com/russian-drone-strikes-zaporizhzhia-bridge-in-overnight-attack/",
+      "published_at": "2026-10-06T04:26:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10060923-04",
+    "title": "חילופי האשמות דיפלומטיות סביב העברת שבויים קוריאניים",
+    "summary": "שר החוץ של דרום קוריאה הביע חוסר שביעות רצון מההתנצלות של אוקראינה בנוגע להדלפת מידע על העברת שני שבויי מלחמה צפון קוריאניים.",
+    "axis": "הזירה הדיפלומטית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T08:26:00+00:00",
+    "last_update_at": "2026-10-06T08:26:00+00:00",
+    "what_is_not_verified": "טיב הצעדים העתידיים שתנקוט דרום קוריאה אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_cho_hyun_yonhap",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056667/",
+      "published_at": "2026-10-06T08:26:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10060923-05",
+    "title": "תקיפה ימית בים השחור ופגיעה באוניית תבואה",
+    "summary": "אוניית תבואה בבעלות טורקית נפגעה בים השחור, מה שהוביל לטביעתה, למותו של הקברניט ולחילוץ אנשי צוות נוספים.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T12:44:28+00:00",
+    "last_update_at": "2026-10-05T15:17:23+00:00",
+    "what_is_not_verified": "זהות אלגורם התוקף המדויק מדווחת חלקית בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T15:17:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://t.me/abualiexpress/131385",
+      "published_at": "2026-10-05T12:44:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים השחור",
+      "lat": 43.8728,
+      "lon": 33.9938
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10060923-06",
+    "title": "משפט בגידה ברוסיה בשל תשלומי מס לאוקראינה",
+    "summary": "רשויות הביטחון ברוסיה עצרו איש עסקים באשמת בגידה במולדת בטענה ששילם חובות מס רשמיים לתקציב המדינה באוקראינה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T19:32:12+00:00",
+    "last_update_at": "2026-10-05T19:32:12+00:00",
+    "what_is_not_verified": "טענות ההגנה בדבר חוסר הברירה של הנאשם בתשלומי המס אינן מתקפות משפטית לפי בתי המשפט ברוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_mediazona",
+      "url": "https://meduza.io/en/news/2026/10/05/russia-has-brought-its-first-known-treason-case-based-on-tax-payments-to-ukraine",
+      "published_at": "2026-10-05T19:32:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10060923-07",
+    "title": "אישור נשיאותי לפרישת יוניקרדיט מפעילות ברוסיה",
+    "summary": "נשיא רוסיה חתם על צו המאפשר לקבוצת הבנקאות האיטלקית יוניקרדיט לבצע רה-ארגון ולמכור את החזקותיה בבנק הבת הרוסי.",
+    "axis": "הזירה הכלכלית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-05T18:22:10+00:00",
+    "last_update_at": "2026-10-05T18:22:10+00:00",
+    "what_is_not_verified": "זהות המשקיע הפרטי מאיחוד האמירויות שירכוש את הנכסים לא נחשפה רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/05/putin-authorizes-italian-banking-group-unicredit-to-spin-off-part-of-its-russian-bank-and-sell-the-remaining-business",
+      "published_at": "2026-10-05T18:22:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10060923-08",
+    "title": "משא ומתן ומדדי דעת קהל באוקראינה",
+    "summary": "סקר שנערך באוקראינה מצביע על כך שרוב אזרחי המדינה פתוחים לאפשרות של קיום משא ומתן עם רוסיה לסיום המלחמה, ללא הסכמה מוקדמת לויתורי שטחים.",
+    "axis": "הזירה הציבורית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T08:12:00+00:00",
+    "last_update_at": "2026-10-06T08:12:00+00:00",
+    "what_is_not_verified": "הפרשנות המדויקת של רצון הציבור בנוגע לפשרות טריטוריאליות נתונה לפרשנות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_bcd7bb18ac054a3f",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056661/",
+      "published_at": "2026-10-06T08:12:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בצד הרוסי והאוקראיני אינו מאומת.",
+   "זהותו המלאה של המשקיע הרוכש את נכסי בנק יוניקרדיט ברוסיה.",
+   "היקף הנזק המדויק בבתי הזיקוק במוסקבה ובמתקני האנרגיה."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1204,
+    "unit": "USD",
+    "change_pct": -0.19,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה ביכולות הצבאיות של אוקראינה",
+     "המשך הגנה על האינטרסים הכלכליים והביטחוניים של המדינה מול הסנקציות"
+    ],
+    "inferred": [
+     "החלשת התשתיות האזרחיות והתחבורתיות של אוקראינה כדי לשחוק את עמידתה",
+     "המשך לחץ צבאי בחזיתות המזרחיות לשם כיבוש שטחים נוספים"
+    ],
+    "forecast": [
+     "הגברת התקיפות על עורקי תחבורה מרכזיים וגשרים באוקראינה",
+     "החמרת הצעדים המשפטיים והביטחוניים נגד גורמים הנחשדים בסיוע לאוקראינה בעורף הרוסי"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה והדפת הכוחות הרוסיים",
+     "המשך המאבק המזיין בתוך השטחים הכבושים ופגיעה בלוגיסטיקה הרוסית"
+    ],
+    "inferred": [
+     "פגיעה בעורף הכלכלי והאנרגתי של רוסיה באמצעות מתקפות כטב\"מים ארוכי טווח",
+     "שמירה על לגיטימציה בינלאומית וקבלת סיוע צבאי וכלכלי חיצוני"
+    ],
+    "forecast": [
+     "המשך שימוש בטקטיקות של תקיפות כטב\"מים בעומק רוסיה",
+     "ניסיונות לשקם תשתיות תחבורה שנפגעו תוך כדי ניהול מגעים דיפלומטיים זהירים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-drone-strikes-zaporizhzhia-bridge-in-overnight-attack/",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/05/putin-authorizes-italian-banking-group-unicredit-to-spin-off-part-of-its-russian-bank-and-sell-the-remaining-business",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056661/",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131385",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48290",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4171471-new-attacks-cause-extensive-damage-to-chonhar-bridge-satellite-imagery.html",
+    "accessed_at": "2026-10-06T09:23:21+00:00"
+   }
+  ]
+ }
+}
