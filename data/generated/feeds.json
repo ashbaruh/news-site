@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T15:17:31+00:00",
-  "fetched_at": "2026-10-06T15:17:31+00:00"
+  "checked_at": "2026-10-06T16:17:18+00:00",
+  "fetched_at": "2026-10-06T16:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T15:17:43+00:00",
-  "fetched_at": "2026-10-06T15:17:43+00:00"
+  "checked_at": "2026-10-06T16:17:30+00:00",
+  "fetched_at": "2026-10-06T16:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Magico's A3 2027 refines every part of the original A3 speaker, with a new cabinet, drivers and crossover – but costs over twice as much",
+    "title_he": "ה-A3 2027 של Magico משכלל כל חלק ברמקול A3 המקורי, עם ארון חדש, דרייברים וקרוסאובר - אבל עולה פי שניים יותר",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/magicos-a3-2027-refines-every-part-of-the-original-a3-speaker-with-a-new-cabinet-drivers-and-crossover-but-costs-over-twice-as-much",
+    "date": "2026-10-06T15:27:12+00:00"
+   },
    {
     "title_en": "Now Playing: the 6 best test tracks giving our team chills this October",
     "title_he": "עכשיו משחקים: 6 מסלולי המבחן הטובים ביותר גורמים לצוות שלנו צמרמורת באוקטובר הקרוב",
@@ -67,32 +74,25 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/turntables/victrola-wants-to-take-the-fear-away-for-a-new-generation-of-vinyl-listeners",
     "date": "2026-10-06T12:26:45+00:00"
-   },
-   {
-    "title_en": "TCL C8L (65C8L)",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-c8l-65c8l",
-    "date": "2026-10-06T10:51:51+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T15:17:47+00:00",
-  "fetched_at": "2026-10-06T15:17:47+00:00"
+  "checked_at": "2026-10-06T16:17:32+00:00",
+  "fetched_at": "2026-10-06T16:17:32+00:00"
  },
- "generated_at": "2026-10-06T15:17:47+00:00",
+ "generated_at": "2026-10-06T16:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"אפסייד של עשרות אחוזים\": המשקיע שמאמין במניה ביטחונית מפתיעה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558456",
-     "date": "2026-10-06T14:00:00+00:00"
+     "title": "במקום אקזיט: הסטארט אפ שעובד עם אילון מאסק בדרך לבורסה בתל אביב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558595",
+     "date": "2026-10-06T16:00:00+00:00"
     },
     {
      "title": "ביום השנה ל-7.10: המל\"ל באזהרה לישראלים בחו\"ל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558513",
-     "date": "2026-10-06T13:32:00+00:00"
+     "date": "2026-10-06T15:40:00+00:00"
     }
    ],
    "market": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T15:17:32+00:00",
-  "fetched_at": "2026-10-06T15:17:32+00:00"
+  "checked_at": "2026-10-06T16:17:19+00:00",
+  "fetched_at": "2026-10-06T16:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T15:17:34+00:00",
-  "fetched_at": "2026-10-06T15:17:34+00:00"
+  "checked_at": "2026-10-06T16:17:20+00:00",
+  "fetched_at": "2026-10-06T16:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2702,8 +2702,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T15:17:35+00:00",
-  "fetched_at": "2026-10-06T15:17:35+00:00"
+  "checked_at": "2026-10-06T16:17:21+00:00",
+  "fetched_at": "2026-10-06T16:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2848,8 +2848,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T15:17:35+00:00",
-  "fetched_at": "2026-10-06T15:17:35+00:00"
+  "checked_at": "2026-10-06T16:17:21+00:00",
+  "fetched_at": "2026-10-06T16:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -2878,7 +2878,7 @@
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 168,
+     "likes": 169,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2892,21 +2892,21 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 342,
+     "likes": 343,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 200,
+     "likes": 201,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 94,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2917,18 +2917,18 @@
      "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     },
     {
-     "title": "ChessFly",
-     "desc_en": "Just a fruit fly's brain, playing chess",
-     "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 132,
-     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
-    },
-    {
      "title": "JEV-27B Live Demo",
      "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
      "likes": 94,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
+    },
+    {
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 132,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
      "title": "Omni Video Factory",
@@ -2947,12 +2947,31 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T15:17:42+00:00",
-  "fetched_at": "2026-10-06T15:17:42+00:00"
+  "checked_at": "2026-10-06T16:17:28+00:00",
+  "fetched_at": "2026-10-06T16:17:28+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רוי רביבו על סלטה ויגו: \"מבחינתי זה לא מיוחד, אבא שלי יתרגש\"",
+     "link": "https://sports.walla.co.il/item/3871169",
+     "date": "2026-10-06T16:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "גורן ועבד בהרכב הנבחרת הצעירה מול נורבגיה",
+     "link": "https://www.one.co.il/Article/535242.html?ref=rss",
+     "date": "2026-10-06T15:25:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי עבד",
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "יהונתן אלבז הפסיד בקרב על הארד לבולמטאפס",
      "link": "https://www.one.co.il/Article/535191.html?ref=rss",
@@ -3236,8 +3255,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T15:17:39+00:00",
-  "fetched_at": "2026-10-06T15:17:39+00:00"
+  "checked_at": "2026-10-06T16:17:24+00:00",
+  "fetched_at": "2026-10-06T16:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3269,7 +3288,7 @@
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-06T15:17:39+00:00",
+  "checked_at": "2026-10-06T16:17:24+00:00",
   "fetched_at": "2026-10-06T14:17:29+00:00"
  },
  "feed_health": {
@@ -3277,44 +3296,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T15:08:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "newest": "2026-10-06T16:00:00+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-06T14:33:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-06T13:34:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "newest": "2026-10-06T15:54:00+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T13:10:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "newest": "2026-10-06T16:07:00+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-06T15:12:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T14:54:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "newest": "2026-10-06T16:02:00+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3326,34 +3345,34 @@
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-06T14:00:00+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-06T14:51:15+00:00",
-    "seen_at": "2026-10-06T15:17:47+00:00",
+    "newest": "2026-10-06T15:27:12+00:00",
+    "seen_at": "2026-10-06T16:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T15:17:47+00:00"
+  "checked_at": "2026-10-06T16:17:32+00:00"
  }
 }
