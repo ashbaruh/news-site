@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T07:17:20+00:00",
-  "fetched_at": "2026-10-06T07:17:20+00:00"
+  "checked_at": "2026-10-06T08:17:26+00:00",
+  "fetched_at": "2026-10-06T08:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T07:17:30+00:00",
-  "fetched_at": "2026-10-06T07:17:30+00:00"
+  "checked_at": "2026-10-06T08:17:40+00:00",
+  "fetched_at": "2026-10-06T08:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,44 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T07:17:30+00:00",
-  "fetched_at": "2026-10-06T07:17:30+00:00"
+  "checked_at": "2026-10-06T08:17:41+00:00",
+  "fetched_at": "2026-10-06T08:17:41+00:00"
  },
- "generated_at": "2026-10-06T07:17:30+00:00",
+ "generated_at": "2026-10-06T08:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עליות קלות בפתיחה בתל אביב; נקסט ויז'ן צוללת במעל 10%",
+     "title": "מגמה מעורבת בתל אביב; כמעט 3 מיליארד שקל נמחקו בחצי שעה במניית נקסט ויז'ן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
-     "date": "2026-10-06T07:07:00+00:00"
+     "date": "2026-10-06T07:30:00+00:00"
     },
     {
      "title": "דיווח: איראן תכננה להרוג חיילי ארה\"ב ולפגוע במפציצים בבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558513",
-     "date": "2026-10-06T05:02:00+00:00"
+     "date": "2026-10-06T07:36:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות קלות בפתיחה בתל אביב; נקסט ויז'ן צוללת במעל 10%",
+     "title": "חיסכון עד הפנסיה וביטוח רק מגיל 70: החורים בתוכנית הסיעוד החדשה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558482",
+     "date": "2026-10-06T07:59:00+00:00"
+    },
+    {
+     "title": "עליות בפתיחת המסחר באירופה; הנפט נסחר מתחת ל-100 דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558504",
+     "date": "2026-10-06T07:41:00+00:00"
+    },
+    {
+     "title": "מה עומד מאחורי מימוש הענק בנקסט ויז'ן, ומה חושב עליו היו\"ר?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558512",
+     "date": "2026-10-06T07:35:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בתל אביב; כמעט 3 מיליארד שקל נמחקו בחצי שעה במניית נקסט ויז'ן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
-     "date": "2026-10-06T07:07:00+00:00"
+     "date": "2026-10-06T07:30:00+00:00"
     },
     {
      "title": "משרד התקשורת יפרסם בשבוע הבא שימוע לביטול ההפרדה המבנית בבזק ו-yes",
@@ -114,17 +129,7 @@ window.DB.generated = {
      "date": "2026-10-06T04:51:00+00:00"
     },
     {
-     "title": "מצב השווקים: מגמה מעורבת באסיה, ומה הפך את אילון מאסק שוב לטריליונר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558504",
-     "date": "2026-10-06T04:04:00+00:00"
-    },
-    {
-     "title": "מה עומד מאחורי מימוש הענק בנקסט ויז'ן, ומה חושב עליו היו\"ר?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558512",
-     "date": "2026-10-06T03:21:00+00:00"
-    },
-    {
-     "title": "״אפסייד של עשרות אחוזים״: המשקיע שמאמין במניה ביטחונית מפתיעה",
+     "title": "\"אפסייד של עשרות אחוזים\": המשקיע שמאמין במניה ביטחונית מפתיעה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558456",
      "date": "2026-10-06T03:04:00+00:00"
     },
@@ -214,15 +219,15 @@ window.DB.generated = {
      "date": "2026-10-05T07:24:00+00:00"
     },
     {
-     "title": "הכמעט אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
+     "title": "הכמעט-אסון בטיסת פליי דובאי עשוי לשלוח את אל על למהלך היסטורי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558374",
      "date": "2026-10-05T07:03:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T07:17:21+00:00",
-  "fetched_at": "2026-10-06T07:17:21+00:00"
+  "checked_at": "2026-10-06T08:17:28+00:00",
+  "fetched_at": "2026-10-06T08:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T07:17:22+00:00",
-  "fetched_at": "2026-10-06T07:17:22+00:00"
+  "checked_at": "2026-10-06T08:17:29+00:00",
+  "fetched_at": "2026-10-06T08:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2657,8 +2662,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T07:17:22+00:00",
-  "fetched_at": "2026-10-06T07:17:22+00:00"
+  "checked_at": "2026-10-06T08:17:31+00:00",
+  "fetched_at": "2026-10-06T08:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2803,18 +2808,18 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T07:17:22+00:00",
-  "fetched_at": "2026-10-06T07:17:22+00:00"
+  "checked_at": "2026-10-06T08:17:31+00:00",
+  "fetched_at": "2026-10-06T08:17:31+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/openai-explains-ai-text-watermark/",
-     "date": "2026-10-06T06:59:59+00:00",
+     "link": "https://www.geektime.co.il/reflection-seeks-to-be-american-deepseek-and-launches-beam-model/",
+     "date": "2026-10-06T08:05:09+00:00",
      "launch": false,
-     "title": "גם OpenAI תלשין שכתבתם את הטקסט עם AI והיא מסבירה איך"
+     "title": "תשובה למודלים הסיניים הפתוחים? נחשף מודל ה-AI החדש Beam"
     },
     {
      "source": "OpenAI",
@@ -2826,14 +2831,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 10,
    "failed_sources": [],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 155,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2847,7 +2852,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 334,
+     "likes": 335,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2882,14 +2887,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 177,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 659,
+     "likes": 660,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
@@ -2902,8 +2907,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T07:17:29+00:00",
-  "fetched_at": "2026-10-06T07:17:29+00:00"
+  "checked_at": "2026-10-06T08:17:39+00:00",
+  "fetched_at": "2026-10-06T08:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -3164,11 +3169,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T07:17:25+00:00",
-  "fetched_at": "2026-10-06T07:17:25+00:00"
+  "checked_at": "2026-10-06T08:17:34+00:00",
+  "fetched_at": "2026-10-06T08:17:34+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "הסלפי שעורר סערה: חיילי מילואים הצטלמו עם גופה - ויעמדו למשפט | פרסום ראשון",
+    "link": "https://www.walla.co.il/news/military/383956439",
+    "date": "2026-10-06T07:54:59+00:00"
+   },
    {
     "title": "היסטוריה בחיל השריון: פלוגת הלוחמות הראשונה תצא לדרך בנובמבר",
     "link": "https://www.walla.co.il/news/military/383956377",
@@ -3188,99 +3198,94 @@ window.DB.generated = {
     "title": "תקרית נוספת בסוריה: שני חשודים על אופנוע נעצרו לאחר שהתקרבו למוצב צה\"ל",
     "link": "https://www.walla.co.il/news/military/383956358",
     "date": "2026-10-05T13:54:26+00:00"
-   },
-   {
-    "title": "\"אין מצב שזו תקלה\": הרגע שבו חיל האוויר הבין שמטוס עם ישראלים נחטף | בלעדי",
-    "link": "https://www.walla.co.il/news/military/383956269",
-    "date": "2026-10-05T13:24:42+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T07:17:26+00:00",
-  "fetched_at": "2026-10-06T07:17:26+00:00"
+  "checked_at": "2026-10-06T08:17:35+00:00",
+  "fetched_at": "2026-10-06T08:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T07:07:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T08:03:00+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-06T07:07:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T07:59:00+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-06T04:51:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T06:33:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T07:48:00+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T06:44:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T08:09:00+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T06:55:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T08:12:00+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-06T07:15:06+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T07:54:59+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-09-30T20:01:45+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-06T06:59:59+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T08:05:09+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-05T18:02:16+00:00",
-    "seen_at": "2026-10-06T07:17:30+00:00",
+    "newest": "2026-10-06T07:45:35+00:00",
+    "seen_at": "2026-10-06T08:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T07:17:30+00:00"
+  "checked_at": "2026-10-06T08:17:41+00:00"
  }
 };
