@@ -1,5 +1,5 @@
 {
- "at": "2026-10-06T15:17:14+00:00",
+ "at": "2026-10-06T15:31:59+00:00",
  "ok": false,
- "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 429: [GenerateRequestsPerDayPerProjectPerModel-FreeTier] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_"
+ "msg": "אין ידיעות חדשות באף זירה — העדכון הקודם נשאר: iran: הבינה החזירה רשימה ריקה; north: הבינה החזירה רשימה ריקה; ukraine: הבינה החזירה רשימה ריקה; yemen: הבינה החזירה רשימה ריקה"
 }
