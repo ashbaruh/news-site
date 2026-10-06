@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:17:24+00:00",
-  "fetched_at": "2026-10-06T12:17:24+00:00"
+  "checked_at": "2026-10-06T13:17:29+00:00",
+  "fetched_at": "2026-10-06T13:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:17:37+00:00",
-  "fetched_at": "2026-10-06T12:17:37+00:00"
+  "checked_at": "2026-10-06T13:17:40+00:00",
+  "fetched_at": "2026-10-06T13:17:40+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Wharfedale Diamond 12.1i HCP",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/surround-sound-systems/wharfedale-diamond-12-1i-hcp",
+    "date": "2026-10-06T12:31:43+00:00"
+   },
+   {
+    "title_en": "Victrola wants to “take the fear away” for a new generation of vinyl listeners",
+    "title_he": "Victrola רוצה \"להסיר את הפחד\" עבור דור חדש של מאזיני ויניל",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/victrola-wants-to-take-the-fear-away-for-a-new-generation-of-vinyl-listeners",
+    "date": "2026-10-06T12:26:45+00:00"
+   },
    {
     "title_en": "TCL C8L (65C8L)",
     "title_he": null,
@@ -60,27 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/we-have-high-end-italian-floorstanders-affordable-wired-earbuds-and-a-sonos-rivalling-wireless-speaker-in-for-testing-this-month",
     "date": "2026-10-05T18:02:16+00:00"
-   },
-   {
-    "title_en": "Where to watch Celebrity Traitors UK season 2 online – stream BBC's No.1 show",
-    "title_he": "היכן לצפות בעונה 2 של Celebrity Traitors UK עונה 2 באינטרנט - הזרם את התוכנית מספר 1 של BBC",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/where-to-watch-celebrity-traitors-uk-season-2-online",
-    "date": "2026-10-05T15:01:08+00:00"
-   },
-   {
-    "title_en": "LG C6 48-inch (OLED48C6)",
-    "title_he": "LG C6 48 אינץ' (OLED48C6)",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/lg-c6-48-inch-oled48c6",
-    "date": "2026-10-05T13:52:02+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:17:39+00:00",
-  "fetched_at": "2026-10-06T12:17:39+00:00"
+  "checked_at": "2026-10-06T13:17:46+00:00",
+  "fetched_at": "2026-10-06T13:17:46+00:00"
  },
- "generated_at": "2026-10-06T12:17:39+00:00",
+ "generated_at": "2026-10-06T13:17:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -97,19 +97,24 @@
    ],
    "market": [
     {
+     "title": "לפי שווי של כ-44 מיליון דולר: חברת הטכנולוגיה הישראלית בדרך להנפקה בניו יורק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558554",
+     "date": "2026-10-06T13:07:00+00:00"
+    },
+    {
+     "title": "ירידות בתל אביב: התקשורת והטכנולוגיה מושכות למטה; נקסט ויז'ן צוללת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
+     "date": "2026-10-06T12:50:00+00:00"
+    },
+    {
      "title": "וול סטריט בדרך להיפתח בשיאים חדשים; מחירי הנפט ותשואות האג\"ח יורדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558504",
-     "date": "2026-10-06T11:50:00+00:00"
+     "date": "2026-10-06T12:43:00+00:00"
     },
     {
      "title": "משלמים לאיראנים? החשד מאחורי חזרת מכליות הנפט להורמוז",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558539",
      "date": "2026-10-06T11:34:00+00:00"
-    },
-    {
-     "title": "ירידות בתל אביב; נקסט ויז'ן מוחקת מערכה מעל 2 מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558469",
-     "date": "2026-10-06T10:45:00+00:00"
     },
     {
      "title": "\"נפל עלינו בהפתעה\": יו\"ר נקסט ויז'ן מגיב למימוש הענק ומנסה להרגיע",
@@ -192,11 +197,6 @@
      "date": "2026-10-05T16:30:00+00:00"
     },
     {
-     "title": "שתי תפיסות עולם מתנגשות: בולסונרו ולולה נערכים לסיבוב שני מכריע בברזיל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558445",
-     "date": "2026-10-05T15:32:00+00:00"
-    },
-    {
      "title": "הפרדוקס של שוק הנפט: היצוא מהורמוז חזר לשגרה, אך המחירים ממשיכים לטפס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558480",
      "date": "2026-10-05T14:56:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:17:25+00:00",
-  "fetched_at": "2026-10-06T12:17:25+00:00"
+  "checked_at": "2026-10-06T13:17:31+00:00",
+  "fetched_at": "2026-10-06T13:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:17:26+00:00",
-  "fetched_at": "2026-10-06T12:17:26+00:00"
+  "checked_at": "2026-10-06T13:17:32+00:00",
+  "fetched_at": "2026-10-06T13:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2694,8 +2694,9 @@
     "title": "לבאנטה - סביליה"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-06T12:17:28+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-10-06T13:17:32+00:00",
   "fetched_at": "2026-10-06T12:17:28+00:00"
  },
  "ligat_haal": {
@@ -2841,19 +2842,12 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:17:28+00:00",
-  "fetched_at": "2026-10-06T12:17:28+00:00"
+  "checked_at": "2026-10-06T13:17:32+00:00",
+  "fetched_at": "2026-10-06T13:17:32+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/evolve-to-ai-2026-removing-the-bottleneck/",
-     "date": "2026-10-06T11:31:10+00:00",
-     "launch": false,
-     "title": "רק בכנס הפיתוח של גיקטיים: איך משחררים את צוואר הבקבוק החדש של ה-AI?"
-    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/eu-text-provenance",
@@ -2864,23 +2858,24 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
+   "candidates": 1,
    "failed_sources": [
-    "Google DeepMind"
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 164,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 457,
+     "likes": 458,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2942,8 +2937,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:17:36+00:00",
-  "fetched_at": "2026-10-06T12:17:36+00:00"
+  "checked_at": "2026-10-06T13:17:39+00:00",
+  "fetched_at": "2026-10-06T13:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2955,15 +2950,6 @@
      "source": "ONE",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "בשעה זו: ביהמ\"ש המחוזי דן בעתירת ריצ'ארד דיץ",
-     "link": "https://www.one.co.il/Article/535198.html?ref=rss",
-     "date": "2026-10-06T10:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
      ]
     },
     {
@@ -3231,11 +3217,21 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-06T12:17:31+00:00",
-  "fetched_at": "2026-10-06T12:17:31+00:00"
+  "checked_at": "2026-10-06T13:17:36+00:00",
+  "fetched_at": "2026-10-06T13:17:36+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "\"תקלה מסוכנת\": מ\"פ ומ\"מ בחטיבת הצנחנים יודחו בשל אירוע בטיחות | פרסום ראשון",
+    "link": "https://www.walla.co.il/news/military/383956495",
+    "date": "2026-10-06T13:15:09+00:00"
+   },
+   {
+    "title": "צה\"ל שכנע את עצמו שהוא מוכן: הקונספציה היבשתית שהתפוצצה לנו בפרצוף",
+    "link": "https://www.walla.co.il/news/military/383956441",
+    "date": "2026-10-06T12:40:53+00:00"
+   },
    {
     "title": "הסלפי שעורר סערה: חיילי מילואים הצטלמו עם גופה - ויעמדו למשפט | פרסום ראשון",
     "link": "https://www.walla.co.il/news/military/383956439",
@@ -3250,71 +3246,61 @@
     "title": "קמ\"ן אוגדת עזה ב-7 באוקטובר: \"אני המפקד היחיד בצה\"ל שמשלם מחיר\"",
     "link": "https://www.walla.co.il/news/military/383956414",
     "date": "2026-10-06T04:36:11+00:00"
-   },
-   {
-    "title": "ראש השב\"כ בקבינט: \"לא תהיה ברירה אלא להחזיר את המעצרים המנהליים\"",
-    "link": "https://www.walla.co.il/news/military/383956370",
-    "date": "2026-10-05T15:17:00+00:00"
-   },
-   {
-    "title": "תקרית נוספת בסוריה: שני חשודים על אופנוע נעצרו לאחר שהתקרבו למוצב צה\"ל",
-    "link": "https://www.walla.co.il/news/military/383956358",
-    "date": "2026-10-05T13:54:26+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-06T12:17:32+00:00",
-  "fetched_at": "2026-10-06T12:17:32+00:00"
+  "checked_at": "2026-10-06T13:17:37+00:00",
+  "fetched_at": "2026-10-06T13:17:37+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-06T12:02:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:07:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-06T11:50:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:07:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-06T11:50:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:07:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-06T11:52:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:10:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T09:00:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T12:45:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-06T12:07:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:10:00+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-06T07:54:59+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T13:15:09+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3326,7 +3312,7 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3338,16 +3324,16 @@
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-06T11:53:20+00:00",
-    "seen_at": "2026-10-06T12:17:39+00:00",
+    "newest": "2026-10-06T12:31:43+00:00",
+    "seen_at": "2026-10-06T13:17:46+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-06T12:17:39+00:00"
+  "checked_at": "2026-10-06T13:17:46+00:00"
  }
 }
