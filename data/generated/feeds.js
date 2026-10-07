@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-07T19:17:20+00:00",
-  "fetched_at": "2026-10-07T19:17:20+00:00"
+  "checked_at": "2026-10-07T20:17:24+00:00",
+  "fetched_at": "2026-10-07T20:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T19:17:32+00:00",
-  "fetched_at": "2026-10-07T19:17:32+00:00"
+  "checked_at": "2026-10-07T20:17:33+00:00",
+  "fetched_at": "2026-10-07T20:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T19:17:35+00:00",
-  "fetched_at": "2026-10-07T19:17:35+00:00"
+  "checked_at": "2026-10-07T20:17:35+00:00",
+  "fetched_at": "2026-10-07T20:17:35+00:00"
  },
- "generated_at": "2026-10-07T19:17:35+00:00",
+ "generated_at": "2026-10-07T20:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,16 +92,16 @@ window.DB.generated = {
      "date": "2026-10-07T18:00:00+00:00"
     },
     {
-     "title": "שלוש שנים לטבח: שידור ישיר מטקס הזיכרון הלאומי של משפחות 7 באוקטובר",
+     "title": "אלי שרעבי: \"רק אם נזכור באמת, נוכל ללמוד ותקן\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558666",
-     "date": "2026-10-07T19:03:00+00:00"
+     "date": "2026-10-07T20:00:00+00:00"
     }
    ],
    "market": [
     {
      "title": "פרוטוקול הפד: הבנק המרכזי צופה העלאת ריבית נוספת השנה, אך המועד נותר פתוח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558590",
-     "date": "2026-10-07T18:48:00+00:00"
+     "date": "2026-10-07T19:36:00+00:00"
     },
     {
      "title": "הפתרון לחידה מתמטית בת 200 שנה: שתי פריצות הדרך שפורסמו בלילה אחד",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T19:17:21+00:00",
-  "fetched_at": "2026-10-07T19:17:21+00:00"
+  "checked_at": "2026-10-07T20:17:25+00:00",
+  "fetched_at": "2026-10-07T20:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T19:17:22+00:00",
-  "fetched_at": "2026-10-07T19:17:22+00:00"
+  "checked_at": "2026-10-07T20:17:26+00:00",
+  "fetched_at": "2026-10-07T20:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2872,8 +2872,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T19:17:24+00:00",
-  "fetched_at": "2026-10-07T19:17:24+00:00"
+  "checked_at": "2026-10-07T20:17:28+00:00",
+  "fetched_at": "2026-10-07T20:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3049,8 +3049,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T19:17:24+00:00",
-  "fetched_at": "2026-10-07T19:17:24+00:00"
+  "checked_at": "2026-10-07T20:17:28+00:00",
+  "fetched_at": "2026-10-07T20:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -3074,8 +3074,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [],
+   "candidates": 7,
+   "failed_sources": [
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
@@ -3088,14 +3090,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 503,
+     "likes": 505,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 365,
+     "likes": 366,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3127,11 +3129,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
     },
     {
-     "title": "ChessFly",
-     "desc_en": "Just a fruit fly's brain, playing chess",
-     "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 136,
-     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 190,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
@@ -3141,30 +3143,21 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
-     "title": "Omni Video Factory",
-     "desc_en": "text to video, image to video, video extend",
-     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 190,
-     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 136,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T19:17:31+00:00",
-  "fetched_at": "2026-10-07T19:17:31+00:00"
+  "checked_at": "2026-10-07T20:17:32+00:00",
+  "fetched_at": "2026-10-07T20:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "כבוד: מדליית ארד באליפות אירופה בסייף",
-     "link": "https://www.one.co.il/Article/535358.html?ref=rss",
-     "date": "2026-10-07T18:26:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
     {
      "title": "בצוותא עם גורן: הכוכבים הבולטים שנולדו ב-2009",
      "link": "https://www.one.co.il/Article/535287.html?ref=rss",
@@ -3430,8 +3423,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T19:17:26+00:00",
-  "fetched_at": "2026-10-07T19:17:26+00:00"
+  "checked_at": "2026-10-07T20:17:31+00:00",
+  "fetched_at": "2026-10-07T20:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3462,70 +3455,70 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T19:17:27+00:00",
-  "fetched_at": "2026-10-07T19:17:27+00:00"
+  "checked_at": "2026-10-07T20:17:31+00:00",
+  "fetched_at": "2026-10-07T20:17:31+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-07T19:03:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "newest": "2026-10-07T20:04:00+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-07T18:48:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "newest": "2026-10-07T19:36:00+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-07T18:00:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-07T19:07:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-07T18:44:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-07T18:51:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "newest": "2026-10-07T20:03:00+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-07T15:10:27+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3537,16 +3530,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-07T17:06:44+00:00",
-    "seen_at": "2026-10-07T19:17:35+00:00",
+    "seen_at": "2026-10-07T20:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-07T19:17:35+00:00"
+  "checked_at": "2026-10-07T20:17:35+00:00"
  }
 };
