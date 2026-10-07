@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-07T14:17:28+00:00",
-  "fetched_at": "2026-10-07T14:17:28+00:00"
+  "checked_at": "2026-10-07T15:17:12+00:00",
+  "fetched_at": "2026-10-07T15:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T14:17:38+00:00",
-  "fetched_at": "2026-10-07T14:17:38+00:00"
+  "checked_at": "2026-10-07T15:17:21+00:00",
+  "fetched_at": "2026-10-07T15:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -77,34 +77,34 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T14:17:39+00:00",
-  "fetched_at": "2026-10-07T14:17:39+00:00"
+  "checked_at": "2026-10-07T15:17:23+00:00",
+  "fetched_at": "2026-10-07T15:17:23+00:00"
  },
- "generated_at": "2026-10-07T14:17:39+00:00",
+ "generated_at": "2026-10-07T15:17:23+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בורסת ת\"א באדום בוהק: מה עומד מאחורי הירידות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
-     "date": "2026-10-07T13:38:00+00:00"
+     "title": "ההטבה שיקבלו בעלי שכר של 30 אלף שקל ומעלה, והמס שישלמו ההייטקיסטים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558737",
+     "date": "2026-10-07T14:30:00+00:00"
     },
     {
      "title": "אנרכיה בעזה: \"זה כאוס שחמאס מנהל אותו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558666",
-     "date": "2026-10-07T12:28:00+00:00"
+     "date": "2026-10-07T14:54:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "ירידות חדות בת\"א; מניות הביטוח והטכנולוגיה נופלות",
+     "title": "הבורסה ננעלה בירידות חדות; ת\"א 90 בשפל של יותר משנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
-     "date": "2026-10-07T13:38:00+00:00"
+     "date": "2026-10-07T14:43:00+00:00"
     },
     {
-     "title": "פתיחה שלילית בוול סטריט בצל הזינוק בתשואות ובמדד הפחד",
+     "title": "נסיגה בוול סטריט: הדאו ג'ונס יורד בכ-1% בצל הזינוק בתשואות ומחירי הנפט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558590",
-     "date": "2026-10-07T13:37:00+00:00"
+     "date": "2026-10-07T14:05:00+00:00"
     },
     {
      "title": "הערכות: דיסקונט ישלם כמיליון שקל לכל עובד מרכנתיל שיפרוש במיזוג",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T14:17:29+00:00",
-  "fetched_at": "2026-10-07T14:17:29+00:00"
+  "checked_at": "2026-10-07T15:17:13+00:00",
+  "fetched_at": "2026-10-07T15:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T14:17:29+00:00",
-  "fetched_at": "2026-10-07T14:17:29+00:00"
+  "checked_at": "2026-10-07T15:17:14+00:00",
+  "fetched_at": "2026-10-07T15:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2646,8 +2646,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T14:17:30+00:00",
-  "fetched_at": "2026-10-07T14:17:30+00:00"
+  "checked_at": "2026-10-07T15:17:15+00:00",
+  "fetched_at": "2026-10-07T15:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2814,8 +2814,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T14:17:30+00:00",
-  "fetched_at": "2026-10-07T14:17:30+00:00"
+  "checked_at": "2026-10-07T15:17:15+00:00",
+  "fetched_at": "2026-10-07T15:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2830,15 +2830,20 @@
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-claude-startups-api-credits-program/",
-     "date": "2026-10-07T06:17:48+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/atlassian-partnership",
+     "date": "2026-10-06T16:00:00+00:00",
      "launch": false,
-     "title": "קרדיטים, ייעוץ וקצת חינמיים: אנת'רופיק משדרגת את תוכנית הסטארטאפים שלה"
+     "title_en": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+     "title_he": "Atlassian ו-OpenAI מרחיבים את השותפות כדי להפוך את הידע הארגוני לפעולה",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 13,
-   "failed_sources": [],
+   "candidates": 5,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
@@ -2851,14 +2856,14 @@
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 492,
+     "likes": 496,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 362,
+     "likes": 363,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2872,7 +2877,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2886,7 +2891,7 @@
      "title": "JEV-9B — typed decisions",
      "desc_en": "Calibrated typed decisions + System 2 reasoning",
      "desc_he": "החלטות מוקלדות מכוילות + הנמקת מערכת 2",
-     "likes": 82,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
     },
     {
@@ -2900,7 +2905,7 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 189,
+     "likes": 190,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2913,8 +2918,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T14:17:36+00:00",
-  "fetched_at": "2026-10-07T14:17:36+00:00"
+  "checked_at": "2026-10-07T15:17:20+00:00",
+  "fetched_at": "2026-10-07T15:17:20+00:00"
  },
  "abroad": {
   "data": {
@@ -3202,8 +3207,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T14:17:33+00:00",
-  "fetched_at": "2026-10-07T14:17:33+00:00"
+  "checked_at": "2026-10-07T15:17:17+00:00",
+  "fetched_at": "2026-10-07T15:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -3233,60 +3238,59 @@
     "date": "2026-10-06T14:32:15+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-07T14:17:33+00:00",
-  "fetched_at": "2026-10-07T13:17:28+00:00"
+  "ok": true,
+  "checked_at": "2026-10-07T15:17:18+00:00",
+  "fetched_at": "2026-10-07T15:17:18+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-07T13:47:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "newest": "2026-10-07T15:00:00+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-07T13:38:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "newest": "2026-10-07T14:43:00+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-07T13:37:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-07T12:48:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-07T12:35:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-10T20:59:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-07T06:30:32+00:00",
-    "seen_at": "2026-10-07T13:17:37+00:00",
+    "newest": "2026-10-07T15:10:27+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3298,7 +3302,7 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3310,16 +3314,16 @@
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-07T13:03:40+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "newest": "2026-10-07T14:31:47+00:00",
+    "seen_at": "2026-10-07T15:17:23+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-07T14:17:39+00:00"
+  "checked_at": "2026-10-07T15:17:23+00:00"
  }
 }
