@@ -1,0 +1,339 @@
+{
+ "status": "draft",
+ "received_sha256_12": "526dc31aa074",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 4,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-07T06:23:15+00:00",
+  "window": {
+   "from": "2026-10-06T06:23:15+00:00",
+   "to": "2026-10-07T06:23:15+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610070623"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת במתיחות צבאית נמשכת סביב גבול לבנון, הכוללת פעילות אווירית ותקיפות ארטילריות מוגבלות. במקביל, מתנהלים דיונים פוליטיים ואסטרטגיים לגבי עתיד הגבולות, לצד דיווחים ומגעים עקיפים בין סוריה וגורמים אזוריים סביב נוכחות חיזבאללה והסדרת גבולות.",
+  "fronts": [
+   {
+    "name": "החזית הצפונית (לבנון וסוריה)",
+    "status": "פעילה עם אירועי אש נקודתיים ומתיחות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10070623-01",
+    "title": "ירי ארטילרי עוין לעבר אל-מנסורי בדרום לבנון",
+    "summary": "כתב אל-מנאר דיווח על ירי ארטילרי עוין שכוון לעבר אל-מנסורי שבדרום לבנון.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T06:09:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T06:09:55+00:00",
+    "last_update_at": "2026-10-07T06:09:55+00:00",
+    "what_is_not_verified": "זהות היורים והנזק אינם מפורטים מעבר לדיווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_d3633d6b51099ad9",
+      "url": "https://english.almanar.com.lb/article/135202/",
+      "published_at": "2026-10-07T06:09:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10070623-02",
+    "title": "טיסות מטוסי קרב ישראליים בגובה רב בדרום לבנון",
+    "summary": "כתב אל-מנאר דיווח על מטוסי קרב ישראליים הסורקים את שמי דרום לבנון בגובה נמוך.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T18:16:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T18:16:25+00:00",
+    "last_update_at": "2026-10-06T18:16:25+00:00",
+    "what_is_not_verified": "מטרות הטיסות הספציפיות אינן מפורטות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f86e7647a73224cb",
+      "url": "https://english.almanar.com.lb/article/135117/",
+      "published_at": "2026-10-06T18:16:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10070623-03",
+    "title": "פגישות סודיות בין ממשלת סוריה וחיזבאללה בטורקיה",
+    "summary": "דווח על פגישות סודיות בטורקיה בין ממשלת סוריה וחיזבאללה במטרה להפיג מתחים, למרות הכחשות מצד ממשלת סוריה וטורקיה.",
+    "axis": "סוריה וטורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T16:55:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T16:55:34+00:00",
+    "last_update_at": "2026-10-06T16:55:34+00:00",
+    "what_is_not_verified": "עצם קיום הפגישות וההסכמות הוכחשו על ידי ממשלת סוריה ודוברות הנשיאות בטורקיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/syrias-new-rulers-and-hezbollah-unlikely-detente",
+      "published_at": "2026-10-06T16:55:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10070623-04",
+    "title": "כניסת אנשי צוות אוויר ממדינות עוינות לישראל",
+    "summary": "בדיון בוועדת החוץ והביטחון נחשף כי מתחילת השנה נכנסו לישראל למעלה מ-1,200 אנשי צוות אוויר ממדינות ללא יחסים דיפלומטיים, ובהן סוריה ולבנון.",
+    "axis": "ישראל",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T13:37:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T13:37:06+00:00",
+    "last_update_at": "2026-10-06T15:54:01+00:00",
+    "what_is_not_verified": "הפרטים המלאים וההשלכות המדויקות על הביטחון נבדקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956516",
+      "published_at": "2026-10-06T15:54:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48304",
+      "published_at": "2026-10-06T14:05:28+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131460",
+      "published_at": "2026-10-06T13:54:55+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94519",
+      "published_at": "2026-10-06T13:37:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10070623-05",
+    "title": "צירוף נמלי ביירות וטריפולי למועדון נמלי המסדרון הכלכלי",
+    "summary": "נמלי ביירות וטריפולי בלבנון צורפו למועדון נמלי המסדרון הכלכלי בהודו-המזרח התיכון-אירופה במסגרת חתימה בניו דלהי.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T12:38:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T12:38:14+00:00",
+    "last_update_at": "2026-10-06T13:50:00+00:00",
+    "what_is_not_verified": "מידת ההצלחה והיישוב המעשי של שיתוף הפעולה טרם הוכחו בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/961511/imec-ports-club-brings-lebanons-beirut-and-tripoli-ports-into-wider-tr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961511",
+      "published_at": "2026-10-06T13:50:00+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/961515/aoun-says-beirut-and-tripoli-ports-joining-imec-ports-club-is-key-step/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961515",
+      "published_at": "2026-10-06T12:38:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "טריפולי, לבנון",
+      "lat": 34.4374,
+      "lon": 35.8349
+     },
+     {
+      "name": "ניו דלהי, הודו",
+      "lat": 28.6139,
+      "lon": 77.209
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10070623-06",
+    "title": "הצהרת שר האוצר היראל סמוטריץ' על סיפוח בשטחי לבנון",
+    "summary": "שר האוצר הישראלי בצלאל סמוטריץ' קרא להרחיב באופן קבוע את ריבונות ישראל על שטחים המוחזקים בידי כוחות צה\"ל בלבנון וברצועת עזה.",
+    "axis": "ישראל ולבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T23:37:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T23:37:54+00:00",
+    "last_update_at": "2026-10-06T23:37:54+00:00",
+    "what_is_not_verified": "מדובר בהצהרה פוליטית ולא בהחלטה ממשלתית רשמית מבצעית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smotrich-calls-further-annexations-gaza-and-lebanon",
+      "published_at": "2026-10-06T23:37:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירושלים",
+      "lat": 31.7788,
+      "lon": 35.2258
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומם של מפגשים סודיים בין ממשלת סוריה לחיזבאללה בטורקיה",
+   "ההסכמות הנטענות בין סוריה לחיזבאללה לעצירת הברחות ופירוק תאים",
+   "בדיקת כניסת אנשי צוות אוויר מאיראן לישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.048,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת בגבולות הצפון",
+     "הגנת גבולות המדינה והיערכות מול זירות הלחימה השונות"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה",
+     "בחינת אפשרויות להרחבת שליטה ביטחונית בשטחים סמוכים לגבול"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית עצימה במרחב הגבול הצפוני",
+     "החמרת נהלי הפיקוח והביטחון במעברי האוויר והגבולות"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "שימור יכולות הלחימה ומוכנות מול ישראל כחלק מציר ההתנגדות"
+    ],
+    "inferred": [
+     "ניסיון לשמור על עמימות ונסיגה מהסלמה כוללת מול סוריה ולבנון במקביל",
+     "היערכות להתמודדות עם לחצים אזוריים ומקומיים"
+    ],
+    "forecast": [
+     "המשך פעילות חשאית ושימור תשתיות באזורי הגבול",
+     "תגובות נקודתיות לפעילות צה\"ל בלבנון"
+    ]
+   },
+   {
+    "actor": "ממשלת סוריה החדשה",
+    "declared": [
+     "חיזוק הקשרים האזוריים ושמירה על הביטחון והיציבות במדינה"
+    ],
+    "inferred": [
+     "רצון להתרחק מעימות ישיר עם ישראל וצמצום ההשפעה של חיזבאללה בתוך השטח הסורי",
+     "חיפוש שותפויות כלכליות ובינלאומיות לשיקום המדינה"
+    ],
+    "forecast": [
+     "המשך מאמצים למנוע הברחות ופעילות חמושה זרה בשטחה",
+     "הידוק קשרים דיפלומטיים עם מדינות ערב והעולם"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/135117/",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/961515/aoun-says-beirut-and-tripoli-ports-joining-imec-ports-club-is-key-step/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961515",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smotrich-calls-further-annexations-gaza-and-lebanon",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/syrias-new-rulers-and-hezbollah-unlikely-detente",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131460",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48304",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94519",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956516",
+    "accessed_at": "2026-10-07T06:23:15+00:00"
+   }
+  ]
+ }
+}

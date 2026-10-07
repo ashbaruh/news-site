@@ -1128,317 +1128,228 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-06T1225__north-202610061225.json",
+  "draft": "drafts/north/2026-10-07T0623__north-202610070623.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-06T12:25:04+00:00",
+   "generated_at": "2026-10-07T06:23:15+00:00",
    "window": {
-    "from": "2026-10-05T12:25:04+00:00",
-    "to": "2026-10-06T12:25:04+00:00"
+    "from": "2026-10-06T06:23:15+00:00",
+    "to": "2026-10-07T06:23:15+00:00"
    },
    "model": {
-    "name": "claude",
-    "run_id": "north-202610061225"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "north-202610070623"
    },
-   "summary": "הגזרה הצפונית שקטה יחסית היום: אין דיווח על תקיפות ישראליות בלבנון או ירי של חיזבאללה, מלבד ירי מקלעים בפאתי אל-מנסורי. המוקד הוא דרום סוריה, שם צה\"ל ממשיך לפעול במרחב האבטחה ולעבוד על קו \"סופה 53\", ודמשק ומדינות ערב מגנות. בלבנון הממשלה מנסה להרחיב את נוכחות הצבא בדרום, וחיזבאללה מצהיר שפירוקו נכשל.",
+   "summary": "הגזרה הצפונית מתאפיינת במתיחות צבאית נמשכת סביב גבול לבנון, הכוללת פעילות אווירית ותקיפות ארטילריות מוגבלות. במקביל, מתנהלים דיונים פוליטיים ואסטרטגיים לגבי עתיד הגבולות, לצד דיווחים ומגעים עקיפים בין סוריה וגורמים אזוריים סביב נוכחות חיזבאללה והסדרת גבולות.",
    "fronts": [
     {
-     "name": "דרום סוריה וקוניטרה",
-     "status": "פעילות קרקעית ישראלית יומיומית, מעצרים ועבודות הנדסה; גינויים סוריים וערביים."
-    },
-    {
-     "name": "דרום לבנון",
-     "status": "שקט יחסי; ירי מקלעים נקודתי באל-מנסורי."
-    },
-    {
-     "name": "לבנון פנים",
-     "status": "הממשלה מקדמת פריסת צבא בדרום ותרגול עם המערב; חיזבאללה מתנגד לפירוק."
-    },
-    {
-     "name": "רמת הגולן",
-     "status": "אירוע פציעה בשטח חקלאי, נסיבות לא ברורות."
+     "name": "החזית הצפונית (לבנון וסוריה)",
+     "status": "פעילה עם אירועי אש נקודתיים ומתיחות"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10061225-01",
-     "title": "צה\"ל עצר שני חשודים שהתקרבו למוצב בדרום סוריה",
-     "summary": "לפי צה\"ל, כוחות זיהו שני חשודים על אופנוע שהתקרבו למוצב בדרום סוריה, ביצעו נוהל מעצר חשוד שכלל ירי, אחד החשודים נפצע ושניהם נעצרו. בנוסף, חטיבת כרמלי איתרה ונטרלה מטעני נ\"ט ומוקשים ישנים.",
-     "axis": "דרום סוריה",
+     "id": "NORTH-10070623-01",
+     "title": "ירי ארטילרי עוין לעבר אל-מנסורי בדרום לבנון",
+     "summary": "כתב אל-מנאר דיווח על ירי ארטילרי עוין שכוון לעבר אל-מנסורי שבדרום לבנון.",
+     "axis": "לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-05T13:18:00+00:00",
+     "occurred_at": "2026-10-07T06:09:55+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-05T13:18:52+00:00",
-     "last_update_at": "2026-10-05T13:54:26+00:00",
-     "what_is_not_verified": "זהות החשודים ומטרתם לא פורסמו.",
+     "first_reported_at": "2026-10-07T06:09:55+00:00",
+     "last_update_at": "2026-10-07T06:09:55+00:00",
+     "what_is_not_verified": "זהות היורים והנזק אינם מפורטים מעבר לדיווח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25292",
-       "published_at": "2026-10-05T13:42:59+00:00"
-      },
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25291",
-       "published_at": "2026-10-05T13:18:52+00:00"
-      },
-      {
-       "source_id": "src_walla",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.walla.co.il/news/military/383956358",
-       "published_at": "2026-10-05T13:54:26+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061225-02",
-     "title": "כוחות ישראליים נכנסו שוב לדרום קוניטרה",
-     "summary": "כוחות וטנקים ישראליים נכנסו לאזור תל אל-דוריאת שליד הכפר אל-מועלקה בדרום קוניטרה. משרד החוץ הסורי גינה את הפעולות ודרש נסיגה.",
-     "axis": "דרום סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T05:19:46+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T05:19:46+00:00",
-     "last_update_at": "2026-10-06T06:46:23+00:00",
-     "what_is_not_verified": "משך השהייה ומטרת הפעולה לא פורסמו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-raid-in-syria-s-quneitra/4079190",
-       "published_at": "2026-10-06T06:46:23+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-condemns-israeli-attacks-demands-withdrawal-territory",
-       "published_at": "2026-10-06T05:19:46+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061225-03",
-     "title": "סוריה, ירדן וקטאר גינו את עבודות קו \"סופה 53\"",
-     "summary": "סוריה, ירדן וקטאר גינו את חידוש העבודות ההנדסיות של ישראל לאורך קו \"סופה 53\", וטענו שמדובר בהפרה של הסכם הפרדת הכוחות מ-1974.",
-     "axis": "דרום סוריה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T16:51:27+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T16:51:27+00:00",
-     "last_update_at": "2026-10-06T05:19:46+00:00",
-     "what_is_not_verified": "היקף העבודות בשטח לא אומת באופן עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
-       "published_at": "2026-10-05T16:51:27+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-condemns-israeli-attacks-demands-withdrawal-territory",
-       "published_at": "2026-10-06T05:19:46+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061225-04",
-     "title": "דיווח בלבנון: ירי מקלעים ישראלי בפאתי אל-מנסורי",
-     "summary": "סוכנות הידיעות הלבנונית הרשמית דיווחה על ירי מקלעים של צבא ישראל בפאתי הכפר אל-מנסורי בדרום לבנון. לא דווח על נפגעים.",
-     "axis": "דרום לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T05:04:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T05:04:00+00:00",
-     "last_update_at": "2026-10-06T05:04:00+00:00",
-     "what_is_not_verified": "צה\"ל לא הגיב; הסיבה לירי ונפגעים לא ידועים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/latest-news/961483/",
-       "published_at": "2026-10-06T05:04:00+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_d3633d6b51099ad9",
+       "url": "https://english.almanar.com.lb/article/135202/",
+       "published_at": "2026-10-07T06:09:55+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנסורי",
+       "name": "אל-מנסורי, לבנון",
        "lat": 33.1737,
        "lon": 35.2111
       }
      ]
     },
     {
-     "id": "NORTH-10061225-05",
-     "title": "ח\"כ חיזבאללה: הניסיון לפרק את הארגון נכשל",
-     "summary": "חבר הפרלמנט חוסיין אל-חאג' חסן מחיזבאללה אמר שהמהלך לסיום \"ההתנגדות\" ופירוק חיזבאללה לא השיג את מטרותיו.",
-     "axis": "לבנון פנים",
-     "claim_type": "statement",
+     "id": "NORTH-10070623-02",
+     "title": "טיסות מטוסי קרב ישראליים בגובה רב בדרום לבנון",
+     "summary": "כתב אל-מנאר דיווח על מטוסי קרב ישראליים הסורקים את שמי דרום לבנון בגובה נמוך.",
+     "axis": "לבנון",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T05:11:00+00:00",
+     "occurred_at": "2026-10-06T18:16:25+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T18:16:25+00:00",
+     "last_update_at": "2026-10-06T18:16:25+00:00",
+     "what_is_not_verified": "מטרות הטיסות הספציפיות אינן מפורטות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_f86e7647a73224cb",
+       "url": "https://english.almanar.com.lb/article/135117/",
+       "published_at": "2026-10-06T18:16:25+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 39.371,
+       "lon": -84.2128
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10070623-03",
+     "title": "פגישות סודיות בין ממשלת סוריה וחיזבאללה בטורקיה",
+     "summary": "דווח על פגישות סודיות בטורקיה בין ממשלת סוריה וחיזבאללה במטרה להפיג מתחים, למרות הכחשות מצד ממשלת סוריה וטורקיה.",
+     "axis": "סוריה וטורקיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T16:55:34+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T05:11:00+00:00",
-     "last_update_at": "2026-10-06T05:11:00+00:00",
-     "what_is_not_verified": "הצהרה פוליטית; לא ברור מה מצב הנשק של הארגון בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon/961470/",
-       "published_at": "2026-10-06T05:11:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061225-06",
-     "title": "ממשלת לבנון מקדמת הרחבת נוכחות המדינה בדרום",
-     "summary": "אחרי שיחותיו בוושינגטון, ראש הממשלה סלאם מקדם תוכנית להרחבת נוכחות הצבא והמדינה בדרום לבנון. שר הפנים הדגיש את הנושא בפגישה עם הנשיא עון.",
-     "axis": "לבנון פנים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T14:03:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T14:03:00+00:00",
-     "last_update_at": "2026-10-06T04:08:00+00:00",
-     "what_is_not_verified": "לוחות זמנים ותקציב לתוכנית לא פורסמו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/961324/after-washington-talks-salam-turns-to-three-key-files-at-home/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961324",
-       "published_at": "2026-10-05T14:03:00+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon/961468/",
-       "published_at": "2026-10-06T04:08:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061225-07",
-     "title": "צבא לבנון פתח בתרגיל משותף עם בריטניה",
-     "summary": "צבא לבנון פתח בתרגיל \"פגסוס סידר 2026\" עם כוחות בריטיים, בהשתתפות נציגים מארה\"ב ומצרפת.",
-     "axis": "לבנון פנים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T21:38:21+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T21:38:21+00:00",
-     "last_update_at": "2026-10-05T21:38:21+00:00",
-     "what_is_not_verified": "היקף הכוחות לא פורסם.",
+     "first_reported_at": "2026-10-06T16:55:34+00:00",
+     "last_update_at": "2026-10-06T16:55:34+00:00",
+     "what_is_not_verified": "עצם קיום הפגישות וההסכמות הוכחשו על ידי ממשלת סוריה ודוברות הנשיאות בטורקיה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/lebanon-hold-joint-drills-britain",
-       "published_at": "2026-10-05T21:38:21+00:00"
+       "url": "https://www.newarab.com/analysis/syrias-new-rulers-and-hezbollah-unlikely-detente",
+       "published_at": "2026-10-06T16:55:34+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10061225-08",
-     "title": "נערה נפצעה באורח בינוני באירוע בשטח חקלאי ברמת הגולן",
-     "summary": "נערה נפצעה באורח בינוני באירוע בשטח חקלאי ברמת הגולן.",
-     "axis": "רמת הגולן",
-     "claim_type": "incident",
+     "id": "NORTH-10070623-04",
+     "title": "כניסת אנשי צוות אוויר ממדינות עוינות לישראל",
+     "summary": "בדיון בוועדת החוץ והביטחון נחשף כי מתחילת השנה נכנסו לישראל למעלה מ-1,200 אנשי צוות אוויר ממדינות ללא יחסים דיפלומטיים, ובהן סוריה ולבנון.",
+     "axis": "ישראל",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:37:19+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:37:19+00:00",
-     "last_update_at": "2026-10-06T07:37:19+00:00",
-     "what_is_not_verified": "נסיבות האירוע לא פורסמו; לא ידוע אם הוא ביטחוני.",
+     "occurred_at": "2026-10-06T13:37:06+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T13:37:06+00:00",
+     "last_update_at": "2026-10-06T15:54:01+00:00",
+     "what_is_not_verified": "הפרטים המלאים וההשלכות המדויקות על הביטחון נבדקים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_maariv",
+       "source_id": "src_walla",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1374157",
-       "published_at": "2026-10-06T07:37:19+00:00"
+       "url": "https://www.walla.co.il/news/military/383956516",
+       "published_at": "2026-10-06T15:54:01+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48304",
+       "published_at": "2026-10-06T14:05:28+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131460",
+       "published_at": "2026-10-06T13:54:55+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94519",
+       "published_at": "2026-10-06T13:37:06+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10061225-09",
-     "title": "קריאה של השר לשעבר איוב קרא להשתלט על א-סווידא",
-     "summary": "השר לשעבר איוב קרא קרא בפומבי לדרוזים להשתלט על העיר א-סווידא שבדרום סוריה.",
-     "axis": "דרום סוריה",
+     "id": "NORTH-10070623-05",
+     "title": "צירוף נמלי ביירות וטריפולי למועדון נמלי המסדרון הכלכלי",
+     "summary": "נמלי ביירות וטריפולי בלבנון צורפו למועדון נמלי המסדרון הכלכלי בהודו-המזרח התיכון-אירופה במסגרת חתימה בניו דלהי.",
+     "axis": "לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T12:38:14+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T12:38:14+00:00",
+     "last_update_at": "2026-10-06T13:50:00+00:00",
+     "what_is_not_verified": "מידת ההצלחה והיישוב המעשי של שיתוף הפעולה טרם הוכחו בשטח",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/961511/imec-ports-club-brings-lebanons-beirut-and-tripoli-ports-into-wider-tr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961511",
+       "published_at": "2026-10-06T13:50:00+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/961515/aoun-says-beirut-and-tripoli-ports-joining-imec-ports-club-is-key-step/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961515",
+       "published_at": "2026-10-06T12:38:14+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
+      },
+      {
+       "name": "טריפולי, לבנון",
+       "lat": 34.4374,
+       "lon": 35.8349
+      },
+      {
+       "name": "ניו דלהי, הודו",
+       "lat": 28.6139,
+       "lon": 77.209
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10070623-06",
+     "title": "הצהרת שר האוצר היראל סמוטריץ' על סיפוח בשטחי לבנון",
+     "summary": "שר האוצר הישראלי בצלאל סמוטריץ' קרא להרחיב באופן קבוע את ריבונות ישראל על שטחים המוחזקים בידי כוחות צה\"ל בלבנון וברצועת עזה.",
+     "axis": "ישראל ולבנון",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-05T23:48:35+00:00",
+     "occurred_at": "2026-10-06T23:37:54+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-05T23:48:35+00:00",
-     "last_update_at": "2026-10-05T23:48:35+00:00",
-     "what_is_not_verified": "אין סימן לכך שזו עמדה רשמית של ממשלת ישראל.",
+     "first_reported_at": "2026-10-06T23:37:54+00:00",
+     "last_update_at": "2026-10-06T23:37:54+00:00",
+     "what_is_not_verified": "מדובר בהצהרה פוליטית ולא בהחלטה ממשלתית רשמית מבצעית",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-druze-politician-calls-seizing-syrias-sweida",
-       "published_at": "2026-10-05T23:48:35+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smotrich-calls-further-annexations-gaza-and-lebanon",
+       "published_at": "2026-10-06T23:37:54+00:00"
       }
      ],
      "places": [
       {
-       "name": "א-סווידא",
-       "lat": 32.7094,
-       "lon": 36.5687
+       "name": "ירושלים",
+       "lat": 31.7788,
+       "lon": 35.2258
       }
      ]
-    },
-    {
-     "id": "NORTH-10061225-10",
-     "title": "שלושה פיצוצים בתשתיות גז בסוריה בתוך שישה שבועות",
-     "summary": "לפי מרכז עלמא, היו שלושה פיצוצים בצנרת גז בסוריה בתוך כשישה שבועות: בחסכה, בדיר א-זור ובצינור לתחנת הכוח תשרין ליד דמשק.",
-     "axis": "סוריה פנים",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T09:07:47+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-05T09:07:47+00:00",
-     "last_update_at": "2026-10-05T12:25:04+00:00",
-     "what_is_not_verified": "מי עומד מאחורי הפיצוצים.",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_alma",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/three-blasts-in-six-weeks-syrias-energy-infrastructure-faces-a-security-test/",
-       "published_at": "2026-10-05T09:07:47+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "נסיבות פציעת הנערה ברמת הגולן.",
-    "מטרת הכניסה לדרום קוניטרה ומשכה.",
-    "נפגעים מהירי באל-מנסורי.",
-    "האחראים לפיצוצי הגז בסוריה."
+    "קיומם של מפגשים סודיים בין ממשלת סוריה לחיזבאללה בטורקיה",
+    "ההסכמות הנטענות בין סוריה לחיזבאללה לעצירת הברחות ופירוק תאים",
+    "בדיקת כניסת אנשי צוות אוויר מאיראן לישראל"
    ],
    "map": {
     "confidence": "medium",
@@ -1449,170 +1360,127 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0623,
+     "value": 3.048,
      "unit": "ILS",
-     "change_pct": -0.1,
+     "change_pct": -0.47,
      "source_id": "src_ecb",
-     "as_of": "2026-10-05T15:00:00+00:00"
+     "as_of": "2026-10-06T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת חדירות למוצבים בדרום סוריה",
-      "ניטרול אמצעי לחימה באזור"
+      "מניעת התבססות עוינת בגבולות הצפון",
+      "הגנת גבולות המדינה והיערכות מול זירות הלחימה השונות"
      ],
      "inferred": [
-      "ביסוס קו הגנה קבוע לאורך \"סופה 53\"",
-      "לחץ על חיזבאללה בלי להסלים"
+      "שמירה על חופש פעולה מבצעי בלבנון ובסוריה",
+      "בחינת אפשרויות להרחבת שליטה ביטחונית בשטחים סמוכים לגבול"
      ],
      "forecast": [
-      "המשך פעילות קרקעית בקוניטרה והחרפת המחאה הדיפלומטית הסורית"
-     ]
-    },
-    {
-     "actor": "ממשלת לבנון",
-     "declared": [
-      "חיזוק נוכחות המדינה והצבא בדרום"
-     ],
-     "inferred": [
-      "לשמור על ערוץ השיחות עם וושינגטון",
-      "לצמצם עילה לתקיפות ישראליות"
-     ],
-     "forecast": [
-      "פריסה הדרגתית ואיטית בגלל התנגדות חיזבאללה"
+      "המשך פעילות צבאית עצימה במרחב הגבול הצפוני",
+      "החמרת נהלי הפיקוח והביטחון במעברי האוויר והגבולות"
      ]
     },
     {
      "actor": "חיזבאללה",
      "declared": [
-      "התנגדות לפירוק הנשק"
+      "שימור יכולות הלחימה ומוכנות מול ישראל כחלק מציר ההתנגדות"
      ],
      "inferred": [
-      "לשקם יכולות בלי לפתוח באש"
+      "ניסיון לשמור על עמימות ונסיגה מהסלמה כוללת מול סוריה ולבנון במקביל",
+      "היערכות להתמודדות עם לחצים אזוריים ומקומיים"
      ],
      "forecast": [
-      "המשך מתיחות פוליטית בתוך לבנון ולא הסלמה מיידית מול ישראל"
+      "המשך פעילות חשאית ושימור תשתיות באזורי הגבול",
+      "תגובות נקודתיות לפעילות צה\"ל בלבנון"
      ]
     },
     {
-     "actor": "סוריה",
+     "actor": "ממשלת סוריה החדשה",
      "declared": [
-      "דרישה לנסיגה ישראלית ולכיבוד הסכם 1974"
+      "חיזוק הקשרים האזוריים ושמירה על הביטחון והיציבות במדינה"
      ],
      "inferred": [
-      "גיוס תמיכה ערבית ובינלאומית נגד ישראל"
+      "רצון להתרחק מעימות ישיר עם ישראל וצמצום ההשפעה של חיזבאללה בתוך השטח הסורי",
+      "חיפוש שותפויות כלכליות ובינלאומיות לשיקום המדינה"
      ],
      "forecast": [
-      "פנייה נוספת לאו\"ם, בלי עימות צבאי"
+      "המשך מאמצים למנוע הברחות ופעילות חמושה זרה בשטחה",
+      "הידוק קשרים דיפלומטיים עם מדינות ערב והעולם"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_alma",
-     "url": "https://israel-alma.org/three-blasts-in-six-weeks-syrias-energy-infrastructure-faces-a-security-test/",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
-    },
-    {
-     "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-new-raid-in-syria-s-quneitra/4079190",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
-    },
-    {
-     "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/10/syrian-arab-condemnations-as-israel-resumes-work-on-sufa-53-line/",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "source_id": "src_almanar",
+     "url": "https://english.almanar.com.lb/article/135117/",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon/961468/",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1374157",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/961515/aoun-says-beirut-and-tripoli-ports-joining-imec-ports-club-is-key-step/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961515",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-druze-politician-calls-seizing-syrias-sweida",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smotrich-calls-further-annexations-gaza-and-lebanon",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/lebanon-hold-joint-drills-britain",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "url": "https://www.newarab.com/analysis/syrias-new-rulers-and-hezbollah-unlikely-detente",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     },
     {
-     "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25291",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/131460",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48304",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94519",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     },
     {
      "source_id": "src_walla",
-     "url": "https://www.walla.co.il/news/military/383956358",
-     "accessed_at": "2026-10-06T12:25:04+00:00"
+     "url": "https://www.walla.co.il/news/military/383956516",
+     "accessed_at": "2026-10-07T06:23:15+00:00"
     }
    ]
   },
-  "auto": false,
-  "previous_generated_at": "2026-10-06T09:48:02+00:00",
+  "auto": true,
+  "previous_generated_at": "2026-10-06T12:25:04+00:00",
   "changes": {
-   "NORTH-10061225-01": {
-    "kind": "new"
-   },
-   "NORTH-10061225-02": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "תקריות ביטחוניות ופעילות צה\"ל במרחב האבטחה בדרום סוריה",
-    "score": 1.0
-   },
-   "NORTH-10061225-03": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "גינויים נגד פעולות ישראל ועבודות הנדסיות בקו סופה 53 בסוריה",
-    "score": 1.0
-   },
-   "NORTH-10061225-04": {
-    "kind": "new"
-   },
-   "NORTH-10061225-05": {
-    "kind": "new"
-   },
-   "NORTH-10061225-06": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "מהלכים לחיזוק נוכחות שלטון לבנון בדרום המדינה ושיח מול חיזבאללה",
-    "score": 1.0
-   },
-   "NORTH-10061225-07": {
+   "NORTH-10070623-01": {
     "kind": "same",
     "from": "initial",
     "to": "initial",
-    "prev": "פתיחת תרגיל צבאי משותף של צבא לבנון ובריטניה",
-    "score": 1.0
+    "prev": "דיווח בלבנון: ירי מקלעים ישראלי בפאתי אל-מנסורי",
+    "score": 0.817
    },
-   "NORTH-10061225-08": {
+   "NORTH-10070623-02": {
+    "kind": "possible",
+    "prev": "ממשלת לבנון מקדמת הרחבת נוכחות המדינה בדרום",
+    "score": 0.467
+   },
+   "NORTH-10070623-03": {
     "kind": "new"
    },
-   "NORTH-10061225-09": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "קריאה של פוליטיקאי ישראלי להשתלטות על א-סווידא",
-    "score": 1.0
+   "NORTH-10070623-04": {
+    "kind": "new"
    },
-   "NORTH-10061225-10": {
-    "kind": "same",
-    "from": "initial",
-    "to": "assessment",
-    "prev": "פגיעות ופיצוצים חוזרים בתשתיות הגז והאנרגיה בסוריה",
-    "score": 1.0
+   "NORTH-10070623-05": {
+    "kind": "new"
+   },
+   "NORTH-10070623-06": {
+    "kind": "new"
    }
   }
  }
