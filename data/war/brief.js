@@ -1,133 +1,145 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-07T12:00:00+03:00",
- "generated_at": "2026-10-07T08:40:32+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-10-07T18:00:00+03:00",
+ "generated_at": "2026-10-07T15:18:11+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10070840-01",
-     "title": "טענת איראן על נזק למתקני פטרוכימיה ותרופות מתקיפות אמריקניות",
-     "summary": "שגריר איראן בהולנד מסר כי תקיפות צבאיות של ארצות הברית פגעו ביותר ממאה מתקני פטרוכימיה ותרופות במדינה ושיבשו את שרשראות האספקה.",
-     "axis": "איראן - ארה\"ב וישראל",
-     "claim_type": "statement",
+     "id": "IRAN-10071518-01",
+     "title": "עיראק מבקשת מסוריה לסייע בייצוא נפט",
+     "summary": "עיראק פנתה לסוריה בבקשה לסייע בהעברת נפט גולמי באמצעות משאיות אל נמל בניאס במטרה לעקוף את מצרי הורמוז.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T06:15:10+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:15:10+00:00",
-     "last_update_at": "2026-10-07T06:15:10+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק ומידת אמיתות הדיווח על יעדי התקיפה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86285592/Iran-envoy-US-attacks-damaged-111-petrochemical-pharmaceutical",
-       "published_at": "2026-10-07T06:15:10+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10070840-02",
-     "title": "קטר מדווחת על המשך מגעים עקיפים בין ארה\"ב לאיראן",
-     "summary": "גורם במשרד החוץ הקטרי ציין כי המגעים העקיפים והעברת המסרים בין וושינגטון לטהראן נמשכים באמצעות קטר ושותפים אזוריים בניסיון לסיים את העימות.",
-     "axis": "איראן - ארה\"ב וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-07T05:17:23+00:00",
+     "occurred_at": "2026-10-07T14:04:34+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-07T05:17:23+00:00",
-     "last_update_at": "2026-10-07T05:17:23+00:00",
-     "what_is_not_verified": "תוכן השיחות ומידת ההתקדמות הממשית במשא ומתן",
+     "first_reported_at": "2026-10-07T14:04:34+00:00",
+     "last_update_at": "2026-10-07T14:04:34+00:00",
+     "what_is_not_verified": "האם העסקה הושלמה במלואה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-says-us-iran-still-talks-end-war",
-       "published_at": "2026-10-07T05:17:23+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_bloomberg",
+       "url": "https://t.me/alexmehacarmel/48329",
+       "published_at": "2026-10-07T14:04:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בניאס, סוריה",
+       "lat": 35.1851,
+       "lon": 35.9478
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10071518-02",
+     "title": "עליות בתקיפות מכליות במצרי הורמוז",
+     "summary": "מקורות ביטחון ימיים מדווחים כי השבוע נרשם המספר הגבוה ביותר של תקיפות וניסיונות תקיפה נגד מכליות נפט במצרי הורמוז מאז תחילת המלחמה.",
+     "axis": "iran",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T14:46:33+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T14:46:33+00:00",
+     "last_update_at": "2026-10-07T14:46:33+00:00",
+     "what_is_not_verified": "פרטים מלאים על כל אירוע תקיפה פרטני",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/10/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war-sources-say",
+       "published_at": "2026-10-07T14:46:33+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10070840-03",
-     "title": "הצהרת משמרות המהפכה על התרחקות ספינות מלחמה זרות",
-     "summary": "סגן פוליטי במשמרות המהפכה טען כי ספינות מלחמה זרות התרחקו מעל אלף קילומטרים מהמפרץ ואינן מעזות להתקרב למים הטריטוריאליים.",
-     "axis": "איראן - ארה\"ב וישראל",
-     "claim_type": "statement",
+     "id": "IRAN-10071518-03",
+     "title": "הוצאה להורג של עציר מחאה באיראן",
+     "summary": "עיראז ספאהי, אדם בן עשרים וחמש שנעצר בעקבות מחאות ינואר באיראן, הוצא להורג בתלייה בעיר אספהאן.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T06:43:54+00:00",
+     "occurred_at": "2026-10-07T14:30:23+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:43:54+00:00",
-     "last_update_at": "2026-10-07T06:43:54+00:00",
-     "what_is_not_verified": "אמיתות המיקום והתנועות של כלי השיט הזרים",
+     "first_reported_at": "2026-10-07T14:30:23+00:00",
+     "last_update_at": "2026-10-07T14:30:23+00:00",
+     "what_is_not_verified": "לא מצוין בטקסט",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-official-says-foreign-warships-withdrew-over-1000km-away-gulf",
-       "published_at": "2026-10-07T06:43:54+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_al_monitor",
+       "url": "https://www.al-monitor.com/originals/2026/10/spared-married-hanged-last-weeks-iranian-protester-alireza-sepahi",
+       "published_at": "2026-10-07T14:30:23+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "אספהאן, איראן",
+       "lat": 32.6708,
+       "lon": 51.665
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10070840-01",
-     "title": "ירי ארטילרי לעבר דרום לבנון",
-     "summary": "כתב רשת אל-מנאר דיווח על ירי ארטילרי שפגע באזור אל-מנצורי בדרום לבנון.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "incident",
+     "id": "NORTH-10071518-01",
+     "title": "עיראק בוחנת ייצוא נפט דרך סוריה",
+     "summary": "ראש חברת הנפט של סוריה ציין כי משלוחי משאיות הנפט דרך נמל בניאס עשויים להתחיל באמצע אוקטובר לעקיפת מצרי הורמוז.",
+     "axis": "north",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T06:09:55+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:09:55+00:00",
-     "last_update_at": "2026-10-07T06:09:55+00:00",
-     "what_is_not_verified": "פרטי הנפגעים או הנזק כתוצאה מהירי",
+     "occurred_at": "2026-10-07T13:44:48+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T13:44:48+00:00",
+     "last_update_at": "2026-10-07T13:44:48+00:00",
+     "what_is_not_verified": "המועד המדויק של תחילת תנועת המשאיות בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_d3633d6b51099ad9",
-       "url": "https://english.almanar.com.lb/article/135202/",
-       "published_at": "2026-10-07T06:09:55+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "or_anadolu_agency",
+       "url": "https://www.aa.com.tr/en/middle-east/iraq-looks-to-syrian-route-for-crude-exports-to-bypass-hormuz-report/4081128",
+       "published_at": "2026-10-07T13:44:48+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "בניאס, סוריה",
+       "lat": 35.1851,
+       "lon": 35.9478
       }
      ]
     },
     {
-     "id": "NORTH-10070840-02",
-     "title": "הודעת חיזבאללה לציון אירועי 7 באוקטובר",
-     "summary": "ארגון חיזבאללה פרסם הודעה שבה שיבח את עמידת הפלסטינים וטען כי המערכה חשפה את פניה של ישראל והמערב.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "statement",
+     "id": "NORTH-10071518-02",
+     "title": "שינויים בחוק הגיוס של כוחות הגיוס העממי בעיראק",
+     "summary": "מקורות מדווחים כי עיראק נערכת להגיש לפרלמנט נוססה מעודכנת לחוק כוחות הגיוס העממי במטרה לצמצם את סמכויות הארגון.",
+     "axis": "north",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T06:33:22+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:33:22+00:00",
-     "last_update_at": "2026-10-07T06:33:22+00:00",
-     "what_is_not_verified": "הטענות האידאולוגיות המופיעות בהצהרה",
+     "occurred_at": "2026-10-07T12:32:01+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T12:32:01+00:00",
+     "last_update_at": "2026-10-07T12:32:01+00:00",
+     "what_is_not_verified": "אישור סופי של החוק בפרלמנט",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/135222/",
-       "published_at": "2026-10-07T06:33:22+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_the_new_arab",
+       "url": "https://www.newarab.com/news/exclusive-iraq-revises-pmf-law-curb-powers-after-us-pressure",
+       "published_at": "2026-10-07T12:32:01+00:00"
       }
      ],
      "places": []
@@ -137,116 +149,70 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10070840-01",
-     "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על אוקראינה",
-     "summary": "רוסיה שיגרה גל תקיפות לילי שפגע במבני מגורים ותשתיות בערים שונות וגבה את חייהם של 11 בני אדם ועשרות פצועים.",
-     "axis": "רוסיה - אוקראינה",
+     "id": "UKRAINE-10071518-01",
+     "title": "שריפה גדולה במתקן נפט רוסי במחוז סמרה",
+     "summary": "מערכת ניטור שריפות המבוססת על נתוני לווין של נאסא זיהתה מוקדי אש מרובים ושריפה גדולה במתקן נפט רוסי.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T06:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:45:00+00:00",
-     "last_update_at": "2026-10-07T08:32:43+00:00",
-     "what_is_not_verified": "מספר הנפגעים הכולל וההבדלים בדיווחים בין המחוזות השונים",
+     "occurred_at": "2026-10-07T15:10:50+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T15:10:50+00:00",
+     "last_update_at": "2026-10-07T15:10:50+00:00",
+     "what_is_not_verified": "גורם השריפה המדויק והיקף הנזק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates",
-       "published_at": "2026-10-07T08:32:43+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/07/8056842/",
-       "published_at": "2026-10-07T07:36:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/07/8056825/",
-       "published_at": "2026-10-07T06:45:00+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_d456b45cb6216caa",
+       "url": "https://kyivindependent.com/huge-blaze-breaks-out-at-russian-oil-facility-in-samara-oblast/",
+       "published_at": "2026-10-07T15:10:50+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "פרילוקי, אוקראינה",
-       "lat": 50.5951,
-       "lon": 32.3867
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "קרמנצ'וק, אוקראינה",
-       "lat": 49.0929,
-       "lon": 33.4308
-      }
-     ]
+     "places": []
     },
     {
-     "id": "UKRAINE-10070840-02",
-     "title": "פגיעות ונזקים למבנים ומחסנים בקייב",
-     "summary": "רסיסים וטילים גרמו להרס מחסן מרכזי של רשת חלפים, נזק לאולפני קולנוע ושריפה במוסכים שבה נהרגו שני בני אדם.",
-     "axis": "רוסיה - אוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-10071518-02",
+     "title": "תשלומי חוב חיצוני של אוקראינה בספטמבר",
+     "summary": "הבנק הלאומי של אוקראינה דיווח כי המדינה שילמה ארבע מאות וחמישים מיליון דולר על חובותיה במהלך חודש ספטמבר.",
+     "axis": "ukraine",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "occurred_at": "2026-10-07T15:08:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-07T06:38:00+00:00",
-     "last_update_at": "2026-10-07T08:02:00+00:00",
-     "what_is_not_verified": "מידת הפגיעה הכוללת בכלל רובעי העיר",
+     "first_reported_at": "2026-10-07T15:08:00+00:00",
+     "last_update_at": "2026-10-07T15:08:00+00:00",
+     "what_is_not_verified": "לא מצוין בטקסט",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_079716cc0adb1a21",
+       "url": "https://tass.com/world/2198907",
+       "published_at": "2026-10-07T15:08:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10071518-03",
+     "title": "הונגריה מאשרת פתיחת אשכולות משא ומתן עם האיחוד האירופי",
+     "summary": "הונגריה נתנה את אישורה לפתיחת אשכולות משא ומתן מספר שנים ושלוש בנוגע לצירופה של אוקראינה לאיחוד האירופי.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T15:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-07T15:00:00+00:00",
+     "last_update_at": "2026-10-07T15:00:00+00:00",
+     "what_is_not_verified": "לוח הזמנים המדויק להמשך התהליך",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_bbb5a6ae1d98d772",
-       "url": "https://www.ukrinform.net/rubric-ato/4171824-dovzhenko-film-studio-in-kyiv-damaged-again-in-russian-attack.html",
-       "published_at": "2026-10-07T08:02:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_bbb5a6ae1d98d772",
-       "url": "https://meduza.io/en/news/2026/10/07/russian-missile-and-drone-strikes-across-ukraine-kill-six-and-injure-more-than-20",
-       "published_at": "2026-10-07T07:21:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_bbb5a6ae1d98d772",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/07/8056834/",
-       "published_at": "2026-10-07T06:38:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10070840-03",
-     "title": "האיחוד האירופי צפוי לאשר חבילת סנקציות נרחבת נגד רוסיה",
-     "summary": "שגרירי מדינות האיחוד האירופי עתידים לאשר עיצומים על כ-1,650 אישים וישויות, בעיקר כאלה הקשורים לתעשייה הצבאית הרוסית.",
-     "axis": "רוסיה - אוקראינה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T07:30:00+00:00",
-     "last_update_at": "2026-10-07T07:30:00+00:00",
-     "what_is_not_verified": "אישורם הסופי והרשמי של כלל השמות ברשימה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/07/8056840/",
-       "published_at": "2026-10-07T07:30:00+00:00"
+       "source_root_id": "or_ukrinform",
+       "url": "https://www.ukrinform.net/rubric-polytics/4172018-hungary-greenlights-opening-of-eu-accession-negotiation-clusters-2-and-3-sybiha.html",
+       "published_at": "2026-10-07T15:00:00+00:00"
       }
      ],
      "places": []
@@ -256,118 +222,59 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10070840-01",
-     "title": "תקיפת החות'ים על נמל התעופה הבינלאומי בעדן",
-     "summary": "החות'ים שיגרו טילים בליסטיים וכטב\"מים לעבר שדה התעופה בעדן, ואחד הטילים פגע במסלול ההמראה.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
+     "id": "YEMEN-10071518-01",
+     "title": "עקירת אזרחים עקב הלחימה בתימן",
+     "summary": "סוכנות ההגירה של האו\"ם דיווחה כי יותר ממאתיים אלף בני אדם נעקרו מבתיהם בתימן בעקבות חידוש העימותים בין החות'ים לכוחות הממשלה.",
+     "axis": "yemen",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T02:13:40+00:00",
-     "last_update_at": "2026-10-07T08:22:01+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והשבתת פעילות הנמל",
+     "occurred_at": "2026-10-07T13:06:16+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T13:06:16+00:00",
+     "last_update_at": "2026-10-07T13:06:16+00:00",
+     "what_is_not_verified": "נתונים מדויקים על כל אתרי הקליטה של העקורות",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-claim-new-attacks-saudi-arabia-yemens-aden-airport",
-       "published_at": "2026-10-07T08:22:01+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh?traffic_source=rss",
-       "published_at": "2026-10-07T06:41:11+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153601",
-       "published_at": "2026-10-07T02:13:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "נמל התעופה הבינלאומי עדן, תימן",
-       "lat": 12.8295,
-       "lon": 45.0316
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10070840-02",
-     "title": "יירוט טיל בליסטי חות'י מצפון לריאד",
-     "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה טיל בליסטי ששוגר על ידי החות'ים מצפון לבירה ריאד.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T02:08:13+00:00",
-     "last_update_at": "2026-10-07T02:31:11+00:00",
-     "what_is_not_verified": "נזק כתוצאה מנפילת שברי היירוט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/153602",
-       "published_at": "2026-10-07T02:31:11+00:00"
-      },
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missile-north-riyadh",
-       "published_at": "2026-10-07T02:08:13+00:00"
+       "source_root_id": "or_international_organization_for_migration",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/more-200000-people-displaced-yemen-fighting-un-agency",
+       "published_at": "2026-10-07T13:06:16+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10071518-02",
+     "title": "תקיפות של החות'ים על יעדים בתימן ובסעודיה",
+     "summary": "משרד התחבורה בתימן ומקורות נוספים דיווחו כי החות'ים תקפו את נמל התעופה בעדן וכן כוונו מתקפות לעבר שדה תעופה בסעודיה באמצעות טילים ומל\"טים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T09:56:31+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T09:56:31+00:00",
+     "last_update_at": "2026-10-07T09:56:31+00:00",
+     "what_is_not_verified": "היקף הנזק המלא בכל אחד מהיעדים שהותקפו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_gcaptain",
+       "source_root_id": "or_yemen_transport_ministry",
+       "url": "https://gcaptain.com/houthis-attack-aden-airport-as-fighting-intensifies-in-yemen/",
+       "published_at": "2026-10-07T09:56:31+00:00"
       }
      ],
      "places": [
+      {
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
+      },
       {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10070840-03",
-     "title": "טענת החות'ים לתקיפות של שדות תעופה ובסיס צבאי בסעודיה",
-     "summary": "החות'ים טענו ששיגרו כטב\"מים וטילים לעבר נמל התעופה המלך ח'אלד בריאד, נמל התעופה באבהא ובסיס חיל אוויר בסעודיה.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-07T05:03:15+00:00",
-     "last_update_at": "2026-10-07T08:22:01+00:00",
-     "what_is_not_verified": "אימות התקיפות על ידי הרשויות בסעודיה למעט הטיל שיורט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-claim-new-attacks-saudi-arabia-yemens-aden-airport",
-       "published_at": "2026-10-07T08:22:01+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-attacks-saudi-airports",
-       "published_at": "2026-10-07T05:03:15+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "נמל התעופה הבינלאומי המלך ח'אלד, סעודיה",
-       "lat": 24.9586,
-       "lon": 46.711
-      },
-      {
-       "name": "נמל התעופה הבינלאומי אבהא, סעודיה",
-       "lat": 18.2417,
-       "lon": 42.6538
       }
      ]
     }
