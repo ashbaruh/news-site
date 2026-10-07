@@ -1,0 +1,308 @@
+{
+ "status": "draft",
+ "received_sha256_12": "915583a2fb88",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-07T02:52:30+00:00",
+  "window": {
+   "from": "2026-10-06T02:52:30+00:00",
+   "to": "2026-10-07T02:52:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610070252"
+  },
+  "summary": "הלחימה בתימן מתנהלת בין החות'ים לבין הכוחות הממשלתיים הנתמכים בידי סעודיה, לצד התקפות חוזרות ונשנות של החות'ים לעבר שדות תעופה ויעדים בתוך סעודיה. במקביל למתקפות נגד באזורי החוף וסביב מצר באב אל-מנדב, הרחיבו סעודיה, טורקיה ופקיסטן את שיתוף הפעולה הביטחוני ביניהן לבלימת איומים אזוריים.",
+  "fronts": [
+   {
+    "name": "חזית הים האדום ומצר באב אל-מנדב",
+    "status": "פעילה עם מתקפות נגד והתקדמות כוחות ממשלתיים"
+   },
+   {
+    "name": "חזית תעז",
+    "status": "לחימה קרקעית עצימה והפצצות"
+   },
+   {
+    "name": "הזרועות האוויריות לשטח סעודיה",
+    "status": "ירוטי טילים וכטב\"מים סעודיים מול שיגורים חות'יים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10070252-01",
+    "title": "ירי טילים לעבר נמל התעופה בעדן",
+    "summary": "שגור טילים לעבר נמל התעופה הבינלאומי בעדן ללא נפגעים",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T01:24:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T01:24:50+00:00",
+    "last_update_at": "2026-10-07T02:46:40+00:00",
+    "what_is_not_verified": "האחריות המדויקת של הירי והנזק אינם מאומתים באופן עצמאי לחלוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_f1000aae2574b5be",
+      "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+      "published_at": "2026-10-07T02:46:40+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_f1000aae2574b5be",
+      "url": "https://www.sabanew.net/viewstory/153601",
+      "published_at": "2026-10-07T02:13:40+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_f1000aae2574b5be",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/two-houthi-missiles-target-yemens-aden-international-airport?traffic_source=rss",
+      "published_at": "2026-10-07T01:59:15+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_f1000aae2574b5be",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies",
+      "published_at": "2026-10-07T01:46:28+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f1000aae2574b5be",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/aden-official-says-houthi-missiles-targeted-yemens-aden-airport",
+      "published_at": "2026-10-07T01:24:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי בעדן, תימן",
+      "lat": 12.8295,
+      "lon": 45.0316
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10070252-02",
+    "title": "ירוט טיל בליסטי צפונית לריאד",
+    "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה טיל בליסטי ששוגר לעבר צפון ריאד",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T02:08:13+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T02:08:13+00:00",
+    "last_update_at": "2026-10-07T02:31:11+00:00",
+    "what_is_not_verified": "פרטים מלאים על נזק קרקעי אינם מפורטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_a48e03e582b8cc91",
+      "url": "https://www.sabanew.net/viewstory/153602",
+      "published_at": "2026-10-07T02:31:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a48e03e582b8cc91",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missile-north-riyadh",
+      "published_at": "2026-10-07T02:08:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10070252-03",
+    "title": "פגיעה באזרחים בעיר תעז",
+    "summary": "פגזי ארטילריה פגעו בשכונות מגורים במרכז העיר תעז וגרמו לפצועים בקרב אזרחים",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T02:09:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T02:09:14+00:00",
+    "last_update_at": "2026-10-07T02:09:14+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור חיצוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_3cae58526e03561c",
+      "url": "https://www.sabanew.net/viewstory/153600",
+      "published_at": "2026-10-07T02:09:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10070252-04",
+    "title": "תקיפות אוויריות במחוזות אִיב ותעז",
+    "summary": "מטוסי סעודיה הפציצו אזורים במחוזות אִיב ותעז",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:25:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T00:25:08+00:00",
+    "last_update_at": "2026-10-07T00:25:08+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_houthi_associated_media",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/strikes-reported-yemens-ibb-taiz",
+      "published_at": "2026-10-07T00:25:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אִיב, תימן",
+      "lat": 13.9702,
+      "lon": 44.1779
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10070252-05",
+    "title": "יירוט טיל בליסטי בחמיס מושייט",
+    "summary": "הקואליציה בהובלת סעודיה יירטה טיל בליסטי ששוגר לעבר העיר חמיס מושייט",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T16:07:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-06T16:07:45+00:00",
+    "last_update_at": "2026-10-06T22:04:05+00:00",
+    "what_is_not_verified": "מקור השיגור המדויק מעבר לדיווחים הכלליים על צנעא, סעדה ועמראן אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_03c8ce45f49b06ae",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile",
+      "published_at": "2026-10-06T22:04:05+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_03c8ce45f49b06ae",
+      "url": "https://www.sabanew.net/viewstory/153579",
+      "published_at": "2026-10-06T16:07:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות הצדדים על שליטה מוחלטת בכל שטח כבוש או משוחרר",
+   "מספר הנפגעים המדויק בתקיפות השונות בתימן ובסעודיה",
+   "היקף התמיכה המעשית המדויקת של טורקיה ופקיסטן במסגרת ברית מכה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.048,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "שליטה באזורים אסטרטגיים בתימן",
+     "תקיפת יעדים ויעדי תעופה בסעודיה"
+    ],
+    "inferred": [
+     "ערעור יציבות הממשלה המוכרת ופגיעה באינטרסים סעודיים",
+     "שימור אחיזה בנתיבי הים האדום"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר סעודיה ותשתיות בתימן",
+     "התמודדות עם מתקפות הנגד של הקואליציה"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה והממשלה המוכרת בתימן",
+    "declared": [
+     "החזרת מוסדות המדינה וסיום ההפיכה של החות'ים",
+     "הגנה על שטחי סעודיה ונתיבי השיט הבינלאומיים"
+    ],
+    "inferred": [
+     "דחיקת החות'ים מאזורים חיוניים כמו מצר באב אל-מנדב",
+     "הידוק שיתוף הפעולה האזורי במסגרת ברית מכה"
+    ],
+    "forecast": [
+     "הגברת הפעילות ההתקפית בשטח תימן",
+     "הפעלת מנגנוני הגנה משותפים עם בעלות ברית חדשות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/two-houthi-missiles-target-yemens-aden-international-airport?traffic_source=rss",
+    "accessed_at": "2026-10-07T02:52:30+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies",
+    "accessed_at": "2026-10-07T02:52:30+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+    "accessed_at": "2026-10-07T02:52:30+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile",
+    "accessed_at": "2026-10-07T02:52:30+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153579",
+    "accessed_at": "2026-10-07T02:52:30+00:00"
+   }
+  ]
+ }
+}

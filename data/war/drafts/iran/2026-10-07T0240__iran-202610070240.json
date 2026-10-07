@@ -1,0 +1,269 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1a67d6ef362a",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 2,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-07T02:40:34+00:00",
+  "window": {
+   "from": "2026-10-06T02:40:34+00:00",
+   "to": "2026-10-07T02:40:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610070240"
+  },
+  "summary": "העימות המתמשך בין איראן לבין ארה\"ב וישראל נמשך בשטח, במקביל למגעים דיפלומטיים תקועים וחילופי איומים והצהרות חריפות. ארה\"ב דורשת צמצום משמעותי ביכולות העשרת האורניום של טהרן כדי לסיים את העימות, בעוד שבאיראן נמשכת הפעילות לשיקום מתקנים שנפגעו והידוק הפיקוח הפנימי. בגזרת השלוחים, נרשמת פעילות מוגברת של החות'ים בתימן והתמודדות של עיראק עם נוכחות המיליציות הפרו-איראניות לאחר נסיגת ארה\"ב.",
+  "fronts": [
+   {
+    "name": "החזית האיראנית-אמריקאית ישירה",
+    "status": "פעיל עם מתיחות צבאית וכלכלית"
+   },
+   {
+    "name": "חזית איראן-ישראל והגרעין",
+    "status": "פעיל הכולל מאמצי שיקום מתקנים ותקיפות קודמות"
+   },
+   {
+    "name": "זירת השלוחים והמפרץ",
+    "status": "פעיל (עיראק, תימן ופעילות נגד יעדים ישראליים/מערביים בחו\"ל)"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10070240-01",
+    "title": "פגיעה באתרים פטרוכימיים ופרמצבטיים באיראן",
+    "summary": "נציג איראן בארגון למניעת הפצת נשק כימי טוען כי מתקפות של ארצות הברית פגעו במאות אתרים פטרוכימיים ופרמצבטיים במדינה.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:53:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T00:53:57+00:00",
+    "last_update_at": "2026-10-07T00:53:57+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק והאחריות של ארה\"ב אינם מאומתים ממקור ראשון או בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-more-100-petrochemical-and-pharmaceutical-sites-damaged-us",
+      "published_at": "2026-10-07T00:53:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10070240-02",
+    "title": "שיקום מתחם גרעיני באיראן",
+    "summary": "צילומי לוויין ודו\"ח של מכון מחקר אמריקאי מצביעים על פעילות של פינוי פסולת ותיקון נזקים במתחם הגרעיני במין-זדאא'י שהותקף בעבר.",
+    "axis": "ציר איראן-ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T19:45:10+00:00",
+    "last_update_at": "2026-10-06T21:29:48+00:00",
+    "what_is_not_verified": "המטרה המדויקת של הפעילות באתר אינה מאומתת רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_3cbb59659ac9ef96",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21568679",
+      "published_at": "2026-10-06T21:29:48+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_516e3add6ace969a",
+      "url": "https://www.al-monitor.com/originals/2026/10/satellite-images-could-indicate-return-activity-iranian-compound-report",
+      "published_at": "2026-10-06T20:11:52+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_7ce7ed6ba4cfce08",
+      "url": "https://www.ynet.co.il/news/article/rjwuf6gjgl",
+      "published_at": "2026-10-06T19:45:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10070240-03",
+    "title": "העמדה לדין של אזרחים איראנים בלונדון",
+    "summary": "שלושה אזרחים איראנים עומדים למשפט בלונדון בחשד לריגול ותכנון מתקפה אלימה נגד עיתונאים וגורמים נוספים.",
+    "axis": "ציר איראן-המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T20:53:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T20:53:17+00:00",
+    "last_update_at": "2026-10-06T20:53:17+00:00",
+    "what_is_not_verified": "אשמתם של הנאשמים טרם הוכחה בבית המשפט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48316",
+      "published_at": "2026-10-06T20:53:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10070240-04",
+    "title": "התנהלות סביב המיליציות והשחתת דגל ארה\"ב בעיראק",
+    "summary": "לאחר נסיגת הכוחות האמריקאיים מעיראק, תועדו חברי מיליציות השיעיות דורכים על דגל ארה\"ב, מה שעורר גינויים ומעצרים מצד הרשויות בעיראק.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-06T20:10:49+00:00",
+    "last_update_at": "2026-10-06T20:24:14+00:00",
+    "what_is_not_verified": "מידת השליטה המלאה של ממשלת עיראק על פירוק המיליציות מנשקן עד מועד היעד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_dfd20bea4caa24d6",
+      "url": "https://www.fdd.org/analysis/2026/10/06/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era/",
+      "published_at": "2026-10-06T20:24:14+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "fh_dfd20bea4caa24d6",
+      "url": "https://www.longwarjournal.org/archives/2026/10/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era.php",
+      "published_at": "2026-10-06T20:10:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות איראן על פגיעה מדויקת ביותר מ-100 אתרים פטרוכימיים ופרמצבטיים על ידי ארה\"ב",
+   "ההערכות המדויקות לגבי זהות הגורמים המנהלים בפועל את מערכת קבלת ההחלטות בטהרן",
+   "האם איראן בודקת כניסת אנשי צוות אוויר ממדינות שאין לה קשרים דיפלומטיים איתן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.048,
+    "unit": "ILS",
+    "change_pct": -0.47,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשך שיתוף פעולה ודיאלוג עם השכנים באזור",
+     "הצגת חוסן כלכלי ויכולת לספק מטבע חוץ בשוק"
+    ],
+    "inferred": [
+     "שיקום תשתיות הגרעין והנשק שנפגעו בתקיפות",
+     "שימור רשת השלוחים האזוריים להפעלת לחץ על ארה\"ב וישראל"
+    ],
+    "forecast": [
+     "המשך המתיחות מול המערב והתחמקות מדרישות להגבלת תוכנית הגרעין",
+     "הדגשת הישרדות המשטר למרות הלחץ הכלכלי והצבאי"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "דרישה מאיראן לבצע הפחתה משמעותית ביכולת ההעשרה הגרעינית לסיום העימות",
+     "הגנה על תשתיות הבחירות ומניעת התערבות זרה"
+    ],
+    "inferred": [
+     "המשך לחץ צבאי וכלכלי הדוק במטרה לערער את המשטר בטהרן",
+     "פיקוח על נסיגת כוחות ומניעת התבססות מיליציות באזור (כגון בעיראק)"
+    ],
+    "forecast": [
+     "שמירה על סנקציות כלכליות נוקשות כלפי איראן",
+     "המשך תמיכה בבעלות ברית אזוריות מול שלוחיה של איראן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "אזהרות חמורות מפני ניסיונות פיגוע של איראן ושלוחיה נגד יעדים ישראליים ויהודיים בחו\"ל לקראת יום השנה ל-7 באוקטובר"
+    ],
+    "inferred": [
+     "מעקב מודיעיני הדוק אחר מאמצי השיקום של אתרי הגרעין באיראן",
+     "היערכות ביטחונית גבוהה מפני מתקפות טרור או תגמול מצד ציר ההתנגדות"
+    ],
+    "forecast": [
+     "הגברת ערנות ואבטחת נציגויות וישראלים בחו\"ל",
+     "שמירת חופש פעולה מול התבססות איראנית ושלוחיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/satellite-images-could-indicate-return-activity-iranian-compound-report",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/2026/10/06/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era/",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21568679",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era.php",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-more-100-petrochemical-and-pharmaceutical-sites-damaged-us",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48316",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rjwuf6gjgl",
+    "accessed_at": "2026-10-07T02:40:34+00:00"
+   }
+  ]
+ }
+}
