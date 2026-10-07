@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-07T10:17:27+00:00",
-  "fetched_at": "2026-10-07T10:17:27+00:00"
+  "checked_at": "2026-10-07T11:17:20+00:00",
+  "fetched_at": "2026-10-07T11:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T10:17:39+00:00",
-  "fetched_at": "2026-10-07T10:17:39+00:00"
+  "checked_at": "2026-10-07T11:17:33+00:00",
+  "fetched_at": "2026-10-07T11:17:33+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "There's only one TV better than my beloved Bravia 8 II, and it just hit its lowest-ever price",
+    "title_he": "יש רק טלוויזיה אחת טובה יותר מ-Bravia 8 II האהובה שלי, והיא פשוט הגיעה למחיר הנמוך ביותר אי פעם",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/theres-only-one-tv-better-than-my-beloved-bravia-8-ii-and-it-just-hit-its-lowest-ever-price",
+    "date": "2026-10-07T10:18:16+00:00"
+   },
    {
     "title_en": "Magico's A3 2027 refines every part of the original A3 speaker, with a new cabinet, drivers and crossover – but costs over twice as much",
     "title_he": "ה-A3 2027 של Magico משכלל כל חלק ברמקול A3 המקורי, עם ארון חדש, דרייברים וקרוסאובר - אבל עולה פי שניים יותר",
@@ -67,27 +74,20 @@
     "translated_by": null,
     "link": "https://www.whathifi.com/tv-home-cinema/surround-sound-systems/wharfedale-diamond-12-1i-hcp",
     "date": "2026-10-06T12:31:43+00:00"
-   },
-   {
-    "title_en": "Victrola wants to “take the fear away” for a new generation of vinyl listeners",
-    "title_he": "Victrola רוצה \"להסיר את הפחד\" עבור דור חדש של מאזיני ויניל",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/turntables/victrola-wants-to-take-the-fear-away-for-a-new-generation-of-vinyl-listeners",
-    "date": "2026-10-06T12:26:45+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T10:17:41+00:00",
-  "fetched_at": "2026-10-07T10:17:41+00:00"
+  "checked_at": "2026-10-07T11:17:37+00:00",
+  "fetched_at": "2026-10-07T11:17:37+00:00"
  },
- "generated_at": "2026-10-07T10:17:41+00:00",
+ "generated_at": "2026-10-07T11:17:37+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שמעון אלקבץ על מחלוקת הריסת הבתים בעוטף: \"נאבקים שהעדות תישמר\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558593",
-     "date": "2026-10-07T09:08:00+00:00"
+     "title": "הירידות בת\"א מתחזקות; מניות הביטוח והטכנולוגיה נופלות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
+     "date": "2026-10-07T11:07:00+00:00"
     },
     {
      "title": "סגן נשיא ארה\"ב חשף את התנאי לסיום המלחמה: \"איראן חייבת לצמצם משמעותית את יכולות ההעשרה\"",
@@ -97,12 +97,17 @@
    ],
    "market": [
     {
-     "title": "הירידות בת\"א מתחזקות; קמטק צונחת ביותר מ-7%",
+     "title": "הירידות בת\"א מתחזקות; מניות הביטוח והטכנולוגיה נופלות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
-     "date": "2026-10-07T09:53:00+00:00"
+     "date": "2026-10-07T11:07:00+00:00"
     },
     {
-     "title": "לא מצדיקה את הבאזז? איילון מגייסת במרץ אך שוב מתקשה לבלוט בתשואות",
+     "title": "מערכות ההגנה יקרסו? הסכנה לארה\"ב בחידוש המלחמה עם איראן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558688",
+     "date": "2026-10-07T10:07:00+00:00"
+    },
+    {
+     "title": "השחקנית החדשה בתחום הגמל מתקשה לבלוט בתשואות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558691",
      "date": "2026-10-07T09:51:00+00:00"
     },
@@ -215,17 +220,12 @@
      "title": "סטפק: \"צעירים אומרים 'למה לי להשקיע באג\"ח ולקבל 5% בשנה, כשאני יכול לעשות את זה ביום'\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558467",
      "date": "2026-10-05T18:01:00+00:00"
-    },
-    {
-     "title": "הפרדוקס של שוק הנפט: היצוא מהורמוז חזר לשגרה, אך המחירים ממשיכים לטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558480",
-     "date": "2026-10-05T14:56:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T10:17:28+00:00",
-  "fetched_at": "2026-10-07T10:17:28+00:00"
+  "checked_at": "2026-10-07T11:17:21+00:00",
+  "fetched_at": "2026-10-07T11:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T10:17:29+00:00",
-  "fetched_at": "2026-10-07T10:17:29+00:00"
+  "checked_at": "2026-10-07T11:17:22+00:00",
+  "fetched_at": "2026-10-07T11:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2646,8 +2646,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T10:17:31+00:00",
-  "fetched_at": "2026-10-07T10:17:31+00:00"
+  "checked_at": "2026-10-07T11:17:24+00:00",
+  "fetched_at": "2026-10-07T11:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2814,8 +2814,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T10:17:31+00:00",
-  "fetched_at": "2026-10-07T10:17:31+00:00"
+  "checked_at": "2026-10-07T11:17:24+00:00",
+  "fetched_at": "2026-10-07T11:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2828,17 +2828,19 @@
      "title": "קרדיטים, ייעוץ וקצת חינמיים: אנת'רופיק משדרגת את תוכנית הסטארטאפים שלה"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-     "date": "2026-10-06T19:57:04+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/atlassian-partnership",
+     "date": "2026-10-06T16:00:00+00:00",
      "launch": false,
-     "title_en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-     "title_he": "EmbeddingGemma 2: דגם הטבעה מולטי-מודאלי פתוח וקל משקל",
-     "translated_by": "google"
+     "title_en": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+     "title_he": "Atlassian ו-OpenAI מרחיבים את השותפות כדי להפוך את הידע הארגוני לפעולה",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 12,
-   "failed_sources": [],
+   "candidates": 11,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
@@ -2865,14 +2867,14 @@
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 104,
+     "likes": 106,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 210,
+     "likes": 211,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2886,21 +2888,21 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 187,
+     "likes": 189,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
      "title": "ChessFly",
      "desc_en": "Just a fruit fly's brain, playing chess",
      "desc_he": "רק מוח של זבוב פירות, משחק שח",
-     "likes": 134,
+     "likes": 135,
      "link": "https://huggingface.co/spaces/mlabonne/chessfly"
     },
     {
      "title": "JEV-9B — typed decisions",
      "desc_en": "Calibrated typed decisions + System 2 reasoning",
      "desc_he": "החלטות מוקלדות מכוילות + הנמקת מערכת 2",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
     },
     {
@@ -2913,8 +2915,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T10:17:39+00:00",
-  "fetched_at": "2026-10-07T10:17:39+00:00"
+  "checked_at": "2026-10-07T11:17:33+00:00",
+  "fetched_at": "2026-10-07T11:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3203,8 +3205,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T10:17:34+00:00",
-  "fetched_at": "2026-10-07T10:17:34+00:00"
+  "checked_at": "2026-10-07T11:17:27+00:00",
+  "fetched_at": "2026-10-07T11:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3234,8 +3236,9 @@
     "date": "2026-10-06T14:32:15+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-07T10:17:35+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-07T11:17:27+00:00",
   "fetched_at": "2026-10-07T10:17:35+00:00"
  },
  "feed_health": {
@@ -3243,44 +3246,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-07T10:07:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T11:07:00+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-07T09:53:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T11:07:00+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-07T09:04:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T10:07:00+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-07T09:48:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-07T10:07:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T10:33:00+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-07T10:00:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T11:13:00+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3298,28 +3301,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-07T10:04:32+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-07T09:44:07+00:00",
-    "seen_at": "2026-10-07T10:17:41+00:00",
+    "newest": "2026-10-07T10:18:16+00:00",
+    "seen_at": "2026-10-07T11:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-07T10:17:41+00:00"
+  "checked_at": "2026-10-07T11:17:37+00:00"
  }
 }
