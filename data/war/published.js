@@ -320,162 +320,243 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-07T0240__iran-202610070240.json",
+  "draft": "drafts/iran/2026-10-07T1731__iran-202610071731.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-07T02:40:34+00:00",
+   "generated_at": "2026-10-07T17:31:50+00:00",
    "window": {
-    "from": "2026-10-06T02:40:34+00:00",
-    "to": "2026-10-07T02:40:34+00:00"
+    "from": "2026-10-06T17:31:50+00:00",
+    "to": "2026-10-07T17:31:50+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610070240"
+    "run_id": "iran-202610071731"
    },
-   "summary": "העימות המתמשך בין איראן לבין ארה\"ב וישראל נמשך בשטח, במקביל למגעים דיפלומטיים תקועים וחילופי איומים והצהרות חריפות. ארה\"ב דורשת צמצום משמעותי ביכולות העשרת האורניום של טהרן כדי לסיים את העימות, בעוד שבאיראן נמשכת הפעילות לשיקום מתקנים שנפגעו והידוק הפיקוח הפנימי. בגזרת השלוחים, נרשמת פעילות מוגברת של החות'ים בתימן והתמודדות של עיראק עם נוכחות המיליציות הפרו-איראניות לאחר נסיגת ארה\"ב.",
+   "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במישור הכלכלי, הימי והגרעיני, כאשר איראן מטילה לחץ על נתיבי השיט במפרץ ובמצר הורמוז וממשיכה לממן את שלוחותיה האזוריים כמו חיזבאללה. במקביל, ארה\"ב וישראל דורשות מאיראן הגבלות משמעותיות בתוכנית הגרעין ותחת חנק סנקציות מנסות למנוע ממנה מקורות מימון, בעוד גורמים באזור מחפשים נתיבי אנרגיה חלופיים.",
    "fronts": [
     {
-     "name": "החזית האיראנית-אמריקאית ישירה",
-     "status": "פעיל עם מתיחות צבאית וכלכלית"
+     "name": "החזית הימית במפרץ ובמצר הורמוז",
+     "status": "פעילה ומתוחה עקב תקיפות על מכליות ושליטה איראנית נטענת"
     },
     {
-     "name": "חזית איראן-ישראל והגרעין",
-     "status": "פעיל הכולל מאמצי שיקום מתקנים ותקיפות קודמות"
+     "name": "חזית הכלכלה והסנקציות",
+     "status": "פעילה עם מאמצי חנק אמריקאי מול ייצוא הנפט והמטבע האיראני"
     },
     {
-     "name": "זירת השלוחים והמפרץ",
-     "status": "פעיל (עיראק, תימן ופעילות נגד יעדים ישראליים/מערביים בחו\"ל)"
+     "name": "חזית השלוחים (לבנון)",
+     "status": "פעילה, כוללת העברות כספים לשיקום וסיוע לעקורים"
+    },
+    {
+     "name": "חזית הגרעין",
+     "status": "דרישות מערביות להפחתת העשרה מול סירוב איראני"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10070240-01",
-     "title": "פגיעה באתרים פטרוכימיים ופרמצבטיים באיראן",
-     "summary": "נציג איראן בארגון למניעת הפצת נשק כימי טוען כי מתקפות של ארצות הברית פגעו במאות אתרים פטרוכימיים ופרמצבטיים במדינה.",
-     "axis": "ציר איראן-ארה\"ב",
+     "id": "IRAN-10071731-01",
+     "title": "תקיפות מכליות במצר הורמוז",
+     "summary": "מקורות ביטחון ימיים מדווחים על עלייה במספר התקיפות, ניסיונות התקיפה וההטרדות נגד מכליות העוברות במצר הורמוז.",
+     "axis": "איראן מול ארה\"ב והמפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T00:53:57+00:00",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T14:46:33+00:00",
+     "last_update_at": "2026-10-07T16:49:05+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לכל כלי השיט אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_joint_maritime_information_center",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war",
+       "published_at": "2026-10-07T16:49:05+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_joint_maritime_information_center",
+       "url": "https://www.al-monitor.com/originals/2026/10/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war-sources-say",
+       "published_at": "2026-10-07T14:46:33+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10071731-02",
+     "title": "העברת כספים מאיראן לחיזבאללה",
+     "summary": "איראן העבירה סכום של 200 מיליון דולר לחיזבאללה כדי לסייע לפליטי ולעקורי המלחמה עם ישראל.",
+     "axis": "איראן מול ישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-01T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-07T00:53:57+00:00",
-     "last_update_at": "2026-10-07T00:53:57+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק והאחריות של ארה\"ב אינם מאומתים ממקור ראשון או בלתי תלוי.",
+     "first_reported_at": "2026-10-07T15:37:36+00:00",
+     "last_update_at": "2026-10-07T16:26:23+00:00",
+     "what_is_not_verified": "זהותם המדויקת של כל המתווכים ודרכי הפעולה המלאות לעקוף סנקציות אינן מאומתות במלואן.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+       "published_at": "2026-10-07T16:26:23+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131526",
+       "published_at": "2026-10-07T15:48:42+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/lebanons-hezbollah-gets-200-million-iran-help-displaced-sources-say",
+       "published_at": "2026-10-07T15:46:34+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21575425",
+       "published_at": "2026-10-07T15:37:36+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10071731-03",
+     "title": "דרישה אמריקאית לצמצום העשרת אורניום",
+     "summary": "סגן נשיא ארה\"ב דרש מאיראן צמצום משמעותי ביכולות העשרת האורניום שלה כתנאי לסיום העימות.",
+     "axis": "איראן מול ארה\"ב וישראל",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T14:04:34+00:00",
+     "last_update_at": "2026-10-07T16:46:28+00:00",
+     "what_is_not_verified": "האם מדובר בנסיגה מהדרישה הקודמת לאפס העשרה אינו ברור לגמרי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/explainer-status-irans-uranium-enrichment-programme",
+       "published_at": "2026-10-07T16:46:28+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/us-enrichment-stance-unclear-vance-urges-meaningful-iran-cuts",
+       "published_at": "2026-10-07T14:32:12+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/jd-vance-iran-needs-meaningful-reduction-enrichment-end-war",
+       "published_at": "2026-10-07T14:04:34+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10071731-04",
+     "title": "סגירת מצר הורמוז לפי הצהרת משמרות המהפכה",
+     "summary": "יועץ למפקד משמרות המהפכה הצהיר כי מצר הורמוז סגור ושכוחות האיראניים שולטים בו לחלוטין עד למילוי דרישותיהם.",
+     "axis": "איראן מול ארה\"ב והמפרץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T16:11:23+00:00",
+     "last_update_at": "2026-10-07T16:11:23+00:00",
+     "what_is_not_verified": "מידת השליטה המעשית במצר אל מול תנועת האוניות בפועל אינה מאומתת ממקור עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86286279/Strait-of-Hormuz-will-stay-closed-until-Iran-s-demands-are-met",
+       "published_at": "2026-10-07T16:11:23+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10071731-05",
+     "title": "נסיגת ספינות מלחמה זרות מהמפרץ",
+     "summary": "בכיר במשמרות המהפכה טען כי ספינות מלחמה זרות נסוגו למרחק של למעלה מאלף קילומטרים מחופי איראן.",
+     "axis": "איראן מול ארה\"ב והמפרץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T10:55:36+00:00",
+     "last_update_at": "2026-10-07T10:55:36+00:00",
+     "what_is_not_verified": "הטענה על נסיגת כלל הציים הזרים למרחק של אלף קילומטרים אינה מאומתת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-more-100-petrochemical-and-pharmaceutical-sites-damaged-us",
-       "published_at": "2026-10-07T00:53:57+00:00"
+       "url": "https://www.middleeasteye.net/news/irans-revolutionary-guards-say-foreign-warships-have-retreated-gulf",
+       "published_at": "2026-10-07T10:55:36+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10070240-02",
-     "title": "שיקום מתחם גרעיני באיראן",
-     "summary": "צילומי לוויין ודו\"ח של מכון מחקר אמריקאי מצביעים על פעילות של פינוי פסולת ותיקון נזקים במתחם הגרעיני במין-זדאא'י שהותקף בעבר.",
-     "axis": "ציר איראן-ישראל",
+     "id": "IRAN-10071731-06",
+     "title": "יוזמה עיראקית לייצוא נפט דרך סוריה לעקיפת הורמוז",
+     "summary": "עיראק ביקשה מסוריה סיוע בשינוע נפט גולמי במשאיות לחוף הים התיכון כדי לעקוף את מצר הורמוז.",
+     "axis": "איראן מול ארה\"ב והמפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T00:00:00+00:00",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-06T19:45:10+00:00",
-     "last_update_at": "2026-10-06T21:29:48+00:00",
-     "what_is_not_verified": "המטרה המדויקת של הפעילות באתר אינה מאומתת רשמית.",
+     "first_reported_at": "2026-10-07T14:04:34+00:00",
+     "last_update_at": "2026-10-07T16:15:30+00:00",
+     "what_is_not_verified": "היקף היצוא המעשי שיועבר בדרך זו בשלב הראשון אינו מאומת לחלוטין.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_israelhayom",
-       "source_root_id": "fh_3cbb59659ac9ef96",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21568679",
-       "published_at": "2026-10-06T21:29:48+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131527",
+       "published_at": "2026-10-07T16:15:30+00:00"
       },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_516e3add6ace969a",
-       "url": "https://www.al-monitor.com/originals/2026/10/satellite-images-could-indicate-return-activity-iranian-compound-report",
-       "published_at": "2026-10-06T20:11:52+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_7ce7ed6ba4cfce08",
-       "url": "https://www.ynet.co.il/news/article/rjwuf6gjgl",
-       "published_at": "2026-10-06T19:45:10+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10070240-03",
-     "title": "העמדה לדין של אזרחים איראנים בלונדון",
-     "summary": "שלושה אזרחים איראנים עומדים למשפט בלונדון בחשד לריגול ותכנון מתקפה אלימה נגד עיתונאים וגורמים נוספים.",
-     "axis": "ציר איראן-המערב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T20:53:17+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T20:53:17+00:00",
-     "last_update_at": "2026-10-06T20:53:17+00:00",
-     "what_is_not_verified": "אשמתם של הנאשמים טרם הוכחה בבית המשפט.",
-     "is_new_in_window": true,
-     "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48316",
-       "published_at": "2026-10-06T20:53:17+00:00"
+       "url": "https://t.me/alexmehacarmel/48329",
+       "published_at": "2026-10-07T14:04:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "לונדון, בריטניה",
-       "lat": 51.5074,
-       "lon": -0.1278
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10070240-04",
-     "title": "התנהלות סביב המיליציות והשחתת דגל ארה\"ב בעיראק",
-     "summary": "לאחר נסיגת הכוחות האמריקאיים מעיראק, תועדו חברי מיליציות השיעיות דורכים על דגל ארה\"ב, מה שעורר גינויים ומעצרים מצד הרשויות בעיראק.",
-     "axis": "ציר איראן-ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-09-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T20:10:49+00:00",
-     "last_update_at": "2026-10-06T20:24:14+00:00",
-     "what_is_not_verified": "מידת השליטה המלאה של ממשלת עיראק על פירוק המיליציות מנשקן עד מועד היעד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_fdd",
-       "source_root_id": "fh_dfd20bea4caa24d6",
-       "url": "https://www.fdd.org/analysis/2026/10/06/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era/",
-       "published_at": "2026-10-06T20:24:14+00:00"
-      },
-      {
-       "source_id": "src_lwj",
-       "source_root_id": "fh_dfd20bea4caa24d6",
-       "url": "https://www.longwarjournal.org/archives/2026/10/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era.php",
-       "published_at": "2026-10-06T20:10:49+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בגדאד, עיראק",
-       "lat": 33.3062,
-       "lon": 44.3872
+       "name": "בניאס, סוריה",
+       "lat": 35.1851,
+       "lon": 35.9478
       }
      ]
     }
    ],
    "not_verified": [
-    "טענות איראן על פגיעה מדויקת ביותר מ-100 אתרים פטרוכימיים ופרמצבטיים על ידי ארה\"ב",
-    "ההערכות המדויקות לגבי זהות הגורמים המנהלים בפועל את מערכת קבלת ההחלטות בטהרן",
-    "האם איראן בודקת כניסת אנשי צוות אוויר ממדינות שאין לה קשרים דיפלומטיים איתן"
+    "היקף נזק מדויק לכל כלי השיט שהותקפו במצר הורמוז",
+    "המרחק המדויק שבו נמצאים כל כלי הטיס והשיט הזרים מחופי איראן",
+    "לוחות הזמנים והכמויות המדויקות של שינוע הנפט העיראקי דרך סוריה",
+    "מידת ההצלחה של תוכנית הבנק המרכזי באיראן לייצוב המטבע באמצעות דולרים מזומנים"
    ],
    "map": {
     "confidence": "medium",
@@ -486,110 +567,102 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.048,
+     "value": 3.0679,
      "unit": "ILS",
-     "change_pct": -0.47,
+     "change_pct": 0.65,
      "source_id": "src_ecb",
-     "as_of": "2026-10-06T15:00:00+00:00"
+     "as_of": "2026-10-07T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "המשך שיתוף פעולה ודיאלוג עם השכנים באזור",
-      "הצגת חוסן כלכלי ויכולת לספק מטבע חוץ בשוק"
+      "המשך שליטה במצר הורמוז עד למילוי דרישותיה",
+      "תמיכה בשלוחים באזור ובאוכלוסייה המזדהה עמם"
      ],
      "inferred": [
-      "שיקום תשתיות הגרעין והנשק שנפגעו בתקיפות",
-      "שימור רשת השלוחים האזוריים להפעלת לחץ על ארה\"ב וישראל"
+      "שימור יכולות גרעיניות כקלף מיקוח",
+      "עקיפת סנקציות כלכליות באמצעות רשתות מתווכים ונתיבים חלופיים"
      ],
      "forecast": [
-      "המשך המתיחות מול המערב והתחמקות מדרישות להגבלת תוכנית הגרעין",
-      "הדגשת הישרדות המשטר למרות הלחץ הכלכלי והצבאי"
+      "המשך הפעלת לחץ ימי דרך משמרות המהפכה",
+      "התמודדות עם לחץ כלכלי חריף על המטבע המקומי"
      ]
     },
     {
-     "actor": "ארה\"ב",
+     "actor": "ארה\"ב וישראל",
      "declared": [
-      "דרישה מאיראן לבצע הפחתה משמעותית ביכולת ההעשרה הגרעינית לסיום העימות",
-      "הגנה על תשתיות הבחירות ומניעת התערבות זרה"
+      "דרישה להפחתה משמעותית ביכולות ההעשרה הגרעינית של איראן",
+      "פגיעה במקורות המימון של טהרן לטובת פירוק ארגוני טרור וטילים"
      ],
      "inferred": [
-      "המשך לחץ צבאי וכלכלי הדוק במטרה לערער את המשטר בטהרן",
-      "פיקוח על נסיגת כוחות ומניעת התבססות מיליציות באזור (כגון בעיראק)"
+      "שמירת חופש השיט במפרץ ובמצר הורמוז",
+      "בלימת ההשפעה האיראנית המרחבית באמצעות סנקציות ולחץ צבאי"
      ],
      "forecast": [
-      "שמירה על סנקציות כלכליות נוקשות כלפי איראן",
-      "המשך תמיכה בבעלות ברית אזוריות מול שלוחיה של איראן"
-     ]
-    },
-    {
-     "actor": "ישראל",
-     "declared": [
-      "אזהרות חמורות מפני ניסיונות פיגוע של איראן ושלוחיה נגד יעדים ישראליים ויהודיים בחו\"ל לקראת יום השנה ל-7 באוקטובר"
-     ],
-     "inferred": [
-      "מעקב מודיעיני הדוק אחר מאמצי השיקום של אתרי הגרעין באיראן",
-      "היערכות ביטחונית גבוהה מפני מתקפות טרור או תגמול מצד ציר ההתנגדות"
-     ],
-     "forecast": [
-      "הגברת ערנות ואבטחת נציגויות וישראלים בחו\"ל",
-      "שמירת חופש פעולה מול התבססות איראנית ושלוחיה"
+      "המשך הלחץ הדיפלומטי והכלכלי לצד נוכחות צבאית במפרץ",
+      "מאבק מתמשך נגד הברחות כספים ותשתיות של שלוחות איראן"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/satellite-images-could-indicate-return-activity-iranian-compound-report",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/us-enrichment-stance-unclear-vance-urges-meaningful-iran-cuts",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     },
     {
-     "source_id": "src_fdd",
-     "url": "https://www.fdd.org/analysis/2026/10/06/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era/",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "source_id": "src_irna",
+     "url": "https://en.irna.ir/news/86286279/Strait-of-Hormuz-will-stay-closed-until-Iran-s-demands-are-met",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21568679",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
-    },
-    {
-     "source_id": "src_lwj",
-     "url": "https://www.longwarjournal.org/archives/2026/10/us-flag-trampling-militia-disarmament-dispute-mark-iraqs-post-us-withdrawal-era.php",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21575425",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-more-100-petrochemical-and-pharmaceutical-sites-damaged-us",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "url": "https://www.middleeasteye.net/news/irans-revolutionary-guards-say-foreign-warships-have-retreated-gulf",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
+    },
+    {
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/131527",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48316",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "url": "https://t.me/alexmehacarmel/48329",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/rjwuf6gjgl",
-     "accessed_at": "2026-10-07T02:40:34+00:00"
+     "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+     "accessed_at": "2026-10-07T17:31:50+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-06T12:09:36+00:00",
+  "previous_generated_at": "2026-10-07T02:40:34+00:00",
   "changes": {
-   "IRAN-10070240-01": {
+   "IRAN-10071731-01": {
     "kind": "new"
    },
-   "IRAN-10070240-02": {
+   "IRAN-10071731-02": {
     "kind": "new"
    },
-   "IRAN-10070240-03": {
+   "IRAN-10071731-03": {
     "kind": "new"
    },
-   "IRAN-10070240-04": {
+   "IRAN-10071731-04": {
+    "kind": "new"
+   },
+   "IRAN-10071731-05": {
+    "kind": "new"
+   },
+   "IRAN-10071731-06": {
     "kind": "new"
    }
   }

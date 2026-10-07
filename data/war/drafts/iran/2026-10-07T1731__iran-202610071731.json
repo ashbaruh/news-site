@@ -1,0 +1,335 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3d020d6d7272",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-07T17:31:50+00:00",
+  "window": {
+   "from": "2026-10-06T17:31:50+00:00",
+   "to": "2026-10-07T17:31:50+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610071731"
+  },
+  "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במישור הכלכלי, הימי והגרעיני, כאשר איראן מטילה לחץ על נתיבי השיט במפרץ ובמצר הורמוז וממשיכה לממן את שלוחותיה האזוריים כמו חיזבאללה. במקביל, ארה\"ב וישראל דורשות מאיראן הגבלות משמעותיות בתוכנית הגרעין ותחת חנק סנקציות מנסות למנוע ממנה מקורות מימון, בעוד גורמים באזור מחפשים נתיבי אנרגיה חלופיים.",
+  "fronts": [
+   {
+    "name": "החזית הימית במפרץ ובמצר הורמוז",
+    "status": "פעילה ומתוחה עקב תקיפות על מכליות ושליטה איראנית נטענת"
+   },
+   {
+    "name": "חזית הכלכלה והסנקציות",
+    "status": "פעילה עם מאמצי חנק אמריקאי מול ייצוא הנפט והמטבע האיראני"
+   },
+   {
+    "name": "חזית השלוחים (לבנון)",
+    "status": "פעילה, כוללת העברות כספים לשיקום וסיוע לעקורים"
+   },
+   {
+    "name": "חזית הגרעין",
+    "status": "דרישות מערביות להפחתת העשרה מול סירוב איראני"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10071731-01",
+    "title": "תקיפות מכליות במצר הורמוז",
+    "summary": "מקורות ביטחון ימיים מדווחים על עלייה במספר התקיפות, ניסיונות התקיפה וההטרדות נגד מכליות העוברות במצר הורמוז.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T14:46:33+00:00",
+    "last_update_at": "2026-10-07T16:49:05+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לכל כלי השיט אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_joint_maritime_information_center",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war",
+      "published_at": "2026-10-07T16:49:05+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_joint_maritime_information_center",
+      "url": "https://www.al-monitor.com/originals/2026/10/attacks-tankers-hormuz-hit-highest-any-week-start-iran-war-sources-say",
+      "published_at": "2026-10-07T14:46:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10071731-02",
+    "title": "העברת כספים מאיראן לחיזבאללה",
+    "summary": "איראן העבירה סכום של 200 מיליון דולר לחיזבאללה כדי לסייע לפליטי ולעקורי המלחמה עם ישראל.",
+    "axis": "איראן מול ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T15:37:36+00:00",
+    "last_update_at": "2026-10-07T16:26:23+00:00",
+    "what_is_not_verified": "זהותם המדויקת של כל המתווכים ודרכי הפעולה המלאות לעקוף סנקציות אינן מאומתות במלואן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+      "published_at": "2026-10-07T16:26:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131526",
+      "published_at": "2026-10-07T15:48:42+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/lebanons-hezbollah-gets-200-million-iran-help-displaced-sources-say",
+      "published_at": "2026-10-07T15:46:34+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21575425",
+      "published_at": "2026-10-07T15:37:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10071731-03",
+    "title": "דרישה אמריקאית לצמצום העשרת אורניום",
+    "summary": "סגן נשיא ארה\"ב דרש מאיראן צמצום משמעותי ביכולות העשרת האורניום שלה כתנאי לסיום העימות.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T14:04:34+00:00",
+    "last_update_at": "2026-10-07T16:46:28+00:00",
+    "what_is_not_verified": "האם מדובר בנסיגה מהדרישה הקודמת לאפס העשרה אינו ברור לגמרי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/explainer-status-irans-uranium-enrichment-programme",
+      "published_at": "2026-10-07T16:46:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-enrichment-stance-unclear-vance-urges-meaningful-iran-cuts",
+      "published_at": "2026-10-07T14:32:12+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/jd-vance-iran-needs-meaningful-reduction-enrichment-end-war",
+      "published_at": "2026-10-07T14:04:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10071731-04",
+    "title": "סגירת מצר הורמוז לפי הצהרת משמרות המהפכה",
+    "summary": "יועץ למפקד משמרות המהפכה הצהיר כי מצר הורמוז סגור ושכוחות האיראניים שולטים בו לחלוטין עד למילוי דרישותיהם.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T16:11:23+00:00",
+    "last_update_at": "2026-10-07T16:11:23+00:00",
+    "what_is_not_verified": "מידת השליטה המעשית במצר אל מול תנועת האוניות בפועל אינה מאומתת ממקור עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86286279/Strait-of-Hormuz-will-stay-closed-until-Iran-s-demands-are-met",
+      "published_at": "2026-10-07T16:11:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10071731-05",
+    "title": "נסיגת ספינות מלחמה זרות מהמפרץ",
+    "summary": "בכיר במשמרות המהפכה טען כי ספינות מלחמה זרות נסוגו למרחק של למעלה מאלף קילומטרים מחופי איראן.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T10:55:36+00:00",
+    "last_update_at": "2026-10-07T10:55:36+00:00",
+    "what_is_not_verified": "הטענה על נסיגת כלל הציים הזרים למרחק של אלף קילומטרים אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/irans-revolutionary-guards-say-foreign-warships-have-retreated-gulf",
+      "published_at": "2026-10-07T10:55:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10071731-06",
+    "title": "יוזמה עיראקית לייצוא נפט דרך סוריה לעקיפת הורמוז",
+    "summary": "עיראק ביקשה מסוריה סיוע בשינוע נפט גולמי במשאיות לחוף הים התיכון כדי לעקוף את מצר הורמוז.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T14:04:34+00:00",
+    "last_update_at": "2026-10-07T16:15:30+00:00",
+    "what_is_not_verified": "היקף היצוא המעשי שיועבר בדרך זו בשלב הראשון אינו מאומת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131527",
+      "published_at": "2026-10-07T16:15:30+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48329",
+      "published_at": "2026-10-07T14:04:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בניאס, סוריה",
+      "lat": 35.1851,
+      "lon": 35.9478
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף נזק מדויק לכל כלי השיט שהותקפו במצר הורמוז",
+   "המרחק המדויק שבו נמצאים כל כלי הטיס והשיט הזרים מחופי איראן",
+   "לוחות הזמנים והכמויות המדויקות של שינוע הנפט העיראקי דרך סוריה",
+   "מידת ההצלחה של תוכנית הבנק המרכזי באיראן לייצוב המטבע באמצעות דולרים מזומנים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0679,
+    "unit": "ILS",
+    "change_pct": 0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-07T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשך שליטה במצר הורמוז עד למילוי דרישותיה",
+     "תמיכה בשלוחים באזור ובאוכלוסייה המזדהה עמם"
+    ],
+    "inferred": [
+     "שימור יכולות גרעיניות כקלף מיקוח",
+     "עקיפת סנקציות כלכליות באמצעות רשתות מתווכים ונתיבים חלופיים"
+    ],
+    "forecast": [
+     "המשך הפעלת לחץ ימי דרך משמרות המהפכה",
+     "התמודדות עם לחץ כלכלי חריף על המטבע המקומי"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "דרישה להפחתה משמעותית ביכולות ההעשרה הגרעינית של איראן",
+     "פגיעה במקורות המימון של טהרן לטובת פירוק ארגוני טרור וטילים"
+    ],
+    "inferred": [
+     "שמירת חופש השיט במפרץ ובמצר הורמוז",
+     "בלימת ההשפעה האיראנית המרחבית באמצעות סנקציות ולחץ צבאי"
+    ],
+    "forecast": [
+     "המשך הלחץ הדיפלומטי והכלכלי לצד נוכחות צבאית במפרץ",
+     "מאבק מתמשך נגד הברחות כספים ותשתיות של שלוחות איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-enrichment-stance-unclear-vance-urges-meaningful-iran-cuts",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86286279/Strait-of-Hormuz-will-stay-closed-until-Iran-s-demands-are-met",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21575425",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/irans-revolutionary-guards-say-foreign-warships-have-retreated-gulf",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131527",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48329",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+    "accessed_at": "2026-10-07T17:31:50+00:00"
+   }
+  ]
+ }
+}
