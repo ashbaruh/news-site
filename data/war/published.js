@@ -595,280 +595,399 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-06T1226__ukraine-202610061226.json",
+  "draft": "drafts/ukraine/2026-10-07T0259__ukraine-202610070259.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-06T12:26:06+00:00",
+   "generated_at": "2026-10-07T02:59:20+00:00",
    "window": {
-    "from": "2026-10-05T12:26:06+00:00",
-    "to": "2026-10-06T12:26:06+00:00"
+    "from": "2026-10-06T02:59:20+00:00",
+    "to": "2026-10-07T02:59:20+00:00"
    },
    "model": {
-    "name": "claude",
-    "run_id": "ukraine-202610061226"
+    "name": "gemini-3.8-flash",
+    "run_id": "ukraine-202610070259"
    },
-   "summary": "רוסיה ואוקראינה ממשיכות להחליף תקיפות על העורף ועל התשתיות. רוסיה פוגעת בערים, בגשרים ובספנות, ואוקראינה תוקפת מתקני דלק עמוק ברוסיה, כולל ליד מוסקבה. הים השחור הופך לזירה מסוכנת לספנות אזרחית, והתקיפות כבר הגיעו לאזור הכלכלי של בולגריה, מדינה בנאט\"ו. במדינות השכנות לרוסיה הדאגה גוברת, וליטא החלה לבחון ביטול האיסור על נשק גרעיני.",
+   "summary": "הלחימה מתאפיינת בהסלמה משמעותית של מהלומות אוויריות וימיות הדדיות, כאשר רוסיה מנחיתה תקיפות טילים וכטב\"מים מסיביות על קייב וערי אוקראינה, במקביל למבצעי עומק אוקראיניים נגד מכליות נפט ומתקני זיקוק ברוסיה. זירת הים השחור מתרחבת לעבר נתיבי סחר ומים כלכליים של מדינות זרות, תוך פגיעה בספינות סוחר ועצירת כיסויים ביטוחיים לשיט. ביבשה ובמערכי ההגנה נרשמת שחיקה במערכות אוקראיניות אל מול שימוש הולך וגובר ברובוטים קרקעיים ובכטב\"מים מתקדמים.",
    "fronts": [
     {
-     "name": "תקיפות בעורף האוקראיני",
-     "status": "13 הרוגים ביממה; חרקוב הכי מותקפת."
+     "name": "זירת הים השחור",
+     "status": "הסלמה בתקיפות כלי שיט בלתי מאוישים על ספינות סוחר ומיכליות נפט מול חופי סוצ'י ובולגריה"
     },
     {
-     "name": "תקיפות בעומק רוסיה",
-     "status": "מחסן הדלק הגדול במחוז מוסקבה עלה באש."
+     "name": "חזית האוויר והעורף האוקראיני",
+     "status": "מתקפות טילים וכטב\"מים כבדות מצד רוסיה על קייב ותשתיות עירוניות, לצד שחיקת מטוסי היירוט"
     },
     {
-     "name": "חזית דרום וגשרים",
-     "status": "גשר בזפוריז'יה נסגר; נזק לגשר צ'ונהר לקרים."
+     "name": "חזית העורף ותשתיות האנרגיה ברוסיה",
+     "status": "תקיפות כטב\"ם אוקראיניות מתמשכות נגד בתי זיקוק ומאגרי דלק במספר מחוזות"
     },
     {
-     "name": "הים השחור",
-     "status": "שלוש ספינות נפגעו ביום אחד, אחת טבעה מול בולגריה."
+     "name": "חזית דונצק והמזרח",
+     "status": "לוחמת רובוטים וכטב\"מים במסגרת מבצע ויוואלדי סמוך לאנדרייבקה ובאחמוט"
     },
     {
-     "name": "נאט\"ו ואירופה",
-     "status": "ליטא בוחנת הסרת האיסור על נשק גרעיני."
+     "name": "חזית הדרום (זפוריז'יה וחרסון)",
+     "status": "הפגזות ופגיעות כטב\"מים במחסנים, בגשרים וביישובי מגורים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10061226-01",
-     "title": "13 הרוגים ו-104 פצועים בתקיפות רוסיות ביממה",
-     "summary": "תקיפות רוסיות ביממה האחרונה הרגו 13 בני אדם ופצעו 104 ברחבי אוקראינה. הכי קשה היה במחוז חרקוב, עם 7 הרוגים ועשרות פצועים. בקריבי ריה נפגע בית חולים, ובקרמטורסק רחפן פגע באמבולנס ובבניין מגורים.",
-     "axis": "תקיפות בעורף",
+     "id": "UKRAINE-10070259-01",
+     "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על קייב",
+     "summary": "רוסיה שיגרה מתקפת טילים וכטב\"מים רחבה לעבר הבירה האוקראינית, ופיצוצים עזים נשמעו ברחבי העיר. תושבים תפסו מחסה בתחנות הרכבת התחתית, ומרכז נתונים מקומי הושבת עקב פגיעה.",
+     "axis": "חזית האוויר והעורף האוקראיני",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T07:22:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T07:22:00+00:00",
-     "last_update_at": "2026-10-06T09:03:24+00:00",
-     "what_is_not_verified": "המספרים נמסרו על ידי רשויות אוקראיניות וייתכנו עדכונים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-strikes-kill-13-injure-104-across-ukraine-damage-kryvyi-rih-hospital/",
-       "published_at": "2026-10-06T09:03:24+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4171478-russian-attacks-in-kharkiv-region-leave-seven-killed-80-injured-over-past-day.html",
-       "published_at": "2026-10-06T08:35:00+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4171431-russian-strike-hits-highrise-building-and-ambulance-in-kramatorsk-killing-one-woman-and-injuring-four-people.html",
-       "published_at": "2026-10-06T07:22:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרקוב",
-       "lat": 49.9923,
-       "lon": 36.231
-      },
-      {
-       "name": "קריבי ריה",
-       "lat": 47.9103,
-       "lon": 33.3918
-      },
-      {
-       "name": "קרמטורסק",
-       "lat": 48.7389,
-       "lon": 37.5844
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10061226-02",
-     "title": "מתקפת רחפנים אוקראינית על מחוז מוסקבה: מחסן הדלק הגדול באזור עלה באש",
-     "summary": "מתקפת רחפנים אוקראינית רחבה על מוסקבה וסביבתה הציתה את מתקן הנפט הגדול במחוז, ליד קונסטנטינובו. לפי הדיווחים נהרגו שניים.",
-     "axis": "תקיפות בעומק רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T00:00:00+00:00",
-     "last_update_at": "2026-10-06T07:08:08+00:00",
-     "what_is_not_verified": "היקף הנזק למתקן לא אומת באופן עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/06/massive-ukrainian-drone-attack-on-moscow-and-surrounding-region-kills-two-sets-region-s-largest-oil-depot-ablaze",
-       "published_at": "2026-10-06T07:08:08+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukrainian-drones-reportedly-attack-moscow-oblast-in-mass-attack-near-russias-capital/",
-       "published_at": "2026-10-06T00:00:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מוסקבה",
-       "lat": 55.7505,
-       "lon": 37.6175
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10061226-03",
-     "title": "גשרים על הדנייפר ובצ'ונהר נפגעו",
-     "summary": "רחפן רוסי פגע בגשר בזפוריז'יה, חמישה נפצעו והגשר נסגר לתנועה. במקביל, תצלומי לוויין מראים נזק כבד לגשר צ'ונהר שמחבר את קרים למחוז חרסון.",
-     "axis": "חזית דרום",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T04:26:24+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T04:26:24+00:00",
-     "last_update_at": "2026-10-06T08:18:00+00:00",
-     "what_is_not_verified": "מי פגע בגשר צ'ונהר ומתי בדיוק.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/06/russia-strikes-bridge-over-dnipro-river-in-ukraine-s-zaporizhzhia-injuring-five-including-red-cross-workers",
-       "published_at": "2026-10-06T07:20:08+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-drone-strikes-zaporizhzhia-bridge-in-overnight-attack/",
-       "published_at": "2026-10-06T04:26:24+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4171471-new-attacks-cause-extensive-damage-to-chonhar-bridge-satellite-imagery.html",
-       "published_at": "2026-10-06T08:18:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "זפוריז'יה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10061226-04",
-     "title": "ספינות סוחר הותקפו בים השחור, גם מול בולגריה",
-     "summary": "רחפן רוסי פגע בספינה בדגל איי מרשל מול אוקראינה, אחד נהרג ושבעה נפצעו. כ-112 ק\"מ מחופי בולגריה ספינה אחת טבעה ואחרת עלתה באש, אחרי פגיעת רחפנים שמקורם לא נקבע. יום קודם טבעה ספינת תבואה בבעלות טורקית.",
-     "axis": "הים השחור",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-05T15:17:23+00:00",
+     "occurred_at": "2026-10-06T21:35:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-05T15:17:23+00:00",
-     "last_update_at": "2026-10-06T11:47:00+00:00",
-     "what_is_not_verified": "מקור הרחפנים מול בולגריה וגורל צוות הספינה שטבעה.",
+     "first_reported_at": "2026-10-06T21:35:00+00:00",
+     "last_update_at": "2026-10-07T01:22:44+00:00",
+     "what_is_not_verified": "מספר הטילים והכטב\"מים המדויק ששוגרו ופגעו, וכן היקף הנפגעים והנזק המלא.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_dcf5f275847203b1",
+       "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+       "published_at": "2026-10-07T01:22:44+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_dcf5f275847203b1",
+       "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+       "published_at": "2026-10-07T00:25:09+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_dcf5f275847203b1",
+       "url": "https://t.me/alexmehacarmel/48319",
+       "published_at": "2026-10-07T00:22:56+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_dcf5f275847203b1",
+       "url": "https://t.me/alexmehacarmel/48318",
+       "published_at": "2026-10-06T22:16:19+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_dcf5f275847203b1",
+       "url": "https://www.ukrinform.net/rubric-ato/4171493-omega-telecom-data-center-in-kyiv-to-cease-operations-after-russian-attack.html",
+       "published_at": "2026-10-06T21:35:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10070259-02",
+     "title": "תקיפת כטב\"מים ימיים על מיכלית נפט סמוך לסוצ'י",
+     "summary": "מיכלית נפט בעלת דגל ליבריה המקושרת לצי הצללים הרוסי עלתה באש מול חופי סוצ'י לאחר תקיפת כלי שיט בלתי מאוישים, מה שהוביל לסגירת חופים ולעשן כבד מעל האזור.",
+     "axis": "זירת הים השחור",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T17:10:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T17:10:28+00:00",
+     "last_update_at": "2026-10-07T01:22:44+00:00",
+     "what_is_not_verified": "זהות המבצעים המאומתת באופן עצמאי, מעבר להודעת משרד התחבורה הרוסי וערוצי רשת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+       "published_at": "2026-10-07T01:22:44+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/06/oil-tanker-burns-off-coast-of-sochi-blanketing-the-city-in-black-smoke",
+       "published_at": "2026-10-06T18:20:55+00:00"
+      },
+      {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
-       "published_at": "2026-10-06T11:47:00+00:00"
+       "url": "https://kyivindependent.com/shadow-fleet-tanker-reportedly-ablaze-near-russian-port-city-sochi/",
+       "published_at": "2026-10-06T17:36:35+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131472",
+       "published_at": "2026-10-06T17:10:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סוצ'י, רוסיה",
+       "lat": 43.5855,
+       "lon": 39.7231
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10070259-03",
+     "title": "תקיפת ספינות סוחר במים הכלכליים של בולגריה",
+     "summary": "שני כלי שיט מסחריים נפגעו מכטב\"מים באזור הכלכלי הבלעדי של בולגריה בים השחור, ואחת הספינות טבעה תוך היעדרות אנשי צוותה.",
+     "axis": "זירת הים השחור",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T11:53:21+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T11:53:21+00:00",
+     "last_update_at": "2026-10-07T01:22:44+00:00",
+     "what_is_not_verified": "זהות הצד ששיגר את הכטב\"מים, כאשר אוקראינה מאשימה את רוסיה ובולגריה בודקת ואינה מאשרת רשמית את מקורם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+       "published_at": "2026-10-07T01:22:44+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056783/",
+       "published_at": "2026-10-06T18:11:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056782/",
+       "published_at": "2026-10-06T18:06:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-civilian-vessels-in-black-sea-off-bulgarias-coast/",
+       "published_at": "2026-10-06T17:59:51+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://www.ynet.co.il/news/article/b13ldymome",
+       "published_at": "2026-10-06T16:02:52+00:00"
       },
       {
        "source_id": "src_bbc",
+       "source_root_id": "fh_6393f392fd946e0d",
+       "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-06T11:53:21+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10070259-04",
+     "title": "השבתת בית הזיקוק בוולגוגרד בעקבות פגיעת כטב\"מים",
+     "summary": "מתקן זיקוק הנפט בוולגוגרד השבית לחלוטין את עיבוד הנפט הגולמי בעקבות תקיפת כטב\"מים שגרמה לשריפה נרחבת בשטח המפעל.",
+     "axis": "תשתיות אנרגיה בעורף הרוסי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-02T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T19:48:51+00:00",
+     "last_update_at": "2026-10-06T19:48:51+00:00",
+     "what_is_not_verified": "אישור רשמי מלא של חברת לוקאויל לגבי גודל הנזק, שכן המושל ציין רק פגיעה בתשתית תעשייתית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-05T15:17:23+00:00"
+       "url": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports",
+       "published_at": "2026-10-06T19:48:51+00:00"
       }
      ],
      "places": [
       {
-       "name": "אודסה",
+       "name": "וולגוגרד, רוסיה",
+       "lat": 48.7082,
+       "lon": 44.5153
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10070259-05",
+     "title": "פגיעות רוסיות במבנים ותשתיות בזפוריז'יה ובחרסון",
+     "summary": "תקיפה רוסית על מחסן בעיר זפוריז'יה גרמה להרג אדם ולפציעת אחרים, בעוד תקיפת כטב\"ם בכפר פרבדינה שבמחוז חרסון פצעה שלושה אזרחים ובהם ילד.",
+     "axis": "חזית הדרום",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T18:44:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T18:44:00+00:00",
+     "last_update_at": "2026-10-06T20:52:00+00:00",
+     "what_is_not_verified": "סוג החימושים המדויק ששימש לפגיעה במחסן בזפוריז'יה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_dfff7f1a395aad16",
+       "url": "https://www.ukrinform.net/rubric-ato/4171733-russian-drone-attack-in-kherson-region-leaves-three-people-injured-including-one-child.html",
+       "published_at": "2026-10-06T20:52:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_dfff7f1a395aad16",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056784/",
+       "published_at": "2026-10-06T18:44:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      },
+      {
+       "name": "פרבדינה, אוקראינה",
+       "lat": 46.7355,
+       "lon": 32.2041
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10070259-06",
+     "title": "הפעלת רובוטים קרקעיים ורחפנים בפעילות העמוקה של חטיבה 3",
+     "summary": "יחידת הרובוטים הקרקעיים של חטיבת הסער ה-3 האוקראינית ביצעה מעל מאה מבצעים מאחורי הקווים הרוסיים באמצעות שיגור רובוטים מרחפנים כבדים במסגרת מבצע ויוואלדי.",
+     "axis": "חזית המזרח",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T02:30:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T02:30:00+00:00",
+     "last_update_at": "2026-10-07T02:30:00+00:00",
+     "what_is_not_verified": "היקף האבידות הרוסיות הנטען (5,000 נפגעים) והשטח ששוחרר לפי משרד הנשיא האוקראיני.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_nc13_3",
+       "url": "https://www.pravda.com.ua/eng/articles/2026/10/07/8056769/",
+       "published_at": "2026-10-07T02:30:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אנדרייבקה, אוקראינה",
+       "lat": 47.4626,
+       "lon": 37.6529
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10070259-07",
+     "title": "הגבלת גישה לרצועת החוף במחוז אודסה",
+     "summary": "רשויות אוקראינה הטילו הגבלות על גישת אזרחים לחופי הים באודסה ובסביבתה עקב שיקולים ביטחוניים עם תום עונת הרחצה.",
+     "axis": "זירת הים השחור",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T23:39:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T23:39:00+00:00",
+     "last_update_at": "2026-10-06T23:39:00+00:00",
+     "what_is_not_verified": "אופי האיומים הביטחוניים הספציפיים שהובילו להחלטה המיידית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4171503-access-to-coastline-restricted-in-odesa-region.html",
+       "published_at": "2026-10-06T23:39:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אודסה, אוקראינה",
        "lat": 46.4843,
        "lon": 30.7323
       }
      ]
     },
     {
-     "id": "UKRAINE-10061226-05",
-     "title": "ליטא פתחה בהליך להסרת האיסור על נשק גרעיני",
-     "summary": "הפרלמנט הליטאי עשה צעד ראשון לשינוי חוקתי שיסיר את האיסור על נשק גרעיני במדינה, על רקע האיום הרוסי.",
-     "axis": "נאט\"ו ואירופה",
-     "claim_type": "statement",
+     "id": "UKRAINE-10070259-08",
+     "title": "הקמת חברת בת ביטחונית ליטאית באוקראינה",
+     "summary": "יצרנית הרחפנים מליטא פתחה מיזם משותף באוקראינה לצורך ייצור כטב\"מים, פריסתם והכשרת מפעילים בשיתוף ישיר עם צבא אוקראינה.",
+     "axis": "סיוע צבאי ותעשיות ביטחוניות",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:57:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T08:57:00+00:00",
-     "last_update_at": "2026-10-06T08:57:00+00:00",
-     "what_is_not_verified": "ההליך בתחילתו ולא ברור אם יושלם.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/lithuania-takes-1st-step-to-lift-nuclear-weapons-ban-amid-russian-threat/",
-       "published_at": "2026-10-06T08:57:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10061226-06",
-     "title": "דרום קוריאה: ההתנצלות של אוקראינה בפרשת השבויים לא מספיקה",
-     "summary": "שר החוץ של דרום קוריאה אמר שההתנצלות של קייב על הדלפת מידע בנוגע לשבויים צפון קוריאנים לא מספיקה, וסיאול שוקלת להחזיר את שגרירה.",
-     "axis": "דיפלומטיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:26:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T08:26:00+00:00",
-     "last_update_at": "2026-10-06T08:26:00+00:00",
-     "what_is_not_verified": "לא הוחלט אם השגריר יוחזר.",
+     "occurred_at": "2026-10-06T17:42:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T17:42:00+00:00",
+     "last_update_at": "2026-10-06T17:42:00+00:00",
+     "what_is_not_verified": "היקף הייצור המתוכנן ומועדי אספקה ראשונים לחזית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056667/",
-       "published_at": "2026-10-06T08:26:00+00:00"
+       "source_root_id": "fh_f698b6e9f1e75463",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056777/",
+       "published_at": "2026-10-06T17:42:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10061226-07",
-     "title": "סקר: רוב האוקראינים פתוחים למשא ומתן, בלי ויתור מראש על שטחים",
-     "summary": "סקר שפורסם באוקראינה מראה שרוב הציבור פתוח למשא ומתן עם רוסיה, אבל לא מסכים מראש לוויתורים טריטוריאליים.",
-     "axis": "דיפלומטיה",
+     "id": "UKRAINE-10070259-09",
+     "title": "פוליסה וכיסוי ביטוחי בוטלו לספינות הפוקדות נמלים באוקראינה",
+     "summary": "חברות ביטוח ימי הפסיקו לכסות סיכונים הקשורים לפקידת נמלי אוקראינה לנוכח עליית האיומים הצבאיים בים השחור ותקיפות הדדיות על כלי שיט.",
+     "axis": "זירת הים השחור",
      "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T08:12:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T08:12:00+00:00",
-     "last_update_at": "2026-10-06T08:12:00+00:00",
-     "what_is_not_verified": "המתודולוגיה המלאה של הסקר לא פורטה בדיווח.",
+     "occurred_at": "2026-10-06T18:54:51+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T18:54:51+00:00",
+     "last_update_at": "2026-10-06T18:54:51+00:00",
+     "what_is_not_verified": "רשימת חברות הביטוח המדויקת שסירבו להעניק כיסוי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
+       "source_id": "src_tass",
+       "source_root_id": "or_ambrey",
+       "url": "https://tass.com/world/2198453",
+       "published_at": "2026-10-06T18:54:51+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10070259-10",
+     "title": "שחיקה מואצת של מטוסי ה-F-16 של חיל האוויר האוקראיני",
+     "summary": "חיל האוויר האוקראיני מתריע כי שימוש אינטנסיבי במטוסי קרב מסוג F-16 לצורך יירוט כטב\"מי סילון רוסיים מקצר במהירות את אורך חיי השירות של המטוסים ומחייב סיוע בינלאומי נוסף.",
+     "axis": "חזית האוויר והעורף האוקראיני",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-07T00:32:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T00:32:00+00:00",
+     "last_update_at": "2026-10-07T00:32:00+00:00",
+     "what_is_not_verified": "מספר המטוסים שאינם כשירים כרגע ושיעור השחיקה בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056661/",
-       "published_at": "2026-10-06T08:12:00+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4171608-air-force-intensive-use-is-rapidly-shortening-f16-service-life.html",
+       "published_at": "2026-10-07T00:32:00+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "מקור הרחפנים שפגעו בספינות מול בולגריה.",
-    "היקף הנזק למתקן הדלק ליד מוסקבה.",
-    "מי פגע בגשר צ'ונהר.",
-    "מספרי הנפגעים, שעשויים להשתנות."
+    "מקור הכטב\"מים שפגעו בספינות המסחר במים הכלכליים של בולגריה (אוקראינה מאשימה את רוסיה, בולגריה בודקת).",
+    "מספר האבידות של כוחות רוסיה במבצע ויוואלדי (נטען למעל 5,000 על ידי משרד הנשיא האוקראיני).",
+    "היקף הנפגעים והנזקים הכולל כתוצאה מהמתקפה הרוסית על קייב בליל 6-7 באוקטובר.",
+    "דיווחים על שריפה במאגר דלק במחוז מוסקבה ומות שני בני אדם.",
+    "השמדת צוותי כטב\"ם אוקראיניים בעיירה אליושקי."
    ],
    "map": {
     "confidence": "high",
@@ -879,126 +998,132 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1204,
+     "value": 1.1269,
      "unit": "USD",
-     "change_pct": -0.19,
+     "change_pct": 0.58,
      "source_id": "src_ecb",
-     "as_of": "2026-10-05T15:00:00+00:00"
+     "as_of": "2026-10-06T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "רוסיה",
-     "declared": [
-      "המשך המבצע הצבאי"
-     ],
-     "inferred": [
-      "לשחוק את העורף האוקראיני ואת נתיבי היצוא בים השחור",
-      "לבחון את תגובת נאט\"ו מתחת לסף מלחמה"
-     ],
-     "forecast": [
-      "המשך תקיפות על נמלים וספנות"
-     ]
-    },
-    {
      "actor": "אוקראינה",
      "declared": [
-      "פגיעה ביכולת המלחמה הרוסית"
+      "להגן על שמי המדינה ולדרוש אמצעי הגנה מתקדמים מבעלות הברית באירופה ובארצות הברית",
+      "לתאם תגובה מול בולגריה ושותפות אזוריות נגד תוקפנות רוסית במרחב הים השחור"
      ],
      "inferred": [
-      "לפגוע בהכנסות ובאספקת הדלק של רוסיה",
-      "לנתק את קרים דרך פגיעה בגשרים"
+      "פגיעה בכלכלת האנרגיה ובצי הצללים של רוסיה כדי לצמצם את הכנסותיה ומקורות הדלק של צבאה",
+      "הטמעת טכנולוגיות כטב\"מים ורובוטים קרקעיים לצמצום אובדן חיי חיילים בחזית"
      ],
      "forecast": [
-      "המשך תקיפות רחפנים על מתקני אנרגיה ברוסיה"
+      "המשך פגיעה ממוקדת במכליות נפט ובבתי זיקוק ברוסיה, בד בבד עם בקשות דחופות לחלקי חילוף ומטוסים נוספים"
      ]
     },
     {
-     "actor": "מדינות נאט\"ו",
+     "actor": "רוסיה",
      "declared": [
-      "הגנה על שטחן"
+      "המשך יירוט מתקפות כטב\"ם נרחבות מעל שטח הפדרציה הרוסית וחצי האי קרים",
+      "הגברת הלחץ על אוקראינה לקראת כפיית תנאי שלום"
      ],
      "inferred": [
-      "הרתעה מול רוסיה"
+      "שיבוש נתיבי השיט האזרחיים והמסחריים של אוקראינה בים השחור כדי להביא לבידודה הכלכלי",
+      "שחיקת מערך ההגנה האווירית ותשתיות האנרגיה והתקשורת של קייב באמצעות מטחי טילים מרוכזים"
      ],
      "forecast": [
-      "דיון על הגנה ימית אחרי הפגיעה מול בולגריה"
+      "המשך תקיפות מסיביות בעומק אוקראינה והרחבת האיומים הימיים לכיוון מערב הים השחור"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-06T12:26:06+00:00"
+     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/lithuania-takes-1st-step-to-lift-nuclear-weapons-ban-amid-russian-threat/",
-     "accessed_at": "2026-10-06T12:26:06+00:00"
+     "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-civilian-vessels-in-black-sea-off-bulgarias-coast/",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/10/06/russia-strikes-bridge-over-dnipro-river-in-ukraine-s-zaporizhzhia-injuring-five-including-red-cross-workers",
-     "accessed_at": "2026-10-06T12:26:06+00:00"
+     "url": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056661/",
-     "accessed_at": "2026-10-06T12:26:06+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/06/8056777/",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
+    },
+    {
+     "source_id": "src_tass",
+     "url": "https://tass.com/world/2198453",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
+    },
+    {
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/131472",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48318",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4171471-new-attacks-cause-extensive-damage-to-chonhar-bridge-satellite-imagery.html",
-     "accessed_at": "2026-10-06T12:26:06+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4171608-air-force-intensive-use-is-rapidly-shortening-f16-service-life.html",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/b13ldymome",
+     "accessed_at": "2026-10-07T02:59:20+00:00"
     }
    ]
   },
-  "auto": false,
-  "previous_generated_at": "2026-10-06T09:23:21+00:00",
+  "auto": true,
+  "previous_generated_at": "2026-10-06T12:26:06+00:00",
   "changes": {
-   "UKRAINE-10061226-01": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "תקיפות רוסיות על מתקנים ותשתיות באוקראינה",
-    "score": 1.0
-   },
-   "UKRAINE-10061226-02": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "מתקפת כטב\"מים אוקראינית על מוסקבה ומחוזות ברוסיה",
-    "score": 1.0
-   },
-   "UKRAINE-10061226-03": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "פגיעה בגשרים ובעורקי תחבורה מרכזיים",
-    "score": 1.0
-   },
-   "UKRAINE-10061226-04": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "תקיפה ימית בים השחור ופגיעה באוניית תבואה",
-    "score": 1.0
-   },
-   "UKRAINE-10061226-05": {
+   "UKRAINE-10070259-01": {
     "kind": "new"
    },
-   "UKRAINE-10061226-06": {
-    "kind": "possible",
-    "prev": "חילופי האשמות דיפלומטיות סביב העברת שבויים קוריאניים",
-    "score": 0.4
+   "UKRAINE-10070259-02": {
+    "kind": "new"
    },
-   "UKRAINE-10061226-07": {
+   "UKRAINE-10070259-03": {
     "kind": "same",
-    "from": "verified",
-    "to": "verified",
-    "prev": "משא ומתן ומדדי דעת קהל באוקראינה",
-    "score": 1.0
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "ספינות סוחר הותקפו בים השחור, גם מול בולגריה",
+    "score": 0.65
+   },
+   "UKRAINE-10070259-04": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-05": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-06": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-07": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-08": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-09": {
+    "kind": "new"
+   },
+   "UKRAINE-10070259-10": {
+    "kind": "new"
    }
   }
  },
