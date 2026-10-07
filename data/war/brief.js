@@ -1,95 +1,83 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-06T18:00:00+03:00",
- "generated_at": "2026-10-06T15:55:00+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-07T04:00:00+03:00",
+ "generated_at": "2026-10-07T00:40:12+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10061555-01",
-     "title": "הסרת מפציצים אמריקאיים בבריטניה",
-     "summary": "ארצות הברית הוציאה מפציצים מבסיס בבריטניה בעקבות חשש ממזימת תקיפה בכטב\"מים מצד איראן.",
+     "id": "IRAN-10070040-01",
+     "title": "סגן הנשיא ואנס: על איראן להפחית העשרת אורניום לסיום המלחמה",
+     "summary": "סגן נשיא ארצות הברית הצהיר בראיון כי על איראן לצמצם באופן משמעותי את יכולת העשרת האורניום שלה כדי לסיים את המלחמה הנמשכת זה שבעה חודשים.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T23:46:27+00:00",
+     "last_update_at": "2026-10-06T23:46:27+00:00",
+     "what_is_not_verified": "האופן שבו מתקבלות ההחלטות בטהראן במסגרת המשא ומתן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/exclusive-interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war",
+       "published_at": "2026-10-06T23:46:27+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10070040-02",
+     "title": "הקואליציה בהובלת סעודיה יירטה טיל בליסטי חות'י",
+     "summary": "הקואליציה הודיעה על יירוט והשמדת טיל בליסטי ששוגר על ידי החות'ים לעבר העיר ח'מיס מושייט.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:46:34+00:00",
+     "occurred_at": "2026-10-06T22:04:05+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T15:46:34+00:00",
-     "last_update_at": "2026-10-06T15:50:22+00:00",
-     "what_is_not_verified": "האם איראן אכן הייתה מעורבת במזימה",
+     "first_reported_at": "2026-10-06T22:04:05+00:00",
+     "last_update_at": "2026-10-06T22:04:05+00:00",
+     "what_is_not_verified": "אין אימות עצמאי מעבר להודעת הקואליציה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_us_officials_to_reuters",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-drone-plot-fears-led-us-remove-bombers-uk-base-us-officials-say",
-       "published_at": "2026-10-06T15:50:22+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_us_officials_to_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/iran-drone-plot-fears-led-us-remove-bombers-uk-base-us-officials-say",
-       "published_at": "2026-10-06T15:46:34+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile",
+       "published_at": "2026-10-06T22:04:05+00:00"
       }
      ],
      "places": [
       {
-       "name": "רף פיירפורד, בריטניה",
-       "lat": 51.6851,
-       "lon": -1.7865
+       "name": "ח'מיס מושייט, ערב הסעודית",
+       "lat": 18.3,
+       "lon": 42.7333
       }
      ]
     },
     {
-     "id": "IRAN-10061555-02",
-     "title": "מעצר חשודים בריגול בבריטניה",
-     "summary": "שสาม אזרחים איראנים הואשמו בריגול אחר עיתונאים עבור שירותי הביטחון של איראן.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T14:40:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T14:40:00+00:00",
-     "last_update_at": "2026-10-06T14:40:00+00:00",
-     "what_is_not_verified": "אשמתם המלאה של החשודים בבית המשפט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_prosecutors_to_london_court",
-       "url": "https://www.iranintl.com/en/202610064415",
-       "published_at": "2026-10-06T14:40:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "לונדון, בריטניה",
-       "lat": 51.5074,
-       "lon": -0.1278
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10061555-03",
-     "title": "הקמת צוות משימה משותף לאיראן וקטאר",
-     "summary": "איראן וקטאר סיכמו על הקמת צוות משימה משותף בין משרדי הפנים של שתי המדינות.",
+     "id": "IRAN-10070040-03",
+     "title": "הבנק המרכזי של איראן הזרים שני מיליארד דולר לשוק",
+     "summary": "נגיד הבנק המרכזי של איראן הודיע כי המוסד סיפק שני מיליארד דולר במטבע חוץ לשוק כדי להוכיח שאין מחסור במט\"ח.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:47:14+00:00",
+     "occurred_at": "2026-10-06T22:41:35+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T15:47:14+00:00",
-     "last_update_at": "2026-10-06T15:47:14+00:00",
-     "what_is_not_verified": "פרטי הפעילות המלאים של הצוות",
+     "first_reported_at": "2026-10-06T22:41:35+00:00",
+     "last_update_at": "2026-10-06T22:41:35+00:00",
+     "what_is_not_verified": "היקף יתרות המט\"ח הכולל של איראן בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_2ab3b6c0fc86ecc9",
-       "url": "https://en.irna.ir/news/86285266/Iran-Qatar-to-form-joint-task-force-to-follow-up-on-bilateral",
-       "published_at": "2026-10-06T15:47:14+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-central-bank-says-it-has-no-problem-providing-foreign-currency",
+       "published_at": "2026-10-06T22:41:35+00:00"
       }
      ],
      "places": [
@@ -105,77 +93,83 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10061555-01",
-     "title": "נשיא סוריה הגיע לביקור בסעודיה",
-     "summary": "נשיא סוריה אחמד א-שרע נחת בסעודיה לפגישה רשמית עם יורש העצר.",
+     "id": "NORTH-10070040-01",
+     "title": "פגישת נשיא סוריה עם יורש העצר הסעודי בריאד",
+     "summary": "נשיא סוריה נפגש בערב הסעודית עם יורש העצר מוחמד בן סלמאן כדי לדון בפיתוח היחסים ובהתפתחויות האזוריות.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T12:39:16+00:00",
+     "occurred_at": "2026-10-06T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T12:39:16+00:00",
-     "last_update_at": "2026-10-06T12:39:16+00:00",
-     "what_is_not_verified": "תוצאות הפגישה בפועל",
+     "first_reported_at": "2026-10-06T20:58:24+00:00",
+     "last_update_at": "2026-10-06T20:58:24+00:00",
+     "what_is_not_verified": "פרטי הסיכומים המדויקים בין המנהיגים מעבר להודעות הרשמיות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_telegram_channel",
-       "url": "https://t.me/abualiexpress/131454",
-       "published_at": "2026-10-06T12:39:16+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061555-02",
-     "title": "פריסת כוחות טורקיים בסעודיה",
-     "summary": "טורקיה מתכננת לפרוס כוחות ומערכות הגנה אווירית בסעודיה בעקבות התקפות החות'ים.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:30:46+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T15:30:46+00:00",
-     "last_update_at": "2026-10-06T15:30:46+00:00",
-     "what_is_not_verified": "המועד המדויק של סיום הפריסה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_turkish_officials_to_middle_east_eye",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-deploy-troops-and-air-defence-systems-saudi-arabia-amid-houthi",
-       "published_at": "2026-10-06T15:30:46+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10061555-03",
-     "title": "התבטאות מנהיג חיזבאללה על דרום לבנון",
-     "summary": "ראש חיזבאללה טען כי נסיגת ישראל מדרום לבנון היא בלתי נמנעת.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:30:50+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T15:30:50+00:00",
-     "last_update_at": "2026-10-06T15:30:50+00:00",
-     "what_is_not_verified": "מימוש הטענה בשטח",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_bd10cef951423e31",
-       "url": "https://english.almanar.com.lb/article/135007/",
-       "published_at": "2026-10-06T15:30:50+00:00"
+       "source_id": "src_enabbaladi",
+       "source_root_id": "or_spa",
+       "url": "https://english.enabbaladi.net/archives/2026/10/al-sharaa-meets-mohammed-bin-salman-in-riyadh-to-discuss-closer-ties/",
+       "published_at": "2026-10-06T20:58:24+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרום לבנון",
-       "lat": 39.371,
-       "lon": -84.2128
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10070040-02",
+     "title": "מטוסי קרב ישראליים בגובה נמוך בדרום לבנון",
+     "summary": "כתב רשת אל-מנאר דיווח על גיחות של מטוסי קרב ישראליים בגובה נמוך בשמי דרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T18:16:25+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T18:16:25+00:00",
+     "last_update_at": "2026-10-06T18:16:25+00:00",
+     "what_is_not_verified": "יעדי הטיסות ומטרתן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_f86e7647a73224cb",
+       "url": "https://english.almanar.com.lb/article/135117/",
+       "published_at": "2026-10-06T18:16:25+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10070040-03",
+     "title": "מעצר בכיר בארגון המדינה האסלאמית בסוריה",
+     "summary": "משרד הפנים הסורי הודיע על מעצר מפקד צבאי בכיר בארגון המדינה האסלאמית החשוד בפיגוע במסגד בחומס.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T17:19:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-06T17:19:47+00:00",
+     "last_update_at": "2026-10-06T17:19:47+00:00",
+     "what_is_not_verified": "נסיבות המעצר המדויקות ומקום הימצאו הנוכחי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-senior-isis-operative-accused-of-deadly-2025-homs-mosque-bombing/4080127",
+       "published_at": "2026-10-06T17:19:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חומס, סוריה",
+       "lat": 34.7333,
+       "lon": 36.7167
       }
      ]
     }
@@ -184,188 +178,201 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10061555-01",
-     "title": "מתקפת רחפנים על אניות מסחר מול חופי בולגריה",
-     "summary": "רחפנים בלתי מזוהים תקפו אניות מסחר מול חופי בולגריה, כשאחת מהן טובעת.",
+     "id": "UKRAINE-10070040-01",
+     "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על קייב",
+     "summary": "פיצוצים עזים נשמעו בבירת אוקראינה בעקבות גל תקיפות מרוכז של טילים וכלי טיס בלתי מאוישים מרוסיה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:47:21+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T15:47:21+00:00",
-     "last_update_at": "2026-10-06T15:47:21+00:00",
-     "what_is_not_verified": "זהות אלגמים וגורל אנשי הצוות של האנייה שטבעה",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-07T00:22:56+00:00",
+     "last_update_at": "2026-10-07T00:25:09+00:00",
+     "what_is_not_verified": "מספר הנפגעים והיקף הנזק המדויק מהתקיפות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_bulgarian_prime_minister",
-       "url": "https://meduza.io/en/news/2026/10/06/drones-attack-civilian-ships-off-bulgaria-for-first-time-sinking-one",
-       "published_at": "2026-10-06T15:47:21+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48319",
+       "published_at": "2026-10-07T00:22:56+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+       "published_at": "2026-10-07T00:25:09+00:00"
       }
      ],
      "places": [
       {
-       "name": "חופי בולגריה",
-       "lat": 43.3651,
-       "lon": 28.0192
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     },
     {
-     "id": "UKRAINE-10061555-02",
-     "title": "פגיעת רחפן בניידת משטרה בקרמטורסק",
-     "summary": "רחפן פגוע פגע בניידת משטרה בעיר קרמטורסק וגרם למותו של שוטר.",
+     "id": "UKRAINE-10070040-02",
+     "title": "פגיעה במרכז נתונים של חברת תקשורת בקייב",
+     "summary": "מרכז הנתונים של חברת אומגה טלקום בקייב משבית את פעילותו בעקבות תקיפה צבאית רוסית.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T14:58:00+00:00",
+     "occurred_at": "2026-10-06T21:35:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T14:58:00+00:00",
-     "last_update_at": "2026-10-06T14:58:00+00:00",
-     "what_is_not_verified": "היקף הנזקים הנוספים באזור",
+     "first_reported_at": "2026-10-06T21:35:00+00:00",
+     "last_update_at": "2026-10-06T21:35:00+00:00",
+     "what_is_not_verified": "משך ההשבתה והיקף הנזק התשתיתי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_ebc5170eccdd93bc",
-       "url": "https://www.ukrinform.net/rubric-society/4171635-fpv-drone-strikes-patrol-car-in-kramatorsk-killing-one-person.html",
-       "published_at": "2026-10-06T14:58:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4171493-omega-telecom-data-center-in-kyiv-to-cease-operations-after-russian-attack.html",
+       "published_at": "2026-10-06T21:35:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     },
     {
-     "id": "UKRAINE-10061555-03",
-     "title": "סגירת תיק פלילי נגד מייסדת הוספיס ברוסיה",
-     "summary": "הרשויות ברוסיה ביטלו את תיק הפייק ניוז נגד מייסדת הוספיס הילדים לידה מוניאבה לאחר שנקבע כי מעשיה אינם מהווים פשע.",
+     "id": "UKRAINE-10070040-03",
+     "title": "פציעת שלושה אזרחים ממתקפת רחפן במחוז חרסון",
+     "summary": "שלושה אזרחים נפצעו, בהם ילד בן שש, בעקבות תקיפת כלי טיס בלתי מאויש רוסי בכפר פראבדינה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T15:54:38+00:00",
+     "occurred_at": "2026-10-06T20:52:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T15:54:38+00:00",
-     "last_update_at": "2026-10-06T15:54:38+00:00",
-     "what_is_not_verified": "ההשלכות המשפטיות הנוספות",
+     "first_reported_at": "2026-10-06T20:52:00+00:00",
+     "last_update_at": "2026-10-06T20:52:00+00:00",
+     "what_is_not_verified": "מצבם הרפואי הנוכחי של הפצועים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_support_group_telegram_channel",
-       "url": "https://meduza.io/en/news/2026/10/06/russia-charged-children-s-hospice-founder-lida-moniava-with-spreading-fake-news-about-the-military-over-an-anti-war-post-investigators-now-say-she-committed-no-crime",
-       "published_at": "2026-10-06T15:54:38+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4171733-russian-drone-attack-in-kherson-region-leaves-three-people-injured-including-one-child.html",
+       "published_at": "2026-10-06T20:52:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "פראבדינה, מחוז חרסון, אוקראינה",
+       "lat": 46.7355,
+       "lon": 32.2041
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10061206-01",
-     "title": "צבא ממשלת תימן: העיר מוחא נכבשה מחדש מהחות'ים",
-     "summary": "הכוחות הנתמכים בידי סעודיה הודיעו שהשתלטו מחדש על עיר הנמל מוחא שבחוף המערבי, ושפתחו במתקפת נגד רחבה סמוך למצר באב אל-מנדב.",
-     "axis": "החוף המערבי",
-     "claim_type": "statement",
+     "id": "YEMEN-10070040-01",
+     "title": "תקיפות אוויריות של הקואליציה הסעודית במחוזות איב ותעז",
+     "summary": "מטוסים סעודיים תקפו יעדים במחוז מודיח'ירה שבאיב ובמחוז שרעב שבתעז, כך לפי כלי תקשורת חות'יים.",
+     "axis": "yemen",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T11:35:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-06T11:35:00+00:00",
-     "last_update_at": "2026-10-06T11:35:00+00:00",
-     "what_is_not_verified": "החות'ים מכחישים שאיבדו שטח; אין אימות עצמאי לשליטה בעיר.",
+     "occurred_at": "2026-10-07T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-07T00:25:08+00:00",
+     "last_update_at": "2026-10-07T00:25:08+00:00",
+     "what_is_not_verified": "היקף הנפגעים והנזק כתוצאה מהתקיפות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
-       "published_at": "2026-10-06T11:35:00+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/strikes-reported-yemens-ibb-taiz",
+       "published_at": "2026-10-07T00:25:08+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוחא",
-       "lat": 13.3179,
-       "lon": 43.2501
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10061206-02",
-     "title": "שדות תעופה בדרום סעודיה הותקפו, יש פצועים",
-     "summary": "שדות התעופה בג'יזאן ובנג'ראן הותקפו ונגרמו נזק ופציעות. החות'ים טענו בנוסף שכיוונו טיל לשדה התעופה באבהא, וסעודיה לא אישרה זאת.",
-     "axis": "תקיפות על סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-06T09:39:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-06T09:39:00+00:00",
-     "last_update_at": "2026-10-06T11:35:00+00:00",
-     "what_is_not_verified": "מספר הפצועים והפגיעה באבהא לא אומתו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
-       "published_at": "2026-10-06T11:35:00+00:00"
+       "name": "מודיח'ירה, איב, תימן",
+       "lat": 13.8522,
+       "lon": 43.9637
       },
       {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/liveblog/202610033293",
-       "published_at": "2026-10-06T09:39:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אבהא",
-       "lat": 18.2164,
-       "lon": 42.5044
+       "name": "שרעב, תעז, תימן",
+       "lat": 13.7578,
+       "lon": 43.7672
       }
      ]
     },
     {
-     "id": "YEMEN-10061206-03",
-     "title": "הקואליציה תקפה מתקנים של החות'ים בצנעא",
-     "summary": "מטוסי הקואליציה בהובלת סעודיה תקפו מתקנים של החות'ים בצנעא, במקביל לקרבות בחוף המערבי.",
-     "axis": "צנעא",
+     "id": "YEMEN-10070040-02",
+     "title": "שני פיצוצים בסמוך לנמל התעופה הבינלאומי בעדן",
+     "summary": "שני פיצוצים חזקים נשמעו בסביבת נמל התעופה הבינלאומי של עיר הנמל הדרומית עדן.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-06T11:35:00+00:00",
+     "occurred_at": "2026-10-06T23:42:28+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-06T11:35:00+00:00",
-     "last_update_at": "2026-10-06T11:35:00+00:00",
-     "what_is_not_verified": "היעדים המדויקים ומספר הנפגעים לא פורסמו.",
+     "first_reported_at": "2026-10-06T23:42:28+00:00",
+     "last_update_at": "2026-10-06T23:42:28+00:00",
+     "what_is_not_verified": "גורם הפיצוצים ומידת הנזק או הנפגעים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-blasts-reported-nearby-aden-international-airport",
+       "published_at": "2026-10-06T23:42:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נמל התעופה הבינלאומי עדן, תימן",
+       "lat": 12.8295,
+       "lon": 45.0316
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10070040-03",
+     "title": "החות'ים תקפו שדות תעופה בסעודיה במקביל לקרבות בתעז",
+     "summary": "כוחות חות'יים ביצעו תקיפות נגד נמלי התעופה בג'אזאן ונג'ראן שבערב הסעודית, במקביל לתקיפות אוויריות נגדיות.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-06T21:57:03+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-06T21:57:03+00:00",
+     "last_update_at": "2026-10-06T21:57:03+00:00",
+     "what_is_not_verified": "מידת הנזק שנגרם בשדות התעופה בסעודיה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
-       "published_at": "2026-10-06T11:35:00+00:00"
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/houthis-saudi-led-forces-claim-victories-as-yemen-fighting-rages-on?traffic_source=rss",
+       "published_at": "2026-10-06T21:57:03+00:00"
       }
      ],
      "places": [
       {
-       "name": "צנעא",
-       "lat": 15.3539,
-       "lon": 44.2059
+       "name": "ג'אזאן, ערב הסעודית",
+       "lat": 16.8947,
+       "lon": 42.558
+      },
+      {
+       "name": "נג'ראן, ערב הסעודית",
+       "lat": 17.544,
+       "lon": 44.2247
       }
      ]
     }
-   ],
-   "from_slot": "2026-10-06T12:00:00+03:00"
+   ]
   }
  },
- "skipped": {
-  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (1) (גם בניסיון חוזר)"
- }
+ "skipped": {}
 };

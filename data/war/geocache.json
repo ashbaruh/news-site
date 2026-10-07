@@ -11,6 +11,10 @@
 32.7841,
 35.8706
 ],
+"aden international airport, aden, yemen": [
+12.8295,
+45.0316
+],
 "aden, yemen": [
 12.7896,
 45.0285
@@ -471,6 +475,10 @@
 35.1005,
 36.3496
 ],
+"jazan, saudi arabia": [
+16.8947,
+42.558
+],
 "jbessa, syria": null,
 "jeddah, saudi arabia": [
 21.5504,
@@ -777,6 +785,10 @@
 33.4169,
 35.8564
 ],
+"mudhaykhirah, ibb, yemen": [
+13.8522,
+43.9637
+],
 "muscat, oman": [
 23.6124,
 58.5938
@@ -795,6 +807,10 @@
 "najaf, iraq": [
 32.001,
 44.33
+],
+"najran, saudi arabia": [
+17.544,
+44.2247
 ],
 "new york city, usa": [
 40.7127,
@@ -905,6 +921,10 @@
 "prague, czechia": [
 50.0875,
 14.4213
+],
+"pravdyne, kherson, ukraine": [
+46.7355,
+32.2041
 ],
 "primorsko-akhtarsk, russia": [
 46.0491,
@@ -1025,6 +1045,10 @@
 -8.9216
 ],
 "shaqra, lebanon": null,
+"sharab, taiz, yemen": [
+13.7578,
+43.7672
+],
 "shestakove, ukraine": [
 50.0726,
 36.6254
