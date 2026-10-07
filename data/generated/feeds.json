@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-07T15:17:12+00:00",
-  "fetched_at": "2026-10-07T15:17:12+00:00"
+  "checked_at": "2026-10-07T16:17:21+00:00",
+  "fetched_at": "2026-10-07T16:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T15:17:21+00:00",
-  "fetched_at": "2026-10-07T15:17:21+00:00"
+  "checked_at": "2026-10-07T16:17:32+00:00",
+  "fetched_at": "2026-10-07T16:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T15:17:23+00:00",
-  "fetched_at": "2026-10-07T15:17:23+00:00"
+  "checked_at": "2026-10-07T16:17:34+00:00",
+  "fetched_at": "2026-10-07T16:17:34+00:00"
  },
- "generated_at": "2026-10-07T15:17:23+00:00",
+ "generated_at": "2026-10-07T16:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,19 +92,29 @@
     {
      "title": "אנרכיה בעזה: \"זה כאוס שחמאס מנהל אותו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558666",
-     "date": "2026-10-07T14:54:00+00:00"
+     "date": "2026-10-07T16:11:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "נסיגה בוול סטריט: הדאו ג'ונס יורד בכ-1% בצל הזינוק בתשואות ומחירי הנפט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558590",
+     "date": "2026-10-07T16:11:00+00:00"
+    },
     {
      "title": "הבורסה ננעלה בירידות חדות; ת\"א 90 בשפל של יותר משנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
      "date": "2026-10-07T14:43:00+00:00"
     },
     {
-     "title": "נסיגה בוול סטריט: הדאו ג'ונס יורד בכ-1% בצל הזינוק בתשואות ומחירי הנפט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558590",
-     "date": "2026-10-07T14:05:00+00:00"
+     "title": "מלי וליאל יהלומי נחתו בישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558670",
+     "date": "2026-10-07T13:51:00+00:00"
+    },
+    {
+     "title": "אחרי ארה\"ב, יפן ואירופה: גם הבנק המרכזי של הודו העלה את הריבית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558719",
+     "date": "2026-10-07T13:47:00+00:00"
     },
     {
      "title": "הערכות: דיסקונט ישלם כמיליון שקל לכל עובד מרכנתיל שיפרוש במיזוג",
@@ -125,11 +135,6 @@
      "title": "השחקנית החדשה בתחום הגמל מתקשה לבלוט בתשואות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558691",
      "date": "2026-10-07T09:51:00+00:00"
-    },
-    {
-     "title": "המשטרה: העצורות בנמיביה אינן מלי וליאל יהלומי – אלא מתחזות איראניות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558670",
-     "date": "2026-10-07T08:52:00+00:00"
     },
     {
      "title": "\"מגמה חיובית במחירי ההובלה\": צים מעלה את התחזית השנתית",
@@ -215,17 +220,12 @@
      "title": "ארה\"ב אישרה מכירת אמל\"ח גדולה למדינות האזור, כולל למצרים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558515",
      "date": "2026-10-06T04:51:00+00:00"
-    },
-    {
-     "title": "נאסד\"ק זינק לשיא חדש; מחירי הנפט ירדו, תשואות האג\"ח עלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558344",
-     "date": "2026-10-05T20:02:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T15:17:13+00:00",
-  "fetched_at": "2026-10-07T15:17:13+00:00"
+  "checked_at": "2026-10-07T16:17:22+00:00",
+  "fetched_at": "2026-10-07T16:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T15:17:14+00:00",
-  "fetched_at": "2026-10-07T15:17:14+00:00"
+  "checked_at": "2026-10-07T16:17:23+00:00",
+  "fetched_at": "2026-10-07T16:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2646,8 +2646,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T15:17:15+00:00",
-  "fetched_at": "2026-10-07T15:17:15+00:00"
+  "checked_at": "2026-10-07T16:17:24+00:00",
+  "fetched_at": "2026-10-07T16:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2814,8 +2814,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T15:17:15+00:00",
-  "fetched_at": "2026-10-07T15:17:15+00:00"
+  "checked_at": "2026-10-07T16:17:24+00:00",
+  "fetched_at": "2026-10-07T16:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2830,47 +2830,44 @@
      "translated_by": "google"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/atlassian-partnership",
-     "date": "2026-10-06T16:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/anthropic-claude-startups-api-credits-program/",
+     "date": "2026-10-07T06:17:48+00:00",
      "launch": false,
-     "title_en": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-     "title_he": "Atlassian ו-OpenAI מרחיבים את השותפות כדי להפוך את הידע הארגוני לפעולה",
-     "translated_by": "mymemory"
+     "title": "קרדיטים, ייעוץ וקצת חינמיים: אנת'רופיק משדרגת את תוכנית הסטארטאפים שלה"
     }
    ],
-   "candidates": 5,
+   "candidates": 12,
    "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 184,
+     "likes": 185,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 496,
+     "likes": 498,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 363,
+     "likes": 364,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 113,
+     "likes": 114,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2918,8 +2915,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T15:17:20+00:00",
-  "fetched_at": "2026-10-07T15:17:20+00:00"
+  "checked_at": "2026-10-07T16:17:31+00:00",
+  "fetched_at": "2026-10-07T16:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -3207,8 +3204,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T15:17:17+00:00",
-  "fetched_at": "2026-10-07T15:17:17+00:00"
+  "checked_at": "2026-10-07T16:17:27+00:00",
+  "fetched_at": "2026-10-07T16:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3239,58 +3236,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T15:17:18+00:00",
-  "fetched_at": "2026-10-07T15:17:18+00:00"
+  "checked_at": "2026-10-07T16:17:28+00:00",
+  "fetched_at": "2026-10-07T16:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-07T15:00:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "newest": "2026-10-07T16:11:00+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-07T14:43:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "newest": "2026-10-07T16:11:00+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-07T13:37:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "newest": "2026-10-07T15:12:00+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-07T12:48:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "newest": "2026-10-07T15:13:00+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-07T12:35:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-10T20:59:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-07T15:10:27+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3302,28 +3299,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-07T10:04:32+00:00",
-    "seen_at": "2026-10-07T14:17:39+00:00",
+    "newest": "2026-10-07T16:06:52+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-07T14:31:47+00:00",
-    "seen_at": "2026-10-07T15:17:23+00:00",
+    "seen_at": "2026-10-07T16:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-07T15:17:23+00:00"
+  "checked_at": "2026-10-07T16:17:34+00:00"
  }
 }
