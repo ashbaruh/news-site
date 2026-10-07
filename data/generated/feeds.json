@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-07T04:17:15+00:00",
-  "fetched_at": "2026-10-07T04:17:15+00:00"
+  "checked_at": "2026-10-07T05:17:21+00:00",
+  "fetched_at": "2026-10-07T05:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T04:17:26+00:00",
-  "fetched_at": "2026-10-07T04:17:26+00:00"
+  "checked_at": "2026-10-07T05:17:32+00:00",
+  "fetched_at": "2026-10-07T05:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T04:17:27+00:00",
-  "fetched_at": "2026-10-07T04:17:27+00:00"
+  "checked_at": "2026-10-07T05:17:34+00:00",
+  "fetched_at": "2026-10-07T05:17:34+00:00"
  },
- "generated_at": "2026-10-07T04:17:27+00:00",
+ "generated_at": "2026-10-07T05:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,7 +92,7 @@
     {
      "title": "ואנס חשף את התנאי לסיום המלחמה: \"איראן חייבת לצמצם משמעותית את יכולות ההעשרה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558666",
-     "date": "2026-10-07T03:26:00+00:00"
+     "date": "2026-10-07T04:39:00+00:00"
     }
    ],
    "market": [
@@ -102,7 +102,7 @@
      "date": "2026-10-07T04:12:00+00:00"
     },
     {
-     "title": "מצב השווקים: מחירי הנפט ותשואות האג\"ח עולים, ואיראן מגבירה את המתקפות בהורמוז",
+     "title": "מצב השווקים: הדיווח שמקפיץ את מחירי הנפט והאזהרה של גולדמן זאקס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558590",
      "date": "2026-10-07T04:03:00+00:00"
     },
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T04:17:17+00:00",
-  "fetched_at": "2026-10-07T04:17:17+00:00"
+  "checked_at": "2026-10-07T05:17:22+00:00",
+  "fetched_at": "2026-10-07T05:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T04:17:17+00:00",
-  "fetched_at": "2026-10-07T04:17:17+00:00"
+  "checked_at": "2026-10-07T05:17:23+00:00",
+  "fetched_at": "2026-10-07T05:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2604,8 +2604,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T04:17:19+00:00",
-  "fetched_at": "2026-10-07T04:17:19+00:00"
+  "checked_at": "2026-10-07T05:17:24+00:00",
+  "fetched_at": "2026-10-07T05:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2750,8 +2750,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T04:17:19+00:00",
-  "fetched_at": "2026-10-07T04:17:19+00:00"
+  "checked_at": "2026-10-07T05:17:24+00:00",
+  "fetched_at": "2026-10-07T05:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2764,30 +2764,32 @@
      "title": "רק בכנס הפיתוח של גיקטיים: איך משחררים את צוואר הבקבוק החדש של ה-AI?"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-     "date": "2026-10-06T19:57:04+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/atlassian-partnership",
+     "date": "2026-10-06T16:00:00+00:00",
      "launch": false,
-     "title_en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-     "title_he": "EmbeddingGemma 2: דגם הטבעה מולטי-מודאלי פתוח וקל משקל",
-     "translated_by": "google"
+     "title_en": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+     "title_he": "Atlassian ו-OpenAI מרחיבים את השותפות כדי להפוך את הידע הארגוני לפעולה",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 13,
-   "failed_sources": [],
+   "candidates": 12,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 176,
+     "likes": 177,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 475,
+     "likes": 477,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2808,15 +2810,8 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 206,
+     "likes": 207,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "OpenVuln",
-     "desc_en": "Find bugs in your repository with GLM",
-     "desc_he": "מצא באגים במאגר שלך עם GLM",
-     "likes": 210,
-     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     },
     {
      "title": "JEV-27B Live Demo",
@@ -2824,6 +2819,13 @@
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
      "likes": 94,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
+    },
+    {
+     "title": "OpenVuln",
+     "desc_en": "Find bugs in your repository with GLM",
+     "desc_he": "מצא באגים במאגר שלך עם GLM",
+     "likes": 210,
+     "link": "https://huggingface.co/spaces/zai-org/OpenVuln"
     },
     {
      "title": "ChessFly",
@@ -2849,12 +2851,31 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-07T04:17:25+00:00",
-  "fetched_at": "2026-10-07T04:17:25+00:00"
+  "checked_at": "2026-10-07T05:17:31+00:00",
+  "fetched_at": "2026-10-07T05:17:31+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"כישלון והתבזות\": חיים רביבו מסמן את הטעות הכי גדולה של נבחרת ישראל",
+     "link": "https://sports.walla.co.il/item/3871174",
+     "date": "2026-10-07T05:04:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "8 נק' לשרף, 9 לוולף: ברוקלין הביסה את שארלוט",
+     "link": "https://www.one.co.il/Article/535283.html?ref=rss",
+     "date": "2026-10-07T04:06:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בן שרף",
+      "דני וולף"
+     ]
+    },
     {
      "title": "טור חריף באנגליה נגד מנור סולומון: \"משתמש בבמה שלו באופן דוחה\"",
      "link": "https://sports.walla.co.il/item/3871185",
@@ -2926,15 +2947,6 @@
      "players": [
       "ענאן חלאילי",
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בארה\"ב מסמנים: זו צריכה להיות קפיצת המדרגה הבאה של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3870279",
-     "date": "2026-09-30T04:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3138,8 +3150,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-07T04:17:21+00:00",
-  "fetched_at": "2026-10-07T04:17:21+00:00"
+  "checked_at": "2026-10-07T05:17:27+00:00",
+  "fetched_at": "2026-10-07T05:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3147,6 +3159,11 @@
     "title": "שלוש שנים אחרי 7 באוקטובר: צה\"ל מציג את השינויים - ומה עם הלקח הגדול באמת?",
     "link": "https://www.walla.co.il/news/military/383956557",
     "date": "2026-10-07T02:55:23+00:00"
+   },
+   {
+    "title": "3 שנים לטבח 7 באוקטובר: למה עדיין לא הוגש כתב אישום נגד אף מחבל נוח'בה?",
+    "link": "https://www.walla.co.il/news/military/383956527",
+    "date": "2026-10-07T02:50:56+00:00"
    },
    {
     "title": "אחרי הכשלים ב-7 באוקטובר: צה״ל מקים אוגדה חדשה שתשתתף כבר בלחימה הבאה",
@@ -3162,66 +3179,61 @@
     "title": "\"תקלה מסוכנת\": מ\"פ ומ\"מ בחטיבת הצנחנים יודחו בשל אירוע בטיחות | פרסום ראשון",
     "link": "https://www.walla.co.il/news/military/383956495",
     "date": "2026-10-06T13:15:09+00:00"
-   },
-   {
-    "title": "צה\"ל שכנע את עצמו שהוא מוכן: הקונספציה היבשתית שהתפוצצה לנו בפרצוף",
-    "link": "https://www.walla.co.il/news/military/383956441",
-    "date": "2026-10-06T12:40:53+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-07T04:17:22+00:00",
-  "fetched_at": "2026-10-07T04:17:22+00:00"
+  "checked_at": "2026-10-07T05:17:27+00:00",
+  "fetched_at": "2026-10-07T05:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-07T04:12:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "newest": "2026-10-07T04:39:00+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-07T04:12:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-07T04:03:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-07T01:26:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "newest": "2026-10-07T05:09:00+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-06T19:52:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "newest": "2026-10-07T05:04:00+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-07T04:13:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "newest": "2026-10-07T05:00:00+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-07T02:55:23+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3233,28 +3245,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-02T15:00:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-06T14:00:00+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-05T11:00:53+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-06T15:27:12+00:00",
-    "seen_at": "2026-10-07T04:17:27+00:00",
+    "seen_at": "2026-10-07T05:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-07T04:17:27+00:00"
+  "checked_at": "2026-10-07T05:17:34+00:00"
  }
 }
