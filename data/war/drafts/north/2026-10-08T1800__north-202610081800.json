@@ -1,0 +1,321 @@
+{
+ "status": "draft",
+ "received_sha256_12": "26ea144bec4a",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 3,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-08T18:00:03+00:00",
+  "window": {
+   "from": "2026-10-07T18:00:03+00:00",
+   "to": "2026-10-08T18:00:03+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610081800"
+  },
+  "summary": "הזירה הצפונית מתאפיינת בהמשך העימותים בדרום לבנון הכוללים תקיפות ישראליות ופעילות צבאית, לצד פעילות קרקעית והסלמה ישראלית באזור קוניטרה ודרום סוריה. במקביל, מתנהלים מגעים דיפלומטיים בינלאומיים בנוגע לעתיד כוח יוניפי\"ל ופריסת צבא לבנון, לצד אירועי מחאה מקומיים בסוריה המביעים תמיכה בישראל.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "הפסקת אש שברירית עם הפרות, תקיפות ישראליות ממוקדות ופעילות צבאית מתמשכת"
+   },
+   {
+    "name": "חזית דרום סוריה (קוניטרה וא-סווידא)",
+    "status": "הסלמה בפעילות הקרקעית וההפגזות של צבא ישראל לצד אירועים פוליטיים ומקומיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10081800-01",
+    "title": "תקיפות והתקדמות צבאית של צבא ישראל בקוניטרה ובדרום סוריה",
+    "summary": "כוחות צבא ישראל ביצעו חדירות, סגרו דרכים, ירו לעבר רועי צאן ופצעו ועצרו אדם, לצד הפגזות ארטילריות באזורים שונים בדרום סוריה.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T16:52:25+00:00",
+    "last_update_at": "2026-10-08T17:37:28+00:00",
+    "what_is_not_verified": "היקף הנזקים המלא והאבידות בצד הסורי מעבר לדיווחים הנקודתיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_b2b48eaf5e609c90",
+      "url": "https://english.enabbaladi.net/archives/2026/10/israeli-army-advances-into-quneitra-and-closes-roads/",
+      "published_at": "2026-10-08T17:37:28+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_6f47b4e18dea6f4d",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-outskirts-of-village-in-southern-syria/4082674",
+      "published_at": "2026-10-08T17:32:52+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_b2b48eaf5e609c90",
+      "url": "https://www.newarab.com/news/israeli-forces-killed-least-69-southern-syria-2024",
+      "published_at": "2026-10-08T16:52:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ובאת אל-חשאב, סוריה",
+      "lat": 33.2258,
+      "lon": 35.8341
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10081800-02",
+    "title": "תקיפות אוויריות וירי ארטילרי של צבא ישראל בדרום לבנון",
+    "summary": "הכוחות הישראליים ביצעו תקיפות אוויריות, ירי פוספור, ירי מקלעים ופיצוצים מבוקרים במספר עיירות בדרום לבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T15:56:58+00:00",
+    "last_update_at": "2026-10-08T15:56:58+00:00",
+    "what_is_not_verified": "פרטים מדויקים על נזק לתשфраstructure אזרחי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3e2ba8b9708eb479",
+      "url": "https://english.almanar.com.lb/article/136087/",
+      "published_at": "2026-10-08T15:56:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10081800-03",
+    "title": "עצרת תמיכה בישראל בא-סווידא",
+    "summary": "תומכים של מנהיג הדרוזים בא-סווידא קיימו עצרת והניפו דגלי ישראל ותמונות של ראש ממשלת ישראל ביום השנה לאירועי שביעי באוקטובר.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T19:43:15+00:00",
+    "last_update_at": "2026-10-08T12:09:56+00:00",
+    "what_is_not_verified": "היקף המשתתפים המדויק בעצרת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_77cd3030acb17af1",
+      "url": "https://www.middleeasteye.net/news/hijri-supporters-raise-israeli-flags-sweida-7-october-anniversary",
+      "published_at": "2026-10-08T12:09:56+00:00"
+     },
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_85f846b09c4bbb0b",
+      "url": "https://english.enabbaladi.net/archives/2026/10/suwayda-rally-shows-solidarity-with-israel-on-october-7-anniversary/",
+      "published_at": "2026-10-07T19:43:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10081800-04",
+    "title": "פיצוץ רחפן אימונים של חיזבאללה בדרום לבנון על ידי צבא לבנון",
+    "summary": "צבא לבנון פיצץ רחפן אימונים שהיה שייך לחיזבאללה בשטח בדרום לבנון.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:02:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T00:02:45+00:00",
+    "last_update_at": "2026-10-08T00:02:45+00:00",
+    "what_is_not_verified": "נסיבות הפעלת הרחפן המדויקות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48348",
+      "published_at": "2026-10-08T00:02:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10081800-05",
+    "title": "שיגור מיירט לעבר מטרה שווא בדרום לבנון",
+    "summary": "דובר צה\"ל דיווח כי שוגר מיירט לעבר מטרת שווא במרחב הפעילות של כוחות צה\"ל בדרום לבנון, ללא הפעלת התרעות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T18:20:19+00:00",
+    "last_update_at": "2026-10-07T18:20:19+00:00",
+    "what_is_not_verified": "מהות מטרת השווא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25312",
+      "published_at": "2026-10-07T18:20:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם סוריה תשלח כוחות לחימה לתימן במסגרת מגעים עם סעודיה",
+   "הפרטים המדויקים סביב מתן חסות מודיעיני אמריקאי ולבנוני לקצין הסורי בסאם אל-חסן",
+   "העברת כספים מאיראן לחיזבאללה בסך של מעל 200 מיליון דולר"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0773,
+    "unit": "ILS",
+    "change_pct": 0.31,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-08T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת בגבול הצפון ובסוריה",
+     "אכיפת אזורי חיץ ביטחוניים"
+    ],
+    "inferred": [
+     "פגעה ביכולות צבאיות מקומיות בלבנון ובסוריה",
+     "יצירת לחץ מתמשך על גורמים עוינים בגבולות"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת במרחבי הגבול",
+     "שמירת חופש פעולה אווירי וקרקעי"
+    ]
+   },
+   {
+    "actor": "לבנון / ממשלת לבנון",
+    "declared": [
+     "יישום הסכמי מסגרת והרחבת השליטה של הצבא בדרום הליטאני",
+     "מניעת וואקום ביטחוני לאחר סיום מנדט יוניפי\"ל"
+    ],
+    "inferred": [
+     "ניסיון להיעזר באיחוד האירופי לחיזוק הצבא המקומי",
+     "התמודדות עם לחצים ביטחוניים פנימיים וחיצוניים"
+    ],
+    "forecast": [
+     "מאמץ דיפלומטי להארכת מנדט כוחות שמירת השלום",
+     "המשך פריסת כוחות צבא לבנון בדרום"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההתנגדות לכינונו של עידן כיבוש חדש והגנה על האוכלוסייה",
+     "שיקום וסיוע אזרחי לנפגעים"
+    ],
+    "inferred": [
+     "הסתגלות לתנאי הפסקת האש והשתקמות לאחר מכות קשות",
+     "שימוש במקורות מימון חיצוניים לצורכי שיקום"
+    ],
+    "forecast": [
+     "המשך שיקום תשתיות צבאיות ואזרחיות בסתר ובגלוי",
+     "שמירה על נוכחות בשטח דרום לבנון"
+    ]
+   },
+   {
+    "actor": "סוריה (השלטון החדש)",
+    "declared": [
+     "התמקדות בשיקום פנים המדינה והימנעות מפתיחת חזיתות חדשות",
+     "ניהול מדיניות חוץ מבוססת על יציבות ושיתוף פעולה רשמי"
+    ],
+    "inferred": [
+     "ניסיון לזהות הזדמנויות כלכליות ומדיניות מול שחקנים אזוריים ומערביים",
+     "שמירה על מרחב תמרון מול ישראל והמעצמות"
+    ],
+    "forecast": [
+     "המשך התמודדות עם אתגרים פנימיים וייצוב השלטון",
+     "זהירות מפני הסתבכות בעימותים צבאיים אזוריים ישירים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136087/",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-outskirts-of-village-in-southern-syria/4082674",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/suwayda-rally-shows-solidarity-with-israel-on-october-7-anniversary/",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/hijri-supporters-raise-israeli-flags-sweida-7-october-anniversary",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-forces-killed-least-69-southern-syria-2024",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48348",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25312",
+    "accessed_at": "2026-10-08T18:00:03+00:00"
+   }
+  ]
+ }
+}
