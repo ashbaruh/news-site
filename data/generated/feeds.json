@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T13:17:18+00:00",
-  "fetched_at": "2026-10-08T13:17:18+00:00"
+  "checked_at": "2026-10-08T14:17:23+00:00",
+  "fetched_at": "2026-10-08T14:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T13:17:31+00:00",
-  "fetched_at": "2026-10-08T13:17:31+00:00"
+  "checked_at": "2026-10-08T14:17:37+00:00",
+  "fetched_at": "2026-10-08T14:17:37+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Rega Planar 6 RS Edition",
+    "title_he": "מהדורת Rega Planar 6 RS",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/turntables/rega-planar-6-rs-edition",
+    "date": "2026-10-08T14:13:21+00:00"
+   },
    {
     "title_en": "Amazon announces a new premium tablet line to take on iPad with a “nanomatte” display – and I’ve tried it",
     "title_he": "אמזון מכריזה על קו טאבלט פרימיום חדש ל-iPad עם צג \"ננו-מט\" - וניסיתי אותו",
@@ -67,42 +74,45 @@
     "translated_by": null,
     "link": "https://www.whathifi.com/smartphones-tablets/smartphones/sony-xperia-10-viii",
     "date": "2026-10-07T16:30:28+00:00"
-   },
-   {
-    "title_en": "Astell & Kern PD5",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/hi-fi/portable-music-players/astell-and-kern-pd5",
-    "date": "2026-10-07T13:03:40+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T13:17:34+00:00",
-  "fetched_at": "2026-10-08T13:17:34+00:00"
+  "checked_at": "2026-10-08T14:17:40+00:00",
+  "fetched_at": "2026-10-08T14:17:40+00:00"
  },
- "generated_at": "2026-10-08T13:17:34+00:00",
+ "generated_at": "2026-10-08T14:17:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בוחרים קרן השתלמות לפי טבלת התשואות? בדקנו אם זה עובד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558735",
-     "date": "2026-10-08T12:08:00+00:00"
+     "title": "כך מצאה את עצמה מנכ\"לית רשת המזון מחוץ לעסק שייסד אביה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558868",
+     "date": "2026-10-08T12:37:00+00:00"
     },
     {
      "title": "מאות ק\"מ ממצר הורמוז - מכלית הותקפה במקום חריג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558825",
-     "date": "2026-10-08T12:09:00+00:00"
+     "date": "2026-10-08T13:18:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מגמה שלילית בוול סטריט בהובלת מניות הטכנולוגיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558814",
+     "date": "2026-10-08T13:35:00+00:00"
+    },
+    {
+     "title": "מניית דוניץ צוללת בתל אביב במחזור ענק. מה הסיבות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558883",
+     "date": "2026-10-08T13:23:00+00:00"
+    },
     {
      "title": "בעלים חדשים לברבי? הלחץ על מאטל למכור, והקשר הישראלי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558748",
      "date": "2026-10-08T12:42:00+00:00"
     },
     {
-     "title": "מגמה מעורבת בתל אביב; דוניץ צוללת ב-12% במחזור מסחר ענק",
+     "title": "מגמה מעורבת בתל אביב; נובה וטאואר מאבדות גובה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
      "date": "2026-10-08T12:35:00+00:00"
     },
@@ -130,11 +140,6 @@
      "title": "בגיל 90 שלמה אליהו הופך למנכ\"ל זמני של מגדל אחזקות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558849",
      "date": "2026-10-08T10:35:00+00:00"
-    },
-    {
-     "title": "ירידות באירופה; גם החוזים בניו יורק עברו לירידות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558814",
-     "date": "2026-10-08T10:30:00+00:00"
     },
     {
      "title": "\"השוק בהכחשה\": אנליסטים מזהירים מפני קריסה שמתקרבת בוול סטריט",
@@ -210,17 +215,12 @@
      "title": "עם ותק של שלושה חודשים: המנכ\"ל שפוצץ עסקה של 6.7 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558754",
      "date": "2026-10-07T15:00:00+00:00"
-    },
-    {
-     "title": "הבורסה ננעלה בירידות חדות; ת\"א 90 בשפל של יותר משנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558599",
-     "date": "2026-10-07T14:43:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T13:17:19+00:00",
-  "fetched_at": "2026-10-08T13:17:19+00:00"
+  "checked_at": "2026-10-08T14:17:24+00:00",
+  "fetched_at": "2026-10-08T14:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T13:17:20+00:00",
-  "fetched_at": "2026-10-08T13:17:20+00:00"
+  "checked_at": "2026-10-08T14:17:25+00:00",
+  "fetched_at": "2026-10-08T14:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2886,8 +2886,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T13:17:21+00:00",
-  "fetched_at": "2026-10-08T13:17:21+00:00"
+  "checked_at": "2026-10-08T14:17:26+00:00",
+  "fetched_at": "2026-10-08T14:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3063,8 +3063,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T13:17:21+00:00",
-  "fetched_at": "2026-10-08T13:17:21+00:00"
+  "checked_at": "2026-10-08T14:17:26+00:00",
+  "fetched_at": "2026-10-08T14:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -3144,7 +3144,7 @@
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 170,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -3158,18 +3158,27 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 196,
+     "likes": 197,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T13:17:29+00:00",
-  "fetched_at": "2026-10-08T13:17:29+00:00"
+  "checked_at": "2026-10-08T14:17:35+00:00",
+  "fetched_at": "2026-10-08T14:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בעונה שעברה \"העומס על דני אבדיה היה גדול מדי\". הפעם זה ייפתר?",
+     "link": "https://sports.walla.co.il/item/3871438",
+     "date": "2026-10-08T14:03:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "23 נקודות לאבדיה בניצחון פורטלנד על הווריירס",
      "link": "https://www.one.co.il/Article/535375.html?ref=rss",
@@ -3426,8 +3435,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T13:17:24+00:00",
-  "fetched_at": "2026-10-08T13:17:24+00:00"
+  "checked_at": "2026-10-08T14:17:29+00:00",
+  "fetched_at": "2026-10-08T14:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -3458,91 +3467,91 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T13:17:25+00:00",
-  "fetched_at": "2026-10-08T13:17:25+00:00"
+  "checked_at": "2026-10-08T14:17:32+00:00",
+  "fetched_at": "2026-10-08T14:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T13:04:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T13:35:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-08T12:35:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T13:35:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-08T12:42:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T13:35:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T14:03:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-08T12:36:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T13:44:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-08T12:54:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-08T13:00:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T14:03:00+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T03:06:26+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-08T12:00:43+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-08T13:00:00+00:00",
-    "seen_at": "2026-10-08T13:17:34+00:00",
+    "newest": "2026-10-08T14:13:21+00:00",
+    "seen_at": "2026-10-08T14:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T13:17:34+00:00"
+  "checked_at": "2026-10-08T14:17:40+00:00"
  }
 }
