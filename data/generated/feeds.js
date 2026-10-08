@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T09:02:31+00:00",
-  "fetched_at": "2026-10-08T09:02:31+00:00"
+  "checked_at": "2026-10-08T09:17:30+00:00",
+  "fetched_at": "2026-10-08T09:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T09:02:46+00:00",
-  "fetched_at": "2026-10-08T09:02:46+00:00"
+  "checked_at": "2026-10-08T09:17:42+00:00",
+  "fetched_at": "2026-10-08T09:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T09:02:50+00:00",
-  "fetched_at": "2026-10-08T09:02:50+00:00"
+  "checked_at": "2026-10-08T09:17:45+00:00",
+  "fetched_at": "2026-10-08T09:17:45+00:00"
  },
- "generated_at": "2026-10-08T09:02:50+00:00",
+ "generated_at": "2026-10-08T09:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,14 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "מגמה מעורבת בתל אביב; נקסט ויז'ן מטפסת בכ-4%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
+     "date": "2026-10-08T09:02:00+00:00"
+    },
+    {
      "title": "ירידות באירופה; גם החוזים בניו יורק עברו לירידות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558814",
      "date": "2026-10-08T08:44:00+00:00"
-    },
-    {
-     "title": "עליות בבורסה בתל אביב; נקסט ויז'ן מטפסת במעל 4%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
-     "date": "2026-10-08T08:22:00+00:00"
     },
     {
      "title": "אירופה מקשיחה את החזית מול סין ונערכת להטלת מסי בזק",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T09:02:33+00:00",
-  "fetched_at": "2026-10-08T09:02:33+00:00"
+  "checked_at": "2026-10-08T09:17:32+00:00",
+  "fetched_at": "2026-10-08T09:17:32+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T09:02:34+00:00",
-  "fetched_at": "2026-10-08T09:02:34+00:00"
+  "checked_at": "2026-10-08T09:17:32+00:00",
+  "fetched_at": "2026-10-08T09:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2893,8 +2893,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T09:02:35+00:00",
-  "fetched_at": "2026-10-08T09:02:35+00:00"
+  "checked_at": "2026-10-08T09:17:33+00:00",
+  "fetched_at": "2026-10-08T09:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3070,8 +3070,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T09:02:35+00:00",
-  "fetched_at": "2026-10-08T09:02:35+00:00"
+  "checked_at": "2026-10-08T09:17:33+00:00",
+  "fetched_at": "2026-10-08T09:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -3109,7 +3109,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 522,
+     "likes": 523,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3171,8 +3171,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T09:02:44+00:00",
-  "fetched_at": "2026-10-08T09:02:44+00:00"
+  "checked_at": "2026-10-08T09:17:42+00:00",
+  "fetched_at": "2026-10-08T09:17:42+00:00"
  },
  "abroad": {
   "data": {
@@ -3451,8 +3451,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T09:02:40+00:00",
-  "fetched_at": "2026-10-08T09:02:40+00:00"
+  "checked_at": "2026-10-08T09:17:37+00:00",
+  "fetched_at": "2026-10-08T09:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3483,91 +3483,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T09:02:41+00:00",
-  "fetched_at": "2026-10-08T09:02:41+00:00"
+  "checked_at": "2026-10-08T09:17:37+00:00",
+  "fetched_at": "2026-10-08T09:17:37+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T08:56:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "newest": "2026-10-08T09:06:00+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-08T08:44:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "newest": "2026-10-08T09:02:00+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-08T08:20:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "newest": "2026-10-08T08:44:00+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-08T08:34:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-08T08:22:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-08T08:50:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T03:06:26+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-08T08:22:47+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-08T07:00:00+00:00",
-    "seen_at": "2026-10-08T09:02:50+00:00",
+    "seen_at": "2026-10-08T09:17:45+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T09:02:50+00:00"
+  "checked_at": "2026-10-08T09:17:45+00:00"
  }
 };
