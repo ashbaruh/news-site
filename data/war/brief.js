@@ -1,35 +1,284 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-08T12:00:00+03:00",
- "generated_at": "2026-10-08T09:10:30+00:00",
+ "slot": "2026-10-08T18:00:00+03:00",
+ "generated_at": "2026-10-08T14:40:27+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
-  "iran": {
+  "north": {
    "events": [
     {
-     "id": "IRAN-10080910-01",
-     "title": "הוראה לפנטגון להיערך לחידוש לחימה",
-     "summary": "הפנטגון הורה לפיקוד המרכז של ארצות הברית להשלים את ההכנות לחידוש פעולות לחימה גדולות נגד איראן.",
-     "axis": "איראן והעימות עם ישראל וארה\"ב",
+     "id": "NORTH-10081440-01",
+     "title": "תקיפות אוויריות בדרום לבנון",
+     "summary": "מטוסי קרב של צה\"ל תקפו בכפרים בני חיאן ואלמנצורי שבדרום לבנון.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:18:23+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-08T00:18:23+00:00",
-     "last_update_at": "2026-10-08T00:18:23+00:00",
-     "what_is_not_verified": "לא מאומת האם ההכנות הושלמו בפועל",
+     "occurred_at": "2026-10-08T12:18:52+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T12:18:52+00:00",
+     "last_update_at": "2026-10-08T12:18:52+00:00",
+     "what_is_not_verified": "פרטי הנזק המלאים בשטח אינם מאומתים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_axios",
-       "url": "https://t.me/alexmehacarmel/48349",
-       "published_at": "2026-10-08T00:18:23+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131568",
+       "published_at": "2026-10-08T12:18:52+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אלמנצורי, לבנון",
+       "lat": 33.1737,
+       "lon": 35.2111
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10081440-02",
+     "title": "הכחשה סורית רשמית בנוגע למשלוח כוחות לתימן",
+     "summary": "משרד ההגנה הסורי הכחיש דיווחים לפיהם נשקלת שליחת כוחות צבא סוריים לסעודיה כדי להילחם בחות'ים בתימן.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T08:24:40+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T08:24:40+00:00",
+     "last_update_at": "2026-10-08T08:24:40+00:00",
+     "what_is_not_verified": "האם התקיימו מגעים דיפלומטיים נסתרים בנושא אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131554",
+       "published_at": "2026-10-08T08:24:40+00:00"
       }
      ],
      "places": []
     },
+    {
+     "id": "NORTH-10081440-03",
+     "title": "ירי פגזים ואש לעבר זאוותר א-שרקייה",
+     "summary": "כתב אל-מנאר דיווח על ירי פגזי זרחן ואש לעבר העיירה זאוותר א-שרקייה שבדרום לבנון.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T14:27:21+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T14:27:21+00:00",
+     "last_update_at": "2026-10-08T14:27:21+00:00",
+     "what_is_not_verified": "היקף הנפגעים או הנזק אינו מפורט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_dc8b38e53c0ebe22",
+       "url": "https://english.almanar.com.lb/article/136032/",
+       "published_at": "2026-10-08T14:27:21+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זאוותר א-שרקייה, לבנון",
+       "lat": 33.3237,
+       "lon": 35.4731
+      }
+     ]
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-10081440-01",
+     "title": "מתקפת טילים רוסית על פרילוקי",
+     "summary": "מתקפת טילים של צבא רוסיה על העיר פרילוקי במחוז צ'רניגוב גבתה את חיינם של עשרים ושניים אזרחים, בהם חמישה ילדים.",
+     "axis": "אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T12:27:57+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T12:27:57+00:00",
+     "last_update_at": "2026-10-08T12:27:57+00:00",
+     "what_is_not_verified": "מספר הלכודים תחת ההריסות טרם התברר סופית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48355",
+       "published_at": "2026-10-08T12:27:57+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פרילוקי, אוקראינה",
+       "lat": 50.5951,
+       "lon": 32.3867
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10081440-02",
+     "title": "פגיעת טיל באוטובוסים בקרמטורסק",
+     "summary": "פגיעת תקיפה רוסית בשני אוטובוסים והולכי רגל בעיר קרמטורסק שבמחוז דונייצק גרמה למותם של שלושים בני אדם ולפציעתם של עשרים נוספים.",
+     "axis": "אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T14:38:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T14:38:00+00:00",
+     "last_update_at": "2026-10-08T14:38:00+00:00",
+     "what_is_not_verified": "מצבם המדויק של כל הפצועים אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4172392-russian-strike-hits-two-buses-and-pedestrians-in-kramatorsk-30-killed-20-injured.html",
+       "published_at": "2026-10-08T14:38:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קרמטורסק, אוקראינה",
+       "lat": 48.7389,
+       "lon": 37.5844
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10081440-03",
+     "title": "תקיפת כטב\"מים על בית זיקוק באומסק",
+     "summary": "כטב\"מים אוקראיניים תקפו את בית הזיקוק לנפט באומסק שבסיביר, כאלפיים וחמש מאות קילומטרים מהגבול.",
+     "axis": "אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T14:25:58+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T14:25:58+00:00",
+     "last_update_at": "2026-10-08T14:25:58+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק למתקן הזיקוק אינו ידוע במלואו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+       "published_at": "2026-10-08T14:25:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אומסק, רוסיה",
+       "lat": 54.9914,
+       "lon": 73.3715
+      }
+     ]
+    }
+   ]
+  },
+  "yemen": {
+   "events": [
+    {
+     "id": "YEMEN-10081440-01",
+     "title": "שיגור טילים בסטליסטיים לעבר ריאד",
+     "summary": "החות'ים שיגרו טילים בליסטיים לעבר נמל התעופה הבינלאומי ומוקדים בריאד בירת סעודיה, וקראו לעובדים להתפנות ממתקני נפט.",
+     "axis": "תימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T12:38:11+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T12:38:11+00:00",
+     "last_update_at": "2026-10-08T12:38:11+00:00",
+     "what_is_not_verified": "האם כל הטילים פגעו ביעדיהם אינו מאומת, שכן הקואליציה דיווחה על יירוט חלקם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-warn-staff-leave-saudi-oil-sites",
+       "published_at": "2026-10-08T12:38:11+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10081440-02",
+     "title": "יירוט טילים בליסטיים מעל שמי סעודיה",
+     "summary": "הקואליציה בראשות סעודיה הודיעה כי יירו והשמידו שלושה טילים בליסטיים ששיגרו המיליציות החות'יות לכיוון ריאד וח'מיס משעיט.",
+     "axis": "תימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T13:04:15+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T13:04:15+00:00",
+     "last_update_at": "2026-10-08T13:04:15+00:00",
+     "what_is_not_verified": "אין פירוט על נפגעים בשטח כתוצאה מנפילת שברי היירוט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_1c8b4919a7f4ba25",
+       "url": "https://www.sabanew.net/viewstory/153681",
+       "published_at": "2026-10-08T13:04:15+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      },
+      {
+       "name": "ח'מיס משעיט, סעודיה",
+       "lat": 18.3,
+       "lon": 42.7333
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10081440-03",
+     "title": "שיבושי טיסות והתרעות נסיעה בריאד בעקבות מתקפות",
+     "summary": "מאות טיסות בנמל התעופה של ריאד בוטלו או עוכבו והוכרזה התרעת נסיעה בעקבות הסלמת התקיפות מצד החות'ים מתימן.",
+     "axis": "תימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T12:50:52+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-08T12:50:52+00:00",
+     "last_update_at": "2026-10-08T12:50:52+00:00",
+     "what_is_not_verified": "לוח הזמנים המדויק לחידוש מלא של פעילות התעופה אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/riyadh-airport-issues-travel-alert-houthis-claim-fresh-attack",
+       "published_at": "2026-10-08T12:50:52+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    }
+   ]
+  },
+  "iran": {
+   "events": [
     {
      "id": "IRAN-10080910-02",
      "title": "שוטר איראני נהרג באזור זאהדאן",
@@ -88,275 +337,11 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
-  },
-  "north": {
-   "events": [
-    {
-     "id": "NORTH-10080910-01",
-     "title": "הכחשת מעורבות סורית בסעודיה",
-     "summary": "גורמים רשמיים בסוריה הכחישו דיווחים לפיהם נשלחו כוחות צבאיים סוריים לסייע לסעודיה במערכה מול החות'ים.",
-     "axis": "הגזרה הצפונית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T08:24:40+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T08:24:40+00:00",
-     "last_update_at": "2026-10-08T08:24:40+00:00",
-     "what_is_not_verified": "הטענות המקוריות על עצם שליחת הכוחות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131554",
-       "published_at": "2026-10-08T08:24:40+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10080910-02",
-     "title": "סיכול ניסיון הברחה בגבול סוריה",
-     "summary": "הצבא הלבנוני דיווח כי סיכל מבצע הברחה בגבול עם סוריה באזור ארסאל לאחר חילופי אש.",
-     "axis": "הגזרה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T05:31:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T05:31:29+00:00",
-     "last_update_at": "2026-10-08T05:31:29+00:00",
-     "what_is_not_verified": "זהות המבריחים המלאה אינה מצוינת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_fc24a414c1ea0bb9",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/961768/lebanese-army-foils-smuggling-attempt-near-arsal/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961768",
-       "published_at": "2026-10-08T05:31:29+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ארסאל, לבנון",
-       "lat": 34.1473,
-       "lon": 36.4591
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10080910-03",
-     "title": "ירי ארטילרי ישראלי בדרום לבנון",
-     "summary": "כוחות צבא ישראל ביצעו ירי ארטילרי לעבר מרחבים שונים בדרום לבנון.",
-     "axis": "הגזרה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T08:57:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T08:57:30+00:00",
-     "last_update_at": "2026-10-08T08:57:30+00:00",
-     "what_is_not_verified": "תוצאות מדויקות של הפגיעות בשטח",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_lebanese_state_media",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-artillery-shells-southern-lebanon-as-drones-fly-low-over-tyre/4081952",
-       "published_at": "2026-10-08T08:57:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      }
-     ]
-    }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-10080910-01",
-     "title": "פגיעה במרכז מידע ובתשתיות יאנדקס בריאזאן",
-     "summary": "כטב\"מים אוקראיניים תקפו מתקן שבו שוכן מרכז מידע של חברת יאנדקס בעיר ריאזאן, מה שהוביל לשריפה ולהשבתת חלק מהשירותים.",
-     "axis": "המלחמה בין רוסיה לאוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T08:18:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T08:18:30+00:00",
-     "last_update_at": "2026-10-08T08:18:30+00:00",
-     "what_is_not_verified": "היקף הנזק המלא לכלל שרתי החברה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_meduza_astra_yandex_confirmation",
-       "url": "https://meduza.io/en/news/2026/10/08/ukraine-strikes-yandex-data-center-in-russia-sparking-fire",
-       "published_at": "2026-10-08T08:18:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סאסובו, רוסיה",
-       "lat": 54.3448,
-       "lon": 41.9215
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10080910-02",
-     "title": "תקיפה על בית זיקוק בבשקיריה",
-     "summary": "כטב\"מים אוקראיניים תקפו מתקן זיקוק נפט מרכזי של חברת גזפרום ברפובליקת בשקיריה, וגרמו לפרוץ שריפה.",
-     "axis": "המלחמה בין רוסיה לאוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T07:59:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T07:59:46+00:00",
-     "last_update_at": "2026-10-08T07:59:46+00:00",
-     "what_is_not_verified": "מצב הפעילות המלא של בית הזיקוק לאחר השריפה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_ukrainian_monitoring_channels_and_astra",
-       "url": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan",
-       "published_at": "2026-10-08T07:59:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סלאוואט, רוסיה",
-       "lat": 53.3617,
-       "lon": 55.9246
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10080910-03",
-     "title": "פגיעה באוטובוסים בקרמטורסק",
-     "summary": "כוחות רוסיים תקפו אוטובוסים בעיר קרמטורסק שבמחוז דונייצק, וגרמו למותם של 12 בני אדם ולפציעתם של 14 נוספים.",
-     "axis": "המלחמה בין רוסיה לאוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T08:15:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T08:15:00+00:00",
-     "last_update_at": "2026-10-08T08:15:00+00:00",
-     "what_is_not_verified": "מצבם המדויק של כל הפצועים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_donetsk_oblast_prosecutor_s_office_and_l",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/08/8057011/",
-       "published_at": "2026-10-08T08:15:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
-      }
-     ]
-    }
-   ]
-  },
-  "yemen": {
-   "events": [
-    {
-     "id": "YEMEN-10080910-01",
-     "title": "תקיפת שדות תעופה בסעודיה על ידי החות'ים",
-     "summary": "החות'ים לקחו אחריות על תקיפות באמצעות טילים וכלים מטוסים ללא טייס לעבר נמלי התעופהאבה ומלך ח'אלד בריאד, שגרמו להרוגים ולפצועים אזרחיים.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T03:32:35+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T03:32:35+00:00",
-     "last_update_at": "2026-10-08T03:32:35+00:00",
-     "what_is_not_verified": "היקף הנזק המלא לתשתיות נמלי התעופה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_saudi_officials_and_houthi_claims",
-       "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-08T03:32:35+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10080910-02",
-     "title": "הפלן כטב\"מ מעל תעז",
-     "summary": "החות'ים הודיעו כי הפילו כלי טיס בלתי מאויש מסוג טורקי שביצע פעילות עוינת באזור תעז.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T03:31:24+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T03:31:24+00:00",
-     "last_update_at": "2026-10-08T03:31:24+00:00",
-     "what_is_not_verified": "זהות המפעילים המדויקת של הכטב\"מ מעבר לטענת החות'ים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_houthi_military_spokesperson_yahya_saree",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-drone-shot-down-over-taiz",
-       "published_at": "2026-10-08T03:31:24+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10080910-03",
-     "title": "התקדמות כוחות הממשלה בתימן",
-     "summary": "כוחות הממשלה התימנית הנתמכים בידי סעודיה טוענים להישגים והתקדמות צבאית באזור ההררי של מערב תעז.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T06:16:53+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-08T06:16:53+00:00",
-     "last_update_at": "2026-10-08T06:16:53+00:00",
-     "what_is_not_verified": "מידת השליטה המלאה בשטח המוצהר",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_saudi_backed_yemeni_government_forces",
-       "url": "https://www.newarab.com/news/yemen-govt-advances-gaza-marks-three-years-genocide",
-       "published_at": "2026-10-08T06:16:53+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    }
-   ]
+   ],
+   "from_slot": "2026-10-08T12:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "iran": "אותיות בשפה זרה בתוך הטקסט העברי (1)"
+ }
 };
