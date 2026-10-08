@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T06:17:11+00:00",
-  "fetched_at": "2026-10-08T06:17:11+00:00"
+  "checked_at": "2026-10-08T07:17:15+00:00",
+  "fetched_at": "2026-10-08T07:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T06:17:21+00:00",
-  "fetched_at": "2026-10-08T06:17:21+00:00"
+  "checked_at": "2026-10-08T07:17:24+00:00",
+  "fetched_at": "2026-10-08T07:17:24+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "\"We charged extended lunchtime pub tabs to expenses\" – from litigation to listening rooms; the joys and challenges of producing What Hi-Fi? in a pre-digital era",
+    "title_he": "\"גבינו כרטיסיות ממושכות של פאב צהריים בהוצאות\" - מתדיינות משפטית ועד חדרי האזנה; ההנאות והאתגרים של הפקת What Hi-Fi? בעידן טרום-דיגיטלי",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/we-charged-extended-lunchtime-pub-tabs-to-expenses-from-litigation-to-listening-rooms-the-joys-and-challenges-of-producing-what-hi-fi-in-a-pre-digital-era",
+    "date": "2026-10-08T07:00:00+00:00"
+   },
    {
     "title_en": "Sony Xperia 10 VIII",
     "title_he": null,
@@ -67,44 +74,37 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wired-headphones/looking-for-a-good-pair-of-wired-headphones-these-two-sennheiser-models-are-a-great-step-into-starter-audiophile-territory",
     "date": "2026-10-07T12:53:14+00:00"
-   },
-   {
-    "title_en": "Eversolo's new power amp promises \"clean, detailed and dynamic reproduction\"",
-    "title_he": "מגבר הכוח החדש של Eversolo מבטיח \"שחזור נקי, מפורט ודינמי\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/eversolos-new-power-amp-promises-clean-detailed-and-dynamic-reproduction",
-    "date": "2026-10-07T11:30:03+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T06:17:23+00:00",
-  "fetched_at": "2026-10-08T06:17:23+00:00"
+  "checked_at": "2026-10-08T07:17:27+00:00",
+  "fetched_at": "2026-10-08T07:17:27+00:00"
  },
- "generated_at": "2026-10-08T06:17:23+00:00",
+ "generated_at": "2026-10-08T07:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המפעל הישראלי הראשון שייצר נשק מערבי באזרבייג'ן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558797",
-     "date": "2026-10-08T02:38:00+00:00"
+     "title": "מגמה מעורבת בת\"א; נקסט ויז'ן עולה ב-2%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
+     "date": "2026-10-08T07:12:00+00:00"
     },
     {
      "title": "צבא ארה\"ב הונחה להשלים הכנות לתרחיש של חידוש לחימה רחבה באיראן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558825",
-     "date": "2026-10-08T04:18:00+00:00"
+     "date": "2026-10-08T06:31:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מגמה מעורבת בת\"א; נקסט ויז'ן עולה ב-2%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
+     "date": "2026-10-08T07:01:00+00:00"
+    },
+    {
      "title": "בית השקעות נוסף בדרך לבורסה: הורייזן של איתי ליפקוביץ׳",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558831",
      "date": "2026-10-08T06:07:00+00:00"
-    },
-    {
-     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558762",
-     "date": "2026-10-08T06:04:00+00:00"
     },
     {
      "title": "נפלה העסקה לרכישת 12 מסוקי אפאצ'י מארה\"ב",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T06:17:12+00:00",
-  "fetched_at": "2026-10-08T06:17:12+00:00"
+  "checked_at": "2026-10-08T07:17:16+00:00",
+  "fetched_at": "2026-10-08T07:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T06:17:13+00:00",
-  "fetched_at": "2026-10-08T06:17:13+00:00"
+  "checked_at": "2026-10-08T07:17:16+00:00",
+  "fetched_at": "2026-10-08T07:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2891,8 +2891,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T06:17:14+00:00",
-  "fetched_at": "2026-10-08T06:17:14+00:00"
+  "checked_at": "2026-10-08T07:17:17+00:00",
+  "fetched_at": "2026-10-08T07:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3068,8 +3068,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T06:17:14+00:00",
-  "fetched_at": "2026-10-08T06:17:14+00:00"
+  "checked_at": "2026-10-08T07:17:17+00:00",
+  "fetched_at": "2026-10-08T07:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -3093,31 +3093,28 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 196,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 517,
+     "likes": 518,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 373,
+     "likes": 374,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3131,7 +3128,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 215,
+     "likes": 216,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -3149,18 +3146,18 @@
      "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
     },
     {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 403,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
-    },
-    {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 166,
+     "likes": 168,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
+    },
+    {
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
+     "likes": 402,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Omni Video Factory",
@@ -3172,8 +3169,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T06:17:19+00:00",
-  "fetched_at": "2026-10-08T06:17:19+00:00"
+  "checked_at": "2026-10-08T07:17:23+00:00",
+  "fetched_at": "2026-10-08T07:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -3452,8 +3449,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T06:17:17+00:00",
-  "fetched_at": "2026-10-08T06:17:17+00:00"
+  "checked_at": "2026-10-08T07:17:20+00:00",
+  "fetched_at": "2026-10-08T07:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3484,91 +3481,91 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T06:17:18+00:00",
-  "fetched_at": "2026-10-08T06:17:18+00:00"
+  "checked_at": "2026-10-08T07:17:20+00:00",
+  "fetched_at": "2026-10-08T07:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T06:07:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T07:12:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-08T06:07:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T07:01:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-08T04:53:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-08T05:00:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T06:12:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-08T05:02:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T06:52:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-08T06:00:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T07:05:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T03:06:26+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-08T05:17:40+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-07T16:06:52+00:00",
-    "seen_at": "2026-10-08T05:17:40+00:00",
+    "newest": "2026-10-08T06:33:37+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-07T17:06:44+00:00",
-    "seen_at": "2026-10-08T06:17:23+00:00",
+    "newest": "2026-10-08T07:00:00+00:00",
+    "seen_at": "2026-10-08T07:17:27+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T06:17:23+00:00"
+  "checked_at": "2026-10-08T07:17:27+00:00"
  }
 }
