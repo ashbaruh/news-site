@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T03:17:22+00:00",
-  "fetched_at": "2026-10-08T03:17:22+00:00"
+  "checked_at": "2026-10-08T04:17:15+00:00",
+  "fetched_at": "2026-10-08T04:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T03:17:35+00:00",
-  "fetched_at": "2026-10-08T03:17:35+00:00"
+  "checked_at": "2026-10-08T04:17:25+00:00",
+  "fetched_at": "2026-10-08T04:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T03:17:37+00:00",
-  "fetched_at": "2026-10-08T03:17:37+00:00"
+  "checked_at": "2026-10-08T04:17:28+00:00",
+  "fetched_at": "2026-10-08T04:17:28+00:00"
  },
- "generated_at": "2026-10-08T03:17:37+00:00",
+ "generated_at": "2026-10-08T04:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "\"פשע נגד העם בהודו\": אילון מאסק מאשים את ענקיות התקשורת בהודו בעיכוב השקת סטארלינק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558826",
+     "date": "2026-10-08T03:23:00+00:00"
+    },
     {
      "title": "המניה הביטחונית שנפלה 58% מאז הגיעה לת\"א, ומה הסיכוי שתהפוך ליוניקורן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558766",
@@ -214,11 +219,6 @@ window.DB.generated = {
      "date": "2026-10-06T14:00:00+00:00"
     },
     {
-     "title": "קשר ישראלי: ראש שירות המודיעין הגרמני לשעבר נעצר בחשד לבגידה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558540",
-     "date": "2026-10-06T10:07:00+00:00"
-    },
-    {
      "title": "ניו-מד איימה לבטל את עסקת הענק ורשות התחרות חזרה בה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558529",
      "date": "2026-10-06T09:18:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T03:17:23+00:00",
-  "fetched_at": "2026-10-08T03:17:23+00:00"
+  "checked_at": "2026-10-08T04:17:16+00:00",
+  "fetched_at": "2026-10-08T04:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T03:17:24+00:00",
-  "fetched_at": "2026-10-08T03:17:24+00:00"
+  "checked_at": "2026-10-08T04:17:17+00:00",
+  "fetched_at": "2026-10-08T04:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2893,8 +2893,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T03:17:26+00:00",
-  "fetched_at": "2026-10-08T03:17:26+00:00"
+  "checked_at": "2026-10-08T04:17:19+00:00",
+  "fetched_at": "2026-10-08T04:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3070,8 +3070,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T03:17:26+00:00",
-  "fetched_at": "2026-10-08T03:17:26+00:00"
+  "checked_at": "2026-10-08T04:17:19+00:00",
+  "fetched_at": "2026-10-08T04:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -3095,8 +3095,11 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
-   "failed_sources": [],
+   "candidates": 6,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
@@ -3109,14 +3112,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 513,
+     "likes": 515,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 370,
+     "likes": 371,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3165,14 +3168,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 191,
+     "likes": 192,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T03:17:33+00:00",
-  "fetched_at": "2026-10-08T03:17:33+00:00"
+  "checked_at": "2026-10-08T04:17:25+00:00",
+  "fetched_at": "2026-10-08T04:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3442,8 +3445,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T03:17:29+00:00",
-  "fetched_at": "2026-10-08T03:17:29+00:00"
+  "checked_at": "2026-10-08T04:17:23+00:00",
+  "fetched_at": "2026-10-08T04:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3474,58 +3477,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T03:17:30+00:00",
-  "fetched_at": "2026-10-08T03:17:30+00:00"
+  "checked_at": "2026-10-08T04:17:23+00:00",
+  "fetched_at": "2026-10-08T04:17:23+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T02:53:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "newest": "2026-10-08T03:58:00+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-08T02:47:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-08T02:47:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "newest": "2026-10-08T03:23:00+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-05T05:23:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-07T19:07:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-07T18:44:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-08T03:10:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "newest": "2026-10-08T03:40:00+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T03:06:26+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3537,7 +3540,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3549,16 +3552,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-07T13:00:15+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-07T17:06:44+00:00",
-    "seen_at": "2026-10-08T03:17:37+00:00",
+    "seen_at": "2026-10-08T04:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T03:17:37+00:00"
+  "checked_at": "2026-10-08T04:17:28+00:00"
  }
 };
