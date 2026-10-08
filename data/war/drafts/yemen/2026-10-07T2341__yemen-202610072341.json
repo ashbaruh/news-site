@@ -1,0 +1,238 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7a3879c95266",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 1,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-07T23:41:43+00:00",
+  "window": {
+   "from": "2026-10-06T23:41:43+00:00",
+   "to": "2026-10-07T23:41:43+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610072341"
+  },
+  "summary": "הלחימה בתימן ובמרחב הסובב אותה הסלימה משמעותית, כאשר החות'ים תוקפים באמצעות טילים וכטב\"מים יעדים אזרחיים וצבאיים בסעודיה ובנמל התעופה בעדן, בעוד הקואליציה בראשות סעודיה וכוחות הממשלה התימנית מנהלים מבצעי תקיפה וקרקע רחבים נגד מעוזי החות'ים בחוף הים האדום ובאזור מצר באב אל-מנדב. במקביל, נשקל שיתוף פעולה אזורי רחב יותר הכולל מעורבות של מדינות נוספות כגון פקיסטן וסוריה לצד סעודיה.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה-החות'ים",
+    "status": "פעילה ואינטנסיבית"
+   },
+   {
+    "name": "החזית הימית (הים האדום ובאב אל-מנדב)",
+    "status": "פעילה עם ניסיונות שליטה בנתיבי השיט"
+   },
+   {
+    "name": "החזית הפנים-תימנית",
+    "status": "פעילה עם מתקפות קרקעיות ואוויריות נרחבות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10072341-01",
+    "title": "מתקפת טילים ורחפנים על נמלי תעופה בסעודיה",
+    "summary": "החות'ים תקפו באמצעות טילים בליסטיים ורחפנים את נמלי התעופה אבהא והמלך ח'אלד בריאד, וכן בסיסים צבאיים נוספים. בתקיפות נהרגו שלושה אזרחים ונפצעו עשרות.",
+    "axis": "הזירה החות'ית-סעודית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T08:22:01+00:00",
+    "last_update_at": "2026-10-07T22:07:54+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לכלל המתקנים הצבאיים הנתקפים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/least-three-killed-and-dozens-injured-houthis-strike-saudi-airports",
+      "published_at": "2026-10-07T22:07:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-three-dead-airports-after-houthis-claim-attacks",
+      "published_at": "2026-10-07T18:54:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131533",
+      "published_at": "2026-10-07T18:17:01+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-claim-new-attacks-saudi-arabia-yemens-aden-airport",
+      "published_at": "2026-10-07T08:22:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי אבהא, סעודיה",
+      "lat": 18.2417,
+      "lon": 42.6538
+     },
+     {
+      "name": "נמל התעופה הבינלאומי המלך ח'אלד, סעודיה",
+      "lat": 24.9586,
+      "lon": 46.711
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10072341-02",
+    "title": "פגיעה בנמל התעופה בעדן",
+    "summary": "כוחות חות'ים שיגרו קליע וחומר נפגע לעבר שדה התעופה בעדן סמוך לנחיתת מטוס מקהיר, מה שהוביל להסיט את הטיסה לג'דה.",
+    "axis": "הזירה הפנים-תימנית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T19:45:47+00:00",
+    "last_update_at": "2026-10-07T19:45:47+00:00",
+    "what_is_not_verified": "לא מאומת מידע מפורט על נפגעים נוספים מעבר לפגיעה בתשתיות ובטיסות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/07/houthi-forces-slow-advance-south-west-yemen-taiz-aden-airport",
+      "published_at": "2026-10-07T19:45:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה עדן, תימן",
+      "lat": 12.8295,
+      "lon": 45.0316
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10072341-03",
+    "title": "תקיפות הקואליציה בראשות סעודיה ומבצעי ממשלת תימן",
+    "summary": "הקואליציה בראשות סעודיה השמידה עשרות מטרות צבאיות של החות'ים ברחבי תימן, וכוחות הממשלה התימנית דיווחו על נטרול אלפי לוחמים חות'ים במבצע צבאי.",
+    "axis": "הזירה הפנים-תימנית והסעודית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-07T21:48:29+00:00",
+    "last_update_at": "2026-10-07T22:31:13+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בקרב כוחות החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_925891574119500b",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-say-1860-houthi-fighters-neutralised",
+      "published_at": "2026-10-07T22:31:13+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_0a6da0bd0d6c86a3",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-82-houthi-military-targets-across",
+      "published_at": "2026-10-07T21:48:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים על כך שסעודיה מאפשרת לישראל להשתמש בבסיסים צבאיים בשטחה לאיסוף מודיעין.",
+   "הדיווחים על כך שסוריה שוקלת שליחת כוחות צבא בפועל לסעודיה במסגרת הלחימה."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0679,
+    "unit": "ILS",
+    "change_pct": 0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-07T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות ובהתנהלות של סעודיה והקואליציה",
+     "תמיכה בפלסטינים ובחזיתות האזוריות נגד ישראל"
+    ],
+    "inferred": [
+     "יצירת לחץ על סעודיה ופגיעה בכלכלתה ובסחר הימי",
+     "הרחבת השליטה באזורים אסטרטגיים בתימן ובחופי הים האדום"
+    ],
+    "forecast": [
+     "המשך שיגורי טילים וכטב\"מים לעבר יעדים בסעודיה",
+     "התבצרות במעוזים בתימן למרות מתקפות הקואליציה"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה בהובלתה",
+    "declared": [
+     "הגנה על ביטחון הממלכה, אזרחיה ותשתיותיה",
+     "בלימת התקדמות החות'ים והשבת השליטה בשטחים בתימן ובבאב אל-מנדב"
+    ],
+    "inferred": [
+     "הידוק שיתופי הפעולה הביטחוניים והאזוריים (כגון ברית מכה)",
+     "החלשת היכולות הצבאיות והאסטרטגיות של החות'ים בתימן"
+    ],
+    "forecast": [
+     "המשך המבצעים הצבאיים הקרקעיים והאוויריים בתימן",
+     "חיזוק מערכות ההגנה האווירית והרחבת הבריתות האזוריות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/07/houthi-forces-slow-advance-south-west-yemen-taiz-aden-airport",
+    "accessed_at": "2026-10-07T23:41:43+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-82-houthi-military-targets-across",
+    "accessed_at": "2026-10-07T23:41:43+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-claim-new-attacks-saudi-arabia-yemens-aden-airport",
+    "accessed_at": "2026-10-07T23:41:43+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131533",
+    "accessed_at": "2026-10-07T23:41:43+00:00"
+   }
+  ]
+ }
+}

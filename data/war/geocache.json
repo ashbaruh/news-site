@@ -15,6 +15,10 @@
 32.7841,
 35.8706
 ],
+"aden airport, yemen": [
+12.8295,
+45.0316
+],
 "aden international airport, aden, yemen": [
 12.8295,
 45.0316
@@ -115,6 +119,10 @@
 "arifjan, kuwait": [
 28.899,
 48.1505
+],
+"arsal, lebanon": [
+34.1473,
+36.4591
 ],
 "astana, kazakhstan": [
 51.1283,
@@ -1035,6 +1043,14 @@
 39.7249
 ],
 "russia": null,
+"ryazan, russia": [
+54.6296,
+39.7425
+],
+"rykovo, ukraine": [
+46.3318,
+34.749
+],
 "sa'ada, yemen": null,
 "saada, yemen": [
 16.9409,
@@ -1073,6 +1089,7 @@
 ],
 "sarbin, lebanon": null,
 "saudi arabia": null,
+"saxony-anhalt, germany": null,
 "sejoud, lebanon": [
 33.4323,
 35.5355
