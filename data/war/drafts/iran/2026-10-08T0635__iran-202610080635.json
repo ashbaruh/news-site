@@ -1,0 +1,245 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6c91b39d6444",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "initial": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-08T06:35:12+00:00",
+  "window": {
+   "from": "2026-10-07T06:35:12+00:00",
+   "to": "2026-10-08T06:35:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610080635"
+  },
+  "summary": "הזירה מתאפיינה במתיחות גבוהה בין איראן לבין ארה\"ב וישראל, הכוללת דיווחים על היערכות אפשרית לחידוש הלחימה וחילופי האשמות סביב השליטה במצרי הורמוז והסנקציות הכלכליות. במקביל, נמשכים שיבושים בנתיבי השיט והאנרגיה האזוריים לצד מגעים דיפלומטיים עקיפים וניסיונות גישור.",
+  "fronts": [
+   {
+    "name": "חזית איראן - ארה\"ב וישראל",
+    "status": "פעיל / מתיחות לקראת עימח"
+   },
+   {
+    "name": "חזית המפרץ ומצר הורמוז",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10080635-01",
+    "title": "פגיעה במכלית נפט מול חופי קטאר ועליות בהתקפות במצרי הורמוז",
+    "summary": "סוכנות ימית דיווחה על פגיעה במכלית במספר קליעים מול חופי קטאר ועל עלייה בהתקפות על כלי שיט במצר הורמוז.",
+    "axis": "ציר איראן-ארה\"ב-ישראל והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T02:48:25+00:00",
+    "last_update_at": "2026-10-08T02:48:25+00:00",
+    "what_is_not_verified": "פרטים מלאים על זהות התוקפים ונזקים מדויקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss",
+      "published_at": "2026-10-08T02:48:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10080635-02",
+    "title": "חידוש טיסות בינלאומיות בנמל התעופה הבינלאומי חומייני בטהראן",
+    "summary": "טיסות בינלאומיות חודשו בנמל התעופה בטהראן לאחר השעיה ממושכת בזמן מלחמה, עם נחיתת טיסה מא עיראק.",
+    "axis": "ציר איראן-ארה\"ב-ישראל והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T04:54:26+00:00",
+    "last_update_at": "2026-10-08T04:54:26+00:00",
+    "what_is_not_verified": "לא מאומת מצב מלא של כלל חברות התעופה הזרות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_1e357306d1933f20",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-resumes-flights-imam-khomeini-international-airport",
+      "published_at": "2026-10-08T04:54:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי אימאם חומייני, איראן",
+      "lat": 35.4165,
+      "lon": 51.1448
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10080635-03",
+    "title": "העברת כספים מאיראן לחיזבאללה",
+    "summary": "איראן העבירה סכום כספי לחיזבאללה בלבנון לסיוע לפליטי מלחמה, תוך גביית עמלות על ידי מתווכים.",
+    "axis": "ציר איראן-ישראל",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-07T15:48:42+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-07T15:48:42+00:00",
+    "last_update_at": "2026-10-07T16:26:23+00:00",
+    "what_is_not_verified": "לא מאומתים כל ערוצי ההעברה המדויקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+      "published_at": "2026-10-07T16:26:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131526",
+      "published_at": "2026-10-07T15:48:42+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "ה",
+   "ח",
+   "ל",
+   "ט",
+   "ה",
+   "ס",
+   "ו",
+   "פ",
+   "י",
+   "ת",
+   "ש",
+   "ל",
+   "ה",
+   "נ",
+   "ש",
+   "י",
+   "א",
+   "ט",
+   "ר",
+   "א",
+   "מ",
+   "פ",
+   "ל",
+   "צ",
+   "א",
+   "ת",
+   "ל",
+   "ת",
+   "ק",
+   "י",
+   "פ",
+   "ה",
+   "מ"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0679,
+    "unit": "ILS",
+    "change_pct": 0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-07T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה עצמית נחרצת",
+     "הצבת תנאים ברורים לסיום העימות והחזרת הביטחון למפרץ"
+    ],
+    "inferred": [
+     "ניסיון לעקוף סנקציות כלכליות ותחבורתיות",
+     "המשך תמיכה בשלוחים אזוריים למרות הלחץ הכלכלי"
+    ],
+    "forecast": [
+     "המשך מאמצי הישרדות כלכלית ותמרון דיפלומטי באמצעות מתווכים",
+     "שמירה על נוכחות והשפעה במצרי הורמוז ובמרחב הימי"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת נשק גרעיני מאיראן",
+     "שליטה ובטוחת תנועה במצרי הורמוז"
+    ],
+    "inferred": [
+     "הפעלת לחץ מקסימלי באמצעות איומי מלחמה וסנקציות להשגת כניעה או תנאים נוחים",
+     "בחינת אפשרויות תקיפה נוספות מול התנגדות איראנית"
+    ],
+    "forecast": [
+     "שמירת הכוננות הצבאית הגבוהה באזור",
+     "המשך אכיפת סנקציות כלכליות קשות על משק האנרגיה והתחבורה האיראני"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול איומים איראניים ושלוחיהם",
+     "שמירה על מוכנות ביטחונית גבוהה"
+    ],
+    "inferred": [
+     "תיאום הדוק עם ארה\"ב לקראת פעולות אפשריות נגד תשתיות ליבה באיראן",
+     "מעקב שוטף אחר פעילות חזבאללה וגורמים פרו-איראניים"
+    ],
+    "forecast": [
+     "היערכות להסלמה אפשרית מול איראן ושלוחיה",
+     "המשך פעילות מודיעינית ומבצעית במרחב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss",
+    "accessed_at": "2026-10-08T06:35:12+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-resumes-flights-imam-khomeini-international-airport",
+    "accessed_at": "2026-10-08T06:35:12+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131526",
+    "accessed_at": "2026-10-08T06:35:12+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
+    "accessed_at": "2026-10-08T06:35:12+00:00"
+   }
+  ]
+ }
+}
