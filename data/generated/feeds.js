@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T16:32:14+00:00",
-  "fetched_at": "2026-10-08T16:32:14+00:00"
+  "checked_at": "2026-10-08T17:17:29+00:00",
+  "fetched_at": "2026-10-08T17:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T16:32:25+00:00",
-  "fetched_at": "2026-10-08T16:32:25+00:00"
+  "checked_at": "2026-10-08T17:17:41+00:00",
+  "fetched_at": "2026-10-08T17:17:41+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Our experts gave this Mini LED TV five stars mere days ago – and there’s already 20% off",
+    "title_he": "המומחים שלנו העניקו לטלוויזיית המיני LED הזו חמישה כוכבים לפני ימים ספורים - ויש כבר 20% הנחה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/our-experts-gave-this-mini-led-tv-five-stars-mere-days-ago-and-theres-already-20-percent-off",
+    "date": "2026-10-08T16:39:54+00:00"
+   },
    {
     "title_en": "Apple iPhone 18 Pro",
     "title_he": "אפל אייפון 18 פרו",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/smartphones-tablets/tablets/amazon-announces-a-new-premium-tablet-line-to-take-on-ipad-with-a-nanomatte-display-and-ive-tried-it",
     "date": "2026-10-08T13:00:00+00:00"
-   },
-   {
-    "title_en": "\"We charged extended lunchtime pub tabs to expenses\" – from litigation to listening rooms; the joys and challenges of producing What Hi-Fi? in a pre-digital era",
-    "title_he": "\"גבינו כרטיסיות ממושכות של פאב צהריים בהוצאות\" - מתדיינות משפטית ועד חדרי האזנה; ההנאות והאתגרים של הפקת What Hi-Fi? בעידן טרום-דיגיטלי",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/we-charged-extended-lunchtime-pub-tabs-to-expenses-from-litigation-to-listening-rooms-the-joys-and-challenges-of-producing-what-hi-fi-in-a-pre-digital-era",
-    "date": "2026-10-08T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T16:32:26+00:00",
-  "fetched_at": "2026-10-08T16:32:26+00:00"
+  "checked_at": "2026-10-08T17:17:42+00:00",
+  "fetched_at": "2026-10-08T17:17:42+00:00"
  },
- "generated_at": "2026-10-08T16:32:26+00:00",
+ "generated_at": "2026-10-08T17:17:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,14 +92,14 @@ window.DB.generated = {
      "date": "2026-10-08T15:30:00+00:00"
     },
     {
-     "title": "בצל הדיווחים על תקיפה אפשרית: טהרן במסר מתריס לטראמפ",
+     "title": "טראמפ מבהיר: \"לא נתקוף את איראן לפני בחירות האמצע\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558825",
-     "date": "2026-10-08T16:00:00+00:00"
+     "date": "2026-10-08T16:32:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "הירידות בוול סטריט מתרחבות בהובלת מניות הטכנולוגיה",
+     "title": "וול סטריט נסוגה: ירידות רוחביות במדדים; מחירי הנפט חוצים את רף ה-105 דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558814",
      "date": "2026-10-08T15:42:00+00:00"
     },
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T16:32:15+00:00",
-  "fetched_at": "2026-10-08T16:32:15+00:00"
+  "checked_at": "2026-10-08T17:17:30+00:00",
+  "fetched_at": "2026-10-08T17:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T16:32:16+00:00",
-  "fetched_at": "2026-10-08T16:32:16+00:00"
+  "checked_at": "2026-10-08T17:17:31+00:00",
+  "fetched_at": "2026-10-08T17:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2888,8 +2888,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T16:32:18+00:00",
-  "fetched_at": "2026-10-08T16:32:18+00:00"
+  "checked_at": "2026-10-08T17:17:33+00:00",
+  "fetched_at": "2026-10-08T17:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3065,8 +3065,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T16:32:18+00:00",
-  "fetched_at": "2026-10-08T16:32:18+00:00"
+  "checked_at": "2026-10-08T17:17:33+00:00",
+  "fetched_at": "2026-10-08T17:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -3090,9 +3090,9 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 17,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3106,14 +3106,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 528,
+     "likes": 531,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 380,
+     "likes": 382,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3148,7 +3148,7 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 403,
+     "likes": 405,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -3168,12 +3168,39 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T16:32:24+00:00",
-  "fetched_at": "2026-10-08T16:32:24+00:00"
+  "checked_at": "2026-10-08T17:17:41+00:00",
+  "fetched_at": "2026-10-08T17:17:41+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בלצ'ה מחכים לחזרת גאנדלמן: \"יכול לשנות את ההתקפה\"",
+     "link": "https://sports.walla.co.il/item/3871463",
+     "date": "2026-10-08T17:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
+     "link": "https://sports.walla.co.il/item/3871461",
+     "date": "2026-10-08T17:03:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "דניאל פרץ חזר להתאמן, חלק מאוהדי סאות'המפטון מאבדים סבלנות",
+     "link": "https://sports.walla.co.il/item/3871462",
+     "date": "2026-10-08T16:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "ישחק בראשון? מאמנו של דניאל פרץ בעדכון על מצבו",
      "link": "https://www.one.co.il/Article/535448.html?ref=rss",
@@ -3439,8 +3466,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T16:32:22+00:00",
-  "fetched_at": "2026-10-08T16:32:22+00:00"
+  "checked_at": "2026-10-08T17:17:36+00:00",
+  "fetched_at": "2026-10-08T17:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3471,58 +3498,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T16:32:23+00:00",
-  "fetched_at": "2026-10-08T16:32:23+00:00"
+  "checked_at": "2026-10-08T17:17:37+00:00",
+  "fetched_at": "2026-10-08T17:17:37+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T16:13:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T16:34:00+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-08T15:42:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-08T15:42:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-10-08T14:03:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T17:03:00+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-08T16:23:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T17:14:00+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-08T15:27:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T16:25:00+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-08T16:00:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T17:06:00+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T03:06:26+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3534,28 +3561,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-08T12:00:43+00:00",
-    "seen_at": "2026-10-08T16:17:34+00:00",
+    "newest": "2026-10-08T16:33:34+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-08T15:29:24+00:00",
-    "seen_at": "2026-10-08T16:32:26+00:00",
+    "newest": "2026-10-08T16:39:54+00:00",
+    "seen_at": "2026-10-08T17:17:42+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T16:32:26+00:00"
+  "checked_at": "2026-10-08T17:17:42+00:00"
  }
 };
