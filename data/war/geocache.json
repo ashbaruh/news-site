@@ -385,6 +385,7 @@
 50.0799,
 29.9163
 ],
+"france": null,
 "gdansk, poland": [
 54.3707,
 18.613
@@ -1108,6 +1109,7 @@
 54.3448,
 41.9215
 ],
+"sasovo, ryazan region, russia": null,
 "saudi arabia": null,
 "saxony-anhalt, germany": null,
 "sejoud, lebanon": [
@@ -1117,6 +1119,10 @@
 "semenivka, ukraine": [
 52.1785,
 32.5776
+],
+"seoul, south korea": [
+37.5667,
+126.9783
 ],
 "shannon airport, ireland": [
 52.6987,
