@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-08T19:17:21+00:00",
-  "fetched_at": "2026-10-08T19:17:21+00:00"
+  "checked_at": "2026-10-08T20:17:46+00:00",
+  "fetched_at": "2026-10-08T20:17:46+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T19:17:36+00:00",
-  "fetched_at": "2026-10-08T19:17:36+00:00"
+  "checked_at": "2026-10-08T20:18:20+00:00",
+  "fetched_at": "2026-10-08T20:18:20+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T19:17:36+00:00",
-  "fetched_at": "2026-10-08T19:17:36+00:00"
+  "checked_at": "2026-10-08T20:18:21+00:00",
+  "fetched_at": "2026-10-08T20:18:21+00:00"
  },
- "generated_at": "2026-10-08T19:17:36+00:00",
+ "generated_at": "2026-10-08T20:18:21+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הותר לפרסום: סרן אליאב חיים צפלמוס נפל בקרב בדרום לבנון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558825",
-     "date": "2026-10-08T18:33:00+00:00"
+     "date": "2026-10-08T19:59:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T19:17:24+00:00",
-  "fetched_at": "2026-10-08T19:17:24+00:00"
+  "checked_at": "2026-10-08T20:17:48+00:00",
+  "fetched_at": "2026-10-08T20:17:48+00:00"
  },
  "ifa": {
   "data": [
@@ -723,7 +723,7 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-26",
-    "time": "20:30",
+    "time": "19:00",
     "home": "מכבי חיפה",
     "away": "הפועל ב\"ש",
     "round": "מחזור 8",
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T19:17:25+00:00",
-  "fetched_at": "2026-10-08T19:17:25+00:00"
+  "checked_at": "2026-10-08T20:17:48+00:00",
+  "fetched_at": "2026-10-08T20:17:48+00:00"
  },
  "tv": {
   "data": [
@@ -2888,8 +2888,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-08T19:17:26+00:00",
-  "fetched_at": "2026-10-08T19:17:26+00:00"
+  "checked_at": "2026-10-08T20:17:50+00:00",
+  "fetched_at": "2026-10-08T20:17:50+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3065,8 +3065,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T19:17:26+00:00",
-  "fetched_at": "2026-10-08T19:17:26+00:00"
+  "checked_at": "2026-10-08T20:17:50+00:00",
+  "fetched_at": "2026-10-08T20:17:50+00:00"
  },
  "ai": {
   "data": {
@@ -3090,10 +3090,8 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 18,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 19,
+   "failed_sources": [],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
@@ -3106,7 +3104,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 534,
+     "likes": 535,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3127,7 +3125,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 224,
+     "likes": 226,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -3162,14 +3160,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 198,
+     "likes": 199,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-08T19:17:35+00:00",
-  "fetched_at": "2026-10-08T19:17:35+00:00"
+  "checked_at": "2026-10-08T20:18:20+00:00",
+  "fetched_at": "2026-10-08T20:18:20+00:00"
  },
  "abroad": {
   "data": {
@@ -3466,8 +3464,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-08T19:17:29+00:00",
-  "fetched_at": "2026-10-08T19:17:29+00:00"
+  "checked_at": "2026-10-08T20:18:17+00:00",
+  "fetched_at": "2026-10-08T20:18:17+00:00"
  },
  "idf": {
   "data": [
@@ -3497,8 +3495,9 @@ window.DB.generated = {
     "date": "2026-10-06T18:17:13+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-08T19:17:29+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-08T20:18:17+00:00",
   "fetched_at": "2026-10-08T19:17:29+00:00"
  },
  "feed_health": {
@@ -3506,32 +3505,32 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-08T18:52:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "newest": "2026-10-08T19:59:00+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-08T15:42:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-08T15:42:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-08T17:03:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-08T19:08:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
@@ -3542,8 +3541,8 @@ window.DB.generated = {
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-08T18:56:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "newest": "2026-10-08T20:13:00+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3555,34 +3554,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-08T18:17:37+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-08T16:33:34+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-08T16:39:54+00:00",
-    "seen_at": "2026-10-08T19:17:36+00:00",
+    "seen_at": "2026-10-08T20:18:21+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-08T19:17:36+00:00"
+  "checked_at": "2026-10-08T20:18:21+00:00"
  }
 };
