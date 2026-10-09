@@ -195,6 +195,10 @@
 35.0428
 ],
 "bar'ashit, lebanon": null,
+"barashit, lebanon": [
+33.1785,
+35.4372
+],
 "bashiqa, iraq": [
 36.4505,
 43.3498
@@ -291,6 +295,14 @@
 "camp david, united states": [
 39.6487,
 -77.4651
+],
+"chabahar, iran": [
+25.2935,
+60.6469
+],
+"chernihiv, ukraine": [
+51.4941,
+31.2943
 ],
 "chisinau, moldova": [
 47.0245,
@@ -637,6 +649,10 @@
 "kirsehir, turkey": [
 39.3303,
 34.1266
+],
+"kiryat haim, israel": [
+32.8298,
+35.0637
 ],
 "kostiantynivka, ukraine": [
 48.5349,

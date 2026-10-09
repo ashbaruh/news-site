@@ -1,102 +1,84 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-09T04:00:00+03:00",
- "generated_at": "2026-10-09T00:40:21+00:00",
- "model": "gemini-3.7-flash",
+ "slot": "2026-10-09T12:00:00+03:00",
+ "generated_at": "2026-10-09T08:40:23+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10090040-01",
-     "title": "הודעת טראמפ על שלילת תקיפה באיראן לפני בחירות האמצע",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי ארצו לא תתקוף את איראן לפני בחירות האמצע בנובמבר, וציין כי מתנהלות שיחות פוריות בין הצדדים.",
-     "axis": "ארה\"ב מול איראן",
-     "claim_type": "statement",
+     "id": "IRAN-10090840-01",
+     "title": "הרוגים בעימותים בדרום-מזרח איראן",
+     "summary": "חמישה אנשי ביטחון איראנים לפחות נהרגו במספר מתקפות חמושות שאירעו בדרום-מזרח המדינה.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T08:07:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T16:33:59+00:00",
-     "last_update_at": "2026-10-08T21:57:10+00:00",
-     "what_is_not_verified": "לא מאומת מעבר להצהרתו הפומבית של טראמפ והדיווחים על שיחות.",
+     "first_reported_at": "2026-10-09T08:07:10+00:00",
+     "last_update_at": "2026-10-09T08:07:10+00:00",
+     "what_is_not_verified": "הזהות המדויקת של התוקפים לא פורטה במלואה מעבר לדיווח על מתקפות חמושות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48364",
-       "published_at": "2026-10-08T16:33:59+00:00"
-      },
+       "source_id": "src_iranintl",
+       "source_root_id": "or_haalvsh",
+       "url": "https://www.iranintl.com/en/202610094229",
+       "published_at": "2026-10-09T08:07:10+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10090840-02",
+     "title": "הכחשת פיתוח נשק גרעיני",
+     "summary": "מחוקק איראני הצהיר כי טהראן אינה שואפת לייצר נשק גרעיני וכי תוכניתה מתנהלת בהתאם לאמנה.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-09T06:21:32+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-09T06:21:32+00:00",
+     "last_update_at": "2026-10-09T06:21:32+00:00",
+     "what_is_not_verified": "הצהרה פוליטית שאינה מאומתת בשטח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_nournews",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-lawmaker-rejects-vances-remarks-tehran-seeking-nuclear-weapons",
+       "published_at": "2026-10-09T06:21:32+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10090840-03",
+     "title": "הקצאת קרקע לאפגניסטן בחופה של איראן",
+     "summary": "גורם פרלמנטרי איראני ציין כי הושגה הבנה ראשונית להקצאת שטח בצ'אבהאר עבור שלטון הטליבאן באפגניסטן.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-09T03:48:33+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-09T03:48:33+00:00",
+     "last_update_at": "2026-10-09T03:48:33+00:00",
+     "what_is_not_verified": "ההסכמה בשלב זה היא ראשונית ודורשת מימוש בפועל.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610086381",
-       "published_at": "2026-10-08T21:57:10+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-new-iran-attack-us-midterm-elections",
-       "published_at": "2026-10-08T21:30:23+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10090040-02",
-     "title": "דיווחים על פיצוצים עזים במצר הורמוז",
-     "summary": "כלי תקשורת באיראן דיווחו על סדרת פיצוצים משמעותיים בחלקו הדרומי של מצר הורמוז.",
-     "axis": "מצר הורמוז והמפרץ",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-09T00:00:21+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-09T00:00:21+00:00",
-     "last_update_at": "2026-10-09T00:00:21+00:00",
-     "what_is_not_verified": "סיבת הפיצוצים ונכונות הדיווח שהסתמך על גורמים צבאיים אנונימיים אינן מאומתות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss",
-       "published_at": "2026-10-09T00:00:21+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10090040-03",
-     "title": "פגישת פוטין ופזשכיאן בטורקמניסטן",
-     "summary": "נשיא רוסיה נפגש עם נשיא איראן והתחייב לסייע במאמצים להביא לסיום המלחמה במזרח התיכון.",
-     "axis": "רוסיה ואיראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-08T20:30:24+00:00",
-     "last_update_at": "2026-10-08T22:30:37+00:00",
-     "what_is_not_verified": "לא מאומתים פרטי המעורבות המעשית מעבר להצהרות המדיניות בפסגה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/8/putin-pledges-russias-support-to-end-us-led-war-on-iran?traffic_source=rss",
-       "published_at": "2026-10-08T22:30:37+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/putin-offers-help-iran-end-middle-east-war-ahead-cis-summit",
-       "published_at": "2026-10-08T20:30:24+00:00"
+       "url": "https://www.iranintl.com/en/202610085516",
+       "published_at": "2026-10-09T03:48:33+00:00"
       }
      ],
      "places": [
       {
-       "name": "אוואזה, טורקמניסטן",
-       "lat": 39.9658,
-       "lon": 52.8645
+       "name": "צ'אבהאר, איראן",
+       "lat": 25.2935,
+       "lon": 60.6469
       }
      ]
     }
@@ -105,106 +87,82 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10090040-01",
-     "title": "נפילת קצין צה\"ל בקרב בדרום לבנון",
-     "summary": "דובר צה\"ל הודיע על נפילתו של סרן אליאב חיים צפלמוס מגדוד 603 בקרב בדרום לבנון.",
-     "axis": "דרום לבנון וישראל",
+     "id": "NORTH-10090840-01",
+     "title": "פיזור שברי כטב\"מים בקריית חיים",
+     "summary": "תושב איתר שברי כטב\"מים באזור חוף בקריית חיים, ובהמשך התברר כי מדובר בשאריות מניסוי של חברת רפאל.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T07:43:16+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T18:13:36+00:00",
-     "last_update_at": "2026-10-08T19:29:02+00:00",
-     "what_is_not_verified": "נסיבות האירוע המדויקות אינן אחידות בין דיווחי כלי התקשורת להודעה הרשמית.",
+     "first_reported_at": "2026-10-09T07:43:16+00:00",
+     "last_update_at": "2026-10-09T07:43:16+00:00",
+     "what_is_not_verified": "האם היו שברים נוספים באזורים אחרים שלא אותרו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131593",
-       "published_at": "2026-10-08T18:13:36+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-soldier-killed-3-injured-in-southern-lebanon-as-tel-aviv-continues-to-violate-framework-deal/4082740",
-       "published_at": "2026-10-08T19:29:02+00:00"
+       "source_id": "src_ynet",
+       "source_root_id": "fh_c41ab9782c493762",
+       "url": "https://www.ynet.co.il/news/article/sks08glsme",
+       "published_at": "2026-10-09T07:43:16+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
+       "name": "קריית חיים, ישראל",
+       "lat": 32.8298,
+       "lon": 35.0637
       }
      ]
     },
     {
-     "id": "NORTH-10090040-02",
-     "title": "פגישות ביטחוניות ומדיניות בין טורקיה לסוריה באנקרה",
-     "summary": "ראש המודיעין הטורקי ושר החוץ של טורקיה נפגשו באנקרה עם שר החוץ הסורי לדיונים על תיאום ביטחוני ושילוב כוחות.",
-     "axis": "טורקיה וסוריה",
-     "claim_type": "statement",
+     "id": "NORTH-10090840-02",
+     "title": "ירי פגזים בשולי באר שית",
+     "summary": "ארטילריה ישראלית ירתה לעבר השטחים הסמוכים ליישוב באר שית שבדרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T06:10:15+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T19:07:17+00:00",
-     "last_update_at": "2026-10-08T20:47:00+00:00",
-     "what_is_not_verified": "תוכן הסיכומים בין הצדדים מבוסס על מקורות ביטחוניים ואינו מאומת במלואו.",
+     "first_reported_at": "2026-10-09T06:10:15+00:00",
+     "last_update_at": "2026-10-09T06:10:15+00:00",
+     "what_is_not_verified": "תוצאות הירי והנזק המדויק.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_dailysabah",
+       "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.dailysabah.com/politics/diplomacy/turkish-intelligence-chief-discusses-sdf-integration-with-syrian-fm",
-       "published_at": "2026-10-08T20:47:00+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/turkiyes-intelligence-chief-meets-syrian-foreign-minister-in-ankara/4082808",
-       "published_at": "2026-10-08T20:41:44+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-foreign-ministers-meet-in-ankara/4082732",
-       "published_at": "2026-10-08T19:07:17+00:00"
+       "url": "https://english.almanar.com.lb/article/136182/",
+       "published_at": "2026-10-09T06:10:15+00:00"
       }
      ],
      "places": [
       {
-       "name": "אנקרה, טורקיה",
-       "lat": 39.9208,
-       "lon": 32.854
+       "name": "באר שית, לבנון",
+       "lat": 33.1785,
+       "lon": 35.4372
       }
      ]
     },
     {
-     "id": "NORTH-10090040-03",
-     "title": "התקדמות כוחות ישראליים וחסימת צירים בקוניטרה",
-     "summary": "במחוז קוניטרה דווח על פעילות צבאית ישראלית שכללה חסימת צירים, הקמת אוהלים והצבת כלי רכב משוריינים.",
-     "axis": "דרום סוריה וישראל",
-     "claim_type": "incident",
+     "id": "NORTH-10090840-03",
+     "title": "ירידת מחירי הדלק בלבנון",
+     "summary": "מחירי הדלקים מסוג אוקטן 95 ו-98 וכן הסולר ירדו בלבנון, בעוד מחירי בלוני הגז נותרו ללא שינוי.",
+     "axis": "north",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-08T17:32:52+00:00",
-     "last_update_at": "2026-10-08T17:37:28+00:00",
-     "what_is_not_verified": "אין אימות רשמי ישראלי לפעולות המדווחות בשטח.",
+     "occurred_at": "2026-10-09T03:59:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-09T03:59:28+00:00",
+     "last_update_at": "2026-10-09T03:59:28+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_b2b48eaf5e609c90",
-       "url": "https://english.enabbaladi.net/archives/2026/10/israeli-army-advances-into-quneitra-and-closes-roads/",
-       "published_at": "2026-10-08T17:37:28+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "fh_b2b48eaf5e609c90",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-outskirts-of-village-in-southern-syria/4082674",
-       "published_at": "2026-10-08T17:32:52+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_c88e23ddf501af3b",
+       "url": "https://www.lbcgroup.tv/news/economy/961934/fuel-prices-change-across-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-961934",
+       "published_at": "2026-10-09T03:59:28+00:00"
       }
      ],
      "places": []
@@ -214,132 +172,109 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10090040-01",
-     "title": "מתקפה רוסית קטלנית על קרמטורסק",
-     "summary": "הפצצה רוסית שפגעה באוטובוסים בעיר קרמטורסק גבתה את חייהם של עשרות בני אדם ועוררה ביקורת מצד נשיא אוקראינה.",
-     "axis": "החזית במזרח אוקראינה",
+     "id": "UKRAINE-10090840-01",
+     "title": "שחרור עיתונאי אוקראיני באוסטריה",
+     "summary": "משרד החוץ של אוקראינה דיווח כי עיתונאי האתר פראבדה שנעצר קודם לכן בווינה שחרר לחופשי.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T08:25:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T23:42:44+00:00",
-     "last_update_at": "2026-10-08T23:42:44+00:00",
-     "what_is_not_verified": "מניין הנפגעים הכולל מסתמך על הצהרות גורמים אוקראיניים.",
+     "first_reported_at": "2026-10-09T08:25:00+00:00",
+     "last_update_at": "2026-10-09T08:25:00+00:00",
+     "what_is_not_verified": "הסיבות המדויקות למעצרו המקורי בידי הרשויות באוסטריה לא פורטו במלואן.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/09/ukraine-war-briefing-zelenskyy-criticises-us-calls-for-more-starlink-access-amid-deadly-russian-assault",
-       "published_at": "2026-10-08T23:42:44+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_dd259b78be2a12ae",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057181/",
+       "published_at": "2026-10-09T08:25:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
+       "name": "ווינה, אוסטריה",
+       "lat": 48.2084,
+       "lon": 16.3725
       }
      ]
     },
     {
-     "id": "UKRAINE-10090040-02",
-     "title": "נטרול טילים בליסטיים שלא התפוצצו בקייב",
-     "summary": "מומחי חבלה של משטרת קייב ניטרלו שני טילים בליסטיים רוסיים במשקל חצי טון כל אחד שנפלו סמוך למבני מגורים.",
-     "axis": "העורף האוקראיני",
+     "id": "UKRAINE-10090840-02",
+     "title": "תקיפת מרכז מסחרי בצ'רניגוב",
+     "summary": "כטב\"מים רוסיים תקפו חנות ענק בצ'רניגוב, מה שגרם לפריצת שריפה ולפגיעה בגגות וחלונות של מבנים סמוכים.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T23:41:00+00:00",
+     "occurred_at": "2026-10-09T08:06:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T23:41:00+00:00",
-     "last_update_at": "2026-10-08T23:41:00+00:00",
-     "what_is_not_verified": "לא מאומת מעבר להודעת מומחי החבלה המשטרתיים.",
+     "first_reported_at": "2026-10-09T08:06:00+00:00",
+     "last_update_at": "2026-10-09T08:06:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא בתוך המתחם המסחרי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4172327-half-a-tonne-each-police-neutralize-two-unexploded-ballistic-missiles-that-fell-near-homes-in-kyiv.html",
-       "published_at": "2026-10-08T23:41:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057179/",
+       "published_at": "2026-10-09T08:06:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "צ'רניגוב, אוקראינה",
+       "lat": 51.4941,
+       "lon": 31.2943
       }
      ]
     },
     {
-     "id": "UKRAINE-10090040-03",
-     "title": "החזרת שגריר קוריאה הדרומית מקייב עקב משבר דיפלומטי",
-     "summary": "סיאול החליטה להחזיר את שגרירה בעקבות חשיפת העברת שבויים צפון-קוריאנים מאוקראינה לידיה על ידי נשיא אוקראינה.",
-     "axis": "יחסי חוץ וסיוע בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-10090840-03",
+     "title": "פינוי נפגעים באמצעות רכבים רובוטיים",
+     "summary": "יחידת ארטון של מודיעין ההגנה האוקראיני הפעילה פלטפורמות קרקעיות לא מאוישות לפינוי פצועים והעברת אספקה לחזית.",
+     "axis": "ukraine",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T07:26:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T15:03:07+00:00",
-     "last_update_at": "2026-10-08T15:03:07+00:00",
-     "what_is_not_verified": "פרטי ההסכמות החשאיות בין הצדדים לא אומתו באופן בלתי תלוי.",
+     "first_reported_at": "2026-10-09T07:26:00+00:00",
+     "last_update_at": "2026-10-09T07:26:00+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48361",
-       "published_at": "2026-10-08T15:03:07+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057175/",
+       "published_at": "2026-10-09T07:26:00+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "סיאול, דרום קוריאה",
-       "lat": 37.5667,
-       "lon": 126.9783
-      }
-     ]
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10090040-01",
-     "title": "תקיפת החות'ים נגד נמלי תעופה בסעודיה",
-     "summary": "החות'ים שיגרו טילי שיוט וטילים בליסטיים לעבר נמל התעופה הבינלאומי בריאד, נג'ראן ובסיס אווירי בח'מיס מושיט, וגרמו לנזק למטוסים.",
-     "axis": "תימן מול סעודיה",
-     "claim_type": "incident",
+     "id": "YEMEN-10090840-01",
+     "title": "הכרזת אחריות חות'ית על תקיפת שדות תעופה בסעודיה",
+     "summary": "הדובר הצבאי של החות'ים לקח אחריות על שיגור טילי שיוט וטילים בליסטיים לעבר נמלי התעופה בריאד, נג'ראן ובח'מיס מושיט.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T08:36:05+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-08T16:06:52+00:00",
-     "last_update_at": "2026-10-08T23:30:40+00:00",
-     "what_is_not_verified": "מספר המטוסים המדויק שנפגע ומלוא היקף הנזק אינם מאומתים במלואם.",
+     "first_reported_at": "2026-10-09T08:36:05+00:00",
+     "last_update_at": "2026-10-09T08:36:05+00:00",
+     "what_is_not_verified": "אמינות ההצלחה של הפגיעות ויעילות היירוט מצד מערכות ההגנה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131584",
-       "published_at": "2026-10-08T16:06:52+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-one-plane-severely-damaged-houthis-claim-third-riyadh",
-       "published_at": "2026-10-08T23:30:40+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-nursery-hit-debris-houthis-target-riyadh-airport",
-       "published_at": "2026-10-08T20:21:51+00:00"
+       "url": "https://t.me/abualiexpress/131617",
+       "published_at": "2026-10-09T08:36:05+00:00"
       }
      ],
      "places": [
@@ -347,60 +282,44 @@ window.DB.war_brief = {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
-      },
-      {
-       "name": "נג'ראן, סעודיה",
-       "lat": 17.544,
-       "lon": 44.2247
-      },
-      {
-       "name": "ח'מיס מושיט, סעודיה",
-       "lat": 18.3,
-       "lon": 42.7333
       }
      ]
     },
     {
-     "id": "YEMEN-10090040-02",
-     "title": "מגעים צבאיים בין צרפת לסעודיה להגנת מסוף הנפט בינבוע",
-     "summary": "רמטכ\"ל צבא צרפת מסר כי מדינתו וסעודיה בוחנות אפשרויות להפעלת אמצעים צבאיים צרפתיים לשם הגנה על מסוף הנפט בינבוע שהותקף.",
-     "axis": "סעודיה והקואליציה הבינלאומית",
+     "id": "YEMEN-10090840-02",
+     "title": "התראת החות'ים על המרחב האווירי הסעודי",
+     "summary": "החות'ים פרסמו אזהרה לחברות תעופה אזרחיות להימנע מטיסה בשמי סעודיה עקב היות המרחב זירת לחימה.",
+     "axis": "yemen",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "occurred_at": "2026-10-09T06:46:34+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-08T19:22:39+00:00",
-     "last_update_at": "2026-10-08T19:22:39+00:00",
-     "what_is_not_verified": "האמצעים המבצעיים המדויקים שנשקלים טרם פורטו או אושרו רשמית.",
+     "first_reported_at": "2026-10-09T06:46:34+00:00",
+     "last_update_at": "2026-10-09T06:46:34+00:00",
+     "what_is_not_verified": "תוקף האיומים והאכיפה שלהם בשטח.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-saudi-arabia-weigh-military-options-protect-yanbu-oil-terminal",
-       "published_at": "2026-10-08T19:22:39+00:00"
+       "url": "https://t.me/abualiexpress/131609",
+       "published_at": "2026-10-09T06:46:34+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ינבוע, סעודיה",
-       "lat": 24.089,
-       "lon": 38.0687
-      }
-     ]
+     "places": []
     },
     {
-     "id": "YEMEN-10090040-03",
-     "title": "דיווח הצלב האדום על היקף הנעדרים בתימן",
-     "summary": "הוועד הבינלאומי של הצלב האדום הודיע כי מאז התחדשות הלחימה ביולי התקבלו מעל 1,800 פניות לאיתור נעדרים בתימן.",
-     "axis": "הזירה הפנים-תימנית",
+     "id": "YEMEN-10090840-03",
+     "title": "אלפי דיווחים על נעדרים בתימן",
+     "summary": "הוועד הבינלאומי של הצלב האדום דיווח כי מאז חידוש הלחימה ביולי התקבלו מעל 1,800 פניות על אנשים נעדרים במדינה.",
+     "axis": "yemen",
      "claim_type": "data",
      "lifecycle": "active",
      "occurred_at": "2026-10-09T00:31:47+00:00",
      "is_ongoing": true,
      "first_reported_at": "2026-10-09T00:31:47+00:00",
      "last_update_at": "2026-10-09T00:31:47+00:00",
-     "what_is_not_verified": "גורלם ומצבם של הנעדרים אינם ידועים.",
+     "what_is_not_verified": "מספר הנעדרים הסופי שטרם אותר או זוהה.",
      "is_new_in_window": true,
      "reports": [
       {
