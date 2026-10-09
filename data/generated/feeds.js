@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-09T15:17:12+00:00",
-  "fetched_at": "2026-10-09T15:17:12+00:00"
+  "checked_at": "2026-10-09T15:19:57+00:00",
+  "fetched_at": "2026-10-09T15:19:57+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T15:17:25+00:00",
-  "fetched_at": "2026-10-09T15:17:25+00:00"
+  "checked_at": "2026-10-09T15:20:10+00:00",
+  "fetched_at": "2026-10-09T15:20:10+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T15:17:26+00:00",
-  "fetched_at": "2026-10-09T15:17:26+00:00"
+  "checked_at": "2026-10-09T15:20:10+00:00",
+  "fetched_at": "2026-10-09T15:20:10+00:00"
  },
- "generated_at": "2026-10-09T15:17:26+00:00",
+ "generated_at": "2026-10-09T15:20:10+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T15:17:14+00:00",
-  "fetched_at": "2026-10-09T15:17:14+00:00"
+  "checked_at": "2026-10-09T15:19:58+00:00",
+  "fetched_at": "2026-10-09T15:19:58+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T15:17:14+00:00",
-  "fetched_at": "2026-10-09T15:17:14+00:00"
+  "checked_at": "2026-10-09T15:19:59+00:00",
+  "fetched_at": "2026-10-09T15:19:59+00:00"
  },
  "tv": {
   "data": [
@@ -2886,8 +2886,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T15:17:17+00:00",
-  "fetched_at": "2026-10-09T15:17:17+00:00"
+  "checked_at": "2026-10-09T15:20:01+00:00",
+  "fetched_at": "2026-10-09T15:20:01+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3063,8 +3063,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T15:17:17+00:00",
-  "fetched_at": "2026-10-09T15:17:17+00:00"
+  "checked_at": "2026-10-09T15:20:01+00:00",
+  "fetched_at": "2026-10-09T15:20:01+00:00"
  },
  "ai": {
   "data": {
@@ -3166,8 +3166,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T15:17:25+00:00",
-  "fetched_at": "2026-10-09T15:17:25+00:00"
+  "checked_at": "2026-10-09T15:20:09+00:00",
+  "fetched_at": "2026-10-09T15:20:09+00:00"
  },
  "abroad": {
   "data": {
@@ -3472,8 +3472,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-09T15:17:20+00:00",
-  "fetched_at": "2026-10-09T15:17:20+00:00"
+  "checked_at": "2026-10-09T15:20:05+00:00",
+  "fetched_at": "2026-10-09T15:20:05+00:00"
  },
  "idf": {
   "data": [
@@ -3504,8 +3504,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T15:17:21+00:00",
-  "fetched_at": "2026-10-09T15:17:21+00:00"
+  "checked_at": "2026-10-09T15:20:05+00:00",
+  "fetched_at": "2026-10-09T15:20:05+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3513,49 +3513,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-09T14:17:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-08T17:03:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-09T13:46:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-09T14:53:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-09T14:33:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "newest": "2026-10-09T15:18:00+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T18:16:13+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3567,28 +3567,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-09T15:07:41+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T13:21:26+00:00",
-    "seen_at": "2026-10-09T15:17:26+00:00",
+    "seen_at": "2026-10-09T15:20:10+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-09T15:17:26+00:00"
+  "checked_at": "2026-10-09T15:20:10+00:00"
  }
 };
