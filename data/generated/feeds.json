@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-09T18:17:17+00:00",
-  "fetched_at": "2026-10-09T18:17:17+00:00"
+  "checked_at": "2026-10-09T19:17:15+00:00",
+  "fetched_at": "2026-10-09T19:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T18:17:27+00:00",
-  "fetched_at": "2026-10-09T18:17:27+00:00"
+  "checked_at": "2026-10-09T19:17:33+00:00",
+  "fetched_at": "2026-10-09T19:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T18:17:27+00:00",
-  "fetched_at": "2026-10-09T18:17:27+00:00"
+  "checked_at": "2026-10-09T19:17:34+00:00",
+  "fetched_at": "2026-10-09T19:17:34+00:00"
  },
- "generated_at": "2026-10-09T18:17:27+00:00",
+ "generated_at": "2026-10-09T19:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,10 +92,15 @@
     {
      "title": "התובע הכללי באיחוד האמירויות: טייס המשנה של טיסת פליי-דובאי תכנן להתרסק בנתב\"ג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559007",
-     "date": "2026-10-09T16:46:00+00:00"
+     "date": "2026-10-09T18:55:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "החוקרים שמככבים בבורסת ההימורים על הנובל בכלכלה, והקשר הישראלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558935",
+     "date": "2026-10-09T17:03:00+00:00"
+    },
     {
      "title": "מניית טבע מזנקת במסחר המוקדם אחרי שקיבלה אישור FDA לתרופה לסכיזופרניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559015",
@@ -172,11 +177,6 @@
      "date": "2026-10-08T16:34:00+00:00"
     },
     {
-     "title": "החוקרים שמככבים בבורסת ההימורים על הנובל בכלכלה, והקשר הישראלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558935",
-     "date": "2026-10-08T16:04:00+00:00"
-    },
-    {
      "title": "\"אפשטיין סוטה מינית\": עדות המיליארדר משנות ה־80 נחשפת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558866",
      "date": "2026-10-08T15:30:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T18:17:18+00:00",
-  "fetched_at": "2026-10-09T18:17:18+00:00"
+  "checked_at": "2026-10-09T19:17:17+00:00",
+  "fetched_at": "2026-10-09T19:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T18:17:19+00:00",
-  "fetched_at": "2026-10-09T18:17:19+00:00"
+  "checked_at": "2026-10-09T19:17:17+00:00",
+  "fetched_at": "2026-10-09T19:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2884,8 +2884,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T18:17:21+00:00",
-  "fetched_at": "2026-10-09T18:17:21+00:00"
+  "checked_at": "2026-10-09T19:17:19+00:00",
+  "fetched_at": "2026-10-09T19:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3061,8 +3061,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T18:17:21+00:00",
-  "fetched_at": "2026-10-09T18:17:21+00:00"
+  "checked_at": "2026-10-09T19:17:19+00:00",
+  "fetched_at": "2026-10-09T19:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -3086,9 +3086,9 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 12,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3109,7 +3109,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 400,
+     "likes": 401,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3144,7 +3144,7 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 205,
+     "likes": 206,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -3164,28 +3164,19 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T18:17:26+00:00",
-  "fetched_at": "2026-10-09T18:17:26+00:00"
+  "checked_at": "2026-10-09T19:17:33+00:00",
+  "fetched_at": "2026-10-09T19:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "22:00, ספורט1: מנור סולומון בהרכב ווסטהאם מול ק.פ.ר",
-     "link": "https://sports.walla.co.il/item/3871537",
-     "date": "2026-10-09T17:45:00+00:00",
+     "title": "נבחרת צ'כיה מתחילה להרים ידיים במאבק על אוריין גורן?",
+     "link": "https://sports.walla.co.il/item/3871555",
+     "date": "2026-10-09T19:13:00+00:00",
      "source": "וואלה",
      "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "מנור סולומון פותח בהרכב ווסטהאם מול ק.פ.ר",
-     "link": "https://www.one.co.il/Article/535535.html?ref=rss",
-     "date": "2026-10-09T17:45:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
+      "אוריין גורן"
      ]
     },
     {
@@ -3479,8 +3470,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-09T18:17:24+00:00",
-  "fetched_at": "2026-10-09T18:17:24+00:00"
+  "checked_at": "2026-10-09T19:17:23+00:00",
+  "fetched_at": "2026-10-09T19:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3510,60 +3501,59 @@
     "date": "2026-10-07T02:50:56+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-09T18:17:24+00:00",
-  "fetched_at": "2026-10-09T17:17:35+00:00"
+  "ok": true,
+  "checked_at": "2026-10-09T19:17:23+00:00",
+  "fetched_at": "2026-10-09T19:17:23+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-09T17:08:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "newest": "2026-10-09T18:55:00+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "newest": "2026-10-09T17:08:00+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-09T16:15:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-09T17:45:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "newest": "2026-10-09T19:13:00+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-09T17:06:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-09T17:45:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "newest": "2026-10-09T19:00:00+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-09T16:38:47+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3575,28 +3565,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-09T15:07:41+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T15:28:24+00:00",
-    "seen_at": "2026-10-09T18:17:27+00:00",
+    "seen_at": "2026-10-09T19:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-09T18:17:27+00:00"
+  "checked_at": "2026-10-09T19:17:34+00:00"
  }
 }
