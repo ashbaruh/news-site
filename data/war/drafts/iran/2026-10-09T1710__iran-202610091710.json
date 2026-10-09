@@ -1,0 +1,434 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6e68aa3b9b49",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 2,
+   "verified": 1,
+   "initial": 3,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-09T17:10:07+00:00",
+  "window": {
+   "from": "2026-10-08T17:10:07+00:00",
+   "to": "2026-10-09T17:10:07+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "iran-202610091710"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין בלוחמה ימית במצר הורמוז, לצד מתיחות צבאית מוגברת ועצירת תקיפות ישירות עד לאחר בחירות האמצע בארה\"ב. משמרות המהפכה מאיימים לפגוע בנתיבי שיט אזוריים ולהטיל הגבלות ימיות, בעוד ארה\"ב שומרת על מצור כלכלי ואוכפת מניעת ייצוא נפט איראני. במקביל נמשך הלחץ על רשתות המימון של שלוחות איראן כדוגמת חזבאללה, והתמודדות מול פעולות ביון ומעקבים בזירה הבינלאומית.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "הסלמה ימית, איומי משמרות המהפכה ופגיעה במכליות"
+   },
+   {
+    "name": "הזירה האווירית והאסטרטגית מול ארה\"ב",
+    "status": "דחיית תקיפות אמריקניות ישירות לצד המשך מצור כלכלי והיערכות הפנטגון"
+   },
+   {
+    "name": "ישראל מול ציר איראן",
+    "status": "מתיחות לאחר חיסול ההנהגה האיראנית ומאבק באיומי ריגול"
+   },
+   {
+    "name": "חזית המימון והסנקציות (לבנון/חזבאללה)",
+    "status": "פגיעה בערוצי העברות הכספים מטהראן תחת פיקוח הדוק"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10091710-01",
+    "title": "הצהרת נשיא ארה\"ב על דחיית תקיפה אפשרית באיראן והמשך המצור הימי",
+    "summary": "נשיא ארצות הברית הצהיר על שיחות עם איראן, הבהיר כי לא תבוצע תקיפה צבאית נגדה לפני בחירות האמצע בנובמבר, והדגיש את המשך הפיקוח והמצור על ייצוא הנפט שלה דרך מצר הורמוז.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T16:28:37+00:00",
+    "last_update_at": "2026-10-09T15:45:48+00:00",
+    "what_is_not_verified": "תוכן השיחות הפרודוקטיביות לכאורה והיקף חביות הנפט המדויק שעבר",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131639",
+      "published_at": "2026-10-09T15:45:48+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94556",
+      "published_at": "2026-10-08T16:55:18+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48364",
+      "published_at": "2026-10-08T16:33:59+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131587",
+      "published_at": "2026-10-08T16:28:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10091710-02",
+    "title": "אזהרות ותקיפת כלי שיט בידי חיל הים של משמרות המהפכה במצר הורמוז",
+    "summary": "הזרוע הימית של משמרות המהפכה פרסמה התראות לכלי שיט החורגים מנתיבי התנועה מדרום למצר הורמוז, האשימה את צבא ארה\"ב בהסלמה ימית, ודווח על תקיפת מכליות ושריפת אחת מהן.",
+    "axis": "המפרץ הפרסי ומצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T13:00:06+00:00",
+    "last_update_at": "2026-10-09T15:59:30+00:00",
+    "what_is_not_verified": "פרטי הפגיעה המדויקים בשתי הספינות וזהות המכלית שעלתה באש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_132a209b8c6b5a0e",
+      "url": "https://en.irna.ir/news/86287769/IRGC-warns-vessels-against-violating-designated-routes-in-Strait",
+      "published_at": "2026-10-09T15:59:30+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_d8741b675224879e",
+      "url": "https://en.irna.ir/news/86287702/Aggressive-US-military-bears-responsibility-for-regional-maritime",
+      "published_at": "2026-10-09T14:39:06+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_132a209b8c6b5a0e",
+      "url": "https://t.me/alexmehacarmel/48391",
+      "published_at": "2026-10-09T14:15:06+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_132a209b8c6b5a0e",
+      "url": "https://t.me/lelotsenzura/94566",
+      "published_at": "2026-10-09T13:00:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10091710-03",
+    "title": "גינוי איראני לעמדת צרפת בנושא הרתעה גרעינית",
+    "summary": "דובר משרד החוץ של איראן מתח ביקורת על נשיא צרפת, וטען לקיומם של מוסר כפול ביחס לתפיסת ההרתעה הגרעינית כערובה לביטחון צרפתי לעומת הגדרתה כאיום כשמדובר באיראן.",
+    "axis": "הגרעין האיראני מול המערב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T15:55:18+00:00",
+    "last_update_at": "2026-10-09T15:55:18+00:00",
+    "what_is_not_verified": "לא מאומת תוכנו המלא של הנאום הצרפתי שצוטט בביקורת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_ef1b4ea29d666ceb",
+      "url": "https://en.irna.ir/news/86287738/Iran-slams-French-president-s-double-standard-on-nuclear-deterrence",
+      "published_at": "2026-10-09T15:55:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10091710-04",
+    "title": "בחינה משפטית בפורטוגל לשימוש ארה\"ב בבסיס צבאי בהקשר העימות מול איראן",
+    "summary": "ראש ממשלת פורטוגל הגן על חוקיות השימוש של צבא ארה\"ב בבסיס האווירי לאז'ש לצורכי המלחמה באיראן, בעקבות חקירה שנפתחה לבקשת האופוזיציה והגבלות שהטילו מדינות באירופה.",
+    "axis": "ארה\"ב-אירופה-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T15:46:26+00:00",
+    "last_update_at": "2026-10-09T15:46:26+00:00",
+    "what_is_not_verified": "פרטי הפעילות המבצעית שבוצעה מהבסיס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/portugal-pm-cautions-judiciary-not-get-political-over-us-use-air-base",
+      "published_at": "2026-10-09T15:46:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ליסבון, פורטוגל",
+      "lat": 38.7078,
+      "lon": -9.1366
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10091710-05",
+    "title": "הכנת תוכניות תקיפה בפנטגון ודיונים על החרפת הלחימה באיראן",
+    "summary": "גורמי ביטחון בארה\"ב גיבשו תוכניות לחידוש מערכה צבאית אינטנסיבית נגד יעדי טילים, כטב\"מים, מפקדות ומתקני אנרגיה באיראן, כאשר בדרג המדיני מתקבלות החלטות זהירות יותר.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T06:33:01+00:00",
+    "last_update_at": "2026-10-09T06:33:01+00:00",
+    "what_is_not_verified": "תוכנן המלא של תוכניות הפנטגון מעבר לדיווחים עיתונאיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131604",
+      "published_at": "2026-10-09T06:33:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10091710-06",
+    "title": "מחלוקת פוליטית בישראל סביב השלכות חיסול המנהיג העליון עלי ח'אמנאי",
+    "summary": "מנהיג האופוזיציה יאיר גולן טען כי הריגתו של עלי ח'אמנאי פגעה באינטרסים הישראליים, הובילה לעליית דרג הנהגה קיצוני יותר בראשות בנו מוג'תבא, ולא השיגה את מיטוט המשטר.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T12:51:36+00:00",
+    "last_update_at": "2026-10-09T13:27:39+00:00",
+    "what_is_not_verified": "פרטי הדיונים המדיניים וההבטחות שניתנו לממשל האמריקני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yair-golan-says-killing-khamenei-was-mistake-israel",
+      "published_at": "2026-10-09T13:27:39+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/politics/article/21588808",
+      "published_at": "2026-10-09T13:12:24+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/elections2026/article/hysibv8sgl",
+      "published_at": "2026-10-09T12:51:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראשון לציון, ישראל",
+      "lat": 31.9636,
+      "lon": 34.8101
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10091710-07",
+    "title": "בחינת צירי מימון איראניים לארגון חזבאללה תחת לחץ הסנקציות",
+    "summary": "הסנקציות של ארצות הברית מגבילות את ערוצי ההעברה של איראן לחזבאללה, אך נטען כי כספים ממשיכים לזרום דרך חלפנים, אגודות סיוע וצינורות עוקפים בעקבות שיבוש נתיבים בעיראק ובדובאי.",
+    "axis": "סנקציות ומימון שלוחות",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T16:45:08+00:00",
+    "last_update_at": "2026-10-09T16:45:08+00:00",
+    "what_is_not_verified": "העברת 200 מיליון דולר בספטמבר אשר הוכחשה על ידי מחלקת המדינה האמריקנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/hezbollahs-financial-lifeline-extends-beyond-irans-cash-transfers/",
+      "published_at": "2026-10-09T16:45:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10091710-08",
+    "title": "העמדה לדין בלונדון על ריגול עבור איראן נגד יעדים ישראליים ויהודיים",
+    "summary": "בבית משפט בבריטניה הוגשו כתבי אישום נגד גברים המואשמים בביצוע מעקבים עבור איראן אחר שגרירות ישראל, בית כנסת ואתרים נוספים, אשר כפרו באשמה.",
+    "axis": "ישראל-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T10:54:48+00:00",
+    "last_update_at": "2026-10-09T10:54:48+00:00",
+    "what_is_not_verified": "אשמתם של הנאשמים והיקף הקשר הישיר למנגנוני הביטחון באיראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610091841",
+      "published_at": "2026-10-09T10:54:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת העברת 200 מיליון דולר מאיראן לחזבאללה בספטמבר, שהוכחשה בידי מחלקת המדינה האמריקנית",
+   "דיווח על תקיפת שתי ספינות במצר הורמוז תוך שעה ממקורות לא רשמיים",
+   "קיומן של שיחות ישירות מפורטות בין הממשל האמריקני להנהגת איראן והישגיהן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הימנעות מתקיפה צבאית באיראן לפני בחירות האמצע בנובמבר",
+     "השארת המצור הכלכלי והימי על איראן במלוא עוצמתו",
+     "מניעה מוחלטת של השגת נשק גרעיני בידי איראן"
+    ],
+    "inferred": [
+     "רצון למנוע זינוק במחירי הנפט והסתבכות צבאית לקראת מערכת הבחירות",
+     "הכנת חלופות מבצעיות לתקיפה ממוקדת של מאגרי טילים וכטב\"מים למקרה של כישלון המגעים"
+    ],
+    "forecast": [
+     "המשך אכיפה קפדנית של המצור הימי ללא פתיחת מערכה נרחבת בטווח הזמן המיידי"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הטלת מגבלות תנועה ורדיפת כלי שיט החורגים מהנחיות השייט באזור המפרץ",
+     "הטלת האחריות להסלמה הימית על הפעילות הצבאית של ארה\"ב",
+     "דחיית הטענות המערביות נגד תוכנית ההרתעה שלה"
+    ],
+    "inferred": [
+     "שימוש בשיבוש נתיבי הנפט במצר הורמוז כמנוף לחץ נגד המצור הכלכלי",
+     "שימור ערוצי מימון עקיפים עבור חזבאללה למרות הסנקציות"
+    ],
+    "forecast": [
+     "המשך חיכוך יזום ופעולות נקודתיות נגד מכליות שיט ללא גלישה למלחמה כוללת"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הצבת יעד אסטרטגי למיטוט המשטר באיראן (לפי ביקורת האופוזיציה)"
+    ],
+    "inferred": [
+     "המשך סיכול רשתות ביון ופגיעה בשרשרת הפיקוד של איראן ושלוחותיה",
+     "חשש מהקצנת המדיניות של ההנהגה החדשה בטהראן"
+    ],
+    "forecast": [
+     "היערכות לתגובות מצד הציר האיראני תוך המשך מאמצי סיכול ממוקדים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/portugal-pm-cautions-judiciary-not-get-political-over-us-use-air-base",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/hezbollahs-financial-lifeline-extends-beyond-irans-cash-transfers/",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610091841",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86287738/Iran-slams-French-president-s-double-standard-on-nuclear-deterrence",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21588808",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yair-golan-says-killing-khamenei-was-mistake-israel",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131604",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48391",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94566",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hysibv8sgl",
+    "accessed_at": "2026-10-09T17:10:07+00:00"
+   }
+  ]
+ }
+}

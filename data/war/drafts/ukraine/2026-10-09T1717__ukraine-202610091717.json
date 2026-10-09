@@ -1,0 +1,279 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c680ace80101",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-09T17:17:29+00:00",
+  "window": {
+   "from": "2026-10-08T17:17:29+00:00",
+   "to": "2026-10-09T17:17:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610091717"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת, כאשר רוסיה ממשיכה בתקיפות נרחבות נגד תשתיות אנרגיה וריכוזי אוכלוסייה באוקראינה, ומנגד אוקראינה מבצעת תקיפות רחפנים ושיבושים בשטחי רוסיה. במישור הדיפלומטי והבינלאומי, מתקיימים דיונים על הסכמים עתידיים והפסקות אש חלקיות סביב מתקני אנרגיה, לצד מאבק מתמשך בסנקציות ובפעילות מודיעינית ברחבי אירופה.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (דניפרופטרובסק / קראמטורסק)",
+    "status": "פעיל וקונבנציונלי"
+   },
+   {
+    "name": "מרחב האוויר והעורף של רוסיה",
+    "status": "תחת תקיפות כטב\"מים ושיבושים"
+   },
+   {
+    "name": "חזית האנרגיה והתשתיות של אוקראינה",
+    "status": "תחת מתקפה רוסית והפסקות חשמל"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10091717-01",
+    "title": "תקיפות אוקראיניות ושיבושים ברוסיה",
+    "summary": "תושבים במוסקבה ובסנקט פטרבורג נתקלו בקשיים בהזמנת מוניות יאנדקס עקב תקיפות על מרכזי המידע של החברה, ובנוסף דווח על תקיפות רחפנים ובלונים באזורים שונים ברוסיה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T16:30:44+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T16:30:44+00:00",
+    "last_update_at": "2026-10-09T17:16:24+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למרכזי המידע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/48397",
+      "published_at": "2026-10-09T17:16:24+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://kyivindependent.com/russian-airports-closed-amid-alleged-ukrainian-balloon-and-drone-raid/",
+      "published_at": "2026-10-09T16:30:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10091717-02",
+    "title": "מתקפות רוסיות במחוז דניפרופטרובסק",
+    "summary": "כוחות רוסיים ביצעו עשרות מתקפות באמצעות כטב\"מים, ארטילריה וטילים במחוז דניפרופטרובסק, מה שהוביל להרוג אחד ולנזק לתשתיות ולעסקים.",
+    "axis": "חזית המזרח והדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T16:08:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T16:08:00+00:00",
+    "last_update_at": "2026-10-09T16:08:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על כלל היעדים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_86a507712832d3da",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057257/",
+      "published_at": "2026-10-09T16:08:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניקופול, אוקראינה",
+      "lat": 47.5692,
+      "lon": 34.3917
+     },
+     {
+      "name": "קריבי ריה, אוקראינה",
+      "lat": 47.9103,
+      "lon": 33.3918
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10091717-03",
+    "title": "מעצר אנשי תקשורת במונטנגרו ובאסטריה",
+    "summary": "מונטנגרו גירשה את ראש רשת ריבאר ואזרחים רוסים נוספים מטעמי ביטחון, ובמקביל נעצרו באוסטריה עיתונאים ואנשים החשודים בריגול.",
+    "axis": "עורף ודיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T15:13:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T15:13:55+00:00",
+    "last_update_at": "2026-10-09T16:20:13+00:00",
+    "what_is_not_verified": "האם העצורים באוסטריה אכן עסקו בריגול בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48396",
+      "published_at": "2026-10-09T16:20:13+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48394",
+      "published_at": "2026-10-09T15:13:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריסאן, מונטנגרו",
+      "lat": 42.515,
+      "lon": 18.6956
+     },
+     {
+      "name": "ווינה, אוסטריה",
+      "lat": 48.2084,
+      "lon": 16.3725
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10091717-04",
+    "title": "משברים בתשתיות האנרגיה באוקראינה",
+    "summary": "נשיא אוקראינה אישר כי קיימים נרחבים בתשתיות האנרגיה שהובילו להפסקות חשמל מתוכננות, בעוד שקיימים דיווחים על דרישה רוסית להקלות בסנקציות בתמורה להפסקת תקיפות אנרגיה.",
+    "axis": "תשתיות ואנרגיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T14:01:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T14:01:00+00:00",
+    "last_update_at": "2026-10-09T15:30:36+00:00",
+    "what_is_not_verified": "תשובת ארצות הברית ואוקראינה לדרישות הרוסיות המדויקות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_14554cdf30574573",
+      "url": "https://meduza.io/en/news/2026/10/09/the-kyiv-independent-russia-wants-sanctions-lifted-in-exchange-for-halting-strikes-on-ukrainian-energy-infrastructure",
+      "published_at": "2026-10-09T15:30:36+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_14554cdf30574573",
+      "url": "https://tass.com/economy/2199949",
+      "published_at": "2026-10-09T15:06:56+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_dec2bc5302cbacd8",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057240/",
+      "published_at": "2026-10-09T14:01:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הפרטים המדויקים מאחורי החשדות נגד העיתונאים באוסטריה",
+   "תנאי העסקה המלאים שמוצעים במסגרת מתווה האנרגיה",
+   "היקף הנזק המלא במרכזי המידע של יאנדקס ברוסיה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1206,
+    "unit": "USD",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת מימון נוסף למערכות הגנה אווירית",
+     "הרחבת הגישה למערכות לוויין לטובת פגיעה במשגרי טילים רוסיים",
+     "הגנה על תשתיות האנרגיה הלאומיות"
+    ],
+    "inferred": [
+     "ניסיון להפעיל לחץ על בעלות ברית מערביות להגברת הסנקציות על רוסיה",
+     "שמירה על רציפות תפקודית של משק האנרגיה למרות הנזקים"
+    ],
+    "forecast": [
+     "המשך דרישה לסיוע צבאי מתקדם למרות חוסר הרצון המסוים מצד וושינגטון",
+     "היערכות להתמודדות עם חורף קשה תחת מחסור בחשמל"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "העלאת גיל השירות הצבאי לנשים וחיזוק כוח האדם במסגרות צבאיות",
+     "המשך פגיעה בתשתיות האנרגיה של אוקראינה"
+    ],
+    "inferred": [
+     "ניסיון למנף את התקיפות על תשתיות כדי להשיג הקלות בסנקציות הבינלאומיות",
+     "הרחבת גיוס כוח אדם ושימוש במשאבים מקומיים לתמיכה במלחמה"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי באזורי החזית ובמתקפות אוויריות על עורף אוקראינה",
+     "ניסיונות עקיפים להסרת מגבלות כלכליות באמצעות לחץ אנרגטי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-airports-closed-amid-alleged-ukrainian-balloon-and-drone-raid/",
+    "accessed_at": "2026-10-09T17:17:29+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/09/the-kyiv-independent-russia-wants-sanctions-lifted-in-exchange-for-halting-strikes-on-ukrainian-energy-infrastructure",
+    "accessed_at": "2026-10-09T17:17:29+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057240/",
+    "accessed_at": "2026-10-09T17:17:29+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/economy/2199949",
+    "accessed_at": "2026-10-09T17:17:29+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48394",
+    "accessed_at": "2026-10-09T17:17:29+00:00"
+   }
+  ]
+ }
+}

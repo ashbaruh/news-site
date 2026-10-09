@@ -711,6 +711,7 @@
 13.0578,
 44.8836
 ],
+"lajes air base, portugal": null,
 "lajes, portugal": [
 38.7669,
 -27.1032
@@ -906,6 +907,10 @@
 40.7127,
 -74.006
 ],
+"nikopol, ukraine": [
+47.5692,
+34.3917
+],
 "nova tavolzhanka, russia": [
 50.354,
 36.8279
@@ -1074,6 +1079,14 @@
 49.1817,
 37.8043
 ],
+"risan, montenegro": [
+42.515,
+18.6956
+],
+"rishon lezion, israel": [
+31.9636,
+34.8101
+],
 "rivne oblast, ukraine": null,
 "riyadh, saudi arabia": [
 24.6389,
@@ -1104,6 +1117,10 @@
 "saida al-hanout, syria": [
 32.8756,
 35.8774
+],
+"saint petersburg, russia": [
+59.9387,
+30.3162
 ],
 "sajd, lebanon": null,
 "salavat, russia": [
