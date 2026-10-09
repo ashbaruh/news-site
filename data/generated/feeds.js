@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-09T08:17:22+00:00",
-  "fetched_at": "2026-10-09T08:17:22+00:00"
+  "checked_at": "2026-10-09T09:17:11+00:00",
+  "fetched_at": "2026-10-09T09:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T08:17:36+00:00",
-  "fetched_at": "2026-10-09T08:17:36+00:00"
+  "checked_at": "2026-10-09T09:17:48+00:00",
+  "fetched_at": "2026-10-09T09:17:48+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T08:17:38+00:00",
-  "fetched_at": "2026-10-09T08:17:38+00:00"
+  "checked_at": "2026-10-09T09:17:48+00:00",
+  "fetched_at": "2026-10-09T09:17:48+00:00"
  },
- "generated_at": "2026-10-09T08:17:38+00:00",
+ "generated_at": "2026-10-09T09:17:48+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "מתקפת בזק של שלושה ימים: תוכנית התקיפה באיראן שגיבש הפנטגון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559007",
-     "date": "2026-10-09T06:30:00+00:00"
+     "date": "2026-10-09T09:01:00+00:00"
     }
    ],
    "market": [
@@ -124,12 +124,12 @@ window.DB.generated = {
      "date": "2026-10-09T07:24:00+00:00"
     },
     {
-     "title": "הכוכב של משקיעי הריטייל: \"אם מנכ\"ל ינסה לעבוד על הקהל שלי, הוא ייתפס עם המכנסיים למטה\"",
+     "title": "הצעיר שסוחף אחריו את המשקיעים החדשים: \"המוסדיים חושבים שהציבור לא אינטליגנט. שיתקדמו\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558903",
      "date": "2026-10-09T07:07:00+00:00"
     },
     {
-     "title": "מה כוללת תוכניות המיסוי החדשה של האוצר?",
+     "title": "מה כוללת תוכנית המיסוי החדשה של האוצר?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558846",
      "date": "2026-10-09T03:55:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T08:17:24+00:00",
-  "fetched_at": "2026-10-09T08:17:24+00:00"
+  "checked_at": "2026-10-09T09:17:12+00:00",
+  "fetched_at": "2026-10-09T09:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T08:17:25+00:00",
-  "fetched_at": "2026-10-09T08:17:25+00:00"
+  "checked_at": "2026-10-09T09:17:13+00:00",
+  "fetched_at": "2026-10-09T09:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2885,10 +2885,9 @@ window.DB.generated = {
     "title": "ריאל מדריד - ליון-וילרבאן"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-10-09T08:17:25+00:00",
-  "fetched_at": "2026-10-09T08:01:47+00:00"
+  "ok": true,
+  "checked_at": "2026-10-09T09:17:14+00:00",
+  "fetched_at": "2026-10-09T09:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3064,8 +3063,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T08:17:25+00:00",
-  "fetched_at": "2026-10-09T08:17:25+00:00"
+  "checked_at": "2026-10-09T09:17:14+00:00",
+  "fetched_at": "2026-10-09T09:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -3089,23 +3088,21 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
-   "failed_sources": [
-    "גיקטיים"
-   ],
+   "candidates": 16,
+   "failed_sources": [],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 210,
+     "likes": 211,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 540,
+     "likes": 546,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3123,18 +3120,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 231,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
      "title": "JEV-27B Live Demo",
      "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
      "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
      "likes": 104,
      "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
+    },
+    {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 231,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "JEV-9B — typed decisions",
@@ -3154,7 +3151,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 181,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -3167,12 +3164,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T08:17:32+00:00",
-  "fetched_at": "2026-10-09T08:17:32+00:00"
+  "checked_at": "2026-10-09T09:17:47+00:00",
+  "fetched_at": "2026-10-09T09:17:47+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ללא כריס קואקו וקייס גאנם: טבריה מחכה לאלופה",
+     "link": "https://www.one.co.il/Article/535496.html?ref=rss",
+     "date": "2026-10-09T08:38:00+00:00",
+     "source": "ONE",
+     "players": [
+      "קייס גאנם"
+     ]
+    },
     {
      "title": "טבריה תחסר את גאנם מול באר שבע, אך גוטליב וקלטינס חוזרים",
      "link": "https://sports.walla.co.il/item/3871496",
@@ -3210,15 +3216,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
-     "link": "https://sports.walla.co.il/item/3871461",
-     "date": "2026-10-08T17:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
      "title": "דניאל פרץ חזר להתאמן, חלק מאוהדי סאות'המפטון מאבדים סבלנות",
      "link": "https://sports.walla.co.il/item/3871462",
      "date": "2026-10-08T16:46:00+00:00",
@@ -3243,33 +3240,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "בעונה שעברה \"העומס על דני אבדיה היה גדול מדי\". הפעם זה ייפתר?",
-     "link": "https://sports.walla.co.il/item/3871438",
-     "date": "2026-10-08T14:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"פורטלנד זכתה בלוטו עם דני אבדיה - ולא פדתה את כל הכסף\"",
-     "link": "https://sports.walla.co.il/item/3870865",
-     "date": "2026-10-05T05:23:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "שלא יהפוך לשחקן משלים: תמרור האזהרה לשימוש בדני אבדיה",
-     "link": "https://sports.walla.co.il/item/3870618",
-     "date": "2026-10-03T05:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3473,8 +3443,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-09T08:17:29+00:00",
-  "fetched_at": "2026-10-09T08:17:29+00:00"
+  "checked_at": "2026-10-09T09:17:42+00:00",
+  "fetched_at": "2026-10-09T09:17:42+00:00"
  },
  "idf": {
   "data": [
@@ -3505,28 +3475,28 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T08:17:30+00:00",
-  "fetched_at": "2026-10-09T08:17:30+00:00"
+  "checked_at": "2026-10-09T09:17:42+00:00",
+  "fetched_at": "2026-10-09T09:17:42+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-09T08:10:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "newest": "2026-10-09T09:01:00+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T08:10:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-09T08:10:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
@@ -3537,59 +3507,59 @@ window.DB.generated = {
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-09T08:04:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "newest": "2026-10-09T08:42:00+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-09T08:00:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-09T07:46:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "newest": "2026-10-09T08:50:00+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-08T18:16:13+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-09T06:41:32+00:00",
-    "seen_at": "2026-10-09T08:01:57+00:00",
+    "newest": "2026-10-09T09:12:31+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T03:00:00+00:00",
-    "seen_at": "2026-10-09T08:17:38+00:00",
+    "seen_at": "2026-10-09T09:17:48+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-09T08:17:38+00:00"
+  "checked_at": "2026-10-09T09:17:48+00:00"
  }
 };
