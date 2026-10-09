@@ -41,6 +41,7 @@
 45.5729
 ],
 "al-dhabab, yemen": null,
+"al-dhale, yemen": null,
 "al-eis, syria": null,
 "al-hamidiyah, syria": [
 35.6562,
@@ -453,10 +454,15 @@
 40.747
 ],
 "hasakah, syria": null,
+"hawsh al-sayyed ali, lebanon": null,
 "hawsh as-sayyid ali, lebanon": null,
 "henichesk, ukraine": [
 46.1662,
 34.8089
+],
+"hermel, lebanon": [
+34.4205,
+36.4214
 ],
 "hmeimim airbase, syria": null,
 "hodeidah, yemen": [
@@ -735,6 +741,10 @@
 -9.1366
 ],
 "litani river ridge, lebanon": null,
+"litani river, lebanon": [
+33.552,
+35.6924
+],
 "london, united kingdom": [
 51.5074,
 -0.1278
@@ -1364,6 +1374,7 @@
 33.2589,
 35.459
 ],
+"wadi al-hujeir, lebanon": null,
 "wadi al-maqatrah, yemen": null,
 "wadi al-raqqad, syria": [
 32.8011,

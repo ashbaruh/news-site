@@ -1,0 +1,440 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fdce6cacf732",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-09T23:40:31+00:00",
+  "window": {
+   "from": "2026-10-08T23:40:31+00:00",
+   "to": "2026-10-09T23:40:31+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610092340"
+  },
+  "summary": "העימות בתימן הידרדר מחדש למלחמה בהיקף מלא בין התנועה החות'ית לבין ממשלת תימן הנתמכת בידי סעודיה והקואליציה. החות'ים הרחיבו את פגיעותיהם העמוקות בעורף הסעודי ושיבשו את התעופה האזרחית, בעוד הקואליציה מנחיתה גלי תקיפות אוויריות נרחבים ומתנהלים קרבות קשים על מצר באב אל-מנדב ובחזיתות היבשתיות.",
+  "fronts": [
+   {
+    "name": "חזית מצר באב אל-מנדב וחוף הים האדום",
+    "status": "קרבות עזים בעקבות ניסיון כוחות הממשלה והקואליציה להשיב שליטה באזור מידי החות'ים"
+   },
+   {
+    "name": "חזית העורף הסעודי (תעופה ונמלי תעופה)",
+    "status": "הסלמה בתקיפות טילים וכטבמים חות'יים לעבר ריאד, יעדים בדרום סעודיה וביטולי טיסות"
+   },
+   {
+    "name": "חזית צנעא",
+    "status": "גל תקיפות אוויריות של הקואליציה על יעדים צבאיים ונמל התעופה הבינלאומי"
+   },
+   {
+    "name": "החזיתות היבשתיות בתימן (תעז, מארב וא-דאלע)",
+    "status": "מתקפות נגד יבשתיות ותקיפות רחפנים של צבא תימן תחת מבצע 'שחר תימן'"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10092340-01",
+    "title": "מתקפות טילים וכטבמים חותיים על שדות תעופה בסעודיה ופגיעה בריאד",
+    "summary": "כוחות החות'ים שיגרו טילי שיוט וטילים בליסטיים לעבר נמל התעופה הבינלאומי המלך ח'אלד בריאד ויעדים נוספים בסעודיה. במתקפה נהרגו שלושה אזרחים סעודים ונפגע מטוס אזרחי על הקרקע, מה שהוביל לביטולי טיסות בינלאומיות ולהוצאת אזהרות תעופה.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T06:46:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T06:46:34+00:00",
+    "last_update_at": "2026-10-09T22:35:42+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת למתקנים הצבאיים הנטענים בח'מיס מושיט ובנג'ראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-qatar-kuwait-condemn-houthi-attacks-saudi-airports",
+      "published_at": "2026-10-09T22:35:42+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-says-three-killed-airport-yemen-war-expands",
+      "published_at": "2026-10-09T19:59:02+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/flight-cancelled-saudi-capital-riyadh-over-houthi-attacks",
+      "published_at": "2026-10-09T17:59:25+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/riyadhs-skies-remain-unsettled-after-deadly-houthi-strikes",
+      "published_at": "2026-10-09T14:01:51+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T13:50:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131627",
+      "published_at": "2026-10-09T11:37:14+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/skbsjqijml",
+      "published_at": "2026-10-09T09:17:32+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131617",
+      "published_at": "2026-10-09T08:36:05+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131609",
+      "published_at": "2026-10-09T06:46:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "אבהא, סעודיה",
+      "lat": 18.2164,
+      "lon": 42.5044
+     },
+     {
+      "name": "נג'ראן, סעודיה",
+      "lat": 17.544,
+      "lon": 44.2247
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10092340-02",
+    "title": "תקיפות אוויריות של הקואליציה על צנעא ונמל התעופה שלה",
+    "summary": "מטוסי הקואליציה בהובלת סעודיה תקפו יעדים בבירה צנעא, ובכלל זה את נמל התעופה בעיר ומבנה תעשייתי. על פי מקורות חות'יים, בהפצצות נהרגו שני בני אדם ופרצו מספר שריפות.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T19:26:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T19:26:59+00:00",
+    "last_update_at": "2026-10-09T19:59:02+00:00",
+    "what_is_not_verified": "מספר הנפגעים והאופי המדויק של המבנים שנפגעו בצנעא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-says-three-killed-airport-yemen-war-expands",
+      "published_at": "2026-10-09T19:59:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-killed-saudi-strike-sanaa-airport-houthi-media-says",
+      "published_at": "2026-10-09T19:26:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10092340-03",
+    "title": "מתקפה נרחבת של הקואליציה נגד מטרות צבאיות חות'יות",
+    "summary": "הקואליציה בהובלת סעודיה הכריזה על השמדת 136 יעדים צבאיים של החות'ים וסיוע אווירי רצוף לכוחות הממשלה, לצד תקיפת שלושה כני שיגור טילים.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T08:35:15+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T08:35:15+00:00",
+    "last_update_at": "2026-10-09T21:19:43+00:00",
+    "what_is_not_verified": "אימות עצמאי של השמדת כל 136 המטרות וכני השיגור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-launches-wide-ranging-operation-against",
+      "published_at": "2026-10-09T21:19:43+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.sabanew.net/viewstory/153738",
+      "published_at": "2026-10-09T21:14:04+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_4036050815a9ab66",
+      "url": "https://www.sabanew.net/viewstory/153714",
+      "published_at": "2026-10-09T08:35:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10092340-04",
+    "title": "קרבות על השליטה במצר באב אל-מנדב",
+    "summary": "כוחות ממשלת תימן בגיבוי אווירי סעודי פתחו במבצע להשבת השליטה במצר באב אל-מנדב מידי החות'ים. קיים פער בין הודעת השגריר הסעודי על שחרור האזור לבין דיווחי לוחמים בשטח והחות'ים על קרבות עזים ובלימת המתקפה.",
+    "axis": "הים האדום ובאב אל-מנדב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T15:09:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T15:09:07+00:00",
+    "last_update_at": "2026-10-09T16:32:34+00:00",
+    "what_is_not_verified": "מי מחזיק בפועל בשליטה במצר באב אל-מנדב ברגע זה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-forces-launch-operation-retake-bab-al-mandab",
+      "published_at": "2026-10-09T16:32:34+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-envoy-says-allied-yemeni-forces-capture-bab-el-mandeb-strait-houthis-what",
+      "published_at": "2026-10-09T15:09:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10092340-05",
+    "title": "לחימה קרקעית ותקיפות רחפנים במחוזות תעז, א-דאלע ומארב",
+    "summary": "צבא ממשלת תימן וכוחות מקומיים מנהלים מבצע המכונה 'שחר תימן', הכולל תקיפות רחפנים מדויקות נגד עמדות, כלי רכב ומצבורי כוחות חות'יים במחוזות תעז, א-דאלע ומארב.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T11:06:18+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T11:06:18+00:00",
+    "last_update_at": "2026-10-09T19:30:16+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל בקרב הפעילים החות'יים בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_e670cc6b9094172e",
+      "url": "https://www.sabanew.net/viewstory/153737",
+      "published_at": "2026-10-09T19:30:16+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_bbb814b00f6c41c0",
+      "url": "https://www.sabanew.net/viewstory/153730",
+      "published_at": "2026-10-09T16:45:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_d62ad504a5fe8609",
+      "url": "https://www.sabanew.net/viewstory/153726",
+      "published_at": "2026-10-09T13:57:58+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_e670cc6b9094172e",
+      "url": "https://t.me/alexmehacarmel/48379",
+      "published_at": "2026-10-09T11:06:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "מארב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10092340-06",
+    "title": "פניית סעודיה וממשלת תימן למועצת הביטחון בעקבות החרפת המלחמה",
+    "summary": "נציגי סעודיה וממשלת תימן המוכרת דרשו ממועצת הביטחון של האו\"ם לנקוט צעדים מעשיים נגד החות'ים על רקע פגיעה באזרחים, איום על נתיבי השיט והחרפת המלחמה הכוללת.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T12:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T12:00:00+00:00",
+    "last_update_at": "2026-10-09T20:56:01+00:00",
+    "what_is_not_verified": "היקף ההיענות הבינלאומית לדרישות שהוצגו במועצה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
+      "published_at": "2026-10-09T20:56:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-yemeni-government-urge-un-action-against-houthis",
+      "published_at": "2026-10-09T20:31:16+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
+      "published_at": "2026-10-09T12:00:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת שגריר סעודיה כי מצר באב אל-מנדב שוחרר במלואו מידי החות'ים, העומדת בסתירה לדיווחים מהשטח",
+   "מספר הנפגעים וההרוגים המדויק בתקיפות האוויריות של הקואליציה בתוך תימן ובצנעא",
+   "היקף ההרס המדויק שנגרם ל-136 המטרות ולשלושת כני השיגור לפי הודעות הקואליציה",
+   "הטענה לפגיעות ישירות של טילים בליסטיים בבסיס ח'מיס מושיט ובנמל התעופה בנג'ראן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "הטלת מצור אווירי על סעודיה עד להפסקת התוקפנות והמצור על תימן",
+     "התניית טיסות הומניטריות לריאד באישור מוקדם ממנגנון התיאום בצנעא"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומדיני כבד על ריאד באמצעות שיבוש התעופה והנמלים",
+     "שימור השליטה ברצועת החוף של הים האדום ובנתיבי השיט הבינלאומיים"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטבמים לעומק סעודיה תוך ניסיון להרתיע חברות תעופה זרות",
+     "התבצרות לאורך החוף ובאב אל-מנדב לבלימת מתקפות הנגד של כוחות הממשלה"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה הערבית",
+    "declared": [
+     "מניעת הפיכת שטח תימן לפלטפורמת איומים על ביטחון הממלכה וחופש השיט",
+     "מתן גיבוי אווירי רצוף לכוחות ממשלת תימן לסיום השליטה החות'ית"
+    ],
+    "inferred": [
+     "החזרת כושר ההרתעה והגנה על עורף הממלכה מפני פגיעה כלכלית ותעופתית",
+     "שלילת השליטה של החות'ים על צוואר הבקבוק הימי בבאב אל-מנדב"
+    ],
+    "forecast": [
+     "הגברת קצב ההפצצות האוויריות על מחסני טילים, כטבמים ומתקנים בצנעא ובמעוזי החות'ים",
+     "העמקת המאמצים המדיניים במועצת הביטחון לבידוד החות'ים ועצירת אספקת אמצעי לחימה"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "סיום שלטון החות'ים והשבת מוסדות המדינה במסגרת מבצע 'שחר תימן'",
+     "דרישה ממועצת הביטחון לעצור מימון, נשק וטכנולוגיה המועברים לחות'ים"
+    ],
+    "inferred": [
+     "ניצול המטרייה האווירית הסעודית לכיבוש מחדש של שטחים חיוניים בחוף ובפנים המדינה",
+     "הסטת מוקד הלחימה מהגנה למתקפה מקיפה שתשנה את מאזן הכוחות היבשתי"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות יבשתיים באזור באב אל-מנדב ובמחוזות תעז ומארב",
+     "החרפת העימות הצבאי מול כוחות החות'ים תוך לחימה קרקעית ממושכת"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-envoy-says-allied-yemeni-forces-capture-bab-el-mandeb-strait-houthis-what",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-yemeni-government-urge-un-action-against-houthis",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-forces-launch-operation-retake-bab-al-mandab",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153726",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131609",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48379",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skbsjqijml",
+    "accessed_at": "2026-10-09T23:40:31+00:00"
+   }
+  ]
+ }
+}
