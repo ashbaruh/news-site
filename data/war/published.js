@@ -544,50 +544,136 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-08T0635__iran-202610080635.json",
+  "draft": "drafts/iran/2026-10-09T0240__iran-202610090240.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-08T06:35:12+00:00",
+   "generated_at": "2026-10-09T02:40:28+00:00",
    "window": {
-    "from": "2026-10-07T06:35:12+00:00",
-    "to": "2026-10-08T06:35:12+00:00"
+    "from": "2026-10-08T02:40:28+00:00",
+    "to": "2026-10-09T02:40:28+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610080635"
+    "run_id": "iran-202610090240"
    },
-   "summary": "הזירה מתאפיינה במתיחות גבוהה בין איראן לבין ארה\"ב וישראל, הכוללת דיווחים על היערכות אפשרית לחידוש הלחימה וחילופי האשמות סביב השליטה במצרי הורמוז והסנקציות הכלכליות. במקביל, נמשכים שיבושים בנתיבי השיט והאנרגיה האזוריים לצד מגעים דיפלומטיים עקיפים וניסיונות גישור.",
+   "summary": "הזירה מאופיינת במתיחות צבאית וכלכלית בין איראן ושלחותיה לבין ארה\"ב וישראל, לצד לחץ כלכלי כבד הכולל סנקציות חדשות על צי הצללים האיראני. ארה\"ב מאותתת על דחיית פעולות צבאיות נרחבות עד לאחר בחירות האמצע בנובמבר ומקיימת ערוצי שיח, בעוד איראן ממשיכה להפעיל את שלוחותיה במפרץ ובלבנון ומהדקת קשרים דיפלומטיים עם רוסיה.",
    "fronts": [
     {
-     "name": "חזית איראן - ארה\"ב וישראל",
-     "status": "פעיל / מתיחות לקראת עימח"
+     "name": "החזית הימית ומפרץ הורמוז",
+     "status": "פעילה עם אירועי תקיפה ומאבק על נתיבי אנרגיה"
     },
     {
-     "name": "חזית המפרץ ומצר הורמוז",
-     "status": "פעיל"
+     "name": "חזית שלוחות איראן (תימן)",
+     "status": "פעילה הכוללת ירי טילים לעבר סעודיה"
+    },
+    {
+     "name": "החזית הדיפלומטית והכלכלית",
+     "status": "החמרת סנקציות אמריקניות ושיחות בהשתתפות רוסיה"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10080635-01",
-     "title": "פגיעה במכלית נפט מול חופי קטאר ועליות בהתקפות במצרי הורמוז",
-     "summary": "סוכנות ימית דיווחה על פגיעה במכלית במספר קליעים מול חופי קטאר ועל עלייה בהתקפות על כלי שיט במצר הורמוז.",
-     "axis": "ציר איראן-ארה\"ב-ישראל והמפרץ",
+     "id": "IRAN-10090240-01",
+     "title": "תקיפה בנמל התעופה בריאד",
+     "summary": "החותים הודיעו כי תקפו באמצעות טיל בליסטי את נמל התעופה בבירת סעודיה, וסעודיה אישרה הרוגים ופיצוצים",
+     "axis": "ציר איראן-שלוחות מול סעודיה וארה\"ב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T03:02:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T03:02:35+00:00",
+     "last_update_at": "2026-10-09T02:28:58+00:00",
+     "what_is_not_verified": "טענת החות'ים על פגיעה במטוס ונזק כבד",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+       "published_at": "2026-10-09T02:28:58+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261008-diplomats-school-pupils-take-shelter-in-saudi-capital-as-yemen-s-houthis-step-up-attacks",
+       "published_at": "2026-10-08T09:20:46+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+       "published_at": "2026-10-08T03:02:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10090240-02",
+     "title": "חזרתה של נושאת המטוסים לינקולן",
+     "summary": "נושאת המטוסים האמריקנית אברהם לינקולן חזרה לבסיסה לאחר פריסה ממושכת במסגרת העימות עם איראן",
+     "axis": "ארה\"ב מול איראן",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-08T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-08T02:48:25+00:00",
-     "last_update_at": "2026-10-08T02:48:25+00:00",
-     "what_is_not_verified": "פרטים מלאים על זהות התוקפים ונזקים מדויקים",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-08T22:54:48+00:00",
+     "last_update_at": "2026-10-09T00:39:20+00:00",
+     "what_is_not_verified": "פרטים מדויקים על מצב הלחימה הימית בתוך הפריסה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_aljazeera",
-       "source_root_id": "or_ukmto",
-       "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss",
-       "published_at": "2026-10-08T02:48:25+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/10/9/uss-lincoln-returns-to-us-after-long-deployment-supporting-war-on-iran?traffic_source=rss",
+       "published_at": "2026-10-09T00:39:20+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uss-abraham-lincoln-returns-san-diego-after-deployment-during-war-iran",
+       "published_at": "2026-10-08T23:53:56+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21586184",
+       "published_at": "2026-10-08T22:54:48+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סן דייגו, ארה\"ב",
+       "lat": 32.7157,
+       "lon": -117.1638
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10090240-03",
+     "title": "פיצוצים במצר הורמוז",
+     "summary": "כלי תקשורת איראניים דיווחו על פיצוצים עזים בדרום מצר הורמוז, בהסתמך על מקורות צבאיים",
+     "axis": "ארה\"ב וישראל מול איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-09T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-09T00:00:21+00:00",
+     "last_update_at": "2026-10-09T00:00:21+00:00",
+     "what_is_not_verified": "מקור הפיצוצים ונזק מדויק",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss",
+       "published_at": "2026-10-09T00:00:21+00:00"
       }
      ],
      "places": [
@@ -599,98 +685,152 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-10080635-02",
-     "title": "חידוש טיסות בינלאומיות בנמל התעופה הבינלאומי חומייני בטהראן",
-     "summary": "טיסות בינלאומיות חודשו בנמל התעופה בטהראן לאחר השעיה ממושכת בזמן מלחמה, עם נחיתת טיסה מא עיראק.",
-     "axis": "ציר איראן-ארה\"ב-ישראל והמפרץ",
+     "id": "IRAN-10090240-04",
+     "title": "הטלת סנקציות חדשות על צי הצללים האיראני",
+     "summary": "משרד האוצר האמריקני הכריז על עיצומים נגד גופים, רשתות ו-17 כלי שיט המעורבים בהעברת נפט איראני",
+     "axis": "ארה\"ב מול איראן",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-08T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-08T04:54:26+00:00",
-     "last_update_at": "2026-10-08T04:54:26+00:00",
-     "what_is_not_verified": "לא מאומת מצב מלא של כלל חברות התעופה הזרות",
+     "first_reported_at": "2026-10-08T17:25:00+00:00",
+     "last_update_at": "2026-10-08T18:30:26+00:00",
+     "what_is_not_verified": "ההשפעה המדויקת של הסנקציות על הכלכלה האיראנית בטווח הקצר",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_1e357306d1933f20",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-resumes-flights-imam-khomeini-international-airport",
-       "published_at": "2026-10-08T04:54:26+00:00"
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_67cc0653659b5cf0",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584897",
+       "published_at": "2026-10-08T18:30:26+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_d931a7cffaca6d9f",
+       "url": "https://www.al-monitor.com/originals/2026/10/us-imposes-fresh-sanctions-irans-shadow-fleet",
+       "published_at": "2026-10-08T17:46:31+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_f97a730bba4e3cb7",
+       "url": "https://www.iranintl.com/en/202610085342",
+       "published_at": "2026-10-08T17:25:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "נמל התעופה הבינלאומי אימאם חומייני, איראן",
-       "lat": 35.4165,
-       "lon": 51.1448
+       "name": "וושינגטון, ארה\"ב",
+       "lat": 38.8951,
+       "lon": -77.0364
       }
      ]
     },
     {
-     "id": "IRAN-10080635-03",
-     "title": "העברת כספים מאיראן לחיזבאללה",
-     "summary": "איראן העבירה סכום כספי לחיזבאללה בלבנון לסיוע לפליטי מלחמה, תוך גביית עמלות על ידי מתווכים.",
-     "axis": "ציר איראן-ישראל",
-     "claim_type": "data",
+     "id": "IRAN-10090240-05",
+     "title": "פגישה בין נשיאי רוסיה ואיראן בטורקמניסטן",
+     "summary": "נשיא איראן ונשיא רוסיה נפגשו בטורקמניסטן לקראת פסגה אזורית, ורוסיה הבטיחה לסייע בסיום המלחמה",
+     "axis": "איראן ורוסיה מול ארה\"ב וישראל",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-07T15:48:42+00:00",
+     "occurred_at": "2026-10-08T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-07T15:48:42+00:00",
-     "last_update_at": "2026-10-07T16:26:23+00:00",
-     "what_is_not_verified": "לא מאומתים כל ערוצי ההעברה המדויקים",
+     "first_reported_at": "2026-10-08T18:37:59+00:00",
+     "last_update_at": "2026-10-08T22:30:37+00:00",
+     "what_is_not_verified": "תוצאות מעשיות של ההבטחה הרוסית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
-       "published_at": "2026-10-07T16:26:23+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_7d641ff7432c0463",
+       "url": "https://www.aljazeera.com/news/2026/10/8/putin-pledges-russias-support-to-end-us-led-war-on-iran?traffic_source=rss",
+       "published_at": "2026-10-08T22:30:37+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_7d641ff7432c0463",
+       "url": "https://www.al-monitor.com/originals/2026/10/putin-offers-help-iran-end-middle-east-war-ahead-cis-summit",
+       "published_at": "2026-10-08T20:30:24+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_7d641ff7432c0463",
+       "url": "https://en.irna.ir/news/86287262/Pezeshkian-meets-Putin-in-Turkmenistan",
+       "published_at": "2026-10-08T18:37:59+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אבאזה, טורקמניסטן",
+       "lat": 39.9658,
+       "lon": 52.8645
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10090240-06",
+     "title": "הצהרת טראמפ על אי-תקיפה לפני הבחירות",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הודיע כי ארה\"ב לא תתקוף את איראן טרם בחירות האמצע בנובמבר, וציין כי מתנהלות שיחות",
+     "axis": "ארה\"ב מול איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-08T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-08T16:23:18+00:00",
+     "last_update_at": "2026-10-08T21:57:10+00:00",
+     "what_is_not_verified": "טיב השיחות המוזכרות והאם אכן תתבצע מתקפה לאחריהן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_ed0bbad8a32cadfb",
+       "url": "https://www.iranintl.com/en/202610086381",
+       "published_at": "2026-10-08T21:57:10+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_a09ad7f6bd6741f9",
+       "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-new-iran-attack-us-midterm-elections",
+       "published_at": "2026-10-08T21:30:23+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_91e7a02870461d59",
+       "url": "https://www.middleeasteye.net/news/trump-rules-out-new-attack-iran-until-after-midterms-oil-prices-spike",
+       "published_at": "2026-10-08T20:40:54+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_ed0bbad8a32cadfb",
+       "url": "https://t.me/alexmehacarmel/48364",
+       "published_at": "2026-10-08T16:33:59+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131526",
-       "published_at": "2026-10-07T15:48:42+00:00"
+       "source_root_id": "fh_ed0bbad8a32cadfb",
+       "url": "https://t.me/abualiexpress/131587",
+       "published_at": "2026-10-08T16:28:37+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_be2af3b7670f08ae",
+       "url": "https://www.maariv.co.il/breaking-news/article-1375124",
+       "published_at": "2026-10-08T16:23:18+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "וושינגטון, ארה\"ב",
+       "lat": 38.8951,
+       "lon": -77.0364
+      }
+     ]
     }
    ],
    "not_verified": [
-    "ה",
-    "ח",
-    "ל",
-    "ט",
-    "ה",
-    "ס",
-    "ו",
-    "פ",
-    "י",
-    "ת",
-    "ש",
-    "ל",
-    "ה",
-    "נ",
-    "ש",
-    "י",
-    "א",
-    "ט",
-    "ר",
-    "א",
-    "מ",
-    "פ",
-    "ל",
-    "צ",
-    "א",
-    "ת",
-    "ל",
-    "ת",
-    "ק",
-    "י",
-    "פ",
-    "ה",
-    "מ"
+    "טענות החות'ים על פגיעה במטוס ונזק בריאד",
+    "קיומן של שיחות פוריות אמיתיות בין ארה\"ב לאיראן לפי טראמפ",
+    "תוכניות הפנטגון המדויקות לתקיפה שנדחו",
+    "מעורבות איראנית ישירה במזימת טרור נגד בסיס בריטי"
    ],
    "map": {
     "confidence": "medium",
@@ -701,100 +841,142 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0679,
+     "value": 3.0773,
      "unit": "ILS",
-     "change_pct": 0.65,
+     "change_pct": 0.31,
      "source_id": "src_ecb",
-     "as_of": "2026-10-07T15:00:00+00:00"
+     "as_of": "2026-10-08T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "הגנה עצמית נחרצת",
-      "הצבת תנאים ברורים לסיום העימות והחזרת הביטחון למפרץ"
+      "שמירה על אבטחת המפרץ ומצר הורמוז כקו אדום",
+      "התנגדות לנוכחות זרה באזור"
      ],
      "inferred": [
-      "ניסיון לעקוף סנקציות כלכליות ותחבורתיות",
-      "המשך תמיכה בשלוחים אזוריים למרות הלחץ הכלכלי"
+      "המשך הפעלת לחץ באמצעות שלוחות אזוריות",
+      "עקפה את הסנקציות באמצעות צי צללים ויצוא אנרגיה עוקף"
      ],
      "forecast": [
-      "המשך מאמצי הישרדות כלכלית ותמרון דיפלומטי באמצעות מתווכים",
-      "שמירה על נוכחות והשפעה במצרי הורמוז ובמרחב הימי"
+      "המשך תיאום מדיני וצבאי עם רוסיה",
+      "היערכות לעימות ממושך לאחר תום הבחירות בארה\"ב"
      ]
     },
     {
      "actor": "ארה\"ב",
      "declared": [
       "מניעת נשק גרעיני מאיראן",
-      "שליטה ובטוחת תנועה במצרי הורמוז"
+      "הימנעות מתקיפה באיראן לפני בחירות האמצע בנובמבר"
      ],
      "inferred": [
-      "הפעלת לחץ מקסימלי באמצעות איומי מלחמה וסנקציות להשגת כניעה או תנאים נוחים",
-      "בחינת אפשרויות תקיפה נוספות מול התנגדות איראנית"
+      "החמרת הלחץ הכלכלי באמצעות סנקציות כדי לייבש את מימון משמרות המהפכה",
+      "שמירת אופציה צבאית להמשך"
      ],
      "forecast": [
-      "שמירת הכוננות הצבאית הגבוהה באזור",
-      "המשך אכיפת סנקציות כלכליות קשות על משק האנרגיה והתחבורה האיראני"
+      "חידוש התוכניות הצבאיות לאחר בחירות האמצע",
+      "המשך אבטחת נתיבי השיט במפרץ"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "סיכול איומים איראניים ושלוחיהם",
-      "שמירה על מוכנות ביטחונית גבוהה"
+      "מניעת התבססות איראנית ושלוחותיה",
+      "התרעה מפני השלכות ביטחוניות ופוליטיות של עימות חזיתי נוסף"
      ],
      "inferred": [
-      "תיאום הדוק עם ארה\"ב לקראת פעולות אפשריות נגד תשתיות ליבה באיראן",
-      "מעקב שוטף אחר פעילות חזבאללה וגורמים פרו-איראניים"
+      "שמירה על כוננות גבוהה מול אפשרות הסלמה אזורית",
+      "תיאום הדוק עם הממשל בארה\"ב"
      ],
      "forecast": [
-      "היערכות להסלמה אפשרית מול איראן ושלוחיה",
-      "המשך פעילות מודיעינית ומבצעית במרחב"
+      "המשך היערכות מבצעית של חיל האוויר והמודיעין",
+      "מעקב אחר מגעים דיפלומטיים בין ארה\"ב לאיראן"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss",
-     "accessed_at": "2026-10-08T06:35:12+00:00"
+     "url": "https://www.aljazeera.com/news/2026/10/8/putin-pledges-russias-support-to-end-us-led-war-on-iran?traffic_source=rss",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-new-iran-attack-us-midterm-elections",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_iranintl",
+     "url": "https://www.iranintl.com/en/202610086381",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_irna",
+     "url": "https://en.irna.ir/news/86287262/Pezeshkian-meets-Putin-in-Turkmenistan",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584897",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1375124",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-resumes-flights-imam-khomeini-international-airport",
-     "accessed_at": "2026-10-08T06:35:12+00:00"
+     "url": "https://www.middleeasteye.net/news/trump-rules-out-new-attack-iran-until-after-midterms-oil-prices-spike",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131526",
-     "accessed_at": "2026-10-08T06:35:12+00:00"
+     "url": "https://t.me/abualiexpress/131587",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/r1j11nkvsmg",
-     "accessed_at": "2026-10-08T06:35:12+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48364",
+     "accessed_at": "2026-10-09T02:40:28+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-07T17:31:50+00:00",
+  "previous_generated_at": "2026-10-08T06:35:12+00:00",
   "changes": {
-   "IRAN-10080635-01": {
+   "IRAN-10090240-01": {
     "kind": "possible",
-    "prev": "סגירת מצר הורמוז לפי הצהרת משמרות המהפכה",
-    "score": 0.633
+    "prev": "חידוש טיסות בינלאומיות בנמל התעופה הבינלאומי חומייני בטהראן",
+    "score": 0.467
    },
-   "IRAN-10080635-02": {
+   "IRAN-10090240-02": {
     "kind": "new"
    },
-   "IRAN-10080635-03": {
-    "kind": "up",
-    "from": "shared_root",
-    "to": "verified",
-    "prev": "העברת כספים מאיראן לחיזבאללה",
-    "score": 1.0
+   "IRAN-10090240-03": {
+    "kind": "possible",
+    "prev": "פגיעה במכלית נפט מול חופי קטאר ועליות בהתקפות במצרי הורמוז",
+    "score": 0.633
+   },
+   "IRAN-10090240-04": {
+    "kind": "new"
+   },
+   "IRAN-10090240-05": {
+    "kind": "new"
+   },
+   "IRAN-10090240-06": {
+    "kind": "new"
    }
   }
  },
