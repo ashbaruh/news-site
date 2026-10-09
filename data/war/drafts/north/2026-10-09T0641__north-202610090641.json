@@ -1,0 +1,282 @@
+{
+ "status": "draft",
+ "received_sha256_12": "249baa6d24db",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-09T06:41:38+00:00",
+  "window": {
+   "from": "2026-10-08T06:41:38+00:00",
+   "to": "2026-10-09T06:41:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610090641"
+  },
+  "summary": "הגזרה הצפונית של ישראל מאופיינת בשגרת הגנה מתוחה הכוללת תקריות בדרום לבנון ופעילות צבאית במרחב קוניטרה בדרום סוריה, לצד שחיקה בבטיחות הכוחות וחשש מהתארכות השהייה בקווי ההגנה. במקביל, מתנהלים מגעים דיפלומטיים בין טורקיה לסוריה בנושאי ביטחון ויציבות אזורית, וגורמים בינלאומיים דנים בעתיד המנדט של כוחות יוניפי\"ל ושיקום לבנון.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם תקריות אש, סיורים ופעילות הנדסית"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "מתוחה עם נוכחות ופעילות קרקעית במרחב הגבול"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10090641-01",
+    "title": "ירי ארטילרי והפצצות של צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו ירי ארטילרי, פגזי זרחן ותקיפות אוויריות לעבר מספר מרחבים בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T12:18:52+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T12:18:52+00:00",
+    "last_update_at": "2026-10-09T06:10:15+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים בצד הלבנוני אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a220c2e8064752f8",
+      "url": "https://english.almanar.com.lb/article/136182/",
+      "published_at": "2026-10-09T06:10:15+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3e2ba8b9708eb479",
+      "url": "https://english.almanar.com.lb/article/136087/",
+      "published_at": "2026-10-08T15:56:58+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_a220c2e8064752f8",
+      "url": "https://t.me/abualiexpress/131568",
+      "published_at": "2026-10-08T12:18:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10090641-02",
+    "title": "התהפכות רכב צבאי ונפילת קצין צה\"ל בדרום לבנון",
+    "summary": "קצין צה\"ל נהרג ושלושה חיילים נוספים נפצעו באורח קל בהתהפכות רכב צבאי במהלך פעילות מבצעית ברכס הליטאני.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T18:13:10+00:00",
+    "last_update_at": "2026-10-08T18:59:17+00:00",
+    "what_is_not_verified": "נסיבות טכניות מדויקות של התאונה אינן מפורטות מעבר לדיווח הרשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_83a98d7f67ae33ef",
+      "url": "https://english.almanar.com.lb/article/136132/",
+      "published_at": "2026-10-08T18:59:17+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_4937062bec5c9ae3",
+      "url": "https://www.walla.co.il/news/military/383956794",
+      "published_at": "2026-10-08T18:16:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_83a98d7f67ae33ef",
+      "url": "https://t.me/abualiexpress/131593",
+      "published_at": "2026-10-08T18:13:36+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_83a98d7f67ae33ef",
+      "url": "https://t.me/lelotsenzura/94558",
+      "published_at": "2026-10-08T18:13:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10090641-03",
+    "title": "כניסת כוחות צה\"ל ופעילות קרקעית באזור קוניטרה",
+    "summary": "כוחות צה\"ל ביצעו פעילות קרקעית שכללה חסימת צירים, הצבת אוהלים, ירי ואש לעבר רועי צאן ופציעת אדם באזור קוניטרה שבסוריה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T17:37:28+00:00",
+    "last_update_at": "2026-10-08T17:37:28+00:00",
+    "what_is_not_verified": "זהותם המדויקת של כל הנפגעים וההיקף המלא של הפעילות אינם מאומתים ממקור רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_b2b48eaf5e609c90",
+      "url": "https://english.enabbaladi.net/archives/2026/10/israeli-army-advances-into-quneitra-and-closes-roads/",
+      "published_at": "2026-10-08T17:37:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10090641-04",
+    "title": "פגישת שרי חוץ ומודיעין של טורקיה וסוריה באנקרה",
+    "summary": "ראש ארגון הביון הטורקי ושר החוץ הטורקי נפגשו באנקרה עם שר החוץ הסורי לדיון בשיתוף פעולה ביטחוני ויציבות אזורית.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T19:07:17+00:00",
+    "last_update_at": "2026-10-08T20:47:00+00:00",
+    "what_is_not_verified": "סיכומי ההבנות המלאים והסכמים מעשיים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "fh_8cebd266c9176a47",
+      "url": "https://www.dailysabah.com/politics/diplomacy/turkish-intelligence-chief-discusses-sdf-integration-with-syrian-fm",
+      "published_at": "2026-10-08T20:47:00+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_47fdacbe00f583d6",
+      "url": "https://www.aa.com.tr/en/middle-east/turkiyes-intelligence-chief-meets-syrian-foreign-minister-in-ankara/4082808",
+      "published_at": "2026-10-08T20:41:44+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_dd675990dcdc18d3",
+      "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-foreign-ministers-meet-in-ankara/4082732",
+      "published_at": "2026-10-08T19:07:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנקרה",
+      "lat": 39.9208,
+      "lon": 32.854
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף ההעברה הכספית מאיראן לחיזבאללה בסך מעל 200 מיליון דולר",
+   "קיומם של מגעים רשמיים לשליחת כוחות סורים לתימן",
+   "פרטי ההסכמות האפשריות בין ממשלת סוריה לטורקיה בפגישה באנקרה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0773,
+    "unit": "ILS",
+    "change_pct": 0.31,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-08T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "שמירה על שגרת הגנה וסיכול איומי אויב בגבול הצפון",
+     "מניעת התבססות עוינת במרחב הגבול בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך פעילות מבצעית ושחיקה פוטנציאלית בשגרת ההגנה",
+     "תגובות נקודתיות על כל הפרה במרחב הגבול"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "תמיכה בלחימה למען עזה"
+    ],
+    "inferred": [
+     "שיקום תשתיות ויכולות אזרחיות וצבאיות חרף הלחץ הצבאי והפוליטי",
+     "שימור מעמדו כגורם הדומיננטי בזירה השיעית בלבנון"
+    ],
+    "forecast": [
+     "ניסיונות להשתמש בסיוע כלכלי חיצוני לחיזוק בסיס התמיכה שלו",
+     "המשך עימות שקט ומדוד מול ישראל ומדינת לבנון"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [],
+    "inferred": [
+     "חיזוק קשרים ביטחוניים ומדיניים עם שחקנים אזוריים כמו טורקיה",
+     "שיקום תשתיות פנימיות והתמודדות עם אתגרים ביטחוניים מבית"
+    ],
+    "forecast": [
+     "העמקת התיאום הביטחוני עם טורקיה",
+     "המשך ניסיונות לייצב את השלטון החדש בדמשק"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136132/",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-foreign-ministers-meet-in-ankara/4082732",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/diplomacy/turkish-intelligence-chief-discusses-sdf-integration-with-syrian-fm",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/israeli-army-advances-into-quneitra-and-closes-roads/",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131593",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94558",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956794",
+    "accessed_at": "2026-10-09T06:41:38+00:00"
+   }
+  ]
+ }
+}

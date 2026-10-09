@@ -1,0 +1,331 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c420201e2432",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-09T06:37:20+00:00",
+  "window": {
+   "from": "2026-10-08T06:37:20+00:00",
+   "to": "2026-10-09T06:37:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610090637"
+  },
+  "summary": "הלחימה בתימן וסביבתה מתאפיינת בהסלמה משמעותית, כאשר החות'ים מגבירים את מתקפות הטילים והכטב\"מים לעבר שדות תעופה ותשתיות בסעודיה (כגון בריאד, נג'ראן וח'מיס מושיט), מה שמאלץ חברות תעופה זרות להשעות טיסות. במקביל, נמשכים העימותים הקרקעיים בתימן (בין היתר באזור טאיז) ומצוקה הומניטרית וכלכלית עמוקה, בעוד מעצמות אזוריות כמו סוריה וטורקיה דוחים מעורבים צבאית ישירה לצד סעודיה.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה ואינטנסיבית הכוללת תקיפות אוויריות וירי טילים של החות'ים לעבר מתקנים בסעודיה"
+   },
+   {
+    "name": "הזירה הפנימית בתימן",
+    "status": "פעילה עם קרבות קרקעיים ומצור סביב אזורים כמו טאיז לצד משבר הומניטרי"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10090637-01",
+    "title": "תקיפות החות'ים על יעדים בסעודיה ובשדות תעופה",
+    "summary": "החות'ים תקפו שדות תעופה ואתרים בסעודיה, כולל נמל התעופה המלך ח'אלד בריאד, נמל התעופה נג'ראן ובסיס ח'מיס מושיט, וגרמו לנפגעים ולנזק מטוסים ותשתיות.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T13:04:15+00:00",
+    "last_update_at": "2026-10-09T05:35:08+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים המלא אינם מאומתים במלואם ממקור ראשון אחיד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistani-premier-condemns-houthi-attacks-saudi-arabia",
+      "published_at": "2026-10-09T05:35:08+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+      "published_at": "2026-10-09T02:28:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-one-plane-severely-damaged-houthis-claim-third-riyadh",
+      "published_at": "2026-10-08T23:30:40+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://www.newarab.com/news/saudi-nursery-hit-debris-houthis-target-riyadh-airport",
+      "published_at": "2026-10-08T20:21:51+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://t.me/abualiexpress/131584",
+      "published_at": "2026-10-08T16:06:52+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_1c8b4919a7f4ba25",
+      "url": "https://www.sabanew.net/viewstory/153681",
+      "published_at": "2026-10-08T13:04:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "נג'ראן, סעודיה",
+      "lat": 17.544,
+      "lon": 44.2247
+     },
+     {
+      "name": "ח'מיס מושיט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10090637-02",
+    "title": "השעיית טיסות בינלאומיות לריאד בעקבות התקיפות",
+    "summary": "חברות תעופה שונות, בהן קבוצת לופטהנזה וחברות הודיות, השעו את טיסותיהן לריאד בעקבות האיומים והתקיפות של החות'ים.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T16:46:32+00:00",
+    "last_update_at": "2026-10-08T16:46:32+00:00",
+    "what_is_not_verified": "משך ההשעיה המדויק של כלל החברות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_94defbf73519bde2",
+      "url": "https://www.al-monitor.com/originals/2026/10/lufthansa-indian-airlines-suspend-flights-riyadh-after-houthi-attacks",
+      "published_at": "2026-10-08T16:46:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10090637-03",
+    "title": "התקדמות כוחות ממשלת תימן באזור טאיז",
+    "summary": "כוחות ממשלת תימן הנתמכים בידי סעודיה דיווחו על התקדמות ברכס ההרים במערב טאיז במסגרת מבצע שחר תימן.",
+    "axis": "הלחימה בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-08T06:16:53+00:00",
+    "last_update_at": "2026-10-08T14:48:37+00:00",
+    "what_is_not_verified": "השגת השליטה המלאה בשטח אינה מאומתת ממקור בלתי תלוי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-no-iran-attack-midterms-houthi-strikes-saudi",
+      "published_at": "2026-10-08T14:48:37+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-advances-gaza-marks-three-years-genocide",
+      "published_at": "2026-10-08T06:16:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10090637-04",
+    "title": "הכחשת סוריה לגבי שליחת כוחות צבאיים לתימן",
+    "summary": "משרד ההגנה והמידע בסוריה פרסמו הכחשה רשמית לדיווחים לפיהם דמשק שוקלת או מתכננת לשלוח כוחות צבא לסעודיה כדי להילחם בחות'ים.",
+    "axis": "הלחימה בתימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T08:24:40+00:00",
+    "last_update_at": "2026-10-08T13:05:06+00:00",
+    "what_is_not_verified": "האם התקיימו דיונים מאחורי הקלעים בין מנהיגים בנושא זה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_e9acf4f2486fc727",
+      "url": "https://www.newarab.com/news/syria-denies-troops-will-be-sent-yemen",
+      "published_at": "2026-10-08T13:05:06+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_e9acf4f2486fc727",
+      "url": "https://t.me/abualiexpress/131554",
+      "published_at": "2026-10-08T08:24:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10090637-05",
+    "title": "הכחשת טורקיה על שליחת כוחות צבאיים לעימות עם החות'ים",
+    "summary": "שר החוץ הטורקי הבהיר כי הסכם ההגנה עם סעודיה נועד להגנה בלבד, וכי טורקיה לא תשלח כוחות לשטח מדינה אחרת כדי לפתוח במתקפה.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-08T09:20:46+00:00",
+    "last_update_at": "2026-10-08T11:25:55+00:00",
+    "what_is_not_verified": "האם יתכנו שינויים עתידיים בעמדת טורקיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131564",
+      "published_at": "2026-10-08T11:25:55+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261008-diplomats-school-pupils-take-shelter-in-saudi-capital-as-yemen-s-houthis-step-up-attacks",
+      "published_at": "2026-10-08T09:20:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנקרה, טורקיה",
+      "lat": 39.9208,
+      "lon": 32.854
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק למטוסים ולמתקנים האזרחיים והצבאיים בריאד",
+   "קיומם האפשרי של דיונים חשאיים על שילוב כוחות סוריים או פקיסטניים בלחימה בתימן",
+   "מספר הנפגעים המדויק בתקיפות החות'יות האחרונות"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0773,
+    "unit": "ILS",
+    "change_pct": 0.31,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-08T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "לפגוע בתשתיות ובשדות תעופה בסעודיה",
+     "לשבש את התנועה האווירית והכלכלית של הקואליציה בהובלת סעודיה"
+    ],
+    "inferred": [
+     "להפעיל לחץ על סעודיה ובעלות בריתה להפסיק את הפעילות הצבאית נגדם בתימן",
+     "להפגין יכולות פגיעה אסטרטגיות למרות הלחץ הצבאי"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר מטרות אזרחיות וצבאיות בסעודיה",
+     "החמרת המצור והלחימה במוקדים פנימיים בתימן כמו טאיז"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "להגן על שטחי הממלכה, אזרחיה ותשתיות חיוניות מפני תקיפות",
+     "לתמוך בממשלת תימן הרשמית ולשמור על שלמותה הטריטוריאלית"
+    ],
+    "inferred": [
+     "חיפוש אחר סיוע צבאי חיצוני או שותפות הגנתיות חדשות לאור התמשכות האיומים",
+     "ניסיון לבלום את התקדמות החות'ים בתוך תימן ומחוצה לה"
+    ],
+    "forecast": [
+     "המשך יירוט איומים אוויריים לצד תיאום מדיני-ביטחוני אזורי",
+     "התמודדות עם פגיעה כלכלית ותיירותית בעקבות השעיות הטיסות לבירה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/lufthansa-indian-airlines-suspend-flights-riyadh-after-houthi-attacks",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261008-diplomats-school-pupils-take-shelter-in-saudi-capital-as-yemen-s-houthis-step-up-attacks",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-one-plane-severely-damaged-houthis-claim-third-riyadh",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-denies-troops-will-be-sent-yemen",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153681",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131564",
+    "accessed_at": "2026-10-09T06:37:20+00:00"
+   }
+  ]
+ }
+}
