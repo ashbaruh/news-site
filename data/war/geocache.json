@@ -112,6 +112,7 @@
 39.9208,
 32.854
 ],
+"annopolye, ukraine": null,
 "antwerp, belgium": [
 51.2211,
 4.3997
@@ -452,6 +453,7 @@
 40.747
 ],
 "hasakah, syria": null,
+"hawsh as-sayyid ali, lebanon": null,
 "henichesk, ukraine": [
 46.1662,
 34.8089
@@ -520,6 +522,10 @@
 28.9759
 ],
 "jabal bazel, yemen": null,
+"jabal han, yemen": [
+14.2609,
+43.8242
+],
 "jamlah, syria": [
 35.1005,
 36.3496
@@ -654,6 +660,7 @@
 32.8298,
 35.0637
 ],
+"kiyanitsa, ukraine": null,
 "kostiantynivka, ukraine": [
 48.5349,
 37.6924
@@ -1348,6 +1355,7 @@
 "wadi al-ruqad, syria": null,
 "wadi al-salouqi, lebanon": null,
 "wadi slouki, lebanon": null,
+"wadi zibqin, lebanon": null,
 "washington, d.c., united states": [
 38.8951,
 -77.0364
