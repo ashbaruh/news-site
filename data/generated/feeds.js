@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-09T21:17:24+00:00",
-  "fetched_at": "2026-10-09T21:17:24+00:00"
+  "checked_at": "2026-10-09T22:17:32+00:00",
+  "fetched_at": "2026-10-09T22:17:32+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T21:17:37+00:00",
-  "fetched_at": "2026-10-09T21:17:37+00:00"
+  "checked_at": "2026-10-09T22:17:46+00:00",
+  "fetched_at": "2026-10-09T22:17:46+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch New Zealand vs Australia online from anywhere: free Bledisloe Cup 2026 rugby live streams",
+    "title_he": "כיצד לצפות בניו זילנד נגד אוסטרליה באופן מקוון מכל מקום: שידורים חיים בחינם של גביע Bledisloe 2026",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/new-zealand-vs-australia-free-bledisloe-cup-2026",
+    "date": "2026-10-09T22:00:00+00:00"
+   },
    {
     "title_en": "Why I'm still blown away by this 100+ year-old wireless audio technology",
     "title_he": "למה אני עדיין המום מטכנולוגיית האודיו האלחוטית בת 100+ השנים הזו",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/apple-announces-welcome-home-event-for-the-13th-october-are-we-finally-about-to-see-a-new-apple-tv-4k-and-homepod-mini",
     "date": "2026-10-09T12:44:29+00:00"
-   },
-   {
-    "title_en": "Sennheiser CX 80U",
-    "title_he": "סנהייזר CX 80U",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wired-earbuds/sennheiser-cx-80u",
-    "date": "2026-10-09T09:59:50+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T21:17:42+00:00",
-  "fetched_at": "2026-10-09T21:17:42+00:00"
+  "checked_at": "2026-10-09T22:17:47+00:00",
+  "fetched_at": "2026-10-09T22:17:47+00:00"
  },
- "generated_at": "2026-10-09T21:17:42+00:00",
+ "generated_at": "2026-10-09T22:17:47+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T21:17:26+00:00",
-  "fetched_at": "2026-10-09T21:17:26+00:00"
+  "checked_at": "2026-10-09T22:17:33+00:00",
+  "fetched_at": "2026-10-09T22:17:33+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T21:17:27+00:00",
-  "fetched_at": "2026-10-09T21:17:27+00:00"
+  "checked_at": "2026-10-09T22:17:34+00:00",
+  "fetched_at": "2026-10-09T22:17:34+00:00"
  },
  "tv": {
   "data": [
@@ -2781,8 +2781,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T21:17:28+00:00",
-  "fetched_at": "2026-10-09T21:17:28+00:00"
+  "checked_at": "2026-10-09T22:17:36+00:00",
+  "fetched_at": "2026-10-09T22:17:36+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2958,8 +2958,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T21:17:28+00:00",
-  "fetched_at": "2026-10-09T21:17:28+00:00"
+  "checked_at": "2026-10-09T22:17:36+00:00",
+  "fetched_at": "2026-10-09T22:17:36+00:00"
  },
  "ai": {
   "data": {
@@ -2997,21 +2997,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 550,
+     "likes": 551,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 404,
+     "likes": 405,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 158,
+     "likes": 159,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -3025,7 +3025,7 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 419,
+     "likes": 420,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -3053,18 +3053,27 @@ window.DB.generated = {
      "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
      "desc_en": "AnyPose pose still with a strong pose-reference lock",
      "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
-     "likes": 673,
+     "likes": 674,
      "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T21:17:36+00:00",
-  "fetched_at": "2026-10-09T21:17:36+00:00"
+  "checked_at": "2026-10-09T22:17:44+00:00",
+  "fetched_at": "2026-10-09T22:17:44+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"סולומון היה האיום המסוכן ביותר של ווסטהאם\"",
+     "link": "https://www.one.co.il/Article/535546.html?ref=rss",
+     "date": "2026-10-09T21:31:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "רק 1:1 לווסטהאם, מנור סולומון הוחלף בדקה ה-68",
      "link": "https://sports.walla.co.il/item/3871537",
@@ -3383,8 +3392,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-09T21:17:32+00:00",
-  "fetched_at": "2026-10-09T21:17:32+00:00"
+  "checked_at": "2026-10-09T22:17:40+00:00",
+  "fetched_at": "2026-10-09T22:17:40+00:00"
  },
  "idf": {
   "data": [
@@ -3415,8 +3424,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T21:17:32+00:00",
-  "fetched_at": "2026-10-09T21:17:32+00:00"
+  "checked_at": "2026-10-09T22:17:41+00:00",
+  "fetched_at": "2026-10-09T22:17:41+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3424,82 +3433,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-09T17:08:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-09T16:15:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-09T20:55:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-09T17:06:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-09T20:55:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "newest": "2026-10-09T21:31:00+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-09T19:42:40+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-09T15:07:41+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-09T15:28:24+00:00",
-    "seen_at": "2026-10-09T21:17:42+00:00",
+    "newest": "2026-10-09T22:00:00+00:00",
+    "seen_at": "2026-10-09T22:17:47+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-09T21:17:42+00:00"
+  "checked_at": "2026-10-09T22:17:47+00:00"
  }
 };
