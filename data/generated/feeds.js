@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-09T17:17:29+00:00",
-  "fetched_at": "2026-10-09T17:17:29+00:00"
+  "checked_at": "2026-10-09T18:17:17+00:00",
+  "fetched_at": "2026-10-09T18:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T17:17:39+00:00",
-  "fetched_at": "2026-10-09T17:17:39+00:00"
+  "checked_at": "2026-10-09T18:17:27+00:00",
+  "fetched_at": "2026-10-09T18:17:27+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T17:17:39+00:00",
-  "fetched_at": "2026-10-09T17:17:39+00:00"
+  "checked_at": "2026-10-09T18:17:27+00:00",
+  "fetched_at": "2026-10-09T18:17:27+00:00"
  },
- "generated_at": "2026-10-09T17:17:39+00:00",
+ "generated_at": "2026-10-09T18:17:27+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "התובע הכללי באיחוד האמירויות: טייס המשנה של טיסת פליי-דובאי תכנן להתרסק בנתב\"ג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559007",
-     "date": "2026-10-09T16:31:00+00:00"
+     "date": "2026-10-09T16:46:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T17:17:29+00:00",
-  "fetched_at": "2026-10-09T17:17:29+00:00"
+  "checked_at": "2026-10-09T18:17:18+00:00",
+  "fetched_at": "2026-10-09T18:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T17:17:30+00:00",
-  "fetched_at": "2026-10-09T17:17:30+00:00"
+  "checked_at": "2026-10-09T18:17:19+00:00",
+  "fetched_at": "2026-10-09T18:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2886,8 +2886,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-09T17:17:32+00:00",
-  "fetched_at": "2026-10-09T17:17:32+00:00"
+  "checked_at": "2026-10-09T18:17:21+00:00",
+  "fetched_at": "2026-10-09T18:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3063,8 +3063,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T17:17:32+00:00",
-  "fetched_at": "2026-10-09T17:17:32+00:00"
+  "checked_at": "2026-10-09T18:17:21+00:00",
+  "fetched_at": "2026-10-09T18:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -3088,16 +3088,16 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
+   "candidates": 7,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 213,
+     "likes": 215,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -3122,25 +3122,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
-     "title": "JEV-27B Live Demo",
-     "desc_en": "Play Mario, Rubik's Cube and Tetris with JEV-27B",
-     "desc_he": "שחקו ב-Mario, Rubik's Cube ו-Tetris עם JEV-27B",
-     "likes": 104,
-     "link": "https://huggingface.co/spaces/autotrust/JEV-27B-Demo"
-    },
-    {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 233,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
-     "title": "JEV-9B — typed decisions",
-     "desc_en": "Calibrated typed decisions + System 2 reasoning",
-     "desc_he": "החלטות מוקלדות מכוילות + הנמקת מערכת 2",
-     "likes": 95,
-     "link": "https://huggingface.co/spaces/autotrust/jev-9b-decision-demo"
     },
     {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
@@ -3160,18 +3146,50 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+    },
+    {
+     "title": "ChessFly",
+     "desc_en": "Just a fruit fly's brain, playing chess",
+     "desc_he": "רק מוח של זבוב פירות, משחק שח",
+     "likes": 146,
+     "link": "https://huggingface.co/spaces/mlabonne/chessfly"
+    },
+    {
+     "title": "Qwen-Image-Edit-2511-LoRAs-Fast",
+     "desc_en": "AnyPose pose still with a strong pose-reference lock",
+     "desc_he": "תנוחת AnyPose עדיין עם נעילת התייחסות לתנוחה חזקה",
+     "likes": 672,
+     "link": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-09T17:17:38+00:00",
-  "fetched_at": "2026-10-09T17:17:38+00:00"
+  "checked_at": "2026-10-09T18:17:26+00:00",
+  "fetched_at": "2026-10-09T18:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "22:00, ספורט1: מנור סולומון בהרכב ווסטהאם מול ק.פ.ר",
+     "link": "https://sports.walla.co.il/item/3871537",
+     "date": "2026-10-09T17:45:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "מנור סולומון פותח בהרכב ווסטהאם מול ק.פ.ר",
+     "link": "https://www.one.co.il/Article/535535.html?ref=rss",
+     "date": "2026-10-09T17:45:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "היעדרות ראפיניה, סיכויי רביבו וה-11 המשוערים",
      "link": "https://www.one.co.il/Article/535515.html?ref=rss",
@@ -3179,15 +3197,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "ללא כריס קואקו וקייס גאנם: טבריה מחכה לאלופה",
-     "link": "https://www.one.co.il/Article/535496.html?ref=rss",
-     "date": "2026-10-09T08:38:00+00:00",
-     "source": "ONE",
-     "players": [
-      "קייס גאנם"
      ]
     },
     {
@@ -3472,8 +3481,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-09T17:17:34+00:00",
-  "fetched_at": "2026-10-09T17:17:34+00:00"
+  "checked_at": "2026-10-09T18:17:24+00:00",
+  "fetched_at": "2026-10-09T18:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3503,8 +3512,9 @@ window.DB.generated = {
     "date": "2026-10-07T02:50:56+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-09T17:17:35+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-09T18:17:24+00:00",
   "fetched_at": "2026-10-09T17:17:35+00:00"
  },
  "feed_health": {
@@ -3512,44 +3522,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-09T17:03:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "newest": "2026-10-09T17:08:00+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-09T11:58:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-09T16:15:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-09T16:23:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "newest": "2026-10-09T17:45:00+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-09T17:06:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-09T17:00:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "newest": "2026-10-09T17:45:00+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3561,13 +3571,13 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-09T16:17:37+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3579,16 +3589,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T15:28:24+00:00",
-    "seen_at": "2026-10-09T17:17:39+00:00",
+    "seen_at": "2026-10-09T18:17:27+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-09T17:17:39+00:00"
+  "checked_at": "2026-10-09T18:17:27+00:00"
  }
 };
