@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T19:17:26+00:00",
-  "fetched_at": "2026-10-10T19:17:26+00:00"
+  "checked_at": "2026-10-10T20:17:29+00:00",
+  "fetched_at": "2026-10-10T20:17:29+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Sloth Bear Named By Julia Roberts is Flourishing After Rescue From Dancing Trade in India",
+    "title_he": "עצלן דוב בשם ג'וליה רוברטס פורח לאחר ההצלה ממסחר בריקודים בהודו",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/sloth-bear-given-a-name-by-julia-roberts-is-flourishing/",
+    "date": "2026-10-10T19:57:53+00:00"
+   },
    {
     "title_en": "Neighbors Flock to Rescue a Wounded Owl Tangled Up in Barbed Wire",
     "title_he": "שכנים נוהרים להציל ינשוף פצוע שהסתבך בתיל דוקרני",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/",
     "date": "2026-10-05T11:00:53+00:00"
-   },
-   {
-    "title_en": "Rare 1-in-100M ‘Ghost Lobster’ Goes to School to Help Scientists Crack Genetic Mystery–in Time for Halloween",
-    "title_he": "\"לובסטר רפאים\" נדיר 1 ל-100 מיליון הולך לבית הספר כדי לעזור למדענים לפצח תעלומה גנטית - בזמן לליל כל הקדושים",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/100m-ghost-lobster-goes-to-college/",
-    "date": "2026-10-04T15:04:49+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T19:17:48+00:00",
-  "fetched_at": "2026-10-10T19:17:48+00:00"
+  "checked_at": "2026-10-10T20:17:43+00:00",
+  "fetched_at": "2026-10-10T20:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T19:17:48+00:00",
-  "fetched_at": "2026-10-10T19:17:48+00:00"
+  "checked_at": "2026-10-10T20:17:43+00:00",
+  "fetched_at": "2026-10-10T20:17:43+00:00"
  },
- "generated_at": "2026-10-10T19:17:48+00:00",
+ "generated_at": "2026-10-10T20:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T19:17:27+00:00",
-  "fetched_at": "2026-10-10T19:17:27+00:00"
+  "checked_at": "2026-10-10T20:17:31+00:00",
+  "fetched_at": "2026-10-10T20:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T19:17:28+00:00",
-  "fetched_at": "2026-10-10T19:17:28+00:00"
+  "checked_at": "2026-10-10T20:17:32+00:00",
+  "fetched_at": "2026-10-10T20:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2780,10 +2780,9 @@ window.DB.generated = {
     "title": "דפורטיבו לה קורוניה - לבאנטה"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-10T19:17:34+00:00",
-  "fetched_at": "2026-10-10T17:52:49+00:00"
+  "ok": true,
+  "checked_at": "2026-10-10T20:17:33+00:00",
+  "fetched_at": "2026-10-10T20:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2941,8 +2940,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T19:17:34+00:00",
-  "fetched_at": "2026-10-10T19:17:34+00:00"
+  "checked_at": "2026-10-10T20:17:33+00:00",
+  "fetched_at": "2026-10-10T20:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2978,7 +2977,7 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 222,
+     "likes": 223,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2999,7 +2998,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 238,
+     "likes": 240,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -3013,7 +3012,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 188,
+     "likes": 189,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -3027,21 +3026,21 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 53,
+     "likes": 54,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "MiniMax-H3 Character Swap LoRA",
      "desc_en": "Swap one character in a clip for a reference character",
      "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T19:17:46+00:00",
-  "fetched_at": "2026-10-10T19:17:46+00:00"
+  "checked_at": "2026-10-10T20:17:41+00:00",
+  "fetched_at": "2026-10-10T20:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -3056,15 +3055,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "שוב על הפודיום: ארד נוסף לקונסטנטין קובלוב",
-     "link": "https://www.one.co.il/Article/535601.html?ref=rss",
-     "date": "2026-10-10T15:37:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
      "title": "רז הרשקו זכתה במדליית הארד באליפות העולם",
      "link": "https://www.one.co.il/Article/535569.html?ref=rss",
      "date": "2026-10-10T14:05:00+00:00",
@@ -3074,12 +3064,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "סבע כבש בפנדל, אמדספור פספסה הזדמנות לנצח",
+     "title": "שרי כבש בפנדל והשווה ל-1:1 מול אייאקס וגלוך",
      "link": "https://www.one.co.il/Article/535583.html?ref=rss",
      "date": "2026-10-10T12:31:00+00:00",
      "source": "ONE",
      "players": [
-      "דיא סבע"
+      "אוסקר גלוך"
      ]
     },
     {
@@ -3099,6 +3089,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "בזכות השיפור הזה, \"דני אבדיה עשוי לחגוג העונה ב-NBA\"",
+     "link": "https://sports.walla.co.il/item/3871559",
+     "date": "2026-10-10T05:18:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     },
     {
@@ -3126,6 +3125,33 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "קייס גאנם"
+     ]
+    },
+    {
+     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
+     "link": "https://sports.walla.co.il/item/3871461",
+     "date": "2026-10-08T17:03:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "בעונה שעברה \"העומס על דני אבדיה היה גדול מדי\". הפעם זה ייפתר?",
+     "link": "https://sports.walla.co.il/item/3871438",
+     "date": "2026-10-08T14:03:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"פורטלנד זכתה בלוטו עם דני אבדיה - ולא פדתה את כל הכסף\"",
+     "link": "https://sports.walla.co.il/item/3870865",
+     "date": "2026-10-05T05:23:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -3329,8 +3355,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T19:17:42+00:00",
-  "fetched_at": "2026-10-10T19:17:42+00:00"
+  "checked_at": "2026-10-10T20:17:37+00:00",
+  "fetched_at": "2026-10-10T20:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3361,8 +3387,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T19:17:42+00:00",
-  "fetched_at": "2026-10-10T19:17:42+00:00"
+  "checked_at": "2026-10-10T20:17:37+00:00",
+  "fetched_at": "2026-10-10T20:17:37+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3370,82 +3396,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-10T18:40:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T19:04:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "newest": "2026-10-10T20:07:00+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-10T18:57:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "newest": "2026-10-10T19:28:00+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T19:12:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "newest": "2026-10-10T20:09:00+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-10T19:15:09+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-10T16:48:56+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "newest": "2026-10-10T19:57:53+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T19:17:48+00:00",
+    "seen_at": "2026-10-10T20:17:43+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T19:17:48+00:00"
+  "checked_at": "2026-10-10T20:17:43+00:00"
  }
 };
