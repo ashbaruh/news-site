@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T12:17:29+00:00",
-  "fetched_at": "2026-10-10T12:17:29+00:00"
+  "checked_at": "2026-10-10T13:05:00+00:00",
+  "fetched_at": "2026-10-10T13:05:00+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T12:17:46+00:00",
-  "fetched_at": "2026-10-10T12:17:46+00:00"
+  "checked_at": "2026-10-10T13:05:24+00:00",
+  "fetched_at": "2026-10-10T13:05:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T12:17:46+00:00",
-  "fetched_at": "2026-10-10T12:17:46+00:00"
+  "checked_at": "2026-10-10T13:05:24+00:00",
+  "fetched_at": "2026-10-10T13:05:24+00:00"
  },
- "generated_at": "2026-10-10T12:17:46+00:00",
+ "generated_at": "2026-10-10T13:05:24+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "האנליסט הבכיר שמסביר איך מזהים חברת לונג'ביטי מוצלחת להשקעה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558794",
-     "date": "2026-10-10T10:30:00+00:00"
+     "title": "הפרדוקס במדד ת\"א 125 - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558851",
+     "date": "2026-10-10T12:57:00+00:00"
     },
     {
      "title": "דיווח: לקראת חידוש הלחימה - איראן משקמת את מלאי החימושים",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T12:17:32+00:00",
-  "fetched_at": "2026-10-10T12:17:32+00:00"
+  "checked_at": "2026-10-10T13:05:01+00:00",
+  "fetched_at": "2026-10-10T13:05:01+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T12:17:33+00:00",
-  "fetched_at": "2026-10-10T12:17:33+00:00"
+  "checked_at": "2026-10-10T13:05:10+00:00",
+  "fetched_at": "2026-10-10T13:05:10+00:00"
  },
  "tv": {
   "data": [
@@ -2780,8 +2780,9 @@ window.DB.generated = {
     "title": "דפורטיבו לה קורוניה - לבאנטה"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-10T12:17:38+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-10-10T13:05:15+00:00",
   "fetched_at": "2026-10-10T12:17:38+00:00"
  },
  "ligat_haal": {
@@ -2958,8 +2959,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T12:17:38+00:00",
-  "fetched_at": "2026-10-10T12:17:38+00:00"
+  "checked_at": "2026-10-10T13:05:15+00:00",
+  "fetched_at": "2026-10-10T13:05:15+00:00"
  },
  "ai": {
   "data": {
@@ -2974,25 +2975,23 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-     "date": "2026-10-08T00:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/jabra-evolve3-85-review/",
+     "date": "2026-10-09T12:39:28+00:00",
      "launch": false,
-     "title_en": "Disrupting AI-enabled “false front” operations",
-     "title_he": "שיבוש פעולות \"חזית כוזבת\" התומכות בבינה מלאכותית",
-     "translated_by": "google"
+     "title": "ביקורת Jabra Evolve3 85: האוזניות שיתנו לכם לדבר עם קלוד גם באופן ספייס"
     }
    ],
-   "candidates": 4,
+   "candidates": 9,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 566,
+     "likes": 568,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3048,7 +3047,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 50,
+     "likes": 51,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
@@ -3061,12 +3060,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T12:17:45+00:00",
-  "fetched_at": "2026-10-10T12:17:45+00:00"
+  "checked_at": "2026-10-10T13:05:23+00:00",
+  "fetched_at": "2026-10-10T13:05:23+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סבע כבש בפנדל, אמדספור פספסה הזדמנות לנצח",
+     "link": "https://www.one.co.il/Article/535583.html?ref=rss",
+     "date": "2026-10-10T12:31:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "דיא סבע הלוהט שוב כבש, נטע לביא חזר אחרי פציעה",
      "link": "https://sports.walla.co.il/item/3871592",
@@ -3147,15 +3155,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "היעדרות ראפיניה, סיכויי רביבו וה-11 המשוערים",
-     "link": "https://www.one.co.il/Article/535515.html?ref=rss",
-     "date": "2026-10-09T13:40:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3404,11 +3403,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T12:17:42+00:00",
-  "fetched_at": "2026-10-10T12:17:42+00:00"
+  "checked_at": "2026-10-10T13:05:19+00:00",
+  "fetched_at": "2026-10-10T13:05:19+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "70 שנה למבצע \"לולב\": המבצע החטיבתי הראשון של הצנחנים שנדחק לשולי התודעה",
+    "link": "https://www.walla.co.il/news/military/383956760",
+    "date": "2026-10-10T12:21:12+00:00"
+   },
    {
     "title": "בוקר 7 באוקטובר: 800 לוחמים מול אלפי מחבלים - וכמה יש כיום?",
     "link": "https://www.walla.co.il/news/military/383956851",
@@ -3428,66 +3432,61 @@ window.DB.generated = {
     "title": "שלוש שנים אחרי 7 באוקטובר: צה\"ל מציג את השינויים - ומה עם הלקח הגדול באמת?",
     "link": "https://www.walla.co.il/news/military/383956557",
     "date": "2026-10-07T02:55:23+00:00"
-   },
-   {
-    "title": "3 שנים לטבח 7 באוקטובר: למה עדיין לא הוגש כתב אישום נגד אף מחבל נוח'בה?",
-    "link": "https://www.walla.co.il/news/military/383956527",
-    "date": "2026-10-07T02:50:56+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T12:17:42+00:00",
-  "fetched_at": "2026-10-10T12:17:42+00:00"
+  "checked_at": "2026-10-10T13:05:19+00:00",
+  "fetched_at": "2026-10-10T13:05:19+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-10T10:33:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "newest": "2026-10-10T12:57:00+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T12:11:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "newest": "2026-10-10T13:02:00+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-10T06:50:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T11:45:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "newest": "2026-10-10T12:34:00+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-10T06:56:40+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "newest": "2026-10-10T12:55:57+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3499,28 +3498,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-10T11:05:53+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T12:17:46+00:00",
+    "seen_at": "2026-10-10T13:05:24+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T12:17:46+00:00"
+  "checked_at": "2026-10-10T13:05:24+00:00"
  }
 };
