@@ -1,0 +1,413 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f11a554550c8",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 5,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-10T06:19:31+00:00",
+  "window": {
+   "from": "2026-10-09T06:19:31+00:00",
+   "to": "2026-10-10T06:19:31+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610100619"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין בהסלמה צבאית וכלכלית סביב חופש השיט והסגר הימי במצר הורמוז. ארצות הברית מעמיקה את אכיפת הסנקציות ונערכת לאפשרויות תקיפה נוספות, בעוד גורמים איראניים ושלוחותיהם מגיבים בפעולות ימיות, תקיפות נגד יעדים בסעודיה ופעילות בגבול סוריה-לבנון. במקביל, טהראן מנסה לעקוף את המצור הכלכלי באמצעות הידוק קשרים יבשתיים וימיים עם מדינות מרכז אסיה ומשמיעה רטוריקה תקיפה נגד תכתיבים אמריקניים.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "סגר ימי אמריקני פעיל עם הסטת אוניות, לצד תקיפות של משמרות המהפכה על כלי שיט"
+   },
+   {
+    "name": "חצי האי ערב / תימן וסעודיה",
+    "status": "תקיפות רקטות וכטב\"מים של החות'ים נגד נמלי תעופה בסעודיה"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "סיכולים ממוקדים ותקיפות אוויריות ישראליות נגד מפקדי טרור המופעלים בידי איראן"
+   },
+   {
+    "name": "המערכה הכלכלית והבינלאומית",
+    "status": "הרחבת סנקציות אמריקניות על תעופה וסחר, במקביל לניסיונות איראניים לפתוח נתיבי סחר חלופיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10100619-01",
+    "title": "אכיפת סגר ימי אמריקני והפניית כלי שיט במצר הורמוז",
+    "summary": "פיקוד המרכז של צבא ארצות הברית דיווח כי כוחותיו הפנו 133 כלי שיט מסחריים במצר הורמוז במסגרת אכיפת סגר ימי שהוגדר על ידו כברזל נגד איראן.",
+    "axis": "ארה\"ב - איראן / מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T05:11:26+00:00",
+    "last_update_at": "2026-10-10T05:11:26+00:00",
+    "what_is_not_verified": "אין אימות עצמאי מעבר להודעת צבא ארצות הברית בנוגע להיקף כלי השיט שהופנו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-133-vessels-redirected-hormuz-it-enforces-iran-blockade",
+      "published_at": "2026-10-10T05:11:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10100619-02",
+    "title": "מתקפת כטב\"מים וטילים של החות'ים על נמל התעופה בריאד",
+    "summary": "החות'ים בתימן ביצעו תקיפה נגד נמל התעופה בבירת סעודיה ריאד, שהביאה למותם של שלושה אזרחים סעודים ולפציעת נוספים, מה שהוביל להרחבת אזהרות הטיסה של רשות התעופה האירופית.",
+    "axis": "החות'ים - סעודיה / שלוחות איראן במפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T09:47:10+00:00",
+    "last_update_at": "2026-10-09T14:46:31+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/eu-aviation-body-widens-saudi-airspace-warning-after-houthi-strikes",
+      "published_at": "2026-10-09T14:46:31+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T13:50:25+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+      "published_at": "2026-10-09T09:47:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10100619-03",
+    "title": "תקיפה אווירית ישראלית נגד פעיל טרור סורי בגבול סוריה-לבנון",
+    "summary": "כוחות חיל האוויר הישראלי ביצעו תקיפה באזור חוש א-סייד עלי נגד מחבל סורי שפעל בהכוונת איראן והיה מעורב בשיגורי רחפנים ורקטות לעבר כוחות צה\"ל.",
+    "axis": "ישראל - שלוחות איראן בסוריה ולבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T18:04:55+00:00",
+    "last_update_at": "2026-10-09T18:37:29+00:00",
+    "what_is_not_verified": "תוצאות התקיפה ומצב היעד יוסף עלי אלחסון אינם מאומתים שכן צה\"ל לא אישר אם הוא חוסל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rys6hsisgl",
+      "published_at": "2026-10-09T18:37:29+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25325",
+      "published_at": "2026-10-09T18:04:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10100619-04",
+    "title": "תקיפת כלי שיט במצר הורמוז בידי הצי של משמרות המהפכה",
+    "summary": "הצי של משמרות המהפכה האיראניים תקף שתי ספינות במצר הורמוז, כאשר אחת מהן עלתה באש.",
+    "axis": "איראן - מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T13:00:06+00:00",
+    "last_update_at": "2026-10-09T13:00:06+00:00",
+    "what_is_not_verified": "שמות הספינות, זהותן והיקף הנזק המדויק אינם מאומתים ממקורות רשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94566",
+      "published_at": "2026-10-09T13:00:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10100619-05",
+    "title": "התרחבות הסנקציות הכלכליות של ארצות הברית נגד קווי האספקה האיראניים",
+    "summary": "שר האוצר האמריקני הודיע על הרחבת העיצומים הכלכליים כנגד איראן במטרה לחסום נתיבי סחר יבשתיים, שימוש במטבעות מבוזרים ותעופה וספנות שנותרו פעילים.",
+    "axis": "ארה\"ב - איראן / סנקציות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T21:00:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T21:00:06+00:00",
+    "last_update_at": "2026-10-10T02:11:19+00:00",
+    "what_is_not_verified": "היקף ההחרגות שניתנו בפועל לטיסות איראניות בעיראק אינו ברור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610106673",
+      "published_at": "2026-10-10T02:11:19+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/iranian-airlines-expand-trips-to-iraq-despite-u-s-sanctions/",
+      "published_at": "2026-10-09T21:00:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10100619-06",
+    "title": "הסכם אספקת דלקים בין ארצות הברית לרוסיה על רקע המתיחות במצר הורמוז",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הודיע כי סיכם עם נשיא רוסיה ולדימיר פוטין על הזרמת מיליוני טונות של סולר לשוק העולמי כדי להוריד מחירים, לצד הדגשה שאיראן לא תשיג נשק גרעיני.",
+    "axis": "ארה\"ב - רוסיה / אנרגיה וגרעין איראני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T18:52:03+00:00",
+    "last_update_at": "2026-10-09T18:52:03+00:00",
+    "what_is_not_verified": "פרטי מימוש עסקת הסולר בבתי הזיקוק ברוסיה אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131645",
+      "published_at": "2026-10-09T18:52:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10100619-07",
+    "title": "הצעת פזשכיאן לחיבור אזורי ודחיית משא ומתן תחת כפייה",
+    "summary": "נשיא איראן מסעוד פזשכיאן גינה בפסגה בטורקמניסטן את תקיפות ארצות הברית וישראל, הציע מסדרון סחר אזורי דרך נמלי איראן והבהיר כי ארצו לא תנהל משא ומתן תחת כוח.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T05:43:02+00:00",
+    "last_update_at": "2026-10-10T05:43:02+00:00",
+    "what_is_not_verified": "לא אומתו תגובות שאר המדינות החברות להצעת הגוש החדש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-pitches-cis-iran-bloc-turkmenistan-summit",
+      "published_at": "2026-10-10T05:43:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'אהבהאר, איראן",
+      "lat": 25.2935,
+      "lon": 60.6469
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10100619-08",
+    "title": "התרעת ביטחון אמריקנית בבריטניה מפני כוונה איראנית לפגוע במפציצים",
+    "summary": "מפציצים אמריקניים מסוג בי-1 פונו במהירות מבסיס חיל האוויר המלכותי פיירפורד בבריטניה בעקבות אזהרות מפני מזימה איראנית אפשרית לפגוע בהם.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T18:28:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T18:28:40+00:00",
+    "last_update_at": "2026-10-09T18:28:40+00:00",
+    "what_is_not_verified": "פרטי המזימה האיראנית החשודה ורמת אמינותה לא אומתו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_france24",
+      "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261009-france-protests-israel-s-politically-charged-remembrance-ethopia-ukraine",
+      "published_at": "2026-10-09T18:28:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על חיסולו של יוסף עלי אלחסון בתקיפה בלבנון",
+   "היקף ההחרגה האמריקנית המדויק לטיסות איראניות לנמל התעופה בנג'ף",
+   "פרטי הדיווח על פגיעה בשתי ספינות במצר הורמוז ושריפת אחת מהן",
+   "דיווחים על התחייבות אמריקנית שלא לתקוף באיראן לפני בחירות האמצע",
+   "מידת ההתקדמות הממשית בתוכניות המבצעיות של הפנטגון לתקיפה בת שלושה ימים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן",
+     "אכיפת סגר ימי מוחלט במצר הורמוז",
+     "חסימת כלל עורקי הנשימה הכלכליים, התעופתיים והימיים של איראן"
+    ],
+    "inferred": [
+     "הפעלת לחץ מרבי כדי לאלץ את טהראן להגיע להסכם בתנאים אמריקניים",
+     "הימנעות מהסתבכות במלחמה כוללת לפני מועד בחירות האמצע"
+    ],
+    "forecast": [
+     "המשך פעולות אכיפה ימיות קפדניות במצר הורמוז",
+     "החרפת האכיפה הכלכלית נגד מדינות המאפשרות טיסות ומסחר איראני"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "סירוב לנהל משא ומתן תחת לחץ או כפייה צבאית",
+     "דרישה ליחס מכבד מצד הממשל האמריקני",
+     "הפיכת נמלי המדינה לציר סחר ימי מרכזי עבור מדינות מרכז אסיה"
+    ],
+    "inferred": [
+     "ניסיון להרתיע את כוחות ארצות הברית באמצעות שיבוש תנועת ספינות והפעלת שלוחות",
+     "שבירת הבידוד הכלכלי באמצעות בריתות אזוריות עם מדינות אסיה"
+    ],
+    "forecast": [
+     "המשך הטרדות ימיות ופעילות בלתי ישירה באמצעות שלוחות באזור",
+     "האצת יוזמות דיפלומטיות וכלכליות מול מדינות האזור ורוסיה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול איומים ממוקדים ופגיעה בפעילי טרור הפועלים בהכוונת איראן",
+     "שמירה על מחויבות להסכמים תוך נטרול איומים מעבר לגבול"
+    ],
+    "inferred": [
+     "מניעת התבססות של מערכי רחפנים ורקטות של שלוחות איראן סמוך לגבולותיה",
+     "המשך גביית מחיר ישיר מרשתות הטרור האיראניות בסוריה ובלבנון"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות נגד מטרות ופעילים איראניים בזירה הצפונית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/eu-aviation-body-widens-saudi-airspace-warning-after-houthi-strikes",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/iranian-airlines-expand-trips-to-iraq-despite-u-s-sanctions/",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261009-france-protests-israel-s-politically-charged-remembrance-ethopia-ukraine",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610106673",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-pitches-cis-iran-bloc-turkmenistan-summit",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131645",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25325",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94566",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rys6hsisgl",
+    "accessed_at": "2026-10-10T06:19:31+00:00"
+   }
+  ]
+ }
+}
