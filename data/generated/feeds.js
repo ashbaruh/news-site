@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T08:17:17+00:00",
-  "fetched_at": "2026-10-10T08:17:17+00:00"
+  "checked_at": "2026-10-10T09:17:25+00:00",
+  "fetched_at": "2026-10-10T09:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T08:17:28+00:00",
-  "fetched_at": "2026-10-10T08:17:28+00:00"
+  "checked_at": "2026-10-10T09:17:33+00:00",
+  "fetched_at": "2026-10-10T09:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T08:17:28+00:00",
-  "fetched_at": "2026-10-10T08:17:28+00:00"
+  "checked_at": "2026-10-10T09:17:33+00:00",
+  "fetched_at": "2026-10-10T09:17:33+00:00"
  },
- "generated_at": "2026-10-10T08:17:28+00:00",
+ "generated_at": "2026-10-10T09:17:33+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,17 @@ window.DB.generated = {
      "date": "2026-10-10T07:30:00+00:00"
     },
     {
-     "title": "דיווח: כלי התקשורת הממלכתיים בסוריה מסרו כי \"כוחות ישראליים ביצעו פשיטות וחיפושים\" בכפר בדרום מחוז קוניטרה",
+     "title": "דיווח: לקראת חידוש הלחימה - איראן משקמת את מלאי החימושים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559019",
      "date": "2026-10-10T05:00:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מדוע אין פרס נובל במתמטיקה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558744",
+     "date": "2026-10-10T08:00:00+00:00"
+    },
     {
      "title": "דיווח: מדינה ערבית במו״מ לרכישת מערכת הגנה במיליארדים מישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559020",
@@ -122,11 +127,6 @@ window.DB.generated = {
      "title": "פנמה: רעידת אדמה בעוצמה 7.6 הכתה במדינה, אזהרת צונאמי הופעלה בשורת מדינות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559017",
      "date": "2026-10-09T18:35:00+00:00"
-    },
-    {
-     "title": "החוקרים שמככבים בבורסת ההימורים על הנובל בכלכלה, והקשר הישראלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558935",
-     "date": "2026-10-09T17:03:00+00:00"
     },
     {
      "title": "מניית טבע זינקה אחרי שקיבלה אישור FDA לתרופה לסכיזופרניה",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T08:17:18+00:00",
-  "fetched_at": "2026-10-10T08:17:18+00:00"
+  "checked_at": "2026-10-10T09:17:26+00:00",
+  "fetched_at": "2026-10-10T09:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T08:17:19+00:00",
-  "fetched_at": "2026-10-10T08:17:19+00:00"
+  "checked_at": "2026-10-10T09:17:27+00:00",
+  "fetched_at": "2026-10-10T09:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2781,8 +2781,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T08:17:21+00:00",
-  "fetched_at": "2026-10-10T08:17:21+00:00"
+  "checked_at": "2026-10-10T09:17:28+00:00",
+  "fetched_at": "2026-10-10T09:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2958,8 +2958,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T08:17:21+00:00",
-  "fetched_at": "2026-10-10T08:17:21+00:00"
+  "checked_at": "2026-10-10T09:17:28+00:00",
+  "fetched_at": "2026-10-10T09:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2984,7 +2984,9 @@ window.DB.generated = {
     }
    ],
    "candidates": 10,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2997,7 +2999,7 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 219,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -3011,7 +3013,7 @@ window.DB.generated = {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 163,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -3039,7 +3041,7 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -3059,8 +3061,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T08:17:26+00:00",
-  "fetched_at": "2026-10-10T08:17:26+00:00"
+  "checked_at": "2026-10-10T09:17:33+00:00",
+  "fetched_at": "2026-10-10T09:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3156,30 +3158,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "בלצ'ה מחכים לחזרת גאנדלמן: \"יכול לשנות את ההתקפה\"",
-     "link": "https://sports.walla.co.il/item/3871463",
-     "date": "2026-10-08T17:14:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עומרי גאנדלמן"
-     ]
-    },
-    {
      "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
      "link": "https://sports.walla.co.il/item/3871461",
      "date": "2026-10-08T17:03:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דניאל פרץ חזר להתאמן, חלק מאוהדי סאות'המפטון מאבדים סבלנות",
-     "link": "https://sports.walla.co.il/item/3871462",
-     "date": "2026-10-08T16:46:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -3401,8 +3385,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T08:17:23+00:00",
-  "fetched_at": "2026-10-10T08:17:23+00:00"
+  "checked_at": "2026-10-10T09:17:30+00:00",
+  "fetched_at": "2026-10-10T09:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3433,58 +3417,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T08:17:23+00:00",
-  "fetched_at": "2026-10-10T08:17:23+00:00"
+  "checked_at": "2026-10-10T09:17:30+00:00",
+  "fetched_at": "2026-10-10T09:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-10T08:00:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "newest": "2026-10-10T08:31:00+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-10T07:20:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "newest": "2026-10-10T08:00:00+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T06:59:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "newest": "2026-10-10T08:33:00+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-10T06:50:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T08:07:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "newest": "2026-10-10T08:15:00+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-10T06:56:40+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3496,28 +3480,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-10T08:11:48+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T08:17:28+00:00",
+    "seen_at": "2026-10-10T09:17:33+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T08:17:28+00:00"
+  "checked_at": "2026-10-10T09:17:33+00:00"
  }
 };
