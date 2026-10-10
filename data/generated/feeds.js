@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:17:26+00:00",
-  "fetched_at": "2026-10-10T11:17:26+00:00"
+  "checked_at": "2026-10-10T11:32:45+00:00",
+  "fetched_at": "2026-10-10T11:32:45+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:17:36+00:00",
-  "fetched_at": "2026-10-10T11:17:36+00:00"
+  "checked_at": "2026-10-10T11:32:59+00:00",
+  "fetched_at": "2026-10-10T11:32:59+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:17:37+00:00",
-  "fetched_at": "2026-10-10T11:17:37+00:00"
+  "checked_at": "2026-10-10T11:32:59+00:00",
+  "fetched_at": "2026-10-10T11:32:59+00:00"
  },
- "generated_at": "2026-10-10T11:17:37+00:00",
+ "generated_at": "2026-10-10T11:32:59+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:17:27+00:00",
-  "fetched_at": "2026-10-10T11:17:27+00:00"
+  "checked_at": "2026-10-10T11:32:46+00:00",
+  "fetched_at": "2026-10-10T11:32:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:17:28+00:00",
-  "fetched_at": "2026-10-10T11:17:28+00:00"
+  "checked_at": "2026-10-10T11:32:47+00:00",
+  "fetched_at": "2026-10-10T11:32:47+00:00"
  },
  "tv": {
   "data": [
@@ -2780,8 +2780,9 @@ window.DB.generated = {
     "title": "דפורטיבו לה קורוניה - לבאנטה"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-10T11:17:30+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-10-10T11:32:48+00:00",
   "fetched_at": "2026-10-10T11:17:30+00:00"
  },
  "ligat_haal": {
@@ -2958,8 +2959,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:17:30+00:00",
-  "fetched_at": "2026-10-10T11:17:30+00:00"
+  "checked_at": "2026-10-10T11:32:48+00:00",
+  "fetched_at": "2026-10-10T11:32:48+00:00"
  },
  "ai": {
   "data": {
@@ -2983,9 +2984,9 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 5,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -3061,19 +3062,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:17:35+00:00",
-  "fetched_at": "2026-10-10T11:17:35+00:00"
+  "checked_at": "2026-10-10T11:32:54+00:00",
+  "fetched_at": "2026-10-10T11:32:54+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "תיאבק על הארד: רז הרשקו הפסידה בחצי הגמר",
-     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
-     "date": "2026-10-10T08:00:00+00:00",
-     "source": "ONE",
+     "title": "עם אבא חיים ביציע: רוי רביבו צפוי לפתוח מול סלטה ויגו",
+     "link": "https://sports.walla.co.il/item/3871589",
+     "date": "2026-10-10T11:30:00+00:00",
+     "source": "וואלה",
      "players": [
-      "עופרי ארד"
+      "רועי רביבו"
      ]
     },
     {
@@ -3083,24 +3084,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"אם אני טוב יותר מגלוך, המאמן יראה את זה\"",
-     "link": "https://www.one.co.il/Article/535556.html?ref=rss",
-     "date": "2026-10-10T04:43:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "\"האיום הבולט\": השבחים לסולומון והסערה בווסטהאם",
-     "link": "https://www.one.co.il/Article/535547.html?ref=rss",
-     "date": "2026-10-10T03:02:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -3119,24 +3102,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "68 דקות לסולומון, 1:1 לווסטהאם עם ק.פ.ר",
-     "link": "https://www.one.co.il/Article/535532.html?ref=rss",
-     "date": "2026-10-09T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "היעדרות ראפיניה, סיכויי רביבו וה-11 המשוערים",
-     "link": "https://www.one.co.il/Article/535515.html?ref=rss",
-     "date": "2026-10-09T13:40:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3394,8 +3359,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:17:32+00:00",
-  "fetched_at": "2026-10-10T11:17:32+00:00"
+  "checked_at": "2026-10-10T11:32:51+00:00",
+  "fetched_at": "2026-10-10T11:32:51+00:00"
  },
  "idf": {
   "data": [
@@ -3426,8 +3391,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:17:33+00:00",
-  "fetched_at": "2026-10-10T11:17:33+00:00"
+  "checked_at": "2026-10-10T11:32:52+00:00",
+  "fetched_at": "2026-10-10T11:32:52+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3435,37 +3400,37 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-10T10:33:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T10:00:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "newest": "2026-10-10T11:30:00+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-10T06:50:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
@@ -3477,19 +3442,19 @@ window.DB.generated = {
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-10T06:56:40+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-10T10:17:30+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3501,16 +3466,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "seen_at": "2026-10-10T11:32:59+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T11:17:37+00:00"
+  "checked_at": "2026-10-10T11:32:59+00:00"
  }
 };
