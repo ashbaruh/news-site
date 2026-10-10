@@ -70,6 +70,7 @@
 36.2969
 ],
 "al-muallaqa, syria": null,
+"al-muhabsha, yemen": null,
 "al-qantara, lebanon": [
 33.2589,
 35.459
@@ -220,6 +221,10 @@
 "beirut port, lebanon": [
 33.9008,
 35.5022
+],
+"beirut rafic hariri international airport, lebanon": [
+33.8185,
+35.4909
 ],
 "beirut, lebanon": [
 33.8892,
@@ -464,6 +469,10 @@
 "henichesk, ukraine": [
 46.1662,
 34.8089
+],
+"hermel district, lebanon": [
+34.3896,
+36.3035
 ],
 "hermel, lebanon": [
 34.4205,
@@ -722,6 +731,10 @@
 13.0578,
 44.8836
 ],
+"lahj, yemen": [
+13.0578,
+44.8836
+],
 "lajes air base, portugal": null,
 "lajes, portugal": [
 38.7669,
@@ -809,6 +822,10 @@
 15.4579,
 45.323
 ],
+"marjayoun, lebanon": [
+33.3593,
+35.5902
+],
 "markaba, lebanon": [
 33.2314,
 35.5177
@@ -826,6 +843,10 @@
 35.4741
 ],
 "maysan governorate, iraq": null,
+"mayun island, yemen": [
+12.6518,
+43.4278
+],
 "mecca, saudi arabia": [
 21.4208,
 39.8269
@@ -1308,6 +1329,7 @@
 59.4372,
 24.7573
 ],
+"talloussah, lebanon": null,
 "tampa, united states": [
 27.945,
 -82.4583

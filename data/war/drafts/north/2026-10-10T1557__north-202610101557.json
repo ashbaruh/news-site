@@ -1,0 +1,458 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a0eab799c347",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 2,
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-10T15:57:51+00:00",
+  "window": {
+   "from": "2026-10-09T15:57:51+00:00",
+   "to": "2026-10-10T15:57:51+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610101557"
+  },
+  "summary": "בגזרה הצפונית נמשכת לחימה בעצימות מבוקרת, הכוללת תקיפות אוויריות וארטילריות של צה\"ל בדרום לבנון לצד שיגור מיירטים לעבר מטרות חשודות. בגבול לבנון-סוריה פועל צה\"ל לסיכול התארגנויות טרור הפועלות בהכוונה איראנית. במקביל מתנהלים מהלכים מדיניים להסדרת התעופה האזרחית בלבנון והתניית שיקום הדרום בפירוק חיזבאללה מנשקו.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות מבצעית הכוללת תקיפות אוויריות, ירי ארטילרי, שיגורי מיירטים ותקריות בטיחות של כוחות פרוסים"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "סיכולים אוויריים ישראליים נגד פעילים המכוונים על ידי איראן וסיכול הברחות אמצעי לחימה"
+   },
+   {
+    "name": "הזירה המדינית-כלכלית בלבנון ובסוריה",
+    "status": "מגעים דיפלומטיים מול ארצות הברית להסרת מגבלות טיסה ולשיקום, לצד התניות לפירוק חיזבאללה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10101557-01",
+    "title": "שיגור מיירט לעבר מטרה אווירית חשודה בדרום לבנון",
+    "summary": "מיירט שוגר לעבר מטרה אווירית חשודה שזוהתה במרחב פעילות כוחות צה\"ל בדרום לבנון. לא הופעלו התרעות על פי מדיניות ותוצאות היירוט נבדקות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:50:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T14:50:18+00:00",
+    "last_update_at": "2026-10-10T14:54:56+00:00",
+    "what_is_not_verified": "תוצאות היירוט טרם אומתו ונמצאות בבדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1375555",
+      "published_at": "2026-10-10T14:54:56+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131674",
+      "published_at": "2026-10-10T14:51:36+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25326",
+      "published_at": "2026-10-10T14:50:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10101557-02",
+    "title": "תקיפות אוויריות והפגזות צה\"ל במספר יעדים בדרום לבנון",
+    "summary": "כלי טיס וארטילריה של צה\"ל תקפו מספר מוקדים בדרום לבנון, בהם טלוסה שבמחוז מרג'עיון, ואדי אל-חוג'יר, אזור נבטיה אל-פוקא, כפר תבנית, ואזורים סביב חדאת'א, ברעשית ואל-מנצורי.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T06:16:15+00:00",
+    "last_update_at": "2026-10-10T14:57:18+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזק בעיירה טלוסה ובמוקדים הנוספים אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-strike-southern-lebanons-marjayoun-district",
+      "published_at": "2026-10-10T14:57:18+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eight-palestinians-killed-israeli-attacks-gaza-during-anniversary-us",
+      "published_at": "2026-10-10T12:55:35+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-continues-strikes-in-southern-lebanon-in-violation-of-framework-deal/4084382",
+      "published_at": "2026-10-10T11:06:56+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/136577/",
+      "published_at": "2026-10-10T07:22:33+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/136567/",
+      "published_at": "2026-10-10T06:16:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מרג'עיון, לבנון",
+      "lat": 33.3593,
+      "lon": 35.5902
+     },
+     {
+      "name": "ואדי אל-חוג'יר, לבנון",
+      "lat": 33.2589,
+      "lon": 35.459
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-03",
+    "title": "סיכול מחבל סורי בהכוונת איראן בגבול לבנון-סוריה",
+    "summary": "צה\"ל תקף מהאוויר באזור גבול לבנון-סוריה את יוסף עלי אלחסון, מחבל שקידם מתווי טרור שכללו רחפני נפץ ורקטות בדרום סוריה בהכוונת איראן. משרד הבריאות הלבנוני דיווח על פציעת שישה אנשים בתקיפה ליד חוש א-סיד עלי.",
+    "axis": "ישראל - סוריה / לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T17:26:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T17:26:46+00:00",
+    "last_update_at": "2026-10-09T18:12:58+00:00",
+    "what_is_not_verified": "קיימת סתירה בין דיווח רשתות לבנוניות שהטיל החטיא את הרכב ללא נפגעים לבין הודעת משרד הבריאות הלבנוני על שישה פצועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131643",
+      "published_at": "2026-10-09T18:12:58+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25325",
+      "published_at": "2026-10-09T18:04:55+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/136502/",
+      "published_at": "2026-10-09T17:26:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נפת הרמל, לבנון",
+      "lat": 34.3896,
+      "lon": 36.3035
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-04",
+    "title": "סיכול משלוח חומרי נפץ בדרכו מבעלבכ לרובע הדאחייה",
+    "summary": "חומרי חבלה נתפסו בלבנון בטרם הגעתם לדאחייה בביירות. … ממרחב בעלבכ לבירה.",
+    "axis": "לבנון (פנים)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:36:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T14:36:37+00:00",
+    "last_update_at": "2026-10-10T14:36:37+00:00",
+    "what_is_not_verified": "זהות הבכיר שחיכה למשלוח ברובע הדאחייה אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21591975",
+      "published_at": "2026-10-10T14:36:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-05",
+    "title": "התהפכות רכב צבאי בדרום לבנון ונפילת קצין צה\"ל",
+    "summary": "קצין הנדסה מצה\"ל נהרג ושלושה חיילים נוספים נפצעו כתוצאה מהתהפכות רכב צבאי מסוג האמר במרחב נהר הליטני בדרום לבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T15:10:37+00:00",
+    "last_update_at": "2026-10-10T15:35:12+00:00",
+    "what_is_not_verified": "לא פורטו שמות הפצועים ונסיבות התאונה המדויקות מעבר להגדרתן כאירוע בטיחותי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/fatigue-carelessness-causing-casualties-among-israeli-forces",
+      "published_at": "2026-10-10T15:35:12+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/local/article/21592180",
+      "published_at": "2026-10-10T15:10:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נהר הליטני, לבנון",
+      "lat": 33.552,
+      "lon": 35.6924
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-06",
+    "title": "ארצות הברית מסירה הגבלות טיסה ישירות ללבנון",
+    "summary": "נשיא ארצות הברית דונלד טראמפ חתם על צו המבטל הגבלות תעופה ישירות ללבנון שהיו בתוקף מאז 1985. נשיא לבנון ג'וזף עון בירך על ההחלטה והדגיש את ביטחון נמל התעופה הבינלאומי בביירות.",
+    "axis": "לבנון - ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T06:18:33+00:00",
+    "last_update_at": "2026-10-10T15:44:48+00:00",
+    "what_is_not_verified": "מועד חידוש הטיסות בפועל טרם צוין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-ends-decades-old-restrictions-direct-us-lebanon-flights",
+      "published_at": "2026-10-10T15:44:48+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanon-welcomes-us-decision-to-lift-air-travel-restrictions/4084254",
+      "published_at": "2026-10-10T08:17:59+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/962093/aoun-welcomes-trumps-decision-to-lift-restrictions-on-air-travel-with/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962093",
+      "published_at": "2026-10-10T06:18:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי רפיק חרירי, ביירות, לבנון",
+      "lat": 33.8185,
+      "lon": 35.4909
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-07",
+    "title": "הצהרת ארצות הברית על התניית שיקום דרום לבנון בפירוק חיזבאללה מנשקו",
+    "summary": "דובר מחלקת המדינה האמריקנית הודיע כי סיוע במיליארדי דולרים לשיקום דרום לבנון יותנה בפירוק חיזבאללה מנשקו והפסקת הפרעתו לממשלת לבנון, וטען כי כספים איראניים אינם מועברים לארגון דרך ביירות, עיראק או טורקיה.",
+    "axis": "ארצות הברית - לבנון / חיזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T14:08:20+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T14:08:20+00:00",
+    "last_update_at": "2026-10-09T15:57:51+00:00",
+    "what_is_not_verified": "היקף הסכומים המדויק שנבחן מול מדינות המפרץ ואירופה אינו מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_8c2609c611d5cb0a",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962043/us-on-hezbollah-funding-and-lebanons-reconstruction-what-did-tommy-pig/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962043",
+      "published_at": "2026-10-09T14:08:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל ביירות, לבנון",
+      "lat": 33.9008,
+      "lon": 35.5022
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10101557-08",
+    "title": "פגישת שר החוץ הסורי עם השליח האמריקני באיסטנבול",
+    "summary": "שר החוץ הסורי אסעד א-שיבאני נפגש באיסטנבול עם השליח האמריקני תומאס באראק לדיון ביחסים בילטרליים, בהתפתחויות אזוריות ובהתאוששות כלכלית.",
+    "axis": "סוריה - ארצות הברית / טורקיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T16:51:34+00:00",
+    "last_update_at": "2026-10-09T16:51:34+00:00",
+    "what_is_not_verified": "פרטי הסיכומים הכלכליים בין הצדדים לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/10/who-owns-the-istanbul-hotel-hosting-al-shaibani-and-barrack/",
+      "published_at": "2026-10-09T16:51:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "תוצאות היירוט שביצע צה\"ל בדרום לבנון",
+   "מספר הנפגעים המדויק בתקיפה באזור חוש א-סיד עלי בנפת הרמל (דיווח על החטאה ללא נפגעים מול דיווח על שישה פצועים)",
+   "זהות הבכיר בדאחייה שלו יועד משלוח חומרי הנפץ שנתפס",
+   "הדיווחים שלפיהם הגנרל הסורי לשעבר בסאם אל-חסן שוהה בלבנון בחסות הסדר אמריקני-לבנוני"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים מיידיים בכל גזרה",
+     "מחויבות להסכם בין ישראל ללבנון"
+    ],
+    "inferred": [
+     "מניעת התבססות של תשתיות טרור בהכוונה איראנית בגבולות סוריה ולבנון",
+     "שמירה על חופש פעולה אווירי והגנה על כוחות פרוסים בדרום לבנון"
+    ],
+    "forecast": [
+     "המשך סיכולים ממוקדים ותקיפות באזורי הגבול למניעת התעצמות והעברת אמצעי לחימה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הסרת ההגבלות על תעופה ישירה ללבנון עקב עמידה בתקני בטיחות",
+     "התניית סיוע במיליארדי דולרים לשיקום דרום לבנון בפירוק חיזבאללה מנשקו"
+    ],
+    "inferred": [
+     "חיזוק מוסדות המדינה הלבנונית על חשבון השפעתו הצבאית והכלכלית של חיזבאללה",
+     "קידום דיאלוג מדיני עם הממשל הסורי באיסטנבול להסדרים אזוריים"
+    ],
+    "forecast": [
+     "הפעלת לחץ כלכלי ודיפלומטי גובר על לבנון ליישום פירוק חיזבאללה כתנאי להזרמת כספי שיקום"
+    ]
+   },
+   {
+    "actor": "לבנון (הנשיאות והממשלה)",
+    "declared": [
+     "מחויבות לתקני בטיחות בינלאומיים בתעופה ובנמל התעופה בביירות",
+     "שמירה על ריבונות המדינה והסכמי הפסקת האש"
+    ],
+    "inferred": [
+     "שאיפה לשיקום כלכלי ולהידוק היחסים עם ארצות הברית ומדינות המפרץ",
+     "בלימת הברחות אמצעי חבלה ומניעת הידרדרות ללחימה רחבה נוספת"
+    ],
+    "forecast": [
+     "המשך ניסיונות תמרון בין הלחץ הבינלאומי לפירוק חיזבאללה לבין המציאות הפוליטית והביטחונית הפנימית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136502/",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/lebanon-welcomes-us-decision-to-lift-air-travel-restrictions/4084254",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/who-owns-the-istanbul-hotel-hosting-al-shaibani-and-barrack/",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/local/article/21592180",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962043/us-on-hezbollah-funding-and-lebanons-reconstruction-what-did-tommy-pig/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962043",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1375555",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eight-palestinians-killed-israeli-attacks-gaza-during-anniversary-us",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-ends-decades-old-restrictions-direct-us-lebanon-flights",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131643",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25325",
+    "accessed_at": "2026-10-10T15:57:51+00:00"
+   }
+  ]
+ }
+}

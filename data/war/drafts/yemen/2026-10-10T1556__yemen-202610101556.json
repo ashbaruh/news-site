@@ -1,0 +1,391 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1cc5323b2f1f",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-10T15:56:49+00:00",
+  "window": {
+   "from": "2026-10-09T15:56:49+00:00",
+   "to": "2026-10-10T15:56:49+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610101556"
+  },
+  "summary": "הלחימה בין ממשלת תימן והקואליציה לבין החות'ים הסלימה לעימות רחב היקף הכולל קרבות קרקעיים ואוויריים. כוחות הממשלה פתחו במתקפה לכיבוש חופי ים סוף ומצר באב אל-מנדב בסיוע הפצצות של הקואליציה, בעוד החות'ים מרחיבים את ירי הטילים לעבר נמל התעופה של ריאד. הפגיעות והאיומים על נתיבי התעופה בסעודיה הובילו לביטולי טיסות בינלאומיות ולהגברת הכוננות באזור.",
+  "fronts": [
+   {
+    "name": "מצר באב אל-מנדב ומישור החוף המערבי בתימן",
+    "status": "קרבות עזים במסגרת מתקפת נגד של כוחות הממשלה הנתמכים בסיוע אווירי סעודי מול מערכי החות'ים"
+   },
+   {
+    "name": "עומק שטח סעודיה (נמל התעופה בריאד)",
+    "status": "תחת איום מתמיד של שיגורי טילים בליסטיים מצד החות'ים הגורמים לשיבושי טיסות ונפגעים"
+   },
+   {
+    "name": "צנעא וצפון תימן",
+    "status": "גל תקיפות אוויריות נרחב של מטוסי הקואליציה נגד מטרות צבאיות ותשתיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10101556-01",
+    "title": "תקיפות טילים של החות'ים על נמל התעופה הבינלאומי בריאד",
+    "summary": "טילים ששיגרו החות'ים פגעו בנמל התעופה הבינלאומי בריאד, גרמו לנפגעים, בהם פצועים והרוגים, והובילו לפינוי נוסעים ולשיבושים בתנועת המטוסים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T15:39:23+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T15:39:23+00:00",
+    "last_update_at": "2026-10-10T15:54:12+00:00",
+    "what_is_not_verified": "היקף הנפגעים המדויק, מידת הנזק לתשתיות השדה ואימות רשמי מלא של כלל התקיפות מטעם הרשויות בסעודיה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "published_at": "2026-10-10T15:54:12+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-airways-cancels-flights-and-riyadh-embassies-warn-citizens-stay",
+      "published_at": "2026-10-10T15:39:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131675",
+      "published_at": "2026-10-10T15:31:02+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T15:05:55+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21592133",
+      "published_at": "2026-10-10T14:51:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131673",
+      "published_at": "2026-10-10T14:47:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/major-saudi-conferences-proceed-despite-deadly-airport-attack",
+      "published_at": "2026-10-10T14:39:14+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+      "published_at": "2026-10-10T13:45:14+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanaa-airport-hit-four-air-strikes-large-blast-heard-riyadh-airport",
+      "published_at": "2026-10-10T13:19:13+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/riyadh-airport-sees-evacuations-yemeni-govt-advances-houthis",
+      "published_at": "2026-10-10T08:27:25+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-says-three-killed-airport-yemen-war-expands",
+      "published_at": "2026-10-09T19:59:02+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/flight-cancelled-saudi-capital-riyadh-over-houthi-attacks",
+      "published_at": "2026-10-09T17:59:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131638",
+      "published_at": "2026-10-09T15:39:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10101556-02",
+    "title": "מתקפת נגד של כוחות ממשלת תימן באזור מצר באב אל-מנדב",
+    "summary": "כוחות הממשלה המוכרת בתימן, בגיבוי אווירי סעודי, פתחו במבצע צבאי לכיבוש מחדש של שטחים לאורך החוף ומצר באב אל-מנדב מידי החות'ים.",
+    "axis": "פנים-תימן / ים סוף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T16:32:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T16:32:34+00:00",
+    "last_update_at": "2026-10-10T15:54:12+00:00",
+    "what_is_not_verified": "שליטה מלאה במצר או באי מיון, וכן טענות סותרות לגבי בלימת המתקפה בידי החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "published_at": "2026-10-10T15:54:12+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+      "published_at": "2026-10-10T13:45:14+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.newarab.com/news/yemen-govt-say-advancing-against-houthis-around-bab-al-mandeb",
+      "published_at": "2026-10-10T11:40:28+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.sabanew.net/viewstory/153749",
+      "published_at": "2026-10-10T11:08:08+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_1f00f04371e8a6ca",
+      "url": "https://www.sabanew.net/viewstory/153748",
+      "published_at": "2026-10-10T09:28:30+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ea51d8bdb5867e80",
+      "url": "https://www.sabanew.net/viewstory/153746",
+      "published_at": "2026-10-10T09:25:29+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.newarab.com/news/riyadh-airport-sees-evacuations-yemeni-govt-advances-houthis",
+      "published_at": "2026-10-10T08:27:25+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_a400121de4eb22f2",
+      "url": "https://www.newarab.com/news/yemen-govt-forces-launch-operation-retake-bab-al-mandab",
+      "published_at": "2026-10-09T16:32:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     },
+     {
+      "name": "האי מיון, תימן",
+      "lat": 12.6518,
+      "lon": 43.4278
+     },
+     {
+      "name": "לחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10101556-03",
+    "title": "תקיפות אוויריות נרחבות של הקואליציה בצנעא ובאזורים שבשליטת החות'ים",
+    "summary": "מטוסי קרב ביצעו תקיפות על יעדים שונים, בהם נמל התעופה הבינלאומי של צנעא, מתקני תקשורת בעיר אל-מוחאבשה ועשרות מטרות צבאיות נוספות.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-09T19:59:02+00:00",
+    "last_update_at": "2026-10-10T13:19:13+00:00",
+    "what_is_not_verified": "מספר האבדות המדויק ורשימת האתרים המלאה שנפגעה מעבר להצהרות הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanaa-airport-hit-four-air-strikes-large-blast-heard-riyadh-airport",
+      "published_at": "2026-10-10T13:19:13+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.newarab.com/news/riyadh-airport-sees-evacuations-yemeni-govt-advances-houthis",
+      "published_at": "2026-10-10T08:27:25+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.sabanew.net/viewstory/153738",
+      "published_at": "2026-10-09T21:14:04+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_2804498458c780f1",
+      "url": "https://www.newarab.com/news/saudi-arabia-says-three-killed-airport-yemen-war-expands",
+      "published_at": "2026-10-09T19:59:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10101556-04",
+    "title": "הגשת תלונה לאו\"ם בעקבות פגיעה בנמל התעופה בעדן",
+    "summary": "ממשלת תימן שיגרה איגרת רשמית לאומות המאוחדות ולמועצת הביטחון בעניין תקיפת נמל התעופה הבינלאומי בעדן על ידי החות'ים.",
+    "axis": "פנים-תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T09:26:54+00:00",
+    "last_update_at": "2026-10-10T09:26:54+00:00",
+    "what_is_not_verified": "פרטי הפגיעה והנזקים המדויקים בנמל התעופה בעדן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_000f39892bad82ac",
+      "url": "https://www.sabanew.net/viewstory/153747",
+      "published_at": "2026-10-10T09:26:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת שגריר סעודיה כי מצר באב אל-מנדב שוחרר לחלוטין",
+   "מספר הנפגעים וההרוגים הכולל בשדה התעופה בריאד",
+   "הדיווחים על פגיעה ישירה והשבתה מלאה של המסלולים בנמל התעופה בריאד",
+   "הטענה החות'ית על הדיפת כלל הכוחות המתקדמים מכיוון לחג'"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת יעדים בסעודיה בתגובה למבצעי הקואליציה והגבלת התנועה האווירית לריאד"
+    ],
+    "inferred": [
+     "שימור השליטה בקו החוף ושיבוש התעופה האזרחית בסעודיה כדי ללחוץ לעצירת המתקפה"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר בירות וערי המפרץ במקביל למגננה לאורך החוף"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן והקואליציה בהובלת סעודיה",
+    "declared": [
+     "שחרור מצר באב אל-מנדב והשבת השליטה בכל רחבי תימן עד צנעא"
+    ],
+    "inferred": [
+     "מניעת שליטה עוינת במעברי השיט הבינלאומיים בים סוף והרחקת איום הטילים ממרכזי האוכלוסייה בסעודיה"
+    ],
+    "forecast": [
+     "הגברת הלחץ הצבאי היבשתי באזור החוף לצד המשך תקיפות מטרות תשתית של החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21592133",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanaa-airport-hit-four-air-strikes-large-blast-heard-riyadh-airport",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-says-three-killed-airport-yemen-war-expands",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153747",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131638",
+    "accessed_at": "2026-10-10T15:56:49+00:00"
+   }
+  ]
+ }
+}
