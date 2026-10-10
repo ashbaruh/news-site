@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:32:45+00:00",
-  "fetched_at": "2026-10-10T11:32:45+00:00"
+  "checked_at": "2026-10-10T12:17:29+00:00",
+  "fetched_at": "2026-10-10T12:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:32:59+00:00",
-  "fetched_at": "2026-10-10T11:32:59+00:00"
+  "checked_at": "2026-10-10T12:17:46+00:00",
+  "fetched_at": "2026-10-10T12:17:46+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:32:59+00:00",
-  "fetched_at": "2026-10-10T11:32:59+00:00"
+  "checked_at": "2026-10-10T12:17:46+00:00",
+  "fetched_at": "2026-10-10T12:17:46+00:00"
  },
- "generated_at": "2026-10-10T11:32:59+00:00",
+ "generated_at": "2026-10-10T12:17:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:32:46+00:00",
-  "fetched_at": "2026-10-10T11:32:46+00:00"
+  "checked_at": "2026-10-10T12:17:32+00:00",
+  "fetched_at": "2026-10-10T12:17:32+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:32:47+00:00",
-  "fetched_at": "2026-10-10T11:32:47+00:00"
+  "checked_at": "2026-10-10T12:17:33+00:00",
+  "fetched_at": "2026-10-10T12:17:33+00:00"
  },
  "tv": {
   "data": [
@@ -2780,10 +2780,9 @@ window.DB.generated = {
     "title": "דפורטיבו לה קורוניה - לבאנטה"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-10-10T11:32:48+00:00",
-  "fetched_at": "2026-10-10T11:17:30+00:00"
+  "ok": true,
+  "checked_at": "2026-10-10T12:17:38+00:00",
+  "fetched_at": "2026-10-10T12:17:38+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2959,8 +2958,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:32:48+00:00",
-  "fetched_at": "2026-10-10T11:32:48+00:00"
+  "checked_at": "2026-10-10T12:17:38+00:00",
+  "fetched_at": "2026-10-10T12:17:38+00:00"
  },
  "ai": {
   "data": {
@@ -2975,16 +2974,16 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-     "date": "2026-10-07T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing Playground: Create and play custom games",
-     "title_he": "היכרות עם Playground: צור ושחק משחקים מותאמים אישית",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "date": "2026-10-08T00:00:00+00:00",
+     "launch": false,
+     "title_en": "Disrupting AI-enabled “false front” operations",
+     "title_he": "שיבוש פעולות \"חזית כוזבת\" התומכות בבינה מלאכותית",
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
+   "candidates": 4,
    "failed_sources": [
     "גיקטיים"
    ],
@@ -2993,7 +2992,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 565,
+     "likes": 566,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3035,7 +3034,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 185,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -3062,12 +3061,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:32:54+00:00",
-  "fetched_at": "2026-10-10T11:32:54+00:00"
+  "checked_at": "2026-10-10T12:17:45+00:00",
+  "fetched_at": "2026-10-10T12:17:45+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "דיא סבע הלוהט שוב כבש, נטע לביא חזר אחרי פציעה",
+     "link": "https://sports.walla.co.il/item/3871592",
+     "date": "2026-10-10T11:51:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע",
+      "נטע לביא"
+     ]
+    },
     {
      "title": "עם אבא חיים ביציע: רוי רביבו צפוי לפתוח מול סלטה ויגו",
      "link": "https://sports.walla.co.il/item/3871589",
@@ -3078,12 +3087,39 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "תיאבק על הארד: רז הרשקו הפסידה בחצי הגמר",
+     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
+     "date": "2026-10-10T08:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
+    {
      "title": "בזכות השיפור הזה, \"דני אבדיה עשוי לחגוג העונה ב-NBA\"",
      "link": "https://sports.walla.co.il/item/3871559",
      "date": "2026-10-10T05:18:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"אם אני טוב יותר מגלוך, המאמן יראה את זה\"",
+     "link": "https://www.one.co.il/Article/535556.html?ref=rss",
+     "date": "2026-10-10T04:43:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "\"האיום הבולט\": השבחים לסולומון והסערה בווסטהאם",
+     "link": "https://www.one.co.il/Article/535547.html?ref=rss",
+     "date": "2026-10-10T03:02:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
      ]
     },
     {
@@ -3105,6 +3141,24 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "68 דקות לסולומון, 1:1 לווסטהאם עם ק.פ.ר",
+     "link": "https://www.one.co.il/Article/535532.html?ref=rss",
+     "date": "2026-10-09T19:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "היעדרות ראפיניה, סיכויי רביבו וה-11 המשוערים",
+     "link": "https://www.one.co.il/Article/535515.html?ref=rss",
+     "date": "2026-10-09T13:40:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
      "title": "טבריה תחסר את גאנם מול באר שבע, אך גוטליב וקלטינס חוזרים",
      "link": "https://sports.walla.co.il/item/3871496",
      "date": "2026-10-09T05:41:00+00:00",
@@ -3120,15 +3174,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "\"מנור סולומון היה האיום העיקרי במשך חלק גדול מהמשחק\"",
-     "link": "https://sports.walla.co.il/item/3871564",
-     "date": "2026-10-09T04:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     },
     {
@@ -3359,8 +3404,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T11:32:51+00:00",
-  "fetched_at": "2026-10-10T11:32:51+00:00"
+  "checked_at": "2026-10-10T12:17:42+00:00",
+  "fetched_at": "2026-10-10T12:17:42+00:00"
  },
  "idf": {
   "data": [
@@ -3391,8 +3436,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T11:32:52+00:00",
-  "fetched_at": "2026-10-10T11:32:52+00:00"
+  "checked_at": "2026-10-10T12:17:42+00:00",
+  "fetched_at": "2026-10-10T12:17:42+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3400,61 +3445,61 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-10T10:33:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T11:30:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "newest": "2026-10-10T12:11:00+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-10T06:50:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T11:10:00+00:00",
-    "seen_at": "2026-10-10T11:17:37+00:00",
+    "newest": "2026-10-10T11:45:00+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-10T06:56:40+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3466,16 +3511,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T11:32:59+00:00",
+    "seen_at": "2026-10-10T12:17:46+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T11:32:59+00:00"
+  "checked_at": "2026-10-10T12:17:46+00:00"
  }
 };
