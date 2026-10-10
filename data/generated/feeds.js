@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T18:17:22+00:00",
-  "fetched_at": "2026-10-10T18:17:22+00:00"
+  "checked_at": "2026-10-10T19:17:26+00:00",
+  "fetched_at": "2026-10-10T19:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T18:17:38+00:00",
-  "fetched_at": "2026-10-10T18:17:38+00:00"
+  "checked_at": "2026-10-10T19:17:48+00:00",
+  "fetched_at": "2026-10-10T19:17:48+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T18:17:38+00:00",
-  "fetched_at": "2026-10-10T18:17:38+00:00"
+  "checked_at": "2026-10-10T19:17:48+00:00",
+  "fetched_at": "2026-10-10T19:17:48+00:00"
  },
- "generated_at": "2026-10-10T18:17:38+00:00",
+ "generated_at": "2026-10-10T19:17:48+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בעקבות הטויוטה הלבנה: כשאפליקציות כושר ונתוני מסחר הופכים לסימני האזהרה של המלחמה הבאה",
+     "title": "סימני האזהרה למלחמה הבאה יכולים להימצא במקומות הכי לא צפויים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558900",
      "date": "2026-10-10T18:03:00+00:00"
     },
     {
-     "title": "הצלב האדום לא ביקר את החטופים בשבי חמאס – וכעת נשיאת הארגון מודה: \"יכולנו להציל הרבה יותר חיים\"",
+     "title": "גורם ישראלי בכיר: \"לא תהיה תקיפה ישראלית יזומה לפני הבחירות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559019",
-     "date": "2026-10-10T17:11:00+00:00"
+     "date": "2026-10-10T18:40:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T18:17:23+00:00",
-  "fetched_at": "2026-10-10T18:17:23+00:00"
+  "checked_at": "2026-10-10T19:17:27+00:00",
+  "fetched_at": "2026-10-10T19:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -552,7 +552,7 @@ window.DB.generated = {
     "home": "הפועל חיפה",
     "away": "מכבי פ\"ת",
     "round": "מחזור 6",
-    "score": "",
+    "score": "2-1",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -561,7 +561,7 @@ window.DB.generated = {
     "home": "עירוני טבריה",
     "away": "הפועל ב\"ש",
     "round": "מחזור 6",
-    "score": "",
+    "score": "0-2",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -570,7 +570,7 @@ window.DB.generated = {
     "home": "הפועל פ\"ת",
     "away": "מכבי נתניה",
     "round": "מחזור 6",
-    "score": "",
+    "score": "1-1",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -579,7 +579,7 @@ window.DB.generated = {
     "home": "עירוני ק\"ש",
     "away": "הפועל ת\"א",
     "round": "מחזור 6",
-    "score": "",
+    "score": "1-3",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -588,7 +588,7 @@ window.DB.generated = {
     "home": "מכבי ת\"א",
     "away": "בני סכנין",
     "round": "מחזור 6",
-    "score": "",
+    "score": "0-0",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T18:17:23+00:00",
-  "fetched_at": "2026-10-10T18:17:23+00:00"
+  "checked_at": "2026-10-10T19:17:28+00:00",
+  "fetched_at": "2026-10-10T19:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2782,7 +2782,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-10T18:17:29+00:00",
+  "checked_at": "2026-10-10T19:17:34+00:00",
   "fetched_at": "2026-10-10T17:52:49+00:00"
  },
  "ligat_haal": {
@@ -2870,66 +2870,48 @@ window.DB.generated = {
    ],
    "results": [
     {
-     "date": "2026-09-18",
-     "time": "15:45",
-     "home": "הפועל ת\"א",
-     "away": "הפועל פ\"ת",
-     "round": "מחזור 5",
-     "score": "3-0",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "19:30",
-     "home": "מכבי פ\"ת",
-     "away": "הפועל ירושלים",
-     "round": "מחזור 5",
-     "score": "2-4",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "19:30",
-     "home": "בני סכנין",
-     "away": "הפועל ר\"ג",
-     "round": "מחזור 5",
-     "score": "1-0",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "20:00",
-     "home": "מכבי חיפה",
-     "away": "עירוני טבריה",
-     "round": "מחזור 5",
-     "score": "3-2",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "20:00",
-     "home": "מכבי נתניה",
-     "away": "מכבי ת\"א",
-     "round": "מחזור 5",
-     "score": "1-2",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "20:15",
-     "home": "הפועל ב\"ש",
-     "away": "עירוני ק\"ש",
-     "round": "מחזור 5",
-     "score": "1-0",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-09-19",
-     "time": "20:30",
-     "home": "בית\"ר ירושלים",
-     "away": "הפועל חיפה",
-     "round": "מחזור 5",
+     "date": "2026-10-10",
+     "time": "19:00",
+     "home": "הפועל חיפה",
+     "away": "מכבי פ\"ת",
+     "round": "מחזור 6",
      "score": "2-1",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-10",
+     "time": "19:00",
+     "home": "עירוני טבריה",
+     "away": "הפועל ב\"ש",
+     "round": "מחזור 6",
+     "score": "0-2",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-10",
+     "time": "19:15",
+     "home": "הפועל פ\"ת",
+     "away": "מכבי נתניה",
+     "round": "מחזור 6",
+     "score": "1-1",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-10",
+     "time": "19:15",
+     "home": "עירוני ק\"ש",
+     "away": "הפועל ת\"א",
+     "round": "מחזור 6",
+     "score": "1-3",
+     "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-10",
+     "time": "19:30",
+     "home": "מכבי ת\"א",
+     "away": "בני סכנין",
+     "round": "מחזור 6",
+     "score": "0-0",
      "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
@@ -2959,8 +2941,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T18:17:29+00:00",
-  "fetched_at": "2026-10-10T18:17:29+00:00"
+  "checked_at": "2026-10-10T19:17:34+00:00",
+  "fetched_at": "2026-10-10T19:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2989,7 +2971,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 572,
+     "likes": 574,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3003,14 +2985,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 417,
+     "likes": 418,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 169,
+     "likes": 170,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -3024,7 +3006,7 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 425,
+     "likes": 426,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -3052,18 +3034,54 @@ window.DB.generated = {
      "title": "MiniMax-H3 Character Swap LoRA",
      "desc_en": "Swap one character in a clip for a reference character",
      "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T18:17:37+00:00",
-  "fetched_at": "2026-10-10T18:17:37+00:00"
+  "checked_at": "2026-10-10T19:17:46+00:00",
+  "fetched_at": "2026-10-10T19:17:46+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "טילים בליסטיים עצרו את המשחק של נאווי ולין",
+     "link": "https://www.one.co.il/Article/535608.html?ref=rss",
+     "date": "2026-10-10T17:16:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בר לין"
+     ]
+    },
+    {
+     "title": "שוב על הפודיום: ארד נוסף לקונסטנטין קובלוב",
+     "link": "https://www.one.co.il/Article/535601.html?ref=rss",
+     "date": "2026-10-10T15:37:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
+    {
+     "title": "רז הרשקו זכתה במדליית הארד באליפות העולם",
+     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
+     "date": "2026-10-10T14:05:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
+    {
+     "title": "סבע כבש בפנדל, אמדספור פספסה הזדמנות לנצח",
+     "link": "https://www.one.co.il/Article/535583.html?ref=rss",
+     "date": "2026-10-10T12:31:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
     {
      "title": "דיא סבע הלוהט שוב כבש, נטע לביא חזר אחרי פציעה",
      "link": "https://sports.walla.co.il/item/3871592",
@@ -3081,15 +3099,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "בזכות השיפור הזה, \"דני אבדיה עשוי לחגוג העונה ב-NBA\"",
-     "link": "https://sports.walla.co.il/item/3871559",
-     "date": "2026-10-10T05:18:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     },
     {
@@ -3117,33 +3126,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "קייס גאנם"
-     ]
-    },
-    {
-     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
-     "link": "https://sports.walla.co.il/item/3871461",
-     "date": "2026-10-08T17:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בעונה שעברה \"העומס על דני אבדיה היה גדול מדי\". הפעם זה ייפתר?",
-     "link": "https://sports.walla.co.il/item/3871438",
-     "date": "2026-10-08T14:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"פורטלנד זכתה בלוטו עם דני אבדיה - ולא פדתה את כל הכסף\"",
-     "link": "https://sports.walla.co.il/item/3870865",
-     "date": "2026-10-05T05:23:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3347,8 +3329,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T18:17:31+00:00",
-  "fetched_at": "2026-10-10T18:17:31+00:00"
+  "checked_at": "2026-10-10T19:17:42+00:00",
+  "fetched_at": "2026-10-10T19:17:42+00:00"
  },
  "idf": {
   "data": [
@@ -3379,28 +3361,28 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T18:17:32+00:00",
-  "fetched_at": "2026-10-10T18:17:32+00:00"
+  "checked_at": "2026-10-10T19:17:42+00:00",
+  "fetched_at": "2026-10-10T19:17:42+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-10T18:03:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "newest": "2026-10-10T18:40:00+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
@@ -3411,59 +3393,59 @@ window.DB.generated = {
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T17:52:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "newest": "2026-10-10T19:04:00+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-10T18:14:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "newest": "2026-10-10T18:57:00+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T17:32:00+00:00",
-    "seen_at": "2026-10-10T17:52:58+00:00",
+    "newest": "2026-10-10T19:12:00+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-10T17:38:08+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "newest": "2026-10-10T19:15:09+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-10T16:48:56+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T18:17:38+00:00",
+    "seen_at": "2026-10-10T19:17:48+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T18:17:38+00:00"
+  "checked_at": "2026-10-10T19:17:48+00:00"
  }
 };
