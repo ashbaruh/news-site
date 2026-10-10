@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-10T13:17:12+00:00",
-  "fetched_at": "2026-10-10T13:17:12+00:00"
+  "checked_at": "2026-10-10T14:17:18+00:00",
+  "fetched_at": "2026-10-10T14:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T13:17:29+00:00",
-  "fetched_at": "2026-10-10T13:17:29+00:00"
+  "checked_at": "2026-10-10T14:17:33+00:00",
+  "fetched_at": "2026-10-10T14:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T13:17:29+00:00",
-  "fetched_at": "2026-10-10T13:17:29+00:00"
+  "checked_at": "2026-10-10T14:17:33+00:00",
+  "fetched_at": "2026-10-10T14:17:33+00:00"
  },
- "generated_at": "2026-10-10T13:17:29+00:00",
+ "generated_at": "2026-10-10T14:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפרדוקס במדד ת\"א 125 - ועוד 4 כתבות על המצב בשווקים",
+     "title": "תחזית האימים לוול סטריט – ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001558851",
      "date": "2026-10-10T12:57:00+00:00"
     },
     {
-     "title": "דיווח: לקראת חידוש הלחימה - איראן משקמת את מלאי החימושים",
+     "title": "אבו מאזן ביטל את הבחירות ברשות הפלסטינית – ודחה אותן לספטמבר 2027",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559019",
-     "date": "2026-10-10T10:33:00+00:00"
+     "date": "2026-10-10T13:33:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T13:17:13+00:00",
-  "fetched_at": "2026-10-10T13:17:13+00:00"
+  "checked_at": "2026-10-10T14:17:20+00:00",
+  "fetched_at": "2026-10-10T14:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T13:17:14+00:00",
-  "fetched_at": "2026-10-10T13:17:14+00:00"
+  "checked_at": "2026-10-10T14:17:21+00:00",
+  "fetched_at": "2026-10-10T14:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2781,8 +2781,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T13:17:20+00:00",
-  "fetched_at": "2026-10-10T13:17:20+00:00"
+  "checked_at": "2026-10-10T14:17:24+00:00",
+  "fetched_at": "2026-10-10T14:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2958,8 +2958,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T13:17:20+00:00",
-  "fetched_at": "2026-10-10T13:17:20+00:00"
+  "checked_at": "2026-10-10T14:17:24+00:00",
+  "fetched_at": "2026-10-10T14:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2990,14 +2990,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 570,
+     "likes": 571,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 220,
+     "likes": 221,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -3025,7 +3025,7 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 422,
+     "likes": 423,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -3059,12 +3059,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-10T13:17:28+00:00",
-  "fetched_at": "2026-10-10T13:17:28+00:00"
+  "checked_at": "2026-10-10T14:17:32+00:00",
+  "fetched_at": "2026-10-10T14:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "אדירה: רז הרשקו זכתה במדליית הארד בבאקו",
+     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
+     "date": "2026-10-10T14:05:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "סבע כבש בפנדל, אמדספור פספסה הזדמנות לנצח",
      "link": "https://www.one.co.il/Article/535583.html?ref=rss",
@@ -3091,15 +3100,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "תיאבק על הארד: רז הרשקו הפסידה בחצי הגמר",
-     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
-     "date": "2026-10-10T08:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
      ]
     },
     {
@@ -3402,8 +3402,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-10T13:17:24+00:00",
-  "fetched_at": "2026-10-10T13:17:24+00:00"
+  "checked_at": "2026-10-10T14:17:27+00:00",
+  "fetched_at": "2026-10-10T14:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3434,58 +3434,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-10T13:17:24+00:00",
-  "fetched_at": "2026-10-10T13:17:24+00:00"
+  "checked_at": "2026-10-10T14:17:28+00:00",
+  "fetched_at": "2026-10-10T14:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-10T12:57:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "newest": "2026-10-10T13:33:00+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-09T20:00:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-10T08:31:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-10T05:18:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-10T13:02:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "newest": "2026-10-10T13:33:00+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-10T06:50:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-10T13:08:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "newest": "2026-10-10T14:05:00+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-10T12:55:57+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3497,28 +3497,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-10T11:05:53+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "newest": "2026-10-10T13:23:56+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-08T13:00:03+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-10T13:17:29+00:00",
+    "seen_at": "2026-10-10T14:17:33+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-10T13:17:29+00:00"
+  "checked_at": "2026-10-10T14:17:33+00:00"
  }
 };
