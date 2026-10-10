@@ -1,0 +1,363 @@
+{
+ "status": "draft",
+ "received_sha256_12": "55a0355a5d04",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-10T23:40:27+00:00",
+  "window": {
+   "from": "2026-10-09T23:40:27+00:00",
+   "to": "2026-10-10T23:40:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610102340"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין בלחץ כלכלי כבד ובשיבוש מכליות נפט במצר הורמוז לצד פעילות צבאית גוברת של החות'ים נגד יעדים בסעודיה. במקביל לאיומי מלחמה הדדיים ולשיקום תשתיות צבאיות באיראן, מתקיימים ערוצי תיווך רוסיים לבחינת הסדרים, בעוד ישראל וארה\"ב שוקלות את תזמון מהלכיהן הצבאיים לאור שיקולים פוליטיים פנימיים.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "פגיעות בכלי שיט, פיצוץ מיכלית ממוקש ימי ושיבוש תנועת סחר האנרגיה העולמית."
+   },
+   {
+    "name": "החזית הכלכלית והסנקציות",
+    "status": "הידוק המצור הכלכלי על הכנסות הנפט ונתיבי היבשה של איראן."
+   },
+   {
+    "name": "ציר החות'ים וסעודיה",
+    "status": "מתקפות טילים קטלניות על שדה התעופה בריאד לצד שקילת מעורבות צבאית אמריקאית."
+   },
+   {
+    "name": "חזית הגרעין והטילים באיראן",
+    "status": "פעולות שיקום מתקנים שנפגעו מתקיפות ישראליות ודיון פנימי על מדיניות העמימות הגרעינית."
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10102340-01",
+    "title": "מתקפת טילים על נמל התעופה הבינלאומי בריאד",
+    "summary": "החות'ים שיגרו טילים לעבר נמל התעופה הבינלאומי בריאד שבסעודיה, וכתוצאה מכך נגרמו עשרות נפגעים והושבתו הפעילויות במקום.",
+    "axis": "שלוחות איראן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T13:45:14+00:00",
+    "last_update_at": "2026-10-10T23:37:27+00:00",
+    "what_is_not_verified": "מספר ההרוגים והפצועים המדויק (נע בין 2 הרוגים ל-12 הרוגים ומעל 300 פצועים)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "published_at": "2026-10-10T23:37:27+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded",
+      "published_at": "2026-10-10T18:03:32+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-saudi-airport-kills-12-over-300-wounded-authorities-say",
+      "published_at": "2026-10-10T15:46:32+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+      "published_at": "2026-10-10T13:45:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי המלך ח'אלד, ריאד, ערב הסעודית",
+      "lat": 24.9586,
+      "lon": 46.711
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10102340-02",
+    "title": "פיצוץ מוקש ימי במיכלית נפט במצר הורמוז",
+    "summary": "מיכלית נפט גולמי נפגעה ממוקש ימי והתלקחה במצר הורמוז; משמרות המהפכה טוענים כי כלי השיט סטה לנתיב בלתי מורשה וכיבה מערכות זיהוי.",
+    "axis": "איראן - מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T17:19:07+00:00",
+    "last_update_at": "2026-10-10T21:45:24+00:00",
+    "what_is_not_verified": "זהות המיכלית והגורם שהניח את המוקש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_31a96301d52ebe99",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-supertanker-hit-mine-strait-hormuz",
+      "published_at": "2026-10-10T21:45:24+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_31a96301d52ebe99",
+      "url": "https://en.irna.ir/news/86288817/IRGC-Offending-supertanker-is-burning-in-Strait-of-Hormuz",
+      "published_at": "2026-10-10T17:19:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10102340-03",
+    "title": "הצגת תוכנית סנקציות כלכליות אמריקאיות נגד איראן",
+    "summary": "שר האוצר של ארה\"ב הציג תוכנית לשלילת הכנסות מנפט, חסימת גישה למערכות פיננסיות וסגירת נתיבי סחר יבשתיים דרך טורקיה במטרה לחנוק את כלכלת איראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T23:23:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T23:23:00+00:00",
+    "last_update_at": "2026-10-10T23:23:00+00:00",
+    "what_is_not_verified": "אופן יישום הסנקציות על נתיבי הסחר היבשתיים בטורקיה ומידת השפעתן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610091055",
+      "published_at": "2026-10-10T23:23:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10102340-04",
+    "title": "העברת מסר מאיראן לארה\"ב בנושא הסדר עימות",
+    "summary": "נשיא רוסיה שוחח טלפונית עם נשיא ארה\"ב והעביר לו את עמדת טהראן בנוגע לאפשרות להגיע להסכם לסיום העימות.",
+    "axis": "ארה\"ב - איראן - רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-09T21:41:53+00:00",
+    "last_update_at": "2026-10-10T12:30:21+00:00",
+    "what_is_not_verified": "תוכן העמדה האיראנית ותגובתו של נשיא ארה\"ב להצעה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+      "published_at": "2026-10-10T12:30:21+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48415",
+      "published_at": "2026-10-10T11:42:53+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48405",
+      "published_at": "2026-10-09T21:41:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10102340-05",
+    "title": "מגעים בין ארה\"ב לישראל על תקיפה באיראן",
+    "summary": "גורמים בארה\"ב ביקשו מישראל לתקוף לבדה באיראן, אך המהלך נבלם וירד מהפרק לאחר שהרמטכ\"ל התריע מפני דחיית מועד הבחירות בישראל.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T12:55:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T12:55:57+00:00",
+    "last_update_at": "2026-10-10T17:38:08+00:00",
+    "what_is_not_verified": "האם אכן הועברה דרישה אמריקאית רשמית לפעולה ישראלית עצמאית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956963",
+      "published_at": "2026-10-10T17:38:08+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956914",
+      "published_at": "2026-10-10T12:55:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10102340-06",
+    "title": "פעולות שיקום באתר מחקר גרעיני וטילים באיראן",
+    "summary": "מכוני מחקר ודיווחים מצביעים על עבודות בנייה ושיקום במתחם איראני שנפגע בעבר מתקיפה ישראלית וקשור למחקר נשק גרעיני, לצד דיווחים על שיקום ייצור טילים בסיוע רוסי.",
+    "axis": "איראן - ישראל",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T12:53:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T12:53:25+00:00",
+    "last_update_at": "2026-10-10T16:38:12+00:00",
+    "what_is_not_verified": "היקף השיקום המדויק ורמת החזרה לכשירות מבצעית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610109658",
+      "published_at": "2026-10-10T16:38:12+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/article/21591742",
+      "published_at": "2026-10-10T15:46:13+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1h2zswsge",
+      "published_at": "2026-10-10T12:53:25+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "המספר המדויק של הנפגעים וההרוגים במתקפה בנמל התעופה בריאד.",
+   "הטענה של איראן כי המיכלית שנפגעה שטה בנתיב לא מורשה וכיבתה מערכות זיהוי.",
+   "טענות על דרישה ישירה מארה\"ב שישראל תתקוף באיראן באופן עצמאי.",
+   "מידת ההתקדמות בשיקום מפעלי הטילים ומתקני הגרעין שנפגעו באיראן.",
+   "ההערכה כי הכנסות הנפט של איראן יתאפסו לחלוטין עד אמצע חודש דצמבר."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הפעלת לחץ כלכלי לחניקת כלכלת איראן ואיפוס הכנסות הנפט שלה.",
+     "דרישה מאיראן להיענות לכלל הדרישות האמריקאיות כתנאי למניעת פגיעה בקיומה."
+    ],
+    "inferred": [
+     "הימנעות מהסלמה צבאית נרחבת לפני בחירות האמצע בארה\"ב.",
+     "בחינת אפשרות להצטרפות לתקיפות נגד החות'ים לצד סעודיה."
+    ],
+    "forecast": [
+     "המשך אכיפה קפדנית של סנקציות תוך דחיית תקיפות יזומות עד לאחר ההצבעה בקלפיות."
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "אי-כניעה לאיומים צבאיים וללחצים כלכליים של ארה\"ב.",
+     "אכיפת כללי ביטחון מחמירים ואיסור חריגה מנתיבי שיט במצר הורמוז."
+    ],
+    "inferred": [
+     "שיקום יכולות הטילים ואתרי מחקר שנפגעו בסיוע גורמים זרים כדי לשמר כושר הרתעה.",
+     "שימוש ברוסיה כמתווכת להעברת עמדות לטראמפ לשם בחינת הסדר מדיני מקל."
+    ],
+    "forecast": [
+     "המשך הטרדת נתיבי השיט במפרץ ובחינה מחדש של מדיניות העמימות בנושא הגרעין."
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הימנעות מפעולה יזומה באיראן כל עוד טהראן אינה נוקטת צעדים חריגים."
+    ],
+    "inferred": [
+     "העדפת דחיית מלחמה גלויה באיראן כדי לא לשבש את קיום הבחירות לכנסת.",
+     "התנגדות לביצוע תקיפה עצמאית ללא תיאום או שילוב כוחות אמריקאיים."
+    ],
+    "forecast": [
+     "שמירה על כוננות ודחיית מבצעים צבאיים נרחבים עד למועד שלאחר הבחירות בישראל."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610109658",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86288817/IRGC-Offending-supertanker-is-burning-in-Strait-of-Hormuz",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/article/21591742",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-supertanker-hit-mine-strait-hormuz",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48405",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956914",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/s1h2zswsge",
+    "accessed_at": "2026-10-10T23:40:27+00:00"
+   }
+  ]
+ }
+}

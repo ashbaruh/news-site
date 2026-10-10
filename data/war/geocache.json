@@ -375,6 +375,7 @@
 51.5567,
 30.6122
 ],
+"dnipropetrovsk oblast, ukraine": null,
 "dnipropetrovsk, ukraine": [
 48.468,
 35.0418
@@ -388,6 +389,10 @@
 37.2746
 ],
 "donetsk oblast, ukraine": null,
+"donetsk region, ukraine": [
+48.0265,
+37.7916
+],
 "donetsk, ukraine": [
 48.0159,
 37.8013
@@ -668,6 +673,10 @@
 25.2677,
 48.1771
 ],
+"king khalid international airport, riyadh, saudi arabia": [
+24.9586,
+46.711
+],
 "king khalid international airport, saudi arabia": [
 24.9586,
 46.711
@@ -707,6 +716,10 @@
 33.3918
 ],
 "kupiansk, ukraine": [
+49.7133,
+37.6142
+],
+"kupyansk, ukraine": [
 49.7133,
 37.6142
 ],
@@ -1301,6 +1314,14 @@
 "suwayda, syria": [
 32.7094,
 36.5687
+],
+"svatove, ukraine": [
+49.4177,
+38.1457
+],
+"sviatopetrivske, ukraine": [
+50.3852,
+30.3228
 ],
 "sweida, syria": [
 32.7094,

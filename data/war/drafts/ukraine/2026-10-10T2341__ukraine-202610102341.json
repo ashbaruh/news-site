@@ -1,0 +1,515 @@
+{
+ "status": "draft",
+ "received_sha256_12": "563863a36f5a",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 5,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-10T23:41:20+00:00",
+  "window": {
+   "from": "2026-10-09T23:41:20+00:00",
+   "to": "2026-10-10T23:41:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610102341"
+  },
+  "summary": "צבא רוסיה מגביר את תקיפותיו האוויריות על תשתיות וריכוזי אוכלוסייה בערי אוקראינה, בעוד אוקראינה ממשיכה לפגוע במתקני אנרגיה בתוך רוסיה ובשיירות אספקה בחזית. ברקע הלחימה התגלע שבר מדיני חריף בעקבות סיכום בין נשיא ארצות הברית לרוסיה על הקלת סנקציות לצורך ייצוא סולר, מהלך שעורר התנגדות חריפה מצד קייב ומדינות אירופה.",
+  "fronts": [
+   {
+    "name": "חזית זפוריז'יה",
+    "status": "תקיפות כבדות של פצצות דאייה רוסיות על מבנים אזרחיים בעיר עם נפגעים רבים."
+   },
+   {
+    "name": "חזית קופיאנסק ולוהנסק",
+    "status": "פגיעה רוסית בגשר נהר אוסקול לשיבוש לוגיסטיקה, לצד השמדת שיירה צבאית רוסית בידי צנחנים אוקראינים בסוואטובה."
+   },
+   {
+    "name": "העורף והתשתיות באוקראינה (קייב, אודסה, דניפרופטרובסק)",
+    "status": "תקיפות מתמשכות באמצעות כטב\"מים וטילים הגורמות לשיבושי חשמל ומים ולנזק למבנים."
+   },
+   {
+    "name": "עומק שטח רוסיה",
+    "status": "מתקפות אוקראיניות על בתי זיקוק ומסופי נפט בסמרה וברוסטוב."
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10102341-01",
+    "title": "תקיפה אווירית רוסית קטלנית בזפוריז'יה",
+    "summary": "פצצות דאייה רוסיות פגעו בבניין מגורים רב-קומות וגרמו למותם של לפחות עשרים בני אדם ולפציעת עשרות נוספים.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T18:52:00+00:00",
+    "last_update_at": "2026-10-10T20:51:12+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק אינו אחיד בין המקורות השונים (נע בין שמונה עשרה לשלושים ושניים).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_e18f7155f15995e2",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T20:51:12+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_e18f7155f15995e2",
+      "url": "https://www.ukrinform.net/rubric-ato/4173122-russian-guided-bomb-attack-on-zaporizhzhia-kills-20-injures-32.html",
+      "published_at": "2026-10-10T19:30:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_e18f7155f15995e2",
+      "url": "https://www.ynet.co.il/news/article/s1winlusgg",
+      "published_at": "2026-10-10T18:54:40+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e18f7155f15995e2",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057385/",
+      "published_at": "2026-10-10T18:52:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-02",
+    "title": "הסכם סולר בין ארצות הברית לרוסיה והקלת עיצומים",
+    "summary": "נשיא ארצות הברית סיכם עם מקבילו הרוסי על אספקת כמויות גדולות של סולר לשוק הבינלאומי, תוך מתן היתר להקלת עיצומים אמריקאיים.",
+    "axis": "מדיני ועיצומים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T00:02:06+00:00",
+    "last_update_at": "2026-10-10T20:42:55+00:00",
+    "what_is_not_verified": "היקף הייצוא המיידי המדויק וההשלכות על השוק הפנימי ברוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+      "published_at": "2026-10-10T20:42:55+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+      "published_at": "2026-10-10T20:41:26+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+      "published_at": "2026-10-10T19:26:41+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/10/trump-calls-on-ukraine-to-replace-zelensky",
+      "published_at": "2026-10-10T17:32:36+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057392/",
+      "published_at": "2026-10-10T17:13:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/10/we-re-being-used-as-a-front-zelensky-says-of-trump-s-diesel-deal-with-putin",
+      "published_at": "2026-10-10T00:02:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10102341-03",
+    "title": "תקיפות כטב\"מים וטילים על קייב",
+    "summary": "שברי יירוט של טילים וכלי טיס בלתי מאוישים נפלו על מבני מגורים, גן ילדים ועסקים באזורים שונים בבירה וגרמו לפציעות.",
+    "axis": "חזית המרכז / העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T16:30:00+00:00",
+    "last_update_at": "2026-10-10T18:54:40+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_f6cf19ab1ab44775",
+      "url": "https://www.ynet.co.il/news/article/s1winlusgg",
+      "published_at": "2026-10-10T18:54:40+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_f6cf19ab1ab44775",
+      "url": "https://www.theguardian.com/global/video/2026/oct/10/man-narrowly-escapes-drone-strike-on-playground-in-kyiv-video",
+      "published_at": "2026-10-10T17:06:19+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_f6cf19ab1ab44775",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057366/",
+      "published_at": "2026-10-10T16:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "סביאטופטריבסקה, אוקראינה",
+      "lat": 50.3852,
+      "lon": 30.3228
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-04",
+    "title": "פגיעות במבנים באודסה",
+    "summary": "תקיפה רוסית על עיר הנמל פגעה בבניין משרדים ובמבנה מגורים, ללא דיווח ראשוני על נפגעים בנפש.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T16:36:00+00:00",
+    "last_update_at": "2026-10-10T19:52:00+00:00",
+    "what_is_not_verified": "היקף הנפגעים המלא בעקבות הפגיעה במבנה המגורים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_f441892686aff55a",
+      "url": "https://www.ukrinform.net/rubric-ato/4173123-odesa-under-russian-attack-residential-building-damaged-lysak.html",
+      "published_at": "2026-10-10T19:52:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_f441892686aff55a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057389/",
+      "published_at": "2026-10-10T16:36:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-05",
+    "title": "השמדת שיירה צבאית רוסית בסוואטובה",
+    "summary": "כוחות צנחנים של צבא אוקראינה תקפו והשמידו שיירה של חיילים רוסים במחוז לוהנסק.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T20:54:00+00:00",
+    "last_update_at": "2026-10-10T20:54:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים והיקף הציוד שהושמד בשיירה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173131-ukrainian-paratroopers-destroy-russian-convoy-in-svatove.html",
+      "published_at": "2026-10-10T20:54:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סוואטובה, אוקראינה",
+      "lat": 49.4177,
+      "lon": 38.1457
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-06",
+    "title": "תקיפות אוקראיניות על מתקני אנרגיה בתוך רוסיה",
+    "summary": "אוקראינה המשיכה לפגוע בתשתיות נפט וסולר בשטח רוסיה, כולל תחנת שאיבה בסמרה ואתרים באזור רוסטוב.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T07:18:34+00:00",
+    "last_update_at": "2026-10-10T13:53:42+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת ליכולת הזיקוק הכוללת של רוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21591307",
+      "published_at": "2026-10-10T13:53:42+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bkttvlpjzl",
+      "published_at": "2026-10-10T07:18:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סמרה, רוסיה",
+      "lat": 53.1956,
+      "lon": 50.1015
+     },
+     {
+      "name": "רוסטוב, רוסיה",
+      "lat": 47.2223,
+      "lon": 39.7199
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-07",
+    "title": "תקיפת כטב\"ם במחוז דניפרופטרובסק",
+    "summary": "ילד בן אחת עשרה נהרג וחמישה בני אדם נפצעו בתקיפת כלי טיס בלתי מאויש רוסי באזור דניפרופטרובסק.",
+    "axis": "חזית המרכז והמזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T22:51:10+00:00",
+    "last_update_at": "2026-10-10T22:51:10+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+      "published_at": "2026-10-10T22:51:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10102341-08",
+    "title": "הריסת גשר על נהר אוסקול",
+    "summary": "הצבא הרוסי השמיד מעבר גשר על נהר אוסקול באזור קופיאנסק במטרה לשבש את השרשרת הלוגיסטית של הצבא האוקראיני.",
+    "axis": "גזרת קופיאנסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T23:14:46+00:00",
+    "last_update_at": "2026-10-10T23:14:46+00:00",
+    "what_is_not_verified": "מידת ההשפעה המבצעית בפועל על מהלך הקרבות באזור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2200399",
+      "published_at": "2026-10-10T23:14:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קופיאנסק, אוקראינה",
+      "lat": 49.7133,
+      "lon": 37.6142
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10102341-09",
+    "title": "סירוב אירופי להעברת טילי פטריוט",
+    "summary": "ספרד ויוון דחו בקשות למסור לאוקראינה טילי יירוט מסוג פטריוט שתוקפם מתקרב לסיומו.",
+    "axis": "סיוע צבאי בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T22:30:00+00:00",
+    "last_update_at": "2026-10-10T22:30:00+00:00",
+    "what_is_not_verified": "כמות הטילים המדויקת שבידי המדינות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4172936-spain-and-greece-refuse-to-give-ukraine-patriot-missiles-nearing-expiration.html",
+      "published_at": "2026-10-10T22:30:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10102341-10",
+    "title": "גזרי דין ללוחמים שפעלו בשירות רוסיה",
+    "summary": "בית משפט אוקראיני גזר חמש עשרה שנות מאסר על תשעה אזרחים שהורשעו בלחימה לצד הכוחות הרוסיים במחוז דונצק.",
+    "axis": "משפט ופנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T21:36:00+00:00",
+    "last_update_at": "2026-10-10T21:36:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-crime/4172915-nine-traitors-who-fought-for-russia-sentenced-to-15-years-in-prison-each.html",
+      "published_at": "2026-10-10T21:36:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז דונצק, אוקראינה",
+      "lat": 48.0265,
+      "lon": 37.7916
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת ערוצים רוסיים לפיה ראש עיריית דנייפר עזב את אוקראינה עקב חקירות שחיתות.",
+   "הטענה כי כחמישים אחוז מכושר הזיקוק ברוסיה הושבת בעקבות הפגיעות האוקראיניות.",
+   "מספר הפצועים המדויק בתקיפה על זפוריז'יה בשל סתירות בין המקורות השונים."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1206,
+    "unit": "USD",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הפעולות הצבאיות עד להשגת כלל היעדים ושלילת שיחות שלום בעת הנוכחית.",
+     "חידוש הזרמת סולר לשווקים הבינלאומיים והקלת מגבלות הייצוא העצמיות."
+    ],
+    "inferred": [
+     "ניצול ההסכמות הכלכליות עם ארצות הברית להכנסת כספים למימון המאמץ המלחמתי.",
+     "שבירת כושר העמידה האוקראיני דרך פגיעה מסיבית במערכות אנרגיה עירוניות."
+    ],
+    "forecast": [
+     "המשך לחץ אווירי על ערי מפתח לקראת עונת החורף.",
+     "מאמצים לקבע את השליטה באזורים שנכבשו תוך הרחבת פגיעות לוגיסטיות בציר קופיאנסק."
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "התנגדות מוחלטת להקלת העיצומים על רוסיה והגדרתה כמימון ישיר של המלחמה.",
+     "המשך הגנה על תשתיות לאומיות ופגיעה בריכוזי כוחות האויב."
+    ],
+    "inferred": [
+     "המשך פגיעה מכוונת בבתי זיקוק רוסיים כדי ללחוץ על הכלכלה הרוסית חרף דרישות וושינגטון.",
+     "התמודדות עם משבר דיפלומטי חמור מול הממשל האמריקאי."
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות בעומק רוסיה חרף הלחץ החיצוני לחדול מכך.",
+     "הישענות מוגברת על האיחוד האירופי לאספקת מערכות הגנה וסנקציות חדשות."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הורדת מחירי הדלק והסולר בשוק המקומי והעולמי לקראת בחירות האמצע.",
+     "קריאה להפסקת התקיפות האוקראיניות על מתקני נפט והחלפת ההנהגה בקייב לצורך הגעה להסכם."
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ כבדים על אוקראינה כדי לכפות משא ומתן עם מוסקבה.",
+     "העדפת אינטרסים כלכליים ופוליטיים פנימיים על פני המשך התיאום ההדוק עם קייב."
+    ],
+    "forecast": [
+     "העמקת המתיחות מול ההנהגה האוקראינית ומול חלק מבעלות הברית באירופה.",
+     "התגברות המחלוקת הפנים-אמריקאית בקונגרס סביב הקלות העיצומים לרוסיה."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/global/video/2026/oct/10/man-narrowly-escapes-drone-strike-on-playground-in-kyiv-video",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21591307",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/10/we-re-being-used-as-a-front-zelensky-says-of-trump-s-diesel-deal-with-putin",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057389/",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2200399",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-crime/4172915-nine-traitors-who-fought-for-russia-sentenced-to-15-years-in-prison-each.html",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bkttvlpjzl",
+    "accessed_at": "2026-10-10T23:41:20+00:00"
+   }
+  ]
+ }
+}
