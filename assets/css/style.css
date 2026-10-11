@@ -593,3 +593,6 @@ a.msg-link:hover { background: #222a3a; text-decoration: none; }
   .share-bar { margin-inline-start: 0; flex-basis: 100%; }
   .share-bar .sh { font-size: 14px; padding: 8px 12px; }
 }
+
+/* קישור לערוץ הטלגרם בכותרת */
+.topbar nav a.tg-join { color: #2aabee; font-weight: 700; }

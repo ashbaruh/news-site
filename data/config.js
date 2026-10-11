@@ -14,7 +14,8 @@ window.DB.config = {
     tagline: 'דף הבית האישי שלי',
     domain: 'example.com',           // placeholder
     // הכתובת הציבורית — לכפתורי השיתוף (כשהאתר נפתח כקובץ/במחשב). במעבר כתובת: לשנות רק כאן.
-    public_url: 'https://ashbaruh.github.io/news-site/'
+    public_url: 'https://ashbaruh.github.io/news-site/',
+    telegram_url: 'https://t.me/chadar_matzav'      // ערוץ הטלגרם של האתר
   },
 
   /* ---- סטטיסטיקת כניסות (GoatCounter) — לתצוגה בדף ההגדרות. צריך שבהגדרות GoatCounter יסומן
@@ -171,6 +172,7 @@ window.DB.config = {
 
   /* ---- קישורי רשתות חברתיות (placeholder עד שתיתן אמיתיים) ---- */
   social: [
+    { name: '📢 ערוץ הטלגרם', url: 'https://t.me/chadar_matzav' },
     { name: 'X',        url: '#' },
     { name: 'Facebook', url: '#' },
     { name: 'YouTube',  url: '#' }

@@ -179,6 +179,7 @@
       '<a class="sh tg" href="https://t.me/share/url?url=' + enc(url) + '&text=' + enc(text) + '" target="_blank" rel="noopener noreferrer" aria-label="שיתוף בטלגרם">טלגרם</a>' +
       (navigator.share ? '<button type="button" class="sh native" aria-label="שיתוף">שיתוף…</button>' : '') +
       '<button type="button" class="sh copy" aria-label="העתקת קישור">העתק קישור</button>' +
+      (C.brand.telegram_url ? '<a class="sh join" href="' + esc(C.brand.telegram_url) + '" target="_blank" rel="noopener">📢 לערוץ</a>' : '') +
       '</div>';
   }
 

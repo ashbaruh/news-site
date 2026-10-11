@@ -106,7 +106,7 @@ function buildMessage(win, now, markets) {
   if (!blocks.length) return null;
 
   const head = '⚡ <b>' + esc(C.brand.site_name) + ' · עדכון ' + hhmm(b.slot || b.generated_at) + '</b>';
-  const foot = '<i>נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות. התווית מחושבת לפי מספר המקורות, ואינה אישור שהאירוע קרה.</i>';
+  const foot = '<i>נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות. התווית מחושבת לפי מספר המקורות, ואינה אישור שהאירוע קרה.</i>' + '\n📢 להצטרפות לערוץ: @chadar_matzav';
   const mk = markets ? markets + '\n\n' : '';
   const build = () => head + '\n\n' + blocks.join('\n\n') + '\n\n' + mk + foot;
   let text = build();
