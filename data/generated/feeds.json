@@ -7,15 +7,15 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-11T16:17:18+00:00",
-  "fetched_at": "2026-10-11T16:17:18+00:00"
+  "checked_at": "2026-10-11T17:17:25+00:00",
+  "fetched_at": "2026-10-11T17:17:25+00:00"
  },
  "animals": {
   "data": [
    {
     "title_en": "Giant Tortoise Population is Thriving–Survey Finds 180,000 on One Island Chain",
-    "title_he": null,
-    "translated_by": null,
+    "title_he": "אוכלוסיית הצב הענק משגשגת - סקר מוצא 180,000 בשרשרת האי האחד",
+    "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
     "date": "2026-10-11T16:11:41+00:00"
    },
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T16:17:31+00:00",
-  "fetched_at": "2026-10-11T16:17:31+00:00"
+  "checked_at": "2026-10-11T17:17:34+00:00",
+  "fetched_at": "2026-10-11T17:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "My biggest AV wish of the year could be granted next week, but why should you care about a new Apple TV 4K?",
+    "title_he": "המשאלה הגדולה ביותר שלי השנה יכולה להינתן בשבוע הבא, אבל למה שיהיה אכפת לך מ-Apple TV 4K חדש?",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/my-biggest-av-wish-of-the-year-could-be-granted-next-week-but-why-should-you-care-about-a-new-apple-tv-4k",
+    "date": "2026-10-11T16:45:05+00:00"
+   },
    {
     "title_en": "LG C6 42-inch (OLED42C6)",
     "title_he": "LG C6 42 אינץ' (OLED42C6)",
@@ -67,35 +74,33 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/radio/why-im-still-blown-away-by-this-100-year-old-wireless-audio-technology",
     "date": "2026-10-09T15:28:24+00:00"
-   },
-   {
-    "title_en": "Sony Bravia Theatre Trio + Rear 9 and Sub 9",
-    "title_he": "Sony Bravia Theatre Trio + Rear 9 ו-Sub 9",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/surround-sound-systems/sony-bravia-theatre-trio-rear-9-and-sub-9",
-    "date": "2026-10-09T13:21:26+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T16:17:32+00:00",
-  "fetched_at": "2026-10-11T16:17:32+00:00"
+  "checked_at": "2026-10-11T17:17:35+00:00",
+  "fetched_at": "2026-10-11T17:17:35+00:00"
  },
- "generated_at": "2026-10-11T16:17:32+00:00",
+ "generated_at": "2026-10-11T17:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בשוק נותנים תחזית אופטימית לגבי הגירעון של סוף השנה. אבל יש כוכבית",
+     "title": "הגירעון צפוי להצטמצם עד סוף השנה, וזה קשור לביצועים של אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559074",
      "date": "2026-10-11T15:30:00+00:00"
     },
     {
      "title": "דיווח: 800 ק\"ג חומר נפץ בדרך לדאחיה: הסיכול הדרמטי בלבנון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559023",
-     "date": "2026-10-11T15:05:00+00:00"
+     "date": "2026-10-11T16:45:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "טראמפ יעשה הכל כדי להוריד את מחירי הדלק לפני הבחירות. כולל עסקה עם פוטין",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559066",
+     "date": "2026-10-11T15:29:00+00:00"
+    },
     {
      "title": "1.2 מיליון דולר בחודש אחד: התרומה של גיל שויד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559098",
@@ -215,17 +220,12 @@
      "title": "מנכ\"ל בנק לאומי הגיע לרשת X וביקש מהגולשים פידבק. איך הם הגיבו?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559014",
      "date": "2026-10-09T10:19:00+00:00"
-    },
-    {
-     "title": "קבעה שישראל מבצעת רצח עם בעזה: פרס נובל לשלום יוענק לשופטת נאווי פילאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559013",
-     "date": "2026-10-09T09:18:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T16:17:19+00:00",
-  "fetched_at": "2026-10-11T16:17:19+00:00"
+  "checked_at": "2026-10-11T17:17:26+00:00",
+  "fetched_at": "2026-10-11T17:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T16:17:20+00:00",
-  "fetched_at": "2026-10-11T16:17:20+00:00"
+  "checked_at": "2026-10-11T17:17:26+00:00",
+  "fetched_at": "2026-10-11T17:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2730,8 +2730,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T16:17:22+00:00",
-  "fetched_at": "2026-10-11T16:17:22+00:00"
+  "checked_at": "2026-10-11T17:17:27+00:00",
+  "fetched_at": "2026-10-11T17:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2837,8 +2837,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T16:17:22+00:00",
-  "fetched_at": "2026-10-11T16:17:22+00:00"
+  "checked_at": "2026-10-11T17:17:27+00:00",
+  "fetched_at": "2026-10-11T17:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2858,14 +2858,14 @@
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 583,
+     "likes": 584,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 440,
+     "likes": 441,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2886,7 +2886,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 254,
+     "likes": 255,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2921,18 +2921,27 @@
      "title": "MiniMax-H3 Character Swap LoRA",
      "desc_en": "Swap one character in a clip for a reference character",
      "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
-     "likes": 98,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T16:17:30+00:00",
-  "fetched_at": "2026-10-11T16:17:30+00:00"
+  "checked_at": "2026-10-11T17:17:33+00:00",
+  "fetched_at": "2026-10-11T17:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ארד למיה אשכנזי בגרנד סלאם סרדיניה בקייט פויל",
+     "link": "https://www.one.co.il/Article/535725.html?ref=rss",
+     "date": "2026-10-11T15:51:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "ביקורת, \"יד האלוהים\" והציונים: הערב הסוער של ענאן חלאילי",
      "link": "https://sports.walla.co.il/item/3871746",
@@ -3057,15 +3066,6 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "הלילה הגדול של עידן טוקלומטי... וליאונל מסי | צפו",
-     "link": "https://sports.walla.co.il/item/3871654",
-     "date": "2026-10-11T05:11:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עידן טוקלומטי"
      ]
     }
    ],
@@ -3269,8 +3269,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-11T16:17:25+00:00",
-  "fetched_at": "2026-10-11T16:17:25+00:00"
+  "checked_at": "2026-10-11T17:17:30+00:00",
+  "fetched_at": "2026-10-11T17:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3301,91 +3301,91 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T16:17:26+00:00",
-  "fetched_at": "2026-10-11T16:17:26+00:00"
+  "checked_at": "2026-10-11T17:17:30+00:00",
+  "fetched_at": "2026-10-11T17:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-11T15:37:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T16:45:00+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-11T15:03:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-11T14:10:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T15:29:00+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-11T14:21:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-11T16:07:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T17:14:00+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-11T16:05:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T17:15:00+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-11T16:05:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T17:15:00+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-11T15:25:24+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-11T14:58:59+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-11T13:04:39+00:00",
-    "seen_at": "2026-10-11T16:17:32+00:00",
+    "newest": "2026-10-11T16:45:05+00:00",
+    "seen_at": "2026-10-11T17:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-11T16:17:32+00:00"
+  "checked_at": "2026-10-11T17:17:35+00:00"
  }
 }
