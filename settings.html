@@ -70,6 +70,51 @@
 
     var html = '';
 
+    /* ---------- סטטיסטיקת כניסות (GoatCounter) ----------
+       נטען אחרי שהדף מוצג. GoatCounter שומר את המספרים במטמון עד 4 שעות. */
+    var GC = C.analytics && C.analytics.goatcounter;
+    if (GC) {
+      html += block('סטטיסטיקת כניסות',
+        'ספירה אנונימית (GoatCounter, בלי עוגיות). המספרים מתעדכנים באיחור של עד 4 שעות. כניסות מהמחשב המקומי לא נספרות.',
+        '<div id="gc-stats" class="locked">טוען…</div>' +
+        '<p><a class="edit-link" href="https://' + esc(GC) + '.goatcounter.com" target="_blank" rel="noopener">📊 הלוח המלא ב-GoatCounter</a></p>');
+    }
+    function gcCount(path, start) {
+      var url = 'https://' + GC + '.goatcounter.com/counter/' + encodeURIComponent(path) + '.json' + (start ? '?start=' + start : '');
+      return fetch(url, { cache: 'no-store' }).then(function (r) {
+        if (r.status === 404) return 0;                       // עדיין אין אף כניסה לנתיב הזה
+        if (!r.ok) throw new Error('http ' + r.status);
+        return r.json().then(function (j) { return parseInt(String(j.count).replace(/[^0-9]/g, ''), 10) || 0; });
+      });
+    }
+    function loadStats() {
+      var box = document.getElementById('gc-stats');
+      if (!box) return;
+      var d = new Date(), today = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      var arenas = ['all'].concat(C.arenas.map(function (a) { return a.id; }));
+      function shares(kind) {
+        return Promise.all(arenas.map(function (a) { return gcCount('share-' + kind + '-' + a).catch(function () { return 0; }); }))
+          .then(function (n) { return n.reduce(function (x, y) { return x + y; }, 0); });
+      }
+      Promise.all([gcCount('TOTAL'), gcCount('TOTAL', today), gcCount('TOTAL', 'week'),
+                   shares('whatsapp'), shares('telegram'), shares('native'), shares('copy')])
+        .then(function (v) {
+          var f = function (n) { return n.toLocaleString('he-IL'); };
+          box.className = '';
+          box.innerHTML = '<table class="src"><tbody>' +
+            '<tr><td>כניסות — היום</td><td><b>' + f(v[1]) + '</b></td></tr>' +
+            '<tr><td>כניסות — 7 ימים</td><td><b>' + f(v[2]) + '</b></td></tr>' +
+            '<tr><td>כניסות — סך הכול</td><td><b>' + f(v[0]) + '</b></td></tr>' +
+            '<tr><td>שיתופים — וואטסאפ</td><td>' + f(v[3]) + '</td></tr>' +
+            '<tr><td>שיתופים — טלגרם</td><td>' + f(v[4]) + '</td></tr>' +
+            '<tr><td>שיתופים — תפריט הטלפון / העתקת קישור</td><td>' + f(v[5]) + ' / ' + f(v[6]) + '</td></tr>' +
+            '</tbody></table>';
+        })
+        .catch(function () {
+          box.textContent = 'הספירה לא זמינה. ב-GoatCounter: Settings ← לסמן "Allow adding visitor counts on your website" ← Save.';
+        });
+    }
+
     var repoParts = (C.repo || 'ashbaruh/news-site').split('/');
     html += block('מיתוג וכתובת',
       'שם זמני. דומיין משלך עולה כסף — לכן האתר יעלה בכתובת החינמית של GitHub Pages.',
@@ -160,6 +205,7 @@
       }).join('') + '</ul>', 'data/config.js');
 
     document.getElementById('app').insertAdjacentHTML('beforeend', html);
+    if (GC) loadStats();
   })();
   </script>
   <!-- סטטיסטיקת כניסות אנונימית (GoatCounter): בלי עוגיות, בלי מידע אישי. לא סופר כניסות מהמחשב המקומי. -->

@@ -17,6 +17,10 @@ window.DB.config = {
     public_url: 'https://ashbaruh.github.io/news-site/'
   },
 
+  /* ---- סטטיסטיקת כניסות (GoatCounter) — לתצוגה בדף ההגדרות. צריך שבהגדרות GoatCounter יסומן
+     "Allow adding visitor counts on your website". ---- */
+  analytics: { goatcounter: 'chadar-matzav' },
+
   /* ---- הפרויקט ב-GitHub (לכפתורי העריכה בדף ההגדרות) ---- */
   repo: 'ashbaruh/news-site',
 
