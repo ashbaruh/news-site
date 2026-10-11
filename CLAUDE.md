@@ -31,7 +31,7 @@
 ## עדכון / ניתוח לפי בקשה: Claude עושה בעצמו, בלי Gemini (החלטת בעל האתר, 01/10/2026)
 כשבעל האתר מבקש "עדכון" או "ניתוח", **לא** מפעילים את משימות Gemini (`run-*-now.txt`). Claude כותב את התוכן בעצמו:
 1. `git pull`, איסוף ידיעות טריות (חיפוש ברשת, ובנוסף `tools/collect_war.py` / `tools/war_feeds.py` כשאפשר).
-2. **ניתוח מלחמות** → קובץ JSON לכל זירה לפי `tools/war_contract.py` (רק מקורות שרשומים ב-`data/sources.js`, בלי שדה אימות). לשים אותו ב-`data/war/inbox/`, להריץ `python tools/ingest_war.py`, להוסיף את הטיוטה ל-`approved.json`, ולהריץ `ingest_war.py` שוב.
+2. **ניתוח מלחמות** → דרך `war-claude.yml`: לשנות את `.github/run-collect-deep-now.txt` → הכתבות (24 שעות, עד 40 לזירה) ב-`data/war/claude_deep_input.json`. לכתוב `data/war/claude_deep_events.json` — לכל זירה: `events` + `summary`, `fronts`, `not_verified`, `strategic_goals` (`ARENA_SCHEMA` ב-`tools/mac/analyze.py`), לבדוק מקומית (`an.build` + `wc.validate`) ולשמור → GitHub מרכיב, מוסיף כלכלה, בודק חוזה, יוצר טיוטה, מוסיף ל-`approved.json` ומפרסם.
 3. **עדכון ביניים** → דרך `war-claude.yml` (בלי בינה בענן; האיסוף וההרכבה ב-GitHub, כי בסביבה של Claude אין גישה לאתרי החדשות):
    1. לשנות את `.github/run-collect-now.txt` ולשמור → הכתבות נאספות ל-`data/war/claude_input.json` (כדקה וחצי).
    2. `git pull`, לקרוא את הכתבות, ולכתוב `data/war/claude_events.json` — עד 3 ידיעות לזירה בפורמט `EVENTS_SCHEMA` (`tools/mac/analyze.py`), `support.item` = מספר הכתבה ברשימה של אותה זירה, ניסוח מקורי בלבד, בלי אותיות ערביות.
