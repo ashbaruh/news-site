@@ -10,7 +10,7 @@ name: עדכון לפי בקשה (Claude)
 on:
   push:
     branches: [main]
-    paths: [".github/run-collect-now.txt", "data/war/claude_events.json"]
+    paths: [".github/run-collect-now.txt", "data/war/claude_events.json", ".github/run-collect-deep-now.txt", "data/war/claude_deep_events.json"]
   workflow_dispatch: {}
 
 permissions:
@@ -36,7 +36,11 @@ jobs:
       - name: מה השתנה
         id: what
         run: |
-          if git diff --name-only HEAD~1 HEAD | grep -q "data/war/claude_events.json"; then echo "step=build" >> $GITHUB_OUTPUT; else echo "step=collect" >> $GITHUB_OUTPUT; fi
+          CH=$(git diff --name-only HEAD~1 HEAD)
+          if   echo "$CH" | grep -q "data/war/claude_deep_events.json"; then echo "step=build-deep" >> $GITHUB_OUTPUT
+          elif echo "$CH" | grep -q "run-collect-deep-now.txt";          then echo "step=collect-deep" >> $GITHUB_OUTPUT
+          elif echo "$CH" | grep -q "data/war/claude_events.json";       then echo "step=build" >> $GITHUB_OUTPUT
+          else echo "step=collect" >> $GITHUB_OUTPUT; fi
 
       - name: איסוף
         if: steps.what.outputs.step == 'collect'
@@ -48,6 +52,16 @@ jobs:
           python tools/test_war_contract.py
           python tools/test_war_brief.py
           python tools/brief_claude.py build
+
+      - name: איסוף לניתוח עמוק
+        if: steps.what.outputs.step == 'collect-deep'
+        run: python tools/brief_claude.py collect-deep
+
+      - name: ניתוח עמוק — הרכבה, בדיקות, טיוטה, אישור ופרסום
+        if: steps.what.outputs.step == 'build-deep'
+        run: |
+          python tools/test_war_contract.py
+          python tools/brief_claude.py build-deep
 
       - name: פרסום לערוץ הטלגרם
         if: steps.what.outputs.step == 'build'
@@ -62,7 +76,7 @@ jobs:
         run: |
           git config user.name  "news-site-bot"
           git config user.email "news-site-bot@users.noreply.github.com"
-          git add data/war/claude_input.json data/war/brief.js data/war/brief_status.json data/war/geocache.json data/war/telegram_status.json 2>/dev/null || true
+          git add data/war/claude_input.json data/war/claude_deep_input.json data/war/drafts data/war/rejected data/war/approved.json data/war/published.js data/war/brief.js data/war/brief_status.json data/war/geocache.json data/war/telegram_status.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "אין שינוי"; exit 0; fi
           git commit -m "עדכון לפי בקשה (Claude): ${{ steps.what.outputs.step }}"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done

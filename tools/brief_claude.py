@@ -97,5 +97,89 @@ def build():
               (" · דולגו: " + "; ".join(f"{a}: {w}" for a, w in skipped.items()) if skipped else ""), ok=True)
 
 
+# ------------------------------------------------------------------ ניתוח עמוק לפי בקשה (Claude)
+# אותו איסוף כמו war_daily.py (24-26 שעות, עד 40 כתבות לזירה), אותה הרכבה ובדיקת חוזה (analyze.build),
+# אותה כלכלה (economy_for), ואז תיבה → טיוטה → אישור → פרסום (ingest_war.py). רק הבחירה והניסוח — Claude.
+
+DEEP_INPUT = os.path.join(wb.ROOT, "data", "war", "claude_deep_input.json")
+DEEP_EVENTS = os.path.join(wb.ROOT, "data", "war", "claude_deep_events.json")
+
+
+def collect_deep():
+    import analyze as an
+    known, _ = iw.load_sources()
+    now = datetime.now(timezone.utc).replace(microsecond=0)
+    arenas = {}
+    for arena in sorted(wc.ARENAS):
+        try:
+            got = [it for it in cw.collect(arena, log=lambda *_: None)
+                   if it["source_id"] in known and str(it.get("url", "")).startswith("https://")]
+        except Exception as e:
+            print(f"{arena}: איסוף נכשל — {e}")
+            got = []
+        arenas[arena] = sorted(got, key=lambda it: it.get("published_at", ""), reverse=True)[:an.MAX_ITEMS]
+        print(f"{arena}: {len(arenas[arena])} כתבות")
+    with open(DEEP_INPUT, "w", encoding="utf-8", newline="\n") as f:
+        json.dump({"collected_at": now.isoformat(), "window_hours": 24, "arenas": arenas}, f, ensure_ascii=False, indent=1)
+
+
+def build_deep():
+    import analyze as an
+    import war_daily as wd
+    from geocode import Geocoder
+    an.active_model_name = lambda: MODEL            # בקובץ הניתוח: "model": {"name": "claude"} (CLAUDE.md)
+    with open(DEEP_INPUT, encoding="utf-8") as f:
+        inp = json.load(f)
+    with open(DEEP_EVENTS, encoding="utf-8") as f:
+        out = json.load(f)
+    known, groups = iw.load_sources()
+    now = datetime.now(timezone.utc).replace(microsecond=0)
+    geocode = Geocoder()
+    os.makedirs(iw.INBOX, exist_ok=True)
+    results = []
+    for arena, items in inp["arenas"].items():
+        o = out.get(arena)
+        if not o or not items:
+            results.append(f"{arena}: דולג (אין ניתוח או אין כתבות)")
+            continue
+        doc = an.build(arena, items, o, o, inp["window_hours"], wd.map_confidence(arena),
+                       f"{arena}-claude-{now:%Y%m%d%H%M}", now, geocode=geocode)
+        doc["economy"] = wd.economy_for(arena)
+        errors = wc.validate(doc, known)
+        if errors:
+            results.append(f"{arena}: ❌ לא עבר את בדיקת החוזה — {errors[0][:160]}")
+            continue
+        path = os.path.join(iw.INBOX, doc["model"]["run_id"] + ".json")
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(doc, f, ensure_ascii=False, indent=1)
+        results.append(f"{arena}: ✓ {len(doc['events'])} אירועים")
+    geocode.save()
+    before = set()
+    for a in wc.ARENAS:
+        d = os.path.join(iw.WAR, "drafts", a)
+        if os.path.isdir(d):
+            before |= {f"drafts/{a}/{n}" for n in os.listdir(d)}
+    for line in iw.ingest(known, groups):
+        print(line)
+    new = set()
+    for a in wc.ARENAS:
+        d = os.path.join(iw.WAR, "drafts", a)
+        if os.path.isdir(d):
+            new |= {f"drafts/{a}/{n}" for n in os.listdir(d)}
+    new = sorted(new - before)
+    # בעל האתר ביקש את הניתוח ישירות — אישור בשמו (CLAUDE.md, שלב 2: "להוסיף את הטיוטה ל-approved.json")
+    with open(iw.APPROVED, encoding="utf-8") as f:
+        meta = json.load(f)
+    meta.setdefault("approved", []).extend(n for n in new if n not in meta["approved"])
+    with open(iw.APPROVED, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    for line in iw.publish(known, groups):
+        print(line)
+    print("\n".join(results))
+    if not new:
+        sys.exit("אף זירה לא עברה — הניתוח הקודם נשאר")
+
+
 if __name__ == "__main__":
-    {"collect": collect, "build": build}[sys.argv[1] if len(sys.argv) > 1 else ""]()
+    {"collect": collect, "build": build, "collect-deep": collect_deep, "build-deep": build_deep}[sys.argv[1] if len(sys.argv) > 1 else ""]()
