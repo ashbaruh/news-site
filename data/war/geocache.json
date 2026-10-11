@@ -455,6 +455,14 @@
 59.8737,
 26.323
 ],
+"gulf of oman": [
+24.2138,
+58.9846
+],
+"gumdag, turkmenistan": [
+39.2024,
+54.5875
+],
 "hadatha, lebanon": [
 33.165,
 35.3916
@@ -1282,6 +1290,7 @@
 48.8523,
 37.6058
 ],
+"sluchok, russia": null,
 "sochi, russia": [
 43.5855,
 39.7231
@@ -1374,6 +1383,10 @@
 "tallinn, estonia": [
 59.4372,
 24.7573
+],
+"tallousa, lebanon": [
+33.2295,
+35.489
 ],
 "talloussah, lebanon": null,
 "tampa, united states": [
