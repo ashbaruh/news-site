@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -36,7 +36,8 @@ jobs:
       - name: מה השתנה
         id: what
         run: |
-          CH=$(git diff --name-only HEAD~1 HEAD)
+          # הקבצים שהשתנו בדחיפה הזו בלבד (לא HEAD~1 — בוט אחר יכול לשמור באמצע, 11/10/2026)
+          if [ "${{ github.event_name }}" = "push" ]; then CH=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); else CH=""; fi
           if   echo "$CH" | grep -q "data/war/claude_deep_events.json"; then echo "step=build-deep" >> $GITHUB_OUTPUT
           elif echo "$CH" | grep -q "run-collect-deep-now.txt";          then echo "step=collect-deep" >> $GITHUB_OUTPUT
           elif echo "$CH" | grep -q "data/war/claude_events.json";       then echo "step=build" >> $GITHUB_OUTPUT
