@@ -1,0 +1,377 @@
+{
+ "status": "draft",
+ "received_sha256_12": "58594c40c897",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 3,
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-11T10:02:37+00:00",
+  "window": {
+   "from": "2026-10-10T10:02:37+00:00",
+   "to": "2026-10-11T10:02:37+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "north-claude-202610111002"
+  },
+  "summary": "בדרום לבנון נמשכות תקיפות אוויריות והפגזות ארטילריה ישראליות כמעט יומיות, לפי דיווחי חיזבאללה ותקשורת לבנונית, ומטוסי קרב נצפו בשמי ביירות והבקאע. בצד הישראלי, עצם אווירי בלתי מזוהה שחדר בגליל המערבי הוביל לסריקות שעדיין לא הסתיימו. במישור המדיני, ארה\"ב הסירה הגבלות ותיקות על טיסות ישירות ללבנון.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "תקיפות אוויריות בכפרים ליד הליטני, הפגזות ארטילריה והריסת מבנים באזור הגבול."
+   },
+   {
+    "name": "גבול הגליל המערבי",
+    "status": "סריקות צה\"ל אחרי זיהוי עצם אווירי בלתי מזוהה ליד ערב אל-עראמשה; טרם אותר."
+   },
+   {
+    "name": "המישור המדיני",
+    "status": "ארה\"ב ביטלה הגבלות על טיסות ישירות ללבנון; טורקיה וסוריה ממשיכות בתיאום צבאי."
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10111002-01",
+    "title": "תקיפות אוויריות בכפרים בדרום לבנון",
+    "summary": "דיווחים מלבנון על תקיפות של חיל האוויר בטלוסה, בכפר תבנית ובאלמנצורי במהלך הבוקר.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T07:00:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T07:00:33+00:00",
+    "last_update_at": "2026-10-11T09:40:32+00:00",
+    "what_is_not_verified": "מטרות התקיפות והנפגעים לא פורסמו; צה\"ל לא התייחס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_90824b7839d390c3",
+      "url": "https://english.almanar.com.lb/article/136807/",
+      "published_at": "2026-10-11T07:00:33+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_90824b7839d390c3",
+      "url": "https://t.me/abualiexpress/131709",
+      "published_at": "2026-10-11T07:13:04+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_5fe7bd764782c060",
+      "url": "https://english.almanar.com.lb/article/136862/",
+      "published_at": "2026-10-11T09:40:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טלוסה",
+      "lat": 33.2295,
+      "lon": 35.489
+     },
+     {
+      "name": "כפר תבנית",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10111002-02",
+    "title": "הפגזות ארטילריה והריסת מבנים באזור הגבול",
+    "summary": "לפי כתבי חיזבאללה, כוחות ישראליים ירו ארטילריה לעבר אלמנצורי וביצעו הריסה של מבנים בבית אלסיאד.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:00:00+00:00",
+    "last_update_at": "2026-10-11T09:32:24+00:00",
+    "what_is_not_verified": "המידע מגיע מכלי תקשורת של חיזבאללה בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_75afbb6305b577d4",
+      "url": "https://english.almanar.com.lb/article/136867/",
+      "published_at": "2026-10-11T09:32:24+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_0efdb6a8e7febf04",
+      "url": "https://english.almanar.com.lb/article/136817/",
+      "published_at": "2026-10-11T08:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אלמנצורי",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10111002-03",
+    "title": "מטוסי קרב ישראליים בשמי ביירות והר הלבנון",
+    "summary": "דיווחים בלבנון על טיסות בגובה נמוך של מטוסי קרב ישראליים מעל ביירות, הר הלבנון, הבקאע ודרום המדינה.",
+    "axis": "פעילות אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T09:47:31+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T09:47:31+00:00",
+    "last_update_at": "2026-10-11T09:52:05+00:00",
+    "what_is_not_verified": "לא ידוע אם בוצעו תקיפות במהלך הטיסות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_c80fb78c87daa3d1",
+      "url": "https://english.almanar.com.lb/article/136882/",
+      "published_at": "2026-10-11T09:52:05+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_c80fb78c87daa3d1",
+      "url": "https://t.me/abualiexpress/131720",
+      "published_at": "2026-10-11T09:47:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10111002-04",
+    "title": "עצם אווירי בלתי מזוהה חדר בגליל המערבי",
+    "summary": "דובר צה\"ל מסר שתצפיות זיהו עצם אווירי בלתי מזוהה במרחב הגבול ליד ערב אל-עראמשה. הסריקות נמשכו גם בבוקר, ובצבא לא שוללים מצנח ממונע או רחפן מסוג לא מוכר.",
+    "axis": "גבול הגליל המערבי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T20:00:00+03:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T17:05:22+00:00",
+    "last_update_at": "2026-10-11T05:42:43+00:00",
+    "what_is_not_verified": "מה היה העצם ומאיפה הגיע — עדיין לא ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25331",
+      "published_at": "2026-10-10T20:41:34+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957000",
+      "published_at": "2026-10-11T04:54:05+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1ptysdime",
+      "published_at": "2026-10-11T05:42:43+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956956",
+      "published_at": "2026-10-10T17:05:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ערב אל-עראמשה",
+      "lat": 33.0886,
+      "lon": 35.2265
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10111002-05",
+    "title": "צה\"ל שיגר מיירט לעבר מטרה אווירית בדרום לבנון",
+    "summary": "לפי דובר צה\"ל, מיירט שוגר לעבר מטרה אווירית חשודה באזור שבו פועלים כוחות צה\"ל בדרום לבנון; תוצאות היירוט נבדקו.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:50:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T14:50:18+00:00",
+    "last_update_at": "2026-10-10T14:50:18+00:00",
+    "what_is_not_verified": "תוצאות היירוט לא פורסמו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25326",
+      "published_at": "2026-10-10T14:50:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10111002-06",
+    "title": "ארה\"ב ביטלה הגבלות ותיקות על טיסות ישירות ללבנון",
+    "summary": "הנשיא טראמפ הסיר הגבלות שעמדו בתוקף עשרות שנים על טיסות בין ארה\"ב ללבנון, ונשיא לבנון ג'וזף עאון בירך על ההחלטה.",
+    "axis": "המישור המדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T14:10:00+00:00",
+    "last_update_at": "2026-10-10T15:44:48+00:00",
+    "what_is_not_verified": "מועד חידוש הטיסות בפועל לא נקבע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_51f0e0485c27964e",
+      "url": "https://www.newarab.com/news/trump-ends-decades-old-restrictions-direct-us-lebanon-flights",
+      "published_at": "2026-10-10T15:44:48+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_51f0e0485c27964e",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962141/after-trumps-decision-when-will-direct-flights-between-lebanon-and-the/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962141",
+      "published_at": "2026-10-10T14:10:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10111002-07",
+    "title": "שיחה בין ראשי המטות של טורקיה וסוריה",
+    "summary": "ראש המטה הכללי הטורקי שוחח עם עמיתו הסורי על הקשרים בין הצבאות ועל סוגיות אזוריות.",
+    "axis": "המישור המדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T16:17:26+00:00",
+    "last_update_at": "2026-10-10T16:17:26+00:00",
+    "what_is_not_verified": "תוכן השיחה לא פורסם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-military-chiefs-discuss-bilateral-ties-regional-issues/4084623",
+      "published_at": "2026-10-10T16:17:26+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק והנפגעים בתקיפות בדרום לבנון",
+   "זהות העצם האווירי שחדר לשטח ישראל ומקורו"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "למנוע חדירות לשטחה ולפעול נגד איומים בדרום לבנון"
+    ],
+    "inferred": [
+     "לשחוק את יכולות חיזבאללה ליד הגבול בלי להגיע למלחמה מלאה"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות בדרום לבנון בימים הקרובים"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "לשמר את יכולותיו ולהימנע מתגובה רחבה"
+    ],
+    "forecast": [
+     "סבירות נמוכה לתגובה משמעותית בטווח הקצר"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "לפתוח מחדש קווי תעופה ישירים עם לבנון"
+    ],
+    "inferred": [
+     "לחזק את מוסדות המדינה הלבנונית מול חיזבאללה"
+    ],
+    "forecast": []
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136882/",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-military-chiefs-discuss-bilateral-ties-regional-issues/4084623",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962141/after-trumps-decision-when-will-direct-flights-between-lebanon-and-the/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962141",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-ends-decades-old-restrictions-direct-us-lebanon-flights",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131720",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25326",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956956",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1ptysdime",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   }
+  ]
+ }
+}

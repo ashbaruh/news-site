@@ -1,0 +1,421 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ba71bb559dab",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 4,
+   "verified": 2,
+   "initial": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-11T10:02:37+00:00",
+  "window": {
+   "from": "2026-10-10T10:02:37+00:00",
+   "to": "2026-10-11T10:02:37+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "iran-claude-202610111002"
+  },
+  "summary": "המצור הימי האמריקאי על איראן נמשך ומחריף: מטוס קרב השבית ספינת מטען במפרץ עומאן, ופיקוד המרכז מסר שמאז יולי הוסטו 135 כלי שיט והושבתו ארבעה. בוושינגטון שוקלים לחדש את התקיפות על איראן אחרי התקיפה הקטלנית של החות'ים בריאד, בעוד שבישראל מעריכים שלא תהיה תקיפה יזומה לפני הבחירות. טהראן מגיבה בעיקר בזירה הדיפלומטית והמשפטית, ומתמודדת עם לחץ כלכלי גובר על נתיבי הסחר שלה.",
+  "fronts": [
+   {
+    "name": "המצור הימי",
+    "status": "ארה\"ב אוכפת מצור על ספינות שיוצאות מאיראן או מגיעות אליה, כולל ירי לעבר ספינות שלא מצייתות; 19 מכליות איראניות תקועות מול סרי לנקה."
+   },
+   {
+    "name": "איום בחידוש התקיפות",
+    "status": "הממשל האמריקאי בוחן חידוש תקיפות על איראן לצד תקיפות על החות'ים; לפי דיווח בישראל, ארה\"ב לחצה על ישראל לתקוף לבדה והמהלך נבלם."
+   },
+   {
+    "name": "לחץ כלכלי",
+    "status": "עלויות ההובלה מטורקיה לאיראן זינקו פי חמישה בחודשיים, וטהראן מרחיבה צעדי פיקוח מחירים לכל המדינה."
+   },
+   {
+    "name": "דיפלומטיה ומשפט",
+    "status": "איראן מקדמת תביעות בעקבות התקיפה בבית הספר במינאב, ורוסיה העבירה לטראמפ את עמדת טהראן לגבי הסדר אפשרי."
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10111002-01",
+    "title": "מטוס קרב אמריקאי השבית ספינת מטען שניסתה לעקוף את המצור",
+    "summary": "פיקוד המרכז האמריקאי הודיע שמטוס קרב פגע בירכתי ספינת מטען שהפליגה מנמל איראני במפרץ עומאן, אחרי שהצוות התעלם מאזהרות. לפי ההודעה מערכת ההנעה הושבתה והצוות לא נפגע. רשות הסחר הימי הבריטית בודקת את האירוע.",
+    "axis": "המצור הימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T01:46:41+00:00",
+    "last_update_at": "2026-10-11T05:45:01+00:00",
+    "what_is_not_verified": "מצב הצוות והנזק לספינה מבוססים על ההודעה האמריקאית בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade",
+      "published_at": "2026-10-11T01:46:41+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman?traffic_source=rss",
+      "published_at": "2026-10-11T03:13:53+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-probes-gulf-oman-incident-after-centcom-strike",
+      "published_at": "2026-10-11T03:47:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131703",
+      "published_at": "2026-10-11T05:45:01+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1aqod00szx",
+      "published_at": "2026-10-11T03:43:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111002-02",
+    "title": "פיקוד המרכז: 135 ספינות הוסטו וארבע הושבתו מאז יולי",
+    "summary": "לפי נתוני פיקוד המרכז האמריקאי, מאז שהמצור הימי על איראן חודש ב-14 ביולי הוסטו 135 כלי שיט מסחריים מנתיבם וארבעה הושבתו בכוח.",
+    "axis": "המצור הימי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T01:34:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T01:34:34+00:00",
+    "last_update_at": "2026-10-11T01:34:34+00:00",
+    "what_is_not_verified": "הנתונים מגיעים מהצבא האמריקאי ולא נבדקו באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-four-ships-disabled-135-redirected-14-july",
+      "published_at": "2026-10-11T01:34:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111002-03",
+    "title": "סרי לנקה לא תסייע ל-19 מכליות איראניות התקועות מול חופיה",
+    "summary": "ממשלת סרי לנקה הבהירה שבשלב זה לא תעניק סיוע למכליות האיראניות שעוגנות מול חופיה, למרות דיווחים על מחסור במזון, מים ודלק על סיפונן.",
+    "axis": "המצור הימי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:25:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:25:09+00:00",
+    "last_update_at": "2026-10-11T08:25:09+00:00",
+    "what_is_not_verified": "מצב הצוותים על המכליות לא אומת ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131715",
+      "published_at": "2026-10-11T08:25:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קולומבו",
+      "lat": 6.9389,
+      "lon": 79.8542
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111002-04",
+    "title": "ארה\"ב שוקלת לחדש תקיפות על איראן",
+    "summary": "אחרי התקיפה הקטלנית על נמל התעופה בריאד, הנשיא טראמפ העלה אפשרות להצטרף לתקיפות נגד החות'ים וגם לחדש את התקיפות על איראן עצמה.",
+    "axis": "איום בחידוש התקיפות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T00:00:13+00:00",
+    "last_update_at": "2026-10-11T04:19:54+00:00",
+    "what_is_not_verified": "לא התקבלה החלטה רשמית; מדובר באמירות ובדיונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610118579",
+      "published_at": "2026-10-11T04:19:54+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+      "published_at": "2026-10-11T00:00:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111002-05",
+    "title": "בכיר ישראלי: לא צפויה תקיפה יזומה באיראן לפני הבחירות",
+    "summary": "גורם ישראלי בכיר העריך שישראל לא תפתח במהלך צבאי חדש נגד איראן לפני הבחירות, כל עוד טהראן לא תבצע צעד חריג.",
+    "axis": "איום בחידוש התקיפות",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T17:38:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T17:38:08+00:00",
+    "last_update_at": "2026-10-10T17:38:08+00:00",
+    "what_is_not_verified": "הערכה של גורם עלום, לא הודעה רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956963",
+      "published_at": "2026-10-10T17:38:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111002-06",
+    "title": "דיווח: ארה\"ב לחצה על ישראל לתקוף באיראן לבדה, והרמטכ\"ל בלם",
+    "summary": "לפי דיווח בוואלה, בשיחות בין הצדדים בשבועיים האחרונים ביקשו האמריקאים שישראל תתקוף באיראן בלי שילוב כוחות אמריקאיים, והמהלך נעצר בהתנגדות הרמטכ\"ל.",
+    "axis": "איום בחידוש התקיפות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T12:55:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T12:55:57+00:00",
+    "last_update_at": "2026-10-10T12:55:57+00:00",
+    "what_is_not_verified": "הדיווח מבוסס על מקורות עלומים ולא אושר רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956914",
+      "published_at": "2026-10-10T12:55:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111002-07",
+    "title": "עלות ההובלה מטורקיה לאיראן זינקה פי חמישה",
+    "summary": "לפי כלי תקשורת איראניים, מחיר הובלת סחורה מנמלי טורקיה לאיראן עלה לכ-8,000 דולר תוך פחות מחודשיים, על רקע לחץ אמריקאי על אנקרה לחסום את נתיבי הסחר היבשתיים.",
+    "axis": "לחץ כלכלי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T02:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T02:00:00+00:00",
+    "last_update_at": "2026-10-11T02:00:00+00:00",
+    "what_is_not_verified": "הנתון מבוסס על דיווחים בתקשורת האיראנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610114328",
+      "published_at": "2026-10-11T02:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111002-08",
+    "title": "איראן מקדמת הליכים משפטיים בעקבות התקיפה במינאב",
+    "summary": "סגן שר החוץ האיראני אמר שטהראן פועלת בערכאות בחו\"ל נגד האחראים לתקיפה על בית הספר במינאב, וסגנית הנשיא קראה לעולם לא לשכוח את האירוע.",
+    "axis": "דיפלומטיה ומשפט",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:55:41+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:55:41+00:00",
+    "last_update_at": "2026-10-11T09:24:02+00:00",
+    "what_is_not_verified": "לא פורט באילו ערכאות ונגד מי יוגשו התביעות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_d2f9d42cd168f70d",
+      "url": "https://en.irna.ir/news/86289241/Iran-pursuing-legal-action-over-Minab-school-attack-Deputy-FM",
+      "published_at": "2026-10-11T08:55:41+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_96ac49bfd5fa4cf8",
+      "url": "https://en.irna.ir/news/86289337/VP-World-must-not-forget-Minab-incident",
+      "published_at": "2026-10-11T09:24:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מינאב",
+      "lat": 27.1506,
+      "lon": 57.0753
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111002-09",
+    "title": "הקרמלין: פוטין העביר לטראמפ את עמדת איראן לגבי הסדר",
+    "summary": "בשיחה בין שני הנשיאים מסר פוטין, בתיאום עם טהראן, את עמדתה בנוגע לאפשרות להגיע להסדר.",
+    "axis": "דיפלומטיה ומשפט",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T11:42:53+00:00",
+    "last_update_at": "2026-10-10T12:30:21+00:00",
+    "what_is_not_verified": "תוכן העמדה האיראנית לא פורסם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+      "published_at": "2026-10-10T12:30:21+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48415",
+      "published_at": "2026-10-10T11:42:53+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הנזק המדויק לספינה שהושבתה במפרץ עומאן ומצב הצוות",
+   "הדיווח שארה\"ב דרשה מישראל לתקוף את איראן לבדה מבוסס על מקורות עלומים",
+   "תוכן העמדה האיראנית שהועברה דרך פוטין לא פורסם"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "לאכוף את המצור הימי על איראן",
+     "לשקול הצטרפות לתקיפות נגד החות'ים"
+    ],
+    "inferred": [
+     "להגביר לחץ כלכלי כדי לכפות הסדר בלי לחדש מלחמה מלאה"
+    ],
+    "forecast": [
+     "השבתות נוספות של ספינות צפויות; חידוש תקיפות על איראן תלוי בהתפתחות מול החות'ים"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "לפעול משפטית נגד האחראים לתקיפה במינאב",
+     "לשמור על אחדות לאומית מול הלחץ"
+    ],
+    "inferred": [
+     "להימנע מהסלמה ישירה ולהישען על שלוחות ועל תיווך רוסי"
+    ],
+    "forecast": [
+     "המשך מאמצים לעקוף את המצור דרך נתיבים יבשתיים, למרות העלות הגבוהה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "להימנע מפתיחת מהלך צבאי חדש נגד איראן לפני הבחירות, אלא אם תהיה פרובוקציה"
+    ],
+    "forecast": [
+     "סבירות נמוכה לתקיפה ישראלית יזומה בשבועות הקרובים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610114328",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86289337/VP-World-must-not-forget-Minab-incident",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-four-ships-disabled-135-redirected-14-july",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131715",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48415",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956914",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/s1aqod00szx",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   }
+  ]
+ }
+}

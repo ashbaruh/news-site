@@ -1,0 +1,457 @@
+{
+ "status": "draft",
+ "received_sha256_12": "60ed5631fd71",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 2,
+   "shared_root": 5,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-11T10:02:37+00:00",
+  "window": {
+   "from": "2026-10-10T10:02:37+00:00",
+   "to": "2026-10-11T10:02:37+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "ukraine-claude-202610111002"
+  },
+  "summary": "רוסיה ממשיכה במתקפות כבדות על ערים אוקראיניות ועל תשתיות אנרגיה: הפצצה בזפוריז'יה הרגה לפחות 20 בני אדם, ובלילה שוגרו 116 רחפנים. אוקראינה ממשיכה לתקוף מתקני אנרגיה ונתונים ברוסיה. ברקע, עסקת הסולר בין טראמפ לפוטין והקריאה של טראמפ להחליף את זלנסקי יוצרות משבר חריף בין וושינגטון לקייב, וחברי קונגרס משתי המפלגות מתנגדים להקלת הסנקציות.",
+  "fronts": [
+   {
+    "name": "החזית הקרקעית",
+    "status": "221 היתקלויות ביממה, עם הלחימה הקשה ביותר באזור פוקרובסק והוליאיפולה; פינוי ילדים מורחב בקרמטורסק."
+   },
+   {
+    "name": "מתקפות על העורף",
+    "status": "הפצצות על זפוריז'יה, דניפרופטרובסק ומחוז קייב, עם הרוגים ופגיעה בתשתיות."
+   },
+   {
+    "name": "תקיפות אוקראיניות ברוסיה",
+    "status": "תקיפות על מרכזי נתונים, מתקני אנרגיה ויחידות לוגיסטיות; הרוג במחוז בריאנסק לפי המושל הרוסי."
+   },
+   {
+    "name": "וושינגטון–קייב",
+    "status": "עסקת הסולר עם רוסיה והקריאה להחלפת זלנסקי מעוררות התנגדות בקייב ובקונגרס."
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10111002-01",
+    "title": "לפחות 20 הרוגים בהפצצה רוסית על זפוריז'יה",
+    "summary": "פצצות דאייה רוסיות פגעו בזפוריז'יה והרגו לפחות 20 בני אדם, בהם ילדים. זלנסקי קשר את המתקפה לעסקת הסולר שנחתמה בין ארה\"ב לרוסיה.",
+    "axis": "מתקפות על העורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T20:51:12+00:00",
+    "last_update_at": "2026-10-10T20:51:12+00:00",
+    "what_is_not_verified": "מספר ההרוגים עשוי להשתנות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T20:51:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-02",
+    "title": "הרוגים ופצועים במתקפות ברחבי אוקראינה; מחסנים עלו באש ליד קייב",
+    "summary": "ביממה האחרונה נהרגו לפחות שניים ונפצעו כ-25 ברחבי המדינה. במחוז קייב נפגעו 37 מבנים, ומחסנים של חברה תעשייתית עלו באש באזור בוצ'ה. במחוז דניפרופטרובסק נהרג ילד.",
+    "axis": "מתקפות על העורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T22:51:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T22:51:10+00:00",
+    "last_update_at": "2026-10-11T08:02:00+00:00",
+    "what_is_not_verified": "מספרי הנפגעים מבוססים על הרשויות המקומיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-25-across-ukraine-as-moscow-targets-energy-infrastructure-around-kyiv/",
+      "published_at": "2026-10-11T08:02:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173194-russian-attacks-in-kyiv-region-leave-four-people-injured-over-past-day-37-sites-damaged.html",
+      "published_at": "2026-10-11T07:39:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057430/",
+      "published_at": "2026-10-11T07:42:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+      "published_at": "2026-10-10T22:51:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בוצ'ה",
+      "lat": 50.5503,
+      "lon": 30.2107
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-03",
+    "title": "94 מתוך 116 רחפנים יורטו בלילה",
+    "summary": "חיל האוויר האוקראיני מסר שמערכות ההגנה הפילו או שיבשו 94 מתוך 116 רחפנים ששוגרו מאז ערב שבת.",
+    "axis": "מתקפות על העורף",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:50:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T06:50:00+00:00",
+    "last_update_at": "2026-10-11T06:50:00+00:00",
+    "what_is_not_verified": "הנתונים של חיל האוויר האוקראיני לא נבדקו באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173175-ukraines-air-defenses-down-94-of-116-russian-drones-launched-against-ukraine-overnight.html",
+      "published_at": "2026-10-11T06:50:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10111002-04",
+    "title": "רחפן רוסי פגע באמבולנס במחוז סומי",
+    "summary": "נהג ופרמדיק נפצעו כשרחפן רוסי תקף רכב חירום רפואי במחוז סומי.",
+    "axis": "מתקפות על העורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:59:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T08:59:00+00:00",
+    "last_update_at": "2026-10-11T08:59:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173221-russian-drone-hits-ambulance-in-sumy-region-injuring-two-medical-workers.html",
+      "published_at": "2026-10-11T08:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-05",
+    "title": "221 היתקלויות בחזית; הלחימה הקשה ביותר ליד פוקרובסק",
+    "summary": "המטה הכללי האוקראיני דיווח על 221 קרבות ביממה, עם הלחימה העזה ביותר בכיווני פוקרובסק והוליאיפולה. בקרמטורסק הורחב האזור שממנו חובה לפנות ילדים.",
+    "axis": "החזית הקרקעית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:10:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T06:10:00+00:00",
+    "last_update_at": "2026-10-11T08:51:00+00:00",
+    "what_is_not_verified": "הנתונים מבוססים על המטה הכללי האוקראיני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173168-war-update-221-clashes-on-front-line-over-past-day-fiercest-fighting-in-pokrovsk-and-huliaipole-sectors.html",
+      "published_at": "2026-10-11T06:10:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057437/",
+      "published_at": "2026-10-11T08:51:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק",
+      "lat": 48.2771,
+      "lon": 37.1772
+     },
+     {
+      "name": "קרמטורסק",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-06",
+    "title": "מרכז נתונים שלישי של יאנדקס הושבת אחרי תקיפת רחפנים",
+    "summary": "מרכז הנתונים של החברה בעיר ולדימיר הפסיק לפעול אחרי תקיפה אוקראינית. יאנדקס עדכנה את תנאי השימוש שלה כך שתקיפות רחפנים וטילים נחשבות לכוח עליון.",
+    "axis": "תקיפות אוקראיניות ברוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T02:10:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T02:10:39+00:00",
+    "last_update_at": "2026-10-11T03:32:31+00:00",
+    "what_is_not_verified": "היקף הנזק במרכז הנתונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/third-yandex-data-center-in-russia-shut-down-following-reported-drone-attack/",
+      "published_at": "2026-10-11T03:32:31+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48438",
+      "published_at": "2026-10-11T02:10:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ולדימיר",
+      "lat": 56.1289,
+      "lon": 40.4075
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-07",
+    "title": "אוקראינה: תקפנו יחידת תיקונים ומחסנים רוסיים",
+    "summary": "כוחות ההגנה האוקראיניים מסרו שתקפו במהלך הלילה יחידת תיקונים צבאית, מחסני אספקה וריכוזי כוחות רוסיים. לפי מושל בריאנסק הרוסי, אזרח נהרג מתקיפת רחפן במחוז.",
+    "axis": "תקיפות אוקראיניות ברוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T07:15:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T07:15:06+00:00",
+    "last_update_at": "2026-10-11T08:38:00+00:00",
+    "what_is_not_verified": "תוצאות התקיפות לא אומתו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173219-ukrainian-defense-forces-strike-russian-repair-unit-supply-depots-and-troop-concentration-areas.html",
+      "published_at": "2026-10-11T08:38:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2200471",
+      "published_at": "2026-10-11T07:15:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריאנסק",
+      "lat": 53.2789,
+      "lon": 34.3659
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10111002-08",
+    "title": "טראמפ: אוקראינה צריכה מנהיג חדש",
+    "summary": "יום אחרי שהכריז על עסקה לרכישת סולר רוסי, אמר טראמפ שזלנסקי לא עשה מספיק כדי לסיים את המלחמה ושאוקראינה צריכה נשיא אחר. שר החוץ האוקראיני השיב שלזלנסקי יש תמיכה ציבורית.",
+    "axis": "וושינגטון–קייב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T17:32:36+00:00",
+    "last_update_at": "2026-10-11T01:47:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+      "published_at": "2026-10-10T20:42:55+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/10/trump-calls-on-ukraine-to-replace-zelensky",
+      "published_at": "2026-10-10T17:32:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/11/ukraine-war-briefing-zelenskyy-support-people-trump-call-new-president",
+      "published_at": "2026-10-11T01:47:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10111002-09",
+    "title": "עסקת הסולר עם רוסיה: זלנסקי זועם, הקונגרס מתנגד",
+    "summary": "טראמפ הודיע על רכישת סולר רוסי כדי להוריד את מחירי הדלק. זלנסקי כינה זאת השקעה בהמשך המלחמה, וחברי קונגרס משתי המפלגות הזכירו לנשיא את חוק הסנקציות של גרהם.",
+    "axis": "וושינגטון–קייב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T10:09:46+00:00",
+    "last_update_at": "2026-10-11T08:57:00+00:00",
+    "what_is_not_verified": "פרטי העסקה המלאים לא פורסמו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T14:24:14+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+      "published_at": "2026-10-10T10:09:46+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057438/",
+      "published_at": "2026-10-11T08:57:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "נתוני האבדות הרוסיות שמפרסם המטה האוקראיני",
+   "טענת רוסיה על כוונה אוקראינית להשתמש בנשק כימי",
+   "תוצאות התקיפות האוקראיניות על יעדים צבאיים ברוסיה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1206,
+    "unit": "USD",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [],
+    "inferred": [
+     "לשחוק את תשתיות האנרגיה של אוקראינה לקראת החורף",
+     "לנצל את המתח בין וושינגטון לקייב"
+    ],
+    "forecast": [
+     "המשך מתקפות רחפנים וטילים על ערים ותשתיות"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להמשיך לפגוע במתקני אנרגיה ברוסיה",
+     "להגן על האוכלוסייה בקווי החזית"
+    ],
+    "inferred": [
+     "להפעיל לחץ כלכלי על רוסיה כמשקל נגד לעסקת הסולר"
+    ],
+    "forecast": [
+     "תקיפות נוספות על תשתיות ברוסיה"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "להוריד את מחירי הדלק",
+     "לקדם הסכם לסיום המלחמה"
+    ],
+    "inferred": [
+     "ללחוץ על קייב להתפשר"
+    ],
+    "forecast": [
+     "התנגדות בקונגרס עלולה לעכב את הקלת הסנקציות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/third-yandex-data-center-in-russia-shut-down-following-reported-drone-attack/",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/10/trump-calls-on-ukraine-to-replace-zelensky",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057438/",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2200471",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48438",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4173219-ukrainian-defense-forces-strike-russian-repair-unit-supply-depots-and-troop-concentration-areas.html",
+    "accessed_at": "2026-10-11T10:02:37+00:00"
+   }
+  ]
+ }
+}
