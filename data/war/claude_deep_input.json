@@ -1,21 +1,35 @@
 {
- "collected_at": "2026-10-11T09:56:59+00:00",
+ "collected_at": "2026-10-11T10:08:42+00:00",
  "window_hours": 24,
  "arenas": {
   "iran": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+    "published_at": "2026-10-11T10:05:41+00:00",
+    "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
+    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis An American citizen was among the 12 killed in the airport attack yesterday. For weeks now there’s been speculation over whether the US will join Saudi Arabia in carrying out air strikes against the Iran-backed Houthis in Yemen. When fighting recommenced last month with the Houthis, Saudi Crown ​Prince Mohammed bin Salman had reportedly called Donald Trump requested military assistance. But the US president committed only military intelligence and targeting help rather than send war planes. On Saturday, following the deadly airport attack, Trump was asked by reporters if the US would take a more active position and join in the Saudi strikes. “We may. We’re going to look at it. We just found out about the recent attack, so we’ll make a decision. We move very quickly,” he said. He later said he also planned to speak with Saudi Arabia’s leader. Asked again by reporters if the U.S. might get involved, Trump responded, “We’ll find out.” Continue reading..."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-gharibabadi-says-minab-school-attackers-must-face-justice",
+    "published_at": "2026-10-11T10:03:42+00:00",
+    "title": "Iran’s Gharibabadi says Minab school attackers must face justice",
+    "text": "Iran’s Gharibabadi says Minab school attackers must face justice Iran’s Deputy Foreign Minister Kazem Gharibabadi on Sunday called for the “aggressors” behind the attack on Minab school which took place on the first day of the US-Israeli war on Iran, killing 156 people, including 120 children, to be held accountable through legal proceedings and in “international forums”. “Excellent documentation of this crime has been collected and sent to Tehran, and an indictment has been issued. Some foreign countries have filed lawsuits regarding Minab’s crime,” he said in comments carried by the Iran’s IRIB broadcaster. Gharibabadi added the US had yet to accept responsibility for the attack, despite numberous reports and documents indicating US involvement."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-nuclear-technology-safe-us-attacks-says-atomic-energy-chief",
+    "published_at": "2026-10-11T09:57:02+00:00",
+    "title": "Iranian nuclear technology safe from US attacks, says atomic energy chief",
+    "text": "Iranian nuclear technology safe from US attacks, says atomic energy chief The head of Iran's atomic energy agency said on Sunday that the country's nuclear technology is safe from external disruption and cannot be halted by threats, pressure, or attacks. Mohammad Eslami, the chief of the Atomic Energy Organisation of Iran (AEOI), said Iran's nuclear advances are a national achievement and were a testiment to the dedication of Iranian scientists. “Overt threats by US officials to use tactical weapons against Iran’s nuclear facilities – delivered right from the United Nations podium – and talk of destroying Iran’s ancient civilisation reveal helplessness in the face of a pioneering nation that has historically been the cradle of science, knowledge, and technology,” Eslami was quoted as saying by Iran’s semi-official Tasnim news agency, adding that the nation will not surrender to excessive demands. US President Donald Trump has repeatedly affirmed Washington's intention to wipe out Iran's nuclear capabilities and ensure that the country will never been able to develop the technology."
+   },
    {
     "source_id": "src_irna",
     "url": "https://en.irna.ir/news/86289415/Iran-s-nuclear-chief-challenges-US-double-standards-on-nuclear",
     "published_at": "2026-10-11T09:45:41+00:00",
     "title": "Iran’s nuclear chief challenges US double standards on nuclear technology",
     "text": "Tehran, IRNA – Director of the Atomic Energy Organization of Iran (AEOI) Mohammad Eslami has criticized Washington’s double standards on nuclear technology, questioning why the United States prioritizes expanding its own nuclear capabilities while seeking to deny Iran access to the same technology."
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-    "published_at": "2026-10-11T09:30:40+00:00",
-    "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
-    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis There’s been a strong condemnation of this morning of the Houthi’s deadly strike on Saudi Arabia’s largest airport. Global leaders say attacks on civilians must stop. UN Secretary General Antonio Guterres said he was “deeply shocked” by Saturday’s strike. Continue reading..."
    },
    {
     "source_id": "src_irna",
@@ -64,7 +78,7 @@
     "url": "https://t.me/abualiexpress/131713",
     "published_at": "2026-10-11T07:53:32+00:00",
     "title": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביו",
-    "text": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביום שישי האחרון , כאשר בקאאי ניגש למיקרופון כדי לשאת דברים. תגובה אחת"
+    "text": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביום שישי האחרון , כאשר בקאאי ניגש למיקרופון כדי לשאת דברים. 2 תגובות"
    },
    {
     "source_id": "src_israelhayom",
@@ -144,13 +158,6 @@
     "text": "US military jet strikes stern of commercial cargo ship 'without harming the crew', CENTCOM says."
    },
    {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-measure-stabilise-goods-prices-set-nationwide-rollout-mayor-says",
-    "published_at": "2026-10-11T02:14:46+00:00",
-    "title": "Tehran measure to stabilise goods prices set for nationwide rollout, mayor says",
-    "text": "Tehran measure to stabilise goods prices set for nationwide rollout, mayor says Tehran Mayor Alireza Zakani has said that a municipal initiative to stabilise goods prices and offset the impact of US sanctions will be extended nationwide. Zakani wrote on X that despite Trump and US Treasury Secretary Scott Bessent’s \"economic war on Iranians\", Tehran Municipality launched the “Zero-Inflation Initiative” to freeze essential goods prices for six months. \"This economic shield is set to expand nationwide to counter US pressure,\" he said. On Thursday, Zakani wrote on X: \"Our heartfelt belief is that we are in an all-out war and must do everything in our power to reduce the economic pressure on the people. \"Zero inflation\" is a shield against economic warfare so that people can have greater peace of mind in meeting their essential needs.\" The US launched Operation Economic Outcast in late August, seeking to totally isolate Iran from international trade. People shop for produce at the historic Tajrish Bazaar in northern Tehran. (AFP)"
-   },
-   {
     "source_id": "src_iranintl",
     "url": "https://www.iranintl.com/en/202610114328",
     "published_at": "2026-10-11T02:00:00+00:00",
@@ -163,13 +170,6 @@
     "published_at": "2026-10-11T01:46:41+00:00",
     "title": "US military says it disabled cargo vessel trying to run Iran blockade",
     "text": "Oct 10 (Reuters) - The US militarysaid on Saturday it had disabled a commercial cargo vessel in the Gulf of Oman after the ship's crew ignored warnings and attempted to run a naval blockade against Iran. \"AU.S. military fighter jet struck the stern of Panama-flagged M/V Ocean Molica (also known as the “Arika Sun”) with a precision munition, fully disabling the ship’s propulsion without harming the crew,\" the US Central Commandposted on X. CENTCOM said the cargo vessel had attempted to transit regional waters after leaving an Iranian port."
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-four-ships-disabled-135-redirected-14-july",
-    "published_at": "2026-10-11T01:34:34+00:00",
-    "title": "Centcom says four ships disabled, 135 redirected since 14 July",
-    "text": "Centcom says four ships disabled, 135 redirected since 14 July US Central Command (Centcom) has said it has redirected 135 commercial vessels and disabled four since the resumption of the US naval blockade against Iran on 14 July. “US forces have destroyed 10 tankers linked to the Islamic Revolutionary Guard Corps’ multibillion-dollar shadow network over the same period,” Centcom said on X. All mariners are advised to heed blockade warnings from CENTCOM forces. Crews should also continue to monitor Notice to Mariners broadcasts and contact U.S. naval forces on bridge-to-bridge channel 16 when operating in the Gulf of Oman and Strait of Hormuz approaches."
    },
    {
     "source_id": "src_aljazeera",
@@ -287,6 +287,13 @@
   "north": [
    {
     "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136892/",
+    "published_at": "2026-10-11T10:08:19+00:00",
+    "title": "MP Fadlallah Reiterates Plan to House the Displaced: Resistance, Geopolitical Changes to Impose Israeli Withdrawal from South Lebanon",
+    "text": "Member of “Loyalty to Resistance” bloc, MP Hassan Fadlallah, emphasized that the goal of the housing program launched by Hezbollah Secretary-General Sheikh Naim Qassem is to alleviate the displacement crisis as much as possible. He stated that this decision will be implemented, fulfilling a promise and commitment previously initiated by Sayyed Hassan Nasrallah and whose details were executed by Sayyed Hashem Safieddine. He added that it will now be completed, God willing, regardless of challenges, difficulties, or blockages. He added: “However, this does not absolve the government of its responsibilities; it is the party concerned with working to compensate the affected and rebuild. We will continue our efforts with the government and its Prime Minister to fulfill their duty independently of political disputes, because this file must be kept away from any political considerations.” Fadlallah pointed out that “since this announcement, the US administration has mobilized through a State Department statement and statements by its officials. However, we are unconcerned by their mobilization, stances, and statements. We have a goal that is no less important to us than the goal of liberating the south through appropriate means that preserve sovereignty and protect the sacrifices of the martyrs: standing by the people and striving to alleviate their pain and suffering. Anything offered to them does not equal a single drop of the martyrs’ blood, nor the patience shown through pain, displacement, and loss of property.” MP Fadlallah’s remarks came during a commemorative ceremony held by Hezbollah for the martyrs of the Islamic Resistance from the southern town of Ainat at the Imam al-Mujtaba Complex in Saint Therese. The event was attended by Hezbollah’s Beirut region official, H"
+   },
+   {
+    "source_id": "src_almanar",
     "url": "https://english.almanar.com.lb/article/136882/",
     "published_at": "2026-10-11T09:52:05+00:00",
     "title": "Israeli war jets fly over Beirut and Mount Lebanon at low altitudes: Al-Manar reporter",
@@ -368,13 +375,6 @@
     "published_at": "2026-10-11T07:13:04+00:00",
     "title": "דרום לבנון: ערוצים לבנוניים מדווחים על תקיפות של חיל האוויר הבוקר בכפר תבנית, טלוסה ואלמנצורי. כדי להגיב לכתבה לחצו כאן",
     "text": "דרום לבנון: ערוצים לבנוניים מדווחים על תקיפות של חיל האוויר הבוקר בכפר תבנית, טלוסה ואלמנצורי. כדי להגיב לכתבה לחצו כאן"
-   },
-   {
-    "source_id": "src_almanar",
-    "url": "https://english.almanar.com.lb/article/136807/",
-    "published_at": "2026-10-11T07:00:33+00:00",
-    "title": "Israeli warplanes strike southern Lebanese towns of Tallousa and Kfar Tibnit: Al-Manar reporter",
-    "text": ""
    },
    {
     "source_id": "src_mee",
@@ -568,6 +568,34 @@
   ],
   "ukraine": [
    {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+    "published_at": "2026-10-11T10:03:16+00:00",
+    "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+    "text": "Defence secretary backs Ukrainian president and says priority is to maintain western unity over Russia conflict Britain stands behind Volodymyr Zelenskyy, the defence secretary has said, after Donald Trump called for the Ukrainian president to be replaced and the US announced a controversial agreement to buy Russian diesel. Wes Streeting said Ukrainians alone should be able to decide who led their country as he indicated Trump was facing domestic political pressure over fuel prices ahead of next month’s US midterm elections. Continue reading..."
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2200481",
+    "published_at": "2026-10-11T09:59:58+00:00",
+    "title": "Trump’s remarks about new leader in Ukraine come as surprise to Kiev — German journalist",
+    "text": "According Bild deputy editor-in-chief Paul Ronzheimer, \"Zelensky’s advisers are shocked and speechless over the news from Washington\""
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4173231-mandatory-evacuation-zone-for-children-expanded-in-kramatorsk.html",
+    "published_at": "2026-10-11T09:59:00+00:00",
+    "title": "Mandatory evacuation zone for children expanded in Kramatorsk",
+    "text": "The mandatory forced evacuation zone for children has been expanded to include additional areas of Kramatorsk in Ukraine's Donetsk region."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057442/",
+    "published_at": "2026-10-11T09:37:00+00:00",
+    "title": "Russians strike two apartment blocks in Sloviansk: four injured, people may be trapped under rubble – photos, video",
+    "text": "Four people were injured in Russian strikes on two apartment blocks in the city of Sloviansk in Donetsk Oblast on the morning of 11 October. People may still be trapped under the rubble. Source: Sloviansk Mayor Vadym Liak on Facebook ; President Volodymyr Zelenskyy on Telegram Quote from Liakh: \"At 09:45 on 11 October, the enemy carried out an airstrike on Sloviansk. Two apartment blocks were hit. Four people are currently known to have been injured. They are all receiving medical assistance.\" A destroyed residential building Photo: Vadym Liakh on Facebook Details: Liakh also posted photos and videos from the scene. A damaged residential building Photo: Vadym Liakh on Facebook https://www.facebook.com/100007206281890/videos/pcb.4393178377598995/1113316551083131 Meanwhile, President Volodymyr Zelenskyy said people might be trapped under the rubble. \"This morning, the Russians struck a five-storey apartment building in Sloviansk. One section has been completely destroyed, and people may be trapped under the rubble,\" the president said. Your support on Patreon helps us keep the news free and accessible."
+   },
+   {
     "source_id": "src_kyivind",
     "url": "https://kyivindependent.com/inside-ukraines-world-of-naive-art-and-the-gunia-aesthetic-it-inspired/",
     "published_at": "2026-10-11T09:35:30+00:00",
@@ -652,13 +680,6 @@
     "text": "The Commercial Court of Zaporizhzhia Oblast has ordered the Russian Federation to pay Agro Alliance LLC UAH 101.74 million (US$2.2 million) in damages and lost profits for property lost in temporarily occupied territory. Source: the court's ruling Details: Agro Alliance is registered in the village of Kopani, Zaporizhzhia Oblast. The company grew cereals, legumes and oilseeds and engaged in wholesale grain trading, among other activities. According to the case documents, in early March 2022, Russian troops entered the company's premises while armed, illegally took up residence there and seized its property. The company lost access to its property complex, movable assets and inventory, as well as the ability to conduct business. The court found the claims justified and ordered the full amount to be recovered from the Russian Federation, represented by the Prosecutor General's Office of the Russian Federation. Agro Alliance LLC was established in 2000. Its founders include Volodymyr Dudka, who also heads the company, Oleh Romanenko and Nina Arshukova. Background: The Commercial Court of Luhansk Oblast previously ordered the Russian Federation to pay Trade House Agrokhim LLC UAH 51.67 million (US$1.1 million) in damages for property lost in Svatove in Luhansk Oblast and Kakhovka in Kherson Oblast. Subscribe on Patreon to back our journalism long-term."
    },
    {
-    "source_id": "src_pravda_ua",
-    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057430/",
-    "published_at": "2026-10-11T07:42:00+00:00",
-    "title": "Warehouses catch fire after Russian attack near Kyiv – photos, video",
-    "text": "Warehouses belonging to an industrial company caught fire following a Russian attack on the Bucha district in Kyiv Oblast, and firefighters are still working to extinguish the blaze. Source: Tymur Tkachenko , Head of Kyiv Oblast Military Administration; State Emergency Service of Ukraine on Telegram Quote from Tkachenko: \"Firefighters are still working to extinguish a blaze at an industrial site in the Bucha district. A fire broke out at warehouse premises following a Russian drone attack overnight.\" The fire Photo: State Emergency Service of Ukraine Details: The State Emergency Service added that Russian forces had attacked an industrial facility. Firefighters have contained the blaze, but efforts to extinguish it are ongoing. Firefighters Photo: State Emergency Service of Ukraine \"All emergency services are working at the scene. Early reports indicate that there are no fatalities or injuries,\" Tkachenko concluded. Firefighters Photo: State Emergency Service of Ukraine Subscribe on Patreon to back our journalism long-term."
-   },
-   {
     "source_id": "src_ukrinform",
     "url": "https://www.ukrinform.net/rubric-ato/4173194-russian-attacks-in-kyiv-region-leave-four-people-injured-over-past-day-37-sites-damaged.html",
     "published_at": "2026-10-11T07:39:00+00:00",
@@ -692,20 +713,6 @@
     "published_at": "2026-10-11T06:20:47+00:00",
     "title": "General Staff: Russia has lost 1,552,840 troops in Ukraine since Feb. 24, 2022",
     "text": "The number includes 1,930 casualties that Russian forces suffered over the past day."
-   },
-   {
-    "source_id": "src_tass",
-    "url": "https://tass.com/emergencies/2200461",
-    "published_at": "2026-10-11T06:14:44+00:00",
-    "title": "Kherson Region left without power due to technical malfunction in power grid",
-    "text": "Due to a technical malfunction in the power grid, the Kherson Region has been cut off from power as an emergency measure"
-   },
-   {
-    "source_id": "src_ukrinform",
-    "url": "https://www.ukrinform.net/rubric-ato/4173168-war-update-221-clashes-on-front-line-over-past-day-fiercest-fighting-in-pokrovsk-and-huliaipole-sectors.html",
-    "published_at": "2026-10-11T06:10:00+00:00",
-    "title": "War update: 221 clashes on front line over past day, fiercest fighting in Pokrovsk and Huliaipole sectors",
-    "text": "A total of 221 combat engagements between Ukraine’s Defense Forces and Russian invaders were recorded along the front line over the past 24 hours."
    },
    {
     "source_id": "src_kyivind",
@@ -839,29 +846,29 @@
     "published_at": "2026-10-10T10:09:46+00:00",
     "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
     "text": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine. Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”. Continue reading..."
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-unesco-great-meadow-dnipro-dont-rebuild-dam",
-    "published_at": "2026-10-10T10:00:54+00:00",
-    "title": "Don’t rebuild the dam: Ukrainian experts urge Unesco to protect site uncovered by Russian sabotage",
-    "text": "As archaeologists find treasure trove along new floodplain, conservationists say another Nova Kakhovka would be ecocide On a warm September day, a group of underwater archaeologists and researchers were boiling water for tea on their campfire on the banks of the Dnipro River, tents pitched on the sandy shoreline. They were three weeks into an archaeological expedition of the waters around Khortytsia – a rocky island 12.5km long and 2.5km wide that lies just downstream of the city of Zaporizhzhia, in south-eastern Ukraine. High above the island, a Shahed drone whined on its way. A Ukrainian interceptor, and small-arms fire from the ground, tried, unsuccessfully, to bring it down. The archaeologists ignored it. This is life as normal, 28 miles (45km) from the combat zone in Russia’s war on Ukraine. Continue reading..."
    }
   ],
   "yemen": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+    "published_at": "2026-10-11T10:05:41+00:00",
+    "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
+    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis An American citizen was among the 12 killed in the airport attack yesterday. For weeks now there’s been speculation over whether the US will join Saudi Arabia in carrying out air strikes against the Iran-backed Houthis in Yemen. When fighting recommenced last month with the Houthis, Saudi Crown ​Prince Mohammed bin Salman had reportedly called Donald Trump requested military assistance. But the US president committed only military intelligence and targeting help rather than send war planes. On Saturday, following the deadly airport attack, Trump was asked by reporters if the US would take a more active position and join in the Saudi strikes. “We may. We’re going to look at it. We just found out about the recent attack, so we’ll make a decision. We move very quickly,” he said. He later said he also planned to speak with Saudi Arabia’s leader. Asked again by reporters if the U.S. might get involved, Trump responded, “We’ll find out.” Continue reading..."
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/other/article/21597207",
+    "published_at": "2026-10-11T09:53:48+00:00",
+    "title": "אתיופיה: המורדים והצבא האריתראי מוכים ונסוגים",
+    "text": "דיווחים במדינה האפריקנית על הגעה של כוחות הצבא הפדרלי סמוך לגבול האריתראי • אסמרה ביקשה מהאו\"ם להתערב ולמנוע \"תוקפנות אתיופית\" • אתמול נפלה העיר אדיגראט לידי כוחותיה של אדיס אבבה והם מתקדמים לעבר מעוז המורדים התיגראים האחרון בעיר אקסום"
+   },
    {
     "source_id": "src_tg_abualiexpress",
     "url": "https://t.me/abualiexpress/131719",
     "published_at": "2026-10-11T09:46:38+00:00",
     "title": "סעודיה: בעקבות מתקפת החות'ים אתמול על שדה התעופה הבינ\"ל, משרד החינוך הסעודי הנחה כי הלימודים בבתי הספר ייערכו בזום... אי",
     "text": "סעודיה: בעקבות מתקפת החות'ים אתמול על שדה התעופה הבינ\"ל, משרד החינוך הסעודי הנחה כי הלימודים בבתי הספר ייערכו בזום... אין לימוד פרונטלי. תגובה אחת"
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-    "published_at": "2026-10-11T09:30:40+00:00",
-    "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
-    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis There’s been a strong condemnation of this morning of the Houthi’s deadly strike on Saudi Arabia’s largest airport. Global leaders say attacks on civilians must stop. UN Secretary General Antonio Guterres said he was “deeply shocked” by Saturday’s strike. Continue reading..."
    },
    {
     "source_id": "src_israelhayom",
@@ -1121,13 +1128,6 @@
     "published_at": "2026-10-10T12:00:56+00:00",
     "title": "In three years, Israel's war on Gaza hasn't just changed the Middle East, it's changed the world | Steve Bloomfield",
     "text": "A whirlpool of violence has engulfed everywhere from Lebanon to Yemen. Meanwhile, the west has destroyed any political authority it once had There was a world before 7 October, 2023, and now there is a world after. For Gaza, for Israel, for the wider Middle East, and for everyone else too. Not all hinge points in history are obvious at the time. Three years on from the day it began, and precisely one year since a supposed ceasefire was agreed, this one is now impossible to ignore. The before-and-after pictures tell part of the story. An update to Google Maps, released last week , underscores just what three years of relentless Israeli military onslaught has done to Gaza. Satellite images show how entire towns have been reduced to rubble. Mosques and hospitals, visible three years ago, have now disappeared. Meanwhile the once-empty shoreline is now crammed with tents. This is what it looks like when an attempt has been made to destroy a people. Steve Bloomfield is the former international editor of the Observer Continue reading..."
-   },
-   {
-    "source_id": "src_newarab",
-    "url": "https://www.newarab.com/news/yemen-govt-say-advancing-against-houthis-around-bab-al-mandeb",
-    "published_at": "2026-10-10T11:40:28+00:00",
-    "title": "Yemen govt say advancing against Houthis around Bab al-Mandeb",
-    "text": "Yemen's military is advancing against the Houthis in areas around the Bab al-Mandab strait but has not yet secured control of the waterway, after the government launched an operation to recapture lost territory, according to military sources speaking to AFP . The Saudi-backed government last week announced a counter-offensive aimed at retaking all areas held by the Houthis, after the pro-Iran group seized Yemen's entire western coastline in a lightning offensive. The Houthis confirmed that government forces had attacked in the Bab al-Mandeb area, but they claimed to have repelled the assault. Sources from the military of Yemen's internationally recognised government also said Mayun Island in the heart of the strait remained in Houthi hands as fighting continued. Clashes in western Yemen, specifically around the strait, had killed at least 63 people in the past 24 hours, military sources from both sides told AFP on Saturday. Thirty-five members of government forces had been killed, while 28 Houthis had died, the sources said. Claims by the warring parties have been impossible to independently verify, with the situation moving fast on the ground and access for journalists difficult. On Friday, a Yemeni military source within the government confirmed to AFP that their forces had launched a \"major operation\" in the strait region, supported by air power from Saudi Arabia, which backs Yemen's government. Military spokesman Yahya Saree said on Telegram that the Houthis had succeeded in \"driving back the Saudi-aligned troop concentrations that attempted to advance from the direction of Lahj towards Bab al-Mandeb\". After four years of relative calm, Yemen's civil war reignited in July before the Houthi gains on Yemen's western coastline. Saudi Arabia leads an international milit"
    }
   ]
  }
