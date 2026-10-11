@@ -12,7 +12,9 @@ window.DB.config = {
   brand: {
     site_name: 'חדר מצב',            // placeholder — שם זמני
     tagline: 'דף הבית האישי שלי',
-    domain: 'example.com'            // placeholder
+    domain: 'example.com',           // placeholder
+    // הכתובת הציבורית — לכפתורי השיתוף (כשהאתר נפתח כקובץ/במחשב). במעבר כתובת: לשנות רק כאן.
+    public_url: 'https://ashbaruh.github.io/news-site/'
   },
 
   /* ---- הפרויקט ב-GitHub (לכפתורי העריכה בדף ההגדרות) ---- */

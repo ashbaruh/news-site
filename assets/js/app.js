@@ -107,13 +107,14 @@
   }
 
   /* ---------- שלד פינה ---------- */
-  function corner(num, title, key, innerHTML, wide, stateOverride) {
+  function corner(num, title, key, innerHTML, wide, stateOverride, headExtra) {
     return '' +
       '<section class="corner' + (wide ? ' wide' : '') + '">' +
         '<header>' +
           '<span class="num">' + num + '</span>' +
           '<h2>' + esc(title) + '</h2>' +
           freshTag(key, stateOverride) +
+          (headExtra || '') +
         '</header>' +
         '<div class="body">' + innerHTML + '</div>' +
       '</section>';
@@ -161,6 +162,54 @@
     return F.evaluate('wars', latest, latest ? true : undefined, true);
   }
 
+  /* ---------- שיתוף: וואטסאפ / טלגרם / שיתוף מובנה בנייד / העתקת קישור ----------
+     הקישור כולל את הזירה הפתוחה (#arena=iran), כך שמי שמקבל אותו נוחת ישר עליה. */
+  function siteUrl() {
+    var local = location.protocol === 'file:' || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+    return local ? (C.brand.public_url || '') : location.origin + location.pathname;
+  }
+
+  function shareBar(arena) {
+    var url = siteUrl() + (arena ? '#arena=' + arena.id : '');
+    var text = arena ? C.brand.site_name + ' · ' + arena.name + ' — עדכונים, עם הפרדה בין מאומת ללא מאומת'
+                     : C.brand.site_name + ' — עדכוני מלחמות וגיאופוליטיקה במקום אחד';
+    var enc = encodeURIComponent;
+    return '<div class="share-bar" data-url="' + esc(url) + '" data-text="' + esc(text) + '">' +
+      '<a class="sh wa" href="https://wa.me/?text=' + enc(text + '\n' + url) + '" target="_blank" rel="noopener noreferrer" aria-label="שיתוף בוואטסאפ">וואטסאפ</a>' +
+      '<a class="sh tg" href="https://t.me/share/url?url=' + enc(url) + '&text=' + enc(text) + '" target="_blank" rel="noopener noreferrer" aria-label="שיתוף בטלגרם">טלגרם</a>' +
+      (navigator.share ? '<button type="button" class="sh native" aria-label="שיתוף">שיתוף…</button>' : '') +
+      '<button type="button" class="sh copy" aria-label="העתקת קישור">העתק קישור</button>' +
+      '</div>';
+  }
+
+  function bindShare(root) {
+    var bar = root && root.querySelector('.share-bar');
+    if (!bar) return;
+    var url = bar.dataset.url, text = bar.dataset.text;
+    var nat = bar.querySelector('.native');
+    if (nat) nat.addEventListener('click', function () {
+      navigator.share({ title: C.brand.site_name, text: text, url: url }).catch(function () { /* המשתמש ביטל */ });
+    });
+    var cp = bar.querySelector('.copy');
+    cp.addEventListener('click', function () {
+      function done() { cp.textContent = 'הועתק ✓'; setTimeout(function () { cp.textContent = 'העתק קישור'; }, 1800); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, function () { window.prompt('להעתקה:', url); });
+      } else { window.prompt('להעתקה:', url); }
+    });
+  }
+
+  /* זירה מתוך הקישור: #arena=iran */
+  function arenaFromHash() {
+    var m = /(?:^#|&)arena=([a-z0-9_-]+)/i.exec(location.hash || '');
+    return m && C.arenas.some(function (a) { return a.id === m[1]; }) ? m[1] : null;
+  }
+  activeArena = arenaFromHash() || 'all';
+  window.addEventListener('hashchange', function () {
+    var a = arenaFromHash();
+    if (a && a !== activeArena) { activeArena = a; renderWars(); }
+  });
+
   function renderWars() {
     var arena = activeArena === 'all' ? null : (C.arenas.filter(function (a) { return a.id === activeArena; })[0] || null);
     if (!arena) activeArena = 'all';
@@ -175,8 +224,9 @@
       var all = allFeed();
       $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars',
         '<div class="arena-tabs">' + tabs + '</div><div class="feed">' +
-        (all || '<p class="locked">אין עדיין ידיעות.</p>') + '</div>', true, warsState());
+        (all || '<p class="locked">אין עדיין ידיעות.</p>') + '</div>', true, warsState(), shareBar(null));
       bindWarTabs();
+      bindShare($('#wars-slot'));
       return;
     }
     var pub = publishedFor(arena.id);
@@ -189,8 +239,9 @@
     }
     html += '</div>' + (pub ? deepBox(pub) : '');
 
-    $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState());
+    $('#wars-slot').innerHTML = corner(1, 'מלחמות / גיאופוליטיקה', 'wars', html, true, warsState(), shareBar(arena));
     bindWarTabs();
+    bindShare($('#wars-slot'));
 
     // המפה נבנית רק כשפותחים את הלשונית (במצב סגור אין לה גודל)
     var deep = document.querySelector('#wars-slot .deep-box');
@@ -203,7 +254,12 @@
 
   function bindWarTabs() {
     Array.prototype.forEach.call(document.querySelectorAll('#wars-slot .arena-tabs button'), function (b) {
-      b.addEventListener('click', function () { activeArena = b.dataset.arena; renderWars(); });
+      b.addEventListener('click', function () {
+        activeArena = b.dataset.arena;
+        // הכתובת בשורת הדפדפן משקפת את הזירה — העתקה ידנית שלה תשתף את אותה זירה
+        try { history.replaceState(null, '', activeArena === 'all' ? location.pathname + location.search : '#arena=' + activeArena); } catch (e) { /* קובץ מקומי */ }
+        renderWars();
+      });
     });
   }
 

@@ -579,3 +579,17 @@ a.msg-link:hover { background: #222a3a; text-decoration: none; }
 .health-pop .ok::first-letter { color: var(--ok); }
 .health-pop .bad { color: var(--bad); font-weight: 700; }
 @media (max-width: 700px) { .health, .health-pop { font-size: 14px; } }
+
+/* ---- כפתורי שיתוף (פינת המלחמות) ---- */
+.share-bar { display: flex; gap: 6px; flex-wrap: wrap; margin-inline-start: auto; }
+.share-bar .sh {
+  font: inherit; font-size: 13px; line-height: 1; padding: 6px 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: transparent; color: var(--text); text-decoration: none; cursor: pointer;
+}
+.share-bar .sh:hover, .share-bar .sh:focus-visible { border-color: var(--accent); }
+.share-bar .wa { border-color: #25d36680; }
+.share-bar .tg { border-color: #2aabee80; }
+@media (max-width: 700px) {
+  .share-bar { margin-inline-start: 0; flex-basis: 100%; }
+  .share-bar .sh { font-size: 14px; padding: 8px 12px; }
+}
