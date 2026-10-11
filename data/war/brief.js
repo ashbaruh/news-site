@@ -1,179 +1,180 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-10T18:00:00+03:00",
- "generated_at": "2026-10-10T14:40:21+00:00",
+ "slot": "2026-10-11T04:00:00+03:00",
+ "generated_at": "2026-10-11T00:40:16+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10101440-01",
-     "title": "הקרמלין מסר כי עמדת טהראן להסדר הועברה לטראמפ",
-     "summary": "נשיא רוסיה שוחח טלפונית עם נשיא ארצות הברית והעביר לו את עמדת איראן בנוגע להסכם שלום אפשרי באזור.",
-     "axis": "דיפלומטיה ומגעים בינלאומיים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-10T11:42:53+00:00",
-     "last_update_at": "2026-10-10T12:30:21+00:00",
-     "what_is_not_verified": "פרטי עמדת איראן ותגובתו של נשיא ארצות הברית אינם מפורטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48415",
-       "published_at": "2026-10-10T11:42:53+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
-       "published_at": "2026-10-10T12:30:21+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10101440-02",
-     "title": "הערכה לפגיעה מוחלטת בהכנסות הנפט של איראן",
-     "summary": "אנליסטים מעריכים כי המשך המצור האמריקאי עלול לעצור לחלוטין את הכנסות הנפט של איראן עד אמצע חודש דצמבר.",
-     "axis": "סנקציות ולחץ כלכלי",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-10T14:33:21+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-10T14:33:21+00:00",
-     "last_update_at": "2026-10-10T14:33:21+00:00",
-     "what_is_not_verified": "ההערכה מבוססת על תרחיש עתידי של המשך המצור האמריקאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610105397",
-       "published_at": "2026-10-10T14:33:21+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10101440-03",
-     "title": "התבטאות נשיא איראן בנוגע לאיומי ארצות הברית",
-     "summary": "נשיא איראן הצהיר בנאום בטהראן כי הציבור האיראני אינו חושש מאיומיו של הממשל האמריקאי ומהלחץ הכלכלי.",
-     "axis": "הצהרות ומתיחות מדינית",
+     "id": "IRAN-10110040-01",
+     "title": "משמרות המהפכה טוענים כי מכלית נפט נפגעה ממוקש במצר הורמוז",
+     "summary": "הודעה מטעם משמרות המהפכה של איראן טענה כי מכלית נפט ספגה פיצוץ עז ממוקש במצר הורמוז לאחר שסטתה מנתיב מורשה וכיבתה מערכות זיהוי.",
+     "axis": "מפרץ הורמוז / איראן",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T13:11:06+00:00",
-     "last_update_at": "2026-10-10T13:11:06+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-10T21:45:24+00:00",
+     "last_update_at": "2026-10-10T21:45:24+00:00",
+     "what_is_not_verified": "אין אימות עצמאי של גורם חיצוני לפגיעה או לנסיבות שהוצגו על ידי האיראנים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-iran-not-afraid-us-threats",
-       "published_at": "2026-10-10T13:11:06+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-supertanker-hit-mine-strait-hormuz",
+       "published_at": "2026-10-10T21:45:24+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהראן",
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10110040-02",
+     "title": "צמצום תנועה אווירית ופניית פרסה של מטוס בשמי איראן",
+     "summary": "ערוץ דיווח על מרחב אווירי ריק כמעט לחלוטין מעל איראן ועל מטוס נוסעים מארמניה שביצע פניית פרסה בדרכו לטהראן ללא הסבר ברור.",
+     "axis": "איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T21:31:12+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-10T21:31:12+00:00",
+     "last_update_at": "2026-10-10T21:31:12+00:00",
+     "what_is_not_verified": "הסיבה לשינוי נתיב הטיסה ולמצב התעופה האווירית אינה מאומתת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48435",
+       "published_at": "2026-10-10T21:31:12+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
        "lat": 35.6893,
        "lon": 51.3896
       }
      ]
+    },
+    {
+     "id": "IRAN-10110040-03",
+     "title": "כוחות ממשלת תימן טוענים להתקדמות משמעותית נגד החות'ים",
+     "summary": "הכוחות הנתמכים על ידי סעודיה בתימן טענו כי הרגו מעל אלף לוחמים חות'ים ביממה האחרונה במסגרת פעילות צבאית נגדם.",
+     "axis": "תימן / שלוחות איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-10T22:12:25+00:00",
+     "last_update_at": "2026-10-10T22:12:25+00:00",
+     "what_is_not_verified": "מספר האבדות וההתקדמות בשטח נמסרו מצד אחד בלבד ולא אומתו על ידי מקור עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis?traffic_source=rss",
+       "published_at": "2026-10-10T22:12:25+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10101440-01",
-     "title": "תקיפות חיל האוויר הישראלי בדרום לבנון",
-     "summary": "מטוסים תקפו שטח בין העיירות נבטיה אל-פוקא וכפר תבנית בדרום לבנון.",
-     "axis": "העימות בדרום לבנון",
+     "id": "NORTH-10110040-01",
+     "title": "זיהוי עצם אווירי בלתי מזוהה וסריקות סמוך לערב אל-עראמשה",
+     "summary": "דובר צה\"ל מסר כי לאחר אזעקה זוהה עצם אווירי בלתי מזוהה סמוך לגבול לבנון וכוחות ביצעו סריקות ללא ממצאים חריגים.",
+     "axis": "גבול ישראל-לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
+     "occurred_at": "2026-10-10T19:57:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T08:39:23+00:00",
-     "last_update_at": "2026-10-10T08:39:23+00:00",
-     "what_is_not_verified": "לא דווח על נפגעים או על היקף הנזק.",
+     "first_reported_at": "2026-10-10T20:41:34+00:00",
+     "last_update_at": "2026-10-10T20:41:34+00:00",
+     "what_is_not_verified": "טיב העצם האווירי לא זוהה באופן סופי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-more-strikes-southern-lebanon-0",
-       "published_at": "2026-10-10T08:39:23+00:00"
+       "url": "https://t.me/idf_telegram/25331",
+       "published_at": "2026-10-10T20:41:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "נבטיה אל-פוקא",
-       "lat": 33.3619,
-       "lon": 35.4987
+       "name": "ערב אל-עראמשה, ישראל",
+       "lat": 33.0886,
+       "lon": 35.2265
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10110040-02",
+     "title": "שיגור מיירט לעבר מטרה חשודה בדרום לבנון",
+     "summary": "כוחות צה\"ל שיגרו מיירט לעבר מטרה אווירית חשודה שזוהתה באזור פעילותם בדרום לבנון ותוצאות השיגור נבדקו.",
+     "axis": "דרום לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T14:50:18+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-10T14:50:18+00:00",
+     "last_update_at": "2026-10-10T14:51:36+00:00",
+     "what_is_not_verified": "תוצאות היירוט ומהות המטרה נותרו בבדיקה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131674",
+       "published_at": "2026-10-10T14:51:36+00:00"
       },
       {
-       "name": "כפר תבנית",
-       "lat": 33.3519,
-       "lon": 35.5186
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10101440-02",
-     "title": "דיווח על גיחות כטב\"מים במזרח לבנון",
-     "summary": "כלי טיס בלתי מאוישים נצפו טסים בגובה נמוך מעל העיר בעלבכ ועיירות סמוכות במזרח לבנון.",
-     "axis": "פעילות אווירית בלבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-10T11:06:56+00:00",
-     "last_update_at": "2026-10-10T11:06:56+00:00",
-     "what_is_not_verified": "לא מאומת מעבר לדיווח בתקשורת הלבנונית הרשמית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-continues-strikes-in-southern-lebanon-in-violation-of-framework-deal/4084382",
-       "published_at": "2026-10-10T11:06:56+00:00"
+       "url": "https://t.me/idf_telegram/25326",
+       "published_at": "2026-10-10T14:50:18+00:00"
       }
      ],
      "places": [
       {
-       "name": "בעלבכ",
-       "lat": 34.0097,
-       "lon": 36.2117
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
       }
      ]
     },
     {
-     "id": "NORTH-10101440-03",
-     "title": "הסרת מגבלות טיסה אמריקאיות ללבנון",
-     "summary": "נשיא לבנון בירך על החלטת ארצות הברית להסיר את הגבלות התעופה האווירית למדינתו.",
-     "axis": "מדיני ותעופה אזרחית",
+     "id": "NORTH-10110040-03",
+     "title": "שיחת טלפון בין רמטכ\"לי צבאות טורקיה וסוריה",
+     "summary": "מפקד המטה הכללי של צבא טורקיה שוחח בטלפון עם מקבילו הסורי בנוגע לקשרים בין הצדדים ולנושאים אזוריים.",
+     "axis": "טורקיה-סוריה",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T08:17:59+00:00",
-     "last_update_at": "2026-10-10T08:17:59+00:00",
-     "what_is_not_verified": "לא מאומת",
+     "first_reported_at": "2026-10-10T16:17:26+00:00",
+     "last_update_at": "2026-10-10T16:17:26+00:00",
+     "what_is_not_verified": "פרטי השיחה המלאים מעבר להודעה הרשמית אינם ידועים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/lebanon-welcomes-us-decision-to-lift-air-travel-restrictions/4084254",
-       "published_at": "2026-10-10T08:17:59+00:00"
+       "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-military-chiefs-discuss-bilateral-ties-regional-issues/4084623",
+       "published_at": "2026-10-10T16:17:26+00:00"
       }
      ],
      "places": []
@@ -183,129 +184,77 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10101440-01",
-     "title": "נפגעים בתקיפות רוסיות על מוסדות בקייב ובחרקיב",
-     "summary": "פגיעות רוסיות גרמו לפציעת שבעה בני אדם במסעדה בקייב ולפציעת חמישה בני אדם במתקן רפואי בחרקיב.",
-     "axis": "תקיפות אוויריות על ערים באוקראינה",
+     "id": "UKRAINE-10110040-01",
+     "title": "פגיעת כטב\"ם רוסי באזור דניפרופטרובסק גרמה למות ילד",
+     "summary": "מתקפת כטב\"ם רוסית פגעה במחוז דניפרופטרובסק והביאה למותו של ילד בן אחת עשרה ולפציעתם של חמישה בני אדם נוספים.",
+     "axis": "מזרח אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T13:34:00+00:00",
-     "last_update_at": "2026-10-10T14:36:00+00:00",
-     "what_is_not_verified": "לא מאומת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4173056-injury-toll-after-russian-strike-on-kyiv-restaurant-rises-to-seven.html",
-       "published_at": "2026-10-10T14:36:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057366/",
-       "published_at": "2026-10-10T13:53:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057362/",
-       "published_at": "2026-10-10T13:34:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "חרקיב",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10101440-02",
-     "title": "מתקפה אוקראינית על מתקן נפט במחוז סמרה ויעדים נוספים",
-     "summary": "כוחות צבא אוקראינה תקפו מתקן לשינוע ואחסון נפט במחוז סמרה שברוסיה וכן עמדות פיקוד ותחנת לוחמה אלקטרונית.",
-     "axis": "פגיעה בתשתיות ובמטרות צבאיות בעומק רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-10T11:41:07+00:00",
-     "last_update_at": "2026-10-10T14:18:00+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק באתר הנפט אינו מפורט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48413",
-       "published_at": "2026-10-10T11:41:07+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4173053-ukrainian-defense-forces-strike-russian-command-posts-electronic-warfare-station.html",
-       "published_at": "2026-10-10T14:18:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/10/8057355/",
-       "published_at": "2026-10-10T12:56:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סמרה",
-       "lat": 53.1956,
-       "lon": 50.1015
-      },
-      {
-       "name": "רוסטוב",
-       "lat": 47.2223,
-       "lon": 39.7199
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10101440-03",
-     "title": "נפגעים רבים במתקפות על זפוריז'יה ובאזורים שונים באוקראינה",
-     "summary": "מתקפות אוויריות ושיגור כטב\"מים גרמו למותם של לפחות 19 בני אדם, מתוכם 17 בזפוריז'יה, ולפציעת עשרות נוספים.",
-     "axis": "נפגעים במתקפות רוסיות רחבות היקף",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-10T13:57:00+00:00",
-     "last_update_at": "2026-10-10T14:05:44+00:00",
-     "what_is_not_verified": "מאמצי החילוץ והבדיקה של מניין הנפגעים הסופי בזפוריז'יה עדיין נמשכים.",
+     "first_reported_at": "2026-10-10T22:51:10+00:00",
+     "last_update_at": "2026-10-10T22:51:10+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לתשתיות אזרחיות במקום לא פורט במלואו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
-       "published_at": "2026-10-10T14:05:44+00:00"
-      },
+       "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+       "published_at": "2026-10-10T22:51:10+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10110040-02",
+     "title": "אישור היתרי ייצוא אמצעי לחימה לחברות אוקראיניות",
+     "summary": "הוועדה הבין-משרדית באוקראינה העניקה היתרים רשמיים לשמונה עשרה חברות מקומיות למכור נשק למדינות זרות.",
+     "axis": "אוקראינה",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-10T23:27:00+00:00",
+     "last_update_at": "2026-10-10T23:27:00+00:00",
+     "what_is_not_verified": "זהות החברות שקיבלו את ההיתרים וסוגי אמצעי הלחימה המותרים לייצוא אינם מפורטים בטקסט.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4173043-death-toll-from-russian-airstrike-on-zaporizhzhia-rises-to-17-18-people-injured.html",
-       "published_at": "2026-10-10T13:57:00+00:00"
+       "url": "https://www.ukrinform.net/rubric-economy/4173002-nsdc-18-ukrainian-companies-have-received-permits-to-export-weapons.html",
+       "published_at": "2026-10-10T23:27:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10110040-03",
+     "title": "טענה להריסת גשר על נהר אוסקול סמוך לקופיאנסק",
+     "summary": "מומחה שצוטט בסוכנות הידיעות הרוסית טען כי הריסת גשר על נהר אוסקול בידי רוסיה תוביל לבעיות לוגיסטיות בצבא אוקראינה סמוך לקופיאנסק.",
+     "axis": "גזרת קופיאנסק",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-10T23:14:46+00:00",
+     "last_update_at": "2026-10-10T23:14:46+00:00",
+     "what_is_not_verified": "ההערכה הצבאית ומידת הפגיעה הלוגיסטית בפועל לא אומתו באופן בלתי תלוי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/defense/2200399",
+       "published_at": "2026-10-10T23:14:46+00:00"
       }
      ],
      "places": [
       {
-       "name": "זפוריז'יה",
-       "lat": 47.8508,
-       "lon": 35.1183
+       "name": "קופיאנסק, אוקראינה",
+       "lat": 49.7133,
+       "lon": 37.6142
       }
      ]
     }
@@ -314,114 +263,103 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10101440-01",
-     "title": "תקיפות הדדיות על נמלי תעופה בצנעא ובריאד",
-     "summary": "ארבע תקיפות אוויריות פגעו בנמל התעופה בצנעא, ובמקביל נשמע פיצוץ עז בנמל התעופה בריאד בעקבות שיגור חות'י שהביא להסטת טיסות.",
-     "axis": "חילופי מהלומות אוויריות בין החות'ים לקואליציה",
+     "id": "YEMEN-10110040-01",
+     "title": "תקיפה קטלנית של החות'ים בנמל התעופה הבינלאומי בריאד",
+     "summary": "לפחות שנים עשר בני אדם נהרגו ומאות נפצעו מפגיעת טיל של החות'ים בנמל התעופה הבינלאומי המלך ח'אלד בריאד, והפעילות בו הושבתה.",
+     "axis": "סעודיה-תימן",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T13:19:13+00:00",
-     "last_update_at": "2026-10-10T14:12:54+00:00",
-     "what_is_not_verified": "הדיווחים על פינוי מוסק של פצועים מנמל התעופה בריאד אינם מאומתים סופית.",
+     "first_reported_at": "2026-10-10T16:08:09+00:00",
+     "last_update_at": "2026-10-11T00:35:35+00:00",
+     "what_is_not_verified": "היקף הנזק המבני בטרמינל נמסר מפי מקורות שונים ללא תיעוד רשמי מלא של כלל הפגיעות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131668",
-       "published_at": "2026-10-10T14:12:54+00:00"
+       "url": "https://t.me/abualiexpress/131696",
+       "published_at": "2026-10-10T22:00:08+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94570",
+       "published_at": "2026-10-10T16:08:09+00:00"
       },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanaa-airport-hit-four-air-strikes-large-blast-heard-riyadh-airport",
-       "published_at": "2026-10-10T13:19:13+00:00"
+       "url": "https://www.middleeasteye.net/news/attack-riyadh-airport-leaves-12-dead-more-300-injured",
+       "published_at": "2026-10-11T00:35:35+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+       "published_at": "2026-10-10T23:37:27+00:00"
       }
      ],
      "places": [
       {
-       "name": "צנעא",
-       "lat": 15.3539,
-       "lon": 44.2059
-      },
-      {
-       "name": "ריאד",
+       "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
       }
      ]
     },
     {
-     "id": "YEMEN-10101440-02",
-     "title": "התקדמות כוחות ממשלת תימן באזור באב אל-מנדב",
-     "summary": "כוחות ממשלת תימן מתקדמים לעבר עמדות החות'ים בסביבת מצר באב אל-מנדב במסגרת מתקפת הנגד שפתחו.",
-     "axis": "הקרבות על חופי הים האדום",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-10T08:27:25+00:00",
-     "last_update_at": "2026-10-10T13:45:14+00:00",
-     "what_is_not_verified": "השליטה המלאה בנתיב המים של המצר טרם הושגה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_afp",
-       "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
-       "published_at": "2026-10-10T13:45:14+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_afp",
-       "url": "https://www.newarab.com/news/yemen-govt-say-advancing-against-houthis-around-bab-al-mandeb",
-       "published_at": "2026-10-10T11:40:28+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_afp",
-       "url": "https://www.newarab.com/news/yemeni-forces-advancing-against-houthis-amid-saudi-strikes",
-       "published_at": "2026-10-10T08:27:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "באב אל-מנדב",
-       "lat": 12.714,
-       "lon": 43.5008
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10101440-03",
-     "title": "בלימת מתקפה חות'ית מצפון לנמל התעופה ד'ובאב",
-     "summary": "כוחות הממשלה התימנית בסיוע תקיפות מהאוויר של סעודיה בלמו ניסיון תקיפה של החות'ים מצפון לד'ובאב.",
-     "axis": "הלחימה במערב תימן",
-     "claim_type": "incident",
+     "id": "YEMEN-10110040-02",
+     "title": "הנשיא טראמפ הודיע כי ארה\"ב בוחנת הצטרפות לתקיפות נגד החות'ים",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי הממשל שוקל להצטרף לתקיפות סעודיות נגד החות'ים בעקבות הפגיעה בנמל התעופה בריאד.",
+     "axis": "ארה\"ב-תימן",
+     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-10T09:34:53+00:00",
-     "last_update_at": "2026-10-10T09:34:53+00:00",
-     "what_is_not_verified": "היקף האבדות והציוד שנפגע בקרב החות'ים נמסר על ידי הצד הלוחם בלבד.",
+     "first_reported_at": "2026-10-10T16:54:10+00:00",
+     "last_update_at": "2026-10-11T00:35:35+00:00",
+     "what_is_not_verified": "טרם התקבלה החלטה מעשית או פורסמה תוכנית פעולה צבאית אמריקנית.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131684",
+       "published_at": "2026-10-10T16:54:10+00:00"
+      },
+      {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-say-they-repelled-houthi-attack-north-dhubab",
-       "published_at": "2026-10-10T09:34:53+00:00"
+       "url": "https://www.middleeasteye.net/news/attack-riyadh-airport-leaves-12-dead-more-300-injured",
+       "published_at": "2026-10-11T00:35:35+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "YEMEN-10110040-03",
+     "title": "הודעת הזדהות של ראש מועצת ההנהגה הנשיאותית בתימן עם סעודיה",
+     "summary": "ראש מועצת ההנהגה הנשיאותית של תימן הדגיש הזדהות מלאה עם ערב הסעודית והמשך פעולה למיגור הטרור של המיליציה החות'ית.",
+     "axis": "תימן-סעודיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-10T23:15:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-10T23:15:28+00:00",
+     "last_update_at": "2026-10-10T23:15:28+00:00",
+     "what_is_not_verified": "אין בטקסט פירוט של צעדים מעשיים קונקרטיים שננקטו מעבר להצהרה המדינית.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "ד'ובאב",
-       "lat": 13.0597,
-       "lon": 43.5117
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_484cad5f38e27540",
+       "url": "https://www.sabanew.net/viewstory/153769",
+       "published_at": "2026-10-10T23:15:28+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   }
