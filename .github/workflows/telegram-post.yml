@@ -27,6 +27,8 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: main
+      - name: תצוגה מקדימה (ביומן בלבד)
+        run: node tools/telegram_brief.js --dry-run
       - name: פרסום
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

@@ -23,6 +23,46 @@ const MAX_AGE_H = 14;          // כמו באתר: עדכון ישן מ-14 שע�
 const PER_ARENA = 3;
 const TG_LIMIT = 4000;         // טלגרם: עד 4096 תווים להודעה
 
+/* ---------- שורת שווקים ----------
+   רק מקורות שהאתר כבר משתמש בהם, עם רישוי מתאים (data/sources.js): CoinGecko ו-ECB (דרך Frankfurter).
+   נפט לא נכלל: באתר הוא מגיע רק מווידג'ט TradingView, שאסור לחלץ ממנו מספרים.
+   מקור שלא עונה — פשוט לא מופיע. אין נתון → אין שורה. */
+async function getJSON(url, ms) {
+  const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms || 8000);
+  try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) throw new Error('http ' + r.status); return await r.json(); }
+  finally { clearTimeout(t); }
+}
+const sign = n => (n > 0 ? '+' : n < 0 ? '−' : '') + Math.abs(n).toFixed(1) + '%';
+const fmt = (n, d) => n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+
+async function marketsLine() {
+  const parts = [], credit = [];
+  try {
+    const j = await getJSON('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true');
+    const b = j && j.bitcoin;
+    if (b && isFinite(b.usd)) {
+      parts.push('₿ ביטקוין ' + fmt(b.usd, 0) + '$' + (isFinite(b.usd_24h_change) ? ' (' + sign(b.usd_24h_change) + ' ב-24ש\')' : ''));
+      credit.push('CoinGecko');
+    }
+  } catch (e) { console.log('שווקים: CoinGecko לא זמין — ' + e.message); }
+  try {
+    const end = new Date(), start = new Date(Date.now() - 10 * 86400000), ymd = d => d.toISOString().slice(0, 10);
+    const j = await getJSON('https://api.frankfurter.dev/v1/' + ymd(start) + '..' + ymd(end) + '?base=EUR&symbols=USD,ILS');
+    const dates = Object.keys((j && j.rates) || {}).sort();
+    if (dates.length >= 2) {
+      const cur = j.rates[dates[dates.length - 1]], prev = j.rates[dates[dates.length - 2]];
+      const usd = cur.ILS / cur.USD, usdPrev = prev.ILS / prev.USD;
+      if (isFinite(usd) && isFinite(cur.ILS)) {
+        parts.push('💵 דולר ' + fmt(usd, 3) + '₪ (' + sign((usd / usdPrev - 1) * 100) + ')');
+        parts.push('💶 אירו ' + fmt(cur.ILS, 3) + '₪ (' + sign((cur.ILS / prev.ILS - 1) * 100) + ')');
+        credit.push('ECB ' + dates[dates.length - 1].split('-').reverse().slice(0, 2).join('/'));
+      }
+    }
+  } catch (e) { console.log('שווקים: Frankfurter לא זמין — ' + e.message); }
+  if (!parts.length) return '';
+  return '📈 <b>שווקים</b>\n' + parts.map(esc).join(' · ') + '\n<i>' + esc(credit.join(' · ')) + '</i>';
+}
+
 /* טוען את קבצי האתר בסביבה מבודדת, כאילו זה דפדפן באתר הציבורי */
 function loadSite() {
   const win = { location: { protocol: 'https:', hostname: 'public.site', search: '', pathname: '/' } };
@@ -45,7 +85,7 @@ function hhmm(iso) {
 const ICON = { verified: '✅', initial: '🟡', shared_root: '🟠', disputed: '⚠️', assessment: '🔎', unverified: '⚪', retracted: '❌' };
 
 /* בונה את ההודעה. מחזיר null אם אין מה לפרסם. */
-function buildMessage(win, now) {
+function buildMessage(win, now, markets) {
   const C = win.DB.config, R = win.Reliability, b = win.DB.war_brief;
   if (!b || !b.arenas) return null;
   const gen = new Date(b.generated_at).getTime();
@@ -67,12 +107,11 @@ function buildMessage(win, now) {
 
   const head = '⚡ <b>' + esc(C.brand.site_name) + ' · עדכון ' + hhmm(b.slot || b.generated_at) + '</b>';
   const foot = '<i>נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות. התווית מחושבת לפי מספר המקורות, ואינה אישור שהאירוע קרה.</i>';
-  let text = head + '\n\n' + blocks.join('\n\n') + '\n\n' + foot;
+  const mk = markets ? markets + '\n\n' : '';
+  const build = () => head + '\n\n' + blocks.join('\n\n') + '\n\n' + mk + foot;
+  let text = build();
   // ארוך מדי? מורידים זירות מהסוף עד שנכנס (לא חותכים באמצע תגית HTML)
-  while (text.length > TG_LIMIT && blocks.length > 1) {
-    blocks.pop();
-    text = head + '\n\n' + blocks.join('\n\n') + '\n\n' + foot;
-  }
+  while (text.length > TG_LIMIT && blocks.length > 1) { blocks.pop(); text = build(); }
   return { slot: b.slot || b.generated_at, text };
 }
 
@@ -82,7 +121,9 @@ function readStatus() {
 
 async function main() {
   const dry = process.argv.includes('--dry-run');
-  const msg = buildMessage(loadSite(), Date.now());
+  const win = loadSite();
+  if (!buildMessage(win, Date.now())) { console.log('טלגרם: אין עדכון טרי לפרסום'); return; }
+  const msg = buildMessage(win, Date.now(), await marketsLine());
   if (!msg) { console.log('טלגרם: אין עדכון טרי לפרסום'); return; }
   if (dry) { console.log(msg.text); console.log('\n[' + msg.text.length + ' תווים]'); return; }
 
@@ -109,4 +150,4 @@ async function main() {
 }
 
 if (require.main === module) main();
-module.exports = { buildMessage, loadSite };
+module.exports = { buildMessage, loadSite, marketsLine };
