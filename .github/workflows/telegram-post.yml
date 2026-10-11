@@ -1,0 +1,42 @@
+# ============================================================
+# פרסום העדכון האחרון לערוץ הטלגרם — בלי להריץ בינה.
+# בשימוש רגיל הפרסום קורה לבד בסוף war-brief.yml. כאן: בדיקה / פרסום חוזר ידני.
+# הפעלה: שינוי בקובץ .github/run-telegram-now.txt, או Actions → "פרסום לטלגרם" → Run workflow.
+# ============================================================
+
+name: פרסום לטלגרם
+
+on:
+  push:
+    branches: [main]
+    paths: [".github/run-telegram-now.txt"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write            # לשמור את data/war/telegram_status.json
+
+concurrency:
+  group: war-brief           # לא במקביל לעדכון הביניים
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: פרסום
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node tools/telegram_brief.js
+      - name: שמירה
+        run: |
+          git config user.name  "news-site-bot"
+          git config user.email "news-site-bot@users.noreply.github.com"
+          git add data/war/telegram_status.json
+          if git diff --cached --quiet; then echo "אין שינוי"; exit 0; fi
+          git commit -m "טלגרם: פורסם עדכון"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done

@@ -38,6 +38,11 @@
 - בקובץ הניתוח: `"model": {"name": "claude", ...}`, כדי שיהיה ברור מי כתב.
 - המשימות האוטומטיות של Gemini לפי לוח הזמנים ממשיכות לרוץ כרגיל.
 
+## ערוץ טלגרם (t.me/chadar_matzav)
+- בסוף כל עדכון ביניים (`war-brief.yml`) — `tools/telegram_brief.js` מפרסם הודעה אחת: עד 3 כותרות לזירה, תווית האימות של האתר (אותו קוד, `reliability.js`), קישור לזירה.
+- כל עדכון מתפרסם פעם אחת (`data/war/telegram_status.json`). מפתחות: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` ב-GitHub Secrets.
+- תצוגה מקדימה: `node tools/telegram_brief.js --dry-run`. פרסום ידני בלי בינה: לשנות את `.github/run-telegram-now.txt`.
+
 ## פרסום
 - ניתוח שעובר את בדיקות האיכות עולה לבד.
 - ניתוח חשוד מחכה לאישור: תגובה בהודעה של הבוט ב-GitHub:
