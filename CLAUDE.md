@@ -44,6 +44,7 @@
 ## ערוץ טלגרם (t.me/chadar_matzav)
 - בסוף כל עדכון ביניים (`war-brief.yml`) — `tools/telegram_brief.js` מפרסם הודעה אחת: עד 3 כותרות לזירה, תווית האימות של האתר (אותו קוד, `reliability.js`), קישור לזירה.
 - כל עדכון מתפרסם פעם אחת (`data/war/telegram_status.json`). מפתחות: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` ב-GitHub Secrets.
+- ניתוח עמוק לפי בקשה (`war-claude.yml`) מתפרסם גם הוא — `tools/telegram_deep.js`: הודעה (או כמה) לכל זירה, פעם אחת לכל ניתוח (`data/war/telegram_deep_status.json`).
 - תצוגה מקדימה: `node tools/telegram_brief.js --dry-run`. פרסום ידני בלי בינה: לשנות את `.github/run-telegram-now.txt`.
 
 ## פרסום
