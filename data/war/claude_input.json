@@ -1,7 +1,7 @@
 {
- "collected_at": "2026-10-11T09:47:41+00:00",
+ "collected_at": "2026-10-11T10:18:09+00:00",
  "slot": "2026-10-11T12:00:00+03:00",
- "window_hours": 9.794722222222223,
+ "window_hours": 10.3025,
  "arenas": {
   "iran": [
    {
@@ -16,7 +16,7 @@
     "url": "https://t.me/abualiexpress/131713",
     "published_at": "2026-10-11T07:53:32+00:00",
     "title": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביו",
-    "text": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביום שישי האחרון , כאשר בקאאי ניגש למיקרופון כדי לשאת דברים. תגובה אחת"
+    "text": "איראן: קריאות בוז לעבר אסמאעיל בקאאי, דובר משרד החוץ האיראני, במהלך הקונצרט \"ארש\" באולם אספינאס בטהרן. התקרית התרחשה ביום שישי האחרון , כאשר בקאאי ניגש למיקרופון כדי לשאת דברים. 2 תגובות"
    },
    {
     "source_id": "src_tg_abualiexpress",
@@ -34,17 +34,45 @@
    },
    {
     "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86289415/Iran-s-nuclear-chief-challenges-US-double-standards-on-nuclear",
-    "published_at": "2026-10-11T09:45:41+00:00",
-    "title": "Iran’s nuclear chief challenges US double standards on nuclear technology",
-    "text": "Tehran, IRNA – Director of the Atomic Energy Organization of Iran (AEOI) Mohammad Eslami has criticized Washington’s double standards on nuclear technology, questioning why the United States prioritizes expanding its own nuclear capabilities while seeking to deny Iran access to the same technology."
+    "url": "https://en.irna.ir/news/86289468/Iran-s-foreign-minister-Environment-must-not-be-used-as-tool",
+    "published_at": "2026-10-11T10:17:46+00:00",
+    "title": "Iran’s foreign minister: Environment must not be used as tool of political pressure",
+    "text": "Tehran, IRNA — Foreign Minister Abbas Araghchi says the environment is a shared heritage of humanity and must not be used as a tool of political pressure or sacrificed to short-term economic and military interests, stressing the importance of international law in protecting the environment during armed conflicts."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-eu-leaders-denounce-houthi-attack-ridadh-airport",
+    "published_at": "2026-10-11T10:17:33+00:00",
+    "title": "Iraq, EU leaders denounce Houthi attack on Ridadh airport",
+    "text": "Iraq, EU leaders denounce Houthi attack on Ridadh airport Several international leaders have issued condemnations on Sunday following the Houthi attack a day earlier on Saudi Arabia's Ridadh airport. Iraq called for a \"comprehensive cessation of military operations\", adding that the attack endangered \"regional security and stability\" and threatened civilians, according to a statement from the prime minister's spokesman Sabah al-Numan. German Foreign Minister Johann Wadephul said he \"firmly condemns\" what he described as \"a terrorist act against Saudi Arabia and civil aviation\", adding that \"our thoughts are with the victims and I send my sincere condolences to their loved ones\" in a post on X. UK Defence Minister Wes Streeting also condemned the attack as a \"dangerous escalation\". \"This is completely contemptible action and it's one of the reasons why the UK is providing support to Saudi Arabia in the form of air defences, but also air-to-air refuelling,\" he told Sky News on Sunday. EU chief Ursula von der Leyen called for the attacks on civilians to cease and said the European bloc stands in \"solidarity with Saudi Arabia\", accusing the Houthis who she referred to as \"Iran's proxies\" of \"pushing the region into a spiral of violence\" and destabilising global energy supplies."
    },
    {
     "source_id": "src_guardian",
     "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-    "published_at": "2026-10-11T09:30:40+00:00",
+    "published_at": "2026-10-11T10:12:58+00:00",
     "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
-    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis There’s been a strong condemnation of this morning of the Houthi’s deadly strike on Saudi Arabia’s largest airport. Global leaders say attacks on civilians must stop. UN Secretary General Antonio Guterres said he was “deeply shocked” by Saturday’s strike. Continue reading..."
+    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis An American citizen was among the 12 killed in the airport attack yesterday. For weeks now there’s been speculation over whether the US will join Saudi Arabia in carrying out air strikes against the Iran-backed Houthis in Yemen. When fighting recommenced last month with the Houthis, Saudi Crown ​Prince Mohammed bin Salman had reportedly called Donald Trump to request military assistance. The US president committed only military intelligence and targeting help rather than send war planes. On Saturday, following the deadly airport attack, Trump was asked by reporters if the US would take a more active position and join in the Saudi strikes. “We may. We’re going to look at it. We just found out about the recent attack, so we’ll make a decision. We move very quickly,” he said. He later said he also planned to speak with Saudi Arabia’s leader. Asked again by reporters if the U.S. might get involved, Trump responded, “We’ll find out.” Continue reading..."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-gharibabadi-says-minab-school-attackers-must-face-justice",
+    "published_at": "2026-10-11T10:03:42+00:00",
+    "title": "Iran’s Gharibabadi says Minab school attackers must face justice",
+    "text": "Iran’s Gharibabadi says Minab school attackers must face justice Iran’s Deputy Foreign Minister Kazem Gharibabadi on Sunday called for the “aggressors” behind the attack on Minab school which took place on the first day of the US-Israeli war on Iran, killing 156 people, including 120 children, to be held accountable through legal proceedings and in “international forums”. “Excellent documentation of this crime has been collected and sent to Tehran, and an indictment has been issued. Some foreign countries have filed lawsuits regarding Minab’s crime,” he said in comments carried by the Iran’s IRIB broadcaster. Gharibabadi added the US had yet to accept responsibility for the attack, despite numberous reports and documents indicating US involvement."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-nuclear-technology-safe-us-attacks-says-atomic-energy-chief",
+    "published_at": "2026-10-11T09:57:02+00:00",
+    "title": "Iranian nuclear technology safe from US attacks, says atomic energy chief",
+    "text": "Iranian nuclear technology safe from US attacks, says atomic energy chief The head of Iran's atomic energy agency said on Sunday that the country's nuclear technology is safe from external disruption and cannot be halted by threats, pressure, or attacks. Mohammad Eslami, the chief of the Atomic Energy Organisation of Iran (AEOI), said Iran's nuclear advances are a national achievement and were a testiment to the dedication of Iranian scientists. “Overt threats by US officials to use tactical weapons against Iran’s nuclear facilities – delivered right from the United Nations podium – and talk of destroying Iran’s ancient civilisation reveal helplessness in the face of a pioneering nation that has historically been the cradle of science, knowledge, and technology,” Eslami was quoted as saying by Iran’s semi-official Tasnim news agency, adding that the nation will not surrender to excessive demands. US President Donald Trump has repeatedly affirmed Washington's intention to wipe out Iran's nuclear capabilities and ensure that the country will never been able to develop the technology."
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86289415/Iran-s-nuclear-chief-challenges-US-double-standards-on-nuclear",
+    "published_at": "2026-10-11T09:45:41+00:00",
+    "title": "Iran’s nuclear chief challenges US double standards on nuclear technology",
+    "text": "Tehran, IRNA – Director of the Atomic Energy Organization of Iran (AEOI) Mohammad Eslami has criticized Washington’s double standards on nuclear technology, questioning why the United States prioritizes expanding its own nuclear capabilities while seeking to deny Iran access to the same technology."
    },
    {
     "source_id": "src_irna",
@@ -80,34 +108,6 @@
     "published_at": "2026-10-11T08:22:02+00:00",
     "title": "What the Iran war has done to the world’s energy supply, in charts",
     "text": "Fossil fuels produce 81 percent of global energy. We look at Middle East’s role and what happens when supplies are cut."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86289254/Former-IAEA-chief-mocks-Trump-s-claim-to-Nobel-Prize-for-settling",
-    "published_at": "2026-10-11T08:18:03+00:00",
-    "title": "Former IAEA chief mocks Trump’s claim to Nobel Prize for settling 10 wars",
-    "text": "Tehran, IRNA — Former International Atomic Energy Agency (IAEA) Director General Mohamed ElBaradei has mocked US President Donald Trump’s complaint about not receiving the 2026 Nobel Peace Prize."
-   },
-   {
-    "source_id": "src_aljazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss",
-    "published_at": "2026-10-11T07:39:16+00:00",
-    "title": "US bombs cargo vessel in Gulf of Oman ‘trying to run Iran blockade’",
-    "text": "A US fighter jet bombed a commercial cargo ship in the Gulf of Oman, according to CENTCOM."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86289092/Iran-warns-Europe-against-sacrificing-law-as-US-urges-allies",
-    "published_at": "2026-10-11T06:49:59+00:00",
-    "title": "Iran warns Europe against ‘sacrificing law’ as US urges allies to ‘rein in’ ICC",
-    "text": "Tehran, IRNA – Foreign Ministry spokesperson Esmaeil Baqaei has criticized Europe’s silence on US threats to dismantle the International Criminal Court (ICC), warning that talk of a rules-based international order would be meaningless if the law were sacrificed to “appease an aggressive ally.”"
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-173",
-    "published_at": "2026-10-11T06:27:02+00:00",
-    "title": "Morning recap",
-    "text": "Morning recap Good morning, Middle East Eye readers, If you are just joining us, here are the key developments from across the region and beyond: * At least 12 people were killed and 309 others injured in an attack on Saudi Arabia's King Khalid International Airport in Riyadh as Yemen's Houthis escalated the campaign they launched this summer against the kingdom. * US President Donald Trump says the US may join Saudi strikes against the Houthis following the latest attack on Riyadh airport. * Pakistani Prime Minister Shehbaz Sharif has said his country reaffirms a “commitment to Saudi Arabia’s sovereignty, territorial integrity and security\", while condemning the attack on King Khalid International Airport in Riyadh as “heinous\". * Schools in Riyadh will move to remote learning for a week, according to an email sent on Sunday to parents citing an order from the education ministry, following the deadly attacks on the capital's airport. * The ⁠UK Maritime Trade Operations (UKMTO) said they received a report of an “incident involving a tanker and military forces” in the Gulf of Oman, hours after the US Central Command (Centcom) said it disabled a vessel in the waterway. * At least six people have been injured by Israeli gunfire in Khan Younis, according to the Nasser Medical Complex in Gaza, Al Jazeera reported. * The Indian consulate in Dubai has said that all 22 crew members of a vessel involved in “an incident” off the Emirati coast of Ras al-Khaimah have been rescued. * United Nations General Secretary Antonio Guterres has \"strongly\" condemned Saturday's \"lethal attacks by the Houthis\" on King Khalid International Airport in Riyadh. *US Central Command (Centcom) has said it has redirected 135 commercial vessels and disabled four since the resumption of the US naval blo"
    }
   ],
   "north": [
@@ -124,6 +124,27 @@
     "published_at": "2026-10-11T07:13:04+00:00",
     "title": "דרום לבנון: ערוצים לבנוניים מדווחים על תקיפות של חיל האוויר הבוקר בכפר תבנית, טלוסה ואלמנצורי. כדי להגיב לכתבה לחצו כאן",
     "text": "דרום לבנון: ערוצים לבנוניים מדווחים על תקיפות של חיל האוויר הבוקר בכפר תבנית, טלוסה ואלמנצורי. כדי להגיב לכתבה לחצו כאן"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136917/",
+    "published_at": "2026-10-11T10:15:10+00:00",
+    "title": "Al-Manar correspondent reports Israeli airstrike on the southern Lebanese town of Al-Qantara",
+    "text": ""
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136892/",
+    "published_at": "2026-10-11T10:08:19+00:00",
+    "title": "MP Fadlallah Reiterates Plan to House the Displaced: Resistance, Geopolitical Changes to Impose Israeli Withdrawal from South Lebanon",
+    "text": "Member of “Loyalty to Resistance” bloc, MP Hassan Fadlallah, emphasized that the goal of the housing program launched by Hezbollah Secretary-General Sheikh Naim Qassem is to alleviate the displacement crisis as much as possible. He stated that this decision will be implemented, fulfilling a promise and commitment previously initiated by Sayyed Hassan Nasrallah and whose details were executed by Sayyed Hashem Safieddine. He added that it will now be completed, God willing, regardless of challenges, difficulties, or blockages. He added: “However, this does not absolve the government of its responsibilities; it is the party concerned with working to compensate the affected and rebuild. We will continue our efforts with the government and its Prime Minister to fulfill their duty independently of political disputes, because this file must be kept away from any political considerations.” Fadlallah pointed out that “since this announcement, the US administration has mobilized through a State Department statement and statements by its officials. However, we are unconcerned by their mobilization, stances, and statements. We have a goal that is no less important to us than the goal of liberating the south through appropriate means that preserve sovereignty and protect the sacrifices of the martyrs: standing by the people and striving to alleviate their pain and suffering. Anything offered to them does not equal a single drop of the martyrs’ blood, nor the patience shown through pain, displacement, and loss of property.” MP Fadlallah’s remarks came during a commemorative ceremony held by Hezbollah for the martyrs of the Islamic Resistance from the southern town of Ainat at the Imam al-Mujtaba Complex in Saint Therese. The event was attended by Hezbollah’s Beirut region official, H"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136882/",
+    "published_at": "2026-10-11T09:52:05+00:00",
+    "title": "Israeli war jets fly over Beirut and Mount Lebanon at low altitudes: Al-Manar reporter",
+    "text": ""
    },
    {
     "source_id": "src_almanar",
@@ -189,32 +210,11 @@
     "text": "Pope Leo XIV announced that the Holy See is working to provide scholarships for Catholics in Lebanon, Syria and Iraq to receive a Catholic education. He said the initiative aims to support young people and help Christian families obtain the assistance they need to remain in the Middle East and preserve the region’s Christian presence. The Dicastery for the Eastern Churches announced that the pope had decided to allocate scholarships for Christian students from the most financially vulnerable families in Lebanon, Syria and Iraq. The grants will cover their annual school and university tuition fees. Read More ?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962211"
    },
    {
-    "source_id": "src_almanar",
-    "url": "https://english.almanar.com.lb/article/136782/",
-    "published_at": "2026-10-11T06:17:35+00:00",
-    "title": "Al-Manar correspondent in southern Lebanon reports Israeli airstrike on Al-Mansouri",
-    "text": ""
-   },
-   {
     "source_id": "src_mee",
     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-reaffirms-commitment-saudi-arabias-sovereignty-after-airport",
     "published_at": "2026-10-11T04:07:09+00:00",
     "title": "Pakistan reaffirms 'commitment' to Saudi Arabia's sovereignty after airport attack",
     "text": "Pakistan reaffirms 'commitment' to Saudi Arabia's sovereignty after airport attack Pakistani Prime Minister Shehbaz Sharif has said his country reaffirms “commitment to Saudi Arabia’s sovereignty, territorial integrity and security\", while condemning the attack on King Khalid International Airport in Riyadh as “heinous\". “Attacks targeting civilians and critical infrastructure are completely unacceptable and constitute a serious threat to regional peace and stability,” he said. Pakistan, Saudi Arabia, and Turkey had signed the Mecca Joint Defence Agreement in August, days after Yemen’s Houthis fired a barrage of missiles at the kingdom. At least 12 people were killed and more than 300 injured in Saturday's attack on the airport, the deadliest attack on the kingdom in a decade."
-   },
-   {
-    "source_id": "src_anadolu",
-    "url": "https://www.aa.com.tr/en/middle-east/attack-on-main-airport-in-saudi-capital-kills-12-injures-over-300/4084836",
-    "published_at": "2026-10-11T03:00:37+00:00",
-    "title": "Attack on main airport in Saudi capital kills 12, injures over 300",
-    "text": "4 Saudis, 2 Bangladeshis, and nationals from US, Egypt, Jordan, Syria, Palestine, and Sudan among those killed in attack on Riyadh's main airport"
-   },
-   {
-    "source_id": "src_israelhayom",
-    "url": "https://www.israelhayom.co.il/news/politics/article/21596506",
-    "published_at": "2026-10-11T08:51:12+00:00",
-    "title": "ליברמן: \"ישראל מצורעת כמו צפון קוריאה - אחרי הבחירות נסכים מי יהיה רה\"מ\"",
-    "text": "יו\"ר ישראל ביתנו נשא דברים בכנס המכינות הליברליות והסביר מדוע הגוש לא מציג כעת מועמד לראשות הממשלה: \"האסטרטגיה היא שכל מפלגה תמקסם מנדטים, את חלוקת התפקידים נסגור תוך שעות אחרי הבחירות\" • ליברמן תקף את נתניהו שלדבריו מנסה לחמוק מאחריות על השבעה באוקטובר וקריסת המשילות • עוד הבהיר כי לא ייכנס לקואליציה ללא חוקה וגיוס חובה לכולם, וטען: \"בלבנון היינו צריכים לתאם מכת פתיחה עם המדינות והשבטים המתונים\""
    }
   ],
   "ukraine": [
@@ -233,6 +233,34 @@
     "text": "הוצאה להורג של פצוע רוסי על ידי חייל אוקראיני."
    },
    {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/politics/2026/oct/11/britain-stands-behind-zelenskyy-streeting-trump-ukraine",
+    "published_at": "2026-10-11T10:03:16+00:00",
+    "title": "Britain stands behind Zelenskyy, says Streeting after Trump’s call for new leader in Ukraine",
+    "text": "Defence secretary backs Ukrainian president and says priority is to maintain western unity over Russia conflict Britain stands behind Volodymyr Zelenskyy, the defence secretary has said, after Donald Trump called for the Ukrainian president to be replaced and the US announced a controversial agreement to buy Russian diesel. Wes Streeting said Ukrainians alone should be able to decide who led their country as he indicated Trump was facing domestic political pressure over fuel prices ahead of next month’s US midterm elections. Continue reading..."
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2200481",
+    "published_at": "2026-10-11T09:59:58+00:00",
+    "title": "Trump’s remarks about new leader in Ukraine come as surprise to Kiev — German journalist",
+    "text": "According Bild deputy editor-in-chief Paul Ronzheimer, \"Zelensky’s advisers are shocked and speechless over the news from Washington\""
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4173231-mandatory-evacuation-zone-for-children-expanded-in-kramatorsk.html",
+    "published_at": "2026-10-11T09:59:00+00:00",
+    "title": "Mandatory evacuation zone for children expanded in Kramatorsk",
+    "text": "The mandatory forced evacuation zone for children has been expanded to include additional areas of Kramatorsk in Ukraine's Donetsk region."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057442/",
+    "published_at": "2026-10-11T09:37:00+00:00",
+    "title": "Russians strike two apartment blocks in Sloviansk: four injured, people may be trapped under rubble – photos, video",
+    "text": "Four people were injured in Russian strikes on two apartment blocks in the city of Sloviansk in Donetsk Oblast on the morning of 11 October. People may still be trapped under the rubble. Source: Sloviansk Mayor Vadym Liak on Facebook ; President Volodymyr Zelenskyy on Telegram Quote from Liakh: \"At 09:45 on 11 October, the enemy carried out an airstrike on Sloviansk. Two apartment blocks were hit. Four people are currently known to have been injured. They are all receiving medical assistance.\" A destroyed residential building Photo: Vadym Liakh on Facebook Details: Liakh also posted photos and videos from the scene. A damaged residential building Photo: Vadym Liakh on Facebook https://www.facebook.com/100007206281890/videos/pcb.4393178377598995/1113316551083131 Meanwhile, President Volodymyr Zelenskyy said people might be trapped under the rubble. \"This morning, the Russians struck a five-storey apartment building in Sloviansk. One section has been completely destroyed, and people may be trapped under the rubble,\" the president said. Your support on Patreon helps us keep the news free and accessible."
+   },
+   {
     "source_id": "src_kyivind",
     "url": "https://kyivindependent.com/inside-ukraines-world-of-naive-art-and-the-gunia-aesthetic-it-inspired/",
     "published_at": "2026-10-11T09:35:30+00:00",
@@ -245,6 +273,13 @@
     "published_at": "2026-10-11T08:59:00+00:00",
     "title": "Russian drone hits ambulance in Sumy region, injuring two medical workers",
     "text": "Russian forces attacked an emergency medical vehicle with a drone in Ukraine's Sumy region. A 44-year-old driver and a 59-year-old paramedic are receiving medical treatment."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057438/",
+    "published_at": "2026-10-11T08:57:00+00:00",
+    "title": "US Congress reminds Trump of Graham Act after his deal with Putin",
+    "text": "US senators and members of the House of Representatives from both parties have opposed President Donald Trump's decision to lift sanctions against Russia, reminding him of the Graham Act, which calls for tougher restrictions on Russian energy exports. Source: European Pravda, citing statements by US lawmakers Details: Democratic Senator Mark Kelly , commenting on the US administration's agreement with Russia to supply Russian diesel fuel, recalled the Lindsey Graham Russia and Iran Sanctions Act. Among other provisions, the bill provides for tougher sanctions against Russia and punitive tariffs on countries that buy Russian energy. Quote from Kelly: \" So what happened to the Lindsey Graham Sanctioning Russia and Iran Act? The entire goal was to choke off Putin's money for the war by punishing countries who were evading the sanctions and buying Russian oil. Does that mean we're sanctioning ourselves now? Whose side is Trump on? \" Details: Democratic Congresswoman Marie Gluesenkamp Perez noted that, by approving Lindsey Graham's bill, Congress had made its position on purchases of Russian oil clear. Quote from Gluesenkamp Perez: \" Congress, and the American people, have been clear that we do not support buying Russian oil to fund Putin's war in Ukraine. Just weeks ago, an overwhelming majority in the House passed legislation to levy steep new sanctions on the sale of Russian oil. And before I came to Congress, there was a near unanimous vote to expressly prohibit the import of Russian oil with the Ending Importation of Russian Oil Law.\" Details: She stressed that the president's decision directly contradicts the will of Congress. Gluesenkamp Perez said she is working with lawmakers from both parties on a bill that would block all purchases of Russian oil. Republican Repre"
    },
    {
     "source_id": "src_pravda_ua",
@@ -287,41 +322,6 @@
     "published_at": "2026-10-11T08:08:00+00:00",
     "title": "Trump claims Putin \"strongly\" wants deal to end war",
     "text": "US President Donald Trump has claimed that Russian ruler Vladimir Putin really wants to end his war against Ukraine. Source: Trump's comments to journalists on 10 October, as reported by European Pravda Details: Journalists asked Trump what Putin had told him during their phone conversation on 9 October. Quote: \" He'd like to see a settlement. President Putin would like to see a settlement strongly. \" [N.B. Ukrainska Pravda does not recognise Putin as president – ed.] Details: Trump then added that Russia supplies significant quantities of oil to the global market. \" And look, he's freeing up a lot of oil for the world. Okay. A good thing. And by the way, at a very low price ,\" he said. Background: On 9 October, Trump said he had had a \" highly successful discussion \" with Putin and reached an agreement on lifting sanctions on Russian diesel fuel . The agreement between Trump and Putin sparked outrage in Ukraine and European capitals. Ukrainian President Volodymyr Zelenskyy strongly criticised Trump's actions , describing the easing of sanctions as an \"absolutely terrible\" move. Estonian Prime Minister Kristen Michal called the US president's decision a major mistake and urged increased support for Ukraine so that it could turn Russian oil refineries into ruins . The Finnish prime minister described the agreement as \"a terrible disappointment\" . EU foreign policy chief Kaja Kallas said Europe will not ease its pressure on Russia following the agreement between Trump and Putin. Subscribe on Patreon to back our journalism long-term."
-   },
-   {
-    "source_id": "src_tass",
-    "url": "https://tass.com/world/2200475",
-    "published_at": "2026-10-11T08:07:05+00:00",
-    "title": "Ukrainian intelligence is supporting terrorists — senior Malian defense official",
-    "text": "Fousseynou Ouattara noted that the militants constantly attacked Malian army positions"
-   },
-   {
-    "source_id": "src_kyivind",
-    "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-25-across-ukraine-as-moscow-targets-energy-infrastructure-around-kyiv/",
-    "published_at": "2026-10-11T08:02:00+00:00",
-    "title": "Russian attacks kill at least 2, injure 25 across Ukraine as Moscow targets energy infrastructure around Kyiv",
-    "text": "In Dnipropetrovsk Oblast, Russia killed one child and injured nine other people in attacks on civilian targets."
-   },
-   {
-    "source_id": "src_pravda_ua",
-    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057431/",
-    "published_at": "2026-10-11T07:47:00+00:00",
-    "title": "Court orders Russia to pay agricultural company US$2m for property seized in Zaporizhzhia Oblast",
-    "text": "The Commercial Court of Zaporizhzhia Oblast has ordered the Russian Federation to pay Agro Alliance LLC UAH 101.74 million (US$2.2 million) in damages and lost profits for property lost in temporarily occupied territory. Source: the court's ruling Details: Agro Alliance is registered in the village of Kopani, Zaporizhzhia Oblast. The company grew cereals, legumes and oilseeds and engaged in wholesale grain trading, among other activities. According to the case documents, in early March 2022, Russian troops entered the company's premises while armed, illegally took up residence there and seized its property. The company lost access to its property complex, movable assets and inventory, as well as the ability to conduct business. The court found the claims justified and ordered the full amount to be recovered from the Russian Federation, represented by the Prosecutor General's Office of the Russian Federation. Agro Alliance LLC was established in 2000. Its founders include Volodymyr Dudka, who also heads the company, Oleh Romanenko and Nina Arshukova. Background: The Commercial Court of Luhansk Oblast previously ordered the Russian Federation to pay Trade House Agrokhim LLC UAH 51.67 million (US$1.1 million) in damages for property lost in Svatove in Luhansk Oblast and Kakhovka in Kherson Oblast. Subscribe on Patreon to back our journalism long-term."
-   },
-   {
-    "source_id": "src_pravda_ua",
-    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057430/",
-    "published_at": "2026-10-11T07:42:00+00:00",
-    "title": "Warehouses catch fire after Russian attack near Kyiv – photos, video",
-    "text": "Warehouses belonging to an industrial company caught fire following a Russian attack on the Bucha district in Kyiv Oblast, and firefighters are still working to extinguish the blaze. Source: Tymur Tkachenko , Head of Kyiv Oblast Military Administration; State Emergency Service of Ukraine on Telegram Quote from Tkachenko: \"Firefighters are still working to extinguish a blaze at an industrial site in the Bucha district. A fire broke out at warehouse premises following a Russian drone attack overnight.\" The fire Photo: State Emergency Service of Ukraine Details: The State Emergency Service added that Russian forces had attacked an industrial facility. Firefighters have contained the blaze, but efforts to extinguish it are ongoing. Firefighters Photo: State Emergency Service of Ukraine \"All emergency services are working at the scene. Early reports indicate that there are no fatalities or injuries,\" Tkachenko concluded. Firefighters Photo: State Emergency Service of Ukraine Subscribe on Patreon to back our journalism long-term."
-   },
-   {
-    "source_id": "src_ukrinform",
-    "url": "https://www.ukrinform.net/rubric-ato/4173194-russian-attacks-in-kyiv-region-leave-four-people-injured-over-past-day-37-sites-damaged.html",
-    "published_at": "2026-10-11T07:39:00+00:00",
-    "title": "Russian attacks in Kyiv region leave four people injured over past day, 37 sites damaged",
-    "text": "Four people were injured in Russian army attacks in the Kyiv region over the past 24 hours, and 37 sites were damaged."
    }
   ],
   "yemen": [
@@ -335,9 +335,16 @@
    {
     "source_id": "src_guardian",
     "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-    "published_at": "2026-10-11T09:30:40+00:00",
+    "published_at": "2026-10-11T10:18:07+00:00",
     "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
-    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis There’s been a strong condemnation of this morning of the Houthi’s deadly strike on Saudi Arabia’s largest airport. Global leaders say attacks on civilians must stop. UN Secretary General Antonio Guterres said he was “deeply shocked” by Saturday’s strike. Continue reading..."
+    "text": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis An American citizen was among the 12 killed in the airport attack yesterday. For weeks now there’s been speculation over whether the US will join Saudi Arabia in carrying out air strikes against the Iran-backed Houthis in Yemen. When fighting recommenced last month with the Houthis, Saudi Crown ​Prince Mohammed bin Salman had reportedly called Donald Trump to request military assistance. The US president committed only military intelligence and targeting help rather than send war planes. On Saturday, following the deadly airport attack, Trump was asked by reporters if the US would take a more active position and join in the Saudi strikes. “We may. We’re going to look at it. We just found out about the recent attack, so we’ll make a decision. We move very quickly,” he said. He later said he also planned to speak with Saudi Arabia’s leader. Asked again by reporters if the U.S. might get involved, Trump responded, “We’ll find out.” Continue reading..."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-eu-leaders-denounce-houthi-attack-ridadh-airport",
+    "published_at": "2026-10-11T10:17:33+00:00",
+    "title": "Iraq, EU leaders denounce Houthi attack on Riyadh airport",
+    "text": "Iraq, EU leaders denounce Houthi attack on Riyadh airport Several international leaders have issued condemnations on Sunday following the Houthi attack a day earlier on Saudi Arabia's Riyadh airport. Iraq called for a \"comprehensive cessation of military operations\", adding that the attack endangered \"regional security and stability\" and threatened civilians, according to a statement from the prime minister's spokesman Sabah al-Numan. German Foreign Minister Johann Wadephul said he \"firmly condemns\" what he described as \"a terrorist act against Saudi Arabia and civil aviation\", adding that \"our thoughts are with the victims and I send my sincere condolences to their loved ones\" in a post on X. UK Defence Minister Wes Streeting also condemned the attack as a \"dangerous escalation\". \"This is completely contemptible action and it's one of the reasons why the UK is providing support to Saudi Arabia in the form of air defences, but also air-to-air refuelling,\" he told Sky News on Sunday. EU chief Ursula von der Leyen called for the attacks on civilians to cease and said the European bloc stands in \"solidarity with Saudi Arabia\", accusing the Houthis who she referred to as \"Iran's proxies\" of \"pushing the region into a spiral of violence\" and destabilising global energy supplies."
    },
    {
     "source_id": "src_bbc",
@@ -422,13 +429,6 @@
     "published_at": "2026-10-11T06:21:50+00:00",
     "title": "Saudi Arabia threatens 'decisive' response after Riyadh airport strike kills at least 12",
     "text": "Saudi Arabia vowed to retaliate against Yemen’s Houthi rebels on Sunday after a strike on Riyadh’s international airport killed a dozen people and wounded more than 300, marking the kingdom's deadliest strike in a decade."
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwaits-jazeera-airways-says-riyadh-flights-affected-temporary",
-    "published_at": "2026-10-11T06:04:22+00:00",
-    "title": "Kuwait's Jazeera Airways says Riyadh flights affected by temporary suspension",
-    "text": "Kuwait's Jazeera Airways says Riyadh flights affected by temporary suspension Kuwait's Jazeera Airways says its Riyadh flights have been affected by the temporary suspension of operations at King Khalid International Airport, where an alleged Houthi strike killed at least 12 people and injured more than 300 others. All flights were diverted from Riyadh on Saturday, and operations at the airport, which serves a city of roughly 8 million people, were temporarily suspended, the Saudi civil aviation authority said."
    }
   ]
  }
