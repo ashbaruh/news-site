@@ -1,0 +1,430 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4ebe2ced252c",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 7
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-11T23:44:41+00:00",
+  "window": {
+   "from": "2026-10-10T23:44:41+00:00",
+   "to": "2026-10-11T23:44:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610112344"
+  },
+  "summary": "העימות בין החות'ים לסעודיה הגיע להסלמה חריפה בעקבות פגיעות ישירות וקטלניות של טילים בנמלי תעופה אזרחיים בריאד ובדמאם. המשטר הסעודי בוחן תגובה צבאית רחבה בעוד החות'ים מאיימים להרחיב את הפגיעה בכל נמלי התעופה בממלכה. במקביל נרשמת דריכות בינלאומית ומאמצים דיפלומטיים מול איראן לריסון המערכה.",
+  "fronts": [
+   {
+    "name": "ציר תימן - סעודיה (עומק הממלכה)",
+    "status": "הסלמה חמורה עקב פגיעות חוזרות בנמלי תעופה בריאד ובדמאם והשבתת תנועה אווירית"
+   },
+   {
+    "name": "ציר פנים-תימני מול הקואליציה",
+    "status": "דיווחים על חידוש תקיפות אוויריות בצנעא לצד לחימה יבשתית נמשכת בין החות'ים לממשלה המוכרת"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10112344-01",
+    "title": "פגיעה קטלנית של טיל חות'י בנמל התעופה הבינלאומי המלך ח'אלד בריאד",
+    "summary": "מתקפת טילים של החות'ים פגעה בנמל התעופה הבינלאומי בריאד, גרמה למותם של תריסר עד שלושה עשר בני אדם ולפציעתם של מעל שלוש מאות נוספים, והובילה להשבתת פעילות הנמל.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T08:39:17+00:00",
+    "last_update_at": "2026-10-11T22:39:30+00:00",
+    "what_is_not_verified": "מספר ההרוגים המדויק (נע בין 12 ל-13 לפי מקורות שונים).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-attack-kills-one-wounds-11-saudi-aviation-authority-says",
+      "published_at": "2026-10-11T22:39:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "published_at": "2026-10-11T22:28:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131753",
+      "published_at": "2026-10-11T20:18:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/fresh-attack-hits-riyadh-airport-houthis-warn-airlines-against-using-saudi-airspace",
+      "published_at": "2026-10-11T18:52:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-extends-riyadh-airport-closure-after-deadly-strike",
+      "published_at": "2026-10-11T11:43:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/deadly-attack-airport-saudi-arabias-capital-kills-12",
+      "published_at": "2026-10-11T08:39:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10112344-02",
+    "title": "מתקפה חוזרת על נמל התעופה בריאד ופגיעה בטרמינל נוסעים",
+    "summary": "קליע או טיל פגעו בטרמינל 4 בנמל התעופה הבינלאומי בריאד, גרמו להרוג אחד ולפציעת 11 בני אדם וכן לשריפה במקום; במקביל יורט טיל שיוט בסמוך לנמל.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T16:21:01+00:00",
+    "last_update_at": "2026-10-11T23:20:46+00:00",
+    "what_is_not_verified": "סוג החימוש שפגע במבנה (הוגדר כעצם לא מזוהה).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+      "published_at": "2026-10-11T23:20:46+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T22:45:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-attack-kills-one-wounds-11-saudi-aviation-authority-says",
+      "published_at": "2026-10-11T22:39:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "published_at": "2026-10-11T22:28:50+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/fresh-attack-hits-riyadh-airport-houthis-warn-airlines-against-using-saudi-airspace",
+      "published_at": "2026-10-11T18:52:07+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131740",
+      "published_at": "2026-10-11T16:21:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10112344-03",
+    "title": "תקיפת נמל התעופה הבינלאומי המלך פהד בדמאם",
+    "summary": "החות'ים שיגרו תקיפה לעבר נמל התעופה בדמאם שבמזרח סעודיה, והרשויות הסעודיות אישרו את הפגיעה ובוחנות את היקף הנזק.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T19:04:08+00:00",
+    "last_update_at": "2026-10-11T21:12:07+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת ונפגעים בתקיפה זו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21603489",
+      "published_at": "2026-10-11T21:12:07+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-authority-confirms-houthi-attack-dammam-airport",
+      "published_at": "2026-10-11T19:04:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10112344-04",
+    "title": "אזהרת החות'ים לחברות תעופה מפני שימוש במרחב האווירי הסעודי",
+    "summary": "דובר הזרוע הצבאית של החות'ים פרסם אזהרה לחברות תעופה ונוסעים להימנע משימוש בשדות תעופה ובמרחב האווירי בסעודיה, למעט במכה ובמדינה.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T11:43:08+00:00",
+    "last_update_at": "2026-10-11T18:52:07+00:00",
+    "what_is_not_verified": "רמת היכולת המעשית לסגור בפועל את כל המרחב האווירי הסעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/fresh-attack-hits-riyadh-airport-houthis-warn-airlines-against-using-saudi-airspace",
+      "published_at": "2026-10-11T18:52:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-extends-riyadh-airport-closure-after-deadly-strike",
+      "published_at": "2026-10-11T11:43:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10112344-05",
+    "title": "דיווחים על תקיפות תגובה של הקואליציה בצנעא",
+    "summary": "דיווחים על גלי תקיפות אוויריות שביצעה הקואליציה בהובלת סעודיה באזור צנעא ונמל התעופה שלה.",
+    "axis": "פנים תימן והקואליציה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T14:17:24+00:00",
+    "last_update_at": "2026-10-11T21:12:07+00:00",
+    "what_is_not_verified": "היקף הנזק, זהות היעדים ומספר הנפגעים בצנעא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21603489",
+      "published_at": "2026-10-11T21:12:07+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/skdra3uoge",
+      "published_at": "2026-10-11T14:17:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10112344-06",
+    "title": "גינוי משותף של מדינות האזור לתקיפות החות'ים",
+    "summary": "סעודיה, מצרים, פקיסטן וטורקיה פרסמו הצהרה משותפת שבה דרשו עצירה מיידית של מתקפות הטילים והכטב\"מים נגד שטח הממלכה והטילו אחריות מלאה על החות'ים.",
+    "axis": "מדיני ואזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T17:22:33+00:00",
+    "last_update_at": "2026-10-11T19:47:42+00:00",
+    "what_is_not_verified": "אילו צעדי נגד צבאיים או מדיניים יופעלו בפועל על ידי הקואליציה הזו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-saudi-arabia-egypt-and-turkey-demand-end-houthi-attacks",
+      "published_at": "2026-10-11T19:47:42+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48455",
+      "published_at": "2026-10-11T17:22:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10112344-07",
+    "title": "שיחה בין שרי החוץ של סעודיה ואיראן על ההסלמה",
+    "summary": "שרי החוץ של סעודיה ואיראן שוחחו במטרה לבחון דרכים להרגעת המתיחות האזורית, כאשר טהראן הציעה לסייע בהידברות מול תימן.",
+    "axis": "מדיני ואזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T21:33:00+00:00",
+    "last_update_at": "2026-10-11T21:46:27+00:00",
+    "what_is_not_verified": "האם השיחה תניב מגעים ישירים להפסקת אש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says",
+      "published_at": "2026-10-11T21:46:27+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1376124",
+      "published_at": "2026-10-11T21:33:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים המדויק במתקפה הראשונה בריאד (12 או 13)",
+   "טיב החימוש הספציפי שפגע בטרמינל 4 בתקיפה השנייה",
+   "היקף הנזקים והפגיעות בנמל התעופה בדמאם",
+   "דיווחים על תקיפות תגובה של הקואליציה בצנעא ותוצאותיהן",
+   "מעורבות או תקיפה ישראלית ואמריקנית אפשרית בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית (אנצאר אללה)",
+    "declared": [
+     "פגיעה בכל נמלי התעופה והמרחב האווירי בסעודיה למעט מכה ומדינה",
+     "אזהרה לחברות תעופה ונוסעים מפני שהייה בשדות התעופה הסעודיים"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ותדמיתי כבד על ההנהגה הסעודית באמצעות שיבוש התעופה והתיירות",
+     "הרתעת סעודיה מפעולה צבאית נרחבת בתימן או מעורבות במערכה האזורית הרחבה"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר מתקנים אזרחיים ותשתיות נפט בריאד ובמזרח הממלכה",
+     "סיכון להסלמה אזורית ישירה אם יימשכו הפגיעות הקטלניות באזרחים"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על ביטחון הממלכה ושלמותה הטריטוריאלית",
+     "איום בתגובה נחרצת כנגד החות'ים בעקבות הפגיעה בנמלי התעופה"
+    ],
+    "inferred": [
+     "שאיפה לשמר את תדמית היציבות הכלכלית ולמנוע בריחת חברות בינלאומיות",
+     "ניסיון לגייס לגיטימציה בינלאומית וערבית לפעולות ענישה צבאיות"
+    ],
+    "forecast": [
+     "החרפת גלי התקיפות האוויריות על מוקדי שלטון ושיגור של החות'ים בתימן",
+     "הידוק מערכי ההגנה האווירית סביב מוקדי תחבורה ונפט מרכזיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21603489",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1376124",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-saudi-arabia-egypt-and-turkey-demand-end-houthi-attacks",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-extends-riyadh-airport-closure-after-deadly-strike",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131740",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48455",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skdra3uoge",
+    "accessed_at": "2026-10-11T23:44:41+00:00"
+   }
+  ]
+ }
+}

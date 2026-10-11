@@ -1,0 +1,498 @@
+{
+ "status": "draft",
+ "received_sha256_12": "65a943d396c5",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 6,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-11T23:40:57+00:00",
+  "window": {
+   "from": "2026-10-10T23:40:57+00:00",
+   "to": "2026-10-11T23:40:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610112340"
+  },
+  "summary": "העימות האזורי מחריף עם פגיעות טילים קטלניות של החות'ים בנמל התעופה בריאד, לצד אכיפת מצור ימי אמריקאי תקיף שכולל סיכול כלי שיט במפרץ עומאן ופגיעה בייצוא הנפט האיראני. מנגד, טהראן מסרבת לפתוח את מצר הורמוז ללא הסרת המצור והסנקציות, מאיימת בהרחבת הפגיעה לתשתיות תקשורת של ארה\"ב ובעלות בריתה במפרץ, ומבצעת שיגורי ניסוי של טילים. במקביל למתיחות הצבאית, מתקיימים גישושים דיפלומטיים זהירים בין סעודיה לאיראן ובחינה אמריקאית של מעורבות ישראלית בתקיפות בתימן.",
+  "fronts": [
+   {
+    "name": "חזית המפרץ וסעודיה (החות'ים מול סעודיה)",
+    "status": "הסלמה חריפה בעקבות תקיפות טילים חוזרות על נמל התעופה בריאד ושיבוש התעופה האזרחית"
+   },
+   {
+    "name": "החזית הימית (מצר הורמוז ומפרץ עומאן)",
+    "status": "מצור אמריקאי הדוק, תקיפת ספינת משא, פיצוץ מכלית על מוקש וחסימת מעבר שמובילה איראן"
+   },
+   {
+    "name": "הציר הכלכלי והמדיני מול איראן",
+    "status": "מבוי סתום במגעים על פתיחת המצר ודרישות אמריקאיות להגבלת העשרת האורניום, לצד פגיעה קשה בהכנסות הנפט האיראניות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10112340-01",
+    "title": "מתקפות טילים וכטב\"מים של החות'ים על נמל התעופה הבינלאומי בריאד",
+    "summary": "פגיעות של קליעים וטילים ששוגרו על ידי החות'ים מתימן לעבר נמל התעופה המלך ח'אלד בבירת סעודיה גרמו לנפגעים רבים ולסגירת המרחב האווירי, כולל מתקפה שגבתה הרוגים ומתקפה עוקבת למחרת.",
+    "axis": "שלוחות איראן (החות'ים) מול סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T23:37:27+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T23:37:27+00:00",
+    "last_update_at": "2026-10-11T22:45:58+00:00",
+    "what_is_not_verified": "מספר ההרוגים המדויק במתקפה הראשונה שנוי במחלוקת (12 או 13 הרוגים), וסוג החימוש שפגע בטרמינל 4 הוגדר כקליע בלתי מזוהה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T22:45:58+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "published_at": "2026-10-11T22:28:50+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/fresh-attack-hits-riyadh-airport-houthis-warn-airlines-against-using-saudi-airspace",
+      "published_at": "2026-10-11T18:52:07+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-responsibility-deadly-riyadh-airport-attack",
+      "published_at": "2026-10-11T16:30:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-arabia-reports-injuries-new-attack-riyadh-airport-day-after-strike-kills-13",
+      "published_at": "2026-10-11T10:46:28+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "published_at": "2026-10-10T23:37:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי המלך ח'אלד, ריאד, סעודיה",
+      "lat": 24.9586,
+      "lon": 46.711
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10112340-02",
+    "title": "איראן דוחה את עמדת ארה\"ב לגבי פתיחת מצר הורמוז ומציבה תנאים לסיום העימות",
+    "summary": "מזכיר המועצה העליונה לביטחון לאומי באיראן הודיע כי תגובת וושינגטון לשבעת התנאים של טהראן אינה מספקת, ודרש את הסרת המצור הימי האמריקאי והמגבלות על ייצוא הנפט לפני פתיחת מצר הורמוז וחזרה למשא ומתן.",
+    "axis": "איראן מול ארצות הברית במצר הורמוז",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T16:55:00+00:00",
+    "last_update_at": "2026-10-11T22:18:30+00:00",
+    "what_is_not_verified": "פרטי התנאים המלאים והסעיפים הספציפיים שארה\"ב קיבלה או דחתה בתיווך קטאר אינם מפורטים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_31adb1f6f44e71e9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-us-response-falls-short-conditions-deal",
+      "published_at": "2026-10-11T22:18:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_31adb1f6f44e71e9",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient",
+      "published_at": "2026-10-11T17:46:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_31adb1f6f44e71e9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-calls-us-response-deal-conditions-inadequate",
+      "published_at": "2026-10-11T17:14:13+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_31adb1f6f44e71e9",
+      "url": "https://en.irna.ir/news/86289861/Security-chief-US-response-to-Iran-s-7-conditions-insufficient",
+      "published_at": "2026-10-11T16:55:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-03",
+    "title": "חיל הים של משמרות המהפכה מדווח על פיצוץ מכלית ענק במצר הורמוז",
+    "summary": "הזרוע הימית של משמרות המהפכה הודיעה כי מכלית נפט גולמי עלתה על מוקש ימי ונפגעה מפיצוץ עז בעת שניסתה לצאת ממצר הורמוז בנתיב בלתי מורשה.",
+    "axis": "המערכה הימית במצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T18:16:02+00:00",
+    "last_update_at": "2026-10-11T18:16:02+00:00",
+    "what_is_not_verified": "זהות המכלית, שיוכה הלאומי והיקף הנפגעים או הנזק המדויק אינם מאומתים מעבר להודעת משמרות המהפכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_b6a4d6fb31de85f4",
+      "url": "https://en.irna.ir/news/86289902/Supertanker-explodes-after-hitting-mine-in-unauthorized-Hormuz",
+      "published_at": "2026-10-11T18:16:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-04",
+    "title": "צבא ארה\"ב השבית ספינת משא במפרץ עומאן בעקבות ניסיון להפרת המצור",
+    "summary": "מטוס קרב אמריקאי תקף באמצעות חימוש מדויק את ירכתי ספינת המשא אושן מוליקה לאחר שיצאה מנמל איראני והתעלמה מאזהרות לאכוף את המצור הימי, והשבית את מערכת ההנעה שלה ללא פגיעה בצוות.",
+    "axis": "ארה\"ב מול איראן בזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T01:46:41+00:00",
+    "last_update_at": "2026-10-11T01:46:41+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לדיווח מלבד הודעת פיקוד המרכז של צבא ארה\"ב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_decf381d516a54e6",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade",
+      "published_at": "2026-10-11T01:46:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-05",
+    "title": "איומים איראניים בפגיעה בתשתיות תקשורת, נתונים ונכסים אמריקאיים במפרץ",
+    "summary": "בכירים במשטר האיראני, ובראשם מזכיר המועצה העליונה לביטחון לאומי, איימו כי אם תותקף המדינה שוב, איראן תפגע בכבלי תקשורת תת-ימיים, מרכזי נתונים, מתקני בינה מלאכותית ונכסים של ארה\"ב באיחוד האמירויות ובמצר הורמוז.",
+    "axis": "איראן מול ארה\"ב ומדינות המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T15:23:03+00:00",
+    "last_update_at": "2026-10-11T16:43:53+00:00",
+    "what_is_not_verified": "רשימת המטרות והיכולת המבצעית המדויקת לפגיעה בכבלי התקשורת ומרכזי הנתונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94600",
+      "published_at": "2026-10-11T16:43:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131741",
+      "published_at": "2026-10-11T16:30:14+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86289769/Enemy-interests-across-the-region-will-be-struck-if-Iran-is-attacked",
+      "published_at": "2026-10-11T15:23:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-06",
+    "title": "האשמות איראניות על מבצעי הברחת נפט של ארה\"ב ואיחוד האמירויות ליד עומאן",
+    "summary": "מוחסן רזאאי טען כי ממשל טראמפ מפעיל כלי שיט קטנים יחד עם צבא איחוד האמירויות ומפקד פיקוד המרכז האמריקאי להעברת נפט למכליות מחוץ למצר הורמוז, וטען כי כוחות איראניים תוקפים פעילות זו מדי לילה.",
+    "axis": "המערכה הימית במצר הורמוז ומפרץ עומאן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T15:34:01+00:00",
+    "last_update_at": "2026-10-11T16:57:53+00:00",
+    "what_is_not_verified": "אין כל אימות לקיומו של מבצע הברחה אמריקאי-אמירתי או לתקיפות איראניות ליליות נגדו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-accuses-trump-administration-oil-smuggling-near",
+      "published_at": "2026-10-11T16:57:53+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-accuses-trump-smuggling-oil-through-hormuz",
+      "published_at": "2026-10-11T15:34:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-07",
+    "title": "מגעים דיפלומטיים בין שרי החוץ של סעודיה ואיראן על רקע ההסלמה",
+    "summary": "שרי החוץ של סעודיה ואיראן שוחחו באופן פומבי לראשונה מאז גל המתקפות החות'יות, ודנו במאמצים להפחתת המתיחות האזורית ובאפשרות של סיוע איראני לדיאלוג עם תימן.",
+    "axis": "איראן מול סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T21:33:00+00:00",
+    "last_update_at": "2026-10-11T21:46:27+00:00",
+    "what_is_not_verified": "תוכן השיחה מעבר להודעות הקצרות של סוכנות הידיעות הסעודית והטלגרם של השר האיראני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says",
+      "published_at": "2026-10-11T21:46:27+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1376124",
+      "published_at": "2026-10-11T21:33:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-08",
+    "title": "השפעת הסנקציות והמצור הימי האמריקאי על ייצוא הנפט של איראן",
+    "summary": "שר האוצר האמריקאי הצהיר כי תזרים המזומנים של איראן שלילי ושאין לה משלוחי נפט פעילים בים, בעוד 19 מיכליות איראניות תקועות מול חופי סרי לנקה מחשש לסנקציות.",
+    "axis": "המערכה הכלכלית והמצור האמריקאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:25:09+00:00",
+    "last_update_at": "2026-10-11T14:34:21+00:00",
+    "what_is_not_verified": "הטענה המוחלטת כי אין לאיראן אף משלוח נפט בים אינה מאומתת ממקורות נוספים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131731",
+      "published_at": "2026-10-11T14:34:21+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131727",
+      "published_at": "2026-10-11T13:58:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131715",
+      "published_at": "2026-10-11T08:25:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-09",
+    "title": "מגעים בין ארה\"ב לצה\"ל לבחינת פעולה ישראלית נגד החות'ים בתימן",
+    "summary": "גורמים אמריקאיים בחנו מול הרמטכ\"ל הישראלי אפשרות שצה\"ל יבצע תקיפות נגד החות'ים, כאשר הרמטכ\"ל הזהיר מפני הסלמה אפשרית שתשפיע על המערכת הפוליטית בישראל.",
+    "axis": "ישראל וארה\"ב מול שלוחות איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T21:40:28+00:00",
+    "last_update_at": "2026-10-11T21:40:28+00:00",
+    "what_is_not_verified": "תוכן השיחה בין הצדדים וההחלטות המבצעיות שנגזרו ממנה לא אושרו רשמית בידי צה\"ל או הפנטגון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sykug00time",
+      "published_at": "2026-10-11T21:40:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10112340-10",
+    "title": "תרגיל צבאי של משמרות המהפכה באיראן ושיגורי ניסוי של טילים",
+    "summary": "משמרות המהפכה קיימו תרגיל צבאי נרחב במספר ערים באיראן, אשר במסגרתו בוצעו שיגורי ניסוי של עשרות טילים.",
+    "axis": "המוכנות הצבאית של איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T11:06:43+00:00",
+    "last_update_at": "2026-10-11T11:06:43+00:00",
+    "what_is_not_verified": "דגמי הטילים המדויקים, מיקומי השיגור המלאים והיקף התרגיל לא אומתו באופן רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94591",
+      "published_at": "2026-10-11T11:06:43+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים המדויק במתקפה הראשונה בריאד (דיווחים שנעים בין 12 ל-13 הרוגים).",
+   "סוג הקליע או הטיל שפגע בטרמינל 4 בנמל התעופה ח'אלד ב-11 באוקטובר.",
+   "הטענה האיראנית לפעילות הברחת נפט משותפת של ארה\"ב, פיקוד המרכז ואיחוד האמירויות לחופי עומאן.",
+   "טענת איראן כי היא תוקפת כלי שיט מבריחים מדי לילה סמוך לעומאן.",
+   "טענת שר האוצר של ארה\"ב כי לאיראן אין כעת אף משלוח נפט פעיל בים.",
+   "זהות המכלית שעלתה על מוקש במצר הורמוז והיקף הנזק הממשי שנגרם לה.",
+   "פרטי התנאים והמגעים החשאיים בין ארה\"ב לאיראן שהועברו בתיווך קטאר.",
+   "קיומו ומטרותיו המדויקות של תרגיל הטילים של משמרות המהפכה ברחבי איראן."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הסרת המצור הימי של ארה\"ב וביטול המגבלות על ייצוא הנפט כתנאי לפתיחת מצר הורמוז",
+     "נכונות לסייע בדיאלוג בין סעודיה לתימן להרגעת המתיחות",
+     "איום בהשמדת מרכזי נתונים, מתקני בינה מלאכותית וכבלי תקשורת באזור אם תותקף"
+    ],
+    "inferred": [
+     "מינוף הלחץ הצבאי של החות'ים על סעודיה וסגירת המצר כדי לשבור את הסנקציות הכלכליות",
+     "הרתעת ארה\"ב ובעלות בריתה מהרחבת המערכה הישירה לשטח איראן"
+    ],
+    "forecast": [
+     "המשך חסימת מצר הורמוז ושיבוש תנועת המכליות עד להשגת הקלות במצור הכלכלי",
+     "הגברת האיומים והחיכוך מול נכסים אמריקאיים באיחוד האמירויות ובמפרץ"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "שמירה על המצור הימי והשבתת כלי שיט המפרים אותו במפרץ עומאן",
+     "דרישה לצמצום משמעותי ביכולת העשרת האורניום של איראן כתנאי להסכם",
+     "בחינת אפשרות להצטרפות לתקיפות נגד החות'ים וחידוש תקיפות באיראן"
+    ],
+    "inferred": [
+     "חניקת מקורות ההכנסה מנפט של איראן כדי לכפות ויתורים מדיניים וגרעיניים",
+     "מניעת הסלמה אזורית רחבה שתשפיע על מחירי האנרגיה לפני הבחירות בארה\"ב"
+    ],
+    "forecast": [
+     "המשך אכיפה קשיחה של המצור הימי ופגיעה בספינות סוחר המפרות אותו",
+     "אפשרות להוצאת תקיפות ממוקדות בתימן בשיתוף סעודיה או ישראל"
+    ]
+   },
+   {
+    "actor": "שלוחות איראן (החות'ים)",
+    "declared": [
+     "סגירת המרחב האווירי הסעודי ופגיעה בנמלי תעופה ובמתקני אנרגיה של אראמקו",
+     "אזהרת חברות תעופה ועובדים מפני שהייה בנמלי תעופה סעודיים למעט מכה ומדינה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כבד על הממלכה הסעודית לניתוק מהקואליציה האמריקאית-ישראלית",
+     "חיזוק מעמדם כזרוע התקפית מרכזית של הציר מול בעלות הברית של ארה\"ב"
+    ],
+    "forecast": [
+     "המשך ירי טילים וכלי טיס בלתי מאוישים לעבר יעדים אזרחיים ותשתיות נפט במפרץ",
+     "גרירת סעודיה וארה\"ב לתגובה צבאית רחבה יותר בשטח תימן"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "אישור הפגיעות בנמל התעופה הבינלאומי בריאד והבטחה להגיב על המתקפות",
+     "קיום שיחות דיפלומטיות עם איראן לבחינת דרכים להורדת המתיחות"
+    ],
+    "inferred": [
+     "שאיפה להגן על ביטחון התעופה והתשתיות האזרחיות ללא כניסה למלחמה אזורית כוללת",
+     "בחינת חידוש פעולות צבאיות יזומות בתימן מול התגברות הלחץ הציבורי והאזורי"
+    ],
+    "forecast": [
+     "שילוב בין מאמצי תיווך דיפלומטי מול טהראן לבין היערכות לפעולות תגמול צבאיות נגד החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86289769/Enemy-interests-across-the-region-will-be-struck-if-Iran-is-attacked",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1376124",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-accuses-trump-smuggling-oil-through-hormuz",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131715",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94591",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sykug00time",
+    "accessed_at": "2026-10-11T23:40:57+00:00"
+   }
+  ]
+ }
+}

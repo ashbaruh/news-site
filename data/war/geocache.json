@@ -263,6 +263,7 @@
 35.4212
 ],
 "bekaa, lebanon": null,
+"belgorod oblast, russia": null,
 "bezruky, ukraine": [
 50.0077,
 34.6354
@@ -366,6 +367,10 @@
 33.5131,
 36.3096
 ],
+"dammam, saudi arabia": [
+26.4368,
+50.104
+],
 "daraa countryside, syria": null,
 "daraa, syria": [
 32.6228,
@@ -376,6 +381,10 @@
 35.8994
 ],
 "deir ez-zor, syria": [
+35.3333,
+40.15
+],
+"deir ezzor, syria": [
 35.3333,
 40.15
 ],
@@ -450,6 +459,10 @@
 29.9163
 ],
 "france": null,
+"froun, lebanon": [
+33.2968,
+35.4265
+],
 "gdansk, poland": [
 54.3707,
 18.613
@@ -471,6 +484,7 @@
 24.2138,
 58.9846
 ],
+"gulf of oman, oman": null,
 "gumdag, turkmenistan": [
 39.2024,
 54.5875
@@ -506,6 +520,7 @@
 "hasakah, syria": null,
 "hawsh al-sayyed ali, lebanon": null,
 "hawsh as-sayyid ali, lebanon": null,
+"hawsh bint ismail, lebanon": null,
 "hawsh sayyid ali, lebanon": null,
 "henichesk, ukraine": [
 46.1662,
@@ -581,6 +596,10 @@
 "istanbul, turkey": [
 41.0064,
 28.9759
+],
+"ivano-frankivsk, ukraine": [
+48.9225,
+24.7103
 ],
 "jabal bazel, yemen": null,
 "jabal han, yemen": [
@@ -799,6 +818,7 @@
 40.3757,
 -76.4626
 ],
+"lebanon border, israel": null,
 "lebanon-syria border": null,
 "liege, belgium": [
 50.6451,
@@ -981,6 +1001,7 @@
 17.544,
 44.2247
 ],
+"nasib border crossing, syria": null,
 "new delhi, india": [
 28.6139,
 77.209
@@ -1060,6 +1081,7 @@
 32.722
 ],
 "oman": null,
+"oman coastal waters, oman": null,
 "omsk, russia": [
 54.9914,
 73.3715
@@ -1528,6 +1550,10 @@
 "yaroslavl, russia": [
 57.6264,
 39.8934
+],
+"yater, lebanon": [
+33.1555,
+35.3317
 ],
 "yemen": null,
 "yohmor al-shaqif, lebanon": [

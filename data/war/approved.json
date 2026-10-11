@@ -135,7 +135,11 @@
   "drafts/iran/2026-10-11T1020__iran-claude-202610111020.json",
   "drafts/north/2026-10-11T1020__north-claude-202610111020.json",
   "drafts/ukraine/2026-10-11T1020__ukraine-claude-202610111020.json",
-  "drafts/yemen/2026-10-11T1020__yemen-claude-202610111020.json"
+  "drafts/yemen/2026-10-11T1020__yemen-claude-202610111020.json",
+  "drafts/iran/2026-10-11T2340__iran-202610112340.json",
+  "drafts/north/2026-10-11T2345__north-202610112345.json",
+  "drafts/ukraine/2026-10-11T2342__ukraine-202610112342.json",
+  "drafts/yemen/2026-10-11T2344__yemen-202610112344.json"
  ],
  "auto": [
   "drafts/iran/2026-09-19T1041__iran-202609191041.json",
@@ -249,6 +253,10 @@
   "drafts/iran/2026-10-10T2340__iran-202610102340.json",
   "drafts/ukraine/2026-10-10T2341__ukraine-202610102341.json",
   "drafts/north/2026-10-11T0622__north-202610110622.json",
-  "drafts/yemen/2026-10-11T0621__yemen-202610110621.json"
+  "drafts/yemen/2026-10-11T0621__yemen-202610110621.json",
+  "drafts/iran/2026-10-11T2340__iran-202610112340.json",
+  "drafts/north/2026-10-11T2345__north-202610112345.json",
+  "drafts/ukraine/2026-10-11T2342__ukraine-202610112342.json",
+  "drafts/yemen/2026-10-11T2344__yemen-202610112344.json"
  ]
 }

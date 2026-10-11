@@ -1,0 +1,496 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e459323bf57d",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-11T23:42:39+00:00",
+  "window": {
+   "from": "2026-10-10T23:42:39+00:00",
+   "to": "2026-10-11T23:42:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610112342"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במלוא עוצמתה עם תקיפות הדדיות על ערי עורף ותשתיות אסטרטגיות. כוחות רוסיים המשיכו לפגוע במתקני אנרגיה ובמטרות עירוניות בחרקוב ובמערב אוקראינה, בעוד אוקראינה ביצעה תקיפות כטב\"מים לעבר יעדים טכנולוגיים וצבאיים בתוך שטח רוסיה. במקביל למאמצי תיווך אמריקניים להפסקת אש בתחום האנרגיה, הצדדים מציגים עמדות סותרות ואין אישור על הפסקה בפועל של האש.",
+  "fronts": [
+   {
+    "name": "חזית חרקוב",
+    "status": "תקיפות טילים ורחפנים רוסיות על מתקני אנרגיה ואזורים אזרחיים"
+   },
+   {
+    "name": "מערב אוקראינה",
+    "status": "פגיעות כטב\"מים רוסיים במבנים אזרחיים ותשתיות באיוונו-פרנקיבסק"
+   },
+   {
+    "name": "העורף הרוסי",
+    "status": "תקיפות כטב\"מים אוקראיניות על מרכזי נתונים ותשתיות במחוז מוסקבה ובלגורוד"
+   },
+   {
+    "name": "חזית דונצק (DPR)",
+    "status": "תקיפות ופגיעות במבני מגורים ותשתיות אזרחיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10112342-01",
+    "title": "תקיפת טילים רוסית ליד חרקוב",
+    "summary": "טיל רוסי פגע בפרברי חרקוב בסמוך למכולת ולמבני מגורים, וכתוצאה מכך נהרגו שלושה בני אדם ונפצעו בין 9 ל-25 אנשים.",
+    "axis": "חזית חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T17:29:17+00:00",
+    "last_update_at": "2026-10-11T23:32:31+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק אינו אחיד בדיווחים ונע בין תשעה לעשרים וחמישה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_a79ffe739c3cf6ae",
+      "url": "https://kyivindependent.com/3-killed-25-injured-in-russian-strike-near-kharkiv/",
+      "published_at": "2026-10-11T23:32:31+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_a79ffe739c3cf6ae",
+      "url": "https://www.ukrinform.net/rubric-ato/4173367-russian-missile-strike-on-kharkiv-suburbs-three-dead-injury-toll-rises-22.html",
+      "published_at": "2026-10-11T20:57:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a79ffe739c3cf6ae",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057502/",
+      "published_at": "2026-10-11T20:36:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_a79ffe739c3cf6ae",
+      "url": "https://t.me/alexmehacarmel/48456",
+      "published_at": "2026-10-11T17:29:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10112342-02",
+    "title": "פגיעה רוסית במתקן אנרגיה בחרקוב",
+    "summary": "כוחות רוסיים תקפו מתקן אנרגיה ותחנת כוח תרמית בחרקוב באמצעות טילים ורחפנים, ונזק נגרם לתשתיות החשמל.",
+    "axis": "חזית חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T16:47:00+00:00",
+    "last_update_at": "2026-10-11T21:07:02+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_7e4a837dc4f86382",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21603491",
+      "published_at": "2026-10-11T21:07:02+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_7e4a837dc4f86382",
+      "url": "https://www.ukrinform.net/rubric-ato/4173366-russian-forces-attack-energy-facility-in-kharkiv-suburbs.html",
+      "published_at": "2026-10-11T20:41:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_7e4a837dc4f86382",
+      "url": "https://www.ukrinform.net/rubric-polytics/4173361-zelensky-briefs-von-der-leyen-on-russian-strikes-on-energy-infrastructure-after-trumps-ceasefire-announcement.html",
+      "published_at": "2026-10-11T19:48:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_7e4a837dc4f86382",
+      "url": "https://kyivindependent.com/russia-struck-kharkivs-power-plant-shortly-after-trump-announced-energy-ceasefire/",
+      "published_at": "2026-10-11T17:21:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c4f187f9778acdcb",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057500/",
+      "published_at": "2026-10-11T16:47:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10112342-03",
+    "title": "מתקפת כטב\"מים רוסית באיוונו-פרנקיבסק",
+    "summary": "מתקפת כטב\"מים רוסית פגעה במבנה בעיר איוונו-פרנקיבסק במערב אוקראינה וגרמה למותם של שלושה בני אדם ולפציעת נוספים.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T18:49:00+00:00",
+    "last_update_at": "2026-10-11T20:40:00+00:00",
+    "what_is_not_verified": "האם ההרוגים היו אנשי צבא כפי שדווח במקור אחד או אזרחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_2aecea5b09d56369",
+      "url": "https://kyivindependent.com/russian-drone-strike-kills-3-service-members-in-ivano-frankivsk-wounds-3-others/",
+      "published_at": "2026-10-11T20:40:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_2aecea5b09d56369",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057505/",
+      "published_at": "2026-10-11T18:49:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איוונו-פרנקיבסק, אוקראינה",
+      "lat": 48.9225,
+      "lon": 24.7103
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10112342-04",
+    "title": "תקיפות כטב\"מים אוקראיניות על מרכז נתונים ומטרות ברוסיה",
+    "summary": "אוקראינה שיגרה כטב\"מים לעבר מרכז נתונים של חברת יאנדקס ולעבר מחוז מוסקבה ומחוז בלגורוד, מה שגרם לשיבושים, נפגעים ונזק.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T14:38:10+00:00",
+    "last_update_at": "2026-10-11T20:12:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2200595",
+      "published_at": "2026-10-11T20:12:55+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48458",
+      "published_at": "2026-10-11T18:43:52+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21600896",
+      "published_at": "2026-10-11T14:49:33+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hykbrfkimx",
+      "published_at": "2026-10-11T14:39:26+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T14:38:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10112342-05",
+    "title": "הצהרת ארצות הברית על הפסקת אש אנרגטית ותגובות הצדדים",
+    "summary": "הנשיא דונלד טראמפ הכריז על הסכמה להפסקת אש הדדית בתשתיות האנרגיה; אוקראינה הביעה נכונות בתנאי להדדיות אך דיווחה על תקיפות רוסיות מתמשכות, ואילו ברוסיה לא אישרו את ההסכמה.",
+    "axis": "משא ומתן ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T14:24:40+00:00",
+    "last_update_at": "2026-10-11T21:36:40+00:00",
+    "what_is_not_verified": "קיומה של הסכמה רוסית רשמית להפסקת אש אנרגטית אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T21:36:40+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T20:55:02+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
+      "published_at": "2026-10-11T18:36:54+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://kyivindependent.com/to-keep-oil-prices-from-rising-russian-lawmaker-questions-trumps-energy-ceasefire-claim/",
+      "published_at": "2026-10-11T18:35:42+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://t.me/alexmehacarmel/48457",
+      "published_at": "2026-10-11T18:07:44+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+      "published_at": "2026-10-11T17:21:39+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://t.me/alexmehacarmel/48454",
+      "published_at": "2026-10-11T16:22:47+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_b1544f630f23bcbd",
+      "url": "https://t.me/abualiexpress/131730",
+      "published_at": "2026-10-11T14:24:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10112342-06",
+    "title": "העברת סיוע צבאי מאסטוניה והאיחוד האירופי לאוקראינה",
+    "summary": "מתנדבים אסטונים מסרו 13 כלי רכב לכוחות הביטחון של אוקראינה בז'יטומיר, ובמקביל הודיע האיחוד האירופי על העברת חבילת מימון צבאי בסך שלושה מיליארד אירו.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T22:16:42+00:00",
+    "last_update_at": "2026-10-11T22:32:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_20b3efddac3a248a",
+      "url": "https://www.ukrinform.net/rubric-defense/4173161-estonian-volunteers-deliver-13-vehicles-to-ukraines-defense-forces-in-zhytomyr.html",
+      "published_at": "2026-10-11T22:32:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_20b3efddac3a248a",
+      "url": "https://kyivindependent.com/eu-to-provide-ukraine-with-3-billion-euro-tranche-of-military-funding-this-week/",
+      "published_at": "2026-10-11T22:16:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ז'יטומיר, אוקראינה",
+      "lat": 50.2601,
+      "lon": 28.6696
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10112342-07",
+    "title": "אוקראינה הטילה סנקציות על יצרניות טילים רוסיות",
+    "summary": "נשיא אוקראינה חתם על צווים המטילים סנקציות על גופים ויחידים הקשורים לייצור טילים בליסטיים ברוסיה.",
+    "axis": "סנקציות ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T20:27:00+00:00",
+    "last_update_at": "2026-10-11T20:27:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_b4371bd58048cd80",
+      "url": "https://www.ukrinform.net/rubric-polytics/4173363-ukraine-imposes-sanctions-on-russian-ballistic-missile-manufacturers.html",
+      "published_at": "2026-10-11T20:27:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10112342-08",
+    "title": "דיווח על פגיעה במשגרי טילים בליסטיים רוסיים",
+    "summary": "שר ההגנה של אוקראינה הודיע כי כוחותיו פגעו בשמונה משגרי טילים בליסטיים של רוסיה במהלך החודשיים האחרונים, מהם שלושה הושמדו וחמישה ניזוקו.",
+    "axis": "העימות הצבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T16:22:00+00:00",
+    "last_update_at": "2026-10-11T16:22:00+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או רוסי לפגיעה במשגרי הטילים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_500d0dbb821a6f39",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057498/",
+      "published_at": "2026-10-11T16:22:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "קיומה והסכמתה של רוסיה להפסקת אש אנרגטית עליה הכריז טראמפ",
+   "הטענה לפגיעה והשמדה של שמונה משגרי טילים בליסטיים רוסיים",
+   "מספר הפצועים הסופי בתקיפה ליד המכולת בחרקוב (בין 9 ל-25)",
+   "הדיווחים על איומי ארצות הברית לעצור אספקת נשק או מודיעין לאוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1206,
+    "unit": "USD",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "מוכנות לעצירת תקיפות על מתקני אנרגיה רוסיים בתנאי שרוסיה תפסיק לתקוף תשתיות אנרגיה אוקראיניות",
+     "קיום בחירות בתנאי של הפסקת אש בת שישים יום",
+     "החמרת הסנקציות על תעשיית הטילים הרוסית ושימוש בנכסים רוסיים מוקפאים"
+    ],
+    "inferred": [
+     "שאיפה לשמר את אספקת האנרגיה והחשמל לקראת החורף",
+     "המשך פגיעה בעומק הרוסי כדי להפעיל לחץ כלכלי וטכנולוגי על מוסקבה"
+    ],
+    "forecast": [
+     "המשך פיתוח והפעלה של כטב\"מים ליירוט ולתקיפות ארוכות טווח",
+     "הגברת הלחץ הדיפלומטי על מדינות אירופה להמשך סיוע צבאי וכלכלי עצמאי"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הכחשת ידיעה או הסכמה לגבי הפסקת אש אנרגטית על ידי גורמים בפרלמנט",
+     "המשך הגנה על אזורי הגבול ומחוזות העימות"
+    ],
+    "inferred": [
+     "רצון להשבית את מערכת החשמל והאנרגיה האוקראינית כדי לשבור את יכולת העמידה",
+     "ניסיון למנוע פגיעה במחירי הנפט והסחר בדלקים מול שווקים זרים"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר מתקני ייצור חשמל בערים מרכזיות באוקראינה",
+     "הימנעות מהתחייבות להפסקת אש כוללת ללא השגת תנאים מדיניים נוחים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הכרזה על כניסתה לתוקף של הפסקת אש מיידית בתחום האנרגיה בין שני הצדדים",
+     "השגת עסקה לאספקת סולר מרוסיה להורדת מחירי הדלק"
+    ],
+    "inferred": [
+     "שאיפה לייצב את מחירי האנרגיה העולמיים והמקומיים",
+     "הפעלת לחץ על אוקראינה לחדול מתקיפת בתי זיקוק רוסיים"
+    ],
+    "forecast": [
+     "המשך מחלוקות עם ההנהגה האוקראינית בנוגע למדיניות הסיוע והתקיפות בעומק רוסיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21600896",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/eu-to-provide-ukraine-with-3-billion-euro-tranche-of-military-funding-this-week/",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057498/",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2200595",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131730",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48454",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4173363-ukraine-imposes-sanctions-on-russian-ballistic-missile-manufacturers.html",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hykbrfkimx",
+    "accessed_at": "2026-10-11T23:42:39+00:00"
+   }
+  ]
+ }
+}

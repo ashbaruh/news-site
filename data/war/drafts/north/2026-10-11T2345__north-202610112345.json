@@ -1,0 +1,505 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ed37c0d2775f",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1,
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-11T23:45:40+00:00",
+  "window": {
+   "from": "2026-10-10T23:45:40+00:00",
+   "to": "2026-10-11T23:45:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610112345"
+  },
+  "summary": "הגזרה הדרומית בלבנון נותרת מתוחה על רקע החזקת רצועת שטח בידי ישראל, ירי ארטילרי ואווירי ספורדי, ופגיעה באזרחים מקומיים על אף קיומו של הסכם מסגרת שנחתם ביוני. במקביל נרשמות התרעות אוויריות ופעילות יירוט ישראלית, לצד סירוב חיזבאללה להתפרק מנשקו וחשש דיפלומטי מסיום פעילות יוניפי\"ל ללא מנגנון פיקוח חלופי. בסוריה ממשיכה פעילות חשאית של חוליות בהכוונה איראנית המהוות מוקד תקיפה ישראלי, בעוד המדינה מתמודדת עם הברחות נשק וסמים בגבולותיה ומצוקה תקציבית.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "לחימה ספורדית, החזקת רצועת שטח ופגיעות בירי ונפלים תוך הפרת הסכמים"
+   },
+   {
+    "name": "גבול ישראל - לבנון",
+    "status": "כוננות ביטחונית גבוהה, יירוטים של איומים אוויריים וסריקות לחשד לחדירות"
+   },
+   {
+    "name": "דרום סוריה ובקעת הלבנון",
+    "status": "פעילות של חוליות בהכוונה איראנית וסיכולים ישראליים ממוקדים"
+   },
+   {
+    "name": "גבולות סוריה הפנימיים (ירדן, עיראק ולבנון)",
+    "status": "מבצעי סיכול הברחות סמים ורשתות פשיעה חוצות גבול"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10112345-01",
+    "title": "הרוגים מירי ומשרידי אמל\"ח בדרום לבנון במהלך מסיק זיתים",
+    "summary": "שני אזרחים נהרגו בדרום לבנון באזור בינת ג'בייל, האחד מירי ארטילרי או טנקים ישראלי בפאתי יאטר, והשני מהתפוצצות נפל תחמושת קודם בכפר פרון בעת מסיק זיתים.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T15:35:29+00:00",
+    "last_update_at": "2026-10-11T20:46:45+00:00",
+    "what_is_not_verified": "קיימת סתירה לגבי סוג הירי (ארטילריה או טנק), ומידת מעורבות הנפגעים מוגדרת בחלקה כאזרחית ובחלקה כאיש צבא בדימוס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/two-killed-near-israeli-occupied-area-in-south-lebanon?traffic_source=rss",
+      "published_at": "2026-10-11T20:46:45+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/two-killed-near-israeli-occupied-zone-south-lebanon",
+      "published_at": "2026-10-11T19:57:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/two-killed-during-olive-harvest-south-lebanon",
+      "published_at": "2026-10-11T15:35:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יאטר, לבנון",
+      "lat": 33.1555,
+      "lon": 35.3317
+     },
+     {
+      "name": "פרון, לבנון",
+      "lat": 33.2968,
+      "lon": 35.4265
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10112345-02",
+    "title": "שיגור מיירט לעבר מטרה אווירית חשודה בדרום לבנון",
+    "summary": "מערכת הגנה שיגרה מיירט אל עבר מטרה חשודה שזוהתה מעל אזור פעילות כוחות צה\"ל בדרום לבנון, ללא הפעלת התרעות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T16:39:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T16:39:08+00:00",
+    "last_update_at": "2026-10-11T16:43:34+00:00",
+    "what_is_not_verified": "תוצאות היירוט ומהות המטרה נותרו בבדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957090",
+      "published_at": "2026-10-11T16:43:34+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94599",
+      "published_at": "2026-10-11T16:40:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131742",
+      "published_at": "2026-10-11T16:39:22+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25338",
+      "published_at": "2026-10-11T16:39:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10112345-03",
+    "title": "סריקות בגליל המערבי בעקבות חשד לחדירה אווירית מלבנון",
+    "summary": "כוחות ביטחון ישראליים ערכו סריקות סמוך לגבול לבנון בעקבות אזעקות וזיהוי עצם אווירי לא מזוהה, כולל בדיקת אפשרות של חדירת מצנח ממונע.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T04:54:05+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T04:54:05+00:00",
+    "last_update_at": "2026-10-11T15:59:11+00:00",
+    "what_is_not_verified": "מהות האיום אינה ידועה, ולא אומת אם הכלי שב לשטח לבנון או חדר לישראל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21601241",
+      "published_at": "2026-10-11T15:59:11+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957000",
+      "published_at": "2026-10-11T04:54:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ערב אל-עראמשה, ישראל",
+      "lat": 33.0886,
+      "lon": 35.2265
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10112345-04",
+    "title": "פציעה קשה של חייל צה\"ל בתקרית מבצעית בגבול לבנון",
+    "summary": "דיווח על פציעה קריטית של חייל ישראלי במהלך פעילות מבצעית בגבול עם לבנון ופינויו המוסק לבית חולים.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T15:36:38+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T15:36:38+00:00",
+    "last_update_at": "2026-10-11T15:36:38+00:00",
+    "what_is_not_verified": "הפרטים נסמכים על כלי תקשורת ישראליים כפי שצוטטו ברשת אל-מנאר, ללא אישור רשמי ישיר בטקסט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/137002/",
+      "published_at": "2026-10-11T15:36:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10112345-05",
+    "title": "תקיפות אוויריות וארטילריות ישראליות בלבנון",
+    "summary": "כלי טיס וארטילריה ישראליים ביצעו תקיפות במספר מוקדים בדרום לבנון, בהם כפר תבנית ואל-מנצורי, לצד נוכחות מטוסי קרב מעל ביירות והבקאע.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T09:47:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T09:47:31+00:00",
+    "last_update_at": "2026-10-11T11:27:42+00:00",
+    "what_is_not_verified": "הנזקים ומטרות התקיפה המדויקות לא פורטו מעבר לדיווחים כלליים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-renews-airstrikes-artillery-shelling-in-southern-lebanon-despite-us-deal/4085106",
+      "published_at": "2026-10-11T11:27:42+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94586",
+      "published_at": "2026-10-11T10:21:11+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131720",
+      "published_at": "2026-10-11T09:47:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     },
+     {
+      "name": "אל-מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10112345-06",
+    "title": "פגיעה בפעיל חוליות טרור סוריות-איראניות בגבול סוריה-לבנון",
+    "summary": "צה\"ל תקף כלי רכב ובו פעיל טרור סורי הפועל בהכוונה איראנית ומקדם ירי תלול מסלול וכטב\"מים בדרום סוריה, בעת ששהה בצפון בקעת הלבנון סמוך לגבול.",
+    "axis": "סוריה - ציר איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T10:33:27+00:00",
+    "last_update_at": "2026-10-11T10:33:27+00:00",
+    "what_is_not_verified": "תוצאות התקיפה אינן ברורות, וייתכן שהפעיל נפצע ולא נהרג; השתייכותו ליחידה ספציפית נשענת על הערכות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/iran-remains-active-in-southern-syria-local-networks-and-an-ongoing-threat-to-israel/",
+      "published_at": "2026-10-11T10:33:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10112345-07",
+    "title": "סיכולי הברחות סמים חוצי-גבולות בסוריה",
+    "summary": "הרשויות בסוריה הודיעו על תפיסת משלוחי קפטגון ומתאמפטמין במעבר נסיב בדרום המדינה ובאזור דיר א-זור ואל-חסכה, אשר יועדו להברחה מאזור הגבול עם עיראק ולעבר ירדן ולבנון.",
+    "axis": "סוריה - פנים וגבולות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T19:27:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T19:27:56+00:00",
+    "last_update_at": "2026-10-11T19:27:56+00:00",
+    "what_is_not_verified": "זהות חלק מחברי הרשתות נמסרה בראשי תיבות בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/10/syria-foils-drug-smuggling-on-iraq-and-jordan-borders/",
+      "published_at": "2026-10-11T19:27:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר א-זור, סוריה",
+      "lat": 35.3333,
+      "lon": 40.15
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10112345-08",
+    "title": "משפחות סוריות דורשות שחרור עצורים המוחזקים בידי ישראל",
+    "summary": "התארגנות ודרישה פומבית של משפחות בסוריה לשחרור קרוביהן הנמצאים במעצר בישראל.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T20:24:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T20:24:19+00:00",
+    "last_update_at": "2026-10-11T20:24:19+00:00",
+    "what_is_not_verified": "זהות העצורים, מספרם ונסיבות החזקתם אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/syrian-families-demand-release-of-detainees-held-by-israel?traffic_source=rss",
+      "published_at": "2026-10-11T20:24:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10112345-09",
+    "title": "הצהרת שר הביטחון הישראלי נגד סיוע טורקי לחמאס",
+    "summary": "שר הביטחון הישראלי מתח ביקורת על הנהגת טורקיה בגין אירוח פעילי חמאס וסיוע להם, והשמיע איומי סיכול כלפי הנהגת הארגון.",
+    "axis": "טורקיה - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T12:09:22+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T12:09:22+00:00",
+    "last_update_at": "2026-10-11T12:09:22+00:00",
+    "what_is_not_verified": "אין אימות נוסף או תגובה רשמית מצד טורקיה בטקסט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94594",
+      "published_at": "2026-10-11T12:09:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10112345-10",
+    "title": "מגעים לקראת סיום פעילות יוניפי\"ל בדרום לבנון",
+    "summary": "בלבנון מביעים חשש מסיום מנדט יוניפי\"ל ללא כוח חלופי בשל התנגדות ישראלית ואמריקנית, לצד סירוב צבא לבנון למגעים צבאיים ישירים עם ישראל.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T14:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T14:00:00+00:00",
+    "last_update_at": "2026-10-11T14:00:00+00:00",
+    "what_is_not_verified": "האופן שבו יפוקח הגבול ללא מנגנון בינלאומי אינו פתור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962271/pressure-mounts-in-the-south-lebanon-faces-unifil-exit-without-a-repla/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962271",
+      "published_at": "2026-10-11T14:00:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "תוצאות הפגיעה ביוסף עלי אל-חסון ומידת פציעתו או מותו",
+   "שיוכו הארגוני המדויק של אל-חסון ליחידה 840 של כוח קודס או לארגון המודיעין של משמרות המהפכה",
+   "סוג הכלי שחדר מלבנון לאזור הגליל המערבי והאם שב לשטח לבנון",
+   "תוצאות יירוט המטרה האווירית החשודה בדרום לבנון",
+   "זהות העצורים הסורים המוחזקים בישראל ומספרם",
+   "נסיבות התקרית בה נפצע קשה חייל צה\"ל בגבול לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות איומים אוויריים וקרקעיים סמוך לגבול הצפוני",
+     "הפסקת מנדט יוניפי\"ל וסירוב להכנסת כוח חלופי בינלאומי ללא הסדרים ישירים"
+    ],
+    "inferred": [
+     "שימור רצועת חיץ של כ-10 קילומטרים בדרום לבנון לשם מניעת התקרבות חיזבאללה",
+     "סיכול ממוקד של התארגנויות איראניות בציר סוריה-לבנון הפועלות באמצעות כטב\"מים ורקטות"
+    ],
+    "forecast": [
+     "המשך סיכולים נקודתיים ופעולות הנדסיות במרחב המוחזק בדרום לבנון",
+     "החרפת החיכוך עם צבא לבנון והתושבים המקומיים ככל שתהליך המסיק יימשך"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "סירוב להתפרק מנשקו במסגרת תוכניות הממשלה הלבנונית"
+    ],
+    "inferred": [
+     "שימור יכולות הרקטות והכטב\"מים ושיקום תשתיות הפיקוד לאחר פגיעות קודמות",
+     "הפעלת חוליות משניות בסוריה ובגבול לבנון להטרדת כוחות ישראליים במרחב"
+    ],
+    "forecast": [
+     "התמדה בסירוב להתפרק מנשק מול הממשל בלבנון לצד פעילות תת-קרקעית ואימוץ מתווה לחימה א-סימטרי"
+    ]
+   },
+   {
+    "actor": "צבא וממשלת לבנון",
+    "declared": [
+     "הגדרת התקיפות הישראליות כהפרה בוטה של ההסכמים שנחתמו ביוני",
+     "סירוב לקיים תקשורת צבאית ישירה מול צבא ישראל"
+    ],
+    "inferred": [
+     "ניסיון למנוע קריסה מוחלטת של מנגנוני הפיקוח הבינלאומיים של האו\"ם",
+     "הרחקת אזרחים מאזורי החיכוך כדי לצמצם נפגעים"
+    ],
+    "forecast": [
+     "הישענות גוברת על לחץ דיפלומטי בינלאומי לקראת נסיגת כוחות יוניפי\"ל הצפויה"
+    ]
+   },
+   {
+    "actor": "איראן ורשתות חסות בסוריה",
+    "declared": [],
+    "inferred": [
+     "שימור הציר הלוגיסטי והמבצעי בין סוריה לבקעת הלבנון חרף נפילת משטר אסד",
+     "הפעלת פעילים מקומיים בסוריה לאיסוף ותקיפת כוחות ישראליים באמצעים תלולי מסלול"
+    ],
+    "forecast": [
+     "המשך ניסיונות תיאום של חוליות מקומיות בסוריה תחת לחץ תקיפות מתמיד מצד ישראל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/syrian-families-demand-release-of-detainees-held-by-israel?traffic_source=rss",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/iran-remains-active-in-southern-syria-local-networks-and-an-ongoing-threat-to-israel/",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/137002/",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-renews-airstrikes-artillery-shelling-in-southern-lebanon-despite-us-deal/4085106",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/10/syria-foils-drug-smuggling-on-iraq-and-jordan-borders/",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21601241",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962271/pressure-mounts-in-the-south-lebanon-faces-unifil-exit-without-a-repla/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962271",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/two-killed-during-olive-harvest-south-lebanon",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131720",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25338",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94594",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957000",
+    "accessed_at": "2026-10-11T23:45:40+00:00"
+   }
+  ]
+ }
+}
