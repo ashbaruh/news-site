@@ -1,0 +1,650 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6789100b1ee4",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "shared_root": 10,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-11T10:20:55+00:00",
+  "window": {
+   "from": "2026-10-10T10:20:55+00:00",
+   "to": "2026-10-11T10:20:55+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "yemen-claude-202610111020"
+  },
+  "summary": "העימות בין החות'ים לסעודיה הגיע לשיא חדש: טיל פגע בשבת במתחם הטרמינלים 3 ו-4 בנמל התעופה המלך ח'אלד בריאד, בלי אזעקה מוקדמת. 12 בני אדם נהרגו, בהם אזרחים מסעודיה, בנגלדש, ארה\"ב, מצרים, ירדן, סוריה, סודאן ופלסטין, ו-309 נפצעו, חלקם במצב קשה. זו התקיפה הקטלנית ביותר בממלכה מאז 2015 ובמדינות המפרץ מאז תחילת המלחמה עם איראן, וזו כבר התקיפה השלישית השבוע על נמל התעופה. הנמל נסגר, טיסות הוסטו, והלימודים עברו ללמידה מרחוק. החות'ים לא הודו רשמית באחריות לפי חלק מהדיווחים, אבל מאיימים להמשיך לתקוף 'בכל מקום חוץ ממכה' ומזהירים חברות תעופה ונוסעים. סעודיה מבטיחה תגובה החלטית, ולפי דיווח כבר תקפה מטרות בתימן. השאלה המרכזית היא אם ארה\"ב תצטרף: עד כה סיפקה רק מודיעין וסיוע בסימון מטרות, וכעת טראמפ אומר שהוא שוקל. ברקע, המתקפה הנגדית של הממשלה התימנית סביב באב אל-מנדב, המצור החות'י על תעז שמביא את בתי החולים לסף קריסה, ומשבר תזונה חמור בקרב ילדים עקורים. ההסלמה מאיימת גם על שאיפות הכלכלה של סעודיה, שמתעקשת לקיים כנסים בינלאומיים למרות אזהרות מסע של מדינות מערביות.",
+  "fronts": [
+   {
+    "name": "תקיפות על סעודיה",
+    "status": "שלוש תקיפות על נמל התעופה בריאד בשבוע אחד: מטוס נפגע, ארבעה נהרגו בתקיפות הקודמות, ו-12 בתקיפה האחרונה. החות'ים מכריזים על 'מצור' על המרחב האווירי הסעודי ומטילים את האחריות על כשלי יירוט סעודיים."
+   },
+   {
+    "name": "תגובה סעודית ובינלאומית",
+    "status": "ריאד מבטיחה תגובה החלטית ולפי דיווח כבר תקפה בתימן. פקיסטן, שחתמה עם סעודיה וטורקיה על הסכם הגנה באוגוסט, הביעה מחויבות לביטחון הממלכה. גל גינויים בינלאומי."
+   },
+   {
+    "name": "המעורבות האמריקאית",
+    "status": "יורש העצר הסעודי ביקש עזרה צבאית כשהלחימה התחדשה בחודש שעבר, ועד כה ארה\"ב סיפקה רק מודיעין וסימון מטרות. אחרי שאזרח אמריקאי נהרג, טראמפ שוקל להצטרף לתקיפות."
+   },
+   {
+    "name": "באב אל-מנדב והחזית הקרקעית",
+    "status": "כוחות הממשלה, בתמיכה סעודית, ממשיכים במתקפה נגדית אחרי מתקפת הבזק של החות'ים בחודש שעבר. החות'ים מפרסמים תיעוד של תקיפות רחפני FPV מדויקות נגד כוחות הקואליציה בחזיתות ליד המצר."
+   },
+   {
+    "name": "תעז והמשבר ההומניטרי",
+    "status": "המצור החות'י על תעז, שבה חיים יותר מ-2.5 מיליון בני אדם, גורם למחסור חמור בדלק, בתרופות ובציוד רפואי. ארגוני סיוע מדווחים על מאות ילדים עקורים בתת-תזונה חמורה. הממשלה מנהלת מסע דיפלומטי מול בחריין וקנדה."
+   },
+   {
+    "name": "ההשלכות הכלכליות",
+    "status": "נמל התעופה בריאד, שמשרת עיר של כ-8 מיליון תושבים, סגור; חברות תעופה מבטלות טיסות; בריטניה, צרפת וגרמניה מזהירות את אזרחיהן מביקור בריאד. סעודיה מתעקשת לקיים כנסי אנרגיה והשקעות החודש."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10111020-01",
+    "title": "12 הרוגים ו-309 פצועים בתקיפה על נמל התעופה בריאד",
+    "summary": "טיל פגע במתחם הטרמינלים 3 ו-4 לטיסות פנים בנמל התעופה המלך ח'אלד. לפי רשות התעופה האזרחית הסעודית נהרגו ארבעה סעודים, שני בנגלדשים ואזרח אחד מכל אחת מהמדינות ארה\"ב, מצרים, ירדן, סוריה, סודאן ופלסטין. חלק מהפצועים במצב קשה. הקואליציה בהובלת סעודיה מאשימה את החות'ים.",
+    "axis": "תקיפות על סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T15:46:32+00:00",
+    "last_update_at": "2026-10-11T08:41:30+00:00",
+    "what_is_not_verified": "לפי חלק מהדיווחים, החות'ים טרם הודו רשמית באחריות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade",
+      "published_at": "2026-10-10T15:46:32+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attack-riyadh-airport-leaves-12-dead-more-300-injured",
+      "published_at": "2026-10-11T08:24:44+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "published_at": "2026-10-10T23:37:27+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T08:41:30+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/11-10-reported-latest-attack-on-riyadh-king-khalid-airport-houthis?traffic_source=rss",
+      "published_at": "2026-10-11T01:02:07+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_2c13e9593dc6f977",
+      "url": "https://www.ynet.co.il/news/article/bknarcwiml",
+      "published_at": "2026-10-10T21:53:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10111020-02",
+    "title": "התקיפה השלישית השבוע על נמל התעופה בריאד",
+    "summary": "מוקדם יותר השבוע פגעו תקיפות בנמל התעופה במטוס נוסעים והרגו ארבעה. מארגני כנסי האנרגיה וההשקעות בסעודיה הודיעו שהאירועים יתקיימו כמתוכנן, ובריטניה, צרפת וגרמניה הזהירו את אזרחיהן מביקור בריאד.",
+    "axis": "ההשלכות הכלכליות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:39:14+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T14:39:14+00:00",
+    "last_update_at": "2026-10-10T21:53:15+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/major-saudi-conferences-proceed-despite-deadly-airport-attack",
+      "published_at": "2026-10-10T14:39:14+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bknarcwiml",
+      "published_at": "2026-10-10T21:53:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-03",
+    "title": "עדי ראייה: פיצוץ בטרמינל ועשרות פצועים על הרצפה",
+    "summary": "עדי ראייה תיארו פיצוץ ואחריו אנשים פצועים שוכבים בתוך נמל התעופה. יותר מתריסר אמבולנסים הגיעו למקום, נוסעים פונו מחלקים מהמתקן, ולפי מקור בבית חולים חמישה סעודים אושפזו בטיפול נמרץ.",
+    "axis": "תקיפות על סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T16:08:09+00:00",
+    "last_update_at": "2026-10-10T16:28:27+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_eba2444efde7f1b8",
+      "url": "https://www.newarab.com/news/multiple-wounded-suspected-houthi-attack-riyadh-airport",
+      "published_at": "2026-10-10T16:28:27+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_eba2444efde7f1b8",
+      "url": "https://t.me/lelotsenzura/94570",
+      "published_at": "2026-10-10T16:08:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10111020-04",
+    "title": "סגירת נמל התעופה בריאד הוארכה",
+    "summary": "לפי הודעה לטייסים של רשות התעופה הסעודית, הנמל ייסגר לפחות עד מוצאי ראשון. כל הטיסות הוסטו ביום התקיפה, וחברת ג'זירה איירווייז הכוויתית הודיעה על שיבושים.",
+    "axis": "ההשלכות הכלכליות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:04:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T06:04:22+00:00",
+    "last_update_at": "2026-10-11T08:22:44+00:00",
+    "what_is_not_verified": "מועד הפתיחה מחדש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-warn-against-using-saudi-airports-riyadh-closure-extended",
+      "published_at": "2026-10-11T08:22:20+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwaits-jazeera-airways-says-riyadh-flights-affected-temporary",
+      "published_at": "2026-10-11T06:04:22+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/skdra3uoge",
+      "published_at": "2026-10-11T08:22:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10111020-05",
+    "title": "החות'ים: נמשיך לתקוף בכל מקום חוץ ממכה",
+    "summary": "החות'ים חידשו את האזהרה לחברות תעופה, לעובדי נמלי תעופה ולנוסעים מפני שימוש בנמלי תעופה בסעודיה, ואמרו שהממלכה אחראית לכשלי היירוט. לדבריהם, ה'מצור' על המרחב האווירי הסעודי יימשך.",
+    "axis": "תקיפות על סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T05:04:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T05:04:26+00:00",
+    "last_update_at": "2026-10-11T08:22:44+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-warn-against-using-saudi-airports-riyadh-closure-extended",
+      "published_at": "2026-10-11T08:22:20+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/skdra3uoge",
+      "published_at": "2026-10-11T08:22:44+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
+      "published_at": "2026-10-11T05:04:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/riyadh-vows-response-airport-attack-us-weighs-involvement",
+      "published_at": "2026-10-11T08:22:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-06",
+    "title": "סעודיה מאיימת בתגובה החלטית; דיווח על תקיפות בתימן",
+    "summary": "ריאד הבטיחה להגיב נגד החות'ים אחרי התקיפה הקטלנית ביותר בממלכה מזה עשור. לפי דיווח בישראל היום, סעודיה כבר תקפה מטרות בתימן ושוקלת צעדים נוספים.",
+    "axis": "תגובה סעודית ובינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T05:16:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T05:16:22+00:00",
+    "last_update_at": "2026-10-11T06:21:50+00:00",
+    "what_is_not_verified": "היקף התקיפות הסעודיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261011-riyadh-airport-strike-kills-12-saudi-arabia-threatens-decisive-response",
+      "published_at": "2026-10-11T06:21:50+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/video/20261011-at-least-twelve-killed-multiple-people-wounded-in-attack-on-riyadh-airport-1",
+      "published_at": "2026-10-11T05:16:22+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21594839",
+      "published_at": "2026-10-11T05:55:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-07",
+    "title": "טראמפ שוקל להצטרף לתקיפות נגד החות'ים",
+    "summary": "טראמפ כינה את התקיפה נוראה ואמר שהוא בוחן הצטרפות למתקפה הסעודית. לפי הדיווחים, כשהלחימה התחדשה בחודש שעבר ביקש יורש העצר מוחמד בן סלמאן סיוע צבאי, וארה\"ב הסתפקה במודיעין ובסיוע בסימון מטרות.",
+    "axis": "המעורבות האמריקאית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T01:59:02+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T01:59:02+00:00",
+    "last_update_at": "2026-10-11T10:05:41+00:00",
+    "what_is_not_verified": "לא התקבלה החלטה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+      "published_at": "2026-10-11T10:05:41+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-trump-weighs-joining-saudi-strikes-on-houthis-us?traffic_source=rss",
+      "published_at": "2026-10-11T01:59:02+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss",
+      "published_at": "2026-10-11T02:12:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-08",
+    "title": "גל גינויים; פקיסטן מחויבת לביטחון סעודיה",
+    "summary": "מדינות רבות גינו את התקיפה. ראש ממשלת פקיסטן שהבאז שריף כינה אותה מתועבת והזכיר את המחויבות לריבונות הממלכה. פקיסטן, סעודיה וטורקיה חתמו באוגוסט על הסכם הגנה משותף.",
+    "axis": "תגובה סעודית ובינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T02:12:07+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T02:12:07+00:00",
+    "last_update_at": "2026-10-11T04:07:09+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-reaffirms-commitment-saudi-arabias-sovereignty-after-airport",
+      "published_at": "2026-10-11T04:07:09+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss",
+      "published_at": "2026-10-11T02:12:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-09",
+    "title": "הלימודים בסעודיה עברו ללמידה מרחוק",
+    "summary": "משרד החינוך הסעודי הנחה לקיים את הלימודים בבתי הספר באופן מקוון בעקבות התקיפה.",
+    "axis": "ההשלכות הכלכליות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T09:46:38+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T09:46:38+00:00",
+    "last_update_at": "2026-10-11T09:46:38+00:00",
+    "what_is_not_verified": "היקף ההנחיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131719",
+      "published_at": "2026-10-11T09:46:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-10",
+    "title": "החות'ים מפרסמים תיעוד של תקיפות רחפני FPV ליד באב אל-מנדב",
+    "summary": "הזרוע התקשורתית של החות'ים פרסמה תיעוד של תקיפות מדויקות ברחפני FPV נגד כוחות הקואליציה בחזיתות כהבוב ואלואזעיה בדרום-מערב תימן, כולל מרדף אחרי רכבים ועמדות.",
+    "axis": "באב אל-מנדב והחזית הקרקעית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T20:29:13+00:00",
+    "last_update_at": "2026-10-10T20:29:13+00:00",
+    "what_is_not_verified": "מועד הצילום ותוצאות התקיפות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48432",
+      "published_at": "2026-10-10T20:29:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באב אל-מנדב",
+      "lat": 12.5744,
+      "lon": 43.3128
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10111020-11",
+    "title": "בתי החולים בתעז על סף קריסה",
+    "summary": "לפי הממשלה התימנית, הדלק, התרופות והציוד הרפואי בתעז אוזלים בגלל המצור החות'י. ארגון זכויות אדם טוען שהמצור פוגע ביותר מ-2.5 מיליון בני אדם, ומשרד הבריאות מזהיר מאסון הומניטרי.",
+    "axis": "תעז והמשבר ההומניטרי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T03:41:58+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T03:41:58+00:00",
+    "last_update_at": "2026-10-11T07:31:21+00:00",
+    "what_is_not_verified": "נתוני המחסור לפי הממשלה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/taiz-hospitals-near-collapse-as-houthis-tighten-siege-yemen-government?traffic_source=rss",
+      "published_at": "2026-10-11T03:41:58+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153776",
+      "published_at": "2026-10-11T06:40:46+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153780",
+      "published_at": "2026-10-11T07:31:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10111020-12",
+    "title": "משבר תזונה חמור בקרב ילדים עקורים",
+    "summary": "ארגוני סיוע מדווחים שמרפאות ניידות מצאו מאות ילדים עקורים בצורה הקטלנית ביותר של תת-תזונה, על רקע חידוש הלחימה בין החות'ים לכוחות הממשלה.",
+    "axis": "תעז והמשבר ההומניטרי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:34:05+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T06:34:05+00:00",
+    "last_update_at": "2026-10-11T06:34:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/escalating-fighting-in-yemen-worsens-food-security-crisis",
+      "published_at": "2026-10-11T06:34:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10111020-13",
+    "title": "הממשלה התימנית מגייסת תמיכה דיפלומטית",
+    "summary": "שרת החוץ התימנית שוחחה עם עמיתה מבחריין על ההסלמה החות'ית והמצור על תעז, ושגריר תימן נפגש עם חבר בית הנבחרים הקנדי.",
+    "axis": "תעז והמשבר ההומניטרי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:50:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T06:50:29+00:00",
+    "last_update_at": "2026-10-11T07:09:19+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153777",
+      "published_at": "2026-10-11T06:50:29+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/153778",
+      "published_at": "2026-10-11T07:09:19+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "האם החות'ים הודו רשמית באחריות לתקיפה האחרונה",
+   "היקף התקיפות הסעודיות בתגובה ומטרותיהן",
+   "משך סגירת נמל התעופה מעבר להודעה הנוכחית",
+   "נתוני האבדות בחזיתות הקרקע",
+   "היקף המחסור בתעז — לפי הממשלה התימנית"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להמשיך לתקוף את סעודיה",
+     "להרתיע חברות תעופה ונוסעים משימוש בנמלי התעופה הסעודיים",
+     "לא לתקוף את מכה"
+    ],
+    "inferred": [
+     "לבלום את המתקפה הקרקעית של הממשלה דרך לחץ ישיר על ריאד",
+     "לשבש את התוכניות הכלכליות של סעודיה"
+    ],
+    "forecast": [
+     "תקיפות נוספות על יעדים אזרחיים בסעודיה סבירות",
+     "המשך המצור על תעז"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "להגיב בתקיפות החלטיות",
+     "לקיים את הכנסים הבינלאומיים כמתוכנן"
+    ],
+    "inferred": [
+     "לגייס מעורבות צבאית אמריקאית ישירה",
+     "להציג יציבות מול משקיעים"
+    ],
+    "forecast": [
+     "הסלמה בתקיפות האוויריות בתימן בימים הקרובים"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "לבחון הצטרפות לתקיפות נגד החות'ים"
+    ],
+    "inferred": [
+     "לקשור את המערכה בתימן ללחץ על איראן"
+    ],
+    "forecast": [
+     "החלטה על מעורבות צבאית אפשרית בטווח הקרוב"
+    ]
+   },
+   {
+    "actor": "הממשלה התימנית",
+    "declared": [
+     "להחזיר שטחים שהחות'ים כבשו",
+     "לגייס לחץ בינלאומי על המצור בתעז"
+    ],
+    "inferred": [
+     "לנצל את המעורבות הסעודית כדי להשתלט על באב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך הלחימה סביב המצר בלי הכרעה מהירה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/11/taiz-hospitals-near-collapse-as-houthis-tighten-siege-yemen-government?traffic_source=rss",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/escalating-fighting-in-yemen-worsens-food-security-crisis",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21594839",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-reaffirms-commitment-saudi-arabias-sovereignty-after-airport",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/riyadh-vows-response-airport-attack-us-weighs-involvement",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153778",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131719",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48432",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94570",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skdra3uoge",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   }
+  ]
+ }
+}

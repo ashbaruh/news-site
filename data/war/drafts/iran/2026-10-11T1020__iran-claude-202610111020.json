@@ -1,0 +1,627 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2905e8e79bdd",
+ "preview": {
+  "events": 15,
+  "levels": {
+   "shared_root": 5,
+   "initial": 6,
+   "assessment": 2,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-11T10:20:55+00:00",
+  "window": {
+   "from": "2026-10-10T10:20:55+00:00",
+   "to": "2026-10-11T10:20:55+00:00"
+  },
+  "model": {
+   "name": "claude",
+   "run_id": "iran-claude-202610111020"
+  },
+  "summary": "שמונה חודשים אחרי שהמלחמה נפתחה בתקיפות אמריקאיות-ישראליות בפברואר, הזירה תקועה במצב של 'לא מלחמה ולא שלום': המגעים הדיפלומטיים קפואים מאז הקיץ, וארה\"ב מפעילה מצור ימי שהולך ומחריף. בסוף השבוע השבית מטוס קרב אמריקאי ספינת מטען בדגל פנמה שיצאה מנמל איראני במפרץ עומאן, ולפי פיקוד המרכז זו הספינה הרביעית שמושבתת מאז חידוש המצור ביולי, לצד 135 ספינות שהוסטו. הלחץ מתרחב גם ליבשה: עלות ההובלה מטורקיה לאיראן זינקה פי חמישה, ו-19 מכליות איראניות תקועות מול סרי לנקה בלי אספקה. ברמה האסטרטגית, התקיפה הקטלנית של החות'ים בריאד החזירה לשולחן בוושינגטון את האפשרות לחדש את התקיפות על איראן עצמה, אבל המסרים סותרים: טראמפ אמר שלא יתקוף לפני בחירות האמצע ואחר כך השאיר את האפשרות פתוחה, ובישראל מעריכים שלא תהיה תקיפה יזומה לפני הבחירות לכנסת. לפי דיווח בוואלה, ארה\"ב אף ביקשה מישראל לתקוף לבדה, והרמטכ\"ל בלם את המהלך. טהראן מגיבה בעיקר במישור ההצהרתי והמשפטי: תביעות בעקבות התקיפה בבית הספר במינאב, הצהרות על חסינות התוכנית הגרעינית, ותיווך רוסי מול טראמפ. בפנים, מתגלים סדקים: ויכוח פומבי על מדיניות העמימות הגרעינית ומתקפה של השמרנים על זריף.",
+  "fronts": [
+   {
+    "name": "המצור הימי",
+    "status": "ארה\"ב אוכפת מאז 14 ביולי מצור על תנועת ספינות לאיראן וממנה. לפי פיקוד המרכז: 135 ספינות הוסטו וארבע הושבתו בכוח, האחרונה בסוף השבוע במפרץ עומאן. רשות הסחר הימי הבריטית חוקרת את האירוע. 19 מכליות איראניות עוגנות כבר חודשים מול סרי לנקה, וספקים מקומיים חוששים מסנקציות משניות. המגמה: הסלמה הדרגתית באכיפה, משימוש באזהרות לירי ממשי."
+   },
+   {
+    "name": "האיום בחידוש התקיפות",
+    "status": "אחרי התקיפה בריאד העלה טראמפ אפשרות להצטרף לתקיפות נגד החות'ים וגם לחדש תקיפות על איראן. במקביל הוא מסר מסרים סותרים לגבי תקיפה לפני בחירות האמצע. בישראל מעריכים שלא תהיה תקיפה יזומה לפני הבחירות לכנסת, אלא אם איראן תבצע צעד חריג. לפי דיווח, הדרישה האמריקאית שישראל תתקוף לבדה הוסרה."
+   },
+   {
+    "name": "המצור הכלכלי ביבשה",
+    "status": "וושינגטון לוחצת על טורקיה לחסום את נתיבי הסחר היבשתיים של איראן. עלות משלוח מטורקיה לאיראן עלתה לכ-8,000 דולר תוך פחות מחודשיים. הלחץ מצטרף למצור הימי ומכוון לבידוד כלכלי מלא."
+   },
+   {
+    "name": "המאבק המשפטי והתודעתי",
+    "status": "איראן מקדמת כתבי אישום ותביעות בחו\"ל בעקבות התקיפה בבית הספר במינאב ביום הראשון למלחמה, שבה לפי טהראן נהרגו 156 בני אדם, בהם 120 ילדים. בכירים משווים את האירוע להירושימה ומנסים לבנות לגיטימציה בינלאומית."
+   },
+   {
+    "name": "התוכנית הגרעינית",
+    "status": "ראש הסוכנות לאנרגיה אטומית מצהיר שהטכנולוגיה הגרעינית מוגנת מפני תקיפות ומאשים את ארה\"ב באיפה ואיפה. במקביל, בטהראן מתפתח ויכוח פומבי אם מדיניות העמימות הגרעינית נכשלה כשלא הרתיעה את ארה\"ב וישראל, וחלק קוראים לבחון אותה מחדש."
+   },
+   {
+    "name": "החזית הפנימית באיראן",
+    "status": "הנשיא פזשכיאן קורא לאחדות לאומית; עיתון כיהאן השמרני מאשים את שר החוץ לשעבר זריף בפגיעה בביטחון הלאומי; דובר משרד החוץ זכה לקריאות בוז בקונצרט בטהראן. סימנים למתח פוליטי וחברתי תחת הלחץ."
+   },
+   {
+    "name": "התיווך הרוסי",
+    "status": "הקרמלין מסר שפוטין העביר לטראמפ את עמדת איראן לגבי הסדר אפשרי, בתיאום עם טהראן. תוכן העמדה ותגובת טראמפ לא פורסמו. רוסיה ממצבת את עצמה כערוץ בין הצדדים."
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10111020-01",
+    "title": "מטוס קרב אמריקאי השבית ספינת מטען שניסתה לעקוף את המצור",
+    "summary": "פיקוד המרכז האמריקאי הודיע שמטוס קרב פגע בחימוש מונחה בירכתי ספינת המטען Ocean Molica בדגל פנמה, שיצאה מנמל איראני והתעלמה מאזהרות חוזרות. לפי ההודעה, מערכת ההנעה הושבתה לחלוטין והצוות לא נפגע. רשות הסחר הימי הבריטית מסרה שהיא חוקרת אירוע במפרץ עומאן.",
+    "axis": "המצור הימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T01:46:41+00:00",
+    "last_update_at": "2026-10-11T07:39:16+00:00",
+    "what_is_not_verified": "מצב הצוות והנזק לספינה — לפי ההודעה האמריקאית בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade",
+      "published_at": "2026-10-11T01:46:41+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman?traffic_source=rss",
+      "published_at": "2026-10-11T03:13:53+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-probes-gulf-oman-incident-after-centcom-strike",
+      "published_at": "2026-10-11T03:47:27+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1aqod00szx",
+      "published_at": "2026-10-11T03:43:48+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131703",
+      "published_at": "2026-10-11T05:45:01+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss",
+      "published_at": "2026-10-11T07:39:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111020-02",
+    "title": "סרי לנקה מסרבת לסייע ל-19 מכליות איראניות",
+    "summary": "דובר משרד החוץ של סרי לנקה אמר שהממשלה תשקול קודם את האינטרסים שלה לפני שתסייע למכליות האיראניות שעוגנות כחודשים במים בינלאומיים כ-44 ק\"מ מחופיה. לפי הדיווח, ספקים מקומיים חוששים מסנקציות אמריקאיות משניות, ועל הספינות יש מחסור במזון, במים ובדלק.",
+    "axis": "המצור הימי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:25:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:25:09+00:00",
+    "last_update_at": "2026-10-11T08:25:09+00:00",
+    "what_is_not_verified": "מצב הצוותים על המכליות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131715",
+      "published_at": "2026-10-11T08:25:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קולומבו",
+      "lat": 6.9389,
+      "lon": 79.8542
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111020-03",
+    "title": "וושינגטון שוקלת לחדש את התקיפות על איראן",
+    "summary": "אחרי התקיפה הקטלנית של החות'ים על נמל התעופה בריאד העלה הנשיא טראמפ אפשרות להצטרף לתקיפות נגד הארגון וגם לחזור לתקוף את איראן עצמה. בוושינגטון מתנהל דיון על שני הצעדים.",
+    "axis": "האיום בחידוש התקיפות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T00:00:13+00:00",
+    "last_update_at": "2026-10-11T04:19:54+00:00",
+    "what_is_not_verified": "לא התקבלה החלטה רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610118579",
+      "published_at": "2026-10-11T04:19:54+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+      "published_at": "2026-10-11T00:00:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-04",
+    "title": "בכיר ישראלי: לא צפויה תקיפה יזומה באיראן לפני הבחירות",
+    "summary": "גורם ישראלי בכיר העריך שירושלים לא תפתח במהלך צבאי חדש נגד איראן לפני הבחירות לכנסת, אלא אם טהראן תשנה את התמונה בצעד חריג. ההערכה באה אחרי שטראמפ אמר שלא יתקוף לפני בחירות האמצע, ופחות מיממה אחר כך שוב השאיר את האפשרות פתוחה.",
+    "axis": "האיום בחידוש התקיפות",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T17:38:08+00:00",
+    "last_update_at": "2026-10-10T17:38:08+00:00",
+    "what_is_not_verified": "הערכה של גורם עלום",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956963",
+      "published_at": "2026-10-10T17:38:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-05",
+    "title": "דיווח: ארה\"ב ביקשה מישראל לתקוף לבדה, והרמטכ\"ל בלם",
+    "summary": "לפי דיווח בוואלה, במגעים בשבועיים האחרונים ביקשו האמריקאים שישראל תתקוף באיראן בלי השתתפות כוחות אמריקאיים. הרמטכ\"ל אייל זמיר הבהיר לעמיתיו שמהלך כזה עלול להוביל לדחיית הבחירות, ולפי הדיווח הדרישה הוסרה.",
+    "axis": "האיום בחידוש התקיפות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T12:55:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T12:55:57+00:00",
+    "last_update_at": "2026-10-10T17:38:08+00:00",
+    "what_is_not_verified": "הדיווח מבוסס על מקורות עלומים ולא אושר רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956914",
+      "published_at": "2026-10-10T12:55:57+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956963",
+      "published_at": "2026-10-10T17:38:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-06",
+    "title": "הקרמלין: פוטין העביר לטראמפ את עמדת טהראן לגבי הסדר",
+    "summary": "בשיחה בין הנשיאים ביום שישי מסר פוטין, בתיאום עם איראן, את עמדתה בנוגע להסדר אפשרי. הקרמלין לא פירט את העמדה ולא את תגובת טראמפ. המאמצים הדיפלומטיים לסיום המלחמה תקועים מאז הקיץ.",
+    "axis": "התיווך הרוסי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T11:42:53+00:00",
+    "last_update_at": "2026-10-10T12:30:21+00:00",
+    "what_is_not_verified": "תוכן העמדה האיראנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+      "published_at": "2026-10-10T12:30:21+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48415",
+      "published_at": "2026-10-10T11:42:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-07",
+    "title": "איראן: כתב אישום ותביעות בחו\"ל בעקבות התקיפה במינאב",
+    "summary": "סגן שר החוץ כאזם גריבאבאדי אמר שנאסף תיעוד מקיף, שהוצא כתב אישום ושכמה מדינות זרות הגישו תביעות בגין התקיפה על בית הספר במינאב ביום הראשון למלחמה. לפי איראן נהרגו בה 156 בני אדם, בהם 120 ילדים. סגנית הנשיא השוותה את האירוע להירושימה.",
+    "axis": "המאבק המשפטי והתודעתי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T08:40:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T08:40:54+00:00",
+    "last_update_at": "2026-10-11T10:03:42+00:00",
+    "what_is_not_verified": "מספר ההרוגים והמדינות שהגישו תביעות — לפי איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d2f9d42cd168f70d",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-gharibabadi-says-minab-school-attackers-must-face-justice",
+      "published_at": "2026-10-11T10:03:42+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_d2f9d42cd168f70d",
+      "url": "https://en.irna.ir/news/86289241/Iran-pursuing-legal-action-over-Minab-school-attack-Deputy-FM",
+      "published_at": "2026-10-11T08:55:41+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_a9df96f00a98e00f",
+      "url": "https://en.irna.ir/news/86289159/Deputy-FM-pays-tribute-to-martyrs-of-Minab",
+      "published_at": "2026-10-11T08:40:54+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_96ac49bfd5fa4cf8",
+      "url": "https://en.irna.ir/news/86289337/VP-World-must-not-forget-Minab-incident",
+      "published_at": "2026-10-11T09:24:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מינאב",
+      "lat": 27.1506,
+      "lon": 57.0753
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111020-08",
+    "title": "ראש הסוכנות לאנרגיה אטומית: התוכנית הגרעינית מוגנת מתקיפות",
+    "summary": "מוחמד אסלאמי אמר שאיומים, לחץ ותקיפות לא יעצרו את הטכנולוגיה הגרעינית של איראן, והאשים את ארה\"ב באיפה ואיפה. הוא הזכיר איומים של בכירים אמריקאים להשתמש בנשק טקטי נגד המתקנים.",
+    "axis": "התוכנית הגרעינית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T09:45:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T09:45:41+00:00",
+    "last_update_at": "2026-10-11T09:57:02+00:00",
+    "what_is_not_verified": "אין מידע עצמאי על מצב המתקנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_37412b79094083ab",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-nuclear-technology-safe-us-attacks-says-atomic-energy-chief",
+      "published_at": "2026-10-11T09:57:02+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_37412b79094083ab",
+      "url": "https://en.irna.ir/news/86289415/Iran-s-nuclear-chief-challenges-US-double-standards-on-nuclear",
+      "published_at": "2026-10-11T09:45:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-09",
+    "title": "בטהראן מתפתח ויכוח על מדיניות העמימות הגרעינית",
+    "summary": "לפי ניתוח של Iran International, בטהראן נשמעת טענה שהעמימות הגרעינית נכשלה במבחן החשוב ביותר כשלא הרתיעה את ארה\"ב וישראל מלתקוף, ושיש לשקול אותה מחדש.",
+    "axis": "התוכנית הגרעינית",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T18:54:44+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T18:54:44+00:00",
+    "last_update_at": "2026-10-10T18:54:44+00:00",
+    "what_is_not_verified": "היקף התמיכה בעמדה הזו בהנהגה האיראנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610106118",
+      "published_at": "2026-10-10T18:54:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-10",
+    "title": "בקאאי: ארה\"ב ממציאה אויב דמיוני כדי להפחיד את אזרחיה",
+    "summary": "דובר משרד החוץ האיראני הגיב לטענת טראמפ על אפשרות של תקיפות איראניות בלוס אנג'לס ובסן דייגו, ואמר שוושינגטון משתמשת באיום מדומה כדי להסיט תשומת לב.",
+    "axis": "המאבק המשפטי והתודעתי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T06:20:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T06:20:03+00:00",
+    "last_update_at": "2026-10-11T06:20:03+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-using-specter-imaginary-enemy-frighten-its-people-baghaei-says",
+      "published_at": "2026-10-11T06:20:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-11",
+    "title": "עלות ההובלה מטורקיה לאיראן זינקה פי חמישה",
+    "summary": "לפי כלי תקשורת איראניים, מחיר משלוח סחורה מנמלי טורקיה לאיראן עלה לכ-8,000 דולר בתוך פחות מחודשיים, על רקע לחץ אמריקאי על אנקרה לחסום את נתיבי הסחר היבשתיים.",
+    "axis": "המצור הכלכלי ביבשה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T02:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-11T02:00:00+00:00",
+    "last_update_at": "2026-10-11T02:00:00+00:00",
+    "what_is_not_verified": "מבוסס על תקשורת איראנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610114328",
+      "published_at": "2026-10-11T02:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-12",
+    "title": "כיהאן תוקף את זריף: 'פגיעה בביטחון הלאומי'",
+    "summary": "העיתון השמרני כיהאן האשים את שר החוץ לשעבר מוחמד ג'וואד זריף בסיוע לוושינגטון, משום שהציג את משמרות המהפכה כאיום.",
+    "axis": "החזית הפנימית באיראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T20:09:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T20:09:29+00:00",
+    "last_update_at": "2026-10-10T20:09:29+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610107057",
+      "published_at": "2026-10-10T20:09:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-13",
+    "title": "קריאות בוז לדובר משרד החוץ האיראני בקונצרט בטהראן",
+    "summary": "לפי דיווח, הקהל קרא קריאות בוז לעבר אסמאעיל בקאאי כשניגש לנאום בקונצרט באולם בטהראן ביום שישי.",
+    "axis": "החזית הפנימית באיראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T07:53:32+00:00",
+    "last_update_at": "2026-10-11T07:53:32+00:00",
+    "what_is_not_verified": "מקור יחיד בטלגרם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131713",
+      "published_at": "2026-10-11T07:53:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10111020-14",
+    "title": "פזשכיאן: אחדות לאומית תסכל את ניסיונות האויבים",
+    "summary": "נשיא איראן אמר ששום כוח לא יעצור את המדינה אם העם יתאחד ויימנע מהדרה של קבוצות.",
+    "axis": "החזית הפנימית באיראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T09:01:17+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T09:01:17+00:00",
+    "last_update_at": "2026-10-11T09:01:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_d05de667c70e964b",
+      "url": "https://en.irna.ir/news/86289243/Pezeshkian-says-national-unity-can-foil-enemies-attempts-to",
+      "published_at": "2026-10-11T09:01:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10111020-15",
+    "title": "דיווח: המרחב האווירי של איראן כמעט ריק",
+    "summary": "בערוץ טלגרם דווח שהמרחב האווירי מעל איראן כמעט ריק ממטוסים, ושמטוס ארמני בדרך לטהראן הסתובב חזרה. הסיבה לא ידועה.",
+    "axis": "האיום בחידוש התקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T21:31:12+00:00",
+    "last_update_at": "2026-10-10T21:31:12+00:00",
+    "what_is_not_verified": "טענה בודדת ללא אישור; הסיבה לא ידועה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48435",
+      "published_at": "2026-10-10T21:31:12+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מצב הצוות והנזק לספינה שהושבתה מבוססים על ההודעה האמריקאית בלבד",
+   "הדיווח שארה\"ב דרשה מישראל לתקוף לבדה והרמטכ\"ל בלם — מבוסס על מקורות עלומים",
+   "מספר ההרוגים בתקיפה במינאב הוא לפי נתוני איראן",
+   "תוכן העמדה האיראנית שהעביר פוטין לטראמפ",
+   "הדיווח על מרחב אווירי ריק כמעט לגמרי מעל איראן — טענה בודדת בטלגרם",
+   "נתוני עלות ההובלה מטורקיה מבוססים על תקשורת איראנית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "לאכוף את המצור הימי על איראן",
+     "לבחון הצטרפות לתקיפות נגד החות'ים",
+     "להשאיר פתוחה אפשרות לחדש תקיפות על איראן"
+    ],
+    "inferred": [
+     "לחנוק את כלכלת איראן כדי לכפות הסדר בלי מלחמה מלאה לפני בחירות האמצע",
+     "להעביר חלק מנטל הפעולה הצבאית לבעלות ברית, כולל ישראל"
+    ],
+    "forecast": [
+     "השבתות נוספות של ספינות בטווח הקרוב",
+     "החלטה על תקיפות תושפע מהתגובה הסעודית ומהלוח הפוליטי בארה\"ב"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "לתבוע את האחראים לתקיפה במינאב בערכאות בינלאומיות",
+     "להמשיך בתוכנית הגרעינית למרות האיומים",
+     "לשמור על אחדות פנימית"
+    ],
+    "inferred": [
+     "להימנע מעימות ישיר ולפעול דרך החות'ים ודרך תיווך רוסי",
+     "לבנות לגיטימציה בינלאומית כקורבן"
+    ],
+    "forecast": [
+     "המשך ניסיונות לעקוף את המצור דרך נתיבים יבשתיים יקרים",
+     "ויכוח פנימי מתגבר על הדוקטרינה הגרעינית"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "להימנע ממהלך צבאי יזום נגד איראן לפני הבחירות",
+     "לא להיגרר לתקיפה עצמאית בלי שותפות אמריקאית"
+    ],
+    "forecast": [
+     "סבירות נמוכה לתקיפה ישראלית יזומה בשבועות הקרובים, אלא אם תהיה פרובוקציה איראנית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "להעביר מסרים בין טהראן לוושינגטון"
+    ],
+    "inferred": [
+     "לחזק את מעמדה מול ארה\"ב דרך התיווך, ולמנוע שינוי משטר פרו-מערבי באיראן"
+    ],
+    "forecast": []
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/putin-told-trump-about-irans-position-peace-deal-kremlin",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610107057",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86289243/Pezeshkian-says-national-unity-can-foil-enemies-attempts-to",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-using-specter-imaginary-enemy-frighten-its-people-baghaei-says",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131713",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48435",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956963",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/s1aqod00szx",
+    "accessed_at": "2026-10-11T10:20:55+00:00"
+   }
+  ]
+ }
+}
