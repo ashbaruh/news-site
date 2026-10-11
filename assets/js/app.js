@@ -186,6 +186,13 @@
     var bar = root && root.querySelector('.share-bar');
     if (!bar) return;
     var url = bar.dataset.url, text = bar.dataset.text;
+    // ספירת לחיצות שיתוף (אנונימי) — לדעת אם השיתוף עובד. אין GoatCounter (חסום/מקומי) — לא קורה כלום.
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('.sh');
+      if (!b || !window.goatcounter || !window.goatcounter.count) return;
+      var kind = b.classList.contains('wa') ? 'whatsapp' : b.classList.contains('tg') ? 'telegram' : b.classList.contains('native') ? 'native' : 'copy';
+      try { window.goatcounter.count({ path: 'share-' + kind + '-' + (activeArena || 'all'), title: 'שיתוף', event: true }); } catch (err) { /* לא חשוב */ }
+    });
     var nat = bar.querySelector('.native');
     if (nat) nat.addEventListener('click', function () {
       navigator.share({ title: C.brand.site_name, text: text, url: url }).catch(function () { /* המשתמש ביטל */ });
