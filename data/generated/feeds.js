@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-11T15:17:11+00:00",
-  "fetched_at": "2026-10-11T15:17:11+00:00"
+  "checked_at": "2026-10-11T16:17:18+00:00",
+  "fetched_at": "2026-10-11T16:17:18+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Giant Tortoise Population is Thriving–Survey Finds 180,000 on One Island Chain",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
+    "date": "2026-10-11T16:11:41+00:00"
+   },
    {
     "title_en": "Sloth Bear Named By Julia Roberts is Flourishing After Rescue From Dancing Trade in India",
     "title_he": "עצלן דוב בשם ג'וליה רוברטס פורח לאחר ההצלה ממסחר בריקודים בהודו",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/saudi-solar-park-proves-brilliant-breeding-ground-for-threatened-sand-gazelles/",
     "date": "2026-10-07T13:00:15+00:00"
-   },
-   {
-    "title_en": "Orphaned, Rescued, and Rewilded, Female Gorilla Becomes a Mother in Historic Conservation Success",
-    "title_he": "גורילה נשית, יתומה, ניצלה ונדהמה מחדש, הופכת לאם בהצלחת שימור היסטורי",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/orphaned-rescued-and-rewilded-female-gorilla-becomes-a-mother-in-historic-conservation-success/",
-    "date": "2026-10-05T11:00:53+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T15:17:23+00:00",
-  "fetched_at": "2026-10-11T15:17:23+00:00"
+  "checked_at": "2026-10-11T16:17:31+00:00",
+  "fetched_at": "2026-10-11T16:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T15:17:24+00:00",
-  "fetched_at": "2026-10-11T15:17:24+00:00"
+  "checked_at": "2026-10-11T16:17:32+00:00",
+  "fetched_at": "2026-10-11T16:17:32+00:00"
  },
- "generated_at": "2026-10-11T15:17:24+00:00",
+ "generated_at": "2026-10-11T16:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "התקנות החדשות שיזמי הנדל\"ן צריכים להכיר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558566",
-     "date": "2026-10-11T13:06:00+00:00"
+     "title": "בשוק נותנים תחזית אופטימית לגבי הגירעון של סוף השנה. אבל יש כוכבית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559074",
+     "date": "2026-10-11T15:30:00+00:00"
     },
     {
      "title": "דיווח: 800 ק\"ג חומר נפץ בדרך לדאחיה: הסיכול הדרמטי בלבנון",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "1.2 מיליון דולר בחודש אחד: התרומה של גיל שויד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559098",
+     "date": "2026-10-11T15:03:00+00:00"
+    },
     {
      "title": "ONE ZERO יצא לסבב פיטורים שלישי בגלל ה־AI. והוא לא היחיד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559090",
@@ -199,11 +204,6 @@ window.DB.generated = {
      "date": "2026-10-09T18:42:00+00:00"
     },
     {
-     "title": "פנמה: רעידת אדמה בעוצמה 7.6 הכתה במדינה, אזהרת צונאמי הופעלה בשורת מדינות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559017",
-     "date": "2026-10-09T18:35:00+00:00"
-    },
-    {
      "title": "מניית טבע זינקה אחרי שקיבלה אישור FDA לתרופה לסכיזופרניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559015",
      "date": "2026-10-09T13:48:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T15:17:12+00:00",
-  "fetched_at": "2026-10-11T15:17:12+00:00"
+  "checked_at": "2026-10-11T16:17:19+00:00",
+  "fetched_at": "2026-10-11T16:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T15:17:13+00:00",
-  "fetched_at": "2026-10-11T15:17:13+00:00"
+  "checked_at": "2026-10-11T16:17:20+00:00",
+  "fetched_at": "2026-10-11T16:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2731,10 +2731,9 @@ window.DB.generated = {
     "title": "ולנסיה - אתלטיק בילבאו"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-11T15:17:18+00:00",
-  "fetched_at": "2026-10-11T14:17:27+00:00"
+  "ok": true,
+  "checked_at": "2026-10-11T16:17:22+00:00",
+  "fetched_at": "2026-10-11T16:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2840,8 +2839,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T15:17:18+00:00",
-  "fetched_at": "2026-10-11T15:17:18+00:00"
+  "checked_at": "2026-10-11T16:17:22+00:00",
+  "fetched_at": "2026-10-11T16:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2868,14 +2867,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 438,
+     "likes": 440,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 228,
+     "likes": 229,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2889,14 +2888,14 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 253,
+     "likes": 254,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 196,
+     "likes": 197,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -2910,14 +2909,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 58,
+     "likes": 59,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 220,
+     "likes": 221,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2930,8 +2929,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T15:17:23+00:00",
-  "fetched_at": "2026-10-11T15:17:23+00:00"
+  "checked_at": "2026-10-11T16:17:30+00:00",
+  "fetched_at": "2026-10-11T16:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -2991,7 +2990,7 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אחרי ה-0:0: הציונים שקיבל רוי רביבו בספרד",
+     "title": "\"מגע של קסם, החתמה טובה\": הציונים שקיבל רביבו",
      "link": "https://www.one.co.il/Article/535717.html?ref=rss",
      "date": "2026-10-11T13:44:00+00:00",
      "source": "ONE",
@@ -3272,11 +3271,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-11T15:17:20+00:00",
-  "fetched_at": "2026-10-11T15:17:20+00:00"
+  "checked_at": "2026-10-11T16:17:25+00:00",
+  "fetched_at": "2026-10-11T16:17:25+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "צה\"ל חשף תיעודים של מחבלי חמאס חמושים בביה\"ח בעזה",
+    "link": "https://www.walla.co.il/news/military/383957084",
+    "date": "2026-10-11T15:25:24+00:00"
+   },
    {
     "title": "מרפאה ביום - ובמקביל מוקד טרור: צה\"ל חושף תיעודים של מחבלי חמאס חמושים בביה\"ח בעזה",
     "link": "https://www.walla.co.il/news/military/383957083",
@@ -3296,99 +3300,94 @@ window.DB.generated = {
     "title": "הסריקות בגבול לבנון נמשכות: בצה\"ל לא שוללים חדירת מצנח ממונע | תיעוד",
     "link": "https://www.walla.co.il/news/military/383957000",
     "date": "2026-10-11T04:54:05+00:00"
-   },
-   {
-    "title": "גורם ישראלי בכיר לוואלה: לא צפויה תקיפה באיראן לפני הבחירות",
-    "link": "https://www.walla.co.il/news/military/383956963",
-    "date": "2026-10-10T17:38:08+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T15:17:21+00:00",
-  "fetched_at": "2026-10-11T15:17:21+00:00"
+  "checked_at": "2026-10-11T16:17:26+00:00",
+  "fetched_at": "2026-10-11T16:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-11T15:05:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T15:37:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-11T15:00:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T15:03:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-11T12:17:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T14:10:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-11T14:21:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-11T15:02:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T16:07:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-11T15:15:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T16:05:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-11T14:59:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T16:05:00+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-11T15:03:36+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T15:25:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-11T14:58:59+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-10-10T19:57:53+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "newest": "2026-10-11T16:11:41+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-11T13:04:39+00:00",
-    "seen_at": "2026-10-11T15:17:24+00:00",
+    "seen_at": "2026-10-11T16:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-11T15:17:24+00:00"
+  "checked_at": "2026-10-11T16:17:32+00:00"
  }
 };
