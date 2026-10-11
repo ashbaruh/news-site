@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-11T14:17:23+00:00",
-  "fetched_at": "2026-10-11T14:17:23+00:00"
+  "checked_at": "2026-10-11T15:17:11+00:00",
+  "fetched_at": "2026-10-11T15:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T14:17:35+00:00",
-  "fetched_at": "2026-10-11T14:17:35+00:00"
+  "checked_at": "2026-10-11T15:17:23+00:00",
+  "fetched_at": "2026-10-11T15:17:23+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T14:17:36+00:00",
-  "fetched_at": "2026-10-11T14:17:36+00:00"
+  "checked_at": "2026-10-11T15:17:24+00:00",
+  "fetched_at": "2026-10-11T15:17:24+00:00"
  },
- "generated_at": "2026-10-11T14:17:36+00:00",
+ "generated_at": "2026-10-11T15:17:24+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,10 +92,15 @@
     {
      "title": "דיווח: 800 ק\"ג חומר נפץ בדרך לדאחיה: הסיכול הדרמטי בלבנון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559023",
-     "date": "2026-10-11T13:43:00+00:00"
+     "date": "2026-10-11T15:05:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "ONE ZERO יצא לסבב פיטורים שלישי בגלל ה־AI. והוא לא היחיד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559090",
+     "date": "2026-10-11T15:00:00+00:00"
+    },
     {
      "title": "המניות שיקפצו מחר בת\"א, וההזדמנות של \"פעם בדור\" שמסמנים בג'יי. פי. מורגן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559048",
@@ -215,17 +220,12 @@
      "title": "קבעה שישראל מבצעת רצח עם בעזה: פרס נובל לשלום יוענק לשופטת נאווי פילאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559013",
      "date": "2026-10-09T09:18:00+00:00"
-    },
-    {
-     "title": "המניה שילשה את ערכה השנה - והאנליסט הוותיק אומר שתעשה זאת שוב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559009",
-     "date": "2026-10-09T08:10:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T14:17:24+00:00",
-  "fetched_at": "2026-10-11T14:17:24+00:00"
+  "checked_at": "2026-10-11T15:17:12+00:00",
+  "fetched_at": "2026-10-11T15:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T14:17:25+00:00",
-  "fetched_at": "2026-10-11T14:17:25+00:00"
+  "checked_at": "2026-10-11T15:17:13+00:00",
+  "fetched_at": "2026-10-11T15:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2729,8 +2729,9 @@
     "title": "ולנסיה - אתלטיק בילבאו"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-11T14:17:27+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-10-11T15:17:18+00:00",
   "fetched_at": "2026-10-11T14:17:27+00:00"
  },
  "ligat_haal": {
@@ -2837,8 +2838,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T14:17:27+00:00",
-  "fetched_at": "2026-10-11T14:17:27+00:00"
+  "checked_at": "2026-10-11T15:17:18+00:00",
+  "fetched_at": "2026-10-11T15:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2865,14 +2866,14 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 437,
+     "likes": 438,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 227,
+     "likes": 228,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2886,7 +2887,7 @@
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 252,
+     "likes": 253,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2914,7 +2915,7 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 219,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -2927,19 +2928,46 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T14:17:34+00:00",
-  "fetched_at": "2026-10-11T14:17:34+00:00"
+  "checked_at": "2026-10-11T15:17:23+00:00",
+  "fetched_at": "2026-10-11T15:17:23+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "באנגליה ביקרו את חלאילי, שגם סיפק את \"יד האלוהים\"",
+     "title": "ביקורת, \"יד האלוהים\" והציונים: הערב הסוער של ענאן חלאילי",
      "link": "https://sports.walla.co.il/item/3871746",
-     "date": "2026-10-11T14:14:00+00:00",
+     "date": "2026-10-11T15:02:00+00:00",
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "שער נלקח מחלאילי, קריסטל פאלאס ניצחה את נוטינגהאם פורסט 1:3. צפו",
+     "link": "https://sports.walla.co.il/item/3871582",
+     "date": "2026-10-11T14:58:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "נגע ביד בזמן השער? ענאן חלאילי גרם לסערת ענק",
+     "link": "https://www.one.co.il/Article/535720.html?ref=rss",
+     "date": "2026-10-11T14:32:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "דריימונד גרין אירח את דני אבדיה והילל: \"עשית לנו את המוות\"",
+     "link": "https://sports.walla.co.il/item/3871753",
+     "date": "2026-10-11T14:21:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     },
     {
@@ -2952,6 +2980,24 @@
      ]
     },
     {
+     "title": "90 דקות טובות לרוי רביבו, אלצה לא הצליחה לכבוש מול סלטה ויגו",
+     "link": "https://sports.walla.co.il/item/3871589",
+     "date": "2026-10-11T13:55:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "אחרי ה-0:0: הציונים שקיבל רוי רביבו בספרד",
+     "link": "https://www.one.co.il/Article/535717.html?ref=rss",
+     "date": "2026-10-11T13:44:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
      "title": "\"חלאילי נתן לפורסט שער במתנה\", \"נראה שבור\"",
      "link": "https://www.one.co.il/Article/535712.html?ref=rss",
      "date": "2026-10-11T13:19:00+00:00",
@@ -2961,12 +3007,12 @@
      ]
     },
     {
-     "title": "90 דקות טובות לרוי רביבו, אלצה לא הצליחה לכבוש מול סלטה ויגו",
-     "link": "https://sports.walla.co.il/item/3871589",
+     "title": "חלאילי שגה, פאלאס הפכה וגברה 1:3 על נוטינגהאם",
+     "link": "https://www.one.co.il/Article/535662.html?ref=rss",
      "date": "2026-10-11T13:00:00+00:00",
-     "source": "וואלה",
+     "source": "ONE",
      "players": [
-      "רועי רביבו"
+      "ענאן חלאילי"
      ]
     },
     {
@@ -3021,52 +3067,6 @@
      "source": "וואלה",
      "players": [
       "עידן טוקלומטי"
-     ]
-    },
-    {
-     "title": "דיא סבע הלוהט שוב כבש, גלוך הוחלף באייאקס, שרי כבש נגדו",
-     "link": "https://sports.walla.co.il/item/3871592",
-     "date": "2026-10-10T20:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך",
-      "דיא סבע"
-     ]
-    },
-    {
-     "title": "רז הרשקו זכתה במדליית הארד באליפות העולם",
-     "link": "https://www.one.co.il/Article/535569.html?ref=rss",
-     "date": "2026-10-10T14:05:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עופרי ארד"
-     ]
-    },
-    {
-     "title": "בזכות השיפור הזה, \"דני אבדיה עשוי לחגוג העונה ב-NBA\"",
-     "link": "https://sports.walla.co.il/item/3871559",
-     "date": "2026-10-10T05:18:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "רק 1:1 לווסטהאם, מנור סולומון הוחלף בדקה ה-68",
-     "link": "https://sports.walla.co.il/item/3871537",
-     "date": "2026-10-09T20:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
-     "link": "https://sports.walla.co.il/item/3871461",
-     "date": "2026-10-08T17:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3270,11 +3270,26 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-11T14:17:30+00:00",
-  "fetched_at": "2026-10-11T14:17:30+00:00"
+  "checked_at": "2026-10-11T15:17:20+00:00",
+  "fetched_at": "2026-10-11T15:17:20+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "מרפאה ביום - ובמקביל מוקד טרור: צה\"ל חושף תיעודים של מחבלי חמאס חמושים בביה\"ח בעזה",
+    "link": "https://www.walla.co.il/news/military/383957083",
+    "date": "2026-10-11T15:03:36+00:00"
+   },
+   {
+    "title": "אדריכל המהפכה האנושית בצה\"ל: ראש חטיבת תומכ\"א היוצא מסכם קדנציה היסטורית",
+    "link": "https://www.walla.co.il/news/military/383957069",
+    "date": "2026-10-11T14:14:31+00:00"
+   },
+   {
+    "title": "צה\"ל: חוסל מפקד נוח'בה שהוביל את הפשיטה למוצב כיסופים ב-7 באוקטובר - ולקח חלק בחטיפת ישראלים",
+    "link": "https://www.walla.co.il/news/military/383957073",
+    "date": "2026-10-11T13:39:08+00:00"
+   },
    {
     "title": "הסריקות בגבול לבנון נמשכות: בצה\"ל לא שוללים חדירת מצנח ממונע | תיעוד",
     "link": "https://www.walla.co.il/news/military/383957000",
@@ -3284,110 +3299,94 @@
     "title": "גורם ישראלי בכיר לוואלה: לא צפויה תקיפה באיראן לפני הבחירות",
     "link": "https://www.walla.co.il/news/military/383956963",
     "date": "2026-10-10T17:38:08+00:00"
-   },
-   {
-    "title": "2 מחבלים חוסלו בחאן יונס, האחד מ\"פ שפשט לישראל ב-7 באוקטובר",
-    "link": "https://www.walla.co.il/news/military/383956941",
-    "date": "2026-10-10T15:41:10+00:00"
-   },
-   {
-    "title": "70 שנה למבצע \"לולב\": המבצע החטיבתי הראשון של הצנחנים שנדחק לשולי התודעה",
-    "link": "https://www.walla.co.il/news/military/383956760",
-    "date": "2026-10-10T12:21:12+00:00"
-   },
-   {
-    "title": "בוקר 7 באוקטובר: 800 לוחמים מול אלפי מחבלים - וכמה יש כיום?",
-    "link": "https://www.walla.co.il/news/military/383956851",
-    "date": "2026-10-09T15:47:16+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-11T14:17:30+00:00",
-  "fetched_at": "2026-10-11T14:09:24+00:00"
+  "ok": true,
+  "checked_at": "2026-10-11T15:17:21+00:00",
+  "fetched_at": "2026-10-11T15:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-11T14:10:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T15:05:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-11T14:10:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T15:00:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-11T12:17:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-10-11T05:18:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T14:21:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-11T14:14:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T15:02:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-11T12:16:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T15:15:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-11T14:07:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T14:59:00+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-11T09:37:05+00:00",
-    "seen_at": "2026-10-11T14:09:28+00:00",
+    "newest": "2026-10-11T15:03:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-11T14:14:14+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "newest": "2026-10-11T14:58:59+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-10T19:57:53+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-11T13:04:39+00:00",
-    "seen_at": "2026-10-11T14:17:36+00:00",
+    "seen_at": "2026-10-11T15:17:24+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-11T14:17:36+00:00"
+  "checked_at": "2026-10-11T15:17:24+00:00"
  }
 }
