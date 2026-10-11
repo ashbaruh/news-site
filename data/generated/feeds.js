@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-11T11:17:27+00:00",
-  "fetched_at": "2026-10-11T11:17:27+00:00"
+  "checked_at": "2026-10-11T12:17:14+00:00",
+  "fetched_at": "2026-10-11T12:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T11:17:40+00:00",
-  "fetched_at": "2026-10-11T11:17:40+00:00"
+  "checked_at": "2026-10-11T12:17:25+00:00",
+  "fetched_at": "2026-10-11T12:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T11:17:41+00:00",
-  "fetched_at": "2026-10-11T11:17:41+00:00"
+  "checked_at": "2026-10-11T12:17:25+00:00",
+  "fetched_at": "2026-10-11T12:17:25+00:00"
  },
- "generated_at": "2026-10-11T11:17:41+00:00",
+ "generated_at": "2026-10-11T12:17:25+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T11:17:28+00:00",
-  "fetched_at": "2026-10-11T11:17:28+00:00"
+  "checked_at": "2026-10-11T12:17:15+00:00",
+  "fetched_at": "2026-10-11T12:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T11:17:28+00:00",
-  "fetched_at": "2026-10-11T11:17:28+00:00"
+  "checked_at": "2026-10-11T12:17:16+00:00",
+  "fetched_at": "2026-10-11T12:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2732,8 +2732,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T11:17:30+00:00",
-  "fetched_at": "2026-10-11T11:17:30+00:00"
+  "checked_at": "2026-10-11T12:17:17+00:00",
+  "fetched_at": "2026-10-11T12:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2839,21 +2839,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T11:17:30+00:00",
-  "fetched_at": "2026-10-11T11:17:30+00:00"
+  "checked_at": "2026-10-11T12:17:17+00:00",
+  "fetched_at": "2026-10-11T12:17:17+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
-     "date": "2026-10-08T12:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing the Anthropic Cyber Mission",
-     "title_he": "היכרות עם משימת הסייבר האנתרופית",
-     "translated_by": "google"
-    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/how-ai-is-changing-software-engineering-4-insights/",
@@ -2862,7 +2853,7 @@ window.DB.generated = {
      "title": "4 תשובות אמיתיות לשאלה: איך AI באמת משנה את תפקיד המפתחים?"
     }
    ],
-   "candidates": 9,
+   "candidates": 6,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2885,7 +2876,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 432,
+     "likes": 434,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2920,7 +2911,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 57,
+     "likes": 58,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
@@ -2940,23 +2931,23 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-11T11:17:39+00:00",
-  "fetched_at": "2026-10-11T11:17:39+00:00"
+  "checked_at": "2026-10-11T12:17:24+00:00",
+  "fetched_at": "2026-10-11T12:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "ב-15:00 בערוץ ONE: רביבו בהרכב מול סלטה ויגו",
-     "link": "https://www.one.co.il/Article/535695.html?ref=rss",
-     "date": "2026-10-11T11:03:00+00:00",
-     "source": "ONE",
+     "title": "16:00, חי בספורט1: ענאן חלאילי בהרכב של פאלאס מול פורסט",
+     "link": "https://sports.walla.co.il/item/3871582",
+     "date": "2026-10-11T11:49:00+00:00",
+     "source": "וואלה",
      "players": [
-      "רועי רביבו"
+      "ענאן חלאילי"
      ]
     },
     {
-     "title": "דניאל פרץ בהרכב: סאות'המפטון - פורטסמות' 0:0 (מחצית 1)",
+     "title": "דניאל פרץ בהרכב: סאות'המפטון - פורטסמות' 0:1 (מחצית 2)",
      "link": "https://sports.walla.co.il/item/3871700",
      "date": "2026-10-11T11:00:00+00:00",
      "source": "וואלה",
@@ -3001,6 +2992,16 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "צמד ובישול לטוקלומטי, מסי וסוארס חגגו על בריבו",
+     "link": "https://www.one.co.il/Article/535647.html?ref=rss",
+     "date": "2026-10-11T04:42:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי בריבו",
+      "עידן טוקלומטי"
+     ]
+    },
+    {
      "title": "דיא סבע הלוהט שוב כבש, גלוך הוחלף באייאקס, שרי כבש נגדו",
      "link": "https://sports.walla.co.il/item/3871592",
      "date": "2026-10-10T20:57:00+00:00",
@@ -3017,15 +3018,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "עופרי ארד"
-     ]
-    },
-    {
-     "title": "נגד האקסית של אבא: רוי רביבו בהרכב מול סלטה ויגו",
-     "link": "https://sports.walla.co.il/item/3871589",
-     "date": "2026-10-10T11:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3283,8 +3275,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-11T11:17:33+00:00",
-  "fetched_at": "2026-10-11T11:17:33+00:00"
+  "checked_at": "2026-10-11T12:17:20+00:00",
+  "fetched_at": "2026-10-11T12:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3315,58 +3307,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-11T11:17:33+00:00",
-  "fetched_at": "2026-10-11T11:17:33+00:00"
+  "checked_at": "2026-10-11T12:17:21+00:00",
+  "fetched_at": "2026-10-11T12:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-11T10:54:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "newest": "2026-10-11T12:03:00+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-11T08:58:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-11T09:39:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-11T05:18:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-11T11:00:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "newest": "2026-10-11T12:00:00+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-11T10:16:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "newest": "2026-10-11T12:16:00+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-11T11:11:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "newest": "2026-10-11T12:06:00+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-11T09:37:05+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3378,28 +3370,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-11T11:00:50+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-10T19:57:53+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-09T22:00:00+00:00",
-    "seen_at": "2026-10-11T11:17:41+00:00",
+    "seen_at": "2026-10-11T12:17:25+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-11T11:17:41+00:00"
+  "checked_at": "2026-10-11T12:17:25+00:00"
  }
 };
