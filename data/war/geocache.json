@@ -36,6 +36,10 @@
 34.6008,
 32.9562
 ],
+"al wazi'iyah, yemen": [
+13.174,
+43.7298
+],
 "al-bayda, yemen": [
 13.9881,
 45.5729
@@ -53,6 +57,10 @@
 ],
 "al-jawf governorate, yemen": null,
 "al-jawf, yemen": null,
+"al-kharj, saudi arabia": [
+23.8304,
+47.684
+],
 "al-khawkhah, yemen": [
 13.8056,
 43.3474
@@ -351,6 +359,10 @@
 32.6228,
 36.1068
 ],
+"deir ammar, lebanon": [
+34.462,
+35.8994
+],
 "deir ez-zor, syria": [
 35.3333,
 40.15
@@ -639,6 +651,7 @@
 35.6927
 ],
 "kfartebnit, lebanon": null,
+"khabab, yemen": null,
 "khamis mushait, saudi arabia": [
 18.3,
 42.7333
@@ -935,6 +948,10 @@
 35.4825
 ],
 "nahal saluki, lebanon": null,
+"nahariya, israel": [
+33.0066,
+35.0984
+],
 "nahr al-kabir, lebanon-syria border": null,
 "najaf, iraq": [
 32.001,
@@ -1245,6 +1262,10 @@
 50.0726,
 36.6254
 ],
+"shlomi, israel": [
+33.0761,
+35.1486
+],
 "simferopol district, crimea": [
 44.9402,
 34.1198
@@ -1370,6 +1391,10 @@
 "tel aviv, israel": [
 32.0853,
 34.7818
+],
+"terbol, lebanon": [
+33.8131,
+35.9903
 ],
 "touline, lebanon": [
 33.2544,

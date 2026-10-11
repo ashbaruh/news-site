@@ -1,0 +1,469 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2b3e11dd35f9",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 3,
+   "shared_root": 1,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-11T06:22:44+00:00",
+  "window": {
+   "from": "2026-10-10T06:22:44+00:00",
+   "to": "2026-10-11T06:22:44+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610110622"
+  },
+  "summary": "בגזרה הצפונית נמשכת פעילות צבאית עצימה לצד מתיחות אווירית שוטפת מול לבנון. כוחות צה\"ל מבצעים תקיפות, הפגזות ושיגורי יירוט בדרום לבנון, לצד סריקות נרחבות בגליל המערבי בעקבות חדירות אוויריות בלתי מזוהות. במקביל, רשויות הביטחון בלבנון פועלות לסיכול חומרי נפץ של גורמי חיזבאללה, ובציר הדיפלומטי-צבאי נרשם שיח ישיר בין מפקדי הצבאות של טורקיה וסוריה.",
+  "fronts": [
+   {
+    "name": "גבול ישראל-לבנון ודרום לבנון",
+    "status": "לחימה פעילה, תקיפות אוויריות, שיגורי יירוט ודריכות בעקבות חדירות כלי טיס"
+   },
+   {
+    "name": "פנים לבנון מול חיזבאללה",
+    "status": "פעילות אכיפה של מנגנוני הביטחון וסיכול אמצעי לחימה של הארגון"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "הברחות מתמשכות של בני אדם דרך נתיבים הרריים עוקפים"
+   },
+   {
+    "name": "ציר טורקיה-סוריה",
+    "status": "ערוצי תקשורת פתוחים ברמת הפיקוד הצבאי הבכיר"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10110622-01",
+    "title": "זיהוי עצם אווירי בלתי מזוהה שחצה מלבנון וסריקות בגליל המערבי",
+    "summary": "התרעות הופעלו באזור ערב אל-עראמשה עקב חדירת עצם אווירי לא מזוהה מלבנון לשטח ישראל. כוחות ביטחון ופיקוד הצפון פתחו בסריקות מהקרקע ומהאוויר באזור ובסביבתו, ובהמשך הוסר החשש ללא איתור ממצאים חריגים.",
+    "axis": "גבול ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T17:05:22+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T17:05:22+00:00",
+    "last_update_at": "2026-10-11T06:01:37+00:00",
+    "what_is_not_verified": "סוג העצם המדויק ומיקומו הסופי טרם נקבעו בוודאות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21594921",
+      "published_at": "2026-10-11T06:01:37+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1ptysdime",
+      "published_at": "2026-10-11T05:42:43+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957000",
+      "published_at": "2026-10-11T04:54:05+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25331",
+      "published_at": "2026-10-10T20:41:34+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hy4hkwdomx",
+      "published_at": "2026-10-10T19:02:25+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94578",
+      "published_at": "2026-10-10T17:14:16+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383956956",
+      "published_at": "2026-10-10T17:05:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ערב אל-עראמשה, ישראל",
+      "lat": 33.0886,
+      "lon": 35.2265
+     },
+     {
+      "name": "שלומי, ישראל",
+      "lat": 33.0761,
+      "lon": 35.1486
+     },
+     {
+      "name": "נהריה, ישראל",
+      "lat": 33.0066,
+      "lon": 35.0984
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-02",
+    "title": "שיגור מיירט לעבר מטרה אווירית חשודה בדרום לבנון",
+    "summary": "מיירט צה\"לי שוגר לעבר מטרה אווירית חשודה שזוהתה באזור פעילות כוחות הצבא בדרום לבנון, ללא הפעלת התרעות בעורף.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:50:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T14:50:18+00:00",
+    "last_update_at": "2026-10-10T14:51:36+00:00",
+    "what_is_not_verified": "תוצאות היירוט נותרו בבדיקה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131674",
+      "published_at": "2026-10-10T14:51:36+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25326",
+      "published_at": "2026-10-10T14:50:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-03",
+    "title": "תקיפות אוויריות והפגזות של צה\"ל בדרום לבנון",
+    "summary": "דווח על תקיפה אווירית ישראלית באל-מנצורי ועל ירי ארטילרי בין מיפדון לזווטר א-שרקיה במחוז א-נבטיה, לצד הטלת פצצות תאורה מעל מרחב מרג' עיון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T23:05:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T23:05:37+00:00",
+    "last_update_at": "2026-10-11T06:17:35+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים בתקיפות אלו לא צוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_d3b50d7212cde3e0",
+      "url": "https://english.almanar.com.lb/article/136782/",
+      "published_at": "2026-10-11T06:17:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d3b50d7212cde3e0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-israeli-military-attacks-2-march-rises-4386",
+      "published_at": "2026-10-10T23:05:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "א-נבטיה, לבנון",
+      "lat": 33.3812,
+      "lon": 35.4825
+     },
+     {
+      "name": "מרג' עיון, לבנון",
+      "lat": 33.3593,
+      "lon": 35.5902
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-04",
+    "title": "תפיסת חומרי נפץ ומעצר חשודים המקושרים לחיזבאללה בלבנון",
+    "summary": "מנגנוני הביטחון בלבנון תפסו כלי רכב עמוס בכחצי טון חומרי נפץ ועצרו שני חשודים המזוהים עם חיזבאללה, בהם בנו של בכיר בארגון.",
+    "axis": "פנים לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T05:23:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T05:23:01+00:00",
+    "last_update_at": "2026-10-11T05:23:01+00:00",
+    "what_is_not_verified": "זהות המתכננים ומטרת השינוע המלאה עדיין בחקירה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21594695",
+      "published_at": "2026-10-11T05:23:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבנון",
+      "lat": 40.3757,
+      "lon": -76.4626
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-05",
+    "title": "שיחה בין מפקדי הצבאות של טורקיה וסוריה",
+    "summary": "רמטכ\"ל צבא טורקיה שוחח בטלפון עם מקבילו הסורי בנוגע לקשרים הדדיים ולסוגיות אזוריות.",
+    "axis": "טורקיה-סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T16:17:26+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T16:17:26+00:00",
+    "last_update_at": "2026-10-10T16:17:26+00:00",
+    "what_is_not_verified": "פרטי השיחה המלאים וההסכמות שהושגו לא פורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-military-chiefs-discuss-bilateral-ties-regional-issues/4084623",
+      "published_at": "2026-10-10T16:17:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10110622-06",
+    "title": "חשיפת נתיבי הברחת בני אדם בגבול סוריה-לבנון",
+    "summary": "נחשפו מסלולי תנועה עוקפים שבאמצעותם מוברחים אזרחים סורים לתוך שטח לבנון תוך עקיפת מחסומי צבא לבנון בצפון המדינה.",
+    "axis": "גבול סוריה-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T14:05:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-10T14:05:00+00:00",
+    "last_update_at": "2026-10-10T14:05:00+00:00",
+    "what_is_not_verified": "היקף המוברחים היומי הכולל והרשתות המפעילות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_2e6f8bda27564370",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962123/inside-lebanons-human-smuggling-routes-along-the-syrian-border/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962123",
+      "published_at": "2026-10-10T14:05:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר עמאר, לבנון",
+      "lat": 34.462,
+      "lon": 35.8994
+     },
+     {
+      "name": "תרבול, לבנון",
+      "lat": 33.8131,
+      "lon": 35.9903
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-07",
+    "title": "שחיקה מבצעית ותאונות של כוחות ישראליים בגזרת הליטני",
+    "summary": "התהפכות רכב צבאי באזור נהר הליטני גרמה למותו של קצין ולפציעת חיילים, על רקע אזהרות במערכת הביטחון הישראלית משחיקה ומפגיעה בעירנות הכוחות הפרוסים בגזרה.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T15:35:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T15:35:12+00:00",
+    "last_update_at": "2026-10-10T15:35:12+00:00",
+    "what_is_not_verified": "הגדרת רמת השחיקה המדויקת של כלל הכוחות מבוססת על הערכות גורמים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/fatigue-carelessness-causing-casualties-among-israeli-forces",
+      "published_at": "2026-10-10T15:35:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נהר הליטני, לבנון",
+      "lat": 33.552,
+      "lon": 35.6924
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10110622-08",
+    "title": "פרסום מניין נפגעים מצטבר מתקיפות צה\"ל בלבנון",
+    "summary": "משרד הבריאות הציבורית בלבנון עדכן את נתוני הנפגעים ודיווח על אלפי הרוגים ופצועים כתוצאה מתקיפות ישראליות בתקופות המעקב השונות.",
+    "axis": "לבנון",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T23:05:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-10T23:05:37+00:00",
+    "last_update_at": "2026-10-10T23:05:37+00:00",
+    "what_is_not_verified": "חלוקת הנפגעים בין אזרחים לפעילי ארגונים חמושים אינה מצוינת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-israeli-military-attacks-2-march-rises-4386",
+      "published_at": "2026-10-10T23:05:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבנון",
+      "lat": 40.3757,
+      "lon": -76.4626
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "סוגו וגורלו המדויק של העצם האווירי שחצה לאזור ערב אל-עראמשה",
+   "תוצאת היירוט שבוצע לעבר המטרה האווירית בדרום לבנון",
+   "היעד והמתכננים של משלוח חצי טון חומרי הנפץ שנתפס בלבנון",
+   "חלוקת הנפגעים בלבנון בין פעילים חמושים לבלתי מעורבים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0573,
+    "unit": "ILS",
+    "change_pct": -0.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שלילת פעילות עוינת והגנה על יישובי קו העימות",
+     "פגיעה במטרות אויב ויירוט כלי טיס חשודים במרחב הפעולה בלבנון"
+    ],
+    "inferred": [
+     "החזקת קו הגנה קדמי תוך צמצום חשיפת הכוחות לשחיקה ותאונות",
+     "מניעת חדירות אוויריות לאיסוף או לתקיפה בגליל"
+    ],
+    "forecast": [
+     "המשך פעילות סריקה ויירוט נקודתית מול איומי אוויר בלתי מזוהים",
+     "שמירה על לחץ מבצעי באש לעבר יעדים בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון ומנגנוני הביטחון",
+    "declared": [
+     "מיצוי חקירת הברחות הנשק הבלתי חוקי ומאבק נחוש בתופעה",
+     "שמירה על תקני ביטחון תעופתי וחיזוק האכיפה"
+    ],
+    "inferred": [
+     "הפגנת ריבונות מול הקהילה הבינלאומית תוך הימנעות מעימות חזיתי כולל עם חיזבאללה",
+     "בלימת הסתננות בלתי מבוקרת מגבול סוריה"
+    ],
+    "forecast": [
+     "המשך מעצרים וסיכולים מוגבלים של התארגנויות חמושות",
+     "הגברת הפיקוח בנקודות תורפה בגבול הצפוני והמזרחי"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הידוק הקשרים הבילטרליים והתיאום הביטחוני האזורי מול סוריה"
+    ],
+    "inferred": [
+     "השגת השפעה ויציבות בצפון סוריה באמצעות מגעים עם ההנהגה הצבאית בדמשק"
+    ],
+    "forecast": [
+     "המשך ערוצי הידברות ישירים בין הפיקודים הצבאיים בסוריה ובטורקיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/136782/",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/turkiye/turkish-syrian-military-chiefs-discuss-bilateral-ties-regional-issues/4084623",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21594695",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962123/inside-lebanons-human-smuggling-routes-along-the-syrian-border/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962123",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-israeli-military-attacks-2-march-rises-4386",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/fatigue-carelessness-causing-casualties-among-israeli-forces",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131674",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25326",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94578",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383956956",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hy4hkwdomx",
+    "accessed_at": "2026-10-11T06:22:44+00:00"
+   }
+  ]
+ }
+}
