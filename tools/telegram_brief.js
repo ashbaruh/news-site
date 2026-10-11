@@ -132,6 +132,8 @@ async function main() {
 
   const st = readStatus();
   if (st.last_slot === msg.slot) { console.log('טלגרם: העדכון של ' + msg.slot + ' כבר פורסם'); return; }
+  // עדכון ישן מזה שכבר פורסם (למשל ריצה אוטומטית מאוחרת אחרי עדכון לפי בקשה) — לא מפרסמים אחורה בזמן (11/10/2026)
+  if (st.last_slot && new Date(msg.slot) < new Date(st.last_slot)) { console.log('טלגרם: ' + msg.slot + ' ישן מהעדכון האחרון שפורסם — מדלג'); return; }
 
   const res = await fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
     method: 'POST',
