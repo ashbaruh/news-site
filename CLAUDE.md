@@ -32,8 +32,11 @@
 כשבעל האתר מבקש "עדכון" או "ניתוח", **לא** מפעילים את משימות Gemini (`run-*-now.txt`). Claude כותב את התוכן בעצמו:
 1. `git pull`, איסוף ידיעות טריות (חיפוש ברשת, ובנוסף `tools/collect_war.py` / `tools/war_feeds.py` כשאפשר).
 2. **ניתוח מלחמות** → קובץ JSON לכל זירה לפי `tools/war_contract.py` (רק מקורות שרשומים ב-`data/sources.js`, בלי שדה אימות). לשים אותו ב-`data/war/inbox/`, להריץ `python tools/ingest_war.py`, להוסיף את הטיוטה ל-`approved.json`, ולהריץ `ingest_war.py` שוב.
-3. **עדכון ביניים** → פריטים בפורמט של `data/war/brief.js` (כמו ש-`tools/war_brief.py` מייצר), עד 3 ידיעות לכל זירה.
-4. **חדשות ונתונים** (AI, ספורט, רכב...) → אין בהם בינה: `python tools/update_data.py`.
+3. **עדכון ביניים** → דרך `war-claude.yml` (בלי בינה בענן; האיסוף וההרכבה ב-GitHub, כי בסביבה של Claude אין גישה לאתרי החדשות):
+   1. לשנות את `.github/run-collect-now.txt` ולשמור → הכתבות נאספות ל-`data/war/claude_input.json` (כדקה וחצי).
+   2. `git pull`, לקרוא את הכתבות, ולכתוב `data/war/claude_events.json` — עד 3 ידיעות לזירה בפורמט `EVENTS_SCHEMA` (`tools/mac/analyze.py`), `support.item` = מספר הכתבה ברשימה של אותה זירה, ניסוח מקורי בלבד, בלי אותיות ערביות.
+   3. לבדוק מקומית (`wb.build_arena` עם geocode ריק) ולשמור → GitHub מרכיב, בודק, כותב `brief.js` עם `"model": "claude"`, ומפרסם לערוץ הטלגרם.
+4. **חדשות ונתונים** (AI, ספורט, רכב...) → אין בהם בינה: לשנות את `.github/run-data-now.txt` (בסביבה של Claude אין רשת לאתרים).
 5. כל הבדיקות שלמטה → commit → push → לוודא באתר החי.
 - בקובץ הניתוח: `"model": {"name": "claude", ...}`, כדי שיהיה ברור מי כתב.
 - המשימות האוטומטיות של Gemini לפי לוח הזמנים ממשיכות לרוץ כרגיל.
