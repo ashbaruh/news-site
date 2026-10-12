@@ -1,83 +1,89 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-11T18:00:00+03:00",
- "generated_at": "2026-10-11T14:40:24+00:00",
+ "slot": "2026-10-12T04:00:00+03:00",
+ "generated_at": "2026-10-12T00:40:15+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10111440-01",
-     "title": "פגיעת קליע במכלית במצר הורמוז",
-     "summary": "סוכנות הסחר הימי הבריטית דיווחה על מכלית שנפגעה מקליע בלתי מזוהה בעת שחצתה במצר הורמוז ונגרם לה נזק ללא נפגעים בצוות.",
+     "id": "IRAN-10120040-01",
+     "title": "איראן דוחה את מענה ארצות הברית ומגדירה אותו כבלתי מספק",
+     "summary": "מזכיר המועצה העליונה לביטחון לאומי באיראן טען כי ארצות הברית הסכימה רק לחלק מדרישותיה של טהראן, ולכן תשובתה אינה מספקת כדי להתקדם בהסכם ובפתיחת מצר הורמוז.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T13:56:51+00:00",
+     "occurred_at": "2026-10-11T22:18:30+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T13:56:51+00:00",
-     "last_update_at": "2026-10-11T13:56:51+00:00",
-     "what_is_not_verified": "זהות משגר הקליע ומקור הפגיעה",
+     "first_reported_at": "2026-10-11T22:18:30+00:00",
+     "last_update_at": "2026-10-12T00:00:00+00:00",
+     "what_is_not_verified": "פרטי התנאים המדויקים ותשובת ארצות הברית המלאה אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_ukmto",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-it-received-report-tanker-hit-projectile-hormuz",
-       "published_at": "2026-10-11T13:56:51+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-us-response-falls-short-conditions-deal",
+       "published_at": "2026-10-11T22:18:30+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/12/iran-war-live-riyadh-airport-hit-again-tehran-says-us-reply-inadequate?traffic_source=rss",
+       "published_at": "2026-10-12T00:00:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10111440-02",
-     "title": "השבתת כלי שיט במצר הורמוז על ידי פיקוד המרכז האמריקאי",
-     "summary": "פיקוד המרכז של צבא ארצות הברית הודיע כי השבית כלי שיט שניסה לחמוק מהסגר הימי במצר הורמוז, על רקע אזהרות של משמרות המהפכה.",
+     "id": "IRAN-10120040-02",
+     "title": "שיחה בין שרי החוץ של סעודיה ואיראן על רקע ההסלמה",
+     "summary": "שר החוץ האיראני שוחח בטלפון עם מקבילו הסעודי בנוגע למתיחות הגוברת באזור ולמאמצים לבלימתה.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T14:04:32+00:00",
+     "occurred_at": "2026-10-11T21:46:27+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T14:04:32+00:00",
-     "last_update_at": "2026-10-11T14:04:32+00:00",
-     "what_is_not_verified": "זהות כלי השיט שהושבת",
+     "first_reported_at": "2026-10-11T21:46:27+00:00",
+     "last_update_at": "2026-10-12T00:27:46+00:00",
+     "what_is_not_verified": "תוכן השיחה המלא מעבר לדיווחים הרשמיים אינו מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_centcom",
-       "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall?traffic_source=rss",
-       "published_at": "2026-10-11T14:04:32+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-foreign-ministry-holds-phone-call-irans-araghchi-over-recent",
+       "published_at": "2026-10-12T00:27:46+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says",
+       "published_at": "2026-10-11T21:46:27+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10111440-03",
-     "title": "הצהרת שר האוצר האמריקאי בדבר עצירת יצוא הנפט הימי של איראן",
-     "summary": "שר האוצר של ארצות הברית טען כי לאיראן אין כעת מיכליות נפט פעילות בים ותזרים המזומנים שלה הפך לשלילי.",
+     "id": "IRAN-10120040-03",
+     "title": "דיווח על פיצוץ מכלית נפט במצר הורמוז",
+     "summary": "חיל הים של משמרות המהפכה הודיע כי מכלית נפט נפגעה ממוקש ימי והתפוצצה בעת שניסתה לחצות את מצר הורמוז במסלול לא מאושר.",
      "axis": "iran",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T13:58:13+00:00",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T13:58:13+00:00",
-     "last_update_at": "2026-10-11T14:34:21+00:00",
-     "what_is_not_verified": "מצב המיכליות והנתונים הכלכליים בפועל",
+     "first_reported_at": "2026-10-11T18:16:02+00:00",
+     "last_update_at": "2026-10-11T18:16:02+00:00",
+     "what_is_not_verified": "זהות המכלית, שיוכה ונזקיה לא אומתו ממקור עצמאי",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131731",
-       "published_at": "2026-10-11T14:34:21+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131727",
-       "published_at": "2026-10-11T13:58:13+00:00"
+       "url": "https://en.irna.ir/news/86289902/Supertanker-explodes-after-hitting-mine-in-unauthorized-Hormuz",
+       "published_at": "2026-10-11T18:16:02+00:00"
       }
      ],
      "places": []
@@ -87,59 +93,88 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10111440-01",
-     "title": "דיווחים על טיסות מטוסי קרב ישראליים ותקיפות בדרום לבנון",
-     "summary": "מקורות בלבנון דיווחו על גיחות מטוסי קרב ישראליים מעל ביירות, הבקאע והדרום, וכן על תקיפת יעדים בדרום לבנון.",
+     "id": "NORTH-10120040-01",
+     "title": "שיגור מיירט לעבר מטרה חשודה בדרום לבנון",
+     "summary": "כוחות צה\"ל שיגרו מיירט בעקבות זיהוי מטרה אווירית חשודה באזור פעילותם בדרום לבנון, ותוצאות הפעולה נבדקות.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T09:47:31+00:00",
+     "occurred_at": "2026-10-11T16:39:08+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T09:47:31+00:00",
-     "last_update_at": "2026-10-11T10:21:11+00:00",
-     "what_is_not_verified": "פרטי היעדים שהותקפו ואימות הפעילות על ידי גורם רשמי",
+     "first_reported_at": "2026-10-11T16:39:08+00:00",
+     "last_update_at": "2026-10-11T16:39:08+00:00",
+     "what_is_not_verified": "תוצאות היירוט ומהות המטרה אינן מאומתות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94586",
-       "published_at": "2026-10-11T10:21:11+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131720",
-       "published_at": "2026-10-11T09:47:31+00:00"
+       "url": "https://t.me/idf_telegram/25338",
+       "published_at": "2026-10-11T16:39:08+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
       }
      ]
     },
     {
-     "id": "NORTH-10111440-02",
-     "title": "הצהרת שר הביטחון נגד נשיא טורקיה",
-     "summary": "שר הביטחון הישראלי מתח ביקורת על נשיא טורקיה בטענה שהוא מארח פעילי חמאס ומסייע לארגון.",
+     "id": "NORTH-10120040-02",
+     "title": "דיווח על שני הרוגים בדרום לבנון",
+     "summary": "במהלך מסיק זיתים בדרום לבנון נהרגו שני גברים, האחד מירי והשני מנפל תחמושת שהתפוצץ.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T12:09:22+00:00",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T12:09:22+00:00",
-     "last_update_at": "2026-10-11T12:09:22+00:00",
-     "what_is_not_verified": "מידת הסיוע בפועל בטורקיה",
+     "first_reported_at": "2026-10-11T15:35:29+00:00",
+     "last_update_at": "2026-10-11T19:57:08+00:00",
+     "what_is_not_verified": "נסיבות הירי והאחראים לפגיעה אינם מאומתים באופן בלתי תלוי",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94594",
-       "published_at": "2026-10-11T12:09:22+00:00"
+       "url": "https://www.newarab.com/news/two-killed-near-israeli-occupied-zone-south-lebanon",
+       "published_at": "2026-10-11T19:57:08+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/two-killed-during-olive-harvest-south-lebanon",
+       "published_at": "2026-10-11T15:35:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10120040-03",
+     "title": "סיכול הברחת כדורי קפטגון בגבול סוריה",
+     "summary": "הרשויות למלחמה בסמים בסוריה מסרו כי סיכלו ניסיון הברחה של יותר ממאה אלף כדורי קפטגון שהוחבאו בצמיג של משאית קירור.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-11T19:27:56+00:00",
+     "last_update_at": "2026-10-11T19:27:56+00:00",
+     "what_is_not_verified": "יעד המשלוח המדויק ומעורבות גורמים נוספים אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.enabbaladi.net/archives/2026/10/syria-foils-drug-smuggling-on-iraq-and-jordan-borders/",
+       "published_at": "2026-10-11T19:27:56+00:00"
       }
      ],
      "places": []
@@ -149,88 +184,94 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10111440-01",
-     "title": "הכרזת הנשיא טראמפ על הפסקת אש בתחום האנרגיה",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הודיע על כניסתה לתוקף של הפסקת אש מיידית בתחום תשתיות האנרגיה בהסכמת רוסיה ואוקראינה.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-11T14:19:14+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-11T14:19:14+00:00",
-     "last_update_at": "2026-10-11T14:24:40+00:00",
-     "what_is_not_verified": "אישור רשמי ישיר מהצדדים ויישום ההסכמות בשטח",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131730",
-       "published_at": "2026-10-11T14:24:40+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94596",
-       "published_at": "2026-10-11T14:20:35+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48445",
-       "published_at": "2026-10-11T14:19:14+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10111440-02",
-     "title": "תקיפה אווירית רוסית בחארקיב",
-     "summary": "מתקפה אווירית שביצעה רוסיה על העיר חארקיב גרמה למותו של אדם אחד לפחות ולפציעתם של שמונה בני אדם נוספים.",
+     "id": "UKRAINE-10120040-01",
+     "title": "פגיעת טיל באזור חרקוב",
+     "summary": "מתקפת טילים רוסית פגעה סמוך למבני מגורים ולחנות בפרברי חרקוב וגרמה לשלושה הרוגים ולעשרות פצועים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T13:41:53+00:00",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T13:41:53+00:00",
-     "last_update_at": "2026-10-11T13:41:53+00:00",
-     "what_is_not_verified": "היקף הנפגעים הסופי",
+     "first_reported_at": "2026-10-11T20:57:00+00:00",
+     "last_update_at": "2026-10-11T23:32:31+00:00",
+     "what_is_not_verified": "מספר הפצועים הסופי המדויק אינו מאומת במלואו בשל פערים בדיווחים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-air-strike-on-kharkiv-kills-at-least-1-injures-8/",
-       "published_at": "2026-10-11T13:41:53+00:00"
+       "url": "https://kyivindependent.com/3-killed-25-injured-in-russian-strike-near-kharkiv/",
+       "published_at": "2026-10-11T23:32:31+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4173367-russian-missile-strike-on-kharkiv-suburbs-three-dead-injury-toll-rises-22.html",
+       "published_at": "2026-10-11T20:57:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "חארקיב",
+       "name": "חרקוב, אוקראינה",
        "lat": 49.9923,
        "lon": 36.231
       }
      ]
     },
     {
-     "id": "UKRAINE-10111440-03",
-     "title": "השמדת סירות רוסיות על ידי הצי האוקראיני",
-     "summary": "חיל הים של אוקראינה פרסם תיעוד וידאו שבו נראית השמדת שתי סירות רוסיות יחד עם צוותיהן.",
+     "id": "UKRAINE-10120040-02",
+     "title": "הצהרה על הפסקת אש בתשתיות האנרגיה ותגובת הצדדים",
+     "summary": "נשיא ארצות הברית טען כי סוכמה הפסקת אש על מתקני אנרגיה, ובעוד אוקראינה בירכה על כך, מרוסיה נמסר כי אינה מכירה את ההסכם.",
      "axis": "ukraine",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T13:36:00+00:00",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T13:36:00+00:00",
-     "last_update_at": "2026-10-11T13:36:00+00:00",
-     "what_is_not_verified": "המיקום המדויק ומספר אנשי הצוות שנפגעו",
+     "first_reported_at": "2026-10-11T14:24:40+00:00",
+     "last_update_at": "2026-10-11T18:07:44+00:00",
+     "what_is_not_verified": "קיומו של הסכם מחייב בין המדינות אינו מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_656f57e69a77bb9d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057470/",
-       "published_at": "2026-10-11T13:36:00+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48457",
+       "published_at": "2026-10-11T18:07:44+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48454",
+       "published_at": "2026-10-11T16:22:47+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131730",
+       "published_at": "2026-10-11T14:24:40+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10120040-03",
+     "title": "האיחוד האירופי יעביר חבילת מימון צבאי לאוקראינה",
+     "summary": "נשיא אוקראינה מסר כי האיחוד האירופי צפוי להעביר השבוע סיוע ביטחוני בסך שלושה מיליארד אירו במסגרת הלוואת תמיכה רחבה.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-11T22:16:42+00:00",
+     "last_update_at": "2026-10-11T22:16:42+00:00",
+     "what_is_not_verified": "מועד ההעברה המדויק של הכספים בפועל אינו מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/eu-to-provide-ukraine-with-3-billion-euro-tranche-of-military-funding-this-week/",
+       "published_at": "2026-10-11T22:16:42+00:00"
       }
      ],
      "places": []
@@ -240,108 +281,97 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10111440-01",
-     "title": "דיווח על תקיפות אוויריות בנמל התעופה בצנעא ובמחוז עמראן",
-     "summary": "כלי תקשורת המזוהים עם החות'ים דיווחו על תקיפות אוויריות של סעודיה בנמל התעופה הבינלאומי של צנעא ובאזור חרף סופיאן.",
+     "id": "YEMEN-10120040-01",
+     "title": "פגיעה נוספת בנמל התעופה הבינלאומי בריאד",
+     "summary": "שיגור שבוצע מתימן פגע בטרמינל נוסעים בנמל התעופה הבינלאומי בריאד, גרם למותו של אדם אחד ולפציעתם של לפחות 11 בני אדם.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T13:50:55+00:00",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-11T13:50:55+00:00",
-     "last_update_at": "2026-10-11T14:40:12+00:00",
-     "what_is_not_verified": "זהות המבצעים בהיעדר תגובה מקואליציית סעודיה, והיקף הנזק",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-       "published_at": "2026-10-11T14:40:12+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-strikes-reported-yemens-sanaa-airport",
-       "published_at": "2026-10-11T13:50:55+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צנעא",
-       "lat": 15.3539,
-       "lon": 44.2059
-      },
-      {
-       "name": "עמראן",
-       "lat": 15.6628,
-       "lon": 43.943
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10111440-02",
-     "title": "אזהרת החות'ים מפני שימוש בנמלי תעופה בסעודיה",
-     "summary": "דובר צבאי מטעם החות'ים פרסם אזהרה לחברות תעופה ולנוסעים להימנע משימוש בכל נמלי התעופה בסעודיה, למעט במכה ובמדינה.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-11T14:15:48+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-11T14:15:48+00:00",
-     "last_update_at": "2026-10-11T14:15:48+00:00",
-     "what_is_not_verified": "מימוש האיומים בפועל",
+     "first_reported_at": "2026-10-11T16:21:01+00:00",
+     "last_update_at": "2026-10-11T23:20:46+00:00",
+     "what_is_not_verified": "סוג החימוש המדויק שפגע במבנה אינו מאומת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-forces-warn-against-use-saudi-airports-following-riyadh-attack",
-       "published_at": "2026-10-11T14:15:48+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-attack-kills-one-wounds-11-saudi-aviation-authority-says",
+       "published_at": "2026-10-11T22:39:30+00:00"
+      },
       {
-       "name": "ריאד",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10111440-03",
-     "title": "הארכת השבתת נמל התעופה בריאד והעברת לימודים ללמידה מרחוק",
-     "summary": "רשויות התעופה בסעודיה האריכו את סגירת נמל התעופה הבינלאומי בריאד בעקבות פגיעת הטיל, ומשרד החינוך הורה להעביר את הלימודים לרשת.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-11T09:46:38+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-11T09:46:38+00:00",
-     "last_update_at": "2026-10-11T14:23:34+00:00",
-     "what_is_not_verified": "מועד הפתיחה המלא של נמל התעופה בפועל",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+       "published_at": "2026-10-11T23:20:46+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131719",
-       "published_at": "2026-10-11T09:46:38+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
-       "published_at": "2026-10-11T14:23:34+00:00"
+       "url": "https://t.me/abualiexpress/131740",
+       "published_at": "2026-10-11T16:21:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "נמל התעופה הבינלאומי המלך ח'אלד, ריאד",
+       "lat": 24.9586,
+       "lon": 46.711
       }
      ]
+    },
+    {
+     "id": "YEMEN-10120040-02",
+     "title": "יירוט טיל בליסטי ששוגר לעבר חמיס מושייט",
+     "summary": "הקואליציה בהובלת סעודיה דיווחה על יירוט טיל בליסטי ששיגרו החות'ים לעבר העיר חמיס מושייט שבדרום הממלכה.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-12T00:34:32+00:00",
+     "last_update_at": "2026-10-12T00:34:32+00:00",
+     "what_is_not_verified": "היקף הנזק או נפילת שברי היירוט אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-houthi-missile-launched-towards-khamis-mushait",
+       "published_at": "2026-10-12T00:34:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חמיס מושייט, ערב הסעודית",
+       "lat": 18.3,
+       "lon": 42.7333
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10120040-03",
+     "title": "הצהרה משותפת של ארבע מדינות נגד מתקפות החות'ים",
+     "summary": "סעודיה, פקיסטן, מצרים וטורקיה פרסמו הודעה משותפת המגנה בחריפות את מתקפות הטילים והכטב\"מים של החות'ים ודורשת את הפסקתן המיידית.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-11T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-11T17:22:33+00:00",
+     "last_update_at": "2026-10-11T17:22:33+00:00",
+     "what_is_not_verified": "הצעדים המעשיים שיינקטו בעקבות ההצהרה אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48455",
+       "published_at": "2026-10-11T17:22:33+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   }
