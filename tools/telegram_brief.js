@@ -74,11 +74,16 @@ async function marketsLine() {
   } catch (e) { console.log('שווקים: ריבית בנק ישראל לא זמינה — ' + e.message); }
   // ריבית הפד — הפדרל ריזרב של ניו יורק
   try {
-    const j = await getJSON('https://markets.newyorkfed.org/api/rates/unsecured/effr/last/1.json');
-    const r = j && j.refRates && j.refRates[0];
-    if (r && isFinite(r.targetRateFrom) && isFinite(r.targetRateTo)) {
-      row('🇺🇸', 'ריבית הפד', r.targetRateFrom.toFixed(2) + '–' + r.targetRateTo.toFixed(2) + '%', '');
+    // כמו באתר (markets-live.js): כמה ימים אחורה, והאחרון שיש בו טווח יעד. הערכים מגיעים לפעמים כמחרוזת.
+    const j = await getJSON('https://markets.newyorkfed.org/api/rates/unsecured/effr/last/5.json');
+    const rows5 = ((j && j.refRates) || []).filter(r => r && r.targetRateFrom != null && r.targetRateTo != null)
+      .sort((a, b) => (a.effectiveDate < b.effectiveDate ? 1 : -1));
+    const r = rows5[0], lo = r && Number(r.targetRateFrom), hi = r && Number(r.targetRateTo);
+    if (r && isFinite(lo) && isFinite(hi)) {
+      row('🇺🇸', 'ריבית הפד', lo.toFixed(2) + '–' + hi.toFixed(2) + '%', '');
       credit.push('NY Fed');
+    } else {
+      console.log('שווקים: NY Fed — אין טווח יעד בתשובה (' + JSON.stringify(j).slice(0, 200) + ')');
     }
   } catch (e) { console.log('שווקים: NY Fed לא זמין — ' + e.message); }
   if (!rows.length) return '';
