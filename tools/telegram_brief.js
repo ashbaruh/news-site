@@ -24,7 +24,7 @@ const PER_ARENA = 3;
 const TG_LIMIT = 4000;         // טלגרם: עד 4096 תווים להודעה
 
 /* ---------- שורת שווקים ----------
-   רק מקורות שהאתר כבר משתמש בהם, עם רישוי מתאים (data/sources.js): CoinGecko, ECB (דרך Frankfurter), בנק ישראל, NY Fed.
+   רק מקורות שהאתר כבר משתמש בהם, עם רישוי מתאים (data/sources.js): CoinGecko, ECB (דרך Frankfurter), בנק ישראל, NY Fed, FRED.
    נפט לא נכלל: באתר הוא מגיע רק מווידג'ט TradingView, שאסור לחלץ ממנו מספרים.
    מקור שלא עונה — פשוט לא מופיע. אין נתון → אין שורה. */
 async function getJSON(url, ms) {
@@ -86,6 +86,30 @@ async function marketsLine() {
       console.log('שווקים: NY Fed — אין טווח יעד בתשובה (' + JSON.stringify(j).slice(0, 200) + ')');
     }
   } catch (e) { console.log('שווקים: NY Fed לא זמין — ' + e.message); }
+  // נפט ומדדים — FRED (מפתח אישי חינמי). סגירה יומית, באיחור של יום מסחר. אין מפתח → החלק לא מופיע.
+  const fredKey = process.env.FRED_API_KEY;
+  if (fredKey) {
+    const FRED = [['DCOILBRENTEU', '🛢', 'נפט ברנט', 2, '$'], ['DCOILWTICO', '🛢', 'נפט WTI', 2, '$'],
+                  ['SP500', '🇺🇸', 'S&P 500', 0, ''], ['NASDAQCOM', '💻', 'נאסד"ק', 0, ''],
+                  ['VIXCLS', '😨', 'מדד הפחד VIX', 1, ''], ['DGS10', '🏛', 'אג"ח ארה"ב 10 שנים', 2, '%']];
+    let last = '';
+    for (const [id, ic, nm, dec, unit] of FRED) {
+      try {
+        const j = await getJSON('https://api.stlouisfed.org/fred/series/observations?series_id=' + id +
+          '&api_key=' + encodeURIComponent(fredKey) + '&file_type=json&sort_order=desc&limit=10');
+        const obs = ((j && j.observations) || []).filter(o => o.value !== '.' && isFinite(Number(o.value)));
+        if (obs.length >= 2) {
+          const a = Number(obs[0].value), b = Number(obs[1].value);
+          const chg = unit === '%' ? ((a - b >= 0 ? '+' : '−') + Math.abs(a - b).toFixed(2) + ' נק\'') : sign((a / b - 1) * 100);
+          row(ic, nm, fmt(a, dec) + unit, chg);
+          if (obs[0].date > last) last = obs[0].date;
+        }
+      } catch (e) { console.log('שווקים: FRED ' + id + ' לא זמין — ' + String(e.message).split(fredKey).join('***')); }
+    }
+    if (last) credit.push('FRED ' + last.split('-').reverse().slice(0, 2).join('/'));
+  } else {
+    console.log('שווקים: אין FRED_API_KEY — נפט ומדדים לא יופיעו');
+  }
   if (!rows.length) return '';
   return '📈 <b>שווקים וכלכלה</b>\n' + rows.join('\n') + '\n<i>' + esc(credit.join(' · ')) + '</i>';
 }

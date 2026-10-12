@@ -28,11 +28,14 @@ jobs:
         with:
           ref: main
       - name: תצוגה מקדימה (ביומן בלבד)
-        run: node tools/telegram_brief.js --dry-run 2>&1 | sed 's/</[/g; s/>/]/g' | sed 's/^/PV| /'
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: node tools/telegram_brief.js --dry-run 2>&1 | sed 's/</[/g; s/>/]/g' | awk '/שווקים:/{print "PV| " $0} /שווקים וכלכלה/{f=1} f{print "PV| " $0} /להצטרפות/{f=0}'
       - name: פרסום
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: node tools/telegram_brief.js
       - name: שמירה
         run: |

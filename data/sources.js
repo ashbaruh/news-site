@@ -263,6 +263,13 @@ window.DB.sources = [
     note: 'שער ייחוס יומי, לא מחיר מסחר בזמן אמת. מתפרסם בימי עסקים בלבד, בסביבות 16:00 שעון מרכז אירופה. משמש גם גיבוי לשערים החיים, ומקור יחיד לשקל/לאו.'
   },
   {
+    id: 'src_fred', name: 'FRED (הפדרל ריזרב של סנט לואיס)', kind: 'API רשמי — מדדים ונפט',
+    license_mode: 'licensed_data', independence_group: 'data_fred',
+    attribution: 'נתונים: FRED, Federal Reserve Bank of St. Louis',
+    note: 'מקור רשמי וחינמי, מפתח אישי (FRED_API_KEY ב-GitHub Secrets). נתוני סגירה יומיים, באיחור של יום מסחר. ' +
+          'S&P 500 — באישור S&P Dow Jones Indices לשימוש לא מסחרי. זהב ות"א-125 לא קיימים ב-FRED.'
+  },
+  {
     id: 'src_tradingview', name: 'TradingView', kind: "ווידג'טים רשמיים — מחירים ומניות",
     license_mode: 'licensed_data', independence_group: 'data_tradingview',
     attribution: 'נתוני שוק: TradingView',
