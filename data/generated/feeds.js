@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-12T04:17:25+00:00",
-  "fetched_at": "2026-10-12T04:17:25+00:00"
+  "checked_at": "2026-10-12T05:17:29+00:00",
+  "fetched_at": "2026-10-12T05:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T04:17:38+00:00",
-  "fetched_at": "2026-10-12T04:17:38+00:00"
+  "checked_at": "2026-10-12T05:17:37+00:00",
+  "fetched_at": "2026-10-12T05:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T04:17:38+00:00",
-  "fetched_at": "2026-10-12T04:17:38+00:00"
+  "checked_at": "2026-10-12T05:17:37+00:00",
+  "fetched_at": "2026-10-12T05:17:37+00:00"
  },
- "generated_at": "2026-10-12T04:17:38+00:00",
+ "generated_at": "2026-10-12T05:17:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "איראן באיום חדש: \"ערוכים להכניס לשימוש יכולות חדשות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559143",
-     "date": "2026-10-12T03:05:00+00:00"
+     "date": "2026-10-12T05:16:00+00:00"
     }
    ],
    "market": [
@@ -204,11 +204,6 @@ window.DB.generated = {
      "date": "2026-10-10T16:36:00+00:00"
     },
     {
-     "title": "תחזית האימים לוול סטריט – ועוד 4 כתבות על המצב בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001558851",
-     "date": "2026-10-10T12:57:00+00:00"
-    },
-    {
      "title": "\"תרחיש מכוער\": האזהרה של זוכה פרס נובל לכלכלה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559021",
      "date": "2026-10-10T08:31:00+00:00"
@@ -222,12 +217,17 @@ window.DB.generated = {
      "title": "דיווח: מדינה ערבית במו״מ לרכישת מערכת הגנה במיליארדים מישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559020",
      "date": "2026-10-10T07:20:00+00:00"
+    },
+    {
+     "title": "\"הממסד בבריטניה לא מודאג מכך שיהודים יהיו קורבנות של פשעי שנאה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001558652",
+     "date": "2026-10-10T04:49:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T04:17:26+00:00",
-  "fetched_at": "2026-10-12T04:17:26+00:00"
+  "checked_at": "2026-10-12T05:17:30+00:00",
+  "fetched_at": "2026-10-12T05:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T04:17:27+00:00",
-  "fetched_at": "2026-10-12T04:17:27+00:00"
+  "checked_at": "2026-10-12T05:17:31+00:00",
+  "fetched_at": "2026-10-12T05:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2529,8 +2529,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T04:17:29+00:00",
-  "fetched_at": "2026-10-12T04:17:29+00:00"
+  "checked_at": "2026-10-12T05:17:32+00:00",
+  "fetched_at": "2026-10-12T05:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2645,23 +2645,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T04:17:29+00:00",
-  "fetched_at": "2026-10-12T04:17:29+00:00"
+  "checked_at": "2026-10-12T05:17:32+00:00",
+  "fetched_at": "2026-10-12T05:17:32+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/shahar-peled-terra-security-doesnt-worry-about-anthropic/",
-     "date": "2026-10-11T14:14:14+00:00",
-     "launch": false,
-     "title": "\"אנת'רופיק לא מפחידה אותי… הרעש יכול להביא לי עסקאות\""
-    }
-   ],
-   "candidates": 7,
+   "news": [],
+   "candidates": 0,
    "failed_sources": [
-    "Google DeepMind"
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2703,7 +2696,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 202,
+     "likes": 203,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -2717,14 +2710,14 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "MiniMax-H3 Character Swap LoRA",
      "desc_en": "Swap one character in a clip for a reference character",
      "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
-     "likes": 103,
+     "likes": 104,
      "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
     },
     {
@@ -2737,12 +2730,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T04:17:36+00:00",
-  "fetched_at": "2026-10-12T04:17:36+00:00"
+  "checked_at": "2026-10-12T05:17:37+00:00",
+  "fetched_at": "2026-10-12T05:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חיים רביבו על אספאס: אתה אגדה כשחקן וכאדם",
+     "link": "https://www.one.co.il/Article/535753.html?ref=rss",
+     "date": "2026-10-12T05:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "ההסבר המפתיע: למה ה\"שער\" של ענאן חלאילי אושר למרות הכל?",
      "link": "https://sports.walla.co.il/item/3871782",
@@ -2784,15 +2786,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3871753",
      "date": "2026-10-11T14:21:00+00:00",
      "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"לא חשבתי שאהיה אולסטאר\": השיחה של אבדיה וגרין",
-     "link": "https://www.one.co.il/Article/535715.html?ref=rss",
-     "date": "2026-10-11T14:07:00+00:00",
-     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -3080,8 +3073,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-12T04:17:32+00:00",
-  "fetched_at": "2026-10-12T04:17:32+00:00"
+  "checked_at": "2026-10-12T05:17:35+00:00",
+  "fetched_at": "2026-10-12T05:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3101,7 +3094,7 @@ window.DB.generated = {
     "date": "2026-10-11T15:03:36+00:00"
    },
    {
-    "title": "אדריכל המהפכה האנושית בצה\"ל: ראש חטיבת תומכ\"א היוצא מסכם קדנציה היסטורית",
+    "title": "המהפכה האנושית בצה\"ל: 1 מכל 5 לוחמים - אישה, ובכמה צמח מערך המילואים?",
     "link": "https://www.walla.co.il/news/military/383957069",
     "date": "2026-10-11T14:14:31+00:00"
    },
@@ -3112,58 +3105,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T04:17:33+00:00",
-  "fetched_at": "2026-10-12T04:17:33+00:00"
+  "checked_at": "2026-10-12T05:17:35+00:00",
+  "fetched_at": "2026-10-12T05:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-12T03:56:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "newest": "2026-10-12T05:16:00+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-12T03:48:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "newest": "2026-10-12T03:56:00+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-12T03:56:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-11T14:21:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-12T04:06:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-12T04:00:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "newest": "2026-10-12T04:44:00+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-12T04:00:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "newest": "2026-10-12T05:04:00+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-12T02:50:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3175,7 +3168,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3187,16 +3180,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-11T16:45:05+00:00",
-    "seen_at": "2026-10-12T04:17:38+00:00",
+    "seen_at": "2026-10-12T05:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-12T04:17:38+00:00"
+  "checked_at": "2026-10-12T05:17:37+00:00"
  }
 };
