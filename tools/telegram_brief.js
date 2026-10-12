@@ -87,7 +87,7 @@ async function marketsLine() {
     }
   } catch (e) { console.log('שווקים: NY Fed לא זמין — ' + e.message); }
   // נפט ומדדים — FRED (מפתח אישי חינמי). סגירה יומית, באיחור של יום מסחר. אין מפתח → החלק לא מופיע.
-  const fredKey = process.env.FRED_API_KEY;
+  const fredKey = (process.env.FRED_API_KEY || '').trim();   // רווח/שורה חדשה בהדבקה למפתח → שגיאה 400
   if (fredKey) {
     const FRED = [['DCOILBRENTEU', '🛢', 'נפט ברנט', 2, '$'], ['DCOILWTICO', '🛢', 'נפט WTI', 2, '$'],
                   ['SP500', '🇺🇸', 'S&P 500', 0, ''], ['NASDAQCOM', '💻', 'נאסד"ק', 0, ''],
@@ -104,7 +104,17 @@ async function marketsLine() {
           row(ic, nm, fmt(a, dec) + unit, chg);
           if (obs[0].date > last) last = obs[0].date;
         }
-      } catch (e) { console.log('שווקים: FRED ' + id + ' לא זמין — ' + String(e.message).split(fredKey).join('***')); }
+      } catch (e) {
+        console.log('שווקים: FRED ' + id + ' לא זמין — ' + String(e.message).split(fredKey).join('***'));
+        if (id === 'DCOILBRENTEU') {   // פעם אחת: הסיבה ש-FRED מחזיר (בלי המפתח עצמו)
+          try {
+            const r = await fetch('https://api.stlouisfed.org/fred/series/observations?series_id=' + id + '&api_key=' +
+              encodeURIComponent(fredKey) + '&file_type=json&limit=1');
+            console.log('שווקים: FRED אומר — ' + (await r.text()).slice(0, 300).split(fredKey).join('***') +
+              ' | אורך המפתח: ' + fredKey.length + ', רק אותיות קטנות וספרות: ' + /^[a-z0-9]+$/.test(fredKey));
+          } catch (e2) { /* לא חשוב */ }
+        }
+      }
     }
     if (last) credit.push('FRED ' + last.split('-').reverse().slice(0, 2).join('/'));
   } else {
