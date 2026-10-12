@@ -28,7 +28,7 @@ jobs:
         with:
           ref: main
       - name: תצוגה מקדימה (ביומן בלבד)
-        run: node tools/telegram_brief.js --dry-run
+        run: node tools/telegram_brief.js --dry-run 2>&1 | sed 's/</[/g; s/>/]/g' | sed 's/^/PV| /'
       - name: פרסום
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
