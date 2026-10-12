@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-12T16:17:12+00:00",
-  "fetched_at": "2026-10-12T16:17:12+00:00"
+  "checked_at": "2026-10-12T17:17:20+00:00",
+  "fetched_at": "2026-10-12T17:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T16:17:24+00:00",
-  "fetched_at": "2026-10-12T16:17:24+00:00"
+  "checked_at": "2026-10-12T17:17:34+00:00",
+  "fetched_at": "2026-10-12T17:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "The B-100C is Luxman's first mono power amp in 20 years",
+    "title_he": "ה-B-100C הוא מגבר הכוח המונו הראשון של לוקסמן מזה 20 שנה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/the-b-100c-is-luxmans-first-mono-power-amp-in-20-years",
+    "date": "2026-10-12T16:26:44+00:00"
+   },
    {
     "title_en": "Dali Sonik 5 5.1",
     "title_he": "דאלי סוניק 5 5.1",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/new-apple-tv-4k-more-details-leak-ahead-of-tomorrows-announcement",
     "date": "2026-10-12T14:16:44+00:00"
-   },
-   {
-    "title_en": "TCL P8L (65P8L-UK)",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p8l-65p8l-uk",
-    "date": "2026-10-12T14:06:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T16:17:25+00:00",
-  "fetched_at": "2026-10-12T16:17:25+00:00"
+  "checked_at": "2026-10-12T17:17:36+00:00",
+  "fetched_at": "2026-10-12T17:17:36+00:00"
  },
- "generated_at": "2026-10-12T16:17:25+00:00",
+ "generated_at": "2026-10-12T17:17:36+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "התנאי הישראלי להחזרת פליי דובאי: הצבת עמדות בידוק ומאבטחים על אדמת דובאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559228",
-     "date": "2026-10-12T14:56:00+00:00"
+     "title": "רף המתיחות בין סעודיה לחות'ים עולה מדרגה, וארדואן מנסה לנצל את הוואקום",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559269",
+     "date": "2026-10-12T16:30:00+00:00"
     },
     {
      "title": "אסון ברכס רמים: נער בן 14 נהרג ו-24 נפצעו מפיצוץ נפל במהלך טיול בצפון",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "רף המתיחות בין סעודיה לחות'ים עולה מדרגה, וארדואן מנסה לנצל את הוואקום",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559269",
+     "date": "2026-10-12T16:30:00+00:00"
+    },
     {
      "title": "מגמה מעורבת בוול סטריט; מיקרון יורדת וגוררת מטה את מניות השבבים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559138",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "קבלת הפנים למנכ\"ל סימילרווב: חבילת תגמולים של מעל 10 מיליון דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559057",
      "date": "2026-10-11T13:09:00+00:00"
-    },
-    {
-     "title": "החברה של טורקיה העלתה כתבה על הסחר עם ישראל, ואז מחקה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559036",
-     "date": "2026-10-11T09:39:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T16:17:14+00:00",
-  "fetched_at": "2026-10-12T16:17:14+00:00"
+  "checked_at": "2026-10-12T17:17:21+00:00",
+  "fetched_at": "2026-10-12T17:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T16:17:15+00:00",
-  "fetched_at": "2026-10-12T16:17:15+00:00"
+  "checked_at": "2026-10-12T17:17:22+00:00",
+  "fetched_at": "2026-10-12T17:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2837,8 +2837,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T16:17:16+00:00",
-  "fetched_at": "2026-10-12T16:17:16+00:00"
+  "checked_at": "2026-10-12T17:17:25+00:00",
+  "fetched_at": "2026-10-12T17:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3007,8 +3007,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T16:17:16+00:00",
-  "fetched_at": "2026-10-12T16:17:16+00:00"
+  "checked_at": "2026-10-12T17:17:25+00:00",
+  "fetched_at": "2026-10-12T17:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -3028,14 +3028,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 604,
+     "likes": 605,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 466,
+     "likes": 467,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3049,14 +3049,14 @@ window.DB.generated = {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 192,
+     "likes": 193,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 270,
+     "likes": 273,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -3070,14 +3070,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 433,
+     "likes": 434,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 73,
+     "likes": 74,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
@@ -3097,8 +3097,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T16:17:24+00:00",
-  "fetched_at": "2026-10-12T16:17:24+00:00"
+  "checked_at": "2026-10-12T17:17:33+00:00",
+  "fetched_at": "2026-10-12T17:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3440,8 +3440,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-12T16:17:19+00:00",
-  "fetched_at": "2026-10-12T16:17:19+00:00"
+  "checked_at": "2026-10-12T17:17:28+00:00",
+  "fetched_at": "2026-10-12T17:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -3472,91 +3472,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T16:17:20+00:00",
-  "fetched_at": "2026-10-12T16:17:20+00:00"
+  "checked_at": "2026-10-12T17:17:29+00:00",
+  "fetched_at": "2026-10-12T17:17:29+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-12T16:08:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "newest": "2026-10-12T17:02:00+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-12T15:40:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-12T15:38:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "newest": "2026-10-12T16:30:00+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-12T07:23:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-12T12:38:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "newest": "2026-10-12T16:22:00+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-12T16:08:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-12T16:03:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "newest": "2026-10-12T17:10:00+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-12T14:20:34+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-12T13:42:46+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-12T16:07:59+00:00",
-    "seen_at": "2026-10-12T16:17:25+00:00",
+    "newest": "2026-10-12T16:26:44+00:00",
+    "seen_at": "2026-10-12T17:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-12T16:17:25+00:00"
+  "checked_at": "2026-10-12T17:17:36+00:00"
  }
 };
