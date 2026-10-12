@@ -32,6 +32,7 @@
 12.7896,
 45.0285
 ],
+"aita al-jabal, lebanon": null,
 "akkar, lebanon": null,
 "akrotiri, cyprus": [
 34.6008,
@@ -52,6 +53,7 @@
 35.6562,
 36.3884
 ],
+"al-hasakah, syria": null,
 "al-hazm, yemen": [
 16.0878,
 44.9585
@@ -373,6 +375,14 @@
 "cyprus": null,
 "dahieh, beirut, lebanon": null,
 "dahiyeh, beirut, lebanon": null,
+"dahr al-baidar, lebanon": [
+33.8103,
+35.7619
+],
+"damascus countryside, syria": [
+33.5593,
+36.1618
+],
 "damascus international airport, syria": [
 33.4102,
 36.5241
@@ -760,6 +770,10 @@
 35.0637
 ],
 "kiyanitsa, ukraine": null,
+"korosten, ukraine": [
+50.9491,
+28.6418
+],
 "kostiantynivka, ukraine": [
 48.5349,
 37.6924
@@ -884,6 +898,10 @@
 "malkia, israel": [
 33.0992,
 35.5117
+],
+"manara, israel": [
+33.1959,
+35.5446
 ],
 "manchester, united kingdom": [
 53.4425,
@@ -1179,7 +1197,12 @@
 51.6851,
 -1.7865
 ],
+"raf molesworth, united kingdom": [
+52.3854,
+-0.4192
+],
 "rajaei shahr prison, iran": null,
+"ramim ridge, israel": null,
 "raqqa, syria": [
 35.9497,
 39.0089
@@ -1235,6 +1258,10 @@
 "rostov-on-don, russia": [
 47.261,
 39.7249
+],
+"roumieh, lebanon": [
+33.882,
+35.6146
 ],
 "russia": null,
 "ryazan, russia": [
@@ -1492,6 +1519,10 @@
 "vilnius, lithuania": [
 54.687,
 25.2829
+],
+"vinnytsia, ukraine": [
+49.232,
+28.468
 ],
 "vladimir, russia": [
 56.1289,

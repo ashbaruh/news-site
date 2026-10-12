@@ -1,0 +1,454 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0179a23c8026",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 4,
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-12T20:00:03+00:00",
+  "window": {
+   "from": "2026-10-11T20:00:03+00:00",
+   "to": "2026-10-12T20:00:03+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610122000"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במקביל לתקיפות הדדיות בעומק השטח, כאשר כוחות רוסיים מבצעים מתקפות כטב\"מים וטילים על מבני מגורים ותשתיות אזרחיות בקייב, בחרקוב ובאזורים נוספים, לצד פגיעות אוקראיניות במרכזי נתונים ברוסיה. במקביל למאמצים דיפלומטיים אמריקאיים לייצר הפסקת אש בתחום האנרגיה, הצדדים מדווחים על המשך הפגיעות ההדדיות וחוסר עמידה בסיכומים. ברמה המדינית ניכרת מחלוקת בין ארצות הברית לבעלות בריתה באירופה סביב הסכמי אנרגיה מול מוסקבה והחרפת הסנקציות.",
+  "fronts": [
+   {
+    "name": "עורף אוקראינה (קייב, ויניצה, ז'יטומיר)",
+    "status": "תחת מתקפות כטב\"מים וטילים על יעדי מגורים, תחבורה ותעשייה"
+   },
+   {
+    "name": "צפון-מזרח אוקראינה (חרקוב)",
+    "status": "פגיעות כטב\"מים במבני מגורים ונפגעים אזרחיים"
+   },
+   {
+    "name": "עורף רוסיה",
+    "status": "יירוטי כטב\"מים נרחבים ותקיפות ממוקדות נגד מרכזי מידע ומחשוב"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10122000-01",
+    "title": "פגיעת כטב\"ם רוסי בבניין מגורים בקייב",
+    "summary": "כטב\"ם רוסי פגע בבניין מגורים רב-קומות במחוז דרניצקי שבקייב, גרם למותם של שני בני אדם ולפציעתם של אחרים.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T17:54:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T17:54:00+00:00",
+    "last_update_at": "2026-10-12T18:19:00+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק אינו אחיד בדיווחים השונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057686/",
+      "published_at": "2026-10-12T18:19:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-drones-strike-kyiv-morning-and-evening-kill-woman-injure-14/",
+      "published_at": "2026-10-12T18:07:54+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173708-russian-drone-strikes-highrise-apartment-building-in-kyivs-darnytskyi-district.html",
+      "published_at": "2026-10-12T17:54:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10122000-02",
+    "title": "פיצוצים במרכז קייב בעקבות מתקפת טילים",
+    "summary": "פיצוצים עזים נשמעו במרכז קייב לפני שהופעלו התרעות על תקיפה אווירית בעיר.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T19:23:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T19:23:05+00:00",
+    "last_update_at": "2026-10-12T19:23:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_7375874ce11ac2eb",
+      "url": "https://kyivindependent.com/explosions-heard-in-kyiv-before-air-raid-alert-issued/",
+      "published_at": "2026-10-12T19:23:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10122000-03",
+    "title": "פגיעת כטב\"ם במבנה מגורים בחרקוב",
+    "summary": "פגיעת כלי טיס בלתי מאויש בבניין מגורים רב-קומות בחרקוב הביאה לפציעתם של 23 תושבים, בהם ילדים.",
+    "axis": "חזית מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T17:41:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T17:41:00+00:00",
+    "last_update_at": "2026-10-12T17:41:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173707-injury-toll-after-russian-strike-on-kharkiv-apartment-building-rises-to-23.html",
+      "published_at": "2026-10-12T17:41:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10122000-04",
+    "title": "תקיפה רוסית על תשתית תחבורה במחוז ז'יטומיר",
+    "summary": "כוחות רוסיים תקפו מתקן של תשתית תחבורה במחוז קורוסטן שבאזור ז'יטומיר.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T18:33:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T18:33:00+00:00",
+    "last_update_at": "2026-10-12T18:33:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173718-russians-attack-transport-infrastructure-facility-in-zhytomyr-region.html",
+      "published_at": "2026-10-12T18:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קורוסטן, אוקראינה",
+      "lat": 50.9491,
+      "lon": 28.6418
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10122000-05",
+    "title": "תקיפה רוסית נגד מפעל ממתקים בוויניצה",
+    "summary": "מפעל הממתקים רושן בוויניצה נפגע בתקיפה רוסית, והחברה הצהירה כי מדובר באתר אזרחי שאינו מייצר ציוד צבאי.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T17:37:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T17:37:04+00:00",
+    "last_update_at": "2026-10-12T18:07:54+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-drones-strike-kyiv-morning-and-evening-kill-woman-injure-14/",
+      "published_at": "2026-10-12T18:07:54+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-strikes-roshen-confectionery-factory-in-vinnytsia/",
+      "published_at": "2026-10-12T17:37:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ויניצה, אוקראינה",
+      "lat": 49.232,
+      "lon": 28.468
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10122000-06",
+    "title": "יירוט כטב\"מים אוקראיניים מעל שטח רוסיה",
+    "summary": "מערכות ההגנה האווירית של רוסיה יירטו מעל 30 כלי טיס בלתי מאוישים אוקראיניים בארבעה מחוזות שונים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T18:15:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T18:15:08+00:00",
+    "last_update_at": "2026-10-12T18:15:08+00:00",
+    "what_is_not_verified": "פירוט המחוזות המדויקים שבהם בוצעו היירוטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2201097",
+      "published_at": "2026-10-12T18:15:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10122000-07",
+    "title": "תקיפות אוקראיניות על מרכזי נתונים ברוסיה",
+    "summary": "אוקראינה פגעה באמצעות כטב\"מים בשלושה מרכזי נתונים של חברת יאנדקס, מה שגרם להשבתת שירותים ולפגיעה ברשתות בוטים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T11:34:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T11:34:09+00:00",
+    "last_update_at": "2026-10-12T19:23:18+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומיקומם הפיזי המדויק של כל המתקנים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/12/son-of-a-russian-federal-security-service-general-helps-run-a-company-selling-mobile-data-centers-amid-ukrainian-drone-strikes-bbc-reports",
+      "published_at": "2026-10-12T19:23:18+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/12/lithuanian-prime-minister-says-more-ukrainian-strikes-on-russian-data-centers-could-help-safeguard-european-elections-from-interference",
+      "published_at": "2026-10-12T19:02:52+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48468",
+      "published_at": "2026-10-12T11:34:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10122000-08",
+    "title": "מחלוקת וטענות להפרת הפסקת האש האנרגטית",
+    "summary": "הנהגת אוקראינה מסרה כי רוסיה אינה מקיימת את הפסקת האש בתחום האנרגיה שעליה הכריז נשיא ארה\"ב דונלד טראמפ, וממשיכה לתקוף תשתיות.",
+    "axis": "משא ומתן ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T08:33:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-12T08:33:54+00:00",
+    "last_update_at": "2026-10-12T18:20:00+00:00",
+    "what_is_not_verified": "האם רוסיה הסכימה באופן רשמי למתווה הפסקת האש האנרגטית מלכתחילה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173713-zelensky-russia-not-complying-with-energy-ceasefire-as-of-now.html",
+      "published_at": "2026-10-12T18:20:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057688/",
+      "published_at": "2026-10-12T17:08:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+      "published_at": "2026-10-12T16:31:54+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173694-zelensky-ukraine-attacks-no-energy-facilities-last-night-while-russia-struck-petrol-stations-and-energy-infrastructure.html",
+      "published_at": "2026-10-12T16:21:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48465",
+      "published_at": "2026-10-12T11:13:52+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131767",
+      "published_at": "2026-10-12T08:33:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10122000-09",
+    "title": "התקדמות אוקראינה בתהליך ההצטרפות לאיחוד האירופי",
+    "summary": "מדינות האיחוד האירופי הגיעו להסכמה על פתיחת אשכולות משא ומתן 2 ו-3 מול אוקראינה לאחר שאושרו תיקוני חקיקה בנושא חינוך.",
+    "axis": "משא ומתן ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T16:19:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T16:19:00+00:00",
+    "last_update_at": "2026-10-12T16:19:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057677/",
+      "published_at": "2026-10-12T16:19:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10122000-10",
+    "title": "התנגדות גרמניה לעסקת הסולר האמריקאית עם רוסיה",
+    "summary": "קנצלר גרמניה פרידריך מרץ הודיע כי ארצו והאיחוד האירופי לא ירכשו סולר מרוסיה בעקבות מהלכי ארה\"ב, וקרא להחמרת הסנקציות על מוסקבה.",
+    "axis": "סנקציות וסיוע בין-לאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T19:14:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T19:14:29+00:00",
+    "last_update_at": "2026-10-12T19:14:29+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/12/german-chancellor-friedrich-merz-says-germany-and-the-eu-won-t-follow-trump-s-lead-on-russian-diesel-calls-for-tougher-sanctions-against-moscow",
+      "published_at": "2026-10-12T19:14:29+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'description': 'הסכמתה הרשמית של רוסיה להפסקת אש אנרגטית שיזם טראמפ'}",
+   "{'description': 'המספר הכולל של נפגעים בתקיפות בקייב עקב פערים בין הדיווחים הראשוניים'}",
+   "{'description': 'היקף הנזק הפיזי והתפקודי המדויק לשלושת מרכזי הנתונים של חברת יאנדקס'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1181,
+    "unit": "USD",
+    "change_pct": -0.22,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הסכמה להפסקת אש הדדית במגזר האנרגיה אם רוסיה תנצור את האש",
+     "התקדמות בהליך ההצטרפות לאיחוד האירופי"
+    ],
+    "inferred": [
+     "פגיעה ביכולות הטכנולוגיות והסייבר של רוסיה באמצעות תקיפת חוות שרתים",
+     "שימור הלחץ והסנקציות הבין-לאומיות נגד מוסקבה ללא פשרות כלכליות של המערב"
+    ],
+    "forecast": [
+     "המשך גביית מחיר על ידי תקיפות גומלין במקרה של פגיעה מתמשכת ברשת החשמל לקראת החורף"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "מוכנות לנצור אש ביום הבחירות באוקראינה אם אלו יתקיימו"
+    ],
+    "inferred": [
+     "המשך שחיקת מערכות האנרגיה והמורל האזרחי באוקראינה למרות יוזמות תיווך",
+     "ניסיון להבקיע את משטר הסנקציות באמצעות עסקאות אנרגיה מול ארצות הברית"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות נרחבות לקראת תקופת החורף לשם הפעלת מנופי לחץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russia-strikes-roshen-confectionery-factory-in-vinnytsia/",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/12/german-chancellor-friedrich-merz-says-germany-and-the-eu-won-t-follow-trump-s-lead-on-russian-diesel-calls-for-tougher-sanctions-against-moscow",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057677/",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2201097",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131767",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48465",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4173694-zelensky-ukraine-attacks-no-energy-facilities-last-night-while-russia-struck-petrol-stations-and-energy-infrastructure.html",
+    "accessed_at": "2026-10-12T20:00:03+00:00"
+   }
+  ]
+ }
+}

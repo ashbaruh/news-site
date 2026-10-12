@@ -1,0 +1,485 @@
+{
+ "status": "draft",
+ "received_sha256_12": "cc47b18e0079",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-12T19:58:47+00:00",
+  "window": {
+   "from": "2026-10-11T19:58:47+00:00",
+   "to": "2026-10-12T19:58:47+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610121958"
+  },
+  "summary": "העימות בין איראן ושלוחותיה לבין ארצות הברית, בעלות בריתה וישראל מתרחב וכולל מתיחות ביטחונית ודיפלומטית סביב בסיסים בממלכה המאוחדת, פגיעות בשיט במצרי הורמוז והסלמה חריפה של החות'ים נגד יעדים בסעודיה. המערב מטיל סנקציות ומאשים ישירות את משמרות המהפכה בתכנון חבלות, בעוד טהראן דוחה את הטענות. במקביל, השלוחה החות'ית מאיימת על מעורבות אמריקנית ישירה וממשיכה לשבש את הביטחון האזורי במפרץ.",
+  "fronts": [
+   {
+    "name": "הזירה הבריטית והבינלאומית מול איראן",
+    "status": "מתיחות דיפלומטית חריפה בעקבות האשמות בטרור והטלת סנקציות"
+   },
+   {
+    "name": "מצרי הורמוז והנתיבים הימיים",
+    "status": "פגיעות בשיט מסחרי ושיבוש תנועת המכליות"
+   },
+   {
+    "name": "חזית החות'ים מול סעודיה והמערב",
+    "status": "הסלמה בתקיפות טילים וכטב\"מים ואיומים בתגובה מול ארה\"ב"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10121958-01",
+    "title": "בריטניה מאשימה את משמרות המהפכה במזימה נגד בסיס פיירפורד",
+    "summary": "גורמי ממשל בבריטניה טוענים כי משמרות המהפכה האיראניים הכווינו ככל הנראה תוכנית לפגוע בבסיס חיל האוויר המלכותי פיירפורד, המשמש מפציצים אמריקניים. במקביל הוטלו סנקציות על שני אזרחים איראנים ושגריר איראן זומן לשיחה.",
+    "axis": "איראן - ארה\"ב/בריטניה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T15:46:28+00:00",
+    "last_update_at": "2026-10-12T19:33:00+00:00",
+    "what_is_not_verified": "מידת המעורבות הישירה של איראן במזימה אינה מאומתת ועומדת במוקד מחלוקת והכחשות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://en.irna.ir/news/86291010/Iran-condemns-UK-s-baseless-claims-over-Fairford-air-base-incident",
+      "published_at": "2026-10-12T19:33:00+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss",
+      "published_at": "2026-10-12T18:51:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
+      "published_at": "2026-10-12T18:24:42+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://t.me/alexmehacarmel/48478",
+      "published_at": "2026-10-12T17:35:37+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.al-monitor.com/originals/2026/10/british-airbase-plot-almost-certainly-directed-iran-guards-uk-pm",
+      "published_at": "2026-10-12T17:30:20+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-ambassador-uk-denies-role-fairford-attack-plot-iranian-state-media",
+      "published_at": "2026-10-12T16:49:55+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.iranintl.com/en/202610124072",
+      "published_at": "2026-10-12T16:28:57+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21609761",
+      "published_at": "2026-10-12T16:22:34+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.ynet.co.il/news/article/sy67lt5szl",
+      "published_at": "2026-10-12T16:06:04+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.al-monitor.com/originals/2026/10/uk-pm-burnham-says-irans-irgc-likely-behind-raf-fairford-incident",
+      "published_at": "2026-10-12T15:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס חיל האוויר פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     },
+     {
+      "name": "בסיס חיל האוויר מולסוורת', בריטניה",
+      "lat": 52.3854,
+      "lon": -0.4192
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10121958-02",
+    "title": "איראן מכחישה מעורבות בתקרית בבסיס פיירפורד ומביעה נכונות לסייע בחקירה",
+    "summary": "משרד החוץ האיראני ושגריר איראן בלונדון דחו בחריפות את ההאשמות הבריטיות, כינו אותן חסרות בסיס והביעו נכונות להשתתף בחקירת האירוע.",
+    "axis": "איראן - בריטניה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T16:49:55+00:00",
+    "last_update_at": "2026-10-12T19:33:00+00:00",
+    "what_is_not_verified": "הנכונות האיראנית המעשית לשיתוף פעולה בחקירה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://en.irna.ir/news/86291010/Iran-condemns-UK-s-baseless-claims-over-Fairford-air-base-incident",
+      "published_at": "2026-10-12T19:33:00+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss",
+      "published_at": "2026-10-12T18:51:18+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://t.me/alexmehacarmel/48478",
+      "published_at": "2026-10-12T17:35:37+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_be9299935316ad67",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-ambassador-uk-denies-role-fairford-attack-plot-iranian-state-media",
+      "published_at": "2026-10-12T16:49:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10121958-03",
+    "title": "פגיעה במכלית נפט במצרי הורמוז",
+    "summary": "מכלית מוצרי נפט נפגעה מעצם לא מזוהה בעת ששטה במצרי הורמוז סמוך לחופי עומאן, והעלתה עשן שחור.",
+    "axis": "מצרי הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T15:19:23+00:00",
+    "last_update_at": "2026-10-12T18:48:56+00:00",
+    "what_is_not_verified": "זהות הגורם ששיגר את הקליע או הכטב\"מ וסוג החימוש המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-hit-strait-hormuz-ukmto-says",
+      "published_at": "2026-10-12T18:48:56+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/oil-tanker-reportedly-attacked-in-strait-of-hormuz-region?traffic_source=rss",
+      "published_at": "2026-10-12T15:19:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצרי הורמוז, עומאן",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10121958-04",
+    "title": "מתקפות טילים וכטב\"מים של החות'ים לעבר יעדים בסעודיה",
+    "summary": "החות'ים בתימן שיגרו טילים בליסטיים וכטב\"מים שפגעו בנמל התעופה הבינלאומי בריאד ובבסיס חיל אוויר בח'מיס מושייט, אירועים שגרמו להרוגים ולפצועים רבים ולהשבתת נמל התעופה.",
+    "axis": "החות'ים - סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T22:28:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-11T22:28:50+00:00",
+    "last_update_at": "2026-10-12T19:29:28+00:00",
+    "what_is_not_verified": "מספרי הנפגעים המדויקים משתנים בין המקורות השונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-hit-riyadh-airport-and-khamis-mushait-air-base",
+      "published_at": "2026-10-12T19:29:28+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/houthis-are-thriving-and-surviving-by-creating-war-yemen-ambassador-says",
+      "published_at": "2026-10-12T19:08:05+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
+      "published_at": "2026-10-12T16:26:01+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-arabia-riyadh-airport-struck-again-by-yemen-s-houthis",
+      "published_at": "2026-10-12T09:21:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+      "published_at": "2026-10-12T09:11:20+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261012-live-saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-after-deadly-houthi-attacks",
+      "published_at": "2026-10-12T08:41:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/12/gulf-new-era-instability-alliances-houthi-rebels-saudi-arabia",
+      "published_at": "2026-10-12T06:00:49+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T22:45:58+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "published_at": "2026-10-11T22:28:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ח'מיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10121958-05",
+    "title": "אזהרת החות'ים לארצות הברית מפני התערבות במערכה בתימן",
+    "summary": "נציג מטעם החות'ים איים בתגובה מהירה וכואבת אם ארצות הברית תתערב ישירות בלחימה בתימן, על רקע בקשות סיוע שסעודיה הפנתה לוושינגטון.",
+    "axis": "החות'ים - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T14:30:22+00:00",
+    "last_update_at": "2026-10-12T14:30:22+00:00",
+    "what_is_not_verified": "קיומה של בקשה רשמית מסעודיה לוושינגטון להתערבות צבאית ישירה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthi-official-warns-swift-painful-response-if-us-enters-yemen-war",
+      "published_at": "2026-10-12T14:30:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10121958-06",
+    "title": "דיווח על העברת מסרים ישראליים ללבנון בעניין הצטרפות חזבאללה למערכה מול איראן",
+    "summary": "על פי פרסום בעיתון לבנוני, ישראל העבירה אזהרה ללבנון שלפיה אם חזבאללה יצטרף לעימות במקרה של מלחמה מול איראן, יוטל מצור מוחלט על המדינה ויחל מבצע צבאי נרחב.",
+    "axis": "ישראל - חזבאללה/לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T06:48:43+00:00",
+    "last_update_at": "2026-10-12T06:48:43+00:00",
+    "what_is_not_verified": "עצם העברת המסר ואמינות הדיווח בעיתון הלבנוני אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94607",
+      "published_at": "2026-10-12T06:48:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "המעורבות הישירה של משמרות המהפכה במזימה בבסיסי האוויר בבריטניה",
+   "זהות הגורם שפגע במכלית הנפט במצרי הורמוז וסוג החימוש ששימש לתקיפה",
+   "דיווח העיתון הלבנוני בדבר אזהרות ומסרי איום מישראל ללבנון",
+   "מספר הנפגעים המדויק בכל אחת מתקיפות החות'ים בנמל התעופה בריאד"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0695,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הכחשת מעורבות בפעילות חבלנית בבריטניה והבעת נכונות להשתתף בחקירה",
+     "הטלת אחריות על אויבי המדינה על פגיעה בסביבה ובתשתיות"
+    ],
+    "inferred": [
+     "הפעלת לחץ עקיף על ארה\"ב ובעלות בריתה תוך הרחקת אחריות רשמית",
+     "הרתעת כוחות זרים משימוש בבסיסים לתקיפת שטח איראן"
+    ],
+    "forecast": [
+     "המשך הכחשת פעולות חשאיות במקביל להחרפת המשבר הדיפלומטי מול אירופה"
+    ]
+   },
+   {
+    "actor": "בריטניה, ארה\"ב ובעלות בריתן",
+    "declared": [
+     "חשיפת רשתות טרור איראניות, הטלת סנקציות ומניעת פעילות עוינת בשטחן",
+     "אזהרת טהראן מפעולות עוינות והגנה על מתקנים צבאיים"
+    ],
+    "inferred": [
+     "הצרת צעדיהם של משמרות המהפכה ובידוד דיפלומטי של טהראן",
+     "הרתעת גורמים המופעלים בידי איראן מלפגוע בבסיסים המשמשים את צבא ארה\"ב"
+    ],
+    "forecast": [
+     "הגברת הפיקוח הביטחוני והרחבת הסנקציות על גורמים המזוהים עם משמרות המהפכה"
+    ]
+   },
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת נמלי תעופה ובסיסים בסעודיה בתגובה לתקיפות קודמות ולתמיכה בכוחות תימניים",
+     "אזהרת חברות תעופה בין-לאומיות ואיום בתגובה כואבת אם ארה\"ב תתערב צבאית"
+    ],
+    "inferred": [
+     "ערעור היציבות הכלכלית והביטחונית בסעודיה לשם השגת ויתורים",
+     "הפגנת כוח אזורית ושמירה על מעמד כגורם מאיים במרחב הים האדום והמפרץ"
+    ],
+    "forecast": [
+     "המשך ניסיונות פגיעה ביעדים אסטרטגיים במפרץ במקביל להחרפת הרטוריקה נגד וושינגטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/oil-tanker-reportedly-attacked-in-strait-of-hormuz-region?traffic_source=rss",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/houthi-official-warns-swift-painful-response-if-us-enters-yemen-war",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261012-live-saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-after-deadly-houthi-attacks",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610124072",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86291010/Iran-condemns-UK-s-baseless-claims-over-Fairford-air-base-incident",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21609761",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/houthi-strikes-shatter-saudi-arabia-riyadh-aura-calm",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48478",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94607",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sy67lt5szl",
+    "accessed_at": "2026-10-12T19:58:47+00:00"
+   }
+  ]
+ }
+}
