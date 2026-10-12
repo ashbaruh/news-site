@@ -38,7 +38,7 @@ function arenaBlocks(win, arena, a) {
   const R = win.Reliability, C = win.DB.config;
   const base = (C.brand.public_url || '').replace(/\/?$/, '/');
   const out = [];
-  out.push('🔎 <b>ניתוח עומק · ' + esc(arena.name) + '</b>\n<i>' + esc(when(a.generated_at)) + ' · ' +
+  out.push('🔎 <b><u>ניתוח עומק · ' + esc(arena.name) + '</u></b>\n<i>' + esc(when(a.generated_at)) + ' · ' +
            a.events.length + ' אירועים · חלון של 24 שעות</i>');
   out.push('<b>תמונת מצב</b>\n' + esc(a.summary));
   if ((a.fronts || []).length) {

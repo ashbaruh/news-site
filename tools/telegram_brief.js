@@ -24,7 +24,7 @@ const PER_ARENA = 3;
 const TG_LIMIT = 4000;         // טלגרם: עד 4096 תווים להודעה
 
 /* ---------- שורת שווקים ----------
-   רק מקורות שהאתר כבר משתמש בהם, עם רישוי מתאים (data/sources.js): CoinGecko ו-ECB (דרך Frankfurter).
+   רק מקורות שהאתר כבר משתמש בהם, עם רישוי מתאים (data/sources.js): CoinGecko, ECB (דרך Frankfurter), בנק ישראל, NY Fed.
    נפט לא נכלל: באתר הוא מגיע רק מווידג'ט TradingView, שאסור לחלץ ממנו מספרים.
    מקור שלא עונה — פשוט לא מופיע. אין נתון → אין שורה. */
 async function getJSON(url, ms) {
@@ -36,31 +36,53 @@ const sign = n => (n > 0 ? '+' : n < 0 ? '−' : '') + Math.abs(n).toFixed(1) + 
 const fmt = (n, d) => n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
 
 async function marketsLine() {
-  const parts = [], credit = [];
+  const rows = [], credit = [];
+  const row = (icon, name, val, chg) => rows.push(icon + ' ' + esc(name) + ': <b>' + esc(val) + '</b>' + (chg ? ' (' + esc(chg) + ')' : ''));
+  // קריפטו — CoinGecko
   try {
-    const j = await getJSON('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true');
-    const b = j && j.bitcoin;
-    if (b && isFinite(b.usd)) {
-      parts.push('₿ ביטקוין ' + fmt(b.usd, 0) + '$' + (isFinite(b.usd_24h_change) ? ' (' + sign(b.usd_24h_change) + ' ב-24ש\')' : ''));
-      credit.push('CoinGecko');
-    }
+    const j = await getJSON('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd&include_24hr_change=true');
+    [['bitcoin', '₿', 'ביטקוין'], ['ethereum', '💠', 'את\'ריום']].forEach(([id, ic, nm]) => {
+      const c = j && j[id];
+      if (c && isFinite(c.usd)) row(ic, nm, fmt(c.usd, 0) + '$', isFinite(c.usd_24h_change) ? sign(c.usd_24h_change) + ' ב-24ש\'' : '');
+    });
+    if (rows.length) credit.push('CoinGecko');
   } catch (e) { console.log('שווקים: CoinGecko לא זמין — ' + e.message); }
+  // מטבעות — ECB דרך Frankfurter (שער יציג יומי)
   try {
     const end = new Date(), start = new Date(Date.now() - 10 * 86400000), ymd = d => d.toISOString().slice(0, 10);
-    const j = await getJSON('https://api.frankfurter.dev/v1/' + ymd(start) + '..' + ymd(end) + '?base=EUR&symbols=USD,ILS');
+    const j = await getJSON('https://api.frankfurter.dev/v1/' + ymd(start) + '..' + ymd(end) + '?base=EUR&symbols=USD,ILS,GBP');
     const dates = Object.keys((j && j.rates) || {}).sort();
     if (dates.length >= 2) {
       const cur = j.rates[dates[dates.length - 1]], prev = j.rates[dates[dates.length - 2]];
-      const usd = cur.ILS / cur.USD, usdPrev = prev.ILS / prev.USD;
-      if (isFinite(usd) && isFinite(cur.ILS)) {
-        parts.push('💵 דולר ' + fmt(usd, 3) + '₪ (' + sign((usd / usdPrev - 1) * 100) + ')');
-        parts.push('💶 אירו ' + fmt(cur.ILS, 3) + '₪ (' + sign((cur.ILS / prev.ILS - 1) * 100) + ')');
-        credit.push('ECB ' + dates[dates.length - 1].split('-').reverse().slice(0, 2).join('/'));
-      }
+      const pair = (fn) => { const a = fn(cur), b = fn(prev); return isFinite(a) && isFinite(b) ? [a, (a / b - 1) * 100] : null; };
+      const usd = pair(r => r.ILS / r.USD), eur = pair(r => r.ILS), gbp = pair(r => r.ILS / r.GBP), eurusd = pair(r => r.USD);
+      if (usd) row('💵', 'דולר', fmt(usd[0], 3) + '₪', sign(usd[1]));
+      if (eur) row('💶', 'אירו', fmt(eur[0], 3) + '₪', sign(eur[1]));
+      if (gbp) row('💷', 'לירה שטרלינג', fmt(gbp[0], 3) + '₪', sign(gbp[1]));
+      if (eurusd) row('🔁', 'אירו/דולר', fmt(eurusd[0], 4), sign(eurusd[1]));
+      if (usd || eur) credit.push('ECB ' + dates[dates.length - 1].split('-').reverse().slice(0, 2).join('/'));
     }
   } catch (e) { console.log('שווקים: Frankfurter לא זמין — ' + e.message); }
-  if (!parts.length) return '';
-  return '📈 <b>שווקים</b>\n' + parts.map(esc).join(' · ') + '\n<i>' + esc(credit.join(' · ')) + '</i>';
+  // ריבית בנק ישראל — מהקובץ שהמשימה בענן כבר מושכת (data/generated/feeds.json), בלי בקשה נוספת
+  try {
+    const boi = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'generated', 'feeds.json'), 'utf8')).boi;
+    const d = boi && boi.ok && boi.data;
+    if (d && isFinite(d.rate)) {
+      row('🏦', 'ריבית בנק ישראל', d.rate.toFixed(2) + '%', isFinite(d.previous_rate) && d.previous_rate !== d.rate ? 'קודם ' + d.previous_rate.toFixed(2) + '%' : '');
+      credit.push('בנק ישראל');
+    }
+  } catch (e) { console.log('שווקים: ריבית בנק ישראל לא זמינה — ' + e.message); }
+  // ריבית הפד — הפדרל ריזרב של ניו יורק
+  try {
+    const j = await getJSON('https://markets.newyorkfed.org/api/rates/unsecured/effr/last/1.json');
+    const r = j && j.refRates && j.refRates[0];
+    if (r && isFinite(r.targetRateFrom) && isFinite(r.targetRateTo)) {
+      row('🇺🇸', 'ריבית הפד', r.targetRateFrom.toFixed(2) + '–' + r.targetRateTo.toFixed(2) + '%', '');
+      credit.push('NY Fed');
+    }
+  } catch (e) { console.log('שווקים: NY Fed לא זמין — ' + e.message); }
+  if (!rows.length) return '';
+  return '📈 <b>שווקים וכלכלה</b>\n' + rows.join('\n') + '\n<i>' + esc(credit.join(' · ')) + '</i>';
 }
 
 /* טוען את קבצי האתר בסביבה מבודדת, כאילו זה דפדפן באתר הציבורי */
@@ -98,9 +120,9 @@ function buildMessage(win, now, markets) {
     if (!a || !Array.isArray(a.events) || !a.events.length) continue;
     const lines = a.events.slice(0, PER_ARENA).map(ev => {
       const r = R.assess(ev) || {};
-      return (ICON[r.level] || '•') + ' ' + esc(ev.title) + (r.label ? ' <i>(' + esc(r.label) + ')</i>' : '');
+      return (ICON[r.level] || '•') + ' <b>' + esc(ev.title) + '</b>' + (r.label ? '\n      <i>' + esc(r.label) + '</i>' : '');
     });
-    blocks.push('<b>' + esc(arena.name) + '</b>\n' + lines.join('\n') +
+    blocks.push('🔹 <b><u>' + esc(arena.name) + '</u></b>\n' + lines.join('\n') +
                 '\n<a href="' + esc(base + '#arena=' + arena.id) + '">לפירוט ולמקורות ←</a>');
   }
   if (!blocks.length) return null;
