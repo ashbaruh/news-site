@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-12T13:40:54+00:00",
-  "fetched_at": "2026-10-12T13:40:54+00:00"
+  "checked_at": "2026-10-12T14:17:10+00:00",
+  "fetched_at": "2026-10-12T14:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T13:41:05+00:00",
-  "fetched_at": "2026-10-12T13:41:05+00:00"
+  "checked_at": "2026-10-12T14:17:19+00:00",
+  "fetched_at": "2026-10-12T14:17:19+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "TCL P8L (65P8L-UK)",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p8l-65p8l-uk",
+    "date": "2026-10-12T14:06:09+00:00"
+   },
+   {
+    "title_en": "Arcam CD25",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/hi-fi/cd-players/arcam-cd25",
+    "date": "2026-10-12T13:57:37+00:00"
+   },
    {
     "title_en": "Apple iPad Air 13-inch (M4)",
     "title_he": "Apple iPad Air 13 אינץ' (M4)",
@@ -62,42 +76,33 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/wireless-speakers/cmfs-first-bluetooth-speakers-look-like-milk-cartons-promise-a-full-fat-sound",
     "date": "2026-10-12T13:00:00+00:00"
-   },
-   {
-    "title_en": "This LG OLED convinced me that small TVs can deliver a cinematic experience – and it’s £400 off",
-    "title_he": "ה-LG OLED הזה שכנע אותי שטלוויזיות קטנות יכולות לספק חוויה קולנועית – וזה £ 400 הנחה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/this-lg-oled-convinced-me-that-small-tvs-can-deliver-a-cinematic-experience-and-its-gbp400-off",
-    "date": "2026-10-12T12:06:43+00:00"
-   },
-   {
-    "title_en": "HMV to close flagship Oxford Street shop just three years after comeback – but record store fans still have reasons to smile",
-    "title_he": "HMV תסגור חנות דגל ברחוב אוקספורד רק שלוש שנים לאחר הקאמבק – אבל לחובבי חנויות התקליטים עדיין יש סיבות לחייך",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/vinyl/hmv-to-close-flagship-oxford-street-shop-just-three-years-after-comeback-but-record-store-fans-still-have-reasons-to-smile",
-    "date": "2026-10-12T10:57:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T13:41:07+00:00",
-  "fetched_at": "2026-10-12T13:41:07+00:00"
+  "checked_at": "2026-10-12T14:17:23+00:00",
+  "fetched_at": "2026-10-12T14:17:23+00:00"
  },
- "generated_at": "2026-10-12T13:41:07+00:00",
+ "generated_at": "2026-10-12T14:17:23+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המדינה הערבית שמסתערת על נשק ישראלי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559082",
-     "date": "2026-10-12T13:09:00+00:00"
+     "title": "מיקרוסופט מקצצת עשרות משרות פיתוח בישראל, חלק מהעובדים יפוטרו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559194",
+     "date": "2026-10-12T13:20:00+00:00"
     },
     {
      "title": "אירוע רב נפגעים ברכס רמים: מורים ותלמידים נפצעו מפיצוץ נפל ישן - בהם הרוג ופצועים קשה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559143",
-     "date": "2026-10-12T12:57:00+00:00"
+     "date": "2026-10-12T13:47:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "לקראת נעילה בתל אביב: הבנייה והנדל\"ן מושכים למעלה, מניות התקשורת מעיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559108",
+     "date": "2026-10-12T13:52:00+00:00"
+    },
     {
      "title": "שינויים קלים בפתיחה בוול סטריט; מחירי הנפט מטפסים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559138",
@@ -109,17 +114,12 @@ window.DB.generated = {
      "date": "2026-10-12T13:09:00+00:00"
     },
     {
-     "title": "עליות בתל אביב: מדד הבנייה מזנק; אלקטרה נדל\"ן וטבע קופצות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559108",
-     "date": "2026-10-12T12:58:00+00:00"
-    },
-    {
      "title": "בהשקעה של עד מיליארד שקל: דוראל מרחיבה את הפרויקט הסולארי הגדול בישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559189",
      "date": "2026-10-12T12:12:00+00:00"
     },
     {
-     "title": "סמנכ\"לית אסטרטגיה בשטראוס: \"יש ניואנסים בניהול נשי שרק אישה תבין\"",
+     "title": "סמנכ\"לית אסטרטגיה בשטראוס: \"בשטראוס, יש גם כובע עסקי וגם של אחריות חברתית ואני מאוד מגשימה את עצמי\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559186",
      "date": "2026-10-12T12:09:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T13:40:55+00:00",
-  "fetched_at": "2026-10-12T13:40:55+00:00"
+  "checked_at": "2026-10-12T14:17:11+00:00",
+  "fetched_at": "2026-10-12T14:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T13:40:56+00:00",
-  "fetched_at": "2026-10-12T13:40:56+00:00"
+  "checked_at": "2026-10-12T14:17:12+00:00",
+  "fetched_at": "2026-10-12T14:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2543,8 +2543,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T13:40:57+00:00",
-  "fetched_at": "2026-10-12T13:40:57+00:00"
+  "checked_at": "2026-10-12T14:17:13+00:00",
+  "fetched_at": "2026-10-12T14:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2659,35 +2659,35 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T13:40:57+00:00",
-  "fetched_at": "2026-10-12T13:40:57+00:00"
+  "checked_at": "2026-10-12T14:17:13+00:00",
+  "fetched_at": "2026-10-12T14:17:13+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/evolve-to-ai-2026-is-coming-to-tlv/",
-     "date": "2026-10-12T11:15:01+00:00",
+     "link": "https://www.geektime.co.il/microsoft-maia-300-ai-chip-nvidia/",
+     "date": "2026-10-12T13:00:03+00:00",
      "launch": false,
-     "title": "כנס Evolve to AI של גיקטיים חוזר עם כל מה שצריך לדעת על Agentic SDLC"
+     "title": "בלי טובות מאנבידיה? מיקרוסופט חושפת שבב AI חדש"
     }
    ],
-   "candidates": 8,
+   "candidates": 9,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 601,
+     "likes": 602,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 464,
+     "likes": 465,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2715,7 +2715,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 203,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -2743,18 +2743,27 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 224,
+     "likes": 225,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-12T13:41:05+00:00",
-  "fetched_at": "2026-10-12T13:41:05+00:00"
+  "checked_at": "2026-10-12T14:17:18+00:00",
+  "fetched_at": "2026-10-12T14:17:18+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"גורן יהיה שחקן בארסה או לפחות בליגה הספרדית\"",
+     "link": "https://www.one.co.il/Article/535806.html?ref=rss",
+     "date": "2026-10-12T13:47:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "למרות הביקורות: המספרים של אוסקר גלוך שמפתיעים את אייאקס",
      "link": "https://sports.walla.co.il/item/3871842",
@@ -2771,15 +2780,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "חיים רביבו על אספאס: אתה אגדה כשחקן וכאדם",
-     "link": "https://www.one.co.il/Article/535753.html?ref=rss",
-     "date": "2026-10-12T05:04:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3092,8 +3092,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-12T13:41:00+00:00",
-  "fetched_at": "2026-10-12T13:41:00+00:00"
+  "checked_at": "2026-10-12T14:17:15+00:00",
+  "fetched_at": "2026-10-12T14:17:15+00:00"
  },
  "idf": {
   "data": [
@@ -3124,91 +3124,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-12T13:41:01+00:00",
-  "fetched_at": "2026-10-12T13:41:01+00:00"
+  "checked_at": "2026-10-12T14:17:15+00:00",
+  "fetched_at": "2026-10-12T14:17:15+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-12T13:33:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "newest": "2026-10-12T14:05:00+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-12T13:33:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "newest": "2026-10-12T13:52:00+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-12T13:33:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-12T07:23:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-12T12:38:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-12T13:29:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-12T13:30:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "newest": "2026-10-12T14:14:00+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-12T10:38:21+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-12T13:04:46+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "newest": "2026-10-12T13:42:46+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-12T13:30:20+00:00",
-    "seen_at": "2026-10-12T13:41:07+00:00",
+    "newest": "2026-10-12T14:06:09+00:00",
+    "seen_at": "2026-10-12T14:17:23+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-12T13:41:07+00:00"
+  "checked_at": "2026-10-12T14:17:23+00:00"
  }
 };
