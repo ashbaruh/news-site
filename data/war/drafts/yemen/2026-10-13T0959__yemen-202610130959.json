@@ -1,0 +1,500 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a256b8085558",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 4,
+   "initial": 4,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-13T09:59:16+00:00",
+  "window": {
+   "from": "2026-10-12T09:59:16+00:00",
+   "to": "2026-10-13T09:59:16+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610130959"
+  },
+  "summary": "העימות בין החות'ים לסעודיה החריף באופן דרמטי בעקבות תקיפות טילים קטלניות על נמל התעופה הבינלאומי בריאד, שהובילו להשבתת טיסות, נזק כלכלי כבד ואיומים סעודיים בתגובה חריפה. במקביל, נמשכת הלחימה הקרקעית בתוך תימן בדגש על העיר תעז והפלת כלי טיס בגבול, כאשר החות'ים מאיימים לפגוע במטרות אמריקאיות אם וושינגטון תתערב. הזירה הימית סביב באב אל-מנדב ממשיכה לשבש נתיבי סחר בינלאומיים ולפגוע בהכנסות מצרים, המובילה מגעים להגשת סיוע צבאי לממלכה.",
+  "fronts": [
+   {
+    "name": "חזית תימן - סעודיה (עורף סעודי ויעדי תעופה)",
+    "status": "הסלמה חריפה הכוללת פגיעות ישירות בריאד, נפגעים ושיבוש תעופתי נרחב"
+   },
+   {
+    "name": "חזית פנים-תימנית (תעז וסעדה)",
+    "status": "לחימה פעילה, הפגזות מוקדי שלטון ובתי חולים והפלת כטב\"מים"
+   },
+   {
+    "name": "חזית מצר באב אל-מנדב והים האדום",
+    "status": "שיבוש נתיבי שיט ופגיעה כלכלית בהכנסות תעלת סואץ"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10130959-01",
+    "title": "מתקפות טילים וכטב\"מים של החות'ים על נמל התעופה הבינלאומי בריאד ושיבוש התעופה",
+    "summary": "החות'ים שיגרו סדרת טילים שפגעו בנמל התעופה הבינלאומי בריאד, גרמו להרוגים ולפצועים רבים והובילו לסגירת הנמל ולהשעיית טיסות בינלאומיות לסעודיה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-12T09:11:20+00:00",
+    "last_update_at": "2026-10-13T09:19:23+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל המדויק מדווח באופן שונה בין המקורות (בין 13 ל-18 הרוגים), וכן דיווחים על שריפה נוספת שטרם אומתו רשמית.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears",
+      "published_at": "2026-10-13T09:19:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+      "published_at": "2026-10-13T06:48:13+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T04:30:09+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-warning-system-stayed-silent-deadly-airport-attacks",
+      "published_at": "2026-10-12T23:46:28+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131809",
+      "published_at": "2026-10-12T19:26:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131798",
+      "published_at": "2026-10-12T16:25:24+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-mbs-shuttling-between-bunker-palaces-amid-houthi-attacks",
+      "published_at": "2026-10-12T16:09:26+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
+      "published_at": "2026-10-12T15:42:37+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+      "published_at": "2026-10-12T09:11:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10130959-02",
+    "title": "יירוט שני טילים בליסטיים ששוגרו לעבר ח'מיס מושיט",
+    "summary": "הקואליציה יירטה והשמידה שני טילים בליסטיים ששיגרו החות'ים לעבר העיר ח'מיס מושיט בסעודיה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T21:16:16+00:00",
+    "last_update_at": "2026-10-12T21:16:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ee4a548f8fa52109",
+      "url": "https://www.sabanew.net/viewstory/153880",
+      "published_at": "2026-10-12T21:16:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ח'מיס מושיט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10130959-03",
+    "title": "הפלת כטב\"ם סיור חמוש סעודי במחוז סעדה",
+    "summary": "דובר הכוחות החות'יים הודיע כי כוחותיהם הפילו כטב\"ם סיור ותקיפה סעודי בצפון תימן.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T04:43:11+00:00",
+    "last_update_at": "2026-10-13T06:48:13+00:00",
+    "what_is_not_verified": "ההפלה נסמכת על טענת דובר החות'ים בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+      "published_at": "2026-10-13T06:48:13+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-have-downed-saudi-drone-yemens-saada",
+      "published_at": "2026-10-13T04:43:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10130959-04",
+    "title": "הפגזות ותקיפות של החות'ים בעיר תעז ופגיעה בבית חולים",
+    "summary": "תקיפות והפגזות של החות'ים בעיר תעז פגעו באזרחים ובמבנה בית החולים א-ספווה והסבו נזק לנפש ולרכוש.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T02:54:55+00:00",
+    "last_update_at": "2026-10-13T06:48:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_aac9655aa8d9ada8",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+      "published_at": "2026-10-13T06:48:13+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_aac9655aa8d9ada8",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attacks-reportedly-kill-least-five-yemens-taiz-hospital-hit",
+      "published_at": "2026-10-13T05:14:32+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_aac9655aa8d9ada8",
+      "url": "https://www.sabanew.net/viewstory/153884",
+      "published_at": "2026-10-13T03:11:45+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_3bbaee60c5e9adbc",
+      "url": "https://www.sabanew.net/viewstory/153883",
+      "published_at": "2026-10-13T03:03:00+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_cf0e7485c3b0f285",
+      "url": "https://www.sabanew.net/viewstory/153882",
+      "published_at": "2026-10-13T02:54:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10130959-05",
+    "title": "תקיפות אוויריות במחוזות חודיידה ועמראן בתימן",
+    "summary": "ערוץ אל-מסירה המזוהה עם החות'ים דיווח על ארבע תקיפות מן האוויר נגד יעדים במחוזות חודיידה ועמראן.",
+    "axis": "תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T06:48:13+00:00",
+    "last_update_at": "2026-10-13T06:48:13+00:00",
+    "what_is_not_verified": "זהות הגורם התוקף אינה מצוינת בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+      "published_at": "2026-10-13T06:48:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "עמראן, תימן",
+      "lat": 15.6628,
+      "lon": 43.943
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10130959-06",
+    "title": "אזהרת בכיר חות'י מפני מעורבות אמריקאית ואיומים על מתקני נפט ותעופה סעודיים",
+    "summary": "חבר הלשכה המדינית של החות'ים, מוחמד אל-בוח'יתי, הזהיר מתגובה קשה אם ארצות הברית תתערב בלחימה בתימן, וקרא להתרחק מנמלי תעופה ומתקני נפט סעודיים בהגדירו אותם כמטרות לגיטימיות.",
+    "axis": "ארצות הברית - תימן / סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T14:42:39+00:00",
+    "last_update_at": "2026-10-12T19:42:01+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/houthi-official-warns-of-swift-painful-response-if-us-enters-yemen-war",
+      "published_at": "2026-10-12T19:42:01+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthi-official-warns-swift-painful-response-if-us-enters",
+      "published_at": "2026-10-12T14:42:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10130959-07",
+    "title": "הצעת תיווך איראנית בין סעודיה לחות'ים וטענה לסירוב להפסקת אש",
+    "summary": "שר החוץ האיראני הציע לסעודיה לפעול להסדר מדיני ולתווך מול החות'ים, בעוד גורמים חות'יים טענו כי סירבו לבקשה סעודית להפסקת אש שהועברה דרך איראן.",
+    "axis": "דיפלומטיה אזורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T23:51:24+00:00",
+    "last_update_at": "2026-10-13T04:57:30+00:00",
+    "what_is_not_verified": "טענת החות'ים לגבי בקשת הפסקת האש הסעודית לא אומתה על ידי גורם רשמי סעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-offers-mediate-saudi-houthi-conflict-escalates",
+      "published_at": "2026-10-13T04:57:30+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48498",
+      "published_at": "2026-10-12T23:51:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10130959-08",
+    "title": "הצהרת מצרים על נכונות להענקת סיוע צבאי לסעודיה ופגיעה בתעלת סואץ",
+    "summary": "שר החוץ המצרי הצהיר על נכונות מלאה להיענות לכל בקשת סיוע צבאי מסעודיה, וציין כי המצב במצר באב אל-מנדב פוגע בהכנסות תעלת סואץ.",
+    "axis": "מצרים - סעודיה / ים סוף",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T07:40:48+00:00",
+    "last_update_at": "2026-10-13T07:40:48+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131824",
+      "published_at": "2026-10-13T07:40:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10130959-09",
+    "title": "חשיפת מערכת יירוט ישראלית לטילים היפר-סוניים",
+    "summary": "חברת רפאל הציגה בוושינגטון דגם של מערכת יירוט המיועדת להתמודד עם טילים היפר-סוניים, על רקע התרברבות איראנית וחות'ית בהחזקת נשק מסוג זה.",
+    "axis": "ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T09:47:45+00:00",
+    "last_update_at": "2026-10-13T09:47:45+00:00",
+    "what_is_not_verified": "בישראל לא מאמתים האם יכולת הטילים ההיפר-סוניים אכן מצויה בידי החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ryosmuosfl",
+      "published_at": "2026-10-13T09:47:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים המדויק מפגיעות הטילים בריאד (דיווחים נעים בין 13 ל-18 הרוגים).",
+   "טענת החות'ים על פנייה סעודית דרך איראן להפסקת אש לחודש.",
+   "החזקת טילים היפר-סוניים מבצעיים בידי החות'ים.",
+   "דיווחים על שריפה חדשה סמוך לנמל התעופה בריאד מעבר לפגיעות הידועות.",
+   "דיווחים על תנועות יורש העצר הסעודי בין ארמונות ממוגנים."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0695,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנצאר אללה)",
+    "declared": [
+     "הגדרת שדות תעופה ומתקני נפט סעודיים כמטרות לגיטימיות",
+     "תגובה כואבת ומהירה נגד אינטרסים אמריקאיים אם ארצות הברית תתערב בלחימה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומורלי כבד על ההנהגה הסעודית להפסקת הלחימה",
+     "ביסוס מעמד ככוח אזורי המאיים על נתיבי סחר ומרכזים אסטרטגיים"
+    ],
+    "forecast": [
+     "המשך שיגורי טילים וכטב\"מים לעבר יעדי תשתית ותעופה בסעודיה",
+     "החרפת האיומים על נתיבי שיט וסחר במקרה של מעורבות אמריקאית ישירה"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "מתן תגובה רצינית וחריפה לתקיפות החות'ים על שדות התעופה",
+     "יירוט והשמדת איומים אוויריים לעבר ערי הממלכה"
+    ],
+    "inferred": [
+     "ניסיון לייצב את ההגנה האווירית על רקע שחיקת מלאי המיירטים",
+     "בחינת סיוע בינלאומי ואזורי (כולל מארצות הברית, מצרים וטורקיה) להתמודדות עם האיום"
+    ],
+    "forecast": [
+     "אפשרות להגברת תקיפות התגובה האוויריות בתימן לצד בחינת נתיבים מדיניים"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "נכונות מלאה להיענות לכל בקשת סיוע צבאי מסעודיה",
+     "הצבעה על הפגיעה בהכנסות תעלת סואץ בשל המשבר בבאב אל-מנדב"
+    ],
+    "inferred": [
+     "אינטרס עליון לייצב את נתיבי השיט בים סוף ולהגן על המקורות הכלכליים של תעלת סואץ"
+    ],
+    "forecast": [
+     "הידוק התיאום הביטחוני והימי עם סעודיה להגנת נתיבי השיט"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-warning-system-stayed-silent-deadly-airport-attacks",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/houthi-official-warns-of-swift-painful-response-if-us-enters-yemen-war",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-offers-mediate-saudi-houthi-conflict-escalates",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthi-official-warns-swift-painful-response-if-us-enters",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153882",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131824",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48498",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ryosmuosfl",
+    "accessed_at": "2026-10-13T09:59:16+00:00"
+   }
+  ]
+ }
+}

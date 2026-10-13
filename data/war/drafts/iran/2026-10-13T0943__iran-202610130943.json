@@ -1,0 +1,312 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9e47d972c46b",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-13T09:43:16+00:00",
+  "window": {
+   "from": "2026-10-12T09:43:16+00:00",
+   "to": "2026-10-13T09:43:16+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610130943"
+  },
+  "summary": "העימות באזור נמשך במספר חזיתות, הכוללות תקיפות של החות'ים בגיבוי איראן נגד מתקנים ותשתיות בסעודיה, לצד מתיחות גוברת בין איראן לבין ארה\"ב וישראל הכוללת האשמות בריטיות נגד משמרות המהפכה על מעורבות במזימות טרור. כל זאת מלווה באיומי איראן להרחבת הלחימה למדינות שכנות, פגיעה בכלכלה האזורי עקב שיבושי סחר ונפט, וחילופי אמירות פומביות בין מנהיגים.",
+  "fronts": [
+   {
+    "name": "החזית הימית ומפרץ פרסי",
+    "status": "פעילה עם איומים על כבלי תקשורת ואוניות מסחר"
+   },
+   {
+    "name": "חזית סעודיה-תימן",
+    "status": "הסלמה משמעותית ותקיפות אוויריות חוזרות על נמלי תעופה בסעודיה"
+   },
+   {
+    "name": "חזית איראן מול ארה\"ב וישראל",
+    "status": "מתיחות צבאית, איומים הדדיים ופעולות סיכול"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10130943-01",
+    "title": "תקיפות נגד נמל התעופה הבינלאומי בקיאד ח'אליד בריאד",
+    "summary": "סדרה של תקיפות קטלניות פגעה בנמל התעופה הבינלאומי בריאד וגרמה להרוגים ופצועים רבים, מה שהביא להשעיית טיסות ולסגירת מתקני נמל התעופה.",
+    "axis": "ציר איראן-תימן מול סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T08:41:12+00:00",
+    "last_update_at": "2026-10-12T23:46:28+00:00",
+    "what_is_not_verified": "הזהות המדויקת של האמצעים ששימשו את החות'ים בכל אחת מהפגיעות לא פורטה באופן רשמי מלא מעבר לייחוס הכללי",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_611294d7d6503ff6",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-warning-system-stayed-silent-deadly-airport-attacks",
+      "published_at": "2026-10-12T23:46:28+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_611294d7d6503ff6",
+      "url": "https://www.france24.com/en/houthis-are-thriving-and-surviving-by-creating-war-yemen-ambassador-says",
+      "published_at": "2026-10-12T19:08:05+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_611294d7d6503ff6",
+      "url": "https://www.france24.com/en/saudi-arabia-riyadh-airport-struck-again-by-yemen-s-houthis",
+      "published_at": "2026-10-12T09:21:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_44084f050ed61cb8",
+      "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+      "published_at": "2026-10-12T09:11:20+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_611294d7d6503ff6",
+      "url": "https://www.france24.com/en/middle-east/20261012-live-saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-after-deadly-houthi-attacks",
+      "published_at": "2026-10-12T08:41:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה הבינלאומי קיאד ח'אליד, ריאד, סעודיה",
+      "lat": 24.9586,
+      "lon": 46.711
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10130943-02",
+    "title": "זימון שגריר איראן בלונדון בעקבות תקרית בבסיס פיירפורד",
+    "summary": "בריטניה זימנה את שגריר איראן לאחר שראש ממשלת בריטניה הצהיר כי משמרות המהפכה האיראניים הכוונו ככל הנראה מזימה נגד בסיס חיל האוויר המלכותי פיירפורד.",
+    "axis": "ציר איראן מול בריטניה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-12T15:46:28+00:00",
+    "last_update_at": "2026-10-12T17:35:37+00:00",
+    "what_is_not_verified": "איראן דחתה את ההאשמות וטענה כי אין לה קשר לתקרית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_irna",
+      "url": "https://t.me/alexmehacarmel/48478",
+      "published_at": "2026-10-12T17:35:37+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_irna",
+      "url": "https://www.al-monitor.com/originals/2026/10/british-airbase-plot-almost-certainly-directed-iran-guards-uk-pm",
+      "published_at": "2026-10-12T17:30:20+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_irna",
+      "url": "https://www.al-monitor.com/originals/2026/10/uk-pm-burnham-says-irans-irgc-likely-behind-raf-fairford-incident",
+      "published_at": "2026-10-12T15:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס חיל האוויר פיירפורד, אנגליה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10130943-03",
+    "title": "ביקור מנכ\"ל סוכנות הידיעות האיראנית לאמרד",
+    "summary": "מנכ\"ל סוכנות הידיעות האיראנית ביקש באזורים שנפגעו בקמפיין ההפצצות באזור לאמרד.",
+    "axis": "ציר איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T08:30:24+00:00",
+    "last_update_at": "2026-10-13T08:30:24+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים בתקיפות לא צוינו בפירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_91c8473bd82f0081",
+      "url": "https://en.irna.ir/news/86291444/IRNA-chief-visits-sites-of-deadly-US-Israeli-airstrikes-on-Iran-s",
+      "published_at": "2026-10-13T08:30:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לאמרד, איראן",
+      "lat": 27.3334,
+      "lon": 53.1816
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10130943-04",
+    "title": "הערכת קרן המטבע הבינלאומית על התכווצות הכלכלה בסעודיה ובאזור",
+    "summary": "קרן המטבע הבינלאומית דיווחה כי סעודיה ומדינות נוספות באזור צפויות להתמודד עם התכווצות כלכלית עקב המלחמה ושיבושים במפרץ ובמיצר הורמוז.",
+    "axis": "ציר אזורי כלכלי-מדיני",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T05:59:48+00:00",
+    "last_update_at": "2026-10-13T09:30:23+00:00",
+    "what_is_not_verified": "הנתונים הם תחזית כלכלית בלבד לשנה הנוכחי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_imf_world_economic_outlook_report",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-arabia-faces-economic-contraction-war-woes-mount",
+      "published_at": "2026-10-13T09:30:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_imf_world_economic_outlook_report",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+      "published_at": "2026-10-13T06:48:13+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_imf_world_economic_outlook_report",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says?traffic_source=rss",
+      "published_at": "2026-10-13T05:59:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים כי ערב הסעודית ביקשה דרך איראן הפסקת אש לחודש ושהם סירבו לכך",
+   "הדיווחים שלפיהם איראן שוקלת פלישה קרקעית למדינות שכנות במקרה של תקיפה אמריקאית מחודשת",
+   "טענות על מעורבות בפועל של רוסיה וסין בסיוע לאיראן שנדחו על ידי טראמפ"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0695,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על האינטרסים של הרפובליקה האיסלאמית והיערכות לחידוש הלחימה",
+     "קריאה לפתרונות פוליטיים ומניעת צעדים חד-צדדיים בכלכלה העולמית"
+    ],
+    "inferred": [
+     "שמירה על רשת השלוחים באזור להפעלת לחץ על יריבותיה",
+     "הרתיעה של ארה\"ב וישראל באמצעות איומים על תשתיות אזוריות וכבלי תקשורת"
+    ],
+    "forecast": [
+     "המשך שימוש בשלוחים לתקיפת תשתיות במפרץ",
+     "הגברת הלוחמה הפסיכולוגית והדיפלומטית מול מדינות המערב"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת השגת נשק גרעיני על ידי איראן",
+     "בחינת אפשרויות תגובה נוספות באזור"
+    ],
+    "inferred": [
+     "הגנה על בעלות הברית במפרץ ובחינת גבולות ההסלמה מול הנהגת טהרן",
+     "ניסיון להעריך מחדש את יעילות תקיפת הנהגת איראן"
+    ],
+    "forecast": [
+     "המשך תגבור כוחות במזרח התיכון",
+     "שמירה על סנקציות ולחץ כלכלי ומדיני על טהרן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "עצירת תכנית הגרעין האיראנית",
+     "פגיעה בתכנית הטילים וניתוק הקשר בין איראן לחיזבאללה"
+    ],
+    "inferred": [
+     "החלשת ציר ההתנגדות בראשות איראן בכל הזירות",
+     "פעילות מתמשכת לסיכול תשתיות טרור ופח\"ע"
+    ],
+    "forecast": [
+     "המשך היערכות מבצעית מול שלוחיה של איראן",
+     "שמירה על חופש פעולה צבאי במרחב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says?traffic_source=rss",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-arabia-faces-economic-contraction-war-woes-mount",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261012-live-saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-after-deadly-houthi-attacks",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86291444/IRNA-chief-visits-sites-of-deadly-US-Israeli-airstrikes-on-Iran-s",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-640",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48478",
+    "accessed_at": "2026-10-13T09:43:16+00:00"
+   }
+  ]
+ }
+}

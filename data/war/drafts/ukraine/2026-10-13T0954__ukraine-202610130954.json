@@ -1,0 +1,545 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9d0ebd5358c9",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 6,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-13T09:54:34+00:00",
+  "window": {
+   "from": "2026-10-12T09:54:34+00:00",
+   "to": "2026-10-13T09:54:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610130954"
+  },
+  "summary": "העימות הצבאי בין רוסיה לאוקראינה מתאפיין בהמשך לחימה עצימה בקווי המגע הקרקעיים לצד מתקפות אוויריות רוסיות רחבות היקף על ערים, מבני מגורים ותשתיות אזרחיות ברחבי אוקראינה. מנגד, הכוחות האוקראיניים יוזמים פעולות התקפיות בגזרה הדרומית ומשגרים כטב\"מים לעבר מתקנים צבאיים ומרכזי נתונים בעומק השטח הרוסי. במקביל, מאמצים דיפלומטיים אמריקאיים לקדם הפסקת אש בתחום האנרגיה ועסקאות דלק נתקלים בחוסר הסכמה, בעוד תקיפות ימיות בלתי מזוהות בים השחור מגבירות את המתיחות האזורית.",
+  "fronts": [
+   {
+    "name": "גזרת וליקה נובוסילקה ונובופבליבקה (דרום)",
+    "status": "פעולות התקפיות של כוחות מוצנחים אוקראיניים מול מגננה רוסית והתקדמות מקומית לא מוגדרת"
+   },
+   {
+    "name": "מחוז חרקוב",
+    "status": "הפגזות ותקיפות אוויריות רוסיות מתמשכות על תשתיות ומבני מגורים"
+   },
+   {
+    "name": "אגן הים השחור",
+    "status": "פגיעות כטב\"מים באוניות מסחר אזרחיות סמוך למים הטריטוריאליים של בולגריה"
+   },
+   {
+    "name": "עומק השטח הרוסי (קורסק, בריאנסק, מחוזות מרכזיים)",
+    "status": "תקיפות כטב\"מים אוקראיניות על מטרות צבאיות, מרכזי נתונים ומערכות לוגיסטיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10130954-01",
+    "title": "מתקפה נרחבת של כטב\"מים וטילים רוסיים על שטח אוקראינה",
+    "summary": "חיל האוויר האוקראיני דיווח על שיגור חמישה טילים בליסטיים, 108 כטב\"מים תוקפים, רחפני הטעיה ותשעה טילי שיוט במהלך הלילה, שגרמו לעשרה הרוגים ועשרות פצועים ברחבי המדינה.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T05:59:00+00:00",
+    "last_update_at": "2026-10-13T09:27:31+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזקים הכולל לא אומת באופן בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-attacks-kill-at-least-10-injure-74-across-ukraine-over-past-day-as-moscow-hits-homes-railway-infrastructure/",
+      "published_at": "2026-10-13T09:27:31+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173801-adf-neutralizes-88-russian-drones-used-to-attack-ukraine-overnight.html",
+      "published_at": "2026-10-13T05:59:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10130954-02",
+    "title": "פגיעות קטלניות בתשתיות ובמבני מגורים בחרקוב",
+    "summary": "תקיפות רוסיות על מבני מגורים ותשתיות תחבורה בחרקוב גבו את חייהם של לפחות ארבעה אזרחים והביאו לפציעתם של עשרות.",
+    "axis": "צפון-מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-12T21:08:31+00:00",
+    "last_update_at": "2026-10-13T08:41:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק מהתקיפות האחרונות טרם הוברר סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057761/",
+      "published_at": "2026-10-13T08:41:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173828-russian-attacks-on-kharkiv-region-leave-four-killed-more-than-50-injured-over-past-day.html",
+      "published_at": "2026-10-13T07:21:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48493",
+      "published_at": "2026-10-12T21:08:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-03",
+    "title": "פגיעת כטב\"ם במוסד חינוכי בריבנה",
+    "summary": "כטב\"ם פגע במבנה חינוכי במרכז העיר ריבנה, גרם לנזק כבד והביא לפציעתם של אזרחים.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T08:00:00+00:00",
+    "last_update_at": "2026-10-13T08:00:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים ומצבם הרפואי אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057757/",
+      "published_at": "2026-10-13T08:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריבנה, אוקראינה",
+      "lat": 50.6196,
+      "lon": 26.2513
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-04",
+    "title": "נפילת שברי כטב\"ם על בית מגורים בקייב",
+    "summary": "שרידי כטב\"ם שיורט נפלו על שטח בית מגורים פרטי ברובע דרניצקי שבבירה קייב וגרמו לפציעת אישה.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T06:58:00+00:00",
+    "last_update_at": "2026-10-13T06:58:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173812-drone-debris-falls-on-private-house-in-kyivs-darnytskyi-district-woman-injured.html",
+      "published_at": "2026-10-13T06:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-05",
+    "title": "תקיפות אוקראיניות על מתקנים צבאיים ולוגיסטיים בעומק רוסיה ובשטחים הכבושים",
+    "summary": "הצבא האוקראיני דיווח על פגיעה בבסיס תיקונים למערכות איסקנדר במחוז קורסק, בתחנת מכ\"ם במחוז בריאנסק, וכן במאגרי דלק ותחמושת בלוהנסק ובריכוזי כוחות בחזיתות שונות.",
+    "axis": "עומק רוסיה וקו החזית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T08:52:00+00:00",
+    "last_update_at": "2026-10-13T08:52:00+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת למתקנים לא אומתה ממקורות עצמאיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057766/",
+      "published_at": "2026-10-13T08:52:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10130954-06",
+    "title": "שיבוש פעילות שרתי יאנדקס בעקבות תקיפות כטב\"מים אוקראיניים",
+    "summary": "חברת יאנדקס הרוסית דיווחה על שיקום חלקי של שירותי התשלומים שלה בעקבות תקיפות כטב\"מים אוקראיניים שפגעו בשלושה מרכזי נתונים של החברה.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T07:28:47+00:00",
+    "last_update_at": "2026-10-13T09:16:27+00:00",
+    "what_is_not_verified": "הטענה בדבר צניחת תעמולה ברשתות החברתיות עקב הפגיעה אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_c7b87365a8af0f15",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21613390",
+      "published_at": "2026-10-13T09:16:27+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_c7b87365a8af0f15",
+      "url": "https://meduza.io/en/news/2026/10/13/yandex-pay-partially-resumes-operations-after-ukrainian-drone-strikes-on-data-centers",
+      "published_at": "2026-10-13T07:28:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאזאן, רוסיה",
+      "lat": 54.6296,
+      "lon": 39.7425
+     },
+     {
+      "name": "קלוגה, רוסיה",
+      "lat": 54.5101,
+      "lon": 36.2598
+     },
+     {
+      "name": "ולדימיר, רוסיה",
+      "lat": 56.1289,
+      "lon": 40.4075
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-07",
+    "title": "סיכול ניסיון תקיפה בבסיס חיל האוויר הרוסי בוורונז'",
+    "summary": "שירות הביטחון הפדרלי של רוסיה טען כי סיכל פעולת חבלה אוקראינית שתוכננה לפגוע באמצעות כטב\"מים בשדה התעופה הצבאי בלטימור.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T09:19:34+00:00",
+    "last_update_at": "2026-10-13T09:19:34+00:00",
+    "what_is_not_verified": "פרטי ניסיון הסיכול והיקפו לא אומתו מגורם חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_2748293c2646aec8",
+      "url": "https://tass.com/society/2201279",
+      "published_at": "2026-10-13T09:19:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וורונז', רוסיה",
+      "lat": 51.68,
+      "lon": 39.1837
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-08",
+    "title": "תקיפת כטב\"מים על אוניות מסחר בים השחור סמוך לבולגריה",
+    "summary": "שתי אוניות מסחר הותקפו באמצעות כטב\"מים במים הסמוכים לבולגריה, כאשר אחת מהן טבעה ומספר אנשי צוות נפצעו; אוקראינה ובולגריה האשימו את רוסיה בפגיעה בחופש השיט.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T08:19:06+00:00",
+    "last_update_at": "2026-10-13T08:38:00+00:00",
+    "what_is_not_verified": "זהות משגרי הכטב\"מים טרם הוכחה בראיות חד-משמעיות לפי ראש ממשלת בולגריה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057760/",
+      "published_at": "2026-10-13T08:38:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
+      "published_at": "2026-10-13T08:22:53+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/13/drones-attack-two-cargo-ships-off-bulgaria-s-coast-one-ukrainian-owned-sofia-plans-to-summon-russian-ambassador",
+      "published_at": "2026-10-13T08:19:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים השחור, בולגריה",
+      "lat": 42.7088,
+      "lon": 27.7186
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-09",
+    "title": "לחימה קרקעית ופעולות התקפיות של אוקראינה בדרום",
+    "summary": "דיווחים מצביעים על פעולות התקפיות של יחידות מוצנחות אוקראיניות בגזרת וליקה נובוסילקה מול כוחות רוסיים, לצד דיווח על מעל 200 התנגשויות קרביות לאורך החזית ביממה החולפת.",
+    "axis": "דרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-12T23:15:34+00:00",
+    "last_update_at": "2026-10-13T06:22:00+00:00",
+    "what_is_not_verified": "היקף ההתקדמות המדויק של הכוחות האוקראיניים נותר לא ברור ולא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173809-war-update-202-combat-engagements-on-front-line-over-past-day.html",
+      "published_at": "2026-10-13T06:22:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48497",
+      "published_at": "2026-10-12T23:15:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וליקה נובוסילקה, אוקראינה",
+      "lat": 47.8437,
+      "lon": 36.8396
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10130954-10",
+    "title": "מחלוקת סביב יוזמת הפסקת האש במתקני אנרגיה ועסקת הדיזל",
+    "summary": "נשיא ארצות הברית טען לקיומו של הסכם להפסקת פגיעות באנרגיה, בעוד באוקראינה הכחישו סיכום מוקדם ודיווחו על המשך תקיפות רוסיות על מתקני חשמל; במקביל נמתחה ביקורת על עסקת אספקת סולר רוסי.",
+    "axis": "דיפלומטיה בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T08:33:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-12T08:33:54+00:00",
+    "last_update_at": "2026-10-13T07:48:24+00:00",
+    "what_is_not_verified": "עצם קיומה של הסכמה רשמית בין הצדדים להפסקת אש אנרגטית אינו מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/13/reuters-witkoff-and-kushner-told-kyiv-that-a-diesel-deal-with-russia-would-help-bring-the-kremlin-back-to-the-negotiating-table",
+      "published_at": "2026-10-13T07:48:24+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/trump-says-ukraine-russia-agree-to-energy-strike-ceasefire-because-i-said-they-agreed/",
+      "published_at": "2026-10-13T03:16:54+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/ukraine-war-briefing-russian-diesel-exports-could-return-to-past-levels-after-trump-deal-moscow-claims",
+      "published_at": "2026-10-13T02:22:53+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T21:20:51+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/news/video/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest",
+      "published_at": "2026-10-12T17:14:59+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131767",
+      "published_at": "2026-10-12T08:33:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10130954-11",
+    "title": "תפיסת מכלית 'צי הצללים' הרוסי באוקיינוס ההודי",
+    "summary": "הצי הצרפתי יירט באוקיינוס ההודי מכלית רוסית המשתייכת לצי הצללים, אשר שטה תחת דגל ברוא ונתונה לסנקציות בינלאומיות.",
+    "axis": "הזירה הימית הבינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T01:27:05+00:00",
+    "last_update_at": "2026-10-13T01:27:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/french-navy-intercepts-russian-shadow-fleet-tanker-in-indian-ocean/",
+      "published_at": "2026-10-13T01:27:05+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף ההתקדמות הקרקעית המדויק של אוקראינה באזור וליקה נובוסילקה",
+   "הדיווח לפיו ארצות הברית הפסיקה לחלוטין את העברת המידע המודיעיני לאוקראינה",
+   "קיומה ותוקפה של הסכמה דו-צדדית רשמית על הפסקת אש במתקני אנרגיה",
+   "זהות הגורם המבצע שעומד מאחורי תקיפות כלי השיט בים השחור סמוך לבולגריה",
+   "מספר הנפגעים הכולל מתקיפות הכטב\"מים במחוז ריבנה",
+   "טענות על השפעת תקיפת שרתי יאנדקס על היקף התעמולה ברשתות החברתיות"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1181,
+    "unit": "USD",
+    "change_pct": -0.22,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת יעדי המבצע הצבאי והשגת שליטה מלאה בשטחי דונבאס הנותרים",
+     "חידוש יצוא הדלק והדיזל לשווקים הבינלאומיים והגעה להסדר כלכלי וביטחוני מול אירופה",
+     "נכונות להפסקת אש זמנית אך ורק ביום הבחירות באוקראינה אם יוכרזו כאלה"
+    ],
+    "inferred": [
+     "הפעלת לחץ מתמשך על העורף האוקראיני כדי לשחוק את כושר העמידה של האוכלוסייה לקראת החורף",
+     "המשך שיבוש חופש השיט והייצוא הימי בים השחור"
+    ],
+    "forecast": [
+     "המשך מיקוד המאמץ הצבאי לכיבוש יתרת חבל דונבאס תוך גרירת רגליים בנוגע להפסקת אש כוללת"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שלמות הטריטוריה ותגובה צבאית לפגיעות במערך האנרגיה הלאומי",
+     "דרישה מהמערב להגביר את הסנקציות על רוסיה ולהבטיח את חופש השיט בים השחור",
+     "התנגדות להסכמי נפט ודלק המעניקים לרוסיה הכנסות למימון המלחמה"
+    ],
+    "inferred": [
+     "שחיקת הכלכלה והתשתיות הרוסיות באמצעות פגיעה במרכזי נתונים ובבסיסי לוגיסטיקה בעומק רוסיה",
+     "ניסיון לבלום יוזמות מדיניות כפויות שאינן כוללות ערבויות ביטחוניות מלאות"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה אסימטריים בעומק רוסיה לצד מאבק להחזקת קווי ההגנה בחזית המזרחית והדרומית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית (ממשל טראמפ והמתווכים)",
+    "declared": [
+     "כפיית הפסקת אש בתחום תשתיות האנרגיה בין שני הצדדים",
+     "קידום עסקת אספקת סולר רוסי לשווקים הגלובליים להורדת מחירי האנרגיה והחזרת מוסקבה לשולחן המו\"מ"
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ כלכליים ומדיניים על קייב כדי לבלום את הפגיעה בבתי זיקוק רוסיים",
+     "ניסיון להציג הישגים דיפלומטיים מהירים גם ללא הסכמה מלאה ומעשית בשטח"
+    ],
+    "forecast": [
+     "הגברת החיכוך המדיני מול אוקראינה ומול בעלות הברית באירופה סביב תנאי הפסקת האש"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/news/video/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21613390",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/french-navy-intercepts-russian-shadow-fleet-tanker-in-indian-ocean/",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/13/reuters-witkoff-and-kushner-told-kyiv-that-a-diesel-deal-with-russia-would-help-bring-the-kremlin-back-to-the-negotiating-table",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057760/",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/society/2201279",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131767",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48497",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4173809-war-update-202-combat-engagements-on-front-line-over-past-day.html",
+    "accessed_at": "2026-10-13T09:54:34+00:00"
+   }
+  ]
+ }
+}

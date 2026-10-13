@@ -284,6 +284,10 @@
 43.8728,
 33.9938
 ],
+"black sea, bulgaria": [
+42.7088,
+27.7186
+],
 "bogota, colombia": [
 4.6534,
 -74.0836
@@ -819,6 +823,7 @@
 49.7133,
 37.6142
 ],
+"kursk oblast, russia": null,
 "kursk, russia": [
 51.727,
 36.1922
@@ -877,6 +882,7 @@
 51.5074,
 -0.1278
 ],
+"luhansk oblast, ukraine": null,
 "luhansk region, ukraine": [
 48.5151,
 39.3719
@@ -1205,6 +1211,10 @@
 "quneitra countryside, syria": null,
 "quneitra, syria": null,
 "raf akrotiri, cyprus": null,
+"raf fairford, england": [
+51.6851,
+-1.7865
+],
 "raf fairford, united kingdom": [
 51.6851,
 -1.7865
@@ -1524,6 +1534,10 @@
 48.4034
 ],
 "united arab emirates": null,
+"velyka novosilka, ukraine": [
+47.8437,
+36.8396
+],
 "vienna, austria": [
 48.2084,
 16.3725
