@@ -1,0 +1,456 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c2d1fd502248",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-13T23:40:42+00:00",
+  "window": {
+   "from": "2026-10-12T23:40:42+00:00",
+   "to": "2026-10-13T23:40:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610132340"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתרחב וכולל מצור ימי ופגיעה מוגברת בשיט במצרי הורמוז, לצד חילופי מהלומות כבדים בין החות'ים בתימן לבין סעודיה. במקביל נרשמות תקיפות של טהראן נגד מתנגדים בעיראק, אזהרות צבאיות הדדיות, ומאמצים מערביים לפגוע ברשתות עקיפת הסנקציות הכלכליות.",
+  "fronts": [
+   {
+    "name": "מצרי הורמוז והמפרץ הפרסי",
+    "status": "הסלמה חריפה בתקיפות על כלי שיט, ירידה במשלוחי הנפט ומצור ימי הדדי"
+   },
+   {
+    "name": "סעודיה - תימן (שלוחות איראן)",
+    "status": "הסלמה צבאית הכוללת שיגור טילים לעבר ערי סעודיה ותקיפות סעודיות על יעדי נפט בתימן"
+   },
+   {
+    "name": "צפון עיראק",
+    "status": "תקיפות כטבמים איראניות חוזרות ונשנות נגד גורמי אופוזיציה כורדיים לאחר עזיבת כוחות ארצות הברית"
+   },
+   {
+    "name": "הזירה המדינית-כלכלית מול המערב",
+    "status": "החרפת הסנקציות על הברחות כספים, מתיחות דיפלומטית עם בריטניה ואזהרות מפני תקיפות נוספות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10132340-01",
+    "title": "הסלמת תקיפות ופגיעה בכלי שיט במצרי הורמוז",
+    "summary": "נרשם גל תקיפות מוגבר באמצעות טילים וכטבמים נגד ספינות באזור מצרי הורמוז, כולל פגיעות במכלית ובספינת מכולות.",
+    "axis": "מצרי הורמוז והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T16:23:44+00:00",
+    "last_update_at": "2026-10-13T23:39:08+00:00",
+    "what_is_not_verified": "מקור הירי המדויק על שתי הספינות ומידת הנזק והנפגעים המלאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_caa5ef2da3b364c9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attacks-hormuz-shipping-wartime-high-report-says",
+      "published_at": "2026-10-13T23:39:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_caa5ef2da3b364c9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-ships-hit-projectiles-hormuz-strait-maritime-agency-says",
+      "published_at": "2026-10-13T20:06:07+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_caa5ef2da3b364c9",
+      "url": "https://t.me/lelotsenzura/94635",
+      "published_at": "2026-10-13T19:32:15+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_caa5ef2da3b364c9",
+      "url": "https://en.irna.ir/news/86291981/Iranian-Navy-identifies-oil-tanker-that-caught-fire-in-Strait",
+      "published_at": "2026-10-13T16:23:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10132340-02",
+    "title": "שיגור טילים של החות'ים לעבר יעדים בסעודיה ותקיפות נגד",
+    "summary": "החות'ים שיגרו טילים לעבר יעדים בריאד ובדהראן בסעודיה, רסיסי יירוט פצעו אזרחים, ובמקביל סעודיה תקפה מחסני נפט סמוך לצנעא.",
+    "axis": "סעודיה - תימן / שלוחות איראן במפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T13:51:23+00:00",
+    "last_update_at": "2026-10-13T22:31:12+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במתקני הנפט בתימן ופרטי יירוט הטילים מעל דהראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-says-four-imjured-debris-intercepted-missiles-over-riyadh",
+      "published_at": "2026-10-13T22:31:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "published_at": "2026-10-13T17:26:08+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+      "published_at": "2026-10-13T14:53:39+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261013-french-embassy-in-riyadh-tells-citizens-to-avoid-saudi-airports-targeted-by-houthis",
+      "published_at": "2026-10-13T13:51:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "דהראן, סעודיה",
+      "lat": 26.2967,
+      "lon": 50.1202
+     },
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10132340-03",
+    "title": "מתקפות כטבמים איראניות נגד כוחות כורדיים בצפון עיראק",
+    "summary": "איראן שיגרה כטבמים נגד מחנות של האופוזיציה הכורדית-איראנית באזור כויה שבחבל כורדיסטן בעיראק.",
+    "axis": "עיראק - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T15:14:23+00:00",
+    "last_update_at": "2026-10-13T15:19:47+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק במחנות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/iran-targets-kurdish-opposition-groups-in-iraq-with-new-round-of-drone-attacks/",
+      "published_at": "2026-10-13T15:19:47+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php",
+      "published_at": "2026-10-13T15:14:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כויה, עיראק",
+      "lat": 36.0842,
+      "lon": 44.6339
+     },
+     {
+      "name": "ארביל, עיראק",
+      "lat": 36.1912,
+      "lon": 44.0094
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10132340-04",
+    "title": "התבטאות טראמפ בנוגע לסיוע מרוסיה וסין ולפעילות החות'ים",
+    "summary": "הנשיא טראמפ טען כי אינו מאמין שרוסיה וסין מסייעות לאיראן, והאשים את החות'ים בניסיון מכוון לייקר את מחירי הנפט בהוראת טהראן לקראת הבחירות בארצות הברית.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T05:38:01+00:00",
+    "last_update_at": "2026-10-13T21:13:27+00:00",
+    "what_is_not_verified": "מידת הסיוע בפועל של סין ורוסיה לאיראן לאור הערכות מודיעין אמריקאיות סותרות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-does-not-believe-china-and-russia-help-iran-contradicting",
+      "published_at": "2026-10-13T21:13:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131862",
+      "published_at": "2026-10-13T18:13:01+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/trump-says-houthis-trying-drive-oil-prices-ahead-us-midterm-elections",
+      "published_at": "2026-10-13T16:46:32+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48515",
+      "published_at": "2026-10-13T16:42:06+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131814",
+      "published_at": "2026-10-13T05:38:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10132340-05",
+    "title": "זימון שגריר בריטניה בטהראן בעקבות חשד לפעילות נגד בסיס פיירפורד",
+    "summary": "משרד החוץ של איראן זימן את שגריר בריטניה ומחה על האשמות הקושרות את טהראן לתוכנית פעולה נגד בסיס חיל האוויר פיירפורד ששימש מפציצים אמריקאיים לתקיפה באיראן.",
+    "axis": "איראן - המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T17:57:00+00:00",
+    "last_update_at": "2026-10-13T17:57:00+00:00",
+    "what_is_not_verified": "ראיות ממשיות למעורבות ישירה של איראן באירוע בבסיס הבריטי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign",
+      "published_at": "2026-10-13T17:57:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "פיירפורד, בריטניה",
+      "lat": 51.7108,
+      "lon": -1.782
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10132340-06",
+    "title": "הטלת סנקציות בבריטניה וארצות הברית על רשת עקיפה פיננסית",
+    "summary": "בריטניה וארצות הברית הטילו מגבלות וסנקציות על עשרות גופים הקשורים לרשת פיננסית רוסית המסייעת לעקיפת סנקציות של מוסקבה וטהראן.",
+    "axis": "סנקציות וכלכלה בינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T20:12:43+00:00",
+    "last_update_at": "2026-10-13T20:12:43+00:00",
+    "what_is_not_verified": "היקף הכספים המדויק שנותב עבור איראן דרך הרשת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/russias-leading-sanctions-evasion-tool-is-a-new-kind-of-illicit-finance-threat/",
+      "published_at": "2026-10-13T20:12:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10132340-07",
+    "title": "העברת כספים מאיראן לחזבאללה למימון עקורים",
+    "summary": "איראן העבירה סכום של 200 מיליון דולר לידי ארגון חזבאללה לצורך חלוקת מענקים לאוכלוסייה עקורה בעקבות העימות עם ישראל.",
+    "axis": "ישראל - איראן / חזבאללה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T12:03:17+00:00",
+    "last_update_at": "2026-10-13T12:03:17+00:00",
+    "what_is_not_verified": "העברת הכספים בפועל וזהות הגורמים שקיבלו את התשלום",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131834",
+      "published_at": "2026-10-13T12:03:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10132340-08",
+    "title": "מינוי מפקד ושינוי שם יחידת החיסולים בכוח קודס",
+    "summary": "כוח קודס של משמרות המהפכה מינה מפקד חדש ושינה את שמה של יחידת המבצעים בחוץ לארץ ליחידה 600 לאחר חשיפת מבנה היחידה.",
+    "axis": "איראן - פעילות בינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T21:03:35+00:00",
+    "last_update_at": "2026-10-13T21:03:35+00:00",
+    "what_is_not_verified": "שמו וזהותו של המפקד החדש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610131837",
+      "published_at": "2026-10-13T21:03:35+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים לפיה סעודיה ביקשה הפסקת אש דרך איראן",
+   "מידת המעורבות והסיוע המודיעיני והצבאי בפועל של סין ורוסיה לטהראן",
+   "האשמות בריטניה בדבר תיאום מזימה מתוך איראן נגד בסיס פיירפורד",
+   "הדיווח לפיו ראש ממשלת ישראל שוחח עם נשיא ארצות הברית על יציאה למערכה צבאית נוספת"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0751,
+    "unit": "ILS",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הפעלת מלוא היכולות להדיפת כל תוקפנות נגד המדינה",
+     "שליטה במעבר במצרי הורמוז ומניעת תנועה ללא אישור מטעמה",
+     "דחיית כל קשר לפעולות חבלה נגד בסיסים בבריטניה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי בינלאומי באמצעות פגיעה בנתיבי שיט ונפט לקראת הכרעות פוליטיות בארצות הברית",
+     "הרחבת הלחץ באזור באמצעות שלוחות בתימן ובלבנון כדי להרתיע את ארצות הברית וישראל מהמשך תקיפות"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות במצרי הורמוז תוך החרפת האיומים להגיב מעבר לגבולות האזור במקרה של תקיפה אמריקאית נוספת"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "שליטה בנתיבי המים במצרי הורמוז והטלת סגר ימי על נמלים באיראן",
+     "אזהרת החות'ים מפני פגיעה בסעודיה ומניעת ייקור מכוון של מחירי הנפט"
+    ],
+    "inferred": [
+     "בלימת השפעת הלחימה על מחירי האנרגיה העולמיים והכלכלה הפנימית לקראת בחירות",
+     "הידוק הסנקציות וניתוק נתיבי המימון והסיוע הזר של טהראן"
+    ],
+    "forecast": [
+     "הגברת האכיפה נגד רשתות הברחה פיננסיות ושימור נוכחות צבאית להרתעת פעולות נוספות של שלוחות איראן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "בחינת אפשרות לחידוש התקיפות הישירות נגד איראן תוך תיאום עם הממשל האמריקאי",
+     "פגיעה בציר ההתעצמות והמימון של חזבאללה ושלוחות איראניות נוספות"
+    ],
+    "forecast": [
+     "המשך היערכות צבאית למערכה ישירה אפשרית בהתאם להתפתחויות מול טהראן ואישור מוושינגטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/trump-says-houthis-trying-drive-oil-prices-ahead-us-midterm-elections",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/russias-leading-sanctions-evasion-tool-is-a-new-kind-of-illicit-finance-threat/",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261013-french-embassy-in-riyadh-tells-citizens-to-avoid-saudi-airports-targeted-by-houthis",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610131837",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86291981/Iranian-Navy-identifies-oil-tanker-that-caught-fire-in-Strait",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131834",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48515",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94635",
+    "accessed_at": "2026-10-13T23:40:42+00:00"
+   }
+  ]
+ }
+}

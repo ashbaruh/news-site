@@ -1,0 +1,519 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f11df210b1ea",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-13T23:44:51+00:00",
+  "window": {
+   "from": "2026-10-12T23:44:51+00:00",
+   "to": "2026-10-13T23:44:51+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "yemen-202610132344"
+  },
+  "summary": "הלחימה בין הקואליציה בהובלת ערב הסעודית לבין החות'ים הסלימה לחילופי מהלומות עמוקים על תשתיות אנרגיה ונמלי תעופה. הקואליציה תקפה מתקני דלק בצנעא תחת התרעות פינוי, והחות'ים הגיבו בשיגורי טילים לעבר מטרות כלכליות ושלטוניות בריאד, אל-ח'רג' ומתחמי ארמקו בד'הראן ובדמאם. במקביל נמשכים הקרבות הפנימיים בתימן, בייחוד סביב המצור על העיר תעז וקריאות גיוס בדרום.",
+  "fronts": [
+   {
+    "name": "ציר סעודיה - צנעא",
+    "status": "הסלמה חריפה וחילופי מהלומות טילים והפצצות אוויריות על תשתיות דלק ונפט"
+   },
+   {
+    "name": "חזית פנים-תימנית (תעז ודרום תימן)",
+    "status": "מצור מתמשך על כוחות ממשלת תימן בתעז וקריאות גיוס של מועצת המעבר הדרומית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10132344-01",
+    "title": "תקיפות הקואליציה על מאגרי דלק ואזהרות פינוי בצנעא",
+    "summary": "הקואליציה בהובלת ערב הסעודית הוציאה אזהרת פינוי ראשונה למתחם חברת הנפט ותחנת הדלק אל-סבאחה במבואות צנעא, ולאחר מכן תקפה את האתר.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T13:13:54+00:00",
+    "last_update_at": "2026-10-13T22:29:55+00:00",
+    "what_is_not_verified": "הקואליציה טרם אישרה רשמית את ביצוע התקיפה עצמה על פי חלק מהדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T22:29:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-hit-multiple-explosions-after-strikes-yemeni-oil-facility",
+      "published_at": "2026-10-13T20:39:06+00:00"
+     },
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://gcaptain.com/saudi-arabia-strikes-houthi-targets-as-red-sea-war-escalates/",
+      "published_at": "2026-10-13T18:48:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-warn-fresh-attacks-saudi-arabia-after-sanaa-strike",
+      "published_at": "2026-10-13T17:43:57+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "published_at": "2026-10-13T17:26:08+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/by3r11aijzl",
+      "published_at": "2026-10-13T15:38:17+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+      "published_at": "2026-10-13T14:53:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131841",
+      "published_at": "2026-10-13T14:02:27+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94631",
+      "published_at": "2026-10-13T13:56:42+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21616241",
+      "published_at": "2026-10-13T13:13:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-02",
+    "title": "פגיעה במתחם משרדי ארמקו בד'הראן",
+    "summary": "משרד האנרגיה הסעודי הודיע כי מבנה מנהלי של חברת ארמקו בד'הראן הותקף ופרצה בו שריפה מקומית ללא נפגעים, והעובדים התבקשו לעבוד מרחוק.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T17:26:08+00:00",
+    "last_update_at": "2026-10-13T21:46:04+00:00",
+    "what_is_not_verified": "אין אימות עצמאי מעבר להודעת משרד האנרגיה הסעודי ורויטרס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48525",
+      "published_at": "2026-10-13T21:46:04+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-aramco-administrative-building-attacked-limited-fire-reported",
+      "published_at": "2026-10-13T18:46:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "published_at": "2026-10-13T17:26:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ד'הראן, ערב הסעודית",
+      "lat": 26.2967,
+      "lon": 50.1202
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-03",
+    "title": "שיגורים ויירוטים מעל ריאד, אל-ח'רג' ודמאם",
+    "summary": "הקואליציה יירטה טילי שיוט וטילים בליסטיים שכוונו לריאד, מחוז אל-ח'רג' ואזור המזרח, כאשר רסיסים פצעו ארבעה בני אדם וגרמו נזק למבנים בריאד.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T18:34:12+00:00",
+    "last_update_at": "2026-10-13T23:02:35+00:00",
+    "what_is_not_verified": "שיוך מדויק של כל שברי הטילים שנפלו למערכות היירוט הספציפיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_24427ac5811d6a3e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-missile-intercepted-al-kharj",
+      "published_at": "2026-10-13T23:02:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_24427ac5811d6a3e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-says-four-imjured-debris-intercepted-missiles-over-riyadh",
+      "published_at": "2026-10-13T22:31:12+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_24427ac5811d6a3e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-hit-multiple-explosions-after-strikes-yemeni-oil-facility",
+      "published_at": "2026-10-13T20:39:06+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_24427ac5811d6a3e",
+      "url": "https://www.sabanew.net/viewstory/153963",
+      "published_at": "2026-10-13T19:03:09+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_24427ac5811d6a3e",
+      "url": "https://t.me/alexmehacarmel/48519",
+      "published_at": "2026-10-13T18:34:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "אל-ח'רג', ערב הסעודית",
+      "lat": 23.8304,
+      "lon": 47.684
+     },
+     {
+      "name": "דמאם, ערב הסעודית",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-04",
+    "title": "אזהרות הדדיות ואיומי תגמול של החות'ים",
+    "summary": "החות'ים הכריזו כי יתקפו את נמל התעופה הבינלאומי בריאד, בית הזיקוק ומתקני ארמקו, ודרשו לפנותם בעקבות מתקפות הקואליציה.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T11:16:38+00:00",
+    "last_update_at": "2026-10-13T17:43:57+00:00",
+    "what_is_not_verified": "היקף היכולת לממש את כל האיומים המוצהרים בו-זמנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-warn-fresh-attacks-saudi-arabia-after-sanaa-strike",
+      "published_at": "2026-10-13T17:43:57+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94633",
+      "published_at": "2026-10-13T14:22:44+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131842",
+      "published_at": "2026-10-13T14:22:06+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21616241",
+      "published_at": "2026-10-13T13:13:54+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94626",
+      "published_at": "2026-10-13T11:16:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-05",
+    "title": "מצור חות'י והחמרת המצב ההומניטרי בתעז",
+    "summary": "החות'ים מכתרים כוחות ממשלתיים בתעז, חוסמים נתיבי אספקה ומזון, ומשרד הגז המקומי גינה מניעת כניסת גז בישול.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T17:28:43+00:00",
+    "last_update_at": "2026-10-13T21:04:44+00:00",
+    "what_is_not_verified": "רמת המחסור המדויקת באספקה בקרב כלל חלקי העיר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_cd917c54990d2185",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies?traffic_source=rss",
+      "published_at": "2026-10-13T21:04:44+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_cd917c54990d2185",
+      "url": "https://www.sabanew.net/viewstory/153956",
+      "published_at": "2026-10-13T17:28:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-06",
+    "title": "קריאת מועצת המעבר הדרומית לגיוס נגד החות'ים",
+    "summary": "מנהיג מועצת המעבר הדרומית, עידרוס א-זוביידי, קרא לגיוס תושבי הדרום למאבק למען אוטונומיה אזורית ונגד החות'ים.",
+    "axis": "פנים תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T20:42:56+00:00",
+    "last_update_at": "2026-10-13T20:42:56+00:00",
+    "what_is_not_verified": "מידת ההיענות בפועל לקריאת הגיוס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/southern-yemeni-leader-calls-mobilization-against-houthis-war-escalates",
+      "published_at": "2026-10-13T20:42:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10132344-07",
+    "title": "שיבוש התעופה האזרחית לסעודיה והנחיות שגרירויות",
+    "summary": "חברות תעופה זרות השביתו או האריכו ביטולי טיסות לריאד עד אמצע אוקטובר עקב פגיעות קודמות בנמל התעופה, ושגרירות צרפת פרסמה אזהרת הימנעות מנמלי תעופה סעודיים.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T09:19:23+00:00",
+    "last_update_at": "2026-10-13T13:51:23+00:00",
+    "what_is_not_verified": "רשימת כלל חברות התעופה הבינלאומיות שהשעו טיסות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261013-french-embassy-in-riyadh-tells-citizens-to-avoid-saudi-airports-targeted-by-houthis",
+      "published_at": "2026-10-13T13:51:23+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears",
+      "published_at": "2026-10-13T09:19:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10132344-08",
+    "title": "טענה לסירוב סעודי להשתתפות ישראלית בלחימה",
+    "summary": "עיתון הארץ דיווח כי ראש ממשלת ישראל ביקש להצטרף לפעילות הצבאית נגד החות'ים, אך יורש העצר הסעודי סירב מחשש לתגובה ציבורית פנימית.",
+    "axis": "תימן - ישראל - סעודיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T16:21:10+00:00",
+    "last_update_at": "2026-10-13T16:21:10+00:00",
+    "what_is_not_verified": "ההצעה הישראלית והסירוב הסעודי לא אושרו רשמית בידי אף אחד מהממשלים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-refuses-israeli-request-join-yemen-war",
+      "published_at": "2026-10-13T16:21:10+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "דיווח על בקשת ראש ממשלת ישראל להצטרף ללחימה וסירוב סעודי לכך",
+   "הטענה של נשיא ארצות הברית שטראמפ כי החות'ים פועלים להעלות מחירי נפט לקראת הבחירות",
+   "מספר הנפגעים והנזקים הכולל בתקיפות בעיר דמאם שלא פורטו במדויק",
+   "אימות רשמי של הקואליציה הסעודית לביצוע התקיפה באל-סבאחה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0751,
+    "unit": "ILS",
+    "change_pct": 0.18,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "נטרול מקורות האספקה של החות'ים ומתקני האנרגיה המשמשים אותם",
+     "הגנה על המרחב האווירי, האזרחים והתשתיות הלאומיות בממלכה"
+    ],
+    "inferred": [
+     "הרתעת החות'ים מפגיעה נוספת בנמלי תעופה ובמתקני ייצוא נפט אסטרטגיים",
+     "הימנעות ממעורבות צבאית גלויה של גורמים זרים שעלולה לפגוע בלגיטימציה הפנימית"
+    ],
+    "forecast": [
+     "המשך סיכול מטרות תשתית שלטוניות בצנעא תוך שימוש באזהרות פינוי"
+    ]
+   },
+   {
+    "actor": "תנועת החות'ים",
+    "declared": [
+     "תגמול על תקיפות הקואליציה בצנעא באמצעות פגיעה במתקני ארמקו ובנמלי תעופה סעודיים",
+     "אזהרת ארצות הברית מפני התערבות צבאית ישירה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ישיר על ריאד דרך שיבוש התעופה ומגזר האנרגיה",
+     "חיזוק עמדות שליטה קרקעיות במרכז ובדרום תימן תוך ניצול ההסלמה"
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור של טילי שיוט ורחפנים לעבר ריכוזי תעשייה בריאד ובמזרח סעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies?traffic_source=rss",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/southern-yemeni-leader-calls-mobilization-against-houthis-war-escalates",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/saudi-arabia-strikes-houthi-targets-as-red-sea-war-escalates/",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21616241",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-hit-multiple-explosions-after-strikes-yemeni-oil-facility",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-refuses-israeli-request-join-yemen-war",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/153956",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131842",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48519",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94626",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/by3r11aijzl",
+    "accessed_at": "2026-10-13T23:44:51+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,476 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0a615fd6b8c8",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-13T23:43:50+00:00",
+  "window": {
+   "from": "2026-10-12T23:43:50+00:00",
+   "to": "2026-10-13T23:43:50+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "ukraine-202610132343"
+  },
+  "summary": "העימות הצבאי בין רוסיה לאוקראינה מתאפיין בהמשך תקיפות הדדיות על תשתיות אנרגיה ועורף עירוני, לצד פעילות בקווי החזית במזרח. במקביל למגעים מדיניים ויוזמות בינלאומיות להסדרת הפסקת אש באנרגיה, קייב סופגת פגיעות בליסטיות ללא התרעה מודיעינית מוקדמת מבעלות בריתה. המתיחות הדיפלומטית נמשכת סביב תנאי המשא ומתן והמשך התמיכה המערבית.",
+  "fronts": [
+   {
+    "name": "ציר קייב והעורף האוקראיני",
+    "status": "תקיפות בליסטיות רוסיות על מתקני אנרגיה ומבנים עירוניים ללא התרעה מוקדמת"
+   },
+   {
+    "name": "ציר מחוז חרקוב (וליקי בורלוק)",
+    "status": "כוננות אוקראינית לאפשרות של ניסיונות התקדמות רוסיים לאורך הגבול"
+   },
+   {
+    "name": "ציר מחוז קורסק",
+    "status": "פעילות פינוי מוקשים ושיקום תשתיות בהשתתפות גורמים צבאיים קוריאניים לפי טענת רוסיה"
+   },
+   {
+    "name": "ציר דונבאס (דונייצק)",
+    "status": "תקיפות ארטילריות ופגיעות בתשתיות אזרחיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10132343-01",
+    "title": "מתקפת טילים רוסית על תחנת כוח ומבני מגורים בקייב",
+    "summary": "רוסיה שיגרה טילים בליסטיים לעבר קייב ופגעה בתחנת כוח תרמית ומבנה מגורים, ללא קבלת התרעה מוקדמת מבעלות בריתה של אוקראינה.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T14:52:20+00:00",
+    "last_update_at": "2026-10-13T22:05:41+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומידת הנזק הסופי לתחנת הכוח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1376930",
+      "published_at": "2026-10-13T22:05:41+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy",
+      "published_at": "2026-10-13T21:54:12+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48523",
+      "published_at": "2026-10-13T20:56:23+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48522",
+      "published_at": "2026-10-13T20:34:08+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057882/",
+      "published_at": "2026-10-13T20:27:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/kyiv-residential-building-struck-by-russia-as-ukraine-says-intelligence-sharing-from-partners-interrupted/",
+      "published_at": "2026-10-13T20:13:25+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-missiles-slam-central-kyiv-before-air-raid-alert-sounds/",
+      "published_at": "2026-10-13T17:58:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48513",
+      "published_at": "2026-10-13T14:52:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10132343-02",
+    "title": "תקיפות כטבמים וטילים במחוז חמלניצקי",
+    "summary": "תקיפות רוסיות גרמו לשריפות בבתי עסק במחוז חמלניצקי, כאשר מערכות ההגנה האווירית הופעלו ליירוט.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T20:42:00+00:00",
+    "last_update_at": "2026-10-13T20:42:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בבתי העסק שנפגעו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057872/",
+      "published_at": "2026-10-13T20:42:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמלניצקי, אוקראינה",
+      "lat": 49.4196,
+      "lon": 26.9794
+     },
+     {
+      "name": "שפטיבקה, אוקראינה",
+      "lat": 50.1809,
+      "lon": 27.0652
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10132343-03",
+    "title": "מתקפות אוקראיניות על מרכזי נתונים ברוסיה",
+    "summary": "כטבמים אוקראיניים פגעו בשלושה מרכזי נתונים של חברת יאנדקס ברוסיה, וגרמו לשיבושי שירותים נרחבים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T17:31:46+00:00",
+    "last_update_at": "2026-10-13T21:50:17+00:00",
+    "what_is_not_verified": "ההשפעה הממשית על מבצעי השפעה ברשתות החברתיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/14/alice-is-still-chugging-along-though-she-s-showing-clear-signs-of-a-personality-breakdown-meduza-readers-describe-how-attacks-on-yandex-data-centers-are-changing-their-work-and-daily-lives",
+      "published_at": "2026-10-13T21:50:17+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/no-ukraines-strikes-on-yandex-data-centers-didnt-cripple-russian-influence-ops/",
+      "published_at": "2026-10-13T17:31:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סאסובו, רוסיה",
+      "lat": 54.3448,
+      "lon": 41.9215
+     },
+     {
+      "name": "קלוגה, רוסיה",
+      "lat": 54.5101,
+      "lon": 36.2598
+     },
+     {
+      "name": "ולדימיר, רוסיה",
+      "lat": 56.1289,
+      "lon": 40.4075
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10132343-04",
+    "title": "הערכה לגבי כוונות התקדמות רוסיות במחוז חרקוב",
+    "summary": "דובר צבאי אוקראיני העריך כי כוחות רוסיים עשויים לפעול להרחבת אזור השליטה לאורך הגבול במחוז חרקוב.",
+    "axis": "חזית חרקוב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T22:33:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T22:33:00+00:00",
+    "last_update_at": "2026-10-13T22:33:00+00:00",
+    "what_is_not_verified": "האם הכוחות הרוסיים אכן יפתחו במתקפה לעבר אנישצ'ינה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4173945-spox-trehubov-russian-forces-may-seek-to-expand-control-zone-along-kharkiv-region-border.html",
+      "published_at": "2026-10-13T22:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנישצ'ינה, אוקראינה",
+      "lat": 50.2109,
+      "lon": 37.5197
+     },
+     {
+      "name": "וליקי בורלוק, אוקראינה",
+      "lat": 50.0597,
+      "lon": 37.3855
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10132343-05",
+    "title": "מגעים דיפלומטיים סביב יוזמות להפסקת אש באנרגיה",
+    "summary": "התנהלו דיונים בין ארצות הברית, אירופה ואוקראינה על מתווה לסיום הלחימה והפסקת פגיעות באנרגיה, לצד חילופי האשמות בנוגע להפרת ההבנות.",
+    "axis": "מדיני ובינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T12:39:02+00:00",
+    "last_update_at": "2026-10-13T22:31:55+00:00",
+    "what_is_not_verified": "פרטי המתווה הסופיים וההסכמה הרוסית לתנאים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/14/the-washington-post-u-s-and-europe-are-developing-a-new-plan-to-end-the-russia-ukraine-war-offering-incentives-and-security-arrangements-in-exchange-for-a-ceasefire-along-the-current-front-line",
+      "published_at": "2026-10-13T22:31:55+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057882/",
+      "published_at": "2026-10-13T20:27:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4174112-zelensky-on-us-talks-ukraine-is-ready-to-meet-in-coming-days.html",
+      "published_at": "2026-10-13T19:33:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/trump-refuses-to-accuse-russia-of-breaking-energy-ceasefire-says-ukraine-hit-sites-the-day-before/",
+      "published_at": "2026-10-13T17:58:36+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057863/",
+      "published_at": "2026-10-13T17:16:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/b1s7kisjzg",
+      "published_at": "2026-10-13T12:39:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10132343-06",
+    "title": "התקדמות בשיחות ההצטרפות של אוקראינה לאיחוד האירופי",
+    "summary": "מועצת האיחוד האירופי פתחה שני אשכולות משא ומתן נוספים בהליך ההצטרפות של אוקראינה, בעקבות שינויי חקיקה בקייב.",
+    "axis": "מדיני ובינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T16:41:18+00:00",
+    "last_update_at": "2026-10-13T19:01:00+00:00",
+    "what_is_not_verified": "עמידה מלאה בכל דרישות הרפורמה בעתיד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4174110-zelensky-announces-good-decisions-in-support-of-ukraine-expected-this-week.html",
+      "published_at": "2026-10-13T19:01:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057865/",
+      "published_at": "2026-10-13T17:32:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
+      "published_at": "2026-10-13T16:41:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוקסמבורג",
+      "lat": 49.6113,
+      "lon": 6.1298
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10132343-07",
+    "title": "תקיפות באזור דונייצק וטענות על סיוע קוריאני ברוסיה",
+    "summary": "גורמים רשמיים ברוסיה דיווחו על פגיעות בשטחי חבל דונייצק, וסגן שר ההגנה הרוסי ציין שיתוף פעולה עם צבא קוריאה באזור קורסק.",
+    "axis": "דונבאס וקורסק",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T21:08:07+00:00",
+    "last_update_at": "2026-10-13T23:19:29+00:00",
+    "what_is_not_verified": "היקף הפעילות המדויק של הכוחות הקוריאניים במחוז קורסק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_e8f8e409e3548898",
+      "url": "https://tass.com/defense/2201657",
+      "published_at": "2026-10-13T23:19:29+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_e8f8e409e3548898",
+      "url": "https://tass.com/defense/2201643",
+      "published_at": "2026-10-13T21:08:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קורסק, רוסיה",
+      "lat": 51.727,
+      "lon": 36.1922
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על הפסקה מוחלטת או המשך העברת המודיעין האמריקאי לקייב לפני שיגורי הטילים",
+   "מידת ההשפעה של הפגיעות במרכזי יאנדקס על מבצעי השפעה ברשתות החברתיות",
+   "היקף הפעילות הצבאית של חיילים מצפון קוריאה במחוז קורסק",
+   "פרטי היוזמה האמריקאית-אירופית להסדר מדיני והקפאת קו המגע"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1188,
+    "unit": "USD",
+    "change_pct": 0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה ועצמאות העם האוקראיני",
+     "קידום ההצטרפות לאיחוד האירופי ופתיחת אשכולות משא ומתן",
+     "דרישה למיצוי הדין הבינלאומי עם רוסיה והשבת ילדים שנלקחו"
+    ],
+    "inferred": [
+     "שימור רציפות הסיוע המודיעיני והביטחוני מצד המערב",
+     "הפעלת לחץ כלכלי ותשתיתי על רוסיה באמצעות פגיעה במרכזי נתונים ומתקני אנרגיה"
+    ],
+    "forecast": [
+     "המשך דרישה לערבויות ביטחוניות מערביות במקביל להתמודדות עם נזקי החורף באנרגיה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "קיום דיון במועצת הביטחון של האו\"ם בנושא הפרת זכויות אדם באוקראינה",
+     "התנגדות להסכמים ללא מנגנוני פיקוח ברורים בטענה שקייב מפרה התחייבויות",
+     "שחרור מחוז קורסק ושיקום התשתיות"
+    ],
+    "inferred": [
+     "שחיקת מערך האנרגיה האוקראיני כדי להפעיל לחץ על מקבלי ההחלטות בקייב",
+     "הרחבת מרחב השליטה לאורך הגבול באזור חרקוב למניעת איומים על שטחה"
+    ],
+    "forecast": [
+     "המשך שימוש בירי טילים בליסטיים לעבר מרכזים אסטרטגיים במקביל למגעים עקיפים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית ובעלות הברית המערביות",
+    "declared": [
+     "תמיכה ממושכת באוקראינה וחיזוק מעמדה המדיני",
+     "קידום הפסקת אש בתחום האנרגיה",
+     "המשך אספקת מידע מודיעיני על פי הצהרת הנשיא טראמפ"
+    ],
+    "inferred": [
+     "ניסיון להביא את הצדדים לשולחן המשא ומתן באמצעות תמריצים כלכליים",
+     "הימנעות מהסלמה רחבה תוך גיבוש מתווה להקפאת קו המגע"
+    ],
+    "forecast": [
+     "הגברת המאמצים הדיפלומטיים לקידום מסגרת לסיום הלחימה תוך הצבת דרישות לערבויות הדדיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1376930",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/14/the-washington-post-u-s-and-europe-are-developing-a-new-plan-to-end-the-russia-ukraine-war-offering-incentives-and-security-arrangements-in-exchange-for-a-ceasefire-along-the-current-front-line",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057865/",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2201643",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48513",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4174110-zelensky-announces-good-decisions-in-support-of-ukraine-expected-this-week.html",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/b1s7kisjzg",
+    "accessed_at": "2026-10-13T23:43:50+00:00"
+   }
+  ]
+ }
+}

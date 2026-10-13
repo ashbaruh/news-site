@@ -32,6 +32,10 @@
 12.7896,
 45.0285
 ],
+"ain ebel, lebanon": [
+33.1075,
+35.4015
+],
 "aita al-jabal, lebanon": null,
 "akkar, lebanon": null,
 "akrotiri, cyprus": [
@@ -87,6 +91,10 @@
 33.2589,
 35.459
 ],
+"al-qasr, lebanon": [
+33.6423,
+35.479
+],
 "al-sanamayn, syria": [
 33.0732,
 36.1834
@@ -135,6 +143,10 @@
 51.2211,
 4.3997
 ],
+"anyshchyne, ukraine": [
+50.2109,
+37.5197
+],
 "arab al-aramshe, israel": [
 33.0886,
 35.2265
@@ -150,6 +162,10 @@
 "arsal, lebanon": [
 34.1473,
 36.4591
+],
+"as-suwayda, syria": [
+32.7094,
+36.5687
 ],
 "astana, kazakhstan": [
 51.1283,
@@ -391,6 +407,10 @@
 33.8103,
 35.7619
 ],
+"dahr el baydar, lebanon": [
+33.8109,
+35.7661
+],
 "damascus countryside, syria": [
 33.5593,
 36.1618
@@ -431,6 +451,10 @@
 "derhachi, ukraine": [
 50.1071,
 36.1206
+],
+"dhahran, saudi arabia": [
+26.2967,
+50.1202
 ],
 "dhamar, yemen": [
 14.543,
@@ -544,6 +568,10 @@
 "hajjah, yemen": [
 15.6329,
 43.6063
+],
+"hama, syria": [
+35.1343,
+36.7496
 ],
 "haris, lebanon": [
 33.1768,
@@ -761,6 +789,10 @@
 33.3272,
 35.609
 ],
+"khmelnytskyi, ukraine": [
+49.4196,
+26.9794
+],
 "khokha, yemen": [
 13.8062,
 43.2494
@@ -797,6 +829,10 @@
 "kounine, lebanon": [
 33.1496,
 35.4467
+],
+"koya, iraq": [
+36.0842,
+44.6339
 ],
 "kramatorsk, ukraine": [
 48.7389,
@@ -890,6 +926,10 @@
 "luhansk, ukraine": [
 48.5717,
 39.2973
+],
+"luxembourg": [
+49.6113,
+6.1298
 ],
 "lyman, ukraine": [
 48.9801,
@@ -1368,6 +1408,10 @@
 13.7578,
 43.7672
 ],
+"shepetivka, ukraine": [
+50.1809,
+27.0652
+],
 "shestakove, ukraine": [
 50.0726,
 36.6254
@@ -1538,6 +1582,10 @@
 "velyka novosilka, ukraine": [
 47.8437,
 36.8396
+],
+"velykyi burluk, ukraine": [
+50.0597,
+37.3855
 ],
 "vienna, austria": [
 48.2084,
