@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-13T12:17:24+00:00",
-  "fetched_at": "2026-10-13T12:17:24+00:00"
+  "checked_at": "2026-10-13T13:17:27+00:00",
+  "fetched_at": "2026-10-13T13:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,52 +44,52 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T12:17:35+00:00",
-  "fetched_at": "2026-10-13T12:17:35+00:00"
+  "checked_at": "2026-10-13T13:17:40+00:00",
+  "fetched_at": "2026-10-13T13:17:40+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Rega's new budget turntable aims to remove \"all the paranoia and confusion\" with a completely new plug-and-play design",
+    "title_he": "פטיפון התקציב החדש של Rega שואף להסיר את \"כל הפרנויה והבלבול\" עם עיצוב חדש לגמרי של הכנס-הפעל",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/regas-new-budget-turntable-aims-to-remove-all-the-paranoia-and-confusion-with-a-completely-new-plug-and-play-design",
+    "date": "2026-10-13T13:13:09+00:00"
+   },
+   {
+    "title_en": "Want to join the wired headphone trend? Our audio experts recommend this Award-winning £30 pair",
+    "title_he": "רוצים להצטרף לטרנד האוזניות החוטיות? מומחי האודיו שלנו ממליצים על הזוג עטור הפרסים הזה של 30 פאונד",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wired-earbuds/want-to-join-the-wired-headphone-trend-our-audio-experts-recommend-this-award-winning-gbp30-pair",
+    "date": "2026-10-13T13:06:30+00:00"
+   },
+   {
+    "title_en": "\"We wanted audiophiles to enjoy all-day listening\" – how Sennheiser made the Award-winning HDB 630 headphones",
+    "title_he": "\"רצינו שאודיופילים ייהנו מהאזנה כל היום\" - איך סנהייזר יצר את האוזניות HDB 630 עטורות הפרסים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/we-wanted-audiophiles-to-enjoy-all-day-listening-how-sennheiser-made-the-award-winning-hdb-630-headphones",
+    "date": "2026-10-13T13:00:00+00:00"
+   },
    {
     "title_en": "Where to watch Grey's Anatomy season 23 online – stream return of hit medical drama",
     "title_he": "היכן לצפות באנטומיה של גריי עונה 23 באינטרנט - זרם חזרה של הדרמה הרפואית המצליחה",
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/where-to-watch-greys-anatomy-season-23-online-stream-return-of-hit-medical-drama",
     "date": "2026-10-13T11:17:24+00:00"
-   },
-   {
-    "title_en": "How to watch Atletico Madrid vs Man Utd: live stream Champions League 2026/27 game from anywhere",
-    "title_he": "איך לצפות באתלטיקו מדריד נגד מאן יוטד: שידור חי של משחק ליגת האלופות 2026/27 מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/atletico-madrid-vs-man-utd-champions-league-2026-27",
-    "date": "2026-10-13T11:00:00+00:00"
-   },
-   {
-    "title_en": "Best TV 2026",
-    "title_he": "הטלוויזיה הטובה ביותר 2026",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/best-tv-2026",
-    "date": "2026-10-13T10:50:00+00:00"
-   },
-   {
-    "title_en": "Best standmount speakers 2026",
-    "title_he": "הרמקולים הטובים ביותר לעמידה 2026",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/best-standmount-speakers-2026",
-    "date": "2026-10-13T10:50:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T12:17:37+00:00",
-  "fetched_at": "2026-10-13T12:17:37+00:00"
+  "checked_at": "2026-10-13T13:17:45+00:00",
+  "fetched_at": "2026-10-13T13:17:45+00:00"
  },
- "generated_at": "2026-10-13T12:17:37+00:00",
+ "generated_at": "2026-10-13T13:17:45+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המשפחה שמכרה תחנת דלק בת 100 שנה בכ-32 מיליון שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559332",
-     "date": "2026-10-13T10:26:00+00:00"
+     "title": "נותנת עודף מ-100 מיליון שקל: מה הוביל לצלילת מניית המשביר מתחילת השנה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559201",
+     "date": "2026-10-13T10:00:00+00:00"
     },
     {
      "title": "הנתונים המפתיעים בלבנון: סקר חדש חושף – יותר מ-63% תומכים בהסכם עם ישראל",
@@ -99,14 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ג'יי.פי מורגן מפספס, גולדמן סאקס הפתיעו: מה קרה בדוחות הראשונים של העונה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559335",
-     "date": "2026-10-13T11:59:00+00:00"
+     "title": "עליות חדות בתל אביב; מדד ת\"א־נפט וגז מזנק במעל 3%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559230",
+     "date": "2026-10-13T12:57:00+00:00"
     },
     {
-     "title": "העליות בתל אביב מתחזקות; מדד ת\"א־נפט וגז מזנק במעל 3%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559230",
-     "date": "2026-10-13T11:40:00+00:00"
+     "title": "קוהאן נגד לוזון: ינסה לטרפד את ההשתלטות על חברת הנכסים שלו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559341",
+     "date": "2026-10-13T12:45:00+00:00"
+    },
+    {
+     "title": "בריטניה אישרה את פרויקט הגז של נאוויטס בפוקלנד; המניה מזנקת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559338",
+     "date": "2026-10-13T12:20:00+00:00"
+    },
+    {
+     "title": "ג'יי.פי מורגן מפספס, גולדמן זאקס הפתיע: מה קרה בדוחות הראשונים של העונה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559335",
+     "date": "2026-10-13T11:59:00+00:00"
     },
     {
      "title": "גולדמן זאקס מנפץ את התחזיות, ג'יי.פי מורגן מתאושש",
@@ -179,11 +189,6 @@ window.DB.generated = {
      "date": "2026-10-12T16:30:00+00:00"
     },
     {
-     "title": "מאמינות בשוק הישראלי ומעדיפות פיזור: התיק של המשקיעה הצעירה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559257",
-     "date": "2026-10-12T16:05:00+00:00"
-    },
-    {
      "title": "משבר הדיזל פתח חזית חדשה: טראמפ מתייצב נגד אוקראינה ואירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559267",
      "date": "2026-10-12T15:38:00+00:00"
@@ -207,22 +212,12 @@ window.DB.generated = {
      "title": "החברה הישראלית שבדרך לבורסה הקנדית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559185",
      "date": "2026-10-12T11:27:00+00:00"
-    },
-    {
-     "title": "עם זינוק של 450% מהשפל ותרופה חדשה לסכיזופרניה: טבע ממציאה את עצמה מחדש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559121",
-     "date": "2026-10-12T07:12:00+00:00"
-    },
-    {
-     "title": "עם 25 עובדים מקריית מוצקין ו-2 מיליארד שקל של לקוחות. בית ההשקעות שבדרך לאקזיט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559080",
-     "date": "2026-10-12T06:20:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T12:17:25+00:00",
-  "fetched_at": "2026-10-13T12:17:25+00:00"
+  "checked_at": "2026-10-13T13:17:29+00:00",
+  "fetched_at": "2026-10-13T13:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T12:17:26+00:00",
-  "fetched_at": "2026-10-13T12:17:26+00:00"
+  "checked_at": "2026-10-13T13:17:29+00:00",
+  "fetched_at": "2026-10-13T13:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2783,8 +2778,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T12:17:27+00:00",
-  "fetched_at": "2026-10-13T12:17:27+00:00"
+  "checked_at": "2026-10-13T13:17:31+00:00",
+  "fetched_at": "2026-10-13T13:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2935,8 +2930,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T12:17:27+00:00",
-  "fetched_at": "2026-10-13T12:17:27+00:00"
+  "checked_at": "2026-10-13T13:17:31+00:00",
+  "fetched_at": "2026-10-13T13:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2950,9 +2945,7 @@ window.DB.generated = {
     }
    ],
    "candidates": 11,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2965,14 +2958,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 483,
+     "likes": 486,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 203,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2986,7 +2979,7 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 243,
+     "likes": 244,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -3004,13 +2997,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
-     "title": "Qwen 2511 + Flux.2 klein 9B",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 76,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
-    },
-    {
      "title": "MiniMax-H3 Character Swap LoRA",
      "desc_en": "Swap one character in a clip for a reference character",
      "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
@@ -3023,25 +3009,23 @@ window.DB.generated = {
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
      "likes": 82,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 klein 9B",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
+     "likes": 76,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T12:17:35+00:00",
-  "fetched_at": "2026-10-13T12:17:35+00:00"
+  "checked_at": "2026-10-13T13:17:39+00:00",
+  "fetched_at": "2026-10-13T13:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "\"אבדיה יעיל, הוא מקבל את ההחלטות הנכונות\"",
-     "link": "https://www.one.co.il/Article/535860.html?ref=rss",
-     "date": "2026-10-13T06:51:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
     {
      "title": "מנור סולומון במרכז הסכסוך: האם גם ווסטהאם תסתבך?",
      "link": "https://sports.walla.co.il/item/3871961",
@@ -3362,11 +3346,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T12:17:30+00:00",
-  "fetched_at": "2026-10-13T12:17:30+00:00"
+  "checked_at": "2026-10-13T13:17:34+00:00",
+  "fetched_at": "2026-10-13T13:17:34+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "החשוד בתכנון פיגוע נגד חיילי צה\"ל בעיר העתיקה: ערבי-ישראלי בן 18 שנשבע לדאע\"ש",
+    "link": "https://www.walla.co.il/news/military/383957283",
+    "date": "2026-10-13T13:05:56+00:00"
+   },
    {
     "title": "לא כטב\"ם ולא רחפן: צה\"ל מעריך שהעצם שחדר לישראל היה בלון",
     "link": "https://www.walla.co.il/news/military/383957237",
@@ -3386,99 +3375,94 @@ window.DB.generated = {
     "title": "החשש מתקיפה, הפינוי המורכב והסריקות בסבך: מאחורי הפיצוץ בטיול השנתי",
     "link": "https://www.walla.co.il/news/military/383957182",
     "date": "2026-10-12T14:20:34+00:00"
-   },
-   {
-    "title": "תוך 48 שעות: 2 זיהויים אוויריים בגבול לבנון - ולצה\"ל אין תשובות",
-    "link": "https://www.walla.co.il/news/military/383957158",
-    "date": "2026-10-12T10:38:21+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T12:17:30+00:00",
-  "fetched_at": "2026-10-13T12:17:30+00:00"
+  "checked_at": "2026-10-13T13:17:35+00:00",
+  "fetched_at": "2026-10-13T13:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-13T12:04:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T12:57:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-13T11:59:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T12:57:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-13T11:59:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T12:20:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-12T22:14:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-13T10:00:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T12:35:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-13T09:30:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T11:31:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-13T11:52:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T13:07:00+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-13T06:54:25+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T13:05:56+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-06T19:57:04+00:00",
-    "seen_at": "2026-10-13T10:17:41+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-07T12:00:00+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-13T08:33:41+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T13:13:48+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-13T11:17:24+00:00",
-    "seen_at": "2026-10-13T12:17:37+00:00",
+    "newest": "2026-10-13T13:13:09+00:00",
+    "seen_at": "2026-10-13T13:17:45+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-13T12:17:37+00:00"
+  "checked_at": "2026-10-13T13:17:45+00:00"
  }
 };
