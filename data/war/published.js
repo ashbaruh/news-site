@@ -1458,58 +1458,64 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-12T2006__north-202610122006.json",
+  "draft": "drafts/north/2026-10-13T1040__north-202610131040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-12T20:06:15+00:00",
+   "generated_at": "2026-10-13T10:40:28+00:00",
    "window": {
-    "from": "2026-10-11T20:06:15+00:00",
-    "to": "2026-10-12T20:06:15+00:00"
+    "from": "2026-10-12T10:40:28+00:00",
+    "to": "2026-10-13T10:40:28+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "north-202610122006"
+    "run_id": "north-202610131040"
    },
-   "summary": "בגבול הצפון מתקיימת מתיחות ביטחונית גבוהה סביב שרידי תחמושת ונפלי רקטות מצרר של חזבאללה הגובים נפגעים בנפש, לצד פעילות צבאית ישראלית להשמדת תוואים תת-קרקעיים בדרום לבנון ופעילות קרקעית באזור קוניטרה בסוריה. בתוך לבנון נמשך לחץ סביב פעילות הברחות אמצעי לחימה של חזבאללה ועימותים סביב אכיפת החוק מול מנגנוני הביטחון. בסוריה נרשמת תסיסה מקומית סביב מאבקי שליטה בין גורמים מקומיים לכוחות הביטחון באזור חסכה.",
+   "summary": "בגזרה הצפונית נמשכת פעילות צבאית ישראלית הכוללת תקיפות אוויריות והשמדת תשתיות תת-קרקעיות בדרום לבנון, לצד פשיטות קרקעיות נקודתיות בדרום סוריה. במקביל, בצפון ישראל ממשיכים מטעני נפלי מצרר מהלחימה לגבות מחיר בחיי אדם, בעוד בלבנון חיזבאללה מקדם תוכניות סיוע כספי לעקורים וממשלת לבנון מנסה לקדם פירוק מנשק בלתי מורשה. בסוריה מתנהלים מאמצי התייצבות מנהליים ומשפטיים תחת השלטון החדש, לצד גינויים דיפלומטיים מטורקיה נגד פעילות צה\"ל במדינה.",
    "fronts": [
     {
      "name": "גבול ישראל - לבנון",
-     "status": "מתיחות מתמשכת, פיצוצי נפלים ופעילות צבאית מוגבלת משני הצדדים"
+     "status": "לחימה מוגבלת, תקיפות אוויריות ישראליות, השמדת תשתיות קרקעיות וסיכון מתמשך מנפלים."
     },
     {
-     "name": "דרום סוריה (קוניטרה / פרברי דמשק)",
-     "status": "פעילות קרקעית נקודתית של צה\"ל לסיכול בינוי והשמדת תשתיות"
+     "name": "דרום סוריה",
+     "status": "פשיטות ומעצרים ישראליים נקודתיים, ומתיחות מדינית מול טורקיה סביב הסכם הפרדת הכוחות."
     },
     {
-     "name": "פנים לבנון (בקאע וביירות)",
-     "status": "חקירות וחיכוך סביב העברות חומרי נפץ ותשתיות לוגיסטיות של חזבאללה"
+     "name": "לבנון (פנים)",
+     "status": "מתיחות סביב הברחות נשק, מאמצי שיקום של חיזבאללה ומאבק ממשלתי להגבלת הנשק לכוחות המדינה בלבד."
     },
     {
-     "name": "צפון-מזרח סוריה (חסכה)",
-     "status": "חיכוך פנימי ומתיחות ביטחונית סביב פעילות גורמים המזוהים עם הכוחות הסוריים הדמוקרטיים"
+     "name": "סוריה (פנים)",
+     "status": "התארגנות שלטונית חדשה, רפורמות כלכליות ומשפטי מעבר לבכירי המשטר הקודם."
     }
    ],
    "events": [
     {
-     "id": "NORTH-10122006-01",
-     "title": "פיצוץ נפל תחמושת מצרר של חזבאללה בגבול הצפון",
-     "summary": "נער נהרג ועשרות נפצעו כתוצאה מהתפוצצות נפל רקטה עם פצצת מצרר של חזבאללה במהלך טיול תלמידים באזור רכס רמים ומצפה פאר.",
+     "id": "NORTH-10131040-01",
+     "title": "פיצוץ נפל פצצת מצרר ברכס רמים",
+     "summary": "נפל של פצצת מצרר ששיגר חיזבאללה בעבר התפוצץ במהלך טיול שנתי של תלמידים ברכס רמים סמוך למצפה פאר, וכתוצאה מכך נהרג תלמיד ונפצעו עשרות.",
      "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-12T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-10-12T12:16:49+00:00",
-     "last_update_at": "2026-10-12T19:46:17+00:00",
-     "what_is_not_verified": "קיימות גרסאות שונות לגבי מספר הפצועים המדויק, גיל ההרוג והמיקום המדויק שנמסר בדיווחים הראשוניים.",
+     "last_update_at": "2026-10-13T04:46:32+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק נע בין 19 ל-24, וגיל ההרוג מופיע כ-14 או 15 במקורות שונים.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383957221",
+       "published_at": "2026-10-13T04:46:32+00:00"
+      },
+      {
        "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/sjalatqoge",
-       "published_at": "2026-10-12T19:46:17+00:00"
+       "url": "https://www.ynet.co.il/news/article/bk5k007osgl",
+       "published_at": "2026-10-13T03:43:00+00:00"
       },
       {
        "source_id": "src_walla",
@@ -1522,24 +1528,6 @@ window.DB.war_published = {
        "source_root_id": "or_unknown_origin",
        "url": "https://www.al-monitor.com/originals/2026/10/likely-unexploded-ordnance-kills-teenager-northern-israel",
        "published_at": "2026-10-12T17:46:29+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/b1tp85come",
-       "published_at": "2026-10-12T17:39:18+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/defense/article/21609044",
-       "published_at": "2026-10-12T15:07:51+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1376409",
-       "published_at": "2026-10-12T14:43:02+00:00"
       },
       {
        "source_id": "src_tg_idf",
@@ -1560,31 +1548,60 @@ window.DB.war_published = {
        "published_at": "2026-10-12T12:16:49+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "NORTH-10131040-02",
+     "title": "תקיפות אוויריות של ישראל בדרום לבנון",
+     "summary": "כתב ערוץ אל-מנאר דיווח על תקיפות מהאוויר שביצעה ישראל במספר מוקדים בדרום לבנון, בהם פרועון, כפר תבנית וואדי אל-חוג'יר.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-13T06:19:02+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T06:19:02+00:00",
+     "last_update_at": "2026-10-13T09:33:36+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים אינו מצוין.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "יפתח",
-       "lat": 33.1286,
-       "lon": 35.5519
+       "source_id": "src_almanar",
+       "source_root_id": "fh_1967846c7844f382",
+       "url": "https://english.almanar.com.lb/article/137722/",
+       "published_at": "2026-10-13T09:33:36+00:00"
       },
       {
-       "name": "מנרה",
-       "lat": 33.1959,
-       "lon": 35.5446
+       "source_id": "src_newarab",
+       "source_root_id": "fh_1967846c7844f382",
+       "url": "https://www.newarab.com/news/iran-us-deadlock-continue-focus-shifts-yemen-war",
+       "published_at": "2026-10-13T06:19:02+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פרוען, לבנון",
+       "lat": 33.2968,
+       "lon": 35.4265
+      },
+      {
+       "name": "כפר תבנית, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
       }
      ]
     },
     {
-     "id": "NORTH-10122006-02",
-     "title": "השמדת תשתית תת-קרקעית של חזבאללה בדרום לבנון",
-     "summary": "כוחות חטיבה שבע ויהל\"ם איתרו והשמידו תוואי תת-קרקעי במרחב הביטחוני בדרום לבנון.",
+     "id": "NORTH-10131040-03",
+     "title": "השמדת תוואי תת-קרקעי על ידי כוחות צה\"ל בדרום לבנון",
+     "summary": "כוחות חטיבה 7 ויהל\"ם איתרו והשמידו תוואי תת-קרקעי במרחב הביטחוני שבדרום לבנון.",
      "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-12T00:00:00+00:00",
+     "occurred_at": "2026-10-12T12:12:46+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-10-12T12:12:46+00:00",
      "last_update_at": "2026-10-12T12:12:46+00:00",
-     "what_is_not_verified": "המיקום המדויק של התוואי התת-קרקעי לא צוין בהודעה.",
+     "what_is_not_verified": "המיקום המדויק של התוואי התת-קרקעי לא צוין מעבר להגדרה כללית של דרום לבנון.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -1596,61 +1613,84 @@ window.DB.war_published = {
      ],
      "places": [
       {
-       "name": "דרום לבנון",
+       "name": "דרום לבנון, לבנון",
        "lat": 33.2481,
        "lon": 35.5119
       }
      ]
     },
     {
-     "id": "NORTH-10122006-03",
-     "title": "ירי ארטילרי ישראלי בדרום לבנון",
-     "summary": "ארטילריה ישראלית ביצעה ירי לעבר האזור שבין העיירות חדאת'א ועותא אל-ג'בל בדרום לבנון.",
+     "id": "NORTH-10131040-04",
+     "title": "חדירת עצם מרחף מלבנון לשמי צפון ישראל",
+     "summary": "תחקיר של צה\"ל קבע כי עצם שנכנס לשמי צפון הארץ מלבנון היה בלון או התקן אוויר חם תמים שנסחף.",
      "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-12T00:00:00+00:00",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-12T18:24:57+00:00",
-     "last_update_at": "2026-10-12T18:24:57+00:00",
-     "what_is_not_verified": "לא דווח על נפגעים או נזק כתוצאה מהירי.",
+     "first_reported_at": "2026-10-13T06:37:11+00:00",
+     "last_update_at": "2026-10-13T06:46:41+00:00",
+     "what_is_not_verified": "זהות המשלח או מקור השיגור המדויק בלבנון.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1376578",
+       "published_at": "2026-10-13T06:46:41+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/byeagijomx",
+       "published_at": "2026-10-13T06:37:11+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10131040-05",
+     "title": "הכרזת חיזבאללה על סיוע כספי לשיקום דיור",
+     "summary": "בכיר חיזבאללה שייח' עלי דעמוש הכריז על תוכנית סיוע לנפגעי המלחמות עם ישראל, במסגרתה יוענקו עד 14,000 דולר למשפחות שבתיהן נהרסו בביירות וסביבתה, ועד 12,000 דולר באזורים אחרים.",
+     "axis": "לבנון פנים",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T07:36:31+00:00",
+     "last_update_at": "2026-10-13T10:20:23+00:00",
+     "what_is_not_verified": "הדיווח על קבלת 200 מיליון דולר מאיראן למימון התוכנית הוכחש על ידי ארה\"ב ואינו מאומת סופית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_754edcc917b27718",
-       "url": "https://english.almanar.com.lb/article/137497/",
-       "published_at": "2026-10-12T18:24:57+00:00"
+       "source_root_id": "fh_97824b44ede9fab8",
+       "url": "https://english.almanar.com.lb/article/137737/",
+       "published_at": "2026-10-13T10:20:23+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "fh_97824b44ede9fab8",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/962599/hezbollah-outlines-financial-aid-plan-for-lebanese-with-destroyed-home/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962599",
+       "published_at": "2026-10-13T07:36:31+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "חדאת'א",
-       "lat": 33.1561,
-       "lon": 35.3912
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-10122006-04",
-     "title": "סיכול משלוח חומרי נפץ של חזבאללה בלבנון",
-     "summary": "כוחות הביטחון של לבנון תפסו במחסום דהר אל-בידר רכב שהוביל מאות קילוגרמים של חומרי נפץ מאזור בעלבכ לכיוון הדאחיה בביירות, ועצרו שני חשודים.",
-     "axis": "לבנון (פנים)",
+     "id": "NORTH-10131040-06",
+     "title": "סיכול משלוח חומרי נפץ במחסום דהר אל-בידר בלבנון",
+     "summary": "כוחות ביטחון הפנים של לבנון עצרו רכב ובו מאות קילוגרמים של חומרי נפץ שהועברו מאזור בעלבכ לכיוון הדאחיה בביירות.",
+     "axis": "לבנון פנים",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-05T00:00:00+00:00",
-     "is_ongoing": true,
+     "is_ongoing": false,
      "first_reported_at": "2026-10-12T11:49:06+00:00",
-     "last_update_at": "2026-10-12T14:00:00+00:00",
-     "what_is_not_verified": "משקל חומר הנפץ המדויק, הרכבו ויעדו הסופי המבצעי אינם מאומתים באופן רשמי.",
+     "last_update_at": "2026-10-12T11:49:06+00:00",
+     "what_is_not_verified": "המשקל המדויק של החומרים, יעד השימוש הסופי, וזהותם המלאה של המעורבים.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962491/from-baalbek-to-beiruts-southern-suburbs-lebanon-probes-explosives-shi/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962491",
-       "published_at": "2026-10-12T14:00:00+00:00"
-      },
       {
        "source_id": "src_alma",
        "source_root_id": "or_unknown_origin",
@@ -1660,133 +1700,144 @@ window.DB.war_published = {
      ],
      "places": [
       {
-       "name": "בעלבכ",
-       "lat": 34.0097,
-       "lon": 36.2117
-      },
-      {
-       "name": "דהר אל-בידר",
+       "name": "דהר אל-בידר, לבנון",
        "lat": 33.8103,
        "lon": 35.7619
+      },
+      {
+       "name": "בעלבכ, לבנון",
+       "lat": 34.0097,
+       "lon": 36.2117
       }
      ]
     },
     {
-     "id": "NORTH-10122006-05",
-     "title": "פעילות צה\"ל באזור קוניטרה ופרברי דמשק",
-     "summary": "כוחות צה\"ל נכנסו למרחב הכפרי של קוניטרה, עצרו עבודות בינוי, ופוצצו מבנה נטוש במרחב הכפרי המערבי של דמשק.",
+     "id": "NORTH-10131040-07",
+     "title": "פשיטות ומעצרים של כוחות ישראליים בדרום סוריה",
+     "summary": "כוחות ישראליים ביצעו פעילות מעצרים בדרום סוריה ולקחו אדם מאזור קוניטרה, לצד פעולות נוספות במרחב דרעא וסביבת דמשק.",
      "axis": "ישראל - סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-12T00:00:00+00:00",
+     "occurred_at": "2026-10-13T01:38:15+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-12T15:21:01+00:00",
-     "last_update_at": "2026-10-12T15:21:01+00:00",
-     "what_is_not_verified": "זהות הגורמים שביצעו את עבודות הבינוי או מהות המבנה שפוצץ לא פורטו.",
+     "first_reported_at": "2026-10-13T01:38:15+00:00",
+     "last_update_at": "2026-10-13T01:38:15+00:00",
+     "what_is_not_verified": "זהות העצור והנסיבות המדויקות של הפעילות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-enters-syria-s-quneitra-countryside-blocks-construction-work/4086328",
-       "published_at": "2026-10-12T15:21:01+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-abduct-man-in-southern-syria-amid-fresh-incursions/4086717",
+       "published_at": "2026-10-13T01:38:15+00:00"
       }
      ],
      "places": [
       {
-       "name": "פרברי דמשק",
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      },
+      {
+       "name": "ריף דמשק, סוריה",
        "lat": 33.5593,
        "lon": 36.1618
       }
      ]
     },
     {
-     "id": "NORTH-10122006-06",
-     "title": "מתיחות ביטחונית ומעצר בחסכה בצפון-מזרח סוריה",
-     "summary": "חמושים המזוהים עם תנועת הנוער המהפכנית הקשורה לכוחות הסוריים הדמוקרטיים חטפו אזרח בעיר חסכה לאחר שהשתתף בהפגנות למען ריבונות המדינה הסורית, מה שהוביל להתחמשות תושבים ולהקמת מחסומים.",
-     "axis": "סוריה (פנים)",
-     "claim_type": "incident",
+     "id": "NORTH-10131040-08",
+     "title": "קריאת טורקיה באו\"ם להפסקת התקיפות הישראליות בסוריה",
+     "summary": "שגריר טורקיה באו\"ם קרא לישראל לחדול מפעולותיה בסוריה ולציית באופן מלא להסכם הפרדת הכוחות מ-1974.",
+     "axis": "טורקיה - סוריה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-12T18:12:00+00:00",
-     "last_update_at": "2026-10-12T18:12:00+00:00",
-     "what_is_not_verified": "מידת השליטה והמעורבות של הנהגת הכוחות הסוריים הדמוקרטיים באירועי החטיפה והאלימות.",
+     "occurred_at": "2026-10-13T08:38:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T08:38:00+00:00",
+     "last_update_at": "2026-10-13T08:38:00+00:00",
+     "what_is_not_verified": "תגובת ישראל להצהרה הטורקית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_enabbaladi",
+       "source_id": "src_dailysabah",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/10/al-hasakah-sdf-linked-groups-activity-raises-security-fears/",
-       "published_at": "2026-10-12T18:12:00+00:00"
+       "url": "https://www.dailysabah.com/politics/diplomacy/turkiyes-un-envoy-calls-on-israel-to-stop-reckless-attacks-in-syria",
+       "published_at": "2026-10-13T08:38:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10122006-07",
-     "title": "השעיית שביתת רעב של אסירים בבתי כלא בלבנון",
-     "summary": "מאות אסירים בבתי כלא בלבנון, בהם עצורים סורים, השעו שביתת רעב וסירוב לתרופות בעקבות פסיקת המועצה החוקתית בנוגע לחוק החנינה הכללית.",
-     "axis": "לבנון (פנים)",
+     "id": "NORTH-10131040-09",
+     "title": "הליכים משפטיים בבית דין לצדק מעברי בדמשק",
+     "summary": "בית משפט פלילי בדמשק ערך 19 דיונים בעניינם של חשודים בביצוע פשעי מלחמה ופשעים נגד האנושות תחת משטרו של אסד.",
+     "axis": "סוריה פנים",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-12T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-13T07:35:03+00:00",
+     "last_update_at": "2026-10-13T07:35:03+00:00",
+     "what_is_not_verified": "זהות החשודים הספציפיים ופסיקות סופיות במשפטים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/syria-holds-19-hearings-war-crimes-suspects-damascus",
+       "published_at": "2026-10-13T07:35:03+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10131040-10",
+     "title": "שינוי תעריפי מכס והצטרפות לאמנה בינלאומית בסוריה",
+     "summary": "נשיא סוריה אחמד א-שרע הוציא צו המעדכן תעריפי מכס לעידוד הייצור המקומי, ובמקביל הודיע משרד החוץ על הצטרפות המדינה לאמנה הבינלאומית להגנת תיירים.",
+     "axis": "סוריה פנים",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-12T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-12T18:38:59+00:00",
-     "last_update_at": "2026-10-12T18:38:59+00:00",
-     "what_is_not_verified": "זהות כלל האסירים ומספרם הכולל המדויק.",
+     "first_reported_at": "2026-10-13T09:49:55+00:00",
+     "last_update_at": "2026-10-13T10:34:31+00:00",
+     "what_is_not_verified": "השפעת הצעדים על הכלכלה בפועל.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_enabbaladi",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/10/roumieh-prisoners-suspend-hunger-and-medication-strike/",
-       "published_at": "2026-10-12T18:38:59+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://english.enabbaladi.net/archives/2026/10/syrias-customs-authority-explains-tariff-amendment-decree/",
+       "published_at": "2026-10-13T10:34:31+00:00"
+      },
       {
-       "name": "רומיה",
-       "lat": 33.882,
-       "lon": 35.6146
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10122006-08",
-     "title": "העברת אזהרה ישראלית ללבנון בעניין הצטרפות למערכה",
-     "summary": "על פי דיווח, ישראל העבירה מסרים המזהירים כי אם חזבאללה יצטרף למערכה במקרה של עימות מול איראן, ישראל תפתח במבצע נרחב ותטיל מצור כולל על לבנון.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-12T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-12T06:48:43+00:00",
-     "last_update_at": "2026-10-12T06:48:43+00:00",
-     "what_is_not_verified": "עצם העברת המסר לא אושרה על ידי גורם רשמי ישראלי או לבנוני.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_enabbaladi",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94607",
-       "published_at": "2026-10-12T06:48:43+00:00"
+       "url": "https://english.enabbaladi.net/archives/2026/10/syria-joins-international-code-for-the-protection-of-tourists/",
+       "published_at": "2026-10-13T09:49:55+00:00"
       }
      ],
      "places": [
       {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
       }
      ]
     }
    ],
    "not_verified": [
-    "מספר הנפגעים המדויק באסון הנפל ברכס רמים (דיווחים שנעים בין עשרה לעשרים וארבעה פצועים).",
-    "משקל חומרי הנפץ המדויק שנתפס בדהר אל-בידר (משתנה בין 250 ל-800 קילוגרם) והרכב החומרים.",
-    "הדיווח הלבנוני על אזהרה ישראלית מפני מצור כולל על לבנון במקרה של תקיפה איראנית.",
-    "נתוני הנפגעים הכוללים בלבנון, שכן קיימים פערים של אלפי נפגעים בין דיווחי משרד הבריאות הלבנוני השונים."
+    "{'claim': 'הדיווח לפיו חיזבאללה קיבל 200 מיליון דולר מאיראן לסיוע כספי לאוכלוסייה'}",
+    "{'claim': 'מספר הנפגעים וגילו המדויק של הנער שנהרג בפיצוץ הנפל ברכס רמים'}",
+    "{'claim': 'יעד השימוש הסופי והמשקל המדויק של חומרי הנפץ שנתפסו במחסום דהר אל-בידר'}",
+    "{'claim': 'זהות העצור והנסיבות המדויקות של הפעילות הצה\"לית באזור קוניטרה'}"
    ],
    "map": {
     "confidence": "medium",
@@ -1808,39 +1859,57 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "המשך פעילות מבצעית וסיכולית לאיתור והשמדת תשתיות תת-קרקע ונפלים במרחב הגבול.",
-      "היערכות לתרגילים רחבי היקף בגליל מחשש לחידוש לחימה."
+      "השמדת תשתיות טרור ותוואי תת-קרקע בדרום לבנון",
+      "שמירה על חופש פעולה ביטחוני ומבצעי בעזה, בסוריה, בלבנון ובאיראן ללא התערבות משפטית"
      ],
      "inferred": [
-      "הרתעת חזבאללה וממשלת לבנון מהתערבות במקרה של עימות צבאי ישיר מול איראן.",
-      "מניעת התבססות תשתיות צבאיות ועבודות הנדסיות במרחב הגבול עם סוריה."
+      "מניעת התבססות מחדש של חיזבאללה וגורמים פרו-איראניים בסמוך לגבול הצפון",
+      "סיכול התארגנות עוינת בדרום סוריה באמצעות פשיטות ומעצרים נקודתיים"
      ],
      "forecast": [
-      "פעילות סריקה וטיהור מואצת של שטחים פתוחים מנפלים בצפון הארץ.",
-      "המשך תקיפות ממוקדות בתגובה לאיומים מיידיים בדרום לבנון ובדרום סוריה."
+      "המשך פעולות ממוקדות להשמדת תשתיות ומשלוחי אמל\"ח לאורך הגבול ובמרחב הסורי"
      ]
     },
     {
-     "actor": "חזבאללה",
-     "declared": [],
-     "inferred": [
-      "שיקום וחידוש מלאי חומרי הנפץ והאמצעים הלוגיסטיים ברובע הדאחיה ובדרום המדינה.",
-      "שימור יכולות לפעולה עתידית מול כוחות צה\"ל במרחב דרום לבנון."
-     ],
-     "forecast": [
-      "המשך הפעלת ערוצי אספקה פנימיים בחשאי תוך ניסיון לחמוק מביקורת גופי הביטחון הלבנוניים."
-     ]
-    },
-    {
-     "actor": "ממשלת לבנון ומנגנוני הביטחון שלה",
+     "actor": "חיזבאללה",
      "declared": [
-      "הרחבת חקירת תפיסת חומרי הנפץ וזיהוי כלל המעורבים ברשת ההובלה."
+      "הענקת סיוע כספי ושיקום דיור למשפחות שבתיהן נהרסו בלחימה עם ישראל",
+      "המשך מחויבות לדרך 'השהידים' והתייצבות לצד תומכי הארגון"
      ],
      "inferred": [
-      "ניסיון להפגין שליטה בריבונית ולמנוע הידרדרות לעימות צבאי אזורי כולל בשטח המדינה."
+      "שימור הלגיטימציה והתמיכה הציבורית בבסיס כוחו בעדה השיעית בלבנון",
+      "שיקום מערכי הלוגיסטיקה וחומרי הנפץ לקראת המשך עימות"
      ],
      "forecast": [
-      "המשך חיכוך מתון מול חזבאללה בענייני מעקבים לוגיסטיים ללא כניסה לעימות חזיתי."
+      "המשך חלוקת הכספים במקביל למאמצים חשאיים להעברת אמצעי לחימה לאזור ביירות והדרום"
+     ]
+    },
+    {
+     "actor": "ממשלת לבנון",
+     "declared": [
+      "החזרת השליטה הבלעדית של המדינה על החלטות מלחמה ושלום",
+      "הגבלת החזקת הנשק במדינה לכוחות הביטחון והצבא הלגיטימיים בלבד",
+      "סיום התקיפות הישראליות ושחרור שטחים כבושים"
+     ],
+     "inferred": [
+      "דחיקת השפעתו הצבאית של חיזבאללה ומניעת גרירת המדינה למלחמות אזוריות",
+      "חיזוק קשרים דיפלומטיים עם מדינות ערב ורוסיה"
+     ],
+     "forecast": [
+      "המשך חיכוך פנימי מול חיזבאללה סביב נושאי הברחות נשק ומשילות"
+     ]
+    },
+    {
+     "actor": "טורקיה",
+     "declared": [
+      "קריאה לישראל להפסיק את התקיפות בסוריה ולכבד את הסכם הפרדת הכוחות מ-1974"
+     ],
+     "inferred": [
+      "ביסוס מעמדה כגורם משפיע ומגן על יציבות סוריה והסדר האזורי",
+      "צמצום חופש הפעולה הצבאי של ישראל במרחב הסורי"
+     ],
+     "forecast": [
+      "המשך העלאת דרישות דיפלומטיות באו\"ם ובזירה הבינלאומית נגד פעולות ישראל בסוריה"
      ]
     }
    ],
@@ -1848,101 +1917,117 @@ window.DB.war_published = {
     {
      "source_id": "src_alma",
      "url": "https://israel-alma.org/the-explosives-shipment-to-dahiyeh-a-hezbollah-operational-failure-a-deliberate-test-or-a-threatening-message-to-the-lebanese-government/",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/137497/",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://english.almanar.com.lb/article/137737/",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_almonitor",
      "url": "https://www.al-monitor.com/originals/2026/10/likely-unexploded-ordnance-kills-teenager-northern-israel",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-army-enters-syria-s-quneitra-countryside-blocks-construction-work/4086328",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-abduct-man-in-southern-syria-amid-fresh-incursions/4086717",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
+    },
+    {
+     "source_id": "src_dailysabah",
+     "url": "https://www.dailysabah.com/politics/diplomacy/turkiyes-un-envoy-calls-on-israel-to-stop-reckless-attacks-in-syria",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/10/roumieh-prisoners-suspend-hunger-and-medication-strike/",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/defense/article/21609044",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://english.enabbaladi.net/archives/2026/10/syria-joins-international-code-for-the-protection-of-tourists/",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962491/from-baalbek-to-beiruts-southern-suburbs-lebanon-probes-explosives-shi/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962491",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/962599/hezbollah-outlines-financial-aid-plan-for-lebanese-with-destroyed-home/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962599",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1376409",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://www.maariv.co.il/breaking-news/article-1376578",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
+    },
+    {
+     "source_id": "src_newarab",
+     "url": "https://www.newarab.com/news/syria-holds-19-hearings-war-crimes-suspects-damascus",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/131777",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_tg_idf",
      "url": "https://t.me/idf_telegram/25345",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
-    },
-    {
-     "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/94607",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_walla",
      "url": "https://www.walla.co.il/news/military/383957182",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/b1tp85come",
-     "accessed_at": "2026-10-12T20:06:15+00:00"
+     "url": "https://www.ynet.co.il/news/article/byeagijomx",
+     "accessed_at": "2026-10-13T10:40:28+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-11T23:45:40+00:00",
+  "previous_generated_at": "2026-10-12T20:06:15+00:00",
   "changes": {
-   "NORTH-10122006-01": {
-    "kind": "new"
+   "NORTH-10131040-01": {
+    "kind": "same",
+    "from": "verified",
+    "to": "verified",
+    "prev": "פיצוץ נפל תחמושת מצרר של חזבאללה בגבול הצפון",
+    "score": 1.0
    },
-   "NORTH-10122006-02": {
+   "NORTH-10131040-02": {
     "kind": "possible",
-    "prev": "מגעים לקראת סיום פעילות יוניפי\"ל בדרום לבנון",
+    "prev": "ירי ארטילרי ישראלי בדרום לבנון",
     "score": 0.467
    },
-   "NORTH-10122006-03": {
+   "NORTH-10131040-03": {
+    "kind": "same",
+    "from": "verified",
+    "to": "verified",
+    "prev": "השמדת תשתית תת-קרקעית של חזבאללה בדרום לבנון",
+    "score": 1.0
+   },
+   "NORTH-10131040-04": {
+    "kind": "new"
+   },
+   "NORTH-10131040-05": {
+    "kind": "new"
+   },
+   "NORTH-10131040-06": {
     "kind": "same",
     "from": "shared_root",
     "to": "initial",
-    "prev": "הרוגים מירי ומשרידי אמל\"ח בדרום לבנון במהלך מסיק זיתים",
-    "score": 0.65
+    "prev": "סיכול משלוח חומרי נפץ של חזבאללה בלבנון",
+    "score": 1.0
    },
-   "NORTH-10122006-04": {
+   "NORTH-10131040-07": {
     "kind": "new"
    },
-   "NORTH-10122006-05": {
+   "NORTH-10131040-08": {
     "kind": "new"
    },
-   "NORTH-10122006-06": {
-    "kind": "new"
+   "NORTH-10131040-09": {
+    "kind": "possible",
+    "prev": "פעילות צה\"ל באזור קוניטרה ופרברי דמשק",
+    "score": 0.633
    },
-   "NORTH-10122006-07": {
-    "kind": "new"
-   },
-   "NORTH-10122006-08": {
+   "NORTH-10131040-10": {
     "kind": "new"
    }
   }
