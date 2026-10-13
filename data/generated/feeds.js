@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-13T17:09:02+00:00",
-  "fetched_at": "2026-10-13T17:09:02+00:00"
+  "checked_at": "2026-10-13T17:17:15+00:00",
+  "fetched_at": "2026-10-13T17:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T17:09:11+00:00",
-  "fetched_at": "2026-10-13T17:09:11+00:00"
+  "checked_at": "2026-10-13T17:17:28+00:00",
+  "fetched_at": "2026-10-13T17:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T17:09:12+00:00",
-  "fetched_at": "2026-10-13T17:09:12+00:00"
+  "checked_at": "2026-10-13T17:17:28+00:00",
+  "fetched_at": "2026-10-13T17:17:28+00:00"
  },
- "generated_at": "2026-10-13T17:09:12+00:00",
+ "generated_at": "2026-10-13T17:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T17:09:03+00:00",
-  "fetched_at": "2026-10-13T17:09:03+00:00"
+  "checked_at": "2026-10-13T17:17:16+00:00",
+  "fetched_at": "2026-10-13T17:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T17:09:04+00:00",
-  "fetched_at": "2026-10-13T17:09:04+00:00"
+  "checked_at": "2026-10-13T17:17:17+00:00",
+  "fetched_at": "2026-10-13T17:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -1981,16 +1981,16 @@ window.DB.generated = {
    {
     "date": "2026-10-13",
     "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "ויקינג - באיירן מינכן"
+    "channel": "5 גולד",
+    "sport": "כדורסל",
+    "title": "ולנסיה - אולימפיאקוס"
    },
    {
     "date": "2026-10-13",
     "time": "22:00",
-    "channel": "5 גולד",
-    "sport": "כדורסל",
-    "title": "ולנסיה - אולימפיאקוס"
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "ויקינג - באיירן מינכן"
    },
    {
     "date": "2026-10-13",
@@ -2527,6 +2527,13 @@ window.DB.generated = {
    {
     "date": "2026-10-17",
     "time": "19:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "בולוניה - אינטר"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "19:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
     "title": "הפועל חיפה - הפועל רמת גן"
@@ -2628,6 +2635,13 @@ window.DB.generated = {
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "ולנסיה - אתלטיק בילבאו"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "22:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "לאס פלמאס - קסטיון"
    },
    {
     "date": "2026-10-17",
@@ -2820,8 +2834,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T17:09:05+00:00",
-  "fetched_at": "2026-10-13T17:09:05+00:00"
+  "checked_at": "2026-10-13T17:17:18+00:00",
+  "fetched_at": "2026-10-13T17:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2972,8 +2986,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T17:09:05+00:00",
-  "fetched_at": "2026-10-13T17:09:05+00:00"
+  "checked_at": "2026-10-13T17:17:18+00:00",
+  "fetched_at": "2026-10-13T17:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -3002,7 +3016,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 627,
+     "likes": 628,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3048,18 +3062,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
-     "title": "MiniMax-H3 Character Swap LoRA",
-     "desc_en": "Swap one character in a clip for a reference character",
-     "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
-     "likes": 112,
-     "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
-    },
-    {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
      "likes": 80,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
+    },
+    {
+     "title": "MiniMax-H3 Character Swap LoRA",
+     "desc_en": "Swap one character in a clip for a reference character",
+     "desc_he": "החלף דמות אחת בקליפ לדמות התייחסות",
+     "likes": 112,
+     "link": "https://huggingface.co/spaces/hugging-apps/minimax-h3-character-swap-lora"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
@@ -3071,8 +3085,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T17:09:11+00:00",
-  "fetched_at": "2026-10-13T17:09:11+00:00"
+  "checked_at": "2026-10-13T17:17:27+00:00",
+  "fetched_at": "2026-10-13T17:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -3387,8 +3401,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-13T17:09:08+00:00",
-  "fetched_at": "2026-10-13T17:09:08+00:00"
+  "checked_at": "2026-10-13T17:17:23+00:00",
+  "fetched_at": "2026-10-13T17:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3419,8 +3433,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-13T17:09:08+00:00",
-  "fetched_at": "2026-10-13T17:09:08+00:00"
+  "checked_at": "2026-10-13T17:17:24+00:00",
+  "fetched_at": "2026-10-13T17:17:24+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3428,82 +3442,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-13T17:00:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-13T15:58:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-13T17:00:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-13T14:54:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-13T16:47:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-13T16:44:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-13T16:45:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-13T13:30:16+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-13T16:01:58+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-13T16:30:55+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-13T15:10:26+00:00",
-    "seen_at": "2026-10-13T17:09:12+00:00",
+    "seen_at": "2026-10-13T17:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-13T17:09:12+00:00"
+  "checked_at": "2026-10-13T17:17:28+00:00"
  }
 };
