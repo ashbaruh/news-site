@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T20:46:24+00:00",
-  "fetched_at": "2026-10-14T20:46:24+00:00"
+  "checked_at": "2026-10-14T21:17:11+00:00",
+  "fetched_at": "2026-10-14T21:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T20:46:35+00:00",
-  "fetched_at": "2026-10-14T20:46:35+00:00"
+  "checked_at": "2026-10-14T21:17:20+00:00",
+  "fetched_at": "2026-10-14T21:17:20+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T20:46:35+00:00",
-  "fetched_at": "2026-10-14T20:46:35+00:00"
+  "checked_at": "2026-10-14T21:17:20+00:00",
+  "fetched_at": "2026-10-14T21:17:20+00:00"
  },
- "generated_at": "2026-10-14T20:46:35+00:00",
+ "generated_at": "2026-10-14T21:17:20+00:00",
  "globes": {
   "data": {
    "top": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T20:46:25+00:00",
-  "fetched_at": "2026-10-14T20:46:25+00:00"
+  "checked_at": "2026-10-14T21:17:12+00:00",
+  "fetched_at": "2026-10-14T21:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,165 +1866,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T20:46:26+00:00",
-  "fetched_at": "2026-10-14T20:46:26+00:00"
+  "checked_at": "2026-10-14T21:17:13+00:00",
+  "fetched_at": "2026-10-14T21:17:13+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-10-14",
-    "time": "03:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "בוקה ג'וניורס - ואסקו דה גמא"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "05:00",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "סקרמנטו קינגס - פורטלנד טריילבלייזרס"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "10:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "מלבורן - פ.צ. סיאול"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "17:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מנצ'סטר סיטי עד 19 - פאריס סן ז'רמן עד 19"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "17:10",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל פתח תקווה - מכבי נתניה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "17:15",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל תל אביב - מכבי חיפה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "17:20",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל כפר סבא - מכבי תל אביב"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "19:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל תל אביב - בשיקטאש"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "19:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "לאסק לינץ - ליברפול"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "20:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "באמברג - מורסיה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "20:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "אנאדולו אפס - באיירן מינכן"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "21:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "ספרטק סובוטיצה - הפועל חולון"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "21:30",
-    "channel": "ספורט 1",
-    "sport": "כדורסל",
-    "title": "בורגוס - הפועל ירושלים"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "21:45",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "פאריס באסקטבול - וירטוס בולוניה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "לינקולן - ווסטהאם"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מנצ'סטר סיטי - פאריס סן ז'רמן"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "אסטון וילה - פנרבחצ'ה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "רומא - ריאל מדריד"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "בטיס - פורטו"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "בודו גלימט - בורוסיה דורטמונד"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "שחטאר דונייצק - א.א.ק. אתונה"
-   },
-   {
-    "date": "2026-10-14",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "סלובן ברטיסלבה - שטוטגרט"
-   },
    {
     "date": "2026-10-15",
     "time": "01:00",
@@ -2070,13 +1916,6 @@ window.DB.generated = {
    {
     "date": "2026-10-15",
     "time": "19:45",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "אלקמאר - הפועל באר שבע"
-   },
-   {
-    "date": "2026-10-15",
-    "time": "19:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "זלצבורג - מילאן"
@@ -2087,6 +1926,13 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "היידוק ספליט - אייאקס"
+   },
+   {
+    "date": "2026-10-15",
+    "time": "19:45",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "אלקמאר - הפועל באר שבע"
    },
    {
     "date": "2026-10-15",
@@ -2189,16 +2035,16 @@ window.DB.generated = {
    {
     "date": "2026-10-16",
     "time": "20:00",
-    "channel": "ספורט 5+",
+    "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
-    "title": "בשיקטאש - באיירן מינכן"
+    "title": "ז'לגיריס קובנה - אנאדולו אפס"
    },
    {
     "date": "2026-10-16",
     "time": "20:00",
-    "channel": "ספורט 5+ לייב",
+    "channel": "ספורט 5+",
     "sport": "כדורסל",
-    "title": "ז'לגיריס קובנה - אנאדולו אפס"
+    "title": "בשיקטאש - באיירן מינכן"
    },
    {
     "date": "2026-10-16",
@@ -2864,11 +2710,74 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "פאריס סן ז'רמן - ברצלונה"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "ניו יורק ניקס - פילדלפיה 76"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "04:30",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "סן אנטוניו ספרס - אוקלהומה סיטי"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "19:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל תל אביב - וירטוס בולוניה"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "19:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בני הרצליה - פורטו"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "19:45",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "קומו - מנצ'סטר יונייטד"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "21:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "לבאנטה - אתלטיק בילבאו"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "באיירן מינכן - ארסנל"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ריאל מדריד - ר.ב לייפציג"
+   },
+   {
+    "date": "2026-10-21",
+    "time": "22:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "אינטר - שחטאר דונייצק"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T20:46:28+00:00",
-  "fetched_at": "2026-10-14T20:46:28+00:00"
+  "checked_at": "2026-10-14T21:17:14+00:00",
+  "fetched_at": "2026-10-14T21:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2890,21 +2799,12 @@ window.DB.generated = {
    ],
    "upcoming": [
     {
-     "date": "2026-10-14",
-     "time": "17:10",
-     "home": "הפועל פ\"ת",
-     "away": "מכבי נתניה",
-     "channels": [
-      "ספורט 5+"
-     ]
-    },
-    {
-     "date": "2026-10-14",
-     "time": "17:15",
+     "date": "2026-10-17",
+     "time": "18:45",
      "home": "הפועל ת\"א",
-     "away": "מכבי חיפה",
+     "away": "עירוני טבריה",
      "channels": [
-      "ספורט 5+"
+      "ספורט 4"
      ]
     },
     {
@@ -2917,21 +2817,39 @@ window.DB.generated = {
      ]
     },
     {
+     "date": "2026-10-17",
+     "time": "19:05",
+     "home": "מכבי ת\"א",
+     "away": "הפועל פ\"ת",
+     "channels": [
+      "ספורט 5"
+     ]
+    },
+    {
+     "date": "2026-10-17",
+     "time": "19:15",
+     "home": "מכבי נתניה",
+     "away": "עירוני ק\"ש",
+     "channels": [
+      "ספורט 3"
+     ]
+    },
+    {
+     "date": "2026-10-17",
+     "time": "19:30",
+     "home": "מכבי פ\"ת",
+     "away": "מכבי חיפה",
+     "channels": [
+      "ספורט 2"
+     ]
+    },
+    {
      "date": "2026-10-18",
      "time": "20:15",
      "home": "הפועל ב\"ש",
      "away": "הפועל ירושלים",
      "channels": [
       "ספורט 2"
-     ]
-    },
-    {
-     "date": "2026-10-19",
-     "time": "20:30",
-     "home": "בית\"ר ירושלים",
-     "away": "מכבי ת\"א",
-     "channels": [
-      "ספורט 5"
      ]
     }
    ],
@@ -3003,13 +2921,6 @@ window.DB.generated = {
    "results_available": true,
    "one_sided_tv": [
     {
-     "date": "2026-10-14",
-     "time": "17:20",
-     "channel": "ספורט 5+",
-     "israeli_team": "מכבי ת\"א",
-     "title": "הפועל כפר סבא - מכבי תל אביב"
-    },
-    {
      "date": "2026-10-15",
      "time": "19:45",
      "channel": "ספורט 1",
@@ -3033,8 +2944,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T20:46:28+00:00",
-  "fetched_at": "2026-10-14T20:46:28+00:00"
+  "checked_at": "2026-10-14T21:17:14+00:00",
+  "fetched_at": "2026-10-14T21:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -3070,7 +2981,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 525,
+     "likes": 526,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3091,7 +3002,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 232,
+     "likes": 233,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -3105,7 +3016,7 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 453,
+     "likes": 454,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
@@ -3132,12 +3043,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T20:46:34+00:00",
-  "fetched_at": "2026-10-14T20:46:34+00:00"
+  "checked_at": "2026-10-14T21:17:19+00:00",
+  "fetched_at": "2026-10-14T21:17:19+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "שישייה מוחצת לווסטהאם וסולומון, שער נקי נוסף לדניאל פרץ",
+     "link": "https://sports.walla.co.il/item/3872211",
+     "date": "2026-10-14T20:51:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון",
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "גאנם וקואקו חזרו לאימונים, עשויים לשחק נגד הפועל ת\"א",
      "link": "https://sports.walla.co.il/item/3872213",
@@ -3154,6 +3075,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "\"הדבר האמיתי, אבדיה מוכן לעשות עוד צעד קדימה\"",
+     "link": "https://www.one.co.il/Article/535968.html?ref=rss",
+     "date": "2026-10-14T08:38:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
      ]
     },
     {
@@ -3447,8 +3377,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-14T20:46:30+00:00",
-  "fetched_at": "2026-10-14T20:46:30+00:00"
+  "checked_at": "2026-10-14T21:17:16+00:00",
+  "fetched_at": "2026-10-14T21:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3479,8 +3409,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T20:46:31+00:00",
-  "fetched_at": "2026-10-14T20:46:31+00:00"
+  "checked_at": "2026-10-14T21:17:16+00:00",
+  "fetched_at": "2026-10-14T21:17:16+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3488,82 +3418,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-14T19:06:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-14T17:20:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-14T18:21:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-14T19:34:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "newest": "2026-10-14T20:58:00+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-14T19:07:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T19:42:00+00:00",
-    "seen_at": "2026-10-14T20:17:26+00:00",
+    "newest": "2026-10-14T20:48:00+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-14T17:01:20+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-14T16:35:29+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-14T15:13:46+00:00",
-    "seen_at": "2026-10-14T20:46:35+00:00",
+    "seen_at": "2026-10-14T21:17:20+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T20:46:35+00:00"
+  "checked_at": "2026-10-14T21:17:20+00:00"
  }
 };
