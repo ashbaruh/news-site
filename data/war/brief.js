@@ -1,104 +1,212 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-13T18:00:00+03:00",
- "generated_at": "2026-10-13T15:10:24+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-14T04:00:00+03:00",
+ "generated_at": "2026-10-14T00:40:10+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
-  "north": {
+  "iran": {
    "events": [
     {
-     "id": "NORTH-10131510-01",
-     "title": "שדרוג יכולות של חזבאללה לקראת עימות",
-     "summary": "גורמי ביטחון דיווחו שחזבאללה פועל לשקם ולשדרג את ארסנל הנפץ והיכולות הצבאיות שלו לקראת מלחמה אפשרית מול ישראל.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "assessment",
+     "id": "IRAN-10140040-01",
+     "title": "פגיעה בשני כלי שיט במצר הורמוז",
+     "summary": "סוכנות ימית דיווחה כי מכלית וספינת מכולות נפגעו מעצמים בלתי מזוהים במצר הורמוז.",
+     "axis": "מצר הורמוז",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:38:35+00:00",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-13T14:38:35+00:00",
-     "last_update_at": "2026-10-13T14:38:35+00:00",
-     "what_is_not_verified": "סוג חומרי הניפוץ המדויק ומקור המשלוח שנתפס",
+     "first_reported_at": "2026-10-13T19:32:15+00:00",
+     "last_update_at": "2026-10-13T20:06:07+00:00",
+     "what_is_not_verified": "מקור הירי והיקף הנזק או הנפגעים אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_mee",
+       "source_root_id": "or_ukmto",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-ships-hit-projectiles-hormuz-strait-maritime-agency-says",
+       "published_at": "2026-10-13T20:06:07+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_ukmto",
+       "url": "https://t.me/lelotsenzura/94635",
+       "published_at": "2026-10-13T19:32:15+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10140040-02",
+     "title": "מינוי מפקד ליחידת החיסולים של כוח קודס",
+     "summary": "משמרות המהפכה של איראן מינו מפקד חדש ליחידת המבצעים מחוץ למדינה ושינו את שמה ליחידה 600.",
+     "axis": "כוח קודס",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-13T21:03:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T21:03:35+00:00",
+     "last_update_at": "2026-10-13T21:03:35+00:00",
+     "what_is_not_verified": "זהות המפקד ומבנה היחידה המדויק אינם מפורטים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/hezbollah-upgrading-capabilities-next-war-israel",
-       "published_at": "2026-10-13T14:38:35+00:00"
+       "url": "https://www.iranintl.com/en/202610131837",
+       "published_at": "2026-10-13T21:03:35+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10131510-02",
-     "title": "תוכנית סיוע כלכלי של חזבאללה לעוקרים",
-     "summary": "יושב ראש המועצה המבצעת של חזבאללה הכריז על מענקים כספיים למשפחות שבתיהן נהרסו בלחימה מול ישראל השנה.",
-     "axis": "הזירה הצפונית",
+     "id": "IRAN-10140040-03",
+     "title": "שיחה בין שרי החוץ של עומאן ואיראן",
+     "summary": "שרי החוץ של עומאן ואיראן שוחחו טלפונית על ההתפתחויות באזור ועל המצב בתימן.",
+     "axis": "דיפלומטיה אזורית",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T10:46:27+00:00",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T10:46:27+00:00",
-     "last_update_at": "2026-10-13T10:46:27+00:00",
-     "what_is_not_verified": "מקור מימון המענקים המדויק ומועד החלוקה בפועל",
+     "first_reported_at": "2026-10-14T00:38:28+00:00",
+     "last_update_at": "2026-10-14T00:38:28+00:00",
+     "what_is_not_verified": "תוכן השיחה המלא מעבר להודעה הרשמית אינו ידוע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_e258d925b7be8136",
-       "url": "https://www.al-monitor.com/originals/2026/10/hezbollah-outlines-financial-aid-plan-lebanese-destroyed-homes",
-       "published_at": "2026-10-13T10:46:27+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10131510-03",
-     "title": "תיקון תקנות המכס בסוריה",
-     "summary": "השלטונות בסוריה פרסמו הסברים לגבי צו תיקון פריטי המכס במטרה לתמוך בפעילות הכלכלית ובייצור המקומי.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T10:34:31+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T10:34:31+00:00",
-     "last_update_at": "2026-10-13T10:34:31+00:00",
-     "what_is_not_verified": "ההשפעה הכלכלית המעשית של השינויים על האזרחים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_0722d7a143aa9d98",
-       "url": "https://english.enabbaladi.net/archives/2026/10/syrias-customs-authority-explains-tariff-amendment-decree/",
-       "published_at": "2026-10-13T10:34:31+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/foreign-ministers-oman-and-iran-discuss-yemen-regional-situation",
+       "published_at": "2026-10-14T00:38:28+00:00"
       }
      ],
      "places": []
     }
    ]
   },
+  "north": {
+   "events": [
+    {
+     "id": "NORTH-10140040-01",
+     "title": "מעצר חשודים בתקיפות כימיות בסוריה",
+     "summary": "השלטונות בסוריה עצרו שמונה עשר חשודים, בהם קצינים בכירים, בחשד למעורבות בתקיפות כימיות בעבר.",
+     "axis": "סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-13T16:35:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T16:35:28+00:00",
+     "last_update_at": "2026-10-13T16:35:28+00:00",
+     "what_is_not_verified": "זהות העצורים ומעמדם המדויק אינם מפורטים במלואם",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/syria-says-18-suspects-including-senior-officers-detained-over-assad-era-chemical-attacks/4087664",
+       "published_at": "2026-10-13T16:35:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10140040-02",
+     "title": "חיזבאללה הכריז על סיוע כספי למפונים",
+     "summary": "ארגון חיזבאללה הודיע על חלוקת פיצויים של עד ארבעה עשר אלף דולר למשפחות שאיבדו את בתיהן במלחמה.",
+     "axis": "לבנון",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T15:59:43+00:00",
+     "last_update_at": "2026-10-13T15:59:43+00:00",
+     "what_is_not_verified": "מקורות המימון ומועדי החלוקה בפועל אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/hezbollah-announces-aid-displaced-lebanon-despite-pressures",
+       "published_at": "2026-10-13T15:59:43+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10140040-03",
+     "title": "הרוגים מפיצוץ נפלי תחמושת בדרום לבנון",
+     "summary": "שני בני אדם נהרגו בימים האחרונים כתוצאה מפיצוץ תחמושת שלא התפוצצה בעת מסיק זיתים בדרום לבנון.",
+     "axis": "דרום לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-13T15:31:40+00:00",
+     "last_update_at": "2026-10-13T15:31:40+00:00",
+     "what_is_not_verified": "מקור התחמושת המדויק אינו מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/unexploded-israeli-ordnance-threatens-lebanons-olive-harvest",
+       "published_at": "2026-10-13T15:31:40+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פרון, לבנון",
+       "lat": 33.2968,
+       "lon": 35.4265
+      },
+      {
+       "name": "בינת ג'בייל, לבנון",
+       "lat": 33.1195,
+       "lon": 35.4328
+      }
+     ]
+    }
+   ]
+  },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10131510-01",
-     "title": "תקיפה על בניין משרדים בקייב",
-     "summary": "דווח על תקיפה שפעה בבניין משרדים במרכז העיר קייב.",
-     "axis": "מלחמת רוסיה-אוקראינה",
+     "id": "UKRAINE-10140040-01",
+     "title": "תקיפות על תשתיות אנרגיה ומבנים בקייב",
+     "summary": "רוסיה שיגרה טילים בליסטיים לעבר מתקני תשתית ופגעה בתחנת כוח ובבניינים בבירה קייב.",
+     "axis": "התקיפות על קייב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:52:20+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T14:52:20+00:00",
-     "last_update_at": "2026-10-13T14:52:20+00:00",
-     "what_is_not_verified": "זהות אמצעי הלחימה המדויק והנזק המלא",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-13T20:34:08+00:00",
+     "last_update_at": "2026-10-13T21:54:12+00:00",
+     "what_is_not_verified": "מספר הנפגעים הכולל והיקף ההרס בתחנת הכוח אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48513",
-       "published_at": "2026-10-13T14:52:20+00:00"
+       "url": "https://t.me/alexmehacarmel/48522",
+       "published_at": "2026-10-13T20:34:08+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy",
+       "published_at": "2026-10-13T21:54:12+00:00"
       }
      ],
      "places": [
@@ -110,54 +218,60 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-10131510-02",
-     "title": "ירי קטלני בתוך כוח רוסי בחזית",
-     "summary": "אסיר לשעבר שגויס לחזית ירה למוות בשישה מפעילי כטב\"מים רוסים ופצע נוספים באירוע חריג.",
-     "axis": "מלחמת רוסיה-אוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-10140040-02",
+     "title": "הרחבת שעות העוצר באזור דונצק",
+     "summary": "באזורים שבשליטת אוקראינה במחוז דונצק יונהג עוצר ממושך מדי יום החל מתחילת חודש נובמבר.",
+     "axis": "מחוז דונצק",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T11:21:43+00:00",
+     "occurred_at": "2026-10-13T23:45:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T11:21:43+00:00",
-     "last_update_at": "2026-10-13T11:21:43+00:00",
-     "what_is_not_verified": "הנסיבות המדויקות שהובילו לאירוע הירי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48505",
-       "published_at": "2026-10-13T11:21:43+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10131510-03",
-     "title": "תקיפה באזור דונצק ופגיעה באזרחים",
-     "summary": "שרידי גופות אולצו להחלץ מתחת להריסות בעיירה יאסנוהירקה באזור דונצק בעקבות תקיפה אווירית רוסית.",
-     "axis": "מלחמת רוסיה-אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:53:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T14:53:00+00:00",
-     "last_update_at": "2026-10-13T14:53:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים הכולל המדויק בכלל מוקדי התקיפה",
+     "first_reported_at": "2026-10-13T23:45:00+00:00",
+     "last_update_at": "2026-10-13T23:45:00+00:00",
+     "what_is_not_verified": "מידת האכיפה ומשך תחולת ההנחיה מעבר להודעה אינם ידועים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_ae1cbe88d6faafbc",
-       "url": "https://www.ukrinform.net/rubric-ato/4174026-body-recovered-from-rubble-after-russian-airstrike-on-yasnohirka-in-donetsk-region.html",
-       "published_at": "2026-10-13T14:53:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-society/4174041-donetsk-region-to-introduce-extended-curfew-starting-november-1.html",
+       "published_at": "2026-10-13T23:45:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "יאסנוהירקה, אוקראינה",
-       "lat": 48.7787,
-       "lon": 37.5537
+       "name": "קרמטורסק, אוקראינה",
+       "lat": 48.7389,
+       "lon": 37.5844
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10140040-03",
+     "title": "מעצר עיתונאי יפני במזרח רוסיה",
+     "summary": "שירות הביטחון הפדרלי של רוסיה עצר כתב עיתון יפני בחשד לריגול בסמוך לאיים שבמחלוקת.",
+     "axis": "רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T00:00:27+00:00",
+     "last_update_at": "2026-10-14T00:00:27+00:00",
+     "what_is_not_verified": "פרטי הראיות בפרשת הריגול אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_fsb",
+       "url": "https://kyivindependent.com/russia-detains-japanese-journalist-on-espionage-charges/",
+       "published_at": "2026-10-14T00:00:27+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
@@ -166,83 +280,60 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10131510-01",
-     "title": "תקיפה סעודית על מתקן נפט בצנעא",
-     "summary": "כלי תקשורת של החות'ים דיווחו כי ערב הסעודית תקפה מתקן של חברת הנפט בתימן בצנעא, זמן קצר לאחר דרישת פינוי מטעם הקואליציה.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-10140040-01",
+     "title": "פגיעה במתחם חברת ארמקו בד'הראן",
+     "summary": "מבנה מנהלי של חברת הנפט ארמקו נפגע במזרח סעודיה ושריפה פרצה במקום בעקבות תקיפה.",
+     "axis": "תקיפות נגד סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:22:44+00:00",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T14:22:44+00:00",
-     "last_update_at": "2026-10-13T14:53:39+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק שנגרם למתקן הנפט",
+     "first_reported_at": "2026-10-13T21:46:04+00:00",
+     "last_update_at": "2026-10-14T00:00:00+00:00",
+     "what_is_not_verified": "אופן השיגור המדויק ומידת הנזק התפעולי אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94633",
-       "published_at": "2026-10-13T14:22:44+00:00"
+       "url": "https://t.me/alexmehacarmel/48525",
+       "published_at": "2026-10-13T21:46:04+00:00"
       },
       {
-       "source_id": "src_france24",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
-       "published_at": "2026-10-13T14:53:39+00:00"
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
+       "published_at": "2026-10-14T00:00:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
+       "name": "ד'הראן, סעודיה",
+       "lat": 26.2967,
+       "lon": 50.1202
       }
      ]
     },
     {
-     "id": "YEMEN-10131510-02",
-     "title": "איום חות'י בתגובה לתקיפה הסעודית",
-     "summary": "הדובר הצבאי של החות'ים איים כי אם סעודיה תתקוף בצנעא, הארגון יפגע במטה אראמכו בדמאם, בנמל התעופה על שם המלך ח'אלד ובבתי זיקוק בריאד.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
+     "id": "YEMEN-10140040-02",
+     "title": "תקיפת מאגר דלק סמוך לצנעא",
+     "summary": "הקואליציה בראשות סעודיה הפציצה מאגר דלק ויעדים נוספים ליד הבירה צנעא לאחר מתן התרעת פינוי.",
+     "axis": "פעילות הקואליציה בתימן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:22:06+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T14:22:06+00:00",
-     "last_update_at": "2026-10-13T14:22:06+00:00",
-     "what_is_not_verified": "האם האיומים יומחשו למעשה תפעולי בשטח",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131842",
-       "published_at": "2026-10-13T14:22:06+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10131510-03",
-     "title": "התרעת פינוי סעודית למתקנים בצנעא",
-     "summary": "הקואליציה בהובלת סעודיה פרסמה התרעת פינוי מוקדמת לאזרחים ולעובדים ממתקני אנרגיה בתחנת א-צבאחה בצנעא טרם פעולה צבאית.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T14:02:27+00:00",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-10-13T14:02:27+00:00",
-     "last_update_at": "2026-10-13T14:02:27+00:00",
-     "what_is_not_verified": "מידת היענות התושבים להתרעת הפינוי",
+     "last_update_at": "2026-10-13T22:29:55+00:00",
+     "what_is_not_verified": "היקף הנפגעים בתקיפה בתימן אינו מצוין",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-13T22:29:55+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
@@ -257,68 +348,49 @@ window.DB.war_brief = {
        "lon": 44.2059
       }
      ]
-    }
-   ]
-  },
-  "iran": {
-   "events": [
-    {
-     "id": "IRAN-10130910-02",
-     "title": "התבטאות טראמפ בנוגע לפגיעה בהנהגה האיראנית",
-     "summary": "נשיא ארה\"ב ציין במהלך עצרת בחירות כי ייתכן שארצו הלכה רחוק מדי בפגיעה במנהיגי איראן.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T06:56:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T06:56:29+00:00",
-     "last_update_at": "2026-10-13T06:56:29+00:00",
-     "what_is_not_verified": "אין אימות עצמאי מעבר לציטוט הדברים בעצרת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-may-have-gone-too-far-targeting-irans-leadership-trump-says",
-       "published_at": "2026-10-13T06:56:29+00:00"
-      }
-     ],
-     "places": []
     },
     {
-     "id": "IRAN-10130910-03",
-     "title": "סגן יו\"ר הפרלמנט האיראני טוען לכישלון אמריקני בגיוס בעלות ברית",
-     "summary": "בכיר בפרלמנט בטהראן הצהיר כי וושינגטון נותרה מבודדת לאחר שלא הצליחה לרתום את שותפותיה למערכה מול איראן.",
-     "axis": "iran",
-     "claim_type": "statement",
+     "id": "YEMEN-10140040-03",
+     "title": "יירוט טילים מעל ריאד ופציעת אזרחים",
+     "summary": "שברי טילים שיורטו מעל ריאד ואל-חרג' גרמו לפציעת ארבעה בני אדם ולנזק למבנים.",
+     "axis": "תקיפות נגד סעודיה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T06:24:16+00:00",
+     "occurred_at": "2026-10-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T06:24:16+00:00",
-     "last_update_at": "2026-10-13T09:01:52+00:00",
-     "what_is_not_verified": "מידת הבידוד הבינלאומי של ארה\"ב בפועל",
+     "first_reported_at": "2026-10-13T22:31:12+00:00",
+     "last_update_at": "2026-10-13T23:02:35+00:00",
+     "what_is_not_verified": "מספר הטילים המדויק ששוגרו אינו מאומת בין הדיווחים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_58c54ee24a2c4d90",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-deputy-parliament-speaker-says-us-has-failed-win-allied-backing",
-       "published_at": "2026-10-13T09:01:52+00:00"
+       "source_root_id": "fh_fc32f0d3da3b35e3",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-missile-intercepted-al-kharj",
+       "published_at": "2026-10-13T23:02:35+00:00"
       },
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_58c54ee24a2c4d90",
-       "url": "https://en.irna.ir/news/86291215/US-failed-to-rally-allies-in-war-against-Iran-Deputy-speaker",
-       "published_at": "2026-10-13T06:24:16+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_fc32f0d3da3b35e3",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-says-four-imjured-debris-intercepted-missiles-over-riyadh",
+       "published_at": "2026-10-13T22:31:12+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      },
+      {
+       "name": "אל-חרג', סעודיה",
+       "lat": 23.8304,
+       "lon": 47.684
+      }
+     ]
     }
-   ],
-   "from_slot": "2026-10-13T12:00:00+03:00"
+   ]
   }
  },
- "skipped": {
-  "iran": "אותיות בשפה זרה בתוך הטקסט העברי (1) (גם בניסיון חוזר)"
- }
+ "skipped": {}
 };
