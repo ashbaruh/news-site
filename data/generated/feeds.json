@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:17:13+00:00",
-  "fetched_at": "2026-10-14T12:17:13+00:00"
+  "checked_at": "2026-10-14T13:17:19+00:00",
+  "fetched_at": "2026-10-14T13:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:17:26+00:00",
-  "fetched_at": "2026-10-14T12:17:26+00:00"
+  "checked_at": "2026-10-14T13:17:32+00:00",
+  "fetched_at": "2026-10-14T13:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I’ve tested countless soundbars this year – and this KEF entry is still the cream of the premium crop",
+    "title_he": "בדקתי אינספור סרגלי קול השנה – וכניסת ה-KEF הזו היא עדיין הקרם של יבול הפרימיום",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/ive-tested-countless-soundbars-this-year-and-this-kef-entry-is-still-the-cream-of-the-premium-crop",
+    "date": "2026-10-14T13:16:51+00:00"
+   },
    {
     "title_en": "Should you watch Avengers: Doomsday in Infinity Vision? Here are my thoughts after Avengers Endgame: Encore…",
     "title_he": "האם כדאי לראות את Avengers: Doomsday בחזון האינסוף? הנה המחשבות שלי אחרי Avengers Endgame: Encore...",
@@ -67,27 +74,20 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/sony-wh-ch530-vs-sony-wh-ch520-what-are-the-differences-between-these-two-budget-headphones",
     "date": "2026-10-14T11:28:59+00:00"
-   },
-   {
-    "title_en": "Man City vs PSG free streams: How to watch Champions League 2026/27 game online from anywhere",
-    "title_he": "זרמים חינם של מאן סיטי נגד PSG: איך לצפות במשחק ליגת האלופות 2026/27 מקוון מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/man-city-vs-psg-free-champions-league-2026-27",
-    "date": "2026-10-14T11:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:17:28+00:00",
-  "fetched_at": "2026-10-14T12:17:28+00:00"
+  "checked_at": "2026-10-14T13:17:34+00:00",
+  "fetched_at": "2026-10-14T13:17:34+00:00"
  },
- "generated_at": "2026-10-14T12:17:28+00:00",
+ "generated_at": "2026-10-14T13:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "פיצוץ במפעל אינטל בקריית גת. 3 פצועים קשה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559515",
-     "date": "2026-10-14T11:34:00+00:00"
+     "title": "מדד המחירים בארה\"ב הפתיע לרעה, התשואות מזנקות והחוזים נופלים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
+     "date": "2026-10-14T13:00:00+00:00"
     },
     {
      "title": "איראן עונה לאיום ולועגת: \"טראמפ עצבני ומשותק\"",
@@ -97,14 +97,19 @@
    ],
    "market": [
     {
-     "title": "עליות חדות בתל אביב; דוראל מזנקת ב-8%, אלביט ב-7%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
-     "date": "2026-10-14T11:34:00+00:00"
+     "title": "מדד המחירים בארה\"ב הפתיע לרעה, התשואות מזנקות והחוזים נופלים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
+     "date": "2026-10-14T13:00:00+00:00"
     },
     {
-     "title": "עליות באירופה ובחוזים בניו יורק; תשואות האג\"ח בארה\"ב יורדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
-     "date": "2026-10-14T11:18:00+00:00"
+     "title": "עליות בתל אביב; אלביט מזנקת ב-7%, בזן ב-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
+     "date": "2026-10-14T12:57:00+00:00"
+    },
+    {
+     "title": "מפעל אירופי ראשון למערכות התרעת לייזר: מניית אלביט מזנקת ביותר מ-7%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559513",
+     "date": "2026-10-14T11:52:00+00:00"
     },
     {
      "title": "המסלול היבשתי החדש של הנפט האיראני נחשף",
@@ -172,11 +177,6 @@
      "date": "2026-10-13T16:05:00+00:00"
     },
     {
-     "title": "עסקת כאל: איילון בוחנת רכישה בשל הערכה שסיכוייה מול הרגולטור משופרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559423",
-     "date": "2026-10-13T15:41:00+00:00"
-    },
-    {
      "title": "בריטניה אישרה את פרויקט הנפט של נאוויטס בפוקלנד; המניה זינקה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559338",
      "date": "2026-10-13T15:10:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:17:14+00:00",
-  "fetched_at": "2026-10-14T12:17:14+00:00"
+  "checked_at": "2026-10-14T13:17:21+00:00",
+  "fetched_at": "2026-10-14T13:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:17:15+00:00",
-  "fetched_at": "2026-10-14T12:17:15+00:00"
+  "checked_at": "2026-10-14T13:17:22+00:00",
+  "fetched_at": "2026-10-14T13:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2709,8 +2709,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:17:16+00:00",
-  "fetched_at": "2026-10-14T12:17:16+00:00"
+  "checked_at": "2026-10-14T13:17:24+00:00",
+  "fetched_at": "2026-10-14T13:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2875,51 +2875,56 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:17:16+00:00",
-  "fetched_at": "2026-10-14T12:17:16+00:00"
+  "checked_at": "2026-10-14T13:17:24+00:00",
+  "fetched_at": "2026-10-14T13:17:24+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-releases-gemini-4-argon/",
-     "date": "2026-10-13T16:00:39+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "date": "2026-10-13T16:00:00+00:00",
      "launch": true,
-     "title": "גוגל משיקה את Gemini 4 Argon שזמין עכשיו לכולם"
+     "title_en": "Gemini 4 Argon: Built to solve your hardest problems",
+     "title_he": "Gemini 4 Argon: נבנה כדי לפתור את הבעיות הקשות ביותר שלך",
+     "translated_by": "google"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-     "date": "2026-10-13T19:43:07+00:00",
-     "launch": true,
-     "title_en": "Developing Gemini 4 Argon responsibly and safely",
-     "title_he": "פיתוח Gemini 4 Argon בצורה אחראית ובטוחה",
-     "translated_by": "google"
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/singapore-office-opening",
+     "date": "2026-10-14T12:00:00+00:00",
+     "launch": false,
+     "title_en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+     "title_he": "Anthropic פותחת את המשרד בסינגפור וחותמת על מזכר הבנות עם ממשלת סינגפור",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 15,
-   "failed_sources": [],
+   "candidates": 2,
+   "failed_sources": [
+    "Google DeepMind",
+    "גיקטיים"
+   ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 649,
+     "likes": 650,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 514,
+     "likes": 517,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 209,
+     "likes": 210,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2974,8 +2979,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:17:25+00:00",
-  "fetched_at": "2026-10-14T12:17:25+00:00"
+  "checked_at": "2026-10-14T13:17:31+00:00",
+  "fetched_at": "2026-10-14T13:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -3317,8 +3322,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:17:19+00:00",
-  "fetched_at": "2026-10-14T12:17:19+00:00"
+  "checked_at": "2026-10-14T13:17:27+00:00",
+  "fetched_at": "2026-10-14T13:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3349,58 +3354,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:17:20+00:00",
-  "fetched_at": "2026-10-14T12:17:20+00:00"
+  "checked_at": "2026-10-14T13:17:28+00:00",
+  "fetched_at": "2026-10-14T13:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-14T11:52:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T13:00:00+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-14T11:34:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T13:00:00+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-14T10:09:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T12:31:00+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-14T11:47:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-14T10:57:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T12:16:00+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T12:02:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T12:54:00+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-14T11:58:46+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3412,7 +3417,7 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3424,16 +3429,16 @@
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-14T12:12:53+00:00",
-    "seen_at": "2026-10-14T12:17:28+00:00",
+    "newest": "2026-10-14T13:16:51+00:00",
+    "seen_at": "2026-10-14T13:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T12:17:28+00:00"
+  "checked_at": "2026-10-14T13:17:34+00:00"
  }
 }
