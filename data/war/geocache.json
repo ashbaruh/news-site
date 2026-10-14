@@ -228,9 +228,17 @@
 49.4521,
 36.8398
 ],
+"balakovo, russia": [
+52.0181,
+47.8191
+],
 "bandar abbas, iran": [
 27.1842,
 56.2893
+],
+"bangkok, thailand": [
+13.7525,
+100.4935
 ],
 "bani haiyyan, lebanon": [
 33.2467,
@@ -691,6 +699,10 @@
 31.7788,
 35.2258
 ],
+"jerusalem, israel": [
+31.7788,
+35.2258
+],
 "jizan, saudi arabia": [
 16.8947,
 42.558
@@ -930,6 +942,10 @@
 "luhansk, ukraine": [
 48.5717,
 39.2973
+],
+"lutsk, ukraine": [
+50.7451,
+25.3201
 ],
 "luxembourg": [
 49.6113,
