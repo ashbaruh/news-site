@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T05:17:18+00:00",
-  "fetched_at": "2026-10-14T05:17:18+00:00"
+  "checked_at": "2026-10-14T06:13:52+00:00",
+  "fetched_at": "2026-10-14T06:13:52+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T05:17:28+00:00",
-  "fetched_at": "2026-10-14T05:17:28+00:00"
+  "checked_at": "2026-10-14T06:14:02+00:00",
+  "fetched_at": "2026-10-14T06:14:02+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T05:17:28+00:00",
-  "fetched_at": "2026-10-14T05:17:28+00:00"
+  "checked_at": "2026-10-14T06:14:02+00:00",
+  "fetched_at": "2026-10-14T06:14:02+00:00"
  },
- "generated_at": "2026-10-14T05:17:28+00:00",
+ "generated_at": "2026-10-14T06:14:02+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "תזנק ב-25% - בנק ההשקעות שממליץ על מניית הבורסה: חמישה דברים לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
+     "date": "2026-10-14T05:40:00+00:00"
+    },
     {
      "title": "הנתון הקריטי שהמשקיעים יצפו לו, ובית ההשקעות שממליץ להסיט כספים ממניות לאג\"ח",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
@@ -216,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T05:17:19+00:00",
-  "fetched_at": "2026-10-14T05:17:19+00:00"
+  "checked_at": "2026-10-14T06:13:54+00:00",
+  "fetched_at": "2026-10-14T06:13:54+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T05:17:19+00:00",
-  "fetched_at": "2026-10-14T05:17:19+00:00"
+  "checked_at": "2026-10-14T06:13:54+00:00",
+  "fetched_at": "2026-10-14T06:13:54+00:00"
  },
  "tv": {
   "data": [
@@ -2281,6 +2286,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-17",
+    "time": "05:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "גולדן סטייט ווריירס - פורטלנד טריילבלייזרס"
+   },
+   {
+    "date": "2026-10-17",
     "time": "14:00",
     "channel": "ספורט 3",
     "sport": "כדורגל",
@@ -2292,6 +2304,13 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "אברטון - צ'לסי"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "15:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "נאנט - דאנקירק"
    },
    {
     "date": "2026-10-17",
@@ -2372,6 +2391,20 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-17",
+    "time": "19:05",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי תל אביב - הפועל פתח תקווה"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "19:10",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל חדרה - הפועל תל אביב"
+   },
+   {
+    "date": "2026-10-17",
     "time": "19:15",
     "channel": "ספורט 3",
     "sport": "כדורגל",
@@ -2383,6 +2416,13 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "בני סכנין - הפועל פתח תקווה"
+   },
+   {
+    "date": "2026-10-17",
+    "time": "19:15",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - בית\"ר ירושלים"
    },
    {
     "date": "2026-10-17",
@@ -2666,8 +2706,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T05:17:20+00:00",
-  "fetched_at": "2026-10-14T05:17:20+00:00"
+  "checked_at": "2026-10-14T06:13:55+00:00",
+  "fetched_at": "2026-10-14T06:13:55+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2814,12 +2854,26 @@ window.DB.generated = {
      "channel": "ספורט 1",
      "israeli_team": "הפועל ב\"ש",
      "title": "אלקמאר - הפועל באר שבע"
+    },
+    {
+     "date": "2026-10-17",
+     "time": "19:10",
+     "channel": "ספורט 5",
+     "israeli_team": "הפועל ת\"א",
+     "title": "הפועל חדרה - הפועל תל אביב"
+    },
+    {
+     "date": "2026-10-17",
+     "time": "19:15",
+     "channel": "ספורט 5",
+     "israeli_team": "בית\"ר ירושלים",
+     "title": "הפועל רעננה - בית\"ר ירושלים"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T05:17:20+00:00",
-  "fetched_at": "2026-10-14T05:17:20+00:00"
+  "checked_at": "2026-10-14T06:13:55+00:00",
+  "fetched_at": "2026-10-14T06:13:55+00:00"
  },
  "ai": {
   "data": {
@@ -2841,28 +2895,28 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
+   "candidates": 17,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 635,
+     "likes": 636,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 507,
+     "likes": 508,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 205,
+     "likes": 206,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2917,12 +2971,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T05:17:27+00:00",
-  "fetched_at": "2026-10-14T05:17:27+00:00"
+  "checked_at": "2026-10-14T06:14:02+00:00",
+  "fetched_at": "2026-10-14T06:14:02+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מוראנט פירגן, לילארד מתחבר: פורטלנד מתלהבת מדני אבדיה",
+     "link": "https://sports.walla.co.il/item/3872109",
+     "date": "2026-10-14T05:48:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "\"אבדיה פשוט מרהיב\", \"הכימיה עם לילארד טובה\"",
      "link": "https://www.one.co.il/Article/535937.html?ref=rss",
@@ -3242,8 +3305,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T05:17:23+00:00",
-  "fetched_at": "2026-10-14T05:17:23+00:00"
+  "checked_at": "2026-10-14T06:13:58+00:00",
+  "fetched_at": "2026-10-14T06:13:58+00:00"
  },
  "idf": {
   "data": [
@@ -3274,91 +3337,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T05:17:23+00:00",
-  "fetched_at": "2026-10-14T05:17:23+00:00"
+  "checked_at": "2026-10-14T06:13:59+00:00",
+  "fetched_at": "2026-10-14T06:13:59+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-14T04:41:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T06:11:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-14T04:07:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T05:40:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-14T04:07:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-10-13T14:54:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T05:48:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-14T05:05:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T06:04:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-13T20:33:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T05:30:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T04:53:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T05:47:00+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-14T03:00:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-13T16:30:55+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "newest": "2026-10-14T06:11:15+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-13T15:10:26+00:00",
-    "seen_at": "2026-10-14T05:17:28+00:00",
+    "seen_at": "2026-10-14T06:14:02+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T05:17:28+00:00"
+  "checked_at": "2026-10-14T06:14:02+00:00"
  }
 };
