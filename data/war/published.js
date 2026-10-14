@@ -1063,178 +1063,220 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-13T2346__north-202610132346.json",
+  "draft": "drafts/north/2026-10-14T2340__north-202610142340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-13T23:46:34+00:00",
+   "generated_at": "2026-10-14T23:40:41+00:00",
    "window": {
-    "from": "2026-10-12T23:46:34+00:00",
-    "to": "2026-10-13T23:46:34+00:00"
+    "from": "2026-10-13T23:40:41+00:00",
+    "to": "2026-10-14T23:40:41+00:00"
    },
    "model": {
     "name": "gemini-3.7-flash",
-    "run_id": "north-202610132346"
+    "run_id": "north-202610142340"
    },
-   "summary": "הגזרה הצפונית מתאפיינת בהתמודדות עם השלכות הלחימה, כאשר נפלי תחמושת ופצצות מצרר גובים קורבנות בקרב אזרחים בדרום לבנון ובצפון ישראל. מנגנוני הביטחון בלבנון פועלים לסיכול הברחות של מאות קילוגרמים של חומרי נפץ סמוך לגבול סוריה, בעוד חיזבאללה מנסה לחזק את השפעתו הפנימית באמצעות מענקי דיור למפונים. בזירה המדינית, סוריה וטורקיה דורשות מישראל לכבד את הסכם הפרדת הכוחות משנת 1974, על רקע התרעות מפני גורמי ג'יהאד בדרום סוריה וטענות סוריות על מעורבות ישראלית בא-סווידא.",
+   "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית מתמשכת הכוללת תקיפות וירי ארטילרי ישראלי בדרום לבנון ובדרום מערב סוריה, לצד פעילות כוחות קרקעיים לאיתור תשתיות חיזבאללה. במקביל, ישראל משמיעה איומים להרחבת אזור הביטחון עד נבטיה והליטני אם תחול הסלמה עם איראן ושותפיה. במישור המדיני, הממשל בלבנון פועל למנוע את נסיגת כוחות יוניפי\"ל על רקע חשש מוואקום ביטחוני, בעוד טורקיה מאשימה את ישראל בשיבוש ההתאוששות בסוריה.",
    "fronts": [
     {
-     "name": "דרום לבנון וגבול ישראל",
-     "status": "רגיעה יחסית המלווה בסיכוני נפלי תחמושת ופצצות מצרר הפוגעים באזרחים משני עברי הגבול"
+     "name": "חזית דרום לבנון",
+     "status": "פעילות התקפית מוגבלת, ירי ארטילרי, תקיפות מהאוויר וסריקות מבצעיות לצד נוכחות ברצועת הביטחון"
     },
     {
-     "name": "גבול לבנון-סוריה והפנים הלבנוני",
-     "status": "מאמצי אכיפה של צבא לבנון לסיכול הברחות חומרי נפץ המיוחסים לחיזבאללה"
+     "name": "חזית דרום מערב סוריה (קוניטרה)",
+     "status": "חילופי אש ופגיעות ארטילריות ממוקדות באזורי תלים"
     },
     {
-     "name": "דרום סוריה ורמת הגולן",
-     "status": "מתיחות סביב פעילות צה\"ל, התרעות על איומי ג'יהאד עולמי והאשמות סוריות נגד ישראל"
+     "name": "הזירה המדינית בלבנון מול האו\"ם",
+     "status": "מגעים דחופים למניעת נסיגת כוחות יוניפי\"ל בסוף השנה"
     },
     {
-     "name": "מרכז סוריה",
-     "status": "המשך תקריות ירי ופגיעה באנשי אבטחה על ידי חמושים בלתי מזוהים במחוז חמאה"
+     "name": "הציר הדיפלומטי טורקיה-סוריה",
+     "status": "מתיחות הצהרתית וגינויים טורקיים נגד פעולות ישראליות"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10132346-01",
-     "title": "התפוצצות נפל פצצת מצרר ברכס רמים שבגליל",
-     "summary": "נפל של פצצת מצרר מתקופת הלחימה עם חיזבאללה התפוצץ ברכס רמים וגרם למותו של נער ולפציעתם של עשרים וארבעה נוספים במהלך פעילות לימודית, מה שהוביל להשבתת טיולים באזור.",
-     "axis": "גבול ישראל-לבנון",
+     "id": "NORTH-10142340-01",
+     "title": "איתור מטען ועמדת שהייה בפאתי כפר שובא",
+     "summary": "כוחות חטיבה 810 השלימו פעילות מבצעית שבה אותרו מטען מוכן ועמדת שהייה של ארגון חיזבאללה בפאתי הכפר.",
+     "axis": "דרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T04:46:32+00:00",
+     "occurred_at": "2026-10-14T06:24:22+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T04:46:32+00:00",
-     "last_update_at": "2026-10-13T13:55:00+00:00",
-     "what_is_not_verified": "זהות הגורם שאישר את יציאת התלמידים לאזור שנחשב מסוכן",
+     "first_reported_at": "2026-10-14T06:24:22+00:00",
+     "last_update_at": "2026-10-14T06:24:22+00:00",
+     "what_is_not_verified": "היקף אמצעי הלחימה המלא שאותר במתחם מעבר למצוין.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_lbci",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962675/a-wars-leftovers-cluster-munitions-threaten-northern-israel/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962675",
-       "published_at": "2026-10-13T13:55:00+00:00"
+       "url": "https://t.me/idf_telegram/25363",
+       "published_at": "2026-10-14T06:24:22+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפר שובא, לבנון",
+       "lat": 33.3277,
+       "lon": 35.6927
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10142340-02",
+     "title": "תקיפות והפגזות ישראליות במספר מוקדים בדרום לבנון",
+     "summary": "בוצעה תקיפה אווירית בחאדאת'א שהובילה לפציעת שני בני אדם, לצד ירי ארטילרי באזור ואדי זיבקין ופאתי מיפדון, הטלת פצצה מרחפן סמוך לזיבקין וירי במחוז בינת ג'בייל.",
+     "axis": "דרום לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T16:35:49+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T16:35:49+00:00",
+     "last_update_at": "2026-10-14T23:12:10+00:00",
+     "what_is_not_verified": "זהות הנפגעים המדויקת והיקף הנזק המלא בכל המוקדים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_90033b7f656c6fc5",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrike-injures-2-including-child-in-southern-lebanon-state-media/4089149",
+       "published_at": "2026-10-14T23:12:10+00:00"
       },
       {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bjm8rqojfx",
-       "published_at": "2026-10-13T13:50:34+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_90033b7f656c6fc5",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+       "published_at": "2026-10-14T20:47:46+00:00"
       },
       {
-       "source_id": "src_walla",
+       "source_id": "src_almanar",
+       "source_root_id": "fh_90033b7f656c6fc5",
+       "url": "https://english.almanar.com.lb/article/138247/",
+       "published_at": "2026-10-14T16:35:49+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חאדאת'א, לבנון",
+       "lat": 33.1561,
+       "lon": 35.3912
+      },
+      {
+       "name": "זיבקין, לבנון",
+       "lat": 33.1644,
+       "lon": 35.2665
+      },
+      {
+       "name": "מיפדון, לבנון",
+       "lat": 33.3451,
+       "lon": 35.4741
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10142340-03",
+     "title": "ירי ארטילרי לעבר מטרות באזור קוניטרה בסוריה",
+     "summary": "שלושה פגזים ארטילריים ששוגרו על ידי כוחות ישראליים פגעו בסביבת תל כרום שבדרום מערב סוריה.",
+     "axis": "דרום מערב סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T14:52:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T14:52:30+00:00",
+     "last_update_at": "2026-10-14T14:52:30+00:00",
+     "what_is_not_verified": "מידת הנזק או נפגעים כתוצאה מהפגיעות בתל כרום.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.walla.co.il/news/military/383957221",
-       "published_at": "2026-10-13T04:46:32+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-shell-area-in-southwestern-syria-s-quneitra/4088736",
+       "published_at": "2026-10-14T14:52:30+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10132346-02",
-     "title": "נפגעים מפיצוץ נפלי תחמושת ישראלית בדרום לבנון",
-     "summary": "שני בני אדם נהרגו בפיצוץ תחמושת שלא התפוצצה בעת שעבדו במטעי זיתים בעיירות פרון ועין אבל בדרום לבנון, מה שהוביל את הרשויות המקומיות להזהיר תושבים מפני כניסה לשטחים חקלאיים.",
+     "id": "NORTH-10142340-04",
+     "title": "איומי שר הביטחון הישראלי בהרחבת השליטה בלבנון",
+     "summary": "במהלך סיור ברצועת הביטחון בדרום לבנון איים השר בהשתלטות על שטחים נוספים באזורי נבטיה והליטני ובפינוי הדאחייה בביירות אם חיזבאללה יצטרף למתקפה איראנית.",
+     "axis": "דרום לבנון - ביירות",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T14:00:00+00:00",
+     "last_update_at": "2026-10-14T20:05:32+00:00",
+     "what_is_not_verified": "מידת המוכנות המבצעית המיידית למימוש התוכניות הקרקעיות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/138327/",
+       "published_at": "2026-10-14T20:05:32+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/israels-katz-threatens-seize-more-land-lebanon",
+       "published_at": "2026-10-14T17:04:20+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962842/lebanon-iran-and-the-houthis-israels-election-campaign-heats-up/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962842",
+       "published_at": "2026-10-14T14:00:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10142340-05",
+     "title": "מגעים להארכת מנדט יוניפי\"ל בדרום לבנון",
+     "summary": "נשיא לבנון ג'וזף עון נועד עם תת-מזכ\"ל האו\"ם לפעולות שלום והזהיר כי נסיגת הכוח הבינלאומי תיצור ואקום ביטחוני מסוכן לנוכח התקיפות הישראליות.",
      "axis": "דרום לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T15:31:40+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T15:31:40+00:00",
-     "last_update_at": "2026-10-13T15:31:40+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/unexploded-israeli-ordnance-threatens-lebanons-olive-harvest",
-       "published_at": "2026-10-13T15:31:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פרון, לבנון",
-       "lat": 33.2968,
-       "lon": 35.4265
-      },
-      {
-       "name": "עין אבל, לבנון",
-       "lat": 33.1075,
-       "lon": 35.4015
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10132346-03",
-     "title": "סיכול הברחות חומרי נפץ בלבנון ובגבול סוריה",
-     "summary": "כוחות הביטחון בלבנון עצרו משלוחי חומרי נפץ מסוג סי ארבע ותי אן תי במחסום דהר אל-בידר ובאזור אל-קצר סמוך לגבול סוריה, אשר יועדו לפי החשד לחיזבאללה.",
-     "axis": "לבנון וגבול סוריה-לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T13:50:00+00:00",
-     "last_update_at": "2026-10-13T14:52:11+00:00",
-     "what_is_not_verified": "הטענה לפיה חומרי הנפץ יועדו להתנקשות בבכיר פוליטי לבנוני",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bj4zqisoze",
-       "published_at": "2026-10-13T14:52:11+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962656/four-explosive-shipments-seized-in-lebanon-this-month-were-more-shipme/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962656",
-       "published_at": "2026-10-13T13:50:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דהר אל-בידר, לבנון",
-       "lat": 33.8109,
-       "lon": 35.7661
-      },
-      {
-       "name": "אל-קצר, לבנון",
-       "lat": 33.6423,
-       "lon": 35.479
-      },
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10132346-04",
-     "title": "הכרזת חיזבאללה על סיוע כספי למפונים ולנפגעי מלחמה",
-     "summary": "הנהגת חיזבאללה הציגה תוכנית מענקים כספיים לתושבים שבתיהם נהרסו או שנאלצו להתפנות מבתיהם בביירות ובדרום לבנון, בגובה של עד ארבעה עשר אלף דולר למשק בית.",
-     "axis": "לבנון",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-13T14:02:00+00:00",
-     "last_update_at": "2026-10-13T15:59:43+00:00",
-     "what_is_not_verified": "מקורות המימון המדויקים של התוכנית והתקציב הכולל שלה",
+     "first_reported_at": "2026-10-14T10:01:10+00:00",
+     "last_update_at": "2026-10-14T19:24:47+00:00",
+     "what_is_not_verified": "האם מועצת הביטחון של האו\"ם תיעתר לבקשה ותשנה את מועד סיום המנדט.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/un-considering-options-to-maintain-presence-in-lebanon-after-peacekeeping-mandate-ends/4089007",
+       "published_at": "2026-10-14T19:24:47+00:00"
+      },
+      {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/hezbollah-announces-aid-displaced-lebanon-despite-pressures",
-       "published_at": "2026-10-13T15:59:43+00:00"
+       "url": "https://www.newarab.com/news/un-says-wants-lebanon-stability-end-unifil-mandate-looms",
+       "published_at": "2026-10-14T19:11:41+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/un-peacekeeping-chief-says-talks-future-lebanon-mission-must-begin-soon",
+       "published_at": "2026-10-14T18:46:27+00:00"
       },
       {
        "source_id": "src_lbci",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962659/up-to-14000-in-housing-aid-hezbollah-outlines-payments-for-war-hit-fam/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962659",
-       "published_at": "2026-10-13T14:02:00+00:00"
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/962831/aoun-urges-un-to-maintain-unifils-mission-in-lebanon-amid-israeli-occu/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962831",
+       "published_at": "2026-10-14T10:01:10+00:00"
       }
      ],
      "places": [
@@ -1246,144 +1288,56 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-10132346-05",
-     "title": "דיונים דיפלומטיים על מנגנון הפיקוח להסכם המשולש בלבנון",
-     "summary": "שגריר לבנון בוושינגטון קיים פגישה במחלקת המדינה האמריקנית בנוגע למנגנון האימות של ההסכם המשולש, לקראת מפגש צבאי המתוכנן בפלורידה.",
-     "axis": "לבנון",
+     "id": "NORTH-10142340-06",
+     "title": "גינוי טורקי לפעולות ישראל הפוגעות בשיקום סוריה",
+     "summary": "טורקיה מתחה ביקורת חריפה על ישראל בטענה שהיא מנסה לשבש את תהליך ההתאוששות והשיקום של סוריה ומסלימה את המתיחות האזורית.",
+     "axis": "סוריה - טורקיה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T14:02:06+00:00",
-     "last_update_at": "2026-10-13T14:02:06+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/962712/lebanons-ambassador-to-washington-discusses-verification-mechanism-at/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962712",
-       "published_at": "2026-10-13T14:02:06+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10132346-06",
-     "title": "התקפת חמושים על כוחות אבטחה במזרח מחוז חמאה",
-     "summary": "שלושה אנשי אבטחת דרכים סורים נהרגו במארב שביצעו חמושים אלמונים נגד סיור באזור הכפרי המזרחי של מחוז חמאה.",
-     "axis": "מרכז סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T19:11:44+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T19:11:44+00:00",
-     "last_update_at": "2026-10-13T19:11:44+00:00",
-     "what_is_not_verified": "זהות התוקפים והארגון שאליו הם משתייכים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/3-road-security-personnel-killed-in-attack-in-central-syria/4087790",
-       "published_at": "2026-10-13T19:11:44+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חמאה, סוריה",
-       "lat": 35.1343,
-       "lon": 36.7496
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10132346-07",
-     "title": "סוריה מאשימה את ישראל בליבוי אי-סדר בא-סווידא",
-     "summary": "שר החוץ של סוריה האשים את ישראל במימון ובחימוש קבוצות חמושות במחוז א-סווידא כדי לזרוע כאוס, וקרא לחזרה להסכם הפרדת הכוחות משנת 1974.",
-     "axis": "דרום סוריה וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T17:12:31+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T17:12:31+00:00",
-     "last_update_at": "2026-10-13T17:12:31+00:00",
-     "what_is_not_verified": "אמיתות הטענות בדבר תמיכה ישראלית צבאית או כספית במיליציות בא-סווידא",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-accuses-israel-of-arming-funding-militias-in-suwayda-to-sow-chaos-/4087693",
-       "published_at": "2026-10-13T17:12:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "א-סווידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10132346-08",
-     "title": "טורקיה קוראת באו\"ם להפסקת התקיפות הישראליות בסוריה",
-     "summary": "נציג טורקיה באו\"ם דרש מישראל לעצור את הפעולות הצבאיות בסוריה ולציית באופן מלא להסכם הפרדת הכוחות מ-1974.",
-     "axis": "טורקיה, סוריה וישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-13T08:38:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-13T08:38:00+00:00",
-     "last_update_at": "2026-10-13T08:38:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-14T17:07:00+00:00",
+     "last_update_at": "2026-10-14T17:07:00+00:00",
+     "what_is_not_verified": "צעדים מעשיים שבכוונת אנקרה לנקוט מעבר להצהרה הדיפלומטית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_dailysabah",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.dailysabah.com/politics/diplomacy/turkiyes-un-envoy-calls-on-israel-to-stop-reckless-attacks-in-syria",
-       "published_at": "2026-10-13T08:38:00+00:00"
+       "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-criticizes-israel-for-targeting-al-aqsa-undermining-syria",
+       "published_at": "2026-10-14T17:07:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10132346-09",
-     "title": "התרעה מפני איומי ג'יהאד עולמי נגד צה\"ל בדרום סוריה",
-     "summary": "ערוץ המזוהה עם ארגון אל-קאעדה פרסם סרטון הקורא להיערך לקרב נגד כוחות צה\"ל באזור קוניטרה ורמת הגולן, תוך שימוש בתמונות מפעילות צבאית באזור תל כרום.",
-     "axis": "דרום סוריה וישראל",
-     "claim_type": "assessment",
+     "id": "NORTH-10142340-07",
+     "title": "אימון ומעבר גדודי תותחנים למשימה מבצעית בלבנון",
+     "summary": "גדודי תותחנים של חטיבה 282 ביצעו אימון תרחישי לחימה ברמת הגולן, ובתום התרגיל עברו לביצוע משימה מבצעית בגזרת לבנון.",
+     "axis": "רמת הגולן - דרום לבנון",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-10T00:00:00+00:00",
+     "occurred_at": "2026-10-14T16:00:03+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-13T11:53:39+00:00",
-     "last_update_at": "2026-10-13T11:53:39+00:00",
-     "what_is_not_verified": "מידת היכולת המבצעית הממשית של אותם גורמים להוציא פיגועים לפועל",
+     "first_reported_at": "2026-10-14T16:00:03+00:00",
+     "last_update_at": "2026-10-14T16:00:03+00:00",
+     "what_is_not_verified": "המיקום המדויק שבו הוצבו הגדודים והמשימה המבצעית הספציפית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_alma",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/not-only-iran-hezbollah-and-palestinian-organizations-the-global-jihad-threat-to-idf-forces-and-israel-from-southern-syria-and-the-motivation-to-target-them/",
-       "published_at": "2026-10-13T11:53:39+00:00"
+       "url": "https://t.me/idf_telegram/25370",
+       "published_at": "2026-10-14T16:00:03+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "הטענה לפיה חומרי הנפץ שנתפסו בלבנון נועדו לביצוע התנקשות בבכיר פוליטי מקומי",
-    "ההאשמה של שר החוץ הסורי כי ישראל מחמשת ומממנת מיליציות בא-סווידא",
-    "זהות התוקפים שביצעו את המארב נגד אנשי אבטחת הדרכים באזור חמאה",
-    "מקור המימון הכספי שממנו מחלק חיזבאללה את מענקי הדיור לנפגעי המלחמה"
+    "מספר הנפגעים הכולל והיקף הנזק המדויק כתוצאה מהתקיפות בבינת ג'בייל, חאדאת'א וקוניטרה",
+    "מידת ההיתכנות והעיתוי של הרחבת הפעולה הקרקעית הישראלית לעבר נבטיה והליטני",
+    "ההחלטה הסופית של מועצת הביטחון של האו\"ם לגבי הארכת מנדט יוניפי\"ל מעבר לסוף שנת 2026"
    ],
    "map": {
     "confidence": "medium",
@@ -1394,152 +1348,129 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0751,
+     "value": 3.0766,
      "unit": "ILS",
-     "change_pct": 0.18,
+     "change_pct": 0.05,
      "source_id": "src_ecb",
-     "as_of": "2026-10-13T15:00:00+00:00"
+     "as_of": "2026-10-14T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "חיזבאללה",
+     "actor": "ישראל",
      "declared": [
-      "הענקת תמיכה כספית לתושבים שבתיהם נהרסו או שנאלצו לעזוב את מקום מגוריהם"
+      "השמדת תשתיות הטרור של חיזבאללה בדרום לבנון",
+      "הרחבת אזור הביטחון הקבוע עד נבטיה והליטני ופינוי הדאחייה במקרה של הצטרפות חיזבאללה למתקפה נגד ישראל"
      ],
      "inferred": [
-      "שיקום הלגיטימציה הציבורית בקרב האוכלוסייה הלבנונית והעברת אמצעי לחימה חרף מגבלות האכיפה"
+      "יצירת הרתעה מול חיזבאללה ואיראן באמצעות העלאת רף האיומים והפגנת מוכנות כוחות קרקעיים",
+      "שימור חופש פעולה התקפי ואבטחת הגבול הצפוני לפני הבחירות"
      ],
      "forecast": [
-      "המשך ניסיונות לייצב את המערך האזרחי במקביל לשימור יכולותיו מול לחצי הפיקוח של צבא לבנון"
+      "המשך פשיטות נקודתיות וירי ארטילרי לסיכול התבססות חיזבאללה במרחב הגבול",
+      "הימנעות ממתקפת מנע רחבה לפני הבחירות בישראל אלא אם כן תותקף"
      ]
     },
     {
-     "actor": "המשטר הסורי",
+     "actor": "לבנון (ההנהגה הממלכתית)",
      "declared": [
-      "דרישה לנסיגה ישראלית מפעולותיה ולחזרה מלאה להסכם הפרדת הכוחות מ-1974"
+      "דרישה להארכת מנדט יוניפי\"ל מעבר לשנת 2026 למניעת ואקום ביטחוני",
+      "הפסקת התקיפות והכיבוש הישראלי של עיירות וכפרים בדרום לבנון"
      ],
      "inferred": [
-      "בלימת השפעה ישראלית באזור הדרום והחזרת השליטה הביטחונית למחוזות המרוחקים"
+      "שמירה על נוכחות בינלאומית שתשמש חיץ ותמנע הרחבה נוספת של האחיזה הישראלית",
+      "מניעת השתלטות של חיזבאללה על משאבי וכספי השיקום במדינה"
      ],
      "forecast": [
-      "המשך שימוש בלחץ דיפלומטי בינלאומי תוך התמודדות מתמשכת עם תקריות אלימות במרכז ובדרום המדינה"
+      "המשך לחץ דיפלומטי על מועצת הביטחון לקבלת הארכה זמנית לכוח יוניפי\"ל",
+      "ניסיון לתמרן מול הלחצים האיראניים והמתח הפנימי בין המחנות השונים"
      ]
     },
     {
      "actor": "טורקיה",
      "declared": [
-      "קריאה לישראל לחדול מהפרות ריבונות בסוריה ולציית להסכמי שביתת הנשק"
+      "התנגדות לניסיונות ישראליים לשבש את תהליך השיקום וההתאוששות בסוריה"
      ],
      "inferred": [
-      "הגבלת חופש הפעולה הצבאי של ישראל במרחב הסורי והגנה על האינטרסים האזוריים של אנקרה"
+      "שאיפה לייצב את המרחב הסורי בהתאם לאינטרסים של אנקרה ולבלום השפעה צבאית ישראלית במדינה"
      ],
      "forecast": [
-      "המשך העלאת דרישות מדיניות בזירה הבינלאומית ובאו\"ם נגד תקיפות ישראליות בסוריה"
-     ]
-    },
-    {
-     "actor": "ישראל",
-     "declared": [
-      "הגנה על מרחב הגבול מפני איומים ונטרול שאריות לחימה המסכנות אזרחים"
-     ],
-     "inferred": [
-      "סיכול התבססות של גורמי טרור בדרום סוריה ומניעת התחמשות מחודשת של חיזבאללה"
-     ],
-     "forecast": [
-      "המשך פעילות הנדסית לאיסוף תחמושת בצפון לצד פיקוח הדוק ומבצעי מול ניסיונות התארגנות מעבר לגבול"
+      "המשך גינויים דיפלומטיים והצהרתיים נגד פעולות ישראליות בסוריה ללא התערבות צבאית ישירה"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_alma",
-     "url": "https://israel-alma.org/not-only-iran-hezbollah-and-palestinian-organizations-the-global-jihad-threat-to-idf-forces-and-israel-from-southern-syria-and-the-motivation-to-target-them/",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
+    },
+    {
+     "source_id": "src_almanar",
+     "url": "https://english.almanar.com.lb/article/138327/",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
+    },
+    {
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/un-peacekeeping-chief-says-talks-future-lebanon-mission-must-begin-soon",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/syria-accuses-israel-of-arming-funding-militias-in-suwayda-to-sow-chaos-/4087693",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/un-considering-options-to-maintain-presence-in-lebanon-after-peacekeeping-mandate-ends/4089007",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     },
     {
      "source_id": "src_dailysabah",
-     "url": "https://www.dailysabah.com/politics/diplomacy/turkiyes-un-envoy-calls-on-israel-to-stop-reckless-attacks-in-syria",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-criticizes-israel-for-targeting-al-aqsa-undermining-syria",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon-news/962712/lebanons-ambassador-to-washington-discusses-verification-mechanism-at/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962712",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/962831/aoun-urges-un-to-maintain-unifils-mission-in-lebanon-amid-israeli-occu/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962831",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/hezbollah-announces-aid-displaced-lebanon-despite-pressures",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "url": "https://www.newarab.com/news/un-says-wants-lebanon-stability-end-unifil-mandate-looms",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     },
     {
-     "source_id": "src_walla",
-     "url": "https://www.walla.co.il/news/military/383957221",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/bj4zqisoze",
-     "accessed_at": "2026-10-13T23:46:34+00:00"
+     "source_id": "src_tg_idf",
+     "url": "https://t.me/idf_telegram/25370",
+     "accessed_at": "2026-10-14T23:40:41+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-13T10:40:28+00:00",
+  "previous_generated_at": "2026-10-13T23:46:34+00:00",
   "changes": {
-   "NORTH-10132346-01": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "פיצוץ נפל פצצת מצרר ברכס רמים",
-    "score": 1.0
-   },
-   "NORTH-10132346-02": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפות אוויריות של ישראל בדרום לבנון",
-    "score": 0.817
-   },
-   "NORTH-10132346-03": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "סיכול משלוח חומרי נפץ במחסום דהר אל-בידר בלבנון",
-    "score": 1.0
-   },
-   "NORTH-10132346-04": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "הכרזת חיזבאללה על סיוע כספי לשיקום דיור",
-    "score": 0.65
-   },
-   "NORTH-10132346-05": {
+   "NORTH-10142340-01": {
     "kind": "new"
    },
-   "NORTH-10132346-06": {
-    "kind": "new"
-   },
-   "NORTH-10132346-07": {
-    "kind": "new"
-   },
-   "NORTH-10132346-08": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "קריאת טורקיה באו\"ם להפסקת התקיפות הישראליות בסוריה",
-    "score": 1.0
-   },
-   "NORTH-10132346-09": {
+   "NORTH-10142340-02": {
     "kind": "possible",
-    "prev": "פשיטות ומעצרים של כוחות ישראליים בדרום סוריה",
+    "prev": "טורקיה קוראת באו\"ם להפסקת התקיפות הישראליות בסוריה",
     "score": 0.467
+   },
+   "NORTH-10142340-03": {
+    "kind": "new"
+   },
+   "NORTH-10142340-04": {
+    "kind": "new"
+   },
+   "NORTH-10142340-05": {
+    "kind": "possible",
+    "prev": "נפגעים מפיצוץ נפלי תחמושת ישראלית בדרום לבנון",
+    "score": 0.467
+   },
+   "NORTH-10142340-06": {
+    "kind": "possible",
+    "prev": "סוריה מאשימה את ישראל בליבוי אי-סדר בא-סווידא",
+    "score": 0.467
+   },
+   "NORTH-10142340-07": {
+    "kind": "new"
    }
   }
  }
