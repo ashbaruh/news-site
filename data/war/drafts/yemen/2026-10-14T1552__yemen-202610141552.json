@@ -1,0 +1,311 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4fdfd88b234a",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-14T15:52:21+00:00",
+  "window": {
+   "from": "2026-10-13T15:52:21+00:00",
+   "to": "2026-10-14T15:52:21+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610141552"
+  },
+  "summary": "הלחימה בזירת תימן מתאפיינת בהסלמה חריפה בין החות'ים לבין סעודיה והקואליציה שבהנהגתה. החות'ים מבצעים תקיפות נרחבות באמצעות טילים וכטב\"מים לעבר תשתיות אנרגיה ונמלי תעופה בסעודיה (כגון מתקני ארמקו וריאד), בעוד סעודיה מגיבה בתקיפות אוויריות נגד יעדים בתימן, לצד לחימה פנימית עצימה סביב העיר תעז והחמרת המשבר ההומניטרי.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה-תימן (אווירית וטילים)",
+    "status": "פעילה ומתלקחת"
+   },
+   {
+    "name": "החזית הפנימית בתימן (תעז ואזורי עימות)",
+    "status": "פעילה עם החמרה הומניטרית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10141552-01",
+    "title": "תקיפת מתקני ארמקו ומטרות נוספות בסעודיה",
+    "summary": "החות'ים תקפו מבנים ומתקנים של חברת הנפט ארמקו בד'הראן ובדמאם, וכן שיגרו טילים לעבר ריאד ויעדים נוספים, מה שהוביל להתלקחות שריפות ולשיבושים.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T21:46:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T21:46:04+00:00",
+    "last_update_at": "2026-10-14T15:30:24+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים בכלל האתרים אינו מאומת לחלוטין מעבר להודעות הרשמיות והדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks",
+      "published_at": "2026-10-14T15:30:24+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T12:26:13+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-aramco-headquarters-suffered-extensive-damage-houthi-attack-sources-say",
+      "published_at": "2026-10-14T11:46:26+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-vow-more-attacks-saudi-airports-oil-facilities-after-aramco-hq-hit",
+      "published_at": "2026-10-14T10:46:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_3a08bef1473313e9",
+      "url": "https://www.middleeasteye.net/news/yemen-houthis-vow-continue-targeting-saudi-aramco-facilities",
+      "published_at": "2026-10-14T10:42:37+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2ceafdc1e40a26d6",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-offer-remote-option-fii-conference-after-attacks-reuters",
+      "published_at": "2026-10-14T09:07:32+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://t.me/abualiexpress/131894",
+      "published_at": "2026-10-14T08:51:14+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_be119e9e72308b3a",
+      "url": "https://t.me/alexmehacarmel/48525",
+      "published_at": "2026-10-13T21:46:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ד'הראן, סעודיה",
+      "lat": 26.2967,
+      "lon": 50.1202
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10141552-02",
+    "title": "תקיפות הקואליציה בראשות סעודיה בצנעא",
+    "summary": "הקואליציה בראשות סעודיה תקפה מתקני נפט ותשתיות באזור צנעא בתגובה למתקפות החות'ים.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T14:53:39+00:00",
+    "last_update_at": "2026-10-14T15:10:08+00:00",
+    "what_is_not_verified": "הנזק המדויק לכלל התשתיות לא פורט במלואו.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_cc29e142beea6c46",
+      "url": "https://www.newarab.com/news/saudi-arabia-trades-strikes-yemen-threatens-houthis",
+      "published_at": "2026-10-14T15:10:08+00:00"
+     },
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "fh_cc29e142beea6c46",
+      "url": "https://gcaptain.com/saudi-arabia-strikes-houthi-targets-as-red-sea-war-escalates/",
+      "published_at": "2026-10-13T18:48:46+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_cc29e142beea6c46",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "published_at": "2026-10-13T17:26:08+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_cc29e142beea6c46",
+      "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+      "published_at": "2026-10-13T14:53:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10141552-03",
+    "title": "התקדמות החות'ים לעבר העיר תעז",
+    "summary": "החות'ים התקדמו לעבר העיר תעז והשתלטו על כניסות ומוקדים סביבה, תוך יצירת מצור והחמרת המשבר ההומניטרי.",
+    "axis": "הזירה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T09:46:04+00:00",
+    "last_update_at": "2026-10-14T12:37:04+00:00",
+    "what_is_not_verified": "שליטה מלאה בכל שכונות העיר אינה מוגדרת במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_343d04cbef70eb03",
+      "url": "https://www.newarab.com/news/chinese-company-helping-houthis-improve-missile-capabilities",
+      "published_at": "2026-10-14T12:37:04+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_343d04cbef70eb03",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
+      "published_at": "2026-10-14T12:00:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_bb6e3be2791ef089",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-hospitals-overwhelmed-surge-war-casualties-red-cross-warns",
+      "published_at": "2026-10-14T09:46:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה לפיה חיילים חות'ים נלחמים בשורות צבא רוסיה",
+   "הפרטים אודות מעורבות חברה סינית באספקת רכיבי טילים לחות'ים המופיעים בדיווח עקיף"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0766,
+    "unit": "ILS",
+    "change_pct": 0.05,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשך פגיעה במתקני אנרגיה ושדות תעופה בסעודיה כתגובה על תקיפות ממלכתיות",
+     "הרחבת יכולות הלחימה העצמאיות"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומדיני על סעודיה",
+     "ניצול מתיחות אזורית רחבה להעצמת מעמדם"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר עומק סעודיה",
+     "העמקת הלחימה בקרקע בתוך תימן"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על מתקנים חיוניים ואזרחים",
+     "בלימת התקפות החות'ים ונטרול איומים"
+    ],
+    "inferred": [
+     "שמירה על יציבות משק הנרגיה והכלכלה מפני שיבושים",
+     "גביית מחיר צבאי מהחות'ים על מתקפותיהם"
+    ],
+    "forecast": [
+     "המשך תקיפות נגד תשתיות חות'יות בתימן",
+     "התאמת אירועים וכינוסים (כמו כנס השקעות) למצב הביטחוני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-vow-more-attacks-saudi-airports-oil-facilities-after-aramco-hq-hit",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/saudi-arabia-strikes-houthi-targets-as-red-sea-war-escalates/",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-hospitals-overwhelmed-surge-war-casualties-red-cross-warns",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/chinese-company-helping-houthis-improve-missile-capabilities",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131894",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48525",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
+    "accessed_at": "2026-10-14T15:52:21+00:00"
+   }
+  ]
+ }
+}

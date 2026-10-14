@@ -1,0 +1,324 @@
+{
+ "status": "draft",
+ "received_sha256_12": "37b4686c0da1",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-14T15:37:17+00:00",
+  "window": {
+   "from": "2026-10-13T15:37:17+00:00",
+   "to": "2026-10-14T15:37:17+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610141537"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת כאשר רוסיה מגבירה את התקיפות האוויריות על תשתיות אנרגיה, מחסנים ויעדים אזרחיים ברחבי אוקראינה, במקביל ללחץ צבאי בגזרת זפוריז'יה. מנגד, אוקראינה מרחיבה את פגיעותיה בעומק רוסיה נגד מרכזי נתונים ומתקנים קריטיים, תוך התמודדות עם שיבושים באספקה טכנולוגית והגבלות על מערכות תקשורת לוויניות.",
+  "fronts": [
+   {
+    "name": "חזזרת זפוריז'יה (חוליאיפול ואוריחיב)",
+    "status": "מתקפה ותגבור כוחות רוסיים בניסיון להתקדם לעיר זפוריז'יה"
+   },
+   {
+    "name": "עומק רוסיה",
+    "status": "תקיפות כטב\"מים אוקראיניים על מרכזי נתונים ותשתיות"
+   },
+   {
+    "name": "עומק אוקראינה",
+    "status": "תקיפות טילים וכטב\"מים רוסיים נרחבות על תשתיות אנרגיה ואתרים אזרחיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10141537-01",
+    "title": "תקיפת כטב\"מים אוקראינית על מרכז נתונים של סברבנק בבלאקובו",
+    "summary": "כטב\"מים אוקראיניים תקפו את מרכז הנתונים של סברבנק בעיר באלאקובו, וגרמו להרוג ולנזק למבני מגורים, בעוד גורמים רשמיים אישרו את התקיפה ומסרו כי המערכות פועלות כסדרם.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T09:54:52+00:00",
+    "last_update_at": "2026-10-14T12:42:35+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48536",
+      "published_at": "2026-10-14T12:42:35+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/14/users-start-reporting-outages-in-sberbank-services-after-ukrainian-drone-attack-on-company-s-data-center",
+      "published_at": "2026-10-14T10:46:38+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/14/ukraine-strikes-a-sberbank-data-center-in-russia-meanwhile-kyiv-isn-t-getting-crucial-missile-warnings-from-the-u-s-and-spacex-is-restricting-starlink",
+      "published_at": "2026-10-14T09:54:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באלאקובו, רוסיה",
+      "lat": 52.0181,
+      "lon": 47.8191
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10141537-02",
+    "title": "תקיפה רוסית במחסן בלוצק",
+    "summary": "כטב\"מים רוסיים תקפו מחסן סיטונאי בעיר לוצק, מה שהוביל למותם של שישה בני אדם ולפציעתם של עשרה עד שנים עשר איש נוספים.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T14:42:31+00:00",
+    "last_update_at": "2026-10-14T14:42:31+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/14/six-killed-in-russian-strike-on-warehouse-in-ukraine-s-lutsk",
+      "published_at": "2026-10-14T14:42:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוצק, אוקראינה",
+      "lat": 50.7451,
+      "lon": 25.3201
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10141537-03",
+    "title": "תקיפת כטב\"מים רוסית בזפוריז'יה",
+    "summary": "כטב\"מים רוסיים תקפו את זפוריז'יה, גרמו לפציעתם של שלושה בני אדם, להרס בניין מגורים דו-קומתי ולנזק לבתים נוספים.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T14:06:00+00:00",
+    "last_update_at": "2026-10-14T14:06:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_8ca66279ade9dcb9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058014/",
+      "published_at": "2026-10-14T14:06:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10141537-04",
+    "title": "הגבלות על מהירות מסופי סטארלינק באוקראינה",
+    "summary": "חברת ספייס אקס הטילה מגבלות מהירות על מסופי סטארלינק ניידים ועל החבילה הצבאית שלהם באוקראינה, מה ששיבש פעילות מבצעית ומשימות קרביות.",
+    "axis": "סיוע צבאי וטכנולוגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T11:31:36+00:00",
+    "last_update_at": "2026-10-14T14:17:59+00:00",
+    "what_is_not_verified": "הקשר הישיר והמוצהר בין המגבלות למדיניות הפוליטית אינו מאומת רשמית על ידי החברה עצמה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+      "published_at": "2026-10-14T14:17:59+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4174375-ukraines-mod-in-contact-with-us-spacex-nato-partners-over-starshield-restrictions-source.html",
+      "published_at": "2026-10-14T12:39:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48533",
+      "published_at": "2026-10-14T11:31:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10141537-05",
+    "title": "השלמת פעולות חילוץ והצלה בחארקוב",
+    "summary": "הסתיימו פעולות החילוץ באתר פגיעת טיל רוסי בבניין מגורים בן ארבע קומות במחוז חולודנוהירסקי בחארקוב, שבהן נהרגו ארבעה בני אדם ונפצעו 41.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T13:40:00+00:00",
+    "last_update_at": "2026-10-14T13:40:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_d47334ebf9515a23",
+      "url": "https://www.ukrinform.net/rubric-ato/4174409-four-killed-41-injured-as-rescue-operations-conclude-at-site-of-russian-missile-strike-in-kharkiv.html",
+      "published_at": "2026-10-14T13:40:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10141537-06",
+    "title": "פתיחת משפט נגד אזרח אוקראיני בגרמניה בפרשת צינורות נורד סטרים",
+    "summary": "החל בגרמניה משפטו של האזרח האוקראיני סרגיי קוזנצוב הנאשם במעורבות בפיצוץ צינורות הגז נורד סטרים.",
+    "axis": "חזיתות, תקיפות ומאבק משפטי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T13:41:51+00:00",
+    "last_update_at": "2026-10-14T13:56:20+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_837a499044091381",
+      "url": "https://tass.com/world/2202063",
+      "published_at": "2026-10-14T13:56:20+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_837a499044091381",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T13:41:51+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': 'ההנחה שחברת SpaceX הגבילה את מהירות מסופי סטארלינק בהוראה ישירה של ממשל טראמפ או כצעד ענישה פוליטי'}",
+   "{'string': 'טענות אוקראיניות לפיהן ארצות הברית מונעת במכוון התרעות על שיגורי טילים בליסטיים כדי לסייע לרוסיה'}",
+   "{'string': \"הערכות מודיעיניות על יחס כוחות של 1 ל-7 לטובת רוסיה באזורים מסוימים בזפוריז'יה\"}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1195,
+    "unit": "USD",
+    "change_pct": 0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שטחי המדינה ותשתיותיה",
+     "פיתוח פרויקט הגנה אווירית פרטי ויכולות ייצור מקומיות"
+    ],
+    "inferred": [
+     "פגיעה במרכזי נתונים ותשתיות קריטיות בתוך רוסיה כדי השיג הרתעה ולשבש את הכלכלה הרוסית",
+     "שמירה על רציפות תפקודית של הכוחות הלוחמים למרות הגבלות טכנולוגיות"
+    ],
+    "forecast": [
+     "המשך ניסיונות לפגוע במטרות אסטרטגיות בשטח רוסיה באמצעות כטב\"מים",
+     "הגברת התלות בייצור מקומי של אמצעי הגנה אווירית עקב קשיי אספקה ממערב"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השמדת אתרי אחסון וייצור של כטב\"מים אוקראיניים",
+     "התקדמות במחוז זפוריז'יה לעבר הגדה השמאלית והעיר זפוריז'יה"
+    ],
+    "inferred": [
+     "גרימת קריסה של תשתיות האנרגיה והכלכלה באוקראינה באמצעות מתקפות בלתי פוסקות",
+     "הסתת קשב של צבא אוקראינה מחזיתות אחרות באמצעות לחץ מוגבר בגזרת זפוריז'יה"
+    ],
+    "forecast": [
+     "המשך הלחץ המסיבי על התשתיות האזרחיות והאנרגטיות באוקראינה לקראת חודשי החורף",
+     "ריכוז מאמצים טקטיים לשיפור עמדות במחוז זפוריז'יה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/14/six-killed-in-russian-strike-on-warehouse-in-ukraine-s-lutsk",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058014/",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2202063",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48533",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4174409-four-killed-41-injured-as-rescue-operations-conclude-at-site-of-russian-missile-strike-in-kharkiv.html",
+    "accessed_at": "2026-10-14T15:37:17+00:00"
+   }
+  ]
+ }
+}

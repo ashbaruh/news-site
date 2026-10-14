@@ -1,0 +1,377 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c656ab152284",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-14T15:26:23+00:00",
+  "window": {
+   "from": "2026-10-13T15:26:23+00:00",
+   "to": "2026-10-14T15:26:23+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610141526"
+  },
+  "summary": "העימות האזורי נמשך במוקדים שונים הכוללים תקיפות ימיות במצר הורמוז, הסלמה בין סעודיה לחות'ים המגובים בידי איראן, וחילופי איומים בין ישראל לחיזבאללה ולטאיריאן. במקביל, נשמרת מתיחות סביב שאלת פעילות צבאית אפשרית של ארה\"ב וישראל אל מול מתקני הגרעין באיראן והאפשרות לתגובות נוספות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "פעיל - תקיפות ספינות ומתיחות ימית"
+   },
+   {
+    "name": "תימן-סעודיה",
+    "status": "פעיל - תקיפות הדדיות בין סעודיה לחות'ים"
+   },
+   {
+    "name": "לבנון-ישראל",
+    "status": "מתוח - איומי עימות והיערכות צבאית"
+   },
+   {
+    "name": "עיראק",
+    "status": "פעיל - תקיפות איראניות נגד קבוצות אופוזיציה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10141526-01",
+    "title": "פגיעה בספינות מכולות במצר הורמוז",
+    "summary": "שתי ספינות מכולות רשומות בסינגפור נפגעו מירי או פגיעת קליעים בעת הפלגה במצר הורמוז, כאשר אחת מהן טבעה לאחר שעלתה באש והשנייה ניזוקה.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T19:32:15+00:00",
+    "last_update_at": "2026-10-14T13:46:34+00:00",
+    "what_is_not_verified": "זהות היורים המדויקת אינה מוגדרת בוודאות מוחלטת בכל דיווח מעבר להאשמות כלפי איראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_maritime_and_port_authority_of_singapore",
+      "url": "https://www.al-monitor.com/originals/2026/10/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks",
+      "published_at": "2026-10-14T13:46:34+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_maritime_and_port_authority_of_singapore",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/container-ship-struck-unknown-projectile-strait-hormuz-ukmto-says",
+      "published_at": "2026-10-14T11:53:03+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_maritime_and_port_authority_of_singapore",
+      "url": "https://t.me/lelotsenzura/94639",
+      "published_at": "2026-10-14T09:33:16+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_maritime_and_port_authority_of_singapore",
+      "url": "https://t.me/lelotsenzura/94635",
+      "published_at": "2026-10-13T19:32:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10141526-02",
+    "title": "תקיפות והסלמה בין סעודיה לחות'ים",
+    "summary": "התקפות טילים וכטב\"מים של החות'ים פגעו במתקנים סעודיים ובאזור ריאד, ובתגובה פתחה סעודיה בתקיפות על מחסני נפט בסנעא שבתימן.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-13T14:53:39+00:00",
+    "last_update_at": "2026-10-14T07:16:04+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים המדויקים בכל אתר.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rj3hadnszx",
+      "published_at": "2026-10-14T07:16:04+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-174",
+      "published_at": "2026-10-14T06:03:46+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks",
+      "published_at": "2026-10-14T03:39:11+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "published_at": "2026-10-13T17:26:08+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+      "published_at": "2026-10-13T14:53:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "סנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "דהראן, סעודיה",
+      "lat": 26.2967,
+      "lon": 50.1202
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10141526-03",
+    "title": "תקיפות כטב\"מים איראניים בצפון עיראק",
+    "summary": "כוחות איראניים תקפו באמצעות כטב\"מים קבוצות אופוזיציה כורדיות איראניות בצפון עיראק.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-13T15:14:23+00:00",
+    "last_update_at": "2026-10-14T14:47:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על מספר הנפגעים והנזק המדויק במחנות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_fdd_report",
+      "url": "https://www.fdd.org/analysis/iraq-after-the-us-military-withdrawal-militia-disarmament-will-decide-the-outcome/",
+      "published_at": "2026-10-14T14:47:00+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_fdd_report",
+      "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php",
+      "published_at": "2026-10-13T15:14:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קויא, עיראק",
+      "lat": 36.0842,
+      "lon": 44.6339
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10141526-04",
+    "title": "איומי בכירי ביטחון ישראלים כלפי חיזבאללה ולבנון",
+    "summary": "שר הביטחון הישראלי ישראל כ\"ץ הציב אזהרה לפיה תקיפה של חיזבאללה לצד איראן תגרור תמרון קרקעי, עקירת מיליון שיעים והרס בדרום לבנון ובדאחייה.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T10:41:53+00:00",
+    "last_update_at": "2026-10-14T11:04:17+00:00",
+    "what_is_not_verified": "האם התקיפה האיראנית המאוימת תתרחש בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_c15a3257e7639362",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21623330",
+      "published_at": "2026-10-14T11:04:17+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_c15a3257e7639362",
+      "url": "https://t.me/abualiexpress/131900",
+      "published_at": "2026-10-14T10:41:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10141526-05",
+    "title": "חשיפת מטען חומר נפס במשית לבנונית",
+    "summary": "כוחות הביטחון בלבנון עצרו משאית ובה חצי טון חומרי נפץ צבאיים במעבר דהר אל-ביידאר בלבנון, שלפי הערכות נועדו לחיסולים פוליטיים.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T13:29:17+00:00",
+    "last_update_at": "2026-10-14T13:29:17+00:00",
+    "what_is_not_verified": "היעד המדויק של המטען והקשר הישיר לפקודות איראניות ספציפיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_fdd_report",
+      "url": "https://www.fdd.org/analysis/lebanons-false-claims-of-disarming-hezbollah/",
+      "published_at": "2026-10-14T13:29:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-ביידאר, לבנון",
+      "lat": 33.8103,
+      "lon": 35.7619
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענות על דיונים סודיים בין נתניהו וטראמפ על תקיפה באיראן טרם הבחירות",
+   "ההערכות המדויקות על מועד מתקפה איראנית או אמריקנית רחבה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0766,
+    "unit": "ILS",
+    "change_pct": 0.05,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "תגובה מוחצת על כל פעילות עויינת",
+     "המשך הגנה על האינטרסים שלה למרות הסנקציות"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וימי באמצעות פגיעה בספינות במפרץ ושימוש בשלוחות",
+     "הרתעת ארה\"ב וישראל מפני תקיפות נוספות"
+    ],
+    "forecast": [
+     "הגברת פעילות השלוחות בתימן ובלבנון בהתאם להתפתחויות",
+     "שמירה על לחץ ימי סביב מצר הורמוז לקראת מועדי בחירות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הרתעת איראן ושלוחותיה מפני תקיפות נוספות",
+     "גביית מחיר כבד מחיזבאללה אם יצטרף למערכה"
+    ],
+    "inferred": [
+     "היערכות לתגובה צבאית אפשרית במקרה של מתקפה מצד איראן",
+     "שקילת עיתויים מבצעיים מול זירות הלחימה השונות"
+    ],
+    "forecast": [
+     "שמירת כוננות גבוהה לאורך הגבולות ובמרחב הימי",
+     "המשך תיאור מצב המוכנות מול איומי שלוח"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "בידוד כלכלי של איראן והחמרת סנקציות בתחום התעופה והאנרגיה"
+    ],
+    "inferred": [
+     "תמיכה בשותפות אזוריות מול תקיפות החות'ים והשלוחות",
+     "בחינת תגובות אסטרטגיות למניעת התחמשות גרעינית"
+    ],
+    "forecast": [
+     "המשך נוכחות צבאית ואכיפת לחץ כלכלי במסגרת מבצעים אזוריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/lebanons-false-claims-of-disarming-hezbollah/",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21623330",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-174",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131900",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94635",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rj3hadnszx",
+    "accessed_at": "2026-10-14T15:26:23+00:00"
+   }
+  ]
+ }
+}
