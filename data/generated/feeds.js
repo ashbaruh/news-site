@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T07:17:31+00:00",
-  "fetched_at": "2026-10-14T07:17:31+00:00"
+  "checked_at": "2026-10-14T08:17:15+00:00",
+  "fetched_at": "2026-10-14T08:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T07:17:43+00:00",
-  "fetched_at": "2026-10-14T07:17:43+00:00"
+  "checked_at": "2026-10-14T08:17:25+00:00",
+  "fetched_at": "2026-10-14T08:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,15 +79,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T07:17:43+00:00",
-  "fetched_at": "2026-10-14T07:17:43+00:00"
+  "checked_at": "2026-10-14T08:17:25+00:00",
+  "fetched_at": "2026-10-14T08:17:25+00:00"
  },
- "generated_at": "2026-10-14T07:17:43+00:00",
+ "generated_at": "2026-10-14T08:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אל על ודוראל יעשו היסטוריה. ומי המניות שישלמו את המחיר?",
+     "title": "קרבות צמרת בבורסה: שתי החברות שיעשו היסטוריה השבוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559385",
      "date": "2026-10-14T07:01:00+00:00"
     },
@@ -99,19 +99,34 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "עליות בפתיחה בתל אביב; טאואר מטפסת בקרוב ל-4%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
-     "date": "2026-10-14T07:06:00+00:00"
+     "title": "יוניון-הראל ודיסקונט מנסים להחיות מחדש את עסקת כאל: בוחנים העברת השליטה בקבוצה לקרנות השקעה אמריקאיות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559468",
+     "date": "2026-10-14T07:39:00+00:00"
     },
     {
-     "title": "אל על ודוראל יעשו היסטוריה. ומי המניות שישלמו את המחיר?",
+     "title": "עליות שערים בתל אביב; טאואר מטפסת בקרוב ל-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
+     "date": "2026-10-14T07:35:00+00:00"
+    },
+    {
+     "title": "עליות באירופה ובחוזים בניו יורק; תשואות האג\"ח בארה\"ב יורדות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
+     "date": "2026-10-14T07:25:00+00:00"
+    },
+    {
+     "title": "הברית מול טורקיה מתהדקת: ישראל עשויה לייצר טילים בליסטיים ביוון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559460",
+     "date": "2026-10-14T07:23:00+00:00"
+    },
+    {
+     "title": "כמה זמן תחכו על הקו? חברות הביטוח והפנסיה שעונות מהר, ואלו שלא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559463",
+     "date": "2026-10-14T07:12:00+00:00"
+    },
+    {
+     "title": "קרבות צמרת בבורסה: שתי החברות שיעשו היסטוריה השבוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559385",
      "date": "2026-10-14T07:01:00+00:00"
-    },
-    {
-     "title": "הנתון הקריטי שהמשקיעים יצפו לו, ובית ההשקעות שממליץ להסיט כספים ממניות לאג\"ח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
-     "date": "2026-10-14T04:07:00+00:00"
     },
     {
      "title": "חשד לריגול ב-OpenAI: מכשיר האזנה הוסתר בתוך נייר טואלט. עובד נעצר",
@@ -189,11 +204,6 @@ window.DB.generated = {
      "date": "2026-10-13T10:20:00+00:00"
     },
     {
-     "title": "נותנת עודף מ-100 מיליון שקל: מה הוביל לצלילת מניית המשביר מתחילת השנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559201",
-     "date": "2026-10-13T10:00:00+00:00"
-    },
-    {
      "title": "אירופה מהדקת את אבטחת הפרטיות, וחברות ישראליות חשופות לקנסות ענק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559070",
      "date": "2026-10-13T09:23:00+00:00"
@@ -212,17 +222,12 @@ window.DB.generated = {
      "title": "המיליארדר שהזהיר מ״בועה קלאסית בשווקים״ מציג - כך תיערכו לפיצוץ",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559144",
      "date": "2026-10-13T03:09:00+00:00"
-    },
-    {
-     "title": "נעילה מעורבת בוול סטריט; מיקרון ירדה וגררה מטה את מניות השבבים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559138",
-     "date": "2026-10-12T20:10:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T07:17:32+00:00",
-  "fetched_at": "2026-10-14T07:17:32+00:00"
+  "checked_at": "2026-10-14T08:17:16+00:00",
+  "fetched_at": "2026-10-14T08:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T07:17:33+00:00",
-  "fetched_at": "2026-10-14T07:17:33+00:00"
+  "checked_at": "2026-10-14T08:17:16+00:00",
+  "fetched_at": "2026-10-14T08:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2706,8 +2711,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T07:17:34+00:00",
-  "fetched_at": "2026-10-14T07:17:34+00:00"
+  "checked_at": "2026-10-14T08:17:17+00:00",
+  "fetched_at": "2026-10-14T08:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2872,8 +2877,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T07:17:34+00:00",
-  "fetched_at": "2026-10-14T07:17:34+00:00"
+  "checked_at": "2026-10-14T08:17:17+00:00",
+  "fetched_at": "2026-10-14T08:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2902,7 +2907,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 638,
+     "likes": 642,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2930,7 +2935,7 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 247,
+     "likes": 248,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
@@ -2944,14 +2949,14 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף Qwen Image Edit LoRAs",
-     "likes": 449,
+     "likes": 450,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 84,
+     "likes": 85,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     },
     {
@@ -2971,8 +2976,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T07:17:42+00:00",
-  "fetched_at": "2026-10-14T07:17:42+00:00"
+  "checked_at": "2026-10-14T08:17:23+00:00",
+  "fetched_at": "2026-10-14T08:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -3305,8 +3310,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T07:17:37+00:00",
-  "fetched_at": "2026-10-14T07:17:37+00:00"
+  "checked_at": "2026-10-14T08:17:19+00:00",
+  "fetched_at": "2026-10-14T08:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3336,8 +3341,9 @@ window.DB.generated = {
     "date": "2026-10-13T06:32:02+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-14T07:17:38+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-14T08:17:19+00:00",
   "fetched_at": "2026-10-14T07:17:38+00:00"
  },
  "feed_health": {
@@ -3345,44 +3351,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-14T07:12:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T08:14:00+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-14T07:06:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T07:39:00+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-14T04:07:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T07:25:00+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-14T06:04:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-14T06:47:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T07:55:00+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T06:51:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T08:00:00+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3394,34 +3400,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-14T07:12:12+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T08:14:39+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-13T15:10:26+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "seen_at": "2026-10-14T08:17:25+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T07:17:43+00:00"
+  "checked_at": "2026-10-14T08:17:25+00:00"
  }
 };
