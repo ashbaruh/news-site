@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T08:17:15+00:00",
-  "fetched_at": "2026-10-14T08:17:15+00:00"
+  "checked_at": "2026-10-14T09:17:26+00:00",
+  "fetched_at": "2026-10-14T09:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T08:17:25+00:00",
-  "fetched_at": "2026-10-14T08:17:25+00:00"
+  "checked_at": "2026-10-14T09:17:44+00:00",
+  "fetched_at": "2026-10-14T09:17:44+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Cambridge Audio’s new Spira turntable is “built to grow alongside” your record collection",
+    "title_he": "פטיפון Spira החדש של Cambridge Audio \"נבנה לצמוח לצד\" אוסף התקליטים שלך",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/cambridge-audios-new-spira-turntable-is-built-to-grow-alongside-your-record-collection",
+    "date": "2026-10-14T09:00:00+00:00"
+   },
    {
     "title_en": "Apple finally unveils a new Apple TV 4K streamer – and it comes with major surround sound, picture and Siri AI upgrades",
     "title_he": "אפל סוף סוף חושפת סטרימר Apple TV 4K חדש - והוא מגיע עם שדרוגי סראונד, תמונה ו-Siri AI גדולים",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/apple-homeview-is-a-homepod-with-a-screen-complete-with-spatial-audio",
     "date": "2026-10-13T15:02:00+00:00"
-   },
-   {
-    "title_en": "It's official! The HomePod Mini 2 has finally landed – and there's good news and bad news",
-    "title_he": "זה רשמי! ה-HomePod Mini 2 סוף סוף נחת - ויש חדשות טובות וחדשות רעות",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/its-official-the-homepod-mini-2-has-finally-landed-and-theres-good-news-and-bad-news",
-    "date": "2026-10-13T13:58:38+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T08:17:25+00:00",
-  "fetched_at": "2026-10-14T08:17:25+00:00"
+  "checked_at": "2026-10-14T09:17:45+00:00",
+  "fetched_at": "2026-10-14T09:17:45+00:00"
  },
- "generated_at": "2026-10-14T08:17:25+00:00",
+ "generated_at": "2026-10-14T09:17:45+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "קרבות צמרת בבורסה: שתי החברות שיעשו היסטוריה השבוע",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559385",
-     "date": "2026-10-14T07:01:00+00:00"
+     "title": "המניות הביטחוניות איבדו גובה, האם הן אטרקטיביות להשקעה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559391",
+     "date": "2026-10-14T09:01:00+00:00"
     },
     {
      "title": "טראמפ מאיים על איראן: \"ננחית עליה מכה קשה - כבר די נמאס לנו\"",
@@ -99,19 +99,34 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "יוניון-הראל ודיסקונט מנסים להחיות מחדש את עסקת כאל: בוחנים העברת השליטה בקבוצה לקרנות השקעה אמריקאיות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559468",
-     "date": "2026-10-14T07:39:00+00:00"
-    },
-    {
-     "title": "עליות שערים בתל אביב; טאואר מטפסת בקרוב ל-5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
-     "date": "2026-10-14T07:35:00+00:00"
-    },
-    {
      "title": "עליות באירופה ובחוזים בניו יורק; תשואות האג\"ח בארה\"ב יורדות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
-     "date": "2026-10-14T07:25:00+00:00"
+     "date": "2026-10-14T09:10:00+00:00"
+    },
+    {
+     "title": "בכנס של רובינהוד לסוחרים חובבי סיכון, לכל אחד יש סיפור כיצד התעשר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559217",
+     "date": "2026-10-14T09:07:00+00:00"
+    },
+    {
+     "title": "המניות הביטחוניות איבדו גובה, האם הן אטרקטיביות להשקעה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559391",
+     "date": "2026-10-14T09:01:00+00:00"
+    },
+    {
+     "title": "עליות בתל אביב; מניות טאואר ודוראל מזנקות ב-5%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559389",
+     "date": "2026-10-14T08:53:00+00:00"
+    },
+    {
+     "title": "מנכ\"ל חדש לרב בריח: טל כנעני יחליף את שמואל דונרשטיין, שיחזור לכיסא היו\"ר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559473",
+     "date": "2026-10-14T08:18:00+00:00"
+    },
+    {
+     "title": "יעבירו את השליטה? יוניון-הראל ודיסקונט במתווה חדש לעסקת כאל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559468",
+     "date": "2026-10-14T07:39:00+00:00"
     },
     {
      "title": "הברית מול טורקיה מתהדקת: ישראל עשויה לייצר טילים בליסטיים ביוון",
@@ -137,11 +152,6 @@ window.DB.generated = {
      "title": "האינפלציה בארה\"ב צפויה להאיץ - מה צפוי במדד המחירים לצרכן?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559323",
      "date": "2026-10-14T03:22:00+00:00"
-    },
-    {
-     "title": "המניות הביטחוניות איבדו גובה, האם הן אטרקטיביות להשקעה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559391",
-     "date": "2026-10-14T02:54:00+00:00"
     },
     {
      "title": "וול סטריט ננעלה בירידות קלות; מניות שבבי הזיכרון שוב ירדו",
@@ -184,11 +194,6 @@ window.DB.generated = {
      "date": "2026-10-13T13:16:00+00:00"
     },
     {
-     "title": "קוהאן נגד לוזון: ינסה לטרפד את ההשתלטות על חברת הנכסים שלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559341",
-     "date": "2026-10-13T12:45:00+00:00"
-    },
-    {
      "title": "הפרויקט של צה\"ל שמדאיג את סוריה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559326",
      "date": "2026-10-13T10:42:00+00:00"
@@ -202,11 +207,6 @@ window.DB.generated = {
      "title": "פיץ': תחזית דירוג האשראי של ישראל נותרת שלילית בשל העלייה הצפויה בחוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559333",
      "date": "2026-10-13T10:20:00+00:00"
-    },
-    {
-     "title": "אירופה מהדקת את אבטחת הפרטיות, וחברות ישראליות חשופות לקנסות ענק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559070",
-     "date": "2026-10-13T09:23:00+00:00"
     },
     {
      "title": "ארה\"ב יצאה מעיראק אחרי מעל 20 שנה, והשווי הדמיוני של חברת התרופות",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T08:17:16+00:00",
-  "fetched_at": "2026-10-14T08:17:16+00:00"
+  "checked_at": "2026-10-14T09:17:28+00:00",
+  "fetched_at": "2026-10-14T09:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T08:17:16+00:00",
-  "fetched_at": "2026-10-14T08:17:16+00:00"
+  "checked_at": "2026-10-14T09:17:29+00:00",
+  "fetched_at": "2026-10-14T09:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2711,8 +2711,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T08:17:17+00:00",
-  "fetched_at": "2026-10-14T08:17:17+00:00"
+  "checked_at": "2026-10-14T09:17:30+00:00",
+  "fetched_at": "2026-10-14T09:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2877,8 +2877,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T08:17:17+00:00",
-  "fetched_at": "2026-10-14T08:17:17+00:00"
+  "checked_at": "2026-10-14T09:17:30+00:00",
+  "fetched_at": "2026-10-14T09:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2900,14 +2900,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 16,
+   "candidates": 15,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 642,
+     "likes": 644,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2921,7 +2921,7 @@ window.DB.generated = {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 207,
+     "likes": 208,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
@@ -2935,14 +2935,14 @@ window.DB.generated = {
      "title": "The ultimate guide to multi-harness RL",
      "desc_en": "Train open models with RL inside real agent harnesses",
      "desc_he": "אמן דגמים פתוחים עם RL בתוך רתמות סוכן אמיתיות",
-     "likes": 248,
+     "likes": 249,
      "link": "https://huggingface.co/spaces/FineEnvs/multi-harness-rl"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 223,
+     "likes": 224,
      "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     },
     {
@@ -2976,12 +2976,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T08:17:23+00:00",
-  "fetched_at": "2026-10-14T08:17:23+00:00"
+  "checked_at": "2026-10-14T09:17:42+00:00",
+  "fetched_at": "2026-10-14T09:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"הדבר האמיתי, אבדיה מוכן לעשות עוד צעד קדימה\"",
+     "link": "https://www.one.co.il/Article/535968.html?ref=rss",
+     "date": "2026-10-14T08:38:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "מוראנט פירגן, לילארד מתחבר: פורטלנד מתלהבת מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3872109",
@@ -3310,11 +3319,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T08:17:19+00:00",
-  "fetched_at": "2026-10-14T08:17:19+00:00"
+  "checked_at": "2026-10-14T09:17:34+00:00",
+  "fetched_at": "2026-10-14T09:17:34+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "\"חריגה מסמכות עד כדי סיכון ביטחון המדינה\": חייל נעצר בחשד להוצאת שבבי זיכרון מהצבא",
+    "link": "https://www.walla.co.il/news/military/383957379",
+    "date": "2026-10-14T07:27:30+00:00"
+   },
    {
     "title": "תחקירי המלחמה יטלטלו את צה\"ל? הקרב על סגן הרמטכ\"ל הבא מתחמם",
     "link": "https://www.walla.co.il/news/military/383957374",
@@ -3334,100 +3348,94 @@ window.DB.generated = {
     "title": "לא כטב\"ם ולא רחפן: צה\"ל מעריך שהעצם שחדר לישראל היה בלון",
     "link": "https://www.walla.co.il/news/military/383957237",
     "date": "2026-10-13T06:54:25+00:00"
-   },
-   {
-    "title": "סוכל פיגוע בצפון השומרון: ארבעה מחבלי ג'יהאד איסלאמי נעצרו",
-    "link": "https://www.walla.co.il/news/military/383957234",
-    "date": "2026-10-13T06:32:02+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-14T08:17:19+00:00",
-  "fetched_at": "2026-10-14T07:17:38+00:00"
+  "ok": true,
+  "checked_at": "2026-10-14T09:17:34+00:00",
+  "fetched_at": "2026-10-14T09:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-14T08:14:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:10:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-14T07:39:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:10:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-14T07:25:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:10:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-14T06:04:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T08:00:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-14T07:55:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T08:30:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T08:00:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:04:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-14T06:41:42+00:00",
-    "seen_at": "2026-10-14T07:17:43+00:00",
+    "newest": "2026-10-14T07:27:30+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-14T08:14:39+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:00:01+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-13T15:10:26+00:00",
-    "seen_at": "2026-10-14T08:17:25+00:00",
+    "newest": "2026-10-14T09:00:00+00:00",
+    "seen_at": "2026-10-14T09:17:45+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T08:17:25+00:00"
+  "checked_at": "2026-10-14T09:17:45+00:00"
  }
 };
