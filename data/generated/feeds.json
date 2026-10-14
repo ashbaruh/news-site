@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:02:52+00:00",
-  "fetched_at": "2026-10-14T12:02:52+00:00"
+  "checked_at": "2026-10-14T12:17:13+00:00",
+  "fetched_at": "2026-10-14T12:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:02:59+00:00",
-  "fetched_at": "2026-10-14T12:02:59+00:00"
+  "checked_at": "2026-10-14T12:17:26+00:00",
+  "fetched_at": "2026-10-14T12:17:26+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Should you watch Avengers: Doomsday in Infinity Vision? Here are my thoughts after Avengers Endgame: Encore…",
+    "title_he": "האם כדאי לראות את Avengers: Doomsday בחזון האינסוף? הנה המחשבות שלי אחרי Avengers Endgame: Encore...",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/should-you-watch-avengers-doomsday-in-infinity-vision-here-are-my-thoughts-after-avengers-endgame-encore",
+    "date": "2026-10-14T12:12:53+00:00"
+   },
    {
     "title_en": "Linn’s high-end active speakers are designed to produce “an unshakeable illusion of reality”",
     "title_he": "הרמקולים האקטיביים היוקרתיים של לין נועדו לייצר \"אשליה בלתי מעורערת של המציאות\"",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/man-city-vs-psg-free-champions-league-2026-27",
     "date": "2026-10-14T11:00:00+00:00"
-   },
-   {
-    "title_en": "Sony WH-CH530",
-    "title_he": "סוני WH-CH530",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/sony-wh-ch530",
-    "date": "2026-10-14T10:55:35+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:03:03+00:00",
-  "fetched_at": "2026-10-14T12:03:03+00:00"
+  "checked_at": "2026-10-14T12:17:28+00:00",
+  "fetched_at": "2026-10-14T12:17:28+00:00"
  },
- "generated_at": "2026-10-14T12:03:03+00:00",
+ "generated_at": "2026-10-14T12:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:02:53+00:00",
-  "fetched_at": "2026-10-14T12:02:53+00:00"
+  "checked_at": "2026-10-14T12:17:14+00:00",
+  "fetched_at": "2026-10-14T12:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:02:53+00:00",
-  "fetched_at": "2026-10-14T12:02:53+00:00"
+  "checked_at": "2026-10-14T12:17:15+00:00",
+  "fetched_at": "2026-10-14T12:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2709,8 +2709,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:02:54+00:00",
-  "fetched_at": "2026-10-14T12:02:54+00:00"
+  "checked_at": "2026-10-14T12:17:16+00:00",
+  "fetched_at": "2026-10-14T12:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2875,8 +2875,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:02:54+00:00",
-  "fetched_at": "2026-10-14T12:02:54+00:00"
+  "checked_at": "2026-10-14T12:17:16+00:00",
+  "fetched_at": "2026-10-14T12:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2889,19 +2889,17 @@
      "title": "גוגל משיקה את Gemini 4 Argon שזמין עכשיו לכולם"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "date": "2026-10-13T16:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "date": "2026-10-13T19:43:07+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Argon: Built to solve your hardest problems",
-     "title_he": "Gemini 4 Argon: נבנה כדי לפתור את הבעיות הקשות ביותר שלך",
+     "title_en": "Developing Gemini 4 Argon responsibly and safely",
+     "title_he": "פיתוח Gemini 4 Argon בצורה אחראית ובטוחה",
      "translated_by": "google"
     }
    ],
-   "candidates": 11,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 15,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -2976,8 +2974,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:02:59+00:00",
-  "fetched_at": "2026-10-14T12:02:59+00:00"
+  "checked_at": "2026-10-14T12:17:25+00:00",
+  "fetched_at": "2026-10-14T12:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3319,8 +3317,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-14T12:02:56+00:00",
-  "fetched_at": "2026-10-14T12:02:56+00:00"
+  "checked_at": "2026-10-14T12:17:19+00:00",
+  "fetched_at": "2026-10-14T12:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3351,8 +3349,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-14T12:02:57+00:00",
-  "fetched_at": "2026-10-14T12:02:57+00:00"
+  "checked_at": "2026-10-14T12:17:20+00:00",
+  "fetched_at": "2026-10-14T12:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3360,82 +3358,82 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-14T11:52:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-14T11:34:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-14T10:09:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-14T11:47:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-14T10:57:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-14T11:49:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "newest": "2026-10-14T12:02:00+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-14T11:58:46+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-14T11:17:35+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-14T11:56:35+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-14T11:51:38+00:00",
-    "seen_at": "2026-10-14T12:03:03+00:00",
+    "newest": "2026-10-14T12:12:53+00:00",
+    "seen_at": "2026-10-14T12:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-14T12:03:03+00:00"
+  "checked_at": "2026-10-14T12:17:28+00:00"
  }
 }
