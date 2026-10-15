@@ -320,6 +320,10 @@
 4.6534,
 -74.0836
 ],
+"borisoglebsk, russia": [
+51.368,
+42.0752
+],
 "boryspil, ukraine": [
 50.3512,
 30.9508
@@ -396,9 +400,17 @@
 47.0245,
 28.8323
 ],
+"chornobyl, ukraine": [
+51.2705,
+30.2196
+],
 "chornomorsk, ukraine": [
 46.3013,
 30.6549
+],
+"chortkiv, ukraine": [
+49.0161,
+25.7925
 ],
 "chuhuiv, ukraine": [
 49.8366,
@@ -510,6 +522,7 @@
 33.4878,
 36.3496
 ],
+"eastern province, saudi arabia": null,
 "erbil, iraq": [
 36.1912,
 44.0094
@@ -888,6 +901,10 @@
 "kursk, russia": [
 51.727,
 36.1922
+],
+"kutuzivka, ukraine": [
+47.3299,
+30.9476
 ],
 "kyiv oblast, ukraine": null,
 "kyiv region, ukraine": [
@@ -1365,6 +1382,7 @@
 34.749
 ],
 "sa'ada, yemen": null,
+"saada governorate, yemen": null,
 "saada, yemen": [
 16.9409,
 43.763
@@ -1520,6 +1538,7 @@
 35.5571,
 45.4426
 ],
+"sulina canal, romania": null,
 "sumy oblast, ukraine": null,
 "sumy, ukraine": [
 50.912,

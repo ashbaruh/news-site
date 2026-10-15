@@ -1,0 +1,383 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c82b2b44ca80",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 5,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-15T05:07:59+00:00",
+  "window": {
+   "from": "2026-10-14T05:07:59+00:00",
+   "to": "2026-10-15T05:07:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610150507"
+  },
+  "summary": "הזירה בתימן וסעודיה מתאפיינת בהסלמה צבאית חריפה, הכוללת מתקפות כטב\"מים וטילים של החות'ים לעבר מתקני נפט ושדות תעופה בשטח סעודיה (כולל פגיעה במטה אראמכו בדהאראן ובריאד), לצד תקיפות נגד של הקואליציה בהובלת סעודיה בתימן. במקביל, מתנהלת לחימה קרקעית עצימה בתוך תימן סביב העיר תעז ובמחוזות הדרום, המלווה באזהרות של גורמים בינלאומיים מפני אסון הומניטרי חמור.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעיל והסלמה חריפה"
+   },
+   {
+    "name": "החזית הפנימית בתימן (תעז והדרום)",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10150507-01",
+    "title": "יירוט כטב\"ם מעל המחוז המזרחי בסעודיה",
+    "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה כטב\"ם חודר במרחב האווירי של סעודיה.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T01:48:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T01:48:44+00:00",
+    "last_update_at": "2026-10-15T01:48:44+00:00",
+    "what_is_not_verified": "לא צוינו פרטים לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_fca2422cf4fffa0c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-drone-over-saudi-airspace-spokesman-says",
+      "published_at": "2026-10-15T01:48:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10150507-02",
+    "title": "טענת החות'ים על פגיעה במטוס סעודי",
+    "summary": "החות'ים טענו שפגעו במטוס קרב סעודי מסוג טייפון באמצעות טיל אוויר-אוויר במרחב האווירי של תימן.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T22:54:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T22:54:25+00:00",
+    "last_update_at": "2026-10-15T01:48:44+00:00",
+    "what_is_not_verified": "השלטונות הסעודיים ומקורות עצמאיים לא אישרו את דבר המתקפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-drone-over-saudi-airspace-spokesman-says",
+      "published_at": "2026-10-15T01:48:44+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-saudi-military-aircraft-struck-directly-over-yemen",
+      "published_at": "2026-10-14T23:07:57+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48565",
+      "published_at": "2026-10-14T22:54:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10150507-03",
+    "title": "הנחיות חירום לשגרירות ארצות הברית בסעודיה",
+    "summary": "שגרירות ארצות הברית בסעודיה דרשה מציבור העובדים שלה לקבל אישור מיוחד לשימוש בשדות תעופה בממלכה בעקבות מתקפות הטילים והכטב\"מים האחרונות.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T01:05:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T01:05:25+00:00",
+    "last_update_at": "2026-10-15T01:05:25+00:00",
+    "what_is_not_verified": "לא צוינו פרטים לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ced3d13331e15661",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-employees-need-special-authorisation-use-saudi-airports",
+      "published_at": "2026-10-15T01:05:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     },
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10150507-04",
+    "title": "קריאת האיחוד האירופי להסרת המצור מעל תעז",
+    "summary": "האיחוד האירופי קרא לכוחות החות'ים להסיר את המצור מעל העיר תעז כדי לאפשר הכנסת סיוע הומניטרי.",
+    "axis": "הלחימה בתימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T19:58:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T19:58:55+00:00",
+    "last_update_at": "2026-10-14T22:55:05+00:00",
+    "what_is_not_verified": "לא צוינו פרטים לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4aab342bb9b750bb",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-calls-houthis-lift-siege-yemens-taiz",
+      "published_at": "2026-10-14T22:55:05+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ef042f1b96523595",
+      "url": "https://www.sabanew.net/viewstory/154013",
+      "published_at": "2026-10-14T19:58:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10150507-05",
+    "title": "עימותים ונפגעים באזור תעז לפי הצבא בתימן",
+    "summary": "צבא תימן דיווח על הרוגים ופצועים בקרב כוחות החות'ים במהלך עימותים במחוז תעז.",
+    "axis": "הלחימה בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T21:58:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T21:58:01+00:00",
+    "last_update_at": "2026-10-14T21:58:01+00:00",
+    "what_is_not_verified": "הנתונים על מספר הנפגעים לא אומתו בידי מקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_77af19a7e8c03a61",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-says-200-houthis-killed-wounded-clashes-taiz",
+      "published_at": "2026-10-14T21:58:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10150507-06",
+    "title": "פגיעה במטה חברת אראמכו בסעודיה",
+    "summary": "החות'ים תקפו את מטה חברת הנפט אראמכו בדמאם/דהראן, ורשויות סעודיה אישרו כי התפתחה שריפה מוגבלת במקום.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T08:51:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T08:51:14+00:00",
+    "last_update_at": "2026-10-14T18:23:53+00:00",
+    "what_is_not_verified": "היקף הנזק המלא מעבר למה שדווח לא אומת באופן עצמאי מלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks",
+      "published_at": "2026-10-14T18:23:53+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T12:26:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131894",
+      "published_at": "2026-10-14T08:51:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהראן, סעודיה",
+      "lat": 26.2967,
+      "lon": 50.1202
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10150507-07",
+    "title": "קריאה לגיוס כללי בדרום תימן נגד החות'ים",
+    "summary": "מנהיג בדלני בדרום תימן קרא לתושבים לבצע גיוס כללי כדי לעצור את התקדמות החות'ים.",
+    "axis": "הלחימה בתימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T16:41:38+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T16:41:38+00:00",
+    "last_update_at": "2026-10-14T16:41:38+00:00",
+    "what_is_not_verified": "לא צוינו פרטים לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-separatist-leader-calls-mobilisation-against-houthis",
+      "published_at": "2026-10-14T16:41:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10150507-08",
+    "title": "גינוי הרשות הפלסטינית למתקפות החות'ים",
+    "summary": "הרשות הפלסטינית גינתה את מתקפות החות'ים על שדה התעופה בריאד והביעה סולידריות עם סעודיה.",
+    "axis": "תימן והחות'ים - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T11:01:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T11:01:58+00:00",
+    "last_update_at": "2026-10-14T11:01:58+00:00",
+    "what_is_not_verified": "לא צוינו פרטים לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-saudi-tensions-rise-palestinians-question-irans-goals",
+      "published_at": "2026-10-14T11:01:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים כי פגעו ישירות במטוס קרב סעודי מסוג טייפון מעל צעדה",
+   "היקף הנזק המדויק במטה חברת אראמכו מעבר לשריפה המוגבלת שדווחה",
+   "מספרי הנפגעים המדויקים בקרבות בתעז"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0766,
+    "unit": "ILS",
+    "change_pct": 0.05,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשך התקיפות על שדות תעופה ומתקני אנרגיה בסעודיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ פוליטי וצבאי להשגת הכרה בלגיטימיות של שלטונם",
+     "הרחבת השליטה הטריטוריאלית בתימן ופגיעה בתשתיות סעודיות"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדים בסעודיה",
+     "ניסיונות להדק את המצור על ערים מרכזיות כמו תעז"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על מתקנים חיוניים ואזרחיים בממלכה",
+     "יירוט איומים אוויריים בשמי סעודיה"
+    ],
+    "inferred": [
+     "תגובה צבאית באמצעות תקיפות אוויריות בתימן כדי לבלום את מתקפות החות'ים",
+     "התמודדות עם קריסת אסטרטגיית ההכלה שהונהגה בשנים האחרונות"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות נגד מעוזי החות'ים בצנעא ובאזורים נוספים",
+     "הגברת אמצעי האבטחה סביב מתקני תשתית קריטיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-says-200-houthis-killed-wounded-clashes-taiz",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-saudi-tensions-rise-palestinians-question-irans-goals",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154013",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131894",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48565",
+    "accessed_at": "2026-10-15T05:07:59+00:00"
+   }
+  ]
+ }
+}

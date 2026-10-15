@@ -1,0 +1,347 @@
+{
+ "status": "draft",
+ "received_sha256_12": "69e7864565a6",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "assessment": 1,
+   "shared_root": 2,
+   "initial": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-15T05:05:44+00:00",
+  "window": {
+   "from": "2026-10-14T05:05:44+00:00",
+   "to": "2026-10-15T05:05:44+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610150505"
+  },
+  "summary": "העימות הצבאי והכלכלי בין איראן לבין ארה\"ב מחריף על רקע מצור ימי אמריקאי וסנקציות, לצד תוכניות תקיפה הכוללות שימוש בחימוש כבד נגד אתרי גרעין ותשתיות. בתגובה, איראן מגבירה את הפגיעה בכלי שיט מסחריים במצר הורמוז ומשלבת פעולות לוחמת מידע ורשת. במקביל, שני הצדדים מחליפים איומים בהמשך הלחימה עד להשגת ויתורים הדדיים.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "הסלמה ימית הכוללת פגיעה בספינות סוחר, הטבעת כלי שיט ופעילות סיור הדדית מול הכוחות האמריקאיים"
+   },
+   {
+    "name": "החזית הכלכלית והסנקציות",
+    "status": "אכיפת מצור על נמלים והטלת עיצומים פיננסיים לצד צמצום ייצוא הנפט האיראני"
+   },
+   {
+    "name": "מערכת התודעה והסייבר",
+    "status": "מבצעי השפעה מבוססי בינה מלאכותית ורשתות חשבונות מזויפים המכוונים לשיח הפוליטי בארה\"ב"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10150505-01",
+    "title": "תוכניות תקיפה אמריקאיות הכוללות שימוש בפצצה כבדה נגד אתרי גרעין ואנרגיה באיראן",
+    "summary": "הצבא האמריקאי גיבש תוכניות מבצעיות הכוללות אפשרות לשימוש בפצצת ענק מסוג GBU-43/B נגד תשתיות אנרגיה ואתרי גרעין באיראן, בכפוף להוראת הנשיא.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T04:15:35+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T04:15:35+00:00",
+    "last_update_at": "2026-10-15T04:46:27+00:00",
+    "what_is_not_verified": "האם התוכניות יאושרו לפועל ומה מידת היעילות המבצעית נגד היעדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_cnn",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-military-weighs-use-mother-all-bombs-potential-future-strikes-iran-cnn-says",
+      "published_at": "2026-10-15T04:46:27+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_cnn",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21629608",
+      "published_at": "2026-10-15T04:44:37+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_cnn",
+      "url": "https://www.ynet.co.il/news/article/hksqbr6igg",
+      "published_at": "2026-10-15T04:15:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10150505-02",
+    "title": "השמדת כלי שיט איראני שעסק במעקב על ידי צבא ארה\"ב",
+    "summary": "כוחות ארה\"ב השמידו סירה השייכת למשמרות המהפכה במרחב הימי לאחר שעקבה אחר ספינות אמריקאיות, כאשר אנשי צוותה נטשו אותה טרם התקיפה.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T20:06:51+00:00",
+    "last_update_at": "2026-10-15T02:37:14+00:00",
+    "what_is_not_verified": "קיים חוסר התאמה במיקום המדויק בין מצר הורמוז למפרץ עומאן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48568",
+      "published_at": "2026-10-15T02:37:14+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
+      "published_at": "2026-10-14T23:58:13+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94656",
+      "published_at": "2026-10-14T20:06:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10150505-03",
+    "title": "השבתת אלפי חשבונות המיוחסים למבצעי השפעה זרים ברשת החברתית",
+    "summary": "הנהלת פלטפורמת X הודיעה על חסימת יותר מ-13 אלף חשבונות שהיו מעורבים בפעילות השפעה פוליטית המקושרת בין היתר לאיראן לקראת הבחירות בארה\"ב.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T02:14:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T02:14:04+00:00",
+    "last_update_at": "2026-10-15T02:14:04+00:00",
+    "what_is_not_verified": "החלוקה המדויקת של כמות החשבונות שמשויכים ספציפית לאיראן מתוך הסך הכולל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/x-suspends-13000-accounts-linked-iran-china-and-russia-targeting-us",
+      "published_at": "2026-10-15T02:14:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10150505-04",
+    "title": "פגיעה והטבעת ספינות סוחר במרחב מצר הורמוז",
+    "summary": "שני כלי שיט מסחריים, כולל אוניית מכולות, טבעו במצר הורמוז לאחר שנפגעו משיגורים ומטענים במסגרת תקיפות איראניות נגד נתיבי שיט.",
+    "axis": "איראן-נתיבי שיט",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T15:34:19+00:00",
+    "last_update_at": "2026-10-15T00:00:00+00:00",
+    "what_is_not_verified": "סוג החימוש המדויק שפגע בכל אחת מהספינות (טיל, כטב\"ם או מוקש)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+      "published_at": "2026-10-15T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131926",
+      "published_at": "2026-10-14T19:31:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/two-ships-sink-near-hormuz-after-being-hit-projectiles-amid-surge-attacks",
+      "published_at": "2026-10-14T17:46:37+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+      "published_at": "2026-10-14T17:05:42+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94652",
+      "published_at": "2026-10-14T16:58:38+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T15:34:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10150505-05",
+    "title": "קנס כספי נרחב על מוסד פיננסי אמריקאי עקב הפרת סנקציות",
+    "summary": "משרד האוצר של ארה\"ב הטיל עיצום כספי על בנק אוף אמריקה בעקבות כשלים מתמשכים בדיווח על עסקאות חשודות והעברת תשלומים בניגוד למשטר העיצומים מול איראן ומדינות נוספות.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T19:15:43+00:00",
+    "last_update_at": "2026-10-14T19:15:43+00:00",
+    "what_is_not_verified": "הסכום המדויק של כספים שהועברו ספציפית לטובת גורמים איראניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/bank-of-america-hit-with-historic-1-2-billion-fine-for-illicit-finance-failures/",
+      "published_at": "2026-10-14T19:15:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10150505-06",
+    "title": "הפעלת רשת כותבים וזהויות פיקטיביות מבוססות בינה מלאכותית מטעם איראן",
+    "summary": "נחשפה פעילות איראנית שעשתה שימוש בבינה מלאכותית ליצירת דמויות עיתונאים מערביים בדויים ופרסום עשרות מאמרים בכלי תקשורת מקוונים נגד ארה\"ב וישראל.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T14:30:43+00:00",
+    "last_update_at": "2026-10-14T14:30:43+00:00",
+    "what_is_not_verified": "זהות המפעילים המדויקת בתוך מנגנוני המשטר האיראני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_openai",
+      "url": "https://www.fdd.org/analysis/bogus-bylines-ai-lets-one-iran-origin-operation-run-the-full-influence-playbook/",
+      "published_at": "2026-10-14T14:30:43+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת נשיא ארה\"ב בדבר השמדת כלל מערכי ההגנה האווירית, הצי והמכ\"ם של איראן",
+   "ההתחייבות הנטענת של נשיא ארה\"ב שלא לפגוע בהנהגה האיראנית הנוכחית",
+   "מידת ההיתכנות וההשפעה המבצעית של הטלת פצצת GBU-43/B על מתקן המכוש",
+   "היקף התקיפות האוויריות המתוכננות ומשך הזמן המדויק שלהן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0766,
+    "unit": "ILS",
+    "change_pct": 0.05,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להמשיך בלחימה עד שארצות הברית תיענה לדרישותיה ותשנה את התנהלותה",
+     "להגיב לתקיפות, למצור הימי על הנמלים ולהחרפת הסנקציות הכלכליות"
+    ],
+    "inferred": [
+     "לשבש את תנועת הנפט העולמית במצר הורמוז כדי ליצור לחץ כלכלי ופוליטי בינלאומי",
+     "לשמר יכולות גרעיניות והרתעה צבאית מול איומי הפצצה אמריקאיים"
+    ],
+    "forecast": [
+     "המשך פגיעה מכוונת בספינות סוחר ואוניות משא במפרץ",
+     "שילוב מתמשך של תעמולה ולוחמת מידע לקראת מועדי בחירות בארה\"ב"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "לסיים את המלחמה בהקדם ולהביא להורדת מחירי הדלק בעולם",
+     "שליטה מלאה במרחב השיט במצר הורמוז ומניעת התבססות איומים"
+    ],
+    "inferred": [
+     "חיסול מוקדי הפיקוד, מערכי ההגנה ותשתיות האנרגיה והגרעין של איראן",
+     "כפיית תנאי סיום נוחים ושיקום הרתעה אזורית בטרם בחירות האמצע"
+    ],
+    "forecast": [
+     "הוצאה לפועל של מכות אש כבדות נגד יעדים אסטרטגיים אם יינתן אישור הפיקוד הבכיר",
+     "הגברת האכיפה נגד מערכות פיננסיות וסחר עוקף עיצומים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/two-ships-sink-near-hormuz-after-being-hit-projectiles-amid-surge-attacks",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/bogus-bylines-ai-lets-one-iran-origin-operation-run-the-full-influence-playbook/",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21629608",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/x-suspends-13000-accounts-linked-iran-china-and-russia-targeting-us",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131926",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48568",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94652",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hksqbr6igg",
+    "accessed_at": "2026-10-15T05:05:44+00:00"
+   }
+  ]
+ }
+}

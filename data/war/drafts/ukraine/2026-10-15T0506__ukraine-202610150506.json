@@ -1,0 +1,555 @@
+{
+ "status": "draft",
+ "received_sha256_12": "92b53bd15431",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "shared_root": 4,
+   "initial": 8
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-15T05:06:41+00:00",
+  "window": {
+   "from": "2026-10-14T05:06:41+00:00",
+   "to": "2026-10-15T05:06:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "ukraine-202610150506"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בלחץ אווירי רוסי כבד על מתקני אנרגיה, תשתיות תחבורה ומבני מגורים בעורף האוקראיני, לצד תקיפות נגד אוקראיניות לעבר מתקנים צבאיים ומכליות נפט ברוסיה ובים השחור. במישור הקרקעי נרשמת פעילות מבצעית בגזרת לימאן שבדונצק לצד לחימה ופעולות בעורף הכוחות במחוז חרקוב. במקביל נרשמת טלטלה ביחסים הדיפלומטיים והמבצעיים של אוקראינה עם ארצות הברית נוכח עסקת סולר בין וושינגטון למוסקבה והגבלות שימוש ברשת התקשורת סטארלינק.",
+  "fronts": [
+   {
+    "name": "גזרת לימאן (מחוז דונצק)",
+    "status": "כוחות אוקראינים מדווחים על התקדמות ושחרור שטחים במסגרת פעילות התקפית"
+   },
+   {
+    "name": "העורף והתשתיות באוקראינה",
+    "status": "תקיפות אוויריות רוסיות חוזרות ונשנות נגד מטרות תעשייה, אנרגיה ומגורים במחוזות טרנופול, דניפרופטרובסק, קירובוהראד, אודסה וקייב"
+   },
+   {
+    "name": "הים השחור",
+    "status": "פעילות כטב\"מים ימיים ותקיפות הדדיות על מכליות דלק ונפט סמוך לחופי רוסיה ותעלת סולינה"
+   },
+   {
+    "name": "גזרת אוריחיב (זפוריז'יה)",
+    "status": "טענות מומחים רוסים על שחיקת הכוחות האוקראיניים באזור"
+   },
+   {
+    "name": "מחוז חרקוב",
+    "status": "תקריות ירי בעורף הכוחות ומעצר חייל רוסי"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10150506-01",
+    "title": "הגבלות והשבה חלקית של מהירות רשת סטארלינק עבור צבא אוקראינה",
+    "summary": "הוטלו מגבלות מהירות על מסופי מערכת התקשורת הלוויינית סטארלינק וסטארשילד באוקראינה, שפגעו בהפעלת כטב\"מים. בהמשך נמסר על שחזור הפעילות במהירות של עד מאה ושישים קילומטרים בשעה.",
+    "axis": "עורף וטכנולוגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T18:00:00+00:00",
+    "last_update_at": "2026-10-15T04:43:04+00:00",
+    "what_is_not_verified": "הגורם הישיר המדויק להטלת המגבלה ומניעיו, והאם המהירות הוגבלה בתחילה ל-70 קמ\"ש או ל-161 קמ\"ש בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/starshield-starlink-ukraine-restriction-explained",
+      "published_at": "2026-10-15T04:43:04+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/14/starshield-systems-are-owned-and-controlled-by-the-u-s-government-musk-responds-to-ukraine-s-complaints-about-restrictions-on-the-military-version-of-starlink",
+      "published_at": "2026-10-14T20:34:10+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131923",
+      "published_at": "2026-10-14T18:13:01+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058054/",
+      "published_at": "2026-10-14T18:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10150506-02",
+    "title": "פגיעת כטב\"ם רוסי במפעל ייצור בצ'ורטקיב",
+    "summary": "מתקפת כטב\"ם פגעה במתקן ייצור במחוז טרנופול וגרמה לפציעתם של חמישה בני אדם.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T04:16:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T04:16:00+00:00",
+    "last_update_at": "2026-10-15T04:16:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למתקן הייצור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4174550-drone-attack-damages-business-in-ternopil-region-five-people-injured.html",
+      "published_at": "2026-10-15T04:16:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'ורטקיב, אוקראינה",
+      "lat": 49.0161,
+      "lon": 25.7925
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-03",
+    "title": "תקיפות במחוז דניפרופטרובסק ודליקות מגורים בפבלוהראד",
+    "summary": "הפגזות ותקיפות במחוז דניפרופטרובסק גרמו למותם של שני בני אדם, ומספר בתים פרטיים עלו באש בפבלוהראד.",
+    "axis": "מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T03:48:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T03:48:43+00:00",
+    "last_update_at": "2026-10-15T03:48:43+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בפבלוהראד טרם הוערך סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-attacks-on-dnipropetrovsk-oblast-kill-2-spark-residential-fires/",
+      "published_at": "2026-10-15T03:48:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פבלוהראד, אוקראינה",
+      "lat": 48.5317,
+      "lon": 35.8704
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-04",
+    "title": "מתקפת טילים אוקראינית על בסיס אוויר בוריסוגלבסק",
+    "summary": "טילים אוקראיניים שוגרו לעבר שדה התעופה הצבאי בוריסוגלבסק שבמחוז וורונז'.",
+    "axis": "שטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T01:25:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T01:25:46+00:00",
+    "last_update_at": "2026-10-15T01:25:46+00:00",
+    "what_is_not_verified": "היקף הנזק שנגרם בשדה התעופה הצבאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48567",
+      "published_at": "2026-10-15T01:25:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בוריסוגלבסק, רוסיה",
+      "lat": 51.368,
+      "lon": 42.0752
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-05",
+    "title": "תקיפת יעדי תחבורה ותעשייה בקרופיבניצקי",
+    "summary": "מתקפה רוסית אינטנסיבית כוונה אל מוקדי לוגיסטיקה, תחבורה ותעשייה בקרופיבניצקי והביאה למותם של שלושה בני אדם ולפציעת שישה.",
+    "axis": "מרכז אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T23:09:14+00:00",
+    "last_update_at": "2026-10-14T23:09:14+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/intense-russian-assault-on-kropyvnytskyi-kills-3-injures-6/",
+      "published_at": "2026-10-14T23:09:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרופיבניצקי, אוקראינה",
+      "lat": 48.5106,
+      "lon": 32.2656
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-06",
+    "title": "הערכות לזיהום נפט בים השחור בעקבות פגיעה במכלית סמוך לסוצ'י",
+    "summary": "בעקבות תקיפת כטב\"מים ימיים על מכלית נפט סמוך לסוצ'י, ארגון גרינפיס דיווח על כתם נפט נרחב, בעוד השלטונות ברוסיה הכחישו זיהום אך הטילו הגבלות רחצה והכריזו על כוננות.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T21:00:12+00:00",
+    "last_update_at": "2026-10-14T21:00:12+00:00",
+    "what_is_not_verified": "האם אכן נגרם זיהום סביבתי של ממש והאם המכלית נשאה נפט גולמי או הפליגה ריקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/15/greenpeace-reports-another-huge-oil-slick-in-the-black-sea-following-an-attack-on-a-tanker-off-sochi-s-coastline-russia-denies-any-pollution-but-has-declared-a-h-alert",
+      "published_at": "2026-10-14T21:00:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סוצ'י, רוסיה",
+      "lat": 43.5855,
+      "lon": 39.7231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-07",
+    "title": "פגיעה בבניין מגורים באודסה",
+    "summary": "תקיפה רוסית פגעה בבניין רב-קומות באודסה והסבה נזק לחזית, לדירה ולחלונות ללא דיווח על נפגעים.",
+    "axis": "דרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T20:48:00+00:00",
+    "last_update_at": "2026-10-14T20:48:00+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a52f68c53c1145b2",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058064/",
+      "published_at": "2026-10-14T20:48:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-08",
+    "title": "תקרית ירי ומעצר חייל רוסי במחוז חרקוב",
+    "summary": "חמישה חיילים מהחטיבה הממוכנת ה-72 של אוקראינה נורו למוות בכפר קוטוזיבקה. שירות הביטחון האוקראיני עצר חייל רוסי בן שלושים ושש מסנקט פטרבורג בחשד לביצוע המעשה.",
+    "axis": "צפון-מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T19:50:36+00:00",
+    "last_update_at": "2026-10-14T20:39:37+00:00",
+    "what_is_not_verified": "המניע לירי, האם החשוד נמלט משבי, והאם נהרג גם אזרח מקומי במהלך המנוסה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/14/ukraine-detains-russian-soldier-after-five-ukrainian-troops-shot-dead-in-kharkiv-region",
+      "published_at": "2026-10-14T20:39:37+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48562",
+      "published_at": "2026-10-14T19:50:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קוטוזיבקה, אוקראינה",
+      "lat": 47.3299,
+      "lon": 30.9476
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-09",
+    "title": "דיווח על תקיפת מכלית דלק בפתח תעלת סולינה",
+    "summary": "כטב\"מים רוסיים תקפו על פי דיווח מכלית דלק שהובילה אספקה לאוקראינה בתוך מימיה הטריטוריאליים של רומניה.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T20:23:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T20:23:10+00:00",
+    "last_update_at": "2026-10-14T20:23:10+00:00",
+    "what_is_not_verified": "התרחשות התקיפה במים הטריטוריאליים הרומניים ומצב המכלית נשענים על דיווחים ראשוניים בלבד ואינם מאומתים רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48563",
+      "published_at": "2026-10-14T20:23:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10150506-10",
+    "title": "התקדמות אוקראינית בגזרת לימאן במחוז דונצק",
+    "summary": "הקורפוס השלישי של צבא אוקראינה הודיע על שחרור מאה ואחד קילומטרים רבועים נוספים במסגרת מבצע צבאי בגזרת לימאן.",
+    "axis": "חזית דונצק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T17:51:27+00:00",
+    "last_update_at": "2026-10-14T17:51:27+00:00",
+    "what_is_not_verified": "אימות עצמאי מעבר להודעת הקורפוס האוקראיני על היקף השטח ששוחרר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-operation-vivaldi-liberates-another-101-square-kilometers-in-donetsk-oblast/",
+      "published_at": "2026-10-14T17:51:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לימאן, אוקראינה",
+      "lat": 48.9801,
+      "lon": 37.8168
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-11",
+    "title": "הקצאת סיוע כספי וצבאי מצד בריטניה והאיחוד האירופי לאוקראינה",
+    "summary": "בריטניה התחייבה להעביר שבעה עשר מיליון ליש\"ט לשיקום נזקי תחנת הכוח בצ'רנוביל, והנציבות האירופית הקצתה שני מיליארד ושמונה מאות ושישים מיליון אירו לרכש כטב\"מים, טילים והגנה אווירית.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T18:32:00+00:00",
+    "last_update_at": "2026-10-15T02:56:37+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2202261",
+      "published_at": "2026-10-15T02:56:37+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support",
+      "published_at": "2026-10-15T01:03:29+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058055/",
+      "published_at": "2026-10-14T18:32:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'רנוביל, אוקראינה",
+      "lat": 51.2705,
+      "lon": 30.2196
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10150506-12",
+    "title": "מתיחות מדינית חריפה בין קייב לוושינגטון בעקבות עסקת הסולר ומגבלות תקשורת",
+    "summary": "זלנסקי ביקר בחריפות את הממשל האמריקני בעקבות הסכם אספקת סולר עם רוסיה, הפסקת התרעות מודיעיניות והגבלות על רשת סטארלינק, וטען כי מדובר בבחירת צד ובגידה.",
+    "axis": "דיפלומטיה ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-14T17:33:08+00:00",
+    "last_update_at": "2026-10-15T04:38:00+00:00",
+    "what_is_not_verified": "טענות הדדיות בדבר הפסקת שיתוף המודיעין האמריקני, אותה הכחיש טראמפ.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4174551-zelensky-on-usrussia-diesel-deal-we-lose-strong-partner.html",
+      "published_at": "2026-10-15T04:38:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+      "published_at": "2026-10-14T23:00:08+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058058/",
+      "published_at": "2026-10-14T19:25:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058057/",
+      "published_at": "2026-10-14T19:07:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjafqeaifx",
+      "published_at": "2026-10-14T17:33:08+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת מומחה צבאי רוסי כי הכוח האוקראיני באוריחיב הושמד כמעט לחלוטין",
+   "דיווח על תקיפת כטב\"ם רוסי נגד מכלית דלק במים הטריטוריאליים של רומניה",
+   "הטענה כי ארצות הברית השעתה לחלוטין העברת מודיעין והתרעות מפני טילים לאוקראינה (הוכחש בידי טראמפ)",
+   "היקף הזיהום הסביבתי המדויק מול חופי סוצ'י וטענות סותרות על מטענה של המכלית",
+   "השמדת לוגיסטיקה רוסית בדרך לחצי האי קרים",
+   "טענות על הריגת דייג אזרחי בידי החייל הרוסי שנעצר בחרקוב"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1195,
+    "unit": "USD",
+    "change_pct": 0.06,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-14T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "המשך הגנה על המדינה והתנגדות לקבלת תנאיו של פוטין לסיום המלחמה",
+     "הסרת כלל מגבלות המהירות על מסופי מערכת סטארשילד",
+     "קידום ההצטרפות לאיחוד האירופי ושימור תמיכת בעלות הברית באירופה"
+    ],
+    "inferred": [
+     "ניסיון לפצות על אובדן גיבוי אמריקני פוטנציאלי באמצעות הידוק הקשרים הביטחוניים עם בריטניה והאיחוד האירופי",
+     "פגיעה בעורק הלוגיסטי והתעופתי של רוסיה באמצעות תקיפות עומק של טילים וכטב\"מים"
+    ],
+    "forecast": [
+     "המשך מאמצים לגיוס אמצעי הגנה אווירית אירופיים נוכח שחיקת היכולות המבוססות על טכנולוגיה ומודיעין מארצות הברית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הצדקת המלחמה כצעד מגן וקיום פעילות פרלמנטרית ופוליטית בשטחים שסופחו"
+    ],
+    "inferred": [
+     "שבירת כושר העמידה של אוקראינה באמצעות פגיעה שיטתית ברשתות החשמל והתשתיות לקראת החורף",
+     "החלשת התמיכה המערבית באוקראינה דרך הסכמי סחר ואנרגיה עקיפים עם ארצות הברית"
+    ],
+    "forecast": [
+     "החרפת התקיפות האוויריות על מוקדי אנרגיה בקייב ובערי המפתח כדי ללחוץ על ההנהגה להיכנע"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "קריאה להחלפת ההנהגה באוקראינה בדמות מנהיג שיגיע להסכם לסיום המלחמה",
+     "הכחשה רשמית של טענות על השעיית שיתוף המודיעין עם אוקראינה"
+    ],
+    "inferred": [
+     "הפעלת לחץ מוחשי על אוקראינה לעצור תקיפות על מתקני נפט רוסיים באמצעות בקרת שירותי תקשורת לוויינית",
+     "שאיפה להביא להפסקת אש מהירה דרך הסדרים כלכליים ומסחריים עם רוסיה"
+    ],
+    "forecast": [
+     "המשך שחיקת הערבויות והסיוע הישיר מקייב, תוך החרפת החיכוך המדיני בין ההנהגות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-operation-vivaldi-liberates-another-101-square-kilometers-in-donetsk-oblast/",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/14/ukraine-detains-russian-soldier-after-five-ukrainian-troops-shot-dead-in-kharkiv-region",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8058057/",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2202261",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131923",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48563",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4174551-zelensky-on-usrussia-diesel-deal-we-lose-strong-partner.html",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rjafqeaifx",
+    "accessed_at": "2026-10-15T05:06:41+00:00"
+   }
+  ]
+ }
+}
