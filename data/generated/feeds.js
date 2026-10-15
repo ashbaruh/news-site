@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-15T15:17:26+00:00",
-  "fetched_at": "2026-10-15T15:17:26+00:00"
+  "checked_at": "2026-10-15T16:17:17+00:00",
+  "fetched_at": "2026-10-15T16:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-15T15:17:42+00:00",
-  "fetched_at": "2026-10-15T15:17:42+00:00"
+  "checked_at": "2026-10-15T16:17:30+00:00",
+  "fetched_at": "2026-10-15T16:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Modern Classics: NAD unveils a new streaming amplifier and CD player in its Classic Series",
+    "title_he": "קלאסיקות מודרניות: NAD חושפת מגבר סטרימינג חדש ונגן CD בסדרה הקלאסית שלה",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/cd-players/modern-classics-nad-unveils-a-new-streaming-amplifier-and-cd-player-in-its-classic-series",
+    "date": "2026-10-15T15:18:45+00:00"
+   },
    {
     "title_en": "Three 4K home cinema projectors are set to trump their predecessors with an \"upgraded viewing experience\"",
     "title_he": "שלושה מקרני קולנוע ביתי 4K מוגדרים לגבור על קודמיהם עם \"חוויית צפייה משודרגת\"",
@@ -69,44 +76,47 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wireless-earbuds/it-has-been-two-years-since-we-reviewed-these-gbp28-sony-earbuds-heres-why-they-are-still-winning-what-hi-fi-awards",
     "date": "2026-10-15T12:20:05+00:00"
-   },
-   {
-    "title_en": "The Fairbuds 2 are repairable, support hi-res audio and cost less than their predecessors",
-    "title_he": "ה-Fairbuds 2 ניתנים לתיקון, תומכים באודיו ברזולוציה גבוהה ועולים פחות מקודמיהם",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/the-fairbuds-2-are-repairable-support-hi-res-audio-and-cost-less-than-their-predecessors",
-    "date": "2026-10-15T11:41:04+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-15T15:17:43+00:00",
-  "fetched_at": "2026-10-15T15:17:43+00:00"
+  "checked_at": "2026-10-15T16:17:31+00:00",
+  "fetched_at": "2026-10-15T16:17:31+00:00"
  },
- "generated_at": "2026-10-15T15:17:43+00:00",
+ "generated_at": "2026-10-15T16:17:31+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הכלכלן הראשי של מיטב על מצב השווקים: \"40 שנה לא ראינו דבר כזה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559645",
-     "date": "2026-10-15T13:04:00+00:00"
+     "title": "האינפלציה מפתיעה לטובה: קצב שנתי של 1.6% בספטמבר; מחירי הדירות חזרו לרדת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559788",
+     "date": "2026-10-15T15:30:00+00:00"
     },
     {
      "title": "איראן הנחתה את חיזבאללה: תיערכו לעימות אזורי בקרוב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559614",
-     "date": "2026-10-15T14:08:00+00:00"
+     "date": "2026-10-15T16:07:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "ירידות בוול סטריט בהובלות מניות השבבים; תשואות האג\"ח יורדות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559608",
+     "date": "2026-10-15T15:39:00+00:00"
+    },
+    {
+     "title": "בכיר בבנק הפועלים: \"אולי המשקיעים מניחים שגם המשבר הבא ייראה כמו הקודם\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559791",
+     "date": "2026-10-15T15:31:00+00:00"
+    },
+    {
+     "title": "האינפלציה מפתיעה לטובה: קצב שנתי של 1.6% בספטמבר; מחירי הדירות חזרו לרדת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559788",
+     "date": "2026-10-15T15:30:00+00:00"
+    },
+    {
      "title": "השכר החציוני בהייטק זינק בכ-30% בתוך 4 שנים. על כמה הוא עומד?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559647",
      "date": "2026-10-15T15:04:00+00:00"
-    },
-    {
-     "title": "ירידות בוול סטריט בהובלות מניות השבבים; תשואות האג\"ח יורדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559608",
-     "date": "2026-10-15T15:02:00+00:00"
     },
     {
      "title": "אל על ודוראל נכנסות לראשונה למדד ת\"א 35, ומי יוצא?",
@@ -164,11 +174,6 @@ window.DB.generated = {
      "date": "2026-10-15T10:32:00+00:00"
     },
     {
-     "title": "אפקט הבחירות בבורסה: ירידות לפני הקלפי, זינוק ביום שאחרי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559383",
-     "date": "2026-10-15T08:55:00+00:00"
-    },
-    {
      "title": "ספטמבר בקרנות ההשתלמות: אלטשולר שחם חזר לתחתית, אלו הגופים שבראש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559649",
      "date": "2026-10-15T08:45:00+00:00"
@@ -209,11 +214,6 @@ window.DB.generated = {
      "date": "2026-10-15T02:38:00+00:00"
     },
     {
-     "title": "הכלכלנים מעריכים: מה צפוי בנתוני האינפלציה בישראל?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559348",
-     "date": "2026-10-15T02:35:00+00:00"
-    },
-    {
      "title": "מדד S&P 500 ונאסד\"ק רשמו את יום המסחר הגרוע ביותר שלהם מזה שלושה חודשים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559424",
      "date": "2026-10-14T20:10:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-15T15:17:27+00:00",
-  "fetched_at": "2026-10-15T15:17:27+00:00"
+  "checked_at": "2026-10-15T16:17:19+00:00",
+  "fetched_at": "2026-10-15T16:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-15T15:17:28+00:00",
-  "fetched_at": "2026-10-15T15:17:28+00:00"
+  "checked_at": "2026-10-15T16:17:19+00:00",
+  "fetched_at": "2026-10-15T16:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2816,8 +2816,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-15T15:17:30+00:00",
-  "fetched_at": "2026-10-15T15:17:30+00:00"
+  "checked_at": "2026-10-15T16:17:22+00:00",
+  "fetched_at": "2026-10-15T16:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2984,18 +2984,20 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-15T15:17:30+00:00",
-  "fetched_at": "2026-10-15T15:17:30+00:00"
+  "checked_at": "2026-10-15T16:17:22+00:00",
+  "fetched_at": "2026-10-15T16:17:22+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-releases-gemini-4-argon/",
-     "date": "2026-10-13T16:00:39+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "date": "2026-10-13T19:43:07+00:00",
      "launch": true,
-     "title": "גוגל משיקה את Gemini 4 Argon שזמין עכשיו לכולם"
+     "title_en": "Developing Gemini 4 Argon responsibly and safely",
+     "title_he": "פיתוח Gemini 4 Argon בצורה אחראית ובטוחה",
+     "translated_by": "google"
     },
     {
      "source": "Google",
@@ -3009,7 +3011,7 @@ window.DB.generated = {
    ],
    "candidates": 9,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -3023,7 +3025,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 549,
+     "likes": 550,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3048,6 +3050,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
+     "title": "Shorts",
+     "desc_en": "shorts videos demo",
+     "desc_he": "הדגמת סרטונים קצרים",
+     "likes": 93,
+     "link": "https://huggingface.co/spaces/autotrust/shorts"
+    },
+    {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming from one GPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ממערכת GPU אחת",
@@ -3055,42 +3064,45 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
-     "title": "LTX 2.3 10Eros Image-to-Video",
-     "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
-     "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 234,
-     "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
-    },
-    {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
-    },
-    {
-     "title": "LightOnOCR-3 Demo",
-     "desc_en": "OCR to Markdown with layout grounding",
-     "desc_he": "OCR ל-Markdown עם הארקת פריסה",
-     "likes": 53,
-     "link": "https://huggingface.co/spaces/lightonai/LightOnOCR-3-Demo"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 63,
+     "likes": 64,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
+    },
+    {
+     "title": "LTX 2.3 10Eros Image-to-Video",
+     "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
+     "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
+     "likes": 234,
+     "link": "https://huggingface.co/spaces/00000tt/LTX-2.3-10Eros"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-15T15:17:41+00:00",
-  "fetched_at": "2026-10-15T15:17:41+00:00"
+  "checked_at": "2026-10-15T16:17:29+00:00",
+  "fetched_at": "2026-10-15T16:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "גלוך וחלאילי בספסלים של אייאקס וקריסטל פאלאס",
+     "link": "https://www.one.co.il/Article/536100.html?ref=rss",
+     "date": "2026-10-15T15:30:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "עבדאללה חליחל כבש לראשונה בליגת האלופות המשנית של אסיה",
      "link": "https://sports.walla.co.il/item/3872371",
@@ -3213,15 +3225,6 @@ window.DB.generated = {
      "title": "בזכות השיפור הזה, \"דני אבדיה עשוי לחגוג העונה ב-NBA\"",
      "link": "https://sports.walla.co.il/item/3871559",
      "date": "2026-10-10T05:18:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"עם ג'ה ודני, המשחק הרגיש פשוט\": לילארד מפרגן לאבדיה",
-     "link": "https://sports.walla.co.il/item/3871461",
-     "date": "2026-10-08T17:03:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3428,8 +3431,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-15T15:17:33+00:00",
-  "fetched_at": "2026-10-15T15:17:33+00:00"
+  "checked_at": "2026-10-15T16:17:25+00:00",
+  "fetched_at": "2026-10-15T16:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3460,70 +3463,70 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-15T15:17:38+00:00",
-  "fetched_at": "2026-10-15T15:17:38+00:00"
+  "checked_at": "2026-10-15T16:17:26+00:00",
+  "fetched_at": "2026-10-15T16:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-15T15:09:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T16:09:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-15T15:04:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T15:39:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-15T14:16:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T15:39:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-15T13:42:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T16:00:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-15T14:02:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T15:51:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-15T15:00:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T16:03:00+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-15T07:39:28+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
-    "newest": "2026-10-14T02:00:14+00:00",
-    "seen_at": "2026-10-15T13:17:39+00:00",
+    "newest": "2026-10-15T16:08:03+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3535,16 +3538,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-11T16:11:41+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-15T14:54:56+00:00",
-    "seen_at": "2026-10-15T15:17:43+00:00",
+    "newest": "2026-10-15T16:04:13+00:00",
+    "seen_at": "2026-10-15T16:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-15T15:17:43+00:00"
+  "checked_at": "2026-10-15T16:17:31+00:00"
  }
 };
