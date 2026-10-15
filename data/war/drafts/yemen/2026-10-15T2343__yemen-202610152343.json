@@ -1,0 +1,578 @@
+{
+ "status": "draft",
+ "received_sha256_12": "af9c3017504f",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 6,
+   "initial": 2,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-15T23:43:15+00:00",
+  "window": {
+   "from": "2026-10-14T23:43:15+00:00",
+   "to": "2026-10-15T23:43:15+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610152343"
+  },
+  "summary": "הלחימה בתימן החריפה עם התקדמות קרקעית של כוחות החות'ים לאורך חוף הים האדום והידוק המצור סביב תעז, לצד מתקפת טילים וכטב\"מים ישירה על סמלי השלטון ומרכזי הפיקוד בעדן. במקביל, העימות בין החות'ים לסעודיה עלה מדרגה בעקבות פגיעות בתשתיות אנרגיה ובנמלי תעופה בממלכה, שהובילו להשבתת תנועה אווירית, דחיית אירועים בינלאומיים והאשמות חריפות מצד ריאד על מעורבות ישירה של איראן. התקפות הנגד והסיוע האווירי של הקואליציה הסעודית לא הצליחו לבלום את ההישגים החות'יים בשטח, בעוד בישראל נרשמת דריכות גוברת לאפשרות של התרחבות השיגורים.",
+  "fronts": [
+   {
+    "name": "חזית עדן ודרום תימן",
+    "status": "מתקפות טילים וכטב\"מים נגד מתחם השלטון והקואליציה בארמון אל-מעאשיק"
+   },
+   {
+    "name": "חזית תעז",
+    "status": "קרבות עזים במספר צירים, התקדמות חות'ית ומצור מחמיר על העיר"
+   },
+   {
+    "name": "חזית חוף הים האדום",
+    "status": "שליטה חות'ית ברצועות שטח נרחבות וכישלון מתקפת נגד ממשלתית"
+   },
+   {
+    "name": "חזית מאריב",
+    "status": "ירי אינטנסיבי של טילים בליסטיים לעבר שכונות מגורים"
+   },
+   {
+    "name": "חזית עומק סעודיה",
+    "status": "תקיפות חות'יות נמשכות נגד נמלי תעופה ומתקני נפט, לצד פעולות יירוט סעודיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10152343-01",
+    "title": "מתקפת טילים וכטב\"מים חות'ית על ארמון הנשיאות אל-מעאשיק בעדן",
+    "summary": "החות'ים תקפו באמצעות טילים בליסטיים וכטב\"מים את מתחם ארמון הנשיאות בעדן, שבו שוכנים מפקדות ממשלת תימן ומפקדת כוחות הקואליציה בראשות סעודיה. ראש ממשלת תימן ושריו לא נפגעו, אך נמסר על הרוגים ופצועים, בהם אנשי אבטחה וחיילים.",
+    "axis": "תימן פנים / עדן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T14:33:16+00:00",
+    "last_update_at": "2026-10-15T23:38:46+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומספר הטילים ששוגרו שנויים במחלוקת בדיווחים השונים (בין שניים לחמישה הרוגים, ובין חמישה לשמונה טילים).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-15T23:38:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-launch-deadly-attack-yemen-presidential-palace",
+      "published_at": "2026-10-15T20:51:32+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+      "published_at": "2026-10-15T20:00:36+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261015-houthi-attack-on-palace-used-by-yemen-government-in-aden-kills-five",
+      "published_at": "2026-10-15T19:57:48+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-command-centre-aden-hit-alleged-houthi-attack",
+      "published_at": "2026-10-15T18:44:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-launch-deadly-attack-presidential-palace-yemens-aden",
+      "published_at": "2026-10-15T18:30:24+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjqi19rsgg",
+      "published_at": "2026-10-15T17:51:57+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-strike-yemeni-governments-presidential-palace-aden-what-know",
+      "published_at": "2026-10-15T16:59:09+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
+      "published_at": "2026-10-15T16:50:42+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94665",
+      "published_at": "2026-10-15T15:26:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-says-pm-cabinet-safe-after-houthi-aden-attack",
+      "published_at": "2026-10-15T15:13:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131966",
+      "published_at": "2026-10-15T14:44:23+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48579",
+      "published_at": "2026-10-15T14:33:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-02",
+    "title": "טענת יירוט טיל באזור אל-מדינה והכחשה חות'ית",
+    "summary": "הקואליציה בראשות סעודיה הודיעה כי יירטה טיל שכוון לעבר מרחב העיר אל-מדינה, בעוד שהחות'ים הכחישו מכל וכל כי ביצעו שיגור לעבר המקום.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T10:24:35+00:00",
+    "last_update_at": "2026-10-15T15:13:25+00:00",
+    "what_is_not_verified": "עצם שיגור הטיל לעבר אל-מדינה שנוי במחלוקת עקב הכחשת החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-says-pm-cabinet-safe-after-houthi-aden-attack",
+      "published_at": "2026-10-15T15:13:25+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48571",
+      "published_at": "2026-10-15T11:44:45+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261015-houthis-deny-targeting-holy-city-medina-after-saudi-arabia-says-intercepted-missile",
+      "published_at": "2026-10-15T10:24:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-03",
+    "title": "יירוט כטב\"ם חות'י בדרום סעודיה",
+    "summary": "כוחות הקואליציה הודיעו על יירוט והשמדה של כלי טיס בלתי מאויש ששיגרו החות'ים לעבר האזור הדרומי של סעודיה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T17:02:01+00:00",
+    "last_update_at": "2026-10-15T17:02:01+00:00",
+    "what_is_not_verified": "מיקום היירוט המדויק ומטרת הכטב\"ם לא פורטו מעבר להגדרה 'האזור הדרומי'.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ef4e8aeba8537bd3",
+      "url": "https://www.sabanew.net/viewstory/154075",
+      "published_at": "2026-10-15T17:02:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10152343-04",
+    "title": "ירי 16 טילים בליסטיים לעבר שכונות מגורים במאריב",
+    "summary": "החות'ים שיגרו 16 טילים בליסטיים לצד פגזים נוספים לעבר שכונות אזרחיות בעיר מאריב שבתימן.",
+    "axis": "מאריב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T16:57:21+00:00",
+    "last_update_at": "2026-10-15T16:57:21+00:00",
+    "what_is_not_verified": "מידת הנזק ומספר הנפגעים במאריב לא צוינו במקור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2e7a7e24a7034b88",
+      "url": "https://www.sabanew.net/viewstory/154074",
+      "published_at": "2026-10-15T16:57:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-05",
+    "title": "טענת החות'ים על פגיעה במטוס קרב סעודי מסוג טייפון",
+    "summary": "החות'ים טענו כי פגעו או הפילו מטוס קרב סעודי מסוג טייפון באמצעות טיל של מערך ההגנה האווירית שלהם.",
+    "axis": "עימות חות'י - סעודי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-14T22:54:25+00:00",
+    "last_update_at": "2026-10-15T14:15:25+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או אישור סעודי לפגיעה או להפלת המטוס.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131961",
+      "published_at": "2026-10-15T14:15:25+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48565",
+      "published_at": "2026-10-14T22:54:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10152343-06",
+    "title": "החרפת המצור והקרבות סביב העיר תעז",
+    "summary": "לחימה עזה מתחוללת בחזיתות שונות במרחב תעז לצד התקדמות חות'ית, דבר שמוביל למחסור חמור במזון, זינוק במחירי הדלק ומצוקה הומניטרית כבדה לתושבים הנצורים.",
+    "axis": "תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T10:18:58+00:00",
+    "last_update_at": "2026-10-15T15:13:25+00:00",
+    "what_is_not_verified": "היקף האבדות המדויק בנפש בקרבות בתעז לא נמסר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-says-pm-cabinet-safe-after-houthi-aden-attack",
+      "published_at": "2026-10-15T15:13:25+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/yemen-stockpile-supplies-houthis-advance-taiz",
+      "published_at": "2026-10-15T10:18:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-07",
+    "title": "דחיית ועידת פסגה ואירועים בינלאומיים בסעודיה עקב תקיפות נמלי התעופה",
+    "summary": "האיחוד האירופי ומדינות המפרץ דחו פסגה משותפת שתוכננה בריאד, וכן נדחו אירועי ספורט גדולים בסעודיה, בעקבות המשך מתקפות החות'ים על נמלי תעופה ותשתיות בממלכה והשבתת נמל התעופה בריאד.",
+    "axis": "סעודיה - בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T15:50:15+00:00",
+    "last_update_at": "2026-10-15T20:31:42+00:00",
+    "what_is_not_verified": "המועד החלופי לקיום הפסגה טרם נקבע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+      "published_at": "2026-10-15T20:31:42+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/eu-gulf-summit-saudi-arabia-postponed-after-houthi-attacks",
+      "published_at": "2026-10-15T15:50:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-08",
+    "title": "פרסום תיעוד פגיעת הטיל החות'י בנמל התעופה בריאד",
+    "summary": "גורמים סעודיים פרסמו סרטון ממצלמות אבטחה המתעד את פגיעת הטיל מ-10 באוקטובר בנמל התעופה הבינלאומי, שהובילה למותם של אזרחים ולפציעת מאות, במטרה לגייס תמיכה בינלאומית.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T14:23:39+00:00",
+    "last_update_at": "2026-10-15T16:46:30+00:00",
+    "what_is_not_verified": "במקורות שונים נרשם מספר הרוגים של 12 או 13 בני אדם באירוע זה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/analysis-how-are-yemens-houthis-attacking-saudi-arabia-so-effectively",
+      "published_at": "2026-10-15T16:46:30+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/eu-gulf-summit-saudi-arabia-postponed-after-houthi-attacks",
+      "published_at": "2026-10-15T15:50:15+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131962",
+      "published_at": "2026-10-15T14:23:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-09",
+    "title": "האשמות סעודיה כלפי איראן בהכוונת ההסלמה",
+    "summary": "סגן שר החוץ הסעודי האשים את טהראן באימון, חימוש ועידוד החות'ים להסלים את המתקפות, וציין כי החות'ים סירבו להיפגש בעומאן לשיחות רגיעה.",
+    "axis": "סעודיה - איראן - חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T17:43:46+00:00",
+    "last_update_at": "2026-10-15T20:51:32+00:00",
+    "what_is_not_verified": "אין תגובה איראנית ישירה להאשמות הסעודיות בטקסט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_bf9ce16a142c874e",
+      "url": "https://www.newarab.com/news/houthis-launch-deadly-attack-yemen-presidential-palace",
+      "published_at": "2026-10-15T20:51:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_bf9ce16a142c874e",
+      "url": "https://www.newarab.com/news/saudi-arabia-accuses-iran-encouraging-houthis-latest-escalation",
+      "published_at": "2026-10-15T17:43:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10152343-10",
+    "title": "העלאת כוננות בישראל לאפשרות תקיפה מצד החות'ים ובעלי בריתם",
+    "summary": "מערכת הביטחון בישראל העלתה את רמת הכוננות לקראת הבחירות מחשש להסלמה או מתקפת פתע מצד איראן, חיזבאללה והחות'ים.",
+    "axis": "ישראל - חות'ים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T16:37:32+00:00",
+    "last_update_at": "2026-10-15T16:37:32+00:00",
+    "what_is_not_verified": "לא מצוין מועד מדויק או מתווה קונקרטי של מתקפה מתוכננת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+      "published_at": "2026-10-15T16:37:32+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בארמון אל-מעאשיק בעדן (דיווחים שנעים בין 2 ל-5 הרוגים ובין 6 ל-16 פצועים)",
+   "מספר הטילים שפגעו בארמון אל-מעאשיק (טענה ל-5 טילים לעומת טענה ל-8 טילים)",
+   "טענת סעודיה על שיגור טיל חות'י לעבר מרחב אל-מדינה, שהוכחשה בידי החות'ים",
+   "טענת החות'ים על פגיעה או הפלת מטוס קרב סעודי מסוג טייפון",
+   "היקף הנזק המדויק במטה חברת ארמקו בדהראן עקב פער בין דיווח על שרפה מוגבלת לדיווח על נזק נרחב"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1022,
+    "unit": "ILS",
+    "change_pct": 0.83,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-15T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה במפקדות מבצעים וקצינים סעודים במתחם השלטון בעדן",
+     "פגיעה במטרות ותשתיות בסעודיה כולל נמלי תעופה ומתקני אנרגיה"
+    ],
+    "inferred": [
+     "מיטוט הלגיטימיות של הממשלה המוכרת בעדן וערעור המשילות שלה",
+     "הפעלת לחץ כלכלי וביטחוני כבד על סעודיה כדי לאלץ אותה לסגת מהלחימה בתימן",
+     "הרחבת השליטה הטריטוריאלית בתימן בחסות העימות האזורי הרחב"
+    ],
+    "forecast": [
+     "המשך ניסיונות הפגיעה בבכירי ממשל ובמתקנים רגישים בעדן",
+     "החרפת שיגורי הטילים והכטב\"מים לעבר יעדים אסטרטגיים בעומק סעודיה"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה עצמית ופירוק היכולות ההתקפיות של המיליציה החות'ית",
+     "הפסקת הפגיעה בתשתיות אזרחיות ובנמלי תעופה בהתאם לחוק הבינלאומי"
+    ],
+    "inferred": [
+     "מניעת קריסת ממשלת תימן הרשמית וייצוב קווי ההגנה",
+     "הפעלת לחץ דיפלומטי בינלאומי על איראן כדי שתגביל את פעולות החות'ים",
+     "הגנה על תדמית הממלכה כיעד בטוח להשקעות ותיירות בינלאומית"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות ממוקדות בתימן להשמדת מאגרי שיגור",
+     "הגברת מאמצי הלובי הבינלאומי להטלת סנקציות נוספות על טהראן"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "הגנה על הבירה הזמנית עדן והמשך פעילות מוסדות השלטון",
+     "התנגדות לטרור החות'י נגד אזרחים בערים כמו תעז ומאריב"
+    ],
+    "inferred": [
+     "שימור שרידותה הפוליטית והפיזית של ההנהגה מול לחץ צבאי כבד",
+     "הישענות מלאה על סיוע והגנה צבאית מצד סעודיה"
+    ],
+    "forecast": [
+     "נסיגה או צמצום פעילות ציבורית בעדן בעקבות הפרצות הביטחוניות",
+     "המשך אובדן שטחים בחזיתות היבשתיות במידה שלא יחול שינוי בסיוע הקרקעי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/analysis-how-are-yemens-houthis-attacking-saudi-arabia-so-effectively",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/15/yemen-stockpile-supplies-houthis-advance-taiz",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-command-centre-aden-hit-alleged-houthi-attack",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-accuses-iran-encouraging-houthis-latest-escalation",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154074",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131962",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48565",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94665",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+    "accessed_at": "2026-10-15T23:43:15+00:00"
+   }
+  ]
+ }
+}

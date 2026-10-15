@@ -1,0 +1,548 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7f658ddde619",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "initial": 6,
+   "shared_root": 4,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-15T23:42:04+00:00",
+  "window": {
+   "from": "2026-10-14T23:42:04+00:00",
+   "to": "2026-10-15T23:42:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610152342"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה מתאפיינת בהסלמה הדדית חריפה של מהלומות עומק נגד יעדי אנרגיה, תשתיות לאומיות ומרכזי נתונים. ניסיון התיווך להפסקת אש אנרגטית קרס לחלוטין, כאשר רוסיה מפעילה גלי תקיפה של כטב\"מים וטילים בליסטיים על ערים אוקראיניות, ומנגד אוקראינה מחדשת את הפגיעה בבתי זיקוק ובמתקני טכנולוגיה בתוך שטח רוסיה. במקביל, קייב מתמודדת עם הידלדלות חמורה של מלאי טילי היירוט ומפעילה לחץ דיפלומטי על בעלות בריתה המערביות לאספקת מערכות הגנה אווירית וטילי שיוט.",
+  "fronts": [
+   {
+    "name": "חזית העורף והתשתיות האוקראיניות",
+    "status": "מתקפות רוסיות אינטנסיביות של טילים וכטב\"מים גורמות להרס תחנות כוח ופגיעה באספקת חשמל ומים בקייב, בחרקוב ובאודסה."
+   },
+   {
+    "name": "חזית עומק שטח רוסיה",
+    "status": "אוקראינה מבצעת פגיעות חוזרות באמצעות רחפנים וטילים נגד בתי זיקוק לנפט, מרכזי נתונים ומחשבי-על בריאזאן, בקלוגה, בוולדימיר ובמחוז מוסקבה."
+   },
+   {
+    "name": "זירת הים השחור",
+    "status": "שימוש בכשב\"מים אוקראיניים נגד כלי שיט צבאיים ופגיעות כטב\"מים במכליות נפט מסחריות בקרבת חופי רומניה ובולגריה."
+   },
+   {
+    "name": "זירת הקרב הטקטית ומלחמת הרחפנים",
+    "status": "שימוש אינטנסיבי ברחפני נפץ מהירים ורחפני הטלה לאורך קווי המגע, המלווה בפגיעות הדדיות בצוותי המפעילים ובמצוקת כוח אדם."
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10152342-01",
+    "title": "מתקפת כלי טיס בלתי מאוישים על מחוז מוסקבה",
+    "summary": "כלי טיס בלתי מאוישים ששוגרו מאוקראינה תקפו יעדים באזור מחוז מוסקבה שברוסיה.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T23:02:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T23:02:46+00:00",
+    "last_update_at": "2026-10-15T23:02:46+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים בתקיפה במחוז מוסקבה אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48593",
+      "published_at": "2026-10-15T23:02:46+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10152342-02",
+    "title": "מתקפות כטב\"מים רוסיים ופגיעה באספקת החשמל והמים בקייב",
+    "summary": "מתקפות כלי טיס בלתי מאוישים שביצעה רוסיה פגעו במתקני אנרגיה במחוז קייב, גרמו לניתוקי חשמל באזורים בעיר ולירידת לחץ המים בגדה הימנית של נהר הדנייפרו.",
+    "axis": "חזית האנרגיה / העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T20:23:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T20:23:14+00:00",
+    "last_update_at": "2026-10-15T20:23:14+00:00",
+    "what_is_not_verified": "משך הזמן שיידרש לתיקון הפגיעה באספקת המים והחשמל אינו ידוע במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_8849550f103a5e4b",
+      "url": "https://kyivindependent.com/russian-drone-strikes-leave-portions-of-kyiv-without-power-fires-burning/",
+      "published_at": "2026-10-15T20:23:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-03",
+    "title": "קריסת הפסקת האש בתחום האנרגיה וחידוש תקיפות הדדיות",
+    "summary": "הפסקת האש בנושאי תשתיות אנרגיה קרסה לחלוטין לאחר מתקפות רוסיות על תחנות כוח בקייב ובחרקוב וחידוש תקיפות אוקראיניות נגד בתי זיקוק לנפט בריאזאן ובמקומות נוספים.",
+    "axis": "חזית האנרגיה ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T15:01:10+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T15:01:10+00:00",
+    "last_update_at": "2026-10-15T20:59:12+00:00",
+    "what_is_not_verified": "קיומה הרשמי של הפסקת האש מלכתחילה לא אומת על ידי שני הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
+      "published_at": "2026-10-15T20:59:12+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058238/",
+      "published_at": "2026-10-15T18:22:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058227/",
+      "published_at": "2026-10-15T17:46:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-15T16:50:18+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+      "published_at": "2026-10-15T15:01:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאזאן, רוסיה",
+      "lat": 54.6296,
+      "lon": 39.7425
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-04",
+    "title": "פגיעות ברחפנים במכליות סמוך לחופי רומניה בים השחור",
+    "summary": "שני כלי שיט מסחריים נפגעו מכלי טיס בלתי מאוישים במים הטריטוריאליים של רומניה בים השחור, וכתוצאה מכך עלו באש ושבעה אנשי צוות הוגדרו כנעדרים.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T15:25:51+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T15:25:51+00:00",
+    "last_update_at": "2026-10-15T17:31:30+00:00",
+    "what_is_not_verified": "גורל שבעת הימאים הנעדרים ואישור רוסי רשמי על שיגור הכלים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/sailors-missing-drone-strike-tankers-romania-black-sea-coast",
+      "published_at": "2026-10-15T17:31:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+      "published_at": "2026-10-15T15:25:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10152342-05",
+    "title": "השבתת מחשבי-על של חברת יאנדקס בעקבות פגיעות כטב\"מים אוקראינים",
+    "summary": "תקיפות רחפנים וכלי טיס בלתי מאוישים על חוות שרתים של חברת יאנדקס בריאזאן, בקלוגה ובוולדימיר גרמו להשבתת שלושת מחשבי-העל של החברה עקב נזקי עשן ושריפות.",
+    "axis": "עומק רוסיה / תשתיות טכנולוגיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T18:08:02+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T18:08:02+00:00",
+    "last_update_at": "2026-10-15T18:15:06+00:00",
+    "what_is_not_verified": "מידת הנזק הסופית לרכיבים האלקטרוניים ומשך הזמן שיידרש לתיקונם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/15/ukrainian-strikes-on-yandex-s-data-centers-could-set-back-russia-s-ai-development-by-years-never-a-rival-to-the-u-s-or-china-in-ai-russia-may-now-fall-behind-kazakhstan-too",
+      "published_at": "2026-10-15T18:08:02+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/15/they-started-it-we-re-responding-putin-warns-ukraine-over-strikes-on-energy-facilities-warehouses-and-data-centers",
+      "published_at": "2026-10-15T18:15:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סאסובו, רוסיה",
+      "lat": 54.3448,
+      "lon": 41.9215
+     },
+     {
+      "name": "קלוגה, רוסיה",
+      "lat": 54.5101,
+      "lon": 36.2598
+     },
+     {
+      "name": "ולדימיר, רוסיה",
+      "lat": 56.1289,
+      "lon": 40.4075
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-06",
+    "title": "חשיפת בסיס רוסי חדש לשיגור כטב\"מי סילון",
+    "summary": "ניתוח צילומי לוויין הצביע על הקמת בסיס רחב היקף תוך שישה שבועות על ידי הצבא הרוסי לצורך שיגור כלי טיס בלתי מאוישים מהירים המונעים בסילון.",
+    "axis": "מערך כלי הטיס הבלתי מאוישים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T20:59:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T20:59:12+00:00",
+    "last_update_at": "2026-10-15T20:59:12+00:00",
+    "what_is_not_verified": "המיקום המדויק של הבסיס ומועד תחילת הפעלתו המבצעית המלאה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
+      "published_at": "2026-10-15T20:59:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10152342-07",
+    "title": "אספקת חבילות סיוע צבאי וטילים מבריטניה ומפולין לאוקראינה",
+    "summary": "בריטניה הסכימה להעביר לאוקראינה משלוח נוסף של טילי שיוט מסוג סטורם שאדו, ופולין העבירה חבילת סיוע הכוללת רכיבים לא פומביים ותחמושת בקוטר עשרים מילימטר להגנה על קייב.",
+    "axis": "סיוע צבאי בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T18:16:00+00:00",
+    "last_update_at": "2026-10-15T19:26:53+00:00",
+    "what_is_not_verified": "פרטי הרכיבים המסווגים בחבילת הסיוע הפולנית והכמות המדויקת של טילי סטורם שאדו הבריטיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_133892683d9b0fcf",
+      "url": "https://kyivindependent.com/uk-to-resupply-ukraine-with-more-storm-shadow-missiles-to-strike-russia-bloomberg-reports/",
+      "published_at": "2026-10-15T19:26:53+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_133892683d9b0fcf",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058237/",
+      "published_at": "2026-10-15T18:16:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     },
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-08",
+    "title": "מחסור חמור במיירטים למערכות פטריוט באוקראינה",
+    "summary": "מקורות מדווחים כי מלאי הטילים המיירטים למערכות פטריוט שבידי אוקראינה אזל, דבר שהוביל לפגיעות ישירות של טילים בליסטיים רוסיים בתחנות כוח באזור קייב וחרקוב.",
+    "axis": "הגנה אווירית",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T18:22:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T18:22:00+00:00",
+    "last_update_at": "2026-10-15T18:22:00+00:00",
+    "what_is_not_verified": "מידת המחסור המדויקת של כלל סוגי המיירטים במערך ההגנה האווירית האוקראיני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058238/",
+      "published_at": "2026-10-15T18:22:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-09",
+    "title": "תוכנית רוסית לשיתוק תשתיות החשמל, המים והחימום בערים מרכזיות",
+    "summary": "מסמך תקיפה רוסי שיורט מעיד על כוונה להשבית תוך חודש את מערכות האנרגיה והמים בערים קייב, חרקוב ואודסה באמצעות שימוש מרוכז בעשרות טילים בליסטיים ומאות כטב\"מים ופצצות מונחות.",
+    "axis": "מערכה על התשתיות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T18:26:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T18:26:00+00:00",
+    "last_update_at": "2026-10-15T18:26:00+00:00",
+    "what_is_not_verified": "היכולת המעשית של רוסיה להוציא לפועל את מלוא התוכנית במסגרת הזמן שהוגדרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058232/",
+      "published_at": "2026-10-15T18:26:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10152342-10",
+    "title": "שימוש אוקראיני ראשון בטיל בליסטי מפיתוח עצמי",
+    "summary": "גורמים באוקראינה דיווחו על הפעלה מבצעית ראשונה ומוצלחת של טיל בליסטי מייצור מקומי נגד יעדים בתוך שטח רוסיה, תוך חדירת מערכות ההגנה הרוסיות.",
+    "axis": "עומק רוסיה / יכולות תקיפה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T20:03:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T20:03:00+00:00",
+    "last_update_at": "2026-10-15T20:03:00+00:00",
+    "what_is_not_verified": "אישור בלתי תלוי או תיעוד המאמת את פגיעת הטיל באתר המטרה ברוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-defense/4174888-ukraines-first-use-of-fp7-ballistic-missile-successful-military-expert-says.html",
+      "published_at": "2026-10-15T20:03:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10152342-11",
+    "title": "העברת אמצעי לחימה וטכנולוגיות רוסיות מאוקראינה לישראל לחקר",
+    "summary": "ישראל אישרה קבלת דוגמאות של אמצעי לחימה רוסיים שנלקחו על ידי אוקראינה, במטרה לבחון טכנולוגיות כטב\"מים ולפתח נגדם אמצעי התגוננות ומערכות לייזר.",
+    "axis": "שיתוף פעולה טכנולוגי וצבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T20:17:17+00:00",
+    "last_update_at": "2026-10-15T20:17:17+00:00",
+    "what_is_not_verified": "סוגי מערכות הנשק והדגמים המדויקים שנמסרו בפועל לבדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48589",
+      "published_at": "2026-10-15T20:17:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10152342-12",
+    "title": "הגבלות אירופיות אפשריות על אשרות תיירות לאזרחי רוסיה",
+    "summary": "האיחוד האירופי וגרמניה דנים בהחמרת הפיקוח על אשרות כניסה לאזרחים רוסים באמצעות מתן אשרות מוגבלות טריטוריאלית בלבד במקום אשרות שנגן חופשיות.",
+    "axis": "סנקציות ומדיניות הגירה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T19:40:21+00:00",
+    "last_update_at": "2026-10-15T19:40:21+00:00",
+    "what_is_not_verified": "האם ההצעה תאושר ותיושם לאור התנגדות מצד חלק ממדינות האיחוד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/cards/getting-a-schengen-visa-is-already-hard-for-russians-germany-reportedly-wants-to-limit-where-they-can-go-on-one",
+      "published_at": "2026-10-15T19:40:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת שיגור ראשון ומוצלח של טיל בליסטי מפיתוח עצמי מאוקראינה לעבר מטרות ברוסיה",
+   "הערכת המודיעין בדבר כוונת רוסיה להשבית את תשתיות האנרגיה בשלוש ערים אוקראיניות בתוך 30 יום",
+   "הדיווח לפיו אזל כליל מלאי המיירטים למערכות פטריוט שבידי אוקראינה",
+   "זהות משגרי הכטב\"מים שפגעו במכליות סמוך לחופי רומניה",
+   "היקף הנזק המדויק שנגרם למחשבי-העל של יאנדקס ולבתי הזיקוק ברוסיה",
+   "פרטי הסיוע הצבאי המסווג שהועבר מפולין לאוקראינה",
+   "הדיווחים על הסכם אספקה נוסף של טילי סטורם שאדו מבריטניה שלא הוכרז רשמית"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1208,
+    "unit": "USD",
+    "change_pct": 0.12,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-15T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת מערכות יירוט טילים בליסטיים ותחמושת הגנה אווירית מבעלות בריתה",
+     "חידוש הפגיעות במתקני אנרגיה ובתי זיקוק ברוסיה בתגובה להפצצות על קייב וערי אוקראינה",
+     "קידום תהליך ההצטרפות לאיחוד האירופי וחיזוק שיתוף הפעולה הביטחוני עם מדינות אירופה"
+    ],
+    "inferred": [
+     "ערעור הכלכלה הרוסית והפעלת לחץ ישיר על התעשייה הטכנולוגית והאנרגטית של מוסקבה כדי לבלום את מאמץ המלחמה",
+     "שימור רציפות אספקת האמל\"ח המערבי תוך גישור על פערים ביטחוניים מול ארצות הברית והתמודדות עם מגבלות תקשורת לווינית"
+    ],
+    "forecast": [
+     "המשך הגברת פיתוח וייצור אמצעי לחימה עצמאיים כמו טילים בליסטיים וכטב\"מים ארוכי טווח כדי לפצות על תנודות בסיוע החוץ",
+     "התמקדות מוגברת בבקשות דחופות למערכות הגנה אווירית מפני מתקפות החורף הצפויות על רשת החשמל"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה בתשתיות אסטרטגיות, מתקני אנרגיה ומרכזי נתונים באוקראינה בתגובה לפעולותיה",
+     "שלילת האפשרות להפסקות אש זמניות שיאפשרו לאוקראינה לשקם את כוחותיה הצבאיים"
+    ],
+    "inferred": [
+     "הכרעת כושר העמידה של העורף האוקראיני על ידי שיתוק מוחלט של מערכות החשמל, החימום והמים בערים הגדולות",
+     "ניצול המחסור החריף במיירטים אוקראיניים להשגת עליונות אווירית ולפגיעה ביכולות הפיקוד והשליטה"
+    ],
+    "forecast": [
+     "הרחבת השימוש בבסיסי שיגור ייעודיים לכטב\"מי סילון מהירים כדי לחדור את מערכי ההגנה הדלילים של אוקראינה",
+     "החרפת התקיפות הממוקדות נגד נמלים ותשתיות סחר ימי בים השחור כדי להטיל מצור כלכלי מתמשך"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/uk-to-resupply-ukraine-with-more-storm-shadow-missiles-to-strike-russia-bloomberg-reports/",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/cards/getting-a-schengen-visa-is-already-hard-for-russians-germany-reportedly-wants-to-limit-where-they-can-go-on-one",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058232/",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48589",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-defense/4174888-ukraines-first-use-of-fp7-ballistic-missile-successful-military-expert-says.html",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
+    "accessed_at": "2026-10-15T23:42:04+00:00"
+   }
+  ]
+ }
+}

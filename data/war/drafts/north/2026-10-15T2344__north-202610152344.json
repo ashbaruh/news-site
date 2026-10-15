@@ -1,0 +1,583 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1b6ec2c057da",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 4,
+   "verified": 1,
+   "initial": 4,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-15T23:44:33+00:00",
+  "window": {
+   "from": "2026-10-14T23:44:33+00:00",
+   "to": "2026-10-15T23:44:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610152344"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת במתיחות ביטחונית גבוהה סביב דרום לבנון וסביב התעצמות מחודשת של חזבאללה מול מאמצי אכיפה של השלטון בלבנון. בדרום לבנון נמשכים חיכוכי גבול ותקיפות נקודתיות של ישראל, לצד היערכות ישראלית לתגובה מאיראן ומחזבאללה. בסוריה פועל השלטון החדש של א-שרעא לביסוס משילות ולכידת גורמים ממשטר אסד לשעבר, תוך התנערות ממעורבות ישראלית בענייני הדרוזים בדרום המדינה.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "לחימה בעצימות נמוכה, שיגור מיירטים ותקיפות נקודתיות של צה\"ל לצד נוכחות כוחות בשטח"
+   },
+   {
+    "name": "פנים לבנון (ביירות והבקאע)",
+    "status": "חיכוך פוליטי וביטחוני בין צבא ומשטרת לבנון לחזבאללה בעקבות תפיסת משלוחי נשק"
+   },
+   {
+    "name": "דרום סוריה ודמשק",
+    "status": "מתח סביב הגנת האוכלוסייה הדרוזית והצהרות על תקיפות ישראליות בעבר נגד יעדי שלטון"
+   },
+   {
+    "name": "ציר טורקיה-סוריה-לבנון",
+    "status": "מגעים מדיניים וביטחוניים ברקע הכחשות רשמיות למפגשי תיווך בין חזבאללה לשלטון הסורי"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10152344-01",
+    "title": "תפיסת משלוח חומרי נפץ של חזבאללה בלבנון ודרישת הארגון להשבתם",
+    "summary": "כוחות ביטחון הפנים של לבנון תפסו במחסום דהר אל-בידר כחצי טון חומרי נפץ שהוסעו ברכב מבקעת הלבנון לכיוון ביירות. חבר פרלמנט מטעם חזבאללה הודה שהמטען שייך לארגון ודרש את השבתו ואת שחרור העצורים בטענה שהציוד מיועד לפעילות נגד ישראל, בעוד ראש הממשלה הלבנוני הצהיר כי המדינה לא תשלים עם נשק בלתי חוקי.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T14:10:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T14:10:00+00:00",
+    "last_update_at": "2026-10-15T23:40:16+00:00",
+    "what_is_not_verified": "בכתבה אחת נטען שהחות'ים הודו בבעלות על המשלוח בסתירה להודאת חזבאללה; כמו כן מטרת השינוע והיעד הסופי אינם מוסכמים מעבר לטענות הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/seized-explosives-belong-resistance-against-israel-hezbollah-mp-says",
+      "published_at": "2026-10-15T23:40:16+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hjjwvpcozx",
+      "published_at": "2026-10-15T15:44:34+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48581",
+      "published_at": "2026-10-15T15:37:29+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963015/rubios-call-to-aoun-raises-stakes-over-hezbollah-explosives-will-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963015",
+      "published_at": "2026-10-15T14:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8103,
+      "lon": 35.7619
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-02",
+    "title": "לחץ אמריקני על נשיא לבנון בעניין מטעני הנפץ ודרישה לבלימת תקיפות ישראל",
+    "summary": "שר החוץ של ארצות הברית דרש מנשיא לבנון בשיחת טלפון שלא להחזיר לחזבאללה את חומרי הנפץ שנתפסו ולמצות את הדין עם המעורבים. מנגד, נשיא לבנון דרש מארצות הברית ללחוץ על ישראל להפסיק את תקיפותיה ופעולות החישוף בדרום לבנון ולעמוד בהסכם המסגרת.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T14:05:23+00:00",
+    "last_update_at": "2026-10-15T22:29:05+00:00",
+    "what_is_not_verified": "פרטי השיחה המלאים נמסרו דרך מקורות רשמיים לבנוניים ותדרוך אנונימי בארצות הברית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a56c81a0239472b7",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-spoke-lebanese-president-confiscated-hezbollah-explosives-says",
+      "published_at": "2026-10-15T22:29:05+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a56c81a0239472b7",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-president-asks-rubio-press-israel-halt-attacks-countrys-south",
+      "published_at": "2026-10-15T21:48:22+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_a56c81a0239472b7",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963015/rubios-call-to-aoun-raises-stakes-over-hezbollah-explosives-will-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963015",
+      "published_at": "2026-10-15T14:10:00+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_a56c81a0239472b7",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963029/aoun-urges-rubio-to-pressure-israel-to-halt-attacks-in-southern-lebano/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963029",
+      "published_at": "2026-10-15T14:05:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-03",
+    "title": "שיגור מיירט צה\"ל לעבר מטרת שווא בדרום לבנון",
+    "summary": "מיירט שוגר לעבר מטרת שווא במרחב שבו פועלים כוחות צבא הגנה לישראל בדרום לבנון, ללא הפעלת התרעות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T21:33:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T21:33:27+00:00",
+    "last_update_at": "2026-10-15T21:33:33+00:00",
+    "what_is_not_verified": "מהות מטרת השווא לא פורטה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1377755",
+      "published_at": "2026-10-15T21:33:33+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25384",
+      "published_at": "2026-10-15T21:33:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון, לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-04",
+    "title": "דיווח על תקיפות ישראליות בעיירות בדרום לבנון",
+    "summary": "ערוץ אל-מנאר דיווח על תקיפות ופיצוצים שביצעו כוחות ישראליים בעיירות כפר תבנית ובית יהון בדרום המדינה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T17:08:20+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T17:08:20+00:00",
+    "last_update_at": "2026-10-15T17:08:20+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או תגובה ישראלית על היקף התקיפות והנזק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_24adbfc7459539eb",
+      "url": "https://english.almanar.com.lb/article/138682/",
+      "published_at": "2026-10-15T17:08:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-05",
+    "title": "לכידת מפקד מיליציה מתקופת אסד החשוד בטבח בניאס",
+    "summary": "רשויות הביטחון בסוריה עצרו את עלי כיאלי, מפקד מיליציה הנאמן למשטר אסד לשעבר, בעת שניסה להימלט אל מעבר לגבול. החשוד מבוקש בסוריה על מעורבות בטבח אזרחים בבניאס ובבידא ב-2013, וכן מבוקש בטורקיה על אירועי עבר.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T16:39:53+00:00",
+    "last_update_at": "2026-10-15T23:25:50+00:00",
+    "what_is_not_verified": "לא צוין לאיזו מדינה ניסה החשוד להימלט בעת מעצרו, וקיימים פערים בין מקורות שונים לגבי מניין ההרוגים המדויק בטבח ההיסטורי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/main-suspect-massacre-syria-arrests-assad-era-paramilitary-leader",
+      "published_at": "2026-10-15T23:25:50+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/syria-arrests-mihrac-ural-ex-assad-militia-head-also-wanted-turkey",
+      "published_at": "2026-10-15T17:02:19+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-announces-arrest-assad-era-paramilitary-leader",
+      "published_at": "2026-10-15T16:39:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בניאס, סוריה",
+      "lat": 35.1851,
+      "lon": 35.9478
+     },
+     {
+      "name": "טרטוס, סוריה",
+      "lat": 34.8936,
+      "lon": 35.8852
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-06",
+    "title": "הצהרות ראש ממשלת ישראל על בלימת פגיעה בדרוזים בדרום סוריה",
+    "summary": "ראש ממשלת ישראל הצהיר כי תקף את משרד הביטחון ויעד במתחם הארמון בדמשק, ושוחח ישירות עם א-שרעא על מנת לעצור פגיעה באוכלוסייה הדרוזית בדרום סוריה.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T13:29:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T13:29:36+00:00",
+    "last_update_at": "2026-10-15T23:24:02+00:00",
+    "what_is_not_verified": "מועד התקיפות והשיחה אינו מצוין, וגורמים סוריים רשמיים גינו ניסיונות פוליטיזציה של סוגיית הדרוזים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-says-it-rejects-politicizing-druze-community-for-israeli-elections/4090455",
+      "published_at": "2026-10-15T23:24:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131984",
+      "published_at": "2026-10-15T18:31:38+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48577",
+      "published_at": "2026-10-15T13:29:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "א-סווידא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-07",
+    "title": "ביקור סגן שר החוץ של איראן בביירות",
+    "summary": "סגן שר החוץ של איראן, סעיד ח'טיבזאדה, ביקר ברובע הדאחייה בביירות והניח זר על קברו של חסן נסראללה.",
+    "axis": "לבנון - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T18:47:28+00:00",
+    "last_update_at": "2026-10-15T18:47:28+00:00",
+    "what_is_not_verified": "לא פורטו פגישות מדיניות נוספות שקיים הבכיר במהלך שהותו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_9351587faa935196",
+      "url": "https://english.almanar.com.lb/article/138692/",
+      "published_at": "2026-10-15T18:47:28+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10152344-08",
+    "title": "ביקור רשמי של ראש ממשלת קטאר בלבנון",
+    "summary": "ראש ממשלת קטאר ושר החוץ שלה נחת בביירות לביקור רשמי שכולל פגישות עם נשיא לבנון, יושב ראש הפרלמנט, ראש הממשלה ובכירים צבאיים ואזרחיים.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T20:01:01+00:00",
+    "last_update_at": "2026-10-15T20:01:01+00:00",
+    "what_is_not_verified": "תוכן השיחות המדיניות וסיכומי הפגישות טרם פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/138722/",
+      "published_at": "2026-10-15T20:01:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-09",
+    "title": "היערכות בישראל לאפשרות של הסלמה מול איראן ושלוחותיה",
+    "summary": "בישראל הוארך מצב החירום והוגברה המוכנות הביטחונית מחשש לתקיפה יזומה או טעות בחישוב מצד איראן, חזבאללה והחות'ים, לצד תיאום ביטחוני שוטף עם פיקוד המרכז האמריקני.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T14:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T14:00:00+00:00",
+    "last_update_at": "2026-10-15T16:37:32+00:00",
+    "what_is_not_verified": "הסבירות לתקיפה ומניעי קבלת ההחלטות הפוליטיים מבוססים על הערכות מקורות ביטחוניים בלתי מזוהים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+      "published_at": "2026-10-15T16:37:32+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962986/israel-braces-for-escalation-as-fears-of-an-iranian-attack-grow/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962986",
+      "published_at": "2026-10-15T14:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10152344-10",
+    "title": "הערכות לגבי שיקום גשרי הליטני ותנועת חזבאללה בדרום לבנון",
+    "summary": "דוח מחקרי מצביע על כך שגשרים על נהר הליטני שנפגעו בתקיפות צה\"ל במרץ 2026 שוקמו בחלקם באמצעות מעברים חלופיים של גורמים מקומיים, דבר המאפשר לחזבאללה לשוב ולשנע פעילים ואמצעי לחימה למרחב שמדרום לנהר.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T11:55:45+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T11:55:45+00:00",
+    "last_update_at": "2026-10-15T11:55:45+00:00",
+    "what_is_not_verified": "היקף התנועה המדויק של אמצעי לחימה דרך המעברים החלופיים אינו מפורט בנתונים מדויקים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/the-litani-river-bridges-struck-in-march-2026-their-structural-and-security-status-and-how-hezbollah-is-exploiting-the-situation/",
+      "published_at": "2026-10-15T11:55:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נהר הליטני, לבנון",
+      "lat": 33.552,
+      "lon": 35.6924
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10152344-11",
+    "title": "דיווחים והכחשות על תיווך טורקי בין ממשל א-שרעא לחזבאללה",
+    "summary": "דיווחים על קיום פגישה ישירה בטורקיה בין נציגי ממשל א-שרעא בסוריה לנציגי חזבאללה להפחתת מתיחות הוכחשו באופן רשמי על ידי משרד ההסברה הסורי ומערך התקשורת הנשיאותי של טורקיה.",
+    "axis": "סוריה - טורקיה - לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T07:04:20+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T07:04:20+00:00",
+    "last_update_at": "2026-10-15T07:04:20+00:00",
+    "what_is_not_verified": "עצם קיום הפגישות נתון בסתירה מוחלטת בין דיווחים עיתונאיים המצטטים מקורות ביטחוניים לבין הכחשות רשמיות של ממשלות סוריה וטורקיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/ankara-as-a-mediator-between-damascus-hezbollah-and-beirut-reports-denials-and-open-questions/",
+      "published_at": "2026-10-15T07:04:20+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "סתירה בדיווחים אם משלוח חומרי הנפץ שנתפס בדהר אל-בידר שייך לחזבאללה כהודאת פדלאללה או לחות'ים כפי שצוין באחד המקורות",
+   "היעד המעשי של חומרי הנפץ שנתפסו ברכב - התנקשויות פוליטיות, שימוש פנימי או לחימה נגד כוחות צה\"ל",
+   "עצם התרחשות הפגישה המתווכת על אדמת טורקיה בין נציגי ממשלת סוריה לחזבאללה, שהוכחשה רשמית על ידי אנקרה ודמשק",
+   "אמיתות טענות ראש ממשלת ישראל בדבר תקיפת משרד הביטחון ומתחם הארמון בדמשק והשיחה שבלמה את הפגיעה בדרוזים",
+   "טענות ערוצים המזוהים עם חזבאללה על הגעת משאיות עמוסות חומרי נפץ של צה\"ל לכפר זוטר א-שרקיה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1022,
+    "unit": "ILS",
+    "change_pct": 0.83,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-15T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "המשך הצטיידות והפעלת אמצעי לחימה כדי להתעמת עם כוחות ישראל ולהגן על לבנון",
+     "דרישה לשחרר את פעיליו ולהשיב את מטעני הנפץ שהוחרמו על ידי כוחות הביטחון הלבנוניים"
+    ],
+    "inferred": [
+     "שיקום יכולות צבאיות מדרום לנהר הליטני תוך ניצול מעברים אזרחיים ופגיעה בריבונות ממשלת לבנון",
+     "הרתעת השלטון המרכזי בביירות מאכיפת איסור הנשק הבלתי חוקי"
+    ],
+    "forecast": [
+     "המשך ניסיונות הברחה של חומרי חבלה מסוריה לבקאע ולדרום לבנון תוך חיכוך הולך וגובר עם מנגנוני הביטחון של לבנון",
+     "שמירה על כוננות לתקיפה אפשרית בתיאום עם איראן בעיתוי שייראה מתאים לארגון"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון ונשיאותה",
+    "declared": [
+     "אכיפת החוק ואי-גילוי סובלנות כלפי נשק בלתי חוקי והברחות",
+     "הפעלת לחץ על ארצות הברית לעצירת התקיפות הישראליות בדרום המדינה ויישום הסכם המסגרת"
+    ],
+    "inferred": [
+     "ניסיון לתמרן בין לחצים כבדים מוושינגטון לפעול נגד חזבאללה לבין החשש מפרוץ עימות פנים-לבנוני אלים",
+     "שאיפה להבטיח את המשך משימת יוניפי\"ל כדי למנוע ואקום ביטחוני בדרום"
+    ],
+    "forecast": [
+     "הימנעות מעימות חזיתי כולל עם חזבאללה חרף התעקשות משפטית על החרמת אמצעי הלחימה שנתפסו",
+     "המשך פניות דיפלומטיות למדינות המערב ולמתווכות אזוריות כגון קטאר לבלימת צה\"ל"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול פעילות טרור בדרום לבנון והגנה על אזרחים ודרוזים בסוריה",
+     "היערכות צבאית התקפית והגנתית למניעת מתקפות פתע מצד איראן ושלוחותיה"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי וחישוף שטחים בדרום לבנון למניעת התבססות חזבאללה בקרבת הגבול",
+     "הפעלת מנופי לחץ צבאיים ישירים על השלטון בדמשק למניעת התקרבות לציר האיראני ולמניעת פגיעה במיעוטים"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות ואכיפה מוגברת באזור קו הגבול בדרום לבנון",
+     "הישארות ברמת כוננות גבוהה והארכת צעדי חירום עד לחלוף תקופת הבחירות"
+    ]
+   },
+   {
+    "actor": "הממשל הסורי (א-שרעא)",
+    "declared": [
+     "דחיית כל ניסיון לניצול פוליטי של העדה הדרוזית בא-סווידא כחלק ממרקם המדינה",
+     "מיצוי הדין עם פושעי מלחמה ופעילי מיליציות ממשטר אסד הישן ללא התיישנות"
+    ],
+    "inferred": [
+     "ביסוס לגיטימציה שלטונית פנימית ובינלאומית באמצעות העמדה לדין של פושעי משטר העבר",
+     "שמירה על ניטרליות יחסית וזהירות מעימות ישיר עם ישראל או חזבאללה בשטח לבנון"
+    ],
+    "forecast": [
+     "המשך מעצרים של בכירים לשעבר הנאמנים למשטר אסד שניסו להימלט מהמדינה",
+     "התנערות עקבית מיוזמות גלויות שיחברו את דמשק לחזבאללה על מנת למנוע תקיפות ישראליות בעומק סוריה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/ankara-as-a-mediator-between-damascus-hezbollah-and-beirut-reports-denials-and-open-questions/",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/138722/",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/syria-arrests-mihrac-ural-ex-assad-militia-head-also-wanted-turkey",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-says-it-rejects-politicizing-druze-community-for-israeli-elections/4090455",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962986/israel-braces-for-escalation-as-fears-of-an-iranian-attack-grow/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962986",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1377755",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/main-suspect-massacre-syria-arrests-assad-era-paramilitary-leader",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-announces-arrest-assad-era-paramilitary-leader",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131984",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48577",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25384",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+    "accessed_at": "2026-10-15T23:44:33+00:00"
+   }
+  ]
+ }
+}

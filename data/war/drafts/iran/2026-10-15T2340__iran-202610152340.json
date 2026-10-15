@@ -1,0 +1,513 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ebeda239f016",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 3,
+   "assessment": 2,
+   "initial": 3,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-15T23:40:28+00:00",
+  "window": {
+   "from": "2026-10-14T23:40:28+00:00",
+   "to": "2026-10-15T23:40:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610152340"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין בהסלמה הדדית בנתיבי השיט של מצר הורמוז ובלוחמה כלכלית באמצעות סנקציות מוגברות של משרד האוצר האמריקאי. מנגד, ישראל וארה\"ב מקדמות היערכות מבצעית ואיומי תקיפה תוך כוננות מוגברת, בעוד איראן ושלוחותיה משמרות לחץ צבאי ופעולות תגמול במפרץ.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "חיכוך ימי מתמשך, מיקוש, פגיעה באוניות מסחר והצהרות שליטה סותרות"
+   },
+   {
+    "name": "זירת הסנקציות והכלכלה",
+    "status": "הידוק הגבלות מצד ארה\"ב על רשתות מימון וצדקה איראניות"
+   },
+   {
+    "name": "החזית הישראלית-איראנית",
+    "status": "כוננות שיא, חשש מחישוב מוטעה ואיסוף מודיעין טכנולוגי נגד כטב\"מים"
+   },
+   {
+    "name": "חזית המפרץ והחות'ים",
+    "status": "המשך ירי ותקיפות תשתית תוך האשמת איראן בהכוונת הפעילות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10152340-01",
+    "title": "הטלת סנקציות כלכליות אמריקאיות על רשתות מימון איראניות",
+    "summary": "משרד האוצר האמריקאי הודיע על סנקציות נגד שישה-עשר אישים ועשרה גופים פיננסיים הקשורים לאיראן בעיראק, איראן והונג קונג, תוך התמקדות בשימוש ברשתות צדקה דתיות.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T17:46:27+00:00",
+    "last_update_at": "2026-10-15T21:31:24+00:00",
+    "what_is_not_verified": "מידת הפגיעה המעשית ברשתות הכספים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ef9cbff7065045e4",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanctions-continue-until-irans-coffers-empty-says-us-treasury",
+      "published_at": "2026-10-15T21:31:24+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_ef9cbff7065045e4",
+      "url": "https://www.iranintl.com/en/202610157665",
+      "published_at": "2026-10-15T21:20:16+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_ef9cbff7065045e4",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21637409",
+      "published_at": "2026-10-15T19:01:18+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_ef9cbff7065045e4",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-issues-fresh-iran-related-sanctions-treasury-website-shows",
+      "published_at": "2026-10-15T17:46:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-02",
+    "title": "עימות גרסאות וחיכוך ימי מתמשך במצר הורמוז",
+    "summary": "פיקוד המרכז של צבא ארה\"ב דחה טענות שליטה איראניות במצר הורמוז, בעוד מפקד צבא איראן טען לשליטה ופיקוח מלאים, במקביל לפגיעות בספינות מסחר וחילופי האשמות.",
+    "axis": "ארה\"ב-איראן (מפרץ)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T13:50:26+00:00",
+    "last_update_at": "2026-10-15T20:57:49+00:00",
+    "what_is_not_verified": "האם ספינת המכולות נפגעה ממוקש או מטיל, ומי מחזיק בשליטה בפועל בנתיב הימי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-iranian-army-issue-contesting-claims-over-control-strait",
+      "published_at": "2026-10-15T20:57:49+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjqi19rsgg",
+      "published_at": "2026-10-15T17:51:57+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/in_the_news/2-vessels-struck-in-the-strait-of-hormuz-as-u-s-weighs-mother-of-all-bombs-against-iran/",
+      "published_at": "2026-10-15T14:58:46+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/washingtons-counter-mine-wakeup-call/",
+      "published_at": "2026-10-15T13:50:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10152340-03",
+    "title": "היערכות אמריקאית לשימוש בחימוש כבד נגד אתרים באיראן",
+    "summary": "הבית הלבן והפנטגון הכינו תוכניות מבצעיות לפגיעה באתרים צבאיים, גרעין ותשתיות באיראן באמצעות חימוש כבד, תוך העברת מסרי הרתעה.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T05:18:01+00:00",
+    "last_update_at": "2026-10-15T20:37:43+00:00",
+    "what_is_not_verified": "ההיתכנות המבצעית לפגיעה באתרים תת-קרקעיים ועיתוי הפעולה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_cbs_news",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-prepares-plans-use-weapon-dubbed-mother-all-bombs-iran",
+      "published_at": "2026-10-15T20:37:43+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_cbs_news",
+      "url": "https://www.walla.co.il/news/military/383957555",
+      "published_at": "2026-10-15T16:55:14+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_cbs_news",
+      "url": "https://t.me/lelotsenzura/94663",
+      "published_at": "2026-10-15T11:44:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_cbs_news",
+      "url": "https://t.me/abualiexpress/131933",
+      "published_at": "2026-10-15T05:18:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-04",
+    "title": "העלאת דריכות בישראל מחשש לתגובה איראנית וטעויות בחישוב",
+    "summary": "צה\"ל העלה כוננות מחשש להסלמה רחבה מול איראן ושלוחותיה לפני מועדי הבחירות, על רקע הצבת כוחות אמריקאיים באזור וחשש מפרשנות מוטעית של צעדי המגננה.",
+    "axis": "ישראל-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T15:17:09+00:00",
+    "last_update_at": "2026-10-15T21:00:00+00:00",
+    "what_is_not_verified": "כוונות התקיפה המיידיות של ישראל או איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/yokra14927532",
+      "published_at": "2026-10-15T21:00:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sk1xh50ize",
+      "published_at": "2026-10-15T20:25:46+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+      "published_at": "2026-10-15T16:37:32+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21635840",
+      "published_at": "2026-10-15T15:17:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-05",
+    "title": "הצהרת משמרות המהפכה על מוכנות צבאית והצגת חולשה אמריקאית",
+    "summary": "סגן מפקד משמרות המהפכה טען כי כוחות איראן ערוכים בכלל הזירות והקים מערך הגנה חזק, בעוד עמדת ארה\"ב מעורערת.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T22:55:51+00:00",
+    "last_update_at": "2026-10-15T22:55:51+00:00",
+    "what_is_not_verified": "היקף ומוכנות מערך ההגנה האיראני בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-forces-ready-while-us-shaky-position",
+      "published_at": "2026-10-15T22:55:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-06",
+    "title": "חשיפת נזקי תקיפות איראניות ופעולות שלוחותיה במדינות המפרץ",
+    "summary": "נחשף כי מדינות המפרץ המעיטו בתיאור הנזק שנגרם לתשתיות נפט ואנרגיה כתוצאה מתקיפות ישירות של איראן ושלוחותיה בתגובה למהלכים צבאיים קודמים.",
+    "axis": "איראן-מדינות המפרץ",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T20:33:41+00:00",
+    "last_update_at": "2026-10-15T20:33:41+00:00",
+    "what_is_not_verified": "היקף ההרס המדויק באתרי האנרגיה השונים במפרץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gulf-states-have-downplayed-damage-caused-iranian-strikes-report",
+      "published_at": "2026-10-15T20:33:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהראן, ערב הסעודית",
+      "lat": 26.2967,
+      "lon": 50.1202
+     },
+     {
+      "name": "פוג'יירה, איחוד האמירויות",
+      "lat": 25.1245,
+      "lon": 56.3355
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10152340-07",
+    "title": "העברת רק\"ם איראני לעבר גבול עיראק",
+    "summary": "צבא איראן העביר טנקים וכוחות שריון לעבר אזור הגבול עם עיראק בדרום-מערב המדינה.",
+    "axis": "איראן-עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T18:48:42+00:00",
+    "last_update_at": "2026-10-15T18:48:42+00:00",
+    "what_is_not_verified": "מטרת העברת הכוחות והיקפם המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94671",
+      "published_at": "2026-10-15T18:48:42+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-08",
+    "title": "התנערות חות'ית משיגור טיל לעבר אזור אל-מדינה והאשמת טהראן בהסלמה",
+    "summary": "החות'ים הכחישו תקיפה לעבר ערב הסעודית לאחר שריאד הודיעה על יירוט טיל שכוון לעבר אל-מדינה והאשימה את איראן בליבוי העימות.",
+    "axis": "איראן-שלוחות-המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T10:24:35+00:00",
+    "last_update_at": "2026-10-15T10:24:35+00:00",
+    "what_is_not_verified": "האם אכן שוגר טיל לעבר אזור אל-מדינה ומי שיגר אותו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261015-houthis-deny-targeting-holy-city-medina-after-saudi-arabia-says-intercepted-missile",
+      "published_at": "2026-10-15T10:24:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מדינה, ערב הסעודית",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10152340-09",
+    "title": "מחקר ביטחוני בישראל של אמצעי לחימה וכטב\"מים על בסיס ידע איראני",
+    "summary": "ישראל קיבלה אמצעי לחימה שנלקחו מאוקראינה לצורך חקר טכנולוגיות וכטב\"מים המבוססים על ידע צבאי איראני, כדי להתמודד עם איומים אוויריים.",
+    "axis": "ישראל-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T20:17:17+00:00",
+    "last_update_at": "2026-10-15T20:17:17+00:00",
+    "what_is_not_verified": "סוגי מערכות הנשק המדויקות שהועברו לבדיקה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48589",
+      "published_at": "2026-10-15T20:17:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10152340-10",
+    "title": "דרישה איראנית להדחת ישראל מארגון אזורי ומחאה דיפלומטית",
+    "summary": "סגן שר החוץ האיראני קרא להרחיק את ישראל ממנגנון סיק\"א באשמת ערעור הביטחון באסיה, ומשלחות פרו-איראניות נטשו נאום נשיאותי ישראלי בבאקו.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T10:40:05+00:00",
+    "last_update_at": "2026-10-15T16:29:30+00:00",
+    "what_is_not_verified": "ההשפעה של צעדי המחאה על פעילות הארגון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_edc6a736c2939188",
+      "url": "https://en.irna.ir/news/86293728/Iran-calls-for-Israeli-regime-s-expulsion-from-CICA",
+      "published_at": "2026-10-15T16:29:30+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_edc6a736c2939188",
+      "url": "https://t.me/abualiexpress/131951",
+      "published_at": "2026-10-15T10:40:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "באקו, אזרבייג'ן",
+      "lat": 40.3756,
+      "lon": 49.8328
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה האיראנית שספינת המכולות נפגעה ממוקש ימי לעומת טענות גורמי תעשייה שנפגעה מטיל",
+   "טענת איראן כי אף כלי שיט עוין לא נכנס למרחב מצר הורמוז ועומאן",
+   "טענות על הריגת מאות חיילים אמריקאים בירדן שהוכחשו על ידי צבא ארה\"ב",
+   "היקף הנזק הממשי שנגרם למתקני חברת ארמקו בדהראן",
+   "שיגור הטיל החות'י שנטען כי יורט בסמוך לאל-מדינה והוכחש על ידם"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1022,
+    "unit": "ILS",
+    "change_pct": 0.83,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-15T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "המשך אכיפת סנקציות עד לריקון קופת המשטר האיראני",
+     "הבטחת חופש השיט המסחרי במצר הורמוז יחד עם שותפות אזוריות"
+    ],
+    "inferred": [
+     "הפעלת הרתעה והימנעות מעימות צבאי רחב או פגיעה במחירי הדלק לפני הבחירות",
+     "שימוש במצור כלכלי ככלי העיקרי לערעור יציבות המשטר האיראני"
+    ],
+    "forecast": [
+     "המשך פעילות סיכול והחרמת כספים לצד פריסת כוחות הרתעה ימיים ללא תקיפה ישירה מיידית"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "קיום מערך הגנה ערוך בכלל הגזרות לעימות עם כל איום",
+     "שליטה מלאה ופיקוח במרחב הימי של מצר הורמוז ומפרץ עומאן"
+    ],
+    "inferred": [
+     "העלאת מחירי הדלק והפעלת לחץ כלכלי-ביטחוני גלובלי באמצעות שיבוש השיט",
+     "הרחבת הלחץ על בעלות בריתה של ארה\"ב במפרץ באמצעות שלוחות אזוריות"
+    ],
+    "forecast": [
+     "המשך פעולות הטרדה ימיות אסימטריות והפעלת שלוחות תוך הימנעות ממלחמה כוללת"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "חקר ופיתוח מענה הגנתי טכנולוגי נגד איומי כטב\"מים וטכנולוגיות מתקדמות"
+    ],
+    "inferred": [
+     "שמירה על מוכנות גבוהה מחשש לפעולת פתע או חישוב מוטעה של איראן ושלוחותיה",
+     "העדפת הימנעות מיוזמה התקפית רחבה בעיתוי הנוכחי ללא יעד מוגדר ומכריע"
+    ],
+    "forecast": [
+     "המשך שימור הדריכות המבצעית והתיאום המודיעיני והצבאי עם הכוחות האמריקאיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-issues-fresh-iran-related-sanctions-treasury-website-shows",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/washingtons-counter-mine-wakeup-call/",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261015-houthis-deny-targeting-holy-city-medina-after-saudi-arabia-says-intercepted-missile",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610157665",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86293728/Iran-calls-for-Israeli-regime-s-expulsion-from-CICA",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21635840",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gulf-states-have-downplayed-damage-caused-iranian-strikes-report",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131951",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48589",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94671",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957555",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
+    "accessed_at": "2026-10-15T23:40:28+00:00"
+   }
+  ]
+ }
+}

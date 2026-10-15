@@ -253,6 +253,10 @@
 35.487
 ],
 "bani hayyan, lebanon": null,
+"banias, syria": [
+35.1851,
+35.9478
+],
 "baniyas, syria": [
 35.1851,
 35.9478
@@ -320,6 +324,7 @@
 43.8728,
 33.9938
 ],
+"black sea coast, romania": null,
 "black sea, bulgaria": [
 42.7088,
 27.7186
@@ -555,6 +560,10 @@
 "froun, lebanon": [
 33.2968,
 35.4265
+],
+"fujairah, united arab emirates": [
+25.1245,
+56.3355
 ],
 "gdansk, poland": [
 54.3707,
@@ -963,6 +972,10 @@
 "litani river, lebanon": [
 33.552,
 35.6924
+],
+"london, uk": [
+51.5074,
+-0.1278
 ],
 "london, united kingdom": [
 51.5074,
@@ -1604,6 +1617,10 @@
 "tampa, united states": [
 27.945,
 -82.4583
+],
+"tartus, syria": [
+34.8936,
+35.8852
 ],
 "tayr harfa, lebanon": [
 33.1337,
