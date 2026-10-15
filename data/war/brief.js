@@ -1,259 +1,252 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-14T18:00:00+03:00",
- "generated_at": "2026-10-14T15:10:26+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-15T04:00:00+03:00",
+ "generated_at": "2026-10-15T00:40:10+00:00",
+ "model": "gemini-3.7-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10141510-01",
-     "title": "פגיעה בספינות מצר הורמוז",
-     "summary": "רשויות הנמל והימים של סינגפור דיווחו ששתי ספינות מכולות בבעלות או ברישום סנגפורי נפגעו מפגיעות עצמים במצר הורמוז, כאשר אחת מהן טבעה לאחר שעלתה באש.",
-     "axis": "iran",
+     "id": "IRAN-10150040-01",
+     "title": "ארה\"ב השמידה סירה איראנית במפרץ עומאן",
+     "summary": "ארצות הברית מסרה כי השמידה כלי שיט המזוהה עם איראן ששימש לאיסוף מודיעין.",
+     "axis": "עימות ימי מול איראן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T13:46:34+00:00",
+     "occurred_at": "2026-10-14T20:06:51+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-14T13:46:34+00:00",
-     "last_update_at": "2026-10-14T13:46:34+00:00",
-     "what_is_not_verified": "זהות אלגורם או הקליע שפגע בספינות אינה מאומתת לחלוטין מעבר לדיווח על פגיעת עצמים בלתי מזוהים.",
+     "first_reported_at": "2026-10-14T20:06:51+00:00",
+     "last_update_at": "2026-10-14T23:58:13+00:00",
+     "what_is_not_verified": "לא אומת האם כלי השיט אכן שימש למודיעין עבור משמרות המהפכה מעבר לטענת ארה\"ב.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks",
-       "published_at": "2026-10-14T13:46:34+00:00"
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94656",
+       "published_at": "2026-10-14T20:06:51+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
+       "published_at": "2026-10-14T23:58:13+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מפרץ עומאן",
+       "lat": 24.2138,
+       "lon": 58.9846
+      },
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10150040-02",
+     "title": "טביעת ספינת מכולות במצר הורמוז",
+     "summary": "ספינת מכולות טבעה במצר הורמוז לאחר שלפי הדיווחים נפגעה מנשק איראני.",
+     "axis": "עימות ימי במצר הורמוז",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T16:58:38+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T16:58:38+00:00",
+     "last_update_at": "2026-10-14T19:31:19+00:00",
+     "what_is_not_verified": "סוג האמל\"ח המדויק שפגע בספינה והאחריות האיראנית המלאה אינם מאומתים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/131926",
+       "published_at": "2026-10-14T19:31:19+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94652",
+       "published_at": "2026-10-14T16:58:38+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10150040-03",
+     "title": "יושב ראש הפרלמנט האיראני קרא להיערך למלחמה",
+     "summary": "יושב ראש הפרלמנט האיראני מוחמד באקר קאליבאף הצהיר כי יש להתכונן למלחמה על רקע הפרת הבטחות מצד ארה\"ב.",
+     "axis": "הצהרות הנהגת איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-15T00:38:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-15T00:38:01+00:00",
+     "last_update_at": "2026-10-15T00:38:01+00:00",
+     "what_is_not_verified": "לא מאומת האם שיחות המשא ומתן המדווחות עדיין מתקיימות בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/they-break-their-promises-iran-must-be-prepared-war-ghalibaf-says",
+       "published_at": "2026-10-15T00:38:01+00:00"
       }
      ],
      "places": []
-    },
-    {
-     "id": "IRAN-10141510-02",
-     "title": "אזהרת נתניהו בנוגע לתקיפה",
-     "summary": "ראש ממשלת ישראל בנימין נתניהו הצהיר כי אינו תומך במתקפה מונעת נגד איראן טרם הבחירות בישראל, אך הזהיר את טהראן ושלוחותיה מפני תקיפת ישראל.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T13:46:34+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-14T13:46:34+00:00",
-     "last_update_at": "2026-10-14T13:46:34+00:00",
-     "what_is_not_verified": "האם הכוונות או האיומים ימומשו בשטח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-says-he-not-seeking-attack-iran-again-israel-election",
-       "published_at": "2026-10-14T13:46:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ירושלים, ישראל",
-       "lat": 31.7788,
-       "lon": 35.2258
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10141510-03",
-     "title": "התראה על משבר מזון אפשרי",
-     "summary": "גורם מטעם האו\"ם הזהיר כי כישלון בהגעת הסכמה בין ארצות הברית לאיראן על תוכנית הובלת דשנים דרך מצר הורמוז עלול להצית משבר ביטחון תזונתי באזורים באסיה ובאפריקה.",
-     "axis": "iran",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T13:46:34+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-14T13:46:34+00:00",
-     "last_update_at": "2026-10-14T13:46:34+00:00",
-     "what_is_not_verified": "האם יושג הסכם בסופו של דבר או האם יתפתח משבר בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/failure-activate-hormuz-fertilizer-plan-could-trigger-food-crisis-un-official",
-       "published_at": "2026-10-14T13:46:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בנגקוק, תאילנד",
-       "lat": 13.7525,
-       "lon": 100.4935
-      }
-     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10141510-01",
-     "title": "איומי שר הביטחון בלבנון",
-     "summary": "שר הביטחון ישראל כ\"ץ הצהיר כי אם חיזבאללה יצטרף למתקפה איראנית על ישראל, הוא יספוג מכה קשה, שטחים בדרום לבנון יצורפו לאזור הביטחון הישראלי, ורובע הדאחייה בביירות יותקף.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T10:41:53+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-14T10:41:53+00:00",
-     "last_update_at": "2026-10-14T10:41:53+00:00",
-     "what_is_not_verified": "מימוש איומי התמרון והפינוי בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131900",
-       "published_at": "2026-10-14T10:41:53+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10141510-02",
-     "title": "הקמת משימת ביטחון אירופית בלבנון",
-     "summary": "האיחוד האירופי אישר הקמת משימת ביטחון חדשה בלבנון לבקשת רשויות המדינה, למשך שלוש שנים, על רקע חוסר הוודאות סביב עתיד כוחות שמירת השלום.",
-     "axis": "north",
+     "id": "NORTH-10150040-01",
+     "title": "תקיפה ישראלית מהאוויר בדרום לבנון",
+     "summary": "כלי תקשורת רשמיים דיווחו כי תקיפה ישראלית בכפר חדאת'א פצעה שני בני אדם, ביניהם ילד.",
+     "axis": "חזית לבנון וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T13:56:41+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-14T13:56:41+00:00",
-     "last_update_at": "2026-10-14T13:56:41+00:00",
-     "what_is_not_verified": "היקף הפעילות המעשי של המשימה החדשה בשטח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_the_new_arab",
-       "url": "https://www.newarab.com/analysis/eus-new-lebanon-security-mission-explained-and-whats-next",
-       "published_at": "2026-10-14T13:56:41+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10141510-03",
-     "title": "ירי ארטילרי בקוניטרה",
-     "summary": "כוחות ישראליים ירו שלוש פגזי ארטילריה אל סביבת תל כרום שבדרום-מערב סוריה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T14:52:30+00:00",
+     "occurred_at": "2026-10-14T23:12:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-14T14:52:30+00:00",
-     "last_update_at": "2026-10-14T14:52:30+00:00",
-     "what_is_not_verified": "מלוא נזקי הירי בשטח.",
+     "first_reported_at": "2026-10-14T23:12:10+00:00",
+     "last_update_at": "2026-10-14T23:12:10+00:00",
+     "what_is_not_verified": "זהות הנפגעים המדויקת ומצבם אינם מאומתים מעבר לדיווח התקשורת הרשמית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
-       "source_root_id": "or_anadolu",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-shell-area-in-southwestern-syria-s-quneitra/4088736",
-       "published_at": "2026-10-14T14:52:30+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrike-injures-2-including-child-in-southern-lebanon-state-media/4089149",
+       "published_at": "2026-10-14T23:12:10+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "חדאת'א, לבנון",
+       "lat": 33.1561,
+       "lon": 35.3912
+      },
+      {
+       "name": "בינת ג'בייל, לבנון",
+       "lat": 33.1195,
+       "lon": 35.4328
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10150040-02",
+     "title": "רחפן ישראלי הטיל פצצה בדרום לבנון",
+     "summary": "תועד רחפן צה\"לי מטיל פצצה באזור פאתי הכפר זיבקין שבדרום לבנון.",
+     "axis": "חזית לבנון וישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T20:47:46+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T20:47:46+00:00",
+     "last_update_at": "2026-10-14T20:47:46+00:00",
+     "what_is_not_verified": "מידת הנזק או הנפגעים מהטלת הפצצה אינה מאומתת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+       "published_at": "2026-10-14T20:47:46+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זיבקין, לבנון",
+       "lat": 33.1644,
+       "lon": 35.2665
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10141510-01",
-     "title": "הרוגים בתקיפה על מחסן באוקראינה",
-     "summary": "מתקפת כטב\"מים רוסית פגעה במחסן סיטונאי בעיר לוצק באוקראינה, וגרמה למותם של שישה בני אדם ולפציעתם של אחרים.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10150040-01",
+     "title": "תקיפה רוסית על העיר קרופיבניצקי",
+     "summary": "מתקפה רוסית על מטרות לוגיסטיקה ותעשייה באזור קרופיבניצקי גרמה למותם של שלושה בני אדם ולפציעת שישה.",
+     "axis": "המלחמה באוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T14:42:31+00:00",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-14T14:42:31+00:00",
-     "last_update_at": "2026-10-14T14:42:31+00:00",
-     "what_is_not_verified": "מספר הפצועים הסופי טרם התייצב באופן רשמי.",
+     "first_reported_at": "2026-10-14T23:09:14+00:00",
+     "last_update_at": "2026-10-14T23:09:14+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק באתרי התעשייה אינו מאומת במלואו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_meduza",
-       "url": "https://meduza.io/en/news/2026/10/14/six-killed-in-russian-strike-on-warehouse-in-ukraine-s-lutsk",
-       "published_at": "2026-10-14T14:42:31+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/intense-russian-assault-on-kropyvnytskyi-kills-3-injures-6/",
+       "published_at": "2026-10-14T23:09:14+00:00"
       }
      ],
      "places": [
       {
-       "name": "לוצק, אוקראינה",
-       "lat": 50.7451,
-       "lon": 25.3201
+       "name": "קרופיבניצקי, אוקראינה",
+       "lat": 48.5106,
+       "lon": 32.2656
       }
      ]
     },
     {
-     "id": "UKRAINE-10141510-02",
-     "title": "תקיפת כטב\"מים על מרכז נתונים ברוסיה",
-     "summary": "מתקפת כטב\"מים אוקראינית פגעה במרכז נתונים של בנק סברבנק בעיר באלאקובו שבמחוז סרטוב, וגרמה לתקלות נרחבות בשירותים בנקאיים ומקוונים ברוסיה.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10150040-02",
+     "title": "הצתת אנטנות סטארלינק בבולגריה",
+     "summary": "אלמונים הציתו אחת עשרה תחנות קרקעיות של רשת סטארלינק בבולגריה המשמשות להעברת תקשורת לאוקראינה.",
+     "axis": "תשתיות סיוע לאוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T12:42:35+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-14T12:42:35+00:00",
-     "last_update_at": "2026-10-14T12:42:35+00:00",
-     "what_is_not_verified": "היקף הנזק המלא למערכות הגיבוי של המרכז.",
+     "occurred_at": "2026-10-14T18:21:16+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T18:21:16+00:00",
+     "last_update_at": "2026-10-14T18:21:16+00:00",
+     "what_is_not_verified": "זהות המציתים והמניע הישיר אינם מאומתים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48536",
-       "published_at": "2026-10-14T12:42:35+00:00"
+       "url": "https://t.me/alexmehacarmel/48559",
+       "published_at": "2026-10-14T18:21:16+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "באלאקובו, רוסיה",
-       "lat": 52.0181,
-       "lon": 47.8191
-      }
-     ]
+     "places": []
     },
     {
-     "id": "UKRAINE-10141510-03",
-     "title": "הגבלות מהירות על מסופי סטארלינק",
-     "summary": "גורמים באוקראינה דיווחו שחברת ספייס-אקס הפעילה ללא התראה מוקדמת מגבלות מהירות על מסופי האינטרנט הלווייני סטארלינק המשמשים את כוחות הצבא שלה.",
-     "axis": "ukraine",
-     "claim_type": "incident",
+     "id": "UKRAINE-10150040-03",
+     "title": "טענה לשימוש ברכיבים מערביים חדשים בטילים רוסיים",
+     "summary": "דובר חיל האוויר האוקראיני טען כי שרידי טילים רוסיים כוללים רכיבים מאירופה ומארה\"ב שיוצרו זמן קצר לפני הירי.",
+     "axis": "אמל\"ח וסנקציות במלחמה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T11:31:36+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-14T11:31:36+00:00",
-     "last_update_at": "2026-10-14T11:31:36+00:00",
-     "what_is_not_verified": "הסיבה המדויקת להפעלת ההגבלה מטעם החברה.",
+     "occurred_at": "2026-10-14T23:24:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T23:24:00+00:00",
+     "last_update_at": "2026-10-14T23:24:00+00:00",
+     "what_is_not_verified": "אופן הגעת הרכיבים ואימות הממצאים ממקור עצמאי אינם מאומתים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48533",
-       "published_at": "2026-10-14T11:31:36+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4174260-russia-uses-missiles-containing-european-and-usmade-components-manufactured-weeks-before-strikes-ihnat.html",
+       "published_at": "2026-10-14T23:24:00+00:00"
       }
      ],
      "places": []
@@ -263,76 +256,59 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10141510-01",
-     "title": "פגיעה במטה אראמכו בסעודיה",
-     "summary": "מתקפה שביצעו החות'ים פגעה במטה חברת אראמכו בדמאם/דהראן שבסעודיה, וגרמה לשריפה ולנזק במקום.",
-     "axis": "yemen",
-     "claim_type": "incident",
+     "id": "YEMEN-10150040-01",
+     "title": "החות'ים טוענים לפגיעה במטוס קרב סעודי",
+     "summary": "הדובר הצבאי של החות'ים טען כי מטוס קרב סעודי מסוג טייפון נפגע מטיל מעל שמי מחוז סעדה.",
+     "axis": "עימות החות'ים וסעודיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T08:51:14+00:00",
+     "occurred_at": "2026-10-14T22:54:25+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-14T08:51:14+00:00",
-     "last_update_at": "2026-10-14T08:51:14+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לכלל פעילות החברה באתר.",
+     "first_reported_at": "2026-10-14T22:54:25+00:00",
+     "last_update_at": "2026-10-14T23:07:57+00:00",
+     "what_is_not_verified": "נפילת המטוס או הפגיעה בו אינן מאומתות ואין אישור מצד סעודיה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131894",
-       "published_at": "2026-10-14T08:51:14+00:00"
+       "url": "https://t.me/alexmehacarmel/48565",
+       "published_at": "2026-10-14T22:54:25+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-saudi-military-aircraft-struck-directly-over-yemen",
+       "published_at": "2026-10-14T23:07:57+00:00"
       }
      ],
      "places": [
       {
-       "name": "דהראן, סעודיה",
-       "lat": 26.2967,
-       "lon": 50.1202
+       "name": "סעדה, תימן",
+       "lat": 16.9409,
+       "lon": 43.763
       }
      ]
     },
     {
-     "id": "YEMEN-10141510-02",
-     "title": "דחיית משחקים בליגה הסעודית",
-     "summary": "מנהלת הליגה הסעודית בכדורגל הודיעה על דחיית שלושה משחקים במסגרת המחזור התשיעי עקב ההסלמה הביטחונית והעימות עם החות'ים.",
-     "axis": "yemen",
-     "claim_type": "incident",
+     "id": "YEMEN-10150040-02",
+     "title": "קרבות עזים במחוז תעז",
+     "summary": "צבא תימן טען כי למעלה ממאתיים לוחמים חות'ים נהרגו ונפצעו בלחימה בחזיתות שונות במחוז תעז.",
+     "axis": "מלחמת הפנים בתימן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T14:30:24+00:00",
+     "occurred_at": "2026-10-14T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-14T14:30:24+00:00",
-     "last_update_at": "2026-10-14T14:30:24+00:00",
-     "what_is_not_verified": "מועדי קיום המשחקים הנדחים בהמשך.",
+     "first_reported_at": "2026-10-14T21:58:01+00:00",
+     "last_update_at": "2026-10-14T21:58:01+00:00",
+     "what_is_not_verified": "מספרי הנפגעים החות'ים מבוססים על הודעת צבא תימן בלבד ולא אומתו במקור עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_al_monitor",
-       "url": "https://www.al-monitor.com/originals/2026/10/saudi-league-postpones-three-matches-after-houthi-attacks",
-       "published_at": "2026-10-14T14:30:24+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10141510-03",
-     "title": "אזהרת ארגון המזון העולמי בתימן",
-     "summary": "תוכנית המזון העולמית של האו\"ם התריעה כי התגברות הלחימה בתימן והתרחבויות הקו החזית ניתקו סיוע מציל חיים ממאות אלפי תושבים, בפרט באזור תעז.",
-     "axis": "yemen",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T12:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-14T12:00:00+00:00",
-     "last_update_at": "2026-10-14T12:00:00+00:00",
-     "what_is_not_verified": "האם יושגו נתיבי גישה חלופיים לאוכלוסייה המצורﺗת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_un_news",
-       "source_root_id": "fh_343d04cbef70eb03",
-       "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
-       "published_at": "2026-10-14T12:00:00+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-says-200-houthis-killed-wounded-clashes-taiz",
+       "published_at": "2026-10-14T21:58:01+00:00"
       }
      ],
      "places": [
@@ -340,6 +316,40 @@ window.DB.war_brief = {
        "name": "תעז, תימן",
        "lat": 13.5752,
        "lon": 44.0215
+      },
+      {
+       "name": "ד'ובאב, תימן",
+       "lat": 13.0597,
+       "lon": 43.5117
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10150040-03",
+     "title": "החות'ים טענו ששיגרו טיל בליסטי לעבר נמל התעופה בריאד",
+     "summary": "החות'ים הודיעו כי תקפו באמצעות טיל בליסטי את נמל התעופה הבינלאומי בריאד, לאחר שקואליציה בראשות סעודיה דיווחה על יירוט.",
+     "axis": "עימות החות'ים וסעודיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-14T18:27:58+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-14T18:27:58+00:00",
+     "last_update_at": "2026-10-14T18:27:58+00:00",
+     "what_is_not_verified": "טענת החות'ים על פגיעה מדויקת אינה מאומתת מול דיווח היירוט הסעודי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-targeted-riyadh-airport-ballistic-missile",
+       "published_at": "2026-10-14T18:27:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     }
