@@ -63,6 +63,10 @@
 44.9585
 ],
 "al-hujeir valley, lebanon": null,
+"al-jarmaq, lebanon": [
+33.3883,
+35.5403
+],
 "al-jawf governorate, yemen": null,
 "al-jawf, yemen": null,
 "al-kharj, saudi arabia": [
@@ -223,6 +227,10 @@
 "baiji, iraq": [
 34.9307,
 43.4931
+],
+"baku, azerbaijan": [
+40.3756,
+49.8328
 ],
 "balakliia, ukraine": [
 49.4521,
@@ -1174,6 +1182,10 @@
 "novofedorivka, ukraine": [
 45.0943,
 33.5752
+],
+"novokostiantynivka, ukraine": [
+46.9402,
+29.9593
 ],
 "novomoskovsk, russia": [
 54.011,
