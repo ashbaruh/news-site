@@ -1,0 +1,461 @@
+{
+ "status": "draft",
+ "received_sha256_12": "328703c4413b",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 8,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-16T23:40:33+00:00",
+  "window": {
+   "from": "2026-10-15T23:40:33+00:00",
+   "to": "2026-10-16T23:40:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610162340"
+  },
+  "summary": "רוסיה מנהלת מערכה אווירית מוגברת נגד מערך האנרגיה ותשתיות אזרחיות באוקראינה, במטרה לשבש את התפקוד העורפי לקראת עונת החורף. במקביל, כוחות אוקראינה מפעילים תקיפות עומק נגד מתקני תעשייה ובתי זיקוק בשטח רוסיה ומבצעים התקפות נגד מקומיות בחזית המזרחית. הזירה מושפעת ממתיחות סביב אספקת מערכות הגנה אווירית ושיבושים ביכולות התקשורת הלוויינית של צבא אוקראינה.",
+  "fronts": [
+   {
+    "name": "דונבאס",
+    "status": "כוחות אוקראינה פועלים בהתקפות נגד ומחזירים שטחים במסגרת מבצע ייעודי"
+   },
+   {
+    "name": "העורף האוקראיני",
+    "status": "תחת גלי תקיפות רוסיות אינטנסיביות של כטב\"מים וטילים נגד מתקני אנרגיה ומבנים אזרחיים"
+   },
+   {
+    "name": "עורף רוסיה",
+    "status": "יעד לתקיפות כטב\"מים אוקראיניות על בתי זיקוק ומתקני תעשייה שהביאו להגבלות תעופה"
+   },
+   {
+    "name": "ציר האספקה לחצי האי קרים",
+    "status": "מותקף באמצעות כלי טיס בלתי מאוישים אוקראיניים נגד מטרות לוגיסטיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10162340-01",
+    "title": "הגבלות תעופה בנמלי תעופה במוסקבה בעקבות מתקפות",
+    "summary": "סוכנות התחבורה האווירית הפדרלית של רוסיה הטילה מגבלות בשלושה מארבעת נמלי התעופה המרכזיים באזור מוסקבה, ומשרד התחבורה הכריז על ניטור מיוחד על רקע תקיפות אוקראיניות על בתי זיקוק.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T22:45:41+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T22:45:41+00:00",
+    "last_update_at": "2026-10-16T22:45:41+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לבתי הזיקוק ומשך המגבלות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/moscow-closes-sky-multiple-nights-in-row-as-ukraine-resumes-refinery-strikes/",
+      "published_at": "2026-10-16T22:45:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10162340-02",
+    "title": "רוסיה שיגרה מאות כטב\"מים וטילים לעבר אוקראינה",
+    "summary": "חיל האוויר האוקראיני דיווח כי רוסיה שיגרה מאות כלי טיס בלתי מאוישים ומספר טילי שיוט, ומערכות ההגנה יירטו או שיבשו את מרביתם.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T16:54:00+00:00",
+    "last_update_at": "2026-10-16T16:54:00+00:00",
+    "what_is_not_verified": "מספר הפגיעות המדויק ומידת הנזק של הכלים שלא יורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a87886ae53908330",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058422/",
+      "published_at": "2026-10-16T16:54:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10162340-03",
+    "title": "הפסקות חשמל נרחבות עקב פגיעות בתשתיות אנרגיה במערב אוקראינה",
+    "summary": "חברת החשמל הממלכתית של אוקראינה דיווחה על שיבושים קשים באספקת החשמל במחוזות ריבנה ווהלין, כולל בערים ריבנה ולוצק, בעקבות תקיפות כטב\"מים רוסיים.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T16:47:00+00:00",
+    "last_update_at": "2026-10-16T16:47:00+00:00",
+    "what_is_not_verified": "משך הזמן הנדרש להשלמת התיקונים המלאים ברשת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5ffacfc42eadc3d4",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058419/",
+      "published_at": "2026-10-16T16:47:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריבנה, אוקראינה",
+      "lat": 50.6196,
+      "lon": 26.2513
+     },
+     {
+      "name": "לוצק, אוקראינה",
+      "lat": 50.7451,
+      "lon": 25.3201
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10162340-04",
+    "title": "פגיעה במבני מגורים בחרקוב כתוצאה מתקיפה רוסית",
+    "summary": "תקיפה רוסית גרמה נזק לבנייני מגורים וניפוץ חלונות רבים ברובע סלובידסקי בעיר חרקוב.",
+    "axis": "מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T20:30:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T20:30:00+00:00",
+    "last_update_at": "2026-10-16T20:30:00+00:00",
+    "what_is_not_verified": "מידע על נפגעים בנפש באירוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175294-russian-attack-damages-homes-in-kharkiv-over-100-windows-shattered.html",
+      "published_at": "2026-10-16T20:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10162340-05",
+    "title": "טענות רוסיות על פגיעה נרחבת ביעדים אסטרטגיים ולוגיסטיים",
+    "summary": "ראש המטה הכללי של צבא רוסיה ולרי גרסימוב טען כי כוחותיו השמידו עשרות מרכזים לוגיסטיים, מאות מתקני נמל וכלי שיט שהובילו אספקה צבאית לאוקראינה.",
+    "axis": "כלל הזירה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T21:00:23+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T21:00:23+00:00",
+    "last_update_at": "2026-10-16T21:00:23+00:00",
+    "what_is_not_verified": "אימות עצמאי למספרי המטרות והנזקים שהציג גרסימוב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2203371",
+      "published_at": "2026-10-16T21:00:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10162340-06",
+    "title": "מחלוקת ודיווחים על הגבלת שירותי סטארלינק וסטארשילד לכוחות אוקראינה",
+    "summary": "באוקראינה מדווחים על שיבושים וקשיים ברשת התקשורת הלוויינית בשדה הקרב, בעוד גורמים בארצות הברית, כולל הנשיא טראמפ, מכחישים כי הורו על הגבלת המערכת.",
+    "axis": "תקשורת וסיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T18:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T18:00:00+00:00",
+    "last_update_at": "2026-10-16T22:19:01+00:00",
+    "what_is_not_verified": "האם ניתנה הוראה מכוונת להאטת הרשת ומי הגורם שאחראי לכך בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2203387",
+      "published_at": "2026-10-16T22:19:01+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175297-ukraine-awaiting-pentagon-and-spacex-confirmation-that-starshield-fully-restored-senik-says.html",
+      "published_at": "2026-10-16T20:55:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48619",
+      "published_at": "2026-10-16T19:37:37+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T19:33:48+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/16/trump-denies-ordering-restrictions-on-ukraine-s-military-starlink-service-and-says-he-doesn-t-think-elon-musk-did-either",
+      "published_at": "2026-10-16T18:45:19+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+      "published_at": "2026-10-16T18:19:45+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+      "published_at": "2026-10-16T18:01:19+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058430/",
+      "published_at": "2026-10-16T18:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10162340-07",
+    "title": "שוודיה ובלגיה מקדמות חבילות סיוע צבאי ואנרגטי לאוקראינה",
+    "summary": "ממשלת בלגיה התחייבה לספק מטוסי קרב במהלך השנה, ושוודיה הודיעה על חבילת מימון לשיקום ותמיכה ברשת האנרגיה לקראת עונת החורף.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T16:43:00+00:00",
+    "last_update_at": "2026-10-16T19:20:00+00:00",
+    "what_is_not_verified": "לוחות הזמנים המדויקים להגעת מטוסי הקרב בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-defense/4175282-belgium-to-deliver-10-f16-fighter-jets-to-ukraine-this-year-de-wever-says.html",
+      "published_at": "2026-10-16T19:20:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058418/",
+      "published_at": "2026-10-16T16:43:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10162340-08",
+    "title": "התקפת כטב\"ם על מתקן תעשייתי במחוז סורגוט ברוסיה",
+    "summary": "מושל מחוז סורגוט ברוסיה דיווח על שרפה שפרצה במתקן תעשייתי מקומי בעקבות פגיעת כלי טיס בלתי מאויש.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T18:28:32+00:00",
+    "last_update_at": "2026-10-16T18:28:32+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים במתקן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-drone-attack-sparks-fire-at-industrial-facility-in-russias-surgut-district/",
+      "published_at": "2026-10-16T18:28:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז סורגוט, רוסיה",
+      "lat": 61.2419,
+      "lon": 73.3953
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10162340-09",
+    "title": "מעצר בגרמניה בחשד להצתת תחנת לוויין של סטארלינק בפולין",
+    "summary": "שני אזרחים טורקים נעצרו בגרמניה בחשד למעורבות בהצתת תחנת תקשורת לוויינית קרקעית של סטארלינק בפולין בספטמבר, כאשר נבדק חשד להפעלתם בידי גופי ביון רוסיים.",
+    "axis": "ביטחון באירופה ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T19:19:50+00:00",
+    "last_update_at": "2026-10-16T19:19:50+00:00",
+    "what_is_not_verified": "הוכחה ודאית לקשר ישיר בין העצורים לבין המודיעין הרוסי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/16/russian-intelligence-may-have-hired-a-turkish-crime-gang-to-set-fire-to-a-starlink-ground-station-in-poland-spiegel-reports",
+      "published_at": "2026-10-16T19:19:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וולה קרובובסקה, פולין",
+      "lat": 51.8627,
+      "lon": 20.9187
+     },
+     {
+      "name": "נירטינגן, גרמניה",
+      "lat": 48.6266,
+      "lon": 9.3365
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10162340-10",
+    "title": "התקדמות אוקראינית במסגרת מבצע בדונבאס",
+    "summary": "כוחות אוקראיניים הצליחו להחזיר לשליטתם שטחים באזור דונבאס במסגרת מבצע צבאי המכונה ויוואלדי, תוך שימוש בתקשורת לוויינית.",
+    "axis": "דונבאס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T16:00:30+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T16:00:30+00:00",
+    "last_update_at": "2026-10-16T16:00:30+00:00",
+    "what_is_not_verified": "גבולות השטח המדויקים שנכבשו מחדש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_3f0c36560af318cd",
+      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T16:00:30+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות הצדדים בדבר מעורבות ישירה של הממשל האמריקני או אילון מאסק בהגבלת רשת סטארלינק באוקראינה",
+   "מספרי היעדים האסטרטגיים שהושמדו לפי דיווחי המטה הכללי הרוסי",
+   "מצב מלאי טילי היירוט של מערכות הפטריוט באוקראינה והאם אזלו לחלוטין",
+   "מעורבות ישירה של המודיעין הרוסי בהצתת תחנת סטארלינק בפולין",
+   "תוכנית רוסית מודלפת להשבתת מערכות החשמל, המים והחימום בערים מרכזיות באוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1253,
+    "unit": "USD",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה ביעדים צבאיים, לוגיסטיים ומתקני תשתית התומכים בצבא אוקראינה",
+     "האשמת מוסדות בינלאומיים בסיוע למלחמה שמנהל המערב נגדה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כבד על האוכלוסייה האזרחית באמצעות קריסת מערכי החימום והחשמל לקראת החורף",
+     "פגיעה ברציפות הלחימה האוקראינית על ידי שלילת יכולות שליטה ותקשורת"
+    ],
+    "forecast": [
+     "המשך מיקוד התקיפות האוויריות בתחנות כוח ומערכות חלוקת אנרגיה באוקראינה",
+     "החרפת אמצעי הפיקוח וההגבלות הביטחוניות בתחומי רוסיה מול איומי כטב\"מים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה עצמית ודרישה לסיוע בינלאומי דחוף של מערכות הגנה אווירית ומימון",
+     "השבת שטחים כבושים ופגיעה בלוגיסטיקה ובמערכי האנרגיה של הצבא הרוסי"
+    ],
+    "inferred": [
+     "ניסיון להכריח את רוסיה להקצות משאבי הגנה לעורפה באמצעות תקיפת מתקני נפט ודלק",
+     "חיפוש חלופות צבאיות וטכנולוגיות לעקיפת מגבלות לוגיסטיות ותקשורתיות בחזית"
+    ],
+    "forecast": [
+     "הגברת הלחץ הדיפלומטי על מדינות אירופה לקבלת מטוסי קרב ואמצעי נ\"מ",
+     "המשך מבצעים התקפיים ממוקדים בחזית המזרחית ונגד שיירות אספקה רוסיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-drone-attack-sparks-fire-at-industrial-facility-in-russias-surgut-district/",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/16/russian-intelligence-may-have-hired-a-turkish-crime-gang-to-set-fire-to-a-starlink-ground-station-in-poland-spiegel-reports",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058418/",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2203387",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48619",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-defense/4175282-belgium-to-deliver-10-f16-fighter-jets-to-ukraine-this-year-de-wever-says.html",
+    "accessed_at": "2026-10-16T23:40:33+00:00"
+   }
+  ]
+ }
+}

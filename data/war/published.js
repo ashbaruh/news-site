@@ -1157,448 +1157,364 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-15T2342__ukraine-202610152342.json",
+  "draft": "drafts/ukraine/2026-10-16T2340__ukraine-202610162340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-15T23:42:04+00:00",
+   "generated_at": "2026-10-16T23:40:33+00:00",
    "window": {
-    "from": "2026-10-14T23:42:04+00:00",
-    "to": "2026-10-15T23:42:04+00:00"
+    "from": "2026-10-15T23:40:33+00:00",
+    "to": "2026-10-16T23:40:33+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202610152342"
+    "run_id": "ukraine-202610162340"
    },
-   "summary": "המלחמה בין רוסיה לאוקראינה מתאפיינת בהסלמה הדדית חריפה של מהלומות עומק נגד יעדי אנרגיה, תשתיות לאומיות ומרכזי נתונים. ניסיון התיווך להפסקת אש אנרגטית קרס לחלוטין, כאשר רוסיה מפעילה גלי תקיפה של כטב\"מים וטילים בליסטיים על ערים אוקראיניות, ומנגד אוקראינה מחדשת את הפגיעה בבתי זיקוק ובמתקני טכנולוגיה בתוך שטח רוסיה. במקביל, קייב מתמודדת עם הידלדלות חמורה של מלאי טילי היירוט ומפעילה לחץ דיפלומטי על בעלות בריתה המערביות לאספקת מערכות הגנה אווירית וטילי שיוט.",
+   "summary": "רוסיה מנהלת מערכה אווירית מוגברת נגד מערך האנרגיה ותשתיות אזרחיות באוקראינה, במטרה לשבש את התפקוד העורפי לקראת עונת החורף. במקביל, כוחות אוקראינה מפעילים תקיפות עומק נגד מתקני תעשייה ובתי זיקוק בשטח רוסיה ומבצעים התקפות נגד מקומיות בחזית המזרחית. הזירה מושפעת ממתיחות סביב אספקת מערכות הגנה אווירית ושיבושים ביכולות התקשורת הלוויינית של צבא אוקראינה.",
    "fronts": [
     {
-     "name": "חזית העורף והתשתיות האוקראיניות",
-     "status": "מתקפות רוסיות אינטנסיביות של טילים וכטב\"מים גורמות להרס תחנות כוח ופגיעה באספקת חשמל ומים בקייב, בחרקוב ובאודסה."
+     "name": "דונבאס",
+     "status": "כוחות אוקראינה פועלים בהתקפות נגד ומחזירים שטחים במסגרת מבצע ייעודי"
     },
     {
-     "name": "חזית עומק שטח רוסיה",
-     "status": "אוקראינה מבצעת פגיעות חוזרות באמצעות רחפנים וטילים נגד בתי זיקוק לנפט, מרכזי נתונים ומחשבי-על בריאזאן, בקלוגה, בוולדימיר ובמחוז מוסקבה."
+     "name": "העורף האוקראיני",
+     "status": "תחת גלי תקיפות רוסיות אינטנסיביות של כטב\"מים וטילים נגד מתקני אנרגיה ומבנים אזרחיים"
     },
     {
-     "name": "זירת הים השחור",
-     "status": "שימוש בכשב\"מים אוקראיניים נגד כלי שיט צבאיים ופגיעות כטב\"מים במכליות נפט מסחריות בקרבת חופי רומניה ובולגריה."
+     "name": "עורף רוסיה",
+     "status": "יעד לתקיפות כטב\"מים אוקראיניות על בתי זיקוק ומתקני תעשייה שהביאו להגבלות תעופה"
     },
     {
-     "name": "זירת הקרב הטקטית ומלחמת הרחפנים",
-     "status": "שימוש אינטנסיבי ברחפני נפץ מהירים ורחפני הטלה לאורך קווי המגע, המלווה בפגיעות הדדיות בצוותי המפעילים ובמצוקת כוח אדם."
+     "name": "ציר האספקה לחצי האי קרים",
+     "status": "מותקף באמצעות כלי טיס בלתי מאוישים אוקראיניים נגד מטרות לוגיסטיות"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10152342-01",
-     "title": "מתקפת כלי טיס בלתי מאוישים על מחוז מוסקבה",
-     "summary": "כלי טיס בלתי מאוישים ששוגרו מאוקראינה תקפו יעדים באזור מחוז מוסקבה שברוסיה.",
-     "axis": "עומק רוסיה",
+     "id": "UKRAINE-10162340-01",
+     "title": "הגבלות תעופה בנמלי תעופה במוסקבה בעקבות מתקפות",
+     "summary": "סוכנות התחבורה האווירית הפדרלית של רוסיה הטילה מגבלות בשלושה מארבעת נמלי התעופה המרכזיים באזור מוסקבה, ומשרד התחבורה הכריז על ניטור מיוחד על רקע תקיפות אוקראיניות על בתי זיקוק.",
+     "axis": "עורף רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T23:02:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T23:02:46+00:00",
-     "last_update_at": "2026-10-15T23:02:46+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים בתקיפה במחוז מוסקבה אינם מפורטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48593",
-       "published_at": "2026-10-15T23:02:46+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10152342-02",
-     "title": "מתקפות כטב\"מים רוסיים ופגיעה באספקת החשמל והמים בקייב",
-     "summary": "מתקפות כלי טיס בלתי מאוישים שביצעה רוסיה פגעו במתקני אנרגיה במחוז קייב, גרמו לניתוקי חשמל באזורים בעיר ולירידת לחץ המים בגדה הימנית של נהר הדנייפרו.",
-     "axis": "חזית האנרגיה / העורף האוקראיני",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T20:23:14+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T20:23:14+00:00",
-     "last_update_at": "2026-10-15T20:23:14+00:00",
-     "what_is_not_verified": "משך הזמן שיידרש לתיקון הפגיעה באספקת המים והחשמל אינו ידוע במלואו.",
+     "occurred_at": "2026-10-16T22:45:41+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T22:45:41+00:00",
+     "last_update_at": "2026-10-16T22:45:41+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לבתי הזיקוק ומשך המגבלות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "fh_8849550f103a5e4b",
-       "url": "https://kyivindependent.com/russian-drone-strikes-leave-portions-of-kyiv-without-power-fires-burning/",
-       "published_at": "2026-10-15T20:23:14+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/moscow-closes-sky-multiple-nights-in-row-as-ukraine-resumes-refinery-strikes/",
+       "published_at": "2026-10-16T22:45:41+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     },
     {
-     "id": "UKRAINE-10152342-03",
-     "title": "קריסת הפסקת האש בתחום האנרגיה וחידוש תקיפות הדדיות",
-     "summary": "הפסקת האש בנושאי תשתיות אנרגיה קרסה לחלוטין לאחר מתקפות רוסיות על תחנות כוח בקייב ובחרקוב וחידוש תקיפות אוקראיניות נגד בתי זיקוק לנפט בריאזאן ובמקומות נוספים.",
-     "axis": "חזית האנרגיה ותשתיות",
+     "id": "UKRAINE-10162340-02",
+     "title": "רוסיה שיגרה מאות כטב\"מים וטילים לעבר אוקראינה",
+     "summary": "חיל האוויר האוקראיני דיווח כי רוסיה שיגרה מאות כלי טיס בלתי מאוישים ומספר טילי שיוט, ומערכות ההגנה יירטו או שיבשו את מרביתם.",
+     "axis": "העורף האוקראיני",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T15:01:10+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T15:01:10+00:00",
-     "last_update_at": "2026-10-15T20:59:12+00:00",
-     "what_is_not_verified": "קיומה הרשמי של הפסקת האש מלכתחילה לא אומת על ידי שני הצדדים.",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T16:54:00+00:00",
+     "last_update_at": "2026-10-16T16:54:00+00:00",
+     "what_is_not_verified": "מספר הפגיעות המדויק ומידת הנזק של הכלים שלא יורטו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
-       "published_at": "2026-10-15T20:59:12+00:00"
-      },
-      {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058238/",
-       "published_at": "2026-10-15T18:22:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058227/",
-       "published_at": "2026-10-15T17:46:00+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-15T16:50:18+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-       "published_at": "2026-10-15T15:01:10+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאזאן, רוסיה",
-       "lat": 54.6296,
-       "lon": 39.7425
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10152342-04",
-     "title": "פגיעות ברחפנים במכליות סמוך לחופי רומניה בים השחור",
-     "summary": "שני כלי שיט מסחריים נפגעו מכלי טיס בלתי מאוישים במים הטריטוריאליים של רומניה בים השחור, וכתוצאה מכך עלו באש ושבעה אנשי צוות הוגדרו כנעדרים.",
-     "axis": "הים השחור",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T15:25:51+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T15:25:51+00:00",
-     "last_update_at": "2026-10-15T17:31:30+00:00",
-     "what_is_not_verified": "גורל שבעת הימאים הנעדרים ואישור רוסי רשמי על שיגור הכלים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/15/sailors-missing-drone-strike-tankers-romania-black-sea-coast",
-       "published_at": "2026-10-15T17:31:30+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
-       "published_at": "2026-10-15T15:25:51+00:00"
+       "source_root_id": "fh_a87886ae53908330",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058422/",
+       "published_at": "2026-10-16T16:54:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10152342-05",
-     "title": "השבתת מחשבי-על של חברת יאנדקס בעקבות פגיעות כטב\"מים אוקראינים",
-     "summary": "תקיפות רחפנים וכלי טיס בלתי מאוישים על חוות שרתים של חברת יאנדקס בריאזאן, בקלוגה ובוולדימיר גרמו להשבתת שלושת מחשבי-העל של החברה עקב נזקי עשן ושריפות.",
-     "axis": "עומק רוסיה / תשתיות טכנולוגיות",
+     "id": "UKRAINE-10162340-03",
+     "title": "הפסקות חשמל נרחבות עקב פגיעות בתשתיות אנרגיה במערב אוקראינה",
+     "summary": "חברת החשמל הממלכתית של אוקראינה דיווחה על שיבושים קשים באספקת החשמל במחוזות ריבנה ווהלין, כולל בערים ריבנה ולוצק, בעקבות תקיפות כטב\"מים רוסיים.",
+     "axis": "העורף האוקראיני",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T18:08:02+00:00",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-15T18:08:02+00:00",
-     "last_update_at": "2026-10-15T18:15:06+00:00",
-     "what_is_not_verified": "מידת הנזק הסופית לרכיבים האלקטרוניים ומשך הזמן שיידרש לתיקונם.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/feature/2026/10/15/ukrainian-strikes-on-yandex-s-data-centers-could-set-back-russia-s-ai-development-by-years-never-a-rival-to-the-u-s-or-china-in-ai-russia-may-now-fall-behind-kazakhstan-too",
-       "published_at": "2026-10-15T18:08:02+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/15/they-started-it-we-re-responding-putin-warns-ukraine-over-strikes-on-energy-facilities-warehouses-and-data-centers",
-       "published_at": "2026-10-15T18:15:06+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סאסובו, רוסיה",
-       "lat": 54.3448,
-       "lon": 41.9215
-      },
-      {
-       "name": "קלוגה, רוסיה",
-       "lat": 54.5101,
-       "lon": 36.2598
-      },
-      {
-       "name": "ולדימיר, רוסיה",
-       "lat": 56.1289,
-       "lon": 40.4075
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10152342-06",
-     "title": "חשיפת בסיס רוסי חדש לשיגור כטב\"מי סילון",
-     "summary": "ניתוח צילומי לוויין הצביע על הקמת בסיס רחב היקף תוך שישה שבועות על ידי הצבא הרוסי לצורך שיגור כלי טיס בלתי מאוישים מהירים המונעים בסילון.",
-     "axis": "מערך כלי הטיס הבלתי מאוישים",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T20:59:12+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T20:59:12+00:00",
-     "last_update_at": "2026-10-15T20:59:12+00:00",
-     "what_is_not_verified": "המיקום המדויק של הבסיס ומועד תחילת הפעלתו המבצעית המלאה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
-       "published_at": "2026-10-15T20:59:12+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10152342-07",
-     "title": "אספקת חבילות סיוע צבאי וטילים מבריטניה ומפולין לאוקראינה",
-     "summary": "בריטניה הסכימה להעביר לאוקראינה משלוח נוסף של טילי שיוט מסוג סטורם שאדו, ופולין העבירה חבילת סיוע הכוללת רכיבים לא פומביים ותחמושת בקוטר עשרים מילימטר להגנה על קייב.",
-     "axis": "סיוע צבאי בינלאומי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T18:16:00+00:00",
-     "last_update_at": "2026-10-15T19:26:53+00:00",
-     "what_is_not_verified": "פרטי הרכיבים המסווגים בחבילת הסיוע הפולנית והכמות המדויקת של טילי סטורם שאדו הבריטיים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_133892683d9b0fcf",
-       "url": "https://kyivindependent.com/uk-to-resupply-ukraine-with-more-storm-shadow-missiles-to-strike-russia-bloomberg-reports/",
-       "published_at": "2026-10-15T19:26:53+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_133892683d9b0fcf",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058237/",
-       "published_at": "2026-10-15T18:16:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "לונדון, בריטניה",
-       "lat": 51.5074,
-       "lon": -0.1278
-      },
-      {
-       "name": "בריסל, בלגיה",
-       "lat": 50.8467,
-       "lon": 4.3525
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10152342-08",
-     "title": "מחסור חמור במיירטים למערכות פטריוט באוקראינה",
-     "summary": "מקורות מדווחים כי מלאי הטילים המיירטים למערכות פטריוט שבידי אוקראינה אזל, דבר שהוביל לפגיעות ישירות של טילים בליסטיים רוסיים בתחנות כוח באזור קייב וחרקוב.",
-     "axis": "הגנה אווירית",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T18:22:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T18:22:00+00:00",
-     "last_update_at": "2026-10-15T18:22:00+00:00",
-     "what_is_not_verified": "מידת המחסור המדויקת של כלל סוגי המיירטים במערך ההגנה האווירית האוקראיני.",
+     "first_reported_at": "2026-10-16T16:47:00+00:00",
+     "last_update_at": "2026-10-16T16:47:00+00:00",
+     "what_is_not_verified": "משך הזמן הנדרש להשלמת התיקונים המלאים ברשת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058238/",
-       "published_at": "2026-10-15T18:22:00+00:00"
+       "source_root_id": "fh_5ffacfc42eadc3d4",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058419/",
+       "published_at": "2026-10-16T16:47:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "ריבנה, אוקראינה",
+       "lat": 50.6196,
+       "lon": 26.2513
       },
       {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
+       "name": "לוצק, אוקראינה",
+       "lat": 50.7451,
+       "lon": 25.3201
       }
      ]
     },
     {
-     "id": "UKRAINE-10152342-09",
-     "title": "תוכנית רוסית לשיתוק תשתיות החשמל, המים והחימום בערים מרכזיות",
-     "summary": "מסמך תקיפה רוסי שיורט מעיד על כוונה להשבית תוך חודש את מערכות האנרגיה והמים בערים קייב, חרקוב ואודסה באמצעות שימוש מרוכז בעשרות טילים בליסטיים ומאות כטב\"מים ופצצות מונחות.",
-     "axis": "מערכה על התשתיות",
-     "claim_type": "statement",
+     "id": "UKRAINE-10162340-04",
+     "title": "פגיעה במבני מגורים בחרקוב כתוצאה מתקיפה רוסית",
+     "summary": "תקיפה רוסית גרמה נזק לבנייני מגורים וניפוץ חלונות רבים ברובע סלובידסקי בעיר חרקוב.",
+     "axis": "מזרח אוקראינה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T18:26:00+00:00",
+     "occurred_at": "2026-10-16T20:30:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-15T18:26:00+00:00",
-     "last_update_at": "2026-10-15T18:26:00+00:00",
-     "what_is_not_verified": "היכולת המעשית של רוסיה להוציא לפועל את מלוא התוכנית במסגרת הזמן שהוגדרה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058232/",
-       "published_at": "2026-10-15T18:26:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      },
-      {
-       "name": "אודסה, אוקראינה",
-       "lat": 46.4843,
-       "lon": 30.7323
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10152342-10",
-     "title": "שימוש אוקראיני ראשון בטיל בליסטי מפיתוח עצמי",
-     "summary": "גורמים באוקראינה דיווחו על הפעלה מבצעית ראשונה ומוצלחת של טיל בליסטי מייצור מקומי נגד יעדים בתוך שטח רוסיה, תוך חדירת מערכות ההגנה הרוסיות.",
-     "axis": "עומק רוסיה / יכולות תקיפה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T20:03:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T20:03:00+00:00",
-     "last_update_at": "2026-10-15T20:03:00+00:00",
-     "what_is_not_verified": "אישור בלתי תלוי או תיעוד המאמת את פגיעת הטיל באתר המטרה ברוסיה.",
+     "first_reported_at": "2026-10-16T20:30:00+00:00",
+     "last_update_at": "2026-10-16T20:30:00+00:00",
+     "what_is_not_verified": "מידע על נפגעים בנפש באירוע",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-defense/4174888-ukraines-first-use-of-fp7-ballistic-missile-successful-military-expert-says.html",
-       "published_at": "2026-10-15T20:03:00+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4175294-russian-attack-damages-homes-in-kharkiv-over-100-windows-shattered.html",
+       "published_at": "2026-10-16T20:30:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "חרקוב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      }
+     ]
     },
     {
-     "id": "UKRAINE-10152342-11",
-     "title": "העברת אמצעי לחימה וטכנולוגיות רוסיות מאוקראינה לישראל לחקר",
-     "summary": "ישראל אישרה קבלת דוגמאות של אמצעי לחימה רוסיים שנלקחו על ידי אוקראינה, במטרה לבחון טכנולוגיות כטב\"מים ולפתח נגדם אמצעי התגוננות ומערכות לייזר.",
-     "axis": "שיתוף פעולה טכנולוגי וצבאי",
+     "id": "UKRAINE-10162340-05",
+     "title": "טענות רוסיות על פגיעה נרחבת ביעדים אסטרטגיים ולוגיסטיים",
+     "summary": "ראש המטה הכללי של צבא רוסיה ולרי גרסימוב טען כי כוחותיו השמידו עשרות מרכזים לוגיסטיים, מאות מתקני נמל וכלי שיט שהובילו אספקה צבאית לאוקראינה.",
+     "axis": "כלל הזירה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-13T00:00:00+00:00",
+     "occurred_at": "2026-10-16T21:00:23+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-15T20:17:17+00:00",
-     "last_update_at": "2026-10-15T20:17:17+00:00",
-     "what_is_not_verified": "סוגי מערכות הנשק והדגמים המדויקים שנמסרו בפועל לבדיקה.",
+     "first_reported_at": "2026-10-16T21:00:23+00:00",
+     "last_update_at": "2026-10-16T21:00:23+00:00",
+     "what_is_not_verified": "אימות עצמאי למספרי המטרות והנזקים שהציג גרסימוב",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48589",
-       "published_at": "2026-10-15T20:17:17+00:00"
+       "url": "https://tass.com/politics/2203371",
+       "published_at": "2026-10-16T21:00:23+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10152342-12",
-     "title": "הגבלות אירופיות אפשריות על אשרות תיירות לאזרחי רוסיה",
-     "summary": "האיחוד האירופי וגרמניה דנים בהחמרת הפיקוח על אשרות כניסה לאזרחים רוסים באמצעות מתן אשרות מוגבלות טריטוריאלית בלבד במקום אשרות שנגן חופשיות.",
-     "axis": "סנקציות ומדיניות הגירה",
+     "id": "UKRAINE-10162340-06",
+     "title": "מחלוקת ודיווחים על הגבלת שירותי סטארלינק וסטארשילד לכוחות אוקראינה",
+     "summary": "באוקראינה מדווחים על שיבושים וקשיים ברשת התקשורת הלוויינית בשדה הקרב, בעוד גורמים בארצות הברית, כולל הנשיא טראמפ, מכחישים כי הורו על הגבלת המערכת.",
+     "axis": "תקשורת וסיוע צבאי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-14T00:00:00+00:00",
+     "occurred_at": "2026-10-16T18:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-15T19:40:21+00:00",
-     "last_update_at": "2026-10-15T19:40:21+00:00",
-     "what_is_not_verified": "האם ההצעה תאושר ותיושם לאור התנגדות מצד חלק ממדינות האיחוד.",
+     "first_reported_at": "2026-10-16T18:00:00+00:00",
+     "last_update_at": "2026-10-16T22:19:01+00:00",
+     "what_is_not_verified": "האם ניתנה הוראה מכוונת להאטת הרשת ומי הגורם שאחראי לכך בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/world/2203387",
+       "published_at": "2026-10-16T22:19:01+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4175297-ukraine-awaiting-pentagon-and-spacex-confirmation-that-starshield-fully-restored-senik-says.html",
+       "published_at": "2026-10-16T20:55:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48619",
+       "published_at": "2026-10-16T19:37:37+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-16T19:33:48+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/16/trump-denies-ordering-restrictions-on-ukraine-s-military-starlink-service-and-says-he-doesn-t-think-elon-musk-did-either",
+       "published_at": "2026-10-16T18:45:19+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+       "published_at": "2026-10-16T18:19:45+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+       "published_at": "2026-10-16T18:01:19+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058430/",
+       "published_at": "2026-10-16T18:00:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10162340-07",
+     "title": "שוודיה ובלגיה מקדמות חבילות סיוע צבאי ואנרגטי לאוקראינה",
+     "summary": "ממשלת בלגיה התחייבה לספק מטוסי קרב במהלך השנה, ושוודיה הודיעה על חבילת מימון לשיקום ותמיכה ברשת האנרגיה לקראת עונת החורף.",
+     "axis": "סיוע בינלאומי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T16:43:00+00:00",
+     "last_update_at": "2026-10-16T19:20:00+00:00",
+     "what_is_not_verified": "לוחות הזמנים המדויקים להגעת מטוסי הקרב בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-defense/4175282-belgium-to-deliver-10-f16-fighter-jets-to-ukraine-this-year-de-wever-says.html",
+       "published_at": "2026-10-16T19:20:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058418/",
+       "published_at": "2026-10-16T16:43:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10162340-08",
+     "title": "התקפת כטב\"ם על מתקן תעשייתי במחוז סורגוט ברוסיה",
+     "summary": "מושל מחוז סורגוט ברוסיה דיווח על שרפה שפרצה במתקן תעשייתי מקומי בעקבות פגיעת כלי טיס בלתי מאויש.",
+     "axis": "עורף רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T18:28:32+00:00",
+     "last_update_at": "2026-10-16T18:28:32+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים במתקן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-drone-attack-sparks-fire-at-industrial-facility-in-russias-surgut-district/",
+       "published_at": "2026-10-16T18:28:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מחוז סורגוט, רוסיה",
+       "lat": 61.2419,
+       "lon": 73.3953
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10162340-09",
+     "title": "מעצר בגרמניה בחשד להצתת תחנת לוויין של סטארלינק בפולין",
+     "summary": "שני אזרחים טורקים נעצרו בגרמניה בחשד למעורבות בהצתת תחנת תקשורת לוויינית קרקעית של סטארלינק בפולין בספטמבר, כאשר נבדק חשד להפעלתם בידי גופי ביון רוסיים.",
+     "axis": "ביטחון באירופה ותשתיות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-09-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T19:19:50+00:00",
+     "last_update_at": "2026-10-16T19:19:50+00:00",
+     "what_is_not_verified": "הוכחה ודאית לקשר ישיר בין העצורים לבין המודיעין הרוסי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/cards/getting-a-schengen-visa-is-already-hard-for-russians-germany-reportedly-wants-to-limit-where-they-can-go-on-one",
-       "published_at": "2026-10-15T19:40:21+00:00"
+       "url": "https://meduza.io/en/news/2026/10/16/russian-intelligence-may-have-hired-a-turkish-crime-gang-to-set-fire-to-a-starlink-ground-station-in-poland-spiegel-reports",
+       "published_at": "2026-10-16T19:19:50+00:00"
       }
      ],
      "places": [
       {
-       "name": "בריסל, בלגיה",
-       "lat": 50.8467,
-       "lon": 4.3525
+       "name": "וולה קרובובסקה, פולין",
+       "lat": 51.8627,
+       "lon": 20.9187
+      },
+      {
+       "name": "נירטינגן, גרמניה",
+       "lat": 48.6266,
+       "lon": 9.3365
       }
      ]
+    },
+    {
+     "id": "UKRAINE-10162340-10",
+     "title": "התקדמות אוקראינית במסגרת מבצע בדונבאס",
+     "summary": "כוחות אוקראיניים הצליחו להחזיר לשליטתם שטחים באזור דונבאס במסגרת מבצע צבאי המכונה ויוואלדי, תוך שימוש בתקשורת לוויינית.",
+     "axis": "דונבאס",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T16:00:30+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T16:00:30+00:00",
+     "last_update_at": "2026-10-16T16:00:30+00:00",
+     "what_is_not_verified": "גבולות השטח המדויקים שנכבשו מחדש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_3f0c36560af318cd",
+       "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-16T16:00:30+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "טענת שיגור ראשון ומוצלח של טיל בליסטי מפיתוח עצמי מאוקראינה לעבר מטרות ברוסיה",
-    "הערכת המודיעין בדבר כוונת רוסיה להשבית את תשתיות האנרגיה בשלוש ערים אוקראיניות בתוך 30 יום",
-    "הדיווח לפיו אזל כליל מלאי המיירטים למערכות פטריוט שבידי אוקראינה",
-    "זהות משגרי הכטב\"מים שפגעו במכליות סמוך לחופי רומניה",
-    "היקף הנזק המדויק שנגרם למחשבי-העל של יאנדקס ולבתי הזיקוק ברוסיה",
-    "פרטי הסיוע הצבאי המסווג שהועבר מפולין לאוקראינה",
-    "הדיווחים על הסכם אספקה נוסף של טילי סטורם שאדו מבריטניה שלא הוכרז רשמית"
+    "טענות הצדדים בדבר מעורבות ישירה של הממשל האמריקני או אילון מאסק בהגבלת רשת סטארלינק באוקראינה",
+    "מספרי היעדים האסטרטגיים שהושמדו לפי דיווחי המטה הכללי הרוסי",
+    "מצב מלאי טילי היירוט של מערכות הפטריוט באוקראינה והאם אזלו לחלוטין",
+    "מעורבות ישירה של המודיעין הרוסי בהצתת תחנת סטארלינק בפולין",
+    "תוכנית רוסית מודלפת להשבתת מערכות החשמל, המים והחימום בערים מרכזיות באוקראינה"
    ],
    "map": {
     "confidence": "high",
@@ -1609,469 +1525,428 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1208,
+     "value": 1.1253,
      "unit": "USD",
-     "change_pct": 0.12,
+     "change_pct": 0.4,
      "source_id": "src_ecb",
-     "as_of": "2026-10-15T15:00:00+00:00"
+     "as_of": "2026-10-16T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "אוקראינה",
+     "actor": "רוסיה",
      "declared": [
-      "השגת מערכות יירוט טילים בליסטיים ותחמושת הגנה אווירית מבעלות בריתה",
-      "חידוש הפגיעות במתקני אנרגיה ובתי זיקוק ברוסיה בתגובה להפצצות על קייב וערי אוקראינה",
-      "קידום תהליך ההצטרפות לאיחוד האירופי וחיזוק שיתוף הפעולה הביטחוני עם מדינות אירופה"
+      "פגיעה ביעדים צבאיים, לוגיסטיים ומתקני תשתית התומכים בצבא אוקראינה",
+      "האשמת מוסדות בינלאומיים בסיוע למלחמה שמנהל המערב נגדה"
      ],
      "inferred": [
-      "ערעור הכלכלה הרוסית והפעלת לחץ ישיר על התעשייה הטכנולוגית והאנרגטית של מוסקבה כדי לבלום את מאמץ המלחמה",
-      "שימור רציפות אספקת האמל\"ח המערבי תוך גישור על פערים ביטחוניים מול ארצות הברית והתמודדות עם מגבלות תקשורת לווינית"
+      "הפעלת לחץ כבד על האוכלוסייה האזרחית באמצעות קריסת מערכי החימום והחשמל לקראת החורף",
+      "פגיעה ברציפות הלחימה האוקראינית על ידי שלילת יכולות שליטה ותקשורת"
      ],
      "forecast": [
-      "המשך הגברת פיתוח וייצור אמצעי לחימה עצמאיים כמו טילים בליסטיים וכטב\"מים ארוכי טווח כדי לפצות על תנודות בסיוע החוץ",
-      "התמקדות מוגברת בבקשות דחופות למערכות הגנה אווירית מפני מתקפות החורף הצפויות על רשת החשמל"
+      "המשך מיקוד התקיפות האוויריות בתחנות כוח ומערכות חלוקת אנרגיה באוקראינה",
+      "החרפת אמצעי הפיקוח וההגבלות הביטחוניות בתחומי רוסיה מול איומי כטב\"מים"
      ]
     },
     {
-     "actor": "רוסיה",
+     "actor": "אוקראינה",
      "declared": [
-      "פגיעה בתשתיות אסטרטגיות, מתקני אנרגיה ומרכזי נתונים באוקראינה בתגובה לפעולותיה",
-      "שלילת האפשרות להפסקות אש זמניות שיאפשרו לאוקראינה לשקם את כוחותיה הצבאיים"
+      "הגנה עצמית ודרישה לסיוע בינלאומי דחוף של מערכות הגנה אווירית ומימון",
+      "השבת שטחים כבושים ופגיעה בלוגיסטיקה ובמערכי האנרגיה של הצבא הרוסי"
      ],
      "inferred": [
-      "הכרעת כושר העמידה של העורף האוקראיני על ידי שיתוק מוחלט של מערכות החשמל, החימום והמים בערים הגדולות",
-      "ניצול המחסור החריף במיירטים אוקראיניים להשגת עליונות אווירית ולפגיעה ביכולות הפיקוד והשליטה"
+      "ניסיון להכריח את רוסיה להקצות משאבי הגנה לעורפה באמצעות תקיפת מתקני נפט ודלק",
+      "חיפוש חלופות צבאיות וטכנולוגיות לעקיפת מגבלות לוגיסטיות ותקשורתיות בחזית"
      ],
      "forecast": [
-      "הרחבת השימוש בבסיסי שיגור ייעודיים לכטב\"מי סילון מהירים כדי לחדור את מערכי ההגנה הדלילים של אוקראינה",
-      "החרפת התקיפות הממוקדות נגד נמלים ותשתיות סחר ימי בים השחור כדי להטיל מצור כלכלי מתמשך"
+      "הגברת הלחץ הדיפלומטי על מדינות אירופה לקבלת מטוסי קרב ואמצעי נ\"מ",
+      "המשך מבצעים התקפיים ממוקדים בחזית המזרחית ונגד שיירות אספקה רוסיות"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/uk-to-resupply-ukraine-with-more-storm-shadow-missiles-to-strike-russia-bloomberg-reports/",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://kyivindependent.com/ukraine-war-latest-drone-attack-sparks-fire-at-industrial-facility-in-russias-surgut-district/",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/cards/getting-a-schengen-visa-is-already-hard-for-russians-germany-reportedly-wants-to-limit-where-they-can-go-on-one",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://meduza.io/en/news/2026/10/16/russian-intelligence-may-have-hired-a-turkish-crime-gang-to-set-fire-to-a-starlink-ground-station-in-poland-spiegel-reports",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058232/",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058418/",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
+    },
+    {
+     "source_id": "src_tass",
+     "url": "https://tass.com/world/2203387",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48589",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://t.me/alexmehacarmel/48619",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-defense/4174888-ukraines-first-use-of-fp7-ballistic-missile-successful-military-expert-says.html",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hya50jcjfx",
-     "accessed_at": "2026-10-15T23:42:04+00:00"
+     "url": "https://www.ukrinform.net/rubric-defense/4175282-belgium-to-deliver-10-f16-fighter-jets-to-ukraine-this-year-de-wever-says.html",
+     "accessed_at": "2026-10-16T23:40:33+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-15T05:06:41+00:00",
+  "previous_generated_at": "2026-10-15T23:42:04+00:00",
   "changes": {
-   "UKRAINE-10152342-01": {
+   "UKRAINE-10162340-01": {
     "kind": "new"
    },
-   "UKRAINE-10152342-02": {
+   "UKRAINE-10162340-02": {
     "kind": "new"
    },
-   "UKRAINE-10152342-03": {
+   "UKRAINE-10162340-03": {
     "kind": "new"
    },
-   "UKRAINE-10152342-04": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "הערכות לזיהום נפט בים השחור בעקבות פגיעה במכלית סמוך לסוצ'י",
-    "score": 0.65
+   "UKRAINE-10162340-04": {
+    "kind": "possible",
+    "prev": "תוכנית רוסית לשיתוק תשתיות החשמל, המים והחימום בערים מרכזיות",
+    "score": 0.633
    },
-   "UKRAINE-10152342-05": {
+   "UKRAINE-10162340-05": {
     "kind": "new"
    },
-   "UKRAINE-10152342-06": {
+   "UKRAINE-10162340-06": {
     "kind": "new"
    },
-   "UKRAINE-10152342-07": {
+   "UKRAINE-10162340-07": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "הקצאת סיוע כספי וצבאי מצד בריטניה והאיחוד האירופי לאוקראינה",
+    "prev": "אספקת חבילות סיוע צבאי וטילים מבריטניה ומפולין לאוקראינה",
     "score": 0.65
    },
-   "UKRAINE-10152342-08": {
+   "UKRAINE-10162340-08": {
+    "kind": "possible",
+    "prev": "מתקפת כלי טיס בלתי מאוישים על מחוז מוסקבה",
+    "score": 0.467
+   },
+   "UKRAINE-10162340-09": {
     "kind": "new"
    },
-   "UKRAINE-10152342-09": {
-    "kind": "new"
-   },
-   "UKRAINE-10152342-10": {
-    "kind": "new"
-   },
-   "UKRAINE-10152342-11": {
-    "kind": "new"
-   },
-   "UKRAINE-10152342-12": {
+   "UKRAINE-10162340-10": {
     "kind": "new"
    }
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-15T2344__north-202610152344.json",
+  "draft": "drafts/north/2026-10-16T2341__north-202610162341.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-15T23:44:33+00:00",
+   "generated_at": "2026-10-16T23:41:39+00:00",
    "window": {
-    "from": "2026-10-14T23:44:33+00:00",
-    "to": "2026-10-15T23:44:33+00:00"
+    "from": "2026-10-15T23:41:39+00:00",
+    "to": "2026-10-16T23:41:39+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "north-202610152344"
+    "run_id": "north-202610162341"
    },
-   "summary": "הגזרה הצפונית מתאפיינת במתיחות ביטחונית גבוהה סביב דרום לבנון וסביב התעצמות מחודשת של חזבאללה מול מאמצי אכיפה של השלטון בלבנון. בדרום לבנון נמשכים חיכוכי גבול ותקיפות נקודתיות של ישראל, לצד היערכות ישראלית לתגובה מאיראן ומחזבאללה. בסוריה פועל השלטון החדש של א-שרעא לביסוס משילות ולכידת גורמים ממשטר אסד לשעבר, תוך התנערות ממעורבות ישראלית בענייני הדרוזים בדרום המדינה.",
+   "summary": "בגזרה הצפונית נמשכת פעילות צבאית קרקעית ואווירית של צה\"ל בדרום לבנון ובדרום סוריה, תוך הריסות מבנים וסריקות מבצעיות. במישור המדיני-פנימי בלבנון מופעל לחץ אמריקאי לפירוק חיזבאללה מנשקו ולשינוי החקיקה העוינת לישראל, לצד חיכוך מקומי בין פעילי חיזבאללה למנגנוני הביטחון של המדינה. במקביל, קטר מקדמת מיזמי אנרגיה ללבנון דרך שטח סוריה, ודמשק מאשימה את ישראל בניסיונות לערער את היציבות הפנימית במחוזות הדרומיים.",
    "fronts": [
     {
-     "name": "דרום לבנון",
-     "status": "לחימה בעצימות נמוכה, שיגור מיירטים ותקיפות נקודתיות של צה\"ל לצד נוכחות כוחות בשטח"
+     "name": "חזית דרום לבנון",
+     "status": "פעילות מבצעית הכוללת תקיפות אוויריות, סריקות וירי ארטילרי של צה\"ל לצד שיגורי מיירטים"
     },
     {
-     "name": "פנים לבנון (ביירות והבקאע)",
-     "status": "חיכוך פוליטי וביטחוני בין צבא ומשטרת לבנון לחזבאללה בעקבות תפיסת משלוחי נשק"
+     "name": "חזית פנים לבנון (ביירות והדאחייה)",
+     "status": "חיכוך בין מנגנוני הביטחון של לבנון לפעילי חיזבאללה, לצד מהלכים לצמצום השפעה איראנית"
     },
     {
-     "name": "דרום סוריה ודמשק",
-     "status": "מתח סביב הגנת האוכלוסייה הדרוזית והצהרות על תקיפות ישראליות בעבר נגד יעדי שלטון"
+     "name": "חזית דרום סוריה (דרעא וא-סווידאא)",
+     "status": "פעילות קרקעית מוגבלת של כוחות ישראליים בדרעא ועימות הצהרתי חריף בין ירושלים לדמשק"
     },
     {
-     "name": "ציר טורקיה-סוריה-לבנון",
-     "status": "מגעים מדיניים וביטחוניים ברקע הכחשות רשמיות למפגשי תיווך בין חזבאללה לשלטון הסורי"
+     "name": "גבול הצפון (העורף הישראלי)",
+     "status": "דריכות ביטחונית ומאבק של ראשי הרשויות המקומיות על תקציבי שיקום ומיגון"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10152344-01",
-     "title": "תפיסת משלוח חומרי נפץ של חזבאללה בלבנון ודרישת הארגון להשבתם",
-     "summary": "כוחות ביטחון הפנים של לבנון תפסו במחסום דהר אל-בידר כחצי טון חומרי נפץ שהוסעו ברכב מבקעת הלבנון לכיוון ביירות. חבר פרלמנט מטעם חזבאללה הודה שהמטען שייך לארגון ודרש את השבתו ואת שחרור העצורים בטענה שהציוד מיועד לפעילות נגד ישראל, בעוד ראש הממשלה הלבנוני הצהיר כי המדינה לא תשלים עם נשק בלתי חוקי.",
-     "axis": "לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T14:10:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T14:10:00+00:00",
-     "last_update_at": "2026-10-15T23:40:16+00:00",
-     "what_is_not_verified": "בכתבה אחת נטען שהחות'ים הודו בבעלות על המשלוח בסתירה להודאת חזבאללה; כמו כן מטרת השינוע והיעד הסופי אינם מוסכמים מעבר לטענות הצדדים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/seized-explosives-belong-resistance-against-israel-hezbollah-mp-says",
-       "published_at": "2026-10-15T23:40:16+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hjjwvpcozx",
-       "published_at": "2026-10-15T15:44:34+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48581",
-       "published_at": "2026-10-15T15:37:29+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963015/rubios-call-to-aoun-raises-stakes-over-hezbollah-explosives-will-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963015",
-       "published_at": "2026-10-15T14:10:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דהר אל-בידר, לבנון",
-       "lat": 33.8103,
-       "lon": 35.7619
-      },
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10152344-02",
-     "title": "לחץ אמריקני על נשיא לבנון בעניין מטעני הנפץ ודרישה לבלימת תקיפות ישראל",
-     "summary": "שר החוץ של ארצות הברית דרש מנשיא לבנון בשיחת טלפון שלא להחזיר לחזבאללה את חומרי הנפץ שנתפסו ולמצות את הדין עם המעורבים. מנגד, נשיא לבנון דרש מארצות הברית ללחוץ על ישראל להפסיק את תקיפותיה ופעולות החישוף בדרום לבנון ולעמוד בהסכם המסגרת.",
-     "axis": "לבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T14:05:23+00:00",
-     "last_update_at": "2026-10-15T22:29:05+00:00",
-     "what_is_not_verified": "פרטי השיחה המלאים נמסרו דרך מקורות רשמיים לבנוניים ותדרוך אנונימי בארצות הברית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_a56c81a0239472b7",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-spoke-lebanese-president-confiscated-hezbollah-explosives-says",
-       "published_at": "2026-10-15T22:29:05+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_a56c81a0239472b7",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-president-asks-rubio-press-israel-halt-attacks-countrys-south",
-       "published_at": "2026-10-15T21:48:22+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_a56c81a0239472b7",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963015/rubios-call-to-aoun-raises-stakes-over-hezbollah-explosives-will-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963015",
-       "published_at": "2026-10-15T14:10:00+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_a56c81a0239472b7",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/963029/aoun-urges-rubio-to-pressure-israel-to-halt-attacks-in-southern-lebano/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963029",
-       "published_at": "2026-10-15T14:05:23+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10152344-03",
-     "title": "שיגור מיירט צה\"ל לעבר מטרת שווא בדרום לבנון",
-     "summary": "מיירט שוגר לעבר מטרת שווא במרחב שבו פועלים כוחות צבא הגנה לישראל בדרום לבנון, ללא הפעלת התרעות.",
+     "id": "NORTH-10162341-01",
+     "title": "פעילות צבאית ותקיפות צה\"ל בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו ירי ארטילרי, תקיפות אוויריות, סריקות והריסות מבנים, וכן תועדה התקדמות כלי רכב צבאיים לעבר פאתי כפר שובא. בנוסף דווח על תקיפת רחפן חמוש שהטיל פצצות על מבנה בכפר מיפדון שבמחוז א-נבטיה, החרמת רכב אזרחי בזווטר, וירי ארטילרי לעבר חדאת'א ועייתא אל-ג'בל.",
      "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T21:33:27+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T21:33:27+00:00",
-     "last_update_at": "2026-10-15T21:33:33+00:00",
-     "what_is_not_verified": "מהות מטרת השווא לא פורטה.",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T12:59:43+00:00",
+     "last_update_at": "2026-10-16T15:13:54+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים בפעילויות השונות לא צוין במדויק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_maariv",
+       "source_id": "src_almanar",
+       "source_root_id": "fh_608fab478168bc3f",
+       "url": "https://english.almanar.com.lb/article/139062/",
+       "published_at": "2026-10-16T15:13:54+00:00"
+      },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_608fab478168bc3f",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-airstrikes-artillery-shelling-demolitions-in-southern-lebanon/4091177",
+       "published_at": "2026-10-16T14:29:59+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_608fab478168bc3f",
+       "url": "https://t.me/alexmehacarmel/48605",
+       "published_at": "2026-10-16T14:23:17+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_580f17ced374fdc8",
+       "url": "https://english.almanar.com.lb/article/139037/",
+       "published_at": "2026-10-16T14:19:18+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_608fab478168bc3f",
+       "url": "https://t.me/abualiexpress/132025",
+       "published_at": "2026-10-16T14:01:54+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_076b8c45e2bc1e65",
+       "url": "https://english.almanar.com.lb/article/139012/",
+       "published_at": "2026-10-16T12:59:43+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מיפדון, לבנון",
+       "lat": 33.3451,
+       "lon": 35.4741
+      },
+      {
+       "name": "כפר שובא, לבנון",
+       "lat": 33.3277,
+       "lon": 35.6927
+      },
+      {
+       "name": "חדאת'א, לבנון",
+       "lat": 33.1561,
+       "lon": 35.3912
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10162341-02",
+     "title": "שיגור מיירטים לעבר מטרת שווא בדרום לבנון",
+     "summary": "מערך ההגנה האווירית של צה\"ל שיגר מיירטים לעבר מטרה אווירית שזוהתה באזור פעילות הכוחות בדרום לבנון, ובהמשך התברר כי מדובר במטרת שווא. בהתאם למדיניות לא הופעלו התרעות בעורף.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T16:33:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T16:33:01+00:00",
+     "last_update_at": "2026-10-16T16:59:04+00:00",
+     "what_is_not_verified": "סוג המיירט המדויק ומאפייני הזיהוי השגוי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1377755",
-       "published_at": "2026-10-15T21:33:33+00:00"
+       "url": "https://t.me/abualiexpress/132031",
+       "published_at": "2026-10-16T16:59:04+00:00"
       },
       {
        "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25384",
-       "published_at": "2026-10-15T21:33:27+00:00"
+       "url": "https://t.me/idf_telegram/25392",
+       "published_at": "2026-10-16T16:57:57+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132030",
+       "published_at": "2026-10-16T16:34:57+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25391",
+       "published_at": "2026-10-16T16:33:01+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרום לבנון, לבנון",
+       "name": "דרום לבנון",
        "lat": 33.2481,
        "lon": 35.5119
       }
      ]
     },
     {
-     "id": "NORTH-10152344-04",
-     "title": "דיווח על תקיפות ישראליות בעיירות בדרום לבנון",
-     "summary": "ערוץ אל-מנאר דיווח על תקיפות ופיצוצים שביצעו כוחות ישראליים בעיירות כפר תבנית ובית יהון בדרום המדינה.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-10162341-03",
+     "title": "עימות בעקבות פשיטת כוחות ביטחון לבנוניים באזור הדאחייה בביירות",
+     "summary": "פשיטה של כוחות החקירות הפליליות ברובע הדאחייה על מחסן הובילה למתיחות מול חמושים המזוהים עם חיזבאללה אשר הקיפו את הכוח, עד להתערבות צבא לבנון. חיזבאללה פרסם הבהרה שלפיה הפשיטה נעשתה בלא תיאום מוקדם המקובל עקב רגישות ביטחונית ואיומי ישראל, אך הפעילות הושלמה על פי צו משפטי ואין לארגון קשר למחסן.",
+     "axis": "פנים לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T17:08:20+00:00",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-15T17:08:20+00:00",
-     "last_update_at": "2026-10-15T17:08:20+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או תגובה ישראלית על היקף התקיפות והנזק.",
+     "first_reported_at": "2026-10-16T12:01:33+00:00",
+     "last_update_at": "2026-10-16T19:25:39+00:00",
+     "what_is_not_verified": "זהות המחסנאים המדויקת ותכולת המחסן שנבדק",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_24adbfc7459539eb",
-       "url": "https://english.almanar.com.lb/article/138682/",
-       "published_at": "2026-10-15T17:08:20+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בית יהון, לבנון",
-       "lat": 33.1582,
-       "lon": 35.4212
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10152344-05",
-     "title": "לכידת מפקד מיליציה מתקופת אסד החשוד בטבח בניאס",
-     "summary": "רשויות הביטחון בסוריה עצרו את עלי כיאלי, מפקד מיליציה הנאמן למשטר אסד לשעבר, בעת שניסה להימלט אל מעבר לגבול. החשוד מבוקש בסוריה על מעורבות בטבח אזרחים בבניאס ובבידא ב-2013, וכן מבוקש בטורקיה על אירועי עבר.",
-     "axis": "סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T16:39:53+00:00",
-     "last_update_at": "2026-10-15T23:25:50+00:00",
-     "what_is_not_verified": "לא צוין לאיזו מדינה ניסה החשוד להימלט בעת מעצרו, וקיימים פערים בין מקורות שונים לגבי מניין ההרוגים המדויק בטבח ההיסטורי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/main-suspect-massacre-syria-arrests-assad-era-paramilitary-leader",
-       "published_at": "2026-10-15T23:25:50+00:00"
+       "source_root_id": "fh_b7023bc8db5a8e52",
+       "url": "https://english.almanar.com.lb/article/139092/",
+       "published_at": "2026-10-16T19:25:39+00:00"
       },
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/syria-arrests-mihrac-ural-ex-assad-militia-head-also-wanted-turkey",
-       "published_at": "2026-10-15T17:02:19+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_b7023bc8db5a8e52",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/963227/hezbollah-clarifies-gallery-semaan-incident-denies-links-to-warehouse/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963227",
+       "published_at": "2026-10-16T13:45:12+00:00"
       },
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/syria-announces-arrest-assad-era-paramilitary-leader",
-       "published_at": "2026-10-15T16:39:53+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בניאס, סוריה",
-       "lat": 35.1851,
-       "lon": 35.9478
-      },
-      {
-       "name": "טרטוס, סוריה",
-       "lat": 34.8936,
-       "lon": 35.8852
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10152344-06",
-     "title": "הצהרות ראש ממשלת ישראל על בלימת פגיעה בדרוזים בדרום סוריה",
-     "summary": "ראש ממשלת ישראל הצהיר כי תקף את משרד הביטחון ויעד במתחם הארמון בדמשק, ושוחח ישירות עם א-שרעא על מנת לעצור פגיעה באוכלוסייה הדרוזית בדרום סוריה.",
-     "axis": "ישראל - סוריה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T13:29:36+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T13:29:36+00:00",
-     "last_update_at": "2026-10-15T23:24:02+00:00",
-     "what_is_not_verified": "מועד התקיפות והשיחה אינו מצוין, וגורמים סוריים רשמיים גינו ניסיונות פוליטיזציה של סוגיית הדרוזים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-says-it-rejects-politicizing-druze-community-for-israeli-elections/4090455",
-       "published_at": "2026-10-15T23:24:02+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/131984",
-       "published_at": "2026-10-15T18:31:38+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48577",
-       "published_at": "2026-10-15T13:29:36+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      },
-      {
-       "name": "א-סווידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10152344-07",
-     "title": "ביקור סגן שר החוץ של איראן בביירות",
-     "summary": "סגן שר החוץ של איראן, סעיד ח'טיבזאדה, ביקר ברובע הדאחייה בביירות והניח זר על קברו של חסן נסראללה.",
-     "axis": "לבנון - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T18:47:28+00:00",
-     "last_update_at": "2026-10-15T18:47:28+00:00",
-     "what_is_not_verified": "לא פורטו פגישות מדיניות נוספות שקיים הבכיר במהלך שהותו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_9351587faa935196",
-       "url": "https://english.almanar.com.lb/article/138692/",
-       "published_at": "2026-10-15T18:47:28+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "fh_b7023bc8db5a8e52",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/963212/lebanese-army-intervenes-after-armed-hezbollah-members-surround-crimin/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963212",
+       "published_at": "2026-10-16T12:01:33+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10152344-08",
-     "title": "ביקור רשמי של ראש ממשלת קטאר בלבנון",
-     "summary": "ראש ממשלת קטאר ושר החוץ שלה נחת בביירות לביקור רשמי שכולל פגישות עם נשיא לבנון, יושב ראש הפרלמנט, ראש הממשלה ובכירים צבאיים ואזרחיים.",
-     "axis": "לבנון",
+     "id": "NORTH-10162341-04",
+     "title": "פעילות כוחות צה\"ל במחוז דרעא בדרום סוריה",
+     "summary": "עשרה כלי רכב צבאיים של צה\"ל התקדמו לעבר אזור סכר במערב מחוז דרעא שבדרום סוריה. במקום נשמעו קולות ירי ובוצעו סריקות בבתים, בליווי גיחות מטוסי קרב באוויר.",
+     "axis": "ישראל - סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T20:01:01+00:00",
-     "last_update_at": "2026-10-15T20:01:01+00:00",
-     "what_is_not_verified": "תוכן השיחות המדיניות וסיכומי הפגישות טרם פורסמו.",
+     "occurred_at": "2026-10-16T06:14:34+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T06:14:34+00:00",
+     "last_update_at": "2026-10-16T06:14:34+00:00",
+     "what_is_not_verified": "האם היו נפגעים או מעצרים בפעילות",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/10-israeli-military-vehicles-advance-near-dam-in-southern-syria/4090511",
+       "published_at": "2026-10-16T06:14:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10162341-05",
+     "title": "חילופי האשמות בין ישראל לממשלת סוריה בנוגע לעדה הדרוזית בא-סווידאא",
+     "summary": "ממשלת סוריה גינתה את דברי ראש ממשלת ישראל שטען כי התערב ומנע טבח בדרוזים ביולי 2025 באמצעות תקיפת משרד הביטחון ומתחם ארמון הנשיאות בדמשק ושיחה עם נשיא סוריה. דמשק טענה מנגד כי ישראל חימשה מיליציה לא חוקית כדי לערער את היציבות ולגרור את סוריה למלחמה. במקביל פורסמה בישראל הודעת תמיכה בנתניהו מצד מנהיג העדה הדרוזית.",
+     "axis": "ישראל - סוריה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T08:33:25+00:00",
+     "last_update_at": "2026-10-16T20:20:44+00:00",
+     "what_is_not_verified": "עצם קיומה ותוכנה של שיחת הטלפון בין נתניהו לנשיא סוריה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132040",
+       "published_at": "2026-10-16T20:20:44+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/syria-rejects-israeli-politicisation-suweidas-druze",
+       "published_at": "2026-10-16T17:04:39+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21639453",
+       "published_at": "2026-10-16T08:33:25+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "א-סווידאא, סוריה",
+       "lat": 32.7094,
+       "lon": 36.5687
+      },
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10162341-06",
+     "title": "ביקור ראש ממשלת קטר בביירות וקידום מיזמי אנרגיה בין קטר, לבנון וסוריה",
+     "summary": "ראש ממשלת קטר נפגש בביירות עם נשיא לבנון ז'וזף עון ודן עמו בסיוע לייצוב המדינה, קידום פרויקטי חשמל ואספקת גז דרך סוריה בהיקף של עד שלושת אלפים מגה-וואט, לצד דרישה לנסיגת כוחות ישראל משטחי דרום לבנון ומסירתם לצבא לבנון. שר החוץ הלבנוני הביע רצון בכוח בינלאומי שיחליף את יוניפי\"ל.",
+     "axis": "לבנון - סוריה - אזורי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T12:53:30+00:00",
+     "last_update_at": "2026-10-16T21:35:48+00:00",
+     "what_is_not_verified": "מועד החתימה הסופי על הסכם החשמל ואישורו בממשלת לבנון",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/qatar-seeks-to-activate-joint-energy-projects-with-lebanon-urges-israeli-withdrawal/4091562",
+       "published_at": "2026-10-16T21:35:48+00:00"
+      },
+      {
        "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/138722/",
-       "published_at": "2026-10-15T20:01:01+00:00"
+       "url": "https://english.almanar.com.lb/article/139102/",
+       "published_at": "2026-10-16T19:32:44+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/qatar-pm-beirut-lebanon-seeks-economic-relief-what-know",
+       "published_at": "2026-10-16T14:03:57+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/963219/sources-to-lbci-lebanon-qatar-move-forward-with-electricity-project-to/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963219",
+       "published_at": "2026-10-16T12:53:30+00:00"
       }
      ],
      "places": [
@@ -2083,93 +1958,116 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-10152344-09",
-     "title": "היערכות בישראל לאפשרות של הסלמה מול איראן ושלוחותיה",
-     "summary": "בישראל הוארך מצב החירום והוגברה המוכנות הביטחונית מחשש לתקיפה יזומה או טעות בחישוב מצד איראן, חזבאללה והחות'ים, לצד תיאום ביטחוני שוטף עם פיקוד המרכז האמריקני.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "assessment",
+     "id": "NORTH-10162341-07",
+     "title": "שלילת רישיון הבנק האיראני סאדראת בלבנון בעקבות לחץ אמריקאי",
+     "summary": "הבנק המרכזי של לבנון ביטל את רישיונו של הבנק האיראני סאדראת שפעל במדינה, במטרה למנוע הטלת סנקציות כלכליות של ארצות הברית על המערכת הבנקאית הלבנונית, חרף הרגישות הפוליטית מול חיזבאללה.",
+     "axis": "פנים לבנון - איראן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T14:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T14:00:00+00:00",
-     "last_update_at": "2026-10-15T16:37:32+00:00",
-     "what_is_not_verified": "הסבירות לתקיפה ומניעי קבלת ההחלטות הפוליטיים מבוססים על הערכות מקורות ביטחוניים בלתי מזוהים.",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T17:07:13+00:00",
+     "last_update_at": "2026-10-16T17:07:13+00:00",
+     "what_is_not_verified": "מידת ההשפעה של שלילת הרישיון על העברות כספים לחיזבאללה בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
-       "published_at": "2026-10-15T16:37:32+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962986/israel-braces-for-escalation-as-fears-of-an-iranian-attack-grow/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962986",
-       "published_at": "2026-10-15T14:00:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10152344-10",
-     "title": "הערכות לגבי שיקום גשרי הליטני ותנועת חזבאללה בדרום לבנון",
-     "summary": "דוח מחקרי מצביע על כך שגשרים על נהר הליטני שנפגעו בתקיפות צה\"ל במרץ 2026 שוקמו בחלקם באמצעות מעברים חלופיים של גורמים מקומיים, דבר המאפשר לחזבאללה לשוב ולשנע פעילים ואמצעי לחימה למרחב שמדרום לנהר.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T11:55:45+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-15T11:55:45+00:00",
-     "last_update_at": "2026-10-15T11:55:45+00:00",
-     "what_is_not_verified": "היקף התנועה המדויק של אמצעי לחימה דרך המעברים החלופיים אינו מפורט בנתונים מדויקים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_alma",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/the-litani-river-bridges-struck-in-march-2026-their-structural-and-security-status-and-how-hezbollah-is-exploiting-the-situation/",
-       "published_at": "2026-10-15T11:55:45+00:00"
+       "url": "https://www.newarab.com/news/avoiding-sanctions-lebanon-revokes-bank-saderat-irans-license",
+       "published_at": "2026-10-16T17:07:13+00:00"
       }
      ],
      "places": [
       {
-       "name": "נהר הליטני, לבנון",
-       "lat": 33.552,
-       "lon": 35.6924
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
       }
      ]
     },
     {
-     "id": "NORTH-10152344-11",
-     "title": "דיווחים והכחשות על תיווך טורקי בין ממשל א-שרעא לחזבאללה",
-     "summary": "דיווחים על קיום פגישה ישירה בטורקיה בין נציגי ממשל א-שרעא בסוריה לנציגי חזבאללה להפחתת מתיחות הוכחשו באופן רשמי על ידי משרד ההסברה הסורי ומערך התקשורת הנשיאותי של טורקיה.",
-     "axis": "סוריה - טורקיה - לבנון",
+     "id": "NORTH-10162341-08",
+     "title": "דרישה אמריקאית לביטול חוק החרם על ישראל וקשיים בחידוש הטיסות הישירות",
+     "summary": "מזכיר המדינה האמריקאי העלה בשיחה עם נשיא לבנון דרישה לבטל את חוק החרם על ישראל משנת 1955 כדי לקדם שלום, במקביל למאמצים לפירוק חיזבאללה מנשקו. במקביל, יוזמת נשיא ארצות הברית לחידוש טיסות ישירות לביירות נתקלת בקשיים בעקבות ממצאי סוכנות התעופה של האו\"ם לגבי ליקויים בטיחותיים בנמל התעופה הבינלאומי.",
+     "axis": "לבנון - ארצות הברית - ישראל",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T07:04:20+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-15T07:04:20+00:00",
-     "last_update_at": "2026-10-15T07:04:20+00:00",
-     "what_is_not_verified": "עצם קיום הפגישות נתון בסתירה מוחלטת בין דיווחים עיתונאיים המצטטים מקורות ביטחוניים לבין הכחשות רשמיות של ממשלות סוריה וטורקיה.",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T14:15:00+00:00",
+     "last_update_at": "2026-10-16T21:48:05+00:00",
+     "what_is_not_verified": "האם ממשלת לבנון תנקוט צעדים מעשיים לשינוי חוק החרם",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_alma",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/ankara-as-a-mediator-between-damascus-hezbollah-and-beirut-reports-denials-and-open-questions/",
-       "published_at": "2026-10-15T07:04:20+00:00"
+       "url": "https://www.newarab.com/news/us-move-restart-direct-flights-lebanon-hits-roadblock",
+       "published_at": "2026-10-16T21:48:05+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/exclusive-trump-move-restart-direct-us-flights-lebanon-hits-roadblock",
+       "published_at": "2026-10-16T16:46:29+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/963236/trump-move-to-restart-direct-us-flights-with-lebanon-hits-roadblock-re/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963236",
+       "published_at": "2026-10-16T14:30:34+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963199/lebanons-1955-israel-boycott-law-why-is-the-us-raising-it-now/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963199",
+       "published_at": "2026-10-16T14:15:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נמל התעופה הבינלאומי רפיק אל-חרירי, ביירות, לבנון",
+       "lat": 33.8185,
+       "lon": 35.4909
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10162341-09",
+     "title": "מחאת ראשי רשויות בצפון ישראל נגד קיצוץ תקציבי שיקום",
+     "summary": "יושב ראש פורום קו העימות וראשי רשויות בגבול הצפון שלחו מכתב בהול לראש הממשלה בדרישה להחריג את תקציבי השיקום והביטחון של יישובי הגבול מהקיצוץ הממשלתי הרוחבי המתוכנן.",
+     "axis": "ישראל - עורף צפוני",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T14:59:43+00:00",
+     "last_update_at": "2026-10-16T16:43:13+00:00",
+     "what_is_not_verified": "האם הממשלה תיעתר לדרישה ותחריג את התקציבים בהצבעה הקרובה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383957728",
+       "published_at": "2026-10-16T16:43:13+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/b1ck002j3fx",
+       "published_at": "2026-10-16T14:59:43+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "סתירה בדיווחים אם משלוח חומרי הנפץ שנתפס בדהר אל-בידר שייך לחזבאללה כהודאת פדלאללה או לחות'ים כפי שצוין באחד המקורות",
-    "היעד המעשי של חומרי הנפץ שנתפסו ברכב - התנקשויות פוליטיות, שימוש פנימי או לחימה נגד כוחות צה\"ל",
-    "עצם התרחשות הפגישה המתווכת על אדמת טורקיה בין נציגי ממשלת סוריה לחזבאללה, שהוכחשה רשמית על ידי אנקרה ודמשק",
-    "אמיתות טענות ראש ממשלת ישראל בדבר תקיפת משרד הביטחון ומתחם הארמון בדמשק והשיחה שבלמה את הפגיעה בדרוזים",
-    "טענות ערוצים המזוהים עם חזבאללה על הגעת משאיות עמוסות חומרי נפץ של צה\"ל לכפר זוטר א-שרקיה"
+    "טענת נתניהו על שיחת טלפון ישירה בינו לבין נשיא סוריה אחמד א-שרע",
+    "טענת סוריה כי ישראל חימשה מיליציה בלתי חוקית בא-סווידאא במטרה לגרור אותה למלחמה",
+    "הדיווחים ברשתות החברתיות על ירידה בתמיכה הציבורית בחיזבאללה בקרב הקהילה השיעית בצור",
+    "ההערכות בדבר עיכוב ודאי של טיסות ישירות מארצות הברית לביירות"
    ],
    "map": {
     "confidence": "medium",
@@ -2180,180 +2078,180 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1022,
+     "value": 3.0945,
      "unit": "ILS",
-     "change_pct": 0.83,
+     "change_pct": -0.25,
      "source_id": "src_ecb",
-     "as_of": "2026-10-15T15:00:00+00:00"
+     "as_of": "2026-10-16T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "חזבאללה",
-     "declared": [
-      "המשך הצטיידות והפעלת אמצעי לחימה כדי להתעמת עם כוחות ישראל ולהגן על לבנון",
-      "דרישה לשחרר את פעיליו ולהשיב את מטעני הנפץ שהוחרמו על ידי כוחות הביטחון הלבנוניים"
-     ],
-     "inferred": [
-      "שיקום יכולות צבאיות מדרום לנהר הליטני תוך ניצול מעברים אזרחיים ופגיעה בריבונות ממשלת לבנון",
-      "הרתעת השלטון המרכזי בביירות מאכיפת איסור הנשק הבלתי חוקי"
-     ],
-     "forecast": [
-      "המשך ניסיונות הברחה של חומרי חבלה מסוריה לבקאע ולדרום לבנון תוך חיכוך הולך וגובר עם מנגנוני הביטחון של לבנון",
-      "שמירה על כוננות לתקיפה אפשרית בתיאום עם איראן בעיתוי שייראה מתאים לארגון"
-     ]
-    },
-    {
-     "actor": "ממשלת לבנון ונשיאותה",
-     "declared": [
-      "אכיפת החוק ואי-גילוי סובלנות כלפי נשק בלתי חוקי והברחות",
-      "הפעלת לחץ על ארצות הברית לעצירת התקיפות הישראליות בדרום המדינה ויישום הסכם המסגרת"
-     ],
-     "inferred": [
-      "ניסיון לתמרן בין לחצים כבדים מוושינגטון לפעול נגד חזבאללה לבין החשש מפרוץ עימות פנים-לבנוני אלים",
-      "שאיפה להבטיח את המשך משימת יוניפי\"ל כדי למנוע ואקום ביטחוני בדרום"
-     ],
-     "forecast": [
-      "הימנעות מעימות חזיתי כולל עם חזבאללה חרף התעקשות משפטית על החרמת אמצעי הלחימה שנתפסו",
-      "המשך פניות דיפלומטיות למדינות המערב ולמתווכות אזוריות כגון קטאר לבלימת צה\"ל"
-     ]
-    },
-    {
      "actor": "ישראל",
      "declared": [
-      "סיכול פעילות טרור בדרום לבנון והגנה על אזרחים ודרוזים בסוריה",
-      "היערכות צבאית התקפית והגנתית למניעת מתקפות פתע מצד איראן ושלוחותיה"
+      "מניעת התבססות איומים ופגיעה בריכוזי אוכלוסייה של העדה הדרוזית בדרום סוריה",
+      "הגנה על מרחב הפעולה של כוחות צה\"ל בדרום לבנון"
      ],
      "inferred": [
-      "שמירה על חופש פעולה מבצעי וחישוף שטחים בדרום לבנון למניעת התבססות חזבאללה בקרבת הגבול",
-      "הפעלת מנופי לחץ צבאיים ישירים על השלטון בדמשק למניעת התקרבות לציר האיראני ולמניעת פגיעה במיעוטים"
+      "הפעלת לחץ צבאי רציף בדרום לבנון ובדרום סוריה לשיבוש התארגנות מחדש של חיזבאללה ושלוחים איראניים",
+      "יצירת מנופי השפעה פוליטיים וצבאיים באזורי הגבול של סוריה"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדות ואכיפה מוגברת באזור קו הגבול בדרום לבנון",
-      "הישארות ברמת כוננות גבוהה והארכת צעדי חירום עד לחלוף תקופת הבחירות"
+      "המשך פשיטות נקודתיות וירי ארטילרי מעבר לגבול לשמירה על חופש פעולה",
+      "החרפת המתיחות המילולית מול המשטר בדמשק"
      ]
     },
     {
-     "actor": "הממשל הסורי (א-שרעא)",
+     "actor": "לבנון (ממשל וצבא)",
      "declared": [
-      "דחיית כל ניסיון לניצול פוליטי של העדה הדרוזית בא-סווידא כחלק ממרקם המדינה",
-      "מיצוי הדין עם פושעי מלחמה ופעילי מיליציות ממשטר אסד הישן ללא התיישנות"
+      "דרישה לנסיגת כוחות ישראל משטחי הדרום והעברתם לשליטת צבא לבנון",
+      "קידום מיזמי אנרגיה עם קטר וחידוש טיסות בינלאומיות ישירות לשיקום הכלכלה",
+      "החלפת כוח יוניפי\"ל בכוח בינלאומי אחר עם סיום המנדט"
      ],
      "inferred": [
-      "ביסוס לגיטימציה שלטונית פנימית ובינלאומית באמצעות העמדה לדין של פושעי משטר העבר",
-      "שמירה על ניטרליות יחסית וזהירות מעימות ישיר עם ישראל או חזבאללה בשטח לבנון"
+      "ניסיון לאזן בין לחץ אמריקאי לנטרול חיזבאללה לבין שמירה על יציבות פנים-לבנונית ומניעת מלחמת אזרחים",
+      "הגנה על מערכת הבנקאות המקומית מפני סנקציות בינלאומיות"
      ],
      "forecast": [
-      "המשך מעצרים של בכירים לשעבר הנאמנים למשטר אסד שניסו להימלט מהמדינה",
-      "התנערות עקבית מיוזמות גלויות שיחברו את דמשק לחזבאללה על מנת למנוע תקיפות ישראליות בעומק סוריה"
+      "העמקת התלות הכלכלית בקטר לפתרון משבר האנרגיה באמצעות צינורות מסוריה",
+      "המשך חיכוכים מקומיים במוקדי שליטת חיזבאללה בעת אכיפת חוק"
+     ]
+    },
+    {
+     "actor": "חיזבאללה",
+     "declared": [
+      "שמירה על נהלי תיאום ביטחוני בדאחייה עקב איומי ביטחון ישראליים",
+      "הכחשת מעורבות באחסון בלתי חוקי של סחורות ומחויבות לבריאות הציבור"
+     ],
+     "inferred": [
+      "שימור מעמדו הצבאי והאזרחי בלבנון חרף ניסיונות אמריקאיים וממשלתיים לפגוע בהשפעתו",
+      "הגנה על צירי פעילות ואספקה תחת מעטה של הסכמי ביטחון פנימיים"
+     ],
+     "forecast": [
+      "התנגדות תקיפה לכל מהלך לפירוק נשקו או לשינוי חוקי החרם על ישראל",
+      "ניסיון לבלום שחיקה נוספת במעמדו הציבורי בקרב הקהילה השיעית"
+     ]
+    },
+    {
+     "actor": "סוריה",
+     "declared": [
+      "הגנה על אחדות המרקם הלאומי ודחיית התערבות ישראל בענייני העדה הדרוזית בא-סווידאא",
+      "האשמת ישראל בניסיון לערער את השלום האזרחי ולגרור את המדינה למלחמה אזורית"
+     ],
+     "inferred": [
+      "בלימת השפעה ישראלית באזורי הגבול הדרומיים סמוך לדרעא וא-סווידאא",
+      "השגת רווח כלכלי ומעמדי באמצעות שינוע חשמל וגז מקטר ללבנון דרך שטח סוריה"
+     ],
+     "forecast": [
+      "המשך גינויים חריפים לתנועות צה\"ל בדרום המדינה תוך הימנעות מעימות צבאי כולל",
+      "שיתוף פעולה עם יוזמות תשתית אזוריות לחיזוק הלגיטימציה של השלטון"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_alma",
-     "url": "https://israel-alma.org/ankara-as-a-mediator-between-damascus-hezbollah-and-beirut-reports-denials-and-open-questions/",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
-    },
-    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/138722/",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://english.almanar.com.lb/article/139102/",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/syria-arrests-mihrac-ural-ex-assad-militia-head-also-wanted-turkey",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/exclusive-trump-move-restart-direct-us-flights-lebanon-hits-roadblock",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/syria-says-it-rejects-politicizing-druze-community-for-israeli-elections/4090455",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/qatar-seeks-to-activate-joint-energy-projects-with-lebanon-urges-israeli-withdrawal/4091562",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21639453",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/962986/israel-braces-for-escalation-as-fears-of-an-iranian-attack-grow/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-962986",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1377755",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/main-suspect-massacre-syria-arrests-assad-era-paramilitary-leader",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963199/lebanons-1955-israel-boycott-law-why-is-the-us-raising-it-now/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963199",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/syria-announces-arrest-assad-era-paramilitary-leader",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://www.newarab.com/news/us-move-restart-direct-flights-lebanon-hits-roadblock",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/131984",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://t.me/abualiexpress/132040",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48577",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://t.me/alexmehacarmel/48605",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25384",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://t.me/idf_telegram/25391",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383957728",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hjbecvrjgl",
-     "accessed_at": "2026-10-15T23:44:33+00:00"
+     "url": "https://www.ynet.co.il/news/article/b1ck002j3fx",
+     "accessed_at": "2026-10-16T23:41:39+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-14T23:40:41+00:00",
+  "previous_generated_at": "2026-10-15T23:44:33+00:00",
   "changes": {
-   "NORTH-10152344-01": {
-    "kind": "new"
-   },
-   "NORTH-10152344-02": {
-    "kind": "possible",
-    "prev": "מגעים להארכת מנדט יוניפי\"ל בדרום לבנון",
-    "score": 0.633
-   },
-   "NORTH-10152344-03": {
-    "kind": "new"
-   },
-   "NORTH-10152344-04": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפות והפגזות ישראליות במספר מוקדים בדרום לבנון",
+   "NORTH-10162341-01": {
+    "kind": "up",
+    "from": "initial",
+    "to": "verified",
+    "prev": "דיווח על תקיפות ישראליות בעיירות בדרום לבנון",
     "score": 0.65
    },
-   "NORTH-10152344-05": {
+   "NORTH-10162341-02": {
+    "kind": "same",
+    "from": "verified",
+    "to": "verified",
+    "prev": "שיגור מיירט צה\"ל לעבר מטרת שווא בדרום לבנון",
+    "score": 1.0
+   },
+   "NORTH-10162341-03": {
     "kind": "new"
    },
-   "NORTH-10152344-06": {
+   "NORTH-10162341-04": {
+    "kind": "new"
+   },
+   "NORTH-10162341-05": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "הצהרות ראש ממשלת ישראל על בלימת פגיעה בדרוזים בדרום סוריה",
+    "score": 0.817
+   },
+   "NORTH-10162341-06": {
+    "kind": "same",
+    "from": "initial",
+    "to": "shared_root",
+    "prev": "ביקור רשמי של ראש ממשלת קטאר בלבנון",
+    "score": 1.0
+   },
+   "NORTH-10162341-07": {
     "kind": "possible",
-    "prev": "גינוי טורקי לפעולות ישראל הפוגעות בשיקום סוריה",
-    "score": 0.467
+    "prev": "לחץ אמריקני על נשיא לבנון בעניין מטעני הנפץ ודרישה לבלימת תקיפות ישראל",
+    "score": 0.633
    },
-   "NORTH-10152344-07": {
+   "NORTH-10162341-08": {
     "kind": "new"
    },
-   "NORTH-10152344-08": {
-    "kind": "new"
-   },
-   "NORTH-10152344-09": {
-    "kind": "new"
-   },
-   "NORTH-10152344-10": {
-    "kind": "new"
-   },
-   "NORTH-10152344-11": {
+   "NORTH-10162341-09": {
     "kind": "new"
    }
   }
