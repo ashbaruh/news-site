@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-16T18:25:31+00:00",
-  "fetched_at": "2026-10-16T18:25:31+00:00"
+  "checked_at": "2026-10-16T19:17:12+00:00",
+  "fetched_at": "2026-10-16T19:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T18:25:43+00:00",
-  "fetched_at": "2026-10-16T18:25:43+00:00"
+  "checked_at": "2026-10-16T19:17:28+00:00",
+  "fetched_at": "2026-10-16T19:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T18:25:44+00:00",
-  "fetched_at": "2026-10-16T18:25:44+00:00"
+  "checked_at": "2026-10-16T19:17:28+00:00",
+  "fetched_at": "2026-10-16T19:17:28+00:00"
  },
- "generated_at": "2026-10-16T18:25:44+00:00",
+ "generated_at": "2026-10-16T19:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T18:25:32+00:00",
-  "fetched_at": "2026-10-16T18:25:32+00:00"
+  "checked_at": "2026-10-16T19:17:13+00:00",
+  "fetched_at": "2026-10-16T19:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T18:25:33+00:00",
-  "fetched_at": "2026-10-16T18:25:33+00:00"
+  "checked_at": "2026-10-16T19:17:14+00:00",
+  "fetched_at": "2026-10-16T19:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2879,8 +2879,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T18:25:36+00:00",
-  "fetched_at": "2026-10-16T18:25:36+00:00"
+  "checked_at": "2026-10-16T19:17:15+00:00",
+  "fetched_at": "2026-10-16T19:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3047,8 +3047,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T18:25:36+00:00",
-  "fetched_at": "2026-10-16T18:25:36+00:00"
+  "checked_at": "2026-10-16T19:17:15+00:00",
+  "fetched_at": "2026-10-16T19:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -3084,7 +3084,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 584,
+     "likes": 585,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3105,15 +3105,22 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 322,
+     "likes": 323,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
+    },
+    {
+     "title": "FLUX 3 Image Klein",
+     "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
+     "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
+     "likes": 67,
+     "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Drama 3",
@@ -3123,13 +3130,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
-     "title": "FLUX 3 Image Klein",
-     "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
-     "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 65,
-     "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
-    },
-    {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
@@ -3137,17 +3137,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
-     "title": "Qwen 2511 + Flux.2 klein 9B",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 108,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
+     "title": "Qwen-Image-2.1-Turbo",
+     "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
+     "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T18:25:42+00:00",
-  "fetched_at": "2026-10-16T18:25:42+00:00"
+  "checked_at": "2026-10-16T19:17:26+00:00",
+  "fetched_at": "2026-10-16T19:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -3244,15 +3244,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "גם אחרי ה-0:6, סולומון חוטף: \"לא רוצה לראות אותו פותח\" | צפו",
-     "link": "https://sports.walla.co.il/item/3872275",
-     "date": "2026-10-15T05:52:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "מוראנט פירגן, לילארד מתחבר: פורטלנד מתלהבת מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3872109",
      "date": "2026-10-14T05:48:00+00:00",
@@ -3283,6 +3274,15 @@ window.DB.generated = {
      "title": "\"ילד\": פליטת הפה של דני אבדיה על מוראנט עלולה לסבך אותו",
      "link": "https://sports.walla.co.il/item/3871816",
      "date": "2026-10-12T07:23:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "דריימונד גרין אירח את דני אבדיה והילל: \"עשית לנו את המוות\"",
+     "link": "https://sports.walla.co.il/item/3871753",
+     "date": "2026-10-11T14:21:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3489,8 +3489,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-16T18:25:38+00:00",
-  "fetched_at": "2026-10-16T18:25:38+00:00"
+  "checked_at": "2026-10-16T19:17:19+00:00",
+  "fetched_at": "2026-10-16T19:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3521,8 +3521,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T18:25:39+00:00",
-  "fetched_at": "2026-10-16T18:25:39+00:00"
+  "checked_at": "2026-10-16T19:17:20+00:00",
+  "fetched_at": "2026-10-16T19:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3530,82 +3530,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-16T18:00:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-16T11:04:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-15T20:53:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-16T18:04:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "newest": "2026-10-16T18:27:00+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-16T17:32:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-16T18:19:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "newest": "2026-10-16T18:45:00+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-16T16:43:13+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-16T13:31:39+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-16T11:00:30+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-16T15:29:47+00:00",
-    "seen_at": "2026-10-16T18:25:44+00:00",
+    "seen_at": "2026-10-16T19:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-16T18:25:44+00:00"
+  "checked_at": "2026-10-16T19:17:28+00:00"
  }
 };
