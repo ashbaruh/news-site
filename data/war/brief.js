@@ -1,90 +1,193 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-16T12:00:00+03:00",
- "generated_at": "2026-10-16T08:40:27+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-10-16T18:00:00+03:00",
+ "generated_at": "2026-10-16T14:40:15+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10160840-01",
-     "title": "הצהרת מפקד צבא איראן על סגירת מצר הורמוז",
-     "summary": "מפקד צבא איראן הודיע כי מצר הורמוז נמצא תחת פיקוח מלא ויישאר סגור עד שיכובדו זכויות העם האיראני.",
-     "axis": "מצר הורמוז",
-     "claim_type": "statement",
+     "id": "IRAN-10161440-01",
+     "title": "איתור מכלית נפט בוערת במפרץ עומאן",
+     "summary": "חיל הים האיראני איתר מכלית נפט שניסתה לחצות אזור אסור במפרץ עומאן והעלתה אש.",
+     "axis": "איראן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T06:37:27+00:00",
+     "occurred_at": "2026-10-16T11:07:18+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-16T06:37:27+00:00",
-     "last_update_at": "2026-10-16T06:53:39+00:00",
-     "what_is_not_verified": "לא אומת האם המצר סגור בפועל לחלוטין לכלי שיט.",
+     "first_reported_at": "2026-10-16T11:07:18+00:00",
+     "last_update_at": "2026-10-16T13:53:14+00:00",
+     "what_is_not_verified": "סיבת שריפת המכלית אינה ידועה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-hatami-says-hormuz-under-full-supervision-army-irgc",
-       "published_at": "2026-10-16T06:53:39+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_8fa82fde8ff41d4c",
+       "url": "https://en.irna.ir/news/86294247/Iranian-Navy-spots-oil-tanker-on-fire-in-Strait-of-Hormuz",
+       "published_at": "2026-10-16T13:53:14+00:00"
       },
       {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86293921/Strait-of-Hormuz-to-remain-closed-until-Iran-s-rights-are-respected",
-       "published_at": "2026-10-16T06:37:27+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10160840-02",
-     "title": "הצהרת נשיא ארה\"ב על שקילת תקיפות נוספות באיראן",
-     "summary": "נשיא ארצות הברית טראמפ אמר כי הוא בוחן תקיפות חדשות באיראן ללא נשק גרעיני או כוחות קרקעיים, לצד קיומן של שיחות.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T02:46:31+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T02:46:31+00:00",
-     "last_update_at": "2026-10-16T02:46:31+00:00",
-     "what_is_not_verified": "לא אומת מועד או אופי התקיפות בפועל והאם שיחות אכן מתקיימות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-weighs-new-iran-strikes-while-insisting-talks-continue",
-       "published_at": "2026-10-16T02:46:31+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10160840-03",
-     "title": "גינוי איראני לפתיחת שגרירות קולומביה בירושלים",
-     "summary": "משרד החוץ של איראן גינה בחריפות את החלטת קולומביה לפתוח שגרירות בירושלים וטען כי המהלך סותר את הדין הבינלאומי.",
-     "axis": "מדיניות חוץ איראנית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T07:55:41+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T07:55:41+00:00",
-     "last_update_at": "2026-10-16T07:55:41+00:00",
-     "what_is_not_verified": "לא אומתו פרטי הפתיחה והתקדמות המהלך מצד קולומביה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_9d87ddc2aa615d0a",
-       "url": "https://en.irna.ir/news/86293949/Iran-condemns-Colombia-s-action-to-open-embassy-in-occupied-al-Quds",
-       "published_at": "2026-10-16T07:55:41+00:00"
+       "source_root_id": "fh_f1d4263138390e1c",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-oil-tanker-detected-fire-gulf-oman",
+       "published_at": "2026-10-16T11:07:18+00:00"
       }
      ],
      "places": [
       {
-       "name": "ירושלים",
-       "lat": 31.7788,
-       "lon": 35.2258
+       "name": "מפרץ עומאן",
+       "lat": 24.2138,
+       "lon": 58.9846
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10161440-02",
+     "title": "הרשעת נער נורווגי בקשר למזימת רצח",
+     "summary": "נער נורווגי נידון לעשרים שנות מאסר בבריטניה לאחר שגויס בידי קבוצת פשע מאורגן השוודית המקושרת לממשלת איראן.",
+     "axis": "איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T13:46:27+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T13:46:27+00:00",
+     "last_update_at": "2026-10-16T13:46:27+00:00",
+     "what_is_not_verified": "לא ידועים פרטים נוספים מעבר לפסק הדין.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_reuters",
+       "url": "https://www.al-monitor.com/originals/2026/10/norwegian-teen-sentenced-20-years-uk-murder-plot-tied-iran-linked-group",
+       "published_at": "2026-10-16T13:46:27+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "האדרספילד, בריטניה",
+       "lat": 53.6467,
+       "lon": -1.7822
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10161440-03",
+     "title": "אזהרת איראן מפני פגיעה במתקני האנרגיה שלה",
+     "summary": "ממלא מקום שר הנפט של איראן התריע מפני תגובה מיידית והולמת אם וושינגטון תאיום על תשתיות האנרגיה של ארצו.",
+     "axis": "איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T12:55:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T12:55:47+00:00",
+     "last_update_at": "2026-10-16T12:55:47+00:00",
+     "what_is_not_verified": "לא מאומת האם ארה\"ב תוקפת את מתקני האנרגיה בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_2a04cf15233f3bb9",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-us-against-targeting-energy-facilities",
+       "published_at": "2026-10-16T12:55:47+00:00"
+      }
+     ],
+     "places": []
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-10161440-01",
+     "title": "הצעת מחוקקים אמריקאים לזלנסקי בנושא סטארלינק",
+     "summary": "מחוקקים אמריקאים הציעו להרחיב את כיסוי סטארלינק ברוסיה בתמורה להפסקה מצד אוקראינה של התקיפות על בתי זיקוק רוסיים.",
+     "axis": "אוקראינה-רוסיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T14:35:37+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-16T14:35:37+00:00",
+     "last_update_at": "2026-10-16T14:35:37+00:00",
+     "what_is_not_verified": "האם ההסכם אושר סופית ויבוצע.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_wall_street_journal",
+       "url": "https://meduza.io/en/feature/2026/10/16/u-s-lawmakers-reportedly-offered-ukraine-starlink-coverage-inside-russia-in-exchange-for-halting-refinery-strikes-zelensky-was-receptive-wsj-says",
+       "published_at": "2026-10-16T14:35:37+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10161440-02",
+     "title": "תקיפת כטב\"ם על מתקן תעשייתי במחוז סורגוט",
+     "summary": "פעילים וגורמים אזוריים דיווחו כי כטב\"מים אוקראיניים פגעו במתקן תעשייתי במחוז סורגוט וגרמו לפרוץ שריפה.",
+     "axis": "אוקראינה-רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T13:51:24+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T13:51:24+00:00",
+     "last_update_at": "2026-10-16T14:27:07+00:00",
+     "what_is_not_verified": "גודל הנזק המדויק במתקן עדיין נמצא בשלבי הערכה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_46d2543d069b78cd",
+       "url": "https://kyivindependent.com/russian-industrial-facility-reportedly-on-fire-after-drone-attack-in-surgut-region/",
+       "published_at": "2026-10-16T14:27:07+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_46d2543d069b78cd",
+       "url": "https://meduza.io/en/news/2026/10/16/ukrainian-drone-strike-sparks-fire-at-industrial-facility-in-western-siberia-governor-says",
+       "published_at": "2026-10-16T13:51:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סורגוט, רוסיה",
+       "lat": 61.2419,
+       "lon": 73.3953
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10161440-03",
+     "title": "שיבושים בבתי משפט ברוסיה בעקבות פגיעה במרכזי נתונים",
+     "summary": "תקיפות אוקראיניות על מרכזי הנתונים של יאנדקס גרמו לתקלות טכניות ולשיבושים בעשרות דיונים של בתי משפט ברוסיה.",
+     "axis": "אוקראינה-רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-16T14:16:02+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-16T14:16:02+00:00",
+     "last_update_at": "2026-10-16T14:16:02+00:00",
+     "what_is_not_verified": "לוח הזמנים המלא לתיקון כלל התקלות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_verstka",
+       "url": "https://meduza.io/en/news/2026/10/16/ukrainian-strikes-on-yandex-data-centers-disrupted-russian-court-operations",
+       "published_at": "2026-10-16T14:16:02+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סאסובו, רוסיה",
+       "lat": 54.3448,
+       "lon": 41.9215
       }
      ]
     }
@@ -201,148 +304,11 @@ window.DB.war_brief = {
       }
      ]
     }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-10160840-01",
-     "title": "מתקפת כטב\"מים רוסית קטלנית על חרקוב",
-     "summary": "פגיעות של כלי טיס בלתי מאוישים רוסיים במחוז שבצ'נקיבסקי בעיר חרקוב גרמו למותם של אזרחים ולפציעת מספר בני אדם.",
-     "axis": "חזית חרקוב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T07:54:00+00:00",
-     "last_update_at": "2026-10-16T08:23:00+00:00",
-     "what_is_not_verified": "קיימת סתירה בדיווחים האם נהרגו שניים או שלושה בני אדם, ומספר הפצועים המדויק אינו אחיד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_19f6ddd89affb0d5",
-       "url": "https://www.ukrinform.net/rubric-ato/4175012-russian-strikes-on-kharkiv-kill-three-injure-seven.html",
-       "published_at": "2026-10-16T08:23:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_19f6ddd89affb0d5",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058294/",
-       "published_at": "2026-10-16T07:54:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10160840-02",
-     "title": "יירוט מתקפת כטב\"מים רוסית נרחבת ברחבי אוקראינה",
-     "summary": "מערך ההגנה האווירית של אוקראינה נטרל 114 מתוך 149 כלי טיס בלתי מאוישים ששוגרו לעבר המדינה במהלך הלילה.",
-     "axis": "מתקפות אוויריות באוקראינה",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T07:48:00+00:00",
-     "last_update_at": "2026-10-16T07:48:00+00:00",
-     "what_is_not_verified": "לא אומת היקף הנזק ב-24 המוקדים שבהם תועדו פגיעות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4174996-ukrainian-air-defenses-down-114-out-of-149-russian-drones-launched-at-ukraine-overnight.html",
-       "published_at": "2026-10-16T07:48:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10160840-03",
-     "title": "האיחוד האירופי מקדם חבילת עיצומים נוספת נגד רוסיה",
-     "summary": "נשיאת הנציבות האירופית הודיעה על הכנת חבילת עיצומים מספר 22 נגד מוסקבה והצהירה כי לא יוסרו הגבלות עד לסיום המלחמה.",
-     "axis": "עיצומים נגד רוסיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T07:59:52+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T07:59:52+00:00",
-     "last_update_at": "2026-10-16T08:36:58+00:00",
-     "what_is_not_verified": "לא אומתו תוכנן המדויק ומועד אישורן הסופי של ההגבלות החדשות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
-       "published_at": "2026-10-16T08:36:58+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/zelensky-thanks-eus-real-leaders-for-their-continued-support-as-bloc-confirms-new-sanctions-package-on-the-way/",
-       "published_at": "2026-10-16T07:59:52+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בריסל, בלגיה",
-       "lat": 50.8467,
-       "lon": 4.3525
-      }
-     ]
-    }
-   ]
+   ],
+   "from_slot": "2026-10-16T12:00:00+03:00"
   },
   "yemen": {
    "events": [
-    {
-     "id": "YEMEN-10160840-01",
-     "title": "פגיעת טילים של החות'ים בארמון הנשיאות בעדן",
-     "summary": "החות'ים שיגרו טילים לעבר מתחם ארמון הנשיאות בעדן וגרמו למותם של חמישה בני אדם, בעוד ראש הממשלה ושריו שרדו את המתקפה.",
-     "axis": "העימות בתימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T00:27:21+00:00",
-     "last_update_at": "2026-10-16T06:29:05+00:00",
-     "what_is_not_verified": "לא אומת באופן עצמאי האם המבנה שימש כחדר מבצעים סעודי כפי שטוענים החות'ים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_1d8d0b533c5eebc4",
-       "url": "https://www.newarab.com/news/trump-says-will-not-use-ground-troops-or-nukes-iran",
-       "published_at": "2026-10-16T06:29:05+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_1d8d0b533c5eebc4",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-government-headquarters-call-it-saudi-war-room",
-       "published_at": "2026-10-16T00:58:55+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_1d8d0b533c5eebc4",
-       "url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
-       "published_at": "2026-10-16T00:27:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      }
-     ]
-    },
     {
      "id": "YEMEN-10160840-02",
      "title": "טענת החות'ים על הפלת רחפן סיור סעודי במאריב",
@@ -395,8 +361,12 @@ window.DB.war_brief = {
      ],
      "places": []
     }
-   ]
+   ],
+   "from_slot": "2026-10-16T12:00:00+03:00"
   }
  },
- "skipped": {}
+ "skipped": {
+  "north": "אותיות בשפה זרה בתוך הטקסט העברי (2)",
+  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (1)"
+ }
 };
