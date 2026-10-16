@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-16T20:17:16+00:00",
-  "fetched_at": "2026-10-16T20:17:16+00:00"
+  "checked_at": "2026-10-16T21:17:21+00:00",
+  "fetched_at": "2026-10-16T21:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T20:17:24+00:00",
-  "fetched_at": "2026-10-16T20:17:24+00:00"
+  "checked_at": "2026-10-16T21:17:31+00:00",
+  "fetched_at": "2026-10-16T21:17:31+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Australia vs New Zealand 2nd Test: FREE live streams",
+    "title_he": "כיצד לצפות במבחן השני של אוסטרליה נגד ניו זילנד: שידורים חיים בחינם",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/australia-vs-new-free-bledisloe-cup-2026",
+    "date": "2026-10-16T21:00:00+00:00"
+   },
    {
     "title_en": "Bowers & Wilkins for Aston Martin DBX S (2026)",
     "title_he": "באוורס אנד ווילקינס עבור Aston Martin DBX S (2026)",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/huge-savings-on-award-winning-headphones-oled-tvs-and-five-star-music-streamers-handpicked-by-our-experts",
     "date": "2026-10-16T14:23:25+00:00"
-   },
-   {
-    "title_en": "After a music streamer? This terrific high-end Cyrus model just won its third What Hi-Fi? Award",
-    "title_he": "אחרי סטרימר מוזיקה? דגם ה-Cyrus המופלא הזה זכה זה עתה ב-What Hi-Fi השלישי שלו? פְּרָס",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/music-streamers/after-a-music-streamer-this-terrific-high-end-cyrus-model-just-won-its-third-what-hi-fi-award",
-    "date": "2026-10-16T11:52:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T20:17:25+00:00",
-  "fetched_at": "2026-10-16T20:17:25+00:00"
+  "checked_at": "2026-10-16T21:17:32+00:00",
+  "fetched_at": "2026-10-16T21:17:32+00:00"
  },
- "generated_at": "2026-10-16T20:17:25+00:00",
+ "generated_at": "2026-10-16T21:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T20:17:17+00:00",
-  "fetched_at": "2026-10-16T20:17:17+00:00"
+  "checked_at": "2026-10-16T21:17:22+00:00",
+  "fetched_at": "2026-10-16T21:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,151 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T20:17:18+00:00",
-  "fetched_at": "2026-10-16T20:17:18+00:00"
+  "checked_at": "2026-10-16T21:17:23+00:00",
+  "fetched_at": "2026-10-16T21:17:23+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-10-16",
-    "time": "03:30",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "אסטודיאנטס לה פלטה - פלמנגו"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "16:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מכבי יפו - עירוני מודיעין"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "16:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "הפועל עפולה - מכבי הרצליה"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "16:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - מ.ס. כפר קאסם"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "16:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי אחי נצרת - הפועל כפר סבא"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "16:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "מ.ס אשדוד - מכבי קריית גת"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "19:30",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "הולשטיין קיל - הרטה ברלין"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "20:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - באיירן מינכן"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "20:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "ז'לגיריס קובנה - אנאדולו אפס"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:00",
-    "channel": "5 גולד",
-    "sport": "כדורסל",
-    "title": "הכוכב האדום בלגרד - פאריס באסקטבול"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:15",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "פנאתינאיקוס - הפועל תל אביב"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "וירטוס בולוניה - באסקוניה"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "ברצלונה - אולימפיאקוס"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:30",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "לגאנס - קורדובה"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:30",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "איינטרכט פרנקפורט - פ.צ. קלן"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "ורונה - קטנזארו"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "פרוסינונה - ססואולו"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "21:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "לה מאן - טולוז"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "22:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "ברנלי - וולבס"
-   },
-   {
-    "date": "2026-10-16",
-    "time": "22:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "דפורטיבו לה קורוניה - לבאנטה"
-   },
    {
     "date": "2026-10-17",
     "time": "03:30",
@@ -2876,11 +2736,116 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "אייאקס - אטאלנטה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "פילדלפיה 76 - קליבלנד קאבלירס"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "03:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אטלנטה דרים - גולדן סטייט ולקיריס"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "14:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "הפועל ב\"ש/דימונה - הפועל חולון"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי קריית גת - מכבי אחי נצרת"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל ראשון לציון - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "בני יהודה - מ.ס קרית ים"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי הרצליה - מכבי יפו"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "עירוני מודיעין - מכבי בני ריינה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "מ.ס. כפר קאסם - מ.ס אשדוד"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל עכו - הפועל רעננה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "16:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל כפר סבא - הפועל עפולה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:15",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "אולימפיאקוס - פנרבחצ'ה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:45",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "פאריס באסקטבול - ולנסיה"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "ברסט - ניס"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אלאבס - מלאגה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T20:17:18+00:00",
-  "fetched_at": "2026-10-16T20:17:18+00:00"
+  "checked_at": "2026-10-16T21:17:23+00:00",
+  "fetched_at": "2026-10-16T21:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3047,12 +3012,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T20:17:18+00:00",
-  "fetched_at": "2026-10-16T20:17:18+00:00"
+  "checked_at": "2026-10-16T21:17:23+00:00",
+  "fetched_at": "2026-10-16T21:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/off-the-record-will-block-ai-from-transcribing-your-convos/",
+     "date": "2026-10-16T13:31:39+00:00",
+     "launch": false,
+     "title": "הכלי הישראלי הזה יוודא שה-AI לא יתמלל אתכם בחשאי"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -3061,34 +3033,25 @@ window.DB.generated = {
      "title_en": "Bringing GPT-Rosalind to academic research labs",
      "title_he": "הבאת GPT-Rosalind למעבדות מחקר אקדמיות",
      "translated_by": "google"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-     "date": "2026-10-15T16:08:03+00:00",
-     "launch": false,
-     "title_en": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-     "title_he": "האצת החיפוש אחר פפטידים אנטי-מיקרוביאליים עם Google Antigravity",
-     "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 8,
    "failed_sources": [
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 700,
+     "likes": 701,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 585,
+     "likes": 587,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3099,6 +3062,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/autotrust/shorts"
     },
     {
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 326,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
      "title": "News",
      "desc_en": "news search",
      "desc_he": "חיפוש חדשות",
@@ -3106,17 +3076,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/autotrust/news"
     },
     {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 325,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
-    },
-    {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
@@ -3137,21 +3100,21 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 81,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     },
     {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T20:17:23+00:00",
-  "fetched_at": "2026-10-16T20:17:23+00:00"
+  "checked_at": "2026-10-16T21:17:30+00:00",
+  "fetched_at": "2026-10-16T21:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3493,8 +3456,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-16T20:17:21+00:00",
-  "fetched_at": "2026-10-16T20:17:21+00:00"
+  "checked_at": "2026-10-16T21:17:25+00:00",
+  "fetched_at": "2026-10-16T21:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3525,8 +3488,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T20:17:22+00:00",
-  "fetched_at": "2026-10-16T20:17:22+00:00"
+  "checked_at": "2026-10-16T21:17:26+00:00",
+  "fetched_at": "2026-10-16T21:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3534,49 +3497,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-16T20:01:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-16T11:04:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-15T20:53:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-16T18:27:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-16T17:32:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-16T19:58:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "newest": "2026-10-16T20:57:00+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-16T16:43:13+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3588,28 +3551,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-16T13:31:39+00:00",
-    "seen_at": "2026-10-16T19:17:28+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-16T11:00:30+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-16T15:29:47+00:00",
-    "seen_at": "2026-10-16T20:17:25+00:00",
+    "newest": "2026-10-16T21:00:00+00:00",
+    "seen_at": "2026-10-16T21:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-16T20:17:25+00:00"
+  "checked_at": "2026-10-16T21:17:32+00:00"
  }
 };
