@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-16T11:17:09+00:00",
-  "fetched_at": "2026-10-16T11:17:09+00:00"
+  "checked_at": "2026-10-16T12:17:21+00:00",
+  "fetched_at": "2026-10-16T12:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T11:17:20+00:00",
-  "fetched_at": "2026-10-16T11:17:20+00:00"
+  "checked_at": "2026-10-16T12:17:33+00:00",
+  "fetched_at": "2026-10-16T12:17:33+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "After a music streamer? This terrific high-end Cyrus model just won its third What Hi-Fi? Award",
+    "title_he": "אחרי סטרימר מוזיקה? דגם ה-Cyrus המופלא הזה זכה זה עתה ב-What Hi-Fi השלישי שלו? פְּרָס",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/music-streamers/after-a-music-streamer-this-terrific-high-end-cyrus-model-just-won-its-third-what-hi-fi-award",
+    "date": "2026-10-16T11:52:09+00:00"
+   },
+   {
+    "title_en": "JBL Cove X1",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/jbl-cove-x1",
+    "date": "2026-10-16T11:44:11+00:00"
+   },
    {
     "title_en": "Audiolab’s new phono stage “brings vinyl playback into the modern listening age” with a headphone amp, Bluetooth and USB recording",
     "title_he": "שלב הפונו החדש של Audiolab \"מביא את השמעת ויניל לעידן ההאזנה המודרני\" עם מגבר אוזניות, הקלטת בלוטות' ו-USB",
@@ -62,27 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/portable-music-players/sony-launches-two-new-hi-res-walkmans-but-the-prices-may-shock-you",
     "date": "2026-10-16T11:00:19+00:00"
-   },
-   {
-    "title_en": "How to watch Champions Cup 2026/27 online from anywhere: live stream rugby for free",
-    "title_he": "איך לצפות בגביע האלופות 2026/27 אונליין מכל מקום: רוגבי בשידור חי בחינם",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/champions-cup-2026-27-free",
-    "date": "2026-10-16T07:00:00+00:00"
-   },
-   {
-    "title_en": "Modern Classics: NAD unveils a new streaming amplifier and CD player in its Classic Series",
-    "title_he": "קלאסיקות מודרניות: NAD חושפת מגבר סטרימינג חדש ונגן CD בסדרה הקלאסית שלה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/cd-players/modern-classics-nad-unveils-a-new-streaming-amplifier-and-cd-player-in-its-classic-series",
-    "date": "2026-10-15T15:18:45+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T11:17:22+00:00",
-  "fetched_at": "2026-10-16T11:17:22+00:00"
+  "checked_at": "2026-10-16T12:17:36+00:00",
+  "fetched_at": "2026-10-16T12:17:36+00:00"
  },
- "generated_at": "2026-10-16T11:17:22+00:00",
+ "generated_at": "2026-10-16T12:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "עליות חדות בתל אביב בהובלת מניות השבבים והביטוח",
+     "title": "בורסת תל אביב ננעלה בעליות חדות בסופו של שבוע מצויין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559720",
-     "date": "2026-10-16T08:50:00+00:00"
+     "date": "2026-10-16T11:04:00+00:00"
     },
     {
      "title": "ארקיע ביטלה קו חדש שרק הושק. לאן היא כבר לא תטוס?",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T11:17:10+00:00",
-  "fetched_at": "2026-10-16T11:17:10+00:00"
+  "checked_at": "2026-10-16T12:17:22+00:00",
+  "fetched_at": "2026-10-16T12:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T11:17:11+00:00",
-  "fetched_at": "2026-10-16T11:17:11+00:00"
+  "checked_at": "2026-10-16T12:17:23+00:00",
+  "fetched_at": "2026-10-16T12:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2879,8 +2879,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T11:17:12+00:00",
-  "fetched_at": "2026-10-16T11:17:12+00:00"
+  "checked_at": "2026-10-16T12:17:25+00:00",
+  "fetched_at": "2026-10-16T12:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3047,8 +3047,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T11:17:12+00:00",
-  "fetched_at": "2026-10-16T11:17:12+00:00"
+  "checked_at": "2026-10-16T12:17:25+00:00",
+  "fetched_at": "2026-10-16T12:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -3061,19 +3061,17 @@ window.DB.generated = {
      "title": "גוגל משיקה את Gemini 4 Argon שזמין עכשיו לכולם"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "date": "2026-10-13T16:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "date": "2026-10-13T19:43:07+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Argon: Built to solve your hardest problems",
-     "title_he": "Gemini 4 Argon: נבנה כדי לפתור את הבעיות הקשות ביותר שלך",
+     "title_en": "Developing Gemini 4 Argon responsibly and safely",
+     "title_he": "פיתוח Gemini 4 Argon בצורה אחראית ובטוחה",
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 14,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
@@ -3093,22 +3091,29 @@ window.DB.generated = {
      "title": "Shorts",
      "desc_en": "shorts videos demo",
      "desc_he": "הדגמת סרטונים קצרים",
-     "likes": 152,
+     "likes": 162,
      "link": "https://huggingface.co/spaces/autotrust/shorts"
     },
     {
      "title": "News",
      "desc_en": "news search",
      "desc_he": "חיפוש חדשות",
-     "likes": 156,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/autotrust/news"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 321,
+     "likes": 322,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 123,
+     "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "Model Pulse",
@@ -3118,17 +3123,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
     },
     {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 120,
-     "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
-    },
-    {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 63,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
@@ -3148,12 +3146,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T11:17:19+00:00",
-  "fetched_at": "2026-10-16T11:17:19+00:00"
+  "checked_at": "2026-10-16T12:17:33+00:00",
+  "fetched_at": "2026-10-16T12:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "שתי הזדמנויות לנקמה: דניאל פרץ מול השוער שהחרים את ישראל",
+     "link": "https://sports.walla.co.il/item/3872465",
+     "date": "2026-10-16T11:26:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "ברצלונה רוצה לשמור על המאזן המושלם, רביבו יוצא לוויאריאל",
      "link": "https://sports.walla.co.il/item/3872357",
@@ -3216,16 +3223,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "שישייה מוחצת לווסטהאם וסולומון, שער נקי נוסף לדניאל פרץ",
-     "link": "https://sports.walla.co.il/item/3872211",
-     "date": "2026-10-14T20:51:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון",
-      "דניאל פרץ"
      ]
     },
     {
@@ -3492,8 +3489,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-16T11:17:15+00:00",
-  "fetched_at": "2026-10-16T11:17:15+00:00"
+  "checked_at": "2026-10-16T12:17:28+00:00",
+  "fetched_at": "2026-10-16T12:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -3524,8 +3521,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T11:17:16+00:00",
-  "fetched_at": "2026-10-16T11:17:16+00:00"
+  "checked_at": "2026-10-16T12:17:29+00:00",
+  "fetched_at": "2026-10-16T12:17:29+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3533,82 +3530,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-16T11:15:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-16T08:50:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "newest": "2026-10-16T11:04:00+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-15T20:53:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-16T09:25:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "newest": "2026-10-16T11:26:00+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-16T10:47:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-16T10:36:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "newest": "2026-10-16T12:06:00+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-16T09:58:14+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-16T10:17:32+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-16T05:46:21+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "newest": "2026-10-16T12:00:37+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-16T11:00:30+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-16T11:02:12+00:00",
-    "seen_at": "2026-10-16T11:17:22+00:00",
+    "newest": "2026-10-16T11:52:09+00:00",
+    "seen_at": "2026-10-16T12:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-16T11:17:22+00:00"
+  "checked_at": "2026-10-16T12:17:36+00:00"
  }
 };
