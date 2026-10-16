@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-16T15:17:24+00:00",
-  "fetched_at": "2026-10-16T15:17:24+00:00"
+  "checked_at": "2026-10-16T16:17:13+00:00",
+  "fetched_at": "2026-10-16T16:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T15:17:35+00:00",
-  "fetched_at": "2026-10-16T15:17:35+00:00"
+  "checked_at": "2026-10-16T16:17:27+00:00",
+  "fetched_at": "2026-10-16T16:17:27+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Bowers & Wilkins for Aston Martin DBX S (2026)",
+    "title_he": "באוורס אנד ווילקינס עבור Aston Martin DBX S (2026)",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/bowers-and-wilkins-for-aston-martin-dbx-s-2026",
+    "date": "2026-10-16T15:29:47+00:00"
+   },
    {
     "title_en": "I watched this iconic cinema scene as it's never been seen before – and now you can too",
     "title_he": "צפיתי בסצנת הקולנוע האיקונית הזו כפי שלא נראתה מעולם - ועכשיו גם אתה יכול",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/music-streamers/after-a-music-streamer-this-terrific-high-end-cyrus-model-just-won-its-third-what-hi-fi-award",
     "date": "2026-10-16T11:52:09+00:00"
-   },
-   {
-    "title_en": "JBL Cove X1",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/jbl-cove-x1",
-    "date": "2026-10-16T11:44:11+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T15:17:40+00:00",
-  "fetched_at": "2026-10-16T15:17:40+00:00"
+  "checked_at": "2026-10-16T16:17:29+00:00",
+  "fetched_at": "2026-10-16T16:17:29+00:00"
  },
- "generated_at": "2026-10-16T15:17:40+00:00",
+ "generated_at": "2026-10-16T16:17:29+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T15:17:25+00:00",
-  "fetched_at": "2026-10-16T15:17:25+00:00"
+  "checked_at": "2026-10-16T16:17:14+00:00",
+  "fetched_at": "2026-10-16T16:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T15:17:26+00:00",
-  "fetched_at": "2026-10-16T15:17:26+00:00"
+  "checked_at": "2026-10-16T16:17:15+00:00",
+  "fetched_at": "2026-10-16T16:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2879,8 +2879,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T15:17:27+00:00",
-  "fetched_at": "2026-10-16T15:17:27+00:00"
+  "checked_at": "2026-10-16T16:17:17+00:00",
+  "fetched_at": "2026-10-16T16:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3047,19 +3047,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T15:17:27+00:00",
-  "fetched_at": "2026-10-16T15:17:27+00:00"
+  "checked_at": "2026-10-16T16:17:17+00:00",
+  "fetched_at": "2026-10-16T16:17:17+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-releases-gemini-4-argon/",
-     "date": "2026-10-13T16:00:39+00:00",
-     "launch": true,
-     "title": "גוגל משיקה את Gemini 4 Argon שזמין עכשיו לכולם"
-    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
@@ -3068,16 +3061,23 @@ window.DB.generated = {
      "title_en": "Developing Gemini 4 Argon responsibly and safely",
      "title_he": "פיתוח Gemini 4 Argon בצורה אחראית ובטוחה",
      "translated_by": "google"
+    },
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/off-the-record-will-block-ai-from-transcribing-your-convos/",
+     "date": "2026-10-16T13:31:39+00:00",
+     "launch": false,
+     "title": "הכלי הישראלי הזה יוודא שה-AI לא יתמלל אתכם בחשאי"
     }
    ],
-   "candidates": 15,
+   "candidates": 11,
    "failed_sources": [],
    "tools": [
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 695,
+     "likes": 696,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3126,8 +3126,15 @@ window.DB.generated = {
      "title": "Model Pulse",
      "desc_en": "Hugging Face model download stats, history & trends",
      "desc_he": "סטטיסטיקות הורדה של מודל חיבוק פנים, היסטוריה ומגמות",
-     "likes": 225,
+     "likes": 226,
      "link": "https://huggingface.co/spaces/tardellirs/model-pulse"
+    },
+    {
+     "title": "FLUX 3 Image Klein",
+     "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
+     "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
+     "likes": 62,
+     "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
@@ -3135,19 +3142,12 @@ window.DB.generated = {
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
      "likes": 77,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
-    },
-    {
-     "title": "FLUX 3 Image Klein",
-     "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
-     "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 61,
-     "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-16T15:17:34+00:00",
-  "fetched_at": "2026-10-16T15:17:34+00:00"
+  "checked_at": "2026-10-16T16:17:26+00:00",
+  "fetched_at": "2026-10-16T16:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -3489,8 +3489,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-16T15:17:30+00:00",
-  "fetched_at": "2026-10-16T15:17:30+00:00"
+  "checked_at": "2026-10-16T16:17:20+00:00",
+  "fetched_at": "2026-10-16T16:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3521,8 +3521,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-16T15:17:31+00:00",
-  "fetched_at": "2026-10-16T15:17:31+00:00"
+  "checked_at": "2026-10-16T16:17:21+00:00",
+  "fetched_at": "2026-10-16T16:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3530,82 +3530,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-16T15:02:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-16T11:04:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-15T20:53:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-14T05:48:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-16T14:16:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-16T15:15:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-16T15:05:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "newest": "2026-10-16T15:51:00+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-16T14:46:45+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-16T13:31:39+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-16T11:00:30+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-16T14:27:18+00:00",
-    "seen_at": "2026-10-16T15:17:40+00:00",
+    "newest": "2026-10-16T15:29:47+00:00",
+    "seen_at": "2026-10-16T16:17:29+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-16T15:17:40+00:00"
+  "checked_at": "2026-10-16T16:17:29+00:00"
  }
 };
