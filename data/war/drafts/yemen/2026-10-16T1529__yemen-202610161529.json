@@ -1,0 +1,336 @@
+{
+ "status": "draft",
+ "received_sha256_12": "15d9203543f7",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-16T15:29:02+00:00",
+  "window": {
+   "from": "2026-10-15T15:29:02+00:00",
+   "to": "2026-10-16T15:29:02+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610161529"
+  },
+  "summary": "הלחימה בתימן מתעצמת סביב מצור שמנהלים החות'ים על העיר תעז ופגיעות ישירות בסמלי שלטון כדוגמת תקיפת ארמון הנשיאות בעדן. במקביל, נמשכות התקיפות החות'יות לעבר יעדים ותשתיות אזרחיות בסעודיה, מה שגרם לביטול ודחיית אירועים בינלאומיים ולגינוי חריף מצד מועצת הביטחון של האו\"ם.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנים (תעז ועדן)",
+    "status": "פעיל ומסלים"
+   },
+   {
+    "name": "חזית סעודיה",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10161529-01",
+    "title": "תקיפת ארמון הנשיאות בעדן",
+    "summary": "החות'ים תקפו באמצעות טילים את ארמון אל-מעאשיק הנשיאותי בעדן שבו שהו בכירים, בתקיפה נהרגו מספר בני אדם ונפצעו אחרים בעוד ראש הממשלה ושריו ניצלו",
+    "axis": "ציר תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-15T14:33:16+00:00",
+    "last_update_at": "2026-10-16T06:29:05+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו אחיד בכל הדיווחים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-says-will-not-use-ground-troops-or-nukes-iran",
+      "published_at": "2026-10-16T06:29:05+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+      "published_at": "2026-10-16T00:27:21+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-15T23:38:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-launch-deadly-attack-yemen-presidential-palace",
+      "published_at": "2026-10-15T20:51:32+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261015-houthi-attack-on-palace-used-by-yemen-government-in-aden-kills-five",
+      "published_at": "2026-10-15T19:57:48+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-launch-deadly-attack-presidential-palace-yemens-aden",
+      "published_at": "2026-10-15T18:30:24+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94665",
+      "published_at": "2026-10-15T15:26:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-says-pm-cabinet-safe-after-houthi-aden-attack",
+      "published_at": "2026-10-15T15:13:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131966",
+      "published_at": "2026-10-15T14:44:23+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48579",
+      "published_at": "2026-10-15T14:33:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10161529-02",
+    "title": "תקיפות והפצצות של המיליציה החות'ית לעבר שטח סעודיה ותשתיות",
+    "summary": "החות'ים שיגרו טילים ומל‌האی שונים לעבר שטחים ותשתיות בסעודיה, כולל פגיעה קודמת בשדה התעופה הבינלאומי בריאד ותקיפות באזור הדרום",
+    "axis": "ציר תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T14:23:39+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-15T14:23:39+00:00",
+    "last_update_at": "2026-10-16T15:05:12+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכל אתר ואתר",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-backs-un-condemnation-houthi-attacks",
+      "published_at": "2026-10-16T15:05:12+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1377936",
+      "published_at": "2026-10-16T14:30:58+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154110",
+      "published_at": "2026-10-16T14:17:01+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+      "published_at": "2026-10-15T20:31:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131962",
+      "published_at": "2026-10-15T14:23:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10161529-03",
+    "title": "החמרת המצור והלחימה סביב העיר תעז",
+    "summary": "כוחות חות'ים מהדקים את המצור סביב העיר תעז ומנתקים צירי תחבורה מרכזיים, מה שמחריף את המשבר ההומניטרי ומאלץ משפחות למצוא מחסה",
+    "axis": "ציר תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T04:00:50+00:00",
+    "last_update_at": "2026-10-16T14:46:29+00:00",
+    "what_is_not_verified": "מספר העקורות והנפגעים המדויק בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-besieged-taiz-families-take-shelter-houthis-close",
+      "published_at": "2026-10-16T14:46:29+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154107",
+      "published_at": "2026-10-16T13:53:34+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154103",
+      "published_at": "2026-10-16T13:20:33+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/explainer-why-battle-yemens-taiz-so-important",
+      "published_at": "2026-10-16T12:46:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/16/future-western-security-at-stake-yemen-civil-war-former-pm",
+      "published_at": "2026-10-16T04:00:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפת ארמון הנשיאות בעדן",
+   "היקף ההתחמשות המדויק של החות'ים מאיראן",
+   "מספר האנשים המדויק שנותקו מסיוע תזונתי בתעז"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה ביעדים צבאיים וממשלתיים של השלטון הלגיטימי וסעודיה",
+     "תקיפת מטרות הקשורות לקואליציה"
+    ],
+    "inferred": [
+     "השתלטות על מוקדי שליטה אסטרטגיים בתימן כמו תעז ומצר באב אל-מנדב",
+     "הפעלת לחץ על סעודיה באמצעות פגיעה בתשתיות אזרחיות"
+    ],
+    "forecast": [
+     "המשך ניסיונות להדק את השליטה בקרקע ושיגור טילים נוספים",
+     "החמרת הבידוד על הממשל המוכר בתימן"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "בלימת התקיפות החות'יות והגנה על תשתיות ואזרחים",
+     "תמיכה בלגיטימציה של ממשלת תימן"
+    ],
+    "inferred": [
+     "ניסיון לגייס גינוי בינלאומי רחב נגד החות'ים ותמיכתם האיראנית",
+     "שמירה על יציבות פנים-סעודית לקראת אירועים בינלאומיים"
+    ],
+    "forecast": [
+     "המשך תקיפות נגד מעוזי החות'ים בתימן",
+     "הגברת התיאום הדיפלומטי הבינלאומי לחסימת אספקת נשק לחות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/explainer-why-battle-yemens-taiz-so-important",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/16/future-western-security-at-stake-yemen-civil-war-former-pm",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1377936",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-backs-un-condemnation-houthi-attacks",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-says-pm-cabinet-safe-after-houthi-aden-attack",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154103",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131962",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48579",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94665",
+    "accessed_at": "2026-10-16T15:29:02+00:00"
+   }
+  ]
+ }
+}

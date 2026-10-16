@@ -1,0 +1,237 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9b22a03616db",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 1,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-16T14:59:07+00:00",
+  "window": {
+   "from": "2026-10-15T14:59:07+00:00",
+   "to": "2026-10-16T14:59:07+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610161459"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין במתיחות ימית גוברת, הכנות אמריקאיות אפשריות לתקיפת תשתיות ואיומי תגובה מצד איראן על תשתיות אנרגיה. בזירה המדינית-כלכלית, איראן מנסה לעקוף את הסגר הימי וממשיכה להפגין קשיחות מול לחץ חיצוני, בעוד ארה\"ב שוקלת אפשרויות תקיפה נוספות.",
+  "fronts": [
+   {
+    "name": "החזית הימית והאנרגטית במפרץ",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "החזית הגרעינית והצבאית מול ארה\"ב וישראל",
+    "status": "סלים והדדי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10161459-01",
+    "title": "נסיגת כלי שיט אמריקאיים",
+    "summary": "דובר צבא איראן מסר כי כלי שיט אמריקאיים נסוגו למרחק של מעל 500 קילומטרים מקו החוף של איראן, וכי מתוכננות תוכניות מבצעיות לדחיקתם הרחק עוד יותר.",
+    "axis": "ציר איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T14:23:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T14:23:40+00:00",
+    "last_update_at": "2026-10-16T14:23:40+00:00",
+    "what_is_not_verified": "נכונות טענת הצבא האיראני לגבי מרחק הנסיגה המדויק והתוכניות העתידיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_24f476b8c221bed8",
+      "url": "https://en.irna.ir/news/86294199/Army-spokesman-vows-new-plans-to-drive-American-vessels-farther",
+      "published_at": "2026-10-16T14:23:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10161459-02",
+    "title": "זיהוי מכלית נפט בוערת במפרץ עומאן",
+    "summary": "חיל הים של איראן זיהה מכלית נפט שאחזה בוערת באזור אסור ממזרח למצר הורמוז במפרץ עומאן.",
+    "axis": "ציר איראן - מפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T11:07:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T11:07:18+00:00",
+    "last_update_at": "2026-10-16T13:53:14+00:00",
+    "what_is_not_verified": "מה גרם לפרוץ השריפה במכלית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_8fa82fde8ff41d4c",
+      "url": "https://en.irna.ir/news/86294247/Iranian-Navy-spots-oil-tanker-on-fire-in-Strait-of-Hormuz",
+      "published_at": "2026-10-16T13:53:14+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_8fa82fde8ff41d4c",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-oil-tanker-detected-fire-gulf-oman",
+      "published_at": "2026-10-16T11:07:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10161459-03",
+    "title": "הרשעת אזרח נורווגי בבריטניה בקשירת קשר לרצח מטעם איראן",
+    "summary": "נער נורווגי גויס ברשת על ידי קבוצת פשע שוודית המקושרת לאיראן, ונדון בבריטניה ל-20 שנות מאסר בשל מזימת רצח.",
+    "axis": "ציר איראן - מערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T11:00:37+00:00",
+    "last_update_at": "2026-10-16T13:46:27+00:00",
+    "what_is_not_verified": "הקשר הישיר של משטר איראן לקבוצת הפשע השוודית מעבר לטענת התביעה הבריטית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/norwegian-teen-jailed-20-years-uk-murder-plot-after-being-recruited-online",
+      "published_at": "2026-10-16T13:46:27+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610168133",
+      "published_at": "2026-10-16T11:00:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10161459-04",
+    "title": "יצוא מוצרי נפט איראניים למרות הסגר הימי",
+    "summary": "נתונים ומקורות מודיעיני ימי מראים כי איראן הצליחה לייצא כמויות של גז פחמימני מעובה ודלק סילוני למרות הסגר הימי האמריקאי.",
+    "axis": "ציר איראן - ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T10:50:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T10:50:00+00:00",
+    "last_update_at": "2026-10-16T10:51:27+00:00",
+    "what_is_not_verified": "ההיקף המדויק של המשלוחים והאם גורמים נוספים סייעו לעקוף את הסגר באופן שיטתי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610166333",
+      "published_at": "2026-10-16T10:51:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows",
+      "published_at": "2026-10-16T10:50:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "האם ארה\"ב תשתמש בפצצת MOAB נגד אתרי הגרעין או תשתיות האנרגיה באיראן",
+   "היקף הצלחתה המדויק של איראן לעקוף את הסגר הימי האמריקאי",
+   "סיבת השריפה המדויקת במכלית הנפט במפרץ עומאן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "אי כניעה לכוח אמריקאי",
+     "תגובה מיידית והולמת לכל איום על תשתיות האנרגיה",
+     "המשך פיתוח והגנה על יכולות ההגנה האווירית"
+    ],
+    "inferred": [
+     "שבירת הסגר הימי האמריקאי באמצעות העברת משלוחי אנרגיה מוסתרים",
+     "הרחקת כלי השיט של ארה\"ב מן האזור הימי של איראן"
+    ],
+    "forecast": [
+     "המשך ניסיונות עקיפת הסנקציות הימיות",
+     "הגברת ההתרעה והאיומים נגד מתקני אנרגיה אזוריים אם יותקפו"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן",
+     "בחינת אפשרויות תקיפה מתקדמות כולל שימוש בחימוש אסטרטגי"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי מקסימלי כדי לשзиק את כללי המשחק מול טהרן",
+     "שמירה על נוכחות ימית הרחק מהחופים האיראניים למרות איומי דחיקה"
+    ],
+    "forecast": [
+     "המשך ההערכות האופרטיביות לתקיפה אפשרית של אתרים רגישים באיראן",
+     "המשך אכיפת סגר ימי למניעת יצוא אנרגיה איראני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/norwegian-teen-jailed-20-years-uk-murder-plot-after-being-recruited-online",
+    "accessed_at": "2026-10-16T14:59:07+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610166333",
+    "accessed_at": "2026-10-16T14:59:07+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86294247/Iranian-Navy-spots-oil-tanker-on-fire-in-Strait-of-Hormuz",
+    "accessed_at": "2026-10-16T14:59:07+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows",
+    "accessed_at": "2026-10-16T14:59:07+00:00"
+   }
+  ]
+ }
+}
