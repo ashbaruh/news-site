@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-17T19:17:08+00:00",
-  "fetched_at": "2026-10-17T19:17:08+00:00"
+  "checked_at": "2026-10-17T20:17:24+00:00",
+  "fetched_at": "2026-10-17T20:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T19:17:25+00:00",
-  "fetched_at": "2026-10-17T19:17:25+00:00"
+  "checked_at": "2026-10-17T20:17:34+00:00",
+  "fetched_at": "2026-10-17T20:17:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T19:17:25+00:00",
-  "fetched_at": "2026-10-17T19:17:25+00:00"
+  "checked_at": "2026-10-17T20:17:34+00:00",
+  "fetched_at": "2026-10-17T20:17:34+00:00"
  },
- "generated_at": "2026-10-17T19:17:25+00:00",
+ "generated_at": "2026-10-17T20:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T19:17:09+00:00",
-  "fetched_at": "2026-10-17T19:17:09+00:00"
+  "checked_at": "2026-10-17T20:17:25+00:00",
+  "fetched_at": "2026-10-17T20:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T19:17:10+00:00",
-  "fetched_at": "2026-10-17T19:17:10+00:00"
+  "checked_at": "2026-10-17T20:17:26+00:00",
+  "fetched_at": "2026-10-17T20:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2861,10 +2861,9 @@ window.DB.generated = {
     "title": "אלאבס - מלאגה"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-17T19:17:15+00:00",
-  "fetched_at": "2026-10-17T18:52:01+00:00"
+  "ok": true,
+  "checked_at": "2026-10-17T20:17:27+00:00",
+  "fetched_at": "2026-10-17T20:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3013,8 +3012,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T19:17:15+00:00",
-  "fetched_at": "2026-10-17T19:17:15+00:00"
+  "checked_at": "2026-10-17T20:17:27+00:00",
+  "fetched_at": "2026-10-17T20:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -3043,7 +3042,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 612,
+     "likes": 613,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3052,6 +3051,13 @@ window.DB.generated = {
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
      "likes": 710,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "FLUX 3 Image Klein",
+     "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
+     "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
+     "likes": 92,
+     "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Shorts",
@@ -3078,7 +3084,7 @@ window.DB.generated = {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
@@ -3092,32 +3098,34 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 137,
+     "likes": 140,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 91,
+     "likes": 92,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
-    },
-    {
-     "title": "MiniMax-H3 360° Orbit LoRA",
-     "desc_en": "One photo into a frozen-instant 360° camera orbit",
-     "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 90,
-     "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T19:17:24+00:00",
-  "fetched_at": "2026-10-17T19:17:24+00:00"
+  "checked_at": "2026-10-17T20:17:33+00:00",
+  "fetched_at": "2026-10-17T20:17:33+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "צפו: עידן טוקלומטי בישל וכבש במהפך של שארלוט",
+     "link": "https://sports.walla.co.il/item/3872588",
+     "date": "2026-10-17T20:08:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עידן טוקלומטי"
+     ]
+    },
     {
      "title": "עוד חמישייה לברצלונה, פנדל לזכות רוי רביבו בוטל",
      "link": "https://sports.walla.co.il/item/3872357",
@@ -3155,12 +3163,13 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "דיא סבע כיכב עם בישול ב-0:1 של אמדספור",
+     "title": "סבע כיכב באמדספור, טוקלומטי כבש ובישל בשארלוט",
      "link": "https://www.one.co.il/Article/536262.html?ref=rss",
      "date": "2026-10-17T15:43:00+00:00",
      "source": "ONE",
      "players": [
-      "דיא סבע"
+      "דיא סבע",
+      "עידן טוקלומטי"
      ]
     },
     {
@@ -3242,16 +3251,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "חלאילי ופאלאס נכנעו לליון, זועבי וטורנסה מתחו את סנדרלנד",
-     "link": "https://sports.walla.co.il/item/3872151",
-     "date": "2026-10-15T20:52:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי",
-      "כארם זועבי"
      ]
     }
    ],
@@ -3455,8 +3454,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-17T19:17:18+00:00",
-  "fetched_at": "2026-10-17T19:17:18+00:00"
+  "checked_at": "2026-10-17T20:17:30+00:00",
+  "fetched_at": "2026-10-17T20:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3487,8 +3486,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T19:17:19+00:00",
-  "fetched_at": "2026-10-17T19:17:19+00:00"
+  "checked_at": "2026-10-17T20:17:30+00:00",
+  "fetched_at": "2026-10-17T20:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3496,82 +3495,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-17T19:00:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-17T13:57:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-17T18:51:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "newest": "2026-10-17T20:08:00+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-17T18:26:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "newest": "2026-10-17T19:35:00+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-17T18:48:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "newest": "2026-10-17T19:54:00+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-17T14:28:32+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-17T15:46:25+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-17T11:08:10+00:00",
-    "seen_at": "2026-10-17T19:17:25+00:00",
+    "seen_at": "2026-10-17T20:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-17T19:17:25+00:00"
+  "checked_at": "2026-10-17T20:17:34+00:00"
  }
 };
