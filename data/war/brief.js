@@ -1,174 +1,104 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-17T04:00:00+03:00",
- "generated_at": "2026-10-17T00:40:25+00:00",
+ "slot": "2026-10-17T12:00:00+03:00",
+ "generated_at": "2026-10-17T08:40:26+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10170040-01",
-     "title": "ארה\"ב טוענת כי מנעה תנועת ספינות איראניות בהורמוז",
-     "summary": "נשיא ארה\"ב ומפקד פיקוד המרכז האמריקני הצהירו כי הסגר הימי של הצי האמריקני עצר את כלי השיט של איראן ושולט במצר.",
+     "id": "IRAN-10170840-01",
+     "title": "אזהרת חיל הים של משמרות המהפכה בנוגע למצר הורמוז",
+     "summary": "חיל הים של משמרות המהפכה התריע כי כלי שיט שיפרו את הכללים האיראניים במצר הורמוז יינזקו כתוצאה מהסתמכותם על הצבא האמריקני.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T20:43:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-16T20:43:00+00:00",
-     "last_update_at": "2026-10-17T00:00:00+00:00",
-     "what_is_not_verified": "היקף העצירה בפועל של כלל הספינות האיראניות לא אומת באופן עצמאי מעבר להצהרות בכירי ארה\"ב.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
-       "published_at": "2026-10-17T00:00:00+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hormuz-controlled-us-and-allies-not-iran-centcom-chief",
-       "published_at": "2026-10-16T20:43:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10170040-02",
-     "title": "האשמות סעודיות כלפי איראן והכחשה מצד טהראן",
-     "summary": "סעודיה האשימה את טהראן בעידוד תקיפות החות'ים בניגוד להסכמות הדיפלומטיות, בעוד משרד החוץ האיראני הכחיש כל מעורבות בפעולות.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T18:32:21+00:00",
+     "occurred_at": "2026-10-17T08:38:33+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T18:32:21+00:00",
-     "last_update_at": "2026-10-16T20:28:05+00:00",
-     "what_is_not_verified": "מידת המעורבות וההנחיה האיראנית בתקיפות החות'יות נותרה שנויה במחלוקת בין הצדדים ללא אימות חיצוני.",
+     "first_reported_at": "2026-10-17T08:38:33+00:00",
+     "last_update_at": "2026-10-17T08:38:33+00:00",
+     "what_is_not_verified": "לא אומת יישום בפועל של האזהרות בשטח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-houthi-attacks-violate-terms-rapprochement-iran",
-       "published_at": "2026-10-16T20:28:05+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-denies-saudi-accusation-involvement-houthi-attacks",
-       "published_at": "2026-10-16T18:32:21+00:00"
+       "url": "https://en.irna.ir/news/86294797/IRGC-Navy-warns-vessels-violating-Strait-of-Hormuz-rules",
+       "published_at": "2026-10-17T08:38:33+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10170040-03",
-     "title": "שלילת רישיון הפעילות של בנק סאדראת האיראני בלבנון",
-     "summary": "הבנק המרכזי של לבנון ביטל את רישיונו של המוסד הבנקאי האיראני בעקבות לחצים אמריקניים וחשדות למימון חיזבאללה.",
+     "id": "IRAN-10170840-02",
+     "title": "דיווח על פגיעת מוקש ימי במכלית נפט במצר הורמוז",
+     "summary": "לפי דיווח חיל הים של משמרות המהפכה, מכלית שנשאה מעל שני מיליון חביות נפט נפגעה ממוקש בעת שניסתה לחצות אזור אסור במצר הורמוז.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-15T00:00:00+00:00",
+     "occurred_at": "2026-10-17T06:56:49+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T17:02:36+00:00",
-     "last_update_at": "2026-10-16T17:02:36+00:00",
-     "what_is_not_verified": "פרטי הפעילות הפיננסית המלאה והיקף פגיעת המהלך ברשתות המימון אינם מאומתים במלואם.",
+     "first_reported_at": "2026-10-17T06:56:49+00:00",
+     "last_update_at": "2026-10-17T06:56:49+00:00",
+     "what_is_not_verified": "עצם התקרית והיקף הנזק לא אומתו באופן עצמאי מעבר לטענת משמרות המהפכה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_fdd",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.fdd.org/analysis/lebanon-revokes-bank-saderats-license-but-hezbollahs-financial-network-remains/",
-       "published_at": "2026-10-16T17:02:36+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-643",
+       "published_at": "2026-10-17T06:56:49+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "IRAN-10170840-03",
+     "title": "התניית סיום המלחמה בהפסקת אש בכלל החזיתות",
+     "summary": "סגן שר החוץ האיראני הבהיר כי הגעה לרגיעה מחייבת הפסקה כוללת של הלחימה בכל הזירות האזוריות.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-17T07:38:22+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-17T07:38:22+00:00",
+     "last_update_at": "2026-10-17T07:38:22+00:00",
+     "what_is_not_verified": "לא מאומת מעבר להצהרתו הפוליטית",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86294695/Iran-says-all-front-ceasefire-essential-to-ending-regional-war",
+       "published_at": "2026-10-17T07:38:22+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10170040-01",
-     "title": "שיגור מיירטים לעבר מטרת שווא בדרום לבנון",
-     "summary": "דובר צה\"ל מסר כי שני מיירטים שוגרו לעבר מטרה אווירית שהתבררה כמטרת שווא במרחב פעילות הכוחות.",
+     "id": "NORTH-10170840-01",
+     "title": "הוצאת צווי מעצר בלבנון נגד בכירים בחזבאללה",
+     "summary": "התובע הכללי בלבנון הוציא צווי מעצר לבכירים בחזבאללה בעקבות חקירת תפיסת משאית עמוסה בחומרי נפץ.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T16:57:57+00:00",
+     "occurred_at": "2026-10-17T08:17:22+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T16:57:57+00:00",
-     "last_update_at": "2026-10-16T16:57:57+00:00",
-     "what_is_not_verified": "מהות הזיהוי האווירי הראשוני שהוביל לשיגור המיירטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25392",
-       "published_at": "2026-10-16T16:57:57+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-10170040-02",
-     "title": "תקיפת מבנה באמצעות רחפן צבאי בדרום לבנון",
-     "summary": "רחפן הטיל שני מטענים לעבר מבנה בכפר מיפדון, כאשר אחד מהם לא התפוצץ וצבא לבנון פעל לניטרולו.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T14:01:54+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T14:01:54+00:00",
-     "last_update_at": "2026-10-16T14:01:54+00:00",
-     "what_is_not_verified": "לא אומת מה ייעוד המבנה שהותקף ונזק מדויק לא דווח באופן רשמי.",
+     "first_reported_at": "2026-10-17T08:17:22+00:00",
+     "last_update_at": "2026-10-17T08:17:22+00:00",
+     "what_is_not_verified": "ההתרחשות מסתמכת על דיווח בעיתון אלאח'באר בלבד",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132025",
-       "published_at": "2026-10-16T14:01:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מיפדון, לבנון",
-       "lat": 33.3451,
-       "lon": 35.4741
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10170040-03",
-     "title": "הודעת חיזבאללה על פשיטת כוחות ביטחון לבנוניים ללא תיאום",
-     "summary": "הארגון פרסם הודעה לפיה פשיטת כוחות הביטחון הלבנוניים על מחסן באזור גלרי סמעאן סמוך לדאחייה התבצעה ללא הנהלים המוסכמים מראש.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T19:25:39+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T19:25:39+00:00",
-     "last_update_at": "2026-10-16T19:25:39+00:00",
-     "what_is_not_verified": "פרטי הממצאים במחסן והסיבות המבצעיות של כוחות הביטחון לפעול ללא תיאום אינם מאומתים בטקסט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_b7023bc8db5a8e52",
-       "url": "https://english.almanar.com.lb/article/139092/",
-       "published_at": "2026-10-16T19:25:39+00:00"
+       "url": "https://t.me/abualiexpress/132046",
+       "published_at": "2026-10-17T08:17:22+00:00"
       }
      ],
      "places": [
@@ -176,6 +106,11 @@ window.DB.war_brief = {
        "name": "ביירות, לבנון",
        "lat": 33.8892,
        "lon": 35.5026
+      },
+      {
+       "name": "בעלבכ, לבנון",
+       "lat": 34.0097,
+       "lon": 36.2117
       }
      ]
     }
@@ -184,121 +119,115 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10170040-01",
-     "title": "סגירת המרחב האווירי מעל מוסקבה בעקבות תקיפות על בתי זיקוק",
-     "summary": "רשויות התעופה של רוסיה הטילו הגבלות על פעילות שלושה נמלי תעופה ראשיים באזור מוסקבה בעקבות גל תקיפות אוקראיניות.",
+     "id": "UKRAINE-10170840-01",
+     "title": "תקיפה אווירית רוסית מרובת פצצות בחרסון",
+     "summary": "רוסיה הטילה שמונה פצצות על אזור מגורים בחרסון, פעולה שהובילה להרג אדם אחד ולפציעת עשרים בני אדם נוספים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T22:45:41+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-16T22:45:41+00:00",
-     "last_update_at": "2026-10-16T22:45:41+00:00",
-     "what_is_not_verified": "מידת הנזק המדויק שנגרם לבתי הזיקוק בתקיפות אלו.",
+     "occurred_at": "2026-10-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-17T08:05:00+00:00",
+     "last_update_at": "2026-10-17T08:05:00+00:00",
+     "what_is_not_verified": "לא אומת באופן עצמאי מלבד דיווחי הרשויות באוקראינה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/moscow-closes-sky-multiple-nights-in-row-as-ukraine-resumes-refinery-strikes/",
-       "published_at": "2026-10-16T22:45:41+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4175363-russian-forces-drop-eight-bombs-on-kherson-killing-one-person-and-injuring-20-others.html",
+       "published_at": "2026-10-17T08:05:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "חרסון, אוקראינה",
+       "lat": 46.6401,
+       "lon": 32.6144
       }
      ]
     },
     {
-     "id": "UKRAINE-10170040-02",
-     "title": "טענות בדבר הגבלת מסופי סטארלינק והכחשת טראמפ",
-     "summary": "דיווחים הצביעו על מעורבות בהאטת תקשורת הלוויינים עבור הכוחות האוקראיניים, בעוד נשיא ארה\"ב הכחיש כי הורה על צעד כזה.",
+     "id": "UKRAINE-10170840-02",
+     "title": "השעיית חלק מסנקציות ארצות הברית על רוסיה בידי טראמפ",
+     "summary": "נשיא ארצות הברית החליט להקפיא זמנית שורת הגבלות שהטיל הקונגרס על מוסקבה, בנימוק של שיקולי ביטחון לאומי.",
      "axis": "ukraine",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T17:54:16+00:00",
+     "occurred_at": "2026-10-17T07:41:01+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T17:54:16+00:00",
-     "last_update_at": "2026-10-16T19:37:37+00:00",
-     "what_is_not_verified": "זהות הגורם שקיבל או ביצע בפועל את ההחלטה על הגבלת רוחב הפס.",
+     "first_reported_at": "2026-10-17T07:41:01+00:00",
+     "last_update_at": "2026-10-17T07:41:01+00:00",
+     "what_is_not_verified": "היקף הסנקציות המדויק שהוקפא אינו מפורט במלואו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_bbc",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48619",
-       "published_at": "2026-10-16T19:37:37+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48614",
-       "published_at": "2026-10-16T17:54:16+00:00"
+       "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-17T07:41:01+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10170040-03",
-     "title": "הגשת כתב אישום על בגידה במוסקבה בשל פעילות ברשת",
-     "summary": "אזרח רוסי נעצר בנמל התעופה ונכלא באשמת בגידה בעקבות רכישת תגובות בתשלום לערוצי טלגרם אוקראיניים ולערוצי אופוזיציה.",
+     "id": "UKRAINE-10170840-03",
+     "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על מטרות ותשתיות באוקראינה",
+     "summary": "צבא רוסיה שיגר מאות כלי טיס בלתי מאוישים וטילים לעבר עשרות מוקדים ברחבי אוקראינה, בעוד מערכות ההגנה יירטו את מרביתם.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T21:37:15+00:00",
+     "occurred_at": "2026-10-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T21:37:15+00:00",
-     "last_update_at": "2026-10-16T21:37:15+00:00",
-     "what_is_not_verified": "פרטי החקירה המלאים וגרסת גורמי האכיפה הרוסיים הרשמיים.",
+     "first_reported_at": "2026-10-17T05:28:00+00:00",
+     "last_update_at": "2026-10-17T07:28:42+00:00",
+     "what_is_not_verified": "המספרים המדויקים של שיגורים ויירוטים מתבססים על הודעת חיל האוויר של אוקראינה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/17/russian-mathematician-semyon-krasotkin-charged-with-treason-over-26-in-paid-telegram-reactions-to-ukrainian-and-opposition-channels",
-       "published_at": "2026-10-16T21:37:15+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/",
+       "published_at": "2026-10-17T07:28:42+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4175336-ukraines-adf-down-four-kalibr-missiles-289-drones-in-overnight-russian-attack.html",
+       "published_at": "2026-10-17T06:37:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058458/",
+       "published_at": "2026-10-17T05:28:00+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
-      }
-     ]
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10170040-01",
-     "title": "פגיעת טילים בנמל התעופה בעדן ויירוטים בסעודיה",
-     "summary": "שני טילים נחתו בשטח שדה התעופה הבינלאומי של עדן, ובמקביל הודיעה הקואליציה על יירוט טיל בליסטי לעבר ינבוע ומספר כטב\"מים.",
+     "id": "YEMEN-10170840-01",
+     "title": "תקיפת טילים חות'ית לעבר נמל התעופה הבינלאומי בעדן",
+     "summary": "החות'ים שיגרו שני טילים שפגעו במתחם שדה התעופה בעדן, בטענה שכיוונו לעבר מחסן נשק ומפקדה צבאית.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T19:58:10+00:00",
+     "occurred_at": "2026-10-16T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T19:58:10+00:00",
-     "last_update_at": "2026-10-16T22:29:00+00:00",
-     "what_is_not_verified": "נזקים מדויקים או נפגעים בנמל התעופה עדן לא פורטו במלואם.",
+     "first_reported_at": "2026-10-17T06:00:32+00:00",
+     "last_update_at": "2026-10-17T06:00:32+00:00",
+     "what_is_not_verified": "טענת החות'ים על פגיעה במחסן נשק ומפקדה לא אומתה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_cc2a0145bd470915",
-       "url": "https://www.newarab.com/news/missiles-hit-aden-airport-saudi-coalition-intercepts-missile",
-       "published_at": "2026-10-16T22:29:00+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_cc2a0145bd470915",
-       "url": "https://www.sabanew.net/viewstory/154126",
-       "published_at": "2026-10-16T19:58:10+00:00"
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261017-yemen-s-houthis-claim-responsibility-for-fresh-missile-strike-on-aden-airport",
+       "published_at": "2026-10-17T06:00:32+00:00"
       }
      ],
      "places": [
@@ -306,62 +235,51 @@ window.DB.war_brief = {
        "name": "עדן, תימן",
        "lat": 12.7896,
        "lon": 45.0285
-      },
-      {
-       "name": "ינבוע, סעודיה",
-       "lat": 24.089,
-       "lon": 38.0687
       }
      ]
     },
     {
-     "id": "YEMEN-10170040-02",
-     "title": "הכרזת הקואליציה על כוונה לסכל הברחות נשק ימיות לחודיידה",
-     "summary": "דובר הקואליציה בהובלת סעודיה הודיע כי כוחותיו יפעלו לפגוע במבצעי הברחת אמצעי לחימה דרך הים עבור החות'ים.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T22:26:51+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-16T22:26:51+00:00",
-     "last_update_at": "2026-10-16T22:26:51+00:00",
-     "what_is_not_verified": "אופי ומועד הפעולות הצבאיות המתוכננות לא פורטו בהודעה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-will-target-houthi-arms-smuggling-operations",
-       "published_at": "2026-10-16T22:26:51+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חודיידה, תימן",
-       "lat": 14.7979,
-       "lon": 42.9545
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10170040-03",
-     "title": "לכידת צוות מפעילי כטב\"מים של החות'ים במחוז תעז",
-     "summary": "כוחות הממשלה בתימן הודיעו כי חטיבה משוריינת שבתה חוליה שמתמחה בהפעלת כלי טיס בלתי מאוישים בחזית הדרומית-מזרחית של תעז.",
+     "id": "YEMEN-10170840-02",
+     "title": "דיווחים על שריפות במתקני נפט במזרח ערב הסעודית בעקבות מתקפה מתימן",
+     "summary": "תיעודים ברשתות הציגו שריפות שפרצו בתשתיות נפט במחוז א-שרקייה בעקבות פגיעה שיוחסה לחות'ים מתימן.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-16T23:35:48+00:00",
+     "occurred_at": "2026-10-17T01:20:43+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-16T23:35:48+00:00",
-     "last_update_at": "2026-10-16T23:35:48+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או תגובה מטעם החות'ים בנוגע לשבירת הצוות.",
+     "first_reported_at": "2026-10-17T01:20:43+00:00",
+     "last_update_at": "2026-10-17T01:20:43+00:00",
+     "what_is_not_verified": "אין אימות רשמי על היקף הנזק או על נפגעים באירוע",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48622",
+       "published_at": "2026-10-17T01:20:43+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10170840-03",
+     "title": "הפגזות וירי צלפים חות'י במחוז תעז",
+     "summary": "ירי ארטילרי וצלפים של כוחות חות'יים על אזור מגורים במחוז תעז הביא למותה של אישה ולפציעת חמישה אזרחים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-17T05:37:12+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-17T05:37:12+00:00",
+     "last_update_at": "2026-10-17T05:37:12+00:00",
+     "what_is_not_verified": "מסתמך על הודעת מרכז זכויות האדם בתעז",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-forces-claim-houthi-drone-operating-team-captured",
-       "published_at": "2026-10-16T23:35:48+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/woman-killed-five-civilians-injured-houthi-shelling-and-sniper-fire",
+       "published_at": "2026-10-17T05:37:12+00:00"
       }
      ],
      "places": [
