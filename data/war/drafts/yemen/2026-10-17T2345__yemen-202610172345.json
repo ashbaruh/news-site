@@ -1,0 +1,482 @@
+{
+ "status": "draft",
+ "received_sha256_12": "66bfeb42e9fb",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-17T23:45:25+00:00",
+  "window": {
+   "from": "2026-10-16T23:45:25+00:00",
+   "to": "2026-10-17T23:45:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610172345"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה במקביל בכמה מישורים, כאשר החות'ים מגבירים את שיגורי הטילים והכטב\"מים לעבר שטח סעודיה ולעבר מטרות ממשלתיות בעדן. מנגד, צבא ממשלת תימן והקואליציה בראשות סעודיה מפעילים לחץ קרקעי ותקיפות אוויריות נרחבות במחוזות שונים. ההתקדמות החות'ית הביאה לחידוש התיאום הצבאי והכספי בין סעודיה לאיחוד האמירויות, לצד יוזמה מצרית לאישור התערבות להגנת סעודיה.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה – חות'ים",
+    "status": "הסלמה בשיגורי טילים וכטב\"מים לעבר יעדים צבאיים, תעופתיים ותשתיות נפט, לצד יירוטים והפעלת התרעות בריאד ובדרום הממלכה"
+   },
+   {
+    "name": "חזית פנים-תימן (תעז, עדן, אל-ג'וף ומחוזות נוספים)",
+    "status": "לחימה קרקעית עזה, מתקפות טילים על נמלי תעופה ותקיפות אוויריות נרחבות של הקואליציה והצבא הממשלתי"
+   },
+   {
+    "name": "הזירה הימית (הים האדום ומפרץ עדן)",
+    "status": "מתיחות ביטחונית ושיבוש נתיבי השיט, כולל יירוט טילי שיוט מעל הים האדום וירי חמושים לעבר מכלית גז מדרום לאל-מוכלא"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10172345-01",
+    "title": "יירוט טילים וכטב\"מים שנורו מתימן לעבר ערב הסעודית והים האדום",
+    "summary": "הקואליציה בראשות סעודיה יירטה שני טילים בליסטיים ששוגרו לכיוון ח'מיס מושייט, כטב\"מים באזורי ריאד, המזרח והדרום, טיל בליסטי לעבר ינבוע ושני טילי שיוט מעל הים האדום. בעקבות השיגורים הופעלו התרעות בריאד, באבהא, בח'מיס מושייט ובג'אזאן.",
+    "axis": "סעודיה – חות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T22:29:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T22:29:00+00:00",
+    "last_update_at": "2026-10-17T23:12:26+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומידת הפגיעה הישירה של רסיסים או מטרות על הקרקע",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154174",
+      "published_at": "2026-10-17T23:12:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-two-missiles-launched-towards-khamis-mushait",
+      "published_at": "2026-10-17T23:10:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-residents-receive-hostile-aerial-threat-alert",
+      "published_at": "2026-10-17T21:53:09+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-strikes-yemen-kill-12-houthis-say",
+      "published_at": "2026-10-17T16:15:55+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-reports-incoming-fire-egypt-weighs-sending-help",
+      "published_at": "2026-10-17T08:21:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/missiles-hit-aden-airport-saudi-coalition-intercepts-missile",
+      "published_at": "2026-10-16T22:29:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ח'מיס מושייט, ערב הסעודית",
+      "lat": 18.3,
+      "lon": 42.7333
+     },
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע, ערב הסעודית",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10172345-02",
+    "title": "מתקפת טילים של החות'ים על נמל התעופה הבינלאומי בעדן",
+    "summary": "שני טילים פגעו בשטח נמל התעופה הבינלאומי בעדן בעת שמטוס נוסעים התכונן להמראה. החות'ים קיבלו אחריות על השיגור וטענו כי כיוונו למחסן אמצעי לחימה ולמפקדה צבאית.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T22:29:00+00:00",
+    "last_update_at": "2026-10-17T06:00:32+00:00",
+    "what_is_not_verified": "לא אומת האם נפגעו מחסן נשק או מפקדה צבאית כפי שטענו החות'ים, ורשויות הביטחון בעדן דיווחו שלא היו נפגעים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261017-yemen-s-houthis-claim-responsibility-for-fresh-missile-strike-on-aden-airport",
+      "published_at": "2026-10-17T06:00:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/missiles-hit-aden-airport-saudi-coalition-intercepts-missile",
+      "published_at": "2026-10-16T22:29:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10172345-03",
+    "title": "הסלמה צבאית בלחימה הקרקעית והאווירית ברחבי תימן",
+    "summary": "כוחות ממשלת תימן דיווחו על ביצוע מאות תקיפות נגד החות'ים, פגיעה במחסנים ובמפקדות באל-ג'וף ובלימת מתקפה מדרום לתעז. במקביל נמסר על תקיפות אוויריות נרחבות של הקואליציה במחוזות צנעא, תעז, ד'מאר, איב, לחג', צעדה ועמראן, לצד הפגזות חות'יות על שכונות מגורים בתעז.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T14:53:59+00:00",
+    "last_update_at": "2026-10-17T21:12:44+00:00",
+    "what_is_not_verified": "מספרי הנפגעים המדויקים, הטענה על שימוש בפצצות מצרר ושיעור האבדות הנטען של 800 לוחמים ו-190 כלים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154173",
+      "published_at": "2026-10-17T21:12:44+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-heavy-houthi-losses-day-strikes",
+      "published_at": "2026-10-17T17:53:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-strikes-yemen-kill-12-houthis-say",
+      "published_at": "2026-10-17T16:15:55+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154153",
+      "published_at": "2026-10-17T14:53:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "ד'מאר, תימן",
+      "lat": 14.543,
+      "lon": 44.4001
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10172345-04",
+    "title": "ירי לעבר מכלית גז במרחב הימי מדרום-מזרח לאל-מוכלא",
+    "summary": "סירת מנוע קטנה ועליה שבעה חמושים התקרבה למכלית גז במרחק 140 מיילים ימיים מדרום-מזרח לנמל אל-מוכלא וביצעה לעברה ירי. צוות המכלית ירה ירי אזהרה והסירה שינתה את נתיבה.",
+    "axis": "הזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T14:37:43+00:00",
+    "last_update_at": "2026-10-17T14:37:43+00:00",
+    "what_is_not_verified": "זהות החמושים והשתייכותם הארגונית אינן מאומתות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gunmen-fire-tanker-yemens-coast-southeast-al-mukalla",
+      "published_at": "2026-10-17T14:37:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מוכלא, תימן",
+      "lat": 14.5425,
+      "lon": 49.1231
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10172345-05",
+    "title": "מצרים מקדמת אישור פרלמנטרי להתערבות צבאית להגנת סעודיה",
+    "summary": "נשיא מצרים פנה לפרלמנט המצרי בבקשה לכנס ישיבת חירום כדי להעניק לו סמכות לפעול להגנת סעודיה ומדינות המפרץ אם תתבקש לעשות כן, על רקע התגברות המתקפות מתימן.",
+    "axis": "הקואליציה האזורית מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T09:46:56+00:00",
+    "last_update_at": "2026-10-17T16:49:07+00:00",
+    "what_is_not_verified": "היקף, טיב ואופי ההתערבות הצבאית המצרית הפוטנציאלית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+      "published_at": "2026-10-17T16:49:07+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egyptian-parliament-hold-emergency-session-sisi-seeks-approval-defend",
+      "published_at": "2026-10-17T15:38:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-seeks-parliaments-backing-help-defend-saudi-arabia-if-asked",
+      "published_at": "2026-10-17T14:46:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/sisi-urges-parliament-approve-military-help-saudi-arabia",
+      "published_at": "2026-10-17T14:34:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132055",
+      "published_at": "2026-10-17T09:46:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10172345-06",
+    "title": "הסכם בין איחוד האמירויות לסעודיה לחידוש מימון כוחות נגד החות'ים",
+    "summary": "איחוד האמירויות הסכימה לחדש את מימון הכוחות הנלחמים בחות'ים בדרום תימן, ובתמורה התחייבה סעודיה לספק לאותם כוחות חיפוי אווירי, מתוך מטרה לבלום את התקדמות החות'ים ולצמצם את המחלוקות בין המדינות.",
+    "axis": "הקואליציה האזורית מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T11:57:15+00:00",
+    "last_update_at": "2026-10-17T17:13:02+00:00",
+    "what_is_not_verified": "זהות הכוחות הספציפיים שיקבלו את המימון ומועדי יישום ההסכם בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48638",
+      "published_at": "2026-10-17T17:13:02+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
+      "published_at": "2026-10-17T11:57:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10172345-07",
+    "title": "טענה חות'ית להפלת מסוק קרב סעודי",
+    "summary": "פורסמה טענה שלפיה כוחות החות'ים הפילו מסוק קרב מדגם אפאצ'י השייך לצבא סעודיה.",
+    "axis": "סעודיה – חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T20:34:00+00:00",
+    "last_update_at": "2026-10-17T20:34:00+00:00",
+    "what_is_not_verified": "עצם ההפלה, מיקום האירוע וגורל הצוות לא אושרו בידי מקור רשמי סעודי או צד שלישי בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48649",
+      "published_at": "2026-10-17T20:34:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10172345-08",
+    "title": "דיווחים על שריפות במתקני נפט במזרח סעודיה עקב תקיפה מתימן",
+    "summary": "הופצו דיווחים ותיעודים על שריפות שפרצו במתקני נפט במחוז המזרחי בסעודיה בעקבות תקיפה שיוחסה לכוחות החות'ים.",
+    "axis": "סעודיה – חות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T01:20:43+00:00",
+    "last_update_at": "2026-10-17T01:20:43+00:00",
+    "what_is_not_verified": "היקף הנזק, קיום נפגעים ואימות רשמי של פגיעה ישירה במתקני הנפט באזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48622",
+      "published_at": "2026-10-17T01:20:43+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים על הפלת מסוק קרב סעודי מדגם אפאצ'י",
+   "דיווחים על שריפות במתקני נפט במחוז המזרחי בסעודיה והיקף הנזק בהם",
+   "טענת צבא תימן על נטרול שמונה מאות לוחמים חות'ים והשבתת מאה ותשעים כלי רכב ביממה אחת",
+   "טענות החות'ים על שימוש סעודי בפצצות מצרר בד'מאר",
+   "אופי וממדי הסיוע הצבאי הישראלי שנזכר בהתבטאויות פוליטיות",
+   "זהות שבעת החמושים שתקפו את מכלית הגז סמוך לאל-מוכלא"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת החות'ים (אנצאר אללה)",
+    "declared": [
+     "פגיעה במטרות צבאיות, מפקדות ומחסני נשק של הממשלה בעדן",
+     "תגובה לתקיפות האוויריות של הקואליציה הסעודית"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וביטחוני כבד על סעודיה דרך תקיפת תשתיות נפט, שדות תעופה ומרכזים עירוניים",
+     "שיבוש התנועה הימית והרחבת השליטה הקרקעית ברחבי תימן על חשבון כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך ניסיונות ירי טילים וכטב\"מים לטווחים ארוכים לעבר מתקנים אסטרטגיים במפרץ ובים האדום",
+     "החרפת העימות מול הכוחות הנתמכים בידי סעודיה ואיחוד האמירויות בדרום תימן"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה הערבית",
+    "declared": [
+     "הגנה על שטח הממלכה, יירוט איומי טילים וכטב\"מים ופגיעה בריכוזי כוח של החות'ים",
+     "הסרת האיום מעל נתיבי השיט והיציבות האזורית"
+    ],
+    "inferred": [
+     "מניעת פגיעה בייצוא הנפט ובמרכזים הכלכליים, ובלימת ההתקדמות הקרקעית של החות'ים",
+     "איחוי הקרע המדיני והצבאי עם איחוד האמירויות וגיוס תמיכה מצרית לגיבוי המערכה"
+    ],
+    "forecast": [
+     "הגברת התקיפות האוויריות בתימן בשילוב מתן חיפוי אווירי הדוק יותר לכוחות הקרקע המקומיים",
+     "הידוק שיתוף הפעולה ההגנתי עם מצרים ושותפות אזוריות נוספות להגנה אווירית וימית"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "הגדרת החות'ים כארגון טרור בזירה האזורית והבין-לאומית",
+     "בלימת מתקפות החות'ים והשמדת תשתיותיהם הצבאיות"
+    ],
+    "inferred": [
+     "השגת מימון וחיפוי צבאי מחודש ממדינות המפרץ לייצוב קווי ההגנה בדרום ובמרכז",
+     "מניעת גיוס כוח אדם מקומי על ידי המיליציה החות'ית"
+    ],
+    "forecast": [
+     "ניסיון לייצב את נמלי התעופה והתשתיות בדרום תחת תקיפות חוזרות",
+     "המשך פעילות דיפלומטית לבידוד החות'ים בארגונים מוסלמיים ובינלאומיים"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "נכונות לנקוט בכל האמצעים הנדרשים להגנת ביטחונה ויציבותה של סעודיה אם תתבקש",
+     "פעולה במסגרת הגנתית בלבד ללא כוונה לתקוף או לפתוח במלחמה יזומה"
+    ],
+    "inferred": [
+     "הגנה על האינטרסים הכלכליים הקשורים לחופש השיט בים האדום ולתעלת סואץ",
+     "חיזוק הברית האסטרטגית עם סעודיה ומדינות המפרץ מול איומים אזוריים"
+    ],
+    "forecast": [
+     "אישור הפרלמנט בקהיר למתן מנדט התערבות מותנה לנשיא",
+     "פריסת אמצעי הגנה או כוחות מוגבלים בתיאום ישיר עם ריאד במקרה של החרפת האיום"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-seeks-parliaments-backing-help-defend-saudi-arabia-if-asked",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261017-yemen-s-houthis-claim-responsibility-for-fresh-missile-strike-on-aden-airport",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egyptian-parliament-hold-emergency-session-sisi-seeks-approval-defend",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/sisi-urges-parliament-approve-military-help-saudi-arabia",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154153",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132055",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48622",
+    "accessed_at": "2026-10-17T23:45:25+00:00"
+   }
+  ]
+ }
+}

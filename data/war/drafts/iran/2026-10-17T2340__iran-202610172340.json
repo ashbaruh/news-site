@@ -1,0 +1,316 @@
+{
+ "status": "draft",
+ "received_sha256_12": "453f5a14eedc",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-17T23:40:35+00:00",
+  "window": {
+   "from": "2026-10-16T23:40:35+00:00",
+   "to": "2026-10-17T23:40:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610172340"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתמקד בשיבוש נתיבי השיט במצר הורמוז לצד פגיעה ברשתות המימון והחימוש של שלוחותיה באזור. במקביל לתקיפות ימיות ומתיחות ביטחונית סביב תשתיות אנרגיה במפרץ, ארה\"ב וישראל מקדמות פריסה צבאית ומצור כלכלי על איראן. מנגד, טהראן ממשיכה לקדם את המערך הגרעיני שלה ומצהירה על נכונות למשא ומתן אך ורק בתנאים של כבוד הדדי וערבויות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "הסלמה ימית הכוללת פגיעה במכליות נפט באמצעות מוקשים וניסיונות אבטחה של צבא ארה\"ב."
+   },
+   {
+    "name": "המערכה הכלכלית והפיננסית",
+    "status": "הגברת לחץ הסנקציות האמריקני וסגירת ערוצים פיננסיים של שלוחות איראן בלבנון."
+   },
+   {
+    "name": "החזית הדיפלומטית והגרעינית",
+    "status": "המשך פיתוח מוסדות תעשיית הגרעין האיראנית ומחלוקת סביב חידוש שיחות המשא ומתן עם וושינגטון."
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10172340-01",
+    "title": "פיצוץ מכלית נפט שנייה במיצרי הורמוז כתוצאה ממוקש ימי",
+    "summary": "חיל הים של משמרות המהפכה הודיע על פיצוץ שאירע במכלית ענק שנייה לאחר שפגעה במוקש ימי במצר הורמוז, בעוד הטלוויזיה האיראנית הציגה תיעוד של המקרה.",
+    "axis": "איראן - ארה\"ב/שיט בינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T13:41:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T13:41:49+00:00",
+    "last_update_at": "2026-10-17T20:02:22+00:00",
+    "what_is_not_verified": "לא פורסם אימות עצמאי מעבר להודעת משמרות המהפכה ולשידורי הטלוויזיה האיראנית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+      "published_at": "2026-10-17T20:02:22+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86295178/Second-supertanker-explodes-after-hitting-mine-in-Strait-of-Hormuz",
+      "published_at": "2026-10-17T13:41:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10172340-02",
+    "title": "פיקוד המרכז של ארה\"ב טוען שרוב ניסיונות הפגיעה בשיט בהורמוז סוכלו",
+    "summary": "דובר פיקוד המרכז של צבא ארצות הברית הצהיר כי כמעט כל כלי השיט עוברים במצר הורמוז ללא פגיעה ובליווי אמריקני, וכי ניסיונות משמרות המהפכה לסגור את המצר נכשלים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T18:38:04+00:00",
+    "last_update_at": "2026-10-17T18:38:04+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לנתון של 97 אחוזי הצלחה במעבר כלי שיט תחת הגנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-attacks-hormuz-shipping-unsuccessful-centcom-says-0",
+      "published_at": "2026-10-17T18:38:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10172340-03",
+    "title": "שלילת רישיון פעילות לבנק איראני בלבנון בעקבות לחץ אמריקני",
+    "summary": "שלטונות לבנון ביטלו את רישיון הפעילות של בנק סאדראת האיראני בעקבות לחץ מארצות הברית למניעת מימון חזבאללה.",
+    "axis": "ארה\"ב - לבנון - שלוחות איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T15:48:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T15:48:36+00:00",
+    "last_update_at": "2026-10-17T15:48:36+00:00",
+    "what_is_not_verified": "לא ברור אם סניפי הבנק נסגרו בפועל או שהחלו הליכי פירוק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_fdd",
+      "url": "https://www.longwarjournal.org/archives/2026/10/lebanon-revokes-iranian-banks-license-amid-us-pressure-over-hezbollah-financing.php",
+      "published_at": "2026-10-17T15:48:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10172340-04",
+    "title": "הערכות מודיעין על סיוע איראני לחות'ים בתקיפות במפרץ",
+    "summary": "מקורות מודיעין מצביעים על כך שאיראן מעבירה לחות'ים בתימן מודיעין מטרות שמאפשר להם להוציא לפועל תקיפות מדויקות נגד יעדים בסעודיה ובמפרץ.",
+    "axis": "שלוחות איראן - מדינות המפרץ",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T08:52:24+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T08:52:24+00:00",
+    "last_update_at": "2026-10-17T15:37:16+00:00",
+    "what_is_not_verified": "הטענות מבוססות על תדרוכי מודיעין שמסרו מקורות בעילום שם לוול סטריט ג'ורנל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/article/21644535",
+      "published_at": "2026-10-17T15:37:16+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610178912",
+      "published_at": "2026-10-17T08:52:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10172340-05",
+    "title": "היערכות צבאית אמריקנית וישראלית והפעלת לחץ כלכלי על איראן",
+    "summary": "נושאת מטוסים אמריקנית וכוחות קרב הוצבו באזור על רקע הערכות בישראל ובארה\"ב כי משטר הסנקציות והמצור הכלכלי מקרבים את טהראן לנקודת שבר פנימית.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T05:42:16+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T05:42:16+00:00",
+    "last_update_at": "2026-10-17T08:43:08+00:00",
+    "what_is_not_verified": "מידת השפעתו המדויקת של המצור על יציבות המשטר האיראני ומועד נקודת השבר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/yokra14927532",
+      "published_at": "2026-10-17T08:43:08+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957682",
+      "published_at": "2026-10-17T05:42:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10172340-06",
+    "title": "איראן חונכת מוסד תקנים לתעשייה הגרעינית ודוחה לחצים",
+    "summary": "ראש הארגון לאנרגיה אטומית של איראן חנך בית ספר מיוחד לתקנים גרעיניים, בעוד שר החוץ האיראני הודיע כי המדינה לא תוותר על זכויותיה תחת לחץ אך מוכנה לדיאלוג עם ערבויות.",
+    "axis": "איראן - המערב (גרעין ודיפלומטיה)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:03:32+00:00",
+    "last_update_at": "2026-10-17T13:00:54+00:00",
+    "what_is_not_verified": "פרטי הדרישות האיראניות לקבלת ערבויות בדיאלוג המדיני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_2af408fbb450f1ae",
+      "url": "https://en.irna.ir/news/86295149/Iran-rejects-pressure-remains-open-to-dialogue-Araghchi",
+      "published_at": "2026-10-17T13:00:54+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_57cde19d7dff5895",
+      "url": "https://en.irna.ir/news/86295060/Iran-opens-3rd-Specialized-School-of-Standards-in-Nuclear-Industry",
+      "published_at": "2026-10-17T12:03:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "סגירתם בפועל של סניפי בנק סאדראת או פתיחת הליכי פירוק בלבנון.",
+   "היקף הפגיעה המדויק ורמת ההצלחה של מוקשי חיל הים של משמרות המהפכה במצר הורמוז.",
+   "טענת פיקוד המרכז האמריקני כי תשעים ושבעה אחוזים מכלי השיט עוברים במצר הורמוז ללא פגע.",
+   "מידת ההיתכנות של התפרצות מחאות בתוך איראן עקב המצור הכלכלי בחודשים הקרובים."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על זכויות ריבוניות ודחיית כל כניעה ללחצים חיצוניים.",
+     "המשך קידום היכולות והתקנים של תעשיית הגרעין המקומית."
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ כלכליים על הכלכלה העולמית באמצעות שיבוש מכליות נפט במצר הורמוז.",
+     "שימור רשתות המימון והתמיכה המודיעינית לשלוחותיה בתימן ובלבנון כדי לאיים על יעדי אויב."
+    ],
+    "forecast": [
+     "המשך תקריות ימיות נקודתיות במצר הורמוז תוך שמירה על ערוץ פתוח אפשרי למשא ומתן."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "שמירה על חופש השיט הבינלאומי במצר הורמוז ומניעת סגירתו בידי משמרות המהפכה.",
+     "סיכול רשתות המימון המועברות לחזבאללה דרך מערכת הבנקאות."
+    ],
+    "inferred": [
+     "שימוש במצור כלכלי מתמשך במטרה להוביל לקריסה פנימית או לוויתורים מצד המשטר האיראני.",
+     "הימנעות מכניסה למערכה קרקעית רחבה מחשש לעליית מחירי הדלק ואבדות בקרב חיילים."
+    ],
+    "forecast": [
+     "המשך ליווי צבאי של כלי שיט במפרץ והגברת הסנקציות הפיננסיות מול מוסדות איראניים."
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "הישענות על המנוף הכלכלי והצבאי האמריקני להחלשת יציבות השלטון בטהראן.",
+     "היערכות צבאית למענה תקיף מול איומים ותגובות אפשריות מצידה של איראן."
+    ],
+    "forecast": [
+     "תיאום ביטחוני הדוק עם הכוחות האמריקניים המוצבים באזור מול התפתחויות בחזית מול איראן."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610178912",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86295060/Iran-opens-3rd-Specialized-School-of-Standards-in-Nuclear-Industry",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/article/21644535",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/lebanon-revokes-iranian-banks-license-amid-us-pressure-over-hezbollah-financing.php",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-attacks-hormuz-shipping-unsuccessful-centcom-says-0",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957682",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/yokra14927532",
+    "accessed_at": "2026-10-17T23:40:35+00:00"
+   }
+  ]
+ }
+}
