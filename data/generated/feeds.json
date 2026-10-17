@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-17T16:17:26+00:00",
-  "fetched_at": "2026-10-17T16:17:26+00:00"
+  "checked_at": "2026-10-17T16:27:48+00:00",
+  "fetched_at": "2026-10-17T16:27:48+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T16:17:37+00:00",
-  "fetched_at": "2026-10-17T16:17:37+00:00"
+  "checked_at": "2026-10-17T16:27:59+00:00",
+  "fetched_at": "2026-10-17T16:27:59+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T16:17:37+00:00",
-  "fetched_at": "2026-10-17T16:17:37+00:00"
+  "checked_at": "2026-10-17T16:28:00+00:00",
+  "fetched_at": "2026-10-17T16:28:00+00:00"
  },
- "generated_at": "2026-10-17T16:17:37+00:00",
+ "generated_at": "2026-10-17T16:28:00+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T16:17:27+00:00",
-  "fetched_at": "2026-10-17T16:17:27+00:00"
+  "checked_at": "2026-10-17T16:27:49+00:00",
+  "fetched_at": "2026-10-17T16:27:49+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T16:17:28+00:00",
-  "fetched_at": "2026-10-17T16:17:28+00:00"
+  "checked_at": "2026-10-17T16:27:50+00:00",
+  "fetched_at": "2026-10-17T16:27:50+00:00"
  },
  "tv": {
   "data": [
@@ -2860,8 +2860,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T16:17:30+00:00",
-  "fetched_at": "2026-10-17T16:17:30+00:00"
+  "checked_at": "2026-10-17T16:27:51+00:00",
+  "fetched_at": "2026-10-17T16:27:51+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3028,8 +3028,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T16:17:30+00:00",
-  "fetched_at": "2026-10-17T16:17:30+00:00"
+  "checked_at": "2026-10-17T16:27:51+00:00",
+  "fetched_at": "2026-10-17T16:27:51+00:00"
  },
  "ai": {
   "data": {
@@ -3051,8 +3051,10 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [],
+   "candidates": 5,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
@@ -3072,7 +3074,7 @@
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 88,
+     "likes": 89,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3104,18 +3106,18 @@
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
-     "title": "Krea 2 Turbo Image Generator",
-     "desc_en": "Krea 2 Turbo text2image and image editing",
-     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 136,
-     "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
-    },
-    {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
      "likes": 117,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
+    },
+    {
+     "title": "Krea 2 Turbo Image Generator",
+     "desc_en": "Krea 2 Turbo text2image and image editing",
+     "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
+     "likes": 136,
+     "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
@@ -3127,12 +3129,21 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T16:17:36+00:00",
-  "fetched_at": "2026-10-17T16:17:36+00:00"
+  "checked_at": "2026-10-17T16:27:59+00:00",
+  "fetched_at": "2026-10-17T16:27:59+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "פנדל לזכות רוי רביבו בוטל, אלצ'ה חילצה 0:0 מול ויאריאל",
+     "link": "https://sports.walla.co.il/item/3872357",
+     "date": "2026-10-17T16:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "ווסטהאם וסולומון ניצחו את המוליכה, פרץ הציל את סאות'המפטון",
      "link": "https://sports.walla.co.il/item/3872546",
@@ -3140,15 +3151,6 @@
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "רוי רביבו בהרכב: ויאריאל - אלצ'ה 0:0 (מחצית 2)",
-     "link": "https://sports.walla.co.il/item/3872357",
-     "date": "2026-10-17T15:39:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3470,8 +3472,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-17T16:17:32+00:00",
-  "fetched_at": "2026-10-17T16:17:32+00:00"
+  "checked_at": "2026-10-17T16:27:55+00:00",
+  "fetched_at": "2026-10-17T16:27:55+00:00"
  },
  "idf": {
   "data": [
@@ -3502,58 +3504,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T16:17:33+00:00",
-  "fetched_at": "2026-10-17T16:17:33+00:00"
+  "checked_at": "2026-10-17T16:27:56+00:00",
+  "fetched_at": "2026-10-17T16:27:56+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-17T16:00:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "newest": "2026-10-17T16:15:00+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-17T13:57:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-17T16:02:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "newest": "2026-10-17T16:14:00+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-17T16:15:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "newest": "2026-10-17T16:30:00+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-17T16:15:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-17T14:28:32+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3565,28 +3567,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-17T15:46:25+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-17T11:08:10+00:00",
-    "seen_at": "2026-10-17T16:17:37+00:00",
+    "seen_at": "2026-10-17T16:28:00+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-17T16:17:37+00:00"
+  "checked_at": "2026-10-17T16:28:00+00:00"
  }
 }
