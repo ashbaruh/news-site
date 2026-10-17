@@ -1,0 +1,462 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9301de70f6cf",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1,
+   "assessment": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-17T04:55:27+00:00",
+  "window": {
+   "from": "2026-10-16T04:55:27+00:00",
+   "to": "2026-10-17T04:55:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610170455"
+  },
+  "summary": "המערכה בין איראן לבין ארה\"ב וישראל מתמקדת בלחץ כלכלי וצבאי כבד בנתיבי השיט של מצר הורמוז, לצד סיכול רשתות פיננסיות ופעולות טרור בחו\"ל. ארצות הברית מפעילה סגר ימי שהוביל לחסימת ייצוא נפט איראני בהיקף נרחב, בעוד במרחב הימי נרשמות פגיעות במכליות ממוקשים וצניחה בתנועת הספינות. במקביל, וושינגטון בוחנת אפשרויות תקיפה של אתרי גרעין מבוצרים אך בודקת גם הקלות ממוקדות בצי המכליות כדי לבלום את התייקרות מחירי הדלק בעולם.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "עימות ימי פעיל הכולל סגר צבאי אמריקני, פגיעות מוקשים במכליות וירידה משמעותית בתנועת המסחר"
+   },
+   {
+    "name": "הזירה המדינית והכלכלית הבינלאומית",
+    "status": "מאבק סביב שלילת צינורות מימון ורשתות בנקאיות איראניות בלבנון, לצד איומי תקיפה באתרי גרעין ודיונים על משטר הסנקציות"
+   },
+   {
+    "name": "מערך המבצעים החשאיים באירופה",
+    "status": "סיכול חוליות התנקשות המופעלות בידי גורמי פשיעה בשליחות טהראן נגד מטרות מערביות וישראליות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10170455-01",
+    "title": "פגיעת מוקש ימי במכלית נפט במצר הורמוז",
+    "summary": "מכלית שנשאה מעל שני מיליון חביות נפט עלתה על מוקש ימי ועלתה באש לאחר שניסתה לחצות באזור אסור במצר הורמוז.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T00:00:00+00:00",
+    "last_update_at": "2026-10-17T04:23:06+00:00",
+    "what_is_not_verified": "זהות המכלית ומצבה המדויק מעבר להודעת הצד האיראני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1378030",
+      "published_at": "2026-10-17T04:23:06+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-tanker-passing-hormuz-through-prohibited-route-hits-mine",
+      "published_at": "2026-10-17T02:13:25+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
+      "published_at": "2026-10-17T00:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     },
+     {
+      "name": "ים עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-02",
+    "title": "הטלת סגר ימי אמריקני במצר הורמוז ופגיעה בייצוא הנפט האיראני",
+    "summary": "הפיקוד המרכזי של ארה\"ב והנשיאות האמריקנית הודיעו על סגר ימי שמנע מאיראן לייצא נפט בשווי עשרות מיליארדי דולרים, לצד הקפאת נכסים דיגיטליים וסיוע במעבר מכליות של בנות ברית.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T20:43:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T20:43:00+00:00",
+    "last_update_at": "2026-10-17T02:45:42+00:00",
+    "what_is_not_verified": "נתוני המעבר המדויקים וההיקף הכספי המלא של החסימה אינם מאומתים באופן בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_beda52f7215ff602",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-navy-carrying-out-effective-blockade-iran",
+      "published_at": "2026-10-17T02:45:42+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_beda52f7215ff602",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hormuz-controlled-us-and-allies-not-iran-centcom-chief",
+      "published_at": "2026-10-16T20:43:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-03",
+    "title": "דיווח על תקיפת כלי שיט במרחב מצר הורמוז וירידה בהיקף התנועה הימית",
+    "summary": "גורמי מעקב ימי בריטיים דיווחו על תקיפת שנים-עשר כלי שיט באזור המצר ומפרץ עומאן בתוך שבוע, לצד צניחה חדה בשיעור של שבעים אחוזים בהיקפי התנועה ביחס לתקופה שלפני המלחמה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T05:00:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T05:00:17+00:00",
+    "last_update_at": "2026-10-17T03:12:09+00:00",
+    "what_is_not_verified": "היקף התקיפות המדויק ורמת הנזק בחלק מכלי השיט אינם ניתנים לאימות עקב הימנעות מדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9cae9a77ed79e53a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-most-vessels-dont-report-hormuz-attacks-traffic-70-below-pre",
+      "published_at": "2026-10-17T03:12:09+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_9cae9a77ed79e53a",
+      "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T05:00:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     },
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-04",
+    "title": "מאסר ממושך בבריטניה לנער שגויס בידי רשת המקושרת לאיראן לצורך התנקשות",
+    "summary": "בית משפט בבריטניה גזר עשרים שנות מאסר על אזרח נורבגי בן תשע-עשרה, אשר גויס דרך רשת פשיעה שוודית המופעלת על ידי המשטר בטהראן כדי לבצע חיסול בממלכה.",
+    "axis": "איראן - המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T11:00:37+00:00",
+    "last_update_at": "2026-10-17T03:41:49+00:00",
+    "what_is_not_verified": "זהות היעד המדויק של ההתנקשות בבריטניה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21642472",
+      "published_at": "2026-10-17T03:41:49+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/norwegian-teen-jailed-20-years-uk-murder-plot-after-being-recruited-online",
+      "published_at": "2026-10-16T13:46:27+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610168133",
+      "published_at": "2026-10-16T11:00:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האדרספילד, בריטניה",
+      "lat": 53.6467,
+      "lon": -1.7822
+     },
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-05",
+    "title": "האשמות נשיא איראן בנוגע לפגיעה סביבתית כתוצאה מפעולות צבאיות",
+    "summary": "במהלך כינוס בינלאומי בירבאן, נשיא איראן גינה את המערכה האמריקנית-ישראלית וטען כי הפגיעה בתשתיות ובמערכות האקולוגיות באזור מהווה פשע סביבתי רחב היקף.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T15:19:32+00:00",
+    "last_update_at": "2026-10-17T04:49:36+00:00",
+    "what_is_not_verified": "היקף הפגיעה הסביבתית המדויק באתרי התעשייה והאנרגיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-calls-environmental-destruction-caused-regional-wars-ecocide",
+      "published_at": "2026-10-17T04:49:36+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86294324/Pezeshkian-Environmental-destruction-endangers-future-of-human",
+      "published_at": "2026-10-16T16:32:21+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86294297/President-Pezeshkian-arrives-in-Tehran",
+      "published_at": "2026-10-16T15:19:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירבאן, ארמניה",
+      "lat": 40.1777,
+      "lon": 44.5126
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-06",
+    "title": "בחינת הקלות בסנקציות על צי מכליות הצללים של איראן ורוסיה בארה\"ב",
+    "summary": "גורמי ממשל בארצות הברית דנים באפשרות להסיר מגבלות מחלק מצי הצללים של איראן ורוסיה על מנת למתן את העלייה החדה במחירי הדלק והתובלה הימית לקראת הבחירות.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T20:54:53+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T20:54:53+00:00",
+    "last_update_at": "2026-10-16T20:54:53+00:00",
+    "what_is_not_verified": "האם יאושר מתווה ההקלות ומה יהיה היקפו הסופי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-weighs-lifting-sanctions-irans-shadow-fleet-address-surging-costs",
+      "published_at": "2026-10-16T20:54:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10170455-07",
+    "title": "היערכות צבאית אמריקנית לאפשרות של תקיפת מתקני גרעין תת-קרקעיים באיראן",
+    "summary": "הנשיא האמריקני שלל הצבת כוחות קרקעיים באיראן אך הותיר על הפרק אפשרות לשימוש בחימוש כבד מסוג אם כל הפצצות נגד אתרי גרעין ותשתיות, בהם אתר הר המכוש.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T06:44:53+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T06:44:53+00:00",
+    "last_update_at": "2026-10-16T13:54:40+00:00",
+    "what_is_not_verified": "מידת היעילות של פצצת MOAB מול מתקנים תת-קרקעיים מבוצרים ומועד הביצוע האפשרי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-us-troops-iran-leaves-pickaxe-mountain-strike-table",
+      "published_at": "2026-10-16T13:54:40+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/131998",
+      "published_at": "2026-10-16T06:44:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10170455-08",
+    "title": "שלילת רישיון הפעילות של בנק סאדראת האיראני בלבנון",
+    "summary": "הבנק המרכזי בביירות ביטל את רישיון הפעילות של בנק סאדראת האיראני בעקבות דרישה אמריקנית לפגוע בצינורות המימון של חזבאללה.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T17:02:36+00:00",
+    "last_update_at": "2026-10-16T17:02:36+00:00",
+    "what_is_not_verified": "ההשפעה המעשית של שלילת הרישיון על המשך פעילות רשת הכספים של חזבאללה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/lebanon-revokes-bank-saderats-license-but-hezbollahs-financial-network-remains/",
+      "published_at": "2026-10-16T17:02:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההיקף הכספי המדויק של הנפט שנבלם בידי כוחות ארה\"ב במצר הורמוז",
+   "מספר התקיפות המדויק של כלי שיט במצר הורמוז עקב סירוב ספינות לדווח",
+   "מידת היעילות של פצצת אם כל הפצצות מול מתקני גרעין תת-קרקעיים בהר המכוש",
+   "זהות היעד להתנקשות של הרשת האיראנית בבריטניה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגדרת פעולות ארה\"ב וישראל כפשעים הפוגעים בסביבה ובמשאבי האזור",
+     "הרתעת כלי שיט ממעבר בנתיבים לא מורשים במצר הורמוז",
+     "דחיית האשמות מערביות בדבר מעורבות בפעילות עוינת בחו\"ל"
+    ],
+    "inferred": [
+     "הפעלת לחץ על נתיבי השיט הגלובליים כדי להעלות את עלויות המלחמה עבור המערב",
+     "שימוש ברשתות פשיעה זרות להוצאת פיגועים נגד יעדים ישראליים ומערביים",
+     "המשך הגנה על תשתיות הגרעין המבוצרות"
+    ],
+    "forecast": [
+     "המשך מיקוש ימי ושיבוש תנועת המכליות במפרץ ובמצר הורמוז",
+     "העמקת המאמצים להברחת נפט ועקיפת מנגנוני הפיקוח הפיננסיים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעה מוחלטת מאיראן להשיג נשק גרעיני",
+     "הטלת סגר ימי יעיל ושליטה במצר הורמוז יחד עם שותפות אזוריות",
+     "שלילת הצבת חיילים אמריקנים על אדמת איראן"
+    ],
+    "inferred": [
+     "חניקת הכלכלה האיראנית באמצעות פגיעה מוחלטת בייצוא הנפט והקפאת נכסים",
+     "בחינת איזון בין לחץ על טהראן לבין מניעת משבר אנרגיה עולמי לפני בחירות",
+     "איתות על כוונה להשמיד מתקני גרעין באמצעות חימוש מיוחד"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי לצד בחינת הקלות נקודתיות על מכליות נפט",
+     "הגברת הלחץ הבינלאומי לפירוק ערוצי המימון של שלוחות איראן באזור"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "קריאה להפלת המשטר בטהראן והצגת עמדה תקיפה בפורומים בינלאומיים"
+    ],
+    "inferred": [
+     "המשך שיתוף פעולה מודיעיני ומבצעי עם ארה\"ב לפגיעה ביכולות איראן וגרורותיה",
+     "סיכול תשתיות של חזבאללה ורשתות טרור איראניות בזירה הבינלאומית"
+    ],
+    "forecast": [
+     "המשך תיאום צבאי הדוק עם ארה\"ב לקראת פעולות מנע אפשריות נגד אתרי הגרעין"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-us-troops-iran-leaves-pickaxe-mountain-strike-table",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/lebanon-revokes-bank-saderats-license-but-hezbollahs-financial-network-remains/",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610168133",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86294297/President-Pezeshkian-arrives-in-Tehran",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21642472",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1378030",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-weighs-lifting-sanctions-irans-shadow-fleet-address-surging-costs",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/131998",
+    "accessed_at": "2026-10-17T04:55:27+00:00"
+   }
+  ]
+ }
+}
