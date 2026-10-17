@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-17T10:17:13+00:00",
-  "fetched_at": "2026-10-17T10:17:13+00:00"
+  "checked_at": "2026-10-17T11:17:22+00:00",
+  "fetched_at": "2026-10-17T11:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T10:17:23+00:00",
-  "fetched_at": "2026-10-17T10:17:23+00:00"
+  "checked_at": "2026-10-17T11:17:30+00:00",
+  "fetched_at": "2026-10-17T11:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "I've waited years for a new Apple TV 4K, but I won't be buying the 4th Generation streaming box – here's why",
+    "title_he": "חיכיתי שנים ל-Apple TV 4K חדש, אבל אני לא אקנה את קופסת הסטרימינג של הדור הרביעי - הנה הסיבה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/ive-waited-years-for-a-new-apple-tv-4k-but-i-wont-be-buying-the-4th-generation-streaming-box-heres-why",
+    "date": "2026-10-17T11:08:10+00:00"
+   },
    {
     "title_en": "Now Showing: 4 movies and shows we've been using to show off the newest home cinema products this month",
     "title_he": "מוצגים כעת: 4 סרטים ותוכניות שבהם השתמשנו כדי להשוויץ במוצרי הקולנוע הביתי החדשים החודש",
@@ -69,32 +76,25 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/bowers-and-wilkins-for-aston-martin-dbx-s-2026",
     "date": "2026-10-16T15:29:47+00:00"
-   },
-   {
-    "title_en": "I watched this iconic cinema scene as it's never been seen before – and now you can too",
-    "title_he": "צפיתי בסצנת הקולנוע האיקונית הזו כפי שלא נראתה מעולם - ועכשיו גם אתה יכול",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/i-watched-this-iconic-cinema-scene-as-its-never-been-seen-before-and-now-you-can-too",
-    "date": "2026-10-16T14:27:18+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T10:17:23+00:00",
-  "fetched_at": "2026-10-17T10:17:23+00:00"
+  "checked_at": "2026-10-17T11:17:32+00:00",
+  "fetched_at": "2026-10-17T11:17:32+00:00"
  },
- "generated_at": "2026-10-17T10:17:23+00:00",
+ "generated_at": "2026-10-17T11:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הבכיר לשעבר באפל מסביר איך לשכנע אנשים: \"אל תגידו להם שהם טועים\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559431",
-     "date": "2026-10-17T07:25:00+00:00"
+     "title": "הטרנד שמשגע את ילדי ישראל הוא כבר תעשייה שמגלגלת מיליונים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559439",
+     "date": "2026-10-17T10:25:00+00:00"
     },
     {
      "title": "המשבר באיראן: ארגוני הטרור מעבירים כסף בחזרה למשמרות המהפכה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559825",
-     "date": "2026-10-17T06:49:00+00:00"
+     "date": "2026-10-17T10:28:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T10:17:14+00:00",
-  "fetched_at": "2026-10-17T10:17:14+00:00"
+  "checked_at": "2026-10-17T11:17:23+00:00",
+  "fetched_at": "2026-10-17T11:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T10:17:15+00:00",
-  "fetched_at": "2026-10-17T10:17:15+00:00"
+  "checked_at": "2026-10-17T11:17:24+00:00",
+  "fetched_at": "2026-10-17T11:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2862,8 +2862,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T10:17:16+00:00",
-  "fetched_at": "2026-10-17T10:17:16+00:00"
+  "checked_at": "2026-10-17T11:17:25+00:00",
+  "fetched_at": "2026-10-17T11:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3030,8 +3030,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T10:17:16+00:00",
-  "fetched_at": "2026-10-17T10:17:16+00:00"
+  "checked_at": "2026-10-17T11:17:25+00:00",
+  "fetched_at": "2026-10-17T11:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -3053,10 +3053,8 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "candidates": 7,
+   "failed_sources": [],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
@@ -3097,28 +3095,28 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 330,
+     "likes": 331,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 70,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 130,
+     "likes": 132,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 113,
+     "likes": 115,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     },
     {
@@ -3131,8 +3129,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T10:17:22+00:00",
-  "fetched_at": "2026-10-17T10:17:22+00:00"
+  "checked_at": "2026-10-17T11:17:30+00:00",
+  "fetched_at": "2026-10-17T11:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3474,15 +3472,15 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-17T10:17:18+00:00",
-  "fetched_at": "2026-10-17T10:17:18+00:00"
+  "checked_at": "2026-10-17T11:17:28+00:00",
+  "fetched_at": "2026-10-17T11:17:28+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "חשד לפיגוע דריסה בשומרון: המחבל נמלט מהמקום",
-    "link": "https://www.walla.co.il/news/military/383957764",
-    "date": "2026-10-17T09:17:10+00:00"
+    "title": "מרוץ החימוש של צה\"ל מגיע לחלל: היכולות החדשות שבדרך",
+    "link": "https://www.walla.co.il/news/military/383957542",
+    "date": "2026-10-17T10:34:53+00:00"
    },
    {
     "title": "על רקע ריבוי אירועי הפשיעה הלאומנית: צה״ל יתגבר כוחות ביהודה ושומרון",
@@ -3506,91 +3504,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T10:17:19+00:00",
-  "fetched_at": "2026-10-17T10:17:19+00:00"
+  "checked_at": "2026-10-17T11:17:28+00:00",
+  "fetched_at": "2026-10-17T11:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-17T08:21:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T10:28:00+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-17T08:33:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T10:30:00+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-17T09:50:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T10:27:00+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-17T09:43:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T10:28:00+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-17T09:17:10+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T10:34:53+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-17T09:17:36+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-17T07:55:16+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-16T11:00:30+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-17T08:30:00+00:00",
-    "seen_at": "2026-10-17T10:17:23+00:00",
+    "newest": "2026-10-17T11:08:10+00:00",
+    "seen_at": "2026-10-17T11:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-17T10:17:23+00:00"
+  "checked_at": "2026-10-17T11:17:32+00:00"
  }
 };
