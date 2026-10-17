@@ -1,0 +1,473 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ff0a6e98a661",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 6,
+   "shared_root": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-17T13:54:20+00:00",
+  "window": {
+   "from": "2026-10-16T13:54:20+00:00",
+   "to": "2026-10-17T13:54:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610171354"
+  },
+  "summary": "רוסיה מגבירה את התקיפות על תשתיות האנרגיה באוקראינה בניסיון להשבית את מערכות החשמל והמים בערים הגדולות לקראת החורף, לצד המשך הלחימה הקרקעית במזרח ובדרום. מנגד, אוקראינה מבצעת פשיטות כטבמים נרחבות נגד יעדים צבאיים, מתקני ייצור ונמלי תעופה בעומק שטח רוסיה. במקביל, נרשמת מתיחות משמעותית עקב הגבלות תפעוליות על מערך הלוויינים סטארלינק והחלטת הממשל בארצות הברית להשהות חלק מהסנקציות על מוסקבה.",
+  "fronts": [
+   {
+    "name": "חזית דונייצק ודוברופיליה",
+    "status": "לחימה פעילה וטענות סותרות על כיבוש יישובים"
+   },
+   {
+    "name": "חזית זפוריז'יה (הוליאיפולה)",
+    "status": "היתקלויות מקומיות ודיווחים על פשעי מלחמה נגד שבויים"
+   },
+   {
+    "name": "חזית חרסון ונהר הדנייפרו",
+    "status": "חילופי אש ארטילריים ופעילות כטבמים הדדית לאורך הנהר"
+   },
+   {
+    "name": "עומק שטח רוסיה",
+    "status": "תקיפות כטבמים אוקראיניות מרובות נגד בסיסים, מפעלים ותעופה אזרחית"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10171354-01",
+    "title": "אוקראינה פגעה במפעל כטבמים ובמחסן תחמושת ברוסיה",
+    "summary": "המטה הכללי של צבא אוקראינה אישר כי כוחות המגן תקפו את מפעל הפיתוח והייצור של כטבמים רובואביה במחוז רוסטוב ומחסן אספקה של חטיבת טילים במחוז בריאנסק.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T12:40:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:40:00+00:00",
+    "last_update_at": "2026-10-17T12:40:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק באתרים שהותקפו לא צוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175442-ukraines-defense-forces-strike-russian-drone-facility-missile-brigade-supply-depot.html",
+      "published_at": "2026-10-17T12:40:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10171354-02",
+    "title": "השבתת טיסות במוסקבה ובסנקט פטרבורג בעקבות תקיפת רחפנים",
+    "summary": "נמלי התעופה במוסקבה ובסנקט פטרבורג השביתו ועיכבו מאות טיסות עקב איום כטבמים אוקראיניים, כאשר ראש עיריית מוסקבה טען כי 140 רחפנים יורטו.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T18:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:46:00+00:00",
+    "last_update_at": "2026-10-17T12:46:00+00:00",
+    "what_is_not_verified": "מספר הכטבמים שיורטו בפועל נמסר מפי ראש עיריית מוסקבה בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058508/",
+      "published_at": "2026-10-17T12:46:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-03",
+    "title": "דיווח על הוצאה להורג של שבויים אוקראינים במחוז זפוריז'יה",
+    "summary": "גורם צבאי אוקראיני דיווח כי חיילים רוסים מחטיבת חיל רגלים ממוכן הוציאו להורג שני שבויי מלחמה אוקראינים פצועים ולא חמושים בחזית הוליאיפולה.",
+    "axis": "זפוריז'יה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T12:04:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:04:00+00:00",
+    "last_update_at": "2026-10-17T12:04:00+00:00",
+    "what_is_not_verified": "זהות ההרוגים ומספרם המדויק מסתמכים על יירוט קשר רדיו אוקראיני בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058504/",
+      "published_at": "2026-10-17T12:04:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10171354-04",
+    "title": "הגבלות מהירות על רשת סטארלינק באוקראינה",
+    "summary": "מהירות הגישה לרשת סטארלינק באוקראינה הוגבלה, דבר שמקשה על הכוחות האוקראיניים ליירט כטבמים מסוג שאהד בעלי מנוע סילון ולנהל מבצעים בשטח, בעוד גורמים בארהב מכחישים מעורבות ישירה במתן ההוראה.",
+    "axis": "הזירה האווירית והטכנולוגית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T18:01:19+00:00",
+    "last_update_at": "2026-10-17T13:18:00+00:00",
+    "what_is_not_verified": "זהות הגורם שנתן את ההוראה להטלת המגבלות והאם אילון מאסק או הממשל האמריקאי עומדים מאחוריה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175451-ukraine-loses-ability-to-use-starlink-to-shoot-down-jetpowered-shaheds-zelensky.html",
+      "published_at": "2026-10-17T13:18:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/planned-operation-zelensky-confirms-ukraines-starlink-access-not-fully-restored/",
+      "published_at": "2026-10-17T11:55:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48619",
+      "published_at": "2026-10-16T19:37:37+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T19:33:48+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/16/trump-denies-ordering-restrictions-on-ukraine-s-military-starlink-service-and-says-he-doesn-t-think-elon-musk-did-either",
+      "published_at": "2026-10-16T18:45:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+      "published_at": "2026-10-16T18:01:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-05",
+    "title": "השהיית סנקציות אמריקאיות על רוסיה והתנגדות אוקראינית",
+    "summary": "נשיא ארצות הברית דונלד טראמפ חתם על צו המשהה שורה של סנקציות כלכליות על רוסיה משיקולי ביטחון לאומי, מהלך שגרר ביקורת חריפה מצד נשיא אוקראינה ושר ההגנה האיטלקי.",
+    "axis": "מדיני וסנקציות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T23:54:35+00:00",
+    "last_update_at": "2026-10-17T13:28:41+00:00",
+    "what_is_not_verified": "לא מאומת האם הממשל האמריקאי יסיר סנקציות נוספות בעתיד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+      "published_at": "2026-10-17T13:28:41+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/putin-feels-joy-zelensky-calls-trumps-waiving-of-key-russia-sanctions-wrong/",
+      "published_at": "2026-10-17T12:14:26+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T11:56:06+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-puts-new-russia-sanctions-passed-by-congress-on-hold-amid-deepening-row-with-ukraine",
+      "published_at": "2026-10-17T02:53:38+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T23:54:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-06",
+    "title": "רוסיה מתכננת מתקפות לפגיעה בתשתיות האנרגיה לקראת החורף",
+    "summary": "מסמכים ודיווחים מצביעים על תוכנית רוסית לתקוף תחנות כוח ואספקת חשמל, חום ומים בערים מרכזיות באוקראינה כדי להביא לכניעתה טרם עונת החורף.",
+    "axis": "הזירה האווירית והעורף האוקראיני",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T12:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T12:00:00+00:00",
+    "last_update_at": "2026-10-17T13:28:41+00:00",
+    "what_is_not_verified": "היקף החימושים המדויק שרוסיה תפעיל בפועל וסיכויי הצלחת התוכנית",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+      "published_at": "2026-10-17T13:28:41+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/16/russia-plans-winter-strikes-to-cut-off-electricity-heat-and-water-in-kyiv-kharkiv-and-odesa-to-force-ukraine-s-surrender-nyt-reports",
+      "published_at": "2026-10-16T18:16:05+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168614",
+      "published_at": "2026-10-16T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-07",
+    "title": "חבילת סיוע שוודית לרשת האנרגיה האוקראינית",
+    "summary": "שוודיה הכריזה על חבילת תמיכה כספית בסך חמש מאות מיליון קרונות המיועדת בעיקר לתיקונים דחופים ברשתות החשמל ומערכות החימום באוקראינה.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:21:00+00:00",
+    "last_update_at": "2026-10-17T12:21:00+00:00",
+    "what_is_not_verified": "מועד הגעת הציוד בפועל ליעדו באוקראינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058505/",
+      "published_at": "2026-10-17T12:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סטוקהולם, שוודיה",
+      "lat": 59.3251,
+      "lon": 18.0711
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-08",
+    "title": "הכחשת כיבוש יישובים במחוז דונייצק",
+    "summary": "כוחות המשמר הלאומי האוקראיני אזוב הכחישו את טענות הצד הרוסי בדבר השתלטות על היישובים זולוטי קולודיאז', נובוטרויצקה ופטריבקה.",
+    "axis": "דונבאס",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T11:58:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T11:58:00+00:00",
+    "last_update_at": "2026-10-17T11:58:00+00:00",
+    "what_is_not_verified": "המצב הקרקעי המדויק באותם יישובים שנוי במחלוקת בין הצדדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175428-azov-regiment-denies-russian-claims-of-capturing-three-settlements-near-dobropillia.html",
+      "published_at": "2026-10-17T11:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוברופיליה, מחוז דונייצק, אוקראינה",
+      "lat": 48.4683,
+      "lon": 37.0903
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10171354-09",
+    "title": "מעצר שוטרי גבול אוקראינים בשטח מולדובה",
+    "summary": "שני אנשי משמר הגבול של אוקראינה נעצרו על ידי משטרת הגבולות של מולדובה לאחר שחצו את נהר הדנייסטר בעת מרדף אחר אזרח שנמלט מאוקראינה.",
+    "axis": "גבול אוקראינה-מולדובה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T11:19:05+00:00",
+    "last_update_at": "2026-10-17T11:19:05+00:00",
+    "what_is_not_verified": "נסיבות ההגעה לגדה המולדובית שנויות במחלוקת בין טענת חצייה יזומה לטענת תקלה במנוע וגרירה בידי אזרחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48625",
+      "published_at": "2026-10-17T11:19:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הולושניצה, מולדובה",
+      "lat": 48.2517,
+      "lon": 28.1786
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת רוסיה על כיבוש היישובים זולוטי קולודיאז', נובוטרויצקה ופטריבקה",
+   "הטענה כי סרטון שבויים אוקראינים בדונייצק מבוים על ידי חיילים רוסים",
+   "מעורבות ישירה של הבית הלבן או אילון מאסק במתן ההוראה להגבלת מהירות סטארלינק",
+   "כוונת רוסיה להציב מערכות טילים בליסטיים בשטח בלארוס",
+   "מספר הכטבמים המדויק שיורט מעל שמי מוסקבה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1253,
+    "unit": "USD",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "יצירת אזור ביטחון לאורך הגבול שאינו פתוח למשא ומתן"
+    ],
+    "inferred": [
+     "השמדת רשת האנרגיה והחום של אוקראינה כדי לכפות עליה כניעה בחורף",
+     "החלשת הלחץ הכלכלי באמצעות הפשרת נכסים והסרת סנקציות דרך מדינות שותפות"
+    ],
+    "forecast": [
+     "המשך מיקוד התקיפות האוויריות בתחנות כוח ומערכות מים בערים מרכזיות",
+     "העמקת הלחץ הצבאי בדונבאס תוך שימוש בכטבמים וחימושים מדויקים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת טילי פטריוט נוספים מאירופה ופיתוח תוכניות הגנה מפני טילים",
+     "הגנה על הריבונות והמשך פעולות התקפיות בעומק שטח האויב"
+    ],
+    "inferred": [
+     "שימור תמיכת בעלות הברית באירופה לנוכח צמצום הסיוע והסרת סנקציות מצד ארהב",
+     "פגיעה בשרשראות האספקה והייצור של מערך הכטבמים והטילים הרוסי"
+    ],
+    "forecast": [
+     "מאמצים דחופים לשיקום תשתיות החשמל והשגת מענה חלופי להגבלות התקשורת",
+     "החרפת המחאה והלחץ הפנימי בערים עקב קשיי אספקת האנרגיה בחורף"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/putin-feels-joy-zelensky-calls-trumps-waiving-of-key-russia-sanctions-wrong/",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/16/russia-plans-winter-strikes-to-cut-off-electricity-heat-and-water-in-kyiv-kharkiv-and-odesa-to-force-ukraine-s-surrender-nyt-reports",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058505/",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48625",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4175428-azov-regiment-denies-russian-claims-of-capturing-three-settlements-near-dobropillia.html",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168614",
+    "accessed_at": "2026-10-17T13:54:20+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4657434769bf",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "initial": 6,
+   "shared_root": 5,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-17T13:55:24+00:00",
+  "window": {
+   "from": "2026-10-16T13:55:24+00:00",
+   "to": "2026-10-17T13:55:24+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610171355"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בהמשך פעילות צבאית ישראלית מקומית הכוללת אש ארטילרית, גיחות רחפנים ושיגורי יירוט בדרום לבנון, לצד תנועת כוחות קרקעיים מוגבלת בדרום סוריה. במקביל, רשויות המדינה בלבנון מגבירות את האכיפה והלחץ המשפטי והמוסדי נגד תשתיות חזבאללה והשפעת איראן, בעוד ארצות הברית דוחפת לשינויי חקיקה ביחס לקשרים עם ישראל. בציר המדיני והכלכלי, גורמים בינלאומיים וערביים, בהם צרפת וקטר, מקדמים פרויקטים של תשתיות והסדרים ביטחוניים עתידיים להחלפת כוחות יוניפי\"ל.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות אש ישראלית יומיומית הכוללת ירי ארטילרי, תקיפות רחפנים ושיגור מיירטים מול נוכחות כוחות בשטח"
+   },
+   {
+    "name": "דרום סוריה",
+    "status": "תנועת רכבי סיור צבאיים של צה\"ל במחוז דרעא, איסוף אווירי ומתיחות סביב דרישות לפיקוח האו\"ם במחוז קוניטרה"
+   },
+   {
+    "name": "פנים לבנון והמערכת הפוליטית",
+    "status": "החרפת החיכוך בין מנגנוני הביטחון והמשפט הלבנוניים לבין חזבאללה בעקבות תפיסת אמצעי לחימה וסגירת ערוצי מימון איראניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10171355-01",
+    "title": "חדירת כלי רכב צבאיים ישראליים לאזור דרעא בדרום סוריה",
+    "summary": "שני כלי רכב צבאיים של ישראל נכנסו למרחב ואדי אל-רוקאד במערב מחוז דרעא, במקביל לפעילות של כלי טיס בלתי מאויש לאיסוף מודיעין.",
+    "axis": "דרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T12:50:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:50:32+00:00",
+    "last_update_at": "2026-10-17T12:50:32+00:00",
+    "what_is_not_verified": "לא פורסמו פרטים נוספים או אימות רשמי על יעד הפעילות ומשכה מעבר לדיווח בסוכנות הידיעות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-enter-western-daraa-countryside-in-southern-syria/4091982",
+      "published_at": "2026-10-17T12:50:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ואדי אל-רוקאד, סוריה",
+      "lat": 32.8011,
+      "lon": 35.8268
+     },
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-02",
+    "title": "תקיפות והפגזות של צה\"ל בדרום לבנון",
+    "summary": "הפגזות ארטילריות, ירי טנקים ואש מקלעים בוצעו לעבר עיירות ושטחים פתוחים בדרום לבנון, בהם חדאת'א, אל-מנצורי, עיתא אל-ג'בל ועמק אל-חג'יר, לצד פיצוץ סמוך למוסד דתי ותנועת רק\"ם.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T09:00:45+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T09:00:45+00:00",
+    "last_update_at": "2026-10-17T09:00:45+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לכלל המיקומים ולנזקים שנגרמו כתוצאה מהאש המדווחת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a6a60e0ebed53d4d",
+      "url": "https://english.almanar.com.lb/article/139207/",
+      "published_at": "2026-10-17T09:00:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.1561,
+      "lon": 35.3912
+     },
+     {
+      "name": "עיתא אל-ג'בל, לבנון",
+      "lat": 33.1745,
+      "lon": 35.4094
+     },
+     {
+      "name": "תולין, לבנון",
+      "lat": 33.2544,
+      "lon": 35.4399
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-03",
+    "title": "הטלת פצצות מרחפן ישראלי על מבנה במיפדון",
+    "summary": "רחפן ישראלי הטיל פצצות על מבנה בכפר מיפדון שבנפת א-נבטיה בדרום לבנון; הפצצה הראשונה לא התפוצצה והשנייה התפוצצה, וצבא לבנון פעל לנטרול הנפל.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T14:01:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T14:01:54+00:00",
+    "last_update_at": "2026-10-16T14:23:17+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים במבנה שהותקף.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48605",
+      "published_at": "2026-10-16T14:23:17+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132025",
+      "published_at": "2026-10-16T14:01:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיפדון, לבנון",
+      "lat": 33.3451,
+      "lon": 35.4741
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-04",
+    "title": "שיגור מיירטים לעבר מטרת שווא בדרום לבנון",
+    "summary": "שני מיירטים שוגרו לעבר מטרה שהתבררה כמטרת שווא במרחב שבו פועלים כוחות צה\"ל בדרום לבנון, ללא הפעלת התרעות.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T16:33:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T16:33:01+00:00",
+    "last_update_at": "2026-10-16T16:59:04+00:00",
+    "what_is_not_verified": "מהות האות שהביא לזיהוי הראשוני כמטרה חשודה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132031",
+      "published_at": "2026-10-16T16:59:04+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25392",
+      "published_at": "2026-10-16T16:57:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132030",
+      "published_at": "2026-10-16T16:34:57+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25391",
+      "published_at": "2026-10-16T16:33:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10171355-05",
+    "title": "הוצאת צווי מעצר בלבנון לבכירים בחזבאללה בעקבות תפיסת משאית נפץ",
+    "summary": "התובע הכללי בלבנון הוציא צווי מעצר לבכירים בחזבאללה, בהם ראש ועדת הקישור חסין עבדאללה ועוזרו, לאחר שנתפסה משאית ובה שמונה מאות קילוגרמים של חומרי נפץ בדרכה מבעלבכ לדאחיה בביירות.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T08:17:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T08:17:22+00:00",
+    "last_update_at": "2026-10-17T08:17:22+00:00",
+    "what_is_not_verified": "החשד כי חומר הנפץ יועד לביצוע התנקשויות בתוך לבנון טרם אומת בהליך שיפוטי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132046",
+      "published_at": "2026-10-17T08:17:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-06",
+    "title": "עימות וחילוקי דעות בין חזבאללה לגורמי ביטחון באזור גלרי סמעאן",
+    "summary": "חמושים מטעם חזבאללה כיתרו סיור של מחלקת החקירות הפליליות של לבנון, ונסוגו עם הגעת צבא לבנון; חזבאללה הכחיש כל קשר למחסן שנבדק וטען כי הפעולה נעשתה בניגוד למנגנון התיאום.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T12:01:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T12:01:33+00:00",
+    "last_update_at": "2026-10-16T13:55:24+00:00",
+    "what_is_not_verified": "תוכן המחסן והגורמים המדויקים המחזיקים בו.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb3f0d25ec960f0a",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963227/hezbollah-clarifies-gallery-semaan-incident-denies-links-to-warehouse/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963227",
+      "published_at": "2026-10-16T13:45:12+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb3f0d25ec960f0a",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963212/lebanese-army-intervenes-after-armed-hezbollah-members-surround-crimin/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963212",
+      "published_at": "2026-10-16T12:01:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10171355-07",
+    "title": "שלילת רישיון הפעילות של בנק סאדראת האיראני בלבנון",
+    "summary": "נגיד הבנק המרכזי של לבנון הודיע על שלילת רישיונו של בנק סאדראת האיראני כדי להגן על המערכת הבנקאית במדינה מפני סנקציות מצד ארצות הברית.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T17:07:13+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T17:07:13+00:00",
+    "last_update_at": "2026-10-16T17:07:13+00:00",
+    "what_is_not_verified": "אין מחלוקת על שלילת הרישיון; הערכות לגבי היעדר השפעה כלכלית מתבססות על ניתוח מומחה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/avoiding-sanctions-lebanon-revokes-bank-saderat-irans-license",
+      "published_at": "2026-10-16T17:07:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-08",
+    "title": "לחץ אמריקאי לביטול חוק החרם על ישראל בלבנון",
+    "summary": "שר החוץ האמריקאי העלה בשיחה עם נשיא לבנון דרישה לבטל או לשנות את חוק החרם על ישראל מ-1955 ולקדם ערוץ תקשורת צבאי ישיר בין המדינות, בעקבות תלונה משפטית נגד שגרירת לבנון בוושינגטון.",
+    "axis": "לבנון - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T14:15:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T14:15:00+00:00",
+    "last_update_at": "2026-10-16T16:26:02+00:00",
+    "what_is_not_verified": "האם התקיימה בפועל פנייה ישירה בין שגרירת לבנון לשגריר ישראל, שכן נשיא לבנון הכחיש זאת והתיק נסגר מחוסר ראיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/us-pressures-lebanon-scrap-israel-boycott-laws",
+      "published_at": "2026-10-16T16:26:02+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963199/lebanons-1955-israel-boycott-law-why-is-the-us-raising-it-now/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963199",
+      "published_at": "2026-10-16T14:15:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-09",
+    "title": "קידום מיזם אנרגיה וחשמל קטארי ללבנון דרך סוריה",
+    "summary": "לבנון וקטר סיכמו על הכנת מזכר הבנות לפרויקט אספקת חשמל וגז טבעי מתוצרת חברת יו-סי-סי הקטארית דרך שטח סוריה, לצד בחינת חיבור עתידי של קווי נפט.",
+    "axis": "לבנון - קטר - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T12:53:30+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T12:53:30+00:00",
+    "last_update_at": "2026-10-17T11:37:09+00:00",
+    "what_is_not_verified": "לוחות הזמנים ליישום והיכולת להזרים חשמל וגז בפועל דרך שטח סוריה ללא מכשולים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21643674",
+      "published_at": "2026-10-17T11:37:09+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/qatar-seeks-to-activate-joint-energy-projects-with-lebanon-urges-israeli-withdrawal/4091562",
+      "published_at": "2026-10-16T21:35:48+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/qatar-announces-project-develop-lebanons-electricity-sector",
+      "published_at": "2026-10-16T14:59:16+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/qatar-pm-beirut-lebanon-seeks-economic-relief-what-know",
+      "published_at": "2026-10-16T14:03:57+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963219/sources-to-lbci-lebanon-qatar-move-forward-with-electricity-project-to/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963219",
+      "published_at": "2026-10-16T12:53:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "דיר עמאר, לבנון",
+      "lat": 34.462,
+      "lon": 35.8994
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-10",
+    "title": "האשמות סוריות נגד ישראל בנושא הדרוזים בא-סווידאא",
+    "summary": "גורם בממשלת סוריה דחה את הצהרות ראש ממשלת ישראל על שיחה עם נשיא סוריה בעת אירועי יולי 2025, והאשים את ישראל בניצול הדרוזים לצורכי תעמולת בחירות ובחימוש מליציה מקומית ליצירת תסיסה.",
+    "axis": "סוריה - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T17:04:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-16T17:04:39+00:00",
+    "last_update_at": "2026-10-17T10:56:50+00:00",
+    "what_is_not_verified": "דמשק לא אישרה ולא הכחישה את עצם קיום השיחה הטלפונית בין נתניהו לא-שרע, וטענות חימוש המליציה לא אומתו באופן בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132059",
+      "published_at": "2026-10-17T10:56:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132058",
+      "published_at": "2026-10-17T10:32:55+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-rejects-israeli-politicisation-suweidas-druze",
+      "published_at": "2026-10-16T17:04:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידאא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     },
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-11",
+    "title": "פניית מושל קוניטרה לכוח האו\"ם לתיעוד הפרות ישראליות",
+    "summary": "מושל קוניטרה בסוריה קרא לכוח המשקיפים של האו\"ם לתעד הפרות של ישראל בגזרה על מנת להגן על האוכלוסייה המקומית.",
+    "axis": "דרום סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T12:16:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:16:41+00:00",
+    "last_update_at": "2026-10-17T12:16:41+00:00",
+    "what_is_not_verified": "תגובת כוח האו\"ם או היקף ההפרות המוצהרות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-s-quneitra-governor-urges-un-force-to-document-israeli-violations/4091954",
+      "published_at": "2026-10-17T12:16:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10171355-12",
+    "title": "ביקור שרי החוץ וההגנה של צרפת בביירות",
+    "summary": "שרי החוץ וההגנה של צרפת הגיעו ללבנון לדיונים עם הנשיא ומפקד הצבא על הנוכחות הבינלאומית בדרום המדינה לאחר תום מנדט יוניפי\"ל ויישום הסכם המסגרת עם ישראל.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T08:10:52+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T08:10:52+00:00",
+    "last_update_at": "2026-10-17T08:10:52+00:00",
+    "what_is_not_verified": "פרטי הסיכומים שיושגו במהלך השיחות עם ההנהגה הלבנונית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963310/french-foreign-and-defense-ministers-arrive-in-lebanon-for-talks-on-se/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963310",
+      "published_at": "2026-10-17T08:10:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10171355-13",
+    "title": "ממצאים המעכבים חידוש טיסות ישירות מארצות הברית לביירות",
+    "summary": "דוח של סוכנות התעופה האזרחית הבינלאומית של האו\"ם הצביע על ליקויים בנמל התעופה הבינלאומי בביירות והיעדר אישור תקף, דבר המעכב את המהלך האמריקאי לחידוש טיסות ישירות.",
+    "axis": "לבנון",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T14:30:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-16T14:30:34+00:00",
+    "last_update_at": "2026-10-16T21:48:05+00:00",
+    "what_is_not_verified": "משך העיכוב עד להשלמת דרישות הבטיחות על ידי הרשויות בלבנון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/us-move-restart-direct-flights-lebanon-hits-roadblock",
+      "published_at": "2026-10-16T21:48:05+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/exclusive-trump-move-restart-direct-us-flights-lebanon-hits-roadblock",
+      "published_at": "2026-10-16T16:46:29+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963236/trump-move-to-restart-direct-us-flights-with-lebanon-hits-roadblock-re/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963236",
+      "published_at": "2026-10-16T14:30:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת ראש ממשלת ישראל על שיחה טלפונית חריפה עם נשיא סוריה ביולי 2025 שהביאה להפסקת הטבח בא-סווידאא לא אושרה בדמשק",
+   "טענות ממשלת סוריה כי ישראל חימשה מליציה מקומית כדי לחולל אי-שקט בדרום המדינה",
+   "החשד כי משאית חומרי הנפץ שנתפסה בלבנון יועדה לפעולות התנקשות פוליטיות",
+   "הטענה כי שגרירת לבנון בוושינגטון קיימה מגע ישיר עם שגריר ישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת טבח באוכלוסייה הדרוזית בדרום סוריה ופגיעה בתשתיות צבאיות בסוריה בעת איום",
+     "יירוט מטרות אוויריות חשודות לשמירה על שלום כוחותיה הפועלים בדרום לבנון"
+    ],
+    "inferred": [
+     "שימור חופש פעולה מבצעי ואיסופי ברצועת הגבול בדרום לבנון ובדרום סוריה",
+     "קידום נורמליזציה ותקשורת צבאית ישירה עם לבנון תוך שימוש במנופי לחץ אמריקאיים"
+    ],
+    "forecast": [
+     "המשך פעילות אכיפה נקודתית ואש ארטילרית לסיכול התבססות חמושים בסמוך לגבול הצפון",
+     "הגברת החיכוך המדיני מול סוריה בנוגע לשליטה ולמעורבות במחוזות הדרומיים"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "הכחשת מעורבות בפעילות של מחסנים ומתקנים אזרחיים בביירות ודרישה להקפדה על מנגנוני התיאום הביטחוניים"
+    ],
+    "inferred": [
+     "ניסיון לשמר את מלאי אמצעי הלחימה וחומרי הנפץ בלבנון חרף הגברת הפיקוח של מנגנוני הביטחון",
+     "התנגדות עזה לנורמליזציה ולכל שינוי בחוקי החרם הלבנוניים כלפי ישראל"
+    ],
+    "forecast": [
+     "המשך חיכוך סמוי וגלוי עם מערכת המשפט והצבא בלבנון סביב ניסיונות פירוק נכסי הארגון"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "חקירת הברחות חומרי הנפץ, אכיפת החוק על ידי כוחות הביטחון והגנה על המערכת הבנקאית מסנקציות זרות",
+     "הסדרת נוכחות בינלאומית חלופית ליוניפי\"ל בדרום המדינה ושיקום תשתיות החשמל בסיוע קטר"
+    ],
+    "inferred": [
+     "שאיפה לצמצם את האחיזה והעצמאות הביטחונית של חזבאללה בביירות ובדרום המדינה",
+     "איזון בין דרישות ארצות הברית לרפורמות ביטחוניות ומדיניות לבין שמירה על יציבות פנימית"
+    ],
+    "forecast": [
+     "החרפת המתח הפוליטי הפנימי בעקבות צעדים משפטיים וכלכליים נגד מוקדי כוח של חזבאללה"
+    ]
+   },
+   {
+    "actor": "ממשלת סוריה",
+    "declared": [
+     "שמירה על מעמדם של הדרוזים בא-סווידאא כחלק בלתי נפרד מסוריה ודחיית כל התערבות ישראלית",
+     "קריאה לגורמי האו\"ם לתעד הפרות צבאיות ישראליות במחוז קוניטרה"
+    ],
+    "inferred": [
+     "בלימת הניסיונות הישראליים ליצור אזור השפעה או בריתות עדתיות בדרום המדינה",
+     "הסתייעות במיזמי אנרגיה אזוריים עם קטר ולבנון לחיזוק מעמדה כנתיב מעבר חיוני"
+    ],
+    "forecast": [
+     "המשך תלונות דיפלומטיות ודרישה לערבויות בינלאומיות לנוכח כניסות ישראליות לאזור החיץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/139207/",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/exclusive-trump-move-restart-direct-us-flights-lebanon-hits-roadblock",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-s-quneitra-governor-urges-un-force-to-document-israeli-violations/4091954",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21643674",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/963236/trump-move-to-restart-direct-us-flights-with-lebanon-hits-roadblock-re/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963236",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/us-move-restart-direct-flights-lebanon-hits-roadblock",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132058",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48605",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25391",
+    "accessed_at": "2026-10-17T13:55:24+00:00"
+   }
+  ]
+ }
+}

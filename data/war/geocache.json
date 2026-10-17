@@ -518,6 +518,10 @@
 48.468,
 35.0418
 ],
+"dobropillia, donetsk oblast, ukraine": [
+48.4683,
+37.0903
+],
 "doha, qatar": [
 25.2856,
 51.5264
@@ -569,6 +573,7 @@
 25.1245,
 56.3355
 ],
+"gallery semaan, lebanon": null,
 "gdansk, poland": [
 54.3707,
 18.613
@@ -650,6 +655,10 @@
 14.7979,
 42.9545
 ],
+"holosnita, moldova": [
+48.2517,
+28.1786
+],
 "holubivka, ukraine": [
 48.6414,
 38.6479
@@ -682,6 +691,7 @@
 47.6655,
 36.2657
 ],
+"huliaipole, zaporizhzhia oblast, ukraine": null,
 "ibb, yemen": [
 13.9702,
 44.1779
@@ -1569,6 +1579,10 @@
 59.9387,
 30.3162
 ],
+"stockholm, sweden": [
+59.3251,
+18.0711
+],
 "strait of hormuz": [
 26.4494,
 56.2028
@@ -1763,6 +1777,10 @@
 35.8268
 ],
 "wadi al-ruqad, syria": null,
+"wadi al-ruqqad, syria": [
+32.8011,
+35.8268
+],
 "wadi al-salouqi, lebanon": null,
 "wadi slouki, lebanon": null,
 "wadi zibqin, lebanon": null,
