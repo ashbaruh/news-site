@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:09:20+00:00",
-  "fetched_at": "2026-10-18T18:09:20+00:00"
+  "checked_at": "2026-10-18T18:17:19+00:00",
+  "fetched_at": "2026-10-18T18:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:09:30+00:00",
-  "fetched_at": "2026-10-18T18:09:30+00:00"
+  "checked_at": "2026-10-18T18:17:35+00:00",
+  "fetched_at": "2026-10-18T18:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:09:30+00:00",
-  "fetched_at": "2026-10-18T18:09:30+00:00"
+  "checked_at": "2026-10-18T18:17:35+00:00",
+  "fetched_at": "2026-10-18T18:17:35+00:00"
  },
- "generated_at": "2026-10-18T18:09:30+00:00",
+ "generated_at": "2026-10-18T18:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-10-18T18:00:00+00:00"
     },
     {
-     "title": "מנכ\"ל חברת ברן הודיע על כוונתו לסיים את תפקידו",
+     "title": "מנכ\"ל קבוצת ברן הודיע על כוונתו לסיים את תפקידו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559967",
      "date": "2026-10-18T17:57:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:09:21+00:00",
-  "fetched_at": "2026-10-18T18:09:21+00:00"
+  "checked_at": "2026-10-18T18:17:20+00:00",
+  "fetched_at": "2026-10-18T18:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:09:21+00:00",
-  "fetched_at": "2026-10-18T18:09:21+00:00"
+  "checked_at": "2026-10-18T18:17:21+00:00",
+  "fetched_at": "2026-10-18T18:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2764,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:09:23+00:00",
-  "fetched_at": "2026-10-18T18:09:23+00:00"
+  "checked_at": "2026-10-18T18:17:24+00:00",
+  "fetched_at": "2026-10-18T18:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2896,8 +2896,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:09:23+00:00",
-  "fetched_at": "2026-10-18T18:09:23+00:00"
+  "checked_at": "2026-10-18T18:17:24+00:00",
+  "fetched_at": "2026-10-18T18:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2910,16 +2910,16 @@ window.DB.generated = {
      "title": "\"אמא ואבא שוב משחקים יפה ביחד\": מטא ואפל משתפות פעולה בהשקת מודל AI פתוח חדש"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-     "date": "2026-10-15T19:00:00+00:00",
+     "source": "Anthropic",
+     "link": "https://www.anthropic.com/news/public-benefit-fund",
+     "date": "2026-10-18T12:00:00+00:00",
      "launch": false,
-     "title_en": "Bringing GPT-Rosalind to academic research labs",
-     "title_he": "הבאת GPT-Rosalind למעבדות מחקר אקדמיות",
+     "title_en": "Investing in the public benefit",
+     "title_he": "השקעה לטובת הציבור",
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
+   "candidates": 6,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2997,8 +2997,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:09:29+00:00",
-  "fetched_at": "2026-10-18T18:09:29+00:00"
+  "checked_at": "2026-10-18T18:17:33+00:00",
+  "fetched_at": "2026-10-18T18:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3339,8 +3339,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:09:25+00:00",
-  "fetched_at": "2026-10-18T18:09:25+00:00"
+  "checked_at": "2026-10-18T18:17:28+00:00",
+  "fetched_at": "2026-10-18T18:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -3371,8 +3371,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:09:26+00:00",
-  "fetched_at": "2026-10-18T18:09:26+00:00"
+  "checked_at": "2026-10-18T18:17:29+00:00",
+  "fetched_at": "2026-10-18T18:17:29+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3380,49 +3380,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-18T17:57:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-18T18:05:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-18T17:55:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-18T16:20:36+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3434,28 +3434,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-18T15:52:47+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-18T07:00:00+00:00",
-    "seen_at": "2026-10-18T18:09:30+00:00",
+    "seen_at": "2026-10-18T18:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T18:09:30+00:00"
+  "checked_at": "2026-10-18T18:17:35+00:00"
  }
 };
