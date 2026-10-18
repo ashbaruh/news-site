@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-18",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T02:17:12+00:00",
-  "fetched_at": "2026-10-18T02:17:12+00:00"
+  "checked_at": "2026-10-18T03:17:24+00:00",
+  "fetched_at": "2026-10-18T03:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T02:17:20+00:00",
-  "fetched_at": "2026-10-18T02:17:20+00:00"
+  "checked_at": "2026-10-18T03:17:36+00:00",
+  "fetched_at": "2026-10-18T03:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,69 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T02:17:20+00:00",
-  "fetched_at": "2026-10-18T02:17:20+00:00"
+  "checked_at": "2026-10-18T03:17:37+00:00",
+  "fetched_at": "2026-10-18T03:17:37+00:00"
  },
- "generated_at": "2026-10-18T02:17:20+00:00",
+ "generated_at": "2026-10-18T03:17:37+00:00",
  "globes": {
   "data": {
    "top": [
+    {
+     "title": "\"עומדת להיות הפתעה\": הסוקר שמשוכנע שהוא פענח את הבוחר הישראלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559705",
+     "date": "2026-10-18T02:27:00+00:00"
+    },
+    {
+     "title": "שר החוץ מרקו רוביו: מוטרד מהתמונות של אלימות מתנחלים בגדה המערבית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559830",
+     "date": "2026-10-18T02:26:00+00:00"
+    }
+   ],
+   "market": [
+    {
+     "title": "עסקת הענק שמלמדת על השווי האמיתי של אפליקציות השידוכים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559831",
+     "date": "2026-10-18T03:15:00+00:00"
+    },
+    {
+     "title": "אני בן 35, איך אדע אם אני חוסך היום מספיק כסף לפנסיה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559754",
+     "date": "2026-10-18T02:41:00+00:00"
+    },
+    {
+     "title": "כולם רוצים לקחת ביס: כך מרוויחים מנהלי האופציות מהאקזיטים של עובדי ההייטק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559760",
+     "date": "2026-10-18T02:40:00+00:00"
+    },
+    {
+     "title": "ספרד ביטלה הסכם עם אלביט, ונתקעה בלי תותחים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559324",
+     "date": "2026-10-18T02:35:00+00:00"
+    },
     {
      "title": "הפער החריג בין שכירות לקנייה מלמד: שוק הנדל\"ן האמריקאי במסלול התרסקות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559752",
      "date": "2026-10-17T18:00:00+00:00"
     },
     {
-     "title": "תקיפת הדיפלומטים בבנימין: הצבא עודכן לפני התקיפה - \"תגיעו מהר\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559825",
-     "date": "2026-10-17T19:00:00+00:00"
-    }
-   ],
-   "market": [
+     "title": "״סולידריות עם ישראל״: המיליארדר ג׳ון פולסון מכריז על תרומת ענק לאוניברסיטה העברית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559828",
+     "date": "2026-10-17T17:51:00+00:00"
+    },
     {
-     "title": "צרפת בוערת: המחאות האלימות מסלימות, מפגינים פרצו לבניין העירייה במרסיי",
+     "title": "האיש שנלחם במגייסים הנוכלים, מודעה אחר מודעה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559429",
+     "date": "2026-10-17T16:15:00+00:00"
+    },
+    {
+     "title": "צרפת בוערת: רבבות יצאו לרחובות, מפגינים הסתערו על בניין העירייה במרסיי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559829",
      "date": "2026-10-17T13:57:00+00:00"
+    },
+    {
+     "title": "מנהל ההשקעות שמזהיר משני סקטורים - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559654",
+     "date": "2026-10-17T13:00:00+00:00"
     },
     {
      "title": "מיליוני דולרים על עלייה בפחד: בוול סטריט חוששים שהטלטלה לא הסתיימה",
@@ -152,11 +192,6 @@
      "date": "2026-10-15T16:46:00+00:00"
     },
     {
-     "title": "צרפת במשבר חוב, ונורות אדומות נדלקות בטוקיו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559780",
-     "date": "2026-10-15T16:20:00+00:00"
-    },
-    {
      "title": "הטיל החדש שמכסה את כל ארה\"ב, אוסטרליה והמזרח התיכון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559669",
      "date": "2026-10-15T15:59:00+00:00"
@@ -165,16 +200,6 @@
      "title": "בכיר בבנק הפועלים: \"אולי המשקיעים מניחים שגם המשבר הבא ייראה כמו הקודם\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559791",
      "date": "2026-10-15T15:31:00+00:00"
-    },
-    {
-     "title": "אל על ודוראל נכנסות לראשונה למדד ת\"א 35, ומי יוצא?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559789",
-     "date": "2026-10-15T15:00:00+00:00"
-    },
-    {
-     "title": "אופקו הודיעה שתמכור נכסים נוספים מרשת המעבדות תמורת 722 מיליון דולר. המניה זינקה בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559713",
-     "date": "2026-10-15T14:50:00+00:00"
     },
     {
      "title": "נעילה מעורבת בתל אביב: מניות הבנייה קפצו, מניות השבבים נפלו",
@@ -190,32 +215,12 @@
      "title": "הריבית ירדה, האינפלציה נחלשה: האם הקרנות הכספיות עדיין משתלמות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559552",
      "date": "2026-10-15T12:42:00+00:00"
-    },
-    {
-     "title": "הדולר נסחר בשיא של חצי שנה מול השקל. אלו הסיבות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559653",
-     "date": "2026-10-15T10:32:00+00:00"
-    },
-    {
-     "title": "ספטמבר בקרנות ההשתלמות: אלטשולר שחם חזר לתחתית, אלו הגופים שבראש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559649",
-     "date": "2026-10-15T08:45:00+00:00"
-    },
-    {
-     "title": "ארה\"ב גובה \"תג מחיר\" מספרד בעקבות החרם על ישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559644",
-     "date": "2026-10-15T08:42:00+00:00"
-    },
-    {
-     "title": "מהי \"אם כל הפצצות\" ולמה בוושינגטון שוב שוקלים להשתמש בה נגד איראן?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559622",
-     "date": "2026-10-15T05:27:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T02:17:12+00:00",
-  "fetched_at": "2026-10-18T02:17:12+00:00"
+  "checked_at": "2026-10-18T03:17:25+00:00",
+  "fetched_at": "2026-10-18T03:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T02:17:13+00:00",
-  "fetched_at": "2026-10-18T02:17:13+00:00"
+  "checked_at": "2026-10-18T03:17:26+00:00",
+  "fetched_at": "2026-10-18T03:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2713,8 +2718,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T02:17:14+00:00",
-  "fetched_at": "2026-10-18T02:17:14+00:00"
+  "checked_at": "2026-10-18T03:17:28+00:00",
+  "fetched_at": "2026-10-18T03:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2831,8 +2836,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T02:17:14+00:00",
-  "fetched_at": "2026-10-18T02:17:14+00:00"
+  "checked_at": "2026-10-18T03:17:28+00:00",
+  "fetched_at": "2026-10-18T03:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2877,7 +2882,7 @@
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -2902,18 +2907,18 @@
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
-     "title": "Qwen 2511 + Flux.2 klein 9B",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 125,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
-    },
-    {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
      "likes": 337,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 klein 9B",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
+     "likes": 125,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
@@ -2932,8 +2937,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T02:17:20+00:00",
-  "fetched_at": "2026-10-18T02:17:20+00:00"
+  "checked_at": "2026-10-18T03:17:35+00:00",
+  "fetched_at": "2026-10-18T03:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -3275,8 +3280,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T02:17:16+00:00",
-  "fetched_at": "2026-10-18T02:17:16+00:00"
+  "checked_at": "2026-10-18T03:17:31+00:00",
+  "fetched_at": "2026-10-18T03:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3307,58 +3312,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T02:17:17+00:00",
-  "fetched_at": "2026-10-18T02:17:17+00:00"
+  "checked_at": "2026-10-18T03:17:32+00:00",
+  "fetched_at": "2026-10-18T03:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-17T19:00:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "newest": "2026-10-18T03:15:00+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "newest": "2026-10-18T02:41:00+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-17T13:57:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "newest": "2026-10-18T03:15:00+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-17T21:20:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-17T19:35:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-17T21:00:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "newest": "2026-10-18T03:00:00+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-17T14:28:32+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3370,28 +3375,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-17T15:46:25+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-17T23:30:00+00:00",
-    "seen_at": "2026-10-18T02:17:20+00:00",
+    "seen_at": "2026-10-18T03:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T02:17:20+00:00"
+  "checked_at": "2026-10-18T03:17:37+00:00"
  }
 }
