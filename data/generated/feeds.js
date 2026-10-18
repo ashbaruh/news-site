@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:17:19+00:00",
-  "fetched_at": "2026-10-18T18:17:19+00:00"
+  "checked_at": "2026-10-18T19:17:23+00:00",
+  "fetched_at": "2026-10-18T19:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:17:35+00:00",
-  "fetched_at": "2026-10-18T18:17:35+00:00"
+  "checked_at": "2026-10-18T19:17:41+00:00",
+  "fetched_at": "2026-10-18T19:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:17:35+00:00",
-  "fetched_at": "2026-10-18T18:17:35+00:00"
+  "checked_at": "2026-10-18T19:17:41+00:00",
+  "fetched_at": "2026-10-18T19:17:41+00:00"
  },
- "generated_at": "2026-10-18T18:17:35+00:00",
+ "generated_at": "2026-10-18T19:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הרמטכ\"ל החליט: עוצר יציאות בצה\"ל ביום הבחירות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559830",
-     "date": "2026-10-18T16:22:00+00:00"
+     "date": "2026-10-18T18:45:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:17:20+00:00",
-  "fetched_at": "2026-10-18T18:17:20+00:00"
+  "checked_at": "2026-10-18T19:17:25+00:00",
+  "fetched_at": "2026-10-18T19:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:17:21+00:00",
-  "fetched_at": "2026-10-18T18:17:21+00:00"
+  "checked_at": "2026-10-18T19:17:26+00:00",
+  "fetched_at": "2026-10-18T19:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2764,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:17:24+00:00",
-  "fetched_at": "2026-10-18T18:17:24+00:00"
+  "checked_at": "2026-10-18T19:17:31+00:00",
+  "fetched_at": "2026-10-18T19:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2896,8 +2896,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:17:24+00:00",
-  "fetched_at": "2026-10-18T18:17:24+00:00"
+  "checked_at": "2026-10-18T19:17:31+00:00",
+  "fetched_at": "2026-10-18T19:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2919,7 +2919,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 5,
    "failed_sources": [
     "Google DeepMind"
    ],
@@ -2928,7 +2928,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 649,
+     "likes": 650,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2956,7 +2956,7 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     },
     {
@@ -2974,18 +2974,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
+     "title": "Qwen-Image-2.1-Turbo",
+     "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
+     "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
+     "likes": 100,
+     "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
+    },
+    {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
      "likes": 68,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
-    },
-    {
-     "title": "Qwen-Image-2.1-Turbo",
-     "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
-     "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 99,
-     "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     },
     {
      "title": "MiniMax-H3 360° Orbit LoRA",
@@ -2997,8 +2997,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:17:33+00:00",
-  "fetched_at": "2026-10-18T18:17:33+00:00"
+  "checked_at": "2026-10-18T19:17:40+00:00",
+  "fetched_at": "2026-10-18T19:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3022,11 +3022,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "אבו פאני שוב כבש: שער שלישי העונה בכוכב האדום",
+     "title": "אבו פאני כבש במדי הכוכב האדום, תאי עבד בישל",
      "link": "https://www.one.co.il/Article/536372.html?ref=rss",
      "date": "2026-10-18T15:50:00+00:00",
      "source": "ONE",
      "players": [
+      "תאי עבד",
       "מוחמד אבו פאני"
      ]
     },
@@ -3049,11 +3050,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "צפו: מוחמד אבו פאני חגג שער שלישי בליגה הסרבית",
+     "title": "צפו: מוחמד אבו פאני חגג שער שלישי, בישול לתאי עבד",
      "link": "https://sports.walla.co.il/item/3872726",
      "date": "2026-10-18T13:31:00+00:00",
      "source": "וואלה",
      "players": [
+      "תאי עבד",
       "מוחמד אבו פאני"
      ]
     },
@@ -3339,8 +3341,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T18:17:28+00:00",
-  "fetched_at": "2026-10-18T18:17:28+00:00"
+  "checked_at": "2026-10-18T19:17:35+00:00",
+  "fetched_at": "2026-10-18T19:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3371,58 +3373,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T18:17:29+00:00",
-  "fetched_at": "2026-10-18T18:17:29+00:00"
+  "checked_at": "2026-10-18T19:17:36+00:00",
+  "fetched_at": "2026-10-18T19:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "newest": "2026-10-18T18:59:00+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-18T17:57:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "newest": "2026-10-18T19:00:00+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-18T18:05:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "newest": "2026-10-18T18:19:00+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-18T17:55:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "newest": "2026-10-18T19:00:00+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-18T16:20:36+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3434,28 +3436,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-18T15:52:47+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-18T07:00:00+00:00",
-    "seen_at": "2026-10-18T18:17:35+00:00",
+    "seen_at": "2026-10-18T19:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T18:17:35+00:00"
+  "checked_at": "2026-10-18T19:17:41+00:00"
  }
 };
