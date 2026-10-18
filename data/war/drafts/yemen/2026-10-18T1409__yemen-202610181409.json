@@ -1,0 +1,443 @@
+{
+ "status": "draft",
+ "received_sha256_12": "48bf8a0c55ac",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-18T14:09:33+00:00",
+  "window": {
+   "from": "2026-10-17T14:09:33+00:00",
+   "to": "2026-10-18T14:09:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610181409"
+  },
+  "summary": "העימות בתימן וסביבה מחריף עם קריסת הפסקת האש, כאשר החות'ים מגבירים מתקפות לעבר יעדים אסטרטגיים בעומק סעודיה ולצד גבולה הדרומי, לצד חידוש קרבות קרקעיים מול כוחות הממשלה. בתגובה, סעודיה מקדמת שיתופי פעולה אזוריים ומודיעיניים, בין היתר מול מצרים וגורמים נוספים, במטרה לייצב את מערכי ההגנה. במקביל, נרשמים איומים וחיכוכי ירי בנתיבי השיט הסמוכים לחופי תימן.",
+  "fronts": [
+   {
+    "name": "גבול סעודיה–תימן",
+    "status": "הסלמה בעקבות אובדן מסוק סעודי וחילופי אש מתמשכים באזור נג'ראן"
+   },
+   {
+    "name": "עומק סעודיה",
+    "status": "כוננות ושיבוש שגרה בריאד עקב פגיעות קודמות בשדות תעופה ומתקני נפט"
+   },
+   {
+    "name": "דרום תימן (לחג' ותעז)",
+    "status": "חידוש קרבות יבשתיים עזים בין כוחות הממשלה לחות'ים המלווים בנפגעים"
+   },
+   {
+    "name": "הזירה הימית לחופי תימן",
+    "status": "תקריות ירי וניסיונות תקיפה של חמושים נגד כלי שיט מסחריים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10181409-01",
+    "title": "התרסקות או הפלת מסוק צבאי סעודי סמוך לגבול תימן",
+    "summary": "מסוק צבאי של הקואליציה הסעודית התרסק באזור נג'ראן ושני אנשי צוותו נהרגו. הקואליציה הודיעה כי ההתרסקות אירעה כתוצאה מכשל טכני, בעוד שדובר החות'ים טען כי כוחותיהם יירטו והפילו את המסוק.",
+    "axis": "גבול סעודיה–תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T20:34:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T20:34:00+00:00",
+    "last_update_at": "2026-10-18T13:21:28+00:00",
+    "what_is_not_verified": "קיימת מחלוקת בין הצדדים באשר לסיבת ההתרסקות, האם מדובר בתקלה טכנית או ביירוט חות'י, וכן לגבי דגם המסוק המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/saudi-chopper-pilots-killed-riyadh-landmark-tower-closes-offices-amid-houthi-fighting",
+      "published_at": "2026-10-18T13:21:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-landmark-closes-offices-chopper-pilots-killed-near-yemen",
+      "published_at": "2026-10-18T10:30:19+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+      "published_at": "2026-10-18T08:16:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48649",
+      "published_at": "2026-10-17T20:34:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ראן, סעודיה",
+      "lat": 17.544,
+      "lon": 44.2247
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10181409-02",
+    "title": "הנחיה לעבודה מרחוק במגדל מרכז הממלכה בריאד בעקבות מתקפות",
+    "summary": "הנהלת גורד השחקים מרכז הממלכה בריאד הורתה לעובדי המשרדים במבנה לעבור לעבודה מרחוק באופן מידי עד להודעה חדשה, ברקע מתקפות חוזרות של החות'ים לעבר יעדים בסעודיה.",
+    "axis": "עומק סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T10:30:19+00:00",
+    "last_update_at": "2026-10-18T13:21:28+00:00",
+    "what_is_not_verified": "ההנהלה לא פירטה בהודעתה את הסיבה הישירה להחלטה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/saudi-chopper-pilots-killed-riyadh-landmark-tower-closes-offices-amid-houthi-fighting",
+      "published_at": "2026-10-18T13:21:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-landmark-closes-offices-chopper-pilots-killed-near-yemen",
+      "published_at": "2026-10-18T10:30:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10181409-03",
+    "title": "קרבות עזים ואבדות בין כוחות ממשלת תימן לחות'ים בדרום המדינה",
+    "summary": "התחדשות חילופי אש ועימותים קרקעיים בין כוחות הממשלה לחות'ים בדרום תימן; שמונה מחיילי הממשלה נהרגו בקרב בחזית מחוז לחג', וכוחות הממשלה טענו להריגת חות'ים באזור תעז.",
+    "axis": "דרום תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T02:17:36+00:00",
+    "last_update_at": "2026-10-18T06:13:11+00:00",
+    "what_is_not_verified": "מספר הנפגעים מקרב החות'ים מבוסס על טענת כוחות הממשלה בלבד ולא אומת באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eight-yemeni-government-forces-killed-battle-houthis",
+      "published_at": "2026-10-18T02:17:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10181409-04",
+    "title": "תקרית ירי לעבר מכלית גז מול חופי אל-מוכלא",
+    "summary": "חמושים בסירה קטנה ירו לעבר מכלית גז נוזלי ששטה מול חופי העיר אל-מוכלא בתימן. צוות האבטחה החמוש של המכלית השיב בירי אזהרה ואילץ את התוקפים לשנות כיוון.",
+    "axis": "הזירה הימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T04:56:38+00:00",
+    "last_update_at": "2026-10-18T06:13:11+00:00",
+    "what_is_not_verified": "זהות התוקפים בסירה והשיוך הארגוני שלהם אינם ידועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-attacked-people-skiff-yemen-ukmto-says",
+      "published_at": "2026-10-18T04:56:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מוכלא, תימן",
+      "lat": 14.5425,
+      "lon": 49.1231
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10181409-05",
+    "title": "שחרור עצורים בידי החות'ים בפיקוח בין-לאומי",
+    "summary": "הרשויות החות'יות שחררו קבוצה של מאה חמישים ותשעה בני אדם שהיו עצורים על רקע הלחימה בתימן, בליווי ובפיקוח של הוועד הבין-לאומי של הצלב האדום.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T04:08:09+00:00",
+    "last_update_at": "2026-10-18T06:13:11+00:00",
+    "what_is_not_verified": "מעמדם של העצורים והאם השחרור היה חד-צדדי במסגרת חנינה או כחלק מעסקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-release-159-people-under-amnesty-under-icrc-watch",
+      "published_at": "2026-10-18T04:08:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10181409-06",
+    "title": "יוזמה מצרית לאישור התערבות צבאית להגנת סעודיה",
+    "summary": "נשיא מצרים פנה לפרלמנט בבקשה לכנס דיון דחוף כדי לאשר התערבות צבאית להגנה על סעודיה ומתקניה אם תתבקש לכך, לאור החרפת המתקפות מצד החות'ים.",
+    "axis": "הקואליציה האזורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T14:34:00+00:00",
+    "last_update_at": "2026-10-18T11:09:23+00:00",
+    "what_is_not_verified": "היקף ואופי הסיוע הצבאי המצרי המעשי במידה שיאושר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypt-says-ready-give-saudi-arabia-necessary-support",
+      "published_at": "2026-10-18T11:09:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132117",
+      "published_at": "2026-10-18T11:02:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-seeks-parliaments-backing-help-defend-saudi-arabia-if-asked",
+      "published_at": "2026-10-17T14:46:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/sisi-urges-parliament-approve-military-help-saudi-arabia",
+      "published_at": "2026-10-17T14:34:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10181409-07",
+    "title": "דיווח על שיתוף פעולה מודיעיני ישראלי עם סעודיה נגד החות'ים",
+    "summary": "פורסם כי מערכת הביטחון הישראלית מספקת סיוע מודיעיני לסעודיה לצורך התרעה, גיבוש מטרות ובניית תמונת מצב ביחס לפעילות החות'ים וקשריהם עם איראן.",
+    "axis": "ישראל–סעודיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T15:44:38+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T15:44:38+00:00",
+    "last_update_at": "2026-10-18T05:22:49+00:00",
+    "what_is_not_verified": "הפרטים וההיקף של שיתוף הפעולה לא אושרו רשמית בידי המדינות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957784",
+      "published_at": "2026-10-18T05:22:49+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94682",
+      "published_at": "2026-10-17T15:44:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10181409-08",
+    "title": "דיווח על חידוש התיאום בין סעודיה לאיחוד האמירויות בתימן",
+    "summary": "לפי דיווח, איחוד האמירויות הסכימה לחדש מימון כוחות מקומיים הנאמנים לממשלה בדרום תימן, בעוד סעודיה התחייבה להעניק להם חיפוי אווירי לבלימת התקדמות החות'ים.",
+    "axis": "דרום תימן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T17:13:02+00:00",
+    "last_update_at": "2026-10-17T17:13:02+00:00",
+    "what_is_not_verified": "קיומו של ההסכם וההתחייבויות המבצעיות לא קיבלו אישור רשמי מריאד או מאבו דאבי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48638",
+      "published_at": "2026-10-17T17:13:02+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "סיבת נפילת המסוק הצבאי בנג'ראן: האם יירוט בידי החות'ים או תקלה טכנית",
+   "טענות כוחות הממשלה בדבר הריגת שנים עשר לוחמים חות'ים בתעז",
+   "ההיקף המעשי והאופי המבצעי של הסיוע הצבאי המצרי המוצע לסעודיה",
+   "דיווחים אודות הסכם רשמי בין סעודיה לאיחוד האמירויות לחלוקת מימון וחיפוי אווירי",
+   "דיווחים בדבר סיוע מודיעיני ישראלי פעיל לסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "המשך פגיעה במטרות צבאיות ותשתיות בסעודיה ובאזורי הגבול"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומדיני על סעודיה דרך איום על ריאד ומתקני נפט",
+     "הרחבת השליטה הקרקעית במחוזות דרום תימן על חשבון כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר סעודיה לצד התנגשויות לאורך קווי העימות"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "שמירה על ביטחון הממלכה והגנה על שטחיה ואתריה"
+    ],
+    "inferred": [
+     "בניית מעטפת הגנה ובריתות אזוריות עם מצרים ומדינות נוספות לבלימת האיום",
+     "צמצום נזקים כלכליים ושיבושי תעופה על ידי יירוט ואיסוף מודיעיני מוגבר"
+    ],
+    "forecast": [
+     "העמקת התיאום המודיעיני והצבאי עם שותפות אזוריות והגברת פעילות אווירית"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן",
+    "declared": [
+     "קריאה למועצת הביטחון לגנות את ההסלמה החות'ית והגנה על שטחי הדרום"
+    ],
+    "inferred": [
+     "ניסיון לגייס תמיכה בין-לאומית וסיוע מחודש ממדינות המפרץ לבלימת החות'ים"
+    ],
+    "forecast": [
+     "המשך עימותים מקומיים מול החות'ים סביב צירי שליטה בלחג' ותעז"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "התייצבות לצד סעודיה ונכונות להעניק סיוע להגנת ביטחונה, שטחה ומקומותיה הקדושים"
+    ],
+    "inferred": [
+     "הגנה על האינטרסים האסטרטגיים במרחב ים סוף ומניעת ערעור היציבות האזורית"
+    ],
+    "forecast": [
+     "אישור מהלכי תמיכה הגנתיים בפרלמנט והימנעות ממעורבות התקפית ישירה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-seeks-parliaments-backing-help-defend-saudi-arabia-if-asked",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-release-159-people-under-amnesty-under-icrc-watch",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/sisi-urges-parliament-approve-military-help-saudi-arabia",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132117",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48638",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94682",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957784",
+    "accessed_at": "2026-10-18T14:09:33+00:00"
+   }
+  ]
+ }
+}

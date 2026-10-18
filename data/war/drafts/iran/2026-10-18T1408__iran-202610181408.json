@@ -1,0 +1,467 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c7ecece71dc6",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 1,
+   "shared_root": 4,
+   "assessment": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-18T14:08:28+00:00",
+  "window": {
+   "from": "2026-10-17T14:08:28+00:00",
+   "to": "2026-10-18T14:08:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610181408"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין ברמת מתיחות גבוהה ובכוננות צבאית הדדית, על רקע חסימת מצר הורמוז והשפעותיה הכלכליות הגלובליות. המשטר בטהראן מינה שר הגנה חדש בעל רקע בתעשיית הטילים, תוך איומים בתגובה נרחבת לכל תקיפה וניסיונות להתנות את הסדרי השיט, בעוד וושינגטון דורשת מניעה מוחלטת של חידוש תוכנית הגרעין. במקביל נרשמת היערכות לפעולות מנע ישראליות ולחצים אזוריים לבלימת ההשפעה והמימון הצבאי של איראן לשלוחותיה.",
+  "fronts": [
+   {
+    "name": "חזית מצר הורמוז והסחר הימי במפרץ",
+    "status": "משבר פעיל וחסימת שיט המלווה בהצעות איראניות לפתיחה מותנית בת שבעה ימים ופגיעות בכלי שיט"
+   },
+   {
+    "name": "חזית איראן - ארה\"ב וישראל",
+    "status": "כוננות צבאית גבוהה לקראת סבב תקיפות נוסף, חילופי איומים והתבטאויות סביב עתיד פרויקט הגרעין"
+   },
+   {
+    "name": "חזית שלוחות איראן בלבנון ובאזור",
+    "status": "לחצים כלכליים ומדיניים לניתוק נתיבי המימון והחימוש מאיראן לחזבאללה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10181408-01",
+    "title": "אישור מינויו של שר ההגנה האיראני החדש מהרדאד אח'לאקי",
+    "summary": "הפרלמנט של איראן אישר ברוב קולות את מינויו של מהרדאד אח'לאקי קתאבצ'י לתפקיד שר ההגנה, במקומו של עזיז נסירזאדה שנהרג בפעולות לחימה מול ארה\"ב וישראל.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T08:27:56+00:00",
+    "last_update_at": "2026-10-18T13:29:33+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לכלל הטענות על הרקע המדויק ומערך הפיתוח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21650733",
+      "published_at": "2026-10-18T13:29:33+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
+      "published_at": "2026-10-18T12:00:04+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://en.irna.ir/news/86296123/Pezeshkian-Parliament-s-approval-of-defense-minister-nominee",
+      "published_at": "2026-10-18T11:05:30+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://www.iranintl.com/en/202610188034",
+      "published_at": "2026-10-18T09:54:31+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-parliament-approves-mehrdad-akhlaqi-minister-defence",
+      "published_at": "2026-10-18T09:46:26+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_7800730bb22b7f61",
+      "url": "https://en.irna.ir/news/86295883/Pezeshkian-backs-defense-minister-nominee-says-expertise-can",
+      "published_at": "2026-10-18T08:53:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_0e7e75ede88aa02d",
+      "url": "https://t.me/abualiexpress/132112",
+      "published_at": "2026-10-18T08:27:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10181408-02",
+    "title": "הצהרות ואיומים מצד שר ההגנה האיראני הנכנס כלפי ארה\"ב וישראל",
+    "summary": "שר ההגנה החדש של איראן הצהיר על כוונתו לשקם את התעשיות הצבאיות, לחזק את בעלות בריתה באזור ואיים בתגובה חריפה ומפתיעה על כל מהלך צבאי של ארה\"ב או נשיאה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T09:46:58+00:00",
+    "last_update_at": "2026-10-18T12:46:22+00:00",
+    "what_is_not_verified": "מידת המוכנות הצבאית המעשית של אמצעי הלחימה והמטוסים שהוזכרו אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_9ce97876ac0bcf89",
+      "url": "https://t.me/abualiexpress/132125",
+      "published_at": "2026-10-18T12:46:22+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_9ce97876ac0bcf89",
+      "url": "https://www.ynet.co.il/news/article/rk9zgef3me",
+      "published_at": "2026-10-18T12:44:09+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9ce97876ac0bcf89",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-new-defence-minister-issues-warning-us",
+      "published_at": "2026-10-18T09:59:56+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_9ce97876ac0bcf89",
+      "url": "https://en.irna.ir/news/86295995/Defense-minister-undermines-Trump-s-new-anti-Iran-threats",
+      "published_at": "2026-10-18T09:46:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10181408-03",
+    "title": "הצעת איראן להסדר פתיחת מצר הורמוז ומגעים דיפלומטיים מול ארה\"ב",
+    "summary": "שר החוץ של איראן הצהיר על הצעה מטעמה לפתיחת מצר הורמוז בתוך שבעה ימים הכוללת שבעה תנאים, תוך העברת מסרים דרך קטאר וטענות על שיחות מוקדמות בתיווך עומאן ופקיסטן.",
+    "axis": "מצר הורמוז והזירה הימית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T01:22:02+00:00",
+    "last_update_at": "2026-10-18T13:21:17+00:00",
+    "what_is_not_verified": "פרטי שבעת התנאים המדויקים ותגובת ארה\"ב המלאה אינם מאומתים בטקסט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610180983",
+      "published_at": "2026-10-18T13:21:17+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+      "published_at": "2026-10-18T10:46:25+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-has-presented-concrete-hormuz-reopening-proposal",
+      "published_at": "2026-10-18T01:22:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10181408-04",
+    "title": "עמדת ממשל ארה\"ב בנוגע לתוכנית הגרעין האיראנית ומצר הורמוז",
+    "summary": "סגן נשיא ארה\"ב הצהיר כי וושינגטון דורשת התחייבות ארוכת טווח הניתנת לאימות שאיראן לא תשקם את תוכנית הגרעין שלה, והטיל על איראן את האחריות לחסימת מצר הורמוז ולעליית מחירי הדלק.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T05:34:52+00:00",
+    "last_update_at": "2026-10-18T06:13:11+00:00",
+    "what_is_not_verified": "טענת סגן הנשיא כי תוכנית הגרעין הושמדה לחלוטין אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-seeks-verifiable-commitment-iran-wont-rebuild-nuclear-programme-vance",
+      "published_at": "2026-10-18T05:34:52+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10181408-05",
+    "title": "התרעות ומוכנות בצה\"ל לעימות ישיר נוסף מול איראן",
+    "summary": "בצה\"ל נשמרת רמת כוננות גבוהה לנוכח הערכות על אפשרות לסיבוב לחימה נוסף מול איראן, לצד דיונים בצמרת המדינית והצבאית על מועד ואופי הפעולה.",
+    "axis": "איראן - ישראל",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T05:34:50+00:00",
+    "last_update_at": "2026-10-18T13:10:09+00:00",
+    "what_is_not_verified": "לא אומתו הטענות על מועד המכה המקדימה ושיקולים פוליטיים סביבה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21651430",
+      "published_at": "2026-10-18T13:10:09+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/yokra14929191",
+      "published_at": "2026-10-18T05:34:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10181408-06",
+    "title": "פגיעה בכלי שיט סמוך לחופי איחוד האמירויות",
+    "summary": "סוכנות פעולות הסחר הימי של בריטניה דיווחה כי ספינת גרר נפגעה משני קליעים בלתי מזוהים מצפון-מזרח לח'ור פכאן סמוך לחופי איחוד האמירויות הערביות.",
+    "axis": "מצר הורמוז והזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T06:13:11+00:00",
+    "last_update_at": "2026-10-18T06:13:11+00:00",
+    "what_is_not_verified": "זהות המשגרים ואופי הקליעים אינם מצוינים ומאומתים במקור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+      "published_at": "2026-10-18T06:13:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ח'ור פכאן, איחוד האמירויות",
+      "lat": 25.3492,
+      "lon": 56.3478
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10181408-07",
+    "title": "צעדים בלבנון להגבלת מימון איראני לחזבאללה",
+    "summary": "הרשויות בלבנון ביטלו את רישיון הפעילות של בנק סאדראת האיראני בעקבות לחץ אמריקאי לצמצום צירי המימון לחזבאללה, לצד קריאה פומבית של שר החוץ הלבנוני להפסקת חימוש הארגון.",
+    "axis": "שלוחות איראן - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T15:48:36+00:00",
+    "last_update_at": "2026-10-18T12:34:37+00:00",
+    "what_is_not_verified": "האם סניפי הבנק נסגרו בפועל והאם החלו הליכי פירוק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21651066",
+      "published_at": "2026-10-18T12:34:37+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/10/lebanon-revokes-iranian-banks-license-amid-us-pressure-over-hezbollah-financing.php",
+      "published_at": "2026-10-17T15:48:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10181408-08",
+    "title": "שיתוף פעולה מודיעיני של צה\"ל לאיתור תשתיות איראניות",
+    "summary": "גורמי מודיעין וחיל הים של ישראל העניקו סיוע מודיעיני לצבא ארה\"ב לאיתור תשתיות איראניות וכלי שיט עוינים במרחב מצר הורמוז, וכן מודיעין על הקשרים ואמצעי הלחימה שמעבירה איראן לחות'ים.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T05:22:49+00:00",
+    "last_update_at": "2026-10-18T05:22:49+00:00",
+    "what_is_not_verified": "היקף שיתוף הפעולה והמבצעים שבוצעו בפועל בעקבותיו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957784",
+      "published_at": "2026-10-18T05:22:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת סגן נשיא ארה\"ב כי תוכנית הגרעין האיראנית הושמדה באופן מכריע",
+   "הטענה לפיה ישראל מתכננת מתקפת מנע נגד איראן משיקולים פוליטיים פנימיים",
+   "זהות הגורמים ששיגרו את שני הקליעים לעבר ספינת הגרר סמוך לח'ור פכאן",
+   "האם סניפי בנק סאדראת בלבנון נסגרו בפועל לאחר שלילת הרישיון",
+   "נתוני תפוקת הנפט של איראן וטענתה לאי-תלות מוחלטת ביבוא בנזין"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להביא לפתיחת מצר הורמוז בתנאי שיוסרו הלחצים הצבאיים והמצור האמריקאי",
+     "לשקם את התעשיות הביטחוניות, לחזק את ההרתעה ולהגיב באופן נרחב לכל תקיפה"
+    ],
+    "inferred": [
+     "מינוף סגירת נתיבי השיט כדי לאלץ את ארה\"ב להקל בסנקציות ובלחץ הכלכלי",
+     "המשך ביסוס תוכנית הטילים ושמירת יכולת השפעה אזורית באמצעות שלוחות"
+    ],
+    "forecast": [
+     "המשך שמירה על רמת איום גבוהה במפרץ תוך בחינת נכונות ארה\"ב למשא ומתן על תנאי השיט"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "השגת התחייבות ארוכת טווח הניתנת לאימות שאיראן לא תשקם את תוכנית הגרעין שלה",
+     "שמירה על חופש השיט והגנה על זרימת האנרגיה במצר הורמוז"
+    ],
+    "inferred": [
+     "בלימת התייקרות מוצרי האנרגיה והדלק לקראת מועדי בחירות פנימיים",
+     "הפעלת לחץ כלכלי וצבאי לניתוק איראן מנתיבי מימון של ארגוני חסות"
+    ],
+    "forecast": [
+     "המשך פריסת כוחות ימיים לאבטחת נתיבי השיט לצד ניסיונות לבלום התעצמות גרעינית וטילאית"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על כוננות גבוהה לסיכול איומים ישירים מצד איראן",
+     "דרישה לפגיעה ישירה בתשתיות הגרעין והאנרגיה של איראן"
+    ],
+    "inferred": [
+     "בחינת אפשרות למתקפת מנע נגד יעדים איראניים לפני החרפת העימות הישיר",
+     "העמקת השותפויות המודיעיניות במרחב המפרץ ובלימת העברות אמצעי לחימה לשלוחות"
+    ],
+    "forecast": [
+     "הישארות ברמת דריכות מבצעית גבוהה ומוכנות לחידוש חילופי מהלומות צבאיות מול איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610180983",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86295995/Defense-minister-undermines-Trump-s-new-anti-Iran-threats",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21651066",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/lebanon-revokes-iranian-banks-license-amid-us-pressure-over-hezbollah-financing.php",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132125",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957784",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/yokra14929191",
+    "accessed_at": "2026-10-18T14:08:28+00:00"
+   }
+  ]
+ }
+}
