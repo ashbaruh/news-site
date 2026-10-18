@@ -1,0 +1,318 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8b159b6ee4ab",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "assessment": 1,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-18T23:43:58+00:00",
+  "window": {
+   "from": "2026-10-17T23:43:58+00:00",
+   "to": "2026-10-18T23:43:58+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610182343"
+  },
+  "summary": "המתיחות בגזרה הצפונית נמשכת כאשר צה\"ל מרכז כוחות ומעלה כוננות בגבול לבנון וברמת הגולן לנוכח חשש מעימות צבאי, לצד המשך פעילות באש בדרום לבנון. במקביל בלבנון מנסה השלטון המרכזי להרחיב את סמכותו הביטחונית, בעוד הדיונים המדיניים מתמקדים בעתיד פריסת כוחות יוניפי\"ל ובדרישות ההדדיות ליישום החלטה 1701. בסוריה ממשיך הממשל החדש בצעדים לביסוס שליטתו הכלכלית והמוסדית לאחר הפלת המשטר הקודם.",
+  "fronts": [
+   {
+    "name": "גבול ישראל-לבנון",
+    "status": "כוננות שיא, תגבור אוגדות ישראליות והפגזות ארטילריות מקומיות בדרום לבנון"
+   },
+   {
+    "name": "חזית רמת הגולן וסוריה",
+    "status": "העלאת כוננות ישראלית ודיווחים על פשיטות צה\"ל לצד התייצבות מוסדות הממשל הסורי החדש"
+   },
+   {
+    "name": "הזירה הפנים-לבנונית",
+    "status": "תגבור כוחות ביטחון בביירות, תפיסת אמצעי לחימה וניסיונות של הממשלה להגביל גורמים חמושים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10182343-01",
+    "title": "היערכות ותגבור כוחות צה\"ל בגבול הצפון",
+    "summary": "הצבא הישראלי תגבר את כוחותיו ופרס את אוגדות 36 ו-91 וכן את חטיבת גולני בגבול לבנון וברמת הגולן, והעלה את רמת הכוננות בעקבות חשש מהסלמה לקראת הבחירות ודיווחים על העלאת כוננות אצל חזבאללה.",
+    "axis": "גבול ישראל-לבנון ורמת הגולן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T13:07:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T13:07:19+00:00",
+    "last_update_at": "2026-10-18T14:01:00+00:00",
+    "what_is_not_verified": "הטענה כי איראן אישרה לחזבאללה להעלות כוננות או מנסה לפגוע בבחירות בישראל אינה נתמכת במודיעין קונקרטי לפי גורמי ביטחון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963482/israel-reinforces-lebanon-border-as-tensions-rise-over-hezbollah-disar/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963482",
+      "published_at": "2026-10-18T14:01:00+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-army-raises-alert-level-ahead-election",
+      "published_at": "2026-10-18T13:07:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10182343-02",
+    "title": "ירי ארטילרי לעבר עיירה בדרום לבנון",
+    "summary": "צבא ישראל ביצע ירי פגזים ארטילריים שפגע בעיירה חדאת'א הממוקמת באזור בינת ג'בייל בדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T15:15:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T15:15:45+00:00",
+    "last_update_at": "2026-10-18T15:15:45+00:00",
+    "what_is_not_verified": "היקף הנזקים או הנפגעים בירי לא צוין בדיווח שמסתמך על תקשורת לבנונית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-attacks-town-southern-lebanon",
+      "published_at": "2026-10-18T15:15:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.165,
+      "lon": 35.3916
+     },
+     {
+      "name": "בינת ג'בייל, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10182343-03",
+    "title": "פינוי לוחמות איסוף קרבי ממוצב בגבול לבנון",
+    "summary": "צוות לוחמות מאיסוף קרבי שהתמקם בפעילות במוצב צבאי ברכס רמים נדרש להתפנות בעקבות הוראה של רב החטיבה בטענה לפגיעה בכללי השירות המשותף.",
+    "axis": "גבול ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T16:42:49+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T16:42:49+00:00",
+    "last_update_at": "2026-10-18T16:42:49+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_decb72e052b4c816",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21653898",
+      "published_at": "2026-10-18T16:42:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10182343-04",
+    "title": "פעולות ממשלת לבנון לחיזוק סמכות המדינה ומניעת נשק לא חוקי",
+    "summary": "ראש ממשלת לבנון בירך על תגבור כוחות הביטחון בביירות רבתי, הדגיש כי החלטות של מלחמה ושלום שייכות אך ורק למדינה, וקרא למיצוי הדין בעקבות תפיסת משלוח חומרי נפץ בדהר אל-בידר.",
+    "axis": "פנים לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T13:28:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T13:28:18+00:00",
+    "last_update_at": "2026-10-18T13:28:18+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_3188ef683070d237",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963496/pm-salam-calls-for-stronger-state-authority-stresses-war-and-peace-dec/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963496",
+      "published_at": "2026-10-18T13:28:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8103,
+      "lon": 35.7619
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10182343-05",
+    "title": "פגישת יו\"ר הפרלמנט הלבנוני עם משלחת צרפתית בנושא החלטה 1701 ויוניפי\"ל",
+    "summary": "נביה ברי נפגש עם שר החוץ הצרפתי ומשלחתו בביירות, הביע מחויבות להמשך שהות כוחות יוניפי\"ל וקרא ללחץ בין-לאומי ליישום החלטה 1701 בידי ישראל.",
+    "axis": "לבנון-ישראל בזירה המדינית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T08:59:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T08:59:27+00:00",
+    "last_update_at": "2026-10-18T08:59:27+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963460/speaker-berri-calls-for-unifil-to-remain-in-lebanon-urges-internationa/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963460",
+      "published_at": "2026-10-18T08:59:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10182343-06",
+    "title": "מינוי יו\"ר לקרן העושר הריבונית של סוריה",
+    "summary": "נשיא סוריה אחמד א-שרע מינה את עומר אל-חלבי ליושב ראש קרן ההשקעות והנכסים הריבונית של המדינה כחלק ממאמצי שיקום הכלכלה וגיוס הון זר.",
+    "axis": "סוריה - ממשל וכלכלה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T14:28:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T14:28:59+00:00",
+    "last_update_at": "2026-10-18T14:28:59+00:00",
+    "what_is_not_verified": "זהות המנהל הקודם שכונה אבו מרים האוסטרלי נמסרה מגורמים אנונימיים ולא אושרה רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_5e9ef2c34a68ddfa",
+      "url": "https://www.newarab.com/news/syria-names-omar-al-halabi-chairman-sovereign-wealth-fund",
+      "published_at": "2026-10-18T14:28:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומו של מודיעין ממשי המאשר כי איראן תנסה לשבש את הבחירות בישראל",
+   "הטענה כי איראן הורתה לחזבאללה להעלות כוננות ולהיערך לעימות מיידי",
+   "פרטי הניהול המוקדם של קרן העושר הסורית על ידי גורם המכונה אבו מרים האוסטרלי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת טבעת החנק של הציר האיראני ומניעת סכנה גרעינית",
+     "אי-התפשרות על תנאי הסכם המסגרת ופירוק חזבאללה מנשקו"
+    ],
+    "inferred": [
+     "ביסוס אזור חיץ או אזור ביטחון קבוע בדרום לבנון",
+     "הרחקת איומים צבאיים ומניעת הפתעה לקראת מועד הבחירות בישראל"
+    ],
+    "forecast": [
+     "המשך שמירה על פריסת כוחות מתוגברת בגבול הצפוני",
+     "סירוב לוותר במשא ומתן הצבאי הצפוי בטמפה מול לבנון"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "השבת הבלעדיות על החלטות מלחמה ושלום לידי המדינה ומוסדותיה",
+     "השארת כוחות יוניפי\"ל וחיוב ישראל ליישום החלטה 1701 והפסקת התקיפות"
+    ],
+    "inferred": [
+     "בלימת השפעתו הצבאית העצמאית של חזבאללה במרחב האזרחי",
+     "שימוש בלחץ בין-לאומי אמריקני וצרפתי כדי להביא לנסיגת כוחות צה\"ל"
+    ],
+    "forecast": [
+     "המשך הגברת נוכחות כוחות הביטחון בביירות ובמעברי הפנים",
+     "הצגת תביעות מחמירות להפסקת אש בשיחות הביטחוניות בארצות הברית"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [],
+    "inferred": [
+     "שימור יכולות צבאיות תחת לחץ ישראלי ובין-לאומי לפירוק נשק",
+     "תיאום רמת הכוננות מול הציר האיראני בהתאם להתפתחויות הפוליטיות בישראל"
+    ],
+    "forecast": [
+     "המשך התנגדות לניסיונות הממשל הלבנוני והקהילה הבין-לאומית לפרקו מנשקו"
+    ]
+   },
+   {
+    "actor": "הממשל החדש בסוריה",
+    "declared": [
+     "משיכת הון זר ושיקום המשק באמצעות ניהול מרכזי של נכסי המדינה"
+    ],
+    "inferred": [
+     "ייצוב המשטר החדש של אחמד א-שרע וניתוק מנכסי מקורבי משטר אסד"
+    ],
+    "forecast": [
+     "המשך מאמצים להשגת לגיטימציה אזורית ובינלאומית לצד ניסיון למנוע חיכוך ישיר מול ישראל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21653898",
+    "accessed_at": "2026-10-18T23:43:58+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/963460/speaker-berri-calls-for-unifil-to-remain-in-lebanon-urges-internationa/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963460",
+    "accessed_at": "2026-10-18T23:43:58+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-attacks-town-southern-lebanon",
+    "accessed_at": "2026-10-18T23:43:58+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-names-omar-al-halabi-chairman-sovereign-wealth-fund",
+    "accessed_at": "2026-10-18T23:43:58+00:00"
+   }
+  ]
+ }
+}

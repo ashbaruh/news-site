@@ -1,0 +1,496 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6b7cbed905ba",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 4,
+   "initial": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-18T23:40:43+00:00",
+  "window": {
+   "from": "2026-10-17T23:40:43+00:00",
+   "to": "2026-10-18T23:40:43+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610182340"
+  },
+  "summary": "העימות הצבאי בין רוסיה לאוקראינה ממשיך בעוצמה גבוהה עם חילופי מהלומות טילים וכטב\"מים על ערי אוקראינה ועל מתקני תשתית בעומק שטח רוסיה. בקו המגע נרשמת לחימה עזה בעשרות מוקדים במזרח, תוך טענות אוקראיניות לבלימת התקדמות רוסית ולשמירה על שטחים ששוחררו. במקביל חלה החרפה פומבית ביחסים בין קייב לממשל האמריקני החדש עקב הקפאת סנקציות על מוסקבה ומחלוקות על השימוש ברשתות תקשורת לווייניות.",
+  "fronts": [
+   {
+    "name": "גזרת פוקרובסק",
+    "status": "לחימה עזה ביותר ומתקפות חוזרות ונשנות של הכוחות הרוסיים"
+   },
+   {
+    "name": "גזרת דוברופיליה ומחוז דונצק",
+    "status": "קרבות הגנה ובלימת חדירות רוסיות תחת שליטה אוקראינית"
+   },
+   {
+    "name": "גזרת זפוריז'יה",
+    "status": "היערכות הגנתית אוקראינית מול כוחות רוסיים המצויים כעשרים קילומטרים מהעיר"
+   },
+   {
+    "name": "חזית חרסון (בריסלב)",
+    "status": "הפגזות רוסיות רצופות ופינוי אוכלוסייה אזרחית"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10182340-01",
+    "title": "הנשיא טראמפ השעה סנקציות נגד רוסיה ומתח ביקורת על הנהגת אוקראינה",
+    "summary": "נשיא ארצות הברית דונלד טראמפ חתם על צו המשהה חבילת סנקציות כלכליות נרחבות על רוסיה למשך שישים יום לצורך בחינת השפעתן, והאשים את הנשיא זלנסקי בחוסר רצון לסיים את המלחמה ובעמידה בדרכו של משא ומתן לשלום.",
+    "axis": "דיפלומטיה וסנקציות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T01:07:13+00:00",
+    "last_update_at": "2026-10-18T23:29:53+00:00",
+    "what_is_not_verified": "האם הטענה של אוקראינה לגבי כוונת הממשל האמריקני להביא לכניעתה מבוססת במציאות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/19/ukraine-war-briefing-trump-accuses-zelenskyy-of-not-wanting-to-end-war-as-feud-rumbles-on",
+      "published_at": "2026-10-18T23:29:53+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/other/article/21655157",
+      "published_at": "2026-10-18T21:49:51+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2203873",
+      "published_at": "2026-10-18T21:43:12+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/us-treasury-secretary-downplays-russia-sanctions-waiver-warns-zelensky-to-be-careful/",
+      "published_at": "2026-10-18T21:09:30+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/i-want-this-war-end-trump-defends-pro-russian-policies-in-scathing-diatribe-against-zelensky-2/",
+      "published_at": "2026-10-18T21:03:32+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2203867",
+      "published_at": "2026-10-18T21:02:41+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T01:10:25+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/18/ukraine-war-briefing-trumps-sanctions-waiver-is-a-60-day-pause-to-analyse-economic-impact-says-rubio",
+      "published_at": "2026-10-18T01:07:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10182340-02",
+    "title": "מתקפת כטב\"מים אוקראינית על מתקני נפט ותשתיות בסנקט פטרבורג",
+    "summary": "כוחות הביטחון של אוקראינה שיגרו כטב\"מים מדגם FP-1 לעבר יעדי תשתית נפט ודיגיטל בעיר סנקט פטרבורג ברוסיה, כולל מסוף נפט, מאגר דלקים ומרכז נתונים, וגרמו לדליקות.",
+    "axis": "תקיפות בעומק שטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T10:36:22+00:00",
+    "last_update_at": "2026-10-18T18:45:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במתקנים בסנקט פטרבורג.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175714-ukraines-fp1-drones-hit-oil-and-digital-infrastructure-in-st-petersburg.html",
+      "published_at": "2026-10-18T18:45:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48666",
+      "published_at": "2026-10-18T10:36:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10182340-03",
+    "title": "מחלוקת על הגבלת שירותי סטארלינק וחשד לחבלה רוסית בתשתיות התקשורת בליטא",
+    "summary": "נשיא אוקראינה טען כי ארצות הברית האטה במכוון את קצב התקשורת של מערכת סטארלינק, בעוד בכירים אמריקנים הכחישו זאת בתוקף; במקביל נמסר מליטא על ניסיון הצתה באתר שבו מוצבות אנטנות של הרשת המשרתות את אוקראינה, פעולה שיוחסה לגורמי חבלה רוסיים.",
+    "axis": "תשתיות וטכנולוגיה צבאית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T15:53:00+00:00",
+    "last_update_at": "2026-10-18T23:29:53+00:00",
+    "what_is_not_verified": "הגורם האחראי להגבלת מהירות סטארלינק והזהות המדויקת של מבצעי ניסיון ההצתה בליטא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/19/ukraine-war-briefing-trump-accuses-zelenskyy-of-not-wanting-to-end-war-as-feud-rumbles-on",
+      "published_at": "2026-10-18T23:29:53+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48679",
+      "published_at": "2026-10-18T16:44:54+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "published_at": "2026-10-18T16:37:52+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058641/",
+      "published_at": "2026-10-18T16:20:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058639/",
+      "published_at": "2026-10-18T15:53:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10182340-04",
+    "title": "פגיעות טילים בליסטיים רוסיים בבירה קייב",
+    "summary": "טילים בליסטיים מתוצרת רוסיה פגעו בקייב בסמיכות מיידית להפעלת התרעות הצופרים, כאשר גורם אוקראיני רשמי ציין כי האזהרה הגיעה רק לאחר הפגיעה עצמה.",
+    "axis": "תקיפות על ערי אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T20:20:34+00:00",
+    "last_update_at": "2026-10-18T20:20:34+00:00",
+    "what_is_not_verified": "מספר הנפגעים ומיקום הפגיעות המדויק בקייב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-right-as-air-raid-alarms-sound/",
+      "published_at": "2026-10-18T20:20:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10182340-05",
+    "title": "קרבות עזים בקו המגע ולחימה מוגברת בגזרת פוקרובסק",
+    "summary": "לאורך החזית התחוללו 173 התנגשויות קרביות ביום אחד, כאשר מוקד הלחימה העיקרי נרשם בגזרת פוקרובסק שבה בוצעו עשרות ניסיונות תקיפה רוסיים.",
+    "axis": "חזית המזרח",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T20:53:00+00:00",
+    "last_update_at": "2026-10-18T20:53:00+00:00",
+    "what_is_not_verified": "מספר ההתקפות המדויק בכל תת-גזרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175727-war-update-173-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html",
+      "published_at": "2026-10-18T20:53:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10182340-06",
+    "title": "הפלת עשרות כטב\"מים אוקראיניים בשמי מחוזות רוסיה",
+    "summary": "מערכות ההגנה האווירית של רוסיה יירטו והשמידו 41 כלי טיס בלתי מאוישים אוקראיניים מעל המחוזות בלגורוד, בריאנסק, קורסק, אוריול ופסקוב.",
+    "axis": "הגנה אווירית ברוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T17:39:25+00:00",
+    "last_update_at": "2026-10-18T17:39:25+00:00",
+    "what_is_not_verified": "מידת הנזק שנגרם בשטח כתוצאה משברי היירוטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2203837",
+      "published_at": "2026-10-18T17:39:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10182340-07",
+    "title": "פינוי אזרחים מהעיר בריסלב תחת הפגזות רוסיות",
+    "summary": "כוחות צבא אוקראינה פינו 15 אזרחים מהעיר בריסלב שבמחוז חרסון, הנתונה להפגזות ארטילריות רוסיות רצופות.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T22:25:00+00:00",
+    "last_update_at": "2026-10-18T22:25:00+00:00",
+    "what_is_not_verified": "מספר התושבים הנותרים בעיר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175631-fifteen-people-evacuated-from-beryslav-in-kherson-region.html",
+      "published_at": "2026-10-18T22:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריסלב, אוקראינה",
+      "lat": 46.8358,
+      "lon": 33.4167
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10182340-08",
+    "title": "שיחות דיפלומטיות בין זלנסקי לנציגי ממשל טראמפ",
+    "summary": "הנשיא זלנסקי קיים שיחה טלפונית עם נציגיו של טראמפ, סטיב ויטקוף וג'ארד קושנר, שבה דנו בתוצאות המפגשים בפלורידה ובצעדים הבאים להמשך המגעים הדיפלומטיים.",
+    "axis": "משא ומתן ומגעים דיפלומטיים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T14:58:00+00:00",
+    "last_update_at": "2026-10-18T17:58:00+00:00",
+    "what_is_not_verified": "תוכן ההבנות והפרטים המדויקים שעלו בשיחות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4175703-zelensky-discusses-next-steps-in-diplomacy-with-trumps-representatives.html",
+      "published_at": "2026-10-18T17:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058636/",
+      "published_at": "2026-10-18T14:58:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10182340-09",
+    "title": "זלנסקי מציב תנאי של הפסקת אש לקיום בחירות לנשיאות",
+    "summary": "נשיא אוקראינה הודיע כי יתמודד בבחירות אם ייערכו בזמן המלחמה, וציין כי קיומן מותנה בהפסקת אש כוללת למשך שישים יום לפחות מצד רוסיה לצורך היערכות ביטחונית ותחיקתית.",
+    "axis": "מדיניות פנים וממשל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T18:13:00+00:00",
+    "last_update_at": "2026-10-18T18:13:00+00:00",
+    "what_is_not_verified": "נכונות הצד הרוסי להסכים להפסקת אש בת שישים יום לצורך בחירות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_nbc",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058650/",
+      "published_at": "2026-10-18T18:13:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10182340-10",
+    "title": "חדירת כלי טיס והתפוצצותו בשמי ליטא",
+    "summary": "חפץ מעופף החשוד ככטב\"ם חדר למרחב האווירי של ליטא והתפוצץ, דבר שהביא להקפצת מטוסי קרב של נאט\"ו, כניסת תושבים למקלטים ופגיעה ברכב אזרחי.",
+    "axis": "תקריות אזוריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T17:59:20+00:00",
+    "last_update_at": "2026-10-18T17:59:20+00:00",
+    "what_is_not_verified": "שיוכו המדויק וזהות משגרי כלי הטיס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/nato-jets-scramble-as-drone-explodes-in-lithuanian-airspace/",
+      "published_at": "2026-10-18T17:59:20+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת רוסיה על כיבוש דוברופיליה והתקרבות למרחק 5 ק\"מ מזפוריז'יה",
+   "טענות על קיצוץ באספקת טילי יירוט אמריקניים לאוקראינה",
+   "האשמות לגבי מעורבות הממשל האמריקני בהגבלת מהירות סטארלינק",
+   "הטענה כי גורמי ביון רוסיים עומדים מאחורי ניסיון ההצתה בליטא",
+   "השמועות בדבר החרמת רכוש אזרחי על ידי הצבא האוקראיני בקרמטורסק",
+   "דיווחים על שיתוף פעולה בין סוכנים רוסים ואיראנים בהובלת מהומות באירופה",
+   "מידת הפגיעה המדויקת בצוות הספינה שהותקפה בים השחור"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1253,
+    "unit": "USD",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "חיזוק מערך ההגנה האווירית והמשך שחרור שטחים כבושים",
+     "קיום בחירות רק תחת תנאי הפסקת אש של 60 יום והבטחת זכות הצבעה לחיילים",
+     "מניעת סטייה אמריקנית לטובת מוסקבה ושימור הסיוע הבינלאומי"
+    ],
+    "inferred": [
+     "פגיעה ממוקדת בתשתיות הכלכליות והאנרגטיות בעומק רוסיה כדי להפעיל לחץ נגדי",
+     "הפחתת התלות בהחלטות טכנולוגיות וצבאיות אמריקניות שאינן יציבות"
+    ],
+    "forecast": [
+     "המשך מאמצים לגיוס תמיכה ישירה ממדינות אירופה להשלמת פערי חימוש",
+     "החרפת העימות הדיפלומטי מול ארצות הברית אם יוגברו הלחצים לוויתורים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הלחימה והשגת יעדי המערכה בקו המגע",
+     "סירוב להפסקת אש ממושכת בת 60 יום עבור בחירות באוקראינה",
+     "הסדרת ייצוא מוצרי נפט ונפט מול ארצות הברית ללא התערבות קייב"
+    ],
+    "inferred": [
+     "ניצול המתיחות בין וושינגטון לקייב כדי לשבור את מערך הסנקציות הבינלאומי",
+     "המשך שחיקת תשתיות האנרגיה האוקראיניות לקראת החורף"
+    ],
+    "forecast": [
+     "המשך פעולות חבלה עקיפות ומתקפות על נתיבי אספקה ותקשורת לוויינית",
+     "הגברת מאמצי ההתקפה במזרח אוקראינה לקראת מיצוי הישגים קרקעיים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "סיום המלחמה באמצעות משא ומתן והשבת רוסיה לשולחן הדיונים",
+     "השהיית סנקציות למשך שישים יום לבחינת ההשפעה על הכלכלה העולמית והמקומית",
+     "הכחשת מעורבות רשמית בהגבלת פעילות רשת סטארלינק"
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ כבדים על אוקראינה כדי לאלץ אותה להתפשר במגעים מול רוסיה",
+     "מתן תמריצים כלכליים למוסקבה כדי לפתותה להגיע להסכם"
+    ],
+    "forecast": [
+     "המשך צמצום והתניה של הסיוע הביטחוני והמודיעיני לאוקראינה",
+     "הגברת המגעים הנפרדים מול מוסקבה בסוגיות אנרגיה ומסחר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/other/article/21655157",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/nato-jets-scramble-as-drone-explodes-in-lithuanian-airspace/",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058650/",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2203837",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48679",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4175703-zelensky-discusses-next-steps-in-diplomacy-with-trumps-representatives.html",
+    "accessed_at": "2026-10-18T23:40:43+00:00"
+   }
+  ]
+ }
+}
