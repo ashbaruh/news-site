@@ -526,6 +526,7 @@
 48.4683,
 37.0903
 ],
+"dobropillya, ukraine": null,
 "doha, qatar": [
 25.2856,
 51.5264
@@ -548,6 +549,10 @@
 36.3496
 ],
 "eastern province, saudi arabia": null,
+"enerhodar, ukraine": [
+47.4901,
+34.6603
+],
 "erbil, iraq": [
 36.1912,
 44.0094
@@ -767,6 +772,10 @@
 "jubata al-khashab, syria": [
 33.2258,
 35.8341
+],
+"kafra, lebanon": [
+33.1805,
+35.354
 ],
 "kahbub front, yemen": null,
 "kahbub, yemen": [
@@ -1697,6 +1706,7 @@
 33.8131,
 35.9903
 ],
+"toulin, lebanon": null,
 "touline, lebanon": [
 33.2544,
 35.4399
@@ -1860,6 +1870,7 @@
 35.1183
 ],
 "zawtar al-gharb, lebanon": null,
+"zawtar al-sharqiyah, lebanon": null,
 "zawtar al-sharqiyeh, lebanon": [
 33.3237,
 35.4731

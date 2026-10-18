@@ -1,0 +1,512 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6f4461017620",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "shared_root": 4,
+   "initial": 9
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-18T02:40:32+00:00",
+  "window": {
+   "from": "2026-10-17T02:40:32+00:00",
+   "to": "2026-10-18T02:40:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610180240"
+  },
+  "summary": "העימות הצבאי בין רוסיה לאוקראינה מאופיין בהמשך תקיפות הדדיות בעומק השטח, הכוללות שיגורי כטבמים אוקראיניים לעבר יעדי תשתית ותעשייה בערים רוסיות ופגיעות רוסיות נרחבות ברשתות אנרגיה, מפעלים ומרכזי אוכלוסייה אוקראיניים. במקביל ללחימה לאורך קווי המגע בדרום ובמזרח, נרשמת מתיחות מדינית גוברת לנוכח החלטת הממשל האמריקאי להשהות זמנית חלק מהסנקציות הכלכליות שהוטלו על מוסקבה והקשחת העמדות של רוסיה לגבי אזורי חיץ. בזירה הבין-לאומית מדינות אירופה נערכות לתרחישי פריסת כוחות עתידיים, בעוד חילוקי דעות והגבלות על אספקת מערכות הגנה ממשיכים ללוות את הסיוע לקייב.",
+  "fronts": [
+   {
+    "name": "החזית הדרומית (חרסון וזפורוזיה)",
+    "status": "הפגזות ותקיפות כטבמים מתמשכות מעבר לנהר הדנייפרו, ומתיחות סביב אתר הגרעין באנרגודאר"
+   },
+   {
+    "name": "חזית המזרח (דונבאס ולוהנסק)",
+    "status": "לחימה פעילה, הפצצות אוויריות על ערים ופגיעות אוקראיניות בתשתיות חשמל באזורי הכיבוש"
+   },
+   {
+    "name": "עומק רוסיה",
+    "status": "ספיגת תקיפות כטבמים אוקראיניות נגד אתרי אנרגיה, מפעלים ביטחוניים ויעדים עירוניים"
+   },
+   {
+    "name": "מרחב צפון ומערב אוקראינה",
+    "status": "תקיפות רוסיות על מפעלי תעשייה ותשתיות, לצד חשש מהתרחבות איומים מכיוון בלארוס"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10180240-01",
+    "title": "מתקפת כטבמים אוקראינית על סנקט פטרבורג",
+    "summary": "כלי טיס בלתי מאוישים ששוגרו מאוקראינה פגעו במתקני תשתית, מסופי דלק וגשר באזור סנקט פטרבורג, לצד הפעלת מערכות הגנה אווירית שנצפו בעיר.",
+    "axis": "סנקט פטרבורג, רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T01:34:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T01:34:01+00:00",
+    "last_update_at": "2026-10-18T01:59:30+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לתשתיות האנרגיה והגשר אינו מאומת ממקורות רשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48659",
+      "published_at": "2026-10-18T01:59:30+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/flames-explosions-reported-amid-large-ukrainian-drone-attack-on-st-petersburg/",
+      "published_at": "2026-10-18T01:34:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-02",
+    "title": "פעילות כטבמים ליד תחנת הכוח הגרעינית בזפורוזיה",
+    "summary": "בקרבת תחנת הכוח הגרעינית והעיר אנרגודאר נמשכת פעילות כלי טיס מאוישים מרחוק, כאשר הנהלת האתר מדווחת על מצב מתוח אך מבוקר.",
+    "axis": "מחוז זפורוזיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T01:53:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T01:53:28+00:00",
+    "last_update_at": "2026-10-18T01:53:28+00:00",
+    "what_is_not_verified": "מידת הסכנה המיידית למתקני התחנה אינה מאומתת מעבר להצהרת הדוברת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_e22c4b5db8a5c244",
+      "url": "https://tass.com/economy/2203639",
+      "published_at": "2026-10-18T01:53:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנרגודאר, אוקראינה",
+      "lat": 47.4901,
+      "lon": 34.6603
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-03",
+    "title": "הקפאת סנקציות אמריקאיות על רוסיה והגבלת תקשורת לווינית",
+    "summary": "נשיא ארצות הברית השהה לחודשיים עיצומים כלכליים ומכסים שאושרו בקונגרס נגד מוסקבה לצורך בחינה כלכלית, בעוד שר החוץ ציין כי נמנעת כרגע מאוקראינה גישה למערכת התקשורת הצבאית סטארשילד.",
+    "axis": "מדיני וכלכלי בין-לאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T02:53:38+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T02:53:38+00:00",
+    "last_update_at": "2026-10-18T01:10:25+00:00",
+    "what_is_not_verified": "הסיבה המדויקת להגבלת מערך סטארשילד וההשפעה הישירה על שדה הקרב אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T01:10:25+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/18/ukraine-war-briefing-trumps-sanctions-waiver-is-a-60-day-pause-to-analyse-economic-impact-says-rubio",
+      "published_at": "2026-10-18T01:07:13+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2203629",
+      "published_at": "2026-10-18T00:27:35+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-puts-new-russia-sanctions-passed-by-congress-on-hold-amid-deepening-row-with-ukraine",
+      "published_at": "2026-10-17T02:53:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10180240-04",
+    "title": "טענה להשמדת כוח אוקראיני בדוברופוליה",
+    "summary": "גורמי מודיעין צבאיים של רוסיה טענו כי כוחותיהם פגעו וחיסלו יחידה צבאית אוקראינית גדולה באזור דוברופוליה.",
+    "axis": "דונבאס",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:35:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T00:35:40+00:00",
+    "last_update_at": "2026-10-18T00:35:40+00:00",
+    "what_is_not_verified": "מספר הנפגעים והיקף הכוח האוקראיני שהושמד לא אומתו על ידי גורם עצמאי או אוקראיני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_110",
+      "url": "https://tass.com/defense/2203631",
+      "published_at": "2026-10-18T00:35:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10180240-05",
+    "title": "השבתת מפעל רכיבי רכב בלוצק לאחר מתקפה רוסית",
+    "summary": "מפעל לייצור מערכות כבלים לרכב בבעלות זרה השבית את פעילותו בעקבות תקיפת כטבמים רוסית שפגעה במתקן.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T14:30:00+00:00",
+    "last_update_at": "2026-10-18T00:32:40+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_29342df317114d97",
+      "url": "https://kyivindependent.com/kromberg-and-schubert-electrical-wiring-plant-in-lutsk-halts-operations-following-russian-attack/",
+      "published_at": "2026-10-18T00:32:40+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_29342df317114d97",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058520/",
+      "published_at": "2026-10-17T14:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוצק, אוקראינה",
+      "lat": 50.7451,
+      "lon": 25.3201
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-06",
+    "title": "יירוט כטבמים חודרים במרחב האווירי של רומניה",
+    "summary": "מטוסי קרב רומניים הפילו שני כלי טיס מונעי סילון מסדרת גרן שחדרו למרחב האווירי של המדינה.",
+    "axis": "הגבול הרומני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T22:16:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T22:16:37+00:00",
+    "last_update_at": "2026-10-17T22:16:37+00:00",
+    "what_is_not_verified": "שיוכם הלאומי המדויק של המפעילים לא נמסר בהודעה הרשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_613c2ed6e63b3780",
+      "url": "https://kyivindependent.com/romanian-f-16s-down-two-jet-powered-drones-after-airspace-incursion/",
+      "published_at": "2026-10-17T22:16:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10180240-07",
+    "title": "תקיפת טילים על חרקוב",
+    "summary": "פגיעת טיל רוסי בעיר חרקוב גרמה לפציעתם של שלושה בני אדם ולנזק באזור הפגיעה.",
+    "axis": "צפון-מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T20:37:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T20:37:00+00:00",
+    "last_update_at": "2026-10-17T20:37:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4175520-russian-missile-strike-on-kharkiv-injures-three-people.html",
+      "published_at": "2026-10-17T20:37:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-08",
+    "title": "פגיעה במפעל כטבמים במחוז רוסטוב",
+    "summary": "כוחות אוקראיניים פגעו במתקן תעשייתי ברוסיה המייצר כלי טיס בלתי מאוישים לסיור ולתקיפה.",
+    "axis": "רוסטוב, רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T18:27:19+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T18:27:19+00:00",
+    "last_update_at": "2026-10-17T18:27:19+00:00",
+    "what_is_not_verified": "רמת הפגיעה ביכולות הייצור בפועל לא אומתה ממקור ניטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-hits-russian-drone-manufacturing-plant-in-rostov-oblast/",
+      "published_at": "2026-10-17T18:27:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10180240-09",
+    "title": "הפסקות חשמל נרחבות במחוז לוהנסק בעקבות תקיפה",
+    "summary": "תקיפה אוקראינית על רשת החשמל גרמה להשבתת זרם בעשרות רשויות מקומיות ובחלקים מהעיר לוהנסק, ומבני ציבור חוברו לגנרטורים.",
+    "axis": "לוהנסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T16:11:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T16:11:00+00:00",
+    "last_update_at": "2026-10-17T18:00:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2203573",
+      "published_at": "2026-10-17T18:00:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058530/",
+      "published_at": "2026-10-17T16:11:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוהנסק, אוקראינה",
+      "lat": 48.5717,
+      "lon": 39.2973
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-10",
+    "title": "השמדת מערכת שיגור רקטות רוסית במחוז חרסון",
+    "summary": "יחידה מיוחדת של המשמר הלאומי האוקראיני איתרה והשמידה כלי שיגור רקטות מדגם סמרץ ורכב טעינה נלווה באמצעות כטבמים.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T15:41:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T15:41:00+00:00",
+    "last_update_at": "2026-10-17T15:41:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e1ab6cc74120d6b5",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058526/",
+      "published_at": "2026-10-17T15:41:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10180240-11",
+    "title": "הפגזות והפצצות כבדות בחרסון ובסביבתה",
+    "summary": "תקיפות אוויריות והפגזות ארטילריות רוסיות על העיר חרסון וסביבתה הביאו להרג אדם אחד ולפציעת עשרות תושבים ואנשי צוות רפואי, לצד נזק למבני מגורים ומוסדות רפואה.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T15:33:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T15:33:00+00:00",
+    "last_update_at": "2026-10-17T15:33:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a91929cf03612b38",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058525/",
+      "published_at": "2026-10-17T15:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-12",
+    "title": "הפצצה אווירית קטלנית על מבנה מגורים בסלוביאנסק",
+    "summary": "פצצה אווירית כבדה שהוטלה על אזור מגורים בעיר סלוביאנסק גרמה להרס מבנים, לפציעת אזרחים ולמותו של איש צוותי ההצלה האוקראיניים שפעל במקום.",
+    "axis": "דונבאס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T14:41:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T14:41:00+00:00",
+    "last_update_at": "2026-10-17T14:41:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_f57d1312b9fe74f6",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058522/",
+      "published_at": "2026-10-17T14:41:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלוביאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10180240-13",
+    "title": "הכרזה רוסית על אזור ביטחון לא נתון למשא ומתן",
+    "summary": "נשיא רוסיה הודיע על יצירת אזור ביטחון בתוך גבולות אוקראינה לאורך מאות קילומטרים והדגיש כי שטח זה יוחרג מכל שיחות עתידיות.",
+    "axis": "הזירה המדינית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T01:15:21+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T01:15:21+00:00",
+    "last_update_at": "2026-10-17T02:40:32+00:00",
+    "what_is_not_verified": "המיקום המדויק ומידת השליטה הקרקעית ברצועה המוצהרת אינם מאומתים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/17/ukraine-war-briefing-russia-building-non-negotiable-security-zone-inside-ukrainian-border-putin-declares",
+      "published_at": "2026-10-17T01:15:21+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת קצין רוסי בדבר השמדת יחידה אוקראינית של אלפיים חיילים בדוברופוליה",
+   "הדיווחים על פגיעה ממשית במתקני דלק וגשר בסנקט פטרבורג",
+   "הטענה לגבי הוצאה להורג של שבויי מלחמה אוקראינים במחוז זפורוזיה בהוראת מפקד חטיבה",
+   "הטענה בערוץ רוסי כי סרטון שבויי מלחמה בדונייצק בוים על ידי חיילים רוסים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1253,
+    "unit": "USD",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על תשתיות המדינה וגיוס תמיכה בין-לאומית להמשך הלחץ הכלכלי על מוסקבה",
+     "שימור השליטה המערבית בנכסים פיננסיים רוסיים מוקפאים והבטחת מסדרונות מעבר לייצוא חקלאי"
+    ],
+    "inferred": [
+     "שיבוש תעשיית הנשק ושרשראות האספקה בעומק שטח רוסיה באמצעות כטבמים לצורך איזון יתרון האש הרוסי",
+     "מניעת התקרבות בין ארצות הברית להנהגה הרוסית"
+    ],
+    "forecast": [
+     "המשך התמקדות בתקיפות איכותיות נגד תעשיית הביטחון והאנרגיה הרוסית, תוך הידוק שיתוף הפעולה עם מדינות אירופה נוכח אי-הוודאות מוושינגטון"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הקמת רצועת ביטחון מבוצרת בשטח אוקראינה שלא תהיה נתונה למשא ומתן להסדרה",
+     "הגנה על שטח המדינה והדיפת כוחות אוקראיניים מאזורי המזרח"
+    ],
+    "inferred": [
+     "פגיעה שיטתית במערך האנרגיה והתעשייה של אוקראינה לפני החורף כדי לשחוק את יכולת העמידה האזרחית והצבאית",
+     "ניצול הסדקים במדיניות הסנקציות האמריקאית להקלת הלחץ הכלכלי"
+    ],
+    "forecast": [
+     "החרפת התקיפות על תחנות כוח ותשתיות אזרחיות אוקראיניות וביסוס קווי שליטה באזורי החיץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/17/ukraine-war-briefing-russia-building-non-negotiable-security-zone-inside-ukrainian-border-putin-declares",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-hits-russian-drone-manufacturing-plant-in-rostov-oblast/",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/17/8058522/",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2203573",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48659",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4175520-russian-missile-strike-on-kharkiv-injures-three-people.html",
+    "accessed_at": "2026-10-18T02:40:32+00:00"
+   }
+  ]
+ }
+}

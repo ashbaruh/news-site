@@ -1,0 +1,381 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4733ace0a052",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-18T02:41:40+00:00",
+  "window": {
+   "from": "2026-10-17T02:41:40+00:00",
+   "to": "2026-10-18T02:41:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610180241"
+  },
+  "summary": "הגזרה מתאפיינת בפעילות צבאית נמשכת של ישראל בדרום לבנון ובדרום סוריה לצד היערכות לשיחות משולשות בארצות הברית לבלימת ההסלמה. במקביל, השלטונות בלבנון פועלים משפטית נגד גורמים בחזבאללה על רקע הברחת חומרי נפץ ופועלים במישור הדיפלומטי מול צרפת להארכת מנדט יוניפי\"ל. המתיחות נשמרת מול דרישות ישראל לפירוק חזבאללה מנשקו ויציאה מדרום לבנון.",
+  "fronts": [
+   {
+    "name": "דרום לבנון וישראל",
+    "status": "עימות צבאי פעיל הכולל הפגזות לצד מגעים מדיניים לקראת שיחות משולשות"
+   },
+   {
+    "name": "דרום סוריה וישראל",
+    "status": "פעילות צבאית ישראלית קרקעית ואווירית מוגבלת וקריאות סוריות להתערבות האו\"ם"
+   },
+   {
+    "name": "הזירה הפנים-לבנונית מול חזבאללה",
+    "status": "מתח ביטחוני ומשפטי בעקבות תפיסת חומרי נפץ וצווי מעצר לבכירי הארגון"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10180241-01",
+    "title": "הכרזה על שיחות משולשות בין לבנון, ישראל וארצות הברית בפלורידה",
+    "summary": "משלחת צבאית מלבנון צפויה להשתתף במפגש משולש בטמפה שבפלורידה כדי לדרוש את עצירת התקיפות וההסלמה הישראלית ולקדם יישום של הסכם המסגרת.",
+    "axis": "לבנון - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T19:13:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T19:13:53+00:00",
+    "last_update_at": "2026-10-17T22:44:52+00:00",
+    "what_is_not_verified": "נכונות הצד הישראלי להיענות לדרישות לבנון ועמדת ארצות הברית בנוגע לתנאי ההסכם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21646881",
+      "published_at": "2026-10-17T22:44:52+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/lebanon-says-military-delegation-will-press-halt-israeli-attacks-us-talks",
+      "published_at": "2026-10-17T20:46:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-join-trilateral-talks-israel-and-us-florida-next-week-aoun-says",
+      "published_at": "2026-10-17T19:48:34+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanon-to-take-part-in-us-backed-trilateral-talks-with-israel-on-oct-20-president-says/4092254",
+      "published_at": "2026-10-17T19:13:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טמפה, ארצות הברית",
+      "lat": 27.945,
+      "lon": -82.4583
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10180241-02",
+    "title": "פעילות צבאית ותקיפות ישראליות בדרום לבנון",
+    "summary": "פיצוץ משמעותי בוצע באזור זוטר א-שרקיה בנבטיה לאחר ירי ארטילרי לסירוגין, ובמקביל צבא לבנון נטרל שתי פצצות שלא התפוצצו בעיירות כפרא ותולין.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T19:48:34+00:00",
+    "last_update_at": "2026-10-17T19:48:34+00:00",
+    "what_is_not_verified": "היקף הנזק או הנפגעים כתוצאה מהפיצוץ ומהירי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-join-trilateral-talks-israel-and-us-florida-next-week-aoun-says",
+      "published_at": "2026-10-17T19:48:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפרא, לבנון",
+      "lat": 33.1805,
+      "lon": 35.354
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10180241-03",
+    "title": "תנועת כוחות ישראליים במרחב הכפרי המערבי של דרעא בסוריה",
+    "summary": "שני כלי רכב צבאיים של ישראל נכנסו לאזור ואדי א-רקאד בדרום סוריה בליווי פעילות של כטב\"מי סיור.",
+    "axis": "דרום סוריה - ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:50:32+00:00",
+    "last_update_at": "2026-10-17T12:50:32+00:00",
+    "what_is_not_verified": "מטרת הפעילות או משך השהות של הכלים בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-enter-western-daraa-countryside-in-southern-syria/4091982",
+      "published_at": "2026-10-17T12:50:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ואדי א-רקאד, סוריה",
+      "lat": 32.8011,
+      "lon": 35.8268
+     },
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10180241-04",
+    "title": "קריאת מושל קוניטרה לתיעוד הפרות ישראליות בידי כוח האו\"ם",
+    "summary": "מושל מחוז קוניטרה בסוריה פנה לכוחות האו\"ם בדרישה לתעד הפרות של ישראל כדי לסייע בהגנה על התושבים המקומיים.",
+    "axis": "דרום סוריה - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T12:16:41+00:00",
+    "last_update_at": "2026-10-17T12:16:41+00:00",
+    "what_is_not_verified": "מענה או תגובה רשמית של כוחות האו\"ם לקריאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-s-quneitra-governor-urges-un-force-to-document-israeli-violations/4091954",
+      "published_at": "2026-10-17T12:16:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10180241-05",
+    "title": "הוצאת צווי מעצר בלבנון נגד בכירי חזבאללה בפרשת משאית חומרי הנפץ",
+    "summary": "התובע הכללי בלבנון הוציא צווי מעצר לשני בכירים בחזבאללה, חסין עבדאללה ועלי איוב, בעקבות תפיסת משאית עם חומרי נפץ שהייתה בדרכה מבעלבכ לדאחיה.",
+    "axis": "לבנון פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T08:17:22+00:00",
+    "last_update_at": "2026-10-17T08:17:22+00:00",
+    "what_is_not_verified": "יעדי הפיגועים המדויקים שתוכננו באמצעות חומרי הנפץ וזהות מעורבים נוספים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132046",
+      "published_at": "2026-10-17T08:17:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10180241-06",
+    "title": "שיחות בכירי ממשל צרפת בביירות על נוכחות בינלאומית והסכם המסגרת",
+    "summary": "שרי החוץ וההגנה של צרפת הגיעו ללבנון לדיונים עם הנשיא ומפקד הצבא בנוגע להסדרי הנוכחות הבינלאומית בדרום המדינה, הארכת מנדט יוניפי\"ל ויישום הסכם המסגרת.",
+    "axis": "לבנון - צרפת",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-17T08:10:52+00:00",
+    "last_update_at": "2026-10-17T19:48:34+00:00",
+    "what_is_not_verified": "הסכמת כלל המדינות החברות באו\"ם להארכת מנדט יוניפי\"ל עד שנת 2027",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-join-trilateral-talks-israel-and-us-florida-next-week-aoun-says",
+      "published_at": "2026-10-17T19:48:34+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963310/french-foreign-and-defense-ministers-arrive-in-lebanon-for-talks-on-se/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963310",
+      "published_at": "2026-10-17T08:10:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10180241-07",
+    "title": "פגישת שרי החוץ של איראן ולבנון בבגדאד",
+    "summary": "שר החוץ האיראני עראקצ'י נועד עם מקבילו הלבנוני רג'י והדגיש את תמיכת ארצו בריבונות לבנון ובביטחונה מול פעולות ישראל.",
+    "axis": "לבנון - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-17T14:19:11+00:00",
+    "last_update_at": "2026-10-17T16:36:59+00:00",
+    "what_is_not_verified": "פרטי הסיוע המעשי שאיראן מתכוונת להעניק ללבנון מעבר להצהרות תמיכה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/139382/",
+      "published_at": "2026-10-17T16:36:59+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/139372/",
+      "published_at": "2026-10-17T16:35:44+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/139297/",
+      "published_at": "2026-10-17T14:19:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות עיתון אלאח'באר על ייעוד חומרי הנפץ לביצוע חיסולים בתוך לבנון",
+   "מידת ההסכמה הישראלית לעמוד בהסכם המסגרת מחודש יוני",
+   "ההיתכנות המעשית של הארכת מנדט כוח יוניפי\"ל עד 2027 ללא וטו באו\"ם"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "לבנון (ממשל ונשיאות)",
+    "declared": [
+     "הבאת משלחת צבאית לשיחות בארצות הברית כדי לבלום את ההסלמה והתקיפות הישראליות",
+     "הארכת מנדט כוח יוניפי\"ל בדרום המדינה עד לסוף שנת 2027",
+     "יישום תוצאות התואמות להסכם המסגרת שנחתם בתיווך ארצות הברית"
+    ],
+    "inferred": [
+     "מניעת עימות ישיר בין צבא לבנון לכוחות צה\"ל באמצעות נוכחות כוח בינלאומי חוצץ",
+     "צמצום חופש הפעולה הצבאי והמבצעי העצמאי של חזבאללה בשטח המדינה"
+    ],
+    "forecast": [
+     "המשך הדרישה לפיקוח בינלאומי הדוק בדרום המדינה כדי למנוע ריק ביטחוני",
+     "התגברות החיכוך הפוליטי והביטחוני הפנימי סביב פעילות חזבאללה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התעקשות על פירוק חזבאללה מנשקו ויציאתו מאזור דרום לבנון"
+    ],
+    "inferred": [
+     "המשך הפעלת לחץ צבאי באש ובתנועות קרקעיות בדרום לבנון ובדרום סוריה לאבטחת הגבול",
+     "החזקת רצועת ביטחון ומניעת התבססות של גורמים עוינים סמוך לגבול"
+    ],
+    "forecast": [
+     "התמדה בהתקפות נקודתיות בדרום לבנון גם במקביל לקיום שיחות מדיניות"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "תמיכה בריבונות לבנון, בשלמות שטחה ובביטחונה הלאומי מול ישראל"
+    ],
+    "inferred": [
+     "שימור ההשפעה המדינית והביטחונית בלבנון באמצעות גיבוי רשמי לממשלה ולקשריה האזוריים"
+    ],
+    "forecast": [
+     "המשך ניסיונות דיפלומטיים לבלום לחצים בינלאומיים המופעלים על בעלי בריתה בלבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/139297/",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/lebanon-says-military-delegation-will-press-halt-israeli-attacks-us-talks",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-s-quneitra-governor-urges-un-force-to-document-israeli-violations/4091954",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21646881",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/963310/french-foreign-and-defense-ministers-arrive-in-lebanon-for-talks-on-se/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963310",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-join-trilateral-talks-israel-and-us-florida-next-week-aoun-says",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132046",
+    "accessed_at": "2026-10-18T02:41:40+00:00"
+   }
+  ]
+ }
+}
