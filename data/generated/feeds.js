@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T14:52:45+00:00",
-  "fetched_at": "2026-10-18T14:52:45+00:00"
+  "checked_at": "2026-10-18T15:17:24+00:00",
+  "fetched_at": "2026-10-18T15:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T14:52:54+00:00",
-  "fetched_at": "2026-10-18T14:52:54+00:00"
+  "checked_at": "2026-10-18T15:17:38+00:00",
+  "fetched_at": "2026-10-18T15:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T14:52:54+00:00",
-  "fetched_at": "2026-10-18T14:52:54+00:00"
+  "checked_at": "2026-10-18T15:17:38+00:00",
+  "fetched_at": "2026-10-18T15:17:38+00:00"
  },
- "generated_at": "2026-10-18T14:52:54+00:00",
+ "generated_at": "2026-10-18T15:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,20 @@ window.DB.generated = {
     {
      "title": "הרמטכ\"ל החליט: עוצר יציאות בצה\"ל ביום הבחירות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559830",
-     "date": "2026-10-18T14:50:00+00:00"
+     "date": "2026-10-18T14:53:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "גל האלימות מתפשט באירופה: מהומות קשות מבריחות תיירים וסוגרות עסקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559905",
+     "date": "2026-10-18T15:02:00+00:00"
+    },
+    {
+     "title": "טראמפ מביע תמיכה בנתניהו: \"אם לישראל יהיה מנהיג אחר אמריקה תצטרך לבצע את העבודה בעצמה\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559958",
+     "date": "2026-10-18T14:59:00+00:00"
+    },
     {
      "title": "מנכ\"ל לאומי נגד חיוב לשלם ריבית על העו\"ש: \"אי הזמינות של הכסף שווה כסף\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559952",
@@ -199,11 +209,6 @@ window.DB.generated = {
      "date": "2026-10-16T11:04:00+00:00"
     },
     {
-     "title": "אילון מאסק מציג: מכונית מעופפת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559822",
-     "date": "2026-10-16T06:34:00+00:00"
-    },
-    {
      "title": "אקירוב בגיל 85: \"אני לא יכול לצאת לפנסיה - זה יעשה אותי חולה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559427",
      "date": "2026-10-16T03:53:00+00:00"
@@ -211,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T14:52:46+00:00",
-  "fetched_at": "2026-10-18T14:52:46+00:00"
+  "checked_at": "2026-10-18T15:17:25+00:00",
+  "fetched_at": "2026-10-18T15:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T14:52:46+00:00",
-  "fetched_at": "2026-10-18T14:52:46+00:00"
+  "checked_at": "2026-10-18T15:17:26+00:00",
+  "fetched_at": "2026-10-18T15:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2759,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T14:52:47+00:00",
-  "fetched_at": "2026-10-18T14:52:47+00:00"
+  "checked_at": "2026-10-18T15:17:28+00:00",
+  "fetched_at": "2026-10-18T15:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2891,8 +2896,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T14:52:47+00:00",
-  "fetched_at": "2026-10-18T14:52:47+00:00"
+  "checked_at": "2026-10-18T15:17:28+00:00",
+  "fetched_at": "2026-10-18T15:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2914,8 +2919,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
-   "failed_sources": [],
+   "candidates": 5,
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
@@ -2956,7 +2963,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 340,
+     "likes": 341,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -2970,7 +2977,7 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     },
     {
@@ -2984,29 +2991,47 @@ window.DB.generated = {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T14:52:53+00:00",
-  "fetched_at": "2026-10-18T14:52:53+00:00"
+  "checked_at": "2026-10-18T15:17:36+00:00",
+  "fetched_at": "2026-10-18T15:17:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי בספורט2: גלוך פתח, כרונינגן - אייאקס 0:0 (מחצית 1)",
+     "title": "קומו גברה 1:3 על פיורנטינה, גאנדלמן לא שותף בניצחון לצ'ה",
+     "link": "https://sports.walla.co.il/item/3872531",
+     "date": "2026-10-18T15:05:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עומרי גאנדלמן"
+     ]
+    },
+    {
+     "title": "חי בספורט2: גלוך פתח, כרונינגן - אייאקס 1:0 (מחצית 1)",
      "link": "https://sports.walla.co.il/item/3872737",
-     "date": "2026-10-18T14:45:00+00:00",
+     "date": "2026-10-18T15:00:00+00:00",
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
      ]
     },
     {
-     "title": "גאנדלמן לא שותף, לצ'ה ניצחה 0:3 את אודינזה",
+     "title": "צפו: 0:5 ענק לברייטון על פאלאס וחלאילי, אכזבה ליונייטד",
+     "link": "https://sports.walla.co.il/item/3872528",
+     "date": "2026-10-18T14:47:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "גאנדלמן לא שותף בניצחון לצ'ה, 1:3 נהדר לקומו",
      "link": "https://www.one.co.il/Article/536356.html?ref=rss",
      "date": "2026-10-18T12:12:00+00:00",
      "source": "ONE",
@@ -3066,15 +3091,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דיא סבע"
-     ]
-    },
-    {
-     "title": "12 נקודות לאבדיה, פורטלנד הפסידה לגולדן סטייט",
-     "link": "https://www.one.co.il/Article/536208.html?ref=rss",
-     "date": "2026-10-17T04:35:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
      ]
     },
     {
@@ -3323,8 +3339,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T14:52:50+00:00",
-  "fetched_at": "2026-10-18T14:52:50+00:00"
+  "checked_at": "2026-10-18T15:17:32+00:00",
+  "fetched_at": "2026-10-18T15:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3354,60 +3370,59 @@ window.DB.generated = {
     "date": "2026-10-17T05:42:16+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-18T14:52:50+00:00",
-  "fetched_at": "2026-10-18T14:17:27+00:00"
+  "ok": true,
+  "checked_at": "2026-10-18T15:17:33+00:00",
+  "fetched_at": "2026-10-18T15:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-18T14:50:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "newest": "2026-10-18T15:08:00+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T14:08:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-18T13:45:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "newest": "2026-10-18T15:02:00+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-18T14:47:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "newest": "2026-10-18T15:05:00+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-18T14:10:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-18T14:45:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "newest": "2026-10-18T15:04:00+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-18T11:00:51+00:00",
-    "seen_at": "2026-10-18T14:17:32+00:00",
+    "newest": "2026-10-18T15:03:59+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3419,28 +3434,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-18T11:01:19+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-18T07:00:00+00:00",
-    "seen_at": "2026-10-18T14:52:54+00:00",
+    "seen_at": "2026-10-18T15:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T14:52:54+00:00"
+  "checked_at": "2026-10-18T15:17:38+00:00"
  }
 };
