@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T19:17:23+00:00",
-  "fetched_at": "2026-10-18T19:17:23+00:00"
+  "checked_at": "2026-10-18T20:17:25+00:00",
+  "fetched_at": "2026-10-18T20:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T19:17:41+00:00",
-  "fetched_at": "2026-10-18T19:17:41+00:00"
+  "checked_at": "2026-10-18T20:17:36+00:00",
+  "fetched_at": "2026-10-18T20:17:36+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T19:17:41+00:00",
-  "fetched_at": "2026-10-18T19:17:41+00:00"
+  "checked_at": "2026-10-18T20:17:36+00:00",
+  "fetched_at": "2026-10-18T20:17:36+00:00"
  },
- "generated_at": "2026-10-18T19:17:41+00:00",
+ "generated_at": "2026-10-18T20:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-18T18:00:00+00:00"
     },
     {
-     "title": "הרמטכ\"ל החליט: עוצר יציאות בצה\"ל ביום הבחירות",
+     "title": "מטוס שהמריא מישראל לווינה נחת בבולגריה בשל דיווח על חפץ חשוד",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559830",
-     "date": "2026-10-18T18:45:00+00:00"
+     "date": "2026-10-18T18:55:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T19:17:25+00:00",
-  "fetched_at": "2026-10-18T19:17:25+00:00"
+  "checked_at": "2026-10-18T20:17:26+00:00",
+  "fetched_at": "2026-10-18T20:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -650,7 +650,7 @@ window.DB.generated = {
     "home": "הפועל ב\"ש",
     "away": "הפועל ירושלים",
     "round": "מחזור 7",
-    "score": "",
+    "score": "2-1",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T19:17:26+00:00",
-  "fetched_at": "2026-10-18T19:17:26+00:00"
+  "checked_at": "2026-10-18T20:17:27+00:00",
+  "fetched_at": "2026-10-18T20:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2764,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T19:17:31+00:00",
-  "fetched_at": "2026-10-18T19:17:31+00:00"
+  "checked_at": "2026-10-18T20:17:28+00:00",
+  "fetched_at": "2026-10-18T20:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2868,6 +2868,15 @@ window.DB.generated = {
      "round": "מחזור 7",
      "score": "1-2",
      "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-18",
+     "time": "20:15",
+     "home": "הפועל ב\"ש",
+     "away": "הפועל ירושלים",
+     "round": "מחזור 7",
+     "score": "2-1",
+     "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
    "results_available": true,
@@ -2896,8 +2905,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T19:17:31+00:00",
-  "fetched_at": "2026-10-18T19:17:31+00:00"
+  "checked_at": "2026-10-18T20:17:28+00:00",
+  "fetched_at": "2026-10-18T20:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -2920,22 +2929,20 @@ window.DB.generated = {
     }
    ],
    "candidates": 5,
-   "failed_sources": [
-    "Google DeepMind"
-   ],
+   "failed_sources": [],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 650,
+     "likes": 652,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 718,
+     "likes": 719,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2953,11 +2960,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
-     "title": "Qwen 2511 + Flux.2 klein 9B",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
      "likes": 134,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Viggle Turbo for Qwen-Image-2.1",
@@ -2974,6 +2981,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     },
     {
+     "title": "MOSS-Image Workflow",
+     "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
+     "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
+     "likes": 69,
+     "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
+    },
+    {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
@@ -2981,24 +2995,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     },
     {
-     "title": "MOSS-Image Workflow",
-     "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
-     "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 68,
-     "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
-    },
-    {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 100,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T19:17:40+00:00",
-  "fetched_at": "2026-10-18T19:17:40+00:00"
+  "checked_at": "2026-10-18T20:17:35+00:00",
+  "fetched_at": "2026-10-18T20:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -3341,8 +3348,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T19:17:35+00:00",
-  "fetched_at": "2026-10-18T19:17:35+00:00"
+  "checked_at": "2026-10-18T20:17:31+00:00",
+  "fetched_at": "2026-10-18T20:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3372,8 +3379,9 @@ window.DB.generated = {
     "date": "2026-10-17T05:42:16+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-18T19:17:36+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-18T20:17:31+00:00",
   "fetched_at": "2026-10-18T19:17:36+00:00"
  },
  "feed_health": {
@@ -3382,43 +3390,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-18T18:59:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-18T18:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-18T19:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-18T18:19:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "newest": "2026-10-18T19:27:00+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-18T19:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "newest": "2026-10-18T20:06:00+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3430,34 +3438,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-18T17:17:36+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-18T15:52:47+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-18T07:00:00+00:00",
-    "seen_at": "2026-10-18T19:17:41+00:00",
+    "seen_at": "2026-10-18T20:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T19:17:41+00:00"
+  "checked_at": "2026-10-18T20:17:36+00:00"
  }
 };
