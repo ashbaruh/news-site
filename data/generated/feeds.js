@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-17T23:28:28+00:00",
-  "fetched_at": "2026-10-17T23:28:28+00:00"
+  "checked_at": "2026-10-18T00:17:26+00:00",
+  "fetched_at": "2026-10-18T00:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T23:28:38+00:00",
-  "fetched_at": "2026-10-17T23:28:38+00:00"
+  "checked_at": "2026-10-18T00:17:38+00:00",
+  "fetched_at": "2026-10-18T00:17:38+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch South Africa vs Australia 2nd Test 2026: Live stream cricket for free from anywhere",
+    "title_he": "כיצד לצפות בדרום אפריקה נגד אוסטרליה במבחן השני 2026: קריקט בשידור חי בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/south-africa-vs-australia-2nd-test-2026",
+    "date": "2026-10-17T23:30:00+00:00"
+   },
    {
     "title_en": "How to watch England, Pakistan and Sri Lanka ODI tri-series 2026: Live stream for free from anywhere",
     "title_he": "כיצד לצפות באנגליה, פקיסטן וסרי לנקה ODI משולשת סדרת 2026: שידור חי בחינם מכל מקום",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/now-showing-4-movies-and-shows-weve-been-using-to-show-off-the-newest-home-cinema-products-this-month",
     "date": "2026-10-17T08:30:00+00:00"
-   },
-   {
-    "title_en": "How to watch Australia vs New Zealand 2nd Test: FREE live streams",
-    "title_he": "כיצד לצפות במבחן השני של אוסטרליה נגד ניו זילנד: שידורים חיים בחינם",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/australia-vs-new-free-bledisloe-cup-2026",
-    "date": "2026-10-16T21:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T23:28:38+00:00",
-  "fetched_at": "2026-10-17T23:28:38+00:00"
+  "checked_at": "2026-10-18T00:17:39+00:00",
+  "fetched_at": "2026-10-18T00:17:39+00:00"
  },
- "generated_at": "2026-10-17T23:28:38+00:00",
+ "generated_at": "2026-10-18T00:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T23:28:29+00:00",
-  "fetched_at": "2026-10-17T23:28:29+00:00"
+  "checked_at": "2026-10-18T00:17:27+00:00",
+  "fetched_at": "2026-10-18T00:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T23:28:30+00:00",
-  "fetched_at": "2026-10-17T23:28:30+00:00"
+  "checked_at": "2026-10-18T00:17:28+00:00",
+  "fetched_at": "2026-10-18T00:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2715,8 +2715,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T23:28:33+00:00",
-  "fetched_at": "2026-10-17T23:28:33+00:00"
+  "checked_at": "2026-10-18T00:17:30+00:00",
+  "fetched_at": "2026-10-18T00:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2833,12 +2833,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T23:28:33+00:00",
-  "fetched_at": "2026-10-17T23:28:33+00:00"
+  "checked_at": "2026-10-18T00:17:30+00:00",
+  "fetched_at": "2026-10-18T00:17:30+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/geek-events-18102026/",
+     "date": "2026-10-17T15:46:25+00:00",
+     "launch": false,
+     "title": "3 אירועי טכנולוגיה שיהפכו את סוכני ה-AI שלכם להרבה יותר חזקים"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -2847,21 +2854,11 @@ window.DB.generated = {
      "title_en": "Bringing GPT-Rosalind to academic research labs",
      "title_he": "הבאת GPT-Rosalind למעבדות מחקר אקדמיות",
      "translated_by": "google"
-    },
-    {
-     "source": "Anthropic",
-     "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-     "date": "2026-10-15T12:00:00+00:00",
-     "launch": false,
-     "title_en": "An update on independent evaluators",
-     "title_he": "עדכון על מעריכים בלתי תלויים",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
+   "candidates": 5,
    "failed_sources": [
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2910,14 +2907,14 @@ window.DB.generated = {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 77,
+     "likes": 78,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
      "title": "Qwen 2511 + Flux.2 klein 9B",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 9B",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 9B",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein-9B"
     },
     {
@@ -2937,8 +2934,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-17T23:28:38+00:00",
-  "fetched_at": "2026-10-17T23:28:38+00:00"
+  "checked_at": "2026-10-18T00:17:37+00:00",
+  "fetched_at": "2026-10-18T00:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -3280,8 +3277,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-17T23:28:36+00:00",
-  "fetched_at": "2026-10-17T23:28:36+00:00"
+  "checked_at": "2026-10-18T00:17:33+00:00",
+  "fetched_at": "2026-10-18T00:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3312,8 +3309,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-17T23:28:37+00:00",
-  "fetched_at": "2026-10-17T23:28:37+00:00"
+  "checked_at": "2026-10-18T00:17:33+00:00",
+  "fetched_at": "2026-10-18T00:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3321,49 +3318,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-17T19:00:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-17T05:38:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-17T13:57:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-17T21:20:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-17T19:35:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-17T21:00:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-17T14:28:32+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3375,28 +3372,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-17T15:46:25+00:00",
-    "seen_at": "2026-10-17T22:17:30+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-17T23:00:00+00:00",
-    "seen_at": "2026-10-17T23:28:38+00:00",
+    "newest": "2026-10-17T23:30:00+00:00",
+    "seen_at": "2026-10-18T00:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-17T23:28:38+00:00"
+  "checked_at": "2026-10-18T00:17:39+00:00"
  }
 };
