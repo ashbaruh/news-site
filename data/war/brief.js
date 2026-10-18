@@ -1,37 +1,89 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-18T12:00:00+03:00",
- "generated_at": "2026-10-18T08:40:19+00:00",
+ "slot": "2026-10-18T18:00:00+03:00",
+ "generated_at": "2026-10-18T14:40:16+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10180840-01",
-     "title": "אישור מינוי שר ההגנה החדש באיראן",
-     "summary": "הפרלמנט האיראני דן במועמדותו של מהרדאד אח'לאקי כיתאבצ'י ואישר את כניסתו לתפקיד שר ההגנה.",
-     "axis": "iran",
-     "claim_type": "incident",
+     "id": "IRAN-10181440-01",
+     "title": "איתות איראני לשינוי במדיניות הגרעין והצבת תנאים לפתיחת הורמוז",
+     "summary": "גורמים באיראן העלו אפשרות לשינוי במדיניות הגרעין ואיימו בתגובה נגד תקיפות נוספות, במקביל להצגת תנאים לפתיחת מצר הורמוז.",
+     "axis": "עימות איראן מול ארה\"ב וישראל",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T07:28:31+00:00",
+     "occurred_at": "2026-10-18T13:21:17+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-18T13:21:17+00:00",
+     "last_update_at": "2026-10-18T13:21:17+00:00",
+     "what_is_not_verified": "התנאים המדויקים ואופי השינוי במדיניות לא פורטו במלואם בידיעה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610180983",
+       "published_at": "2026-10-18T13:21:17+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10181440-02",
+     "title": "הצעה איראנית לפתיחת מצר הורמוז תוך שבעה ימים",
+     "summary": "שר החוץ האיראני מסר כי ההצעה לארצות הברית לפתיחת מצר הורמוז בתוך שבעה ימים עדיין תקפה, על רקע תקיעות בשיחות.",
+     "axis": "חופש השיט במצר הורמוז",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T10:46:25+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-18T10:46:25+00:00",
+     "last_update_at": "2026-10-18T10:46:25+00:00",
+     "what_is_not_verified": "תוכן המענה האמריקאי ומידת ההיתכנות של ההסכם",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+       "published_at": "2026-10-18T10:46:25+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10181440-03",
+     "title": "אישור מינוי שר ההגנה החדש באיראן ואיומים כלפי ארה\"ב",
+     "summary": "הפרלמנט בטהראן אישר את מינויו של מהרדאד אח'לאקי לשר ההגנה, אשר הזהיר מתגובה מפתיעה ונרחבת לכל פעולה אמריקאית.",
+     "axis": "הזירה הפנימית והצבאית באיראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T08:27:56+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-18T07:28:31+00:00",
-     "last_update_at": "2026-10-18T08:27:56+00:00",
-     "what_is_not_verified": "אין אימות עצמאי רשמי לדיווח הטלגרם על אישור המינוי הסופי מעבר לדיוני הפרלמנט שדווחו בסוכנות הידיעות.",
+     "first_reported_at": "2026-10-18T08:27:56+00:00",
+     "last_update_at": "2026-10-18T11:05:30+00:00",
+     "what_is_not_verified": "אין אימות עצמאי למועד המראת מטוס הקרב הכבד עליו הצהיר",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_0ea2ed5008cd8f0d",
+       "source_root_id": "fh_0e7e75ede88aa02d",
        "url": "https://t.me/abualiexpress/132112",
        "published_at": "2026-10-18T08:27:56+00:00"
       },
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_0ea2ed5008cd8f0d",
-       "url": "https://en.irna.ir/news/86295733/Iranian-parliament-weighs-defense-minister-nominee-s-credentials",
-       "published_at": "2026-10-18T07:28:31+00:00"
+       "source_root_id": "fh_0e7e75ede88aa02d",
+       "url": "https://en.irna.ir/news/86296123/Pezeshkian-Parliament-s-approval-of-defense-minister-nominee",
+       "published_at": "2026-10-18T11:05:30+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_0e7e75ede88aa02d",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-new-defence-minister-issues-warning-us",
+       "published_at": "2026-10-18T09:59:56+00:00"
       }
      ],
      "places": [
@@ -41,53 +93,82 @@ window.DB.war_brief = {
        "lon": 51.3896
       }
      ]
-    },
-    {
-     "id": "IRAN-10180840-02",
-     "title": "דרישת ארצות הברית בנוגע לתוכנית הגרעין האיראנית",
-     "summary": "סגן נשיא ארצות הברית הצהיר כי הממשל פועל להשגת התחייבות ארוכת טווח וניתנת לאימות מצד איראן שלא לחדש את תוכנית הגרעין שלה.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-18T06:13:11+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-18T06:13:11+00:00",
-     "last_update_at": "2026-10-18T06:13:11+00:00",
-     "what_is_not_verified": "לא פורטו תגובת איראן או צעדים מעשיים ליישום הדרישה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-644",
-       "published_at": "2026-10-18T06:13:11+00:00"
-      }
-     ],
-     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10180840-01",
-     "title": "התקדמות כוחות ישראליים במחוז קוניטרה בסוריה",
-     "summary": "רשת אל-ג'זירה דיווחה כי שישה כלי רכב צבאיים של צבא ישראל התקדמו לעבר אזור אל-מקר בדרום המחוז.",
-     "axis": "north",
-     "claim_type": "incident",
+     "id": "NORTH-10181440-01",
+     "title": "טענות לחטיפת שני חקלאים בידי כוח ישראלי ושחרורם",
+     "summary": "בלבנון נטען כי כוח צבאי ישראלי נכנס לאזור כפר שובא, עצר שני מוסקי זיתים לחקירת שדה ושחרר אותם לאחר מכן.",
+     "axis": "גבול ישראל-לבנון",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T06:51:51+00:00",
+     "occurred_at": "2026-10-18T11:15:54+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-18T06:51:51+00:00",
-     "last_update_at": "2026-10-18T06:51:51+00:00",
-     "what_is_not_verified": "הדיווח נסמך על רשת אל-ג'זירה בלבד ללא אישור רשמי של צה\"ל או גורמים סוריים.",
+     "first_reported_at": "2026-10-18T11:15:54+00:00",
+     "last_update_at": "2026-10-18T11:15:54+00:00",
+     "what_is_not_verified": "אין תגובה או אימות מצד צה\"ל או גורם ישראלי לאירוע",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-advance-syrias-quneitra-province-al-jazeera-reports",
-       "published_at": "2026-10-18T06:51:51+00:00"
+       "url": "https://english.almanar.com.lb/article/139547/",
+       "published_at": "2026-10-18T11:15:54+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפר שובא, לבנון",
+       "lat": 33.3277,
+       "lon": 35.6927
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10181440-02",
+     "title": "העלאת כוננות צה\"ל לקראת הבחירות בישראל",
+     "summary": "דווח כי הצבא הישראלי העלה את רמת הכוננות ונערך בגולן ובדרום לבנון עם שתי אוגדות לקראת אפשרות להסלמה.",
+     "axis": "היערכות צה\"ל בצפון",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T13:07:19+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-18T13:07:19+00:00",
+     "last_update_at": "2026-10-18T13:07:19+00:00",
+     "what_is_not_verified": "מבוסס על דיווחים עיתונאיים ללא הודעה רשמית של צה\"ל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/israeli-army-raises-alert-level-ahead-election",
+       "published_at": "2026-10-18T13:07:19+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10181440-03",
+     "title": "קריאת שר החוץ הלבנוני להפסקת התערבות איראן וחימוש חיזבאללה",
+     "summary": "שר החוץ של לבנון פנה לטהראן בדרישה להפסיק להעביר נשק וכספים לחיזבאללה, והאשים את הארגון בהבאת מלחמות הרסניות.",
+     "axis": "מדיניות הפנים והחוץ של לבנון",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T12:34:37+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-18T12:34:37+00:00",
+     "last_update_at": "2026-10-18T12:34:37+00:00",
+     "what_is_not_verified": "תגובת איראן או חיזבאללה לקריאה זו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21651066",
+       "published_at": "2026-10-18T12:34:37+00:00"
       }
      ],
      "places": []
@@ -97,71 +178,30 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10180840-01",
-     "title": "מתקפת כטב\"מים וטיל על אוקראינה ונזק לתשתיות חשמל",
-     "summary": "חיל האוויר האוקראיני דיווח על שיגור טיל בליסטי ומאה ושמונים כטב\"מים מרוסיה, כאשר פגיעות ברשת החשמל במחוז אודסה ניתקו עשרות אלפי תושבים מזרם החשמל וגרמו להפסקות יזומות באזור קייב.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10181440-01",
+     "title": "תקיפות הדדיות נרחבות על תשתיות אנרגיה במקביל למעל אלף כטב\"מים אוקראיניים",
+     "summary": "רוסיה ואוקראינה המשיכו לפגוע במתקני אנרגיה הדדיים, כאשר אוקראינה שיגרה יותר מאלף כלי טיס לעבר מאגרי נפט ומרכזי נתונים ברוסיה.",
+     "axis": "תקיפות תשתיות ואנרגיה הדדיות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T05:15:00+00:00",
+     "occurred_at": "2026-10-18T10:36:22+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-18T05:15:00+00:00",
-     "last_update_at": "2026-10-18T08:04:00+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לתשתיות האנרגיה באודסה לא נמסר.",
+     "first_reported_at": "2026-10-18T10:36:22+00:00",
+     "last_update_at": "2026-10-18T14:31:30+00:00",
+     "what_is_not_verified": "מספר הנפגעים הכולל והיקף הנזק המדויק בכל האתרים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_42f40964260bafb6",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058584/",
-       "published_at": "2026-10-18T08:04:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_260a66bf905e4fca",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058582/",
-       "published_at": "2026-10-18T07:55:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_bae30406126613a3",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058570/",
-       "published_at": "2026-10-18T05:15:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10180840-02",
-     "title": "תקיפת כטב\"מים בסנקט פטרבורג שברוסיה",
-     "summary": "כלי טיס בלתי מאוישים פגעו במרכז לוגיסטי של חברת אוזון, בנמל ובתשתיות נפט בעיר, וגרמו לדליקה ללא נפגעים בנפש.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-18T01:59:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-18T01:59:30+00:00",
-     "last_update_at": "2026-10-18T06:04:00+00:00",
-     "what_is_not_verified": "מידת הנזק המדויקת למתקני התשתית והנמל ברוסיה אינה מאומתת ממקורות רשמיים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_d79fcb605dd4d35c",
-       "url": "https://t.me/alexmehacarmel/48661",
-       "published_at": "2026-10-18T02:40:21+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+       "published_at": "2026-10-18T14:31:30+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "fh_d79fcb605dd4d35c",
-       "url": "https://t.me/alexmehacarmel/48659",
-       "published_at": "2026-10-18T01:59:30+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_d79fcb605dd4d35c",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058573/",
-       "published_at": "2026-10-18T06:04:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48666",
+       "published_at": "2026-10-18T10:36:22+00:00"
       }
      ],
      "places": [
@@ -173,118 +213,130 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-10180840-03",
-     "title": "השעיית סנקציות אמריקאיות על רוסיה",
-     "summary": "מזכיר המדינה האמריקאי הצהיר כי הנשיא טראמפ חתם על צו המקפיא הטלת סנקציות למשך שישים יום במטרה לבחון את השפעתן הכלכלית.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10181440-02",
+     "title": "הודעת זלנסקי על חידוש שיתוף המודיעין עם ארצות הברית",
+     "summary": "נשיא אוקראינה מסר כי ארצות הברית חידשה את העברת המידע המודיעיני למדינתו לאחר תקופת השעיה מסוימת.",
+     "axis": "יחסי אוקראינה וארצות הברית",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T07:01:00+00:00",
+     "occurred_at": "2026-10-18T14:05:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-18T07:01:00+00:00",
-     "last_update_at": "2026-10-18T07:01:00+00:00",
-     "what_is_not_verified": "לא פורסמו פרטי הצו המלאים או פירוט המדינות הנוספות שיושפעו ממנו.",
+     "first_reported_at": "2026-10-18T14:05:00+00:00",
+     "last_update_at": "2026-10-18T14:05:00+00:00",
+     "what_is_not_verified": "לא נמסרו פרטים לגבי הסיבה להשעיה הזמנית או היקף המודיעין המחודש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-polytics/4175668-us-resumes-intelligence-sharing-with-ukraine-zelensky.html",
+       "published_at": "2026-10-18T14:05:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10181440-03",
+     "title": "פגיעות כטב\"מים רוסיים במחוז חרקוב ובפולטבה",
+     "summary": "תקיפות כטב\"מים רוסיים פצעו ארבעה בני אדם במחוז חרקוב ופגעו במבנה עסקי באזור פולטבה.",
+     "axis": "הלחימה בשטח אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T11:47:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-18T11:47:00+00:00",
+     "last_update_at": "2026-10-18T13:04:00+00:00",
+     "what_is_not_verified": "הערכת הנזק המלאה לעסקים ולתשתיות באזורים שנפגעו",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058578/",
-       "published_at": "2026-10-18T07:01:00+00:00"
+       "source_root_id": "fh_9a5ae433e4812bcb",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058616/",
+       "published_at": "2026-10-18T13:04:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_b707455419346c9b",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058608/",
+       "published_at": "2026-10-18T11:47:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "פולטבה, אוקראינה",
+       "lat": 49.5897,
+       "lon": 34.5508
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10180840-01",
-     "title": "התרסקות מסוק צבאי סעודי בגבול תימן",
-     "summary": "הקואליציה בראשות סעודיה הודיעה כי שני טייסים נהרגו בעקבות תקלה טכנית שהובילה להתרסקות מסוק סיור באזור נג'ראן.",
-     "axis": "yemen",
-     "claim_type": "incident",
+     "id": "YEMEN-10181440-01",
+     "title": "נכונות מצרית להענקת סיוע ביטחוני לסעודיה בעקבות תקיפות החות'ים",
+     "summary": "נשיאות מצרים הודיעה על נכונות לספק לסעודיה תמיכה להגנה על ביטחונה, ונשיא מצרים ביקש מהפרלמנט לדון באישור סיוע צבאי במידת הצורך.",
+     "axis": "התערבות אזורית מול החות'ים",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T03:44:16+00:00",
+     "occurred_at": "2026-10-18T11:02:28+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-18T03:44:16+00:00",
-     "last_update_at": "2026-10-18T08:16:11+00:00",
-     "what_is_not_verified": "הסיבה המדויקת לכשל הטכני עדיין נבדקת על ידי הרשויות בסעודיה.",
+     "first_reported_at": "2026-10-18T11:02:28+00:00",
+     "last_update_at": "2026-10-18T11:09:23+00:00",
+     "what_is_not_verified": "האם ריאד ביקשה סיוע צבאי בפועל ומה יהיה היקפו המדויק",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132117",
+       "published_at": "2026-10-18T11:02:28+00:00"
+      },
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-coalition-helicopter-crashes-near-yemen",
-       "published_at": "2026-10-18T08:16:11+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21647051",
-       "published_at": "2026-10-18T03:44:16+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "נג'ראן, ערב הסעודית",
-       "lat": 17.544,
-       "lon": 44.2247
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10180840-02",
-     "title": "ירי לעבר מכלית גז סמוך לחופי תימן",
-     "summary": "סוכנות הסחר הימי הבריטית דיווחה כי סירה ועליה שבעה חמושים ירתה לעבר מכלית גז ליד העיר אל-מוכלא, ונהדפה בירי אזהרה של צוות האבטחה.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-18T04:56:38+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-18T04:56:38+00:00",
-     "last_update_at": "2026-10-18T04:56:38+00:00",
-     "what_is_not_verified": "זהות החמושים שעל הסירה אינה מאומתת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_f434b8e35a62b668",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-attacked-people-skiff-yemen-ukmto-says",
-       "published_at": "2026-10-18T04:56:38+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אל-מוכלא, תימן",
-       "lat": 14.5425,
-       "lon": 49.1231
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10180840-03",
-     "title": "שחרור עצורים בידי החות'ים בחסות הצלב האדום",
-     "summary": "ארגון הצלב האדום הבינלאומי מסר כי הרשויות החות'יות שחררו כמאה וחמישים ותשעה בני אדם שהיו עצורים על רקע הלחימה בתימן.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-18T04:08:09+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-18T04:08:09+00:00",
-     "last_update_at": "2026-10-18T04:08:09+00:00",
-     "what_is_not_verified": "זהות העצורים המשתחררים והשתייכותם המדויקת לא פורטו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_24b4c8fcf12e349c",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-release-159-people-under-amnesty-under-icrc-watch",
-       "published_at": "2026-10-18T04:08:09+00:00"
+       "url": "https://www.newarab.com/news/egypt-says-ready-give-saudi-arabia-necessary-support",
+       "published_at": "2026-10-18T11:09:23+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "YEMEN-10181440-02",
+     "title": "השבתת משרדים במגדל מרכזי בריאד ודיווח על הרוגים בחיל האוויר הסעודי",
+     "summary": "הנהלת גורד השחקים קינגדום סנטר בריאד הורתה על מעבר חובה לעבודה מרחוק בעקבות יירוטי כטב\"מים ושיבושים מתמשכים ממתקפות החות'ים.",
+     "axis": "מתקפות החות'ים על סעודיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-18T10:30:19+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-18T10:30:19+00:00",
+     "last_update_at": "2026-10-18T13:21:28+00:00",
+     "what_is_not_verified": "הקשר הישיר בין סגירת המשרדים במגדל לבין יירוטי הכטב\"מים האחרונים לא אומת בהודעה הרשמית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_mee",
+       "url": "https://www.middleeasteye.net/news/saudi-chopper-pilots-killed-riyadh-landmark-tower-closes-offices-amid-houthi-fighting",
+       "published_at": "2026-10-18T13:21:28+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_mee",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-skyscraper-closes-offices-houthi-disruption-spreads",
+       "published_at": "2026-10-18T10:30:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
     }
    ]
   }
