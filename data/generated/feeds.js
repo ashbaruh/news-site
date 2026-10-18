@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T11:45:17+00:00",
-  "fetched_at": "2026-10-18T11:45:17+00:00"
+  "checked_at": "2026-10-18T12:17:11+00:00",
+  "fetched_at": "2026-10-18T12:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T11:45:33+00:00",
-  "fetched_at": "2026-10-18T11:45:33+00:00"
+  "checked_at": "2026-10-18T12:17:26+00:00",
+  "fetched_at": "2026-10-18T12:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,15 +79,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T11:45:34+00:00",
-  "fetched_at": "2026-10-18T11:45:34+00:00"
+  "checked_at": "2026-10-18T12:17:27+00:00",
+  "fetched_at": "2026-10-18T12:17:27+00:00"
  },
- "generated_at": "2026-10-18T11:45:34+00:00",
+ "generated_at": "2026-10-18T12:17:27+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הקבלן עזב את האתר, היזם נשאר עם האחריות: המשבר בענף פוגש את אתרי הבנייה",
+     "title": "הקבלן עזב, היזם נשאר עם האחריות: המשבר בענף פוגש את אתרי הבנייה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559401",
      "date": "2026-10-18T11:30:00+00:00"
     },
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-10-18T10:54:00+00:00"
     },
     {
-     "title": "האופציות של ההייטקיסטים הפכו למכרה זהב לחברות שמנהלות אותן",
+     "title": "כולם רוצים לקחת ביס: כך מרוויחים מנהלי האופציות מהאקזיטים של עובדי ההייטק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559760",
      "date": "2026-10-18T10:08:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T11:45:18+00:00",
-  "fetched_at": "2026-10-18T11:45:18+00:00"
+  "checked_at": "2026-10-18T12:17:11+00:00",
+  "fetched_at": "2026-10-18T12:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T11:45:19+00:00",
-  "fetched_at": "2026-10-18T11:45:19+00:00"
+  "checked_at": "2026-10-18T12:17:12+00:00",
+  "fetched_at": "2026-10-18T12:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2236,6 +2236,27 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "פאריס סן ז'רמן עד 19 - ברצלונה עד 19"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "16:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל כפר סבא - הפועל באר שבע"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "16:50",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי נתניה - מכבי תל אביב"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "16:55",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל ראשון לציון - מכבי חיפה"
    },
    {
     "date": "2026-10-20",
@@ -2743,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T11:45:21+00:00",
-  "fetched_at": "2026-10-18T11:45:21+00:00"
+  "checked_at": "2026-10-18T12:17:15+00:00",
+  "fetched_at": "2026-10-18T12:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2852,6 +2873,20 @@ window.DB.generated = {
    "results_available": true,
    "one_sided_tv": [
     {
+     "date": "2026-10-20",
+     "time": "16:45",
+     "channel": "ספורט 5",
+     "israeli_team": "הפועל ב\"ש",
+     "title": "הפועל כפר סבא - הפועל באר שבע"
+    },
+    {
+     "date": "2026-10-20",
+     "time": "16:55",
+     "channel": "ספורט 5",
+     "israeli_team": "מכבי חיפה",
+     "title": "הפועל ראשון לציון - מכבי חיפה"
+    },
+    {
      "date": "2026-10-22",
      "time": "19:45",
      "channel": "ספורט 1",
@@ -2861,8 +2896,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T11:45:21+00:00",
-  "fetched_at": "2026-10-18T11:45:21+00:00"
+  "checked_at": "2026-10-18T12:17:15+00:00",
+  "fetched_at": "2026-10-18T12:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2884,14 +2919,14 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 7,
    "failed_sources": [],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 636,
+     "likes": 638,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2954,18 +2989,27 @@ window.DB.generated = {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T11:45:33+00:00",
-  "fetched_at": "2026-10-18T11:45:33+00:00"
+  "checked_at": "2026-10-18T12:17:25+00:00",
+  "fetched_at": "2026-10-18T12:17:25+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ענאן חלאילי בהרכב קריסטל פאלאס מול ברייטון",
+     "link": "https://www.one.co.il/Article/536354.html?ref=rss",
+     "date": "2026-10-18T12:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "ההימור שהפך להצלחה: הורצלר מחכה לחלאילי במשחק לוהט",
      "link": "https://sports.walla.co.il/item/3872637",
@@ -2973,15 +3017,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "בריבו כבש, דאלאס ניצלה מהפסד מפנדל שסחט בנימין",
-     "link": "https://www.one.co.il/Article/536295.html?ref=rss",
-     "date": "2026-10-18T03:06:00+00:00",
-     "source": "ONE",
-     "players": [
-      "תאי בריבו"
      ]
     },
     {
@@ -3302,8 +3337,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T11:45:25+00:00",
-  "fetched_at": "2026-10-18T11:45:25+00:00"
+  "checked_at": "2026-10-18T12:17:17+00:00",
+  "fetched_at": "2026-10-18T12:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -3334,91 +3369,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T11:45:26+00:00",
-  "fetched_at": "2026-10-18T11:45:26+00:00"
+  "checked_at": "2026-10-18T12:17:17+00:00",
+  "fetched_at": "2026-10-18T12:17:17+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-18T11:38:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "newest": "2026-10-18T12:05:00+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T10:08:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-18T10:54:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-18T10:21:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "newest": "2026-10-18T12:00:00+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-18T11:38:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-18T11:33:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "newest": "2026-10-18T12:04:00+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-18T11:00:51+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-18T11:01:19+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-18T07:00:00+00:00",
-    "seen_at": "2026-10-18T11:45:34+00:00",
+    "seen_at": "2026-10-18T12:17:27+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T11:45:34+00:00"
+  "checked_at": "2026-10-18T12:17:27+00:00"
  }
 };
