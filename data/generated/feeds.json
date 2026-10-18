@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-18T06:17:18+00:00",
-  "fetched_at": "2026-10-18T06:17:18+00:00"
+  "checked_at": "2026-10-18T06:37:37+00:00",
+  "fetched_at": "2026-10-18T06:37:37+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T06:17:26+00:00",
-  "fetched_at": "2026-10-18T06:17:26+00:00"
+  "checked_at": "2026-10-18T06:37:50+00:00",
+  "fetched_at": "2026-10-18T06:37:50+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T06:17:26+00:00",
-  "fetched_at": "2026-10-18T06:17:26+00:00"
+  "checked_at": "2026-10-18T06:37:50+00:00",
+  "fetched_at": "2026-10-18T06:37:50+00:00"
  },
- "generated_at": "2026-10-18T06:17:26+00:00",
+ "generated_at": "2026-10-18T06:37:50+00:00",
  "globes": {
   "data": {
    "top": [
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T06:17:19+00:00",
-  "fetched_at": "2026-10-18T06:17:19+00:00"
+  "checked_at": "2026-10-18T06:37:38+00:00",
+  "fetched_at": "2026-10-18T06:37:38+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T06:17:20+00:00",
-  "fetched_at": "2026-10-18T06:17:20+00:00"
+  "checked_at": "2026-10-18T06:37:39+00:00",
+  "fetched_at": "2026-10-18T06:37:39+00:00"
  },
  "tv": {
   "data": [
@@ -2746,8 +2746,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-18T06:17:20+00:00",
-  "fetched_at": "2026-10-18T06:17:20+00:00"
+  "checked_at": "2026-10-18T06:37:42+00:00",
+  "fetched_at": "2026-10-18T06:37:42+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2864,18 +2864,18 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T06:17:20+00:00",
-  "fetched_at": "2026-10-18T06:17:20+00:00"
+  "checked_at": "2026-10-18T06:37:42+00:00",
+  "fetched_at": "2026-10-18T06:37:42+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/geek-events-18102026/",
-     "date": "2026-10-17T15:46:25+00:00",
+     "link": "https://www.geektime.co.il/cs-drop-electrical-engineering-jump/",
+     "date": "2026-10-18T06:24:43+00:00",
      "launch": false,
-     "title": "3 אירועי טכנולוגיה שיהפכו את סוכני ה-AI שלכם להרבה יותר חזקים"
+     "title": "אפקט קלוד קוד: הסטודנטים נוטשים את מדמ\"ח כדי שלא יוכלו להחליף אותם"
     },
     {
      "source": "OpenAI",
@@ -2888,13 +2888,15 @@
     }
    ],
    "candidates": 6,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 622,
+     "likes": 623,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2908,7 +2910,7 @@
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 97,
+     "likes": 98,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -2963,8 +2965,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-18T06:17:26+00:00",
-  "fetched_at": "2026-10-18T06:17:26+00:00"
+  "checked_at": "2026-10-18T06:37:49+00:00",
+  "fetched_at": "2026-10-18T06:37:49+00:00"
  },
  "abroad": {
   "data": {
@@ -3069,15 +3071,6 @@
      ]
     },
     {
-     "title": "שתי הזדמנויות לנקמה: דניאל פרץ מול השוער שהחרים את ישראל",
-     "link": "https://sports.walla.co.il/item/3872465",
-     "date": "2026-10-16T11:26:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
-     ]
-    },
-    {
      "title": "מוראנט פירגן, לילארד מתחבר: פורטלנד מתלהבת מדני אבדיה",
      "link": "https://sports.walla.co.il/item/3872109",
      "date": "2026-10-14T05:48:00+00:00",
@@ -3099,6 +3092,15 @@
      "title": "לא כוחות: דני אבדיה ופורטלנד הביסו ב-53 הפרש במשחק ההכנה",
      "link": "https://sports.walla.co.il/item/3871932",
      "date": "2026-10-12T22:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"ילד\": פליטת הפה של דני אבדיה על מוראנט עלולה לסבך אותו",
+     "link": "https://sports.walla.co.il/item/3871816",
+     "date": "2026-10-12T07:23:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3305,8 +3307,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-18T06:17:23+00:00",
-  "fetched_at": "2026-10-18T06:17:23+00:00"
+  "checked_at": "2026-10-18T06:37:46+00:00",
+  "fetched_at": "2026-10-18T06:37:46+00:00"
  },
  "idf": {
   "data": [
@@ -3336,8 +3338,9 @@
     "date": "2026-10-16T09:58:14+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-18T06:17:23+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-18T06:37:46+00:00",
   "fetched_at": "2026-10-18T06:17:23+00:00"
  },
  "feed_health": {
@@ -3345,44 +3348,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-18T06:10:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "newest": "2026-10-18T06:21:00+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-18T03:15:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-18T03:15:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-18T05:56:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "newest": "2026-10-18T06:30:00+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-18T06:07:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-18T06:01:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "newest": "2026-10-18T06:17:00+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3400,28 +3403,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-17T15:46:25+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "newest": "2026-10-18T06:24:43+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-17T13:51:35+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-17T23:30:00+00:00",
-    "seen_at": "2026-10-18T06:17:26+00:00",
+    "seen_at": "2026-10-18T06:37:50+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-18T06:17:26+00:00"
+  "checked_at": "2026-10-18T06:37:50+00:00"
  }
 }
