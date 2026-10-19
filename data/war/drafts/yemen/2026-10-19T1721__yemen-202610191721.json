@@ -1,0 +1,349 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4e3cf653bd63",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-19T17:21:42+00:00",
+  "window": {
+   "from": "2026-10-18T17:21:42+00:00",
+   "to": "2026-10-19T17:21:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610191721"
+  },
+  "summary": "הלחימה בתימן ובמרחב הסובב אותה מסלימה סביב עימותים מחודשים בין הממשלה התימנית והקואליציה בראשות סעודיה לבין המורדים החות'ים, המבצעים מתקפות טילים וכטב\"מים גם לעבר יעדים בסעודיה. במקביל, סעודיה פועלת לגייס תמיכה צבאית ולשקם את הבריתות האזוריות שלה עם מצרים ואיחוד האמירויות כדי להתמודד עם האיום החות'י בים האדום ובמפרץ.",
+  "fronts": [
+   {
+    "name": "הזירה התימנית הפנימית",
+    "status": "פעיל ומסלים"
+   },
+   {
+    "name": "ציר תימן-סעודיה",
+    "status": "פעיל וכולל תקיפות מתבלות"
+   },
+   {
+    "name": "מרחב הים האדום ומצר באב אל-מנדב",
+    "status": "במתח גבוה ואיומים ימיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10191721-01",
+    "title": "מתקפת טילים בליסטיים על מחנה אימונים בשבואה",
+    "summary": "מתקפת טילים בליסטיים על מחנה אימונים של כוחות הממשלה בתימן שהביאה לעשרות הרוגים ופצועים.",
+    "axis": "הזירה התימנית הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T12:24:15+00:00",
+    "last_update_at": "2026-10-19T17:15:23+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת לחלוטין ויש סתירות בין דיווחים שונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_un_recognised_government_local_authoriti",
+      "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+      "published_at": "2026-10-19T17:15:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_un_recognised_government_local_authoriti",
+      "url": "https://www.newarab.com/news/yemen-forces-advance-taiz-iran-blames-us-hormuz-crisis",
+      "published_at": "2026-10-19T15:57:56+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_un_recognised_government_local_authoriti",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-53-yemen-government-training-camp-officials-say",
+      "published_at": "2026-10-19T13:46:32+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_un_recognised_government_local_authoriti",
+      "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss",
+      "published_at": "2026-10-19T12:51:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_un_recognised_government_local_authoriti",
+      "url": "https://www.newarab.com/news/dozens-killed-houthi-attack-yemeni-govt-military-camp",
+      "published_at": "2026-10-19T12:24:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עטאק, תימן",
+      "lat": 14.5729,
+      "lon": 46.8319
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10191721-02",
+    "title": "הצהרת החות'ים על תקיפת אתרים בסעודיה",
+    "summary": "דובר צבאי של החות'ים הצהיר שהארגון תקף מתקנים בסעודיה בהם שדות תעופה, מתקני אנרגיה ובסיסים צבאיים.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T16:55:10+00:00",
+    "last_update_at": "2026-10-19T16:55:10+00:00",
+    "what_is_not_verified": "האם התקיפות אכן פגעו בכל המטרות כמפורט בהצהרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_yahya_saree",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-targeted-saudi-airports-energy-and-military-sites",
+      "published_at": "2026-10-19T16:55:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     },
+     {
+      "name": "אבהא, סעודיה",
+      "lat": 18.2164,
+      "lon": 42.5044
+     },
+     {
+      "name": "ח'מיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10191721-03",
+    "title": "תקיפות אוויריות בדרום תעז",
+    "summary": "כוחות ממשלת תימן והקואליציה תקפו עמדות וכלי רכב של החות'ים מדרום לתעז.",
+    "axis": "הזירה התימנית הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T12:24:15+00:00",
+    "last_update_at": "2026-10-19T15:57:56+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בצד החות'י.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_yemeni_government_forces",
+      "url": "https://www.newarab.com/news/yemen-forces-advance-taiz-iran-blames-us-hormuz-crisis",
+      "published_at": "2026-10-19T15:57:56+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_yemeni_government_forces",
+      "url": "https://www.newarab.com/news/dozens-killed-houthi-attack-yemeni-govt-military-camp",
+      "published_at": "2026-10-19T12:24:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "נפת אל-מיסראך, תימן",
+      "lat": 13.4518,
+      "lon": 44.0349
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10191721-04",
+    "title": "דחיית הצבעה בפרלמנט המצרי על שליחת כוחות לסעודיה",
+    "summary": "הפרלמנט במצרים דחה את ההצבעה על אישור פריסת כוחות צבא לסיוע לסעודיה מול איומי החות'ים.",
+    "axis": "מצרים-סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T17:48:30+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T17:48:30+00:00",
+    "last_update_at": "2026-10-19T14:56:08+00:00",
+    "what_is_not_verified": "תוצאות ההצבעה הסופיות שטרם התקיימו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_a0d8aa62c50d4b22",
+      "url": "https://www.newarab.com/news/egypt-postpones-sisis-saudi-troop-deployment-vote-next-week",
+      "published_at": "2026-10-19T14:56:08+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_a0d8aa62c50d4b22",
+      "url": "https://www.al-monitor.com/originals/2026/10/whats-behind-egypts-move-towards-possible-military-involvement-saudi-yemen",
+      "published_at": "2026-10-19T13:46:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_a0d8aa62c50d4b22",
+      "url": "https://www.newarab.com/news/egypt-parliament-delays-vote-military-support-saudi-arabia",
+      "published_at": "2026-10-18T17:48:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10191721-05",
+    "title": "ביקור שר ההגנה הסעודי באיחוד האמירויות",
+    "summary": "שר ההגנה הסעודי ביקר באיחוד האמירויות ונועד עם השליט במטרה לחזק שיתוף פעולה על רקע ההסלמה מול החות'ים.",
+    "axis": "סעודיה-איחוד האמירויות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T17:15:46+00:00",
+    "last_update_at": "2026-10-18T18:38:46+00:00",
+    "what_is_not_verified": "ההסכמות המדויקות שהושגו בפגישה סגורה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_wam_news_agency",
+      "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "published_at": "2026-10-18T18:38:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_wam_news_agency",
+      "url": "https://t.me/abualiexpress/132140",
+      "published_at": "2026-10-18T17:15:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק במחנה אל-עלאם בשבואה",
+   "היקף הנזק האמיתי במתקני האנרגיה שהותקפו לכאורה בסעודיה",
+   "פרטי ההסכמות האפשריות לשיתוף פעולה מחודש בין איחוד האמירויות לכוחות בדרום תימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1082,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנסאר אל-אלה)",
+    "declared": [
+     "תקיפת אתרים צבאיים, ממשלתיים ותשתיות אנרגיה בסעודיה ובתימן",
+     "מניעת סיוע זר לכוחות הממשלה והקואליציה באמצעות איומים פומביים"
+    ],
+    "inferred": [
+     "ערעור היציבות הכלכלית והביטחונית של סעודיה",
+     "ביסוס שליטה בנתיבי המים באזור מצר באב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר סעודיה ויעדים בתימן",
+     "איומים ישירים על כוחות זרים שיבחרו לסייע לקואליציה"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על ביטחון הממלכה, מתקני האנרגיה ושדות התעופה שלה",
+     "קבלת סיוע לוגיסטי והגנתי מבעלות ברית אזוריות"
+    ],
+    "inferred": [
+     "שאיפה להרחיב את הלגיטימציה האזורית והבינלאומית למאבק בחות'ים",
+     "ניסיון לאחות קרעים קודמים עם איחוד האמירויות ומצרים"
+    ],
+    "forecast": [
+     "דחיית אירועים כלכליים מרכזיים עקב המצב הביטחוני",
+     "הידוק שיתופי הפעולה הצבאיים עם מצרים וגורמים נוספים"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "בחינת אפשרות למתן סיוע הגנתי ולוגיסטי לסעודיה לבקשתה",
+     "הדגשת הצורך בפתרונות דיפלומטיים ותיווך"
+    ],
+    "inferred": [
+     "זהירות מפני הסתבכות במלחמה ממושכת ויקרה בתימן",
+     "דאגה להשפעת הלחימה על הביטחון הימי ותעלת סואץ"
+    ],
+    "forecast": [
+     "דיונים מורכבים בפרלמנט וקבלת החלטות זהירות לגבי פריסת כוחות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/whats-behind-egypts-move-towards-possible-military-involvement-saudi-yemen",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-targeted-saudi-airports-energy-and-military-sites",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132140",
+    "accessed_at": "2026-10-19T17:21:42+00:00"
+   }
+  ]
+ }
+}

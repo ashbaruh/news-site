@@ -1,0 +1,484 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c5d09baec086",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 7,
+   "verified": 1,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-19T17:08:39+00:00",
+  "window": {
+   "from": "2026-10-18T17:08:39+00:00",
+   "to": "2026-10-19T17:08:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610191708"
+  },
+  "summary": "העימות הצבאי בין איראן לבין ארצות הברית וישראל מחריף על רקע חילופי איומים ישירים במכות צבאיות נוספות והשלכות גלובליות על מחירי האנרגיה. במקביל, מצר הורמוז משמש מוקד חיכוך בוער בעקבות שורת תקיפות איראניות על אוניות סוחר, לצד מאמצים דיפלומטיים רוסיים ומגעים אזוריים להרגעת המצב. בחזית הצפונית, ארצות הברית ומדינות נוספות מפעילות לחץ כבד על לבנון וחיזבאללה כדי למנוע הצטרפות פעילה ללחימה מול ישראל.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז ונתיבי השיט במפרץ",
+    "status": "פעילה עם פגיעות חוזרות באוניות מכולה על ידי כטבמים, מוקשים וירי רקטי"
+   },
+   {
+    "name": "הזירה הישירה בין ישראל וארצות הברית לאיראן",
+    "status": "מתיחות שיא עם איומים הדדיים בהנחתת מהלומות צבאיות נוספות"
+   },
+   {
+    "name": "חזית לבנון וחיזבאללה",
+    "status": "מתוחה תחת אזהרות בינלאומיות חמורות מפני התערבות וגילוי מנהרות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10191708-01",
+    "title": "תקיפות איראניות על אוניות מכולה במצר הורמוז",
+    "summary": "לפחות חמש עשרה אוניות מכולה הותקפו באמצעות כטבמים ומוקשים בעשרת הימים האחרונים במצר הורמוז, כולל ירי רקטת מטול מסירה קטנה לעבר כלי שיט במרחק שבעים וחמישה מיילים מצפון-מזרח לג'ובייל.",
+    "axis": "מצר הורמוז והמפרץ הפרסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T14:48:56+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T14:48:56+00:00",
+    "last_update_at": "2026-10-19T14:48:56+00:00",
+    "what_is_not_verified": "שמועות לפיהן הספינות הובילו סחורות יקרות ערך אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "published_at": "2026-10-19T14:48:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ובייל, ערב הסעודית",
+      "lat": 27.0007,
+      "lon": 49.6532
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-02",
+    "title": "שיחות שר החוץ הרוסי בטהראן על המלחמה וביטחון אזורי",
+    "summary": "שר החוץ הרוסי סרגיי לברוב קיים שיחות בטהראן עם נשיא איראן ושר החוץ האיראני על רקע המלחמה של ארצות הברית וישראל, כאשר מדינות המפרץ לוחצות לעצירת התקיפות ופתיחת מצר הורמוז.",
+    "axis": "איראן מול ארצות הברית וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T12:08:57+00:00",
+    "last_update_at": "2026-10-19T17:04:11+00:00",
+    "what_is_not_verified": "הדיווח שלברוב הביא עמו הצעה להעביר את האורניום המועשר לרוסיה אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_232a5afb348dfeab",
+      "url": "https://en.irna.ir/news/86297527/President-Pezeshkian-meets-Russian-FM-in-Tehran",
+      "published_at": "2026-10-19T17:04:11+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_ff8bf0f9e16a255b",
+      "url": "https://en.irna.ir/news/86297436/FM-Araghchi-describes-talks-with-Russian-counterpart-as-productive",
+      "published_at": "2026-10-19T15:26:55+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_232a5afb348dfeab",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/russias-lavrov-discusses-us-war-and-regional-security-in-tehran-visit?traffic_source=rss",
+      "published_at": "2026-10-19T15:15:02+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_232a5afb348dfeab",
+      "url": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit?traffic_source=rss",
+      "published_at": "2026-10-19T13:22:58+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_232a5afb348dfeab",
+      "url": "https://t.me/alexmehacarmel/48701",
+      "published_at": "2026-10-19T12:08:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-03",
+    "title": "האשמות איראן כלפי ארצות הברית במצר הורמוז וקריאה להסדר ביטחון אזורי",
+    "summary": "שר החוץ האיראני עבאס עראקצ'י הטיל על ארצות הברית את האחריות למתיחות ולחוסר הביטחון במצר הורמוז, וקרא למדינות האזור להגיע להסדר ביטחוני פנימי ללא נוכחות כוחות זרים.",
+    "axis": "מצר הורמוז והמפרץ הפרסי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T14:46:29+00:00",
+    "last_update_at": "2026-10-19T14:46:29+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy",
+      "published_at": "2026-10-19T14:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-04",
+    "title": "התרעות הדדיות בין ישראל, ארצות הברית ואיראן להסלמת התקיפות",
+    "summary": "מנהיגי ארצות הברית וישראל החריפו את איומיהם לחידוש התקיפות באיראן, בעוד טהראן ומשמרות המהפכה מזהירים מפני תגובה קשה שתפגע באנרגיה העולמית ותסבך את וושינגטון.",
+    "axis": "איראן מול ארצות הברית וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T01:31:23+00:00",
+    "last_update_at": "2026-10-19T13:49:29+00:00",
+    "what_is_not_verified": "ההערכה האיראנית שארצות הברית תפעל צבאית באופן מוגבל כדי להשיג הישג בחירות אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610193317",
+      "published_at": "2026-10-19T13:49:29+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94705",
+      "published_at": "2026-10-19T12:44:48+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610194621",
+      "published_at": "2026-10-19T01:31:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10191708-05",
+    "title": "אזהרות של נציגויות ארצות הברית במזרח התיכון",
+    "summary": "שגרירויות ארצות הברית באחת עשרה מדינות באזור המזרח התיכון פרסמו אזהרות לאזרחיהן עקב איומים מצד איראן והחות'ים.",
+    "axis": "איראן וגרורותיה מול ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T05:30:46+00:00",
+    "last_update_at": "2026-10-19T05:30:46+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132151",
+      "published_at": "2026-10-19T05:30:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     },
+     {
+      "name": "עמאן, ירדן",
+      "lat": 31.9516,
+      "lon": 35.924
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-06",
+    "title": "אזהרת ארצות הברית וגורמים מערביים ללבנון מפני התערבות בעימות מול ישראל",
+    "summary": "הועברו מסרים אמריקאיים ומערביים לראשי השלטון בלבנון המזהירים מפני התערבות בלחימה או הצטרפות של חיזבאללה לעימות בין ישראל לאיראן, תוך איום בתגובה ישראלית נרחבת וקשה.",
+    "axis": "לבנון וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T08:14:19+00:00",
+    "last_update_at": "2026-10-19T08:57:00+00:00",
+    "what_is_not_verified": "פרטי המסרים המדויקים נמסרו מפי גורם בודד בעיתון המקורב לחיזבאללה ואינם מאומתים רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958026",
+      "published_at": "2026-10-19T08:57:00+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94698",
+      "published_at": "2026-10-19T08:14:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-07",
+    "title": "חשיפת מנהרה ליד ביירות על רקע מתיחות סביב חיזבאללה",
+    "summary": "מנהרה אותרה בסמוך לביירות בתקופה של מתיחות גבוהה בין הרשויות בלבנון לחיזבאללה, בעקבות תפיסת משלוחי נשק שיועדו לארגון הנתמך בידי איראן.",
+    "axis": "לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T13:39:00+00:00",
+    "last_update_at": "2026-10-19T13:39:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/lebanon-uncovers-new-tunnel-amid-tensions-hezbollah-what-know",
+      "published_at": "2026-10-19T13:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-08",
+    "title": "גינוי סיני לתקיפות של ארצות הברית וישראל והתנגדות לסנקציות",
+    "summary": "בפגישה עם סגן נשיא איראן גינה ראש ממשלת סין את הלחימה הנכפית בידי ארצות הברית וישראל נגד איראן, והביע התנגדות לסנקציות אמריקאיות חד-צדדיות ותמיכה בזכויותיה של טהראן.",
+    "axis": "איראן מול ארצות הברית וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T16:20:53+00:00",
+    "last_update_at": "2026-10-19T16:20:53+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_e116ce3aec97ec8f",
+      "url": "https://en.irna.ir/news/86297507/China-condemns-US-Israeli-attacks-on-Iran-opposes-unilateral",
+      "published_at": "2026-10-19T16:20:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10191708-09",
+    "title": "הנחיה באיראן לבחינת המוכנות ההגנתית בעקבות המלחמות האחרונות",
+    "summary": "ראש המטה של הכוחות המזוינים באיראן קרא לבחון מחדש את המוכנות הביטחונית ולשפר יכולות טכנולוגיות, מודיעיניות והיברידיות על בסיס הלקחים שהופקו מאירועי המלחמה האחרונים.",
+    "axis": "איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T16:30:01+00:00",
+    "last_update_at": "2026-10-19T16:30:01+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_49a26a1b5134f570",
+      "url": "https://en.irna.ir/news/86297486/Armed-Forces-chief-calls-for-review-of-defense-preparedness-in",
+      "published_at": "2026-10-19T16:30:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10191708-10",
+    "title": "איום איראני בסנקציות סביב מיזמי בינה מלאכותית במפרץ",
+    "summary": "יושב ראש הפרלמנט האיראני קרא לממשלות ולגופים באזור שלא לשתף פעולה או להעביר משאבים לחברות טכנולוגיה המסייעות לפגיעה ולפלישות, ואיים בצעדי אכיפה.",
+    "axis": "המפרץ הפרסי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T17:46:01+00:00",
+    "last_update_at": "2026-10-18T17:46:01+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48682",
+      "published_at": "2026-10-18T17:46:01+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הדיווח לפיו שר החוץ הרוסי לברוב הגיע לטהראן עם הצעה להעברת האורניום המועשר לרוסיה.",
+   "הטענה של נשיא אלבניה בדבר עשרות אלפי פרופילים מזויפים שיוחסו לאיראן ולרוסיה סביב המחאה בארצו.",
+   "השמועות בדבר סחורות יקרות ערך שהובילו האוניות שנפגעו במצר הורמוז.",
+   "תוכן המסרים המדויק שהועבר להנהגת לבנון בנוגע להסרת כל המגבלות בתגובה הישראלית."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1082,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להגיב בעוצמה לכל תקיפה מחודשת ולגרום למשבר אנרגיה עולמי.",
+     "לכונן הסדר ביטחון אזורי ללא נוכחות כוחות זרים במפרץ.",
+     "להתנגד לסנקציות החד-צדדיות ולשמור על זכויותיה."
+    ],
+    "inferred": [
+     "לשבש את תנועת השיט במצר הורמוז כדי לייצר מנוף לחץ כלכלי על המערב.",
+     "להעמיק את התיאום הדיפלומטי והכלכלי עם רוסיה וסין."
+    ],
+    "forecast": [
+     "המשך פעולות הטרדה ופגיעה באוניות סוחר בנתיבי השיט.",
+     "היערכות צבאית פנימית למניעת תקיפות פתע נוספות."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "אזהרת אזרחים במזרח התיכון מפני איומים צבאיים של איראן ושלוחותיה.",
+     "הרתעת גורמים בלבנון וחיזבאללה מפני פתיחת חזית נוספת."
+    ],
+    "inferred": [
+     "שימור לחץ צבאי וסנקציות על טהראן תוך מניעת גלישת המלחמה לכלל האזור.",
+     "הפעלת הרתעה להגנה על בעלות בריתה ועל נתיבי השיט."
+    ],
+    "forecast": [
+     "שמירה על כוננות צבאית גבוהה בנציגויות ובבסיסים במזרח התיכון.",
+     "בחינת תקיפות מוגבלות במקרה של המשך פגיעה בשיט או בנכסים אמריקאיים."
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התנגדות עקבית לשיתוף הפעולה בין מוסקבה לטהראן ולרשתות השפעה עוינות.",
+     "התרעה ברורה מפני מעורבות של חיזבאללה ולבנון בלחימה."
+    ],
+    "inferred": [
+     "נכונות לפעול צבאית בעוצמה רבה מול איראן ומול שלוחותיה אם תותקף.",
+     "סיכול התבססות שלוחות איראן והעברות נשק בסמוך לגבולותיה."
+    ],
+    "forecast": [
+     "שמירה על מוכנות לתקיפות תגמול רחבות באיראן ובמרחב הצפוני.",
+     "המשך תיאום אסטרטגי הדוק מול הממשל האמריקאי."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit?traffic_source=rss",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/lebanon-uncovers-new-tunnel-amid-tensions-hezbollah-what-know",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610194621",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86297486/Armed-Forces-chief-calls-for-review-of-defense-preparedness-in",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132151",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48682",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94698",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958026",
+    "accessed_at": "2026-10-19T17:08:39+00:00"
+   }
+  ]
+ }
+}

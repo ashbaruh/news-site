@@ -15,6 +15,10 @@
 32.7841,
 35.8706
 ],
+"abu dhabi, uae": [
+24.4538,
+54.3774
+],
 "abu dhabi, united arab emirates": [
 24.4538,
 54.3774
@@ -54,7 +58,12 @@
 13.174,
 43.7298
 ],
+"al-alam camp, shabwa, yemen": null,
 "al-baghuz, deir ez-zor, syria": [
+34.4646,
+40.9451
+],
+"al-baghuz, syria": [
 34.4646,
 40.9451
 ],
@@ -101,6 +110,10 @@
 33.4933,
 36.2969
 ],
+"al-misrakh district, yemen": [
+13.4518,
+44.0349
+],
 "al-muallaqa, syria": null,
 "al-muhabsha, yemen": null,
 "al-mukalla, yemen": [
@@ -136,6 +149,10 @@
 "amikam, israel": [
 32.5639,
 35.0205
+],
+"amman, jordan": [
+31.9516,
+35.924
 ],
 "amran, yemen": [
 15.6628,
@@ -196,6 +213,10 @@
 71.4305
 ],
 "ataq, shabwah, yemen": [
+14.5729,
+46.8319
+],
+"ataq, yemen": [
 14.5729,
 46.8319
 ],
@@ -589,6 +610,10 @@
 51.7108,
 -1.782
 ],
+"fanar, lebanon": [
+33.8788,
+35.575
+],
 "fastiv district, ukraine": [
 50.0734,
 29.9164
@@ -796,6 +821,10 @@
 "jizan, saudi arabia": [
 16.8947,
 42.558
+],
+"jubail, saudi arabia": [
+27.0007,
+49.6532
 ],
 "jubata al-khashab, syria": [
 33.2258,
@@ -1259,6 +1288,10 @@
 "nova tavolzhanka, russia": [
 50.354,
 36.8279
+],
+"nova vodolaha, ukraine": [
+49.7181,
+35.8602
 ],
 "nove, ukraine": [
 50.0334,

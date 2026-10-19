@@ -1,0 +1,369 @@
+{
+ "status": "draft",
+ "received_sha256_12": "93a1100d18c0",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-19T17:10:19+00:00",
+  "window": {
+   "from": "2026-10-18T17:10:19+00:00",
+   "to": "2026-10-19T17:10:19+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610191710"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתר שאת דרך תקיפות אוויריות הדדיות על תשתיות אנרגיה ומרכזי נתונים, לצד חיכוך דיפלומטי חריף בין קייב לוושינגטון סביב אספקת מודיעין וחימוש. במקביל, מתנהלים מאמצים הומניטריים מוגבלים לחילוץ אזרחים וילדים משטחים כבושים תחת אש.",
+  "fronts": [
+   {
+    "name": "חזית חרקוב",
+    "status": "פעילה עם תקיפות אוויריות על אזורים אזרחיים"
+   },
+   {
+    "name": "החזית בדרום אוקראינה וחצי האי קרים",
+    "status": "פעילה עם לחימת רחפנים ופעילות ימית"
+   },
+   {
+    "name": "מרחב הסייבר והחלל",
+    "status": "פעיל עם עימותים טכנולוגיים ולווייניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10191710-01",
+    "title": "תקיפת כטב\"ם רוסי באזור חרקוב",
+    "summary": "פגיעה של כטב\"ם רוסי בפארק במחוז חרקוב גרמה למותם של ילדים, תינוק ונשים, ולפצועים רבים.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T15:59:00+00:00",
+    "last_update_at": "2026-10-19T16:49:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק משתנה בדיווחים השונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4176041-three-children-among-six-killed-in-russian-strike-on-kharkiv-region-park.html",
+      "published_at": "2026-10-19T16:49:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_ukrinform",
+      "url": "https://kyivindependent.com/russian-drone-strike-on-park-in-kharkiv-oblast-kills-children-and-infant/",
+      "published_at": "2026-10-19T16:38:40+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4176024-russian-drone-strike-on-park-in-kharkiv-region-kills-two-women-and-infant-injures-15-people.html",
+      "published_at": "2026-10-19T15:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובה וודולאחה, אוקראינה",
+      "lat": 49.7181,
+      "lon": 35.8602
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10191710-02",
+    "title": "פינוי אווירי ראשון של חייל פצוע באמצעות רחפן",
+    "summary": "הצבא האוקראיני ביצע פינוי ראשון מסוגו של חייל פצוע מקו החזית באמצעות רחפן כבד משודרג.",
+    "axis": "חזית הקרקע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T11:30:08+00:00",
+    "last_update_at": "2026-10-19T16:30:00+00:00",
+    "what_is_not_verified": "האם הטכנולוגיה תיושם בהיקף נרחב באופן מיידי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_8072f8b1295dcd23",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058793/",
+      "published_at": "2026-10-19T16:30:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_8072f8b1295dcd23",
+      "url": "https://www.ynet.co.il/news/article/b1t0q9q3ze",
+      "published_at": "2026-10-19T16:24:58+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_8072f8b1295dcd23",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21660704",
+      "published_at": "2026-10-19T13:56:25+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_8072f8b1295dcd23",
+      "url": "https://t.me/alexmehacarmel/48700",
+      "published_at": "2026-10-19T11:30:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10191710-03",
+    "title": "התקרבות מסוכנת בין לווין צבאי רוסי ללווין פיני-אמריקאי",
+    "summary": "הלווין הצבאי הרוסי קוסמוס 2612 התקרב באופן חריג ללווין הקישוריות המשרת את אוקראינה.",
+    "axis": "חלל וטכנולוגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T15:57:24+00:00",
+    "last_update_at": "2026-10-19T15:57:24+00:00",
+    "what_is_not_verified": "מטרתן המדויקת של תמרוני הלווין והאם מדובר בשיבוש אקטיבי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_leolabs",
+      "url": "https://meduza.io/en/news/2026/10/19/russian-military-satellite-comes-dangerously-close-to-a-radar-satellite-operated-by-a-finnish-u-s-company-that-supplies-satellite-imagery-to-ukraine",
+      "published_at": "2026-10-19T15:57:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10191710-04",
+    "title": "פסיקת בית משפט רוסי נגד הבלוגרית טטיאנה מונטיאן",
+    "summary": "בית משפט בדונייצק המבוקר על ידי רוסיה גזר 18 חודשי מאסר על הבלוגרית טטיאנה מונטיאן בגין קריאות לקיצוניות.",
+    "axis": "העורף הרוסי והשטחים הכבושים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T15:47:33+00:00",
+    "last_update_at": "2026-10-19T15:47:33+00:00",
+    "what_is_not_verified": "אינו מאומת מעבר לטענות הרשמיות של התביעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_mediazona",
+      "url": "https://meduza.io/en/news/2026/10/19/she-wrote-for-rt-and-supported-the-invasion-now-a-russian-court-has-sentenced-blogger-tetyana-montian-to-18-months-for-a-remark-about-taking-out-pro-government-loyalists",
+      "published_at": "2026-10-19T15:47:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דונייצק, אוקראינה",
+      "lat": 48.0159,
+      "lon": 37.8013
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10191710-05",
+    "title": "מגעים לפינוי תושבים מאולשקי",
+    "summary": "נציגי אוקראינה מנהלים מגעים עם הצד הרוסי במטרה לפנות תושבים מהעיירה הכבושה אולשקי אל השטח שבא שליטת אוקראינה.",
+    "axis": "החזית ההומניטרית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T15:40:17+00:00",
+    "last_update_at": "2026-10-19T15:40:17+00:00",
+    "what_is_not_verified": "סיכויי ההצלחה של המגעים והיקף האישור הרוסי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_dmytro_lubinets",
+      "url": "https://meduza.io/en/news/2026/10/19/civilians-trapped-in-russian-occupied-oleshky-have-no-safe-way-out-ukraine-says-it-s-negotiating-with-moscow-to-bring-them-directly-to-ukrainian-controlled-territory",
+      "published_at": "2026-10-19T15:40:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10191710-06",
+    "title": "החזרת ילדים מהשטחים הכבושים לאוקראינה",
+    "summary": "עשרות ילדים ובני נוער הוחזרו השבוע מהשטחים הכבושים לשטח בפיקוח אוקראיני במסגרת יוזמת החזרה.",
+    "axis": "החזית ההומניטרית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T15:11:00+00:00",
+    "last_update_at": "2026-10-19T15:11:00+00:00",
+    "what_is_not_verified": "פרטי הלחצים המדויקים שהופעלו עליהם בבתי הספר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_bring_kids_back_ua",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058776/",
+      "published_at": "2026-10-19T15:11:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10191710-07",
+    "title": "חריגת כטב\"ם אוקראיני לשמי ליטא",
+    "summary": "כטב\"ם אוקראיני חדר לשמי ליטא עקב שיבושי לוחמה אלקטרונית רוסית, ואוקראינה התנצלה על כך.",
+    "axis": "תקיפות אוויריות וגבולות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T23:29:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T23:29:53+00:00",
+    "last_update_at": "2026-10-19T14:53:11+00:00",
+    "what_is_not_verified": "הנזק המדויק שנגרם עקב ההתרסקות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_mindaugas_sinkevicius",
+      "url": "https://tass.com/world/2204249",
+      "published_at": "2026-10-19T14:53:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_mindaugas_sinkevicius",
+      "url": "https://t.me/alexmehacarmel/48703",
+      "published_at": "2026-10-19T13:55:35+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_mindaugas_sinkevicius",
+      "url": "https://www.theguardian.com/world/2026/oct/19/ukraine-war-briefing-trump-accuses-zelenskyy-of-not-wanting-to-end-war-as-feud-rumbles-on",
+      "published_at": "2026-10-18T23:29:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וילנה, ליטא",
+      "lat": 54.687,
+      "lon": 25.2829
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האשמות הדדיות בנוגע להגבלת מערכות Starlink ומסירת אזהרות מודיעין",
+   "מספר הנפגעים המדויק בכל תקיפה המדווחת על ידי גורמים שונים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1225,
+    "unit": "USD",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שחרור כל השטחים הכבושים",
+     "קבלת סיוע צבאי ומודיעיני בלתי מוגבל מהמערב",
+     "הצטרפות לאיחוד האירופי"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות קריטיות בתוך רוסיה כדי להקשות על המאמץ המלחמתי",
+     "שימור הלגיטימציה הבינלאומית למצוקתה ההומניטרית"
+    ],
+    "forecast": [
+     "המשך הלחץ על בעלות הברית להסרת הגבלות על אמצעי לחימה",
+     "ניסיון להאיץ את תהליכי ההצטרפות לאיחוד האירופי"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "החלשת התשתית הצבאית והכלכלית של אוקראינה",
+     "מניעת הרחיבה של נאט\"ו והשפעה מערבית באזור"
+    ],
+    "inferred": [
+     "ניצול עייפות המערב כדי לכפות הסדר מדיני בתנאים רוסיים",
+     "שיבוש יכולות מודיעין וטכנולוגיה המשרתות את אוקראינה בחלל ובקרקע"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות על תשתיות אנרגיה אוקראיניות לקראת החורף",
+     "הגברת המאמצים לשיבוש מערכות תקשורת וניווט של אוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/19/ukraine-war-briefing-trump-accuses-zelenskyy-of-not-wanting-to-end-war-as-feud-rumbles-on",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21660704",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-drone-strike-on-park-in-kharkiv-oblast-kills-children-and-infant/",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/19/civilians-trapped-in-russian-occupied-oleshky-have-no-safe-way-out-ukraine-says-it-s-negotiating-with-moscow-to-bring-them-directly-to-ukrainian-controlled-territory",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058776/",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2204249",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48703",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4176024-russian-drone-strike-on-park-in-kharkiv-region-kills-two-women-and-infant-injures-15-people.html",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/b1t0q9q3ze",
+    "accessed_at": "2026-10-19T17:10:19+00:00"
+   }
+  ]
+ }
+}
