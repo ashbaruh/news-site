@@ -54,6 +54,10 @@
 13.174,
 43.7298
 ],
+"al-baghuz, deir ez-zor, syria": [
+34.4646,
+40.9451
+],
 "al-bayda, yemen": [
 13.9881,
 45.5729
@@ -190,6 +194,10 @@
 "astana, kazakhstan": [
 51.1283,
 71.4305
+],
+"ataq, shabwah, yemen": [
+14.5729,
+46.8319
 ],
 "avaza, turkmenistan": [
 39.9658,
@@ -793,6 +801,10 @@
 33.2258,
 35.8341
 ],
+"kafr kila, lebanon": [
+33.2827,
+35.5588
+],
 "kafra, lebanon": [
 33.1805,
 35.354
@@ -1376,6 +1388,7 @@
 33.2735,
 35.4591
 ],
+"qazvin province, iran": null,
 "qeshm island, iran": [
 26.7687,
 55.8477
@@ -1466,6 +1479,7 @@
 35.6146
 ],
 "russia": null,
+"ruwaysat al-jadida, beirut, lebanon": null,
 "ryazan, russia": [
 54.6296,
 39.7425
@@ -1547,6 +1561,7 @@
 37.5667,
 126.9783
 ],
+"shabwah, yemen": null,
 "shannon airport, ireland": [
 52.6987,
 -8.9216

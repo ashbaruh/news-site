@@ -1,180 +1,186 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-19T12:00:00+03:00",
- "generated_at": "2026-10-19T08:40:11+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-10-19T18:00:00+03:00",
+ "generated_at": "2026-10-19T14:40:26+00:00",
+ "model": "gemini-3.7-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10190840-01",
-     "title": "פגיעת מוקש ימי במכלית נפט במצר הורמוז",
-     "summary": "מכלית נפט שפעלה בניגוד להנחיות במצר הורמוז פגעה במוקש ימי מדרום לנתיב, דבר שגרם לפיצוץ ולשריפה בחדר המנועים.",
-     "axis": "מצר הורמוז",
+     "id": "IRAN-10191440-01",
+     "title": "שיחות בין שרי החוץ של רוסיה ואיראן בטהראן",
+     "summary": "שר החוץ הרוסי סרגיי לברוב קיים שיחות בטהראן עם עמיתו האיראני עבאס עראקצ'י בנושאי ביטחון אזורי.",
+     "axis": "דיפלומטיה ויחסי חוץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T05:47:14+00:00",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-19T05:47:14+00:00",
-     "last_update_at": "2026-10-19T05:47:14+00:00",
-     "what_is_not_verified": "פרטי המכלית, זהותה המדויקת ונסיבות הפגיעה מעבר להודעת חיל הים של משמרות המהפכה.",
+     "first_reported_at": "2026-10-19T12:24:14+00:00",
+     "last_update_at": "2026-10-19T13:22:58+00:00",
+     "what_is_not_verified": "הטענה בדבר הצעה רוסית להעברת אורניום מועשר לרוסיה אינה מאומתת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86296679/IRGC-Navy-Violating-oil-tanker-hits-mine-in-Strait-of-Hormuz",
-       "published_at": "2026-10-19T05:47:14+00:00"
+       "source_root_id": "or_irna",
+       "url": "https://en.irna.ir/news/86297321/Iranian-and-Russian-foreign-ministers-hold-talks-in-Tehran",
+       "published_at": "2026-10-19T12:24:14+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_irna",
+       "url": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit?traffic_source=rss",
+       "published_at": "2026-10-19T13:22:58+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
     },
     {
-     "id": "IRAN-10190840-02",
-     "title": "אזהרות ביטחוניות של נציגויות ארצות הברית במזרח התיכון",
-     "summary": "נציגויות אמריקאיות במספר מדינות באזור פרסמו התרעות ביטחוניות לאזרחיהן בעקבות איומים מצד גורמים איראניים וחות'ים.",
-     "axis": "איומים אזוריים",
-     "claim_type": "statement",
+     "id": "IRAN-10191440-02",
+     "title": "מעצר עשרות מעורבים בפגיעה בסדר הציבורי באיראן",
+     "summary": "משרד המודיעין האיראני הודיע על מעצרם של 39 אנשים במחוז קזווין בחשד לגרימת חוסר ביטחון והשחתת רכוש.",
+     "axis": "ביטחון פנים באיראן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T05:30:46+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-19T05:30:46+00:00",
-     "last_update_at": "2026-10-19T05:30:46+00:00",
-     "what_is_not_verified": "האופי המדויק של האיומים שהובילו לפרסום האזהרות.",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T12:21:43+00:00",
+     "last_update_at": "2026-10-19T12:21:43+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132151",
-       "published_at": "2026-10-19T05:30:46+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_ac15129240b86bca",
+       "url": "https://en.irna.ir/news/86297322/Iran-arrests-39-mercenaries-involved-in-insecurity-property",
+       "published_at": "2026-10-19T12:21:43+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10190840-03",
-     "title": "העברת אזהרה אמריקאית ללבנון לגבי התערבות בלחימה",
-     "summary": "גורמים מערביים ובראשם ארצות הברית העבירו מסרי אזהרה להנהגת לבנון מפני מעורבות בלחימה הישראלית מול איראן.",
-     "axis": "דיפלומטיה ואזהרות אזוריות",
+     "id": "IRAN-10191440-03",
+     "title": "אזהרות איראניות מפני פעולה צבאית אמריקנית",
+     "summary": "דובר משמרות המהפכה וגורמי ביטחון באיראן הזהירו כי תגובתם לתקיפה אמריקנית חדשה תהיה תקיפה ותחריף את משבר האנרגיה העולמי.",
+     "axis": "איומים צבאיים",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T08:14:19+00:00",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-19T08:14:19+00:00",
-     "last_update_at": "2026-10-19T08:14:19+00:00",
-     "what_is_not_verified": "אמיתות הדיווח העיתונאי על תוכן השיחות הדיפלומטיות.",
+     "first_reported_at": "2026-10-19T12:44:48+00:00",
+     "last_update_at": "2026-10-19T13:49:29+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_lelotsenzura",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94698",
-       "published_at": "2026-10-19T08:14:19+00:00"
+       "url": "https://t.me/lelotsenzura/94705",
+       "published_at": "2026-10-19T12:44:48+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610193317",
+       "published_at": "2026-10-19T13:49:29+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ביירות",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10190840-01",
-     "title": "פעולות הריסה של כוחות צה\"ל בדרום לבנון",
-     "summary": "כוחות ישראליים ביצעו פעולות הריסה באזור הכפר ארנון בדרום לבנון.",
-     "axis": "דרום לבנון",
+     "id": "NORTH-10191440-01",
+     "title": "חשיפת מנהרה במזרח ביירות",
+     "summary": "גורמי מודיעין בלבנון פתחו בבדיקה לאחר שנחשפה מנהרה של חיזבאללה באזור רויסאת אל-ג'דידה.",
+     "axis": "לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T08:26:43+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-19T08:26:43+00:00",
-     "last_update_at": "2026-10-19T08:26:43+00:00",
-     "what_is_not_verified": "היקף ההרס והמטרות המדויקות של הפעילות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_8c765cfa538e85ba",
-       "url": "https://english.almanar.com.lb/article/139932/",
-       "published_at": "2026-10-19T08:26:43+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ארנון",
-       "lat": 33.334,
-       "lon": 35.5273
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10190840-02",
-     "title": "ירי ארטילרי ואש מקלעים בדרום לבנון",
-     "summary": "ארטילריה ישראלית הפגיזה בעיירה חדאת'א לצד ירי מקלעים שכיוון לעבר אל-חיאם.",
-     "axis": "דרום לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-19T06:56:20+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-19T06:56:20+00:00",
-     "last_update_at": "2026-10-19T06:56:20+00:00",
-     "what_is_not_verified": "היקף הנזק ונפגעים כתוצאה מהירי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_1a6334a2a11d2214",
-       "url": "https://english.almanar.com.lb/article/139837/",
-       "published_at": "2026-10-19T06:56:20+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חדאת'א",
-       "lat": 33.165,
-       "lon": 35.3916
-      },
-      {
-       "name": "אל-חיאם",
-       "lat": 33.3103,
-       "lon": 35.6054
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10190840-03",
-     "title": "תקיפת אזרחית ישראלית באיסטנבול",
-     "summary": "אשת עסקים ישראלית הותקפה על ידי המון בעת שהותה במרכז קניות באיסטנבול.",
-     "axis": "טורקיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-19T05:53:42+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-19T05:53:42+00:00",
-     "last_update_at": "2026-10-19T05:53:42+00:00",
-     "what_is_not_verified": "פרטי הפגיעה הפיזית ומעצר החשודים.",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-19T11:36:57+00:00",
+     "last_update_at": "2026-10-19T11:36:57+00:00",
+     "what_is_not_verified": "הפרטים המדויקים על אודות תוואי המנהרה ומטרתה לא אומתו",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132157",
-       "published_at": "2026-10-19T05:53:42+00:00"
+       "url": "https://t.me/abualiexpress/132178",
+       "published_at": "2026-10-19T11:36:57+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10191440-02",
+     "title": "תקיפות וירי ארטילרי בדרום לבנון",
+     "summary": "דווח על ירי מקלעים כבדים, תאורה והפגזות ארטילריות של כוחות צה\"ל לעבר מספר עיירות באזור דרום לבנון.",
+     "axis": "לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T14:30:59+00:00",
+     "last_update_at": "2026-10-19T14:30:59+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/140172/",
+       "published_at": "2026-10-19T14:30:59+00:00"
       }
      ],
      "places": [
       {
-       "name": "איסטנבול",
-       "lat": 41.0064,
-       "lon": 28.9759
+       "name": "כפר כילא, לבנון",
+       "lat": 33.2827,
+       "lon": 35.5588
+      },
+      {
+       "name": "חדאת'א, לבנון",
+       "lat": 33.1561,
+       "lon": 35.3912
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10191440-03",
+     "title": "חייל סורי נהרג בדיר א-זור",
+     "summary": "משרד ההגנה הסורי הודיע כי חייל נהרג מירי של חמושים בלתי מזוהים באזור אל-באע'וז סמוך לגבול עיראק.",
+     "axis": "סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T12:53:04+00:00",
+     "last_update_at": "2026-10-19T12:53:04+00:00",
+     "what_is_not_verified": "זהות החמושים שביצעו את הירי אינה ידועה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_aeea1f0bfec0bae9",
+       "url": "https://www.aa.com.tr/en/middle-east/syrian-soldier-killed-in-attack-by-unidentified-gunmen-in-eastern-deir-ez-zor/4093531",
+       "published_at": "2026-10-19T12:53:04+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אל-באע'וז, דיר א-זור, סוריה",
+       "lat": 34.4646,
+       "lon": 40.9451
       }
      ]
     }
@@ -183,133 +189,174 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10190840-01",
-     "title": "מתקפת טילים בליסטיים וכטב\"מים רוסית נרחבת על אזור קייב",
-     "summary": "רוסיה שיגרה גלי טילים בליסטיים לעבר מתקני אנרגיה ותשתיות בקייב וסביבתה, וכתוצאה מכך נהרגו ונפצעו אזרחים ונגרם הרס למבנים ולמרכז נתונים.",
-     "axis": "קייב",
+     "id": "UKRAINE-10191440-01",
+     "title": "חילוץ פצוע באמצעות רחפן משדה הקרב",
+     "summary": "כוחות אוקראיניים פינו לראשונה חייל פצוע מחזית הלחימה באמצעות רחפן כבד לאחר שפינוי קרקעי לא התאפשר.",
+     "axis": "שדה הקרב באוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-18T23:00:00+00:00",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-19T07:20:47+00:00",
-     "last_update_at": "2026-10-19T08:01:00+00:00",
-     "what_is_not_verified": "מספר הנעדרים המדויק ומצב השיקום של מתקני התשתית שנפגעו.",
+     "first_reported_at": "2026-10-19T11:30:08+00:00",
+     "last_update_at": "2026-10-19T14:05:18+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_e55dbc0ed7f86c18",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058703/",
-       "published_at": "2026-10-19T08:01:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_e6ea37ccaefd468d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058701/",
-       "published_at": "2026-10-19T07:39:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_e55dbc0ed7f86c18",
-       "url": "https://meduza.io/en/news/2026/10/19/russian-strike-on-kyiv-kills-21-year-old-woman-u-s-gave-ukraine-no-advance-warning-journalists-report",
-       "published_at": "2026-10-19T07:20:47+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "אירפין",
-       "lat": 50.5207,
-       "lon": 30.2449
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10190840-02",
-     "title": "הצהרת מזכיר המדינה האמריקאי בנוגע למערכות ההגנה האווירית באוקראינה",
-     "summary": "מזכיר המדינה מרקו רוביו ציין כי כשל תוכנתי גרם לפגיעה ביכולות ההגנה האווירית, והכחיש הפסקה יזומה של שיתוף המודיעין.",
-     "axis": "סיוע ביטחוני ומודיעיני",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-19T08:38:42+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-19T08:38:42+00:00",
-     "last_update_at": "2026-10-19T08:38:42+00:00",
-     "what_is_not_verified": "האופי הטכני המדויק של תקלת התוכנה הנטענת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2203983",
-       "published_at": "2026-10-19T08:38:42+00:00"
+       "url": "https://t.me/alexmehacarmel/48700",
+       "published_at": "2026-10-19T11:30:08+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukrainian-forces-evacuate-injured-soldier-from-front-line-position-by-drone-in-first-of-its-kind-mission-video-shows/",
+       "published_at": "2026-10-19T14:05:18+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10190840-03",
-     "title": "מגעים לקיום פגישה משולשת בין ארצות הברית, רוסיה וסין",
-     "summary": "בארצות הברית אישרו כי מתקיימים דיונים בנוגע לאפשרות של מפגש בין מנהיגי ארה\"ב, רוסיה וסין לצורך דיון בסיום המלחמה באוקראינה.",
-     "axis": "יוזמות דיפלומטיות ומשא ומתן",
+     "id": "UKRAINE-10191440-02",
+     "title": "החזרת 23 ילדים משטחים בשליטה רוסית",
+     "summary": "אוקראינה הודיעה כי הצליחה להשיב עשרים ושלושה ילדים שהוחזקו באזורים תחת כיבוש רוסי.",
+     "axis": "סוגיות הומניטריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T14:38:46+00:00",
+     "last_update_at": "2026-10-19T14:38:46+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_bring_kids_back_ua",
+       "url": "https://kyivindependent.com/ukraine-brings-home-23-children-from-russian-occupation/",
+       "published_at": "2026-10-19T14:38:46+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10191440-03",
+     "title": "השבתת תקשורת לוויינית במהירויות גבוהות בחזית",
+     "summary": "נשיא אוקראינה מסר כי מערכות סטארלינק וסטארשילד מפסיקות לפעול במהירויות גבוהות, דבר המקשה על הלוגיסטיקה ושימוש ברחפנים.",
+     "axis": "טכנולוגיה ולחימה",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-19T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-19T07:29:00+00:00",
-     "last_update_at": "2026-10-19T07:29:00+00:00",
-     "what_is_not_verified": "הסכמת הצדדים, המועד הסופי ומיקום קיום הפסגה.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T13:52:00+00:00",
+     "last_update_at": "2026-10-19T13:52:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058699/",
-       "published_at": "2026-10-19T07:29:00+00:00"
+       "source_root_id": "fh_c4d599d8cdeaddf5",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058762/",
+       "published_at": "2026-10-19T13:52:00+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "סמרקנד",
-       "lat": 39.655,
-       "lon": 66.9757
-      }
-     ]
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10190840-01",
-     "title": "אזהרת שגרירות ארצות הברית באיחוד האמירויות בשל מתיחות אזורית",
-     "summary": "שגרירות ארצות הברית פרסמה התרעה הקוראת לאזרחיה להגביר את ערנותם במזרח התיכון על רקע איומי החות'ים ושיבושים אפשריים בטיסות.",
-     "axis": "המפרץ ואיומי החות'ים",
-     "claim_type": "statement",
+     "id": "YEMEN-10191440-01",
+     "title": "תקיפה קטלנית על בסיס אימונים במחוז שבוה",
+     "summary": "עשרות אנשי כוחות ביטחון נהרגו ומאות נפצעו במתקפת טילים בליסטיים שביצעו החות'ים על מחנה אימונים בדרום תימן.",
+     "axis": "הלחימה הפנימית בתימן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T03:27:26+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-19T03:27:26+00:00",
-     "last_update_at": "2026-10-19T03:27:26+00:00",
-     "what_is_not_verified": "קיומם של איומים קונקרטיים מתוזמנים ספציפית ליעדים באמירויות.",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T12:24:15+00:00",
+     "last_update_at": "2026-10-19T13:46:32+00:00",
+     "what_is_not_verified": "קיימת אי-התאמה בין הדיווחים לגבי מספר ההרוגים המדויק (בין 18, 30 ל-53)",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_fb4806fee32f613c",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-uae-urges-citizens-exercise-heightened-vigilance-middle-east",
-       "published_at": "2026-10-19T03:27:26+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_5da4d454525013e3",
+       "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-53-yemen-government-training-camp-officials-say",
+       "published_at": "2026-10-19T13:46:32+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_5da4d454525013e3",
+       "url": "https://www.sabanew.net/viewstory/154267",
+       "published_at": "2026-10-19T13:30:09+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_5da4d454525013e3",
+       "url": "https://www.newarab.com/news/dozens-killed-houthi-attack-yemeni-govt-military-camp",
+       "published_at": "2026-10-19T12:24:15+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי",
-       "lat": 24.4538,
-       "lon": 54.3774
+       "name": "עתק, שבוה, תימן",
+       "lat": 14.5729,
+       "lon": 46.8319
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10191440-02",
+     "title": "פנייה לאו\"ם להגדרת החות'ים כארגון טרור",
+     "summary": "יושב ראש מועצת ההנהגה הנשיאותית בתימן ביקש מהמזכיר הכללי של האו\"ם לתמוך במהלך בין-לאומי להגדרת המיליציה החות'ית כארגון טרור.",
+     "axis": "דיפלומטיה ומאבק בחות'ים",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T12:08:27+00:00",
+     "last_update_at": "2026-10-19T12:08:27+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_9c78f319eec349bf",
+       "url": "https://www.sabanew.net/viewstory/154257",
+       "published_at": "2026-10-19T12:08:27+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10191440-03",
+     "title": "הצבעה בפרלמנט המצרי על סיוע צבאי לסעודיה",
+     "summary": "הפרלמנט במצרים צפוי להצביע על מתן אישור לצבא לסייע בהגנת סעודיה מפני תקיפות של החות'ים אם תוגש בקשה מריאד.",
+     "axis": "מעורבות אזורית בתימן",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-19T13:46:32+00:00",
+     "last_update_at": "2026-10-19T13:46:32+00:00",
+     "what_is_not_verified": "תוצאות ההצבעה ומועד קיומה המדויק אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/explainer-whats-behind-egypts-move-towards-possible-military-involvement-saudi",
+       "published_at": "2026-10-19T13:46:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קהיר, מצרים",
+       "lat": 30.0444,
+       "lon": 31.2357
       }
      ]
     }
