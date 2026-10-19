@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-19T18:17:14+00:00",
-  "fetched_at": "2026-10-19T18:17:14+00:00"
+  "checked_at": "2026-10-19T19:17:20+00:00",
+  "fetched_at": "2026-10-19T19:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T18:17:27+00:00",
-  "fetched_at": "2026-10-19T18:17:27+00:00"
+  "checked_at": "2026-10-19T19:17:31+00:00",
+  "fetched_at": "2026-10-19T19:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,15 +79,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T18:17:30+00:00",
-  "fetched_at": "2026-10-19T18:17:30+00:00"
+  "checked_at": "2026-10-19T19:17:33+00:00",
+  "fetched_at": "2026-10-19T19:17:33+00:00"
  },
- "generated_at": "2026-10-19T18:17:30+00:00",
+ "generated_at": "2026-10-19T19:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "תשואות האג\"ח מזנקות, האירו מאבד גובה: אירופה נכנסת לעידן משברי חוב וצרפת היא רק ההתחלה",
+     "title": "הכסף הממשלתי נגמר: המהומות בצרפת הן תמרור אזהרה לאירופה כולה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560051",
      "date": "2026-10-19T18:00:00+00:00"
     },
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-10-19T18:15:00+00:00"
     },
     {
-     "title": "תשואות האג\"ח מזנקות, האירו מאבד גובה: אירופה נכנסת לעידן משברי חוב וצרפת היא רק ההתחלה",
+     "title": "הכסף הממשלתי נגמר: המהומות בצרפת הן תמרור אזהרה לאירופה כולה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560051",
      "date": "2026-10-19T18:00:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T18:17:16+00:00",
-  "fetched_at": "2026-10-19T18:17:16+00:00"
+  "checked_at": "2026-10-19T19:17:21+00:00",
+  "fetched_at": "2026-10-19T19:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T18:17:17+00:00",
-  "fetched_at": "2026-10-19T18:17:17+00:00"
+  "checked_at": "2026-10-19T19:17:22+00:00",
+  "fetched_at": "2026-10-19T19:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2897,8 +2897,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T18:17:18+00:00",
-  "fetched_at": "2026-10-19T18:17:18+00:00"
+  "checked_at": "2026-10-19T19:17:23+00:00",
+  "fetched_at": "2026-10-19T19:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3079,8 +3079,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T18:17:18+00:00",
-  "fetched_at": "2026-10-19T18:17:18+00:00"
+  "checked_at": "2026-10-19T19:17:23+00:00",
+  "fetched_at": "2026-10-19T19:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -3111,7 +3111,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 680,
+     "likes": 681,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3125,14 +3125,14 @@ window.DB.generated = {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 113,
+     "likes": 114,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
@@ -3146,14 +3146,14 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 146,
+     "likes": 147,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 113,
+     "likes": 114,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     },
     {
@@ -3167,7 +3167,7 @@ window.DB.generated = {
      "title": "Viggle Turbo for Qwen-Image-2.1",
      "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
      "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 351,
+     "likes": 352,
      "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     },
     {
@@ -3180,12 +3180,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T18:17:26+00:00",
-  "fetched_at": "2026-10-19T18:17:26+00:00"
+  "checked_at": "2026-10-19T19:17:30+00:00",
+  "fetched_at": "2026-10-19T19:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "לצד מסי וגריזמן: עידן טוקלומטי נבחר להרכב המחזור ב-MLS",
+     "link": "https://sports.walla.co.il/item/3872929",
+     "date": "2026-10-19T18:26:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עידן טוקלומטי"
+     ]
+    },
     {
      "title": "דניאל פרץ מצטנע - ושולח מסר ברור לשחקני סאות'המפטון",
      "link": "https://sports.walla.co.il/item/3872926",
@@ -3244,15 +3253,6 @@ window.DB.generated = {
      "title": "למרות התבוסה הכואבת: הציון המפתיע של ענאן חלאילי",
      "link": "https://sports.walla.co.il/item/3872750",
      "date": "2026-10-18T16:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "צפו: 0:5 ענק לברייטון על פאלאס וחלאילי, אכזבה ליונייטד",
-     "link": "https://sports.walla.co.il/item/3872528",
-     "date": "2026-10-18T14:47:00+00:00",
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
@@ -3495,8 +3495,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-19T18:17:22+00:00",
-  "fetched_at": "2026-10-19T18:17:22+00:00"
+  "checked_at": "2026-10-19T19:17:27+00:00",
+  "fetched_at": "2026-10-19T19:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3526,8 +3526,9 @@ window.DB.generated = {
     "date": "2026-10-19T02:47:33+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-19T18:17:22+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-19T19:17:27+00:00",
   "fetched_at": "2026-10-19T18:17:22+00:00"
  },
  "feed_health": {
@@ -3535,38 +3536,38 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-19T18:15:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "newest": "2026-10-19T18:27:00+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-19T18:15:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-19T18:15:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-19T16:48:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-19T17:24:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "newest": "2026-10-19T18:26:00+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-19T17:56:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "newest": "2026-10-19T19:02:00+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
@@ -3590,28 +3591,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-19T15:49:42+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-19T15:25:29+00:00",
-    "seen_at": "2026-10-19T18:17:30+00:00",
+    "seen_at": "2026-10-19T19:17:33+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-19T18:17:30+00:00"
+  "checked_at": "2026-10-19T19:17:33+00:00"
  }
 };
