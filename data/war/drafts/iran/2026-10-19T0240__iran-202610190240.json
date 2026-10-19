@@ -1,0 +1,446 @@
+{
+ "status": "draft",
+ "received_sha256_12": "eecbf84e8cb1",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-19T02:40:39+00:00",
+  "window": {
+   "from": "2026-10-18T02:40:39+00:00",
+   "to": "2026-10-19T02:40:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610190240"
+  },
+  "summary": "העימות הצבאי והמדיני בין ישראל וארצות הברית לבין איראן מחריף ברקע קיפאון במשא ומתן העקיף ולחימה פעילה בנתיבי השיט. טהראן מפעילה לחץ ימי באמצעות מיקוש וסגירת מצר הורמוז ומאיימת בשינוי דוקטרינת הגרעין, לצד מינוי שר הגנה חדש והיערכות לסבב תקיפות נוסף. מנגד, מנהיגי ארה\"ב וישראל מאיימים בהכרעה צבאית ישירה ובהפלת השלטון האיראני, תוך חיזוק שיתוף הפעולה המודיעיני האזורי לבלימת השלוחות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמרחב הימי במפרץ",
+    "status": "מתיחות שיא, מיקוש ופגיעה במכליות נפט, עימות סביב סגירת המצר ומצור על נמלים"
+   },
+   {
+    "name": "הזירה הצבאית הישירה (ישראל-ארה\"ב מול איראן)",
+    "status": "כוננות הדדית למכת מנע ותקיפות חוזרות, איומים בהפלת המשטר ותגובה נרחבת"
+   },
+   {
+    "name": "הציר המדיני והגרעיני",
+    "status": "משא ומתן תקוע על תנאי הפסקת האש ופתיחת המצר, אזהרות משינוי מדיניות הגרעין האיראנית"
+   },
+   {
+    "name": "החזית האזורית ומול השלוחות",
+    "status": "סיוע ישראלי מודיעיני לסעודיה מול החות'ים, איומים איראניים על מדינות המפרץ בשל שיתוף פעולה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10190240-01",
+    "title": "פיצוץ ופגיעת מוקש במכלית נפט במצר הורמוז",
+    "summary": "מכלית נפט עלתה באש והתפוצצה בדרום מצר הורמוז לאחר שפגעה במוקש ימי. זרוע הים של משמרות המהפכה טענה כי כלי השיט פעל בניגוד להנחיות וכיבה את מערכות הזיהוי והניווט שלו.",
+    "axis": "איראן - ארה\"ב והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T20:46:26+00:00",
+    "last_update_at": "2026-10-18T21:30:59+00:00",
+    "what_is_not_verified": "לא פורסמה זהות המכלית או אימות עצמאי לטענה שהיא כיבתה מכשירי ניווט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-navy-says-oil-tanker-hits-mine-catches-fire-strait-hormuz",
+      "published_at": "2026-10-18T21:30:59+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1378687",
+      "published_at": "2026-10-18T20:46:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10190240-02",
+    "title": "הצעת טהראן לפתיחת מצר הורמוז והמשך המגעים הדיפלומטיים",
+    "summary": "שר החוץ האיראני עבאס עראקצ'י הודיע כי הצעת ארצו לפתוח מחדש את מצר הורמוז בתוך מספר ימים תמורת קבלת תנאיה על ידי וושינגטון נותרה בעינה, בעוד המשא ומתן העקיף תקוע והמצור והסנקציות נמשכים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T10:46:25+00:00",
+    "last_update_at": "2026-10-19T02:33:06+00:00",
+    "what_is_not_verified": "התוכן המלא של שבעת התנאים שהציבה טהראן ותגובת וושינגטון המדויקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araghchi-says-us-iran-negotiations-are-not-over",
+      "published_at": "2026-10-19T02:33:06+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610180983",
+      "published_at": "2026-10-18T13:21:17+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+      "published_at": "2026-10-18T10:46:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10190240-03",
+    "title": "הסלמת איומים הדדיים בתקיפות צבאיות בין ארה\"ב וישראל לאיראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ וראש ממשלת ישראל בנימין נתניהו איימו בפעולה צבאית להכרעת המערכה והפלת המשטר, בעוד מפקדים ודיפלומטים איראנים איימו בתגובה קשה ובשינוי מדיניות הגרעין.",
+    "axis": "ישראל וארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T17:12:26+00:00",
+    "last_update_at": "2026-10-19T01:31:23+00:00",
+    "what_is_not_verified": "המועד והאופי של תקיפות אפשריות או אם מדובר בלוחמה פסיכולוגית סביב הבחירות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_30d9f672814b6858",
+      "url": "https://www.iranintl.com/en/202610194621",
+      "published_at": "2026-10-19T01:31:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_30d9f672814b6858",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-netanyahu-pushing-renewed-war-iran",
+      "published_at": "2026-10-18T22:11:35+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_ee727b49273b2412",
+      "url": "https://en.irna.ir/news/86296512/Iran-counting-down-for-next-enemy-miscalculation-Armed-Forces",
+      "published_at": "2026-10-18T19:42:07+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_30d9f672814b6858",
+      "url": "https://www.iranintl.com/en/202610182359",
+      "published_at": "2026-10-18T17:12:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "ירושלים, ישראל",
+      "lat": 31.7788,
+      "lon": 35.2258
+     },
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10190240-04",
+    "title": "הצגת תפיסת הביטחון הישראלית והיערכות לפעולת מנע",
+    "summary": "ראש הממשלה בנימין נתניהו הציג תדריך ביטחוני שבו טען כי ישראל הסירה את סכנת ההשמדה הגרעינית המיידית מצד איראן, והצהיר על נכונות לבצע מכת מנע באיראן גם באופן עצמאי ללא תמיכת ארצות הברית.",
+    "axis": "ישראל - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T14:54:05+00:00",
+    "last_update_at": "2026-10-18T15:03:59+00:00",
+    "what_is_not_verified": "מידת ההתקדמות המדויקת של תוכנית הגרעין האיראנית והיקף הפגיעה בה בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957932",
+      "published_at": "2026-10-18T15:03:59+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957939",
+      "published_at": "2026-10-18T15:03:35+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21652560",
+      "published_at": "2026-10-18T14:54:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירושלים, ישראל",
+      "lat": 31.7788,
+      "lon": 35.2258
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10190240-05",
+    "title": "מינוי שר הגנה קבוע באיראן ואיומים בשיקום המערך הצבאי",
+    "summary": "הפרלמנט בטהראן אישר את מינויו של מהרדאד אחלאקי לשר ההגנה. השר הנכנס התחייב לשקם את תעשיות הטילים והביטחון שנפגעו בתקיפות קודמות, לחזק את שלוחות איראן, ואיים על נשיא ארצות הברית בתגובה קטלנית.",
+    "axis": "איראן - ישראל וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T08:27:56+00:00",
+    "last_update_at": "2026-10-18T12:44:09+00:00",
+    "what_is_not_verified": "רמת המוכנות של מטוס הקרב הכבד עליו הכריז שר ההגנה האיראני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rk9zgef3me",
+      "published_at": "2026-10-18T12:44:09+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-parliament-approves-mehrdad-akhlaqi-minister-defence",
+      "published_at": "2026-10-18T09:46:26+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132112",
+      "published_at": "2026-10-18T08:27:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10190240-06",
+    "title": "אזהרת טהראן למדינות האזור מפני שיתוף פעולה טכנולוגי וצבאי",
+    "summary": "יושב ראש הפרלמנט האיראני מוחמד באקר קאליבאף איים על ממשלות באזור המפרץ שלא לספק משאבים או תשתיות לחברות בינה מלאכותית ונתונים המסייעות לפעולות צבאיות נגד איראן, והבטיח צעדי אכיפה תקיפים.",
+    "axis": "איראן - המפרץ וארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T17:46:01+00:00",
+    "last_update_at": "2026-10-18T18:53:13+00:00",
+    "what_is_not_verified": "זהות החברות הספציפיות שאליהן התייחס הדובר או צעדי האכיפה המתוכננים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_1d543cc025c0b36e",
+      "url": "https://en.irna.ir/news/86296491/Ghalibaf-warns-regional-states-against-assisting-AI-firms-linked",
+      "published_at": "2026-10-18T18:53:13+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_1d543cc025c0b36e",
+      "url": "https://www.iranintl.com/en/202610181490",
+      "published_at": "2026-10-18T18:31:04+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_1d543cc025c0b36e",
+      "url": "https://t.me/alexmehacarmel/48682",
+      "published_at": "2026-10-18T17:46:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10190240-07",
+    "title": "שיתוף פעולה מודיעיני ישראלי במערכה הימית ומול השלוחות",
+    "summary": "גורמי מודיעין וחיל הים של ישראל סייעו לצבא ארצות הברית באיתור תשתיות וכלי שיט איראניים במצר הורמוז, וכן מעבירים מידע מודיעיני לסעודיה לצורך יירוט מטרות של החות'ים הנתמכים בידי טהראן.",
+    "axis": "ישראל וארה\"ב - איראן ושלוחותיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T05:22:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T05:22:49+00:00",
+    "last_update_at": "2026-10-18T05:22:49+00:00",
+    "what_is_not_verified": "היקף הסיוע המבצעי המדויק בפועל מעבר לשיתוף מודיעין והתרעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957784",
+      "published_at": "2026-10-18T05:22:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "נסיבות הפיצוץ המדויקות במכלית הנפט במצר הורמוז והגורם שהניח את המוקש",
+   "מידת ההתקדמות של איראן לעבר נשק גרעיני בעקבות הפגיעה בתשתיותיה",
+   "ההיתכנות של פתיחת מצר הורמוז בתוך שבוע בהתאם להצעת טהראן",
+   "מידת המוכנות של ישראל לצאת לתקיפת מנע עצמאית באיראן ללא גיבוי אמריקני",
+   "פיתוחו של מטוס הקרב הכבד מתוצרת התעשייה הצבאית האיראנית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להביא להסרת הסנקציות והמצור הימי על נמלי המדינה כתנאי לפתיחת מצר הורמוז",
+     "להגיב בעוצמה מכרעת לכל פעולה צבאית אמריקנית או ישראלית",
+     "לשקם את מנגנוני הייצור הצבאי והטילים ולהמשיך לתמוך בשלוחותיה"
+    ],
+    "inferred": [
+     "שימוש בשיבוש נתיבי הנפט ובמחירי האנרגיה כמנוף לחץ על המערב לקראת חידוש שיחות",
+     "הרתעת מדינות המפרץ ממתן סיוע מבצעי או טכנולוגי לתקיפות נגדה",
+     "משיכת זמן לצורך התעצמות צבאית ושיקום נכסים שנפגעו"
+    ],
+    "forecast": [
+     "המשך פעולות חבלה והטרדה נקודתיות של מכליות סביב מצר הורמוז לשמירה על מחירי נפט גבוהים",
+     "האצת תוכנית הגרעין כאמצעי מיקוח אחרון במקרה של כישלון הדיפלומטיה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן בכל תנאי, כולל במכת מנע עצמאית",
+     "פירוק טבעת החנק של הציר האיראני ומיגור שלוחותיו באזור",
+     "הפלת המשטר בטהראן והסרת האיום הצבאי"
+    ],
+    "inferred": [
+     "ניצול הגיבוי והתיאום עם הממשל האמריקני להנחתת מכה קשה על יכולות הפיקוד והייצור של איראן",
+     "העמקת הברית המודיעינית והמבצעית עם מדינות ערב המתונות לבלימת טהראן",
+     "שימוש בהישגים הביטחוניים ובמתיחות הצבאית לצרכים פוליטיים פנימיים לקראת הבחירות"
+    ],
+    "forecast": [
+     "המשך הכנות קונקרטיות לפעולה צבאית נגד מתקנים באיראן אם השיחות יקרסו סופית",
+     "הגברת שיתוף המודיעין עם בנות ברית אזוריות לפגיעה בשלוחות האיראניות"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת נשק גרעיני מאיראן והשלמת המלאכה הצבאית במידת הצורך",
+     "הבטחת חופש השיט הבינלאומי במצר הורמוז והסרת החסימה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי מרבי כדי לאלץ את טהראן להתפשר במשא ומתן ללא מלחמה אזורית כוללת",
+     "בלימת הזינוק במחירי הנפט העולמיים כדי למנוע השפעות כלכליות ופוליטיות שליליות"
+    ],
+    "forecast": [
+     "בחינת אפשרות לתקיפות ממוקדות נגד מתקנים ימיים או נכסי משמרות המהפכה אם יימשכו הפגיעות במצר הורמוז",
+     "המשך ערוצי הידברות עקיפים להשגת הסדרה חלקית בנוגע לשיט במפרץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/irans-parliament-approves-mehrdad-akhlaqi-minister-defence",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610181490",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86296491/Ghalibaf-warns-regional-states-against-assisting-AI-firms-linked",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21652560",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1378687",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-netanyahu-pushing-renewed-war-iran",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132112",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48682",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957784",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rk9zgef3me",
+    "accessed_at": "2026-10-19T02:40:39+00:00"
+   }
+  ]
+ }
+}

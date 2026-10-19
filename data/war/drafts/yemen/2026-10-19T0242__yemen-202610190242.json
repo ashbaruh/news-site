@@ -1,0 +1,412 @@
+{
+ "status": "draft",
+ "received_sha256_12": "036ba2036cde",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 1,
+   "shared_root": 5,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-19T02:42:27+00:00",
+  "window": {
+   "from": "2026-10-18T02:42:27+00:00",
+   "to": "2026-10-19T02:42:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610190242"
+  },
+  "summary": "הלחימה בזירה התימנית החריפה וכוללת חילופי מהלומות כבדים בין כוחות הקואליציה הסעודית והממשלה המוכרת לבין תנועת החות'ים. החות'ים ממשיכים לשגר טילים וכלי טיס לעבר ריאד, נג'ראן ומרכזי אנרגיה ותעופה בסעודיה, לצד הפגזות במוקדי חיכוך פנימיים דוגמת מארב ותעז. בתגובה להסלמה, מדינות ערביות ובהן מצרים ואיחוד האמירויות מקדמות תיאום צבאי ומדיני להגנת הממלכה הסעודית.",
+  "fronts": [
+   {
+    "name": "גבול סעודיה-תימן ועומק שטח סעודיה",
+    "status": "הסלמה בתקיפות חוצות גבול של החות'ים באמצעות טילים ורחפנים לצד הפצצות של הקואליציה"
+   },
+   {
+    "name": "מחוז מארב",
+    "status": "לחימה פעילה ושיגור מטחי טילים בליסטיים לעבר העיר"
+   },
+   {
+    "name": "מחוז תעז",
+    "status": "עימותים מתמשכים ופגיעה באזרחים ובתשתיות תחבורה"
+   },
+   {
+    "name": "חופי ים סוף וצפון תימן",
+    "status": "שליטה חות'ית ברצועת החוף לצד תקיפות אוויריות מרוכזות בצנעא, חודיידה וצעדה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10190242-01",
+    "title": "פגיעת שיגור חות'י באזור מגורים בנג'ראן",
+    "summary": "קליע ששוגר על ידי החות'ים פגע בשכונת מגורים בעיר נג'ראן שבדרום ערב הסעודית, גרם לפציעת שישה אזרחים ולנזק לשלושה בתים ושלושה כלי רכב.",
+    "axis": "ערב הסעודית - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T16:35:20+00:00",
+    "last_update_at": "2026-10-18T16:35:20+00:00",
+    "what_is_not_verified": "סוג החימוש שפגע בשכונה אינו מפורט במדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-strike-injures-six-southern-saudi-arabia",
+      "published_at": "2026-10-18T16:35:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ראן, ערב הסעודית",
+      "lat": 17.544,
+      "lon": 44.2247
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-02",
+    "title": "תקיפה אווירית במחוז צעדה בצפון תימן",
+    "summary": "פגיעה מהאוויר בבית מגורים במחוז צעדה שבשליטת החות'ים הביאה למותם של לפחות תשעה בני אדם, בהם נשים וילדים, ולפציעתם של שישה עשר נוספים.",
+    "axis": "פנים תימן / הקואליציה בראשות סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T08:16:11+00:00",
+    "last_update_at": "2026-10-18T18:38:46+00:00",
+    "what_is_not_verified": "זהות המטוסים התוקפים מיוחסת לסעודיה ללא אישור רשמי מטעמה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "published_at": "2026-10-18T18:38:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+      "published_at": "2026-10-18T08:16:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-03",
+    "title": "שיגור טילים חות'יים לעבר העיר מארב",
+    "summary": "החות'ים שיגרו שמונה טילים בליסטיים לעבר העיר מארב במרכז תימן, במקביל לפעילות התקפית של כוחות הממשלה המוכרת ובעלי בריתם באזור.",
+    "axis": "פנים תימן (מארב)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T16:47:51+00:00",
+    "last_update_at": "2026-10-18T16:53:05+00:00",
+    "what_is_not_verified": "היקף הנפגעים או הנזק המדויק מנפילת הטילים במארב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-target-yemens-marib-missiles",
+      "published_at": "2026-10-18T16:53:05+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154222",
+      "published_at": "2026-10-18T16:47:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מארב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-04",
+    "title": "פגיעה באוכלוסייה ובתשתיות במחוז תעז",
+    "summary": "דיווח על מותן של שתי נשים ופציעת תשעה אזרחים בתעז כתוצאה מפעילות החות'ים, לצד פגיעה במעבר מים בכביש המרכזי חיג'ת אל-עבד שפגעה בתנועת אזרחים.",
+    "axis": "פנים תימן (תעז)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T16:19:12+00:00",
+    "last_update_at": "2026-10-18T19:25:21+00:00",
+    "what_is_not_verified": "נסיבות הפגיעה המדויקות במעבר הניקוז בכביש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154231",
+      "published_at": "2026-10-18T19:25:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154228",
+      "published_at": "2026-10-18T18:10:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154217",
+      "published_at": "2026-10-18T16:19:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-05",
+    "title": "מגעים להענקת סיוע צבאי מצרי להגנת סעודיה",
+    "summary": "מועצת ההגנה הלאומית של מצרים אישרה להעניק לסעודיה כל תמיכה נדרשת להגנתה נוכח מתקפות החות'ים, בעוד הפרלמנט בקהיר דחה את ההצבעה הרשמית להמשך דיונים.",
+    "axis": "מצרים - ערב הסעודית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T11:02:28+00:00",
+    "last_update_at": "2026-10-18T18:39:32+00:00",
+    "what_is_not_verified": "המתווה המעשי וההרכב של כוחות או ציוד מצרי אפשרי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egyptian-saudi-foreign-ministers-discuss-regional-de-escalation",
+      "published_at": "2026-10-18T18:39:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "published_at": "2026-10-18T18:38:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypt-parliament-delays-vote-military-support-saudi-arabia",
+      "published_at": "2026-10-18T17:48:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypt-says-ready-back-saudi-arabia-war-against-iran-allied-houthis",
+      "published_at": "2026-10-18T14:46:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypt-says-ready-give-saudi-arabia-necessary-support",
+      "published_at": "2026-10-18T11:09:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132117",
+      "published_at": "2026-10-18T11:02:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     },
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-06",
+    "title": "שיחות ביטחוניות בדרג בכיר בין ערב הסעודית לאיחוד האמירויות",
+    "summary": "שר ההגנה הסעודי נפגש באבו דאבי עם נשיא איחוד האמירויות וסגנו לדיון בהתפתחויות האזוריות ובחיזוק שיתוף הפעולה הביטחוני, על רקע ההסלמה מול תימן.",
+    "axis": "המפרץ (סעודיה - איחוד האמירויות)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-18T16:11:01+00:00",
+    "last_update_at": "2026-10-18T18:38:46+00:00",
+    "what_is_not_verified": "פרטי הסיכומים המבצעיים בין המדינות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "published_at": "2026-10-18T18:38:46+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132140",
+      "published_at": "2026-10-18T17:15:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-vice-president-discusses-regional-developments-saudi-minister-abu",
+      "published_at": "2026-10-18T16:11:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10190242-07",
+    "title": "שיתוף פעולה מודיעיני ישראלי לסיוע בהגנת סעודיה",
+    "summary": "גורמי ביטחון ישראליים מספקים לסעודיה מודיעין להתרעה, בניית מטרות וגיבוש תמונת מצב ביחס לפעילות החות'ים וקשריהם עם איראן.",
+    "axis": "ישראל - סעודיה - תימן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-18T05:22:49+00:00",
+    "last_update_at": "2026-10-18T05:22:49+00:00",
+    "what_is_not_verified": "אישור רשמי של צה\"ל או גורמים סעודיים על שיתוף הפעולה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383957784",
+      "published_at": "2026-10-18T05:22:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת דובר החות'ים בדבר ביצוע 110 תקיפות סעודיות בתוך יממה ומותם של מעל 30 בני אדם",
+   "טענת צבא תימן המוכר על פגיעה וחיסול של מאות לוחמים חות'ים במבצעים ממוקדים",
+   "מספר הנפגעים הכולל בתקיפה האווירית בצעדה (דיווחים משתנים בין 9 הרוגים ל-16 פצועים)",
+   "היקף וטיב הסיוע המודיעיני הישראלי שנמסר לסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0945,
+    "unit": "ILS",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת אנצאר אללה (החות'ים)",
+    "declared": [
+     "המשך פגיעה במטרות בתוך ערב הסעודית, כולל נמלי תעופה ומתקני נפט"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומבצעי על סעודיה כדי לבלום את הלחץ הצבאי בתימן",
+     "ביסוס השליטה ברצועת החוף המערבית של תימן ובמוקדי כוח פנימיים"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכלי טיס בלתי מאוישים לעבר ערי סעודיה",
+     "הגברת הניסיונות להכריע את המערכה במחוז מארב"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "הגנה על ביטחון הממלכה, ריבונותה ומתקניה האסטרטגיים מפני טרור"
+    ],
+    "inferred": [
+     "גיבוש קואליציה ערבית רחבה הכוללת את מצרים ואיחוד האמירויות לחלוקת נטל ההגנה",
+     "שחיקת היכולות הרקטיות והצבאיות של החות'ים באמצעות תקיפות מהאוויר"
+    ],
+    "forecast": [
+     "הידוק שיתוף הפעולה המודיעיני והצבאי עם גורמים אזוריים ובינלאומיים",
+     "המשך מתקפות אוויריות נרחבות במוקדי שליטה חות'יים בתימן"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "נכונות להענקת כל תמיכה נדרשת להגנה על ביטחונה ויציבותה של סעודיה",
+     "התמקדות בהגנה בלבד ללא שאיפה לתקוף או להתעמת ישירות"
+    ],
+    "inferred": [
+     "הבטחת היציבות במרחב ים סוף ושמירה על האינטרסים הכלכליים והביטחוניים המשותפים עם מדינות המפרץ"
+    ],
+    "forecast": [
+     "אישור פרלמנטרי לשליחת כוחות או סיוע לוגיסטי והגנתי מוגדר לסעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/egypt-says-ready-back-saudi-arabia-war-against-iran-allied-houthis",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-vice-president-discusses-regional-developments-saudi-minister-abu",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154217",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132140",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383957784",
+    "accessed_at": "2026-10-19T02:42:27+00:00"
+   }
+  ]
+ }
+}
