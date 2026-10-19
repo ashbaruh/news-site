@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-19T11:17:25+00:00",
-  "fetched_at": "2026-10-19T11:17:25+00:00"
+  "checked_at": "2026-10-19T12:17:14+00:00",
+  "fetched_at": "2026-10-19T12:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,23 +44,23 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T11:17:34+00:00",
-  "fetched_at": "2026-10-19T11:17:34+00:00"
+  "checked_at": "2026-10-19T12:17:27+00:00",
+  "fetched_at": "2026-10-19T12:17:27+00:00"
  },
  "av_en": {
   "data": [
-   {
-    "title_en": "I flew to Switzerland to hear a £1 million hi-fi system – and it made quite the Statement",
-    "title_he": "טסתי לשוויץ כדי לשמוע מערכת Hi-Fi של מיליון ליש\"ט - וזה היה די הצהרה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/i-flew-to-switzerland-to-hear-a-gbp1-million-hi-fi-system-and-it-made-quite-the-statement",
-    "date": "2026-10-19T10:00:00+00:00"
-   },
    {
     "title_en": "Goldmund aims to make a Statement with its new high-end Mimesis pre-amp’s “faithful” sound",
     "title_he": "גולדמונד שואפת לעשות הצהרה עם הסאונד ה\"נאמן\" של הקדם-מגבר החדש של Mimesis",
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/goldmund-aims-to-make-a-statement-with-its-new-high-end-mimesis-pre-amps-faithful-sound",
+    "date": "2026-10-19T10:00:00+00:00"
+   },
+   {
+    "title_en": "I flew to Switzerland to hear a £1 million hi-fi system – and it made quite the Statement",
+    "title_he": "טסתי לשוויץ כדי לשמוע מערכת Hi-Fi של מיליון ליש\"ט - וזה היה די הצהרה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/i-flew-to-switzerland-to-hear-a-gbp1-million-hi-fi-system-and-it-made-quite-the-statement",
     "date": "2026-10-19T10:00:00+00:00"
    },
    {
@@ -79,32 +79,57 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T11:17:35+00:00",
-  "fetched_at": "2026-10-19T11:17:35+00:00"
+  "checked_at": "2026-10-19T12:17:28+00:00",
+  "fetched_at": "2026-10-19T12:17:28+00:00"
  },
- "generated_at": "2026-10-19T11:17:35+00:00",
+ "generated_at": "2026-10-19T12:17:28+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "חברת התשתיות הפרטית הגדולה בישראל מגיעה לבורסה ותגייס כמיליארד שקל",
+     "title": "הכנסות של יותר ממיליארד שקל השנה: הנתונים מאחורי הנפקת התשתיות הגדולה נחשפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560007",
      "date": "2026-10-19T10:49:00+00:00"
     },
     {
      "title": "ארה\"ב הזהירה: חיזבאללה יתערב? תגובת ישראל תהיה קשה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559971",
-     "date": "2026-10-19T10:25:00+00:00"
+     "date": "2026-10-19T11:53:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "הרגע שבו קייטי זכריה גילתה שכהונתה כדוברת הסתיימה אחרי חמישה ימים בלבד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560012",
+     "date": "2026-10-19T12:12:00+00:00"
+    },
+    {
+     "title": "המאבק באינמוד לא נגמר: סטיל פרטנרס מציבה אולטימטם להצעת הרכישה עד סוף אוקטובר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560017",
+     "date": "2026-10-19T12:00:00+00:00"
+    },
+    {
+     "title": "החוב האמריקאי מתחיל לעלות ביוקר: הריבית הפכה למנוע של הגירעון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559903",
+     "date": "2026-10-19T11:56:00+00:00"
+    },
+    {
+     "title": "וול סטריט צפוייה להיפתח בעליות; אינטל מזנקת במסחר המוקדם בעקבות חוזה עם טסלה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559964",
+     "date": "2026-10-19T11:14:00+00:00"
+    },
+    {
+     "title": "המדדים בתל אביב מטפסים: סקטור הנפט והגז מוביל את העליות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559907",
+     "date": "2026-10-19T11:12:00+00:00"
+    },
     {
      "title": "ברן דיווחה בערב על עזיבת המנכ\"ל, ולמחרת על כניסה לתחום חדש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560005",
      "date": "2026-10-19T10:54:00+00:00"
     },
     {
-     "title": "חברת התשתיות הפרטית הגדולה בישראל מגיעה לבורסה ותגייס כמיליארד שקל",
+     "title": "הכנסות של יותר ממיליארד שקל השנה: הנתונים מאחורי הנפקת התשתיות הגדולה נחשפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560007",
      "date": "2026-10-19T10:49:00+00:00"
     },
@@ -112,16 +137,6 @@ window.DB.generated = {
      "title": "אילון מאסק מבטיח: בשנה הבאה כל ילד אמריקאי יקבל מניה של SpaceX",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560000",
      "date": "2026-10-19T10:02:00+00:00"
-    },
-    {
-     "title": "ירידות חדות באירופה; בניו יורק עליות חדות בחוזים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559964",
-     "date": "2026-10-19T09:42:00+00:00"
-    },
-    {
-     "title": "מהפך בתל אביב: הבורסה עוברת לעליות קלות בהובלת הביטחוניות והגז",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559907",
-     "date": "2026-10-19T09:37:00+00:00"
     },
     {
      "title": "במשך שנים זה השתלם. האם החיסכון שלכם מוכן למפולת?",
@@ -139,7 +154,7 @@ window.DB.generated = {
      "date": "2026-10-19T08:30:00+00:00"
     },
     {
-     "title": "צרפת בוערת, אבל עדיין מדורגת מעל ישראל: הפער שמתגלה בשווקים",
+     "title": "צרפת בוערת והחוב מזנק - אז למה היא מדורגת מעל ישראל?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559990",
      "date": "2026-10-19T08:04:00+00:00"
     },
@@ -189,11 +204,6 @@ window.DB.generated = {
      "date": "2026-10-18T15:02:00+00:00"
     },
     {
-     "title": "טראמפ מביע תמיכה בנתניהו: \"אם לישראל יהיה מנהיג אחר אמריקה תצטרך לבצע את העבודה בעצמה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559958",
-     "date": "2026-10-18T14:59:00+00:00"
-    },
-    {
      "title": "מנכ\"ל לאומי נגד חיוב לשלם ריבית על העו\"ש: \"אי הזמינות של הכסף שווה כסף\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559952",
      "date": "2026-10-18T14:08:00+00:00"
@@ -202,27 +212,12 @@ window.DB.generated = {
      "title": "בשווי של יותר ממיליארד שקל: יצרנית הלייזר של \"אור איתן\" בדרך לבורסה בת\"א",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559890",
      "date": "2026-10-18T14:05:00+00:00"
-    },
-    {
-     "title": "המלון בדבלין שביטל הזמנות לכנס נגד אנטישמיות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559856",
-     "date": "2026-10-18T10:54:00+00:00"
-    },
-    {
-     "title": "הזדמנות של \"פעם בדור\"? אנליסטים מסמנים את האג\"ח הקונצרניות בארה\"ב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559477",
-     "date": "2026-10-18T08:47:00+00:00"
-    },
-    {
-     "title": "מחיקת ערך של 98% בשנתיים וחצי: גלגל ההצלה האחרון של גאוזי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559848",
-     "date": "2026-10-18T07:42:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T11:17:26+00:00",
-  "fetched_at": "2026-10-19T11:17:26+00:00"
+  "checked_at": "2026-10-19T12:17:15+00:00",
+  "fetched_at": "2026-10-19T12:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T11:17:26+00:00",
-  "fetched_at": "2026-10-19T11:17:26+00:00"
+  "checked_at": "2026-10-19T12:17:16+00:00",
+  "fetched_at": "2026-10-19T12:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2566,8 +2561,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T11:17:27+00:00",
-  "fetched_at": "2026-10-19T11:17:27+00:00"
+  "checked_at": "2026-10-19T12:17:17+00:00",
+  "fetched_at": "2026-10-19T12:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2698,8 +2693,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T11:17:27+00:00",
-  "fetched_at": "2026-10-19T11:17:27+00:00"
+  "checked_at": "2026-10-19T12:17:17+00:00",
+  "fetched_at": "2026-10-19T12:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2722,13 +2717,15 @@ window.DB.generated = {
     }
    ],
    "candidates": 8,
-   "failed_sources": [],
+   "failed_sources": [
+    "Google DeepMind"
+   ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 673,
+     "likes": 672,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2742,7 +2739,7 @@ window.DB.generated = {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 107,
+     "likes": 108,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -2770,7 +2767,7 @@ window.DB.generated = {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     },
     {
@@ -2797,8 +2794,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T11:17:33+00:00",
-  "fetched_at": "2026-10-19T11:17:33+00:00"
+  "checked_at": "2026-10-19T12:17:26+00:00",
+  "fetched_at": "2026-10-19T12:17:26+00:00"
  },
  "abroad": {
   "data": {
@@ -2819,15 +2816,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "\"אבו פאני סייע לכוכב האדום לפתוח פער משמעותי\"",
-     "link": "https://www.one.co.il/Article/536410.html?ref=rss",
-     "date": "2026-10-19T05:02:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מוחמד אבו פאני"
      ]
     },
     {
@@ -3113,11 +3101,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-19T11:17:30+00:00",
-  "fetched_at": "2026-10-19T11:17:30+00:00"
+  "checked_at": "2026-10-19T12:17:21+00:00",
+  "fetched_at": "2026-10-19T12:17:21+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "אחרי שתקפו את המשטרה: בצה\"ל מצאו כוח אדם לטיפול בפשיעה הלאומנית",
+    "link": "https://www.walla.co.il/news/military/383958057",
+    "date": "2026-10-19T12:00:27+00:00"
+   },
    {
     "title": "לקראת הבחירות הרמטכ\"ל מכריז: \"עוצר יציאות בצה\"ל החל מיום חמישי הקרוב\"",
     "link": "https://www.walla.co.il/news/military/383958042",
@@ -3137,66 +3130,61 @@ window.DB.generated = {
     "title": "צה\"ל מגביר את פינוי המאחזים ביו\"ש ומותח ביקורת על מערכת המשפט: \"עוצרים - והם חוזרים\"",
     "link": "https://www.walla.co.il/news/military/383957820",
     "date": "2026-10-18T11:00:51+00:00"
-   },
-   {
-    "title": "\"לא ניתן להכריע את חמאס באש מנגד, התמרון מביא הישגים\": מח\"ט האש באוגדה 99 בראיון מיוחד",
-    "link": "https://www.walla.co.il/news/military/383957740",
-    "date": "2026-10-17T11:38:11+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T11:17:30+00:00",
-  "fetched_at": "2026-10-19T11:17:30+00:00"
+  "checked_at": "2026-10-19T12:17:22+00:00",
+  "fetched_at": "2026-10-19T12:17:22+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-19T11:12:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T12:12:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-19T10:54:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T11:14:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-19T09:42:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T12:12:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-19T10:31:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T11:33:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-19T10:19:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T11:30:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-19T11:09:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T12:08:00+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-19T10:39:08+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "newest": "2026-10-19T12:00:27+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3208,28 +3196,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-19T11:05:15+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-19T10:00:00+00:00",
-    "seen_at": "2026-10-19T11:17:35+00:00",
+    "seen_at": "2026-10-19T12:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-19T11:17:35+00:00"
+  "checked_at": "2026-10-19T12:17:28+00:00"
  }
 };
