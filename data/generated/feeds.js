@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-19T06:17:20+00:00",
-  "fetched_at": "2026-10-19T06:17:20+00:00"
+  "checked_at": "2026-10-19T06:54:44+00:00",
+  "fetched_at": "2026-10-19T06:54:44+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T06:17:32+00:00",
-  "fetched_at": "2026-10-19T06:17:32+00:00"
+  "checked_at": "2026-10-19T06:54:55+00:00",
+  "fetched_at": "2026-10-19T06:54:55+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T06:17:34+00:00",
-  "fetched_at": "2026-10-19T06:17:34+00:00"
+  "checked_at": "2026-10-19T06:54:55+00:00",
+  "fetched_at": "2026-10-19T06:54:55+00:00"
  },
- "generated_at": "2026-10-19T06:17:34+00:00",
+ "generated_at": "2026-10-19T06:54:55+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,22 @@ window.DB.generated = {
      "date": "2026-10-19T02:44:00+00:00"
     },
     {
-     "title": "8 פורעים יהודים נעצרו: כוחות הביטחון פתחו במבצע ביו\"ש",
+     "title": "10 פורעים יהודים נעצרו: כוחות הביטחון פתחו במבצע ביו\"ש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559971",
-     "date": "2026-10-19T04:33:00+00:00"
+     "date": "2026-10-19T06:18:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מקרון הבטיח להציל את צרפת מהקיצונים. במקום זאת, הוא העלה אותה באש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559981",
+     "date": "2026-10-19T06:49:00+00:00"
+    },
+    {
+     "title": "אלביט זכתה בחוזה של 235 מיליון דולר לאספקת רקטות למדינה ארופאית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001559982",
+     "date": "2026-10-19T06:32:00+00:00"
+    },
     {
      "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559907",
@@ -202,17 +212,12 @@ window.DB.generated = {
      "title": "העסקה עם אלביט בוטלה. עכשיו הצבא הספרדי משלם את המחיר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001559324",
      "date": "2026-10-18T02:35:00+00:00"
-    },
-    {
-     "title": "הפער החריג בין שכירות לקנייה מלמד: שוק הנדל\"ן האמריקאי במסלול התרסקות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559752",
-     "date": "2026-10-17T18:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T06:17:22+00:00",
-  "fetched_at": "2026-10-19T06:17:22+00:00"
+  "checked_at": "2026-10-19T06:54:46+00:00",
+  "fetched_at": "2026-10-19T06:54:46+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-19T06:17:22+00:00",
-  "fetched_at": "2026-10-19T06:17:22+00:00"
+  "checked_at": "2026-10-19T06:54:46+00:00",
+  "fetched_at": "2026-10-19T06:54:46+00:00"
  },
  "tv": {
   "data": [
@@ -2555,8 +2560,9 @@ window.DB.generated = {
     "title": "ברצלונה - ריאל מדריד"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-19T06:17:25+00:00",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "checked_at": "2026-10-19T06:54:47+00:00",
   "fetched_at": "2026-10-19T06:17:25+00:00"
  },
  "ligat_haal": {
@@ -2688,19 +2694,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T06:17:25+00:00",
-  "fetched_at": "2026-10-19T06:17:25+00:00"
+  "checked_at": "2026-10-19T06:54:47+00:00",
+  "fetched_at": "2026-10-19T06:54:47+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/apple-meta-muse-spark-open-mac-collaboration/",
-     "date": "2026-10-18T07:25:29+00:00",
-     "launch": false,
-     "title": "\"אמא ואבא שוב משחקים יפה ביחד\": מטא ואפל משתפות פעולה בהשקת מודל AI פתוח חדש"
-    },
     {
      "source": "Anthropic",
      "link": "https://www.anthropic.com/news/public-benefit-fund",
@@ -2711,9 +2710,9 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 5,
+   "candidates": 1,
    "failed_sources": [
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2727,7 +2726,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 721,
+     "likes": 722,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2762,7 +2761,7 @@ window.DB.generated = {
      "title": "MiniMax-H3 360° Orbit LoRA",
      "desc_en": "One photo into a frozen-instant 360° camera orbit",
      "desc_he": "תמונה אחת לתוך מסלול קפוא מיידי של 360°",
-     "likes": 108,
+     "likes": 109,
      "link": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit"
     },
     {
@@ -2789,8 +2788,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-19T06:17:32+00:00",
-  "fetched_at": "2026-10-19T06:17:32+00:00"
+  "checked_at": "2026-10-19T06:54:53+00:00",
+  "fetched_at": "2026-10-19T06:54:53+00:00"
  },
  "abroad": {
   "data": {
@@ -3123,13 +3122,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-19T06:17:28+00:00",
-  "fetched_at": "2026-10-19T06:17:28+00:00"
+  "checked_at": "2026-10-19T06:54:50+00:00",
+  "fetched_at": "2026-10-19T06:54:50+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "במבצע מיוחד: 8 נעצרו בחשד לתקיפת צלמת העיתונות והדיפלומטים ביו\"ש",
+    "title": "במבצע מיוחד: 10 נעצרו בחשד לתקיפת צלמת העיתונות והדיפלומטים ביו\"ש",
     "link": "https://www.walla.co.il/news/military/383957992",
     "date": "2026-10-19T04:44:22+00:00"
    },
@@ -3154,72 +3153,71 @@ window.DB.generated = {
     "date": "2026-10-17T10:34:53+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-19T06:17:28+00:00",
-  "fetched_at": "2026-10-19T05:17:23+00:00"
+  "ok": true,
+  "checked_at": "2026-10-19T06:54:51+00:00",
+  "fetched_at": "2026-10-19T06:54:51+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-19T06:00:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "newest": "2026-10-19T06:49:00+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-19T05:54:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-19T04:48:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "newest": "2026-10-19T06:49:00+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-16T16:45:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-19T05:51:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "newest": "2026-10-19T06:12:00+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-19T05:00:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-19T05:56:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-19T04:44:22+00:00",
-    "seen_at": "2026-10-19T05:17:25+00:00",
+    "newest": "2026-10-19T06:34:26+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-19T05:17:25+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3231,16 +3229,16 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-19T06:00:00+00:00",
-    "seen_at": "2026-10-19T06:17:34+00:00",
+    "seen_at": "2026-10-19T06:54:55+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-19T06:17:34+00:00"
+  "checked_at": "2026-10-19T06:54:55+00:00"
  }
 };
