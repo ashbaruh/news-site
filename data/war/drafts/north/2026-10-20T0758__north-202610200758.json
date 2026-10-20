@@ -1,0 +1,538 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4e61bf276328",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "shared_root": 5,
+   "initial": 7
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-20T07:58:20+00:00",
+  "window": {
+   "from": "2026-10-19T07:58:20+00:00",
+   "to": "2026-10-20T07:58:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610200758"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות קרקעית ואווירית ישראלית שוטפת בדרום סוריה ובדרום לבנון, לצד חיכוך ביטחוני מול תשתיות חמושות. במקביל נרשמות אזהרות דיפלומטיות חריפות לממשל הלבנוני לבל יאפשר הצטרפות לעימות אזורי, בעוד נשיאות לבנון מנסה לקדם שליטה ביטחונית ופירוק נשק בלתי חוקי. בסוריה מבוצעות פשיטות ישראליות בקונייטרה לצד פעילות של ירדן וגורמים חמושים נוספים במזרח ובדרום המדינה.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "לחימה, סיכול תשתיות ותקיפות אוויריות וארטילריות של צה\"ל לצד פעילות כוחות קרקעיים"
+   },
+   {
+    "name": "דרום סוריה (קונייטרה וא-סווידאא)",
+    "status": "חדירות ופשיטות קרקעיות של צה\"ל, קשרים מול גורמים דרוזים ותקיפות סיכול ירדניות"
+   },
+   {
+    "name": "מזרח סוריה וציר הגבול עם עיראק",
+    "status": "פעילות אווירית ערה ותקריות ירי של גורמים חמושים בלתי מזוהים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10200758-01",
+    "title": "גיחות מטוסי קרב ישראליים בסוריה ובעיראק",
+    "summary": "מטוסי קרב ישראליים נצפו בדרום ובמזרח סוריה וכן מעל מחוז אל-מות'נא בדרום עיראק ובגבול סוריה-עיראק.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T19:55:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T19:55:33+00:00",
+    "last_update_at": "2026-10-20T07:02:46+00:00",
+    "what_is_not_verified": "הדיווח נסמך על מקורות מקומיים בלבד ללא אימות רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-646",
+      "published_at": "2026-10-20T07:02:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-fighter-jets-spotted-over-syria-iraq-local-sources-say",
+      "published_at": "2026-10-19T21:46:41+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94715",
+      "published_at": "2026-10-19T19:55:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מות'נא, עיראק",
+      "lat": 33.3242,
+      "lon": 44.4573
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-02",
+    "title": "תקיפות והפגזות צה\"ל בדרום לבנון",
+    "summary": "כוחות ישראליים ביצעו תקיפות אוויריות, הפגזות ארטילריות, תקיפת כטב\"ם ופיצוצים במספר מוקדים בדרום לבנון, כולל בעיירה תלוסה.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T16:58:18+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T16:58:18+00:00",
+    "last_update_at": "2026-10-20T06:20:12+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזק המדויק אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_806e03ef05af75d0",
+      "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war",
+      "published_at": "2026-10-20T06:20:12+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_806e03ef05af75d0",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-and-artillery-shelling-target-southern-lebanon/4094006",
+      "published_at": "2026-10-20T01:21:45+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_806e03ef05af75d0",
+      "url": "https://english.almanar.com.lb/article/140242/",
+      "published_at": "2026-10-19T16:58:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תלוסה, לבנון",
+      "lat": 33.2295,
+      "lon": 35.489
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-03",
+    "title": "שחרור אזרח סורי שנעצר על ידי צה\"ל בקונייטרה",
+    "summary": "צבא ישראל שחרר אזרח סורי שנעצר יום קודם לכן במהלך חדירה למחוז קונייטרה שכללה הקמת מחסום זמני בכיכר אל-עלם.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T05:39:15+00:00",
+    "last_update_at": "2026-10-20T05:39:15+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syrian-civilian-detained-israeli-army-released",
+      "published_at": "2026-10-20T05:39:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10200758-04",
+    "title": "האשמות ישראליות כלפי צבא לבנון על אי-פירוק אתר חיזבאללה",
+    "summary": "צה\"ל האשים את צבא לבנון באי-פירוק מתקן צבאי של חיזבאללה באזור כפרא, ששימש לאחסון והעברת אמל\"ח למרות דיווחים קודמים שהנושא טופל.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T04:17:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T04:17:58+00:00",
+    "last_update_at": "2026-10-20T04:17:58+00:00",
+    "what_is_not_verified": "טענות צה\"ל לא אומתו באופן עצמאי על ידי מנגנון הפיקוח האמריקאי או צבא לבנון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963780/israeli-military-accuses-lebanese-army-of-failing-to-dismantle-hezboll/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963780",
+      "published_at": "2026-10-20T04:17:58+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10200758-05",
+    "title": "פשיטה של כוחות צה\"ל על כפר טרנג'ה בדרום סוריה",
+    "summary": "כוחות קרקעיים ישראליים נכנסו לכפר טרנג'ה שבמחוז קונייטרה וביצעו פשיטה על בית, בליווי ירי פצצות תאורה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T02:45:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T02:45:31+00:00",
+    "last_update_at": "2026-10-20T02:45:31+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-raid-home-during-incursion-into-southern-syria/4094015",
+      "published_at": "2026-10-20T02:45:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10200758-06",
+    "title": "דיווח על פגישות ישראליות עם מנהיגים דרוזים מסויידאא והעברת נשק",
+    "summary": "מנהיגים דרוזים מא-סווידאא נפגשו ברמת הגולן עם קציני צה\"ל לאחר הגעת משלוח סיוע צבאי ישראלי לפלגים החמושים במחוז.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:31:19+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T00:31:19+00:00",
+    "last_update_at": "2026-10-20T00:31:19+00:00",
+    "what_is_not_verified": "עצם העברת הנשק והפגישה נסמכים על מקורות בלבד ללא אישור רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21663779",
+      "published_at": "2026-10-20T00:31:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידאא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-07",
+    "title": "תקיפה ירדנית נגד רשת הברחת סמים בא-סווידאא",
+    "summary": "כלי טיס ירדני תקף כלי רכב של רשת הברחת סמים דרוזית בדרום סוריה, באזור הנתון לשליטת המועצה הדרוזית.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T20:52:37+00:00",
+    "last_update_at": "2026-10-19T20:52:37+00:00",
+    "what_is_not_verified": "מבוסס על ערוץ המזוהה עם המשטר הסורי ללא תגובה ירדנית רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48723",
+      "published_at": "2026-10-19T20:52:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידאא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-08",
+    "title": "חשיפת מנהרה באזור פנאר בלבנון ומעצר חשוד",
+    "summary": "כוחות צבא לבנון חקרו מנהרה באורך 13 מטרים שהתגלתה באזור פנאר-זעיתריה ועצרו אזרח שטען כי חפר אותה בחיפוש אחר זהב; נשללה הימצאות ציוד צבאי במקום.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T08:31:31+00:00",
+    "last_update_at": "2026-10-19T16:34:50+00:00",
+    "what_is_not_verified": "מטרתה האמיתית של המנהרה והאם קיים קשר לגורמים צבאיים או חיזבאללה טרם אומתו סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/lebanon-tunnel-found-near-beirut-sparks-fresh-hezbollah-tension",
+      "published_at": "2026-10-19T16:34:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132178",
+      "published_at": "2026-10-19T11:36:57+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963636/lebanese-army-arrests-man-over-tunnel-allegedly-dug-in-search-of-gold/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963636",
+      "published_at": "2026-10-19T10:42:17+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963604/lebanese-army-finds-13-meter-tunnel-in-fanar-no-military-equipment-fou/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963604",
+      "published_at": "2026-10-19T08:31:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פנאר, לבנון",
+      "lat": 33.8788,
+      "lon": 35.575
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-09",
+    "title": "הריגת חייל סורי בדיר א-זור",
+    "summary": "חייל בצבא סוריה נהרג מירי של חמושים בלתי מזוהים באזור אל-באע'וז סמוך לגבול עיראק.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T12:53:04+00:00",
+    "last_update_at": "2026-10-19T12:53:04+00:00",
+    "what_is_not_verified": "זהות החמושים שביצעו את הירי אינה ידועה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syrian-soldier-killed-in-attack-by-unidentified-gunmen-in-eastern-deir-ez-zor/4093531",
+      "published_at": "2026-10-19T12:53:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-באע'וז, סוריה",
+      "lat": 34.4646,
+      "lon": 40.9451
+     },
+     {
+      "name": "דיר א-זור, סוריה",
+      "lat": 35.3333,
+      "lon": 40.15
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-10",
+    "title": "אזהרות בינלאומיות ללבנון מהתערבות בעימות בין ישראל לאיראן",
+    "summary": "ארצות הברית וגורמים מערביים וערביים העבירו מסרי אזהרה לבכירי הממשל בלבנון מתגובה ישראלית חריפה אם חיזבאללה יצטרף ללחימה מול ישראל.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T08:14:19+00:00",
+    "last_update_at": "2026-10-19T08:57:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958026",
+      "published_at": "2026-10-19T08:57:00+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94698",
+      "published_at": "2026-10-19T08:14:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-11",
+    "title": "פעילות כוחות צה\"ל במיס אל-ג'בל",
+    "summary": "כוחות מגדוד 9204 של צה\"ל תועדו בפעילות מבצעית בתוך מיס אל-ג'בל בדרום לבנון.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T08:19:49+00:00",
+    "last_update_at": "2026-10-19T08:19:49+00:00",
+    "what_is_not_verified": "היקף הפעילות והמטרות לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94699",
+      "published_at": "2026-10-19T08:19:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מיס אל-ג'בל, לבנון",
+      "lat": 33.17,
+      "lon": 35.5242
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10200758-12",
+    "title": "הצהרות נשיא לבנון בנוגע להפרות ההסכם וההסדרה הדיפלומטית",
+    "summary": "נשיא לבנון ג'וזף עון הצהיר כי ישראל מפרה באופן יומיומי את הסכם המסגרת בדרום המדינה, וקרא להגברת פריסת מנגנוני הביטחון הלבנוניים ולהחרמת נשק לא מורשה.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T06:27:19+00:00",
+    "last_update_at": "2026-10-19T11:32:27+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-violating-us-mediated-framework-agreement-lebanese-president-says/4093398",
+      "published_at": "2026-10-19T11:32:27+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963622/president-aoun-calls-for-tighter-security-weapons-confiscation-and-inc/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963622",
+      "published_at": "2026-10-19T09:44:39+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963580/president-aoun-meets-arab-league-secretary-general-says-lebanon-commit/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963580",
+      "published_at": "2026-10-19T06:27:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה על אספקת אמצעי לחימה מישראל לפלגים חמושים בא-סווידאא",
+   "הטענה כי המנהרה בפנאר שימשה את חיזבאללה לפעילות ביטחונית",
+   "זהות היורים שהרגו את החייל הסורי באל-באע'וז"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1082,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פירוק תשתיות חיזבאללה ומניעת התחמשותו מדרום לליטני בהתאם להבנות"
+    ],
+    "inferred": [
+     "מניעת פתיחת חזית נוספת מלבנון במקרה של עימות ישיר עם איראן",
+     "יצירת אזור חיץ והשפעה בדרום סוריה דרך פשיטות וקשרים עם גורמים מקומיים"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות בדרום לבנון ובדרום סוריה לאכיפת ההבנות ולמניעת התבססות איומים"
+    ]
+   },
+   {
+    "actor": "לבנון (הממשל והנשיאות)",
+    "declared": [
+     "מחויבות לפתרון דיפלומטי והימנעות ממלחמה כוללת",
+     "אכיפת החוק, החרמת אמצעי לחימה והגברת נוכחות מנגנוני הביטחון בדרום"
+    ],
+    "inferred": [
+     "שמירה על ריבונות המדינה ומניעת קריסה כלכלית וביטחונית עקב מעורבות במלחמה אזורית"
+    ],
+    "forecast": [
+     "הגברת הפיקוח והמעצרים של גורמי פשיעה ואמל\"ח לא מאושר בניסיון להפחית עילות לתקיפה ישראלית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/140242/",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-violating-us-mediated-framework-agreement-lebanese-president-says/4093398",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21663779",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/963580/president-aoun-meets-arab-league-secretary-general-says-lebanon-commit/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963580",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syrian-civilian-detained-israeli-army-released",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/lebanon-tunnel-found-near-beirut-sparks-fresh-hezbollah-tension",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132178",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48723",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94699",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958026",
+    "accessed_at": "2026-10-20T07:58:20+00:00"
+   }
+  ]
+ }
+}

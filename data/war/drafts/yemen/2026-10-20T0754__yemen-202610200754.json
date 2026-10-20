@@ -1,0 +1,433 @@
+{
+ "status": "draft",
+ "received_sha256_12": "99f5baf09996",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 1,
+   "shared_root": 4,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-20T07:54:29+00:00",
+  "window": {
+   "from": "2026-10-19T07:54:29+00:00",
+   "to": "2026-10-20T07:54:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610200754"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה בעוצמה רבה עם חידוש הקרבות בין כוחות הממשלה והקואליציה לבין החות'ים, במקביל לירי חוצה גבולות נרחב לעבר סעודיה. החות'ים פגעו קשות במחנה אימונים של כוחות הביטחון במחוז שבווה והובילו לשיבושים אסטרטגיים בריאד, בעוד הקואליציה תוקפת מטרות ומחסני נשק בתעיז ובסעדה ומסכלת הברחות ימיות. במקביל נרשמת התלבטות מדינית במצרים סביב שליחת כוחות הגנה אווירית לעזרת סעודיה, ודיווחים על אפשרות לחידוש מעורבות של איחוד האמירויות בדרום המדינה.",
+  "fronts": [
+   {
+    "name": "שבווה ודרום תימן",
+    "status": "הסלמה קטלנית בעקבות פגיעת טילים במחנה אל-עלם ופגיעה נרחבת במגויסים"
+   },
+   {
+    "name": "מחוז תעיז",
+    "status": "קרבות קרקעיים ותקיפות אוויריות ממוקדות של הקואליציה נגד ריכוזי כוחות ומחסני אמל\"ח חות'יים"
+   },
+   {
+    "name": "עומק סעודיה",
+    "status": "ירי רקטי, טילי שיוט וכטב\"מים מתימן אשר גרם לסגירת נמל התעופה בריאד ולביטול אירועים ממלכתיים"
+   },
+   {
+    "name": "חופי תימן והים האדום",
+    "status": "איומי תקיפה מתמשכים על תנועת שיט, אזהרות קואליציה ויירוט הברחות נשק ימיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10200754-01",
+    "title": "תקיפת טילים בליסטיים של החות'ים על מחנה אימונים במחוז שבווה",
+    "summary": "החות'ים שיגרו שלושה טילים בליסטיים לעבר מחנה אל-עלם במחוז שבווה שבדרום תימן, ששימש כמרכז אימונים למגויסים חדשים של כוחות הביטחון של הממשלה המוכרת. בהתקפה נהרגו מעל 50 אנשים ונפצעו יותר מ-200.",
+    "axis": "תימן פנימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T10:59:18+00:00",
+    "last_update_at": "2026-10-20T06:20:12+00:00",
+    "what_is_not_verified": "מספר ההרוגים המדויק נע בין מעל 30 ליותר מ-50 לפי מקורות שונים, והחות'ים לא מסרו תגובה רשמית לגבי נטילת אחריות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war",
+      "published_at": "2026-10-20T06:20:12+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.sabanew.net/viewstory/154291",
+      "published_at": "2026-10-19T19:23:10+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_9914133618e25cab",
+      "url": "https://www.sabanew.net/viewstory/154289",
+      "published_at": "2026-10-19T19:18:59+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ff8c0e1dd981f1a6",
+      "url": "https://www.sabanew.net/viewstory/154284",
+      "published_at": "2026-10-19T17:32:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+      "published_at": "2026-10-19T17:15:23+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T16:20:51+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.newarab.com/news/yemen-forces-advance-taiz-iran-blames-us-hormuz-crisis",
+      "published_at": "2026-10-19T15:57:56+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_0e01802f4f81e2bd",
+      "url": "https://www.newarab.com/news/dozens-killed-houthi-attack-yemeni-govt-military-camp",
+      "published_at": "2026-10-19T12:24:15+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_22c07c4ba9750f5e",
+      "url": "https://www.sabanew.net/viewstory/154250",
+      "published_at": "2026-10-19T10:59:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עתק, מחוז שבווה, תימן",
+      "lat": 14.5729,
+      "lon": 46.8319
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10200754-02",
+    "title": "תקיפות אוויריות של כוחות הקואליציה והממשלה במחוז תעיז",
+    "summary": "מטוסי קרב של כוחות הקואליציה בגיבוי סעודיה ביצעו שלוש תקיפות אוויריות נגד יעדים חות'יים במחוז תעיז, בהם פעילי הארגון באזור נג'ד קאסם ומחסן אמל\"ח בג'בל חבשי. לפי הכוחות נהרגו עשרות חות'ים.",
+    "axis": "תימן פנימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T12:24:15+00:00",
+    "last_update_at": "2026-10-19T20:25:26+00:00",
+    "what_is_not_verified": "מספר ההרוגים החות'ים (נטען 129 הרוגים ב-48 שעות) לא אומת על ידי מקורות בלתי תלויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-backed-yemeni-forces-say-they-targeted-houthi-reinforcements-taiz",
+      "published_at": "2026-10-19T20:25:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-forces-advance-taiz-iran-blames-us-hormuz-crisis",
+      "published_at": "2026-10-19T15:57:56+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/dozens-killed-houthi-attack-yemeni-govt-military-camp",
+      "published_at": "2026-10-19T12:24:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז תעיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "ג'בל חבשי, מחוז תעיז, תימן",
+      "lat": 13.465,
+      "lon": 43.881
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10200754-03",
+    "title": "תקיפות אוויריות באזור בני מעאד' שבמחוז סעדה",
+    "summary": "כוחות תימניים ביצעו ארבע תקיפות מן האוויר על אזור בני מעאד' בצפון מחוז סעדה שבתימן.",
+    "axis": "תימן פנימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T06:41:27+00:00",
+    "last_update_at": "2026-10-20T06:41:27+00:00",
+    "what_is_not_verified": "זהות הכוחות התוקפים והיקף הנפגעים או הנזקים אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-launch-air-strikes-bani-moath-saada",
+      "published_at": "2026-10-20T06:41:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10200754-04",
+    "title": "אזהרת הקואליציה בהובלת סעודיה מפני הברחות אמל\"ח ימיות של החות'ים וסיכול משלוח",
+    "summary": "מפקדת הכוחות המשותפים של הקואליציה בהובלת סעודיה הזהירה מפני הברחת טילים ואמצעי לחימה באמצעות סירות לאורך חופי תימן, וקראה לבעלי סירות להימנע משיתוף פעולה. במקביל נמסר על יירוט והשמדת משלוח נשק מוברח בים.",
+    "axis": "הים האדום וחופי תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T19:02:28+00:00",
+    "last_update_at": "2026-10-20T07:02:46+00:00",
+    "what_is_not_verified": "פרטי הספינה או המשלוח שיורט והושמד לא פורטו באופן רשמי מעבר לציטוט מקור בקואליציה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_182cd09ec4fc4e75",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-646",
+      "published_at": "2026-10-20T07:02:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_182cd09ec4fc4e75",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-yemen-warns-houthis-against-smuggling-arms-through",
+      "published_at": "2026-10-20T01:11:20+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_182cd09ec4fc4e75",
+      "url": "https://www.sabanew.net/viewstory/154288",
+      "published_at": "2026-10-19T19:02:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חופי תימן",
+      "lat": 12.7549,
+      "lon": 44.8908
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10200754-05",
+    "title": "הצהרת החות'ים על שש תקיפות נגד יעדים בסעודיה וסגירת נמל התעופה בריאד",
+    "summary": "דובר כוחות החות'ים הצהיר על ביצוע שש פעולות צבאיות נגד אתרים בסעודיה בטווח של 48 שעות, תוך שימוש בטילים בליסטיים, טילי שיוט וכטב\"מים. במקביל נמסר על סגירה ממושכת של נמל התעופה בריאד וביטול ועידת ההשקעות הבינלאומית דבוס במדבר עקב התקיפות.",
+    "axis": "סעודיה-חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T11:00:55+00:00",
+    "last_update_at": "2026-10-20T01:05:31+00:00",
+    "what_is_not_verified": "פגיעות מדויקות או נזקים קונקרטיים מכל שש התקיפות הנטענות של החות'ים לא אומתו מצד גורמים סעודיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+      "published_at": "2026-10-20T01:05:31+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-six-attacks-targets-saudi-arabia",
+      "published_at": "2026-10-20T00:00:41+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-airport-closure-disrupts-life-kingdoms-capital",
+      "published_at": "2026-10-19T17:30:24+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship",
+      "published_at": "2026-10-19T11:00:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10200754-06",
+    "title": "מעבר נדיר של מכלית גז קטארית בים האדום תחת איום תקיפות",
+    "summary": "מכלית נושאת גז טבעי נוזלי מקטאר עשתה דרכה צפונה דרך הים האדום בדרכה לאירופה, מעבר הנחשב לחריג באזור הנתון לאיומי תקיפות מצד החות'ים.",
+    "axis": "הים האדום ומצר באב אל-מנדב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T10:50:00+00:00",
+    "last_update_at": "2026-10-19T10:50:00+00:00",
+    "what_is_not_verified": "לא דווח על תקרית תקיפה ישירה נגד המכלית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://gcaptain.com/qatar-lng-cargo-makes-rare-red-sea-journey-to-get-gas-to-europe/",
+      "published_at": "2026-10-19T10:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים האדום",
+      "lat": 20.2966,
+      "lon": 38.5343
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10200754-07",
+    "title": "דחיית הצבעת הפרלמנט המצרי על סיוע צבאי לסעודיה מול החות'ים",
+    "summary": "הפרלמנט המצרי דחה ל-26 באוקטובר את ההצבעה על אישור פריסת כוחות הגנה אווירית וסיוע לוגיסטי בסעודיה לבקשת הנשיא א-סיסי, לצורך התמודדות עם מתקפות הטילים והכטב\"מים מתימן.",
+    "axis": "הקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T13:46:32+00:00",
+    "last_update_at": "2026-10-19T14:56:08+00:00",
+    "what_is_not_verified": "האם הפרלמנט המצרי יאשר את הבקשה בהצבעה העתידית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypt-postpones-sisis-saudi-troop-deployment-vote-next-week",
+      "published_at": "2026-10-19T14:56:08+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/whats-behind-egypts-move-towards-possible-military-involvement-saudi-yemen",
+      "published_at": "2026-10-19T13:46:32+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים המדויק בתקיפה בשבווה (נע בין מעל 30 ליותר מ-50).",
+   "טענת צבא תימן על הריגת 129 לוחמים חות'ים במחוז תעיז.",
+   "ההיקף והתוצאות של שש התקיפות שהחות'ים טענו שביצעו בתוך סעודיה.",
+   "חזרתה המעשית של איחוד האמירויות להתערבות או מימון ישיר בתימן."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1082,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית (אנצאר אללה)",
+    "declared": [
+     "המשך ביצוע פעולות צבאיות מול סעודיה באמצעות טילים וכטב\"מים"
+    ],
+    "inferred": [
+     "פגיעה ביציבות הפנימית של ממשלת תימן על ידי תקיפת בסיסי אימונים וגיוס כוחות חדשים",
+     "הפעלת לחץ כלכלי ותדמיתי כבד על ריאד באמצעות שיבוש התעופה ועיכוב אירועים בינלאומיים"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר יעדים בעומק סעודיה והחרפת מאמצי התקיפה לאורך מוקדי הלחימה הקרקעיים בתימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+    "declared": [
+     "מניעת הברחת אמצעי לחימה דרך הים לחות'ים והזהרת גורמים ימיים משיתוף פעולה",
+     "תגובה נחרצת כנגד מבצעי המתקפה על מחנה האימונים בשבווה",
+     "קידום הכרה בינלאומית בחות'ים כארגון טרור"
+    ],
+    "inferred": [
+     "גיוס תמיכה צבאית חיצונית (כגון הגנה אווירית מצרית) ליירוט איומים בליסטיים וכטב\"מים",
+     "בלימת התקדמות החות'ים בתעיז ובשבווה ושחיקת מאגרי הנשק והתחמושת שלהם"
+    ],
+    "forecast": [
+     "הגברת מאמצי הפיקוח והסיכול הימיים מול חופי תימן לצד העמקת התקיפות האוויריות על מטרות חות'יות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/whats-behind-egypts-move-towards-possible-military-involvement-saudi-yemen",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/qatar-lng-cargo-makes-rare-red-sea-journey-to-get-gas-to-europe/",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-six-attacks-targets-saudi-arabia",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/egypt-postpones-sisis-saudi-troop-deployment-vote-next-week",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154288",
+    "accessed_at": "2026-10-20T07:54:29+00:00"
+   }
+  ]
+ }
+}

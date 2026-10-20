@@ -213,6 +213,10 @@
 51.1283,
 71.4305
 ],
+"ataq, shabwa, yemen": [
+14.5729,
+46.8319
+],
 "ataq, shabwah, yemen": [
 14.5729,
 46.8319
@@ -299,6 +303,7 @@
 35.487
 ],
 "bani hayyan, lebanon": null,
+"bani moath, saada, yemen": null,
 "banias, syria": [
 35.1851,
 35.9478
@@ -910,6 +915,7 @@
 33.3277,
 35.6927
 ],
+"kfarra, lebanon": null,
 "kfartebnit, lebanon": null,
 "khabab, yemen": null,
 "khamis mushait, saudi arabia": [
@@ -1180,6 +1186,10 @@
 33.3451,
 35.4741
 ],
+"mays al-jabal, lebanon": [
+33.17,
+35.5242
+],
 "maysan governorate, iraq": null,
 "mayun island, yemen": [
 12.6518,
@@ -1247,6 +1257,10 @@
 23.6124,
 58.5938
 ],
+"muthanna, iraq": [
+33.3242,
+44.4573
+],
 "nabatieh al-fawqa, lebanon": [
 33.3619,
 35.4987
@@ -1266,6 +1280,7 @@
 32.001,
 44.33
 ],
+"najd qasim, taiz, yemen": null,
 "najran, saudi arabia": [
 17.544,
 44.2247
@@ -1784,6 +1799,7 @@
 27.945,
 -82.4583
 ],
+"taranja, syria": null,
 "tartus, syria": [
 34.8936,
 35.8852
@@ -1941,6 +1957,10 @@
 35.3317
 ],
 "yemen": null,
+"yemeni coast, yemen": [
+12.7549,
+44.8908
+],
 "yerevan, armenia": [
 40.1777,
 44.5126
