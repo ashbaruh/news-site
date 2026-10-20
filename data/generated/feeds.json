@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-20T07:38:21+00:00",
-  "fetched_at": "2026-10-20T07:38:21+00:00"
+  "checked_at": "2026-10-20T08:17:19+00:00",
+  "fetched_at": "2026-10-20T08:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T07:38:29+00:00",
-  "fetched_at": "2026-10-20T07:38:29+00:00"
+  "checked_at": "2026-10-20T08:17:32+00:00",
+  "fetched_at": "2026-10-20T08:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Jamo’s new flagship HYG 5 wireless speaker is like a HomePod with added motion controls",
+    "title_he": "רמקול הדגל החדש של Jamo HYG 5 הוא כמו HomePod עם בקרות תנועה נוספות",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/jamos-new-flagship-hyg-5-wireless-speaker-is-like-a-homepod-with-added-motion-controls",
+    "date": "2026-10-20T08:00:00+00:00"
+   },
    {
     "title_en": "TCL C7L (65C7L)",
     "title_he": null,
@@ -67,27 +74,20 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/cd-players/i-am-ditching-streaming-services-in-favour-of-physical-media-heres-why",
     "date": "2026-10-19T14:58:11+00:00"
-   },
-   {
-    "title_en": "Sky announces a “significant step forward” for its accessible Premier League coverage – and it’s a promising move",
-    "title_he": "סקיי מכריזה על \"צעד משמעותי קדימה\" עבור סיקור הפרמיירליג הנגיש שלה - וזה מהלך מבטיח",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/tv-streaming-services/sky-announces-a-significant-step-forward-for-its-accessible-premier-league-coverage-and-its-a-promising-move",
-    "date": "2026-10-19T13:07:12+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T07:38:30+00:00",
-  "fetched_at": "2026-10-20T07:38:30+00:00"
+  "checked_at": "2026-10-20T08:17:35+00:00",
+  "fetched_at": "2026-10-20T08:17:35+00:00"
  },
- "generated_at": "2026-10-20T07:38:30+00:00",
+ "generated_at": "2026-10-20T08:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מנכ\"ל יזמית הנדל\"ן: \"מי שלא ישנה את ההסכם, לא יהיה לו פרויקט\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559405",
-     "date": "2026-10-20T03:03:00+00:00"
+     "title": "מנהל ההשקעות שמזהיר: \"רמת הסיכון קפצה, השוק מראה סימנים של קזינו\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560070",
+     "date": "2026-10-20T08:07:00+00:00"
     },
     {
      "title": "שר ההגנה האמריקאי הגסת' נפגש אתמול בישראל עם נתניהו",
@@ -97,9 +97,14 @@
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בתל אביב; מניות השבבים נחלשות, עין שלישית מזנקת",
+     "title": "מנהל ההשקעות שמזהיר: \"רמת הסיכון קפצה, השוק מראה סימנים של קזינו\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560070",
+     "date": "2026-10-20T08:07:00+00:00"
+    },
+    {
+     "title": "מגמה חיובית בתל אביב; מניות השבבים נחלשות, מניות הבנייה עולות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560060",
-     "date": "2026-10-20T07:35:00+00:00"
+     "date": "2026-10-20T08:05:00+00:00"
     },
     {
      "title": "בורסות אירופה נסחרות באדום; מניות השבבים הפילו את הבורסה בסיאול",
@@ -125,11 +130,6 @@
      "title": "בנק ישראל לא משנה ריבית לפני בחירות? ההיסטוריה מספרת סיפור אחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560036",
      "date": "2026-10-20T03:05:00+00:00"
-    },
-    {
-     "title": "מנהל ההשקעות שמזהיר: \"רמת הסיכון קפצה, השוק מראה סימנים של קזינו\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560070",
-     "date": "2026-10-20T03:00:00+00:00"
     },
     {
      "title": "הנאסד\"ק קפץ בכ-1%; מניות השבבים קטעו רצף ירידות היסטורי",
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T07:38:22+00:00",
-  "fetched_at": "2026-10-20T07:38:22+00:00"
+  "checked_at": "2026-10-20T08:17:21+00:00",
+  "fetched_at": "2026-10-20T08:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T07:38:23+00:00",
-  "fetched_at": "2026-10-20T07:38:23+00:00"
+  "checked_at": "2026-10-20T08:17:22+00:00",
+  "fetched_at": "2026-10-20T08:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2802,8 +2802,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T07:38:23+00:00",
-  "fetched_at": "2026-10-20T07:38:23+00:00"
+  "checked_at": "2026-10-20T08:17:23+00:00",
+  "fetched_at": "2026-10-20T08:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3002,8 +3002,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T07:38:23+00:00",
-  "fetched_at": "2026-10-20T07:38:23+00:00"
+  "checked_at": "2026-10-20T08:17:23+00:00",
+  "fetched_at": "2026-10-20T08:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -3032,7 +3032,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 698,
+     "likes": 699,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3053,7 +3053,7 @@
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 100,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
@@ -3101,8 +3101,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T07:38:29+00:00",
-  "fetched_at": "2026-10-20T07:38:29+00:00"
+  "checked_at": "2026-10-20T08:17:32+00:00",
+  "fetched_at": "2026-10-20T08:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -3417,8 +3417,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T07:38:26+00:00",
-  "fetched_at": "2026-10-20T07:38:26+00:00"
+  "checked_at": "2026-10-20T08:17:27+00:00",
+  "fetched_at": "2026-10-20T08:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3449,91 +3449,91 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T07:38:26+00:00",
-  "fetched_at": "2026-10-20T07:38:26+00:00"
+  "checked_at": "2026-10-20T08:17:28+00:00",
+  "fetched_at": "2026-10-20T08:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-20T07:35:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:14:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-20T07:35:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:07:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-20T07:23:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:07:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-20T04:10:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-20T07:15:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:07:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-20T07:00:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-20T07:19:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:07:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-19T20:03:28+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-20T06:59:13+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T07:52:17+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-19T15:25:29+00:00",
-    "seen_at": "2026-10-20T07:38:30+00:00",
+    "newest": "2026-10-20T08:00:00+00:00",
+    "seen_at": "2026-10-20T08:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-20T07:38:30+00:00"
+  "checked_at": "2026-10-20T08:17:35+00:00"
  }
 }
