@@ -1,0 +1,495 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0f32120a5796",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 4,
+   "shared_root": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-20T05:11:52+00:00",
+  "window": {
+   "from": "2026-10-19T05:11:52+00:00",
+   "to": "2026-10-20T05:11:52+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610200511"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל נכנס לחודשו השביעי ומתאפיין בהסלמה ימית חמורה במצר הורמוז, הכוללת פגיעה בספינות מסחר והפלת כטבם אמריקני. במקביל, בכירים בירושלים ובוושינגטון מקיימים התייעצויות ביטחוניות דחופות סביב האפשרות לחידוש מתקפות צבאיות רחבות היקף באיראן. טהרן מנגד מגבירה את פריסת מערכות ההגנה, מהדקת מגעים עם רוסיה ומאיימת לשבש את משק האנרגיה ותשתיות התקשורת העולמיות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "הסלמה פעילה ופגיעה שיטתית בנתיבי השיט המסחריים והפלת כלי טיס"
+   },
+   {
+    "name": "הזירה הצבאית הישירה בין ישראל וארה\"ב לאיראן",
+    "status": "כוננות שיא והיערכות לאפשרות של חידוש גלי תקיפות"
+   },
+   {
+    "name": "החזית הדיפלומטית והאזורית (לבנון והמפרץ)",
+    "status": "העברת מסרי הרתעה לביירות ומגעים מפרציים ורוסיים למניעת התרחבות הלחימה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10200511-01",
+    "title": "יירוט כלי טיס בלתי מאויש אמריקני במצר הורמוז",
+    "summary": "משמרות המהפכה הודיעו כי יירטו והשמידו כלי טיס מאויש מרחוק של ארצות הברית מסוג אמ קיו 9 מעל מצר הורמוז באמצעות מערכת הגנה אווירית מתקדמת.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T03:33:01+00:00",
+    "last_update_at": "2026-10-20T03:33:01+00:00",
+    "what_is_not_verified": "אין אישור או תגובה רשמית מצד ארצות הברית להפלת כלי הטיס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-downed-us-mq-9-drone-over-hormuz-strait",
+      "published_at": "2026-10-20T03:33:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10200511-02",
+    "title": "פגיעה בכלי שיט במצר הורמוז ובמימי המפרץ",
+    "summary": "ספינות מסחר ומכולות הותקפו באמצעות כטבמים, מוקשים וירי רקטי במצר הורמוז ומצפון מזרח לג'ובייל, עם דיווחים על טביעת כלי שיט ופגיעה באחרים.",
+    "axis": "איראן - השיט הבינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T14:48:56+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T14:48:56+00:00",
+    "last_update_at": "2026-10-19T18:26:13+00:00",
+    "what_is_not_verified": "מספר כלי השיט המדויק שנפגעו והיקף הנזק המלא אינם מאומתים ונתונים במחלוקת בין המקורות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94714",
+      "published_at": "2026-10-19T18:26:13+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "published_at": "2026-10-19T14:48:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ובייל, ערב הסעודית",
+      "lat": 27.0007,
+      "lon": 49.6532
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-03",
+    "title": "פגישה חשאית בין שר ההגנה האמריקני לראש ממשלת ישראל",
+    "summary": "שר ההגנה של ארצות הברית קיים ביקור בלתי מוכרז בישראל ונפגש בבסיס עובדה עם ראש הממשלה כדי לדון באפשרות לחידוש פעולות צבאיות מול איראן.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T22:42:01+00:00",
+    "last_update_at": "2026-10-19T23:11:41+00:00",
+    "what_is_not_verified": "תוכן השיחות המדויק וההחלטות שהתקבלו בפגישה לא נמסרו רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21663679",
+      "published_at": "2026-10-19T23:11:41+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hk5naze3fe",
+      "published_at": "2026-10-19T22:47:35+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94716",
+      "published_at": "2026-10-19T22:42:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס עובדה, ישראל",
+      "lat": 29.9391,
+      "lon": 34.9385
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-04",
+    "title": "אזהרות אמריקניות וערביות ללבנון מהתערבות בלחימה",
+    "summary": "הועברו מסרי אזהרה להנהגה בביירות מצד ארצות הברית ומדינות נוספות, המזהירים מתגובה ישראלית נרחבת אם חיזבאללה יצטרף לעימות בין ישראל לאיראן.",
+    "axis": "ישראל - לבנון - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T08:14:19+00:00",
+    "last_update_at": "2026-10-19T08:57:00+00:00",
+    "what_is_not_verified": "אמיתות האזהרות מבוססת על מקור ממשלתי לבנוני שצוטט בעיתון המקורב לחיזבאללה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958026",
+      "published_at": "2026-10-19T08:57:00+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94698",
+      "published_at": "2026-10-19T08:14:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-05",
+    "title": "אזהרות ביטחוניות של נציגויות ארצות הברית במזרח התיכון",
+    "summary": "מחלקת המדינה ונציגויות דיפלומטיות של ארצות הברית באזור פרסמו התרעות לאזרחים אמריקנים מפני איומים אפשריים לפגיעה באינטרסים מצד איראן וגורמים התומכים בה.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T05:30:46+00:00",
+    "last_update_at": "2026-10-19T21:15:09+00:00",
+    "what_is_not_verified": "מידת המיידיות של האיומים המיוחסים לאיראן או לבעלות בריתה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-government-linked-jet-lands-tehran-regional-tensions-rise",
+      "published_at": "2026-10-19T21:15:09+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132151",
+      "published_at": "2026-10-19T05:30:46+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10200511-06",
+    "title": "איומים איראניים על תשתיות תקשורת ואנרגיה במצר הורמוז",
+    "summary": "בכירים ומשמרות המהפכה באיראן איימו בפגיעה בכבלי תקשורת העוברים במצר הורמוז ובמרכזי מידע, לצד אזהרות על גרימת משבר אנרגיה עולמי במקרה של תקיפה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T12:44:48+00:00",
+    "last_update_at": "2026-10-20T04:44:29+00:00",
+    "what_is_not_verified": "קיומה של תוכנית מבצעית ממשית לפגיעה בכבלים התת ימיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21663932",
+      "published_at": "2026-10-20T04:44:29+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48718",
+      "published_at": "2026-10-19T19:19:01+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94705",
+      "published_at": "2026-10-19T12:44:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10200511-07",
+    "title": "נחיתת מטוס תובלה מבלארוס בתבריז",
+    "summary": "מטוס מטען שהגיע מבלארוס נחת בנמל התעופה של תבריז, על רקע עיסוקה של בלארוס בייצור מערכות מכ\"ם והגנה אווירית.",
+    "axis": "איראן - סיוע צבאי זר",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T22:06:23+00:00",
+    "last_update_at": "2026-10-19T22:06:23+00:00",
+    "what_is_not_verified": "מהות המטען שהובל במטוס אינה ידועה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48725",
+      "published_at": "2026-10-19T22:06:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תבריז, איראן",
+      "lat": 38.0739,
+      "lon": 46.2979
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-08",
+    "title": "שינוע מערכת הגנה אווירית בטהרן",
+    "summary": "מערכת הגנה אווירית מדגם ח'ורדאד נצפתה במהלך העברה ברחבי טהרן.",
+    "axis": "איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T03:20:43+00:00",
+    "last_update_at": "2026-10-20T03:20:43+00:00",
+    "what_is_not_verified": "היעד המבצעי של שינוע המערכת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48729",
+      "published_at": "2026-10-20T03:20:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-09",
+    "title": "שיחות שר החוץ הרוסי בטהרן",
+    "summary": "שר החוץ של רוסיה קיים שיחות בטהרן עם מקבילו האיראני ועם מזכיר המועצה העליונה לביטחון לאומי, והדגיש את המשך שיתוף הפעולה בין המדינות.",
+    "axis": "איראן - רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T14:46:29+00:00",
+    "last_update_at": "2026-10-19T21:24:17+00:00",
+    "what_is_not_verified": "מידת התמיכה הצבאית המעשית שרוסיה מוכנה לספק לאיראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_f3acca35cbb3115d",
+      "url": "https://en.irna.ir/news/86297637/Major-General-Rezaei-stresses-Iran-s-determination-to-strengthen",
+      "published_at": "2026-10-19T21:24:17+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_f3acca35cbb3115d",
+      "url": "https://www.iranintl.com/en/202610197573",
+      "published_at": "2026-10-19T21:18:36+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_f3acca35cbb3115d",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy",
+      "published_at": "2026-10-19T14:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10200511-10",
+    "title": "נחיתת מטוס ממשלתי מאיחוד האמירויות בטהרן",
+    "summary": "מטוס השייך לחברת צ'רטר ממשלתית של איחוד האמירויות נחת בטהרן בפעם השנייה תוך ימים ספורים, על רקע החשש מהסלמת העימות האזורי.",
+    "axis": "איראן - מדינות המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T21:15:09+00:00",
+    "last_update_at": "2026-10-19T21:15:09+00:00",
+    "what_is_not_verified": "זהות הנוסעים ומטרת השיחות של הגורמים מאיחוד האמירויות בטהרן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-government-linked-jet-lands-tehran-regional-tensions-rise",
+      "published_at": "2026-10-19T21:15:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן בדבר הפלת כלי טיס בלתי מאויש אמריקני מסוג MQ-9 מעל מצר הורמוז.",
+   "הדיווח בוושינגטון פוסט על תוכנית איראנית מכוונת להשפיע על בחירות האמצע בארצות הברית דרך מחירי האנרגיה.",
+   "מספר כלי השיט המדויק שנפגעו במצר הורמוז (פערים בין 12 ל-15 ספינות וטענות בריטיות למספר גבוה יותר).",
+   "תוכן המטען של מטוס התובלה שהגיע מבלארוס לנמל התעופה בתבריז.",
+   "הדיווח הלבנוני על מסרי אזהרה תקיפים שהעבירה ארצות הברית ישירות לנשיא ולראש ממשלת לבנון."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1082,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על המרחב האווירי והימי ופתרון סוגיות האזור בדיפלומטיה ללא נוכחות כוחות זרים.",
+     "חיזוק שיתוף הפעולה האסטרטגי עם מוסקבה."
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי עולמי באמצעות פגיעה בנתיבי האנרגיה במצר הורמוז כדי להרתיע את ארצות הברית מהמשך תקיפות.",
+     "העלאת מחירי הדלק ככלי להשפעה פוליטית בתוך ארצות הברית."
+    ],
+    "forecast": [
+     "המשך פעולות הטרדה ימיות ושיבוש תנועת ספינות במצר הורמוז.",
+     "תגובה צבאית נרחבת לעבר אינטרסים אמריקניים וישראליים אם תחודש המתקפה."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "המשך פגיעה כלכלית וצבאית באיראן תוך הגנה על האינטרסים ועל כוחות הברית.",
+     "דרישה מבעלות הברית לשאת בנטל העימות מול איראן."
+    ],
+    "inferred": [
+     "בחינת אפשרות לחידוש מתקפות צבאיות בשיתוף פעולה עם ישראל כדי לפגוע ביכולות טהרן.",
+     "הרתעת חיזבאללה וגורמים פרו-איראניים מפתיחת חזיתות מקבילות."
+    ],
+    "forecast": [
+     "תגבור האבטחה והנוכחות הימית סביב נתיבי השיט במפרץ הפרסי.",
+     "הוצאה לפועל של פעולה צבאית ממוקדת או נרחבת נגד יעדים איראניים."
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "העברת אזהרה חריפה לאיראן כי תספוג מכות קשות יותר אם תנסה לפעול.",
+     "שימור התיאום ההדוק והברית האסטרטגית מול הממשל האמריקני."
+    ],
+    "inferred": [
+     "חתירה למבצע צבאי משותף עם ארצות הברית נגד תשתיות איראניות בעיתוי הנוכחי.",
+     "מניעת כניסת חיזבאללה למערכה באמצעות איומים בהרס נרחב בלבנון."
+    ],
+    "forecast": [
+     "האצת המוכנות המבצעית בחיל האוויר לפעולה התקפית.",
+     "המשך תיאום ביטחוני הדוק עם הפנטגון לקראת חידוש אפשרי של העימות."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610197573",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86297637/Major-General-Rezaei-stresses-Iran-s-determination-to-strengthen",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21663932",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-government-linked-jet-lands-tehran-regional-tensions-rise",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132151",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48729",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94705",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958026",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hk5naze3fe",
+    "accessed_at": "2026-10-20T05:11:52+00:00"
+   }
+  ]
+ }
+}

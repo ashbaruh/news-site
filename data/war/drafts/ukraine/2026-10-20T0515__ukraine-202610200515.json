@@ -1,0 +1,334 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2763fb543e76",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "verified": 1,
+   "initial": 4,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-20T05:15:06+00:00",
+  "window": {
+   "from": "2026-10-19T05:15:06+00:00",
+   "to": "2026-10-20T05:15:06+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610200515"
+  },
+  "summary": "הלחימה באוקראינה נמשכת תוך תקיפות אוויריות והפצצות הדדיות במרחבים שונים, ובמקביל מתגלעים עימותים מדיניים חריפים בין הנהגת אוקראינה לממשל האמריקאי בנוגע לעיכוב אספקת חימוש וחלוקת מידע מודיעיני. במקביל, גורמים בינלאומיים שונים מקדמים מגעים דיפלומטיים עוקפים, בעוד הצדדים בשטח נערכים להמשך העימות הצבאי.",
+  "fronts": [
+   {
+    "name": "חזית קייב ומחוזות מרכזיים",
+    "status": "פעילה עם תקיפות אוויריות ופגיעה בתשתיות"
+   },
+   {
+    "name": "חזית חרקיב והציר הצפוני",
+    "status": "פעילה הכוללת לחימה יבשתית ותקיפות כטב\"מים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10200515-01",
+    "title": "תקיפה רוסית במחוז אוקוחיב שבקייב",
+    "summary": "מתקפה רוסית פגעה במבנה ייצור ואחסון במחוז אובוחיובי שבקייב, וגרמה להרוגים ופצועים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T18:28:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T18:28:00+00:00",
+    "last_update_at": "2026-10-20T04:54:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומצבם אינם מאומתים מעבר לדיווחים הרשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_f8c26223aa8c771b",
+      "url": "https://www.ukrinform.net/rubric-ato/4176102-death-toll-from-strike-on-kyiv-region-enterprise-rises-to-three-six-injured.html",
+      "published_at": "2026-10-20T04:54:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_f8c26223aa8c771b",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058839/",
+      "published_at": "2026-10-20T04:29:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_6e7a5ec733d27711",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058817/",
+      "published_at": "2026-10-19T18:28:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אובוחיובי, אוקראינה",
+      "lat": 50.1102,
+      "lon": 30.627
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10200515-02",
+    "title": "תקיפת כטב\"ם בפארק בעיר נובה וודולה",
+    "summary": "כטב\"ם רוסי פגע בפארק מרכזי ביישוב חרקיב וגרם לנפגעים בנפש ובפצועים רבים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T18:03:14+00:00",
+    "last_update_at": "2026-10-19T18:03:14+00:00",
+    "what_is_not_verified": "זהות כל הנפגעים והנזק המלא אינם מאומתים ממקור חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/19/russian-drone-strike-on-ukrainian-park-kills-six-including-two-children",
+      "published_at": "2026-10-19T18:03:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובה וודולה, אוקראינה",
+      "lat": 49.7181,
+      "lon": 35.8602
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10200515-03",
+    "title": "פינוי חייל פצוע באמצעות רחפן ענק",
+    "summary": "המרכז הרפואי הצבאי בחרקיב דיווח על טיפול בחייל שעבר קטיעה ופונה משדה הקרב באמצעות רחפן ענק.",
+    "axis": "חזית יבשתית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T04:39:00+00:00",
+    "last_update_at": "2026-10-20T04:39:00+00:00",
+    "what_is_not_verified": "פרטי הפעולה המדויקים אינם מאומתים ממקור ניטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4c63f45d5053419f",
+      "url": "https://www.ukrinform.net/rubric-ato/4176101-unique-evacuation-kharkiv-military-hospital-tells-how-wounded-soldier-was-rescued-by-heavylift-drone.html",
+      "published_at": "2026-10-20T04:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקיב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "קופיאנסק, אוקראינה",
+      "lat": 49.7133,
+      "lon": 37.6142
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10200515-04",
+    "title": "התקרבות בין לוויין צבאי רוסי ללוויין ריגול",
+    "summary": "גופי מעקב חלל דיווחו כי לוויין צבאי רוסי התקרב בצורה חריגה ללוויין חישה מרחוק שמופעל על ידי חברה פינית-אמריקאית ומספק שירות לאוקראינה.",
+    "axis": "טכנולוגיה ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-19T15:57:24+00:00",
+    "last_update_at": "2026-10-19T15:57:24+00:00",
+    "what_is_not_verified": "המטרה המדויקת של תמרוני הלוויין אינה מאומתת רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/19/russian-military-satellite-comes-dangerously-close-to-a-radar-satellite-operated-by-a-finnish-u-s-company-that-supplies-satellite-imagery-to-ukraine",
+      "published_at": "2026-10-19T15:57:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10200515-05",
+    "title": "התנצלות אוקראינה בפני ליטא על סטיית כטב\"מים",
+    "summary": "משרד החוץ האוקראיני התנצל בפני ליטא לאחר שפעילות לוחמה אלקטרונית רוסית הסיטה כטב\"מים אוקראיניים לשמי ליטא בדרכם לסנקט פטרבורג.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-19T13:55:35+00:00",
+    "last_update_at": "2026-10-19T13:55:35+00:00",
+    "what_is_not_verified": "היקף הנזק או המסלול המדויק בליטא אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48703",
+      "published_at": "2026-10-19T13:55:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10200515-06",
+    "title": "מגעים דיפלומטיים ותכנון פסגות אפשריות",
+    "summary": "נציגים אמריקאים מתכננים שיחות בנורווגיה ואפשרות לפגישה עם הנהגת רוסיה וסין, במקביל למתיחות גוברת בין קייב לוושינגטון סביב אספקת חימוש ומודיעין.",
+    "axis": "משא ומתן מדיני",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T00:44:45+00:00",
+    "last_update_at": "2026-10-20T04:46:47+00:00",
+    "what_is_not_verified": "האם הפסגות המשולשות יצאו לפועל ומה תוכנן בהן בדיוק אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_09db930271110216",
+      "url": "https://kyivindependent.com/witkoff-plans-ukraine-peace-talks-in-norway-putin-meeting-in-russia/",
+      "published_at": "2026-10-20T04:46:47+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_09db930271110216",
+      "url": "https://www.ukrinform.net/rubric-polytics/4176098-trump-ready-to-discuss-ending-ukraine-war-with-putin-xi.html",
+      "published_at": "2026-10-20T04:08:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_09db930271110216",
+      "url": "https://www.ukrinform.net/rubric-polytics/4176096-witkoff-kushner-to-travel-to-norway-for-talks-on-peace-in-ukraine-reuters.html",
+      "published_at": "2026-10-20T03:25:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_09db930271110216",
+      "url": "https://www.theguardian.com/world/2026/oct/20/ukraine-war-briefing-zelenskyy-claims-us-deliberately-delaying-interceptor-missile-deliveries-to-kyiv",
+      "published_at": "2026-10-20T00:44:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסלו, נורווגיה",
+      "lat": 59.9133,
+      "lon": 10.739
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על מזימה מכוונת של ארה\"ב לעכב טילים כדי לכפות כניעה",
+   "קיומן המדויק של תכניות חלופיות אירופאיות להקפאת הקו ללא הסכמת אוקראינה",
+   "היקף השימוש המדויק של המערכות האלקטרוניות בשיבוש לוויינים ומסלולי כטב\"מים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1225,
+    "unit": "USD",
+    "change_pct": -0.25,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "קבלת סיוע צבאי מובטח וטילים מיירטים",
+     "הגנה על תשתיות ומניעת כניעה מדינית"
+    ],
+    "inferred": [
+     "שמירה על תמיכה מערבית פעילה למרות חילוקי הדעות עם וושינגטון",
+     "המשך פגיעה במטרות בתוך שטחי רוסיה ובנכסיה"
+    ],
+    "forecast": [
+     "החמרת החיכוך הדיפלומטי עם הממשל האמריקאי",
+     "הגברת התלות ביוזמות עצמאיות מול מדינות אירופה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הפעילות הצבאית עד להשגת היעדים"
+    ],
+    "inferred": [
+     "ניצול משברים פוליטיים במערב להחלשת התמיכה באוקראינה",
+     "תקיפת תשתיות קריטיות להפחתת יכולת העמידה של אוקראינה"
+    ],
+    "forecast": [
+     "המשך הפצצות אוויריות ממוקדות על מרכזים אוקראיניים",
+     "ניסיון לקדם פורומים בינלאומיים ללא נוכחות אוקראינית ישירה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "קידום פתרון דיפלומטי לסיום המלחמה"
+    ],
+    "inferred": [
+     "צמצום מעורבות או האטת קצב משלוחי החימוש מתוך שיקולים פנימיים וכלכליים",
+     "הפעלת לחץ על הנהגת אוקראינה להתגמש במשא ומתן"
+    ],
+    "forecast": [
+     "המשך המתיחות הפומבית סביב העברת חלקי חילוף ומיירטים",
+     "ניסיונות תיווך מול שחקנים נוספים בזירה הבינלאומית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/20/ukraine-war-briefing-zelenskyy-claims-us-deliberately-delaying-interceptor-missile-deliveries-to-kyiv",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/witkoff-plans-ukraine-peace-talks-in-norway-putin-meeting-in-russia/",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/19/russian-military-satellite-comes-dangerously-close-to-a-radar-satellite-operated-by-a-finnish-u-s-company-that-supplies-satellite-imagery-to-ukraine",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058817/",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48703",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4176096-witkoff-kushner-to-travel-to-norway-for-talks-on-peace-in-ukraine-reuters.html",
+    "accessed_at": "2026-10-20T05:15:06+00:00"
+   }
+  ]
+ }
+}
