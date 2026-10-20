@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-20T15:17:17+00:00",
-  "fetched_at": "2026-10-20T15:17:17+00:00"
+  "checked_at": "2026-10-20T16:17:25+00:00",
+  "fetched_at": "2026-10-20T16:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T15:17:31+00:00",
-  "fetched_at": "2026-10-20T15:17:31+00:00"
+  "checked_at": "2026-10-20T16:17:35+00:00",
+  "fetched_at": "2026-10-20T16:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T15:17:31+00:00",
-  "fetched_at": "2026-10-20T15:17:31+00:00"
+  "checked_at": "2026-10-20T16:17:35+00:00",
+  "fetched_at": "2026-10-20T16:17:35+00:00"
  },
- "generated_at": "2026-10-20T15:17:31+00:00",
+ "generated_at": "2026-10-20T16:17:35+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לפני שהתשלום יורד בחדות: האם כדאי למהר להתקין גג סולארי?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560141",
-     "date": "2026-10-20T14:19:00+00:00"
+     "title": "אחוז החסימה הוא לא המבחן היחידי של וינטר, הנדל וזליכה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560162",
+     "date": "2026-10-20T16:00:00+00:00"
     },
     {
-     "title": "דיווח: קטאר ופקיסטן העבירו הצעת פשרה לארה\"ב ולאיראן",
+     "title": "מיליארדים לאיראן על הפרק: ההסכם המתגבש והמכה לישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560093",
-     "date": "2026-10-20T15:08:00+00:00"
+     "date": "2026-10-20T15:41:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T15:17:19+00:00",
-  "fetched_at": "2026-10-20T15:17:19+00:00"
+  "checked_at": "2026-10-20T16:17:26+00:00",
+  "fetched_at": "2026-10-20T16:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T15:17:20+00:00",
-  "fetched_at": "2026-10-20T15:17:20+00:00"
+  "checked_at": "2026-10-20T16:17:26+00:00",
+  "fetched_at": "2026-10-20T16:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2804,8 +2804,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-20T15:17:22+00:00",
-  "fetched_at": "2026-10-20T15:17:22+00:00"
+  "checked_at": "2026-10-20T16:17:27+00:00",
+  "fetched_at": "2026-10-20T16:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3004,8 +3004,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T15:17:22+00:00",
-  "fetched_at": "2026-10-20T15:17:22+00:00"
+  "checked_at": "2026-10-20T16:17:27+00:00",
+  "fetched_at": "2026-10-20T16:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -3027,28 +3027,28 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 8,
    "failed_sources": [],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 709,
+     "likes": 712,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 128,
+     "likes": 129,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 742,
+     "likes": 743,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3062,21 +3062,21 @@ window.DB.generated = {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 96,
+     "likes": 99,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 163,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Qwen-Image-2.1-Turbo",
      "desc_en": "8-step text-to-image and editing with Qwen-Image-2.1-Turbo",
      "desc_he": "8 - שלב טקסט לתמונה ועריכה עם Qwen-Image -2.1-Turbo",
-     "likes": 121,
+     "likes": 122,
      "link": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo"
     },
     {
@@ -3097,27 +3097,18 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Image Generator",
      "desc_en": "Krea 2 Turbo text2image and image editing",
      "desc_he": "Krea 2 Turbo text2עריכת תמונה ותמונות",
-     "likes": 171,
+     "likes": 172,
      "link": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T15:17:30+00:00",
-  "fetched_at": "2026-10-20T15:17:30+00:00"
+  "checked_at": "2026-10-20T16:17:34+00:00",
+  "fetched_at": "2026-10-20T16:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
-    {
-     "title": "\"אבדיה יהיה אולסטאר גם השנה\": התחזית הנועזת",
-     "link": "https://www.one.co.il/Article/536533.html?ref=rss",
-     "date": "2026-10-20T11:54:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
     {
      "title": "עם מוראנט ולילארד: אבדיה ופורטלנד פותחים עונה",
      "link": "https://www.one.co.il/Article/536082.html?ref=rss",
@@ -3179,15 +3170,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "פתאום אי אפשר להכניע אותו: דניאל פרץ בעקבות השיא",
-     "link": "https://sports.walla.co.il/item/3872861",
-     "date": "2026-10-19T10:31:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -3419,8 +3401,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-20T15:17:25+00:00",
-  "fetched_at": "2026-10-20T15:17:25+00:00"
+  "checked_at": "2026-10-20T16:17:30+00:00",
+  "fetched_at": "2026-10-20T16:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3450,8 +3432,9 @@ window.DB.generated = {
     "date": "2026-10-19T04:44:22+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-20T15:17:26+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-20T16:17:30+00:00",
   "fetched_at": "2026-10-20T15:17:26+00:00"
  },
  "feed_health": {
@@ -3459,44 +3442,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-20T15:14:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "newest": "2026-10-20T16:06:00+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-20T14:34:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-20T14:34:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-20T04:10:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-20T14:10:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "newest": "2026-10-20T15:47:00+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-20T14:28:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-20T15:02:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "newest": "2026-10-20T16:00:00+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3508,34 +3491,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-13T16:00:00+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-20T13:30:36+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "newest": "2026-10-20T16:02:59+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-20T14:06:21+00:00",
-    "seen_at": "2026-10-20T15:17:31+00:00",
+    "seen_at": "2026-10-20T16:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-20T15:17:31+00:00"
+  "checked_at": "2026-10-20T16:17:35+00:00"
  }
 };
