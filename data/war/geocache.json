@@ -121,6 +121,7 @@
 14.5425,
 49.1231
 ],
+"al-nashma, al-ma’afer, taiz, yemen": null,
 "al-qantara, lebanon": [
 33.2589,
 35.459
@@ -488,6 +489,10 @@
 49.8366,
 36.6899
 ],
+"chystiakove, ukraine": [
+48.0261,
+38.6181
+],
 "colombo, sri lanka": [
 6.9389,
 79.8542
@@ -799,6 +804,7 @@
 48.9225,
 24.7103
 ],
+"jabal al-arab, as-suwayda, syria": null,
 "jabal bazel, yemen": null,
 "jabal habashi, taiz, yemen": [
 13.465,
@@ -1493,6 +1499,10 @@
 "red sea, yemen": [
 12.783,
 45.0315
+],
+"reni, ukraine": [
+45.4554,
+28.2791
 ],
 "reyhanli, turkey": [
 36.2684,

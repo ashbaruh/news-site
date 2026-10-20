@@ -1,0 +1,450 @@
+{
+ "status": "draft",
+ "received_sha256_12": "21c548a7beee",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-20T23:43:23+00:00",
+  "window": {
+   "from": "2026-10-19T23:43:23+00:00",
+   "to": "2026-10-20T23:43:23+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610202343"
+  },
+  "summary": "הלחימה בין החות'ים לבין ממשלת תימן הנתמכת בידי סעודיה התחדשה במלוא עוצמתה בעקבות קריסת הפסקת האש, ומתאפיינת בפגיעות קטלניות במחנות צבאיים במחוז שבווה ובהידוק המצור על תעז. במקביל, החות'ים מגבירים את שיגורי הטילים והכטב\"מים לעבר יעדים ותשתיות בסעודיה, דבר שגרם לשיבוש פעילות כלכלית ולהשבתת נמלי תעופה. בתגובה, שותפות בינלאומיות בראשות בריטניה מתגברות את מערכי ההגנה האווירית של סעודיה, בעוד ניסיונות תיווך אזוריים נותרו ללא מענה.",
+  "fronts": [
+   {
+    "name": "חזית מחוז שבווה",
+    "status": "הסלמה חריפה ומתקפות טילים חות'יות על מחנות אימונים של הממשלה"
+   },
+   {
+    "name": "חזית העיר ומחוז תעז",
+    "status": "מצור חות'י מתהדק, חסימת צירי אספקה, הפגזות וחילופי אש"
+   },
+   {
+    "name": "חזית תימן-סעודיה (עורף סעודי)",
+    "status": "תקיפות אינטנסיביות של טילים וכטב\"מים חות'יים מול פריסת הגנה אווירית זרה"
+   },
+   {
+    "name": "הזירה הימית (ים סוף ומצר באב אל-מנדב)",
+    "status": "שיבושי שיט ותנועת פליטים מתימן לחופי ג'יבוטי עקב הקרבות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10202343-01",
+    "title": "תקיפה קטלנית של החות'ים על מחנה אימונים של כוחות הביטחון במחוז שבווה",
+    "summary": "מתקפת טילים בליסטיים פגעה במחנה אל-עלאם במחוז שבווה וגרמה למותם של 73 מגויסי כוחות ביטחון ולפציעת מעל 200, כאשר נמשכים חיפושים אחר 14 נעדרים.",
+    "axis": "פנים-תימני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T06:20:12+00:00",
+    "last_update_at": "2026-10-20T21:44:38+00:00",
+    "what_is_not_verified": "גורלם של 14 הנעדרים וזהות מפקדי הבסיס המדויקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-houthi-strike-yemen-government-camp-rises-73",
+      "published_at": "2026-10-20T21:44:38+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/death-toll-houthi-strike-yemen-govt-camp-rises-73",
+      "published_at": "2026-10-20T15:29:38+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T14:09:42+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
+      "published_at": "2026-10-20T12:04:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war",
+      "published_at": "2026-10-20T06:20:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10202343-02",
+    "title": "שיגור טיל בליסטי לעבר ריאד והשמדת פלטפורמת השיגור בידי הקואליציה",
+    "summary": "הקואליציה בהובלת סעודיה הודיעה כי השמידה פלטפורמת שיגור של טיל בליסטי ששוגר על ידי החות'ים לעבר הבירה ריאד.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T17:14:17+00:00",
+    "last_update_at": "2026-10-20T19:12:27+00:00",
+    "what_is_not_verified": "מיקום מדויק של המשגר שהושמד ונזקי הפגיעה בריאד עצמה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_63ae07bc225142f4",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-launcher-used-riyadh-attack",
+      "published_at": "2026-10-20T19:12:27+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_63ae07bc225142f4",
+      "url": "https://www.sabanew.net/viewstory/154337",
+      "published_at": "2026-10-20T17:14:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10202343-03",
+    "title": "הידוק המצור החות'י והפגזות על העיר תעז",
+    "summary": "החות'ים מכתרים את העיר תעז, חוסמים את ציר הגישה לעדן ופוגעים בשכונות מגורים, תוך גרימת עקירה המונית של תושבים ופגיעה באזרחים.",
+    "axis": "פנים-תימני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T12:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T12:00:00+00:00",
+    "last_update_at": "2026-10-20T15:30:42+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בכל שכונה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/un-demands-aid-access-besieged-yemen-city-taiz",
+      "published_at": "2026-10-20T15:30:42+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemen-displacement-tops-250k-houthis-tighten-siege-taiz-what-know",
+      "published_at": "2026-10-20T15:14:59+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
+      "published_at": "2026-10-20T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10202343-04",
+    "title": "דיווח על תקיפות אוויריות באזור אל-משמה במחוז תעז",
+    "summary": "כלי תקשורת חות'יים דיווחו על שלוש תקיפות אוויריות שכוונו לאזור אל-נשמה בנפת אל-מעאפר.",
+    "axis": "פנים-תימני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T22:31:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T22:31:14+00:00",
+    "last_update_at": "2026-10-20T22:31:14+00:00",
+    "what_is_not_verified": "זהות המטוסים התוקפים והיקף הנזק בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-media-report-more-air-strikes-taiz",
+      "published_at": "2026-10-20T22:31:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10202343-05",
+    "title": "הצבת מטוסי קרב בריטיים להגנה על שמי סעודיה",
+    "summary": "בריטניה החליטה לפרוס מטוסי טייפון שיבצעו משימות הגנה מפני טילים וכטב\"מים חות'יים מעל ערי סעודיה ותשתיותיה, ללא השתתפות בתקיפות התקפיות.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T10:53:59+00:00",
+    "last_update_at": "2026-10-20T18:55:52+00:00",
+    "what_is_not_verified": "מועד פריסת המטוסים המדויק בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
+      "published_at": "2026-10-20T18:55:52+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+      "published_at": "2026-10-20T18:30:16+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T13:54:35+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
+      "published_at": "2026-10-20T12:04:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/uk-fly-raf-missions-defending-saudi-against-houthi-attacks",
+      "published_at": "2026-10-20T10:53:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10202343-06",
+    "title": "היעדר מענה ליוזמת התיווך האיראנית בין סעודיה לחות'ים",
+    "summary": "שר החוץ האיראני עבאס עראקצ'י מסר כי לא התקבל מענה מריאד או מהחות'ים להצעתו לתווך בסכסוך ולהביא להפסקת הלחימה.",
+    "axis": "מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T20:32:37+00:00",
+    "last_update_at": "2026-10-20T21:46:26+00:00",
+    "what_is_not_verified": "עמדותיהם הבלתי רשמיות של הצדדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-says-saudi-arabia-houthis-have-not-answered-mediation-offer",
+      "published_at": "2026-10-20T21:46:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-says-no-response-saudi-arabia-and-yemens-houthis",
+      "published_at": "2026-10-20T20:32:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10202343-07",
+    "title": "הטלת הגבלות ביטחוניות על משרד החות'ים בבגדאד",
+    "summary": "ממשלת עיראק אסרה על נציגות החות'ים בשטחה לעסוק בפעילות פוליטית ותקשורתית, הגבילה את תנועותיהם ומנעה פעילות עוינת נגד מדינות האזור.",
+    "axis": "אזורי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T13:56:40+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T13:56:40+00:00",
+    "last_update_at": "2026-10-20T13:56:40+00:00",
+    "what_is_not_verified": "תגובת הנציגות החות'ית להנחיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/exclusive-iraq-imposes-restrictions-houthis-baghdad-office",
+      "published_at": "2026-10-20T13:56:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10202343-08",
+    "title": "דחיית ועידת ההשקעות בריאד עקב תקיפות החות'ים",
+    "summary": "סעודיה הודיעה על דחיית כנס ההשקעות הבינלאומי לשנת 2027 בעקבות הפגיעה בתשתיות והתגברות התקיפות של החות'ים על הממלכה.",
+    "axis": "כלכלי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T08:37:32+00:00",
+    "last_update_at": "2026-10-20T08:44:31+00:00",
+    "what_is_not_verified": "המועד המדויק החדש שייקבע לכנס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132234",
+      "published_at": "2026-10-20T08:44:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-postpones-its-davos-desert-after-attacks",
+      "published_at": "2026-10-20T08:37:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "גורלם המדויק של 14 הנעדרים מתקיפת הטילים בשבווה",
+   "מספר הנפגעים הכולל בכל תקריות הירי וההפגזות בשכונות העיר תעז",
+   "המועד המדויק שבו יוצבו מטוסי הטייפון הבריטיים בסעודיה",
+   "המועד החדש שייקבע לוועידת ההשקעות הסעודית FII בשנת 2027"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1077,
+    "unit": "ILS",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה בריכוזי כוחות סעודיים ומחנות הכפופים להם",
+     "המשך פעולות צבאיות מול יעדים סעודיים"
+    ],
+    "inferred": [
+     "הכרעת המערכה הקרקעית בדרום ובמרכז תימן באמצעות כיבוש תעז ושיבוש מקורות האנרגיה בשבווה",
+     "הפעלת לחץ כלכלי וביטחוני כבד על ריאד כדי להרתיעה ממעורבות בתימן"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות קרקעית באזור שבווה ותעז לצד שיגורים מרוחקים של טילים לעומק סעודיה"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "יירוט והשמדה של פלטפורמות שיגור חות'יות המאיימות על ריאד",
+     "תמיכה בממשלת תימן המוכרת והגנה על שלמות הממלכה"
+    ],
+    "inferred": [
+     "בלימת ההתפשטות החות'ית בתימן ומניעת קריסת ערי הדרום",
+     "הגנה על תשתיות הנפט, התעופה והמיזמים הכלכליים של חזון 2030 באמצעות תמיכה צבאית זרה"
+    ],
+    "forecast": [
+     "הישענות גוברת על הגנה אווירית בינלאומית וחיזוק בריתות הגנה אזוריות"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "הכשרת כוחות ביטחון ומשטרה חדשים להתמודדות מול החות'ים",
+     "דרישה לפתיחת מעברי הסיוע והסרת המצור מעל העיר תעז"
+    ],
+    "inferred": [
+     "מניעת נפילת מחוזות האנרגיה במזרח ובדרום לידי החות'ים",
+     "שמירה על נתיבי הגישה שנותרו לעיר הבירה הזמנית עדן"
+    ],
+    "forecast": [
+     "המשך ספיגת אבדות בבסיסי האימונים והתגברות מצוקת האוכלוסייה והעקורים באזורי הקרבות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/iran-says-saudi-arabia-houthis-have-not-answered-mediation-offer",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-says-no-response-saudi-arabia-and-yemens-houthis",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-postpones-its-davos-desert-after-attacks",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154337",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132234",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
+    "accessed_at": "2026-10-20T23:43:23+00:00"
+   }
+  ]
+ }
+}

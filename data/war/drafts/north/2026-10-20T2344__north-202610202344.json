@@ -1,0 +1,539 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4900970bda85",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "initial": 3,
+   "shared_root": 6,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-20T23:44:32+00:00",
+  "window": {
+   "from": "2026-10-19T23:44:32+00:00",
+   "to": "2026-10-20T23:44:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610202344"
+  },
+  "summary": "הלחימה והפעילות המבצעית של צה\"ל בדרום לבנון נמשכות באמצעות תקיפות מהאוויר, אש ארטילרית והשמדת תשתיות, במקביל לשיחות צבאיות עקיפות בארצות הברית בין ישראל ללבנון על יישום הסכם המסגרת. בזירה הפנים-לבנונית מתגברים החיכוכים בין רשויות המדינה לחיזבאללה בעקבות הברחות נשק, בעוד הארגון מוסיף לשקם את מוסדותיו. בסוריה נרשמת מתיחות ביטחונית על רקע תקיפות רחפנים בא-סווידא, נוכחות צבאית טורקית ממושכת בצפון וטענות לא מאומתות על פעילות ישראלית בדרום המדינה.",
+  "fronts": [
+   {
+    "name": "דרום לבנון וישראל",
+    "status": "פעילות מבצעית פעילה הכוללת תקיפות צה\"ל מהאוויר, אש ארטילרית והשמדת תשתיות, לצד מגעים צבאיים-טכניים בארה\"ב ליישום הסדרי ביטחון ונסיגה."
+   },
+   {
+    "name": "הזירה הפנים-לבנונית מול חיזבאללה",
+    "status": "מתיחות סביב אכיפת החוק ותפיסות אמצעי לחימה של הארגון, לצד חזרת מוסדות אזרחיים של חיזבאללה לפעילות בחסות שרים בממשלה."
+   },
+   {
+    "name": "דרום סוריה",
+    "status": "חוסר יציבות ביטחוני הכולל תקיפות רחפנים על עמדות ביטחון פנים בא-סווידא, לצד טענות לא מאומתות בדבר היערכות ישראלית באזור ג'בל א-ערב."
+   },
+   {
+    "name": "צפון סוריה וטורקיה",
+    "status": "המשך אחיזה צבאית של טורקיה בשטח סוריה בהתאם להצהרות רשמיות של אנקרה על השארת הכוחות עד הבטחת גבולותיה."
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10202344-01",
+    "title": "התקפות רחפנים נגד עמדות ביטחון סוריות במחוז א-סווידא",
+    "summary": "קבוצות חמושות תקפו באמצעות כלי טיס בלתי מאוישים ממולכדים עמדות של כוחות ביטחון הפנים באזור הכפרי המערבי של מחוז א-סווידא בדרום סוריה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T23:01:52+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T23:01:52+00:00",
+    "last_update_at": "2026-10-20T23:01:52+00:00",
+    "what_is_not_verified": "זהות הקבוצות החמושות שביצעו את התקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/armed-groups-target-syrian-security-posts-in-suwayda-with-explosive-laden-drones/4095191",
+      "published_at": "2026-10-20T23:01:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-02",
+    "title": "שיחות צבאיות-טכניות בין ישראל ללבנון בפלורידה",
+    "summary": "משלחות צבאיות מישראל ומלבנון קיימו שיחות בפיקוד המרכז של צבא ארצות הברית בטמפה, בתיווך אמריקני. השיחות התמקדו ביישום הסכם המסגרת ובנסיגת כוחות מאזורי פיילוט.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T13:50:00+00:00",
+    "last_update_at": "2026-10-20T20:56:07+00:00",
+    "what_is_not_verified": "מידת ההתקדמות בשיחות ומועד השגת הסכמות מעשיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanon-israel-military-technical-talks-in-florida-conclude-first-day-to-resume-wednesday/4095149",
+      "published_at": "2026-10-20T20:56:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israel-seeks-cast-lebanon-army-failing-ahead-us-talks",
+      "published_at": "2026-10-20T15:51:04+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958223",
+      "published_at": "2026-10-20T14:31:40+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963902/will-lebanon-israel-talks-in-florida-contain-tensions-before-israels-e/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963902",
+      "published_at": "2026-10-20T13:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טמפה, ארצות הברית",
+      "lat": 27.945,
+      "lon": -82.4583
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-03",
+    "title": "האשמות ישראליות כלפי צבא לבנון בנוגע לחיזבאללה",
+    "summary": "צבא ישראל האשים גורמים בצבא לבנון בשיתוף פעולה עם חיזבאללה, סיכול אכיפת הסדרי הביטחון ואי-פירוק אתר צבאי בכפרא. צבא לבנון דחה את הטענות והגדירן כשקריות.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T13:50:00+00:00",
+    "last_update_at": "2026-10-20T15:51:04+00:00",
+    "what_is_not_verified": "הטענות בדבר תיאום של קצינים לבנונים עם חיזבאללה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_the_new_arab",
+      "url": "https://www.newarab.com/news/israel-seeks-cast-lebanon-army-failing-ahead-us-talks",
+      "published_at": "2026-10-20T15:51:04+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_the_new_arab",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/963902/will-lebanon-israel-talks-in-florida-contain-tensions-before-israels-e/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963902",
+      "published_at": "2026-10-20T13:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפרא, לבנון",
+      "lat": 33.1805,
+      "lon": 35.354
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-04",
+    "title": "צווי חקירה בלבנון לבכירים בחיזבאללה בפרשת חומרי הנפץ",
+    "summary": "שופט בלבנון הורה לזמן לחקירה שני בכירים בארגון חיזבאללה בעקבות תפיסת משאית שנשאה כחצי טון חומרי נפץ במחסום דהר אל-בידר. חיזבאללה הודה שהמטען שייך לו ודרש את השבתו.",
+    "axis": "לבנון הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T10:41:15+00:00",
+    "last_update_at": "2026-10-20T15:27:15+00:00",
+    "what_is_not_verified": "האם הוצאו צווי מעצר בפועל נגד הבכירים, נוכח הכחשות של גורמים בחיזבאללה ומקורות שיפוטיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_afp",
+      "url": "https://www.newarab.com/news/lebanon-judge-question-hezbollah-officials-over-explosives",
+      "published_at": "2026-10-20T15:27:15+00:00"
+     },
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_afp",
+      "url": "https://israel-alma.org/hezbollah-demands-its-explosives-back-a-test-of-lebanese-sovereignty/",
+      "published_at": "2026-10-20T10:41:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8103,
+      "lon": 35.7619
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-05",
+    "title": "תקיפות אוויריות וירי ארטילרי של צה\"ל בדרום לבנון",
+    "summary": "מטוסי קרב ישראליים ביצעו תקיפות בסביבת העיירות כפר תבנית, א-נבטיה אל-פוקא ואל-קנטרה. בנוסף בוצע ירי ארטילרי ישראלי לעבר פאתי בית יהון בדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T13:03:25+00:00",
+    "last_update_at": "2026-10-20T17:38:15+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים בתקיפות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_aa485f06ffa57e19",
+      "url": "https://english.almanar.com.lb/article/140612/",
+      "published_at": "2026-10-20T17:38:15+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_c61aade92a0951ad",
+      "url": "https://english.almanar.com.lb/article/140522/",
+      "published_at": "2026-10-20T13:03:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     },
+     {
+      "name": "א-נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     },
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-06",
+    "title": "השמדת תשתיות טרור של חיזבאללה בידי אוגדה 91",
+    "summary": "כוחות צה\"ל מאוגדה 91 השמידו מעל 540 תשתיות טרור במסגרת פעילות במרחב הביטחוני בדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T09:18:40+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T09:18:40+00:00",
+    "last_update_at": "2026-10-20T09:18:40+00:00",
+    "what_is_not_verified": "מיקומים מדויקים ומאפייני כלל התשתיות שהושמדו מעבר להודעת הצבא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25412",
+      "published_at": "2026-10-20T09:18:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10202344-07",
+    "title": "הודעת טורקיה על המשך הצבת כוחותיה בסוריה",
+    "summary": "שר ההגנה הטורקי ישר גולר הודיע כי ארצו תמשיך להחזיק את כוחות הצבא שלה בשטח סוריה (ובעיראק) עד להשגת ביטחון מלא בגבולות ובאזור.",
+    "axis": "טורקיה-סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T09:50:50+00:00",
+    "last_update_at": "2026-10-20T13:47:01+00:00",
+    "what_is_not_verified": "לוח הזמנים או התנאים הקונקרטיים להערכת השגת הביטחון המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_afp",
+      "url": "https://t.me/abualiexpress/132251",
+      "published_at": "2026-10-20T13:47:01+00:00"
+     },
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "or_afp",
+      "url": "https://www.dailysabah.com/politics/war-on-terror/turkiye-says-troops-will-stay-in-syria-iraq-until-borders-are-secured",
+      "published_at": "2026-10-20T13:21:00+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_afp",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/963876/turkey-troops-to-stay-in-syria-iraq-until-border-security-ensured-defe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963876",
+      "published_at": "2026-10-20T09:50:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10202344-08",
+    "title": "הצהרת שר הביטחון הישראלי על מוכנות לתמרון בלבנון",
+    "summary": "שר הביטחון ישראל כ\"ץ הצהיר כי ישראל ערוכה לבצע תמרון צבאי בלבנון אם חיזבאללה יצטרף למתקפה איראנית על ישראל.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T14:07:36+00:00",
+    "last_update_at": "2026-10-20T14:07:36+00:00",
+    "what_is_not_verified": "רמת הכוננות המעשית של הכוחות להפעלת תוכניות תמרון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94717",
+      "published_at": "2026-10-20T14:07:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10202344-09",
+    "title": "דיווחים על העברת ציוד צבאי ישראלי להר הדרוזים בסוריה",
+    "summary": "מקורות סוריים ורוסיים טענו כי מסוקי צה\"ל העבירו כמויות של ציוד צבאי, אמצעי לחימה ומכ\"מים לפסגת ג'בל א-ערב בא-סווידא, תוך חשש בדמשק מפעולה לפני הבחירות בישראל.",
+    "axis": "ישראל-סוריה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T14:56:32+00:00",
+    "last_update_at": "2026-10-20T14:56:32+00:00",
+    "what_is_not_verified": "עצם קיום העברות הציוד, הקמת הבסיס בפסגת ההר, והכוונות המיוחסות לפעולה צבאית לפני הבחירות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48745",
+      "published_at": "2026-10-20T14:56:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10202344-10",
+    "title": "פתיחה מחדש של מרכז בריאות של חיזבאללה בחסות שר הבריאות הלבנוני",
+    "summary": "מרכז הבריאות דאר אל-חוורא בדאחייה של ביירות, השייך לארגון הבריאות האסלאמי של חיזבאללה, חזר לפעול לאחר שיקום מנזקי המלחמה במעמד שר הבריאות של לבנון.",
+    "axis": "לבנון הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T10:47:46+00:00",
+    "last_update_at": "2026-10-20T10:47:46+00:00",
+    "what_is_not_verified": "מידת ההשפעה המעשית של החסות הממשלתית על הגבלת פעילות חיזבאללה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/under-the-health-ministers-patronage-hezbollah-rebuilds-its-state-within-a-state/",
+      "published_at": "2026-10-20T10:47:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10202344-11",
+    "title": "יוניפי\"ל ממשיך בפעילותו בשטח בלבנון",
+    "summary": "כוח האו\"ם הזמני בלבנון הודיע כי הוא ממשיך בפעילות המבצעית בשטח, בעוד מועצת הביטחון של האו\"ם בוחנת חלופות לתקופה שלאחר סיום המנדט המתוכנן לסוף דצמבר.",
+    "axis": "דרום לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T10:48:35+00:00",
+    "last_update_at": "2026-10-20T15:54:46+00:00",
+    "what_is_not_verified": "המתווה המדויק שיוסכם במועצת הביטחון של האו\"ם לאחר תום המנדט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/un-force-says-operations-continue-in-lebanon-as-security-council-weighs-post-mission-options/4094898",
+      "published_at": "2026-10-20T15:54:46+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/963888/unifil-mission-continues-operations-as-security-council-considers-post/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963888",
+      "published_at": "2026-10-20T10:48:35+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על העברת ציוד צבאי ומערכות מכ\"ם על ידי מסוקים ישראליים לפסגת ג'בל א-ערב בסוריה",
+   "החשש בדמשק מפעולה צבאית ישראלית קרובה שנועדה להשפיע על הבחירות בישראל",
+   "זהות הגורמים העומדים מאחורי תקיפות הרחפנים הממולכדים נגד עמדות הביטחון בא-סווידא",
+   "הוצאת צווי מעצר בפועל על ידי התביעה בלבנון נגד בכירי חיזבאללה חוסיין עבדאללה ועלי איוב",
+   "הטענות הישראליות בדבר שיתוף פעולה ישיר ותיאום בין קצינים בצבא לבנון לחיזבאללה בכפרא"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1077,
+    "unit": "ILS",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פירוק תשתיות צבאיות של חיזבאללה במרחב הביטחוני בדרום לבנון",
+     "דרישה מצבא לבנון לאכוף הסדרי ביטחון ולמנוע הימצאות אמצעי לחימה של חיזבאללה בדרום",
+     "מוכנות לתמרון קרקעי בלבנון בתרחיש של הצטרפות חיזבאללה למתקפה איראנית"
+    ],
+    "inferred": [
+     "הפעלת לחץ מדיני וצבאי על הממשל בלבנון כדי להרחיק את חיזבאללה מהגבול לפני יישום נסיגות",
+     "ביסוס חופש פעולה מודיעיני ומבצעי בדרום סוריה לסיכול איומים בגבול"
+    ],
+    "forecast": [
+     "המשך הפעילות לטיהור תשתיות סמוכות גבול בדרום לבנון במקביל לגרירת רגליים במו\"מ הצבאי בפלורידה עד הבחירות בישראל"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "דרישה לנסיגה ישראלית מלאה מדרום לבנון וסיום התקיפות היומיומיות",
+     "הקמת מנגנון פיקוח ליישום הסדרי הביטחון באזורי הפיילוט המוגדרים",
+     "אכיפת החוק המדינתי על העברת אמצעי לחימה והחרמת משלוחים בלתי מורשים"
+    ],
+    "inferred": [
+     "שמירה על ערוץ המשא ומתן עם ישראל בחסות ארה\"ב כדי למנוע הידרדרות למלחמה רחבה",
+     "ניסיון לתמרן בין דרישות הקהילה הבינלאומית לבין הימנעות מעימות פנים-לבנוני אלים וישיר מול חיזבאללה"
+    ],
+    "forecast": [
+     "המשך השתתפות במפגשים בטמפה ללא פריצת דרך משמעותית, לצד חיכוך הדרגתי מוגבל מול מנגנוני ההברחה של חיזבאללה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "החזקת אמצעי לחימה לצורך שימוש נגד כוחות ישראל בדרום לבנון",
+     "דרישה משלטונות לבנון להחזיר חומרי נפץ שהוחרמו ולשחרר את פעיליו העצורים"
+    ],
+    "inferred": [
+     "שימור יכולות ההתחמשות וההברחה בתוך שטח לבנון על אף הלחץ הממשלתי",
+     "שיקום המערכים האזרחיים והרפואיים בביירות וסביבתה לביסוס הלגיטימציה בקרב בסיס התמיכה שלו"
+    ],
+    "forecast": [
+     "ניסיונות חוזרים להעברת נשק לדרום תוך הפעלת לחץ פוליטי על מערכת המשפט והביטחון בלבנון לקבור את החקירות"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "המשך החזקת כוחות צבאיים בשטח סוריה ועיראק עד להבטחה מלאה של ביטחון הגבולות והאזור"
+    ],
+    "inferred": [
+     "מניעת התבססות של ישויות עוינות לאנקרה לאורך הגבול ושמירה על מנופי השפעה פוליטיים וצבאיים בסוריה"
+    ],
+    "forecast": [
+     "המשך הפריסה הצבאית בצפון סוריה ללא כוונה לסגת בעתיד הנראה לעין כל עוד לא הושג הסדר התואם את דרישותיה הביטחוניות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/under-the-health-ministers-patronage-hezbollah-rebuilds-its-state-within-a-state/",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/140522/",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/un-force-says-operations-continue-in-lebanon-as-security-council-weighs-post-mission-options/4094898",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/war-on-terror/turkiye-says-troops-will-stay-in-syria-iraq-until-borders-are-secured",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/963888/unifil-mission-continues-operations-as-security-council-considers-post/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-963888",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/lebanon-judge-question-hezbollah-officials-over-explosives",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132251",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48745",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25412",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94717",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958223",
+    "accessed_at": "2026-10-20T23:44:32+00:00"
+   }
+  ]
+ }
+}

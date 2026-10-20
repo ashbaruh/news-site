@@ -1,0 +1,428 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2bf0191c4af6",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 5,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-20T23:40:36+00:00",
+  "window": {
+   "from": "2026-10-19T23:40:36+00:00",
+   "to": "2026-10-20T23:40:36+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610202340"
+  },
+  "summary": "המתיחות בין איראן לקואליציה בהובלת ארה\"ב וישראל מתעצמת תוך שחיקת ערוצי התיווך והחרפת הסיכונים בנתיבי השיט. טהראן מסרבת להתפשר על מאגרי האורניום וסביב מצר הורמוז נרשמו תקריות ביטחוניות חמורות שכללו פגיעות מוקשים במכליות נפט. במקביל, ישראל וארה\"ב מציגות פומבית יעד של הפלת המשטר ומתגברות כוחות צבאיים נרחבים באזור לקראת אפשרות של התחדשות הלחימה הישירה.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "הסלמה ימית בעקבות פיצוצי מוקשים במכליות ואיומים על חופש השיט"
+   },
+   {
+    "name": "ציר הגרעין והמו\"מ המדיני",
+    "status": "מבוי סתום בעקבות סירוב איראני להוצאת חומר מועשר והצבת תנאים לארה\"ב"
+   },
+   {
+    "name": "החזית הצבאית הישירה (ישראל-ארה\"ב מול איראן)",
+    "status": "כוננות שיא, תגבור כוחות אמריקאיים ואיומים ישירים בחידוש התקיפות"
+   },
+   {
+    "name": "צפון עיראק וכורדיסטן",
+    "status": "מתיחות ביטחונית וטענות איראניות לפעילות עוינת ורשתות רחפנים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10202340-01",
+    "title": "התפוצצות ופגיעת מוקש ימי במכלית נפט במצר הורמוז",
+    "summary": "חיל הים של משמרות המהפכה הודיע כי מכלית על עלתה על מוקש ימי ועלתה באש מדרום למצר הורמוז, בעוד דיווח ישראלי ציין פגיעה בשתי מכליות.",
+    "axis": "מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T12:01:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T12:01:48+00:00",
+    "last_update_at": "2026-10-20T20:06:21+00:00",
+    "what_is_not_verified": "מספר המכליות שנפגעו בפועל והגורם שהטמין את המוקש הימי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86298772/Super-tanker-catches-fire-after-hitting-mine-in-Hormuz",
+      "published_at": "2026-10-20T20:06:21+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/byfornn2gg",
+      "published_at": "2026-10-20T12:01:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10202340-02",
+    "title": "סיום ביקור התיווך של מפקד צבא פקיסטן בטהראן והקשחת עמדות איראן בנושא הגרעין",
+    "summary": "מפקד צבא פקיסטן עזב את טהראן לאחר פגישות עם ההנהגה האיראנית, שבהן הבהירו בכירי המשטר כי לא יוותרו על האורניום המועשר ולא יקיימו שיחות עם ארה\"ב לפני מילוי תנאיהם.",
+    "axis": "איראן - ארה\"ב - פקיסטן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T16:55:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T16:55:48+00:00",
+    "last_update_at": "2026-10-20T19:30:00+00:00",
+    "what_is_not_verified": "פרטי מתווה הפשרה והאם הושגו הבנות חשאיות כלשהן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610200868",
+      "published_at": "2026-10-20T19:30:00+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86298747/Pakistani-Army-chief-departs-for-Islamabad",
+      "published_at": "2026-10-20T19:18:40+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21672049",
+      "published_at": "2026-10-20T19:06:35+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-pakistan-army-chief-no-talks-washington-until-demands-are-met",
+      "published_at": "2026-10-20T17:46:31+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132262",
+      "published_at": "2026-10-20T16:55:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10202340-03",
+    "title": "אזהרות פיקוד הצבא האיראני מפני תגובה קשה לכל מתקפה מחודשת",
+    "summary": "הרמטכ\"ל האיראני עבדאללהי ומפקדים בכירים הזהירו במהלך ביקור במתקן ייצור כטב\"מים כי כל תקיפה מחודשת תיתקל בתגובה תקיפה בהרבה, תוך הפקת לקחים מעימותי העבר.",
+    "axis": "איראן - ישראל - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T20:50:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T20:50:46+00:00",
+    "last_update_at": "2026-10-20T21:06:17+00:00",
+    "what_is_not_verified": "רמת המוכנות המבצעית בפועל של מערכי הכטב\"מים האיראניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-military-chief-warns-stronger-response-any-new-attack",
+      "published_at": "2026-10-20T21:06:17+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86298787/Top-Iranian-general-warns-of-harsher-retaliation-if-war-resumes",
+      "published_at": "2026-10-20T20:50:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10202340-04",
+    "title": "הצהרות נתניהו וטראמפ בדבר הפלת המשטר בטהראן והאופציה הצבאית",
+    "summary": "ראש הממשלה נתניהו הכריז כי הפלת שלטון האייתוללות היא יעד מרכזי ואישר כי שוחח על כך עם הנשיא טראמפ, שהזהיר מצדו כי יחליט אם לפעול בדרך נוקשה יותר.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T17:27:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T17:27:00+00:00",
+    "last_update_at": "2026-10-20T21:24:00+00:00",
+    "what_is_not_verified": "קיומה של תוכנית מבצעית מוסכמת ומיידית להפלת המשטר באיראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610204555",
+      "published_at": "2026-10-20T21:24:00+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
+      "published_at": "2026-10-20T20:03:50+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss",
+      "published_at": "2026-10-20T19:51:09+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610209049",
+      "published_at": "2026-10-20T17:27:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירושלים, ישראל",
+      "lat": 31.7788,
+      "lon": 35.2258
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10202340-05",
+    "title": "מעצר חשודים בבריטניה בסיוע למודיעין האיראני בבסיס פיירפורד",
+    "summary": "משטרת בריטניה עצרה מחדש שני גברים בחשד לשיתוף פעולה עם המודיעין האיראני סביב בסיס חיל האוויר המלכותי פיירפורד, ששימש מפציצים אמריקניים לתקיפות באיראן.",
+    "axis": "בריטניה - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T17:46:31+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T17:46:31+00:00",
+    "last_update_at": "2026-10-20T20:17:53+00:00",
+    "what_is_not_verified": "האופי המדויק של הפעילות המודיעינית שבוצעה עבור איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss",
+      "published_at": "2026-10-20T20:17:53+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/uk-police-arrest-pair-suspicion-helping-iranian-intelligence-over-raf-fairford",
+      "published_at": "2026-10-20T17:46:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10202340-06",
+    "title": "תגבור כוחות צבא ארה\"ב במזרח התיכון",
+    "summary": "צבא ארצות הברית מקדם כוחות משמעותיים, כולל קבוצת תקיפה של נושאת מטוסים וכוחות נחתים, להרחבת חופש הפעולה הצבאי אל מול איראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T15:53:38+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T15:53:38+00:00",
+    "last_update_at": "2026-10-20T19:00:25+00:00",
+    "what_is_not_verified": "המועד המדויק להגעת הכוחות והחלטת הנשיא על היקף התקיפות לאחר הבחירות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21671857",
+      "published_at": "2026-10-20T19:00:25+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132257",
+      "published_at": "2026-10-20T15:53:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10202340-07",
+    "title": "טענות איראניות על היערכות רחפנים אוקראינית בכורדיסטן העיראקית",
+    "summary": "מקור ביטחוני בטהראן טען כי אוקראינה פרסה אלפי רחפנים בצפון עיראק כחלק מפעילות עוינת בחסות נאט\"ו כנגד המדינה.",
+    "axis": "איראן - עיראק",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T19:21:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T19:21:32+00:00",
+    "last_update_at": "2026-10-20T19:21:32+00:00",
+    "what_is_not_verified": "עצם קיום רשת הרחפנים הזעירים האוקראינית בכורדיסטן העיראקית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48761",
+      "published_at": "2026-10-20T19:21:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סולימאניה, עיראק",
+      "lat": 35.5571,
+      "lon": 45.4426
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן על פריסת אלפי רחפנים אוקראיניים בכורדיסטן העיראקית",
+   "קיומו של הסכם עיראקי רשמי לגירוש ארגוני האופוזיציה הכורדיים-איראניים",
+   "מספר המכליות המדויק שנפגעו ממוקשים ימיים במצר הורמוז",
+   "הדיווח לפיו איראן מאיצה את השלמת מרכיב ההנשקה לפצצה",
+   "דיווחים על ביטול של תקיפות משולבות של ארה\"ב וישראל בשבועות האחרונים",
+   "פרטי ההצעה לשחרור 6 מיליארד דולר מוקפאים תמורת פיקוח באתרי הגרעין"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1077,
+    "unit": "ILS",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "אי-ויתור על החומר הגרעיני המועשר והשארתו בתחומי המדינה",
+     "התניית כל משא ומתן עם וושינגטון בצעדים מקדימים ובהסרת הסנקציות",
+     "תגובה צבאית תקיפה ועוצמתית יותר לכל פעולה צבאית נגדה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי עולמי באמצעות פגיעה בביטחון השיט במצר הורמוז",
+     "שימור יכולות הסף הגרעיניות כקלף מיקוח וכגורם הרתעה"
+    ],
+    "forecast": [
+     "המשך העלאת רמת הסיכון לספינות מסחר במפרץ במטרה ללחוץ על הקהילה הבינלאומית",
+     "התבצרות בעמדות הנוקשות עד להתבהרות התוצאות הפוליטיות בארה\"ב ובישראל"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הפלת המשטר בטהראן כיעד מרכזי עליון",
+     "הסרת האיום הגרעיני וההתעצמות הצבאית האיראנית"
+    ],
+    "inferred": [
+     "דחיפה לחידוש המערכה הצבאית ההתקפית בשיתוף מלא עם הממשל האמריקני",
+     "סיכול כל הסדר ביניים שיאפשר למשטר להמשיך להחזיק באורניום מועשר"
+    ],
+    "forecast": [
+     "המשך היערכות מבצעית למתקפה אפשרית כנגד מתקני ההנשקה והתשתיות",
+     "החרפת המסרים הפומביים נגד טהראן במקביל למהלכים פוליטיים פנימיים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הצבת אולטימטום מרומז להכרעה בין פתרון בהסכמה לבין פעולה בדרך נוקשה",
+     "הרתעת איראן מפני פגיעה באינטרסים ובנתיבי השיט הבינלאומיים"
+    ],
+    "inferred": [
+     "ריכוז כוח אש משמעותי במפרץ כדי לאפשר אופציה של מתקפה רחבה",
+     "בחינת אפשרות להחלפת שלטון בטהראן תוך שימוש במנופי לחץ מקסימליים"
+    ],
+    "forecast": [
+     "עיבוי נוסף של המערך הצבאי באזור עד סוף נובמבר לקראת הכרעות אפשריות",
+     "הגברת האכיפה הימית והמודיעינית סביב נתיבי האנרגיה במצר הורמוז"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/uk-police-arrest-pair-suspicion-helping-iranian-intelligence-over-raf-fairford",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610209049",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86298787/Top-Iranian-general-warns-of-harsher-retaliation-if-war-resumes",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21671857",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-military-chief-warns-stronger-response-any-new-attack",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132257",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48761",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/byfornn2gg",
+    "accessed_at": "2026-10-20T23:40:36+00:00"
+   }
+  ]
+ }
+}

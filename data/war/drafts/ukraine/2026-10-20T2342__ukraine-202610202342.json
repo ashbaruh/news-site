@@ -1,0 +1,552 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b7a355b50ba2",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 5,
+   "initial": 4,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-20T23:42:05+00:00",
+  "window": {
+   "from": "2026-10-19T23:42:05+00:00",
+   "to": "2026-10-20T23:42:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610202342"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהמשך מתקפות אוויריות נרחבות על תשתיות אנרגיה וריכוזי אוכלוסייה, לצד פגיעה בשיט המסחרי בים השחור. במקביל ללחץ הצבאי מתנהלים מגעים דיפלומטיים אינטנסיביים בהובלת שליחים מארצות הברית ומדינות אירופה לגיבוש מסגרת להפסקת הלחימה. ברקע המגעים ניכרים חיכוכים בנוגע להיקף הסיוע והמודיעין האמריקני הניתן לקייב ומגבלות על מערכות תקשורת לווייניות.",
+  "fronts": [
+   {
+    "name": "מחוז דונצק",
+    "status": "תקיפות אוויריות ופגיעות הדדיות בתשתיות חשמל וחימום באזורים בשליטת שני הצדדים"
+   },
+   {
+    "name": "מרחב הים השחור ונמלי הדרום",
+    "status": "הסלמה בתקיפות כוחות רוסיה נגד ספינות מטען ותגבור נוכחות צבאית מצד ברית נאט\"ו"
+   },
+   {
+    "name": "עורף אוקראינה ומתקני אנרגיה",
+    "status": "מתקפות כטבמים וטילים מרוכזות על ערים ותשתיות אזרחיות, שהובילו להרחבת מצב החירום הממשלתי"
+   },
+   {
+    "name": "מחוז סומי",
+    "status": "פעילות צבאית קרקעית שכללה לחימה ושביית חיילים על ידי הכוחות האוקראיניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10202342-01",
+    "title": "שיחות מדיניות באוסלו לקראת גיבוש מתווה להסדר וביקור שליח ארצות הברית ברוסיה",
+    "summary": "נציגי ארצות הברית, אוקראינה, נורווגיה ופינלנד נפגשו באוסלו לדיון בביטחון, ערבויות עתידיות ומתווה לסיום הלחימה. השליח האמריקני סטיב ויטקוף צפוי להמשיך לסנקט פטרבורג לפגישות עם ההנהגה הרוסית.",
+    "axis": "משא ומתן ומדיניות בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T16:41:39+00:00",
+    "last_update_at": "2026-10-20T23:33:14+00:00",
+    "what_is_not_verified": "ההסכמות המדויקות על תנאי הערבויות הביטחוניות והנכונות של רוסיה לקבל את ההצעות שיוצגו בפניה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+      "published_at": "2026-10-20T23:33:14+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2204981",
+      "published_at": "2026-10-20T22:28:01+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2204969",
+      "published_at": "2026-10-20T20:44:01+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/20/trump-says-putin-and-zelensky-don-t-need-to-meet-face-to-face-to-reach-a-peace-deal",
+      "published_at": "2026-10-20T20:16:02+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058978/",
+      "published_at": "2026-10-20T18:29:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058977/",
+      "published_at": "2026-10-20T18:10:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/witkoff-to-visit-st-petersburg-after-zelensky-talks-norways-pm-says/",
+      "published_at": "2026-10-20T17:50:08+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/20/nyt-trump-s-envoys-plan-to-meet-putin-in-st-petersburg-on-wednesday-and-seek-the-release-of-an-american-held-in-russia",
+      "published_at": "2026-10-20T16:41:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסלו, נורווגיה",
+      "lat": 59.9133,
+      "lon": 10.739
+     },
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-02",
+    "title": "חידוש שיתוף המודיעין וההתרעות האמריקניות עם צבא אוקראינה",
+    "summary": "נשיא אוקראינה מסר כי ארצות הברית חידשה את שיתוף המודיעין הצבאי והעברת התרעות מוקדמות מפני ירי טילים בליסטיים רוסיים, לאחר השעיה זמנית.",
+    "axis": "סיוע ביטחוני ומודיעין",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T19:32:28+00:00",
+    "last_update_at": "2026-10-20T21:34:57+00:00",
+    "what_is_not_verified": "הסיבה המדויקת להשעיית המודיעין בעבר והיקף המידע המועבר בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/zelensky-confirms-ballistic-missile-early-warning-systems-operational-after-skipped-alerts/",
+      "published_at": "2026-10-20T21:34:57+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T21:27:39+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
+      "published_at": "2026-10-20T19:32:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסלו, נורווגיה",
+      "lat": 59.9133,
+      "lon": 10.739
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-03",
+    "title": "פגיעה רוסית קטלנית בתשתית אנרגיה בעיר קרמטורסק",
+    "summary": "תקיפה רוסית על קרמטורסק פגעה בעובדי חברת החימום העירונית בעת מילוי תפקידם, וגרמה למותם של שלושה בני אדם ולפציעת שניים נוספים.",
+    "axis": "מחוז דונצק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T10:04:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T22:05:00+00:00",
+    "last_update_at": "2026-10-20T22:05:00+00:00",
+    "what_is_not_verified": "סוג החימוש המדויק שבו השתמשו הכוחות הרוסיים בתקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8058891/",
+      "published_at": "2026-10-20T22:05:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-04",
+    "title": "מתקפות כטבמים רוסיים על קייב וחרקוב עם נפגעים בנפש",
+    "summary": "כלי טיס בלתי מאוישים רוסיים תקפו יעדים בקייב ובחרקוב, גרמו להרוגים ולעשרות פצועים ופגעו בכלי רכב ובפארק ציבורי.",
+    "axis": "תקיפות עורף באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T11:03:55+00:00",
+    "last_update_at": "2026-10-20T20:56:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל ברחבי אוקראינה כתוצאה מגל התקיפות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4176504-russian-drone-attack-on-kyiv-injury-toll-rises-to-18-one-dead.html",
+      "published_at": "2026-10-20T20:56:00+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21669570",
+      "published_at": "2026-10-20T13:56:41+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hyanchv2fe",
+      "published_at": "2026-10-20T11:03:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-05",
+    "title": "תקיפות רוסיות על ספינות מטען ונמלים באזור הים השחור",
+    "summary": "הצבא הרוסי תקף חמש ספינות מטען אזרחיות, בהן שלוש ספינות בנמל רני ושתי ספינות נוספות שהיו בדרכן לאודסה, בעקבות כך נאט\"ו מעבה את פריסת כוחותיה בזירה.",
+    "axis": "זירת הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T17:43:40+00:00",
+    "last_update_at": "2026-10-20T17:43:40+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים המדויק על גבי הספינות שהותקפו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
+      "published_at": "2026-10-20T17:43:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רני, אוקראינה",
+      "lat": 45.4554,
+      "lon": 28.2791
+     },
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-06",
+    "title": "תקיפות אוקראיניות על תשתיות אנרגיה ומרכזי נתונים של רוסיה",
+    "summary": "כוחות אוקראינה פגעו בתשתיות חשמל בעיר צ'יסטיאקובה שבמחוז דונצק, לצד שיבושי חשמל בחצי האי קרים ופגיעה במרכזי נתונים ברוסיה ששיבשה דיונים בבתי משפט.",
+    "axis": "תקיפות עומק ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T18:21:20+00:00",
+    "last_update_at": "2026-10-20T23:25:50+00:00",
+    "what_is_not_verified": "מידת השיבוש הכוללת שנגרמה למערכות המשפט והאנרגיה הרוסיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-energy-infrastructure-in-occupied-donetsk-oblast-blackouts-in-crimea/",
+      "published_at": "2026-10-20T23:25:50+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-drone-strikes-on-yandex-data-centers-disrupt-russian-court-hearings-media-reports/",
+      "published_at": "2026-10-20T18:21:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'יסטיאקובה, אוקראינה",
+      "lat": 48.0261,
+      "lon": 38.6181
+     },
+     {
+      "name": "קרים",
+      "lat": 45.2835,
+      "lon": 34.2008
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-07",
+    "title": "מחלוקת ושיבושים בהפעלת מערכות התקשורת הלוויינית של סטארלינק באוקראינה",
+    "summary": "הגבלות שהוטלו על מערכת התקשורת הצבאית סטארשילד פגעו בפעילות המבצעית של צבא אוקראינה, ועוררו ביקורת ודיונים בין הנהלת החברה לממשל האמריקני.",
+    "axis": "סיוע טכנולוגי וצבאי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T22:59:38+00:00",
+    "last_update_at": "2026-10-20T23:33:14+00:00",
+    "what_is_not_verified": "האם המהלך תואם ואושר מראש על ידי נשיא ארצות הברית או בוצע בהחלטה חד־צדדית של אילון מאסק בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+      "published_at": "2026-10-20T23:33:14+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48765",
+      "published_at": "2026-10-20T23:23:38+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/21/did-trump-know-musk-was-about-to-restrict-ukraine-s-military-starlink-service-wsj-reports-they-discussed-the-decision-afterward-some-sources-say-they-also-spoke-beforehand",
+      "published_at": "2026-10-20T22:59:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10202342-08",
+    "title": "הרחבת מצב החירום במשק האוקראיני עקב פגיעות בתשתיות",
+    "summary": "ממשלת אוקראינה הרחיבה את צו מצב החירום מהמשק החשמלי גם לתחומי אספקת המים, החימום, התחבורה, רשתות התקשורת ומרכזי הנתונים.",
+    "axis": "עורף ותשתיות אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T17:27:00+00:00",
+    "last_update_at": "2026-10-20T17:27:00+00:00",
+    "what_is_not_verified": "לוח הזמנים לתיקון הנזקים ביעדי התשתית השונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_1292",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058971/",
+      "published_at": "2026-10-20T17:27:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10202342-09",
+    "title": "החלטת בולגריה שלא להשתתף בתוכנית הסיוע הכספי החדשה לאוקראינה",
+    "summary": "ראש ממשלת בולגריה הודיע כי ארצו אינה יכולה לתרום למימון חבילת הסיוע הכספי של האיחוד האירופי עבור אוקראינה.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T20:05:00+00:00",
+    "last_update_at": "2026-10-20T20:05:00+00:00",
+    "what_is_not_verified": "האם מדינות נוספות באיחוד האירופי יסרבו להשתתף בתוכנית המימון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4176494-bulgaria-will-not-contribute-to-new-eu-financial-assistance-program-for-ukraine-pm.html",
+      "published_at": "2026-10-20T20:05:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10202342-10",
+    "title": "העברת חבילת סיוע הומניטרי מווייטנאם לאוקראינה",
+    "summary": "וייטנאם העבירה לאוקראינה חבילת סיוע הומניטרי בהיקף כספי של חצי מיליון דולר.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T23:27:00+00:00",
+    "last_update_at": "2026-10-20T23:27:00+00:00",
+    "what_is_not_verified": "פירוט הציוד והמוצרים המדויקים שנכללו בחבילת הסיוע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4176260-vietnam-provides-ukraine-with-humanitarian-aid-package.html",
+      "published_at": "2026-10-20T23:27:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על תיאום מוקדם בין אילון מאסק לדונלד טראמפ להאטת מערכת סטארלינק באוקראינה",
+   "ההצעה האמריקנית המדויקת שתוצג ברוסיה בנוגע לשטחים ולחברות בנאט\"ו",
+   "דיווחים על שיתוף מודיעין לווייני בין רוסיה לאיראן",
+   "מספר הנפגעים המלא בתקיפות על ספינות סוחר בנמל רני ובדרך לאודסה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1215,
+    "unit": "USD",
+    "change_pct": -0.09,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת ערבויות ביטחון מוצקות המקבילות לסעיף 5 של ברית נאט\"ו לאחר תום המלחמה",
+     "עמידה על העיקרון ששום הסדר לא ייקבע בלעדיה ואי־הסכמה לכניעה או לדיונים מעל ראשה",
+     "בלימת הפגיעה באזרחים וסיום מהיר של המלחמה כדי למנוע אובדן חיי אדם נוספים"
+    ],
+    "inferred": [
+     "הפעלת לחץ על וושינגטון להמשך רציף של שיתוף המודיעין ואספקת מיירטי פטריוט",
+     "נכונות להגביל פגיעות בבתי זיקוק רוסיים בתמורה להגנה על שמי המדינה",
+     "הבטחת מקורות מימון וציוד חלופי לאור סימני עייפות או סירוב מצד חלק ממדינות אירופה"
+    ],
+    "forecast": [
+     "המשך הגנה על מתקני אנרגיה תוך ניסיון לשמר תמיכה אמריקנית בעידן של חילוקי דעות",
+     "דרישה לנוכחות פעילה בכל ערוץ משא ומתן רב־צדדי עתידי מול מוסקבה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה ביעדים צבאיים ובתשתיות המשמשות את המאמץ המלחמתי של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת כושר העמידה של העורף האוקראיני באמצעות פגיעה מסיבית במערכות החשמל והחימום לקראת החורף",
+     "שיבוש נתיבי הסחר והיצוא החקלאי האוקראיני בים השחור כדי להעמיק את המשבר הכלכלי של קייב",
+     "הפעלת לחץ מקסימלי לקראת פגישות מדיניות כדי להשיג הכרה בשליטה בשטחים שנכבשו"
+    ],
+    "forecast": [
+     "המשך פגיעה ממוקדת במתקני אנרגיה ונמלים כקלף מיקוח מול ארצות הברית במגעים הדיפלומטיים",
+     "בחינת הצעות השליח האמריקני תוך שמירה על דרישות טריטוריאליות נוקשות"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חתירה לסיום מהיר של המלחמה ודרישה מאוקראינה להפגין נכונות להסדר מדיני",
+     "קידום פתרונות מעשיים ומסגרת ביטחונית וכלכלית כוללת לאירופה"
+    ],
+    "inferred": [
+     "שימוש בסיוע הביטחוני, במודיעין ובמערכות תקשורת כאמצעי לחץ על הנהגת אוקראינה לקבלת פשרות",
+     "שאיפה להפחתת מחירי הדלק בעולם ומניעת הסלמה שפוגעת באינטרסים כלכליים אמריקניים",
+     "חתירה למגעים ישירים מול מוסקבה ובייג'ינג תוך עקיפת גורמים בינלאומיים במידת הצורך"
+    ],
+    "forecast": [
+     "המשך מסעות דילוגים דיפלומטיים בין מוסקבה, קייב ובירות אירופה לבחינת מתווה הפסקת אש",
+     "החרפת הוויכוח הפנימי בוושינגטון בין תומכי המשך הסיוע למצדדי נסיגה ממחויבויות ביטחוניות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21669570",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-drone-strikes-on-yandex-data-centers-disrupt-russian-court-hearings-media-reports/",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/21/did-trump-know-musk-was-about-to-restrict-ukraine-s-military-starlink-service-wsj-reports-they-discussed-the-decision-afterward-some-sources-say-they-also-spoke-beforehand",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058971/",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2204969",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48765",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4176260-vietnam-provides-ukraine-with-humanitarian-aid-package.html",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hyanchv2fe",
+    "accessed_at": "2026-10-20T23:42:05+00:00"
+   }
+  ]
+ }
+}
