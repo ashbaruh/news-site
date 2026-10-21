@@ -1,0 +1,271 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c19a468d7647",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "initial": 1,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-21T15:45:24+00:00",
+  "window": {
+   "from": "2026-10-20T15:45:24+00:00",
+   "to": "2026-10-21T15:45:24+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610211545"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת לצד מאמצים דיפלומטיים אינטנסיביים של ארצות הברית ומדינות אירופה לקדם הסדר או הקפאת מצב, הכוללים מגעים בין נציגים אמריקאים לרוסים ודיונים על מימון וסיוע צבאי לאוקראינה. במקביל, נמשכות תקיפות התשתית והאוויריות של רוסיה באוקראינה לצד שגרת הפעילות וההתרחשויות הצבאיות בשטח.",
+  "fronts": [
+   {
+    "name": "החזית האוקראינית-רוסית",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית הדיפלומטית הבין-לאומית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10211545-01",
+    "title": "התרסקות מטוס קרב רוסי",
+    "summary": "מטוס קרב רוסי מדגם אס-יו-30 התרסק במהלך טיסת אימון במחוז קלינינגרד, אנשי הצוות נפלטו ופונו לקבלת טיפול רפואי.",
+    "axis": "חזית פנימית / רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T14:12:04+00:00",
+    "last_update_at": "2026-10-21T15:28:55+00:00",
+    "what_is_not_verified": "הטענות המדויקות על מיקום ההתרסקות המדויק בין הכפרים ונוכחות צילומים מזירות שונות אינן מאומתות ישירות מחוץ לדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_e442e53ca9334c51",
+      "url": "https://meduza.io/en/news/2026/10/21/su-30-fighter-jet-crashes-in-russia",
+      "published_at": "2026-10-21T15:28:55+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_64926407adf6199a",
+      "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
+      "published_at": "2026-10-21T14:12:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "Chernyakhovsk, Russia",
+      "lat": 54.6355,
+      "lon": 21.81
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10211545-02",
+    "title": "פגיעה במתקן קמעונאי באוקראינה",
+    "summary": "כוחות רוסיים תקפו מתקן של רשת המרכולים מטרו במחוז ריבנה באוקראינה.",
+    "axis": "הזירה האוקראינית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T13:34:00+00:00",
+    "last_update_at": "2026-10-21T13:34:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא וההשלכות של התקיפה טרם אומתו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a4d6e37274a118f4",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059083/",
+      "published_at": "2026-10-21T13:34:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10211545-03",
+    "title": "שחרור אסיר אמריקאי מרוסיה",
+    "summary": "ולדימיר פוטין הורה על שחרורו של האזרח האמריקאי סטיבן האברד שהוחזק בכלא ברוסיה, במסגרת מגעים עם שליחו של נשיא ארצות הברית.",
+    "axis": "דיפלומטיה בין-לאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T13:58:00+00:00",
+    "last_update_at": "2026-10-21T15:24:58+00:00",
+    "what_is_not_verified": "התנאים המדויקים מאחורי הקלעים לשחרור וההבנות הדיפלומטיות אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "published_at": "2026-10-21T15:24:58+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "published_at": "2026-10-21T15:23:04+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/21/who-is-stephen-hubbard-the-american-putin-just-freed",
+      "published_at": "2026-10-21T15:12:57+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059089/",
+      "published_at": "2026-10-21T13:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "St Petersburg, Russia",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10211545-04",
+    "title": "פגישת סטיב ויטקוף ווולדימיר פוטין בסנט פטרסבורג",
+    "summary": "שליחו המיוחד של נשיא ארה\"ב סטיב ויטקוף נועד עם נשיא רוסיה ולדימיר פוטין במשך כשלוש שעות בסנט פטרסבורג כדי לדון בדרכים לסיום המלחמה ובאפשרות לחידוש שיחות משולשות.",
+    "axis": "דיפלומטיה בין-לאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T13:04:00+00:00",
+    "last_update_at": "2026-10-21T14:36:05+00:00",
+    "what_is_not_verified": "תוכנן המלל המדויק של המסמכים וההצעות שהוצגו צדדים שלישיים אינו מאומת ממקור ראשון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/21/kremlin-says-it-s-ready-to-resume-trilateral-talks-but-sees-little-useful-in-new-proposals-from-ukraine-and-the-eu",
+      "published_at": "2026-10-21T14:36:05+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
+      "published_at": "2026-10-21T14:20:38+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059089/",
+      "published_at": "2026-10-21T13:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059081/",
+      "published_at": "2026-10-21T13:04:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "St Petersburg, Russia",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההערכות לפיהן רוסיה ואוקראינה יגיעו להסכם הקפאה מחייב בחודש הבא אינן מאומתות.",
+   "הפרטים המדויקים לגבי תוכן ההצעות האירופאיות והאוקראיניות שהוצגו לרוסיה לא אומתו במלואם."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1234,
+    "unit": "USD",
+    "change_pct": 0.17,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "מוכנות לחדש שיחות משולשות בנושא מערכות ביטחון לאחר הסכסוך."
+    ],
+    "inferred": [
+     "שאיפה להשיג הכרה בינלאומית בהישגיה בשטח ובנטרול תשתיות צבאיות ואנרגיה באוקראינה."
+    ],
+    "forecast": [
+     "המשך לחץ צבאי ותשתיות על אוקראינה לצד ניהול משא ומתן דיפלומטי מותנה."
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "דרישה לנוכחות מלאה של אוקראינה בכל שולחן משא ומתן הנוגע לעתידה וקיום דרישות ביטחוניות."
+    ],
+    "inferred": [
+     "הסתמכות על סיוע מערבי ואירופאי ממושך לשם שימור יכולת העמידה והלחימה."
+    ],
+    "forecast": [
+     "המשך גיוס משאבים פיננסיים וצבאיים מהשותפות באירופה ובעולם למען ייצור והתחמשות."
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חתירה להנעת מגעים מדיניים וקידום אפשרויות להפסקת לחימה או הסדר."
+    ],
+    "inferred": [
+     "רצון להגיע להבנות עוקפות משברים מול מוסקבה תוך ניהול דיאלוג ישיר."
+    ],
+    "forecast": [
+     "המשך מעורבות דיפלומטית גבוהה באמצעות שליחים מיוחדים לקידום פסגות ושיחות."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+    "accessed_at": "2026-10-21T15:45:24+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
+    "accessed_at": "2026-10-21T15:45:24+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
+    "accessed_at": "2026-10-21T15:45:24+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059081/",
+    "accessed_at": "2026-10-21T15:45:24+00:00"
+   }
+  ]
+ }
+}

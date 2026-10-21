@@ -1,0 +1,367 @@
+{
+ "status": "draft",
+ "received_sha256_12": "17db8f70bcc8",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 3,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-21T15:34:26+00:00",
+  "window": {
+   "from": "2026-10-20T15:34:26+00:00",
+   "to": "2026-10-21T15:34:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610211534"
+  },
+  "summary": "העימות בזירה מתנהל סביב לחץ אמריקאי-ישראלי מוגבר על איראן הכולל איומי תקיפה וסנקציות, לצד מאמצי תיווך רוסיים ופעילות דיפלומטית במפרץ. במקביל, נמשכים חיכוכים באזור המפרץ ובעיראק אל מול שלוחים וגורמים המזוהים עם טהרן, בעוד ישראל נערכת לאפשרות של הסלמה רחבה.",
+  "fronts": [
+   {
+    "name": "החזית הישראלית-איראנית",
+    "status": "פעיל ומתוח עם איומי תקיפה הדדיים"
+   },
+   {
+    "name": "חזית המפרץ והספנות",
+    "status": "פעילות מעקב ותקיפות באזור מצרי הורמוז"
+   },
+   {
+    "name": "החזית הדיפלומטית והגרעינית",
+    "status": "מאמצי תיווך ומגעים סביב תוכנית הגרעין והסנקציות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10211534-01",
+    "title": "עצירת נוסעים וכלי רכב במעבר הגבול שיב בין עיראק לאיראן",
+    "summary": "עיראק הורתה על סגירת מעבר הגבול שיב המוביל לאיראן ועצירת תנועת נוסעים וכלי רכב.",
+    "axis": "ציר איראן-עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T08:49:01+00:00",
+    "last_update_at": "2026-10-21T08:49:01+00:00",
+    "what_is_not_verified": "הסיבה המדויקת והיקף הסגירה המלא של מעברי גבול נוספים אינם מאומתים במלואם באופן רשמי ציבורי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-orders-sheeb-crossing-closure-more-shutdowns-loom",
+      "published_at": "2026-10-21T08:49:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10211534-02",
+    "title": "צו גירוש בקנדה לאזרח איראני בגין מעורבות בהתחמקות מסנקציות",
+    "summary": "מועצת ההגירה והפליטים של קנדה הורה על גירוש אזרח איראני מטורונטו עקב מעורבות ברשת פלילית שעקפה סנקציות בינלאומיות נגד איראן.",
+    "axis": "ציר איראן-מערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T15:17:38+00:00",
+    "last_update_at": "2026-10-21T15:17:38+00:00",
+    "what_is_not_verified": "פרטי הפעילות המלאים של הרשת הפלילית אינם מפורטים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_global_news",
+      "url": "https://www.iranintl.com/en/202610217514",
+      "published_at": "2026-10-21T15:17:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טורונטו, קנדה",
+      "lat": 43.6535,
+      "lon": -79.3839
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10211534-03",
+    "title": "פגישת ולדימיר פוטין וסטיב ויטקוף בסנט פטרבורג",
+    "summary": "נשיא רוסיה ולדימיר פוטין נפגש עם שליחו המיוחד של טראמפ, סטיב ויטקוף, ודן עמו בסוגיית איראן ובהצעות רוסיות.",
+    "axis": "ציר רוסיה-ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T10:37:06+00:00",
+    "last_update_at": "2026-10-21T14:38:06+00:00",
+    "what_is_not_verified": "תכנם המלא של ההסכמות וההצעות שהוצגו אינו מאומת במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_iran_international",
+      "url": "https://www.iranintl.com/en/202610210918",
+      "published_at": "2026-10-21T14:38:06+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_iran_international",
+      "url": "https://t.me/alexmehacarmel/48770",
+      "published_at": "2026-10-21T10:37:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10211534-04",
+    "title": "נאומי בכירים בישראל על איומי איראן והמשטר",
+    "summary": "ראש הממשלה בנימין נתניהו ושר הביטחון ישראל כ\"ץ הצהירו כי איראן מנסה לחדש את תוכנית הגרעין וכי ישראל ערוכה להכות בה אם תותקף.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T13:16:14+00:00",
+    "last_update_at": "2026-10-21T14:55:59+00:00",
+    "what_is_not_verified": "אמיתות הטענות על חידוש מדויק של פיתוח נשק גרעיני מצד איראן ומועדי תקיפה אפשריים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_64ce6d7bf8f5446c",
+      "url": "https://www.ynet.co.il/news/article/ryru6si3gg",
+      "published_at": "2026-10-21T14:55:59+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_64ce6d7bf8f5446c",
+      "url": "https://t.me/abualiexpress/132316",
+      "published_at": "2026-10-21T14:52:54+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_af09b7b532a37274",
+      "url": "https://www.maariv.co.il/breaking-news/article-1379799",
+      "published_at": "2026-10-21T14:51:06+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_14fff8ba0bfc2832",
+      "url": "https://www.maariv.co.il/breaking-news/article-1379790",
+      "published_at": "2026-10-21T14:21:51+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_1347119151be998a",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21678698",
+      "published_at": "2026-10-21T14:15:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_64ce6d7bf8f5446c",
+      "url": "https://t.me/abualiexpress/132312",
+      "published_at": "2026-10-21T14:12:46+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_2fee6cce0342b571",
+      "url": "https://www.walla.co.il/news/military/383958333",
+      "published_at": "2026-10-21T13:16:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10211534-05",
+    "title": "ביקור נשיא צרפת עמנואל מקרון בריאד",
+    "summary": "נשיא צרפת עמנואל מקרון הגיע לביקור סולידריות בריאד על רקע איומי החות'ים באזור.",
+    "axis": "צרפת-סעודיה-המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T15:52:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-20T15:52:47+00:00",
+    "last_update_at": "2026-10-21T14:30:22+00:00",
+    "what_is_not_verified": "היקף ההסכמות המסחריות והביטחוניות המלאות שהושגו בביקור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_al_monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+      "published_at": "2026-10-21T14:30:22+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_al_monitor",
+      "url": "https://www.france24.com/en/video/20261020-france-s-decades-long-ties-with-gulf-states-built-on-economic-development-oil-defense-agreements-1",
+      "published_at": "2026-10-20T15:52:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10211534-06",
+    "title": "מניעת כניסת טייס זר עם זיקה לאיראן לישראל",
+    "summary": "משרד התחבורה ומשרד התפוצות הודיעו לחברת תעופה זרה על איסור הגעתו של טייס החשוד בזיקה לאיראן לישראל.",
+    "axis": "ישראל-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T12:03:47+00:00",
+    "last_update_at": "2026-10-21T12:03:47+00:00",
+    "what_is_not_verified": "היקף הקשר המדויק של איש הצוות לגורמים איראניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958344",
+      "published_at": "2026-10-21T12:03:47+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "לוח זמנים מדויק לתקיפה אפשרית באיראן מצד ישראל או ארה\"ב",
+   "קיומו של הסכם רשמי בין עיראק לאיראן לגירוש קבוצות אופוזיציה כורדיות",
+   "פרטי המגעים החסויים בין שליחו של טראמפ לרוסיה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הפלת המשטר באיראן",
+     "הסרת איום הגרעין האיראני",
+     "סיכול ניסיונות טרור נגד ישראל"
+    ],
+    "inferred": [
+     "יצירת הרתעה מול התבססות איראנית ושלוחיה",
+     "גיוס תמיכה בינלאומית ומקומית במהלך בחירות"
+    ],
+    "forecast": [
+     "הגברת הכוננות הביטחונית והמשך הקמפיין נגד תוכנית הגרעין",
+     "היערכות לאפשרות של עימות ישיר אם איראן תתקוף"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הזהרת ארה\"ב וישראל מפני תוקפנות צבאית",
+     "האשמת ארה\"ב ביצירת אי-יציבות אזורית"
+    ],
+    "inferred": [
+     "ניסיון לעקוף סנקציות באמצעות צדדים שלישיים וצי קלפים",
+     "המשך פיתוח יכולות אזוריות וגרעיניות תחת לחץ"
+    ],
+    "forecast": [
+     "המשך מתיחות דיפלומטית ועימותים באמצעות שלוחים במפרץ",
+     "ניסיונות הימנעות מקריסה כלכלית מוחלטת לצד שמירה על קו נוקשה מול וושינגטון"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת נשק גרעיני מאיראן ואכיפת סנקציות"
+    ],
+    "inferred": [
+     "הפעלת לחץ מקסימלי בשיתוף בריתות אזוריות",
+     "בחינת אפשרויות לתקיפה או לריסון פעילות צבאית באזור"
+    ],
+    "forecast": [
+     "המשך תיאום עם בעלות ברית במפרץ ובאירופה סביב הסנקציות והגרעין",
+     "בחינת יוזמות דיפלומטיות לצד שמירת אופציה צבאית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/video/20261020-france-s-decades-long-ties-with-gulf-states-built-on-economic-development-oil-defense-agreements-1",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610210918",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21678698",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1379790",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-orders-sheeb-crossing-closure-more-shutdowns-loom",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132312",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48770",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958344",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ryru6si3gg",
+    "accessed_at": "2026-10-21T15:34:26+00:00"
+   }
+  ]
+ }
+}

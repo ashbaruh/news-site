@@ -1,0 +1,233 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e234f5cd04c1",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-21T15:57:49+00:00",
+  "window": {
+   "from": "2026-10-20T15:57:49+00:00",
+   "to": "2026-10-21T15:57:49+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610211557"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת במתיחות צבאית וביטחונית סביב לבנון וסוריה, לצד פעילות של חיזבאללה לשיקום תשתיות בביירות וקיומם של מגעים צבאיים עקיפים בין ישראל ללבנון בתיווך אמריקאי. במקביל, גורמים בינלאומיים כמו צרפת נערכים לסיוע לצבא לבנון, בעוד ישראל נערכת לאפשרות של הסלמה רחבה אל מול איומים אזוריים.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה ומתוחה עם היערכות לתמרון והמשך מגעים מדיניים"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "יציבה יחסית עם אירועים נקודתיים ופעילות צבאית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10211557-01",
+    "title": "הצבת קלפיות לבחירות בישראל בשטחים בלבנון",
+    "summary": "כוחות צהל הקימו קלפיות בשטחים בלבנון עבור חיילי הכלל המשתתפים בבחירות לכנסת בישראל.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T15:43:49+00:00",
+    "last_update_at": "2026-10-21T15:43:49+00:00",
+    "what_is_not_verified": "היקף פריסת הקלפיות המדויק והדיווחים על שימוש במבנים אזרחיים אינם מאומתים באופן מלא ממקורות נייטרליים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-troops-turn-occupied-lebanese-home-polling-station",
+      "published_at": "2026-10-21T15:43:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נאקורה, לבנון",
+      "lat": 33.1183,
+      "lon": 35.1298
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10211557-02",
+    "title": "שיחות צבאיות בין ישראל ללבנון במפקדת סנטקום",
+    "summary": "נציגי ישראל ולבנון מקיימים … בפלורידה להמשך יישום ההבנות.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T14:31:40+00:00",
+    "last_update_at": "2026-10-20T15:57:49+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958223",
+      "published_at": "2026-10-20T14:31:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טמפה, ארצות הברית",
+      "lat": 27.945,
+      "lon": -82.4583
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10211557-03",
+    "title": "חשיפת מנהרה של חיזבאללה ממזרח לביירות",
+    "summary": "צבא לבנון חשף מנהרה המשויכת לחיזבאללה באזור רויסאת אל-ג’דידה במזרח ביירות.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T11:55:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T11:55:48+00:00",
+    "last_update_at": "2026-10-21T11:55:48+00:00",
+    "what_is_not_verified": "המניעים המדויקים מאחורי העיתוי של החשיפה מצד צבא לבנון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958309",
+      "published_at": "2026-10-21T11:55:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10211557-04",
+    "title": "פציעת חיילים סורים בפיצוץ מוקש ברקה",
+    "summary": "שני חיילים סורים נפצעו בפיצוץ מוקש באזור האפרי של רקה, המוגדר כשריד ממשטר קודם.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T11:37:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T11:37:59+00:00",
+    "last_update_at": "2026-10-21T11:37:59+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/2-syrian-soldiers-injured-in-landmine-explosion-in-raqqa-countryside/4095848",
+      "published_at": "2026-10-21T11:37:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רקה, סוריה",
+      "lat": 35.9497,
+      "lon": 39.0089
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף שיקום היכולות המדויק של חיזבאללה בביירות",
+   "ההשלכות המלאות של השיחות המתקיימות בסנטקום בין ישראל ללבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים בגבול הצפון",
+     "היערכות להגנה על העורף"
+    ],
+    "inferred": [
+     "מניעת התעצמות והתבססות של חיזבאללה",
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "החמרת העימות אם תתרחש הסלמה מול איראן",
+     "המשך הלחץ הצבאי בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "הגנה על לבנון מפני תקיפות ישראליות"
+    ],
+    "inferred": [
+     "שיקום תשתיות צבאיות שנפגעו והעברת מוקדי פעילות לעומק שטח לבנון וביירות",
+     "שמירת יכולת תגובה במסגרת הציר האיראני"
+    ],
+    "forecast": [
+     "המשך מאמצי ההתחמשות והשיקום תחת מעטפת אזרחית וצבאית"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל וצבא)",
+    "declared": [
+     "שמירה על ריבונות אלדולה ופריסת צבא לבנון בכל השטחים",
+     "סיום העימות באמצעות משא ומתן ודיאלוג"
+    ],
+    "inferred": [
+     "ניסיון לאזן בין דרישות בינלאומיות לפירוק מן האיומים לבין נוכחות חיזבאללה בשטח"
+    ],
+    "forecast": [
+     "קיום כינוסים בינלאומיים לגיוס תמיכה בצבא לבנון לאחר תקופת הבחירות בישראל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/2-syrian-soldiers-injured-in-landmine-explosion-in-raqqa-countryside/4095848",
+    "accessed_at": "2026-10-21T15:57:49+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-troops-turn-occupied-lebanese-home-polling-station",
+    "accessed_at": "2026-10-21T15:57:49+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958309",
+    "accessed_at": "2026-10-21T15:57:49+00:00"
+   }
+  ]
+ }
+}

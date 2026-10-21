@@ -1,0 +1,316 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f0fe5113ff08",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-21T15:56:20+00:00",
+  "window": {
+   "from": "2026-10-20T15:56:20+00:00",
+   "to": "2026-10-21T15:56:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610211556"
+  },
+  "summary": "הלחימה בתימן ובמרחב הימי סביבה מתאפיינת בהסלמה מצד החות'ים הכוללת תקיפות נגד יעדים בסעודיה ובאזורים שבשליטת ממשלת תימן, לצד מעורבות בינלאומית הand/or הגנתית של מדינות מערביות כמו בריטניה וצרפת. במקביל, מתנהלים דיונים דיפלומטיים והצעות תיווך מצד איראן שלא נענו, לצד התלבטויות במצרים לגבי מתן סיוע צבאי לסעודיה.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית",
+    "status": "פעילה עם קרבות קרקעיים ותקיפות אוויריות וטילים"
+   },
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה עם תקיפות חות'יות ומאמצי הגנה של הקואליציה ומדינות מערביות"
+   },
+   {
+    "name": "הזירה הימית (ים סוף ובאב אל-מנדב)",
+    "status": "מתוחה עם איומים על נתיבי ספנות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10211556-01",
+    "title": "ביקור נשיא צרפת בסעודיה",
+    "summary": "נשיא צרפת הגיע לביקור בריהאד כדי להפגין סולידריות עם סעודיה אל מול התקפות החות'ים ולקדם אספקת אנרגיה.",
+    "axis": "ציר סעודיה-המערב מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T14:30:22+00:00",
+    "last_update_at": "2026-10-21T15:54:08+00:00",
+    "what_is_not_verified": "ההבטחות המדויקות על אספקת האנרגיה אינן מפורטות מעבר לטענות הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_2af090f26c4a31da",
+      "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+      "published_at": "2026-10-21T15:54:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2af090f26c4a31da",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/frances-macron-arrives-saudi-arabia-unscheduled-visit-during-gulf-tour",
+      "published_at": "2026-10-21T15:49:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_2af090f26c4a31da",
+      "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+      "published_at": "2026-10-21T15:43:49+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_2af090f26c4a31da",
+      "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+      "published_at": "2026-10-21T14:30:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריהאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10211556-02",
+    "title": "תקיפות ועימותים בתימן סביב נמלי תעופה ובסיסים",
+    "summary": "התקפות טילים ועימותים באזורים שונים בתימן, כולל פגיעה במחנה בדר בעדן ובנמל התעופה באל-מוכלא.",
+    "axis": "הזירה הפנימית בתימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T14:09:42+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T14:09:42+00:00",
+    "last_update_at": "2026-10-21T15:19:58+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת וזהות הנפגעים המלאה אינן מאומתות ממקור בלתי תלוי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-says-houthis-attacked-al-mukalla-airport",
+      "published_at": "2026-10-21T15:19:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/yemen-houthis-strikes-saudi-led-coalition-targets-kingdom-killed-fishermen",
+      "published_at": "2026-10-21T11:12:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-targets-aden-airport-houthis-claim-strike-coalition-site",
+      "published_at": "2026-10-21T09:00:47+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T14:09:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "אל מוכלא, תימן",
+      "lat": 14.5425,
+      "lon": 49.1231
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10211556-03",
+    "title": "דיון בפרלמנט המצרי על סיוע צבאי לסעודיה",
+    "summary": "הפרלמנט במצרים דחה הצבעה על אישור תמיכה צבאית לסעודיה במסגרת הלחימה מול החות'ים.",
+    "axis": "ציר ערבי-אזורי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-20T21:18:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-20T21:18:48+00:00",
+    "last_update_at": "2026-10-21T15:46:27+00:00",
+    "what_is_not_verified": "תוצאות ההצבעה העתידיות אינן ידועות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-says-saudi-defence-role-would-not-include-attack-yemen",
+      "published_at": "2026-10-21T15:46:27+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/egypt-mulls-joining-saudi-arabia-in-war-against-houthis",
+      "published_at": "2026-10-21T11:02:21+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+      "published_at": "2026-10-20T21:18:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10211556-04",
+    "title": "משבר הומניטרי ולחימה בעיר תעז",
+    "summary": "החמרה במצב ההומניטרי בעיר תעז עקב מצור של כוחות חות'ים וקרבות סביב תשתיות המים והמזון.",
+    "axis": "הזירה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T11:46:30+00:00",
+    "last_update_at": "2026-10-21T14:24:02+00:00",
+    "what_is_not_verified": "המספר המדויק של הנפגעים והיקף הנזק המלא אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+      "published_at": "2026-10-21T14:24:02+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/water-rationing-rubbish-pile-raise-disease-fears-yemens-besieged-taiz",
+      "published_at": "2026-10-21T11:46:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענות ההדדיות על שיגור כטב\"מים לעיר אל-מדינה והכחשמתן על ידי החות'ים",
+   "ההיקף המדויק של רכיבי טילים המיוצרים מקומית בתימן בהסתמך על מסמכי רכש",
+   "התוצאה הסופית של דיוני הפרלמנט במצרים לגבי תמיכה צבאית בסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תמיכה בפלסטינים ותקיפת יעדים המזוהים עם ישראל וסעודיה",
+     "הפעלת לחץ כלכלי דרך מצור ומניעת פעילות בנמלים יריבים"
+    ],
+    "inferred": [
+     "שאיפה לבסס יכולת ייצור עצמית של אמצעי לחימה מתקדמים בתימן",
+     "הרחבת ההשפעה הצבאית והפוליטית בתוך שטחי תימן"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקפה על תשתיות ומטרות בסעודיה ובמרחב הימי",
+     "העמקת הלחימה הקרקעית באזורי חיכוך פנימיים כמו תעז"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על טריטוריית הממלכה, מתקניה ואזרחיה מפני תקיפות טילים וכטב\"מים",
+     "שמירה על יציבות אזורית ושיתוף פעולה עם בעלות ברית להגנה"
+    ],
+    "inferred": [
+     "חיפוש גיבוי צבאי בינלאומי ואזורי (כגון מצרים וצרפת) כדי לבלום את האיום החות'י",
+     "ניסיון לבלום את פיתוח ויכולות הרכש של אמצעי הלחימה החות'יים"
+    ],
+    "forecast": [
+     "המשך פעילות הגנה אקטיבית וחיזוק שיתופי הפעולה הביטחוניים עם מעצמות זרות",
+     "המשך התקיפות נגד מעוזי החות'ים במסגרת הלחימה בתימן"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הצעת תיווך בין סעודיה לחות'ים",
+     "הצהרות על נכונות להגנה עצמית והמשך פיתוח יכולות צבאיות"
+    ],
+    "inferred": [
+     "שמירה על השפעה עקיפה באמצעות בעלות בריתה באזור לצורך הפעלת לחץ על יריבותיה",
+     "ניסיון להציג עצמה כגורם מתווך תוך הפרכת קשר ישיר למבצעים מסוימים"
+    ],
+    "forecast": [
+     "המשך מתן תמיכה לחיזוק יכולות החות'ים במקביל לניהול מגעים דיפלומטיים עקיפים",
+     "שימור המתיחות האזורית כקלף מיקוח מול ארצות הברית וישראל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/water-rationing-rubbish-pile-raise-disease-fears-yemens-besieged-taiz",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-targets-aden-airport-houthis-claim-strike-coalition-site",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+    "accessed_at": "2026-10-21T15:56:20+00:00"
+   }
+  ]
+ }
+}

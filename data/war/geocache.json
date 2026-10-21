@@ -276,6 +276,7 @@
 33.3062,
 44.3872
 ],
+"bahad 1, israel": null,
 "baiji, iraq": [
 34.9307,
 43.4931
@@ -469,6 +470,10 @@
 "chernihiv, ukraine": [
 51.4941,
 31.2943
+],
+"chernyakhovsk, russia": [
+54.6355,
+21.81
 ],
 "chisinau, moldova": [
 47.0245,
@@ -879,6 +884,7 @@
 33.2844
 ],
 "kaliningrad oblast, russia": null,
+"kaliningrad region, russia": null,
 "kaliningrad, russia": [
 54.7046,
 20.4566
@@ -1308,6 +1314,10 @@
 "najran, saudi arabia": [
 17.544,
 44.2247
+],
+"naqoura, lebanon": [
+33.1183,
+35.1298
 ],
 "nasib border crossing, syria": null,
 "new delhi, india": [
@@ -1849,6 +1859,10 @@
 33.8131,
 35.9903
 ],
+"toronto, canada": [
+43.6535,
+-79.3839
+],
 "toulin, lebanon": null,
 "touline, lebanon": [
 33.2544,
@@ -2019,6 +2033,7 @@
 35.1183
 ],
 "zawtar al-gharb, lebanon": null,
+"zawtar al-sharqiya, lebanon": null,
 "zawtar al-sharqiyah, lebanon": null,
 "zawtar al-sharqiyeh, lebanon": [
 33.3237,
@@ -2084,6 +2099,7 @@
 "ינבוע, סעודיה": null,
 "לבנון": null,
 "מחוז דונייצק, אוקראינה": null,
+"מעבר שיב, עיראק-איראן": null,
 "מצר הורמוז": null,
 "ניו יורק, ארה\"ב": null,
 "סעדה, תימן": [

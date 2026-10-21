@@ -2,152 +2,200 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-10-20T2343__yemen-202610202343.json",
+  "draft": "drafts/yemen/2026-10-21T1556__yemen-202610211556.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-10-20T23:43:23+00:00",
+   "generated_at": "2026-10-21T15:56:20+00:00",
    "window": {
-    "from": "2026-10-19T23:43:23+00:00",
-    "to": "2026-10-20T23:43:23+00:00"
+    "from": "2026-10-20T15:56:20+00:00",
+    "to": "2026-10-21T15:56:20+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "yemen-202610202343"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "yemen-202610211556"
    },
-   "summary": "הלחימה בין החות'ים לבין ממשלת תימן הנתמכת בידי סעודיה התחדשה במלוא עוצמתה בעקבות קריסת הפסקת האש, ומתאפיינת בפגיעות קטלניות במחנות צבאיים במחוז שבווה ובהידוק המצור על תעז. במקביל, החות'ים מגבירים את שיגורי הטילים והכטב\"מים לעבר יעדים ותשתיות בסעודיה, דבר שגרם לשיבוש פעילות כלכלית ולהשבתת נמלי תעופה. בתגובה, שותפות בינלאומיות בראשות בריטניה מתגברות את מערכי ההגנה האווירית של סעודיה, בעוד ניסיונות תיווך אזוריים נותרו ללא מענה.",
+   "summary": "הלחימה בתימן ובמרחב הימי סביבה מתאפיינת בהסלמה מצד החות'ים הכוללת תקיפות נגד יעדים בסעודיה ובאזורים שבשליטת ממשלת תימן, לצד מעורבות בינלאומית הand/or הגנתית של מדינות מערביות כמו בריטניה וצרפת. במקביל, מתנהלים דיונים דיפלומטיים והצעות תיווך מצד איראן שלא נענו, לצד התלבטויות במצרים לגבי מתן סיוע צבאי לסעודיה.",
    "fronts": [
     {
-     "name": "חזית מחוז שבווה",
-     "status": "הסלמה חריפה ומתקפות טילים חות'יות על מחנות אימונים של הממשלה"
+     "name": "חזית תימן הפנימית",
+     "status": "פעילה עם קרבות קרקעיים ותקיפות אוויריות וטילים"
     },
     {
-     "name": "חזית העיר ומחוז תעז",
-     "status": "מצור חות'י מתהדק, חסימת צירי אספקה, הפגזות וחילופי אש"
+     "name": "חזית תימן-סעודיה",
+     "status": "פעילה עם תקיפות חות'יות ומאמצי הגנה של הקואליציה ומדינות מערביות"
     },
     {
-     "name": "חזית תימן-סעודיה (עורף סעודי)",
-     "status": "תקיפות אינטנסיביות של טילים וכטב\"מים חות'יים מול פריסת הגנה אווירית זרה"
-    },
-    {
-     "name": "הזירה הימית (ים סוף ומצר באב אל-מנדב)",
-     "status": "שיבושי שיט ותנועת פליטים מתימן לחופי ג'יבוטי עקב הקרבות"
+     "name": "הזירה הימית (ים סוף ובאב אל-מנדב)",
+     "status": "מתוחה עם איומים על נתיבי ספנות"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-10202343-01",
-     "title": "תקיפה קטלנית של החות'ים על מחנה אימונים של כוחות הביטחון במחוז שבווה",
-     "summary": "מתקפת טילים בליסטיים פגעה במחנה אל-עלאם במחוז שבווה וגרמה למותם של 73 מגויסי כוחות ביטחון ולפציעת מעל 200, כאשר נמשכים חיפושים אחר 14 נעדרים.",
-     "axis": "פנים-תימני",
+     "id": "YEMEN-10211556-01",
+     "title": "ביקור נשיא צרפת בסעודיה",
+     "summary": "נשיא צרפת הגיע לביקור בריהאד כדי להפגין סולידריות עם סעודיה אל מול התקפות החות'ים ולקדם אספקת אנרגיה.",
+     "axis": "ציר סעודיה-המערב מול החות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-19T00:00:00+00:00",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-20T06:20:12+00:00",
-     "last_update_at": "2026-10-20T21:44:38+00:00",
-     "what_is_not_verified": "גורלם של 14 הנעדרים וזהות מפקדי הבסיס המדויקת",
+     "first_reported_at": "2026-10-21T14:30:22+00:00",
+     "last_update_at": "2026-10-21T15:54:08+00:00",
+     "what_is_not_verified": "ההבטחות המדויקות על אספקת האנרגיה אינן מפורטות מעבר לטענות הצדדים.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_france24",
+       "source_root_id": "fh_2af090f26c4a31da",
+       "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+       "published_at": "2026-10-21T15:54:08+00:00"
+      },
+      {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-houthi-strike-yemen-government-camp-rises-73",
-       "published_at": "2026-10-20T21:44:38+00:00"
+       "source_root_id": "fh_2af090f26c4a31da",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/frances-macron-arrives-saudi-arabia-unscheduled-visit-during-gulf-tour",
+       "published_at": "2026-10-21T15:49:31+00:00"
       },
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/death-toll-houthi-strike-yemen-govt-camp-rises-73",
-       "published_at": "2026-10-20T15:29:38+00:00"
+       "source_root_id": "fh_2af090f26c4a31da",
+       "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+       "published_at": "2026-10-21T15:43:49+00:00"
       },
       {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-20T14:09:42+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
-       "published_at": "2026-10-20T12:04:27+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/diplomatic-visits-attempt-hold-all-out-us-iran-war",
-       "published_at": "2026-10-20T06:20:12+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10202343-02",
-     "title": "שיגור טיל בליסטי לעבר ריאד והשמדת פלטפורמת השיגור בידי הקואליציה",
-     "summary": "הקואליציה בהובלת סעודיה הודיעה כי השמידה פלטפורמת שיגור של טיל בליסטי ששוגר על ידי החות'ים לעבר הבירה ריאד.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T17:14:17+00:00",
-     "last_update_at": "2026-10-20T19:12:27+00:00",
-     "what_is_not_verified": "מיקום מדויק של המשגר שהושמד ונזקי הפגיעה בריאד עצמה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_63ae07bc225142f4",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-launcher-used-riyadh-attack",
-       "published_at": "2026-10-20T19:12:27+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_63ae07bc225142f4",
-       "url": "https://www.sabanew.net/viewstory/154337",
-       "published_at": "2026-10-20T17:14:17+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_2af090f26c4a31da",
+       "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+       "published_at": "2026-10-21T14:30:22+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
+       "name": "ריהאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
       }
      ]
     },
     {
-     "id": "YEMEN-10202343-03",
-     "title": "הידוק המצור החות'י והפגזות על העיר תעז",
-     "summary": "החות'ים מכתרים את העיר תעז, חוסמים את ציר הגישה לעדן ופוגעים בשכונות מגורים, תוך גרימת עקירה המונית של תושבים ופגיעה באזרחים.",
-     "axis": "פנים-תימני",
+     "id": "YEMEN-10211556-02",
+     "title": "תקיפות ועימותים בתימן סביב נמלי תעופה ובסיסים",
+     "summary": "התקפות טילים ועימותים באזורים שונים בתימן, כולל פגיעה במחנה בדר בעדן ובנמל התעופה באל-מוכלא.",
+     "axis": "הזירה הפנימית בתימן והחות'ים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-20T12:00:00+00:00",
+     "occurred_at": "2026-10-20T14:09:42+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-20T12:00:00+00:00",
-     "last_update_at": "2026-10-20T15:30:42+00:00",
-     "what_is_not_verified": "מספר הנפגעים המדויק בכל שכונה",
+     "first_reported_at": "2026-10-20T14:09:42+00:00",
+     "last_update_at": "2026-10-21T15:19:58+00:00",
+     "what_is_not_verified": "מידת הנזק המדויקת וזהות הנפגעים המלאה אינן מאומתות ממקור בלתי תלוי.",
+     "is_new_in_window": false,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-says-houthis-attacked-al-mukalla-airport",
+       "published_at": "2026-10-21T15:19:58+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/news/yemen-houthis-strikes-saudi-led-coalition-targets-kingdom-killed-fishermen",
+       "published_at": "2026-10-21T11:12:17+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-targets-aden-airport-houthis-claim-strike-coalition-site",
+       "published_at": "2026-10-21T09:00:47+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-20T14:09:42+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
+      },
+      {
+       "name": "אל מוכלא, תימן",
+       "lat": 14.5425,
+       "lon": 49.1231
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10211556-03",
+     "title": "דיון בפרלמנט המצרי על סיוע צבאי לסעודיה",
+     "summary": "הפרלמנט במצרים דחה הצבעה על אישור תמיכה צבאית לסעודיה במסגרת הלחימה מול החות'ים.",
+     "axis": "ציר ערבי-אזורי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-20T21:18:48+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-20T21:18:48+00:00",
+     "last_update_at": "2026-10-21T15:46:27+00:00",
+     "what_is_not_verified": "תוצאות ההצבעה העתידיות אינן ידועות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/un-demands-aid-access-besieged-yemen-city-taiz",
-       "published_at": "2026-10-20T15:30:42+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/10/egypts-sisi-says-saudi-defence-role-would-not-include-attack-yemen",
+       "published_at": "2026-10-21T15:46:27+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/egypt-mulls-joining-saudi-arabia-in-war-against-houthis",
+       "published_at": "2026-10-21T11:02:21+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+       "published_at": "2026-10-20T21:18:48+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קהיר, מצרים",
+       "lat": 30.0444,
+       "lon": 31.2357
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10211556-04",
+     "title": "משבר הומניטרי ולחימה בעיר תעז",
+     "summary": "החמרה במצב ההומניטרי בעיר תעז עקב מצור של כוחות חות'ים וקרבות סביב תשתיות המים והמזון.",
+     "axis": "הזירה הפנימית בתימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-21T11:46:30+00:00",
+     "last_update_at": "2026-10-21T14:24:02+00:00",
+     "what_is_not_verified": "המספר המדויק של הנפגעים והיקף הנזק המלא אינם מאומתים באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+       "published_at": "2026-10-21T14:24:02+00:00"
       },
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemen-displacement-tops-250k-houthis-tighten-siege-taiz-what-know",
-       "published_at": "2026-10-20T15:14:59+00:00"
-      },
-      {
-       "source_id": "src_un_news",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
-       "published_at": "2026-10-20T12:00:00+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/10/water-rationing-rubbish-pile-raise-disease-fears-yemens-besieged-taiz",
+       "published_at": "2026-10-21T11:46:30+00:00"
       }
      ],
      "places": [
@@ -157,176 +205,12 @@ window.DB.war_published = {
        "lon": 44.0215
       }
      ]
-    },
-    {
-     "id": "YEMEN-10202343-04",
-     "title": "דיווח על תקיפות אוויריות באזור אל-משמה במחוז תעז",
-     "summary": "כלי תקשורת חות'יים דיווחו על שלוש תקיפות אוויריות שכוונו לאזור אל-נשמה בנפת אל-מעאפר.",
-     "axis": "פנים-תימני",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T22:31:14+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T22:31:14+00:00",
-     "last_update_at": "2026-10-20T22:31:14+00:00",
-     "what_is_not_verified": "זהות המטוסים התוקפים והיקף הנזק בשטח",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-media-report-more-air-strikes-taiz",
-       "published_at": "2026-10-20T22:31:14+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10202343-05",
-     "title": "הצבת מטוסי קרב בריטיים להגנה על שמי סעודיה",
-     "summary": "בריטניה החליטה לפרוס מטוסי טייפון שיבצעו משימות הגנה מפני טילים וכטב\"מים חות'יים מעל ערי סעודיה ותשתיותיה, ללא השתתפות בתקיפות התקפיות.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T10:53:59+00:00",
-     "last_update_at": "2026-10-20T18:55:52+00:00",
-     "what_is_not_verified": "מועד פריסת המטוסים המדויק בפועל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-       "published_at": "2026-10-20T18:55:52+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-       "published_at": "2026-10-20T18:30:16+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-20T13:54:35+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
-       "published_at": "2026-10-20T12:04:27+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/uk-fly-raf-missions-defending-saudi-against-houthi-attacks",
-       "published_at": "2026-10-20T10:53:59+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10202343-06",
-     "title": "היעדר מענה ליוזמת התיווך האיראנית בין סעודיה לחות'ים",
-     "summary": "שר החוץ האיראני עבאס עראקצ'י מסר כי לא התקבל מענה מריאד או מהחות'ים להצעתו לתווך בסכסוך ולהביא להפסקת הלחימה.",
-     "axis": "מדיני",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T20:32:37+00:00",
-     "last_update_at": "2026-10-20T21:46:26+00:00",
-     "what_is_not_verified": "עמדותיהם הבלתי רשמיות של הצדדים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/iran-says-saudi-arabia-houthis-have-not-answered-mediation-offer",
-       "published_at": "2026-10-20T21:46:26+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-says-no-response-saudi-arabia-and-yemens-houthis",
-       "published_at": "2026-10-20T20:32:37+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10202343-07",
-     "title": "הטלת הגבלות ביטחוניות על משרד החות'ים בבגדאד",
-     "summary": "ממשלת עיראק אסרה על נציגות החות'ים בשטחה לעסוק בפעילות פוליטית ותקשורתית, הגבילה את תנועותיהם ומנעה פעילות עוינת נגד מדינות האזור.",
-     "axis": "אזורי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T13:56:40+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T13:56:40+00:00",
-     "last_update_at": "2026-10-20T13:56:40+00:00",
-     "what_is_not_verified": "תגובת הנציגות החות'ית להנחיה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/exclusive-iraq-imposes-restrictions-houthis-baghdad-office",
-       "published_at": "2026-10-20T13:56:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בגדאד, עיראק",
-       "lat": 33.3062,
-       "lon": 44.3872
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10202343-08",
-     "title": "דחיית ועידת ההשקעות בריאד עקב תקיפות החות'ים",
-     "summary": "סעודיה הודיעה על דחיית כנס ההשקעות הבינלאומי לשנת 2027 בעקבות הפגיעה בתשתיות והתגברות התקיפות של החות'ים על הממלכה.",
-     "axis": "כלכלי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-19T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T08:37:32+00:00",
-     "last_update_at": "2026-10-20T08:44:31+00:00",
-     "what_is_not_verified": "המועד המדויק החדש שייקבע לכנס",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132234",
-       "published_at": "2026-10-20T08:44:31+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/saudi-arabia-postpones-its-davos-desert-after-attacks",
-       "published_at": "2026-10-20T08:37:32+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
     }
    ],
    "not_verified": [
-    "גורלם המדויק של 14 הנעדרים מתקיפת הטילים בשבווה",
-    "מספר הנפגעים הכולל בכל תקריות הירי וההפגזות בשכונות העיר תעז",
-    "המועד המדויק שבו יוצבו מטוסי הטייפון הבריטיים בסעודיה",
-    "המועד החדש שייקבע לוועידת ההשקעות הסעודית FII בשנת 2027"
+    "הטענות ההדדיות על שיגור כטב\"מים לעיר אל-מדינה והכחשמתן על ידי החות'ים",
+    "ההיקף המדויק של רכיבי טילים המיוצרים מקומית בתימן בהסתמך על מסמכי רכש",
+    "התוצאה הסופית של דיוני הפרלמנט במצרים לגבי תמיכה צבאית בסעודיה"
    ],
    "map": {
     "confidence": "low",
@@ -337,452 +221,355 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1077,
+     "value": 3.0912,
      "unit": "ILS",
-     "change_pct": -0.02,
+     "change_pct": -0.53,
      "source_id": "src_ecb",
-     "as_of": "2026-10-20T15:00:00+00:00"
+     "as_of": "2026-10-21T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "התנועה החות'ית",
+     "actor": "החות'ים",
      "declared": [
-      "פגיעה בריכוזי כוחות סעודיים ומחנות הכפופים להם",
-      "המשך פעולות צבאיות מול יעדים סעודיים"
+      "תמיכה בפלסטינים ותקיפת יעדים המזוהים עם ישראל וסעודיה",
+      "הפעלת לחץ כלכלי דרך מצור ומניעת פעילות בנמלים יריבים"
      ],
      "inferred": [
-      "הכרעת המערכה הקרקעית בדרום ובמרכז תימן באמצעות כיבוש תעז ושיבוש מקורות האנרגיה בשבווה",
-      "הפעלת לחץ כלכלי וביטחוני כבד על ריאד כדי להרתיעה ממעורבות בתימן"
+      "שאיפה לבסס יכולת ייצור עצמית של אמצעי לחימה מתקדמים בתימן",
+      "הרחבת ההשפעה הצבאית והפוליטית בתוך שטחי תימן"
      ],
      "forecast": [
-      "המשך ניסיונות התקדמות קרקעית באזור שבווה ותעז לצד שיגורים מרוחקים של טילים לעומק סעודיה"
+      "המשך ניסיונות התקפה על תשתיות ומטרות בסעודיה ובמרחב הימי",
+      "העמקת הלחימה הקרקעית באזורי חיכוך פנימיים כמו תעז"
      ]
     },
     {
-     "actor": "ערב הסעודית והקואליציה",
+     "actor": "סעודיה והקואליציה",
      "declared": [
-      "יירוט והשמדה של פלטפורמות שיגור חות'יות המאיימות על ריאד",
-      "תמיכה בממשלת תימן המוכרת והגנה על שלמות הממלכה"
+      "הגנה על טריטוריית הממלכה, מתקניה ואזרחיה מפני תקיפות טילים וכטב\"מים",
+      "שמירה על יציבות אזורית ושיתוף פעולה עם בעלות ברית להגנה"
      ],
      "inferred": [
-      "בלימת ההתפשטות החות'ית בתימן ומניעת קריסת ערי הדרום",
-      "הגנה על תשתיות הנפט, התעופה והמיזמים הכלכליים של חזון 2030 באמצעות תמיכה צבאית זרה"
+      "חיפוש גיבוי צבאי בינלאומי ואזורי (כגון מצרים וצרפת) כדי לבלום את האיום החות'י",
+      "ניסיון לבלום את פיתוח ויכולות הרכש של אמצעי הלחימה החות'יים"
      ],
      "forecast": [
-      "הישענות גוברת על הגנה אווירית בינלאומית וחיזוק בריתות הגנה אזוריות"
+      "המשך פעילות הגנה אקטיבית וחיזוק שיתופי הפעולה הביטחוניים עם מעצמות זרות",
+      "המשך התקיפות נגד מעוזי החות'ים במסגרת הלחימה בתימן"
      ]
     },
     {
-     "actor": "ממשלת תימן המוכרת בינלאומית",
+     "actor": "איראן",
      "declared": [
-      "הכשרת כוחות ביטחון ומשטרה חדשים להתמודדות מול החות'ים",
-      "דרישה לפתיחת מעברי הסיוע והסרת המצור מעל העיר תעז"
+      "הצעת תיווך בין סעודיה לחות'ים",
+      "הצהרות על נכונות להגנה עצמית והמשך פיתוח יכולות צבאיות"
      ],
      "inferred": [
-      "מניעת נפילת מחוזות האנרגיה במזרח ובדרום לידי החות'ים",
-      "שמירה על נתיבי הגישה שנותרו לעיר הבירה הזמנית עדן"
+      "שמירה על השפעה עקיפה באמצעות בעלות בריתה באזור לצורך הפעלת לחץ על יריבותיה",
+      "ניסיון להציג עצמה כגורם מתווך תוך הפרכת קשר ישיר למבצעים מסוימים"
      ],
      "forecast": [
-      "המשך ספיגת אבדות בבסיסי האימונים והתגברות מצוקת האוכלוסייה והעקורים באזורי הקרבות"
+      "המשך מתן תמיכה לחיזוק יכולות החות'ים במקביל לניהול מגעים דיפלומטיים עקיפים",
+      "שימור המתיחות האזורית כקלף מיקוח מול ארצות הברית וישראל"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
-    },
-    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/iran-says-saudi-arabia-houthis-have-not-answered-mediation-offer",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/water-rationing-rubbish-pile-raise-disease-fears-yemens-besieged-taiz",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
     },
     {
      "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
+     "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
+    },
+    {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-says-no-response-saudi-arabia-and-yemens-houthis",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-targets-aden-airport-houthis-claim-strike-coalition-site",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/saudi-arabia-postpones-its-davos-desert-after-attacks",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
-    },
-    {
-     "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/154337",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132234",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
-    },
-    {
-     "source_id": "src_un_news",
-     "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hy00zea43fl",
-     "accessed_at": "2026-10-20T23:43:23+00:00"
+     "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+     "accessed_at": "2026-10-21T15:56:20+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-20T07:54:29+00:00",
+  "previous_generated_at": "2026-10-20T23:43:23+00:00",
   "changes": {
-   "YEMEN-10202343-01": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "תקיפת טילים בליסטיים של החות'ים על מחנה אימונים במחוז שבווה",
-    "score": 1.0
-   },
-   "YEMEN-10202343-02": {
+   "YEMEN-10211556-01": {
     "kind": "new"
    },
-   "YEMEN-10202343-03": {
-    "kind": "new"
-   },
-   "YEMEN-10202343-04": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "תקיפות אוויריות באזור בני מעאד' שבמחוז סעדה",
-    "score": 0.65
-   },
-   "YEMEN-10202343-05": {
-    "kind": "new"
-   },
-   "YEMEN-10202343-06": {
+   "YEMEN-10211556-02": {
     "kind": "possible",
-    "prev": "דחיית הצבעת הפרלמנט המצרי על סיוע צבאי לסעודיה מול החות'ים",
-    "score": 0.467
+    "prev": "תקיפה קטלנית של החות'ים על מחנה אימונים של כוחות הביטחון במחוז שבווה",
+    "score": 0.4
    },
-   "YEMEN-10202343-07": {
+   "YEMEN-10211556-03": {
     "kind": "new"
    },
-   "YEMEN-10202343-08": {
+   "YEMEN-10211556-04": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "הצהרת החות'ים על שש תקיפות נגד יעדים בסעודיה וסגירת נמל התעופה בריאד",
-    "score": 1.0
+    "prev": "הידוק המצור החות'י והפגזות על העיר תעז",
+    "score": 0.817
    }
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-20T2340__iran-202610202340.json",
+  "draft": "drafts/iran/2026-10-21T1534__iran-202610211534.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-20T23:40:36+00:00",
+   "generated_at": "2026-10-21T15:34:26+00:00",
    "window": {
-    "from": "2026-10-19T23:40:36+00:00",
-    "to": "2026-10-20T23:40:36+00:00"
+    "from": "2026-10-20T15:34:26+00:00",
+    "to": "2026-10-21T15:34:26+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "iran-202610202340"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "iran-202610211534"
    },
-   "summary": "המתיחות בין איראן לקואליציה בהובלת ארה\"ב וישראל מתעצמת תוך שחיקת ערוצי התיווך והחרפת הסיכונים בנתיבי השיט. טהראן מסרבת להתפשר על מאגרי האורניום וסביב מצר הורמוז נרשמו תקריות ביטחוניות חמורות שכללו פגיעות מוקשים במכליות נפט. במקביל, ישראל וארה\"ב מציגות פומבית יעד של הפלת המשטר ומתגברות כוחות צבאיים נרחבים באזור לקראת אפשרות של התחדשות הלחימה הישירה.",
+   "summary": "העימות בזירה מתנהל סביב לחץ אמריקאי-ישראלי מוגבר על איראן הכולל איומי תקיפה וסנקציות, לצד מאמצי תיווך רוסיים ופעילות דיפלומטית במפרץ. במקביל, נמשכים חיכוכים באזור המפרץ ובעיראק אל מול שלוחים וגורמים המזוהים עם טהרן, בעוד ישראל נערכת לאפשרות של הסלמה רחבה.",
    "fronts": [
     {
-     "name": "המפרץ הפרסי ומצר הורמוז",
-     "status": "הסלמה ימית בעקבות פיצוצי מוקשים במכליות ואיומים על חופש השיט"
+     "name": "החזית הישראלית-איראנית",
+     "status": "פעיל ומתוח עם איומי תקיפה הדדיים"
     },
     {
-     "name": "ציר הגרעין והמו\"מ המדיני",
-     "status": "מבוי סתום בעקבות סירוב איראני להוצאת חומר מועשר והצבת תנאים לארה\"ב"
+     "name": "חזית המפרץ והספנות",
+     "status": "פעילות מעקב ותקיפות באזור מצרי הורמוז"
     },
     {
-     "name": "החזית הצבאית הישירה (ישראל-ארה\"ב מול איראן)",
-     "status": "כוננות שיא, תגבור כוחות אמריקאיים ואיומים ישירים בחידוש התקיפות"
-    },
-    {
-     "name": "צפון עיראק וכורדיסטן",
-     "status": "מתיחות ביטחונית וטענות איראניות לפעילות עוינת ורשתות רחפנים"
+     "name": "החזית הדיפלומטית והגרעינית",
+     "status": "מאמצי תיווך ומגעים סביב תוכנית הגרעין והסנקציות"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10202340-01",
-     "title": "התפוצצות ופגיעת מוקש ימי במכלית נפט במצר הורמוז",
-     "summary": "חיל הים של משמרות המהפכה הודיע כי מכלית על עלתה על מוקש ימי ועלתה באש מדרום למצר הורמוז, בעוד דיווח ישראלי ציין פגיעה בשתי מכליות.",
-     "axis": "מצר הורמוז",
+     "id": "IRAN-10211534-01",
+     "title": "עצירת נוסעים וכלי רכב במעבר הגבול שיב בין עיראק לאיראן",
+     "summary": "עיראק הורתה על סגירת מעבר הגבול שיב המוביל לאיראן ועצירת תנועת נוסעים וכלי רכב.",
+     "axis": "ציר איראן-עיראק",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-20T12:01:48+00:00",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-20T12:01:48+00:00",
-     "last_update_at": "2026-10-20T20:06:21+00:00",
-     "what_is_not_verified": "מספר המכליות שנפגעו בפועל והגורם שהטמין את המוקש הימי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86298772/Super-tanker-catches-fire-after-hitting-mine-in-Hormuz",
-       "published_at": "2026-10-20T20:06:21+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/byfornn2gg",
-       "published_at": "2026-10-20T12:01:48+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10202340-02",
-     "title": "סיום ביקור התיווך של מפקד צבא פקיסטן בטהראן והקשחת עמדות איראן בנושא הגרעין",
-     "summary": "מפקד צבא פקיסטן עזב את טהראן לאחר פגישות עם ההנהגה האיראנית, שבהן הבהירו בכירי המשטר כי לא יוותרו על האורניום המועשר ולא יקיימו שיחות עם ארה\"ב לפני מילוי תנאיהם.",
-     "axis": "איראן - ארה\"ב - פקיסטן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T16:55:48+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T16:55:48+00:00",
-     "last_update_at": "2026-10-20T19:30:00+00:00",
-     "what_is_not_verified": "פרטי מתווה הפשרה והאם הושגו הבנות חשאיות כלשהן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610200868",
-       "published_at": "2026-10-20T19:30:00+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86298747/Pakistani-Army-chief-departs-for-Islamabad",
-       "published_at": "2026-10-20T19:18:40+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21672049",
-       "published_at": "2026-10-20T19:06:35+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/iran-tells-pakistan-army-chief-no-talks-washington-until-demands-are-met",
-       "published_at": "2026-10-20T17:46:31+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132262",
-       "published_at": "2026-10-20T16:55:48+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10202340-03",
-     "title": "אזהרות פיקוד הצבא האיראני מפני תגובה קשה לכל מתקפה מחודשת",
-     "summary": "הרמטכ\"ל האיראני עבדאללהי ומפקדים בכירים הזהירו במהלך ביקור במתקן ייצור כטב\"מים כי כל תקיפה מחודשת תיתקל בתגובה תקיפה בהרבה, תוך הפקת לקחים מעימותי העבר.",
-     "axis": "איראן - ישראל - ארה\"ב",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T20:50:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T20:50:46+00:00",
-     "last_update_at": "2026-10-20T21:06:17+00:00",
-     "what_is_not_verified": "רמת המוכנות המבצעית בפועל של מערכי הכטב\"מים האיראניים",
+     "first_reported_at": "2026-10-21T08:49:01+00:00",
+     "last_update_at": "2026-10-21T08:49:01+00:00",
+     "what_is_not_verified": "הסיבה המדויקת והיקף הסגירה המלא של מעברי גבול נוספים אינם מאומתים במלואם באופן רשמי ציבורי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-military-chief-warns-stronger-response-any-new-attack",
-       "published_at": "2026-10-20T21:06:17+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86298787/Top-Iranian-general-warns-of-harsher-retaliation-if-war-resumes",
-       "published_at": "2026-10-20T20:50:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10202340-04",
-     "title": "הצהרות נתניהו וטראמפ בדבר הפלת המשטר בטהראן והאופציה הצבאית",
-     "summary": "ראש הממשלה נתניהו הכריז כי הפלת שלטון האייתוללות היא יעד מרכזי ואישר כי שוחח על כך עם הנשיא טראמפ, שהזהיר מצדו כי יחליט אם לפעול בדרך נוקשה יותר.",
-     "axis": "ישראל - ארה\"ב - איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T17:27:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T17:27:00+00:00",
-     "last_update_at": "2026-10-20T21:24:00+00:00",
-     "what_is_not_verified": "קיומה של תוכנית מבצעית מוסכמת ומיידית להפלת המשטר באיראן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610204555",
-       "published_at": "2026-10-20T21:24:00+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
-       "published_at": "2026-10-20T20:03:50+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss",
-       "published_at": "2026-10-20T19:51:09+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610209049",
-       "published_at": "2026-10-20T17:27:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ירושלים, ישראל",
-       "lat": 31.7788,
-       "lon": 35.2258
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10202340-05",
-     "title": "מעצר חשודים בבריטניה בסיוע למודיעין האיראני בבסיס פיירפורד",
-     "summary": "משטרת בריטניה עצרה מחדש שני גברים בחשד לשיתוף פעולה עם המודיעין האיראני סביב בסיס חיל האוויר המלכותי פיירפורד, ששימש מפציצים אמריקניים לתקיפות באיראן.",
-     "axis": "בריטניה - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T17:46:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T17:46:31+00:00",
-     "last_update_at": "2026-10-20T20:17:53+00:00",
-     "what_is_not_verified": "האופי המדויק של הפעילות המודיעינית שבוצעה עבור איראן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss",
-       "published_at": "2026-10-20T20:17:53+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/uk-police-arrest-pair-suspicion-helping-iranian-intelligence-over-raf-fairford",
-       "published_at": "2026-10-20T17:46:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בסיס פיירפורד, בריטניה",
-       "lat": 51.6851,
-       "lon": -1.7865
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10202340-06",
-     "title": "תגבור כוחות צבא ארה\"ב במזרח התיכון",
-     "summary": "צבא ארצות הברית מקדם כוחות משמעותיים, כולל קבוצת תקיפה של נושאת מטוסים וכוחות נחתים, להרחבת חופש הפעולה הצבאי אל מול איראן.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T15:53:38+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T15:53:38+00:00",
-     "last_update_at": "2026-10-20T19:00:25+00:00",
-     "what_is_not_verified": "המועד המדויק להגעת הכוחות והחלטת הנשיא על היקף התקיפות לאחר הבחירות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21671857",
-       "published_at": "2026-10-20T19:00:25+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132257",
-       "published_at": "2026-10-20T15:53:38+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-orders-sheeb-crossing-closure-more-shutdowns-loom",
+       "published_at": "2026-10-21T08:49:01+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10202340-07",
-     "title": "טענות איראניות על היערכות רחפנים אוקראינית בכורדיסטן העיראקית",
-     "summary": "מקור ביטחוני בטהראן טען כי אוקראינה פרסה אלפי רחפנים בצפון עיראק כחלק מפעילות עוינת בחסות נאט\"ו כנגד המדינה.",
-     "axis": "איראן - עיראק",
-     "claim_type": "assessment",
+     "id": "IRAN-10211534-02",
+     "title": "צו גירוש בקנדה לאזרח איראני בגין מעורבות בהתחמקות מסנקציות",
+     "summary": "מועצת ההגירה והפליטים של קנדה הורה על גירוש אזרח איראני מטורונטו עקב מעורבות ברשת פלילית שעקפה סנקציות בינלאומיות נגד איראן.",
+     "axis": "ציר איראן-מערב",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-20T19:21:32+00:00",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-20T19:21:32+00:00",
-     "last_update_at": "2026-10-20T19:21:32+00:00",
-     "what_is_not_verified": "עצם קיום רשת הרחפנים הזעירים האוקראינית בכורדיסטן העיראקית",
+     "first_reported_at": "2026-10-21T15:17:38+00:00",
+     "last_update_at": "2026-10-21T15:17:38+00:00",
+     "what_is_not_verified": "פרטי הפעילות המלאים של הרשת הפלילית אינם מפורטים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48761",
-       "published_at": "2026-10-20T19:21:32+00:00"
+       "source_id": "src_iranintl",
+       "source_root_id": "or_global_news",
+       "url": "https://www.iranintl.com/en/202610217514",
+       "published_at": "2026-10-21T15:17:38+00:00"
       }
      ],
      "places": [
       {
-       "name": "סולימאניה, עיראק",
-       "lat": 35.5571,
-       "lon": 45.4426
+       "name": "טורונטו, קנדה",
+       "lat": 43.6535,
+       "lon": -79.3839
       }
      ]
+    },
+    {
+     "id": "IRAN-10211534-03",
+     "title": "פגישת ולדימיר פוטין וסטיב ויטקוף בסנט פטרבורג",
+     "summary": "נשיא רוסיה ולדימיר פוטין נפגש עם שליחו המיוחד של טראמפ, סטיב ויטקוף, ודן עמו בסוגיית איראן ובהצעות רוסיות.",
+     "axis": "ציר רוסיה-ארה\"ב-איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T10:37:06+00:00",
+     "last_update_at": "2026-10-21T14:38:06+00:00",
+     "what_is_not_verified": "תכנם המלא של ההסכמות וההצעות שהוצגו אינו מאומת במלואו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_iran_international",
+       "url": "https://www.iranintl.com/en/202610210918",
+       "published_at": "2026-10-21T14:38:06+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_iran_international",
+       "url": "https://t.me/alexmehacarmel/48770",
+       "published_at": "2026-10-21T10:37:06+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סנט פטרבורג, רוסיה",
+       "lat": 59.9387,
+       "lon": 30.3162
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10211534-04",
+     "title": "נאומי בכירים בישראל על איומי איראן והמשטר",
+     "summary": "ראש הממשלה בנימין נתניהו ושר הביטחון ישראל כ\"ץ הצהירו כי איראן מנסה לחדש את תוכנית הגרעין וכי ישראל ערוכה להכות בה אם תותקף.",
+     "axis": "ישראל-איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-21T13:16:14+00:00",
+     "last_update_at": "2026-10-21T14:55:59+00:00",
+     "what_is_not_verified": "אמיתות הטענות על חידוש מדויק של פיתוח נשק גרעיני מצד איראן ומועדי תקיפה אפשריים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_64ce6d7bf8f5446c",
+       "url": "https://www.ynet.co.il/news/article/ryru6si3gg",
+       "published_at": "2026-10-21T14:55:59+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_64ce6d7bf8f5446c",
+       "url": "https://t.me/abualiexpress/132316",
+       "published_at": "2026-10-21T14:52:54+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_af09b7b532a37274",
+       "url": "https://www.maariv.co.il/breaking-news/article-1379799",
+       "published_at": "2026-10-21T14:51:06+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_14fff8ba0bfc2832",
+       "url": "https://www.maariv.co.il/breaking-news/article-1379790",
+       "published_at": "2026-10-21T14:21:51+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_1347119151be998a",
+       "url": "https://www.israelhayom.co.il/news/defense/article/21678698",
+       "published_at": "2026-10-21T14:15:42+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_64ce6d7bf8f5446c",
+       "url": "https://t.me/abualiexpress/132312",
+       "published_at": "2026-10-21T14:12:46+00:00"
+      },
+      {
+       "source_id": "src_walla",
+       "source_root_id": "fh_2fee6cce0342b571",
+       "url": "https://www.walla.co.il/news/military/383958333",
+       "published_at": "2026-10-21T13:16:14+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10211534-05",
+     "title": "ביקור נשיא צרפת עמנואל מקרון בריאד",
+     "summary": "נשיא צרפת עמנואל מקרון הגיע לביקור סולידריות בריאד על רקע איומי החות'ים באזור.",
+     "axis": "צרפת-סעודיה-המפרץ",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-20T15:52:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-20T15:52:47+00:00",
+     "last_update_at": "2026-10-21T14:30:22+00:00",
+     "what_is_not_verified": "היקף ההסכמות המסחריות והביטחוניות המלאות שהושגו בביקור.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_al_monitor",
+       "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+       "published_at": "2026-10-21T14:30:22+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_al_monitor",
+       "url": "https://www.france24.com/en/video/20261020-france-s-decades-long-ties-with-gulf-states-built-on-economic-development-oil-defense-agreements-1",
+       "published_at": "2026-10-20T15:52:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10211534-06",
+     "title": "מניעת כניסת טייס זר עם זיקה לאיראן לישראל",
+     "summary": "משרד התחבורה ומשרד התפוצות הודיעו לחברת תעופה זרה על איסור הגעתו של טייס החשוד בזיקה לאיראן לישראל.",
+     "axis": "ישראל-איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T12:03:47+00:00",
+     "last_update_at": "2026-10-21T12:03:47+00:00",
+     "what_is_not_verified": "היקף הקשר המדויק של איש הצוות לגורמים איראניים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383958344",
+       "published_at": "2026-10-21T12:03:47+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "טענת איראן על פריסת אלפי רחפנים אוקראיניים בכורדיסטן העיראקית",
-    "קיומו של הסכם עיראקי רשמי לגירוש ארגוני האופוזיציה הכורדיים-איראניים",
-    "מספר המכליות המדויק שנפגעו ממוקשים ימיים במצר הורמוז",
-    "הדיווח לפיו איראן מאיצה את השלמת מרכיב ההנשקה לפצצה",
-    "דיווחים על ביטול של תקיפות משולבות של ארה\"ב וישראל בשבועות האחרונים",
-    "פרטי ההצעה לשחרור 6 מיליארד דולר מוקפאים תמורת פיקוח באתרי הגרעין"
+    "לוח זמנים מדויק לתקיפה אפשרית באיראן מצד ישראל או ארה\"ב",
+    "קיומו של הסכם רשמי בין עיראק לאיראן לגירוש קבוצות אופוזיציה כורדיות",
+    "פרטי המגעים החסויים בין שליחו של טראמפ לרוסיה"
    ],
    "map": {
     "confidence": "medium",
@@ -793,565 +580,318 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1077,
+     "value": 3.0912,
      "unit": "ILS",
-     "change_pct": -0.02,
+     "change_pct": -0.53,
      "source_id": "src_ecb",
-     "as_of": "2026-10-20T15:00:00+00:00"
+     "as_of": "2026-10-21T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "איראן",
-     "declared": [
-      "אי-ויתור על החומר הגרעיני המועשר והשארתו בתחומי המדינה",
-      "התניית כל משא ומתן עם וושינגטון בצעדים מקדימים ובהסרת הסנקציות",
-      "תגובה צבאית תקיפה ועוצמתית יותר לכל פעולה צבאית נגדה"
-     ],
-     "inferred": [
-      "הפעלת לחץ כלכלי עולמי באמצעות פגיעה בביטחון השיט במצר הורמוז",
-      "שימור יכולות הסף הגרעיניות כקלף מיקוח וכגורם הרתעה"
-     ],
-     "forecast": [
-      "המשך העלאת רמת הסיכון לספינות מסחר במפרץ במטרה ללחוץ על הקהילה הבינלאומית",
-      "התבצרות בעמדות הנוקשות עד להתבהרות התוצאות הפוליטיות בארה\"ב ובישראל"
-     ]
-    },
-    {
      "actor": "ישראל",
      "declared": [
-      "הפלת המשטר בטהראן כיעד מרכזי עליון",
-      "הסרת האיום הגרעיני וההתעצמות הצבאית האיראנית"
+      "הפלת המשטר באיראן",
+      "הסרת איום הגרעין האיראני",
+      "סיכול ניסיונות טרור נגד ישראל"
      ],
      "inferred": [
-      "דחיפה לחידוש המערכה הצבאית ההתקפית בשיתוף מלא עם הממשל האמריקני",
-      "סיכול כל הסדר ביניים שיאפשר למשטר להמשיך להחזיק באורניום מועשר"
+      "יצירת הרתעה מול התבססות איראנית ושלוחיה",
+      "גיוס תמיכה בינלאומית ומקומית במהלך בחירות"
      ],
      "forecast": [
-      "המשך היערכות מבצעית למתקפה אפשרית כנגד מתקני ההנשקה והתשתיות",
-      "החרפת המסרים הפומביים נגד טהראן במקביל למהלכים פוליטיים פנימיים"
+      "הגברת הכוננות הביטחונית והמשך הקמפיין נגד תוכנית הגרעין",
+      "היערכות לאפשרות של עימות ישיר אם איראן תתקוף"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "איראן",
      "declared": [
-      "הצבת אולטימטום מרומז להכרעה בין פתרון בהסכמה לבין פעולה בדרך נוקשה",
-      "הרתעת איראן מפני פגיעה באינטרסים ובנתיבי השיט הבינלאומיים"
+      "הזהרת ארה\"ב וישראל מפני תוקפנות צבאית",
+      "האשמת ארה\"ב ביצירת אי-יציבות אזורית"
      ],
      "inferred": [
-      "ריכוז כוח אש משמעותי במפרץ כדי לאפשר אופציה של מתקפה רחבה",
-      "בחינת אפשרות להחלפת שלטון בטהראן תוך שימוש במנופי לחץ מקסימליים"
+      "ניסיון לעקוף סנקציות באמצעות צדדים שלישיים וצי קלפים",
+      "המשך פיתוח יכולות אזוריות וגרעיניות תחת לחץ"
      ],
      "forecast": [
-      "עיבוי נוסף של המערך הצבאי באזור עד סוף נובמבר לקראת הכרעות אפשריות",
-      "הגברת האכיפה הימית והמודיעינית סביב נתיבי האנרגיה במצר הורמוז"
+      "המשך מתיחות דיפלומטית ועימותים באמצעות שלוחים במפרץ",
+      "ניסיונות הימנעות מקריסה כלכלית מוחלטת לצד שמירה על קו נוקשה מול וושינגטון"
+     ]
+    },
+    {
+     "actor": "ארה\"ב",
+     "declared": [
+      "מניעת נשק גרעיני מאיראן ואכיפת סנקציות"
+     ],
+     "inferred": [
+      "הפעלת לחץ מקסימלי בשיתוף בריתות אזוריות",
+      "בחינת אפשרויות לתקיפה או לריסון פעילות צבאית באזור"
+     ],
+     "forecast": [
+      "המשך תיאום עם בעלות ברית במפרץ ובאירופה סביב הסנקציות והגרעין",
+      "בחינת יוזמות דיפלומטיות לצד שמירת אופציה צבאית"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
-    },
-    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/uk-police-arrest-pair-suspicion-helping-iranian-intelligence-over-raf-fairford",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_france24",
-     "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.france24.com/en/video/20261020-france-s-decades-long-ties-with-gulf-states-built-on-economic-development-oil-defense-agreements-1",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610209049",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
-    },
-    {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86298787/Top-Iranian-general-warns-of-harsher-retaliation-if-war-resumes",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.iranintl.com/en/202610210918",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21671857",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.israelhayom.co.il/news/defense/article/21678698",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1379790",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-military-chief-warns-stronger-response-any-new-attack",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-orders-sheeb-crossing-closure-more-shutdowns-loom",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132257",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://t.me/abualiexpress/132312",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48761",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://t.me/alexmehacarmel/48770",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383958344",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/byfornn2gg",
-     "accessed_at": "2026-10-20T23:40:36+00:00"
+     "url": "https://www.ynet.co.il/news/article/ryru6si3gg",
+     "accessed_at": "2026-10-21T15:34:26+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-20T05:11:52+00:00",
+  "previous_generated_at": "2026-10-20T23:40:36+00:00",
   "changes": {
-   "IRAN-10202340-01": {
-    "kind": "possible",
-    "prev": "איומים איראניים על תשתיות תקשורת ואנרגיה במצר הורמוז",
-    "score": 0.467
-   },
-   "IRAN-10202340-02": {
+   "IRAN-10211534-01": {
     "kind": "new"
    },
-   "IRAN-10202340-03": {
+   "IRAN-10211534-02": {
     "kind": "new"
    },
-   "IRAN-10202340-04": {
+   "IRAN-10211534-03": {
     "kind": "new"
    },
-   "IRAN-10202340-05": {
+   "IRAN-10211534-04": {
     "kind": "new"
    },
-   "IRAN-10202340-06": {
-    "kind": "possible",
-    "prev": "אזהרות ביטחוניות של נציגויות ארצות הברית במזרח התיכון",
-    "score": 0.467
+   "IRAN-10211534-05": {
+    "kind": "new"
    },
-   "IRAN-10202340-07": {
+   "IRAN-10211534-06": {
     "kind": "new"
    }
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-20T2342__ukraine-202610202342.json",
+  "draft": "drafts/ukraine/2026-10-21T1545__ukraine-202610211545.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-20T23:42:05+00:00",
+   "generated_at": "2026-10-21T15:45:24+00:00",
    "window": {
-    "from": "2026-10-19T23:42:05+00:00",
-    "to": "2026-10-20T23:42:05+00:00"
+    "from": "2026-10-20T15:45:24+00:00",
+    "to": "2026-10-21T15:45:24+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202610202342"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "ukraine-202610211545"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהמשך מתקפות אוויריות נרחבות על תשתיות אנרגיה וריכוזי אוכלוסייה, לצד פגיעה בשיט המסחרי בים השחור. במקביל ללחץ הצבאי מתנהלים מגעים דיפלומטיים אינטנסיביים בהובלת שליחים מארצות הברית ומדינות אירופה לגיבוש מסגרת להפסקת הלחימה. ברקע המגעים ניכרים חיכוכים בנוגע להיקף הסיוע והמודיעין האמריקני הניתן לקייב ומגבלות על מערכות תקשורת לווייניות.",
+   "summary": "המלחמה בין רוסיה לאוקראינה נמשכת לצד מאמצים דיפלומטיים אינטנסיביים של ארצות הברית ומדינות אירופה לקדם הסדר או הקפאת מצב, הכוללים מגעים בין נציגים אמריקאים לרוסים ודיונים על מימון וסיוע צבאי לאוקראינה. במקביל, נמשכות תקיפות התשתית והאוויריות של רוסיה באוקראינה לצד שגרת הפעילות וההתרחשויות הצבאיות בשטח.",
    "fronts": [
     {
-     "name": "מחוז דונצק",
-     "status": "תקיפות אוויריות ופגיעות הדדיות בתשתיות חשמל וחימום באזורים בשליטת שני הצדדים"
+     "name": "החזית האוקראינית-רוסית",
+     "status": "פעיל"
     },
     {
-     "name": "מרחב הים השחור ונמלי הדרום",
-     "status": "הסלמה בתקיפות כוחות רוסיה נגד ספינות מטען ותגבור נוכחות צבאית מצד ברית נאט\"ו"
-    },
-    {
-     "name": "עורף אוקראינה ומתקני אנרגיה",
-     "status": "מתקפות כטבמים וטילים מרוכזות על ערים ותשתיות אזרחיות, שהובילו להרחבת מצב החירום הממשלתי"
-    },
-    {
-     "name": "מחוז סומי",
-     "status": "פעילות צבאית קרקעית שכללה לחימה ושביית חיילים על ידי הכוחות האוקראיניים"
+     "name": "החזית הדיפלומטית הבין-לאומית",
+     "status": "פעיל"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10202342-01",
-     "title": "שיחות מדיניות באוסלו לקראת גיבוש מתווה להסדר וביקור שליח ארצות הברית ברוסיה",
-     "summary": "נציגי ארצות הברית, אוקראינה, נורווגיה ופינלנד נפגשו באוסלו לדיון בביטחון, ערבויות עתידיות ומתווה לסיום הלחימה. השליח האמריקני סטיב ויטקוף צפוי להמשיך לסנקט פטרבורג לפגישות עם ההנהגה הרוסית.",
-     "axis": "משא ומתן ומדיניות בינלאומית",
-     "claim_type": "statement",
+     "id": "UKRAINE-10211545-01",
+     "title": "התרסקות מטוס קרב רוסי",
+     "summary": "מטוס קרב רוסי מדגם אס-יו-30 התרסק במהלך טיסת אימון במחוז קלינינגרד, אנשי הצוות נפלטו ופונו לקבלת טיפול רפואי.",
+     "axis": "חזית פנימית / רוסיה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T16:41:39+00:00",
-     "last_update_at": "2026-10-20T23:33:14+00:00",
-     "what_is_not_verified": "ההסכמות המדויקות על תנאי הערבויות הביטחוניות והנכונות של רוסיה לקבל את ההצעות שיוצגו בפניה.",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T14:12:04+00:00",
+     "last_update_at": "2026-10-21T15:28:55+00:00",
+     "what_is_not_verified": "הטענות המדויקות על מיקום ההתרסקות המדויק בין הכפרים ונוכחות צילומים מזירות שונות אינן מאומתות ישירות מחוץ לדיווחים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_e442e53ca9334c51",
+       "url": "https://meduza.io/en/news/2026/10/21/su-30-fighter-jet-crashes-in-russia",
+       "published_at": "2026-10-21T15:28:55+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_64926407adf6199a",
+       "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
+       "published_at": "2026-10-21T14:12:04+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "Chernyakhovsk, Russia",
+       "lat": 54.6355,
+       "lon": 21.81
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10211545-02",
+     "title": "פגיעה במתקן קמעונאי באוקראינה",
+     "summary": "כוחות רוסיים תקפו מתקן של רשת המרכולים מטרו במחוז ריבנה באוקראינה.",
+     "axis": "הזירה האוקראינית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T13:34:00+00:00",
+     "last_update_at": "2026-10-21T13:34:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא וההשלכות של התקיפה טרם אומתו במלואם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_a4d6e37274a118f4",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059083/",
+       "published_at": "2026-10-21T13:34:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10211545-03",
+     "title": "שחרור אסיר אמריקאי מרוסיה",
+     "summary": "ולדימיר פוטין הורה על שחרורו של האזרח האמריקאי סטיבן האברד שהוחזק בכלא ברוסיה, במסגרת מגעים עם שליחו של נשיא ארצות הברית.",
+     "axis": "דיפלומטיה בין-לאומית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T13:58:00+00:00",
+     "last_update_at": "2026-10-21T15:24:58+00:00",
+     "what_is_not_verified": "התנאים המדויקים מאחורי הקלעים לשחרור וההבנות הדיפלומטיות אינם מאומתים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
-       "published_at": "2026-10-20T23:33:14+00:00"
+       "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+       "published_at": "2026-10-21T15:24:58+00:00"
       },
       {
-       "source_id": "src_tass",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2204981",
-       "published_at": "2026-10-20T22:28:01+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2204969",
-       "published_at": "2026-10-20T20:44:01+00:00"
+       "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+       "published_at": "2026-10-21T15:23:04+00:00"
       },
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/20/trump-says-putin-and-zelensky-don-t-need-to-meet-face-to-face-to-reach-a-peace-deal",
-       "published_at": "2026-10-20T20:16:02+00:00"
+       "url": "https://meduza.io/en/feature/2026/10/21/who-is-stephen-hubbard-the-american-putin-just-freed",
+       "published_at": "2026-10-21T15:12:57+00:00"
       },
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058978/",
-       "published_at": "2026-10-20T18:29:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058977/",
-       "published_at": "2026-10-20T18:10:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/witkoff-to-visit-st-petersburg-after-zelensky-talks-norways-pm-says/",
-       "published_at": "2026-10-20T17:50:08+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/20/nyt-trump-s-envoys-plan-to-meet-putin-in-st-petersburg-on-wednesday-and-seek-the-release-of-an-american-held-in-russia",
-       "published_at": "2026-10-20T16:41:39+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059089/",
+       "published_at": "2026-10-21T13:58:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אוסלו, נורווגיה",
-       "lat": 59.9133,
-       "lon": 10.739
-      },
-      {
-       "name": "סנקט פטרבורג, רוסיה",
+       "name": "St Petersburg, Russia",
        "lat": 59.9387,
        "lon": 30.3162
       }
      ]
     },
     {
-     "id": "UKRAINE-10202342-02",
-     "title": "חידוש שיתוף המודיעין וההתרעות האמריקניות עם צבא אוקראינה",
-     "summary": "נשיא אוקראינה מסר כי ארצות הברית חידשה את שיתוף המודיעין הצבאי והעברת התרעות מוקדמות מפני ירי טילים בליסטיים רוסיים, לאחר השעיה זמנית.",
-     "axis": "סיוע ביטחוני ומודיעין",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T19:32:28+00:00",
-     "last_update_at": "2026-10-20T21:34:57+00:00",
-     "what_is_not_verified": "הסיבה המדויקת להשעיית המודיעין בעבר והיקף המידע המועבר בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/zelensky-confirms-ballistic-missile-early-warning-systems-operational-after-skipped-alerts/",
-       "published_at": "2026-10-20T21:34:57+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-20T21:27:39+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-       "published_at": "2026-10-20T19:32:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אוסלו, נורווגיה",
-       "lat": 59.9133,
-       "lon": 10.739
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10202342-03",
-     "title": "פגיעה רוסית קטלנית בתשתית אנרגיה בעיר קרמטורסק",
-     "summary": "תקיפה רוסית על קרמטורסק פגעה בעובדי חברת החימום העירונית בעת מילוי תפקידם, וגרמה למותם של שלושה בני אדם ולפציעת שניים נוספים.",
-     "axis": "מחוז דונצק",
+     "id": "UKRAINE-10211545-04",
+     "title": "פגישת סטיב ויטקוף ווולדימיר פוטין בסנט פטרסבורג",
+     "summary": "שליחו המיוחד של נשיא ארה\"ב סטיב ויטקוף נועד עם נשיא רוסיה ולדימיר פוטין במשך כשלוש שעות בסנט פטרסבורג כדי לדון בדרכים לסיום המלחמה ובאפשרות לחידוש שיחות משולשות.",
+     "axis": "דיפלומטיה בין-לאומית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-20T10:04:00+00:00",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-20T22:05:00+00:00",
-     "last_update_at": "2026-10-20T22:05:00+00:00",
-     "what_is_not_verified": "סוג החימוש המדויק שבו השתמשו הכוחות הרוסיים בתקיפה.",
+     "first_reported_at": "2026-10-21T13:04:00+00:00",
+     "last_update_at": "2026-10-21T14:36:05+00:00",
+     "what_is_not_verified": "תוכנן המלל המדויק של המסמכים וההצעות שהוצגו צדדים שלישיים אינו מאומת ממקור ראשון.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8058891/",
-       "published_at": "2026-10-20T22:05:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קרמטורסק, אוקראינה",
-       "lat": 48.7389,
-       "lon": 37.5844
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10202342-04",
-     "title": "מתקפות כטבמים רוסיים על קייב וחרקוב עם נפגעים בנפש",
-     "summary": "כלי טיס בלתי מאוישים רוסיים תקפו יעדים בקייב ובחרקוב, גרמו להרוגים ולעשרות פצועים ופגעו בכלי רכב ובפארק ציבורי.",
-     "axis": "תקיפות עורף באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T11:03:55+00:00",
-     "last_update_at": "2026-10-20T20:56:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים הכולל ברחבי אוקראינה כתוצאה מגל התקיפות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4176504-russian-drone-attack-on-kyiv-injury-toll-rises-to-18-one-dead.html",
-       "published_at": "2026-10-20T20:56:00+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21669570",
-       "published_at": "2026-10-20T13:56:41+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hyanchv2fe",
-       "published_at": "2026-10-20T11:03:55+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10202342-05",
-     "title": "תקיפות רוסיות על ספינות מטען ונמלים באזור הים השחור",
-     "summary": "הצבא הרוסי תקף חמש ספינות מטען אזרחיות, בהן שלוש ספינות בנמל רני ושתי ספינות נוספות שהיו בדרכן לאודסה, בעקבות כך נאט\"ו מעבה את פריסת כוחותיה בזירה.",
-     "axis": "זירת הים השחור",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T17:43:40+00:00",
-     "last_update_at": "2026-10-20T17:43:40+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים המדויק על גבי הספינות שהותקפו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
-       "published_at": "2026-10-20T17:43:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "רני, אוקראינה",
-       "lat": 45.4554,
-       "lon": 28.2791
-      },
-      {
-       "name": "אודסה, אוקראינה",
-       "lat": 46.4843,
-       "lon": 30.7323
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10202342-06",
-     "title": "תקיפות אוקראיניות על תשתיות אנרגיה ומרכזי נתונים של רוסיה",
-     "summary": "כוחות אוקראינה פגעו בתשתיות חשמל בעיר צ'יסטיאקובה שבמחוז דונצק, לצד שיבושי חשמל בחצי האי קרים ופגיעה במרכזי נתונים ברוסיה ששיבשה דיונים בבתי משפט.",
-     "axis": "תקיפות עומק ותשתיות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T18:21:20+00:00",
-     "last_update_at": "2026-10-20T23:25:50+00:00",
-     "what_is_not_verified": "מידת השיבוש הכוללת שנגרמה למערכות המשפט והאנרגיה הרוסיות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-energy-infrastructure-in-occupied-donetsk-oblast-blackouts-in-crimea/",
-       "published_at": "2026-10-20T23:25:50+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drone-strikes-on-yandex-data-centers-disrupt-russian-court-hearings-media-reports/",
-       "published_at": "2026-10-20T18:21:20+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צ'יסטיאקובה, אוקראינה",
-       "lat": 48.0261,
-       "lon": 38.6181
-      },
-      {
-       "name": "קרים",
-       "lat": 45.2835,
-       "lon": 34.2008
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10202342-07",
-     "title": "מחלוקת ושיבושים בהפעלת מערכות התקשורת הלוויינית של סטארלינק באוקראינה",
-     "summary": "הגבלות שהוטלו על מערכת התקשורת הצבאית סטארשילד פגעו בפעילות המבצעית של צבא אוקראינה, ועוררו ביקורת ודיונים בין הנהלת החברה לממשל האמריקני.",
-     "axis": "סיוע טכנולוגי וצבאי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T22:59:38+00:00",
-     "last_update_at": "2026-10-20T23:33:14+00:00",
-     "what_is_not_verified": "האם המהלך תואם ואושר מראש על ידי נשיא ארצות הברית או בוצע בהחלטה חד־צדדית של אילון מאסק בלבד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
-       "published_at": "2026-10-20T23:33:14+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48765",
-       "published_at": "2026-10-20T23:23:38+00:00"
+       "url": "https://meduza.io/en/news/2026/10/21/kremlin-says-it-s-ready-to-resume-trilateral-talks-but-sees-little-useful-in-new-proposals-from-ukraine-and-the-eu",
+       "published_at": "2026-10-21T14:36:05+00:00"
       },
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/21/did-trump-know-musk-was-about-to-restrict-ukraine-s-military-starlink-service-wsj-reports-they-discussed-the-decision-afterward-some-sources-say-they-also-spoke-beforehand",
-       "published_at": "2026-10-20T22:59:38+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10202342-08",
-     "title": "הרחבת מצב החירום במשק האוקראיני עקב פגיעות בתשתיות",
-     "summary": "ממשלת אוקראינה הרחיבה את צו מצב החירום מהמשק החשמלי גם לתחומי אספקת המים, החימום, התחבורה, רשתות התקשורת ומרכזי הנתונים.",
-     "axis": "עורף ותשתיות אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-16T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-20T17:27:00+00:00",
-     "last_update_at": "2026-10-20T17:27:00+00:00",
-     "what_is_not_verified": "לוח הזמנים לתיקון הנזקים ביעדי התשתית השונים.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
+       "published_at": "2026-10-21T14:20:38+00:00"
+      },
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "or_1292",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058971/",
-       "published_at": "2026-10-20T17:27:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059089/",
+       "published_at": "2026-10-21T13:58:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059081/",
+       "published_at": "2026-10-21T13:04:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "St Petersburg, Russia",
+       "lat": 59.9387,
+       "lon": 30.3162
       }
      ]
-    },
-    {
-     "id": "UKRAINE-10202342-09",
-     "title": "החלטת בולגריה שלא להשתתף בתוכנית הסיוע הכספי החדשה לאוקראינה",
-     "summary": "ראש ממשלת בולגריה הודיע כי ארצו אינה יכולה לתרום למימון חבילת הסיוע הכספי של האיחוד האירופי עבור אוקראינה.",
-     "axis": "סיוע בינלאומי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T20:05:00+00:00",
-     "last_update_at": "2026-10-20T20:05:00+00:00",
-     "what_is_not_verified": "האם מדינות נוספות באיחוד האירופי יסרבו להשתתף בתוכנית המימון.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4176494-bulgaria-will-not-contribute-to-new-eu-financial-assistance-program-for-ukraine-pm.html",
-       "published_at": "2026-10-20T20:05:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10202342-10",
-     "title": "העברת חבילת סיוע הומניטרי מווייטנאם לאוקראינה",
-     "summary": "וייטנאם העבירה לאוקראינה חבילת סיוע הומניטרי בהיקף כספי של חצי מיליון דולר.",
-     "axis": "סיוע בינלאומי",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-20T23:27:00+00:00",
-     "last_update_at": "2026-10-20T23:27:00+00:00",
-     "what_is_not_verified": "פירוט הציוד והמוצרים המדויקים שנכללו בחבילת הסיוע.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4176260-vietnam-provides-ukraine-with-humanitarian-aid-package.html",
-       "published_at": "2026-10-20T23:27:00+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "טענות על תיאום מוקדם בין אילון מאסק לדונלד טראמפ להאטת מערכת סטארלינק באוקראינה",
-    "ההצעה האמריקנית המדויקת שתוצג ברוסיה בנוגע לשטחים ולחברות בנאט\"ו",
-    "דיווחים על שיתוף מודיעין לווייני בין רוסיה לאיראן",
-    "מספר הנפגעים המלא בתקיפות על ספינות סוחר בנמל רני ובדרך לאודסה"
+    "ההערכות לפיהן רוסיה ואוקראינה יגיעו להסכם הקפאה מחייב בחודש הבא אינן מאומתות.",
+    "הפרטים המדויקים לגבי תוכן ההצעות האירופאיות והאוקראיניות שהוצגו לרוסיה לא אומתו במלואם."
    ],
    "map": {
     "confidence": "high",
@@ -1362,147 +902,87 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1215,
+     "value": 1.1234,
      "unit": "USD",
-     "change_pct": -0.09,
+     "change_pct": 0.17,
      "source_id": "src_ecb",
-     "as_of": "2026-10-20T15:00:00+00:00"
+     "as_of": "2026-10-21T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "אוקראינה",
+     "actor": "רוסיה",
      "declared": [
-      "השגת ערבויות ביטחון מוצקות המקבילות לסעיף 5 של ברית נאט\"ו לאחר תום המלחמה",
-      "עמידה על העיקרון ששום הסדר לא ייקבע בלעדיה ואי־הסכמה לכניעה או לדיונים מעל ראשה",
-      "בלימת הפגיעה באזרחים וסיום מהיר של המלחמה כדי למנוע אובדן חיי אדם נוספים"
+      "מוכנות לחדש שיחות משולשות בנושא מערכות ביטחון לאחר הסכסוך."
      ],
      "inferred": [
-      "הפעלת לחץ על וושינגטון להמשך רציף של שיתוף המודיעין ואספקת מיירטי פטריוט",
-      "נכונות להגביל פגיעות בבתי זיקוק רוסיים בתמורה להגנה על שמי המדינה",
-      "הבטחת מקורות מימון וציוד חלופי לאור סימני עייפות או סירוב מצד חלק ממדינות אירופה"
+      "שאיפה להשיג הכרה בינלאומית בהישגיה בשטח ובנטרול תשתיות צבאיות ואנרגיה באוקראינה."
      ],
      "forecast": [
-      "המשך הגנה על מתקני אנרגיה תוך ניסיון לשמר תמיכה אמריקנית בעידן של חילוקי דעות",
-      "דרישה לנוכחות פעילה בכל ערוץ משא ומתן רב־צדדי עתידי מול מוסקבה"
+      "המשך לחץ צבאי ותשתיות על אוקראינה לצד ניהול משא ומתן דיפלומטי מותנה."
      ]
     },
     {
-     "actor": "רוסיה",
+     "actor": "אוקראינה",
      "declared": [
-      "פגיעה ביעדים צבאיים ובתשתיות המשמשות את המאמץ המלחמתי של אוקראינה"
+      "דרישה לנוכחות מלאה של אוקראינה בכל שולחן משא ומתן הנוגע לעתידה וקיום דרישות ביטחוניות."
      ],
      "inferred": [
-      "שחיקת כושר העמידה של העורף האוקראיני באמצעות פגיעה מסיבית במערכות החשמל והחימום לקראת החורף",
-      "שיבוש נתיבי הסחר והיצוא החקלאי האוקראיני בים השחור כדי להעמיק את המשבר הכלכלי של קייב",
-      "הפעלת לחץ מקסימלי לקראת פגישות מדיניות כדי להשיג הכרה בשליטה בשטחים שנכבשו"
+      "הסתמכות על סיוע מערבי ואירופאי ממושך לשם שימור יכולת העמידה והלחימה."
      ],
      "forecast": [
-      "המשך פגיעה ממוקדת במתקני אנרגיה ונמלים כקלף מיקוח מול ארצות הברית במגעים הדיפלומטיים",
-      "בחינת הצעות השליח האמריקני תוך שמירה על דרישות טריטוריאליות נוקשות"
+      "המשך גיוס משאבים פיננסיים וצבאיים מהשותפות באירופה ובעולם למען ייצור והתחמשות."
      ]
     },
     {
      "actor": "ארצות הברית",
      "declared": [
-      "חתירה לסיום מהיר של המלחמה ודרישה מאוקראינה להפגין נכונות להסדר מדיני",
-      "קידום פתרונות מעשיים ומסגרת ביטחונית וכלכלית כוללת לאירופה"
+      "חתירה להנעת מגעים מדיניים וקידום אפשרויות להפסקת לחימה או הסדר."
      ],
      "inferred": [
-      "שימוש בסיוע הביטחוני, במודיעין ובמערכות תקשורת כאמצעי לחץ על הנהגת אוקראינה לקבלת פשרות",
-      "שאיפה להפחתת מחירי הדלק בעולם ומניעת הסלמה שפוגעת באינטרסים כלכליים אמריקניים",
-      "חתירה למגעים ישירים מול מוסקבה ובייג'ינג תוך עקיפת גורמים בינלאומיים במידת הצורך"
+      "רצון להגיע להבנות עוקפות משברים מול מוסקבה תוך ניהול דיאלוג ישיר."
      ],
      "forecast": [
-      "המשך מסעות דילוגים דיפלומטיים בין מוסקבה, קייב ובירות אירופה לבחינת מתווה הפסקת אש",
-      "החרפת הוויכוח הפנימי בוושינגטון בין תומכי המשך הסיוע למצדדי נסיגה ממחויבויות ביטחוניות"
+      "המשך מעורבות דיפלומטית גבוהה באמצעות שליחים מיוחדים לקידום פסגות ושיחות."
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21669570",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
+     "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+     "accessed_at": "2026-10-21T15:45:24+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/ukraine-war-latest-drone-strikes-on-yandex-data-centers-disrupt-russian-court-hearings-media-reports/",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
+     "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
+     "accessed_at": "2026-10-21T15:45:24+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/10/21/did-trump-know-musk-was-about-to-restrict-ukraine-s-military-starlink-service-wsj-reports-they-discussed-the-decision-afterward-some-sources-say-they-also-spoke-beforehand",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
+     "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
+     "accessed_at": "2026-10-21T15:45:24+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058971/",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
-     "source_id": "src_tass",
-     "url": "https://tass.com/world/2204969",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48765",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
-     "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-polytics/4176260-vietnam-provides-ukraine-with-humanitarian-aid-package.html",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hyanchv2fe",
-     "accessed_at": "2026-10-20T23:42:05+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059081/",
+     "accessed_at": "2026-10-21T15:45:24+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-20T05:15:06+00:00",
+  "previous_generated_at": "2026-10-20T23:42:05+00:00",
   "changes": {
-   "UKRAINE-10202342-01": {
+   "UKRAINE-10211545-01": {
     "kind": "new"
    },
-   "UKRAINE-10202342-02": {
+   "UKRAINE-10211545-02": {
     "kind": "new"
    },
-   "UKRAINE-10202342-03": {
+   "UKRAINE-10211545-03": {
     "kind": "new"
    },
-   "UKRAINE-10202342-04": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-05": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-06": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-07": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-08": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-09": {
-    "kind": "new"
-   },
-   "UKRAINE-10202342-10": {
+   "UKRAINE-10211545-04": {
     "kind": "new"
    }
   }
