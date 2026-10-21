@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-21T11:17:21+00:00",
-  "fetched_at": "2026-10-21T11:17:21+00:00"
+  "checked_at": "2026-10-21T12:17:21+00:00",
+  "fetched_at": "2026-10-21T12:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,64 +44,84 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T11:17:39+00:00",
-  "fetched_at": "2026-10-21T11:17:39+00:00"
+  "checked_at": "2026-10-21T12:17:30+00:00",
+  "fetched_at": "2026-10-21T12:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Technics’ new turntable was designed with help from DJs and sound engineers",
+    "title_he": "הפטיפון החדש של Technics עוצב בעזרת תקליטנים ומהנדסי סאונד",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/technics-new-turntable-was-designed-with-help-from-djs-and-sound-engineers",
+    "date": "2026-10-21T11:36:25+00:00"
+   },
+   {
+    "title_en": "Nagra’s high-end amplifier packs reference-level tech to deliver “effortless musicality”",
+    "title_he": "המגבר היוקרתי של Nagra מכיל טכנולוגיה ברמת הייחוס כדי לספק \"מוזיקליות ללא מאמץ\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/nagras-high-end-amplifier-packs-reference-level-tech-to-deliver-effortless-musicality",
+    "date": "2026-10-21T11:32:20+00:00"
+   },
+   {
+    "title_en": "My favourite-ever OLED has been beaten – and not by the model I was expecting",
+    "title_he": "ה-OLED האהוב עלי אי פעם זכה למכות - ולא מהדגם שציפיתי לו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/my-favourite-ever-oled-has-been-beaten-and-not-by-the-model-i-was-expecting",
+    "date": "2026-10-21T11:22:57+00:00"
+   },
    {
     "title_en": "How to watch Bayern Munich vs Arsenal: live stream Champions League 2026/27 game for free from anywhere",
     "title_he": "איך לצפות באיירן מינכן נגד ארסנל: שידור חי משחק ליגת האלופות 2026/27 בחינם מכל מקום",
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/bayern-munich-vs-arsenal-champions-league-2026-27-free",
     "date": "2026-10-21T11:00:00+00:00"
-   },
-   {
-    "title_en": "Esoteric’s high-end CD player is filled with flagship tech to give your discs the royal treatment",
-    "title_he": "נגן התקליטורים היוקרתי של Esoteric מלא בטכנולוגיית דגל כדי להעניק לדיסקים שלך את היחס המלכותי",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/cd-players/esoterics-high-end-cd-player-is-filled-with-flagship-tech-to-give-your-discs-the-royal-treatment",
-    "date": "2026-10-21T10:16:00+00:00"
-   },
-   {
-    "title_en": "Spotify is clamping down on Family account sharing – but users are already finding workarounds",
-    "title_he": "ספוטיפיי מתכווצת בשיתוף חשבון משפחתי – אבל משתמשים כבר מוצאים פתרונות",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/spotify-is-clamping-down-on-family-account-sharing-but-users-are-already-finding-workarounds",
-    "date": "2026-10-21T10:09:51+00:00"
-   },
-   {
-    "title_en": "\"It's not our job to fix a bad recording\" – the honest truth about high-end hi-fi",
-    "title_he": "\"זה לא התפקיד שלנו לתקן הקלטה גרועה\" - האמת הכנה על ה-hi-fi ברמה גבוהה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/its-not-our-job-to-fix-a-bad-recording-goldmunds-brutal-pursuit-of-honest-sound-according-to-its-head-of-acoustics",
-    "date": "2026-10-21T07:22:37+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T11:17:41+00:00",
-  "fetched_at": "2026-10-21T11:17:41+00:00"
+  "checked_at": "2026-10-21T12:17:34+00:00",
+  "fetched_at": "2026-10-21T12:17:34+00:00"
  },
- "generated_at": "2026-10-21T11:17:41+00:00",
+ "generated_at": "2026-10-21T12:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מבחירות לבחירות: הבטחות הנדל\"ן שלא יורדות מהפרק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560224",
-     "date": "2026-10-21T10:42:00+00:00"
+     "title": "העליות בתל אביב מתחזקות לקראת החלטת הריבית; מדד הבנייה קופץ",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560178",
+     "date": "2026-10-21T12:00:00+00:00"
     },
     {
      "title": "הטייס התגלה כתומך המשטר באיראן וחיזבאללה, המוסד התערב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560257",
-     "date": "2026-10-21T09:12:00+00:00"
+     "date": "2026-10-21T11:32:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בתל אביב; תומר מזון צוללת לאחר שחזרה להיסחר",
+     "title": "העליות בתל אביב מתחזקות לקראת החלטת הריבית; מדד הבנייה קופץ",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560178",
-     "date": "2026-10-21T10:53:00+00:00"
+     "date": "2026-10-21T12:00:00+00:00"
+    },
+    {
+     "title": "כפי שנחשף בגלובס: רשות שוק ההון עוצרת את התגמול ליועצי המשכנתאות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560317",
+     "date": "2026-10-21T11:35:00+00:00"
+    },
+    {
+     "title": "אחרי שפרעה את החוב לנושים המתנגדים, פרטנר תוכל לחלק דיבידנד מיוחד של 500 מיליון שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560319",
+     "date": "2026-10-21T11:27:00+00:00"
+    },
+    {
+     "title": "יציבות בחוזים בניו יורק; SpaceX מזנקת במסחר המוקדם, נטפליקס נופלת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560243",
+     "date": "2026-10-21T10:58:00+00:00"
+    },
+    {
+     "title": "מפעל בינה מלאכותית יוקם בתוך שבועיים? ההבטחה החדשה של אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560277",
+     "date": "2026-10-21T10:56:00+00:00"
     },
     {
      "title": "מצמצמים חשיפה לתחום הטכנולוגיה? אלו מניות עליהן ממליצים בגולדמן זאקס",
@@ -112,11 +132,6 @@ window.DB.generated = {
      "title": "קן גריפין: \"כמעט בוודאות\" שאנחנו בתוך בועת AI",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560267",
      "date": "2026-10-21T10:21:00+00:00"
-    },
-    {
-     "title": "מחיר המהומות: תשואת אג\"ח ממשלת צרפת מזנקת לשיא של 24 שנים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560243",
-     "date": "2026-10-21T09:31:00+00:00"
     },
     {
      "title": "המדינה המוסלמית שאוסרת את השימוש בווייז בגלל \"קשרים לישראל\"",
@@ -194,25 +209,15 @@ window.DB.generated = {
      "date": "2026-10-20T18:00:00+00:00"
     },
     {
-     "title": "בירת האופנה של אירופה בכוננות ביזה: ורסצ'ה ולואי ויטון מרוקנים חלונות ראווה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560170",
-     "date": "2026-10-20T16:15:00+00:00"
-    },
-    {
      "title": "נעילה חיובית בתל אביב: סקטור הבנייה קפץ, השבבים הכבידו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560060",
      "date": "2026-10-20T14:42:00+00:00"
-    },
-    {
-     "title": "המניה שצללה ב-32% ביום הראשון שלה, והפילה את בורסת סיאול",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560129",
-     "date": "2026-10-20T11:54:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T11:17:22+00:00",
-  "fetched_at": "2026-10-21T11:17:22+00:00"
+  "checked_at": "2026-10-21T12:17:22+00:00",
+  "fetched_at": "2026-10-21T12:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T11:17:24+00:00",
-  "fetched_at": "2026-10-21T11:17:24+00:00"
+  "checked_at": "2026-10-21T12:17:23+00:00",
+  "fetched_at": "2026-10-21T12:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2759,8 +2764,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T11:17:26+00:00",
-  "fetched_at": "2026-10-21T11:17:26+00:00"
+  "checked_at": "2026-10-21T12:17:24+00:00",
+  "fetched_at": "2026-10-21T12:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2936,8 +2941,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T11:17:26+00:00",
-  "fetched_at": "2026-10-21T11:17:26+00:00"
+  "checked_at": "2026-10-21T12:17:24+00:00",
+  "fetched_at": "2026-10-21T12:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2968,35 +2973,35 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 750,
+     "likes": 751,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 150,
+     "likes": 151,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
-    },
-    {
-     "title": "Jev Decision Index",
-     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
-     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 758,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
+    },
+    {
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 759,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 112,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
@@ -3010,7 +3015,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3037,8 +3042,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T11:17:35+00:00",
-  "fetched_at": "2026-10-21T11:17:35+00:00"
+  "checked_at": "2026-10-21T12:17:29+00:00",
+  "fetched_at": "2026-10-21T12:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -3335,8 +3340,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T11:17:30+00:00",
-  "fetched_at": "2026-10-21T11:17:30+00:00"
+  "checked_at": "2026-10-21T12:17:26+00:00",
+  "fetched_at": "2026-10-21T12:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3366,8 +3371,9 @@ window.DB.generated = {
     "date": "2026-10-19T18:11:38+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-21T11:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-21T12:17:26+00:00",
   "fetched_at": "2026-10-21T11:17:31+00:00"
  },
  "feed_health": {
@@ -3375,44 +3381,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-21T10:58:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T12:06:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-21T10:53:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T12:00:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-21T10:35:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T10:58:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-21T10:00:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-21T11:07:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T11:50:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-21T10:17:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T11:58:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-21T11:06:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T12:03:00+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3424,34 +3430,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-21T11:16:05+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-21T11:00:00+00:00",
-    "seen_at": "2026-10-21T11:17:41+00:00",
+    "newest": "2026-10-21T11:36:25+00:00",
+    "seen_at": "2026-10-21T12:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-21T11:17:41+00:00"
+  "checked_at": "2026-10-21T12:17:34+00:00"
  }
 };
