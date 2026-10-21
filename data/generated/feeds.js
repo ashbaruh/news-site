@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-21T10:17:27+00:00",
-  "fetched_at": "2026-10-21T10:17:27+00:00"
+  "checked_at": "2026-10-21T11:17:21+00:00",
+  "fetched_at": "2026-10-21T11:17:21+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "10-Year-Old Dog Found after a Month Lost in Yellowstone",
+    "title_he": "כלב בן 10 נמצא אחרי חודש שאבד בילוסטון",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/10-year-old-dog-found-month-lost-in-yellowstone/",
+    "date": "2026-10-21T11:00:41+00:00"
+   },
    {
     "title_en": "Tiny Black Cat Stuck in Car Engine Brings Unexpected Joy to Couple With Halloween Wedding Anniversary",
     "title_he": "חתול שחור קטנטן תקוע במנוע מכונית מביא שמחה בלתי צפויה לזוג עם יום נישואי ליל כל הקדושים",
@@ -34,21 +41,28 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
     "date": "2026-10-16T11:00:30+00:00"
-   },
-   {
-    "title_en": "Giant Tortoise Population is Thriving–Survey Finds 180,000 on One Island Chain",
-    "title_he": "אוכלוסיית הצב הענק משגשגת - סקר מוצא 180,000 בשרשרת האי האחד",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
-    "date": "2026-10-11T16:11:41+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T10:17:35+00:00",
-  "fetched_at": "2026-10-21T10:17:35+00:00"
+  "checked_at": "2026-10-21T11:17:39+00:00",
+  "fetched_at": "2026-10-21T11:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Bayern Munich vs Arsenal: live stream Champions League 2026/27 game for free from anywhere",
+    "title_he": "איך לצפות באיירן מינכן נגד ארסנל: שידור חי משחק ליגת האלופות 2026/27 בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/bayern-munich-vs-arsenal-champions-league-2026-27-free",
+    "date": "2026-10-21T11:00:00+00:00"
+   },
+   {
+    "title_en": "Esoteric’s high-end CD player is filled with flagship tech to give your discs the royal treatment",
+    "title_he": "נגן התקליטורים היוקרתי של Esoteric מלא בטכנולוגיית דגל כדי להעניק לדיסקים שלך את היחס המלכותי",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/cd-players/esoterics-high-end-cd-player-is-filled-with-flagship-tech-to-give-your-discs-the-royal-treatment",
+    "date": "2026-10-21T10:16:00+00:00"
+   },
    {
     "title_en": "Spotify is clamping down on Family account sharing – but users are already finding workarounds",
     "title_he": "ספוטיפיי מתכווצת בשיתוף חשבון משפחתי – אבל משתמשים כבר מוצאים פתרונות",
@@ -57,51 +71,47 @@ window.DB.generated = {
     "date": "2026-10-21T10:09:51+00:00"
    },
    {
-    "title_en": "\"It's not our job to fix a bad recording\" – Goldmund's brutal pursuit of honest sound, according to its head of acoustics",
-    "title_he": "\"זה לא התפקיד שלנו לתקן הקלטה גרועה\" - המרדף האכזרי של גולדמונד אחר סאונד ישר, על פי ראש האקוסטיקה שלה",
+    "title_en": "\"It's not our job to fix a bad recording\" – the honest truth about high-end hi-fi",
+    "title_he": "\"זה לא התפקיד שלנו לתקן הקלטה גרועה\" - האמת הכנה על ה-hi-fi ברמה גבוהה",
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/its-not-our-job-to-fix-a-bad-recording-goldmunds-brutal-pursuit-of-honest-sound-according-to-its-head-of-acoustics",
     "date": "2026-10-21T07:22:37+00:00"
-   },
-   {
-    "title_en": "Bluesound owners just got a free Apple Music upgrade",
-    "title_he": "בעלי Bluesound קיבלו זה עתה שדרוג חינם של Apple Music",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/bluesound-owners-just-got-a-free-apple-music-upgrade",
-    "date": "2026-10-20T14:06:21+00:00"
-   },
-   {
-    "title_en": "Apple AirPods 5 with Wireless Charging Case",
-    "title_he": "Apple AirPods 5 עם נרתיק טעינה אלחוטי",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/apple-airpods-5-with-wireless-charging-case",
-    "date": "2026-10-20T13:34:32+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T10:17:36+00:00",
-  "fetched_at": "2026-10-21T10:17:36+00:00"
+  "checked_at": "2026-10-21T11:17:41+00:00",
+  "fetched_at": "2026-10-21T11:17:41+00:00"
  },
- "generated_at": "2026-10-21T10:17:36+00:00",
+ "generated_at": "2026-10-21T11:17:41+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שפיר הנדסה יצרה עושר דמיוני של 10 מיליארד שקל לאחים שפירא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560202",
-     "date": "2026-10-21T08:03:00+00:00"
+     "title": "מבחירות לבחירות: הבטחות הנדל\"ן שלא יורדות מהפרק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560224",
+     "date": "2026-10-21T10:42:00+00:00"
     },
     {
-     "title": "הפערים הגדולים במאמצי התיווך מול איראן: \"אין תזוזה\"",
+     "title": "הטייס התגלה כתומך המשטר באיראן וחיזבאללה, המוסד התערב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560257",
-     "date": "2026-10-21T08:38:00+00:00"
+     "date": "2026-10-21T09:12:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בתל אביב; מניות הביטוח עולות, הביטחוניות יורדות",
+     "title": "מגמה מעורבת בתל אביב; תומר מזון צוללת לאחר שחזרה להיסחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560178",
-     "date": "2026-10-21T09:31:00+00:00"
+     "date": "2026-10-21T10:53:00+00:00"
+    },
+    {
+     "title": "מצמצמים חשיפה לתחום הטכנולוגיה? אלו מניות עליהן ממליצים בגולדמן זאקס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560123",
+     "date": "2026-10-21T10:35:00+00:00"
+    },
+    {
+     "title": "קן גריפין: \"כמעט בוודאות\" שאנחנו בתוך בועת AI",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560267",
+     "date": "2026-10-21T10:21:00+00:00"
     },
     {
      "title": "מחיר המהומות: תשואת אג\"ח ממשלת צרפת מזנקת לשיא של 24 שנים",
@@ -197,22 +207,12 @@ window.DB.generated = {
      "title": "המניה שצללה ב-32% ביום הראשון שלה, והפילה את בורסת סיאול",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560129",
      "date": "2026-10-20T11:54:00+00:00"
-    },
-    {
-     "title": "יותר מ-100 מיליון דולר: העסקה שנרקמת בין רפאל ומספנות ישראל לקפריסין",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560119",
-     "date": "2026-10-20T09:12:00+00:00"
-    },
-    {
-     "title": "מנהל ההשקעות שמזהיר: \"רמת הסיכון קפצה, השוק מראה סימנים של קזינו\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560070",
-     "date": "2026-10-20T08:07:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T10:17:28+00:00",
-  "fetched_at": "2026-10-21T10:17:28+00:00"
+  "checked_at": "2026-10-21T11:17:22+00:00",
+  "fetched_at": "2026-10-21T11:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T10:17:28+00:00",
-  "fetched_at": "2026-10-21T10:17:28+00:00"
+  "checked_at": "2026-10-21T11:17:24+00:00",
+  "fetched_at": "2026-10-21T11:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2381,13 +2381,6 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-24",
-    "time": "18:15",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "טולוז - טרואה"
-   },
-   {
-    "date": "2026-10-24",
     "time": "18:45",
     "channel": "ספורט 4",
     "sport": "כדורגל",
@@ -2626,6 +2619,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-25",
+    "time": "18:15",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "טולוז - טרואה"
+   },
+   {
+    "date": "2026-10-25",
     "time": "18:30",
     "channel": "ספורט 1",
     "sport": "כדורגל",
@@ -2759,8 +2759,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T10:17:29+00:00",
-  "fetched_at": "2026-10-21T10:17:29+00:00"
+  "checked_at": "2026-10-21T11:17:26+00:00",
+  "fetched_at": "2026-10-21T11:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2936,18 +2936,18 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T10:17:29+00:00",
-  "fetched_at": "2026-10-21T10:17:29+00:00"
+  "checked_at": "2026-10-21T11:17:26+00:00",
+  "fetched_at": "2026-10-21T11:17:26+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/google-upgrades-gemini-with-personal-intelligence-on-android-auto/",
-     "date": "2026-10-21T06:48:34+00:00",
+     "link": "https://www.geektime.co.il/multi-agent-vs-single-agent-fintech-compliance/",
+     "date": "2026-10-21T11:16:05+00:00",
      "launch": false,
-     "title": "גוגל משדרגת את ג'מיני AI באנדרואיד אוטו עם יכולות חדשות"
+     "title": "תסמונת הסטארטרק ו-2 המלכודות של ארגונים בהטמעת סוכני AI"
     },
     {
      "source": "Google",
@@ -2959,7 +2959,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 9,
    "failed_sources": [
     "Anthropic"
    ],
@@ -2975,22 +2975,22 @@ window.DB.generated = {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 147,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
-    },
-    {
-     "title": "MOSS-Image Workflow",
-     "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
-     "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 115,
-     "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 754,
+     "likes": 758,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "MOSS-Image Workflow",
+     "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
+     "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
+     "likes": 116,
+     "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
      "title": "Drama 3",
@@ -3003,14 +3003,14 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 179,
+     "likes": 180,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 123,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3037,12 +3037,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T10:17:35+00:00",
-  "fetched_at": "2026-10-21T10:17:35+00:00"
+  "checked_at": "2026-10-21T11:17:35+00:00",
+  "fetched_at": "2026-10-21T11:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בהולנד סימנו: כך אוסקר גלוך יכול להכאיב לאטאלנטה",
+     "link": "https://sports.walla.co.il/item/3873196",
+     "date": "2026-10-21T11:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "נטע לביא כבש את שערו השני העונה במאצ'ידה",
+     "link": "https://www.one.co.il/Article/536635.html?ref=rss",
+     "date": "2026-10-21T10:55:00+00:00",
+     "source": "ONE",
+     "players": [
+      "נטע לביא"
+     ]
+    },
     {
      "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
      "link": "https://sports.walla.co.il/item/3873071",
@@ -3317,8 +3335,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T10:17:32+00:00",
-  "fetched_at": "2026-10-21T10:17:32+00:00"
+  "checked_at": "2026-10-21T11:17:30+00:00",
+  "fetched_at": "2026-10-21T11:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3349,91 +3367,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T10:17:32+00:00",
-  "fetched_at": "2026-10-21T10:17:32+00:00"
+  "checked_at": "2026-10-21T11:17:31+00:00",
+  "fetched_at": "2026-10-21T11:17:31+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-21T09:59:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T10:58:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-21T09:31:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T10:53:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-21T09:31:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T10:35:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-21T10:00:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-21T09:47:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T11:07:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-21T09:23:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T10:17:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-21T10:05:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T11:06:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-21T08:52:17+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-21T09:14:22+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T11:16:05+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-10-18T20:32:45+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T11:00:41+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-21T10:09:51+00:00",
-    "seen_at": "2026-10-21T10:17:36+00:00",
+    "newest": "2026-10-21T11:00:00+00:00",
+    "seen_at": "2026-10-21T11:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-21T10:17:36+00:00"
+  "checked_at": "2026-10-21T11:17:41+00:00"
  }
 };
