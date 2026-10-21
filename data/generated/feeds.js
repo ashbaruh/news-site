@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-21T15:20:15+00:00",
-  "fetched_at": "2026-10-21T15:20:15+00:00"
+  "checked_at": "2026-10-21T16:17:10+00:00",
+  "fetched_at": "2026-10-21T16:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T15:20:28+00:00",
-  "fetched_at": "2026-10-21T15:20:28+00:00"
+  "checked_at": "2026-10-21T16:17:20+00:00",
+  "fetched_at": "2026-10-21T16:17:20+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "LG is adding new features to this Dolby Atmos soundbar system – but it doesn’t solve our main issue",
+    "title_he": "LG מוסיפה תכונות חדשות למערכת סרגל הקול של Dolby Atmos - אבל זה לא פותר את הבעיה העיקרית שלנו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/lg-is-adding-new-features-to-this-dolby-atmos-soundbar-system-but-it-doesnt-solve-our-main-issue",
+    "date": "2026-10-21T16:01:29+00:00"
+   },
+   {
+    "title_en": "This Dolby Atmos soundbar system just won a What Hi-Fi? Award – and now it’s £713 off",
+    "title_he": "מערכת הקול הזו של Dolby Atmos זכתה זה עתה ב-What Hi-Fi? פרס - ועכשיו זה 713 פאונד הנחה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-dolby-atmos-soundbar-system-just-won-a-what-hi-fi-award-and-now-its-gbp713-off",
+    "date": "2026-10-21T15:38:44+00:00"
+   },
    {
     "title_en": "Bose QuietComfort Headphones (2nd Gen) vs Sennheiser Momentum 5 Wireless: what are the differences?",
     "title_he": "אוזניות Bose QuietComfort (דור שני) לעומת Sennheiser Momentum 5 Wireless: מה ההבדלים?",
@@ -62,27 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/new-issue-of-what-hi-fi-out-now-super-standalone-streaming-systems-tempting-turntable-cartridges-and-more",
     "date": "2026-10-21T14:29:07+00:00"
-   },
-   {
-    "title_en": "Bose QuietComfort Headphones (2nd Gen)",
-    "title_he": "אוזניות Bose QuietComfort (דור שני)",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/bose-quietcomfort-headphones-2nd-gen",
-    "date": "2026-10-21T13:57:02+00:00"
-   },
-   {
-    "title_en": "Technics’ new turntable was designed with help from DJs and sound engineers",
-    "title_he": "הפטיפון החדש של Technics עוצב בעזרת תקליטנים ומהנדסי סאונד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/turntables/technics-new-turntable-was-designed-with-help-from-djs-and-sound-engineers",
-    "date": "2026-10-21T11:36:25+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T15:20:28+00:00",
-  "fetched_at": "2026-10-21T15:20:28+00:00"
+  "checked_at": "2026-10-21T16:17:22+00:00",
+  "fetched_at": "2026-10-21T16:17:22+00:00"
  },
- "generated_at": "2026-10-21T15:20:28+00:00",
+ "generated_at": "2026-10-21T16:17:22+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-21T15:10:00+00:00"
     },
     {
-     "title": "הטייס התגלה כתומך המשטר באיראן וחיזבאללה, המוסד התערב",
+     "title": "נתניהו: \"איראן מנסה שוב לפתח את פצצות המוות\"; גורם ביטחוני: לא מכירים את הדברים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560257",
-     "date": "2026-10-21T15:17:00+00:00"
+     "date": "2026-10-21T16:05:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T15:20:16+00:00",
-  "fetched_at": "2026-10-21T15:20:16+00:00"
+  "checked_at": "2026-10-21T16:17:11+00:00",
+  "fetched_at": "2026-10-21T16:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T15:20:17+00:00",
-  "fetched_at": "2026-10-21T15:20:17+00:00"
+  "checked_at": "2026-10-21T16:17:12+00:00",
+  "fetched_at": "2026-10-21T16:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2769,8 +2769,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T15:20:20+00:00",
-  "fetched_at": "2026-10-21T15:20:20+00:00"
+  "checked_at": "2026-10-21T16:17:14+00:00",
+  "fetched_at": "2026-10-21T16:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2946,8 +2946,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T15:20:20+00:00",
-  "fetched_at": "2026-10-21T15:20:20+00:00"
+  "checked_at": "2026-10-21T16:17:14+00:00",
+  "fetched_at": "2026-10-21T16:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2978,7 +2978,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 759,
+     "likes": 764,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3013,14 +3013,14 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 183,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 132,
+     "likes": 133,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3047,8 +3047,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-21T15:20:28+00:00",
-  "fetched_at": "2026-10-21T15:20:28+00:00"
+  "checked_at": "2026-10-21T16:17:19+00:00",
+  "fetched_at": "2026-10-21T16:17:19+00:00"
  },
  "abroad": {
   "data": {
@@ -3353,8 +3353,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-21T15:20:23+00:00",
-  "fetched_at": "2026-10-21T15:20:23+00:00"
+  "checked_at": "2026-10-21T16:17:16+00:00",
+  "fetched_at": "2026-10-21T16:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3385,91 +3385,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-21T15:20:24+00:00",
-  "fetched_at": "2026-10-21T15:20:24+00:00"
+  "checked_at": "2026-10-21T16:17:17+00:00",
+  "fetched_at": "2026-10-21T16:17:17+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-21T15:17:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T16:05:00+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-21T14:44:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-21T14:29:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-21T10:00:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-21T14:40:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T15:30:00+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-21T15:04:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T15:42:00+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-21T15:06:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T16:00:00+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-21T13:16:14+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-21T14:06:34+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T16:11:36+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-21T14:34:27+00:00",
-    "seen_at": "2026-10-21T15:20:28+00:00",
+    "newest": "2026-10-21T16:01:29+00:00",
+    "seen_at": "2026-10-21T16:17:22+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-21T15:20:28+00:00"
+  "checked_at": "2026-10-21T16:17:22+00:00"
  }
 };
