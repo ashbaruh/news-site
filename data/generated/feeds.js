@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-22T06:17:16+00:00",
-  "fetched_at": "2026-10-22T06:17:16+00:00"
+  "checked_at": "2026-10-22T06:37:38+00:00",
+  "fetched_at": "2026-10-22T06:37:38+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T06:17:29+00:00",
-  "fetched_at": "2026-10-22T06:17:29+00:00"
+  "checked_at": "2026-10-22T06:37:51+00:00",
+  "fetched_at": "2026-10-22T06:37:51+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T06:17:29+00:00",
-  "fetched_at": "2026-10-22T06:17:29+00:00"
+  "checked_at": "2026-10-22T06:37:52+00:00",
+  "fetched_at": "2026-10-22T06:37:52+00:00"
  },
- "generated_at": "2026-10-22T06:17:29+00:00",
+ "generated_at": "2026-10-22T06:37:52+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T06:17:17+00:00",
-  "fetched_at": "2026-10-22T06:17:17+00:00"
+  "checked_at": "2026-10-22T06:37:39+00:00",
+  "fetched_at": "2026-10-22T06:37:39+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T06:17:18+00:00",
-  "fetched_at": "2026-10-22T06:17:18+00:00"
+  "checked_at": "2026-10-22T06:37:40+00:00",
+  "fetched_at": "2026-10-22T06:37:40+00:00"
  },
  "tv": {
   "data": [
@@ -1930,6 +1930,13 @@ window.DB.generated = {
     "time": "18:10",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
+    "title": "הפועל קטמון ירושלים - הפועל תל אביב"
+   },
+   {
+    "date": "2026-10-22",
+    "time": "18:10",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
     "title": "מ.ס קרית גת - מכבי אס\"א תל אביב"
    },
    {
@@ -1945,13 +1952,6 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "הפועל רעננה - מכבי כשרונות חדרה"
-   },
-   {
-    "date": "2026-10-22",
-    "time": "18:10",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "הפועל קטמון ירושלים - הפועל תל אביב"
    },
    {
     "date": "2026-10-22",
@@ -2214,6 +2214,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-24",
+    "time": "12:40",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי פתח תקווה - הפועל תל אביב"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "12:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי חיפה - בית\"ר ירושלים"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "12:50",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי תל אביב - הפועל חיפה"
+   },
+   {
+    "date": "2026-10-24",
     "time": "14:00",
     "channel": "ספורט 4",
     "sport": "כדורגל",
@@ -2239,6 +2260,13 @@ window.DB.generated = {
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "טוטנהאם נשים - ארסנל נשים"
+   },
+   {
+    "date": "2026-10-24",
+    "time": "15:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "דיז'ון - רודה אביירון"
    },
    {
     "date": "2026-10-24",
@@ -2669,8 +2697,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T06:17:19+00:00",
-  "fetched_at": "2026-10-22T06:17:19+00:00"
+  "checked_at": "2026-10-22T06:37:42+00:00",
+  "fetched_at": "2026-10-22T06:37:42+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2691,6 +2719,16 @@ window.DB.generated = {
     "עירוני ק\"ש"
    ],
    "upcoming": [
+    {
+     "date": "2026-10-24",
+     "time": "12:50",
+     "home": "מכבי ת\"א",
+     "away": "הפועל חיפה",
+     "channels": [
+      "ספורט 5",
+      "ספורט 2"
+     ]
+    },
     {
      "date": "2026-10-24",
      "time": "18:45",
@@ -2725,15 +2763,6 @@ window.DB.generated = {
      "away": "מכבי פ\"ת",
      "channels": [
       "5 סטארס"
-     ]
-    },
-    {
-     "date": "2026-10-24",
-     "time": "19:30",
-     "home": "מכבי ת\"א",
-     "away": "הפועל חיפה",
-     "channels": [
-      "ספורט 2"
      ]
     },
     {
@@ -2826,15 +2855,15 @@ window.DB.generated = {
      "date": "2026-10-22",
      "time": "18:10",
      "channel": "ספורט 5+",
-     "israeli_team": "מכבי נתניה",
-     "title": "מכבי חולון - בנות נתניה"
+     "israeli_team": "הפועל ת\"א",
+     "title": "הפועל קטמון ירושלים - הפועל תל אביב"
     },
     {
      "date": "2026-10-22",
      "time": "18:10",
      "channel": "ספורט 5+",
-     "israeli_team": "הפועל ת\"א",
-     "title": "הפועל קטמון ירושלים - הפועל תל אביב"
+     "israeli_team": "מכבי נתניה",
+     "title": "מכבי חולון - בנות נתניה"
     },
     {
      "date": "2026-10-22",
@@ -2846,8 +2875,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T06:17:19+00:00",
-  "fetched_at": "2026-10-22T06:17:19+00:00"
+  "checked_at": "2026-10-22T06:37:42+00:00",
+  "fetched_at": "2026-10-22T06:37:42+00:00"
  },
  "ai": {
   "data": {
@@ -2871,50 +2900,49 @@ window.DB.generated = {
    ],
    "candidates": 12,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 797,
+     "likes": 799,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 170,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 127,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 770,
+     "likes": 771,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 198,
+     "likes": 199,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -2942,14 +2970,14 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 317,
+     "likes": 318,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T06:17:28+00:00",
-  "fetched_at": "2026-10-22T06:17:28+00:00"
+  "checked_at": "2026-10-22T06:37:50+00:00",
+  "fetched_at": "2026-10-22T06:37:50+00:00"
  },
  "abroad": {
   "data": {
@@ -3290,8 +3318,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-22T06:17:23+00:00",
-  "fetched_at": "2026-10-22T06:17:23+00:00"
+  "checked_at": "2026-10-22T06:37:46+00:00",
+  "fetched_at": "2026-10-22T06:37:46+00:00"
  },
  "idf": {
   "data": [
@@ -3322,8 +3350,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T06:17:24+00:00",
-  "fetched_at": "2026-10-22T06:17:24+00:00"
+  "checked_at": "2026-10-22T06:37:47+00:00",
+  "fetched_at": "2026-10-22T06:37:47+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3331,82 +3359,82 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-22T05:24:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-22T05:10:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-22T04:46:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-21T17:37:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-22T04:38:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-22T06:02:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "newest": "2026-10-22T06:23:00+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-22T06:00:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "newest": "2026-10-22T06:27:00+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-21T13:16:14+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-15T16:08:03+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-21T16:11:36+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-22T02:14:17+00:00",
-    "seen_at": "2026-10-22T06:17:29+00:00",
+    "seen_at": "2026-10-22T06:37:52+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-22T06:17:29+00:00"
+  "checked_at": "2026-10-22T06:37:52+00:00"
  }
 };
