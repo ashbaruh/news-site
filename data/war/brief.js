@@ -1,240 +1,257 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-21T18:00:00+03:00",
- "generated_at": "2026-10-21T14:40:13+00:00",
- "model": "gemini-3.7-flash",
+ "slot": "2026-10-22T04:00:00+03:00",
+ "generated_at": "2026-10-22T00:40:26+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10211440-01",
-     "title": "הצהרת ראש ממשלת ישראל בנוגע לתוכנית הגרעין האיראנית",
-     "summary": "ראש הממשלה בנימין נתניהו טען בטקס צבאי כי איראן מחדשת מאמצים בתחום הגרעין וקרא להפלת המשטר כדי להסיר את האיום.",
-     "axis": "ישראל - איראן",
-     "claim_type": "statement",
+     "id": "IRAN-10220040-01",
+     "title": "תקיפה אמריקאית באי סיריק",
+     "summary": "הכוחות האמריקאיים תקפו משגר טילים שהוצב באי סיריק שבאיראן.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T14:09:32+00:00",
+     "occurred_at": "2026-10-21T23:51:09+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T14:09:32+00:00",
-     "last_update_at": "2026-10-21T14:09:32+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לטענות המודיעיניות על פעילות הגרעין האיראנית.",
+     "first_reported_at": "2026-10-21T23:51:09+00:00",
+     "last_update_at": "2026-10-21T23:51:09+00:00",
+     "what_is_not_verified": "לא ידועים פרטים מלאים על היקף הנזק מעבר לעצם התקיפה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132311",
-       "published_at": "2026-10-21T14:09:32+00:00"
+       "url": "https://t.me/alexmehacarmel/48806",
+       "published_at": "2026-10-21T23:51:09+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10211440-02",
-     "title": "אזהרת שר החוץ האיראני לנשיא ארה\"ב",
-     "summary": "שר החוץ של איראן עבאס עראקצ'י הזהיר את נשיא ארצות הברית מפני תבוסה אסטרטגית והפסדים כבדים בעקבות איומיו.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "statement",
+     "id": "IRAN-10220040-02",
+     "title": "שיגור טילים בליסטיים לעבר מיצר הרמוז",
+     "summary": "דווח על שיגור טילים בליסטיים איראניים מהאי סיריק לכיוון מיצר הרמוז.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T14:11:11+00:00",
+     "occurred_at": "2026-10-21T21:19:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T14:11:11+00:00",
-     "last_update_at": "2026-10-21T14:11:11+00:00",
-     "what_is_not_verified": "ההצהרה משקפת עמדה רשמית איראנית.",
+     "first_reported_at": "2026-10-21T21:19:10+00:00",
+     "last_update_at": "2026-10-21T21:19:10+00:00",
+     "what_is_not_verified": "זהות הפגיעות או התוצאות המדויקות של השיגורים אינן מפורטות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_14bd47a57b34ffc5",
-       "url": "https://en.irna.ir/news/86299652/An-honorable-agreement-or-a-greater-strategic-defeat-Araghchi",
-       "published_at": "2026-10-21T14:11:11+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48800",
+       "published_at": "2026-10-21T21:19:10+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-10211440-03",
-     "title": "הודעת משמרות המהפכה על כוננות לפגיעה בתוקפנות",
-     "summary": "סגן לעניינים פוליטיים במשמרות המהפכה הצהיר על מוכנות מלאה של הכוחות החמושים להתמודד עם כל תוקפנות.",
-     "axis": "הזירה האיראנית",
-     "claim_type": "statement",
+     "id": "IRAN-10220040-03",
+     "title": "פגישה ראשונה בין יו\"ר הפרלמנט למנהיג העליון באיראן",
+     "summary": "יו\"ר הפרלמנט האיראני נפגש עם המנהיג העליון מוג'תבא ח'אמנאי, בפגישה ראשונה דווחת בין השניים.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T13:49:05+00:00",
+     "occurred_at": "2026-10-21T17:17:28+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T13:49:05+00:00",
-     "last_update_at": "2026-10-21T13:49:05+00:00",
-     "what_is_not_verified": "רמת המוכנות המבצעית של הכוחות לא אומתה מעבר להצהרה.",
+     "first_reported_at": "2026-10-21T17:17:28+00:00",
+     "last_update_at": "2026-10-21T17:17:28+00:00",
+     "what_is_not_verified": "תוכן השיחות המלא בין השניים אינו מפורט מעבר לעצם קיום הפגישה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_50efda6c9d6c8fbe",
-       "url": "https://en.irna.ir/news/86299630/Iran-armed-forces-fully-prepared-to-crush-any-aggression-IRGC",
-       "published_at": "2026-10-21T13:49:05+00:00"
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94736",
+       "published_at": "2026-10-21T17:17:28+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10211440-01",
-     "title": "שיחות בין נשיא סוריה לשליח האמריקני",
-     "summary": "נשיאות סוריה הודיעה על פגישה בין נשיא סוריה לשליח אמריקני שעסקה בהתפתחויות באזור ובסוריה ובתיאום ביטחוני.",
-     "axis": "סוריה - ארה\"ב",
-     "claim_type": "statement",
+     "id": "NORTH-10220040-01",
+     "title": "תקיפות והרס בדרום לבנון",
+     "summary": "כוחות ישראל ביצעו סדרת תקיפות אוויריות ופעולות הריסה נרחבות באמצעות חומרי נפץ באזורים שונים בדרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T13:35:49+00:00",
+     "occurred_at": "2026-10-21T22:30:49+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T13:35:49+00:00",
-     "last_update_at": "2026-10-21T13:35:49+00:00",
-     "what_is_not_verified": "פרטי השיחות וההסכמות המדויקות לא פורטו מעבר להודעת הנשיאות.",
+     "first_reported_at": "2026-10-21T22:30:49+00:00",
+     "last_update_at": "2026-10-21T22:30:49+00:00",
+     "what_is_not_verified": "היקף הנפגעים המלא אינו מפורט בדיווח.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_anadolu",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/-syrian-president-discusses-developments-in-syria-region-with-us-envoy/4096041",
-       "published_at": "2026-10-21T13:35:49+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-air-strikes-demolitions-across-southern-lebanon",
+       "published_at": "2026-10-21T22:30:49+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "כפר טבנית, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10211440-01",
-     "title": "פגישת פוטין עם השליח האמריקני ויטקוף",
-     "summary": "השליח המיוחד של ארצות הברית סטיב ויטקוף נועד בסנט פטרבורג עם נשיא רוסיה ולדימיר פוטין לדיון בנושא סיום המלחמה באוקראינה.",
-     "axis": "רוסיה - ארה\"ב",
+     "id": "UKRAINE-10220040-01",
+     "title": "תקיפת כטב\"מים באזור ליפצק",
+     "summary": "כטב\"מים אוקראינים תקפו בניין רב-קומות וגרמו לפיצוצים בעיר ליפצק שברוסיה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T00:00:00+00:00",
+     "occurred_at": "2026-10-21T23:06:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T10:37:06+00:00",
-     "last_update_at": "2026-10-21T14:36:05+00:00",
-     "what_is_not_verified": "תוכן המגעים המלא וההצעות שהועלו אינם מאומתים במלואם.",
+     "first_reported_at": "2026-10-21T23:06:40+00:00",
+     "last_update_at": "2026-10-21T23:46:05+00:00",
+     "what_is_not_verified": "מלוא היקף הנזק והנפגעים טרם פורטו במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48770",
-       "published_at": "2026-10-21T10:37:06+00:00"
+       "url": "https://t.me/alexmehacarmel/48803",
+       "published_at": "2026-10-21T23:06:40+00:00"
       },
       {
-       "source_id": "src_meduza",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/21/kremlin-says-it-s-ready-to-resume-trilateral-talks-but-sees-little-useful-in-new-proposals-from-ukraine-and-the-eu",
-       "published_at": "2026-10-21T14:36:05+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
-       "published_at": "2026-10-21T14:20:38+00:00"
+       "url": "https://kyivindependent.com/explosion-fires-reported-amid-overnight-ukrainian-drone-attack-on-lipetsk-russia/",
+       "published_at": "2026-10-21T23:46:05+00:00"
       }
      ],
      "places": [
       {
-       "name": "סנט פטרבורג, רוסיה",
-       "lat": 59.9387,
-       "lon": 30.3162
+       "name": "ליפצק, רוסיה",
+       "lat": 52.6051,
+       "lon": 39.5964
       }
      ]
     },
     {
-     "id": "UKRAINE-10211440-02",
-     "title": "שחרור אזרח אמריקני שנכלא ברוסיה",
-     "summary": "רוסיה שחררה את האזרח האמריקני סטיבן האברד שהוחזק במאסר בגין לחימה לצד אוקראינה, בעקבות פנייה של נשיא ארצות הברית.",
-     "axis": "רוסיה - ארה\"ב",
+     "id": "UKRAINE-10220040-02",
+     "title": "פגיעת טילים בליסטיים בקייב",
+     "summary": "טילים בליסטיים רוסיים פגעו במספר מוקדים בבירה קייב, מה שהוביל לפציעתם של שישה בני אדם ולנזק בתשתיות ובמבנים.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T11:56:01+00:00",
+     "occurred_at": "2026-10-21T22:22:41+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T11:56:01+00:00",
-     "last_update_at": "2026-10-21T14:32:55+00:00",
-     "what_is_not_verified": "תנאי השחרור והאם ניתנה תמורה כלשהי אינם מאומתים מעבר לדברי טראמפ.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48774",
-       "published_at": "2026-10-21T11:56:01+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
-       "published_at": "2026-10-21T14:32:55+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10211440-03",
-     "title": "התרסקות מטוס קרב רוסי במהלך אימון",
-     "summary": "משרד ההגנה הרוסי הודיע כי מטוס קרב מדגם סוחוי 30 התרסק במחוז קלינינגרד במהלך טיסת אימונים, והצוות חולץ.",
-     "axis": "רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-21T14:12:04+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-21T14:12:04+00:00",
-     "last_update_at": "2026-10-21T14:12:04+00:00",
-     "what_is_not_verified": "מצבם הרפואי של אנשי הצוות וסיבת ההתרסקות לא פורטו.",
+     "first_reported_at": "2026-10-21T22:22:41+00:00",
+     "last_update_at": "2026-10-21T22:22:41+00:00",
+     "what_is_not_verified": "חומרת הפציעות המדויקת של הפצועים אינה מפורטת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
-       "published_at": "2026-10-21T14:12:04+00:00"
+       "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+       "published_at": "2026-10-21T22:22:41+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10220040-03",
+     "title": "שחרור אסיר אמריקאי ברוסיה",
+     "summary": "נשיא רוסיה ולדימיר פוטין הורה על שחרורו של אזרח אמריקאי שהוחזק בכלא רוסי, לבקשת ארצות הברית.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T21:23:37+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-21T21:23:37+00:00",
+     "last_update_at": "2026-10-21T21:23:37+00:00",
+     "what_is_not_verified": "ההסכמות המלאות מאחורי שחרור האסיר אינן מפורטות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+       "published_at": "2026-10-21T21:23:37+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סנקט פטרבורג, רוסיה",
+       "lat": 59.9387,
+       "lon": 30.3162
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10211440-01",
-     "title": "ביקור נשיא צרפת בריאד",
-     "summary": "נשיא צרפת עמנואל מקרון הגיע לביקור פתע בריאד כדי להביע תמיכה בסעודיה על רקע הגברת תקיפות החות'ים.",
-     "axis": "צרפת - סעודיה",
+     "id": "YEMEN-10220040-01",
+     "title": "יירוט כטב\"מים מעל המחוז המזרחי בסעודיה",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה שמערכות ההגנה האווירית ירטו והשמידו ארבעה כטב\"מים במחוז המזרחי של המדינה.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T14:30:22+00:00",
+     "occurred_at": "2026-10-21T22:38:35+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T14:30:22+00:00",
-     "last_update_at": "2026-10-21T14:30:22+00:00",
-     "what_is_not_verified": "פרטי השיחות וההסכמים בנושאי דלק ונפט אינם מאומתים במלואם.",
+     "first_reported_at": "2026-10-21T22:38:35+00:00",
+     "last_update_at": "2026-10-21T22:38:35+00:00",
+     "what_is_not_verified": "זהות הגורם המדויק ששיגר את הכלים לא צוינה מעבר להקשר הכללי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/frances-macron-lands-riyadh-surprise-solidarity-visit",
-       "published_at": "2026-10-21T14:30:22+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_5c1f470d6fa3c971",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern",
+       "published_at": "2026-10-21T22:38:35+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10220040-02",
+     "title": "הוראת ארה\"ב לפינוי דיפלומטי מסעודיה",
+     "summary": "מחלקת המדינה של ארה\"ב הורתה לחלק מאנשי הסגל הדיפלומטי ובני משפחותיהם לעזוב את סעודיה על רקע מתקפות החות'ים.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-21T20:33:08+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-21T20:33:08+00:00",
+     "last_update_at": "2026-10-21T20:33:08+00:00",
+     "what_is_not_verified": "היקף העובדים הכולל שיתפנה מכלל נציגויות המפרץ אינו סופי לחלוטין.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_1fb38203158ce5df",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-says-departure-orders-embassy-staff-saudi-arabia",
+       "published_at": "2026-10-21T20:33:08+00:00"
       }
      ],
      "places": [
@@ -246,59 +263,24 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "YEMEN-10211440-02",
-     "title": "החרפת המצור והמשבר ההומניטרי בתעז",
-     "summary": "ארגוני סיוע דיווחו כי התקדמות כוחות החות'ים והלחימה הגוברת סביב תעז ניתקו צירי אספקה והביאו למחסור חמור במים ומזון.",
-     "axis": "הזירה הפנים-תימנית",
+     "id": "YEMEN-10220040-03",
+     "title": "פגז חות'י פגע בבית בעיר תעז",
+     "summary": "פגז ששיגרו החות'ים פגע בבית מגורים באזור סבר אל-מואדם שבדרום תעז, וכתוצאה מכך נפצעו שישה בני אדם ממשפחה אחת.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T11:46:30+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-21T11:46:30+00:00",
-     "last_update_at": "2026-10-21T14:24:02+00:00",
-     "what_is_not_verified": "היקף הנפגעים המדויק ורמת האספקה שנותרה בעיר אינם ניתנים לאימות עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
-       "published_at": "2026-10-21T14:24:02+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/water-rationing-rubbish-pile-raise-disease-fears-yemens-besieged-taiz",
-       "published_at": "2026-10-21T11:46:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10211440-03",
-     "title": "תקיפות חות'יות לעבר יעדי הקואליציה בהובלת סעודיה",
-     "summary": "החות'ים ביצעו תקיפות נגד מטרות של הקואליציה הסעודית בטענה לתגובה על הריגת דייגים במימי מחוז תעז.",
-     "axis": "סעודיה - תימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-20T00:00:00+00:00",
+     "occurred_at": "2026-10-21T20:01:02+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T11:12:17+00:00",
-     "last_update_at": "2026-10-21T11:12:17+00:00",
-     "what_is_not_verified": "טענת החות'ים לגבי הריגת שמונה דייגים בידי סעודיה אינה מאומתת.",
+     "first_reported_at": "2026-10-21T20:01:02+00:00",
+     "last_update_at": "2026-10-21T20:01:02+00:00",
+     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים אינו מפורט מעבר לעצם הפציעה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/yemen-houthis-strikes-saudi-led-coalition-targets-kingdom-killed-fishermen",
-       "published_at": "2026-10-21T11:12:17+00:00"
+       "url": "https://www.sabanew.net/viewstory/154413",
+       "published_at": "2026-10-21T20:01:02+00:00"
       }
      ],
      "places": [
