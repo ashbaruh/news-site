@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-22T04:17:17+00:00",
-  "fetched_at": "2026-10-22T04:17:17+00:00"
+  "checked_at": "2026-10-22T05:17:12+00:00",
+  "fetched_at": "2026-10-22T05:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T04:17:28+00:00",
-  "fetched_at": "2026-10-22T04:17:28+00:00"
+  "checked_at": "2026-10-22T05:17:25+00:00",
+  "fetched_at": "2026-10-22T05:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T04:17:28+00:00",
-  "fetched_at": "2026-10-22T04:17:28+00:00"
+  "checked_at": "2026-10-22T05:17:26+00:00",
+  "fetched_at": "2026-10-22T05:17:26+00:00"
  },
- "generated_at": "2026-10-22T04:17:28+00:00",
+ "generated_at": "2026-10-22T05:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -97,6 +97,16 @@
    ],
    "market": [
     {
+     "title": "לקוחה ראשונה במזרח הרחוק למערכת יירוט הרחפנים הישראלית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560412",
+     "date": "2026-10-22T04:46:00+00:00"
+    },
+    {
+     "title": "יו\"ר אלרון הודחה ע\"י שותפיה לשליטה ומאיימת בתביעה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560405",
+     "date": "2026-10-22T04:38:00+00:00"
+    },
+    {
      "title": "האופטימיות התחלפה בחשש: בורסות אסיה צוללות, החוזים בוול סטריט אדומים והנפט מזנק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560400",
      "date": "2026-10-22T03:58:00+00:00"
@@ -107,7 +117,7 @@
      "date": "2026-10-22T03:41:00+00:00"
     },
     {
-     "title": "למרות האיום הטורקי: יוון נערכת לחדש את פרויקט כבל החשמל לישראל",
+     "title": "הפרויקט שמקפיץ את טורקיה והקשר הישראלי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560345",
      "date": "2026-10-22T02:35:00+00:00"
     },
@@ -197,11 +207,6 @@
      "date": "2026-10-21T09:13:00+00:00"
     },
     {
-     "title": "שפיר הנדסה יצרה עושר דמיוני של 10 מיליארד שקל לאחים שפירא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560202",
-     "date": "2026-10-21T08:03:00+00:00"
-    },
-    {
      "title": "\"מצב חסר תקדים בצרפת\": קרפור חתכה את התחזית בגלל המהומות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560273",
      "date": "2026-10-21T07:55:00+00:00"
@@ -212,11 +217,6 @@
      "date": "2026-10-21T07:05:00+00:00"
     },
     {
-     "title": "הפסד נקי של 80 מיליארד דולר: נחשף התשקיף של אנתרופיק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560258",
-     "date": "2026-10-21T03:20:00+00:00"
-    },
-    {
      "title": "מטא מכה את התחזיות: ההכנסות זינקו ל-64.6 מיליארד דולר, המניה מטפסת במסחר המאוחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560146",
      "date": "2026-10-20T13:27:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T04:17:18+00:00",
-  "fetched_at": "2026-10-22T04:17:18+00:00"
+  "checked_at": "2026-10-22T05:17:13+00:00",
+  "fetched_at": "2026-10-22T05:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T04:17:19+00:00",
-  "fetched_at": "2026-10-22T04:17:19+00:00"
+  "checked_at": "2026-10-22T05:17:14+00:00",
+  "fetched_at": "2026-10-22T05:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2667,8 +2667,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T04:17:20+00:00",
-  "fetched_at": "2026-10-22T04:17:20+00:00"
+  "checked_at": "2026-10-22T05:17:15+00:00",
+  "fetched_at": "2026-10-22T05:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2844,8 +2844,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T04:17:20+00:00",
-  "fetched_at": "2026-10-22T04:17:20+00:00"
+  "checked_at": "2026-10-22T05:17:15+00:00",
+  "fetched_at": "2026-10-22T05:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2869,14 +2869,15 @@
    ],
    "candidates": 12,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 794,
+     "likes": 796,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2904,21 +2905,21 @@
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 197,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 140,
+     "likes": 141,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 118,
+     "likes": 119,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
@@ -2945,20 +2946,37 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-22T04:17:27+00:00",
-  "fetched_at": "2026-10-22T04:17:27+00:00"
+  "checked_at": "2026-10-22T05:17:24+00:00",
+  "fetched_at": "2026-10-22T05:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "שרף ו-וולף לא שותפו בהפסד לשארלוט, 33 לרנדל",
-     "link": "https://www.one.co.il/Article/536682.html?ref=rss",
-     "date": "2026-10-22T03:39:00+00:00",
+     "title": "השיא ההיסטורי אליו השתוו אבדיה ופורטלנד",
+     "link": "https://www.one.co.il/Article/536687.html?ref=rss",
+     "date": "2026-10-22T05:00:00+00:00",
      "source": "ONE",
      "players": [
-      "בן שרף",
-      "דני וולף"
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "18 נקודות לאבדיה, פורטלנד השפילה את פיניקס",
+     "link": "https://www.one.co.il/Article/536682.html?ref=rss",
+     "date": "2026-10-22T04:28:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "90 דקות לתאי בריבו בהפסד די.סי יונייטד 2:1",
+     "link": "https://www.one.co.il/Article/536684.html?ref=rss",
+     "date": "2026-10-22T04:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "תאי בריבו"
      ]
     },
     {
@@ -3270,8 +3288,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-22T04:17:23+00:00",
-  "fetched_at": "2026-10-22T04:17:23+00:00"
+  "checked_at": "2026-10-22T05:17:19+00:00",
+  "fetched_at": "2026-10-22T05:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3302,58 +3320,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-22T04:17:24+00:00",
-  "fetched_at": "2026-10-22T04:17:24+00:00"
+  "checked_at": "2026-10-22T05:17:20+00:00",
+  "fetched_at": "2026-10-22T05:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-22T03:58:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "newest": "2026-10-22T05:10:00+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-22T03:58:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "newest": "2026-10-22T04:38:00+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-22T03:58:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "newest": "2026-10-22T04:46:00+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-21T17:37:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-22T04:38:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-21T17:20:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-22T03:39:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "newest": "2026-10-22T05:00:00+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-21T13:16:14+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3365,28 +3383,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-21T16:11:36+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-22T02:14:17+00:00",
-    "seen_at": "2026-10-22T04:17:28+00:00",
+    "seen_at": "2026-10-22T05:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-22T04:17:28+00:00"
+  "checked_at": "2026-10-22T05:17:26+00:00"
  }
 }
