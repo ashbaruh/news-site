@@ -1,0 +1,345 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fdab5dade2d2",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 4,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-22T05:21:09+00:00",
+  "window": {
+   "from": "2026-10-21T05:21:09+00:00",
+   "to": "2026-10-22T05:21:09+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610220521"
+  },
+  "summary": "הזירה בתימן ומול סעודיה מאופיינת בהסלמה משמעותית, הכוללת תקיפות כטב\"מים וטילים של החות'ים לעבר תשתיות קריטיות ושדות תעופה בסעודיה, לצד לחימה פנימית עצימה בתימן סביב העיר טאעז. בתגובה לאיומים, ארה\"ב הורה על פינוי כוח אדם דיפלומטי לא חיוני מסעודיה, ומצרים הבהירה את מעורבותה ההגנתית. במקביל, מעצמות וגורמים אזוריים פועלים להבטחת חופש השיט והאנרגיה מול פעילות החות'ים.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה-החות'ים",
+    "status": "פעילה ומוסלמת"
+   },
+   {
+    "name": "חזית פנים תימן (טאעז)",
+    "status": "לחימה עצימה ומצור"
+   },
+   {
+    "name": "זירת הים האדום ובאב אל-מנדב",
+    "status": "מתוחה עם שיבושי שיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10220521-01",
+    "title": "הרוגים ופצועים בהפגזות חותיות בטאעז",
+    "summary": "הפגזות של החות'ים במחוז טאעז גרמו למותם של אזרחים ולפציעת אחרים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T03:55:04+00:00",
+    "last_update_at": "2026-10-22T03:55:04+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומצባቸው הרפואי אינם מאומתים מלבד ההודעה הרשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_af80530c188c9fdd",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-civilians-killed-houthi-attacks-yemens-taiz",
+      "published_at": "2026-10-22T03:55:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10220521-02",
+    "title": "הצהרה משותפת של סין וג'יבוטי על חופש השיט",
+    "summary": "סין וג'יבוטי פרסמו הצהרה המדגישה שכל המדינות צריכות ליהנות מחופש שיט בים האדום ובמצר באב אל-מנדב.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T00:46:26+00:00",
+    "last_update_at": "2026-10-22T00:46:26+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_bff05893d92c038f",
+      "url": "https://www.al-monitor.com/originals/2026/10/china-djibouti-say-all-countries-should-enjoy-freedom-navigation-red-sea",
+      "published_at": "2026-10-22T00:46:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בייג'ינג, סין",
+      "lat": 39.9057,
+      "lon": 116.3913
+     },
+     {
+      "name": "מצר באב אל-מנדב",
+      "lat": 12.5744,
+      "lon": 43.3128
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10220521-03",
+    "title": "הוראת פינוי לדיפלומטים אמריקנים בסעודיה",
+    "summary": "מחלקת המדינה של ארה\"ב הורה לעובדי שגרירות שאינם חיוניים ולבני משפחותיהם לעזוב את סעודיה עקב התקפות חותיות.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T20:33:08+00:00",
+    "last_update_at": "2026-10-22T00:26:50+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בשגרירות אינו מאומת לחלוטין מחוץ להודעות הרשמיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_054ba14e4a02193b",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "published_at": "2026-10-22T00:26:50+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_054ba14e4a02193b",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+      "published_at": "2026-10-21T23:13:35+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_054ba14e4a02193b",
+      "url": "https://www.al-monitor.com/originals/2026/10/washington-orders-us-embassy-staff-families-leave-saudi-arabia",
+      "published_at": "2026-10-21T21:30:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_054ba14e4a02193b",
+      "url": "https://www.newarab.com/news/us-orders-some-diplomats-leave-saudi-amid-houthi-attacks",
+      "published_at": "2026-10-21T21:26:31+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_1fb38203158ce5df",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-says-departure-orders-embassy-staff-saudi-arabia",
+      "published_at": "2026-10-21T20:33:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10220521-04",
+    "title": "ירוט כטב\"מים במחוז המזרחי בסעודיה",
+    "summary": "ההגנה האווירית של הקואליציה בהובלת סעודיה יירטה והשמידה ארבעה רחפנים במחוז המזרחי.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T22:38:35+00:00",
+    "last_update_at": "2026-10-21T22:38:35+00:00",
+    "what_is_not_verified": "מקור שיגור הרחפנים המדויק לא צוין באופן פרטני מעבר לייחוס הכללי לחות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5c1f470d6fa3c971",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern",
+      "published_at": "2026-10-21T22:38:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10220521-05",
+    "title": "ביקור הנשיא הצרפתי מקרון בסעודיה",
+    "summary": "נשיא צרפת עמנואל מקרון הגיע לביקור סולידריות בריאד ונפגש עם מנהיגים סעודיים להבטחת אספקת סולר ושיתוף פעולה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T15:43:49+00:00",
+    "last_update_at": "2026-10-21T15:54:08+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+      "published_at": "2026-10-21T15:54:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+      "published_at": "2026-10-21T15:43:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10220521-06",
+    "title": "פגיעה בשדה תפילה ונמל תעופה אזרחי בסעודיה",
+    "summary": "מתקפות כטב\"מים וטילים פגעו בנמל תעופה אזרחי בדמאם ובשדה נפט, וגרמו לנפגעים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T19:46:27+00:00",
+    "last_update_at": "2026-10-21T19:46:27+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק נמסר מדיווחים ראשוניים שטרם אומתו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-orders-diplomats-depart-saudi-arabia-amid-houthi-strikes",
+      "published_at": "2026-10-21T19:46:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים כי סעודיה סיפקה סיוע צבאי לישראל",
+   "מספר הנפגעים המדויק בכל זירות התקיפה בסעודיה ובתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות קריטיות בסעודיה ובנמלי תעופה",
+     "המשך פעילות נגד כוחות ממשלת תימן והקואליציה"
+    ],
+    "inferred": [
+     "שיבוש אספקת האנרגיה והכלכלה האזורית",
+     "הרחבת יכולות הייצור המקומי של אמצעי לחימה מתקדמים בעזרת רשתות רכש"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה של שדות תעופה ותשתיות נפט בסעודיה",
+     "הגברת הלחץ על טאעז בניסיון להכניע את מעוזי הממשלה"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על שטחה, גבולותיה ותשתיותיה האזרחיות",
+     "יירוט איומים אוויריים באמצעות מערכות ההגנה"
+    ],
+    "inferred": [
+     "גיוס תמיכה בינלאומית ומצרים כדי לבלום את האיומים",
+     "שמירה על רציפות תפקודית בנמלי התעופה והכלכלה למרות המתקפות"
+    ],
+    "forecast": [
+     "המשך שיתוף פעולה ביטחוני הדוק עם בעלות ברית כמו צרפת ומצרים",
+     "הגנה אקטיבית נגד מתקפות כטב\"מים וטילים"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הבטחת בטחון ואבטחת אנשי הסגל הדיפלומטי בסעודיה ובמפרץ",
+     "גינוי התקיפות של החות'ים נגד תשתיות אזרחיות"
+    ],
+    "inferred": [
+     "חשש מהסלמה רחבה יותר מול איראן ושלוחיה באזור",
+     "שמירה על חופש השיט והכלכלה העולמית"
+    ],
+    "forecast": [
+     "השארת הגבלות הדיפלומטים בתוקף עד להתרת המתח",
+     "המשך מעקב מודיעיני וצבאי אחר פעילות החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-orders-diplomats-depart-saudi-arabia-amid-houthi-strikes",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit",
+    "accessed_at": "2026-10-22T05:21:09+00:00"
+   }
+  ]
+ }
+}

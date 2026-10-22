@@ -1,0 +1,298 @@
+{
+ "status": "draft",
+ "received_sha256_12": "928efce5aad8",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-22T05:21:53+00:00",
+  "window": {
+   "from": "2026-10-21T05:21:53+00:00",
+   "to": "2026-10-22T05:21:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610220521"
+  },
+  "summary": "הגזרה הצפונית מאופיינת בפעילות צבאית ישראלית מתמשכת בדרום לבנון ובדרום סוריה, הכוללת תקיפות, הריסות ופעילות קרקעית נקודתית. במקביל, בצד הלבนוני מתנהלים דיונים מדיניים פנימיים ובינלאומיים סביב ריבונות המדינה ופירוק חיזבאללה, בעוד צבא לבנון פועל לחשוף תשתיות תת-קרקעיות של הארגון באזור ביירות.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה (תקיפות אוויריות, הריסות, חשיפת מנהרות, ופעילות צבאית סביב הגבול)"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה (פריסות כוחות, פשיטות, ותנועת כלי טיס בגבולות)"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10220521-01",
+    "title": "הריגת אדם בעל מוגבלויות בדרום סוריה",
+    "summary": "כוחות צבא ישראל הרגו אדם בעל מוגבלויות במהלך פשיטה על כפר במחוז דרעא, במסגרתה פרסו צלפים וירו ללא הבחנה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T01:30:14+00:00",
+    "last_update_at": "2026-10-22T04:19:55+00:00",
+    "what_is_not_verified": "טענות על ירי ללא הבחנה ופרטי הפשיטה המדויקים מחוץ לדיווח המקומי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_state_media",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-troops-shoot-dead-man-disabilities-syrias-daraa",
+      "published_at": "2026-10-22T04:19:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_state_media",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-incursion-reported-syrias-daraa",
+      "published_at": "2026-10-22T01:52:18+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_state_media",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-deploy-snipers-on-rooftops-open-fire-in-southern-syria/4096589",
+      "published_at": "2026-10-22T01:30:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10220521-02",
+    "title": "תקיפות והריסות נרחבות בדרום לבנון",
+    "summary": "ישראל ביצעה סדרת תקיפות אוויריות ופיצוצי הריסה נרחבים במספר אזורים בדרום לבנון, לצד טיסת כטב\"מים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T22:30:49+00:00",
+    "last_update_at": "2026-10-21T22:30:49+00:00",
+    "what_is_not_verified": "היקף הנזקים המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_national_news_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-air-strikes-demolitions-across-southern-lebanon",
+      "published_at": "2026-10-21T22:30:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     },
+     {
+      "name": "צור, לבנון",
+      "lat": 33.2721,
+      "lon": 35.1964
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10220521-03",
+    "title": "חשיפת מנהרה של חיזבאללה במזרח ביירות",
+    "summary": "צבא לבנון חשף מנהרה באזור רויסאת אל-ג'דידה במזרח ביירות המשויכת לחיזבאללה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T11:55:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T11:55:48+00:00",
+    "last_update_at": "2026-10-21T11:55:48+00:00",
+    "what_is_not_verified": "היקף השימוש הנוכחי במנהרה ותשתיות נוספות בביירות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958309",
+      "published_at": "2026-10-21T11:55:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10220521-04",
+    "title": "הצבעת חיילי צה\"ל בקלפיות בגזרות השונות",
+    "summary": "חיילי צה\"ל ומפקדים החלו להצביע בקלפיות בכלל הגזרות, כולל לבנון וסוריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T06:38:54+00:00",
+    "last_update_at": "2026-10-21T13:58:00+00:00",
+    "what_is_not_verified": "תוצאות ההצבעה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_israeli_analysts",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/964057/war-or-elections-israels-leadership-divided-over-timing-of-iran-strike/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964057",
+      "published_at": "2026-10-21T13:58:00+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_israeli_analysts",
+      "url": "https://t.me/idf_telegram/25420",
+      "published_at": "2026-10-21T06:38:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10220521-05",
+    "title": "טיסת מטוסי קרב ישראליים מעל סוריה ועיראק",
+    "summary": "נרשמה תנועה ערבית של מטוסי קרב בשמי הגבול בין סוריה לעיראק, ודווח על תרגיל ישראלי הכולל טיסת מטוסים לכיוון מזרח.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T05:17:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T05:17:16+00:00",
+    "last_update_at": "2026-10-21T05:53:54+00:00",
+    "what_is_not_verified": "יעדי הטיסה והאם מדובר בתרגיל בלבד.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94723",
+      "published_at": "2026-10-21T05:53:54+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132271",
+      "published_at": "2026-10-21T05:17:16+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': 'טענות על היקף שיקום התשתיות של חיזבאללה בביירות והיערכות לתקיפת העורף הישראלי.'}",
+   "{'string': 'פרטי תוכנית התקיפה הישראלית נגד איראן והמעורבות האמריקאית בהפסקה או דחייה שלה.'}"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על מוכנות צבאית מול הגזרות השונות",
+     "מניעת התבססות עוינת"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות טרור והחלשת יכולות חיזבאללה בלבנון ובסוריה",
+     "הפעלת לחץ צבאי למניעת התאוששות האויב בזירות השונות"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית נקודתית וממוקדת בגבולות לבנון וסוריה בהתאם להתפתחויות הפוליטיות והביטחוניות"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל / צבא לבנון)",
+    "declared": [
+     "הגנה על ריבונות אלדולה ושמירת החלטות המלחמה והשלום בידי מוסדות המדינה",
+     "קריאה להפסקת הכיבוש והלחצים בדרום לבנון"
+    ],
+    "inferred": [
+     "ניסיון מוגבל להפגין עשייה מול תשתיות חיזבאללה כדי לרצות גורמים בינלאומיים",
+     "הימנעות מהסלמה רחבה מול ישראל"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים לגיוס תמיכה בינלאומית לצבא לבנון לאחר תקופת הבחירות בישראל"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "שיקום יכולות ותשתיות שנפגעו והעתקתן למרחבים אזרחיים ובפרט לביירות",
+     "שימור יכולת תגובה למקרה של הסלמה רחבה"
+    ],
+    "forecast": [
+     "המשך התחפרות ושיקום חשאי של תשתיות צבאיות תחת מעטפת אזרחית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-deploy-snipers-on-rooftops-open-fire-in-southern-syria/4096589",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/964057/war-or-elections-israels-leadership-divided-over-timing-of-iran-strike/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964057",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-air-strikes-demolitions-across-southern-lebanon",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132271",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25420",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94723",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958309",
+    "accessed_at": "2026-10-22T05:21:53+00:00"
+   }
+  ]
+ }
+}

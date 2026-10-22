@@ -1,0 +1,495 @@
+{
+ "status": "draft",
+ "received_sha256_12": "446b8da875a6",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 5,
+   "initial": 5,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-22T05:16:57+00:00",
+  "window": {
+   "from": "2026-10-21T05:16:57+00:00",
+   "to": "2026-10-22T05:16:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610220516"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מחריף במרחב הימי של המפרץ הפרסי ומצר הורמוז, שם נרשמות פגיעות בכלי שיט לצד תקיפות נקודתיות של משגרים. בישראל ובארצות הברית מקדמים היערכות מבצעית הכוללת אימוני טיסה ארוכי טווח ותוכניות לפגיעה במתקני גרעין ואנרגיה, בעוד טהרן מאיימת להרחיב את הפגיעה בבסיסים אזוריים ובמתקני נפט. במקביל, וושינגטון מפנה חלק מאנשיה מנציגויות במפרץ ומטילה סנקציות חדשות על מערכי התובלה הימית של איראן.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "הסלמה צבאית הכוללת מיקוש, ירי טילים, פגיעות בכלי שיט מסחריים ותקיפות אמריקניות"
+   },
+   {
+    "name": "ישראל מול איראן",
+    "status": "כוננות גבוהה ותרגול גיחות אוויריות ישראליות בקרבת הגבול האיראני לצד איומי תקיפה הדדיים"
+   },
+   {
+    "name": "ארצות הברית מול איראן",
+    "status": "הפעלת לחץ כלכלי באמצעות סנקציות, הכנת תוכניות מבצעיות ופינוי נציגויות מחשש להסלמה"
+   },
+   {
+    "name": "חזית הצפון (שלוחת חיזבאללה בלבנון)",
+    "status": "דריכות ישראלית מפני הצטרפות הארגון למערכה ברקע מאמצי שיקום יכולותיו בביירות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10220516-01",
+    "title": "פגיעה בכלי שיט במפרץ הפרסי ובמצר הורמוז",
+    "summary": "חיל הים של משמרות המהפכה הודיע על פגיעה בארבעה כלי שיט שהעבירו נפט בצפון המפרץ הפרסי ושלושה כלי שיט נוספים שעלו על מוקשים מערבית למצר הורמוז.",
+    "axis": "איראן - המפרץ הפרסי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T00:12:13+00:00",
+    "last_update_at": "2026-10-22T05:08:04+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לדיווח האיראני על היקף הפגיעות בכלי השיט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-navy-says-seven-vessels-hit-over-past-day",
+      "published_at": "2026-10-22T05:08:04+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/wfj5nzl9p",
+      "published_at": "2026-10-22T00:12:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "המפרץ הפרסי",
+      "lat": 36.3237,
+      "lon": 50.012
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10220516-02",
+    "title": "תקיפה אמריקנית של משגר טילים באי סיריק באיראן",
+    "summary": "כוחות ארצות הברית ביצעו תקיפה נגד משגר טילים המוצב באי סיריק שבאיראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T23:51:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T23:51:09+00:00",
+    "last_update_at": "2026-10-21T23:51:09+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים אינם ידועים מעבר לדיווח הראשוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48806",
+      "published_at": "2026-10-21T23:51:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סיריק, איראן",
+      "lat": 26.5177,
+      "lon": 57.1018
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10220516-03",
+    "title": "שיגור טילים בליסטיים מסיריק לכיוון מצר הורמוז",
+    "summary": "נמסר על שיגור של טילים בליסטיים מצד איראן מהאי סיריק אל עבר מימי מצר הורמוז.",
+    "axis": "איראן - מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T21:19:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T21:19:10+00:00",
+    "last_update_at": "2026-10-21T21:19:10+00:00",
+    "what_is_not_verified": "האם הטילים פגעו במטרות כלשהן או יורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48800",
+      "published_at": "2026-10-21T21:19:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סיריק, איראן",
+      "lat": 26.5177,
+      "lon": 57.1018
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10220516-04",
+    "title": "תרגול טיסות מבצעיות של חיל האוויר הישראלי בסמוך לאיראן",
+    "summary": "עשרות מטוסי קרב ומטוסי תדלוק ישראליים טסו למרחק של כאלף ושלוש מאות קילומטרים לכיוון גבול איראן במסגרת היערכות לאפשרות תקיפה והרתעה.",
+    "axis": "ישראל - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T21:28:18+00:00",
+    "last_update_at": "2026-10-22T04:20:30+00:00",
+    "what_is_not_verified": "מידת התיאום עם ארצות הברית והאם הכוונה הייתה לגרור ירי תגובה איראני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21682429",
+      "published_at": "2026-10-22T04:20:30+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1pex9u3me",
+      "published_at": "2026-10-21T21:28:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-05",
+    "title": "פינוי דיפלומטים אמריקנים מסעודיה וממדינות המפרץ",
+    "summary": "מחלקת המדינה האמריקנית הורתה לחלק מאנשי הנציגות ולבני משפחותיהם לעזוב את סעודיה בעקבות ריבוי תקיפות החות'ים וחשש מהסלמה בעימות עם איראן.",
+    "axis": "ארה\"ב - המפרץ / איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T19:25:43+00:00",
+    "last_update_at": "2026-10-22T00:26:50+00:00",
+    "what_is_not_verified": "היקף הפינוי ביתר מדינות האזור מעבר לסעודיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "published_at": "2026-10-22T00:26:50+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+      "published_at": "2026-10-21T23:13:35+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/washington-orders-us-embassy-staff-families-leave-saudi-arabia",
+      "published_at": "2026-10-21T21:30:32+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94737",
+      "published_at": "2026-10-21T19:25:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-06",
+    "title": "הטלת סנקציות אמריקניות על סיוע למערך הספנות האיראני",
+    "summary": "משרד האוצר האמריקני הטיל סנקציות על משרד עורכי דין הפועל מיוון ופנמה בגין הגשת סיוע משפטי לרשתות ספנות איראניות, ופתח בבדיקת בנק יווני.",
+    "axis": "ארה\"ב - איראן (סנקציות)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T17:46:29+00:00",
+    "last_update_at": "2026-10-21T17:46:29+00:00",
+    "what_is_not_verified": "זהות הבנק היווני הנחקר במסגרת הבדיקה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-sanctions-greece-panama-based-law-firm-over-aid-iranian-shipping",
+      "published_at": "2026-10-21T17:46:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-07",
+    "title": "הפחתת נוכחות כוחות אמריקניים בבסיסים במזרח התיכון",
+    "summary": "צבא ארצות הברית ביצע הפחתה שקטה בנוכחות החיילים הפרוסים בבסיסים שונים ברחבי המזרח התיכון.",
+    "axis": "ארה\"ב - המזרח התיכון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T21:28:18+00:00",
+    "last_update_at": "2026-10-21T21:28:18+00:00",
+    "what_is_not_verified": "מספר החיילים המדויק ומיקומי הבסיסים שמהם פונו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_nbc",
+      "url": "https://www.ynet.co.il/news/article/r1pex9u3me",
+      "published_at": "2026-10-21T21:28:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-08",
+    "title": "התכנסות לדיונים ישראליים-אמריקניים על תקיפת יעדים באיראן",
+    "summary": "בכירים מישראל ומארצות הברית דנו באפשרות של מהלומה מרוכזת באיראן שתכוון למתקני גרעין, תשתיות נפט וטילים, לצד הגברת אימונים משותפים.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T19:36:16+00:00",
+    "last_update_at": "2026-10-22T01:31:58+00:00",
+    "what_is_not_verified": "האם הנשיא טראמפ יאשר את התוכניות המבצעיות האמורות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21682285",
+      "published_at": "2026-10-22T01:31:58+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/wfj5nzl9p",
+      "published_at": "2026-10-22T00:12:13+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132330",
+      "published_at": "2026-10-21T19:36:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-09",
+    "title": "פניית איראן לאו\"ם בגין איומי תקיפה",
+    "summary": "שגריר איראן באו\"ם שיגר מכתב למזכ\"ל ולמועצת הביטחון בדרישה לגנות איומי תקיפה ישראליים ואמריקניים ושימוש אפשרי בפצצת MOAB נגד תשתיות המדינה.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T02:47:08+00:00",
+    "last_update_at": "2026-10-22T02:47:08+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-calls-un-slam-us-naval-blockade-hormuz-strait",
+      "published_at": "2026-10-22T02:47:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-10",
+    "title": "הצהרות נתניהו נגד חידוש תוכנית הגרעין האיראנית",
+    "summary": "ראש ממשלת ישראל הצהיר בטקס צבאי כי איראן מחדשת את מאמציה להשגת נשק גרעיני בהובלת מוג'תבא חמינאי וכי יש לפעול להפלת המשטר.",
+    "axis": "ישראל - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T13:16:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T13:16:14+00:00",
+    "last_update_at": "2026-10-21T14:52:54+00:00",
+    "what_is_not_verified": "מצב ההתקדמות הממשי של תוכנית הגרעין בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132316",
+      "published_at": "2026-10-21T14:52:54+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958333",
+      "published_at": "2026-10-21T13:16:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10220516-11",
+    "title": "שיקום תשתיות חיזבאללה בביירות והיערכות בצה\"ל",
+    "summary": "גורם ביטחוני ישראלי מסר כי חיזבאללה פועל לשיקום יכולות שנפגעו באזור ביירות, וכי צה\"ל נערך לאפשרות של הסלמה מול הארגון במידה וייפתחו חילופי אש מול איראן.",
+    "axis": "ישראל - חיזבאללה (שלוחת איראן)",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T11:55:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T11:55:48+00:00",
+    "last_update_at": "2026-10-21T11:55:48+00:00",
+    "what_is_not_verified": "היקף השיקום המדויק של היכולות הצבאיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958309",
+      "published_at": "2026-10-21T11:55:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת משמרות המהפכה על מספר כלי השיט שנפגעו וטבעו או בערו במצר הורמוז",
+   "אישור רשמי של הנשיא טראמפ לתוכניות תקיפה מקיפות באיראן לאחר בחירות האמצע",
+   "היקף הפינוי של צוותים אמריקניים מאיחוד האמירויות, ירדן, קטאר ובחריין מעבר לסעודיה",
+   "רמת היעילות של פצצות MOAB כנגד מתקני גרעין תת קרקעיים באיראן",
+   "מידת ההתקדמות המעשית של תוכנית הגרעין האיראנית תחת מוג'תבא חמינאי"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0912,
+    "unit": "ILS",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על הריבונות והפעלת זכות להגנה עצמית מפני תוקפנות",
+     "שליטה במעבר הימי במצר הורמוז ומניעת הברחות נפט לא חוקיות",
+     "הרחבת התגובה הצבאית לעבר בסיסים אמריקניים ומתקני נפט אזוריים אם התקיפות יימשכו"
+    ],
+    "inferred": [
+     "שיבוש נתיבי השיט כדי להפעיל לחץ כלכלי עולמי באמצעות מחירי האנרגיה",
+     "יצירת הרתעה מול מהלומה אמריקנית-ישראלית באמצעות איום על יעדים בסעודיה"
+    ],
+    "forecast": [
+     "המשך פגיעה ממוקדת בכלי שיט במצר הורמוז ושיגורי טילים לעבר נתיבי ים",
+     "פנייה מוגברת לערוצים דיפלומטיים בינלאומיים לצד העלאת כוננות בבסיסי הטילים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי המשטר האיראני",
+     "הסרת האיום האיראני כולל שאיפה להפלת המשטר בטהרן"
+    ],
+    "inferred": [
+     "הכשרת התנאים המבצעיים והמודיעיניים למתקפת פתע ארוכת טווח",
+     "גרירת איראן לתגובה שתכשיר לגיטימציה לפעולה צבאית משותפת עם ארצות הברית"
+    ],
+    "forecast": [
+     "המשך טיסות אימון מבצעיות בטווחים ארוכים והגברת הכוננות בגבול הצפון",
+     "תיאום מוגבר של מטרות תקיפה אסטרטגיות מול מערכת הביטחון האמריקנית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הגנה על אנשי הנציגויות הדיפלומטיות והכוחות במזרח התיכון",
+     "שמירה על חופש השיט במעברים הבינלאומיים ואכיפת סנקציות על איראן"
+    ],
+    "inferred": [
+     "צמצום חשיפת כוחות אמריקניים לפגיעה ישירה באמצעות דילול נוכחות בבסיסים",
+     "הכנת חלופות תקיפה בעצימות גבוהה ככלי מיקוח להחזרת טהרן למשא ומתן"
+    ],
+    "forecast": [
+     "העמקת הסנקציות הכלכליות על גורמי ספנות וסחר המסייעים לאיראן",
+     "הימנעות ממתקפה רחבה עד לאחר בחירות האמצע בארצות הברית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-sanctions-greece-panama-based-law-firm-over-aid-iranian-shipping",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21682285",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-calls-un-slam-us-naval-blockade-hormuz-strait",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132316",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48800",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94737",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958309",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/wfj5nzl9p",
+    "accessed_at": "2026-10-22T05:16:57+00:00"
+   }
+  ]
+ }
+}

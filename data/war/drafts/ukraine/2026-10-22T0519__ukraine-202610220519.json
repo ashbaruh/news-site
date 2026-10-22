@@ -1,0 +1,541 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e8114619af06",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "verified": 2,
+   "initial": 3,
+   "shared_root": 5,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-22T05:19:42+00:00",
+  "window": {
+   "from": "2026-10-21T05:19:42+00:00",
+   "to": "2026-10-22T05:19:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610220519"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך כדי חילופי תקיפות אוויריות על ערים ותשתיות, לצד מאמצים דיפלומטיים בהובלת שליחי ארה\"ב לחידוש משא ומתן תלת-צדדי. אוקראינה סופגת מתקפות טילים קשות בעוד כוחותיה תוקפים מטרות בעומק רוסיה, וברקע מתגלעים חיכוכי דיפלומטיה בין פולין לאוקראינה סביב סוגיות היסטוריות.",
+  "fronts": [
+   {
+    "name": "חזית קייב והעורף האוקראיני",
+    "status": "פעיל עם תקיפות אוויריות ופגיעה בתשתיות"
+   },
+   {
+    "name": "חזית המזרח (סלוביאנסק-קראמטורסק)",
+    "status": "פעיל ובנוי מריכוז כוחות"
+   },
+   {
+    "name": "העורף הרוסי (מוסקבה, ליפצק, טולה, טטרסטן)",
+    "status": "יעד לתקיפות כטב\"מים וביצור הגנה אווירית"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10220519-01",
+    "title": "Russian combat losses update",
+    "summary": "דיווח על אבדות כוח האדם של צבא רוסיה במלחמה.",
+    "axis": "חזית המזרח",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T05:05:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T05:05:00+00:00",
+    "last_update_at": "2026-10-22T05:05:00+00:00",
+    "what_is_not_verified": "המספרים אינם מאומתים ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_265b9e5a7c31144c",
+      "url": "https://www.ukrinform.net/rubric-ato/4176908-russian-forces-lose-another-2250-soldiers-in-war-against-ukraine-over-past-day.html",
+      "published_at": "2026-10-22T05:05:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10220519-02",
+    "title": "Kherson mobile shelters installation",
+    "summary": "יוזמה להתקנת מקלטים ניידים לאורך צירי בתי ספר באזור חרסון.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T04:38:00+00:00",
+    "last_update_at": "2026-10-22T04:38:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_abaed83f3a33ec17",
+      "url": "https://www.ukrinform.net/rubric-defense/4176896-kherson-region-to-install-227-mobile-shelters-along-school-routes.html",
+      "published_at": "2026-10-22T04:38:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חֶרְסוֹן, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-03",
+    "title": "Polish defence ministry denies halting military aid",
+    "summary": "משרד ההגנה של פולין הכחיש דיווחים לפיהם עצרה סיוע צבאי לאוקראינה בעקבות החלטת מועצת מחוז לבוב.",
+    "axis": "עורף מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T21:08:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T21:08:50+00:00",
+    "last_update_at": "2026-10-22T04:15:00+00:00",
+    "what_is_not_verified": "האם אכן נעצרה החבילה בפועל דרך ערוצים נסתרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_fakt_janusz_sejmej",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059157/",
+      "published_at": "2026-10-22T04:15:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_fakt_janusz_sejmej",
+      "url": "https://meduza.io/en/news/2026/10/22/poland-reportedly-suspends-major-arms-shipment-to-ukraine-over-regional-tribute-to-ukrainian-insurgent-army-whose-fighters-took-part-in-wwii-massacres-of-poles",
+      "published_at": "2026-10-21T21:08:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבוב, אוקראינה",
+      "lat": 49.842,
+      "lon": 24.0316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-04",
+    "title": "Kyiv missile and drone attacks",
+    "summary": "מתקפת טילים ופגיעות במתקני תשתית ותחבורה ופצועים בעיר קייב.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T22:22:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T22:22:41+00:00",
+    "last_update_at": "2026-10-22T04:02:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_c937b6cbca5783ed",
+      "url": "https://www.ukrinform.net/rubric-ato/4176895-russian-attack-targets-transport-facility-in-kyivs-darnytskyi-district.html",
+      "published_at": "2026-10-22T04:02:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c937b6cbca5783ed",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059167/",
+      "published_at": "2026-10-22T03:32:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_c937b6cbca5783ed",
+      "url": "https://t.me/alexmehacarmel/48810",
+      "published_at": "2026-10-22T01:31:07+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_c937b6cbca5783ed",
+      "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+      "published_at": "2026-10-21T22:22:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-05",
+    "title": "Reported strike on Moscow Oblast weapons plant",
+    "summary": "דיווח על תקיפת מפעל נשק במחוז מוסקבה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T03:15:02+00:00",
+    "last_update_at": "2026-10-22T03:15:02+00:00",
+    "what_is_not_verified": "הפרטים מבוסס על ערוצי מעקב בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_monitoring_channels",
+      "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-moscow-oblast-weapons-plant/",
+      "published_at": "2026-10-22T03:15:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סרפוחוב, רוסיה",
+      "lat": 54.9155,
+      "lon": 37.4196
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-06",
+    "title": "Russian Battlegroup South drone claims",
+    "summary": "רוסיה מדווחת על השמדת כלים בלתי מאוישים אוקראיניים בגזרת הדרום.",
+    "axis": "חזית הדרום",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T02:25:44+00:00",
+    "last_update_at": "2026-10-22T02:25:44+00:00",
+    "what_is_not_verified": "הנתונים אינם מאומתים ממקור עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_tass_russian_battlegroup_south",
+      "url": "https://tass.com/defense/2205921",
+      "published_at": "2026-10-22T02:25:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10220519-07",
+    "title": "US envoy meets Putin in St Petersburg regarding peace proposals",
+    "summary": "שליח ארה\"ב סטיב ויטקוף נפגש עם ולדימיר פוטין בסנקט פטרבורג והציג הצעות שלום מאת זלנסקי ומנהיגי אירופה.",
+    "axis": "עורף מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T08:18:53+00:00",
+    "last_update_at": "2026-10-22T01:52:52+00:00",
+    "what_is_not_verified": "מידת הרצינות או התוכן המלא של ההצעות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_bc48bb92c0b9cf9a",
+      "url": "https://www.theguardian.com/world/2026/oct/22/ukraine-war-briefing-peace-proposals-lack-substance-witkoff-putin-meeting",
+      "published_at": "2026-10-22T01:52:52+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_bc48bb92c0b9cf9a",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "published_at": "2026-10-22T01:16:20+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_bc48bb92c0b9cf9a",
+      "url": "https://meduza.io/en/news/2026/10/21/vance-defends-trump-envoy-s-humanitarian-praise-for-putin",
+      "published_at": "2026-10-21T19:54:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_bc48bb92c0b9cf9a",
+      "url": "https://t.me/abualiexpress/132297",
+      "published_at": "2026-10-21T10:50:21+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_bc48bb92c0b9cf9a",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T08:18:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-08",
+    "title": "Ombudsman reports violations at Odesa recruitment center",
+    "summary": "נציג זכויות האדם תיעד תנאי מחיה לקויים במרכז גיוס באזור אודסה.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T01:25:00+00:00",
+    "last_update_at": "2026-10-22T01:25:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4bbc788ce5cc46da",
+      "url": "https://www.ukrinform.net/rubric-society/4176820-mobilized-men-kept-in-basements-and-behind-bars-ombudsman-reports-violations-at-odesa-region-recruitment-center.html",
+      "published_at": "2026-10-22T01:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בילהורוד-דניסטרובסקי, אוקראינה",
+      "lat": 46.191,
+      "lon": 30.3458
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-09",
+    "title": "Release of American citizen Stephen Hubbard",
+    "summary": "רוסיה שחררה את האזרח האמריקני סטיבן הוברד לבקשת דונלד טראמפ.",
+    "axis": "עורף מדיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T15:23:04+00:00",
+    "last_update_at": "2026-10-22T01:16:20+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_1d4538fa12d3db9b",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "published_at": "2026-10-22T01:16:20+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_1d4538fa12d3db9b",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21681567",
+      "published_at": "2026-10-21T19:57:43+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_1d4538fa12d3db9b",
+      "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "published_at": "2026-10-21T15:23:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-10",
+    "title": "Ukrainian drone attacks on Tula and Lipetsk",
+    "summary": "דיווחים על תקיפות כטב\"מים אוקראיניים בערים טולה וליפצק ברוסיה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-21T23:06:40+00:00",
+    "last_update_at": "2026-10-22T00:55:39+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_telegram_channel",
+      "url": "https://t.me/alexmehacarmel/48808",
+      "published_at": "2026-10-22T00:55:39+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_telegram_channel",
+      "url": "https://kyivindependent.com/explosion-fires-reported-amid-overnight-ukrainian-drone-attack-on-lipetsk-russia/",
+      "published_at": "2026-10-21T23:46:05+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_telegram_channel",
+      "url": "https://t.me/alexmehacarmel/48803",
+      "published_at": "2026-10-21T23:06:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ליפצק, רוסיה",
+      "lat": 52.6051,
+      "lon": 39.5964
+     },
+     {
+      "name": "טולה, רוסיה",
+      "lat": 54.193,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10220519-11",
+    "title": "Expansion of air defenses around Alabuga drone factory",
+    "summary": "צילומי לווין חושפים הוספת עמדות הגנה אווירית סביב אזור הייצור של כטב\"מי שאהד בטטרסטן.",
+    "axis": "העורף הרוסי",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-21T23:22:00+00:00",
+    "last_update_at": "2026-10-21T23:22:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_radio_liberty_russian_service_analysis",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059158/",
+      "published_at": "2026-10-21T23:22:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות רוסיה על היקף השמדת הציוד והכלים האוקראיניים",
+   "האם פולין אכן עיכבה משלוח צבאי עקב החלטת מועצת לבוב",
+   "תוכניות מדויקות להסכם שלום פסגת G20"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1234,
+    "unit": "USD",
+    "change_pct": 0.17,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-21T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "רצון להחזיר את השטחים",
+     "נכונות לדון בהקפאת מצב קיימת או להשתתף בשיחות שלום"
+    ],
+    "inferred": [
+     "רצון לשמור על תמיכה מערבית וסיוע צבאי",
+     "חשש מהסכמות מעל ראשה בין המעצמות"
+    ],
+    "forecast": [
+     "המשך מאמץ להגן על ערי המפתח במזרח",
+     "השתתפות בשיחות בדרג טכני בחסות אמריקאית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך השגת יעדי המבצע הצבאי",
+     "נכונות עקרונית לחדש שיחות תלת-צדדיות בנושאי ביטחון"
+    ],
+    "inferred": [
+     "אי-תחושת לחץ צבאי המאיץ ויתורים דרסטיים מצדה",
+     "שאיפה ללגיטימציה בינלאומית מחודשת"
+    ],
+    "forecast": [
+     "המשך תקיפות תשתיות ואוויריות להפעלת לחץ על אוקראינה",
+     "בחינת אפשרות להשתתף בפסגות בינלאומיות אם התנאים יתאימו"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "קידום מאמצים דיפלומטיים להביא לסיום המלחמה",
+     "חזרה למוקד שיחות בין הצדדים"
+    ],
+    "inferred": [
+     "שאיפה להציג הישג דיפלומטי מהיר בהנהגת טראמפ",
+     "הפעלת לחץ אפשרי על קייב ומוסקבה"
+    ],
+    "forecast": [
+     "המשך תיווך דרך שליחים מיוחדים לקראת סבבי שיחות נוספים בנובמבר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21681567",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/explosion-fires-reported-amid-overnight-ukrainian-drone-attack-on-lipetsk-russia/",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/21/vance-defends-trump-envoy-s-humanitarian-praise-for-putin",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059158/",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2205921",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132297",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48803",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4176820-mobilized-men-kept-in-basements-and-behind-bars-ombudsman-reports-violations-at-odesa-region-recruitment-center.html",
+    "accessed_at": "2026-10-22T05:19:42+00:00"
+   }
+  ]
+ }
+}

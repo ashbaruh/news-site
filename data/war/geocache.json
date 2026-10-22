@@ -378,6 +378,10 @@
 50.0077,
 34.6354
 ],
+"bilhorod-dnistrovskyi, ukraine": [
+46.191,
+30.3458
+],
 "bint jbeil, lebanon": [
 33.1195,
 35.4328
@@ -833,6 +837,7 @@
 14.2609,
 43.8242
 ],
+"jamla, syria": null,
 "jamlah, syria": [
 35.1005,
 36.3496
@@ -1145,6 +1150,10 @@
 49.6113,
 6.1298
 ],
+"lviv, ukraine": [
+49.842,
+24.0316
+],
 "lyman, ukraine": [
 48.9801,
 37.8168
@@ -1449,6 +1458,10 @@
 58.0109,
 56.2319
 ],
+"persian gulf": [
+36.3237,
+50.012
+],
 "petah tikva, israel": [
 32.0878,
 34.886
@@ -1665,6 +1678,10 @@
 37.5667,
 126.9783
 ],
+"serpukhov, russia": [
+54.9155,
+37.4196
+],
 "shabwah, yemen": null,
 "shannon airport, ireland": [
 52.6987,
@@ -1696,6 +1713,10 @@
 34.1198
 ],
 "sirik island, iran": null,
+"sirik, iran": [
+26.5177,
+57.1018
+],
 "sirjan, iran": [
 29.4491,
 55.6724
@@ -1848,6 +1869,7 @@
 34.8936,
 35.8852
 ],
+"tatarstan, russia": null,
 "tayr harfa, lebanon": [
 33.1337,
 35.2236
@@ -1882,6 +1904,10 @@
 38.2868
 ],
 "tsiporen outpost, ramim ridge, israel": null,
+"tula, russia": [
+54.193,
+37.6175
+],
 "turkey": null,
 "tyre, lebanon": [
 33.2721,
