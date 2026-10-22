@@ -1,0 +1,503 @@
+{
+ "status": "draft",
+ "received_sha256_12": "55b63f84b225",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 2,
+   "initial": 4,
+   "verified": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-22T23:42:59+00:00",
+  "window": {
+   "from": "2026-10-21T23:42:59+00:00",
+   "to": "2026-10-22T23:42:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610222342"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בתקיפות הדדיות בעורף ובחזית, לצד פעילות דיפלומטית אמריקנית לקידום שיחות משולשות. כוחות רוסיה ביצעו מתקפת טילים כבדה על קייב ופגעו בתשתיות אזרחיות ואנרגטיות, בעוד אוקראינה פועלת נגד סוללות נ\"מ רוסיות, מאגרי תחמושת ובתי זיקוק. במקביל נרשמת מחלוקת לגבי יעילותן ומעמדן של הגבלות התקשורת הלוויינית המערבית המשרתת את הצבא האוקראיני.",
+  "fronts": [
+   {
+    "name": "גזרת קייב",
+    "status": "מתקפות טילים בליסטיים רוסיות על מבני מגורים ותשתיות אנרגיה"
+   },
+   {
+    "name": "גזרת קופיאנסק",
+    "status": "פשיטות אוקראיניות קרקעיות בעורף הקווים הרוסיים"
+   },
+   {
+    "name": "גזרת הוליאיפולה",
+    "status": "פגיעה אוקראינית במערכות הגנה אווירית רוסיות באמצעות כטב\"מים"
+   },
+   {
+    "name": "דרום אוקראינה",
+    "status": "פעילות כטב\"מים רוסית הנמשכת ללא שינוי ניכר בהיקפה"
+   },
+   {
+    "name": "עורף רוסיה",
+    "status": "תקיפות כטב\"מים אוקראיניות לעבר מתקני נפט ותשתיות עירוניות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10222342-01",
+    "title": "מתקפת טילים רוסית על קייב",
+    "summary": "רוסיה שיגרה גלי טילים ומטחי טילים בליסטיים לעבר הבירה האוקראינית, וכתוצאה מכך נהרגו לפחות שני בני אדם ונפצעו עשרים ושניים. הפגיעות כללו גשר מעל נהר הדנייפר, מבני מגורים, מרפאה ותשתיות אנרגיה.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T15:46:56+00:00",
+    "last_update_at": "2026-10-22T20:58:00+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לגבי מספר הנפגעים המדויק או היקף הנזק לתשתיות האנרגיה מעבר להצהרות המקומיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+      "published_at": "2026-10-22T15:46:56+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T17:49:13+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4177283-ukrainian-swedish-defense-ministers-discuss-aftermath-of-russian-attacks-air-defense-needs.html",
+      "published_at": "2026-10-22T20:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-02",
+    "title": "פשיטה אוקראינית בעורף הרוסי סמוך לקופיאנסק",
+    "summary": "כוחות אוקראיניים חדרו לעורף הקווים הרוסיים באמצעות תנועה בצינורות גז לאורך כחמישה עשר קילומטרים במסגרת מבצע מיוחד.",
+    "axis": "קופיאנסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T18:03:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T18:03:30+00:00",
+    "last_update_at": "2026-10-22T18:03:30+00:00",
+    "what_is_not_verified": "היקף ההצלחה והתוצאות הטקטיות של המבצע לא אומתו על ידי מקורות רוסיים או גורם עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ukrainian-troops-infiltrate-russian-rear-near-kupiansk-through-15-kilometers-of-gas-pipelines/",
+      "published_at": "2026-10-22T18:03:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קופיאנסק, אוקראינה",
+      "lat": 49.7133,
+      "lon": 37.6142
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-03",
+    "title": "תקיפת מערכות הגנה אווירית רוסיות בגזרת הוליאיפולה",
+    "summary": "מפעילי כלי טיס בלתי מאוישים של צבא היבשה האוקראיני פגעו במערכת טילי קרקע אוויר מסוג בוק ובמערכת נ\"מ נוספת שפעלו נגד מטוסים אוקראיניים.",
+    "axis": "הוליאיפולה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T22:25:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T22:25:00+00:00",
+    "last_update_at": "2026-10-22T22:25:00+00:00",
+    "what_is_not_verified": "דגם מערכת הנ\"מ השנייה שנפגעה ומידת הנזק המדויקת אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4177075-ukrainian-forces-hit-two-russian-air-defense-systems-targeting-ukrainian-aircraft-in-huliaipole-sector.html",
+      "published_at": "2026-10-22T22:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הוליאיפולה, אוקראינה",
+      "lat": 47.6655,
+      "lon": 36.2657
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-04",
+    "title": "פגיעת כטב\"ם אוקראיני בעגורן בעיר ליפצק ברוסיה",
+    "summary": "כלי טיס בלתי מאויש מתאבד מתוצרת אוקראינה פגע בעגורן בנייה במהלך טיסתו והתרסק באזור מגורים בעיר ליפצק.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T21:18:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T21:18:04+00:00",
+    "last_update_at": "2026-10-22T21:18:04+00:00",
+    "what_is_not_verified": "מידת הנזק שנגרמה על הקרקע והיעד המקורי של כלי הטיס אינם ידועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48841",
+      "published_at": "2026-10-22T21:18:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ליפצק, רוסיה",
+      "lat": 52.6051,
+      "lon": 39.5964
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-05",
+    "title": "מגעים מדיניים והצעות למשא ומתן להסדר לחימה",
+    "summary": "השליח האמריקני סטיב ויטקוף קיים שיחות באוסלו עם נשיא אוקראינה ובסנקט פטרבורג עם נשיא רוסיה, כאשר הועלתה אפשרות לחידוש שיחות משולשות ולהסדרי ביטחון קבועים.",
+    "axis": "משא ומתן בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T17:47:00+00:00",
+    "last_update_at": "2026-10-22T22:41:21+00:00",
+    "what_is_not_verified": "לא מאומת האם יתקיים מפגש מנהיגים בפסגת הכלכלות הגדולות בפלורידה או האם הצדדים יגיעו להסכמות על הפסקת אש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_1cbd3e65e32874b2",
+      "url": "https://tass.com/politics/2206565",
+      "published_at": "2026-10-22T22:41:21+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6d39ea17e351fb5d",
+      "url": "https://www.ukrinform.net/rubric-polytics/4177277-zelensky-to-attend-g20-summit-in-florida-for-talks-with-trump-and-putin-if-invited.html",
+      "published_at": "2026-10-22T20:22:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_1cbd3e65e32874b2",
+      "url": "https://meduza.io/en/feature/2026/10/22/wtf-steve-u-s-lawmakers-outraged-after-witkoff-calls-putin-a-humanitarian-leaving-trump-and-vance-to-defend-their-envoy",
+      "published_at": "2026-10-22T19:58:44+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_1cbd3e65e32874b2",
+      "url": "https://meduza.io/en/news/2026/10/22/putin-cites-unspecified-genetic-research-to-claim-russians-and-ukrainians-are-one-people",
+      "published_at": "2026-10-22T19:41:50+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_1cbd3e65e32874b2",
+      "url": "https://meduza.io/en/feature/2026/10/22/why-kyiv-is-skeptical-of-trump-s-renewed-peace-negotiations-with-russia-and-ukraine",
+      "published_at": "2026-10-22T19:38:56+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_bb718a0648ef2390",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059301/",
+      "published_at": "2026-10-22T18:12:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_6555238653cb4751",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059295/",
+      "published_at": "2026-10-22T17:47:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנקט פטרבורג, רוסיה",
+      "lat": 59.9387,
+      "lon": 30.3162
+     },
+     {
+      "name": "אוסלו, נורווגיה",
+      "lat": 59.9133,
+      "lon": 10.739
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-06",
+    "title": "הסכם סיוע אזרחי ושיתוף פעולה לווייני בין פינלנד לאוקראינה",
+    "summary": "פינלנד הודיעה על חבילת סיוע הכוללת עשרה קטרים לרכבת, תמיכה כספית במגזר האנרגיה וסיוע הומניטרי, לצד חתימה על מסמכים להרחבת השימוש ביכולות לווייניות עצמאיות.",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T17:57:00+00:00",
+    "last_update_at": "2026-10-22T23:29:32+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק להעברת הקטרים ויישום מערך הלוויינים אינם מפורטים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_09f49876aa41ef3d",
+      "url": "https://kyivindependent.com/amid-starlink-crisis-finnish-tech-giants-announce-plan-to-help-ukraine-build-its-own-sovereign-satellite-system/",
+      "published_at": "2026-10-22T23:29:32+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_09f49876aa41ef3d",
+      "url": "https://www.ukrinform.net/rubric-polytics/4177281-finland-to-provide-ukraine-with-ten-locomotives-additional-winter-aid-pm.html",
+      "published_at": "2026-10-22T20:39:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_09f49876aa41ef3d",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059302/",
+      "published_at": "2026-10-22T18:29:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_94f3c52ef16d6637",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059299/",
+      "published_at": "2026-10-22T17:57:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10222342-07",
+    "title": "מחלוקת ודיווחים סותרים סביב הגבלות התקשורת הלוויינית של סטארלינק",
+    "summary": "נשיא ארצות הברית טען כי הוסרו ההגבלות על שירותי התקשורת הלוויינית באוקראינה, בעוד גורמים רשמיים בקייב טענו כי מגבלת המהירות נותרה על כנה והמצב לא השתנה.",
+    "axis": "טכנולוגיה וסיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T18:30:23+00:00",
+    "last_update_at": "2026-10-22T21:42:39+00:00",
+    "what_is_not_verified": "לא מאומת האם מגבלת המהירות אכן הוסרה במלואה בשטח או שהיא עדיין פוגעת בפעילות הכטב\"מים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T21:42:39+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2206599",
+      "published_at": "2026-10-22T21:07:07+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/kyiv-denies-reports-that-trump-musk-have-restored-starlink-speeds-in-ukraine/",
+      "published_at": "2026-10-22T19:17:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/22/trump-called-elon-musk-to-ask-him-to-lift-restrictions-on-ukraine-s-military-grade-starlink-service-wsj-reports",
+      "published_at": "2026-10-22T18:39:08+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48836",
+      "published_at": "2026-10-22T18:30:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10222342-08",
+    "title": "חשש בחברת רוסנפט מהמשך הפגיעה בבתי זיקוק",
+    "summary": "גורמים בחברת הנפט הרוסית הביעו בשיחות סגורות דאגה מכך שהתקיפות האוקראיניות החוזרות ונשנות על מתקני הזיקוק עלולות להסב נזק כבד ובלתי הפיך לפעילות החברה.",
+    "axis": "עורף רוסיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T21:04:30+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T21:04:30+00:00",
+    "last_update_at": "2026-10-22T21:04:30+00:00",
+    "what_is_not_verified": "הערכות הנזק הכספי והתפעולי הפנימיות של החברה מבוססות על הדלפות בעילום שם ולא אומתו רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/rosneft-admits-losses-from-ukraines-refinery-strikes-becoming-unsustainable-bloomberg-reports/",
+      "published_at": "2026-10-22T21:04:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10222342-09",
+    "title": "השמדת מצבור רקטות רוסי באמצעות רחפן אוקראיני",
+    "summary": "רחפן של צבא אוקראינה פגע במצבור תחמושת רוסי של רקטות גראד והשמיד אותו.",
+    "axis": "קו המגע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T16:22:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T16:22:44+00:00",
+    "last_update_at": "2026-10-22T16:22:44+00:00",
+    "what_is_not_verified": "המיקום המדויק של המצבור והיקף התחמושת שהושמדה אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48829",
+      "published_at": "2026-10-22T16:22:44+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת ארצות הברית כי הוסרו לחלוטין כל מגבלות המהירות בשירותי סטארלינק באוקראינה",
+   "קיומם של מחקרים גנטיים המוכיחים כי הרוסים והאוקראינים הם עם אחד כפי שטען פוטין",
+   "הערכות על נזק בלתי הפיך לחברת רוסנפט כתוצאה מפגיעות בבתי הזיקוק",
+   "קיום ודאי של פגישה משולשת בין מנהיגי רוסיה, ארצות הברית ואוקראינה בפלורידה",
+   "נתוני משרד ההגנה האוקראיני בנוגע להפלת מעל ארבע מאות אלף כטב\"מים רוסיים מתחילת השנה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1205,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הגעה להסכמי ביטחון קבועים וסופיים ולא להפסקת אש זמנית",
+     "ראיית השטחים הנתונים במחלוקת כחלק מרוסיה ההיסטורית"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי כבד על תשתיות האנרגיה בקייב לקראת החורף כדי לשבור את כושר העמידה",
+     "ניסיון להכתיב תנאי משא ומתן מעמדת כוח צבאית"
+    ],
+    "forecast": [
+     "המשך פגיעה ממוקדת במערכות חשמל ואנרגיה באוקראינה",
+     "נכונות להשתתף בשיחות במידה ותובטח הכרה בהישגיה הטריטוריאליים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת ערבויות ביטחון בינלאומיות מוצקות לסיום המלחמה",
+     "השתתפות במפגש פסגה משולש במידה ותימסר הזמנה רשמית",
+     "בניית מערך לווייני עצמאי שאינו תלוי בחברות זרות"
+    ],
+    "inferred": [
+     "המשך שחיקת מקורות ההכנסה הרוסיים באמצעות תקיפת בתי זיקוק ונכסי אנרגיה",
+     "שימור רצף תקשורת ומערכות כטב\"מים חרף מגבלות טכנולוגיות"
+    ],
+    "forecast": [
+     "הגברת הלחץ הדיפלומטי על מדינות המערב לקבלת מערכות נ\"מ נוספות",
+     "המשך מאמצים לפגוע בעורף הרוסי באמצעות כלי טיס בלתי מאוישים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "שאיפה לסיום הלחימה וקידום שיחות ישירות בין הצדדים",
+     "הסרת מגבלות תקשורת עבור הצבא האוקראיני"
+    ],
+    "inferred": [
+     "הפעלת לחץ על קייב לצמצום תקיפות על בתי זיקוק רוסיים כדי למנוע זעזועים כלכליים",
+     "בחינת מתווה לסיום המלחמה או הקפאתה בקו המגע הקיים"
+    ],
+    "forecast": [
+     "המשך תיווך דיפלומטי לקראת מפגש פסגה בינלאומי",
+     "ניסיונות לגבש הבנות עבודה מול מוסקבה וקייב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/rosneft-admits-losses-from-ukraines-refinery-strikes-becoming-unsustainable-bloomberg-reports/",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/22/trump-called-elon-musk-to-ask-him-to-lift-restrictions-on-ukraine-s-military-grade-starlink-service-wsj-reports",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059299/",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2206599",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48829",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4177281-finland-to-provide-ukraine-with-ten-locomotives-additional-winter-aid-pm.html",
+    "accessed_at": "2026-10-22T23:42:59+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,450 @@
+{
+ "status": "draft",
+ "received_sha256_12": "edf505862c41",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 3,
+   "shared_root": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-22T23:45:34+00:00",
+  "window": {
+   "from": "2026-10-21T23:45:34+00:00",
+   "to": "2026-10-22T23:45:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610222345"
+  },
+  "summary": "הלחימה בין החות'ים לקואליציה בהובלת סעודיה הסלימה לכדי מתקפות נרחבות ועמוקות לעבר נמלי תעופה ומתקני נפט סעודיים, אשר הובילו לפינוי מטה חברת ארמקו ולפגיעות בנפש. בתוך תימן מתחדשים הקרבות סביב צירי באב אל-מנדב ותעז, תוך החמרת המשבר ההומניטרי והרפואי. במקביל, גורמים אזוריים כמו מצרים ואיראן בוחנים את גבולות מעורבותם, לצד טענות על סיוע מודיעיני ישראלי לריאד.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - תימן",
+    "status": "הסלמה חריפה בשיגורי טילים, כטב\"מים ופגיעה במתקנים אסטרטגיים ונמלי תעופה"
+   },
+   {
+    "name": "ציר באב אל-מנדב ודרום הים האדום",
+    "status": "הטלת מצור ימי חות'י ופעילות קרקעית לאורך החוף"
+   },
+   {
+    "name": "פנים תימן (תעז)",
+    "status": "חילופי אש, הפגזות ומשבר תברואתי ורפואי חריף"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10222345-01",
+    "title": "יירוט שני כטב\"מים שנורו לכיוון דרום סעודיה",
+    "summary": "הקואליציה הודיעה על יירוט והשמדה של שני כלי טיס בלתי מאוישים ששיגרו החות'ים לעבר האזור הדרומי.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T22:38:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T22:38:05+00:00",
+    "last_update_at": "2026-10-22T22:38:05+00:00",
+    "what_is_not_verified": "אין אימות עצמאי להודעת הקואליציה לגבי היירוט המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_a34d35e809393362",
+      "url": "https://www.sabanew.net/viewstory/154476",
+      "published_at": "2026-10-22T22:38:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10222345-02",
+    "title": "יירוט טיל בליסטי ששוגר לעבר נג'ראן",
+    "summary": "כוחות הקואליציה יירטו והשמידו טיל בליסטי ששוגר על ידי החות'ים לעבר מרחב נג'ראן בסעודיה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T20:03:38+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T20:03:38+00:00",
+    "last_update_at": "2026-10-22T20:03:38+00:00",
+    "what_is_not_verified": "אין פרטים מאומתים מחוץ להודעת הקואליציה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_9f2c0890de17ec04",
+      "url": "https://www.sabanew.net/viewstory/154473",
+      "published_at": "2026-10-22T20:03:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נג'ראן, סעודיה",
+      "lat": 17.544,
+      "lon": 44.2247
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10222345-03",
+    "title": "הרוגים ופצועים במתקפה חות'ית על נמל התעופה בדמאם",
+    "summary": "מתקפה לילית של החות'ים על נמל התעופה בדמאם שבמזרח סעודיה גרמה למותם של שני בני אדם ולפציעת שמונה נוספים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T07:59:49+00:00",
+    "last_update_at": "2026-10-22T13:46:33+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק שנמצא בבדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:46:33+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/two-dead-eastern-saudi-airport-attack-aviation-authority",
+      "published_at": "2026-10-22T07:59:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10222345-04",
+    "title": "פינוי מטה חברת ארמקו בדהראן עקב התגברות המתקפות",
+    "summary": "חברת הנפט הסעודית ארמקו הורתה לעובדיה לפנות את מטה החברה בדהראן ולעבור לעבודה מרחוק בעקבות התרעות ומתקפות חות'יות חוזרות.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T12:40:47+00:00",
+    "last_update_at": "2026-10-22T15:35:58+00:00",
+    "what_is_not_verified": "סיבת האזעקה במטה ומידת הנזק המדויקת שנגרמה במתקפות קודמות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-aramco-tells-staff-evacuate-dhahran-clashes-yemens-houthis",
+      "published_at": "2026-10-22T15:35:58+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-aramco-evacuates-hq-first-time-yemen-war-resumed",
+      "published_at": "2026-10-22T14:55:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-aramco-tells-staff-evacuate-dhahran-clashes-yemens-houthis-continue",
+      "published_at": "2026-10-22T12:46:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/aramco-evacuates-staff-saudi-arabia-braces-potential-houthi-escalation-what-know",
+      "published_at": "2026-10-22T12:40:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהראן, סעודיה",
+      "lat": 26.2967,
+      "lon": 50.1202
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10222345-05",
+    "title": "ארצות הברית מורה לחלק מהדיפלומטים לעזוב את סעודיה",
+    "summary": "מחלקת המדינה האמריקנית הורתה לדיפלומטים ולבני משפחות של עובדי ממשל לעזוב את סעודיה עקב הסלמת שיגורי הטילים והכטב\"מים של החות'ים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T01:07:34+00:00",
+    "last_update_at": "2026-10-22T13:05:30+00:00",
+    "what_is_not_verified": "מספרם המדויק של אנשי הסגל שעזבו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "published_at": "2026-10-22T13:05:30+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T01:07:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10222345-06",
+    "title": "הפרלמנט המצרי דוחה הצבעה על סיוע צבאי לסעודיה",
+    "summary": "הפרלמנט בקהיר דחה ל-26 באוקטובר הצבעה על אישור סיוע צבאי להגנה על סעודיה מול התקפות החות'ים, במקביל למגעים דיפלומטיים בריאד.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T09:00:13+00:00",
+    "last_update_at": "2026-10-22T21:14:12+00:00",
+    "what_is_not_verified": "האופי המדויק של התמיכה הצבאית הנבחנת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egypt-calls-yemen-talks-parliament-weighs-military-support-saudi-arabia",
+      "published_at": "2026-10-22T21:14:12+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypt-calls-yemen-talks-parliament-weighs-military-support-saudi-arabia",
+      "published_at": "2026-10-22T18:46:31+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypt-delays-vote-military-support-saudis-yemen-war",
+      "published_at": "2026-10-22T10:51:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/egypt-weighs-yemen-intervention-ghosts-1960s-war-loom",
+      "published_at": "2026-10-22T09:00:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10222345-07",
+    "title": "פגיעות באזרחים מהפגזות וצליפה של החות'ים בתעז",
+    "summary": "חמישה אזרחים ובהם שני ילדים נפגעו מירי צלפים ומהפגזות של החות'ים, לצד פגיעה במסגד ובבית ספר במרחב ג'בל סבר בדרום תעז.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T14:10:50+00:00",
+    "last_update_at": "2026-10-22T16:03:53+00:00",
+    "what_is_not_verified": "חומרת הפציעות של כלל הנפגעים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_d2283383767d87b4",
+      "url": "https://www.sabanew.net/viewstory/154464",
+      "published_at": "2026-10-22T16:03:53+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_66aaa1dcd82d7cfe",
+      "url": "https://www.sabanew.net/viewstory/154452",
+      "published_at": "2026-10-22T14:10:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10222345-08",
+    "title": "טענה חות'ית לתקיפת משרד ההגנה הסעודי",
+    "summary": "החות'ים טענו כי שיגרו מתקפה לעבר מטה משרד ההגנה הסעודי בבירה ריאד.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T12:29:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T12:29:10+00:00",
+    "last_update_at": "2026-10-22T12:29:10+00:00",
+    "what_is_not_verified": "עצם הפגיעה או השיגור בפועל לעבר משרד ההגנה לא אומתו על ידי מקור רשמי סעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48821",
+      "published_at": "2026-10-22T12:29:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10222345-09",
+    "title": "טענות על סיוע מודיעיני ישראלי לסעודיה במאבק בחות'ים",
+    "summary": "גורם ביטחוני אישר כי קהילת המודיעין הישראלית מסייעת לצבא הסעודי בבניית בנק מטרות נגד החות'ים בתיווך אמריקני, לצד דיווחים סותרים על דחיית הסיוע בידי ריאד.",
+    "axis": "ישראל - סעודיה - חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T09:00:13+00:00",
+    "last_update_at": "2026-10-22T16:49:59+00:00",
+    "what_is_not_verified": "האם סעודיה קיבלה את הסיוע המודיעיני או דחתה אותו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48830",
+      "published_at": "2026-10-22T16:49:59+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958503",
+      "published_at": "2026-10-22T12:16:54+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/egypt-weighs-yemen-intervention-ghosts-1960s-war-loom",
+      "published_at": "2026-10-22T09:00:13+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים על תקיפת משרד ההגנה הסעודי בריאד לא אומתה.",
+   "הדיווחים על קבלת או דחיית סיוע מודיעיני מישראל על ידי סעודיה סותרים ולא אומתו.",
+   "היקף הנזק המדויק במטה ארמקו בדהראן ובנמל התעופה בדמאם נותר שנוי במחלוקת או בבדיקה.",
+   "אופי וממדי ההתערבות הצבאית המצרית הפוטנציאלית אינם מאומתים."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1079,
+    "unit": "ILS",
+    "change_pct": 0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "הטלת מצור ימי בים האדום ופגיעה באינטרסים סעודיים.",
+     "הצבת אפשרות לפלישה קרקעית לשטח סעודיה."
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי כבד על סעודיה כדי לכפות ויתורים במלחמת האזרחים ובשליטה בחוף הים האדום."
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר תשתיות אנרגיה ותעופה אזרחיות במפרץ."
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על שטח הממלכה ויירוט האיומים האוויריים של החות'ים.",
+     "סיום האיום החות'י והמשך תמיכה בממשלת תימן המוכרת."
+    ],
+    "inferred": [
+     "שמירה על רציפות ייצוא הנפט והרגעת השווקים הפיננסיים והדיפלומטיים."
+    ],
+    "forecast": [
+     "הגברת פעולות הסיכול האוויריות וגיוס תמיכה אזורית ממצרים ומבעלות ברית."
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "מיצוי כל הזדמנות לפתרון דיפלומטי של מלחמת תימן.",
+     "בחינת סיוע להגנת סעודיה והסחר הימי."
+    ],
+    "inferred": [
+     "חשש מהישאבות לעימות צבאי ישיר המעורר זיכרונות היסטוריים שליליים והתנגדות איראנית."
+    ],
+    "forecast": [
+     "הגבלת המעורבות, אם תאושר, למשימות הגנה ימית ויירוט בלבד."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/egypt-calls-yemen-talks-parliament-weighs-military-support-saudi-arabia",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egypt-calls-yemen-talks-parliament-weighs-military-support-saudi-arabia",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/egypt-weighs-yemen-intervention-ghosts-1960s-war-loom",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154452",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48830",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958503",
+    "accessed_at": "2026-10-22T23:45:34+00:00"
+   }
+  ]
+ }
+}

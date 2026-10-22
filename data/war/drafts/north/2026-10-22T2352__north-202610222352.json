@@ -1,0 +1,446 @@
+{
+ "status": "draft",
+ "received_sha256_12": "eb0d446ec8a8",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 2,
+   "shared_root": 2,
+   "initial": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-22T23:52:33+00:00",
+  "window": {
+   "from": "2026-10-21T23:52:33+00:00",
+   "to": "2026-10-22T23:52:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610222352"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית שוטפת של ישראל בדרום לבנון ובדרום סוריה הכוללת תקיפות, פיצוצים יזומים ופעילות קרקעית נקודתית, במקביל למגעים ביטחוניים ללא הכרעה מול לבנון. בתוך לבנון מתחדדת המחלוקת הפוליטית הפנימית סביב סוגיית החזקת הנשק הבלתי מורשה, בעוד השלטון הסורי החדש מרכז מאמצים בהעמדה לדין של בכירי משטר אסד. טורקיה שומרת על מתיחות גאו-פוליטית ברקע העימותים האזוריים והסכמיה הימיים בים התיכון.",
+  "fronts": [
+   {
+    "name": "חזית דרום לבנון",
+    "status": "לחימה בעצימות נמוכה, תקיפות אוויריות, ירי ארטילרי ופיצוצים יזומים לצד שיחות צבאיות ללא התקדמות"
+   },
+   {
+    "name": "חזית דרום סוריה",
+    "status": "פשיטות צבאיות ישראליות נקודתיות, ירי והפעלת צלפים במחוזות דרעא וקוניטרה"
+   },
+   {
+    "name": "הזירה הפוליטית-ביטחונית הפנים-לבנונית",
+    "status": "משבר בממשלה ודרישה להגבלת הנשק לצבא ולמנגנוני הביטחון בעקבות הברחות חומרי נפץ"
+   },
+   {
+    "name": "הזירה הפנים-סורית (שלטון המעבר)",
+    "status": "רדיפה משפטית וצווי מעצר בינלאומיים נגד ראשי המשטר המודח"
+   },
+   {
+    "name": "ציר טורקיה - מזרח הים התיכון",
+    "status": "מתיחות מדינית סביב הסכמי גבולות ימיים מול קפריסין, יוון וישראל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10222352-01",
+    "title": "תקיפות והפגזות צה\"ל בדרום לבנון ופעילות בכפרים",
+    "summary": "כוחות ישראליים ביצעו תקיפות אוויריות, ירי ארטילרי ופיצוצים יזומים במספר מוקדים בדרום לבנון, כולל כניסת כוח רגלי וטנקים לפאתי עיירה.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T09:33:49+00:00",
+    "last_update_at": "2026-10-22T21:38:05+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזקים המדויק אינו מפורט במקורות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_1d45196b8f65cbd3",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380323",
+      "published_at": "2026-10-22T21:38:05+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_1d45196b8f65cbd3",
+      "url": "https://english.almanar.com.lb/article/141532/",
+      "published_at": "2026-10-22T17:57:10+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_049433f4d9f12a0d",
+      "url": "https://english.almanar.com.lb/article/141522/",
+      "published_at": "2026-10-22T17:02:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_1d45196b8f65cbd3",
+      "url": "https://t.me/abualiexpress/132365",
+      "published_at": "2026-10-22T15:47:36+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_492cdb41ebd4a196",
+      "url": "https://english.almanar.com.lb/article/141482/",
+      "published_at": "2026-10-22T15:29:38+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_1d45196b8f65cbd3",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-shelling-hit-southern-lebanon-as-military-force-advances-into-town/4096936",
+      "published_at": "2026-10-22T09:33:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10222352-02",
+    "title": "תקרית ירי למוות של אזרח סורי בעל מוגבלות בידי צה\"ל",
+    "summary": "אזרח סורי בעל מוגבלות נורה למוות בידי כוחות צה\"ל במהלך כניסה לכפר במחוז דרעא שבדרום סוריה, אירוע שעורר גינויים והפגנות.",
+    "axis": "דרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T16:43:50+00:00",
+    "last_update_at": "2026-10-22T20:29:31+00:00",
+    "what_is_not_verified": "נסיבות הירי המדויקות שנויות במחלוקת בין טענת צה\"ל על נוהל מעצר חשוד לטענות הסוריות על ירי צלפים לעבר אזרח לא חמוש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-kill-man-disability-southern-syria-authorities-say",
+      "published_at": "2026-10-22T20:29:31+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/un-condemns-killing-of-syrian-civilian-with-disability-by-israeli-forces-in-southern-syria/4097829",
+      "published_at": "2026-10-22T20:13:03+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hyfusqp3zl",
+      "published_at": "2026-10-22T16:43:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10222352-03",
+    "title": "פיצוץ מבנה נטוש וירי לעבר שטחים חקלאיים בדרום סוריה",
+    "summary": "כוחות צה\"ל פוצצו בית נטוש ופתחו באש לעבר קרקעות חקלאיות באזור הכפרי של קוניטרה.",
+    "axis": "דרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T15:52:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T15:52:58+00:00",
+    "last_update_at": "2026-10-22T15:52:58+00:00",
+    "what_is_not_verified": "לא נמסרו פרטים לגבי פגיעות בנפש או סיבת הפיצוץ המדויקת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-blow-up-abandoned-house-open-fire-on-farmland-in-southern-syria/4097608",
+      "published_at": "2026-10-22T15:52:58+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10222352-04",
+    "title": "מבוי סתום בשיחות צבאיות בין לבנון לישראל בארצות הברית",
+    "summary": "יומיים של שיחות צבאיות במפקדת פיקוד המרכז של צבא ארצות הברית בטמפה הסתיימו ללא פריצת דרך בשל מחלוקות סביב מנגנון הפיקוח והמשך הפעילות הישראלית.",
+    "axis": "לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T14:16:41+00:00",
+    "last_update_at": "2026-10-22T19:18:07+00:00",
+    "what_is_not_verified": "האם ייקבעו פגישות המשך ישירות או שיחות בלעדיות עם צבא ארה\"ב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21690463",
+      "published_at": "2026-10-22T19:18:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/lebanon-israel-talks-us-end-without-breakthrough",
+      "published_at": "2026-10-22T14:16:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טמפה, ארצות הברית",
+      "lat": 27.945,
+      "lon": -82.4583
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10222352-05",
+    "title": "הטלת סנקציה ישראלית על חברת אנרגיה בגין אספקת דלק לחיזבאללה",
+    "summary": "ישראל הטילה סנקציות על חברה הרשומה בבריטניה ונמצאת בבעלות לבנונית, בעקבות אספקת דלק בהיקף נרחב לחברה שבבעלות חיזבאללה.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-22T14:43:14+00:00",
+    "last_update_at": "2026-10-22T14:43:14+00:00",
+    "what_is_not_verified": "תגובת החברה המואשמת או ממשלת בריטניה לא פורטה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21688326",
+      "published_at": "2026-10-22T14:43:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10222352-06",
+    "title": "משבר בממשלת לבנון סביב פרשת הובלת חומרי הנפץ",
+    "summary": "שרי מפלגת הכוחות הלבנוניים נטשו ישיבת ממשלה במחאה על דחיית ההחלטה להעביר את תיק משאית חומרי הנפץ בדהר אל-בידר למועצה המשפטית, בעוד ראש הממשלה ונשיא לבנון קוראים לבלעדיות הנשק בידי המדינה.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T12:00:15+00:00",
+    "last_update_at": "2026-10-22T16:30:34+00:00",
+    "what_is_not_verified": "זהות הגורמים המדויקים שהובילו את חומרי הנפץ מעבר להצהרות כלליות על כך שהגורם המעורב זיהה את עצמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_fb5de90096a8cf62",
+      "url": "https://english.almanar.com.lb/article/141502/",
+      "published_at": "2026-10-22T16:30:34+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_fb5de90096a8cf62",
+      "url": "https://www.aa.com.tr/en/middle-east/lebanese-president-warns-regional-tensions-could-spiral-into-wider-escalation/4097665",
+      "published_at": "2026-10-22T16:29:44+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_91b0f0db07f7c75f",
+      "url": "https://english.almanar.com.lb/article/141477/",
+      "published_at": "2026-10-22T16:10:09+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb5de90096a8cf62",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/964269/lebanese-forces-ministers-walk-out-of-cabinet-over-failure-to-refer-ex/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964269",
+      "published_at": "2026-10-22T13:28:38+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb5de90096a8cf62",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/964255/salam-warns-unauthorized-weapons-storage-and-transport-threaten-public/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964255",
+      "published_at": "2026-10-22T12:43:05+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_fb5de90096a8cf62",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/964241/lebanons-president-calls-for-restraint-amid-regional-tensions-reaffirm/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964241",
+      "published_at": "2026-10-22T12:00:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ארמון בעבדא, לבנון",
+      "lat": 33.8419,
+      "lon": 35.5393
+     },
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8109,
+      "lon": 35.7661
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10222352-07",
+    "title": "צעדים משפטיים של הרשויות החדשות בסוריה נגד בכירי המשטר הקודם",
+    "summary": "הרשויות המשפטיות בסוריה העבירו צווי מעצר לאינטרפול נגד בשאר אל-אסד ואחיו מאהר, ועצרו קצין בדרגת תת-אלוף ומעורבים נוספים בחשד לביצוע פשעים נגד אזרחים.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T15:00:42+00:00",
+    "last_update_at": "2026-10-22T16:33:26+00:00",
+    "what_is_not_verified": "מידת שיתוף הפעולה הבינלאומי של האינטרפול בפועל לגבי הצווים שהועברו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-sends-arrest-warrants-bashar-maher-assad-interpol",
+      "published_at": "2026-10-22T16:33:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-arrests-assad-era-brigadier-general-over-civilian-attacks",
+      "published_at": "2026-10-22T15:00:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "חמאת, סוריה",
+      "lat": 35.1343,
+      "lon": 36.7496
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "נסיבות הריגתו של האזרח הסורי בעל המוגבלות בכפר ג'מלה שנויות במחלוקת בין צה\"ל למקורות סוריים",
+   "ההשתייכות הארגונית הרשמית של מפעילי משאית חומרי הנפץ בדהר אל-בידר לא אומתה בטקסט",
+   "מידת ההתקדמות בשיחות בין צבא ארה\"ב למשלחות ישראל ולבנון לאחר סיום סבב השיחות בטמפה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1079,
+    "unit": "ILS",
+    "change_pct": 0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-22T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "חיסול איומים ביטחוניים סמוך לגבול בסוריה ובלבנון",
+     "פגיעה בתשתיות לוגיסטיות ואספקת דלק של חיזבאללה"
+    ],
+    "inferred": [
+     "מניעת התבססות מחודשת של חיזבאללה מדרום לליטני",
+     "יצירת לחץ צבאי וכלכלי מתמשך על ציר ההתנגדות בלבנון וסוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות ופיצוצי מבנים באזורי הגבול",
+     "החרפת הלחץ הדיפלומטי והכלכלי על ערוצי האספקה של חיזבאללה"
+    ]
+   },
+   {
+    "actor": "לבנון (הממשלה הרשמית)",
+    "declared": [
+     "בלעדיות נשק והחלטות מלחמה ושלום בידי המדינה וכוחות הביטחון המורשים בלבד",
+     "דרישה לפיקוח בינלאומי והדדיות ביישום ההסכמים מול ישראל"
+    ],
+    "inferred": [
+     "חשש מהיגררות לעימות כולל ושאיפה להכיל את פעילות חיזבאללה",
+     "שמירה על יציבות השלטון והכלכלה מפני קריסה פנימית נוספת"
+    ],
+    "forecast": [
+     "המשך מתחים פוליטיים וחרמות שרים על רקע חקירות נשק בלתי חוקי",
+     "התבצרות בעמדה הדורשת פיקוח צד שלישי בשיחות מול ישראל וארה\"ב"
+    ]
+   },
+   {
+    "actor": "סוריה (השלטון החדש)",
+    "declared": [
+     "גינוי הפגיעה בריבונות המדינה ובאזרחיה מצד צה\"ל ודרישה לאכיפת הדין הבינלאומי",
+     "העמדה לדין וענישת בכירי המשטר הקודם של אסד בגין פשעים נגד אזרחים"
+    ],
+    "inferred": [
+     "ביסוס לגיטימציה שלטונית פנימית ובינלאומית דרך רדיפת סמלי השלטון המודח",
+     "ניסיון למנוע עימות צבאי ישיר מול ישראל בעת תקופת המעבר"
+    ],
+    "forecast": [
+     "המשך הוצאת צווי מעצר והליכים משפטיים נגד אנשי צבא וביטחון לשעבר",
+     "המשך תלונות דיפלומטיות נגד פעילות צה\"ל בדרום המדינה ללא תגובה צבאית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/141477/",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/lebanese-president-warns-regional-tensions-could-spiral-into-wider-escalation/4097665",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21688326",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/964241/lebanons-president-calls-for-restraint-amid-regional-tensions-reaffirm/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964241",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1380323",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-kill-man-disability-southern-syria-authorities-say",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-arrests-assad-era-brigadier-general-over-civilian-attacks",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132365",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hyfusqp3zl",
+    "accessed_at": "2026-10-22T23:52:33+00:00"
+   }
+  ]
+ }
+}

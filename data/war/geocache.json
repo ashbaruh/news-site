@@ -243,6 +243,10 @@
 47.0884,
 39.4241
 ],
+"baabda palace, lebanon": [
+33.8419,
+35.5393
+],
 "baalbek, lebanon": [
 34.0097,
 36.2117
@@ -525,6 +529,10 @@
 "dahr al-baidar, lebanon": [
 33.8103,
 35.7619
+],
+"dahr al-baydar, lebanon": [
+33.8109,
+35.7661
 ],
 "dahr el baydar, lebanon": [
 33.8109,
@@ -956,6 +964,10 @@
 "khamis mushait, saudi arabia": [
 18.3,
 42.7333
+],
+"khan yunis, gaza strip": [
+31.3995,
+34.3032
 ],
 "khanskaya air base, adygea, russia": [
 44.6783,
@@ -1520,6 +1532,7 @@
 ],
 "quneitra countryside, syria": null,
 "quneitra, syria": null,
+"rab tlateen, lebanon": null,
 "raf akrotiri, cyprus": null,
 "raf fairford, england": [
 51.6851,
