@@ -1,77 +1,89 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-22T04:00:00+03:00",
- "generated_at": "2026-10-22T00:40:26+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-22T12:00:00+03:00",
+ "generated_at": "2026-10-22T08:40:29+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10220040-01",
-     "title": "תקיפה אמריקאית באי סיריק",
-     "summary": "הכוחות האמריקאיים תקפו משגר טילים שהוצב באי סיריק שבאיראן.",
+     "id": "IRAN-10220840-01",
+     "title": "חיל הים של משמרות המהפכה טוען לפגיעה בכלי שיט במפרץ ובמצר הורמוז",
+     "summary": "חיל הים של משמרות המהפכה האיראניים הודיע כי ארבעה כלי שיט נפגעו ועלו באש בעת העברת נפט בצפון המפרץ, ושלושה כלי שיט נוספים נפגעו ממוקשים מערבית למצר הורמוז.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T23:51:09+00:00",
+     "occurred_at": "2026-10-22T05:46:29+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T23:51:09+00:00",
-     "last_update_at": "2026-10-21T23:51:09+00:00",
-     "what_is_not_verified": "לא ידועים פרטים מלאים על היקף הנזק מעבר לעצם התקיפה.",
+     "first_reported_at": "2026-10-22T05:46:29+00:00",
+     "last_update_at": "2026-10-22T07:44:47+00:00",
+     "what_is_not_verified": "לא אומת באופן עצמאי האם כלי השיט אכן נפגעו וממי ספגו את הפגיעות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48806",
-       "published_at": "2026-10-21T23:51:09+00:00"
+       "url": "https://en.irna.ir/news/86300121/IRGC-Navy-says-four-oil-carrying-ships-hit-in-Persian-Gulf",
+       "published_at": "2026-10-22T07:44:47+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response",
+       "published_at": "2026-10-22T05:46:29+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10220040-02",
-     "title": "שיגור טילים בליסטיים לעבר מיצר הרמוז",
-     "summary": "דווח על שיגור טילים בליסטיים איראניים מהאי סיריק לכיוון מיצר הרמוז.",
+     "id": "IRAN-10220840-02",
+     "title": "סגירת סניף המבורג של בנק סאדראת האיראני בהוראת הרגולטור הגרמני",
+     "summary": "רשות הפיקוח הפיננסי בגרמניה שללה את רישיון הבנקאות מסניף המבורג של בנק סאדראת האיראני והורתה על פירוקו והפסקת פעילותו.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T21:19:10+00:00",
+     "occurred_at": "2026-10-22T06:07:14+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T21:19:10+00:00",
-     "last_update_at": "2026-10-21T21:19:10+00:00",
-     "what_is_not_verified": "זהות הפגיעות או התוצאות המדויקות של השיגורים אינן מפורטות.",
+     "first_reported_at": "2026-10-22T06:07:14+00:00",
+     "last_update_at": "2026-10-22T06:07:14+00:00",
+     "what_is_not_verified": "לא מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48800",
-       "published_at": "2026-10-21T21:19:10+00:00"
+       "source_id": "src_iranintl",
+       "source_root_id": "or_bafin",
+       "url": "https://www.iranintl.com/en/202610224573",
+       "published_at": "2026-10-22T06:07:14+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "המבורג, גרמניה",
+       "lat": 53.5502,
+       "lon": 10.0013
+      }
+     ]
     },
     {
-     "id": "IRAN-10220040-03",
-     "title": "פגישה ראשונה בין יו\"ר הפרלמנט למנהיג העליון באיראן",
-     "summary": "יו\"ר הפרלמנט האיראני נפגש עם המנהיג העליון מוג'תבא ח'אמנאי, בפגישה ראשונה דווחת בין השניים.",
+     "id": "IRAN-10220840-03",
+     "title": "הריאל האיראני הגיע לשפל חדש במסחר",
+     "summary": "שער המטבע של איראן ירד לשיא שלילי חדש של 2.73 מיליון ריאל לדולר אמריקאי בודד לאחר מספר שבועות של יציבות יחסית.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T17:17:28+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-21T17:17:28+00:00",
-     "last_update_at": "2026-10-21T17:17:28+00:00",
-     "what_is_not_verified": "תוכן השיחות המלא בין השניים אינו מפורט מעבר לעצם קיום הפגישה.",
+     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T08:36:22+00:00",
+     "last_update_at": "2026-10-22T08:36:22+00:00",
+     "what_is_not_verified": "לא מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_lelotsenzura",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94736",
-       "published_at": "2026-10-21T17:17:28+00:00"
+       "url": "https://t.me/abualiexpress/132344",
+       "published_at": "2026-10-22T08:36:22+00:00"
       }
      ],
      "places": []
@@ -81,31 +93,101 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10220040-01",
-     "title": "תקיפות והרס בדרום לבנון",
-     "summary": "כוחות ישראל ביצעו סדרת תקיפות אוויריות ופעולות הריסה נרחבות באמצעות חומרי נפץ באזורים שונים בדרום לבנון.",
+     "id": "NORTH-10220840-01",
+     "title": "אדם עם מוגבלות נהרג מירי כוחות צבא בפשיטה בדרום סוריה",
+     "summary": "כלי תקשורת בסוריה דיווחו כי אזרח עם מוגבלות נהרג מאש כוחות צה\"ל במהלך כניסה וחיפושים בכפר ג'מלה שבמחוז דרעא.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T22:30:49+00:00",
+     "occurred_at": "2026-10-22T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T22:30:49+00:00",
-     "last_update_at": "2026-10-21T22:30:49+00:00",
-     "what_is_not_verified": "היקף הנפגעים המלא אינו מפורט בדיווח.",
+     "first_reported_at": "2026-10-22T01:52:18+00:00",
+     "last_update_at": "2026-10-22T08:12:58+00:00",
+     "what_is_not_verified": "נסיבות הירי והאחריות למותו של האזרח לא אומתו באופן בלתי תלוי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/israel-kills-man-disability-syria-report",
+       "published_at": "2026-10-22T08:12:58+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-troops-shoot-dead-man-disabilities-syrias-daraa",
+       "published_at": "2026-10-22T04:19:55+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-incursion-reported-syrias-daraa",
+       "published_at": "2026-10-22T01:52:18+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ג'מלה, סוריה",
+       "lat": 35.1005,
+       "lon": 36.3496
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10220840-02",
+     "title": "התקדמות כוחות צבאיים לעבר כפר במחוז קוניטרה בסוריה",
+     "summary": "הטלוויזיה הממלכתית בסוריה דיווחה על כניסת כוחות צבא המלווים בכלים צבאיים רבים אל תוך הכפר תרנג'ה בדרום המדינה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T06:26:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-22T06:26:35+00:00",
+     "last_update_at": "2026-10-22T06:26:35+00:00",
+     "what_is_not_verified": "היקף הכוחות והפעילות בשטח לא אומתו עצמאית מעבר לדיווח הטלוויזיה הסורית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-air-strikes-demolitions-across-southern-lebanon",
-       "published_at": "2026-10-21T22:30:49+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-advance-village-syrias-quneitra",
+       "published_at": "2026-10-22T06:26:35+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10220840-03",
+     "title": "תקיפות ארטילריה וירי מקלעים בעיירות בדרום לבנון",
+     "summary": "כתב רשת אל-מנאר דיווח על ירי ארטילרי ואש מקלעים שביצע צה\"ל במהלך שעות הלילה לעבר אזורים שונים בדרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-22T06:54:39+00:00",
+     "last_update_at": "2026-10-22T07:24:28+00:00",
+     "what_is_not_verified": "פרטי הפגיעות והיקף הנזק לא אומתו ממקור עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_0f1302ee92304c29",
+       "url": "https://english.almanar.com.lb/article/141217/",
+       "published_at": "2026-10-22T07:24:28+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_9bbd16b5a533be4f",
+       "url": "https://english.almanar.com.lb/article/141197/",
+       "published_at": "2026-10-22T06:54:39+00:00"
       }
      ],
      "places": [
       {
-       "name": "כפר טבנית, לבנון",
-       "lat": 33.3519,
-       "lon": 35.5186
+       "name": "חאריס, לבנון",
+       "lat": 33.1768,
+       "lon": 35.3799
       }
      ]
     }
@@ -114,59 +196,36 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10220040-01",
-     "title": "תקיפת כטב\"מים באזור ליפצק",
-     "summary": "כטב\"מים אוקראינים תקפו בניין רב-קומות וגרמו לפיצוצים בעיר ליפצק שברוסיה.",
+     "id": "UKRAINE-10220840-01",
+     "title": "מתקפה משולבת נרחבת של רוסיה על קייב ואזורים נוספים באוקראינה",
+     "summary": "רוסיה שיגרה מתקפת לילה מסיבית באמצעות טילים בליסטיים ומאות כטב\"מים לעבר קייב ומחוזות נוספים, שגרמה להרוגים, עשרות פצועים ולפגיעה בתשתיות ובבתי מגורים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T23:06:40+00:00",
+     "occurred_at": "2026-10-22T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T23:06:40+00:00",
-     "last_update_at": "2026-10-21T23:46:05+00:00",
-     "what_is_not_verified": "מלוא היקף הנזק והנפגעים טרם פורטו במלואם.",
+     "first_reported_at": "2026-10-22T07:17:00+00:00",
+     "last_update_at": "2026-10-22T07:38:19+00:00",
+     "what_is_not_verified": "המספר הכולל המדויק של הנפגעים וחלוקת הנזקים אינם אחידים בין הדיווחים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48803",
-       "published_at": "2026-10-21T23:06:40+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-9-injure-57-across-ukraine-as-kyiv-hit-by-mass-missile-drone-attack/",
+       "published_at": "2026-10-22T07:38:19+00:00"
       },
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/explosion-fires-reported-amid-overnight-ukrainian-drone-attack-on-lipetsk-russia/",
-       "published_at": "2026-10-21T23:46:05+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://meduza.io/en/news/2026/10/22/russia-strikes-kyiv-hours-after-putin-meets-with-trump-envoy-witkoff-killing-one-and-injuring-more-than-20",
+       "published_at": "2026-10-22T07:38:08+00:00"
+      },
       {
-       "name": "ליפצק, רוסיה",
-       "lat": 52.6051,
-       "lon": 39.5964
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10220040-02",
-     "title": "פגיעת טילים בליסטיים בקייב",
-     "summary": "טילים בליסטיים רוסיים פגעו במספר מוקדים בבירה קייב, מה שהוביל לפציעתם של שישה בני אדם ולנזק בתשתיות ובמבנים.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-21T22:22:41+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-21T22:22:41+00:00",
-     "last_update_at": "2026-10-21T22:22:41+00:00",
-     "what_is_not_verified": "חומרת הפציעות המדויקת של הפצועים אינה מפורטת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-       "published_at": "2026-10-21T22:22:41+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4176945-ukraines-air-defenses-down-over-180-russian-drones-used-to-attack-ukraine-overnight.html",
+       "published_at": "2026-10-22T07:17:00+00:00"
       }
      ],
      "places": [
@@ -178,31 +237,65 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-10220040-03",
-     "title": "שחרור אסיר אמריקאי ברוסיה",
-     "summary": "נשיא רוסיה ולדימיר פוטין הורה על שחרורו של אזרח אמריקאי שהוחזק בכלא רוסי, לבקשת ארצות הברית.",
+     "id": "UKRAINE-10220840-02",
+     "title": "התקדמות כוחות אוקראינה דרך נתיבים תת-קרקעיים בגזרת קופיאנסק",
+     "summary": "כוחות ההגנה של אוקראינה התקדמו מעל 15 קילומטרים דרך נתיבי שירות ותשתיות תת-קרקעיות לתוך עורף הכוחות הרוסיים בגזרת קופיאנסק.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T21:23:37+00:00",
+     "occurred_at": "2026-10-22T08:32:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T21:23:37+00:00",
-     "last_update_at": "2026-10-21T21:23:37+00:00",
-     "what_is_not_verified": "ההסכמות המלאות מאחורי שחרור האסיר אינן מפורטות.",
+     "first_reported_at": "2026-10-22T08:32:00+00:00",
+     "last_update_at": "2026-10-22T08:32:00+00:00",
+     "what_is_not_verified": "ההתקדמות בשטח לא אומתה על ידי מקורות נוספים או תיעוד בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
+       "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
-       "published_at": "2026-10-21T21:23:37+00:00"
+       "url": "https://www.ukrinform.net/rubric-ato/4176988-ukrainian-forces-advance-15-km-behind-russian-lines-through-underground-routes-on-kupiansk-front.html",
+       "published_at": "2026-10-22T08:32:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "סנקט פטרבורג, רוסיה",
-       "lat": 59.9387,
-       "lon": 30.3162
+       "name": "קופיאנסק, אוקראינה",
+       "lat": 49.7133,
+       "lon": 37.6142
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10220840-03",
+     "title": "מתקפת כטב\"מים אוקראינית פגעה במפעל ביטחוני ובמוסקבה",
+     "summary": "מתקפת כטב\"מים של צבא אוקראינה פגעה במפעל נשק ותחמושת של משרד ההגנה בסרפוחוב וגרמה לפציעת שני בני אדם באזור מוסקבה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-22T07:24:02+00:00",
+     "last_update_at": "2026-10-22T07:24:02+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק במפעל הביטחוני לא אומת באופן רשמי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/22/ukrainian-drone-attacks-on-moscow-and-surrounding-region-leave-two-injured",
+       "published_at": "2026-10-22T07:24:02+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סרפוחוב, רוסיה",
+       "lat": 54.9155,
+       "lon": 37.4196
+      },
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
@@ -211,76 +304,82 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10220040-01",
-     "title": "יירוט כטב\"מים מעל המחוז המזרחי בסעודיה",
-     "summary": "הקואליציה בהובלת סעודיה הודיעה שמערכות ההגנה האווירית ירטו והשמידו ארבעה כטב\"מים במחוז המזרחי של המדינה.",
+     "id": "YEMEN-10220840-01",
+     "title": "הרוגים ופצועים בתקיפה בנמל התעופה בדמאם בסעודיה",
+     "summary": "רשות התעופה האזרחית בסעודיה עדכנה כי שני בני אדם נהרגו ושמונה נוספו נפצעו במתקפה לילית על נמל התעופה בדמאם.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T22:38:35+00:00",
+     "occurred_at": "2026-10-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-21T22:38:35+00:00",
-     "last_update_at": "2026-10-21T22:38:35+00:00",
-     "what_is_not_verified": "זהות הגורם המדויק ששיגר את הכלים לא צוינה מעבר להקשר הכללי.",
+     "first_reported_at": "2026-10-22T07:59:49+00:00",
+     "last_update_at": "2026-10-22T07:59:49+00:00",
+     "what_is_not_verified": "האמצעי המדויק שפגע בנמל התעופה והיקף הנזק המלא נמצאים עדיין בבדיקה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_5c1f470d6fa3c971",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern",
-       "published_at": "2026-10-21T22:38:35+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/two-dead-eastern-saudi-airport-attack-aviation-authority",
+       "published_at": "2026-10-22T07:59:49+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמאם, סעודיה",
+       "lat": 26.4368,
+       "lon": 50.104
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10220840-02",
+     "title": "ארה\"ב מורה לדיפלומטים ולמשפחותיהם לעזוב את סעודיה",
+     "summary": "מחלקת המדינה האמריקאית הורתה לחלק מהדיפלומטים ולבני משפחותיהם של עובדי ממשל לעזוב את סעודיה על רקע הסלמת התקיפות של החות'ים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T00:26:50+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T00:26:50+00:00",
+     "last_update_at": "2026-10-22T01:07:34+00:00",
+     "what_is_not_verified": "לא מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-22T01:07:34+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+       "published_at": "2026-10-22T00:26:50+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-10220040-02",
-     "title": "הוראת ארה\"ב לפינוי דיפלומטי מסעודיה",
-     "summary": "מחלקת המדינה של ארה\"ב הורתה לחלק מאנשי הסגל הדיפלומטי ובני משפחותיהם לעזוב את סעודיה על רקע מתקפות החות'ים.",
+     "id": "YEMEN-10220840-03",
+     "title": "שני אזרחים נהרגו מהפגזות חות'יות במחוז תעז בתימן",
+     "summary": "משרד הפנים התימני הודיע כי גבר וילדה נהרגו וחמישה אזרחים נוספים נפצעו כתוצאה מהפגזות של החות'ים ברחבי מחוז תעז.",
      "axis": "yemen",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T20:33:08+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-21T20:33:08+00:00",
-     "last_update_at": "2026-10-21T20:33:08+00:00",
-     "what_is_not_verified": "היקף העובדים הכולל שיתפנה מכלל נציגויות המפרץ אינו סופי לחלוטין.",
+     "occurred_at": "2026-10-22T03:55:04+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-22T03:55:04+00:00",
+     "last_update_at": "2026-10-22T03:55:04+00:00",
+     "what_is_not_verified": "לא מאומת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_1fb38203158ce5df",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-says-departure-orders-embassy-staff-saudi-arabia",
-       "published_at": "2026-10-21T20:33:08+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10220040-03",
-     "title": "פגז חות'י פגע בבית בעיר תעז",
-     "summary": "פגז ששיגרו החות'ים פגע בבית מגורים באזור סבר אל-מואדם שבדרום תעז, וכתוצאה מכך נפצעו שישה בני אדם ממשפחה אחת.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-21T20:01:02+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-21T20:01:02+00:00",
-     "last_update_at": "2026-10-21T20:01:02+00:00",
-     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים אינו מפורט מעבר לעצם הפציעה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/154413",
-       "published_at": "2026-10-21T20:01:02+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-civilians-killed-houthi-attacks-yemens-taiz",
+       "published_at": "2026-10-22T03:55:04+00:00"
       }
      ],
      "places": [
