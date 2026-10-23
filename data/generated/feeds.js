@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-23T18:17:23+00:00",
-  "fetched_at": "2026-10-23T18:17:23+00:00"
+  "checked_at": "2026-10-23T19:17:27+00:00",
+  "fetched_at": "2026-10-23T19:17:27+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Rescuers Ensure Orphaned Baby Walrus Gets a Second Chance (LOOK)",
+    "title_he": "כוחות ההצלה מבטיחים לתינוק וולרוס יתום הזדמנות שנייה (LOOK)",
+    "translated_by": "google",
+    "link": "https://www.goodnewsnetwork.org/rescuers-ensure-orphaned-baby-walrus-gets-a-second-chance-look/",
+    "date": "2026-10-23T18:30:31+00:00"
+   },
    {
     "title_en": "10-Year-Old Dog Found After a Month Lost in Yellowstone",
     "title_he": "כלב בן 10 נמצא אחרי חודש אבד בילוסטון",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/massive-70lb-dog-the-size-of-baby-hippo-sheds-lbs/",
     "date": "2026-10-17T13:51:35+00:00"
-   },
-   {
-    "title_en": "Largest Private Conservation Project in the US Hits Major Milestone as Free-Roaming Bison Pass 1,000",
-    "title_he": "פרויקט השימור הפרטי הגדול ביותר בארה\"ב הגיע לאבן דרך מרכזית כ-1,000 ביזונים בנדידה חופשית",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
-    "date": "2026-10-16T11:00:30+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T18:17:33+00:00",
-  "fetched_at": "2026-10-23T18:17:33+00:00"
+  "checked_at": "2026-10-23T19:17:37+00:00",
+  "fetched_at": "2026-10-23T19:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T18:17:34+00:00",
-  "fetched_at": "2026-10-23T18:17:34+00:00"
+  "checked_at": "2026-10-23T19:17:37+00:00",
+  "fetched_at": "2026-10-23T19:17:37+00:00"
  },
- "generated_at": "2026-10-23T18:17:34+00:00",
+ "generated_at": "2026-10-23T19:17:37+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אני ישיר, משמע אכפת לי: אמפתיה נוסח ישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560476",
-     "date": "2026-10-23T16:30:00+00:00"
+     "title": "סקר הסקרים: נתניהו או אייזנקוט? למי יש סיכוי גדול יותר להרכיב ממשלה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560613",
+     "date": "2026-10-23T18:41:00+00:00"
     },
     {
      "title": "שני לוחמי צה\"ל נפלו בפיגוע הירי בצומת יהודה",
@@ -99,9 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "מסכים אדומים בוול סטריט: דאו ג'ונס מאבד יותר מאחוז",
+     "title": "מאיראן ועד קוריאה הצפונית: הכלכלות שנשענות על שוק הקריפטו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560612",
+     "date": "2026-10-23T18:31:00+00:00"
+    },
+    {
+     "title": "וול סטריט חזרה לירידות: דאו ג'ונס מאבד יותר מאחוז",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560609",
-     "date": "2026-10-23T14:34:00+00:00"
+     "date": "2026-10-23T18:07:00+00:00"
     },
     {
      "title": "מדד ת״א 35 סוגר שבוע שלילי. ומי הסקטור שהוסיף 4.5%",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "נזקי עתק ומתיחות גוברת: צרפת חוששת מסוף שבוע אלים נוסף",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560426",
      "date": "2026-10-22T07:46:00+00:00"
-    },
-    {
-     "title": "לקוחה ראשונה במזרח הרחוק למערכת יירוט הרחפנים הישראלית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560412",
-     "date": "2026-10-22T04:46:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T18:17:24+00:00",
-  "fetched_at": "2026-10-23T18:17:24+00:00"
+  "checked_at": "2026-10-23T19:17:27+00:00",
+  "fetched_at": "2026-10-23T19:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T18:17:24+00:00",
-  "fetched_at": "2026-10-23T18:17:24+00:00"
+  "checked_at": "2026-10-23T19:17:28+00:00",
+  "fetched_at": "2026-10-23T19:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2991,8 +2991,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T18:17:26+00:00",
-  "fetched_at": "2026-10-23T18:17:26+00:00"
+  "checked_at": "2026-10-23T19:17:29+00:00",
+  "fetched_at": "2026-10-23T19:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3171,8 +3171,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T18:17:26+00:00",
-  "fetched_at": "2026-10-23T18:17:26+00:00"
+  "checked_at": "2026-10-23T19:17:29+00:00",
+  "fetched_at": "2026-10-23T19:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -3194,30 +3194,31 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 12,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 870,
+     "likes": 873,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 194,
+     "likes": 195,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 147,
+     "likes": 148,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
@@ -3231,7 +3232,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 792,
+     "likes": 793,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3245,7 +3246,7 @@ window.DB.generated = {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
@@ -3272,12 +3273,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T18:17:31+00:00",
-  "fetched_at": "2026-10-23T18:17:31+00:00"
+  "checked_at": "2026-10-23T19:17:35+00:00",
+  "fetched_at": "2026-10-23T19:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ביקורת בהולנד על אוסקר גלוך: \"חלש מדי, לא הולך עד הסוף\"",
+     "link": "https://sports.walla.co.il/item/3873481",
+     "date": "2026-10-23T18:49:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
     {
      "title": "\"רואה רק את עצמו, איזה אגו\": גלוך במוקד בהולנד",
      "link": "https://www.one.co.il/Article/536810.html?ref=rss",
@@ -3400,15 +3410,6 @@ window.DB.generated = {
      "title": "\"דני אבדיה בדרך להפוך לאחד הגדולים בתולדות פורטלנד\"",
      "link": "https://sports.walla.co.il/item/3873248",
      "date": "2026-10-21T17:37:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
-     "link": "https://sports.walla.co.il/item/3873071",
-     "date": "2026-10-21T10:00:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3615,8 +3616,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-23T18:17:28+00:00",
-  "fetched_at": "2026-10-23T18:17:28+00:00"
+  "checked_at": "2026-10-23T19:17:32+00:00",
+  "fetched_at": "2026-10-23T19:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3646,60 +3647,59 @@ window.DB.generated = {
     "date": "2026-10-22T17:28:47+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-23T18:17:28+00:00",
-  "fetched_at": "2026-10-23T17:17:19+00:00"
+  "ok": true,
+  "checked_at": "2026-10-23T19:17:32+00:00",
+  "fetched_at": "2026-10-23T19:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-23T16:35:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T18:41:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-23T14:34:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T18:07:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-23T14:34:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T18:31:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-23T18:05:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T18:49:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-23T15:45:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T19:17:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-23T17:30:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T19:11:00+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-23T15:02:06+00:00",
-    "seen_at": "2026-10-23T17:17:25+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3711,28 +3711,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-23T14:12:06+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "newest": "2026-10-23T18:30:31+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-23T17:18:44+00:00",
-    "seen_at": "2026-10-23T18:17:34+00:00",
+    "seen_at": "2026-10-23T19:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-23T18:17:34+00:00"
+  "checked_at": "2026-10-23T19:17:37+00:00"
  }
 };
