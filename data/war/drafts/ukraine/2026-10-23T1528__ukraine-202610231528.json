@@ -1,0 +1,521 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e3a54fa19bcd",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 4,
+   "initial": 7
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-23T15:28:58+00:00",
+  "window": {
+   "from": "2026-10-22T15:28:58+00:00",
+   "to": "2026-10-23T15:28:58+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610231528"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בחילופי מהלומות כבדים בעומק השטחים, לרבות תקיפות כטב\"מים וטילים על מוסקבה, אוריול, חרקיב, צ'רניהיב ודניפרו. במקביל להסלמה הצבאית ולפגיעות בנתיבי השיט, סוכם על מתווה מקומי ראשוני להפסקת אש הומניטרית בעיר אולשקי שבמחוז חרסון ובוצעה עסקת חילופי שבויים. עם זאת, המאמצים המדיניים להסדר כולל נתקלים במחלוקות טריטוריאליות חריפות סביב מעמד השטחים הכבושים בדונבאס.",
+  "fronts": [
+   {
+    "name": "אולשקי (מחוז חרסון)",
+    "status": "הסכמה על הפסקת אש מקומית זמנית לצורך פינוי וסיוע הומניטרי החל מ-29 באוקטובר"
+   },
+   {
+    "name": "צפון אוקראינה (סומי וצ'רניהיב)",
+    "status": "פעילות גוברת של חוליות חבלה וסיור רוסיות לצד תקיפות על יעדים אזרחיים"
+   },
+   {
+    "name": "הים השחור ואזור החוף",
+    "status": "איומים על השיט האזרחי ותקיפות כטב\"מים סמוך לגבולות רומניה ומולדובה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10231528-01",
+    "title": "הסכמה על הפסקת אש מקומית באולשקי בתיווך מלניה טראמפ",
+    "summary": "הבית הלבן הודיע כי רוסיה ואוקראינה הגיעו להסכמה על הפסקת אש מקומית בעיר הכבושה אולשקי במחוז חרסון, החל מ-29 באוקטובר 2026, במטרה לאפשר סיוע ופינוי אזרחים.",
+    "axis": "משא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T13:38:06+00:00",
+    "last_update_at": "2026-10-23T15:27:23+00:00",
+    "what_is_not_verified": "מידת היישום בפועל של הפסקת האש החל מהמועד שנקבע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380521",
+      "published_at": "2026-10-23T15:27:23+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2207035",
+      "published_at": "2026-10-23T15:15:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+      "published_at": "2026-10-23T15:12:14+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4177544-melania-trump-announces-localized-ceasefire-between-russia-and-ukraine-for-oleshky.html",
+      "published_at": "2026-10-23T14:59:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network",
+      "published_at": "2026-10-23T14:57:50+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059447/",
+      "published_at": "2026-10-23T14:51:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48860",
+      "published_at": "2026-10-23T14:06:33+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/23/russia-ukraine-agree-to-ceasefire-to-evacuate-oleshky-residents",
+      "published_at": "2026-10-23T13:58:22+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059437/",
+      "published_at": "2026-10-23T13:41:00+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380494",
+      "published_at": "2026-10-23T13:40:01+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+      "published_at": "2026-10-23T13:38:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-02",
+    "title": "פגיעת טילי שיוט אוקראיניים במפעל בעיר אוריול",
+    "summary": "דווח על פגיעת טילי שיוט אוקראיניים מדגם פלמינגו במפעל פרוטון בעיר אוריול שבשטח רוסיה.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T15:03:56+00:00",
+    "last_update_at": "2026-10-23T15:08:59+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ואימות רשמי של דגם הטיל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48863",
+      "published_at": "2026-10-23T15:08:59+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48862",
+      "published_at": "2026-10-23T15:03:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוריול, רוסיה",
+      "lat": 52.9709,
+      "lon": 36.0642
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-03",
+    "title": "מתקפת כטב\"מים אוקראינית על אזור מוסקבה והשבתת נמלי תעופה",
+    "summary": "כטב\"מים אוקראיניים שוגרו לעבר אזור מוסקבה, יורטו ליד נמלי התעופה וגרמו להשבתת הפעילות והגבלות תעופה בארבעה נמלי תעופה מרכזיים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T12:57:18+00:00",
+    "last_update_at": "2026-10-23T14:56:03+00:00",
+    "what_is_not_verified": "מספר הכטב\"מים המדויק שפגע או יורט בכל נמל תעופה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48861",
+      "published_at": "2026-10-23T14:56:03+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-drone-attack-triggers-shut-down-of-moscow-airports-drone-debris-reported-on-tarmac/",
+      "published_at": "2026-10-23T14:28:19+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+      "published_at": "2026-10-23T12:57:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-04",
+    "title": "תקיפה רוסית על יעדים אזרחיים בצ'רניהיב",
+    "summary": "תקיפה רוסית בשעות היום פגעה בשני בתי עסק פרטיים בעיר צ'רניהיב, והביאה להרג של אדם אחד ולפציעתם של לפחות 25 בני אדם נוספים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:48:30+00:00",
+    "last_update_at": "2026-10-23T14:48:30+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-daytime-attack-on-chernihiv-civilian-businesses-kills-1-injures-at-least-25/",
+      "published_at": "2026-10-23T14:48:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'רניהיב, אוקראינה",
+      "lat": 51.4941,
+      "lon": 31.2943
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-05",
+    "title": "עסקת חילופי שבויים הדדית בין רוסיה לאוקראינה",
+    "summary": "משרד ההגנה הרוסי דיווח על עסקת חילופי שבויים שבה הוחזרו 270 אנשי צבא רוסים בתמורה ל-270 שבויים אוקראינים.",
+    "axis": "משא ומתן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:09:39+00:00",
+    "last_update_at": "2026-10-23T14:09:39+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2206993",
+      "published_at": "2026-10-23T14:09:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10231528-06",
+    "title": "תקיפות רוסיות על רובע אוסנוביאנסקי בחרקיב",
+    "summary": "כוחות רוסיים תקפו את רובע אוסנוביאנסקי בחרקיב באמצעות כטב\"מים, גרמו לפציעת שני ילדים ולנזק למבני מגורים, מכוניות ומבנה קרקס.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T10:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:10:00+00:00",
+    "last_update_at": "2026-10-23T14:10:00+00:00",
+    "what_is_not_verified": "דגם הכטב\"מים המדויק (זוהו ראשונית כגראן-3 ושאהד רקטי)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059442/",
+      "published_at": "2026-10-23T14:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקיב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-07",
+    "title": "תקיפת כטב\"ם רוסי והטבעת ספינת משא אזרחית מול חופי רומניה",
+    "summary": "ספינת משא אזרחית טבעה בים השחור מול חופי רומניה בעקבות פגיעת כטב\"ם רוסי, אדם אחד נהרג ושלושה אנשי צוות נעדרים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T13:48:45+00:00",
+    "last_update_at": "2026-10-23T13:48:45+00:00",
+    "what_is_not_verified": "גורל שלושת אנשי הצוות הנעדרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+      "published_at": "2026-10-23T13:48:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10231528-08",
+    "title": "תקיפות רוסיות חוזרות ונשנות על תשתיות בעיר דניפרו",
+    "summary": "פגיעות רוסיות בתשתיות קריטיות ומבני מגורים בעיר דניפרו גרמו להרג של אדם אחד ולפציעת חמישה נוספים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T13:25:00+00:00",
+    "last_update_at": "2026-10-23T13:25:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059430/",
+      "published_at": "2026-10-23T13:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-09",
+    "title": "התרסקות שברי כטב\"ם בשטח מולדובה",
+    "summary": "שברי כטב\"ם אותרו בסמוך למבנה מגורים בכפר קישטלניצה שבמולדובה, בעקבות חדירת כלי טיס למרחב האווירי במהלך תקיפות על אוקראינה.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:20:00+00:00",
+    "last_update_at": "2026-10-23T14:20:00+00:00",
+    "what_is_not_verified": "זהות משגר הכטב\"ם המדויקת ששבריו אותרו במולדובה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059443/",
+      "published_at": "2026-10-23T14:20:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קישטלניצה, מולדובה",
+      "lat": 47.5684,
+      "lon": 28.6598
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10231528-10",
+    "title": "הגברת פעילות חוליות סיור וחבלה רוסיות בסומי ובצ'רניהיב",
+    "summary": "כוחות הביטחון של אוקראינה זיהו חדירות של חוליות חבלה וסיור רוסיות במטרה לאסוף מודיעין על עמדות הגנה ולהניח מוקשים.",
+    "axis": "חזיתות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T13:00:00+00:00",
+    "last_update_at": "2026-10-23T13:00:00+00:00",
+    "what_is_not_verified": "היקף החוליות הפועלות בשטח ומיקומיהן המדויקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4177491-russian-sabotage-and-reconnaissance-groups-step-up-activity-in-sumy-and-chernihiv-regions-sbgs.html",
+      "published_at": "2026-10-23T13:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10231528-11",
+    "title": "מגבלות מתמשכות על רשת סטארלינק עבור צבא אוקראינה",
+    "summary": "גורמים באוקראינה מדווחים כי רשת סטארלינק ומערכת סטארשילד ממשיכות להיתקל במגבלות טכניות, הפוגעות בהפעלת כטב\"מים ומערכות הגנה אווירית.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T02:16:26+00:00",
+    "last_update_at": "2026-10-23T11:01:08+00:00",
+    "what_is_not_verified": "הגורם האחראי הישיר להמשך המגבלות והאטת הרשת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T11:01:08+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+      "published_at": "2026-10-23T02:16:26+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מתווה תוכנית השלום האמריקאית הכוללת אזור מפורז בדונבאס וויתור על חברות בנאט\"ו",
+   "שקילת הקלות סנקציות נוספות על רוסיה על ידי ממשל טראמפ",
+   "הפעלת רשת בוטים רוסית המשתמשת בזיופי עמוק נגד מועמדים בארצות הברית",
+   "טענות על תופעות דתיות חריגות הקשורות לתמונת לוחם גדוד אספניולה שנהרג",
+   "מעורבות ישירה של גורמי מודיעין רוסיים בריגול בגרמניה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1193,
+    "unit": "USD",
+    "change_pct": -0.11,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הפסקת אש וערבויות ביטחון כתנאי ראשוני לשלום צודק",
+     "סירוב מוחלט לוויתור על שטחים ריבוניים לטובת רוסיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ ישיר על העורף הרוסי באמצעות פגיעה בנמלי תעופה ובמפעלים צבאיים",
+     "הבטחת מסדרונות הומניטריים להצלת אוכלוסייה מנותקת"
+    ],
+    "forecast": [
+     "המשך דרישה לערבויות בינלאומיות נוקשות טרם כניסה לשיחות שלום מהותיות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "הכרה בשטחים הכבושים כשטח רוסי היסטורי ולא כוויתור טריטוריאלי",
+     "הסכמה עקרונית לחידוש מגעים תלת-צדדיים לדיון בסוגיות ביטחון סופיות"
+    ],
+    "inferred": [
+     "שחיקת התשתיות האזרחיות והתעשייתיות של אוקראינה באמצעות גלי תקיפות מתמשכים",
+     "ניצול הקלות סנקציות כלכליות ויוזמות מקומיות להפחתת הלחץ המדיני"
+    ],
+    "forecast": [
+     "המשך הלחימה תוך הצבת תנאי כניעה טריטוריאליים נוקשים בכל משא ומתן עתידי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1380494",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059443/",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2206993",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48861",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4177491-russian-sabotage-and-reconnaissance-groups-step-up-activity-in-sumy-and-chernihiv-regions-sbgs.html",
+    "accessed_at": "2026-10-23T15:28:58+00:00"
+   }
+  ]
+ }
+}

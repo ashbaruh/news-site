@@ -484,62 +484,197 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-22T2340__iran-202610222340.json",
+  "draft": "drafts/iran/2026-10-23T1525__iran-202610231525.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-22T23:40:42+00:00",
+   "generated_at": "2026-10-23T15:25:37+00:00",
    "window": {
-    "from": "2026-10-21T23:40:42+00:00",
-    "to": "2026-10-22T23:40:42+00:00"
+    "from": "2026-10-22T15:25:37+00:00",
+    "to": "2026-10-23T15:25:37+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "iran-202610222340"
+    "run_id": "iran-202610231525"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין בהחרפת המצור הימי והלחץ הכלכלי על טהרן לצד הכנות ודיווחים על חידוש תקיפות צבאיות רחבות. איראן מאיימת לפגוע בתשתיות נפט, תקשורת וטכנולוגיה ברחבי המפרץ אם תותקף, ומתעמתת סביב חופש השיט במצר הורמוז. במקביל, שלוחותיה בתימן מגבירות את הפגיעה בסעודיה, מה שמביא לפינוי חלקי של צוותים אמריקאיים ולשיתוף פעולה מודיעיני ישראלי-סעודי בתיווך וושינגטון.",
+   "summary": "העימות הצבאי והכלכלי בין ארצות הברית וישראל לבין איראן מחריף תחת מצור ימי אמריקאי ממושך ואיומים הדדיים בחידוש תקיפות נרחבות. וושינגטון וירושלים נערכות לאפשרות של מהלומות צבאיות נוספות על תשתיות גרעין וטילים, בעוד טהרן מאיימת לפגוע במתקני אנרגיה וטכנולוגיה ברחבי המפרץ ופועלת לשיקום אתריה שנפגעו. במקביל, פעילות החות'ים בים האדום ושיבושי השיט במצרי הורמוז ובאב אל-מנדב גורמים לעלייה חדה במחירי הנפט ומניעים מאמצי תיווך בינלאומיים.",
    "fronts": [
     {
-     "name": "המצור הימי ומצר הורמוז",
-     "status": "ארה\"ב מציינת 100 ימי מצור ימי חונק על איראן, בעוד איראן טוענת לפגיעות בכלי שיט במימי המצר ומשמיעה איומים על נתיבי הסחר"
+     "name": "המפרץ הפרסי ומצר הורמוז",
+     "status": "מתיחות ביטחונית גבוהה, מצור ימי אמריקאי על נמלים ואיומים איראניים בפגיעה בנתיבי שיט ובתשתיות אזוריות"
     },
     {
-     "name": "הזירה האווירית וההיערכות לתקיפות באיראן",
-     "status": "כוננות מוגברת, אימוני מטוסי קרב בישראל ודיווחים על בחינת מתקפה משותפת של ארה\"ב וישראל נגד מתקני גרעין, טילים וכטב\"מים"
+     "name": "עימות צבאי-אסטרטגי (ארה\"ב וישראל מול איראן)",
+     "status": "חילופי איומים בהסלמה, היערכות לתקיפת אתרי גרעין וטילים לצד כוננות ספיגה והתגוננות באיראן"
     },
     {
-     "name": "חזית המפרץ ושלוחות איראן (החות'ים)",
-     "status": "תקיפות חות'יות מתמשכות נגד שדות תעופה ותשתיות בסעודיה, פינוי סגל דיפלומטי אמריקאי וסיוע מודיעיני ישראלי לריאד"
+     "name": "הים האדום ובאב אל-מנדב (שלוחות איראן)",
+     "status": "תקיפות פעילי חות'ים נגד יעדים סעודיים ואיומים על צירי סחר ימיים"
     },
     {
-     "name": "החזית הכלכלית",
-     "status": "קריסה נוספת בשער הריאל האיראני, אובדן הכנסות נפט המוערך במיליארדי דולרים והתרחבות חסימות הסחר מנתיבי הים לגבולות היבשה"
+     "name": "הזירה המדינית והאנרגטית הבינלאומית",
+     "status": "עליית מחירי הנפט בעולם מעל 115 דולר ומגעים דיפלומטיים בריכוז טורקיה, רוסיה ופקיסטן"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10222340-01",
-     "title": "פיקוד מרכז האמריקאי מציין 100 ימי מצור ימי על איראן",
-     "summary": "פיקוד מרכז של צבא ארה\"ב הודיע כי המצור הימי שהוא מפעיל מנע מאיראן לייצא נפט גולמי בשווי של לפחות עשרים וחמישה מיליארד דולר וחסם סחר ימי למעט סיוע הומניטרי.",
-     "axis": "ארה\"ב - איראן",
+     "id": "IRAN-10231525-01",
+     "title": "הנשיא טראמפ מצהיר על כוונה לסיים את המלחמה ומאיים בהמשך תקיפות נגד איראן",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי ניתן לסיים את המלחמה מול איראן במהירות או להמתין לדעיכתה, וציין כי ייתכן שארצות הברית תמשיך להכות באיראן, מה שיוביל לירידת מחירי הדלק.",
+     "axis": "ארה\"ב-איראן",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "occurred_at": "2026-10-22T20:31:06+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-22T18:48:35+00:00",
-     "last_update_at": "2026-10-22T19:56:20+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-22T20:31:06+00:00",
+     "last_update_at": "2026-10-23T15:04:33+00:00",
+     "what_is_not_verified": "האופן והמועד המדויקים שבהם המלחמה תסתיים או יחודשו התקיפות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_a3bd39532ee3a129",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-says-iran-naval-blockade-reaches-100-days",
-       "published_at": "2026-10-22T19:56:20+00:00"
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1380513",
+       "published_at": "2026-10-23T15:04:33+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_a3bd39532ee3a129",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132381",
+       "published_at": "2026-10-23T06:45:57+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132373",
+       "published_at": "2026-10-22T20:31:06+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10231525-02",
+     "title": "אזהרות איראניות מפני תקיפות תגמול במפרץ ועמידה במצב חירום",
+     "summary": "בכירים בטהרן, בהם מוחסן רזאי, הודיעו כי תקיפה ישראלית-אמריקנית חדשה תיענה במתקפות ללא קווים אדומים נגד מתקני נפט, מרכזי נתונים ובינה מלאכותית וכבלים תת-ימיים במדינות המפרץ, בעוד מפקד כוחות היבשה קרא למוכנות עקב ניסיונות לפגוע בלכידות הצבא.",
+     "axis": "איראן-מדינות המפרץ/ישראל/ארה\"ב",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T15:03:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T15:03:00+00:00",
+     "last_update_at": "2026-10-23T13:27:04+00:00",
+     "what_is_not_verified": "מידת היישום המעשי של פגיעה בתשתיות אזרחיות במדינות המפרץ בעת תקיפה.",
+     "is_new_in_window": false,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_54212169dce761f0",
+       "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+       "published_at": "2026-10-23T13:27:04+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_54212169dce761f0",
+       "url": "https://en.irna.ir/news/86301057/Enemy-seeks-to-disrupt-armed-forces-cohesion-Iranian-commander",
+       "published_at": "2026-10-23T13:21:52+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_54212169dce761f0",
+       "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+       "published_at": "2026-10-22T15:03:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהרן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10231525-03",
+     "title": "היערכות ודיונים לקראת גל תקיפות אמריקאי-ישראלי אפשרי לאחר הבחירות",
+     "summary": "דיווחים מצביעים על כך שממשל טראמפ וישראל שוקלים חידוש מתקפות צבאיות מקיפות נגד מאגרי טילים, מתקני תשתית ואתרי גרעין באיראן, לרבות אפשרות שימוש בפצצה כבדה נגד מתחם תת-קרקעי בהר המכוש.",
+     "axis": "ארה\"ב/ישראל-איראן",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T15:34:34+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T15:34:34+00:00",
+     "last_update_at": "2026-10-23T11:32:09+00:00",
+     "what_is_not_verified": "האם אכן תתקבל החלטה על תקיפה לאחר בחירות האמצע או הבחירות בישראל, והיקף המטרות המדויק.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610234921",
+       "published_at": "2026-10-23T11:32:09+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/how-netanyahu-could-attack-iran-force-israel-unity-government-after-elections",
+       "published_at": "2026-10-23T10:36:51+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/nyt-reports-plans-for-fresh-strikes-on-iran-after-the-us-midterm-elections",
+       "published_at": "2026-10-23T08:40:09+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21691337",
+       "published_at": "2026-10-23T03:52:26+00:00"
+      },
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.fdd.org/analysis/iran-pushes-hard-on-its-nuclear-rebuild-daring-trump-to-strike-again/",
+       "published_at": "2026-10-23T00:43:00+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
+       "published_at": "2026-10-22T15:34:34+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10231525-04",
+     "title": "מצור ימי אמריקאי על נמלי איראן ושיבוש ייצוא הנפט",
+     "summary": "ארצות הברית ממשיכה להטיל מצור על נמלי איראן שהגיע ל-100 ימים ומנע ייצוא נפט בסך מיליארדי דולרים, מה שגרר צניחה במשלוחי נפט שהוגדרו כמלזיים שהועברו לסין.",
+     "axis": "ארה\"ב-איראן",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T18:48:35+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T18:48:35+00:00",
+     "last_update_at": "2026-10-23T11:32:09+00:00",
+     "what_is_not_verified": "הערכת היקף הנזק הכספי הכולל למשק האיראני.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610234921",
+       "published_at": "2026-10-23T11:32:09+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610222999",
+       "published_at": "2026-10-23T06:58:57+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/132372",
        "published_at": "2026-10-22T18:48:35+00:00"
       }
@@ -547,261 +682,185 @@ window.DB.war_published = {
      "places": []
     },
     {
-     "id": "IRAN-10222340-02",
-     "title": "טענות איראניות על פגיעה במכליות במצר הורמוז והכחשה אמריקאית",
-     "summary": "משמרות המהפכה וגורמים באיראן טוענים כי שבע ספינות ומכליות נפגעו במצר הורמוז, בעוד שנשיא ארה\"ב וממשלו דוחים זאת וטוענים שמדובר בבימוי מתקפות והפצת שקרים שנועדו להעלות את מחירי הנפט.",
-     "axis": "איראן - מפרץ / ארה\"ב",
-     "claim_type": "statement",
+     "id": "IRAN-10231525-05",
+     "title": "עליית מחירי הנפט בעולם על רקע המתיחות והאיומים במצר הורמוז",
+     "summary": "מחיר חבית נפט מסוג ברנט עלה מעל 115 דולר לחבית עקב חששות מהסלמה בעימות הצבאי, חידוש תקיפות אמריקאיות ואיומים להפרעות בנתיבי השיט במצר הורמוז.",
+     "axis": "איראן-מפרץ הורמוז/שוק האנרגיה",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
-     "is_ongoing": false,
+     "occurred_at": "2026-10-22T16:10:36+00:00",
+     "is_ongoing": true,
      "first_reported_at": "2026-10-22T16:10:36+00:00",
-     "last_update_at": "2026-10-22T17:58:04+00:00",
-     "what_is_not_verified": "לא מאומת האם אכן נפגעו שבע ספינות או מכליות במצר הורמוז כפי שטענה איראן",
+     "last_update_at": "2026-10-23T13:27:04+00:00",
+     "what_is_not_verified": "טענות הדדיות בדבר בימוי מתקפות והנחת מוקשים ימיים במצר.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss",
-       "published_at": "2026-10-22T17:58:04+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/elections2026/article/byene3d3fl",
-       "published_at": "2026-10-22T16:21:27+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "fh_3271d01f4095b676",
+       "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+       "published_at": "2026-10-23T13:27:04+00:00"
       },
       {
        "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_3271d01f4095b676",
        "url": "https://t.me/lelotsenzura/94744",
        "published_at": "2026-10-22T16:10:36+00:00"
       }
      ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10222340-03",
-     "title": "איומים איראניים לתקוף יעדי נפט, תקשורת וטכנולוגיה במדינות המפרץ",
-     "summary": "בכירים בביטחון הלאומי באיראן איימו כי במקרה של מתקפה אמריקאית-ישראלית מחודשת, איראן תפעל ללא קווים אדומים ותפגע במתקני נפט, כבלים תת-ימיים, מרכזי נתונים ומתקני בינה מלאכותית בשבע מדינות במפרץ.",
-     "axis": "איראן - ישראל / ארה\"ב / המפרץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T15:03:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-22T15:03:00+00:00",
-     "last_update_at": "2026-10-22T19:24:22+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/defense/article/21690594",
-       "published_at": "2026-10-22T19:24:22+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
-       "published_at": "2026-10-22T15:03:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10222340-04",
-     "title": "הוראת פינוי לדיפלומטים אמריקאים ובני משפחותיהם מסעודיה ומדינות נוספות",
-     "summary": "מחלקת המדינה האמריקאית הורתה לחלק מהדיפלומטים ולבני משפחות עובדי ממשל לעזוב את סעודיה ומדינות נוספות באזור עקב התקפות החות'ים על שדות תעופה ותשתיות, וחשש מחידוש המלחמה עם איראן.",
-     "axis": "ארה\"ב - שלוחות איראן / המפרץ",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-22T10:43:19+00:00",
-     "last_update_at": "2026-10-22T13:05:30+00:00",
-     "what_is_not_verified": "רשימת כל המדינות שמהן הושלם הפינוי בפועל מעבר להודעת מחלקת המדינה על סעודיה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
-       "published_at": "2026-10-22T13:05:30+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94740",
-       "published_at": "2026-10-22T10:43:19+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10222340-05",
-     "title": "דיווחים והערכות בנוגע לתוכניות לתקיפה ישראלית-אמריקאית באיראן",
-     "summary": "פרסומים והתבטאויות מצביעים על אפשרות של מתקפות חדשות על יעדי אנרגיה, כטב\"מים וטילים באיראן לאחר בחירות האמצע בארה\"ב, לצד הגברת אימונים של חיל האוויר הישראלי וויכוחים פוליטיים-משפטיים בישראל.",
-     "axis": "ישראל - ארה\"ב - איראן",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T07:21:44+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-22T07:21:44+00:00",
-     "last_update_at": "2026-10-22T22:16:13+00:00",
-     "what_is_not_verified": "קיומה של החלטה סופית או מועד מדויק למתקפה ישראלית או אמריקאית באיראן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1380327",
-       "published_at": "2026-10-22T22:16:13+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1380314",
-       "published_at": "2026-10-22T20:39:28+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132373",
-       "published_at": "2026-10-22T20:31:06+00:00"
-      },
-      {
-       "source_id": "src_fdd",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.fdd.org/in_the_news/new-iran-strikes-after-midterms/",
-       "published_at": "2026-10-22T20:19:45+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/elections2026/article/byene3d3fl",
-       "published_at": "2026-10-22T16:21:27+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
-       "published_at": "2026-10-22T15:34:34+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/elections2026/article/sjudjuv3me",
-       "published_at": "2026-10-22T15:29:17+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/tv-shows/press-review/20261022-are-fresh-us-israeli-strikes-on-iran-in-the-pipeline",
-       "published_at": "2026-10-22T11:32:22+00:00"
-      },
-      {
-       "source_id": "src_walla",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.walla.co.il/news/military/383958450",
-       "published_at": "2026-10-22T07:21:44+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10222340-06",
-     "title": "צה\"ל ושב\"כ חיסלו בכיר בוועדות ההתנגדות העממית המקושר למשמרות המהפכה",
-     "summary": "כוחות הביטחון של ישראל תקפו מהאוויר בח'אן יונס וחיסלו את ראש ארגון הטרור ועדות ההתנגדות העממית במרחב, הפועל בשיתוף פעולה ובקשר עם חמאס, חיזבאללה ומשמרות המהפכה האיראניים.",
-     "axis": "ישראל - שלוחות איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T17:32:54+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-22T17:32:54+00:00",
-     "last_update_at": "2026-10-22T17:36:40+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1380262",
-       "published_at": "2026-10-22T17:36:40+00:00"
-      },
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25438",
-       "published_at": "2026-10-22T17:32:54+00:00"
-      }
-     ],
      "places": [
       {
-       "name": "ח'אן יונס",
-       "lat": 31.3995,
-       "lon": 34.3032
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
     },
     {
-     "id": "IRAN-10222340-07",
-     "title": "סיוע מודיעיני ישראלי לסעודיה נגד החות'ים בתיווך ארה\"ב",
-     "summary": "גורם ביטחוני אישר כי קהילת המודיעין הישראלית מסייעת לצבא הסעודי בהתמודדות מול מתקפות החות'ים הנתמכים על ידי איראן, תוך תיווך אמריקאי ובניית בנק מטרות.",
-     "axis": "ישראל - שלוחות איראן / המפרץ",
-     "claim_type": "statement",
+     "id": "IRAN-10231525-06",
+     "title": "האצת שיקום מתקני הגרעין האיראניים והפצת הנחיות התגוננות",
+     "summary": "תצלומי לוויין חשפו עבודות שיקום מהירות במתקני ייצור וגרעין באיראן שנפגעו בעבר, במקביל לפרסום הנחיות אזרחיות באיראן להתגוננות מפני תקיפות באתרי גרעין וקריאות באו\"ם נגד התנהלות סבא\"א.",
+     "axis": "איראן-גרעין",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "occurred_at": "2026-10-22T17:38:36+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-22T12:16:54+00:00",
-     "last_update_at": "2026-10-22T12:16:54+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-22T17:38:36+00:00",
+     "last_update_at": "2026-10-23T12:11:17+00:00",
+     "what_is_not_verified": "סטטוס הפעילות המבצעית בתוך המתקנים התת-קרקעיים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_walla",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.walla.co.il/news/military/383958503",
-       "published_at": "2026-10-22T12:16:54+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10222340-08",
-     "title": "החמרת הלחץ הכלכלי על איראן: צניחת המטבע ושיבושים בנתיבי יבשה",
-     "summary": "המטבע האיראני הגיע לשפל של 2.73 מיליון ריאל לדולר, במקביל לסגירת גבולות ושיבושי מעבר יבשתיים מול פקיסטן, עיראק וטורקיה, המעמיקים את פגיעת המצור הימי והמגבלות האוויריות.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-22T08:36:22+00:00",
-     "last_update_at": "2026-10-22T21:11:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610228890",
-       "published_at": "2026-10-22T21:11:00+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_9f7e790cb8c21517",
+       "url": "https://en.irna.ir/news/86301031/Iran-demands-end-to-selective-IAEA-statute-implementation",
+       "published_at": "2026-10-23T12:11:17+00:00"
       },
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132344",
-       "published_at": "2026-10-22T08:36:22+00:00"
+       "source_id": "src_fdd",
+       "source_root_id": "fh_9f7e790cb8c21517",
+       "url": "https://www.fdd.org/analysis/iran-pushes-hard-on-its-nuclear-rebuild-daring-trump-to-strike-again/",
+       "published_at": "2026-10-23T00:43:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_9f7e790cb8c21517",
+       "url": "https://t.me/alexmehacarmel/48833",
+       "published_at": "2026-10-22T17:38:36+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "נתנז, איראן",
+       "lat": 33.5071,
+       "lon": 51.9136
+      },
+      {
+       "name": "וינה, אוסטריה",
+       "lat": 48.2084,
+       "lon": 16.3725
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10231525-07",
+     "title": "התרחבות איומי החות'ים בים האדום ופגיעה באינטרסים סעודיים",
+     "summary": "פעולות תקיפה של החות'ים בתימן על תשתיות נפט סעודיות ושליטתם במצר באב אל-מנדב מגבירות את הלחץ האזורי, לצד דיווחים על תקיפות אוויריות סעודיות בצנעא והרחבת מפעל טילים סעודי להרתעה מול איראן.",
+     "axis": "שלוחות איראן (חות'ים)-ערב הסעודית/נתיבי שיט",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T10:46:29+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-23T10:46:29+00:00",
+     "last_update_at": "2026-10-23T12:10:20+00:00",
+     "what_is_not_verified": "מידת התיאום והשליטה הישירה של טהרן במהלכי החות'ים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus-balance",
+       "published_at": "2026-10-23T12:10:20+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86301006/Saudi-airstrikes-target-Yemen-s-capital-Sanaa",
+       "published_at": "2026-10-23T11:34:22+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/exclusive-saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study",
+       "published_at": "2026-10-23T10:46:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "צנעא, תימן",
+       "lat": 15.3539,
+       "lon": 44.2059
+      },
+      {
+       "name": "מוח'א, תימן",
+       "lat": 13.3179,
+       "lon": 43.2501
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10231525-08",
+     "title": "מגעים דיפלומטיים ותיווך בינלאומי סביב מצר הורמוז והמשבר",
+     "summary": "שרים ממדינות אירופה והמזרח התיכון נועדו באיסטנבול לדיון במצב מצר הורמוז, בעוד רוסיה ופקיסטן מנסות לקדם ערוצי הידברות וריסון בין ארצות הברית, איראן ומדינות המפרץ.",
+     "axis": "דיפלומטיה אזורית ובינלאומית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-22T14:41:19+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-22T14:41:19+00:00",
+     "last_update_at": "2026-10-23T14:45:25+00:00",
+     "what_is_not_verified": "נכונות הצדדים הלוחמים להתפשר על בסיס היוזמות השונות.",
+     "is_new_in_window": false,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_3d16de44a96bb57f",
+       "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+       "published_at": "2026-10-23T14:45:25+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_3d16de44a96bb57f",
+       "url": "https://www.al-monitor.com/originals/2026/10/european-mideast-foreign-ministers-hold-talks-istanbul",
+       "published_at": "2026-10-23T12:30:28+00:00"
+      },
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "fh_3d16de44a96bb57f",
+       "url": "https://www.fdd.org/analysis/washington-should-resist-russias-gulf-mediation-bid/",
+       "published_at": "2026-10-22T14:41:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "איסטנבול, טורקיה",
+       "lat": 41.0064,
+       "lon": 28.9759
+      },
+      {
+       "name": "מנאמה, בחריין",
+       "lat": 26.2235,
+       "lon": 50.5822
+      }
+     ]
     }
    ],
    "not_verified": [
-    "טענת משמרות המהפכה בדבר פגיעה בשבע מכליות וספינות במצר הורמוז",
-    "הדיווחים על סיכום עקרוני ומועד מדויק למתקפה ישראלית-אמריקאית נרחבת באיראן",
-    "היקף הפינוי הדיפלומטי המלא של ארה\"ב מכלל מדינות המפרץ מלבד סעודיה"
+    "קיומה ומועדה המדויק של תוכנית תקיפה אמריקאית-ישראלית לאחר בחירות האמצע או הבחירות בישראל",
+    "ההיתכנות המבצעית של הטלת פצצה כבדה מסוג MOAB על מתחם הר המכוש",
+    "טענות הנשיא טראמפ כי איראן מביימת תקיפות ומניחה מוקשים ימיים במצר הורמוז",
+    "היקף הנזק הכלכלי הבלעדי של המצור הימי הנאמד ב-25 מיליארד דולר",
+    "ההערכות לפיהן תקיפה צבאית תביא להפלת המשטר בטהרן או לכפיית ממשלת אחדות בישראל"
    ],
    "map": {
     "confidence": "medium",
@@ -812,550 +871,588 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1079,
+     "value": 3.1215,
      "unit": "ILS",
-     "change_pct": 0.54,
+     "change_pct": 0.44,
      "source_id": "src_ecb",
-     "as_of": "2026-10-22T15:00:00+00:00"
+     "as_of": "2026-10-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "להגיב ללא כל קווים אדומים נגד מתקני נפט, בינה מלאכותית ותשתיות קריטיות במדינות המפרץ אם תותקף",
-      "להסיר את ההגבלות שהטילה על עצמה ולא להבחין בין ישראל לארה\"ב במקרה של עימות"
+      "להגיב ללא קווים אדומים נגד מתקני אנרגיה, תקשורת וטכנולוגיה במדינות המפרץ במקרה של תקיפה",
+      "לדרוש את הפסקת האכיפה המפלה והפוליטית לטענתה של סבא\"א",
+      "לשמור על לכידות הכוחות המזוינים והמוכנות של העורף"
      ],
      "inferred": [
-      "לייצר לחץ על שוק הנפט העולמי כדי להשפיע על הממשל האמריקאי לקראת הבחירות",
-      "לשבור את טבעת החנק הכלכלית והמצור הימי הפוגעים בהכנסות המדינה"
+      "לשקם במהירות את רכיבי תוכנית הגרעין והטילים שנפגעו באתרים תת-קרקעיים",
+      "להפעיל לחץ על מחירי הנפט העולמיים כדי לאלץ את ארצות הברית לסגת מהמצור ומהמלחמה",
+      "לנתק את הקשרים הביטחוניים בין וושינגטון למדינות המפרץ"
      ],
      "forecast": [
-      "המשך איומים והטרדות שיט במצר הורמוז תוך שימוש בשלוחותיה באזור לגביית מחיר מבעלות בריתה של ארה\"ב",
-      "הימנעות ממתקפה רחבה יזומה עד להתבהרות כוונות התקיפה של ארה\"ב וישראל"
+      "האצת ביצור מתקני הגרעין בהר המכוש תוך המשך איומים על חופש השיט במצר הורמוז",
+      "החרפת פעולות התגמול באמצעות תקיפות א-סימטריות או דרך שלוחות במקרה של תקיפה אמריקאית"
      ]
     },
     {
-     "actor": "ארה\"ב",
+     "actor": "ארצות הברית",
      "declared": [
-      "אכיפת מצור ימי לצמצום הכנסות הנפט של איראן ופגיעה במימון משמרות המהפכה ושלוחותיהן",
-      "שמירה על ביטחון הדיפלומטים ועובדי הממשל באזור המפרץ מפני מתקפות החות'ים"
+      "לסיים את העימות מול איראן ולהביא להורדה מהירה של מחירי הדלק",
+      "להמשיך במצור הימי על הנמלים האיראניים ככל שיידרש",
+      "למנוע מאיראן השגת נשק גרעיני בעקבות הסכנה בשימוש בו"
      ],
      "inferred": [
-      "שחיקת היכולות הכלכליות והצבאיות של טהרן ללא כניסה מיידית למלחמה אזורית כוללת לפני בחירות האמצע",
-      "שמירה על מרחב תמרון ואפשרות להנחתת מכה צבאית רחבה בהמשך"
+      "מיטוט היכולת הכלכלית של איראן באמצעות חנק ייצוא הנפט",
+      "יצירת הרתעה צבאית ישירה שתמנע את התחדשות תוכנית הנשק הגרעיני",
+      "בחינת תקיפות צבאיות ממוקדות לאחר סיום מערכת הבחירות הפנימית"
      ],
      "forecast": [
-      "המשך הידוק המצור הימי והסנקציות הכלכליות",
-      "בחינת פעולה צבאית מוגבלת או נרחבת נגד יעדים איראניים לאחר שוך הלחצים הפוליטיים מבית"
+      "המשך אכיפת המצור הימי במפרץ הפרסי",
+      "הוצאה לפועל של גל תקיפות מוגבל או נרחב נגד מתקני טילים וגרעין אם ייכשלו המגעים"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "סיכול איומים ממוקדים ופגיעה בפעילי טרור המקושרים למשמרות המהפכה",
-      "סיוע מודיעיני לסעודיה נגד החות'ים מתוך אינטרס ביטחוני אזורי"
+      "הסרת איומי טרור מיידיים ופעולה נגד שלוחות הנתמכות בידי משמרות המהפכה"
      ],
      "inferred": [
-      "הכנת חיל האוויר לאפשרות תקיפה של מתקני הגרעין ותעשיות הטילים באיראן",
-      "חיזוק הברית הביטחונית עם המדינות הסוניות במפרץ מול הציר האיראני"
+      "מניעת שיקום תשתיות הגרעין והטילים של איראן באמצעים צבאיים",
+      "תיאום הדוק עם ארצות הברית למהלומה צבאית משותפת נגד מתקנים מבוצרים באיראן",
+      "רתימת המצב הביטחוני והמערכה לצרכים פוליטיים פנימיים לאחר הבחירות"
      ],
      "forecast": [
-      "המשך העלאת כוננות ואימונים מוגברים לקראת הכרעה מדינית על פעולה באיראן",
-      "העמקת שיתוף הפעולה המודיעיני וההגנתי עם מדינות המפרץ"
+      "המשך היערכות ואימונים לקראת תקיפות באיראן בשיתוף פעולה עם צבא ארצות הברית",
+      "הגברת מאמצי הסיכול נגד מוקדי ייצור אמל\"ח איראניים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/european-mideast-foreign-ministers-hold-talks-istanbul",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_fdd",
-     "url": "https://www.fdd.org/in_the_news/new-iran-strikes-after-midterms/",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.fdd.org/analysis/washington-should-resist-russias-gulf-mediation-bid/",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_france24",
-     "url": "https://www.france24.com/en/tv-shows/press-review/20261022-are-fresh-us-israeli-strikes-on-iran-in-the-pipeline",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610228890",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.iranintl.com/en/202610222999",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
+    },
+    {
+     "source_id": "src_irna",
+     "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/defense/article/21690594",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21691337",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1380262",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.maariv.co.il/breaking-news/article-1380513",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-says-iran-naval-blockade-reaches-100-days",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus-balance",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132344",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://t.me/abualiexpress/132372",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
-     "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25438",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48833",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     },
     {
      "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/94740",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
-    },
-    {
-     "source_id": "src_walla",
-     "url": "https://www.walla.co.il/news/military/383958503",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/elections2026/article/sjudjuv3me",
-     "accessed_at": "2026-10-22T23:40:42+00:00"
+     "url": "https://t.me/lelotsenzura/94744",
+     "accessed_at": "2026-10-23T15:25:37+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-22T05:16:57+00:00",
+  "previous_generated_at": "2026-10-22T23:40:42+00:00",
   "changes": {
-   "IRAN-10222340-01": {
-    "kind": "new"
-   },
-   "IRAN-10222340-02": {
+   "IRAN-10231525-01": {
     "kind": "same",
-    "from": "shared_root",
+    "from": "assessment",
     "to": "shared_root",
-    "prev": "פגיעה בכלי שיט במפרץ הפרסי ובמצר הורמוז",
-    "score": 0.65
-   },
-   "IRAN-10222340-03": {
-    "kind": "new"
-   },
-   "IRAN-10222340-04": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "פינוי דיפלומטים אמריקנים מסעודיה וממדינות המפרץ",
+    "prev": "דיווחים והערכות בנוגע לתוכניות לתקיפה ישראלית-אמריקאית באיראן",
     "score": 1.0
    },
-   "IRAN-10222340-05": {
-    "kind": "possible",
-    "prev": "פניית איראן לאו\"ם בגין איומי תקיפה",
-    "score": 0.467
+   "IRAN-10231525-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "איומים איראניים לתקוף יעדי נפט, תקשורת וטכנולוגיה במדינות המפרץ",
+    "score": 1.0
    },
-   "IRAN-10222340-06": {
+   "IRAN-10231525-03": {
     "kind": "new"
    },
-   "IRAN-10222340-07": {
+   "IRAN-10231525-04": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "פיקוד מרכז האמריקאי מציין 100 ימי מצור ימי על איראן",
+    "score": 1.0
+   },
+   "IRAN-10231525-05": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "טענות איראניות על פגיעה במכליות במצר הורמוז והכחשה אמריקאית",
+    "score": 1.0
+   },
+   "IRAN-10231525-06": {
     "kind": "new"
    },
-   "IRAN-10222340-08": {
+   "IRAN-10231525-07": {
+    "kind": "new"
+   },
+   "IRAN-10231525-08": {
     "kind": "new"
    }
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-22T2342__ukraine-202610222342.json",
+  "draft": "drafts/ukraine/2026-10-23T1528__ukraine-202610231528.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-22T23:42:59+00:00",
+   "generated_at": "2026-10-23T15:28:58+00:00",
    "window": {
-    "from": "2026-10-21T23:42:59+00:00",
-    "to": "2026-10-22T23:42:59+00:00"
+    "from": "2026-10-22T15:28:58+00:00",
+    "to": "2026-10-23T15:28:58+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202610222342"
+    "run_id": "ukraine-202610231528"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בתקיפות הדדיות בעורף ובחזית, לצד פעילות דיפלומטית אמריקנית לקידום שיחות משולשות. כוחות רוסיה ביצעו מתקפת טילים כבדה על קייב ופגעו בתשתיות אזרחיות ואנרגטיות, בעוד אוקראינה פועלת נגד סוללות נ\"מ רוסיות, מאגרי תחמושת ובתי זיקוק. במקביל נרשמת מחלוקת לגבי יעילותן ומעמדן של הגבלות התקשורת הלוויינית המערבית המשרתת את הצבא האוקראיני.",
+   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בחילופי מהלומות כבדים בעומק השטחים, לרבות תקיפות כטב\"מים וטילים על מוסקבה, אוריול, חרקיב, צ'רניהיב ודניפרו. במקביל להסלמה הצבאית ולפגיעות בנתיבי השיט, סוכם על מתווה מקומי ראשוני להפסקת אש הומניטרית בעיר אולשקי שבמחוז חרסון ובוצעה עסקת חילופי שבויים. עם זאת, המאמצים המדיניים להסדר כולל נתקלים במחלוקות טריטוריאליות חריפות סביב מעמד השטחים הכבושים בדונבאס.",
    "fronts": [
     {
-     "name": "גזרת קייב",
-     "status": "מתקפות טילים בליסטיים רוסיות על מבני מגורים ותשתיות אנרגיה"
+     "name": "אולשקי (מחוז חרסון)",
+     "status": "הסכמה על הפסקת אש מקומית זמנית לצורך פינוי וסיוע הומניטרי החל מ-29 באוקטובר"
     },
     {
-     "name": "גזרת קופיאנסק",
-     "status": "פשיטות אוקראיניות קרקעיות בעורף הקווים הרוסיים"
+     "name": "צפון אוקראינה (סומי וצ'רניהיב)",
+     "status": "פעילות גוברת של חוליות חבלה וסיור רוסיות לצד תקיפות על יעדים אזרחיים"
     },
     {
-     "name": "גזרת הוליאיפולה",
-     "status": "פגיעה אוקראינית במערכות הגנה אווירית רוסיות באמצעות כטב\"מים"
-    },
-    {
-     "name": "דרום אוקראינה",
-     "status": "פעילות כטב\"מים רוסית הנמשכת ללא שינוי ניכר בהיקפה"
-    },
-    {
-     "name": "עורף רוסיה",
-     "status": "תקיפות כטב\"מים אוקראיניות לעבר מתקני נפט ותשתיות עירוניות"
+     "name": "הים השחור ואזור החוף",
+     "status": "איומים על השיט האזרחי ותקיפות כטב\"מים סמוך לגבולות רומניה ומולדובה"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10222342-01",
-     "title": "מתקפת טילים רוסית על קייב",
-     "summary": "רוסיה שיגרה גלי טילים ומטחי טילים בליסטיים לעבר הבירה האוקראינית, וכתוצאה מכך נהרגו לפחות שני בני אדם ונפצעו עשרים ושניים. הפגיעות כללו גשר מעל נהר הדנייפר, מבני מגורים, מרפאה ותשתיות אנרגיה.",
-     "axis": "קייב",
-     "claim_type": "incident",
+     "id": "UKRAINE-10231528-01",
+     "title": "הסכמה על הפסקת אש מקומית באולשקי בתיווך מלניה טראמפ",
+     "summary": "הבית הלבן הודיע כי רוסיה ואוקראינה הגיעו להסכמה על הפסקת אש מקומית בעיר הכבושה אולשקי במחוז חרסון, החל מ-29 באוקטובר 2026, במטרה לאפשר סיוע ופינוי אזרחים.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-22T15:46:56+00:00",
-     "last_update_at": "2026-10-22T20:58:00+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לגבי מספר הנפגעים המדויק או היקף הנזק לתשתיות האנרגיה מעבר להצהרות המקומיות.",
+     "first_reported_at": "2026-10-23T13:38:06+00:00",
+     "last_update_at": "2026-10-23T15:27:23+00:00",
+     "what_is_not_verified": "מידת היישום בפועל של הפסקת האש החל מהמועד שנקבע",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1380521",
+       "published_at": "2026-10-23T15:27:23+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/politics/2207035",
+       "published_at": "2026-10-23T15:15:00+00:00"
+      },
       {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
-       "published_at": "2026-10-22T15:46:56+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-22T17:49:13+00:00"
+       "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+       "published_at": "2026-10-23T15:12:14+00:00"
       },
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4177283-ukrainian-swedish-defense-ministers-discuss-aftermath-of-russian-attacks-air-defense-needs.html",
-       "published_at": "2026-10-22T20:58:00+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://www.ukrinform.net/rubric-polytics/4177544-melania-trump-announces-localized-ceasefire-between-russia-and-ukraine-for-oleshky.html",
+       "published_at": "2026-10-23T14:59:00+00:00"
+      },
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10222342-02",
-     "title": "פשיטה אוקראינית בעורף הרוסי סמוך לקופיאנסק",
-     "summary": "כוחות אוקראיניים חדרו לעורף הקווים הרוסיים באמצעות תנועה בצינורות גז לאורך כחמישה עשר קילומטרים במסגרת מבצע מיוחד.",
-     "axis": "קופיאנסק",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T18:03:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-22T18:03:30+00:00",
-     "last_update_at": "2026-10-22T18:03:30+00:00",
-     "what_is_not_verified": "היקף ההצלחה והתוצאות הטקטיות של המבצע לא אומתו על ידי מקורות רוסיים או גורם עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network",
+       "published_at": "2026-10-23T14:57:50+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059447/",
+       "published_at": "2026-10-23T14:51:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48860",
+       "published_at": "2026-10-23T14:06:33+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/23/russia-ukraine-agree-to-ceasefire-to-evacuate-oleshky-residents",
+       "published_at": "2026-10-23T13:58:22+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059437/",
+       "published_at": "2026-10-23T13:41:00+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1380494",
+       "published_at": "2026-10-23T13:40:01+00:00"
+      },
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-ukrainian-troops-infiltrate-russian-rear-near-kupiansk-through-15-kilometers-of-gas-pipelines/",
-       "published_at": "2026-10-22T18:03:30+00:00"
+       "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+       "published_at": "2026-10-23T13:38:06+00:00"
       }
      ],
      "places": [
       {
-       "name": "קופיאנסק, אוקראינה",
-       "lat": 49.7133,
-       "lon": 37.6142
+       "name": "אולשקי, אוקראינה",
+       "lat": 46.6261,
+       "lon": 32.722
       }
      ]
     },
     {
-     "id": "UKRAINE-10222342-03",
-     "title": "תקיפת מערכות הגנה אווירית רוסיות בגזרת הוליאיפולה",
-     "summary": "מפעילי כלי טיס בלתי מאוישים של צבא היבשה האוקראיני פגעו במערכת טילי קרקע אוויר מסוג בוק ובמערכת נ\"מ נוספת שפעלו נגד מטוסים אוקראיניים.",
-     "axis": "הוליאיפולה",
+     "id": "UKRAINE-10231528-02",
+     "title": "פגיעת טילי שיוט אוקראיניים במפעל בעיר אוריול",
+     "summary": "דווח על פגיעת טילי שיוט אוקראיניים מדגם פלמינגו במפעל פרוטון בעיר אוריול שבשטח רוסיה.",
+     "axis": "תקיפות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T22:25:00+00:00",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-22T22:25:00+00:00",
-     "last_update_at": "2026-10-22T22:25:00+00:00",
-     "what_is_not_verified": "דגם מערכת הנ\"מ השנייה שנפגעה ומידת הנזק המדויקת אינם מאומתים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4177075-ukrainian-forces-hit-two-russian-air-defense-systems-targeting-ukrainian-aircraft-in-huliaipole-sector.html",
-       "published_at": "2026-10-22T22:25:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "הוליאיפולה, אוקראינה",
-       "lat": 47.6655,
-       "lon": 36.2657
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10222342-04",
-     "title": "פגיעת כטב\"ם אוקראיני בעגורן בעיר ליפצק ברוסיה",
-     "summary": "כלי טיס בלתי מאויש מתאבד מתוצרת אוקראינה פגע בעגורן בנייה במהלך טיסתו והתרסק באזור מגורים בעיר ליפצק.",
-     "axis": "עורף רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T21:18:04+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-22T21:18:04+00:00",
-     "last_update_at": "2026-10-22T21:18:04+00:00",
-     "what_is_not_verified": "מידת הנזק שנגרמה על הקרקע והיעד המקורי של כלי הטיס אינם ידועים.",
+     "first_reported_at": "2026-10-23T15:03:56+00:00",
+     "last_update_at": "2026-10-23T15:08:59+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק ואימות רשמי של דגם הטיל",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48841",
-       "published_at": "2026-10-22T21:18:04+00:00"
+       "url": "https://t.me/alexmehacarmel/48863",
+       "published_at": "2026-10-23T15:08:59+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48862",
+       "published_at": "2026-10-23T15:03:56+00:00"
       }
      ],
      "places": [
       {
-       "name": "ליפצק, רוסיה",
-       "lat": 52.6051,
-       "lon": 39.5964
+       "name": "אוריול, רוסיה",
+       "lat": 52.9709,
+       "lon": 36.0642
       }
      ]
     },
     {
-     "id": "UKRAINE-10222342-05",
-     "title": "מגעים מדיניים והצעות למשא ומתן להסדר לחימה",
-     "summary": "השליח האמריקני סטיב ויטקוף קיים שיחות באוסלו עם נשיא אוקראינה ובסנקט פטרבורג עם נשיא רוסיה, כאשר הועלתה אפשרות לחידוש שיחות משולשות ולהסדרי ביטחון קבועים.",
-     "axis": "משא ומתן בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-10231528-03",
+     "title": "מתקפת כטב\"מים אוקראינית על אזור מוסקבה והשבתת נמלי תעופה",
+     "summary": "כטב\"מים אוקראיניים שוגרו לעבר אזור מוסקבה, יורטו ליד נמלי התעופה וגרמו להשבתת הפעילות והגבלות תעופה בארבעה נמלי תעופה מרכזיים.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-21T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-22T17:47:00+00:00",
-     "last_update_at": "2026-10-22T22:41:21+00:00",
-     "what_is_not_verified": "לא מאומת האם יתקיים מפגש מנהיגים בפסגת הכלכלות הגדולות בפלורידה או האם הצדדים יגיעו להסכמות על הפסקת אש.",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T12:57:18+00:00",
+     "last_update_at": "2026-10-23T14:56:03+00:00",
+     "what_is_not_verified": "מספר הכטב\"מים המדויק שפגע או יורט בכל נמל תעופה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tass",
-       "source_root_id": "fh_1cbd3e65e32874b2",
-       "url": "https://tass.com/politics/2206565",
-       "published_at": "2026-10-22T22:41:21+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48861",
+       "published_at": "2026-10-23T14:56:03+00:00"
       },
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_6d39ea17e351fb5d",
-       "url": "https://www.ukrinform.net/rubric-polytics/4177277-zelensky-to-attend-g20-summit-in-florida-for-talks-with-trump-and-putin-if-invited.html",
-       "published_at": "2026-10-22T20:22:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_1cbd3e65e32874b2",
-       "url": "https://meduza.io/en/feature/2026/10/22/wtf-steve-u-s-lawmakers-outraged-after-witkoff-calls-putin-a-humanitarian-leaving-trump-and-vance-to-defend-their-envoy",
-       "published_at": "2026-10-22T19:58:44+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukrainian-drone-attack-triggers-shut-down-of-moscow-airports-drone-debris-reported-on-tarmac/",
+       "published_at": "2026-10-23T14:28:19+00:00"
       },
       {
        "source_id": "src_meduza",
-       "source_root_id": "fh_1cbd3e65e32874b2",
-       "url": "https://meduza.io/en/news/2026/10/22/putin-cites-unspecified-genetic-research-to-claim-russians-and-ukrainians-are-one-people",
-       "published_at": "2026-10-22T19:41:50+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_1cbd3e65e32874b2",
-       "url": "https://meduza.io/en/feature/2026/10/22/why-kyiv-is-skeptical-of-trump-s-renewed-peace-negotiations-with-russia-and-ukraine",
-       "published_at": "2026-10-22T19:38:56+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_bb718a0648ef2390",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059301/",
-       "published_at": "2026-10-22T18:12:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_6555238653cb4751",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059295/",
-       "published_at": "2026-10-22T17:47:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+       "published_at": "2026-10-23T12:57:18+00:00"
       }
      ],
      "places": [
       {
-       "name": "סנקט פטרבורג, רוסיה",
-       "lat": 59.9387,
-       "lon": 30.3162
-      },
-      {
-       "name": "אוסלו, נורווגיה",
-       "lat": 59.9133,
-       "lon": 10.739
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     },
     {
-     "id": "UKRAINE-10222342-06",
-     "title": "הסכם סיוע אזרחי ושיתוף פעולה לווייני בין פינלנד לאוקראינה",
-     "summary": "פינלנד הודיעה על חבילת סיוע הכוללת עשרה קטרים לרכבת, תמיכה כספית במגזר האנרגיה וסיוע הומניטרי, לצד חתימה על מסמכים להרחבת השימוש ביכולות לווייניות עצמאיות.",
-     "axis": "סיוע בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-10231528-04",
+     "title": "תקיפה רוסית על יעדים אזרחיים בצ'רניהיב",
+     "summary": "תקיפה רוסית בשעות היום פגעה בשני בתי עסק פרטיים בעיר צ'רניהיב, והביאה להרג של אדם אחד ולפציעתם של לפחות 25 בני אדם נוספים.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-22T17:57:00+00:00",
-     "last_update_at": "2026-10-22T23:29:32+00:00",
-     "what_is_not_verified": "לוח הזמנים המדויק להעברת הקטרים ויישום מערך הלוויינים אינם מפורטים במלואם.",
+     "first_reported_at": "2026-10-23T14:48:30+00:00",
+     "last_update_at": "2026-10-23T14:48:30+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "fh_09f49876aa41ef3d",
-       "url": "https://kyivindependent.com/amid-starlink-crisis-finnish-tech-giants-announce-plan-to-help-ukraine-build-its-own-sovereign-satellite-system/",
-       "published_at": "2026-10-22T23:29:32+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_09f49876aa41ef3d",
-       "url": "https://www.ukrinform.net/rubric-polytics/4177281-finland-to-provide-ukraine-with-ten-locomotives-additional-winter-aid-pm.html",
-       "published_at": "2026-10-22T20:39:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_09f49876aa41ef3d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059302/",
-       "published_at": "2026-10-22T18:29:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_94f3c52ef16d6637",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059299/",
-       "published_at": "2026-10-22T17:57:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/russian-daytime-attack-on-chernihiv-civilian-businesses-kills-1-injures-at-least-25/",
+       "published_at": "2026-10-23T14:48:30+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "צ'רניהיב, אוקראינה",
+       "lat": 51.4941,
+       "lon": 31.2943
       }
      ]
     },
     {
-     "id": "UKRAINE-10222342-07",
-     "title": "מחלוקת ודיווחים סותרים סביב הגבלות התקשורת הלוויינית של סטארלינק",
-     "summary": "נשיא ארצות הברית טען כי הוסרו ההגבלות על שירותי התקשורת הלוויינית באוקראינה, בעוד גורמים רשמיים בקייב טענו כי מגבלת המהירות נותרה על כנה והמצב לא השתנה.",
-     "axis": "טכנולוגיה וסיוע צבאי",
+     "id": "UKRAINE-10231528-05",
+     "title": "עסקת חילופי שבויים הדדית בין רוסיה לאוקראינה",
+     "summary": "משרד ההגנה הרוסי דיווח על עסקת חילופי שבויים שבה הוחזרו 270 אנשי צבא רוסים בתמורה ל-270 שבויים אוקראינים.",
+     "axis": "משא ומתן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T14:09:39+00:00",
+     "last_update_at": "2026-10-23T14:09:39+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/defense/2206993",
+       "published_at": "2026-10-23T14:09:39+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10231528-06",
+     "title": "תקיפות רוסיות על רובע אוסנוביאנסקי בחרקיב",
+     "summary": "כוחות רוסיים תקפו את רובע אוסנוביאנסקי בחרקיב באמצעות כטב\"מים, גרמו לפציעת שני ילדים ולנזק למבני מגורים, מכוניות ומבנה קרקס.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T10:55:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T14:10:00+00:00",
+     "last_update_at": "2026-10-23T14:10:00+00:00",
+     "what_is_not_verified": "דגם הכטב\"מים המדויק (זוהו ראשונית כגראן-3 ושאהד רקטי)",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059442/",
+       "published_at": "2026-10-23T14:10:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חרקיב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10231528-07",
+     "title": "תקיפת כטב\"ם רוסי והטבעת ספינת משא אזרחית מול חופי רומניה",
+     "summary": "ספינת משא אזרחית טבעה בים השחור מול חופי רומניה בעקבות פגיעת כטב\"ם רוסי, אדם אחד נהרג ושלושה אנשי צוות נעדרים.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T13:48:45+00:00",
+     "last_update_at": "2026-10-23T13:48:45+00:00",
+     "what_is_not_verified": "גורל שלושת אנשי הצוות הנעדרים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+       "published_at": "2026-10-23T13:48:45+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10231528-08",
+     "title": "תקיפות רוסיות חוזרות ונשנות על תשתיות בעיר דניפרו",
+     "summary": "פגיעות רוסיות בתשתיות קריטיות ומבני מגורים בעיר דניפרו גרמו להרג של אדם אחד ולפציעת חמישה נוספים.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T13:25:00+00:00",
+     "last_update_at": "2026-10-23T13:25:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059430/",
+       "published_at": "2026-10-23T13:25:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דניפרו, אוקראינה",
+       "lat": 51.5567,
+       "lon": 30.6122
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10231528-09",
+     "title": "התרסקות שברי כטב\"ם בשטח מולדובה",
+     "summary": "שברי כטב\"ם אותרו בסמוך למבנה מגורים בכפר קישטלניצה שבמולדובה, בעקבות חדירת כלי טיס למרחב האווירי במהלך תקיפות על אוקראינה.",
+     "axis": "תקיפות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-23T14:20:00+00:00",
+     "last_update_at": "2026-10-23T14:20:00+00:00",
+     "what_is_not_verified": "זהות משגר הכטב\"ם המדויקת ששבריו אותרו במולדובה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059443/",
+       "published_at": "2026-10-23T14:20:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קישטלניצה, מולדובה",
+       "lat": 47.5684,
+       "lon": 28.6598
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10231528-10",
+     "title": "הגברת פעילות חוליות סיור וחבלה רוסיות בסומי ובצ'רניהיב",
+     "summary": "כוחות הביטחון של אוקראינה זיהו חדירות של חוליות חבלה וסיור רוסיות במטרה לאסוף מודיעין על עמדות הגנה ולהניח מוקשים.",
+     "axis": "חזיתות",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-22T00:00:00+00:00",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-22T18:30:23+00:00",
-     "last_update_at": "2026-10-22T21:42:39+00:00",
-     "what_is_not_verified": "לא מאומת האם מגבלת המהירות אכן הוסרה במלואה בשטח או שהיא עדיין פוגעת בפעילות הכטב\"מים.",
+     "first_reported_at": "2026-10-23T13:00:00+00:00",
+     "last_update_at": "2026-10-23T13:00:00+00:00",
+     "what_is_not_verified": "היקף החוליות הפועלות בשטח ומיקומיהן המדויקים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4177491-russian-sabotage-and-reconnaissance-groups-step-up-activity-in-sumy-and-chernihiv-regions-sbgs.html",
+       "published_at": "2026-10-23T13:00:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10231528-11",
+     "title": "מגבלות מתמשכות על רשת סטארלינק עבור צבא אוקראינה",
+     "summary": "גורמים באוקראינה מדווחים כי רשת סטארלינק ומערכת סטארשילד ממשיכות להיתקל במגבלות טכניות, הפוגעות בהפעלת כטב\"מים ומערכות הגנה אווירית.",
+     "axis": "סיוע צבאי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-23T02:16:26+00:00",
+     "last_update_at": "2026-10-23T11:01:08+00:00",
+     "what_is_not_verified": "הגורם האחראי הישיר להמשך המגבלות והאטת הרשת",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_bbc",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-22T21:42:39+00:00"
+       "published_at": "2026-10-23T11:01:08+00:00"
       },
       {
-       "source_id": "src_tass",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2206599",
-       "published_at": "2026-10-22T21:07:07+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/kyiv-denies-reports-that-trump-musk-have-restored-starlink-speeds-in-ukraine/",
-       "published_at": "2026-10-22T19:17:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/22/trump-called-elon-musk-to-ask-him-to-lift-restrictions-on-ukraine-s-military-grade-starlink-service-wsj-reports",
-       "published_at": "2026-10-22T18:39:08+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48836",
-       "published_at": "2026-10-22T18:30:23+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10222342-08",
-     "title": "חשש בחברת רוסנפט מהמשך הפגיעה בבתי זיקוק",
-     "summary": "גורמים בחברת הנפט הרוסית הביעו בשיחות סגורות דאגה מכך שהתקיפות האוקראיניות החוזרות ונשנות על מתקני הזיקוק עלולות להסב נזק כבד ובלתי הפיך לפעילות החברה.",
-     "axis": "עורף רוסיה",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T21:04:30+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-22T21:04:30+00:00",
-     "last_update_at": "2026-10-22T21:04:30+00:00",
-     "what_is_not_verified": "הערכות הנזק הכספי והתפעולי הפנימיות של החברה מבוססות על הדלפות בעילום שם ולא אומתו רשמית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/rosneft-admits-losses-from-ukraines-refinery-strikes-becoming-unsustainable-bloomberg-reports/",
-       "published_at": "2026-10-22T21:04:30+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10222342-09",
-     "title": "השמדת מצבור רקטות רוסי באמצעות רחפן אוקראיני",
-     "summary": "רחפן של צבא אוקראינה פגע במצבור תחמושת רוסי של רקטות גראד והשמיד אותו.",
-     "axis": "קו המגע",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-22T16:22:44+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-22T16:22:44+00:00",
-     "last_update_at": "2026-10-22T16:22:44+00:00",
-     "what_is_not_verified": "המיקום המדויק של המצבור והיקף התחמושת שהושמדה אינם מאומתים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48829",
-       "published_at": "2026-10-22T16:22:44+00:00"
+       "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+       "published_at": "2026-10-23T02:16:26+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "טענת ארצות הברית כי הוסרו לחלוטין כל מגבלות המהירות בשירותי סטארלינק באוקראינה",
-    "קיומם של מחקרים גנטיים המוכיחים כי הרוסים והאוקראינים הם עם אחד כפי שטען פוטין",
-    "הערכות על נזק בלתי הפיך לחברת רוסנפט כתוצאה מפגיעות בבתי הזיקוק",
-    "קיום ודאי של פגישה משולשת בין מנהיגי רוסיה, ארצות הברית ואוקראינה בפלורידה",
-    "נתוני משרד ההגנה האוקראיני בנוגע להפלת מעל ארבע מאות אלף כטב\"מים רוסיים מתחילת השנה"
+    "מתווה תוכנית השלום האמריקאית הכוללת אזור מפורז בדונבאס וויתור על חברות בנאט\"ו",
+    "שקילת הקלות סנקציות נוספות על רוסיה על ידי ממשל טראמפ",
+    "הפעלת רשת בוטים רוסית המשתמשת בזיופי עמוק נגד מועמדים בארצות הברית",
+    "טענות על תופעות דתיות חריגות הקשורות לתמונת לוחם גדוד אספניולה שנהרג",
+    "מעורבות ישירה של גורמי מודיעין רוסיים בריגול בגרמניה"
    ],
    "map": {
     "confidence": "high",
@@ -1366,58 +1463,40 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1205,
+     "value": 1.1193,
      "unit": "USD",
-     "change_pct": -0.26,
+     "change_pct": -0.11,
      "source_id": "src_ecb",
-     "as_of": "2026-10-22T15:00:00+00:00"
+     "as_of": "2026-10-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "רוסיה",
-     "declared": [
-      "הגעה להסכמי ביטחון קבועים וסופיים ולא להפסקת אש זמנית",
-      "ראיית השטחים הנתונים במחלוקת כחלק מרוסיה ההיסטורית"
-     ],
-     "inferred": [
-      "הפעלת לחץ צבאי כבד על תשתיות האנרגיה בקייב לקראת החורף כדי לשבור את כושר העמידה",
-      "ניסיון להכתיב תנאי משא ומתן מעמדת כוח צבאית"
-     ],
-     "forecast": [
-      "המשך פגיעה ממוקדת במערכות חשמל ואנרגיה באוקראינה",
-      "נכונות להשתתף בשיחות במידה ותובטח הכרה בהישגיה הטריטוריאליים"
-     ]
-    },
-    {
      "actor": "אוקראינה",
      "declared": [
-      "השגת ערבויות ביטחון בינלאומיות מוצקות לסיום המלחמה",
-      "השתתפות במפגש פסגה משולש במידה ותימסר הזמנה רשמית",
-      "בניית מערך לווייני עצמאי שאינו תלוי בחברות זרות"
+      "הפסקת אש וערבויות ביטחון כתנאי ראשוני לשלום צודק",
+      "סירוב מוחלט לוויתור על שטחים ריבוניים לטובת רוסיה"
      ],
      "inferred": [
-      "המשך שחיקת מקורות ההכנסה הרוסיים באמצעות תקיפת בתי זיקוק ונכסי אנרגיה",
-      "שימור רצף תקשורת ומערכות כטב\"מים חרף מגבלות טכנולוגיות"
+      "הפעלת לחץ ישיר על העורף הרוסי באמצעות פגיעה בנמלי תעופה ובמפעלים צבאיים",
+      "הבטחת מסדרונות הומניטריים להצלת אוכלוסייה מנותקת"
      ],
      "forecast": [
-      "הגברת הלחץ הדיפלומטי על מדינות המערב לקבלת מערכות נ\"מ נוספות",
-      "המשך מאמצים לפגוע בעורף הרוסי באמצעות כלי טיס בלתי מאוישים"
+      "המשך דרישה לערבויות בינלאומיות נוקשות טרם כניסה לשיחות שלום מהותיות"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "רוסיה",
      "declared": [
-      "שאיפה לסיום הלחימה וקידום שיחות ישירות בין הצדדים",
-      "הסרת מגבלות תקשורת עבור הצבא האוקראיני"
+      "הכרה בשטחים הכבושים כשטח רוסי היסטורי ולא כוויתור טריטוריאלי",
+      "הסכמה עקרונית לחידוש מגעים תלת-צדדיים לדיון בסוגיות ביטחון סופיות"
      ],
      "inferred": [
-      "הפעלת לחץ על קייב לצמצום תקיפות על בתי זיקוק רוסיים כדי למנוע זעזועים כלכליים",
-      "בחינת מתווה לסיום המלחמה או הקפאתה בקו המגע הקיים"
+      "שחיקת התשתיות האזרחיות והתעשייתיות של אוקראינה באמצעות גלי תקיפות מתמשכים",
+      "ניצול הקלות סנקציות כלכליות ויוזמות מקומיות להפחתת הלחץ המדיני"
      ],
      "forecast": [
-      "המשך תיווך דיפלומטי לקראת מפגש פסגה בינלאומי",
-      "ניסיונות לגבש הבנות עבודה מול מוסקבה וקייב"
+      "המשך הלחימה תוך הצבת תנאי כניעה טריטוריאליים נוקשים בכל משא ומתן עתידי"
      ]
     }
    ],
@@ -1425,74 +1504,91 @@ window.DB.war_published = {
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/rosneft-admits-losses-from-ukraines-refinery-strikes-becoming-unsustainable-bloomberg-reports/",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1380494",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/10/22/trump-called-elon-musk-to-ask-him-to-lift-restrictions-on-ukraine-s-military-grade-starlink-service-wsj-reports",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/22/8059299/",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059443/",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/world/2206599",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://tass.com/defense/2206993",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48829",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://t.me/alexmehacarmel/48861",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-polytics/4177281-finland-to-provide-ukraine-with-ten-locomotives-additional-winter-aid-pm.html",
-     "accessed_at": "2026-10-22T23:42:59+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4177491-russian-sabotage-and-reconnaissance-groups-step-up-activity-in-sumy-and-chernihiv-regions-sbgs.html",
+     "accessed_at": "2026-10-23T15:28:58+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-21T15:45:24+00:00",
+  "previous_generated_at": "2026-10-22T23:42:59+00:00",
   "changes": {
-   "UKRAINE-10222342-01": {
+   "UKRAINE-10231528-01": {
     "kind": "new"
    },
-   "UKRAINE-10222342-02": {
+   "UKRAINE-10231528-02": {
+    "kind": "possible",
+    "prev": "פגיעת כטב\"ם אוקראיני בעגורן בעיר ליפצק ברוסיה",
+    "score": 0.467
+   },
+   "UKRAINE-10231528-03": {
     "kind": "new"
    },
-   "UKRAINE-10222342-03": {
+   "UKRAINE-10231528-04": {
     "kind": "new"
    },
-   "UKRAINE-10222342-04": {
+   "UKRAINE-10231528-05": {
     "kind": "new"
    },
-   "UKRAINE-10222342-05": {
+   "UKRAINE-10231528-06": {
     "kind": "new"
    },
-   "UKRAINE-10222342-06": {
+   "UKRAINE-10231528-07": {
     "kind": "new"
    },
-   "UKRAINE-10222342-07": {
+   "UKRAINE-10231528-08": {
     "kind": "new"
    },
-   "UKRAINE-10222342-08": {
+   "UKRAINE-10231528-09": {
     "kind": "new"
    },
-   "UKRAINE-10222342-09": {
+   "UKRAINE-10231528-10": {
     "kind": "new"
+   },
+   "UKRAINE-10231528-11": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "מחלוקת ודיווחים סותרים סביב הגבלות התקשורת הלוויינית של סטארלינק",
+    "score": 1.0
    }
   }
  },

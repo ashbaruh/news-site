@@ -1,0 +1,520 @@
+{
+ "status": "draft",
+ "received_sha256_12": "58fa79055103",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "assessment": 1,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-23T15:25:37+00:00",
+  "window": {
+   "from": "2026-10-22T15:25:37+00:00",
+   "to": "2026-10-23T15:25:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610231525"
+  },
+  "summary": "העימות הצבאי והכלכלי בין ארצות הברית וישראל לבין איראן מחריף תחת מצור ימי אמריקאי ממושך ואיומים הדדיים בחידוש תקיפות נרחבות. וושינגטון וירושלים נערכות לאפשרות של מהלומות צבאיות נוספות על תשתיות גרעין וטילים, בעוד טהרן מאיימת לפגוע במתקני אנרגיה וטכנולוגיה ברחבי המפרץ ופועלת לשיקום אתריה שנפגעו. במקביל, פעילות החות'ים בים האדום ושיבושי השיט במצרי הורמוז ובאב אל-מנדב גורמים לעלייה חדה במחירי הנפט ומניעים מאמצי תיווך בינלאומיים.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "מתיחות ביטחונית גבוהה, מצור ימי אמריקאי על נמלים ואיומים איראניים בפגיעה בנתיבי שיט ובתשתיות אזוריות"
+   },
+   {
+    "name": "עימות צבאי-אסטרטגי (ארה\"ב וישראל מול איראן)",
+    "status": "חילופי איומים בהסלמה, היערכות לתקיפת אתרי גרעין וטילים לצד כוננות ספיגה והתגוננות באיראן"
+   },
+   {
+    "name": "הים האדום ובאב אל-מנדב (שלוחות איראן)",
+    "status": "תקיפות פעילי חות'ים נגד יעדים סעודיים ואיומים על צירי סחר ימיים"
+   },
+   {
+    "name": "הזירה המדינית והאנרגטית הבינלאומית",
+    "status": "עליית מחירי הנפט בעולם מעל 115 דולר ומגעים דיפלומטיים בריכוז טורקיה, רוסיה ופקיסטן"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10231525-01",
+    "title": "הנשיא טראמפ מצהיר על כוונה לסיים את המלחמה ומאיים בהמשך תקיפות נגד איראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי ניתן לסיים את המלחמה מול איראן במהירות או להמתין לדעיכתה, וציין כי ייתכן שארצות הברית תמשיך להכות באיראן, מה שיוביל לירידת מחירי הדלק.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T20:31:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T20:31:06+00:00",
+    "last_update_at": "2026-10-23T15:04:33+00:00",
+    "what_is_not_verified": "האופן והמועד המדויקים שבהם המלחמה תסתיים או יחודשו התקיפות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380513",
+      "published_at": "2026-10-23T15:04:33+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132381",
+      "published_at": "2026-10-23T06:45:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132373",
+      "published_at": "2026-10-22T20:31:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10231525-02",
+    "title": "אזהרות איראניות מפני תקיפות תגמול במפרץ ועמידה במצב חירום",
+    "summary": "בכירים בטהרן, בהם מוחסן רזאי, הודיעו כי תקיפה ישראלית-אמריקנית חדשה תיענה במתקפות ללא קווים אדומים נגד מתקני נפט, מרכזי נתונים ובינה מלאכותית וכבלים תת-ימיים במדינות המפרץ, בעוד מפקד כוחות היבשה קרא למוכנות עקב ניסיונות לפגוע בלכידות הצבא.",
+    "axis": "איראן-מדינות המפרץ/ישראל/ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T15:03:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T15:03:00+00:00",
+    "last_update_at": "2026-10-23T13:27:04+00:00",
+    "what_is_not_verified": "מידת היישום המעשי של פגיעה בתשתיות אזרחיות במדינות המפרץ בעת תקיפה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_54212169dce761f0",
+      "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+      "published_at": "2026-10-23T13:27:04+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_54212169dce761f0",
+      "url": "https://en.irna.ir/news/86301057/Enemy-seeks-to-disrupt-armed-forces-cohesion-Iranian-commander",
+      "published_at": "2026-10-23T13:21:52+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_54212169dce761f0",
+      "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+      "published_at": "2026-10-22T15:03:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10231525-03",
+    "title": "היערכות ודיונים לקראת גל תקיפות אמריקאי-ישראלי אפשרי לאחר הבחירות",
+    "summary": "דיווחים מצביעים על כך שממשל טראמפ וישראל שוקלים חידוש מתקפות צבאיות מקיפות נגד מאגרי טילים, מתקני תשתית ואתרי גרעין באיראן, לרבות אפשרות שימוש בפצצה כבדה נגד מתחם תת-קרקעי בהר המכוש.",
+    "axis": "ארה\"ב/ישראל-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T15:34:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T15:34:34+00:00",
+    "last_update_at": "2026-10-23T11:32:09+00:00",
+    "what_is_not_verified": "האם אכן תתקבל החלטה על תקיפה לאחר בחירות האמצע או הבחירות בישראל, והיקף המטרות המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610234921",
+      "published_at": "2026-10-23T11:32:09+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/how-netanyahu-could-attack-iran-force-israel-unity-government-after-elections",
+      "published_at": "2026-10-23T10:36:51+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/nyt-reports-plans-for-fresh-strikes-on-iran-after-the-us-midterm-elections",
+      "published_at": "2026-10-23T08:40:09+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21691337",
+      "published_at": "2026-10-23T03:52:26+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/iran-pushes-hard-on-its-nuclear-rebuild-daring-trump-to-strike-again/",
+      "published_at": "2026-10-23T00:43:00+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
+      "published_at": "2026-10-22T15:34:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10231525-04",
+    "title": "מצור ימי אמריקאי על נמלי איראן ושיבוש ייצוא הנפט",
+    "summary": "ארצות הברית ממשיכה להטיל מצור על נמלי איראן שהגיע ל-100 ימים ומנע ייצוא נפט בסך מיליארדי דולרים, מה שגרר צניחה במשלוחי נפט שהוגדרו כמלזיים שהועברו לסין.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T18:48:35+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T18:48:35+00:00",
+    "last_update_at": "2026-10-23T11:32:09+00:00",
+    "what_is_not_verified": "הערכת היקף הנזק הכספי הכולל למשק האיראני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610234921",
+      "published_at": "2026-10-23T11:32:09+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610222999",
+      "published_at": "2026-10-23T06:58:57+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132372",
+      "published_at": "2026-10-22T18:48:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10231525-05",
+    "title": "עליית מחירי הנפט בעולם על רקע המתיחות והאיומים במצר הורמוז",
+    "summary": "מחיר חבית נפט מסוג ברנט עלה מעל 115 דולר לחבית עקב חששות מהסלמה בעימות הצבאי, חידוש תקיפות אמריקאיות ואיומים להפרעות בנתיבי השיט במצר הורמוז.",
+    "axis": "איראן-מפרץ הורמוז/שוק האנרגיה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T16:10:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T16:10:36+00:00",
+    "last_update_at": "2026-10-23T13:27:04+00:00",
+    "what_is_not_verified": "טענות הדדיות בדבר בימוי מתקפות והנחת מוקשים ימיים במצר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_3271d01f4095b676",
+      "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+      "published_at": "2026-10-23T13:27:04+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_3271d01f4095b676",
+      "url": "https://t.me/lelotsenzura/94744",
+      "published_at": "2026-10-22T16:10:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10231525-06",
+    "title": "האצת שיקום מתקני הגרעין האיראניים והפצת הנחיות התגוננות",
+    "summary": "תצלומי לוויין חשפו עבודות שיקום מהירות במתקני ייצור וגרעין באיראן שנפגעו בעבר, במקביל לפרסום הנחיות אזרחיות באיראן להתגוננות מפני תקיפות באתרי גרעין וקריאות באו\"ם נגד התנהלות סבא\"א.",
+    "axis": "איראן-גרעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T17:38:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T17:38:36+00:00",
+    "last_update_at": "2026-10-23T12:11:17+00:00",
+    "what_is_not_verified": "סטטוס הפעילות המבצעית בתוך המתקנים התת-קרקעיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_9f7e790cb8c21517",
+      "url": "https://en.irna.ir/news/86301031/Iran-demands-end-to-selective-IAEA-statute-implementation",
+      "published_at": "2026-10-23T12:11:17+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_9f7e790cb8c21517",
+      "url": "https://www.fdd.org/analysis/iran-pushes-hard-on-its-nuclear-rebuild-daring-trump-to-strike-again/",
+      "published_at": "2026-10-23T00:43:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_9f7e790cb8c21517",
+      "url": "https://t.me/alexmehacarmel/48833",
+      "published_at": "2026-10-22T17:38:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נתנז, איראן",
+      "lat": 33.5071,
+      "lon": 51.9136
+     },
+     {
+      "name": "וינה, אוסטריה",
+      "lat": 48.2084,
+      "lon": 16.3725
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10231525-07",
+    "title": "התרחבות איומי החות'ים בים האדום ופגיעה באינטרסים סעודיים",
+    "summary": "פעולות תקיפה של החות'ים בתימן על תשתיות נפט סעודיות ושליטתם במצר באב אל-מנדב מגבירות את הלחץ האזורי, לצד דיווחים על תקיפות אוויריות סעודיות בצנעא והרחבת מפעל טילים סעודי להרתעה מול איראן.",
+    "axis": "שלוחות איראן (חות'ים)-ערב הסעודית/נתיבי שיט",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T10:46:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T10:46:29+00:00",
+    "last_update_at": "2026-10-23T12:10:20+00:00",
+    "what_is_not_verified": "מידת התיאום והשליטה הישירה של טהרן במהלכי החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus-balance",
+      "published_at": "2026-10-23T12:10:20+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86301006/Saudi-airstrikes-target-Yemen-s-capital-Sanaa",
+      "published_at": "2026-10-23T11:34:22+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/exclusive-saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study",
+      "published_at": "2026-10-23T10:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "מוח'א, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10231525-08",
+    "title": "מגעים דיפלומטיים ותיווך בינלאומי סביב מצר הורמוז והמשבר",
+    "summary": "שרים ממדינות אירופה והמזרח התיכון נועדו באיסטנבול לדיון במצב מצר הורמוז, בעוד רוסיה ופקיסטן מנסות לקדם ערוצי הידברות וריסון בין ארצות הברית, איראן ומדינות המפרץ.",
+    "axis": "דיפלומטיה אזורית ובינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-22T14:41:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-22T14:41:19+00:00",
+    "last_update_at": "2026-10-23T14:45:25+00:00",
+    "what_is_not_verified": "נכונות הצדדים הלוחמים להתפשר על בסיס היוזמות השונות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_3d16de44a96bb57f",
+      "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+      "published_at": "2026-10-23T14:45:25+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_3d16de44a96bb57f",
+      "url": "https://www.al-monitor.com/originals/2026/10/european-mideast-foreign-ministers-hold-talks-istanbul",
+      "published_at": "2026-10-23T12:30:28+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_3d16de44a96bb57f",
+      "url": "https://www.fdd.org/analysis/washington-should-resist-russias-gulf-mediation-bid/",
+      "published_at": "2026-10-22T14:41:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     },
+     {
+      "name": "מנאמה, בחריין",
+      "lat": 26.2235,
+      "lon": 50.5822
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומה ומועדה המדויק של תוכנית תקיפה אמריקאית-ישראלית לאחר בחירות האמצע או הבחירות בישראל",
+   "ההיתכנות המבצעית של הטלת פצצה כבדה מסוג MOAB על מתחם הר המכוש",
+   "טענות הנשיא טראמפ כי איראן מביימת תקיפות ומניחה מוקשים ימיים במצר הורמוז",
+   "היקף הנזק הכלכלי הבלעדי של המצור הימי הנאמד ב-25 מיליארד דולר",
+   "ההערכות לפיהן תקיפה צבאית תביא להפלת המשטר בטהרן או לכפיית ממשלת אחדות בישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להגיב ללא קווים אדומים נגד מתקני אנרגיה, תקשורת וטכנולוגיה במדינות המפרץ במקרה של תקיפה",
+     "לדרוש את הפסקת האכיפה המפלה והפוליטית לטענתה של סבא\"א",
+     "לשמור על לכידות הכוחות המזוינים והמוכנות של העורף"
+    ],
+    "inferred": [
+     "לשקם במהירות את רכיבי תוכנית הגרעין והטילים שנפגעו באתרים תת-קרקעיים",
+     "להפעיל לחץ על מחירי הנפט העולמיים כדי לאלץ את ארצות הברית לסגת מהמצור ומהמלחמה",
+     "לנתק את הקשרים הביטחוניים בין וושינגטון למדינות המפרץ"
+    ],
+    "forecast": [
+     "האצת ביצור מתקני הגרעין בהר המכוש תוך המשך איומים על חופש השיט במצר הורמוז",
+     "החרפת פעולות התגמול באמצעות תקיפות א-סימטריות או דרך שלוחות במקרה של תקיפה אמריקאית"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "לסיים את העימות מול איראן ולהביא להורדה מהירה של מחירי הדלק",
+     "להמשיך במצור הימי על הנמלים האיראניים ככל שיידרש",
+     "למנוע מאיראן השגת נשק גרעיני בעקבות הסכנה בשימוש בו"
+    ],
+    "inferred": [
+     "מיטוט היכולת הכלכלית של איראן באמצעות חנק ייצוא הנפט",
+     "יצירת הרתעה צבאית ישירה שתמנע את התחדשות תוכנית הנשק הגרעיני",
+     "בחינת תקיפות צבאיות ממוקדות לאחר סיום מערכת הבחירות הפנימית"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי במפרץ הפרסי",
+     "הוצאה לפועל של גל תקיפות מוגבל או נרחב נגד מתקני טילים וגרעין אם ייכשלו המגעים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומי טרור מיידיים ופעולה נגד שלוחות הנתמכות בידי משמרות המהפכה"
+    ],
+    "inferred": [
+     "מניעת שיקום תשתיות הגרעין והטילים של איראן באמצעים צבאיים",
+     "תיאום הדוק עם ארצות הברית למהלומה צבאית משותפת נגד מתקנים מבוצרים באיראן",
+     "רתימת המצב הביטחוני והמערכה לצרכים פוליטיים פנימיים לאחר הבחירות"
+    ],
+    "forecast": [
+     "המשך היערכות ואימונים לקראת תקיפות באיראן בשיתוף פעולה עם צבא ארצות הברית",
+     "הגברת מאמצי הסיכול נגד מוקדי ייצור אמל\"ח איראניים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/european-mideast-foreign-ministers-hold-talks-istanbul",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/washington-should-resist-russias-gulf-mediation-bid/",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610222999",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21691337",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1380513",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus-balance",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132372",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48833",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94744",
+    "accessed_at": "2026-10-23T15:25:37+00:00"
+   }
+  ]
+ }
+}

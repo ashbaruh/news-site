@@ -259,6 +259,7 @@
 12.5744,
 43.3128
 ],
+"bab al-mandab strait": null,
 "bab al-mandab strait, yemen": null,
 "bab al-mandab, yemen": [
 12.714,
@@ -480,6 +481,7 @@
 48.8354,
 37.3884
 ],
+"chernihiv oblast, ukraine": null,
 "chernihiv, ukraine": [
 51.4941,
 31.2943
@@ -491,6 +493,10 @@
 "chisinau, moldova": [
 47.0245,
 28.8323
+],
+"chistelnita, moldova": [
+47.5684,
+28.6598
 ],
 "chornobyl, ukraine": [
 51.2705,
@@ -1213,6 +1219,10 @@
 33.0992,
 35.5117
 ],
+"manama, bahrain": [
+26.2235,
+50.5822
+],
 "manara, israel": [
 33.1959,
 35.5446
@@ -1362,6 +1372,10 @@
 35.1298
 ],
 "nasib border crossing, syria": null,
+"natanz, iran": [
+33.5071,
+51.9136
+],
 "new delhi, india": [
 28.6139,
 77.209
@@ -1463,6 +1477,10 @@
 43.4681,
 39.9289
 ],
+"oryol, russia": [
+52.9709,
+36.0642
+],
 "oslo, norway": [
 59.9133,
 10.739
@@ -1495,6 +1513,7 @@
 32.0878,
 34.886
 ],
+"pickaxe mountain, iran": null,
 "pokrovsk, ukraine": [
 48.2771,
 37.1772
