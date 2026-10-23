@@ -1,0 +1,388 @@
+{
+ "status": "draft",
+ "received_sha256_12": "28f1413d17b1",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-23T23:42:39+00:00",
+  "window": {
+   "from": "2026-10-22T23:42:39+00:00",
+   "to": "2026-10-23T23:42:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "north-202610232342"
+  },
+  "summary": "בגזרה הצפונית נמשכת פעילות צבאית ישראלית הכוללת ירי ארטילרי וגיחות כטב\"מים בדרום לבנון ובמרחב קוניטרה בסוריה, לצד מחאות מקומיות נגד החדירות הישראליות בדרום סוריה. בזירה הפנים-לבנונית מתפתחת מחלוקת פוליטית סביב תפיסת מצבורי חומרי נפץ של חזבאללה ושאלת ההעמדה לדין של הארגון, במקביל לצמצום כוח האדם הדיפלומטי האמריקני במדינה. במקביל, נרשמת מתיחות מדינית סביב עמדות טורקיה וישראל, והשפעתן על היציבות במרחב הסורי והאזורי.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "חילופי אש ארטילריים, גיחות כטב\"מים ונוכחות צבאית ישראלית ברצועת ביטחון"
+   },
+   {
+    "name": "דרום סוריה (קוניטרה / א-סווידאא')",
+    "status": "הפגזות ישראליות נקודתיות, מחאות עממיות ומתיחות פנימית בין הפלגים"
+   },
+   {
+    "name": "פנים לבנון (ביירות ומוסדות המדינה)",
+    "status": "משבר פוליטי סביב חימוש חזבאללה והיערכות דיפלומטית אמריקנית להסלמה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10232342-01",
+    "title": "הפגזות ארטילריות ותקיפות ישראליות בדרום לבנון",
+    "summary": "צבא ישראל ביצע הפגזות ארטילריות ותקיפות לעבר שורת עיירות וכפרים בדרום לבנון, לצד טיסות של כלי טיס בלתי מאוישים.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T15:00:52+00:00",
+    "last_update_at": "2026-10-23T23:19:40+00:00",
+    "what_is_not_verified": "אין אימות עצמאי מעבר לסוכנות הידיעות הלאומית הלבנונית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_nna",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-shells-southern-lebanon-towns-and-villages",
+      "published_at": "2026-10-23T23:19:40+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_nna",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-shelling-hit-southern-lebanon-amid-intensified-drone-activity/4098794",
+      "published_at": "2026-10-23T15:00:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-ח'יאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     },
+     {
+      "name": "א-נבטיה, לבנון",
+      "lat": 33.3812,
+      "lon": 35.4825
+     },
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10232342-02",
+    "title": "פעילות כלי טיס בלתי מאוישים ישראליים מעל ביירות וסביבתה",
+    "summary": "דיווחים על פעילות כטב\"מים ישראליים בגובה נמוך בשמי ביירות, הפרברים הדרומיים וצור.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T15:00:52+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T15:00:52+00:00",
+    "last_update_at": "2026-10-23T17:34:45+00:00",
+    "what_is_not_verified": "היקף הגידול המדויק בפעילות והאם מדובר בסימן למתקפה קרובה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/are-israels-drones-signalling-new-escalation-hezbollah",
+      "published_at": "2026-10-23T17:34:45+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-artillery-shelling-hit-southern-lebanon-amid-intensified-drone-activity/4098794",
+      "published_at": "2026-10-23T15:00:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "צור, לבנון",
+      "lat": 33.2721,
+      "lon": 35.1964
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10232342-03",
+    "title": "מחלוקת בממשלת לבנון על הפניית תיק פיצוצי דהר אל-בידר למועצה המשפטית",
+    "summary": "הפניית תיק תפיסת 800 ק\"ג חומרי נפץ של חיזבאללה למועצה המשפטית עוררה ויכוח פוליטי סוער בתוך ישיבת הממשלה הלבנונית.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T14:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:00:00+00:00",
+    "last_update_at": "2026-10-23T14:00:00+00:00",
+    "what_is_not_verified": "היעד הסופי המדויק של חומרי הנפץ שנתפסו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/964415/dahr-al-baidar-explosives-case-sparks-cabinet-dispute-over-judicial-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964415",
+      "published_at": "2026-10-23T14:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8103,
+      "lon": 35.7619
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10232342-04",
+    "title": "ירי ארטילרי ישראלי לעבר כפרים במחוז קוניטרה בסוריה",
+    "summary": "כוחות ישראליים שיגרו אש ארטילרית שפגעה בפאתי שני כפרים באזור קוניטרה בדרום סוריה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T15:48:09+00:00",
+    "last_update_at": "2026-10-23T15:48:09+00:00",
+    "what_is_not_verified": "היקף הנפגעים או הנזק המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-artillery-fire-hits-outskirts-of-2-villages-in-syria-s-quneitra-province/4098847",
+      "published_at": "2026-10-23T15:48:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חמידיה, סוריה",
+      "lat": 34.6638,
+      "lon": 37.0159
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10232342-05",
+    "title": "הפגנות בסוריה נגד חדירות ותקיפות צה\"ל בדרום המדינה",
+    "summary": "מאות אזרחים הפגינו ברחבי סוריה במחאה על פשיטות ותקיפות חוזרות של כוחות צה\"ל בדרום, בעקבות תקרית שבה נהרג אדם בעל מוגבלות.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T15:30:27+00:00",
+    "last_update_at": "2026-10-23T15:30:27+00:00",
+    "what_is_not_verified": "נסיבות התקרית המדויקות בה נהרג האזרח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/hundreds-syrians-protest-repeated-israeli-incursions",
+      "published_at": "2026-10-23T15:30:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10232342-06",
+    "title": "הצהרות שגריר ארה\"ב בטורקיה לגבי המנהיג הדרוזי בסוריה ויחסי ישראל-טורקיה",
+    "summary": "השגריר תום באראכ מתח ביקורת על השיח' חכמת אלהג'רי בדרום סוריה, טען לקשר שלו לסחר בסמים, והגדיר את יחסי ישראל וטורקיה כריב נעורים.",
+    "axis": "סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T18:01:43+00:00",
+    "last_update_at": "2026-10-23T19:54:16+00:00",
+    "what_is_not_verified": "האשמות לגבי ייצור וסחר בקפטגון על ידי גורמים מקומיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21694357",
+      "published_at": "2026-10-23T19:54:16+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132439",
+      "published_at": "2026-10-23T18:33:01+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132437",
+      "published_at": "2026-10-23T18:01:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-סווידאא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     },
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10232342-07",
+    "title": "צמצום נוכחות דיפלומטית אמריקנית בשגרירות בביירות",
+    "summary": "מחלקת המדינה האמריקנית פועלת לצמצום כוח האדם בשגרירות ארה\"ב בלבנון על רקע חשש גובר מהסלמה אזורית.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T22:53:08+00:00",
+    "last_update_at": "2026-10-23T22:53:08+00:00",
+    "what_is_not_verified": "מספר אנשי הצוות המדויק שעוזב את ביירות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+      "published_at": "2026-10-23T22:53:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות השגריר באראכ על מעורבות הנהגת הדרוזים בסוריה בייצור וסחר בסמים",
+   "ההערכות לפיהן כטב\"מים מעל ביירות מעידים על תקיפה ישראלית רחבה ומיידית",
+   "מספר הנפגעים המדויק בתקיפות ובחדירות צה\"ל בדרום סוריה ובדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על אזור ביטחון בדרום לבנון עד לפירוק חזבאללה מנשקו ותשתיותיו הצבאיות",
+     "מניעת התבססות איומים ופגיעה בתשתיות עוינות בסוריה ובלבנון"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי ופסיכולוגי רציף על חיזבאללה וממשלת לבנון כדי לאלץ נסיגה של הארגון מקו הגבול",
+     "יצירת חיץ ביטחוני קרקעי ואווירי בדרום סוריה למניעת התקרבות גורמים עוינים"
+    ],
+    "forecast": [
+     "המשך החזקת אזור הביטחון בדרום לבנון ללא קשר לתוצאות הבחירות בישראל",
+     "המשך תקיפות נקודתיות וגיחות איסוף מודיעין בשמי לבנון וסוריה"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "הבעת גינוי לאירועי טרור ופגיעה באתרי פולחן דתיים באזור",
+     "התנגדות להליכים משפטיים ופוליטיים פנימיים בלבנון נגד הארגון ופעילותו"
+    ],
+    "inferred": [
+     "שימור המאגר הצבאי וחומרי הנפץ לשימוש עתידי, והדיפת ניסיונות ממשלת לבנון להגביל את כוחו",
+     "שמירה על יכולת הרתעה מול ישראל חרף הלחץ הצבאי והמדיני הגובר"
+    ],
+    "forecast": [
+     "המשך התנגדות עיקשת לפירוק מנשק במסגרת המשא ומתן עם ישראל",
+     "החרפת העימותים הפוליטיים בתוך ממשלת לבנון מול השרים המתנגדים לארגון"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הגדרת הכיבוש הישראלי כמקור המרכזי לאי-יציבות אזורית",
+     "קידום פתרונות דיפלומטיים ומניעת הסלמות צבאיות נוספות במזרח התיכון"
+    ],
+    "inferred": [
+     "ביסוס מעמדה כמתווכת אזורית מובילה וצמצום חופש הפעולה הצבאי של ישראל בסוריה",
+     "בלימת השפעתם של כוחות מקומיים הנתמכים על ידי ישראל או ארה\"ב בדרום סוריה"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים מול שותפות אזוריות לגיבוש עמדה נגד מהלכי ישראל",
+     "שמירה על ערוצי שיח פתוחים מול ארה\"ב כדי למנוע הידרדרות לעימות רחב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/hundreds-syrians-protest-repeated-israeli-incursions",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-artillery-fire-hits-outskirts-of-2-villages-in-syria-s-quneitra-province/4098847",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/964415/dahr-al-baidar-explosives-case-sparks-cabinet-dispute-over-judicial-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964415",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-shells-southern-lebanon-towns-and-villages",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/are-israels-drones-signalling-new-escalation-hezbollah",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132437",
+    "accessed_at": "2026-10-23T23:42:39+00:00"
+   }
+  ]
+ }
+}

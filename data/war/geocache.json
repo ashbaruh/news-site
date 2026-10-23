@@ -64,6 +64,7 @@
 ],
 "al-alam camp, shabwa, yemen": null,
 "al-alam camp, shabwah, yemen": null,
+"al-aqrood, yemen": null,
 "al-baghuz, deir ez-zor, syria": [
 34.4646,
 40.9451
@@ -739,6 +740,10 @@
 "hamburg, germany": [
 53.5502,
 10.0013
+],
+"hamidiyah, syria": [
+34.6638,
+37.0159
 ],
 "haris, lebanon": [
 33.1768,
@@ -2143,6 +2148,7 @@
 36.1017,
 37.6663
 ],
+"zubayda, syria": null,
 "אודסה, אוקראינה": [
 46.4843,
 30.7323

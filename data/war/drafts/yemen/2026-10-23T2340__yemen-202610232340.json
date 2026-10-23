@@ -1,0 +1,303 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fb7751097046",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-23T23:40:24+00:00",
+  "window": {
+   "from": "2026-10-22T23:40:24+00:00",
+   "to": "2026-10-23T23:40:24+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610232340"
+  },
+  "summary": "בזירה התימנית נמשכת הסלמה קרקעית משמעותית מצד הכוחות החות'יים, המטילים מצור ממושך על העיר תעז, מנתקים צירי אספקה ופוגעים באוכלוסייה אזרחית. במקביל, פעילות החות'ים ממשיכה לאיים על הביטחון האזורי ועל ערב הסעודית, דבר המניע מהלכים דיפלומטיים והיערכויות הגנתיות ברחבי המזרח התיכון. במישור הימי נרשמים חיכוכי גבול ופגיעה באזרחים בים האדום לצד לחץ מתמשך על נתיבי השיט.",
+  "fronts": [
+   {
+    "name": "חזית תעז והחוף המערבי",
+    "status": "לחימה פעילה, מצור מתמשך של החות'ים על תעז וחסימת עורק התחבורה לעדן"
+   },
+   {
+    "name": "הגנת ערב הסעודית והמפרץ",
+    "status": "כוננות מפני מתקפות חות'יות וצמצום נוכחות דיפלומטית אמריקאית"
+   },
+   {
+    "name": "המרחב הימי בים האדום ובאב אל-מנדב",
+    "status": "מתיחות סביב נתיבי השיט וחיכוכים מול משמר החופים של אריתריאה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10232340-01",
+    "title": "מצור חות'י ומשבר הומניטרי בעיר תעז",
+    "summary": "כוחות חות'יים מכתרים את העיר תעז מזה עשרים יום, חוסמים את ציר התנועה לעדן ומונעים כניסת סיוע הומניטרי למאות אלפי תושבים, מה שהוביל למחסור חמור במים, בדלק ובמזון.",
+    "axis": "פנים-תימן: מחוז תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T06:37:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T06:37:34+00:00",
+    "last_update_at": "2026-10-23T20:44:02+00:00",
+    "what_is_not_verified": "הנתונים המדויקים על מספר התושבים המנותקים והיקף הפגיעה באספקת המים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/23/time-running-out-to-reach-yemens-taiz-amid-deepening-crisis-un-says?traffic_source=rss",
+      "published_at": "2026-10-23T20:44:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/time-running-out-yemens-taiz-after-20-days-under-houthi-siege-un-warns",
+      "published_at": "2026-10-23T18:42:06+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/un-sounds-alarm-besieged-yemen-city-taiz",
+      "published_at": "2026-10-23T18:39:42+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/un-sounds-alarm-besieged-yemen-city-taiz",
+      "published_at": "2026-10-23T18:30:37+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168654",
+      "published_at": "2026-10-23T12:00:00+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-hints-new-strikes-iran-ministers-gather-istanbul",
+      "published_at": "2026-10-23T06:37:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10232340-02",
+    "title": "הרוגים בהפגזות חות'יות באזור תעז",
+    "summary": "גורמים מקומיים מדווחים על פגיעה באזרחים ובמשפחות כתוצאה מהפגזות של המיליציה החות'ית באזור אל-אקרוד ובמחוז תעז, לצד הלוויות שנערכו להרוגים.",
+    "axis": "פנים-תימן: מחוז תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T14:04:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T14:04:55+00:00",
+    "last_update_at": "2026-10-23T22:02:21+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק והנסיבות הספציפיות של כל תקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_1058f61e118b9523",
+      "url": "https://www.sabanew.net/viewstory/154521",
+      "published_at": "2026-10-23T22:02:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_1058f61e118b9523",
+      "url": "https://www.sabanew.net/viewstory/154518",
+      "published_at": "2026-10-23T20:08:47+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_1058f61e118b9523",
+      "url": "https://www.sabanew.net/viewstory/154501",
+      "published_at": "2026-10-23T14:04:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10232340-03",
+    "title": "הצהרת טורקיה לגבי אי-השתתפות בלחימה ישירה נגד החות'ים",
+    "summary": "שר ההגנה של טורקיה הבהיר כי ארצו אינה מתכוונת לשלוח כוחות ללחימה ישירה מול החות'ים במסגרת הסכם ההגנה המשותף עם ערב הסעודית ופקיסטן, וכי הסיוע מתמקד בהרתעה.",
+    "axis": "מדיני-ביטחוני אזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T20:27:03+00:00",
+    "last_update_at": "2026-10-23T20:27:03+00:00",
+    "what_is_not_verified": "היקף הסיוע הצבאי העתידי שתאשר טורקיה אם תוגש בקשה סעודית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-has-no-plans-fight-houthis-under-saudi-pact-minister-says-0",
+      "published_at": "2026-10-23T20:27:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10232340-04",
+    "title": "פעילות ימית של אריתריאה נגד דייגים תימנים",
+    "summary": "כוחות חיל הים של אריתריאה יורים לעבר סירות דייגים תימנים מול חופי חודיידה ועוצרים אותם לצורך עבודות כפייה במתקני כליאה במדינה.",
+    "axis": "הים האדום: חופי תימן-אריתריאה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T10:44:23+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T10:44:23+00:00",
+    "last_update_at": "2026-10-23T10:44:23+00:00",
+    "what_is_not_verified": "טענות הדדיות לגבי חציית גבולות ימיים וריבוניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/investigations/eritrea-detains-yemeni-fishermen-forced-labour",
+      "published_at": "2026-10-23T10:44:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10232340-05",
+    "title": "פינוי נציגויות דיפלומטיות אמריקאיות ברקע מתקפות החות'ים",
+    "summary": "מחלקת המדינה של ארצות הברית הורתה על עזיבת צוותים לא חיוניים מסעודיה ומצמצמת כוח אדם בשגרירויות באזור, בין היתר עקב החשש מהסלמה ומהתגברות תקיפות מצד החות'ים.",
+    "axis": "חצי האי ערב: ארצות הברית - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T22:53:08+00:00",
+    "last_update_at": "2026-10-23T22:53:08+00:00",
+    "what_is_not_verified": "מידת ההשפעה הישירה של מתקפות החות'ים לעומת המתיחות מול איראן על ההחלטה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_cnn",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+      "published_at": "2026-10-23T22:53:08+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק כתוצאה מפעולות הצבא וההפגזות בתעז ובאל-אקרוד",
+   "היקף התקיפות החות'יות המדויק לעבר שטח סעודיה בימים האחרונים",
+   "שיעור הפגיעה המדויק באספקת המים והמזון בתוך העיר הנצורה תעז"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "המיליציה החות'ית (אנצאר אללה)",
+    "declared": [
+     "המשך המערכה הצבאית בתימן והפעלת לחץ על הממשלה המוכרת ובעלי בריתה"
+    ],
+    "inferred": [
+     "כיבוש מוחלט של העיר תעז והשתלטות על צירי מסחר ונמלים מרכזיים לאורך החוף המערבי",
+     "הפעלת לחץ אזורי על סעודיה ועל נתיבי השיט הבינלאומיים בים האדום ובאב אל-מנדב"
+    ],
+    "forecast": [
+     "החרפת הלחץ הצבאי על תעז ושימוש במצור כמנוף מיקוח מול הכוחות הנתמכים בידי סעודיה"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת והקואליציה התומכת בה",
+    "declared": [
+     "קריאה להתערבות בינלאומית דחופה לפתיחת המצור על תעז ולהגדרת החות'ים כארגון טרור"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית לעבר החוף ומניעת ניתוק מוחלט של דרום המדינה ממרכזה",
+     "גיוס תמיכה צבאית ומדינית ממדינות האזור כגון סעודיה וטורקיה להגברת ההרתעה"
+    ],
+    "forecast": [
+     "המשך הישענות על קואליציות אזוריות ולחץ דיפלומטי באו\"ם להקלת המצור האזרחי על תעז"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/23/time-running-out-to-reach-yemens-taiz-amid-deepening-crisis-un-says?traffic_source=rss",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/un-sounds-alarm-besieged-yemen-city-taiz",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-has-no-plans-fight-houthis-under-saudi-pact-minister-says-0",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/investigations/eritrea-detains-yemeni-fishermen-forced-labour",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154501",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168654",
+    "accessed_at": "2026-10-23T23:40:24+00:00"
+   }
+  ]
+ }
+}
