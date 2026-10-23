@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-23T08:17:17+00:00",
-  "fetched_at": "2026-10-23T08:17:17+00:00"
+  "checked_at": "2026-10-23T09:17:17+00:00",
+  "fetched_at": "2026-10-23T09:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T08:17:29+00:00",
-  "fetched_at": "2026-10-23T08:17:29+00:00"
+  "checked_at": "2026-10-23T09:17:29+00:00",
+  "fetched_at": "2026-10-23T09:17:29+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Audio-Technica bills its luxury wired cans as “the pinnacle of closed-back headphone craftsmanship”",
+    "title_he": "אודיו-טכניקה מגדירה את הפחיות היוקרתיות החוטיות שלה כ\"פסגת אומנות האוזניות עם גב סגור\"",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wired-headphones/audio-technica-bills-its-luxury-wired-cans-as-the-pinnacle-of-closed-back-headphone-craftsmanship",
+    "date": "2026-10-23T09:00:00+00:00"
+   },
+   {
+    "title_en": "Écoute Audio upgrades its trailblazing valve headphones with improved sound, comfort and noise cancelling",
+    "title_he": "Écoute Audio משדרגת את אוזניות השסתומים הפורצות שלה עם סאונד, נוחות וביטול רעשים משופרים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wired-headphones/ecoute-upgrades-its-trailblazing-valve-headphones-with-improved-sound-comfort-and-noise-cancelling",
+    "date": "2026-10-23T08:44:50+00:00"
+   },
    {
     "title_en": "Grado’s latest Signature Line headphones promise a “full-bodied, musical presentation” at an “accessible” price",
     "title_he": "אוזניות Signature Line העדכניות ביותר של Grado מבטיחות \"מצגת גוף מלא, מוזיקלית\" במחיר \"נגיש\"",
@@ -62,27 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/blu-ray-players/sony-could-be-ditching-4k-blu-ray-for-good-as-rumours-swirl-about-its-last-dedicated-player",
     "date": "2026-10-22T15:04:15+00:00"
-   },
-   {
-    "title_en": "Deezer will now let users fully exclude AI-generated music from their streaming catalogue",
-    "title_he": "Deezer תאפשר כעת למשתמשים להחריג באופן מלא מוזיקה שנוצרת בינה מלאכותית מקטלוג הסטרימינג שלהם",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/deezer-will-now-let-users-fully-exclude-ai-generated-music-from-their-streaming-catalogue",
-    "date": "2026-10-22T14:51:21+00:00"
-   },
-   {
-    "title_en": "We spoke to the experts behind Spiritland’s new “format agnostic” listening bar at the Barbican",
-    "title_he": "דיברנו עם המומחים שמאחורי בר ההאזנה החדש \"אגנוסטי בפורמט\" של Spiritland בברביקן",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/we-spoke-to-the-experts-behind-spiritlands-new-format-agnostic-listening-bar-at-the-barbican",
-    "date": "2026-10-22T14:25:06+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T08:17:29+00:00",
-  "fetched_at": "2026-10-23T08:17:29+00:00"
+  "checked_at": "2026-10-23T09:17:31+00:00",
+  "fetched_at": "2026-10-23T09:17:31+00:00"
  },
- "generated_at": "2026-10-23T08:17:29+00:00",
+ "generated_at": "2026-10-23T09:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,16 +92,21 @@ window.DB.generated = {
      "date": "2026-10-23T03:53:00+00:00"
     },
     {
-     "title": "פיגוע ירי סמוך לחברון: 5 פצועים, שניים מהם אנוש",
+     "title": "דריכות שיא במערכת הביטחון: צה\"ל מכתר את חברון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560602",
-     "date": "2026-10-23T06:42:00+00:00"
+     "date": "2026-10-23T08:43:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "הירידות בתל אביב מתמתנות, טאואר צונחת למקום השביעי",
+     "title": "המסחר עובר להתנהל במגמה מעורבת: מניב חו\"ל מוביל בירוק; הביטחוניות מעיבות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560528",
-     "date": "2026-10-23T08:00:00+00:00"
+     "date": "2026-10-23T08:31:00+00:00"
+    },
+    {
+     "title": "מיזוג ראשון בשוק אספקת החשמל: סופר פאוור רוכשת את פז גז אנרג’י",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560604",
+     "date": "2026-10-23T08:15:00+00:00"
     },
     {
      "title": "דליה גוררת את ניו מד ורציו לבוררות בינלאומית בלונדון על עסקת הגז מלוויתן",
@@ -112,6 +117,11 @@ window.DB.generated = {
      "title": "צרפת וגרמניה לא ראו נתון כזה כבר 15 שנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560499",
      "date": "2026-10-23T04:37:00+00:00"
+    },
+    {
+     "title": "צי מכליות הצללים של איראן נותר ללא נפט לאחר חודשים של מצור אמריקאי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560445",
+     "date": "2026-10-23T03:59:00+00:00"
     },
     {
      "title": "וינטר וזליכה עשויים לאבד מיליונים. מה הסיבה?",
@@ -209,25 +219,15 @@ window.DB.generated = {
      "date": "2026-10-22T07:46:00+00:00"
     },
     {
-     "title": "הוסגר מפורטוגל לישראל: אייל רוזן, החשוד בגניבת מיליונים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560420",
-     "date": "2026-10-22T06:37:00+00:00"
-    },
-    {
      "title": "לקוחה ראשונה במזרח הרחוק למערכת יירוט הרחפנים הישראלית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560412",
      "date": "2026-10-22T04:46:00+00:00"
-    },
-    {
-     "title": "החברה שמציגה: 20 מיליארד דולר כדי להשאיר את המייסד בקליפורניה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560414",
-     "date": "2026-10-22T03:41:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T08:17:18+00:00",
-  "fetched_at": "2026-10-23T08:17:18+00:00"
+  "checked_at": "2026-10-23T09:17:18+00:00",
+  "fetched_at": "2026-10-23T09:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T08:17:19+00:00",
-  "fetched_at": "2026-10-23T08:17:19+00:00"
+  "checked_at": "2026-10-23T09:17:19+00:00",
+  "fetched_at": "2026-10-23T09:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2991,8 +2991,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T08:17:20+00:00",
-  "fetched_at": "2026-10-23T08:17:20+00:00"
+  "checked_at": "2026-10-23T09:17:21+00:00",
+  "fetched_at": "2026-10-23T09:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3171,8 +3171,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T08:17:20+00:00",
-  "fetched_at": "2026-10-23T08:17:20+00:00"
+  "checked_at": "2026-10-23T09:17:21+00:00",
+  "fetched_at": "2026-10-23T09:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -3194,9 +3194,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 11,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3210,7 +3211,7 @@ window.DB.generated = {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 192,
+     "likes": 193,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3231,21 +3232,21 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 786,
+     "likes": 788,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 159,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 70,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
@@ -3272,12 +3273,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T08:17:27+00:00",
-  "fetched_at": "2026-10-23T08:17:27+00:00"
+  "checked_at": "2026-10-23T09:17:28+00:00",
+  "fetched_at": "2026-10-23T09:17:28+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "החשש גובר: המשחק של רביבו ואלצ'ה בסכנת ביטול",
+     "link": "https://www.one.co.il/Article/536803.html?ref=rss",
+     "date": "2026-10-23T08:39:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "מנור סולומון מחכה לדניאל פרץ: \"אנסה להבקיע נגדו\"",
      "link": "https://sports.walla.co.il/item/3873429",
@@ -3358,15 +3368,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "63 דקות לזועבי, טורנסה הפסידה 4:1 לפרנצווארוש",
-     "link": "https://www.one.co.il/Article/536765.html?ref=rss",
-     "date": "2026-10-22T18:43:00+00:00",
-     "source": "ONE",
-     "players": [
-      "כארם זועבי"
      ]
     },
     {
@@ -3615,8 +3616,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-23T08:17:23+00:00",
-  "fetched_at": "2026-10-23T08:17:23+00:00"
+  "checked_at": "2026-10-23T09:17:24+00:00",
+  "fetched_at": "2026-10-23T09:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3647,58 +3648,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T08:17:24+00:00",
-  "fetched_at": "2026-10-23T08:17:24+00:00"
+  "checked_at": "2026-10-23T09:17:25+00:00",
+  "fetched_at": "2026-10-23T09:17:25+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-23T08:00:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T08:43:00+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-23T08:00:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T08:31:00+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-23T04:37:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-23T06:46:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T08:41:00+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-23T07:15:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-23T08:10:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T08:45:00+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-23T04:31:05+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3710,28 +3711,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-23T06:00:39+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T09:15:34+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-22T16:01:52+00:00",
-    "seen_at": "2026-10-23T08:17:29+00:00",
+    "newest": "2026-10-23T09:00:00+00:00",
+    "seen_at": "2026-10-23T09:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-23T08:17:29+00:00"
+  "checked_at": "2026-10-23T09:17:31+00:00"
  }
 };
