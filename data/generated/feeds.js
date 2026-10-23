@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-23T06:17:26+00:00",
-  "fetched_at": "2026-10-23T06:17:26+00:00"
+  "checked_at": "2026-10-23T07:17:10+00:00",
+  "fetched_at": "2026-10-23T07:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T06:17:36+00:00",
-  "fetched_at": "2026-10-23T06:17:36+00:00"
+  "checked_at": "2026-10-23T07:17:20+00:00",
+  "fetched_at": "2026-10-23T07:17:20+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T06:17:36+00:00",
-  "fetched_at": "2026-10-23T06:17:36+00:00"
+  "checked_at": "2026-10-23T07:17:20+00:00",
+  "fetched_at": "2026-10-23T07:17:20+00:00"
  },
- "generated_at": "2026-10-23T06:17:36+00:00",
+ "generated_at": "2026-10-23T07:17:20+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "פיגוע ירי סמוך לחברון: 5 פצועים, שניים מהם אנוש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560602",
-     "date": "2026-10-23T06:05:00+00:00"
+     "date": "2026-10-23T06:42:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T06:17:27+00:00",
-  "fetched_at": "2026-10-23T06:17:27+00:00"
+  "checked_at": "2026-10-23T07:17:11+00:00",
+  "fetched_at": "2026-10-23T07:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T06:17:28+00:00",
-  "fetched_at": "2026-10-23T06:17:28+00:00"
+  "checked_at": "2026-10-23T07:17:12+00:00",
+  "fetched_at": "2026-10-23T07:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2991,8 +2991,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T06:17:29+00:00",
-  "fetched_at": "2026-10-23T06:17:29+00:00"
+  "checked_at": "2026-10-23T07:17:13+00:00",
+  "fetched_at": "2026-10-23T07:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3171,8 +3171,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T06:17:29+00:00",
-  "fetched_at": "2026-10-23T06:17:29+00:00"
+  "checked_at": "2026-10-23T07:17:13+00:00",
+  "fetched_at": "2026-10-23T07:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -3194,7 +3194,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
+   "candidates": 13,
    "failed_sources": [
     "Anthropic"
    ],
@@ -3203,7 +3203,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 850,
+     "likes": 851,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3217,21 +3217,21 @@ window.DB.generated = {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 142,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 224,
+     "likes": 225,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 784,
+     "likes": 785,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3259,7 +3259,7 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 330,
+     "likes": 332,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
@@ -3272,12 +3272,31 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T06:17:35+00:00",
-  "fetched_at": "2026-10-23T06:17:35+00:00"
+  "checked_at": "2026-10-23T07:17:19+00:00",
+  "fetched_at": "2026-10-23T07:17:19+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מנור סולומון מחכה לדניאל פרץ: \"אנסה להבקיע נגדו\"",
+     "link": "https://sports.walla.co.il/item/3873429",
+     "date": "2026-10-23T06:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון",
+      "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "הבישול לא שכנע את כולם: הביקורות על ענאן חלאילי",
+     "link": "https://sports.walla.co.il/item/3873427",
+     "date": "2026-10-23T06:36:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "סולומון מוכן למפגש מול פרץ: \"אנסה להבקיע מולו\"",
      "link": "https://www.one.co.il/Article/536794.html?ref=rss",
@@ -3294,6 +3313,15 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "המשחק של רביבו בסכנה, אתלטיקו חולמת על ניצחון שישי",
+     "link": "https://sports.walla.co.il/item/3873342",
+     "date": "2026-10-23T04:37:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -3369,24 +3397,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "נטע לביא כבש, קבוצתו הביסה 0:5 ועלתה לפסגת הטבלה",
-     "link": "https://sports.walla.co.il/item/3873207",
-     "date": "2026-10-21T12:17:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "נטע לביא"
-     ]
-    },
-    {
-     "title": "בהולנד סימנו: כך אוסקר גלוך יכול להכאיב לאטאלנטה",
-     "link": "https://sports.walla.co.il/item/3873196",
-     "date": "2026-10-21T11:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
      "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
      "link": "https://sports.walla.co.il/item/3873071",
      "date": "2026-10-21T10:00:00+00:00",
@@ -3399,15 +3409,6 @@ window.DB.generated = {
      "title": "דני אבדיה משתכר כמו שחקן ספסל ב-NBA. מתי כל זה ישתנה?",
      "link": "https://sports.walla.co.il/item/3873079",
      "date": "2026-10-20T16:20:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "סוכנויות ההימורים חושפות: המעמד החדש של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3872920",
-     "date": "2026-10-20T04:10:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3614,8 +3615,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-23T06:17:31+00:00",
-  "fetched_at": "2026-10-23T06:17:31+00:00"
+  "checked_at": "2026-10-23T07:17:16+00:00",
+  "fetched_at": "2026-10-23T07:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3645,8 +3646,9 @@ window.DB.generated = {
     "date": "2026-10-21T08:52:17+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-23T06:17:32+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-23T07:17:16+00:00",
   "fetched_at": "2026-10-23T06:17:32+00:00"
  },
  "feed_health": {
@@ -3654,44 +3656,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-23T06:07:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "newest": "2026-10-23T07:00:00+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-23T05:53:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-23T04:37:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-23T04:48:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "newest": "2026-10-23T06:46:00+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-23T05:42:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-23T06:01:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "newest": "2026-10-23T07:15:00+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3703,34 +3705,34 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-23T06:00:39+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-22T16:01:52+00:00",
-    "seen_at": "2026-10-23T06:17:36+00:00",
+    "seen_at": "2026-10-23T07:17:20+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-23T06:17:36+00:00"
+  "checked_at": "2026-10-23T07:17:20+00:00"
  }
 };
