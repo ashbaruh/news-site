@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-23T11:17:16+00:00",
-  "fetched_at": "2026-10-23T11:17:16+00:00"
+  "checked_at": "2026-10-23T12:17:25+00:00",
+  "fetched_at": "2026-10-23T12:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T11:17:26+00:00",
-  "fetched_at": "2026-10-23T11:17:26+00:00"
+  "checked_at": "2026-10-23T12:17:37+00:00",
+  "fetched_at": "2026-10-23T12:17:37+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Three action movie classics are getting a fresh 4K Blu-ray release – but there's a catch for cinephiles",
+    "title_he": "שלוש קלאסיקות סרטי פעולה זוכות לשחרור חדש של 4K Blu-ray - אבל יש מלכוד לסינפילים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/three-action-movie-classics-are-getting-a-fresh-4k-blu-ray-release-but-theres-a-catch-for-cinephiles",
+    "date": "2026-10-23T11:45:20+00:00"
+   },
    {
     "title_en": "Forget the vinyl revival – I'm getting excited about CD players again",
     "title_he": "תשכחו מחידוש הוויניל – אני שוב מתלהב מנגני תקליטורים",
@@ -69,39 +76,42 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wired-headphones/audio-technica-bills-its-luxury-wired-cans-as-the-pinnacle-of-closed-back-headphone-craftsmanship",
     "date": "2026-10-23T09:00:00+00:00"
-   },
-   {
-    "title_en": "Écoute Audio upgrades its trailblazing valve headphones with improved sound, comfort and noise cancelling",
-    "title_he": "Écoute Audio משדרגת את אוזניות השסתומים הפורצות שלה עם סאונד, נוחות וביטול רעשים משופרים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wired-headphones/ecoute-upgrades-its-trailblazing-valve-headphones-with-improved-sound-comfort-and-noise-cancelling",
-    "date": "2026-10-23T08:44:50+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T11:17:27+00:00",
-  "fetched_at": "2026-10-23T11:17:27+00:00"
+  "checked_at": "2026-10-23T12:17:38+00:00",
+  "fetched_at": "2026-10-23T12:17:38+00:00"
  },
- "generated_at": "2026-10-23T11:17:27+00:00",
+ "generated_at": "2026-10-23T12:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "למה היזמים הגדולים מוותרים על דירות במגדלים",
+     "title": "למה נתן חץ ודנה עזריאלי ויתרו על דירות במגדלים הכי נוצצים?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560506",
      "date": "2026-10-23T10:28:00+00:00"
     },
     {
      "title": "דריכות שיא במערכת הביטחון: צה\"ל מכתר את חברון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560602",
-     "date": "2026-10-23T08:43:00+00:00"
+     "date": "2026-10-23T11:22:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "המסחר עובר להתנהל במגמה מעורבת: מניב חו\"ל מוביל בירוק; הביטחוניות מעיבות",
+     "title": "קפיצה של 70% מתחילת שנה: ענקית האופנה שהפכה את תצוגות האופנה למכונת מכירות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560606",
+     "date": "2026-10-23T11:49:00+00:00"
+    },
+    {
+     "title": "מדד ת״א 35 סוגר שבוע שלילי. ומי הסקטור שהוסיף 4.5%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560528",
-     "date": "2026-10-23T08:31:00+00:00"
+     "date": "2026-10-23T11:20:00+00:00"
+    },
+    {
+     "title": "פימי תשתלט על מיטרוניקס לפי שווי של 200 מיליון שקל בלבד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560605",
+     "date": "2026-10-23T09:21:00+00:00"
     },
     {
      "title": "מיזוג ראשון בשוק אספקת החשמל: סופר פאוור רוכשת את פז גז אנרג’י",
@@ -174,11 +184,6 @@ window.DB.generated = {
      "date": "2026-10-22T14:16:00+00:00"
     },
     {
-     "title": "מנורה מבטחים תיקנס ב-256 אלף שקל בשל עיכוב בדיווח על אירוע אבטחה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560452",
-     "date": "2026-10-22T12:07:00+00:00"
-    },
-    {
      "title": "ג'נסן הואנג עוקץ את אינטל: \"להם היו עשרה מנכ\"לים, לנו רק אחד\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560449",
      "date": "2026-10-22T12:02:00+00:00"
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "נזקי עתק ומתיחות גוברת: צרפת חוששת מסוף שבוע אלים נוסף",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560426",
      "date": "2026-10-22T07:46:00+00:00"
-    },
-    {
-     "title": "לקוחה ראשונה במזרח הרחוק למערכת יירוט הרחפנים הישראלית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560412",
-     "date": "2026-10-22T04:46:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T11:17:17+00:00",
-  "fetched_at": "2026-10-23T11:17:17+00:00"
+  "checked_at": "2026-10-23T12:17:27+00:00",
+  "fetched_at": "2026-10-23T12:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T11:17:18+00:00",
-  "fetched_at": "2026-10-23T11:17:18+00:00"
+  "checked_at": "2026-10-23T12:17:28+00:00",
+  "fetched_at": "2026-10-23T12:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2991,8 +2991,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T11:17:19+00:00",
-  "fetched_at": "2026-10-23T11:17:19+00:00"
+  "checked_at": "2026-10-23T12:17:28+00:00",
+  "fetched_at": "2026-10-23T12:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3171,8 +3171,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T11:17:19+00:00",
-  "fetched_at": "2026-10-23T11:17:19+00:00"
+  "checked_at": "2026-10-23T12:17:28+00:00",
+  "fetched_at": "2026-10-23T12:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -3203,7 +3203,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 855,
+     "likes": 854,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3231,7 +3231,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 789,
+     "likes": 791,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3272,12 +3272,39 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-23T11:17:26+00:00",
-  "fetched_at": "2026-10-23T11:17:26+00:00"
+  "checked_at": "2026-10-23T12:17:36+00:00",
+  "fetched_at": "2026-10-23T12:17:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ישראלי בקלאסיקו? גורן עשוי להיכלל בסגל ברצלונה נגד ריאל",
+     "link": "https://sports.walla.co.il/item/3873449",
+     "date": "2026-10-23T12:13:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "דיווח: גורן בתמונת הסגל של ברצלונה לקלאסיקו",
+     "link": "https://www.one.co.il/Article/536822.html?ref=rss",
+     "date": "2026-10-23T12:02:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "קייס גאנם: \"התשובה הכי טובה שלנו היא על המגרש\"",
+     "link": "https://sports.walla.co.il/item/3873447",
+     "date": "2026-10-23T11:51:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "קייס גאנם"
+     ]
+    },
     {
      "title": "החשש גובר: המשחק של רביבו ואלצ'ה בסכנת ביטול",
      "link": "https://www.one.co.il/Article/536803.html?ref=rss",
@@ -3325,6 +3352,15 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "גאנם צפוי לחזור להרכב טבריה, שינויים בהתקפת מכבי נתניה?",
+     "link": "https://sports.walla.co.il/item/3873413",
+     "date": "2026-10-23T04:46:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "קייס גאנם"
+     ]
+    },
+    {
      "title": "המשחק של רביבו בסכנה, אתלטיקו חולמת על ניצחון שישי",
      "link": "https://sports.walla.co.il/item/3873342",
      "date": "2026-10-23T04:37:00+00:00",
@@ -3352,15 +3388,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "ענאן חלאילי בישל, פאלאס סיימה ב-2:2 עם בשיקטאש",
-     "link": "https://www.one.co.il/Article/536725.html?ref=rss",
-     "date": "2026-10-22T19:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "\"מעשנים את פיניקס\": החגיגה של אבדיה ומוראנט כבשה את הרשת",
      "link": "https://sports.walla.co.il/item/3873334",
      "date": "2026-10-22T08:45:00+00:00",
@@ -3382,33 +3409,6 @@ window.DB.generated = {
      "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
      "link": "https://sports.walla.co.il/item/3873071",
      "date": "2026-10-21T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דני אבדיה משתכר כמו שחקן ספסל ב-NBA. מתי כל זה ישתנה?",
-     "link": "https://sports.walla.co.il/item/3873079",
-     "date": "2026-10-20T16:20:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "סוכנויות ההימורים חושפות: המעמד החדש של דני אבדיה",
-     "link": "https://sports.walla.co.il/item/3872920",
-     "date": "2026-10-20T04:10:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "בארה\"ב התהפכו: החמישייה החדשה דווקא תועיל לדני אבדיה?",
-     "link": "https://sports.walla.co.il/item/3872923",
-     "date": "2026-10-19T16:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3615,8 +3615,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-23T11:17:22+00:00",
-  "fetched_at": "2026-10-23T11:17:22+00:00"
+  "checked_at": "2026-10-23T12:17:32+00:00",
+  "fetched_at": "2026-10-23T12:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3647,91 +3647,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-23T11:17:23+00:00",
-  "fetched_at": "2026-10-23T11:17:23+00:00"
+  "checked_at": "2026-10-23T12:17:33+00:00",
+  "fetched_at": "2026-10-23T12:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-23T10:28:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T11:49:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-23T08:31:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T11:20:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-23T04:37:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T11:49:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-23T10:28:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T12:13:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-23T10:38:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T11:51:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-23T11:01:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T12:11:00+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-23T10:18:09+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-23T09:15:34+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-21T11:00:41+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-23T10:40:04+00:00",
-    "seen_at": "2026-10-23T11:17:27+00:00",
+    "newest": "2026-10-23T11:45:20+00:00",
+    "seen_at": "2026-10-23T12:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-23T11:17:27+00:00"
+  "checked_at": "2026-10-23T12:17:38+00:00"
  }
 };
