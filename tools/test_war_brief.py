@@ -37,6 +37,20 @@ class Slots(unittest.TestCase):
         self.assertEqual((p.hour, p.day), (18, 18))
 
 
+class SlotDone(unittest.TestCase):
+    # באג 24/10/2026: עדכון של Claude ב-19:37 נדרס ע"י ריצת גיבוי מאוחרת של 18:00
+    def test_newer_on_demand_update_counts_as_done(self):
+        slot = wb.current_slot(utc("2026-10-24T16:40"))                    # 19:40 בישראל → מועד 18:00
+        self.assertTrue(wb.slot_done({"slot": "2026-10-24T19:37:00+03:00"}, slot))
+        self.assertTrue(wb.slot_done({"slot": slot.isoformat()}, slot))
+
+    def test_older_or_missing_slot_not_done(self):
+        slot = wb.current_slot(utc("2026-10-24T16:40"))
+        self.assertFalse(wb.slot_done({"slot": "2026-10-24T12:00:00+03:00"}, slot))
+        self.assertFalse(wb.slot_done({}, slot))
+        self.assertFalse(wb.slot_done({"slot": "שבור"}, slot))
+
+
 class Picking(unittest.TestCase):
     def test_telegram_first_israeli_mainstream_capped(self):
         mk = lambda sid, h: {"source_id": sid, "published_at": f"2026-09-19T{h:02d}:00:00+00:00"}  # noqa: E731

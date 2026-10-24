@@ -106,7 +106,7 @@
 
   function load() {
     if (!R.isDisplayable(R.sourceById('src_walla'))) return;
-    window.LiveCache.get('feeds_lifestyle', fetchFeeds, C.cadence.feeds.refresh_every, N.SIM_DOWN).then(function (entry) {
+    window.LiveCache.get('feeds_lifestyle_v2', fetchFeeds, C.cadence.feeds.refresh_every, N.SIM_DOWN).then(function (entry) {
       entry.source_id = 'src_walla';
       window.DB.live.lifestyle = entry;
       document.dispatchEvent(new CustomEvent('live:update', { detail: { key: 'lifestyle' } }));

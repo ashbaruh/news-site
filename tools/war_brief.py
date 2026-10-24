@@ -85,6 +85,16 @@ def within_hours(when, now, hours):
     return timedelta(0) <= now - t <= timedelta(hours=hours)
 
 
+def slot_done(old, slot):
+    """המועד בוצע אם העדכון הקיים הוא מהמועד הזה *או חדש ממנו*.
+    עדכון לפי בקשה (Claude) נשמר עם שעת הכתיבה (למשל 19:37). בלי זה, ריצת גיבוי מאוחרת
+    של 18:00 חשבה שהמועד לא בוצע ודרסה עדכון חדש בישן (באג, 24/10/2026)."""
+    try:
+        return datetime.fromisoformat(old["slot"]) >= slot
+    except (KeyError, TypeError, ValueError):
+        return False
+
+
 def load_brief():
     try:
         with open(BRIEF, encoding="utf-8") as f:
@@ -192,7 +202,7 @@ def main(argv=None):
     now = datetime.now(timezone.utc).replace(microsecond=0)
     slot = current_slot(now)
     old = load_brief()
-    if not args.force and old.get("slot") == slot.isoformat():
+    if not args.force and slot_done(old, slot):
         return print(f"עדכון הביניים של {slot:%H:%M} כבר בוצע — אין מה לעשות")   # לא דורס את הסטטוס
 
     since = min(previous_slot(slot).astimezone(timezone.utc), now - timedelta(hours=4)) - timedelta(hours=1)
