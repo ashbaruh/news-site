@@ -1,434 +1,420 @@
 {
- "collected_at": "2026-10-12T13:40:54+00:00",
- "slot": "2026-10-12T12:00:00+03:00",
- "window_hours": 13.681666666666667,
+ "collected_at": "2026-10-24T16:33:09+00:00",
+ "slot": "2026-10-24T18:00:00+03:00",
+ "window_hours": 8.5525,
  "arenas": {
   "iran": [
    {
-    "source_id": "src_tg_lelotsenzura",
-    "url": "https://t.me/lelotsenzura/94607",
-    "published_at": "2026-10-12T06:48:43+00:00",
-    "title": "לפי דיווח בעיתון הלבנוני \"אל-מודון\", ישראל העבירה מסרים ללבנון לפיהם אם חזבאללה יצטרף למערכה במקרה של מלחמה מול איראן, י",
-    "text": "לפי דיווח בעיתון הלבנוני \"אל-מודון\", ישראל העבירה מסרים ללבנון לפיהם אם חזבאללה יצטרף למערכה במקרה של מלחמה מול איראן, ישראל תפתח במבצע צבאי נרחב, תרחיב את אחיזתה בשטח ותטיל מצור אווירי, יבשתי וימי מוחלט על המדינה הלבנונית כעונש על שלא מנעה את מעורבות הארגון ולא פרקה אותו מנשקו. ⭕️ חדשות בטחון מהשטח ללא צנזורה ⭕️"
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48886",
+    "published_at": "2026-10-24T12:26:00+00:00",
+    "title": "דובר משמרות המהפכה של איראן הצהיר כי איראן תהפוך למעצמת־העל הבלתי מעורערת של העולם ב״מלחמה הסופית״. ״בעזרת אללה, במלחמה ",
+    "text": "דובר משמרות המהפכה של איראן הצהיר כי איראן תהפוך למעצמת־העל הבלתי מעורערת של העולם ב״מלחמה הסופית״. ״בעזרת אללה, במלחמה הסופית נהפוך למעצמת־העל הבלתי מעורערת של העולם״, אמר גנרל מוחבי."
    },
    {
-    "source_id": "src_iranintl",
-    "url": "https://www.iranintl.com/en/202610117891",
-    "published_at": "2026-10-12T13:08:00+00:00",
-    "title": "Tehran seizes on Rubio’s Xerxes remarks to champion a past it once disparaged",
-    "text": "Marco Rubio’s invocation of ancient Persia in a speech championing Western power has given Tehran an opportunity to present itself as a defender of Iranian identity, even as critics recall the Islamic Republic’s own record of disparaging pride in the country’s pre-Islamic rulers."
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86302074/Iran-dismisses-claims-of-Iraqi-PM-s-advisor-regarding-border",
+    "published_at": "2026-10-24T16:04:12+00:00",
+    "title": "Iran dismisses claims of Iraqi PM’s advisor regarding border violations",
+    "text": "Tehran, IRNA – The Iranian Embassy in Baghdad has refuted allegations leveled by an aide to Iraqi Prime Minister Ali al-Zaidi regarding the Al-Shib border crossing between the two countries."
    },
    {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/who-are-yemens-houthis-and-what-do-they-want",
-    "published_at": "2026-10-12T12:28:09+00:00",
-    "title": "Who are Yemen's Houthis and what do they want?",
-    "text": "Who are Yemen's Houthis and what do they want? Submitted by MEE staff on Mon, 10/12/2026 - 09:45 Yemen's war has reignited, pulling in Saudi Arabia's allies and threatening one of the world's most important shipping lanes Supporters of Ansar Allah hold up a portrait of the group's leader, Abdul Malik al-Houthi, during a protest against the Saudi intervention in Yemen in Sanaa on 18 September 2026 (AFP) Off A strike on King Khalid International Airport in Riyadh on Saturday killed 13 people and wounded 309, in the deadliest attack on Saudi soil in more than a decade. Another strike on the airport on Sunday killed one more person. The Saudi -led coalition blamed Yemen 's Houthis and called the attack a war crime. In a statement on Sunday, Houthi military spokesman Yahya Saree said the group had targeted the airport \"in three stages\" since Friday evening, closing it completely, and warned that Saudi airports were \"unsafe\", except those serving Mecca and Medina. The attack capped a summer of escalation. A UN-backed truce that had largely frozen Yemen's war since 2022 broke down in July after Saudi Arabia bombed Sanaa airport, and the Houthis then declared a maritime blockade on the kingdom. In September, the Sanaa-based group seized the Red Sea port of Mokha and pushed towards the Bab al-Mandab strait . Saudi-backed government forces launched a counter-offensive in early October, and the UN special envoy has warned that Yemen has returned to full-scale war . Heavy clashes are continuing around the strategically important city of Taiz, which sits above the Red Sea coast. The renewed fighting has displaced 130,000 people . Who are the Houthis? Officially known as Ansar Allah, or \"helpers of God\", the movement emerged in Yemen's far north in the 1990s around the cleric Hussein"
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290626/Israel-is-committing-genocide-in-Gaza-with-US-complicity-Pezeshkian",
-    "published_at": "2026-10-12T12:15:42+00:00",
-    "title": "Israel is committing genocide in Gaza with US ‘complicity’: Pezeshkian",
-    "text": "Tehran, IRNA – President Masoud Pezeshkian has once again denounced the continued Israeli genocide of Palestinians, underscoring that the United States remains complicit in the events unfolding in the besieged Gaza Strip."
-   },
-   {
-    "source_id": "src_bbc",
-    "url": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
-    "published_at": "2026-10-12T12:15:01+00:00",
-    "title": "Who are the Houthis, and why are they so hard to fight?",
-    "text": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290705/Iran-ambassador-to-Ivory-Coast-meets-FM-Araghchi",
-    "published_at": "2026-10-12T12:10:03+00:00",
-    "title": "Iran ambassador to Ivory Coast meets FM Araghchi",
-    "text": "Tehran, IRNA – Iranian Ambassador to Ivory Coast, Seyyed Gholamreza Mir Mohammad Meigouni, met with Foreign Minister Abbas Araghchi to present a report on the embassy’s latest measures and plans."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290513/Iran-to-counter-US-naval-blockade-through-strategic-management",
-    "published_at": "2026-10-12T11:28:50+00:00",
-    "title": "‘Iran to counter US naval blockade through strategic management of Strait of Hormuz’",
-    "text": "Tehran, IRNA – Major General Yahya Rahim Safavi, head of the Shaheed Hajj Qassem Soleimani Research Institute of Sacred Defense Sciences and Teachings, says Iran’s main strategy for the Strait of Hormuz was its intelligent management in response to the US naval blockade against the country."
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-updates-gulf-middle-east-travel-advisories-over-threat-houthi",
+    "published_at": "2026-10-24T15:36:42+00:00",
+    "title": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression'",
+    "text": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression' The United States updated travel advisories for countries across the Gulf and the wider Middle East, citing what it described as the threat of increased Iran-aligned Houthi \"regional aggression\", according to security alerts issued by US missions. The security alerts cover Saudi Arabia, Qatar, the United Arab Emirates, Iraq, Lebanon and Israel. The Department of State has updated its Travel Advisories for Americans in the Middle East to reflect the threat of increased Iranian-supported Houthi regional aggression. Review the full text of the updated Travel Advisories at https://t.co/XzfZgIw9CL https://t.co/WRBhPjc9Ky — TravelGov (@TravelGov) October 24, 2026"
    },
    {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/except-mecca-and-medina-chaos-across-saudi-airports-houthis-claim-riyadh-strike-threaten-more",
-    "published_at": "2026-10-12T11:27:56+00:00",
-    "title": "'Except Mecca and Medina': Chaos across Saudi airports as Houthis claim Riyadh strikes",
-    "text": "'Except Mecca and Medina': Chaos across Saudi airports as Houthis claim Riyadh strikes Submitted by MEE staff on Mon, 10/12/2026 - 10:38 Riyadh and Dammam airports were reported closed in a FlightRadar24 update, while Jeddah faced widespread cancellations and delays A CCTV screengrab shows the moment King Khalid International Airport in Riyadh was hit in a Houthi strike, 10 October 2026 (Saudi Media Ministry/AFP) Off Terminals across Saudi Arabia were left in chaos on Monday after repeated attacks on Riyadh’s King Khalid International Airport and warnings issued by Yemen’s Houthi group. Several airlines halted operations and over a third of all planned flights in the country were cancelled. Approximately 60 percent of flights set to depart from Riyadh on Monday were scheduled to be cancelled, while 99.7 percent of the airport’s flights were cancelled on Sunday, according to aviation analytics firm Cirium, cited by Reuters. On Sunday, Flightradar24 reported that Riyadh and Dammam airports were closed. Jeddah airport cancelled 156 flights, constituting 20 percent of all scheduled flights, while 374 flights, or 49 percent, were delayed. Saturday’s attack on King Khalid International Airport in Riyadh killed 12 people and injured 309, according to Saudi Arabia’s General Authority of Civil Aviation. The death toll subsequently rose to 13 after an Indian national who had been injured in the strike died, according to Reuters. A separate attack on Sunday killed a Pakistani resident and injured 11 others, according to the Saudi authorities. Airlines have also suspended services to the Saudi capital. Reuters reported that Lufthansa cancelled flights to Riyadh until 16 October, while Air France-KLM extended its suspension through the end of October. The US Federal Aviation Adminis"
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strike-kills-five-members-same-family-hodeida-war",
+    "published_at": "2026-10-24T14:42:11+00:00",
+    "title": "Houthis say Saudi strike kills five members of same family in Hodeida",
+    "text": "Houthis say Saudi strike kills five members of same family in Hodeida Yemen's Iran-backed Houthis on Saturday said a Saudi strike on Hodeida killed five members of the same family, as both sides carry out attacks. \"Five people, the head of the family, two of his children and his two wives, have been martyred and his daughter wounded as a result of a Saudi enemy air strike on the home of citizen Abdulwahed al-Wasabi in the Al-Tuhayta district\" of Hodeida, the Houthis' Al-Masirah TV channel reported. Reporting by AFP"
    },
    {
     "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290610/Exclusive-Iranian-envoy-condemns-Rubio-s-remarks-on-Iranian",
-    "published_at": "2026-10-12T10:59:32+00:00",
-    "title": "Exclusive | Iranian envoy condemns Rubio’s remarks on Iranian civilization as rooted in ignorance, prejudice",
-    "text": "Tehran, IRNA – Iran’s Ambassador to the Vatican, Mohammad Hossein Mokhtari, has criticized US Secretary of State Marco Rubio’s remarks in Athens about Iranian civilization, describing them as rooted in ignorance and prejudice."
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/uneasy-partners-open-distrust-aoun-and-hezbollah-struggle-rebuild-ties",
-    "published_at": "2026-10-12T10:56:42+00:00",
-    "title": "From uneasy partners to open distrust: Aoun and Hezbollah struggle to rebuild ties",
-    "text": "From uneasy partners to open distrust: Aoun and Hezbollah struggle to rebuild ties Submitted by MEE staff on Mon, 10/12/2026 - 09:21 Restoring relations between Lebanon's president and Hezbollah will require much more than reopening channels of communication Lebanese President Joseph Aoun at the Presidential Palace in Baabda, Lebanon, 15 September 2026 (Joseph Eid/AFP) Off The relationship between Lebanese President Joseph Aoun and Hezbollah has deteriorated into a dispute over weapons, sovereignty and the future of Lebanon ’s security, with sources on both sides acknowledging that communication continues but trust has largely collapsed. When Aoun was elected president in January 2025, Hezbollah supported his election, helping end a prolonged presidential vacancy. But the political understanding that facilitated his election did not resolve the fundamental disagreement over Hezbollah’s independent military structure and the state’s authority to decide matters of war and peace. From the beginning of his presidency, Aoun made clear that he wanted weapons brought under state control. In his inaugural address, he pledged to affirm the state’s right to monopolise arms, linking the principle to strengthening the Lebanese Armed Forces, protecting the country’s borders and implementing international resolutions. His position became more explicit in a speech marking Army Day in July 2025, when he called for the army and security forces to have the exclusive right to bear arms, urging Hezbollah and its supporters to “place your bet solely on the Lebanese state”. The disagreement deepened in January 2026, when Aoun said the circumstances that had once justified weapons outside state control no longer existed, and that their continued presence had become a burden on Hezbollah’s own"
-   },
-   {
-    "source_id": "src_iranintl",
-    "url": "https://www.iranintl.com/en/202610122524",
-    "published_at": "2026-10-12T10:50:29+00:00",
-    "title": "Iran warns of wider risks as regional attacks intensify",
-    "text": "Two commercial vessels were attacked near Oman on Sunday, two Indian sailors were left missing, and a drone struck an Iranian Kurdish opposition camp in Iraq on Monday, as Iranian officials warned that a renewed war could put regional infrastructure at risk."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290453/Iran-warns-of-consequences-of-promoting-civilizational-confrontation",
-    "published_at": "2026-10-12T10:48:37+00:00",
-    "title": "Iran warns of consequences of promoting civilizational confrontation",
-    "text": "Tehran, IRNA — Acting Defense Minister Brigadier General Majid Ibn al-Reza warns that those who deliberately promote civilizational confrontation must bear responsibility for its dangerous consequences, saying they should not assume that its repercussions will never affect them."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290506/Iran-s-envoy-submits-credentials-to-South-Korean-president",
-    "published_at": "2026-10-12T10:44:13+00:00",
-    "title": "Iran’s envoy submits credentials to South Korean president",
-    "text": "Tehran, IRNA – Iran’s new Ambassador to South Korea, Ahmad Erfanian, has submitted his credentials to Lee Jae Myung, the President of South Korea, at a ceremony at the South Korean Presidential Palace."
-   },
-   {
-    "source_id": "src_irna",
-    "url": "https://en.irna.ir/news/86290352/Rubio-s-remarks-on-ancient-Iran-and-Greece-raise-concerns-over",
-    "published_at": "2026-10-12T10:18:32+00:00",
-    "title": "Rubio’s remarks on ancient Iran and Greece raise concerns over political use of history: Diplomat",
-    "text": "Tehran, IRNA – An Iranian Foreign Ministry official has warned that US Secretary of State Marco Rubio’s remarks on the ancient wars between Iran and Greece risk using history to advance a political narrative of civilizational confrontation, raising concerns over an attempt to turn Iran’s historical legacy into an instrument of contemporary rivalry."
+    "url": "https://en.irna.ir/news/86302057/Repercussions-of-US-Israeli-war-extend-beyond-Iranian-borders",
+    "published_at": "2026-10-24T14:33:14+00:00",
+    "title": "Repercussions of US-Israeli war extend beyond Iranian borders: IRGC spokesperson",
+    "text": "Qazvin, IRNA – Spokesperson for the Islamic Revolution Guards Corps (IRGC) Brigadier General Hossein Mohebi, referring to the fallout of the US-Israeli war of aggression, says the confrontation could have repercussions extending beyond Iran’s borders, affecting other nations as well."
    },
    {
     "source_id": "src_almonitor",
-    "url": "https://www.al-monitor.com/originals/2026/10/iran-says-it-will-reply-us-response-hormuz-proposal-once-review-over",
-    "published_at": "2026-10-12T09:46:29+00:00",
-    "title": "Iran says it will reply to US response on Hormuz proposal once review over",
-    "text": "DUBAI, Oct 12 (Reuters) - Iran is still reviewing a US response to its proposal regarding the reopening of the Strait of Hormuz and will reply to Washington via intermediaries when the review is over, foreign ministry spokesperson Esmaeil Baghaei said on Monday. Baghaei also told a press conference that Iran continues to exchange messages via intermediaries, without elaborating. Qatar and Pakistan, among others, have acted as mediators in efforts to end the war that began with US and Israeli strikes on Iran on February 28."
+    "url": "https://www.al-monitor.com/originals/2026/10/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try",
+    "published_at": "2026-10-24T13:46:37+00:00",
+    "title": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
+    "text": "(Refiles to correct typo in quote) DUBAI, Oct 24 (Reuters) - Iranian President Massoud Pezeshkian, in remarks broadcast on state TV on Saturday, blamed the United States for the failure of an interim deal with Iran, but said there should be a new attempt at concluding it. \"We were having negotiations, the cowards (Americans) messed everything up...I still think we should go and conclude it,\" Pezeshkian said. (Reporting by Dubai newsroom)"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86302038/Iran-11-other-countries-condemn-attacks-on-IAEA-safeguarded",
+    "published_at": "2026-10-24T13:45:53+00:00",
+    "title": "Iran, 11 other countries condemn attacks on IAEA-safeguarded nuclear facilities",
+    "text": "Tehran, IRNA - Iran, together with 11 other countries, issued a joint statement at the 81st session of the United Nations General Assembly First Committee, calling for a complete prohibition on all forms of attack and threats against nuclear facilities under International Atomic Energy Agency (IAEA) safeguards."
+   },
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+    "published_at": "2026-10-24T13:06:03+00:00",
+    "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+    "text": "Iranian officials, media and analysts sense war is closer, but signal there will be no backing down."
+   },
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
+    "published_at": "2026-10-24T12:51:21+00:00",
+    "title": "Is Iran planning attacks on Americans; why is the US on alert?",
+    "text": "US intelligence memo warns that Iranian plots against US citizens in the Middle East 'have reached advanced stages'."
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86301924/Russia-rejects-claims-of-evacuating-staff-nuclear-plant-specialists",
+    "published_at": "2026-10-24T12:13:40+00:00",
+    "title": "Russia rejects claims of evacuating staff, nuclear plant specialists from Iran",
+    "text": "Tehran, IRNA – The Embassy of the Russian Federation in Iran, in a statement, has vehemently denied reports that it is preparing to evacuate diplomatic staff and specialists working at the Bushehr Nuclear Power Plant."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/opinion/athens-rubios-civilisational-hubris-reaches-peak",
+    "published_at": "2026-10-24T12:08:31+00:00",
+    "title": "In Athens, Marco Rubio's civilisational hubris reaches a peak",
+    "text": "In Athens, Marco Rubio's civilisational hubris reaches a peak Submitted by Marco Carnelos on Thu, 10/22/2026 - 21:02 The US secretary of state holds up a flattering mirror to the West, ignoring centuries of catastrophic imperialism US Secretary of State Marco Rubio speaks in Athens, Greece, on 7 October 2026 (Mark Schiefelbein/AFP) Off On 7 October, US Secretary of State Marco Rubio delivered a remarkable speech in Athens. The event did not produce significant headlines - but it should have. Rubio’s statement deserves scrutiny, both because he could be a contender for the Republican nomination ahead of the 2028 presidential elections, and for the problematic nature of his comments (to say the least). Standing before the Parthenon, he delivered less a speech than a sermon on civilisational destiny. Rubio told his Athenian audience that the West owes the world its curiosity, its ambition, its “impatience with the notion of impossibility”. The setting was magnificent, and the rhetoric was built to match. Unfortunately, it was nothing more than an exercise in selective memory and civilisational vanity. Rubio’s central claim was that the ancient Greeks gave rise to traits that “would come to define the West”, setting it apart from “so many other cultures and civilisations where stability and subsistence were the highest ends of life”. This sentence deserves close attention. It essentially describes the builders of Cambodia’s Angkor temples, the astronomers of Samarkand, the engineers of the Inca road system, and the mathematicians of India ’s Kerala as people who aimed for subsistence. It ignores Ibn Battuta , who spent three decades crossing the known world, longer than Marco Polo’s journey. It overlooks the Polynesian navigators who settled the Pacific with no instruments."
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610243567",
+    "published_at": "2026-10-24T11:49:33+00:00",
+    "title": "Israel’s leaders have long wanted Iran’s rulers gone. They differ only on how",
+    "text": "In 1987, with Khomeini still calling for Israel’s destruction, Israel’s defense minister called Iran its best friend. Today every candidate for prime minister wants the Islamic Republic gone. Israel’s leaders have changed their minds about Iran’s rulers, but seldom disagreed."
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+    "published_at": "2026-10-24T10:49:29+00:00",
+    "title": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills",
+    "text": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills Submitted by MEE staff on Sat, 10/24/2026 - 10:25 Saudi authorities have lifted recent security alerts, while Washington signals the possibility of military action against Tehran A man takes a picture of a billboard featuring Pakistan's Army Chief General Syed Asim Munir (C), Naval Chief Admiral Naveed Ashraf (R) and Air Chief Marshal Zaheer Ahmed Babar Sidhu in Peshawar, 15 May 2025 (Abdul Majeed/AFP) Off Pakistan on Friday announced that it has ratified a joint defence pact with Turkey and Saudi Arabia as the kingdom faces renewed security threats and is looking for allies to help it against Yemen's Houthis. Pakistan’s Foreign Office spokesperson, Sajjad Haider Khan, said that Islamabad and Riyadh have completed their ratification procedures for the Mecca Joint Defence Agreement, signed by the three countries on 7 August. “Matters related to the agreement, its ratification, and operationalisation remain under discussion by the three parties,” Khan said, according to a transcript published by Pakistan’s Foreign Office. Turkey is still completing its domestic approval process as the agreement has not yet completed ratification by all three signatories. The pact was signed in Mecca by Turkish President Recep Tayyip Erdogan, Pakistani Prime Minister Shehbaz Sharif and Saudi Arabia's Crown Prince Mohammed bin Salman . It provides for collective defence in the event of an external armed attack against any of the three countries, with the nature and level of assistance to be determined according to the circumstances. The agreement has moved towards implementation following a 5 October meeting of the countries’ Strategic Political and Defence Committee. Full text of the Mecca defence p"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610230487",
+    "published_at": "2026-10-24T10:03:21+00:00",
+    "title": "Baluch insurgency tests a war-weakened Islamic Republic as attacks mount",
+    "text": "Armed Baluch groups in Iran’s southeast are adding one more strain on the Islamic Republic’s security forces just as war has stretched them thinnest, with 18 attacks in the 18 days to October 10, more than in any full month this year."
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86301776/Removing-export-barriers-to-Iraq-Pakistan-Afghanistan-on-agenda",
+    "published_at": "2026-10-24T09:40:25+00:00",
+    "title": "Removing export barriers to Iraq, Pakistan, Afghanistan on agenda: Deputy FM",
+    "text": "Tehran, IRNA – Iran is reviewing regulations governing exporters’ obligations to address disruptions in transportation and logistics, with proposals also under consideration to remove barriers to exports to neighboring Iraq, Pakistan, and Afghanistan, a senior Foreign Ministry official says."
    }
   ],
   "north": [
    {
     "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131777",
-    "published_at": "2026-10-12T12:16:49+00:00",
-    "title": "לפחות עשרה פצועים, בהם ארבעה באורח קשה בפיצוץ נפל באזור נאות מרדכי בגבול הצפון. מדובר באזרחים. כדי להגיב לכתבה לחצו כאן",
-    "text": "לפחות עשרה פצועים, בהם ארבעה באורח קשה בפיצוץ נפל באזור נאות מרדכי בגבול הצפון. מדובר באזרחים. כדי להגיב לכתבה לחצו כאן"
-   },
-   {
-    "source_id": "src_tg_idf",
-    "url": "https://t.me/idf_telegram/25345",
-    "published_at": "2026-10-12T12:12:46+00:00",
-    "title": "צפו בתיעוד מתוך תוואי תת\"ק והשמדתו: פעילות כוחות חטיבה 7 ויהל\"ם במרחב הביטחוני בדרום לבנון לכל הפרטים >>> https://www.id",
-    "text": "צפו בתיעוד מתוך תוואי תת\"ק והשמדתו: פעילות כוחות חטיבה 7 ויהל\"ם במרחב הביטחוני בדרום לבנון לכל הפרטים >>> https://www.idf.il/353150"
+    "url": "https://t.me/abualiexpress/132467",
+    "published_at": "2026-10-24T10:19:03+00:00",
+    "title": "ג'מיל אלחסן, העיתונאי הסורי המקורב (מאוד) לאחמד א-שרע, נשיא סוריה מאיים על ישראל, על רקע הפגנות נגד ישראל ביממה האחרונה ",
+    "text": "ג'מיל אלחסן, העיתונאי הסורי המקורב (מאוד) לאחמד א-שרע, נשיא סוריה מאיים על ישראל, על רקע הפגנות נגד ישראל ביממה האחרונה במספר ערים ברחבי סוריה: \"העם הסורי יתקומם כנגד הפגיעה בסורים. לא נוותר על אף שעל בגולן, בקוניטרה ובדרעא. אחמד א-שרע הוא שסתום הביטחון שעוצר את העם הסורי. אמנם לישראל יתרון טכנולוגי אבל בעוצמה, באומץ ובנחישות מתגברים על זה. העם הסורי מסוגל לכך. ח'יבר ח'יבר יא יהוד...\" ## זה רק עניין של זמן... הסרטון באדיבות ערוץ מרד החליפים 17 תגובות"
    },
    {
     "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131770",
-    "published_at": "2026-10-12T09:57:57+00:00",
-    "title": "דגלי סוריה של אבו מחמד אלג'ולאני, בתוך מנהרות חמאס בעזה על הקשר האידיאולוגי בין משטרו של אבו מחמד אלג'ולאני ובין חמאס כב",
-    "text": "דגלי סוריה של אבו מחמד אלג'ולאני, בתוך מנהרות חמאס בעזה על הקשר האידיאולוגי בין משטרו של אבו מחמד אלג'ולאני ובין חמאס כבר נכתב לא מעט. בסרטון שמפרסמת הזרוע הצבאית של חמאס לזכרו של מחמוד שבאנה, בנו של מפקד חטיבת רפיח לשעבר אבו אנס שבאנה, נראה הדגל הסורי החדש בתוך מנהרות רפיח. בסרטון נפגש שבאנה הבן עם בכירי חמאס בהם מחמד סנואר וע'אזי אבו טמאעה. תגובה אחת"
-   },
-   {
-    "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131764",
-    "published_at": "2026-10-12T07:50:01+00:00",
-    "title": "תושבים לבנונים מתעדים את נדידת הציפורים (שקנאים) בשמי לבנון הבוקר. נקווה שלא יפעילו את מערכות היירוט(: כדי להגיב לכתבה ל",
-    "text": "תושבים לבנונים מתעדים את נדידת הציפורים (שקנאים) בשמי לבנון הבוקר. נקווה שלא יפעילו את מערכות היירוט(: כדי להגיב לכתבה לחצו כאן"
-   },
-   {
-    "source_id": "src_tg_idf",
-    "url": "https://t.me/idf_telegram/25343",
-    "published_at": "2026-10-12T07:05:49+00:00",
-    "title": "דובר צה\"ל: לפני זמן קצר, שוגר מיירט לעבר מטרה אווירית חשודה שזוהתה במרחב בו פועלים כוחות צה\"ל בדרום לבנון, הפרטים בבדיקה",
-    "text": "דובר צה\"ל: לפני זמן קצר, שוגר מיירט לעבר מטרה אווירית חשודה שזוהתה במרחב בו פועלים כוחות צה\"ל בדרום לבנון, הפרטים בבדיקה. לא הופעלו התרעות על פי מדיניות."
-   },
-   {
-    "source_id": "src_tg_lelotsenzura",
-    "url": "https://t.me/lelotsenzura/94607",
-    "published_at": "2026-10-12T06:48:43+00:00",
-    "title": "לפי דיווח בעיתון הלבנוני \"אל-מודון\", ישראל העבירה מסרים ללבנון לפיהם אם חזבאללה יצטרף למערכה במקרה של מלחמה מול איראן, י",
-    "text": "לפי דיווח בעיתון הלבנוני \"אל-מודון\", ישראל העבירה מסרים ללבנון לפיהם אם חזבאללה יצטרף למערכה במקרה של מלחמה מול איראן, ישראל תפתח במבצע צבאי נרחב, תרחיב את אחיזתה בשטח ותטיל מצור אווירי, יבשתי וימי מוחלט על המדינה הלבנונית כעונש על שלא מנעה את מעורבות הארגון ולא פרקה אותו מנשקו. ⭕️ חדשות בטחון מהשטח ללא צנזורה ⭕️"
-   },
-   {
-    "source_id": "src_almanar",
-    "url": "https://english.almanar.com.lb/article/137402/",
-    "published_at": "2026-10-12T13:36:00+00:00",
-    "title": "One Israeli Killed, 19 Injured in Possible Unexploded Ordnance Blast Near Lebanon Border: Reports",
-    "text": "Israeli media reported that 20 Zionist settlers were injured to varying degrees in Yiftah, in the Ramim Ridge area along the Lebanese border. The reports said the injuries were believed to have resulted from an explosion at the scene, possibly caused by unexploded ordnance. Israeli occupation police later said the incident in the north appeared to have been caused by the explosion of an unexploded bomb. Israeli media reports 12 injured in the Yiftah area near the Lebanese border in an explosion that may have been caused by unexploded ordnance #IOF #Lebanon https://t.co/OVIKuexlWX — Al-Manar English (@manarenglish) October 12, 2026 Israeli media reported that four people were critically injured in the blast, adding that the Israeli military was assisting in evacuating casualties from the Yiftah area. The incident was described as extremely serious. Later reports from Israeli media said around 20 hikers, including students and teachers, were injured in an explosion in an open area near Kibbutz Ne’ot Mordechai in the Galilee region. According to initial reports from the scene, some of the injured were in critical condition. Video | Ambulances Arrive at the Site of a Munitions Explosion in Northern Occupied Palestine, Transporting Injured Settlers from the Yiftah Area Near the Lebanese Border #Lebanon #IOF https://t.co/P7LgD6JRJW — Al-Manar English (@manarenglish) October 12, 2026 Israeli military helicopters and teams from Magen David Adom, Israel’s emergency medical service, were dispatched to the site to carry out rescue operations and provide medical treatment under difficult conditions. Preliminary investigations indicated suspicions that the explosion had been caused by an old bomb. Security and rescue forces were operating at the scene, and an investigation into the "
-   },
-   {
-    "source_id": "src_almanar",
-    "url": "https://english.almanar.com.lb/article/137392/",
-    "published_at": "2026-10-12T13:31:48+00:00",
-    "title": "Israeli media: One person killed and 19 injured in the Yiftah area near the Lebanese border following the explosion of an unexploded bomb",
-    "text": ""
+    "url": "https://t.me/abualiexpress/132456",
+    "published_at": "2026-10-24T08:32:26+00:00",
+    "title": "דרום לבנון: כלי תקשורת לבנוניים מדווחים שצה\"ל הקים מנחת מסוקים חדש באזור אלפקעאני בדרום הכפר יחמר א-שקיף לכיוון הכפר טיב",
+    "text": "דרום לבנון: כלי תקשורת לבנוניים מדווחים שצה\"ל הקים מנחת מסוקים חדש באזור אלפקעאני בדרום הכפר יחמר א-שקיף לכיוון הכפר טיבה (לא רחוק מהבופור). תגובה אחת"
    },
    {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blast-northern-israel-near-border-lebanon-wounds-least-20",
-    "published_at": "2026-10-12T13:18:08+00:00",
-    "title": "Blast in northern Israel near border with Lebanon wounds at least 20",
-    "text": "Blast in northern Israel near border with Lebanon wounds at least 20 Israeli medics report that at least 20 people have been injured in a blast in northern Israel near the border with Lebanon. Israel's national emergency service, Magen David Adom said that two people are listed in serious condition, while another three are said to be moderately hurt. The cause of the blast is thought to be the result of unexploded ordnace, but it is still being investigated by the authorities, according to Times of Israel."
-   },
-   {
-    "source_id": "src_france24",
-    "url": "https://www.france24.com/en/tv-shows/perspective/20261012-perfect-victims-author-mohammed-el-kurd-challenges-how-palestinian-suffering-is-viewed",
-    "published_at": "2026-10-12T13:12:47+00:00",
-    "title": "'Perfect Victims' author Mohammed El-Kurd challenges how Palestinian suffering is viewed",
-    "text": "Mohammed El-Kurd is a Palestinian writer, poet and journalist. He is the author of the poetry collection Rifqa and the book \"Perfect Victims and the Politics of Appeal\", which was just published in French translation last week. Mohammed grew up in Sheikh Jarrah in East Jerusalem and as a child, his family were displaced from their home by Israeli settlers in a high-profile eviction. He spoke to us in Perspective."
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/2026/oct/12/lebanon-last-church-bell-maker-family-tradition",
-    "published_at": "2026-10-12T13:06:45+00:00",
-    "title": "Lebanon’s only church-bell maker on keeping a 300-year family tradition alive",
-    "text": "Naffah Naffah makes the bells in the mountains near Beirut. His sons will take over the foundry when he retires The story of Lebanon’s last remaining church-bell maker begins with a rifle. In the 18th century, Youssef Gabriel, a local metalworker, was secretly making and equipping Arab revolutionaries with rifles to assist their revolt against the Ottoman empire, which controlled Lebanon at the time. Then, one day, a Russian engineer came to the Lebanese town of Beit Chabab to make a church bell. Gabriel, intrigued, shadowed the man and picked up the process on sight. Continue reading..."
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-updates-gulf-middle-east-travel-advisories-over-threat-houthi",
+    "published_at": "2026-10-24T15:36:42+00:00",
+    "title": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression'",
+    "text": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression' The United States updated travel advisories for countries across the Gulf and the wider Middle East, citing what it described as the threat of increased Iran-aligned Houthi \"regional aggression\", according to security alerts issued by US missions. The security alerts cover Saudi Arabia, Qatar, the United Arab Emirates, Iraq, Lebanon and Israel. The Department of State has updated its Travel Advisories for Americans in the Middle East to reflect the threat of increased Iranian-supported Houthi regional aggression. Review the full text of the updated Travel Advisories at https://t.co/XzfZgIw9CL https://t.co/WRBhPjc9Ky — TravelGov (@TravelGov) October 24, 2026"
    },
    {
     "source_id": "src_newarab",
-    "url": "https://www.newarab.com/analysis/can-turkey-and-pakistan-defend-saudi-arabia-houthis",
-    "published_at": "2026-10-12T12:46:37+00:00",
-    "title": "Can Turkey and Pakistan defend Saudi Arabia from the Houthis?",
-    "text": "Turkey and Pakistan's promise of rapid military support for Saudi Arabia faces a more urgent test after weekend attacks on Riyadh’s international airport killed 12 people and forced its closure. Turning that commitment into effective protection will depend on what its partners can spare, how their forces operate alongside Saudi units and how far Ankara and Islamabad are willing to enter the conflict . At an emergency meeting in Riyadh on 5 October, the three countries pledged to implement their collective defence commitments and rapidly deploy agreed forces and capabilities to Saudi Arabia, subject to their national legislation. The decision marked a significant step for the Mecca Joint Defence Agreement they signed in August, but left troop numbers, equipment, missions, and deployment schedules publicly unspecified. Their contributions also begin from different positions. Pakistan already has an established military presence in the kingdom and has reportedly supplied weapons and advisers to Yemeni government forces. Turkey is considering additional defensive assistance while explicitly ruling out offensive operations abroad under the pact. The immediate test is whether these commitments can address Saudi vulnerabilities quickly enough to matter - and whether protecting the kingdom can remain separate from supporting its campaign in Yemen. What Riyadh needs Saudi Arabia’s requirement extends beyond additional troops. In September, drones struck the East-West Pipeline south of Medina , causing injuries and damage and prompting a precautionary shutdown of the route carrying crude to Red Sea export terminals. Riyadh said the drones originated in Iraq, but no group claimed responsibility, and the Islamic Resistance in Iraq denied involvement. Earlier attacks on Eastern Prov"
+    "url": "https://www.newarab.com/news/hijris-national-guard-militia-closes-suweida-damascus-highway",
+    "published_at": "2026-10-24T14:53:21+00:00",
+    "title": "Hijri's 'National Guard' militia closes Suweida-Damascus highway",
+    "text": "Traffic on the key Suweida–Damascus road was completely halted on Saturday after the closure of the Umm al-Zaytun checkpoint, operated the self-styled 'National Guard' militia loyal to Druze spiritual leader Hikmat al-Hijri . Suweida's Media Directorate said that “outlaw groups at the Um al-Zaytun checkpoint are completely closing the Suweida–Damascus road and preventing citizens from travelling\". This is not the first time that groups affiliated with the National Guard have closed the road, as they had previously shut the road at the Umm al-Zaytun checkpoint on several occasions, particularly during periods coinciding with school examinations, disrupting students’ travel and movement. The closure comes amid attempts by National Guard groups to infiltrate and carry out attacks in the western countryside of Suweida Governorate in recent days, without making any significant advances, according to the available information. On 8 October, factions affiliated with the National Guard took control of the village of Waqm in the western countryside of Suweida, in southern Syria, following an attack launched from the town of Areeqa. They withdrew from the village several hours after taking control of it. Speaking to The New Arab earlier this week, analysts said that the National Guard's activities are increasingly coinciding with the activities of Israeli forces occupying southern Syria, as well as moves by Israeli Prime Minister Benjamin Netanyahu to win over Palestinian Druze voters in the upcoming Israeli elections . Hijri, who leads the group, has frequently expressed support for Israeli involvement in Syria, saying earlier this year that the Druze are an \"integral part of Israel\". Israel, which has framed some of its attacks on Syria as being in defence of the religious mino"
    },
    {
-    "source_id": "src_anadolu",
-    "url": "https://www.aa.com.tr/en/middle-east/1-killed-19-injured-in-unexploded-ordnance-blast-near-israel-lebanon-border-medics/4086155",
-    "published_at": "2026-10-12T12:43:57+00:00",
-    "title": "1 killed, 19 injured in unexploded ordnance blast near Israel-Lebanon border: Medics",
-    "text": "Casualties reported among hiking group after blast in Ramim Ridge area, Israeli media says"
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/protecting-minorities-test-syrias-new-political-order",
+    "published_at": "2026-10-24T14:22:24+00:00",
+    "title": "Protecting minorities: A test for Syria's new political order",
+    "text": "Damascus - Almost two years on from the fall of Assad’s regime in 2024 , continued violence targeting Syria’s ethnic minorities is placing the country’s post-war recovery under strain as the government struggles to manage persistent sectarian tensions. Earlier this month, pro-government demonstrators gathered in Kurdish areas of Hasakeh and Raqqa, vandalising Kurdish symbols and calling for the government to take full control of the region. This comes amid the ongoing integration of the Kurdish-led SDF into the Syrian state. The unrest followed a series of mob attacks and acts of vandalism targeting Christian homes, vehicles and shops in Al-Suqaylabiyah , a predominantly Greek Orthodox town in Hama province. These are not isolated incidents. Post-Assad Syria has seen “several minority communities that have feared systemic discrimination and unfair treatment - particularly the Kurdish, Druze and Alawite communities,” Caroline Rose, a senior director at the Soufan Center, tells The New Arab . Al-Suqaylabiyah has already experienced a previous spate of mob violence over the past year, while Syria continues to witness sectarian killings on an almost daily basis. The country’s post-war recovery was also blighted by a series of massacres targeting Syria’s Alawite and Druze minorities in 2025. Syria’s decade-long civil war deepened sectarian hostility. Assad sought to frame the conflict as a sectarian war between Syria’s minority communities and Sunni “Islamists” and “terrorists”. As the revolution progressed, opposition to Assad became increasingly Islamist and sectarian in nature. During the conflict, communities on all sides were targeted, with many villages and neighbourhoods suffering killings and displacement. The collapse of the regime saw many displaced communities ret"
    },
    {
     "source_id": "src_almanar",
-    "url": "https://english.almanar.com.lb/article/137377/",
-    "published_at": "2026-10-12T12:41:09+00:00",
-    "title": "Israeli media reports 12 injured in the Yiftah area near Lebanese border in an explosion that “may have been caused by unexploded ordnance”",
+    "url": "https://english.almanar.com.lb/article/142262/",
+    "published_at": "2026-10-24T12:02:33+00:00",
+    "title": "Israeli occupation forces carry out demolition operation in Taybe: Al-Manar correspondent in southern Lebanon",
     "text": ""
    },
    {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-slams-greece-for-violating-western-thrace-minority-rights",
+    "published_at": "2026-10-24T11:52:45+00:00",
+    "title": "Türkiye slams Greece for violating Western Thrace minority rights",
+    "text": "Türkiye on Saturday accused Greece of undermining the religious freedoms of the Turkish minority in Western Thrace by appointing state-selected muftis in Komotini and Xanthi, renew..."
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iran-vows-block-us-warships-gulf-amid-trump-threats",
+    "published_at": "2026-10-24T11:31:24+00:00",
+    "title": "Iran vows to block US warships from Gulf amid Trump threats",
+    "text": "Iran said on Saturday that US military ships would never be allowed to enter the Gulf \"under any circumstances\" and that President Donald Trump would \"take that dream to his grave\". The remarks came amid mounting US and Israeli threats of renewed attacks on Iran, as US ambassador to Turkey Tom Barrack warned that Washington could \"absolutely\" strike Iran as soon as this weakened. \"We will not allow US military ships in the Persian Gulf under any circumstances and at any time,\" said Iran's armed forces chief of staff Ali Abdollahi, according to Iranian state television. \"The US president must dream of seeing the armed forces enter the Persian Gulf. He will take that dream to his grave.\" Iranian forces have restricted traffic through the Strait of Hormuz , a vital energy conduit and gateway to the Gulf, since the war with the United States broke out on 28 February. In retaliation, the United States has imposed a counterblockade on Iranian ports and ships. Tehran has required vessels to seek permission to transit, and repeatedly targeted ships attempting to pass through Hormuz via a southern route close to the Omani coast. According to the Guards, several tankers attempting to transit Hormuz through the route Tehran considers \"illegal\" were hit by mines in recent days. On Friday, the Guards said two supertankers carrying more than 4.5 million barrels of crude oil have been abandoned at sea after hitting mines in the strategic waterway. \"Their engine rooms were disabled by an explosion and a fierce fire,\" the Guards said in a statement carried by their Sepah News website. In peacetime, around a fifth of the world's oil and gas passed through Hormuz. US spy chief warns Iran has ramped up efforts to target Americans Iran has \"substantially increased\" its efforts to target Ame"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/142227/",
+    "published_at": "2026-10-24T11:29:48+00:00",
+    "title": "Israeli Attacks, Artillery Shelling Continue Across Southern Lebanon",
+    "text": "Israeli occupation forces continued their attacks across southern Lebanon on Saturday, in further violations of Lebanese sovereignty, UN Security Council Resolution 1701, and international law. Al-Manar correspondent reported that Israeli occupation forces have carried out a demolition operation in the southern Lebanese town of Taybe. Smoke rises as Israeli occupation forces carry out demolition operation in southern Lebanese town of Taybe: Al-Manar reporter https://t.co/0UGKp9DJB4 — Al-Manar English (@manarenglish) October 24, 2026 In Yatar, Israeli small attack drone dropped a stun grenade near farmers in the town, causing no injuries. Israeli occupation forces also fired flare bombs toward Kfar Tibnit and Haddatha. Meanwhile, an Israeli force backed by bulldozers began constructing a road from the Sadana area toward the valley in the southern town of Shebaa, our correspondent reported. An Israeli force, backed by bulldozers, start carving out a road from the Sadana area toward valley in the southern Lebanese town of Shebaa, Al-Manar’s correspondent reports. — Al-Manar English (@manarenglish) October 24, 2026 On Saturday morning, Israeli artillery shelling targeted Khiam, the outskirts of Zawtar Al-Sharqiyah, Mayfadoun, Al-Mansouri, and the outskirts of Qantara toward Al-Slouqi Valley. Occupation forces also conducted machine-gun sweeps toward Khiam, Kfar Tibnit, Haddatha, and Beit Yahoun. Additional attacks included a demolition operation carried out by Israeli forces in Khiam, machine-gun fire toward Al-Hujeir Valley, and artillery shelling of Zibqin Valley. قوات الاحت.ل.ال نفذت تفجيرًا ضخمًا في مدينة الخيام https://t.co/V24sQRVSbV — قناة المنار (@TVManar1) October 23, 2026 The attacks followed further Israeli shelling on Friday evening of the area between Haris and"
+   },
+   {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/who-are-yemens-houthis-and-what-do-they-want",
-    "published_at": "2026-10-12T12:28:09+00:00",
-    "title": "Who are Yemen's Houthis and what do they want?",
-    "text": "Who are Yemen's Houthis and what do they want? Submitted by MEE staff on Mon, 10/12/2026 - 09:45 Yemen's war has reignited, pulling in Saudi Arabia's allies and threatening one of the world's most important shipping lanes Supporters of Ansar Allah hold up a portrait of the group's leader, Abdul Malik al-Houthi, during a protest against the Saudi intervention in Yemen in Sanaa on 18 September 2026 (AFP) Off A strike on King Khalid International Airport in Riyadh on Saturday killed 13 people and wounded 309, in the deadliest attack on Saudi soil in more than a decade. Another strike on the airport on Sunday killed one more person. The Saudi -led coalition blamed Yemen 's Houthis and called the attack a war crime. In a statement on Sunday, Houthi military spokesman Yahya Saree said the group had targeted the airport \"in three stages\" since Friday evening, closing it completely, and warned that Saudi airports were \"unsafe\", except those serving Mecca and Medina. The attack capped a summer of escalation. A UN-backed truce that had largely frozen Yemen's war since 2022 broke down in July after Saudi Arabia bombed Sanaa airport, and the Houthis then declared a maritime blockade on the kingdom. In September, the Sanaa-based group seized the Red Sea port of Mokha and pushed towards the Bab al-Mandab strait . Saudi-backed government forces launched a counter-offensive in early October, and the UN special envoy has warned that Yemen has returned to full-scale war . Heavy clashes are continuing around the strategically important city of Taiz, which sits above the Red Sea coast. The renewed fighting has displaced 130,000 people . Who are the Houthis? Officially known as Ansar Allah, or \"helpers of God\", the movement emerged in Yemen's far north in the 1990s around the cleric Hussein"
+    "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+    "published_at": "2026-10-24T10:49:29+00:00",
+    "title": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills",
+    "text": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills Submitted by MEE staff on Sat, 10/24/2026 - 10:25 Saudi authorities have lifted recent security alerts, while Washington signals the possibility of military action against Tehran A man takes a picture of a billboard featuring Pakistan's Army Chief General Syed Asim Munir (C), Naval Chief Admiral Naveed Ashraf (R) and Air Chief Marshal Zaheer Ahmed Babar Sidhu in Peshawar, 15 May 2025 (Abdul Majeed/AFP) Off Pakistan on Friday announced that it has ratified a joint defence pact with Turkey and Saudi Arabia as the kingdom faces renewed security threats and is looking for allies to help it against Yemen's Houthis. Pakistan’s Foreign Office spokesperson, Sajjad Haider Khan, said that Islamabad and Riyadh have completed their ratification procedures for the Mecca Joint Defence Agreement, signed by the three countries on 7 August. “Matters related to the agreement, its ratification, and operationalisation remain under discussion by the three parties,” Khan said, according to a transcript published by Pakistan’s Foreign Office. Turkey is still completing its domestic approval process as the agreement has not yet completed ratification by all three signatories. The pact was signed in Mecca by Turkish President Recep Tayyip Erdogan, Pakistani Prime Minister Shehbaz Sharif and Saudi Arabia's Crown Prince Mohammed bin Salman . It provides for collective defence in the event of an external armed attack against any of the three countries, with the nature and level of assistance to be determined according to the circumstances. The agreement has moved towards implementation following a 5 October meeting of the countries’ Strategic Political and Defence Committee. Full text of the Mecca defence p"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/diplomacy/fidan-to-meet-yemeni-fm-as-fighting-threatens-key-shipping-routes",
+    "published_at": "2026-10-24T10:02:00+00:00",
+    "title": "Fidan to meet Yemeni FM as fighting threatens key shipping routes",
+    "text": "Turkish Foreign Minister Hakan Fidan is scheduled to meet Yemen’s top diplomat, Afrah Abdulaziz Al-Zuba, in Istanbul on Saturday to discuss bilateral relations, efforts to end Yeme..."
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21696696",
+    "published_at": "2026-10-24T14:32:05+00:00",
+    "title": "בסביבת טראמפ בוחנים אפשרות לעבוד בממשלה בלי נתניהו: \"זה השטן שהוא מכיר\"",
+    "text": "גורמים אמריקניים: למרות תמיכת נשיא ארה\"ב לקראת הבחירות - דווקא ממשלה אחרת עשויה לקדם את האינטרסים של וושינגטון במזרח התיכון • בבית הלבן מביעים תסכול מהתנהלות ראש הממשלה בסוגיות עזה, סוריה ולבנון, ובוחנים את האפשרות שממשלה ללא שותפיו מהימין הקיצוני תהיה נעימה יותר לעבודה"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
+    "published_at": "2026-10-24T14:05:45+00:00",
+    "title": "נשיא איראן רוצה לחזור למו\"מ; \"חיזבאללה הבהיר - לא נתערב אם תפרוץ שוב מלחמה\"",
+    "text": "\"א-שרק אל-אווסט\" הסעודי דיווח כי ארגון הטרור העביר את המסר, ובמקביל עדכן עוזר שר החוץ האיראני שלטהרן אין צורך בהתערבותו. נשיא איראן קרא לחזור למו\"מ: \"צריך להשלים את זה\". וול סטריט ג'ורנל: טראמפ נוטה לשוב ללחימה, ועודכן על תוכניות - מתקיפת הגרעין ועד פגיעה באיים בשליטת איראן"
    }
   ],
   "ukraine": [
    {
     "source_id": "src_tg_carmel",
-    "url": "https://t.me/alexmehacarmel/48470",
-    "published_at": "2026-10-12T13:10:08+00:00",
-    "title": "כדורים פורחים אוקראינים באזור מוסקבה. מטרת הכדורים הפורחים היא להפריע לתנועת המטוסים.",
-    "text": "כדורים פורחים אוקראינים באזור מוסקבה. מטרת הכדורים הפורחים היא להפריע לתנועת המטוסים."
-   },
-   {
-    "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131774",
-    "published_at": "2026-10-12T11:47:45+00:00",
-    "title": "הקרמלין: פוטין מוכן להנחות על הפסקת אש ביום הבחירות באוקראינה - אם אוקראינה תחליט לקיים בחירות. ## לפני ימים אחדים אמר ה",
-    "text": "הקרמלין: פוטין מוכן להנחות על הפסקת אש ביום הבחירות באוקראינה - אם אוקראינה תחליט לקיים בחירות. ## לפני ימים אחדים אמר הנשיא טראמפ שאוקראינה צריכה נשיא חדש במקום זלנסקי. הבחירות האחרונות באוקראינה היו ב 2019. הבחירות של שנת 2024 נדחו בגלל המלחמה. כדי להגיב לכתבה לחצו כאן"
+    "url": "https://t.me/alexmehacarmel/48893",
+    "published_at": "2026-10-24T15:45:06+00:00",
+    "title": "ענקית האנרגיה הרוסית מימנה ושלטה בחשאי במיזם גז אמריקאי באלסקה בהיקף 25 מיליארד דולר. מנכ״ל לשעבר בחברת Polar LNG טוען כ",
+    "text": "ענקית האנרגיה הרוסית מימנה ושלטה בחשאי במיזם גז אמריקאי באלסקה בהיקף 25 מיליארד דולר. מנכ״ל לשעבר בחברת Polar LNG טוען כי ענקית הגז הרוסית נובאטק (Novatek) מימנה והכתיבה את הכיוון האסטרטגי של מיזם לייצוא גז טבעי מאלסקה, בהיקף של 25 מיליארד דולר. הפרשה מעלה חששות להפרת סנקציות, על רקע דיונים על המיזם בין שליחיו של נשיא ארה״ב דונלד טראמפ לנשיא רוסיה ולדימיר פוטין. ג'ואל רידל, שעזב את חברת Polar LNG בספטמבר, סיפר ל־Financial Times ול־The New York Times כי גילה שמאחורי המיזם עומד מימון רוסי, אף שלדבריו בתחילה סבר כי הכסף מגיע ממשקיעים אחרים. בעקבות ההתפתחויות עזבו את החברה כמה בכירים. על פי מקורות המעורים במשא ומתן שצוטטו ב־New York Times, המיזם עלה בשיחות שקיים פוטין בחודש שעבר עם שליחיו של טראמפ, סטיב ויטקוף וג'ארד קושנר. עסקאות בתחום האנרגיה היו חלק ממאמצי וושינגטון להגיע להסכם עם מוסקבה בנוגע למלחמה באוקראינה. ### המימון שמאחורי המיזם Polar LNG מתכננת להשתמש בציוד של נובאטק כדי להנזיל גז טבעי מאזור המדרון הצפוני של אלסקה ולייצא אותו ללקוחות באסיה. המיזם הושק במרץ וביקש ממשרד האוצר האמריקאי אישור לנהל משא ומתן עם החברה הרוסית, אך טרם קיבל את האישור. רידל, מהנדס לשעבר בחברת אקסון מוביל, אמר כי בתחילה האמין שהמימון מגיע מג'נטרי ביץ', משקיע המקושר לטראמפ, ומחברת Tech Wave Industrial Projects Management שבסיסה באבו דאבי. בהמשך הגיע למסקנה שביץ' לא השקיע במיזם, וכי נובאטק היא שסיפקה את ההון. ״התפטרתי מתפקידי כמנכ״ל Polar LNG משום שלא הרגשתי בנוח עם העובדה שהחברה הרוסית נובאטק מממנת את החברה ובסופו של דבר שולטת בכיוונה האסטרטגי״, אמר רידל ל־Financial Times. הודעות שנבדקו בידי העיתונים מראות כי בכירים בנובאטק דנו במימון המיזם. על פי ה־New York Times, ההתכתבויות עסקו בהעברת סכום של עד 15 מיליון דולר ל־Tech Wave לצורך מימון Polar LNG, לרבות העברה ראשונית מתוכננת של 5 מיליון דולר. נובאטק מסרה ל־New York Times כי היא פועלת להשגת אחזקת מיעוט במיזם. אחזקה אפשרית זו נפרדת מטענתו של רי"
    },
    {
     "source_id": "src_tg_carmel",
-    "url": "https://t.me/alexmehacarmel/48468",
-    "published_at": "2026-10-12T11:34:09+00:00",
-    "title": "״לאחר התקיפות שלנו נגד מרכזי הנתונים של יאנדקס, יש פחות שנאה, פילוג ופרובוקציות ברשתות החברתיות. מספר הבוטים ירד, וכעת ב",
-    "text": "״לאחר התקיפות שלנו נגד מרכזי הנתונים של יאנדקס, יש פחות שנאה, פילוג ופרובוקציות ברשתות החברתיות. מספר הבוטים ירד, וכעת ברור מאין הם הגיעו״, אמר נשיא אוקראינה וולודימיר זלנסקי."
+    "url": "https://t.me/alexmehacarmel/48892",
+    "published_at": "2026-10-24T15:33:45+00:00",
+    "title": "שריפה גדולה במפעל כימי חשוב באומסק, סיביר לאחר תקיפה אוקראינית. העיר מרוחקת 2500 קילומטר מאוקראינה.",
+    "text": "שריפה גדולה במפעל כימי חשוב באומסק, סיביר לאחר תקיפה אוקראינית. העיר מרוחקת 2500 קילומטר מאוקראינה."
    },
    {
     "source_id": "src_tg_carmel",
-    "url": "https://t.me/alexmehacarmel/48465",
-    "published_at": "2026-10-12T11:13:52+00:00",
-    "title": "סיביה: אוקראינה מוכנה להפסקת אש אנרגטית הדדית עם רוסיה שר החוץ האוקראיני ציין כי כוחות רוסיים המשיכו לתקוף תשתיות אוקראי",
-    "text": "סיביה: אוקראינה מוכנה להפסקת אש אנרגטית הדדית עם רוסיה שר החוץ האוקראיני ציין כי כוחות רוסיים המשיכו לתקוף תשתיות אוקראיניות שעות ספורות בלבד לאחר ההכרזה על ההסכמות. ״אסור לאיש להאמין למילים של פוטין. תסתכלו על המעשים שלו״, אמר השר. אנדריי סיביה קרא לאיחוד האירופי לנקוט צעדים נחרצים: ״מילים אינן עוצרות טילים. החלטות הן שעוצרות אותם״."
-   },
-   {
-    "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131767",
-    "published_at": "2026-10-12T08:33:54+00:00",
-    "title": "הנשיא טראמפ: \"החל מרגע זה נכנסת לתוקף הפסקת אש בתחום האנרגיה במלחמה בין רוסיה לאוקראינה. שני הצדדים הסכימו לכך. אל תפרו ",
-    "text": "הנשיא טראמפ: \"החל מרגע זה נכנסת לתוקף הפסקת אש בתחום האנרגיה במלחמה בין רוסיה לאוקראינה. שני הצדדים הסכימו לכך. אל תפרו אותה!\" 2 תגובות"
-   },
-   {
-    "source_id": "src_tg_carmel",
-    "url": "https://t.me/alexmehacarmel/48463",
-    "published_at": "2026-10-12T00:32:38+00:00",
-    "title": "תופעה מעניינת: עם הפגיעה במרכזי המידע הרוסים על ידי האוקראינים ישנה ירידה משמעותית בהזכרה של המילים ג'נוסייד ופרי פלסטיי",
-    "text": "תופעה מעניינת: עם הפגיעה במרכזי המידע הרוסים על ידי האוקראינים ישנה ירידה משמעותית בהזכרה של המילים ג'נוסייד ופרי פלסטיין. https://twitter.com/theohiorob/status/2109342550675050928?s=46"
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
-    "published_at": "2026-10-12T13:27:37+00:00",
-    "title": "Kremlin rejects 60-day truce offer and refuses to comment on Trump’s ‘energy ceasefire’ – Europe live",
-    "text": "Zelenskyy had proposed a 60-day total ceasefire to allow Ukraine to hold presidential elections Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’ Addressing the conference virtually, Ukrainian president Volodymyr Zelenskyy commented on Trump’s “sudden but very important” energy ceasefire declaration over the weekend. He said it is clear that Putin “does not read Truth social”, the site that the US president posted his ceasefire declaration on. Russia wants to ruin the existing security architecture in Europe to make sure that Russian domination comes back to where it was before 1989. We have no doubt about it. Continue reading..."
-   },
-   {
-    "source_id": "src_meduza",
-    "url": "https://meduza.io/en/news/2026/10/12/replacing-equipment-at-yandex-data-centers-damaged-by-ukrainian-drone-strikes-will-take-about-six-months-kommersant-reports",
-    "published_at": "2026-10-12T13:22:41+00:00",
-    "title": "Replacing equipment at Yandex data centers damaged by Ukrainian drone strikes will take about six months, Kommersant reports",
-    "text": "Replacing the equipment destroyed in Ukrainian strikes on Yandex’s data centers could take up to six months, sources in the IT market told the Russian business daily Kommersant. Yandex will likely begin buying equipment through various channels, including foreign ones, to replace what was lost more quickly, the outlet’s sources said. Prices for “hardware” are expected to rise in the short term, and Yandex will have to buy equipment “on the most expensive market in recent years,” the sources said. “These were very large data centers, and since they were built, a global shortage and price increase for computing power, especially AI accelerators, has begun. Equipping them is going to be expensive and lengthy,” Sergei Kudryashov of Strategy Partners told the outlet. The additional costs will ultimately lead to higher prices for cloud services for customers, the outlet’s sources said. Ukrainian drones have struck three of Yandex’s six known data centers over the past several days. Users in Russia and abroad have faced outages in Yandex’s services, including its taxi service. Yandex itself restricted downloads from its Yandex Disk cloud storage service in order to “maintain the operability” of its other services after the attack on the data centers. At Meduza, we are committed to transparency about our use of artificial intelligence in the newsroom. The story you’re reading was written by one of our living, breathing journalists and translated from Russian using an AI model configured to follow our strict editorial standards. This translation process is the result of extensive testing and refinements to ensure our English-language coverage is timely and accurate. A Meduza editor reviews every draft before publication. If you find any errors in this translation, please contact"
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
-    "published_at": "2026-10-12T13:22:38+00:00",
-    "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
-    "text": "PM ‘absolutely accepts referendum result’, says spokesperson Burnham to urge MPs to embrace closer ties with EU Zia Yusuf , Reform UK’s home affairs spokesperson, is speaking now. He started his speech with an account of a 73-year-old woman dying in North Wales after having to wait 23 hours for an ambulance, and he sought to link this to immigration. He said: The Royal College of Emergency Medicine estimates that 15,000 people across Britain died last year due to excess wait times for emergency treatment. That’s 300 people a week, 300 lives destroyed, 300 families devastated. And that number has increased tenfold over the last decade. This is a moral outrage, and it is a direct result of decisions made by Tory and Labour governments. I don’t think that’s because he wants to have a fight over the European Union. I think that’s because he knows what we’re talking about today impacts hard in what is known as the red wall. Continue reading..."
-   },
-   {
-    "source_id": "src_tass",
-    "url": "https://tass.com/politics/2200947",
-    "published_at": "2026-10-12T13:10:43+00:00",
-    "title": "Liberation of Nikolskoye helps Russian army disrupt Ukrainian defenses in Zaporozhye area",
-    "text": "In their battle for Nikolskoye, Russia's Battlegroup East forces destroyed up to a company of enemy manpower, 15 armored combat vehicles and 19 motor vehicles"
-   },
-   {
-    "source_id": "src_pravda_ua",
-    "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057630/",
-    "published_at": "2026-10-12T13:09:00+00:00",
-    "title": "Family with child killed in Russian rocket artillery strike on Cherkaske in Donetsk Oblast",
-    "text": "Three people, including a child, have been killed and four others injured as a result of Russian strikes on the settlement of Cherkaske in Donetsk Oblast on the morning of 12 October. Source: Vadym Filashkin , Head of Donetsk Oblast Military Administration, on Telegram Quote: \"Three people have been killed and four injured as a result of a strike on Cherkaske. A 13-year-old girl is among the dead.\" Details: Filashkin added that Russian forces used Smerch multiple-launch rocket systems to fire rockets fitted with cluster warheads on the settlement. \"A rocket hit a house. An entire family lost their lives in a single strike,\" he noted, urging people to evacuate from the oblast. Subscribe on Patreon to back our journalism long-term."
-   },
-   {
-    "source_id": "src_kyivind",
-    "url": "https://kyivindependent.com/a-miracle-that-dad-didnt-die-today-russian-daytime-drone-attack-on-kyiv-injures-at-least-three/",
-    "published_at": "2026-10-12T13:02:30+00:00",
-    "title": "'A miracle that Dad didn't die today' — Russian daytime drone attack on Kyiv injures at least three",
-    "text": "\"I'm in shock... I don't know how to carry on. We're all exhausted,\" Kyiv resident Sheremet Yuliia told the Kyiv Independent as the Russian strike on Ukraine's capital injured her father and severely damaged her house."
-   },
-   {
-    "source_id": "src_tass",
-    "url": "https://tass.com/defense/2200939",
-    "published_at": "2026-10-12T12:59:00+00:00",
-    "title": "Russian forces take Ukrainian positions in Annopolye using Shmel flamethrower — commander",
-    "text": "The Russian serviceman said that flamethrower platoon fires two or three RPO rounds, and the enemy surrenders almost immediately"
+    "url": "https://t.me/alexmehacarmel/48889",
+    "published_at": "2026-10-24T14:44:41+00:00",
+    "title": "כטבמי\"ם אוקראינים תוקפים את העיר אומסק בסיביר. מחסן אוזון ומפעל כימי אסטרטגי הושמדו בתקיפה.",
+    "text": "כטבמי\"ם אוקראינים תוקפים את העיר אומסק בסיביר. מחסן אוזון ומפעל כימי אסטרטגי הושמדו בתקיפה."
    },
    {
     "source_id": "src_ukrinform",
-    "url": "https://www.ukrinform.net/rubric-ato/4173601-russian-drone-strikes-bus-station-in-zaporizhzhia-damaging-vehicles.html",
-    "published_at": "2026-10-12T12:53:00+00:00",
-    "title": "Russian drone strikes bus station in Zaporizhzhia, damaging vehicles",
-    "text": "On the afternoon of October 12, Russian forces attacked transport infrastructure in Zaporizhzhia twice. One person was injured, and several vehicles were damaged."
+    "url": "https://www.ukrinform.net/rubric-ato/4177846-drones-attack-industrial-hub-in-russias-omsk-social-media.html",
+    "published_at": "2026-10-24T16:07:00+00:00",
+    "title": "Drones attack industrial hub in Russia's Omsk – social media",
+    "text": "Drones have attacked an industrial hub in the Russian city of Omsk, located more than 2,500 km from Ukraine."
    },
    {
     "source_id": "src_pravda_ua",
-    "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057626/",
-    "published_at": "2026-10-12T12:42:00+00:00",
-    "title": "Ukrainian defence tech company Phantom Defense acquires anti-drone net developer, unveils counter-UAV system – photos, videos",
-    "text": "Ukrainian defence tech company Phantom Defense has acquired Karakurt, which develops nets designed to ensnare drones, bringing its team on board. The company has also unveiled its new Manhal counter-UAV system. Source: Phantom Defense in a comment to Ukrainska Pravda Details: Phantom Defense has signed an agreement to acquire Karakurt in full and integrate its technologies into its own ecosystem. \"The integration of net-based UAV interception technologies into the Phantom Defense ecosystem will enhance protection for frontline units and infrastructure against a range of unmanned threats,\" the company noted. A Karakurt drone net on a DJI Mavic 3 drone Photo: Phantom Defense The Karakurt system uses a special launcher module to fire a net on an incoming drone. The net tangles around its propellers, preventing them from spinning freely and bringing the drone down. Phantom Defense says Karakurt's nets can bring down enemy drones without blowing them up, leaving the aircraft intact for Ukrainian defence forces to examine or potentially put to use. According to the company, drone nets are also cheaper to produce and maintain than anti-aircraft missile and artillery systems, allowing them to be deployed widely among units along the line of contact. A DJI Mavic 3 drone equipped with a Karakurt anti-drone net Photo: Phantom Defense The use of drone nets also helps minimise the risk of collateral damage caused by explosions and debris. The company says this makes the technology suitable for defending critical infrastructure and civilian facilities against various drone threats. Karakurt systems come in several variants, tailored to different drone types and operating conditions. The M3, M4 and A4 models, compatible with DJI Mavic, Matrice and Autel platforms, fire nets downwards "
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059561/",
+    "published_at": "2026-10-24T15:49:00+00:00",
+    "title": "Wreckage of foreign drone found in Latvia, investigation underway",
+    "text": "The wreckage of a drone that crashed on Latvian territory was found in the country's Alūksne district by the Latvian National Armed Forces on Saturday 24 October. Source: Latvian Armed Forces , as reported by European Pravda Details: The Latvian military reported that the unmanned aerial vehicle had likely entered Latvian airspace on 18 October. Following a report of a noise resembling an explosion, the National Armed Forces and State Police began searching for a possible crash site. The search was called off after two days because the initial information was insufficient to establish the circumstances of the incident. An investigation into the circumstances of the event is currently underway, and an internal review has been launched to assess the course of the incident and related circumstances. No civilians were injured in the incident, civilian infrastructure was not damaged, and no further threats have been identified. Background: On Sunday 18 October, the wreckage of a suspected drone that had violated the country's airspace was found in the village of Juodžionys, the Pasvalys district, Lithuania. Lithuania says the drone entered its airspace from Poland. Lithuanian Prime Minister Mindaugas Sinkevičius stated that the drone which flew into Lithuania on Sunday contained explosives . Heorhii Tykhyi, spokesman for Ukraine's Ministry of Foreign Affairs, stated that the drone incident in Lithuania was likely the result of Russian electronic warfare measures. He added that Ukraine expressed regret over the incident. Your support on Patreon helps us keep the news free and accessible."
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+    "published_at": "2026-10-24T15:47:20+00:00",
+    "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
+    "text": "Volodymyr Zelenskyy offers thanks to US allies for restoring system key to air defence and ‘frontline logistics’ Ukraine’s military has a “stable connection to Starlink”, the Ukrainian government has said, 10 days after its ability to use the satellite communications system was suddenly restricted . The Starlink satellite terminals, which are produced by Elon Musk’s SpaceX but managed by the US government, are a key component of Ukraine’s military operations. Sudden speed restrictions on the terminals, which capped operations at speeds of 160km/h (99mph), led to the failure of several Ukrainian combat missions earlier this month. Continue reading..."
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4177839-president-announces-changes-in-regions-and-discusses-preparations-for-winter.html",
+    "published_at": "2026-10-24T15:23:00+00:00",
+    "title": "President announces changes in regions and discusses preparations for winter",
+    "text": "Ukrainian President Volodymyr Zelensky said discussions had been held on governance issues in Kyiv, resilience plans and preparations for winter, and announced changes in some regions."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059558/",
+    "published_at": "2026-10-24T15:08:00+00:00",
+    "title": "Russian drone hits food shop in Nikopol district: four injured, including child",
+    "text": "A Russian drone struck a food shop in the Nikopol district in Dnipropetrovsk Oblast on Saturday 24 October, injuring three men and a 14-year-old boy. Source: National Police of Ukraine Quote: \"Today, after 09:00, Russian forces launched an attack drone on a village in the Pokrovsk e hromada An administrative unit designating a village, several villages, or a town, and their adjacent territories . A local food shop, where people were present, has been hit\" . Details: The police reported that a 14-year-old boy suffered severe injuries in the attack and has been taken to hospital in Dnipro. Three men aged between 45 and 58 were also injured and are in a moderate condition. They are receiving the necessary medical treatment. The strike damaged the shop and a metal fence. Police investigative teams are gathering information on the full consequences of the attack. Your support on Patreon helps us keep the news free and accessible."
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4177837-zelensky-ukraine-awaits-air-defense-interceptors-preparing-meetings-with-partners.html",
+    "published_at": "2026-10-24T15:00:00+00:00",
+    "title": "Zelensky: Ukraine awaits air defense interceptors, preparing meetings with partners",
+    "text": "Ukraine is continuing talks with the United States and European partners on resuming deliveries of interceptors to counter Russian ballistic missiles. It also expects diplomatic contacts to continue next week and humanitarian access to the town of Oleshky in the Kherson region to be unblocked."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059557/",
+    "published_at": "2026-10-24T14:33:00+00:00",
+    "title": "Drones attack chemical plant in Russia's Omsk, 2,500 km from Ukraine – OSINT",
+    "text": "Drones attacked the Omsky Kauchuk chemical plant in Russia on Saturday 24 October, causing a fire at the facility. Source: Exilenova+ , a Ukrainian OSINT community; Vitaly Khotsenko , Governor of Russia's Omsk Oblast; OSINT analyst Dnipro Osint ⟨Harbuz⟩ Details: OSINT analysts from the Exilenova+ community released a video of the strike. The drone attack sparked a large fire in the plant's industrial area. Khotsenko also confirmed the attack. OSINT analyst Dnipro Osint ⟨Harbuz⟩ noted that early reports indicate hits near two production units. The distance from Ukraine to the facility is approximately 2,500 km. \"Early reports based on geolocation data indicate that hits were recorded near the D-3 (methyl tert-butyl ether production) and D-5 units,\" Dnipro Osint wrote. Locations at the Omsky Kauchuk plant that were hit in the latest strike Photos: Dnipro Osint (Harbuz) Background: Ukrainska Pravda previously reported that on the morning of 24 October, the defence forces struck the Togliattikauchuk plant in the city of Tolyatti, Samara Oblast, Russia. An explosion and a fire were recorded following the strike. On 23 October, the main production building of the Proton-Electrotex plant was also attacked in Oryol. The facility manufactures optoelectronic equipment and full-production-cycle devices. Your support on Patreon helps us keep the news free and accessible."
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059556/",
+    "published_at": "2026-10-24T14:28:00+00:00",
+    "title": "One killed and two injured in Russian attack on business in Lozova, Kharkiv Oblast – photos",
+    "text": "A man was killed when Russian forces struck a business in the city of Lozova, Kharkiv Oblast, on Saturday 24 October. Source: Kharkiv Oblast Police Details: Two civilians aged 26 and 43 were injured in the attack. They have been taken to hospital to receive the necessary medical treatment. Police officers and other emergency services are working at the scene. Law enforcement officers are documenting the aftermath of the attack and collecting physical evidence. Investigators have launched a criminal investigation into the attack under Article 438 of the Criminal Code of Ukraine (war crimes). Support Ukrainska Pravda on Patreon to help us keep reporting!"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/european-parliament-vice-president-ends-hunger-strike-following-oleshky-ceasefire-announcement/",
+    "published_at": "2026-10-24T14:22:27+00:00",
+    "title": "European Parliament Vice President ends hunger strike following Oleshky ceasefire announcement",
+    "text": "European Parliament Vice President Pina Picierno announced the hunger strike on Oct. 20, demanding an immediate humanitarian truce in the occupied town."
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4177827-starlink-and-starshield-back-to-required-speeds-zelensky.html",
+    "published_at": "2026-10-24T14:15:00+00:00",
+    "title": "Starlink and Starshield back to required speeds – Zelensky",
+    "text": "Ukrainian President Volodymyr Zelensky said Starlink and Starshield had resumed operating at the speeds available before the restrictions were introduced. This is important for frontline logistics and protecting Ukraine against jet-powered Shahed drones."
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2207295",
+    "published_at": "2026-10-24T14:08:13+00:00",
+    "title": "Zelensky using Ukraine conflict for hype — Mendel",
+    "text": "Zelensky’s former spokeswoman noted, that whenever Vladimir Zelensky speaks publicly or gives numerous interviews, he always talks about himself"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-economy/4177821-ukraine-begins-process-of-joining-oecd-nuclear-energy-agency-shmyhal.html",
+    "published_at": "2026-10-24T13:53:00+00:00",
+    "title": "Ukraine begins process of joining OECD Nuclear Energy Agency – Shmyhal",
+    "text": "The Steering Committee of the Organization for Economic Cooperation and Development's Nuclear Energy Agency (NEA) has supported the launch of the process for Ukraine to join the agency."
    }
   ],
   "yemen": [
    {
-    "source_id": "src_tg_abualiexpress",
-    "url": "https://t.me/abualiexpress/131755",
-    "published_at": "2026-10-12T05:34:51+00:00",
-    "title": "המצור האווירי החות'י: החות'ים משביתים את שדות התעופה של סעודיה רשות התעופה הסעודית הודעה כי בתקיפה החות'ית הנוספת אתמול ",
-    "text": "המצור האווירי החות'י: החות'ים משביתים את שדות התעופה של סעודיה רשות התעופה הסעודית הודעה כי בתקיפה החות'ית הנוספת אתמול על שדה\"ת הבינ\"ל בריאד נהרג אזרח פקיסטני ונפצעו עוד 11 איש. זאת אחרי שביממה שקדמה לכך נהרגו 12 איש ו 309 נפצעו בתקיפה דומה על אותו שדה.…"
-   },
-   {
-    "source_id": "src_newarab",
-    "url": "https://www.newarab.com/analysis/can-turkey-and-pakistan-defend-saudi-arabia-houthis",
-    "published_at": "2026-10-12T12:46:37+00:00",
-    "title": "Can Turkey and Pakistan defend Saudi Arabia from the Houthis?",
-    "text": "Turkey and Pakistan's promise of rapid military support for Saudi Arabia faces a more urgent test after weekend attacks on Riyadh’s international airport killed 12 people and forced its closure. Turning that commitment into effective protection will depend on what its partners can spare, how their forces operate alongside Saudi units and how far Ankara and Islamabad are willing to enter the conflict . At an emergency meeting in Riyadh on 5 October, the three countries pledged to implement their collective defence commitments and rapidly deploy agreed forces and capabilities to Saudi Arabia, subject to their national legislation. The decision marked a significant step for the Mecca Joint Defence Agreement they signed in August, but left troop numbers, equipment, missions, and deployment schedules publicly unspecified. Their contributions also begin from different positions. Pakistan already has an established military presence in the kingdom and has reportedly supplied weapons and advisers to Yemeni government forces. Turkey is considering additional defensive assistance while explicitly ruling out offensive operations abroad under the pact. The immediate test is whether these commitments can address Saudi vulnerabilities quickly enough to matter - and whether protecting the kingdom can remain separate from supporting its campaign in Yemen. What Riyadh needs Saudi Arabia’s requirement extends beyond additional troops. In September, drones struck the East-West Pipeline south of Medina , causing injuries and damage and prompting a precautionary shutdown of the route carrying crude to Red Sea export terminals. Riyadh said the drones originated in Iraq, but no group claimed responsibility, and the Islamic Resistance in Iraq denied involvement. Earlier attacks on Eastern Prov"
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48890",
+    "published_at": "2026-10-24T15:13:06+00:00",
+    "title": "קבוצת נשים חמושות במחוז תעז שבתימן הכריזה על נכונותה להילחם בחות'ים לצד הכוחות הנאמנים לממשלת תימן. ״אין לנו ברירה אלא ל",
+    "text": "קבוצת נשים חמושות במחוז תעז שבתימן הכריזה על נכונותה להילחם בחות'ים לצד הכוחות הנאמנים לממשלת תימן. ״אין לנו ברירה אלא לנצח או למות כשהידים. או שנחיה כבני חורין, או שנמות כשהידים בראש מורם״, הצהירה אחת הנשים. ״לעולם לא ניכנע לשעבוד ולא נרים ידיים״, הוסיפה, ופנתה ללוחמים בכמה מחזיתות הלחימה במחוז תעז: ״גם אם כל האנשים ינטשו אתכם — אנחנו, הנשים שלכם, נעמוד לצדכם״."
    },
    {
     "source_id": "src_saba_aden",
-    "url": "https://www.sabanew.net/viewstory/153846",
-    "published_at": "2026-10-12T12:41:10+00:00",
-    "title": "وزارة الداخلية تعلن ضبط خلايا حوثية إرهابية في عدن ولحج وأبين",
+    "url": "https://www.sabanew.net/viewstory/154557",
+    "published_at": "2026-10-24T15:57:09+00:00",
+    "title": "مقتل وإصابة 237 مدنياً جراء انتهاكات مليشيات الحوثي في تعز منذ أغسطس الماضي",
+    "text": ""
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154555",
+    "published_at": "2026-10-24T15:51:08+00:00",
+    "title": "محافظ شبوة يوجّه بصرف أراضٍ لأسر شهداء الجريمة الحوثية بحق مستجدي الامن",
     "text": ""
    },
    {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/who-are-yemens-houthis-and-what-do-they-want",
-    "published_at": "2026-10-12T12:28:09+00:00",
-    "title": "Who are Yemen's Houthis and what do they want?",
-    "text": "Who are Yemen's Houthis and what do they want? Submitted by MEE staff on Mon, 10/12/2026 - 09:45 Yemen's war has reignited, pulling in Saudi Arabia's allies and threatening one of the world's most important shipping lanes Supporters of Ansar Allah hold up a portrait of the group's leader, Abdul Malik al-Houthi, during a protest against the Saudi intervention in Yemen in Sanaa on 18 September 2026 (AFP) Off A strike on King Khalid International Airport in Riyadh on Saturday killed 13 people and wounded 309, in the deadliest attack on Saudi soil in more than a decade. Another strike on the airport on Sunday killed one more person. The Saudi -led coalition blamed Yemen 's Houthis and called the attack a war crime. In a statement on Sunday, Houthi military spokesman Yahya Saree said the group had targeted the airport \"in three stages\" since Friday evening, closing it completely, and warned that Saudi airports were \"unsafe\", except those serving Mecca and Medina. The attack capped a summer of escalation. A UN-backed truce that had largely frozen Yemen's war since 2022 broke down in July after Saudi Arabia bombed Sanaa airport, and the Houthis then declared a maritime blockade on the kingdom. In September, the Sanaa-based group seized the Red Sea port of Mokha and pushed towards the Bab al-Mandab strait . Saudi-backed government forces launched a counter-offensive in early October, and the UN special envoy has warned that Yemen has returned to full-scale war . Heavy clashes are continuing around the strategically important city of Taiz, which sits above the Red Sea coast. The renewed fighting has displaced 130,000 people . Who are the Houthis? Officially known as Ansar Allah, or \"helpers of God\", the movement emerged in Yemen's far north in the 1990s around the cleric Hussein"
-   },
-   {
-    "source_id": "src_bbc",
-    "url": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
-    "published_at": "2026-10-12T12:15:01+00:00",
-    "title": "Who are the Houthis, and why are they so hard to fight?",
-    "text": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand."
-   },
-   {
-    "source_id": "src_guardian",
-    "url": "https://www.theguardian.com/world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
-    "published_at": "2026-10-12T11:49:34+00:00",
-    "title": "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport",
-    "text": "Energy minister says ‘fear has no place in the Saudi lexicon’ as paramilitary group again breaches stretched defences Saudi Arabia was forced to extend the suspension of all flights to and from its main international airport in Riyadh on Monday after a further round of Houthi missile attacks caused more damage and left one dead. The Gulf nation said it was taking the step after Houthi missiles killed 13 people on Saturday and left more than 300 injured. Saudi state TV broadcast CCTV footage that showed passengers deluged in smoke and falling masonry as they queued at the airport terminal to board a plane just as the Houthi missile struck. Continue reading..."
-   },
-   {
-    "source_id": "src_aljazeera",
-    "url": "https://www.aljazeera.com/news/2026/10/12/giants-brigades-leads-southern-yemen-fightback-against-the-houthis?traffic_source=rss",
-    "published_at": "2026-10-12T11:30:30+00:00",
-    "title": "Giants Brigades lead southern Yemen fightback against the Houthis",
-    "text": "Yemen's Southern Giants Brigades have emerged as one of the leading forces against the Houthis."
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-updates-gulf-middle-east-travel-advisories-over-threat-houthi",
+    "published_at": "2026-10-24T15:36:42+00:00",
+    "title": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression'",
+    "text": "US updates Gulf, Middle East travel advisories over threat of Houthi 'aggression' The United States updated travel advisories for countries across the Gulf and the wider Middle East, citing what it described as the threat of increased Iran-aligned Houthi \"regional aggression\", according to security alerts issued by US missions. The security alerts cover Saudi Arabia, Qatar, the United Arab Emirates, Iraq, Lebanon and Israel. The Department of State has updated its Travel Advisories for Americans in the Middle East to reflect the threat of increased Iranian-supported Houthi regional aggression. Review the full text of the updated Travel Advisories at https://t.co/XzfZgIw9CL https://t.co/WRBhPjc9Ky — TravelGov (@TravelGov) October 24, 2026"
    },
    {
     "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/except-mecca-and-medina-chaos-across-saudi-airports-houthis-claim-riyadh-strike-threaten-more",
-    "published_at": "2026-10-12T11:27:56+00:00",
-    "title": "'Except Mecca and Medina': Chaos across Saudi airports as Houthis claim Riyadh strikes",
-    "text": "'Except Mecca and Medina': Chaos across Saudi airports as Houthis claim Riyadh strikes Submitted by MEE staff on Mon, 10/12/2026 - 10:38 Riyadh and Dammam airports were reported closed in a FlightRadar24 update, while Jeddah faced widespread cancellations and delays A CCTV screengrab shows the moment King Khalid International Airport in Riyadh was hit in a Houthi strike, 10 October 2026 (Saudi Media Ministry/AFP) Off Terminals across Saudi Arabia were left in chaos on Monday after repeated attacks on Riyadh’s King Khalid International Airport and warnings issued by Yemen’s Houthi group. Several airlines halted operations and over a third of all planned flights in the country were cancelled. Approximately 60 percent of flights set to depart from Riyadh on Monday were scheduled to be cancelled, while 99.7 percent of the airport’s flights were cancelled on Sunday, according to aviation analytics firm Cirium, cited by Reuters. On Sunday, Flightradar24 reported that Riyadh and Dammam airports were closed. Jeddah airport cancelled 156 flights, constituting 20 percent of all scheduled flights, while 374 flights, or 49 percent, were delayed. Saturday’s attack on King Khalid International Airport in Riyadh killed 12 people and injured 309, according to Saudi Arabia’s General Authority of Civil Aviation. The death toll subsequently rose to 13 after an Indian national who had been injured in the strike died, according to Reuters. A separate attack on Sunday killed a Pakistani resident and injured 11 others, according to the Saudi authorities. Airlines have also suspended services to the Saudi capital. Reuters reported that Lufthansa cancelled flights to Riyadh until 16 October, while Air France-KLM extended its suspension through the end of October. The US Federal Aviation Adminis"
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-claim-attack-aden-naval-base-military-camp",
+    "published_at": "2026-10-24T15:05:40+00:00",
+    "title": "Yemen's Houthis claim attack on Aden naval base, military camp",
+    "text": "Yemen's Houthis claim attack on Aden naval base, military camp Yemen's Houthis claimed an attack on Saturday on a naval base and a military camp in Aden, the interim seat of the internationally recognised government, after blasts were heard there. \"Our armed forced targeted Saudi enemy concentrations at the so-called Al-Nasr camp and the naval base in Aden,\" Houthi military spokesman Yahya Saree said, adding that the sites were overseen by Saudi forces. Reporting by AFP"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154553",
+    "published_at": "2026-10-24T14:56:30+00:00",
+    "title": "وزارة الداخلية: مليشيات الحوثي تستهدف مقري خفر السواحل في عدن بثلاثة صواريخ باليستية",
+    "text": ""
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strike-kills-five-members-same-family-hodeida-war",
+    "published_at": "2026-10-24T14:42:11+00:00",
+    "title": "Houthis say Saudi strike kills five members of same family in Hodeida",
+    "text": "Houthis say Saudi strike kills five members of same family in Hodeida Yemen's Iran-backed Houthis on Saturday said a Saudi strike on Hodeida killed five members of the same family, as both sides carry out attacks. \"Five people, the head of the family, two of his children and his two wives, have been martyred and his daughter wounded as a result of a Saudi enemy air strike on the home of citizen Abdulwahed al-Wasabi in the Al-Tuhayta district\" of Hodeida, the Houthis' Al-Masirah TV channel reported. Reporting by AFP"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-yemens-city-aden",
+    "published_at": "2026-10-24T14:30:49+00:00",
+    "title": "Explosions heard in Yemen's city of Aden",
+    "text": "Explosions heard in Yemen's city of Aden Explosions were heard on Saturday in Aden, a city in the south of the country that serves as the seat of the Saudi-backed Yemeni government, according to a police source and an AFP journalist. A police official in Aden told AFP that three explosions had been heard in the city, while an AFP correspondent also reported blasts."
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154552",
+    "published_at": "2026-10-24T14:04:06+00:00",
+    "title": "استشهاد مواطن متأثراً بإصابته جراء قصف حوثي على حي سكني في تعز",
+    "text": ""
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154549",
+    "published_at": "2026-10-24T13:27:14+00:00",
+    "title": "وقفة احتجاجية في لاهاي تطالب بالضغط لإنهاء حصار تعز ومحاسبة المسؤولين عن الانتهاكات الحوثية",
+    "text": ""
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-killed-saudi-air-strike-sanaa-says-houthi-linked-media",
+    "published_at": "2026-10-24T11:47:27+00:00",
+    "title": "Three killed in Saudi air strike on Sanaa, says Houthi-linked media",
+    "text": "Three killed in Saudi air strike on Sanaa, says Houthi-linked media A Saudi airstrike on the Yemeni capital Sanaa killed three people on Saturday and wounded several others, according to Houthi-backed media. Al-Masirah station said \"the Saudi enemy targeted a house in Asr\", in the west of the capital. It added that the death toll was preliminary."
    },
    {
     "source_id": "src_newarab",
-    "url": "https://www.newarab.com/analysis/which-airlines-have-cancelled-saudi-flights-amid-houthi-attacks",
-    "published_at": "2026-10-12T11:26:34+00:00",
-    "title": "Which airlines have cancelled Saudi flights amid Houthi attacks?",
-    "text": "Major international airlines have suspended flights to Saudi Arabia following escalating Houthi attacks and threats against airports across the kingdom, leaving passengers facing cancellations, delays and diversions. The disruption follows a series of attacks on Riyadh's main airport over the weekend that killed at least 12 people and injured more than 300, forcing authorities to temporarily close King Khalid International Airport. The Houthis have warned that Saudi airports remain potential targets, raising concerns about further disruption to international air travel. Some airlines have suspended services until mid-October, while others have extended cancellations until the end of the month. Here's what to know about the flight cancellations, affected airports and travel warnings. Which airlines have suspended flights to Saudi Arabia? Several major international airlines have suspended flights to Riyadh, while others have cancelled selected services to Jeddah and Dammam. According to Reuters , Lufthansa Group has suspended flights to Riyadh until 16 October, while Air France-KLM has halted services to the Saudi capital until the end of the month. Other airlines have announced the following cancellations: Flydubai: All flights to and from Riyadh cancelled through 14 October. Air India: Riyadh services suspended until 15 October. Air India Express: Riyadh flights suspended until 14 October. SriLankan Airlines: Riyadh services suspended until 18 October. Etihad Airways: Selected flights between Abu Dhabi and Riyadh, Jeddah and Dammam cancelled between 11 and 13 October. Emirates: Flights between Dubai and Riyadh, Jeddah and Dammam affected by cancellations on Monday, 12 October. Air Arabia: Cancellations and schedule changes affecting Saudi routes. Qatar Airways and Kuwa"
-   },
-   {
-    "source_id": "src_aljazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/saudi-arabia-vows-resilience-as-houthi-strikes-hit-riyadh-airport?traffic_source=rss",
-    "published_at": "2026-10-12T11:17:02+00:00",
-    "title": "Saudi Arabia vows resilience as Houthi strikes hit Riyadh airport",
-    "text": "New footage shows a Houthi strike on Riyadh’s airport as Saudi Arabia reaffirms its resilience."
-   },
-   {
-    "source_id": "src_bbc",
-    "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-    "published_at": "2026-10-12T10:28:47+00:00",
-    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "text": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation."
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-says-its-dealing-threat-drones-and-missiles",
-    "published_at": "2026-10-12T10:02:37+00:00",
-    "title": "Riyadh says its 'dealing with threat of drones and missiles'",
-    "text": "Riyadh says its 'dealing with threat of drones and missiles' The Saudi-led coalition said on Monday it was dealing with drones and missiles heading towards the kingdom, as hostilities with Yemen's Houthis persist. Reporting by Reuters"
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/news/uk-advises-against-travel-jeddah-or-use-any-saudi-airport-except-medina",
-    "published_at": "2026-10-12T09:37:38+00:00",
-    "title": "UK advises against using any Saudi airport except Medina",
-    "text": "UK advises against using any Saudi airport except Medina Submitted by Imran Mulla on Mon, 10/12/2026 - 09:12 The UK has further warned British nationals not to try and leave Saudi Arabia via airports in the country An air traffic control tower is seen at King Khalid International Airport in Riyadh on 19 September 2026 (AFP) Off The British government has advised its citizens against all but essential travel to parts of Saudi Arabia , including Jeddah and Dammam, and to all airports in the country except Medina International Airport. The UK has further warned British nationals not to try and leave Saudi Arabia via airports in the country. This comes after a fresh attack on a passenger terminal at Riyadh’s King Khalid International Airport on Sunday, which killed at least one person and wounded 11. Saturday's attack on the airport killed at least 13 people and wounded more than 300 - making it the deadliest strike on a Gulf country since the US-Israeli war on Iran began on 28 February. Saudi Arabia's General Authority of Civil Aviation said in a statement that four Saudi citizens, two Bangladeshis , one American , one Egyptian , one Jordanian , one Syrian , one Palestinian and one Sudanese were killed in the attack. It was the third attack on the airport in a week, following earlier strikes that killed four people and damaged a Saudi commercial aircraft. The British Foreign Office updated its official guidance on Sunday to advise UK nationals against \"all but essential travel to all airports within Saudi Arabia except for Medina International Airport\", as well as \"all but essential travel to Aseer province, Riyadh province, Najran province, Jizan province and the cities of Taif, Jeddah and Dammam\". Houthi forces warn against use of Saudi airports following Riyadh attack R"
-   },
-   {
-    "source_id": "src_mee",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/top-oil-executives-dropped-event-schedule-after-riyadh-attacks",
-    "published_at": "2026-10-12T09:35:44+00:00",
-    "title": "Top oil executives dropped from event schedule after Riyadh attacks",
-    "text": "Top oil executives dropped from event schedule after Riyadh attacks Several oil major executives were dropped from the agenda of the WPC Energy Congress in Riyadh, Reuters reports. According to the report, chief executives of ExxonMobil, TotalEnergies, Shell and BP were slated to appear at the c0nference but were dropped from the schedule which organisers released early on Monday. Riyadh has pressed on with the event despite a series of deadly attacks on the capital claimed by Yemen's Houthis. “To everyone who travelled to Riyadh, thank you,” said Saudi Energy Minister Prince Abdulaziz bin Salman, who opened Monday’s session of the gathering for energy policy and industry. “You know this country is safe and that we hold your protection at whole heart…Our gathering here does not mean the risk is gone.” Reporting by Reuters"
+    "url": "https://www.newarab.com/news/iran-vows-block-us-warships-gulf-amid-trump-threats",
+    "published_at": "2026-10-24T11:31:24+00:00",
+    "title": "Iran vows to block US warships from Gulf amid Trump threats",
+    "text": "Iran said on Saturday that US military ships would never be allowed to enter the Gulf \"under any circumstances\" and that President Donald Trump would \"take that dream to his grave\". The remarks came amid mounting US and Israeli threats of renewed attacks on Iran, as US ambassador to Turkey Tom Barrack warned that Washington could \"absolutely\" strike Iran as soon as this weakened. \"We will not allow US military ships in the Persian Gulf under any circumstances and at any time,\" said Iran's armed forces chief of staff Ali Abdollahi, according to Iranian state television. \"The US president must dream of seeing the armed forces enter the Persian Gulf. He will take that dream to his grave.\" Iranian forces have restricted traffic through the Strait of Hormuz , a vital energy conduit and gateway to the Gulf, since the war with the United States broke out on 28 February. In retaliation, the United States has imposed a counterblockade on Iranian ports and ships. Tehran has required vessels to seek permission to transit, and repeatedly targeted ships attempting to pass through Hormuz via a southern route close to the Omani coast. According to the Guards, several tankers attempting to transit Hormuz through the route Tehran considers \"illegal\" were hit by mines in recent days. On Friday, the Guards said two supertankers carrying more than 4.5 million barrels of crude oil have been abandoned at sea after hitting mines in the strategic waterway. \"Their engine rooms were disabled by an explosion and a fierce fire,\" the Guards said in a statement carried by their Sepah News website. In peacetime, around a fifth of the world's oil and gas passed through Hormuz. US spy chief warns Iran has ramped up efforts to target Americans Iran has \"substantially increased\" its efforts to target Ame"
    },
    {
     "source_id": "src_newarab",
-    "url": "https://www.newarab.com/news/alvarez-vs-mbilli-fight-will-go-ahead-riyadh-despite-attacks",
-    "published_at": "2026-10-12T09:24:30+00:00",
-    "title": "Alvarez vs M'billi fight will go ahead in Riyadh despite attacks",
-    "text": "Saul \"Canelo\" Alvarez will fight in his world title bout against Christian M'billi in Saudi Arabia this month, promoter Turki Al-Sheikh said after a strike on Riyadh's international airport killed at least 12 people and wounded more than 300. Yemen's Iran-aligned Houthi movement claimed responsibility for Saturday's attack, the deadliest in the kingdom in more than a decade. On Sunday, one more person was killed and nearly a dozen hurt in another attack on the international airport in Riyadh, where Alvarez and WBC super-middleweight champion M'billi are set to clash on 31 October. \"Canelo reached out and told me he'll still fight in Riyadh this October, no matter what happens. He fears nothing,\" said Al-Sheikh, chairman of Saudi Arabia 's General Entertainment Authority, in a post on social media on Sunday. Alvarez's representatives did not immediately respond to a request for comment outside business hours in Mexico. The Mexican boxer, a former two-time undisputed super-middleweight champion, has not fought since he was beaten by American Terence Crawford in September 2025."
+    "url": "https://www.newarab.com/news/azmi-bishara-trump-has-backed-netanyahu-his-iran-war-partner",
+    "published_at": "2026-10-24T10:59:27+00:00",
+    "title": "Azmi Bishara: Trump has backed Netanyahu as his Iran war partner",
+    "text": "Dr. Azmi Bishara has said US President Donald Trump is backing Benjamin Netanyahu in Israel's election because the two are partners in the war with Iran and share a wider regional agenda. Speaking to Al-Araby TV ahead of Israel's 27 October vote, the Arab thinker said Trump wanted Netanyahu to remain in power in order to \"complete the mission\" they had begun together. He argued that there was little fundamental difference between Israel's main governing and opposition blocs on Palestinian statehood or the country's broader regional posture. Bishara said much of the campaign instead revolved around security, the failures surrounding the 7 October 2023 attacks, military conscription and who could project greater military strength. Israel's election is currently too close to produce an obvious governing majority, with recent polling placing Netanyahu's bloc and Gadi Eisenkot's opposition coalition roughly level . Arab turnout 'critical' Bishara said Palestinian citizens of Israel nevertheless had a major stake in the election. He argued that growing efforts to delegitimise Arab political participation made turnout particularly important and described the vote as a decisive moment for Palestinian citizens. Bishara said higher participation could help block another government led by Netanyahu alongside far-right ministers Itamar Ben-Gvir and Bezalel Smotrich. He suggested Eisenkot's Yashar party could finish first but still struggle to form a government without support from Arab parties. That possibility has become central to the campaign, with Palestinian parties potentially holding the balance of power if neither bloc reaches the 61 seats needed for a Knesset majority. Bishara also said Washington favoured the idea of a unity government bringing Netanyahu and Eisenkot toge"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+    "published_at": "2026-10-24T10:49:29+00:00",
+    "title": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills",
+    "text": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills Submitted by MEE staff on Sat, 10/24/2026 - 10:25 Saudi authorities have lifted recent security alerts, while Washington signals the possibility of military action against Tehran A man takes a picture of a billboard featuring Pakistan's Army Chief General Syed Asim Munir (C), Naval Chief Admiral Naveed Ashraf (R) and Air Chief Marshal Zaheer Ahmed Babar Sidhu in Peshawar, 15 May 2025 (Abdul Majeed/AFP) Off Pakistan on Friday announced that it has ratified a joint defence pact with Turkey and Saudi Arabia as the kingdom faces renewed security threats and is looking for allies to help it against Yemen's Houthis. Pakistan’s Foreign Office spokesperson, Sajjad Haider Khan, said that Islamabad and Riyadh have completed their ratification procedures for the Mecca Joint Defence Agreement, signed by the three countries on 7 August. “Matters related to the agreement, its ratification, and operationalisation remain under discussion by the three parties,” Khan said, according to a transcript published by Pakistan’s Foreign Office. Turkey is still completing its domestic approval process as the agreement has not yet completed ratification by all three signatories. The pact was signed in Mecca by Turkish President Recep Tayyip Erdogan, Pakistani Prime Minister Shehbaz Sharif and Saudi Arabia's Crown Prince Mohammed bin Salman . It provides for collective defence in the event of an external armed attack against any of the three countries, with the nature and level of assistance to be determined according to the circumstances. The agreement has moved towards implementation following a 5 October meeting of the countries’ Strategic Political and Defence Committee. Full text of the Mecca defence p"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154537",
+    "published_at": "2026-10-24T09:22:35+00:00",
+    "title": "التحالف:‏ اعتراض وتدمير صاروخين باليستيين أطلقتهما الميليشيات الحوثية الإرهابية باتجاه السعودية",
+    "text": ""
    }
   ]
  }
