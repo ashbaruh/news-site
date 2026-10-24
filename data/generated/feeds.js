@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-24T15:17:11+00:00",
-  "fetched_at": "2026-10-24T15:17:11+00:00"
+  "checked_at": "2026-10-24T16:17:18+00:00",
+  "fetched_at": "2026-10-24T16:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T15:17:28+00:00",
-  "fetched_at": "2026-10-24T15:17:28+00:00"
+  "checked_at": "2026-10-24T16:17:35+00:00",
+  "fetched_at": "2026-10-24T16:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T15:17:28+00:00",
-  "fetched_at": "2026-10-24T15:17:28+00:00"
+  "checked_at": "2026-10-24T16:17:35+00:00",
+  "fetched_at": "2026-10-24T16:17:35+00:00"
  },
- "generated_at": "2026-10-24T15:17:28+00:00",
+ "generated_at": "2026-10-24T16:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "איראן \"הגבירה משמעותית\" מאמצים לפגיעה בבכירים אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560615",
-     "date": "2026-10-24T14:24:00+00:00"
+     "date": "2026-10-24T15:29:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T15:17:12+00:00",
-  "fetched_at": "2026-10-24T15:17:12+00:00"
+  "checked_at": "2026-10-24T16:17:20+00:00",
+  "fetched_at": "2026-10-24T16:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T15:17:13+00:00",
-  "fetched_at": "2026-10-24T15:17:13+00:00"
+  "checked_at": "2026-10-24T16:17:20+00:00",
+  "fetched_at": "2026-10-24T16:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2943,7 +2943,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-24T15:17:19+00:00",
+  "checked_at": "2026-10-24T16:17:27+00:00",
   "fetched_at": "2026-10-24T14:35:37+00:00"
  },
  "ligat_haal": {
@@ -3123,8 +3123,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T15:17:19+00:00",
-  "fetched_at": "2026-10-24T15:17:19+00:00"
+  "checked_at": "2026-10-24T16:17:27+00:00",
+  "fetched_at": "2026-10-24T16:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -3155,14 +3155,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 905,
+     "likes": 906,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 205,
+     "likes": 206,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3176,7 +3176,7 @@ window.DB.generated = {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 153,
+     "likes": 155,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
@@ -3197,7 +3197,7 @@ window.DB.generated = {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 81,
+     "likes": 83,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
@@ -3224,28 +3224,38 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T15:17:27+00:00",
-  "fetched_at": "2026-10-24T15:17:27+00:00"
+  "checked_at": "2026-10-24T16:17:35+00:00",
+  "fetched_at": "2026-10-24T16:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי, סולומון ופרץ בהרכב: ווסטהאם - סאות'המפטון 3:1 (מחצית 2)",
-     "link": "https://sports.walla.co.il/item/3873514",
-     "date": "2026-10-24T15:07:00+00:00",
+     "title": "\"הפנינה של לה מאסיה\": \"סביר מאוד שאוריין גורן יהיה בסגל לקלאסיקו\"",
+     "link": "https://sports.walla.co.il/item/3873541",
+     "date": "2026-10-24T16:12:00+00:00",
      "source": "וואלה",
      "players": [
-      "מנור סולומון"
+      "אוריין גורן"
      ]
     },
     {
-     "title": "דאבו ובילו בהרכב נתניה, קלטינס וגאנם בטבריה",
-     "link": "https://www.one.co.il/Article/536903.html?ref=rss",
-     "date": "2026-10-24T14:30:00+00:00",
-     "source": "ONE",
+     "title": "כולל הצלת ענק בתוספת הזמן: דניאל פרץ ניצח את מנור סולומון",
+     "link": "https://sports.walla.co.il/item/3873514",
+     "date": "2026-10-24T15:55:00+00:00",
+     "source": "וואלה",
      "players": [
-      "קייס גאנם"
+      "מנור סולומון",
+      "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "בארה\"ב מזהים: אבדיה \"מככב\", מוראנט ולילארד \"מבינים את מקומם\"",
+     "link": "https://sports.walla.co.il/item/3873538",
+     "date": "2026-10-24T15:29:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     },
     {
@@ -3255,6 +3265,15 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "סולומון לא כבש מול פרץ, 2:3 לסאות'המפטון",
+     "link": "https://www.one.co.il/Article/536910.html?ref=rss",
+     "date": "2026-10-24T14:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
      ]
     },
     {
@@ -3346,24 +3365,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אבדיה להט עם 26 נקודות, פורטלנד גברה על הקינגס",
-     "link": "https://www.one.co.il/Article/536863.html?ref=rss",
-     "date": "2026-10-24T04:32:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "מאמן אלצ'ה החמיא: רוי רביבו משלים שחקנים",
-     "link": "https://www.one.co.il/Article/536865.html?ref=rss",
-     "date": "2026-10-24T04:10:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     }
    ],
@@ -3567,13 +3568,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-24T15:17:22+00:00",
-  "fetched_at": "2026-10-24T15:17:22+00:00"
+  "checked_at": "2026-10-24T16:17:30+00:00",
+  "fetched_at": "2026-10-24T16:17:30+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "בעקבות הפיגוע בצומת יהודה: צה\"ל החל בפינוי אוכלוסייה מסיבה והריסת מבנים בלב חברון",
+    "title": "בשל הפיגוע בצומת יהודה: צה\"ל החל בפינוי אוכלוסייה והריסת מבנים בחברון",
     "link": "https://www.walla.co.il/news/military/383958717",
     "date": "2026-10-24T15:03:19+00:00"
    },
@@ -3599,91 +3600,91 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T15:17:22+00:00",
-  "fetched_at": "2026-10-24T15:17:22+00:00"
+  "checked_at": "2026-10-24T16:17:30+00:00",
+  "fetched_at": "2026-10-24T16:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-24T15:00:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T16:14:00+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-24T15:00:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-24T09:32:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-10-24T05:52:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T15:29:00+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-24T15:07:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T16:12:00+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-24T15:08:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T16:10:00+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-24T15:10:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T16:11:00+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-24T15:03:19+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-24T11:25:04+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "newest": "2026-10-24T15:40:05+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-24T15:17:28+00:00",
+    "seen_at": "2026-10-24T16:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-24T15:17:28+00:00"
+  "checked_at": "2026-10-24T16:17:35+00:00"
  }
 };
