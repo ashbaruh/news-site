@@ -1,9 +1,11 @@
 /* ============================================================
    lifestyle-live.js — רכב + תיירות, מפידי RSS של וואלה
    ------------------------------------------------------------
-   רכב           ← "מבחני רכב" (כולו רלוונטי לשוק הישראלי)
-   יעדים         ← "טיולים בעולם"
-   חדשות תעופה   ← "חדשות תיירות", מסונן: מילת תעופה *וגם* קשר לישראל
+   רכב           ← "חדשות רכב" + "מבחני רכב", החדש ביותר קודם
+                   (מבחני רכב לבד נתקע ב-27/09/2026 — נוסף מקור שני, 24/10/2026)
+   יעדים         ← "טיולים בעולם" + "כל כתבות התיירות", מסונן לכתבות יעד
+   חדשות תעופה   ← "חדשות תיירות" + "כל כתבות התיירות", מסונן: מילת תעופה *וגם* קשר לישראל
+                   (שני הפידים הייעודיים נתקעו בספטמבר-אוקטובר 2026 — לכן נוסף הפיד הכללי)
    מבצעים חריגים ← אין עדיין מקור. נאמר במפורש באתר.
 
    מוצג: כותרת מקורית + תאריך + קישור. בלי תקצירים ובלי תמונות.
@@ -16,8 +18,10 @@
 
   var FEEDS = {
     cars:         'https://rss.walla.co.il/feed/4701',
+    car_news:     'https://rss.walla.co.il/feed/4705',
     destinations: 'https://rss.walla.co.il/feed/779',
     travel_news:  'https://rss.walla.co.il/feed/2500',
+    travel_all:   'https://rss.walla.co.il/feed/2501',
     tech_reviews: 'https://rss.walla.co.il/feed/4001',
     tech_news:    'https://rss.walla.co.il/feed/4000'
   };
@@ -39,6 +43,23 @@
   function isAviation(title) {
     if (NOISE.test(title)) return false;
     return ISRAELI_ROUTES.test(title) || (AVIATION.test(title) && ISRAEL_LINK.test(title));
+  }
+
+  /* כתבת יעד מתוך הפיד הכללי של תיירות (שיש בו גם חדשות כלליות) */
+  var DESTINATION = /יעד|טיול|לטוס|העיר|מסלול|מלון|חופש|אטרקצי|ביקור|נופש|מסביב לעולם/;
+
+  /* איחוד כמה רשימות: בלי כפילויות, החדש ביותר קודם */
+  function merged(lists) {
+    var seen = {}, all = [];
+    lists.forEach(function (l) {
+      (l || []).forEach(function (i) {
+        if (!i || !i.link || seen[i.link]) return;
+        seen[i.link] = true;
+        all.push(i);
+      });
+    });
+    all.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    return all;
   }
 
   function recent(items, days) {
@@ -69,10 +90,12 @@
       if (failed.length === keys.length) throw new Error('כל הפידים נכשלו');
 
       var out = {
-        cars: data.cars ? data.cars.slice(0, 4) : null,
-        destinations: data.destinations ? data.destinations.slice(0, 3) : null,
-        aviation: data.travel_news
-          ? recent(data.travel_news.filter(function (i) { return isAviation(i.title); }), 21).slice(0, 3)
+        cars: (data.cars || data.car_news) ? merged([data.car_news, data.cars]).slice(0, 4) : null,
+        destinations: (data.destinations || data.travel_all)
+          ? merged([data.destinations, (data.travel_all || []).filter(function (i) { return DESTINATION.test(i.title); })]).slice(0, 3)
+          : null,
+        aviation: (data.travel_news || data.travel_all)
+          ? recent(merged([data.travel_news, data.travel_all]).filter(function (i) { return isAviation(i.title); }), 21).slice(0, 3)
           : null,
         av: (data.tech_reviews || data.tech_news) ? avItems(data) : null,
         failed: failed

@@ -1292,7 +1292,7 @@
 
     var ld = (e && e.data) || {};
     var liveBody = !liveOk ? '' :
-      section('רכב — מבחנים וסקירות', newsList(ld.cars)) +
+      section('רכב — חדשות ומבחנים', newsList(ld.cars)) +
       section('תיירות — יעדים', newsList(ld.destinations)) +
       section('תיירות — חדשות תעופה מ/אל ישראל', newsList(ld.aviation));
     var liveHtml = liveBody ? liveBody + srcLine(st, e && e.data_time, src.attribution, e && e.ok === false) : '';
