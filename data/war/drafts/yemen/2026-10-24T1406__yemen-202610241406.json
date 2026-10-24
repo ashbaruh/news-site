@@ -1,0 +1,368 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3682b99027c5",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-24T14:06:29+00:00",
+  "window": {
+   "from": "2026-10-23T14:06:29+00:00",
+   "to": "2026-10-24T14:06:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610241406"
+  },
+  "summary": "הלחימה בין החות'ים לקואליציה בהובלת סעודיה מסלימה בשני מוקדים מקבילים: שיגור טילים בליסטיים לעבר ערי סעודיה לצד תקיפות אוויריות בצנעא, והידוק המצור וההפגזות של החות'ים סביב העיר תעז. סעודיה מקדמת הסכמי הגנה בינלאומיים לחיזוק ביטחונה, בעוד ארצות הברית מפנה אנשי צוות דיפלומטיים מהממלכה עקב החשש מהאיומים החות'יים.",
+  "fronts": [
+   {
+    "name": "חזית תימן - סעודיה",
+    "status": "הסלמה בשיגור טילים בליסטיים לעבר ריאד, טאיף וינבוע, מול תקיפות אוויריות של הקואליציה בצנעא"
+   },
+   {
+    "name": "חזית פנים-תימנית (תעז וחוף ים סוף)",
+    "status": "מצור חות'י מתמשך על תעז עם שיבוש קשה באספקה הומניטרית וחילופי אש"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10241406-01",
+    "title": "תקיפה אווירית סעודית בעיר צנעא",
+    "summary": "כלי טיס של הקואליציה בהובלת סעודיה פגעו במבנה מגורים באזור עסר במערב הבירה צנעא, וכתוצאה מכך נהרגו שלושה בני אדם ונפצעו נוספים.",
+    "axis": "סעודיה - צנעא",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T08:07:34+00:00",
+    "last_update_at": "2026-10-24T11:47:27+00:00",
+    "what_is_not_verified": "זהות המבנה ומספר הנפגעים המדויק מבוססים על דיווחי תקשורת המזוהה עם החות'ים וטרם אומתו ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-killed-saudi-air-strike-sanaa-says-houthi-linked-media",
+      "published_at": "2026-10-24T11:47:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-warns-us-against-attacks-saudi-forces-launch-strikes",
+      "published_at": "2026-10-24T08:07:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10241406-02",
+    "title": "יירוט טילים בליסטיים לעבר טאיף וינבוע והתרעות במערב סעודיה",
+    "summary": "הקואליציה בראשות סעודיה יירטה שני טילים בליסטיים ששוגרו על ידי החות'ים לעבר טאיף וינבוע. שירותי ההגנה האזרחית בממלכה הפעילו התרעות קצרות על סכנה אפשרית במחוזות מכה, ג'דה, טאיף וינבוע.",
+    "axis": "תימן - מערב סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T08:07:34+00:00",
+    "last_update_at": "2026-10-24T09:22:35+00:00",
+    "what_is_not_verified": "לא נמסרו פרטים עצמאיים על היקף הנזק או מיקומי נפילת שברי היירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154537",
+      "published_at": "2026-10-24T09:22:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-ballistic-missiles-fired",
+      "published_at": "2026-10-24T09:14:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-civil-defence-issues-potential-danger-warning-mecca-jeddah",
+      "published_at": "2026-10-24T08:52:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-warns-us-against-attacks-saudi-forces-launch-strikes",
+      "published_at": "2026-10-24T08:07:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טאיף, סעודיה",
+      "lat": 21.2703,
+      "lon": 40.4158
+     },
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10241406-03",
+    "title": "יירוט טיל בליסטי לעבר ריאד וכטב\"ם במזרח סעודיה",
+    "summary": "מערכות ההגנה האווירית של סעודיה יירטו טיל בליסטי ששוגר על ידי החות'ים לעבר הבירה ריאד, לאחר יירוט קודם של כלי טיס בלתי מאויש באזור המזרחי של המדינה.",
+    "axis": "תימן - ריאד",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T01:49:40+00:00",
+    "last_update_at": "2026-10-24T03:20:02+00:00",
+    "what_is_not_verified": "לא אומתו פרטי הפגיעה או היירוט מעבר להודעת דובר כוחות הקואליציה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154523",
+      "published_at": "2026-10-24T03:20:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-ballistic-missile-aimed-riyadh-destroyed",
+      "published_at": "2026-10-24T01:49:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10241406-04",
+    "title": "החרפת המצור וההפגזות של החות'ים על העיר תעז",
+    "summary": "החות'ים ממשיכים לכתר את העיר תעז ולחסום את הכביש הראשי המוביל לעדן, מה שגרם למחסור חמור במים, בדלק ובמזון לפי האו\"ם. במקביל נמסר על הרוגים ופצועים בקרב אזרחים כתוצאה מהפגזות חות'יות על שכונות מגורים.",
+    "axis": "פנים-תימן (תעז)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T18:28:09+00:00",
+    "last_update_at": "2026-10-24T14:04:06+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל והיקף ההפרות שיוחסו לחות'ים בדיווחים מקומיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154552",
+      "published_at": "2026-10-24T14:04:06+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154533",
+      "published_at": "2026-10-24T06:17:09+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154521",
+      "published_at": "2026-10-23T22:02:21+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/un-sounds-alarm-besieged-yemen-city-taiz",
+      "published_at": "2026-10-23T18:39:42+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/un-sounds-alarm-besieged-yemen-city-taiz",
+      "published_at": "2026-10-23T18:30:37+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/10/the-houthis-red-sea-power-play.php",
+      "published_at": "2026-10-23T18:28:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10241406-05",
+    "title": "פינוי דיפלומטי ואזהרות מסע אמריקאיות בשל איומי החות'ים",
+    "summary": "מחלקת המדינה האמריקאית הורתה לעובדים לא חיוניים ולמשפחותיהם לעזוב את סעודיה והוציאה אזהרות מסע אזוריות על רקע העלייה בהתקפות של החות'ים.",
+    "axis": "סעודיה - ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T20:28:11+00:00",
+    "last_update_at": "2026-10-23T22:53:08+00:00",
+    "what_is_not_verified": "האם חל שינוי מהותי ביכולות הצבאיות של החות'ים, כאשר במחלקת המדינה הבהירו שהאזהרות אינן מעידות על כך",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+      "published_at": "2026-10-23T22:53:08+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-issues-travel-advisories-across-middle-east-citing-houthi-threat",
+      "published_at": "2026-10-23T20:28:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10241406-06",
+    "title": "פקיסטן אשררה ברית הגנה עם סעודיה וטורקיה",
+    "summary": "פקיסטן השלימה את הליך האשרור של הסכם ההגנה המשותף שנחתם במכה מול סעודיה וטורקיה, על רקע התגברות האיומים הביטחוניים מצד החות'ים וחיפוש סעודיה אחר בעלות ברית.",
+    "axis": "סעודיה - פקיסטן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T10:49:29+00:00",
+    "last_update_at": "2026-10-24T10:49:29+00:00",
+    "what_is_not_verified": "המועד שבו טורקיה תשלים את הליך האשרור הפנימי שלה ואופן היישום המבצעי של ההסכם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+      "published_at": "2026-10-24T10:49:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים והפצועים הסופי בתקיפה האווירית בצנעא",
+   "מידת הנזק או נפילת רסיסים ביירוטי הטילים בטאיף, ינבוע וריאד",
+   "הטענות על ביצוע עשרים ואחת הפרות חות'יות בתעז בתוך יממה אחת"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשך הלחימה נגד הקואליציה בהובלת סעודיה",
+     "תקיפת יעדים בריאד ובמערב סעודיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ על סעודיה באמצעות ירי לעומק שטחה כדי לצמצם את מעורבותה בתימן",
+     "הכנעת מוקדי התנגדות פנימיים והשלמת ההשתלטות על נתיבי גישה מרכזיים בתעז ובחוף ים סוף"
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור של טילים וכטב\"מים לעבר מתקנים וערים בסעודיה",
+     "החרפת הלחץ הצבאי והמצור על תעז"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "יירוט וסיכול איומי הטילים והכטב\"מים המשוגרים מסביבת החות'ים",
+     "פגיעה ביעדים צבאיים של החות'ים בצנעא ובמוקדי שיגור"
+    ],
+    "inferred": [
+     "מניעת פגיעה בריכוזי אוכלוסייה ובמתקני אנרגיה חיוניים בערים כמו ריאד וינבוע",
+     "בניית קואליציית הגנה אזורית רחבה עם מדינות כמו פקיסטן וטורקיה להרתעת החות'ים"
+    ],
+    "forecast": [
+     "המשך ביצוע תקיפות מנע ותגובה אוויריות בתימן",
+     "האצת התיאום הביטחוני המשותף עם בעלות ברית במסגרת הסכמי הגנה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-issues-travel-advisories-across-middle-east-citing-houthi-threat",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694739",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/10/the-houthis-red-sea-power-play.php",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/un-sounds-alarm-besieged-yemen-city-taiz",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154521",
+    "accessed_at": "2026-10-24T14:06:29+00:00"
+   }
+  ]
+ }
+}
