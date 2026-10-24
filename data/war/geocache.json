@@ -457,6 +457,10 @@
 28.0192
 ],
 "burj qalaway, lebanon": null,
+"bushehr, iran": [
+28.9311,
+50.8458
+],
 "byala, bulgaria": [
 43.4594,
 25.7366
@@ -1176,6 +1180,10 @@
 "london, united kingdom": [
 51.5074,
 -0.1278
+],
+"lozova, ukraine": [
+48.8842,
+36.316
 ],
 "luhansk oblast, ukraine": null,
 "luhansk region, ukraine": [
@@ -1943,6 +1951,10 @@
 ],
 "tatarstan, russia": null,
 "taybe, lebanon": null,
+"taybeh, lebanon": [
+33.9579,
+36.1663
+],
 "tayr harfa, lebanon": [
 33.1337,
 35.2236
