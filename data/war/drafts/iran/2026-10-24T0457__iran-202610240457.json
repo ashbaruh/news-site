@@ -1,0 +1,448 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6bf9701d2fcc",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 3,
+   "verified": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-24T04:57:57+00:00",
+  "window": {
+   "from": "2026-10-23T04:57:57+00:00",
+   "to": "2026-10-24T04:57:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610240457"
+  },
+  "summary": "העימות הצבאי והכלכלי בין ארצות הברית וישראל לבין איראן עומד בפני סכנת החרפה, כאשר גורמי ממשל בוושינגטון מאותתים על אפשרות לחידוש תקיפות רחבות, בעוד ישראל לוחצת להקדים פעולות אלו. במקביל נרשמת פעילות עוינת מוגברת בנתיבי השיט סביב מצר הורמוז לצד תקיפות מצד שלוחות אזוריות ואיומים בפגיעה בתשתיות קריטיות ובדיפלומטים. מאמצי התיווך הבינלאומיים מתקשים להביא לפריצת דרך נוכח חילופי איומים תכופים ומבוי סתום במשא ומתן הגרעיני.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "שיא בפגיעות בכלי שיט מסחריים וסגר ימי פעיל"
+   },
+   {
+    "name": "הזירה האווירית והצבאית ארה\"ב-ישראל-איראן",
+    "status": "כוננות גבוהה ואיומים בהתחדשות מבצעי תקיפה נרחבים"
+   },
+   {
+    "name": "חזית שלוחות איראן (החות'ים בסעודיה)",
+    "status": "ירי טילים בליסטיים לעבר יעדים במפרץ ופעילות יירוט"
+   },
+   {
+    "name": "החזית המדינית והגרעינית",
+    "status": "מגעים דיפלומטיים ללא פריצת דרך וקיפאון בפיקוח על מתקני הגרעין"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10240457-01",
+    "title": "הצהרת נשיא ארה\"ב על אפשרות לפעולה צבאית נוספת נגד איראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ התייחס בעצרת בפלורידה לאפשרות של חידוש או הרחבת הפעולה הצבאית מול איראן, במקביל למחירי הנפט הגבוהים והבחירות הקרבות.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T17:24:11+00:00",
+    "last_update_at": "2026-10-23T21:46:29+00:00",
+    "what_is_not_verified": "העיתוי המדויק ואופי המבצע הצבאי אם אכן יתרחש אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/florida-trump-vows-deal-cuba-after-iran-gets-settled",
+      "published_at": "2026-10-23T21:46:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/trump-says-us-may-do-another-military-operation-against-iran",
+      "published_at": "2026-10-23T20:46:30+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132441",
+      "published_at": "2026-10-23T19:55:34+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hylsjfknfx",
+      "published_at": "2026-10-23T17:24:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פורט מאיירס, פלורידה, ארצות הברית",
+      "lat": 26.6406,
+      "lon": -81.8723
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10240457-02",
+    "title": "תגובת יועץ המנהיג העליון באיראן לאיומי ארה\"ב וישראל",
+    "summary": "מוחמד מוח'בר, יועץ למנהיג העליון באיראן, הצהיר כי איומי המלחמה של ארצות הברית וישראל מעידים על ייאוש וכי לאיראן יש מנופי לחץ בתחומי הנפט והאנרגיה.",
+    "axis": "איראן-ישראל-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T16:54:58+00:00",
+    "last_update_at": "2026-10-24T04:00:32+00:00",
+    "what_is_not_verified": "אין אימות עצמאי למהלכים המבצעיים המתוכננים על ידי איראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_692a438243b538ef",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-netanyahu-threats-betray-desperation-aide-irans-supreme-leader",
+      "published_at": "2026-10-24T04:00:32+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_692a438243b538ef",
+      "url": "https://en.irna.ir/news/86301177/Trump-and-Netanyahu-s-threats-reveal-desperation-Advisor-to",
+      "published_at": "2026-10-23T16:54:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10240457-03",
+    "title": "שיא בתקיפות על כלי שיט במצר הורמוז ובאזור המפרץ",
+    "summary": "נתונים ממכוני מחקר וארגון הימאות הבינלאומי מצביעים על חודש אוקטובר כחודש בעל מספר התקיפות הגבוה ביותר על מכליות וספינות מסחר במצר הורמוז ובנתיבי מים סמוכים.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T18:30:37+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T18:30:37+00:00",
+    "last_update_at": "2026-10-24T02:51:40+00:00",
+    "what_is_not_verified": "זהות המבצעים הישירה בכל תקיפה ומספר כלי השיט המדויק שנפגע בכל תקרית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_imo",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/october-sees-highest-number-ship-attacks-record-report-says",
+      "published_at": "2026-10-24T02:51:40+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_imo",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380593",
+      "published_at": "2026-10-23T21:39:50+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_imo",
+      "url": "https://www.al-monitor.com/originals/2026/10/signs-point-renewed-major-us-military-ops-against-iran",
+      "published_at": "2026-10-23T18:30:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10240457-04",
+    "title": "ארה\"ב מצמצמת נוכחות דיפלומטית עקב חשש מאיומים ופגיעה בבכירים",
+    "summary": "ארצות הברית מפנה עובדים שאינם חיוניים מסעודיה ומצמצמת צוותים בשגרירויות במדינות נוספות באזור, על רקע התרעות מודיעיניות על כוונות איראניות לפגוע בדיפלומטים אמריקנים.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T00:12:22+00:00",
+    "last_update_at": "2026-10-24T01:10:02+00:00",
+    "what_is_not_verified": "פרטי המזימות המודיעיניות והיקף הפינוי המדויק מכל נציגות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694799",
+      "published_at": "2026-10-24T01:10:02+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ry7xypt2ge",
+      "published_at": "2026-10-24T00:12:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10240457-05",
+    "title": "תכנון איראני לפגיעה בתשתיות תקשורת וכבלים תת-ימיים",
+    "summary": "בכירים איראנים מסרו כי טהראן מחזיקה בתוכניות לפגוע בכבלי אינטרנט תת-ימיים במפרץ במקרה של תקיפה אמריקנית או ישראלית נגדה, כדי לשבש שירותים כלכליים ומערכות בנקאות.",
+    "axis": "איראן-ארה\"ב-ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T16:57:41+00:00",
+    "last_update_at": "2026-10-23T16:57:41+00:00",
+    "what_is_not_verified": "קיומן הממשי של התוכניות המבצעיות ויכולת המימוש שלהן בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48867",
+      "published_at": "2026-10-23T16:57:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "המפרץ הפרסי",
+      "lat": 36.3237,
+      "lon": 50.012
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10240457-06",
+    "title": "קריאות בינלאומיות למניעת הסלמה צבאית ומאמצי תיווך דיפלומטיים",
+    "summary": "שרי חוץ של מדינות מאירופה והמזרח התיכון שהתכנסו באיסטנבול, לצד פקיסטן ובריטניה, קראו להימנע מתקיפות חדשות נגד איראן ולפתור את המשבר בערוצים מדיניים.",
+    "axis": "מדיני-דיפלומטי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T14:45:25+00:00",
+    "last_update_at": "2026-10-24T04:53:09+00:00",
+    "what_is_not_verified": "מידת ההשפעה של המאמצים הדיפלומטיים על החלטות הממשלים בוושינגטון ובירושלים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_997176ffdfcf11d5",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/miliband-says-uk-redoubling-diplomatic-efforts-end-iran-war",
+      "published_at": "2026-10-24T04:53:09+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_997176ffdfcf11d5",
+      "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+      "published_at": "2026-10-23T17:18:34+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_3d16de44a96bb57f",
+      "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+      "published_at": "2026-10-23T14:45:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10240457-07",
+    "title": "קריאת סבא\"א לחידוש הפיקוח על מתקני הגרעין באיראן",
+    "summary": "יו\"ר הסוכנות הבינלאומית לאנרגיה אטומית רפאל גרוסי קרא להשבה מהירה של פקחי הסוכנות לאיראן והזהיר מהתערערות מנגנון מניעת הפצת הנשק הגרעיני.",
+    "axis": "גרעין איראני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T12:00:00+00:00",
+    "last_update_at": "2026-10-23T12:00:00+00:00",
+    "what_is_not_verified": "האם איראן תאפשר את שובם של הפקחים ומצב המתקנים בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_bbcefb93ad6d8f14",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
+      "published_at": "2026-10-23T12:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10240457-08",
+    "title": "יירוט טיל בליסטי ששוגר על ידי החות'ים לעבר ריאד",
+    "summary": "מערך ההגנה האווירית של הקואליציה בהובלת סעודיה יירט טיל בליסטי ששוגר על ידי כוחות חות'יים מתימן לעבר הבירה ריאד.",
+    "axis": "שלוחות איראן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T00:00:00+00:00",
+    "last_update_at": "2026-10-24T00:00:00+00:00",
+    "what_is_not_verified": "מיקום היירוט המדויק ומידת הנזק או הנפגעים מרסיסים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
+      "published_at": "2026-10-24T00:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דיווח על פינוי מדעני גרעין רוסים מאיראן במטוס מיוחד",
+   "דיווח ראשוני על פיצוצים בלתי מוסברים במצר הורמוז",
+   "דיווח ממקורות טורקיים על מועד פתיחה מיידי של מתקפה נגד איראן",
+   "מידע מודיעיני אודות שלבי ההתקדמות של מזימות התנקשות בבכירים אמריקנים",
+   "תוכניות איראניות לפגיעה מכוונת בכבלי תקשורת תת-ימיים במפרץ"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "נכונות לבצע פעולות צבאיות נוספות להפחתת האיום האיראני והורדת מחירי הדלק",
+     "פתיחות עקרונית להגעה להסכם דיפלומטי אם הצד השני יסכים לתנאים"
+    ],
+    "inferred": [
+     "הפעלת מצור כלכלי ממושך לריסון היכולות האיראניות",
+     "הרחקת נציגים דיפלומטיים עקב איומים ביטחוניים ישירים על אנשיה"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי לצד אפשרות למכות מנע אוויריות מוגבלות",
+     "שמירה על נוכחות צבאית מוגברת במקביל להיערכות לשינויי המדיניות לקראת הבחירות"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "שימוש במנופי לחץ בתחומי האנרגיה והנפט כדי לשנות את מאזן הכוחות",
+     "הגדרת איומי ארה\"ב וישראל כביטוי של ייאוש וחולשה"
+    ],
+    "inferred": [
+     "שיבוש נתיבי השיט המסחרי במצר הורמוז ליצירת לחץ כלכלי עולמי",
+     "הרתעת יריבותיה באמצעות איום על תשתיות אזוריות ופגיעה באישים אמריקנים"
+    ],
+    "forecast": [
+     "המשך הגבלת שיתוף הפעולה עם פקחי הגרעין הבינלאומיים",
+     "החרפת התקיפות הא-סימטריות במפרץ אם יחודשו התקיפות הישירות בשטחה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "תפיסת ביטחון לאומי המדגישה גביית מחיר משולחיהם של מבצעי תקיפות",
+     "היערכות פנימית לאפשרות של בידוד וסנקציות כלכליות"
+    ],
+    "inferred": [
+     "דחיפה לחידוש ולהקדמת התקיפות הצבאיות בשטח איראן",
+     "האצת פיתוח יכולות מודיעין וחלל לניטור רציף של שטח האויב"
+    ],
+    "forecast": [
+     "המשך הפעלת לחץ על הממשל האמריקני לפעולה צבאית משותפת ומהירה",
+     "הגברת הכוננות המבצעית בחזיתות השונות לאפשרות של הסלמה אזורית נרחבת"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/signs-point-renewed-major-us-military-ops-against-iran",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86301122/Pakistan-says-in-close-contact-with-Iran-US-urges-restraint",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21694799",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1380593",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/miliband-says-uk-redoubling-diplomatic-efforts-end-iran-war",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132441",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48867",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ry7xypt2ge",
+    "accessed_at": "2026-10-24T04:57:57+00:00"
+   }
+  ]
+ }
+}

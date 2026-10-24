@@ -1,0 +1,534 @@
+{
+ "status": "draft",
+ "received_sha256_12": "57dfbccce233",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "shared_root": 4,
+   "verified": 2,
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-24T05:00:36+00:00",
+  "window": {
+   "from": "2026-10-23T05:00:36+00:00",
+   "to": "2026-10-24T05:00:36+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610240500"
+  },
+  "summary": "הלחימה בין אוקראינה לרוסיה כוללת מתקפות אוויריות הדדיות נרחבות, הכוללות פגיעות בתשתיות אנרגיה בחצי האי קרים, במחוז קרסנודאר וברוסטוב, לצד הפגזות ושיגורי טילים לעבר קייב, חרקוב ומתקני תעשייה ברוסיה. במקביל למגעים דיפלומטיים ותיאום הפסקת אש מקומית באזור אולשקי, נרשמים עיכובים באספקת מיירטים והגבלות מתמשכות על תקשורת הלוויינים של צבא אוקראינה. בציר המדיני מתקיימים מגעים לקראת שיחות משולשות בהשתתפות ארצות הברית לצד מהלכים כלכליים שנויים במחלוקת סביב סנקציות ודלק.",
+  "fronts": [
+   {
+    "name": "חזית חרסון (אזור אולשקי)",
+    "status": "הכרזה על הפסקת אש מקומית למטרות הומניטריות החל מ-27 באוקטובר"
+   },
+   {
+    "name": "עומק השטח הרוסי (רוסטוב, אוריול, טולייטי, טמאן)",
+    "status": "מתקפות אוקראיניות ממוקדות נגד תשתיות אנרגיה ומפעלים תעשייתיים"
+   },
+   {
+    "name": "העורף האוקראיני (קייב, חרקוב)",
+    "status": "מתקפות רוסיות באמצעות טילים בליסטיים, חימוש מצרר וכלי טיס בלתי מאוישים"
+   },
+   {
+    "name": "חצי האי קרים",
+    "status": "השבתת חשמל נרחבת עקב פגיעה במערכות אספקת האנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10240500-01",
+    "title": "השבתת חשמל נרחבת בחצי האי קרים ופגיעה בתחנת כוח בטמאן",
+    "summary": "הפסקת חשמל נרחבת פגעה בחצי האי קרים בעקבות מתקפת כלי טיס בלתי מאוישים, ובמקביל נגרם נזק לתחנת משנה של רשת החשמל בטמאן שבמחוז קרסנודאר ברוסיה.",
+    "axis": "חצי האי קרים ומחוז קרסנודאר",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T04:25:00+00:00",
+    "last_update_at": "2026-10-24T04:41:36+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומשך השבתת החשמל אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/mass-blackouts-reported-across-occupied-crimea/",
+      "published_at": "2026-10-24T04:41:36+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4177692-largescale-blackout-hits-crimea-after-drone-attack.html",
+      "published_at": "2026-10-24T04:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טמאן, רוסיה",
+      "lat": 45.2159,
+      "lon": 36.7191
+     },
+     {
+      "name": "חצי האי קרים, אוקראינה",
+      "lat": 45.2835,
+      "lon": 34.2008
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-02",
+    "title": "הסכם הפסקת אש הומניטרית בעיר אולשקי",
+    "summary": "רוסיה ואוקראינה סיכמו על הפסקת כל הפעולות הצבאיות באזור העיר אולשקי החל מ-27 באוקטובר כדי לאפשר העברת סיוע הומניטרי ופינוי אזרחים.",
+    "axis": "חזית חרסון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T16:10:34+00:00",
+    "last_update_at": "2026-10-24T01:20:54+00:00",
+    "what_is_not_verified": "מידת היישום בפועל של הפסקת האש בשטח לא אומתה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_efbb461d8e997419",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+      "published_at": "2026-10-24T01:20:54+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_efbb461d8e997419",
+      "url": "https://www.ukrinform.net/rubric-ato/4177661-general-staff-ukraine-to-implement-ceasefire-in-oleshky-area-starting-october-27.html",
+      "published_at": "2026-10-23T20:59:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_efbb461d8e997419",
+      "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+      "published_at": "2026-10-23T19:51:21+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ea640f492639d562",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059482/",
+      "published_at": "2026-10-23T19:24:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_efbb461d8e997419",
+      "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network",
+      "published_at": "2026-10-23T16:10:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-03",
+    "title": "תקיפה אוקראינית על מפעל כימי בטולייטי",
+    "summary": "כוחות אוקראיניים תקפו מתקן של מפעל כימי בעיר טולייטי שבשטח רוסיה.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T03:36:11+00:00",
+    "last_update_at": "2026-10-24T03:36:11+00:00",
+    "what_is_not_verified": "מידת הנזק ואמצעי התקיפה אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48880",
+      "published_at": "2026-10-24T03:36:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טולייטי, רוסיה",
+      "lat": 53.5099,
+      "lon": 49.4189
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-04",
+    "title": "יירוט כלי טיס בלתי מאוישים על ידי ההגנה האווירית של אוקראינה",
+    "summary": "מערך ההגנה האווירית האוקראיני ניטרל קרוב ל-2,300 מתוך 2,597 כלי טיס בלתי מאוישים תוקפים ששיגרה רוסיה במהלך השבוע החולף.",
+    "axis": "המרחב האווירי של אוקראינה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T03:27:00+00:00",
+    "last_update_at": "2026-10-24T03:27:00+00:00",
+    "what_is_not_verified": "נתוני השיגור והיירוט נמסרו על ידי צד אחד ואינם מאומתים באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4177690-russia-launched-2597-drones-at-ukraine-over-past-week-air-defenses-neutralized-over-87.html",
+      "published_at": "2026-10-24T03:27:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10240500-05",
+    "title": "המשך הגבלות המהירות על רשת סטארלינק באוקראינה",
+    "summary": "נשיא אוקראינה וגורמים רשמיים מדווחים כי הגבלות המהירות על מסופי התקשורת הלוויינית סטארלינק והגרסה הצבאית סטארשילד מוסיפות לחול, לצד עיכוב באספקת טילי יירוט.",
+    "axis": "סיוע טכנולוגי וצבאי לאוקראינה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-23T17:42:00+00:00",
+    "last_update_at": "2026-10-24T03:11:42+00:00",
+    "what_is_not_verified": "מקור ההנחיה להטלת המגבלות והמניע המדויק אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21694840",
+      "published_at": "2026-10-24T03:11:42+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/us-lawmakers-demand-answers-from-elon-musk-over-ukraine-starlink-restrictions/",
+      "published_at": "2026-10-23T23:25:08+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/23/zelensky-says-speed-restrictions-remain-on-starlink-and-its-military-version-starshield-in-ukraine-despite-trump-s-assurances",
+      "published_at": "2026-10-23T20:13:10+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T18:52:17+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059475/",
+      "published_at": "2026-10-23T17:42:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10240500-06",
+    "title": "תקיפת טילים רוסית על קייב",
+    "summary": "כוחות רוסיים שיגרו טילים בליסטיים וחימוש מצרר לעבר בירת אוקראינה.",
+    "axis": "חזית קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T02:28:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T02:28:06+00:00",
+    "last_update_at": "2026-10-24T02:28:06+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזקים בקייב לא צוין ולא אומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/zelensky-maybe-not-such-a-big-humanitarian-as-putin-he-quips-as-ukraines-relations-with-trump-unravel/",
+      "published_at": "2026-10-24T02:28:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-07",
+    "title": "החזרת שבעה אזרחים אוקראינים במסגרת חילופי שבויים",
+    "summary": "אוקראינה החזירה לשטחה שבעה אזרחים נוספים במסגרת הליך חילופי שבויים מול רוסיה.",
+    "axis": "חילופי שבויים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T01:31:00+00:00",
+    "last_update_at": "2026-10-24T01:31:00+00:00",
+    "what_is_not_verified": "זהות המשוחררים מן הצד הרוסי לא פורטה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4177476-ukraine-repatriates-seven-more-civilians-in-exchange-with-russia.html",
+      "published_at": "2026-10-24T01:31:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10240500-08",
+    "title": "משלוח מכליות דלק מרוסיה לכיוון צפון אמריקה",
+    "summary": "מכליות הנושאות סולר רוסי יצאו לכיוון צפון אמריקה במסגרת הבנות בין ארצות הברית לרוסיה, במקביל להקלה זמנית בסנקציות על דלק רוסי.",
+    "axis": "סנקציות ומסחר בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T01:20:54+00:00",
+    "last_update_at": "2026-10-24T01:20:54+00:00",
+    "what_is_not_verified": "מועד הגעת המטענים המדויק ותנאי ההסכם המלאים לא אומתו באופן בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+      "published_at": "2026-10-24T01:20:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10240500-09",
+    "title": "עמדת זלנסקי לגבי הקפאת המלחמה בקו המגע ומגעים משולשים",
+    "summary": "נשיא אוקראינה הצהיר על נכונות להסכם שיקפיא את הלחימה בקו המגע הקיים ללא הכרה רשמית בכיבוש, וציין כי שיחות משולשות בהשתתפות רוסיה וארצות הברית יחלו בנובמבר.",
+    "axis": "משא ומתן דיפלומטי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T19:45:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T19:45:30+00:00",
+    "last_update_at": "2026-10-24T01:12:00+00:00",
+    "what_is_not_verified": "הסכמת הצד הרוסי למתווה הקפאה בקו המגע אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_abc",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059494/",
+      "published_at": "2026-10-24T01:12:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_abc",
+      "url": "https://kyivindependent.com/trilateral-peace-talks-with-russia-us-negotiators-to-begin-in-november-zelensky-says/",
+      "published_at": "2026-10-23T19:45:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10240500-10",
+    "title": "הפסקת חשמל ברוסטוב בעקבות תקיפה",
+    "summary": "זרם החשמל הושבת בעיר רוסטוב שברוסיה בעקבות פגיעה מן הצד האוקראיני.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T23:23:21+00:00",
+    "last_update_at": "2026-10-23T23:23:21+00:00",
+    "what_is_not_verified": "סוג החימוש ששימש בתקיפה אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48878",
+      "published_at": "2026-10-23T23:23:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רוסטוב, רוסיה",
+      "lat": 47.2223,
+      "lon": 39.7199
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-11",
+    "title": "תקיפת טילי שיוט על מפעל לייצור רכיבי טילים באוריול",
+    "summary": "טילי שיוט ששוגרו מאוקראינה פגעו במפעל פרוטון בעיר אוריול ברוסיה, אתר המשמש לייצור רכיבים למערכות טילים.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T15:08:59+00:00",
+    "last_update_at": "2026-10-23T19:26:37+00:00",
+    "what_is_not_verified": "היקף הנזק המבני במפעל לא אומת מגורם רשמי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48871",
+      "published_at": "2026-10-23T19:26:37+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48863",
+      "published_at": "2026-10-23T15:08:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוריול, רוסיה",
+      "lat": 52.9709,
+      "lon": 36.0642
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10240500-12",
+    "title": "פגיעת כלי טיס בלתי מאויש בתחנת דלק בחרקוב",
+    "summary": "כלי טיס בלתי מאויש של צבא רוסיה פגע בתחנת תדלוק בעיר חרקוב.",
+    "axis": "חזית חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-23T17:21:01+00:00",
+    "last_update_at": "2026-10-23T17:21:01+00:00",
+    "what_is_not_verified": "נפגעים ונזק ברכוש לא פורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48868",
+      "published_at": "2026-10-23T17:21:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על אובדן ששת מיליארדי דולרים של אוקראינה עקב השבתת נמלים",
+   "טענת בכירים לשעבר בארצות הברית על מעורבות ישירה של אילון מאסק בהגבלת סטארשילד",
+   "טענה בדבר הרעלת אנשי צבא אוקראינים על ידי נערה בשליחות שירות הביטחון הרוסי",
+   "מידת ההתקדמות בשיחות בין השליח האמריקני לנשיא רוסיה בסנקט פטרבורג"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1193,
+    "unit": "USD",
+    "change_pct": -0.11,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "סיום הלחימה והקפאת המצב לאורך קו המגע הנוכחי",
+     "אי-הכרה בשטחים הכבושים כשייכים לרוסיה",
+     "הסרת מגבלות המהירות על רשתות סטארלינק וקבלת טילי יירוט שהובטחו"
+    ],
+    "inferred": [
+     "פגיעה שיטתית במערכי אנרגיה ותעשייה צבאית בעומק רוסיה כדי להפעיל לחץ על מוסקבה",
+     "שימור רצף הלחימה תוך הימנעות מנסיגה חד-צדדית משטחי דונבאס"
+    ],
+    "forecast": [
+     "המשך הסתמכות על מערכות יירוט מערביות לצד ניסיונות להבטיח את רשתות התקשורת הלוויינית",
+     "נכונות להשתתף בשיחות משולשות בנובמבר תוך עמידה על קווי גבול זמניים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "החלת משטר הפסקת אש מקומי בחזית חרסון סמוך לאולשקי לאפשר סיוע",
+     "חידוש משא ומתן משולש בהשתתפות ארצות הברית ואוקראינה",
+     "ייצוא דלק לשווקים בינלאומיים במסגרת הבנות להסרת סנקציות"
+    ],
+    "inferred": [
+     "שחיקת התשתיות האזרחיות והאנרגטיות של אוקראינה באמצעות מתקפות כטב\"מים וטילים מסיביות",
+     "העמקת השליטה בשטחים הכבושים והשפעה על ההנהגה הפוליטית באוקראינה"
+    ],
+    "forecast": [
+     "המשך תקיפות מרוחקות לצד עמידה בהפוגות מקומיות נקודתיות",
+     "ניצול ערוצי המשא ומתן עם ארצות הברית להקלה נוספת במשטר העיצומים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21694840",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/trilateral-peace-talks-with-russia-us-negotiators-to-begin-in-november-zelensky-says/",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/23/zelensky-says-speed-restrictions-remain-on-starlink-and-its-military-version-starshield-in-ukraine-despite-trump-s-assurances",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059494/",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48868",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4177476-ukraine-repatriates-seven-more-civilians-in-exchange-with-russia.html",
+    "accessed_at": "2026-10-24T05:00:36+00:00"
+   }
+  ]
+ }
+}
