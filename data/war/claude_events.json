@@ -1,93 +1,329 @@
 {
- "iran": {"events": [
-  {"title": "פזשכיאן: ארה\"ב הכשילה את ההסכם הזמני, אבל צריך לנסות שוב",
-   "summary": "נשיא איראן אמר בטלוויזיה הממלכתית שהאמריקאים אחראים לקריסת ההסכם הזמני, ועם זאת קרא לחזור למשא ומתן ולהשלים אותו.",
-   "axis": "משא ומתן", "claim_type": "statement", "occurred_hint": "2026-10-24", "is_ongoing": true,
-   "what_is_not_verified": "לא ידוע אם יש מגעים בפועל לחידוש השיחות",
-   "support": [{"item": 5, "first_hand": false, "origin": "דברי פזשכיאן בטלוויזיה האיראנית, לפי רויטרס"}],
-   "places": []},
-  {"title": "איראן: לא נאפשר לספינות מלחמה אמריקאיות להתקרב, בזמן שטראמפ שוקל תקיפה",
-   "summary": "גורמים איראניים מאותתים שלא יסגתו, אף שלהערכתם מלחמה מחודשת קרובה יותר. בוושינגטון נשקלות תקיפות נוספות על איראן.",
-   "axis": "הסלמה מול ארה\"ב", "claim_type": "statement", "occurred_hint": "2026-10-24", "is_ongoing": true,
-   "what_is_not_verified": "אין החלטה אמריקאית רשמית על תקיפה",
-   "support": [{"item": 7, "first_hand": false, "origin": "בכירים ותקשורת באיראן, לפי אל-ג'זירה"}],
-   "places": [{"name_en": "Persian Gulf", "name_he": "המפרץ הפרסי"}]},
-  {"title": "מזכר מודיעין אמריקאי: מזימות איראניות נגד אזרחי ארה\"ב באזור בשלבים מתקדמים",
-   "summary": "לפי הדיווח, מסמך מודיעין אמריקאי מזהיר מפני תוכניות איראניות לפגוע באמריקאים במזרח התיכון, ולכן ארה\"ב בכוננות. בנפרד, שגרירות רוסיה בטהראן הכחישה שהיא מפנה עובדים מכור הגרעין בבושהר.",
-   "axis": "איומים על יעדים אמריקאיים", "claim_type": "assessment", "occurred_hint": "", "is_ongoing": true,
-   "what_is_not_verified": "המזכר עצמו לא פורסם",
-   "support": [{"item": 8, "first_hand": false, "origin": "מזכר מודיעין אמריקאי, לפי אל-ג'זירה"},
-               {"item": 9, "first_hand": false, "origin": "הודעת שגרירות רוסיה באיראן"}],
-   "places": [{"name_en": "Bushehr, Iran", "name_he": "בושהר"}]}
- ]},
- "north": {"events": [
-  {"title": "דרום לבנון: צה\"ל מבצע הריסות בטייבה, דיווח על מנחת מסוקים חדש",
-   "summary": "כלי תקשורת של חיזבאללה מדווחים על פיצוצים והריסות בטייבה ועל המשך הפגזות ותקיפות בדרום לבנון. תקשורת לבנונית מדווחת גם על מנחת מסוקים חדש שצה\"ל הקים סמוך ליחמר א-שקיף.",
-   "axis": "דרום לבנון", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": true,
-   "what_is_not_verified": "אין אישור של צה\"ל להריסות או למנחת",
-   "support": [{"item": 8, "first_hand": true, "origin": "כתב אל-מנאר בדרום לבנון"},
-               {"item": 5, "first_hand": true, "origin": "כתב אל-מנאר בדרום לבנון"},
-               {"item": 1, "first_hand": false, "origin": "כלי תקשורת לבנוניים"}],
-   "places": [{"name_en": "Taybeh, Lebanon", "name_he": "טייבה"}, {"name_en": "Yohmor al-Shaqif, Lebanon", "name_he": "יחמר א-שקיף"}]},
-  {"title": "דיווח: חיזבאללה הודיע שלא יתערב אם המלחמה עם איראן תתחדש",
-   "summary": "לפי עיתון סעודי, הארגון העביר מסר שלא יצטרף ללחימה, ועוזר שר החוץ האיראני אמר שטהראן לא צריכה את התערבותו. במקביל דווח שטראמפ נוטה לחזור ללחימה מול איראן.",
-   "axis": "הרתעה", "claim_type": "statement", "occurred_hint": "", "is_ongoing": false,
-   "what_is_not_verified": "מבוסס על דיווח בעיתון סעודי, ללא הודעה של חיזבאללה",
-   "support": [{"item": 12, "first_hand": false, "origin": "א-שרק אל-אווסט, לפי ynet"}],
-   "places": []},
-  {"title": "סוריה: מיליציה דרוזית חסמה את כביש סווידא–דמשק",
-   "summary": "התנועה בכביש נעצרה לגמרי אחרי שמחסום של 'המשמר הלאומי', הנאמן למנהיג הדרוזי חכמת אל-הג'רי, נסגר. זו לא הפעם הראשונה שהכביש נחסם.",
-   "axis": "סוריה", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": true,
-   "what_is_not_verified": "",
-   "support": [{"item": 3, "first_hand": false, "origin": "מנהלת התקשורת של סווידא"}],
-   "places": [{"name_en": "Suwayda, Syria", "name_he": "סווידא"}]}
- ]},
- "ukraine": {"events": [
-  {"title": "רחפנים תקפו מפעל כימי באומסק שבסיביר, 2,500 ק\"מ מאוקראינה",
-   "summary": "התקיפה על מפעל הגומי הסינתטי בעיר גרמה לשריפה גדולה. מושל המחוז אישר את התקיפה, ולפי אנליסטים פגעו הרחפנים בשתי יחידות ייצור.",
-   "axis": "תקיפות עומק ברוסיה", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": false,
-   "what_is_not_verified": "היקף הנזק במפעל",
-   "support": [{"item": 9, "first_hand": false, "origin": "מושל מחוז אומסק וקהילת OSINT"},
-               {"item": 3, "first_hand": false, "origin": "רשתות חברתיות"},
-               {"item": 1, "first_hand": false, "origin": "טלגרם"}],
-   "places": [{"name_en": "Omsk, Russia", "name_he": "אומסק"}]},
-  {"title": "זלנסקי: Starlink חזר למהירות הנדרשת אחרי ההגבלות",
-   "summary": "לדבריו, Starlink ו-Starshield פועלים שוב כמו לפני ההגבלה שהוטלה לפני כעשרה ימים, וזה חיוני ללוגיסטיקה בחזית וליירוט רחפני שאהד. אוקראינה עדיין ממתינה למיירטים נגד טילים בליסטיים.",
-   "axis": "סיוע ותקשורת", "claim_type": "statement", "occurred_hint": "2026-10-24", "is_ongoing": false,
-   "what_is_not_verified": "",
-   "support": [{"item": 12, "first_hand": false, "origin": "דברי זלנסקי"},
-               {"item": 5, "first_hand": false, "origin": "ממשלת אוקראינה"},
-               {"item": 8, "first_hand": false, "origin": "דברי זלנסקי"}],
-   "places": []},
-  {"title": "תקיפות רוסיות: הרוג בלוזובה, ארבעה פצועים בחנות ליד ניקופול",
-   "summary": "אדם נהרג ושניים נפצעו בתקיפה על עסק בלוזובה שבמחוז חרקוב. בנפרד, רחפן רוסי פגע בחנות מזון ליד ניקופול ופצע שלושה גברים ונער בן 14.",
-   "axis": "תקיפות על אזרחים", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": false,
-   "what_is_not_verified": "",
-   "support": [{"item": 10, "first_hand": false, "origin": "משטרת מחוז חרקוב"},
-               {"item": 7, "first_hand": false, "origin": "משטרת אוקראינה"}],
-   "places": [{"name_en": "Lozova, Ukraine", "name_he": "לוזובה"}, {"name_en": "Nikopol, Ukraine", "name_he": "ניקופול"}]}
- ]},
- "yemen": {"events": [
-  {"title": "החות'ים טוענים שתקפו בסיס ימי ומחנה צבאי בעדן",
-   "summary": "שלושה פיצוצים נשמעו בעדן, מושב הממשלה המוכרת. דובר החות'ים אמר שהמטרות היו כוחות סעודיים, ומשרד הפנים התימני מסר שנורו שלושה טילים בליסטיים לעבר מטות משמר החופים.",
-   "axis": "חזית עדן", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": false,
-   "what_is_not_verified": "נפגעים ונזק לא דווחו",
-   "support": [{"item": 4, "first_hand": false, "origin": "דובר החות'ים, לפי AFP"},
-               {"item": 7, "first_hand": false, "origin": "משטרת עדן וכתב AFP"},
-               {"item": 5, "first_hand": true, "origin": "משרד הפנים של ממשלת תימן"}],
-   "places": [{"name_en": "Aden, Yemen", "name_he": "עדן"}]},
-  {"title": "תקשורת החות'ים: תקיפות סעודיות הרגו שמונה בחודיידה ובצנעא",
-   "summary": "לפי ערוץ אל-מסירה, תקיפה על בית במחוז חודיידה הרגה חמישה בני משפחה אחת, ותקיפה נוספת על בית במערב צנעא הרגה שלושה.",
-   "axis": "תקיפות סעודיות", "claim_type": "incident", "occurred_hint": "2026-10-24", "is_ongoing": false,
-   "what_is_not_verified": "מספרי ההרוגים מגיעים מהחות'ים בלבד",
-   "support": [{"item": 6, "first_hand": false, "origin": "אל-מסירה של החות'ים"},
-               {"item": 10, "first_hand": false, "origin": "אל-מסירה של החות'ים"}],
-   "places": [{"name_en": "Hodeidah, Yemen", "name_he": "חודיידה"}, {"name_en": "Sanaa, Yemen", "name_he": "צנעא"}]},
-  {"title": "ארה\"ב עדכנה אזהרות מסע במפרץ ובישראל בגלל איום החות'ים",
-   "summary": "נציגויות ארה\"ב פרסמו התראות ביטחון לסעודיה, קטר, איחוד האמירויות, עיראק, לבנון וישראל, על רקע חשש מהרחבת הפעילות של החות'ים באזור.",
-   "axis": "איום אזורי", "claim_type": "statement", "occurred_hint": "2026-10-24", "is_ongoing": true,
-   "what_is_not_verified": "",
-   "support": [{"item": 3, "first_hand": false, "origin": "התראות של נציגויות ארה\"ב"}],
-   "places": []}
- ]}
+ "iran": {
+  "events": [
+   {
+    "title": "פזשכיאן: ארה\"ב הכשילה את ההסכם הזמני, אבל צריך לנסות שוב",
+    "summary": "נשיא איראן אמר בטלוויזיה הממלכתית שהאמריקאים אחראים לקריסת ההסכם הזמני, ועם זאת קרא לחזור למשא ומתן ולהשלים אותו.",
+    "axis": "משא ומתן",
+    "claim_type": "statement",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": true,
+    "what_is_not_verified": "לא ידוע אם יש מגעים בפועל לחידוש השיחות",
+    "support": [
+     {
+      "item": 5,
+      "first_hand": false,
+      "origin": "דברי פזשכיאן בטלוויזיה האיראנית, לפי רויטרס"
+     }
+    ],
+    "places": []
+   },
+   {
+    "title": "איראן: לא נאפשר לספינות מלחמה אמריקאיות להתקרב, בזמן שטראמפ שוקל תקיפה",
+    "summary": "גורמים איראניים מאותתים שלא יסגתו, אף שלהערכתם מלחמה מחודשת קרובה יותר. בוושינגטון נשקלות תקיפות נוספות על איראן.",
+    "axis": "הסלמה מול ארה\"ב",
+    "claim_type": "statement",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": true,
+    "what_is_not_verified": "אין החלטה אמריקאית רשמית על תקיפה",
+    "support": [
+     {
+      "item": 7,
+      "first_hand": false,
+      "origin": "בכירים ותקשורת באיראן, לפי אל-ג'זירה"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Persian Gulf",
+      "name_he": "המפרץ הפרסי"
+     }
+    ]
+   },
+   {
+    "title": "מזכר מודיעין אמריקאי: מזימות איראניות נגד אזרחי ארה\"ב באזור בשלבים מתקדמים",
+    "summary": "לפי הדיווח, מסמך מודיעין אמריקאי מזהיר מפני תוכניות איראניות לפגוע באמריקאים במזרח התיכון, ולכן ארה\"ב בכוננות. בנפרד, שגרירות רוסיה בטהראן הכחישה שהיא מפנה עובדים מכור הגרעין בבושהר.",
+    "axis": "איומים על יעדים אמריקאיים",
+    "claim_type": "assessment",
+    "occurred_hint": "",
+    "is_ongoing": true,
+    "what_is_not_verified": "המזכר עצמו לא פורסם",
+    "support": [
+     {
+      "item": 8,
+      "first_hand": false,
+      "origin": "מזכר מודיעין אמריקאי, לפי אל-ג'זירה"
+     },
+     {
+      "item": 9,
+      "first_hand": false,
+      "origin": "הודעת שגרירות רוסיה באיראן"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Bushehr, Iran",
+      "name_he": "בושהר"
+     }
+    ]
+   }
+  ]
+ },
+ "north": {
+  "events": [
+   {
+    "title": "דרום לבנון: צה\"ל מבצע הריסות בטייבה, דיווח על מנחת מסוקים חדש",
+    "summary": "כלי תקשורת של חיזבאללה מדווחים על פיצוצים והריסות בטייבה ועל המשך הפגזות ותקיפות בדרום לבנון. תקשורת לבנונית מדווחת גם על מנחת מסוקים חדש שצה\"ל הקים סמוך ליחמר א-שקיף.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": true,
+    "what_is_not_verified": "אין אישור של צה\"ל להריסות או למנחת",
+    "support": [
+     {
+      "item": 8,
+      "first_hand": true,
+      "origin": "כתב אל-מנאר בדרום לבנון"
+     },
+     {
+      "item": 5,
+      "first_hand": true,
+      "origin": "כתב אל-מנאר בדרום לבנון"
+     },
+     {
+      "item": 1,
+      "first_hand": false,
+      "origin": "כלי תקשורת לבנוניים"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Taybeh, Lebanon",
+      "name_he": "טייבה"
+     },
+     {
+      "name_en": "Yohmor al-Shaqif, Lebanon",
+      "name_he": "יחמר א-שקיף"
+     }
+    ]
+   },
+   {
+    "title": "דיווח: חיזבאללה הודיע שלא יתערב אם המלחמה עם איראן תתחדש",
+    "summary": "לפי עיתון סעודי, הארגון העביר מסר שלא יצטרף ללחימה, ועוזר שר החוץ האיראני אמר שטהראן לא צריכה את התערבותו. במקביל דווח שטראמפ נוטה לחזור ללחימה מול איראן.",
+    "axis": "הרתעה",
+    "claim_type": "statement",
+    "occurred_hint": "",
+    "is_ongoing": false,
+    "what_is_not_verified": "מבוסס על דיווח בעיתון סעודי, ללא הודעה של חיזבאללה",
+    "support": [
+     {
+      "item": 12,
+      "first_hand": false,
+      "origin": "א-שרק אל-אווסט, לפי ynet"
+     }
+    ],
+    "places": []
+   },
+   {
+    "title": "סוריה: מיליציה דרוזית חסמה את כביש סווידא–דמשק",
+    "summary": "התנועה בכביש נעצרה לגמרי אחרי שמחסום של 'המשמר הלאומי', הנאמן למנהיג הדרוזי חכמת אל-הג'רי, נסגר. זו לא הפעם הראשונה שהכביש נחסם.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": true,
+    "what_is_not_verified": "",
+    "support": [
+     {
+      "item": 3,
+      "first_hand": false,
+      "origin": "מנהלת התקשורת של סווידא"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Suwayda, Syria",
+      "name_he": "סווידא"
+     }
+    ]
+   }
+  ]
+ },
+ "ukraine": {
+  "events": [
+   {
+    "title": "רחפנים תקפו מפעל כימי באומסק שבסיביר, 2,500 ק\"מ מאוקראינה",
+    "summary": "התקיפה על מפעל הגומי הסינתטי בעיר גרמה לשריפה גדולה. מושל המחוז אישר את התקיפה, ולפי אנליסטים פגעו הרחפנים בשתי יחידות ייצור.",
+    "axis": "תקיפות עומק ברוסיה",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": false,
+    "what_is_not_verified": "היקף הנזק במפעל",
+    "support": [
+     {
+      "item": 9,
+      "first_hand": false,
+      "origin": "מושל מחוז אומסק וקהילת OSINT"
+     },
+     {
+      "item": 3,
+      "first_hand": false,
+      "origin": "רשתות חברתיות"
+     },
+     {
+      "item": 1,
+      "first_hand": false,
+      "origin": "טלגרם"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Omsk, Russia",
+      "name_he": "אומסק"
+     }
+    ]
+   },
+   {
+    "title": "זלנסקי: Starlink חזר למהירות הנדרשת אחרי ההגבלות",
+    "summary": "לדבריו, Starlink ו-Starshield פועלים שוב כמו לפני ההגבלה שהוטלה לפני כעשרה ימים, וזה חיוני ללוגיסטיקה בחזית וליירוט רחפני שאהד. אוקראינה עדיין ממתינה למיירטים נגד טילים בליסטיים.",
+    "axis": "סיוע ותקשורת",
+    "claim_type": "statement",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": false,
+    "what_is_not_verified": "",
+    "support": [
+     {
+      "item": 12,
+      "first_hand": false,
+      "origin": "דברי זלנסקי"
+     },
+     {
+      "item": 5,
+      "first_hand": false,
+      "origin": "ממשלת אוקראינה"
+     },
+     {
+      "item": 8,
+      "first_hand": false,
+      "origin": "דברי זלנסקי"
+     }
+    ],
+    "places": []
+   },
+   {
+    "title": "תקיפות רוסיות: הרוג בלוזובה, ארבעה פצועים בחנות ליד ניקופול",
+    "summary": "אדם נהרג ושניים נפצעו בתקיפה על עסק בלוזובה שבמחוז חרקוב. בנפרד, רחפן רוסי פגע בחנות מזון ליד ניקופול ופצע שלושה גברים ונער בן 14.",
+    "axis": "תקיפות על אזרחים",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": false,
+    "what_is_not_verified": "",
+    "support": [
+     {
+      "item": 10,
+      "first_hand": false,
+      "origin": "משטרת מחוז חרקוב"
+     },
+     {
+      "item": 7,
+      "first_hand": false,
+      "origin": "משטרת אוקראינה"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Lozova, Ukraine",
+      "name_he": "לוזובה"
+     },
+     {
+      "name_en": "Nikopol, Ukraine",
+      "name_he": "ניקופול"
+     }
+    ]
+   }
+  ]
+ },
+ "yemen": {
+  "events": [
+   {
+    "title": "החות'ים טוענים שתקפו בסיס ימי ומחנה צבאי בעדן",
+    "summary": "שלושה פיצוצים נשמעו בעדן, מושב הממשלה המוכרת. דובר החות'ים אמר שהמטרות היו כוחות סעודיים, ומשרד הפנים התימני מסר שנורו שלושה טילים בליסטיים לעבר מטות משמר החופים.",
+    "axis": "חזית עדן",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": false,
+    "what_is_not_verified": "נפגעים ונזק לא דווחו",
+    "support": [
+     {
+      "item": 4,
+      "first_hand": false,
+      "origin": "דובר החות'ים, לפי AFP"
+     },
+     {
+      "item": 7,
+      "first_hand": false,
+      "origin": "משטרת עדן וכתב AFP"
+     },
+     {
+      "item": 5,
+      "first_hand": true,
+      "origin": "משרד הפנים של ממשלת תימן"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Aden, Yemen",
+      "name_he": "עדן"
+     }
+    ]
+   },
+   {
+    "title": "תקשורת החות'ים: תקיפות סעודיות הרגו שמונה בחודיידה ובצנעא",
+    "summary": "לפי ערוץ אל-מסירה, תקיפה על בית במחוז חודיידה הרגה חמישה בני משפחה אחת, ותקיפה נוספת על בית במערב צנעא הרגה שלושה.",
+    "axis": "תקיפות סעודיות",
+    "claim_type": "incident",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": false,
+    "what_is_not_verified": "מספרי ההרוגים מגיעים מהחות'ים בלבד",
+    "support": [
+     {
+      "item": 6,
+      "first_hand": false,
+      "origin": "אל-מסירה של החות'ים"
+     },
+     {
+      "item": 10,
+      "first_hand": false,
+      "origin": "אל-מסירה של החות'ים"
+     }
+    ],
+    "places": [
+     {
+      "name_en": "Hodeidah, Yemen",
+      "name_he": "חודיידה"
+     },
+     {
+      "name_en": "Sanaa, Yemen",
+      "name_he": "צנעא"
+     }
+    ]
+   },
+   {
+    "title": "ארה\"ב עדכנה אזהרות מסע במפרץ ובישראל בגלל איום החות'ים",
+    "summary": "נציגויות ארה\"ב פרסמו התראות ביטחון לסעודיה, קטר, איחוד האמירויות, עיראק, לבנון וישראל, על רקע חשש מהרחבת הפעילות של החות'ים באזור.",
+    "axis": "איום אזורי",
+    "claim_type": "statement",
+    "occurred_hint": "2026-10-24",
+    "is_ongoing": true,
+    "what_is_not_verified": "",
+    "support": [
+     {
+      "item": 3,
+      "first_hand": false,
+      "origin": "התראות של נציגויות ארה\"ב"
+     }
+    ],
+    "places": []
+   }
+  ]
+ }
 }
