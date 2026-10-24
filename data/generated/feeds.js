@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-24T06:17:26+00:00",
-  "fetched_at": "2026-10-24T06:17:26+00:00"
+  "checked_at": "2026-10-24T07:17:20+00:00",
+  "fetched_at": "2026-10-24T07:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T06:17:42+00:00",
-  "fetched_at": "2026-10-24T06:17:42+00:00"
+  "checked_at": "2026-10-24T07:17:32+00:00",
+  "fetched_at": "2026-10-24T07:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T06:17:42+00:00",
-  "fetched_at": "2026-10-24T06:17:42+00:00"
+  "checked_at": "2026-10-24T07:17:32+00:00",
+  "fetched_at": "2026-10-24T07:17:32+00:00"
  },
- "generated_at": "2026-10-24T06:17:42+00:00",
+ "generated_at": "2026-10-24T07:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "איראן \"הגבירה משמעותית\" מאמצים לפגיעה בבכירים אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560615",
-     "date": "2026-10-24T06:00:00+00:00"
+     "date": "2026-10-24T07:02:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "בוגר דוקטורט מפרינסטון הגיש מועמדות ל־2,300 משרות. הוא עדיין לא מצליח למצוא עבודה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560125",
+     "date": "2026-10-24T05:15:00+00:00"
+    },
     {
      "title": "נעילה אדומה בוול סטריט: דאו ג'ונס איבד יותר מאחוז; מחיר הנפט בעלייה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560609",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "במחיר ממוצע של 2.7 מיליון שקל לדירה: העסקאות שמזיזות את השוק הקפוא",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560376",
      "date": "2026-10-22T08:34:00+00:00"
-    },
-    {
-     "title": "נזקי עתק ומתיחות גוברת: צרפת חוששת מסוף שבוע אלים נוסף",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560426",
-     "date": "2026-10-22T07:46:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T06:17:28+00:00",
-  "fetched_at": "2026-10-24T06:17:28+00:00"
+  "checked_at": "2026-10-24T07:17:22+00:00",
+  "fetched_at": "2026-10-24T07:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T06:17:29+00:00",
-  "fetched_at": "2026-10-24T06:17:29+00:00"
+  "checked_at": "2026-10-24T07:17:23+00:00",
+  "fetched_at": "2026-10-24T07:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2404,7 +2404,7 @@ window.DB.generated = {
    {
     "date": "2026-10-26",
     "time": "00:00",
-    "channel": "ספורט 5+ לייב",
+    "channel": "ספורט 5",
     "sport": "כדורסל",
     "title": "ברוקלין נטס - אינדיאנה פייסרס"
    },
@@ -2467,14 +2467,14 @@ window.DB.generated = {
    {
     "date": "2026-10-26",
     "time": "19:40",
-    "channel": "ספורט 5+ לייב",
+    "channel": "ספורט 5+",
     "sport": "כדורסל",
     "title": "מכבי אשדוד - הפועל גליל עליון"
    },
    {
     "date": "2026-10-26",
     "time": "19:50",
-    "channel": "5 סטארס",
+    "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "מכבי רמת גן - עירוני קריית אתא"
    },
@@ -2942,8 +2942,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T06:17:35+00:00",
-  "fetched_at": "2026-10-24T06:17:35+00:00"
+  "checked_at": "2026-10-24T07:17:24+00:00",
+  "fetched_at": "2026-10-24T07:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3122,12 +3122,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T06:17:35+00:00",
-  "fetched_at": "2026-10-24T06:17:35+00:00"
+  "checked_at": "2026-10-24T07:17:24+00:00",
+  "fetched_at": "2026-10-24T07:17:24+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/anthropic-launches-claude-duet-ai-agent/",
+     "date": "2026-10-22T06:47:01+00:00",
+     "launch": true,
+     "title": "אנת'רופיק חושפת עוזר AI חדש, Claude Duet, שיעבוד במקומכם"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/decisions-api",
@@ -3136,28 +3143,19 @@ window.DB.generated = {
      "title_en": "Build more responsive apps with the Decisions API",
      "title_he": "בנה אפליקציות רספונסיביות יותר עם Decisions API",
      "translated_by": "google"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-     "date": "2026-10-22T14:30:24+00:00",
-     "launch": false,
-     "title_en": "Beyond tree cover: mapping the world’s forest types",
-     "title_he": "מעבר לכיסוי העצים: מיפוי סוגי היערות בעולם",
-     "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 10,
    "failed_sources": [
     "Anthropic",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 890,
+     "likes": 892,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3185,7 +3183,7 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 169,
+     "likes": 170,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3199,39 +3197,57 @@ window.DB.generated = {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 78,
+     "likes": 79,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
      "title": "Drama 3",
      "desc_en": "Direct Fish Audio Drama 3, streaming on ZeroGPU",
      "desc_he": "Direct Fish Audio Drama 3, סטרימינג ב-ZeroGPU",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/fishaudio/Drama-3"
     },
     {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 336,
+     "likes": 337,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     },
     {
      "title": "Introducing Carbon-X",
      "desc_en": "The best open model for DNA understanding",
      "desc_he": "המודל הפתוח הטוב ביותר להבנת DNA",
-     "likes": 47,
+     "likes": 50,
      "link": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T06:17:41+00:00",
-  "fetched_at": "2026-10-24T06:17:41+00:00"
+  "checked_at": "2026-10-24T07:17:31+00:00",
+  "fetched_at": "2026-10-24T07:17:31+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מדהים: \"פליק מתכנן לכלול את אוריין גורן בסגל לקלאסיקו\"",
+     "link": "https://sports.walla.co.il/item/3873504",
+     "date": "2026-10-24T07:05:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "מתקרב לזימון לקלאסיקו: גורן ישתתף באימון המסכם",
+     "link": "https://www.one.co.il/Article/536875.html?ref=rss",
+     "date": "2026-10-24T06:29:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "\"אבדיה הטיח את עצמו בחומת ההגנה עד שנשברה\"",
      "link": "https://www.one.co.il/Article/536868.html?ref=rss",
@@ -3296,15 +3312,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "דיווח: גורן בתמונת הסגל של ברצלונה לקלאסיקו",
-     "link": "https://www.one.co.il/Article/536822.html?ref=rss",
-     "date": "2026-10-23T12:02:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
-    {
      "title": "קייס גאנם: \"התשובה הכי טובה שלנו היא על המגרש\"",
      "link": "https://sports.walla.co.il/item/3873447",
      "date": "2026-10-23T11:51:00+00:00",
@@ -3357,15 +3364,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "חלאילי בישל בתיקו של פאלאס בטורקיה, מילאן הובסה 3:0 באנגליה",
-     "link": "https://sports.walla.co.il/item/3873177",
-     "date": "2026-10-22T20:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
      ]
     }
    ],
@@ -3569,11 +3567,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-24T06:17:38+00:00",
-  "fetched_at": "2026-10-24T06:17:38+00:00"
+  "checked_at": "2026-10-24T07:17:27+00:00",
+  "fetched_at": "2026-10-24T07:17:27+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "בעקבות הפיגוע הקטלני: צה\"ל מפנה שכונות בחברון",
+    "link": "https://www.walla.co.il/news/military/383958672",
+    "date": "2026-10-24T06:38:31+00:00"
+   },
    {
     "title": "אחרי פיגוע הירי: כוחות הביטחון פתחו במבצע לסיכול טרור בחברון",
     "link": "https://www.walla.co.il/news/military/383958647",
@@ -3593,66 +3596,61 @@ window.DB.generated = {
     "title": "המחבלים אספו מודיעין, ארבו לכוח וידעו את נקודת התורפה | פרטים חדשים מפיגוע הירי",
     "link": "https://www.walla.co.il/news/military/383958588",
     "date": "2026-10-23T04:31:05+00:00"
-   },
-   {
-    "title": "פרסום ראשון: צה\"ל ומשרד הביטחון יקדמו החלטה לפיצוי המילואימניקים",
-    "link": "https://www.walla.co.il/news/military/383958431",
-    "date": "2026-10-23T02:57:34+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T06:17:39+00:00",
-  "fetched_at": "2026-10-24T06:17:39+00:00"
+  "checked_at": "2026-10-24T07:17:27+00:00",
+  "fetched_at": "2026-10-24T07:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-24T06:00:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T07:05:00+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-23T20:05:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-23T20:05:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T05:15:00+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-24T05:19:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T07:05:00+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-23T19:17:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T06:44:00+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-24T05:25:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T07:09:00+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-23T21:22:17+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "newest": "2026-10-24T06:38:31+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3664,28 +3662,28 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-23T14:12:06+00:00",
-    "seen_at": "2026-10-24T05:56:33+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-23T17:18:44+00:00",
-    "seen_at": "2026-10-24T06:17:42+00:00",
+    "seen_at": "2026-10-24T07:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-24T06:17:42+00:00"
+  "checked_at": "2026-10-24T07:17:32+00:00"
  }
 };
