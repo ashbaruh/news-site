@@ -51,7 +51,10 @@ class NoDemoData(unittest.TestCase):
 
     def test_all_loaded_scripts_exist(self):
         html = read("index.html")
-        for src in re.findall(r'<script src="([^"?]+)', html):
+        srcs = re.findall(r'<script src="([^"?]+)', html)
+        # קבצי נתונים שנטענים עם חותמת זמן (document.write) — גם הם חייבים להיות קיימים
+        srcs += re.findall(r"'(data/[\w/.-]+\.js)'", html)
+        for src in srcs:
             if src.startswith("http"):
                 continue
             with self.subTest(src=src):
