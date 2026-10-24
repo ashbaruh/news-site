@@ -57,8 +57,8 @@
     'https://rss.walla.co.il/feed/2501': ['וואלה כל כתבות התיירות', 7],
     'https://rss.walla.co.il/feed/4001': ['וואלה סקירות טק', 45],
     'https://rss.walla.co.il/feed/4000': ['וואלה חדשות טק', 7],
-    'https://rss.walla.co.il/feed/2?type=main': ['וואלה כסף', STUCK_DAYS],
-    'https://rss.walla.co.il/feed/578': ['וואלה חדשות בריאות', STUCK_DAYS]
+    'https://rss.walla.co.il/feed/2?type=main': ['וואלה כסף', STUCK_DAYS]
+    /* וואלה חדשות בריאות — עבר לכתובת חדשה שנבדקת בענן (feed_health), 24/10/2026 */
   };
 
   function feedRows() {

@@ -1,7 +1,11 @@
 /* ============================================================
    positive-live.js — תוכן חיובי: התקדמות רפואית
    ------------------------------------------------------------
-   מקור: וואלה "חדשות בריאות". הפיד מעורבב — אזהרות, סיפורי מחלה,
+   מקור: וואלה "חדשות בריאות".
+     • עיקרי: הכתובת החדשה של וואלה, שנקראת ע"י המשימה בענן (DB.generated.health_news) —
+       היא חוסמת קריאה ישירה מהדפדפן (CORS). הפיד הישן קפא ב-20/10/2026.
+     • גיבוי: הפיד הישן, ישירות מהדפדפן — אם אין עדיין נתון מהענן.
+   הפיד מעורבב — אזהרות, סיפורי מחלה,
    ותוכן ממומן — ולכן יש סינון בשלושה שלבים:
 
    1. ממומן ("בשיתוף", "בחסות") → נזרק תמיד.
@@ -41,8 +45,18 @@
     return { keep: true, tag: approved ? 'approved' : 'research' };
   }
 
+  /* הנתון מהענן, אם יש ואם הוא טרי (עד 6 שעות) */
+  function serverItems() {
+    var g = window.DB.generated && window.DB.generated.health_news;
+    if (!g || !g.ok || !Array.isArray(g.data) || !g.data.length) return null;
+    if (!g.fetched_at || Date.now() - new Date(g.fetched_at).getTime() > 6 * 3600000) return null;
+    return g.data;
+  }
+
   function fetchPositive() {
-    return N.getRss(FEED, 'walla.co.il').then(function (items) {
+    var srv = serverItems();
+    var src = srv ? Promise.resolve(srv) : N.getRss(FEED, 'walla.co.il');
+    return src.then(function (items) {
       var cutoff = Date.now() - 45 * 86400000;
       var counts = { sponsored: 0, negative: 0, neutral: 0 };
       var kept = [];
@@ -59,9 +73,9 @@
     });
   }
 
-  function load() {
+  function load(force) {
     if (!R.isDisplayable(R.sourceById('src_walla'))) return;
-    window.LiveCache.get('feeds_positive', fetchPositive, C.cadence.feeds.refresh_every, N.SIM_DOWN).then(function (entry) {
+    window.LiveCache.get('feeds_positive_v2', fetchPositive, C.cadence.feeds.refresh_every, force || N.SIM_DOWN).then(function (entry) {
       entry.source_id = 'src_walla';
       window.DB.live.positive = entry;
       document.dispatchEvent(new CustomEvent('live:update', { detail: { key: 'positive' } }));
@@ -70,5 +84,9 @@
 
   window.DB.live = window.DB.live || {};
   load();
+  /* הנתון מהענן הגיע אחרי הטעינה (generated-remote.js) — מחשבים מחדש ממנו */
+  document.addEventListener('live:update', function (ev) {
+    if (ev.detail && ev.detail.key === 'generated' && serverItems()) load(true);
+  });
   setInterval(load, 5 * 60 * 1000);
 })();

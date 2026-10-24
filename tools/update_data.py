@@ -118,7 +118,7 @@ def feed_label(url):
     for part, label in [("news/military", "וואלה צבא וביטחון"), ("/feed/13444", "וואלה ישראלים ב-NBA"),
                         ("/feed/316", "וואלה כדורגל עולמי"), ("/feed/156", "וואלה כדורגל ישראלי"),
                         ("one.co.il", "ONE"), ("goodnewsnetwork", "Good News Network"), ("whathifi", "What Hi-Fi?"),
-                        ("globes", "גלובס"), ("deepmind", "Google DeepMind"), ("blog.google", "Google"),
+                        ("healthy/health-news", "וואלה חדשות בריאות"), ("globes", "גלובס"), ("deepmind", "Google DeepMind"), ("blog.google", "Google"),
                         ("geektime", "גיקטיים")]:
         if part in url:
             return label
@@ -738,6 +738,15 @@ def job_idf():
     return items[:5]
 
 
+def job_health_news():
+    """וואלה בריאות — חדשות (לקטע "תוכן חיובי"). וואלה העבירו את מדור הבריאות לכתובת חדשה;
+    הפיד הישן (rss.walla.co.il/feed/578) קפא ב-20/10/2026. הכתובת החדשה חוסמת קריאה מהדפדפן (CORS),
+    לכן היא נקראת כאן, והסינון לתוכן חיובי נשאר בדפדפן (positive-live.js)."""
+    items = read_rss("https://www.walla.co.il/rss/feed/healthy/health-news", "walla.co.il")
+    items.sort(key=lambda i: i["date"], reverse=True)
+    return items[:30]
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -783,6 +792,7 @@ def main():
         ifa_state.get("data") or [], (state.get("tv") or {}).get("data") or [], ifa_fresh))
     run_section(state, "abroad", job_israelis_abroad)
     run_section(state, "idf", job_idf)
+    run_section(state, "health_news", job_health_news)
     run_section(state, "ai", lambda: job_ai(cache))
     run_section(state, "animals", lambda: job_animals(cache))
     run_section(state, "av_en", lambda: job_av(cache))
