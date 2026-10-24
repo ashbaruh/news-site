@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-24T16:39:08+00:00",
-  "fetched_at": "2026-10-24T16:39:08+00:00"
+  "checked_at": "2026-10-24T16:59:52+00:00",
+  "fetched_at": "2026-10-24T16:59:52+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T16:39:20+00:00",
-  "fetched_at": "2026-10-24T16:39:20+00:00"
+  "checked_at": "2026-10-24T17:00:15+00:00",
+  "fetched_at": "2026-10-24T17:00:15+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T16:39:20+00:00",
-  "fetched_at": "2026-10-24T16:39:20+00:00"
+  "checked_at": "2026-10-24T17:00:16+00:00",
+  "fetched_at": "2026-10-24T17:00:16+00:00"
  },
- "generated_at": "2026-10-24T16:39:20+00:00",
+ "generated_at": "2026-10-24T17:00:16+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T16:39:09+00:00",
-  "fetched_at": "2026-10-24T16:39:09+00:00"
+  "checked_at": "2026-10-24T16:59:53+00:00",
+  "fetched_at": "2026-10-24T16:59:53+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T16:39:10+00:00",
-  "fetched_at": "2026-10-24T16:39:10+00:00"
+  "checked_at": "2026-10-24T16:59:54+00:00",
+  "fetched_at": "2026-10-24T16:59:54+00:00"
  },
  "tv": {
   "data": [
@@ -2941,8 +2941,9 @@ window.DB.generated = {
     "title": "ליל - לאנס"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-24T16:39:12+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-10-24T17:00:01+00:00",
   "fetched_at": "2026-10-24T16:39:12+00:00"
  },
  "ligat_haal": {
@@ -3122,8 +3123,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T16:39:12+00:00",
-  "fetched_at": "2026-10-24T16:39:12+00:00"
+  "checked_at": "2026-10-24T17:00:01+00:00",
+  "fetched_at": "2026-10-24T17:00:01+00:00"
  },
  "ai": {
   "data": {
@@ -3223,8 +3224,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T16:39:19+00:00",
-  "fetched_at": "2026-10-24T16:39:19+00:00"
+  "checked_at": "2026-10-24T17:00:15+00:00",
+  "fetched_at": "2026-10-24T17:00:15+00:00"
  },
  "abroad": {
   "data": {
@@ -3567,8 +3568,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-24T16:39:15+00:00",
-  "fetched_at": "2026-10-24T16:39:15+00:00"
+  "checked_at": "2026-10-24T17:00:04+00:00",
+  "fetched_at": "2026-10-24T17:00:04+00:00"
  },
  "idf": {
   "data": [
@@ -3599,8 +3600,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T16:39:16+00:00",
-  "fetched_at": "2026-10-24T16:39:16+00:00"
+  "checked_at": "2026-10-24T17:00:05+00:00",
+  "fetched_at": "2026-10-24T17:00:05+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3608,82 +3609,245 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-24T16:14:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-24T15:00:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-24T16:03:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-24T15:29:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-24T16:12:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-24T16:31:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "newest": "2026-10-24T16:48:00+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-24T16:33:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "newest": "2026-10-24T16:39:00+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-24T15:03:19+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-24T15:40:05+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-24T16:39:20+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
+    "stuck": false
+   },
+   "https://www.walla.co.il/rss/feed/healthy/health-news": {
+    "label": "וואלה חדשות בריאות",
+    "newest": "2026-10-22T05:45:35+00:00",
+    "seen_at": "2026-10-24T17:00:16+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-24T16:39:20+00:00"
+  "checked_at": "2026-10-24T17:00:16+00:00"
+ },
+ "health_news": {
+  "data": [
+   {
+    "title": "למי אפשר להאמין? משבר האמון בחיסונים ומה שחשוב לדעת",
+    "link": "https://www.walla.co.il/healthy/health-news/383958389",
+    "date": "2026-10-22T05:45:35+00:00"
+   },
+   {
+    "title": "לרזות בלי זריקה: כמה תרדו במשקל מכדור ההרזיה שמגיע לישראל?",
+    "link": "https://www.walla.co.il/healthy/health-news/383958411",
+    "date": "2026-10-21T21:10:15+00:00"
+   },
+   {
+    "title": "BeOne עוברת לפעילות ישירה בישראל: רועי אליה מונה למנכ\"ל",
+    "link": "https://www.walla.co.il/healthy/health-news/383958331",
+    "date": "2026-10-21T10:14:26+00:00"
+   },
+   {
+    "title": "מעלים סלפי ומגלים: מהו הגיל הביולוגי שלכם? מודל חדש של AI",
+    "link": "https://www.walla.co.il/healthy/health-news/383958320",
+    "date": "2026-10-21T09:22:26+00:00"
+   },
+   {
+    "title": "ד\"ר מאיה רוזמן: איך מקבלים חלבון איכותי בלי לאכול בשר?",
+    "link": "https://www.walla.co.il/healthy/health-news/3873009",
+    "date": "2026-10-20T09:26:00+00:00"
+   },
+   {
+    "title": "אחדות? מה מחבר בין בנט, איזנקוט ובן גביר דווקא בתחום הבריאות?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872970",
+    "date": "2026-10-20T07:01:00+00:00"
+   },
+   {
+    "title": "האף סתום? הפעולה המפתיעה שתשחרר הכל - בלי תרופות",
+    "link": "https://www.walla.co.il/healthy/health-news/3872867",
+    "date": "2026-10-20T06:21:00+00:00"
+   },
+   {
+    "title": "קולה זירו או קולה רגילה: מה באמת עדיף לבריאות?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872784",
+    "date": "2026-10-19T21:34:00+00:00"
+   },
+   {
+    "title": "לא רק המשקל יורד: מה קורה לגוף כשמפסיקים לאכול ב-6 בערב",
+    "link": "https://www.walla.co.il/healthy/health-news/3872567",
+    "date": "2026-10-19T11:50:00+00:00"
+   },
+   {
+    "title": "קטן בתיק, שימושי לאורך היום: מגני תחתון באריזה אישית",
+    "link": "https://www.walla.co.il/healthy/health-news/3872863",
+    "date": "2026-10-19T10:51:00+00:00"
+   },
+   {
+    "title": "קרם חמאת מגן נוגד חמצון",
+    "link": "https://www.walla.co.il/healthy/health-news/3872862",
+    "date": "2026-10-19T10:43:00+00:00"
+   },
+   {
+    "title": "אחרי פרס ישראל: נעמי סטוצ'ינר קיבלה את פרס \"בוני ציון\"",
+    "link": "https://www.walla.co.il/healthy/health-news/3872858",
+    "date": "2026-10-19T10:31:00+00:00"
+   },
+   {
+    "title": "ד\"ר מאיה רוזמן: לבבות דקל בשימורים: מה נשאר מהערך התזונתי?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872810",
+    "date": "2026-10-19T07:26:00+00:00"
+   },
+   {
+    "title": "לא רק ממוגרפיה: מה את יכולה לעשות כדי להפחית את הסיכון לסרטן השד?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872630",
+    "date": "2026-10-19T07:07:00+00:00"
+   },
+   {
+    "title": "מהרחוב לסלון: מה אתם מכניסים הביתה על סוליות הנעליים?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872645",
+    "date": "2026-10-19T04:47:00+00:00"
+   },
+   {
+    "title": "מחקר ענק מצא: 6 מאכלים שאנשים שאוכלים אותם - מאריכים חיים",
+    "link": "https://www.walla.co.il/healthy/health-news/3872534",
+    "date": "2026-10-19T04:26:00+00:00"
+   },
+   {
+    "title": "תמיכה ומראה חלק: קולקציית ההלבשה התחתונה החדשה",
+    "link": "https://www.walla.co.il/healthy/health-news/3872711",
+    "date": "2026-10-18T12:41:00+00:00"
+   },
+   {
+    "title": "צבע ביום, לחות בלילה: המוצרים החדשים לשפתיים של פלקסיטול",
+    "link": "https://www.walla.co.il/healthy/health-news/3872707",
+    "date": "2026-10-18T12:28:00+00:00"
+   },
+   {
+    "title": "להרגיש רזים יותר: מחטב וחזיית סטרפלס בפריט אחד",
+    "link": "https://www.walla.co.il/healthy/health-news/3872705",
+    "date": "2026-10-18T12:26:00+00:00"
+   },
+   {
+    "title": "הטבע מגיע אליהם: \"הגינה הניידת\" שמנגישה שתילה לאנשים עם מוגבלויות",
+    "link": "https://www.walla.co.il/healthy/health-news/3872695",
+    "date": "2026-10-18T11:09:00+00:00"
+   },
+   {
+    "title": "פעם בחצי שנה: האם כך ייראה הדור הבא של הטיפול באסתמה קשה?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872680",
+    "date": "2026-10-18T09:36:00+00:00"
+   },
+   {
+    "title": "מה לא מספרים לנו בטבלת הערכים התזונתיים שעל אריזות המזון?",
+    "link": "https://www.walla.co.il/healthy/health-news/3872647",
+    "date": "2026-10-18T07:25:00+00:00"
+   },
+   {
+    "title": "כשהלב דוהר בלי סיבה: קסנקס, התקפי פאניקה והמחיר של פתרון מהיר",
+    "link": "https://www.walla.co.il/healthy/health-news/3872625",
+    "date": "2026-10-18T07:25:00+00:00"
+   },
+   {
+    "title": "פחמימה בריאה: אל תקנו לחם בלי לבדוק את 3 הדברים האלו",
+    "link": "https://www.walla.co.il/healthy/health-news/3872533",
+    "date": "2026-10-18T06:11:00+00:00"
+   },
+   {
+    "title": "אוכלים בריא והמשקל תקוע? זו הטעות שלכם",
+    "link": "https://www.walla.co.il/healthy/health-news/3872565",
+    "date": "2026-10-17T21:38:00+00:00"
+   },
+   {
+    "title": "סוכריות נגד קמטים: \"העור הפך צעיר ב-10 שנים לפחות\"",
+    "link": "https://www.walla.co.il/healthy/health-news/3872529",
+    "date": "2026-10-17T07:36:00+00:00"
+   },
+   {
+    "title": "צבע עדין וברק גלוס: הבאלם לשפתיים של מייבלין",
+    "link": "https://www.walla.co.il/healthy/health-news/3872230",
+    "date": "2026-10-15T15:49:00+00:00"
+   },
+   {
+    "title": "אף סתום? תרסיסי מי ים לתינוקות, לילדים ולמבוגרים",
+    "link": "https://www.walla.co.il/healthy/health-news/3872227",
+    "date": "2026-10-15T15:39:00+00:00"
+   },
+   {
+    "title": "הסרטון מבטיח שיניים לבנות. הנזק עלול להישאר לשנים",
+    "link": "https://www.walla.co.il/healthy/health-news/3872217",
+    "date": "2026-10-15T11:46:00+00:00"
+   },
+   {
+    "title": "אלחוטית עם 5 צבעים: בדקנו את מסכת הלד החדשה של Dreame",
+    "link": "https://www.walla.co.il/healthy/health-news/3871846",
+    "date": "2026-10-15T11:41:00+00:00"
+   }
+  ],
+  "ok": true,
+  "checked_at": "2026-10-24T17:00:05+00:00",
+  "fetched_at": "2026-10-24T17:00:05+00:00"
  }
 };
