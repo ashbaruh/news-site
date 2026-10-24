@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-24T12:17:12+00:00",
-  "fetched_at": "2026-10-24T12:17:12+00:00"
+  "checked_at": "2026-10-24T13:17:17+00:00",
+  "fetched_at": "2026-10-24T13:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T12:17:28+00:00",
-  "fetched_at": "2026-10-24T12:17:28+00:00"
+  "checked_at": "2026-10-24T13:17:32+00:00",
+  "fetched_at": "2026-10-24T13:17:32+00:00"
  },
  "av_en": {
   "data": [
@@ -77,25 +77,35 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T12:17:28+00:00",
-  "fetched_at": "2026-10-24T12:17:28+00:00"
+  "checked_at": "2026-10-24T13:17:32+00:00",
+  "fetched_at": "2026-10-24T13:17:32+00:00"
  },
- "generated_at": "2026-10-24T12:17:28+00:00",
+ "generated_at": "2026-10-24T13:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הוא התחיל בהשקעה במדדים, עבר לנדל\"ן ושש שנים אחרי מחזיק 3 דירות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001559407",
-     "date": "2026-10-24T10:30:00+00:00"
+     "title": "האם החיסכון שלכם מוכן למפולת - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560429",
+     "date": "2026-10-24T13:00:00+00:00"
     },
     {
      "title": "איראן \"הגבירה משמעותית\" מאמצים לפגיעה בבכירים אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560615",
-     "date": "2026-10-24T11:00:00+00:00"
+     "date": "2026-10-24T13:07:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "האם החיסכון שלכם מוכן למפולת - ועוד 4 כתבות על המצב בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560429",
+     "date": "2026-10-24T13:00:00+00:00"
+    },
+    {
+     "title": "האם קריפטו יציל את ישראל מסנקציות? השאלות מאחורי דברי נתניהו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560614",
+     "date": "2026-10-24T05:37:00+00:00"
+    },
     {
      "title": "בוגר דוקטורט מפרינסטון הגיש מועמדות ל־2,300 משרות. הוא עדיין לא מצליח למצוא עבודה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560125",
@@ -210,22 +220,12 @@
      "title": "\"שיעור הבועה\" של וורן באפט חוזר לרדוף את וול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560427",
      "date": "2026-10-22T09:26:00+00:00"
-    },
-    {
-     "title": "רבעון שחור לקרן העושר הנורבגית: הפסד של 30 מיליארד דולר בשל הטלטלה בשוק האג\"ח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560431",
-     "date": "2026-10-22T08:51:00+00:00"
-    },
-    {
-     "title": "במחיר ממוצע של 2.7 מיליון שקל לדירה: העסקאות שמזיזות את השוק הקפוא",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560376",
-     "date": "2026-10-22T08:34:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T12:17:12+00:00",
-  "fetched_at": "2026-10-24T12:17:12+00:00"
+  "checked_at": "2026-10-24T13:17:19+00:00",
+  "fetched_at": "2026-10-24T13:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T12:17:13+00:00",
-  "fetched_at": "2026-10-24T12:17:13+00:00"
+  "checked_at": "2026-10-24T13:17:21+00:00",
+  "fetched_at": "2026-10-24T13:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2940,8 +2940,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T12:17:20+00:00",
-  "fetched_at": "2026-10-24T12:17:20+00:00"
+  "checked_at": "2026-10-24T13:17:23+00:00",
+  "fetched_at": "2026-10-24T13:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3120,8 +3120,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T12:17:20+00:00",
-  "fetched_at": "2026-10-24T12:17:20+00:00"
+  "checked_at": "2026-10-24T13:17:23+00:00",
+  "fetched_at": "2026-10-24T13:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -3143,23 +3143,24 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 8,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 900,
+     "likes": 901,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 203,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3180,7 +3181,7 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 172,
+     "likes": 173,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3215,25 +3216,52 @@
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 338,
+     "likes": 339,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-24T12:17:26+00:00",
-  "fetched_at": "2026-10-24T12:17:26+00:00"
+  "checked_at": "2026-10-24T13:17:30+00:00",
+  "fetched_at": "2026-10-24T13:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "רביבו בהרכב: ראיו וייקאנו - אלצ'ה 0:0 (מחצית 1)",
+     "title": "דרבי ישראלי בצ'מפיונשיפ: פרץ בין הקורות, סולומון יכבוש מולו?",
+     "link": "https://sports.walla.co.il/item/3873514",
+     "date": "2026-10-24T12:45:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "סולומון בהרכב ווסטהאם, פרץ בשער של סאות'המפטון",
+     "link": "https://www.one.co.il/Article/536902.html?ref=rss",
+     "date": "2026-10-24T12:45:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "רביבו סחט פנדל: ראיו וייקאנו - אלצ'ה 2:0 (מחצית 2)",
      "link": "https://sports.walla.co.il/item/3873342",
      "date": "2026-10-24T12:00:00+00:00",
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "ענק: דולגופיאט זכה במדליית ארד באליפות העולם",
+     "link": "https://www.one.co.il/Article/536824.html?ref=rss",
+     "date": "2026-10-24T12:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
      ]
     },
     {
@@ -3334,33 +3362,6 @@
      "source": "וואלה",
      "players": [
       "קייס גאנם"
-     ]
-    },
-    {
-     "title": "\"מעשנים את פיניקס\": החגיגה של אבדיה ומוראנט כבשה את הרשת",
-     "link": "https://sports.walla.co.il/item/3873334",
-     "date": "2026-10-22T08:45:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"דני אבדיה בדרך להפוך לאחד הגדולים בתולדות פורטלנד\"",
-     "link": "https://sports.walla.co.il/item/3873248",
-     "date": "2026-10-21T17:37:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
-     "link": "https://sports.walla.co.il/item/3873071",
-     "date": "2026-10-21T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3564,11 +3565,16 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-24T12:17:23+00:00",
-  "fetched_at": "2026-10-24T12:17:23+00:00"
+  "checked_at": "2026-10-24T13:17:26+00:00",
+  "fetched_at": "2026-10-24T13:17:26+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "גל הפוסט-טראומה רק בתחילתו: החשש של אנשי המילואים ממשבר נפשי בצה\"ל",
+    "link": "https://www.walla.co.il/news/military/383958435",
+    "date": "2026-10-24T13:05:57+00:00"
+   },
    {
     "title": "נערכים למנוע את המחדל הבא? התיקון שעובר חיל האוויר, מקצה לקצה",
     "link": "https://www.walla.co.il/news/military/383958653",
@@ -3588,66 +3594,61 @@
     "title": "הותר לפרסום: שני לוחמי צה\"ל נפלו בפיגוע הירי סמוך לחברון",
     "link": "https://www.walla.co.il/news/military/383958625",
     "date": "2026-10-23T12:18:04+00:00"
-   },
-   {
-    "title": "המחבלים התקילו את הכוח במחסום; הירי נמשך למעלה מ-20 דקות | הפיגוע ביו\"ש - דקה אחר דקה",
-    "link": "https://www.walla.co.il/news/military/383958608",
-    "date": "2026-10-23T09:21:27+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-24T12:17:23+00:00",
-  "fetched_at": "2026-10-24T12:17:23+00:00"
+  "checked_at": "2026-10-24T13:17:27+00:00",
+  "fetched_at": "2026-10-24T13:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-24T11:00:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T13:07:00+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-23T20:05:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T13:00:00+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-24T05:15:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-22T08:45:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-24T12:00:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T13:06:00+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-24T07:12:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T12:07:00+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-24T12:00:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T12:45:00+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-24T08:49:20+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "newest": "2026-10-24T13:05:57+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3659,28 +3660,28 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-24T11:25:04+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-24T12:17:28+00:00",
+    "seen_at": "2026-10-24T13:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-24T12:17:28+00:00"
+  "checked_at": "2026-10-24T13:17:32+00:00"
  }
 }
