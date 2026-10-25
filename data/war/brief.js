@@ -1,61 +1,96 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-25T04:00:00+02:00",
- "generated_at": "2026-10-25T01:40:23+00:00",
+ "slot": "2026-10-25T12:00:00+02:00",
+ "generated_at": "2026-10-25T09:40:24+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10250140-01",
-     "title": "טראמפ התבטא על אפשרות לתקיפה באיראן או השגת הסכם",
-     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי וושינגטון עשויה לתקוף באיראן בהקדם או להגיע עמה להסכם.",
-     "axis": "עימות ארצות הברית-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:13:48+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:13:48+00:00",
-     "last_update_at": "2026-10-24T23:13:48+00:00",
-     "what_is_not_verified": "האם יבוצעו תקיפות או שיושג הסכם בין הצדדים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-could-strike-iran-tomorrow-or-strike-beautiful-deal",
-       "published_at": "2026-10-24T23:13:48+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10250140-02",
-     "title": "הפסקת חשמל באי קיש באיראן",
-     "summary": "דווח על התרחשות הפסקת חשמל באי קיש שבאיראן.",
-     "axis": "פנים איראן",
+     "id": "IRAN-10250940-01",
+     "title": "הפלת כלי טיס בלתי מאויש אמריקני מעל בנדר עבאס",
+     "summary": "מערך ההגנה האווירית של צבא איראן יירט כלי טיס בלתי מאויש אמריקני מדגם לוקאס בשמי עיר הנמל בנדר עבאס.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:32:18+00:00",
+     "occurred_at": "2026-10-25T08:22:54+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:32:18+00:00",
-     "last_update_at": "2026-10-24T23:32:18+00:00",
-     "what_is_not_verified": "סיבת הפסקת החשמל והיקפה המלא",
+     "first_reported_at": "2026-10-25T08:22:54+00:00",
+     "last_update_at": "2026-10-25T08:22:54+00:00",
+     "what_is_not_verified": "אין אימות עצמאי או תגובה רשמית מארצות הברית להפלת כלי הטיס.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48906",
-       "published_at": "2026-10-24T23:32:18+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "or_irna",
+       "url": "https://en.irna.ir/news/86302670/Iran-s-Army-shoots-down-US-Lucas-drone-over-port-city-of-Bandar",
+       "published_at": "2026-10-25T08:22:54+00:00"
       }
      ],
      "places": [
       {
-       "name": "האי קיש, איראן",
-       "lat": 26.5351,
-       "lon": 53.972
+       "name": "בנדר עבאס, איראן",
+       "lat": 27.1842,
+       "lon": 56.2893
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10250940-02",
+     "title": "אזהרת יו\"ר הפרלמנט האיראני מפני פגיעה בשלמות הטריטוריאלית",
+     "summary": "יושב ראש הפרלמנט של איראן מוחמד באקר קאליבאף הצהיר כי ארצו ערוכה להגיב באופן שיחרוג מציפיות אויביה לכל תקיפה נגד שטחה.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T09:37:11+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T09:37:11+00:00",
+     "last_update_at": "2026-10-25T09:37:11+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_irna",
+       "url": "https://en.irna.ir/news/86302709/Iran-ready-to-deliver-response-beyond-enemy-s-expectations-Speaker",
+       "published_at": "2026-10-25T09:37:11+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10250940-03",
+     "title": "טענה לתקיפת ספריית משרד החוץ האיראני בידי ישראל",
+     "summary": "בכיר במשרד החוץ האיראני טוען כי תקיפה ישראלית השביתה את פעילות ספריית המשרד בטהראן.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T07:49:48+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T07:49:48+00:00",
+     "last_update_at": "2026-10-25T07:49:48+00:00",
+     "what_is_not_verified": "אין אישור ישראלי או גורם בלתי תלוי לקיום התקיפה או היקף הנזק.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_irna",
+       "url": "https://en.irna.ir/news/86302569/Khatibzadeh-Israeli-regime-attacked-Foreign-Ministry-Library",
+       "published_at": "2026-10-25T07:49:48+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
@@ -64,110 +99,60 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10250140-01",
-     "title": "תקיפות ארטילריות ואוויריות בדרום לבנון",
-     "summary": "ארטילריה ישראלית הפגיזה בעיירה אל-מנצורי, לצד דיווח על תקיפה אווירית באזור ואדי אל-חוג'יר בדרום לבנון.",
-     "axis": "חזית הצפון - לבנון",
+     "id": "NORTH-10250940-01",
+     "title": "ירי ארטילרי לעבר עיירה בדרום לבנון",
+     "summary": "ארטילריה ישראלית ביצעה ירי לעבר מרחב העיירה חדאת'א שבדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T17:39:22+00:00",
+     "occurred_at": "2026-10-25T06:40:02+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-24T17:39:22+00:00",
-     "last_update_at": "2026-10-24T19:31:20+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים בתקיפות",
+     "first_reported_at": "2026-10-25T06:40:02+00:00",
+     "last_update_at": "2026-10-25T06:40:02+00:00",
+     "what_is_not_verified": "לא פורטו נפגעים או נזק, ואין אישור רשמי נוסף מעבר לדיווח ברשת אל-מנאר.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_961bf1c55000604d",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-artillery-shells-town-southern-lebanons-tyre-district",
-       "published_at": "2026-10-24T19:31:20+00:00"
-      },
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_961bf1c55000604d",
-       "url": "https://english.almanar.com.lb/article/142367/",
-       "published_at": "2026-10-24T17:39:22+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אל-מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "ואדי אל-חוג'יר, לבנון",
-       "lat": 33.2589,
-       "lon": 35.459
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10250140-02",
-     "title": "שוודיה דחתה בקשת טיסות ישירות מדמשק משיקולי ביטחון",
-     "summary": "הרשויות בשוודיה סירבו לבקשת חברת התעופה הסורית להפעיל קו ישיר בין דמשק לסטוקהולם עקב סיכונים ביטחוניים במרחב האווירי של סוריה.",
-     "axis": "סוריה והזירה הבינלאומית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T19:15:59+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T19:15:59+00:00",
-     "last_update_at": "2026-10-24T19:15:59+00:00",
-     "what_is_not_verified": "אין ממצאים סותרים לגבי נימוקי הרשויות בשוודיה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48902",
-       "published_at": "2026-10-24T19:15:59+00:00"
+       "url": "https://english.almanar.com.lb/article/142422/",
+       "published_at": "2026-10-25T06:40:02+00:00"
       }
      ],
      "places": [
       {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      },
-      {
-       "name": "סטוקהולם, שוודיה",
-       "lat": 59.3251,
-       "lon": 18.0711
+       "name": "חדאת'א, לבנון",
+       "lat": 33.165,
+       "lon": 35.3916
       }
      ]
     },
     {
-     "id": "NORTH-10250140-03",
-     "title": "סגירת ציר סווידא-דמשק בידי חמושים",
-     "summary": "תנועת כלי הרכב בכביש המרכזי שבין סווידא לדמשק נעצרה עקב חסימת מחסום אום א-זיתון על ידי מיליציה חמושה.",
-     "axis": "הזירה הפנים-סורית",
+     "id": "NORTH-10250940-02",
+     "title": "פציעת אזרחים מירי חמושים בצפון סוריה",
+     "summary": "חמושים שזהותם אינה ידועה פתחו באש לעבר כלי רכב ופצעו שלושה אזרחים באזור הכפרי שמצפון לחלב.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-24T14:53:21+00:00",
-     "last_update_at": "2026-10-24T14:53:21+00:00",
-     "what_is_not_verified": "משך החסימה ומצב המעבר הנוכחי",
+     "occurred_at": "2026-10-25T09:28:36+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T09:28:36+00:00",
+     "last_update_at": "2026-10-25T09:28:36+00:00",
+     "what_is_not_verified": "זהות היורים והנסיבות המדויקות אינן מאומתות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/hijris-national-guard-militia-closes-suweida-damascus-highway",
-       "published_at": "2026-10-24T14:53:21+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/3-civilians-wounded-in-shooting-by-unidentified-gunmen-in-northern-syria/4100113",
+       "published_at": "2026-10-25T09:28:36+00:00"
       }
      ],
      "places": [
       {
-       "name": "סווידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
-      },
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
+       "name": "חלב, סוריה",
+       "lat": 36.1992,
+       "lon": 37.1637
       }
      ]
     }
@@ -176,100 +161,105 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10250140-01",
-     "title": "תקיפת כטב\"מים אוקראינית על מרכז קניות בבלגורוד",
-     "summary": "מתקפת כטב\"מים אוקראינית פגעה במרכז מסחרי גדול במחוז בלגורוד ברוסיה וגרמה לנזק ולנפגעים.",
-     "axis": "רוסיה-אוקראינה: תקיפות בעומק רוסיה",
+     "id": "UKRAINE-10250940-01",
+     "title": "מתקפת כטב\"מים וטילים רחבה ברחבי אוקראינה ופגיעה בוויניצה",
+     "summary": "צבא רוסיה שיגר 153 כלי טיס בלתי מאוישים וטילי שיוט לעבר שטח אוקראינה, כאשר כטב\"ם פגע בבניין מגורים בוויניצה וגרם לפציעת אזרחים.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:27:09+00:00",
+     "occurred_at": "2026-10-25T06:27:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:27:09+00:00",
-     "last_update_at": "2026-10-24T23:50:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים המדויק וממדי ההרס המלאים",
+     "first_reported_at": "2026-10-25T06:27:00+00:00",
+     "last_update_at": "2026-10-25T08:20:36+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_0cbaa376d1743f3a",
+       "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/",
+       "published_at": "2026-10-25T08:20:36+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_0cbaa376d1743f3a",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059598/",
+       "published_at": "2026-10-25T06:44:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_0cbaa376d1743f3a",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059597/",
+       "published_at": "2026-10-25T06:27:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ויניצה, אוקראינה",
+       "lat": 49.232,
+       "lon": 28.468
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10250940-02",
+     "title": "תקיפות במחוז דניפרופטרובסק ופגיעה בתשתיות בדניפרו",
+     "summary": "כוחות רוסיים תקפו יעדים ותשתיות חיוניות במחוז דניפרופטרובסק, באירועים שבהם נהרגו ארבעה בני אדם ונפצעו 14 נוספים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T05:36:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T05:36:00+00:00",
+     "last_update_at": "2026-10-25T07:21:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_c3a30a62210b7a20",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059602/",
+       "published_at": "2026-10-25T07:21:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_c6b86fcd211ec2fb",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059595/",
+       "published_at": "2026-10-25T05:36:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דניפרו, אוקראינה",
+       "lat": 51.5567,
+       "lon": 30.6122
+      },
+      {
+       "name": "סינלניקובה, אוקראינה",
+       "lat": 48.3269,
+       "lon": 35.5247
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10250940-03",
+     "title": "טענת רוסיה ליירוט מאות כלי טיס בלתי מאוישים מעל שטחה",
+     "summary": "משרד ההגנה הרוסי דיווח כי מערכות ההגנה האווירית יירטו והשמידו במהלך הלילה 532 כטב\"מים אוקראיניים מעל 23 מחוזות וים אזוב.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T07:11:26+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T07:11:26+00:00",
+     "last_update_at": "2026-10-25T07:11:26+00:00",
+     "what_is_not_verified": "אין אימות בלתי תלוי למספר כלי הטיס שיורטו בפועל או להיקף השיגורים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
-       "source_root_id": "fh_3332b61b681025b1",
-       "url": "https://tass.com/politics/2207373",
-       "published_at": "2026-10-24T23:50:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_3332b61b681025b1",
-       "url": "https://kyivindependent.com/massive-ukrainian-drone-attack-hits-shopping-center-in-russias-belgorod-oblast-locals-say/",
-       "published_at": "2026-10-24T23:27:09+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בלגורוד, רוסיה",
-       "lat": 50.5956,
-       "lon": 36.5873
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10250140-02",
-     "title": "הרוגים ופצועים בתקיפות כטב\"מים רוסיים במחוז דניפרופטרובסק ובחרקוב",
-     "summary": "תקיפות כלי טיס בלתי מאוישים שביצעה רוסיה פגעו במבנה מגורים במחוז דניפרופטרובסק וברובע בחרקוב, והביאו להרג של ארבעה בני אדם ולפציעת אחרים.",
-     "axis": "רוסיה-אוקראינה: תקיפות בעורף האוקראיני",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T21:01:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T21:01:00+00:00",
-     "last_update_at": "2026-10-24T21:42:59+00:00",
-     "what_is_not_verified": "מצבם העדכני של הפצועים בבתי החולים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/deadly-russian-drone-strike-targets-apartment-in-dnipropetrovsk-oblast-killing-3-injuring-12/",
-       "published_at": "2026-10-24T21:42:59+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4177887-russian-drone-attack-on-kharkiv-kills-one-person-and-injures-others.html",
-       "published_at": "2026-10-24T21:01:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10250140-03",
-     "title": "טענות של מאסק לחסימת פרצת שימוש של צבא אוקראינה בסטארלינק",
-     "summary": "אילון מאסק הודיע כי נחסמה פרצה שאפשרה לצבא האוקראיני להשתמש במערכת סטארלינק לצורך תקיפות רחפנים התקפיות, בניגוד לתנאי השירות.",
-     "axis": "היבטים טכנולוגיים וסיוע במלחמה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T19:34:12+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T19:34:12+00:00",
-     "last_update_at": "2026-10-24T21:25:58+00:00",
-     "what_is_not_verified": "ההשפעה המבצעית בפועל של המהלך על יכולות הצבא האוקראיני",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48903",
-       "published_at": "2026-10-24T19:34:12+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
-       "published_at": "2026-10-24T21:25:58+00:00"
+       "source_root_id": "or_tass",
+       "url": "https://tass.com/defense/2207429",
+       "published_at": "2026-10-25T07:11:26+00:00"
       }
      ],
      "places": []
@@ -279,111 +269,89 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10250140-01",
-     "title": "אזהרה מחודשת של החות'ים מפני שימוש בנמל התעופה בריאד",
-     "summary": "דובר צבאי מטעם החות'ים חזר והזהיר חברות תעופה ונוסעים משימוש בנמל התעופה הבינלאומי בריאד, והגדיר אותו יעד צבאי.",
-     "axis": "החות'ים מול סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:05:18+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:05:18+00:00",
-     "last_update_at": "2026-10-25T00:46:40+00:00",
-     "what_is_not_verified": "האם ימומשו איומי תקיפה מיידיים נגד הטרמינלים שייפתחו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-renew-warning-against-using-riyadh-airport",
-       "published_at": "2026-10-25T00:46:40+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-renew-warning-against-using-riyadh-airport",
-       "published_at": "2026-10-24T23:05:18+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10250140-02",
-     "title": "יירוט כטב\"ם באזור ריאד ופיצוצים בדרום תימן",
-     "summary": "כוחות הקואליציה בהובלת סעודיה יירטו כלי טיס בלתי מאויש באזור הבירה ריאד, במקביל לדיווח על פיצוצים עזים בדרום תימן.",
-     "axis": "עימות הקואליציה והחות'ים",
+     "id": "YEMEN-10250940-01",
+     "title": "יירוט מתקפת טילים בליסטיים וכטב\"ם ששוגרו לעבר סעודיה",
+     "summary": "הקואליציה בראשות סעודיה הודיעה על יירוט והשמדה של עשרה טילים בליסטיים וכלי טיס בלתי מאויש ששיגרו החות'ים לעבר ריאד והאזור הדרומי.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:23:29+00:00",
+     "occurred_at": "2026-10-25T08:55:25+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:23:29+00:00",
-     "last_update_at": "2026-10-24T23:23:29+00:00",
-     "what_is_not_verified": "מקור ומהות הפיצוצים שנשמעו בדרום תימן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_1ccf4cc67f881d27",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
-       "published_at": "2026-10-24T23:23:29+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      },
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      },
-      {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10250140-03",
-     "title": "מתקפת טילים בליסטיים על אתרים בעדן",
-     "summary": "החות'ים שיגרו טילים בליסטיים לעבר העיר עדן, כאשר לפי גורמים רשמיים הפגיעות היו בסביבת נמל התעופה ובמתקני משמר החופים.",
-     "axis": "מלחמת הפנים בתימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T16:53:56+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T16:53:56+00:00",
-     "last_update_at": "2026-10-24T18:13:35+00:00",
-     "what_is_not_verified": "מידת הנזק המדויקת שנגרמה למתקני הנמל ומשמר החופים",
+     "first_reported_at": "2026-10-25T08:55:25+00:00",
+     "last_update_at": "2026-10-25T09:27:31+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "fh_ecdd2a28aa1df3dd",
-       "url": "https://www.newarab.com/news/houthi-missiles-target-aden-airport-coastguard",
-       "published_at": "2026-10-24T18:13:35+00:00"
+       "source_root_id": "fh_be63865c62bc9ebd",
+       "url": "https://www.newarab.com/news/saudi-downs-10-houthi-missiles-riyadh-airport-reopens",
+       "published_at": "2026-10-25T09:27:31+00:00"
       },
       {
        "source_id": "src_saba_aden",
-       "source_root_id": "fh_ecdd2a28aa1df3dd",
-       "url": "https://www.sabanew.net/viewstory/154558",
-       "published_at": "2026-10-24T16:53:56+00:00"
+       "source_root_id": "fh_be63865c62bc9ebd",
+       "url": "https://www.sabanew.net/viewstory/154586",
+       "published_at": "2026-10-25T08:55:25+00:00"
       }
      ],
      "places": [
       {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10250940-02",
+     "title": "יירוט טיל שיוט ששוגר לעבר שטח סעודיה",
+     "summary": "כוחות הקואליציה יירטו והשמידו טיל שיוט ששיגרו החות'ים לכיוון ערב הסעודית.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T07:08:10+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T07:08:10+00:00",
+     "last_update_at": "2026-10-25T07:08:10+00:00",
+     "what_is_not_verified": "מיקום היירוט המדויק אינו מפורט בהודעה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_bf3ca8358021f137",
+       "url": "https://www.sabanew.net/viewstory/154585",
+       "published_at": "2026-10-25T07:08:10+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10250940-03",
+     "title": "אזהרת החות'ים מפני שימוש בנמל התעופה הבינלאומי בריאד",
+     "summary": "דובר הזרוע הצבאית של החות'ים חידש את האזהרה לחברות תעופה ולנוסעים מפני שימוש בנמל התעופה על שם המלך ח'אלד בריאד, והגדיר אותו כמטרה צבאית.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T04:10:58+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T04:10:58+00:00",
+     "last_update_at": "2026-10-25T04:10:58+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-renew-warning-against-using-king-khalid-airport",
+       "published_at": "2026-10-25T04:10:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נמל התעופה הבינלאומי המלך ח'אלד, ריאד, סעודיה",
+       "lat": 24.9586,
+       "lon": 46.711
       }
      ]
     }
