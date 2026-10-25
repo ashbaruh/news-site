@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T12:17:25+00:00",
-  "fetched_at": "2026-10-25T12:17:25+00:00"
+  "checked_at": "2026-10-25T13:17:13+00:00",
+  "fetched_at": "2026-10-25T13:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:41+00:00",
-  "fetched_at": "2026-10-25T12:17:41+00:00"
+  "checked_at": "2026-10-25T13:17:24+00:00",
+  "fetched_at": "2026-10-25T13:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:45+00:00",
-  "fetched_at": "2026-10-25T12:17:45+00:00"
+  "checked_at": "2026-10-25T13:17:24+00:00",
+  "fetched_at": "2026-10-25T13:17:24+00:00"
  },
- "generated_at": "2026-10-25T12:17:45+00:00",
+ "generated_at": "2026-10-25T13:17:24+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T12:17:26+00:00",
-  "fetched_at": "2026-10-25T12:17:26+00:00"
+  "checked_at": "2026-10-25T13:17:14+00:00",
+  "fetched_at": "2026-10-25T13:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:28+00:00",
-  "fetched_at": "2026-10-25T12:17:28+00:00"
+  "checked_at": "2026-10-25T13:17:14+00:00",
+  "fetched_at": "2026-10-25T13:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2277,6 +2277,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-26",
+    "time": "20:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "אל נאסר - אל וואסל"
+   },
+   {
+    "date": "2026-10-26",
     "time": "20:30",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2288,13 +2295,6 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "סנטה קלרה - בנפיקה"
-   },
-   {
-    "date": "2026-10-26",
-    "time": "21:15",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "אל נאסר - אל וואסל"
    },
    {
     "date": "2026-10-26",
@@ -3033,8 +3033,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:32+00:00",
-  "fetched_at": "2026-10-25T12:17:32+00:00"
+  "checked_at": "2026-10-25T13:17:16+00:00",
+  "fetched_at": "2026-10-25T13:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3167,8 +3167,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T12:17:32+00:00",
-  "fetched_at": "2026-10-25T12:17:32+00:00"
+  "checked_at": "2026-10-25T13:17:16+00:00",
+  "fetched_at": "2026-10-25T13:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -3190,16 +3190,17 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 5,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 936,
+     "likes": 937,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3220,14 +3221,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 180,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 805,
+     "likes": 806,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3268,19 +3269,54 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T12:17:40+00:00",
-  "fetched_at": "2026-10-25T12:17:40+00:00"
+  "checked_at": "2026-10-25T13:17:24+00:00",
+  "fetched_at": "2026-10-25T13:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "הקלאסיקו, אוריין גורן ורביבו: כעת בערוץ ONE",
-     "link": "https://www.one.co.il/Article/536998.html?ref=rss",
-     "date": "2026-10-25T11:00:00+00:00",
+     "title": "16:00 בספורט2: ברונו ירד לספסל ביונייטד, חלאילי בהרכב פאלאס",
+     "link": "https://sports.walla.co.il/item/3873661",
+     "date": "2026-10-25T13:50:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "היסטוריה: אוריין גורן בסגל ברצלונה לקלאסיקו",
+     "link": "https://sports.walla.co.il/item/3873634",
+     "date": "2026-10-25T13:25:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "גיא לוזון: אוריין גורן השחקן הכי טוב שראיתי",
+     "link": "https://www.one.co.il/Article/537010.html?ref=rss",
+     "date": "2026-10-25T13:02:00+00:00",
      "source": "ONE",
      "players": [
-      "רועי רביבו",
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "ענאן חלאילי בהרכב קריסטל פאלאס מול ניוקאסל",
+     "link": "https://www.one.co.il/Article/537008.html?ref=rss",
+     "date": "2026-10-25T12:45:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "הילד ענק: אוריין גורן בסגל של ברצלונה לקלאסיקו",
+     "link": "https://www.one.co.il/Article/536900.html?ref=rss",
+     "date": "2026-10-25T12:21:00+00:00",
+     "source": "ONE",
+     "players": [
       "אוריין גורן"
      ]
     },
@@ -3369,43 +3405,6 @@ window.DB.generated = {
      "title": "\"הפנינה של לה מאסיה\": \"סביר מאוד שאוריין גורן יהיה בסגל לקלאסיקו\"",
      "link": "https://sports.walla.co.il/item/3873541",
      "date": "2026-10-24T16:12:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
-    {
-     "title": "כולל הצלת ענק בתוספת הזמן: דניאל פרץ ניצח את מנור סולומון",
-     "link": "https://sports.walla.co.il/item/3873514",
-     "date": "2026-10-24T15:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון",
-      "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "בארה\"ב מזהים: אבדיה \"מככב\", מוראנט ולילארד \"מבינים את מקומם\"",
-     "link": "https://sports.walla.co.il/item/3873538",
-     "date": "2026-10-24T15:29:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "מנצ'סטר יונייטד מול בורנמות' עם הגב לקיר, גם חלאילי בלחץ",
-     "link": "https://sports.walla.co.il/item/3873526",
-     "date": "2026-10-24T13:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "מדהים: \"פליק מתכנן לכלול את אוריין גורן בסגל לקלאסיקו\"",
-     "link": "https://sports.walla.co.il/item/3873504",
-     "date": "2026-10-24T07:05:00+00:00",
      "source": "וואלה",
      "players": [
       "אוריין גורן"
@@ -3612,8 +3611,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T12:17:35+00:00",
-  "fetched_at": "2026-10-25T12:17:35+00:00"
+  "checked_at": "2026-10-25T13:17:19+00:00",
+  "fetched_at": "2026-10-25T13:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3644,58 +3643,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:36+00:00",
-  "fetched_at": "2026-10-25T12:17:36+00:00"
+  "checked_at": "2026-10-25T13:17:19+00:00",
+  "fetched_at": "2026-10-25T13:17:19+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T11:58:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "newest": "2026-10-25T13:09:00+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-25T10:02:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T10:24:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T12:30:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "newest": "2026-10-25T13:50:00+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-25T12:16:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T12:02:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "newest": "2026-10-25T13:06:00+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T12:13:11+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3707,35 +3706,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-25T11:10:43+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "newest": "2026-10-25T12:34:10+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T13:17:24+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T12:17:45+00:00"
+  "checked_at": "2026-10-25T13:17:24+00:00"
  },
  "health_news": {
   "data": [
@@ -3891,7 +3890,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T12:17:36+00:00",
-  "fetched_at": "2026-10-25T12:17:36+00:00"
+  "checked_at": "2026-10-25T13:17:20+00:00",
+  "fetched_at": "2026-10-25T13:17:20+00:00"
  }
 };
