@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T06:17:11+00:00",
-  "fetched_at": "2026-10-25T06:17:11+00:00"
+  "checked_at": "2026-10-25T07:17:14+00:00",
+  "fetched_at": "2026-10-25T07:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:25+00:00",
-  "fetched_at": "2026-10-25T06:17:25+00:00"
+  "checked_at": "2026-10-25T07:17:28+00:00",
+  "fetched_at": "2026-10-25T07:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:25+00:00",
-  "fetched_at": "2026-10-25T06:17:25+00:00"
+  "checked_at": "2026-10-25T07:17:28+00:00",
+  "fetched_at": "2026-10-25T07:17:28+00:00"
  },
- "generated_at": "2026-10-25T06:17:25+00:00",
+ "generated_at": "2026-10-25T07:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "בכירים איראנים: נערכים לפגוע באנשי ממשל אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560621",
-     "date": "2026-10-25T05:29:00+00:00"
+     "date": "2026-10-25T06:15:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T06:17:12+00:00",
-  "fetched_at": "2026-10-25T06:17:12+00:00"
+  "checked_at": "2026-10-25T07:17:15+00:00",
+  "fetched_at": "2026-10-25T07:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:13+00:00",
-  "fetched_at": "2026-10-25T06:17:13+00:00"
+  "checked_at": "2026-10-25T07:17:16+00:00",
+  "fetched_at": "2026-10-25T07:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -1956,13 +1956,6 @@ window.DB.generated = {
    {
     "date": "2026-10-25",
     "time": "16:00",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "אטאלנטה - פרוסינונה"
-   },
-   {
-    "date": "2026-10-25",
-    "time": "16:00",
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מאת'רוול - הארטס"
@@ -2001,6 +1994,13 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "מונאקו - ליל"
+   },
+   {
+    "date": "2026-10-25",
+    "time": "16:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "אטאלנטה - פרוסינונה"
    },
    {
     "date": "2026-10-25",
@@ -2200,10 +2200,38 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-26",
+    "time": "17:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "בית\"ר נהריה - הפועל עפולה"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "17:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "הפועל עכו - מ.ס טירה"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "17:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.ס. כפר קאסם - בית\"ר פתח תקווה"
+   },
+   {
+    "date": "2026-10-26",
     "time": "17:30",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
     "title": "מ.ס דימונה - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "17:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מ.כ שדרות - מכבי אחי נצרת"
    },
    {
     "date": "2026-10-26",
@@ -2229,7 +2257,7 @@ window.DB.generated = {
    {
     "date": "2026-10-26",
     "time": "19:40",
-    "channel": "ספורט 5+",
+    "channel": "אתר ספורט 5",
     "sport": "כדורסל",
     "title": "מכבי אשדוד - הפועל גליל עליון"
    },
@@ -2361,10 +2389,24 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-27",
+    "time": "21:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "באיירן מינכן - ברצלונה"
+   },
+   {
+    "date": "2026-10-27",
     "time": "21:15",
     "channel": "5 סטארס",
     "sport": "כדורסל",
     "title": "פנאתינאיקוס - אולימפיה מילאנו"
+   },
+   {
+    "date": "2026-10-27",
+    "time": "21:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "ולנסיה - פנרבחצ'ה"
    },
    {
     "date": "2026-10-27",
@@ -2921,8 +2963,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:16+00:00",
-  "fetched_at": "2026-10-25T06:17:16+00:00"
+  "checked_at": "2026-10-25T07:17:19+00:00",
+  "fetched_at": "2026-10-25T07:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3055,18 +3097,18 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T06:17:16+00:00",
-  "fetched_at": "2026-10-25T06:17:16+00:00"
+  "checked_at": "2026-10-25T07:17:19+00:00",
+  "fetched_at": "2026-10-25T07:17:19+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-launches-claude-duet-ai-agent/",
-     "date": "2026-10-22T06:47:01+00:00",
-     "launch": true,
-     "title": "אנת'רופיק חושפת עוזר AI חדש, Claude Duet, שיעבוד במקומכם"
+     "link": "https://www.geektime.co.il/developers-using-ai-claude-to-hack-smart-tv/",
+     "date": "2026-10-24T11:25:04+00:00",
+     "launch": false,
+     "title": "תופעה: משתמשים בקלוד כדי לנקות את הטלוויזיה מכל מה שגרוע בה"
     },
     {
      "source": "OpenAI",
@@ -3080,22 +3122,21 @@ window.DB.generated = {
    ],
    "candidates": 6,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 927,
+     "likes": 928,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3137,7 +3178,7 @@ window.DB.generated = {
      "title": "Introducing Carbon-X",
      "desc_en": "The best open model for DNA understanding",
      "desc_he": "המודל הפתוח הטוב ביותר להבנת DNA",
-     "likes": 54,
+     "likes": 55,
      "link": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release"
     },
     {
@@ -3157,12 +3198,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T06:17:23+00:00",
-  "fetched_at": "2026-10-25T06:17:23+00:00"
+  "checked_at": "2026-10-25T07:17:26+00:00",
+  "fetched_at": "2026-10-25T07:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"קראו לו 'השמנמן', אבל דיא סבע משתיק את הביקורות\"",
+     "link": "https://sports.walla.co.il/item/3873550",
+     "date": "2026-10-25T07:31:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "\"שוער שמנצח משחקים\": באנגליה מהללים את דניאל פרץ",
+     "link": "https://sports.walla.co.il/item/3873549",
+     "date": "2026-10-25T07:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "\"אם ימשיך להתפתח ככה, דני אבדיה יהיה מועמד ל-MVP\"",
      "link": "https://sports.walla.co.il/item/3873554",
@@ -3170,6 +3229,24 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"לגורן כישרון עצום, מזכיר את פדרי ואינייסטה\"",
+     "link": "https://www.one.co.il/Article/536964.html?ref=rss",
+     "date": "2026-10-25T06:30:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "\"היה צריך לבדוק את הפנדל שעשיתי על רוי רביבו\"",
+     "link": "https://www.one.co.il/Article/536962.html?ref=rss",
+     "date": "2026-10-25T06:25:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -3197,24 +3274,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "\"קראו לו 'השמנמן', אבל דיא סבע משתיק את הביקורות\"",
-     "link": "https://sports.walla.co.il/item/3873550",
-     "date": "2026-10-24T19:31:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דיא סבע"
-     ]
-    },
-    {
-     "title": "\"שוער שמנצח משחקים\": באנגליה מהללים את דניאל פרץ",
-     "link": "https://sports.walla.co.il/item/3873549",
-     "date": "2026-10-24T19:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
      ]
     },
     {
@@ -3279,24 +3338,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "\"זה דני אבדיה האמיתי\": בארה\"ב מנתחים את השינוי בפורטלנד",
-     "link": "https://sports.walla.co.il/item/3873500",
-     "date": "2026-10-24T05:52:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"אבדיה הטיח את עצמו בחומת ההגנה עד שנשברה\"",
-     "link": "https://www.one.co.il/Article/536868.html?ref=rss",
-     "date": "2026-10-24T04:58:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3500,8 +3541,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T06:17:19+00:00",
-  "fetched_at": "2026-10-25T06:17:19+00:00"
+  "checked_at": "2026-10-25T07:17:22+00:00",
+  "fetched_at": "2026-10-25T07:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -3532,98 +3573,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:20+00:00",
-  "fetched_at": "2026-10-25T06:17:20+00:00"
+  "checked_at": "2026-10-25T07:17:23+00:00",
+  "fetched_at": "2026-10-25T07:17:23+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T05:29:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "newest": "2026-10-25T07:09:00+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-25T04:03:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T04:01:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T07:07:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "newest": "2026-10-25T07:31:00+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T06:59:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "newest": "2026-10-25T07:55:00+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T06:10:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "newest": "2026-10-25T07:02:00+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T04:05:43+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-25T05:22:16+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-24T15:40:05+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-22T05:45:35+00:00",
-    "seen_at": "2026-10-25T06:17:25+00:00",
+    "seen_at": "2026-10-25T07:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T06:17:25+00:00"
+  "checked_at": "2026-10-25T07:17:28+00:00"
  },
  "health_news": {
   "data": [
@@ -3779,7 +3820,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T06:17:20+00:00",
-  "fetched_at": "2026-10-25T06:17:20+00:00"
+  "checked_at": "2026-10-25T07:17:23+00:00",
+  "fetched_at": "2026-10-25T07:17:23+00:00"
  }
 };
