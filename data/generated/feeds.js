@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:17:20+00:00",
-  "fetched_at": "2026-10-25T14:17:20+00:00"
+  "checked_at": "2026-10-25T14:24:30+00:00",
+  "fetched_at": "2026-10-25T14:24:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:17:36+00:00",
-  "fetched_at": "2026-10-25T14:17:36+00:00"
+  "checked_at": "2026-10-25T14:24:42+00:00",
+  "fetched_at": "2026-10-25T14:24:42+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:17:36+00:00",
-  "fetched_at": "2026-10-25T14:17:36+00:00"
+  "checked_at": "2026-10-25T14:24:42+00:00",
+  "fetched_at": "2026-10-25T14:24:42+00:00"
  },
- "generated_at": "2026-10-25T14:17:36+00:00",
+ "generated_at": "2026-10-25T14:24:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,6 +99,11 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "המניות שיזנקו מחר בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560643",
+     "date": "2026-10-25T14:13:00+00:00"
+    },
+    {
      "title": "קדחת קרנות הסל והבריחה ממניות בודדות: האם וול סטריט מנפחת בועה בתוך בועה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560662",
      "date": "2026-10-25T13:52:00+00:00"
@@ -114,7 +119,7 @@ window.DB.generated = {
      "date": "2026-10-25T13:30:00+00:00"
     },
     {
-     "title": "דוח חדש: היקף הסנקציות וההגבלות על ישראל",
+     "title": "החות'ים תקפו את המקומות הקדושים לאסלאם - ובסעודיה מסלימים את הטון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560645",
      "date": "2026-10-25T10:24:00+00:00"
     },
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "צי מכליות הצללים של איראן נותר ללא נפט לאחר חודשים של מצור אמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560445",
      "date": "2026-10-23T03:59:00+00:00"
-    },
-    {
-     "title": "וינטר וזליכה עשויים לאבד מיליונים. מה הסיבה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560424",
-     "date": "2026-10-23T03:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:17:21+00:00",
-  "fetched_at": "2026-10-25T14:17:21+00:00"
+  "checked_at": "2026-10-25T14:24:31+00:00",
+  "fetched_at": "2026-10-25T14:24:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:17:22+00:00",
-  "fetched_at": "2026-10-25T14:17:22+00:00"
+  "checked_at": "2026-10-25T14:24:31+00:00",
+  "fetched_at": "2026-10-25T14:24:31+00:00"
  },
  "tv": {
   "data": [
@@ -2246,6 +2246,13 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "מכבי חיפה - הפועל באר שבע"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "מכבי אשדוד - ברנדיז נאד לאבם"
    },
    {
     "date": "2026-10-26",
@@ -3032,10 +3039,9 @@ window.DB.generated = {
     "title": "ברצלונה - אלאבס"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-25T14:17:27+00:00",
-  "fetched_at": "2026-10-25T13:17:16+00:00"
+  "ok": true,
+  "checked_at": "2026-10-25T14:24:34+00:00",
+  "fetched_at": "2026-10-25T14:24:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3168,8 +3174,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:17:27+00:00",
-  "fetched_at": "2026-10-25T14:17:27+00:00"
+  "checked_at": "2026-10-25T14:24:34+00:00",
+  "fetched_at": "2026-10-25T14:24:34+00:00"
  },
  "ai": {
   "data": {
@@ -3270,8 +3276,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:17:35+00:00",
-  "fetched_at": "2026-10-25T14:17:35+00:00"
+  "checked_at": "2026-10-25T14:24:40+00:00",
+  "fetched_at": "2026-10-25T14:24:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3613,8 +3619,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:17:30+00:00",
-  "fetched_at": "2026-10-25T14:17:30+00:00"
+  "checked_at": "2026-10-25T14:24:37+00:00",
+  "fetched_at": "2026-10-25T14:24:37+00:00"
  },
  "idf": {
   "data": [
@@ -3645,8 +3651,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:17:31+00:00",
-  "fetched_at": "2026-10-25T14:17:31+00:00"
+  "checked_at": "2026-10-25T14:24:37+00:00",
+  "fetched_at": "2026-10-25T14:24:37+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3654,49 +3660,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-25T14:13:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-25T13:52:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "newest": "2026-10-25T14:13:00+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-25T13:52:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "newest": "2026-10-25T14:13:00+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T15:13:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "newest": "2026-10-25T15:23:00+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-25T14:50:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-25T14:12:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T13:32:16+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3708,25 +3714,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-25T12:34:10+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T14:24:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3736,7 +3742,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T14:17:36+00:00"
+  "checked_at": "2026-10-25T14:24:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3891,8 +3897,9 @@ window.DB.generated = {
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-25T14:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-25T14:24:38+00:00",
   "fetched_at": "2026-10-25T14:17:31+00:00"
  }
 };
