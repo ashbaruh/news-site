@@ -1,0 +1,411 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bf393bd55743",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-25T03:40:27+00:00",
+  "window": {
+   "from": "2026-10-24T03:40:27+00:00",
+   "to": "2026-10-25T03:40:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610250340"
+  },
+  "summary": "הלחימה בין תנועת החות'ים לבין הקואליציה בהובלת סעודיה וממשלת תימן הסלימה מחדש בעקבות קריסת שביתת הנשק. החות'ים מפעילים כטב\"מים וטילים בליסטיים לעבר יעדי תשתית, שדות תעופה ומתקני נפט בריאד ובמערב סעודיה, וכן תוקפים אתרים בעיר עדן ובאזורי משמר החופים. במקביל נמשכים עימותים קרקעיים ופגיעות באוכלוסייה אזרחית במוקדים שונים בדרום-מערב תימן, בפרט במחוז תעז.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - תימן (עומק סעודיה)",
+    "status": "הסלמה בתקיפות כטב\"מים וטילים לעבר שדות תעופה ומתקני נפט בריאד ובמערב סעודיה"
+   },
+   {
+    "name": "חזית פנים-תימן (עדן ודרום המדינה)",
+    "status": "תקיפות טילים של החות'ים על יעדי ממשל, משמר החופים ונמל התעופה בעדן ופיצוצים באזור לחג'"
+   },
+   {
+    "name": "חזית מחוז תעז",
+    "status": "התחדשות חילופי אש עזים ופעילות קרקעית באזור א-דבאב וג'בל האן לצד הפגזות"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10250340-01",
+    "title": "יירוט כלי טיס בלתי מאוישים מעל אזור ריאד",
+    "summary": "כוחות הקואליציה בהובלת סעודיה הודיעו על יירוט והשמדה של שני כטב\"מים בשמי אזור ריאד. ההגנה האזרחית הסעודית הודיעה על חלוף הסכנה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T23:23:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T23:23:29+00:00",
+    "last_update_at": "2026-10-25T03:31:08+00:00",
+    "what_is_not_verified": "אין אימות עצמאי להפלת הכטב\"מים מעבר להודעת הקואליציה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/minutes-after-danger-alert-saudi-civil-defence-says-danger-has-passed",
+      "published_at": "2026-10-25T03:31:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-forces-intercept-another-drone-over-riyadh-spokesman-says",
+      "published_at": "2026-10-25T02:29:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
+      "published_at": "2026-10-24T23:23:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10250340-02",
+    "title": "חידוש הטיסות בנמל התעופה הבינלאומי בריאד והתרעה חות'ית חוזרת",
+    "summary": "נמל התעופה הבינלאומי בריאד הודיע על חידוש הטיסות לאחר סגירה בת שבועיים בעקבות מתקפות קודמות, בעוד דובר החות'ים שב והזהיר כי המקום נותר מטרה צבאית.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T21:14:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T21:14:13+00:00",
+    "last_update_at": "2026-10-25T03:30:34+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/riyadh-airport-resumes-flights-following-houthi-attacks",
+      "published_at": "2026-10-25T03:30:34+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-renew-warning-against-using-riyadh-airport",
+      "published_at": "2026-10-25T00:46:40+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-renew-warning-against-using-riyadh-airport",
+      "published_at": "2026-10-24T23:05:18+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-resume-flights-sunday-following-closure-after-houthi",
+      "published_at": "2026-10-24T21:14:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10250340-03",
+    "title": "מתקפות טילים על יעדים בעיר עדן",
+    "summary": "טילים ששיגרו החות'ים פגעו במספר אתרים בעיר עדן, בהם אזור נמל התעופה ומתקנים של משמר החופים, לפי הודעות גורמי ממשל מקומיים.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T08:07:34+00:00",
+    "last_update_at": "2026-10-24T21:08:51+00:00",
+    "what_is_not_verified": "קיימת מחלוקת בין גופי הממשל האם נפגע נמל התעופה או רק מפקדות משמר החופים, וכן היקף הנזק והנפגעים אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_7ab28fb21d9cb041",
+      "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+      "published_at": "2026-10-24T21:08:51+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7ab28fb21d9cb041",
+      "url": "https://www.sabanew.net/viewstory/154568",
+      "published_at": "2026-10-24T19:31:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_7ab28fb21d9cb041",
+      "url": "https://www.newarab.com/news/houthi-missiles-target-aden-airport-coastguard",
+      "published_at": "2026-10-24T18:13:35+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_7ab28fb21d9cb041",
+      "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+      "published_at": "2026-10-24T17:50:25+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ecdd2a28aa1df3dd",
+      "url": "https://www.sabanew.net/viewstory/154558",
+      "published_at": "2026-10-24T16:53:56+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_11514788f42a68b8",
+      "url": "https://www.sabanew.net/viewstory/154553",
+      "published_at": "2026-10-24T14:56:30+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_7ab28fb21d9cb041",
+      "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
+      "published_at": "2026-10-24T08:07:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10250340-04",
+    "title": "טענות סעודיות ליירוט טילים והכחשה חות'ית לגבי פגיעה באתרים קדושים",
+    "summary": "גורמים בסעודיה טענו כי יורטו טילים בליסטיים שכוונו לאזורי מכה ומדינה ונשרו רסיסים בערים ג'דה, טאיף וראביע'. מנגד, החות'ים הכחישו ירי לעבר ערים קדושות וטענו כי תקפו מתקני נפט ושדות תעופה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T08:07:34+00:00",
+    "last_update_at": "2026-10-24T23:23:29+00:00",
+    "what_is_not_verified": "האם שוגרו טילים ישירות לכיוון מכה ומדינה או רק למתקני תשתית סמוכים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
+      "published_at": "2026-10-24T23:23:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-report-they-attacked-mecca-and-medina",
+      "published_at": "2026-10-24T18:44:03+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+      "published_at": "2026-10-24T17:50:25+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-houthi-missile-shrapnel-falls-jeddah-taif-rabigh-after",
+      "published_at": "2026-10-24T17:19:12+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
+      "published_at": "2026-10-24T08:07:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     },
+     {
+      "name": "ראביע', סעודיה",
+      "lat": 22.799,
+      "lon": 39.0336
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10250340-05",
+    "title": "התחדשות קרבות ועימותים בדרום-מערב תימן ובמחוז תעז",
+    "summary": "קרבות עזים התחדשו באזור א-דבאב ובסביבות ג'בל האן בדרום-מערב תימן, לצד דיווחים על פיצוצים עזים בין המחוזות לחג' ועדן.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T23:23:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T23:23:29+00:00",
+    "last_update_at": "2026-10-25T02:29:35+00:00",
+    "what_is_not_verified": "היקף הנפגעים וזהות הכוחות המשתתפים באופן ספציפי בכל נקודה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-forces-intercept-another-drone-over-riyadh-spokesman-says",
+      "published_at": "2026-10-25T02:29:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
+      "published_at": "2026-10-24T23:23:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "לחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10250340-06",
+    "title": "צמצום מצבת כוח האדם בנציגות ארצות הברית בסעודיה",
+    "summary": "ממשלת ארצות הברית צמצמה את צוות הנציגות שלה בסעודיה בתגובה להסלמת התקיפות מצד החות'ים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T16:46:39+00:00",
+    "last_update_at": "2026-10-24T16:46:39+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
+      "published_at": "2026-10-24T16:46:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת סעודיה כי טילי החות'ים שוגרו במישרין לעבר המקומות הקדושים במכה ובמדינה",
+   "מספר הנפגעים המדויק והנזק שנגרם בפועל בתקיפות הטילים בעיר עדן",
+   "מיקומן המדויק של פגיעות הטילים בעדן (בנמל התעופה עצמו או במתקני משמר החופים בלבד)"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת החות'ים",
+    "declared": [
+     "פגיעה במתקני נפט ושדות תעופה בסעודיה",
+     "המשך הגדרת שדה התעופה בריאד כיעד צבאי והתרעה מפני שימוש בו"
+    ],
+    "inferred": [
+     "שיבוש הפעילות הכלכלית והתעופתית בסעודיה כדי ללחוץ לעצירת תקיפות הקואליציה",
+     "פגיעה ביכולת התפקוד של ממשלת תימן בעיר עדן"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר עומק סעודיה ומוקדי הממשל בדרום תימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "הגנה על ביטחון התושבים ויירוט איומים אוויריים בשמי הממלכה",
+     "השבת הפעילות האזרחית והתעופתית בריאד לסדרה"
+    ],
+    "inferred": [
+     "מניעת פגיעה בסמלי שלטון ובתשתיות קריטיות תוך בלימת הישגי החות'ים",
+     "שמירה על הלגיטימציה של ממשלת תימן המוכרת"
+    ],
+    "forecast": [
+     "הגברת מאמצי ההגנה האווירית סביב שדות תעופה ותקיפות תגובה בתימן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154553",
+    "accessed_at": "2026-10-25T03:40:27+00:00"
+   }
+  ]
+ }
+}
