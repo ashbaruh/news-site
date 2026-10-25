@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:24:30+00:00",
-  "fetched_at": "2026-10-25T14:24:30+00:00"
+  "checked_at": "2026-10-25T15:17:24+00:00",
+  "fetched_at": "2026-10-25T15:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:24:42+00:00",
-  "fetched_at": "2026-10-25T14:24:42+00:00"
+  "checked_at": "2026-10-25T15:17:37+00:00",
+  "fetched_at": "2026-10-25T15:17:37+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:24:42+00:00",
-  "fetched_at": "2026-10-25T14:24:42+00:00"
+  "checked_at": "2026-10-25T15:17:38+00:00",
+  "fetched_at": "2026-10-25T15:17:38+00:00"
  },
- "generated_at": "2026-10-25T14:24:42+00:00",
+ "generated_at": "2026-10-25T15:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "איפה שאתם רואים משבר בתחבורה הציבורית, כרישי השוק מצאו השקעה נהדרת",
+     "title": "אתם רואים פקקים והם רואים דולרים: איך הפכו דווקא חברות האוטובוסים להשקעה לוהטת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560524",
      "date": "2026-10-25T13:44:00+00:00"
     },
     {
      "title": "בכירים איראנים: נערכים לפגוע באנשי ממשל אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560621",
-     "date": "2026-10-25T13:36:00+00:00"
+     "date": "2026-10-25T15:14:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "יו\"ר אלרון המודחת: \"רנוב ובנטוב הפעילו לחץ לגייס 150 מיליון שקל באג\"ח לפריעת חובותיהם האישיים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560673",
+     "date": "2026-10-25T14:23:00+00:00"
+    },
     {
      "title": "המניות שיזנקו מחר בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560643",
@@ -109,7 +114,7 @@ window.DB.generated = {
      "date": "2026-10-25T13:52:00+00:00"
     },
     {
-     "title": "איפה שאתם רואים משבר בתחבורה הציבורית, כרישי השוק מצאו השקעה נהדרת",
+     "title": "אתם רואים פקקים והם רואים דולרים: איך הפכו דווקא חברות האוטובוסים להשקעה לוהטת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560524",
      "date": "2026-10-25T13:44:00+00:00"
     },
@@ -137,6 +142,11 @@ window.DB.generated = {
      "title": "אפקט ה-AI: הפיטורים והשקת הסוכנים החכמים שהטיסו את מאנדיי ב-80% מהשפל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560639",
      "date": "2026-10-25T08:31:00+00:00"
+    },
+    {
+     "title": "אחרי צמצום החוב: סלקום בוחנת את רכישת אייקון גרופ, בעלת רשת איידיגיטל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560631",
+     "date": "2026-10-25T07:26:00+00:00"
     },
     {
      "title": "הוא רק בן 14.5 וכבר הכפיל את ההשקעה \"ברוב המניות בתיק\"",
@@ -209,16 +219,6 @@ window.DB.generated = {
      "date": "2026-10-23T09:21:00+00:00"
     },
     {
-     "title": "מיזוג ראשון בשוק אספקת החשמל: סופר פאוור רוכשת את פז גז אנרג’י",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560604",
-     "date": "2026-10-23T08:15:00+00:00"
-    },
-    {
-     "title": "דליה גוררת את ניו-מד ורציו לבוררות בינלאומית בלונדון על עסקת הגז מלוויתן",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560603",
-     "date": "2026-10-23T05:39:00+00:00"
-    },
-    {
      "title": "צי מכליות הצללים של איראן נותר ללא נפט לאחר חודשים של מצור אמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560445",
      "date": "2026-10-23T03:59:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:24:31+00:00",
-  "fetched_at": "2026-10-25T14:24:31+00:00"
+  "checked_at": "2026-10-25T15:17:25+00:00",
+  "fetched_at": "2026-10-25T15:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:24:31+00:00",
-  "fetched_at": "2026-10-25T14:24:31+00:00"
+  "checked_at": "2026-10-25T15:17:26+00:00",
+  "fetched_at": "2026-10-25T15:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -3040,8 +3040,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:24:34+00:00",
-  "fetched_at": "2026-10-25T14:24:34+00:00"
+  "checked_at": "2026-10-25T15:17:28+00:00",
+  "fetched_at": "2026-10-25T15:17:28+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3174,8 +3174,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:24:34+00:00",
-  "fetched_at": "2026-10-25T14:24:34+00:00"
+  "checked_at": "2026-10-25T15:17:28+00:00",
+  "fetched_at": "2026-10-25T15:17:28+00:00"
  },
  "ai": {
   "data": {
@@ -3199,8 +3199,7 @@ window.DB.generated = {
    ],
    "candidates": 5,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3235,7 +3234,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 806,
+     "likes": 807,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3276,12 +3275,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:24:40+00:00",
-  "fetched_at": "2026-10-25T14:24:40+00:00"
+  "checked_at": "2026-10-25T15:17:36+00:00",
+  "fetched_at": "2026-10-25T15:17:36+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "17:45 בספורט3: גלוך על הספסל של אייאקס מול ספרטה רוטרדם",
+     "link": "https://sports.walla.co.il/item/3873683",
+     "date": "2026-10-25T16:03:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
     {
      "title": "\"החדשות הגדולות ביותר\": התגובות בספרד לגורן",
      "link": "https://www.one.co.il/Article/537014.html?ref=rss",
@@ -3361,15 +3369,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "דור תורג'מן וטוקלומטי הבקיעו, ניצחון לאבו פרחי",
-     "link": "https://www.one.co.il/Article/536953.html?ref=rss",
-     "date": "2026-10-25T04:02:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עידן טוקלומטי"
      ]
     },
     {
@@ -3619,8 +3618,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T14:24:37+00:00",
-  "fetched_at": "2026-10-25T14:24:37+00:00"
+  "checked_at": "2026-10-25T15:17:31+00:00",
+  "fetched_at": "2026-10-25T15:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3651,98 +3650,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T14:24:37+00:00",
-  "fetched_at": "2026-10-25T14:24:37+00:00"
+  "checked_at": "2026-10-25T15:17:32+00:00",
+  "fetched_at": "2026-10-25T15:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T14:13:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T15:14:00+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-25T14:13:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T14:23:00+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T14:13:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T15:23:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T16:05:00+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T14:50:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T15:51:00+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T14:12:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T15:14:00+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-25T13:32:16+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "newest": "2026-10-25T14:55:39+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-25T12:17:45+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-25T12:34:10+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-25T14:24:42+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-25T14:17:36+00:00",
+    "seen_at": "2026-10-25T15:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T14:24:42+00:00"
+  "checked_at": "2026-10-25T15:17:38+00:00"
  },
  "health_news": {
   "data": [
@@ -3897,9 +3896,8 @@ window.DB.generated = {
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-25T14:24:38+00:00",
-  "fetched_at": "2026-10-25T14:17:31+00:00"
+  "ok": true,
+  "checked_at": "2026-10-25T15:17:32+00:00",
+  "fetched_at": "2026-10-25T15:17:32+00:00"
  }
 };
