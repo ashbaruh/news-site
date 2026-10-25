@@ -385,10 +385,15 @@
 ],
 "bekaa, lebanon": null,
 "belgorod oblast, russia": null,
+"belgorod, russia": [
+50.5956,
+36.5873
+],
 "beryslav, ukraine": [
 46.8358,
 33.4167
 ],
+"bezlyudivka, ukraine": null,
 "bezruky, ukraine": [
 50.0077,
 34.6354
@@ -1068,7 +1073,15 @@
 32.8298,
 35.0637
 ],
+"kish island, iran": [
+26.5351,
+53.972
+],
 "kiyanitsa, ukraine": null,
+"klimovo, russia": [
+52.3791,
+32.1971
+],
 "korosten, ukraine": [
 50.9491,
 28.6418
@@ -1777,6 +1790,10 @@
 "shebaa, lebanon": [
 33.3445,
 35.7494
+],
+"shebekino, russia": [
+50.4049,
+36.8797
 ],
 "shepetivka, ukraine": [
 50.1809,

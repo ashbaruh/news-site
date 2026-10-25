@@ -1,0 +1,554 @@
+{
+ "status": "draft",
+ "received_sha256_12": "81917231d7dd",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "shared_root": 4,
+   "assessment": 3,
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-25T00:40:43+00:00",
+  "window": {
+   "from": "2026-10-24T00:40:43+00:00",
+   "to": "2026-10-25T00:40:43+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610250040"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל עומד בפני הסלמה אפשרית על רקע איומי תקיפה מיידיים מצד וושינגטון לצד שיח מקביל על חידוש המשא ומתן. במקביל, שלוחותיה של איראן, בדגש על החות'ים בתימן, מגבירות את האיומים והפגיעות ביעדים אזוריים ובמתקני תחבורה ותעופה במפרץ, דבר שהוביל לצמצום כוח אדם ואזהרות מסע אמריקניות. בחזית הישראלית ניכרות היערכות לפעולות באיראן והאשמות הדדיות בנוגע לחידוש פרויקט הגרעין האיראני.",
+  "fronts": [
+   {
+    "name": "ציר ארה\"ב - איראן",
+    "status": "מתיחות צבאית גבוהה ואיומים בתקיפות לצד ניסיונות תיווך ומגעים להסכם"
+   },
+   {
+    "name": "ציר ישראל - איראן",
+    "status": "כוננות ביטחונית, דיווחים על טיסות מבצעיות במרחב והצהרות על איום הגרעין"
+   },
+   {
+    "name": "ציר החות'ים - סעודיה וארה\"ב",
+    "status": "התקפות טילים ואיומים ישירים על שדות תעופה ומתקני נפט בסעודיה"
+   },
+   {
+    "name": "החזית העיראקית",
+    "status": "חשש מזליגת המלחמה ושימוש במרחב האווירי לתקיפות נגד איראן ומיליציות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10250040-01",
+    "title": "הצהרות טראמפ על אפשרות לתקיפה באיראן או השגת הסכם",
+    "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי וושינגטון שוקלת תקיפה אפשרית נגד איראן בטווח הזמן המיידי, או לחלופין הגעה להסכם משמעותי עמה, במטרה למנוע ממנה לצמיתות פיתוח נשק גרעיני.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T15:21:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T15:21:57+00:00",
+    "last_update_at": "2026-10-25T00:00:00+00:00",
+    "what_is_not_verified": "האם אכן תתבצע תקיפה צבאית או שיושג הסכם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+      "published_at": "2026-10-25T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-could-strike-iran-tomorrow-or-strike-beautiful-deal",
+      "published_at": "2026-10-24T23:13:48+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ry9t11rq2gx",
+      "published_at": "2026-10-24T15:21:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-02",
+    "title": "השלמת תוכניות תקיפה בצבא ארצות הברית נגד איראן",
+    "summary": "פורסם כי צבא ארצות הברית השלים את תוכניותיו לביצוע תקיפות נוספות באיראן וממתין לקבלת אישור מהבית הלבן.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T14:05:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T14:05:45+00:00",
+    "last_update_at": "2026-10-24T21:31:56+00:00",
+    "what_is_not_verified": "האם התוכניות יאושרו ומתי ייושמו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1380834",
+      "published_at": "2026-10-24T21:31:56+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
+      "published_at": "2026-10-24T14:05:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-03",
+    "title": "האשמות מצד נשיא איראן וקריאה לחידוש המשא ומתן",
+    "summary": "נשיא איראן מסעוד פזשכיאן הטיל את האשמה בכישלון ההסכם הזמני על ארצות הברית, אך קרא לחדש את המאמצים להשלמתו, תוך אזהרה איראנית מתגובה חמורה אם יותקפו שוב.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T13:46:37+00:00",
+    "last_update_at": "2026-10-24T21:30:11+00:00",
+    "what_is_not_verified": "האם הצדדים ישובו לשיחות משא ומתן בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+      "published_at": "2026-10-24T21:30:11+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
+      "published_at": "2026-10-24T14:05:45+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try",
+      "published_at": "2026-10-24T13:46:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-04",
+    "title": "התרעת המודיעין האמריקני מפני מזימות איראניות נגד אנשיו",
+    "summary": "מנהל המודיעין הלאומי של ארצות הברית פרסם מזכר שלפיו איראן הגבירה את מאמציה לפגוע באנשי סגל ובאזרחים אמריקנים והתוכניות הגיעו לשלבים מתקדמים, במקביל לצמצום הצוותים הדיפלומטיים בסעודיה.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T07:36:02+00:00",
+    "last_update_at": "2026-10-24T16:46:39+00:00",
+    "what_is_not_verified": "פרטי המזימות המדויקים ומידת ישימותן המיידית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
+      "published_at": "2026-10-24T16:46:39+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cmn8w1ddg2x9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T07:36:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-05",
+    "title": "עדכון אזהרות מסע אמריקניות במזרח התיכון עקב איומי החות'ים",
+    "summary": "מחלקת המדינה האמריקנית עדכנה את אזהרות המסע עבור מספר מדינות במזרח התיכון בעקבות מה שהוגדר כאיום בתוקפנות אזורית גוברת מצד החות'ים הנתמכים בידי איראן.",
+    "axis": "ארה\"ב-חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T15:36:42+00:00",
+    "last_update_at": "2026-10-24T15:36:42+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_dec32b4d756f9049",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-updates-gulf-middle-east-travel-advisories-over-threat-houthi",
+      "published_at": "2026-10-24T15:36:42+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-06",
+    "title": "אזהרות ואיומים של החות'ים נגד נמל התעופה בריאד",
+    "summary": "דובר תנועת החות'ים חידש את האזהרות מפני שימוש בנמל התעופה הבינלאומי בריאד והגדיר אותו יעד צבאי, לצד דיווחים על תקיפות נגד מתקני נפט ושדות תעופה.",
+    "axis": "שלוחות איראן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T17:50:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T17:50:25+00:00",
+    "last_update_at": "2026-10-24T23:05:18+00:00",
+    "what_is_not_verified": "מידת הפגיעה בפועל בשדות התעופה ובמתקני הנפט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-renew-warning-against-using-riyadh-airport",
+      "published_at": "2026-10-24T23:05:18+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+      "published_at": "2026-10-24T17:50:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10250040-07",
+    "title": "הכחשת החות'ים בדבר שיגור טילים לעבר מכה ומדינה",
+    "summary": "החות'ים הכחישו דיווחים סעודיים על כך ששיגרו טילים לעבר הערים מכה ומדינה, וטענו כי פעולותיהם מתמקדות אך ורק במתקני נפט ובבסיסים צבאיים.",
+    "axis": "שלוחות איראן-סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T18:44:03+00:00",
+    "last_update_at": "2026-10-24T18:44:03+00:00",
+    "what_is_not_verified": "האם שוגרו טילים לעבר הערים הקדושות כפי שטענה סעודיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-report-they-attacked-mecca-and-medina",
+      "published_at": "2026-10-24T18:44:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     },
+     {
+      "name": "מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10250040-08",
+    "title": "דיווחים על טיסות ותקיפות במרחב האווירי של עיראק לעבר איראן",
+    "summary": "מחויבותה של בגדאד להישאר מחוץ לעימות נבחנת לנוכח דיווחים על גיחות מטוסים ישראליים דרך המרחב האווירי העיראקי לעבר איראן, תקיפות על מחסני מיליציות ותקיפות כטב\"מים על בסיסי אופוזיציה כורדית.",
+    "axis": "ישראל-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:05:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T00:05:00+00:00",
+    "last_update_at": "2026-10-25T00:05:00+00:00",
+    "what_is_not_verified": "אימות רשמי של הטיסות והתקיפות הישראליות בשטח עיראק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610242914",
+      "published_at": "2026-10-25T00:05:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10250040-09",
+    "title": "פגישה בין ראש הרשות השופטת באיראן למנהיג העליון מוג'תבא ח'אמנאי",
+    "summary": "הרשות השופטת באיראן דיווחה על פגישה נדירה של העומד בראשה עם המנהיג העליון מוג'תבא ח'אמנאי, שבה דנו בין היתר בפיצויים בגין נזקים שנגרמו מהתקיפות של ארצות הברית וישראל שבהן נהרג אביו.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T18:28:59+00:00",
+    "last_update_at": "2026-10-24T18:28:59+00:00",
+    "what_is_not_verified": "האם המנהיג מוג'תבא אכן נראה או קיים את הפגישה בפועל שכן טרם הופיע בציבור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_23e46287383b5b88",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-judiciary-says-chief-holds-rare-meeting-supreme-leader",
+      "published_at": "2026-10-24T18:28:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10250040-10",
+    "title": "הפסקת חשמל באי קיש באיראן",
+    "summary": "התרחשה הפסקת חשמל באי קיש שבאיראן.",
+    "axis": "ישראל-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T23:32:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T23:32:18+00:00",
+    "last_update_at": "2026-10-24T23:32:18+00:00",
+    "what_is_not_verified": "הסיבה להפסקת החשמל והאם קשורה לפעילות צבאית או חבלה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48906",
+      "published_at": "2026-10-24T23:32:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קיש, איראן",
+      "lat": 26.5351,
+      "lon": 53.972
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10250040-11",
+    "title": "הצהרות נתניהו על חידוש תוכנית הגרעין האיראנית",
+    "summary": "ראש ממשלת ישראל בנימין נתניהו טען בסרטון בחירות כי איראן חידשה את תוכנית הגרעין שלה ומבקשת להשמיד את ישראל בתוך זמן קצר, טענה שנדחתה בידי יריבו הפוליטי כשימוש ביטחוני לצורכי קמפיין.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T19:33:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T19:33:03+00:00",
+    "last_update_at": "2026-10-24T19:33:03+00:00",
+    "what_is_not_verified": "האם תוכנית הגרעין אכן חודשה ומצב התקדמותה המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/elections2026/article/bkjwk8qhfx",
+      "published_at": "2026-10-24T19:33:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-12",
+    "title": "דיווח על אי-התערבות חיזבאללה בלחימה נוספת בין ישראל לאיראן",
+    "summary": "פורסם כי חיזבאללה העביר מסר שלא יתערב אם תפרוץ שוב מלחמה, ובמקביל הודיע גורם במשרד החוץ האיראני כי אין לטהראן צורך בהתערבות הארגון.",
+    "axis": "ישראל-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T14:05:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T14:05:45+00:00",
+    "last_update_at": "2026-10-24T14:05:45+00:00",
+    "what_is_not_verified": "נכונות הדיווח על העברת המסר מחיזבאללה ומקורותיו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
+      "published_at": "2026-10-24T14:05:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10250040-13",
+    "title": "התבטאות דובר משמרות המהפכה על מעמדה של איראן",
+    "summary": "דובר משמרות המהפכה הצהיר כי בעימות סופי איראן תהפוך למעצמת-העל הבלתי מעורערת של העולם.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T12:26:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T12:26:00+00:00",
+    "last_update_at": "2026-10-24T12:26:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48886",
+      "published_at": "2026-10-24T12:26:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "דיווחים על טיסות של מטוסי קרב ישראליים לעבר איראן דרך המרחב האווירי העיראקי",
+   "דיווחים על תקיפות נגד מחסני מערכות הגנה מתוצרת סין של מיליציות בעיראק",
+   "הטענה הסעודית על יירוט טילי חות'ים ששוגרו לעבר מכה ומדינה",
+   "טענות על כוונת חיזבאללה שלא להתערב במקרה של חידוש הלחימה",
+   "הטענה של נתניהו בדבר חידוש מלא של תוכנית הגרעין האיראנית בתוך זמן קצר",
+   "הסיבה המדויקת להפסקת החשמל באי קיש באיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעה קבועה של פיתוח נשק גרעיני בידי איראן",
+     "הגעה להסכם ארוך טווח שיבטיח את עצירת הגרעין"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וסנקציות כלכליות לכפיית ויתורים על טהראן",
+     "הגנה על כוחות ונציגויות במפרץ מפני תקיפות שלוחות איראן"
+    ],
+    "forecast": [
+     "המשך איומים בפעולה צבאית לצד ניסיון למצות מגעים דיפלומטיים",
+     "תגובה ממוקדת אם ייפגעו חיילים או אזרחים אמריקנים באזור"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "חידוש המשא ומתן להשלמת הסכם",
+     "תגובה חריפה בעוצמה גבוהה לכל תקיפה צבאית, כולל מוגבלת",
+     "מיצוי זכויות ופיצויים על נזקי התקיפות מצד ישראל וארצות הברית"
+    ],
+    "inferred": [
+     "שמירה על שרידות המשטר ושיקום התשתיות לאחר הפגיעות הקודמות",
+     "הפעלת לחץ אזורי באמצעות שלוחות להרתעת יריביה"
+    ],
+    "forecast": [
+     "המשך איתותים על מוכנות לדיפלומטיה תוך איומים בתגובה צבאית קשה",
+     "הגברת פעילות א-סימטרית באמצעות גורמים בעלי ברית במרחב"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול חידוש תוכנית הגרעין האיראנית ומניעת השמדת ישראל"
+    ],
+    "inferred": [
+     "הכנת תשתיות מבצעיות לתקיפה צבאית נרחבת באיראן",
+     "הפעלת לחץ מקסימלי במטרה לערער את הנהגת הרפובליקה האסלאמית"
+    ],
+    "forecast": [
+     "המשך פעילות איסוף וטיסות מבצעיות במרחב האזורי",
+     "תיאום מהלכים צבאיים הדוק מול הממשל האמריקני"
+    ]
+   },
+   {
+    "actor": "החות'ים (שלוחי איראן בתימן)",
+    "declared": [
+     "הגדרת נמל התעופה בריאד ומתקני נפט סעודיים כמטרות צבאיות לפגיעה"
+    ],
+    "inferred": [
+     "שיבוש התחבורה והכלכלה במפרץ במטרה ללחוץ על סעודיה וארצות הברית",
+     "הפגנת נאמנות לציר האיראני כחלק ממאמץ ההרתעה האזורי"
+    ],
+    "forecast": [
+     "המשך שיגורי טילים וכטב\"מים לעבר יעדים אסטרטגיים בסעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmn8w1ddg2x9o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610242914",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1380834",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-judiciary-says-chief-holds-rare-meeting-supreme-leader",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48886",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
+    "accessed_at": "2026-10-25T00:40:43+00:00"
+   }
+  ]
+ }
+}

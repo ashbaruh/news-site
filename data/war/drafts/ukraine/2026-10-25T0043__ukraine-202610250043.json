@@ -1,0 +1,481 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4ca797556042",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "verified": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-25T00:43:27+00:00",
+  "window": {
+   "from": "2026-10-24T00:43:27+00:00",
+   "to": "2026-10-25T00:43:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610250043"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת באמצעות מהלומות כטב\"מים הדדיות עמוקות, הכוללות פגיעות במתקנים כימיים בסיביר ופגיעות רוסיות בערים אוקראיניות כמו חרקוב ודניפרופטרובסק. במקביל נרשמות הבנות נקודתיות להפוגה הומניטרית בעיר אולשקי, לצד מתיחות סביב שירותי הלוויין הצבאיים ומגעים עקיפים בנושאי סנקציות ואנרגיה.",
+  "fronts": [
+   {
+    "name": "עומק שטח רוסיה",
+    "status": "תקיפות כטב\"מים אוקראיניות על מפעלי תעשייה באומסק ובטוליאטי"
+   },
+   {
+    "name": "גבול צפון-מזרח (בלגורוד ובריאנסק)",
+    "status": "חילופי אש ותקיפות כטב\"מים מתמשכות על מבנים ותשתיות"
+   },
+   {
+    "name": "מזרח אוקראינה (דונייצק וחרקוב)",
+    "status": "תקיפות אוויריות ופגיעות כטב\"מים במבנים אזרחיים ומוסדות"
+   },
+   {
+    "name": "דרום אוקראינה (אולשקי וחרסון)",
+    "status": "הסכמה על הפוגה לצורך פינוי וסיוע הומניטרי"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10250043-01",
+    "title": "תקיפות כטב\"מים אוקראיניות בעומק שטח רוסיה ובמחוז אומסק בסיביר",
+    "summary": "כלי טיס בלתי מאוישים אוקראיניים פגעו במפעל הכימי אומסקי קאוצ'וק ובמחסן באומסק שבסיביר במרחק של כאלפיים וחמש מאות קילומטרים מהגבול, וגרמו לשריפות במתחם הייצור.",
+    "axis": "עומק שטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T14:33:00+00:00",
+    "last_update_at": "2026-10-24T16:48:06+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת והטענה להשמדת מחסן ומפעל כימי במלואם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-russian-targets-2-500-kilometers-from-border/",
+      "published_at": "2026-10-24T16:48:06+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4177846-drones-attack-industrial-hub-in-russias-omsk-social-media.html",
+      "published_at": "2026-10-24T16:07:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48892",
+      "published_at": "2026-10-24T15:33:45+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48889",
+      "published_at": "2026-10-24T14:44:41+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059557/",
+      "published_at": "2026-10-24T14:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אומסק, רוסיה",
+      "lat": 54.9914,
+      "lon": 73.3715
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10250043-02",
+    "title": "תקיפות אוקראיניות במחוזות בלגורוד ובריאנסק ברוסיה",
+    "summary": "פגיעות כטב\"מים וארטילריה גרמו לנפגעים ולנזק למרכזי קניות וכלי רכב באזור בלגורוד, שבוקינו וקלימובו שברוסיה.",
+    "axis": "גבול רוסיה-אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T17:36:39+00:00",
+    "last_update_at": "2026-10-24T23:50:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל והיקף הנזק המדויק למבנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_3332b61b681025b1",
+      "url": "https://tass.com/politics/2207373",
+      "published_at": "2026-10-24T23:50:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_3332b61b681025b1",
+      "url": "https://kyivindependent.com/massive-ukrainian-drone-attack-hits-shopping-center-in-russias-belgorod-oblast-locals-say/",
+      "published_at": "2026-10-24T23:27:09+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_3332b61b681025b1",
+      "url": "https://tass.com/politics/2207345",
+      "published_at": "2026-10-24T20:03:27+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_3332b61b681025b1",
+      "url": "https://tass.com/emergencies/2207321",
+      "published_at": "2026-10-24T17:36:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בלגורוד, רוסיה",
+      "lat": 50.5956,
+      "lon": 36.5873
+     },
+     {
+      "name": "שבקינו, רוסיה",
+      "lat": 50.4049,
+      "lon": 36.8797
+     },
+     {
+      "name": "קלימובו, רוסיה",
+      "lat": 52.3791,
+      "lon": 32.1971
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10250043-03",
+    "title": "מתקפות כטב\"מים וטילים רוסיות על מחוז דניפרופטרובסק",
+    "summary": "פגיעות של כלי טיס בלתי מאוישים רוסיים במבנה מגורים ובחנות מכולת במחוז דניפרופטרובסק גרמו להרוגים ולפצועים, בהם ילדים.",
+    "axis": "דניפרופטרובסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T15:08:00+00:00",
+    "last_update_at": "2026-10-24T21:42:59+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_548c199d57c420ca",
+      "url": "https://kyivindependent.com/deadly-russian-drone-strike-targets-apartment-in-dnipropetrovsk-oblast-killing-3-injuring-12/",
+      "published_at": "2026-10-24T21:42:59+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_548c199d57c420ca",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059558/",
+      "published_at": "2026-10-24T15:08:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניקופול, אוקראינה",
+      "lat": 47.5692,
+      "lon": 34.3917
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10250043-04",
+    "title": "פגיעות רוסיות במחוז חרקוב",
+    "summary": "מתקפות של רחפנים ופצצות על יעדים בעיר חרקוב, בפרבר בזלודבקה ובעיר לוזובה גרמו להרוגים, לפצועים ולשריפה במחסן מסחרי.",
+    "axis": "חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T14:28:00+00:00",
+    "last_update_at": "2026-10-24T21:01:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_b851f4b9424b8989",
+      "url": "https://www.ukrinform.net/rubric-ato/4177887-russian-drone-attack-on-kharkiv-kills-one-person-and-injures-others.html",
+      "published_at": "2026-10-24T21:01:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_b851f4b9424b8989",
+      "url": "https://www.ukrinform.net/rubric-ato/4177872-russian-attack-sparks-warehouse-fire-in-kharkiv-suburb.html",
+      "published_at": "2026-10-24T18:32:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b851f4b9424b8989",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059556/",
+      "published_at": "2026-10-24T14:28:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "לוזובה, אוקראינה",
+      "lat": 48.8842,
+      "lon": 36.316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10250043-05",
+    "title": "הסכם על הפוגה הומניטרית בעיר הכבושה אולשקי",
+    "summary": "נציגי זכויות האדם של אוקראינה ורוסיה תיאמו פרטים להפסקת פעולות צבאיות והכנסת סיוע הומניטרי ופינוי אזרחים באולשקי שבאזור חרסון.",
+    "axis": "חרסון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-24T01:20:54+00:00",
+    "last_update_at": "2026-10-24T18:02:15+00:00",
+    "what_is_not_verified": "מועד היישום המדויק בשטח והיקף הסיוע שיסופק בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_1e6e981238c873f3",
+      "url": "https://tass.com/politics/2207325",
+      "published_at": "2026-10-24T18:02:15+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_be739f59130a36ed",
+      "url": "https://www.ukrinform.net/rubric-society/4177862-lubinets-discusses-details-of-oleshky-humanitarian-mission-with-russian-ombudswoman.html",
+      "published_at": "2026-10-24T16:59:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_1e6e981238c873f3",
+      "url": "https://kyivindependent.com/european-parliament-vice-president-ends-hunger-strike-following-oleshky-ceasefire-announcement/",
+      "published_at": "2026-10-24T14:22:27+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_b706153e98f92cad",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+      "published_at": "2026-10-24T01:20:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10250043-06",
+    "title": "מחלוקת והגבלות על שירות סטארלינק בצבא אוקראינה",
+    "summary": "אילון מאסק טען כי צבא אוקראינה הפר את תנאי השירות המסחרי בעת שימוש בסטארלינק למתקפות כטב\"מים, בעוד קייב הודיעה כי החיבור התייצב לאחר שיבושים.",
+    "axis": "סיוע ותקשורת צבאית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T12:12:40+00:00",
+    "last_update_at": "2026-10-24T21:25:58+00:00",
+    "what_is_not_verified": "האמצעים הטכניים המדויקים שננקטו להגבלת הרשת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+      "published_at": "2026-10-24T21:25:58+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2207339",
+      "published_at": "2026-10-24T19:35:32+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48903",
+      "published_at": "2026-10-24T19:34:12+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T12:12:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10250043-07",
+    "title": "עסקאות אנרגיה וחשד להפרת סנקציות במיזם גז באלסקה",
+    "summary": "חברת הגז הרוסית נובאטק מימנה בחשאי מיזם גז טבעי באלסקה, נושא שעלה במגעים שקיימו שליחים אמריקאים בקרמלין במסגרת שיחות הקשורות למלחמה.",
+    "axis": "משא ומתן וסנקציות",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T01:20:54+00:00",
+    "last_update_at": "2026-10-25T00:29:15+00:00",
+    "what_is_not_verified": "האם הממשל האמריקאי אישר או יאשר את השותפות והחרגת הסנקציות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_b706153e98f92cad",
+      "url": "https://kyivindependent.com/sanctioned-russian-energy-giant-secretly-funded-us-gas-project-nyt-reports/",
+      "published_at": "2026-10-25T00:29:15+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_b706153e98f92cad",
+      "url": "https://t.me/alexmehacarmel/48893",
+      "published_at": "2026-10-24T15:45:06+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_b706153e98f92cad",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+      "published_at": "2026-10-24T01:20:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10250043-08",
+    "title": "הטלת סנקציות אוקראיניות על תעשיית הנשק הרוסית",
+    "summary": "אוקראינה הטילה סנקציות על חמישים ואחד אזרחים רוסים וארבעים וארבעה תאגידים המעורבים בייצור ואספקת ציוד לטילים ארוכי טווח.",
+    "axis": "מדיני וסנקציות",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-24T12:12:05+00:00",
+    "last_update_at": "2026-10-24T12:12:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-sanctions-russian-arms-suppliers-as-moscow-ramps-up-attacks/",
+      "published_at": "2026-10-24T12:12:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת מאסק על מידת השפעת סגירת הפרצה בסטארלינק על הפעילות הצבאית האוקראינית",
+   "היקף ההרס המלא במפעל הכימי באומסק",
+   "דיווחים על מקור הכטב\"ם שנמצא בלטביה ומידת הקשר שלו ללוחמה אלקטרונית",
+   "השלמת עסקת ייצוא הגז מאלסקה בשיתוף החברה הרוסית"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1193,
+    "unit": "USD",
+    "change_pct": -0.11,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על המרחב האווירי ופגיעה בתשתיות הצבאיות והתעשייתיות של רוסיה",
+     "הבטחת סיוע הומניטרי לאזרחים באזורים הכבושים כמו אולשקי",
+     "שמירה על יציבות מערכות התקשורת הלוויינית בחזית"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומורלי על רוסיה באמצעות פגיעה בעומק שטחה",
+     "הרחבת הסנקציות על תעשיית הטילים כדי לפגוע בכושר הייצור הרוסי"
+    ],
+    "forecast": [
+     "המשך מאמצים לפתח ולרכוש כטב\"מים ארוכי טווח מונעי סילון",
+     "הסתמכות גוברת על מערכות תקשורת ממשלתיות חלופיות למניעת מגבלות מסחריות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה ביעדים צבאיים ומניעת תקיפות על שטחה הריבוני",
+     "קיום מחויבויות להפוגה הומניטרית נקודתית באולשקי"
+    ],
+    "inferred": [
+     "ניסיון להתיש את מערכות ההגנה האווירית של אוקראינה באמצעות מטחי כטב\"מים נרחבים",
+     "מינוף עסקאות דלק ואנרגיה להקלה בעיצומי המערב במסגרת שיחות מדיניות"
+    ],
+    "forecast": [
+     "המשך תקיפת יעדי עורף באוקראינה לצד חיזוק שיתוף הפעולה הצבאי-טכנולוגי עם קוריאה הצפונית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-war-briefing-russian-diesel-tankers-headed-for-north-america-says-moscow-as-us-tries-to-revive-peace-talks",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-sanctions-russian-arms-suppliers-as-moscow-ramps-up-attacks/",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/24/8059556/",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2207339",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48893",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4177862-lubinets-discusses-details-of-oleshky-humanitarian-mission-with-russian-ombudswoman.html",
+    "accessed_at": "2026-10-25T00:43:27+00:00"
+   }
+  ]
+ }
+}
