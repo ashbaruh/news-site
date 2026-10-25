@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T19:17:13+00:00",
-  "fetched_at": "2026-10-25T19:17:13+00:00"
+  "checked_at": "2026-10-25T20:17:19+00:00",
+  "fetched_at": "2026-10-25T20:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,14 +44,14 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:26+00:00",
-  "fetched_at": "2026-10-25T19:17:26+00:00"
+  "checked_at": "2026-10-25T20:17:33+00:00",
+  "fetched_at": "2026-10-25T20:17:33+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "How to watch Barcelona vs Real Madrid: live stream El Clásico for free from anywhere",
-    "title_he": "איך לצפות בברצלונה נגד ריאל מדריד: שידור חי של El Clásico בחינם מכל מקום",
+    "title_en": "How to watch Barcelona vs Real Madrid: live stream El Clásico for free from anywhere, team news",
+    "title_he": "איך לצפות בברצלונה נגד ריאל מדריד: שידור חי של El Clásico בחינם מכל מקום, חדשות הקבוצה",
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-barcelona-vs-real-madrid-live-stream-el-clasico-for-free-from-anywhere",
     "date": "2026-10-25T12:00:00+00:00"
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:27+00:00",
-  "fetched_at": "2026-10-25T19:17:27+00:00"
+  "checked_at": "2026-10-25T20:17:35+00:00",
+  "fetched_at": "2026-10-25T20:17:35+00:00"
  },
- "generated_at": "2026-10-25T19:17:27+00:00",
+ "generated_at": "2026-10-25T20:17:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-25T19:00:00+00:00"
     },
     {
-     "title": "טראמפ: \"לא תהיה תקיפה באיראן הלילה\"",
+     "title": "עימות חסר תקדים בין נתניהו לרמטכ\"ל בנושא איראן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560621",
-     "date": "2026-10-25T19:06:00+00:00"
+     "date": "2026-10-25T20:04:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T19:17:14+00:00",
-  "fetched_at": "2026-10-25T19:17:14+00:00"
+  "checked_at": "2026-10-25T20:17:21+00:00",
+  "fetched_at": "2026-10-25T20:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:15+00:00",
-  "fetched_at": "2026-10-25T19:17:15+00:00"
+  "checked_at": "2026-10-25T20:17:22+00:00",
+  "fetched_at": "2026-10-25T20:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -3040,8 +3040,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:17+00:00",
-  "fetched_at": "2026-10-25T19:17:17+00:00"
+  "checked_at": "2026-10-25T20:17:23+00:00",
+  "fetched_at": "2026-10-25T20:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3174,8 +3174,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T19:17:17+00:00",
-  "fetched_at": "2026-10-25T19:17:17+00:00"
+  "checked_at": "2026-10-25T20:17:23+00:00",
+  "fetched_at": "2026-10-25T20:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -3198,7 +3198,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 944,
+     "likes": 947,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3223,18 +3223,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
+     "title": "Natural Language Processing before LLMs",
+     "desc_en": "From n-gram counts to attention, learning by doing",
+     "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
+     "likes": 88,
+     "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
+    },
+    {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
      "likes": 808,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
-    {
-     "title": "Natural Language Processing before LLMs",
-     "desc_en": "From n-gram counts to attention, learning by doing",
-     "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 87,
-     "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
      "title": "MOSS-Image Workflow",
@@ -3267,8 +3267,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T19:17:26+00:00",
-  "fetched_at": "2026-10-25T19:17:26+00:00"
+  "checked_at": "2026-10-25T20:17:32+00:00",
+  "fetched_at": "2026-10-25T20:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -3289,15 +3289,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "רודרי בהרכב וגורן בספסל: ההרכבים של ברצלונה וריאל לקלאסיקו",
-     "link": "https://sports.walla.co.il/item/3873667",
-     "date": "2026-10-25T19:44:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוריין גורן"
      ]
     },
     {
@@ -3382,15 +3373,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "הילד ענק: אוריין גורן בסגל של ברצלונה לקלאסיקו",
-     "link": "https://www.one.co.il/Article/536900.html?ref=rss",
-     "date": "2026-10-25T12:21:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
-    {
      "title": "ברצלונה המומה: \"איך אוריין גורן גרם לפליק להתאהב בו ככה?\"",
      "link": "https://sports.walla.co.il/item/3873590",
      "date": "2026-10-25T08:18:00+00:00",
@@ -3406,6 +3388,24 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דיא סבע"
+     ]
+    },
+    {
+     "title": "\"שוער שמנצח משחקים\": באנגליה מהללים את דניאל פרץ",
+     "link": "https://sports.walla.co.il/item/3873549",
+     "date": "2026-10-25T07:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "\"אם ימשיך להתפתח ככה, דני אבדיה יהיה מועמד ל-MVP\"",
+     "link": "https://sports.walla.co.il/item/3873554",
+     "date": "2026-10-25T06:42:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -3609,8 +3609,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T19:17:20+00:00",
-  "fetched_at": "2026-10-25T19:17:20+00:00"
+  "checked_at": "2026-10-25T20:17:27+00:00",
+  "fetched_at": "2026-10-25T20:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3641,58 +3641,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:21+00:00",
-  "fetched_at": "2026-10-25T19:17:21+00:00"
+  "checked_at": "2026-10-25T20:17:28+00:00",
+  "fetched_at": "2026-10-25T20:17:28+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T19:06:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "newest": "2026-10-25T20:04:00+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-25T19:00:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T19:00:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T19:59:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "newest": "2026-10-25T21:00:00+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T19:56:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "newest": "2026-10-25T21:07:00+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T18:55:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "newest": "2026-10-25T20:00:00+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T16:25:51+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3704,35 +3704,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-25T17:12:09+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-25T18:06:02+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-25T19:17:27+00:00",
+    "seen_at": "2026-10-25T20:17:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T19:17:27+00:00"
+  "checked_at": "2026-10-25T20:17:35+00:00"
  },
  "health_news": {
   "data": [
@@ -3888,7 +3888,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T19:17:22+00:00",
-  "fetched_at": "2026-10-25T19:17:22+00:00"
+  "checked_at": "2026-10-25T20:17:29+00:00",
+  "fetched_at": "2026-10-25T20:17:29+00:00"
  }
 };
