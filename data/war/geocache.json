@@ -308,6 +308,10 @@
 52.0181,
 47.8191
 ],
+"balisan, iraq": [
+36.3965,
+44.5485
+],
 "bandar abbas, iran": [
 27.1842,
 56.2893
@@ -704,6 +708,10 @@
 56.3355
 ],
 "gallery semaan, lebanon": null,
+"gaza city, gaza": [
+31.5117,
+34.4821
+],
 "gdansk, poland": [
 54.3707,
 18.613
@@ -1312,6 +1320,7 @@
 35.5242
 ],
 "maysan governorate, iraq": null,
+"maysan, iraq": null,
 "mayun island, yemen": [
 12.6518,
 43.4278
@@ -1478,6 +1487,10 @@
 "nurtingen, germany": [
 48.6266,
 9.3365
+],
+"nuseirat, gaza": [
+31.4554,
+34.401
 ],
 "obolonskyi district, kyiv, ukraine": [
 50.5306,
@@ -2043,6 +2056,7 @@
 54.315,
 48.4034
 ],
+"umm al quwain, uae": null,
 "umm al-zaytun, syria": null,
 "united arab emirates": null,
 "velyka novosilka, ukraine": [
@@ -2159,6 +2173,10 @@
 "yater, lebanon": [
 33.1555,
 35.3317
+],
+"yelets, russia": [
+52.6151,
+38.529
 ],
 "yemen": null,
 "yemeni coast, yemen": [

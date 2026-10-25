@@ -1,0 +1,395 @@
+{
+ "status": "draft",
+ "received_sha256_12": "020a830551fc",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3,
+   "assessment": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-25T14:32:55+00:00",
+  "window": {
+   "from": "2026-10-24T14:32:55+00:00",
+   "to": "2026-10-25T14:32:55+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610251432"
+  },
+  "summary": "העימות האזורי מתאפיין במתיחות גבוהה סביב תוכנית הגרעין האיראנית ואיומי תקיפה הדדיים בין ארה\"ב וישראל לבין טהרן, לצד המשך פעילות החות'ים נגד סעודיה ותקיפות נגד יעדים כרדיים בעיראק. במקביל, ישראל מתמודדת עם מערכת בחירות פנים-ישראלית שבה סוגיית איראן עומדת במרכז השיח, וכן עם עימות מתמשך ברצועת עזה הכולל סיכול מימון איראני לטרור.",
+  "fronts": [
+   {
+    "name": "החזית האיראנית-ישראלית-אמריקאית",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "חזית המפרץ ותימן (החות'ים)",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית העיראקית והכורדית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10251432-01",
+    "title": "תקיפה במל\"ט מתאבד על מחנה האופוזיציה הכրדית באיראן בעיראק",
+    "summary": "כוחות האבטחה והתקשורת דיווחו על תקיפת מל\"ט מתאבד נגד מחנה אופוזיציה כרדי איראני בצפון-מזרח ארביל.",
+    "axis": "איראן מול שלוחותיה והכוחות באזור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T05:20:56+00:00",
+    "last_update_at": "2026-10-25T06:45:18+00:00",
+    "what_is_not_verified": "זהות המפעילים המדויקת מלבד דיווחים על פעילות משמרות המהפכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_mehr_news_agency_and_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-strikes-iranian-kurdish-base-iraq-drones-report-says",
+      "published_at": "2026-10-25T06:45:18+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_mehr_news_agency_and_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-651",
+      "published_at": "2026-10-25T06:33:05+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_mehr_news_agency_and_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosive-laden-drone-attacks-kurdish-opposition-camp",
+      "published_at": "2026-10-25T05:20:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ארביל, עיראק",
+      "lat": 36.1912,
+      "lon": 44.0094
+     },
+     {
+      "name": "באליסאן, עיראק",
+      "lat": 36.3965,
+      "lon": 44.5485
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10251432-02",
+    "title": "יירוט טילי בליסטיים ומל\"טים מעל ריאד ודרום סעודיה",
+    "summary": "הקואליציה בהובלת סעודיה דיווחה על יירוט והשמדת טילים ומל\"טים ששוגרו על ידי החות'ים מתימן לעבר ריאד ואזורים דרומיים.",
+    "axis": "החות'ים מול סעודיה והקואליציה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T00:46:40+00:00",
+    "last_update_at": "2026-10-25T11:07:28+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף הנזק או הפגיעות בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.iranintl.com/en/202610253322",
+      "published_at": "2026-10-25T11:07:28+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-651",
+      "published_at": "2026-10-25T06:33:05+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats",
+      "published_at": "2026-10-25T00:46:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10251432-03",
+    "title": "אולטימטום מצד מחוז מייסאן בעיראק סביב סגירת מעבר הגבול עם איראן",
+    "summary": "יושב ראש מועצת מחוז מייסאן הציב אולטימטום לממשלת עיראק לפתוח את מעבר אל-שיב, והזהיר מפני התנתקות ואי-ציות אזרחי.",
+    "axis": "עיראק פנים וקשריה עם איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T13:47:26+00:00",
+    "last_update_at": "2026-10-25T13:47:26+00:00",
+    "what_is_not_verified": "תגובת הממשלה המרכזית בבגדאד לאולטימטום.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48919",
+      "published_at": "2026-10-25T13:47:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10251432-04",
+    "title": "כתם נפט בחופי איחוד האמירויות",
+    "summary": "כתם נפט ממכלית נצפה בחופי איחוד האמירויות, מה שהוביל את הרשויות לסגור חופים באום אל-קיוין.",
+    "axis": "המפרץ ומיצרי הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T12:05:16+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T12:05:16+00:00",
+    "last_update_at": "2026-10-25T12:05:16+00:00",
+    "what_is_not_verified": "מקור הדליפה המדויק והגורם האחראי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/oil-slick-from-tanker-in-hormuz-strait-washes-up-on-uae-beaches?traffic_source=rss",
+      "published_at": "2026-10-25T12:05:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10251432-05",
+    "title": "דיווח על תוכניות תקיפה חדשות של פנטגון ו-CENTCOM נגד איראן",
+    "summary": "גורמים דיווחו כי הפנטגון הכין תוכניות תקיפה חדשות נגד איראן להפעלה אפשרית לאחר בחירות אמצע הכהונה.",
+    "axis": "ארה\"ב וישראל מול איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T11:39:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T11:39:41+00:00",
+    "last_update_at": "2026-10-25T11:39:41+00:00",
+    "what_is_not_verified": "האם הנשיא טראמפ יאשר את התוכניות בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
+      "published_at": "2026-10-25T11:39:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10251432-06",
+    "title": "אזהרת בכירים איראנים מפני פגיעה בדיפלומטים אמריקאים",
+    "summary": "בכירים איראנים, בהם בכיר במשמרות המהפכה, מסרו כי חיסול בכירים איראנים הופך אנשי ממשל ודיפלומטים אמריקאים למטרות לגיטימיות.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T08:20:39+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T08:20:39+00:00",
+    "last_update_at": "2026-10-25T08:20:39+00:00",
+    "what_is_not_verified": "האם קיימת פעילות מבצעית בפועל להוצאת איומים אלו לפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94792",
+      "published_at": "2026-10-25T08:20:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10251432-07",
+    "title": "חיסול פעילי חמאס והג'יהאד האיסלאמי בעזה וסיכול מימון מאיראן וטורקיה",
+    "summary": "צה\"ל ושב\"כ הודיעו על חיסול מחבלים שעסקו בהעברת מיליוני שקלים ממשטר איראן ומטורקיה לזרוע הצבאית של חמאס, וכן על השמדת מחסן אמל\"ח.",
+    "axis": "ישראל מול חמאס והשלוחות האיראניות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T08:35:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T08:35:30+00:00",
+    "last_update_at": "2026-10-25T09:09:34+00:00",
+    "what_is_not_verified": "לא מאומת מלבד הודעת דובר צה\"ל ושב\"כ.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/by0bghi3fg",
+      "published_at": "2026-10-25T09:09:34+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383958784",
+      "published_at": "2026-10-25T08:49:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132524",
+      "published_at": "2026-10-25T08:43:30+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25461",
+      "published_at": "2026-10-25T08:35:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עיר עזה, עזה",
+      "lat": 31.5117,
+      "lon": 34.4821
+     },
+     {
+      "name": "נוציראת, עזה",
+      "lat": 31.4554,
+      "lon": 34.401
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומן של תוכניות מבצעיות סופיות של ארה\"ב לתקיפה מיידית באיראן.",
+   "היקף הנזק המדויק מכתם הנפט בחופי איחוד האמירויות.",
+   "האם הממשלה המרכזית בעיראק תגיב לדרישות מחוז מייסאן בנוגע למעבר הגבול."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על ריבונות אלדולה וכוננות עליונה",
+     "דרישה לפינוי סנקציות"
+    ],
+    "inferred": [
+     "המשך פיתוח יכולות צבאיות וגרעיניות",
+     "הפעלת שלוחות אזוריות כדי להפעיל לחץ על ארה\"ב וישראל"
+    ],
+    "forecast": [
+     "המשך איומים על אנשי ממשל אמריקאים ודיפלומטים",
+     "שימור יכולת מיקוח סביב מיצר הורמוז"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איום קיומי ואיום גרעיני מאיראן",
+     "סיכול תשתיות הטרור והמימון של חמאס והציר השיעי"
+    ],
+    "inferred": [
+     "שמירת אופציה צבאית התקפית בשיתוף ארה\"ב",
+     "ניצול חלון הזמנים הנוכחי להסרת איומים"
+    ],
+    "forecast": [
+     "הגברת הלחץ המדיני והביטחוני בהתאם לתוצאות הבחירות",
+     "המשך סיכולים ממוקדים נגד צירים פיננסיים של חמאס"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הגנה על בעלות ברית במפרץ ובזירה",
+     "מניעת השגת נשק גרעיני בידי איראן"
+    ],
+    "inferred": [
+     "הכנת חלופות צבאיות למקרה של כישלון דיפלומטי",
+     "היערכות להגנה על אנשיה מפני פגיעה מצד שלוחות איראן"
+    ],
+    "forecast": [
+     "המשך הפעלת לחץ כלכלי ודיפלומטי",
+     "שקילת תגובות צבאיות בהתאם להתפתחויות בשטח ובחירות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610253322",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-651",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132524",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48919",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25461",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94792",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958784",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/by0bghi3fg",
+    "accessed_at": "2026-10-25T14:32:55+00:00"
+   }
+  ]
+ }
+}
