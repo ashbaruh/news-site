@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T07:17:14+00:00",
-  "fetched_at": "2026-10-25T07:17:14+00:00"
+  "checked_at": "2026-10-25T08:17:18+00:00",
+  "fetched_at": "2026-10-25T08:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:28+00:00",
-  "fetched_at": "2026-10-25T07:17:28+00:00"
+  "checked_at": "2026-10-25T08:17:31+00:00",
+  "fetched_at": "2026-10-25T08:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -77,22 +77,22 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:28+00:00",
-  "fetched_at": "2026-10-25T07:17:28+00:00"
+  "checked_at": "2026-10-25T08:17:32+00:00",
+  "fetched_at": "2026-10-25T08:17:32+00:00"
  },
- "generated_at": "2026-10-25T07:17:28+00:00",
+ "generated_at": "2026-10-25T08:17:32+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ביל אקמן: \"יהיו חברות שיתרסקו, גם מקצועות מסוימים\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560617",
-     "date": "2026-10-25T04:00:00+00:00"
+     "title": "כלכלנים בכירים נגד תוכנית הקריפטו של נתניהו: \"נזק אדיר ובלתי הפיך\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560630",
+     "date": "2026-10-25T07:09:00+00:00"
     },
     {
      "title": "בכירים איראנים: נערכים לפגוע באנשי ממשל אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560621",
-     "date": "2026-10-25T06:15:00+00:00"
+     "date": "2026-10-25T08:08:00+00:00"
     }
    ],
    "market": [
@@ -117,7 +117,7 @@
      "date": "2026-10-25T04:00:00+00:00"
     },
     {
-     "title": "\"הציבור לא אהבל\": נשיא לשכת סוכני הביטוח משוכנע שאין שום בעיה במודל התגמול",
+     "title": "\"אנחנו בטירוף על עוקץ הפנסיות\": נשיא לשכת סוכני הביטוח מדבר על הכל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560526",
      "date": "2026-10-25T03:53:00+00:00"
     },
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T07:17:15+00:00",
-  "fetched_at": "2026-10-25T07:17:15+00:00"
+  "checked_at": "2026-10-25T08:17:19+00:00",
+  "fetched_at": "2026-10-25T08:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:16+00:00",
-  "fetched_at": "2026-10-25T07:17:16+00:00"
+  "checked_at": "2026-10-25T08:17:20+00:00",
+  "fetched_at": "2026-10-25T08:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2486,6 +2486,41 @@
    {
     "date": "2026-10-28",
     "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "עירוני נשר - הפועל ניר רמת השרון"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל עירוני כרמיאל - הפועל אזור"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל נוף הגליל - מכבי יבנה"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מכבי עירוני קריית מלאכי - הפועל דלית אל כרמל"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מ.כ כפר סבא 1928 - מ.ס קרית ים"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "ונציה - אינטר"
@@ -2500,9 +2535,37 @@
    {
     "date": "2026-10-28",
     "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - הפועל אום אל פאחם"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל בני ג'סר א-זרקא - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מכבי יפו - עירוני מודיעין"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "בני יהודה - מ.ס אשדוד"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - אולימפיאקוס"
    },
    {
     "date": "2026-10-28",
@@ -2524,6 +2587,13 @@
     "channel": "ספורט 1",
     "sport": "כדורסל",
     "title": "לה מאן - הפועל ירושלים"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "21:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "ליון-וילרבאן - פרטיזן בלגרד"
    },
    {
     "date": "2026-10-28",
@@ -2961,8 +3031,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:19+00:00",
-  "fetched_at": "2026-10-25T07:17:19+00:00"
+  "checked_at": "2026-10-25T08:17:23+00:00",
+  "fetched_at": "2026-10-25T08:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3095,18 +3165,18 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T07:17:19+00:00",
-  "fetched_at": "2026-10-25T07:17:19+00:00"
+  "checked_at": "2026-10-25T08:17:23+00:00",
+  "fetched_at": "2026-10-25T08:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/developers-using-ai-claude-to-hack-smart-tv/",
-     "date": "2026-10-24T11:25:04+00:00",
+     "link": "https://www.geektime.co.il/openai-offline-world-frontier-model-training/",
+     "date": "2026-10-25T07:33:42+00:00",
      "launch": false,
-     "title": "תופעה: משתמשים בקלוד כדי לנקות את הטלוויזיה מכל מה שגרוע בה"
+     "title": "אחרי השערוריות: OpenAI חזרה לאמן מודלים עם אינטרנט מזויף"
     },
     {
      "source": "OpenAI",
@@ -3120,14 +3190,15 @@
    ],
    "candidates": 6,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 928,
+     "likes": 931,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3141,7 +3212,7 @@
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 240,
+     "likes": 241,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
@@ -3196,12 +3267,21 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T07:17:26+00:00",
-  "fetched_at": "2026-10-25T07:17:26+00:00"
+  "checked_at": "2026-10-25T08:17:30+00:00",
+  "fetched_at": "2026-10-25T08:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ברצלונה המומה: \"איך אוריין גורן גרם לפליק להתאהב בו ככה?\"",
+     "link": "https://sports.walla.co.il/item/3873590",
+     "date": "2026-10-25T08:18:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "\"קראו לו 'השמנמן', אבל דיא סבע משתיק את הביקורות\"",
      "link": "https://sports.walla.co.il/item/3873550",
@@ -3327,15 +3407,6 @@
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "מדהים: \"פליק מתכנן לכלול את אוריין גורן בסגל לקלאסיקו\"",
-     "link": "https://sports.walla.co.il/item/3873504",
-     "date": "2026-10-24T07:05:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוריין גורן"
      ]
     }
    ],
@@ -3539,8 +3610,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T07:17:22+00:00",
-  "fetched_at": "2026-10-25T07:17:22+00:00"
+  "checked_at": "2026-10-25T08:17:26+00:00",
+  "fetched_at": "2026-10-25T08:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3571,58 +3642,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:23+00:00",
-  "fetched_at": "2026-10-25T07:17:23+00:00"
+  "checked_at": "2026-10-25T08:17:27+00:00",
+  "fetched_at": "2026-10-25T08:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T07:09:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T08:08:00+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-25T04:03:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T04:01:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T07:31:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T08:18:00+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T07:55:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T09:00:00+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T07:02:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T08:15:00+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T04:05:43+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3634,38 +3705,43 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-24T15:40:05+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T07:33:42+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-10-22T05:45:35+00:00",
-    "seen_at": "2026-10-25T07:17:28+00:00",
+    "newest": "2026-10-25T07:25:56+00:00",
+    "seen_at": "2026-10-25T08:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T07:17:28+00:00"
+  "checked_at": "2026-10-25T08:17:32+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "\"בשורה גדולה לחולים\": הטיפול החדש שמאריך את חיי סרטן הריאה",
+    "link": "https://www.walla.co.il/healthy/health-news/383958771",
+    "date": "2026-10-25T07:25:56+00:00"
+   },
    {
     "title": "למי אפשר להאמין? משבר האמון בחיסונים ומה שחשוב לדעת",
     "link": "https://www.walla.co.il/healthy/health-news/383958389",
@@ -3810,15 +3886,10 @@
     "title": "הסרטון מבטיח שיניים לבנות. הנזק עלול להישאר לשנים",
     "link": "https://www.walla.co.il/healthy/health-news/3872217",
     "date": "2026-10-15T11:46:00+00:00"
-   },
-   {
-    "title": "אלחוטית עם 5 צבעים: בדקנו את מסכת הלד החדשה של Dreame",
-    "link": "https://www.walla.co.il/healthy/health-news/3871846",
-    "date": "2026-10-15T11:41:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T07:17:23+00:00",
-  "fetched_at": "2026-10-25T07:17:23+00:00"
+  "checked_at": "2026-10-25T08:17:27+00:00",
+  "fetched_at": "2026-10-25T08:17:27+00:00"
  }
 }
