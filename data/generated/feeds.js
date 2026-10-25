@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-25T11:17:12+00:00",
-  "fetched_at": "2026-10-25T11:17:12+00:00"
+  "checked_at": "2026-10-25T12:17:25+00:00",
+  "fetched_at": "2026-10-25T12:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:25+00:00",
-  "fetched_at": "2026-10-25T11:17:25+00:00"
+  "checked_at": "2026-10-25T12:17:41+00:00",
+  "fetched_at": "2026-10-25T12:17:41+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Barcelona vs Real Madrid: live stream El Clásico for free from anywhere",
+    "title_he": "איך לצפות בברצלונה נגד ריאל מדריד: שידור חי של El Clásico בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-barcelona-vs-real-madrid-live-stream-el-clasico-for-free-from-anywhere",
+    "date": "2026-10-25T12:00:00+00:00"
+   },
    {
     "title_en": "Speaker packages need to get this crucial thing right in order to succeed, but it's not a golden ticket for cinematic sound success",
     "title_he": "חבילות רמקולים צריכות לתקן את הדבר המכריע הזה כדי להצליח, אבל זה לא כרטיס זהב להצלחת סאונד קולנועי",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/this-classic-album-just-turned-50-heres-why-its-the-ultimate-test-for-your-system",
     "date": "2026-10-23T16:06:51+00:00"
-   },
-   {
-    "title_en": "Paradigm Premier v2 5.1 speaker package",
-    "title_he": "חבילת רמקולים של Paradigm Premier v2 5.1",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/surround-sound-systems/paradigm-premier-v2-5-1-speaker-package",
-    "date": "2026-10-23T15:55:14+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:25+00:00",
-  "fetched_at": "2026-10-25T11:17:25+00:00"
+  "checked_at": "2026-10-25T12:17:45+00:00",
+  "fetched_at": "2026-10-25T12:17:45+00:00"
  },
- "generated_at": "2026-10-25T11:17:25+00:00",
+ "generated_at": "2026-10-25T12:17:45+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "בכירים איראנים: נערכים לפגוע באנשי ממשל אמריקאים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560621",
-     "date": "2026-10-25T10:12:00+00:00"
+     "date": "2026-10-25T11:34:00+00:00"
     }
    ],
    "market": [
@@ -199,7 +199,7 @@ window.DB.generated = {
      "date": "2026-10-23T08:15:00+00:00"
     },
     {
-     "title": "דליה גוררת את ניו מד ורציו לבוררות בינלאומית בלונדון על עסקת הגז מלוויתן",
+     "title": "דליה גוררת את ניו-מד ורציו לבוררות בינלאומית בלונדון על עסקת הגז מלוויתן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560603",
      "date": "2026-10-23T05:39:00+00:00"
     },
@@ -219,15 +219,15 @@ window.DB.generated = {
      "date": "2026-10-23T03:57:00+00:00"
     },
     {
-     "title": "נעילה אדומה בוול סטריט: נאסד\"ק נפל ב-2.6%, מטא ב-7%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560400",
-     "date": "2026-10-22T20:00:00+00:00"
+     "title": "שלוש סיבות לירידות החדות בשווקים. לאן עוברים המשקיעים?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560453",
+     "date": "2026-10-22T20:01:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T11:17:13+00:00",
-  "fetched_at": "2026-10-25T11:17:13+00:00"
+  "checked_at": "2026-10-25T12:17:26+00:00",
+  "fetched_at": "2026-10-25T12:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:14+00:00",
-  "fetched_at": "2026-10-25T11:17:14+00:00"
+  "checked_at": "2026-10-25T12:17:28+00:00",
+  "fetched_at": "2026-10-25T12:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -3033,8 +3033,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:16+00:00",
-  "fetched_at": "2026-10-25T11:17:16+00:00"
+  "checked_at": "2026-10-25T12:17:32+00:00",
+  "fetched_at": "2026-10-25T12:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3167,8 +3167,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T11:17:16+00:00",
-  "fetched_at": "2026-10-25T11:17:16+00:00"
+  "checked_at": "2026-10-25T12:17:32+00:00",
+  "fetched_at": "2026-10-25T12:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -3192,16 +3192,22 @@ window.DB.generated = {
    ],
    "candidates": 6,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 937,
+     "likes": 936,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 244,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "FLUX 3 Image Klein",
@@ -3209,13 +3215,6 @@ window.DB.generated = {
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
      "likes": 214,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
-    },
-    {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 242,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -3242,7 +3241,7 @@ window.DB.generated = {
      "title": "MOSS-Image Workflow",
      "desc_en": "MOSS-Image text-to-image as a gr.Workflow node canvas.",
      "desc_he": "MOSS-Image טקסט לתמונה כקנבס של צומת gr.Workflow.",
-     "likes": 159,
+     "likes": 160,
      "link": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image"
     },
     {
@@ -3269,8 +3268,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-25T11:17:23+00:00",
-  "fetched_at": "2026-10-25T11:17:23+00:00"
+  "checked_at": "2026-10-25T12:17:40+00:00",
+  "fetched_at": "2026-10-25T12:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3328,24 +3327,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "\"היה צריך לבדוק את הפנדל שעשיתי על רוי רביבו\"",
-     "link": "https://www.one.co.il/Article/536962.html?ref=rss",
-     "date": "2026-10-25T06:25:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
-     "title": "מאמנו של סבע התלהב: \"הוא לא כובש שערים רגילים\"",
-     "link": "https://www.one.co.il/Article/536961.html?ref=rss",
-     "date": "2026-10-25T06:10:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דיא סבע"
      ]
     },
     {
@@ -3410,6 +3391,24 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "מנצ'סטר יונייטד מול בורנמות' עם הגב לקיר, גם חלאילי בלחץ",
+     "link": "https://sports.walla.co.il/item/3873526",
+     "date": "2026-10-24T13:30:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "מדהים: \"פליק מתכנן לכלול את אוריין גורן בסגל לקלאסיקו\"",
+     "link": "https://sports.walla.co.il/item/3873504",
+     "date": "2026-10-24T07:05:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
      ]
     }
    ],
@@ -3613,8 +3612,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-25T11:17:19+00:00",
-  "fetched_at": "2026-10-25T11:17:19+00:00"
+  "checked_at": "2026-10-25T12:17:35+00:00",
+  "fetched_at": "2026-10-25T12:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3645,98 +3644,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:19+00:00",
-  "fetched_at": "2026-10-25T11:17:19+00:00"
+  "checked_at": "2026-10-25T12:17:36+00:00",
+  "fetched_at": "2026-10-25T12:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T10:24:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T11:58:00+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-25T10:02:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T10:24:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T11:06:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T12:30:00+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T12:16:00+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-25T11:06:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T12:02:00+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-25T09:04:52+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T12:13:11+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-25T10:17:24+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-25T11:10:43+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-23T18:30:31+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-24T07:30:00+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "newest": "2026-10-25T12:00:00+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-25T11:17:25+00:00",
+    "seen_at": "2026-10-25T12:17:45+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-25T11:17:25+00:00"
+  "checked_at": "2026-10-25T12:17:45+00:00"
  },
  "health_news": {
   "data": [
@@ -3892,7 +3891,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-25T11:17:20+00:00",
-  "fetched_at": "2026-10-25T11:17:20+00:00"
+  "checked_at": "2026-10-25T12:17:36+00:00",
+  "fetched_at": "2026-10-25T12:17:36+00:00"
  }
 };
