@@ -1,0 +1,205 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e03f22f5be46",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-26T00:43:21+00:00",
+  "window": {
+   "from": "2026-10-25T00:43:21+00:00",
+   "to": "2026-10-26T00:43:21+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610260043"
+  },
+  "summary": "בגזרה הצפונית מתנהלות פעולות צבאיות ממוקדות בדרום לבנון הכוללות ירי מיירטים ותקיפות שגרתיות של צה\"ל, לצד חידוש עבודות הנדסיות והתבצרות מצד ישראל במרחב קוניטרה שבסוריה. מנגד, חיזבאללה וגורמים פוליטיים בלבנון ממשיכים להצהיר על מעמדם הבלתי ניתן לערעור בכל הסדר עתידי, בעוד גורמים באזור עוקבים אחר המתיחות הביטחונית הממשיכה לאפיין את הגבולות.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10260043-01",
+    "title": "שיגור מיירט לעבר מטרה אווירית בדרום לבנון",
+    "summary": "כוחות צה\"ל בדרום לבנון זיהו מטרה אווירית חשודה ושיגרו לעברה מיירט.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T18:32:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T18:32:25+00:00",
+    "last_update_at": "2026-10-25T18:32:26+00:00",
+    "what_is_not_verified": "האם המטרה יורטה בהצלחה ומה טיבה המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1381238",
+      "published_at": "2026-10-25T18:32:26+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25477",
+      "published_at": "2026-10-25T18:32:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10260043-02",
+    "title": "תקיפות והפצצות של צה\"ל במספר מוקדים בדרום לבנון",
+    "summary": "הצבא הישראלי המשיך בתקיפות אוויריות, הפצצות ארטילריות ופיצוצים מבוקרים בכפרים ובאזורים שונים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T11:29:05+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T11:29:05+00:00",
+    "last_update_at": "2026-10-25T11:29:05+00:00",
+    "what_is_not_verified": "דיווחים על נפגעים ונזק מדויק אינם זמינים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/142547/",
+      "published_at": "2026-10-25T11:29:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית",
+      "lat": 33.3519,
+      "lon": 35.5186
+     },
+     {
+      "name": "ואדי אל-חוג'ייר",
+      "lat": 33.2589,
+      "lon": 35.459
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10260043-03",
+    "title": "כניסת כוחות ישראליים למרחב קוניטרה בסוריה",
+    "summary": "כוחות ישראליים נכנסו למחוז קוניטרה הדרום-מערבי בסוריה לחידוש עבודות חפירה ובניית סוללות עפר במסגרת פרויקט סופה 53.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T17:55:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T17:55:49+00:00",
+    "last_update_at": "2026-10-25T17:55:49+00:00",
+    "what_is_not_verified": "ההשפעה המדויקת של הרחבת הסוללה על שטחי החקלאות והתושבים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-forces-advance-syrias-quneitra-daraa-officer-killed",
+      "published_at": "2026-10-25T17:55:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק והנפגעים המדויק כתוצאה מהתקיפות בדרום לבנון אינו מאומת.",
+   "ההשלכות המלאות של הקמת סוללות העפר והרחבת הפעילות הקרקעית בקוניטרה אינן מאומתות לגבי גורל האדמות החקלאיות.",
+   "הטענות המדויקות אודות התארגנות צבאית התוקפת או מדמה פשיטות משטח סוריה לגולן אינן מאומתות ממקור רשמי ישראלי."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איומים ופגיעה במטרות חשודות בגזרה הצפונית",
+     "פעילות הנדסית לביצור הגבולות (כגון פרויקט סופה 53 בקוניטרה)"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בדרום לבנון ובמרחב הגבול הסורי",
+     "מניעת התבססות עוינת סמוך לגבולות המדינה"
+    ],
+    "forecast": [
+     "המשך חיכוך צבאי מתמשך בדרום לבנון",
+     "שימור אמצעי הגנה ופעילות הנדסית בגבול סוריה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה ולבנון (גורמים פוליטיים)",
+    "declared": [
+     "הבטחת מקומו של הארגון בכל הסדר עתידי כאמצעי הגנה",
+     "דרישה לנסיגה מלאה ושחרור אסירים"
+    ],
+    "inferred": [
+     "ניסיון לשמר את ההשפעה הפוליטית והצבאית במדינה למרות הלחצים",
+     "התנגדות לכל הסדר מדיני עתידי שאינו כולל את תנאי ההתנגדות"
+    ],
+    "forecast": [
+     "המשך הצהרות לוחמניות כנגד ישראל",
+     "התנגדות לכל ניסיון לפירוק נשק או לשינוי המציאות הביטחונית ללא תנאיהם"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/142547/",
+    "accessed_at": "2026-10-26T00:43:21+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1381238",
+    "accessed_at": "2026-10-26T00:43:21+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-forces-advance-syrias-quneitra-daraa-officer-killed",
+    "accessed_at": "2026-10-26T00:43:21+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25477",
+    "accessed_at": "2026-10-26T00:43:21+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,394 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8c37a49dd172",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "verified": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-26T00:40:18+00:00",
+  "window": {
+   "from": "2026-10-25T00:40:18+00:00",
+   "to": "2026-10-26T00:40:18+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610260040"
+  },
+  "summary": "הלחימה בין החות'ים לבין סעודיה וממשלת תימן התחדשה בעצימות גבוהה לאחר קריסת הפסקת האש שנמשכה שנים. החות'ים מנהלים מתקפות טילים וכטבמים נרחבות לעבר עומק סעודיה, ובפרט נגד נמל התעופה הבינלאומי בריאד ויעדים בדרום הממלכה, לצד תקיפות פנים-תימניות בתעז ובעדן. במקביל, כוחות ממשלת תימן והקואליציה פועלים ליירוט השיגורים ולפגיעה במערכי החות'ים, כאשר ההסלמה גורמת לשיבוש התעופה, ביטול אירועים בינלאומיים ופינוי דיפלומטים זרים.",
+  "fronts": [
+   {
+    "name": "חזית תימן - סעודיה (ריאד ודרום הממלכה)",
+    "status": "הסלמה חריפה הכוללת שיגורי מטחי טילים בליסטיים וכטבמים לעבר נמל התעופה בריאד, ח'מיס מושייט ואזורים נוספים, לצד יירוטים של הקואליציה."
+   },
+   {
+    "name": "חזית פנים תימן (תעז, עדן ושבווה)",
+    "status": "לחימה פעילה הכוללת מצור והפגזות על תעז, שיגור טילים לעבר עדן ופעילות סיכול של צבא תימן בשבווה ובמוקדים נוספים."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10260040-01",
+    "title": "מתקפת טילים וכטבמים של החות'ים לעבר נמל התעופה בריאד ויעדים בדרום סעודיה",
+    "summary": "החות'ים שיגרו מטחי טילים בליסטיים וכטבמים לעבר נמל התעופה הבינלאומי בריאד ולעבר יעדים בדרום סעודיה שעות לאחר שחודשו בו טיסות. הקואליציה הודיעה על יירוט לפחות עשרה טילים בליסטיים וכטבם, בעוד דובר החות'ים הכריז כי נמל התעופה מהווה מטרה צבאית והזהיר חברות תעופה מהגעה אליו.",
+    "axis": "סעודיה - תימן (החות'ים)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T00:46:40+00:00",
+    "last_update_at": "2026-10-25T19:21:01+00:00",
+    "what_is_not_verified": "החות'ים טענו כי המתקפה השיגה את מטרתה ופגעה בנמל התעופה, בעוד הקואליציה דיווחה על יירוטים נרחבים; בנוסף, יש פער בדיווחים על מספר הנפגעים במתקפה הקודמת בתחילת החודש (13 לעומת 17 הרוגים).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
+      "published_at": "2026-10-25T19:21:01+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
+      "published_at": "2026-10-25T15:30:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-fire-missiles-saudi-arabia-riyadh-airport-reopens",
+      "published_at": "2026-10-25T12:44:47+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-downs-10-houthi-missiles-riyadh-airport-reopens",
+      "published_at": "2026-10-25T09:27:31+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/riyadh-airport-resumes-flights-following-houthi-attacks",
+      "published_at": "2026-10-25T03:30:34+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudis-say-riyadh-airport-partly-reopens-despite-renewed-houthi-threats",
+      "published_at": "2026-10-25T00:46:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ח'מיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10260040-02",
+    "title": "ממשלת תימן גינתה תקיפות חות'יות לעבר מכה ואל-מדינה",
+    "summary": "משרד החוץ של ממשלת תימן המוכרת גינה שיגור של שני טילים בליסטיים לעבר אזורי מכה ואל-מדינה, וכן גינה פגיעה באזרחים וברכוש בערים ח'מיס מושייט ואחד רפידה בסעודיה.",
+    "axis": "ממשלת תימן - החות'ים / סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T19:20:22+00:00",
+    "last_update_at": "2026-10-25T22:38:05+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לשיגור בפועל של טילים ספציפית לעבר מכה ואל-מדינה מלבד הודעת הגינוי של משרד החוץ התימני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5415275c831bea2a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-condemns-attacks-mecca-and-medina",
+      "published_at": "2026-10-25T22:38:05+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0f874d239b480058",
+      "url": "https://www.sabanew.net/viewstory/154621",
+      "published_at": "2026-10-25T19:20:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     },
+     {
+      "name": "אל-מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     },
+     {
+      "name": "אחד רפידה, סעודיה",
+      "lat": 18.1814,
+      "lon": 42.8414
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10260040-03",
+    "title": "נפילת שני טילים חות'יים בסמוך למחנות עקורים בעדן",
+    "summary": "שר ההסברה בממשלת תימן הודיע כי שני טילים ששיגרו החות'ים נפלו בקרבת מחנות עקורים בעיר עדן, והגדיר זאת כאיום חמור על חיי אזרחים.",
+    "axis": "דרום תימן (עדן)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T22:19:15+00:00",
+    "last_update_at": "2026-10-25T22:19:15+00:00",
+    "what_is_not_verified": "פרטי הנזק או הנפגעים המדויקים כתוצאה מנפילת הטילים בעדן לא צוינו מעבר לכותרת ההודעה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_8f6118b0b5769a07",
+      "url": "https://www.sabanew.net/viewstory/154625",
+      "published_at": "2026-10-25T22:19:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10260040-04",
+    "title": "פגיעות באזרחים במחוז תעז וקריאה של האפיפיור להסרת המצור",
+    "summary": "הפגזות וירי של החות'ים גרמו לפציעת שני אזרחים באזור הכפרי של תעז ולהרג ילד בכפרי אלאקרוד בדרום המחוז. במקביל, האפיפיור לאו קרא לסיום האלימות בתימן והדגיש את המצור על תעז כאסון הומניטרי הגורם למחסור חמור במזון, במים ובתרופות, קריאה שממשלת תימן אימצה ובירכה עליה.",
+    "axis": "פנים תימן (תעז)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T13:46:36+00:00",
+    "last_update_at": "2026-10-25T22:38:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5415275c831bea2a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-condemns-attacks-mecca-and-medina",
+      "published_at": "2026-10-25T22:38:05+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b6926f8486324714",
+      "url": "https://www.sabanew.net/viewstory/154620",
+      "published_at": "2026-10-25T18:11:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_5415275c831bea2a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pope-calls-end-conflict-yemen",
+      "published_at": "2026-10-25T15:44:17+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0d2f0e557255d324",
+      "url": "https://www.sabanew.net/viewstory/154608",
+      "published_at": "2026-10-25T14:32:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_5415275c831bea2a",
+      "url": "https://www.al-monitor.com/originals/2026/10/pope-leo-calls-yemen-violence-end-address-two-weeks-after-surgery",
+      "published_at": "2026-10-25T13:46:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10260040-05",
+    "title": "פעולות צבאיות ותפיסת אמצעי לחימה וחוליית חות'ים במחוז שבווה",
+    "summary": "מושל מחוז שבווה הודיע על לכידת חוליית טרור חות'ית ותפיסת משלוח נשק וחומרי נפץ. במקביל, צבא תימן דיווח על ביצוע מאות פעולות תקיפה שבהן נוטרלו 218 חמושים חות'ים והושמדו או הושבתו עשרות כלי רכב וציוד צבאי.",
+    "axis": "פנים תימן (שבווה וחזיתות הלחימה)",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T13:50:05+00:00",
+    "last_update_at": "2026-10-25T17:16:30+00:00",
+    "what_is_not_verified": "הנתונים על 753 פעולות ו-218 נפגעים מבוססים על הודעת צד אחד בלבד ולא אומתו על ידי מקורות בלתי תלויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_a867f33c57922204",
+      "url": "https://www.sabanew.net/viewstory/154617",
+      "published_at": "2026-10-25T17:16:30+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6f7153edfcfea7ab",
+      "url": "https://www.sabanew.net/viewstory/154603",
+      "published_at": "2026-10-25T13:50:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10260040-06",
+    "title": "השפעות ביטחוניות בינלאומיות של ההסלמה מול החות'ים",
+    "summary": "מחלקת המדינה האמריקאית פינתה אנשי צוות מריאד ועדכנה אזהרות מסע ל-13 מדינות באזור בעקבות החשש מתקיפות חות'יות. בנוסף, מרוץ ראלי דקאר לשנת 2027 הועבר מסעודיה לאזור אחר בשל שיקולי ביטחון, לצד דחייה וביטול של אירועי ספורט בינלאומיים נוספים בממלכה.",
+    "axis": "הזירה הבינלאומית והאזורית מול סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T13:33:53+00:00",
+    "last_update_at": "2026-10-25T18:42:12+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bjev9hs2zg",
+      "published_at": "2026-10-25T18:42:12+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/dakar-rally-2027-will-not-be-held-saudi-arabia",
+      "published_at": "2026-10-25T17:33:24+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/us-updates-travel-warnings-13-middle-eastern-countries",
+      "published_at": "2026-10-25T13:33:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים כי המתקפה על נמל התעופה בריאד פגעה במטרתה, מול דיווחי הקואליציה על יירוט מלא של הטילים.",
+   "הדיווחים של ממשלת תימן על שיגור טילים חות'יים ספציפית לעבר המקומות הקדושים במכה ובאל-מדינה.",
+   "המספר המדויק של הנפגעים במתקפה הקודמת בנמל התעופה בריאד (דיווחים סותרים על 13 או 17 הרוגים).",
+   "היקף הנפגעים והנזק מנפילת שני הטילים בסמוך למחנות העקורים בעדן.",
+   "היקף הנפגעים החות'ים והאבדות בציוד שפרסם צבא תימן (218 פעילים ו-78 כלי רכב)."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית (אנצאר אללה)",
+    "declared": [
+     "הפיכת נמל התעופה הבינלאומי בריאד למטרה צבאית בלתי בטוחה לשימוש.",
+     "אזהרת חברות תעופה בין-לאומיות ומקומיות משימוש בנמלי תעופה בסעודיה."
+    ],
+    "inferred": [
+     "שיבוש התנועה האווירית והכלכלה בסעודיה כדי ללחוץ על הקואליציה להפסיק את הפעולות נגדם.",
+     "ביסוס הרתעה אזורית מול סעודיה וארצות הברית לאחר קריסת הפסקת האש."
+    ],
+    "forecast": [
+     "המשך ניסיונות הפגיעה בתשתיות תעופה, תחבורה ונפט בעומק סעודיה בטווח הקרוב."
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה הערבית",
+    "declared": [
+     "הגנה על שטח הממלכה ויירוט האיומים הבליסטיים וכלי הטיס של החות'ים.",
+     "השבת הפעילות השגרתית בנמל התעופה בריאד."
+    ],
+    "inferred": [
+     "מניעת פגיעה תדמיתית וכלכלית קשה והגנה על אירועים ומיזמים בינלאומיים בממלכה.",
+     "הכלת האיום החות'י באמצעות מערכות הגנה אווירית ללא כניסה מחדש ללחימה קרקעית רחבה."
+    ],
+    "forecast": [
+     "המשך עיבוי מערכי ההגנה האווירית סביב מתקנים אסטרטגיים וצמצום טיסות בעת התרעות."
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "קריאה לפעולה בינלאומית לסיום המצור של החות'ים על תעז והגנה על אזרחים.",
+     "גינוי תקיפות החות'ים נגד ערים ומקומות קדושים בסעודיה."
+    ],
+    "inferred": [
+     "גיוס לחץ דיפלומטי ובינלאומי נגד שלטון החות'ים כדי לקבל לגיטימציה וסיוע חיצוני.",
+     "בלימת התפשטות החות'ים בדרום המדינה (עדן ושבווה) ודחיקתם בתעז."
+    ],
+    "forecast": [
+     "הגברת הפעולות הצבאיות המקומיות לסיכול חוליות ואמצעי לחימה של החות'ים בחזיתות הפנימיות."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/pope-leo-calls-yemen-violence-end-address-two-weeks-after-surgery",
+    "accessed_at": "2026-10-26T00:40:18+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pope-calls-end-conflict-yemen",
+    "accessed_at": "2026-10-26T00:40:18+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/us-updates-travel-warnings-13-middle-eastern-countries",
+    "accessed_at": "2026-10-26T00:40:18+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154603",
+    "accessed_at": "2026-10-26T00:40:18+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bjev9hs2zg",
+    "accessed_at": "2026-10-26T00:40:18+00:00"
+   }
+  ]
+ }
+}

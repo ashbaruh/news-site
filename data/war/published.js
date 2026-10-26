@@ -2,90 +2,69 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-10-25T0340__yemen-202610250340.json",
+  "draft": "drafts/yemen/2026-10-26T0040__yemen-202610260040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-10-25T03:40:27+00:00",
+   "generated_at": "2026-10-26T00:40:18+00:00",
    "window": {
-    "from": "2026-10-24T03:40:27+00:00",
-    "to": "2026-10-25T03:40:27+00:00"
+    "from": "2026-10-25T00:40:18+00:00",
+    "to": "2026-10-26T00:40:18+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "yemen-202610250340"
+    "run_id": "yemen-202610260040"
    },
-   "summary": "הלחימה בין תנועת החות'ים לבין הקואליציה בהובלת סעודיה וממשלת תימן הסלימה מחדש בעקבות קריסת שביתת הנשק. החות'ים מפעילים כטב\"מים וטילים בליסטיים לעבר יעדי תשתית, שדות תעופה ומתקני נפט בריאד ובמערב סעודיה, וכן תוקפים אתרים בעיר עדן ובאזורי משמר החופים. במקביל נמשכים עימותים קרקעיים ופגיעות באוכלוסייה אזרחית במוקדים שונים בדרום-מערב תימן, בפרט במחוז תעז.",
+   "summary": "הלחימה בין החות'ים לבין סעודיה וממשלת תימן התחדשה בעצימות גבוהה לאחר קריסת הפסקת האש שנמשכה שנים. החות'ים מנהלים מתקפות טילים וכטבמים נרחבות לעבר עומק סעודיה, ובפרט נגד נמל התעופה הבינלאומי בריאד ויעדים בדרום הממלכה, לצד תקיפות פנים-תימניות בתעז ובעדן. במקביל, כוחות ממשלת תימן והקואליציה פועלים ליירוט השיגורים ולפגיעה במערכי החות'ים, כאשר ההסלמה גורמת לשיבוש התעופה, ביטול אירועים בינלאומיים ופינוי דיפלומטים זרים.",
    "fronts": [
     {
-     "name": "חזית סעודיה - תימן (עומק סעודיה)",
-     "status": "הסלמה בתקיפות כטב\"מים וטילים לעבר שדות תעופה ומתקני נפט בריאד ובמערב סעודיה"
+     "name": "חזית תימן - סעודיה (ריאד ודרום הממלכה)",
+     "status": "הסלמה חריפה הכוללת שיגורי מטחי טילים בליסטיים וכטבמים לעבר נמל התעופה בריאד, ח'מיס מושייט ואזורים נוספים, לצד יירוטים של הקואליציה."
     },
     {
-     "name": "חזית פנים-תימן (עדן ודרום המדינה)",
-     "status": "תקיפות טילים של החות'ים על יעדי ממשל, משמר החופים ונמל התעופה בעדן ופיצוצים באזור לחג'"
-    },
-    {
-     "name": "חזית מחוז תעז",
-     "status": "התחדשות חילופי אש עזים ופעילות קרקעית באזור א-דבאב וג'בל האן לצד הפגזות"
+     "name": "חזית פנים תימן (תעז, עדן ושבווה)",
+     "status": "לחימה פעילה הכוללת מצור והפגזות על תעז, שיגור טילים לעבר עדן ופעילות סיכול של צבא תימן בשבווה ובמוקדים נוספים."
     }
    ],
    "events": [
     {
-     "id": "YEMEN-10250340-01",
-     "title": "יירוט כלי טיס בלתי מאוישים מעל אזור ריאד",
-     "summary": "כוחות הקואליציה בהובלת סעודיה הודיעו על יירוט והשמדה של שני כטב\"מים בשמי אזור ריאד. ההגנה האזרחית הסעודית הודיעה על חלוף הסכנה.",
-     "axis": "סעודיה - תימן",
+     "id": "YEMEN-10260040-01",
+     "title": "מתקפת טילים וכטבמים של החות'ים לעבר נמל התעופה בריאד ויעדים בדרום סעודיה",
+     "summary": "החות'ים שיגרו מטחי טילים בליסטיים וכטבמים לעבר נמל התעופה הבינלאומי בריאד ולעבר יעדים בדרום סעודיה שעות לאחר שחודשו בו טיסות. הקואליציה הודיעה על יירוט לפחות עשרה טילים בליסטיים וכטבם, בעוד דובר החות'ים הכריז כי נמל התעופה מהווה מטרה צבאית והזהיר חברות תעופה מהגעה אליו.",
+     "axis": "סעודיה - תימן (החות'ים)",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:23:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T23:23:29+00:00",
-     "last_update_at": "2026-10-25T03:31:08+00:00",
-     "what_is_not_verified": "אין אימות עצמאי להפלת הכטב\"מים מעבר להודעת הקואליציה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/minutes-after-danger-alert-saudi-civil-defence-says-danger-has-passed",
-       "published_at": "2026-10-25T03:31:08+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-forces-intercept-another-drone-over-riyadh-spokesman-says",
-       "published_at": "2026-10-25T02:29:35+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
-       "published_at": "2026-10-24T23:23:29+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10250340-02",
-     "title": "חידוש הטיסות בנמל התעופה הבינלאומי בריאד והתרעה חות'ית חוזרת",
-     "summary": "נמל התעופה הבינלאומי בריאד הודיע על חידוש הטיסות לאחר סגירה בת שבועיים בעקבות מתקפות קודמות, בעוד דובר החות'ים שב והזהיר כי המקום נותר מטרה צבאית.",
-     "axis": "סעודיה - תימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T21:14:13+00:00",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-24T21:14:13+00:00",
-     "last_update_at": "2026-10-25T03:30:34+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-25T00:46:40+00:00",
+     "last_update_at": "2026-10-25T19:21:01+00:00",
+     "what_is_not_verified": "החות'ים טענו כי המתקפה השיגה את מטרתה ופגעה בנמל התעופה, בעוד הקואליציה דיווחה על יירוטים נרחבים; בנוסף, יש פער בדיווחים על מספר הנפגעים במתקפה הקודמת בתחילת החודש (13 לעומת 17 הרוגים).",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
+       "published_at": "2026-10-25T19:21:01+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
+       "published_at": "2026-10-25T15:30:23+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/houthis-fire-missiles-saudi-arabia-riyadh-airport-reopens",
+       "published_at": "2026-10-25T12:44:47+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/saudi-downs-10-houthi-missiles-riyadh-airport-reopens",
+       "published_at": "2026-10-25T09:27:31+00:00"
+      },
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
@@ -95,20 +74,8 @@ window.DB.war_published = {
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-renew-warning-against-using-riyadh-airport",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudis-say-riyadh-airport-partly-reopens-despite-renewed-houthi-threats",
        "published_at": "2026-10-25T00:46:40+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-renew-warning-against-using-riyadh-airport",
-       "published_at": "2026-10-24T23:05:18+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadh-airport-resume-flights-sunday-following-closure-after-houthi",
-       "published_at": "2026-10-24T21:14:13+00:00"
       }
      ],
      "places": [
@@ -116,64 +83,78 @@ window.DB.war_published = {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
+      },
+      {
+       "name": "ח'מיס מושייט, סעודיה",
+       "lat": 18.3,
+       "lon": 42.7333
       }
      ]
     },
     {
-     "id": "YEMEN-10250340-03",
-     "title": "מתקפות טילים על יעדים בעיר עדן",
-     "summary": "טילים ששיגרו החות'ים פגעו במספר אתרים בעיר עדן, בהם אזור נמל התעופה ומתקנים של משמר החופים, לפי הודעות גורמי ממשל מקומיים.",
-     "axis": "פנים-תימן",
-     "claim_type": "incident",
+     "id": "YEMEN-10260040-02",
+     "title": "ממשלת תימן גינתה תקיפות חות'יות לעבר מכה ואל-מדינה",
+     "summary": "משרד החוץ של ממשלת תימן המוכרת גינה שיגור של שני טילים בליסטיים לעבר אזורי מכה ואל-מדינה, וכן גינה פגיעה באזרחים וברכוש בערים ח'מיס מושייט ואחד רפידה בסעודיה.",
+     "axis": "ממשלת תימן - החות'ים / סעודיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T00:00:00+00:00",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-24T08:07:34+00:00",
-     "last_update_at": "2026-10-24T21:08:51+00:00",
-     "what_is_not_verified": "קיימת מחלוקת בין גופי הממשל האם נפגע נמל התעופה או רק מפקדות משמר החופים, וכן היקף הנזק והנפגעים אינם מאומתים",
+     "first_reported_at": "2026-10-25T19:20:22+00:00",
+     "last_update_at": "2026-10-25T22:38:05+00:00",
+     "what_is_not_verified": "אין אימות עצמאי לשיגור בפועל של טילים ספציפית לעבר מכה ואל-מדינה מלבד הודעת הגינוי של משרד החוץ התימני.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_7ab28fb21d9cb041",
-       "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
-       "published_at": "2026-10-24T21:08:51+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_5415275c831bea2a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-condemns-attacks-mecca-and-medina",
+       "published_at": "2026-10-25T22:38:05+00:00"
       },
       {
        "source_id": "src_saba_aden",
-       "source_root_id": "fh_7ab28fb21d9cb041",
-       "url": "https://www.sabanew.net/viewstory/154568",
-       "published_at": "2026-10-24T19:31:23+00:00"
+       "source_root_id": "fh_0f874d239b480058",
+       "url": "https://www.sabanew.net/viewstory/154621",
+       "published_at": "2026-10-25T19:20:22+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מכה, סעודיה",
+       "lat": 21.4208,
+       "lon": 39.8269
       },
       {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_7ab28fb21d9cb041",
-       "url": "https://www.newarab.com/news/houthi-missiles-target-aden-airport-coastguard",
-       "published_at": "2026-10-24T18:13:35+00:00"
+       "name": "אל-מדינה, סעודיה",
+       "lat": 24.4712,
+       "lon": 39.6111
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_7ab28fb21d9cb041",
-       "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
-       "published_at": "2026-10-24T17:50:25+00:00"
-      },
+       "name": "אחד רפידה, סעודיה",
+       "lat": 18.1814,
+       "lon": 42.8414
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10260040-03",
+     "title": "נפילת שני טילים חות'יים בסמוך למחנות עקורים בעדן",
+     "summary": "שר ההסברה בממשלת תימן הודיע כי שני טילים ששיגרו החות'ים נפלו בקרבת מחנות עקורים בעיר עדן, והגדיר זאת כאיום חמור על חיי אזרחים.",
+     "axis": "דרום תימן (עדן)",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T22:19:15+00:00",
+     "last_update_at": "2026-10-25T22:19:15+00:00",
+     "what_is_not_verified": "פרטי הנזק או הנפגעים המדויקים כתוצאה מנפילת הטילים בעדן לא צוינו מעבר לכותרת ההודעה.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_saba_aden",
-       "source_root_id": "fh_ecdd2a28aa1df3dd",
-       "url": "https://www.sabanew.net/viewstory/154558",
-       "published_at": "2026-10-24T16:53:56+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_11514788f42a68b8",
-       "url": "https://www.sabanew.net/viewstory/154553",
-       "published_at": "2026-10-24T14:56:30+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_7ab28fb21d9cb041",
-       "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
-       "published_at": "2026-10-24T08:07:34+00:00"
+       "source_root_id": "fh_8f6118b0b5769a07",
+       "url": "https://www.sabanew.net/viewstory/154625",
+       "published_at": "2026-10-25T22:19:15+00:00"
       }
      ],
      "places": [
@@ -185,93 +166,48 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-10250340-04",
-     "title": "טענות סעודיות ליירוט טילים והכחשה חות'ית לגבי פגיעה באתרים קדושים",
-     "summary": "גורמים בסעודיה טענו כי יורטו טילים בליסטיים שכוונו לאזורי מכה ומדינה ונשרו רסיסים בערים ג'דה, טאיף וראביע'. מנגד, החות'ים הכחישו ירי לעבר ערים קדושות וטענו כי תקפו מתקני נפט ושדות תעופה.",
-     "axis": "סעודיה - תימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T08:07:34+00:00",
-     "last_update_at": "2026-10-24T23:23:29+00:00",
-     "what_is_not_verified": "האם שוגרו טילים ישירות לכיוון מכה ומדינה או רק למתקני תשתית סמוכים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
-       "published_at": "2026-10-24T23:23:29+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-report-they-attacked-mecca-and-medina",
-       "published_at": "2026-10-24T18:44:03+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
-       "published_at": "2026-10-24T17:50:25+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-houthi-missile-shrapnel-falls-jeddah-taif-rabigh-after",
-       "published_at": "2026-10-24T17:19:12+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
-       "published_at": "2026-10-24T08:07:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מכה, סעודיה",
-       "lat": 21.4208,
-       "lon": 39.8269
-      },
-      {
-       "name": "ג'דה, סעודיה",
-       "lat": 21.5504,
-       "lon": 39.1742
-      },
-      {
-       "name": "ראביע', סעודיה",
-       "lat": 22.799,
-       "lon": 39.0336
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10250340-05",
-     "title": "התחדשות קרבות ועימותים בדרום-מערב תימן ובמחוז תעז",
-     "summary": "קרבות עזים התחדשו באזור א-דבאב ובסביבות ג'בל האן בדרום-מערב תימן, לצד דיווחים על פיצוצים עזים בין המחוזות לחג' ועדן.",
-     "axis": "פנים-תימן",
+     "id": "YEMEN-10260040-04",
+     "title": "פגיעות באזרחים במחוז תעז וקריאה של האפיפיור להסרת המצור",
+     "summary": "הפגזות וירי של החות'ים גרמו לפציעת שני אזרחים באזור הכפרי של תעז ולהרג ילד בכפרי אלאקרוד בדרום המחוז. במקביל, האפיפיור לאו קרא לסיום האלימות בתימן והדגיש את המצור על תעז כאסון הומניטרי הגורם למחסור חמור במזון, במים ובתרופות, קריאה שממשלת תימן אימצה ובירכה עליה.",
+     "axis": "פנים תימן (תעז)",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T23:23:29+00:00",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-24T23:23:29+00:00",
-     "last_update_at": "2026-10-25T02:29:35+00:00",
-     "what_is_not_verified": "היקף הנפגעים וזהות הכוחות המשתתפים באופן ספציפי בכל נקודה",
+     "first_reported_at": "2026-10-25T13:46:36+00:00",
+     "last_update_at": "2026-10-25T22:38:05+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-forces-intercept-another-drone-over-riyadh-spokesman-says",
-       "published_at": "2026-10-25T02:29:35+00:00"
+       "source_root_id": "fh_5415275c831bea2a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-condemns-attacks-mecca-and-medina",
+       "published_at": "2026-10-25T22:38:05+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_b6926f8486324714",
+       "url": "https://www.sabanew.net/viewstory/154620",
+       "published_at": "2026-10-25T18:11:15+00:00"
       },
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
-       "published_at": "2026-10-24T23:23:29+00:00"
+       "source_root_id": "fh_5415275c831bea2a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pope-calls-end-conflict-yemen",
+       "published_at": "2026-10-25T15:44:17+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_0d2f0e557255d324",
+       "url": "https://www.sabanew.net/viewstory/154608",
+       "published_at": "2026-10-25T14:32:23+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_5415275c831bea2a",
+       "url": "https://www.al-monitor.com/originals/2026/10/pope-leo-calls-yemen-violence-end-address-two-weeks-after-surgery",
+       "published_at": "2026-10-25T13:46:36+00:00"
       }
      ],
      "places": [
@@ -279,33 +215,69 @@ window.DB.war_published = {
        "name": "תעז, תימן",
        "lat": 13.5752,
        "lon": 44.0215
-      },
-      {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
       }
      ]
     },
     {
-     "id": "YEMEN-10250340-06",
-     "title": "צמצום מצבת כוח האדם בנציגות ארצות הברית בסעודיה",
-     "summary": "ממשלת ארצות הברית צמצמה את צוות הנציגות שלה בסעודיה בתגובה להסלמת התקיפות מצד החות'ים.",
-     "axis": "סעודיה - תימן",
+     "id": "YEMEN-10260040-05",
+     "title": "פעולות צבאיות ותפיסת אמצעי לחימה וחוליית חות'ים במחוז שבווה",
+     "summary": "מושל מחוז שבווה הודיע על לכידת חוליית טרור חות'ית ותפיסת משלוח נשק וחומרי נפץ. במקביל, צבא תימן דיווח על ביצוע מאות פעולות תקיפה שבהן נוטרלו 218 חמושים חות'ים והושמדו או הושבתו עשרות כלי רכב וציוד צבאי.",
+     "axis": "פנים תימן (שבווה וחזיתות הלחימה)",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-25T13:50:05+00:00",
+     "last_update_at": "2026-10-25T17:16:30+00:00",
+     "what_is_not_verified": "הנתונים על 753 פעולות ו-218 נפגעים מבוססים על הודעת צד אחד בלבד ולא אומתו על ידי מקורות בלתי תלויים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_a867f33c57922204",
+       "url": "https://www.sabanew.net/viewstory/154617",
+       "published_at": "2026-10-25T17:16:30+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_6f7153edfcfea7ab",
+       "url": "https://www.sabanew.net/viewstory/154603",
+       "published_at": "2026-10-25T13:50:05+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10260040-06",
+     "title": "השפעות ביטחוניות בינלאומיות של ההסלמה מול החות'ים",
+     "summary": "מחלקת המדינה האמריקאית פינתה אנשי צוות מריאד ועדכנה אזהרות מסע ל-13 מדינות באזור בעקבות החשש מתקיפות חות'יות. בנוסף, מרוץ ראלי דקאר לשנת 2027 הועבר מסעודיה לאזור אחר בשל שיקולי ביטחון, לצד דחייה וביטול של אירועי ספורט בינלאומיים נוספים בממלכה.",
+     "axis": "הזירה הבינלאומית והאזורית מול סעודיה",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T00:00:00+00:00",
+     "occurred_at": "2026-10-25T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-24T16:46:39+00:00",
-     "last_update_at": "2026-10-24T16:46:39+00:00",
+     "first_reported_at": "2026-10-25T13:33:53+00:00",
+     "last_update_at": "2026-10-25T18:42:12+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
-       "published_at": "2026-10-24T16:46:39+00:00"
+       "url": "https://www.ynet.co.il/news/article/bjev9hs2zg",
+       "published_at": "2026-10-25T18:42:12+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/dakar-rally-2027-will-not-be-held-saudi-arabia",
+       "published_at": "2026-10-25T17:33:24+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/us-updates-travel-warnings-13-middle-eastern-countries",
+       "published_at": "2026-10-25T13:33:53+00:00"
       }
      ],
      "places": [
@@ -318,9 +290,11 @@ window.DB.war_published = {
     }
    ],
    "not_verified": [
-    "טענת סעודיה כי טילי החות'ים שוגרו במישרין לעבר המקומות הקדושים במכה ובמדינה",
-    "מספר הנפגעים המדויק והנזק שנגרם בפועל בתקיפות הטילים בעיר עדן",
-    "מיקומן המדויק של פגיעות הטילים בעדן (בנמל התעופה עצמו או במתקני משמר החופים בלבד)"
+    "טענת החות'ים כי המתקפה על נמל התעופה בריאד פגעה במטרתה, מול דיווחי הקואליציה על יירוט מלא של הטילים.",
+    "הדיווחים של ממשלת תימן על שיגור טילים חות'יים ספציפית לעבר המקומות הקדושים במכה ובאל-מדינה.",
+    "המספר המדויק של הנפגעים במתקפה הקודמת בנמל התעופה בריאד (דיווחים סותרים על 13 או 17 הרוגים).",
+    "היקף הנפגעים והנזק מנפילת שני הטילים בסמוך למחנות העקורים בעדן.",
+    "היקף הנפגעים החות'ים והאבדות בציוד שפרסם צבא תימן (218 פעילים ו-78 כלי רכב)."
    ],
    "map": {
     "confidence": "low",
@@ -340,97 +314,106 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "תנועת החות'ים",
+     "actor": "התנועה החות'ית (אנצאר אללה)",
      "declared": [
-      "פגיעה במתקני נפט ושדות תעופה בסעודיה",
-      "המשך הגדרת שדה התעופה בריאד כיעד צבאי והתרעה מפני שימוש בו"
+      "הפיכת נמל התעופה הבינלאומי בריאד למטרה צבאית בלתי בטוחה לשימוש.",
+      "אזהרת חברות תעופה בין-לאומיות ומקומיות משימוש בנמלי תעופה בסעודיה."
      ],
      "inferred": [
-      "שיבוש הפעילות הכלכלית והתעופתית בסעודיה כדי ללחוץ לעצירת תקיפות הקואליציה",
-      "פגיעה ביכולת התפקוד של ממשלת תימן בעיר עדן"
+      "שיבוש התנועה האווירית והכלכלה בסעודיה כדי ללחוץ על הקואליציה להפסיק את הפעולות נגדם.",
+      "ביסוס הרתעה אזורית מול סעודיה וארצות הברית לאחר קריסת הפסקת האש."
      ],
      "forecast": [
-      "המשך שיגור כטב\"מים וטילים לעבר עומק סעודיה ומוקדי הממשל בדרום תימן"
+      "המשך ניסיונות הפגיעה בתשתיות תעופה, תחבורה ונפט בעומק סעודיה בטווח הקרוב."
      ]
     },
     {
-     "actor": "הקואליציה בהובלת סעודיה",
+     "actor": "סעודיה והקואליציה הערבית",
      "declared": [
-      "הגנה על ביטחון התושבים ויירוט איומים אוויריים בשמי הממלכה",
-      "השבת הפעילות האזרחית והתעופתית בריאד לסדרה"
+      "הגנה על שטח הממלכה ויירוט האיומים הבליסטיים וכלי הטיס של החות'ים.",
+      "השבת הפעילות השגרתית בנמל התעופה בריאד."
      ],
      "inferred": [
-      "מניעת פגיעה בסמלי שלטון ובתשתיות קריטיות תוך בלימת הישגי החות'ים",
-      "שמירה על הלגיטימציה של ממשלת תימן המוכרת"
+      "מניעת פגיעה תדמיתית וכלכלית קשה והגנה על אירועים ומיזמים בינלאומיים בממלכה.",
+      "הכלת האיום החות'י באמצעות מערכות הגנה אווירית ללא כניסה מחדש ללחימה קרקעית רחבה."
      ],
      "forecast": [
-      "הגברת מאמצי ההגנה האווירית סביב שדות תעופה ותקיפות תגובה בתימן"
+      "המשך עיבוי מערכי ההגנה האווירית סביב מתקנים אסטרטגיים וצמצום טיסות בעת התרעות."
+     ]
+    },
+    {
+     "actor": "ממשלת תימן המוכרת בינלאומית",
+     "declared": [
+      "קריאה לפעולה בינלאומית לסיום המצור של החות'ים על תעז והגנה על אזרחים.",
+      "גינוי תקיפות החות'ים נגד ערים ומקומות קדושים בסעודיה."
+     ],
+     "inferred": [
+      "גיוס לחץ דיפלומטי ובינלאומי נגד שלטון החות'ים כדי לקבל לגיטימציה וסיוע חיצוני.",
+      "בלימת התפשטות החות'ים בדרום המדינה (עדן ושבווה) ודחיקתם בתעז."
+     ],
+     "forecast": [
+      "הגברת הפעולות הצבאיות המקומיות לסיכול חוליות ואמצעי לחימה של החות'ים בחזיתות הפנימיות."
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
-    },
-    {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/iran-has-ramped-efforts-target-us-personnel-intelligence-memo-warns",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
-    },
-    {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/pope-leo-calls-yemen-violence-end-address-two-weeks-after-surgery",
+     "accessed_at": "2026-10-26T00:40:18+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-destroyed-riyadh-region-explosions-rock-southern-yemen",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pope-calls-end-conflict-yemen",
+     "accessed_at": "2026-10-26T00:40:18+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/houthis-attack-yemens-aden-say-saudi-strikes-kill-16",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
+     "url": "https://www.newarab.com/news/us-updates-travel-warnings-13-middle-eastern-countries",
+     "accessed_at": "2026-10-26T00:40:18+00:00"
     },
     {
      "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/154553",
-     "accessed_at": "2026-10-25T03:40:27+00:00"
+     "url": "https://www.sabanew.net/viewstory/154603",
+     "accessed_at": "2026-10-26T00:40:18+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/bjev9hs2zg",
+     "accessed_at": "2026-10-26T00:40:18+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-24T14:06:29+00:00",
+  "previous_generated_at": "2026-10-25T03:40:27+00:00",
   "changes": {
-   "YEMEN-10250340-01": {
+   "YEMEN-10260040-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "יירוט טיל בליסטי לעבר ריאד וכטב\"ם במזרח סעודיה",
+    "prev": "חידוש הטיסות בנמל התעופה הבינלאומי בריאד והתרעה חות'ית חוזרת",
+    "score": 1.0
+   },
+   "YEMEN-10260040-02": {
+    "kind": "new"
+   },
+   "YEMEN-10260040-03": {
+    "kind": "down",
+    "from": "verified",
+    "to": "initial",
+    "prev": "מתקפות טילים על יעדים בעיר עדן",
     "score": 0.817
    },
-   "YEMEN-10250340-02": {
-    "kind": "new"
-   },
-   "YEMEN-10250340-03": {
-    "kind": "new"
-   },
-   "YEMEN-10250340-04": {
+   "YEMEN-10260040-04": {
     "kind": "possible",
-    "prev": "יירוט טילים בליסטיים לעבר טאיף וינבוע והתרעות במערב סעודיה",
-    "score": 0.467
-   },
-   "YEMEN-10250340-05": {
-    "kind": "possible",
-    "prev": "החרפת המצור וההפגזות של החות'ים על העיר תעז",
+    "prev": "התחדשות קרבות ועימותים בדרום-מערב תימן ובמחוז תעז",
     "score": 0.633
    },
-   "YEMEN-10250340-06": {
-    "kind": "possible",
-    "prev": "פקיסטן אשררה ברית הגנה עם סעודיה וטורקיה",
-    "score": 0.467
+   "YEMEN-10260040-05": {
+    "kind": "new"
+   },
+   "YEMEN-10260040-06": {
+    "kind": "new"
    }
   }
  },
@@ -1191,258 +1174,128 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-25T0342__north-202610250342.json",
+  "draft": "drafts/north/2026-10-26T0043__north-202610260043.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-25T03:42:23+00:00",
+   "generated_at": "2026-10-26T00:43:21+00:00",
    "window": {
-    "from": "2026-10-24T03:42:23+00:00",
-    "to": "2026-10-25T03:42:23+00:00"
+    "from": "2026-10-25T00:43:21+00:00",
+    "to": "2026-10-26T00:43:21+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "north-202610250342"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "north-202610260043"
    },
-   "summary": "הגזרה הצפונית מתאפיינת בפעילות אש ישראלית מתמשכת בדרום לבנון לצד התבססות בשטח ואזהרות ביטחוניות חריגות בביירות, כאשר חיזבאללה מאותת על ניסיון להימנע מהרחבת העימות. בסוריה נרשמת אי-יציבות ביטחונית ועדתית גוברת מול הדרוזים, הנוצרים והכורדים, בד בבד עם חסימות צירים מרכזיים בדרום המדינה ואיומים מצד גורמים המקורבים לממשל בדמשק לפעול נגד ישראל במרחב הגולן.",
+   "summary": "בגזרה הצפונית מתנהלות פעולות צבאיות ממוקדות בדרום לבנון הכוללות ירי מיירטים ותקיפות שגרתיות של צה\"ל, לצד חידוש עבודות הנדסיות והתבצרות מצד ישראל במרחב קוניטרה שבסוריה. מנגד, חיזבאללה וגורמים פוליטיים בלבנון ממשיכים להצהיר על מעמדם הבלתי ניתן לערעור בכל הסדר עתידי, בעוד גורמים באזור עוקבים אחר המתיחות הביטחונית הממשיכה לאפיין את הגבולות.",
    "fronts": [
     {
-     "name": "דרום לבנון - גבול ישראל",
-     "status": "חילופי אש ותקיפות ישראליות מהאוויר ובירי ארטילרי, לצד טענות על פעולות הנדסיות והקמת מנחתי מסוקים של צה\"ל."
+     "name": "החזית הלבנונית",
+     "status": "פעיל"
     },
     {
-     "name": "דרום סוריה (סווידא, דרעא וקוניטרה)",
-     "status": "חיכוך פנימי מול חמושים דרוזים החוסמים צירים ראשיים לעבר דמשק, לצד התבטאויות מאיימות נגד נוכחות ישראל בגולן."
-    },
-    {
-     "name": "הזירה הפנים-סורית (מרכז וצפון-מזרח סוריה)",
-     "status": "חיכוכים על רקע עדתי בין תומכי הממשל החדש למיעוטים נוצריים, כורדיים ועלוויים המלווים בהפגנות והתנכלויות לרכוש."
+     "name": "החזית הסורית",
+     "status": "פעיל"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10250342-01",
-     "title": "תקיפות ארטילריה וירי מהאוויר של צה\"ל בדרום לבנון",
-     "summary": "נרשמה פעילות צבאית שכללה הפגזה ארטילרית לעבר אזור אל-מנצורי בנפת צור ותקיפה אווירית באזור ואדי אל-חג'יר בדרום לבנון.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-10260043-01",
+     "title": "שיגור מיירט לעבר מטרה אווירית בדרום לבנון",
+     "summary": "כוחות צה\"ל בדרום לבנון זיהו מטרה אווירית חשודה ושיגרו לעברה מיירט.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T17:39:22+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-24T17:39:22+00:00",
-     "last_update_at": "2026-10-24T19:31:20+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או הודעה רשמית של צה\"ל על תוצאות התקיפות או מטרותיהן המדויקות.",
+     "occurred_at": "2026-10-25T18:32:25+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-25T18:32:25+00:00",
+     "last_update_at": "2026-10-25T18:32:26+00:00",
+     "what_is_not_verified": "האם המטרה יורטה בהצלחה ומה טיבה המדויק.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_961bf1c55000604d",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-artillery-shells-town-southern-lebanons-tyre-district",
-       "published_at": "2026-10-24T19:31:20+00:00"
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1381238",
+       "published_at": "2026-10-25T18:32:26+00:00"
       },
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_961bf1c55000604d",
-       "url": "https://english.almanar.com.lb/article/142367/",
-       "published_at": "2026-10-24T17:39:22+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25477",
+       "published_at": "2026-10-25T18:32:25+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-מנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "name": "דרום לבנון",
+       "lat": 33.2481,
+       "lon": 35.5119
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10260043-02",
+     "title": "תקיפות והפצצות של צה\"ל במספר מוקדים בדרום לבנון",
+     "summary": "הצבא הישראלי המשיך בתקיפות אוויריות, הפצצות ארטילריות ופיצוצים מבוקרים בכפרים ובאזורים שונים בדרום לבנון.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-25T11:29:05+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-25T11:29:05+00:00",
+     "last_update_at": "2026-10-25T11:29:05+00:00",
+     "what_is_not_verified": "דיווחים על נפגעים ונזק מדויק אינם זמינים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/142547/",
+       "published_at": "2026-10-25T11:29:05+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפר תבנית",
+       "lat": 33.3519,
+       "lon": 35.5186
       },
       {
-       "name": "ואדי אל-חג'יר, לבנון",
+       "name": "ואדי אל-חוג'ייר",
        "lat": 33.2589,
        "lon": 35.459
       }
      ]
     },
     {
-     "id": "NORTH-10250342-02",
-     "title": "דיווח על הקמת מנחת מסוקים ישראלי בדרום לבנון",
-     "summary": "בכלי תקשורת בלבנון נטען כי כוחות צה\"ל הכשירו מנחת מסוקים באזור אלפקעאני, מדרום לכפר יחמר א-שקיף לעבר א-טייבה בסמוך לבופור.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-10260043-03",
+     "title": "כניסת כוחות ישראליים למרחב קוניטרה בסוריה",
+     "summary": "כוחות ישראליים נכנסו למחוז קוניטרה הדרום-מערבי בסוריה לחידוש עבודות חפירה ובניית סוללות עפר במסגרת פרויקט סופה 53.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-24T08:32:26+00:00",
+     "occurred_at": "2026-10-25T17:55:49+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-24T08:32:26+00:00",
-     "last_update_at": "2026-10-24T08:32:26+00:00",
-     "what_is_not_verified": "הטענה מבוססת על מקורות תקשורת מקומיים בלבנון ללא אישור ישראלי רשמי או תיעוד מאומת בשטח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132456",
-       "published_at": "2026-10-24T08:32:26+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "יחמר א-שקיף, לבנון",
-       "lat": 33.4868,
-       "lon": 35.6729
-      },
-      {
-       "name": "א-טייבה, לבנון",
-       "lat": 33.9579,
-       "lon": 36.1663
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10250342-03",
-     "title": "חסימת ציר סווידא-דמשק ופעילות חמושים בדרום סוריה",
-     "summary": "חמושים ממיליציית 'המשמר הלאומי' הדרוזית הנאמנה לחכמת אל-היג'רי חסמו את התנועה במחסום אום א-זיתון ושיבשו את הנסיעה בכביש הראשי המחבר בין סווידא לדמשק, לצד ניסיונות תקיפה וחדירה באזור הכפרי המערבי של המחוז.",
-     "axis": "דרום סוריה - מתחים פנימיים וגבול ישראל",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T14:53:21+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-24T14:53:21+00:00",
-     "last_update_at": "2026-10-24T14:53:21+00:00",
-     "what_is_not_verified": "היקף התיאום הנטען בין המיליציה הדרוזית לבין צה\"ל בדרום סוריה נשען על הערכות פרשנים בלבד.",
+     "first_reported_at": "2026-10-25T17:55:49+00:00",
+     "last_update_at": "2026-10-25T17:55:49+00:00",
+     "what_is_not_verified": "ההשפעה המדויקת של הרחבת הסוללה על שטחי החקלאות והתושבים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/hijris-national-guard-militia-closes-suweida-damascus-highway",
-       "published_at": "2026-10-24T14:53:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "א-סווידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
-      },
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10250342-04",
-     "title": "איומים מסוריה כלפי ישראל סביב שטחי הגולן, קוניטרה ודרעא",
-     "summary": "עיתונאי סורי המקורב לנשיא אחמד א-שרע השמיע התבטאויות מאיימות נגד ישראל בעקבות הפגנות בסוריה, והצהיר כי העם הסורי יתקומם ולא יוותר על שטחים בגולן, בקוניטרה ובדרעא חרף היתרון הטכנולוגי הישראלי.",
-     "axis": "סוריה - ישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T10:19:03+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T10:19:03+00:00",
-     "last_update_at": "2026-10-24T10:19:03+00:00",
-     "what_is_not_verified": "לא ברור אם דברי העיתונאי מבטאים מדיניות רשמית מוצהרת של הנהגת סוריה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132467",
-       "published_at": "2026-10-24T10:19:03+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרעא, סוריה",
-       "lat": 32.6228,
-       "lon": 36.1068
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10250342-05",
-     "title": "דיווח על העברת מסר מחיזבאללה בדבר הימנעות מהתערבות במלחמה חדשה",
-     "summary": "לפי דיווח עיתונאי, ארגון חיזבאללה העביר מסר כי לא יתערב בעימות צבאי עתידי אם יפרוץ מחדש בין ארצות הברית או ישראל לבין איראן, במקביל לאמירה איראנית לפיה אין לטהראן צורך בהתערבותו.",
-     "axis": "חיזבאללה - איראן - ישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T14:05:45+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-24T14:05:45+00:00",
-     "last_update_at": "2026-10-24T14:05:45+00:00",
-     "what_is_not_verified": "העברת המסר מבוססת על דיווח בעיתון א-שרק אל-אווסט ואינה מגובה בהודעה רשמית של חיזבאללה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
-       "published_at": "2026-10-24T14:05:45+00:00"
+       "url": "https://www.newarab.com/news/israeli-forces-advance-syrias-quneitra-daraa-officer-killed",
+       "published_at": "2026-10-25T17:55:49+00:00"
       }
      ],
      "places": []
-    },
-    {
-     "id": "NORTH-10250342-06",
-     "title": "אזהרת ביטחון של שגרירות ארצות הברית בביירות לאזרחיה",
-     "summary": "נציגות ארצות הברית בלבנון פרסמה הנחיה חריגה הקוראת לתפוס מחסה מפני פציעות, להתרחק מחלונות ומדלתות זכוכית ולהחזיק מכשירי טלפון טעונים.",
-     "axis": "לבנון - ביטחון פנים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T17:49:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-24T17:49:31+00:00",
-     "last_update_at": "2026-10-24T17:49:31+00:00",
-     "what_is_not_verified": "הסיבה המיידית שהובילה להוצאת ההתרעה אינה מפורטת בכתבה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1380783",
-       "published_at": "2026-10-24T17:49:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10250342-07",
-     "title": "הסלמת אלימות עדתית ופגיעה באוכלוסיות מיעוטים ברחבי סוריה",
-     "summary": "השלטון החדש בסוריה מתמודד עם מתחים עדתיים חריפים, הכוללים מהומות והשחתת רכוש של נוצרים בעיירה א-סוקילבייה שבמחוז חמה, הפגנות נגד מוסדות כורדיים באזורי אל-חסכה וא-רקה, וחששות בקרב עלווים ודרוזים מפני רדיפה.",
-     "axis": "סוריה - מתחים עדתיים ופנים-מדינתיים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-24T14:22:24+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-24T14:22:24+00:00",
-     "last_update_at": "2026-10-24T14:22:24+00:00",
-     "what_is_not_verified": "מידת המעורבות הישירה של גורמי שלטון מרכזיים בתקריות האלימות המקומיות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_the_new_arab",
-       "url": "https://www.newarab.com/analysis/protecting-minorities-test-syrias-new-political-order",
-       "published_at": "2026-10-24T14:22:24+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "א-רקה, סוריה",
-       "lat": 35.9497,
-       "lon": 39.0089
-      }
-     ]
     }
    ],
    "not_verified": [
-    "הדיווח הלבנוני על כך שצה\"ל הכשיר מנחת מסוקים חדש בדרום הכפר יחמר א-שקיף.",
-    "הטענה בעיתון א-שרק אל-אווסט לפיה חיזבאללה התחייב רשמית שלא להתערב במלחמה עתידית.",
-    "הערכות פרשנים לפיהן פעילות המיליציה הדרוזית בסווידא מתואמת עם צבא ישראל."
+    "היקף הנזק והנפגעים המדויק כתוצאה מהתקיפות בדרום לבנון אינו מאומת.",
+    "ההשלכות המלאות של הקמת סוללות העפר והרחבת הפעילות הקרקעית בקוניטרה אינן מאומתות לגבי גורל האדמות החקלאיות.",
+    "הטענות המדויקות אודות התארגנות צבאית התוקפת או מדמה פשיטות משטח סוריה לגולן אינן מאומתות ממקור רשמי ישראלי."
    ],
    "map": {
     "confidence": "medium",
@@ -1464,115 +1317,76 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "הגנה על ביטחון הגבול ומניעת התעצמות איומים מלבנון ומסוריה."
+      "מניעת איומים ופגיעה במטרות חשודות בגזרה הצפונית",
+      "פעילות הנדסית לביצור הגבולות (כגון פרויקט סופה 53 בקוניטרה)"
      ],
      "inferred": [
-      "המשך פגיעה במטרות תשתית ופעילי טרור בדרום לבנון ויצירת עומק ביטחוני לאורך הגבולות הצפוניים.",
-      "ניצול פיצול הכוחות והחולשה השלטונית בדרום סוריה לשיבוש התבססות עוינת סמוך לרמת הגולן."
+      "שמירה על חופש פעולה מבצעי בדרום לבנון ובמרחב הגבול הסורי",
+      "מניעת התבססות עוינת סמוך לגבולות המדינה"
      ],
      "forecast": [
-      "המשך ירי מדויק ותקיפות נקודתיות בדרום לבנון תוך שימור מרחב פעולה חופשי באוויר ובקרקע."
+      "המשך חיכוך צבאי מתמשך בדרום לבנון",
+      "שימור אמצעי הגנה ופעילות הנדסית בגבול סוריה"
      ]
     },
     {
-     "actor": "חיזבאללה",
-     "declared": [],
-     "inferred": [
-      "צמצום החשיפה לעימות כולל חדש במטרה לשקם יכולות לאחר פגיעות קשות שספג הארגון.",
-      "שמירה על פרופיל פעולה מוגבל אל מול לחצים מטהראן ומהזירה הלבנונית הפנימית."
-     ],
-     "forecast": [
-      "הימנעות מיוזמה התקפית רחבה כדי לא להיגרר לעימות אזורי הרסני נוסף."
-     ]
-    },
-    {
-     "actor": "השלטון החדש בסוריה (משטר אחמד א-שרע)",
+     "actor": "חיזבאללה ולבנון (גורמים פוליטיים)",
      "declared": [
-      "אי-ויתור על שטחי הגולן, קוניטרה ודרעא ועמידה מול תקיפות ישראליות."
+      "הבטחת מקומו של הארגון בכל הסדר עתידי כאמצעי הגנה",
+      "דרישה לנסיגה מלאה ושחרור אסירים"
      ],
      "inferred": [
-      "ניסיון להפגין ריבונות ורטוריקה לאומית כדי להרגיע את הציבור הסורי לנוכח אובדן שליטה פנימי.",
-      "בלימת התפשטות מוקדי כוח עצמאיים של מיעוטים בדרום ובצפון-מזרח המדינה."
+      "ניסיון לשמר את ההשפעה הפוליטית והצבאית במדינה למרות הלחצים",
+      "התנגדות לכל הסדר מדיני עתידי שאינו כולל את תנאי ההתנגדות"
      ],
      "forecast": [
-      "המשך קושי באכיפת שליטה אפקטיבית במחוזות הדרומיים לצד החרפת החיכוך המילולי והפוליטי מול ישראל."
+      "המשך הצהרות לוחמניות כנגד ישראל",
+      "התנגדות לכל ניסיון לפירוק נשק או לשינוי המציאות הביטחונית ללא תנאיהם"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/142367/",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
+     "url": "https://english.almanar.com.lb/article/142547/",
+     "accessed_at": "2026-10-26T00:43:21+00:00"
     },
     {
      "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1380783",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-artillery-shells-town-southern-lebanons-tyre-district",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
+     "url": "https://www.maariv.co.il/breaking-news/article-1381238",
+     "accessed_at": "2026-10-26T00:43:21+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/analysis/protecting-minorities-test-syrias-new-political-order",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
+     "url": "https://www.newarab.com/news/israeli-forces-advance-syrias-quneitra-daraa-officer-killed",
+     "accessed_at": "2026-10-26T00:43:21+00:00"
     },
     {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132467",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/r1qzdvqhfe",
-     "accessed_at": "2026-10-25T03:42:23+00:00"
+     "source_id": "src_tg_idf",
+     "url": "https://t.me/idf_telegram/25477",
+     "accessed_at": "2026-10-26T00:43:21+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-24T14:10:50+00:00",
+  "previous_generated_at": "2026-10-25T03:42:23+00:00",
   "changes": {
-   "NORTH-10250342-01": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "פעילות צבאית ועבודות הנדסיות של כוחות צה\"ל בדרום לבנון",
-    "score": 0.65
-   },
-   "NORTH-10250342-02": {
-    "kind": "new"
-   },
-   "NORTH-10250342-03": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "הסלמה ומתיחות ביטחונית במחוז א-סווידאא שבדרום סוריה",
-    "score": 0.817
-   },
-   "NORTH-10250342-04": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "הפגנות ומחאות ברחבי סוריה נגד פעילות כוחות צה\"ל בדרום המדינה",
-    "score": 1.0
-   },
-   "NORTH-10250342-05": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "דיווח על העברת מסר מחזבאללה בדבר הימנעות מהתערבות בעימות בין ישראל לאיראן",
-    "score": 1.0
-   },
-   "NORTH-10250342-06": {
+   "NORTH-10260043-01": {
     "kind": "possible",
-    "prev": "טיסות איסוף מודיעין באמצעות כטב\"מים מעל ביירות ופרבריה",
-    "score": 0.633
+    "prev": "דיווח על הקמת מנחת מסוקים ישראלי בדרום לבנון",
+    "score": 0.467
    },
-   "NORTH-10250342-07": {
-    "kind": "new"
+   "NORTH-10260043-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "תקיפות ארטילריה וירי מהאוויר של צה\"ל בדרום לבנון",
+    "score": 1.0
+   },
+   "NORTH-10260043-03": {
+    "kind": "possible",
+    "prev": "איומים מסוריה כלפי ישראל סביב שטחי הגולן, קוניטרה ודרעא",
+    "score": 0.467
    }
   }
  }
