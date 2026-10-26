@@ -1,0 +1,390 @@
+{
+ "status": "draft",
+ "received_sha256_12": "723266b4b387",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 8,
+   "shared_root": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-26T16:59:02+00:00",
+  "window": {
+   "from": "2026-10-25T16:59:02+00:00",
+   "to": "2026-10-26T16:59:02+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610261659"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במלוא העוצמה עם תקיפות אוויריות הדדיות, פגיעה בתשתיות אנרגיה ותעשייה, ולחימה קרקעית בחזיתות השונות. במקביל, מתנהלים מגעים דיפלומטיים עקיפים ומתכוננים מפגשים משולשים אפשריים במטרה להניע מחדש את תהליך השלום. צד שלישי כמו מדינות אירופה ממשיך לספק סיוע צבאי לאוקראינה.",
+  "fronts": [
+   {
+    "name": "חזית קופיאנסק",
+    "status": "פעילה עם ניסיונות הסתננות ולחימה"
+   },
+   {
+    "name": "הזירה האווירית ותשתיות האנרגיה",
+    "status": "תקיפות ממושכות של רחפנים וטילים"
+   },
+   {
+    "name": "מרחב הים השחור",
+    "status": "פעילות ימית מסוכנת ותקיפות כלי שיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10261659-01",
+    "title": "תקיפה באנרגיה",
+    "summary": "כוחות אוקראיניים תקפו מפעל לייצור סוללות לטילים ופצצות.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T16:24:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T16:24:43+00:00",
+    "last_update_at": "2026-10-26T16:24:43+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לא צוין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-strikes-russian-plant-producing-missile-and-bomb-batteries-in-yelets-general-staff-says/",
+      "published_at": "2026-10-26T16:24:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יילץ, רוסיה",
+      "lat": 52.6151,
+      "lon": 38.529
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10261659-02",
+    "title": "פגיעות במרחב האווירי של מולדובה",
+    "summary": "מרחב האווירי של מולדובה הופר יותר ממאה פעמים מאז תחילת המלחמה.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T16:22:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T16:22:00+00:00",
+    "last_update_at": "2026-10-26T16:22:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4178357-moldovan-pm-countrys-airspace-violated-over-100-times-since-war-began.html",
+      "published_at": "2026-10-26T16:22:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10261659-03",
+    "title": "פינוי רפואי אווירי",
+    "summary": "חיילים אוקראינים חולצו מהאזור האפור באמצעות רחפן פינוי רפואי.",
+    "axis": "חזיתות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T16:13:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T16:13:00+00:00",
+    "last_update_at": "2026-10-26T16:13:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5305c02154a39b77",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059802/",
+      "published_at": "2026-10-26T16:13:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10261659-04",
+    "title": "הרוגים בתקיפה בנובו פודולאחה",
+    "summary": "מניין ההרוגים בתקיפה על פארק בנובו פודולאחה עלה לאחר שילד מת בבית החולים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T15:20:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T15:20:00+00:00",
+    "last_update_at": "2026-10-26T15:22:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4178335-death-toll-from-russian-strike-on-park-in-kharkiv-region-rises-as-third-child-dies-in-hospital.html",
+      "published_at": "2026-10-26T15:22:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059792/",
+      "published_at": "2026-10-26T15:20:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובו פודולאחה, אוקראינה",
+      "lat": 49.7181,
+      "lon": 35.8602
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10261659-05",
+    "title": "ירידה בייצור הפלדה באוקראינה",
+    "summary": "ייצור הפלדה באוקראינה יזל ב-80% בספטמבר עקב פגיעה בכבשנים.",
+    "axis": "כלכלה וסנקציות",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T15:14:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T15:14:00+00:00",
+    "last_update_at": "2026-10-26T15:14:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059788/",
+      "published_at": "2026-10-26T15:14:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10261659-06",
+    "title": "תקיפת מתקנים רוסיים בשטחים הכבושים",
+    "summary": "הכוחות האוקראיניים תקפו מרכז תקשורת, עמדת פיקוד, סדנת רחפנים ומחסני אספקה.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T14:42:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T14:42:00+00:00",
+    "last_update_at": "2026-10-26T14:42:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4178318-ukrainian-forces-strike-russian-communications-hub-drone-workshop-and-supply-depots.html",
+      "published_at": "2026-10-26T14:42:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10261659-07",
+    "title": "הרס היפרמרקט בחארקוב",
+    "summary": "תקיפות רוסיות השמידו את ההיפרמרקט האחרון של סשת אפיצנטר בחארקוב.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T14:21:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T14:21:00+00:00",
+    "last_update_at": "2026-10-26T14:21:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4178310-russians-destroy-last-epicentr-hypermarket-in-kharkiv-mayor-terekhov.html",
+      "published_at": "2026-10-26T14:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10261659-08",
+    "title": "העברת מחשבי-על של יאנדקס",
+    "summary": "חברת יאנדקס העבירה את שלושת מחשבי-העל שלה לאתרים חדשים לאחר מתקפות רחפנים.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T13:42:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:42:57+00:00",
+    "last_update_at": "2026-10-26T13:42:57+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/26/yandex-moves-all-three-of-its-supercomputers-to-new-site-after-ukrainian-drone-attacks",
+      "published_at": "2026-10-26T13:42:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10261659-09",
+    "title": "תקיפת רכבת ומתקנים בוורונז'",
+    "summary": "רחפנים אוקראיניים תקפו את תחנת סומובו וגרמו לנזקים ולהשבתת קרונות, לצד פגיעה במפעל מקומי.",
+    "axis": "תקיפות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T13:29:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:29:09+00:00",
+    "last_update_at": "2026-10-26T13:29:09+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/26/players-from-moscow-soccer-team-were-aboard-train-hit-by-ukrainian-strike-in-russia",
+      "published_at": "2026-10-26T13:29:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וורונז', רוסיה",
+      "lat": 51.68,
+      "lon": 39.1837
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10261659-10",
+    "title": "שבויים רוסים באזור קופיאנסק",
+    "summary": "ארבעה חיילים רוסים נפלו בשבי לאחר שניסו להסתנן דרך צינור גז.",
+    "axis": "חזיתות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T12:58:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T12:58:25+00:00",
+    "last_update_at": "2026-10-26T12:58:25+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48969",
+      "published_at": "2026-10-26T12:58:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קופיאנסק, אוקראינה",
+      "lat": 49.7133,
+      "lon": 37.6142
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק במפעל אнергия ביילץ",
+   "נסיבות מותו המדויקות של אלכסנדר קונדרטוב במעצר",
+   "התאריכים המדויקים והמיקום של השיחות המשולשות המתוכננות באבו דאבי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1188,
+    "unit": "USD",
+    "change_pct": -0.04,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שמירה על שלמות טריטוריאלית",
+     "אי הסכמה להגבלת הכוחות המזוינים או ניטרליות כפויה",
+     "הקדמת שיחות השלום בשל מצב התשתיות"
+    ],
+    "inferred": [
+     "ניסיון לפגוע בכלכלה ובתשתיות הרוסיות באמצעות תקיפות עומק",
+     "הגברת הלחץ הבינלאומי לסיוע צבאי והגנה אווירית"
+    ],
+    "forecast": [
+     "המשך התקפות על מתקני תשתית ברוסיה",
+     "דרישה לעוד מערכות הגנה אווירית מבעלות ברית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "דרישה למסירת שטחים ואימוץ ניטרליות מצד אוקראינה",
+     "המשך הלחימה עד להשגת יעדי השדה"
+    ],
+    "inferred": [
+     "שחיקת התשתיות והכלכלה האוקראינית במהלך החורף",
+     "גיוס כוח אדם נוסף ממדינות זרות כדי לפצות על אבדות"
+    ],
+    "forecast": [
+     "המשך תקיפות על רשת החשמל והאנרגיה באוקראינה",
+     "ניסיון להציב תנאים נוקשים במשא ומתן העתידי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-strikes-russian-plant-producing-missile-and-bomb-batteries-in-yelets-general-staff-says/",
+    "accessed_at": "2026-10-26T16:59:02+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/26/players-from-moscow-soccer-team-were-aboard-train-hit-by-ukrainian-strike-in-russia",
+    "accessed_at": "2026-10-26T16:59:02+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059788/",
+    "accessed_at": "2026-10-26T16:59:02+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48969",
+    "accessed_at": "2026-10-26T16:59:02+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4178310-russians-destroy-last-epicentr-hypermarket-in-kharkiv-mayor-terekhov.html",
+    "accessed_at": "2026-10-26T16:59:02+00:00"
+   }
+  ]
+ }
+}

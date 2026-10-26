@@ -1,0 +1,249 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f23932c5b65f",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 2,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-26T17:05:35+00:00",
+  "window": {
+   "from": "2026-10-25T17:05:35+00:00",
+   "to": "2026-10-26T17:05:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610261705"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בדריכות רבה, כאשר חיזבאללה פועל לשקום יכולותיו הצבאיות והכספיות בגיבוי איראני לצד המשך פעילות צבאית מצד ישראל בדרום לבנון. במקביל, טורקיה מעמיקה את מעורבותה בסוריה בתחומי התשתית והחינוך, ומתקיימים מגעים דיפלומטיים אזוריים בטהרן במטרה למנוע הסלמה רחבה.",
+  "fronts": [
+   {
+    "name": "גבול לבנון-ישראל",
+    "status": "פעיל חלקית / הפוגה מתוחה"
+   },
+   {
+    "name": "סוריה",
+    "status": "יציבות מתוחה והתרחבות השפעה טורקית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10261705-01",
+    "title": "תקיפות והפגזות של צבא ישראל בדרום לבנון",
+    "summary": "הכוחות הישראליים ביצעו ירי ארטילרי ותקיפות אוויריות במספר מרחבים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T15:35:22+00:00",
+    "last_update_at": "2026-10-26T15:35:22+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/143067/",
+      "published_at": "2026-10-26T15:35:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשיִת, לבנון",
+      "lat": 33.1785,
+      "lon": 35.4372
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10261705-02",
+    "title": "שיגור מיירט לעבר מטרה חשודה בדרום לבנון",
+    "summary": "דובר צה\"ל דיווח כי שוגר מיירט לעבר מטרה אווירית חשודה באזור פעילות כוחות צה\"ל בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T18:32:25+00:00",
+    "last_update_at": "2026-10-25T18:32:25+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25477",
+      "published_at": "2026-10-25T18:32:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10261705-03",
+    "title": "פתיחת בית ספר טורקי בידיש בדמשק",
+    "summary": "נחנך בית ספר בין-לאומי טורקי על שם ארדואן באזור דמשק.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T10:37:17+00:00",
+    "last_update_at": "2026-10-26T10:37:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
+      "published_at": "2026-10-26T10:37:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10261705-04",
+    "title": "פגישת ברית מכה בטהרן",
+    "summary": "נציגים מסעודיה, טורקיה ופקיסטן נפגשו בטהרן עם בכירים איראנים לדיונים על ביטחון אזורי.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:07:25+00:00",
+    "last_update_at": "2026-10-26T16:37:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+      "published_at": "2026-10-26T16:37:05+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/964829/iran-mecca-pact-countries-agree-to-continue-talks-after-first-meeting/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964829",
+      "published_at": "2026-10-26T13:07:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף מדויק של אמצעי הלחימה שחיזבאללה הצליח לחדש",
+   "פרטים מלאים על תוכניות ההתחמשות האיראניות של חיזבאללה",
+   "תוצאות מלאות של המגעים הדיפלומטיים בטהרן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0799,
+    "unit": "ILS",
+    "change_pct": -1.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת",
+     "הגנה על גבולה הצפוני"
+    ],
+    "inferred": [
+     "שימור חופש פעולה מבצעי בלבנון ובסוריה",
+     "סיכול מאמצי ההתחמשות מחדש של חיזבאללה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדמות נגד תשתיות טרור",
+     "היערכות לאפשרות של חידוש הלחימה המלאה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההתנגדות לכיבוש הישראלי"
+    ],
+    "inferred": [
+     "שיקום מערכי הפיקוד, השליטה ומלאי אמצעי הלחימה",
+     "הכנה לעימות אזורי רחב בתמיכה איראנית"
+    ],
+    "forecast": [
+     "המשך הזרמת כספים והתחמשות בסיוע איראן",
+     "שמירה על כוננות להסלמה אזורית"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "חיזוק שיתוף הפעולה האזורי והיציבות",
+     "הגנה על זכויות ימיות ויצירת קשרים מוסדיים"
+    ],
+    "inferred": [
+     "הרחבת ההשפעה הכלכלית, התרבותית והחינוכית בסוריה",
+     "ביסוס מעמדה כשחקנית מובילה במתווה דיפלומטי אזורי"
+    ],
+    "forecast": [
+     "העמקת המעורבות בשיקום סוריה",
+     "השתתפות נוספת בפורומים דיפלומטיים אזוריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
+    "accessed_at": "2026-10-26T17:05:35+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/143067/",
+    "accessed_at": "2026-10-26T17:05:35+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/964829/iran-mecca-pact-countries-agree-to-continue-talks-after-first-meeting/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964829",
+    "accessed_at": "2026-10-26T17:05:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+    "accessed_at": "2026-10-26T17:05:35+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25477",
+    "accessed_at": "2026-10-26T17:05:35+00:00"
+   }
+  ]
+ }
+}

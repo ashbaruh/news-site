@@ -1,0 +1,344 @@
+{
+ "status": "draft",
+ "received_sha256_12": "75e465392f3e",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-26T16:57:05+00:00",
+  "window": {
+   "from": "2026-10-25T16:57:05+00:00",
+   "to": "2026-10-26T16:57:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610261657"
+  },
+  "summary": "הזירה מאופיינת במתיחות גוברת סביב איום מתקפה מתחדשת מצד ישראל וארה\"ב נגד איראן, לצד מאמצים דיפלומטיים אזוריים של מדינות כמו סעודיה, טורקיה ופקיסטן לבלום הסלמה. במקביל, איראן ממשיכה לתמוך בשלוחותיה ובהן חיזבאללה המתחמש מחדש, בעוד גורמים בינלאומיים מזהירים מפני השלכות הרסניות במפרץ.",
+  "fronts": [
+   {
+    "name": "החזית האיראנית-ישראלית-אמריקאית",
+    "status": "מתיחות גבוהה לקראת עימות אפשרי והיערכות מבצעית"
+   },
+   {
+    "name": "החזית הלבנונית",
+    "status": "שיקום כוחות והתחמשות של חיזבאללה בגיבוי איראני"
+   },
+   {
+    "name": "חזית המפרץ והים האדום",
+    "status": "איומי תקיפה של שלוחות איראן על תשתיות ומעורבות אזורית להגנה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10261657-01",
+    "title": "פגישת ברית מכה בטהרן",
+    "summary": "נציגי סעודיה, טורקיה ופקיסטן קיימו פגישה בטהרן עם בכירי ביטחון איראניים כדי לדון בהפחתת המתיחות מול ישראל וארה\"ב ובפעילות האזורית.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:28:56+00:00",
+    "last_update_at": "2026-10-26T16:37:05+00:00",
+    "what_is_not_verified": "היקף ההסכמות המדויק או קיומה של עסקת כספים חשאית מול החות'ים אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9f9f9870ff3d2c3e",
+      "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+      "published_at": "2026-10-26T16:37:05+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_9f9f9870ff3d2c3e",
+      "url": "https://en.irna.ir/news/86304211/Tehran-summit-press-statement-Talks-on-regional-peace-and-security",
+      "published_at": "2026-10-26T16:34:02+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_9f9f9870ff3d2c3e",
+      "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+      "published_at": "2026-10-26T16:01:54+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_9f9f9870ff3d2c3e",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-arabias-kbs-top-turkish-and-pakistani-officials-hold-rare-meeting-iran-what",
+      "published_at": "2026-10-26T14:15:05+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_9f9f9870ff3d2c3e",
+      "url": "https://t.me/abualiexpress/132585",
+      "published_at": "2026-10-26T13:28:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "נמל התעופה מהרבאד, איראן",
+      "lat": 35.6881,
+      "lon": 51.3136
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10261657-02",
+    "title": "דיווחים על הזרמת כספים איראניים לחיזבאללה",
+    "summary": "מקורות ביטחוניים דיווחו כי איראן העבירה עשרות עד מאות מיליוני דולרים לחיזבאללה כדי לסייע לו בשיקום יכולותיו הצבאיות, הכטב\"מים ומערכי הפיקוד.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T14:55:14+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T14:55:14+00:00",
+    "last_update_at": "2026-10-26T15:47:00+00:00",
+    "what_is_not_verified": "סכומי הכסף המדויקים ומצב מלאי הנשק המעודכן אינם מאומתים באופן רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_reuters",
+      "url": "https://t.me/lelotsenzura/94810",
+      "published_at": "2026-10-26T15:47:00+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/10/hezbollah-readies-new-regional-war-funds-iran-sources-say",
+      "published_at": "2026-10-26T15:46:34+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_reuters",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712635",
+      "published_at": "2026-10-26T15:38:20+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_reuters",
+      "url": "https://t.me/alexmehacarmel/48973",
+      "published_at": "2026-10-26T15:02:46+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_reuters",
+      "url": "https://www.ynet.co.il/news/article/bjv6vj63fg",
+      "published_at": "2026-10-26T14:55:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10261657-03",
+    "title": "אישור פרלמנטרי במצרים לתמיכה צבאית בסעודיה",
+    "summary": "הפרלמנט המצרי הסמיך את הנשיא לנקוט אמצעים לסיוע לסעודיה לנוכח איומי החות'ים באזור מצר באב אל-מנדב.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:46:33+00:00",
+    "last_update_at": "2026-10-26T16:01:54+00:00",
+    "what_is_not_verified": "האם פריסת מערכות ההגנה בפועל בוצעה בשטח אינה מאומתת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_cf44d1d1d441d8f8",
+      "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+      "published_at": "2026-10-26T16:01:54+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_cf44d1d1d441d8f8",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate",
+      "published_at": "2026-10-26T13:46:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10261657-04",
+    "title": "ניסויי טילים בליסטיים באיראן",
+    "summary": "הופיעו דיווחים חוזרים על ניסויי טילים בליסטיים שביצעה איראן במספר מחוזות במהלך חודש אוקטובר.",
+    "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T14:20:51+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T14:20:51+00:00",
+    "last_update_at": "2026-10-26T14:39:17+00:00",
+    "what_is_not_verified": "היקף ההצלחה של הניסויים והאם מדובר בהכנה למתקפה מתואמת אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_telegram_channel",
+      "url": "https://t.me/lelotsenzura/94809",
+      "published_at": "2026-10-26T14:39:17+00:00"
+     },
+     {
+      "source_id": "src_tg_geostrategy",
+      "source_root_id": "or_telegram_channel",
+      "url": "https://t.me/GeoStrategyIL/514",
+      "published_at": "2026-10-26T14:20:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יזד, איראן",
+      "lat": 31.9052,
+      "lon": 54.3701
+     },
+     {
+      "name": "אספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     },
+     {
+      "name": "תבריז, איראן",
+      "lat": 38.0739,
+      "lon": 46.2979
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומה של עסקת מיליארד דולר בין סעודיה לחות'ים בתיווך איראני",
+   "התרחשות מיידית של מתקפה אמריקאית-ישראלית בתוך 96 שעות",
+   "חילוקי דעות פנימיים לכאורה בין הדרג המדיני בישראל לבין הרמטכ\"ל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0799,
+    "unit": "ILS",
+    "change_pct": -1.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "תמיכה באחדות בין מדינות מוסלמיות מול איומים",
+     "סירוב לדון בנושא הגרעין עד שדרישותיה ייענו"
+    ],
+    "inferred": [
+     "שימור ושיקום יכולות שלוחיה האזוריים כמו חיזבאללה",
+     "הרתעת ארה\"ב וישראל באמצעות ניסויי טילים ואיומי תגובה על תשתיות"
+    ],
+    "forecast": [
+     "המשך חימוש השלוחות בלבנון ובאזורים נוספים",
+     "החרפת העימות הכלכלי והמדיני סביב נתיבי השיט והאנרגיה"
+    ]
+   },
+   {
+    "actor": "ישראל וארה\"ב",
+    "declared": [],
+    "inferred": [
+     "הכנה אפשרית לתקיפות נוספות נגד מתקנים ופעילות באיראן",
+     "בלימת ההתחמשות המחודשת של שלוחות איראן בגבולותיה של ישראל"
+    ],
+    "forecast": [
+     "המשך דריכות מבצעית גבוהה אל מול איומי תגובה איראניים",
+     "היערכות לתגובה צבאית אפשרית במקרה של הסלמה"
+    ]
+   },
+   {
+    "actor": "סעודיה ומדינות האזור (ברית מכה)",
+    "declared": [
+     "קידום רגיעה, הפחתת מתיחות ותמיכה בתווך דיפלומטי",
+     "חיזוק הביטחון האזורי ללא תלות מלאה בוושינגטון"
+    ],
+    "inferred": [
+     "ניסיון לבלום פגיעה בתשתיות הכלכליות והאנרגטיות שלהן מצד שלוחות איראן",
+     "יצירת מסגרת הגנה עצמאית מול איומים אזוריים"
+    ],
+    "forecast": [
+     "המשך מגעים דיפלומטיים מול טהרן ומדינות נוספות להשגת הסכמים",
+     "הרחבת שיתופי הפעולה הביטחוניים בין מדינות האזור להגנה מפני מיליציות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86304211/Tehran-summit-press-statement-Talks-on-regional-peace-and-security",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712635",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132585",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48973",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_tg_geostrategy",
+    "url": "https://t.me/GeoStrategyIL/514",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94809",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+    "accessed_at": "2026-10-26T16:57:05+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,397 @@
+{
+ "status": "draft",
+ "received_sha256_12": "dfdfa265412b",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-26T17:01:16+00:00",
+  "window": {
+   "from": "2026-10-25T17:01:16+00:00",
+   "to": "2026-10-26T17:01:16+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610261701"
+  },
+  "summary": "הלחימה בתימן נמשכת בין הממשלת המוכרת לבין החות'ים הנתמכים בידי איראן, הממשיכים לשגר טילים וכטב\"מים לעבר מתקנים ותשתיות בסעודיה. במקביל, סעודיה ומדינות אזוריות מקיימות מגעים דיפלומטיים דחופים בטהרן לצד היערכות ביטחונית מצרית להגנת הממלכה.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה (תקיפות חות'יות ויירוטים סעודיים)"
+   },
+   {
+    "name": "חזית פנים תימן",
+    "status": "פעילה (לחימה ומצור סביב תעז, פיצוצים בסנעא ובמוח'א)"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10261701-01",
+    "title": "תקיפות החות'ים על יעדים בסעודיה",
+    "summary": "החות'ים טענו שביצעו תקיפות נגד שדה התעופה בריאד ונגד תחנות שאיבת נפט, בעוד קואליציית המדינות בהובלת סעודיה דיווחה על יירוט טילים והשמדת משגרים בסנעא.",
+    "axis": "ציר תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T04:46:30+00:00",
+    "last_update_at": "2026-10-26T16:25:29+00:00",
+    "what_is_not_verified": "טענות החות'ים על פגיעה מוצלחת בשדה התעופה ובתחנות הנפט לא אושרו רשמית בידי סעודיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/48975",
+      "published_at": "2026-10-26T16:25:29+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+      "published_at": "2026-10-26T16:01:54+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us",
+      "published_at": "2026-10-26T14:03:06+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-fighting",
+      "published_at": "2026-10-26T04:46:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "סנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10261701-02",
+    "title": "אישור הפרלמנט המצרי לתמיכה צבאית בסעודיה",
+    "summary": "הפרלמנט במצרים אישר לנשיא עבד אל-פתח א-סיסי לספק תמיכה צבאית הגנתית לסעודיה בעקבות התקפות החות'ים.",
+    "axis": "ציר מצרים-סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T13:45:10+00:00",
+    "last_update_at": "2026-10-26T16:30:23+00:00",
+    "what_is_not_verified": "לא מאומת איזה סיוע צבאי מעשי יינתן בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_c6ad8f3960481a10",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypt-parliament-authorises-military-support-saudi-arabia",
+      "published_at": "2026-10-26T16:30:23+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_c6ad8f3960481a10",
+      "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+      "published_at": "2026-10-26T15:41:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_c6ad8f3960481a10",
+      "url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate",
+      "published_at": "2026-10-26T13:46:33+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_525c9641abce4d25",
+      "url": "https://www.newarab.com/news/egypt-parliament-authorises-defensive-support-saudi-arabia",
+      "published_at": "2026-10-26T13:45:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קהיר, מצרים",
+      "lat": 30.0444,
+      "lon": 31.2357
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10261701-03",
+    "title": "פגישת ברית מכה בטהרן",
+    "summary": "נציגים בכירים מסעודיה, טורקיה ופקיסטן נפגשו בטהרן עם בכירים איראנים לדיונים מדיניים וביטחוניים במטרה להביא להגעת הסדר ולהפחתת המתיחות האזורית.",
+    "axis": "ציר אזורי (סעודיה-איראן-טורקיה-פקיסטן)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T06:43:01+00:00",
+    "last_update_at": "2026-10-26T16:37:05+00:00",
+    "what_is_not_verified": "האם התקבלה עסקה חשאית הכוללת העברת כספים לחות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+      "published_at": "2026-10-26T16:37:05+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+      "published_at": "2026-10-26T16:01:54+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712024",
+      "published_at": "2026-10-26T14:20:04+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-saudi-arabia-turkey-and-pakistan-agree-further-talks",
+      "published_at": "2026-10-26T10:14:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132564",
+      "published_at": "2026-10-26T06:43:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10261701-04",
+    "title": "משבר הומניטרי ופגיעה במגזר הבריאות בתעז",
+    "summary": "מחסור חמור בדלק ובחמצן בבתי חולים בעיר תעז בתימן, עקב מצור והמשך הלחימה, הביא לצמצום חד בפעילות אינקובטורים לתינוקות.",
+    "axis": "ציר פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T15:27:35+00:00",
+    "last_update_at": "2026-10-26T15:46:34+00:00",
+    "what_is_not_verified": "הנתונים המדויקים על כלל הנפגעים מחוץ לבתי החולים המוזכרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/no-fuel-keep-babies-warm-shortages-push-hospitals-yemens-taiz-brink",
+      "published_at": "2026-10-26T15:46:34+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154671",
+      "published_at": "2026-10-26T15:28:11+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154670",
+      "published_at": "2026-10-26T15:27:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10261701-05",
+    "title": "פיצוצים בסנעא ובמוח'א",
+    "summary": "תושבים דיווחו על פיצוצים עזים בסנעא ובאזור החוף במוח'א, שגרמו לנזק למבנים ולבית חולים.",
+    "axis": "ציר פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T14:41:53+00:00",
+    "last_update_at": "2026-10-26T14:41:53+00:00",
+    "what_is_not_verified": "זהות הגורם המדויק שביצע את התקיפות בכל אתר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blasts-hit-yemens-capital-and-red-sea-coast-residents-report",
+      "published_at": "2026-10-26T14:41:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "מוח'א, תימן",
+      "lat": 13.3179,
+      "lon": 43.2501
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות דיפלומטיות על כך ששר ההגנה הסעודי הביא עמו מיליארד דולר במטוס צבאי כדי לקדם הפסקת אש עם החות'ים.",
+   "דיווחים על מגעים להעברת כוח צבאי סורי מסעודיה לתימן.",
+   "היקף הנזק המדויק שנגרם ממתקפות החות'ים על שדה התעופה בריאד ומתקני הנפט."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0799,
+    "unit": "ILS",
+    "change_pct": -1.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת תשתיות ונמלי תעופה בסעודיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי על סעודיה ובנות בריתה",
+     "חיזוק מעמדם האזורי באמצעות זיקה לאיראן"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדים בסעודיה כל עוד לא יושג הסדר"
+    ]
+   },
+   {
+    "actor": "סעודיה",
+    "declared": [
+     "הגנה על שטחי הממלכה ותשתיותיה מפני מתקפות החות'ים",
+     "קידום פתרונות דיפלומטיים והפחתת הסלמה אזורית"
+    ],
+    "inferred": [
+     "ניסיון להגיע להבנות עם איראן כדי לרסן את החות'ים",
+     "גיוס תמיכה צבאית אזורית (מצרים ומדינות ברית מכה)"
+    ],
+    "forecast": [
+     "חיזוק מערכות ההגנה האווירית ושיתוף פעולה צבאי עם מצרים"
+    ]
+   },
+   {
+    "actor": "מצרים",
+    "declared": [
+     "מתן סיוע צבאי הגנתי לסעודיה להגנה על גבולותיה ללא תקיפה בתימן"
+    ],
+    "inferred": [
+     "שמירה על יציבות מרחב ים סוף ומצר באב אל-מנדב החיוניים לתעלת סואץ"
+    ],
+    "forecast": [
+     "פריסת אמצעי הגנה לפי הצורך וקידום ערוצי דיפלומטיה"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "חיזוק שיתוף הפעולה הביטחוני והאזורי עם מדינות האזור"
+    ],
+    "inferred": [
+     "תמיכה בשלוחיה (החות'ים) לצד שמירת חזות של תיווך ומניעת הסלמה כוללת"
+    ],
+    "forecast": [
+     "המשך קיום מגעים דיפלומטיים במקביל להמשך התמיכה בציר ההתנגדות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/no-fuel-keep-babies-warm-shortages-push-hospitals-yemens-taiz-brink",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712024",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blasts-hit-yemens-capital-and-red-sea-coast-residents-report",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iran-saudi-arabia-turkey-and-pakistan-agree-further-talks",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154670",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132564",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48975",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
+    "accessed_at": "2026-10-26T17:01:16+00:00"
+   }
+  ]
+ }
+}
