@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-26T18:17:13+00:00",
-  "fetched_at": "2026-10-26T18:17:13+00:00"
+  "checked_at": "2026-10-26T19:17:24+00:00",
+  "fetched_at": "2026-10-26T19:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:28+00:00",
-  "fetched_at": "2026-10-26T18:17:28+00:00"
+  "checked_at": "2026-10-26T19:17:39+00:00",
+  "fetched_at": "2026-10-26T19:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:29+00:00",
-  "fetched_at": "2026-10-26T18:17:29+00:00"
+  "checked_at": "2026-10-26T19:17:39+00:00",
+  "fetched_at": "2026-10-26T19:17:39+00:00"
  },
- "generated_at": "2026-10-26T18:17:29+00:00",
+ "generated_at": "2026-10-26T19:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הבחירות הישראליות בפולימרקט: המחקר שמראה כמה קל להטות את הכף",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560880",
-     "date": "2026-10-26T17:30:00+00:00"
+     "title": "40 מיליון שיחות בלי בקרה: התעשייה מאחורי הטלפונים מהפוליטיקאים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560858",
+     "date": "2026-10-26T19:00:00+00:00"
     },
     {
-     "title": "צה\"ל ושב\"כ: חוסלו שני מחבלי חמאס במרחב העיר עזה",
+     "title": "העימות בין נתניהו לרמטכ\"ל והאזהרה שהועברה בדיון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560771",
-     "date": "2026-10-26T15:05:00+00:00"
+     "date": "2026-10-26T18:20:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T18:17:14+00:00",
-  "fetched_at": "2026-10-26T18:17:14+00:00"
+  "checked_at": "2026-10-26T19:17:26+00:00",
+  "fetched_at": "2026-10-26T19:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:15+00:00",
-  "fetched_at": "2026-10-26T18:17:15+00:00"
+  "checked_at": "2026-10-26T19:17:26+00:00",
+  "fetched_at": "2026-10-26T19:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2208,6 +2208,13 @@ window.DB.generated = {
    {
     "date": "2026-10-28",
     "time": "19:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - אולימפיאקוס"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "ונציה - אינטר"
@@ -2281,13 +2288,6 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מ.כ כפר סבא 1928 - מ.ס קרית ים"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - אולימפיאקוס"
    },
    {
     "date": "2026-10-28",
@@ -2851,13 +2851,6 @@ window.DB.generated = {
    },
    {
     "date": "2026-10-31",
-    "time": "21:45",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "לוריין - ברסט"
-   },
-   {
-    "date": "2026-10-31",
     "time": "22:00",
     "channel": "ספורט 4",
     "sport": "כדורגל",
@@ -3012,8 +3005,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:16+00:00",
-  "fetched_at": "2026-10-26T18:17:16+00:00"
+  "checked_at": "2026-10-26T19:17:29+00:00",
+  "fetched_at": "2026-10-26T19:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3173,39 +3166,40 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T18:17:16+00:00",
-  "fetched_at": "2026-10-26T18:17:16+00:00"
+  "checked_at": "2026-10-26T19:17:29+00:00",
+  "fetched_at": "2026-10-26T19:17:29+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+     "date": "2026-10-26T00:00:00+00:00",
+     "launch": true,
+     "title_en": "Introducing GPT-6.1 Terra",
+     "title_he": "הכירו את GPT-6.1 Terra",
+     "translated_by": "google"
+    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/evolve-to-ai-2026-context-poisoning/",
      "date": "2026-10-26T09:49:39+00:00",
      "launch": false,
      "title": "כנס Evolve to AI מסביר: מהי הרעלת קונטקסט ואיך תשמרו על הסוכן שלכם?"
-    },
-    {
-     "source": "Google",
-     "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-     "date": "2026-10-26T16:00:00+00:00",
-     "launch": false,
-     "title_en": "Our newest AI Quest: Mapping the human brain",
-     "title_he": "Quest ה-AI החדש שלנו: מיפוי המוח האנושי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 979,
+     "likes": 982,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3216,17 +3210,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 190,
-     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
-    },
-    {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 255,
+     "likes": 256,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
@@ -3235,6 +3222,13 @@ window.DB.generated = {
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
      "likes": 222,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 190,
+     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Jev Decision Index",
@@ -3261,21 +3255,21 @@ window.DB.generated = {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 61,
+     "likes": 62,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
-     "title": "Viggle Turbo for Qwen-Image-2.1",
-     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
-     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
-     "likes": 397,
-     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
+     "title": "Omni Video Factory",
+     "desc_en": "text to video, image to video, video extend",
+     "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
+     "likes": 357,
+     "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T18:17:26+00:00",
-  "fetched_at": "2026-10-26T18:17:26+00:00"
+  "checked_at": "2026-10-26T19:17:38+00:00",
+  "fetched_at": "2026-10-26T19:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3616,8 +3610,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-26T18:17:19+00:00",
-  "fetched_at": "2026-10-26T18:17:19+00:00"
+  "checked_at": "2026-10-26T19:17:32+00:00",
+  "fetched_at": "2026-10-26T19:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3648,58 +3642,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:20+00:00",
-  "fetched_at": "2026-10-26T18:17:20+00:00"
+  "checked_at": "2026-10-26T19:17:33+00:00",
+  "fetched_at": "2026-10-26T19:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-26T17:33:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "newest": "2026-10-26T19:00:00+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-26T17:33:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-26T17:30:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-26T18:30:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-26T18:23:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "newest": "2026-10-26T19:26:00+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-26T18:10:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "newest": "2026-10-26T18:23:00+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-26T14:13:53+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3711,35 +3705,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-26T16:59:01+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-26T16:18:26+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-26T18:17:29+00:00",
+    "seen_at": "2026-10-26T19:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-26T18:17:29+00:00"
+  "checked_at": "2026-10-26T19:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3895,7 +3889,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T18:17:21+00:00",
-  "fetched_at": "2026-10-26T18:17:21+00:00"
+  "checked_at": "2026-10-26T19:17:33+00:00",
+  "fetched_at": "2026-10-26T19:17:33+00:00"
  }
 };
