@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-26T14:19:32+00:00",
-  "fetched_at": "2026-10-26T14:19:32+00:00"
+  "checked_at": "2026-10-26T15:17:25+00:00",
+  "fetched_at": "2026-10-26T15:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T14:19:43+00:00",
-  "fetched_at": "2026-10-26T14:19:43+00:00"
+  "checked_at": "2026-10-26T15:17:40+00:00",
+  "fetched_at": "2026-10-26T15:17:40+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "We just threw our OLED TV buying advice out the window – and one set in particular is responsible",
+    "title_he": "הרגע זרקנו את עצות הקנייה של טלוויזיית ה-OLED שלנו מהחלון - ומערכת אחת בפרט אחראית",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/we-just-threw-our-oled-tv-buying-advice-out-the-window-and-one-set-in-particular-is-responsible",
+    "date": "2026-10-26T15:00:36+00:00"
+   },
    {
     "title_en": "I've heard dozens of wireless headphones this year – trust me, we've never had it so good",
     "title_he": "שמעתי עשרות אוזניות אלחוטיות השנה - תאמין לי, מעולם לא היה לנו את זה כל כך טוב",
@@ -69,49 +76,52 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/bose-makes-a-surprise-purchase-technics-latest-turntable-a-usd45k-cd-player-and-more",
     "date": "2026-10-26T07:00:00+00:00"
-   },
-   {
-    "title_en": "How to watch Barcelona vs Real Madrid: live stream El Clásico for free from anywhere, team news",
-    "title_he": "איך לצפות בברצלונה נגד ריאל מדריד: שידור חי של El Clásico בחינם מכל מקום, חדשות הקבוצה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-barcelona-vs-real-madrid-live-stream-el-clasico-for-free-from-anywhere",
-    "date": "2026-10-25T12:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T14:19:43+00:00",
-  "fetched_at": "2026-10-26T14:19:43+00:00"
+  "checked_at": "2026-10-26T15:17:40+00:00",
+  "fetched_at": "2026-10-26T15:17:40+00:00"
  },
- "generated_at": "2026-10-26T14:19:43+00:00",
+ "generated_at": "2026-10-26T15:17:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מתקרבת לוול סטריט: אנתרופיק הגישה את התשקיף להנפקת הענק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560818",
-     "date": "2026-10-26T13:24:00+00:00"
+     "title": "לולה דה סילבה נבחר לנשיא ברזיל: ההפתעה הפוליטית, תגובת הנגד בשווקים והמכה לישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560832",
+     "date": "2026-10-26T14:50:00+00:00"
     },
     {
      "title": "צה\"ל ושב\"כ: חוסלו שני מחבלי חמאס במרחב העיר עזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560771",
-     "date": "2026-10-26T13:08:00+00:00"
+     "date": "2026-10-26T15:05:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "מחאת הסטודנטים שהפילה את נשיא סרביה הפרו־ישראלי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560834",
+     "date": "2026-10-26T14:55:00+00:00"
+    },
+    {
+     "title": "לולה דה סילבה נבחר לנשיא ברזיל: ההפתעה הפוליטית, תגובת הנגד בשווקים והמכה לישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560832",
+     "date": "2026-10-26T14:50:00+00:00"
+    },
+    {
+     "title": "עליות בתל אביב: הנדל\"ן עבר להוביל, פאלו אלטו מזנקת בכ-10%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560752",
+     "date": "2026-10-26T14:43:00+00:00"
+    },
+    {
      "title": "עליות בוול סטריט; מטא הודיעה על גיוס ענק, המניה יורדת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560674",
-     "date": "2026-10-26T14:13:00+00:00"
+     "date": "2026-10-26T14:31:00+00:00"
     },
     {
      "title": "תחזית האימה של אילון מאסק שמפילה את מניות ה-AI",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560795",
      "date": "2026-10-26T13:53:00+00:00"
-    },
-    {
-     "title": "עליות בתל אביב: הנדל\"ן עבר להוביל, פאלו אלטו מזנקת בכ-10%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560752",
-     "date": "2026-10-26T13:48:00+00:00"
     },
     {
      "title": "מתקרבת לוול סטריט: אנתרופיק הגישה את התשקיף להנפקת הענק",
@@ -212,22 +222,12 @@ window.DB.generated = {
      "title": "המניות שיזנקו היום בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560643",
      "date": "2026-10-26T03:49:00+00:00"
-    },
-    {
-     "title": "המחקר שחשף את אפקט ההדבקה של סנקציות, ואיך הוא משפיע על מדינות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560719",
-     "date": "2026-10-25T17:30:00+00:00"
-    },
-    {
-     "title": "4.4 טריליון דולר עד 2035: תעשיית הביטחון העולמית שוברת שיאים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560679",
-     "date": "2026-10-25T17:19:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T14:19:34+00:00",
-  "fetched_at": "2026-10-26T14:19:34+00:00"
+  "checked_at": "2026-10-26T15:17:27+00:00",
+  "fetched_at": "2026-10-26T15:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T14:19:35+00:00",
-  "fetched_at": "2026-10-26T14:19:35+00:00"
+  "checked_at": "2026-10-26T15:17:28+00:00",
+  "fetched_at": "2026-10-26T15:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -2913,10 +2913,9 @@ window.DB.generated = {
     "title": "אתלטיק בילבאו - ריאל סוסיאדד"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 403: Forbidden",
-  "checked_at": "2026-10-26T14:19:35+00:00",
-  "fetched_at": "2026-10-26T14:17:21+00:00"
+  "ok": true,
+  "checked_at": "2026-10-26T15:17:29+00:00",
+  "fetched_at": "2026-10-26T15:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3067,16 +3066,23 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T14:19:35+00:00",
-  "fetched_at": "2026-10-26T14:19:35+00:00"
+  "checked_at": "2026-10-26T15:17:29+00:00",
+  "fetched_at": "2026-10-26T15:17:29+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/evolve-to-ai-2026-context-poisoning/",
+     "date": "2026-10-26T09:49:39+00:00",
+     "launch": false,
+     "title": "כנס Evolve to AI מסביר: מהי הרעלת קונטקסט ואיך תשמרו על הסוכן שלכם?"
+    }
+   ],
+   "candidates": 4,
    "failed_sources": [
-    "Anthropic",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3101,18 +3107,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 189,
+     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
+    },
+    {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
      "likes": 98,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 188,
-     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Jev Decision Index",
@@ -3152,8 +3158,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T14:19:42+00:00",
-  "fetched_at": "2026-10-26T14:19:42+00:00"
+  "checked_at": "2026-10-26T15:17:38+00:00",
+  "fetched_at": "2026-10-26T15:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3494,8 +3500,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-26T14:19:39+00:00",
-  "fetched_at": "2026-10-26T14:19:39+00:00"
+  "checked_at": "2026-10-26T15:17:33+00:00",
+  "fetched_at": "2026-10-26T15:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3525,8 +3531,9 @@ window.DB.generated = {
     "date": "2026-10-25T13:32:16+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-26T14:19:39+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-26T15:17:33+00:00",
   "fetched_at": "2026-10-26T14:19:39+00:00"
  },
  "feed_health": {
@@ -3534,44 +3541,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-26T14:13:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T15:11:00+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-26T14:13:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T14:43:00+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-26T14:13:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T15:11:00+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-26T14:35:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-26T15:05:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T15:33:00+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-26T14:06:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T15:00:00+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3583,41 +3590,41 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-26T13:31:03+00:00",
-    "seen_at": "2026-10-26T14:17:27+00:00",
+    "newest": "2026-10-26T15:00:33+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-26T12:39:40+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "newest": "2026-10-26T15:14:34+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-26T14:19:43+00:00",
+    "seen_at": "2026-10-26T15:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-26T14:19:43+00:00"
+  "checked_at": "2026-10-26T15:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3773,7 +3780,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T14:19:40+00:00",
-  "fetched_at": "2026-10-26T14:19:40+00:00"
+  "checked_at": "2026-10-26T15:17:34+00:00",
+  "fetched_at": "2026-10-26T15:17:34+00:00"
  }
 };
