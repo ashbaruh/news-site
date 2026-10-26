@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-26T05:17:20+00:00",
-  "fetched_at": "2026-10-26T05:17:20+00:00"
+  "checked_at": "2026-10-26T06:17:27+00:00",
+  "fetched_at": "2026-10-26T06:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T05:17:31+00:00",
-  "fetched_at": "2026-10-26T05:17:31+00:00"
+  "checked_at": "2026-10-26T06:17:40+00:00",
+  "fetched_at": "2026-10-26T06:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T05:17:31+00:00",
-  "fetched_at": "2026-10-26T05:17:31+00:00"
+  "checked_at": "2026-10-26T06:17:40+00:00",
+  "fetched_at": "2026-10-26T06:17:40+00:00"
  },
- "generated_at": "2026-10-26T05:17:31+00:00",
+ "generated_at": "2026-10-26T06:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T05:17:21+00:00",
-  "fetched_at": "2026-10-26T05:17:21+00:00"
+  "checked_at": "2026-10-26T06:17:28+00:00",
+  "fetched_at": "2026-10-26T06:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T05:17:22+00:00",
-  "fetched_at": "2026-10-26T05:17:22+00:00"
+  "checked_at": "2026-10-26T06:17:29+00:00",
+  "fetched_at": "2026-10-26T06:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2912,8 +2912,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T05:17:24+00:00",
-  "fetched_at": "2026-10-26T05:17:24+00:00"
+  "checked_at": "2026-10-26T06:17:30+00:00",
+  "fetched_at": "2026-10-26T06:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3064,8 +3064,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T05:17:24+00:00",
-  "fetched_at": "2026-10-26T05:17:24+00:00"
+  "checked_at": "2026-10-26T06:17:30+00:00",
+  "fetched_at": "2026-10-26T06:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -3087,14 +3087,14 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 962,
+     "likes": 966,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 219,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
@@ -3108,7 +3108,7 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 186,
+     "likes": 187,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3150,18 +3150,27 @@
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 51,
+     "likes": 52,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T05:17:30+00:00",
-  "fetched_at": "2026-10-26T05:17:30+00:00"
+  "checked_at": "2026-10-26T06:17:39+00:00",
+  "fetched_at": "2026-10-26T06:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חיים רביבו הודה: \"רוי הפתיע אותי, זה מעבר למה שחשבתי\"",
+     "link": "https://sports.walla.co.il/item/3873711",
+     "date": "2026-10-26T06:49:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "6 נק' לדני וולף, 2 לבן שרף. ברוקלין שוב הפסידה",
      "link": "https://www.one.co.il/Article/537071.html?ref=rss",
@@ -3206,15 +3215,6 @@
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "אייאקס גברה 1:2 על רוטרדם, 29 דקות לגלוך",
-     "link": "https://www.one.co.il/Article/536979.html?ref=rss",
-     "date": "2026-10-25T15:45:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -3281,21 +3281,21 @@
      ]
     },
     {
-     "title": "רוי רביבו סחט פנדל ב-0:3 של אלצ'ה, אלברס כבש לאתלטיקו הלוהטת",
-     "link": "https://sports.walla.co.il/item/3873342",
-     "date": "2026-10-24T21:53:00+00:00",
+     "title": "בארה\"ב מזהים: אבדיה \"מככב\", מוראנט ולילארד \"מבינים את מקומם\"",
+     "link": "https://sports.walla.co.il/item/3873538",
+     "date": "2026-10-24T15:29:00+00:00",
      "source": "וואלה",
      "players": [
-      "רועי רביבו"
+      "דני אבדיה"
      ]
     },
     {
-     "title": "עוד ביקורת ארסית על מנור סולומון: \"הבעת פניו אמרה הכל\"",
-     "link": "https://sports.walla.co.il/item/3873547",
-     "date": "2026-10-24T19:05:00+00:00",
+     "title": "\"זה דני אבדיה האמיתי\": בארה\"ב מנתחים את השינוי בפורטלנד",
+     "link": "https://sports.walla.co.il/item/3873500",
+     "date": "2026-10-24T05:52:00+00:00",
      "source": "וואלה",
      "players": [
-      "מנור סולומון"
+      "דני אבדיה"
      ]
     }
    ],
@@ -3499,11 +3499,16 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-26T05:17:27+00:00",
-  "fetched_at": "2026-10-26T05:17:27+00:00"
+  "checked_at": "2026-10-26T06:17:33+00:00",
+  "fetched_at": "2026-10-26T06:17:33+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "ההתרעה שקדמה לפיגוע בחברון - וההחלטה של נתניהו וכ״ץ בניגוד לעמדת צה״ל",
+    "link": "https://www.walla.co.il/news/military/383958884",
+    "date": "2026-10-26T04:00:00+00:00"
+   },
    {
     "title": "פיגוע סוכל בבנימין: חשוד נעצר בעקבות מידע מודיעיני",
     "link": "https://www.walla.co.il/news/military/383958853",
@@ -3523,107 +3528,101 @@
     "title": "פיגוע או היתקלות? הכשל המודיעיני בחברון והפער בין צה\"ל לדרג המדיני",
     "link": "https://www.walla.co.il/news/military/383958731",
     "date": "2026-10-25T03:58:09+00:00"
-   },
-   {
-    "title": "בשל הפיגוע בצומת יהודה: צה\"ל החל בפינוי אוכלוסייה והריסת מבנים בחברון",
-    "link": "https://www.walla.co.il/news/military/383958717",
-    "date": "2026-10-24T15:03:19+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-26T05:17:27+00:00",
-  "fetched_at": "2026-10-26T04:17:19+00:00"
+  "ok": true,
+  "checked_at": "2026-10-26T06:17:34+00:00",
+  "fetched_at": "2026-10-26T06:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-26T04:48:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "newest": "2026-10-26T05:56:00+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-26T04:40:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-26T04:40:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-25T23:17:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "newest": "2026-10-26T06:53:00+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-25T23:20:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "newest": "2026-10-26T06:45:00+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-26T05:07:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "newest": "2026-10-26T05:52:00+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-25T16:25:51+00:00",
-    "seen_at": "2026-10-26T04:17:22+00:00",
+    "newest": "2026-10-26T04:00:00+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-25T17:12:09+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-25T21:51:15+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-26T05:17:31+00:00",
+    "seen_at": "2026-10-26T06:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-26T05:17:31+00:00"
+  "checked_at": "2026-10-26T06:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3779,7 +3778,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T05:17:27+00:00",
-  "fetched_at": "2026-10-26T05:17:27+00:00"
+  "checked_at": "2026-10-26T06:17:35+00:00",
+  "fetched_at": "2026-10-26T06:17:35+00:00"
  }
 }
