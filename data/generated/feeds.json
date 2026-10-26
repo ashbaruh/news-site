@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-26T03:17:21+00:00",
-  "fetched_at": "2026-10-26T03:17:21+00:00"
+  "checked_at": "2026-10-26T04:17:12+00:00",
+  "fetched_at": "2026-10-26T04:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:33+00:00",
-  "fetched_at": "2026-10-26T03:17:33+00:00"
+  "checked_at": "2026-10-26T04:17:22+00:00",
+  "fetched_at": "2026-10-26T04:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:33+00:00",
-  "fetched_at": "2026-10-26T03:17:33+00:00"
+  "checked_at": "2026-10-26T04:17:22+00:00",
+  "fetched_at": "2026-10-26T04:17:22+00:00"
  },
- "generated_at": "2026-10-26T03:17:33+00:00",
+ "generated_at": "2026-10-26T04:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המניות שיזנקו מחר בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560643",
-     "date": "2026-10-25T19:00:00+00:00"
+     "title": "300 חברי קיבוץ, דילמה אחת: לוותר על השליטה במפעל שייסדו או להסתכן בקריסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560728",
+     "date": "2026-10-26T03:47:00+00:00"
     },
     {
      "title": "עימות חסר תקדים בין נתניהו לרמטכ\"ל בנושא איראן",
@@ -97,9 +97,24 @@
    ],
    "market": [
     {
-     "title": "המניות שיזנקו מחר בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
+     "title": "החוקרים שגייסו 20 מיליון דולר כדי לשנות באמצעות AI את עולם ההשקעות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560744",
+     "date": "2026-10-26T03:56:00+00:00"
+    },
+    {
+     "title": "למשקיע הסבלני: האם המניה הביטחונית שצנחה ב־50% מהשיא תהפוך להזדמנות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560699",
+     "date": "2026-10-26T03:51:00+00:00"
+    },
+    {
+     "title": "המניות שיזנקו היום בת\"א, והדגל האדום שהרים האנליסט האופטימי ביותר בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560643",
-     "date": "2026-10-25T19:00:00+00:00"
+     "date": "2026-10-26T03:49:00+00:00"
+    },
+    {
+     "title": "300 חברי קיבוץ, דילמה אחת: לוותר על השליטה במפעל שייסדו או להסתכן בקריסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560728",
+     "date": "2026-10-26T03:47:00+00:00"
     },
     {
      "title": "המחקר שחשף את אפקט ההדבקה של סנקציות, ואיך הוא משפיע על מדינות",
@@ -192,11 +207,6 @@
      "date": "2026-10-24T16:03:00+00:00"
     },
     {
-     "title": "הקריפטו והסנקציות: נתניהו מצית סערה כלכלית רגע לפני הבחירות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560614",
-     "date": "2026-10-24T15:00:00+00:00"
-    },
-    {
      "title": "האם החיסכון שלכם מוכן למפולת - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560429",
      "date": "2026-10-24T13:00:00+00:00"
@@ -210,22 +220,12 @@
      "title": "בוגר דוקטורט מפרינסטון הגיש מועמדות ל־2,300 משרות. הוא עדיין לא מצליח למצוא עבודה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560125",
      "date": "2026-10-24T05:15:00+00:00"
-    },
-    {
-     "title": "נעילה אדומה בוול סטריט: דאו ג'ונס איבד יותר מאחוז; מחיר הנפט בעלייה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560609",
-     "date": "2026-10-23T20:05:00+00:00"
-    },
-    {
-     "title": "מדד ת״א 35 סוגר שבוע שלילי. ומי הסקטור שהוסיף 4.5%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560528",
-     "date": "2026-10-23T11:20:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T03:17:22+00:00",
-  "fetched_at": "2026-10-26T03:17:22+00:00"
+  "checked_at": "2026-10-26T04:17:13+00:00",
+  "fetched_at": "2026-10-26T04:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:23+00:00",
-  "fetched_at": "2026-10-26T03:17:23+00:00"
+  "checked_at": "2026-10-26T04:17:13+00:00",
+  "fetched_at": "2026-10-26T04:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2912,8 +2912,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:25+00:00",
-  "fetched_at": "2026-10-26T03:17:25+00:00"
+  "checked_at": "2026-10-26T04:17:15+00:00",
+  "fetched_at": "2026-10-26T04:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3064,30 +3064,24 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T03:17:25+00:00",
-  "fetched_at": "2026-10-26T03:17:25+00:00"
+  "checked_at": "2026-10-26T04:17:15+00:00",
+  "fetched_at": "2026-10-26T04:17:15+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup/",
-     "date": "2026-10-25T09:50:59+00:00",
-     "launch": false,
-     "title": "מתי להשתמש ב-AI ומתי לחזור לקוד? מיטאפ חדש יעשה לכם סדר"
-    }
-   ],
-   "candidates": 4,
+   "news": [],
+   "candidates": 0,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 960,
+     "likes": 962,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3156,8 +3150,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T03:17:32+00:00",
-  "fetched_at": "2026-10-26T03:17:32+00:00"
+  "checked_at": "2026-10-26T04:17:21+00:00",
+  "fetched_at": "2026-10-26T04:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -3498,8 +3492,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-26T03:17:28+00:00",
-  "fetched_at": "2026-10-26T03:17:28+00:00"
+  "checked_at": "2026-10-26T04:17:18+00:00",
+  "fetched_at": "2026-10-26T04:17:18+00:00"
  },
  "idf": {
   "data": [
@@ -3530,58 +3524,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:28+00:00",
-  "fetched_at": "2026-10-26T03:17:28+00:00"
+  "checked_at": "2026-10-26T04:17:19+00:00",
+  "fetched_at": "2026-10-26T04:17:19+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-25T20:04:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "newest": "2026-10-26T04:03:00+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-25T19:00:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "newest": "2026-10-26T03:56:00+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-25T19:00:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-25T06:42:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-25T23:17:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-25T23:20:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-25T22:56:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-25T16:25:51+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3593,7 +3587,7 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-21T04:00:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3605,23 +3599,23 @@
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-25T21:51:15+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-25T12:00:00+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-26T03:17:33+00:00",
+    "seen_at": "2026-10-26T04:17:22+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-26T03:17:33+00:00"
+  "checked_at": "2026-10-26T04:17:22+00:00"
  },
  "health_news": {
   "data": [
@@ -3777,7 +3771,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T03:17:29+00:00",
-  "fetched_at": "2026-10-26T03:17:29+00:00"
+  "checked_at": "2026-10-26T04:17:20+00:00",
+  "fetched_at": "2026-10-26T04:17:20+00:00"
  }
 }
