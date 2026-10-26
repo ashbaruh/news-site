@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-26T20:10:49+00:00",
-  "fetched_at": "2026-10-26T20:10:49+00:00"
+  "checked_at": "2026-10-26T20:17:19+00:00",
+  "fetched_at": "2026-10-26T20:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T20:10:59+00:00",
-  "fetched_at": "2026-10-26T20:10:59+00:00"
+  "checked_at": "2026-10-26T20:17:30+00:00",
+  "fetched_at": "2026-10-26T20:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T20:10:59+00:00",
-  "fetched_at": "2026-10-26T20:10:59+00:00"
+  "checked_at": "2026-10-26T20:17:30+00:00",
+  "fetched_at": "2026-10-26T20:17:30+00:00"
  },
- "generated_at": "2026-10-26T20:10:59+00:00",
+ "generated_at": "2026-10-26T20:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-10-26T17:33:00+00:00"
     },
     {
-     "title": "פחות מעשרה חשבונות קובעים את הטון בהימורי הבחירות בישראל בפולימרקט",
+     "title": "הבחירות הישראליות בפולימרקט: המחקר שמראה כמה קל להטות את הכף",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560880",
      "date": "2026-10-26T17:30:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T20:10:50+00:00",
-  "fetched_at": "2026-10-26T20:10:50+00:00"
+  "checked_at": "2026-10-26T20:17:20+00:00",
+  "fetched_at": "2026-10-26T20:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T20:10:50+00:00",
-  "fetched_at": "2026-10-26T20:10:50+00:00"
+  "checked_at": "2026-10-26T20:17:21+00:00",
+  "fetched_at": "2026-10-26T20:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2208,13 +2208,6 @@ window.DB.generated = {
    {
     "date": "2026-10-28",
     "time": "19:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - אולימפיאקוס"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "ונציה - אינטר"
@@ -2288,6 +2281,13 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מ.כ כפר סבא 1928 - מ.ס קרית ים"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - אולימפיאקוס"
    },
    {
     "date": "2026-10-28",
@@ -3005,8 +3005,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T20:10:51+00:00",
-  "fetched_at": "2026-10-26T20:10:51+00:00"
+  "checked_at": "2026-10-26T20:17:22+00:00",
+  "fetched_at": "2026-10-26T20:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3175,8 +3175,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T20:10:51+00:00",
-  "fetched_at": "2026-10-26T20:10:51+00:00"
+  "checked_at": "2026-10-26T20:17:22+00:00",
+  "fetched_at": "2026-10-26T20:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -3200,14 +3200,15 @@ window.DB.generated = {
    ],
    "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 983,
+     "likes": 984,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3276,8 +3277,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-26T20:10:57+00:00",
-  "fetched_at": "2026-10-26T20:10:57+00:00"
+  "checked_at": "2026-10-26T20:17:29+00:00",
+  "fetched_at": "2026-10-26T20:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -3618,8 +3619,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-26T20:10:54+00:00",
-  "fetched_at": "2026-10-26T20:10:54+00:00"
+  "checked_at": "2026-10-26T20:17:25+00:00",
+  "fetched_at": "2026-10-26T20:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3649,8 +3650,9 @@ window.DB.generated = {
     "date": "2026-10-25T13:32:16+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-26T20:10:55+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-26T20:17:25+00:00",
   "fetched_at": "2026-10-26T20:10:55+00:00"
  },
  "feed_health": {
@@ -3659,43 +3661,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-26T20:07:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-26T17:33:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-26T17:30:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "newest": "2026-10-26T20:14:00+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-26T18:30:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-26T20:47:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-26T20:01:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3713,35 +3715,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-26T20:06:48+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-26T16:18:26+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-26T20:10:59+00:00",
+    "seen_at": "2026-10-26T20:17:30+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-26T20:10:59+00:00"
+  "checked_at": "2026-10-26T20:17:30+00:00"
  },
  "health_news": {
   "data": [
@@ -3897,7 +3899,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-26T20:10:55+00:00",
-  "fetched_at": "2026-10-26T20:10:55+00:00"
+  "checked_at": "2026-10-26T20:17:25+00:00",
+  "fetched_at": "2026-10-26T20:17:25+00:00"
  }
 };
