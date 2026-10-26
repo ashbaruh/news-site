@@ -1,0 +1,262 @@
+{
+ "status": "draft",
+ "received_sha256_12": "5d9bbcbdfa2e",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 3,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-26T03:40:41+00:00",
+  "window": {
+   "from": "2026-10-25T03:40:41+00:00",
+   "to": "2026-10-26T03:40:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610260340"
+  },
+  "summary": "הזירה מאופיינת במתיחות צבאית ומדינית גבוהה בין איראן וישראל וארה\"ב, לצד עיסוק בהיערכות צבאית, איומים הדדיים ופעילות ימית במפרץ. בזמן שארה\"ב שוקלת את צעדיה בין דיפלומטיה לפעולה צבאית וממשיכה לאבטח את נתיבי השיט בהורמוז, ישראל מתמודדת עם מערכת בחירות רוויית איומים מצד טהרן ושלוחותיה. במקביל, נמשכת הלחימה מול שלוחות איראן בעזה ופעילות סיכול כלכלית.",
+  "fronts": [
+   {
+    "name": "חזית ישראלית-איראנית וישראל מול שלוחות",
+    "status": "פעיל ומתוח לקראת בחירות"
+   },
+   {
+    "name": "חזית ימית במצר הורמוז",
+    "status": "בנוכחות וסיוע אמריקאי מול חסימה איראנית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10260340-01",
+    "title": "פגישת מתאמים מנוסח מכה באיראן",
+    "summary": "בכירים ממדינות המעורבות בברית מכה צפויים להגיע לטהרן לפגישה בנושא תיאום אזורי.",
+    "axis": "ציר אזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T03:25:03+00:00",
+    "last_update_at": "2026-10-26T03:25:03+00:00",
+    "what_is_not_verified": "האם הפגישה התקיימה בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-leading-officials-mecca-pact-meet-iranian-officials-tehran",
+      "published_at": "2026-10-26T03:25:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10260340-02",
+    "title": "אזהרת נתניהו מפני פגיעה איראנית בבחירות בישראל",
+    "summary": "ראש ממשלת ישראל פרסם סרטון שבו הזהיר כי איראן ושלוחותיה יישאו בתוצאות קשות אם ינסו לפגוע בישראל במטרה לשבש את הבחירות.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T00:50:01+00:00",
+    "last_update_at": "2026-10-26T00:50:01+00:00",
+    "what_is_not_verified": "אמיתות המודיעין בדבר כוונת איראן לפגוע בבחירות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-warns-iran-against-disrupting-israeli-elections",
+      "published_at": "2026-10-26T00:50:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10260340-03",
+    "title": "סיוע צבא ארה\"ב לייצוא נפט במצר הורמוז",
+    "summary": "פיקוד המרכז של ארה\"ב הודיע כי סייע למדינות המפרץ לייצא מיליארדי חביות נפט דרך מצר הורמוז תוך עקיפת הסגר האיראני.",
+    "axis": "ארה\"ב-איראן והמפרץ",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T20:26:04+00:00",
+    "last_update_at": "2026-10-25T20:26:04+00:00",
+    "what_is_not_verified": "לא מאומת מעבר לכך",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_7cf9aa3a13dc3a4e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-helped-gulf-nations-export-15-bn-barrels-oil-through-hormuz",
+      "published_at": "2026-10-25T20:26:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10260340-04",
+    "title": "חילוץ ימאים איראנים על ידי סרי לנקה",
+    "summary": "רשויות סרי לנקה חילצו ימאים איראנים מאוניות מסחריות במים הבינלאומיים לאחר מצוקה רפואית.",
+    "axis": "איראן והזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T17:35:39+00:00",
+    "last_update_at": "2026-10-25T17:35:39+00:00",
+    "what_is_not_verified": "סיבת מצוקת האוניות המדויקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610257256",
+      "published_at": "2026-10-25T17:35:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10260340-05",
+    "title": "חיסול פעילי טרור שהעבירו כספים מאיראן לחמאס",
+    "summary": "צה\"ל ושב\"כ הודיעו על חיסול מחבלים שפעלו להעברת מיליוני שקלים ממשטר הטרור האיראני ומטורקיה לזרוע הצבאית של חמאס.",
+    "axis": "ישראל ושלוחות איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T08:35:30+00:00",
+    "last_update_at": "2026-10-25T08:35:30+00:00",
+    "what_is_not_verified": "היקף העברות הכספים המדויק בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25461",
+      "published_at": "2026-10-25T08:35:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עזה, רצועת עזה",
+      "lat": 31.5117,
+      "lon": 34.4821
+     },
+     {
+      "name": "נוציראת, רצועת עזה",
+      "lat": 31.4554,
+      "lon": 34.401
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "קיומה או מועדה של פגישת נציגי ברית מכה בטהרן",
+   "תוכנית איראנית ממשית לפגוע בבחירות בישראל",
+   "תכנון איראני לפגוע בדיפלומטים אמריקאים כתגובה לחיסולים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1215,
+    "unit": "ILS",
+    "change_pct": 0.44,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה עצמית מול כל תוקפנות",
+     "דחיית איומי ארה\"ב"
+    ],
+    "inferred": [
+     "שמירה על השפעה אזורית דרך שלוחות",
+     "שימור יכולות והיערכות לאפשרות של הסלמה"
+    ],
+    "forecast": [
+     "המשך תיאום עם בריתות אזוריות",
+     "שמירת אופציית התגובה מול ישראל וארה\"ב"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת איום גרעיני מאיראן",
+     "הכרעה ופירוק של תשתיות חמאס וחזבאללה",
+     "מניעת פגיעה איראנית במהלך הבחירות"
+    ],
+    "inferred": [
+     "הישענות על גיבוי אמריקאי להרתעת איראן",
+     "סיכול צינורות מימון איראניים לשלוחותיה"
+    ],
+    "forecast": [
+     "המשך כוננות גבוהה מול איומי איראן והשלוחות",
+     "המשך מאבק משולב בכלכלה וטרור איראני"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "שמירה על חופש השיט במצר הורמוז",
+     "שקילת הסכם או פעולה צבאית מול איראן"
+    ],
+    "inferred": [
+     "מניעת סגירת נתיבי אנרגיה מרכזיים במפרץ",
+     "הרתעת איראן מתקיפות נוספות"
+    ],
+    "forecast": [
+     "המשך הליווי הצבאי של מכליות נפט במפרץ",
+     "הכרעה בין מסלול דיפלומטי למדיניות צבאית מול טהרן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610257256",
+    "accessed_at": "2026-10-26T03:40:41+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-helped-gulf-nations-export-15-bn-barrels-oil-through-hormuz",
+    "accessed_at": "2026-10-26T03:40:41+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25461",
+    "accessed_at": "2026-10-26T03:40:41+00:00"
+   }
+  ]
+ }
+}

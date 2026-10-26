@@ -1,0 +1,261 @@
+{
+ "status": "draft",
+ "received_sha256_12": "653655151bc3",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 3,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-26T03:41:54+00:00",
+  "window": {
+   "from": "2026-10-25T03:41:54+00:00",
+   "to": "2026-10-26T03:41:54+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610260341"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת באמצעות תקיפות אוויריות, רחפנים ופגיעה בתשתיות, לצד מאמצים דיפלומטיים לקיום שיחות שלום משולשות בהשתתפות אוקראינה, רוסיה וארצות הברית. אוקראינה מתמודדת עם אתגרי אספקה וקישוריות אינטרנט לווייני, בעוד רוסיה ממשיכה לתקוף מטרות אזרחיות וצבאיות בשטח אוקראינה ומדווחת על יירוטי רחפנים נרחבים.",
+  "fronts": [
+   {
+    "name": "חזית חארקוב",
+    "status": "פעילה"
+   },
+   {
+    "name": "חזית דרום אוקראינה (חרסון וזפוריז'יה)",
+    "status": "פעילה"
+   },
+   {
+    "name": "המרחב האווירי ועומק הרוסי",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10260341-01",
+    "title": "הקמת מסדרון נגד רחפנים בחארקוב",
+    "summary": "הותקנו רשתות נגד רחפנים לאורך מקטע של כביש בחארקוב.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:32:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T00:32:00+00:00",
+    "last_update_at": "2026-10-26T00:32:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_2f2fda3a3e3da816",
+      "url": "https://www.ukrinform.net/rubric-defense/4177991-kharkiv-establishes-first-antidrone-corridor.html",
+      "published_at": "2026-10-26T00:32:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10260341-02",
+    "title": "פגיעה באוטובוס בחרסון מתקיפת רחפן",
+    "summary": "תקיפת רחפן רוסית פגעה באוטובוס בחרסון וגרמה למות אדם ולפצועים.",
+    "axis": "רוסיה-אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T14:30:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T14:30:00+00:00",
+    "last_update_at": "2026-10-25T14:30:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_19f396c655b44930",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059643/",
+      "published_at": "2026-10-25T14:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10260341-03",
+    "title": "יירוט רחפנים מעל אזורים ברוסיה",
+    "summary": "משרד ההגנה הרוסי דיווח על יירוט מספר רב של רחפנים אוקראיניים מעל שטחי רוסיה.",
+    "axis": "רוסיה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T07:11:26+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T07:11:26+00:00",
+    "last_update_at": "2026-10-25T07:11:26+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_830b194613d0ad22",
+      "url": "https://tass.com/defense/2207429",
+      "published_at": "2026-10-25T07:11:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10260341-04",
+    "title": "החזרת פעילות מערכת סטארשילד למהירות רגילה",
+    "summary": "נשיא אוקראינה אישר כי פעילות סטארשילד חזרה למהירותה הרגילה לאחר הגבלות קודמות.",
+    "axis": "אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T19:02:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-25T19:02:26+00:00",
+    "last_update_at": "2026-10-26T01:27:47+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy_interview",
+      "url": "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november",
+      "published_at": "2026-10-26T01:27:47+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_volodymyr_zelenskyy_interview",
+      "url": "https://kyivindependent.com/ukraine-war-latest-starshield-operations-restored-to-normal-speed-zelensky-confirms-as-elon-musk-claims-ukraine-violated-starlink-terms/",
+      "published_at": "2026-10-25T19:02:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10260341-05",
+    "title": "תקיפות והרוגים באזורים שונים באוקראינה",
+    "summary": "תקיפות של כוחות רוסיים גרמו להרוגים ולפצועים באזורים שונים באוקראינה, כולל דניפרופטרובסק וסומי.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-25T02:37:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-25T02:37:44+00:00",
+    "last_update_at": "2026-10-25T03:41:54+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_ukrainian_regional_governors",
+      "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
+      "published_at": "2026-10-25T02:37:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סינלניקובו, אוקראינה",
+      "lat": 48.3269,
+      "lon": 35.5247
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "נסיבות מותו של הפעיל מיכאיל מאוואשי",
+   "טענות רוסיה בדבר היקף הנזקים והשחיתות באוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1193,
+    "unit": "USD",
+    "change_pct": -0.11,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "סירוב לדון בהגבלת הכוחות המזוינים או בנייטרליות כפויה",
+     "דרישה לעצירת התקיפות על תשתיות האנרגיה כתנאי להפסקת תקיפות על בתי זיקוק"
+    ],
+    "inferred": [
+     "שמירה על תמיכה בינלאומית וחיזוק קשרים עם ארצות הברית ומדינות אירופה",
+     "המשך הגנה על תשתיות חיוניות ואוכלוסייה אזרחית"
+    ],
+    "forecast": [
+     "השתתפות בשיחות משולשות מתוכננות",
+     "המשך הפעלת מערכות הגנה אלקטרוניות ואוויריות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הפעילות הצבאית והגנה מפני תקיפות רחפנים",
+     "היערכות לשיחות משולשות אפשריות לאחר נובמבר"
+    ],
+    "inferred": [
+     "ניסיון להפעיל לחץ על אוקראינה באמצעות פגיעה בתשתיות ואספקה",
+     "ביסוס שליטה באזורים הכבושים והיערכות מול מדינות המערב"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות ושימוש במערכות הגנה מתקדמות",
+     "ניהול מגעים דיפלומטיים מותנים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
+    "accessed_at": "2026-10-26T03:41:54+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-starshield-operations-restored-to-normal-speed-zelensky-confirms-as-elon-musk-claims-ukraine-violated-starlink-terms/",
+    "accessed_at": "2026-10-26T03:41:54+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059643/",
+    "accessed_at": "2026-10-26T03:41:54+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2207429",
+    "accessed_at": "2026-10-26T03:41:54+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-defense/4177991-kharkiv-establishes-first-antidrone-corridor.html",
+    "accessed_at": "2026-10-26T03:41:54+00:00"
+   }
+  ]
+ }
+}
