@@ -1,242 +1,151 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-26T12:00:00+02:00",
- "generated_at": "2026-10-26T10:40:19+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-10-26T18:00:00+02:00",
+ "generated_at": "2026-10-26T17:40:27+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
-  "iran": {
-   "events": [
-    {
-     "id": "IRAN-10261040-01",
-     "title": "משלחת ביטחונית מסעודיה, פקיסטן וטורקיה הגיעה לטהרן לשיחות אזוריות",
-     "summary": "בכירים ביטחוניים ובהם שר ההגנה הסעודי, רמטכ\"ל פקיסטן וראש המודיעין הטורקי הגיעו לשיחות בטהרן כדי לדון בביטחון האזורי ובמתיחות הגוברת.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-26T06:43:01+00:00",
-     "last_update_at": "2026-10-26T09:56:34+00:00",
-     "what_is_not_verified": "ההסכמות שיושגו והשלכות המפגש בפועל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_d250aaa39255f982",
-       "url": "https://t.me/abualiexpress/132570",
-       "published_at": "2026-10-26T08:18:54+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_d250aaa39255f982",
-       "url": "https://t.me/abualiexpress/132564",
-       "published_at": "2026-10-26T06:43:01+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "fh_d250aaa39255f982",
-       "url": "https://www.iranintl.com/en/202610260367",
-       "published_at": "2026-10-26T09:56:34+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_d250aaa39255f982",
-       "url": "https://en.irna.ir/news/86303695/Baqaei-Tehran-meeting-to-focus-on-endogenous-security",
-       "published_at": "2026-10-26T08:48:09+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10261040-02",
-     "title": "הכחשת כוונה ישראלית לתקיפה יזומה באיראן לפני הבחירות",
-     "summary": "שר הביטחון כ\"ץ הצהיר כי ישראל לא התכוונה ליזום התקפה נגד איראן לקראת הבחירות בישראל.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T06:55:30+00:00",
-     "last_update_at": "2026-10-26T06:55:30+00:00",
-     "what_is_not_verified": "לא אומתו דיווחים קודמים על עימות בין הדרג המדיני לצבאי בנוגע לפעולה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94806",
-       "published_at": "2026-10-26T06:55:30+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10261040-03",
-     "title": "נשיא איראן ימריא למוסקבה לפסגת פורום יצואניות הגז",
-     "summary": "נשיא איראן מסעוד פזשכיאן ייצא לביקור במוסקבה כדי להשתתף בפסגת פורום המדינות המייצאות גז ולדון בשיתוף פעולה הדדי.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T09:25:18+00:00",
-     "last_update_at": "2026-10-26T09:25:18+00:00",
-     "what_is_not_verified": "תוצאות המפגשים והשיחות שיתקיימו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_ecb46c8498c6aed6",
-       "url": "https://en.irna.ir/news/86303771/Iran-president-to-visit-Moscow-for-GECF-summit",
-       "published_at": "2026-10-26T09:25:18+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
-      }
-     ]
-    }
-   ]
-  },
   "north": {
    "events": [
     {
-     "id": "NORTH-10261040-01",
-     "title": "סוריה נערכת לפרסום מפת מוקשים ארצית במסגרת תוכנית פינוי תלת-שנתית",
-     "summary": "מרכז פעולות המיקוש בסוריה מתכנן להשיק מפת מוקשים ראשונה בכל רחבי המדינה כחלק מתוכנית מקיפה לזיהוי שטחים מסוכנים וסיוע לשיקום.",
+     "id": "NORTH-10261740-01",
+     "title": "תקיפות צה\"ל בדרום לבנון",
+     "summary": "חיל האוויר והארטילריה של צה\"ל תקפו במספר מוקדים בדרום לבנון, בהם ברעשית והאזור שבין אל-קנטרה ובני חיאן.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-26T15:35:22+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T10:12:36+00:00",
-     "last_update_at": "2026-10-26T10:12:36+00:00",
-     "what_is_not_verified": "מועד היישום המדויק ומידת השפעתו על השטח",
+     "first_reported_at": "2026-10-26T15:35:22+00:00",
+     "last_update_at": "2026-10-26T15:35:22+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק בכל אחד מהמוקדים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-to-launch-1st-nationwide-mine-map-under-3-year-clearance-strategy/4101063",
-       "published_at": "2026-10-26T10:12:36+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_2e7f45903c57e8dc",
+       "url": "https://english.almanar.com.lb/article/143067/",
+       "published_at": "2026-10-26T15:35:22+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ברעשית, לבנון",
+       "lat": 33.1785,
+       "lon": 35.4372
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10261740-02",
+     "title": "פיצוץ במחסן תחמושת בסוריה",
+     "summary": "אירע פיצוץ ענק במחסן תחמושת באזור סראקיב שבמחוז אדליב בסוריה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T17:15:26+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T17:15:26+00:00",
+     "last_update_at": "2026-10-26T17:15:26+00:00",
+     "what_is_not_verified": "נסיבות הפיצוץ המדויקות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132606",
+       "published_at": "2026-10-26T17:15:26+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סראקיב, סוריה",
+       "lat": 35.8636,
+       "lon": 36.8031
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10261040-01",
-     "title": "הצעות חוק באוקראינה להארכת ממשל צבאי וגיוס בשלושה חודשים",
-     "summary": "הנשיא זלנסקי הגיש לפרלמנט האוקראיני הצעות חוק להארכת הממשל הצבאי והמשך הגיוס הכללי לתקופה של שלושה חודשים נוספים.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T10:38:30+00:00",
-     "last_update_at": "2026-10-26T10:38:30+00:00",
-     "what_is_not_verified": "מועד אישור ההצעות בהצבעת הפרלמנט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2207857",
-       "published_at": "2026-10-26T10:38:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10261040-02",
-     "title": "מתקפות אוויריות רוסיות גרמו לפגיעות בנפש ולניתוקי חשמל בשישה מחוזות",
-     "summary": "הפגזות ותקיפות נרחבות של כטב\"מים וטילים רוסיים פגעו באזרחים באוקראינה והובילו לשיבושי אספקת חשמל במספר מחוזות.",
+     "id": "UKRAINE-10261740-01",
+     "title": "תקיפת מתקן צבאי ברוסיה",
+     "summary": "כוחות אוקראיניים תקפו מפעל רוסי בעיר יחץ המייצר מצלמים לטילים ופצצות, וגרמו לפרוץ שריפה במקום.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-26T09:29:00+00:00",
-     "last_update_at": "2026-10-26T09:59:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים הכולל והיקף הנזק המדויק",
+     "occurred_at": "2026-10-26T16:24:43+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T16:24:43+00:00",
+     "last_update_at": "2026-10-26T16:24:43+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק שנגרם למפעל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4178209-russian-shelling-causes-new-power-outages-in-six-regions-ukrenergo-says.html",
-       "published_at": "2026-10-26T09:59:00+00:00"
-      },
-      {
        "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russian-attacks-across-ukraine-kill-2-wound-35-over-past-day-as-repeated-strikes-hit-zaporizhzhia/",
-       "published_at": "2026-10-26T09:52:57+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059718/",
-       "published_at": "2026-10-26T09:29:00+00:00"
+       "source_root_id": "fh_2b34ea60734ecd03",
+       "url": "https://kyivindependent.com/ukraine-strikes-russian-plant-producing-missile-and-bomb-batteries-in-yelets-general-staff-says/",
+       "published_at": "2026-10-26T16:24:43+00:00"
       }
      ],
      "places": [
       {
-       "name": "זפורוז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "יחץ, רוסיה",
+       "lat": 52.6151,
+       "lon": 38.529
       }
      ]
     },
     {
-     "id": "UKRAINE-10261040-03",
-     "title": "דיווח על מגעים גרמניים לרכישת טילי שיוט מתוצרת אוקראינה לצורכי ניסוי",
-     "summary": "לפי דיווחים בתקשורת, גרמניה נערכת לבצע רכש ראשוני של טילי שיוט שפותחו באוקראינה לצורך בדיקות וניסויים של צבאה.",
+     "id": "UKRAINE-10261740-02",
+     "title": "תקיפת תחנת דלק בזפוריז'יה",
+     "summary": "כוחות רוסיים תקפו תחנת דלק בזפוריז'יה, כתוצאה מכך נפצעו גבר ואישה.",
      "axis": "ukraine",
-     "claim_type": "assessment",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-26T16:44:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T09:49:51+00:00",
-     "last_update_at": "2026-10-26T09:56:00+00:00",
-     "what_is_not_verified": "חתימת ההסכם ולוחות הזמנים הסופיים",
+     "first_reported_at": "2026-10-26T16:44:00+00:00",
+     "last_update_at": "2026-10-26T16:44:00+00:00",
+     "what_is_not_verified": "סוג החימוש המדויק ששימש לתקיפה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_7578769da68d1f90",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059806/",
+       "published_at": "2026-10-26T16:44:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10261740-03",
+     "title": "חבילת סיוע צבאי איטלקית לאוקראינה",
+     "summary": "שר החוץ של איטליה הודיע כי חבילת סיוע צבאי חדשה עבור אוקראינה מוכנה להעברה.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T16:03:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T16:03:00+00:00",
+     "last_update_at": "2026-10-26T16:03:00+00:00",
+     "what_is_not_verified": "המועד המדויק שבו הציוד יגיע בפועל לשטח",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059720/",
-       "published_at": "2026-10-26T09:56:00+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2207763",
-       "published_at": "2026-10-26T09:49:51+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059801/",
+       "published_at": "2026-10-26T16:03:00+00:00"
       }
      ],
      "places": []
@@ -246,117 +155,174 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10261040-01",
-     "title": "טענת החות'ים לפגיעה בתחנות שאיבת נפט ובנמל התעופה בריאד",
-     "summary": "החות'ים טענו כי שיגרו מתקפות לעבר תחנות שאיבת נפט של סעודיה ולעבר נמל התעופה בבירה ריאד.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T04:46:30+00:00",
-     "last_update_at": "2026-10-26T04:46:30+00:00",
-     "what_is_not_verified": "אימות עצמאי של הפגיעות הנטענות בתשתיות הנפט ובשדה התעופה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-fighting",
-       "published_at": "2026-10-26T04:46:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10261040-02",
-     "title": "הקואליציה בהובלת סעודיה השמידה משגרי טילים ומנהרות של החות'ים",
-     "summary": "הקואליציה הודיעה כי יירטה טיל בליסטי ששוגר לעבר ריאד והשמידה עמדות שיגור, מחסן טילים ומנהרות אחסון בצנעא ובאזורים נוספים.",
+     "id": "YEMEN-10261740-01",
+     "title": "אישור הפרלמנט המצרי לסיוע צבאי לערב הסעודית",
+     "summary": "הפרלמנט המצרי אישר ברוב קולות להעניק סיוע צבאי לערב הסעודית כדי להגן עליה מפני התקפות החות'ים.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-26T16:30:23+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T01:34:25+00:00",
-     "last_update_at": "2026-10-26T05:38:04+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים המדויק בצד החות'י",
+     "first_reported_at": "2026-10-26T16:30:23+00:00",
+     "last_update_at": "2026-10-26T16:30:23+00:00",
+     "what_is_not_verified": "היקף הכוחות המדויק שיישלח בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claim-more-attacks-houthis",
-       "published_at": "2026-10-26T05:38:04+00:00"
-      },
-      {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-fighting",
-       "published_at": "2026-10-26T04:46:30+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/missile-launchers-yemens-sanaa-destroyed-saudi-led-coalition-says",
-       "published_at": "2026-10-26T03:53:15+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-coalition-says-houthi-missiles-targeting-riyadh-intercepted",
-       "published_at": "2026-10-26T01:34:25+00:00"
+       "source_root_id": "fh_c6ad8f3960481a10",
+       "url": "https://www.al-monitor.com/originals/2026/10/egypt-parliament-authorises-military-support-saudi-arabia",
+       "published_at": "2026-10-26T16:30:23+00:00"
       }
      ],
      "places": [
       {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
-      },
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "קהיר, מצרים",
+       "lat": 30.0444,
+       "lon": 31.2357
       }
      ]
     },
     {
-     "id": "YEMEN-10261040-03",
-     "title": "החות'ים הכריזו על תקיפת עמדות ומחסני נשק בעדן ובמחוז לחג'",
-     "summary": "דובר הכוחות החות'יים הצהיר כי בוצעו תקיפות של טילים בליסטיים לעבר עמדות צבאיות ומחסני נשק במחוזות עדן ולחג'.",
+     "id": "YEMEN-10261740-02",
+     "title": "משבר הומניטרי בבתי החולים בעיר תעז",
+     "summary": "מחסור חמור בדלק וציוד רפואי בעיר תעז הנצורה הביא לצמצום דרסטי בפעילות האינקובטורים לתינוקות שזה עתה נולדו.",
      "axis": "yemen",
-     "claim_type": "statement",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T04:08:41+00:00",
-     "last_update_at": "2026-10-26T04:08:41+00:00",
-     "what_is_not_verified": "אימות עצמאי של פגיעה במוצבים ובמחסני הנשק",
+     "occurred_at": "2026-10-26T15:46:34+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-26T15:46:34+00:00",
+     "last_update_at": "2026-10-26T15:46:34+00:00",
+     "what_is_not_verified": "מספר התינוקות המדויקים שנמצאים בסכנת חיים מיידית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-missile-attacks-yemens-aden-lahij",
-       "published_at": "2026-10-26T04:08:41+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_f6784a64f89212ed",
+       "url": "https://www.al-monitor.com/originals/2026/10/no-fuel-keep-babies-warm-shortages-push-hospitals-yemens-taiz-brink",
+       "published_at": "2026-10-26T15:46:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      }
+     ]
+    }
+   ]
+  },
+  "iran": {
+   "events": [
+    {
+     "id": "IRAN-10261740-01",
+     "title": "סיוע כספי מאיראן לחיזבאללה",
+     "summary": "לפי דיווחים בתקשורת, איראן העבירה סכומים ניכרים לחיזבאללה כדי לסייע לו לשקם את כוחותיו ולהיערך לעימות.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T15:02:46+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-26T15:02:46+00:00",
+     "last_update_at": "2026-10-26T15:47:00+00:00",
+     "what_is_not_verified": "היקף הסיוע המדויק ופרטי ההיערכות אינם מאומתים באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94810",
+       "published_at": "2026-10-26T15:47:00+00:00"
       },
       {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/48973",
+       "published_at": "2026-10-26T15:02:46+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10261740-02",
+     "title": "פגישת בכירים בטהראן",
+     "summary": "נציגים ממדינות שונות הגיעו לטהראן לפגישה ביטחונית מדינית שעסקה ביציבות ובביטחון האזור.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T13:28:56+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T13:28:56+00:00",
+     "last_update_at": "2026-10-26T16:37:05+00:00",
+     "what_is_not_verified": "תוכנם המלא של הסיכומים וההבנות בין הצדדים אינו מפורט במלואו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_9f9f9870ff3d2c3e",
+       "url": "https://t.me/abualiexpress/132585",
+       "published_at": "2026-10-26T13:28:56+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_9f9f9870ff3d2c3e",
+       "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
+       "published_at": "2026-10-26T16:37:05+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_9f9f9870ff3d2c3e",
+       "url": "https://en.irna.ir/news/86304211/Tehran-summit-press-statement-Talks-on-regional-peace-and-security",
+       "published_at": "2026-10-26T16:34:02+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10261740-03",
+     "title": "נסיעת נשיא איראן למוסקבה",
+     "summary": "נשיא איראן יצא לכיוון מוסקבה כדי להשתתף בכינוס פורום המדינות המייצאות גז ולקיים פגישות שיתוף פעולה.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T16:44:03+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-26T16:44:03+00:00",
+     "last_update_at": "2026-10-26T16:44:03+00:00",
+     "what_is_not_verified": "תוצאות הפגישות הבילטרליות טרם פורסמו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_b9161e8338aeb071",
+       "url": "https://en.irna.ir/news/86304216/Iran-president-leaves-for-Moscow-to-attend-GECF-summit",
+       "published_at": "2026-10-26T16:44:03+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
+      },
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
