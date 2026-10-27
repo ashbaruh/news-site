@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:38:03+00:00",
-  "fetched_at": "2026-10-27T10:38:03+00:00"
+  "checked_at": "2026-10-27T11:17:24+00:00",
+  "fetched_at": "2026-10-27T11:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:38:16+00:00",
-  "fetched_at": "2026-10-27T10:38:16+00:00"
+  "checked_at": "2026-10-27T11:17:39+00:00",
+  "fetched_at": "2026-10-27T11:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "These Award-winning Dolby Atmos soundbars have just trumped two old champions",
+    "title_he": "סרגלי הסאונד עטורי הפרסים של Dolby Atmos גברו זה עתה על שני אלופים ותיקים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/these-award-winning-dolby-atmos-soundbars-have-just-trumped-two-old-champions",
+    "date": "2026-10-27T11:00:09+00:00"
+   },
    {
     "title_en": "10 of the best Leonard Cohen songs to test your hi-fi system",
     "title_he": "10 מהשירים הטובים ביותר של לאונרד כהן לבדיקת מערכת ה-hi-fi שלך",
@@ -67,27 +74,20 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/south-africa-vs-australia-3rd-test-2026",
     "date": "2026-10-27T05:00:00+00:00"
-   },
-   {
-    "title_en": "Leica Cine Compact 1",
-    "title_he": "לייקה סיין קומפקט 1",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/leica-cine-compact-1",
-    "date": "2026-10-26T20:46:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:38:17+00:00",
-  "fetched_at": "2026-10-27T10:38:17+00:00"
+  "checked_at": "2026-10-27T11:17:40+00:00",
+  "fetched_at": "2026-10-27T11:17:40+00:00"
  },
- "generated_at": "2026-10-27T10:38:17+00:00",
+ "generated_at": "2026-10-27T11:17:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שיעור ההצבעה הגבוה ביותר מאז 1981 עד כה: הערים שמובילות, ואלו שמאחור",
+     "title": "שיעור ההצבעה עד 12:00 - הגבוה מאז 1977",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560922",
-     "date": "2026-10-27T10:36:00+00:00"
+     "date": "2026-10-27T11:14:00+00:00"
     },
     {
      "title": "ההיסטוריה מלמדת: איך מגיבה הבורסה בבוקר שאחרי הבחירות?",
@@ -97,14 +97,14 @@
    ],
    "market": [
     {
+     "title": "ירידות באירופה; HSBC נופל ב-6%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560828",
+     "date": "2026-10-27T10:37:00+00:00"
+    },
+    {
      "title": "הבורסה אישרה: אופציות ליו\"ר ולמנכ\"ל, והלוואת שימור של מיליונים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560947",
      "date": "2026-10-27T10:16:00+00:00"
-    },
-    {
-     "title": "ירידות באירופה; HSBC נופל ב-6%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560828",
-     "date": "2026-10-27T08:53:00+00:00"
     },
     {
      "title": "באירופה מדברים על דמוקרטיה, בעולם הערבי לא מצפים לשינוי",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:38:04+00:00",
-  "fetched_at": "2026-10-27T10:38:04+00:00"
+  "checked_at": "2026-10-27T11:17:26+00:00",
+  "fetched_at": "2026-10-27T11:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:38:05+00:00",
-  "fetched_at": "2026-10-27T10:38:05+00:00"
+  "checked_at": "2026-10-27T11:17:27+00:00",
+  "fetched_at": "2026-10-27T11:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2863,8 +2863,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:38:06+00:00",
-  "fetched_at": "2026-10-27T10:38:06+00:00"
+  "checked_at": "2026-10-27T11:17:30+00:00",
+  "fetched_at": "2026-10-27T11:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3033,8 +3033,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:38:06+00:00",
-  "fetched_at": "2026-10-27T10:38:06+00:00"
+  "checked_at": "2026-10-27T11:17:30+00:00",
+  "fetched_at": "2026-10-27T11:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -3058,21 +3058,22 @@
    ],
    "candidates": 8,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1014,
+     "likes": 1015,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 105,
+     "likes": 106,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
@@ -3086,7 +3087,7 @@
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 265,
+     "likes": 266,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
@@ -3107,7 +3108,7 @@
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 71,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
@@ -3134,12 +3135,30 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:38:15+00:00",
-  "fetched_at": "2026-10-27T10:38:15+00:00"
+  "checked_at": "2026-10-27T11:17:38+00:00",
+  "fetched_at": "2026-10-27T11:17:38+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חלאילי צפוי לקבל מנוחה, ליברפול תמשיך במומנטום גם מול צ'לסי?",
+     "link": "https://sports.walla.co.il/item/3873927",
+     "date": "2026-10-27T12:12:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "כוכב העבר אישר: \"אנחנו במגעים עם אוריין גורן. מזכיר את פדרי\"",
+     "link": "https://sports.walla.co.il/item/3873924",
+     "date": "2026-10-27T11:53:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "\"דניאל פרץ יכול לשחק במנצ'סטר יונייטד, אולי גם בארסנל\"",
      "link": "https://sports.walla.co.il/item/3873921",
@@ -3147,6 +3166,15 @@
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "פאבל נדבד אישר: אנחנו במגעים עם אוריין גורן",
+     "link": "https://www.one.co.il/Article/537188.html?ref=rss",
+     "date": "2026-10-27T10:56:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
      ]
     },
     {
@@ -3183,15 +3211,6 @@
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "\"מלך הטעויות\": אוסקר גלוך שוב תחת ביקורת חריפה בהולנד",
-     "link": "https://sports.walla.co.il/item/3873707",
-     "date": "2026-10-25T19:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -3252,15 +3271,6 @@
      "title": "סודות ההצלחה של דני אבדיה: \"לא רואה משהו שמגביל אותו\"",
      "link": "https://sports.walla.co.il/item/3873071",
      "date": "2026-10-21T10:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "דני אבדיה משתכר כמו שחקן ספסל ב-NBA. מתי כל זה ישתנה?",
-     "link": "https://sports.walla.co.il/item/3873079",
-     "date": "2026-10-20T16:20:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3467,8 +3477,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:38:08+00:00",
-  "fetched_at": "2026-10-27T10:38:08+00:00"
+  "checked_at": "2026-10-27T11:17:33+00:00",
+  "fetched_at": "2026-10-27T11:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3498,60 +3508,59 @@
     "date": "2026-10-26T04:00:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-27T10:38:08+00:00",
-  "fetched_at": "2026-10-27T10:17:24+00:00"
+  "ok": true,
+  "checked_at": "2026-10-27T11:17:34+00:00",
+  "fetched_at": "2026-10-27T11:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-27T10:36:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T11:14:00+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-27T10:16:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T10:37:00+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-27T08:37:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T10:37:00+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-27T11:36:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T12:12:00+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-27T11:30:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-27T10:11:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T10:56:00+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-27T07:51:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3563,35 +3572,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-27T09:37:33+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-27T09:22:47+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "newest": "2026-10-27T11:00:09+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T11:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-27T10:38:17+00:00"
+  "checked_at": "2026-10-27T11:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3746,9 +3755,8 @@
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-27T10:38:08+00:00",
-  "fetched_at": "2026-10-27T10:17:25+00:00"
+  "ok": true,
+  "checked_at": "2026-10-27T11:17:34+00:00",
+  "fetched_at": "2026-10-27T11:17:34+00:00"
  }
 }
