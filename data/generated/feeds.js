@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-27T12:17:25+00:00",
-  "fetched_at": "2026-10-27T12:17:25+00:00"
+  "checked_at": "2026-10-27T13:17:15+00:00",
+  "fetched_at": "2026-10-27T13:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T12:17:32+00:00",
-  "fetched_at": "2026-10-27T12:17:32+00:00"
+  "checked_at": "2026-10-27T13:17:26+00:00",
+  "fetched_at": "2026-10-27T13:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T12:17:33+00:00",
-  "fetched_at": "2026-10-27T12:17:33+00:00"
+  "checked_at": "2026-10-27T13:17:26+00:00",
+  "fetched_at": "2026-10-27T13:17:26+00:00"
  },
- "generated_at": "2026-10-27T12:17:33+00:00",
+ "generated_at": "2026-10-27T13:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שיעור ההצבעה הגבוה ביותר מאז 1977 עד כה: היישובים שבראש, ואלו שמאחור",
+     "title": "״חצינו את כל השיאים״: שיעור ההצבעה עד כה - 44.9%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560922",
-     "date": "2026-10-27T11:37:00+00:00"
+     "date": "2026-10-27T13:06:00+00:00"
     },
     {
      "title": "ההיסטוריה מלמדת: איך מגיבה הבורסה בבוקר שאחרי הבחירות?",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "השותפות בין ענקיות ה-AI מתרחבת: אנבידיה תשקיע 3 מיליארד דולר במטא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560955",
+     "date": "2026-10-27T12:02:00+00:00"
+    },
     {
      "title": "מגמה מעורבת באירופה; החוזים בוול סטריט עולים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560828",
@@ -109,7 +114,7 @@ window.DB.generated = {
      "date": "2026-10-27T11:33:00+00:00"
     },
     {
-     "title": "הבורסה אישרה: אופציות ליו\"ר ולמנכ\"ל, והלוואת שימור של מיליונים",
+     "title": "הבורסה אישרה: אופציות ליו\"ר ולמנכ\"ל והלוואת שימור של מיליונים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560947",
      "date": "2026-10-27T10:16:00+00:00"
     },
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-10-26T13:01:00+00:00"
     },
     {
-     "title": "בטורקיה תוהים: האם הבחירות ישנו את היחסים בין שתי המדינות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560799",
-     "date": "2026-10-26T12:50:00+00:00"
-    },
-    {
      "title": "עסקת ענק ליעקב אטרקצ'י: רוכש את \"בית בכפר\" ב-1.7 מיליארד שקל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560776",
      "date": "2026-10-26T10:36:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T12:17:27+00:00",
-  "fetched_at": "2026-10-27T12:17:27+00:00"
+  "checked_at": "2026-10-27T13:17:15+00:00",
+  "fetched_at": "2026-10-27T13:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T12:17:27+00:00",
-  "fetched_at": "2026-10-27T12:17:27+00:00"
+  "checked_at": "2026-10-27T13:17:16+00:00",
+  "fetched_at": "2026-10-27T13:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2865,8 +2865,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T12:17:28+00:00",
-  "fetched_at": "2026-10-27T12:17:28+00:00"
+  "checked_at": "2026-10-27T13:17:19+00:00",
+  "fetched_at": "2026-10-27T13:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3035,8 +3035,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T12:17:28+00:00",
-  "fetched_at": "2026-10-27T12:17:28+00:00"
+  "checked_at": "2026-10-27T13:17:19+00:00",
+  "fetched_at": "2026-10-27T13:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -3051,20 +3051,16 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-     "date": "2026-10-26T16:00:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/half-a-million-dollar-bounty-from-one-vuln/",
+     "date": "2026-10-27T12:13:03+00:00",
      "launch": false,
-     "title_en": "Our newest AI Quest: Mapping the human brain",
-     "title_he": "Quest ה-AI החדש שלנו: מיפוי המוח האנושי",
-     "translated_by": "google"
+     "title": "\"לחצנו Scan וחיכינו\": כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיליון דולר"
     }
    ],
-   "candidates": 4,
+   "candidates": 8,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3082,13 +3078,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 267,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
-    },
-    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
@@ -3096,31 +3085,38 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 267,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
+    },
+    {
      "title": "FLUX 3 Image Klein",
      "desc_en": "5.6B open weights. Text-to-image, editing, bounding boxes",
      "desc_he": "5.6B משקולות פתוחות. טקסט לתמונה, עריכה, תיבות תוחמות",
-     "likes": 230,
+     "likes": 231,
      "link": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 823,
+     "likes": 824,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 73,
+     "likes": 74,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "Introducing Carbon-X",
      "desc_en": "The best open model for DNA understanding",
      "desc_he": "המודל הפתוח הטוב ביותר להבנת DNA",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release"
     },
     {
@@ -3134,18 +3130,27 @@ window.DB.generated = {
      "title": "Omni Video Factory",
      "desc_en": "text to video, image to video, video extend",
      "desc_he": "טקסט לווידאו, תמונה לווידאו, הרחבת וידאו",
-     "likes": 365,
+     "likes": 367,
      "link": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T12:17:32+00:00",
-  "fetched_at": "2026-10-27T12:17:32+00:00"
+  "checked_at": "2026-10-27T13:17:26+00:00",
+  "fetched_at": "2026-10-27T13:17:26+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "הלילה הדרמטי במכבי, אבדיה והפועל: אבי אבן מדבר",
+     "link": "https://www.one.co.il/Article/537122.html?ref=rss",
+     "date": "2026-10-27T12:30:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "חלאילי צפוי לקבל מנוחה, ליברפול תמשיך במומנטום גם מול צ'לסי?",
      "link": "https://sports.walla.co.il/item/3873927",
@@ -3187,15 +3192,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3873843",
      "date": "2026-10-26T16:31:00+00:00",
      "source": "וואלה",
-     "players": [
-      "בן שרף"
-     ]
-    },
-    {
-     "title": "ברוקלין הודיעה: בן שרף ירד לליגת הפיתוח",
-     "link": "https://www.one.co.il/Article/537133.html?ref=rss",
-     "date": "2026-10-26T16:02:00+00:00",
-     "source": "ONE",
      "players": [
       "בן שרף"
      ]
@@ -3482,8 +3478,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-27T12:17:31+00:00",
-  "fetched_at": "2026-10-27T12:17:31+00:00"
+  "checked_at": "2026-10-27T13:17:21+00:00",
+  "fetched_at": "2026-10-27T13:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -3513,8 +3509,9 @@ window.DB.generated = {
     "date": "2026-10-26T04:00:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-27T12:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-27T13:17:21+00:00",
   "fetched_at": "2026-10-27T12:17:31+00:00"
  },
  "feed_health": {
@@ -3522,44 +3519,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-27T11:37:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "newest": "2026-10-27T13:06:00+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-27T12:00:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-27T11:57:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "newest": "2026-10-27T12:02:00+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-27T12:26:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "newest": "2026-10-27T13:26:00+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-27T13:00:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "newest": "2026-10-27T14:15:00+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-27T11:59:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "newest": "2026-10-27T12:30:00+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3571,41 +3568,41 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-27T10:38:17+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-27T09:37:33+00:00",
-    "seen_at": "2026-10-27T11:17:40+00:00",
+    "newest": "2026-10-27T12:13:03+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-27T11:00:09+00:00",
-    "seen_at": "2026-10-27T12:17:33+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-27T11:17:40+00:00",
+    "seen_at": "2026-10-27T13:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-27T12:17:33+00:00"
+  "checked_at": "2026-10-27T13:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3760,9 +3757,8 @@ window.DB.generated = {
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-27T12:17:31+00:00",
-  "fetched_at": "2026-10-27T11:17:34+00:00"
+  "ok": true,
+  "checked_at": "2026-10-27T13:17:21+00:00",
+  "fetched_at": "2026-10-27T13:17:21+00:00"
  }
 };
