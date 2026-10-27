@@ -1,0 +1,258 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bf43b7d0aed6",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-27T05:30:29+00:00",
+  "window": {
+   "from": "2026-10-26T05:30:29+00:00",
+   "to": "2026-10-27T05:30:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610270530"
+  },
+  "summary": "הזירה מאופיינת במתיחות צבאית גבוהה סביב תכניות גרעין, איומי תקיפה הדדיים בין איראן, ישראל וארה\"ב, ופעילות דיפלומטית אזורית הכוללת יוזמות ביטחוניות של מדינות המפרץ והאזור ללא תלות מלאה בוושינגטון. במקביל, נמשכות הכנות צבאיות והזרמות תקציבים לשלוחות איראן לצד לחץ כלכלי וסנקציות אגרסיביות מצד ארה\"ב.",
+  "fronts": [
+   {
+    "name": "ישראל - איראן וחיזבאללה",
+    "status": "כוננות גבוהה ואיומי תקיפה הדדיים"
+   },
+   {
+    "name": "ארה\"ב - איראן",
+    "status": "החרפת סנקציות כלכליות ואיומים צבאיים"
+   },
+   {
+    "name": "מדינות המפרץ והסכם מכה - איראן",
+    "status": "דיאלוג מדיני לגיבוש מסגרת ביטחונית אזורית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10270530-01",
+    "title": "פגישת בכירים בטהראן במסגרת הסכם מכה",
+    "summary": "בכירים ממדינות שונות ובהן סעודיה, טורקיה ופקיסטן נפגשו בטהראן עם הנהגת איראן לדון במנגנון ביטחון אזורי.",
+    "axis": "ציר איראן והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T19:31:07+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T19:31:07+00:00",
+    "last_update_at": "2026-10-27T05:06:32+00:00",
+    "what_is_not_verified": "פרטי ההסכמות המדויקים בין הצדדים אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_4a126ba57fadf36b",
+      "url": "https://www.iranintl.com/en/202610266454",
+      "published_at": "2026-10-27T05:06:32+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4a126ba57fadf36b",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+      "published_at": "2026-10-27T03:55:43+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_9af7b79153c710ec",
+      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+      "published_at": "2026-10-26T23:24:17+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_4a126ba57fadf36b",
+      "url": "https://t.me/alexmehacarmel/48983",
+      "published_at": "2026-10-26T19:31:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10270530-02",
+    "title": "יירוט טילי חות'ים על ידי כוחות סעודיים",
+    "summary": "כוחות סעודיים יירטו טילי חות'ים ששוגרו לעבר שטחי סעודיה.",
+    "axis": "ציר איראן והשלוחות מול סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T04:54:26+00:00",
+    "last_update_at": "2026-10-27T04:54:26+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק או מספר הטילים שלא יורטו אינו מפורט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_5f145060bf229ad8",
+      "url": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
+      "published_at": "2026-10-27T04:54:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10270530-03",
+    "title": "דיווח על ספינה בוערת מול חופי עיראק",
+    "summary": "גורמי ספנות דיווחו על ספינה שעולה באש מול חופי עיראק.",
+    "axis": "ציר המפרץ והספנות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-27T00:00:00+00:00",
+    "last_update_at": "2026-10-27T00:00:00+00:00",
+    "what_is_not_verified": "סיבת השריפה המדויקת והזהות המלאה של הגורם לפגיעה אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_ukmto_report_via_al_jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+      "published_at": "2026-10-27T00:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10270530-04",
+    "title": "חילוץ מלחים איראנים מול חופי סרי לנקה",
+    "summary": "ארבעים מלחים איראנים שנתקעו חולצו על ידי הרשויות בסרי לנקה והוחזרו לאיראן.",
+    "axis": "ציר איראן הבינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T03:47:28+00:00",
+    "last_update_at": "2026-10-26T05:30:29+00:00",
+    "what_is_not_verified": "סיבת התקיעות המקורית של המלחים בים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_sri_lankan_authorities",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T03:47:28+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "קיומו של מידע קונקרטי על פעולה איראנית מיידית או מעורבות חיזבאללה בבחירות בישראל",
+   "דיווחים על שיגורי ניסוי טילים ספציפיים באזורים שונים באיראן",
+   "נתונים מוחלטים על היקף התכווצות הכלכלה האיראנית הצפויה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0799,
+    "unit": "ILS",
+    "change_pct": -1.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הקמת מנגנון ביטחון אזורי ללא ארה\"ב וישראל",
+     "הגנה על נתיבי השיפון והתרת פעילות בטוחה במים"
+    ],
+    "inferred": [
+     "שימור יכולות הלחימה של השלוחות באזור ובנייתן מחדש",
+     "הרצון להפגין הרתעה באמצעות ניסויי טילים"
+    ],
+    "forecast": [
+     "חיזוק שיתופי הפעולה האזוריים במסגרת הסכמי מכה",
+     "המשך פיתוח והצגת יכולות טילים בליסטיים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת האיום הגרעיני האיראני",
+     "היערכות לכלל התרחישים מול איראן ושלוחותיה בזמן בחירות"
+    ],
+    "inferred": [
+     "מחלוקת פנימית בצמרת הביטחונית והמדינית סביב עיתוי תקיפה אפשרית",
+     "ניסיון לשמור על מוכנות מול אפשרות התלקחות אזורית פתאומית"
+    ],
+    "forecast": [
+     "המשך הדריכות הביטחונית הגבוהה עד להכרעה פוליטית ומדינית",
+     "מעקב הדוק אחר פעילות איראן וחיזבאללה"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הפעלת לחץ כלכלי חסר תקדים ובידוד איראן",
+     "מניעת השפעה שלילית של טהראן על היציבות האזורית"
+    ],
+    "inferred": [
+     "שאיפה לצמצם את מרחב התמרון הכלכלי והצבאי של משטר האייתוללות",
+     "תמיכה בשותפות אזוריות לבלימת ההשפעה האיראנית"
+    ],
+    "forecast": [
+     "החמרת שלבי 'הבידוד הכלכלי' נגד איראן בחודשים הקרובים",
+     "המשך האיומים הצבאיים מול טהראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610266454",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48983",
+    "accessed_at": "2026-10-27T05:30:29+00:00"
+   }
+  ]
+ }
+}

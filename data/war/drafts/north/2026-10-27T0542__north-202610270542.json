@@ -1,0 +1,289 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9c4007f15de5",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 4,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-27T05:42:57+00:00",
+  "window": {
+   "from": "2026-10-26T05:42:57+00:00",
+   "to": "2026-10-27T05:42:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610270542"
+  },
+  "summary": "בגזרה הצפונית נרשמות הפרעות הפסקת אש והיערכות מבצעית הכוללת פיתוח אמצעים טכנולוגיים כמו מערכות לייזר מול איומי רחפנים. בסוריה פועלת טורקיה להעמקת מעורבותה בתחום החינוך והתשתית לצד אירועים ביטחוניים פנימיים, בעוד דיפלומטיה אזורית מתקיימת בטהראן בניסיון לגבש מסגרת ביטחונית עצמאית.",
+  "fronts": [
+   {
+    "name": "החזית הצפונית (ישראל-לבנון)",
+    "status": "פעילה חלקית עם הפרות הפסקת אש והיערכות"
+   },
+   {
+    "name": "הזירה הסורית",
+    "status": "פעילה מבחינת מעורבות טורקית, אירועי פיצוצים ותיאומים אזוריים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10270542-01",
+    "title": "תקיפות והפרות הפסקת אש בדרום לבנון",
+    "summary": "בוצעה פגיעת תקיפה מהאוויר בפאתי קנטרה, וכן כוחות ביצעו פיצוצים בזוַתר א-שרקיה.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:41:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T00:41:24+00:00",
+    "last_update_at": "2026-10-27T00:41:24+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_186fdab9a5d44a9a",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-carries-out-strikes-in-southern-lebanon-in-fresh-ceasefire-violations/4101864",
+      "published_at": "2026-10-27T00:41:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10270542-02",
+    "title": "פיתוח מערכת לייזר טקטית לגבול הצפון",
+    "summary": "פותחה מערכת לייזר טקטית המיועדת להציב מענה לרחפני סיב אופטי בגבול הצפון.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T09:41:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T09:41:33+00:00",
+    "last_update_at": "2026-10-26T09:41:33+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק והמיקום המדויק להצבה טרם פורטו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_6ea372a1a2a1a100",
+      "url": "https://www.walla.co.il/news/military/383958910",
+      "published_at": "2026-10-26T09:41:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10270542-03",
+    "title": "פתיחת בית ספר טורקי בינלאומי בדמשק",
+    "summary": "נפתח בית הספר הבינלאומי הטורקי על שם רצ'פ טאיפ ארדואן באזור ארטואז בדמשק.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T10:37:17+00:00",
+    "last_update_at": "2026-10-26T10:37:17+00:00",
+    "what_is_not_verified": "הפרטים המלאים על תוכניות הלימודים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "fh_7345416726caef8f",
+      "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
+      "published_at": "2026-10-26T10:37:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10270542-04",
+    "title": "פיצוץ במחסן תחמושת בסראקיב",
+    "summary": "אירע פיצוץ אדיר במחסן תחמושת באזור סראקיב במחוז אידליב.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T17:15:26+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T17:15:26+00:00",
+    "last_update_at": "2026-10-26T17:15:26+00:00",
+    "what_is_not_verified": "נסיבות הפיצוץ המדויקות נבדקות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132606",
+      "published_at": "2026-10-26T17:15:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סראקיב, סוריה",
+      "lat": 35.8636,
+      "lon": 36.8031
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10270542-05",
+    "title": "פגישה רב-צדדית בטהראן בנושאי ביטחון אזורי",
+    "summary": "נציגים בכירים מאיראן, טורקיה, סעודיה ופקיסטן נפגשו בטהראן כדי לדון בשיתוף פעולה ביטחוני אזורי ומניעת הסלמה.",
+    "axis": "איראן וסוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T16:01:53+00:00",
+    "last_update_at": "2026-10-27T03:55:43+00:00",
+    "what_is_not_verified": "ההשפעה המעשית של ההבנות טרם הוכחה בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_0d8ba6a4c1394dbf",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+      "published_at": "2026-10-27T03:55:43+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_0d8ba6a4c1394dbf",
+      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+      "published_at": "2026-10-26T23:24:17+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_0d8ba6a4c1394dbf",
+      "url": "https://english.almanar.com.lb/article/143167/",
+      "published_at": "2026-10-26T17:50:33+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_0d8ba6a4c1394dbf",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-saudi-arabia-pakistan-turkey-cooperate-regional-security",
+      "published_at": "2026-10-26T17:46:08+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_0d8ba6a4c1394dbf",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/964856/iran-security-chief-says-very-good-discussions-held-with-mecca-pact-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964856",
+      "published_at": "2026-10-26T16:01:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על כוונות פעולה מצד חיזבאללה או איראן סביב מועד הבחירות",
+   "פרטים מלאים על נסיבות הפיצוץ במחסן התחמושת בסראקיב"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0799,
+    "unit": "ILS",
+    "change_pct": -1.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "בניית ביטחון אזורי מתוך האזור ללא התערבות זרה"
+    ],
+    "inferred": [
+     "יצירת חזית דיפלומטית וביטחונית עצמאית עם מעצמות אזוריות כמו טורקיה וסעודיה"
+    ],
+    "forecast": [
+     "המשך הידברות במסגרת בריתות אזוריות לצד תמיכה בצירים המקורבים"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "חיזוק שיתוף הפעולה לשם שלום וביטחון אזורי"
+    ],
+    "inferred": [
+     "העמקת ההשפעה התרבותית, החינוכית והביטחונית בשטחי סוריה"
+    ],
+    "forecast": [
+     "הרחבת המעורבות בשיקום תשתיות ומוסדות חינוך בסוריה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/143167/",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-carries-out-strikes-in-southern-lebanon-in-fresh-ceasefire-violations/4101864",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/964856/iran-security-chief-says-very-good-discussions-held-with-mecca-pact-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964856",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-saudi-arabia-pakistan-turkey-cooperate-regional-security",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132606",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383958910",
+    "accessed_at": "2026-10-27T05:42:57+00:00"
+   }
+  ]
+ }
+}

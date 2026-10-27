@@ -1,0 +1,412 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b1fd4fb1e1a5",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 2,
+   "initial": 3,
+   "shared_root": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-27T05:36:14+00:00",
+  "window": {
+   "from": "2026-10-26T05:36:14+00:00",
+   "to": "2026-10-27T05:36:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610270536"
+  },
+  "summary": "הלחימה בין רוסיה ואוקראינה נמשכת ביתאת עצימות גבוהה, הכוללת מתקפות טילים בליסטיים רוסיות על מרכזים אזרחיים וקייב לצד תקיפות תשתיות אנרגיה. במקביל, מתנהלים מגעים דיפלומטיים ותיווך בינלאומי המביאים להפסקות אש מקומיות מוגבלות לצורך סיוע הומניטרי באזורים נצורים כמו אולשקי. המערכה בים השחור ממשיכה להוות אזור סיכון מסחרי גבוה בשל פגיעות הדדיות בשיבח ימי.",
+  "fronts": [
+   {
+    "name": "החזית האווירית ומרכזי השלטון (קייב והסביבה)",
+    "status": "פעיל מאוד - תקיפות טילים בליסטיים"
+   },
+   {
+    "name": "חזית הדרום (חרסון ואולשקי)",
+    "status": "פעיל עם הפוגה הומניטרית מקומית"
+   },
+   {
+    "name": "החזית המזרחית (לוגנסק וחרקיב)",
+    "status": "פעיל - חילופי אש ותקיפות מחסנים"
+   },
+   {
+    "name": "הזירה הימית (הים השחור)",
+    "status": "פעיל ומסוכן לשיבח מסחרי"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10270536-01",
+    "title": "מתקפת טילים בליסטיים על קייב",
+    "summary": "כוחות רוסיה תקפו את קייב בטילים בליסטיים, מה שהביא להרוגים, פצועים ולפגיעה במתקנים רפואיים, מוסדות חינוך ותשתיות.",
+    "axis": "תקיפות אוויריות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T20:16:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T20:16:41+00:00",
+    "last_update_at": "2026-10-27T05:24:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאחריות למיקום המדויק של כל פגיעה לפי גרסאות שונות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_0596b1e12e0b8f43",
+      "url": "https://www.ukrinform.net/rubric-ato/4178447-russian-ballistic-missile-attack-on-kyiv-kills-one-injures-10-and-damages-medical-facilities-and-school.html",
+      "published_at": "2026-10-27T05:24:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_0596b1e12e0b8f43",
+      "url": "https://tass.com/emergencies/2208305",
+      "published_at": "2026-10-27T04:26:36+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_50392301e02ab60e",
+      "url": "https://tass.com/emergencies/2208291",
+      "published_at": "2026-10-27T02:04:29+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_0596b1e12e0b8f43",
+      "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+      "published_at": "2026-10-27T01:30:27+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_0596b1e12e0b8f43",
+      "url": "https://t.me/alexmehacarmel/48996",
+      "published_at": "2026-10-27T01:30:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_0596b1e12e0b8f43",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059832/",
+      "published_at": "2026-10-26T20:58:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5fa659f347683edb",
+      "url": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/",
+      "published_at": "2026-10-26T20:16:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10270536-02",
+    "title": "תקיפה בחרקיב שהביאה להרוגים",
+    "summary": "שני בני אדם נהרגו וכמה נוספים נפצעו במתקפה רוסית על מחוז הבבארסקי בחרקיב.",
+    "axis": "תקיפות אוויריות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T22:55:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T22:55:00+00:00",
+    "last_update_at": "2026-10-26T22:55:00+00:00",
+    "what_is_not_verified": "סוג הנשק המדויק ששימש בתקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_ihor_terekhov",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059817/",
+      "published_at": "2026-10-26T22:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקיב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10270536-03",
+    "title": "הפסקת אש מקומית באולשקי ופינוי אזרחים",
+    "summary": "הוכרזה הפסקת אש מקומית במרחב אולשקי במחוז חרסון כדי לאפשר הכנסת סיוע הומניטרי ופינוי אזרחים.",
+    "axis": "הומניטרי והפסקות אש",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T19:13:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-26T19:13:00+00:00",
+    "last_update_at": "2026-10-27T04:58:00+00:00",
+    "what_is_not_verified": "זהות המפקחים על הפסקת האש ופרטי מנגנון הסיוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_melania_trump_s_chief_adviser",
+      "url": "https://www.ukrinform.net/rubric-society/4178445-melania-trumps-chief-adviser-russia-pledges-to-respect-oleshky-residents-evacuation-choices.html",
+      "published_at": "2026-10-27T04:58:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_melania_trump_s_chief_adviser",
+      "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+      "published_at": "2026-10-27T02:58:18+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_melania_trump_s_chief_adviser",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
+      "published_at": "2026-10-27T02:33:07+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_melania_trump_s_chief_adviser",
+      "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+      "published_at": "2026-10-27T01:30:27+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_melania_trump_s_chief_adviser",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059829/",
+      "published_at": "2026-10-26T19:13:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10270536-04",
+    "title": "דוח של ועדת האו\"ם על פשעי מלחמה באנרגיה",
+    "summary": "ועדת חקירה של האו\"ם קבעה כי ההתקפות השיטתיות של רוסיה על תשתיות האנרגיה של אוקראינה מהועות פשעים נגד האנושות ופשעי מלחמה.",
+    "axis": "הצהרות ומסקנות בינלאומיות",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T12:00:00+00:00",
+    "last_update_at": "2026-10-27T03:13:39+00:00",
+    "what_is_not_verified": "אינו מאומת לפי טענת רוסיה הרואה בנתונים מידע מומצא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_russian_permanent_mission",
+      "url": "https://tass.com/politics/2208295",
+      "published_at": "2026-10-27T03:13:39+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_russian_permanent_mission",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
+      "published_at": "2026-10-26T19:17:00+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_russian_permanent_mission",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
+      "published_at": "2026-10-26T12:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10270536-05",
+    "title": "תקיפה על מחסן תחמושת בלוגנסק",
+    "summary": "כוחות אוקראיניים תקפו באמצעות רחפנים מחסן תחמושת רוסי באזור חרוסטלני שבמחוז לוגנסק.",
+    "axis": "חזית מזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:32:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T00:32:47+00:00",
+    "last_update_at": "2026-10-27T00:32:47+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למחסן התחמושת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_exilenova_plus",
+      "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
+      "published_at": "2026-10-27T00:32:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרוסטלני, אוקראינה",
+      "lat": 48.1351,
+      "lon": 38.9199
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10270536-06",
+    "title": "גיוס שכירי חרב מאפריקה על ידי רוסיה",
+    "summary": "רוסיה מרחיבה את גיוס כוח האדם השכיר ממדינות אפריקה עקב אבידות כבדות ומחסור בכוח אדם בצבא.",
+    "axis": "גיוס וכוח אדם",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T02:27:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-27T02:27:00+00:00",
+    "last_update_at": "2026-10-27T02:27:00+00:00",
+    "what_is_not_verified": "מספר המתגייסים המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_bloomberg",
+      "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
+      "published_at": "2026-10-27T02:27:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10270536-07",
+    "title": "הרשעת מומחה מחשבים ברוסיה בגין תרומה לאוקראינה",
+    "summary": "בית משפט צבאי ברוסיה גזר 13 שנות מאסר על מומחה מחשבים בגין מימון טרור לאחר שתרם כספים המקושרים לאוקראינה.",
+    "axis": "עורף ודיכוי פנימי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T21:45:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T21:45:24+00:00",
+    "last_update_at": "2026-10-26T21:45:24+00:00",
+    "what_is_not_verified": "האם נתונים נוספים הועברו על ידי פלטפורמות נוספות מעבר למה שצוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_department_one",
+      "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
+      "published_at": "2026-10-26T21:45:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות הגורמים שיפקחו על הפסקת האש באולשקי וההסדרים המדויקים להפעלה",
+   "המועד המדויק ומיקום הפגישה המשולשת בין רוסיה, אוקראינה וארצות הברית",
+   "ההיתכנות המדויקת להשגת הסכם שלום לפני סוף השנה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1188,
+    "unit": "USD",
+    "change_pct": -0.04,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "עדכון אסטרטגיית הביטחון הלאומי",
+     "הקדמת שיחות תלת-צדדיות עם ארצות הברית ורוסיה",
+     "הבטחת סיוע צבאי חיוני והגנה אווירית"
+    ],
+    "inferred": [
+     "שאיפה לשמור על תמיכה בינלאומית ולמנוע את קריסת תשתיות האנרגיה בחורף",
+     "הפחתת לחץ הומניטרי באזורים נצורים כמו אולשקי"
+    ],
+    "forecast": [
+     "האצת מאמצים לקבלת חימושים קריטיים ממדינות המערב",
+     "ניסיון להגיע להבנות דיפלומטיות טרם החמרת תנאי החורף"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך פעולות צבאיות ממוקדות ודחיית ממצאי ועדות החקירה של האו\"ם",
+     "כיבוד הסכמות מקומיות ספציפיות לפינוי תושבים באולשקי"
+    ],
+    "inferred": [
+     "התשה של העורף והתשתיות של אוקראינה באמצעות מתקפות שיטתיות לקראת החורף",
+     "הרחבת גיוס שכירי חרב זרים לכיסוי אבדות כוח אדם"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי ואווירי על מרכזים אוקראיניים",
+     "הימנעות מוויתורים רחבים במשא ומתן עד להשגת יתרון בשדה הקור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2208295",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/48996",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
+    "accessed_at": "2026-10-27T05:36:14+00:00"
+   }
+  ]
+ }
+}

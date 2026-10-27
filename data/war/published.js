@@ -414,231 +414,156 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-26T1657__iran-202610261657.json",
+  "draft": "drafts/iran/2026-10-27T0530__iran-202610270530.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-26T16:57:05+00:00",
+   "generated_at": "2026-10-27T05:30:29+00:00",
    "window": {
-    "from": "2026-10-25T16:57:05+00:00",
-    "to": "2026-10-26T16:57:05+00:00"
+    "from": "2026-10-26T05:30:29+00:00",
+    "to": "2026-10-27T05:30:29+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610261657"
+    "run_id": "iran-202610270530"
    },
-   "summary": "הזירה מאופיינת במתיחות גוברת סביב איום מתקפה מתחדשת מצד ישראל וארה\"ב נגד איראן, לצד מאמצים דיפלומטיים אזוריים של מדינות כמו סעודיה, טורקיה ופקיסטן לבלום הסלמה. במקביל, איראן ממשיכה לתמוך בשלוחותיה ובהן חיזבאללה המתחמש מחדש, בעוד גורמים בינלאומיים מזהירים מפני השלכות הרסניות במפרץ.",
+   "summary": "הזירה מאופיינת במתיחות צבאית גבוהה סביב תכניות גרעין, איומי תקיפה הדדיים בין איראן, ישראל וארה\"ב, ופעילות דיפלומטית אזורית הכוללת יוזמות ביטחוניות של מדינות המפרץ והאזור ללא תלות מלאה בוושינגטון. במקביל, נמשכות הכנות צבאיות והזרמות תקציבים לשלוחות איראן לצד לחץ כלכלי וסנקציות אגרסיביות מצד ארה\"ב.",
    "fronts": [
     {
-     "name": "החזית האיראנית-ישראלית-אמריקאית",
-     "status": "מתיחות גבוהה לקראת עימות אפשרי והיערכות מבצעית"
+     "name": "ישראל - איראן וחיזבאללה",
+     "status": "כוננות גבוהה ואיומי תקיפה הדדיים"
     },
     {
-     "name": "החזית הלבנונית",
-     "status": "שיקום כוחות והתחמשות של חיזבאללה בגיבוי איראני"
+     "name": "ארה\"ב - איראן",
+     "status": "החרפת סנקציות כלכליות ואיומים צבאיים"
     },
     {
-     "name": "חזית המפרץ והים האדום",
-     "status": "איומי תקיפה של שלוחות איראן על תשתיות ומעורבות אזורית להגנה"
+     "name": "מדינות המפרץ והסכם מכה - איראן",
+     "status": "דיאלוג מדיני לגיבוש מסגרת ביטחונית אזורית"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10261657-01",
-     "title": "פגישת ברית מכה בטהרן",
-     "summary": "נציגי סעודיה, טורקיה ופקיסטן קיימו פגישה בטהרן עם בכירי ביטחון איראניים כדי לדון בהפחתת המתיחות מול ישראל וארה\"ב ובפעילות האזורית.",
-     "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+     "id": "IRAN-10270530-01",
+     "title": "פגישת בכירים בטהראן במסגרת הסכם מכה",
+     "summary": "בכירים ממדינות שונות ובהן סעודיה, טורקיה ופקיסטן נפגשו בטהראן עם הנהגת איראן לדון במנגנון ביטחון אזורי.",
+     "axis": "ציר איראן והמפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-26T19:31:07+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T13:28:56+00:00",
-     "last_update_at": "2026-10-26T16:37:05+00:00",
-     "what_is_not_verified": "היקף ההסכמות המדויק או קיומה של עסקת כספים חשאית מול החות'ים אינם מאומתים במלואם.",
+     "first_reported_at": "2026-10-26T19:31:07+00:00",
+     "last_update_at": "2026-10-27T05:06:32+00:00",
+     "what_is_not_verified": "פרטי ההסכמות המדויקים בין הצדדים אינם מאומתים במלואם.",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_4a126ba57fadf36b",
+       "url": "https://www.iranintl.com/en/202610266454",
+       "published_at": "2026-10-27T05:06:32+00:00"
+      },
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_9f9f9870ff3d2c3e",
-       "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
-       "published_at": "2026-10-26T16:37:05+00:00"
+       "source_root_id": "fh_4a126ba57fadf36b",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+       "published_at": "2026-10-27T03:55:43+00:00"
       },
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_9f9f9870ff3d2c3e",
-       "url": "https://en.irna.ir/news/86304211/Tehran-summit-press-statement-Talks-on-regional-peace-and-security",
-       "published_at": "2026-10-26T16:34:02+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_9f9f9870ff3d2c3e",
-       "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
-       "published_at": "2026-10-26T16:01:54+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_9f9f9870ff3d2c3e",
-       "url": "https://www.al-monitor.com/originals/2026/10/saudi-arabias-kbs-top-turkish-and-pakistani-officials-hold-rare-meeting-iran-what",
-       "published_at": "2026-10-26T14:15:05+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_9f9f9870ff3d2c3e",
-       "url": "https://t.me/abualiexpress/132585",
-       "published_at": "2026-10-26T13:28:56+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      },
-      {
-       "name": "נמל התעופה מהרבאד, איראן",
-       "lat": 35.6881,
-       "lon": 51.3136
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10261657-02",
-     "title": "דיווחים על הזרמת כספים איראניים לחיזבאללה",
-     "summary": "מקורות ביטחוניים דיווחו כי איראן העבירה עשרות עד מאות מיליוני דולרים לחיזבאללה כדי לסייע לו בשיקום יכולותיו הצבאיות, הכטב\"מים ומערכי הפיקוד.",
-     "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T14:55:14+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-26T14:55:14+00:00",
-     "last_update_at": "2026-10-26T15:47:00+00:00",
-     "what_is_not_verified": "סכומי הכסף המדויקים ומצב מלאי הנשק המעודכן אינם מאומתים באופן רשמי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_reuters",
-       "url": "https://t.me/lelotsenzura/94810",
-       "published_at": "2026-10-26T15:47:00+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/hezbollah-readies-new-regional-war-funds-iran-sources-say",
-       "published_at": "2026-10-26T15:46:34+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_reuters",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712635",
-       "published_at": "2026-10-26T15:38:20+00:00"
+       "source_id": "src_france24",
+       "source_root_id": "fh_9af7b79153c710ec",
+       "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+       "published_at": "2026-10-26T23:24:17+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "or_reuters",
-       "url": "https://t.me/alexmehacarmel/48973",
-       "published_at": "2026-10-26T15:02:46+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_reuters",
-       "url": "https://www.ynet.co.il/news/article/bjv6vj63fg",
-       "published_at": "2026-10-26T14:55:14+00:00"
+       "source_root_id": "fh_4a126ba57fadf36b",
+       "url": "https://t.me/alexmehacarmel/48983",
+       "published_at": "2026-10-26T19:31:07+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     },
     {
-     "id": "IRAN-10261657-03",
-     "title": "אישור פרלמנטרי במצרים לתמיכה צבאית בסעודיה",
-     "summary": "הפרלמנט המצרי הסמיך את הנשיא לנקוט אמצעים לסיוע לסעודיה לנוכח איומי החות'ים באזור מצר באב אל-מנדב.",
-     "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
+     "id": "IRAN-10270530-02",
+     "title": "יירוט טילי חות'ים על ידי כוחות סעודיים",
+     "summary": "כוחות סעודיים יירטו טילי חות'ים ששוגרו לעבר שטחי סעודיה.",
+     "axis": "ציר איראן והשלוחות מול סעודיה והמפרץ",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T04:54:26+00:00",
+     "last_update_at": "2026-10-27T04:54:26+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק או מספר הטילים שלא יורטו אינו מפורט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_5f145060bf229ad8",
+       "url": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
+       "published_at": "2026-10-27T04:54:26+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10270530-03",
+     "title": "דיווח על ספינה בוערת מול חופי עיראק",
+     "summary": "גורמי ספנות דיווחו על ספינה שעולה באש מול חופי עיראק.",
+     "axis": "ציר המפרץ והספנות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T00:00:00+00:00",
+     "last_update_at": "2026-10-27T00:00:00+00:00",
+     "what_is_not_verified": "סיבת השריפה המדויקת והזהות המלאה של הגורם לפגיעה אינן מאומתות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_ukmto_report_via_al_jazeera",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+       "published_at": "2026-10-27T00:00:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10270530-04",
+     "title": "חילוץ מלחים איראנים מול חופי סרי לנקה",
+     "summary": "ארבעים מלחים איראנים שנתקעו חולצו על ידי הרשויות בסרי לנקה והוחזרו לאיראן.",
+     "axis": "ציר איראן הבינלאומי",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T13:46:33+00:00",
-     "last_update_at": "2026-10-26T16:01:54+00:00",
-     "what_is_not_verified": "האם פריסת מערכות ההגנה בפועל בוצעה בשטח אינה מאומתת לחלוטין.",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-10-26T03:47:28+00:00",
+     "last_update_at": "2026-10-26T05:30:29+00:00",
+     "what_is_not_verified": "סיבת התקיעות המקורית של המלחים בים.",
+     "is_new_in_window": false,
      "reports": [
       {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_cf44d1d1d441d8f8",
-       "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
-       "published_at": "2026-10-26T16:01:54+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_cf44d1d1d441d8f8",
-       "url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate",
-       "published_at": "2026-10-26T13:46:33+00:00"
+       "source_id": "src_bbc",
+       "source_root_id": "or_sri_lankan_authorities",
+       "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-26T03:47:28+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "קהיר, מצרים",
-       "lat": 30.0444,
-       "lon": 31.2357
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10261657-04",
-     "title": "ניסויי טילים בליסטיים באיראן",
-     "summary": "הופיעו דיווחים חוזרים על ניסויי טילים בליסטיים שביצעה איראן במספר מחוזות במהלך חודש אוקטובר.",
-     "axis": "ציר איראן והשלוחות מול ישראל וארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T14:20:51+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-26T14:20:51+00:00",
-     "last_update_at": "2026-10-26T14:39:17+00:00",
-     "what_is_not_verified": "היקף ההצלחה של הניסויים והאם מדובר בהכנה למתקפה מתואמת אינם מאומתים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_telegram_channel",
-       "url": "https://t.me/lelotsenzura/94809",
-       "published_at": "2026-10-26T14:39:17+00:00"
-      },
-      {
-       "source_id": "src_tg_geostrategy",
-       "source_root_id": "or_telegram_channel",
-       "url": "https://t.me/GeoStrategyIL/514",
-       "published_at": "2026-10-26T14:20:51+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "יזד, איראן",
-       "lat": 31.9052,
-       "lon": 54.3701
-      },
-      {
-       "name": "אספהאן, איראן",
-       "lat": 32.6708,
-       "lon": 51.665
-      },
-      {
-       "name": "תבריז, איראן",
-       "lat": 38.0739,
-       "lon": 46.2979
-      }
-     ]
+     "places": []
     }
    ],
    "not_verified": [
-    "קיומה של עסקת מיליארד דולר בין סעודיה לחות'ים בתיווך איראני",
-    "התרחשות מיידית של מתקפה אמריקאית-ישראלית בתוך 96 שעות",
-    "חילוקי דעות פנימיים לכאורה בין הדרג המדיני בישראל לבין הרמטכ\"ל"
+    "קיומו של מידע קונקרטי על פעולה איראנית מיידית או מעורבות חיזבאללה בבחירות בישראל",
+    "דיווחים על שיגורי ניסוי טילים ספציפיים באזורים שונים באיראן",
+    "נתונים מוחלטים על היקף התכווצות הכלכלה האיראנית הצפויה"
    ],
    "map": {
     "confidence": "medium",
@@ -660,284 +585,405 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "תמיכה באחדות בין מדינות מוסלמיות מול איומים",
-      "סירוב לדון בנושא הגרעין עד שדרישותיה ייענו"
+      "הקמת מנגנון ביטחון אזורי ללא ארה\"ב וישראל",
+      "הגנה על נתיבי השיפון והתרת פעילות בטוחה במים"
      ],
      "inferred": [
-      "שימור ושיקום יכולות שלוחיה האזוריים כמו חיזבאללה",
-      "הרתעת ארה\"ב וישראל באמצעות ניסויי טילים ואיומי תגובה על תשתיות"
+      "שימור יכולות הלחימה של השלוחות באזור ובנייתן מחדש",
+      "הרצון להפגין הרתעה באמצעות ניסויי טילים"
      ],
      "forecast": [
-      "המשך חימוש השלוחות בלבנון ובאזורים נוספים",
-      "החרפת העימות הכלכלי והמדיני סביב נתיבי השיט והאנרגיה"
+      "חיזוק שיתופי הפעולה האזוריים במסגרת הסכמי מכה",
+      "המשך פיתוח והצגת יכולות טילים בליסטיים"
      ]
     },
     {
-     "actor": "ישראל וארה\"ב",
-     "declared": [],
-     "inferred": [
-      "הכנה אפשרית לתקיפות נוספות נגד מתקנים ופעילות באיראן",
-      "בלימת ההתחמשות המחודשת של שלוחות איראן בגבולותיה של ישראל"
-     ],
-     "forecast": [
-      "המשך דריכות מבצעית גבוהה אל מול איומי תגובה איראניים",
-      "היערכות לתגובה צבאית אפשרית במקרה של הסלמה"
-     ]
-    },
-    {
-     "actor": "סעודיה ומדינות האזור (ברית מכה)",
+     "actor": "ישראל",
      "declared": [
-      "קידום רגיעה, הפחתת מתיחות ותמיכה בתווך דיפלומטי",
-      "חיזוק הביטחון האזורי ללא תלות מלאה בוושינגטון"
+      "הסרת האיום הגרעיני האיראני",
+      "היערכות לכלל התרחישים מול איראן ושלוחותיה בזמן בחירות"
      ],
      "inferred": [
-      "ניסיון לבלום פגיעה בתשתיות הכלכליות והאנרגטיות שלהן מצד שלוחות איראן",
-      "יצירת מסגרת הגנה עצמאית מול איומים אזוריים"
+      "מחלוקת פנימית בצמרת הביטחונית והמדינית סביב עיתוי תקיפה אפשרית",
+      "ניסיון לשמור על מוכנות מול אפשרות התלקחות אזורית פתאומית"
      ],
      "forecast": [
-      "המשך מגעים דיפלומטיים מול טהרן ומדינות נוספות להשגת הסכמים",
-      "הרחבת שיתופי הפעולה הביטחוניים בין מדינות האזור להגנה מפני מיליציות"
+      "המשך הדריכות הביטחונית הגבוהה עד להכרעה פוליטית ומדינית",
+      "מעקב הדוק אחר פעילות איראן וחיזבאללה"
+     ]
+    },
+    {
+     "actor": "ארה\"ב",
+     "declared": [
+      "הפעלת לחץ כלכלי חסר תקדים ובידוד איראן",
+      "מניעת השפעה שלילית של טהראן על היציבות האזורית"
+     ],
+     "inferred": [
+      "שאיפה לצמצם את מרחב התמרון הכלכלי והצבאי של משטר האייתוללות",
+      "תמיכה בשותפות אזוריות לבלימת ההשפעה האיראנית"
+     ],
+     "forecast": [
+      "החמרת שלבי 'הבידוד הכלכלי' נגד איראן בחודשים הקרובים",
+      "המשך האיומים הצבאיים מול טהראן"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
     },
     {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86304211/Tehran-summit-press-statement-Talks-on-regional-peace-and-security",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
     },
     {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21712635",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
+    },
+    {
+     "source_id": "src_iranintl",
+     "url": "https://www.iranintl.com/en/202610266454",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132585",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48973",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
-    },
-    {
-     "source_id": "src_tg_geostrategy",
-     "url": "https://t.me/GeoStrategyIL/514",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
-    },
-    {
-     "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/94809",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/b1j4syp2fx",
-     "accessed_at": "2026-10-26T16:57:05+00:00"
+     "url": "https://t.me/alexmehacarmel/48983",
+     "accessed_at": "2026-10-27T05:30:29+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-25T14:32:55+00:00",
+  "previous_generated_at": "2026-10-26T16:57:05+00:00",
   "changes": {
-   "IRAN-10261657-01": {
+   "IRAN-10270530-01": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "פגישת ברית מכה בטהרן",
+    "score": 0.817
+   },
+   "IRAN-10270530-02": {
     "kind": "new"
    },
-   "IRAN-10261657-02": {
+   "IRAN-10270530-03": {
     "kind": "new"
    },
-   "IRAN-10261657-03": {
-    "kind": "new"
-   },
-   "IRAN-10261657-04": {
+   "IRAN-10270530-04": {
     "kind": "new"
    }
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-26T0341__ukraine-202610260341.json",
+  "draft": "drafts/ukraine/2026-10-27T0536__ukraine-202610270536.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-26T03:41:54+00:00",
+   "generated_at": "2026-10-27T05:36:14+00:00",
    "window": {
-    "from": "2026-10-25T03:41:54+00:00",
-    "to": "2026-10-26T03:41:54+00:00"
+    "from": "2026-10-26T05:36:14+00:00",
+    "to": "2026-10-27T05:36:14+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202610260341"
+    "run_id": "ukraine-202610270536"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת באמצעות תקיפות אוויריות, רחפנים ופגיעה בתשתיות, לצד מאמצים דיפלומטיים לקיום שיחות שלום משולשות בהשתתפות אוקראינה, רוסיה וארצות הברית. אוקראינה מתמודדת עם אתגרי אספקה וקישוריות אינטרנט לווייני, בעוד רוסיה ממשיכה לתקוף מטרות אזרחיות וצבאיות בשטח אוקראינה ומדווחת על יירוטי רחפנים נרחבים.",
+   "summary": "הלחימה בין רוסיה ואוקראינה נמשכת ביתאת עצימות גבוהה, הכוללת מתקפות טילים בליסטיים רוסיות על מרכזים אזרחיים וקייב לצד תקיפות תשתיות אנרגיה. במקביל, מתנהלים מגעים דיפלומטיים ותיווך בינלאומי המביאים להפסקות אש מקומיות מוגבלות לצורך סיוע הומניטרי באזורים נצורים כמו אולשקי. המערכה בים השחור ממשיכה להוות אזור סיכון מסחרי גבוה בשל פגיעות הדדיות בשיבח ימי.",
    "fronts": [
     {
-     "name": "חזית חארקוב",
-     "status": "פעילה"
+     "name": "החזית האווירית ומרכזי השלטון (קייב והסביבה)",
+     "status": "פעיל מאוד - תקיפות טילים בליסטיים"
     },
     {
-     "name": "חזית דרום אוקראינה (חרסון וזפוריז'יה)",
-     "status": "פעילה"
+     "name": "חזית הדרום (חרסון ואולשקי)",
+     "status": "פעיל עם הפוגה הומניטרית מקומית"
     },
     {
-     "name": "המרחב האווירי ועומק הרוסי",
-     "status": "פעיל"
+     "name": "החזית המזרחית (לוגנסק וחרקיב)",
+     "status": "פעיל - חילופי אש ותקיפות מחסנים"
+    },
+    {
+     "name": "הזירה הימית (הים השחור)",
+     "status": "פעיל ומסוכן לשיבח מסחרי"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10260341-01",
-     "title": "הקמת מסדרון נגד רחפנים בחארקוב",
-     "summary": "הותקנו רשתות נגד רחפנים לאורך מקטע של כביש בחארקוב.",
-     "axis": "אוקראינה",
+     "id": "UKRAINE-10270536-01",
+     "title": "מתקפת טילים בליסטיים על קייב",
+     "summary": "כוחות רוסיה תקפו את קייב בטילים בליסטיים, מה שהביא להרוגים, פצועים ולפגיעה במתקנים רפואיים, מוסדות חינוך ותשתיות.",
+     "axis": "תקיפות אוויריות והפצצות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:32:00+00:00",
+     "occurred_at": "2026-10-26T20:16:41+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T00:32:00+00:00",
-     "last_update_at": "2026-10-26T00:32:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-26T20:16:41+00:00",
+     "last_update_at": "2026-10-27T05:24:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והאחריות למיקום המדויק של כל פגיעה לפי גרסאות שונות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_2f2fda3a3e3da816",
-       "url": "https://www.ukrinform.net/rubric-defense/4177991-kharkiv-establishes-first-antidrone-corridor.html",
-       "published_at": "2026-10-26T00:32:00+00:00"
+       "source_root_id": "fh_0596b1e12e0b8f43",
+       "url": "https://www.ukrinform.net/rubric-ato/4178447-russian-ballistic-missile-attack-on-kyiv-kills-one-injures-10-and-damages-medical-facilities-and-school.html",
+       "published_at": "2026-10-27T05:24:00+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_0596b1e12e0b8f43",
+       "url": "https://tass.com/emergencies/2208305",
+       "published_at": "2026-10-27T04:26:36+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_50392301e02ab60e",
+       "url": "https://tass.com/emergencies/2208291",
+       "published_at": "2026-10-27T02:04:29+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_0596b1e12e0b8f43",
+       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+       "published_at": "2026-10-27T01:30:27+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_0596b1e12e0b8f43",
+       "url": "https://t.me/alexmehacarmel/48996",
+       "published_at": "2026-10-27T01:30:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_0596b1e12e0b8f43",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059832/",
+       "published_at": "2026-10-26T20:58:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_5fa659f347683edb",
+       "url": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/",
+       "published_at": "2026-10-26T20:16:41+00:00"
       }
      ],
      "places": [
       {
-       "name": "חארקוב, אוקראינה",
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10270536-02",
+     "title": "תקיפה בחרקיב שהביאה להרוגים",
+     "summary": "שני בני אדם נהרגו וכמה נוספים נפצעו במתקפה רוסית על מחוז הבבארסקי בחרקיב.",
+     "axis": "תקיפות אוויריות והפצצות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T22:55:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T22:55:00+00:00",
+     "last_update_at": "2026-10-26T22:55:00+00:00",
+     "what_is_not_verified": "סוג הנשק המדויק ששימש בתקיפה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_ihor_terekhov",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059817/",
+       "published_at": "2026-10-26T22:55:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חרקיב, אוקראינה",
        "lat": 49.9923,
        "lon": 36.231
       }
      ]
     },
     {
-     "id": "UKRAINE-10260341-02",
-     "title": "פגיעה באוטובוס בחרסון מתקיפת רחפן",
-     "summary": "תקיפת רחפן רוסית פגעה באוטובוס בחרסון וגרמה למות אדם ולפצועים.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-10270536-03",
+     "title": "הפסקת אש מקומית באולשקי ופינוי אזרחים",
+     "summary": "הוכרזה הפסקת אש מקומית במרחב אולשקי במחוז חרסון כדי לאפשר הכנסת סיוע הומניטרי ופינוי אזרחים.",
+     "axis": "הומניטרי והפסקות אש",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-25T14:30:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-25T14:30:00+00:00",
-     "last_update_at": "2026-10-25T14:30:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-10-26T19:13:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-26T19:13:00+00:00",
+     "last_update_at": "2026-10-27T04:58:00+00:00",
+     "what_is_not_verified": "זהות המפקחים על הפסקת האש ופרטי מנגנון הסיוע",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_melania_trump_s_chief_adviser",
+       "url": "https://www.ukrinform.net/rubric-society/4178445-melania-trumps-chief-adviser-russia-pledges-to-respect-oleshky-residents-evacuation-choices.html",
+       "published_at": "2026-10-27T04:58:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_melania_trump_s_chief_adviser",
+       "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+       "published_at": "2026-10-27T02:58:18+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_melania_trump_s_chief_adviser",
+       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
+       "published_at": "2026-10-27T02:33:07+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_melania_trump_s_chief_adviser",
+       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+       "published_at": "2026-10-27T01:30:27+00:00"
+      },
+      {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_19f396c655b44930",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059643/",
-       "published_at": "2026-10-25T14:30:00+00:00"
+       "source_root_id": "or_melania_trump_s_chief_adviser",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059829/",
+       "published_at": "2026-10-26T19:13:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרסון, אוקראינה",
-       "lat": 46.6401,
-       "lon": 32.6144
+       "name": "אולשקי, אוקראינה",
+       "lat": 46.6261,
+       "lon": 32.722
       }
      ]
     },
     {
-     "id": "UKRAINE-10260341-03",
-     "title": "יירוט רחפנים מעל אזורים ברוסיה",
-     "summary": "משרד ההגנה הרוסי דיווח על יירוט מספר רב של רחפנים אוקראיניים מעל שטחי רוסיה.",
-     "axis": "רוסיה",
-     "claim_type": "data",
+     "id": "UKRAINE-10270536-04",
+     "title": "דוח של ועדת האו\"ם על פשעי מלחמה באנרגיה",
+     "summary": "ועדת חקירה של האו\"ם קבעה כי ההתקפות השיטתיות של רוסיה על תשתיות האנרגיה של אוקראינה מהועות פשעים נגד האנושות ופשעי מלחמה.",
+     "axis": "הצהרות ומסקנות בינלאומיות",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-10-25T07:11:26+00:00",
+     "occurred_at": "2026-10-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-25T07:11:26+00:00",
-     "last_update_at": "2026-10-25T07:11:26+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-26T12:00:00+00:00",
+     "last_update_at": "2026-10-27T03:13:39+00:00",
+     "what_is_not_verified": "אינו מאומת לפי טענת רוסיה הרואה בנתונים מידע מומצא",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
-       "source_root_id": "fh_830b194613d0ad22",
-       "url": "https://tass.com/defense/2207429",
-       "published_at": "2026-10-25T07:11:26+00:00"
+       "source_root_id": "or_russian_permanent_mission",
+       "url": "https://tass.com/politics/2208295",
+       "published_at": "2026-10-27T03:13:39+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_russian_permanent_mission",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
+       "published_at": "2026-10-26T19:17:00+00:00"
+      },
+      {
+       "source_id": "src_un_news",
+       "source_root_id": "or_russian_permanent_mission",
+       "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
+       "published_at": "2026-10-26T12:00:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10260341-04",
-     "title": "החזרת פעילות מערכת סטארשילד למהירות רגילה",
-     "summary": "נשיא אוקראינה אישר כי פעילות סטארשילד חזרה למהירותה הרגילה לאחר הגבלות קודמות.",
-     "axis": "אוקראינה",
+     "id": "UKRAINE-10270536-05",
+     "title": "תקיפה על מחסן תחמושת בלוגנסק",
+     "summary": "כוחות אוקראיניים תקפו באמצעות רחפנים מחסן תחמושת רוסי באזור חרוסטלני שבמחוז לוגנסק.",
+     "axis": "חזית מזרחית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-25T19:02:26+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-25T19:02:26+00:00",
-     "last_update_at": "2026-10-26T01:27:47+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-10-27T00:32:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T00:32:47+00:00",
+     "last_update_at": "2026-10-27T00:32:47+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק למחסן התחמושת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
-       "source_root_id": "or_volodymyr_zelenskyy_interview",
-       "url": "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november",
-       "published_at": "2026-10-26T01:27:47+00:00"
-      },
-      {
        "source_id": "src_kyivind",
-       "source_root_id": "or_volodymyr_zelenskyy_interview",
-       "url": "https://kyivindependent.com/ukraine-war-latest-starshield-operations-restored-to-normal-speed-zelensky-confirms-as-elon-musk-claims-ukraine-violated-starlink-terms/",
-       "published_at": "2026-10-25T19:02:26+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10260341-05",
-     "title": "תקיפות והרוגים באזורים שונים באוקראינה",
-     "summary": "תקיפות של כוחות רוסיים גרמו להרוגים ולפצועים באזורים שונים באוקראינה, כולל דניפרופטרובסק וסומי.",
-     "axis": "רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-25T02:37:44+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-25T02:37:44+00:00",
-     "last_update_at": "2026-10-25T03:41:54+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": false,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_ukrainian_regional_governors",
-       "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
-       "published_at": "2026-10-25T02:37:44+00:00"
+       "source_root_id": "or_exilenova_plus",
+       "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
+       "published_at": "2026-10-27T00:32:47+00:00"
       }
      ],
      "places": [
       {
-       "name": "סינלניקובו, אוקראינה",
-       "lat": 48.3269,
-       "lon": 35.5247
+       "name": "חרוסטלני, אוקראינה",
+       "lat": 48.1351,
+       "lon": 38.9199
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10270536-06",
+     "title": "גיוס שכירי חרב מאפריקה על ידי רוסיה",
+     "summary": "רוסיה מרחיבה את גיוס כוח האדם השכיר ממדינות אפריקה עקב אבידות כבדות ומחסור בכוח אדם בצבא.",
+     "axis": "גיוס וכוח אדם",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T02:27:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T02:27:00+00:00",
+     "last_update_at": "2026-10-27T02:27:00+00:00",
+     "what_is_not_verified": "מספר המתגייסים המדויק",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_bloomberg",
+       "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
+       "published_at": "2026-10-27T02:27:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10270536-07",
+     "title": "הרשעת מומחה מחשבים ברוסיה בגין תרומה לאוקראינה",
+     "summary": "בית משפט צבאי ברוסיה גזר 13 שנות מאסר על מומחה מחשבים בגין מימון טרור לאחר שתרם כספים המקושרים לאוקראינה.",
+     "axis": "עורף ודיכוי פנימי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T21:45:24+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T21:45:24+00:00",
+     "last_update_at": "2026-10-26T21:45:24+00:00",
+     "what_is_not_verified": "האם נתונים נוספים הועברו על ידי פלטפורמות נוספות מעבר למה שצוין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_department_one",
+       "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
+       "published_at": "2026-10-26T21:45:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
    ],
    "not_verified": [
-    "נסיבות מותו של הפעיל מיכאיל מאוואשי",
-    "טענות רוסיה בדבר היקף הנזקים והשחיתות באוקראינה"
+    "זהות הגורמים שיפקחו על הפסקת האש באולשקי וההסדרים המדויקים להפעלה",
+    "המועד המדויק ומיקום הפגישה המשולשת בין רוסיה, אוקראינה וארצות הברית",
+    "ההיתכנות המדויקת להשגת הסכם שלום לפני סוף השנה"
    ],
    "map": {
     "confidence": "high",
@@ -948,196 +994,215 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1193,
+     "value": 1.1188,
      "unit": "USD",
-     "change_pct": -0.11,
+     "change_pct": -0.04,
      "source_id": "src_ecb",
-     "as_of": "2026-10-23T15:00:00+00:00"
+     "as_of": "2026-10-26T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "סירוב לדון בהגבלת הכוחות המזוינים או בנייטרליות כפויה",
-      "דרישה לעצירת התקיפות על תשתיות האנרגיה כתנאי להפסקת תקיפות על בתי זיקוק"
+      "עדכון אסטרטגיית הביטחון הלאומי",
+      "הקדמת שיחות תלת-צדדיות עם ארצות הברית ורוסיה",
+      "הבטחת סיוע צבאי חיוני והגנה אווירית"
      ],
      "inferred": [
-      "שמירה על תמיכה בינלאומית וחיזוק קשרים עם ארצות הברית ומדינות אירופה",
-      "המשך הגנה על תשתיות חיוניות ואוכלוסייה אזרחית"
+      "שאיפה לשמור על תמיכה בינלאומית ולמנוע את קריסת תשתיות האנרגיה בחורף",
+      "הפחתת לחץ הומניטרי באזורים נצורים כמו אולשקי"
      ],
      "forecast": [
-      "השתתפות בשיחות משולשות מתוכננות",
-      "המשך הפעלת מערכות הגנה אלקטרוניות ואוויריות"
+      "האצת מאמצים לקבלת חימושים קריטיים ממדינות המערב",
+      "ניסיון להגיע להבנות דיפלומטיות טרם החמרת תנאי החורף"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "המשך הפעילות הצבאית והגנה מפני תקיפות רחפנים",
-      "היערכות לשיחות משולשות אפשריות לאחר נובמבר"
+      "המשך פעולות צבאיות ממוקדות ודחיית ממצאי ועדות החקירה של האו\"ם",
+      "כיבוד הסכמות מקומיות ספציפיות לפינוי תושבים באולשקי"
      ],
      "inferred": [
-      "ניסיון להפעיל לחץ על אוקראינה באמצעות פגיעה בתשתיות ואספקה",
-      "ביסוס שליטה באזורים הכבושים והיערכות מול מדינות המערב"
+      "התשה של העורף והתשתיות של אוקראינה באמצעות מתקפות שיטתיות לקראת החורף",
+      "הרחבת גיוס שכירי חרב זרים לכיסוי אבדות כוח אדם"
      ],
      "forecast": [
-      "המשך תקיפות אוויריות ושימוש במערכות הגנה מתקדמות",
-      "ניהול מגעים דיפלומטיים מותנים"
+      "המשך לחץ צבאי ואווירי על מרכזים אוקראיניים",
+      "הימנעות מוויתורים רחבים במשא ומתן עד להשגת יתרון בשדה הקור"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
-     "accessed_at": "2026-10-26T03:41:54+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/ukraine-war-latest-starshield-operations-restored-to-normal-speed-zelensky-confirms-as-elon-musk-claims-ukraine-violated-starlink-terms/",
-     "accessed_at": "2026-10-26T03:41:54+00:00"
+     "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
+    },
+    {
+     "source_id": "src_meduza",
+     "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/25/8059643/",
-     "accessed_at": "2026-10-26T03:41:54+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/defense/2207429",
-     "accessed_at": "2026-10-26T03:41:54+00:00"
+     "url": "https://tass.com/politics/2208295",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/48996",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-defense/4177991-kharkiv-establishes-first-antidrone-corridor.html",
-     "accessed_at": "2026-10-26T03:41:54+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
+    },
+    {
+     "source_id": "src_un_news",
+     "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
+     "accessed_at": "2026-10-27T05:36:14+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-25T14:44:21+00:00",
+  "previous_generated_at": "2026-10-26T03:41:54+00:00",
   "changes": {
-   "UKRAINE-10260341-01": {
+   "UKRAINE-10270536-01": {
     "kind": "new"
    },
-   "UKRAINE-10260341-02": {
+   "UKRAINE-10270536-02": {
     "kind": "new"
    },
-   "UKRAINE-10260341-03": {
-    "kind": "up",
-    "from": "shared_root",
-    "to": "verified",
-    "prev": "מתקפת טילים ורחפנים באזורים שונים ברוסיה ובשטחי הכיבוש",
-    "score": 1.0
-   },
-   "UKRAINE-10260341-04": {
+   "UKRAINE-10270536-03": {
     "kind": "new"
    },
-   "UKRAINE-10260341-05": {
-    "kind": "down",
-    "from": "verified",
-    "to": "initial",
-    "prev": "מתקפות רוסיות על מטרות באוקראינה",
-    "score": 1.0
+   "UKRAINE-10270536-04": {
+    "kind": "new"
+   },
+   "UKRAINE-10270536-05": {
+    "kind": "new"
+   },
+   "UKRAINE-10270536-06": {
+    "kind": "new"
+   },
+   "UKRAINE-10270536-07": {
+    "kind": "new"
    }
   }
  },
  "north": {
-  "draft": "drafts/north/2026-10-26T1705__north-202610261705.json",
+  "draft": "drafts/north/2026-10-27T0542__north-202610270542.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-10-26T17:05:35+00:00",
+   "generated_at": "2026-10-27T05:42:57+00:00",
    "window": {
-    "from": "2026-10-25T17:05:35+00:00",
-    "to": "2026-10-26T17:05:35+00:00"
+    "from": "2026-10-26T05:42:57+00:00",
+    "to": "2026-10-27T05:42:57+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202610261705"
+    "run_id": "north-202610270542"
    },
-   "summary": "הגזרה הצפונית מתאפיינת בדריכות רבה, כאשר חיזבאללה פועל לשקום יכולותיו הצבאיות והכספיות בגיבוי איראני לצד המשך פעילות צבאית מצד ישראל בדרום לבנון. במקביל, טורקיה מעמיקה את מעורבותה בסוריה בתחומי התשתית והחינוך, ומתקיימים מגעים דיפלומטיים אזוריים בטהרן במטרה למנוע הסלמה רחבה.",
+   "summary": "בגזרה הצפונית נרשמות הפרעות הפסקת אש והיערכות מבצעית הכוללת פיתוח אמצעים טכנולוגיים כמו מערכות לייזר מול איומי רחפנים. בסוריה פועלת טורקיה להעמקת מעורבותה בתחום החינוך והתשתית לצד אירועים ביטחוניים פנימיים, בעוד דיפלומטיה אזורית מתקיימת בטהראן בניסיון לגבש מסגרת ביטחונית עצמאית.",
    "fronts": [
     {
-     "name": "גבול לבנון-ישראל",
-     "status": "פעיל חלקית / הפוגה מתוחה"
+     "name": "החזית הצפונית (ישראל-לבנון)",
+     "status": "פעילה חלקית עם הפרות הפסקת אש והיערכות"
     },
     {
-     "name": "סוריה",
-     "status": "יציבות מתוחה והתרחבות השפעה טורקית"
+     "name": "הזירה הסורית",
+     "status": "פעילה מבחינת מעורבות טורקית, אירועי פיצוצים ותיאומים אזוריים"
     }
    ],
    "events": [
     {
-     "id": "NORTH-10261705-01",
-     "title": "תקיפות והפגזות של צבא ישראל בדרום לבנון",
-     "summary": "הכוחות הישראליים ביצעו ירי ארטילרי ותקיפות אוויריות במספר מרחבים בדרום לבנון.",
-     "axis": "הגזרה הצפונית",
+     "id": "NORTH-10270542-01",
+     "title": "תקיפות והפרות הפסקת אש בדרום לבנון",
+     "summary": "בוצעה פגיעת תקיפה מהאוויר בפאתי קנטרה, וכן כוחות ביצעו פיצוצים בזוַתר א-שרקיה.",
+     "axis": "הגזרה הצפונית של ישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-27T00:41:24+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T15:35:22+00:00",
-     "last_update_at": "2026-10-26T15:35:22+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-27T00:41:24+00:00",
+     "last_update_at": "2026-10-27T00:41:24+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/143067/",
-       "published_at": "2026-10-26T15:35:22+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_186fdab9a5d44a9a",
+       "url": "https://www.aa.com.tr/en/middle-east/israel-carries-out-strikes-in-southern-lebanon-in-fresh-ceasefire-violations/4101864",
+       "published_at": "2026-10-27T00:41:24+00:00"
       }
      ],
      "places": [
       {
-       "name": "ברעשיִת, לבנון",
-       "lat": 33.1785,
-       "lon": 35.4372
+       "name": "קנטרה, לבנון",
+       "lat": 33.2735,
+       "lon": 35.4591
       }
      ]
     },
     {
-     "id": "NORTH-10261705-02",
-     "title": "שיגור מיירט לעבר מטרה חשודה בדרום לבנון",
-     "summary": "דובר צה\"ל דיווח כי שוגר מיירט לעבר מטרה אווירית חשודה באזור פעילות כוחות צה\"ל בדרום לבנון.",
-     "axis": "הגזרה הצפונית",
+     "id": "NORTH-10270542-02",
+     "title": "פיתוח מערכת לייזר טקטית לגבול הצפון",
+     "summary": "פותחה מערכת לייזר טקטית המיועדת להציב מענה לרחפני סיב אופטי בגבול הצפון.",
+     "axis": "הגזרה הצפונית של ישראל",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-25T00:00:00+00:00",
+     "occurred_at": "2026-10-26T09:41:33+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-25T18:32:25+00:00",
-     "last_update_at": "2026-10-25T18:32:25+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-26T09:41:33+00:00",
+     "last_update_at": "2026-10-26T09:41:33+00:00",
+     "what_is_not_verified": "לוח הזמנים המדויק והמיקום המדויק להצבה טרם פורטו במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25477",
-       "published_at": "2026-10-25T18:32:25+00:00"
+       "source_id": "src_walla",
+       "source_root_id": "fh_6ea372a1a2a1a100",
+       "url": "https://www.walla.co.il/news/military/383958910",
+       "published_at": "2026-10-26T09:41:33+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10261705-03",
-     "title": "פתיחת בית ספר טורקי בידיש בדמשק",
-     "summary": "נחנך בית ספר בין-לאומי טורקי על שם ארדואן באזור דמשק.",
+     "id": "NORTH-10270542-03",
+     "title": "פתיחת בית ספר טורקי בינלאומי בדמשק",
+     "summary": "נפתח בית הספר הבינלאומי הטורקי על שם רצ'פ טאיפ ארדואן באזור ארטואז בדמשק.",
      "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-04T00:00:00+00:00",
-     "is_ongoing": false,
+     "is_ongoing": true,
      "first_reported_at": "2026-10-26T10:37:17+00:00",
      "last_update_at": "2026-10-26T10:37:17+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "what_is_not_verified": "הפרטים המלאים על תוכניות הלימודים אינם מפורטים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_alma",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_7345416726caef8f",
        "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
        "published_at": "2026-10-26T10:37:17+00:00"
       }
@@ -1151,35 +1216,82 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-10261705-04",
-     "title": "פגישת ברית מכה בטהרן",
-     "summary": "נציגים מסעודיה, טורקיה ופקיסטן נפגשו בטהרן עם בכירים איראנים לדיונים על ביטחון אזורי.",
-     "axis": "הגזרה הצפונית",
+     "id": "NORTH-10270542-04",
+     "title": "פיצוץ במחסן תחמושת בסראקיב",
+     "summary": "אירע פיצוץ אדיר במחסן תחמושת באזור סראקיב במחוז אידליב.",
+     "axis": "סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "occurred_at": "2026-10-26T17:15:26+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T13:07:25+00:00",
-     "last_update_at": "2026-10-26T16:37:05+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-26T17:15:26+00:00",
+     "last_update_at": "2026-10-26T17:15:26+00:00",
+     "what_is_not_verified": "נסיבות הפיצוץ המדויקות נבדקות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
-       "published_at": "2026-10-26T16:37:05+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/middleeastnews/964829/iran-mecca-pact-countries-agree-to-continue-talks-after-first-meeting/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964829",
-       "published_at": "2026-10-26T13:07:25+00:00"
+       "url": "https://t.me/abualiexpress/132606",
+       "published_at": "2026-10-26T17:15:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן, איראן",
+       "name": "סראקיב, סוריה",
+       "lat": 35.8636,
+       "lon": 36.8031
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10270542-05",
+     "title": "פגישה רב-צדדית בטהראן בנושאי ביטחון אזורי",
+     "summary": "נציגים בכירים מאיראן, טורקיה, סעודיה ופקיסטן נפגשו בטהראן כדי לדון בשיתוף פעולה ביטחוני אזורי ומניעת הסלמה.",
+     "axis": "איראן וסוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-26T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-26T16:01:53+00:00",
+     "last_update_at": "2026-10-27T03:55:43+00:00",
+     "what_is_not_verified": "ההשפעה המעשית של ההבנות טרם הוכחה בשטח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_0d8ba6a4c1394dbf",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+       "published_at": "2026-10-27T03:55:43+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "fh_0d8ba6a4c1394dbf",
+       "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+       "published_at": "2026-10-26T23:24:17+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_0d8ba6a4c1394dbf",
+       "url": "https://english.almanar.com.lb/article/143167/",
+       "published_at": "2026-10-26T17:50:33+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_0d8ba6a4c1394dbf",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-saudi-arabia-pakistan-turkey-cooperate-regional-security",
+       "published_at": "2026-10-26T17:46:08+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "fh_0d8ba6a4c1394dbf",
+       "url": "https://www.lbcgroup.tv/news/middleeastnews/964856/iran-security-chief-says-very-good-discussions-held-with-mecca-pact-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964856",
+       "published_at": "2026-10-26T16:01:53+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
        "lat": 35.6893,
        "lon": 51.3896
       }
@@ -1187,9 +1299,8 @@ window.DB.war_published = {
     }
    ],
    "not_verified": [
-    "היקף מדויק של אמצעי הלחימה שחיזבאללה הצליח לחדש",
-    "פרטים מלאים על תוכניות ההתחמשות האיראניות של חיזבאללה",
-    "תוצאות מלאות של המגעים הדיפלומטיים בטהרן"
+    "טענות על כוונות פעולה מצד חיזבאללה או איראן סביב מועד הבחירות",
+    "פרטים מלאים על נסיבות הפיצוץ במחסן התחמושת בסראקיב"
    ],
    "map": {
     "confidence": "medium",
@@ -1209,47 +1320,27 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "ישראל",
+     "actor": "איראן",
      "declared": [
-      "מניעת התבססות עוינת",
-      "הגנה על גבולה הצפוני"
+      "בניית ביטחון אזורי מתוך האזור ללא התערבות זרה"
      ],
      "inferred": [
-      "שימור חופש פעולה מבצעי בלבנון ובסוריה",
-      "סיכול מאמצי ההתחמשות מחדש של חיזבאללה"
+      "יצירת חזית דיפלומטית וביטחונית עצמאית עם מעצמות אזוריות כמו טורקיה וסעודיה"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדמות נגד תשתיות טרור",
-      "היערכות לאפשרות של חידוש הלחימה המלאה"
-     ]
-    },
-    {
-     "actor": "חיזבאללה",
-     "declared": [
-      "המשך ההתנגדות לכיבוש הישראלי"
-     ],
-     "inferred": [
-      "שיקום מערכי הפיקוד, השליטה ומלאי אמצעי הלחימה",
-      "הכנה לעימות אזורי רחב בתמיכה איראנית"
-     ],
-     "forecast": [
-      "המשך הזרמת כספים והתחמשות בסיוע איראן",
-      "שמירה על כוננות להסלמה אזורית"
+      "המשך הידברות במסגרת בריתות אזוריות לצד תמיכה בצירים המקורבים"
      ]
     },
     {
      "actor": "טורקיה",
      "declared": [
-      "חיזוק שיתוף הפעולה האזורי והיציבות",
-      "הגנה על זכויות ימיות ויצירת קשרים מוסדיים"
+      "חיזוק שיתוף הפעולה לשם שלום וביטחון אזורי"
      ],
      "inferred": [
-      "הרחבת ההשפעה הכלכלית, התרבותית והחינוכית בסוריה",
-      "ביסוס מעמדה כשחקנית מובילה במתווה דיפלומטי אזורי"
+      "העמקת ההשפעה התרבותית, החינוכית והביטחונית בשטחי סוריה"
      ],
      "forecast": [
-      "העמקת המעורבות בשיקום סוריה",
-      "השתתפות נוספת בפורומים דיפלומטיים אזוריים"
+      "הרחבת המעורבות בשיקום תשתיות ומוסדות חינוך בסוריה"
      ]
     }
    ],
@@ -1257,51 +1348,69 @@ window.DB.war_published = {
     {
      "source_id": "src_alma",
      "url": "https://israel-alma.org/turkish-involvement-in-syrias-education-sector-a-new-school-in-damascus-named-after-erdogan/",
-     "accessed_at": "2026-10-26T17:05:35+00:00"
+     "accessed_at": "2026-10-27T05:42:57+00:00"
     },
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/143067/",
-     "accessed_at": "2026-10-26T17:05:35+00:00"
+     "url": "https://english.almanar.com.lb/article/143167/",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
+    },
+    {
+     "source_id": "src_anadolu",
+     "url": "https://www.aa.com.tr/en/middle-east/israel-carries-out-strikes-in-southern-lebanon-in-fresh-ceasefire-violations/4101864",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
+    },
+    {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/middleeastnews/964829/iran-mecca-pact-countries-agree-to-continue-talks-after-first-meeting/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964829",
-     "accessed_at": "2026-10-26T17:05:35+00:00"
+     "url": "https://www.lbcgroup.tv/news/middleeastnews/964856/iran-security-chief-says-very-good-discussions-held-with-mecca-pact-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-964856",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/news/mecca-alliance-visits-tehran-push-end-israeli-us-war-and-build-regional-security",
-     "accessed_at": "2026-10-26T17:05:35+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-saudi-arabia-pakistan-turkey-cooperate-regional-security",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
     },
     {
-     "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25477",
-     "accessed_at": "2026-10-26T17:05:35+00:00"
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/132606",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383958910",
+     "accessed_at": "2026-10-27T05:42:57+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-26T00:43:21+00:00",
+  "previous_generated_at": "2026-10-26T17:05:35+00:00",
   "changes": {
-   "NORTH-10261705-01": {
+   "NORTH-10270542-01": {
     "kind": "same",
     "from": "initial",
     "to": "initial",
-    "prev": "תקיפות והפצצות של צה\"ל במספר מוקדים בדרום לבנון",
+    "prev": "תקיפות והפגזות של צבא ישראל בדרום לבנון",
     "score": 0.65
    },
-   "NORTH-10261705-02": {
-    "kind": "same",
-    "from": "verified",
-    "to": "verified",
-    "prev": "שיגור מיירט לעבר מטרה אווירית בדרום לבנון",
-    "score": 1.0
-   },
-   "NORTH-10261705-03": {
+   "NORTH-10270542-02": {
     "kind": "new"
    },
-   "NORTH-10261705-04": {
+   "NORTH-10270542-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "פתיחת בית ספר טורקי בידיש בדמשק",
+    "score": 1.0
+   },
+   "NORTH-10270542-04": {
+    "kind": "new"
+   },
+   "NORTH-10270542-05": {
     "kind": "new"
    }
   }
