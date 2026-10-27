@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:17:17+00:00",
-  "fetched_at": "2026-10-27T10:17:17+00:00"
+  "checked_at": "2026-10-27T10:38:03+00:00",
+  "fetched_at": "2026-10-27T10:38:03+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:17:29+00:00",
-  "fetched_at": "2026-10-27T10:17:29+00:00"
+  "checked_at": "2026-10-27T10:38:16+00:00",
+  "fetched_at": "2026-10-27T10:38:16+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:17:31+00:00",
-  "fetched_at": "2026-10-27T10:17:31+00:00"
+  "checked_at": "2026-10-27T10:38:17+00:00",
+  "fetched_at": "2026-10-27T10:38:17+00:00"
  },
- "generated_at": "2026-10-27T10:17:31+00:00",
+ "generated_at": "2026-10-27T10:38:17+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "שיעור ההצבעה הגבוה ביותר מאז 1981 עד כה: הערים שמובילות, ואלו שמאחור",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560922",
-     "date": "2026-10-27T09:29:00+00:00"
+     "date": "2026-10-27T10:36:00+00:00"
     },
     {
      "title": "ההיסטוריה מלמדת: איך מגיבה הבורסה בבוקר שאחרי הבחירות?",
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "הבורסה אישרה: אופציות ליו\"ר ולמנכ\"ל, והלוואת שימור של מיליונים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560947",
+     "date": "2026-10-27T10:16:00+00:00"
+    },
     {
      "title": "ירידות באירופה; HSBC נופל ב-6%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560828",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "\"עבודה משתלמת היטב\": סערה בפוליטיקה הגרמנית בעקבות חשיפת התכתבויות איינהורן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560784",
      "date": "2026-10-26T09:15:00+00:00"
-    },
-    {
-     "title": "שטראוס מציגה: השקעות ענק בישראל, רווח בארה\"ב והפתעה לא נעימה בברזיל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560785",
-     "date": "2026-10-26T08:20:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:17:18+00:00",
-  "fetched_at": "2026-10-27T10:17:18+00:00"
+  "checked_at": "2026-10-27T10:38:04+00:00",
+  "fetched_at": "2026-10-27T10:38:04+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:17:19+00:00",
-  "fetched_at": "2026-10-27T10:17:19+00:00"
+  "checked_at": "2026-10-27T10:38:05+00:00",
+  "fetched_at": "2026-10-27T10:38:05+00:00"
  },
  "tv": {
   "data": [
@@ -2865,8 +2865,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T10:17:20+00:00",
-  "fetched_at": "2026-10-27T10:17:20+00:00"
+  "checked_at": "2026-10-27T10:38:06+00:00",
+  "fetched_at": "2026-10-27T10:38:06+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3035,8 +3035,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:17:20+00:00",
-  "fetched_at": "2026-10-27T10:17:20+00:00"
+  "checked_at": "2026-10-27T10:38:06+00:00",
+  "fetched_at": "2026-10-27T10:38:06+00:00"
  },
  "ai": {
   "data": {
@@ -3060,22 +3060,21 @@ window.DB.generated = {
    ],
    "candidates": 8,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1012,
+     "likes": 1014,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Natural Language Processing before LLMs",
      "desc_en": "From n-gram counts to attention, learning by doing",
      "desc_he": "מספירת n-גרם לתשומת לב, למידה מתוך עשייה",
-     "likes": 104,
+     "likes": 105,
      "link": "https://huggingface.co/spaces/dlouapre/nlp-before-llms"
     },
     {
@@ -3137,12 +3136,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:17:28+00:00",
-  "fetched_at": "2026-10-27T10:17:28+00:00"
+  "checked_at": "2026-10-27T10:38:15+00:00",
+  "fetched_at": "2026-10-27T10:38:15+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"דניאל פרץ יכול לשחק במנצ'סטר יונייטד, אולי גם בארסנל\"",
+     "link": "https://sports.walla.co.il/item/3873921",
+     "date": "2026-10-27T11:28:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
+     ]
+    },
     {
      "title": "הבכורה העונה לא הספיקה: בן שרף ירד לליגת הפיתוח",
      "link": "https://sports.walla.co.il/item/3873843",
@@ -3183,15 +3191,6 @@ window.DB.generated = {
      "title": "\"מלך הטעויות\": אוסקר גלוך שוב תחת ביקורת חריפה בהולנד",
      "link": "https://sports.walla.co.il/item/3873707",
      "date": "2026-10-25T19:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "אוסקר גלוך עלה מהספסל, אייאקס רק שלוש נקודות מהפסגה",
-     "link": "https://sports.walla.co.il/item/3873683",
-     "date": "2026-10-25T18:40:00+00:00",
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
@@ -3470,8 +3469,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-27T10:17:24+00:00",
-  "fetched_at": "2026-10-27T10:17:24+00:00"
+  "checked_at": "2026-10-27T10:38:08+00:00",
+  "fetched_at": "2026-10-27T10:38:08+00:00"
  },
  "idf": {
   "data": [
@@ -3501,8 +3500,9 @@ window.DB.generated = {
     "date": "2026-10-26T04:00:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-27T10:17:24+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-27T10:38:08+00:00",
   "fetched_at": "2026-10-27T10:17:24+00:00"
  },
  "feed_health": {
@@ -3510,44 +3510,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-27T09:52:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "newest": "2026-10-27T10:36:00+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-27T08:53:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "newest": "2026-10-27T10:16:00+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-27T08:37:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-27T09:43:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "newest": "2026-10-27T11:36:00+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-27T11:06:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "newest": "2026-10-27T11:30:00+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-27T10:11:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3559,31 +3559,31 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-22T14:30:24+00:00",
-    "seen_at": "2026-10-27T09:17:37+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-27T09:37:33+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-27T09:22:47+00:00",
-    "seen_at": "2026-10-27T10:17:31+00:00",
+    "seen_at": "2026-10-27T10:38:17+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3593,7 +3593,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-10-27T10:17:31+00:00"
+  "checked_at": "2026-10-27T10:38:17+00:00"
  },
  "health_news": {
   "data": [
@@ -3748,8 +3748,9 @@ window.DB.generated = {
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-27T10:17:25+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-27T10:38:08+00:00",
   "fetched_at": "2026-10-27T10:17:25+00:00"
  }
 };
