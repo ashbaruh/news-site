@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-28T18:17:28+00:00",
-  "fetched_at": "2026-10-28T18:17:28+00:00"
+  "checked_at": "2026-10-28T18:52:26+00:00",
+  "fetched_at": "2026-10-28T18:52:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:41+00:00",
-  "fetched_at": "2026-10-28T18:17:41+00:00"
+  "checked_at": "2026-10-28T18:52:38+00:00",
+  "fetched_at": "2026-10-28T18:52:38+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:42+00:00",
-  "fetched_at": "2026-10-28T18:17:42+00:00"
+  "checked_at": "2026-10-28T18:52:40+00:00",
+  "fetched_at": "2026-10-28T18:52:40+00:00"
  },
- "generated_at": "2026-10-28T18:17:42+00:00",
+ "generated_at": "2026-10-28T18:52:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הפד הותיר את הריבית ללא שינוי; השווקים מחכים להצהרת וורש",
+     "title": "הפד ממתין עם הריבית, אבל וורש מבהיר: \"האינפלציה גבוהה מדי\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560822",
-     "date": "2026-10-28T18:07:00+00:00"
+     "date": "2026-10-28T18:46:00+00:00"
     },
     {
      "title": "כמעט 100% מהקלפיות נספרו, חוץ מהמעטפות הכפולות: זו תמונת הגושים המעודכנת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561045",
-     "date": "2026-10-28T17:48:00+00:00"
+     "date": "2026-10-28T18:32:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-28T18:17:29+00:00",
-  "fetched_at": "2026-10-28T18:17:29+00:00"
+  "checked_at": "2026-10-28T18:52:28+00:00",
+  "fetched_at": "2026-10-28T18:52:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:30+00:00",
-  "fetched_at": "2026-10-28T18:17:30+00:00"
+  "checked_at": "2026-10-28T18:52:28+00:00",
+  "fetched_at": "2026-10-28T18:52:28+00:00"
  },
  "tv": {
   "data": [
@@ -2783,8 +2783,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:32+00:00",
-  "fetched_at": "2026-10-28T18:17:32+00:00"
+  "checked_at": "2026-10-28T18:52:30+00:00",
+  "fetched_at": "2026-10-28T18:52:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2962,8 +2962,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-28T18:17:32+00:00",
-  "fetched_at": "2026-10-28T18:17:32+00:00"
+  "checked_at": "2026-10-28T18:52:30+00:00",
+  "fetched_at": "2026-10-28T18:52:30+00:00"
  },
  "ai": {
   "data": {
@@ -3038,14 +3038,14 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 834,
+     "likes": 835,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Introducing Carbon-X",
      "desc_en": "The best open model for DNA understanding",
      "desc_he": "המודל הפתוח הטוב ביותר להבנת DNA",
-     "likes": 68,
+     "likes": 69,
      "link": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release"
     },
     {
@@ -3059,14 +3059,14 @@ window.DB.generated = {
      "title": "GEAR",
      "desc_en": "Recursive self-improvement of LLM agent harnesses",
      "desc_he": "שיפור עצמי רקורסיבי של רתמות סוכני LLM",
-     "likes": 60,
+     "likes": 61,
      "link": "https://huggingface.co/spaces/WizardTY/GEAR"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-28T18:17:39+00:00",
-  "fetched_at": "2026-10-28T18:17:39+00:00"
+  "checked_at": "2026-10-28T18:52:38+00:00",
+  "fetched_at": "2026-10-28T18:52:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3090,6 +3090,15 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "בצ'כיה לוחצים, ישראל בעדיפות: הדילמה סביב גורן",
+     "link": "https://www.one.co.il/Article/537274.html?ref=rss",
+     "date": "2026-10-28T10:33:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
      "title": "רוברט הורי על אבדיה: \"מעולם לא ראיתי דבר כזה\"",
      "link": "https://sports.walla.co.il/item/3873995",
      "date": "2026-10-28T08:48:00+00:00",
@@ -3103,6 +3112,33 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3873984",
      "date": "2026-10-28T07:50:00+00:00",
      "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כך פורטלנד משתמשת בלילארד ומוראנט לטובת אבדיה",
+     "link": "https://www.one.co.il/Article/537242.html?ref=rss",
+     "date": "2026-10-28T07:27:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"אם הייתי מתחזה מול אבדיה, הייתי נופל לרצפה\"",
+     "link": "https://www.one.co.il/Article/537239.html?ref=rss",
+     "date": "2026-10-28T07:07:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "הלילה הדרמטי במכבי, אבדיה והפועל: אבי אבן מדבר",
+     "link": "https://www.one.co.il/Article/537122.html?ref=rss",
+     "date": "2026-10-27T12:30:00+00:00",
+     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -3165,24 +3201,6 @@ window.DB.generated = {
      "title": "\"זה דני אבדיה האמיתי\": בארה\"ב מנתחים את השינוי בפורטלנד",
      "link": "https://sports.walla.co.il/item/3873500",
      "date": "2026-10-24T05:52:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "עדיין מעל כולם: אבדיה הוביל את פורטלנד ל-120:128 על הקינגס",
-     "link": "https://sports.walla.co.il/item/3873494",
-     "date": "2026-10-24T04:34:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"מעשנים את פיניקס\": החגיגה של אבדיה ומוראנט כבשה את הרשת",
-     "link": "https://sports.walla.co.il/item/3873334",
-     "date": "2026-10-22T08:45:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3389,8 +3407,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-28T18:17:35+00:00",
-  "fetched_at": "2026-10-28T18:17:35+00:00"
+  "checked_at": "2026-10-28T18:52:33+00:00",
+  "fetched_at": "2026-10-28T18:52:33+00:00"
  },
  "idf": {
   "data": [
@@ -3421,98 +3439,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:36+00:00",
-  "fetched_at": "2026-10-28T18:17:36+00:00"
+  "checked_at": "2026-10-28T18:52:34+00:00",
+  "fetched_at": "2026-10-28T18:52:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-28T18:07:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "newest": "2026-10-28T18:46:00+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-28T17:43:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-28T18:07:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-28T13:48:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-28T18:19:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-28T19:05:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "newest": "2026-10-28T19:21:00+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-28T16:59:00+00:00",
-    "seen_at": "2026-10-28T17:17:39+00:00",
+    "newest": "2026-10-28T18:31:00+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-28T14:28:22+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-28T17:37:09+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-28T16:59:50+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-28T18:17:42+00:00",
+    "seen_at": "2026-10-28T18:52:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-28T18:17:42+00:00"
+  "checked_at": "2026-10-28T18:52:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3668,7 +3686,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-28T18:17:36+00:00",
-  "fetched_at": "2026-10-28T18:17:36+00:00"
+  "checked_at": "2026-10-28T18:52:34+00:00",
+  "fetched_at": "2026-10-28T18:52:34+00:00"
  }
 };
