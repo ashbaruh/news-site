@@ -1,39 +1,34 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-27T18:00:00+02:00",
- "generated_at": "2026-10-27T15:40:27+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-10-28T04:00:00+02:00",
+ "generated_at": "2026-10-28T01:40:22+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10271540-01",
-     "title": "נשיא איראן מאשים את ארה\"ב בשיבוש שוק האנרגיה במפרץ",
-     "summary": "נשיא איראן מסעוד פזשכיאן טען כי התערבות צבאית אמריקנית במפרץ הפרסי פוגעת באספקה ובמחירי האנרגיה העולמיים ומאיימת על הצמיחה הכלכלית.",
-     "axis": "עימות איראן-ארה\"ב במפרץ",
+     "id": "IRAN-10280140-01",
+     "title": "פגישת ראשי המדינות המייצאות גז",
+     "summary": "נשיא איראן ציין כי השתתף בוועידת פורום המדינות המייצאות גז ברוסיה והגדיר את הדיונים כמהותיים ופוריים.",
+     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T15:00:42+00:00",
+     "occurred_at": "2026-10-27T21:51:02+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T15:00:42+00:00",
-     "last_update_at": "2026-10-27T15:00:42+00:00",
-     "what_is_not_verified": "לא אומתה מידת ההשפעה של הנוכחות האמריקנית על שוקי האנרגיה",
+     "first_reported_at": "2026-10-27T21:51:02+00:00",
+     "last_update_at": "2026-10-27T21:51:02+00:00",
+     "what_is_not_verified": "האם התוצאות אכן יושמו בפועל",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86305178/Pezeshkian-says-US-military-intervention-in-Persian-Gulf-disrupts",
-       "published_at": "2026-10-27T15:00:42+00:00"
+       "source_root_id": "fh_b9df37756e35252b",
+       "url": "https://en.irna.ir/news/86305393/Pezeshkian-Gas-Exporting-Countries-Forum-summit-was-constructive",
+       "published_at": "2026-10-27T21:51:02+00:00"
       }
      ],
      "places": [
-      {
-       "name": "המפרץ הפרסי",
-       "lat": 36.3237,
-       "lon": 50.012
-      },
       {
        "name": "מוסקבה, רוסיה",
        "lat": 55.7505,
@@ -42,320 +37,321 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "IRAN-10271540-02",
-     "title": "הגשת כתבי אישום בבריטניה על ריגול לטובת איראן בבסיס טיסה",
-     "summary": "משטרת בריטניה הגישה כתבי אישום נגד שני אזרחים בחשד לעבירות ביטחון לאומי וסיוע למודיעין האיראני בעקבות תקרית בבסיס טיסה המשמש את ארה\"ב.",
-     "axis": "פעילות ביון איראנית",
+     "id": "IRAN-10280140-02",
+     "title": "הגשת כתב אישום בבריטניה בגין מעקב",
+     "summary": "תובע בבית משפט בלונדון טען כי שני נאשמים תיעדו כתובות של עיתונאים כדי לסייע בתכנון התקפות מטעם מודיעין איראן.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T13:30:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T13:30:29+00:00",
-     "last_update_at": "2026-10-27T13:30:29+00:00",
-     "what_is_not_verified": "הזיקה הישירה למודיעין האיראני מוגדרת כהערכה משטרתית ולא הוכחה סופית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/two-charged-uk-security-offences-over-airbase-plot-police",
-       "published_at": "2026-10-27T13:30:29+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10271540-03",
-     "title": "איראן עצרה שתי אזרחיות ליטא",
-     "summary": "משרד החוץ של ליטא מסר כי שתי אזרחיות המדינה שהוכרזו כנעדרות מוקדם יותר החודש מוחזקות במעצר באיראן.",
-     "axis": "מעצר אזרחים זרים באיראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T13:04:32+00:00",
+     "occurred_at": "2026-10-27T21:02:38+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-27T13:04:32+00:00",
-     "last_update_at": "2026-10-27T13:04:32+00:00",
-     "what_is_not_verified": "סיבת המעצר ומקום החזקתן המדויק באיראן אינם ידועים",
+     "first_reported_at": "2026-10-27T21:02:38+00:00",
+     "last_update_at": "2026-10-27T21:02:38+00:00",
+     "what_is_not_verified": "אשמת הנאשמים בבית המשפט",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610277806",
-       "published_at": "2026-10-27T13:04:32+00:00"
+       "url": "https://www.iranintl.com/en/202610271521",
+       "published_at": "2026-10-27T21:02:38+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "לונדון, הממלכה המאוחדת",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10280140-03",
+     "title": "עימות חזיתי באו\"ם בין איראן לארה\"ב",
+     "summary": "נציג איראן באו\"ם דחה את טענות נציג ארצות הברית והציג תמונות של הרוגים בתקיפות נגד ארצו.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T19:55:17+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T19:55:17+00:00",
+     "last_update_at": "2026-10-27T19:55:17+00:00",
+     "what_is_not_verified": "טענות שני הצדדים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_de19304fc4371091",
+       "url": "https://en.irna.ir/news/86305366/Iranian-Ambassador-s-response-to-US-representative-Speak-based",
+       "published_at": "2026-10-27T19:55:17+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10271540-01",
-     "title": "דיווח על שריפת בתים ופיצוצים של צה\"ל בעיירות גבול בדרום לבנון",
-     "summary": "כוחות ישראליים פוצצו מבנים ושרפו בתים בעיירות חולא ומיס אל-ג'בל, וביצעו ירי ארטילרי באזור ואדי סלוקי וסביבת חדאת'א וחריס.",
-     "axis": "העימות בדרום לבנון",
+     "id": "NORTH-10280140-01",
+     "title": "סגירת מעברי גבול בין סוריה לירדן",
+     "summary": "סוריה סגרה את מעברי הגבול עם ירדן בעקבות תקיפה יירדנית שהתבצעה בדרום המדינה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T14:39:07+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T14:39:07+00:00",
-     "last_update_at": "2026-10-27T14:39:07+00:00",
-     "what_is_not_verified": "הדיווח מבוסס על כלי תקשורת של חיזבאללה בלבד ולא אומת בידי גורמים נוספים",
+     "occurred_at": "2026-10-28T01:08:05+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-28T01:08:05+00:00",
+     "last_update_at": "2026-10-28T01:08:05+00:00",
+     "what_is_not_verified": "משך סגירת המעברים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/143447/",
-       "published_at": "2026-10-27T14:39:07+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חולא, לבנון",
-       "lat": 33.2102,
-       "lon": 35.5187
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10271540-02",
-     "title": "נשיא לבנון קורא להמשך פעילות יוניפי\"ל או הצבת כוח אירופי חלופי",
-     "summary": "נשיא לבנון ג'וזף עון הצהיר על רצון בהמשך מנדט יוניפי\"ל בדרום המדינה, הביע תמיכה בהצבת כוח אירופי חלופי בשיתוף האו\"ם והאשים את ישראל בשיבוש הסכם המסגרת.",
-     "axis": "הסדרי הביטחון בדרום לבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T13:06:41+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T13:06:41+00:00",
-     "last_update_at": "2026-10-27T13:06:41+00:00",
-     "what_is_not_verified": "ההיתכנות המעשית של פריסת כוח אירופי חלופי טרם נקבעה באו\"ם",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132664",
-       "published_at": "2026-10-27T13:06:41+00:00"
+       "url": "https://t.me/alexmehacarmel/49034",
+       "published_at": "2026-10-28T01:08:05+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10271540-03",
-     "title": "הרוגים בתקיפה ירדנית בדרום סוריה בתגובה לפגיעה בכנסייה",
-     "summary": "משפחה בסוריה אבלה על מות אם, בנה ושלושת ילדיו בתקיפה שביצעה ירדן בתגובה למתקפת ג'יהאדיסטים על כנסייה בשבוע שעבר.",
-     "axis": "פעילות צבאית בדרום סוריה",
-     "claim_type": "incident",
+     "id": "NORTH-10280140-02",
+     "title": "הקמת ועדה ביטחונית משותפת לירדן וסוריה",
+     "summary": "משרדי החוץ של ירדן וסוריה הודיעו על הקמת ועדה ביטחונית לבחינת ההשלכות של התקיפות הירדניות נגד אתרי דאעש בסוריה.",
+     "axis": "north",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T13:30:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T13:30:29+00:00",
-     "last_update_at": "2026-10-27T13:30:29+00:00",
-     "what_is_not_verified": "לא נמסר מיקום מדויק של הכפר או יעד התקיפה המקורי",
+     "occurred_at": "2026-10-27T21:46:29+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T21:46:29+00:00",
+     "last_update_at": "2026-10-27T21:46:29+00:00",
+     "what_is_not_verified": "פעילות הוועדה בפועל",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/they-were-innocent-syrian-family-mourns-victims-jordanian-strike",
-       "published_at": "2026-10-27T13:30:29+00:00"
+       "source_root_id": "fh_eccc09583ad5df58",
+       "url": "https://www.al-monitor.com/originals/2026/10/jordan-syria-form-security-committee-after-deadly-strikes-islamic-state-sites",
+       "published_at": "2026-10-27T21:46:29+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "NORTH-10280140-03",
+     "title": "יירוט רחפן ליד השגרירות האמריקאית בבגדאד",
+     "summary": "רחפן יורט בסמוך לשגרירות ארצות הברית באזור הירוק בבגדאד, דבר שהוביל לשמע קולות פיצוץ.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T17:44:11+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T17:44:11+00:00",
+     "last_update_at": "2026-10-27T17:44:11+00:00",
+     "what_is_not_verified": "זהות המפעילים של הרחפן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_d755ddc43ce6b829",
+       "url": "https://www.newarab.com/news/iraq-drone-shot-down-near-us-embassy-baghdad",
+       "published_at": "2026-10-27T17:44:11+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בגדאד, עיראק",
+       "lat": 33.3062,
+       "lon": 44.3872
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10271540-01",
-     "title": "שיחה מדינית של מנהיגי פינלנד ונורווגיה עם פוטין",
-     "summary": "נשיא פינלנד סטוב וראש ממשלת נורווגיה סטורה קיימו שיחת טלפון עם נשיא רוסיה פוטין, שלדבריהם תואמה מראש מול גורמים בארה\"ב ובאוקראינה.",
-     "axis": "מגעים דיפלומטיים מול רוסיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T14:57:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T14:57:00+00:00",
-     "last_update_at": "2026-10-27T15:38:17+00:00",
-     "what_is_not_verified": "פרטי השיחה המלאים ותוצאותיה המעשיות לא נמסרו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
-       "published_at": "2026-10-27T15:38:17+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2208871",
-       "published_at": "2026-10-27T15:29:22+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059959/",
-       "published_at": "2026-10-27T14:57:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10271540-02",
-     "title": "הפסקת אש הומניטרית בעיר אולשקי לפינוי אזרחים והכנסת סיוע",
-     "summary": "בעיר אולשקי החלה הפסקת אש שנועדה לאפשר יציאת תושבים והכנסת אספקה, לאחר שלפי הודעת הבית הלבן הושגה בתיווך הגברת הראשונה מלאניה טראמפ.",
-     "axis": "הפסקות אש וסיוע הומניטרי",
+     "id": "UKRAINE-10280140-01",
+     "title": "דיווח על תקיפת מפעל פלדה בליפצק",
+     "summary": "כוחות אוקראיניים תקפו מפעל פלדה במחוז ליפצק ברוסיה, מה שהוביל לפריצת שריפה באזור.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T15:13:24+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T15:13:24+00:00",
-     "last_update_at": "2026-10-27T15:13:24+00:00",
-     "what_is_not_verified": "מידת יישום הפסקת האש בשטח לא אומתה על ידי מקור עצמאי",
+     "occurred_at": "2026-10-27T21:41:31+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T21:41:31+00:00",
+     "last_update_at": "2026-10-27T21:41:31+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק במפעל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_bbc",
-       "source_root_id": "or_bbc",
-       "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-27T15:13:24+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49029",
+       "published_at": "2026-10-27T21:41:31+00:00"
       }
      ],
      "places": [
       {
-       "name": "אולשקי, אוקראינה",
-       "lat": 46.6261,
-       "lon": 32.722
+       "name": "ליפצק, רוסיה",
+       "lat": 52.6051,
+       "lon": 39.5964
       }
      ]
     },
     {
-     "id": "UKRAINE-10271540-03",
-     "title": "נורווגיה תקצה כ-48 מיליון אירו לשיקום תשתיות האנרגיה באוקראינה",
-     "summary": "ממשלת נורווגיה הכריזה על חבילת סיוע בסך 500 מיליון קרונות המיועדת לרכישת ציוד ותיקון מתקני אנרגיה שנפגעו באוקראינה לקראת החורף.",
-     "axis": "סיוע בינלאומי לאוקראינה",
-     "claim_type": "statement",
+     "id": "UKRAINE-10280140-02",
+     "title": "שיקום הגשר הדרומי בקייב",
+     "summary": "הקבינט באוקראינה הורה למשרד השיקום והתשתיות להאיץ את תיקון הגשר הדרומי בקייב שנפגע בתקיפה טילים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T14:57:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T14:57:00+00:00",
-     "last_update_at": "2026-10-27T14:57:00+00:00",
-     "what_is_not_verified": "טרם פורט מועד הגעת הציוד בפועל",
+     "occurred_at": "2026-10-28T00:27:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-28T00:27:00+00:00",
+     "last_update_at": "2026-10-28T00:27:00+00:00",
+     "what_is_not_verified": "מועד סיום העבודות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059962/",
-       "published_at": "2026-10-27T14:57:00+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_640a49714b858669",
+       "url": "https://www.ukrinform.net/rubric-vidbudova/4178603-pm-koretskyi-orders-faster-repairs-to-kyivs-southern-bridge.html",
+       "published_at": "2026-10-28T00:27:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10280140-03",
+     "title": "תקיפת כוחות רוסיים בבניין מגורים בחארקוב",
+     "summary": "כוחות רוסיים פגעו בבניין מגורים במחוז אוסנוביאנסקי בחארקוב ודווח על נפגעים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T21:45:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T21:45:00+00:00",
+     "last_update_at": "2026-10-27T21:45:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_4d8f079e415544d8",
+       "url": "https://www.ukrinform.net/rubric-ato/4178779-russian-forces-strike-apartment-building-in-kharkiv-casualties-reported.html",
+       "published_at": "2026-10-27T21:45:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חארקוב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10271540-01",
-     "title": "החות'ים טוענים לפגיעה בבית הזיקוק ראס תנורה בסעודיה",
-     "summary": "המורדים החות'ים בתימן הודיעו כי שיגרו טיל בליסטי לעבר בית הזיקוק ראס תנורה במזרח סעודיה, במקביל לדיווחים על פיצוצים שנשמעו בריאד.",
-     "axis": "תקיפות החות'ים נגד סעודיה",
-     "claim_type": "statement",
+     "id": "YEMEN-10280140-01",
+     "title": "ירוט טיל בליסטי לעבר אל-טאיף",
+     "summary": "הקואליציה יירו ודמרו טיל בליסטי ששיגרו החות'ים לכיוון אל-טאיף.",
+     "axis": "yemen",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T11:46:31+00:00",
+     "occurred_at": "2026-10-28T01:11:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T11:46:31+00:00",
-     "last_update_at": "2026-10-27T14:05:44+00:00",
-     "what_is_not_verified": "פגיעה ישירה ונזק בבית הזיקוק לא אומתו באופן רשמי בידי סעודיה",
+     "first_reported_at": "2026-10-28T01:11:10+00:00",
+     "last_update_at": "2026-10-28T01:11:10+00:00",
+     "what_is_not_verified": "מקום נפילת שברי היירוט המדויק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_gcaptain",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/",
-       "published_at": "2026-10-27T14:05:44+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-claim-attack-saudi-oil-refinery-blasts-shake-riyadh",
-       "published_at": "2026-10-27T13:51:29+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-missile",
-       "published_at": "2026-10-27T11:46:31+00:00"
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_d0cd93e45fc92820",
+       "url": "https://www.sabanew.net/viewstory/154756",
+       "published_at": "2026-10-28T01:11:10+00:00"
       }
      ],
      "places": [
       {
-       "name": "ראס תנורה, ערב הסעודית",
-       "lat": 26.7074,
-       "lon": 50.0674
-      },
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "אל-טאיף, סעודיה",
+       "lat": 21.2703,
+       "lon": 40.4158
       }
      ]
     },
     {
-     "id": "YEMEN-10271540-02",
-     "title": "החות'ים מגדירים את אישור שיגור כוחות מצרים לסעודיה כהכרזת מלחמה",
-     "summary": "בכיר בתנועה החות'ית הודיע כי החלטת הפרלמנט המצרי לאשר משלוח כוחות צבאיים להגנת סעודיה מהווה הכרזת מלחמה על תימן.",
-     "axis": "התרחבות מעגל המעורבות בעימות התימני",
+     "id": "YEMEN-10280140-02",
+     "title": "הרוגים בעימותים בין החות'ים לכוחות הממשלה",
+     "summary": "קרוב ל-100 לוחמים נהרגו בקרבות חדשים בדרום-מערב תימן, בעיקר באזור מצר באב אל-מנדב.",
+     "axis": "yemen",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T17:08:15+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T17:08:15+00:00",
+     "last_update_at": "2026-10-27T17:08:15+00:00",
+     "what_is_not_verified": "נתוני נפגעים מדויקים מכל צד",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/fresh-clashes-yemen-kill-97-combatants-military-sources",
+       "published_at": "2026-10-27T17:08:15+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "באב אל-מנדב, תימן",
+       "lat": 12.714,
+       "lon": 43.5008
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10280140-03",
+     "title": "דרישת הסעודים מטהרן להפסקת תקיפות החות'ים",
+     "summary": "בכירים מסעודיה ומדינות נוספות ביקשו מטהרן לפעול לעצירת התקיפות החות'יות נגד סעודיה במהלך פגישה בטהרן.",
+     "axis": "yemen",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T15:26:33+00:00",
+     "occurred_at": "2026-10-27T20:48:19+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T15:26:33+00:00",
-     "last_update_at": "2026-10-27T15:26:33+00:00",
-     "what_is_not_verified": "מועד ומיקום פריסת הכוחות המצריים בפועל אינם ידועים",
+     "first_reported_at": "2026-10-27T20:48:19+00:00",
+     "last_update_at": "2026-10-27T20:48:19+00:00",
+     "what_is_not_verified": "יכולתה של איראן להשפיע על החות'ים בפועל",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21719217",
-       "published_at": "2026-10-27T15:26:33+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10271540-03",
-     "title": "הפגנה בתעז בדרישה להסרת המצור של החות'ים",
-     "summary": "תושבים בעיר תעז קיימו עצרת מחאה שבה דרשו את הסרת המצור שהטילו החות'ים והזהירו מפני החרפת המשבר ההומניטרי והבריאותי במקום.",
-     "axis": "הלחימה והמצור הפנימי בתימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T13:19:17+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T13:19:17+00:00",
-     "last_update_at": "2026-10-27T13:19:17+00:00",
-     "what_is_not_verified": "מספר המשתתפים בעצרת לא צוין",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/154720",
-       "published_at": "2026-10-27T13:19:17+00:00"
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+       "published_at": "2026-10-27T20:48:19+00:00"
       }
      ],
      "places": [
       {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
+       "name": "טהרן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
