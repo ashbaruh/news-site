@@ -1,0 +1,200 @@
+{
+ "status": "draft",
+ "received_sha256_12": "22768142b0d8",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-28T16:48:25+00:00",
+  "window": {
+   "from": "2026-10-27T16:48:25+00:00",
+   "to": "2026-10-28T16:48:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610281648"
+  },
+  "summary": "הזירה מתאפיינת בהיערכות צבאית של ארצות הברית וישראל לאפשרות של חידוש התקיפות נגד איראן בעקבות מבוי סתום בדיפלומטיה ובשיחות הגרעין. במקביל, נשמרת מתיחות דיפלומטית סביב פעילות אזורית של איראן ושלוחותיה מול מדינות המפרץ, לצד תנועות כוחות וחימוש אמריקאיות באזור.",
+  "fronts": [
+   {
+    "name": "החזית האמריקאית-ישראלית מול איראן",
+    "status": "היערכות להסלמה ותקיפות אפשריות"
+   },
+   {
+    "name": "החזית הדיפלומטית מול המפרץ",
+    "status": "מתיחות וחיכוך מדיני"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10281648-01",
+    "title": "אזהרת ארה\"ב למדינות המפרץ על אפשרות למערכה נגד איראן",
+    "summary": "ארצות הברית הזהירה מדינות ערביות במפרץ להיערך למתקפה צבאית קצרה ועצימה נגד איראן לאחר בחירות האמצע בארה\"ב, במטרה להפעיל לחץ להסכמים.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T08:25:06+00:00",
+    "last_update_at": "2026-10-28T16:41:56+00:00",
+    "what_is_not_verified": "האם התקיפה תתרחש בפועל במועד שצוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_the_wall_street_journal",
+      "url": "https://www.middleeasteye.net/news/us-warns-gulf-intense-strikes-iran-after-midterms-report",
+      "published_at": "2026-10-28T16:41:56+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_the_wall_street_journal",
+      "url": "https://t.me/abualiexpress/132713",
+      "published_at": "2026-10-28T08:25:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10281648-02",
+    "title": "דחיית הצעה קטariות לסיום המלחמה מצד איראן",
+    "summary": "איראן דחתה הצעה של קטר לסיום העימות, ומסרה כי אינה גמישה בנושא הגרעין.",
+    "axis": "ארה\"ב-ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T12:14:30+00:00",
+    "last_update_at": "2026-10-28T12:14:30+00:00",
+    "what_is_not_verified": "פרטים מלאים על טיוטת ההסכם הקטארי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_reuters",
+      "url": "https://www.middleeasteye.net/news/iran-rejects-unacceptable-proposal-qatar-end-war-us",
+      "published_at": "2026-10-28T12:14:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10281648-03",
+    "title": "זימון שגריר איראן בכווית למחאה רשמית",
+    "summary": "כווית זימנה את שגריר איראן למחאה רשמית על התערבות לכאורה בענייניה הפנימיים.",
+    "axis": "איראן מול מדינות המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T12:46:09+00:00",
+    "last_update_at": "2026-10-28T12:46:09+00:00",
+    "what_is_not_verified": "תגובת איראן המלאה לזימון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_0ae72a5c4ce7e18f",
+      "url": "https://www.iranintl.com/en/202610281703",
+      "published_at": "2026-10-28T12:46:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10281648-04",
+    "title": "חשיפת משגר טילים חדש בטהרן",
+    "summary": "האיראנים חשפו משגר טילים חדש במרכז וליסר בטהרן לעיני הציבור.",
+    "axis": "איראן מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T09:09:57+00:00",
+    "last_update_at": "2026-10-28T09:09:57+00:00",
+    "what_is_not_verified": "היכולות המבצעיות המדויקות של המשגר שנחשף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94866",
+      "published_at": "2026-10-28T09:09:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "עיתוי מדויק של תקיפה אמריקאית-ישראלית אפשרית",
+   "תוצאות סופיות של המגעים הדיפלומטיים וההצעות של קטר"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1259,
+    "unit": "ILS",
+    "change_pct": 2.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "מניעת יכולת גרעינית מאיראן והסרת איומים קיומיים"
+    ],
+    "inferred": [
+     "היערכות למבצעים צבאיים נוספים כדי לאלץ את טהרן למשא ומתן",
+     "תגבור כוחות צבאיים והיערכות במפרץ ובים התיכון"
+    ],
+    "forecast": [
+     "חידוש תקיפות צבאיות לאחר בחירות האמצע בארה\"ב",
+     "הגברת הלחץ הצבאי והכלכלי על איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610281703",
+    "accessed_at": "2026-10-28T16:48:25+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/iran-rejects-unacceptable-proposal-qatar-end-war-us",
+    "accessed_at": "2026-10-28T16:48:25+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132713",
+    "accessed_at": "2026-10-28T16:48:25+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94866",
+    "accessed_at": "2026-10-28T16:48:25+00:00"
+   }
+  ]
+ }
+}

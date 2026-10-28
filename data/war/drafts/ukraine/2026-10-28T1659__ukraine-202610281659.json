@@ -1,0 +1,292 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7dce18bd73f4",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 2,
+   "initial": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-28T16:59:57+00:00",
+  "window": {
+   "from": "2026-10-27T16:59:57+00:00",
+   "to": "2026-10-28T16:59:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610281659"
+  },
+  "summary": "המלחמה בין רוסיה ואוקראינה נמשכת תוך כדי מאמצים דיפלומטיים לקיום שיחות תלת-צדדיות אפשריות ותקיפות אוויריות הדדיות. בצד האוקראיני מתבצעות היערכויות להגנה מפני מזל\"טים וטילים, לצד קבלת חבילות סיוע רחבות מהולנד ומבריטניה. מנגד, רוסיה ממשיכה בהתקפות על תשתיות ומדווחת על מגעים ביטחוניים וטכנולוגיים שונים.",
+  "fronts": [
+   {
+    "name": "חזית הדרום",
+    "status": "כוללת הפסקת אש מקומית באזור אולשקי והיערכות לפינוי"
+   },
+   {
+    "name": "עומק אוקראינה",
+    "status": "תקיפות אוויריות ופגיעה בתשתיות ובמתקני אנרגיה"
+   },
+   {
+    "name": "עומק רוסיה",
+    "status": "תקיפות נגד מטרות תעשייתיות כמו מפעלים במחוז טולה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10281659-01",
+    "title": "הפסקת אש מקומית ופינוי באולשקי",
+    "summary": "הפסקת אש מקומית החלה באולשקי שבמחוז חרסון ופונתה דרך רוסיה ובלארוס",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T03:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-27T17:43:02+00:00",
+    "last_update_at": "2026-10-28T16:16:00+00:00",
+    "what_is_not_verified": "פרטי המסלול המדויק מחוץ לבלארוס לא מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b8197aac3940f87a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060134/",
+      "published_at": "2026-10-28T16:16:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_b8197aac3940f87a",
+      "url": "https://meduza.io/en/news/2026/10/28/russian-military-plane-to-transport-evacuees-from-occupied-ukrainian-town-through-russia-and-belarus-documents-show",
+      "published_at": "2026-10-28T15:55:46+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_b8197aac3940f87a",
+      "url": "https://t.me/alexmehacarmel/49055",
+      "published_at": "2026-10-28T15:27:08+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_b8197aac3940f87a",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T22:11:08+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_01b970b7b7fa3481",
+      "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+      "published_at": "2026-10-27T17:43:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10281659-02",
+    "title": "תקיפת תחנת דלק בדניפרופטרובסק",
+    "summary": "כטב\"ם תקף תחנת דלק של אוקרנפטה במחוז דניפרופטרובסק ופצע אדם",
+    "axis": "עומק אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T15:41:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T15:41:00+00:00",
+    "last_update_at": "2026-10-28T15:41:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_85bf12045854c45e",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060127/",
+      "published_at": "2026-10-28T15:41:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10281659-03",
+    "title": "שריפה במפעל אזוט בנובמוסקובסק",
+    "summary": "שריפה פרצה במפעל אזוט בעיר נובמוסקובסק במחוז טולה בעקבות תקיפה",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T12:58:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T12:58:55+00:00",
+    "last_update_at": "2026-10-28T12:58:55+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49049",
+      "published_at": "2026-10-28T12:58:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובמוסקובסק, רוסיה",
+      "lat": 54.011,
+      "lon": 38.2909
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10281659-04",
+    "title": "שיחות מנהיגי פינלנד ונורווגיה עם פוטין",
+    "summary": "נשיא פינלנד וראש ממשלת נורווגיה קיימו שיחת טלפון עם נשיא רוסיה",
+    "axis": "דיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T18:28:23+00:00",
+    "last_update_at": "2026-10-28T14:30:06+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_207a6eabe6548ece",
+      "url": "https://meduza.io/en/feature/2026/10/28/putin-turns-a-half-hour-call-with-european-leaders-into-a-90-minute-history-lecture-trump-says-a-three-way-summit-could-happen-very-soon",
+      "published_at": "2026-10-28T14:30:06+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_207a6eabe6548ece",
+      "url": "https://meduza.io/en/news/2026/10/28/putin-spent-a-call-with-finnish-and-norwegian-leaders-lecturing-them-on-slavic-history-ft-reports",
+      "published_at": "2026-10-28T09:50:42+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_207a6eabe6548ece",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T18:28:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10281659-05",
+    "title": "סיוע צבאי מהולנד",
+    "summary": "הולנד הודיעה על חבילת סיוע צבאי בשווי 500 מיליון אירו והתחלת פרויקט הגנה אווירית",
+    "axis": "סיוע בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T15:33:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T15:33:00+00:00",
+    "last_update_at": "2026-10-28T16:30:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_b59261e6523bb6aa",
+      "url": "https://www.ukrinform.net/rubric-polytics/4179112-ukraine-and-netherlands-begin-work-on-air-defense-project.html",
+      "published_at": "2026-10-28T16:30:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_899670afd98939aa",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060125/",
+      "published_at": "2026-10-28T15:33:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': 'פרטי המסלול המדויק והחזרת התושבים מאולשקי דרך בלארוס לאוקראינה'}",
+   "{'string': 'תאריך מדויק לקיום שיחות אבו דאבי'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1133,
+    "unit": "USD",
+    "change_pct": -0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "לקבל מערכות הגנה אווירית ומימון להגנה מפני תקיפות חורף",
+     "לקיים שיחות משא ומתן באבו דאבי"
+    ],
+    "inferred": [
+     "שמירת תמיכה מערבית וצמצום הפגיעה בתשתיות קריטיות"
+    ],
+    "forecast": [
+     "קבלת ציוד הגנה נוסף מבעלות ברית אירופיות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פיתוח יכולות עצמאיות בתחום הלוויינים והגנה אווירית",
+     "המשך קידום עמדותיה במפגשים דיפלומטיים בינלאומיים"
+    ],
+    "inferred": [
+     "ניסיון לערער את מערך הלוגיסטיקה והאנרגיה האוקראיני לקראת החורף"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי באמצעות כטב\"מים וטילים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/28/putin-spent-a-call-with-finnish-and-norwegian-leaders-lecturing-them-on-slavic-history-ft-reports",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060125/",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49049",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4179112-ukraine-and-netherlands-begin-work-on-air-defense-project.html",
+    "accessed_at": "2026-10-28T16:59:57+00:00"
+   }
+  ]
+ }
+}

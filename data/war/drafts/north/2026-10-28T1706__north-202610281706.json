@@ -1,0 +1,322 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fd1c1d2fc3be",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-28T17:06:33+00:00",
+  "window": {
+   "from": "2026-10-27T17:06:33+00:00",
+   "to": "2026-10-28T17:06:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610281706"
+  },
+  "summary": "בזירה הצפונית נמשכת המתיחות כאשר חיזבאללה דוחה דרישות לדיון על פירוק מנשקו ודורש נסיגה ישראלית מלאה, בעוד טורקיה מעמיקה את מעורבותה הצבאית והימית בסוריה. במקביל, סוריה מתמודדת עם תקיפות אוויריות בגבולה הדרומי ומקיימת שיתופי פעולה אזוריים והדוקים עם עיראק וגורמים נוספים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון-ישראל",
+    "status": "פעילה ומתוחה"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה מבחינת מעורבות זרה, תקיפות גבול ושיקום"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10281706-01",
+    "title": "תקיפות אוויריות ירדניות בדרום סוריה",
+    "summary": "סוריה זימנה את שגריר ירדן בעקבות תקיפות אוויריות שגרמו להרוגים אזרחיים, וסגרה את מעברי הגבול.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T01:08:05+00:00",
+    "last_update_at": "2026-10-28T16:47:18+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור ראשון בטקסטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-summons-jordanian-ambassador-for-deadly-airstrikes-in-daraa/4104152",
+      "published_at": "2026-10-28T16:47:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/victims-of-jordans-air-strikes-in-syria?traffic_source=rss",
+      "published_at": "2026-10-28T12:35:19+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49034",
+      "published_at": "2026-10-28T01:08:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10281706-02",
+    "title": "ביקור ראש ממשלת עיראק בדמשק",
+    "summary": "ראש ממשלת עיראק הגיע לביקור רשמי בדמשק ונפגש עם נשיא סוריה לקידום קשרים כלכליים ואנרגיה.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T09:02:36+00:00",
+    "last_update_at": "2026-10-28T15:14:47+00:00",
+    "what_is_not_verified": "ההסכמות המלאות אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iraqi-pm-visits-syria-neighbours-seek-boost-economic-ties",
+      "published_at": "2026-10-28T15:14:47+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/28/iraqi-pm-ali-al-zaidi-meets-ahmed-al-sharaa-in-historic-syria-visit?traffic_source=rss",
+      "published_at": "2026-10-28T13:47:39+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/iraq-syria-discuss-oil-exports-via-baniyas-pipeline-with-capacity-of-2m-barrels-per-day/4103512",
+      "published_at": "2026-10-28T09:02:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10281706-03",
+    "title": "הצהרת מנהיג חיזבאללה על נשק הארגון והסכמים",
+    "summary": "מזכירות חיזבאללה הדגישה כי ההתנגדות תימשך וכי פסולה כל דיון בפירוק מנשקה כל עוד נמשכת התקיפה הישראלית.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T13:42:27+00:00",
+    "last_update_at": "2026-10-28T16:47:47+00:00",
+    "what_is_not_verified": "טיעונים על תוצאות הבחירות בישראל כהפסד אינם מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3ef5a70b6740f402",
+      "url": "https://english.almanar.com.lb/article/144322/",
+      "published_at": "2026-10-28T16:47:47+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3b9577929c79db66",
+      "url": "https://english.almanar.com.lb/article/144312/",
+      "published_at": "2026-10-28T16:23:20+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_650c71a90bdbf94f",
+      "url": "https://english.almanar.com.lb/article/144302/",
+      "published_at": "2026-10-28T16:22:35+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_45035b570eca0003",
+      "url": "https://english.almanar.com.lb/article/144282/",
+      "published_at": "2026-10-28T16:13:33+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_950f2f1bc54184f3",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965266/hezbollah-chief-calls-israeli-election-results-a-form-of-defeat-reject/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965266",
+      "published_at": "2026-10-28T13:42:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10281706-04",
+    "title": "תוכנית בניין כוח ימית טורקית לסוריה",
+    "summary": "משרד ההגנה הטורקי הכריז על תוכנית לפיתוח ושדרוג כוחות הים של סוריה, הכוללת תחזוקה, אימונים ובניית תשתיות.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T12:11:50+00:00",
+    "last_update_at": "2026-10-28T12:11:50+00:00",
+    "what_is_not_verified": "היקף הביצוע המלא של השדרוג אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/turkeys-force-buildup-for-the-syrian-navy/",
+      "published_at": "2026-10-28T12:11:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10281706-05",
+    "title": "תקרית אש בצפון מערב סוריה",
+    "summary": "כוחות הביטחון בסוריה הרגו חבר חמוש זר בחילופי אש במחנה באזור אידליב.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T15:29:31+00:00",
+    "last_update_at": "2026-10-28T15:29:31+00:00",
+    "what_is_not_verified": "גרסאות הצדדים לגבי נסיבות פתיחת האש אינן מאומתות באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-says-french-jihadist-killed-shootout-govt-forces",
+      "published_at": "2026-10-28T15:29:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אידליב, סוריה",
+      "lat": 35.9302,
+      "lon": 36.6353
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפות ירדן בדרום סוריה",
+   "היקף ההישגים המעשיים של תוכנית בניין הכוח הימית הטורקית בסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1259,
+    "unit": "ILS",
+    "change_pct": 2.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך ההתנגדות נגד ישראל",
+     "סירוב מוחלט לדון בפירוק נשק כל עוד נמשכת התוקפנות"
+    ],
+    "inferred": [
+     "שמירת יכולות צבאיות עצמאיות בלבנון",
+     "הישענות על איראן כמקור כוח מרכזי"
+    ],
+    "forecast": [
+     "המשך סירוב לדרישות פירוק נשק",
+     "היערכות להסלמה מול כל פעולה צבאית ישראלית"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "פיתוח ושדרוג כוחות הים של סוריה",
+     "שיתופי פעולה צבאיים וכלכליים אזוריים"
+    ],
+    "inferred": [
+     "הרחבת ההשפעה הגיאופוליטית והימית במרחב סוריה",
+     "בניית מעורבות מבנית בצבא סוריה החדש"
+    ],
+    "forecast": [
+     "העמקת הנוכחות והסיוע הצבאי והימי בסוריה"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "חיזוק קשרי המסחר והאנרגיה עם עיראק",
+     "השבת יציבות ביטחונית וכלכלית לאחר מלחמה ארוכה"
+    ],
+    "inferred": [
+     "ניסיון לבסס מחדש את ריבונותה בגבולותיה",
+     "חיפוש חלופות כלכליות אזוריות"
+    ],
+    "forecast": [
+     "המשך חיזוק הקשרים האזוריים והתמודדות עם איומים בגבולות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/28/iraqi-pm-ali-al-zaidi-meets-ahmed-al-sharaa-in-historic-syria-visit?traffic_source=rss",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/turkeys-force-buildup-for-the-syrian-navy/",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/144282/",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/iraq-syria-discuss-oil-exports-via-baniyas-pipeline-with-capacity-of-2m-barrels-per-day/4103512",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/965266/hezbollah-chief-calls-israeli-election-results-a-form-of-defeat-reject/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965266",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-says-french-jihadist-killed-shootout-govt-forces",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49034",
+    "accessed_at": "2026-10-28T17:06:33+00:00"
+   }
+  ]
+ }
+}
