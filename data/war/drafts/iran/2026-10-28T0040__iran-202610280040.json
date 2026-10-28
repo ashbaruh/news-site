@@ -1,0 +1,245 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b8638d81b4a4",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-28T00:40:27+00:00",
+  "window": {
+   "from": "2026-10-27T00:40:27+00:00",
+   "to": "2026-10-28T00:40:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610280040"
+  },
+  "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במקביל למאמצים דיפלומטיים אזוריים של שכנות איראן לבלום הסלמה ולדרוש את הבטחת חופש השיט במצר הורמוז. איראן מעמיקה את שיתוף הפעולה הכלכלי והאנרגטי עם רוסיה על אף הסנקציות והסגר הימי האמריקאי, בעוד שבזירה הפנימית בישראל ובארה\"ב מתנהל שיח ער לקראת אפשרות של פעולות צבאיות נוספות והשפעתן הפוליטית.",
+  "fronts": [
+   {
+    "name": "הזירה הישראלית-איראנית",
+    "status": "פעיל ומתוח לקראת הכרעות אפשריות"
+   },
+   {
+    "name": "מפרץ הורמוז והסגר הימי",
+    "status": "במוקד חיכוך ולחץ דיפלומטי אזורי"
+   },
+   {
+    "name": "ציר איראן-רוסיה",
+    "status": "מתהדק בתחומי הכלכלה והאנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10280040-01",
+    "title": "פגישת בכירים מסעודיה, פקיסטן וטורקיה בטהראן",
+    "summary": "בכירים מסעודיה, טורקיה ופקיסטן קיימו שיחות בטהראן עם נציגי איראן בנוגע לדרכים למניעת התחדשות הלחימה באזור, הפסקת תקיפות החות'ים וסוגיות נוספות.",
+    "axis": "ציר איראן מול המפרץ והמערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-26T23:24:17+00:00",
+    "last_update_at": "2026-10-27T22:56:56+00:00",
+    "what_is_not_verified": "האם הושגו הסכמות מעשיות בנוגע לתקיפות החות'ים או מנופי הלחץ האיראניים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610277978",
+      "published_at": "2026-10-27T22:56:56+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+      "published_at": "2026-10-27T20:48:19+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+      "published_at": "2026-10-26T23:24:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10280040-02",
+    "title": "ועידת פורום המדינות המייצאות גז ברוסיה",
+    "summary": "נשיא איראן השתתף בוועידת פורום המדינות המייצאות גז ברוסיה, קים פגישות עם נשיא רוסיה ושוחח עמו על פרויקטים משותפים באנרגיה.",
+    "axis": "ציר איראן-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T20:11:40+00:00",
+    "last_update_at": "2026-10-27T22:29:31+00:00",
+    "what_is_not_verified": "פירוט מלא של ההסכמות המסחריות והטכניות בין המדינות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_b9df37756e35252b",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+      "published_at": "2026-10-27T22:29:31+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_b9df37756e35252b",
+      "url": "https://en.irna.ir/news/86305393/Pezeshkian-Gas-Exporting-Countries-Forum-summit-was-constructive",
+      "published_at": "2026-10-27T21:51:02+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_3e028a1599a066f6",
+      "url": "https://en.irna.ir/news/86305375/President-Pezeshkian-departs-Moscow-for-Tehran",
+      "published_at": "2026-10-27T20:23:20+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_9065245742bb0115",
+      "url": "https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties",
+      "published_at": "2026-10-27T20:11:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10280040-03",
+    "title": "הופעת נאשמים בבית משפט בלונדון בגין סיוע למודיעין איראן",
+    "summary": "שני גברים הובאו בפני בית משפט בלונדון באשמת סיוע למודיעין איראני בהכנת תקיפות נגד עיתונאי איראן אינטרנשיונל ובסיס צבאי בריטי המשמש מפציצים אמריקאיים.",
+    "axis": "ציר איראן מול המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T17:44:16+00:00",
+    "last_update_at": "2026-10-27T21:02:38+00:00",
+    "what_is_not_verified": "האם הפעולות הושלמו בפועל מעבר לשלב האיסוף.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610271521",
+      "published_at": "2026-10-27T21:02:38+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610278185",
+      "published_at": "2026-10-27T17:44:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף ההשפעה המדויק של המשלחת הסעודית-טורקית-פקיסטנית על מדיניות איראן והחות'ים",
+   "קיומם בפועל של טילים איראניים חדשים המאיימים על אירופה או ארה\"ב",
+   "האם תתבצע תקיפה ישראלית או אמריקאית נוספת באיראן בטווח הקצר"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0496,
+    "unit": "ILS",
+    "change_pct": -0.98,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הרחבת הקשרים הכלכליים והאנרגטיים עם רוסיה ומדינות האזור",
+     "יצירת סדר ביטחוני אזורי ללא התערבות ארה\"ב"
+    ],
+    "inferred": [
+     "עקפה חלק מהסנקציות והסגר הימי באמצעות הידוק קשרים עם מוסקבה",
+     "ניצול דיפלומטיה אזורית כדי להפחית לחץ מבלי לוותר על נכסים אסטרטגיים"
+    ],
+    "forecast": [
+     "המשך הידוק הברית עם רוסיה",
+     "המשך מאמצי שיקום והתעצמות צבאית"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "מניעת התחמשות גרעינית איראנית",
+     "בלימת שלוחות איראן והבטחת חופש השיט במפרץ ובמיצרים"
+    ],
+    "inferred": [
+     "המשך אכיפת סגר ימי ופיקוח על ייצוא האנרגיה האיראני",
+     "הכנה לאפשרות של עימות צבאי נוסף במידת הצורך"
+    ],
+    "forecast": [
+     "שמירה על נוכחות צבאית במפרץ ובאזור",
+     "המשך לחץ מדיני וכלכלי על טהראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+    "accessed_at": "2026-10-28T00:40:27+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+    "accessed_at": "2026-10-28T00:40:27+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610278185",
+    "accessed_at": "2026-10-28T00:40:27+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties",
+    "accessed_at": "2026-10-28T00:40:27+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+    "accessed_at": "2026-10-28T00:40:27+00:00"
+   }
+  ]
+ }
+}

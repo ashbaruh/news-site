@@ -1,0 +1,143 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7c4d21f66161",
+ "preview": {
+  "events": 2,
+  "levels": {
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-28T00:58:04+00:00",
+  "window": {
+   "from": "2026-10-27T00:58:04+00:00",
+   "to": "2026-10-28T00:58:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610280058"
+  },
+  "summary": "בגזרה הצפונית מתנהלים מאמצים דיפלומטיים סביב עתיד כוחות הבינלאומיים בלבנון, לצד הערכות ביטחוניות בישראל המצביעות על שחיקה משמעותית בשדרת הפיקוד של חיזבאללה. תושבים בלבנון ובסוריה עוקבים אחר ההתפתחויות הפוליטיקות בישראל מתוך הערכה לשינוי מוגבל במדיניות.",
+  "fronts": [
+   {
+    "name": "החזית הצפונית (ישראל-לבנון)",
+    "status": "פעילות ביטחונית שוטפת והיערכות לאפשרות עימות מחודש"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10280058-01",
+    "title": "הערכות ביטחוניות בצה\"ל לגבי חיזבאללה",
+    "summary": "גורם ביטחוני ציין כי למרות מאמצי שיקום ניכרים בלבנון ובביירות, שדרת הפיקוד והמפקדים הוותיקים של חיזבאללה נפגעו קשות וחסרים ניסיון מבצעי",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-27T07:13:26+00:00",
+    "last_update_at": "2026-10-27T07:13:26+00:00",
+    "what_is_not_verified": "היקף השיקום המדויק ומידת מוכנותו של ארגון חיזבאללה לעימות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383959057",
+      "published_at": "2026-10-27T07:13:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10280058-02",
+    "title": "הצהרת נשיא לבנון על יוניפי\"ל",
+    "summary": "נשיא לבנון הביע רצון בהמשך פעילות כוח יוניפי\"ל בדרום לבנון או בהצבת כוח אירופי חלופי",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T13:06:41+00:00",
+    "last_update_at": "2026-10-27T13:06:41+00:00",
+    "what_is_not_verified": "האם יושג הסכם להארכת המנדט או להחלפת הכוח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132664",
+      "published_at": "2026-10-27T13:06:41+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מידת יכולתו המבצעית המדויקת של חיזבאללה לשקום כוחו לאחר פגיעה בשדרת הפיקוד",
+   "ההיתכנות המדויקת להצבת כוח אירופי חלופי ליוניפי\"ל בדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.0496,
+    "unit": "ILS",
+    "change_pct": -0.98,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התחמשות ופירוק חיזבאללה מנכסיו"
+    ],
+    "inferred": [
+     "שמירה על לחץ צבאי למניעת התאוששות ארגוני הטרור בצפון"
+    ],
+    "forecast": [
+     "המשך היערכות מפני התחדשות העימות בצפון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "התנגדות להתערבות זרה והשפעה אמריקאית בלבנון"
+    ],
+    "inferred": [
+     "שיקום יכולות צבאיות ותשתיות שנפגעו במהלך הלחימה"
+    ],
+    "forecast": [
+     "המשך מאמצי שיקום תחת לחץ צבאי ופוליטי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132664",
+    "accessed_at": "2026-10-28T00:58:04+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383959057",
+    "accessed_at": "2026-10-28T00:58:04+00:00"
+   }
+  ]
+ }
+}

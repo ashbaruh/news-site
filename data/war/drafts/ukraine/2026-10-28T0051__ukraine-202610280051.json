@@ -1,0 +1,341 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1c52a638711c",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-28T00:51:58+00:00",
+  "window": {
+   "from": "2026-10-27T00:51:58+00:00",
+   "to": "2026-10-28T00:51:58+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202610280051"
+  },
+  "summary": "הלחימה באוקראינה נמשכת בעיצומן של התנגשויות קרקעיות ותקיפות אוויריות הדדיות, לצד פתיחת הפוגה הומניטרית מקומית באזור אולשקי. במקביל מתנהלים מגעים דיפלומטיים שונים הכוללים שיחות בין מנהיגים אירופאים למוסקבה והיערכות לפגישות משולשות עתידיות.",
+  "fronts": [
+   {
+    "name": "חזית פוקרובסק",
+    "status": "פעילה וחמה"
+   },
+   {
+    "name": "חזית קופיאנסק",
+    "status": "פעילה עם פעילות מיוחדת"
+   },
+   {
+    "name": "חזית חרסון ואולשקי",
+    "status": "הפוגה מקומית זמנית"
+   },
+   {
+    "name": "עורף קייב וחארקוב",
+    "status": "תחת תקיפות טילים וכטב\"מים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10280051-01",
+    "title": "תקיפה באזור מפעל הפלדה בליפצק",
+    "summary": "שריפה פרצה באזור מפעל פלדה לאחר הפעלת מערכות הגנה אווירית בעקבות תקיפה מדווחת.",
+    "axis": "תקיפות אוויריות ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T21:41:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T21:41:31+00:00",
+    "last_update_at": "2026-10-27T23:29:56+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאחריות המדויקת של התקיפה אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_exilenova_plus",
+      "url": "https://kyivindependent.com/fires-burn-in-russian-city-of-lipetsk-after-reported-ukrainian-attack/",
+      "published_at": "2026-10-27T23:29:56+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_exilenova_plus",
+      "url": "https://t.me/alexmehacarmel/49029",
+      "published_at": "2026-10-27T21:41:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ליפצק, רוסיה",
+      "lat": 52.6051,
+      "lon": 39.5964
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10280051-02",
+    "title": "תקיפת בניין מגורים בחארקוב",
+    "summary": "כוחות רוסיים פגעו בבניין מגורים במחוז בחארקוב ודווחו נפגעים ראשוניים.",
+    "axis": "חזית המזרח והצפון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T21:45:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T21:45:00+00:00",
+    "last_update_at": "2026-10-27T21:45:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4d8f079e415544d8",
+      "url": "https://www.ukrinform.net/rubric-ato/4178779-russian-forces-strike-apartment-building-in-kharkiv-casualties-reported.html",
+      "published_at": "2026-10-27T21:45:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10280051-03",
+    "title": "הפוגה מקומית באולשקי ותחילת פינוי",
+    "summary": "הפוגה מקומית בלחימה החלה באולשקי לשם מתן אפשרות למעבר ציוד הומניטרי ופינוי אזרחים.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T01:30:27+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-27T01:30:27+00:00",
+    "last_update_at": "2026-10-27T17:59:24+00:00",
+    "what_is_not_verified": "פרטי המסלולים המדויקים ויעדי הפינוי הסופיים של כלל התושבים אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_01b970b7b7fa3481",
+      "url": "https://tass.com/world/2209053",
+      "published_at": "2026-10-27T17:59:24+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_01b970b7b7fa3481",
+      "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+      "published_at": "2026-10-27T17:43:02+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_01b970b7b7fa3481",
+      "url": "https://meduza.io/en/feature/2026/10/27/trapped-without-food-electricity-or-medicine-civilians-in-occupied-oleshky-finally-have-a-chance-to-escape-but-even-those-wishing-to-go-to-ukraine-will-reportedly-be-taken-to-russia-first",
+      "published_at": "2026-10-27T17:37:05+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_01b970b7b7fa3481",
+      "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T15:13:24+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_4e5c8adc40fbc9e8",
+      "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+      "published_at": "2026-10-27T01:30:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10280051-04",
+    "title": "מבצע ותחת פני הקרקע בגזרת קופיאנסק",
+    "summary": "כוחות אוקראיניים ביצעו התקדמות תת-קרקעית במסגרת מבצע 'ולס' בגזרת קופיאנסק.",
+    "axis": "חזית המזרח והצפון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T17:37:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T17:37:00+00:00",
+    "last_update_at": "2026-10-27T23:32:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בצד הרוסי אינו מאומת ממקור חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_98c11994b857275b",
+      "url": "https://www.ukrinform.net/rubric-ato/4178572-soldier-who-held-position-alone-for-491-days-nominated-for-hero-of-ukraine-title.html",
+      "published_at": "2026-10-27T23:32:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_98c11994b857275b",
+      "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-reveals-details-of-operation-veles/",
+      "published_at": "2026-10-27T19:20:27+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_98c11994b857275b",
+      "url": "https://kyivindependent.com/ukraines-veles-pipeline-operation-near-kupiansk-eliminates-over-100-russian-troops-zelensky-says/",
+      "published_at": "2026-10-27T18:05:12+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_98c11994b857275b",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059988/",
+      "published_at": "2026-10-27T17:37:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קופיאנסק, אוקראינה",
+      "lat": 49.7133,
+      "lon": 37.6142
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10280051-05",
+    "title": "תקיפות טילים בליסטיים בקייב ובסביבתה",
+    "summary": "כוחות רוסיים שיגרו טילים בליסטיים לעבר אזורים שונים בקייב ובמחוז קייב בשבועיים האחרונים.",
+    "axis": "תקיפות אוויריות ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T01:30:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T01:30:27+00:00",
+    "last_update_at": "2026-10-27T19:15:00+00:00",
+    "what_is_not_verified": "מספר הטילים המדויק שפגע ביעדים לעומת אלה שיורטו מבוסס על הצהרות רשמיות בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_4e5c8adc40fbc9e8",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059999/",
+      "published_at": "2026-10-27T19:15:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_4e5c8adc40fbc9e8",
+      "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+      "published_at": "2026-10-27T01:30:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "{'string': 'פרטי ההסכמים המלאים סביב הסרת סנקציות אפשרית מעל קרן ההשקעות הרוסית במסגרת עסקאות דלק.'}",
+   "{'string': 'זהותם המדויקת של המסלולים והיעדים הסופיים במסגרת הפינוי מאולשקי.'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.115,
+    "unit": "USD",
+    "change_pct": -0.34,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על תשתיות האנרגיה והתחבורה",
+     "השגת חבילות סיוע צבאי נוספות וטילים למערכות הגנה אווירית",
+     "קידום מעורבות אירופאית ובינלאומית בהליכי משא ומתן"
+    ],
+    "inferred": [
+     "שחיקת הכוחות הרוסיים בגזרות המפתח כמו קופיאנסק ופוקרובסק",
+     "יצירת לחץ באמצעות פגיעה במטרות בעורף הרוסי"
+    ],
+    "forecast": [
+     "המשך הדרישה לאספקת טילי פטריוט מתקדמים",
+     "ניסיון להרחיב את ההפוגות ההומניטריות לאזורים נוספים תחת כיבוש"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך לחץ צבאי במספר חזיתות עיקריות באוקראינה",
+     "עמידה על דרישותיה במסגרת שיחות ההסדרה"
+    ],
+    "inferred": [
+     "ניצול תקיפות אוויריות כדי לפגוע בעורף ובכלכלה האוקראינית",
+     "השגת הקלות בסנקציות הכלכליות הבינלאומיות"
+    ],
+    "forecast": [
+     "המשך מתקפות טילים וכטב\"מים על ערים מרכזיות באוקראינה",
+     "הידוק שיתופי פעולה עקיפים והשתלבות באירועים בינלאומיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraines-veles-pipeline-operation-near-kupiansk-eliminates-over-100-russian-troops-zelensky-says/",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/27/trapped-without-food-electricity-or-medicine-civilians-in-occupied-oleshky-finally-have-a-chance-to-escape-but-even-those-wishing-to-go-to-ukraine-will-reportedly-be-taken-to-russia-first",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059999/",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2209053",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49029",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4178572-soldier-who-held-position-alone-for-491-days-nominated-for-hero-of-ukraine-title.html",
+    "accessed_at": "2026-10-28T00:51:58+00:00"
+   }
+  ]
+ }
+}

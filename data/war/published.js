@@ -410,72 +410,66 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-27T0530__iran-202610270530.json",
+  "draft": "drafts/iran/2026-10-28T0040__iran-202610280040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-27T05:30:29+00:00",
+   "generated_at": "2026-10-28T00:40:27+00:00",
    "window": {
-    "from": "2026-10-26T05:30:29+00:00",
-    "to": "2026-10-27T05:30:29+00:00"
+    "from": "2026-10-27T00:40:27+00:00",
+    "to": "2026-10-28T00:40:27+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202610270530"
+    "run_id": "iran-202610280040"
    },
-   "summary": "הזירה מאופיינת במתיחות צבאית גבוהה סביב תכניות גרעין, איומי תקיפה הדדיים בין איראן, ישראל וארה\"ב, ופעילות דיפלומטית אזורית הכוללת יוזמות ביטחוניות של מדינות המפרץ והאזור ללא תלות מלאה בוושינגטון. במקביל, נמשכות הכנות צבאיות והזרמות תקציבים לשלוחות איראן לצד לחץ כלכלי וסנקציות אגרסיביות מצד ארה\"ב.",
+   "summary": "העימות בין איראן לבין ישראל וארה\"ב נמשך במקביל למאמצים דיפלומטיים אזוריים של שכנות איראן לבלום הסלמה ולדרוש את הבטחת חופש השיט במצר הורמוז. איראן מעמיקה את שיתוף הפעולה הכלכלי והאנרגטי עם רוסיה על אף הסנקציות והסגר הימי האמריקאי, בעוד שבזירה הפנימית בישראל ובארה\"ב מתנהל שיח ער לקראת אפשרות של פעולות צבאיות נוספות והשפעתן הפוליטית.",
    "fronts": [
     {
-     "name": "ישראל - איראן וחיזבאללה",
-     "status": "כוננות גבוהה ואיומי תקיפה הדדיים"
+     "name": "הזירה הישראלית-איראנית",
+     "status": "פעיל ומתוח לקראת הכרעות אפשריות"
     },
     {
-     "name": "ארה\"ב - איראן",
-     "status": "החרפת סנקציות כלכליות ואיומים צבאיים"
+     "name": "מפרץ הורמוז והסגר הימי",
+     "status": "במוקד חיכוך ולחץ דיפלומטי אזורי"
     },
     {
-     "name": "מדינות המפרץ והסכם מכה - איראן",
-     "status": "דיאלוג מדיני לגיבוש מסגרת ביטחונית אזורית"
+     "name": "ציר איראן-רוסיה",
+     "status": "מתהדק בתחומי הכלכלה והאנרגיה"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10270530-01",
-     "title": "פגישת בכירים בטהראן במסגרת הסכם מכה",
-     "summary": "בכירים ממדינות שונות ובהן סעודיה, טורקיה ופקיסטן נפגשו בטהראן עם הנהגת איראן לדון במנגנון ביטחון אזורי.",
-     "axis": "ציר איראן והמפרץ",
+     "id": "IRAN-10280040-01",
+     "title": "פגישת בכירים מסעודיה, פקיסטן וטורקיה בטהראן",
+     "summary": "בכירים מסעודיה, טורקיה ופקיסטן קיימו שיחות בטהראן עם נציגי איראן בנוגע לדרכים למניעת התחדשות הלחימה באזור, הפסקת תקיפות החות'ים וסוגיות נוספות.",
+     "axis": "ציר איראן מול המפרץ והמערב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T19:31:07+00:00",
+     "occurred_at": "2026-10-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T19:31:07+00:00",
-     "last_update_at": "2026-10-27T05:06:32+00:00",
-     "what_is_not_verified": "פרטי ההסכמות המדויקים בין הצדדים אינם מאומתים במלואם.",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-10-26T23:24:17+00:00",
+     "last_update_at": "2026-10-27T22:56:56+00:00",
+     "what_is_not_verified": "האם הושגו הסכמות מעשיות בנוגע לתקיפות החות'ים או מנופי הלחץ האיראניים.",
+     "is_new_in_window": false,
      "reports": [
       {
        "source_id": "src_iranintl",
-       "source_root_id": "fh_4a126ba57fadf36b",
-       "url": "https://www.iranintl.com/en/202610266454",
-       "published_at": "2026-10-27T05:06:32+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610277978",
+       "published_at": "2026-10-27T22:56:56+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_4a126ba57fadf36b",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
-       "published_at": "2026-10-27T03:55:43+00:00"
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+       "published_at": "2026-10-27T20:48:19+00:00"
       },
       {
        "source_id": "src_france24",
-       "source_root_id": "fh_9af7b79153c710ec",
+       "source_root_id": "or_unknown_origin",
        "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
        "published_at": "2026-10-26T23:24:17+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_4a126ba57fadf36b",
-       "url": "https://t.me/alexmehacarmel/48983",
-       "published_at": "2026-10-26T19:31:07+00:00"
       }
      ],
      "places": [
@@ -487,79 +481,92 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-10270530-02",
-     "title": "יירוט טילי חות'ים על ידי כוחות סעודיים",
-     "summary": "כוחות סעודיים יירטו טילי חות'ים ששוגרו לעבר שטחי סעודיה.",
-     "axis": "ציר איראן והשלוחות מול סעודיה והמפרץ",
+     "id": "IRAN-10280040-02",
+     "title": "ועידת פורום המדינות המייצאות גז ברוסיה",
+     "summary": "נשיא איראן השתתף בוועידת פורום המדינות המייצאות גז ברוסיה, קים פגישות עם נשיא רוסיה ושוחח עמו על פרויקטים משותפים באנרגיה.",
+     "axis": "ציר איראן-רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T04:54:26+00:00",
-     "last_update_at": "2026-10-27T04:54:26+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק או מספר הטילים שלא יורטו אינו מפורט.",
+     "first_reported_at": "2026-10-27T20:11:40+00:00",
+     "last_update_at": "2026-10-27T22:29:31+00:00",
+     "what_is_not_verified": "פירוט מלא של ההסכמות המסחריות והטכניות בין המדינות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_aljazeera",
-       "source_root_id": "fh_5f145060bf229ad8",
-       "url": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
-       "published_at": "2026-10-27T04:54:26+00:00"
+       "source_root_id": "fh_b9df37756e35252b",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+       "published_at": "2026-10-27T22:29:31+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_b9df37756e35252b",
+       "url": "https://en.irna.ir/news/86305393/Pezeshkian-Gas-Exporting-Countries-Forum-summit-was-constructive",
+       "published_at": "2026-10-27T21:51:02+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_3e028a1599a066f6",
+       "url": "https://en.irna.ir/news/86305375/President-Pezeshkian-departs-Moscow-for-Tehran",
+       "published_at": "2026-10-27T20:23:20+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_9065245742bb0115",
+       "url": "https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties",
+       "published_at": "2026-10-27T20:11:40+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
+      }
+     ]
     },
     {
-     "id": "IRAN-10270530-03",
-     "title": "דיווח על ספינה בוערת מול חופי עיראק",
-     "summary": "גורמי ספנות דיווחו על ספינה שעולה באש מול חופי עיראק.",
-     "axis": "ציר המפרץ והספנות",
+     "id": "IRAN-10280040-03",
+     "title": "הופעת נאשמים בבית משפט בלונדון בגין סיוע למודיעין איראן",
+     "summary": "שני גברים הובאו בפני בית משפט בלונדון באשמת סיוע למודיעין איראני בהכנת תקיפות נגד עיתונאי איראן אינטרנשיונל ובסיס צבאי בריטי המשמש מפציצים אמריקאיים.",
+     "axis": "ציר איראן מול המערב",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T00:00:00+00:00",
-     "last_update_at": "2026-10-27T00:00:00+00:00",
-     "what_is_not_verified": "סיבת השריפה המדויקת והזהות המלאה של הגורם לפגיעה אינן מאומתות.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T17:44:16+00:00",
+     "last_update_at": "2026-10-27T21:02:38+00:00",
+     "what_is_not_verified": "האם הפעולות הושלמו בפועל מעבר לשלב האיסוף.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_ukmto_report_via_al_jazeera",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
-       "published_at": "2026-10-27T00:00:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10270530-04",
-     "title": "חילוץ מלחים איראנים מול חופי סרי לנקה",
-     "summary": "ארבעים מלחים איראנים שנתקעו חולצו על ידי הרשויות בסרי לנקה והוחזרו לאיראן.",
-     "axis": "ציר איראן הבינלאומי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T03:47:28+00:00",
-     "last_update_at": "2026-10-26T05:30:29+00:00",
-     "what_is_not_verified": "סיבת התקיעות המקורית של המלחים בים.",
-     "is_new_in_window": false,
-     "reports": [
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610271521",
+       "published_at": "2026-10-27T21:02:38+00:00"
+      },
       {
-       "source_id": "src_bbc",
-       "source_root_id": "or_sri_lankan_authorities",
-       "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-10-26T03:47:28+00:00"
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202610278185",
+       "published_at": "2026-10-27T17:44:16+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
     }
    ],
    "not_verified": [
-    "קיומו של מידע קונקרטי על פעולה איראנית מיידית או מעורבות חיזבאללה בבחירות בישראל",
-    "דיווחים על שיגורי ניסוי טילים ספציפיים באזורים שונים באיראן",
-    "נתונים מוחלטים על היקף התכווצות הכלכלה האיראנית הצפויה"
+    "היקף ההשפעה המדויק של המשלחת הסעודית-טורקית-פקיסטנית על מדיניות איראן והחות'ים",
+    "קיומם בפועל של טילים איראניים חדשים המאיימים על אירופה או ארה\"ב",
+    "האם תתבצע תקיפה ישראלית או אמריקאית נוספת באיראן בטווח הקצר"
    ],
    "map": {
     "confidence": "medium",
@@ -570,285 +577,232 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.0799,
+     "value": 3.0496,
      "unit": "ILS",
-     "change_pct": -1.33,
+     "change_pct": -0.98,
      "source_id": "src_ecb",
-     "as_of": "2026-10-26T15:00:00+00:00"
+     "as_of": "2026-10-27T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "הקמת מנגנון ביטחון אזורי ללא ארה\"ב וישראל",
-      "הגנה על נתיבי השיפון והתרת פעילות בטוחה במים"
+      "הרחבת הקשרים הכלכליים והאנרגטיים עם רוסיה ומדינות האזור",
+      "יצירת סדר ביטחוני אזורי ללא התערבות ארה\"ב"
      ],
      "inferred": [
-      "שימור יכולות הלחימה של השלוחות באזור ובנייתן מחדש",
-      "הרצון להפגין הרתעה באמצעות ניסויי טילים"
+      "עקפה חלק מהסנקציות והסגר הימי באמצעות הידוק קשרים עם מוסקבה",
+      "ניצול דיפלומטיה אזורית כדי להפחית לחץ מבלי לוותר על נכסים אסטרטגיים"
      ],
      "forecast": [
-      "חיזוק שיתופי הפעולה האזוריים במסגרת הסכמי מכה",
-      "המשך פיתוח והצגת יכולות טילים בליסטיים"
+      "המשך הידוק הברית עם רוסיה",
+      "המשך מאמצי שיקום והתעצמות צבאית"
      ]
     },
     {
-     "actor": "ישראל",
+     "actor": "ארה\"ב וישראל",
      "declared": [
-      "הסרת האיום הגרעיני האיראני",
-      "היערכות לכלל התרחישים מול איראן ושלוחותיה בזמן בחירות"
+      "מניעת התחמשות גרעינית איראנית",
+      "בלימת שלוחות איראן והבטחת חופש השיט במפרץ ובמיצרים"
      ],
      "inferred": [
-      "מחלוקת פנימית בצמרת הביטחונית והמדינית סביב עיתוי תקיפה אפשרית",
-      "ניסיון לשמור על מוכנות מול אפשרות התלקחות אזורית פתאומית"
+      "המשך אכיפת סגר ימי ופיקוח על ייצוא האנרגיה האיראני",
+      "הכנה לאפשרות של עימות צבאי נוסף במידת הצורך"
      ],
      "forecast": [
-      "המשך הדריכות הביטחונית הגבוהה עד להכרעה פוליטית ומדינית",
-      "מעקב הדוק אחר פעילות איראן וחיזבאללה"
-     ]
-    },
-    {
-     "actor": "ארה\"ב",
-     "declared": [
-      "הפעלת לחץ כלכלי חסר תקדים ובידוד איראן",
-      "מניעת השפעה שלילית של טהראן על היציבות האזורית"
-     ],
-     "inferred": [
-      "שאיפה לצמצם את מרחב התמרון הכלכלי והצבאי של משטר האייתוללות",
-      "תמיכה בשותפות אזוריות לבלימת ההשפעה האיראנית"
-     ],
-     "forecast": [
-      "החמרת שלבי 'הבידוד הכלכלי' נגד איראן בחודשים הקרובים",
-      "המשך האיומים הצבאיים מול טהראן"
+      "שמירה על נוכחות צבאית במפרץ ובאזור",
+      "המשך לחץ מדיני וכלכלי על טהראן"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
-    },
-    {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/c9p8g7e4k2xjo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+     "accessed_at": "2026-10-28T00:40:27+00:00"
     },
     {
      "source_id": "src_france24",
      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
+     "accessed_at": "2026-10-28T00:40:27+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610266454",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
+     "url": "https://www.iranintl.com/en/202610278185",
+     "accessed_at": "2026-10-28T00:40:27+00:00"
     },
     {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
+     "source_id": "src_irna",
+     "url": "https://en.irna.ir/news/86305374/Iranian-Russian-presidents-pledge-to-expand-bilateral-ties",
+     "accessed_at": "2026-10-28T00:40:27+00:00"
     },
     {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48983",
-     "accessed_at": "2026-10-27T05:30:29+00:00"
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+     "accessed_at": "2026-10-28T00:40:27+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-26T16:57:05+00:00",
+  "previous_generated_at": "2026-10-27T05:30:29+00:00",
   "changes": {
-   "IRAN-10270530-01": {
-    "kind": "up",
-    "from": "shared_root",
-    "to": "verified",
-    "prev": "פגישת ברית מכה בטהרן",
-    "score": 0.817
+   "IRAN-10280040-01": {
+    "kind": "down",
+    "from": "verified",
+    "to": "shared_root",
+    "prev": "פגישת בכירים בטהראן במסגרת הסכם מכה",
+    "score": 1.0
    },
-   "IRAN-10270530-02": {
+   "IRAN-10280040-02": {
     "kind": "new"
    },
-   "IRAN-10270530-03": {
-    "kind": "new"
-   },
-   "IRAN-10270530-04": {
+   "IRAN-10280040-03": {
     "kind": "new"
    }
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-27T0536__ukraine-202610270536.json",
+  "draft": "drafts/ukraine/2026-10-28T0051__ukraine-202610280051.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-27T05:36:14+00:00",
+   "generated_at": "2026-10-28T00:51:58+00:00",
    "window": {
-    "from": "2026-10-26T05:36:14+00:00",
-    "to": "2026-10-27T05:36:14+00:00"
+    "from": "2026-10-27T00:51:58+00:00",
+    "to": "2026-10-28T00:51:58+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202610270536"
+    "run_id": "ukraine-202610280051"
    },
-   "summary": "הלחימה בין רוסיה ואוקראינה נמשכת ביתאת עצימות גבוהה, הכוללת מתקפות טילים בליסטיים רוסיות על מרכזים אזרחיים וקייב לצד תקיפות תשתיות אנרגיה. במקביל, מתנהלים מגעים דיפלומטיים ותיווך בינלאומי המביאים להפסקות אש מקומיות מוגבלות לצורך סיוע הומניטרי באזורים נצורים כמו אולשקי. המערכה בים השחור ממשיכה להוות אזור סיכון מסחרי גבוה בשל פגיעות הדדיות בשיבח ימי.",
+   "summary": "הלחימה באוקראינה נמשכת בעיצומן של התנגשויות קרקעיות ותקיפות אוויריות הדדיות, לצד פתיחת הפוגה הומניטרית מקומית באזור אולשקי. במקביל מתנהלים מגעים דיפלומטיים שונים הכוללים שיחות בין מנהיגים אירופאים למוסקבה והיערכות לפגישות משולשות עתידיות.",
    "fronts": [
     {
-     "name": "החזית האווירית ומרכזי השלטון (קייב והסביבה)",
-     "status": "פעיל מאוד - תקיפות טילים בליסטיים"
+     "name": "חזית פוקרובסק",
+     "status": "פעילה וחמה"
     },
     {
-     "name": "חזית הדרום (חרסון ואולשקי)",
-     "status": "פעיל עם הפוגה הומניטרית מקומית"
+     "name": "חזית קופיאנסק",
+     "status": "פעילה עם פעילות מיוחדת"
     },
     {
-     "name": "החזית המזרחית (לוגנסק וחרקיב)",
-     "status": "פעיל - חילופי אש ותקיפות מחסנים"
+     "name": "חזית חרסון ואולשקי",
+     "status": "הפוגה מקומית זמנית"
     },
     {
-     "name": "הזירה הימית (הים השחור)",
-     "status": "פעיל ומסוכן לשיבח מסחרי"
+     "name": "עורף קייב וחארקוב",
+     "status": "תחת תקיפות טילים וכטב\"מים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10270536-01",
-     "title": "מתקפת טילים בליסטיים על קייב",
-     "summary": "כוחות רוסיה תקפו את קייב בטילים בליסטיים, מה שהביא להרוגים, פצועים ולפגיעה במתקנים רפואיים, מוסדות חינוך ותשתיות.",
-     "axis": "תקיפות אוויריות והפצצות",
+     "id": "UKRAINE-10280051-01",
+     "title": "תקיפה באזור מפעל הפלדה בליפצק",
+     "summary": "שריפה פרצה באזור מפעל פלדה לאחר הפעלת מערכות הגנה אווירית בעקבות תקיפה מדווחת.",
+     "axis": "תקיפות אוויריות ועורף",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T20:16:41+00:00",
+     "occurred_at": "2026-10-27T21:41:31+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T20:16:41+00:00",
-     "last_update_at": "2026-10-27T05:24:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והאחריות למיקום המדויק של כל פגיעה לפי גרסאות שונות",
+     "first_reported_at": "2026-10-27T21:41:31+00:00",
+     "last_update_at": "2026-10-27T23:29:56+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והאחריות המדויקת של התקיפה אינם מאומתים באופן עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_0596b1e12e0b8f43",
-       "url": "https://www.ukrinform.net/rubric-ato/4178447-russian-ballistic-missile-attack-on-kyiv-kills-one-injures-10-and-damages-medical-facilities-and-school.html",
-       "published_at": "2026-10-27T05:24:00+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "fh_0596b1e12e0b8f43",
-       "url": "https://tass.com/emergencies/2208305",
-       "published_at": "2026-10-27T04:26:36+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "fh_50392301e02ab60e",
-       "url": "https://tass.com/emergencies/2208291",
-       "published_at": "2026-10-27T02:04:29+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "fh_0596b1e12e0b8f43",
-       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
-       "published_at": "2026-10-27T01:30:27+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_exilenova_plus",
+       "url": "https://kyivindependent.com/fires-burn-in-russian-city-of-lipetsk-after-reported-ukrainian-attack/",
+       "published_at": "2026-10-27T23:29:56+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "fh_0596b1e12e0b8f43",
-       "url": "https://t.me/alexmehacarmel/48996",
-       "published_at": "2026-10-27T01:30:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_0596b1e12e0b8f43",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059832/",
-       "published_at": "2026-10-26T20:58:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_5fa659f347683edb",
-       "url": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/",
-       "published_at": "2026-10-26T20:16:41+00:00"
+       "source_root_id": "or_exilenova_plus",
+       "url": "https://t.me/alexmehacarmel/49029",
+       "published_at": "2026-10-27T21:41:31+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "ליפצק, רוסיה",
+       "lat": 52.6051,
+       "lon": 39.5964
       }
      ]
     },
     {
-     "id": "UKRAINE-10270536-02",
-     "title": "תקיפה בחרקיב שהביאה להרוגים",
-     "summary": "שני בני אדם נהרגו וכמה נוספים נפצעו במתקפה רוסית על מחוז הבבארסקי בחרקיב.",
-     "axis": "תקיפות אוויריות והפצצות",
+     "id": "UKRAINE-10280051-02",
+     "title": "תקיפת בניין מגורים בחארקוב",
+     "summary": "כוחות רוסיים פגעו בבניין מגורים במחוז בחארקוב ודווחו נפגעים ראשוניים.",
+     "axis": "חזית המזרח והצפון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T22:55:00+00:00",
+     "occurred_at": "2026-10-27T21:45:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T22:55:00+00:00",
-     "last_update_at": "2026-10-26T22:55:00+00:00",
-     "what_is_not_verified": "סוג הנשק המדויק ששימש בתקיפה",
+     "first_reported_at": "2026-10-27T21:45:00+00:00",
+     "last_update_at": "2026-10-27T21:45:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת סופית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_ihor_terekhov",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059817/",
-       "published_at": "2026-10-26T22:55:00+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_4d8f079e415544d8",
+       "url": "https://www.ukrinform.net/rubric-ato/4178779-russian-forces-strike-apartment-building-in-kharkiv-casualties-reported.html",
+       "published_at": "2026-10-27T21:45:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרקיב, אוקראינה",
+       "name": "חארקוב, אוקראינה",
        "lat": 49.9923,
        "lon": 36.231
       }
      ]
     },
     {
-     "id": "UKRAINE-10270536-03",
-     "title": "הפסקת אש מקומית באולשקי ופינוי אזרחים",
-     "summary": "הוכרזה הפסקת אש מקומית במרחב אולשקי במחוז חרסון כדי לאפשר הכנסת סיוע הומניטרי ופינוי אזרחים.",
-     "axis": "הומניטרי והפסקות אש",
+     "id": "UKRAINE-10280051-03",
+     "title": "הפוגה מקומית באולשקי ותחילת פינוי",
+     "summary": "הפוגה מקומית בלחימה החלה באולשקי לשם מתן אפשרות למעבר ציוד הומניטרי ופינוי אזרחים.",
+     "axis": "חזית הדרום",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T19:13:00+00:00",
+     "occurred_at": "2026-10-27T01:30:27+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-26T19:13:00+00:00",
-     "last_update_at": "2026-10-27T04:58:00+00:00",
-     "what_is_not_verified": "זהות המפקחים על הפסקת האש ופרטי מנגנון הסיוע",
+     "first_reported_at": "2026-10-27T01:30:27+00:00",
+     "last_update_at": "2026-10-27T17:59:24+00:00",
+     "what_is_not_verified": "פרטי המסלולים המדויקים ויעדי הפינוי הסופיים של כלל התושבים אינם מאומתים במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_melania_trump_s_chief_adviser",
-       "url": "https://www.ukrinform.net/rubric-society/4178445-melania-trumps-chief-adviser-russia-pledges-to-respect-oleshky-residents-evacuation-choices.html",
-       "published_at": "2026-10-27T04:58:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_melania_trump_s_chief_adviser",
-       "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
-       "published_at": "2026-10-27T02:58:18+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_melania_trump_s_chief_adviser",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
-       "published_at": "2026-10-27T02:33:07+00:00"
+       "source_id": "src_tass",
+       "source_root_id": "fh_01b970b7b7fa3481",
+       "url": "https://tass.com/world/2209053",
+       "published_at": "2026-10-27T17:59:24+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_melania_trump_s_chief_adviser",
-       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
-       "published_at": "2026-10-27T01:30:27+00:00"
+       "source_root_id": "fh_01b970b7b7fa3481",
+       "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+       "published_at": "2026-10-27T17:43:02+00:00"
       },
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_melania_trump_s_chief_adviser",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059829/",
-       "published_at": "2026-10-26T19:13:00+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_01b970b7b7fa3481",
+       "url": "https://meduza.io/en/feature/2026/10/27/trapped-without-food-electricity-or-medicine-civilians-in-occupied-oleshky-finally-have-a-chance-to-escape-but-even-those-wishing-to-go-to-ukraine-will-reportedly-be-taken-to-russia-first",
+       "published_at": "2026-10-27T17:37:05+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_01b970b7b7fa3481",
+       "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-27T15:13:24+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_4e5c8adc40fbc9e8",
+       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+       "published_at": "2026-10-27T01:30:27+00:00"
       }
      ],
      "places": [
@@ -860,126 +814,91 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-10270536-04",
-     "title": "דוח של ועדת האו\"ם על פשעי מלחמה באנרגיה",
-     "summary": "ועדת חקירה של האו\"ם קבעה כי ההתקפות השיטתיות של רוסיה על תשתיות האנרגיה של אוקראינה מהועות פשעים נגד האנושות ופשעי מלחמה.",
-     "axis": "הצהרות ומסקנות בינלאומיות",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T12:00:00+00:00",
-     "last_update_at": "2026-10-27T03:13:39+00:00",
-     "what_is_not_verified": "אינו מאומת לפי טענת רוסיה הרואה בנתונים מידע מומצא",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_russian_permanent_mission",
-       "url": "https://tass.com/politics/2208295",
-       "published_at": "2026-10-27T03:13:39+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_russian_permanent_mission",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
-       "published_at": "2026-10-26T19:17:00+00:00"
-      },
-      {
-       "source_id": "src_un_news",
-       "source_root_id": "or_russian_permanent_mission",
-       "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
-       "published_at": "2026-10-26T12:00:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10270536-05",
-     "title": "תקיפה על מחסן תחמושת בלוגנסק",
-     "summary": "כוחות אוקראיניים תקפו באמצעות רחפנים מחסן תחמושת רוסי באזור חרוסטלני שבמחוז לוגנסק.",
-     "axis": "חזית מזרחית",
+     "id": "UKRAINE-10280051-04",
+     "title": "מבצע ותחת פני הקרקע בגזרת קופיאנסק",
+     "summary": "כוחות אוקראיניים ביצעו התקדמות תת-קרקעית במסגרת מבצע 'ולס' בגזרת קופיאנסק.",
+     "axis": "חזית המזרח והצפון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T00:32:47+00:00",
+     "occurred_at": "2026-10-27T17:37:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T00:32:47+00:00",
-     "last_update_at": "2026-10-27T00:32:47+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק למחסן התחמושת",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_exilenova_plus",
-       "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
-       "published_at": "2026-10-27T00:32:47+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חרוסטלני, אוקראינה",
-       "lat": 48.1351,
-       "lon": 38.9199
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10270536-06",
-     "title": "גיוס שכירי חרב מאפריקה על ידי רוסיה",
-     "summary": "רוסיה מרחיבה את גיוס כוח האדם השכיר ממדינות אפריקה עקב אבידות כבדות ומחסור בכוח אדם בצבא.",
-     "axis": "גיוס וכוח אדם",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T02:27:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T02:27:00+00:00",
-     "last_update_at": "2026-10-27T02:27:00+00:00",
-     "what_is_not_verified": "מספר המתגייסים המדויק",
+     "first_reported_at": "2026-10-27T17:37:00+00:00",
+     "last_update_at": "2026-10-27T23:32:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק בצד הרוסי אינו מאומת ממקור חיצוני.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "or_bloomberg",
-       "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
-       "published_at": "2026-10-27T02:27:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10270536-07",
-     "title": "הרשעת מומחה מחשבים ברוסיה בגין תרומה לאוקראינה",
-     "summary": "בית משפט צבאי ברוסיה גזר 13 שנות מאסר על מומחה מחשבים בגין מימון טרור לאחר שתרם כספים המקושרים לאוקראינה.",
-     "axis": "עורף ודיכוי פנימי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-26T21:45:24+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T21:45:24+00:00",
-     "last_update_at": "2026-10-26T21:45:24+00:00",
-     "what_is_not_verified": "האם נתונים נוספים הועברו על ידי פלטפורמות נוספות מעבר למה שצוין",
-     "is_new_in_window": true,
-     "reports": [
+       "source_root_id": "fh_98c11994b857275b",
+       "url": "https://www.ukrinform.net/rubric-ato/4178572-soldier-who-held-position-alone-for-491-days-nominated-for-hero-of-ukraine-title.html",
+       "published_at": "2026-10-27T23:32:00+00:00"
+      },
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_department_one",
-       "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
-       "published_at": "2026-10-26T21:45:24+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_98c11994b857275b",
+       "url": "https://kyivindependent.com/ukraine-war-latest-zelensky-reveals-details-of-operation-veles/",
+       "published_at": "2026-10-27T19:20:27+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_98c11994b857275b",
+       "url": "https://kyivindependent.com/ukraines-veles-pipeline-operation-near-kupiansk-eliminates-over-100-russian-troops-zelensky-says/",
+       "published_at": "2026-10-27T18:05:12+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_98c11994b857275b",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059988/",
+       "published_at": "2026-10-27T17:37:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "קופיאנסק, אוקראינה",
+       "lat": 49.7133,
+       "lon": 37.6142
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10280051-05",
+     "title": "תקיפות טילים בליסטיים בקייב ובסביבתה",
+     "summary": "כוחות רוסיים שיגרו טילים בליסטיים לעבר אזורים שונים בקייב ובמחוז קייב בשבועיים האחרונים.",
+     "axis": "תקיפות אוויריות ועורף",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T01:30:27+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T01:30:27+00:00",
+     "last_update_at": "2026-10-27T19:15:00+00:00",
+     "what_is_not_verified": "מספר הטילים המדויק שפגע ביעדים לעומת אלה שיורטו מבוסס על הצהרות רשמיות בלבד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_4e5c8adc40fbc9e8",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059999/",
+       "published_at": "2026-10-27T19:15:00+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_4e5c8adc40fbc9e8",
+       "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+       "published_at": "2026-10-27T01:30:27+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     }
    ],
    "not_verified": [
-    "זהות הגורמים שיפקחו על הפסקת האש באולשקי וההסדרים המדויקים להפעלה",
-    "המועד המדויק ומיקום הפגישה המשולשת בין רוסיה, אוקראינה וארצות הברית",
-    "ההיתכנות המדויקת להשגת הסכם שלום לפני סוף השנה"
+    "{'string': 'פרטי ההסכמים המלאים סביב הסרת סנקציות אפשרית מעל קרן ההשקעות הרוסית במסגרת עסקאות דלק.'}",
+    "{'string': 'זהותם המדויקת של המסלולים והיעדים הסופיים במסגרת הפינוי מאולשקי.'}"
    ],
    "map": {
     "confidence": "high",
@@ -990,117 +909,114 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1188,
+     "value": 1.115,
      "unit": "USD",
-     "change_pct": -0.04,
+     "change_pct": -0.34,
      "source_id": "src_ecb",
-     "as_of": "2026-10-26T15:00:00+00:00"
+     "as_of": "2026-10-27T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "עדכון אסטרטגיית הביטחון הלאומי",
-      "הקדמת שיחות תלת-צדדיות עם ארצות הברית ורוסיה",
-      "הבטחת סיוע צבאי חיוני והגנה אווירית"
+      "הגנה על תשתיות האנרגיה והתחבורה",
+      "השגת חבילות סיוע צבאי נוספות וטילים למערכות הגנה אווירית",
+      "קידום מעורבות אירופאית ובינלאומית בהליכי משא ומתן"
      ],
      "inferred": [
-      "שאיפה לשמור על תמיכה בינלאומית ולמנוע את קריסת תשתיות האנרגיה בחורף",
-      "הפחתת לחץ הומניטרי באזורים נצורים כמו אולשקי"
+      "שחיקת הכוחות הרוסיים בגזרות המפתח כמו קופיאנסק ופוקרובסק",
+      "יצירת לחץ באמצעות פגיעה במטרות בעורף הרוסי"
      ],
      "forecast": [
-      "האצת מאמצים לקבלת חימושים קריטיים ממדינות המערב",
-      "ניסיון להגיע להבנות דיפלומטיות טרם החמרת תנאי החורף"
+      "המשך הדרישה לאספקת טילי פטריוט מתקדמים",
+      "ניסיון להרחיב את ההפוגות ההומניטריות לאזורים נוספים תחת כיבוש"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "המשך פעולות צבאיות ממוקדות ודחיית ממצאי ועדות החקירה של האו\"ם",
-      "כיבוד הסכמות מקומיות ספציפיות לפינוי תושבים באולשקי"
+      "המשך לחץ צבאי במספר חזיתות עיקריות באוקראינה",
+      "עמידה על דרישותיה במסגרת שיחות ההסדרה"
      ],
      "inferred": [
-      "התשה של העורף והתשתיות של אוקראינה באמצעות מתקפות שיטתיות לקראת החורף",
-      "הרחבת גיוס שכירי חרב זרים לכיסוי אבדות כוח אדם"
+      "ניצול תקיפות אוויריות כדי לפגוע בעורף ובכלכלה האוקראינית",
+      "השגת הקלות בסנקציות הכלכליות הבינלאומיות"
      ],
      "forecast": [
-      "המשך לחץ צבאי ואווירי על מרכזים אוקראיניים",
-      "הימנעות מוויתורים רחבים במשא ומתן עד להשגת יתרון בשדה הקור"
+      "המשך מתקפות טילים וכטב\"מים על ערים מרכזיות באוקראינה",
+      "הידוק שיתופי פעולה עקיפים והשתלבות באירועים בינלאומיים"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21715193",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/27/ukraine-war-briefing-russian-strikes-kyiv-truce-begins-oleshky",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://kyivindependent.com/ukraines-veles-pipeline-operation-near-kupiansk-eliminates-over-100-russian-troops-zelensky-says/",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/10/27/russia-sentences-an-it-specialist-to-13-years-for-donating-to-ukraine-s-military-binance-helped-investigators-prove-their-case",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://meduza.io/en/feature/2026/10/27/trapped-without-food-electricity-or-medicine-civilians-in-occupied-oleshky-finally-have-a-chance-to-escape-but-even-those-wishing-to-go-to-ukraine-will-reportedly-be-taken-to-russia-first",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059830/",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059999/",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/politics/2208295",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://tass.com/world/2209053",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48996",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://t.me/alexmehacarmel/49029",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
-    },
-    {
-     "source_id": "src_un_news",
-     "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
-     "accessed_at": "2026-10-27T05:36:14+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4178572-soldier-who-held-position-alone-for-491-days-nominated-for-hero-of-ukraine-title.html",
+     "accessed_at": "2026-10-28T00:51:58+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-26T03:41:54+00:00",
+  "previous_generated_at": "2026-10-27T05:36:14+00:00",
   "changes": {
-   "UKRAINE-10270536-01": {
+   "UKRAINE-10280051-01": {
     "kind": "new"
    },
-   "UKRAINE-10270536-02": {
+   "UKRAINE-10280051-02": {
     "kind": "new"
    },
-   "UKRAINE-10270536-03": {
+   "UKRAINE-10280051-03": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "הפסקת אש מקומית באולשקי ופינוי אזרחים",
+    "score": 1.0
+   },
+   "UKRAINE-10280051-04": {
     "kind": "new"
    },
-   "UKRAINE-10270536-04": {
-    "kind": "new"
-   },
-   "UKRAINE-10270536-05": {
-    "kind": "new"
-   },
-   "UKRAINE-10270536-06": {
-    "kind": "new"
-   },
-   "UKRAINE-10270536-07": {
-    "kind": "new"
+   "UKRAINE-10280051-05": {
+    "kind": "down",
+    "from": "verified",
+    "to": "shared_root",
+    "prev": "מתקפת טילים בליסטיים על קייב",
+    "score": 1.0
    }
   }
  },
