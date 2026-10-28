@@ -2,74 +2,83 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-10-27T1559__yemen-202610271559.json",
+  "draft": "drafts/yemen/2026-10-28T0613__yemen-202610280613.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-10-27T15:59:51+00:00",
+   "generated_at": "2026-10-28T06:13:05+00:00",
    "window": {
-    "from": "2026-10-26T15:59:51+00:00",
-    "to": "2026-10-27T15:59:51+00:00"
+    "from": "2026-10-27T06:13:05+00:00",
+    "to": "2026-10-28T06:13:05+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "yemen-202610271559"
+    "run_id": "yemen-202610280613"
    },
-   "summary": "העימות בין החות'ים בתימן לבין סעודיה והקואליציה האזורית חווה הסלמה ישירה שמתבטאת בירי טילים לעבר תשתיות נפט מרכזיות וערים בסעודיה. במקביל, כוחות הנתמכים על ידי סעודיה מנהלים מבצע קרקעי ואווירי נרחב בתוך שטחי תימן וסמוך למצר באב אל-מנדב. ברקע המתיחות מתרחבת מעורבותן של מצרים ובריטניה במאמצי ההגנה על הממלכה הסעודית.",
+   "summary": "הלחימה בזירה התימנית החריפה באופן ניכר, כאשר עימותים קרקעיים כבדים ופעילות אווירית מתחוללים במרחב האסטרטגי של מצר באב אל-מנדב ודרום-מערב המדינה. החות'ים ממשיכים לשגר טילים בליסטיים לעבר יעדים צבאיים ותשתיות נפט מרכזיות בעומק סעודיה, כולל באזור המזרחי וריאד. במקביל, סעודיה מהדקת את שיתוף הפעולה הביטחוני עם שותפות אזוריות על מנת לייצר הרתעה מול ההתקפות מתימן.",
    "fronts": [
     {
-     "name": "חזית תימן-סעודיה",
-     "status": "הסלמה בתקיפות טילים בליסטיים לעבר מתקני נפט וערים, לצד יירוטים והגברת היערכות ההגנה"
+     "name": "חזית מצר באב אל-מנדב וחוף הים האדום",
+     "status": "קרבות עזים בין כוחות הממשלה הנתמכים בסעודיה לבין החות'ים, לצד תקיפות אוויריות מרובות"
     },
     {
-     "name": "חזית פנים-תימן ומצר באב אל-מנדב",
-     "status": "לחימה עצימה בין כוחות פרו-סעודיים לחות'ים, כולל מתקפות אוויריות במחוז תעז ועימותים במצר"
+     "name": "חזית סעודיה - תימן (עורף סעודיה)",
+     "status": "ירי בליסטי חות'י מתמשך לעבר ערים ומתקני נפט מרכזיים, אל מול יירוטים של מערכות ההגנה"
+    },
+    {
+     "name": "חזית צנעא והמרכז ההררי",
+     "status": "ביצור מואץ של תשתיות תת-קרקעיות ומערכי מנהרות על ידי החות'ים"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-10271559-01",
-     "title": "מתקפת טילים על בית הזיקוק ראס תנורה בסעודיה",
-     "summary": "החות'ים שיגרו טיל בליסטי לעבר בית הזיקוק בראס תנורה במזרח סעודיה, ודיווחו על פגיעה שגרמה לשריפה, בעוד מקורות ביטחוניים דיווחו על שריפה שנבלמה.",
-     "axis": "תימן-סעודיה",
+     "id": "YEMEN-10280613-01",
+     "title": "יירוט טיל בליסטי ששוגר לעבר טאיף",
+     "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה טיל בליסטי ששוגר על ידי החות'ים לעבר העיר טאיף.",
+     "axis": "תימן - סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T03:00:00+00:00",
+     "occurred_at": "2026-10-28T01:11:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-27T11:46:31+00:00",
-     "last_update_at": "2026-10-27T14:15:22+00:00",
-     "what_is_not_verified": "היקף הנזק וההשפעה על פעילות טעינת הנפט אינם ברורים, ואין אישור רשמי של הרשויות בסעודיה על פגיעה ישירה במתקן.",
+     "first_reported_at": "2026-10-28T01:11:10+00:00",
+     "last_update_at": "2026-10-28T01:11:10+00:00",
+     "what_is_not_verified": "אין אימות עצמאי לשיגור או לתוצאות היירוט מעבר להודעת הקואליציה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/saudi-oil-infrastructure-crosshairs-houthis-claim-ras-tanura-strike",
-       "published_at": "2026-10-27T14:15:22+00:00"
-      },
+       "url": "https://www.sabanew.net/viewstory/154756",
+       "published_at": "2026-10-28T01:11:10+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_gcaptain",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/",
-       "published_at": "2026-10-27T14:05:44+00:00"
-      },
+       "name": "טאיף, ערב הסעודית",
+       "lat": 21.2703,
+       "lon": 40.4158
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10280613-02",
+     "title": "מתקפת טילים על בית הזיקוק בראס תנורה ופיצוצים בריאד",
+     "summary": "החות'ים טענו כי שיגרו טיל בליסטי לעבר בית הזיקוק בראס תנורה וגרמו לשרפות, בעוד הקואליציה הודיעה על יירוט שלושה טילים לעבר האזור המזרחי, ופיצוצים נשמעו בבירה ריאד.",
+     "axis": "תימן - סעודיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T13:51:29+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T13:51:29+00:00",
+     "last_update_at": "2026-10-27T13:51:29+00:00",
+     "what_is_not_verified": "מידת הנזק המדויקת למתקני הנפט בראס תנורה והשפעתה על הפעילות.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.newarab.com/news/houthis-claim-attack-saudi-oil-refinery-blasts-shake-riyadh",
        "published_at": "2026-10-27T13:51:29+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/houthis-hit-saudi-oil-refinery-iran-warns-more-devastating-response-further-us-israeli",
-       "published_at": "2026-10-27T13:48:20+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-missile",
-       "published_at": "2026-10-27T11:46:31+00:00"
       }
      ],
      "places": [
@@ -77,224 +86,168 @@ window.DB.war_published = {
        "name": "ראס תנורה, ערב הסעודית",
        "lat": 26.7074,
        "lon": 50.0674
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10271559-02",
-     "title": "יירוט טילים מעל מחוז המזרח ופיצוצים בריאד",
-     "summary": "הקואליציה בראשות סעודיה הודיעה על יירוט שלושה טילים בליסטיים שנורו לעבר מחוז המזרח, ובמקביל נשמעו פיצוצים עזים בעיר הבירה ריאד.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T04:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-27T07:15:43+00:00",
-     "last_update_at": "2026-10-27T15:26:33+00:00",
-     "what_is_not_verified": "לא הובהר מקור הפיצוצים בריאד והאם נגרמו מפגיעות או מיירוטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21719217",
-       "published_at": "2026-10-27T15:26:33+00:00"
       },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-claim-attack-saudi-oil-refinery-blasts-shake-riyadh",
-       "published_at": "2026-10-27T13:51:29+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/eyes-israel-elections-iran-says-us-not-serious-talks",
-       "published_at": "2026-10-27T07:15:43+00:00"
-      }
-     ],
-     "places": [
       {
        "name": "ריאד, ערב הסעודית",
        "lat": 24.6389,
        "lon": 46.716
+      },
+      {
+       "name": "אל-ח'ובאר, ערב הסעודית",
+       "lat": 26.304,
+       "lon": 50.196
       }
      ]
     },
     {
-     "id": "YEMEN-10271559-03",
-     "title": "דיווח על פגיעה בנמל התעופה בג'דה",
-     "summary": "ערוץ מקומי דיווח כי כוחות החות'ים פגעו בנמל התעופה של העיר ג'דה בסעודיה.",
-     "axis": "תימן-סעודיה",
+     "id": "YEMEN-10280613-03",
+     "title": "קרבות עזים ותקיפות אוויריות באזור מצר באב אל-מנדב",
+     "summary": "עימותים קשים בין כוחות הממשלה לחות'ים בדרום-מערב תימן וסביב באב אל-מנדב הביאו למותם של קרוב למאה לוחמים, במקביל לתקיפות אוויריות סעודיות באי מיון, בד'ובאב ובמוח'א.",
+     "axis": "פנים-תימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-26T16:25:29+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-26T16:25:29+00:00",
-     "last_update_at": "2026-10-26T16:25:29+00:00",
-     "what_is_not_verified": "אין אימות נוסף או הודעה רשמית לגבי פגיעה בנמל התעופה בג'דה.",
+     "occurred_at": "2026-10-26T20:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T17:08:15+00:00",
+     "last_update_at": "2026-10-27T17:08:15+00:00",
+     "what_is_not_verified": "מספרי הנפגעים המדויקים ומידת ההתקדמות הקרקעית של כל צד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/fresh-clashes-yemen-kill-97-combatants-military-sources",
+       "published_at": "2026-10-27T17:08:15+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "באב אל-מנדב, תימן",
+       "lat": 12.714,
+       "lon": 43.5008
+      },
+      {
+       "name": "האי מיון, תימן",
+       "lat": 12.6518,
+       "lon": 43.4278
+      },
+      {
+       "name": "מוח'א, תימן",
+       "lat": 13.3179,
+       "lon": 43.2501
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10280613-04",
+     "title": "עבודות תשתית וחפירת מנהרות של החות'ים מדרום לצנעא",
+     "summary": "ניתוח תצלומי לוויין חשף פעולות חפירה והקמת מערך תת-קרקעי בהר אידריס באזור בית בוס, כולל פריצת ציר עפר חדש באורך של כ-2.8 קילומטרים.",
+     "axis": "פנים-תימן",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-27T20:28:48+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-27T20:28:48+00:00",
+     "last_update_at": "2026-10-27T20:28:48+00:00",
+     "what_is_not_verified": "ייעודם המדויק של המבנים החדשים והמנהרות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/48975",
-       "published_at": "2026-10-26T16:25:29+00:00"
+       "url": "https://t.me/alexmehacarmel/49026",
+       "published_at": "2026-10-27T20:28:48+00:00"
       }
      ],
      "places": [
       {
-       "name": "ג'דה, ערב הסעודית",
-       "lat": 21.5504,
-       "lon": 39.1742
+       "name": "בית בוס, צנעא, תימן",
+       "lat": 15.2827,
+       "lon": 44.2058
       }
      ]
     },
     {
-     "id": "YEMEN-10271559-04",
-     "title": "עימותים ליד מצר באב אל-מנדב",
-     "summary": "החות'ים טענו כי בלמו התקדמות של כוחות הנתמכים בידי סעודיה ותקפו כלי טיס צבאיים סעודיים באזור מצר באב אל-מנדב.",
-     "axis": "הים האדום ומצר באב אל-מנדב",
-     "claim_type": "incident",
+     "id": "YEMEN-10280613-05",
+     "title": "סיוע לווייני רוסי בתקיפות נגד מטרות סעודיות",
+     "summary": "מחקר גיאומרחבי ודיווחים הצביעו על התאמה מלאה בין תנועת לווייני ביון רוסיים לבין מתקפות טילים וכטב\"מים חות'יות על תשתיות נפט ובסיסים בסעודיה.",
+     "axis": "תימן - סעודיה",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T11:46:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T11:46:31+00:00",
-     "last_update_at": "2026-10-27T11:46:31+00:00",
-     "what_is_not_verified": "אין אישור בלתי תלוי או תגובה של הצד הסעודי על בלימת הכוחות או תקיפת כלי הטיס.",
+     "occurred_at": "2026-10-27T17:55:57+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T17:55:57+00:00",
+     "last_update_at": "2026-10-27T17:55:57+00:00",
+     "what_is_not_verified": "מידת המעורבות הישירה של גורמי ממשל רוסיים או סיניים בהעברת המידע בזמן אמת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-missile",
-       "published_at": "2026-10-27T11:46:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מצר באב אל-מנדב, תימן",
-       "lat": 12.6671,
-       "lon": 43.4565
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10271559-05",
-     "title": "מבצע שחר תימן של הכוחות הנתמכים בידי סעודיה",
-     "summary": "הכוחות התימניים הפועלים בתמיכת סעודיה דיווחו על ביצוע למעלה מאלף פעולות נגד עמדות החות'ים ופגיעה במאות לוחמים וכלי רכב.",
-     "axis": "הלחימה בתוך תימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T13:48:20+00:00",
-     "last_update_at": "2026-10-27T13:48:20+00:00",
-     "what_is_not_verified": "לא פורט מספר ההרוגים מול הפצועים, ואין אימות עצמאי להיקף הפגיעות המדויק.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/houthis-hit-saudi-oil-refinery-iran-warns-more-devastating-response-further-us-israeli",
-       "published_at": "2026-10-27T13:48:20+00:00"
+       "url": "https://www.newarab.com/news/russian-satellites-help-irans-allies-strike-saudi-arabia",
+       "published_at": "2026-10-27T17:55:57+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-10271559-06",
-     "title": "הפצצות אוויריות במחוז תעז ועקירת תושבים",
-     "summary": "כוחות הממשלה התימנית ביצעו תקיפות אוויריות במחוז תעז, בעוד נמסר על עקירתם של מעל מאתיים ושבעים אלף איש בעקבות ההפצצות.",
-     "axis": "הלחימה בתוך תימן",
-     "claim_type": "incident",
+     "id": "YEMEN-10280613-06",
+     "title": "אישור הסכם הגנה בין טורקיה, סעודיה ופקיסטן",
+     "summary": "ועדה בפרלמנט הטורקי אישרה הסכם הגנה משותף עם סעודיה ופקיסטן, הכולל התחייבות לסיוע הדדי בעת מתקפה ושיתוף פעולה צבאי, על רקע המתיחות עם החות'ים.",
+     "axis": "תימן - סעודיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T07:15:43+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T07:15:43+00:00",
-     "last_update_at": "2026-10-27T15:26:33+00:00",
-     "what_is_not_verified": "מספר העקורים הכולל וזהות הגורמים המדויקים שהפציצו בכל אזור לא אומתו באופן בלתי תלוי.",
+     "occurred_at": "2026-10-27T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-27T23:55:31+00:00",
+     "last_update_at": "2026-10-27T23:55:31+00:00",
+     "what_is_not_verified": "מועד ההצבעה במליאת הפרלמנט הטורקי והיקף הסיוע הצבאי בפועל.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21719217",
-       "published_at": "2026-10-27T15:26:33+00:00"
-      },
-      {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/eyes-israel-elections-iran-says-us-not-serious-talks",
-       "published_at": "2026-10-27T07:15:43+00:00"
+       "url": "https://www.newarab.com/news/turkey-committee-approves-pact-saudi-arabia-and-pakistan",
+       "published_at": "2026-10-27T23:55:31+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
+     "places": []
     },
     {
-     "id": "YEMEN-10271559-07",
-     "title": "איום חות'י בעקבות אישור שליחת כוחות מצריים",
-     "summary": "בכיר בתנועה החות'ית הגדיר את אישור הפרלמנט המצרי לשליחת כוחות להגנת סעודיה כהכרזת מלחמה על תימן.",
-     "axis": "הזירה האזורית מול תימן",
+     "id": "YEMEN-10280613-07",
+     "title": "שיחות בטהרן להפסקת התקיפות החות'יות",
+     "summary": "משלחת מסעודיה, פקיסטן וטורקיה נועדה בטהרן במטרה לבלום את ההסלמה והתקיפות מתימן, אך איראן השיבה שאין לה מנוף לחץ מספק על החות'ים.",
+     "axis": "תימן - סעודיה",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-26T15:33:13+00:00",
-     "last_update_at": "2026-10-27T15:26:33+00:00",
-     "what_is_not_verified": "האם כוחות מצריים נפרסו בפועל בשטח.",
-     "is_new_in_window": false,
+     "first_reported_at": "2026-10-27T20:48:19+00:00",
+     "last_update_at": "2026-10-27T20:48:19+00:00",
+     "what_is_not_verified": "פרטי השיחות המלאים שפורסמו בדיווחים עיתונאיים.",
+     "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21719217",
-       "published_at": "2026-10-27T15:26:33+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/mecca-pact-countries-iran-bid-stop-war-restarting",
-       "published_at": "2026-10-26T15:33:13+00:00"
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+       "published_at": "2026-10-27T20:48:19+00:00"
       }
      ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10271559-08",
-     "title": "פריסת מטוסי קרב בריטיים בסעודיה",
-     "summary": "שר ההגנה של בריטניה הודיע על שיגור מטוסי קרב לסעודיה במטרה לסייע בהגנה על ערים ומתקני נפט מפני תקיפות החות'ים.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-23T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-27T11:28:59+00:00",
-     "last_update_at": "2026-10-27T11:28:59+00:00",
-     "what_is_not_verified": "מועד ההגעה המדויק ומספר המטוסים שנפרסו בפועל.",
-     "is_new_in_window": true,
-     "reports": [
+     "places": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/opinion/blair-and-starmer-him-burnham-has-found-his-middle-east-war",
-       "published_at": "2026-10-27T11:28:59+00:00"
+       "name": "טהרן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
-     ],
-     "places": []
+     ]
     }
    ],
    "not_verified": [
-    "טענת החות'ים על פגיעה מדויקת ונזקים נרחבים בבית הזיקוק בראס תנורה",
-    "הדיווח הלא מאומת על פגיעה ישירה בנמל התעופה של ג'דה",
-    "מספר הנפגעים והאבדות במבצע שחר תימן שפרסמו הכוחות הנתמכים בידי סעודיה",
-    "היקף העקורים המדויק מקרב האוכלוסייה האזרחית בעקבות ההפצצות"
+    "טענת החות'ים על גרימת שרפות ענק במתקני בית הזיקוק בראס תנורה",
+    "מספר הנפגעים המדויק בקרבות סביב מצר באב אל-מנדב",
+    "מידת ההתקדמות הקרקעית הנטענת של כוחות ממשלת תימן",
+    "היקף שיתוף הפעולה המודיעיני הישיר של ממשלת רוסיה בהכוונת פגיעות החות'ים"
    ],
    "map": {
     "confidence": "low",
@@ -316,95 +269,87 @@ window.DB.war_published = {
     {
      "actor": "החות'ים (אנצאר אללה)",
      "declared": [
-      "פגיעה בתשתיות אסטרטגיות ובנמלי נפט בסעודיה",
-      "בלימת התקדמות הכוחות היריבים באזור מצר באב אל-מנדב",
-      "הרתעת מדינות נוספות כמו מצרים מלהצטרף למערך ההגנה על סעודיה"
+      "פגיעה במתקני נפט ותשתיות אסטרטגיות סעודיות בתגובה לפעולות הקואליציה",
+      "בלימת התקדמות כוחות הקואליציה וצבא תימן בגזרת באב אל-מנדב"
      ],
      "inferred": [
-      "הפעלת לחץ כלכלי כבד על סעודיה באמצעות פגיעה בעורק ייצוא הנפט",
-      "חיזוק מעמדם כחלק בלתי נפרד מציר ההתנגדות בעימות האזורי"
+      "שימור השליטה במעברים ימיים חיוניים ושיפור כושר ההישרדות של פיקוד התנועה באמצעות ביצורים תת-קרקעיים",
+      "הפעלת לחץ כלכלי כבד על סעודיה כדי לכפות שינוי במאזן הכוחות"
      ],
      "forecast": [
-      "המשך ירי טילים וכטב\"מים אל עבר יעדים בעומק שטח סעודיה והחרפת האיומים בנתיבי השיט"
+      "המשך ניסיונות שיגור של טילים וכטב\"מים לעבר מתקנים רגישים בסעודיה",
+      "החרפת הקרבות על צירי השליטה לחופי הים האדום ומצר באב אל-מנדב"
      ]
     },
     {
-     "actor": "סעודיה והקואליציה התומכת",
+     "actor": "סעודיה והקואליציה הערבית",
      "declared": [
-      "הגנה על שטח הממלכה, עריה ומתקני הנפט החיוניים מפני מתקפות טילים וכטב\"מים",
-      "פגיעה ביכולות הצבאיות של החות'ים באמצעות מבצע שחר תימן"
+      "הגנה על שטח הממלכה ויירוט האיומים הבליסטיים הנורים מתימן",
+      "סיוע לכוחות ממשלת תימן החוקית להשבת שטחים מידי החות'ים"
      ],
      "inferred": [
-      "בניית מעטפת הגנה בינלאומית ואזורית בהשתתפות מצרים ובריטניה לצמצום הפגיעות הכלכלית",
-      "הכרעת החות'ים בתוך שטח תימן כדי להפסיק את האיום על הגבולות"
+      "בניית מערך בריתות אזורי והרתעתי מול איומי הטילים",
+      "הרחקת החות'ים מנתיבי השיט הבינלאומיים במצר באב אל-מנדב"
      ],
      "forecast": [
-      "הגברת פעילות היירוט והתקיפות בתוך תימן לצד הישענות גוברת על כוחות בעלי ברית"
+      "הגברת התקיפות האוויריות הממוקדות לאורך חופי הים האדום",
+      "המשך קידום הסכמי הגנה ורכש צבאי עם בעלות ברית"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-missile",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
-    },
-    {
-     "source_id": "src_gcaptain",
-     "url": "https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
-    },
-    {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21719217",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/opinion/blair-and-starmer-him-burnham-has-found-his-middle-east-war",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21720893",
+     "accessed_at": "2026-10-28T06:13:05+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/mecca-pact-countries-iran-bid-stop-war-restarting",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
+     "url": "https://www.newarab.com/news/turkey-committee-approves-pact-saudi-arabia-and-pakistan",
+     "accessed_at": "2026-10-28T06:13:05+00:00"
+    },
+    {
+     "source_id": "src_saba_aden",
+     "url": "https://www.sabanew.net/viewstory/154756",
+     "accessed_at": "2026-10-28T06:13:05+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/48975",
-     "accessed_at": "2026-10-27T15:59:51+00:00"
+     "url": "https://t.me/alexmehacarmel/49026",
+     "accessed_at": "2026-10-28T06:13:05+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-26T17:01:16+00:00",
+  "previous_generated_at": "2026-10-27T15:59:51+00:00",
   "changes": {
-   "YEMEN-10271559-01": {
+   "YEMEN-10280613-01": {
     "kind": "new"
    },
-   "YEMEN-10271559-02": {
+   "YEMEN-10280613-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "יירוט טילים מעל מחוז המזרח ופיצוצים בריאד",
+    "score": 1.0
+   },
+   "YEMEN-10280613-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "עימותים ליד מצר באב אל-מנדב",
+    "score": 1.0
+   },
+   "YEMEN-10280613-04": {
     "kind": "new"
    },
-   "YEMEN-10271559-03": {
-    "kind": "possible",
-    "prev": "תקיפות החות'ים על יעדים בסעודיה",
-    "score": 0.4
-   },
-   "YEMEN-10271559-04": {
+   "YEMEN-10280613-05": {
     "kind": "new"
    },
-   "YEMEN-10271559-05": {
+   "YEMEN-10280613-06": {
     "kind": "new"
    },
-   "YEMEN-10271559-06": {
-    "kind": "possible",
-    "prev": "משבר הומניטרי ופגיעה במגזר הבריאות בתעז",
-    "score": 0.633
-   },
-   "YEMEN-10271559-07": {
-    "kind": "new"
-   },
-   "YEMEN-10271559-08": {
+   "YEMEN-10280613-07": {
     "kind": "new"
    }
   }
