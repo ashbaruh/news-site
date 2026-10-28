@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-27T23:17:28+00:00",
-  "fetched_at": "2026-10-27T23:17:28+00:00"
+  "checked_at": "2026-10-28T00:04:36+00:00",
+  "fetched_at": "2026-10-28T00:04:36+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:41+00:00",
-  "fetched_at": "2026-10-27T23:17:41+00:00"
+  "checked_at": "2026-10-28T00:04:50+00:00",
+  "fetched_at": "2026-10-28T00:04:50+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:41+00:00",
-  "fetched_at": "2026-10-27T23:17:41+00:00"
+  "checked_at": "2026-10-28T00:04:50+00:00",
+  "fetched_at": "2026-10-28T00:04:50+00:00"
  },
- "generated_at": "2026-10-27T23:17:41+00:00",
+ "generated_at": "2026-10-28T00:04:50+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-27T21:40:00+00:00"
     },
     {
-     "title": "שיעור ההצבעה עומד על 77.7% - הגבוה ביותר מאז 1999",
+     "title": "איזנקוט: \"הציבור הכריע בעד שינוי. אפעל להקמת ממשלת גיוס ציונית\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001560922",
-     "date": "2026-10-27T23:03:00+00:00"
+     "date": "2026-10-27T23:42:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T23:17:30+00:00",
-  "fetched_at": "2026-10-27T23:17:30+00:00"
+  "checked_at": "2026-10-28T00:04:38+00:00",
+  "fetched_at": "2026-10-28T00:04:38+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:30+00:00",
-  "fetched_at": "2026-10-27T23:17:30+00:00"
+  "checked_at": "2026-10-28T00:04:39+00:00",
+  "fetched_at": "2026-10-28T00:04:39+00:00"
  },
  "tv": {
   "data": [
@@ -1921,41 +1921,6 @@ window.DB.generated = {
    {
     "date": "2026-10-28",
     "time": "19:30",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "ונציה - אינטר"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "מילאן - בולוניה"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "הפועל רעננה - הפועל אום אל פאחם"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "הפועל בני ג'סר א-זרקא - הפועל כפר שלם"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "מכבי יפו - עירוני מודיעין"
-   },
-   {
-    "date": "2026-10-28",
-    "time": "19:30",
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "בני יהודה - מ.ס אשדוד"
@@ -1994,6 +1959,41 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מ.כ כפר סבא 1928 - מ.ס קרית ים"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "ונציה - אינטר"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "מילאן - בולוניה"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל רעננה - הפועל אום אל פאחם"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "הפועל בני ג'סר א-זרקא - הפועל כפר שלם"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "19:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מכבי יפו - עירוני מודיעין"
    },
    {
     "date": "2026-10-28",
@@ -2571,6 +2571,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-01",
+    "time": "02:30",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "יוסטון רוקטס - אוקלהומה סיטי"
+   },
+   {
+    "date": "2026-11-01",
     "time": "14:00",
     "channel": "ספורט 1",
     "sport": "כדורגל",
@@ -2704,10 +2711,52 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-02",
+    "time": "02:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ניו אינגלנד רבולושן - אינטר מיאמי"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "15:45",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "פאחטקור טשקנט - אל נאסר"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "19:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ססואולו - פיורנטינה"
+   },
+   {
+    "date": "2026-11-02",
     "time": "20:30",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "הפועל תל אביב - מכבי חיפה"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "20:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "הפועל רמת גן - מכבי תל אביב"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:30",
+    "channel": "ספורט 2",
+    "sport": "כדורסל",
+    "title": "קאנטו - אולימפיה מילאנו"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "אטאלנטה - פארמה"
    },
    {
     "date": "2026-11-02",
@@ -2726,14 +2775,28 @@ window.DB.generated = {
    {
     "date": "2026-11-02",
     "time": "22:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ניוקאסל - אברטון"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "22:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "דפורטיבו לה קורוניה - אוסאסונה"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "22:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "בנפיקה - אלברקה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:32+00:00",
-  "fetched_at": "2026-10-27T23:17:32+00:00"
+  "checked_at": "2026-10-28T00:04:41+00:00",
+  "fetched_at": "2026-10-28T00:04:41+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2815,6 +2878,15 @@ window.DB.generated = {
      "away": "מכבי חיפה",
      "channels": [
       "ספורט 5"
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "time": "20:30",
+     "home": "הפועל ר\"ג",
+     "away": "מכבי ת\"א",
+     "channels": [
+      "ספורט 4"
      ]
     }
    ],
@@ -2902,8 +2974,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T23:17:32+00:00",
-  "fetched_at": "2026-10-27T23:17:32+00:00"
+  "checked_at": "2026-10-28T00:04:41+00:00",
+  "fetched_at": "2026-10-28T00:04:41+00:00"
  },
  "ai": {
   "data": {
@@ -2925,23 +2997,24 @@ window.DB.generated = {
      "title": "\"לחצנו Scan וחיכינו\": כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיליון דולר"
     }
    ],
-   "candidates": 10,
+   "candidates": 9,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1034,
+     "likes": 1036,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets with RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד עם תצוגות מקדימות של סימולציית RTX",
-     "likes": 200,
+     "likes": 202,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
@@ -3003,8 +3076,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-27T23:17:40+00:00",
-  "fetched_at": "2026-10-27T23:17:40+00:00"
+  "checked_at": "2026-10-28T00:04:50+00:00",
+  "fetched_at": "2026-10-28T00:04:50+00:00"
  },
  "abroad": {
   "data": {
@@ -3336,8 +3409,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-27T23:17:35+00:00",
-  "fetched_at": "2026-10-27T23:17:35+00:00"
+  "checked_at": "2026-10-28T00:04:44+00:00",
+  "fetched_at": "2026-10-28T00:04:44+00:00"
  },
  "idf": {
   "data": [
@@ -3368,58 +3441,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:36+00:00",
-  "fetched_at": "2026-10-27T23:17:36+00:00"
+  "checked_at": "2026-10-28T00:04:45+00:00",
+  "fetched_at": "2026-10-28T00:04:45+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-27T23:03:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "newest": "2026-10-27T23:42:00+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-27T20:28:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-27T20:01:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-26T16:31:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-27T23:15:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-27T18:24:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-27T22:55:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-27T07:51:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3431,35 +3504,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-27T16:10:21+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-26T13:00:58+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-27T14:50:12+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-27T23:17:41+00:00",
+    "seen_at": "2026-10-28T00:04:50+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-10-27T23:17:41+00:00"
+  "checked_at": "2026-10-28T00:04:50+00:00"
  },
  "health_news": {
   "data": [
@@ -3615,7 +3688,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-27T23:17:36+00:00",
-  "fetched_at": "2026-10-27T23:17:36+00:00"
+  "checked_at": "2026-10-28T00:04:46+00:00",
+  "fetched_at": "2026-10-28T00:04:46+00:00"
  }
 };
