@@ -10,7 +10,7 @@
   --line:        #2a3140;
   --text:        #e6edf3;
   --text-dim:    #93a1b3;
-  --text-faint:  #6b7a8d;
+  --text-faint:  #8795a8;   /* ניגודיות AA (‎≥4.5:1) גם על --bg-3 — היה #6b7a8d, 3.6:1 */
 
   --accent:      #4d9fff;
   --ok:          #3fb950;
@@ -48,7 +48,7 @@ main.wrap { padding-bottom: 340px; }   /* שהתוכן האחרון לא יוס�
   position: sticky; top: 0; z-index: 50;
 }
 .topbar .wrap { display: flex; align-items: center; gap: 14px; padding-bottom: 0; flex-wrap: wrap; }
-.logo { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; }
+.logo { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; margin: 0; line-height: inherit; }
 .logo span { color: var(--accent); }
 .tagline { color: var(--text-faint); font-size: 13px; }
 .topbar nav { margin-inline-start: auto; display: flex; gap: 12px; font-size: 13.5px; }
