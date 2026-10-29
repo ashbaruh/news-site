@@ -1,96 +1,96 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-28T18:00:00+02:00",
- "generated_at": "2026-10-28T15:40:28+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-10-29T04:00:00+02:00",
+ "generated_at": "2026-10-29T02:10:19+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10281540-01",
-     "title": "חשיפת משגר טילים חדש בטהרן",
-     "summary": "האיראנים חשפו משגר טילים חדש לעיני הציבור במרכז ולייסר בטהרן.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-28T09:09:57+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-28T09:09:57+00:00",
-     "last_update_at": "2026-10-28T09:09:57+00:00",
-     "what_is_not_verified": "לא מאומת טיב המערכת מעבר לחשיפה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_src_tg_lelotsenzura",
-       "url": "https://t.me/lelotsenzura/94866",
-       "published_at": "2026-10-28T09:09:57+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10281540-02",
-     "title": "גזרת דין לבמאי איראני",
-     "summary": "בית המשפט המהפכני באיראן גזר חמש שנות מאסר ומאסר נכסים על במאי הקולנוע ג'עפר פאנאהי.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-28T14:46:31+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-28T14:46:31+00:00",
-     "last_update_at": "2026-10-28T14:46:31+00:00",
-     "what_is_not_verified": "הפרטים מבוסס על דיווח סוכנות נורניוז מפי עורך הדין",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_nournews",
-       "url": "https://www.al-monitor.com/originals/2026/10/irans-revolutionary-court-sentences-director-panahi-jail-term-travel-ban",
-       "published_at": "2026-10-28T14:46:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דובאי, איחוד האמירויות",
-       "lat": 25.0743,
-       "lon": 55.1886
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10281540-03",
-     "title": "קידום פרוטוקול גרעיני עם רוסיה",
-     "summary": "ארגון לאנרגיה אטומית של איראן הודיע כי שיתוף הפעולה עם רוסיה לבניית כורים מודולריים קטנים לקראת חתימת פרוטוקול.",
-     "axis": "iran",
+     "id": "IRAN-10290210-01",
+     "title": "הכחשת פיקוד המרכז האמריקני לגבי פגיעת מוקשים במצר הורמוז",
+     "summary": "פיקוד המרכז של צבא ארצות הברית הודיע כי דיווחי התקשורת האיראנית על פגיעת כלי שיט מסחריים במוקשים ימיים במצר הורמוז אינם נכונים ונתיבי השיט טוהרו.",
+     "axis": "מצר הורמוז והעימות הימי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T14:38:02+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-28T14:38:02+00:00",
-     "last_update_at": "2026-10-28T14:38:02+00:00",
-     "what_is_not_verified": "מועד החתימה המדויק טרם נקבע",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-28T21:20:38+00:00",
+     "last_update_at": "2026-10-28T21:20:38+00:00",
+     "what_is_not_verified": "אמיתות הטענות האיראניות מול הודעת ההכחשה האמריקנית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_3dbe0e66fef664d5",
-       "url": "https://en.irna.ir/news/86306261/Iran-Russia-finalizing-small-reactors-construction-protocol",
-       "published_at": "2026-10-28T14:38:02+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-rejects-iranian-reports-vessels-hitting-hormuz-sea-mines",
+       "published_at": "2026-10-28T21:20:38+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10290210-02",
+     "title": "הכחשת הנשיא טראמפ בדבר מגעים מדיניים עם איראן",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הכחיש דיווחים לפיהם הורה לסגנו לפתוח בשיחות שלום עם איראן, וציין כי הקשר עסק בסיוע רפואי בלבד.",
+     "axis": "יחסי ארצות הברית ואיראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-28T21:51:49+00:00",
+     "last_update_at": "2026-10-28T21:51:49+00:00",
+     "what_is_not_verified": "קיומם של מגעים מדיניים חשאיים מעבר לנושאי אספקה רפואית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-denies-directing-vance-start-peace-talks-iran",
+       "published_at": "2026-10-28T21:51:49+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-10290210-03",
+     "title": "הודעת שר החוץ האיראני על יוזמה לפתיחת מצר הורמוז",
+     "summary": "שר החוץ של איראן הצהיר כי ארצו מקיימת קשרים רציפים עם מתווכים לקידום תוכנית בת שבעה ימים לפתיחת מצר הורמוז תוך שמירה על מוכנות צבאית.",
+     "axis": "דיפלומטיה ומצר הורמוז",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-28T21:34:06+00:00",
+     "last_update_at": "2026-10-29T00:00:00+00:00",
+     "what_is_not_verified": "פרטי התוכנית המעשית ועמדת המתווכים לגביה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+       "published_at": "2026-10-29T00:00:00+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-will-give-diplomacy-chance-forces-prepared",
+       "published_at": "2026-10-28T21:34:06+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
     }
@@ -99,76 +99,88 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10281540-01",
-     "title": "תקרית ירי בסוריה והריגת ג'יהאדיסט",
-     "summary": "שלטונות סוריה דיווחו על חיסולו של ג'יהאדיסט צרפתי בחילופי אש בצפון-מערב המדינה.",
-     "axis": "north",
+     "id": "NORTH-10290210-01",
+     "title": "שיגור מיירט לעבר מטרה חשודה בדרום לבנון",
+     "summary": "דובר צה\"ל הודיע על שיגור מיירט לעבר מטרה אווירית חשודה שזוהתה באזור פעילות כוחות צה\"ל בדרום לבנון, ללא הפעלת התרעות.",
+     "axis": "דרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T15:29:31+00:00",
+     "occurred_at": "2026-10-28T20:39:08+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-28T15:29:31+00:00",
-     "last_update_at": "2026-10-28T15:29:31+00:00",
-     "what_is_not_verified": "זהות המחבל המלאה ופרטי האירוע המדויקים",
+     "first_reported_at": "2026-10-28T20:39:08+00:00",
+     "last_update_at": "2026-10-28T20:39:08+00:00",
+     "what_is_not_verified": "מהות המטרה האווירית ותוצאות היירוט המדויקות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_src_newarab",
-       "url": "https://www.newarab.com/news/syria-says-french-jihadist-killed-shootout-govt-forces",
-       "published_at": "2026-10-28T15:29:31+00:00"
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25505",
+       "published_at": "2026-10-28T20:39:08+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-10281540-02",
-     "title": "ביקור רשמי של ראש ממשלת עיראק בדמשק",
-     "summary": "ראש ממשלת עיראק הגיע לביקור רשמי ראשון בדמשק ונפגש עם נשיא סוריה לחיזוק הקשרים הכלכליים.",
-     "axis": "north",
+     "id": "NORTH-10290210-02",
+     "title": "תקיפה ישראלית באזור דיר מימאס בדרום לבנון",
+     "summary": "סוכנות הידיעות הלאומית של לבנון דיווחה כי צה\"ל ביצע תקיפה בעיירה דיר מימאס, לאחר אזהרה מוקדמת שנמסרה לתושבים לפתוח חלונות לקראת פיצוץ עז.",
+     "axis": "דרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T15:14:47+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-28T15:14:47+00:00",
-     "last_update_at": "2026-10-28T15:14:47+00:00",
-     "what_is_not_verified": "תוצאות ההסכמים טרם יושמו בפועל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_syrian_state_media",
-       "url": "https://www.newarab.com/news/iraqi-pm-visits-syria-neighbours-seek-boost-economic-ties",
-       "published_at": "2026-10-28T15:14:47+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10281540-03",
-     "title": "הקמת מחסום ישראלי בקוניטרה",
-     "summary": "כוחות צבא ביצעו פעילות באזור קוניטרה והקימו מחסום מזדמן לחיפוש עוברים ושבים.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-28T13:39:08+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-28T13:39:08+00:00",
-     "last_update_at": "2026-10-28T13:39:08+00:00",
-     "what_is_not_verified": "משך הישארות הכוחות בנקודה",
+     "first_reported_at": "2026-10-28T20:40:43+00:00",
+     "last_update_at": "2026-10-28T21:07:23+00:00",
+     "what_is_not_verified": "נזקים מדויקים ונפגעים בתקיפה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "or_syrian_observatory_for_human_rights",
-       "url": "https://english.almanar.com.lb/article/144047/",
-       "published_at": "2026-10-28T13:39:08+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/144417/",
+       "published_at": "2026-10-28T21:07:23+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-strikes-target-deir-mimas-southern-lebanon",
+       "published_at": "2026-10-28T20:40:43+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דיר מימאס, לבנון",
+       "lat": 33.3021,
+       "lon": 35.5467
+      }
+     ]
+    },
+    {
+     "id": "NORTH-10290210-03",
+     "title": "נאום מזכ\"ל חזבאללה בעניין פירוק הנשק והסכם המסגרת",
+     "summary": "מזכ\"ל חזבאללה נעים קאסם הודיע כי הארגון מסרב להתפרק מנשקו כל עוד נמשכת התוקפנות והכיבוש, ודחה באופן מוחלט את הסכם המסגרת עם ישראל.",
+     "axis": "מדיניות חזבאללה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-28T17:06:01+00:00",
+     "last_update_at": "2026-10-28T20:47:43+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132743",
+       "published_at": "2026-10-28T17:06:01+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-leader-rules-out-groups-disarmament",
+       "published_at": "2026-10-28T20:47:43+00:00"
       }
      ],
      "places": []
@@ -178,83 +190,101 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10281540-01",
-     "title": "הצהרת זלנסקי על מניעת תקיפת מכליות סולר",
-     "summary": "נשיא אוקראינה הצהיר כי ארצו לא תתקוף ספינות המובילות סולר רוסי לארצות הברית בשל הקשר האמריקאי.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-28T14:27:58+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-28T14:27:58+00:00",
-     "last_update_at": "2026-10-28T14:27:58+00:00",
-     "what_is_not_verified": "מימוש ההצהרה בשטח לאורך זמן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/49051",
-       "published_at": "2026-10-28T14:27:58+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10281540-02",
-     "title": "תקיפה אוקראינית במפעל במחוז טולה",
-     "summary": "דווח על שריפה במפעל אזוט בעיר נובמוסקובסק בעקבות פגיעה אוקראינית.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10290210-01",
+     "title": "מתקפת כטב\"מים נרחבת לעבר מוסקבה",
+     "summary": "לפי דיווחי ראש עיריית מוסקבה, מעל למאה כטב\"מים יורטו בדרכם לעיר במהלך הלילה, אירוע שהוביל להשבתת טיסות בנמלי תעופה מרכזיים.",
+     "axis": "עומק רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T12:58:55+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-28T12:58:55+00:00",
-     "last_update_at": "2026-10-28T12:58:55+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק במפעל",
+     "first_reported_at": "2026-10-28T22:34:12+00:00",
+     "last_update_at": "2026-10-28T22:34:12+00:00",
+     "what_is_not_verified": "היקף הנזקים המדויק על הקרקע ומספר הכטב\"מים המדויק ששוגרו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/49049",
-       "published_at": "2026-10-28T12:58:55+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/moscow-comes-under-drone-fire-overnight-grounding-flights-at-major-airports/",
+       "published_at": "2026-10-28T22:34:12+00:00"
       }
      ],
      "places": [
       {
-       "name": "נובמוסקובסק, רוסיה",
-       "lat": 54.011,
-       "lon": 38.2909
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     },
     {
-     "id": "UKRAINE-10281540-03",
-     "title": "הנחיית ממשלה לחידוש חשמל בקונוטופ",
-     "summary": "ראש ממשלת אוקראינה הורה לגורמי האנרגיה להחזיר את אספקת החשמל לעיר קונוטופ לאחר חמישה ימים של הפסקה.",
-     "axis": "ukraine",
+     "id": "UKRAINE-10290210-02",
+     "title": "הפסקת אש מקומית ופינוי תושבים באולשקי במחוז חרסון",
+     "summary": "הפסקת אש מקומית באולשקי נשמרה זה היום השני לצורך פינוי תושבים ומאמצי סיוע הומניטריים, תוך מתווה מעבר דרך רוסיה ובלארוס.",
+     "axis": "מחוז חרסון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T14:43:00+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-28T14:43:00+00:00",
-     "last_update_at": "2026-10-28T14:43:00+00:00",
-     "what_is_not_verified": "מועד החזרת הרשת הקבועה המלאה",
+     "first_reported_at": "2026-10-28T15:27:08+00:00",
+     "last_update_at": "2026-10-29T01:48:26+00:00",
+     "what_is_not_verified": "פרטי המימוש המלאים של מתווה הפינוי בשטח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_serhii_koretskyi",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060116/",
-       "published_at": "2026-10-28T14:43:00+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49055",
+       "published_at": "2026-10-28T15:27:08+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/29/ukraine-war-briefing-oleshky-truce-holding-and-demining-under-way-to-enable-humanitarian-corridor-kyiv-says",
+       "published_at": "2026-10-29T01:48:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "קונוטופ, אוקראינה",
-       "lat": 51.2397,
-       "lon": 33.2067
+       "name": "אולשקי, אוקראינה",
+       "lat": 46.6261,
+       "lon": 32.722
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10290210-03",
+     "title": "הודעת הקרמלין על מגעים עתידיים באבו דאבי",
+     "summary": "עוזר נשיא רוסיה יורי אושקוב הודיע כי שיחות בין ארצות הברית, רוסיה ואוקראינה מתוכננות להתקיים באבו דאבי לאחר ארבעה בנובמבר בהתאם להתפתחויות בשטח.",
+     "axis": "משא ומתן מדיני",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-28T21:15:39+00:00",
+     "last_update_at": "2026-10-28T22:26:41+00:00",
+     "what_is_not_verified": "המועד המדויק של השיחות והסכמת כלל הצדדים להשתתף",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+       "published_at": "2026-10-28T22:26:41+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/politics/2209811",
+       "published_at": "2026-10-28T21:15:39+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אבו דאבי, איחוד האמירויות",
+       "lat": 24.4538,
+       "lon": 54.3774
       }
      ]
     }
@@ -263,24 +293,71 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10281540-01",
-     "title": "מתקפת חות'ים על נמל התעופה בעדן",
-     "summary": "גורמים ממשלתיים דיווחו כי המורדים החות'ים תקפו את נמל התעופה בעדן לאחר אזהרת פינוי.",
-     "axis": "yemen",
+     "id": "YEMEN-10290210-01",
+     "title": "יירוט טיל בליסטי ששוגר מתימן לעבר מזרח סעודיה",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה כי יירטה והשמידה טיל בליסטי ששיגרו החות'ים לעבר האזור המזרחי של הממלכה, תוך הפעלת התרעות ביטחוניות מקומיות.",
+     "axis": "תקיפות החות'ים נגד סעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T11:46:28+00:00",
+     "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-28T11:46:28+00:00",
-     "last_update_at": "2026-10-28T11:46:28+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לתשתיות השדה",
+     "first_reported_at": "2026-10-29T00:59:42+00:00",
+     "last_update_at": "2026-10-29T01:06:42+00:00",
+     "what_is_not_verified": "היקף הנזק או מיקום שרידי היירוט המדויק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_reuters",
-       "url": "https://www.al-monitor.com/originals/2026/10/houthis-strike-yemens-aden-airport-after-evacuation-warning",
-       "published_at": "2026-10-28T11:46:28+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-it-destroyed-houthi-ballistic-missile-fired",
+       "published_at": "2026-10-29T01:06:42+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/154808",
+       "published_at": "2026-10-29T00:59:42+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "נג'ראן, ערב הסעודית",
+       "lat": 17.544,
+       "lon": 44.2247
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10290210-02",
+     "title": "מתקפת טילים על נמל התעופה בעדן והשבתת הטיסות",
+     "summary": "נמל התעופה הבינלאומי בעדן הותקף בשני טילים שגרמו לפציעת אזרחים, נזק חומרי והשבתת תנועת המטוסים במקום.",
+     "axis": "הלחימה הפנימית בתימן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-28T17:53:05+00:00",
+     "last_update_at": "2026-10-28T21:30:28+00:00",
+     "what_is_not_verified": "זהות המשגרים בוודאות מלאה על פי הדיווח, אף שנטען כי מדובר בחות'ים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-traffic-suspended-after-missiles-target-aden-airport",
+       "published_at": "2026-10-28T21:30:28+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/houthis-say-deadly-saudi-strikes-hit-yemen-they-target-aden",
+       "published_at": "2026-10-28T18:50:07+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/154799",
+       "published_at": "2026-10-28T17:53:05+00:00"
       }
      ],
      "places": [
@@ -288,6 +365,35 @@ window.DB.war_brief = {
        "name": "עדן, תימן",
        "lat": 12.7896,
        "lon": 45.0285
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10290210-03",
+     "title": "פינוי סגל שגרירות ארצות הברית בסעודיה עקב איומי החות'ים",
+     "summary": "שגרירות ארצות הברית בריאד פרסמה התרעת ביטחון והורתה לצוות שאינו חיוני ולמשפחותיהם לעזוב את המדינה בעקבות ההסלמה והתקפות החות'ים.",
+     "axis": "איומי החות'ים על ערב הסעודית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-28T23:03:34+00:00",
+     "last_update_at": "2026-10-28T23:03:34+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-ordered-non-emergency-embassy-staff-leave-saudi-arabia",
+       "published_at": "2026-10-28T23:03:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     }
