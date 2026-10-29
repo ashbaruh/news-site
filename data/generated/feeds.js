@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-29T19:17:30+00:00",
-  "fetched_at": "2026-10-29T19:17:30+00:00"
+  "checked_at": "2026-10-29T20:17:14+00:00",
+  "fetched_at": "2026-10-29T20:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:44+00:00",
-  "fetched_at": "2026-10-29T19:17:44+00:00"
+  "checked_at": "2026-10-29T20:17:33+00:00",
+  "fetched_at": "2026-10-29T20:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,15 +79,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:45+00:00",
-  "fetched_at": "2026-10-29T19:17:45+00:00"
+  "checked_at": "2026-10-29T20:17:34+00:00",
+  "fetched_at": "2026-10-29T20:17:34+00:00"
  },
- "generated_at": "2026-10-29T19:17:45+00:00",
+ "generated_at": "2026-10-29T20:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "החקירה והמספרים: מה עומד מאחורי שיעורי ההצבעה ההיסטוריים בחברה הערבית",
+     "title": "מאז שנות ה־90 לא נראתה הצבעה כזאת בחברה הערבית. איך זה קרה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561329",
      "date": "2026-10-29T19:00:00+00:00"
     },
@@ -99,9 +99,14 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "ירידות בוול סטריט; אלפאבית בדרך למחוק יותר מחצי טריליון דולר משוויה",
+     "title": "אינטל עקפה את הציפיות ברבעון, אך התחזית מאכזבת, המניה מתרסקת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561244",
+     "date": "2026-10-29T20:10:00+00:00"
+    },
+    {
+     "title": "וול סטריט ננעלה בירידות; אלפאבית מחקה היום כחצי טריליון דולר משוויה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561197",
-     "date": "2026-10-29T19:01:00+00:00"
+     "date": "2026-10-29T20:00:00+00:00"
     },
     {
      "title": "הם מכרו את כל רכושם כדי לחיות על ספינת תענוגות וכעת הם תקועים בקמבודיה",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "מנהל השקעות בכיר פסימי במיוחד: \"הבורסה בת\"א לא אטרקטיבית. הנדל\"ן מת\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561192",
      "date": "2026-10-29T03:27:00+00:00"
-    },
-    {
-     "title": "אלפאבית פיספסה את תחזית הרווח ברבעון; המניה נופלת במסחר המאוחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561112",
-     "date": "2026-10-28T20:14:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-29T19:17:32+00:00",
-  "fetched_at": "2026-10-29T19:17:32+00:00"
+  "checked_at": "2026-10-29T20:17:16+00:00",
+  "fetched_at": "2026-10-29T20:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:33+00:00",
-  "fetched_at": "2026-10-29T19:17:33+00:00"
+  "checked_at": "2026-10-29T20:17:18+00:00",
+  "fetched_at": "2026-10-29T20:17:18+00:00"
  },
  "tv": {
   "data": [
@@ -2648,8 +2648,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:34+00:00",
-  "fetched_at": "2026-10-29T19:17:34+00:00"
+  "checked_at": "2026-10-29T20:17:20+00:00",
+  "fetched_at": "2026-10-29T20:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2825,32 +2825,33 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-29T19:17:34+00:00",
-  "fetched_at": "2026-10-29T19:17:34+00:00"
+  "checked_at": "2026-10-29T20:17:20+00:00",
+  "fetched_at": "2026-10-29T20:17:20+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-     "date": "2026-10-28T17:00:58+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Carbon: Our next frontier model",
-     "title_he": "Gemini 4 Carbon: דגם החזית הבא שלנו",
-     "translated_by": "google"
-    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
      "date": "2026-10-29T12:12:40+00:00",
      "launch": false,
      "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/updated-model-spec",
+     "date": "2026-10-29T17:00:00+00:00",
+     "launch": false,
+     "title_en": "An updated Model Spec for more capable and beneficial AI",
+     "title_he": "מפרט דגם מעודכן עבור AI מסוגל ומועיל יותר",
+     "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2864,14 +2865,14 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1078,
+     "likes": 1081,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 120,
+     "likes": 121,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
@@ -2896,18 +2897,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
+     "title": "Phonon",
+     "desc_en": "Text-to-speech that runs in your browser",
+     "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
+     "likes": 80,
+     "link": "https://huggingface.co/spaces/gradium/phonon"
+    },
+    {
      "title": "GEAR",
      "desc_en": "Recursive self-improvement of LLM agent harnesses",
      "desc_he": "שיפור עצמי רקורסיבי של רתמות סוכני LLM",
      "likes": 61,
      "link": "https://huggingface.co/spaces/WizardTY/GEAR"
-    },
-    {
-     "title": "Phonon",
-     "desc_en": "Text-to-speech that runs in your browser",
-     "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
-     "likes": 79,
-     "link": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
@@ -2926,16 +2927,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-29T19:17:43+00:00",
-  "fetched_at": "2026-10-29T19:17:43+00:00"
+  "checked_at": "2026-10-29T20:17:32+00:00",
+  "fetched_at": "2026-10-29T20:17:32+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי בספורט1: גאנדלמן הוחלף בדקה ה-58, לצ'ה מובסת",
+     "title": "גאנדלמן פתח לראשונה העונה, לצ'ה הובסה 5:1 על ידי פרוזינונה",
      "link": "https://sports.walla.co.il/item/3874243",
-     "date": "2026-10-29T19:15:00+00:00",
+     "date": "2026-10-29T20:30:00+00:00",
      "source": "וואלה",
      "players": [
       "עומרי גאנדלמן"
@@ -2985,15 +2986,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "ליאל עבדה"
-     ]
-    },
-    {
-     "title": "לראשונה העונה: עמרי גאנדלמן פתח בהרכב לצ'ה",
-     "link": "https://www.one.co.il/Article/537398.html?ref=rss",
-     "date": "2026-10-29T16:37:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עומרי גאנדלמן"
      ]
     },
     {
@@ -3063,6 +3055,15 @@ window.DB.generated = {
      "title": "אבדיה חוגג, האלופה מתרסקת: דירוג העוצמה של ESPN נחשף",
      "link": "https://sports.walla.co.il/item/3874048",
      "date": "2026-10-28T13:48:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "רוברט הורי על אבדיה: \"מעולם לא ראיתי דבר כזה\"",
+     "link": "https://sports.walla.co.il/item/3873995",
+     "date": "2026-10-28T08:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3269,13 +3270,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-29T19:17:37+00:00",
-  "fetched_at": "2026-10-29T19:17:37+00:00"
+  "checked_at": "2026-10-29T20:17:24+00:00",
+  "fetched_at": "2026-10-29T20:17:24+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "מסר מידע צבאי רגיש, והוצעו לו 200 אלף דולר כדי להגיע לאיראן: חייל צה\"ל מואשם בריגול חמור",
+    "title": "חייל צהל מואשם בריגול חמור: מסר מידע צבאי רגיש, והוצעו לו 200 אלף דולר כדי להגיע לאיראן",
     "link": "https://www.walla.co.il/news/military/383959387",
     "date": "2026-10-29T17:14:50+00:00"
    },
@@ -3301,58 +3302,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:38+00:00",
-  "fetched_at": "2026-10-29T19:17:38+00:00"
+  "checked_at": "2026-10-29T20:17:24+00:00",
+  "fetched_at": "2026-10-29T20:17:24+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-29T19:01:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T20:14:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-29T19:01:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T20:10:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-29T19:01:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T20:00:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-29T09:12:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-29T19:51:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T20:57:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-29T19:30:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T20:30:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-29T19:05:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "newest": "2026-10-29T19:58:00+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-29T17:14:50+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3364,35 +3365,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-29T17:12:21+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-29T16:19:19+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-29T19:17:45+00:00",
+    "seen_at": "2026-10-29T20:17:34+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-29T19:17:45+00:00",
+  "checked_at": "2026-10-29T20:17:34+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3549,7 +3550,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-29T19:17:39+00:00",
-  "fetched_at": "2026-10-29T19:17:39+00:00"
+  "checked_at": "2026-10-29T20:17:25+00:00",
+  "fetched_at": "2026-10-29T20:17:25+00:00"
  }
 };
