@@ -1,0 +1,362 @@
+{
+ "status": "draft",
+ "received_sha256_12": "74f88e173e80",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 2,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-29T00:40:26+00:00",
+  "window": {
+   "from": "2026-10-28T00:40:26+00:00",
+   "to": "2026-10-29T00:40:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202610290040"
+  },
+  "summary": "הלחימה בתימן התחדשה בעוצמה גבוהה עם מתקפות של החות'ים לעבר מוקדי שליטה של הממשלה המוכרת ובראשם שדה התעופה בעדן וסביבת תעיז. במקביל החות'ים מגבירים את שיגורי הטילים והכטב\"מים לעבר יעדים ותשתיות נפט ותעופה בסעודיה, שמצידה מגיבה בתקיפות אוויריות. ההסלמה הובילה להערכות ביטחונית בינלאומית מוגברת, כולל פינוי סגל אמריקאי מסעודיה ויוזמות הגנה ותיווך אזוריות.",
+  "fronts": [
+   {
+    "name": "חזית עדן ודרום תימן",
+    "status": "פעילה - ירי טילים חות'יים לעבר שדה התעופה הבינלאומי של עדן ופגיעה באזרחים ובתנועה האווירית."
+   },
+   {
+    "name": "חזית תעיז",
+    "status": "פעילה - מצור והתקפות חות'יות הגורמים לפגיעה באספקה ובשירותי רפואה."
+   },
+   {
+    "name": "חזית צפון תימן (אל-ג'וף)",
+    "status": "פעילה - דיווחים על תקיפות אוויריות מצד סעודיה עם אבדות בנפש."
+   },
+   {
+    "name": "חזית תימן - סעודיה",
+    "status": "פעילה ובהסלמה - שיגורי טילים לעבר תשתיות אנרגיה ושדות תעופה בסעודיה ותקיפות מנע/תגובה אוויריות."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10290040-01",
+    "title": "פגיעת טילים בשדה התעופה הבינלאומי של עדן",
+    "summary": "שני טילים פגעו בשטח שדה התעופה של עדן לאחר הוראת פינוי שפרסמו החות'ים עקב נוכחות מטוס תובלה צבאי סעודי. התקיפה גרמה לפציעת אזרחים, נזק חומרי והשבתת תנועת המטוסים.",
+    "axis": "החות'ים - ממשלת תימן וסעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T15:50:27+00:00",
+    "last_update_at": "2026-10-29T00:06:54+00:00",
+    "what_is_not_verified": "לא אומת באופן עצמאי האם המטוס הסעודי נפגע או נשא אמצעי לחימה, וכן מספר הנפגעים המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+      "published_at": "2026-10-29T00:06:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-traffic-suspended-after-missiles-target-aden-airport",
+      "published_at": "2026-10-28T21:30:28+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-say-deadly-saudi-strikes-hit-yemen-they-target-aden",
+      "published_at": "2026-10-28T18:50:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israel-election-netanyahu-bloc-leads-no-majority",
+      "published_at": "2026-10-28T15:50:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה עדן, תימן",
+      "lat": 12.8295,
+      "lon": 45.0316
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10290040-02",
+    "title": "דיווח על תקיפות אוויריות סעודיות במחוז אל-ג'וף",
+    "summary": "החות'ים דיווחו על תקיפות של סעודיה שפגעו בשוק ובתחנת דלק במחוז אל-ג'וף שבצפון-מערב תימן, והביאו להרג של ארבעה עשר בני אדם ולפציעת חמישה עשר נוספים.",
+    "axis": "סעודיה - החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T18:50:07+00:00",
+    "last_update_at": "2026-10-28T18:50:07+00:00",
+    "what_is_not_verified": "מספר ההרוגים והנפגעים וזהות התוקף לא אומתו באופן בלתי תלוי מלבד דיווחי כלי התקשורת של החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-say-deadly-saudi-strikes-hit-yemen-they-target-aden",
+      "published_at": "2026-10-28T18:50:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10290040-03",
+    "title": "שיגור טיל בליסטי לעבר בית הזיקוק ראס תנורה בסעודיה",
+    "summary": "הדובר הצבאי של החות'ים הצהיר כי שוגר טיל בליסטי לעבר מתקן הזיקוק ראס תנורה במחוז המזרחי של סעודיה, על רקע החרפת ההתקפות נגד ריאד.",
+    "axis": "החות'ים - סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T11:04:59+00:00",
+    "last_update_at": "2026-10-28T11:04:59+00:00",
+    "what_is_not_verified": "הפגיעה בפועל ונזקיה לא אומתו על ידי מקור רשמי סעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/egypts-saudi-support-raises-fears-economic-fallout",
+      "published_at": "2026-10-28T11:04:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראס תנורה, סעודיה",
+      "lat": 26.7074,
+      "lon": 50.0674
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10290040-04",
+    "title": "הוראת פינוי לצוות שגרירות ארצות הברית בסעודיה עקב איומי החות'ים",
+    "summary": "שגרירות ארצות הברית בריאד הורתה לעובדים שאינם עובדי חירום ולבני משפחותיהם לעזוב את סעודיה, בעקבות תקיפות מתמשכות של החות'ים בטילים וכטב\"מים על שדות תעופה ותשתיות אזרחיות.",
+    "axis": "ארצות הברית - סעודיה - החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T23:03:34+00:00",
+    "last_update_at": "2026-10-28T23:03:34+00:00",
+    "what_is_not_verified": "היקף העובדים שעזבו בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-ordered-non-emergency-embassy-staff-leave-saudi-arabia",
+      "published_at": "2026-10-28T23:03:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10290040-05",
+    "title": "החרפת המשבר הבריאותי והמצור בעיר תעיז",
+    "summary": "משרד הבריאות של תימן התריע מפני קריסה בריאותית והומניטרית בתעיז עקב המצור של החות'ים, אשר מונע שירותי בריאות ממאות אלפי תושבים, לצד דיווחים על תקיפות חות'יות בעיר.",
+    "axis": "ממשלת תימן - החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T15:50:27+00:00",
+    "last_update_at": "2026-10-28T23:23:49+00:00",
+    "what_is_not_verified": "לא אומתו הטענות על שימוש בחומרים רעילים בפגזים ופגיעה באמבולנס המוזכרות בכותרות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-health-ministry-warns-against-escalating-health-and-humanitarian",
+      "published_at": "2026-10-28T23:23:49+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154807",
+      "published_at": "2026-10-28T22:46:45+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154806",
+      "published_at": "2026-10-28T20:21:08+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154803",
+      "published_at": "2026-10-28T18:32:17+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israel-election-netanyahu-bloc-leads-no-majority",
+      "published_at": "2026-10-28T15:50:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10290040-06",
+    "title": "דיווח על הפלת מטוס קרב סעודי",
+    "summary": "ערוץ דיווח מקוון מסר כי מטוס קרב סעודי מסוג אף-15 הופל בשמי תימן.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T22:29:04+00:00",
+    "last_update_at": "2026-10-28T22:29:04+00:00",
+    "what_is_not_verified": "ההפלה, מיקומה המדויק, זהות המטוס והגורם המפיל אינם מאומתים כלל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49073",
+      "published_at": "2026-10-28T22:29:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-10290040-07",
+    "title": "אישור הסכם הגנה משותף בין טורקיה, סעודיה ופקיסטן",
+    "summary": "ועדת החוץ בפרלמנט הטורקי אישרה הסכם הגנה משותף עם סעודיה ופקיסטן הקובע סיוע הדדי בעת תקיפה חמושה, על רקע העימותים המתגברים מול החות'ים, כאשר טורקיה הבהירה כי חייליה לא יישלחו להילחם בתימן.",
+    "axis": "טורקיה - סעודיה - פקיסטן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-27T23:55:31+00:00",
+    "last_update_at": "2026-10-28T00:40:26+00:00",
+    "what_is_not_verified": "טרם אושר סופית במליאת הפרלמנט הטורקי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/turkey-committee-approves-pact-saudi-arabia-and-pakistan",
+      "published_at": "2026-10-27T23:55:31+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת הפלת מטוס קרב סעודי מסוג אף-15 בתימן.",
+   "דיווחים על פגזים המכילים חומרים רעילים שנורו בתעיז.",
+   "פגיעה מדויקת ונזקים בבית הזיקוק ראס תנורה בסעודיה.",
+   "מספר הנפגעים המדויק בתקיפות המיוחסות לסעודיה באל-ג'וף."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1259,
+    "unit": "ILS",
+    "change_pct": 2.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת החות'ים (אנצאר אללה)",
+    "declared": [
+     "מניעת הגעת משלוחי נשק סעודיים לכוחות הממשלה התימנית בעדן.",
+     "תקיפת מטרות תשתית ונפט בסעודיה בתגובה לפעולותיה."
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי ישיר על ריאד להפסקת התמיכה בממשלת תימן.",
+     "השתלטות על מוקדי כוח נוספים בתימן וערעור הלגיטימציה של ממשלת עדן."
+    ],
+    "forecast": [
+     "המשך ניסיונות לפגוע בשדות תעופה ובמתקני אנרגיה בתוך תימן ובשטח סעודיה.",
+     "החרפת האיומים הצבאיים מול כוחות אזוריים המסייעים לסעודיה."
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה התומכת בממשלת תימן",
+    "declared": [
+     "הגנה על שטח סעודיה ותשתיותיה האזרחיות והכלכליות מפני פגיעה.",
+     "חיזוק הסכמי הגנה אזוריים לבלימת איומים ביטחוניים."
+    ],
+    "inferred": [
+     "בלימת התקדמות החות'ים ומניעת קריסת ממשלת תימן המוכרת.",
+     "בניית מעטפת הרתעה רב-לאומית הכוללת את פקיסטן, טורקיה ומצרים לצמצום חשיפה לתקיפות."
+    ],
+    "forecast": [
+     "המשך פעילות סיכול אווירית בתימן לצד קידום מגעים מדיניים וביטחוניים אזוריים לסיום הלחימה."
+    ]
+   },
+   {
+    "actor": "ממשלת תימן (המוכרת בינלאומית)",
+    "declared": [
+     "הסרת המצור של החות'ים מעל העיר תעיז והגנה על תושביה.",
+     "קריאה למועצת הביטחון ולקהילה הבינלאומית לגנות את ההתקפות על מתקנים אזרחיים ושדות תעופה."
+    ],
+    "inferred": [
+     "שמירה על השליטה בנכסים חיוניים בעדן ובדרום תימן כדי למנוע את קריסת המשטר.",
+     "גיוס סיוע צבאי, כספי והומניטרי בינלאומי להמשך תפקוד מוסדותיה."
+    ],
+    "forecast": [
+     "המשך תלות מוחלטת בסיוע צבאי ופיננסי סעודי לעצירת מתקפות החות'ים."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-health-ministry-warns-against-escalating-health-and-humanitarian",
+    "accessed_at": "2026-10-29T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/turkey-committee-approves-pact-saudi-arabia-and-pakistan",
+    "accessed_at": "2026-10-29T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154803",
+    "accessed_at": "2026-10-29T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49073",
+    "accessed_at": "2026-10-29T00:40:26+00:00"
+   }
+  ]
+ }
+}
