@@ -1,0 +1,421 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a7367d933f6d",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 2,
+   "assessment": 3,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-29T06:22:52+00:00",
+  "window": {
+   "from": "2026-10-28T06:22:52+00:00",
+   "to": "2026-10-29T06:22:52+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610290622"
+  },
+  "summary": "המתיחות בין ישראל וארצות הברית לבין איראן ושלוחותיה מתאפיינת בהיערכות לפעולה צבאית לצד ניסיונות תיווך אזוריים. ארצות הברית מתגברת כוחות ומזהירה שותפות במפרץ מפני אפשרות של מערכה עצימה, בעוד מערכת הביטחון בישראל נערכת למבצע נוסף חרף חוסר ההכרעה הפוליטי. במקביל, טהרן מפגינה יכולות צבאיות ויירוט במצר הורמוז, בעוד גורמים דיפלומטיים בוחנים נוסחאות להפסקת אש והסרת עיצומים.",
+  "fronts": [
+   {
+    "name": "איראן - ארה\"ב",
+    "status": "כוננות צבאית לתקיפות הדדיות לצד ערוצי תקשורת עקיפים ומגעים דיפלומטיים"
+   },
+   {
+    "name": "ישראל - איראן",
+    "status": "דריכות שיא והערכות מצב לתקיפה אפשרית והתרחבות המלחמה"
+   },
+   {
+    "name": "ישראל - לבנון (חזבאללה)",
+    "status": "תקיפות נקודתיות של צה\"ל וסירוב חזבאללה להתפרק מנשקו תוך הישענות על איראן"
+   },
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "חיכוך צבאי הכולל יירוט כלי טיס בלתי מאוישים וניסיונות גיבוש הסדר לפתיחת הנתיב הימי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10290622-01",
+    "title": "יירוט כלי טיס בלתי מאויש אמריקני באזור מצר הורמוז",
+    "summary": "משמרות המהפכה באיראן הודיעו כי יירטו כלי טיס בלתי מאויש מתוצרת ארצות הברית מדגם MQ-1 במרחב האווירי ממזרח למצר הורמוז, מול סיריק, באמצעות מערכת הגנה אווירית חדשה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T05:36:13+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T05:36:13+00:00",
+    "last_update_at": "2026-10-29T05:36:13+00:00",
+    "what_is_not_verified": "אין אימות עצמאי להפלת המל\"ט מעבר להודעת משמרות המהפכה באיראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-shot-down-us-made-drone-near-hormuz-strait-hormuz",
+      "published_at": "2026-10-29T05:36:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סיריק, איראן",
+      "lat": 26.5177,
+      "lon": 57.1018
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10290622-02",
+    "title": "אזהרה אמריקנית למדינות המפרץ מפני פעולה צבאית נגד איראן",
+    "summary": "בארצות הברית הוזהרו מספר מדינות במפרץ להיערך לקראת מערכה צבאית קצרה ועצימה מול איראן לאחר בחירות האמצע.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T08:25:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T08:25:06+00:00",
+    "last_update_at": "2026-10-29T00:06:54+00:00",
+    "what_is_not_verified": "האזהרה מבוססת על פרסום עיתונאי בוול סטריט ג'ורנל ולא על הודעה רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+      "published_at": "2026-10-29T00:06:54+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkh00ojlafl",
+      "published_at": "2026-10-28T21:48:04+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132713",
+      "published_at": "2026-10-28T08:25:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10290622-03",
+    "title": "פניית סגן נשיא ארצות הברית לבכיר במשטר האיראני",
+    "summary": "סגן נשיא ארצות הברית ג'יי די ואנס שיגר מכתב למוחסן רזאי מהמחנה הניצי באיראן, במטרה לבחון היתכנות למנוע את חידוש האש או לדון באספקה רפואית.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T20:13:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T20:13:18+00:00",
+    "last_update_at": "2026-10-29T00:00:00+00:00",
+    "what_is_not_verified": "פרטי המכתב ותוכנו המדויק מבוססים על דיווחים בתקשורת ועל התייחסות חלקית של טראמפ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+      "published_at": "2026-10-29T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkh00ojlafl",
+      "published_at": "2026-10-28T21:48:04+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21731158",
+      "published_at": "2026-10-28T20:18:49+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1382403",
+      "published_at": "2026-10-28T20:13:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10290622-04",
+    "title": "היערכות צה\"ל למבצע אפשרי נגד איראן",
+    "summary": "צמרת הביטחון בישראל מקיימת הערכות מצב לבחינת פעולה נגד איראן והשלוחות שלה, כאשר שר הביטחון הדגיש כי הצבא יבצע כל החלטה שתתקבל בנושא.",
+    "axis": "ישראל - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T12:46:43+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T12:46:43+00:00",
+    "last_update_at": "2026-10-28T15:34:14+00:00",
+    "what_is_not_verified": "מועד ומתכונת המבצע האפשרי אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132738",
+      "published_at": "2026-10-28T15:34:14+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383959188",
+      "published_at": "2026-10-28T12:46:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10290622-05",
+    "title": "חשיפת משגר טילים חדש בטהרן",
+    "summary": "גורמים באיראן הציגו משגר טילים חדש מסוג TEL במרכז וליעסר בטהרן בפני הציבור.",
+    "axis": "איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T09:09:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T09:09:57+00:00",
+    "last_update_at": "2026-10-28T09:09:57+00:00",
+    "what_is_not_verified": "היכולות המבצעיות של המשגר המוצג לא אומתו באופן בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94866",
+      "published_at": "2026-10-28T09:09:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10290622-06",
+    "title": "הצהרת מנהיג חזבאללה על מעורבות איראן והתנגדות לפירוק מנשק",
+    "summary": "מזכ\"ל חזבאללה נעים קאסם הצהיר כי איראן רואה בעדיפות עליונה את הפסקת התקיפות הישראליות בלבנון ונסיגת צה\"ל, והבהיר כי הארגון מסרב להתפרק מנשקו.",
+    "axis": "חזבאללה - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T17:06:01+00:00",
+    "last_update_at": "2026-10-29T06:09:57+00:00",
+    "what_is_not_verified": "מידת ההשפעה המעשית של המגעים בין ארה\"ב לאיראן על הלחימה בשטח אינה מאומתת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86306544/Hezbollah-chief-says-Iran-prioritizes-ending-Israeli-attacks",
+      "published_at": "2026-10-29T06:09:57+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+      "published_at": "2026-10-29T00:06:54+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132743",
+      "published_at": "2026-10-28T17:06:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10290622-07",
+    "title": "תנועות והיערכות של צבא ארצות הברית באזור המזרח התיכון ואירופה",
+    "summary": "זוהו מהלכים של צבא ארצות הברית הכוללים תגבור נוכחות ימית בים התיכון והיערכות מחדש של מערך מטוסי התדלוק באירופה, על רקע כוננות לעימות מול איראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T08:25:06+00:00",
+    "last_update_at": "2026-10-28T11:19:01+00:00",
+    "what_is_not_verified": "הקשר הישיר בין פריסת הכוחות למבצע ספציפי נגד איראן נסמך על הערכות מכוני מחקר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_inss",
+      "url": "https://www.walla.co.il/news/military/383959224",
+      "published_at": "2026-10-28T11:19:01+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_inss",
+      "url": "https://t.me/abualiexpress/132713",
+      "published_at": "2026-10-28T08:25:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10290622-08",
+    "title": "מגעים דיפלומטיים של מדינות המפרץ למניעת חידוש הלחימה",
+    "summary": "מדינות המפרץ מקדמות יוזמת הסדר שמטרתה לפתוח מחדש את מצר הורמוז תמורת הסרת עיצומים מעל איראן ונסיגת חות'ים, במטרה למנוע סבב לחימה נוסף בין איראן לארה\"ב.",
+    "axis": "מדינות המפרץ - איראן - ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T05:00:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T05:00:55+00:00",
+    "last_update_at": "2026-10-28T06:22:52+00:00",
+    "what_is_not_verified": "קיומו של הסכם סופי והסכמת כלל הצדדים לתנאים טרם אומתו",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+      "published_at": "2026-10-28T05:00:55+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת משמרות המהפכה על יירוט מוצלח של כלי טיס בלתי מאויש אמריקני מדגם MQ-1 מעל מצר הורמוז",
+   "הדיווח לפיו ארצות הברית התריעה בפני מדינות המפרץ על תקיפה צפויה לאחר בחירות האמצע",
+   "תוכן המכתב שנמסר על ידי סגן הנשיא ואנס למוחסן רזאי והאם נועד לסיוע רפואי או למניעת הסלמה",
+   "הערכות לגבי סכנת קריסה כלכלית בצמרת משמרות המהפכה",
+   "קיומם של ניסויי טילים שבוצעו באיראן בימים האחרונים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1259,
+    "unit": "ILS",
+    "change_pct": 2.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שמירה על ערוצים פתוחים למתווכים כדי לאפשר מרחב לדיפלומטיה",
+     "דרישה להפסקת התקיפות הישראליות בלבנון ולהסגת כוחות צה\"ל משטחה",
+     "המשך קידום דיפלומטיית האנרגיה חרף פעולות עוינות"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וסמלי במצר הורמוז לצורך שיפור עמדות המיקוח להסרת עיצומים",
+     "שימור יכולות ההרתעה וההשפעה באמצעות ארגוני השלוחים"
+    ],
+    "forecast": [
+     "המשך איתותים צבאיים מדודים סביב מצר הורמוז במקביל לניהול מגעים עקיפים",
+     "החרפת הוויכוח הפנימי בנוגע להסכם הגרעין אם יימשך הלחץ הכלכלי והצבאי"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הכחשת כוונה ליזום מלחמה והדגשת הרצון למנוע חידוש אש",
+     "הפעלת בידוד כלכלי נרחב לצורך החלשת המשטר האיראני",
+     "הגבלת מגעים לסוגיות הומניטריות של אספקה רפואית"
+    ],
+    "inferred": [
+     "הכנת תשתית מבצעית לתקיפה עצימה וקצרה להרתעת איראן",
+     "שימוש באיום צבאי כדי לאלץ את טהרן להסכים לפיקוח גרעיני מחודש"
+    ],
+    "forecast": [
+     "תגבור נוסף של כוחות צבאיים בזירה לקראת החלטה על פעולה לאחר בחירות האמצע",
+     "מיצוי ערוצי הידברות חשאים לפני הוצאה לפועל של תקיפה נרחבת"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הודעת מערכת הביטחון כי הצבא יבצע כל החלטה שתתקבל בנושא איראן"
+    ],
+    "inferred": [
+     "רצון לנצל שעת כושר מבצעית לפגיעה במערכי הגרעין והטילים באיראן",
+     "תיאום צבאי שוטף מול מפקדת פיקוד המרכז של ארה\"ב כהכנה לעימות אזורי"
+    ],
+    "forecast": [
+     "המשך קידום תוכניות תקיפה ללא קשר למבנה הממשלה הזמנית",
+     "פעילות מתמשכת לסיכול התעצמות חזבאללה ומניעת התבססות שלוחות איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86306544/Hezbollah-chief-says-Iran-prioritizes-ending-Israeli-attacks",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21731158",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1382403",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132713",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94866",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383959224",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkh00ojlafl",
+    "accessed_at": "2026-10-29T06:22:52+00:00"
+   }
+  ]
+ }
+}

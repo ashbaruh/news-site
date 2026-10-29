@@ -1,0 +1,341 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6f8d39e086e8",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "shared_root": 1,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-29T06:27:35+00:00",
+  "window": {
+   "from": "2026-10-28T06:27:35+00:00",
+   "to": "2026-10-29T06:27:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610290627"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בהמשך העימות האש בין צה\"ל לבין חזבאללה בדרום לבנון לצד דחייה מוחלטת מצד ארגון הטרור של דרישות פירוק הנשק. במקביל, טורקיה מעמיקה את מעורבותה הצבאית והימית בבניין הכוח של הצי הסורי, בעוד ישראל ממשיכה בפעילות מבצעית הכוללת תקיפות ואמצעים שונים בגבולות סוריה ולבנון.",
+  "fronts": [
+   {
+    "name": "חזית לבנון - ישראל",
+    "status": "פעילה (תקיפות צה\"ל, שיגור מיירטים, ונאומים לוחמניים של חזבאללה)"
+   },
+   {
+    "name": "חזית סוריה - ישראל",
+    "status": "פעילה חלקית (דיווחים על תקיפות ומציאת תחמושת ישראלית)"
+   },
+   {
+    "name": "מעורבות טורקיה בסוריה",
+    "status": "העמקת שיתוף פעולה ובניין כוח ימי"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10290627-01",
+    "title": "תקיפות והפגזות של צה\"ל בדרום לבנון",
+    "summary": "הצבא הישראלי ביצע תקיפות אוויריות, ירי ארטילרי והרס באזורים שונים בדרום לבנון, כולל שיגור מיירט לעבר מטרה חשודה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T17:59:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T17:59:28+00:00",
+    "last_update_at": "2026-10-29T03:30:35+00:00",
+    "what_is_not_verified": "הפרטים המדויקים על תוצאות כל תקיפה אינם מאומתים במלואם מעבר להודעות הרשמיות והדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_anadolu",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-says-it-launched-interceptor-at-suspected-aerial-target-in-southern-lebanon/4104450",
+      "published_at": "2026-10-29T03:30:35+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_anadolu",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+      "published_at": "2026-10-29T00:06:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_anadolu",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-explosive-thermal-balloons-over-southern-lebanon",
+      "published_at": "2026-10-28T22:04:20+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_anadolu",
+      "url": "https://english.almanar.com.lb/article/144417/",
+      "published_at": "2026-10-28T21:07:23+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_anadolu",
+      "url": "https://www.maariv.co.il/breaking-news/article-1382412",
+      "published_at": "2026-10-28T20:39:37+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_anadolu",
+      "url": "https://t.me/idf_telegram/25505",
+      "published_at": "2026-10-28T20:39:08+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_anadolu",
+      "url": "https://english.almanar.com.lb/article/144372/",
+      "published_at": "2026-10-28T19:56:15+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_anadolu",
+      "url": "https://t.me/lelotsenzura/94874",
+      "published_at": "2026-10-28T19:36:03+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_anadolu",
+      "url": "https://english.almanar.com.lb/article/144337/",
+      "published_at": "2026-10-28T17:59:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     },
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1785,
+      "lon": 35.4372
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10290627-02",
+    "title": "נאום מזכ\"ל חזבאללה נעים קאסם",
+    "summary": "מזכ\"ל חזבאללה דחה על הסף את פירוק נשק הארגון, הגדיר את הסכם המסגרת עם ישראל כמבוטל, וטען כי תוצאות הבחירות בישראל מהוות ביטוי לתבוסה.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T13:42:27+00:00",
+    "last_update_at": "2026-10-29T00:06:54+00:00",
+    "what_is_not_verified": "טענותיו של קאסם לגבי השפעת ההסכם עם איראן על הפחתת התקיפות אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+      "published_at": "2026-10-29T00:06:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-leader-rules-out-groups-disarmament",
+      "published_at": "2026-10-28T20:47:43+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://t.me/abualiexpress/132743",
+      "published_at": "2026-10-28T17:06:01+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://english.almanar.com.lb/article/144322/",
+      "published_at": "2026-10-28T16:47:47+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_middle_east_eye",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965266/hezbollah-chief-calls-israeli-election-results-a-form-of-defeat-reject/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965266",
+      "published_at": "2026-10-28T13:42:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10290627-03",
+    "title": "גילוי פצצה ישראלית בלתי מפוצצת בסוריה",
+    "summary": "תושבים מקומיים בסוריה דיווחו על מציאת פצצה ישראלית מדגם ספייס 250 באזור דיר א-זור, ששימשה לכאורה נגד מחסן תחמושת.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T21:42:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T21:42:41+00:00",
+    "last_update_at": "2026-10-28T21:42:41+00:00",
+    "what_is_not_verified": "הדיווח מבוסס על תושבים מקומיים וטענות שלאומתו באופן רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_telegram_carmel",
+      "url": "https://t.me/alexmehacarmel/49072",
+      "published_at": "2026-10-28T21:42:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר א-זור, סוריה",
+      "lat": 35.3333,
+      "lon": 40.15
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10290627-04",
+    "title": "תוכנית בניין כוח של טורקיה עבור הצי הסורי",
+    "summary": "משרד ההגנה הטורקי הכריז על תוכנית לבניית כוח ופיתוח יכולות הצי הסורי, הכוללת תחזוקה, אימונים ופיתוח תשתיות נמלים.",
+    "axis": "סוריה - טורקיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T12:11:50+00:00",
+    "last_update_at": "2026-10-28T12:11:50+00:00",
+    "what_is_not_verified": "היקף היישום המעשה של התוכנית בשטח אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_alma_research_center",
+      "url": "https://israel-alma.org/turkeys-force-buildup-for-the-syrian-navy/",
+      "published_at": "2026-10-28T12:11:50+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות תושבים בסוריה על מציאת פצצת ספייס 250 ישראלית באזור דיר א-זור",
+   "טענות חזבאללה כי ההסכם בין איראן לארצות הברית הפחית את התוקפנות נגד לבנון",
+   "הכחשות טורקיות לגבי אופי התקיפות המיוחסות לישראל בסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1259,
+    "unit": "ILS",
+    "change_pct": 2.5,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות עוינת וסיכול איומים בגבול הצפון"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות צבאיות ואמצעי לחימה המועברים בגבולות סוריה ולבנון",
+     "שימור חופש פעולה מבצעי בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך התקיפות והפעילות המבצעית בדרום לבנון",
+     "היערכות להסלמה אפשרית מול איראן ושלוחותיה"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "סירוב מוחלט לדון בפירוק נשק ההתנגדות",
+     "דחיית הסכם המסגרת והחלטה 1701 במתכונת הנוכחית כפגיעה בריבונות"
+    ],
+    "inferred": [
+     "הישענות על התמיכה האיראנית לחיזוק מעמדו",
+     "שימור יכולת הלחימה וההתנגדות לנוכחות הישראלית"
+    ],
+    "forecast": [
+     "המשך הדחייה של כל הסדר מדיני הכולל פריקה מנשק",
+     "התרסה מתמשכת נגד המדיניות הישראלית והאמריקאית"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "פיתוח ובניין כוח של הצי והכוחות הסוריים"
+    ],
+    "inferred": [
+     "הרחבת ההשפעה והנוכחות האסטרטגית של אנקרה בסוריה ובזירה הימית"
+    ],
+    "forecast": [
+     "העמקת שיתוף הפעולה הצבאי-ימי עם סוריה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/turkeys-force-buildup-for-the-syrian-navy/",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/144322/",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-says-it-launched-interceptor-at-suspected-aerial-target-in-southern-lebanon/4104450",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/965266/hezbollah-chief-calls-israeli-election-results-a-form-of-defeat-reject/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965266",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1382412",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-leader-rules-out-groups-disarmament",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132743",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49072",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25505",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94874",
+    "accessed_at": "2026-10-29T06:27:35+00:00"
+   }
+  ]
+ }
+}

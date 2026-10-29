@@ -1,0 +1,483 @@
+{
+ "status": "draft",
+ "received_sha256_12": "eefc4e2314f7",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "initial": 6,
+   "shared_root": 3,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-29T06:25:04+00:00",
+  "window": {
+   "from": "2026-10-28T06:25:04+00:00",
+   "to": "2026-10-29T06:25:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610290625"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהמשך חילופי מהלומות אוויריות בעומק העורף, לצד לחץ קרקעי של כוחות רוסיים במספר גזרות. אוקראינה ביצעה מתקפת כטב\"מים נרחבת לעבר מוסקבה ופגעה במתקני תעשייה ברוסיה, בעוד הצבא הרוסי תקף בחרקוב והתקדם נקודתית במחוז זפוריז'יה. במקביל נשמרת הפסקת אש מקומית מוגבלת לפינוי אזרחים באולשקי, ומתקיימים מגעים דיפלומטיים לקראת שיחות תלת-צדדיות עתידיות.",
+  "fronts": [
+   {
+    "name": "חזית זפוריז'יה",
+    "status": "התקדמות קרקעית רוסית סמוך ליישובים ווזדביז'יבקה ולוהיבסקה"
+   },
+   {
+    "name": "חזית חרסון",
+    "status": "הפסקת אש מקומית מחזיקה מעמד באזור אולשקי ופעילות לפינוי מוקשים הומניטרי"
+   },
+   {
+    "name": "חזית חרקוב",
+    "status": "תקיפות כטב\"מים רוסיות לעבר מוסדות ותשתיות עירוניות"
+   },
+   {
+    "name": "עורף רוסיה",
+    "status": "מתקפות כטב\"מים אוקראיניות רחבות לעבר מחוז מוסקבה ומפעלי תעשייה ביטחונית וכימית"
+   },
+   {
+    "name": "חזית דונצק",
+    "status": "לחימה פעילה ופגיעות כטב\"מים באזורי קו המגע דוגמת קרמטורסק"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10290625-01",
+    "title": "תקיפות כטב\"מים רוסיים בחרקוב",
+    "summary": "כוחות רוסיים ביצעו תקיפות באמצעות כלי טיס בלתי מאוישים על מוסד חינוכי ועל מחוזות חולודנוגורסק וסלטיב בעיר חרקוב.",
+    "axis": "חזית חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T05:59:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T05:59:00+00:00",
+    "last_update_at": "2026-10-29T05:59:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4179219-russian-forces-strike-educational-institution-in-kharkiv.html",
+      "published_at": "2026-10-29T05:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-02",
+    "title": "מתקפת כטב\"מים על מפעל כימי בבשקורטוסטן",
+    "summary": "דווח על תקיפת כלי טיס בלתי מאוישים ועשן סמוך למפעל הכימי של חברת באשקיר סודה בעיר סטרליטמק, מפעל המייצר חומרים לתעשייה הביטחונית הרוסית.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T05:19:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T05:19:00+00:00",
+    "last_update_at": "2026-10-29T05:19:00+00:00",
+    "what_is_not_verified": "מידת הנזק למתקן לא אומתה והרשויות ברוסיה לא הגיבו רשמית על הפגיעה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_astra_exilenova",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060194/",
+      "published_at": "2026-10-29T05:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סטרליטמק, רוסיה",
+      "lat": 53.6194,
+      "lon": 55.9616
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-03",
+    "title": "מתקפת כטב\"מים אוקראינית רחבת היקף על מוסקבה ומחוזות סמוכים",
+    "summary": "רשויות ברוסיה דיווחו על מתקפה של יותר מ-600 כטב\"מים לעבר מוסקבה והמחוז, שגרמה להגבלות תעופה במספר נמלי תעופה; ראש העיר טען להפלת עשרות כטב\"מים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T22:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T22:34:12+00:00",
+    "last_update_at": "2026-10-28T23:24:00+00:00",
+    "what_is_not_verified": "מספר הכטב\"מים המדויק ששוגרו ושיירטו, וכן השלכות הפגיעה בשטח שלא דווחו על ידי הרשויות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060184/",
+      "published_at": "2026-10-28T23:24:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/moscow-comes-under-drone-fire-overnight-grounding-flights-at-major-airports/",
+      "published_at": "2026-10-28T22:34:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "נארו-פומינסק, רוסיה",
+      "lat": 55.3843,
+      "lon": 36.7235
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-04",
+    "title": "הפסקת אש מקומית ופינוי הומניטרי באולשקי שבמחוז חרסון",
+    "summary": "הפסקת אש בתיווך אמריקאי נשמרה באולשקי הכבושה לצורך פינוי אזרחים ופינוי מוקשים, כאשר לפי מסמכים התושבים יפונו דרך רוסיה ובלארוס בליווי נציב זכויות האדם האוקראיני.",
+    "axis": "חזית הדרום / חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T15:27:08+00:00",
+    "last_update_at": "2026-10-29T01:48:26+00:00",
+    "what_is_not_verified": "אופן המשך מעבר המפונים מגומל שבבלארוס אל תוך שטחי אוקראינה טרם פורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/29/ukraine-war-briefing-oleshky-truce-holding-and-demining-under-way-to-enable-humanitarian-corridor-kyiv-says",
+      "published_at": "2026-10-29T01:48:26+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4179132-demining-underway-along-civilian-evacuation-routes-from-oleshky-to-lubinets.html",
+      "published_at": "2026-10-29T01:40:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/28/russian-military-plane-to-transport-evacuees-from-occupied-ukrainian-town-through-russia-and-belarus-documents-show",
+      "published_at": "2026-10-28T15:55:46+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49055",
+      "published_at": "2026-10-28T15:27:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     },
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-05",
+    "title": "התקדמות כוחות רוסיים במחוז זפוריז'יה",
+    "summary": "אנליסטים צבאיים מקבוצת DeepState דיווחו כי כוחות רוסיים רשמו התקדמות בקרקע בסמוך ליישובים ווזדביז'יבקה ולוהיבסקה.",
+    "axis": "חזית זפוריז'יה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T21:38:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T21:38:00+00:00",
+    "last_update_at": "2026-10-28T21:38:00+00:00",
+    "what_is_not_verified": "לא נמסר אישור רשמי של צבא אוקראינה או צבא רוסיה להתקדמות זו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_deepstate",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060176/",
+      "published_at": "2026-10-28T21:38:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ווזדביז'יבקה, אוקראינה",
+      "lat": 47.7473,
+      "lon": 36.0798
+     },
+     {
+      "name": "לוהיבסקה, אוקראינה",
+      "lat": 47.5255,
+      "lon": 36.0365
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-06",
+    "title": "הריגת מומחי סילוק פצצות בפעילות פינוי מוקשים בסומי",
+    "summary": "שני עובדים משירות החירום הממלכתי של אוקראינה נהרגו במהלך פעילות לפינוי מוקשים הומניטרי באזור סומי.",
+    "axis": "חזית סומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T00:30:00+00:00",
+    "last_update_at": "2026-10-29T00:30:00+00:00",
+    "what_is_not_verified": "נסיבות הפיצוץ המדויקות אינן מפורטות בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4179118-two-state-emergency-service-bomb-disposal-experts-killed-during-demining-operation-in-sumy-region.html",
+      "published_at": "2026-10-29T00:30:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10290625-07",
+    "title": "מתנדב קנדי נהרג מפגיעת כטב\"ם רוסי בקרמטורסק",
+    "summary": "מייסד ארגון סיוע קנדי נהרג מפגיעת כלי טיס בלתי מאויש מסוג FPV בעת שעסק בחילוץ בעלי חיים בעיר קרמטורסק שבחזית דונצק.",
+    "axis": "חזית דונצק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T23:56:51+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T23:56:51+00:00",
+    "last_update_at": "2026-10-28T23:56:51+00:00",
+    "what_is_not_verified": "אין פרטים על נפגעים נוספים באירוע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_raincoast_dog_rescue_society_kyiv_indepe",
+      "url": "https://kyivindependent.com/canadian-volunteer-killed-by-russian-drone-while-rescuing-animals-in-donetsk-oblast/",
+      "published_at": "2026-10-28T23:56:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-08",
+    "title": "הכנות לשיחות תלת-צדדיות באבו דאבי לאחר 4 בנובמבר",
+    "summary": "גורמים רשמיים בקרמלין ובקייב התייחסו לחידוש מתוכנן של מגעים תלת-צדדיים בין רוסיה, ארה\"ב ואוקראינה באיחוד האמירויות, כאשר קיומן והמועד המדויק תלויים במצב בשדה הקרב.",
+    "axis": "משא ומתן ומדיניות בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T14:30:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-28T14:30:06+00:00",
+    "last_update_at": "2026-10-29T00:54:00+00:00",
+    "what_is_not_verified": "התאריך הסופי והרכב המשלחות טרם נקבעו סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060187/",
+      "published_at": "2026-10-29T00:54:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+      "published_at": "2026-10-28T22:26:41+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2209811",
+      "published_at": "2026-10-28T21:15:39+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2209747",
+      "published_at": "2026-10-28T18:33:43+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/10/28/putin-turns-a-half-hour-call-with-european-leaders-into-a-90-minute-history-lecture-trump-says-a-three-way-summit-could-happen-very-soon",
+      "published_at": "2026-10-28T14:30:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-09",
+    "title": "תקיפה אוקראינית ושריפה במפעל אזוט בנובומוסקובסק",
+    "summary": "שריפה פרצה במפעל אזוט בעיר נובומוסקובסק שבמחוז טולה ברוסיה בעקבות תקיפה מן הצד האוקראיני.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T12:58:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T12:58:55+00:00",
+    "last_update_at": "2026-10-28T12:58:55+00:00",
+    "what_is_not_verified": "מידת הנזק וסוג אמצעי הלחימה שפגע במפעל אינם מאומתים בדיווח הקצר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49049",
+      "published_at": "2026-10-28T12:58:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובומוסקובסק, רוסיה",
+      "lat": 54.011,
+      "lon": 38.2909
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10290625-10",
+    "title": "התחייבות אוקראינית שלא לתקוף מכליות דלק רוסי לארה\"ב",
+    "summary": "נשיא אוקראינה ולדימיר זלנסקי הצהיר כי ארצו לא תתקוף ספינות המובילות סולר מרוסיה לארצות הברית בשל זיקתן לארה\"ב.",
+    "axis": "הזירה הימית ומסחר",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T14:27:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-28T14:27:58+00:00",
+    "last_update_at": "2026-10-28T14:27:58+00:00",
+    "what_is_not_verified": "אין פירוט לגבי מנגנון הזיהוי או היקף המכליות שחוסות תחת הצהרה זו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49051",
+      "published_at": "2026-10-28T14:27:58+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק והפגיעות בעקבות מתקפת הכטב\"מים על חברת באשקיר סודה בסטרליטמק.",
+   "המספר המדויק של כלי הטיס הבלתי מאוישים שיורטו או פגעו במתקפה ההמונית על אזור מוסקבה.",
+   "תוואי המעבר המדויק של אזרחי אולשקי מבלארוס לתוך שטח אוקראינה.",
+   "התאריך המוסכם והרכב המשתתפים המלא במפגש המתוכנן באבו דאבי.",
+   "היקף הנזק הממשי במפעל אזוט במחוז טולה בעקבות התקיפה."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1133,
+    "unit": "USD",
+    "change_pct": -0.15,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-28T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להרחיב את ההשתתפות הבינלאומית בבית דין מיוחד לפשעי התוקפנות הרוסית",
+     "להשיג צעדי דה-אסקלציה בתחום האנרגיה והים ושחרור שבויים בשיחות עתידיות",
+     "לא לפגוע בספינות מסחר המובילות דלק רוסי לארצות הברית"
+    ],
+    "inferred": [
+     "פגיעה ביכולות הייצור של התעשייה הביטחונית הרוסית באמצעות מתקפות כטב\"מים בעומק רוסיה",
+     "הקלת המצוקה ההומניטרית באזורים כבושים תוך שמירה על התיאום עם המערב"
+    ],
+    "forecast": [
+     "המשך מיקוד התקיפות בעורף הרוסי לצד ניסיון למצות ערוצי פינוי אזרחים בחסות בינלאומית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "התניית שיחות המשא ומתן העתידיות במצב בשדה הקרב ובמצב הכללי",
+     "המשך קידום מטרות מדיניות לעולם רב-קוטבי ופיתוח מערכי לוויינים עצמאיים"
+    ],
+    "inferred": [
+     "שימוש בהתקדמות הטריטוריאלית בחזית לשיפור עמדות המיקוח לקראת מגעים מדיניים",
+     "המשך שחיקת התשתיות האוקראיניות תוך הסכמה מוגבלת לנתיבים הומניטריים מבוקרים"
+    ],
+    "forecast": [
+     "הגברת הלחץ הצבאי על קו החזית לקראת מועד השיחות המתוכנן בנובמבר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/29/ukraine-war-briefing-oleshky-truce-holding-and-demining-under-way-to-enable-humanitarian-corridor-kyiv-says",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/canadian-volunteer-killed-by-russian-drone-while-rescuing-animals-in-donetsk-oblast/",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/10/28/putin-turns-a-half-hour-call-with-european-leaders-into-a-90-minute-history-lecture-trump-says-a-three-way-summit-could-happen-very-soon",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060187/",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2209747",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49051",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4179118-two-state-emergency-service-bomb-disposal-experts-killed-during-demining-operation-in-sumy-region.html",
+    "accessed_at": "2026-10-29T06:25:04+00:00"
+   }
+  ]
+ }
+}
