@@ -1,83 +1,89 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-29T12:00:00+02:00",
- "generated_at": "2026-10-29T11:40:16+00:00",
+ "slot": "2026-10-29T18:00:00+02:00",
+ "generated_at": "2026-10-29T16:05:47+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10291140-01",
-     "title": "איראן טוענת כי לכדה כטב\"ם אמריקאי במצר הורמוז",
-     "summary": "חיל הים של משמרות המהפכה הודיע כי השתלט על מערכותיו של כטב\"ם אמריקאי ולכד אותו ללא פגע ממערב למצר הורמוז.",
-     "axis": "עימות ימי ואווירי בין איראן לארה\"ב",
+     "id": "IRAN-10291605-01",
+     "title": "פניית סגן הנשיא ואנס לאיראן",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הודיע כי פנייתו של סגנו ג'יי די ואנס לאיראן נועדה לסייע בהשגת אספקה רפואית, כאשר באיראן אישרו את קבלת המכתב אך טרם השיבו עליו.",
+     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T10:23:24+00:00",
+     "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T10:23:24+00:00",
-     "last_update_at": "2026-10-29T10:23:24+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או תגובה אמריקאית לטענת משמרות המהפכה.",
+     "first_reported_at": "2026-10-29T14:58:47+00:00",
+     "last_update_at": "2026-10-29T15:46:36+00:00",
+     "what_is_not_verified": "תוכן המכתב מעבר לאספקה רפואית או חידוש שיחות שלום",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86306801/IRGC-Navy-captures-US-drone-intact-over-Strait-of-Hormuz",
-       "published_at": "2026-10-29T10:23:24+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/10/vance-outreach-iran-related-medical-supplies-says-trump",
+       "published_at": "2026-10-29T15:46:36+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-received-letter-uss-vance-yet-respond-news-agency-reports",
+       "published_at": "2026-10-29T14:58:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-10291605-02",
+     "title": "פיטורי המתכנן הראשי של הפנטגון",
+     "summary": "שר ההגנה האמריקני פיט הגסת' פיטר את הגנרל ברט סילביה, המתכנן הבכיר של המטות המשולבים, על רקע טענות להדלפות בצל המלחמה עם איראן.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-29T14:49:47+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-29T14:49:47+00:00",
+     "last_update_at": "2026-10-29T14:49:47+00:00",
+     "what_is_not_verified": "פירוט ההדלפות המיוחסות לגנרל שפוטר",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/hegseth-fires-pentagons-top-strategist-accused-leaks-amid-iran-war",
+       "published_at": "2026-10-29T14:49:47+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10291140-02",
-     "title": "דיווח איראני על פיצוץ שלוש מכליות נפט במצר הורמוז",
-     "summary": "משמרות המהפכה מסרו כי שלוש מכליות נפט עלו על מוקשים ימיים ועלו באש בעת שנעו בנתיב לא מורשה מדרום למצר הורמוז.",
-     "axis": "פגיעה בשיט במצר הורמוז",
-     "claim_type": "incident",
+     "id": "IRAN-10291605-03",
+     "title": "הצעת תיווך רוסית בין איראן לארצות הברית",
+     "summary": "דובר הקרמלין הודיע כי רוסיה מוכנה לתווך בין וושינגטון לטהראן ואף לקלוט אורניום מועשר מאיראן במידה והדבר מעכב את המשא ומתן.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T09:45:48+00:00",
+     "occurred_at": "2026-10-29T13:37:50+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T09:45:48+00:00",
-     "last_update_at": "2026-10-29T09:48:21+00:00",
-     "what_is_not_verified": "זהות המכליות ומקור המוקשים לא אומתו באופן בלתי תלוי.",
+     "first_reported_at": "2026-10-29T13:37:50+00:00",
+     "last_update_at": "2026-10-29T13:37:50+00:00",
+     "what_is_not_verified": "עמדת הצדדים בנוגע לקבלת התיווך הרוסי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-revolutionary-guards-say-three-oil-tankers-hit-mines-strait-hormuz",
-       "published_at": "2026-10-29T09:48:21+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86306780/Three-oil-tankers-explode-while-taking-unauthorized-route-through",
-       "published_at": "2026-10-29T09:45:48+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10291140-03",
-     "title": "הערכת הפנטגון לגבי עלות הלחימה מול איראן",
-     "summary": "בפנטגון הודיעו כי המלחמה מול איראן עלתה למשלמי המסים בארצות הברית 47 מיליארד דולר.",
-     "axis": "ההשלכות הכלכליות של המערכה האמריקאית נגד איראן",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T11:12:43+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T11:12:43+00:00",
-     "last_update_at": "2026-10-29T11:12:43+00:00",
-     "what_is_not_verified": "הפירוט המדויק של סעיפי העלות אינו מפורט במקור.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/29/pentagon-says-iran-war-has-cost-us-taxpayers-47bn-what-that-means?traffic_source=rss",
-       "published_at": "2026-10-29T11:12:43+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/russia-offers-mediate-between-iran-and-us-report",
+       "published_at": "2026-10-29T13:37:50+00:00"
       }
      ],
      "places": []
@@ -87,120 +93,115 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-10291140-01",
-     "title": "תקיפות ארטילריה וירי מקלעים בדרום לבנון",
-     "summary": "כוחות ישראליים ביצעו תקיפות ארטילריות וירי מקלעים לעבר אזור ואדי אל-חוג'יר ועיירות בדרום לבנון בשעות הבוקר המוקדמות.",
-     "axis": "חילופי אש ותקיפות ישראליות בדרום לבנון",
+     "id": "NORTH-10291605-01",
+     "title": "תרומת ראש ממשלת עיראק לאתרים דתיים בדמשק",
+     "summary": "ראש ממשלת עיראק עלי א-זיידי העניק תרומה של עשרה מיליון דולר מכספו האישי למסגד אומיה ולמתחם סיידה זיינב במהלך ביקורו בבירת סוריה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T07:30:00+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T10:26:23+00:00",
-     "last_update_at": "2026-10-29T10:26:23+00:00",
-     "what_is_not_verified": "היקף הנזק או הנפגעים בתקיפות אלו אינו ידוע.",
+     "first_reported_at": "2026-10-29T13:50:47+00:00",
+     "last_update_at": "2026-10-29T13:50:47+00:00",
+     "what_is_not_verified": "מקור הכספים האישי של ראש הממשלה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_b096e03e760aa461",
-       "url": "https://english.almanar.com.lb/article/144477/",
-       "published_at": "2026-10-29T10:26:23+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/iraq-pm-donates-10m-syrias-umayyad-sayyida-zainab-mosques",
+       "published_at": "2026-10-29T13:50:47+00:00"
       }
      ],
      "places": [
       {
-       "name": "ואדי אל-חוג'יר, לבנון",
-       "lat": 33.2589,
-       "lon": 35.459
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
       }
      ]
     },
     {
-     "id": "NORTH-10291140-02",
-     "title": "כניסת אזרחים לבנונים לאזור הקו הצהוב",
-     "summary": "קבוצת צעירים לבנונים נכנסה לכפר קנטרה שבאזור הקו הצהוב בדרום לבנון ותיעדה את המקום לפני שיצאה בחזרה.",
-     "axis": "המצב הביטחוני והתנועה בקו הגבול בדרום לבנון",
+     "id": "NORTH-10291605-02",
+     "title": "סערה סביב תיעוד חייל ישראלי ליד כנסייה בדרום לבנון",
+     "summary": "תצלום של חייל צה\"ל מחייך מול כנסיית סנט ג'וזף ההרוסה בחלקה בכפר קאוזה עורר זעם רב וקריאות להגנה על אתרי דת היסטוריים.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T06:45:01+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T06:45:01+00:00",
-     "last_update_at": "2026-10-29T06:45:01+00:00",
-     "what_is_not_verified": "הדיווח על מעצרם בידי מנגנוני הביטחון הלבנוניים לא אומת באופן ודאי.",
+     "first_reported_at": "2026-10-29T14:14:14+00:00",
+     "last_update_at": "2026-10-29T14:14:14+00:00",
+     "what_is_not_verified": "נסיבות גרימת הנזק למבנה הכנסייה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132760",
-       "published_at": "2026-10-29T06:45:01+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "or_the_new_arab",
+       "url": "https://www.newarab.com/news/israeli-soldier-poses-damaged-lebanon-church-sparking-anger",
+       "published_at": "2026-10-29T14:14:14+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "קנטרה, לבנון",
-       "lat": 33.2735,
-       "lon": 35.4591
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-10291140-03",
-     "title": "התרחבות החקירה סביב משלוח חומרי הנפץ בלבנון",
-     "summary": "החקירה סביב תפיסת משלוח חומרי נפץ במחסום דהר אל-בידר התרחבה, לאחר שהתברר כי הועמס במחסן בבעלבכ בדרכו לדאחייה בביירות.",
-     "axis": "פעילות חזבאללה וסיכולי אמל\"ח בתוך לבנון",
+     "id": "NORTH-10291605-03",
+     "title": "מפולת סלעים בקפדוקיה שבטורקיה",
+     "summary": "שני בני אדם נהרגו ואחרים נפגעו כתוצאה ממפולת סלעים שנגרמה מגשמים עזים באתר התיירות בקפדוקיה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-27T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T09:31:10+00:00",
-     "last_update_at": "2026-10-29T09:31:10+00:00",
-     "what_is_not_verified": "זהות המעורבים המדויקת והקשר הפיקודי הישיר נתונים לחקירה שטרם הסתיימה.",
+     "occurred_at": "2026-10-29T12:15:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-29T14:46:07+00:00",
+     "last_update_at": "2026-10-29T14:48:23+00:00",
+     "what_is_not_verified": "מספר הפצועים המדויק (דיווחים שונים בין פצוע אחד לחמישה)",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_alma",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://israel-alma.org/hezbollahs-explosives-shipment-latest-developments-and-defining-the-key-tests-facing-the-lebanese-state/",
-       "published_at": "2026-10-29T09:31:10+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בעלבכ, לבנון",
-       "lat": 34.0097,
-       "lon": 36.2117
+       "url": "https://www.al-monitor.com/originals/2026/10/fairy-chimney-rockfall-kills-two-turkeys-cappadocia-tourist-attraction-after",
+       "published_at": "2026-10-29T14:48:23+00:00"
       },
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/rock-collapse-near-unesco-listed-site-turkeys-cappadocia-kills-least-two",
+       "published_at": "2026-10-29T14:46:07+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10291140-01",
-     "title": "תקיפת כטב\"ם על תחנת הרכבת בדניפרו",
-     "summary": "כטב\"ם רוסי פגע ברציף תחנת רכבת שבו עמדו רכבות נוסעים בעיר דניפרו וגרם לפציעתם של אזרחים, בהם שישה במצב קריטי.",
-     "axis": "תקיפות רוסיות על תשתיות תחבורה באוקראינה",
+     "id": "UKRAINE-10291605-01",
+     "title": "פגיעה קטלנית של כטב\"מים בתחנת רכבת בדניפרו",
+     "summary": "לפחות 14 בני אדם נהרגו ו-14 נוספים נפצעו מפגיעת כטב\"מים רוסיים בתחנת רכבת בעיר דניפרו.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T10:31:00+00:00",
-     "last_update_at": "2026-10-29T10:31:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים הכולל הסופי אינו מצוין בדיווח.",
+     "first_reported_at": "2026-10-29T14:17:35+00:00",
+     "last_update_at": "2026-10-29T15:19:00+00:00",
+     "what_is_not_verified": "מצבם הסופי של הפצועים קשה המאושפזים בבתי החולים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060244/",
-       "published_at": "2026-10-29T10:31:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060314/",
+       "published_at": "2026-10-29T15:19:00+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-29T14:17:35+00:00"
       }
      ],
      "places": [
@@ -212,151 +213,145 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-10291140-02",
-     "title": "פגיעת כטב\"ם בבניין מגורים בקרמנצ'וק",
-     "summary": "שני בני אדם נהרגו ושניים נוספים נפצעו, בהם ילד בן שש, בעקבות פגיעת כטב\"ם רוסי בבניין מגורים במחוז פולטבה.",
-     "axis": "פגיעות בעורף האזרחי באוקראינה",
+     "id": "UKRAINE-10291605-02",
+     "title": "תקיפת פצצות גולשות על בניין מגורים באיזיום",
+     "summary": "שני בני אדם חולצו מההריסות בעקבות פגיעת פצצות אוויריות מונחות בבניין מגורים בן חמש קומות בעיר איזיום, ובכך עלה מספר הנפגעים ל-12.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T10:24:00+00:00",
-     "last_update_at": "2026-10-29T10:24:00+00:00",
-     "what_is_not_verified": "פרטי הנפגעים המלאים והיקף הנזק המבני המדויק.",
+     "first_reported_at": "2026-10-29T15:21:00+00:00",
+     "last_update_at": "2026-10-29T15:21:00+00:00",
+     "what_is_not_verified": "האם נותרו לכודים נוספים תחת ההריסות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060235/",
-       "published_at": "2026-10-29T10:24:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060312/",
+       "published_at": "2026-10-29T15:21:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "קרמנצ'וק, אוקראינה",
-       "lat": 49.0929,
-       "lon": 33.4308
+       "name": "איזיום, אוקראינה",
+       "lat": 49.1913,
+       "lon": 37.2784
       }
      ]
     },
     {
-     "id": "UKRAINE-10291140-03",
-     "title": "תקיפה אוקראינית נגד מתקני כטב\"מים במחוז בריאנסק ברוסיה",
-     "summary": "כוחות הביטחון של אוקראינה תקפו שלושה מתקנים ששימשו לשיגור ולאחסון כטב\"מים ומאגרי דלק ליד נבליה בתוך שטח רוסיה.",
-     "axis": "תקיפות אוקראיניות בעומק שטח רוסיה",
-     "claim_type": "incident",
+     "id": "UKRAINE-10291605-03",
+     "title": "האשמת גנרל רוסי בתקיפת מוזיאון היסטורי",
+     "summary": "התביעה הכללית באוקראינה הגישה כתב אישום שלא בפניו נגד גנרל רוסי שפקד לתקוף בטיל מוזיאון המוקדש לפילוסוף אוקראיני מהמאה ה-18 ביודעו שמדובר באתר תרבות.",
+     "axis": "ukraine",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-28T00:00:00+00:00",
+     "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T10:15:00+00:00",
-     "last_update_at": "2026-10-29T10:15:00+00:00",
-     "what_is_not_verified": "היקף הנזק שנגרם בפועל למתקנים לא אומת בידי גורמים רשמיים ברוסיה.",
+     "first_reported_at": "2026-10-29T15:18:44+00:00",
+     "last_update_at": "2026-10-29T15:18:44+00:00",
+     "what_is_not_verified": "מיקומו הנוכחי של הגנרל ואפשרות העמדתו לדין בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060234/",
-       "published_at": "2026-10-29T10:15:00+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_the_kyiv_independent",
+       "url": "https://kyivindependent.com/prosecutor-general-charges-russian-general-in-absentia-for-bombing-museum-dedicated-to-18th-century-ukrainian-philosopher/",
+       "published_at": "2026-10-29T15:18:44+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "נבליה, רוסיה",
-       "lat": 52.8649,
-       "lon": 35.0013
-      }
-     ]
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10291140-01",
-     "title": "הקואליציה בהובלת סעודיה יירטה טיל בליסטי חות'י",
-     "summary": "הקואליציה בהובלת סעודיה הודיעה כי השמידה טיל בליסטי ששוגר על ידי החות'ים לעבר האזור המזרחי של הממלכה.",
-     "axis": "ירי רקטי וטילים מתימן לעבר סעודיה",
-     "claim_type": "incident",
+     "id": "YEMEN-10291605-01",
+     "title": "טענות החות'ים על הרוגים בתקיפה סעודית בתעז",
+     "summary": "החות'ים טוענים כי 12 בני אדם נהרגו ושלושה נפצעו קשה בתקיפה סעודית על בתי מגורים במחוז תעז שבמערב תימן.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-29T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T01:06:42+00:00",
-     "last_update_at": "2026-10-29T01:06:42+00:00",
-     "what_is_not_verified": "אין אימות או נטילת אחריות מפורשת מצד החות'ים בטקסט.",
+     "first_reported_at": "2026-10-29T13:21:23+00:00",
+     "last_update_at": "2026-10-29T13:21:23+00:00",
+     "what_is_not_verified": "אימות התקיפה על ידי סעודיה או מספר הנפגעים המדויק ממקור בלתי תלוי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-it-destroyed-houthi-ballistic-missile-fired",
-       "published_at": "2026-10-29T01:06:42+00:00"
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strike-kills-12-yemeni-residential-area",
+       "published_at": "2026-10-29T13:21:23+00:00"
       }
      ],
      "places": [
       {
-       "name": "נג'ראן, סעודיה",
-       "lat": 17.544,
-       "lon": 44.2247
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
       }
      ]
     },
     {
-     "id": "YEMEN-10291140-02",
-     "title": "דיווחים על תקיפות אוויריות במחוזות ד'ו באב ומוח'א",
-     "summary": "כלי תקשורת המזוהים עם החות'ים דיווחו על סדרת תקיפות אוויריות שכוונו לאזורים במחוזות ד'ו באב ומוח'א בתימן.",
-     "axis": "תקיפות אוויריות נגד יעדים בתימן",
-     "claim_type": "incident",
+     "id": "YEMEN-10291605-02",
+     "title": "האשמות נגד החות'ים בשימוש בחומרים רעילים",
+     "summary": "רשויות השלטון המקומי במחוז תעז האשימו את החות'ים בשימוש בחומרים רעילים האסורים לפי החוק הבינלאומי במהלך הפגזות וקראו לחקירה דחופה.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
+     "occurred_at": "2026-10-28T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T07:53:07+00:00",
-     "last_update_at": "2026-10-29T07:53:07+00:00",
-     "what_is_not_verified": "זהות הגורם התוקף והיקף הנזק או הנפגעים לא צוינו ולא אומתו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/attacks-reportedly-target-yemens-dhaw-bab-mocha",
-       "published_at": "2026-10-29T07:53:07+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מוח'א, תימן",
-       "lat": 13.3179,
-       "lon": 43.2501
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10291140-03",
-     "title": "תקיפת כוחות חות'יים על שדה התעופה בעדן",
-     "summary": "כוחות החות'ים תקפו את שדה התעופה של עדן במסגרת המשך הלחימה בתימן.",
-     "axis": "הלחימה הפנימית בתימן ופגיעה בתשתיות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T07:47:09+00:00",
-     "last_update_at": "2026-10-29T07:47:09+00:00",
-     "what_is_not_verified": "אמצעי התקיפה והנזקים שנגרמו לשדה התעופה אינם מפורטים.",
+     "first_reported_at": "2026-10-29T12:43:39+00:00",
+     "last_update_at": "2026-10-29T12:43:39+00:00",
+     "what_is_not_verified": "הרכב החומרים המדויק ואימות הממצאים על ידי גורם בינלאומי בלתי תלוי",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/no-majority-israeli-elections-trump-mulls-next-steps-iran",
-       "published_at": "2026-10-29T07:47:09+00:00"
+       "source_root_id": "or_the_new_arab",
+       "url": "https://www.newarab.com/news/yemeni-authorities-accuse-houthis-using-toxic-substances",
+       "published_at": "2026-10-29T12:43:39+00:00"
       }
      ],
      "places": [
       {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10291605-03",
+     "title": "עקירת מאות אלפי תושבים בעקבות הקרבות בתעז",
+     "summary": "לפי נתוני האו\"ם, הקרבות המתחוללים באזור תעז בתימן גרמו לעקירתם של למעלה מ-281 אלף בני אדם מבתיהם מאז תחילת אוגוסט.",
+     "axis": "yemen",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-29T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-29T12:46:29+00:00",
+     "last_update_at": "2026-10-29T12:46:29+00:00",
+     "what_is_not_verified": "פילוח העקורים לפי אזורי שהייה נוכחיים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/10/29/fighting-rages-near-yemens-taiz-as-un-urges-humanitarian-access?traffic_source=rss",
+       "published_at": "2026-10-29T12:46:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
       }
      ]
     }

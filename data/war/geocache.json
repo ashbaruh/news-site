@@ -506,6 +506,7 @@
 39.6487,
 -77.4651
 ],
+"cappadocia, turkey": null,
 "chabahar, iran": [
 25.2935,
 60.6469
@@ -923,6 +924,10 @@
 "ivano-frankivsk, ukraine": [
 48.9225,
 24.7103
+],
+"izium, ukraine": [
+49.1913,
+37.2784
 ],
 "jabal al-arab, as-suwayda, syria": null,
 "jabal bazel, yemen": null,
@@ -1673,6 +1678,7 @@
 33.2735,
 35.4591
 ],
+"qaouzah, lebanon": null,
 "qazvin province, iran": null,
 "qazvin, iran": [
 36.2692,
