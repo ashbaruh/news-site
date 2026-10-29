@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T02:12:43+00:00",
- "ok": true,
- "msg": "עדכון ביניים 04:00: iran 3, north 3, ukraine 3, yemen 3"
+ "at": "2026-10-29T09:45:25+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: Remote end closed connection without response"
 }
