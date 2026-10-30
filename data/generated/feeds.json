@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-30T09:17:11+00:00",
-  "fetched_at": "2026-10-30T09:17:11+00:00"
+  "checked_at": "2026-10-30T10:17:20+00:00",
+  "fetched_at": "2026-10-30T10:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T09:17:25+00:00",
-  "fetched_at": "2026-10-30T09:17:25+00:00"
+  "checked_at": "2026-10-30T10:17:30+00:00",
+  "fetched_at": "2026-10-30T10:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T09:17:29+00:00",
-  "fetched_at": "2026-10-30T09:17:29+00:00"
+  "checked_at": "2026-10-30T10:17:33+00:00",
+  "fetched_at": "2026-10-30T10:17:33+00:00"
  },
- "generated_at": "2026-10-30T09:17:29+00:00",
+ "generated_at": "2026-10-30T10:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הירידות בתל אביב מחריפות בהובלת מניות השבבים; הדולר מטפס",
+     "title": "מגמה שלילית בתל אביב: כל הסקטורים באדום; מניות השבבים נופלות במעל 7%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561388",
-     "date": "2026-10-30T09:09:00+00:00"
+     "date": "2026-10-30T10:02:00+00:00"
     },
     {
      "title": "הערכה באיראן: תקיפה נוספת תתרחש במטרה להפיל את המשטר",
@@ -97,19 +97,24 @@
    ],
    "market": [
     {
+     "title": "התשקיף מגלה: ברזאני תחלק דיבידנד ענק, שכר הבעלים יזנק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561443",
+     "date": "2026-10-30T10:11:00+00:00"
+    },
+    {
+     "title": "מגמה שלילית בתל אביב: כל הסקטורים באדום; מניות השבבים נופלות במעל 7%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561388",
+     "date": "2026-10-30T10:02:00+00:00"
+    },
+    {
+     "title": "פיצוץ יקר: כך הובילה תאונה בקרית גת לאובדן של כמעט רבע משוויה של אינטל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561445",
+     "date": "2026-10-30T09:44:00+00:00"
+    },
+    {
      "title": "6.3 מיליארד דולר ב־20 דקות: חמש פריצות הקריפטו הגדולות בהיסטוריה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561444",
      "date": "2026-10-30T08:51:00+00:00"
-    },
-    {
-     "title": "הירידות בתל אביב מחריפות בהובלת מניות השבבים; הדולר מטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561388",
-     "date": "2026-10-30T08:34:00+00:00"
-    },
-    {
-     "title": "דיווח: סייארה הישראלית יוצאת לגיוס לפי שווי שאפתני במיוחד",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561442",
-     "date": "2026-10-30T08:21:00+00:00"
     },
     {
      "title": "20 דקות וקשר לצפון קוריאה: פרטים חדשים על פריצת הקריפטו הגדולה בהיסטוריה",
@@ -207,25 +212,15 @@
      "date": "2026-10-29T11:26:00+00:00"
     },
     {
-     "title": "מוקדם מהצפוי: נשיאת הבנק המרכזי האירופי כריסטין לגארד פורשת מתפקידה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561270",
-     "date": "2026-10-29T10:20:00+00:00"
-    },
-    {
      "title": "\"פגיע במיוחד\": הסקטור שכדאי להתרחק ממנו, ואיפה יש הזדמנויות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561174",
      "date": "2026-10-29T09:24:00+00:00"
-    },
-    {
-     "title": "מנהל השקעות בכיר פסימי במיוחד: \"הבורסה בת\"א לא אטרקטיבית. הנדל\"ן מת\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561192",
-     "date": "2026-10-29T03:27:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T09:17:15+00:00",
-  "fetched_at": "2026-10-30T09:17:15+00:00"
+  "checked_at": "2026-10-30T10:17:21+00:00",
+  "fetched_at": "2026-10-30T10:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T09:17:16+00:00",
-  "fetched_at": "2026-10-30T09:17:16+00:00"
+  "checked_at": "2026-10-30T10:17:21+00:00",
+  "fetched_at": "2026-10-30T10:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -1880,13 +1875,6 @@
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "ואסקו דה גמא - פלמנגו"
-   },
-   {
-    "date": "2026-10-30",
-    "time": "02:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "אטלנטה הוקס - קליבלנד קאבלירס"
    },
    {
     "date": "2026-10-30",
@@ -1961,6 +1949,13 @@
    {
     "date": "2026-10-30",
     "time": "20:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ניס - ראן"
+   },
+   {
+    "date": "2026-10-30",
+    "time": "20:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "ז'לגיריס קובנה - פרטיזן בלגרד"
@@ -1982,6 +1977,13 @@
    {
     "date": "2026-10-30",
     "time": "21:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "אלברסברג - מיינץ"
+   },
+   {
+    "date": "2026-10-30",
+    "time": "21:30",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "וירטוס בולוניה - בשיקטאש"
@@ -1992,13 +1994,6 @@
     "channel": "ספורט 5 מקס",
     "sport": "כדורסל",
     "title": "ברצלונה - ולנסיה"
-   },
-   {
-    "date": "2026-10-30",
-    "time": "21:30",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "אלברסברג - מיינץ"
    },
    {
     "date": "2026-10-30",
@@ -2030,24 +2025,10 @@
    },
    {
     "date": "2026-10-31",
-    "time": "01:00",
+    "time": "02:00",
     "channel": "ספורט 5",
     "sport": "כדורסל",
-    "title": "וושינגטון וויזארדס - שארלוט הורנטס"
-   },
-   {
-    "date": "2026-10-31",
-    "time": "01:30",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "פילדלפיה 76 - ניו יורק ניקס"
-   },
-   {
-    "date": "2026-10-31",
-    "time": "01:30",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "ברוקלין נטס - דטרויט פיסטונס"
+    "title": "דאלאס מאבריקס - יוסטון רוקטס"
    },
    {
     "date": "2026-10-31",
@@ -2076,6 +2057,13 @@
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "אברטון נשים - מנצ'סטר יונייטד נשים"
+   },
+   {
+    "date": "2026-10-31",
+    "time": "15:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "אנסיי - מונפלייה"
    },
    {
     "date": "2026-10-31",
@@ -2234,16 +2222,16 @@
    {
     "date": "2026-10-31",
     "time": "21:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "גנגאן - סט. אטיין"
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "יוטה ג'אז - פורטלנד טריילבלייזרס"
    },
    {
     "date": "2026-10-31",
     "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "יוטה ג'אז - פורטלנד טריילבלייזרס"
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "גנגאן - סט. אטיין"
    },
    {
     "date": "2026-10-31",
@@ -2325,6 +2313,13 @@
    {
     "date": "2026-11-01",
     "time": "15:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "פלקירק - סלטיק"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "15:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "חטאפה - סביליה"
@@ -2353,6 +2348,13 @@
    {
     "date": "2026-11-01",
     "time": "17:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "נורדסלנד - מידטיילנד"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "17:00",
     "channel": "ספורט 4",
     "sport": "כדורסל",
     "title": "אריס סלוניקי - פנאתינאיקוס"
@@ -2370,6 +2372,13 @@
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "קאסימפסה - בשיקטאש"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "מכבי עירוני רמת גן - מכבי כרמיאל בית הכרם"
    },
    {
     "date": "2026-11-01",
@@ -2391,6 +2400,27 @@
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "איינטרכט פרנקפורט - המבורג"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "18:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "עירוני קריית אתא - בני הרצליה"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "הפועל ירושלים - הפועל עירוני אילת"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "19:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "לצ'ה - גנואה"
    },
    {
     "date": "2026-11-01",
@@ -2422,6 +2452,20 @@
    },
    {
     "date": "2026-11-01",
+    "time": "20:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "פאלרמו - ויצ'נזה וירטוס"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "20:55",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-01",
     "time": "21:45",
     "channel": "ספורט 1",
     "sport": "כדורגל",
@@ -2429,10 +2473,24 @@
    },
    {
     "date": "2026-11-01",
+    "time": "21:45",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "מארסיי - טולוז"
+   },
+   {
+    "date": "2026-11-01",
     "time": "22:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "אתלטיק בילבאו - ריאל סוסיאדד"
+   },
+   {
+    "date": "2026-11-01",
+    "time": "22:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "אורלנדו מג'יק - בוסטון סלטיקס"
    },
    {
     "date": "2026-11-02",
@@ -2520,8 +2578,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T09:17:17+00:00",
-  "fetched_at": "2026-10-30T09:17:17+00:00"
+  "checked_at": "2026-10-30T10:17:24+00:00",
+  "fetched_at": "2026-10-30T10:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2674,8 +2732,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T09:17:17+00:00",
-  "fetched_at": "2026-10-30T09:17:17+00:00"
+  "checked_at": "2026-10-30T10:17:24+00:00",
+  "fetched_at": "2026-10-30T10:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2706,14 +2764,14 @@
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 288,
+     "likes": 289,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1087,
+     "likes": 1088,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2731,24 +2789,24 @@
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 291,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
-    },
-    {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 65,
+     "likes": 67,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 292,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 841,
+     "likes": 842,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2775,8 +2833,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T09:17:24+00:00",
-  "fetched_at": "2026-10-30T09:17:24+00:00"
+  "checked_at": "2026-10-30T10:17:29+00:00",
+  "fetched_at": "2026-10-30T10:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2863,15 +2921,6 @@
      ]
     },
     {
-     "title": "אוריין גורן צפוי לקבל זימון בכורה לנבחרת ישראל",
-     "link": "https://www.one.co.il/Article/537408.html?ref=rss",
-     "date": "2026-10-29T18:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
-    {
      "title": "אוריין גורן צפוי לקבל זימון ראשון לנבחרת ישראל",
      "link": "https://sports.walla.co.il/item/3874231",
      "date": "2026-10-29T16:29:00+00:00",
@@ -2914,6 +2963,15 @@
      "source": "וואלה",
      "players": [
       "ליאל עבדה"
+     ]
+    },
+    {
+     "title": "אבדיה חוגג, האלופה מתרסקת: דירוג העוצמה של ESPN נחשף",
+     "link": "https://sports.walla.co.il/item/3874048",
+     "date": "2026-10-28T13:48:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -3117,8 +3175,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-30T09:17:20+00:00",
-  "fetched_at": "2026-10-30T09:17:20+00:00"
+  "checked_at": "2026-10-30T10:17:26+00:00",
+  "fetched_at": "2026-10-30T10:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3148,8 +3206,9 @@
     "date": "2026-10-28T12:46:43+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-30T09:17:21+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-30T10:17:26+00:00",
   "fetched_at": "2026-10-30T09:17:21+00:00"
  },
  "feed_health": {
@@ -3157,44 +3216,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-30T09:09:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T10:11:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-10-30T08:34:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T10:11:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-30T08:51:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T09:44:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-30T07:41:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T10:27:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-30T10:42:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T11:02:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-30T08:54:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T09:58:00+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3206,41 +3265,41 @@
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-30T06:40:36+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "newest": "2026-10-30T10:05:21+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-29T16:19:19+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-30T09:17:29+00:00",
+    "seen_at": "2026-10-30T10:17:33+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-30T09:17:29+00:00",
+  "checked_at": "2026-10-30T10:17:33+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3397,7 +3456,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T09:17:21+00:00",
-  "fetched_at": "2026-10-30T09:17:21+00:00"
+  "checked_at": "2026-10-30T10:17:27+00:00",
+  "fetched_at": "2026-10-30T10:17:27+00:00"
  }
 }
