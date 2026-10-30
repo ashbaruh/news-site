@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-30T13:17:19+00:00",
-  "fetched_at": "2026-10-30T13:17:19+00:00"
+  "checked_at": "2026-10-30T14:14:42+00:00",
+  "fetched_at": "2026-10-30T14:14:42+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:31+00:00",
-  "fetched_at": "2026-10-30T13:17:31+00:00"
+  "checked_at": "2026-10-30T14:14:57+00:00",
+  "fetched_at": "2026-10-30T14:14:57+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:33+00:00",
-  "fetched_at": "2026-10-30T13:17:33+00:00"
+  "checked_at": "2026-10-30T14:14:58+00:00",
+  "fetched_at": "2026-10-30T14:14:58+00:00"
  },
- "generated_at": "2026-10-30T13:17:33+00:00",
+ "generated_at": "2026-10-30T14:14:58+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לאאורה יש 84 אלף דירות בצנרת - אז למה היא צריכה הרפתקה בדיור מוגן?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561315",
-     "date": "2026-10-30T11:35:00+00:00"
+     "title": "עונת הדוחות מכה בוול סטריט: נאסד\"ק נופל; מניית אינטל צוללת ב-28%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561446",
+     "date": "2026-10-30T12:51:00+00:00"
     },
     {
      "title": "דיווח: כך פועל השב\"כ נגד מחבלים בעזה",
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T13:17:20+00:00",
-  "fetched_at": "2026-10-30T13:17:20+00:00"
+  "checked_at": "2026-10-30T14:14:44+00:00",
+  "fetched_at": "2026-10-30T14:14:44+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:21+00:00",
-  "fetched_at": "2026-10-30T13:17:21+00:00"
+  "checked_at": "2026-10-30T14:14:45+00:00",
+  "fetched_at": "2026-10-30T14:14:45+00:00"
  },
  "tv": {
   "data": [
@@ -2573,8 +2573,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:22+00:00",
-  "fetched_at": "2026-10-30T13:17:22+00:00"
+  "checked_at": "2026-10-30T14:14:47+00:00",
+  "fetched_at": "2026-10-30T14:14:47+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2727,8 +2727,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T13:17:22+00:00",
-  "fetched_at": "2026-10-30T13:17:22+00:00"
+  "checked_at": "2026-10-30T14:14:47+00:00",
+  "fetched_at": "2026-10-30T14:14:47+00:00"
  },
  "ai": {
   "data": {
@@ -2759,14 +2759,14 @@
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 294,
+     "likes": 295,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1091,
+     "likes": 1093,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2787,7 +2787,7 @@
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 69,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -2798,18 +2798,18 @@
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
-     "title": "Jev Decision Index",
-     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
-     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 843,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
-    {
      "title": "GEAR",
      "desc_en": "Recursive self-improvement of LLM agent harnesses",
      "desc_he": "שיפור עצמי רקורסיבי של רתמות סוכני LLM",
      "likes": 62,
      "link": "https://huggingface.co/spaces/WizardTY/GEAR"
+    },
+    {
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 843,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Phonon",
@@ -2822,18 +2822,27 @@
      "title": "FastH3-Omni",
      "desc_en": "FastVideo 8-step video+audio from image/video/audio refs",
      "desc_he": "FastVideo וידאו+אודיו בן 8 שלבים מתוך רשמי תמונה/וידאו/אודיו",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T13:17:30+00:00",
-  "fetched_at": "2026-10-30T13:17:30+00:00"
+  "checked_at": "2026-10-30T14:14:57+00:00",
+  "fetched_at": "2026-10-30T14:14:57+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "שום פנייה לא הגיעה להתאחדות בנוגע לאוריין גורן",
+     "link": "https://www.one.co.il/Article/537493.html?ref=rss",
+     "date": "2026-10-30T13:49:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "\"עשויה להתפתח תחרות\": מינגסה אורב לחלאילי",
      "link": "https://www.one.co.il/Article/537479.html?ref=rss",
@@ -2958,15 +2967,6 @@
      "source": "וואלה",
      "players": [
       "ליאל עבדה"
-     ]
-    },
-    {
-     "title": "אבדיה חוגג, האלופה מתרסקת: דירוג העוצמה של ESPN נחשף",
-     "link": "https://sports.walla.co.il/item/3874048",
-     "date": "2026-10-28T13:48:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3170,11 +3170,16 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-30T13:17:26+00:00",
-  "fetched_at": "2026-10-30T13:17:26+00:00"
+  "checked_at": "2026-10-30T14:14:51+00:00",
+  "fetched_at": "2026-10-30T14:14:51+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "פרסום ראשון: צה\"ל פותח כבישים בחברון ונערך לנסיגה הדרגתית מהאזור",
+    "link": "https://www.walla.co.il/news/military/383959486",
+    "date": "2026-10-30T13:19:54+00:00"
+   },
    {
     "title": "מתחת לאף: האמר צה\"לי נגנב מבסיס בדרום - חשש שישמש להתחזות לכוחות",
     "link": "https://www.walla.co.il/news/military/383959432",
@@ -3194,106 +3199,101 @@
     "title": "במהלך אליפות צה\"ל בקרב מגע: קטטה המונית בין לוחמי גבעתי והצנחנים | צפו בתיעוד",
     "link": "https://www.walla.co.il/news/military/383959250",
     "date": "2026-10-28T14:28:22+00:00"
-   },
-   {
-    "title": "הערכת מצב ראשונה לאחר הבחירות: על הפרק - היערכות למבצע באיראן",
-    "link": "https://www.walla.co.il/news/military/383959188",
-    "date": "2026-10-28T12:46:43+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:27+00:00",
-  "fetched_at": "2026-10-30T13:17:27+00:00"
+  "checked_at": "2026-10-30T14:14:51+00:00",
+  "fetched_at": "2026-10-30T14:14:51+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-30T12:56:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "newest": "2026-10-30T13:59:00+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T12:51:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-30T11:31:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-30T13:25:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "newest": "2026-10-30T14:37:00+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-30T14:11:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "newest": "2026-10-30T15:12:00+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-30T13:05:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "newest": "2026-10-30T14:12:00+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-10-30T06:05:54+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "newest": "2026-10-30T13:19:54+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-30T10:05:21+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-29T16:19:19+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-30T13:17:33+00:00",
+    "seen_at": "2026-10-30T14:14:58+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-30T13:17:33+00:00",
+  "checked_at": "2026-10-30T14:14:58+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3450,7 +3450,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T13:17:27+00:00",
-  "fetched_at": "2026-10-30T13:17:27+00:00"
+  "checked_at": "2026-10-30T14:14:52+00:00",
+  "fetched_at": "2026-10-30T14:14:52+00:00"
  }
 }
