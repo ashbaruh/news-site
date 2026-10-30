@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-30T15:17:10+00:00",
-  "fetched_at": "2026-10-30T15:17:10+00:00"
+  "checked_at": "2026-10-30T16:17:21+00:00",
+  "fetched_at": "2026-10-30T16:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,57 +44,57 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:20+00:00",
-  "fetched_at": "2026-10-30T15:17:20+00:00"
+  "checked_at": "2026-10-30T16:17:34+00:00",
+  "fetched_at": "2026-10-30T16:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Atacama Moseco 6.2",
+    "title_he": "אטקמה מוסקו 6.2",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/av/speaker-stands/atacama-moseco-6-2",
+    "date": "2026-10-30T15:47:12+00:00"
+   },
+   {
+    "title_en": "The OLED iPad Mini has a 60Hz display, but it isn't a dealbreaker for on-the-move AV enthusiasts like me – here's why",
+    "title_he": "ל-OLED iPad Mini יש צג של 60Hz, אבל הוא לא פורץ עסקות לחובבי AV בתנועה כמוני - הנה הסיבה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/smartphones-tablets/tablets/the-oled-ipad-mini-has-a-60hz-display-but-it-isnt-a-dealbreaker-for-on-the-move-av-enthusiasts-like-me-heres-why",
+    "date": "2026-10-30T15:44:58+00:00"
+   },
+   {
+    "title_en": "Noble Fokus Artemis",
+    "title_he": "אצילי פוקוס ארטמיס",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/noble-fokus-artemis",
+    "date": "2026-10-30T15:43:48+00:00"
+   },
    {
     "title_en": "Bose has bought Skullcandy, but is it going to be good for its headphones business?",
     "title_he": "Bose קנתה את Skullcandy, אבל האם זה הולך להיות טוב לעסקי האוזניות שלה?",
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/bose-has-bought-skullcandy-but-is-it-going-to-be-good-for-business",
     "date": "2026-10-30T14:19:08+00:00"
-   },
-   {
-    "title_en": "Philips' durable portable radio is built to survive the apocalypse – or at least a wet weekend camping trip",
-    "title_he": "הרדיו הנייד העמיד של פיליפס בנוי כדי לשרוד את האפוקליפסה - או לפחות טיול קמפינג רטוב בסוף השבוע",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/radio/philips-durable-portable-radio-is-built-to-survive-the-apocalypse-or-at-least-a-wet-weekend-camping-trip",
-    "date": "2026-10-29T16:19:19+00:00"
-   },
-   {
-    "title_en": "Move over Mini LED, 111-inch OLED TVs could be on the way – and they might be more affordable than you think",
-    "title_he": "מעבר למיני LED, טלוויזיות OLED בגודל 111 אינץ' יכולות להיות בדרך - והן עשויות להיות זולות יותר ממה שאתה חושב",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/televisions/move-over-mini-led-111-inch-oled-tvs-could-be-on-the-way-and-they-might-be-more-affordable-than-you-think",
-    "date": "2026-10-29T16:18:55+00:00"
-   },
-   {
-    "title_en": "This feature-packed hi-res music streamer's new DAC promises a \"natural and analogue-like\" sound",
-    "title_he": "ה-DAC החדש של סטרימר מוזיקה עתיר רזולוציה זה מבטיח צליל \"טבעי ואנלוגי\"",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/music-streamers/this-feature-packed-hi-res-music-streamers-new-dac-promises-a-natural-and-analogue-like-sound",
-    "date": "2026-10-29T16:05:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:22+00:00",
-  "fetched_at": "2026-10-30T15:17:22+00:00"
+  "checked_at": "2026-10-30T16:17:38+00:00",
+  "fetched_at": "2026-10-30T16:17:38+00:00"
  },
- "generated_at": "2026-10-30T15:17:22+00:00",
+ "generated_at": "2026-10-30T16:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
      "title": "עונת הדוחות מכה בוול סטריט: נאסד\"ק נופל; מניית אינטל צוללת ב-28%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561446",
-     "date": "2026-10-30T14:34:00+00:00"
+     "date": "2026-10-30T15:41:00+00:00"
     },
     {
      "title": "דיווח: כך פועל השב\"כ נגד מחבלים בעזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561437",
-     "date": "2026-10-30T12:56:00+00:00"
+     "date": "2026-10-30T14:49:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T15:17:11+00:00",
-  "fetched_at": "2026-10-30T15:17:11+00:00"
+  "checked_at": "2026-10-30T16:17:22+00:00",
+  "fetched_at": "2026-10-30T16:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:12+00:00",
-  "fetched_at": "2026-10-30T15:17:12+00:00"
+  "checked_at": "2026-10-30T16:17:23+00:00",
+  "fetched_at": "2026-10-30T16:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2575,8 +2575,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:13+00:00",
-  "fetched_at": "2026-10-30T15:17:13+00:00"
+  "checked_at": "2026-10-30T16:17:25+00:00",
+  "fetched_at": "2026-10-30T16:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2729,12 +2729,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T15:17:13+00:00",
-  "fetched_at": "2026-10-30T15:17:13+00:00"
+  "checked_at": "2026-10-30T16:17:25+00:00",
+  "fetched_at": "2026-10-30T16:17:25+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
+     "date": "2026-10-29T12:12:40+00:00",
+     "launch": false,
+     "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/updated-model-spec",
@@ -2745,11 +2752,10 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 2,
+   "candidates": 5,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2763,7 +2769,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1094,
+     "likes": 1096,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2805,7 +2811,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 843,
+     "likes": 845,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2816,17 +2822,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
-     "title": "FastH3-Omni",
-     "desc_en": "FastVideo 8-step video+audio from image/video/audio refs",
-     "desc_he": "FastVideo וידאו+אודיו בן 8 שלבים מתוך רשמי תמונה/וידאו/אודיו",
-     "likes": 65,
-     "link": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
+     "title": "Viggle Turbo for Qwen-Image-2.1",
+     "desc_en": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
+     "desc_he": "6 שלבים Qwen-Image-2.1, T2I + עריכה, השוואה מול בסיס",
+     "likes": 420,
+     "link": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T15:17:19+00:00",
-  "fetched_at": "2026-10-30T15:17:19+00:00"
+  "checked_at": "2026-10-30T16:17:34+00:00",
+  "fetched_at": "2026-10-30T16:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -3167,8 +3173,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-30T15:17:16+00:00",
-  "fetched_at": "2026-10-30T15:17:16+00:00"
+  "checked_at": "2026-10-30T16:17:28+00:00",
+  "fetched_at": "2026-10-30T16:17:28+00:00"
  },
  "idf": {
   "data": [
@@ -3199,58 +3205,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:17+00:00",
-  "fetched_at": "2026-10-30T15:17:17+00:00"
+  "checked_at": "2026-10-30T16:17:30+00:00",
+  "fetched_at": "2026-10-30T16:17:30+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-30T14:34:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "newest": "2026-10-30T15:41:00+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T12:51:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-30T11:31:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-30T14:37:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-30T16:03:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "newest": "2026-10-30T16:15:00+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-30T15:10:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "newest": "2026-10-30T16:08:00+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-30T15:13:07+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3262,35 +3268,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-30T14:16:25+00:00",
-    "seen_at": "2026-10-30T14:17:37+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-30T14:19:08+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "newest": "2026-10-30T15:47:12+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-30T15:17:22+00:00",
+    "seen_at": "2026-10-30T16:17:38+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-30T15:17:22+00:00",
+  "checked_at": "2026-10-30T16:17:38+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3447,7 +3453,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T15:17:17+00:00",
-  "fetched_at": "2026-10-30T15:17:17+00:00"
+  "checked_at": "2026-10-30T16:17:31+00:00",
+  "fetched_at": "2026-10-30T16:17:31+00:00"
  }
 };
