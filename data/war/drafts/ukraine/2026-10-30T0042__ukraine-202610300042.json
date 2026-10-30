@@ -1,0 +1,482 @@
+{
+ "status": "draft",
+ "received_sha256_12": "81063d4c2b4e",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-30T00:42:53+00:00",
+  "window": {
+   "from": "2026-10-29T00:42:53+00:00",
+   "to": "2026-10-30T00:42:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610300042"
+  },
+  "summary": "הלחימה נמשכת בעוצמה כאשר צבא רוסיה מבצע תקיפות כבדות של טילים וכטב\"מים על תשתיות וריכוזי אוכלוסייה בערי העורף באוקראינה, במקביל לתקיפות תגובה אוקראיניות בעומק שטח רוסיה. לצד זאת נרשמה הפוגה מקומית ומתוחמת לצרכים הומניטריים באזור אולשקי שבמחוז חרסון, בעוד מאמצי התיווך המדיניים מתאפיינים בהעברת מסרים ראשוניים בנושאי שטח ודרישות להסדרי קבע.",
+  "fronts": [
+   {
+    "name": "חזית חרסון / אולשקי",
+    "status": "רגיעה זמנית מקומית במסגרת הפסקת אש הומניטרית ופינוי מוקשים"
+   },
+   {
+    "name": "העורף האוקראיני (דניפרו, קייב, צ'רניהיב)",
+    "status": "תחת גלי תקיפות רוסיות באמצעות טילים וכטב\"מים נגד תשתיות אנרגיה ותחבורה"
+   },
+   {
+    "name": "עומק שטח רוסיה (מחוז וולגוגרד ואזורי גבול)",
+    "status": "מטרה לתקיפות אוקראיניות נגד בסיסי אוויר ותשתיות תקשורת"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10300042-01",
+    "title": "הפסקת אש הומניטרית ומבצע פינוי באולשקי שבמחוז חרסון",
+    "summary": "הפוגה מקומית בלחימה נשמרה באולשקי ובסביבת חרסון לצורך פינוי אזרחים וחלוקת סיוע, תוך השלמת פינוי מוקשים בצירים לקראת מעבר שיירה.",
+    "axis": "חזית הדרום / חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T04:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T01:48:26+00:00",
+    "last_update_at": "2026-10-29T21:10:15+00:00",
+    "what_is_not_verified": "לא אומת מספר האזרחים המדויק שיתפנו בפועל והאם כולם יועברו דרך שטח רוסיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/30/residents-of-russian-occupied-oleshky-have-until-friday-afternoon-to-leave-aid-distribution-for-those-who-stay-is-scheduled-to-begin-under-a-temporary-ceasefire",
+      "published_at": "2026-10-29T21:10:15+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T20:05:57+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/route-demining-completed-in-russian-occupied-oleshky-as-humanitarian-convoy-prepares-to-enter-ukraines-ombudsman-says/",
+      "published_at": "2026-10-29T19:40:50+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060343/",
+      "published_at": "2026-10-29T18:20:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2210441",
+      "published_at": "2026-10-29T17:47:50+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/29/ukraine-war-briefing-oleshky-truce-holding-and-demining-under-way-to-enable-humanitarian-corridor-kyiv-says",
+      "published_at": "2026-10-29T01:48:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי",
+      "lat": 46.6261,
+      "lon": 32.722
+     },
+     {
+      "name": "חרסון",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-02",
+    "title": "תקיפות אוויריות וטילים רוסיים על דניפרו, קייב וערים נוספות",
+    "summary": "רוסיה שיגרה טילים וכטב\"מים לעבר מספר מוקדים; בתקיפה על תחנת רכבת בדניפרו נהרגו ונפצעו אזרחים ומאות אלפים נותקו מחשמל, ופגיעות טילים נרשמו גם בקייב.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T12:00:00+00:00",
+    "last_update_at": "2026-10-29T23:36:48+00:00",
+    "what_is_not_verified": "יש פער בדיווחים על מספר ההרוגים בדניפרו (בין 13 ל-14, או 19 במצטבר עם ערים נוספות)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-night-attacks-kill-1-in-kyiv-leave-350-000-in-dnipro-without-power/",
+      "published_at": "2026-10-29T23:36:48+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4179544-zelensky-russian-strikes-killed-19-people-in-dnipro-chernihiv-kremenchuk.html",
+      "published_at": "2026-10-29T20:23:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russias-mass-murder-deadly-russian-strikes-on-dnipro-chernihiv-kremenchuk/",
+      "published_at": "2026-10-29T19:42:55+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T14:17:35+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168702",
+      "published_at": "2026-10-29T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו",
+      "lat": 51.5567,
+      "lon": 30.6122
+     },
+     {
+      "name": "קייב",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "צ'רניהיב",
+      "lat": 51.4941,
+      "lon": 31.2943
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-03",
+    "title": "תקיפת טילי נפטון על שדה תעופה צבאי בוולגוגרד",
+    "summary": "הצי האוקראיני ביצע תקיפה באמצעות טילי נפטון נגד שדה התעופה מרינובקה במחוז וולגוגרד, והשמיד שני מטוסי קרב מסוג סו-34.",
+    "axis": "עומק רוסיה / תקיפות אוקראיניות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T16:55:34+00:00",
+    "last_update_at": "2026-10-29T19:42:55+00:00",
+    "what_is_not_verified": "לא הוצג אימות עצמאי או אישור רוסי להשמדת המטוסים ופגיעה במשגר איסקנדר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russias-mass-murder-deadly-russian-strikes-on-dnipro-chernihiv-kremenchuk/",
+      "published_at": "2026-10-29T19:42:55+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060351/",
+      "published_at": "2026-10-29T18:46:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49094",
+      "published_at": "2026-10-29T16:55:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מרינובקה, מחוז וולגוגרד",
+      "lat": 48.6924,
+      "lon": 43.8321
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-04",
+    "title": "מעצר נהג באזור קייב בחשד לסיוע להכוונת תקיפות רוסיות",
+    "summary": "שירות הביטחון של אוקראינה עצר נהג בחברת לוגיסטיקה החשוד בהעברת מידע למודיעין הרוסי לצורך פגיעה במתקני אנרגיה.",
+    "axis": "ביטחון פנים באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T23:46:00+00:00",
+    "last_update_at": "2026-10-29T23:46:00+00:00",
+    "what_is_not_verified": "ההאשמות מבוססות על הודעת שירות הביטחון האוקראיני בלבד ללא הכרעה שיפוטית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_sbu",
+      "url": "https://www.ukrinform.net/rubric-ato/4179321-sbu-detains-driver-suspected-of-directing-russian-attacks-on-kyiv-regions-thermal-power-plants.html",
+      "published_at": "2026-10-29T23:46:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז קייב",
+      "lat": 50.4731,
+      "lon": 30.4674
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-05",
+    "title": "דיווח על מכליות דלק רוסי העושות דרכן לארצות הברית",
+    "summary": "ארגון גרינפיס איתר שבע מכליות דלק המובילות סולר מרוסיה לכיוון ארצות הברית במסגרת הסכמות שנויות במחלוקת.",
+    "axis": "כלכלה וסנקציות בינלאומיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T19:04:17+00:00",
+    "last_update_at": "2026-10-29T22:08:58+00:00",
+    "what_is_not_verified": "לא ברור אם המכליות יורשו לפרוק את המטען בנמלי ארצות הברית בשל מעמדן החוקי והפוליטי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/seven-russian-tankers-shipping-diesel-to-us-identified-located-media-reports/",
+      "published_at": "2026-10-29T22:08:58+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+      "published_at": "2026-10-29T19:04:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האוקיינוס האטלנטי",
+      "lat": 13.5819,
+      "lon": -38.3203
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-06",
+    "title": "מגעים דיפלומטיים ותנאים לפסגה ושיחות שלום",
+    "summary": "נשיאי פינלנד ונורווגיה העבירו מסר מנשיא אוקראינה לנשיא רוסיה בדבר נכונות לפגישה ישירה ולדיון בסוגיות שטח, בעוד הקרמלין מדגיש צורך בהסדר קבוע ולא בהפוגה זמנית.",
+    "axis": "משא ומתן ומדיניות בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T18:33:00+00:00",
+    "last_update_at": "2026-10-29T23:37:44+00:00",
+    "what_is_not_verified": "לא מאומת האם יתקיימו שיחות באבו דאבי או פגישה אישית בין פוטין לזלנסקי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2210591",
+      "published_at": "2026-10-29T23:37:44+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2210569",
+      "published_at": "2026-10-29T20:42:18+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/29/ukraine-says-zelensky-is-ready-to-discuss-territory-with-putin-in-person",
+      "published_at": "2026-10-29T18:51:24+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060345/",
+      "published_at": "2026-10-29T18:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "אבו דאבי",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-07",
+    "title": "הפעלת צריחי הגנה אווירית אוטומטיים באוקראינה",
+    "summary": "מערכות נשק רובוטיות מבוססות בינה מלאכותית, המופעלות בידי חטיבות הגנה אווירית פרטיות, יירטו עשרות כטב\"מים וטילים מעל שמי קייב ומוקדים נוספים.",
+    "axis": "הגנה אווירית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T18:37:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T18:37:00+00:00",
+    "last_update_at": "2026-10-29T18:37:00+00:00",
+    "what_is_not_verified": "הנתונים מבוססים על הודעת ארגון הפיתוח בלבד ללא בדיקה חיצונית של כמות ההפלות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_brave1",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060346/",
+      "published_at": "2026-10-29T18:37:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10300042-08",
+    "title": "דיווח רוסי על שימוש אוקראיני במסופי תקשורת לוויינית אירופיים",
+    "summary": "גורמי ניתוח רוסיים טוענים כי אוקראינה החלה לצייד כטב\"מים ארוכי טווח במסופי תקשורת חלופיים שאינם מוגבלים מעל שטח רוסיה לצורך שיבוש ופגיעה בעומק המדינה.",
+    "axis": "טכנולוגיה ותקיפות בעומק רוסיה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T18:58:32+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T18:58:32+00:00",
+    "last_update_at": "2026-10-29T18:58:32+00:00",
+    "what_is_not_verified": "מקור הטענה הוא ערוץ טלגרם המזוהה עם מומחים רוסים, ולא הוצגו הוכחות עצמאיות לתפוצת השימוש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49098",
+      "published_at": "2026-10-29T18:58:32+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים הכולל והמדויק בסדרת התקיפות הרוסיות על דניפרו וערים סמוכות",
+   "הטענה לפגיעה והשמדה מלאה של מטוסי קרב ומשגר איסקנדר בשדה התעופה מרינובקה",
+   "הטענה לגבי הפסקת תקיפות אוקראיניות על בתי זיקוק רוסיים בעקבות לחץ אמריקני",
+   "דיווח על הטבעת ספינה ישראלית בים השחור בידי כשב\"מים וטענת השתייכותה לצי צללים",
+   "נתוני האבדות הרוסיות לחודש אוקטובר שפורסמו על ידי המטה הכללי האוקראיני",
+   "היתכנות הפריקה החוקית של מכליות הנפט הרוסי בנמלי ארצות הברית",
+   "מועד ותנאי כינוס המשא ומתן המדיני באבו דאבי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.113,
+    "unit": "USD",
+    "change_pct": -0.03,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-29T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "נכונות לפגישה אישית וישירה בין זלנסקי לפוטין כדי לדון בסוגיות שטח",
+     "הגנה על תשתיות קריטיות ודרישה לקבלת מיירטים ומערכות הגנה אווירית"
+    ],
+    "inferred": [
+     "שימור לחץ צבאי על שדות תעופה ומתקנים בעומק רוסיה לצמצום עוצמת ההפצצות",
+     "הפחתת המתיחות מול הממשל האמריקני על רקע חששות מקיצוץ בסיוע הצבאי"
+    ],
+    "forecast": [
+     "המשך ניסיונות להביא להפוגות מקומיות נקודתיות במקביל להחרפת המחסור במיירטים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת שלום יציב ובר קיימא במקום הפסקות אש זמניות",
+     "נכונות להידברות עם מדינות אירופה תוך הבעת עמדה של מוכנות לעימות רחב"
+    ],
+    "inferred": [
+     "המשך שחיקת רשת החשמל והמורל האוקראיני באמצעות מתקפות עומק על תשתיות",
+     "ניצול הפוגות הומניטריות מוגבלות לשיפור מעמדה הדיפלומטי מול גורמים בינלאומיים"
+    ],
+    "forecast": [
+     "הגברת קצב שיגורי הטילים הבליסטיים כפי שעולה מהתרעות המודיעין"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/seven-russian-tankers-shipping-diesel-to-us-identified-located-media-reports/",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/29/ukraine-says-zelensky-is-ready-to-discuss-territory-with-putin-in-person",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060346/",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2210569",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49098",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4179321-sbu-detains-driver-suspected-of-directing-russian-attacks-on-kyiv-regions-thermal-power-plants.html",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168702",
+    "accessed_at": "2026-10-30T00:42:53+00:00"
+   }
+  ]
+ }
+}

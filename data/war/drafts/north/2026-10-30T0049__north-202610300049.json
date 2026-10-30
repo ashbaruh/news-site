@@ -1,0 +1,363 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1de83bdd271b",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 8
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-30T00:49:24+00:00",
+  "window": {
+   "from": "2026-10-29T00:49:24+00:00",
+   "to": "2026-10-30T00:49:24+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "north-202610300049"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בחיכוך צבאי ישיר בדרום לבנון ובדרום סוריה, לצד מאמצים דיפלומטיים ותהליכי שיקום מקבילים. כוחות צבא ישראליים מקיימים נוכחות ומבצעים פשיטות ומעצרים מעבר לגבול בסוריה ובלבנון, מה שמעורר תסיסה אזרחית ומחאות נרחבות. במקביל מתנהלים מגעים עקיפים ומשולשים להסדרת המציאות הביטחונית, בעוד חזבאללה וההנהגה בסוריה מנסים לייצב את שליטתם מול אתגרים פנימיים ומשברים אזוריים.",
+  "fronts": [
+   {
+    "name": "חזית דרום לבנון וישראל",
+    "status": "פעילות צבאית ישראלית מתמשכת, מגעים מדיניים וניסיונות אזרחיים לבנוניים לחזור לאזורי הקו הצהוב"
+   },
+   {
+    "name": "חזית דרום סוריה וישראל",
+    "status": "התרחבות פעילות מעצרים ופשיטות ישראליות במחוזות קוניטרה ודרעא הגוררת גל מחאות נרחב"
+   },
+   {
+    "name": "גבול סוריה-ירדן",
+    "status": "מתיחות ביטחונית בעקבות תקיפות אוויריות ירדניות נגד יעדי טרור שגרמו לפגיעה באזרחים"
+   },
+   {
+    "name": "צפון-מזרח סוריה",
+    "status": "פעילות חברות אנרגיה זרות ומשא ומתן סביב ניהול משאבי הנפט באזור הכורדי"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10300049-01",
+    "title": "מחאות בסוריה בעקבות הרג אזרח ומעצרים בידי כוחות ישראליים בדרום המדינה",
+    "summary": "הפגנות התקיימו במספר מחוזות בסוריה, כולל מול מטה האומות המאוחדות בדמשק, במחאה על הרג אזרח סורי בעל מוגבלות בידי צבא ישראל ועל המשך מעצרם של עשרות תושבים במהלך פשיטות ליליות באזור קוניטרה ודרעא.",
+    "axis": "דרום סוריה וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T13:06:20+00:00",
+    "last_update_at": "2026-10-29T13:06:20+00:00",
+    "what_is_not_verified": "המספר המדויק של העצורים המוחזקים בישראל ונסיבות הירי המדויקות אינם מאומתים מעבר לטענות המפגינים ומשפחותיהם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/how-israels-expanding-occupation-deepening-syrias-dilemma",
+      "published_at": "2026-10-29T13:06:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-02",
+    "title": "זעם בלבנון בעקבות תיעוד חייל ישראלי בכנסייה שנפגעה בכפר קוזח",
+    "summary": "תצלום של חייל ישראלי על רקע כנסיית סנט ג'וזף ההיסטורית שניזוקה בכפר קוזח בדרום לבנון עורר גינויים וקריאות להגנה על אתרי דת, בעוד הגישה לכפר חסומה בשל הפעילות הצבאית של ישראל באזור.",
+    "axis": "דרום לבנון וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T14:14:14+00:00",
+    "last_update_at": "2026-10-29T14:14:14+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במבנה הכנסייה ונסיבות הפגיעה המקוריות בה אינם מאומתים ממקור רשמי עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-soldier-poses-damaged-lebanon-church-sparking-anger",
+      "published_at": "2026-10-29T14:14:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10300049-03",
+    "title": "תדרוך נשיא לבנון אודות המשא ומתן המשולש שהתקיים בטמפה",
+    "summary": "נשיא לבנון ז'וזף עון קיים פגישה עם מפקד הצבא וראשי המשלחת הלבנונית, וקיבל עדכון מקיף על תוצאות השיחות המשולשות בין לבנון, ארצות הברית וישראל שנערכו בארצות הברית.",
+    "axis": "משא ומתן לבנון-ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T11:21:19+00:00",
+    "last_update_at": "2026-10-29T11:21:19+00:00",
+    "what_is_not_verified": "תוכן ההסכמות או המחלוקות המדויקות במפגש בטמפה לא פורטו בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965411/president-aoun-briefed-by-military-delegation-on-results-of-lebanese-u/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965411",
+      "published_at": "2026-10-29T11:21:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-04",
+    "title": "כניסת אזרחים לבנונים לשטח הקו הצהוב בדרום לבנון",
+    "summary": "קבוצת צעירים לבנונים נכנסה אל הכפר קנטרה הנמצא בתחום הקו הצהוב, תיעדה את המקום ושבה לאזור שבשליטת צבא לבנון, לצד דיווחים על מעצרם בידי מנגנוני הביטחון המקומיים.",
+    "axis": "דרום לבנון וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T06:45:01+00:00",
+    "last_update_at": "2026-10-29T06:45:01+00:00",
+    "what_is_not_verified": "הדיווח על מעצר הצעירים בידי מנגנוני הביטחון הלבנוניים וקיומן של כניסות דומות בכפרים נוספים מוגדרים כדיווחים לא מאומתים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132760",
+      "published_at": "2026-10-29T06:45:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-05",
+    "title": "ביקורת בסוריה על היעדר תגובה ממשלתית לתקיפות אוויריות ירדניות",
+    "summary": "תושבים בסוריה הביעו מחאה בעקבות שתיקת הממשל בדמשק אל מול הפצצות ירדניות במחוז דרעא שכוונות לפעילי המדינה האסלאמית אך פגעו גם באזרחים, חרף מחלוקת בין שתי המדינות בנוגע לרמת התיאום הביטחוני המוקדם.",
+    "axis": "דרום סוריה וירדן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T16:46:39+00:00",
+    "last_update_at": "2026-10-29T16:46:39+00:00",
+    "what_is_not_verified": "מידת התיאום המוקדם בפועל בין עמאן לדמשק לפני התקיפה נותרה במחלוקת בין הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/anger-syria-over-govt-inaction-after-jordanian-airstrikes",
+      "published_at": "2026-10-29T16:46:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-06",
+    "title": "הצהרת חזבאללה בדבר שיקום דרום ביירות ואי-ויתור על אדמות לבנון",
+    "summary": "בכיר חזבאללה עלי דעמוש הדגיש במהלך אירוע בפרבר הדרומי של ביירות כי הארגון לא יוותר על אף שעל מאדמת לבנון, וקרא לממשלת לבנון לסייע בפיצוי תושבים ובשיקום ענפי החקלאות והייצור בעקבות נזקי הלחימה מול ישראל.",
+    "axis": "לבנון וחיזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T14:41:31+00:00",
+    "last_update_at": "2026-10-29T14:41:31+00:00",
+    "what_is_not_verified": "מידת יכולתו ומחויבותו של הממשל הלבנוני להעביר בפועל כספי פיצויים לחקלאים ולתעשיינים באזורים שנפגעו אינה ברורה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/144577/",
+      "published_at": "2026-10-29T14:41:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-07",
+    "title": "ביקור ראש ממשלת עיראק בדמשק ותרומה לשיקום אתרים דתיים",
+    "summary": "ראש ממשלת עיראק ערך ביקור רשמי ראשון בדמשק מאז חילופי השלטון בסוריה, נפגש עם שר החוץ הסורי והודיע על תרומה כספית לשיקום המסגד האומיי ומקדש סיידה זיינב.",
+    "axis": "יחסי סוריה-עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-29T13:50:47+00:00",
+    "last_update_at": "2026-10-29T13:50:47+00:00",
+    "what_is_not_verified": "אופן יישום העברת הכספים הפרטיים ולוחות הזמנים לביצוע עבודות השיקום באתרים לא צוינו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iraq-pm-donates-10m-syrias-umayyad-sayyida-zainab-mosques",
+      "published_at": "2026-10-29T13:50:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10300049-08",
+    "title": "חברת נפט אמריקאית מקדמת הכפלת תפוקה בצפון-מזרח סוריה",
+    "summary": "הנהלת חברת הנפט האמריקאית הודיעה על תוכניות להכפלת תפוקת הנפט בשדות המנוהלים על ידי גורמים כורדיים בצפון-מזרח סוריה, לצד טיפול במפגעי זיהום סביבתי.",
+    "axis": "צפון-מזרח סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T15:34:41+00:00",
+    "last_update_at": "2026-10-29T15:34:41+00:00",
+    "what_is_not_verified": "מעמדה המשפטי והעתידי של חברת הנפט הכורדית המקומית ביחס להסכמי הפיתוח נותר לא ברור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_3c999b02f0bbb2fe",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-oil-firm-hkn-aims-double-syrias-output-it-takes-over-kurdish-run-fields",
+      "published_at": "2026-10-29T15:34:41+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על מעצר אזרחים שנכנסו לקנטרה בידי כוחות הביטחון של לבנון",
+   "מידת התיאום המבצעי המוקדם בין צבא ירדן למשטר בדמשק לפני התקיפות בדרעא",
+   "מספרם הכולל והמדויק של האזרחים הסורים העצורים בידי ישראל מאז חילופי השלטון",
+   "ההסכמות המדויקות שהושגו במפגש המשא ומתן המשולש בטמפה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1159,
+    "unit": "ILS",
+    "change_pct": -0.32,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-29T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התאמת המציאות בגבולותיה לצורכי הביטחון שלה לאחר מתקפת שבעה באוקטובר",
+     "סיכול התבססות תשתיות עוינות בסמוך לקו הגבול בלבנון ובדרום סוריה"
+    ],
+    "inferred": [
+     "יצירת אזורי חיץ ביטחוניים בעומק דרום לבנון ודרום סוריה כדי למנוע איומים עתידיים",
+     "הפעלת לחץ צבאי ופשיטות מעצר מתמשכות להרתעת גורמים מקומיים מפני שיתוף פעולה עם פעילי טרור"
+    ],
+    "forecast": [
+     "המשך אחיזה מבצעית הדוקה באזורי הגבול תוך ניהול משא ומתן דיפלומטי על קווי נסיגה או הסדרה"
+    ]
+   },
+   {
+    "actor": "חזבאללה ולבנון",
+    "declared": [
+     "אי-ויתור על אף שעל מאדמת לבנון והתנגדות לכל נוכחות צבאית ישראלית",
+     "שיקום התשתיות, החקלאות והמבנים שנפגעו בלחימה וחיזוק החוסן העצמי של האוכלוסייה"
+    ],
+    "inferred": [
+     "שימור הלגיטימציה של הארגון ככוח מגן לאומי לנוכח הפגיעה הקשה בבסיסיו בדרום ובביירות",
+     "הישענות על המערכת המדינית הלבנונית לקידום הפסקת אש והסדרים בגבול באמצעות תיווך בינלאומי"
+    ],
+    "forecast": [
+     "המשך עידוד חזרת תושבים לגבול לצד שיקום הדרגתי של יכולותיו הכלכליות והחברתיות"
+    ]
+   },
+   {
+    "actor": "השלטון החדש בסוריה",
+    "declared": [
+     "הגנה על ריבונות המדינה ודחיית כל פגיעה צבאית זרה בשטחה ללא תיאום",
+     "שיקום היחסים הדיפלומטיים והכלכליים עם מדינות האזור וחיזוק מעמד האתרים ההיסטוריים"
+    ],
+    "inferred": [
+     "שאיפה לייצב את השליטה המרכזית במחוזות הדרום והמזרח על רקע משאבים מוגבלים",
+     "הימנעות מעימות ישיר עם ישראל וירדן חרף הזעם הציבורי הגובר ברחוב הסורי"
+    ],
+    "forecast": [
+     "המשך גינויים רשמיים רפויים לצד הימנעות מפעולה צבאית נגד חדירות ישראליות או ירדניות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/144577/",
+    "accessed_at": "2026-10-30T00:49:24+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/us-oil-firm-hkn-aims-double-syrias-output-it-takes-over-kurdish-run-fields",
+    "accessed_at": "2026-10-30T00:49:24+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/965411/president-aoun-briefed-by-military-delegation-on-results-of-lebanese-u/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965411",
+    "accessed_at": "2026-10-30T00:49:24+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iraq-pm-donates-10m-syrias-umayyad-sayyida-zainab-mosques",
+    "accessed_at": "2026-10-30T00:49:24+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132760",
+    "accessed_at": "2026-10-30T00:49:24+00:00"
+   }
+  ]
+ }
+}
