@@ -1,0 +1,455 @@
+{
+ "status": "draft",
+ "received_sha256_12": "346b96d81b8e",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 7,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-10-30T17:19:07+00:00",
+  "window": {
+   "from": "2026-10-29T17:19:07+00:00",
+   "to": "2026-10-30T17:19:07+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202610301719"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעוצמה, כאשר רוסיה תוקפת יעדי תשתית ותחבורה כדוגמת תחנת הרכבת בדניפרו, ואילו אוקראינה חידשה את מתקפות הכטב\"מים על בתי זיקוק בעומק שטח רוסיה. לצד חילופי האש, נרשמה הפוגה מקומית חריגה באזור אולשקי במחוז חרסון שאפשרה פינוי אזרחים. במקביל נמשכים מהלכים לקראת מגעים משולשים באבו דאבי, אף שרוסיה מסרבת לעצור את הלחימה ואירופה חוששת מהדרה מההסדרים המדיניים.",
+  "fronts": [
+   {
+    "name": "מחוז חרסון / נהר הדניפרו",
+    "status": "הפסקת אש מקומית זמנית לצורך מבצע סיוע ופינוי אזרחים בעיר אולשקי"
+   },
+   {
+    "name": "מחוז חרקוב (איזיום והסביבה)",
+    "status": "הדיפת מתקפות קרקעיות רוסיות לצד פגיעות של תקיפות אוויריות בריכוזי אוכלוסייה"
+   },
+   {
+    "name": "מחוז דניפרופטרובסק (דניפרו)",
+    "status": "ספיגת תקיפות טילים וכטב\"מים רוסיים ממוקדים נגד תחנת הרכבת ותשתיות"
+   },
+   {
+    "name": "עומק שטח רוסיה (סמארה, נובוקויבישבסק ויעדים נוספים)",
+    "status": "מתקפות כטב\"מים אוקראיניות על מתקני נפט ואנרגיה ומבצעי מארב של כוחות מיוחדים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-10301719-01",
+    "title": "פינוי אזרחים והפסקת אש הומניטרית בעיר אולשקי הכבושה",
+    "summary": "מבצע סיוע ופינוי תושבים יצא לפועל בעיר אולשקי שבמחוז חרסון בחסות הפסקת אש מקומית ובתיווך אמריקאי, כאשר מפונים מועברים ליעדים באוקראינה וברוסיה.",
+    "axis": "חזית הדרום (מחוז חרסון)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T10:05:56+00:00",
+    "last_update_at": "2026-10-30T17:13:48+00:00",
+    "what_is_not_verified": "המספר המדויק של המפונים לכל צד והיקף הסיוע שהוכנס בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+      "published_at": "2026-10-30T17:13:48+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/society/2211123",
+      "published_at": "2026-10-30T17:10:13+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49120",
+      "published_at": "2026-10-30T16:45:47+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T16:26:11+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/30/russia-s-human-rights-commissioner-says-humanitarian-mission-in-occupied-oleshkyis-wrapping-up",
+      "published_at": "2026-10-30T16:22:35+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4179814-ukrainian-delegation-and-evacuated-residents-of-oleshky-heading-to-russias-anapa.html",
+      "published_at": "2026-10-30T15:19:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
+      "published_at": "2026-10-30T10:05:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     },
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     },
+     {
+      "name": "אנאפה, רוסיה",
+      "lat": 44.8943,
+      "lon": 37.3169
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10301719-02",
+    "title": "מתקפת כטב\"מים אוקראינית על בית זיקוק בנובוקויבישבסק ברוסיה",
+    "summary": "כלי טיס בלתי מאוישים פגעו במתקן דלקים וזיקוק נפט סמוך לעיר סמארה, מה שהוביל לדליקות במקום לאחר תקופה שבה הופסקו התקיפות על אתרים מסוג זה.",
+    "axis": "עומק שטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T07:51:01+00:00",
+    "last_update_at": "2026-10-30T13:02:16+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למתקני הזיקוק ומספר בתי הזיקוק הנוספים שהותקפו לפי הטענה הרוסית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2210935",
+      "published_at": "2026-10-30T13:02:16+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21740945",
+      "published_at": "2026-10-30T09:09:24+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132819",
+      "published_at": "2026-10-30T07:51:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובוקויבישבסק, רוסיה",
+      "lat": 53.0992,
+      "lon": 49.9484
+     },
+     {
+      "name": "סמארה, רוסיה",
+      "lat": 53.1956,
+      "lon": 50.1015
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10301719-03",
+    "title": "תקיפה רוסית חוזרת על תחנת הרכבת בעיר דניפרו",
+    "summary": "כוחות רוסים תקפו את מתחם תחנת הרכבת בדניפרו זה היום השני ברציפות, תקיפה שהביאה לפציעת אישה ולשריפה במתקן.",
+    "axis": "מחוז דניפרופטרובסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T02:00:47+00:00",
+    "last_update_at": "2026-10-30T15:54:00+00:00",
+    "what_is_not_verified": "סוג החימוש ששימש לתקיפה השנייה והיקף הנזק המלא למסילות ולמבנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060507/",
+      "published_at": "2026-10-30T15:54:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform",
+      "published_at": "2026-10-30T02:00:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10301719-04",
+    "title": "מארב ופעילות של כוחות מיוחדים אוקראיניים בתוך שטח רוסיה",
+    "summary": "הכוחות למבצעים מיוחדים של צבא אוקראינה ביצעו מארב בשטח רוסיה, השמידו כלי רכב ותפסו מסמכים צבאיים.",
+    "axis": "עומק שטח רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T13:33:54+00:00",
+    "last_update_at": "2026-10-30T14:39:00+00:00",
+    "what_is_not_verified": "המיקום המדויק שבו בוצע המארב בתוך שטח הפדרציה הרוסית וסוג המסמכים שנתפסו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4179800-ukraines-sof-ambush-enemy-in-russia-and-seize-documents.html",
+      "published_at": "2026-10-30T14:39:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49115",
+      "published_at": "2026-10-30T13:33:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10301719-05",
+    "title": "הדיפת מתקפה רוסית באזור חרקוב ועליית מניין הקורבנות מאיזיום",
+    "summary": "מתקפה של כוחות רוסיים נהדפה במחוז חרקוב, במקביל להכרזה על יום אבל בעיר איזיום עקב עליית מניין ההרוגים מתקיפה אווירית רוסית לחמישה.",
+    "axis": "חזית מחוז חרקוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T14:59:00+00:00",
+    "last_update_at": "2026-10-30T16:59:01+00:00",
+    "what_is_not_verified": "המיקום המדויק שבו נהדפה המתקפה בתוך מחוז חרקוב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49122",
+      "published_at": "2026-10-30T16:59:01+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4179811-october-31-declared-day-of-mourning-in-izium-as-death-toll-from-russian-airstrike-rises-to-five.html",
+      "published_at": "2026-10-30T14:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איזיום, אוקראינה",
+      "lat": 49.1913,
+      "lon": 37.2784
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10301719-06",
+    "title": "הודעת נשיא אוקראינה על הרחבת יחידות התקיפה לטווח ארוך",
+    "summary": "וולודימיר זלנסקי הצהיר כי אוקראינה מגדילה את יחידות התקיפה בעומק שטח רוסיה, ומפתח יכולות לפגוע ביעדים מרוחקים עד חצי האי ימאל ומערב סיביר.",
+    "axis": "המערכה האסטרטגית בעומק",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T16:56:00+00:00",
+    "last_update_at": "2026-10-30T16:56:00+00:00",
+    "what_is_not_verified": "לוחות הזמנים לייצור הנשק וסוגי הטילים והמל\"טים החדשים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a542e674a4174c49",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060539/",
+      "published_at": "2026-10-30T16:56:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-10301719-07",
+    "title": "קרמלין שולל הפסקת אש לקראת שיחות אבו דאבי",
+    "summary": "דובר הקרמלין הודיע כי מוסקבה מתנגדת להפסקת אש שתשמש כהפוגה עבור קייב וכי הלחימה לא תיעצר לקראת השיחות המשולשות המתוכננות.",
+    "axis": "הזירה המדינית והדיפלומטית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T14:21:12+00:00",
+    "last_update_at": "2026-10-30T15:02:38+00:00",
+    "what_is_not_verified": "המועד הסופי והרכב המשתתפים המדויק של שיחות אבו דאבי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2211035",
+      "published_at": "2026-10-30T15:02:38+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2211005",
+      "published_at": "2026-10-30T14:21:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-10301719-08",
+    "title": "סירוב חברות אמריקאיות לקלוט סולר רוסי מעסקת טראמפ-פוטין",
+    "summary": "מכליות הנושאות מאות אלפי טונות של סולר רוסי שטו לכיוון ארצות הברית במסגרת הסכם בין הנשיאים, אך חברות אמריקאיות נמנעות מרכישתו עקב חשש מהליכים משפטיים וחקירות.",
+    "axis": "מדיניות סנקציות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-29T19:04:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-29T19:04:17+00:00",
+    "last_update_at": "2026-10-30T16:04:48+00:00",
+    "what_is_not_verified": "האם המכליות יפרקו את המטען בארצות הברית או יופנו לברזיל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49119",
+      "published_at": "2026-10-30T16:04:48+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+      "published_at": "2026-10-29T19:04:17+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת רוסאטום בדבר פגיעה מכוונת ומחמירה בעובדי תחנת הכוח הגרעינית בזפוריז'יה",
+   "חלוקת המספרים המדויקת של האזרחים שהתפנו מאולשקי לרוסיה לעומת אלה שהתפנו לשטח שבשליטת אוקראינה",
+   "הטענה הרוסית שארבעה מתקני זיקוק שונים הותקפו בגל התקיפות האחרון של אוקראינה",
+   "הדיווחים על פריסת מבצעי גיוס כפוי ברחובות בעשרות מחוזות ברוסיה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1172,
+    "unit": "USD",
+    "change_pct": 0.38,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להרחיב את יחידות התקיפה לטווח ארוך כדי לפגוע במטרות צבאיות ותשתיות בעומק רוסיה כמענה לפגיעה בעריה",
+     "לדאוג לאספקה שוטפת של טילי הגנה אווירית עבור מערכות פטריוט",
+     "להבטיח את ביטחון השיט בים השחור במסגרת שיחות מול טורקיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי על תעשיית הדלק הרוסית על אף הסתייגויות מצד ארצות הברית",
+     "הבטחת מעורבות בין-לאומית בהסדרי הפסקות אש ופינוי אזרחים משטחים כבושים"
+    ],
+    "forecast": [
+     "המשך הגדלת טווח הפגיעה של מל\"טים לעומק מזרח רוסיה כדי לפגוע בתשתיות אנרגיה נוספות",
+     "הגברת הלחץ הדיפלומטי על מדינות אירופה לקבלת מלאי מיידי של מיירטי הגנה אווירית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "התנגדות מוחלטת להפסקת אש שתאפשר מנוחה או היערכות מחדש לצבא אוקראינה",
+     "המשך הפעילות הקרבית ללא עצירה לקראת שיחות המשא ומתן באבו דאבי"
+    ],
+    "inferred": [
+     "החרבת צומתי תחבורה ותשתיות רכבת אוקראיניות כדי לפגוע בלוגיסטיקה ובתנועת כוחות ואזרחים",
+     "ניסיון לעקוף סנקציות אנרגיה באמצעות הסכמים ישירים עם הממשל האמריקאי הנכנס"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות והבליסטיות על יעדי תשתית במרכז ומזרח אוקראינה",
+     "חידוש הלחץ הצבאי בגזרת חרסון לאחר תום מועד הפסקת האש ההומניטרית באולשקי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21740945",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060539/",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2211005",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132819",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49119",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4179811-october-31-declared-day-of-mourning-in-izium-as-death-toll-from-russian-airstrike-rises-to-five.html",
+    "accessed_at": "2026-10-30T17:19:07+00:00"
+   }
+  ]
+ }
+}
