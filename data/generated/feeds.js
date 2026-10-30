@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-30T20:17:25+00:00",
-  "fetched_at": "2026-10-30T20:17:25+00:00"
+  "checked_at": "2026-10-30T21:17:10+00:00",
+  "fetched_at": "2026-10-30T21:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:38+00:00",
-  "fetched_at": "2026-10-30T20:17:38+00:00"
+  "checked_at": "2026-10-30T21:17:24+00:00",
+  "fetched_at": "2026-10-30T21:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:39+00:00",
-  "fetched_at": "2026-10-30T20:17:39+00:00"
+  "checked_at": "2026-10-30T21:17:25+00:00",
+  "fetched_at": "2026-10-30T21:17:25+00:00"
  },
- "generated_at": "2026-10-30T20:17:39+00:00",
+ "generated_at": "2026-10-30T21:17:25+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-30T20:02:00+00:00"
     },
     {
-     "title": "דיווח: כך פועל השב\"כ נגד מחבלים בעזה",
+     "title": "טראמפ: \"אנחנו מקיימים שיחות עם איראן, הם רוצים לדבר - ולנו יש זמן\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561437",
-     "date": "2026-10-30T19:50:00+00:00"
+     "date": "2026-10-30T20:33:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T20:17:26+00:00",
-  "fetched_at": "2026-10-30T20:17:26+00:00"
+  "checked_at": "2026-10-30T21:17:12+00:00",
+  "fetched_at": "2026-10-30T21:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:27+00:00",
-  "fetched_at": "2026-10-30T20:17:27+00:00"
+  "checked_at": "2026-10-30T21:17:12+00:00",
+  "fetched_at": "2026-10-30T21:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2925,8 +2925,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:29+00:00",
-  "fetched_at": "2026-10-30T20:17:29+00:00"
+  "checked_at": "2026-10-30T21:17:15+00:00",
+  "fetched_at": "2026-10-30T21:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3086,8 +3086,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T20:17:29+00:00",
-  "fetched_at": "2026-10-30T20:17:29+00:00"
+  "checked_at": "2026-10-30T21:17:15+00:00",
+  "fetched_at": "2026-10-30T21:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -3125,29 +3125,36 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1105,
+     "likes": 1107,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 232,
+     "likes": 235,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 76,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+    },
+    {
+     "title": "ProtectBirds",
+     "desc_en": "Protect Birds",
+     "desc_he": "הגן על ציפורים",
+     "likes": 1295,
+     "link": "https://huggingface.co/spaces/AimeeBingmouQu/ProtectBirds"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
@@ -3155,13 +3162,6 @@ window.DB.generated = {
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
      "likes": 293,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
-    },
-    {
-     "title": "ProtectBirds",
-     "desc_en": "Protect Birds",
-     "desc_he": "הגן על ציפורים",
-     "likes": 1281,
-     "link": "https://huggingface.co/spaces/AimeeBingmouQu/ProtectBirds"
     },
     {
      "title": "Phonon",
@@ -3187,8 +3187,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-30T20:17:37+00:00",
-  "fetched_at": "2026-10-30T20:17:37+00:00"
+  "checked_at": "2026-10-30T21:17:23+00:00",
+  "fetched_at": "2026-10-30T21:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -3257,15 +3257,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "כמעט טריפל דאבל לאבדיה, הפסד בכורה לפורטלנד",
-     "link": "https://www.one.co.il/Article/537438.html?ref=rss",
-     "date": "2026-10-30T04:28:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
      "title": "מכה לנבחרת ישראל: תאי בריבו לא יהיה כשיר לקוסובו ואוסטריה",
      "link": "https://sports.walla.co.il/item/3874267",
      "date": "2026-10-29T21:15:00+00:00",
@@ -3326,6 +3317,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ליאל עבדה"
+     ]
+    },
+    {
+     "title": "אבדיה חוגג, האלופה מתרסקת: דירוג העוצמה של ESPN נחשף",
+     "link": "https://sports.walla.co.il/item/3874048",
+     "date": "2026-10-28T13:48:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -3529,8 +3529,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-10-30T20:17:32+00:00",
-  "fetched_at": "2026-10-30T20:17:32+00:00"
+  "checked_at": "2026-10-30T21:17:18+00:00",
+  "fetched_at": "2026-10-30T21:17:18+00:00"
  },
  "idf": {
   "data": [
@@ -3561,98 +3561,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:33+00:00",
-  "fetched_at": "2026-10-30T20:17:33+00:00"
+  "checked_at": "2026-10-30T21:17:19+00:00",
+  "fetched_at": "2026-10-30T21:17:19+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-30T20:02:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "newest": "2026-10-30T20:33:00+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T12:51:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-30T11:31:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-30T20:51:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "newest": "2026-10-30T21:24:00+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-30T16:15:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "newest": "2026-10-30T21:45:00+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-30T19:54:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-30T15:13:07+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-30T14:16:25+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-30T17:40:37+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-30T20:17:39+00:00",
+    "seen_at": "2026-10-30T21:17:25+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-30T20:17:39+00:00",
+  "checked_at": "2026-10-30T21:17:25+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3809,7 +3809,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-30T20:17:34+00:00",
-  "fetched_at": "2026-10-30T20:17:34+00:00"
+  "checked_at": "2026-10-30T21:17:19+00:00",
+  "fetched_at": "2026-10-30T21:17:19+00:00"
  }
 };
