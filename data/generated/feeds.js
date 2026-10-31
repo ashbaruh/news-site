@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T10:17:15+00:00",
-  "fetched_at": "2026-10-31T10:17:15+00:00"
+  "checked_at": "2026-10-31T11:17:23+00:00",
+  "fetched_at": "2026-10-31T11:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T10:17:28+00:00",
-  "fetched_at": "2026-10-31T10:17:28+00:00"
+  "checked_at": "2026-10-31T11:17:40+00:00",
+  "fetched_at": "2026-10-31T11:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T10:17:28+00:00",
-  "fetched_at": "2026-10-31T10:17:28+00:00"
+  "checked_at": "2026-10-31T11:17:41+00:00",
+  "fetched_at": "2026-10-31T11:17:41+00:00"
  },
- "generated_at": "2026-10-31T10:17:28+00:00",
+ "generated_at": "2026-10-31T11:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,9 +92,9 @@ window.DB.generated = {
      "date": "2026-10-31T08:30:00+00:00"
     },
     {
-     "title": "התקדמות במגעים להסכם בין ארה\"ב לאיראן? המשלחות בדרך לדוחא",
+     "title": "האיום של חמינאי: \"אם איראן תותקף - נגיב מיד ובעוצמה, ללא מגבלה גיאוגרפית\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561450",
-     "date": "2026-10-31T08:21:00+00:00"
+     "date": "2026-10-31T11:12:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T10:17:16+00:00",
-  "fetched_at": "2026-10-31T10:17:16+00:00"
+  "checked_at": "2026-10-31T11:17:25+00:00",
+  "fetched_at": "2026-10-31T11:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T10:17:17+00:00",
-  "fetched_at": "2026-10-31T10:17:17+00:00"
+  "checked_at": "2026-10-31T11:17:26+00:00",
+  "fetched_at": "2026-10-31T11:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2924,8 +2924,9 @@ window.DB.generated = {
     "title": "פאריס סן ז'רמן נשים - לה האבר"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-31T10:17:18+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-10-31T11:17:31+00:00",
   "fetched_at": "2026-10-31T10:17:18+00:00"
  },
  "ligat_haal": {
@@ -3086,8 +3087,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T10:17:18+00:00",
-  "fetched_at": "2026-10-31T10:17:18+00:00"
+  "checked_at": "2026-10-31T11:17:31+00:00",
+  "fetched_at": "2026-10-31T11:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -3125,7 +3126,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1124,
+     "likes": 1125,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3139,14 +3140,14 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 247,
+     "likes": 248,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -3160,21 +3161,21 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 298,
+     "likes": 296,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "GEAR",
      "desc_en": "Recursive self-improvement of LLM agent harnesses",
      "desc_he": "שיפור עצמי רקורסיבי של רתמות סוכני LLM",
-     "likes": 63,
+     "likes": 64,
      "link": "https://huggingface.co/spaces/WizardTY/GEAR"
     },
     {
      "title": "Phonon",
      "desc_en": "Text-to-speech that runs in your browser",
      "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
-     "likes": 87,
+     "likes": 88,
      "link": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
@@ -3187,12 +3188,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T10:17:26+00:00",
-  "fetched_at": "2026-10-31T10:17:26+00:00"
+  "checked_at": "2026-10-31T11:17:39+00:00",
+  "fetched_at": "2026-10-31T11:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "10 שערים ב-12 משחקים: עידן טוקלומטי מסביר מה השתנה",
+     "link": "https://sports.walla.co.il/item/3874373",
+     "date": "2026-10-31T11:43:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "עידן טוקלומטי"
+     ]
+    },
     {
      "title": "הקלאסיקו מאחוריו: אוריין גורן חוזר להרכב קבוצת המילואים",
      "link": "https://sports.walla.co.il/item/3874353",
@@ -3209,6 +3219,15 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "ריאל מדריד חוזרת לסנטאנדר, רוי רביבו מול ולנסיה",
+     "link": "https://sports.walla.co.il/item/3874372",
+     "date": "2026-10-31T06:18:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -3257,15 +3276,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "\"עשויה להתפתח תחרות\": מינגסה אורב לחלאילי",
-     "link": "https://www.one.co.il/Article/537479.html?ref=rss",
-     "date": "2026-10-30T13:05:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "\"הוא מעל כולם\": סאות'המפטון מאוהבת בדניאל פרץ",
      "link": "https://sports.walla.co.il/item/3874313",
      "date": "2026-10-30T12:36:00+00:00",
@@ -3308,15 +3318,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "עומרי גאנדלמן"
-     ]
-    },
-    {
-     "title": "מול יאן דיומנדה: רוי רביבו מתחרה על פרס ראשון בספרד",
-     "link": "https://sports.walla.co.il/item/3874247",
-     "date": "2026-10-29T18:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3539,8 +3540,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T10:17:22+00:00",
-  "fetched_at": "2026-10-31T10:17:22+00:00"
+  "checked_at": "2026-10-31T11:17:35+00:00",
+  "fetched_at": "2026-10-31T11:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3571,98 +3572,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T10:17:23+00:00",
-  "fetched_at": "2026-10-31T10:17:23+00:00"
+  "checked_at": "2026-10-31T11:17:36+00:00",
+  "fetched_at": "2026-10-31T11:17:36+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-31T09:00:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "newest": "2026-10-31T11:12:00+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T20:02:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-31T07:27:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-31T10:53:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "newest": "2026-10-31T11:43:00+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-31T08:07:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-31T09:40:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "newest": "2026-10-31T10:40:00+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-30T15:13:07+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-10-31T07:00:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "newest": "2026-10-31T10:19:27+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-31T09:00:00+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-31T10:17:28+00:00",
+    "seen_at": "2026-10-31T11:17:41+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T10:17:28+00:00",
+  "checked_at": "2026-10-31T11:17:41+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3819,7 +3820,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T10:17:23+00:00",
-  "fetched_at": "2026-10-31T10:17:23+00:00"
+  "checked_at": "2026-10-31T11:17:36+00:00",
+  "fetched_at": "2026-10-31T11:17:36+00:00"
  }
 };
