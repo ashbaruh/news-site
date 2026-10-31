@@ -1,415 +1,389 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-10-30T18:00:00+02:00",
- "generated_at": "2026-10-30T15:53:46+00:00",
+ "slot": "2026-10-31T04:00:00+02:00",
+ "generated_at": "2026-10-31T01:40:22+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-10301553-01",
-     "title": "איראן מדווחת על פגיעה במכליות נפט במצר הורמוז",
-     "summary": "חיל הים של משמרות המהפכה וצבא איראן דיווחו כי מכליות נפט עלו על מוקשים ועלו באש במצר הורמוז, לצד השמדת כלי שיט בלתי מאויש.",
-     "axis": "מצר הורמוז",
+     "id": "IRAN-10310140-01",
+     "title": "פגיעה במכליות נפט במצר הורמוז",
+     "summary": "חיל הים של משמרות המהפכה הודיע כי מכלית נפט רביעית עלתה באש לאחר שסטתה לנתיב לא מורשה, במקביל לדיווח בריטי על פגיעת קליע בלתי מזוהה במכלית נפט גולמי ביציאה מהמצר.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T12:46:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T12:46:31+00:00",
-     "last_update_at": "2026-10-30T14:15:14+00:00",
-     "what_is_not_verified": "הדיווחים האיראניים על פיצוץ המכליות לא אומתו על ידי מקורות עצמאיים וסותרים את הצהרות מפקד סנטקום.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86307539/Mine-blast-sets-super-tanker-ablaze-in-Hormuz",
-       "published_at": "2026-10-30T14:15:14+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86307528/Army-Navy-destroys-enemy-droneboat-two-tankers-ablaze-in-eastern",
-       "published_at": "2026-10-30T13:20:46+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-three-tankers-catch-fire-strait-hormuz",
-       "published_at": "2026-10-30T12:46:31+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10301553-02",
-     "title": "מפקד סנטקום: נתיבי השיט במצר הורמוז פתוחים",
-     "summary": "מפקד פיקוד המרכז האמריקאי הצהיר כי נתיבי השיט הבינלאומיים במצר נקיים ממוקשים וכי ספינות מסחר שטות בהם בחופשיות.",
-     "axis": "מצר הורמוז",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T12:39:01+00:00",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T12:39:01+00:00",
-     "last_update_at": "2026-10-30T13:00:28+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-30T20:38:38+00:00",
+     "last_update_at": "2026-10-30T21:16:01+00:00",
+     "what_is_not_verified": "סוג הקליע שפגע במכלית לפי דיווח הסוכנות הבריטית וזהות כלי השיט שנפגעו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132834",
-       "published_at": "2026-10-30T12:39:01+00:00"
+       "url": "https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz",
+       "published_at": "2026-10-30T21:16:01+00:00"
       },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-chief-says-hormuz-routes-remain-clear-iran-reports-interceptions",
-       "published_at": "2026-10-30T13:00:28+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-struck-unknown-projectile-while-exiting-hormuz-ukmto",
+       "published_at": "2026-10-30T20:38:38+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-10301553-03",
-     "title": "משלחת קטארית הגיעה לטהראן לחידוש המגעים מול ארה\"ב",
-     "summary": "נציגים רשמיים מקטאר הגיעו לבירת איראן בניסיון לחדש את שיחות הפסקת האש וההסכם בין ארצות הברית לאיראן.",
-     "axis": "דיפלומטיה איראן-ארה\"ב",
+     "id": "IRAN-10310140-02",
+     "title": "תפיסת כלי טיס מאויש מרחוק אמריקאי מעל האי קשם",
+     "summary": "משמרות המהפכה של איראן טוענים כי השתלטו על מערכות ההיגוי והבקרה של מל\"ט סיור והטעיה אמריקאי שני ולכדו אותו ללא פגע מערבית למצר הורמוז.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T12:26:56+00:00",
-     "last_update_at": "2026-10-30T12:26:56+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T21:37:07+00:00",
+     "last_update_at": "2026-10-30T21:37:07+00:00",
+     "what_is_not_verified": "אימות עצמאי או תגובה אמריקאית לטענת לכידת כלי הטיס",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
-       "published_at": "2026-10-30T12:26:56+00:00"
+       "url": "https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island",
+       "published_at": "2026-10-30T21:37:07+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "קשם, איראן",
+       "lat": 26.9502,
+       "lon": 56.2691
       }
      ]
+    },
+    {
+     "id": "IRAN-10310140-03",
+     "title": "השלמת תוכנית תגובה צבאית איראנית",
+     "summary": "גורם ביטחוני ומדיני בכיר באיראן מסר כי הושלמה תוכנית צבאית מעודכנת לתגובה נרחבת ובעוצמה גבוהה נגד כל מתקפה חדשה.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T22:16:22+00:00",
+     "last_update_at": "2026-10-30T22:16:22+00:00",
+     "what_is_not_verified": "זהות הגורם הבכיר ופרטי התוכנית הצבאית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-finalises-new-plan-respond-any-new-attack-official-says",
+       "published_at": "2026-10-30T22:16:22+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-10301553-01",
-     "title": "תקיפות והפגזות צה\"ל בדרום לבנון",
-     "summary": "כוחות ישראליים ביצעו הפגזות ארטילריות, ירי טנקים ופעולות סריקה במספר עיירות ואזורים בדרום לבנון.",
-     "axis": "דרום לבנון",
+     "id": "NORTH-10310140-01",
+     "title": "פעילות צה\"ל והפגזות בדרום לבנון",
+     "summary": "לפי דיווחים, כוחות ישראליים פוצצו בתים, הציתו מבנים, ביצעו ירי מקלעים והפגיזו עיירות בדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T12:45:39+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T12:45:39+00:00",
-     "last_update_at": "2026-10-30T13:55:49+00:00",
-     "what_is_not_verified": "היקף הנפגעים והנזק מהתקיפות לא צוין.",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T22:51:23+00:00",
+     "last_update_at": "2026-10-30T22:51:23+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים המדויק ואימות מפי גורמי ביטחון ישראליים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/144922/",
-       "published_at": "2026-10-30T13:55:49+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/144877/",
-       "published_at": "2026-10-30T12:45:39+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/israel-blows-up-homes-shells-towns-in-southern-lebanon/4106993",
+       "published_at": "2026-10-30T22:51:23+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "אל-מנצורי",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "אל-חיאם",
-       "lat": 33.3272,
-       "lon": 35.609
-      },
-      {
-       "name": "חדאת'א",
-       "lat": 33.165,
-       "lon": 35.3916
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-10301553-02",
-     "title": "הצפות וגשמים עזים במחוז א-רקה בסוריה",
-     "summary": "שטפונות פתאומיים הובילו למותם של חמישה בני אדם, בהם ארבעה ילדים, ולפינוי מאות משפחות ממחנות עקורים במחוז א-רקה.",
-     "axis": "סוריה",
+     "id": "NORTH-10310140-02",
+     "title": "כתבי אישום בלבנון בפרשת משאית חומרי הנפץ",
+     "summary": "שופט בבית דין צבאי בלבנון הגיש כתבי אישום נגד שלושה עשר בני אדם בגין מעורבות בהברחת משאית חומרי נפץ שנתפסה והשתייכה לחזבאללה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T12:55:12+00:00",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T12:55:12+00:00",
-     "last_update_at": "2026-10-30T12:55:12+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-30T16:17:30+00:00",
+     "last_update_at": "2026-10-30T16:17:30+00:00",
+     "what_is_not_verified": "זהותם המלאה של חמישה מהנאשמים שהוגדרו רק בכינויים",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/lebanon-court-charges-13-over-seized-hezbollah-explosives-truck",
+       "published_at": "2026-10-30T16:17:30+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-10310140-03",
+     "title": "שיטפונות קטלניים במזרח סוריה",
+     "summary": "גשמים עזים גרמו לשיטפונות בזק במזרח סוריה, אשר הביאו למותם של שבעה בני אדם ובהם חמישה ילדים, לפציעת שבעה נוספים ולהיעדרותם של ארבעה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-30T19:46:34+00:00",
+     "last_update_at": "2026-10-30T19:50:09+00:00",
+     "what_is_not_verified": "גורלם של ארבעת הנעדרים שצוותי החילוץ ממשיכים לחפש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/five-children-among-seven-dead-eastern-syria-floods",
+       "published_at": "2026-10-30T19:50:09+00:00"
+      },
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/syria-flash-floods-kill-least-5-force-hundreds-families-camps",
-       "published_at": "2026-10-30T12:55:12+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/10/five-children-among-seven-dead-eastern-syria-floods",
+       "published_at": "2026-10-30T19:46:34+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "א-רקה",
-       "lat": 35.9497,
-       "lon": 39.0089
-      }
-     ]
-    },
-    {
-     "id": "NORTH-10301553-03",
-     "title": "ביקור נשיא אוקראינה בטורקיה לפגישה עם ארדואן",
-     "summary": "נשיאות טורקיה הודיעה כי נשיא אוקראינה זלנסקי יגיע לביקור עבודה באיסטנבול כדי לדון במלחמה עם רוסיה ובביטחון בים השחור.",
-     "axis": "טורקיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T11:26:33+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-30T11:26:33+00:00",
-     "last_update_at": "2026-10-30T11:26:33+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_lbci",
-       "url": "https://www.lbcgroup.tv/news/world-news/965574/zelensky-to-visit-turkey-on-saturday-for-talks-with-erdogan-turkish-pr/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965574",
-       "published_at": "2026-10-30T11:26:33+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "איסטנבול",
-       "lat": 41.0064,
-       "lon": 28.9759
-      }
-     ]
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-10301553-01",
-     "title": "פינוי תושבים מאולשקי שבמחוז חרסון דרך רוסיה",
-     "summary": "מאות מתושבי אולשקי פונו בליווי משלחת אוקראינית לעבר העיר אנאפה ברוסיה, בדרכם לטיסה לבלארוס וממנה חזרה לאוקראינה.",
-     "axis": "מחוז חרסון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T10:36:52+00:00",
-     "last_update_at": "2026-10-30T15:19:00+00:00",
-     "what_is_not_verified": "מספר המפונים המדויק ואופן חלוקת היעדים בין רוסיה לאוקראינה נתונים לגרסאות שונות בדיווחים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49118",
-       "published_at": "2026-10-30T15:02:35+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49112",
-       "published_at": "2026-10-30T10:36:52+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-society/4179814-ukrainian-delegation-and-evacuated-residents-of-oleshky-heading-to-russias-anapa.html",
-       "published_at": "2026-10-30T15:19:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060492/",
-       "published_at": "2026-10-30T14:54:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אולשקי",
-       "lat": 46.6261,
-       "lon": 32.722
-      },
-      {
-       "name": "אנאפה",
-       "lat": 44.8943,
-       "lon": 37.3169
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10301553-02",
-     "title": "הקרמלין מצהיר על התנגדות להפסקת אש לקראת שיחות באבו דאבי",
-     "summary": "דובר הקרמלין הודיע כי רוסיה אינה מתכוונת לעצור את הלחימה לקראת השיחות המשולשות המתוכננות באיחוד האמירויות.",
-     "axis": "המשא ומתן המדיני",
+     "id": "UKRAINE-10310140-01",
+     "title": "אישור אמריקאי לעסקת טילי פטריוט לאוקראינה",
+     "summary": "מחלקת המדינה של ארצות הברית אישרה מכירה אפשרית של חמש מאות טילי פטריוט לאוקראינה בשווי מוערך של שניים נקודה אחד מיליארד דולר במימון בעלות ברית.",
+     "axis": "ukraine",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T15:02:38+00:00",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T15:02:38+00:00",
-     "last_update_at": "2026-10-30T15:02:38+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-30T23:08:18+00:00",
+     "last_update_at": "2026-10-31T00:40:43+00:00",
+     "what_is_not_verified": "מועד אספקת הטילים בפועל",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-31T00:40:43+00:00"
+      },
       {
        "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2211035",
-       "published_at": "2026-10-30T15:02:38+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אבו דאבי",
-       "lat": 24.4538,
-       "lon": 54.3774
+       "url": "https://tass.com/world/2211295",
+       "published_at": "2026-10-30T23:28:56+00:00"
       },
       {
-       "name": "מוסקבה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+       "published_at": "2026-10-30T23:08:18+00:00"
       }
-     ]
+     ],
+     "places": []
     },
     {
-     "id": "UKRAINE-10301553-03",
-     "title": "פתיחה מחדש של חקירה פלילית בסלובקיה על העברת נשק לאוקראינה",
-     "summary": "התובע הכללי בסלובקיה הודיע על פתיחה מחדש של תיק פלילי נגד ראש הממשלה ושר הביטחון לשעבר בגין מסירת מטוסי קרב ומערכות נ\"מ לקייב.",
-     "axis": "סיוע צבאי בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-10310140-02",
+     "title": "פגיעה רוסית בתשתית אנרגיה בקייב",
+     "summary": "מתקפה אווירית רוסית פגעה במתקן אנרגיה בקייב וגרמה להפסקות חשמל ושיבושים באספקת המים בחלקים מהעיר.",
+     "axis": "ukraine",
+     "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T15:26:35+00:00",
-     "last_update_at": "2026-10-30T15:26:35+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-10-30T21:54:00+00:00",
+     "last_update_at": "2026-10-30T22:21:44+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק למתקני התשתית בקייב",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://kyivindependent.com/slovakia-reopens-criminal-case-over-fighter-jet-air-defense-systems-donation-to-ukraine/",
-       "published_at": "2026-10-30T15:26:35+00:00"
+       "source_root_id": "fh_5db480ac3178c6f1",
+       "url": "https://kyivindependent.com/russian-attack-hits-kyiv-energy-facility-leaving-parts-of-four-districts-without-power/",
+       "published_at": "2026-10-30T22:21:44+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_5db480ac3178c6f1",
+       "url": "https://www.ukrinform.net/rubric-ato/4179921-russian-attack-knocks-out-power-at-critical-infrastructure-facilities-in-kyiv-disrupts-water-supply.html",
+       "published_at": "2026-10-30T21:54:00+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10310140-03",
+     "title": "לכידת חשוד בהכוונת תקיפות במחוז חמלניצקי",
+     "summary": "שירות הביטחון של אוקראינה עצר אדם החשוד שהעביר לשירות הביטחון הרוסי נתוני מיקום של מפעלי ביטחון ויחידות צבאיות לתקיפות טילים וכטב\"מים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T22:39:00+00:00",
+     "last_update_at": "2026-10-30T22:39:00+00:00",
+     "what_is_not_verified": "זהות החשוד וממצאי החקירה הסופיים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4179581-ssu-detains-suspect-accused-of-guiding-russian-strikes-on-defense-plants-and-military-units-in-khmelnytskyi-region.html",
+       "published_at": "2026-10-30T22:39:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חמלניצקי, אוקראינה",
+       "lat": 49.4196,
+       "lon": 26.9794
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-10301553-01",
-     "title": "שיגורי טילים של החות'ים לעבר עדן",
-     "summary": "תושבים בעיר עדן נערכים להסלמה ולאפשרות של מלחמה כוללת עקב נפילות טילי החות'ים בעיר.",
-     "axis": "עדן",
+     "id": "YEMEN-10310140-01",
+     "title": "ירי טילים חות'י לעבר שדה התעופה וארמון הנשיאות בעדן",
+     "summary": "גורמי ביטחון וממשל בתימן דיווחו כי החות'ים שיגרו טילים בליסטיים לעבר נמל התעופה ומתחם ארמון הנשיאות בעדן, ונשמעו פיצוצים באזור.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T15:26:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T15:26:00+00:00",
-     "last_update_at": "2026-10-30T15:26:00+00:00",
-     "what_is_not_verified": "מידת הנזק או הנפגעים משיגורי הטילים בעדן לא פורטה בטקסט.",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T18:52:23+00:00",
+     "last_update_at": "2026-10-30T21:42:38+00:00",
+     "what_is_not_verified": "פרטי הנפגעים או הנזק המדויק בארמון הנשיאות ובשדה התעופה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-       "published_at": "2026-10-30T15:26:00+00:00"
+       "url": "https://www.newarab.com/news/strikes-blamed-houthis-target-yemen-presidential-palace",
+       "published_at": "2026-10-30T21:42:38+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-attack-aden-airport-and-presidential-palace-yemeni-government",
+       "published_at": "2026-10-30T19:25:34+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-yemens-government-held-aden",
+       "published_at": "2026-10-30T18:52:23+00:00"
       }
      ],
      "places": [
       {
-       "name": "עדן",
+       "name": "עדן, תימן",
        "lat": 12.7896,
        "lon": 45.0285
       }
      ]
     },
     {
-     "id": "YEMEN-10301553-02",
-     "title": "החרפת המצור וההפגזות על תעז",
-     "summary": "העיר תעז מתמודדת עם הפגזות כבדות, מחסור חמור באספקה חיונית ועימותים מוגברים בחזיתות הלחימה הסמוכות.",
-     "axis": "תעז",
+     "id": "YEMEN-10310140-02",
+     "title": "יירוט כלי טיס בלתי מאוישים מעל שטח ערב הסעודית",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה על יירוט כטב\"מים ששוגרו על ידי החות'ים באזור הדרום ובמחוז אל-מדינה, בעוד החות'ים הכחישו שביצעו תקיפות.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T09:00:50+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T09:00:50+00:00",
-     "last_update_at": "2026-10-30T11:04:54+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-10-30T19:46:34+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T19:46:34+00:00",
+     "last_update_at": "2026-10-31T00:54:41+00:00",
+     "what_is_not_verified": "אמיתות הטענות הסותרות בין הצדדים בדבר שיגור כלי הטיס",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/taiz-civilians-trapped-under-siege-heavy-shelling-hits-residential-areas",
-       "published_at": "2026-10-30T11:04:54+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-drone-intercepted-over-saudi-arabias-southern-region-coalition",
+       "published_at": "2026-10-31T00:54:41+00:00"
       },
       {
-       "source_id": "src_guardian",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
-       "published_at": "2026-10-30T09:00:50+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-coalition-reports-drones-over-mecca-and-medina-houthis-deny-both",
+       "published_at": "2026-10-30T20:49:10+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-houthi-drone-over-medina-houthis-deny-attack",
+       "published_at": "2026-10-30T19:46:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "תעז",
-       "lat": 13.5752,
-       "lon": 44.0215
+       "name": "אל-מדינה, ערב הסעודית",
+       "lat": 24.4712,
+       "lon": 39.6111
       }
      ]
     },
     {
-     "id": "YEMEN-10301553-03",
-     "title": "דוח האו\"ם על מעל 280 אלף עקורים בתימן",
-     "summary": "סוכנות הפליטים של האו\"ם מסרה כי הקרבות בתימן עקרו מאות אלפי אזרחים ומנעו הגעת סיוע מציל חיים לאוכלוסיות פגיעות.",
-     "axis": "המשבר ההומניטרי בתימן",
-     "claim_type": "data",
+     "id": "YEMEN-10310140-03",
+     "title": "פינוי עובדי ממשל אמריקאים שאינם חיוניים מערב הסעודית",
+     "summary": "שגרירות ארצות הברית בריאד הורתה לעובדי ממשל שאינם חיוניים ולמשפחותיהם לעזוב את ערב הסעודית בעקבות סיכונים ביטחוניים ממתקפות חות'יות על נמלי תעופה ותשתיות.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T12:00:00+00:00",
-     "last_update_at": "2026-10-30T12:00:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T18:46:31+00:00",
+     "last_update_at": "2026-10-30T18:46:31+00:00",
+     "what_is_not_verified": "מספר העובדים ובני המשפחה שהתבקשו לעזוב",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_un_news",
-       "source_root_id": "or_unhcr",
-       "url": "https://news.un.org/feed/view/en/story/2026/10/1168706",
-       "published_at": "2026-10-30T12:00:00+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/us-orders-non-emergency-staff-leave-saudi-arabia-over-security-risks",
+       "published_at": "2026-10-30T18:46:31+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
     }
    ]
   }
