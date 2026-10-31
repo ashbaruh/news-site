@@ -2,310 +2,76 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-10-30T0044__yemen-202610300044.json",
+  "draft": "drafts/yemen/2026-10-31T0243__yemen-202610310243.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-10-30T00:44:39+00:00",
+   "generated_at": "2026-10-31T02:43:21+00:00",
    "window": {
-    "from": "2026-10-29T00:44:39+00:00",
-    "to": "2026-10-30T00:44:39+00:00"
+    "from": "2026-10-30T02:43:21+00:00",
+    "to": "2026-10-31T02:43:21+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "yemen-202610300044"
+    "run_id": "yemen-202610310243"
    },
-   "summary": "הלחימה בין החות'ים לבין ממשלת תימן והקואליציה בהובלת סעודיה הסלימה בצורה חדה בעקבות קריסת שביתת הנשק. החות'ים הרחיבו את מתקפות הטילים והכטב\"מים לעבר יעדים צבאיים, נמלי תעופה ומתקני נפט בעומק סעודיה ובמקביל תקפו את נמל התעופה בעדן והידקו את המצור על תעז. מנגד, הקואליציה פועלת ליירוט האיומים ומבצעת תקיפות אוויריות בתימן, לצד פעילות צבאית קרקעית של כוחות הממשלה.",
+   "summary": "הלחימה בזירה התימנית התחדשה בעצימות גבוהה בין תנועת החות'ים לבין ממשלת תימן הנתמכת בידי הקואליציה בהובלת ערב הסעודית. החות'ים מרחיבים את פעילותם ההתקפית באמצעות מצור קרקעי על תעז ותקיפות טילים על מוסדות השלטון בעדן, לצד שיגורי כטב\"מים וטילים לעומק שטח סעודיה. מנגד, כוחות הקואליציה מיירטים איומים אוויריים ומבצעים תקיפות אוויריות במוקדי השליטה של המורדים.",
    "fronts": [
     {
-     "name": "חזית תימן - ערב הסעודית",
-     "status": "הסלמה בתקיפות טילים וכטב\"מים חות'יים לעבר יעדי תשתית, נמלי תעופה וערים, לצד יירוטים ותקיפות אוויריות של הקואליציה"
+     "name": "חזית פנים-תימנית: עדן",
+     "status": "הסלמה בהתקפות טילים בליסטיים חות'יים לעבר סביבת נמל התעופה ומתחם ארמון הנשיאות"
     },
     {
-     "name": "חזית פנים-תימן (תעז ועדן)",
-     "status": "עימותים פעילים, הידוק מצור חות'י על תעז ושיגור טילים לעבר נמל התעופה הבינלאומי בעדן"
+     "name": "חזית פנים-תימנית: תעז וחוף הים האדום",
+     "status": "כיתור ממושך והידוק מצור חות'י, ניתוק נתיבי אספקה לעדן והפגזות הדדיות"
+    },
+    {
+     "name": "חזית תימן - ערב הסעודית",
+     "status": "שיגורים תכופים של כטב\"מים וטילים חות'יים לעבר מחוזות בריאד, מערב ומזרח הממלכה, לצד יירוטים של הקואליציה"
+    },
+    {
+     "name": "התווך הימי: באב אל-מנדב",
+     "status": "מתיחות סביב חופש השיט ומעורבות דיפלומטית בינלאומית להבטחת המעברים הימיים"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-10300044-01",
-     "title": "טענת החות'ים לביצוע שש תקיפות נגד נמלי תעופה ומתקני נפט בסעודיה",
-     "summary": "הדובר הצבאי של החות'ים טען כי הארגון ביצע שש תקיפות בסעודיה, כולל שיגור טילים בליסטיים לעבר בתי זיקוק בראס תנורה וראבג', מתקן אראמקו באבקאיק, נמל התעופה הבינלאומי בריאד, מתקפה באמצעות כטב\"ם על נמל תעופה בדמאם ופגיעה במפקדה בנג'ראן.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "statement",
+     "id": "YEMEN-10310243-01",
+     "title": "מתקפת טילים על ארמון הנשיאות ונמל התעופה בעדן",
+     "summary": "החות'ים שיגרו טילים בליסטיים לעבר מתחם ארמון הנשיאות אל-מעאשיק ולעבר נמל התעופה בעדן, מושב הממשלה המוכרת של תימן, ונשמעו פיצוצים בעיר.",
+     "axis": "תימן פנימי - עדן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T21:25:49+00:00",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T21:25:49+00:00",
-     "last_update_at": "2026-10-30T00:11:20+00:00",
-     "what_is_not_verified": "התקיפות לא אושרו רשמית בידי סעודיה.",
+     "first_reported_at": "2026-10-30T18:52:23+00:00",
+     "last_update_at": "2026-10-30T21:42:38+00:00",
+     "what_is_not_verified": "היקף הנפגעים והנזק המדויק בארמון ובנמל התעופה אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-       "published_at": "2026-10-30T00:11:20+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "fh_cb6b463783993736",
+       "url": "https://www.newarab.com/news/strikes-blamed-houthis-target-yemen-presidential-palace",
+       "published_at": "2026-10-30T21:42:38+00:00"
       },
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-six-attacks-saudi-arabia-airports-and-oil-facilities",
-       "published_at": "2026-10-29T21:25:49+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ראס תנורה, ערב הסעודית",
-       "lat": 26.7074,
-       "lon": 50.0674
+       "source_root_id": "fh_cb6b463783993736",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-attack-aden-airport-and-presidential-palace-yemeni-government",
+       "published_at": "2026-10-30T19:25:34+00:00"
       },
       {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_cb6b463783993736",
+       "url": "https://www.sabanew.net/viewstory/154902",
+       "published_at": "2026-10-30T18:52:23+00:00"
       },
-      {
-       "name": "אבקאיק, ערב הסעודית",
-       "lat": 25.9356,
-       "lon": 49.6683
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-02",
-     "title": "יירוט שני טילים בליסטיים שנורו לעבר ריאד",
-     "summary": "הקואליציה בהובלת סעודיה מסרה כי מערכות ההגנה האווירית יירטו והשמידו שני טילים בליסטיים ששיגרו החות'ים לעבר הבירה ריאד.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T17:53:58+00:00",
-     "last_update_at": "2026-10-29T19:54:16+00:00",
-     "what_is_not_verified": "מידת הדיוק של היירוטים והיקף הנזק בשטח אם היה.",
-     "is_new_in_window": true,
-     "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "fh_3258bc02a71ad281",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-says-it-shot-down-two-missiles-fired-riyadh",
-       "published_at": "2026-10-29T19:54:16+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_3258bc02a71ad281",
-       "url": "https://www.sabanew.net/viewstory/154859",
-       "published_at": "2026-10-29T17:53:58+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-03",
-     "title": "יירוט טיל שיוט ששוגר לעבר האזור המערבי בסעודיה",
-     "summary": "הקואליציה הודיעה על יירוט והשמדה של טיל שיוט ששוגר בידי החות'ים לעבר האזור המערבי.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T23:46:34+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T23:46:34+00:00",
-     "last_update_at": "2026-10-29T23:46:34+00:00",
-     "what_is_not_verified": "מיקומו המדויק של היירוט ונתיב הטיל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_3484265789e2887d",
-       "url": "https://www.sabanew.net/viewstory/154865",
-       "published_at": "2026-10-29T23:46:34+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10300044-04",
-     "title": "פיצוצים ואזהרות הגנה אזרחית בריאד ובערים נוספות בסעודיה",
-     "summary": "כתבים בריאד דיווחו על שמיעת שמונה פיצוצים לפחות במקביל להתרעות סלולריות מפני איום אווירי עוין, ואזהרות הגנה אזרחית פורסמו בריאד, באל-ח'רג' ובנג'ראן.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T18:31:57+00:00",
-     "last_update_at": "2026-10-29T18:31:57+00:00",
-     "what_is_not_verified": "מהות הפיצוצים במדויק (נפילות או יירוטים).",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-say-saudi-strike-kills-12-blasts-heard-riyadh",
-       "published_at": "2026-10-29T18:31:57+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
-      },
-      {
-       "name": "נג'ראן, ערב הסעודית",
-       "lat": 17.544,
-       "lon": 44.2247
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-05",
-     "title": "טענות לשימוש בחומרים רעילים בהפגזות במחוז תעז",
-     "summary": "רשויות מקומיות בתעז והכוחות המזוינים של תימן הודיעו כי הם מתייחסים ברצינות לדיווחים לפיהם החות'ים השתמשו בפגזים המכילים חומרים רעילים אסורים נגד אזרחים ואנשי התנגדות, שגרמו למקרי חנק ועילפון.",
-     "axis": "פנים-תימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T12:43:39+00:00",
-     "last_update_at": "2026-10-29T22:40:39+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לשימוש בפועל בחומרים רעילים מעבר להודעות הרשמיות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_3c7f0198baa4fdfe",
-       "url": "https://www.sabanew.net/viewstory/154864",
-       "published_at": "2026-10-29T22:40:39+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_3c7f0198baa4fdfe",
-       "url": "https://www.newarab.com/news/yemeni-authorities-accuse-houthis-using-toxic-substances",
-       "published_at": "2026-10-29T12:43:39+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-06",
-     "title": "הפגזות שוטפות ופגיעה באמבולנסים בתעז",
-     "summary": "מושל תעז טען כי החות'ים מפגיזים אזרחים מדי שעה ופוגעים באמבולנסים בעיר.",
-     "axis": "פנים-תימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T22:20:34+00:00",
-     "last_update_at": "2026-10-29T22:20:34+00:00",
-     "what_is_not_verified": "תדירות ההפגזות והיקף הפגיעה המדויק באמבולנסים לא אומתו באופן בלתי תלוי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_a39dd7e40a7e12bc",
-       "url": "https://www.sabanew.net/viewstory/154863",
-       "published_at": "2026-10-29T22:20:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-07",
-     "title": "תקיפות אוויריות במחוז תעז וטענות לנפגעים",
-     "summary": "גורמי בריאות חות'יים דיווחו כי תקיפות סעודיות באזור אל-ברח בנפת מקבנה שבמחוז תעז הביאו למותם של 12 בני אדם ולפציעת שלושה. בנוסף נטען לתקיפה של מפעל צבע באזור.",
-     "axis": "תימן - סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T12:43:39+00:00",
-     "last_update_at": "2026-10-29T18:31:57+00:00",
-     "what_is_not_verified": "מניין ההרוגים והאחריות לתקיפה הספציפית נמסרו מצד החות'ים בלבד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-say-saudi-strike-kills-12-blasts-heard-riyadh",
-       "published_at": "2026-10-29T18:31:57+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/netanyahu-sows-election-doubts-baseless-arab-fraud-claim",
-       "published_at": "2026-10-29T17:51:19+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/yemeni-authorities-accuse-houthis-using-toxic-substances",
-       "published_at": "2026-10-29T12:43:39+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-10300044-08",
-     "title": "מתקפת טילים על נמל התעופה הבינלאומי בעדן",
-     "summary": "הצבא התימני והרשויות דיווחו כי שני טילים בליסטיים ששיגרו החות'ים פגעו בנמל התעופה הבינלאומי של עדן, פצעו אזרחים וגרמו נזק.",
-     "axis": "פנים-תימן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-29T07:47:09+00:00",
-     "last_update_at": "2026-10-29T18:31:57+00:00",
-     "what_is_not_verified": "היקף הנזק ומספר הפצועים המדויק.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_4ba67e6022fe3681",
-       "url": "https://www.newarab.com/news/houthis-say-saudi-strike-kills-12-blasts-heard-riyadh",
-       "published_at": "2026-10-29T18:31:57+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_4ba67e6022fe3681",
-       "url": "https://www.sabanew.net/viewstory/154853",
-       "published_at": "2026-10-29T16:18:06+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_4ba67e6022fe3681",
-       "url": "https://www.newarab.com/news/yemeni-authorities-accuse-houthis-using-toxic-substances",
-       "published_at": "2026-10-29T12:43:39+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_4ba67e6022fe3681",
-       "url": "https://www.newarab.com/news/no-majority-israeli-elections-trump-mulls-next-steps-iran",
-       "published_at": "2026-10-29T07:47:09+00:00"
+       "source_root_id": "fh_cb6b463783993736",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-yemens-government-held-aden",
+       "published_at": "2026-10-30T18:52:23+00:00"
       }
      ],
      "places": [
@@ -317,36 +83,111 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-10300044-09",
-     "title": "החרפת המצור על תעז ועומס חמור בבתי החולים",
-     "summary": "העיר תעז נתונה תחת מצור מהודק של החות'ים שהביא לחסימת צירי אספקה, עליית מחירים חדה ומחסור קריטי בציוד רפואי, לצד הגעת מאות פצועים לבתי חולים בעקבות קרבות מתמשכים.",
-     "axis": "פנים-תימן",
+     "id": "YEMEN-10310243-02",
+     "title": "יירוטי כטב\"מים וטילים בליסטיים של החות'ים מעל שטח ערב הסעודית",
+     "summary": "הקואליציה בהובלת סעודיה דיווחה על יירוט כלי טיס בלתי מאוישים וטילים ששוגרו על ידי החות'ים לעבר מחוזות ריאד, מכה, אל-מדינה, האזור המזרחי והאזור הדרומי.",
+     "axis": "תימן - ערב הסעודית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T07:47:09+00:00",
-     "last_update_at": "2026-10-29T16:46:33+00:00",
-     "what_is_not_verified": "אין אימות בלתי תלוי לגבי כמויות האספקה המדויקות שנותרו בתוך העיר.",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T17:42:12+00:00",
+     "last_update_at": "2026-10-31T00:54:41+00:00",
+     "what_is_not_verified": "עצם השיגור לעבר מכה ואל-מדינה שנוי במחלוקת והוכחש בתוקף על ידי החות'ים",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_mee",
+       "source_root_id": "fh_bb395063dfb8ba3f",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-drone-intercepted-over-saudi-arabias-southern-region-coalition",
+       "published_at": "2026-10-31T00:54:41+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_bb395063dfb8ba3f",
+       "url": "https://www.newarab.com/news/strikes-blamed-houthis-target-yemen-presidential-palace",
+       "published_at": "2026-10-30T21:42:38+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_bb395063dfb8ba3f",
+       "url": "https://www.sabanew.net/viewstory/154907",
+       "published_at": "2026-10-30T21:40:23+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_bb395063dfb8ba3f",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-coalition-reports-drones-over-mecca-and-medina-houthis-deny-both",
+       "published_at": "2026-10-30T20:49:10+00:00"
+      },
+      {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates",
-       "published_at": "2026-10-29T16:46:33+00:00"
+       "source_root_id": "fh_bb395063dfb8ba3f",
+       "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-houthi-drone-over-medina-houthis-deny-attack",
+       "published_at": "2026-10-30T19:46:34+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_ef54bafd24742264",
+       "url": "https://www.sabanew.net/viewstory/154897",
+       "published_at": "2026-10-30T17:42:12+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אל-מדינה, ערב הסעודית",
+       "lat": 24.4712,
+       "lon": 39.6111
+      },
+      {
+       "name": "מכה, ערב הסעודית",
+       "lat": 21.4208,
+       "lon": 39.8269
+      },
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10310243-03",
+     "title": "החרפת המצור והלחימה במחוז תעז",
+     "summary": "החות'ים הידקו את כיתור העיר תעז והשתלטו על שישה מחוזות משנה, תוך ניתוק ציר האספקה המרכזי לעדן, שיבוש חמור באספקת מים ומזון ופגיעה באזרחים מהפגזות וצליפות.",
+     "axis": "תימן פנימי - תעז",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-30T07:31:50+00:00",
+     "last_update_at": "2026-10-30T19:53:52+00:00",
+     "what_is_not_verified": "נתוני הנפגעים המדויקים ומספרי חוסר האספקה נמסרו על ידי הרשויות המקומיות ולא אומתו עצמאית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_3fa84a43d3f26623",
+       "url": "https://www.sabanew.net/viewstory/154905",
+       "published_at": "2026-10-30T19:53:52+00:00"
       },
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/yemeni-authorities-accuse-houthis-using-toxic-substances",
-       "published_at": "2026-10-29T12:43:39+00:00"
+       "source_root_id": "fh_3fa84a43d3f26623",
+       "url": "https://www.newarab.com/news/taiz-governor-says-city-didnt-choose-war-supplies-dwindle",
+       "published_at": "2026-10-30T17:21:41+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_3fa84a43d3f26623",
+       "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
+       "published_at": "2026-10-30T09:00:50+00:00"
       },
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/no-majority-israeli-elections-trump-mulls-next-steps-iran",
-       "published_at": "2026-10-29T07:47:09+00:00"
+       "source_root_id": "fh_3fa84a43d3f26623",
+       "url": "https://www.newarab.com/news/vote-count-ends-israel-eyes-turn-us-midterms-iran",
+       "published_at": "2026-10-30T07:31:50+00:00"
       }
      ],
      "places": [
@@ -358,57 +199,108 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-10300044-10",
-     "title": "מבצעי סיכול ותקיפה מצד כוחות צבא תימן",
-     "summary": "הכוחות המזוינים של תימן הודיעו על ביצוע 982 פעולות תקיפה שבהן נוטרלו 324 מפקדים ולוחמים חות'ים, וכן הושמדו ונוטרלו 108 כלי רכב ומערכות.",
-     "axis": "פנים-תימן",
-     "claim_type": "statement",
+     "id": "YEMEN-10310243-04",
+     "title": "שיחות מדיניות בין שרי החוץ של סעודיה ורוסיה על מצר באב אל-מנדב ותימן",
+     "summary": "שרי החוץ של סעודיה ורוסיה נפגשו בשולי כינוס שרי החוץ של קבוצת העשרים ודנו בהתפתחויות בתימן ובחופש השיט במצרי הורמוז ובאב אל-מנדב.",
+     "axis": "מדיני - שיט בינלאומי",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T15:01:53+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T15:01:53+00:00",
-     "last_update_at": "2026-10-29T15:01:53+00:00",
-     "what_is_not_verified": "מספרי הנפגעים והכלים המושמדים לא אומתו על ידי מקור עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_84b08fed440a1b0b",
-       "url": "https://www.sabanew.net/viewstory/154846",
-       "published_at": "2026-10-29T15:01:53+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-10300044-11",
-     "title": "השקת מסמך עקרונות שבטיים להגנת אזרחים בז'נבה",
-     "summary": "מנהיגי שבטים מתימן הציגו באו\"ם בז'נבה קוד אתי שמטרתו להגן על אזרחים ולהקל על הכנסת סיוע הומניטרי, שעליו חתמו כ-5,000 מנהיגים מאזורים שבשליטת הממשלה ובשליטת החות'ים.",
-     "axis": "פנים-תימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-29T17:00:17+00:00",
+     "occurred_at": "2026-10-31T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-29T17:00:17+00:00",
-     "last_update_at": "2026-10-29T17:00:17+00:00",
-     "what_is_not_verified": "מידת היישום וההשפעה המעשית של המסמך על הלחימה בשטח.",
+     "first_reported_at": "2026-10-31T01:13:30+00:00",
+     "last_update_at": "2026-10-31T01:13:30+00:00",
+     "what_is_not_verified": "תוכן ההבנות והפרטים המדויקים שעלו בשיחות הסגורות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-tribal-leaders-present-set-principles-ease-wars-humanitarian",
-       "published_at": "2026-10-29T17:00:17+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-and-russian-foreign-ministers-discuss-hormuz-yemen-g20",
+       "published_at": "2026-10-31T01:13:30+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10310243-05",
+     "title": "הוראת פינוי לצוותים דיפלומטיים אמריקאיים מערב הסעודית",
+     "summary": "ארצות הברית הורתה לעובדי ממשל שאינם חיוניים ולבני משפחותיהם לעזוב את ערב הסעודית בעקבות סיכוני ביטחון ומתקפות חות'יות על נמלי תעופה ותשתיות.",
+     "axis": "ארצות הברית - ערב הסעודית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-23T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-30T18:46:31+00:00",
+     "last_update_at": "2026-10-30T18:46:31+00:00",
+     "what_is_not_verified": "מספר העובדים ובני המשפחה שעזבו בפועל בעקבות ההנחיה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/us-orders-non-emergency-staff-leave-saudi-arabia-over-security-risks",
+       "published_at": "2026-10-30T18:46:31+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-10310243-06",
+     "title": "העברת מרוץ דקר מערב הסעודית עקב המצב הביטחוני מול החות'ים",
+     "summary": "מארגני מרוץ דקר לשנת 2027 הודיעו על העברתו מערב הסעודית למרוקו ופורטוגל בשל החששות הביטחוניים מהתחדשות העימות מול תנועת החות'ים.",
+     "axis": "סעודיה - אזרחי/ביטחוני",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T16:42:33+00:00",
+     "last_update_at": "2026-10-30T16:42:33+00:00",
+     "what_is_not_verified": "אישור סופי של מועצת הספורט המוטורי העולמית ללוח הזמנים החדש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/2027-dakar-rally-be-held-morocco-and-portugal-organisers",
+       "published_at": "2026-10-30T16:42:33+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-10310243-07",
+     "title": "עקירת מעל 280 אלף תושבים עקב חידוש הלחימה בתימן",
+     "summary": "נציבות הפליטים של האו\"ם מסרה כי מעל 280 אלף בני אדם נעקרו מבתיהם בשל חידוש הלחימה במדינה, וכי הגישה לסיוע הומניטרי חסומה באזורים רבים בשל הסכנה.",
+     "axis": "הומניטרי - תימן",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-10-30T12:00:00+00:00",
+     "last_update_at": "2026-10-30T12:00:00+00:00",
+     "what_is_not_verified": "הפילוח המדויק של הנעקרים לפי מחוזות ואזורי קרב",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_un_news",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://news.un.org/feed/view/en/story/2026/10/1168706",
+       "published_at": "2026-10-30T12:00:00+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "טענות החות'ים לביצוע שש תקיפות מדויקות שפגעו בנמלי תעופה ובמתקני אראמקו בסעודיה",
-    "מספר ההרוגים המדויק (12 בני אדם) בתקיפה באל-ברח שיוחסה לסעודיה",
-    "הטענות בדבר שימוש חות'י בפגזים המכילים חומרים רעילים אסורים בתעז",
-    "הנתונים של צבא תימן על נטרול 324 חות'ים והשמדת 108 כלי רכב"
+    "טענות הקואליציה על שיגור כטב\"מים לעבר הערים מכה ואל-מדינה, שהוכחשו על ידי דובר החות'ים והוגדרו כבדיה",
+    "מספר הנפגעים והנזקים הישירים מפגיעות הטילים במתחם מעאשיק ובנמל התעופה בעדן",
+    "הדיווחים של צבא תימן על חיסול 336 מפקדים ופעילים חות'יים וביצוע 1,087 תקיפות"
    ],
    "map": {
     "confidence": "low",
@@ -419,125 +311,126 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1159,
+     "value": 3.1284,
      "unit": "ILS",
-     "change_pct": -0.32,
+     "change_pct": 0.4,
      "source_id": "src_ecb",
-     "as_of": "2026-10-29T15:00:00+00:00"
+     "as_of": "2026-10-30T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "התנועה החות'ית",
+     "actor": "תנועת החות'ים",
      "declared": [
-      "תקיפת נמלי תעופה, מתקני נפט ומפקדות של סעודיה בתגובה ללחימה",
-      "הפעלת כוח צבאי נגד יעדי ממשלת תימן בעדן וסביב תעז"
+      "פגיעה במטרות צבאיות ושלטוניות של ממשלת תימן והקואליציה",
+      "הכחשת תקיפת אתרים קדושים במכה ואל-מדינה"
      ],
      "inferred": [
-      "הפעלת לחץ כלכלי וביטחוני ישיר על סעודיה כדי לפגוע בתוכניות הגיוון הכלכלי שלה",
-      "הכרעת כיסי ההתנגדות של הממשלה בתעז והרחבת השליטה הטריטוריאלית"
+      "הכנעת העיר תעז ובידודה כדי לקבע הישגים טריטוריאליים בדרך לעדן",
+      "הפעלת לחץ צבאי וכלכלי ישיר על ערב הסעודית באמצעות איום על עורפה ומתקניה האזרחיים"
      ],
      "forecast": [
-      "המשך שיגורי טילים וכטב\"מים לעבר תשתיות אנרגיה ותעופה בסעודיה",
-      "החרפת הלחץ הצבאי וההומניטרי על העיר הנצורה תעז"
+      "המשך שיגורי כטב\"מים וטילים לעבר סעודיה ולעבר יעדי ממשל בעדן",
+      "החרפת המשבר ההומניטרי בתעז תוך ניסיונות להדק את השליטה במחוז"
      ]
     },
     {
-     "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+     "actor": "ערב הסעודית והקואליציה בהובלתה",
      "declared": [
-      "יירוט והשמדת טילי שיוט וטילים בליסטיים המכוונים לשטח סעודיה",
-      "דרישה ממועצת הביטחון של האו\"ם לבלום את חימוש החות'ים ולהגדירם כארגון טרור"
+      "הגנה על שטח הממלכה ויירוט כלי טיס וטילים עוינים",
+      "תמיכה בממשלת תימן המוכרת בינלאומית וסיכול יכולות הטרור החות'יות"
      ],
      "inferred": [
-      "שמירה על נכסים אסטרטגיים וביטחון פנים בסעודיה תוך מניעת שיבוש התעופה והנפט",
-      "הגנה על מרכזי השלטון של הממשלה המוכרת בעדן ושבירת המצור סביב תעז"
+      "שמירה על יציבות ביטחונית וכלכלית בתוך סעודיה לצורך פרויקטים בינלאומיים והשקעות",
+      "גיוס תמיכה דיפלומטית ובינלאומית נגד האיום החות'י בנתיבי השיט ובאזור"
      ],
      "forecast": [
-      "המשך פעולות יירוט אווירי אינטנסיביות ותקיפות תגובה אוויריות בתימן",
-      "הגברת הפעילות הדיפלומטית מול מועצת הביטחון להטלת סנקציות נוספות על החות'ים"
+      "הגברת פעילות היירוט האווירי והמשך תקיפות ממוקדות במוקדי שיגור בתימן",
+      "העמקת התיאום האזורי והבינלאומי לבלימת ההשפעה על חופש השיט הימי"
+     ]
+    },
+    {
+     "actor": "ממשלת תימן המוכרת בינלאומית",
+     "declared": [
+      "הסרת המצור החות'י מעל תעז ופתיחת מסדרונות הומניטריים לאספקה",
+      "הגנה על הבירה הזמנית עדן מפני התקפות המורדים"
+     ],
+     "inferred": [
+      "מניעת קריסת עורקי החיים הכלכליים והתחבורתיים בין תעז לעדן",
+      "השגת סיוע בינלאומי וצבאי מוגבר על רקע אובדן שטחים נרחבים"
+     ],
+     "forecast": [
+      "המשך ניסיונות בלימה צבאיים סביב תעז ושימור אבטחת מוסדות השלטון בעדן"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-     "accessed_at": "2026-10-30T00:44:39+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/us-orders-non-emergency-staff-leave-saudi-arabia-over-security-risks",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
     },
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates",
-     "accessed_at": "2026-10-30T00:44:39+00:00"
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-tribal-leaders-present-set-principles-ease-wars-humanitarian",
-     "accessed_at": "2026-10-30T00:44:39+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-and-russian-foreign-ministers-discuss-hormuz-yemen-g20",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/no-majority-israeli-elections-trump-mulls-next-steps-iran",
-     "accessed_at": "2026-10-30T00:44:39+00:00"
+     "url": "https://www.newarab.com/news/2027-dakar-rally-be-held-morocco-and-portugal-organisers",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
     },
     {
      "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/154846",
-     "accessed_at": "2026-10-30T00:44:39+00:00"
+     "url": "https://www.sabanew.net/viewstory/154905",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
+    },
+    {
+     "source_id": "src_un_news",
+     "url": "https://news.un.org/feed/view/en/story/2026/10/1168706",
+     "accessed_at": "2026-10-31T02:43:21+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-29T00:40:26+00:00",
+  "previous_generated_at": "2026-10-30T00:44:39+00:00",
   "changes": {
-   "YEMEN-10300044-01": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "הוראת פינוי לצוות שגרירות ארצות הברית בסעודיה עקב איומי החות'ים",
-    "score": 0.817
-   },
-   "YEMEN-10300044-02": {
-    "kind": "new"
-   },
-   "YEMEN-10300044-03": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "שיגור טיל בליסטי לעבר בית הזיקוק ראס תנורה בסעודיה",
-    "score": 0.65
-   },
-   "YEMEN-10300044-04": {
-    "kind": "possible",
-    "prev": "אישור הסכם הגנה משותף בין טורקיה, סעודיה ופקיסטן",
-    "score": 0.467
-   },
-   "YEMEN-10300044-05": {
-    "kind": "new"
-   },
-   "YEMEN-10300044-06": {
-    "kind": "new"
-   },
-   "YEMEN-10300044-07": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "דיווח על תקיפות אוויריות סעודיות במחוז אל-ג'וף",
-    "score": 0.65
-   },
-   "YEMEN-10300044-08": {
+   "YEMEN-10310243-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "פגיעת טילים בשדה התעופה הבינלאומי של עדן",
+    "prev": "מתקפת טילים על נמל התעופה הבינלאומי בעדן",
     "score": 1.0
    },
-   "YEMEN-10300044-09": {
+   "YEMEN-10310243-02": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "יירוט שני טילים בליסטיים שנורו לעבר ריאד",
+    "score": 0.817
+   },
+   "YEMEN-10310243-03": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "החרפת המצור על תעז ועומס חמור בבתי החולים",
+    "score": 1.0
+   },
+   "YEMEN-10310243-04": {
     "kind": "new"
    },
-   "YEMEN-10300044-10": {
+   "YEMEN-10310243-05": {
     "kind": "new"
    },
-   "YEMEN-10300044-11": {
+   "YEMEN-10310243-06": {
+    "kind": "new"
+   },
+   "YEMEN-10310243-07": {
     "kind": "new"
    }
   }
