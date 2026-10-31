@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T11:17:23+00:00",
-  "fetched_at": "2026-10-31T11:17:23+00:00"
+  "checked_at": "2026-10-31T12:17:12+00:00",
+  "fetched_at": "2026-10-31T12:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T11:17:40+00:00",
-  "fetched_at": "2026-10-31T11:17:40+00:00"
+  "checked_at": "2026-10-31T12:17:25+00:00",
+  "fetched_at": "2026-10-31T12:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,25 +79,30 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T11:17:41+00:00",
-  "fetched_at": "2026-10-31T11:17:41+00:00"
+  "checked_at": "2026-10-31T12:17:26+00:00",
+  "fetched_at": "2026-10-31T12:17:26+00:00"
  },
- "generated_at": "2026-10-31T11:17:41+00:00",
+ "generated_at": "2026-10-31T12:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "כילד מכר סוכריות מהכותל. היום הוא מוביל גוף ממשלתי שחולש על מיליארדים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560910",
-     "date": "2026-10-31T08:30:00+00:00"
+     "title": "הוא מימן מכיסו סרט עם ניקולס קייג' ב-45 מיליון דולר. ואז הסרט נגנב",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560904",
+     "date": "2026-10-31T11:30:00+00:00"
     },
     {
      "title": "האיום של חמינאי: \"אם איראן תותקף - נגיב מיד ובעוצמה, ללא מגבלה גיאוגרפית\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561450",
-     "date": "2026-10-31T11:12:00+00:00"
+     "date": "2026-10-31T12:08:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "905 מיליון דולר: התעשייה האווירית על סף עסקת ענק בהודו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561453",
+     "date": "2026-10-31T12:05:00+00:00"
+    },
     {
      "title": "\"סיכוי גבוה לאלימות\": בברלין ובצרפת נערכים להפגנות צעירים ולביזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561452",
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-10-29T16:30:00+00:00"
     },
     {
-     "title": "למרות ההבטחות: האיחוד עדיין אינו מציע לקנדה הצטרפות כ\"חברה שותפה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561405",
-     "date": "2026-10-29T16:04:00+00:00"
-    },
-    {
      "title": "איזה פרס ניחומים יקבלו ירון זליכה, יועז הנדל ועופר וינטר מהמדינה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561266",
      "date": "2026-10-29T16:00:00+00:00"
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T11:17:25+00:00",
-  "fetched_at": "2026-10-31T11:17:25+00:00"
+  "checked_at": "2026-10-31T12:17:14+00:00",
+  "fetched_at": "2026-10-31T12:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T11:17:26+00:00",
-  "fetched_at": "2026-10-31T11:17:26+00:00"
+  "checked_at": "2026-10-31T12:17:15+00:00",
+  "fetched_at": "2026-10-31T12:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -2924,10 +2924,9 @@ window.DB.generated = {
     "title": "פאריס סן ז'רמן נשים - לה האבר"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-10-31T11:17:31+00:00",
-  "fetched_at": "2026-10-31T10:17:18+00:00"
+  "ok": true,
+  "checked_at": "2026-10-31T12:17:18+00:00",
+  "fetched_at": "2026-10-31T12:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3087,32 +3086,33 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T11:17:31+00:00",
-  "fetched_at": "2026-10-31T11:17:31+00:00"
+  "checked_at": "2026-10-31T12:17:18+00:00",
+  "fetched_at": "2026-10-31T12:17:18+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-     "date": "2026-10-28T17:00:58+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Carbon: Our next frontier model",
-     "title_he": "Gemini 4 Carbon: דגם החזית הבא שלנו",
-     "translated_by": "google"
-    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
      "date": "2026-10-29T12:12:40+00:00",
      "launch": false,
      "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+     "date": "2026-10-30T09:30:00+00:00",
+     "launch": false,
+     "title_en": "Making it easier for websites to express AI training preferences",
+     "title_he": "הקלה על אתרים להביע העדפות אימון בינה מלאכותית",
+     "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3126,7 +3126,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1125,
+     "likes": 1127,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3137,18 +3137,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
+     "title": "Qwen Image 2.1 Realtime",
+     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
+     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
+     "likes": 91,
+     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 248,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
-    },
-    {
-     "title": "Qwen Image 2.1 Realtime",
-     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
-     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 90,
-     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
      "title": "ProtectBirds",
@@ -3188,8 +3188,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T11:17:39+00:00",
-  "fetched_at": "2026-10-31T11:17:39+00:00"
+  "checked_at": "2026-10-31T12:17:25+00:00",
+  "fetched_at": "2026-10-31T12:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3312,18 +3312,18 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "גאנדלמן פתח לראשונה העונה, לצ'ה הובסה 5:1 על ידי פרוזינונה",
-     "link": "https://sports.walla.co.il/item/3874243",
-     "date": "2026-10-29T20:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "עומרי גאנדלמן"
-     ]
-    },
-    {
      "title": "קווין גארנט בטירוף על אבדיה: \"דני בוי סופרסטאר, קרוב ל-MVP\"",
      "link": "https://sports.walla.co.il/item/3874138",
      "date": "2026-10-29T09:12:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "אבדיה חוגג, האלופה מתרסקת: דירוג העוצמה של ESPN נחשף",
+     "link": "https://sports.walla.co.il/item/3874048",
+     "date": "2026-10-28T13:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3540,8 +3540,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T11:17:35+00:00",
-  "fetched_at": "2026-10-31T11:17:35+00:00"
+  "checked_at": "2026-10-31T12:17:21+00:00",
+  "fetched_at": "2026-10-31T12:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -3572,58 +3572,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T11:17:36+00:00",
-  "fetched_at": "2026-10-31T11:17:36+00:00"
+  "checked_at": "2026-10-31T12:17:22+00:00",
+  "fetched_at": "2026-10-31T12:17:22+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-31T11:12:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "newest": "2026-10-31T12:08:00+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T20:02:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-10-31T07:27:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "newest": "2026-10-31T12:05:00+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-31T11:43:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "newest": "2026-10-31T12:15:00+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-31T08:07:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "newest": "2026-10-31T12:31:00+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-31T10:40:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "newest": "2026-10-31T11:30:00+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-30T15:13:07+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3635,35 +3635,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-31T10:19:27+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-31T09:00:00+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-31T11:17:41+00:00",
+    "seen_at": "2026-10-31T12:17:26+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T11:17:41+00:00",
+  "checked_at": "2026-10-31T12:17:26+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3820,7 +3820,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T11:17:36+00:00",
-  "fetched_at": "2026-10-31T11:17:36+00:00"
+  "checked_at": "2026-10-31T12:17:22+00:00",
+  "fetched_at": "2026-10-31T12:17:22+00:00"
  }
 };
