@@ -1,0 +1,201 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8cd474b68846",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-31T15:51:10+00:00",
+  "window": {
+   "from": "2026-10-30T15:51:10+00:00",
+   "to": "2026-10-31T15:51:10+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202610311551"
+  },
+  "summary": "מתנהלים מגעים דיפלומטיים בתיווך קטאר ופקיסטן בניסיון למצוא פתרון למשבר במפרץ ולתנאים לפתיחת מצר הורמוז, מול הצהרות לוחמניות מצד הנהגת איראן על מוכנות להתרחשות עימות מחודש. במקביל, נמשכות השפעות הלחימה בשטח הכוללות דליפות נפט באזור המפרץ ופעילות הגנה אווירית מול שלוחות איראניות.",
+  "fronts": [
+   {
+    "name": "המפרץ ומרחב ימי (הורמוז)",
+    "status": "פעיל ומתוח סביב איומי סגירת מצר, דליפות נפט ושיחות תיווך"
+   },
+   {
+    "name": "איראן מול ישראל וארה\"ב",
+    "status": "הסלמה מילולית והכנות צבאיות הדדיות לצד מגעים דיפלומטיים עקיפים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10311551-01",
+    "title": "שיחות בתיווך קטאר ופקיסטן על נתיבים ליציאה ממשבר במפרץ",
+    "summary": "משא ומתן עקיף בין נציגים איראנים לבין מתווכים קטארים ופקיסטנים מתקיים בדוחא לדיון בדרכים ליציאה מהלחימה במפרץ ותנאים אפשריים",
+    "axis": "ציר איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T14:21:50+00:00",
+    "last_update_at": "2026-10-31T15:46:29+00:00",
+    "what_is_not_verified": "ההתקדמות המדויקת בשיחות והאם יושגו הסכמות סופיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/10/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms",
+      "published_at": "2026-10-31T15:46:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_reuters",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-prepared-war-tehran-sets-conditions-hormuz-reopening",
+      "published_at": "2026-10-31T15:35:13+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_reuters",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21744933",
+      "published_at": "2026-10-31T14:21:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוחא, קטאר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10311551-02",
+    "title": "דליפת נפט ממכלית מותקפת הגיעה לחופי איחוד האמירויות",
+    "summary": "כתמי נפט שמקורם במכליות שהותקפו בסמוך למצר הורמוז הגיעו לקו החוף של איחוד האמירויות, מה שהביא לסגירת חופים במספר אמירות",
+    "axis": "ציר איראן מול המפרץ וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T07:58:00+00:00",
+    "last_update_at": "2026-10-31T07:58:00+00:00",
+    "what_is_not_verified": "זהותה הוודאית של כלל כלי השיט הדולפים מעבר להערכות מומחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_financial_times",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-spills-tankers-attacked-iran-hormuz-reach-uae-coastline-report-says",
+      "published_at": "2026-10-31T07:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראס אל-ח'ימה, איחוד האמירויות",
+      "lat": 25.7738,
+      "lon": 55.9382
+     },
+     {
+      "name": "שארג'ה, איחוד האמירויות",
+      "lat": 25.3461,
+      "lon": 55.4211
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10311551-03",
+    "title": "יירוט רחזב\"ם מעל האזור המזרחי בסעודיה",
+    "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה כלי טיס בלתי מאויש מעל האזור עתיר הנפט במזרח סעודיה במסגרת מתקפות של החות'ים",
+    "axis": "ציר איראן ושלוחותיה מול מדינות המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T19:46:34+00:00",
+    "last_update_at": "2026-10-30T19:46:34+00:00",
+    "what_is_not_verified": "הנזק המדויק שנגרם בשטח כתוצאה מהשיגור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-drone-over-oil-rich-eastern-region",
+      "published_at": "2026-10-30T19:46:34+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': 'לוחות הזמנים המדויקים לחידוש תקיפות מצד ארה\"ב או ישראל'}",
+   "{'string': 'היקף ההתקדמות המעשית במו\"מ העקיף בין איראן לארה\"ב דרך קטאר'}"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "התרת הסנקציות",
+     "צמצום כוחות ארה\"ב בבתי הזיקוק והאזור",
+     "פתיחת מצר הורמוז בתנאים שנקבעו"
+    ],
+    "inferred": [
+     "שימור יכולותיה הצבאיות והרחבת בנק המטרות",
+     "הפחתת הלחץ הכלכלי באמצעות מו\"מ עקיף"
+    ],
+    "forecast": [
+     "המשך היערכות לתרחישי עימות צבאי רחב מול ארה\"ב וישראל"
+    ]
+   },
+   {
+    "actor": "ישראל וארה\"ב",
+    "declared": [],
+    "inferred": [
+     "בחינת אפשרויות לתקיפה נוספת או שמירת אופציה צבאית",
+     "הפעלת לחץ כלכלי ודיפלומטי על טהרן"
+    ],
+    "forecast": [
+     "המשך ההערכות האסטרטגית לתגובה אפשרית מצד איראן ושלוחותיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-drone-over-oil-rich-eastern-region",
+    "accessed_at": "2026-10-31T15:51:10+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21744933",
+    "accessed_at": "2026-10-31T15:51:10+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-spills-tankers-attacked-iran-hormuz-reach-uae-coastline-report-says",
+    "accessed_at": "2026-10-31T15:51:10+00:00"
+   }
+  ]
+ }
+}

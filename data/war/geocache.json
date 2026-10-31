@@ -709,6 +709,7 @@
 36.3496
 ],
 "eastern province, saudi arabia": null,
+"eastern region, saudi arabia": null,
 "enerhodar, ukraine": [
 47.4901,
 34.6603
@@ -1461,6 +1462,7 @@
 25.7742,
 -80.1936
 ],
+"mifdoun, lebanon": null,
 "min-zada'i, iran": null,
 "minab, iran": [
 27.1506,
@@ -1755,6 +1757,10 @@
 22.799,
 39.0336
 ],
+"rachaf, lebanon": [
+33.1442,
+35.3611
+],
 "raf akrotiri, cyprus": null,
 "raf fairford, england": [
 51.6851,
@@ -1773,6 +1779,10 @@
 "raqqa, syria": [
 35.9497,
 39.0089
+],
+"ras al khaimah, uae": [
+25.7738,
+55.9382
 ],
 "ras tanura, saudi arabia": [
 26.7074,
@@ -1939,6 +1949,10 @@
 "sharab, taiz, yemen": [
 13.7578,
 43.7672
+],
+"sharjah, uae": [
+25.3461,
+55.4211
 ],
 "shebaa, lebanon": [
 33.3445,

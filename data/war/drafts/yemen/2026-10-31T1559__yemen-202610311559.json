@@ -1,0 +1,266 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2b6d947f1593",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-10-31T15:59:41+00:00",
+  "window": {
+   "from": "2026-10-30T15:59:41+00:00",
+   "to": "2026-10-31T15:59:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202610311559"
+  },
+  "summary": "הלחימה בזירת תימן כוללת התחדשות של עימותים פנימיים ועקירת אזרחים, לצד המשך שיגור טילים וכטב\"מים מצד המורדים החות'ים לעבר סעודיה ומטרות ממשלתיות בתימן (כגון עדן). במקביל, הקואליציה בראשות סעודיה ממשיכה ליירט איומים אוויריים, והאירועים בזירה הביאו לצעדי אבטחה חריגים כמו פינוי צוותים לא חירום מצד ארצות הברית והעברת ראלי דקאר.",
+  "fronts": [
+   {
+    "name": "חזית תימן פנים (עדן ותעז)",
+    "status": "פעילה ומתחדשת"
+   },
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה עם תקיפות אוויריות ויירוטים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-10311559-01",
+    "title": "יירוט כטב\"מים וטילים מעל סעודיה",
+    "summary": "כוחות הקואליציה בראשות סעודיה יירו והשמידו מספר כטב\"מים וטילים ששוגרו לעבר אזורים שונים בסעודיה, כולל ריאד, מכה, מדינה והאזור המזרחי.",
+    "axis": "זירת תימן וסעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T17:42:12+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T17:42:12+00:00",
+    "last_update_at": "2026-10-31T10:05:06+00:00",
+    "what_is_not_verified": "היannות המלאה של המורדים החות'ים לגבי חלק מהתקיפות, שכן הם הכחישו חלק מהיעדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/irans-khamenei-orders-unrestricted-response-threats",
+      "published_at": "2026-10-31T10:05:06+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-force-intercepts-houthi-drone-over-riyadh-region",
+      "published_at": "2026-10-31T06:11:16+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/strikes-blamed-houthis-target-yemen-presidential-palace",
+      "published_at": "2026-10-30T21:42:38+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154907",
+      "published_at": "2026-10-30T21:40:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-drone-over-oil-rich-eastern-region",
+      "published_at": "2026-10-30T19:46:34+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154897",
+      "published_at": "2026-10-30T17:42:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     },
+     {
+      "name": "מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10311559-02",
+    "title": "פגיעה בארמון הנשיאותי בעדן",
+    "summary": "החחות'ים תקפו באמצעות טילים את ארמון הנשיאותי בעדן, שבו שוכנים כוחות ממשלת תימן והקואליציה.",
+    "axis": "זירת הפנים בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T18:52:23+00:00",
+    "last_update_at": "2026-10-30T21:42:38+00:00",
+    "what_is_not_verified": "היקף הנפגעים המדויק בארמון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_afp",
+      "url": "https://www.newarab.com/news/strikes-blamed-houthis-target-yemen-presidential-palace",
+      "published_at": "2026-10-30T21:42:38+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_afp",
+      "url": "https://www.sabanew.net/viewstory/154902",
+      "published_at": "2026-10-30T18:52:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-10311559-03",
+    "title": "עקירת אזרחים והחמרת המשבר ההומניטרי בתעז ובתימן",
+    "summary": "התחדשות הלחימה בתימן הביאה לעקירת מאות אלפים ולמצוקה קשה, ובפרט מצור חות'י על העיר תעז שמנע גישה למזון, מים ותרופות.",
+    "axis": "זירת הפנים בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T17:21:41+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T17:21:41+00:00",
+    "last_update_at": "2026-10-31T12:45:49+00:00",
+    "what_is_not_verified": "מספרים מדויקים ללא אימות עצמאי מלא של האו\"ם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
+      "published_at": "2026-10-31T12:45:49+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154924",
+      "published_at": "2026-10-31T11:43:03+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154905",
+      "published_at": "2026-10-30T19:53:52+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/taiz-governor-says-city-didnt-choose-war-supplies-dwindle",
+      "published_at": "2026-10-30T17:21:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים כי לא כיוונו לעבר העיר המקודשת מכה",
+   "מספר הנפגעים המדויק בארמון הנשיאותי בעדן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תמיכה בפלסטינים והתנגדות לתוקפנות"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי על ממשלת תימן וסעודיה",
+     "הרחבת ההשפעה באזור באמצעות פגיעה בתשתיות קריטיות"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר סעודיה ומטרות בתימן כל עוד העימות נמשך",
+     "הידוק המצור על ערים מרכזיות כמו תעז"
+    ]
+   },
+   {
+    "actor": "הקואליציה בראשות סעודיה",
+    "declared": [
+     "הגנה על שטחי סעודיה ואזרחיה",
+     "תמיכה בממשלת תימן המוכרת בינלאומית"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות של המורדים החות'ים ושמירה על תשתיות אנרגיה",
+     "מניעת ביסוס איום צבאי ישיר על גבולות הממלכה"
+    ],
+    "forecast": [
+     "המשך יירוטים והתקפות נגד בתימן",
+     "נקיטת אמצעי אבטחה נוספים עקב הסיכונים הביטחוניים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
+    "accessed_at": "2026-10-31T15:59:41+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/saudi-led-coalition-says-it-downs-drone-over-oil-rich-eastern-region",
+    "accessed_at": "2026-10-31T15:59:41+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-force-intercepts-houthi-drone-over-riyadh-region",
+    "accessed_at": "2026-10-31T15:59:41+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/taiz-governor-says-city-didnt-choose-war-supplies-dwindle",
+    "accessed_at": "2026-10-31T15:59:41+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154905",
+    "accessed_at": "2026-10-31T15:59:41+00:00"
+   }
+  ]
+ }
+}

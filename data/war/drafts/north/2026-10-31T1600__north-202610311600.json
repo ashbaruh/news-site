@@ -1,0 +1,256 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ebf4d57a2ced",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "initial": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-31T16:00:25+00:00",
+  "window": {
+   "from": "2026-10-30T16:00:25+00:00",
+   "to": "2026-10-31T16:00:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202610311600"
+  },
+  "summary": "בזזרה הצפונית נמשכות תקיפות של צה\"ל בדרום לבנון הכוללות הפצצות מהאוויר ושימוש ברחפנים, בעוד בסוריה מתנהלים דיונים מדיניים בנוגע לאפשרות הצטרפות לבריתות הגנה אזוריות מול איומים. המתיחות באזור נשמרת סביב זירות הלחימה בלבנון והגבולות הסוריים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה עם תקיפות אוויריות ופגיעה בתשתיות"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "דיונים מדיניים על שיתופי פעולה אזוריים והיערכות ביטחונית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10311600-01",
+    "title": "תקיפה ישראלית בכפר כפר טבנית שבדרום לבנון",
+    "summary": "חיל האוויר הישראלי תקף סמוך לכפר כפר טבנית בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T05:59:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T05:59:55+00:00",
+    "last_update_at": "2026-10-31T14:22:21+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_89ff8418e6e18051",
+      "url": "https://english.almanar.com.lb/article/145242/",
+      "published_at": "2026-10-31T14:22:21+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_89ff8418e6e18051",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-656",
+      "published_at": "2026-10-31T07:13:14+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_89ff8418e6e18051",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanese-town-kfar-tebnit",
+      "published_at": "2026-10-31T05:59:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר טבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10311600-02",
+    "title": "פיצוץ רחפן נפץ ישראלית מעל מבנה בכפר מיפדון",
+    "summary": "תיעוד רגעי פיצוץ רחפן נפץ ישראלי מעל מבנה בכפר מיפדון במטרה לפגוע באנטנות שידור ואינטרנט.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T12:45:42+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T12:45:42+00:00",
+    "last_update_at": "2026-10-31T12:45:42+00:00",
+    "what_is_not_verified": "מטרת הפגיעה היא לפי מקורות לבנוניים בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132873",
+      "published_at": "2026-10-31T12:45:42+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10311600-03",
+    "title": "תקיפות צה\"ל בכפרים ברעשית וחדאת'א",
+    "summary": "מטוסי קרב של צה\"ל תקפו בכפרים ברעשית וחדאת'א שבדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T09:32:47+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T09:32:47+00:00",
+    "last_update_at": "2026-10-31T09:32:47+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132862",
+      "published_at": "2026-10-31T09:32:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1442,
+      "lon": 35.3611
+     },
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.1561,
+      "lon": 35.3912
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10311600-04",
+    "title": "שיחות בסוריה על הצטרפות אפשרית להסכם מכה",
+    "summary": "שר החוץ הסורי אישר כי מתקיימות דיונים להערכת האפשרות שסוריה תצטרף לברית ההגנה המשולשת של הסכם מכה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T10:48:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T10:48:07+00:00",
+    "last_update_at": "2026-10-31T15:48:15+00:00",
+    "what_is_not_verified": "פרטים נוספים על השיחות אינם ידועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_9e130fb6a8c31259",
+      "url": "https://www.newarab.com/news/syria-mulls-joining-mecca-defence-pact-shaibani",
+      "published_at": "2026-10-31T15:48:15+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_9e130fb6a8c31259",
+      "url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
+      "published_at": "2026-10-31T14:20:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_9e130fb6a8c31259",
+      "url": "https://www.newarab.com/news/mideast-leaders-call-calm-fears-mount-renewed-war",
+      "published_at": "2026-10-31T13:46:06+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_7f9766190ef22d20",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-says-discussions-underway-on-joining-mecca-pact/4107245",
+      "published_at": "2026-10-31T10:48:07+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "פרטים מלאים על מהלך השיחות של סוריה להצטרפות להסכם מכה",
+   "זהותם המדויקת של כל הפעילים החמושים המעורבים באירועי הגבול בסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים צבאיים ופגיעה בתשתיות טרור בגזרה הצפונית"
+    ],
+    "inferred": [
+     "מניעת התבססות והתחמשות של גורמים עוינים בסוריה ובלבנון"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית נקודתית נגד תשתיות ומטרות צבאיות בגבול הצפון"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "חיזוק הביטחון האזורי ובחינת הצטרפות להסכמי הגנה משותפים"
+    ],
+    "inferred": [
+     "חיפוש מעטפת הגנה אזורית וביסוס מעמדה המדיני לאחר שנים של מלחמה"
+    ],
+    "forecast": [
+     "המשך מגעים לשיתופי פעולה ביטחוניים עם שחקניות אזוריות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/145242/",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-says-discussions-underway-on-joining-mecca-pact/4107245",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-southern-lebanese-town-kfar-tebnit",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/mideast-leaders-call-calm-fears-mount-renewed-war",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132862",
+    "accessed_at": "2026-10-31T16:00:25+00:00"
+   }
+  ]
+ }
+}
