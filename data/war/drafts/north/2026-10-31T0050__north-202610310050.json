@@ -1,0 +1,335 @@
+{
+ "status": "draft",
+ "received_sha256_12": "5afdc8e477d2",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 4,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-10-31T00:50:01+00:00",
+  "window": {
+   "from": "2026-10-30T00:50:01+00:00",
+   "to": "2026-10-31T00:50:01+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202610310050"
+  },
+  "summary": "הלחימה והמתיחות בדרום לבנון נמשכות לצד פעילות של כוחות ישראליים ודיווחים על פגיעה במבנים ותשתיות. בזירה הפנימית בלבנון גובר הלחץ המדינתי והמשפטי על חיזבאללה בעקבות חשיפת משלוחי אמצעי לחימה והעמדת מעורבים לדין. בסוריה מתמודדים אזורי המזרח והצפון עם נזקי שיטפונות קשים, לצד קשיים כלכליים תחת הממשל החדש.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "לחימה פעילה, פעילות קרקעית, הפגזות וירי ארטילרי"
+   },
+   {
+    "name": "הזירה הפנים-לבנונית",
+    "status": "מתח פוליטי ומשפטי מול חיזבאללה וניסיונות ממשלתיים לפירוק נשק במחנות"
+   },
+   {
+    "name": "מזרח וצפון סוריה",
+    "status": "משבר הומניטרי ותשתיתי בעקבות שיטפונות וקשיים כלכליים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-10310050-01",
+    "title": "דיווח על פעילות צה\"ל בדרום לבנון",
+    "summary": "לפי דיווחים, כוחות ישראליים פוצצו מבנים, הפגיזו עיירות, הציתו בתים וירו במקלעים באזורים שונים בדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T22:51:23+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T22:51:23+00:00",
+    "last_update_at": "2026-10-30T22:51:23+00:00",
+    "what_is_not_verified": "הדיווח נסמך על כלי תקשורת ולא נמסר אישור רשמי של צה\"ל או פירוט מקומות מדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-blows-up-homes-shells-towns-in-southern-lebanon/4106993",
+      "published_at": "2026-10-30T22:51:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10310050-02",
+    "title": "יירוט מטרה חשודה בדרום לבנון",
+    "summary": "דיווח ברשת החברתית על יירוט של מטרה חשודה בשמי דרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T05:41:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T05:41:03+00:00",
+    "last_update_at": "2026-10-30T05:41:03+00:00",
+    "what_is_not_verified": "זהות המטרה, הגורם המיירט והמיקום המדויק אינם מפורטים מעבר להודעה בטלגרם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94897",
+      "published_at": "2026-10-30T05:41:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10310050-03",
+    "title": "הגשת כתבי אישום בלבנון על משאית חומרי הנפץ של חיזבאללה",
+    "summary": "בית הדין הצבאי בלבנון הגיש כתבי אישום נגד שלושה-עשר בני אדם, בהם פעילי חיזבאללה, על מעורבות בהברחת מטען חומרי נפץ שנתפס במחסום דהר אל-ביידר.",
+    "axis": "לבנון (פנים)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T09:45:55+00:00",
+    "last_update_at": "2026-10-30T16:55:22+00:00",
+    "what_is_not_verified": "חלק מהנאשמים מזוהים רק בכינויים ולא נתפסו בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_54da6f075e9c0d5b",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-court-charges-13-over-hezbollah-explosives-shipment",
+      "published_at": "2026-10-30T16:55:22+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_54da6f075e9c0d5b",
+      "url": "https://www.newarab.com/news/lebanon-court-charges-13-over-seized-hezbollah-explosives-truck",
+      "published_at": "2026-10-30T16:17:30+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_54da6f075e9c0d5b",
+      "url": "https://english.almanar.com.lb/article/144942/",
+      "published_at": "2026-10-30T16:17:15+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_54da6f075e9c0d5b",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/965612/dahr-al-baidar-explosives-case-takes-new-turn-as-13-face-charges/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965612",
+      "published_at": "2026-10-30T15:10:00+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_54da6f075e9c0d5b",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965561/military-prosecutor-charges-13-hezbollah-members-over-explosives-truck/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965561",
+      "published_at": "2026-10-30T09:45:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-ביידר, לבנון",
+      "lat": 33.8109,
+      "lon": 35.7661
+     }
+    ]
+   },
+   {
+    "id": "NORTH-10310050-04",
+    "title": "פרסום נתוני נפגעים על ידי משרד הבריאות הלבנוני",
+    "summary": "משרד הבריאות בלבנון עדכן את מניין הנפגעים מפעולות ישראל במדינה.",
+    "axis": "דרום לבנון",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T19:07:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T19:07:22+00:00",
+    "last_update_at": "2026-10-30T19:07:22+00:00",
+    "what_is_not_verified": "הנתונים מתבססים רק על דיווח משרד הבריאות הלבנוני ללא אימות חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a080a0d65aca9bef",
+      "url": "https://english.almanar.com.lb/article/144982/",
+      "published_at": "2026-10-30T19:07:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10310050-05",
+    "title": "התייעצויות ממשלת לבנון בנושא הנשק הפלסטיני במחנות",
+    "summary": "ראש ממשלת לבנון נואף סלאם הודיע על פתיחת התייעצויות על תוכנית לאומית לניהול מחנות הפליטים והסדרת סוגיית הנשק הפלסטיני תחת הריבונות הלבנונית.",
+    "axis": "לבנון (פנים)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T06:08:33+00:00",
+    "last_update_at": "2026-10-30T06:08:33+00:00",
+    "what_is_not_verified": "מידת ההסכמה וההיענות מצד הפלגים הפלסטיניים בשטח אינה ידועה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_b60ceafba37a2fe1",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965519/pm-salam-addressing-the-situation-of-palestinian-refugees-in-lebanon-r/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965519",
+      "published_at": "2026-10-30T06:08:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10310050-06",
+    "title": "שיחות בין לבנון לקטאר על תוכנית משק האנרגיה",
+    "summary": "משרד האנרגיה הלבנוני דיווח על התקדמות במגעים עם קטאר לגיבוש מכתב כוונות בנושא תוכנית אנרגיה משולבת וסיוע בשיקום נזקי המלחמה בדרום.",
+    "axis": "לבנון (פנים)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T13:07:10+00:00",
+    "last_update_at": "2026-10-30T13:07:10+00:00",
+    "what_is_not_verified": "טרם אושר מכתב הכוונות בממשלה הלבנונית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_62ac06f37c404d85",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965598/lebanon-qatar-make-progress-in-talks-on-energy-sector-proposal/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965598",
+      "published_at": "2026-10-30T13:07:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-10310050-07",
+    "title": "שיטפונות קטלניים במזרח ובצפון סוריה",
+    "summary": "גשמים עזים גרמו לשיטפונות שגבו את חייהם של שבעה בני אדם וגרמו לנזקים כבדים לתשתיות במחוזות א-רקה, דיר א-זור, אל-חסכה, חלב ואידליב.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T19:46:34+00:00",
+    "last_update_at": "2026-10-30T19:50:09+00:00",
+    "what_is_not_verified": "גורלם של ארבעה נעדרים טרם התברר ופרטי אחד ההרוגים חסרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_x_sana",
+      "url": "https://www.newarab.com/news/five-children-among-seven-dead-eastern-syria-floods",
+      "published_at": "2026-10-30T19:50:09+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_x_sana",
+      "url": "https://www.al-monitor.com/originals/2026/10/five-children-among-seven-dead-eastern-syria-floods",
+      "published_at": "2026-10-30T19:46:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-רקה, סוריה",
+      "lat": 35.9497,
+      "lon": 39.0089
+     },
+     {
+      "name": "דיר א-זור, סוריה",
+      "lat": 35.3333,
+      "lon": 40.15
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על הצתת בתים וירי מכונות ירייה בדרום לבנון מבוססות על דיווחים עיתונאיים ללא אישור רשמי",
+   "זהות המטרה החשודה שיורטה בדרום לבנון אינה ידועה",
+   "זהותם המלאה של חמישה מנאשמי פרשת משאית חומרי הנפץ בלבנון שמופיעים תחת כינויים בלבד"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "שימוש באמצעי הלחימה שנתפסו לצורך עימות עם ישראל והגנה על לבנון"
+    ],
+    "inferred": [
+     "שימור יכולות צבאיות והתחמשות למרות לחצים פנימיים והסכמים מדיניים לפירוק נשק"
+    ],
+    "forecast": [
+     "המשך חיכוך מול מערכת המשפט והממשל בלבנון סביב שינוע אמצעי לחימה"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "אכיפת ריבונות המדינה על מחנות הפליטים הפלסטיניים והעמדה לדין של גורמים הפוגעים בביטחון המדינה"
+    ],
+    "inferred": [
+     "החזרת סמכויות הריבונות וצמצום האחיזה הצבאית החמושה של חיזבאללה ושל פלגים פלסטיניים"
+    ],
+    "forecast": [
+     "המשך מאמצי הידברות זהירים לצד העמקה בפיקוח על מחסומים וצירים מרכזיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/144982/",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/five-children-among-seven-dead-eastern-syria-floods",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-blows-up-homes-shells-towns-in-southern-lebanon/4106993",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/965598/lebanon-qatar-make-progress-in-talks-on-energy-sector-proposal/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965598",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-court-charges-13-over-hezbollah-explosives-shipment",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/five-children-among-seven-dead-eastern-syria-floods",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94897",
+    "accessed_at": "2026-10-31T00:50:01+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,456 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bc3ae94cdb56",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 2,
+   "initial": 5,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-10-31T00:40:32+00:00",
+  "window": {
+   "from": "2026-10-30T00:40:32+00:00",
+   "to": "2026-10-31T00:40:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202610310040"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב מתאפיין בהסלמה ימית חריפה במצר הורמוז, הכוללת פגיעות במכליות נפט ושיבוש נתיבי השיט לצד יירוט כטב\"מים. במקביל, וושינגטון מאותתת על כוונות לחדש תקיפות צבאיות מקיפות בזמן שנבחנים מאמצי תיווך דיפלומטיים בהובלת קטאר ופקיסטן. בטהרן מציגים מוכנות לפעולת תגמול רחבה ויוזמות חקיקה לנסיגה מהאמנה למניעת הפצת נשק גרעיני.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמרחב הימי במפרץ",
+    "status": "פעילות התקפית ימית הכוללת פגיעה במכליות באמצעות מוקשים ימיים וירי בלתי מזוהה, לצד לכידת כטב\"ם אמריקני ומצור ימי"
+   },
+   {
+    "name": "הזירה האווירית והפנים-איראנית",
+    "status": "כוננות איראנית לתקיפות אמריקניות מתחדשות ודיווחים לא מאומתים על פגיעות בבסיסי שיגור בדרום המדינה"
+   },
+   {
+    "name": "הציר הדיפלומטי והמדיני",
+    "status": "משא ומתן עקיף בטהרן בתיווך קטארי ופקיסטני תחת איומי חידוש אש"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-10310040-01",
+    "title": "תקיפות ופגיעות במכליות נפט במצר הורמוז",
+    "summary": "מספר מכליות נפט נפגעו או עלו באש במצר הורמוז, כאשר זרוע הים של משמרות המהפכה טענה כי מכליות סטו מנתיבים מורשים או הוצתו, וגורמים ימיים דיווחו על פגיעות קליעים ומוקשים מגנטיים.",
+    "axis": "איראן - ארה\"ב והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T11:26:35+00:00",
+    "last_update_at": "2026-10-31T00:00:00+00:00",
+    "what_is_not_verified": "הזהות המדויקת של הגורמים המשגרים ופרטי כל המכליות שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+      "published_at": "2026-10-31T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz",
+      "published_at": "2026-10-30T21:16:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-struck-unknown-projectile-while-exiting-hormuz-ukmto",
+      "published_at": "2026-10-30T20:38:38+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
+      "published_at": "2026-10-30T18:33:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/limpet-mine-attack-hormuz-suggests-iran-may-be-shifting-tactics",
+      "published_at": "2026-10-30T17:27:55+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610303203",
+      "published_at": "2026-10-30T11:57:13+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
+      "published_at": "2026-10-30T11:26:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי לאוואן",
+      "lat": 26.8102,
+      "lon": 53.3543
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-02",
+    "title": "השתלטות איראן על כטב\"ם אמריקני מעל האי קשם",
+    "summary": "חיל הים של משמרות המהפכה הודיע כי לכד כלי טיס בלתי מאויש אמריקני לסיור והטעיה בעודו שלם ממערב למצר הורמוז לאחר השתלטות על מערכותיו.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T21:37:07+00:00",
+    "last_update_at": "2026-10-30T21:37:07+00:00",
+    "what_is_not_verified": "אישור אמריקני עצמאי על נפילת הכטב\"ם או אופן ההשתלטות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island",
+      "published_at": "2026-10-30T21:37:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם",
+      "lat": 26.9502,
+      "lon": 56.2691
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-03",
+    "title": "דיווחים בלתי מאומתים על תקיפות אמריקניות בדרום איראן",
+    "summary": "מקורות איראניים לא רשמיים דיווחו על שתי תקיפות ממוקדות שביצעה ארה\"ב באזורי האי קשם ונמל ג'אסכ לצורך סיכול משגרים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T07:37:36+00:00",
+    "last_update_at": "2026-10-30T07:37:36+00:00",
+    "what_is_not_verified": "היעדר כל אישור רשמי אמריקני או איראני לקיומן של התקיפות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132817",
+      "published_at": "2026-10-30T07:37:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם",
+      "lat": 26.9502,
+      "lon": 56.2691
+     },
+     {
+      "name": "ג'אסכ",
+      "lat": 25.6436,
+      "lon": 57.7746
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-04",
+    "title": "איתור וסיכול חוליה הקשורה למודיעין זר במערב איראן",
+    "summary": "משמרות המהפכה הודיעו על פירוק ופגיעה בחוליה בת שני אנשים המקושרת לשירותי מודיעין זרים במערב המדינה.",
+    "axis": "איראן - ישראל/ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T19:45:48+00:00",
+    "last_update_at": "2026-10-30T19:45:48+00:00",
+    "what_is_not_verified": "זהות המודיעין הזר וזהות חברי החוליה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86307681/IRGC-strikes-a-team-linked-to-foreign-intelligence-services-in",
+      "published_at": "2026-10-30T19:45:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-10310040-05",
+    "title": "יוזמות באיראן לפרישה מהאמנה למניעת הפצת נשק גרעיני והשלמת תוכנית תגובה",
+    "summary": "בכיר ביטחוני איראני מסר על השלמת תוכנית צבאית מעודכנת לתגובה נרחבת לתקיפות, ובמקביל הוגשו בפרלמנט הצעות לנסיגה מהאמנה למניעת הפצת נשק גרעיני.",
+    "axis": "איראן - ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T22:16:22+00:00",
+    "last_update_at": "2026-10-30T22:16:22+00:00",
+    "what_is_not_verified": "מועד מימוש אפשרי של הצעות הפרישה מהאמנה או פרטי תוכנית התגובה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-finalises-new-plan-respond-any-new-attack-official-says",
+      "published_at": "2026-10-30T22:16:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-06",
+    "title": "היערכות אמריקנית לתקיפות חדשות לצד מגעים מדיניים",
+    "summary": "בארה\"ב מתבצעת הערכה והיערכות לאפשרות של חידוש תקיפות צבאיות באיראן, במקביל למגעים מדיניים ולניסיונות תיווך להפסקת הלחימה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T20:22:02+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T20:22:02+00:00",
+    "last_update_at": "2026-10-31T00:19:20+00:00",
+    "what_is_not_verified": "המועד המדויק לפתיחת סבב תקיפות והיקפו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-are-talks-tehran-wants-talk",
+      "published_at": "2026-10-31T00:19:20+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21743550",
+      "published_at": "2026-10-31T00:04:15+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/in_the_news/u-s-evaluates-renewed-strikes-on-iran/",
+      "published_at": "2026-10-30T20:30:31+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610300238",
+      "published_at": "2026-10-30T20:22:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-07",
+    "title": "מאמצי תיווך בינלאומיים בין וושינגטון לטהרן",
+    "summary": "משלחות תיווך מקטאר ומפקיסטן פועלות מול ההנהגה בטהרן במטרה לבלום את המשך ההסלמה ולהביא להסכם בין הצדדים הנצים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T07:31:01+00:00",
+    "last_update_at": "2026-10-30T18:55:36+00:00",
+    "what_is_not_verified": "הפרטים המדויקים של טיוטת ההסכם ועמדות הצדדים בנוגע לפשרות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
+      "published_at": "2026-10-30T18:55:36+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/10/exclusive-pakistan-military-cautiously-optimistic-iran-us-mediation",
+      "published_at": "2026-10-30T18:46:31+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610304599",
+      "published_at": "2026-10-30T16:52:33+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202610307228",
+      "published_at": "2026-10-30T07:36:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132816",
+      "published_at": "2026-10-30T07:31:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-10310040-08",
+    "title": "הצבת אמצעי הגנה אווירית באחוזת מאר-א-לאגו",
+    "summary": "בארה\"ב תועדה פריסת מערכות הגנה מדגם אוונג'ר וטילי סטינגר בסמוך לאחוזת נשיא ארה\"ב בפלורידה על רקע חשש מאיומים איראניים.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-30T11:26:35+00:00",
+    "last_update_at": "2026-10-30T11:26:35+00:00",
+    "what_is_not_verified": "האם הוצבו טילי סטינגר בתוך האחוזה עצמה או רק מערכות אוונג'ר ומה טיב האיום",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
+      "published_at": "2026-10-30T11:26:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאר-א-לאגו",
+      "lat": 26.677,
+      "lon": -80.0379
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דיווחים על שתי תקיפות אמריקניות ממוקדות בדרום איראן באזור האי קשם ונמל ג'אסכ",
+   "הטענה לפיה טראמפ יחדש את התקיפות הצבאיות באיראן החל מ-4 בנובמבר",
+   "הדיווח לפיו חיל הים של משמרות המהפכה השתלט על מערכות הבקרה של כטב\"ם אמריקני",
+   "היקף הנזק המדויק והגורם האחראי לכל אחת מהפגיעות במכליות במצר הורמוז",
+   "הערכות על קיומם של תאים איראניים רדומים המאיימים על נשיא ארה\"ב בפלורידה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הגעה לסיום מהיר של המלחמה מול איראן",
+     "מניעת השגת נשק גרעיני בידי טהרן",
+     "שמירה על חופש השיט במצר הורמוז ומניעת ייצוא נפט איראני"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי מוגבר על ידי ריכוז כוחות ואיום בתקיפות ישירות כדי לכפות ויתורים במשא ומתן",
+     "הרתעת המשטר האיראני מפגיעה באינטרסים אמריקניים באמצעות פריסת מערכי הגנה"
+    ],
+    "forecast": [
+     "המשך איומים צבאיים עד לפקיעת מועד המגעים הדיפלומטיים",
+     "אפשרות לפעולות תגמול מוגבלות נגד מערכי שיגור ומוצבים באזור המפרץ אם השיחות ייכשלו"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הרתעת האויבים מפגיעה בריבונות ובזהות הלאומית",
+     "הטלת מחיר כבד על ארה\"ב ובעלות בריתה במקרה של תקיפות חדשות",
+     "שליטה במעבר כלי שיט בנתיבי מצר הורמוז"
+    ],
+    "inferred": [
+     "שימוש בשיבוש הכלכלה העולמית וסחר הנפט כדי למנוע מתקפה אמריקנית רחבה",
+     "איום בפריצה גרעינית וביטול מחויבויות בינלאומיות כמנוף לחץ במשא ומתן"
+    ],
+    "forecast": [
+     "המשך פעולות הטרדה ושיבוש ימי מוגבלות במצר הורמוז",
+     "שמירה על ערוצי המשא ומתן פתוחים מול מתווכים אזוריים במקביל להפגנת מוכנות צבאית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/10/exclusive-pakistan-military-cautiously-optimistic-iran-us-mediation",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/in_the_news/u-s-evaluates-renewed-strikes-on-iran/",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202610307228",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86307681/IRGC-strikes-a-team-linked-to-foreign-intelligence-services-in",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21743550",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-are-talks-tehran-wants-talk",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132816",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
+    "accessed_at": "2026-10-31T00:40:32+00:00"
+   }
+  ]
+ }
+}

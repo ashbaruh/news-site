@@ -1256,6 +1256,10 @@
 53.1816
 ],
 "latakia, syria": null,
+"lavan island, iran": [
+26.8102,
+53.3543
+],
 "lebanon": [
 40.3757,
 -76.4626
@@ -1369,6 +1373,10 @@
 "mansouri, lebanon": [
 33.1737,
 35.2111
+],
+"mar-a-lago, united states": [
+26.677,
+-80.0379
 ],
 "marib governorate, yemen": null,
 "marib, yemen": [
@@ -1719,6 +1727,10 @@
 "qeshm island, iran": [
 26.7687,
 55.8477
+],
+"qeshm, iran": [
+26.9502,
+56.2691
 ],
 "quantico, united states": [
 38.5219,
