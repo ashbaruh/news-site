@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:17:14+00:00",
-  "fetched_at": "2026-10-31T19:17:14+00:00"
+  "checked_at": "2026-10-31T19:34:11+00:00",
+  "fetched_at": "2026-10-31T19:34:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,15 +44,15 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:17:24+00:00",
-  "fetched_at": "2026-10-31T19:17:24+00:00"
+  "checked_at": "2026-10-31T19:34:23+00:00",
+  "fetched_at": "2026-10-31T19:34:23+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "How to watch AC Milan vs Inter: live stream Serie A game for free from anywhere",
-    "title_he": "איך לצפות במילאן נגד אינטר: שידור חי של משחק הסרייה A בחינם מכל מקום",
-    "translated_by": "google",
+    "title_en": "How to watch AC Milan vs Inter: live stream Serie A game for free from anywhere, team news",
+    "title_he": "איך לצפות ב-AC Milan vs Inter: שידור חי משחק Serie A בחינם מכל מקום, חדשות צוות",
+    "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/ac-milan-vs-inter-live-stream-serie-a-free",
     "date": "2026-10-31T14:00:00+00:00"
    },
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:17:24+00:00",
-  "fetched_at": "2026-10-31T19:17:24+00:00"
+  "checked_at": "2026-10-31T19:34:25+00:00",
+  "fetched_at": "2026-10-31T19:34:25+00:00"
  },
- "generated_at": "2026-10-31T19:17:24+00:00",
+ "generated_at": "2026-10-31T19:34:25+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "האיום של חמינאי: \"אם איראן תותקף - נגיב מיד ובעוצמה, ללא מגבלה גיאוגרפית\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561450",
-     "date": "2026-10-31T19:00:00+00:00"
+     "date": "2026-10-31T19:18:00+00:00"
     }
    ],
    "market": [
@@ -109,7 +109,7 @@ window.DB.generated = {
      "date": "2026-10-31T18:52:00+00:00"
     },
     {
-     "title": "המיליארדרים וענקיות הקריפטו: מי מזרים סכומי עתק כדי לעצב את הקונגרס הבא?",
+     "title": "מאילון מאסק ועד ג'ורג' סורוס: המיליארדרים ששמים כסף גדול על בחירות האמצע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561311",
      "date": "2026-10-31T15:11:00+00:00"
     },
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:17:15+00:00",
-  "fetched_at": "2026-10-31T19:17:15+00:00"
+  "checked_at": "2026-10-31T19:34:11+00:00",
+  "fetched_at": "2026-10-31T19:34:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:17:15+00:00",
-  "fetched_at": "2026-10-31T19:17:15+00:00"
+  "checked_at": "2026-10-31T19:34:12+00:00",
+  "fetched_at": "2026-10-31T19:34:12+00:00"
  },
  "tv": {
   "data": [
@@ -2967,8 +2967,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:17:16+00:00",
-  "fetched_at": "2026-10-31T19:17:16+00:00"
+  "checked_at": "2026-10-31T19:34:14+00:00",
+  "fetched_at": "2026-10-31T19:34:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3101,8 +3101,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:17:16+00:00",
-  "fetched_at": "2026-10-31T19:17:16+00:00"
+  "checked_at": "2026-10-31T19:34:14+00:00",
+  "fetched_at": "2026-10-31T19:34:14+00:00"
  },
  "ai": {
   "data": {
@@ -3126,8 +3126,7 @@ window.DB.generated = {
    ],
    "candidates": 7,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3141,7 +3140,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1143,
+     "likes": 1144,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3155,7 +3154,7 @@ window.DB.generated = {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 98,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -3203,12 +3202,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:17:23+00:00",
-  "fetched_at": "2026-10-31T19:17:23+00:00"
+  "checked_at": "2026-10-31T19:34:22+00:00",
+  "fetched_at": "2026-10-31T19:34:22+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ברייטון הפתיעה את מנצ'סטר סיטי, עוד הפסד לחלאילי ופאלאס",
+     "link": "https://sports.walla.co.il/item/3874238",
+     "date": "2026-10-31T20:24:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "עבדה וטוקלומטי נפצעו וניצחו, צפו: בישול לאוריין גורן בברצלונה ב'",
      "link": "https://sports.walla.co.il/item/3874397",
@@ -3230,15 +3238,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "ברייטון גברה על מנ' סיטי ונצמדה לפסגה, חלאילי ירד לספסל | צפו",
-     "link": "https://sports.walla.co.il/item/3874238",
-     "date": "2026-10-31T17:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
      "title": "צפו: דניאל פרץ ממשיך לדהור, ווסטהאם וסולומון שוב התרסקו",
      "link": "https://sports.walla.co.il/item/3874382",
      "date": "2026-10-31T17:54:00+00:00",
@@ -3246,6 +3245,15 @@ window.DB.generated = {
      "players": [
       "מנור סולומון",
       "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "חלאילי שיחק 30 דקות, פאלאס הפסידה 2:0 לטוטנהאם",
+     "link": "https://www.one.co.il/Article/537591.html?ref=rss",
+     "date": "2026-10-31T17:27:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
      ]
     },
     {
@@ -3336,15 +3344,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "הבכורה העונה לא הספיקה: בן שרף ירד לליגת הפיתוח",
-     "link": "https://sports.walla.co.il/item/3873843",
-     "date": "2026-10-26T16:31:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "בן שרף"
      ]
     }
    ],
@@ -3558,8 +3557,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:17:19+00:00",
-  "fetched_at": "2026-10-31T19:17:19+00:00"
+  "checked_at": "2026-10-31T19:34:18+00:00",
+  "fetched_at": "2026-10-31T19:34:18+00:00"
  },
  "idf": {
   "data": [
@@ -3589,100 +3588,99 @@ window.DB.generated = {
     "date": "2026-10-29T17:14:50+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-31T19:17:19+00:00",
-  "fetched_at": "2026-10-31T18:17:36+00:00"
+  "ok": true,
+  "checked_at": "2026-10-31T19:34:18+00:00",
+  "fetched_at": "2026-10-31T19:34:18+00:00"
  },
  "feed_health": {
   "ok": false,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-31T19:00:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "newest": "2026-10-31T19:18:00+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-31T13:58:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-31T19:00:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-31T20:10:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-31T20:04:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "newest": "2026-10-31T20:24:00+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-10-31T19:47:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "newest": "2026-10-31T20:30:00+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-10-31T19:10:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-31T16:42:11+00:00",
-    "seen_at": "2026-10-31T18:17:41+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-31T18:17:41+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-31T17:19:39+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-31T14:00:00+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-31T19:17:24+00:00",
+    "seen_at": "2026-10-31T19:34:25+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T19:17:24+00:00",
+  "checked_at": "2026-10-31T19:34:25+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3839,7 +3837,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:17:19+00:00",
-  "fetched_at": "2026-10-31T19:17:19+00:00"
+  "checked_at": "2026-10-31T19:34:19+00:00",
+  "fetched_at": "2026-10-31T19:34:19+00:00"
  }
 };
