@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:55:14+00:00",
-  "fetched_at": "2026-10-31T08:55:14+00:00"
+  "checked_at": "2026-10-31T09:17:21+00:00",
+  "fetched_at": "2026-10-31T09:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:55:22+00:00",
-  "fetched_at": "2026-10-31T08:55:22+00:00"
+  "checked_at": "2026-10-31T09:17:37+00:00",
+  "fetched_at": "2026-10-31T09:17:37+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Which albums sound great on vinyl? We asked, and you all gave a different answer",
+    "title_he": "אילו אלבומים נשמעים נהדר על ויניל? שאלנו, וכולכם נתתם תשובה אחרת",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/which-albums-sound-great-on-vinyl-we-asked-and-you-all-gave-a-different-answer",
+    "date": "2026-10-31T09:00:00+00:00"
+   },
    {
     "title_en": "I went to this grassroots film club – and it reminded me that home cinema is not a competitive sport",
     "title_he": "הלכתי למועדון הקולנוע העממי הזה - וזה הזכיר לי שקולנוע ביתי הוא לא ספורט תחרותי",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/projectors/i-just-saw-the-new-xgimi-horizon-30-series-and-the-future-looks-bright-for-the-upgraded-4k-projector-lineup",
     "date": "2026-10-30T17:40:37+00:00"
-   },
-   {
-    "title_en": "Atacama Moseco 6.2",
-    "title_he": "אטקמה מוסקו 6.2",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/av/speaker-stands/atacama-moseco-6-2",
-    "date": "2026-10-30T15:47:12+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:55:23+00:00",
-  "fetched_at": "2026-10-31T08:55:23+00:00"
+  "checked_at": "2026-10-31T09:17:38+00:00",
+  "fetched_at": "2026-10-31T09:17:38+00:00"
  },
- "generated_at": "2026-10-31T08:55:23+00:00",
+ "generated_at": "2026-10-31T09:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:55:15+00:00",
-  "fetched_at": "2026-10-31T08:55:15+00:00"
+  "checked_at": "2026-10-31T09:17:22+00:00",
+  "fetched_at": "2026-10-31T09:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:55:15+00:00",
-  "fetched_at": "2026-10-31T08:55:15+00:00"
+  "checked_at": "2026-10-31T09:17:23+00:00",
+  "fetched_at": "2026-10-31T09:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2923,8 +2923,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:55:16+00:00",
-  "fetched_at": "2026-10-31T08:55:16+00:00"
+  "checked_at": "2026-10-31T09:17:26+00:00",
+  "fetched_at": "2026-10-31T09:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3084,32 +3084,33 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:55:16+00:00",
-  "fetched_at": "2026-10-31T08:55:16+00:00"
+  "checked_at": "2026-10-31T09:17:26+00:00",
+  "fetched_at": "2026-10-31T09:17:26+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-     "date": "2026-10-28T17:00:58+00:00",
-     "launch": true,
-     "title_en": "Gemini 4 Carbon: Our next frontier model",
-     "title_he": "Gemini 4 Carbon: דגם החזית הבא שלנו",
-     "translated_by": "google"
-    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
      "date": "2026-10-29T12:12:40+00:00",
      "launch": false,
      "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+     "date": "2026-10-30T09:30:00+00:00",
+     "launch": false,
+     "title_en": "Making it easier for websites to express AI training preferences",
+     "title_he": "הקלה על אתרים להביע העדפות אימון בינה מלאכותית",
+     "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 8,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3123,21 +3124,21 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1121,
+     "likes": 1122,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 248,
+     "likes": 247,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -3162,18 +3163,18 @@
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
-     "title": "Phonon",
-     "desc_en": "Text-to-speech that runs in your browser",
-     "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
-     "likes": 87,
-     "link": "https://huggingface.co/spaces/gradium/phonon"
-    },
-    {
      "title": "GEAR",
      "desc_en": "Recursive self-improvement of LLM agent harnesses",
      "desc_he": "שיפור עצמי רקורסיבי של רתמות סוכני LLM",
      "likes": 63,
      "link": "https://huggingface.co/spaces/WizardTY/GEAR"
+    },
+    {
+     "title": "Phonon",
+     "desc_en": "Text-to-speech that runs in your browser",
+     "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
+     "likes": 87,
+     "link": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
      "title": "Jev Decision Index",
@@ -3185,8 +3186,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:55:21+00:00",
-  "fetched_at": "2026-10-31T08:55:21+00:00"
+  "checked_at": "2026-10-31T09:17:35+00:00",
+  "fetched_at": "2026-10-31T09:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -3537,8 +3538,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:55:19+00:00",
-  "fetched_at": "2026-10-31T08:55:19+00:00"
+  "checked_at": "2026-10-31T09:17:30+00:00",
+  "fetched_at": "2026-10-31T09:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3568,10 +3569,9 @@
     "date": "2026-10-28T14:28:22+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-31T08:55:19+00:00",
-  "fetched_at": "2026-10-31T08:17:23+00:00"
+  "ok": true,
+  "checked_at": "2026-10-31T09:17:31+00:00",
+  "fetched_at": "2026-10-31T09:17:31+00:00"
  },
  "feed_health": {
   "ok": false,
@@ -3579,49 +3579,49 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-31T08:30:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T20:02:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-31T07:27:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-10-31T09:30:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-31T08:07:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-31T08:29:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "newest": "2026-10-31T08:58:00+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-10-30T15:13:07+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3633,35 +3633,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-31T07:00:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-10-31T08:00:00+00:00",
-    "seen_at": "2026-10-31T08:55:23+00:00",
+    "newest": "2026-10-31T09:00:00+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T09:17:38+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T08:55:23+00:00",
+  "checked_at": "2026-10-31T09:17:38+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3817,9 +3817,8 @@
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-10-31T08:55:19+00:00",
-  "fetched_at": "2026-10-31T08:17:23+00:00"
+  "ok": true,
+  "checked_at": "2026-10-31T09:17:31+00:00",
+  "fetched_at": "2026-10-31T09:17:31+00:00"
  }
 }
