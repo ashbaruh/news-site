@@ -922,64 +922,214 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-10-30T1719__ukraine-202610301719.json",
+  "draft": "drafts/ukraine/2026-10-31T0612__ukraine-202610310612.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-10-30T17:19:07+00:00",
+   "generated_at": "2026-10-31T06:12:28+00:00",
    "window": {
-    "from": "2026-10-29T17:19:07+00:00",
-    "to": "2026-10-30T17:19:07+00:00"
+    "from": "2026-10-30T06:12:28+00:00",
+    "to": "2026-10-31T06:12:28+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202610301719"
+    "name": "gemini-3.7-flash",
+    "run_id": "ukraine-202610310612"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעוצמה, כאשר רוסיה תוקפת יעדי תשתית ותחבורה כדוגמת תחנת הרכבת בדניפרו, ואילו אוקראינה חידשה את מתקפות הכטב\"מים על בתי זיקוק בעומק שטח רוסיה. לצד חילופי האש, נרשמה הפוגה מקומית חריגה באזור אולשקי במחוז חרסון שאפשרה פינוי אזרחים. במקביל נמשכים מהלכים לקראת מגעים משולשים באבו דאבי, אף שרוסיה מסרבת לעצור את הלחימה ואירופה חוששת מהדרה מההסדרים המדיניים.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במקביל לתקיפות הדדיות על תשתיות אנרגיה בעומק השטח, כאשר כוחות רוסיה פוגעים ברשת החשמל בקייב ואוקראינה מחדשת את הפגיעות בבתי זיקוק רוסיים. במקביל למאמצי סיוע בינלאומיים והפשרת עסקת טילי פטריוט עבור קייב, מתקיימת הפוגת אש נקודתית ראשונה מסוגה לפינוי תושבים מאולשקי שבדרום. בציר המדיני נרשם קיפאון ועימות חריף בין מוסקבה למדינות המערב במהלך מפגש ה-G20 בארה\"ב.",
    "fronts": [
     {
-     "name": "מחוז חרסון / נהר הדניפרו",
-     "status": "הפסקת אש מקומית זמנית לצורך מבצע סיוע ופינוי אזרחים בעיר אולשקי"
+     "name": "ציר קייב והעורף האוקראיני",
+     "status": "ספיגת מתקפות רוסיות על מתקני אנרגיה וחשמל לקראת עונת החורף"
     },
     {
-     "name": "מחוז חרקוב (איזיום והסביבה)",
-     "status": "הדיפת מתקפות קרקעיות רוסיות לצד פגיעות של תקיפות אוויריות בריכוזי אוכלוסייה"
+     "name": "חזית חרקוב",
+     "status": "מתקפות כטב\"מים רוסיות לצד דיווחים על הדיפת תקיפות בשטח"
     },
     {
-     "name": "מחוז דניפרופטרובסק (דניפרו)",
-     "status": "ספיגת תקיפות טילים וכטב\"מים רוסיים ממוקדים נגד תחנת הרכבת ותשתיות"
+     "name": "חזית הדרום (נהר הדנייפרו / אולשקי)",
+     "status": "הפסקת אש מקומית זמנית לצורך פינוי הומניטרי של אזרחים"
     },
     {
-     "name": "עומק שטח רוסיה (סמארה, נובוקויבישבסק ויעדים נוספים)",
-     "status": "מתקפות כטב\"מים אוקראיניות על מתקני נפט ואנרגיה ומבצעי מארב של כוחות מיוחדים"
+     "name": "עורף רוסיה ומתקני הנפט",
+     "status": "תקיפות כטב\"מים אוקראיניות על בתי זיקוק ואיומי תעופה באזורי פנים"
+    },
+    {
+     "name": "הים השחור",
+     "status": "פגיעות רוסיות בתנועת כלי שיט המובילים ציוד ומטען סמוך לחופי אוקראינה"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-10301719-01",
-     "title": "פינוי אזרחים והפסקת אש הומניטרית בעיר אולשקי הכבושה",
-     "summary": "מבצע סיוע ופינוי תושבים יצא לפועל בעיר אולשקי שבמחוז חרסון בחסות הפסקת אש מקומית ובתיווך אמריקאי, כאשר מפונים מועברים ליעדים באוקראינה וברוסיה.",
-     "axis": "חזית הדרום (מחוז חרסון)",
+     "id": "UKRAINE-10310612-01",
+     "title": "פגיעה באוניית משא מדרום לאודסה",
+     "summary": "צבא רוסיה תקף אוניית משא שהובילה מטען צבאי עבור הכוחות האוקראיניים בים, במרחק 18 ק\"מ מדרום לאודסה.",
+     "axis": "הים השחור",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-31T05:45:19+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T05:45:19+00:00",
+     "last_update_at": "2026-10-31T05:45:19+00:00",
+     "what_is_not_verified": "אין אימות עצמאי לדיווח של משרד ההגנה הרוסי על זהות המטען או היקף הפגיעה באונייה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/defense/2211319",
+       "published_at": "2026-10-31T05:45:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10310612-02",
+     "title": "אישור מכירת טילי פטריוט מארה\"ב לאוקראינה",
+     "summary": "מחלקת המדינה של ארצות הברית אישרה עסקת מכירה של 500 טילי הגנה אווירית מדגם פטריוט PAC-3 לאוקראינה בעלות מוערכת של כ-2.1 מיליארד דולר במימון בעלות ברית.",
+     "axis": "סיוע בינלאומי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T19:24:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T19:24:00+00:00",
+     "last_update_at": "2026-10-31T04:20:00+00:00",
+     "what_is_not_verified": "מועד אספקת הטילים בפועל טרם נקבע, וזלנסקי ציין כי האספקה עלולה להימשך שנים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-polytics/4179938-zelensky-500-patriot-interceptors-could-provide-ukraine-with-strong-defense-this-winter.html",
+       "published_at": "2026-10-31T04:20:00+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+       "published_at": "2026-10-31T02:18:17+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-10-31T00:40:43+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/world/2211295",
+       "published_at": "2026-10-30T23:28:56+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+       "published_at": "2026-10-30T23:08:18+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+       "published_at": "2026-10-30T21:24:53+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060570/",
+       "published_at": "2026-10-30T19:24:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-10310612-03",
+     "title": "מתקפת כטב\"מים רוסית על חרקוב",
+     "summary": "מתקפת מל\"טים רוסית פגעה בעיר חרקוב, גרמה לפציעתם של שלושה אזרחים ולנזק בעשרה מבני מגורים.",
+     "axis": "חזית חרקוב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-31T05:08:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T05:08:00+00:00",
+     "last_update_at": "2026-10-31T05:08:00+00:00",
+     "what_is_not_verified": "אין אימות נוסף מחוץ לדיווח המקומי לגבי היקף הנזק המדויק.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4179940-three-injured-homes-damaged-in-russian-drone-strike-on-kharkiv.html",
+       "published_at": "2026-10-31T05:08:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חרקוב, אוקראינה",
+       "lat": 49.9923,
+       "lon": 36.231
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10310612-04",
+     "title": "תקיפת מתקן אנרגיה בקייב",
+     "summary": "פגיעה רוסית במתקן אנרגיה בקייב גרמה לניתוקי חשמל ואספקת מים בחלקים מהעיר.",
+     "axis": "עורף אוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T22:21:44+00:00",
+     "last_update_at": "2026-10-30T22:21:44+00:00",
+     "what_is_not_verified": "היקף הפגיעה המדויק בתשתיות והשבתתן המלאה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_5db480ac3178c6f1",
+       "url": "https://kyivindependent.com/russian-attack-hits-kyiv-energy-facility-leaving-parts-of-four-districts-without-power/",
+       "published_at": "2026-10-30T22:21:44+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-10310612-05",
+     "title": "מבצע הומניטרי ופינוי אזרחים מהעיר אולשקי הכבושה",
+     "summary": "הפוגת אש ייעודית אפשרה יציאת שיירת פינוי וסיוע הומניטרי מהעיר אולשקי שבמחוז חרסון דרך מסלול שעובר ברוסיה ובלארוס.",
+     "axis": "חזית הדרום (חרסון)",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-30T10:05:56+00:00",
-     "last_update_at": "2026-10-30T17:13:48+00:00",
-     "what_is_not_verified": "המספר המדויק של המפונים לכל צד והיקף הסיוע שהוכנס בפועל",
+     "first_reported_at": "2026-10-30T12:00:00+00:00",
+     "last_update_at": "2026-10-30T20:27:00+00:00",
+     "what_is_not_verified": "מספר המפונים המדויק שנוי במחלוקת בין הצדדים, וכן דיווחים על פינוי גופות מבית החולים המקומי טרם אומתו באופן בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060573/",
+       "published_at": "2026-10-30T20:27:00+00:00"
+      },
       {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
        "published_at": "2026-10-30T17:13:48+00:00"
-      },
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/society/2211123",
-       "published_at": "2026-10-30T17:10:13+00:00"
       },
       {
        "source_id": "src_tg_carmel",
@@ -1000,16 +1150,16 @@ window.DB.war_published = {
        "published_at": "2026-10-30T16:22:35+00:00"
       },
       {
-       "source_id": "src_ukrinform",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-society/4179814-ukrainian-delegation-and-evacuated-residents-of-oleshky-heading-to-russias-anapa.html",
-       "published_at": "2026-10-30T15:19:00+00:00"
+       "url": "https://t.me/alexmehacarmel/49118",
+       "published_at": "2026-10-30T15:02:35+00:00"
       },
       {
-       "source_id": "src_meduza",
+       "source_id": "src_un_news",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
-       "published_at": "2026-10-30T10:05:56+00:00"
+       "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
+       "published_at": "2026-10-30T12:00:00+00:00"
       }
      ],
      "places": [
@@ -1017,39 +1167,23 @@ window.DB.war_published = {
        "name": "אולשקי, אוקראינה",
        "lat": 46.6261,
        "lon": 32.722
-      },
-      {
-       "name": "חרסון, אוקראינה",
-       "lat": 46.6401,
-       "lon": 32.6144
-      },
-      {
-       "name": "אנאפה, רוסיה",
-       "lat": 44.8943,
-       "lon": 37.3169
       }
      ]
     },
     {
-     "id": "UKRAINE-10301719-02",
-     "title": "מתקפת כטב\"מים אוקראינית על בית זיקוק בנובוקויבישבסק ברוסיה",
-     "summary": "כלי טיס בלתי מאוישים פגעו במתקן דלקים וזיקוק נפט סמוך לעיר סמארה, מה שהוביל לדליקות במקום לאחר תקופה שבה הופסקו התקיפות על אתרים מסוג זה.",
-     "axis": "עומק שטח רוסיה",
+     "id": "UKRAINE-10310612-06",
+     "title": "מתקפת כטב\"מים אוקראינית על בית זיקוק בנובוקויבישבסק",
+     "summary": "כלי טיס בלתי מאוישים של אוקראינה פגעו בבית הזיקוק של חברת רוסנפט בנובוקויבישבסק במחוז סמרה, וגרמו לסדרת שריפות במתקן.",
+     "axis": "עורף רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-10-30T07:51:01+00:00",
-     "last_update_at": "2026-10-30T13:02:16+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק למתקני הזיקוק ומספר בתי הזיקוק הנוספים שהותקפו לפי הטענה הרוסית",
+     "last_update_at": "2026-10-30T09:09:24+00:00",
+     "what_is_not_verified": "רמת הפגיעה ביכולת ייצור הדלק הסילוני והיקף הנזק המבני המדויק.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/emergencies/2210935",
-       "published_at": "2026-10-30T13:02:16+00:00"
-      },
       {
        "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
@@ -1068,206 +1202,166 @@ window.DB.war_published = {
        "name": "נובוקויבישבסק, רוסיה",
        "lat": 53.0992,
        "lon": 49.9484
-      },
-      {
-       "name": "סמארה, רוסיה",
-       "lat": 53.1956,
-       "lon": 50.1015
       }
      ]
     },
     {
-     "id": "UKRAINE-10301719-03",
-     "title": "תקיפה רוסית חוזרת על תחנת הרכבת בעיר דניפרו",
-     "summary": "כוחות רוסים תקפו את מתחם תחנת הרכבת בדניפרו זה היום השני ברציפות, תקיפה שהביאה לפציעת אישה ולשריפה במתקן.",
-     "axis": "מחוז דניפרופטרובסק",
+     "id": "UKRAINE-10310612-07",
+     "title": "התרעות כטב\"מים ושיבושי חשמל באזורי רוסיה",
+     "summary": "שיבושי חשמל נרשמו במחוז קלינינגרד ברוסיה, והוטלו הגבלות תעופה בשדה התעופה באופה בעקבות התרעת כטב\"מים בבשקורטוסטן.",
+     "axis": "עורף רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "occurred_at": "2026-10-31T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T02:00:47+00:00",
-     "last_update_at": "2026-10-30T15:54:00+00:00",
-     "what_is_not_verified": "סוג החימוש ששימש לתקיפה השנייה והיקף הנזק המלא למסילות ולמבנים",
+     "first_reported_at": "2026-10-31T04:47:00+00:00",
+     "last_update_at": "2026-10-31T04:47:00+00:00",
+     "what_is_not_verified": "הקשר הישיר בין הפסקות החשמל בקלינינגרד לאיומי הכטב\"מים או לפעילות אוקראינית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060507/",
-       "published_at": "2026-10-30T15:54:00+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform",
-       "published_at": "2026-10-30T02:00:47+00:00"
+       "url": "https://kyivindependent.com/power-outages-hit-russias-kaliningrad-oblast-explosions-reported-in-ufa-amid-drone-alerts/",
+       "published_at": "2026-10-31T04:47:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "דניפרו, אוקראינה",
-       "lat": 51.5567,
-       "lon": 30.6122
+       "name": "אופה, רוסיה",
+       "lat": 54.7261,
+       "lon": 55.9475
+      },
+      {
+       "name": "קלינינגרד, רוסיה",
+       "lat": 54.7046,
+       "lon": 20.4566
       }
      ]
     },
     {
-     "id": "UKRAINE-10301719-04",
-     "title": "מארב ופעילות של כוחות מיוחדים אוקראיניים בתוך שטח רוסיה",
-     "summary": "הכוחות למבצעים מיוחדים של צבא אוקראינה ביצעו מארב בשטח רוסיה, השמידו כלי רכב ותפסו מסמכים צבאיים.",
-     "axis": "עומק שטח רוסיה",
-     "claim_type": "incident",
+     "id": "UKRAINE-10310612-08",
+     "title": "התחייבות קנדה והאיחוד האירופי לחבילות מימון לאוקראינה",
+     "summary": "קנדה התחייבה להקצות 500 מיליון אירו להלוואת הסיוע לאוקראינה, והנציבות האירופית גיבשה מנגנון להעברת 45 מיליארד אירו נוספים עד סוף שנת 2027.",
+     "axis": "סיוע בינלאומי",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "occurred_at": "2026-10-31T00:16:53+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T13:33:54+00:00",
-     "last_update_at": "2026-10-30T14:39:00+00:00",
-     "what_is_not_verified": "המיקום המדויק שבו בוצע המארב בתוך שטח הפדרציה הרוסית וסוג המסמכים שנתפסו",
+     "first_reported_at": "2026-10-31T00:16:53+00:00",
+     "last_update_at": "2026-10-31T05:30:00+00:00",
+     "what_is_not_verified": "עמידת אוקראינה בכלל התנאים הרגולטוריים של האיחוד האירופי לשחרור מלוא הכספים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4179800-ukraines-sof-ambush-enemy-in-russia-and-seize-documents.html",
-       "published_at": "2026-10-30T14:39:00+00:00"
+       "url": "https://www.ukrinform.net/rubric-polytics/4179945-canada-to-provide-500-million-to-support-ukraine.html",
+       "published_at": "2026-10-31T05:30:00+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49115",
-       "published_at": "2026-10-30T13:33:54+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-10301719-05",
-     "title": "הדיפת מתקפה רוסית באזור חרקוב ועליית מניין הקורבנות מאיזיום",
-     "summary": "מתקפה של כוחות רוסיים נהדפה במחוז חרקוב, במקביל להכרזה על יום אבל בעיר איזיום עקב עליית מניין ההרוגים מתקיפה אווירית רוסית לחמישה.",
-     "axis": "חזית מחוז חרקוב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-30T14:59:00+00:00",
-     "last_update_at": "2026-10-30T16:59:01+00:00",
-     "what_is_not_verified": "המיקום המדויק שבו נהדפה המתקפה בתוך מחוז חרקוב",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49122",
-       "published_at": "2026-10-30T16:59:01+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060588/",
+       "published_at": "2026-10-31T05:22:00+00:00"
       },
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4179811-october-31-declared-day-of-mourning-in-izium-as-death-toll-from-russian-airstrike-rises-to-five.html",
-       "published_at": "2026-10-30T14:59:00+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://www.ukrinform.net/rubric-polytics/4179939-eu-and-canada-reaffirm-continued-support-for-ukraine.html",
+       "published_at": "2026-10-31T04:45:00+00:00"
+      },
       {
-       "name": "איזיום, אוקראינה",
-       "lat": 49.1913,
-       "lon": 37.2784
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-10301719-06",
-     "title": "הודעת נשיא אוקראינה על הרחבת יחידות התקיפה לטווח ארוך",
-     "summary": "וולודימיר זלנסקי הצהיר כי אוקראינה מגדילה את יחידות התקיפה בעומק שטח רוסיה, ומפתח יכולות לפגוע ביעדים מרוחקים עד חצי האי ימאל ומערב סיביר.",
-     "axis": "המערכה האסטרטגית בעומק",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T16:56:00+00:00",
-     "last_update_at": "2026-10-30T16:56:00+00:00",
-     "what_is_not_verified": "לוחות הזמנים לייצור הנשק וסוגי הטילים והמל\"טים החדשים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_a542e674a4174c49",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060539/",
-       "published_at": "2026-10-30T16:56:00+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/canada-pledges-500-million-euros-toward-ukraine-support-loan-amid-2027-budget-shortfall/",
+       "published_at": "2026-10-31T00:16:53+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-10301719-07",
-     "title": "קרמלין שולל הפסקת אש לקראת שיחות אבו דאבי",
-     "summary": "דובר הקרמלין הודיע כי מוסקבה מתנגדת להפסקת אש שתשמש כהפוגה עבור קייב וכי הלחימה לא תיעצר לקראת השיחות המשולשות המתוכננות.",
-     "axis": "הזירה המדינית והדיפלומטית",
+     "id": "UKRAINE-10310612-09",
+     "title": "עימות דיפלומטי בפסגת שרי החוץ של ה-G20 באטלנטה",
+     "summary": "התמונה הקבוצתית המסורתית של שרי החוץ בוטלה עקב סירוב שרים אירופים להצטלם עם שר החוץ הרוסי לברוב, שלווה בהאשמות חריפות מצד האיחוד האירופי על שקרים בנושא המלחמה.",
+     "axis": "מגעים מדיניים ודיפלומטיה",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-10-30T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-10-30T14:21:12+00:00",
-     "last_update_at": "2026-10-30T15:02:38+00:00",
-     "what_is_not_verified": "המועד הסופי והרכב המשתתפים המדויק של שיחות אבו דאבי",
+     "first_reported_at": "2026-10-30T18:44:05+00:00",
+     "last_update_at": "2026-10-31T04:26:03+00:00",
+     "what_is_not_verified": "הסכמה או היתכנות לשיחות ישירות בין נשיאי רוסיה ואוקראינה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tass",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2211035",
-       "published_at": "2026-10-30T15:02:38+00:00"
+       "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
+       "published_at": "2026-10-31T04:26:03+00:00"
       },
       {
        "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2211005",
-       "published_at": "2026-10-30T14:21:12+00:00"
+       "url": "https://tass.com/politics/2211313",
+       "published_at": "2026-10-31T03:25:16+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/10/30/g20-foreign-ministers-group-photo-canceled-after-several-refuse-to-pose-with-russian-foreign-minister-sergey-lavrov",
+       "published_at": "2026-10-30T18:44:05+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי, איחוד האמירויות",
-       "lat": 24.4538,
-       "lon": 54.3774
+       "name": "אטלנטה, ארצות הברית",
+       "lat": 33.7545,
+       "lon": -84.3898
       }
      ]
     },
     {
-     "id": "UKRAINE-10301719-08",
-     "title": "סירוב חברות אמריקאיות לקלוט סולר רוסי מעסקת טראמפ-פוטין",
-     "summary": "מכליות הנושאות מאות אלפי טונות של סולר רוסי שטו לכיוון ארצות הברית במסגרת הסכם בין הנשיאים, אך חברות אמריקאיות נמנעות מרכישתו עקב חשש מהליכים משפטיים וחקירות.",
-     "axis": "מדיניות סנקציות ואנרגיה",
-     "claim_type": "incident",
+     "id": "UKRAINE-10310612-10",
+     "title": "סגירת מערכת העיתון נובאיה גזטה במוסקבה",
+     "summary": "עיתון האופוזיציה הרוסי הוותיק נובאיה גזטה הודיע על סגירת פעילותו לאחר פינויו ממשרדיו במוסקבה וחסימת פלטפורמות התרומות שלו.",
+     "axis": "זירה פנימית ברוסיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-29T19:04:17+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-29T19:04:17+00:00",
-     "last_update_at": "2026-10-30T16:04:48+00:00",
-     "what_is_not_verified": "האם המכליות יפרקו את המטען בארצות הברית או יופנו לברזיל",
+     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-30T18:41:49+00:00",
+     "last_update_at": "2026-10-30T19:10:31+00:00",
+     "what_is_not_verified": "האם העיתון יצליח לחדש פעילות מפלטפורמות חלופיות בעתיד.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49119",
-       "published_at": "2026-10-30T16:04:48+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_421d094b24ec1088",
+       "url": "https://meduza.io/en/feature/2026/10/30/can-russia-s-independent-newspaper-novaya-gazeta-rise-from-the-ashes-a-third-time-editor-sergey-sokolov-discusses-what-comes-next",
+       "published_at": "2026-10-30T19:10:31+00:00"
       },
       {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
-       "published_at": "2026-10-29T19:04:17+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_421d094b24ec1088",
+       "url": "https://meduza.io/en/feature/2026/10/30/as-novaya-gazeta-one-of-russia-s-best-known-independent-newspapers-is-forced-to-close-after-33-years-three-former-staffers-look-back-on-its-legacy",
+       "published_at": "2026-10-30T18:41:49+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
+      }
+     ]
     }
    ],
    "not_verified": [
-    "טענת רוסאטום בדבר פגיעה מכוונת ומחמירה בעובדי תחנת הכוח הגרעינית בזפוריז'יה",
-    "חלוקת המספרים המדויקת של האזרחים שהתפנו מאולשקי לרוסיה לעומת אלה שהתפנו לשטח שבשליטת אוקראינה",
-    "הטענה הרוסית שארבעה מתקני זיקוק שונים הותקפו בגל התקיפות האחרון של אוקראינה",
-    "הדיווחים על פריסת מבצעי גיוס כפוי ברחובות בעשרות מחוזות ברוסיה"
+    "נתוני האבדות היומיים שמסרו צבאות אוקראינה ורוסיה אינם ניתנים לאימות עצמאי",
+    "מספרם המדויק של האזרחים שפונו מאולשקי והיעד הסופי שבחרו",
+    "טענות יצרנית הנשק האוקראינית על פיתוח מעקף טכנולוגי מלא להגבלות סטארלינק",
+    "הטענות בדבר כוונת רוסיה להביא לקריסה כוללת של תשתיות החום והמים בחורף בערים מרכזיות"
    ],
    "map": {
     "confidence": "high",
@@ -1289,32 +1383,33 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "להרחיב את יחידות התקיפה לטווח ארוך כדי לפגוע במטרות צבאיות ותשתיות בעומק רוסיה כמענה לפגיעה בעריה",
-      "לדאוג לאספקה שוטפת של טילי הגנה אווירית עבור מערכות פטריוט",
-      "להבטיח את ביטחון השיט בים השחור במסגרת שיחות מול טורקיה"
+      "הצטיידות ב-500 טילי פטריוט להגנה על שמי המדינה והתשתיות בחורף",
+      "גיוס סיוע תקציבי וביטחוני רב-שנתי מהאיחוד האירופי וממדינות המערב",
+      "המשך פגיעה במתקני אנרגיה המזינים את הצבא הרוסי"
      ],
      "inferred": [
-      "הפעלת לחץ כלכלי וצבאי על תעשיית הדלק הרוסית על אף הסתייגויות מצד ארצות הברית",
-      "הבטחת מעורבות בין-לאומית בהסדרי הפסקות אש ופינוי אזרחים משטחים כבושים"
+      "שחיקת מקורות ההכנסה והדלק של צבא רוסיה באמצעות כטב\"מים ארוכי טווח חרף לחץ בינלאומי",
+      "מזעור פגיעות לוגיסטית ופיתוח חלופות עצמאיות לתקשורת לוויינית בשדה הקרב"
      ],
      "forecast": [
-      "המשך הגדלת טווח הפגיעה של מל\"טים לעומק מזרח רוסיה כדי לפגוע בתשתיות אנרגיה נוספות",
-      "הגברת הלחץ הדיפלומטי על מדינות אירופה לקבלת מלאי מיידי של מיירטי הגנה אווירית"
+      "המשך תלות עמוקה במימון אירופי והאצת אספקת מיירטים לפני שיא החורף",
+      "מאמץ לשמר ערוצי פינוי הומניטריים מוגבלים באזורים נצורים תחת תיווך זר"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "התנגדות מוחלטת להפסקת אש שתאפשר מנוחה או היערכות מחדש לצבא אוקראינה",
-      "המשך הפעילות הקרבית ללא עצירה לקראת שיחות המשא ומתן באבו דאבי"
+      "פגיעה בנתיבי אספקת נשק מערבי ומטענים צבאיים בים וביבשה",
+      "השלמת המשימה ההומניטרית באולשקי והעברת תושבים למרחבים בטוחים",
+      "נכונות רטורית לקיום שיחות עם אוקראינה במוסקבה בלבד"
      ],
      "inferred": [
-      "החרבת צומתי תחבורה ותשתיות רכבת אוקראיניות כדי לפגוע בלוגיסטיקה ובתנועת כוחות ואזרחים",
-      "ניסיון לעקוף סנקציות אנרגיה באמצעות הסכמים ישירים עם הממשל האמריקאי הנכנס"
+      "הפעלת לחץ על אזרחי אוקראינה באמצעות השבתת מערכות החשמל והמים לקראת החורף",
+      "שבירת הבידוד המדיני הבינלאומי באמצעות חיכוך ישיר במפגשי ה-G20 ומגעים עם הממשל האמריקאי"
      ],
      "forecast": [
-      "המשך התקיפות האוויריות והבליסטיות על יעדי תשתית במרכז ומזרח אוקראינה",
-      "חידוש הלחץ הצבאי בגזרת חרסון לאחר תום מועד הפסקת האש ההומניטרית באולשקי"
+      "החרפת התקיפות על תחנות כוח ואנרגיה באוקראינה במקביל לקשיי שיווק הנפט מול סנקציות",
+      "המשך חסימת פעילותם של גופי תקשורת וחברה אזרחית בלתי תלויים מבית"
      ]
     }
    ],
@@ -1322,88 +1417,102 @@ window.DB.war_published = {
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_israelhayom",
      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21740945",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "accessed_at": "2026-10-31T06:12:28+00:00"
+    },
+    {
+     "source_id": "src_kyivind",
+     "url": "https://kyivindependent.com/canada-pledges-500-million-euros-toward-ukraine-support-loan-amid-2027-budget-shortfall/",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://meduza.io/en/feature/2026/10/30/as-novaya-gazeta-one-of-russia-s-best-known-independent-newspapers-is-forced-to-close-after-33-years-three-former-staffers-look-back-on-its-legacy",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060539/",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060588/",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/politics/2211005",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://tass.com/politics/2211313",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/132819",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49119",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://t.me/alexmehacarmel/49118",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4179811-october-31-declared-day-of-mourning-in-izium-as-death-toll-from-russian-airstrike-rises-to-five.html",
-     "accessed_at": "2026-10-30T17:19:07+00:00"
+     "url": "https://www.ukrinform.net/rubric-polytics/4179939-eu-and-canada-reaffirm-continued-support-for-ukraine.html",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
+    },
+    {
+     "source_id": "src_un_news",
+     "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
+     "accessed_at": "2026-10-31T06:12:28+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-30T00:42:53+00:00",
+  "previous_generated_at": "2026-10-30T17:19:07+00:00",
   "changes": {
-   "UKRAINE-10301719-01": {
+   "UKRAINE-10310612-01": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-02": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-03": {
+    "kind": "possible",
+    "prev": "הדיפת מתקפה רוסית באזור חרקוב ועליית מניין הקורבנות מאיזיום",
+    "score": 0.467
+   },
+   "UKRAINE-10310612-04": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-05": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "הפסקת אש הומניטרית ומבצע פינוי באולשקי שבמחוז חרסון",
+    "prev": "פינוי אזרחים והפסקת אש הומניטרית בעיר אולשקי הכבושה",
     "score": 1.0
    },
-   "UKRAINE-10301719-02": {
-    "kind": "new"
-   },
-   "UKRAINE-10301719-03": {
-    "kind": "possible",
-    "prev": "תקיפות אוויריות וטילים רוסיים על דניפרו, קייב וערים נוספות",
-    "score": 0.633
-   },
-   "UKRAINE-10301719-04": {
-    "kind": "new"
-   },
-   "UKRAINE-10301719-05": {
-    "kind": "new"
-   },
-   "UKRAINE-10301719-06": {
-    "kind": "new"
-   },
-   "UKRAINE-10301719-07": {
-    "kind": "possible",
-    "prev": "מגעים דיפלומטיים ותנאים לפסגה ושיחות שלום",
-    "score": 0.633
-   },
-   "UKRAINE-10301719-08": {
+   "UKRAINE-10310612-06": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "דיווח על מכליות דלק רוסי העושות דרכן לארצות הברית",
+    "prev": "מתקפת כטב\"מים אוקראינית על בית זיקוק בנובוקויבישבסק ברוסיה",
     "score": 1.0
+   },
+   "UKRAINE-10310612-07": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-08": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-09": {
+    "kind": "new"
+   },
+   "UKRAINE-10310612-10": {
+    "kind": "new"
    }
   }
  },
