@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:17:15+00:00",
-  "fetched_at": "2026-10-31T08:17:15+00:00"
+  "checked_at": "2026-10-31T08:55:14+00:00",
+  "fetched_at": "2026-10-31T08:55:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:17:28+00:00",
-  "fetched_at": "2026-10-31T08:17:28+00:00"
+  "checked_at": "2026-10-31T08:55:22+00:00",
+  "fetched_at": "2026-10-31T08:55:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:17:29+00:00",
-  "fetched_at": "2026-10-31T08:17:29+00:00"
+  "checked_at": "2026-10-31T08:55:23+00:00",
+  "fetched_at": "2026-10-31T08:55:23+00:00"
  },
- "generated_at": "2026-10-31T08:17:29+00:00",
+ "generated_at": "2026-10-31T08:55:23+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "ביטולים במיליונים, השקעות במיליארדים: מה עובר על הכנרת?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001560893",
-     "date": "2026-10-31T06:00:00+00:00"
+     "title": "כילד מכר סוכריות מהכותל. היום הוא מוביל גוף ממשלתי שחולש על מיליארדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001560910",
+     "date": "2026-10-31T08:30:00+00:00"
     },
     {
-     "title": "טראמפ על המו\"מ עם איראן: \"הם רוצים לדבר - ולנו יש זמן\"",
+     "title": "התקדמות במגעים להסכם בין ארה\"ב לאיראן? המשלחות בדרך לדוחא",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561450",
-     "date": "2026-10-31T07:33:00+00:00"
+     "date": "2026-10-31T08:21:00+00:00"
     }
    ],
    "market": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:17:17+00:00",
-  "fetched_at": "2026-10-31T08:17:17+00:00"
+  "checked_at": "2026-10-31T08:55:15+00:00",
+  "fetched_at": "2026-10-31T08:55:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:17:17+00:00",
-  "fetched_at": "2026-10-31T08:17:17+00:00"
+  "checked_at": "2026-10-31T08:55:15+00:00",
+  "fetched_at": "2026-10-31T08:55:15+00:00"
  },
  "tv": {
   "data": [
@@ -2925,8 +2925,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T08:17:19+00:00",
-  "fetched_at": "2026-10-31T08:17:19+00:00"
+  "checked_at": "2026-10-31T08:55:16+00:00",
+  "fetched_at": "2026-10-31T08:55:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3086,47 +3086,46 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:17:19+00:00",
-  "fetched_at": "2026-10-31T08:17:19+00:00"
+  "checked_at": "2026-10-31T08:55:16+00:00",
+  "fetched_at": "2026-10-31T08:55:16+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "date": "2026-10-28T17:00:58+00:00",
+     "launch": true,
+     "title_en": "Gemini 4 Carbon: Our next frontier model",
+     "title_he": "Gemini 4 Carbon: דגם החזית הבא שלנו",
+     "translated_by": "google"
+    },
     {
      "source": "גיקטיים",
      "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
      "date": "2026-10-29T12:12:40+00:00",
      "launch": false,
      "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-     "date": "2026-10-30T09:30:00+00:00",
-     "launch": false,
-     "title_en": "Making it easier for websites to express AI training preferences",
-     "title_he": "הקלה על אתרים להביע העדפות אימון בינה מלאכותית",
-     "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 9,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 306,
+     "likes": 307,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1120,
+     "likes": 1121,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3188,8 +3187,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:17:27+00:00",
-  "fetched_at": "2026-10-31T08:17:27+00:00"
+  "checked_at": "2026-10-31T08:55:21+00:00",
+  "fetched_at": "2026-10-31T08:55:21+00:00"
  },
  "abroad": {
   "data": {
@@ -3540,8 +3539,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T08:17:22+00:00",
-  "fetched_at": "2026-10-31T08:17:22+00:00"
+  "checked_at": "2026-10-31T08:55:19+00:00",
+  "fetched_at": "2026-10-31T08:55:19+00:00"
  },
  "idf": {
   "data": [
@@ -3571,8 +3570,9 @@ window.DB.generated = {
     "date": "2026-10-28T14:28:22+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-31T08:17:23+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-31T08:55:19+00:00",
   "fetched_at": "2026-10-31T08:17:23+00:00"
  },
  "feed_health": {
@@ -3580,44 +3580,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-10-31T07:33:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "newest": "2026-10-31T08:30:00+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-30T20:02:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-31T07:27:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-30T06:34:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-31T08:45:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "newest": "2026-10-31T09:30:00+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-31T08:07:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-31T08:12:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "newest": "2026-10-31T08:29:00+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3629,31 +3629,31 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-28T17:00:58+00:00",
-    "seen_at": "2026-10-31T02:17:39+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-31T07:00:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-31T08:00:00+00:00",
-    "seen_at": "2026-10-31T08:17:29+00:00",
+    "seen_at": "2026-10-31T08:55:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3663,7 +3663,7 @@ window.DB.generated = {
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T08:17:29+00:00",
+  "checked_at": "2026-10-31T08:55:23+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3819,8 +3819,9 @@ window.DB.generated = {
     "date": "2026-10-15T11:46:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-31T08:17:23+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-31T08:55:19+00:00",
   "fetched_at": "2026-10-31T08:17:23+00:00"
  }
 };
