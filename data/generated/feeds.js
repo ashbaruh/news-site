@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:34:11+00:00",
-  "fetched_at": "2026-10-31T19:34:11+00:00"
+  "checked_at": "2026-10-31T20:17:18+00:00",
+  "fetched_at": "2026-10-31T20:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:34:23+00:00",
-  "fetched_at": "2026-10-31T19:34:23+00:00"
+  "checked_at": "2026-10-31T20:17:28+00:00",
+  "fetched_at": "2026-10-31T20:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:34:25+00:00",
-  "fetched_at": "2026-10-31T19:34:25+00:00"
+  "checked_at": "2026-10-31T20:17:28+00:00",
+  "fetched_at": "2026-10-31T20:17:28+00:00"
  },
- "generated_at": "2026-10-31T19:34:25+00:00",
+ "generated_at": "2026-10-31T20:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:34:11+00:00",
-  "fetched_at": "2026-10-31T19:34:11+00:00"
+  "checked_at": "2026-10-31T20:17:19+00:00",
+  "fetched_at": "2026-10-31T20:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -758,7 +758,7 @@ window.DB.generated = {
     "home": "מכבי נתניה",
     "away": "הפועל ירושלים",
     "round": "מחזור 9",
-    "score": "",
+    "score": "1-1",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:34:12+00:00",
-  "fetched_at": "2026-10-31T19:34:12+00:00"
+  "checked_at": "2026-10-31T20:17:20+00:00",
+  "fetched_at": "2026-10-31T20:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2967,8 +2967,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:34:14+00:00",
-  "fetched_at": "2026-10-31T19:34:14+00:00"
+  "checked_at": "2026-10-31T20:17:21+00:00",
+  "fetched_at": "2026-10-31T20:17:21+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3080,6 +3080,15 @@ window.DB.generated = {
      "round": "מחזור 9",
      "score": "1-1",
      "link": "https://www.one.co.il/Soccer/League/1"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "19:30",
+     "home": "מכבי נתניה",
+     "away": "הפועל ירושלים",
+     "round": "מחזור 9",
+     "score": "1-1",
+     "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
    "results_available": true,
@@ -3101,8 +3110,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:34:14+00:00",
-  "fetched_at": "2026-10-31T19:34:14+00:00"
+  "checked_at": "2026-10-31T20:17:21+00:00",
+  "fetched_at": "2026-10-31T20:17:21+00:00"
  },
  "ai": {
   "data": {
@@ -3126,7 +3135,8 @@ window.DB.generated = {
    ],
    "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3140,21 +3150,21 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1144,
+     "likes": 1146,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 149,
+     "likes": 150,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 100,
+     "likes": 101,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -3189,7 +3199,7 @@ window.DB.generated = {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 848,
+     "likes": 849,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -3202,8 +3212,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:34:22+00:00",
-  "fetched_at": "2026-10-31T19:34:22+00:00"
+  "checked_at": "2026-10-31T20:17:27+00:00",
+  "fetched_at": "2026-10-31T20:17:27+00:00"
  },
  "abroad": {
   "data": {
@@ -3557,8 +3567,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-10-31T19:34:18+00:00",
-  "fetched_at": "2026-10-31T19:34:18+00:00"
+  "checked_at": "2026-10-31T20:17:24+00:00",
+  "fetched_at": "2026-10-31T20:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3588,8 +3598,9 @@ window.DB.generated = {
     "date": "2026-10-29T17:14:50+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-10-31T19:34:18+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-10-31T20:17:24+00:00",
   "fetched_at": "2026-10-31T19:34:18+00:00"
  },
  "feed_health": {
@@ -3598,43 +3609,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-10-31T19:18:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-10-31T13:58:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-10-31T19:00:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-10-31T20:10:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-10-31T20:24:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "newest": "2026-10-31T21:00:00+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-10-31T20:30:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-10-31T19:10:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "newest": "2026-10-31T20:00:00+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3652,35 +3663,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-10-31T17:19:39+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-10-28T15:30:15+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-10-31T14:00:00+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-10-25T10:03:37+00:00",
-    "seen_at": "2026-10-31T19:34:25+00:00",
+    "seen_at": "2026-10-31T20:17:28+00:00",
     "stuck": true
    }
   },
-  "checked_at": "2026-10-31T19:34:25+00:00",
+  "checked_at": "2026-10-31T20:17:28+00:00",
   "error": "פיד תקוע: וואלה חדשות בריאות"
  },
  "health_news": {
@@ -3837,7 +3848,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-10-31T19:34:19+00:00",
-  "fetched_at": "2026-10-31T19:34:19+00:00"
+  "checked_at": "2026-10-31T20:17:24+00:00",
+  "fetched_at": "2026-10-31T20:17:24+00:00"
  }
 };
