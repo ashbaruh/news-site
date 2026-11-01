@@ -1,0 +1,552 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7a188bb4e19e",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 4,
+   "initial": 2,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-01T00:40:25+00:00",
+  "window": {
+   "from": "2026-10-31T00:40:25+00:00",
+   "to": "2026-11-01T00:40:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611010040"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במקביל בעורף ובחזית, כאשר רוסיה מפעילה מטחי כטב\"מים וטילים לעבר תשתיות אנרגיה וערים, ואוקראינה פוגעת במתקנים צבאיים בעומק השטח הרוסי. במישור ההומניטרי הושגה הפסקת אש מקומית חריגה שאפשרה חילוץ אזרחים מהעיר אולשקי הכבושה. במקביל מתנהלים מגעים דיפלומטיים סביב אפשרות לשיחות משולשות, לצד חיכוך בינלאומי סביב שיתוף רוסיה בפורומים בינלאומיים.",
+  "fronts": [
+   {
+    "name": "חזית העורף ותשתיות האנרגיה באוקראינה",
+    "status": "פעילה - מתקפות כטב\"מים וטילים רוסיות על מתקני כוח ואזורים עירוניים"
+   },
+   {
+    "name": "חזית הדרום (מחוז חרסון / אולשקי)",
+    "status": "רגיעה זמנית מקומית לצורך משימת פינוי הומניטרית"
+   },
+   {
+    "name": "חזית המזרח (דונבאס - דונייצק ולוגנסק)",
+    "status": "לחימה פעילה, תקיפות אוויריות והיתקלויות כטב\"מים"
+   },
+   {
+    "name": "עומק שטח רוסיה (מחוז רוסטוב)",
+    "status": "תקיפות אוקראיניות ממוקדות נגד מפעלי תעשייה ביטחונית ודלק"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11010040-01",
+    "title": "השלמת פינוי אזרחים מהעיר אולשקי הכבושה בחסות הפסקת אש זמנית",
+    "summary": "הסתיימה בהצלחה משימה הומניטרית לפינוי תושבים מהעיר אולשקי שבאזור חרסון הכבוש. המפונים הועברו לשטח בשליטת אוקראינה, בחלקם דרך בלארוס, לאחר הסכם הפסקת אש מקומי שתווך בסיוע הגברת הראשונה של ארצות הברית.",
+    "axis": "חזית הדרום / חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T15:35:03+00:00",
+    "last_update_at": "2026-10-31T21:10:21+00:00",
+    "what_is_not_verified": "מספרם המדויק של המפונים ומשך הזמן המדויק שבו תעמוד הפסקת האש המקומית בתוקף.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://t.me/alexmehacarmel/49171",
+      "published_at": "2026-10-31T21:10:21+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://www.ukrinform.net/rubric-ato/4180127-budanov-humanitarian-mission-in-oleshky-ends-successfully-all-sides-acted-professionally.html",
+      "published_at": "2026-10-31T20:55:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_e59bd117dc20f796",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T19:22:26+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine",
+      "published_at": "2026-10-31T19:17:22+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T17:53:35+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21745949",
+      "published_at": "2026-10-31T17:03:39+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_580b5a3da2165815",
+      "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T16:55:47+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_2cbbf8c5e1d3793f",
+      "url": "https://www.ynet.co.il/news/article/syqlf00mtgl",
+      "published_at": "2026-10-31T15:35:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11010040-02",
+    "title": "מתקפת כטב\"מים וטילים רוסית נרחבת ופגיעות בקייב ובאנרגיה",
+    "summary": "כוחות רוסיים שיגרו 168 כטב\"מים וטילי שיוט לעבר שטח אוקראינה. ההגנה האווירית האוקראינית יירטה 122 כטב\"מים ושני טילים; שברי כטב\"ם פגעו במרכז קניות במחוז אובולון בקייב ופצעו נערה בת 12, ונפילה אותרה גם במחוז דרניצקי. במקביל נמסר על פגיעה בתחנות כוח תרמיות בקייב, דניפרופטרובסק וחרקוב.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T13:20:23+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T13:20:23+00:00",
+    "last_update_at": "2026-10-31T21:24:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לתחנות הכוח ומספר הכטב\"מים הנוספים שנשארו באוויר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_73f728c3122c16ba",
+      "url": "https://www.ukrinform.net/rubric-ato/4180129-russian-drone-crashes-in-kyivs-darnytskyi-district.html",
+      "published_at": "2026-10-31T21:24:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_73f728c3122c16ba",
+      "url": "https://t.me/alexmehacarmel/49167",
+      "published_at": "2026-10-31T19:51:01+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_73f728c3122c16ba",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060671/",
+      "published_at": "2026-10-31T18:40:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_2b59b28d38d69a70",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060664/",
+      "published_at": "2026-10-31T17:43:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_73f728c3122c16ba",
+      "url": "https://tass.com/economy/2211361",
+      "published_at": "2026-10-31T13:20:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11010040-03",
+    "title": "אישור אמריקני לעסקת מכירת 500 טילי פטריוט לאוקראינה",
+    "summary": "מחלקת המדינה של ארצות הברית אישרה עסקת מכירה של 500 טילי הגנה אווירית מסוג פטריוט עבור אוקראינה בשווי מוערך של 2.1 מיליארד דולר. נשיא אוקראינה בירך על המהלך אך התריע כי האספקה בפועל עשויה להימשך שנים בעוד הצורך הוא מיידי.",
+    "axis": "סיוע צבאי בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T23:08:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-30T23:08:18+00:00",
+    "last_update_at": "2026-10-31T12:21:25+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק לתחילת מסירת הטילים לידי צבא אוקראינה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_8d16c2a3d536d5d1",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T12:21:25+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_8d16c2a3d536d5d1",
+      "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+      "published_at": "2026-10-31T02:18:17+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_8e27003afc3987e7",
+      "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+      "published_at": "2026-10-30T23:08:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11010040-04",
+    "title": "תקיפה אוקראינית על מפעל דלק רקטי במחוז רוסטוב ברוסיה",
+    "summary": "הצבא האוקראיני הודיע כי פגע במפעל כימי בעיר קמנסק-שחטינסקי שבמחוז רוסטוב ברוסיה, המייצר דלק מוצק למערכות שיגור רקטות מרובות קנים של הצבא הרוסי מסוג אורגאן, סמרץ' וטורנדו-אס.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T15:11:07+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T15:11:07+00:00",
+    "last_update_at": "2026-10-31T15:11:07+00:00",
+    "what_is_not_verified": "היקף הנזק שנגרם בפועל למתקני הייצור במפעל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-hits-plant-producing-fuel-for-russian-multiple-launch-rocket-systems-in-rostov-oblast-military-says/",
+      "published_at": "2026-10-31T15:11:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קמנסק-שחטינסקי, רוסיה",
+      "lat": 48.3211,
+      "lon": 40.2651
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11010040-05",
+    "title": "תקיפות והיתקלויות טקטיות בחזית המזרח",
+    "summary": "תקיפה אווירית רוסית החריבה את בניין מועצת העיר קרמטורסק. במקביל דווח כי כטב\"ם אוקראיני פגע במסוק רוסי מדגם מי-8 במחוז לוגנסק, ואירוע נוסף שבו כטב\"ם אוקראיני ניסה לפגוע ברכב קרבי בלתי מאויש רוסי ללא הצלחה.",
+    "axis": "חזית המזרח / דונבאס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T12:02:16+00:00",
+    "last_update_at": "2026-10-31T23:33:09+00:00",
+    "what_is_not_verified": "רמת הפגיעה במסוק הרוסי בלוגנסק ופרטי המיקום המדויק של ניסיון תקיפת הרכב הבלתי מאויש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49179",
+      "published_at": "2026-10-31T23:33:09+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-airstrike-destroys-kramatorsk-city-council-building-that-survived-2014-occupation/",
+      "published_at": "2026-10-31T23:28:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49149",
+      "published_at": "2026-10-31T12:02:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11010040-06",
+    "title": "הכחשת השהיית התקיפות על בתי זיקוק רוסיים וחתימת מזכר מול נאט\"ו",
+    "summary": "גורמים אוקראיניים הבהירו כי המבצעים לפגיעה בבתי זיקוק לנפט ברוסיה נמשכים ונדחו טענות על הסכמה להפוגה. במקביל חתם משרד ההגנה האוקראיני על מזכר הבנות מול מאיץ החדשנות של נאט\"ו לפיתוח ואימוץ טכנולוגיות צבאיות.",
+    "axis": "מדיניות צבאית וסיוע",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T16:04:59+00:00",
+    "last_update_at": "2026-10-31T22:40:00+00:00",
+    "what_is_not_verified": "זהות המקורות שטענו בפני כלי תקשורת זרים על עצירת התקיפות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5a03e22de1740e24",
+      "url": "https://www.ukrinform.net/rubric-polytics/4179942-ukraine-and-nato-to-deepen-cooperation-on-innovative-technologies.html",
+      "published_at": "2026-10-31T22:40:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5a03e22de1740e24",
+      "url": "https://kyivindependent.com/ukraine-never-agreed-to-pause-strikes-on-russian-refineries-sources-confirm/",
+      "published_at": "2026-10-31T16:04:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11010040-07",
+    "title": "מגעים דיפלומטיים סביב שיחות משולשות ופסגת ה-G20",
+    "summary": "נשיא אוקראינה הציג אפשרות לקיום שיחות ברמה טכנית בין אוקראינה, ארצות הברית ורוסיה באבו דאבי בתחילת נובמבר. במקביל, שר החוץ האמריקני רוביו הגן על השיח מול מוסקבה אך ציין כי לא ידוע אם הסכם שלום אפשרי, בעוד גורמים אירופיים מתחו ביקורת על השתתפות רוסיה בפסגות בינלאומיות.",
+    "axis": "משא ומתן ומגעים דיפלומטיים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T04:26:03+00:00",
+    "last_update_at": "2026-10-31T21:55:00+00:00",
+    "what_is_not_verified": "האם יאושר המועד והמיקום הסופיים לשיחות באבו דאבי והאם נשיא אוקראינה יוזמן לפסגה במיאמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5b3b8af5a122b522",
+      "url": "https://www.ukrinform.net/rubric-polytics/4180138-zelensky-outlines-possible-dates-for-trilateral-meeting-between-ukraine-us-russia.html",
+      "published_at": "2026-10-31T21:55:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_5b3b8af5a122b522",
+      "url": "https://www.ukrinform.net/rubric-polytics/4180125-putins-return-to-g20-summit-risks-normalizing-russias-war-crimes-in-ukraine-kallas.html",
+      "published_at": "2026-10-31T20:28:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5b3b8af5a122b522",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060672/",
+      "published_at": "2026-10-31T18:48:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_89e58d39d277d096",
+      "url": "https://tass.com/world/2211405",
+      "published_at": "2026-10-31T18:17:22+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5b3b8af5a122b522",
+      "url": "https://kyivindependent.com/i-dont-know-if-negotiated-peace-is-achievable-rubio-says-as-uncertainty-hangs-over-russia-ukraine-talks/",
+      "published_at": "2026-10-31T18:06:08+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_eb3bac3530705e91",
+      "url": "https://tass.com/world/2211397",
+      "published_at": "2026-10-31T17:53:17+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c9121c3657079f2b",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060666/",
+      "published_at": "2026-10-31T17:34:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f25fb5ee2707f794",
+      "url": "https://tass.com/world/2211391",
+      "published_at": "2026-10-31T16:14:29+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_f711014086ebbe6f",
+      "url": "https://tass.com/politics/2211337",
+      "published_at": "2026-10-31T09:22:11+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_5b3b8af5a122b522",
+      "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
+      "published_at": "2026-10-31T04:26:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אטלנטה, ארצות הברית",
+      "lat": 33.7545,
+      "lon": -84.3898
+     },
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11010040-08",
+    "title": "פסיקת בית משפט באוקראינה לפיצוי מפעל דלתות שנפגע בכריוקיבקה",
+    "summary": "בית המשפט הכלכלי במחוז צ'רניהיב חייב את רוסיה לשלם פיצויים בסך של כ-3.54 מיליון דולר לחברה מקומית, בעקבות הרס מבני ייצור במפעל דלתות בעיר כריוקיבקה כתוצאה ממתקפת כטב\"מים רוסית בנובמבר 2025.",
+    "axis": "משפטי ונזקי מלחמה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T19:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T19:00:00+00:00",
+    "last_update_at": "2026-10-31T19:00:00+00:00",
+    "what_is_not_verified": "מנגנון האכיפה או ההיתכנות המעשית לגביית הפיצויים מממשלת רוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_25218177b6b2cf74",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060673/",
+      "published_at": "2026-10-31T19:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כריוקיבקה, אוקראינה",
+      "lat": 51.7745,
+      "lon": 32.2513
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מועד ומיקום סופיים לקיום השיחות הטכניות המשולשות בין אוקראינה, ארה\"ב ורוסיה",
+   "ההזמנה הרשמית והגעתו של זלנסקי לפסגת ה-G20 במיאמי",
+   "היקף הנזק והנפגעים בתקיפות על תחנות הכוח בקייב, חרקוב ודניפרו",
+   "לוח הזמנים המעשי להגעת 500 טילי הפטריוט מארצות הברית לאוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1172,
+    "unit": "USD",
+    "change_pct": 0.38,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת סיוע צבאי של טילי פטריוט להגנה על שמי המדינה מפני תקיפות בליסטיות",
+     "המשך התקיפות הצבאיות על בתי זיקוק ומפעלים צבאיים ברוסיה",
+     "קידום שיחות משולשות עם ארה\"ב ורוסיה לסיום המלחמה"
+    ],
+    "inferred": [
+     "הפעלת לחץ על תשתיות הצבא והאנרגיה הרוסיות כדי להגדיל את עלות הלחימה עבור מוסקבה",
+     "הבטחת הגנה דחופה לתשתיות האנרגיה המקומיות לקראת החורף"
+    ],
+    "forecast": [
+     "המשך דרישה לזירוז אספקת מערכות הגנה אווירית מערביות",
+     "שמירה על מאמץ התקיפות בעומק רוסיה לצד בחינת ערוצי הידברות טכניים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "קיום שיחות ומגעים מול גורמים בינלאומיים ללא ויתור על עמדותיה",
+     "פגיעה במטרות תשתית אנרגיה ויעדים צבאיים באוקראינה"
+    ],
+    "inferred": [
+     "הגברת הלחץ על העורף האוקראיני באמצעות פגיעה מסיבית במערך החשמל לקראת החורף",
+     "שבירת הבידוד הבינלאומי באמצעות השתתפות במפגשי ה-G20 והפגנת לגיטימציה"
+    ],
+    "forecast": [
+     "המשך מטחי הכטב\"מים והטילים לעבר ערי אוקראינה ותשתיותיה",
+     "התנגדות לוויתורים טריטוריאליים או מהותיים במשא ומתן המדיני"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "תמיכה בהגנה האווירית של אוקראינה באמצעות אישור מכירת 500 טילי פטריוט",
+     "נכונות לשמש כמתווכת ולקיים ערוצי תקשורת פתוחים מול שני הצדדים לסיום המלחמה"
+    ],
+    "inferred": [
+     "חתירה להביא את הצדדים לשולחן המשא ומתן תוך הפחתת הסיכון להסלמה אזורית רחבה יותר"
+    ],
+    "forecast": [
+     "בחינת אפשרויות למפגשים דיפלומטיים עקיפים או ישירים לקראת סוף השנה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21745949",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/i-dont-know-if-negotiated-peace-is-achievable-rubio-says-as-uncertainty-hangs-over-russia-ukraine-talks/",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060673/",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2211337",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49149",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4180125-putins-return-to-g20-summit-risks-normalizing-russias-war-crimes-in-ukraine-kallas.html",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/syqlf00mtgl",
+    "accessed_at": "2026-11-01T00:40:25+00:00"
+   }
+  ]
+ }
+}
