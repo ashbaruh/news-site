@@ -742,6 +742,10 @@
 51.7108,
 -1.782
 ],
+"falun, sweden": [
+60.607,
+15.6323
+],
 "fanar, lebanon": [
 33.8788,
 35.575
@@ -1209,6 +1213,10 @@
 36.0842,
 44.6339
 ],
+"koziatyn, ukraine": [
+49.7196,
+28.8354
+],
 "kramatorsk, donetsk oblast, ukraine": [
 48.7389,
 37.5844
@@ -1233,6 +1241,10 @@
 "kryvyi rih, ukraine": [
 47.9103,
 33.3918
+],
+"kstovo, nizhny novgorod oblast, russia": [
+56.1496,
+44.198
 ],
 "kstovo, russia": [
 56.1496,
@@ -1665,6 +1677,10 @@
 "oleksandrivka, ukraine": [
 48.7074,
 36.9208
+],
+"oleshky, kherson oblast, ukraine": [
+46.6261,
+32.722
 ],
 "oleshky, ukraine": [
 46.6261,
@@ -2264,6 +2280,7 @@
 54.687,
 25.2829
 ],
+"vinnytsia oblast, ukraine": null,
 "vinnytsia, ukraine": [
 49.232,
 28.468
