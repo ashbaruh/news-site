@@ -1,0 +1,274 @@
+{
+ "status": "draft",
+ "received_sha256_12": "786030c45525",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 1,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-01T06:50:01+00:00",
+  "window": {
+   "from": "2026-10-31T06:50:01+00:00",
+   "to": "2026-11-01T06:50:01+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611010650"
+  },
+  "summary": "הלחימה בזירת תימן כוללת עימותים צבאיים בין הקואליציה בראשות סעודיה והממשלה המוכרת לבין המיליציה החות'ית, לצד תקיפות אוויריות ודיווחים על יירוטי כטב\"מים. במקביל, מתח בינלאומי גובר סביב פגיעת החות'ים בזכויות אדם ומעצר עובדי או\"ם, ובכלל זה מותו בשבי של עובד הארגון.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית והים האדום",
+    "status": "פעיל ומסלים"
+   },
+   {
+    "name": "החזית מול סעודיה",
+    "status": "פעיל עם תקיפות וירוטים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11010650-01",
+    "title": "תקיפות אוויריות על מתקן נפט באל-חודיידה",
+    "summary": "כוחות הקואליציה בראשות סעודיה ביצעו שתי תקיפות אוויריות על מתקן נפט באזור בַּגִ'יל במחוז אל-חודיידה, מה שהביא לפציעת שלושה אזרחים לפי החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T05:06:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T05:06:37+00:00",
+    "last_update_at": "2026-11-01T05:06:37+00:00",
+    "what_is_not_verified": "האם התקיפות אכן בוצעו על ידי הקואליציה בראשות סעודיה, והאם מספר הפצועים מדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_al_masirah_tv",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-civilians-injured-saudi-coalition-air-raids-hodeidah-houthis-say",
+      "published_at": "2026-11-01T05:06:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בג'יל, תימן",
+      "lat": 15.0756,
+      "lon": 43.1735
+     },
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11010650-02",
+    "title": "מותו של עובד האו\"ם במעצר החות'ים",
+    "summary": "מוחמד א-שאמי, עובד משרד הנציב העליון של האו\"ם לזכויות אדם שהוחזק במעצר שרירותי על ידי החות'ים מאז יוני 2024, מת בשבי, עובדה שנודעה למשפחתו באיחור.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T12:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T12:00:00+00:00",
+    "last_update_at": "2026-11-01T04:49:15+00:00",
+    "what_is_not_verified": "נסיבות המוות המדויקות והמועד המדויק שבו אירע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
+      "published_at": "2026-11-01T04:49:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/guterres-condemns-death-un-staff-member-houthi-custody",
+      "published_at": "2026-11-01T01:53:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.newarab.com/news/un-demands-probe-death-its-employee-houthi-custody",
+      "published_at": "2026-10-31T20:12:21+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.sabanew.net/viewstory/154941",
+      "published_at": "2026-10-31T20:09:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-demands-probe-death-staff-member-houthi-custody",
+      "published_at": "2026-10-31T19:44:22+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_un_statement",
+      "url": "https://www.sabanew.net/viewstory/154931",
+      "published_at": "2026-10-31T16:40:36+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_un_statement",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168716",
+      "published_at": "2026-10-31T12:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11010650-03",
+    "title": "ירוט רחפנים מעל אזורים בסעודיה והכחשת החות'ים",
+    "summary": "הקואליציה בראשות סעודיה דיווחה כי ייורטו רחפנים של החות'ים מעל אזורי מכה ומדינה, אך החות'ים הכחישו ביצוע תקיפות אלו.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-30T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T10:05:06+00:00",
+    "last_update_at": "2026-10-31T20:41:20+00:00",
+    "what_is_not_verified": "האם הרחפנים אכן שוגרו על ידי החות'ים ויורטו כנטען.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-weighs-joining-mecca-defence-pact-foreign-minister-says",
+      "published_at": "2026-10-31T20:41:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_saudi_led_coalition",
+      "url": "https://www.newarab.com/news/irans-khamenei-orders-unrestricted-response-threats",
+      "published_at": "2026-10-31T10:05:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     },
+     {
+      "name": "מדינה, סעודיה",
+      "lat": 24.4712,
+      "lon": 39.6111
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11010650-04",
+    "title": "פעילות צבאית ונתונים של הכוחות המזוינים בתימן",
+    "summary": "פורסמו נתונים מטעם הכוחות המזוינים על ביצוע אלפי פעולות איכון וחיסול של פעילי חודיידה והשמדת ציוד צבאי במסגרת מבצע 'פגר אלימן' (פג'ר אל-ימן).",
+    "axis": "תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T14:45:29+00:00",
+    "last_update_at": "2026-10-31T14:45:29+00:00",
+    "what_is_not_verified": "הנתונים המדויקים על מספר הפעולות והנפגעים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0c72890bc4d10432",
+      "url": "https://www.sabanew.net/viewstory/154928",
+      "published_at": "2026-10-31T14:45:29+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "אחריות החות'ים על שיגור הכטב\"מים לעבר מכה ומדינה",
+   "מספר הנפגעים המדויק בתקיפות באל-חודיידה",
+   "נסיבות מותו המדויקות של עובד האו\"ם מוחמד א-שאמי"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "הכחשת מעורבות בתקיפות מסוימות בתוך סעודיה"
+    ],
+    "inferred": [
+     "המשך לחץ צבאי ופגיעה בתשתיות סעודיות וימיות",
+     "דיכוי אופוזיציה פנימית ועצירת גורמים בינלאומיים המזוהים עם האו\"ם"
+    ],
+    "forecast": [
+     "המשך ההתכתשות מול הקואליציה בתימן ובאזורי הגבול",
+     "החמרת הבידוד הבינלאומי עקב פגיעה בעובדי סיוע"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על שטחי הממלכה ומתקניה מפני תקיפות החות'ים",
+     "השבת שלטון הממשלה המוכרת בתימן"
+    ],
+    "inferred": [
+     "בניית בריתות הגנה אזוריות מול האיומים מצד תימן ואיראן",
+     "תגובה צבאית באמצעות תקיפות אוויריות וירוט איומים"
+    ],
+    "forecast": [
+     "הגברת שיתופי הפעולה הבינלאומיים והאזורית להגנת תשתיות סעודיה",
+     "המשך פעילות צבאית נגד מעוזי החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
+    "accessed_at": "2026-11-01T06:50:01+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-weighs-joining-mecca-defence-pact-foreign-minister-says",
+    "accessed_at": "2026-11-01T06:50:01+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/irans-khamenei-orders-unrestricted-response-threats",
+    "accessed_at": "2026-11-01T06:50:01+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154928",
+    "accessed_at": "2026-11-01T06:50:01+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/10/1168716",
+    "accessed_at": "2026-11-01T06:50:01+00:00"
+   }
+  ]
+ }
+}

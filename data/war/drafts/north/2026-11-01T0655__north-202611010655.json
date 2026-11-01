@@ -1,0 +1,303 @@
+{
+ "status": "draft",
+ "received_sha256_12": "514dd0e4d4fa",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-01T06:55:10+00:00",
+  "window": {
+   "from": "2026-10-31T06:55:10+00:00",
+   "to": "2026-11-01T06:55:10+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611010655"
+  },
+  "summary": "הגזרה הצפונית של ישראל מתאפיינת בפעילות צבאית נמשכת של צה\"ל בדרום לבנון הכוללת הריסות ובניית צירי תנועה צבאיים, לצד לחץ מדיני מצד ממשלת לבנון לחידוש הסמכות הממלכתית. במקביל, סוריה מקיימת דיונים להצטרפות לברית ההגנה האזורית (הסכם מכה) ומתמודדת עם אתגרי ביטחון גבול מול ירדן.",
+  "fronts": [
+   {
+    "name": "לבנון וחיזבאללה",
+    "status": "פעילות צבאית ישראלית מתמשכת בדרום לבנון לצד מאמצי ממשלת לבנון לאכיפת סמכות המדינה."
+   },
+   {
+    "name": "סוריה",
+    "status": "בחינת השתלבות בריתות אזוריות (הסכם מכה) והתמודדות עם חיכוכי גבול מול ירדן."
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11010655-01",
+    "title": "פעילות צבאית והרס בדרום לבנון",
+    "summary": "כוחות צה\"ל מבצעים פיצוצים, תקיפות אוויריות ובניית צירי תחבורה חדשים המקשרים בין מוצבים צבאיים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T09:32:47+00:00",
+    "last_update_at": "2026-11-01T03:54:39+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק והשלכותיה המלאות של בניית הצירים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-builds-new-roads-linking-military-posts-in-southern-lebanon/4107704",
+      "published_at": "2026-11-01T03:54:39+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-shells-south-lebanon-towns-builds-roads-connecting-military",
+      "published_at": "2026-10-31T23:21:11+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://english.almanar.com.lb/article/145347/",
+      "published_at": "2026-10-31T19:24:16+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://t.me/abualiexpress/132873",
+      "published_at": "2026-10-31T12:45:42+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-fresh-airstrikes-machine-gun-fire-in-southern-lebanon/4107257",
+      "published_at": "2026-10-31T11:07:31+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_lebanese_news_agency",
+      "url": "https://t.me/abualiexpress/132862",
+      "published_at": "2026-10-31T09:32:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1785,
+      "lon": 35.4372
+     },
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     },
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11010655-02",
+    "title": "עמדת ממשלת לבנון וקריאה לריבונות",
+    "summary": "שר החוץ של לבנון קרא לנסיגה ישראלית מלאה, יישום החלטה 1701, וגיוס תמיכת מדינות המפרץ לחידוש הסמכות של המדינה ומניעת פעילות צבאית של חיזבאללה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T02:25:16+00:00",
+    "last_update_at": "2026-11-01T02:25:16+00:00",
+    "what_is_not_verified": "האם החלטות הממשלה יושמו במלואן בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_lebanese_national_news_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-foreign-minister-urges-gulf-states-help-restore-countrys",
+      "published_at": "2026-11-01T02:25:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנאמה, בחריין",
+      "lat": 26.2235,
+      "lon": 50.5822
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11010655-03",
+    "title": "דיונים על הצטרפות סוריה להסכם ההגנה של מכה",
+    "summary": "שר החוץ הסורי אישר שמתקיימים דיונים לבחינת האפשרות שסוריה תצטרף לברית ההגנה של מכה יחד עם סעודיה, טורקיה ופקיסטן.",
+    "axis": "סוריה-המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-10-31T10:48:07+00:00",
+    "last_update_at": "2026-10-31T20:41:20+00:00",
+    "what_is_not_verified": "תוצאות הדיונים בפועל ומועד ההצטרפות האפשרי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_asaad_al_shaibani",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-weighs-joining-mecca-defence-pact-foreign-minister-says",
+      "published_at": "2026-10-31T20:41:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_asaad_al_shaibani",
+      "url": "https://www.newarab.com/news/syria-mulls-joining-mecca-defence-pact-shaibani",
+      "published_at": "2026-10-31T15:48:15+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_asaad_al_shaibani",
+      "url": "https://www.newarab.com/news/mideast-leaders-call-calm-fears-mount-renewed-war",
+      "published_at": "2026-10-31T13:46:06+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_asaad_al_shaibani",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-says-discussions-underway-on-joining-mecca-pact/4107245",
+      "published_at": "2026-10-31T10:48:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנאמה, בחריין",
+      "lat": 26.2235,
+      "lon": 50.5822
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11010655-04",
+    "title": "תקרית גבול בין ירדן לסוריה",
+    "summary": "משמר הגבול הירדני עצם קבוצה חמושה שניסתה לחדור מסוריה לירדן, בהיתקלות שהביאה לנפגעים חמושים ולנסיגת חלקם חזרה לסוריה.",
+    "axis": "ירדן-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T07:34:23+00:00",
+    "last_update_at": "2026-10-31T20:07:18+00:00",
+    "what_is_not_verified": "זהותם המדויקת של החמושים והקשרם הארגוני לפי דיווחי סוכנות פטרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_petra",
+      "url": "https://www.newarab.com/news/jordan-stops-armed-group-attempting-enter-syria",
+      "published_at": "2026-10-31T20:07:18+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_petra",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/965686/jordan-stops-fighters-attempting-to-enter-from-syria-armed-forces-say/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965686",
+      "published_at": "2026-10-31T07:34:23+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "זהותם המדויקת של 14 החמושים שניסו לחדור ממרחב סוריה לירדן.",
+   "ההיתכנות והמועד הסופי להצטרפות סוריה להסכם ההגנה של מכה."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "ביסוס שליטה מבצעית בדרום לבנון דרך תשתיות קבע ודרכים צבאיות",
+     "מניעת התארגנויות עוינות בגבולות הצפון"
+    ],
+    "forecast": [
+     "המשך פעילות הנדסית ותקיפות נקודתיות בדרום לבנון כל עוד אין הסדר כולל"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "נסיגה ישראלית מלאה מהשטחים הכבושים בלבנון",
+     "יישום מלא של החלטה 1701 והחלת סמכות המדינה על כל הנשק והפעילות הצבאית"
+    ],
+    "inferred": [
+     "ניסיון להיעזר בגורמים אזוריים ובינלאומיים לשיקום ריבונות המדינה"
+    ],
+    "forecast": [
+     "המשך לחץ דיפלומטי לאכיפת הריבונות ולגיוס סיוע כלכלי ומדיני"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "חיזוק שיתוף הפעולה האזורי ובחינת הצטרפות להסכם ההגנה של מכה",
+     "עמידה איתנה על דרישת השבת ריבונות על רמת הגולן"
+    ],
+    "inferred": [
+     "רצון להשתלב במערכי הביטחון האזוריים של מדינות המפרץ וטורקיה לחיזוק הלגיטימציה של המשטר החדש"
+    ],
+    "forecast": [
+     "המשך מגעים להצטרפות לבריתות אזוריות ותיאום גבולות הדוק מול ירדן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/145347/",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-says-discussions-underway-on-joining-mecca-pact/4107245",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/965686/jordan-stops-fighters-attempting-to-enter-from-syria-armed-forces-say/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965686",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-weighs-joining-mecca-defence-pact-foreign-minister-says",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/jordan-stops-armed-group-attempting-enter-syria",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132862",
+    "accessed_at": "2026-11-01T06:55:10+00:00"
+   }
+  ]
+ }
+}
