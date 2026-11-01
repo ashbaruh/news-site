@@ -1,284 +1,280 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-01T12:00:00+02:00",
- "generated_at": "2026-11-01T09:40:13+00:00",
- "model": "gemini-3.7-flash",
+ "slot": "2026-11-01T18:00:00+02:00",
+ "generated_at": "2026-11-01T15:40:27+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11010940-01",
-     "title": "איראן הכריזה על גופי צבא ומודיעין בריטיים כארגוני טרור וגופים עוינים",
-     "summary": "משרד החוץ האיראני הודיע על סיווג סוכנות הביון הבריטית כקבוצה עוינת, ואת חילות הים והאוויר של בריטניה כארגוני טרור, כצעד תגמול.",
-     "axis": "איראן-המערב",
-     "claim_type": "statement",
+     "id": "IRAN-11011540-01",
+     "title": "הגשת מסמכי תלונה לארגון הימאות הבין-לאומי",
+     "summary": "איראן הודיעה כי העבירה לארגון הימאות הבין-לאומי מסמכים ותצלומים המעידים לטענתה על פגיעות ישראליות ואמריקניות בתשתיות ימיות.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T00:00:00+00:00",
+     "occurred_at": "2026-11-01T13:03:53+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T06:04:50+00:00",
-     "last_update_at": "2026-11-01T06:36:01+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132910",
-       "published_at": "2026-11-01T06:36:01+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86308838/Iran-designates-MI6-as-hostile-group-British-navy-and-air",
-       "published_at": "2026-11-01T06:31:55+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-designates-britains-royal-navy-raf-terrorist-groups-report-says",
-       "published_at": "2026-11-01T06:04:50+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11010940-02",
-     "title": "התנאים האיראניים לפתיחת מצר הורמוז מחדש",
-     "summary": "שר החוץ האיראני עבאס עראקצ'י הצהיר כי מצר הורמוז יוכל להיפתח תוך יומיים אם ארצות הברית תכיר בנתיב השיט המשותף לאיראן ועומאן ותסיר סנקציות.",
-     "axis": "איראן-ארה\"ב ומצר הורמוז",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-01T07:33:35+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-01T07:33:35+00:00",
-     "last_update_at": "2026-11-01T07:53:23+00:00",
-     "what_is_not_verified": "לא אומת אם התנאים התקבלו על ידי ארצות הברית",
+     "first_reported_at": "2026-11-01T13:03:53+00:00",
+     "last_update_at": "2026-11-01T13:03:53+00:00",
+     "what_is_not_verified": "אמיתות הממצאים והטענות האיראניות על אודות הפגיעה בתשתיות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-657",
-       "published_at": "2026-11-01T07:53:23+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-hormuz-could-be-reopened-two-days-if-conditions-met",
-       "published_at": "2026-11-01T07:33:35+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-submits-evidence-us-israeli-attacks-maritime-infrastructure",
+       "published_at": "2026-11-01T13:03:53+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11010940-03",
-     "title": "אזהרת יו\"ר ועדת הביטחון בפרלמנט האיראני מתגובה קשה לאיומים",
-     "summary": "יו\"ר ועדת הביטחון הלאומי ומדיניות החוץ של הפרלמנט האיראני התריע כי הכוחות המזוינים יגיבו לכל איום באופן מידי וחמור מקודם.",
-     "axis": "איראן-ישראל-ארה\"ב",
+     "id": "IRAN-11011540-02",
+     "title": "מגעים ללא הכרעה בנוגע למצר הורמוז",
+     "summary": "שר החוץ של איראן ציין כי שיחות המשלחת האיראנית עם המתווכים הקטרים בדוחה על מתווה לפתיחת מצר הורמוז טרם הניבו תוצאה סופית.",
+     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T06:41:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-01T06:41:30+00:00",
-     "last_update_at": "2026-11-01T06:41:30+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-11-01T14:24:04+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-01T14:24:04+00:00",
+     "last_update_at": "2026-11-01T14:24:04+00:00",
+     "what_is_not_verified": "פרטי המתווה לפתיחת המצר וההתקדמות במגעים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-lawmaker-warns-harsher-reply-new-threats",
-       "published_at": "2026-11-01T06:41:30+00:00"
+       "url": "https://en.irna.ir/news/86309431/No-breakthrough-yet-in-consultations-with-Qatari-mediator-over",
+       "published_at": "2026-11-01T14:24:04+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "דוחה, קטר",
+       "lat": 25.2856,
+       "lon": 51.5264
+      },
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
+    },
+    {
+     "id": "IRAN-11011540-03",
+     "title": "הצהרה על הרחבת טווח התגובה האיראני",
+     "summary": "יועצו של המנהיג העליון של איראן הצהיר כי דוקטרינת ההגנה משתנה וטווח ההרתעה של המדינה חורג מהתחום האזורי.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-01T14:59:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T14:59:01+00:00",
+     "last_update_at": "2026-11-01T14:59:01+00:00",
+     "what_is_not_verified": "יישום מעשי של שינוי הדוקטרינה הצבאית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132942",
+       "published_at": "2026-11-01T14:59:01+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11010940-01",
-     "title": "ביצוע הריסות מבנים בעיינאתא שבדרום לבנון",
-     "summary": "כוחות ישראליים ביצעו שתי פעולות הריסה ביישוב עיינאתא שבדרום לבנון.",
-     "axis": "ישראל-לבנון",
+     "id": "NORTH-11011540-01",
+     "title": "איתור אמל\"ח בפעילות כוחות צה\"ל בדרום לבנון",
+     "summary": "כוחות חטיבה 769 איתרו אמצעי לחימה וחדר ילדים עם סממנים של ארגון חזבאללה במהלך פעילות מבצעית בדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T07:09:20+00:00",
+     "occurred_at": "2026-11-01T15:19:21+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T07:09:20+00:00",
-     "last_update_at": "2026-11-01T07:09:20+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-11-01T15:19:21+00:00",
+     "last_update_at": "2026-11-01T15:19:21+00:00",
+     "what_is_not_verified": "המיקום המדויק שבו אותרו הממצאים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25523",
+       "published_at": "2026-11-01T15:19:21+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-11011540-02",
+     "title": "תקיפה אווירית בסמוך למסיבת עיתונאים",
+     "summary": "מטוסי קרב תקפו בכפר אל-קציר שבדרום לבנון בעת ששרת הרווחה הלבנונית ערכה מסיבת עיתונאים בכפר סמוך ונאלצה לקטוע אותה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-01T11:29:24+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T11:29:24+00:00",
+     "last_update_at": "2026-11-01T11:29:24+00:00",
+     "what_is_not_verified": "היקף הנזק או הנפגעים בתקיפה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132932",
+       "published_at": "2026-11-01T11:29:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אל-קציר, לבנון",
+       "lat": 34.6058,
+       "lon": 36.2389
+      },
+      {
+       "name": "פרון, לבנון",
+       "lat": 33.2968,
+       "lon": 35.4265
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11011540-03",
+     "title": "תקיפות והפגזות ארטילריות בדרום לבנון",
+     "summary": "כלי תקשורת בלבנון דיווחו על גל תקיפות מן האוויר וירי ארטילרי שפגעו במספר עיירות ושטחים פתוחים בדרום המדינה.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-01T09:56:54+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-01T09:56:54+00:00",
+     "last_update_at": "2026-11-01T11:00:27+00:00",
+     "what_is_not_verified": "היקף הנפגעים והנזקים כתוצאה מהתקיפות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_d41daf33a36eec0e",
-       "url": "https://english.almanar.com.lb/article/145377/",
-       "published_at": "2026-11-01T07:09:20+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/145457/",
+       "published_at": "2026-11-01T11:00:27+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/145422/",
+       "published_at": "2026-11-01T09:56:54+00:00"
       }
      ],
      "places": [
       {
-       "name": "עיינאתא, לבנון",
-       "lat": 34.1868,
-       "lon": 36.0817
+       "name": "אל-קנטרה, לבנון",
+       "lat": 33.2589,
+       "lon": 35.459
+      },
+      {
+       "name": "חדאת'א, לבנון",
+       "lat": 33.165,
+       "lon": 35.3916
+      },
+      {
+       "name": "חריס, לבנון",
+       "lat": 33.1768,
+       "lon": 35.3799
       }
      ]
-    },
-    {
-     "id": "NORTH-11010940-02",
-     "title": "סלילת דרכים צבאיות על ידי צה\"ל בדרום לבנון",
-     "summary": "צבא ישראל מבצע עבודות לפריצת דרכים המחברות עמדות צבאיות בדרום לבנון במקביל להריסת מבנים.",
-     "axis": "ישראל-לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-01T03:54:39+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-01T03:54:39+00:00",
-     "last_update_at": "2026-11-01T03:54:39+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-builds-new-roads-linking-military-posts-in-southern-lebanon/4107704",
-       "published_at": "2026-11-01T03:54:39+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11010940-03",
-     "title": "קריאת שר החוץ הלבנוני לנסיגה ישראלית וסיוע ממדינות המפרץ",
-     "summary": "שר החוץ של לבנון דרש נסיגה ישראלית מלאה, יישום החלטה 1701 וקרא למדינות המפרץ לתמוך בריבונות המדינה.",
-     "axis": "לבנון-ישראל והמפרץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-01T02:25:16+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-01T02:25:16+00:00",
-     "last_update_at": "2026-11-01T02:25:16+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-foreign-minister-urges-gulf-states-help-restore-countrys",
-       "published_at": "2026-11-01T02:25:16+00:00"
-      }
-     ],
-     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11010940-01",
-     "title": "תקיפת כטב\"מים רוסית פגעה בתשתיות אנרגיה במחוזות קייב וז'יטומיר",
-     "summary": "מתקפות כטב\"מים רוסיות גרמו לפגיעה במתקני אנרגיה במספר מחוזות, לפציעת אישה במחוז קייב ולניתוק מאות יישובים מחשמל בז'יטומיר.",
-     "axis": "רוסיה-אוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-11011540-01",
+     "title": "אישור על פגיעה במפעל דלק ובמערכות נ\"מ רוסיות",
+     "summary": "נשיא אוקראינה אישר פגיעה במפעל רוסי לייצור דלק רקטי לצד פגיעה במערכות הגנה אווירית מתקדמות.",
+     "axis": "ukraine",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T00:00:00+00:00",
+     "occurred_at": "2026-11-01T14:07:08+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T07:45:00+00:00",
-     "last_update_at": "2026-11-01T09:15:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-11-01T14:07:08+00:00",
+     "last_update_at": "2026-11-01T14:07:08+00:00",
+     "what_is_not_verified": "אימות עצמאי של מידת הנזק ומיקום האתרים שנפגעו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4180200-russian-drone-attacks-damage-energy-facilities-in-kyiv-region-injure-woman.html",
-       "published_at": "2026-11-01T09:15:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060702/",
-       "published_at": "2026-11-01T07:45:00+00:00"
+       "url": "https://kyivindependent.com/zelensky-confirms-attack-on-russian-rocket-fuel-factory-missile-launcher-system/",
+       "published_at": "2026-11-01T14:07:08+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-11010940-02",
-     "title": "פגיעות בתשתיות אנרגיה ובבנייני מגורים במחוז ויניצה",
-     "summary": "מתקפה רוסית רחבה בלילה פגעה במתקני אנרגיה, באנטנה סלולרית, במבני מגורים ובמבנים אזרחיים בעיר ובמחוז ויניצה.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11011540-02",
+     "title": "פגיעת כטב\"מים בצ'רנוביץ",
+     "summary": "מתקפת כלי טיס בלתי מאוישים גרמה לפציעת אדם אחד ולנזק למבנה משרדים בעיר צ'רנוביץ.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-10-31T00:00:00+00:00",
+     "occurred_at": "2026-11-01T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T08:28:00+00:00",
-     "last_update_at": "2026-11-01T08:28:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-11-01T14:08:00+00:00",
+     "last_update_at": "2026-11-01T14:08:00+00:00",
+     "what_is_not_verified": "מצבו הרפואי המלא של הפצוע",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060708/",
-       "published_at": "2026-11-01T08:28:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060740/",
+       "published_at": "2026-11-01T14:08:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ויניצה, אוקראינה",
-       "lat": 49.232,
-       "lon": 28.468
+       "name": "צ'רנוביץ, אוקראינה",
+       "lat": 48.2865,
+       "lon": 25.9377
       }
      ]
     },
     {
-     "id": "UKRAINE-11010940-03",
-     "title": "תקיפה אוקראינית נגד בית זיקוק במחוז ניז'ני נובגורוד ברוסיה",
-     "summary": "כוחות אוקראיניים ביצעו תקיפה נגד מתקן זיקוק נפט בקסטובו שבמחוז ניז'ני נובגורוד ברוסיה.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11011540-03",
+     "title": "פגיעה נטענת בכלי שיט ליד אודסה",
+     "summary": "משרד ההגנה של רוסיה טען כי כוחותיו פגעו באמצעות רחפנים בכלי שיט שהוביל מטענים עבור הצבא האוקראיני.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T00:00:00+00:00",
+     "occurred_at": "2026-11-01T14:52:25+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T02:54:16+00:00",
-     "last_update_at": "2026-11-01T02:54:16+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לא אומת",
+     "first_reported_at": "2026-11-01T14:52:25+00:00",
+     "last_update_at": "2026-11-01T14:52:25+00:00",
+     "what_is_not_verified": "אימות אוקראיני או בלתי תלוי לקיומה של הפגיעה בכלי השיט",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49181",
-       "published_at": "2026-11-01T02:54:16+00:00"
+       "url": "https://tass.com/defense/2211547",
+       "published_at": "2026-11-01T14:52:25+00:00"
       }
      ],
      "places": [
       {
-       "name": "קסטובו, רוסיה",
-       "lat": 56.1496,
-       "lon": 44.198
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
       }
      ]
     }
@@ -287,59 +283,76 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11010940-01",
-     "title": "דיווח על פצועים בתקיפה של הקואליציה על מתקן נפט במחוז חודיידה",
-     "summary": "לפי דיווח חות'י, לפחות שלושה אזרחים נפצעו בשתי תקיפות אוויריות של כוחות הקואליציה בראשות סעודיה על מתקן נפט במחוז חודיידה.",
-     "axis": "תימן-הקואליציה בראשות סעודיה",
-     "claim_type": "incident",
+     "id": "YEMEN-11011540-01",
+     "title": "פעולת קואליציה נגד יעדים חות'יים",
+     "summary": "הקואליציה הודיעה על ביצוע מבצע לפגיעה במשאבים חיוניים ששימשו את החות'ים לתמיכה במאמץ המלחמתי.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T05:06:37+00:00",
+     "occurred_at": "2026-11-01T13:46:13+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T05:06:37+00:00",
-     "last_update_at": "2026-11-01T05:06:37+00:00",
-     "what_is_not_verified": "פרטי התקיפה נמסרו על ידי צד אחד בלבד ולא אומתו ממקור עצמאי",
+     "first_reported_at": "2026-11-01T13:46:13+00:00",
+     "last_update_at": "2026-11-01T13:46:13+00:00",
+     "what_is_not_verified": "פרטי היעדים שהותקפו והנזק המדויק שנגרם",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-civilians-injured-saudi-coalition-air-raids-hodeidah-houthis-say",
-       "published_at": "2026-11-01T05:06:37+00:00"
+       "url": "https://www.sabanew.net/viewstory/154977",
+       "published_at": "2026-11-01T13:46:13+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11011540-02",
+     "title": "נפגעות מירי על בית מגורים בתעז",
+     "summary": "שתי נשים נהרגו ואחת נפצעה בעקבות פגיעת הפגזה המיוחסת לחות'ים בבית מגורים ממערב לעיר תעז.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-01T11:53:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T11:53:30+00:00",
+     "last_update_at": "2026-11-01T11:53:30+00:00",
+     "what_is_not_verified": "אימות עצמאי לזהות הגורם המבצע של הירי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/154962",
+       "published_at": "2026-11-01T11:53:30+00:00"
       }
      ],
      "places": [
       {
-       "name": "חודיידה, תימן",
-       "lat": 14.7979,
-       "lon": 42.9545
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
       }
      ]
     },
     {
-     "id": "YEMEN-11010940-02",
-     "title": "דרישת מזכ\"ל האו\"ם לחקירה בעקבות מות איש צוות במעצר החות'ים",
-     "summary": "מזכ\"ל האו\"ם גינה את מותו של עובד הארגון מוחמד א-שאמי בעת שהוחזק במעצר אצל החות'ים וקרא לפתוח בחקירה יסודית ועצמאית.",
-     "axis": "תימן-האו\"ם",
-     "claim_type": "statement",
+     "id": "YEMEN-11011540-03",
+     "title": "שיחות דיפלומטיות בין תימן לסומליה",
+     "summary": "שגריר תימן נפגש עם שר סומלי והציג בפניו את תמונת המצב הנוכחית ואת פעולות החות'ים.",
+     "axis": "yemen",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-01T01:53:23+00:00",
+     "occurred_at": "2026-11-01T15:31:14+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-01T01:53:23+00:00",
-     "last_update_at": "2026-11-01T04:49:15+00:00",
-     "what_is_not_verified": "נסיבות המוות במעצר אינן מאומתות",
+     "first_reported_at": "2026-11-01T15:31:14+00:00",
+     "last_update_at": "2026-11-01T15:31:14+00:00",
+     "what_is_not_verified": "תוכן השיחות המלא או צעדים מוסכמים בעקבות הפגישה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
-       "published_at": "2026-11-01T04:49:15+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/guterres-condemns-death-un-staff-member-houthi-custody",
-       "published_at": "2026-11-01T01:53:23+00:00"
+       "url": "https://www.sabanew.net/viewstory/154982",
+       "published_at": "2026-11-01T15:31:14+00:00"
       }
      ],
      "places": []
