@@ -286,351 +286,367 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-10-31T0040__iran-202610310040.json",
+  "draft": "drafts/iran/2026-11-01T1140__iran-202611011140.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-10-31T00:40:32+00:00",
+   "generated_at": "2026-11-01T11:40:30+00:00",
    "window": {
-    "from": "2026-10-30T00:40:32+00:00",
-    "to": "2026-10-31T00:40:32+00:00"
+    "from": "2026-10-31T11:40:30+00:00",
+    "to": "2026-11-01T11:40:30+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "iran-202610310040"
+    "run_id": "iran-202611011140"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב מתאפיין בהסלמה ימית חריפה במצר הורמוז, הכוללת פגיעות במכליות נפט ושיבוש נתיבי השיט לצד יירוט כטב\"מים. במקביל, וושינגטון מאותתת על כוונות לחדש תקיפות צבאיות מקיפות בזמן שנבחנים מאמצי תיווך דיפלומטיים בהובלת קטאר ופקיסטן. בטהרן מציגים מוכנות לפעולת תגמול רחבה ויוזמות חקיקה לנסיגה מהאמנה למניעת הפצת נשק גרעיני.",
+   "summary": "העימות בין איראן לבין ארה\"ב וישראל עומד בפני צומת מתוח בין חידוש התקיפות לבין מאמצי תיווך דיפלומטיים לקראת בחירות האמצע בארה\"ב. בוושינגטון ובירושלים מתקיימים דיונים על יעדי תקיפה נוספים בתוכנית הגרעין תוך שמירה על עמימות, בעוד טהרן מציבה תנאים מחמירים לפתיחת מצר הורמוז ומאיימת במענה צבאי נרחב ללא גבולות גיאוגרפיים.",
    "fronts": [
     {
-     "name": "מצר הורמוז והמרחב הימי במפרץ",
-     "status": "פעילות התקפית ימית הכוללת פגיעה במכליות באמצעות מוקשים ימיים וירי בלתי מזוהה, לצד לכידת כטב\"ם אמריקני ומצור ימי"
+     "name": "מצר הורמוז והמפרץ",
+     "status": "המצר סגור לתנועה חופשית; מתנהל משא ומתן קשוח על תנאי פתיחתו בתוך יומיים"
     },
     {
-     "name": "הזירה האווירית והפנים-איראנית",
-     "status": "כוננות איראנית לתקיפות אמריקניות מתחדשות ודיווחים לא מאומתים על פגיעות בבסיסי שיגור בדרום המדינה"
+     "name": "תוכנית הגרעין האיראנית",
+     "status": "ארה\"ב מאותתת על תוכניות לתקוף אתרים בודדים שנותרו, בעוד איראן מסרבת לכל מו\"מ על הגרעין ושוקלת מחדש את מדיניות האיסור על נשק גרעיני"
     },
     {
-     "name": "הציר הדיפלומטי והמדיני",
-     "status": "משא ומתן עקיף בטהרן בתיווך קטארי ופקיסטני תחת איומי חידוש אש"
+     "name": "הזירה המדינית והבינלאומית",
+     "status": "שיחות תיווך עקיפות בדוחה והחרפה דיפלומטית חריפה של איראן נגד בריטניה"
+    },
+    {
+     "name": "חזית לבנון ושלוחות אזוריות",
+     "status": "דרישה איראנית להפסקת התקיפות בלבנון, לצד חשש בביירות ממעורבות מחודשת של חיזבאללה בלחימה"
     }
    ],
    "events": [
     {
-     "id": "IRAN-10310040-01",
-     "title": "תקיפות ופגיעות במכליות נפט במצר הורמוז",
-     "summary": "מספר מכליות נפט נפגעו או עלו באש במצר הורמוז, כאשר זרוע הים של משמרות המהפכה טענה כי מכליות סטו מנתיבים מורשים או הוצתו, וגורמים ימיים דיווחו על פגיעות קליעים ומוקשים מגנטיים.",
-     "axis": "איראן - ארה\"ב והמפרץ",
-     "claim_type": "incident",
+     "id": "IRAN-11011140-01",
+     "title": "הגשת ראיות איראניות לארגון הימאות הבינלאומי על תקיפות בנמלים ובתשתיות ימיות",
+     "summary": "איראן העבירה מסמכים ותיעודים לארגון הימאות הבינלאומי המציגים לטענתה תקיפות אמריקניות וישראליות נגד נמליה וכלי שיט אזרחיים, והתריעה מפני פגיעה בבטיחות השיט במפרץ, בהורמוז ובמפרץ עומאן.",
+     "axis": "איראן מול ארה\"ב וישראל",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T11:26:35+00:00",
-     "last_update_at": "2026-10-31T00:00:00+00:00",
-     "what_is_not_verified": "הזהות המדויקת של הגורמים המשגרים ופרטי כל המכליות שנפגעו",
+     "occurred_at": "2026-11-01T10:42:32+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T10:42:32+00:00",
+     "last_update_at": "2026-11-01T10:42:32+00:00",
+     "what_is_not_verified": "אמיתות הראיות והיקף הנזקים הנטענים לא אומתו באופן בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-       "published_at": "2026-10-31T00:00:00+00:00"
-      },
-      {
        "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86307702/IRGC-Fourth-offending-tanker-catches-fire-in-Strait-of-Hormuz",
-       "published_at": "2026-10-30T21:16:01+00:00"
+       "url": "https://en.irna.ir/news/86309209/Exclusive-Iran-submits-evidence-of-US-Israeli-attacks-on-ports",
+       "published_at": "2026-11-01T10:42:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11011140-02",
+     "title": "הצהרת תנאים לפתיחת מצר הורמוז על ידי שר החוץ של איראן",
+     "summary": "שר החוץ של איראן הציג מתווה מקוצר של יומיים לפתיחה מחדש של מצר הורמוז בכפוף להכרה אמריקנית בנתיב שיט חדש מול עומאן, הסרת סנקציות, נסיגת כוחות והפסקת הלחימה בזירות השונות.",
+     "axis": "מצר הורמוז והמפרץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-31T23:26:13+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T23:26:13+00:00",
+     "last_update_at": "2026-11-01T07:53:23+00:00",
+     "what_is_not_verified": "נכונות ארה\"ב להיענות לתנאים אינה מאומתת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-657",
+       "published_at": "2026-11-01T07:53:23+00:00"
       },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-struck-unknown-projectile-while-exiting-hormuz-ukmto",
-       "published_at": "2026-10-30T20:38:38+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
-       "published_at": "2026-10-30T18:33:29+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/limpet-mine-attack-hormuz-suggests-iran-may-be-shifting-tactics",
-       "published_at": "2026-10-30T17:27:55+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-hormuz-could-be-reopened-two-days-if-conditions-met",
+       "published_at": "2026-11-01T07:33:35+00:00"
       },
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610303203",
-       "published_at": "2026-10-30T11:57:13+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
-       "published_at": "2026-10-30T11:26:35+00:00"
+       "url": "https://www.iranintl.com/en/202610317760",
+       "published_at": "2026-10-31T23:26:13+00:00"
       }
      ],
      "places": [
       {
-       "name": "האי לאוואן",
-       "lat": 26.8102,
-       "lon": 53.3543
+       "name": "דוחה, קטאר",
+       "lat": 25.2856,
+       "lon": 51.5264
       }
      ]
     },
     {
-     "id": "IRAN-10310040-02",
-     "title": "השתלטות איראן על כטב\"ם אמריקני מעל האי קשם",
-     "summary": "חיל הים של משמרות המהפכה הודיע כי לכד כלי טיס בלתי מאויש אמריקני לסיור והטעיה בעודו שלם ממערב למצר הורמוז לאחר השתלטות על מערכותיו.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-30T21:37:07+00:00",
-     "last_update_at": "2026-10-30T21:37:07+00:00",
-     "what_is_not_verified": "אישור אמריקני עצמאי על נפילת הכטב\"ם או אופן ההשתלטות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86307704/IRGC-Navy-captures-second-US-drone-intact-over-Qeshm-island",
-       "published_at": "2026-10-30T21:37:07+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "האי קשם",
-       "lat": 26.9502,
-       "lon": 56.2691
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10310040-03",
-     "title": "דיווחים בלתי מאומתים על תקיפות אמריקניות בדרום איראן",
-     "summary": "מקורות איראניים לא רשמיים דיווחו על שתי תקיפות ממוקדות שביצעה ארה\"ב באזורי האי קשם ונמל ג'אסכ לצורך סיכול משגרים.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-30T07:37:36+00:00",
-     "last_update_at": "2026-10-30T07:37:36+00:00",
-     "what_is_not_verified": "היעדר כל אישור רשמי אמריקני או איראני לקיומן של התקיפות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132817",
-       "published_at": "2026-10-30T07:37:36+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "האי קשם",
-       "lat": 26.9502,
-       "lon": 56.2691
-      },
-      {
-       "name": "ג'אסכ",
-       "lat": 25.6436,
-       "lon": 57.7746
-      }
-     ]
-    },
-    {
-     "id": "IRAN-10310040-04",
-     "title": "איתור וסיכול חוליה הקשורה למודיעין זר במערב איראן",
-     "summary": "משמרות המהפכה הודיעו על פירוק ופגיעה בחוליה בת שני אנשים המקושרת לשירותי מודיעין זרים במערב המדינה.",
-     "axis": "איראן - ישראל/ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-10-30T19:45:48+00:00",
-     "last_update_at": "2026-10-30T19:45:48+00:00",
-     "what_is_not_verified": "זהות המודיעין הזר וזהות חברי החוליה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86307681/IRGC-strikes-a-team-linked-to-foreign-intelligence-services-in",
-       "published_at": "2026-10-30T19:45:48+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-10310040-05",
-     "title": "יוזמות באיראן לפרישה מהאמנה למניעת הפצת נשק גרעיני והשלמת תוכנית תגובה",
-     "summary": "בכיר ביטחוני איראני מסר על השלמת תוכנית צבאית מעודכנת לתגובה נרחבת לתקיפות, ובמקביל הוגשו בפרלמנט הצעות לנסיגה מהאמנה למניעת הפצת נשק גרעיני.",
-     "axis": "איראן - ארה\"ב וישראל",
+     "id": "IRAN-11011140-03",
+     "title": "הכרזת משרד החוץ האיראני על גופים צבאיים ומודיעיניים בריטיים כארגוני טרור וארגונים עוינים",
+     "summary": "טהרן הודיעה על הגדרת חיל הים וחיל האוויר של בריטניה כארגוני טרור ועל ארגון הביון הבריטי כגוף עוין, בתגובה לצעדים בריטיים נגד משמרות המהפכה וסיוע לישראל ולארה\"ב.",
+     "axis": "איראן מול המערב",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T22:16:22+00:00",
-     "last_update_at": "2026-10-30T22:16:22+00:00",
-     "what_is_not_verified": "מועד מימוש אפשרי של הצעות הפרישה מהאמנה או פרטי תוכנית התגובה",
+     "occurred_at": "2026-11-01T06:04:50+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T06:04:50+00:00",
+     "last_update_at": "2026-11-01T07:53:23+00:00",
+     "what_is_not_verified": "ההשלכות המעשיות של הצעד מעבר להצהרה הדיפלומטית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-finalises-new-plan-respond-any-new-attack-official-says",
-       "published_at": "2026-10-30T22:16:22+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-657",
+       "published_at": "2026-11-01T07:53:23+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132910",
+       "published_at": "2026-11-01T06:36:01+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-designates-britains-royal-navy-raf-terrorist-groups-report-says",
+       "published_at": "2026-11-01T06:04:50+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן",
+       "name": "טהרן, איראן",
        "lat": 35.6893,
        "lon": 51.3896
       }
      ]
     },
     {
-     "id": "IRAN-10310040-06",
-     "title": "היערכות אמריקנית לתקיפות חדשות לצד מגעים מדיניים",
-     "summary": "בארה\"ב מתבצעת הערכה והיערכות לאפשרות של חידוש תקיפות צבאיות באיראן, במקביל למגעים מדיניים ולניסיונות תיווך להפסקת הלחימה.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "assessment",
+     "id": "IRAN-11011140-04",
+     "title": "שיחת טראמפ ונתניהו והתייחסות לאתרי הגרעין של איראן",
+     "summary": "נשיא ארצות הברית שוחח טלפונית עם ראש ממשלת ישראל על רקע היערכות להסלמה, והתבטא בפומבי כי נותרו אתרים בודדים לטיפול וכי לארה\"ב יש תוכניות פעולה מהירות אך היא אינה ממהרת להחליט על תקיפה.",
+     "axis": "ארה\"ב וישראל מול איראן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T20:22:02+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T20:22:02+00:00",
-     "last_update_at": "2026-10-31T00:19:20+00:00",
-     "what_is_not_verified": "המועד המדויק לפתיחת סבב תקיפות והיקפו",
+     "occurred_at": "2026-10-31T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T17:00:36+00:00",
+     "last_update_at": "2026-11-01T08:24:50+00:00",
+     "what_is_not_verified": "מצבם המדויק של אתרי הגרעין האיראניים והתוכן המלא של השיחה בין המנהיגים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-are-talks-tehran-wants-talk",
-       "published_at": "2026-10-31T00:19:20+00:00"
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/trump-at-halloween-party-as-himself-says-hes-in-no-hurry-with-iran?traffic_source=rss",
+       "published_at": "2026-11-01T08:24:50+00:00"
       },
       {
-       "source_id": "src_israelhayom",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21743550",
-       "published_at": "2026-10-31T00:04:15+00:00"
+       "url": "https://t.me/abualiexpress/132909",
+       "published_at": "2026-11-01T06:28:01+00:00"
       },
       {
-       "source_id": "src_fdd",
+       "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.fdd.org/in_the_news/u-s-evaluates-renewed-strikes-on-iran/",
-       "published_at": "2026-10-30T20:30:31+00:00"
+       "url": "https://www.ynet.co.il/news/article/hkinj5xtgl",
+       "published_at": "2026-10-31T23:18:29+00:00"
       },
       {
-       "source_id": "src_iranintl",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610300238",
-       "published_at": "2026-10-30T20:22:02+00:00"
+       "url": "https://t.me/alexmehacarmel/49178",
+       "published_at": "2026-10-31T23:08:40+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+       "published_at": "2026-10-31T17:00:36+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון",
+       "name": "מאר א-לאגו, ארצות הברית",
+       "lat": 26.677,
+       "lon": -80.0379
+      },
+      {
+       "name": "וושינגטון, ארצות הברית",
        "lat": 38.8951,
        "lon": -77.0364
       }
      ]
     },
     {
-     "id": "IRAN-10310040-07",
-     "title": "מאמצי תיווך בינלאומיים בין וושינגטון לטהרן",
-     "summary": "משלחות תיווך מקטאר ומפקיסטן פועלות מול ההנהגה בטהרן במטרה לבלום את המשך ההסלמה ולהביא להסכם בין הצדדים הנצים.",
-     "axis": "איראן - ארה\"ב",
+     "id": "IRAN-11011140-05",
+     "title": "איומי תגובה מצד הנהגת איראן ובכירי הממשל לכל תקיפה מחודשת",
+     "summary": "המנהיג העליון של איראן, יו\"ר ועדת הביטחון בפרלמנט וסגן יו\"ר הפרלמנט הזהירו כי תקיפה חדשה מצד ישראל וארה\"ב תגרור תגובה מיידית ונרחבת ללא מגבלות גיאוגרפיות, תוך הדגשה כי תוכנית הגרעין אינה נושא למשא ומתן.",
+     "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-10-30T07:31:01+00:00",
-     "last_update_at": "2026-10-30T18:55:36+00:00",
-     "what_is_not_verified": "הפרטים המדויקים של טיוטת ההסכם ועמדות הצדדים בנוגע לפשרות",
+     "occurred_at": "2026-10-31T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T15:32:19+00:00",
+     "last_update_at": "2026-11-01T09:26:03+00:00",
+     "what_is_not_verified": "בנק המטרות המדויק ויכולת המימוש המעשית של האיומים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_tg_lelotsenzura",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-       "published_at": "2026-10-30T18:55:36+00:00"
+       "url": "https://t.me/lelotsenzura/94913",
+       "published_at": "2026-11-01T09:26:03+00:00"
       },
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/10/exclusive-pakistan-military-cautiously-optimistic-iran-us-mediation",
-       "published_at": "2026-10-30T18:46:31+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-657",
+       "published_at": "2026-11-01T07:53:23+00:00"
       },
       {
-       "source_id": "src_iranintl",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610304599",
-       "published_at": "2026-10-30T16:52:33+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-lawmaker-warns-harsher-reply-new-threats",
+       "published_at": "2026-11-01T06:41:30+00:00"
       },
       {
-       "source_id": "src_iranintl",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202610307228",
-       "published_at": "2026-10-30T07:36:00+00:00"
+       "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+       "published_at": "2026-10-31T17:00:36+00:00"
       },
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_tg_lelotsenzura",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132816",
-       "published_at": "2026-10-30T07:31:01+00:00"
+       "url": "https://t.me/lelotsenzura/94903",
+       "published_at": "2026-10-31T15:32:19+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהרן",
+       "name": "טהרן, איראן",
        "lat": 35.6893,
        "lon": 51.3896
       }
      ]
     },
     {
-     "id": "IRAN-10310040-08",
-     "title": "הצבת אמצעי הגנה אווירית באחוזת מאר-א-לאגו",
-     "summary": "בארה\"ב תועדה פריסת מערכות הגנה מדגם אוונג'ר וטילי סטינגר בסמוך לאחוזת נשיא ארה\"ב בפלורידה על רקע חשש מאיומים איראניים.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "incident",
+     "id": "IRAN-11011140-06",
+     "title": "מגעים דיפלומטיים בתיווך קטארי ומכתב אמריקני לטהרן",
+     "summary": "משלחת איראנית קיימה שיחות בדוחה מול מתווכים קטארים למניעת חידוש הלחימה, במקביל למכתב שהעביר סגן נשיא ארה\"ב ואשר הוגדר על ידי גורם ביטחון איראני כשינוי גישה חיובי.",
+     "axis": "דיפלומטיה ותיווך אזורי",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-10-30T00:00:00+00:00",
+     "occurred_at": "2026-10-31T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-10-30T11:26:35+00:00",
-     "last_update_at": "2026-10-30T11:26:35+00:00",
-     "what_is_not_verified": "האם הוצבו טילי סטינגר בתוך האחוזה עצמה או רק מערכות אוונג'ר ומה טיב האיום",
+     "first_reported_at": "2026-10-31T15:46:29+00:00",
+     "last_update_at": "2026-11-01T08:14:00+00:00",
+     "what_is_not_verified": "נוסח המכתב האמריקני המלא וסיכויי הצלחת השיחות לפני תאריך היעד.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
-       "published_at": "2026-10-30T11:26:35+00:00"
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-security-chief-says-us-letter-signals-positive-shift?traffic_source=rss",
+       "published_at": "2026-11-01T08:14:00+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/will-iran-take-vance-lifeline-avoid-another-us-attack",
+       "published_at": "2026-10-31T17:23:39+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/10/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms",
+       "published_at": "2026-10-31T15:46:29+00:00"
       }
      ],
      "places": [
       {
-       "name": "מאר-א-לאגו",
-       "lat": 26.677,
-       "lon": -80.0379
+       "name": "דוחה, קטאר",
+       "lat": 25.2856,
+       "lon": 51.5264
       }
      ]
+    },
+    {
+     "id": "IRAN-11011140-07",
+     "title": "הצהרת משמרות המהפכה על קליטת מטוסי קרב רוסיים",
+     "summary": "דובר משמרות המהפכה באיראן ציין כי הושלם הליך הרכישה של מטוסי סוחוי 35 מרוסיה וכי קליטתם בפועל תתבצע לאחר סיום המלחמה הנוכחית.",
+     "axis": "התעצמות צבאית איראנית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-10-31T20:03:37+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-10-31T20:03:37+00:00",
+     "last_update_at": "2026-11-01T05:42:17+00:00",
+     "what_is_not_verified": "מועד האספקה המדויק ומידת השלמת ההכשרות בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-receive-russian-su-35-jets-after-war-ends-irgc-says",
+       "published_at": "2026-11-01T05:42:17+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/132904",
+       "published_at": "2026-10-31T20:03:37+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהרן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11011140-08",
+     "title": "היערכות עורפית בישראל לתרחישי פגיעת טילים",
+     "summary": "שירותי הכבאות בישראל ערכו תרגיל מסכם המדמה חילוץ נפגעים מאירועי קריסת מבנים ופגיעת טילים כבדים על רקע המתיחות והחשש מהסלמה מול איראן.",
+     "axis": "מוכנות העורף הישראלי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-01T10:46:53+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-01T10:46:53+00:00",
+     "last_update_at": "2026-11-01T10:46:53+00:00",
+     "what_is_not_verified": "לא פורטו מיקומי התרגיל המדויקים בארץ.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_7bd073726144f33a",
+       "url": "https://www.israelhayom.co.il/news/local/article/21750536",
+       "published_at": "2026-11-01T10:46:53+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "דיווחים על שתי תקיפות אמריקניות ממוקדות בדרום איראן באזור האי קשם ונמל ג'אסכ",
-    "הטענה לפיה טראמפ יחדש את התקיפות הצבאיות באיראן החל מ-4 בנובמבר",
-    "הדיווח לפיו חיל הים של משמרות המהפכה השתלט על מערכות הבקרה של כטב\"ם אמריקני",
-    "היקף הנזק המדויק והגורם האחראי לכל אחת מהפגיעות במכליות במצר הורמוז",
-    "הערכות על קיומם של תאים איראניים רדומים המאיימים על נשיא ארה\"ב בפלורידה"
+    "טענת איראן לגבי 168 ילדים שנהרגו במינאב כתוצאה מתקיפות אמריקניות וישראליות",
+    "ההערכה האמריקנית לפיה נותרו רק אתר גרעין אחד או שניים הניתנים להשמדה תוך עשר דקות",
+    "טענות על תקיפת ספינות אזרחיות ונמלים בידי ארה\"ב וישראל כפי שהוגשו ל-IMO",
+    "מועד האספקה המעשי של מטוסי סוחוי 35 מרוסיה לאיראן",
+    "היקף ההתחייבות של חיזבאללה שלא להצטרף לעימות עתידי בין איראן לישראל"
    ],
    "map": {
     "confidence": "medium",
@@ -650,123 +666,142 @@ window.DB.war_published = {
    ],
    "strategic_goals": [
     {
-     "actor": "ארצות הברית",
+     "actor": "איראן",
      "declared": [
-      "הגעה לסיום מהיר של המלחמה מול איראן",
-      "מניעת השגת נשק גרעיני בידי טהרן",
-      "שמירה על חופש השיט במצר הורמוז ומניעת ייצוא נפט איראני"
+      "הסרת כלל הסנקציות שהוטלו מאז יולי 2026 ושחרור כספים מוקפאים בקטאר כתנאי לפתיחת מצר הורמוז",
+      "הכרה רשמית בנתיב שיט חדש במצר הורמוז שנקבע יחד עם עומאן",
+      "מתן מענה צבאי מיידי, קשה וללא הגבלות גיאוגרפיות לכל תקיפה חדשה נגדה"
      ],
      "inferred": [
-      "הפעלת לחץ צבאי מוגבר על ידי ריכוז כוחות ואיום בתקיפות ישירות כדי לכפות ויתורים במשא ומתן",
-      "הרתעת המשטר האיראני מפגיעה באינטרסים אמריקניים באמצעות פריסת מערכי הגנה"
+      "שימוש בחסימת מצר הורמוז כמנוף לחץ כלכלי על המערב לעצירת פעולות ישראל וארה\"ב",
+      "חיזוק כושר ההרתעה הצבאי באמצעות רכש אמל\"ח מתקדם מרוסיה כדי לשקם אבדות"
      ],
      "forecast": [
-      "המשך איומים צבאיים עד לפקיעת מועד המגעים הדיפלומטיים",
-      "אפשרות לפעולות תגמול מוגבלות נגד מערכי שיגור ומוצבים באזור המפרץ אם השיחות ייכשלו"
+      "המשך מיקוח נוקשה בתיווך קטארי תוך שמירה על איום סגירת המצר עד להשגת ויתורים בסנקציות",
+      "תגובה באש לעבר יעדים אזוריים אם תותקף שוב על ידי ארה\"ב או ישראל"
      ]
     },
     {
-     "actor": "איראן",
+     "actor": "ארצות הברית",
      "declared": [
-      "הרתעת האויבים מפגיעה בריבונות ובזהות הלאומית",
-      "הטלת מחיר כבד על ארה\"ב ובעלות בריתה במקרה של תקיפות חדשות",
-      "שליטה במעבר כלי שיט בנתיבי מצר הורמוז"
+      "העדפה לפתרון דיפלומטי למשבר מול טהרן לפני קבלת החלטה על תקיפות חדשות",
+      "החזקת תוכניות מבצעיות מוכנות להשמדת אתרי הגרעין הנותרים באיראן בהתראה קצרה"
      ],
      "inferred": [
-      "שימוש בשיבוש הכלכלה העולמית וסחר הנפט כדי למנוע מתקפה אמריקנית רחבה",
-      "איום בפריצה גרעינית וביטול מחויבויות בינלאומיות כמנוף לחץ במשא ומתן"
+      "ניסיון להכיל את הלחימה או לדחותה מעבר למועד בחירות האמצע משיקולים פוליטיים פנימיים",
+      "הפעלת איום צבאי אמין במקביל לפתיחת ערוץ דיפלומטי באמצעות מכתב סגן הנשיא"
      ],
      "forecast": [
-      "המשך פעולות הטרדה ושיבוש ימי מוגבלות במצר הורמוז",
-      "שמירה על ערוצי המשא ומתן פתוחים מול מתווכים אזוריים במקביל להפגנת מוכנות צבאית"
+      "מיצוי ערוצי התיווך הקטארים בימים הקרובים לצורך פתיחת נתיבי השיט ללא ויתורים מרחיקי לכת",
+      "הוצאה לפועל של פעולות צבאיות ממוקדות אם המגעים המדיניים יקרסו לאחר תאריך היעד"
+     ]
+    },
+    {
+     "actor": "ישראל",
+     "declared": [
+      "מוכנות צבאית ועורפית מחודשת לאפשרות של הסלמה וחידוש חילופי האש מול איראן"
+     ],
+     "inferred": [
+      "תיאום הדוק עם הממשל האמריקני לגבי אופי התגובה וחידוש הפעילות נגד יעדי גרעין באיראן",
+      "שאיפה לנטרול מוחלט של איום הגרעין האיראני ומניעת התערבות של שלוחות אזוריות"
+     ],
+     "forecast": [
+      "המשך הגברת הכוננות בעורף ובמערכי ההגנה לקראת תרחישי תקיפה הדדיים",
+      "פעולה משולבת או מתואמת מול ארה\"ב אם יוחלט על חידוש ההפצצות"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-security-chief-says-us-letter-signals-positive-shift?traffic_source=rss",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/10/exclusive-pakistan-military-cautiously-optimistic-iran-us-mediation",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/10/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
-     "source_id": "src_fdd",
-     "url": "https://www.fdd.org/in_the_news/u-s-evaluates-renewed-strikes-on-iran/",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202610307228",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.iranintl.com/en/202610317760",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86307681/IRGC-strikes-a-team-linked-to-foreign-intelligence-services-in",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://en.irna.ir/news/86309209/Exclusive-Iran-submits-evidence-of-US-Israeli-attacks-on-ports",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21743550",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.israelhayom.co.il/news/local/article/21750536",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-are-talks-tehran-wants-talk",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-receive-russian-su-35-jets-after-war-ends-irgc-says",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/132816",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://t.me/abualiexpress/132904",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
+    },
+    {
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/49178",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94903",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/bkfxt1ftfe",
-     "accessed_at": "2026-10-31T00:40:32+00:00"
+     "url": "https://www.ynet.co.il/news/article/hkinj5xtgl",
+     "accessed_at": "2026-11-01T11:40:30+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-10-30T00:40:40+00:00",
+  "previous_generated_at": "2026-10-31T00:40:32+00:00",
   "changes": {
-   "IRAN-10310040-01": {
+   "IRAN-11011140-01": {
+    "kind": "new"
+   },
+   "IRAN-11011140-02": {
+    "kind": "possible",
+    "prev": "תקיפות ופגיעות במכליות נפט במצר הורמוז",
+    "score": 0.467
+   },
+   "IRAN-11011140-03": {
+    "kind": "new"
+   },
+   "IRAN-11011140-04": {
+    "kind": "new"
+   },
+   "IRAN-11011140-05": {
     "kind": "same",
-    "from": "shared_root",
+    "from": "initial",
     "to": "shared_root",
-    "prev": "פגיעה במכליות נפט במצר הורמוז",
-    "score": 0.65
-   },
-   "IRAN-10310040-02": {
-    "kind": "possible",
-    "prev": "דיווחים על תקיפה אמריקנית ופעילות הגנה אווירית באי קשם",
-    "score": 0.633
-   },
-   "IRAN-10310040-03": {
-    "kind": "new"
-   },
-   "IRAN-10310040-04": {
-    "kind": "new"
-   },
-   "IRAN-10310040-05": {
-    "kind": "possible",
-    "prev": "מגעים דיפלומטיים לחילופי מסרים והצבת תנאים בין ארצות הברית לאיראן",
-    "score": 0.633
-   },
-   "IRAN-10310040-06": {
-    "kind": "same",
-    "from": "assessment",
-    "to": "assessment",
-    "prev": "תדרוך הנשיא טראמפ והיערכות לאפשרות של מתקפה אמריקנית באיראן",
+    "prev": "יוזמות באיראן לפרישה מהאמנה למניעת הפצת נשק גרעיני והשלמת תוכנית תגובה",
     "score": 0.817
    },
-   "IRAN-10310040-07": {
+   "IRAN-11011140-06": {
+    "kind": "possible",
+    "prev": "מאמצי תיווך בינלאומיים בין וושינגטון לטהרן",
+    "score": 0.467
+   },
+   "IRAN-11011140-07": {
     "kind": "new"
    },
-   "IRAN-10310040-08": {
+   "IRAN-11011140-08": {
     "kind": "new"
    }
   }
