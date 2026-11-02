@@ -1,0 +1,555 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c163000c15b2",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 6,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-02T20:34:06+00:00",
+  "window": {
+   "from": "2026-11-01T20:34:06+00:00",
+   "to": "2026-11-02T20:34:06+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611022034"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בחידוש האש בדרום לאחר קריסת הפוגה מקומית, לצד תקיפות אוויריות קטלניות על מטרות אזרחיות וסיוע בעומק השטח האוקראיני. במקביל נרשמת הסלמה בלוחמת הסייבר והתרעות שווא הדדיות, בשעה שבאוקראינה מוקמת מערכת שיבוש אלקטרונית ומנגד מתמודד הצבא עם חיכוכים פנימיים סביב אכיפת גיוס.",
+  "fronts": [
+   {
+    "name": "חזית הדרום - זפורוז'יה",
+    "status": "תקיפות אוויריות כבדות של רוסיה, פגיעה קטלנית בריכוז סיוע אזרחי בקומישובאחה"
+   },
+   {
+    "name": "חזית הדרום - חרסון",
+    "status": "סיום הפסקת האש המקומית באולשקי וחידוש חילופי האש והתקיפות בעיר חרסון"
+   },
+   {
+    "name": "חזית המזרח - לוגנסק",
+    "status": "פגיעות בתחבורה ובצירים בעומק השטח המוחזק בידי רוסיה"
+   },
+   {
+    "name": "עורף אוקראינה",
+    "status": "מתקפות כטב\"מים וטילים, לצד מאמצי הגנה אלקטרונית ומתח פנימי סביב מוקדי כליאת עריקים"
+   },
+   {
+    "name": "עורף רוסיה",
+    "status": "היערכות לפגיעות בתשתיות מידע, הליכים משפטיים נגד שבויים ושינויי שכר בכוחות הצבא"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11022034-01",
+    "title": "תקיפה רוסית קטלנית על מרכז סיוע הומניטרי בבית ספר בקומישובאחה",
+    "summary": "מטוסים רוסיים הטילו פצצות אוויריות על מבנה בית ספר ששימש לחלוקת סיוע הומניטרי בקומישובאחה שבמחוז זפורוז'יה. בהמשך הוטלו פצצות נוספות על המקלט שבו הסתתרו אזרחים, ודווח על בין שמונה עשר לעשרים ושישה הרוגים, פצועים ועשרות נעדרים.",
+    "axis": "חזית הדרום - זפורוז'יה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T17:18:00+00:00",
+    "last_update_at": "2026-11-02T20:23:12+00:00",
+    "what_is_not_verified": "מספר ההרוגים הסופי נע בין שמונה עשר לעשרים ושישה לפי גרסאות שונות, ומספר הנעדרים אינו סופי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T20:23:12+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4180664-zaporizhzhia-region-declares-day-of-mourning-for-victims-of-komyshuvakha-attack.html",
+      "published_at": "2026-11-02T19:21:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-bomb-strikes-kill-24-at-humanitarian-aid-center-in-zaporizhzhia-oblast/",
+      "published_at": "2026-11-02T19:00:41+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4180656-death-toll-from-russian-strike-on-school-in-komyshuvakha-rises-to-24.html",
+      "published_at": "2026-11-02T18:42:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/",
+      "published_at": "2026-11-02T18:32:26+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/02/zelensky-says-russian-airstrikes-on-school-used-for-humanitarian-aid-in-ukraine-s-zaporizhzhia-region-killed-at-least-18-people",
+      "published_at": "2026-11-02T17:49:51+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49230",
+      "published_at": "2026-11-02T17:42:28+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060924/",
+      "published_at": "2026-11-02T17:18:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קומישובאחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-02",
+    "title": "סיום הפסקת האש המקומית וחידוש הלחימה באזור חרסון ואולשקי",
+    "summary": "הפסקת אש מקומית בת שישה ימים באזור אולשקי וחרסון הגיעה לסיומה, ולאחריה חודשה האש כאשר כטב\"ם רוסי פגע בבית חולים בעיר חרסון. במקביל נמסר על מאות תושבים שפונו מאולשקי בסיוע סוכנויות בינלאומיות.",
+    "axis": "חזית הדרום - חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T00:34:41+00:00",
+    "last_update_at": "2026-11-02T19:03:17+00:00",
+    "what_is_not_verified": "מספרם המדויק של התושבים שנותרו באולשקי והיקף המפונים המלא נותרו חסויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://kyivindependent.com/some-oleshky-residents-remain-seeking-evacuation-others-still-on-the-road-to-ukraine-lubinets-says/",
+      "published_at": "2026-11-02T19:03:17+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T17:33:19+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://kyivindependent.com/kremlin-rules-out-further-humanitarian-operations-like-oleshky-evacuation-for-now/",
+      "published_at": "2026-11-02T16:58:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
+      "published_at": "2026-11-02T16:17:14+00:00"
+     },
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168722",
+      "published_at": "2026-11-02T12:00:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_559fedb876c57845",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "published_at": "2026-11-02T00:34:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     },
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-03",
+    "title": "מתקפת כטב\"מים וטילים רוסית נרחבת ויירוטים באוקראינה",
+    "summary": "חיל האוויר האוקראיני הודיע כי רוסיה שיגרה מאה שבעים ואחד כלי טיס בלתי מאוישים ועשרה טילים או חימושים מדויקים. מערכות ההגנה האווירית יירטו או שיבשו מאה שלושים ותשעה כטב\"מים ושמונה חימושים מדויקים.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T13:25:44+00:00",
+    "last_update_at": "2026-11-02T17:57:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_086f8e9a73ce3ae7",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060929/",
+      "published_at": "2026-11-02T17:57:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_086f8e9a73ce3ae7",
+      "url": "https://t.me/alexmehacarmel/49221",
+      "published_at": "2026-11-02T13:25:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ויניצה, אוקראינה",
+      "lat": 49.232,
+      "lon": 28.468
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-04",
+    "title": "מתקפת סייבר והתרעות שווא על מתקפה גרעינית באפליקציות חירום",
+    "summary": "אפליקציות התרעה רשמיות באוקראינה נפרצו והפיצו התרעות שווא על סכנת קרינה גרעינית, נשק כימי וקרבות רחוב בקייב. שעות ספורות לאחר מכן דיווח גם המשרד למצבי חירום ברוסיה על מתקפת סייבר נרחבת על יישומון ההתרעות שלו.",
+    "axis": "לוחמת סייבר",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T00:34:41+00:00",
+    "last_update_at": "2026-11-02T14:35:01+00:00",
+    "what_is_not_verified": "זהות התוקפים או הגורם האחראי לפריצה בשני הצדדים לא אומתה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:35:01+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/02/hackers-fake-nuclear-chemical-threat-alert-kyiv-ukraine-emergency-app",
+      "published_at": "2026-11-02T11:11:28+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "published_at": "2026-11-02T00:34:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-05",
+    "title": "עימותים וסערה סביב כליאת חיילים ומגויסים סמוך לקייב",
+    "summary": "הפגנות ועימותים פרצו סביב מבנה מגורים בפרברי קייב שבו הוחזקו עשרות מגויסים וחיילים שנחשדו בעזיבת יחידותיהם ללא היתר. מפקד המשמר הלאומי אישר כי המקום משמש להחזקת חיילים, בעוד ברשתות נטען לאלימות קשה ולמניעת גישה רפואית.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T18:23:54+00:00",
+    "last_update_at": "2026-11-02T20:31:05+00:00",
+    "what_is_not_verified": "טענות ברשתות החברתיות על עינויים, פצועים והרוגים במרתף טרם אומתו באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2212117",
+      "published_at": "2026-11-02T20:31:05+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2212109",
+      "published_at": "2026-11-02T19:51:04+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49235",
+      "published_at": "2026-11-02T19:39:06+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/confrontation-involving-national-guard-soldiers-unfolds-near-kyiv-police-deny-hostage-reports/",
+      "published_at": "2026-11-02T18:56:31+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2212087",
+      "published_at": "2026-11-02T18:23:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פטרופבלובסקיה בורשצ'אגובקה, אוקראינה",
+      "lat": 50.4372,
+      "lon": 30.346
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-06",
+    "title": "הקמת מעטפת לוחמה אלקטרונית להגנת קייב מפני כטב\"מים",
+    "summary": "יועץ טכנולוגיות ההגנה לנשיא אוקראינה הודיע על השלמת הקמת כיפה אלקטרונית מעל שמי קייב, שמטרתה לשבש את תקשורת הרדיו שבה משתמשים כטב\"מי תקיפה רוסיים.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T17:24:00+00:00",
+    "last_update_at": "2026-11-02T17:24:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_3fbc6cfbb6d87f9b",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060925/",
+      "published_at": "2026-11-02T17:24:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-07",
+    "title": "צו של נשיא רוסיה המחייב הקצאת שטחי חוות שרתים למדינה",
+    "summary": "נשיא רוסיה חתם על צו המחייב מפעילי מרכזי נתונים פרטיים להקצות עשרה אחוזים מהקיבולת לצורכי המדינה, ואיפשר שימוש במתקנים מחוץ למדינה באישור שירות הביטחון הפדרלי, בעקבות פגיעות כטב\"מים במרכזי מידע.",
+    "axis": "עורף רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T14:44:54+00:00",
+    "last_update_at": "2026-11-02T16:27:35+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/02/putin-orders-private-data-center-owners-to-reserve-10-of-capacity-for-the-state",
+      "published_at": "2026-11-02T16:27:35+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49224",
+      "published_at": "2026-11-02T14:44:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11022034-08",
+    "title": "פגיעה באוטובוס נוסעים באזור לוגנסק",
+    "summary": "אדם אחד נהרג ושמונה נפצעו בפגיעה באוטובוס נוסעים שנסע בציר שבין לוגנסק לזימוגוריה בשטח שבשליטה רוסית.",
+    "axis": "חזית המזרח - לוגנסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T20:10:16+00:00",
+    "last_update_at": "2026-11-02T20:10:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2212113",
+      "published_at": "2026-11-02T20:10:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוגנסק, אוקראינה",
+      "lat": 48.5717,
+      "lon": 39.2973
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-09",
+    "title": "מותו של שבוי מלחמה אוקראיני במהלך משפט ברוסיה",
+    "summary": "חייל ושבוי מלחמה אוקראיני, רוסלן רומנוב, שהועמד לדין ברוסיה בסעיפי טרור בבית דין צבאי ברוסטוב על הדון, מת בעת שהותו במעצר.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T17:11:46+00:00",
+    "last_update_at": "2026-11-02T17:11:46+00:00",
+    "what_is_not_verified": "נסיבות המוות המדויקות, היחידה שבה שירת ומועד נפילתו בשבי אינם ידועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/02/ukrainian-pow-ruslan-romanov-dies-in-russia-while-facing-trial-on-three-terrorism-charges",
+      "published_at": "2026-11-02T17:11:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רוסטוב על הדון, רוסיה",
+      "lat": 47.261,
+      "lon": 39.7249
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11022034-10",
+    "title": "כוחות הביטחון של פולין נערכים לחבלות בגבול מחוז קלינינגרד",
+    "summary": "משטרת פולין וכוחות הביטחון הקימו מפקדת מבצעים מיוחדת ועיבו כוחות סמוך לגבול עם מובלעת קלינינגרד הרוסית, בעקבות התרעות מודיעיניות על כוונות לבצע פעולות חבלה וחדירות חמושות.",
+    "axis": "מדינות שכנות - פולין",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T18:10:00+00:00",
+    "last_update_at": "2026-11-02T18:10:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060934/",
+      "published_at": "2026-11-02T18:10:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר ההרוגים והנעדרים המדויק בתקיפה האווירית בקומישובאחה",
+   "טענות על עינויים ופגיעות בגוף במתקן המעצר המאולתר של המשמר הלאומי ליד קייב",
+   "זהות הגורמים האחראים לפריצת הסייבר ליישומוני ההתרעה באוקראינה וברוסיה",
+   "מספר האזרחים המדויק שנותרו בעיירה אולשקי לאחר תום מבצע הפינוי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1216,
+    "unit": "USD",
+    "change_pct": 0.39,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על מרכזי אוכלוסייה ותשתיות קריטיות מפני מתקפות משולבות",
+     "השגת לחץ בינלאומי וסנקציות על הכנסות הנפט והגז של רוסיה לסיום המלחמה",
+     "הרחבת הפסקות אש הומניטריות לצורך חילוץ אזרחים באזורי לחימה נוספים"
+    ],
+    "inferred": [
+     "ייצוב המשמעת הצבאית ומניעת נשירה ועריקות בקרב כוחות המילואים והמגויסים",
+     "הפחתת התלות בהגנה אווירית קונבנציונלית באמצעות מערכות חסימה אלקטרוניות עירוניות"
+    ],
+    "forecast": [
+     "המשך פגיעות ממוקדות בתשתיות מחשוב ואנרגיה בתוך רוסיה",
+     "החרפת האכיפה והמתח הציבורי סביב גיוס כפוי ועריקות בעורף"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "שלילת האפשרות להסדרי פינוי הומניטריים נוספים במתכונת אולשקי בעת הנוכחית",
+     "הבטחת פעילותם ורציפותם של משאבי המידע הממשלתיים מפני פעולות עוינות"
+    ],
+    "inferred": [
+     "שחיקת המורל האזרחי ופגיעה בשרשראות האספקה והסיוע בעומק אוקראינה",
+     "הכנת מתקפה רחבה נגד תשתיות האנרגיה לקראת החורף תוך ניצול עומס פוליטי במערב"
+    ],
+    "forecast": [
+     "הגברת קצב התקיפות המשולבות של כטב\"מים וטילים לעבר רשת החשמל והלוגיסטיקה האוקראינית",
+     "העמקת פעולות הלוחמה ההיברידית ושיבושי סייבר במדינות אירופה השכנות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/confrontation-involving-national-guard-soldiers-unfolds-near-kyiv-police-deny-hostage-reports/",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/02/ukrainian-pow-ruslan-romanov-dies-in-russia-while-facing-trial-on-three-terrorism-charges",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060934/",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2212113",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49224",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4180656-death-toll-from-russian-strike-on-school-in-komyshuvakha-rises-to-24.html",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/11/1168722",
+    "accessed_at": "2026-11-02T20:34:06+00:00"
+   }
+  ]
+ }
+}

@@ -848,6 +848,10 @@
 53.5502,
 10.0013
 ],
+"hamedan, iran": [
+34.7993,
+48.5152
+],
 "hamidiyah, syria": [
 34.6638,
 37.0159
@@ -1023,6 +1027,10 @@
 42.558
 ],
 "jordan-syria border": null,
+"jouret el-ballout, lebanon": [
+33.8945,
+35.6294
+],
 "jubail, saudi arabia": [
 27.0007,
 49.6532
@@ -1200,6 +1208,10 @@
 "klimovo, russia": [
 52.3791,
 32.1971
+],
+"komyshuvakha, ukraine": [
+48.6403,
+37.4558
 ],
 "konotop, ukraine": [
 51.2397,
@@ -1745,6 +1757,10 @@
 32.0878,
 34.886
 ],
+"petropavlivska borshchahivka, ukraine": [
+50.4372,
+30.346
+],
 "pickaxe mountain, iran": null,
 "pokrovsk, ukraine": [
 48.2771,
@@ -1849,6 +1865,7 @@
 15.1885,
 42.6625
 ],
+"ras issa, yemen": null,
 "ras tanura, saudi arabia": [
 26.7074,
 50.0674
@@ -2375,6 +2392,7 @@
 "wadi al-salouqi, lebanon": null,
 "wadi slouki, lebanon": null,
 "wadi zibqin, lebanon": null,
+"warmian-masurian voivodeship, poland": null,
 "washington, d.c., united states": [
 38.8951,
 -77.0364

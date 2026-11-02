@@ -1,0 +1,536 @@
+{
+ "status": "draft",
+ "received_sha256_12": "15338fd81174",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 4,
+   "assessment": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-02T20:29:48+00:00",
+  "window": {
+   "from": "2026-11-01T20:29:48+00:00",
+   "to": "2026-11-02T20:29:48+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611022029"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל עומד בפני צומת הכרעה סביב בחירות האמצע בארצות הברית, תוך דריכות ביטחונית גבוהה לאפשרות של מתקפת פתע או חידוש המערכה הצבאית. במקביל לאיומים הדדיים ולהיערכות מדינות המפרץ לפגיעה בתשתיותיהן, מתנהלים מגעים עקיפים ויוזמה איראנית לפתיחה מהירה של מצר הורמוז בתמורה לוויתורים. הצדדים נעים בין איתותים על מוכנות להסדר מדיני לבין אזהרות על הסלמה רחבה וחסרת גבולות.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "מצור ימי מתמשך עם הצעה איראנית לפתיחה תוך יומיים ואזהרות ממדינות המפרץ מפני פגיעה בתשתיות"
+   },
+   {
+    "name": "הזירה האווירית והאסטרטגית מול איראן",
+    "status": "דריכות שיא לקראת הכרעה אמריקנית וישראלית לגבי תקיפה צבאית נרחבת לאחר בחירות האמצע"
+   },
+   {
+    "name": "שלוחות איראן (חזבאללה)",
+    "status": "המשך תמיכה כספית ישירה מטהראן לשיקום נזקי המלחמה ברובע הדאחיה בביירות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11022029-01",
+    "title": "הצעה איראנית לפתיחת מצר הורמוז וחידוש שיחות תוך יומיים",
+    "summary": "טהראן הציגה מתווה מזורז לפתיחת מצר הורמוז הנצור וחידוש המשא ומתן עם ארצות הברית בתוך יומיים, בתנאי שדרישותיה ייענו.",
+    "axis": "איראן - ארה\"ב ומצר הורמוז",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T13:59:21+00:00",
+    "last_update_at": "2026-11-02T18:49:26+00:00",
+    "what_is_not_verified": "התנאים המדויקים שהציבה איראן והסכמת ארצות הברית לקבלם אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+      "published_at": "2026-11-02T18:49:26+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
+      "published_at": "2026-11-02T17:42:22+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/video/20261102-iran-offers-deal-on-hormuz-strait-netanyahu-wants-to-finish-the-job",
+      "published_at": "2026-11-02T17:04:54+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-gives-2-day-window-hormuz-deal-us-mulls-strikes-what-know",
+      "published_at": "2026-11-02T16:18:09+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-ready-reopen-hormuz-two-days-if-us-agrees-demands",
+      "published_at": "2026-11-02T13:59:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11022029-02",
+    "title": "אזהרת מדינות המפרץ לאיראן מפני פגיעה בתשתיות",
+    "summary": "מדינות המפרץ העבירו אזהרה לטהראן כי פגיעה בתשתיותיהן במקרה של הסלמה תוביל לתגובה צבאית חריפה, במשותף או בנפרד.",
+    "axis": "איראן - מדינות המפרץ",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T16:33:20+00:00",
+    "last_update_at": "2026-11-02T20:00:07+00:00",
+    "what_is_not_verified": "זהות המדינות המדויקות שהעבירו את האזהרה ואופן התגובה המתוכנן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94928",
+      "published_at": "2026-11-02T20:00:07+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21763638",
+      "published_at": "2026-11-02T19:14:42+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjv8squtmx",
+      "published_at": "2026-11-02T16:33:20+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11022029-03",
+    "title": "מחלוקת ודריכות לקראת אפשרות של תקיפה נגד איראן",
+    "summary": "במערכת הביטחון בישראל ובארצות הברית נרשמת היערכות לאפשרות של חידוש הלחימה, לצד דיווחים סותרים לגבי לחץ ישראלי לפעולה צבאית מיד לאחר בחירות האמצע.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T03:42:26+00:00",
+    "last_update_at": "2026-11-02T19:14:42+00:00",
+    "what_is_not_verified": "קיומו של לחץ מצד ראש ממשלת ישראל על הנשיא האמריקני הוכחש רשמית בידי שגריר ישראל באו\"ם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21763638",
+      "published_at": "2026-11-02T19:14:42+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bjy9gi8tfg",
+      "published_at": "2026-11-02T19:04:17+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611029410",
+      "published_at": "2026-11-02T18:39:50+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383959733",
+      "published_at": "2026-11-02T03:42:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11022029-04",
+    "title": "התבטאויות טראמפ בנוגע לאיראן בעצרות בחירות",
+    "summary": "הנשיא טראמפ השמיע מסרים כפולים שנעו בין מוכנות להסכם לבין איומים להנחית מכה קשה, וציין כי איראן ביקשה לחדול מפגיעה במנהיגיה.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T01:17:14+00:00",
+    "last_update_at": "2026-11-02T19:56:18+00:00",
+    "what_is_not_verified": "אמיתות הטענה שאיראן פנתה בבקשה רשמית לעצור פגיעה במנהיגיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133002",
+      "published_at": "2026-11-02T19:56:18+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133001",
+      "published_at": "2026-11-02T19:49:34+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1384159",
+      "published_at": "2026-11-02T19:38:55+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94924",
+      "published_at": "2026-11-02T01:17:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11022029-05",
+    "title": "הענקת סמכויות לממשלת איראן לניהול מגעים מדיניים",
+    "summary": "נשיא איראן מסעוד פזשכיאן הודיע כי המנהיג העליון העניק לממשלה סמכויות מוגדרות לניהול שיחות על מנת לפתור סוגיות בדיאלוג.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T14:20:06+00:00",
+    "last_update_at": "2026-11-02T16:33:20+00:00",
+    "what_is_not_verified": "היקף הסמכויות שהוענקו וגבולות הוויתורים האיראניים המותרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjv8squtmx",
+      "published_at": "2026-11-02T16:33:20+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-supreme-leader-gave-government-certain-authorities-over-talks",
+      "published_at": "2026-11-02T14:20:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11022029-06",
+    "title": "התייעצות ביטחונית בין בכיר איראני לנשיא רוסיה",
+    "summary": "מזכיר המועצה העליונה לביטחון לאומי באיראן, מוחסן רזאי, שוחח בטלפון עם נשיא רוסיה ולדימיר פוטין על המלחמה מול ארצות הברית וישראל והתיאום האסטרטגי.",
+    "axis": "איראן - רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T15:02:59+00:00",
+    "last_update_at": "2026-11-02T15:33:04+00:00",
+    "what_is_not_verified": "פרטי הסיכומים המעשיים והסיוע הרוסי אם סוכם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_69d1a8d72f9941ee",
+      "url": "https://en.irna.ir/news/86310474/Iran-Russia-reaffirm-commitment-to-strategic-cooperation",
+      "published_at": "2026-11-02T15:33:04+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_69d1a8d72f9941ee",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-discusses-us-israel-war-russian-president-state",
+      "published_at": "2026-11-02T15:02:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11022029-07",
+    "title": "תגבור אבטחה סביב בית טראמפ בעקבות מידע על כוונת התנקשות איראנית",
+    "summary": "הוצבו מערכות הגנה נגד כטב\"מים סביב מעונו של טראמפ בפלורידה בעקבות התרעה מודיעינית על ניסיון איראני לפגוע בו כנקמה על מות חמינאי.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T17:46:13+00:00",
+    "last_update_at": "2026-11-02T17:46:13+00:00",
+    "what_is_not_verified": "מידת ההתקדמות של המזימה והמעורבות הישירה של הפיקוד בטהראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21763010",
+      "published_at": "2026-11-02T17:46:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פלורידה, ארצות הברית",
+      "lat": 18.3756,
+      "lon": -66.5602
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11022029-08",
+    "title": "אימון טילים של משמרות המהפכה באיראן",
+    "summary": "טיל נצפה בשמי חמדאן במסגרת תרגיל צבאי שביצעו משמרות המהפכה.",
+    "axis": "איראן פנימי וביטחוני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T16:58:54+00:00",
+    "last_update_at": "2026-11-02T16:58:54+00:00",
+    "what_is_not_verified": "דגם הטיל ומטרות התרגיל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49227",
+      "published_at": "2026-11-02T16:58:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמדאן, איראן",
+      "lat": 34.7993,
+      "lon": 48.5152
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11022029-09",
+    "title": "חלוקת כספים של חזבאללה בביירות במימון איראני",
+    "summary": "בכיר חזבאללה הודיע על מענקי סיוע כספי לתושבים שבתיהם נהרסו ברובע הדאחיה, על רקע דיווח בדבר העברת 200 מיליון דולר מאיראן.",
+    "axis": "איראן - חזבאללה מול ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T15:39:59+00:00",
+    "last_update_at": "2026-11-02T15:39:59+00:00",
+    "what_is_not_verified": "ההעברה בפועל של 200 מיליון הדולר מטהראן לארגון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132992",
+      "published_at": "2026-11-02T15:39:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11022029-10",
+    "title": "אזהרה איראנית מפני התארכות המלחמה והרחבתה",
+    "summary": "גורמים באיראן הזהירו כי עימות צבאי חדש עם ארצות הברית עלול להימשך זמן רב יותר מהסבב הקודם ולכלול תגובה ללא מגבלות גיאוגרפיות.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T00:23:23+00:00",
+    "last_update_at": "2026-11-02T00:23:23+00:00",
+    "what_is_not_verified": "היכולת האיראנית המעשית להרחיב את הלחימה מעבר לזירה המקומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+      "published_at": "2026-11-02T00:23:23+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענה לפיה ראש ממשלת ישראל לוחץ על טראמפ לפתוח במתקפה נגד איראן, שהוכחשה על ידי שגריר ישראל באו\"ם",
+   "פרטי ניסיון ההתנקשות האיראני בטראמפ שהוביל להצבת אמצעי הגנה בפלורידה",
+   "נכונותה המעשית של ארצות הברית לקבל את תנאי איראן להסרת המצור במצר הורמוז תוך יומיים",
+   "דיווחים על כוונה ישראלית להנחית מכת פתיחה נגד איראן במבצע המדמה את מתקפת הביפרים",
+   "טענת טראמפ כי איראן פנתה רשמית בבקשה להפסיק את חיסול בכיריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1393,
+    "unit": "ILS",
+    "change_pct": 0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הסרת המצור הימי במצר הורמוז וחידוש המשא ומתן תוך יומיים אם ימולאו דרישותיה",
+     "אי-כניעה לתוקפנות צבאית ותגובה חסרת גבולות גיאוגרפיים במקרה של מתקפה מחודשת",
+     "פתרון סוגיות המחלוקת באמצעות דיאלוג תחת סמכויות שהוענקו מהמנהיג העליון"
+    ],
+    "inferred": [
+     "מניעת מתקפה אמריקנית-ישראלית נוספת לפני או בסמוך לבחירות בארצות הברית",
+     "הפחתת הלחץ הכלכלי הבינלאומי באמצעות מנוף פתיחת נתיבי הנפט במפרץ",
+     "שימור רשת השלוחות והמשך מימון פעילות חזבאללה בלבנון"
+    ],
+    "forecast": [
+     "המשך איתותים דיפלומטיים מהירים לצד שמירה על מוכנות לירי טילים",
+     "הפעלת לחץ עקיף על שוק האנרגיה במידה והשיחות ייקלעו למבוי סתום"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "השארת כל האפשרויות פתוחות, כולל תקיפה חזקה נגד מטרות באיראן לצד פתיחות להסכם",
+     "הפסקת החיסולים אם טהראן תחדל מהתנהלותה התוקפנית"
+    ],
+    "inferred": [
+     "דחיית החלטות צבאיות דרמטיות עד לסיום יום הבחירות לקונגרס",
+     "הורדת מחירי הנפט והסרת המצור במצר הורמוז כדי להקל על הלחץ הכלכלי",
+     "חיזוק ההרתעה מפני מתקפת פתע איראנית על יעדים ונציגויות במזרח התיכון"
+    ],
+    "forecast": [
+     "קבלת הכרעה בסוגיית התקיפה או הפנייה למשא ומתן רשמי מיד לאחר הבחירות",
+     "הגברת האבטחה וההגנה סביב אישים אמריקאים ונכסים אזוריים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הכחשה רשמית באו\"ם של הפעלת לחץ על הממשל האמריקני לפתוח במתקפה צבאית",
+     "הבעת עמדה של סיום המלאכה מול איומי המשטר האיראני"
+    ],
+    "inferred": [
+     "שאיפה לניצול חלון ההזדמנויות לאחר הבחירות בארצות הברית לפגיעה בתוכנית הגרעין האיראנית",
+     "תיאום ביטחוני צמוד עם צבא ארצות הברית מחשש למתקפה איראנית ישירה או באמצעות שלוחות",
+     "שמירה על עמימות מבצעית לגבי תוכניות תקיפה עתידיות"
+    ],
+    "forecast": [
+     "שמירה על רמת כוננות ודריכות גבוהה במערכי ההגנה והמודיעין",
+     "המשך תיאום מבצעי עם הפיקוד האמריקני לבחינת תרחישי תגובה"
+    ]
+   },
+   {
+    "actor": "מדינות המפרץ",
+    "declared": [
+     "אזהרה נחרצת לפיה כל פגיעה בתשתיותיהן תגרור תגובה צבאית קשה יחד או בנפרד"
+    ],
+    "inferred": [
+     "חשש מהפיכת שטחן לשדה קרב משני בין איראן לקואליציה האמריקנית-ישראלית",
+     "הפעלת לחץ דיפלומטי על כלל הצדדים למניעת הידרדרות אזורית שתפגע בכלכלת הנפט"
+    ],
+    "forecast": [
+     "המשך היערכות ביטחונית עצמאית והגברת התיאום מול ארצות הברית",
+     "ניסיונות גישור שקטים להרגעת המתיחות הימית במצר הורמוז"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iran-gives-2-day-window-hormuz-deal-us-mulls-strikes-what-know",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611029410",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86310474/Iran-Russia-reaffirm-commitment-to-strategic-cooperation",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21763010",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1384159",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-discusses-us-israel-war-russian-president-state",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132992",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49227",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94924",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383959733",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rjv8squtmx",
+    "accessed_at": "2026-11-02T20:29:48+00:00"
+   }
+  ]
+ }
+}

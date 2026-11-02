@@ -1,0 +1,363 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ffa4966c8157",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-02T20:40:22+00:00",
+  "window": {
+   "from": "2026-11-01T20:40:22+00:00",
+   "to": "2026-11-02T20:40:22+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611022040"
+  },
+  "summary": "הלחימה בתימן הסלימה משמעותית בעקבות קריסת הפסקת האש, כאשר כוחות החות'ים מנהלים מתקפה רחבה ומתקרבים לכדי שמונים קילומטרים ממעוז הממשלה בעדן לצד הטלת מצור על תעז. במקביל, החות'ים חידשו את הפשיטות הקרקעיות ושיגורי הכטב\"מים אל תוך שטח סעודיה, ומנגד הקואליציה בהובלת סעודיה מגיבה בתקיפות אוויריות נרחבות על נמלים ותשתיות נפט בחודיידה. צבא ממשלת תימן מתגבר את מוכנותו הביטחונית ומצהיר על כוונה לבלום את המערך הרקטי והבליסטי של החות'ים.",
+  "fronts": [
+   {
+    "name": "ציר עדן-תעז (דרום תימן)",
+    "status": "מתקפה קרקעית של החות'ים, התקדמות לצירים מרכזיים והידוק המצור על תעז מול כוחות הממשלה"
+   },
+   {
+    "name": "גבול תימן-סעודיה",
+    "status": "חידוש פשיטות קרקעיות חות'יות על מוצבי משמר הגבול ותקיפת כלי רכב"
+   },
+   {
+    "name": "עורף סעודיה (ריאד, ג'יזאן, דמאם)",
+    "status": "שיגורי כטב\"מים חות'יים לעבר נמלי תעופה ויירוטים בסמוך לבירה, לצד איומים על מתקני נפט"
+   },
+   {
+    "name": "חוף הים האדום (חודיידה, ראס עיסא)",
+    "status": "תקיפות אוויריות של הקואליציה הסעודית נגד נמלים, מכליות ותשתיות אנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11022040-01",
+    "title": "התקדמות כוחות החות'ים למרחק כשמונים קילומטרים מעדן והידוק המצור על תעז",
+    "summary": "החות'ים השתלטו על מחוז הררי בנתיב לעדן ונלחמים על צירי גישה מרכזיים, תוך איום על דרכי הגישה לתעז הנמצאת תחת מצור.",
+    "axis": "דרום תימן / עדן ותעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T15:47:06+00:00",
+    "last_update_at": "2026-11-02T16:40:18+00:00",
+    "what_is_not_verified": "המרחק המדויק מקווי החזית לעדן והשליטה המלאה בצירים לא אומתו באופן עצמאי מעבר לעדויות מקורות צבאיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21762621",
+      "published_at": "2026-11-02T16:40:18+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-advance-within-80-km-aden-sources-say",
+      "published_at": "2026-11-02T15:47:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11022040-02",
+    "title": "פשיטות קרקעיות של החות'ים על מוצבים צבאיים בגבול סעודיה",
+    "summary": "החות'ים ביצעו פשיטות מעבר לגבול לעבר מוצבים בדרום-מערב סעודיה ותקפו כלי רכב, תוך תפיסת אמצעי לחימה של משמר הגבול הסעודי.",
+    "axis": "גבול תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T17:30:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T17:30:01+00:00",
+    "last_update_at": "2026-11-02T18:50:04+00:00",
+    "what_is_not_verified": "סעודיה לא אישרה רשמית את הפשיטות, תפיסת הנשק או הפגיעה בכלי הרכב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/houthis-launched-cross-border-raids-saudi-arabian-military-posts-sources-say",
+      "published_at": "2026-11-02T18:50:04+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49229",
+      "published_at": "2026-11-02T17:30:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11022040-03",
+    "title": "שיגורי כטב\"מים של החות'ים לעבר יעדים בסעודיה",
+    "summary": "החות'ים טענו לתקיפת נמלי התעופה בג'יזאן ובדמאם, ובמקביל יורטו כלי טיס בלתי מאוישים באזור ריאד לצד איומים לפגוע במתקני חברת ארמקו.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T16:40:18+00:00",
+    "last_update_at": "2026-11-02T17:17:53+00:00",
+    "what_is_not_verified": "מידת הפגיעה הממשית בנמלי התעופה בג'יזאן ובדמאם אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-intensive-negotiations-us-avert-war",
+      "published_at": "2026-11-02T17:17:53+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21762621",
+      "published_at": "2026-11-02T16:40:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'יזאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     },
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11022040-04",
+    "title": "תקיפות אוויריות של הקואליציה בהובלת סעודיה בנמל חודיידה ובאתרי נפט",
+    "summary": "הקואליציה תקפה יעדים בנמל חודיידה, נמל ראס עיסא ומתקן נפט במחוז באג'יל, ופגעה ברציף, באונייה מסחרית ובמבנה אוניברסיטאי.",
+    "axis": "מערב תימן / הים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T12:15:21+00:00",
+    "last_update_at": "2026-11-02T12:15:21+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומידת הפגיעה באזרחים לעומת מטרות צבאיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
+      "published_at": "2026-11-02T12:15:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "באג'יל, תימן",
+      "lat": 15.0756,
+      "lon": 43.1735
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11022040-05",
+    "title": "פגיעת טיל חות'י במרפאה בדרום תימן",
+    "summary": "תקיפת טיל שיוחסה לחות'ים פגעה במרפאה בעיירת החוף ראס אל-ערה במחוז לחג' וגרמה להרוגים ולפצועים.",
+    "axis": "דרום תימן / לחג'",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T12:15:21+00:00",
+    "last_update_at": "2026-11-02T12:15:21+00:00",
+    "what_is_not_verified": "מספר הנפגעים הסופי טרם אומת מעבר לנתונים הראשוניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
+      "published_at": "2026-11-02T12:15:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראס אל-ערה, תימן",
+      "lat": 12.6084,
+      "lon": 43.9158
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11022040-06",
+    "title": "נפילת טיל כושל של החות'ים באזור תעז",
+    "summary": "טיל ששיגורו נכשל נפל דרומית לתעז וגרם לפגיעה במספר רב של אזרחים, בהם ילדים.",
+    "axis": "דרום תימן / תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T19:24:40+00:00",
+    "last_update_at": "2026-11-02T19:24:40+00:00",
+    "what_is_not_verified": "הפרטים המבצעיים המדויקים על סוג הטיל ומקום השיגור לא אומתו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_612dbb577630ab13",
+      "url": "https://www.sabanew.net/viewstory/155076",
+      "published_at": "2026-11-02T19:24:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11022040-07",
+    "title": "הודעת צבא תימן על צעדים לנטרול יכולות הטילים של החות'ים",
+    "summary": "הכוחות המזוינים של ממשלת תימן הודיעו כי ינקטו צעדים מבצעיים מרתיעים וקפדניים כדי לנטרל את המערך הבליסטי של החות'ים.",
+    "axis": "תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T19:35:50+00:00",
+    "last_update_at": "2026-11-02T19:35:50+00:00",
+    "what_is_not_verified": "היקף התוכנית המבצעית ומועד מימושה בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6b8efe02b21dd3b7",
+      "url": "https://www.sabanew.net/viewstory/155080",
+      "published_at": "2026-11-02T19:35:50+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים לפגיעות ישירות בנמלי התעופה בג'יזאן ובדמאם",
+   "מספר הנפגעים המדויק בתקיפות על מתקני הנפט בנמל ראס עיסא ובמחוז באג'יל",
+   "ההיקף המדויק של הנשק שנלקח לכאורה ממוצבי הגבול הסעודיים",
+   "הדיווחים על פגיעה במבנה הפקולטה לרפואה באוניברסיטת חודיידה",
+   "שיעור השליטה המבצעית של החות'ים ברכסים ההרריים המובילים לעדן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1393,
+    "unit": "ILS",
+    "change_pct": 0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "תקיפת מתקנים צבאיים ונמלי תעופה בסעודיה",
+     "איום בפגיעה במתקני חברת הנפט ארמקו"
+    ],
+    "inferred": [
+     "כיבוש שטחים והפלת הממשלה המוכרת באמצעות איום ישיר על עדן",
+     "הפעלת לחץ כלכלי וצבאי על סעודיה להפסקת התערבותה באמצעות תקיפות בעומק הממלכה"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות לעבר צירי אספקה קריטיים בדרום תימן",
+     "הסלמת שיגורי כטב\"מים וטילים לעבר מטרות תשתית אנרגיה בסעודיה"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן והקואליציה בהובלת סעודיה",
+    "declared": [
+     "נקיטת פעולות צבאיות מרתיעות להשמדת וניטרול היכולות הבליסטיות של החות'ים",
+     "תקיפות מדויקות לפגיעה במשאבים חיוניים המשמשים את המיליציה בנמלי הים האדום"
+    ],
+    "inferred": [
+     "הגנה על מרחב עדן ומניעת נפילת בירת הממשלה הזמנית",
+     "הגבלת יכולת החות'ים לייבא אמצעי לחימה דרך נמלי הים האדום",
+     "בלימת חדירות קרקעיות לגבול הדרומי של סעודיה"
+    ],
+    "forecast": [
+     "החרפת התקיפות האוויריות על תשתיות לוגיסטיות ונמלים שבשליטת החות'ים",
+     "תגבור מערכי ההגנה סביב עדן וסביב מתקני אנרגיה בסעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-advance-within-80-km-aden-sources-say",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21762621",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/houthis-launched-cross-border-raids-saudi-arabian-military-posts-sources-say",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155080",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49229",
+    "accessed_at": "2026-11-02T20:40:22+00:00"
+   }
+  ]
+ }
+}
