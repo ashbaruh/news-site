@@ -1,0 +1,498 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9f9267f94cc1",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-02T06:44:06+00:00",
+  "window": {
+   "from": "2026-11-01T06:44:06+00:00",
+   "to": "2026-11-02T06:44:06+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611020644"
+  },
+  "summary": "הלחימה בין צבא רוסיה לצבא אוקראינה נמשכת בחילופי תקיפות אוויריות נרחבות של כטב\"מים לעבר יעדי תשתית, לצד פעולות מקומיות בקווי המגע. הפסקת אש הומניטרית בת שישה ימים בעיר אולשקי הגיעה לסיומה לאחר פינוי תושבים, בעוד המרחב הקיברנטי חווה מתקפות פריצה על מערכות התרעת האוכלוסייה. במקביל למאמצים צבאיים נרשמים גישושים דיפלומטיים סביב מגעים אפשריים בתיווך בינלאומי לקראת חידוש שיחות.",
+  "fronts": [
+   {
+    "name": "חזית חרסון (אולשקי והדניפרו)",
+    "status": "סיום הפוגה הומניטרית זמנית, חזרה לדריכות צבאית ודיווחים על ביצור עמדות"
+   },
+   {
+    "name": "חזית הצפון / מחוז סומי",
+    "status": "תקיפות נקודתיות של כטב\"מים רוסיים נגד כלי רכב וציוד אוקראיני"
+   },
+   {
+    "name": "מרחב העורף והאנרגיה (רוסיה ואוקראינה)",
+    "status": "תקיפות הדדיות אינטנסיביות של נחילי כטב\"מים לעבר מתקני נפט, אנרגיה ומבנים אזרחיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11020644-01",
+    "title": "מתקפת כטב\"מים רוסית נרחבת על אוקראינה ויירוט רובם",
+    "summary": "כוחות רוסיים שיגרו 193 כלי טיס בלתי מאוישים מסוגים שונים לעבר אוקראינה. מערכות ההגנה האווירית של אוקראינה יירטו או שיבשו 154 מהם, בעוד שנרשמו פגיעות ב-26 אתרים ונפילות שברי יירוט במספר מוקדים.",
+    "axis": "רוסיה - אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T18:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T05:56:00+00:00",
+    "last_update_at": "2026-11-02T06:10:00+00:00",
+    "what_is_not_verified": "אין אימות עצמאי להיקף היירוטים המדויק או לכמות הנזק בכל 26 מוקדי הפגיעה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060800/",
+      "published_at": "2026-11-02T06:10:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4180368-air-defenses-down-154-out-of-193-drones-used-by-russia-to-attack-ukraine-since-evening.html",
+      "published_at": "2026-11-02T05:56:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוריול, רוסיה",
+      "lat": 52.9709,
+      "lon": 36.0642
+     },
+     {
+      "name": "קורסק, רוסיה",
+      "lat": 51.727,
+      "lon": 36.1922
+     },
+     {
+      "name": "בריאנסק, רוסיה",
+      "lat": 53.2789,
+      "lon": 34.3659
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-02",
+    "title": "פגיעת כטב\"ם רוסי במעונות סטודנטים במחוז ויניצה",
+    "summary": "כטב\"ם רוסי פגע בסמוך למעונות מוסד לימודי בקהילת קוזיאטין שבמחוז ויניצה, וגרם למותם של נערה בת 13 ואישה, ולפציעת ארבעה בני אדם נוספים בהם ילדים.",
+    "axis": "מחוז ויניצה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T19:02:26+00:00",
+    "last_update_at": "2026-11-02T03:23:00+00:00",
+    "what_is_not_verified": "בדיווחים הראשוניים נמסר על גבר שנהרג, פרט שתוקן בהמשך לנערה בת 13",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060746/",
+      "published_at": "2026-11-02T03:23:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-drone-strike-near-school-dormitory-kills-13-year-old-in-vinnytsia-oblast-injures-more-children/",
+      "published_at": "2026-11-01T19:02:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קוזיאטין, אוקראינה",
+      "lat": 49.7196,
+      "lon": 28.8354
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-03",
+    "title": "סיום הפסקת האש ההומניטרית באולשקי ופינוי אזרחים",
+    "summary": "הפסקת האש המקומית שנמשכה שישה ימים בעיר הכבושה אולשקי שבאזור חרסון הגיעה לסיומה. במסגרת המבצע פונו אזרחים לשטחים בשליטת אוקראינה, בעוד שצבא אוקראינה טוען כי רוסיה ניצלה את ההפוגה לביצור עמדותיה.",
+    "axis": "מחוז חרסון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T17:24:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T17:24:31+00:00",
+    "last_update_at": "2026-11-02T06:37:00+00:00",
+    "what_is_not_verified": "הטענה שרוסיה ניצלה את ההפוגה לביצור עמדות נמסרה מצד אחד בלבד ולא אומתה באופן בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4180373-russia-used-humanitarian-pause-in-oleshky-to-fortify-its-positions-general-staff.html",
+      "published_at": "2026-11-02T06:37:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2211629",
+      "published_at": "2026-11-02T04:44:38+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4180361-lubinets-announces-end-of-ceasefire-in-oleshky.html",
+      "published_at": "2026-11-02T04:25:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "published_at": "2026-11-02T00:34:41+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-forces-evacuate-civilians-around-kherson-oblast-during-oleshky-ceasefire/",
+      "published_at": "2026-11-01T23:38:34+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060780/",
+      "published_at": "2026-11-01T21:42:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2211569",
+      "published_at": "2026-11-01T17:49:23+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/tears-and-joy-as-oleshky-residents-reunite-with-relatives-in-ukraine/",
+      "published_at": "2026-11-01T17:24:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-04",
+    "title": "מתקפות סייבר הדדיות על יישומוני ההתרעות באוקראינה וברוסיה",
+    "summary": "האפליקציה הרשמית להתרעות אוויריות באוקראינה נפרצה והציגה התרעות שווא על מתקפה גרעינית, שימוש בנשק כימי ושיגור טילי אורשניק. בהמשך דיווח המשרד למצבי חירום של רוסיה על מתקפת סייבר שפגעה ביישומון ההתרעות שלו.",
+    "axis": "סייבר ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T21:29:01+00:00",
+    "last_update_at": "2026-11-02T06:39:36+00:00",
+    "what_is_not_verified": "זהות התוקפים במדויק ורמת הנזק התשתיתי ליישומים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1383812",
+      "published_at": "2026-11-02T06:39:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "published_at": "2026-11-02T00:34:41+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49209",
+      "published_at": "2026-11-02T00:34:02+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21756681",
+      "published_at": "2026-11-01T23:10:02+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49206",
+      "published_at": "2026-11-01T22:56:38+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/",
+      "published_at": "2026-11-01T21:29:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-05",
+    "title": "תקיפות כטב\"מים אוקראיניות על מתקני נפט בעומק רוסיה",
+    "summary": "כטב\"מים אוקראיניים ארוכי טווח פגעו לפי דיווחים במתקני אנרגיה ובתי זיקוק לנפט ברוסיה, בהם בית הזיקוק בקסטובו שבמחוז ניז'ני נובגורוד ותחנת שאיבה וזיקוק בסמארה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T16:59:37+00:00",
+    "last_update_at": "2026-11-02T05:18:36+00:00",
+    "what_is_not_verified": "היקף הנזק הממשי במתקני הנפט ברוסיה טרם אומת באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-oil-facility-in-russias-samara-oblast-in-overnight-attack/",
+      "published_at": "2026-11-02T05:18:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil",
+      "published_at": "2026-11-01T17:20:18+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+      "published_at": "2026-11-01T16:59:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קסטובו, רוסיה",
+      "lat": 56.1496,
+      "lon": 44.198
+     },
+     {
+      "name": "פרוסבט, רוסיה",
+      "lat": 55.5691,
+      "lon": 65.0768
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-06",
+    "title": "יירוט עשרות כטב\"מים אוקראיניים בשמי מחוזות רוסיה",
+    "summary": "מערכות ההגנה האווירית של רוסיה יירטו והשמידו 47 כטב\"מים אוקראיניים מעל שורת מחוזות ברחבי המדינה, כולל מחוזות מוסקבה, קורסק, בלגורוד ורוסטוב.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T17:57:29+00:00",
+    "last_update_at": "2026-11-01T17:57:29+00:00",
+    "what_is_not_verified": "כמות היירוטים המדויקת מתבססת על הודעת משרד ההגנה הרוסי בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2211577",
+      "published_at": "2026-11-01T17:57:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בלגורוד, רוסיה",
+      "lat": 50.5956,
+      "lon": 36.5873
+     },
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-07",
+    "title": "הצהרת זלנסקי על נכונות לפסגה מדינית משולשת בטורקיה",
+    "summary": "נשיא אוקראינה וולודימיר זלנסקי הודיע על נכונותו להיפגש באיסטנבול עם מנהיגי רוסיה וארה\"ב בתיווך טורקי לדיון בסיום המלחמה, והדגיש כי אוקראינה לא תוותר על שטחיה הכבושים.",
+    "axis": "משא ומתן ומדיניות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T16:57:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T16:57:32+00:00",
+    "last_update_at": "2026-11-01T19:28:00+00:00",
+    "what_is_not_verified": "הסכמת הצד הרוסי או האמריקאי לקיום הפגישה באיסטנבול",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_cnn_turk",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060768/",
+      "published_at": "2026-11-01T19:28:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_cnn_turk",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060767/",
+      "published_at": "2026-11-01T19:09:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_cnn_turk",
+      "url": "https://t.me/alexmehacarmel/49199",
+      "published_at": "2026-11-01T16:57:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11020644-08",
+    "title": "תקיפת רכב קרבי משוריין אוקראיני במחוז סומי",
+    "summary": "צוות כטב\"מים של כוח המשימה הצפוני של צבא רוסיה תקף רכב משוריין מדגם קוזאק של צבא אוקראינה בשטח מחוז סומי.",
+    "axis": "מחוז סומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T03:05:00+00:00",
+    "last_update_at": "2026-11-02T03:05:00+00:00",
+    "what_is_not_verified": "מידת הנזק הסופי לרכב המשוריין והנפגעים באירוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2211617",
+      "published_at": "2026-11-02T03:05:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז סומי, אוקראינה",
+      "lat": 50.7371,
+      "lon": 35.4534
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הדיווחים על תקיפת מתקני הנפט הרוסיים בסמארה ובקסטובו מתבססים על ערוצי מעקב ותקשורת מקומית ואינם מאומתים רשמית",
+   "נתוני האבדות ההדדיים שפורסמו על ידי שני הצדדים (2,500 רוסים ביממה, 8,300 אוקראינים בשבוע) לא ניתנים לאימות עצמאי",
+   "ההאשמה האוקראינית כי רוסיה ניצלה את ההפוגה באולשקי להתבצרות לא אומתה ממקורות ניטרליים",
+   "הפרטים סביב מגעים אפשריים להסכם גז אמריקאי-אירופי דרך אוקראינה מבוססים על דיווח עיתונאי בלבד"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1172,
+    "unit": "USD",
+    "change_pct": 0.38,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שמירה על שלמותה הטריטוריאלית ואי-הכרה בשטחים הכבושים כולל חצי האי קרים",
+     "נכונות לפגישת פסגה משולשת באיסטנבול והגעה להפסקת אש מקיפה ומנוטרת"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ומורלי על רוסיה באמצעות פגיעה שיטתית במתקני זיקוק והפקת נפט",
+     "הרתעת הציבור וההנהגה ברוסיה באמצעות תגובות סייבר ואמצעים לא קונבנציונליים להפצת בהלה"
+    ],
+    "forecast": [
+     "אוקראינה תמשיך לנסות לפגוע בתשתיות אנרגיה רוסיות חרף לחצים פוליטיים בינלאומיים",
+     "קייב תמשיך ללחוץ לקבלת הזמנה ומעמד רשמי במפגשי פסגה בינלאומיים כמו ה-G20"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הלחימה לשחיקת הכוחות האוקראיניים ופגיעה בריכוזי כוחות ותשתיות",
+     "קיום מחויבויות הומניטריות נקודתיות כפי שהוגדרו בהסכם הזמני באולשקי"
+    ],
+    "inferred": [
+     "המשך שחיקת מערך ההגנה האווירית של אוקראינה באמצעות מתקפות כטב\"מים המוניות",
+     "ניצול הפוגות הומניטריות לצורך שיפור עמדות הגנה והתבצרות בשטחים שבשליטתה"
+    ],
+    "forecast": [
+     "הגברת התקיפות האוויריות על יעדי שלטון ותשתית לקראת החורף",
+     "דחיית הצעות למפגשי פסגה ישירים שאינם עולים בקנה אחד עם תנאיה המוקדמים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21756681",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1383812",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/01/8060767/",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2211617",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49199",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4180361-lubinets-announces-end-of-ceasefire-in-oleshky.html",
+    "accessed_at": "2026-11-02T06:44:06+00:00"
+   }
+  ]
+ }
+}
