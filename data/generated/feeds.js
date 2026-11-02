@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-02T06:17:30+00:00",
-  "fetched_at": "2026-11-02T06:17:30+00:00"
+  "checked_at": "2026-11-02T07:17:23+00:00",
+  "fetched_at": "2026-11-02T07:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T06:17:43+00:00",
-  "fetched_at": "2026-11-02T06:17:43+00:00"
+  "checked_at": "2026-11-02T07:17:35+00:00",
+  "fetched_at": "2026-11-02T07:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Retro-inspired JBL speakers, Musical Fidelity’s new CD player, an 8th Gen iPad Mini with a sonic surprise and more",
+    "title_he": "רמקולי JBL בהשראת רטרו, נגן התקליטורים החדש של Musical Fidelity, iPad Mini דור 8 עם הפתעה קולית ועוד",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/av/retro-inspired-jbl-speakers-musical-fidelitys-new-cd-player-an-8th-gen-ipad-mini-with-a-sonic-surprise-and-more",
+    "date": "2026-11-02T07:00:00+00:00"
+   },
    {
     "title_en": "Where to watch Blue Planet 3 – stream the David Attenborough series for free from anywhere",
     "title_he": "היכן ניתן לצפות ב-Blue Planet 3 - הזרימו את סדרת David Attenborough בחינם מכל מקום",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/ac-milan-vs-inter-live-stream-serie-a-free",
     "date": "2026-10-31T14:00:00+00:00"
-   },
-   {
-    "title_en": "Which albums sound great on vinyl? We asked, and you all gave a different answer",
-    "title_he": "אילו אלבומים נשמעים נהדר על ויניל? שאלנו, וכולכם נתתם תשובה אחרת",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/which-albums-sound-great-on-vinyl-we-asked-and-you-all-gave-a-different-answer",
-    "date": "2026-10-31T09:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T06:17:43+00:00",
-  "fetched_at": "2026-11-02T06:17:43+00:00"
+  "checked_at": "2026-11-02T07:17:36+00:00",
+  "fetched_at": "2026-11-02T07:17:36+00:00"
  },
- "generated_at": "2026-11-02T06:17:43+00:00",
+ "generated_at": "2026-11-02T07:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "רוחות מלחמה במזה\"ת: הפריסה האמריקנית אל מול הארסנל האיראני",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561631",
-     "date": "2026-11-02T04:00:00+00:00"
+     "date": "2026-11-02T06:06:00+00:00"
     }
    ],
    "market": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T06:17:31+00:00",
-  "fetched_at": "2026-11-02T06:17:31+00:00"
+  "checked_at": "2026-11-02T07:17:24+00:00",
+  "fetched_at": "2026-11-02T07:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T06:17:32+00:00",
-  "fetched_at": "2026-11-02T06:17:32+00:00"
+  "checked_at": "2026-11-02T07:17:25+00:00",
+  "fetched_at": "2026-11-02T07:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2808,8 +2808,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T06:17:34+00:00",
-  "fetched_at": "2026-11-02T06:17:34+00:00"
+  "checked_at": "2026-11-02T07:17:26+00:00",
+  "fetched_at": "2026-11-02T07:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2976,8 +2976,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T06:17:34+00:00",
-  "fetched_at": "2026-11-02T06:17:34+00:00"
+  "checked_at": "2026-11-02T07:17:26+00:00",
+  "fetched_at": "2026-11-02T07:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -3001,7 +3001,8 @@ window.DB.generated = {
    ],
    "candidates": 5,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3043,7 +3044,7 @@ window.DB.generated = {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
@@ -3064,7 +3065,7 @@ window.DB.generated = {
      "title": "FastH3-Omni",
      "desc_en": "FastVideo 8-step video+audio from image/video/audio refs",
      "desc_he": "FastVideo וידאו+אודיו בן 8 שלבים מתוך רשמי תמונה/וידאו/אודיו",
-     "likes": 89,
+     "likes": 91,
      "link": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     },
     {
@@ -3077,8 +3078,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T06:17:41+00:00",
-  "fetched_at": "2026-11-02T06:17:41+00:00"
+  "checked_at": "2026-11-02T07:17:34+00:00",
+  "fetched_at": "2026-11-02T07:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -3090,6 +3091,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "עילי פיינגולד"
+     ]
+    },
+    {
+     "title": "\"יציב באגף השמאלי\": בספרד החמיאו לרוי רביבו",
+     "link": "https://www.one.co.il/Article/537752.html?ref=rss",
+     "date": "2026-11-02T06:30:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -3127,15 +3137,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דיא סבע"
-     ]
-    },
-    {
-     "title": "90 דקות לרוי רביבו, אלצ'ה הפסידה 1:0 לוולנסיה",
-     "link": "https://www.one.co.il/Article/537647.html?ref=rss",
-     "date": "2026-11-01T17:30:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3420,11 +3421,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-02T06:17:38+00:00",
-  "fetched_at": "2026-11-02T06:17:38+00:00"
+  "checked_at": "2026-11-02T07:17:29+00:00",
+  "fetched_at": "2026-11-02T07:17:29+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "שני תרחישים, חזית אחת: דריכות שיא בצה\"ל לקראת בחירות האמצע בארה\"ב",
+    "link": "https://www.walla.co.il/news/military/383959733",
+    "date": "2026-11-02T03:42:26+00:00"
+   },
    {
     "title": "מחשש לכאוס ברצועה: צה\"ל מעניק \"חסינות\" לבכירים בחמאס",
     "link": "https://www.walla.co.il/news/military/383959618",
@@ -3444,67 +3450,61 @@ window.DB.generated = {
     "title": "פרסום ראשון: צה\"ל פותח כבישים בחברון ונערך לנסיגה הדרגתית מהאזור",
     "link": "https://www.walla.co.il/news/military/383959486",
     "date": "2026-10-30T13:19:54+00:00"
-   },
-   {
-    "title": "מתחת לאף: האמר צה\"לי נגנב מבסיס בדרום - חשש שישמש להתחזות לכוחות",
-    "link": "https://www.walla.co.il/news/military/383959432",
-    "date": "2026-10-30T06:05:54+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-02T06:17:38+00:00",
-  "fetched_at": "2026-11-02T03:17:33+00:00"
+  "ok": true,
+  "checked_at": "2026-11-02T07:17:29+00:00",
+  "fetched_at": "2026-11-02T07:17:29+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-02T04:59:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "newest": "2026-11-02T06:52:00+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-02T04:59:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-02T04:59:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-01T16:28:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-02T06:34:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-02T06:55:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "newest": "2026-11-02T07:55:00+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-02T06:11:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "newest": "2026-11-02T06:56:00+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-01T16:33:05+00:00",
-    "seen_at": "2026-11-02T03:17:37+00:00",
+    "newest": "2026-11-02T03:42:26+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3516,35 +3516,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-01T17:15:44+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-01T12:55:07+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-01T18:00:00+00:00",
-    "seen_at": "2026-11-02T06:17:43+00:00",
+    "newest": "2026-11-02T07:00:00+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-01T06:48:57+00:00",
-    "seen_at": "2026-11-02T05:17:34+00:00",
+    "seen_at": "2026-11-02T07:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-02T06:17:43+00:00"
+  "checked_at": "2026-11-02T07:17:36+00:00"
  },
  "health_news": {
   "data": [
@@ -3699,9 +3699,8 @@ window.DB.generated = {
     "date": "2026-10-15T15:39:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-02T06:17:38+00:00",
-  "fetched_at": "2026-11-02T05:17:30+00:00"
+  "ok": true,
+  "checked_at": "2026-11-02T07:17:30+00:00",
+  "fetched_at": "2026-11-02T07:17:30+00:00"
  }
 };
