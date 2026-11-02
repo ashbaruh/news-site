@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-02T12:17:15+00:00",
-  "fetched_at": "2026-11-02T12:17:15+00:00"
+  "checked_at": "2026-11-02T13:17:28+00:00",
+  "fetched_at": "2026-11-02T13:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:27+00:00",
-  "fetched_at": "2026-11-02T12:17:27+00:00"
+  "checked_at": "2026-11-02T13:17:44+00:00",
+  "fetched_at": "2026-11-02T13:17:44+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Sonus Faber Olympica G3 III",
+    "title_he": "סונוס פאבר אולימפיקה G3 III",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/sonus-faber-olympica-g3-iii",
+    "date": "2026-11-02T12:42:52+00:00"
+   },
+   {
+    "title_en": "This device lets you flick through your digital music collection like it's vinyl on a shelf",
+    "title_he": "מכשיר זה מאפשר לך לדפדף באוסף המוזיקה הדיגיטלית שלך כאילו הוא ויניל על מדף",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/this-device-lets-you-flick-through-your-digital-music-collection-like-its-vinyl-on-a-shelf",
+    "date": "2026-11-02T12:17:24+00:00"
+   },
    {
     "title_en": "How to watch Paris Masters 2026: live stream ATP 1000 Tennis for free from anywhere",
     "title_he": "איך לצפות ב-Paris Masters 2026: שידור חי של טניס ATP 1000 בחינם מכל מקום",
@@ -62,32 +76,18 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/streaming-abroad-without-constantly-counting-megabytes-why-a-travel-esim-fits-the-modern-digital-trip-better",
     "date": "2026-11-02T08:00:00+00:00"
-   },
-   {
-    "title_en": "Retro-inspired JBL speakers, Musical Fidelity’s new CD player, an 8th Gen iPad Mini with a sonic surprise and more",
-    "title_he": "רמקולי JBL בהשראת רטרו, נגן התקליטורים החדש של Musical Fidelity, iPad Mini דור 8 עם הפתעה קולית ועוד",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/av/retro-inspired-jbl-speakers-musical-fidelitys-new-cd-player-an-8th-gen-ipad-mini-with-a-sonic-surprise-and-more",
-    "date": "2026-11-02T07:00:00+00:00"
-   },
-   {
-    "title_en": "Where to watch Blue Planet 3 – stream the David Attenborough series for free from anywhere",
-    "title_he": "היכן ניתן לצפות ב-Blue Planet 3 - הזרימו את סדרת David Attenborough בחינם מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/where-to-watch-blue-planet-3-stream-the-david-attenborough-series-for-free-from-anywhere",
-    "date": "2026-11-01T18:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:28+00:00",
-  "fetched_at": "2026-11-02T12:17:28+00:00"
+  "checked_at": "2026-11-02T13:17:46+00:00",
+  "fetched_at": "2026-11-02T13:17:46+00:00"
  },
- "generated_at": "2026-11-02T12:17:28+00:00",
+ "generated_at": "2026-11-02T13:17:46+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון\"",
+     "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון אבל במשרדים יש מגדלים עם רשימות המתנה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561641",
      "date": "2026-11-02T11:26:00+00:00"
     },
@@ -99,12 +99,27 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "מסחר תנודתי בבורסת ת\"א; טאואר יורדת ב-3%, נייס עולה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561569",
-     "date": "2026-11-02T11:33:00+00:00"
+     "title": "הנתון החריג שהופיע בצרפת והשאלה: האם החשש ממשבר חוב מוגזם?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561532",
+     "date": "2026-11-02T12:57:00+00:00"
     },
     {
-     "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון\"",
+     "title": "טאואר תגיע השנה להכנסות של 2 מיליארד דולר; המניה קופצת בטרום",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561668",
+     "date": "2026-11-02T12:31:00+00:00"
+    },
+    {
+     "title": "החוזים בוול סטריט עולים, הנפט צונח ביותר מ-4%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561626",
+     "date": "2026-11-02T12:28:00+00:00"
+    },
+    {
+     "title": "מסחר תנודתי בבורסת ת\"א; טאואר עקפה את התחזיות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561569",
+     "date": "2026-11-02T12:15:00+00:00"
+    },
+    {
+     "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון אבל במשרדים יש מגדלים עם רשימות המתנה\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561641",
      "date": "2026-11-02T11:26:00+00:00"
     },
@@ -114,7 +129,7 @@ window.DB.generated = {
      "date": "2026-11-02T11:21:00+00:00"
     },
     {
-     "title": "חברת הקונגרס הדמוקרטית תמכה במועמד הרפובליקאי. הסיבה: ישראל",
+     "title": "המדינה המערבית שבה 3 מיליון עובדים מחרימים את ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561662",
      "date": "2026-11-02T11:01:00+00:00"
     },
@@ -137,11 +152,6 @@ window.DB.generated = {
      "title": "העסקה הבאה של רפאל? המדינה המפתיעה שמתעניינת במיירטי כיפת ברזל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561653",
      "date": "2026-11-02T10:14:00+00:00"
-    },
-    {
-     "title": "יציבות בבורסות אירופה; מחיר הנפט יורד ב-3%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561626",
-     "date": "2026-11-02T09:21:00+00:00"
     },
     {
      "title": "7 מיליארד דולר על הכף: מי תזכה - ישראל או צרפת?",
@@ -199,19 +209,9 @@ window.DB.generated = {
      "date": "2026-11-01T15:55:00+00:00"
     },
     {
-     "title": "פריצת המיליארדים בקריפטו, העקבות לצפון קוריאה וההטרלה של אילון מאסק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561583",
-     "date": "2026-11-01T15:45:00+00:00"
-    },
-    {
      "title": "בדרך למיזוג הגמל הגדול בישראל, רשות שוק ההון מציבה תנאי דרמטי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561521",
      "date": "2026-11-01T13:53:00+00:00"
-    },
-    {
-     "title": "מנכ\"ל הבורסה קורא להקמת ממשלה רחבה: \"משימה לאומית\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561496",
-     "date": "2026-11-01T12:00:00+00:00"
     },
     {
      "title": "עסקה של התעשייה האווירית מעוררת חשש וסערה בספרד",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T12:17:16+00:00",
-  "fetched_at": "2026-11-02T12:17:16+00:00"
+  "checked_at": "2026-11-02T13:17:30+00:00",
+  "fetched_at": "2026-11-02T13:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:17+00:00",
-  "fetched_at": "2026-11-02T12:17:17+00:00"
+  "checked_at": "2026-11-02T13:17:31+00:00",
+  "fetched_at": "2026-11-02T13:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2686,6 +2686,13 @@ window.DB.generated = {
    {
     "date": "2026-11-07",
     "time": "19:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "עירוני טבריה - בית\"ר ירושלים"
+   },
+   {
+    "date": "2026-11-07",
+    "time": "19:30",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "אוסאסונה - אתלטיק בילבאו"
@@ -2696,13 +2703,6 @@ window.DB.generated = {
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "שטוטגרט - ורדר ברמן"
-   },
-   {
-    "date": "2026-11-07",
-    "time": "20:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "עירוני טבריה - בית\"ר ירושלים"
    },
    {
     "date": "2026-11-07",
@@ -2818,8 +2818,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:18+00:00",
-  "fetched_at": "2026-11-02T12:17:18+00:00"
+  "checked_at": "2026-11-02T13:17:33+00:00",
+  "fetched_at": "2026-11-02T13:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2905,7 +2905,7 @@ window.DB.generated = {
     },
     {
      "date": "2026-11-07",
-     "time": "20:30",
+     "time": "19:30",
      "home": "עירוני טבריה",
      "away": "בית\"ר ירושלים",
      "channels": [
@@ -2986,32 +2986,24 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T12:17:18+00:00",
-  "fetched_at": "2026-11-02T12:17:18+00:00"
+  "checked_at": "2026-11-02T13:17:33+00:00",
+  "fetched_at": "2026-11-02T13:17:33+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/build-ai-factory-multi-agent-collaboration/",
-     "date": "2026-11-02T09:45:26+00:00",
+     "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup-last-call/",
+     "date": "2026-11-02T12:18:52+00:00",
      "launch": false,
-     "title": "ככה תבנו מפעל AI עם סוכנים שמדברים אחד עם השני – בלי להיתקע ביניהם"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-     "date": "2026-10-30T14:18:30+00:00",
-     "launch": false,
-     "title_en": "Speeding up planning decisions with AI",
-     "title_he": "זירוז קבלת החלטות תכנון בעזרת בינה מלאכותית",
-     "translated_by": "mymemory"
+     "title": "אתם לא לבד: מיטאפ חדש מציע תשובות לבלגן שיוצר ה-AI בפרודקשן ובעלויות"
     }
    ],
    "candidates": 5,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3025,7 +3017,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1187,
+     "likes": 1188,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3046,7 +3038,7 @@ window.DB.generated = {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 75,
+     "likes": 76,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
@@ -3057,6 +3049,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 319,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
+    },
+    {
      "title": "Phonon",
      "desc_en": "Text-to-speech that runs in your browser",
      "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
@@ -3064,35 +3063,37 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 318,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
-    },
-    {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 55,
+     "likes": 56,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "FastH3-Omni",
      "desc_en": "FastVideo 8-step video+audio from image/video/audio refs",
      "desc_he": "FastVideo וידאו+אודיו בן 8 שלבים מתוך רשמי תמונה/וידאו/אודיו",
-     "likes": 91,
+     "likes": 93,
      "link": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T12:17:26+00:00",
-  "fetched_at": "2026-11-02T12:17:26+00:00"
+  "checked_at": "2026-11-02T13:17:43+00:00",
+  "fetched_at": "2026-11-02T13:17:43+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "לקראת הזימון לנבחרת: גורן שוב התאמן עם ברצלונה",
+     "link": "https://www.one.co.il/Article/537789.html?ref=rss",
+     "date": "2026-11-02T12:33:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "צפו: מסי ופיינגולד הבריקו, ובסיום החליפו חולצה",
      "link": "https://sports.walla.co.il/item/3874577",
@@ -3100,15 +3101,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "עילי פיינגולד"
-     ]
-    },
-    {
-     "title": "\"יציב באגף השמאלי\": בספרד החמיאו לרוי רביבו",
-     "link": "https://www.one.co.il/Article/537752.html?ref=rss",
-     "date": "2026-11-02T06:30:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3430,8 +3422,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-02T12:17:21+00:00",
-  "fetched_at": "2026-11-02T12:17:21+00:00"
+  "checked_at": "2026-11-02T13:17:36+00:00",
+  "fetched_at": "2026-11-02T13:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3462,58 +3454,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:22+00:00",
-  "fetched_at": "2026-11-02T12:17:22+00:00"
+  "checked_at": "2026-11-02T13:17:38+00:00",
+  "fetched_at": "2026-11-02T13:17:38+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-02T12:15:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:57:00+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-02T11:33:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:57:00+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-02T11:21:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:31:00+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-01T16:28:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-02T11:16:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T13:16:00+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-02T13:00:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-02T12:00:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:59:00+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T03:42:26+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3525,35 +3517,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-10-26T16:00:00+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-02T09:45:26+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:18:52+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-01T12:55:07+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-02T09:14:29+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "newest": "2026-11-02T12:42:52+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-01T06:48:57+00:00",
-    "seen_at": "2026-11-02T12:17:28+00:00",
+    "seen_at": "2026-11-02T13:17:46+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-02T12:17:28+00:00"
+  "checked_at": "2026-11-02T13:17:46+00:00"
  },
  "health_news": {
   "data": [
@@ -3709,7 +3701,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T12:17:22+00:00",
-  "fetched_at": "2026-11-02T12:17:22+00:00"
+  "checked_at": "2026-11-02T13:17:38+00:00",
+  "fetched_at": "2026-11-02T13:17:38+00:00"
  }
 };
