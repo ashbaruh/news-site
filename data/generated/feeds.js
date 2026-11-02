@@ -9,15 +9,15 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-02T22:17:18+00:00",
-  "fetched_at": "2026-11-02T22:17:18+00:00"
+  "checked_at": "2026-11-02T23:17:24+00:00",
+  "fetched_at": "2026-11-02T23:17:24+00:00"
  },
  "animals": {
   "data": [
    {
-    "title_en": "Whale Festival to Kick Off Amelia Island in Florida to Celebrate the Return of the Right Whale",
-    "title_he": "פסטיבל הלווייתנים כדי לבעוט באי אמיליה בפלורידה כדי לחגוג את שובו של הלווייתן הנכון",
-    "translated_by": "mymemory",
+    "title_en": "Whale Festival Kicks Off on Amelia Island in Florida Celebrating the Return of the Right Whale",
+    "title_he": "פסטיבל לווייתן יוצא לדרך באי אמיליה בפלורידה, חוגג את שובו של הלוויתן הנכון",
+    "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/whale-festival-to-kick-off-amelia-island-in-florida-to-celebrate-the-return-of-the-right-whale/",
     "date": "2026-11-02T19:30:58+00:00"
    },
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:32+00:00",
-  "fetched_at": "2026-11-02T22:17:32+00:00"
+  "checked_at": "2026-11-02T23:17:39+00:00",
+  "fetched_at": "2026-11-02T23:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:32+00:00",
-  "fetched_at": "2026-11-02T22:17:32+00:00"
+  "checked_at": "2026-11-02T23:17:39+00:00",
+  "fetched_at": "2026-11-02T23:17:39+00:00"
  },
- "generated_at": "2026-11-02T22:17:32+00:00",
+ "generated_at": "2026-11-02T23:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T22:17:19+00:00",
-  "fetched_at": "2026-11-02T22:17:19+00:00"
+  "checked_at": "2026-11-02T23:17:25+00:00",
+  "fetched_at": "2026-11-02T23:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:20+00:00",
-  "fetched_at": "2026-11-02T22:17:20+00:00"
+  "checked_at": "2026-11-02T23:17:26+00:00",
+  "fetched_at": "2026-11-02T23:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2633,8 +2633,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:21+00:00",
-  "fetched_at": "2026-11-02T22:17:21+00:00"
+  "checked_at": "2026-11-02T23:17:27+00:00",
+  "fetched_at": "2026-11-02T23:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2801,8 +2801,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T22:17:21+00:00",
-  "fetched_at": "2026-11-02T22:17:21+00:00"
+  "checked_at": "2026-11-02T23:17:27+00:00",
+  "fetched_at": "2026-11-02T23:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2826,7 +2826,8 @@ window.DB.generated = {
    ],
    "candidates": 8,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2840,7 +2841,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1205,
+     "likes": 1206,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2865,18 +2866,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
+     "title": "Idol",
+     "desc_en": "One image to a 3D object (Gaussian splats)",
+     "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
+     "likes": 73,
+     "link": "https://huggingface.co/spaces/speridlabs/idol"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 270,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
-    },
-    {
-     "title": "Idol",
-     "desc_en": "One image to a 3D object (Gaussian splats)",
-     "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 72,
-     "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
@@ -2896,14 +2897,14 @@ window.DB.generated = {
      "title": "FastH3-Omni",
      "desc_en": "FastVideo 8-step video+audio from image/video/audio refs",
      "desc_he": "FastVideo וידאו+אודיו בן 8 שלבים מתוך רשמי תמונה/וידאו/אודיו",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T22:17:31+00:00",
-  "fetched_at": "2026-11-02T22:17:31+00:00"
+  "checked_at": "2026-11-02T23:17:38+00:00",
+  "fetched_at": "2026-11-02T23:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3245,8 +3246,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-02T22:17:25+00:00",
-  "fetched_at": "2026-11-02T22:17:25+00:00"
+  "checked_at": "2026-11-02T23:17:29+00:00",
+  "fetched_at": "2026-11-02T23:17:29+00:00"
  },
  "idf": {
   "data": [
@@ -3277,8 +3278,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:25+00:00",
-  "fetched_at": "2026-11-02T22:17:25+00:00"
+  "checked_at": "2026-11-02T23:17:30+00:00",
+  "fetched_at": "2026-11-02T23:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3286,49 +3287,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-02T17:25:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-02T22:57:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-02T21:57:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "newest": "2026-11-02T22:55:00+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T20:50:54+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3340,35 +3341,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-02T16:55:04+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-02T19:30:58+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-02T18:13:09+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-02T13:33:27+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-02T23:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-02T22:17:32+00:00"
+  "checked_at": "2026-11-02T23:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3524,7 +3525,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T22:17:26+00:00",
-  "fetched_at": "2026-11-02T22:17:26+00:00"
+  "checked_at": "2026-11-02T23:17:30+00:00",
+  "fetched_at": "2026-11-02T23:17:30+00:00"
  }
 };
