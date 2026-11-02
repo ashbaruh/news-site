@@ -66,6 +66,10 @@
 34.6008,
 32.9562
 ],
+"al khiyam, lebanon": [
+33.3103,
+35.6054
+],
 "al khobar, saudi arabia": [
 26.304,
 50.196
@@ -938,6 +942,10 @@
 "indian ocean": [
 -10.0,
 70.0
+],
+"iowa, united states": [
+41.684,
+-92.0612
 ],
 "iraq": null,
 "iraqi kurdistan, iraq": null,
@@ -1825,6 +1833,10 @@
 25.7738,
 55.9382
 ],
+"ras isa, yemen": [
+15.1885,
+42.6625
+],
 "ras tanura, saudi arabia": [
 26.7074,
 50.0674
@@ -2019,6 +2031,10 @@
 33.0761,
 35.1486
 ],
+"sidon, lebanon": [
+33.5642,
+35.3753
+],
 "simferopol district, crimea": [
 44.9402,
 34.1198
@@ -2090,6 +2106,7 @@
 56.2028
 ],
 "strait of hormuz, iran": null,
+"strait of hormuz, iran/oman": null,
 "strait of hormuz, oman": [
 26.4494,
 56.2028

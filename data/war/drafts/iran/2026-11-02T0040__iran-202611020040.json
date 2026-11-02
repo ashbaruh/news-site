@@ -1,0 +1,452 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7ec52f9956ea",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-02T00:40:35+00:00",
+  "window": {
+   "from": "2026-11-01T00:40:35+00:00",
+   "to": "2026-11-02T00:40:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611020040"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל עומד בפני צומת קריטי לקראת בחירות האמצע בארה\"ב, המלווה במתיחות צבאית גוברת במצרי הורמוז עקב פגיעה במכליות נפט והטלת מגבלות תנועה איראניות. במקביל לאיומים הדדיים בחידוש התקיפות ובהרחבת היקף התגובה, מתנהל משא ומתן עקיף בקטאר בניסיון לגבש הסדר שימנע הסלמה רחבה. ישראל מתאמת מהלכים מול הממשל האמריקני ולוחצת לפעולה צבאית, בעוד טהרן מסרבת לדון בתוכנית הגרעין ומאיימת בלחימה מתמשכת.",
+  "fronts": [
+   {
+    "name": "המערכה הימית במצרי הורמוז",
+    "status": "הסלמה בעקבות פגיעות מוקשים במכליות והגבלות שיט איראניות"
+   },
+   {
+    "name": "החזית הישירה בין ארה\"ב וישראל לאיראן",
+    "status": "דריכות לקראת אפשרות לחידוש תקיפות ואיומים בהסלמה נרחבת"
+   },
+   {
+    "name": "הערוץ הדיפלומטי בדוחה",
+    "status": "שיחות עקיפות אינטנסיביות בהשתתפות קטאר ללא פריצת דרך"
+   },
+   {
+    "name": "החזית הצפונית בישראל מול חזבאללה",
+    "status": "חשש מחידוש הלחימה על רקע הבטחות להימנע מהצטרפות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11020040-01",
+    "title": "פיצוץ שתי מכליות נפט במצרי הורמוז",
+    "summary": "זרוע הים של משמרות המהפכה הודיעה כי שתי מכליות נפט עלו על מוקשים, התפוצצו ועלו באש בעת שנעו בנתיב לא מורשה במצרי הורמוז.",
+    "axis": "העימות הימי במפרץ ומצרי הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T20:18:23+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T20:18:23+00:00",
+    "last_update_at": "2026-11-02T00:00:00+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לנסיבות הפיצוץ ולפגיעת המוקשים מעבר לטענת משמרות המהפכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+      "published_at": "2026-11-02T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz",
+      "published_at": "2026-11-01T20:18:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11020040-02",
+    "title": "שיחה בין טראמפ לנתניהו בעניין איראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ שוחח עם ראש ממשלת ישראל בנימין נתניהו, ובמרכז הדיון עמדה סוגיית איראן והאפשרויות הצבאיות מולה.",
+    "axis": "ציר ארה\"ב וישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-10-31T23:08:40+00:00",
+    "last_update_at": "2026-11-01T21:20:02+00:00",
+    "what_is_not_verified": "קיימות מחלוקות בדיווחים האם נתניהו לוחץ לתקוף מיד לאחר בחירות האמצע או שוושינגטון מקדמת הסכם.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-had-good-talk-netanyahu",
+      "published_at": "2026-11-01T21:20:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132960",
+      "published_at": "2026-11-01T20:53:46+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21756301",
+      "published_at": "2026-11-01T20:51:31+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1383728",
+      "published_at": "2026-11-01T20:43:06+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611015366",
+      "published_at": "2026-11-01T18:25:28+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21754293",
+      "published_at": "2026-11-01T16:41:56+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49178",
+      "published_at": "2026-10-31T23:08:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11020040-03",
+    "title": "מגעים עקיפים בדוחה להפסקת הלחימה ופתיחת מצרי הורמוז",
+    "summary": "נציגים איראנים קיימו יום שלישי של שיחות עקיפות בדוחה בתיווך קטאר במטרה להגיע לעסקה לשחרור נכסים ולהסרת המגבלות במצר.",
+    "axis": "המגעים המדיניים בין ארה\"ב לאיראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-01T12:46:28+00:00",
+    "last_update_at": "2026-11-02T00:23:23+00:00",
+    "what_is_not_verified": "לא אומת האם המגעים יובילו להסכם ומה מידת ההסכמה של הצדדים לתנאים השונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+      "published_at": "2026-11-02T00:23:23+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21755644",
+      "published_at": "2026-11-01T19:37:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
+      "published_at": "2026-11-01T17:49:28+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611011139",
+      "published_at": "2026-11-01T14:15:41+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-qatari-mediators-hold-third-day-talks-end-us-iran-war",
+      "published_at": "2026-11-01T12:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוחה, קטאר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11020040-04",
+    "title": "הצהרות טראמפ על תקיפה צפויה ואפשרות לסיום הלחימה",
+    "summary": "דונלד טראמפ איים בחידוש התקיפות באיראן, טען כי המלחמה תסתיים בקרוב באמצעות הסכם או פעולה כוחנית, והוסיף כי ישנם יעדים נוספים לפגיעה.",
+    "axis": "העימות הישיר בין ארה\"ב לאיראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T12:46:28+00:00",
+    "last_update_at": "2026-11-02T00:37:07+00:00",
+    "what_is_not_verified": "לא מאומת האם ארה\"ב אכן תפתח בתקיפה או תבחר להמשיך בנתיב המשא ומתן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-some-point-will-need-give-iran-hammer",
+      "published_at": "2026-11-02T00:37:07+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+      "published_at": "2026-11-02T00:23:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-war-will-end-very-soon-one-way-or-other",
+      "published_at": "2026-11-01T22:47:37+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+      "published_at": "2026-11-01T22:30:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+      "published_at": "2026-11-01T19:41:16+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-qatari-mediators-hold-third-day-talks-end-us-iran-war",
+      "published_at": "2026-11-01T12:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איווה, ארצות הברית",
+      "lat": 41.684,
+      "lon": -92.0612
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11020040-05",
+    "title": "אזהרות איראניות מפני לחימה ממושכת ותגובה ללא גבולות",
+    "summary": "דובר הצבא ויועץ מנהיג איראן הבהירו כי מלחמה מחודשת תימשך זמן רב, וכי הדוקטרינה החדשה קובעת שהתגובה האיראנית לא תוגבל גאוגרפית.",
+    "axis": "ההרתעה וההסלמה מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T14:59:01+00:00",
+    "last_update_at": "2026-11-02T00:23:23+00:00",
+    "what_is_not_verified": "לא ברור מה היכולת המעשית של איראן להרחיב את טווח העימות מעבר למרחב האזורי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+      "published_at": "2026-11-02T00:23:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+      "published_at": "2026-11-01T22:30:23+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+      "published_at": "2026-11-01T19:41:16+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://en.irna.ir/news/86309609/Iran-s-defense-doctrine-no-longer-bound-by-geography-of-a-threat",
+      "published_at": "2026-11-01T19:33:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://t.me/abualiexpress/132944",
+      "published_at": "2026-11-01T15:15:23+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_3d7f60edac664fbc",
+      "url": "https://t.me/abualiexpress/132942",
+      "published_at": "2026-11-01T14:59:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11020040-06",
+    "title": "הטלת סנקציות הדדיות של איראן על גורמי ביטחון בריטיים",
+    "summary": "משרד החוץ של איראן הכריז על חיל הים וחיל האוויר הבריטיים כארגוני טרור ועל שירות המודיעין כגורם עוין, בשל תמיכתם בארה\"ב ובישראל.",
+    "axis": "העימות הדיפלומטי והבינלאומי סביב איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T06:36:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T06:36:01+00:00",
+    "last_update_at": "2026-11-01T06:36:01+00:00",
+    "what_is_not_verified": "לא מאומת האם יש להצהרה השלכות מעשיות מעבר למחאה הצהרתית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132910",
+      "published_at": "2026-11-01T06:36:01+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מידת המעורבות הישירה של משמרות המהפכה במיקוש המכליות במצרי הורמוז",
+   "ההחלטה הסופית של הממשל האמריקני לגבי מועד תקיפה צבאית מחודשת",
+   "נכונות איראן להתפשר על תוכנית הגרעין בתמורה לשחרור נכסים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חיסול מטרות צבאיות שנותרו באיראן במידת הצורך",
+     "חתירה להסכם מהיר לסיום המלחמה ולהסרת המצור במצרי הורמוז"
+    ],
+    "inferred": [
+     "מניעת זעזועים כלכליים ומחירי דלק גבוהים עד לבחירות האמצע",
+     "שימור חופש הפעולה הצבאי ללא כניסה לעימות מתמשך"
+    ],
+    "forecast": [
+     "המשך מיצוי המגעים המדיניים עד לאחר הבחירות בארה\"ב",
+     "תקיפה ממוקדת של יעדים איראניים אם ייכשלו השיחות בדוחה"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "סירוב מוחלט למשא ומתן על תוכנית הגרעין",
+     "תגובה צבאית ללא גבולות גאוגרפיים בכל מקרה של תקיפה מחודשת"
+    ],
+    "inferred": [
+     "הפעלת מנוף לחץ על הכלכלה העולמית דרך חסימת נתיבי השיט במפרץ",
+     "השגת שחרור של כספים מוקפאים בתמורה להרגעת המצב הימי"
+    ],
+    "forecast": [
+     "המשך שיבוש התנועה במצרי הורמוז לצורכי מיקוח",
+     "הימנעות מיוזמת עימות כולל אך הסלמת תגובות נקודתיות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגדרת איראן כעדיפות ביטחונית ראשונה במעלה"
+    ],
+    "inferred": [
+     "הפעלת לחץ על ארה\"ב לפתוח במתקפה נרחבת על יעדי משטר וגרעין",
+     "שאיפה להכרעה מהירה של האיום ללא הסדרי ביניים חלקיים"
+    ],
+    "forecast": [
+     "המשך תיאום הדוק מול הממשל האמריקני לאחר הבחירות",
+     "הכנות להשתלבות בפעולה צבאית אם יינתן אור ירוק מוושינגטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611011139",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86309609/Iran-s-defense-doctrine-no-longer-bound-by-geography-of-a-threat",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/geopolitics/article/21755644",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1383728",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132910",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49178",
+    "accessed_at": "2026-11-02T00:40:35+00:00"
+   }
+  ]
+ }
+}

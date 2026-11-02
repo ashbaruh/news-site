@@ -1,0 +1,353 @@
+{
+ "status": "draft",
+ "received_sha256_12": "e876e9da61cd",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 2,
+   "initial": 4,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-02T00:42:32+00:00",
+  "window": {
+   "from": "2026-11-01T00:42:32+00:00",
+   "to": "2026-11-02T00:42:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611020042"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה במקביל בין החות'ים לבין הקואליציה בראשות סעודיה וכוחות ממשלת תימן. חילופי המהלומות כוללים תקיפות אוויריות נרחבות של הקואליציה ויירוט שיגורים חות'יים, לצד חידוש איומים מפורשים מצד החות'ים על יעדי תעופה ונפט בסעודיה. התגברות הקרבות הקרקעיים במערב המדינה ופעולות דיכוי במחוז תעז גורמות למשבר הומניטרי חריף ולעקירת מאות אלפי תושבים.",
+  "fronts": [
+   {
+    "name": "חזית תימן - ערב הסעודית",
+    "status": "הסלמה בתקיפות אוויריות, שיגורי כטב\"מים וטילים מצד החות'ים, ואיומים על מתקני נפט ותעופה"
+   },
+   {
+    "name": "חזית מערב תימן (אל-חודיידה ותעז)",
+    "status": "קרבות קרקעיים עזים, פשיטות על בתים ועקירה המונית של מאות אלפי אזרחים"
+   },
+   {
+    "name": "הזירה המדינית והבינלאומית מול החות'ים",
+    "status": "לחץ דיפלומטי גובר בעקבות מות עובד או\"ם בשבי ומגעים בין ממשלת תימן לבריטניה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11020042-01",
+    "title": "תקיפות אוויריות נגד נמל ראס עיסא ורשת תקשורת בסעדה",
+    "summary": "כלי תקשורת המזוהים עם החות'ים דיווחו על תקיפות אוויריות שפגעו ברשת תקשורת מדרום-מזרח לעיר סעדה, וכן על שתי תקיפות שיוחסו לסעודיה נגד נמל ראס עיסא שבמחוז אל-חודיידה.",
+    "axis": "סעודיה - חות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T18:36:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T18:36:29+00:00",
+    "last_update_at": "2026-11-01T19:05:32+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או אישור רשמי מצד סעודיה על ביצוע התקיפות הללו או על הפגיעה המדויקת ביעדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-strike-hits-communication-network-northern-yemen-houthi-affiliated",
+      "published_at": "2026-11-01T19:05:32+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-media-says-saudi-strikes-target-yemens-hodeidah-port",
+      "published_at": "2026-11-01T18:36:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראס עיסא, תימן",
+      "lat": 15.1885,
+      "lon": 42.6625
+     },
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11020042-02",
+    "title": "טענת החות'ים לעשרות תקיפות סעודיות ביממה אחת",
+    "summary": "הדובר הצבאי של החות'ים הצהיר כי מטוסי קרב סעודיים ושיגורי טילים ביצעו שבעים וחמש תקיפות נגד מטרות בשמונה מחוזות בתימן תוך עשרים וארבע שעות, וגרמו לנפגעים בקרב אזרחים.",
+    "axis": "סעודיה - חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T17:46:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T17:46:48+00:00",
+    "last_update_at": "2026-11-01T17:46:48+00:00",
+    "what_is_not_verified": "מספר התקיפות, סוגי המטוסים, בסיסי ההמראה וטענת הפגיעה באזרחים נשענים על הודעת החות'ים בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132950",
+      "published_at": "2026-11-01T17:46:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11020042-03",
+    "title": "יירוט כטב\"ם וטיל בליסטי ששוגרו לעבר סעודיה",
+    "summary": "הקואליציה הודיעה על יירוט והשמדה של כלי טיס בלתי מאויש ושל טיל בליסטי ששוגרו על ידי המיליציה החות'ית לעבר שטח ערב הסעודית.",
+    "axis": "סעודיה - חות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T16:01:49+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T16:01:49+00:00",
+    "last_update_at": "2026-11-01T16:01:49+00:00",
+    "what_is_not_verified": "היקף הנזק, סוגי החימוש המדויקים ומיקום היירוט המדויק לא פורטו בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154987",
+      "published_at": "2026-11-01T16:01:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11020042-04",
+    "title": "איומים חוזרים של החות'ים נגד מתקני נפט והתעופה בסעודיה",
+    "summary": "גורם צבאי חות'י איים כי מתקני חברת ארמקו נמצאים בטווח האש שלהם, והזהיר חברות תעופה בין-לאומיות מפני טיסה במרחב האווירי הסעודי, למעט באזורי מכה ומדינה.",
+    "axis": "סעודיה - חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T16:28:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-01T16:28:04+00:00",
+    "last_update_at": "2026-11-01T16:28:04+00:00",
+    "what_is_not_verified": "זהות הגורם הצבאי החות'י נותרה בעילום שם, ורמת המוכנות המעשית למימוש האיומים לא אומתה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-repeat-threats-against-saudi-oil-giant-aviation",
+      "published_at": "2026-11-01T16:28:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11020042-05",
+    "title": "דרישת ממשלת תימן לחקירה בעקבות מות עובד או\"ם בשבי החות'ים",
+    "summary": "שרת החוץ של תימן דרשה למצות את הדין עם החות'ים על מותו של עובד זכויות האדם של האו\"ם לאחר שהוחזק במעצר מעל לשנתיים מאז חטיפתו ביוני 2024.",
+    "axis": "ממשלת תימן - חות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T23:06:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-01T23:06:30+00:00",
+    "last_update_at": "2026-11-01T23:06:30+00:00",
+    "what_is_not_verified": "נסיבות המוות המדויקות במתקן הכליאה ומצבם הרפואי של עצורים נוספים לא נבדקו בידי גורם עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a3fbd454e7703a50",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-foreign-minister-demands-accountability-un-workers-death-houthi",
+      "published_at": "2026-11-01T23:06:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11020042-06",
+    "title": "עקירת מאות אלפי תושבים במערב תימן בשל החרפת הלחימה",
+    "summary": "האו\"ם מסר כי יותר משלוש מאות אלף בני אדם נמלטו מבתיהם במערב תימן עקב הסלמת הקרבות בין החות'ים לכוחות הממשלה הנתמכים בידי סעודיה.",
+    "axis": "ממשלת תימן - חות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-01T09:19:44+00:00",
+    "last_update_at": "2026-11-01T09:19:44+00:00",
+    "what_is_not_verified": "האזורים המדויקים שבהם התרכזה העקירה ונתוני האבדות בקרבות הללו לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iranian-negotiators-doha-continue-truce-talks",
+      "published_at": "2026-11-01T09:19:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11020042-07",
+    "title": "פשיטות חות'יות על בתי אנשי ציבור במחוז תעז",
+    "summary": "מקורות רשמיים בממשלת תימן דיווחו כי מיליציות החות'ים פרצו לבתיהם של אישים ממשלתיים ופוליטיים והשתלטו עליהם באזורים הכפריים של תעז, לצד דיווח על עשרות הפרות באזור.",
+    "axis": "ממשלת תימן - חות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T15:42:58+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-01T15:42:58+00:00",
+    "last_update_at": "2026-11-01T17:03:17+00:00",
+    "what_is_not_verified": "זהות בעלי הבתים ומספר המבנים המדויק שנכבשו אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154999",
+      "published_at": "2026-11-01T17:03:17+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154986",
+      "published_at": "2026-11-01T15:42:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11020042-08",
+    "title": "טענת צבא תימן לפגיעה במאות פעילי חות'ים",
+    "summary": "צבא תימן טוען כי ביצע מעל אלף ומאתיים פעולות סיכול שבהן נוטרלו מאות חות'ים והושמדו עשרות כלי רכב וציוד כבד.",
+    "axis": "ממשלת תימן - חות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T16:11:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-01T16:11:28+00:00",
+    "last_update_at": "2026-11-01T16:11:28+00:00",
+    "what_is_not_verified": "אין גורם עצמאי המאמת את מספרי הנפגעים והאמצעים שהושמדו לפי הודעת הצבא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/154988",
+      "published_at": "2026-11-01T16:11:28+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים ל-75 תקיפות סעודיות בתוך 24 שעות ולסך של 3,830 תקיפות מתחילת ההסלמה",
+   "מספר הנפגעים מקרב החות'ים (כ-500) וכמות הציוד שהושמד לפי צבא תימן",
+   "נסיבות מותו של עובד האו\"ם במתקן המעצר החות'י",
+   "היקף הנפגעים האזרחיים בעקבות התקיפות האוויריות המדווחות בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1284,
+    "unit": "ILS",
+    "change_pct": 0.4,
+    "source_id": "src_ecb",
+    "as_of": "2026-10-30T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה במתקני חברת ארמקו ושיבוש התעופה מעל שטח ערב הסעודית",
+     "תגובה על תקיפות הקואליציה הסעודית והמשך הלחימה האזורית"
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ כלכליים על סעודיה כדי להביא להפסקת תקיפותיה בתימן",
+     "חיזוק השליטה הפנימית במחוזות המפתח באמצעות דיכוי יריבים פוליטיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור של טילים בליסטיים וכטב\"מים לעבר יעדים בשטח סעודיה",
+     "המשך החיכוך המוגבר במוקדי הקרבות במערב תימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+    "declared": [
+     "סיכול היכולות הצבאיות של החות'ים והגנה על שטח סעודיה מפני איומי טילים וכטב\"מים",
+     "הטלת אחריות על החות'ים בשל פגיעה בעובדי או\"ם ושחרור חטופים"
+    ],
+    "inferred": [
+     "שחיקת היכולות הלוגיסטיות והצבאיות של החות'ים בנמלים ובצירי תקשורת",
+     "גיוס תמיכה בין-לאומית, בפרט מבריטניה, לבידוד שלטון החות'ים"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות ממוקדות בנמלים ובמוקדי שליטה של החות'ים",
+     "הגברת מאמצי ההגנה האווירית בגבול הסעודי למניעת פגיעה בריכוזי אוכלוסייה ובנפט"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-foreign-minister-demands-accountability-un-workers-death-houthi",
+    "accessed_at": "2026-11-02T00:42:32+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iranian-negotiators-doha-continue-truce-talks",
+    "accessed_at": "2026-11-02T00:42:32+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/154988",
+    "accessed_at": "2026-11-02T00:42:32+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132950",
+    "accessed_at": "2026-11-02T00:42:32+00:00"
+   }
+  ]
+ }
+}
