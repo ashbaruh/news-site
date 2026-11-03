@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-03T15:17:12+00:00",
-  "fetched_at": "2026-11-03T15:17:12+00:00"
+  "checked_at": "2026-11-03T16:17:34+00:00",
+  "fetched_at": "2026-11-03T16:17:34+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:22+00:00",
-  "fetched_at": "2026-11-03T15:17:22+00:00"
+  "checked_at": "2026-11-03T16:17:47+00:00",
+  "fetched_at": "2026-11-03T16:17:47+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Pro-Ject honours its Debut legacy with an affordable addition to the iconic turntable range",
+    "title_he": "Pro-Ject מכבדת את מורשת הבכורה שלה עם תוספת סבירה למגוון הפטיפונים האייקוני",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/turntables/pro-ject-honours-its-debut-legacy-with-an-affordable-addition-to-the-iconic-turntable-range",
+    "date": "2026-11-03T15:50:53+00:00"
+   },
    {
     "title_en": "Earfun Wave Pro X",
     "title_he": null,
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-five-star-dolby-atmos-soundbar-is-brilliantly-effective-and-now-its-available-as-a-full-system-with-gbp800-off",
     "date": "2026-11-03T12:52:36+00:00"
-   },
-   {
-    "title_en": "What Hi-Fi? Awards 2026: Dali and Wharfedale shake things up in this year's floorstanders face-off",
-    "title_he": "איזה Hi-Fi? פרסים 2026: דאלי ו-וורפדיל מרעידים את העניינים בהתמודדות עם הרצפות של השנה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/what-hi-fi-awards-2026-dali-and-wharfedale-shake-things-up-in-this-years-floorstanders-face-off",
-    "date": "2026-11-03T12:13:29+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:24+00:00",
-  "fetched_at": "2026-11-03T15:17:24+00:00"
+  "checked_at": "2026-11-03T16:17:51+00:00",
+  "fetched_at": "2026-11-03T16:17:51+00:00"
  },
- "generated_at": "2026-11-03T15:17:24+00:00",
+ "generated_at": "2026-11-03T16:17:51+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "טראמפ: סיכמתי עם נתניהו על עצירת הסיוע האמריקאי לישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561823",
-     "date": "2026-11-03T13:26:00+00:00"
+     "title": "טראמפ הודיע על הפסקת הסיוע לישראל: למה השווקים לא נבהלים?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561865",
+     "date": "2026-11-03T15:24:00+00:00"
     },
     {
      "title": "דובר משרד החוץ של קטאר: \"יש התפתחויות בשיחות המו\"מ, אנחנו מקווים שיהיה אפשר להגיע להסכם\"",
@@ -104,7 +104,7 @@ window.DB.generated = {
      "date": "2026-11-03T14:50:00+00:00"
     },
     {
-     "title": "מגמה מעורבת בוול סטריט; אפל ופלנטיר יורדות, מניות השבבים עולות",
+     "title": "מגמה מעורבת בוול סטריט; שופיפיי נופלת ב-10%, אנבידיה עולה ב-3%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561764",
      "date": "2026-11-03T14:31:00+00:00"
     },
@@ -159,7 +159,7 @@ window.DB.generated = {
      "date": "2026-11-03T11:11:00+00:00"
     },
     {
-     "title": "שכר של עד 4 מיליון שקל בשנה: המועמדים למנכ\"ל איגוד הבנקים",
+     "title": "שכר של קרוב ל-3 מיליון שקל: המרוץ לניהול איגוד הבנקים נפתח ויש מועמדים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561801",
      "date": "2026-11-03T10:08:00+00:00"
     },
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T15:17:13+00:00",
-  "fetched_at": "2026-11-03T15:17:13+00:00"
+  "checked_at": "2026-11-03T16:17:36+00:00",
+  "fetched_at": "2026-11-03T16:17:36+00:00"
  },
  "ifa": {
   "data": [
@@ -1178,7 +1178,7 @@ window.DB.generated = {
    },
    {
     "date": "2026-12-29",
-    "time": "20:00",
+    "time": "19:30",
     "home": "עירוני טבריה",
     "away": "מכבי פ\"ת",
     "round": "מחזור 16",
@@ -1187,7 +1187,7 @@ window.DB.generated = {
    },
    {
     "date": "2026-12-29",
-    "time": "20:00",
+    "time": "19:30",
     "home": "עירוני ק\"ש",
     "away": "הפועל ירושלים",
     "round": "מחזור 16",
@@ -1196,36 +1196,9 @@ window.DB.generated = {
    },
    {
     "date": "2026-12-29",
-    "time": "20:00",
+    "time": "19:45",
     "home": "הפועל פ\"ת",
     "away": "מכבי חיפה",
-    "round": "מחזור 16",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2026-12-29",
-    "time": "20:00",
-    "home": "מכבי ת\"א",
-    "away": "הפועל ב\"ש",
-    "round": "מחזור 16",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2026-12-29",
-    "time": "20:00",
-    "home": "הפועל ר\"ג",
-    "away": "הפועל ת\"א",
-    "round": "מחזור 16",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2026-12-29",
-    "time": "20:00",
-    "home": "הפועל חיפה",
-    "away": "מכבי נתניה",
     "round": "מחזור 16",
     "score": "",
     "link": "https://www.one.co.il/Soccer/League/1"
@@ -1240,6 +1213,69 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
+    "date": "2026-12-29",
+    "time": "20:00",
+    "home": "מכבי ת\"א",
+    "away": "הפועל ב\"ש",
+    "round": "מחזור 16",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2026-12-30",
+    "time": "19:45",
+    "home": "הפועל חיפה",
+    "away": "מכבי נתניה",
+    "round": "מחזור 16",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2026-12-30",
+    "time": "20:00",
+    "home": "הפועל ר\"ג",
+    "away": "הפועל ת\"א",
+    "round": "מחזור 16",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2027-01-02",
+    "time": "15:00",
+    "home": "מכבי חיפה",
+    "away": "עירוני ק\"ש",
+    "round": "מחזור 17",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2027-01-02",
+    "time": "17:30",
+    "home": "מכבי נתניה",
+    "away": "הפועל ר\"ג",
+    "round": "מחזור 17",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2027-01-02",
+    "time": "18:00",
+    "home": "בני סכנין",
+    "away": "הפועל חיפה",
+    "round": "מחזור 17",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
+    "date": "2027-01-02",
+    "time": "18:00",
+    "home": "הפועל ירושלים",
+    "away": "עירוני טבריה",
+    "round": "מחזור 17",
+    "score": "",
+    "link": "https://www.one.co.il/Soccer/League/1"
+   },
+   {
     "date": "2027-01-02",
     "time": "20:00",
     "home": "מכבי פ\"ת",
@@ -1249,35 +1285,8 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
-    "date": "2027-01-02",
-    "time": "20:00",
-    "home": "בני סכנין",
-    "away": "הפועל חיפה",
-    "round": "מחזור 17",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2027-01-02",
-    "time": "20:00",
-    "home": "מכבי נתניה",
-    "away": "הפועל ר\"ג",
-    "round": "מחזור 17",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2027-01-02",
-    "time": "20:00",
-    "home": "הפועל ת\"א",
-    "away": "מכבי ת\"א",
-    "round": "מחזור 17",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2027-01-02",
-    "time": "20:00",
+    "date": "2027-01-03",
+    "time": "20:15",
     "home": "הפועל ב\"ש",
     "away": "הפועל פ\"ת",
     "round": "מחזור 17",
@@ -1285,19 +1294,10 @@ window.DB.generated = {
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
-    "date": "2027-01-02",
-    "time": "20:00",
-    "home": "מכבי חיפה",
-    "away": "עירוני ק\"ש",
-    "round": "מחזור 17",
-    "score": "",
-    "link": "https://www.one.co.il/Soccer/League/1"
-   },
-   {
-    "date": "2027-01-02",
-    "time": "20:00",
-    "home": "הפועל ירושלים",
-    "away": "עירוני טבריה",
+    "date": "2027-01-04",
+    "time": "22:30",
+    "home": "הפועל ת\"א",
+    "away": "מכבי ת\"א",
     "round": "מחזור 17",
     "score": "",
     "link": "https://www.one.co.il/Soccer/League/1"
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:13+00:00",
-  "fetched_at": "2026-11-03T15:17:13+00:00"
+  "checked_at": "2026-11-03T16:17:36+00:00",
+  "fetched_at": "2026-11-03T16:17:36+00:00"
  },
  "tv": {
   "data": [
@@ -1963,6 +1963,13 @@ window.DB.generated = {
    {
     "date": "2026-11-03",
     "time": "22:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ווסט ברומיץ' - סאות'המפטון"
+   },
+   {
+    "date": "2026-11-03",
+    "time": "22:00",
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
     "title": "לאסק לינץ - סלובן ברטיסלבה"
@@ -2008,13 +2015,6 @@ window.DB.generated = {
     "channel": "ספורט 5+ לייב",
     "sport": "כדורגל",
     "title": "פיינורד - אינטר"
-   },
-   {
-    "date": "2026-11-03",
-    "time": "22:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "ווסט ברומיץ' - סאות'המפטון"
    },
    {
     "date": "2026-11-04",
@@ -2634,6 +2634,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "13:00",
+    "channel": "ספורט 2",
+    "sport": "כדורסל",
+    "title": "ברצלונה - בראוגן"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "13:00",
+    "channel": "ספורט 3",
+    "sport": "כדורסל",
+    "title": "א.א.ק. אתונה - פנאתינאיקוס"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "13:15",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "הירנביין - פיינורד"
+   },
+   {
+    "date": "2026-11-08",
     "time": "15:00",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -2641,10 +2662,59 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "15:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "טוונטה - אייאקס"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "16:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "גנואה - מילאן"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "16:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "קריסטל פאלאס - ליברפול"
+   },
+   {
+    "date": "2026-11-08",
     "time": "17:15",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "ריאל סוסיאדד - ראיו ואייקאנו"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "17:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "אלניאספור - טרבזונספור"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר יונייטד - אסטון וילה"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:30",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "פרייבורג - אוניון ברלין"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "אינטר - קומו"
    },
    {
     "date": "2026-11-08",
@@ -2662,10 +2732,52 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "20:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "ויטוריה גימראייש - פורטו"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "20:00",
+    "channel": "ספורט 4",
+    "sport": "כדורסל",
+    "title": "ריאל מדריד - מורסיה"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "20:30",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "הפועל באר שבע - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "20:30",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "הופנהיים - שאלקה 04"
+   },
+   {
+    "date": "2026-11-08",
     "time": "22:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "אתלטיקו מדריד - ברצלונה"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "22:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אסטרלה - בנפיקה"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "18:00",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "קרשיאקה - בשיקטאש"
    },
    {
     "date": "2026-11-09",
@@ -2673,11 +2785,18 @@ window.DB.generated = {
     "channel": "ספורט 5",
     "sport": "כדורסל",
     "title": "מכבי תל אביב - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:00",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "וירטוס בולוניה - סקאליגרה באסקט ורונה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:15+00:00",
-  "fetched_at": "2026-11-03T15:17:15+00:00"
+  "checked_at": "2026-11-03T16:17:37+00:00",
+  "fetched_at": "2026-11-03T16:17:37+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2750,6 +2869,15 @@ window.DB.generated = {
      "away": "בית\"ר ירושלים",
      "channels": [
       "ספורט 2"
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "time": "20:30",
+     "home": "הפועל ב\"ש",
+     "away": "הפועל ת\"א",
+     "channels": [
+      "ספורט 5"
      ]
     }
    ],
@@ -2844,8 +2972,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T15:17:15+00:00",
-  "fetched_at": "2026-11-03T15:17:15+00:00"
+  "checked_at": "2026-11-03T16:17:37+00:00",
+  "fetched_at": "2026-11-03T16:17:37+00:00"
  },
  "ai": {
   "data": {
@@ -2869,21 +2997,22 @@ window.DB.generated = {
    ],
    "candidates": 10,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 357,
+     "likes": 358,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1227,
+     "likes": 1229,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2911,14 +3040,14 @@ window.DB.generated = {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 90,
+     "likes": 92,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 276,
+     "likes": 277,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -2939,14 +3068,14 @@ window.DB.generated = {
      "title": "Phonon",
      "desc_en": "Text-to-speech that runs in your browser",
      "desc_he": "טקסט לדיבור הפועל בדפדפן שלך",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/gradium/phonon"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T15:17:22+00:00",
-  "fetched_at": "2026-11-03T15:17:22+00:00"
+  "checked_at": "2026-11-03T16:17:46+00:00",
+  "fetched_at": "2026-11-03T16:17:46+00:00"
  },
  "abroad": {
   "data": {
@@ -3287,8 +3416,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-03T15:17:17+00:00",
-  "fetched_at": "2026-11-03T15:17:17+00:00"
+  "checked_at": "2026-11-03T16:17:40+00:00",
+  "fetched_at": "2026-11-03T16:17:40+00:00"
  },
  "idf": {
   "data": [
@@ -3319,58 +3448,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:17+00:00",
-  "fetched_at": "2026-11-03T15:17:17+00:00"
+  "checked_at": "2026-11-03T16:17:41+00:00",
+  "fetched_at": "2026-11-03T16:17:41+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-03T14:50:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "newest": "2026-11-03T16:16:00+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-03T14:50:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-03T14:31:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-03T15:51:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-03T14:39:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "newest": "2026-11-03T16:27:00+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-03T16:00:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-03T15:01:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "newest": "2026-11-03T15:54:00+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T20:50:54+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3382,35 +3511,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-03T12:02:29+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-02T19:30:58+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-03T14:35:02+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "newest": "2026-11-03T15:50:53+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-03T14:39:00+00:00",
-    "seen_at": "2026-11-03T15:17:24+00:00",
+    "seen_at": "2026-11-03T16:17:51+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-03T15:17:24+00:00"
+  "checked_at": "2026-11-03T16:17:51+00:00"
  },
  "health_news": {
   "data": [
@@ -3566,7 +3695,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T15:17:18+00:00",
-  "fetched_at": "2026-11-03T15:17:18+00:00"
+  "checked_at": "2026-11-03T16:17:41+00:00",
+  "fetched_at": "2026-11-03T16:17:41+00:00"
  }
 };
