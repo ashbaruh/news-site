@@ -1,368 +1,356 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-02T18:00:00+02:00",
- "generated_at": "2026-11-02T15:40:29+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-11-03T04:00:00+02:00",
+ "generated_at": "2026-11-03T01:40:12+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11021540-01",
-     "title": "איראן מציעה לפתוח את מצר הורמוז בתנאי שדרישותיה יתקבלו",
-     "summary": "בכיר איראני הודיע כי ארצו מוכנה לפתוח מחדש את מצר הורמוז בתוך יומיים אם ארצות הברית תסכים לתנאיה.",
-     "axis": "משבר מצר הורמוז",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-02T13:59:21+00:00",
-     "last_update_at": "2026-11-02T13:59:21+00:00",
-     "what_is_not_verified": "התנאים המדויקים ותגובת ארצות הברית אינם מפורטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-ready-reopen-hormuz-two-days-if-us-agrees-demands",
-       "published_at": "2026-11-02T13:59:21+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11021540-02",
-     "title": "דיווח איראני על פגיעת מוקש במכלית נפט במצר הורמוז",
-     "summary": "חיל הים האיראני הודיע כי מכלית נפט שפעלה בניגוד להנחיות עלתה באש לאחר שפגעה במוקשים ממזרח למצר הורמוז.",
-     "axis": "לחימה ימית במצר הורמוז",
+     "id": "IRAN-11030140-01",
+     "title": "אימון טילים באיראן",
+     "summary": "נצפה שיגור טיל מעל העיר חמדאן כחלק מתרגיל של משמרות המהפכה.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
+     "occurred_at": "2026-11-02T16:58:54+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-02T14:29:16+00:00",
-     "last_update_at": "2026-11-02T14:29:16+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או פרטים על זהות המכלית ונפגעים.",
+     "first_reported_at": "2026-11-02T16:58:54+00:00",
+     "last_update_at": "2026-11-02T16:58:54+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86310422/Another-offending-tanker-catches-fire-after-striking-mines-east",
-       "published_at": "2026-11-02T14:29:16+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11021540-03",
-     "title": "מזכיר המועצה לביטחון לאומי של איראן שוחח עם נשיא רוסיה",
-     "summary": "מוחסן רזאי קיים שיחות עם ולדימיר פוטין שבהן אושרר המשך שיתוף הפעולה האסטרטגי ונדון העימות מול ישראל וארצות הברית.",
-     "axis": "יחסי איראן-רוסיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T15:02:59+00:00",
-     "last_update_at": "2026-11-02T15:33:04+00:00",
-     "what_is_not_verified": "פרטי השיחות המלאים מעבר להודעה הרשמית אינם ידועים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86310474/Iran-Russia-reaffirm-commitment-to-strategic-cooperation",
-       "published_at": "2026-11-02T15:33:04+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-discusses-us-israel-war-russian-president-state",
-       "published_at": "2026-11-02T15:02:59+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://t.me/alexmehacarmel/49227",
+       "published_at": "2026-11-02T16:58:54+00:00"
       }
      ],
      "places": [
       {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
+       "name": "חמדאן",
+       "lat": 34.9726,
+       "lon": 48.6564
       }
      ]
+    },
+    {
+     "id": "IRAN-11030140-02",
+     "title": "פעילות כוחות הים והאוויר האמריקאי",
+     "summary": "מספר מטוסים אמריקאיים ומטוס סיור ימי פועלים במצר הורמוז במסגרת מבצעים צבאיים.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-02T21:38:37+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-02T21:38:37+00:00",
+     "last_update_at": "2026-11-02T21:38:37+00:00",
+     "what_is_not_verified": "היקף מלא של הפעילות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_src_tg_lelotsenzura",
+       "url": "https://t.me/lelotsenzura/94932",
+       "published_at": "2026-11-02T21:38:37+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11030140-03",
+     "title": "עזיבת משלחת קטר",
+     "summary": "משלחת מקטר עזבה את איראן לאחר שזו סירבה לקבל תנאים גרעיניים.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-02T21:45:24+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-02T21:45:24+00:00",
+     "last_update_at": "2026-11-02T21:45:24+00:00",
+     "what_is_not_verified": "פרטי התנאים המדויקים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_src_tg_lelotsenzura",
+       "url": "https://t.me/lelotsenzura/94933",
+       "published_at": "2026-11-02T21:45:24+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11021540-01",
-     "title": "חזבאללה הכריז על חלוקת סיוע כספי למשפחות שבתיהן נהרסו",
-     "summary": "בכיר חזבאללה עלי דעמוש הודיע על חלוקת מענקים בסך 14 אלף דולר למשפחות שאיבדו את בתיהן ברובע הדאחיה בביירות.",
-     "axis": "חזבאללה ולבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T15:39:59+00:00",
-     "last_update_at": "2026-11-02T15:39:59+00:00",
-     "what_is_not_verified": "העברת הכספים עצמה מול הדיווח על 200 מיליון דולר מאיראן אינה מאומתת ממקור רשמי נוסף.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132992",
-       "published_at": "2026-11-02T15:39:59+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11021540-02",
-     "title": "דיווח על תקיפה ישראלית בעיתא אל-ג'בל",
-     "summary": "מבנה הותקף מהאוויר בדרום לבנון לאחר שנמסרה לכאורה אזהרת פינוי מקדימה.",
-     "axis": "הלחימה בדרום לבנון",
+     "id": "NORTH-11030140-01",
+     "title": "תקיפות והתלקחות בלבנון",
+     "summary": "כוחות הכיבוש ביצעו תקיפה אווירית והציתו בתים במספר מוקדים בדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
+     "occurred_at": "2026-11-03T00:05:32+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-02T14:26:21+00:00",
-     "last_update_at": "2026-11-02T14:26:21+00:00",
-     "what_is_not_verified": "היקף הנזק ונפגעים אינם מפורטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/132989",
-       "published_at": "2026-11-02T14:26:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "עיתא אל-ג'בל, לבנון",
-       "lat": 33.1745,
-       "lon": 35.4094
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11021540-03",
-     "title": "ירי ארטילרי ישראלי לעבר פאתי מיפדון",
-     "summary": "כתב רשת אל-מנאר דיווח כי כוחות ישראליים ביצעו ירי ארטילרי לעבר השטחים הפתוחים של העיירה מיפדון בדרום לבנון.",
-     "axis": "הלחימה בדרום לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T11:34:54+00:00",
-     "last_update_at": "2026-11-02T11:34:54+00:00",
-     "what_is_not_verified": "אין דיווח על נפגעים או נזק.",
+     "first_reported_at": "2026-11-03T00:05:32+00:00",
+     "last_update_at": "2026-11-03T00:05:32+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_0c6e3a91de782026",
-       "url": "https://english.almanar.com.lb/article/145832/",
-       "published_at": "2026-11-02T11:34:54+00:00"
+       "source_root_id": "fh_b3cf03c730942863",
+       "url": "https://english.almanar.com.lb/article/146092/",
+       "published_at": "2026-11-03T00:05:32+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "NORTH-11030140-02",
+     "title": "כניסת כוחות לסוריה",
+     "summary": "כוחות צבאיים התקדמו לכפר אל-אסבה שבמרחב קוניטרה הדרומית.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-02T22:51:40+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-02T22:51:40+00:00",
+     "last_update_at": "2026-11-02T22:51:40+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_src_mee",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-occupation-push-quneitra-syria-syrian-media-report",
+       "published_at": "2026-11-02T22:51:40+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-11030140-03",
+     "title": "חלוקת כספים מטעם חזבאללה",
+     "summary": "הארגון הכריז על חלוקת סיוע כספי למשפחות שבתיהן נפגעו בביירות.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-02T15:39:59+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-02T15:39:59+00:00",
+     "last_update_at": "2026-11-02T15:39:59+00:00",
+     "what_is_not_verified": "מקור הכספים בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_src_tg_abualiexpress",
+       "url": "https://t.me/abualiexpress/132992",
+       "published_at": "2026-11-02T15:39:59+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11021540-01",
-     "title": "נציב זכויות האדם האוקראיני סירב לפרסם את מספרי המפונים מאולשקי",
-     "summary": "דמיטרו לובינץ הצהיר כי בהתאם לסיכומים עם רוסיה, אוקראינה לא תחשוף את כמות האזרחים שהתפנו מהעיירה.",
-     "axis": "מאמצים הומניטריים באולשקי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T14:58:00+00:00",
-     "last_update_at": "2026-11-02T14:58:00+00:00",
-     "what_is_not_verified": "מספר המפונים המדויק אינו ידוע.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-society/4180544-lubinets-ukraine-will-not-disclose-number-of-citizens-evacuated-from-oleshky.html",
-       "published_at": "2026-11-02T14:58:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אולשקי, אוקראינה",
-       "lat": 46.6261,
-       "lon": 32.722
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11021540-02",
-     "title": "פגיעת כטב\"ם רוסי בבית חולים בחרסון עם תום הפסקת האש",
-     "summary": "רשויות הצבא בחרסון מסרו כי כטב\"ם רוסי פגע במבנה בית חולים וגרם לנזק כבד זמן קצר לאחר תום הפוגה הומניטרית.",
-     "axis": "הלחימה בדרום אוקראינה",
+     "id": "UKRAINE-11030140-01",
+     "title": "הפצצת מרכז סיוע באוקראינה",
+     "summary": "מתקפה רוסית על מרכז חלוקת סיוע ומקלט סמוך גרמה להרג בני אדם.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T07:40:00+00:00",
+     "occurred_at": "2026-11-03T01:13:52+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-02T15:08:59+00:00",
-     "last_update_at": "2026-11-02T15:08:59+00:00",
-     "what_is_not_verified": "לא נמסר מידע על מספר הנפגעים באירוע הספציפי.",
+     "first_reported_at": "2026-11-03T01:13:52+00:00",
+     "last_update_at": "2026-11-03T01:13:52+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
-       "published_at": "2026-11-02T15:08:59+00:00"
+       "source_root_id": "fh_b3f01c11ac5d103d",
+       "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+       "published_at": "2026-11-03T01:13:52+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרסון, אוקראינה",
-       "lat": 46.6401,
-       "lon": 32.6144
+       "name": "קומישובאחה",
+       "lat": 48.6403,
+       "lon": 37.4558
       }
      ]
     },
     {
-     "id": "UKRAINE-11021540-03",
-     "title": "סלובקיה הצטרפה לקואליציה להשבת ילדים אוקראינים",
-     "summary": "מזכיר המדינה הסלובקי מסר איגרת דיפלומטית המאשרת את הצטרפות ארצו לקואליציה הבינלאומית להחזרת ילדים שנלקחו לרוסיה.",
-     "axis": "דיפלומטיה ומאמצי סיוע בינלאומיים",
-     "claim_type": "incident",
+     "id": "UKRAINE-11030140-02",
+     "title": "הודעה על שיחות באבו דאבי",
+     "summary": "שליח ארצות הברית הודיע כי שיחות תלת-צדדיות בין רוסיה, אוקראינה וארה\"ב יתקיימו באבו דאבי.",
+     "axis": "ukraine",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
+     "occurred_at": "2026-11-03T00:00:46+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-02T15:37:00+00:00",
-     "last_update_at": "2026-11-02T15:37:00+00:00",
-     "what_is_not_verified": "לוחות זמנים לצעדים מעשיים במסגרת ההצטרפות אינם מפורטים.",
+     "first_reported_at": "2026-11-03T00:00:46+00:00",
+     "last_update_at": "2026-11-03T00:00:46+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060902/",
-       "published_at": "2026-11-02T15:37:00+00:00"
+       "source_id": "src_tass",
+       "source_root_id": "fh_e657daa35e6313e8",
+       "url": "https://tass.com/world/2212141",
+       "published_at": "2026-11-03T00:00:46+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "אבו דאבי",
+       "lat": 24.4538,
+       "lon": 54.3774
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11030140-03",
+     "title": "אספקת אוטובוסים לעיר אודסה",
+     "summary": "העיר גאלאטי מרומניה תעביר עשרים אוטובוסים עבור מערך התחבורה באודסה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-03T00:34:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-03T00:34:00+00:00",
+     "last_update_at": "2026-11-03T00:34:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_src_ukrinform",
+       "url": "https://www.ukrinform.net/rubric-defense/4180490-odesa-to-receive-20-buses-from-romanias-galati-for-public-transport-during-blackouts.html",
+       "published_at": "2026-11-03T00:34:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אודסה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      },
+      {
+       "name": "גאלאטי",
+       "lat": 45.4338,
+       "lon": 28.0549
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11021540-01",
-     "title": "דיווח על פגיעת טיל של החות'ים במרכז רפואי בלחג'",
-     "summary": "משרד הבריאות והממשלה בתימן מסרו כי פגיעת טיל בליסטי במרכז רפואי גרמה לעשרות נפגעים, בהם אנשי צוות רפואי.",
-     "axis": "מלחמת הפנים בתימן",
+     "id": "YEMEN-11030140-01",
+     "title": "התקדמות החות'ים לעבר עדן",
+     "summary": "ארגון החות'ים התקדם למרחק של שמונים קילומטרים מעדן, בירתה הזמנית של ממשלת תימן.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T12:15:21+00:00",
-     "last_update_at": "2026-11-02T15:25:41+00:00",
-     "what_is_not_verified": "קיימים פערים בדיווחים על מספר ההרוגים והפצועים המדויק.",
+     "occurred_at": "2026-11-02T16:40:18+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-02T16:40:18+00:00",
+     "last_update_at": "2026-11-02T22:36:06+00:00",
+     "what_is_not_verified": "היקף ההתקדמות המלא ופרטי השליטה בקרקע מבוססים על מקורות צבאיים בלבד.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155057",
-       "published_at": "2026-11-02T15:25:41+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155056",
-       "published_at": "2026-11-02T15:21:38+00:00"
-      },
-      {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
-       "published_at": "2026-11-02T12:15:21+00:00"
+       "url": "https://www.newarab.com/news/yemens-houthis-advance-within-80-km-aden-sources-say",
+       "published_at": "2026-11-02T22:36:06+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21762621",
+       "published_at": "2026-11-02T16:40:18+00:00"
       }
      ],
      "places": [
       {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
-      },
-      {
-       "name": "ראס אל-עארה, תימן",
-       "lat": 12.6084,
-       "lon": 43.9158
+       "name": "עדן",
+       "lat": 12.7896,
+       "lon": 45.0285
       }
      ]
     },
     {
-     "id": "YEMEN-11021540-02",
-     "title": "הקואליציה יירטה טיל בעוד קרבות מתנהלים באל-ג'וף",
-     "summary": "הקואליציה בהובלת סעודיה יירטה טיל על רקע התקדמות כוחות ממשלת תימן והתגברות העימותים מול החות'ים במחוז.",
-     "axis": "הלחימה במחוז אל-ג'וף",
+     "id": "YEMEN-11030140-02",
+     "title": "שיחת תיאום בין סעודיה לארצות הברית",
+     "summary": "שר ההגנה של סעודיה ועמיתו האמריקאי קיימו שיחה שבה דנו בשיתוף הפעולה האסטרטגי ובהתקפות החות'ים.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-02T09:43:59+00:00",
-     "last_update_at": "2026-11-02T12:14:10+00:00",
-     "what_is_not_verified": "פרטי הנזק או הנפגעים מיירוט הטיל אינם מפורטים.",
+     "occurred_at": "2026-11-02T21:57:02+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-02T21:57:02+00:00",
+     "last_update_at": "2026-11-02T21:57:02+00:00",
+     "what_is_not_verified": "התכנים המלאים של השיחה וסיכומי ההחלטות אינם מאומתים מעבר להודעת השר הסעודי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/2/al-jawf-becomes-new-hotspot-in-yemen-war-between-government-forces-houthis?traffic_source=rss",
-       "published_at": "2026-11-02T12:14:10+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
-       "published_at": "2026-11-02T09:43:59+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-us-review-strategic-defence-cooperation",
+       "published_at": "2026-11-02T21:57:02+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "YEMEN-11021540-03",
-     "title": "דיווח על פצועים בתקיפות אוויריות סעודיות בחודיידה",
-     "summary": "כלי תקשורת המזוהים עם החות'ים טענו כי שבעה בני אדם נפצעו בתקיפות שביצעה הקואליציה הסעודית בעיר.",
-     "axis": "עימות הקואליציה הסעודית והחות'ים",
+     "id": "YEMEN-11030140-03",
+     "title": "פגיעה באזרחים בתוצאה מנפילת טילים בתעז",
+     "summary": "נפילת טילים הובילה להרוגים ופצועים בקרב אזרחים, בהם ילדים, בדרום תעז.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
+     "occurred_at": "2026-11-02T19:24:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-02T09:43:59+00:00",
-     "last_update_at": "2026-11-02T12:15:21+00:00",
-     "what_is_not_verified": "אין אימות עצמאי או אישור מצד הקואליציה לטענות החות'ים.",
+     "first_reported_at": "2026-11-02T19:24:40+00:00",
+     "last_update_at": "2026-11-02T19:24:40+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק ונסיבות נפילת הטיל טרם אומתו באופן עצמאי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
-       "published_at": "2026-11-02T12:15:21+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
-       "published_at": "2026-11-02T09:43:59+00:00"
+       "url": "https://www.sabanew.net/viewstory/155076",
+       "published_at": "2026-11-02T19:24:40+00:00"
       }
      ],
      "places": [
       {
-       "name": "חודיידה, תימן",
-       "lat": 14.7979,
-       "lon": 42.9545
+       "name": "תעז",
+       "lat": 13.5752,
+       "lon": 44.0215
       }
      ]
     }
