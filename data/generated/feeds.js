@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-03T03:17:29+00:00",
-  "fetched_at": "2026-11-03T03:17:29+00:00"
+  "checked_at": "2026-11-03T04:17:11+00:00",
+  "fetched_at": "2026-11-03T04:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:41+00:00",
-  "fetched_at": "2026-11-03T03:17:41+00:00"
+  "checked_at": "2026-11-03T04:17:50+00:00",
+  "fetched_at": "2026-11-03T04:17:50+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:42+00:00",
-  "fetched_at": "2026-11-03T03:17:42+00:00"
+  "checked_at": "2026-11-03T04:17:50+00:00",
+  "fetched_at": "2026-11-03T04:17:50+00:00"
  },
- "generated_at": "2026-11-03T03:17:42+00:00",
+ "generated_at": "2026-11-03T04:17:50+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הנאסד\"ק וה-S&P 500 ננעלו באדום; הקריסה באינטל נמשכה, מניות השבבים ירדו לשפל של חצי שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561626",
-     "date": "2026-11-02T21:01:00+00:00"
+     "title": "23 קמ\"ש בשעות השיא באיילון: נתונים חדשים חושפים עד כמה הפקקים החריפו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561737",
+     "date": "2026-11-03T03:59:00+00:00"
     },
     {
      "title": "טראמפ בראיון: לא ממהר לחדש את המלחמה עם איראן. \"משתקים להם את הכלכלה\"",
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "שותף של לאומי, משקיע בפועלים: הסוחר שמחזיק מניות בנקים ב-4.5 מיליארד שקל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561708",
+     "date": "2026-11-03T04:06:00+00:00"
+    },
+    {
+     "title": "\"לא מודאג מהירידות\": מנהל ההשקעות שרואה הזדמנות במניות פיננסים והייטק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561718",
+     "date": "2026-11-03T04:05:00+00:00"
+    },
+    {
+     "title": "רוחות המלחמה חוזרות, אבל הממשלה שוקלת להפסיק את ביטוח הספינות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561684",
+     "date": "2026-11-03T04:03:00+00:00"
+    },
     {
      "title": "רבעון ראשון למנכ\"ל אפל החדש ג'ון טרנוס: מכה את התחזיות, מאכזבת באייפד ובסין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561660",
@@ -184,16 +199,6 @@ window.DB.generated = {
      "date": "2026-11-02T11:26:00+00:00"
     },
     {
-     "title": "טראמפ יאבד את השליטה בקונגרס? התרחיש שמפחיד את השווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561527",
-     "date": "2026-11-02T08:36:00+00:00"
-    },
-    {
-     "title": "מיזוג הנדל\"ן הגדול יצא לדרך, והשווי התכווץ בעשרות אחוזים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561642",
-     "date": "2026-11-02T08:06:00+00:00"
-    },
-    {
      "title": "דיסקונט מתניע מחדש את מכירת כאל. אלה המועמדים המובילים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561635",
      "date": "2026-11-02T06:52:00+00:00"
@@ -211,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T03:17:30+00:00",
-  "fetched_at": "2026-11-03T03:17:30+00:00"
+  "checked_at": "2026-11-03T04:17:13+00:00",
+  "fetched_at": "2026-11-03T04:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:31+00:00",
-  "fetched_at": "2026-11-03T03:17:31+00:00"
+  "checked_at": "2026-11-03T04:17:14+00:00",
+  "fetched_at": "2026-11-03T04:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2633,8 +2638,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:32+00:00",
-  "fetched_at": "2026-11-03T03:17:32+00:00"
+  "checked_at": "2026-11-03T04:17:16+00:00",
+  "fetched_at": "2026-11-03T04:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2801,19 +2806,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T03:17:32+00:00",
-  "fetched_at": "2026-11-03T03:17:32+00:00"
+  "checked_at": "2026-11-03T04:17:16+00:00",
+  "fetched_at": "2026-11-03T04:17:16+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/wix-launches-studio-two/",
-     "date": "2026-11-02T15:00:25+00:00",
-     "launch": false,
-     "title": "וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג'נטים, Cursor וקלוד"
-    },
     {
      "source": "Google",
      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
@@ -2822,25 +2820,36 @@ window.DB.generated = {
      "title_en": "The latest AI news we announced in October 2026",
      "title_he": "חדשות הבינה המלאכותית האחרונות שהכרזנו באוקטובר 2026",
      "translated_by": "mymemory"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/lifeval",
+     "date": "2026-11-02T09:00:00+00:00",
+     "launch": false,
+     "title_en": "LifeVal",
+     "title_he": null,
+     "translated_by": null
     }
    ],
-   "candidates": 9,
+   "candidates": 3,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 353,
+     "likes": 354,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1212,
+     "likes": 1214,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2902,8 +2911,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T03:17:40+00:00",
-  "fetched_at": "2026-11-03T03:17:40+00:00"
+  "checked_at": "2026-11-03T04:17:48+00:00",
+  "fetched_at": "2026-11-03T04:17:48+00:00"
  },
  "abroad": {
   "data": {
@@ -3245,8 +3254,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-03T03:17:36+00:00",
-  "fetched_at": "2026-11-03T03:17:36+00:00"
+  "checked_at": "2026-11-03T04:17:19+00:00",
+  "fetched_at": "2026-11-03T04:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3277,58 +3286,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:36+00:00",
-  "fetched_at": "2026-11-03T03:17:36+00:00"
+  "checked_at": "2026-11-03T04:17:20+00:00",
+  "fetched_at": "2026-11-03T04:17:20+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "newest": "2026-11-03T04:09:00+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "newest": "2026-11-03T04:06:00+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "newest": "2026-11-03T04:03:00+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-02T17:25:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-02T22:57:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-02T22:55:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T20:50:54+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3340,7 +3349,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3352,26 +3361,31 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-02T19:30:58+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-02T23:45:23+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-02T13:33:27+00:00",
-    "seen_at": "2026-11-03T03:17:42+00:00",
+    "newest": "2026-11-03T04:17:07+00:00",
+    "seen_at": "2026-11-03T04:17:50+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-03T03:17:42+00:00"
+  "checked_at": "2026-11-03T04:17:50+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "איפה מעשנים הכי הרבה בישראל? העיר שמובילה בגברים ובנשים",
+    "link": "https://www.walla.co.il/healthy/health-news/383959791",
+    "date": "2026-11-03T04:17:07+00:00"
+   },
    {
     "title": "נחירות בלילה ועייפות ביום? כך תזהו דום נשימה בשינה ותטפלו בו",
     "link": "https://www.walla.co.il/healthy/health-news/383959815",
@@ -3516,15 +3530,10 @@ window.DB.generated = {
     "title": "סוכריות נגד קמטים: \"העור הפך צעיר ב-10 שנים לפחות\"",
     "link": "https://www.walla.co.il/healthy/health-news/3872529",
     "date": "2026-10-17T07:36:00+00:00"
-   },
-   {
-    "title": "צבע עדין וברק גלוס: הבאלם לשפתיים של מייבלין",
-    "link": "https://www.walla.co.il/healthy/health-news/3872230",
-    "date": "2026-10-15T15:49:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T03:17:37+00:00",
-  "fetched_at": "2026-11-03T03:17:37+00:00"
+  "checked_at": "2026-11-03T04:17:20+00:00",
+  "fetched_at": "2026-11-03T04:17:20+00:00"
  }
 };
