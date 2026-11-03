@@ -1,0 +1,555 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a533ef2592ba",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "verified": 1,
+   "initial": 10,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-03T10:14:40+00:00",
+  "window": {
+   "from": "2026-11-02T10:14:40+00:00",
+   "to": "2026-11-03T10:14:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611031014"
+  },
+  "summary": "בזרוע הצפונית מתנהלת מתיחות מתמשכת הכוללת תקיפות והפרות הפסקת אש מצד ישראל בדרום לבנון ובקוניטרה, לצד מאמצים של חיזבאללה לשקם את יכולאתה ולחלק כספי שיקום. במקביל, ממשלת לבנון פועלת מול סוריה להחזרת פליטים ונוקטת צעדים כלכליים נגד בנקים המזוהים עם איראן.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית-ישראלית",
+    "status": "פעילה חלקית עם הפרות הפסקת אש ותקיפות"
+   },
+   {
+    "name": "החזית הסורית-ישראלית",
+    "status": "פעילה עם חדירות ותקיפות בקוניטרה"
+   },
+   {
+    "name": "הזירה הפנים-לבנונית",
+    "status": "מתיחות פוליטית וכלכלית סביב פליטים, חיזבאללה וגופים איראניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11031014-01",
+    "title": "פעילות צק\"ח 7 בלבנון",
+    "summary": "כוחות צק\"ח 7 סיכמו שמונה חודשי לחימה בלבנון שכללו הגעה למקומות כמו קנטרה, הליטאני והבופור.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T10:02:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T10:02:16+00:00",
+    "last_update_at": "2026-11-03T10:02:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25536",
+      "published_at": "2026-11-03T10:02:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     },
+     {
+      "name": "ליטאני, לבנון",
+      "lat": 33.552,
+      "lon": 35.6924
+     },
+     {
+      "name": "בופור, לבנון",
+      "lat": 33.3243,
+      "lon": 35.5321
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-02",
+    "title": "ביטול רישיון בנק סאדראת איראן בלבנון",
+    "summary": "הבנק המרכזי של לבנון ביטל את רישיון הפעילות המקומי של בנק סאדראת איראן במטרה להגן על המערכת הפיננסית ולמנוע סיכוני סנקציות.",
+    "axis": "לבנון - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T09:18:54+00:00",
+    "last_update_at": "2026-11-03T09:18:54+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_karim_souaid",
+      "url": "https://israel-alma.org/lebanon-revokes-bank-saderat-irans-license-but-the-real-test-is-hezbollahs-al-qard-al-hassan/",
+      "published_at": "2026-11-03T09:18:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     },
+     {
+      "name": "צידון, לבנון",
+      "lat": 33.5642,
+      "lon": 35.3753
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-03",
+    "title": "תקיפות והפרות הפסקת אש בדרום לבנון",
+    "summary": "כוחות צבא ישראל הפגיזו בארטילריה וביצעו ירי מקלעים ומבצעים צבאיים במספר מרחבים בדרום לבנון, תוך הפרות של הסכם הפסקת האש.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T08:13:39+00:00",
+    "last_update_at": "2026-11-03T08:24:50+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f882c63993d1048c",
+      "url": "https://english.almanar.com.lb/article/146217/",
+      "published_at": "2026-11-03T08:24:50+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_e0d95edb402ae8b4",
+      "url": "https://english.almanar.com.lb/article/146182/",
+      "published_at": "2026-11-03T08:13:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנגל/חיאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-04",
+    "title": "מחלוקת בין חיזבאללה ואמל במועצת חלוסיה",
+    "summary": "נציגי תנועת אמל במועצת הכפר חלוסיה איימו להתפטר בעקבות סכסוך עם נציגי חיזבאללה על שם הרחוב הראשי וסוגיות ציבוריות.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T06:54:50+00:00",
+    "last_update_at": "2026-11-03T06:54:50+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/hezbollah-amal-tensions-surface-again-in-southern-lebanon/",
+      "published_at": "2026-11-03T06:54:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11031014-05",
+    "title": "פגישה בין נשיא לבנון למנהל המרכז למדיניות הגירה",
+    "summary": "נשיא לבנון ז'וזף עון הצהיר כי לבנון אינה יכולה להכיל פליטים סורים נוספים וקרא לקהילה הבינלאומית להפנות סיוע לסוריה כדי לעודד את חזרתם.",
+    "axis": "לבנון - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T06:28:40+00:00",
+    "last_update_at": "2026-11-03T06:28:40+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966158/aoun-lebanon-can-no-longer-accommodate-more-syrian-refugees/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966158",
+      "published_at": "2026-11-03T06:28:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-06",
+    "title": "חקירת פשעי מלחמה בצרפת על תקיפה בלבנון",
+    "summary": "צרפת פתחה בחקירה שיפוטית בעקבות תלונה על פשעי מלחמה שהגיש אמן צרפתי-לבנוני על פגיעה בבניין מגורים בביירות בשנת 2024.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T06:03:07+00:00",
+    "last_update_at": "2026-11-03T06:03:07+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_clemence_bectarte",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966145/french-judges-probe-war-crimes-complaint-against-israeli-army-in-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966145",
+      "published_at": "2026-11-03T06:03:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פריז, צרפת",
+      "lat": 48.8535,
+      "lon": 2.3484
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-07",
+    "title": "אזהרות ישראליות לממשלת לבנון בנוגע לחיזבאללה",
+    "summary": "ירושלים העבירה מסרים לממשלת לבנון לפיהם תגובה צבאית קשה תופעל אם חיזבאללה יאתגר את צה\"ל בקו הצהוב או בעורף, בזמן שחיזבאללה ממשיך בשיקום יכולותיו.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T20:50:54+00:00",
+    "last_update_at": "2026-11-02T20:50:54+00:00",
+    "what_is_not_verified": "חידוש פסי ייצור ושיקום יכולות חיזבאללה צוין לפי מקורות מודיעיניים או דיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383959873",
+      "published_at": "2026-11-02T20:50:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירושלים, ישראל",
+      "lat": 31.7788,
+      "lon": 35.2258
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-08",
+    "title": "חלוקת כספי סיוע של חיזבאללה לנפגעים בדאחיה",
+    "summary": "ראש המועצה המבצעת של חיזבאללה, עלי דעמוש, הכריז על חלוקת סיוע כספי למשפחות שבתיהן נהרסו במלחמה בדאחיה של ביירות.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T15:39:59+00:00",
+    "last_update_at": "2026-11-02T15:39:59+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132992",
+      "published_at": "2026-11-02T15:39:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-09",
+    "title": "שרפה במחסן זיקוקים בג'ורה אל-בלוט",
+    "summary": "אש פרצה במחסן זיקוקים הממוקם מזרחית לביירות באזור ג'ורה אל-בלוט וגרמה להופעת עשן רב.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T08:55:52+00:00",
+    "last_update_at": "2026-11-02T14:51:25+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132990",
+      "published_at": "2026-11-02T14:51:25+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/965972/smoke-seen-over-jouret-el-ballout-caused-by-warehouse-fire-involving-f/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965972",
+      "published_at": "2026-11-02T08:55:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ורה אל-בלוט, לבנון",
+      "lat": 33.8945,
+      "lon": 35.6294
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-10",
+    "title": "הרס מטע חקלאי בדרום לבנון בתקיפה ישראלית",
+    "summary": "מטע חקלאי בדרום לבנון בבעלות השף חוסיין פאיאד נפגע ונהרס בתקיפה של כוחות ישראל.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T14:38:57+00:00",
+    "last_update_at": "2026-11-02T14:38:57+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_the_new_arab",
+      "url": "https://www.newarab.com/news/dreams-destroyed-lebanese-chef-mourns-orchard-hit-israel",
+      "published_at": "2026-11-02T14:38:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 33.2481,
+      "lon": 35.5119
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-11",
+    "title": "תקיפה ישראלית בעיתא אל-ג'בל",
+    "summary": "כוחות ישראל תקפו מבנה בעיתא אל-ג'בל שבדרום לבנון, ככל הנראה לאחר התרעת פינוי.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T14:26:21+00:00",
+    "last_update_at": "2026-11-02T14:26:21+00:00",
+    "what_is_not_verified": "קיומה של התרעת פינוי מדויקת הוסק מאופי התיעוד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/132989",
+      "published_at": "2026-11-02T14:26:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עיתא אל-ג'בל, לבנון",
+      "lat": 33.0991,
+      "lon": 35.3408
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-12",
+    "title": "פגישת שר החוץ הסורי עם משלחת לבנונית בנושא הפליטים",
+    "summary": "שר החוץ של סוריה קיבל משלחת לבנונית בראשות סגן ראש ממשלת לבנון לשיחות על סוגיות מינהליות, חברתיות וחינוכיות סביב חזרת פליטים.",
+    "axis": "לבנון - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T12:50:48+00:00",
+    "last_update_at": "2026-11-02T12:50:48+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_anadolu",
+      "url": "https://www.aa.com.tr/en/middle-east/syrian-foreign-minister-receives-lebanese-delegation-for-talks-on-refugee-returns/4108809",
+      "published_at": "2026-11-02T12:50:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11031014-13",
+    "title": "התקדמות כוחות ישראל לקוניטרה",
+    "summary": "כוחות צבא ישראל התקדמו לתוך הכפר אל-אסבחה באזור הקפריסאי/כפרי של דרום קוניטרה באמצעות מספר כלי רכב צבאיים.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T22:51:40+00:00",
+    "last_update_at": "2026-11-02T22:51:40+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_syria_tv_sijil",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-occupation-push-quneitra-syria-syrian-media-report",
+      "published_at": "2026-11-02T22:51:40+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "קיומם של פסי ייצור חדשים לטילים ורקטות של חיזבאללה מצפון לליטאני",
+   "היקף ההעברות הכספיות המדויק מאיראן לחיזבאללה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1393,
+    "unit": "ILS",
+    "change_pct": 0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת אתגורים מצד חיזבאללה בקו הצהוב ובעורף הישראלי"
+    ],
+    "inferred": [
+     "אכיפת הסכמים צבאיים בלבנון ובדרום סוריה באמצעות פעילות מבצעית והתרעות"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות בלבנון ובסוריה במקרה של הפרות מצד חיזבאללה או נוכחות עוינת"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "תמיכה באוכלוסייה שנפגעה ומתן סיוע כספי לתושבי הדאחיה"
+    ],
+    "inferred": [
+     "שיקום תשתיות צבאיות, מילוי מקום מפקדים שחוסלו והיערכות למלחמה עתידית"
+    ],
+    "forecast": [
+     "המשך התעצמות שקטה ולחץ מקומי מול יריבים פוליטיים בלבנון לצד שמירה על פרופיל נמוך מול צה\"ל"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל)",
+    "declared": [
+     "הגנה על המערכת הפיננסית מסנקציות ודרישה להחזרת פליטים סורים לסוריה"
+    ],
+    "inferred": [
+     "ניסיון לנתק זיקות פיננסיות מסוימות מגורמים איראניים כדי לעמוד בדרישות בינלאומיות"
+    ],
+    "forecast": [
+     "הגברת התיאום עם סוריה בנושא הפליטים והחמרת הפיקוח על גופים פיננסיים מקומיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/hezbollah-amal-tensions-surface-again-in-southern-lebanon/",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/146182/",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syrian-foreign-minister-receives-lebanese-delegation-for-talks-on-refugee-returns/4108809",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/965972/smoke-seen-over-jouret-el-ballout-caused-by-warehouse-fire-involving-f/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-965972",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-occupation-push-quneitra-syria-syrian-media-report",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/dreams-destroyed-lebanese-chef-mourns-orchard-hit-israel",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/132989",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25536",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383959873",
+    "accessed_at": "2026-11-03T10:14:40+00:00"
+   }
+  ]
+ }
+}

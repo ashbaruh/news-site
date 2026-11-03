@@ -57,6 +57,10 @@
 36.0817
 ],
 "aita al-jabal, lebanon": null,
+"aita al-shaab, lebanon": [
+33.0991,
+35.3408
+],
 "aitaroun, lebanon": [
 33.1164,
 35.4715
@@ -362,6 +366,10 @@
 27.1842,
 56.2893
 ],
+"bandar lengeh, iran": [
+26.5621,
+54.8838
+],
 "bangkok, thailand": [
 13.7525,
 100.4935
@@ -389,6 +397,7 @@
 33.1785,
 35.4372
 ],
+"baraashit, lebanon": null,
 "barachit, lebanon": null,
 "barashit, lebanon": [
 33.1785,
@@ -401,6 +410,10 @@
 "bashiqa, iraq": [
 36.4505,
 43.3498
+],
+"beaufort, lebanon": [
+33.3243,
+35.5321
 ],
 "beer sheva, israel": [
 31.2457,
@@ -844,6 +857,7 @@
 15.6329,
 43.6063
 ],
+"hallousiyah, lebanon": null,
 "hama, syria": [
 35.1343,
 36.7496
@@ -997,6 +1011,10 @@
 "jabal al-arab, as-suwayda, syria": null,
 "jabal bazel, yemen": null,
 "jabal habashi, taiz, yemen": [
+13.465,
+43.881
+],
+"jabal habashi, yemen": [
 13.465,
 43.881
 ],
@@ -1358,6 +1376,10 @@
 ],
 "litani river ridge, lebanon": null,
 "litani river, lebanon": [
+33.552,
+35.6924
+],
+"litani, lebanon": [
 33.552,
 35.6924
 ],

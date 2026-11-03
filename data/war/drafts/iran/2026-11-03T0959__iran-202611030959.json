@@ -1,0 +1,326 @@
+{
+ "status": "draft",
+ "received_sha256_12": "1c3d98e063b5",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-03T09:59:47+00:00",
+  "window": {
+   "from": "2026-11-02T09:59:47+00:00",
+   "to": "2026-11-03T09:59:47+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611030959"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך על רקע תקיפות אמריקאיות מוגבלות באיראן ומאמצים דיפלומטיים עקיפים שנמשכים סביב סוגיות הגרעין והשליטה במצר הורמוז. במקביל, בכירים באיראן משמיעים איומים להרחיב את טווח הלחימה למדינות אירופה ולארה\"ב, בעוד שוק האנרגיה והכלכלה העולמית מושגים קשות מהמתיחות הממושכת במפרץ.",
+  "fronts": [
+   {
+    "name": "חזית איראן - ארה\"ב",
+    "status": "פעיל עם תקיפות מוגבלות וחילופי איומים"
+   },
+   {
+    "name": "חזית מצר הורמוז והכלכלה הימית",
+    "status": "חסום או מנוטרל חלקית תחת איומים הדדיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11030959-01",
+    "title": "תקיפות אמריקאיות באי קשם ובבנדר לנגה",
+    "summary": "צבא ארה\"ב ביצע תקיפות מוגבלות והגנתיות באיראן בתגובה לירי לעבר נכסים וכלי טיס אמריקאיים.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T02:23:43+00:00",
+    "last_update_at": "2026-11-03T08:14:14+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק וזהות הנכסים שנפגעו באופן מלא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
+      "published_at": "2026-11-03T08:14:14+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "published_at": "2026-11-03T08:13:46+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-carries-out-defensive-strikes-irans-qeshm-island-officials-say",
+      "published_at": "2026-11-03T05:46:31+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T03:39:08+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21764581",
+      "published_at": "2026-11-03T02:23:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     },
+     {
+      "name": "בנדר לנגה, איראן",
+      "lat": 26.5621,
+      "lon": 54.8838
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11030959-02",
+    "title": "איומים איראניים על הרחבת המלחמה לאירופה וארה\"ב",
+    "summary": "גורמים צבאיים ופרלמנטריים באיראן איימו כי עימות עתידי יתרחב מעבר למזרח התיכון ויכלול תקיפות על מתקנים אמריקאיים ואירופיים.",
+    "axis": "איראן מול ארה\"ב ואירופה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T08:14:14+00:00",
+    "last_update_at": "2026-11-03T09:56:49+00:00",
+    "what_is_not_verified": "האם איראן אכן מחזיקה ביכולות מבצעיות מדויקות לפגוע באירופה ובארה\"ב באמצעות טילים בין-יבשתיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611036564",
+      "published_at": "2026-11-03T09:56:49+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133016",
+      "published_at": "2026-11-03T09:28:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
+      "published_at": "2026-11-03T08:14:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11030959-03",
+    "title": "הצעת איראן לתנאים לפתיחת מצר הורמוז",
+    "summary": "איראן הציעה תוכנית עבודה לפתיחת מצר הורמוז ולחידוש שיחות הגרעין בתמורה להיענות לדרישותיה.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T17:04:54+00:00",
+    "last_update_at": "2026-11-03T07:47:09+00:00",
+    "what_is_not_verified": "האם ארה\"ב או בעלות בריתה יסכימו לתנאים שהציגה טהרן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133013",
+      "published_at": "2026-11-03T07:47:09+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
+      "published_at": "2026-11-02T17:42:22+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/video/20261102-iran-offers-deal-on-hormuz-strait-netanyahu-wants-to-finish-the-job",
+      "published_at": "2026-11-02T17:04:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11030959-04",
+    "title": "אימון צבאי של משמרות המהפכה בחמדאן",
+    "summary": "נצפו טילים בשמי העיר חמדאן באיראן במסגרת אימון של משמרות המהפכה.",
+    "axis": "איראן פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T16:58:54+00:00",
+    "last_update_at": "2026-11-02T16:58:54+00:00",
+    "what_is_not_verified": "לא מאומת האם מדובר באימון שגרתי בלבד או בהיערכות מיוחדת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49227",
+      "published_at": "2026-11-02T16:58:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חמדאן, איראן",
+      "lat": 34.9726,
+      "lon": 48.6564
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ה",
+   "ט",
+   "ע",
+   "נ",
+   "ה",
+   "ש",
+   "ל",
+   "ח",
+   "ב",
+   "ר",
+   "ה",
+   "פ",
+   "ר",
+   "ל",
+   "מ",
+   "נ",
+   "ט",
+   "ה",
+   "א",
+   "י",
+   "ר",
+   "א",
+   "נ",
+   "י",
+   "ל",
+   "פ",
+   "י",
+   "ה",
+   "א",
+   "י",
+   "ר",
+   "א",
+   "ן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1393,
+    "unit": "ILS",
+    "change_pct": 0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגנה על המדינה מפני תקיפות זרות",
+     "דרישה להיענות לתנאיה כתנאי לפתיחת מצר הורמוז",
+     "איום בהרחבת זירת הלחימה לאירופה ולארה\"ב"
+    ],
+    "inferred": [
+     "שאיפה להסרת סנקציות ולבלום את הדרישות המערביות במו\"מ",
+     "ניסיון להפעיל לחץ כלכלי על המערב באמצעות שיבוש נתיבי האנרגיה"
+    ],
+    "forecast": [
+     "המשך שימוש באיומי טילים ובהסלמה ימית כדי לשפר עמדות מיקוח",
+     "החרפת הרטוריקה נגד אירופה וארה\"ב"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הגנה על נכסים וכלים צבאיים באזור מפני תקיפות איראניות",
+     "מניעת התבססות גרעינית צבאית איראנית"
+    ],
+    "inferred": [
+     "שמירה על הרתעה באמצעות תקיפות נקודתיות מוגבלות מבלי להיגרר למלחמה כוללת לפני בחירות האמצע",
+     "הפעלת לחץ מרבי על טהרן לצורך הגעה להסכם נוח"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות וממוקדות אם יימשכו האיומים או הירי לעבר כוחותיה",
+     "המתנה לתוצאות הפוליטיות הפנימיות בארה\"ב לשם גיבוש מדיניות המשך"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-carries-out-defensive-strikes-irans-qeshm-island-officials-say",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/video/20261102-iran-offers-deal-on-hormuz-strait-netanyahu-wants-to-finish-the-job",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611036564",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21764581",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133013",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49227",
+    "accessed_at": "2026-11-03T09:59:47+00:00"
+   }
+  ]
+ }
+}

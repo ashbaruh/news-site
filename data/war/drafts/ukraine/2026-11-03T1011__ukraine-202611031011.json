@@ -1,0 +1,397 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c27f5337db72",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 5,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-03T10:11:20+00:00",
+  "window": {
+   "from": "2026-11-02T10:11:20+00:00",
+   "to": "2026-11-03T10:11:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611031011"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה ממשיכה להתאפיין בתקיפות אוויריות נרחבות של רוסיה על תשתיות אנרגיה, בתי חולים ומרכזים הומניטריים באוקראינה, לצד תקיפות נגד של כטב\"מים אוקראיניים על מתקני זיקוק בתוך רוסיה. במקביל, לאחר פקיעת הפוגה מקומית קצרה באולשקי, חודשו העימותים בחזית חרסון ודונייצק, בעוד המעצמות המערביות וארה\"ב מקדמות פלטפורמות דיפלומטיות לקראת שיחות משולשות ודיונים על ערבויות ביטחוניות.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (דונייצק וחרקוב)",
+    "status": "פעילה עם לוחמה הנדסית ותקיפות טילים"
+   },
+   {
+    "name": "חזית הדרום (זפוריז'יה וחרסון)",
+    "status": "פעילה הכוללת תקיפות על מרכזים אזרחיים וחידוש עימותים לאחר הפוגה"
+   },
+   {
+    "name": "עומק רוסיה (ירוסלבל)",
+    "status": "תקיפות אוויריות אוקראיניות על תשתיות אנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11031011-01",
+    "title": "תקיפות רוסיות על תשתית האנרגיה באוקראינה",
+    "summary": "רוסיה ביצעה תקיפות מרובות על תשתיות אנרגיה ומתקני חשמל במספר מחוזות באוקראינה",
+    "axis": "תשתיות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T08:44:00+00:00",
+    "last_update_at": "2026-11-03T09:59:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל מתקן אינו מאומת לחלוטין מחוץ להודעות הרשמיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4180832-fm-sybiha-calls-russias-deliberate-prewinter-attacks-on-ukraines-energy-infrastructure-clear-sign-of-genocide.html",
+      "published_at": "2026-11-03T09:59:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4180773-russian-forces-damage-dtek-facility-in-southern-odesa-region.html",
+      "published_at": "2026-11-03T08:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8060994/",
+      "published_at": "2026-11-03T08:44:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11031011-02",
+    "title": "תקיפה רוסית על הוספיס ומתקנים רפואיים בדניפרו ובחרקוב",
+    "summary": "טילים רוסיים פגעו בהוספיס לחולים סופניים ובמבנים רפואיים בדניפרו ובחרקוב וגרמו לנפגעים",
+    "axis": "עורף ואוכלוסייה אזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T07:29:00+00:00",
+    "last_update_at": "2026-11-03T09:08:00+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק והנזק הסופי מחוץ לדיווחים הרשמיים המקומיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8061000/",
+      "published_at": "2026-11-03T09:08:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/03/russia-attack-damages-hospital-in-ukraine-s-kharkiv-over-60-injured",
+      "published_at": "2026-11-03T08:23:09+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4180763-russian-strike-on-kharkiv-hospital-raises-injury-toll-to-73.html",
+      "published_at": "2026-11-03T07:29:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     },
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11031011-03",
+    "title": "תקיפה רוסית על מרכז סיוע הומניטרי בקמישובוחה",
+    "summary": "הפצצה רוסית פגעה במרכז חלוקת סיוע ובמקלט סמוך במחוז זפוריז'יה והרגה עשרות בני אדם",
+    "axis": "עורף ואוכלוסייה אזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T01:13:52+00:00",
+    "last_update_at": "2026-11-03T08:53:04+00:00",
+    "what_is_not_verified": "הזהות המלאה של כלל ההרוגים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/nov/03/rubble-deadly-strike-ukrainian-aid-centre-video",
+      "published_at": "2026-11-03T08:53:04+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+      "published_at": "2026-11-03T01:13:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קמישובוחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11031011-04",
+    "title": "תקיפת כטב\"מים אוקראינית על בית הזיקוק בירוסלבל",
+    "summary": "כטב\"מים אוקראיניים תקפו את בית הזיקוק בסלאבנפט-יאנוס בירוסלבל וגרמו לשריפה גדולה ולפצועים",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T02:35:47+00:00",
+    "last_update_at": "2026-11-03T08:31:33+00:00",
+    "what_is_not_verified": "טענות על השמדה מוחלטת של המתקן אינן מאומתות מעבר לדיווחים על שריפה ונזק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries",
+      "published_at": "2026-11-03T08:31:33+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49252",
+      "published_at": "2026-11-03T03:58:45+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49249",
+      "published_at": "2026-11-03T02:35:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירוסלבל, רוסיה",
+      "lat": 57.6264,
+      "lon": 39.8934
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11031011-05",
+    "title": "חשיפת מזימת משקפיים ממולכדים בחזית",
+    "summary": "רוסיה הודיעה שסיכלה מזימה אוקראינית להעברת משקפיים ממולכדים למפעילי רחפנים רוסים",
+    "axis": "לוחמת רשת וחזית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T08:13:52+00:00",
+    "last_update_at": "2026-11-03T08:13:52+00:00",
+    "what_is_not_verified": "האם חיילים רוסים נפגעו בפועל מהמזימה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/h1fzuzvpze",
+      "published_at": "2026-11-03T08:13:52+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11031011-06",
+    "title": "בניית מנהרה תת-קרקעית במחוז דונייצק",
+    "summary": "הכוחות האוקראיניים השלימו הקמת מנהרה באורך כשישה קילומטרים במחוז דונייצק לתנועה וללוגיסטיקה",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T08:34:00+00:00",
+    "last_update_at": "2026-11-03T08:34:00+00:00",
+    "what_is_not_verified": "לא צוינו פרטים בלתי מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8060992/",
+      "published_at": "2026-11-03T08:34:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11031011-07",
+    "title": "הכרזת פגישה משולשת באבו דאבי ודיונים בבריסל",
+    "summary": "ארה\"ב הודיעה על קיום שיחות משולשות בין ארה\"ב, רוסיה ואוקראינה באבו דאבי ודיוני נאט\"ו בבריסל על ערבויות ביטחוניות",
+    "axis": "דיפלומטיה ומדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T23:37:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T23:37:22+00:00",
+    "last_update_at": "2026-11-03T08:38:00+00:00",
+    "what_is_not_verified": "האם השיחות אכן יתקיימו ללא הפרעות מצב ביטחוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8060993/",
+      "published_at": "2026-11-03T08:38:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi",
+      "published_at": "2026-11-03T08:15:38+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bjip6quafe",
+      "published_at": "2026-11-03T03:09:03+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/03/ukraine-war-briefing-us-to-mediate-talks-with-kyiv-and-moscow-in-abu-dhabi-next-week-says-witkoff",
+      "published_at": "2026-11-03T02:00:38+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21764395",
+      "published_at": "2026-11-02T23:37:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     },
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף פגיעות מדויק של חיילים רוסים במזימת המשקפיים הממולכדים",
+   "מידת ההצלחה העתידית של פיתוח מנועי טורבו-סילון באוקראינה לייצור מיירטים",
+   "פרטים מדויקים על מעורבות פוליטית חיצונית בהפגת אולשקי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1216,
+    "unit": "USD",
+    "change_pct": 0.39,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה בתשתיות אסטרטגיות וצבאיות של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת כושר העמידה של האוכלוסייה האזרחית באמצעות פגיעה במערכות חימום ואנרגיה לקראת החורף",
+     "שיפור עמדות בשטח במהלך הפוגות זמניות"
+    ],
+    "forecast": [
+     "המשך גלי תקיפות אוויריות כבדות על מתקני אנרגיה ואוכלוסייה",
+     "המשך לחץ צבאי בחזיתות המזרחיות והדרומיות"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שמי המדינה ופיתוח אמצעי יירוט עצמאיים נגד כטב\"מים"
+    ],
+    "inferred": [
+     "שיבוש כלכלת האנרגיה הרוסית באמצעות תקיפת בתי זיקוק בעומק רוסיה",
+     "שמירה על קשר דיפלומטי להשגת ערבויות ביטחוניות וסיוע מערבי"
+    ],
+    "forecast": [
+     "הרחבת הייצור ההמוני של מיירטי כטב\"מים עד סוף השנה",
+     "השתתפות בשיחות דיפלומטיות בתיווך אמריקני באבו דאבי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/03/ukraine-war-briefing-us-to-mediate-talks-with-kyiv-and-moscow-in-abu-dhabi-next-week-says-witkoff",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21764395",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8060993/",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49249",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4180763-russian-strike-on-kharkiv-hospital-raises-injury-toll-to-73.html",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bjip6quafe",
+    "accessed_at": "2026-11-03T10:11:20+00:00"
+   }
+  ]
+ }
+}

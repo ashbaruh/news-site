@@ -1,0 +1,635 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fadbfb9f8d58",
+ "preview": {
+  "events": 16,
+  "levels": {
+   "shared_root": 1,
+   "initial": 11,
+   "verified": 3,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-03T10:12:59+00:00",
+  "window": {
+   "from": "2026-11-02T10:12:59+00:00",
+   "to": "2026-11-03T10:12:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611031012"
+  },
+  "summary": "הלחימה בתימן ובאזור הסובב אותה מתאפיינת בהתקדמות קרקעית של החות'ים לעבר אזורים אסטרטגיים וסביב עדן ותעז, לצד תקיפות אוויריות והתכתשויות מול ממשלת תימן והקואליציה בראשות סעודיה. במקביל, החות'ים ממשיכים לבצע שיגורים לעבר יעדים בתוך סעודיה, מה שמוביל לשיבושים ביטחוניים ודחיית אירועים בינלאומיים בממלכה.",
+  "fronts": [
+   {
+    "name": "החזית הפנימית בתימן (תעז, לחג ועדן)",
+    "status": "פעילה עם קרקעות וחילופי אש"
+   },
+   {
+    "name": "החזית מול סעודיה (מתקפות כטב\"מים וטילים)",
+    "status": "פעילה"
+   },
+   {
+    "name": "ציר הים האדום ומצר באב אל-מנדב",
+    "status": "פעיל ומאוים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11031012-01",
+    "title": "דחיית גביע אסיאה בכדורגל בסעודיה",
+    "summary": "התאחדות הכדורגל של אסיה הודיעה על דחיית טורניר גביע אסיאה 2027 בסעודיה מדצמבר/ינואר בעקבות המצב הביטחוני והתקיפות החות'יות.",
+    "axis": "סעודיה והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T06:55:39+00:00",
+    "last_update_at": "2026-11-03T09:58:46+00:00",
+    "what_is_not_verified": "נסיבות השיבוץ והדחייה המדויקות מעבר להודעת ההתאחדות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_8b2321e388731958",
+      "url": "https://www.newarab.com/news/asian-cup-latest-event-saudi-arabia-be-postponed",
+      "published_at": "2026-11-03T09:58:46+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_8b2321e388731958",
+      "url": "https://www.al-monitor.com/originals/2026/11/asian-cup-latest-event-saudi-arabia-be-postponed-over-safety",
+      "published_at": "2026-11-03T08:30:46+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_8b2321e388731958",
+      "url": "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss",
+      "published_at": "2026-11-03T06:55:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "אל-ח'ובאר, סעודיה",
+      "lat": 26.304,
+      "lon": 50.196
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-02",
+    "title": "לחימה מתחדשת ואזורים נפגעים סביב תעז",
+    "summary": "קרבות ולחימה מחודשת באזור תעז הותירו ילדים במצוקה נפשית וגרמו לנפגעים אזרחיים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-09-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T09:02:42+00:00",
+    "last_update_at": "2026-11-03T09:02:42+00:00",
+    "what_is_not_verified": "היקף הנפגעים המדויק באוכלוסייה האזרחית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/death-closer-school-yemens-children-struggle-war-trauma",
+      "published_at": "2026-11-03T09:02:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-03",
+    "title": "תיעוד הפרות ופשעים חות'יים בלחימה",
+    "summary": "תיעוד של הפרות ופשעים המיוחסים לכוחות החות'יים באזורי תעז ולחג בתוך פרק זמן קצר.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T07:39:20+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T07:39:20+00:00",
+    "last_update_at": "2026-11-03T07:39:20+00:00",
+    "what_is_not_verified": "פרטי כל אירוע ואירוע המדווחים ברשת הזכויות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_54223a9137e1b3c4",
+      "url": "https://www.sabanew.net/viewstory/155103",
+      "published_at": "2026-11-03T07:39:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "לחג, תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-04",
+    "title": "פינוי מוקשים שהונחו על ידי החות'ים",
+    "summary": "פעילות פינוי מוקשים המדווחת כמבצע לפינוי אלפי מוקשים שהונחו על ידי המיליציות החות'יות.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T06:50:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T06:50:00+00:00",
+    "last_update_at": "2026-11-03T06:50:00+00:00",
+    "what_is_not_verified": "המיקום המדויק של כל מוקש שפונה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_e6e445652768c0eb",
+      "url": "https://www.sabanew.net/viewstory/155100",
+      "published_at": "2026-11-03T06:50:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11031012-05",
+    "title": "כוחות ממשלת תימן מדווחים על התקדמות בלחג",
+    "summary": "כוחות הממשלה המוכרת בינלאומית דיווחו על השתלטות מחדש על עמדות באזור אל-מקטירה שבצפון מחוז לחג והדפת המיליציות החות'יות.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T04:52:37+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T04:52:37+00:00",
+    "last_update_at": "2026-11-03T04:52:37+00:00",
+    "what_is_not_verified": "שליטה מלאה בשטח לאורך זמן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_bf0220de7cae86ec",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-gains-yemens",
+      "published_at": "2026-11-03T04:52:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לחג, תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-06",
+    "title": "הצבא התימני מדווח על אלפי מבצעים נגד החות'ים",
+    "summary": "הצבא התימני טען כי ביצע כאלפי פעולות ומבצעים נגד יעדים חות'יים במסגרת מבצע 'שחר תימן' במספר חזיתות.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T03:11:58+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T03:11:58+00:00",
+    "last_update_at": "2026-11-03T03:11:58+00:00",
+    "what_is_not_verified": "מספר הנפגעים והכלים המדויקים שנטען כי נפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_36fc97832f440ad1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-army-says-it-launched-nearly-1000-operations-against-houthi",
+      "published_at": "2026-11-03T03:11:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     },
+     {
+      "name": "אל-ביצא, תימן",
+      "lat": 13.9881,
+      "lon": 45.5729
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-07",
+    "title": "תקיפות אוויריות מערבית לתעז",
+    "summary": "כוחות הממשלה תקפו מהאוויר עמדות וכלי רכב של החות'ים באזור ג'בל חבשי מערבית לתעז, ודווח על פגיעה במפעל נעליים בצפון תעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T02:17:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T02:17:17+00:00",
+    "last_update_at": "2026-11-03T02:17:17+00:00",
+    "what_is_not_verified": "זהות האחראים המדויקים לכל פגיעה במפעל האזרחי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-launch-strikes-houthi-positions-west-taiz",
+      "published_at": "2026-11-03T02:17:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "ג'בל חבשי, תימן",
+      "lat": 13.465,
+      "lon": 43.881
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-08",
+    "title": "התקדמות החות'ים לעבר עדן",
+    "summary": "מקורות צבאיים דיווחו שהחות'ים התקדמו לעבר מרחק של כ-80 קילומטרים מעדן, תוך איומים על נתיבי תחבורה ואזורים אסטרטגיים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T22:36:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T22:36:06+00:00",
+    "last_update_at": "2026-11-02T22:36:06+00:00",
+    "what_is_not_verified": "יציבות השליטה בשטח המקודם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-advance-within-80-km-aden-sources-say",
+      "published_at": "2026-11-02T22:36:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "מצר באב אל-מנדב, תימן",
+      "lat": 12.6671,
+      "lon": 43.4565
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-09",
+    "title": "פניית תימן לאו\"ם ולקהילה הבינלאומית",
+    "summary": "ממשלת תימן קראה למועצת הביטחון ולקהילה הבינלאומית לתאם איתה כדי למנוע סיוע צבאי איראני לחות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T22:04:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T22:04:41+00:00",
+    "last_update_at": "2026-11-02T22:04:41+00:00",
+    "what_is_not_verified": "תגובת האו\"ם המלאה לקריאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_0f586427d016a5dc",
+      "url": "https://www.sabanew.net/viewstory/155089",
+      "published_at": "2026-11-02T22:04:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11031012-10",
+    "title": "הצהרת הכוחות המסוימים בתימן על יכולות טילים",
+    "summary": "הכוחות המזוינים פרסמו אזהרה כי ינקטו צעדים מבצעיים נגד יכולות טילים של המיליציות החות'יות.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T19:35:50+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T19:35:50+00:00",
+    "last_update_at": "2026-11-02T19:35:50+00:00",
+    "what_is_not_verified": "טיב האמצעים שיושמו בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6b8efe02b21dd3b7",
+      "url": "https://www.sabanew.net/viewstory/155080",
+      "published_at": "2026-11-02T19:35:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11031012-11",
+    "title": "פגיעה באזרחים כתוצאה מנפילת טילים דרומית לתעז",
+    "summary": "נפגעים אזרחיים, כולל ילדים, כתוצאה מנפילת טיל חות'י לאחר כשל שיגור דרומית לתעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T19:24:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-02T19:24:40+00:00",
+    "last_update_at": "2026-11-02T19:24:40+00:00",
+    "what_is_not_verified": "נסיבות כשל השיגור המדויקות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_612dbb577630ab13",
+      "url": "https://www.sabanew.net/viewstory/155076",
+      "published_at": "2026-11-02T19:24:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-12",
+    "title": "נפגעים מירי צלפים ומוקשים בתעז",
+    "summary": "ארבעה ילדים נפצעו מירי צלפים של החות'ים ומפיצוץ מוקש קרקע בתעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T18:24:27+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T18:24:27+00:00",
+    "last_update_at": "2026-11-02T18:24:27+00:00",
+    "what_is_not_verified": "פרטי זיהוי הצלף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_304ae2a328b1d651",
+      "url": "https://www.sabanew.net/viewstory/155072",
+      "published_at": "2026-11-02T18:24:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-13",
+    "title": "תקיפה על רכב סעודי בידי החות'ים",
+    "summary": "כוחות חות'יים תקפו רכב סעודי במסגרת העימותים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T17:30:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T17:30:01+00:00",
+    "last_update_at": "2026-11-02T17:30:01+00:00",
+    "what_is_not_verified": "מיקום מדויק של התקיפה ברכב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49229",
+      "published_at": "2026-11-02T17:30:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11031012-14",
+    "title": "תקיפות כטב\"מים של החות'ים לעבר שדות תעופה בסעודיה",
+    "summary": "המורדים החות'ים שיגרו כטב\"מים וטענו כי פגעו בשדות התעופה בג'זאן ובדמאם בסעודיה.",
+    "axis": "סעודיה והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T17:17:53+00:00",
+    "last_update_at": "2026-11-02T17:17:53+00:00",
+    "what_is_not_verified": "מידת הנזק המדויק בכל שדה תעופה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-intensive-negotiations-us-avert-war",
+      "published_at": "2026-11-02T17:17:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     },
+     {
+      "name": "דמאם, סעודיה",
+      "lat": 26.4368,
+      "lon": 50.104
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-15",
+    "title": "מתקפת טילים של החות'ים על מרפאה בלחג ותקיפות נגד בסעודיה",
+    "summary": "הרוגים ופצועים במתקפת טילים חות'ית על מרפאה בראס אל-ארה שבלחג, לצד תקיפות של הקואליציה בראשות סעודיה על נמל חודידה ואתרים נוספים בתימן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-01T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T12:15:21+00:00",
+    "last_update_at": "2026-11-02T12:15:21+00:00",
+    "what_is_not_verified": "נתוני הנפגעים המלאים והסופיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
+      "published_at": "2026-11-02T12:15:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לחג, תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     },
+     {
+      "name": "חודידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "ראס אל-ארה, תימן",
+      "lat": 12.6084,
+      "lon": 43.9158
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11031012-16",
+    "title": "החמרת המשבר ההומניטרי ועצור סביב תעז",
+    "summary": "האו\"ם ומקורות שונים דיווחו על החמרת המשבר ההומניטרי בעיר תעז בדרום-מערב תימן בשל כיתור כוחות חות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T12:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-02T12:00:00+00:00",
+    "last_update_at": "2026-11-02T12:00:00+00:00",
+    "what_is_not_verified": "היקף האספקה החסרה המדויק לתושבים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_un_news",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168723",
+      "published_at": "2026-11-02T12:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "נתוני הנפגעים המדויקים בכל תקיפה צבאית של הצדדים",
+   "מספר כלי הרכב והציוד שהושמדו בפועל במבצעים השונים",
+   "היקף התמיכה הלוגיסטית האיראנית בפועל"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1393,
+    "unit": "ILS",
+    "change_pct": 0.35,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-02T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות ונכסים צבאיים של סעודיה"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית בדרום תימן ובנתיבי הים האדום",
+     "הפעלת לחץ על סעודיה ועל הממשלה המוכרת בינלאומית"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות לעבר אזורים מרכזיים בדרום תימן",
+     "המשך שיגורים לעבר יעדים סעודיים וימיים"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן והקואליציה בראשות סעודיה",
+    "declared": [
+     "נטרול יכולות טילים ומשאבים של החות'ים",
+     "הגנה על תשתיות חיוניות ותושבים"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית לעבר מוקדי שלטון כמו עדן",
+     "מניעת קבלת סיוע צבאי חיצוני לחות'ים"
+    ],
+    "forecast": [
+     "הגברת תקיפות האוויר והמבצעים הקרקעיים נגד מעוזי החות'ים",
+     "פנייה מתמשכת לגורמים בינלאומיים לבלימת הפעילות החות'ית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/asian-cup-latest-event-saudi-arabia-be-postponed-over-safety",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-launch-strikes-houthi-positions-west-taiz",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/three-killed-houthis-strike-yemen-health-clinic-report",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155072",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49229",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   },
+   {
+    "source_id": "src_un_news",
+    "url": "https://news.un.org/feed/view/en/story/2026/11/1168723",
+    "accessed_at": "2026-11-03T10:12:59+00:00"
+   }
+  ]
+ }
+}
