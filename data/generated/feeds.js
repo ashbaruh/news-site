@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-02T23:17:24+00:00",
-  "fetched_at": "2026-11-02T23:17:24+00:00"
+  "checked_at": "2026-11-03T00:03:06+00:00",
+  "fetched_at": "2026-11-03T00:03:06+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:39+00:00",
-  "fetched_at": "2026-11-02T23:17:39+00:00"
+  "checked_at": "2026-11-03T00:03:18+00:00",
+  "fetched_at": "2026-11-03T00:03:18+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "A short history of Halcro and the Candy man",
+    "title_he": "היסטוריה קצרה של האלקרו ואיש הממתקים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/a-short-history-of-halcro-and-the-candy-man",
+    "date": "2026-11-02T23:45:23+00:00"
+   },
    {
     "title_en": "We have Rega's new budget turntable, a premium CD player and a nifty Dolby Atmos soundbar system in our test rooms this month",
     "title_he": "יש לנו את הפטיפון התקציבי החדש של Rega, נגן תקליטורים פרימיום ומערכת סאונד - בר Dolby Atmos מגניבה בחדרי הבדיקה שלנו החודש",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/speakers/hi-fi-speakers/sonus-faber-olympica-g3-iii",
     "date": "2026-11-02T12:42:52+00:00"
-   },
-   {
-    "title_en": "This device lets you flick through your digital music collection like it's vinyl on a shelf",
-    "title_he": "מכשיר זה מאפשר לך לדפדף באוסף המוזיקה הדיגיטלית שלך כאילו הוא ויניל על מדף",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/this-device-lets-you-flick-through-your-digital-music-collection-like-its-vinyl-on-a-shelf",
-    "date": "2026-11-02T12:17:24+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:39+00:00",
-  "fetched_at": "2026-11-02T23:17:39+00:00"
+  "checked_at": "2026-11-03T00:03:19+00:00",
+  "fetched_at": "2026-11-03T00:03:19+00:00"
  },
- "generated_at": "2026-11-02T23:17:39+00:00",
+ "generated_at": "2026-11-03T00:03:19+00:00",
  "globes": {
   "data": {
    "top": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T23:17:25+00:00",
-  "fetched_at": "2026-11-02T23:17:25+00:00"
+  "checked_at": "2026-11-03T00:03:07+00:00",
+  "fetched_at": "2026-11-03T00:03:07+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:26+00:00",
-  "fetched_at": "2026-11-02T23:17:26+00:00"
+  "checked_at": "2026-11-03T00:03:08+00:00",
+  "fetched_at": "2026-11-03T00:03:08+00:00"
  },
  "tv": {
   "data": [
@@ -2633,8 +2633,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:27+00:00",
-  "fetched_at": "2026-11-02T23:17:27+00:00"
+  "checked_at": "2026-11-03T00:03:09+00:00",
+  "fetched_at": "2026-11-03T00:03:09+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2801,19 +2801,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T23:17:27+00:00",
-  "fetched_at": "2026-11-02T23:17:27+00:00"
+  "checked_at": "2026-11-03T00:03:09+00:00",
+  "fetched_at": "2026-11-03T00:03:09+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/wix-launches-studio-two/",
-     "date": "2026-11-02T15:00:25+00:00",
-     "launch": false,
-     "title": "וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג'נטים, Cursor וקלוד"
-    },
     {
      "source": "Google",
      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
@@ -2822,12 +2815,21 @@ window.DB.generated = {
      "title_en": "The latest AI news we announced in October 2026",
      "title_he": "חדשות הבינה המלאכותית האחרונות שהכרזנו באוקטובר 2026",
      "translated_by": "mymemory"
+    },
+    {
+     "source": "OpenAI",
+     "link": "https://openai.com/index/lifeval",
+     "date": "2026-11-02T09:00:00+00:00",
+     "launch": false,
+     "title_en": "LifeVal",
+     "title_he": null,
+     "translated_by": null
     }
    ],
-   "candidates": 8,
+   "candidates": 2,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2848,14 +2850,14 @@ window.DB.generated = {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 202,
+     "likes": 204,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -2903,8 +2905,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-02T23:17:38+00:00",
-  "fetched_at": "2026-11-02T23:17:38+00:00"
+  "checked_at": "2026-11-03T00:03:17+00:00",
+  "fetched_at": "2026-11-03T00:03:17+00:00"
  },
  "abroad": {
   "data": {
@@ -3246,8 +3248,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-02T23:17:29+00:00",
-  "fetched_at": "2026-11-02T23:17:29+00:00"
+  "checked_at": "2026-11-03T00:03:12+00:00",
+  "fetched_at": "2026-11-03T00:03:12+00:00"
  },
  "idf": {
   "data": [
@@ -3278,8 +3280,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:30+00:00",
-  "fetched_at": "2026-11-02T23:17:30+00:00"
+  "checked_at": "2026-11-03T00:03:13+00:00",
+  "fetched_at": "2026-11-03T00:03:13+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3287,61 +3289,61 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-02T17:25:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-02T22:57:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-02T21:42:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-02T22:55:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T20:50:54+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-30T14:18:30+00:00",
-    "seen_at": "2026-11-02T22:17:32+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3353,23 +3355,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-02T19:30:58+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-02T18:13:09+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "newest": "2026-11-02T23:45:23+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-02T13:33:27+00:00",
-    "seen_at": "2026-11-02T23:17:39+00:00",
+    "seen_at": "2026-11-03T00:03:19+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-02T23:17:39+00:00"
+  "checked_at": "2026-11-03T00:03:19+00:00"
  },
  "health_news": {
   "data": [
@@ -3525,7 +3527,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-02T23:17:30+00:00",
-  "fetched_at": "2026-11-02T23:17:30+00:00"
+  "checked_at": "2026-11-03T00:03:13+00:00",
+  "fetched_at": "2026-11-03T00:03:13+00:00"
  }
 };
