@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-03T10:17:20+00:00",
-  "fetched_at": "2026-11-03T10:17:20+00:00"
+  "checked_at": "2026-11-03T11:17:12+00:00",
+  "fetched_at": "2026-11-03T11:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:34+00:00",
-  "fetched_at": "2026-11-03T10:17:34+00:00"
+  "checked_at": "2026-11-03T11:17:29+00:00",
+  "fetched_at": "2026-11-03T11:17:29+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "What Hi-Fi? Awards 2026: Sony is still the king of wireless headphones, but is it losing its grip on the crown?",
+    "title_he": "איזה Hi-Fi? פרסים 2026: סוני היא עדיין מלך האוזניות האלחוטיות, אבל האם היא מאבדת את אחיזתה בכתר?",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/what-hi-fi-awards-2026-sony-is-still-the-king-of-wireless-headphones-but-is-it-losing-its-grip-on-the-crown",
+    "date": "2026-11-03T10:46:43+00:00"
+   },
    {
     "title_en": "A short history of Halcro and the Candy man",
     "title_he": "היסטוריה קצרה של האלקרו ואיש הממתקים",
@@ -69,44 +76,47 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/what-hi-fi-awards-2026-we-tested-more-than-20-soundbars-to-find-these-7-dolby-atmos-winners",
     "date": "2026-11-02T16:43:16+00:00"
-   },
-   {
-    "title_en": "Sonus Faber Olympica G3 III",
-    "title_he": "סונוס פאבר אולימפיקה G3 III",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/sonus-faber-olympica-g3-iii",
-    "date": "2026-11-02T12:42:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:34+00:00",
-  "fetched_at": "2026-11-03T10:17:34+00:00"
+  "checked_at": "2026-11-03T11:17:31+00:00",
+  "fetched_at": "2026-11-03T11:17:31+00:00"
  },
- "generated_at": "2026-11-03T10:17:34+00:00",
+ "generated_at": "2026-11-03T11:17:31+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "שכר של עד 4 מיליון שקל בשנה: המועמדים למנכ\"ל איגוד הבנקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561801",
-     "date": "2026-11-03T10:08:00+00:00"
+     "title": "הצעד שיעלה ביוקר לבעלי הדירות וצ'ופר הניחומים שמגבשים באוצר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561794",
+     "date": "2026-11-03T11:02:00+00:00"
     },
     {
-     "title": "\"ביצעו שיגורי ניסוי בשומרון\": השב\"כ חשף תשתית לייצור רקטות ביו\"ש",
+     "title": "דובר משרד החוץ של קטאר: \"יש התפתחויות בשיחות המו\"מ, אנחנו מקווים שיהיה אפשר להגיע להסכם\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561773",
-     "date": "2026-11-03T09:38:00+00:00"
+     "date": "2026-11-03T11:03:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה שלילית באירופה, לחץ במסחר המוקדם בוול סטריט והנפט מטפס",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561764",
-     "date": "2026-11-03T09:40:00+00:00"
+     "title": "הדולר בשיא של 7 חודשים מול השקל. אלו הסיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561804",
+     "date": "2026-11-03T10:35:00+00:00"
     },
     {
-     "title": "מגמה שלילית בתל אביב; מדד הבנייה יורד, מניות השבבים מאבדות גובה",
+     "title": "מגמה שלילית באירופה, מגמה מעורבת במסחר המוקדם בוול סטריט והנפט מטפס",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561764",
+     "date": "2026-11-03T10:34:00+00:00"
+    },
+    {
+     "title": "מגמה שלילית בתל אביב; מדד הבנייה יורד, מניות הבנקים והביטוח עולות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561712",
-     "date": "2026-11-03T09:15:00+00:00"
+     "date": "2026-11-03T10:22:00+00:00"
+    },
+    {
+     "title": "שכר של עד 4 מיליון שקל בשנה: המועמדים למנכ\"ל איגוד הבנקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561801",
+     "date": "2026-11-03T10:08:00+00:00"
     },
     {
      "title": "מנהל ההשקעות שמזהה הזדמנות קנייה ומזהיר מסקטור אחד",
@@ -194,11 +204,6 @@ window.DB.generated = {
      "date": "2026-11-02T19:00:00+00:00"
     },
     {
-     "title": "המרוץ לרכישת כאל נפתח מחדש: המועמדים, הדד־ליין והשווי שיתכווץ",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561734",
-     "date": "2026-11-02T17:03:00+00:00"
-    },
-    {
      "title": "נעילה מעורבת בבורסת תל אביב; טאואר וישראל קנדה צללו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561569",
      "date": "2026-11-02T15:42:00+00:00"
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "רכישת ענק בשוק ה-AI: מארוול רוכשת חברה ב-115 מיליארד דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561676",
      "date": "2026-11-02T13:57:00+00:00"
-    },
-    {
-     "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון, אבל במשרדים יש מגדלים עם רשימות המתנה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561641",
-     "date": "2026-11-02T11:26:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T10:17:21+00:00",
-  "fetched_at": "2026-11-03T10:17:21+00:00"
+  "checked_at": "2026-11-03T11:17:13+00:00",
+  "fetched_at": "2026-11-03T11:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:22+00:00",
-  "fetched_at": "2026-11-03T10:17:22+00:00"
+  "checked_at": "2026-11-03T11:17:14+00:00",
+  "fetched_at": "2026-11-03T11:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2676,8 +2676,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:24+00:00",
-  "fetched_at": "2026-11-03T10:17:24+00:00"
+  "checked_at": "2026-11-03T11:17:16+00:00",
+  "fetched_at": "2026-11-03T11:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2844,8 +2844,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T10:17:24+00:00",
-  "fetched_at": "2026-11-03T10:17:24+00:00"
+  "checked_at": "2026-11-03T11:17:16+00:00",
+  "fetched_at": "2026-11-03T11:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2869,8 +2869,7 @@ window.DB.generated = {
    ],
    "candidates": 9,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -2884,7 +2883,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1222,
+     "likes": 1223,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2905,28 +2904,28 @@ window.DB.generated = {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 88,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 85,
+     "likes": 87,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 272,
+     "likes": 273,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 327,
+     "likes": 328,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
@@ -2946,12 +2945,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-03T10:17:34+00:00",
-  "fetched_at": "2026-11-03T10:17:34+00:00"
+  "checked_at": "2026-11-03T11:17:29+00:00",
+  "fetched_at": "2026-11-03T11:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "גורן צפוי לקבל זימון לסגל בארסה מול אסטון וילה",
+     "link": "https://www.one.co.il/Article/537866.html?ref=rss",
+     "date": "2026-11-03T10:18:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "זעזוע בווסטהאם: מאמנו של מנור סולומון פוטר מתפקידו",
      "link": "https://sports.walla.co.il/item/3874772",
@@ -3020,15 +3028,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3874707",
      "date": "2026-11-02T19:00:00+00:00",
      "source": "וואלה",
-     "players": [
-      "תאי עבד"
-     ]
-    },
-    {
-     "title": "צפו: עבד הבקיע את שער הבכורה שלו בוויאדוליד",
-     "link": "https://www.one.co.il/Article/537806.html?ref=rss",
-     "date": "2026-11-02T18:58:00+00:00",
-     "source": "ONE",
      "players": [
       "תאי עבד"
      ]
@@ -3288,8 +3287,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-03T10:17:26+00:00",
-  "fetched_at": "2026-11-03T10:17:26+00:00"
+  "checked_at": "2026-11-03T11:17:20+00:00",
+  "fetched_at": "2026-11-03T11:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3320,103 +3319,103 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:27+00:00",
-  "fetched_at": "2026-11-03T10:17:27+00:00"
+  "checked_at": "2026-11-03T11:17:21+00:00",
+  "fetched_at": "2026-11-03T11:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-03T10:08:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T11:11:00+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-03T09:40:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T10:35:00+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-03T08:57:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T10:34:00+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-03T08:00:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-03T10:39:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-03T10:00:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T11:30:00+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-03T10:03:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T11:00:00+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-02T20:50:54+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-10-30T14:18:30+00:00",
-    "seen_at": "2026-11-03T09:17:26+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-03T10:17:22+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T11:00:18+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-02T19:30:58+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-02T23:45:23+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "newest": "2026-11-03T10:46:43+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-03T09:58:46+00:00",
-    "seen_at": "2026-11-03T10:17:34+00:00",
+    "seen_at": "2026-11-03T11:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-03T10:17:34+00:00"
+  "checked_at": "2026-11-03T11:17:31+00:00"
  },
  "health_news": {
   "data": [
    {
-    "title": "על רקע מותו של ילד בן 5: זינוק במקרי הכלבת בישראל",
+    "title": "ילד בן 5 חלה בכלבת ומת: זינוק במקרי הכלבת בישראל",
     "link": "https://www.walla.co.il/healthy/health-news/383959934",
     "date": "2026-11-03T09:58:46+00:00"
    },
@@ -3567,7 +3566,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-03T10:17:27+00:00",
-  "fetched_at": "2026-11-03T10:17:27+00:00"
+  "checked_at": "2026-11-03T11:17:22+00:00",
+  "fetched_at": "2026-11-03T11:17:22+00:00"
  }
 };
