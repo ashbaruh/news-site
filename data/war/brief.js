@@ -1,60 +1,37 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-04T12:00:00+02:00",
- "generated_at": "2026-11-04T09:40:58+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-04T18:00:00+02:00",
+ "generated_at": "2026-11-04T16:10:25+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11040940-01",
-     "title": "פגיעת מוקשים במכליות נפט",
-     "summary": "טהראן טענה כי ארבע מכליות נפט עלו באש לאחר שפגעו במוקשים במצר הורמוז.",
-     "axis": "איראן והעימות מול ארה\"ב",
-     "claim_type": "incident",
+     "id": "IRAN-11041610-01",
+     "title": "אזהרות של בכירים איראנים מפני טעויות חישוב",
+     "summary": "מפקד כוחות היבשה של משמרות המהפכה וסגן הנשיא הראשון של איראן התריעו כי טעויות בחישוב מצד אויביה של איראן יפגעו בהם ויסכנו את ישראל.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T08:43:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-04T08:43:31+00:00",
-     "last_update_at": "2026-11-04T08:43:31+00:00",
-     "what_is_not_verified": "אמינות הטענה האיראנית בדבר פגיעת המוקשים אינה מאומתת ממקור עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
-       "published_at": "2026-11-04T08:43:31+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11040940-02",
-     "title": "עצרות המציינות את יום המאבק בהתנשאות העולמית",
-     "summary": "ברחבי איראן התקיימו עצרות המוניות לרגל יום השנה, בין היתר מחוץ לשגרירות ארצות הברית לשעבר בטהראן.",
-     "axis": "איראן ואירועי פנים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-04T09:20:11+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-04T09:20:11+00:00",
-     "last_update_at": "2026-11-04T09:20:11+00:00",
-     "what_is_not_verified": "היקף המשתתפים המדויק בכלל האזורים אינו מפורט מעבר לדיווחים הכלליים.",
+     "first_reported_at": "2026-11-04T15:34:55+00:00",
+     "last_update_at": "2026-11-04T15:54:22+00:00",
+     "what_is_not_verified": "לא אומתו ההשלכות המעשיות של האזהרות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_a37183d1eb1c7318",
-       "url": "https://en.irna.ir/photo/86312243/In-photos-Iran-marks-Aban-13-with-nationwide-rallies-2",
-       "published_at": "2026-11-04T09:20:11+00:00"
+       "source_root_id": "fh_e3263c890087cb53",
+       "url": "https://en.irna.ir/news/86312782/Iran-won-t-allow-enemy-miscalculations-to-undermine-its-security",
+       "published_at": "2026-11-04T15:54:22+00:00"
+      },
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_034d2ead173b6fa4",
+       "url": "https://en.irna.ir/news/86312691/IRGC-commander-warns-enemies-against-repeating-miscalculations",
+       "published_at": "2026-11-04T15:34:55+00:00"
       }
      ],
      "places": [
@@ -66,31 +43,54 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "IRAN-11040940-03",
-     "title": "הצהרת הרמטכ\"ל האיראני על מעמד המדינה",
-     "summary": "יושב ראש המטות המשולבים של הכוחות המזוינים של איראן טען כי המדינה הפכה לכוח הרביעי בגודלו בעולם בזכות השליטה במצר הורמוז.",
-     "axis": "איראן ועוצמתה הצבאית",
-     "claim_type": "statement",
+     "id": "IRAN-11041610-02",
+     "title": "כינוס דיון ביטחוני בנושא איראן בישראל",
+     "summary": "ראש ממשלת ישראל צפוי לכנס דיון ביטחוני מצומצם עם ראשי מערכת הביטחון בנושא איראן.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T09:11:04+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-04T09:11:04+00:00",
-     "last_update_at": "2026-11-04T09:11:04+00:00",
-     "what_is_not_verified": "הקביעה לפיה איראן היא הכוח הרביעי בגודלו בעולם מבוססת על הצהרה רשמית בלבד ואינה מאומתת.",
+     "first_reported_at": "2026-11-04T14:54:16+00:00",
+     "last_update_at": "2026-11-04T14:54:16+00:00",
+     "what_is_not_verified": "פרטי הדיון והחלטותיו לא נמסרו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_097e3fececea396f",
-       "url": "https://en.irna.ir/photo/86312269/Iran-emerges-as-world-s-fourth-largest-power-Military-chief",
-       "published_at": "2026-11-04T09:11:04+00:00"
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94954",
+       "published_at": "2026-11-04T14:54:16+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11041610-03",
+     "title": "אישור הסכם הגנה בפרלמנט הטורקי",
+     "summary": "הפרלמנט בטורקיה צפוי לאשר הסכם הגנה משותף עם ערב הסעודית ופקיסטן על רקע איומי החות'ים.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T14:46:34+00:00",
+     "last_update_at": "2026-11-04T14:46:34+00:00",
+     "what_is_not_verified": "לא ברור מועד היישום המדויק והאם יישלחו כוחות בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/turkeys-parliament-set-ratify-defence-pact-saudi-arabia-pakistan-houthi-attacks",
+       "published_at": "2026-11-04T14:46:34+00:00"
       }
      ],
      "places": [
       {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
+       "name": "אנקרה, טורקיה",
+       "lat": 39.9208,
+       "lon": 32.854
       }
      ]
     }
@@ -99,184 +99,216 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11040940-01",
-     "title": "תקיפות והתפוצצות כטב\"מים בדרום לבנון",
-     "summary": "כוחות צבא ישראל תקפו בירי ארטילרי ואמצעי התאורה מספר אזורים בדרום לבנון, ובמג'דל סלם התפוצץ כטב\"ם עוין שחדר לבית.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11041610-01",
+     "title": "תקיפת כטב\"ם ישראלי בדרום לבנון",
+     "summary": "צה\"ל תקף מהאוויר שני חשודים שביצעו תצפית על כוחותיו באזור קבריח'א, כאשר גורמים מקומיים דיווחו על הרוג ופצוע.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T09:33:20+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-04T09:33:20+00:00",
-     "last_update_at": "2026-11-04T09:33:20+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים מעבר להיעדר פצועים בדיווחים הראשוניים.",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T14:48:56+00:00",
+     "last_update_at": "2026-11-04T15:49:08+00:00",
+     "what_is_not_verified": "שיוכם המדויק של הנפגעים מעבר לדיווחים המקומיים",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133087",
+       "published_at": "2026-11-04T15:49:08+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25544",
+       "published_at": "2026-11-04T15:48:09+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133083",
+       "published_at": "2026-11-04T14:48:56+00:00"
+      },
+      {
        "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/146607/",
-       "published_at": "2026-11-04T09:33:20+00:00"
+       "url": "https://english.almanar.com.lb/article/146872/",
+       "published_at": "2026-11-04T15:07:19+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
-      },
-      {
-       "name": "מג'דל סלם, לבנון",
-       "lat": 33.225,
-       "lon": 35.464
+       "name": "קבריח'א, לבנון",
+       "lat": 33.2524,
+       "lon": 35.4663
       }
      ]
     },
     {
-     "id": "NORTH-11040940-02",
-     "title": "התקדמות כוחות ישראליים בג'באת אל-חשאב",
-     "summary": "כוחות ישראליים התקדמו עם ארבעה רכבים צבאיים לעיירה ג'באת אל-חשאב בצפון קוניטרה שבדרום-מערב סוריה וערכו חיפושים בבתים.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11041610-02",
+     "title": "ביקור נשיא סוריה בסעודיה",
+     "summary": "נשיא סוריה הגיע לביקור רשמי בריאד בראש משלחת שרים בכירה ונפגש עם יורש העצר הסעודי.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T07:15:33+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-04T07:15:33+00:00",
-     "last_update_at": "2026-11-04T07:15:33+00:00",
-     "what_is_not_verified": "תוצאות החיפושים בבתים אינן מפורטות.",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T13:48:15+00:00",
+     "last_update_at": "2026-11-04T13:48:15+00:00",
+     "what_is_not_verified": "האם סוריה תצטרף לברית ההגנה האזורית בפועל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-raid-homes-after-advancing-south-western-syrian-town",
-       "published_at": "2026-11-04T07:15:33+00:00"
+       "url": "https://t.me/abualiexpress/133079",
+       "published_at": "2026-11-04T13:48:15+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
     },
     {
-     "id": "NORTH-11040940-03",
-     "title": "תביעת לשון הרע נגד השר עמיחי שיקלי",
-     "summary": "העיתונאי שלומי אלדר הגיש תביעת לשון הרע לבית משפט השלום נגד שר התפוצות עמיחי שיקלי בגין פרסום ברשת אקס.",
-     "axis": "פנים ישראל",
-     "claim_type": "incident",
+     "id": "NORTH-11041610-03",
+     "title": "אזהרת ראש ממשלת לבנון לחיזבאללה",
+     "summary": "ראש ממשלת לבנון הזהיר את ארגון חיזבאללה שלא לגרור את המדינה ללחימה חדשה מול ארצות הברית וישראל.",
+     "axis": "north",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T08:25:09+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-04T08:25:09+00:00",
-     "last_update_at": "2026-11-04T08:25:09+00:00",
-     "what_is_not_verified": "טענות ההגנה של השר שיקלי טרם הוצגו שכן לא הוגש כתב הגנה.",
+     "first_reported_at": "2026-11-04T13:55:10+00:00",
+     "last_update_at": "2026-11-04T13:55:10+00:00",
+     "what_is_not_verified": "תגובת חיזבאללה לאזהרה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_israelhayom",
-       "source_root_id": "fh_7e124b7fa5f061bf",
-       "url": "https://www.israelhayom.co.il/news/politics/article/21776413",
-       "published_at": "2026-11-04T08:25:09+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49282",
+       "published_at": "2026-11-04T13:55:10+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11040940-01",
-     "title": "הרוגים ופצועים בתקיפה בווילניאנסק",
-     "summary": "כוחות רוסיים תקפו את העיר וילניאנסק שבמחוז זפוריז'יה באמצעות כטב\"מים וטילים, מה שהביא למותם של שני בני אדם ולפציעתם של אחרים ולשריפה בבניין מגורים.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11041610-01",
+     "title": "עלייה במספר ההרוגים בהפצצת בית ספר בזפוריז'יה",
+     "summary": "נשיא אוקראינה עדכן כי מניין הנספים בהפצצה הרוסית על בית הספר בקומישובאחה עלה ל-40, ועשרות לכודים עדיין תחת ההריסות.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T08:48:00+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-04T08:48:00+00:00",
-     "last_update_at": "2026-11-04T09:15:00+00:00",
-     "what_is_not_verified": "מספר הנפגעים המדויק הסופי טרם נקבע סופית.",
+     "first_reported_at": "2026-11-04T14:13:00+00:00",
+     "last_update_at": "2026-11-04T16:09:19+00:00",
+     "what_is_not_verified": "המספר המדויק של האנשים שעדיין לכודים מתחת להריסות",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_860d6f14c25054f4",
+       "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+       "published_at": "2026-11-04T16:09:19+00:00"
+      },
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_cc1f0cf701beac70",
-       "url": "https://www.ukrinform.net/rubric-ato/4181274-russian-forces-attack-vilniansk-with-drones-killing-two.html",
-       "published_at": "2026-11-04T09:15:00+00:00"
+       "source_root_id": "fh_860d6f14c25054f4",
+       "url": "https://www.ukrinform.net/rubric-ato/4181429-zelensky-death-toll-in-komyshuvakha-rises-to-40-more-than-30-may-remain-trapped-under-rubble.html",
+       "published_at": "2026-11-04T14:32:00+00:00"
       },
       {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_f56e65a199260bc9",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061190/",
-       "published_at": "2026-11-04T08:48:00+00:00"
+       "source_root_id": "fh_860d6f14c25054f4",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061250/",
+       "published_at": "2026-11-04T14:13:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ווילניאנסק, אוקראינה",
-       "lat": 47.9433,
-       "lon": 35.4316
-      },
-      {
-       "name": "זפוריז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
+       "name": "קומישובאחה, אוקראינה",
+       "lat": 48.6403,
+       "lon": 37.4558
       }
      ]
     },
     {
-     "id": "UKRAINE-11040940-02",
-     "title": "פגיעה בתשתיות אנרגיה במספר מחוזות באוקראינה",
-     "summary": "רוסיה תקפה מתקני תשתית אנרגיה בשישה מחוזות שונים באוקראינה במהלך הלילה.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11041610-02",
+     "title": "נפגעים ונזק בתקיפה רוסית במחוז אודסה",
+     "summary": "שני אזרחים נפצעו, מחסן נהרס ומבנה דואר ניזוק כתוצאה ממתקפה רוסית במחוז אודסה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T08:20:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-04T08:20:00+00:00",
-     "last_update_at": "2026-11-04T08:20:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא בכל אתר ואתר מנוהל מדורגת וטרם סוכם.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_b390f0cc65be9690",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061184/",
-       "published_at": "2026-11-04T08:20:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קוובל, אוקראינה",
-       "lat": 51.2121,
-       "lon": 24.7089
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11040940-03",
-     "title": "תקיפת מרכז לוגיסטי בדרום רוסיה",
-     "summary": "כטב\"מים אוקראיניים תקפו מרכז לוגיסטי של חברת אוזון באדיגייסק שבדרום רוסיה, וגרמו לפרוץ שריפה במקום.",
-     "axis": "רוסיה-אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-04T08:14:16+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-04T08:14:16+00:00",
-     "last_update_at": "2026-11-04T08:14:16+00:00",
-     "what_is_not_verified": "דיווחים על מספר היירוטים מטעם משרד ההגנה הרוסי אינם מאומתים ממקור בלתי תלוי.",
+     "first_reported_at": "2026-11-04T14:13:00+00:00",
+     "last_update_at": "2026-11-04T14:13:00+00:00",
+     "what_is_not_verified": "סוגי החימוש המדויקים ששימשו בתקיפה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/04/ukraine-strikes-ozon-logistics-center-in-southern-russia",
-       "published_at": "2026-11-04T08:14:16+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_5a6fd40633d012f2",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061251/",
+       "published_at": "2026-11-04T14:13:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אדיגייסק, רוסיה",
-       "lat": 44.8834,
-       "lon": 39.191
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11041610-03",
+     "title": "מתקפת סייבר נגד כלי תקשורת אוקראיני",
+     "summary": "מערכות האתר האוקראיני קייב אינדיפנדנט נפרצו והאקרים שלחו הודעות לרשימות התפוצה של המנויים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T14:49:08+00:00",
+     "last_update_at": "2026-11-04T15:30:00+00:00",
+     "what_is_not_verified": "זהותם המאומתת של התוקפים, אף שנחשדים כרוסים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_222c8bdb881005f2",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061264/",
+       "published_at": "2026-11-04T15:30:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_24cd87ab5ea40118",
+       "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/",
+       "published_at": "2026-11-04T14:49:08+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     }
@@ -285,61 +317,85 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11040940-01",
-     "title": "דיווח על תקיפות אוויריות באל-בידא",
-     "summary": "כוחות הקואליציה בהובלת סעודיה ביצעו ארבע תקיפות אוויריות בעיר אל-בידא שבמרכז תימן, לצד הפגזות במחוז סעדה.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-11041610-01",
+     "title": "תקיפת טילים חות'ית על מחנה צבאי בתימן",
+     "summary": "עשרות טירונים נהרגו ונפצעו מפגיעת טיל של החות'ים במחנה אימונים צבאי באזור קעטבה שבמחוז א-דאלע.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T04:10:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-04T04:10:31+00:00",
-     "last_update_at": "2026-11-04T04:10:31+00:00",
-     "what_is_not_verified": "הדיווח מבוסס על גופי תקשורת המזוהים עם החות'ים ואינו מאומת ממקור עצמאי.",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T12:55:33+00:00",
+     "last_update_at": "2026-11-04T12:55:33+00:00",
+     "what_is_not_verified": "מספר ההרוגים הסופי במתקפה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/reports-strikes-saudi-led-coalition-yemens-al-bayda",
-       "published_at": "2026-11-04T04:10:31+00:00"
+       "url": "https://www.newarab.com/news/houthi-missile-attack-kills-dozens-military-camp-yemen",
+       "published_at": "2026-11-04T12:55:33+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-בידא, תימן",
-       "lat": 13.9881,
-       "lon": 45.5729
-      },
-      {
-       "name": "סעדה, תימן",
-       "lat": 16.9409,
-       "lon": 43.763
+       "name": "קעטבה, תימן",
+       "lat": 14.074,
+       "lon": 44.4992
       }
      ]
     },
     {
-     "id": "YEMEN-11040940-02",
-     "title": "אזהרת חירום של שגרירות ארה\"ב בסעודיה מפני פעילות חות'ית",
-     "summary": "שגרירות ארצות הברית בסעודיה פרסמה אזהרת מסע והתרעה לאזרחים מפני פעולות עוינות של החות'ים נגד תשתיות ושדות תעופה בממלכה.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
+     "id": "YEMEN-11041610-02",
+     "title": "התקדמות כוחות ממשלת תימן במחוז אל-ג'וף",
+     "summary": "כוחות ממשלת תימן דיווחו על השגת שליטה על רכס הרי א-דהידה האסטרטגי בעת הסלמת הקרבות במחוזות נוספים.",
+     "axis": "yemen",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-04T01:57:42+00:00",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-04T01:57:42+00:00",
-     "last_update_at": "2026-11-04T01:57:42+00:00",
-     "what_is_not_verified": "פרטי הנפגעים והשיבושים המדויקים אינם מפורטים מעבר להתרעה הרשמית.",
+     "first_reported_at": "2026-11-04T14:08:18+00:00",
+     "last_update_at": "2026-11-04T14:08:18+00:00",
+     "what_is_not_verified": "היקף השליטה המדויק בפועל וההתפתחויות בחזיתות הנוספות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_03140b798b00bd44",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-reiterates-warnings-citizens-over-houthi-hostilities-against",
-       "published_at": "2026-11-04T01:57:42+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss",
+       "published_at": "2026-11-04T14:08:18+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "YEMEN-11041610-03",
+     "title": "הסכם הגנה טורקי להגנת סעודיה מתקיפות חות'יות",
+     "summary": "הפרלמנט בטורקיה מתכנס לאשר הסכם הגנה קולקטיבי עם סעודיה ופקיסטן על רקע תקיפות החות'ים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-04T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-04T14:46:34+00:00",
+     "last_update_at": "2026-11-04T14:46:34+00:00",
+     "what_is_not_verified": "האם ייפרסו בפועל חיילים טורקים בשטח סעודיה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/turkeys-parliament-set-ratify-defence-pact-saudi-arabia-pakistan-houthi-attacks",
+       "published_at": "2026-11-04T14:46:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אנקרה, טורקיה",
+       "lat": 39.9208,
+       "lon": 32.854
+      }
+     ]
     }
    ]
   }
