@@ -1,0 +1,276 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9959a3a94130",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "initial": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-04T18:13:08+00:00",
+  "window": {
+   "from": "2026-11-03T18:13:08+00:00",
+   "to": "2026-11-04T18:13:08+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611041813"
+  },
+  "summary": "הזירה מתאפיינת במתיחות צבאית ומדינית גבוהה בין איראן לבין ארה\"ב וישראל, המושפעת כעת ישירות מתוצאות בחירות האמצע בארה\"ב שבהן הפסידו הרפובליקנים. בעוד בכירי ממשל באמריקה ובראשם סגן הנשיא מתנערים מהמלחמה ומאשימים אותה בהפסד הפוליטי, הצד האיראני חוגג את מה שהוא מגדיר כתבוסה אסטרטגית של וושינגטון. במקביל, ישראל מקיימת דיונים ביטחוניים ומעבירה מידע מודיעיני על איומים כימיים מצד איראן, בעוד שורה של גורמים בלבנון ובעולם מזהירים מפני התלקחות אזורית רחבה.",
+  "fronts": [
+   {
+    "name": "איראן מול ארה\"ב",
+    "status": "פעיל ומתוח מאוד בעקבות תוצאות הבחירות בארה\"ב והעימותים במצר הורמוז"
+   },
+   {
+    "name": "ישראל מול איראן ושלוחותיה",
+    "status": "מתיחות גבוהה ופעילות מודיעינית וביטחונית קדחתנית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11041813-01",
+    "title": "הצהרות בכירי איראן בעקבות בחירות האמצע בארה\"ב",
+    "summary": "בכירי ממשל באיראן, בהם מזכיר המועצה העליונה לביטחון לאומי ודובר משרד החוץ, טענו כי תוצאות הבחירות בארה\"ב מהוות תבוסה אסטרטגית ופוליטית לנשיא ארה\"ב ולמדיניותו מול איראן.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T12:25:50+00:00",
+    "last_update_at": "2026-11-04T18:06:52+00:00",
+    "what_is_not_verified": "האם התוצאות בארה\"ב אכן נובעות אך ורק מהעימות עם איראן כפי שטוענים באיראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_bd4f13f994050c94",
+      "url": "https://t.me/abualiexpress/133101",
+      "published_at": "2026-11-04T18:06:52+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_bd4f13f994050c94",
+      "url": "https://en.irna.ir/news/86312862/Top-security-official-Anyone-who-confronts-Iran-will-have-to",
+      "published_at": "2026-11-04T17:44:13+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_7c0586c1b1f7deb0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-inflicted-defeat-trump-security-chief-says-after-midterms",
+      "published_at": "2026-11-04T17:21:31+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_bd4f13f994050c94",
+      "url": "https://www.france24.com/en/video/20261104-us-midterms-iran-s-deputy-parliament-speaker-reacts-to-trump-s-elections-setback-1",
+      "published_at": "2026-11-04T16:50:06+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_bd4f13f994050c94",
+      "url": "https://t.me/abualiexpress/133076",
+      "published_at": "2026-11-04T12:25:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11041813-02",
+    "title": "פגיעה בארבע מכליות נפט במצר הורמוז",
+    "summary": "באיראן נטען כי ארבע מכליות נפט התפוצצו ועלו באש לאחר שפגעו במוקשים במצר הורמוז.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T08:43:31+00:00",
+    "last_update_at": "2026-11-04T08:43:31+00:00",
+    "what_is_not_verified": "נסיבות פיצוץ המכליות והגורם להנחת המוקשים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+      "published_at": "2026-11-04T08:43:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11041813-03",
+    "title": "דיון בטחוני מצומצם של ראש ממשלת ישראל",
+    "summary": "ראש ממשלת ישראל צפוי לכנס דיון ביטחוני מצומצם בנושא איראן בהשתתפות בכירי מערכת הביטחון.",
+    "axis": "ישראל מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T14:54:16+00:00",
+    "last_update_at": "2026-11-04T14:54:16+00:00",
+    "what_is_not_verified": "תוכנו המלא והחלטותיו של הדיון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94954",
+      "published_at": "2026-11-04T14:54:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11041813-04",
+    "title": "העברת מודיעין ישראלי לארה\"ב על נשק כימי",
+    "summary": "… דבר שעורר חילוקי דעות בוושינגטון.",
+    "axis": "ישראל וארה\"ב מול איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T18:03:35+00:00",
+    "last_update_at": "2026-11-03T18:18:37+00:00",
+    "what_is_not_verified": "מידת האמינות של המידע המודיעיני והאם הוא נועד לדחוף למלחמה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383960002",
+      "published_at": "2026-11-03T18:18:37+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94945",
+      "published_at": "2026-11-03T18:03:35+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענה האיראנית לפיה מכליות נפט נפגעו ממוקשים במצר הורמוז",
+   "הדיווחים על כך שאיראן שוקלת להשתמש בנשק כימי",
+   "ההערכות בוושינגטון האם ממשל טראמפ יחדש מתקפות נרחבות נגד איראן למרות תוצאות הבחירות"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1633,
+    "unit": "ILS",
+    "change_pct": 0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להנחיל תבוסה אסטרטגית ופוליטית לארה\"ב",
+     "להבהיר שכל עימות עם איראן ייענה בתשלום מחיר כבד"
+    ],
+    "inferred": [
+     "לנצל את חוסר היציבות הפוליטית בארה\"ב ובקונגרס כדי להפחית לחץ אמריקאי",
+     "לשמור על תשתיות האנרגיה והצבא למרות הנזקים"
+    ],
+    "forecast": [
+     "המשכת לוחמה פוליטית ותעמולתית נגד ארה\"ב וישראל",
+     "הגברת האיומים הימיים באזור מצר הורמוז"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "להפעיל לחץ צבאי וכלכלי על איראן (לפי מדיניות קודמת ופעולות קודמות)"
+    ],
+    "inferred": [
+     "להתמודד עם ביקורת פנימית קשה בקונגרס ובלשות מקבלי ההחלטות בעקבות השפעת המלחמה על הבחירות",
+     "שקילת צעדים צבאיים נוספים מול הדילמה הפוליטית"
+    ],
+    "forecast": [
+     "הגבלת חופש הפעולה של הממשל בנוגע למלחמה באיראן עקב שליטת הדמוקרטים בקונגרס",
+     "התנגשויות תקציביות ופוליטיות בוושינגטון סביב מדיניות החוץ"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התמודדות עם האיום הגרעיני והביטחוני מצד איראן"
+    ],
+    "inferred": [
+     "ניסיון לשכנע את ממשל טראמפ לשמור על רף לחץ גבוה ואף לחדש פעילות צבאית נרחבת נגד איראן",
+     "הערכת מצב מחודשת בעקבות השינויים הפוליטיים בארה\"ב"
+    ],
+    "forecast": [
+     "המשך היערכות פנימית ודיונים ביטחוניים מצומצמים מול האיום האיראני",
+     "התמודדות עם לחץ דיפלומטי ומדיני גובר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86312862/Top-security-official-Anyone-who-confronts-Iran-will-have-to",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-inflicted-defeat-trump-security-chief-says-after-midterms",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133076",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94945",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383960002",
+    "accessed_at": "2026-11-04T18:13:08+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "status": "draft",
+ "received_sha256_12": "daa754581f56",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-04T18:22:27+00:00",
+  "window": {
+   "from": "2026-11-03T18:22:27+00:00",
+   "to": "2026-11-04T18:22:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611041822"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה מתנהלת במקביל להמשך תקיפות אוויריות נרחבות של רוסיה על תשתיות אנרגיה ואזרחים באוקראינה, לצד פעילות צבאית ולחימה בחזית הדרומית והמזרחית. במקביל, מתקיימים מאמצים דיפלומטיים בינלאומיים שונים סביב יוזמות תיווך אפשריות ומגעים להסדרת סיוע וביטחון.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (דונצק / סלאביאנסק)",
+    "status": "פעילה עם תקיפות והפצצות ממוקדות"
+   },
+   {
+    "name": "חזית הדרום (זפוריז'יה / חרסון / קרים)",
+    "status": "פעילה הכוללת תקיפות תשתיות, הפסקות חשמל ופעילות הומניטרית נקודתית"
+   },
+   {
+    "name": "החזית האווירית והעורף האוקראיני",
+    "status": "פעילה מאוד תחת גלי תקיפות טילים ורחפנים חוזרים ונשנים מצד רוסיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11041822-01",
+    "title": "תקיפת מבנה חינוך וסיוע בקמישובחה",
+    "summary": "כוחות רוסיה תקפו מבנה ששימש כבית ספר ומרכז סיוע ביישוב קמישובחה, וגרמו לנפגעים רבים ולחשש לכודים תחת ההריסות.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T16:57:41+00:00",
+    "last_update_at": "2026-11-04T16:09:19+00:00",
+    "what_is_not_verified": "מספר הלכודים המדויק תחת ההריסות אינו ודאי לחלוטין.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+      "published_at": "2026-11-04T16:09:19+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/death-toll-from-russian-attack-on-komyshuvakha-rises-to-37-as-search-operation-enters-3rd-day/",
+      "published_at": "2026-11-04T12:07:27+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "published_at": "2026-11-04T01:08:17+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T16:57:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קמישובחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11041822-02",
+    "title": "מתקפת טילים ורחפנים נרחבת על תשתיות אנרגיה באוקראינה",
+    "summary": "רוסיה ביצעה גל תקיפות נרחב באמצעות טילים ורחפנים שפגע בתשתיות אנרגיה במספר אזורים באוקראינה.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T01:08:17+00:00",
+    "last_update_at": "2026-11-04T11:46:36+00:00",
+    "what_is_not_verified": "היקף הנזק המלא לכל אתרי הייצור אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-attacks-kill-6-injure-50-across-ukraine-over-past-day-as-energy-facilities-targeted-in-multiple-regions/",
+      "published_at": "2026-11-04T11:46:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "published_at": "2026-11-04T01:08:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     },
+     {
+      "name": "ריבנה, אוקראינה",
+      "lat": 50.6196,
+      "lon": 26.2513
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11041822-03",
+    "title": "הארכת חופשת הבית הספר בחצי האי קרים עקב שיבושי חשמל",
+    "summary": "השלטונות הרוסיים בקרים הכבושה האריכו את חופשת הבית הספר בעקבות הפסקות חשמל ופגיעה בתשתיות כתוצאה מתקיפות אוקראיניות.",
+    "axis": "העורף והשפעות מלחמה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T18:01:04+00:00",
+    "last_update_at": "2026-11-04T18:01:04+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק לחידוש כלל האספקה אינו מאומת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_2896520d92db4f4a",
+      "url": "https://meduza.io/en/news/2026/11/04/occupied-crimea-extends-school-break-as-ukrainian-strikes-leave-the-peninsula-without-power",
+      "published_at": "2026-11-04T18:01:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרים",
+      "lat": 45.2835,
+      "lon": 34.2008
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11041822-04",
+    "title": "השמדת מערכת הגנה אווירית רוסית מסוג בוק-אמ-3",
+    "summary": "כוחות אוקראיניים פגעו באמצעות רחפן במערכת הגנה אווירית מתקדמת רוסית מסוג בוק-אמ-3 במהלך מבצע צבאי.",
+    "axis": "לחימה בחזית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T16:47:00+00:00",
+    "last_update_at": "2026-11-04T16:47:00+00:00",
+    "what_is_not_verified": "לא מאומת האם המערכת יצאה מכלל שימוש לצמיתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_bd2c46e3d9819cdb",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061273/",
+      "published_at": "2026-11-04T16:47:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11041822-05",
+    "title": "פגיעה במבנה רפואי היסטורי בסלאביאנסק",
+    "summary": "כוחות רוסיה תקפו מתקן רפואי ישן המשמש כמונצח אדריכלי במרכז סלאביאנסק.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T16:51:00+00:00",
+    "last_update_at": "2026-11-04T16:51:00+00:00",
+    "what_is_not_verified": "פרטי כלל הנזקים המשניים למבנים הסמוכים אינם מלאים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_0121c106e9874e1d",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061274/",
+      "published_at": "2026-11-04T16:51:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלאביאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11041822-06",
+    "title": "הפלתו של רחפן תעמולה רוסי מעל קייב",
+    "summary": "רחפן שאהד רוסי שנשא חומרי תעמולה וקוד דיוג הופל על ידי כוחות אוקראיניים.",
+    "axis": "לוחמה אלקטרונית ואווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T17:20:00+00:00",
+    "last_update_at": "2026-11-04T17:20:00+00:00",
+    "what_is_not_verified": "זהות כל היעדים שניסו להיחשף לקישור הדיוג אינה ידועה במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_4e9c79d8ea66d4a0",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061278/",
+      "published_at": "2026-11-04T17:20:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11041822-07",
+    "title": "ביקור נשיא אוקראינה במדריד לדיוני הגנה",
+    "summary": "נשיא אוקראינה וולודימיר זלנסקי הגיע למדריד לפגישות שעניינן חיזוק ההגנה האווירית ושיתוף פעולה ביטחוני עם ספרד.",
+    "axis": "דיפלומטיה וסיוע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T16:46:00+00:00",
+    "last_update_at": "2026-11-04T17:36:00+00:00",
+    "what_is_not_verified": "התוצאות המעשיות המדויקות של ההסכמים טרם פורסמו במלואן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061280/",
+      "published_at": "2026-11-04T17:36:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/zelensky-lands-in-spain-to-discuss-air-defense/",
+      "published_at": "2026-11-04T16:46:13+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4181489-zelensky-arrives-in-spain.html",
+      "published_at": "2026-11-04T16:46:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מדריד, ספרד",
+      "lat": 40.4168,
+      "lon": -3.7035
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות ערוץ הטלוויזיה האיראני על כך שקייב, לבוב ואודסה הם יעדים פוטנציאליים לתקיפה איראנית במקרה של עימות עם ארה״ב.",
+   "האם הנסיעה של הפמלייה הרוסית לפגישה בוושינגטון בראשות יאנה לנטרטובה תצא לפועל עניין קבלת הוזות בזמן.",
+   "לוחות הזמנים וההיתכנות של מתווה האיחוד האירופי להצטרפות אוקראינה עד שנת 2027 או 2028."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1267,
+    "unit": "USD",
+    "change_pct": 0.79,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "חיזוק מערכות ההגנה האווירית והגנה על האוכלוסייה",
+     "הרחבת שיתוף הפעולה הביטחוני והתעשייתי עם בעלות ברית כמו ספרד",
+     "התקדמות ברפורמות הנדרשות לשם השגת יעדי ההצטרפות לאיחוד האירופי"
+    ],
+    "inferred": [
+     "שאיפה להשיג לחץ בינלאומי על רוסיה ולשמור על תמיכה צבאית וכלכלית מערבית",
+     "פגיעה ביכולות הלוגיסטיות והצבאיות של רוסיה בשטחים הכבושים"
+    ],
+    "forecast": [
+     "המשך מאמצים להשגת חלקי חילוף ומערכות נשק מתקדמות ממדינות אירופה",
+     "התמודדות עם נזקי תקיפות האנרגיה באמצעות סיוע בינלאומי"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך פעילות צבאית להשגת יעדי המבצע באוקראינה",
+     "הגנה על שטחים כבושים ושמירה על שליטה באזורי המפתח"
+    ],
+    "inferred": [
+     "ניסיון לערער את עמידות העורף האוקראיני באמצעות פגיעה שיטתית בתשתיות אנרגיה ואזרחים",
+     "שאיפה להקפאת העימות בתנאים נוחים שיאפשרו להחזיק בשטחים שנכבשו ולמנוע את התחזקות אוקראינה"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות תקופתיות על תשתיות חיוניות באוקראינה",
+     "ניצול מנופים דיפלומטיים ותווי תיווך שונים כדי לשפר את עמדות המיקוח שלה מול המערב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/zelensky-lands-in-spain-to-discuss-air-defense/",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/04/occupied-crimea-extends-school-break-as-ukrainian-strikes-leave-the-peninsula-without-power",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061280/",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4181489-zelensky-arrives-in-spain.html",
+    "accessed_at": "2026-11-04T18:22:27+00:00"
+   }
+  ]
+ }
+}

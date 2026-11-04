@@ -1,0 +1,192 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a9754dae9361",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-04T18:24:28+00:00",
+  "window": {
+   "from": "2026-11-03T18:24:28+00:00",
+   "to": "2026-11-04T18:24:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611041824"
+  },
+  "summary": "בזירת תימן נמשכת הלחימה העצימה סביב מחוז תעז הנתון במצור ובמוקדים נוספים, כאשר כוחות החותים מנהלים עימותים מול ממשלת תימן הנתמכת בידי סעודיה. במקביל, מתקפות טילים של החותים גובות קורבנות בקרב כוחות הממשלה, ומצבו ההומולוגי והרפואי של האוכלוסייה המקומית מוסיף להידרדר.",
+  "fronts": [
+   {
+    "name": "חזית תעז",
+    "status": "פעילה ומצור"
+   },
+   {
+    "name": "חזית א-דאלאע",
+    "status": "פעילה ועימותים"
+   },
+   {
+    "name": "חזית אל-ג'וף",
+    "status": "פעילה והתקדמות כוחות ממשלה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11041824-01",
+    "title": "משלוח ציוד רפואי לעיר תעז",
+    "summary": "הצלב האדום הבין-לאומי העביר ארבע משאיות של ציוד רפואי חיוני לעיר תעז לראשונה זה שבועות, בעקבות מצור והחמרת הלחימה באזור.",
+    "axis": "הזירה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T16:46:38+00:00",
+    "last_update_at": "2026-11-04T17:52:51+00:00",
+    "what_is_not_verified": "היקף מלוא הצרכים האוכלוסייה שאינו נענה על ידי המשלוח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_ab1baf7625f5107b",
+      "url": "https://www.newarab.com/news/icrc-says-delivered-first-medical-aid-yemens-besieged-taiz",
+      "published_at": "2026-11-04T17:52:51+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_d5be862b885f43c5",
+      "url": "https://www.al-monitor.com/originals/2026/11/red-cross-delivers-essential-medical-supplies-yemens-besieged-taiz-city",
+      "published_at": "2026-11-04T16:46:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11041824-02",
+    "title": "מתקפת טילים על מחנה אימונים צבאי במחוז א-דאלאע",
+    "summary": "עשרות חיילים מתגייסים חדשים נהרגו ונפצעו מפגיעת טילים של החותים במחנה אימונים צבאי סמוך לעיר קטבא בצפון מחוז א-דאלאע.",
+    "axis": "הזירה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T12:55:33+00:00",
+    "last_update_at": "2026-11-04T12:55:33+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק מעבר לאומדן הראשוני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthi-missile-attack-kills-dozens-military-camp-yemen",
+      "published_at": "2026-11-04T12:55:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קטבא, תימן",
+      "lat": 13.8796,
+      "lon": 43.2359
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11041824-03",
+    "title": "השתלטות כוחות ממשלת תימן על רצועת הרים באל-ג'וף",
+    "summary": "כוחות ממשלת תימן דיווחו על התקדמות והשתלטות על רכס הרים אסטרטגי במחוז אל-ג'וף.",
+    "axis": "הזירה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T14:08:18+00:00",
+    "last_update_at": "2026-11-04T14:08:18+00:00",
+    "what_is_not_verified": "השליטה המלאה בשטח והיקף הקרבות במקום",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss",
+      "published_at": "2026-11-04T14:08:18+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הכחשת החותים לפיה הם מטילים מצור על העיר תעז",
+   "האם ביקור נשיא סוריה בריאד קשור באופן רשמי להצטרפות להסכם הגנה הכולל מענה נגד החותים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1633,
+    "unit": "ILS",
+    "change_pct": 0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "מניעת כניסת אספקה וכיתור אזורים הנמצאים שליטת הממשלה הנתמכת בידי סעודיה"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות ובכוחות הגיוס של הממשלה היריבה באמצעות תקיפות טילים ומצור"
+    ],
+    "forecast": [
+     "המשך הלחץ הצבאי על אזורים מנוהלים בידי הממשלה כמו תעז"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן הנתמכת בידי סעודיה",
+    "declared": [
+     "שמירת השליטה באזורים אסטרטגיים ופתיחת צירי אספקה הומניטריים"
+    ],
+    "inferred": [
+     "בלימת התקדמות החותים וחיזוק יכולות הגנה והתקפה במחוזות המרכזיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות פריצת המצור על תעז ותגבור עמדות במחוזות השונים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss",
+    "accessed_at": "2026-11-04T18:24:28+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/red-cross-delivers-essential-medical-supplies-yemens-besieged-taiz-city",
+    "accessed_at": "2026-11-04T18:24:28+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthi-missile-attack-kills-dozens-military-camp-yemen",
+    "accessed_at": "2026-11-04T18:24:28+00:00"
+   }
+  ]
+ }
+}
