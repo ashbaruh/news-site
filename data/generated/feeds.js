@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:14:26+00:00",
-  "fetched_at": "2026-11-04T22:14:26+00:00"
+  "checked_at": "2026-11-04T22:17:18+00:00",
+  "fetched_at": "2026-11-04T22:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:14:38+00:00",
-  "fetched_at": "2026-11-04T22:14:38+00:00"
+  "checked_at": "2026-11-04T22:17:29+00:00",
+  "fetched_at": "2026-11-04T22:17:29+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:14:39+00:00",
-  "fetched_at": "2026-11-04T22:14:39+00:00"
+  "checked_at": "2026-11-04T22:17:29+00:00",
+  "fetched_at": "2026-11-04T22:17:29+00:00"
  },
- "generated_at": "2026-11-04T22:14:39+00:00",
+ "generated_at": "2026-11-04T22:17:29+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:14:27+00:00",
-  "fetched_at": "2026-11-04T22:14:27+00:00"
+  "checked_at": "2026-11-04T22:17:20+00:00",
+  "fetched_at": "2026-11-04T22:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:14:28+00:00",
-  "fetched_at": "2026-11-04T22:14:28+00:00"
+  "checked_at": "2026-11-04T22:17:21+00:00",
+  "fetched_at": "2026-11-04T22:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2554,8 +2554,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:14:29+00:00",
-  "fetched_at": "2026-11-04T22:14:29+00:00"
+  "checked_at": "2026-11-04T22:17:22+00:00",
+  "fetched_at": "2026-11-04T22:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2731,8 +2731,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:14:29+00:00",
-  "fetched_at": "2026-11-04T22:14:29+00:00"
+  "checked_at": "2026-11-04T22:17:22+00:00",
+  "fetched_at": "2026-11-04T22:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2747,23 +2747,27 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/evolve-to-ai-2026-recap/",
-     "date": "2026-11-04T15:44:25+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+     "date": "2026-11-02T17:45:00+00:00",
      "launch": false,
-     "title": "לא באתם לכנס Evolve to AI? הנה כל מה שפספסתם"
+     "title_en": "The latest AI news we announced in October 2026",
+     "title_he": "חדשות הבינה המלאכותית האחרונות שהכרזנו באוקטובר 2026",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 14,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1287,
+     "likes": 1288,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2781,18 +2785,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
-     "title": "Qwen Image 2.1 Realtime",
-     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
-     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 160,
-     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
-    },
-    {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
      "likes": 368,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
+    },
+    {
+     "title": "Qwen Image 2.1 Realtime",
+     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
+     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
+     "likes": 160,
+     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
@@ -2832,8 +2836,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:14:38+00:00",
-  "fetched_at": "2026-11-04T22:14:38+00:00"
+  "checked_at": "2026-11-04T22:17:28+00:00",
+  "fetched_at": "2026-11-04T22:17:28+00:00"
  },
  "abroad": {
   "data": {
@@ -3185,8 +3189,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:14:32+00:00",
-  "fetched_at": "2026-11-04T22:14:32+00:00"
+  "checked_at": "2026-11-04T22:17:26+00:00",
+  "fetched_at": "2026-11-04T22:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3216,8 +3220,9 @@ window.DB.generated = {
     "date": "2026-11-02T15:40:11+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-04T22:14:33+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-04T22:17:26+00:00",
   "fetched_at": "2026-11-04T22:14:33+00:00"
  },
  "feed_health": {
@@ -3226,43 +3231,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-04T21:04:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-04T06:24:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-04T22:55:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-04T19:26:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-04T21:05:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3280,7 +3285,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3292,23 +3297,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-03T19:30:09+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-04T16:49:06+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T22:17:29+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-04T22:14:39+00:00"
+  "checked_at": "2026-11-04T22:17:29+00:00"
  },
  "health_news": {
   "data": [
@@ -3464,7 +3469,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:14:34+00:00",
-  "fetched_at": "2026-11-04T22:14:34+00:00"
+  "checked_at": "2026-11-04T22:17:27+00:00",
+  "fetched_at": "2026-11-04T22:17:27+00:00"
  }
 };
