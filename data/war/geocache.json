@@ -45,6 +45,10 @@
 45.0285
 ],
 "adygea republic, russia": null,
+"adygeysk, russia": [
+44.8834,
+39.191
+],
 "ahad rafidah, saudi arabia": [
 18.1814,
 42.8414
@@ -1025,6 +1029,7 @@
 14.2609,
 43.8242
 ],
+"jabata al-khashab, syria": null,
 "jamla, syria": null,
 "jamlah, syria": [
 35.1005,
@@ -1262,6 +1267,10 @@
 33.1496,
 35.4467
 ],
+"kovel, ukraine": [
+51.2121,
+24.7089
+],
 "koya, iraq": [
 36.0842,
 44.6339
@@ -1444,6 +1453,10 @@
 35.4772
 ],
 "mais al-jabal, lebanon": null,
+"majdal selm, lebanon": [
+33.225,
+35.464
+],
 "majdal zoun, lebanon": [
 33.1503,
 35.226
@@ -2370,6 +2383,10 @@
 "vienna, austria": [
 48.2084,
 16.3725
+],
+"vilniansk, ukraine": [
+47.9433,
+35.4316
 ],
 "vilnius, lithuania": [
 54.687,
