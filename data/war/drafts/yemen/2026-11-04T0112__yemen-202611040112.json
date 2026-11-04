@@ -1,0 +1,300 @@
+{
+ "status": "draft",
+ "received_sha256_12": "58f0639cf75e",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 3,
+   "assessment": 1,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-04T01:12:30+00:00",
+  "window": {
+   "from": "2026-11-03T01:12:30+00:00",
+   "to": "2026-11-04T01:12:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611040112"
+  },
+  "summary": "בזירת תימן והחות'ים נמשכת הלחימה הקרקעית והאווירית בין הממשלה התימנית הנתמכת בידי סעודיה לבין תנועת החות'ים הנתמכת בידי איראן, תוך התקדמות של החות'ים לכיוון עדן והטלת מצור על תעז. במקביל, נמשכות התקיפות והאיומים מצד החות'ים על סעודיה והאזור, מה שמוביל לשיבושים באירועים בינלאומיים בממלכה ולדיונים בין סעודיה לארצות הברית על דרכי התגובה.",
+  "fronts": [
+   {
+    "name": "חזית פנים תימן (עדן ותעז)",
+    "status": "פעיל ומחמיר"
+   },
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11040112-01",
+    "title": "יירוט כטב\"ם באזור הדרומי של סעודיה",
+    "summary": "כוחות הקופאל (הקואליציה) יירטו והשמידו כטב\"ם ששוגר על ידי המיליציה החותיה לעבר האזור הדרומי.",
+    "axis": "סעודיה-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T20:26:18+00:00",
+    "last_update_at": "2026-11-03T20:26:18+00:00",
+    "what_is_not_verified": "זהות המפעילים המדויקת פרט להגדרת המיליציה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_acda81b98a07f4f0",
+      "url": "https://www.sabanew.net/viewstory/155149",
+      "published_at": "2026-11-03T20:26:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11040112-02",
+    "title": "פגיעה בנשים בהריון ושירותי בריאות בעיר תעז",
+    "summary": "לפי קרן האוכלוסייה של האו\"ם, עימותים והגבלות גישה בתעז הותירו אלפי נשים ללא טיפול רפואי והולו עלייה בהפלות.",
+    "axis": "תימן פנים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T15:51:57+00:00",
+    "last_update_at": "2026-11-03T19:29:44+00:00",
+    "what_is_not_verified": "המספר המדויק של כלל הנפגעות וההפלות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_04766e0cb72e8f73",
+      "url": "https://www.newarab.com/news/un-says-thousands-pregnant-women-risk-yemens-taiz",
+      "published_at": "2026-11-03T19:29:44+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_bf78764efaf81d70",
+      "url": "https://www.sabanew.net/viewstory/155139",
+      "published_at": "2026-11-03T15:51:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11040112-03",
+    "title": "האשמות נגד איראן וחזבאללה על מעורבות ישירה בניהול מבצעי החות'ים",
+    "summary": "שר הפנים התימני ובכירים בממשלת תימן הצהירו כי 21 מומחים ממשמר המהפכה ומחזבאללה מנהלים ותומכים בפעילות החות'ים.",
+    "axis": "תימן-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T14:14:37+00:00",
+    "last_update_at": "2026-11-03T19:09:09+00:00",
+    "what_is_not_verified": "אמיתות המספרים והזהויות של המומחים הזרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_bd110ce8cdd34f9a",
+      "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+      "published_at": "2026-11-03T19:09:09+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_bd110ce8cdd34f9a",
+      "url": "https://www.sabanew.net/viewstory/155133",
+      "published_at": "2026-11-03T15:00:53+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_c0e6b8440ee51dc3",
+      "url": "https://www.sabanew.net/viewstory/155130",
+      "published_at": "2026-11-03T14:14:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11040112-04",
+    "title": "דיון בין שר ההגנה הסעודי ומזכיר ההגנה האמריקאי על התקפות החות'ים",
+    "summary": "הצדדים קיימו שיחת טלפון שבה דנו במאמצים להרגעת המתיחות במפרץ ובהתקפות החות'ים על סעודיה.",
+    "axis": "סעודיה-ארצות הברית-תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T16:30:32+00:00",
+    "last_update_at": "2026-11-03T16:30:32+00:00",
+    "what_is_not_verified": "פרטי הסיכומים המעשיים מהשיחה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9ec6c27df013a064",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-and-hegseth-discuss-latest-houthi-attacks",
+      "published_at": "2026-11-03T16:30:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11040112-05",
+    "title": "התקדמות כוחות החות'ים לעבר עדן וניתוק כבישים",
+    "summary": "כוחות החות'ים התקדמו עד למרחק של כ-80 קילומטרים מעדן, השתלטו על אזור אל-מקטארירה וניתקו את ציר עדן-תעז.",
+    "axis": "תימן פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T13:01:58+00:00",
+    "last_update_at": "2026-11-03T13:01:58+00:00",
+    "what_is_not_verified": "היקף השליטה המדויק בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49258",
+      "published_at": "2026-11-03T13:01:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11040112-06",
+    "title": "דחיית אליפות גביע אסיה בכדורגל בסעודיה",
+    "summary": "ההתאחדות לכדורגל באסיה הודיעה על דחיית טורניר גביע אסיה שאמור היה להתקיים בסעודיה מינואר לדצמבר 2027 בשל נסיבות אזוריות.",
+    "axis": "סעודיה-אזוריות",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T09:58:46+00:00",
+    "last_update_at": "2026-11-03T13:00:12+00:00",
+    "what_is_not_verified": "המשקל המדויק של שיקולים ביטחוניים מול לוגיסטיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_8b2321e388731958",
+      "url": "https://t.me/abualiexpress/133024",
+      "published_at": "2026-11-03T13:00:12+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_8b2321e388731958",
+      "url": "https://www.newarab.com/news/asian-cup-latest-event-saudi-arabia-be-postponed",
+      "published_at": "2026-11-03T09:58:46+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספרם וזהותם המדויקים של 21 המומחים הזרים הנטענים על ידי ממשלת תימן",
+   "ההשפעה המדויקת של המצב הביטחוני על כלל המתקנים הרפואיים בתעז",
+   "האם דחיית גביע אסיה נובעת אך ורק מאיומי החות'ים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.157,
+    "unit": "ILS",
+    "change_pct": 0.56,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-03T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנצאר אללה)",
+    "declared": [],
+    "inferred": [
+     "הרחבת השליטה הטריטורialית בתימן על חשבון ממשלת תימן",
+     "הפעלת לחץ על סעודיה באמצעות פגיעה בתשתיות ובאירועים בממלכה"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות צבאית לעבר יעדים מרכזיים כמו עדן",
+     "המשך שיגור איומים ואמצעי לחימה לעבר סעודיה והמרחב הימי"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וסעודיה",
+    "declared": [
+     "בלימת התוקפנות של המיליציה החות'ית והגנה על אזרחים"
+    ],
+    "inferred": [
+     "גיבוש שיתוף פעולה הדוק יותר עם ארצות הברית ובעלות ברית אזוריות",
+     "ניסיון לשקם את הלגיטימציה ולבלום את הפגיעה בתשתיות ובכלכלה"
+    ],
+    "forecast": [
+     "הגברת התיאום הביטחוני והצבאי בין סעודיה לארה\"ב",
+     "המשך המאבק המזוין והדיפלומטי נגד מעורבות איראן וחזבאללה בתימן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-and-hegseth-discuss-latest-houthi-attacks",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/asian-cup-latest-event-saudi-arabia-be-postponed",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155130",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133024",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49258",
+    "accessed_at": "2026-11-04T01:12:30+00:00"
+   }
+  ]
+ }
+}

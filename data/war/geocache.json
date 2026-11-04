@@ -44,6 +44,7 @@
 12.7896,
 45.0285
 ],
+"adygea republic, russia": null,
 "ahad rafidah, saudi arabia": [
 18.1814,
 42.8414
@@ -136,6 +137,7 @@
 33.1737,
 35.2111
 ],
+"al-maqatarirah, yemen": null,
 "al-midan, damascus, syria": [
 33.4933,
 36.2969
@@ -1300,6 +1302,10 @@
 56.1496,
 44.198
 ],
+"kunin, lebanon": [
+33.1479,
+35.4314
+],
 "kupiansk, ukraine": [
 49.7133,
 37.6142
@@ -1914,6 +1920,10 @@
 45.4554,
 28.2791
 ],
+"reutlingen, germany": [
+48.492,
+9.2114
+],
 "reyhanli, turkey": [
 36.2684,
 36.5672
@@ -2047,6 +2057,10 @@
 "seoul, south korea": [
 37.5667,
 126.9783
+],
+"sepopol, poland": [
+54.2679,
+21.0144
 ],
 "serpukhov, russia": [
 54.9155,

@@ -1,0 +1,321 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9ab2dc7b87f6",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-04T01:11:13+00:00",
+  "window": {
+   "from": "2026-11-03T01:11:13+00:00",
+   "to": "2026-11-04T01:11:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611040111"
+  },
+  "summary": "רוסיה ממשיכה בגל תקיפות חסר תקדים הכולל מאות כטב\"מים וטילים על תשתיות האנרגיה ואזורים אזרחיים באוקראינה, בעוד אוקראינה מתמודדת עם הפסקות חשמל ומים נרחבות והרס בתשתיות חיוניות. במקביל, נמשכים הקבועים בקו החזית ופעילות דיפלומטית וביטחונית מצד מדינות אירופה והקהילה הבינלאומית.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (קושיבחה / זפוריז'יה)",
+    "status": "פעיל מאוד עם תקיפות אוויריות קשות"
+   },
+   {
+    "name": "חזית קוסטנטיניבקה-פוקרובסק",
+    "status": "פעיל עם מאות היתקלויות יומיות"
+   },
+   {
+    "name": "העורף האוקראיני (רשת החשמל והאנרגיה)",
+    "status": "תחת מתקפה נרחבת והשבתות חירום"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11040111-01",
+    "title": "תקיפה רוסית על מרכז סיוע הומניטרי",
+    "summary": "כוחות רוסיים תקפו מבנה בית ספר שהוסב למרכז חלוקת סיוע הומניטרי, דבר שהוביל להרוגים רבים ולעשרות לכודים תחת ההריסות.",
+    "axis": "תקיפות אוויריות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T08:53:04+00:00",
+    "last_update_at": "2026-11-04T01:08:17+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק והאנשים שעדיין קבורים מתחת להריסות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "published_at": "2026-11-04T01:08:17+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.ynet.co.il/news/article/rj7bh9wtzg",
+      "published_at": "2026-11-03T18:36:21+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8061103/",
+      "published_at": "2026-11-03T18:04:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T13:26:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+      "published_at": "2026-11-03T12:25:07+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy",
+      "url": "https://www.theguardian.com/world/video/2026/nov/03/rubble-deadly-strike-ukrainian-aid-centre-video",
+      "published_at": "2026-11-03T08:53:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קומישובחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11040111-02",
+    "title": "מתקפה נרחבת על תשתיות האנרגיה באוקראינה",
+    "summary": "רוסיה שיגרה מאות טילים וכטב\"מים לעבר תשתיות האנרגיה של אוקראינה, ופגעה בתחנות כוח ומתחמים חיוניים ברחבי המדינה.",
+    "axis": "תקיפות אוויריות ואנרגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T18:28:02+00:00",
+    "last_update_at": "2026-11-04T01:08:17+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכל תחנות הכוח והמשנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy_and_dtek",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "published_at": "2026-11-04T01:08:17+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_volodymyr_zelenskyy_and_dtek",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8061119/",
+      "published_at": "2026-11-03T19:21:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_volodymyr_zelenskyy_and_dtek",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8061116/",
+      "published_at": "2026-11-03T18:47:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_volodymyr_zelenskyy_and_dtek",
+      "url": "https://meduza.io/en/news/2026/11/03/russian-strikes-trigger-emergency-power-outages-in-several-ukrainian-regions-cutting-water-supply-across-kyiv",
+      "published_at": "2026-11-03T18:28:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "ריבנה, אוקראינה",
+      "lat": 50.6196,
+      "lon": 26.2513
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11040111-03",
+    "title": "פגיעת רצף כטב\"מים במרכז לוגיסטי בדרום רוסיה",
+    "summary": "מרכז לוגיסטי של חברת הקמעונאות אוזון נפגע מכטב\"ם בדרום רוסיה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T00:42:38+00:00",
+    "last_update_at": "2026-11-04T00:42:38+00:00",
+    "what_is_not_verified": "זהות המשגר והיקף הנזק המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_6f54db7331e37087",
+      "url": "https://kyivindependent.com/drone-strikes-warehouse-in-southern-russia-online-retailer-ozon-claims/",
+      "published_at": "2026-11-04T00:42:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11040111-04",
+    "title": "פרובוקציה מנועה בגבול קלינינגרד",
+    "summary": "שלטונות פולין דיווחו כי סיכלו ניסיון פרובוקציה בגבול עם מחוז קלינינגרד הרוסי לאחר שאיתרו אנשים חשודים עם פנסים.",
+    "axis": "גבול אירופה-רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T19:42:11+00:00",
+    "last_update_at": "2026-11-03T19:42:11+00:00",
+    "what_is_not_verified": "הכוונות המדויקות של האנשים שאותרו בגבול.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_42090d2746951317",
+      "url": "https://meduza.io/en/news/2026/11/03/prime-minister-donald-tusk-says-poland-prevented-a-possible-provocation-on-the-border-with-russia-s-kaliningrad-exclave-after-spotting-people-with-flashlights",
+      "published_at": "2026-11-03T19:42:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ספופול, פולין",
+      "lat": 54.2679,
+      "lon": 21.0144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11040111-05",
+    "title": "מעצר חשודים בתיק הצתת תחנת סטארלינק בפולין",
+    "summary": "התביעה בגרמניה עצרה חשוד טורקי נוסף הקשור לחקירת הצתת תחנת סטארלינק פולנית שהתרחשה בספטמבר.",
+    "axis": "אירועים בעורף האירופי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T01:08:17+00:00",
+    "last_update_at": "2026-11-04T01:08:17+00:00",
+    "what_is_not_verified": "הקשר הישיר של הממשל הרוסי למעשה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_german_prosecutors",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "published_at": "2026-11-04T01:08:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רויטלינגן, גרמניה",
+      "lat": 48.492,
+      "lon": 9.2114
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף הנפגעים המדויק מתחת להריסות בקושיבחה",
+   "מספר הטילים והכטב\"מים המדויק שנותר פעיל בשמי אוקראינה",
+   "כיווני הפעולה המדויקים של הפרובוקציות המתוכננות בגבול פולין-קלינינגרד"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1179,
+    "unit": "USD",
+    "change_pct": -0.33,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-03T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השמדת תשתיות צבאיות ותשתיות תומכות"
+    ],
+    "inferred": [
+     "שבירת העמידות האזרחית והכלכלית של אוקראינה לקראת החורף באמצעות פגיעה במערכות החשמל, המים והחימום",
+     "יצירת לחץ על ההנהגה האוקראינית טרם חידוש שיחות השלום"
+    ],
+    "forecast": [
+     "המשך גלי תקיפה מסיביים על מתקני אנרגיה ותשתיות חיוניות באוקראינה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה והתנגדות לתוקפנות הרוסית",
+     "השגת תמיכה בינלאומית והגנה אווירית מוגברת"
+    ],
+    "inferred": [
+     "ניסיון לייצב את מערכות החשמל והמים הקורסות בערים המרכזיות",
+     "גיוס לחץ דיפלומטי בינלאומי להטלת סנקציות נוספות על רוסיה"
+    ],
+    "forecast": [
+     "היערכות לתנאי חורף קשים עקב הרס מערכות האנרגיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/drone-strikes-warehouse-in-southern-russia-online-retailer-ozon-claims/",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/03/prime-minister-donald-tusk-says-poland-prevented-a-possible-provocation-on-the-border-with-russia-s-kaliningrad-exclave-after-spotting-people-with-flashlights",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8061116/",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rj7bh9wtzg",
+    "accessed_at": "2026-11-04T01:11:13+00:00"
+   }
+  ]
+ }
+}

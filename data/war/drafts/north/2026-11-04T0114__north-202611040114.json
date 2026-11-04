@@ -1,0 +1,332 @@
+{
+ "status": "draft",
+ "received_sha256_12": "17052863c8ca",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 2,
+   "shared_root": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-04T01:14:10+00:00",
+  "window": {
+   "from": "2026-11-03T01:14:10+00:00",
+   "to": "2026-11-04T01:14:10+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611040114"
+  },
+  "summary": "הזירה הצפונית מאופיינת בפעילות צבאית נמשכת הכוללת תקיפות ארטילריות ואוויריות של צה\"ל בדרום לבנון, לצד טענות סוריות על סיכול פעילות חבלנית של חיזבאללה בתוך שטח סוריה שהוכחושות על ידי הארגון. במקביל, ישראל נערכת לאפשרות של עימות רחב יותר ומבצעת התאמות פריסה בגזרה הצפונית.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה עם תקיפות יומיות וחילופי מהלומות"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "מתיחות ביטחונית וטענות הדדיות על פעילות חתרנית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11040114-01",
+    "title": "ירי ארטילרי ישראלי באל-מנסורי",
+    "summary": "כוחות הארטיליה של ישראל תקפו את העיירה אל-מנסורי שבדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T19:23:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T19:23:56+00:00",
+    "last_update_at": "2026-11-03T19:23:56+00:00",
+    "what_is_not_verified": "היקף הנזק המלא או נפגעים אינו מפורט מעבר לדיווח על עצם הירי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/146487/",
+      "published_at": "2026-11-03T19:23:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11040114-02",
+    "title": "פתיחת חקירה משפטית בצרפת בגין פשעי מלחמה",
+    "summary": "בית המשפט בפריז מינה שני שופטים חוקרים בעקבות תלונה על פשעי מלחמה שהגיש אזרח צרפתי-לבנוני על תקיפה ישראלית בביירות בשנת 2024 שבה נהרגו הוריו.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T06:03:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T06:03:07+00:00",
+    "last_update_at": "2026-11-03T18:40:36+00:00",
+    "what_is_not_verified": "תוצאות החקירה המשפטית בצרפת טרם התבררו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_afp",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/french-judges-probe-war-crimes-complaint-against-israeli-army-lebanon",
+      "published_at": "2026-11-03T18:40:36+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_afp",
+      "url": "https://www.newarab.com/news/french-judges-probe-complaint-israeli-war-crimes-lebanon",
+      "published_at": "2026-11-03T17:05:13+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_afp",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966145/french-judges-probe-war-crimes-complaint-against-israeli-army-in-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966145",
+      "published_at": "2026-11-03T06:03:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "פריז, צרפת",
+      "lat": 48.8535,
+      "lon": 2.3484
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11040114-03",
+    "title": "סיכול לכאורה של תוכנית תקיפה נגד בית הזיקוק בחומס",
+    "summary": "השלטונות בסוריה דיווחו כי עצרו חוליה הקשורה לחיזבאללה שתכננה לתקוף את בית הזיקוק לנפט בחומס.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T10:40:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T10:40:08+00:00",
+    "last_update_at": "2026-11-03T18:38:10+00:00",
+    "what_is_not_verified": "מספר העצורים המדויק וזהותם המדויקת אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-says-it-foiled-hezbollah-plot-attack-homs-oil-refinery",
+      "published_at": "2026-11-03T18:38:10+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/966215/syria-says-it-foiled-hezbollah-plot-to-attack-homs-oil-refinery/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966215",
+      "published_at": "2026-11-03T10:40:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חומס, סוריה",
+      "lat": 34.7333,
+      "lon": 36.7167
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11040114-04",
+    "title": "תקיפות אוויריות וארטילריות בנפת בינת ג'ביל",
+    "summary": "כוחות ישראליים תקפו בארטילריה את פאתי העיירה עייתא אל-ג'יבל ופתחו בירי מקלעים לעבר הכניסה לקונין.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T16:00:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T16:00:48+00:00",
+    "last_update_at": "2026-11-03T18:24:03+00:00",
+    "what_is_not_verified": "פרטים מדויקים על נפגעים או נזק חומרי נוסף אינם ידועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-hit-lebanons-bint-jbeil-district",
+      "published_at": "2026-11-03T18:24:03+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/146407/",
+      "published_at": "2026-11-03T16:00:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בינת ג'ביל, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     },
+     {
+      "name": "קונין, לבנון",
+      "lat": 33.1479,
+      "lon": 35.4314
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11040114-05",
+    "title": "סיכום פעילות צק\"ח 7 בדרום לבנון",
+    "summary": "צוות קרב חטיבתי 7 של צה\"ל השלים שמונה חודשי פעילות בדרום לבנון, הכוללים השמדת תשתיות וחיסול מחבלים.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T10:02:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T10:02:16+00:00",
+    "last_update_at": "2026-11-03T15:12:14+00:00",
+    "what_is_not_verified": "הנתונים המדויקים על מספר החיסולים והתשתיות מבוססים על הודעות צבאיות ואינם ניתנים לאימות עצמאי מלא בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25537",
+      "published_at": "2026-11-03T15:12:14+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25536",
+      "published_at": "2026-11-03T10:02:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11040114-06",
+    "title": "ירי ארטילרי באזור שבין מייפדון וזווטאר א-שרקייה",
+    "summary": "כוחות הארטילריה של ישראל תקפו את האזור שבין מייפדון לזווטאר א-שרקייה בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T12:52:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T12:52:31+00:00",
+    "last_update_at": "2026-11-03T12:52:31+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מפורט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/146382/",
+      "published_at": "2026-11-03T12:52:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מייפדון, לבנון",
+      "lat": 33.3485,
+      "lon": 35.4772
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה הסורית לפיה חיזבאללה תכנן לתקוף את בית הזיקוק בחומס",
+   "הערכות גורמי ביטחון ישראליים לגבי תקיפה קרבה באיראן והשלכותיה על הזירה הצפונית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.157,
+    "unit": "ILS",
+    "change_pct": 0.56,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-03T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "התמקדות בעימות מול האויב הישראלי",
+     "הכחשת מעורבות בפעילות ביטחונית בשטח סוריה"
+    ],
+    "inferred": [
+     "שימור יכולות צבאיות בדרום לבנון",
+     "שמירה על השפעה אזורית למרות לחצים כלכליים ומדיניים"
+    ],
+    "forecast": [
+     "המשך שמירה על רף עימות מבוקר מול ישראל",
+     "דחיית דרישות לפירוק מנשק או צמצום פעילות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים מצידו של חיזבאללה בגבול הצפון",
+     "פגיעה בתשתיות טרור והרחקת כוחות עוינים מהגבול"
+    ],
+    "inferred": [
+     "היערכות לאפשרות של הסלמה כוללת במספר זירות",
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות נגד יעדי טרור",
+     "שמירת כוננות גבוהה בפיתוח תשתיות הגנה והתקפה בצפון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/146382/",
+    "accessed_at": "2026-11-04T01:14:10+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/966215/syria-says-it-foiled-hezbollah-plot-to-attack-homs-oil-refinery/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966215",
+    "accessed_at": "2026-11-04T01:14:10+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-hit-lebanons-bint-jbeil-district",
+    "accessed_at": "2026-11-04T01:14:10+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-says-it-foiled-hezbollah-plot-attack-homs-oil-refinery",
+    "accessed_at": "2026-11-04T01:14:10+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25536",
+    "accessed_at": "2026-11-04T01:14:10+00:00"
+   }
+  ]
+ }
+}
