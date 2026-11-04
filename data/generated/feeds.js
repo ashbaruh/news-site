@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:17:18+00:00",
-  "fetched_at": "2026-11-04T22:17:18+00:00"
+  "checked_at": "2026-11-04T23:17:21+00:00",
+  "fetched_at": "2026-11-04T23:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:17:29+00:00",
-  "fetched_at": "2026-11-04T22:17:29+00:00"
+  "checked_at": "2026-11-04T23:17:30+00:00",
+  "fetched_at": "2026-11-04T23:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:17:29+00:00",
-  "fetched_at": "2026-11-04T22:17:29+00:00"
+  "checked_at": "2026-11-04T23:17:30+00:00",
+  "fetched_at": "2026-11-04T23:17:30+00:00"
  },
- "generated_at": "2026-11-04T22:17:29+00:00",
+ "generated_at": "2026-11-04T23:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:17:20+00:00",
-  "fetched_at": "2026-11-04T22:17:20+00:00"
+  "checked_at": "2026-11-04T23:17:22+00:00",
+  "fetched_at": "2026-11-04T23:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:17:21+00:00",
-  "fetched_at": "2026-11-04T22:17:21+00:00"
+  "checked_at": "2026-11-04T23:17:23+00:00",
+  "fetched_at": "2026-11-04T23:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2554,8 +2554,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-04T22:17:22+00:00",
-  "fetched_at": "2026-11-04T22:17:22+00:00"
+  "checked_at": "2026-11-04T23:17:24+00:00",
+  "fetched_at": "2026-11-04T23:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2731,8 +2731,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:17:22+00:00",
-  "fetched_at": "2026-11-04T22:17:22+00:00"
+  "checked_at": "2026-11-04T23:17:24+00:00",
+  "fetched_at": "2026-11-04T23:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -2747,34 +2747,31 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "Google",
-     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-     "date": "2026-11-02T17:45:00+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/evolve-to-ai-2026-recap/",
+     "date": "2026-11-04T15:44:25+00:00",
      "launch": false,
-     "title_en": "The latest AI news we announced in October 2026",
-     "title_he": "חדשות הבינה המלאכותית האחרונות שהכרזנו באוקטובר 2026",
-     "translated_by": "mymemory"
+     "title": "לא באתם לכנס Evolve to AI? הנה כל מה שפספסתם"
     }
    ],
-   "candidates": 7,
+   "candidates": 13,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1288,
+     "likes": 1291,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 124,
+     "likes": 128,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -2788,14 +2785,14 @@ window.DB.generated = {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 368,
+     "likes": 369,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 160,
+     "likes": 161,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -2836,12 +2833,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:17:28+00:00",
-  "fetched_at": "2026-11-04T22:17:28+00:00"
+  "checked_at": "2026-11-04T23:17:30+00:00",
+  "fetched_at": "2026-11-04T23:17:30+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מנור סולומון שיחק 69 דקות, קאמבק משוגע לווסטהאם בקרדיף",
+     "link": "https://sports.walla.co.il/item/3875034",
+     "date": "2026-11-04T21:40:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "69 דקות לסולומון, ווסטהאם נפרדה ב-3:3 מקרדיף",
      "link": "https://www.one.co.il/Article/537950.html?ref=rss",
@@ -2956,15 +2962,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3874831",
      "date": "2026-11-03T15:51:00+00:00",
      "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "שיחת הטלפון ששינתה הכל: מאחורי הפריחה של אבדיה",
-     "link": "https://www.one.co.il/Article/537900.html?ref=rss",
-     "date": "2026-11-03T15:01:00+00:00",
-     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -3189,8 +3186,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-04T22:17:26+00:00",
-  "fetched_at": "2026-11-04T22:17:26+00:00"
+  "checked_at": "2026-11-04T23:17:26+00:00",
+  "fetched_at": "2026-11-04T23:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3220,10 +3217,9 @@ window.DB.generated = {
     "date": "2026-11-02T15:40:11+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-04T22:17:26+00:00",
-  "fetched_at": "2026-11-04T22:14:33+00:00"
+  "ok": true,
+  "checked_at": "2026-11-04T23:17:27+00:00",
+  "fetched_at": "2026-11-04T23:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3231,49 +3227,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-04T21:04:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-04T06:24:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-04T22:55:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-04T19:26:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-04T21:05:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "newest": "2026-11-04T22:43:00+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-04T15:37:26+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3285,25 +3281,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-04T15:44:25+00:00",
-    "seen_at": "2026-11-04T22:14:39+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-03T19:30:09+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-04T16:49:06+00:00",
-    "seen_at": "2026-11-04T22:17:29+00:00",
+    "seen_at": "2026-11-04T23:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3313,7 +3309,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-04T22:17:29+00:00"
+  "checked_at": "2026-11-04T23:17:30+00:00"
  },
  "health_news": {
   "data": [
@@ -3468,8 +3464,9 @@ window.DB.generated = {
     "date": "2026-10-18T11:09:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-04T22:17:27+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-04T23:17:27+00:00",
   "fetched_at": "2026-11-04T22:17:27+00:00"
  }
 };
