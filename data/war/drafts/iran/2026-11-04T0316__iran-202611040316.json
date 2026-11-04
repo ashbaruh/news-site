@@ -1,0 +1,278 @@
+{
+ "status": "draft",
+ "received_sha256_12": "49e5c0b0aad0",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-04T03:16:42+00:00",
+  "window": {
+   "from": "2026-11-03T03:16:42+00:00",
+   "to": "2026-11-04T03:16:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611040316"
+  },
+  "summary": "הזירה מתאפיינת במתיחות גבוהה בין ארה\"ב וישראל לבין איראן, הכוללת תקיפות מוגבלות של ארה\"ב באיראן לצד מאמצים דיפלומטיים ותיווך מצד קטאר להשגת הסדר ביניים. איראן ושלוחיה מאיימים בתגובה רחבה ובלתי מוגבלת גאוגרפית לכל תקיפה חדשה, בעוד המעצמות בוחנות את צעדיהן על רקע לחצים כלכליים ומצור ימי.",
+  "fronts": [
+   {
+    "name": "ציר ארה\"ב-איראן",
+    "status": "פעיל עם תקיפות מוגבלות ומגעים דיפלומטיים עקיפים"
+   },
+   {
+    "name": "ציר ישראל-איראן",
+    "status": "מתוח מאוד עם חילופי איומים והתרעות מודיעיניות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11040316-01",
+    "title": "תקיפה אמריקאית באי קשם",
+    "summary": "ארצות הברית ביצעה תקיפות מוגבלות והגנתיות נגד מטרות, בהן טילי קרקע-אוויר, באי קשם באיראן.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-02T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T02:28:07+00:00",
+    "last_update_at": "2026-11-04T00:24:13+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והתוצאות המדויקות של התקיפות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-qatar-working-towards-interim-deal-end-us-iran-escalation",
+      "published_at": "2026-11-04T00:24:13+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "published_at": "2026-11-03T13:52:34+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
+      "published_at": "2026-11-03T12:12:06+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T11:33:33+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+      "published_at": "2026-11-03T02:28:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11040316-02",
+    "title": "העברת מידע מודיעיני מישראל לארה\"ב על איום כימי איראני",
+    "summary": "…",
+    "axis": "ישראל-איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T18:03:35+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-03T18:03:35+00:00",
+    "last_update_at": "2026-11-03T19:10:33+00:00",
+    "what_is_not_verified": "אמינות המידע המודיעיני ומשמעותו המדויקת לפי גורמים אמריקניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133044",
+      "published_at": "2026-11-03T19:10:33+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383960002",
+      "published_at": "2026-11-03T18:18:37+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bk9czip6gl",
+      "published_at": "2026-11-03T18:16:55+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49267",
+      "published_at": "2026-11-03T18:14:52+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94945",
+      "published_at": "2026-11-03T18:03:35+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11040316-03",
+    "title": "שיבושי אינטרנט באיראן",
+    "summary": "משתמשי אינטרנט בטהראן ובכמה מחוזות נוספים דיווחו על הפסקות וחיבור לא יציב על רקע המתח הביטחוני.",
+    "axis": "איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-03T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-03T21:36:54+00:00",
+    "last_update_at": "2026-11-03T21:36:54+00:00",
+    "what_is_not_verified": "הגורם הישיר והרשמי לשיבושי האינטרנט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611039785",
+      "published_at": "2026-11-03T21:36:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על כוונה איראנית להשתמש בנשק כימי נגד יריבות",
+   "קיומן של תוכניות אמריקניות לתקיפה נרחבת מיידית באיראן",
+   "היקף הנזק המדויק בתקיפה על אי קשם"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.157,
+    "unit": "ILS",
+    "change_pct": 0.56,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-03T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הכנת תוכנית מקסימום הרתעה ותגובה מיידית ללא מגבלות גיאוגרפיות לכל תקיפה חדשה"
+    ],
+    "inferred": [
+     "שאיפה למנוע פגיעה בתשתיות קריטיות וביציבות המשטר תחת לחץ כלכלי ומצור ימי"
+    ],
+    "forecast": [
+     "המשך איומים על בסיסים מערביים ועל נתיבי השיט במפרץ במקרה של הסלמה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "נכונות לפעול צבאית במידת הצורך לצד הפעלת לחץ כלכלי ומצור ימי"
+    ],
+    "inferred": [
+     "שמירה על הרתעה אזורית מבלי להיגרר למלחמה כוללת רחבה שתפגע בכלכלה ובמצב הפוליטי"
+    ],
+    "forecast": [
+     "בחינת אפשרות להסכמי ביניים בתיווך קטאר תוך שמירה על כוננות גבוהה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגנה עצמית מפני מתקפות איראן ושלוחיה"
+    ],
+    "inferred": [
+     "ניסיון להניע את ארה\"ב ואת הקהילה הבינלאומית לפעול בנחישות נגד איומי הגרעין והנשק הכימי של איראן"
+    ],
+    "forecast": [
+     "המשך תיאום ביטחוני הדוק עם ארה\"ב ומעקב אחר ההתפתחויות הצבאיות מול טהרן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611039785",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-qatar-working-towards-interim-deal-end-us-iran-escalation",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133044",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49267",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94945",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383960002",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bk9czip6gl",
+    "accessed_at": "2026-11-04T03:16:42+00:00"
+   }
+  ]
+ }
+}

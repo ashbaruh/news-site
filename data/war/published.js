@@ -327,74 +327,74 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-03T0959__iran-202611030959.json",
+  "draft": "drafts/iran/2026-11-04T0316__iran-202611040316.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-03T09:59:47+00:00",
+   "generated_at": "2026-11-04T03:16:42+00:00",
    "window": {
-    "from": "2026-11-02T09:59:47+00:00",
-    "to": "2026-11-03T09:59:47+00:00"
+    "from": "2026-11-03T03:16:42+00:00",
+    "to": "2026-11-04T03:16:42+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202611030959"
+    "run_id": "iran-202611040316"
    },
-   "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך על רקע תקיפות אמריקאיות מוגבלות באיראן ומאמצים דיפלומטיים עקיפים שנמשכים סביב סוגיות הגרעין והשליטה במצר הורמוז. במקביל, בכירים באיראן משמיעים איומים להרחיב את טווח הלחימה למדינות אירופה ולארה\"ב, בעוד שוק האנרגיה והכלכלה העולמית מושגים קשות מהמתיחות הממושכת במפרץ.",
+   "summary": "הזירה מתאפיינת במתיחות גבוהה בין ארה\"ב וישראל לבין איראן, הכוללת תקיפות מוגבלות של ארה\"ב באיראן לצד מאמצים דיפלומטיים ותיווך מצד קטאר להשגת הסדר ביניים. איראן ושלוחיה מאיימים בתגובה רחבה ובלתי מוגבלת גאוגרפית לכל תקיפה חדשה, בעוד המעצמות בוחנות את צעדיהן על רקע לחצים כלכליים ומצור ימי.",
    "fronts": [
     {
-     "name": "חזית איראן - ארה\"ב",
-     "status": "פעיל עם תקיפות מוגבלות וחילופי איומים"
+     "name": "ציר ארה\"ב-איראן",
+     "status": "פעיל עם תקיפות מוגבלות ומגעים דיפלומטיים עקיפים"
     },
     {
-     "name": "חזית מצר הורמוז והכלכלה הימית",
-     "status": "חסום או מנוטרל חלקית תחת איומים הדדיים"
+     "name": "ציר ישראל-איראן",
+     "status": "מתוח מאוד עם חילופי איומים והתרעות מודיעיניות"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11030959-01",
-     "title": "תקיפות אמריקאיות באי קשם ובבנדר לנגה",
-     "summary": "צבא ארה\"ב ביצע תקיפות מוגבלות והגנתיות באיראן בתגובה לירי לעבר נכסים וכלי טיס אמריקאיים.",
+     "id": "IRAN-11040316-01",
+     "title": "תקיפה אמריקאית באי קשם",
+     "summary": "ארצות הברית ביצעה תקיפות מוגבלות והגנתיות נגד מטרות, בהן טילי קרקע-אוויר, באי קשם באיראן.",
      "axis": "ארה\"ב-איראן",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-02T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-03T02:23:43+00:00",
-     "last_update_at": "2026-11-03T08:14:14+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק וזהות הנכסים שנפגעו באופן מלא.",
-     "is_new_in_window": true,
+     "first_reported_at": "2026-11-03T02:28:07+00:00",
+     "last_update_at": "2026-11-04T00:24:13+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והתוצאות המדויקות של התקיפות.",
+     "is_new_in_window": false,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
-       "published_at": "2026-11-03T08:14:14+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-qatar-working-towards-interim-deal-end-us-iran-escalation",
+       "published_at": "2026-11-04T00:24:13+00:00"
       },
       {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-       "published_at": "2026-11-03T08:13:46+00:00"
+       "published_at": "2026-11-03T13:52:34+00:00"
       },
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/us-carries-out-defensive-strikes-irans-qeshm-island-officials-say",
-       "published_at": "2026-11-03T05:46:31+00:00"
+       "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
+       "published_at": "2026-11-03T12:12:06+00:00"
       },
       {
        "source_id": "src_bbc",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-03T03:39:08+00:00"
+       "published_at": "2026-11-03T11:33:33+00:00"
       },
       {
-       "source_id": "src_israelhayom",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21764581",
-       "published_at": "2026-11-03T02:23:43+00:00"
+       "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+       "published_at": "2026-11-03T02:28:07+00:00"
       }
      ],
      "places": [
@@ -402,148 +402,90 @@ window.DB.war_published = {
        "name": "אי קשם, איראן",
        "lat": 26.7687,
        "lon": 55.8477
-      },
-      {
-       "name": "בנדר לנגה, איראן",
-       "lat": 26.5621,
-       "lon": 54.8838
       }
      ]
     },
     {
-     "id": "IRAN-11030959-02",
-     "title": "איומים איראניים על הרחבת המלחמה לאירופה וארה\"ב",
-     "summary": "גורמים צבאיים ופרלמנטריים באיראן איימו כי עימות עתידי יתרחב מעבר למזרח התיכון ויכלול תקיפות על מתקנים אמריקאיים ואירופיים.",
-     "axis": "איראן מול ארה\"ב ואירופה",
-     "claim_type": "statement",
+     "id": "IRAN-11040316-02",
+     "title": "העברת מידע מודיעיני מישראל לארה\"ב על איום כימי איראני",
+     "summary": "…",
+     "axis": "ישראל-איראן-ארה\"ב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-03T18:03:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-03T18:03:35+00:00",
+     "last_update_at": "2026-11-03T19:10:33+00:00",
+     "what_is_not_verified": "אמינות המידע המודיעיני ומשמעותו המדויקת לפי גורמים אמריקניים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133044",
+       "published_at": "2026-11-03T19:10:33+00:00"
+      },
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383960002",
+       "published_at": "2026-11-03T18:18:37+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/bk9czip6gl",
+       "published_at": "2026-11-03T18:16:55+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49267",
+       "published_at": "2026-11-03T18:14:52+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/94945",
+       "published_at": "2026-11-03T18:03:35+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11040316-03",
+     "title": "שיבושי אינטרנט באיראן",
+     "summary": "משתמשי אינטרנט בטהראן ובכמה מחוזות נוספים דיווחו על הפסקות וחיבור לא יציב על רקע המתח הביטחוני.",
+     "axis": "איראן",
+     "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-03T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-03T08:14:14+00:00",
-     "last_update_at": "2026-11-03T09:56:49+00:00",
-     "what_is_not_verified": "האם איראן אכן מחזיקה ביכולות מבצעיות מדויקות לפגוע באירופה ובארה\"ב באמצעות טילים בין-יבשתיים.",
+     "first_reported_at": "2026-11-03T21:36:54+00:00",
+     "last_update_at": "2026-11-03T21:36:54+00:00",
+     "what_is_not_verified": "הגורם הישיר והרשמי לשיבושי האינטרנט.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611036564",
-       "published_at": "2026-11-03T09:56:49+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133016",
-       "published_at": "2026-11-03T09:28:24+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
-       "published_at": "2026-11-03T08:14:14+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11030959-03",
-     "title": "הצעת איראן לתנאים לפתיחת מצר הורמוז",
-     "summary": "איראן הציעה תוכנית עבודה לפתיחת מצר הורמוז ולחידוש שיחות הגרעין בתמורה להיענות לדרישותיה.",
-     "axis": "איראן מול ארה\"ב והמפרץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-02T17:04:54+00:00",
-     "last_update_at": "2026-11-03T07:47:09+00:00",
-     "what_is_not_verified": "האם ארה\"ב או בעלות בריתה יסכימו לתנאים שהציגה טהרן.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133013",
-       "published_at": "2026-11-03T07:47:09+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
-       "published_at": "2026-11-02T17:42:22+00:00"
-      },
-      {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/video/20261102-iran-offers-deal-on-hormuz-strait-netanyahu-wants-to-finish-the-job",
-       "published_at": "2026-11-02T17:04:54+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11030959-04",
-     "title": "אימון צבאי של משמרות המהפכה בחמדאן",
-     "summary": "נצפו טילים בשמי העיר חמדאן באיראן במסגרת אימון של משמרות המהפכה.",
-     "axis": "איראן פנים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-02T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-02T16:58:54+00:00",
-     "last_update_at": "2026-11-02T16:58:54+00:00",
-     "what_is_not_verified": "לא מאומת האם מדובר באימון שגרתי בלבד או בהיערכות מיוחדת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49227",
-       "published_at": "2026-11-02T16:58:54+00:00"
+       "url": "https://www.iranintl.com/en/202611039785",
+       "published_at": "2026-11-03T21:36:54+00:00"
       }
      ],
      "places": [
       {
-       "name": "חמדאן, איראן",
-       "lat": 34.9726,
-       "lon": 48.6564
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
       }
      ]
     }
    ],
    "not_verified": [
-    "ה",
-    "ט",
-    "ע",
-    "נ",
-    "ה",
-    "ש",
-    "ל",
-    "ח",
-    "ב",
-    "ר",
-    "ה",
-    "פ",
-    "ר",
-    "ל",
-    "מ",
-    "נ",
-    "ט",
-    "ה",
-    "א",
-    "י",
-    "ר",
-    "א",
-    "נ",
-    "י",
-    "ל",
-    "פ",
-    "י",
-    "ה",
-    "א",
-    "י",
-    "ר",
-    "א",
-    "ן"
+    "טענות על כוונה איראנית להשתמש בנשק כימי נגד יריבות",
+    "קיומן של תוכניות אמריקניות לתקיפה נרחבת מיידית באיראן",
+    "היקף הנזק המדויק בתקיפה על אי קשם"
    ],
    "map": {
     "confidence": "medium",
@@ -554,116 +496,119 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1393,
+     "value": 3.157,
      "unit": "ILS",
-     "change_pct": 0.35,
+     "change_pct": 0.56,
      "source_id": "src_ecb",
-     "as_of": "2026-11-02T15:00:00+00:00"
+     "as_of": "2026-11-03T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "הגנה על המדינה מפני תקיפות זרות",
-      "דרישה להיענות לתנאיה כתנאי לפתיחת מצר הורמוז",
-      "איום בהרחבת זירת הלחימה לאירופה ולארה\"ב"
+      "הכנת תוכנית מקסימום הרתעה ותגובה מיידית ללא מגבלות גיאוגרפיות לכל תקיפה חדשה"
      ],
      "inferred": [
-      "שאיפה להסרת סנקציות ולבלום את הדרישות המערביות במו\"מ",
-      "ניסיון להפעיל לחץ כלכלי על המערב באמצעות שיבוש נתיבי האנרגיה"
+      "שאיפה למנוע פגיעה בתשתיות קריטיות וביציבות המשטר תחת לחץ כלכלי ומצור ימי"
      ],
      "forecast": [
-      "המשך שימוש באיומי טילים ובהסלמה ימית כדי לשפר עמדות מיקוח",
-      "החרפת הרטוריקה נגד אירופה וארה\"ב"
+      "המשך איומים על בסיסים מערביים ועל נתיבי השיט במפרץ במקרה של הסלמה"
      ]
     },
     {
-     "actor": "ארה\"ב",
+     "actor": "ארצות הברית",
      "declared": [
-      "הגנה על נכסים וכלים צבאיים באזור מפני תקיפות איראניות",
-      "מניעת התבססות גרעינית צבאית איראנית"
+      "נכונות לפעול צבאית במידת הצורך לצד הפעלת לחץ כלכלי ומצור ימי"
      ],
      "inferred": [
-      "שמירה על הרתעה באמצעות תקיפות נקודתיות מוגבלות מבלי להיגרר למלחמה כוללת לפני בחירות האמצע",
-      "הפעלת לחץ מרבי על טהרן לצורך הגעה להסכם נוח"
+      "שמירה על הרתעה אזורית מבלי להיגרר למלחמה כוללת רחבה שתפגע בכלכלה ובמצב הפוליטי"
      ],
      "forecast": [
-      "המשך תקיפות נקודתיות וממוקדות אם יימשכו האיומים או הירי לעבר כוחותיה",
-      "המתנה לתוצאות הפוליטיות הפנימיות בארה\"ב לשם גיבוש מדיניות המשך"
+      "בחינת אפשרות להסכמי ביניים בתיווך קטאר תוך שמירה על כוננות גבוהה"
+     ]
+    },
+    {
+     "actor": "ישראל",
+     "declared": [
+      "הגנה עצמית מפני מתקפות איראן ושלוחיה"
+     ],
+     "inferred": [
+      "ניסיון להניע את ארה\"ב ואת הקהילה הבינלאומית לפעול בנחישות נגד איומי הגרעין והנשק הכימי של איראן"
+     ],
+     "forecast": [
+      "המשך תיאום ביטחוני הדוק עם ארה\"ב ומעקב אחר ההתפתחויות הצבאיות מול טהרן"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/us-carries-out-defensive-strikes-irans-qeshm-island-officials-say",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
-    },
-    {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_france24",
-     "url": "https://www.france24.com/en/video/20261102-iran-offers-deal-on-hormuz-strait-netanyahu-wants-to-finish-the-job",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_guardian",
      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202611036564",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21764581",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "url": "https://www.iranintl.com/en/202611039785",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-659",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-qatar-working-towards-interim-deal-end-us-iran-escalation",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133013",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "url": "https://t.me/abualiexpress/133044",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49227",
-     "accessed_at": "2026-11-03T09:59:47+00:00"
+     "url": "https://t.me/alexmehacarmel/49267",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/94945",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383960002",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/bk9czip6gl",
+     "accessed_at": "2026-11-04T03:16:42+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-02T20:29:48+00:00",
+  "previous_generated_at": "2026-11-03T09:59:47+00:00",
   "changes": {
-   "IRAN-11030959-01": {
-    "kind": "new"
-   },
-   "IRAN-11030959-02": {
-    "kind": "new"
-   },
-   "IRAN-11030959-03": {
+   "IRAN-11040316-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "הצעה איראנית לפתיחת מצר הורמוז וחידוש שיחות תוך יומיים",
+    "prev": "תקיפות אמריקאיות באי קשם ובבנדר לנגה",
     "score": 1.0
    },
-   "IRAN-11030959-04": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "אימון טילים של משמרות המהפכה באיראן",
-    "score": 1.0
+   "IRAN-11040316-02": {
+    "kind": "new"
+   },
+   "IRAN-11040316-03": {
+    "kind": "new"
    }
   }
  },
