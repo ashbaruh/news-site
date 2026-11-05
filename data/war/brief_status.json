@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T01:50:59+00:00",
- "ok": true,
- "msg": "עדכון ביניים 04:00: iran 3, north 3, yemen 2, ukraine 3"
+ "at": "2026-11-05T09:56:08+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.7-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.5-flash-lite צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes i"
 }
