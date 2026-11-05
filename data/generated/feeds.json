@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-05T02:17:13+00:00",
-  "fetched_at": "2026-11-05T02:17:13+00:00"
+  "checked_at": "2026-11-05T02:33:21+00:00",
+  "fetched_at": "2026-11-05T02:33:21+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T02:17:29+00:00",
-  "fetched_at": "2026-11-05T02:17:29+00:00"
+  "checked_at": "2026-11-05T02:33:33+00:00",
+  "fetched_at": "2026-11-05T02:33:33+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T02:17:29+00:00",
-  "fetched_at": "2026-11-05T02:17:29+00:00"
+  "checked_at": "2026-11-05T02:33:34+00:00",
+  "fetched_at": "2026-11-05T02:33:34+00:00"
  },
- "generated_at": "2026-11-05T02:17:29+00:00",
+ "generated_at": "2026-11-05T02:33:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T02:17:15+00:00",
-  "fetched_at": "2026-11-05T02:17:15+00:00"
+  "checked_at": "2026-11-05T02:33:22+00:00",
+  "fetched_at": "2026-11-05T02:33:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T02:17:15+00:00",
-  "fetched_at": "2026-11-05T02:17:15+00:00"
+  "checked_at": "2026-11-05T02:33:23+00:00",
+  "fetched_at": "2026-11-05T02:33:23+00:00"
  },
  "tv": {
   "data": [
@@ -2552,8 +2552,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T02:17:17+00:00",
-  "fetched_at": "2026-11-05T02:17:17+00:00"
+  "checked_at": "2026-11-05T02:33:24+00:00",
+  "fetched_at": "2026-11-05T02:33:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2729,8 +2729,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T02:17:17+00:00",
-  "fetched_at": "2026-11-05T02:17:17+00:00"
+  "checked_at": "2026-11-05T02:33:24+00:00",
+  "fetched_at": "2026-11-05T02:33:24+00:00"
  },
  "ai": {
   "data": {
@@ -2752,9 +2752,10 @@
      "title": "לא באתם לכנס Evolve to AI? הנה כל מה שפספסתם"
     }
    ],
-   "candidates": 14,
+   "candidates": 13,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2800,18 +2801,18 @@
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
+     "title": "AI Text Humanizer",
+     "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
+     "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
+     "likes": 113,
+     "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
+    },
+    {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 292,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
-    },
-    {
-     "title": "AI Text Humanizer",
-     "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
-     "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
-     "likes": 107,
-     "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
      "title": "Pika H3 Flex",
@@ -2830,8 +2831,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T02:17:28+00:00",
-  "fetched_at": "2026-11-05T02:17:28+00:00"
+  "checked_at": "2026-11-05T02:33:33+00:00",
+  "fetched_at": "2026-11-05T02:33:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3183,8 +3184,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T02:17:21+00:00",
-  "fetched_at": "2026-11-05T02:17:21+00:00"
+  "checked_at": "2026-11-05T02:33:27+00:00",
+  "fetched_at": "2026-11-05T02:33:27+00:00"
  },
  "idf": {
   "data": [
@@ -3214,10 +3215,9 @@
     "date": "2026-11-02T15:40:11+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-05T02:17:21+00:00",
-  "fetched_at": "2026-11-04T23:17:27+00:00"
+  "ok": true,
+  "checked_at": "2026-11-05T02:33:27+00:00",
+  "fetched_at": "2026-11-05T02:33:27+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3225,49 +3225,49 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-04T21:04:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-04T21:19:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-04T06:24:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-04T22:55:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-04T19:26:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-04T22:43:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-04T15:37:26+00:00",
-    "seen_at": "2026-11-04T23:17:30+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3279,35 +3279,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-04T15:44:25+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-03T19:30:09+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-04T16:49:06+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-05T02:17:29+00:00",
+    "seen_at": "2026-11-05T02:33:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-05T02:17:29+00:00"
+  "checked_at": "2026-11-05T02:33:34+00:00"
  },
  "health_news": {
   "data": [
@@ -3463,7 +3463,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T02:17:21+00:00",
-  "fetched_at": "2026-11-05T02:17:21+00:00"
+  "checked_at": "2026-11-05T02:33:28+00:00",
+  "fetched_at": "2026-11-05T02:33:28+00:00"
  }
 }
